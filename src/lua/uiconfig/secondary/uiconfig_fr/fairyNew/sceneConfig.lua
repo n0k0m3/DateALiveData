@@ -316,7 +316,7 @@ local t = {
 			y=0,
 			speed=0,
 			layer="fairyNew",
-			canLoad=true,
+			canLoad=false,
 			logic="",
 		},
 		{

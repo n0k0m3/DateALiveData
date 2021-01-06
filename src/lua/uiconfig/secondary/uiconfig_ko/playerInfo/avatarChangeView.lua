@@ -291,7 +291,7 @@ local t =
 										LeftPositon = 15,
 										TopPosition = 224,
 									},
-									width = "142",
+									width = "143",
 									ZOrder = "1",
 									components = 
 									{
@@ -661,6 +661,33 @@ local t =
 										TopPosition = 266,
 									},
 									width = "174",
+									ZOrder = "1",
+								},
+								{
+									controlID = "img_name_bubble_Panel_avatars_Panel_root_Panel-avatarChangeView_Layer1_playerInfo_Game",
+									UUID = "e0fc4ed2_9980_4267_b7a6_facf12e409ea",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "65",
+									ignoreSize = "False",
+									name = "img_name_bubble",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/playerInfo/avatar/008_1.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 883,
+										PositionY = 258,
+										relativeToName = "Panel",
+									},
+									width = "218",
 									ZOrder = "1",
 								},
 								{
@@ -1264,7 +1291,7 @@ local t =
 													{
 														PositionY = -14,
 													},
-													width = "48",
+													width = "45",
 													ZOrder = "1",
 												},
 											},
@@ -1419,7 +1446,7 @@ local t =
 													{
 														PositionY = -14,
 													},
-													width = "45",
+													width = "43",
 													ZOrder = "1",
 												},
 											},
@@ -1574,7 +1601,7 @@ local t =
 													{
 														PositionY = -14,
 													},
-													width = "50",
+													width = "47",
 													ZOrder = "1",
 												},
 											},
@@ -2080,7 +2107,7 @@ local t =
 												PositionX = 296,
 												PositionY = -20,
 											},
-											width = "82",
+											width = "72",
 											ZOrder = "1",
 										},
 									},
@@ -2215,7 +2242,7 @@ local t =
 											{
 												PositionY = -66,
 											},
-											width = "178",
+											width = "182",
 											ZOrder = "1",
 										},
 										{
@@ -2474,7 +2501,7 @@ local t =
 											{
 												PositionY = -66,
 											},
-											width = "178",
+											width = "182",
 											ZOrder = "1",
 										},
 										{
@@ -2654,6 +2681,7 @@ local t =
 			"ui/common/scroll_bar_01.png",
 			"ui/common/scroll_bar_02.png",
 			"ui/playerInfo/avatar/008.png",
+			"ui/playerInfo/avatar/008_1.png",
 			"ui/playerInfo/avatar/TXBK_moren_0.png",
 			"icon/hero/face/10201.png",
 			"ui/playerInfo/avatar/TXBK_moren_1.png",

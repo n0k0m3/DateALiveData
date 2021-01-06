@@ -194,7 +194,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 244,
-								PositionY = 222,
+								PositionY = 221,
 							},
 							uipanelviewmodel = 
 							{
@@ -420,7 +420,7 @@ local t =
 												PositionX = 50,
 												PositionY = 45,
 											},
-											width = "34",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -506,14 +506,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "36",
-											ignoreSize = "True",
+											height = "42",
+											ignoreSize = "False",
 											name = "Button_reset",
 											normal = "ui/fairy_angle/new_54.png",
 											pressed = "ui/fairy_angle/new_54.png",
@@ -524,11 +524,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 254,
-												PositionY = 24,
+												PositionX = 237,
+												PositionY = 22,
 											},
 											UItype = "Button",
-											width = "106",
+											width = "150",
 											ZOrder = "1",
 											components = 
 											{
@@ -552,7 +552,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "15",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -575,7 +575,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "105",
+													width = "141",
 													ZOrder = "1",
 												},
 											},
@@ -720,7 +720,7 @@ local t =
 												PositionX = 50,
 												PositionY = 45,
 											},
-											width = "34",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -806,14 +806,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "36",
-											ignoreSize = "True",
+											height = "42",
+											ignoreSize = "False",
 											name = "Button_reset",
 											normal = "ui/fairy_angle/new_54.png",
 											pressed = "ui/fairy_angle/new_54.png",
@@ -824,11 +824,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 254,
-												PositionY = 24,
+												PositionX = 237,
+												PositionY = 22,
 											},
 											UItype = "Button",
-											width = "106",
+											width = "150",
 											ZOrder = "1",
 											components = 
 											{
@@ -852,7 +852,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "15",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -875,7 +875,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "105",
+													width = "141",
 													ZOrder = "1",
 												},
 											},
@@ -927,7 +927,7 @@ local t =
 								PositionX = 246,
 								PositionY = 490,
 							},
-							width = "264",
+							width = "284",
 							ZOrder = "1",
 						},
 						{
@@ -1001,7 +1001,7 @@ local t =
 								PositionY = 485,
 							},
 							visible = "False",
-							width = "186",
+							width = "170",
 							ZOrder = "1",
 						},
 						{

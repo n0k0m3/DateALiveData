@@ -651,18 +651,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "25",
+											ignoreSize = "True",
 											name = "Label_have",
-											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextAlign = "0",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -674,7 +674,7 @@ local t =
 											{
 												PositionY = 40,
 											},
-											width = "196",
+											width = "279",
 											ZOrder = "1",
 										},
 										{
@@ -1248,7 +1248,7 @@ local t =
 							controlID = "Label_tips_Panel_root_Panel-summonView_Layer1_summon_Game",
 							UUID = "f6648986_2a97_41af_be75_12b58aa0e6d1",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -1270,7 +1270,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 2,
 							},
-							height = "0",
+							height = "21",
 							ignoreSize = "True",
 							name = "Label_tips",
 							nTextAlign = "1",
@@ -1280,14 +1280,15 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
+							text = "000000000000000",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -202,
+								PositionX = -377,
 								PositionY = 195,
 							},
-							width = "0",
+							width = "125",
 							ZOrder = "1",
 						},
 						{
@@ -3168,15 +3169,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "23",
+											ignoreSize = "True",
 											name = "Label_have",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -3191,7 +3192,7 @@ local t =
 											{
 												PositionY = 40,
 											},
-											width = "194",
+											width = "184",
 											ZOrder = "1",
 										},
 										{
@@ -3398,7 +3399,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,

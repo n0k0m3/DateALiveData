@@ -659,8 +659,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "23",
+											ignoreSize = "True",
 											name = "Label_have",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -675,7 +675,7 @@ local t =
 											{
 												PositionY = 35,
 											},
-											width = "196",
+											width = "170",
 											ZOrder = "1",
 										},
 										{
@@ -1649,7 +1649,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = 5,
 									},
 									width = "104",
 									ZOrder = "1",
@@ -1990,7 +1990,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								
+								PositionX = 1,
 							},
 							uipanelviewmodel = 
 							{
@@ -3214,14 +3214,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "37",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "43",
 											ignoreSize = "True",
 											name = "Label_cur",
 											nTextAlign = "1",
@@ -3238,7 +3238,7 @@ local t =
 												PositionX = 188,
 												PositionY = -4,
 											},
-											width = "54",
+											width = "75",
 											ZOrder = "1",
 										},
 									},

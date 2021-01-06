@@ -254,7 +254,7 @@ local t =
 										PositionX = 15,
 										PositionY = 42,
 									},
-									width = "134",
+									width = "146",
 									ZOrder = "1",
 									components = 
 									{
@@ -299,13 +299,13 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 134,
+												PositionX = 146,
 												PositionY = -2,
 												IsPercent = true,
 												PercentX = 100,
 												PercentY = -8,
 											},
-											width = "79",
+											width = "78",
 											ZOrder = "1",
 										},
 									},
@@ -435,7 +435,7 @@ local t =
 										PositionX = 40,
 										PositionY = 14,
 									},
-									width = "35",
+									width = "34",
 									ZOrder = "1",
 								},
 								{
@@ -481,7 +481,7 @@ local t =
 										PositionX = 632,
 										PositionY = 17,
 									},
-									width = "19",
+									width = "17",
 									ZOrder = "1",
 								},
 								{
@@ -527,7 +527,7 @@ local t =
 										PositionX = 616,
 										PositionY = 21,
 									},
-									width = "44",
+									width = "42",
 									ZOrder = "1",
 								},
 								{
@@ -871,14 +871,14 @@ local t =
 																				OffsetX = 0,
 																				OffsetY = 0,
 																			},
-																			fontSize = "16",
+																			fontSize = "18",
 																			fontStroke = 
 																			{
 																				IsStroke = false,
 																				StrokeColor = "#FFE6E6E6",
 																				StrokeSize = 1,
 																			},
-																			height = "18",
+																			height = "21",
 																			ignoreSize = "True",
 																			name = "Label_title",
 																			nTextAlign = "1",
@@ -895,7 +895,7 @@ local t =
 																				PositionX = 102,
 																				PositionY = 20,
 																			},
-																			width = "27",
+																			width = "31",
 																			ZOrder = "1",
 																		},
 																	},
@@ -1058,10 +1058,10 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_title",
-									nTextAlign = "1",
+									nTextAlign = "0",
 									nTextHAlign = "1",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1073,9 +1073,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 12,
-										PositionY = 55,
+										PositionY = 50,
 									},
-									width = "144",
+									width = "140",
 									ZOrder = "1",
 								},
 								{
@@ -1125,7 +1125,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 141,
-										PositionY = 28,
+										PositionY = 26,
 									},
 									width = "50",
 									ZOrder = "1",
@@ -1225,10 +1225,10 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_title",
-									nTextAlign = "1",
+									nTextAlign = "0",
 									nTextHAlign = "1",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1240,9 +1240,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 20,
-										PositionY = 58,
+										PositionY = 50,
 									},
-									width = "43",
+									width = "140",
 									ZOrder = "1",
 								},
 								{
@@ -1292,7 +1292,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 141,
-										PositionY = 31,
+										PositionY = 26,
 									},
 									width = "40",
 									ZOrder = "1",
@@ -1420,10 +1420,10 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_title",
-									nTextAlign = "1",
+									nTextAlign = "0",
 									nTextHAlign = "1",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1435,9 +1435,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 20,
-										PositionY = 58,
+										PositionY = 50,
 									},
-									width = "97",
+									width = "140",
 									ZOrder = "1",
 								},
 								{
@@ -1561,10 +1561,10 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_title",
-									nTextAlign = "1",
+									nTextAlign = "0",
 									nTextHAlign = "1",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1576,9 +1576,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 20,
-										PositionY = 53,
+										PositionY = 50,
 									},
-									width = "58",
+									width = "140",
 									ZOrder = "1",
 								},
 								{

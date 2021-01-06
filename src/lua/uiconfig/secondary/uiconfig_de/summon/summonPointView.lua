@@ -216,7 +216,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_view",
 									nTextAlign = "1",
@@ -232,7 +232,7 @@ local t =
 									{
 										PositionY = -24,
 									},
-									width = "47",
+									width = "111",
 									ZOrder = "1",
 								},
 								{
@@ -366,7 +366,7 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "True;capInsetsX:20;capInsetsY:20;capInsetsWidth:20;capInsetsHeight:20",
+							backGroundScale9Enable = "False",
 							classname = "MEButton",
 							ClickHighLightEnabled = "True",
 							dstBlendFunc = "771",
@@ -389,7 +389,7 @@ local t =
 								relativeToName = "Panel_root",
 							},
 							UItype = "Button",
-							width = "162",
+							width = "297",
 							ZOrder = "1",
 							components = 
 							{
@@ -420,7 +420,7 @@ local t =
 										StrokeColor = "#FFE37393",
 										StrokeSize = 2,
 									},
-									height = "34",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_exchange",
 									nTextAlign = "1",
@@ -436,7 +436,7 @@ local t =
 									{
 										
 									},
-									width = "101",
+									width = "220",
 									ZOrder = "1",
 								},
 							},
@@ -502,8 +502,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_check",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -518,7 +518,7 @@ local t =
 									{
 										PositionX = -35,
 									},
-									width = "91",
+									width = "111",
 									ZOrder = "1",
 								},
 								{
@@ -574,7 +574,7 @@ local t =
 								StrokeColor = "#FF3A4260",
 								StrokeSize = 2,
 							},
-							height = "41",
+							height = "38",
 							ignoreSize = "True",
 							name = "Label_tip1",
 							nTextAlign = "1",
@@ -588,10 +588,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 386,
-								PositionY = 193,
+								PositionX = 347,
+								PositionY = 194,
 							},
-							width = "125",
+							width = "225",
 							ZOrder = "1",
 						},
 						{
@@ -620,7 +620,7 @@ local t =
 								StrokeColor = "#FF3A4260",
 								StrokeSize = 2,
 							},
-							height = "41",
+							height = "38",
 							ignoreSize = "True",
 							name = "Label_tip2",
 							nTextAlign = "1",
@@ -634,10 +634,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -382,
-								PositionY = -236,
+								PositionX = -348,
+								PositionY = -234,
 							},
-							width = "125",
+							width = "273",
 							ZOrder = "1",
 						},
 						{
@@ -1153,7 +1153,7 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "30",
@@ -1169,7 +1169,7 @@ local t =
 									{
 										PositionY = -92,
 									},
-									width = "100",
+									width = "158",
 									ZOrder = "1",
 									components = 
 									{
@@ -1216,7 +1216,7 @@ local t =
 											{
 												
 											},
-											width = "35",
+											width = "38",
 											ZOrder = "1",
 										},
 									},

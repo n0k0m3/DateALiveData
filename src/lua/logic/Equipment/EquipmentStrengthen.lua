@@ -250,6 +250,7 @@ function EquipmentStrengthen:updateOneEquipment(data,item)
     if num then
         Label_num:setVisible(true)
         Label_num:setText(num)
+        Label_num:setFontColor(ccc3(0 , 0 , 0))
     end
 
     --星级

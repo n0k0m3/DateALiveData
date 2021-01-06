@@ -24,7 +24,7 @@ return {
         },
     },
     [3] = {
-        show = 0,
+        show = 1,
         heroSkinId = 1101031,
         sort = 4,
         id = 3,

@@ -260,7 +260,7 @@ local t =
 												PositionX = -396,
 												PositionY = 18,
 											},
-											width = "165",
+											width = "180",
 											ZOrder = "1",
 										},
 										{
@@ -306,7 +306,7 @@ local t =
 												PositionX = -387,
 												PositionY = -19,
 											},
-											width = "74",
+											width = "84",
 											ZOrder = "1",
 										},
 										{
@@ -426,7 +426,7 @@ local t =
 														PositionX = 41,
 														PositionY = -13,
 													},
-													width = "74",
+													width = "72",
 													ZOrder = "1",
 												},
 												{
@@ -534,7 +534,7 @@ local t =
 														PositionX = 19,
 														PositionY = -1,
 													},
-													width = "109",
+													width = "106",
 													ZOrder = "1",
 												},
 												{
@@ -608,7 +608,7 @@ local t =
 												PositionX = -509,
 												PositionY = 15,
 											},
-											width = "74",
+											width = "84",
 											ZOrder = "1",
 											components = 
 											{
@@ -1125,7 +1125,7 @@ local t =
 												nType = 3,
 												nGravity = 1,
 											},
-											width = "85",
+											width = "83",
 											ZOrder = "1",
 										},
 										{
@@ -1176,7 +1176,7 @@ local t =
 												nType = 3,
 												nGravity = 1,
 											},
-											width = "85",
+											width = "83",
 											ZOrder = "1",
 										},
 									},
@@ -1352,7 +1352,7 @@ local t =
 									{
 										PositionY = -5,
 									},
-									width = "178",
+									width = "164",
 									ZOrder = "1",
 								},
 							},
@@ -1363,11 +1363,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "21",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "img_limitDi",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -1377,10 +1377,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 49,
+								PositionX = 52,
 								PositionY = 27,
 							},
-							width = "141",
+							width = "152",
 							ZOrder = "1",
 							components = 
 							{
@@ -1551,7 +1551,7 @@ local t =
 								PositionX = -47,
 								PositionY = -18,
 							},
-							width = "18",
+							width = "20",
 							ZOrder = "1",
 						},
 						{
@@ -1598,7 +1598,7 @@ local t =
 								PositionY = -52,
 							},
 							visible = "False",
-							width = "75",
+							width = "65",
 							ZOrder = "1",
 						},
 						{
@@ -1645,7 +1645,7 @@ local t =
 								PositionY = -53,
 							},
 							visible = "False",
-							width = "23",
+							width = "27",
 							ZOrder = "1",
 						},
 					},

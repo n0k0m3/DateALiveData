@@ -28,6 +28,9 @@ function SimulationTrialReward:initUI(ui)
     local Label_title     = TFDirector:getChildByPath(Image_sign, "Label_title")
     Label_title:setTextById(self.resConfig.titleCn)
 
+    local Label_title     = TFDirector:getChildByPath(self.Panel_root, "Label_title")
+    if (Label_title) then Label_title:setTextById(self.resConfig.titleCn) end
+
     self.Panel_starItems   = {}
     self.Panel_starItems[1]   = TFDirector:getChildByPath(ui, "Panel_prefab_reward1"):hide()
     self.Panel_starItems[2]   = TFDirector:getChildByPath(ui, "Panel_prefab_reward2"):hide()

@@ -3498,7 +3498,7 @@ local t =
 																	controlID = "Label_con_tip_Image_con_lock_Image_con_reward_2_Image_reward1_Panel_simlationTrial_Panel_evaluation_Panel_root_Panel-battleResultView_ui_battle_Game",
 																	UUID = "c90d56f5_a034_45d5_be8b_27cecc6483bb",
 																	anchorPoint = "False",
-																	anchorPointX = "0.5",
+																	anchorPointX = "1",
 																	anchorPointY = "0.5",
 																	classname = "MELabel",
 																	compPath = "luacomponents.common.MEIconLabel",
@@ -3534,7 +3534,8 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionY = -95,
+																		PositionX = 117,
+																		PositionY = -90,
 																	},
 																	width = "360",
 																	ZOrder = "1",

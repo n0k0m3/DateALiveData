@@ -42797,8 +42797,8 @@ return {
         conditionEx = {
         },
         lineStop = {
-            [1] = 3.1,
-            [2] = 4.6,
+            [1] = 6,
+            [2] = 3.6,
         },
         idleTo = "Idle",
         modelId = 210312,
@@ -42912,8 +42912,8 @@ return {
         conditionEx = {
         },
         lineStop = {
-            [1] = 3.1,
-            [2] = 4.6,
+            [1] = 6,
+            [2] = 3.6,
         },
         idleTo = "Idle",
         modelId = 210312,
@@ -43372,8 +43372,8 @@ return {
         conditionEx = {
         },
         lineStop = {
-            [1] = 3.1,
-            [2] = 4.6,
+            [1] = 6,
+            [2] = 3.6,
         },
         idleTo = "Idle",
         modelId = 510311,
@@ -43487,8 +43487,8 @@ return {
         conditionEx = {
         },
         lineStop = {
-            [1] = 3.1,
-            [2] = 4.6,
+            [1] = 6,
+            [2] = 3.6,
         },
         idleTo = "Idle",
         modelId = 510311,

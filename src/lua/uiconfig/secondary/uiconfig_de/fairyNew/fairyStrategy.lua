@@ -141,31 +141,6 @@ local t =
 									width = "1386",
 									ZOrder = "1",
 								},
-								{
-									controlID = "Image_fairyStrategy_1_background_Panel_base_Panel-fairyStrategy_Layer1_fairyNew_Game",
-									UUID = "e1da1005_a081_4012_9c11_59b6e9f8f156",
-									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
-									classname = "MEImage",
-									dstBlendFunc = "771",
-									height = "640",
-									ignoreSize = "True",
-									name = "Image_fairyStrategy_1",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "770",
-									texturePath = "ui/Equipment/new_ui/shaixuan/0角色推荐质点效果图.png",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										
-									},
-									width = "1386",
-									ZOrder = "1",
-								},
 							},
 						},
 						{
@@ -487,7 +462,7 @@ local t =
 										PositionX = 8,
 										PositionY = 434,
 									},
-									width = "269",
+									width = "290",
 									ZOrder = "1",
 								},
 								{
@@ -533,7 +508,7 @@ local t =
 										PositionX = 10,
 										PositionY = 380,
 									},
-									width = "57",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -579,7 +554,7 @@ local t =
 										PositionX = 10,
 										PositionY = 358,
 									},
-									width = "57",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -723,7 +698,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "450",
+							height = "554",
 							ignoreSize = "False",
 							name = "Panel_fairy_character",
 							sizepercentx = "0",
@@ -767,7 +742,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 158,
-										PositionY = 433,
+										PositionY = 533,
 									},
 									width = "278",
 									ZOrder = "1",
@@ -816,7 +791,7 @@ local t =
 											{
 												PositionX = -123,
 											},
-											width = "239",
+											width = "267",
 											ZOrder = "1",
 										},
 										{
@@ -862,7 +837,8 @@ local t =
 												PositionX = 120,
 												PositionY = -4,
 											},
-											width = "70",
+											visible = "False",
+											width = "68",
 											ZOrder = "1",
 										},
 									},
@@ -888,7 +864,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 211,
-										PositionY = 317,
+										PositionY = 390,
 										IsPercent = true,
 										PercentX = 43.12,
 										PercentY = 70.44,
@@ -969,7 +945,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -991,7 +967,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 21,
-										PositionY = 190,
+										PositionY = 278,
 									},
 									width = "350",
 									ZOrder = "1",
@@ -1015,7 +991,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1037,7 +1013,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 23,
-										PositionY = 132,
+										PositionY = 187,
 									},
 									width = "350",
 									ZOrder = "1",
@@ -1061,7 +1037,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1083,7 +1059,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 27,
-										PositionY = 77,
+										PositionY = 97,
 									},
 									width = "350",
 									ZOrder = "1",
@@ -1105,7 +1081,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "140",
+							height = "184",
 							ignoreSize = "False",
 							name = "Panel_fairy_energy_text",
 							sizepercentx = "0",
@@ -1149,7 +1125,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 160,
-										PositionY = 123,
+										PositionY = 166,
 									},
 									width = "278",
 									ZOrder = "1",
@@ -1198,7 +1174,7 @@ local t =
 											{
 												PositionX = -123,
 											},
-											width = "171",
+											width = "188",
 											ZOrder = "1",
 										},
 										{
@@ -1244,7 +1220,8 @@ local t =
 												PositionX = 55,
 												PositionY = -2,
 											},
-											width = "70",
+											visible = "False",
+											width = "68",
 											ZOrder = "1",
 										},
 									},
@@ -1268,14 +1245,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "90",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_energy_desc",
 									nTextAlign = "0",
@@ -1290,7 +1267,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 33,
-										PositionY = 98,
+										PositionY = 146,
 									},
 									width = "410",
 									ZOrder = "1",
@@ -1406,7 +1383,7 @@ local t =
 												PositionX = -123,
 												PositionY = 1,
 											},
-											width = "110",
+											width = "129",
 											ZOrder = "1",
 										},
 										{
@@ -1452,7 +1429,8 @@ local t =
 												PositionX = 6,
 												PositionY = -2,
 											},
-											width = "70",
+											visible = "False",
+											width = "68",
 											ZOrder = "1",
 										},
 									},
@@ -1620,7 +1598,7 @@ local t =
 														PositionX = 74,
 														PositionY = 15,
 													},
-													width = "158",
+													width = "153",
 													ZOrder = "1",
 												},
 												{
@@ -1666,7 +1644,7 @@ local t =
 														PositionX = 75,
 														PositionY = -15,
 													},
-													width = "149",
+													width = "147",
 													ZOrder = "1",
 												},
 											},
@@ -1806,7 +1784,7 @@ local t =
 														PositionX = 75,
 														PositionY = 15,
 													},
-													width = "158",
+													width = "153",
 													ZOrder = "1",
 												},
 												{
@@ -1852,7 +1830,7 @@ local t =
 														PositionX = 75,
 														PositionY = -15,
 													},
-													width = "143",
+													width = "138",
 													ZOrder = "1",
 												},
 											},
@@ -1992,7 +1970,7 @@ local t =
 														PositionX = 75,
 														PositionY = 15,
 													},
-													width = "158",
+													width = "153",
 													ZOrder = "1",
 												},
 												{
@@ -2038,7 +2016,7 @@ local t =
 														PositionX = 75,
 														PositionY = -15,
 													},
-													width = "143",
+													width = "138",
 													ZOrder = "1",
 												},
 											},
@@ -2088,7 +2066,7 @@ local t =
 										PositionX = 26,
 										PositionY = 100,
 									},
-									width = "148",
+									width = "139",
 									ZOrder = "1",
 								},
 								{
@@ -2824,7 +2802,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "300",
+							height = "382",
 							ignoreSize = "False",
 							name = "Panel_fairy_energy",
 							sizepercentx = "0",
@@ -2868,7 +2846,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 160,
-										PositionY = 283,
+										PositionY = 364,
 									},
 									width = "278",
 									ZOrder = "1",
@@ -2918,7 +2896,7 @@ local t =
 												PositionX = -124,
 												PositionY = 1,
 											},
-											width = "171",
+											width = "188",
 											ZOrder = "1",
 										},
 										{
@@ -2964,7 +2942,8 @@ local t =
 												PositionX = 49,
 												PositionY = -1,
 											},
-											width = "70",
+											visible = "False",
+											width = "68",
 											ZOrder = "1",
 										},
 									},
@@ -2978,7 +2957,7 @@ local t =
 									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "216",
+									height = "327",
 									ignoreSize = "False",
 									name = "Image_energy_info",
 									sizepercentx = "0",
@@ -2990,7 +2969,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 244,
-										PositionY = 138,
+										PositionY = 175,
 									},
 									width = "440",
 									ZOrder = "1",
@@ -3123,14 +3102,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_energy_min",
 											nTextAlign = "1",
@@ -3144,10 +3123,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -84,
-												PositionY = 86,
+												PositionX = -89,
+												PositionY = 145,
 											},
-											width = "100",
+											width = "107",
 											ZOrder = "1",
 										},
 										{
@@ -3169,14 +3148,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_energy_max",
 											nTextAlign = "1",
@@ -3190,10 +3169,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 56,
-												PositionY = 86,
+												PositionX = 50,
+												PositionY = 145,
 											},
-											width = "100",
+											width = "107",
 											ZOrder = "1",
 										},
 										{
@@ -3215,7 +3194,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -3236,8 +3215,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -83,
-												PositionY = 54,
+												PositionX = -88,
+												PositionY = 113,
 											},
 											width = "280",
 											ZOrder = "1",
@@ -3261,14 +3240,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "130",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_energy_desc2",
 											nTextAlign = "0",
@@ -3282,8 +3261,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -83,
-												PositionY = 33,
+												PositionX = -88,
+												PositionY = 92,
 											},
 											width = "280",
 											ZOrder = "1",
@@ -3500,7 +3479,7 @@ local t =
 										PositionX = 15,
 										PositionY = -28,
 									},
-									width = "236",
+									width = "258",
 									ZOrder = "1",
 								},
 							},
@@ -3520,7 +3499,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "340",
+							height = "399",
 							ignoreSize = "False",
 							name = "Panel_suit_model",
 							sizepercentx = "0",
@@ -3564,7 +3543,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 245,
-										PositionY = 217,
+										PositionY = 273,
 									},
 									width = "440",
 									ZOrder = "1",
@@ -3610,9 +3589,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 245,
-										PositionY = 318,
+										PositionY = 374,
 									},
-									width = "38",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -3634,14 +3613,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "80",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_suit_desc",
 									nTextAlign = "0",
@@ -3655,8 +3634,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 30,
-										PositionY = 88,
+										PositionX = 31,
+										PositionY = 144,
 									},
 									width = "420",
 									ZOrder = "1",
@@ -3689,7 +3668,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 108,
-										PositionY = 201,
+										PositionY = 257,
 									},
 									uipanelviewmodel = 
 									{
@@ -3819,7 +3798,7 @@ local t =
 												PositionX = -25,
 												PositionY = 77,
 											},
-											width = "20",
+											width = "22",
 											ZOrder = "1",
 											components = 
 											{
@@ -4175,7 +4154,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 244,
-										PositionY = 201,
+										PositionY = 257,
 									},
 									uipanelviewmodel = 
 									{
@@ -4305,7 +4284,7 @@ local t =
 												PositionX = -25,
 												PositionY = 77,
 											},
-											width = "20",
+											width = "22",
 											ZOrder = "1",
 											components = 
 											{
@@ -4661,7 +4640,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 381,
-										PositionY = 201,
+										PositionY = 257,
 									},
 									uipanelviewmodel = 
 									{
@@ -4791,7 +4770,7 @@ local t =
 												PositionX = -25,
 												PositionY = 77,
 											},
-											width = "20",
+											width = "22",
 											ZOrder = "1",
 											components = 
 											{
@@ -5135,7 +5114,6 @@ local t =
 		textures = 
 		{
 			"ui/fairy/new_ui/new_bg_01.png",
-			"ui/Equipment/new_ui/shaixuan/0角色推荐质点效果图.png",
 			"ui/fairy/new_ui/new_06.png",
 			"ui/fairy/new_ui/new_08.png",
 			"ui/fairy/new_ui/new_05.png",

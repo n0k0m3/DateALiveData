@@ -159,7 +159,7 @@ local t =
 										PositionX = -353,
 										PositionY = 182,
 									},
-									width = "47",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
@@ -1596,7 +1596,7 @@ local t =
 														PositionX = 248,
 														PositionY = -2,
 													},
-													width = "58",
+													width = "52",
 													ZOrder = "1",
 												},
 												{
@@ -3312,14 +3312,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "52",
+											fontSize = "36",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "60",
+											height = "41",
 											ignoreSize = "True",
 											name = "Label_costNum",
 											nTextAlign = "1",
@@ -3333,10 +3333,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -34,
-												PositionY = -4,
+												PositionX = -31,
+												PositionY = 5,
 											},
-											width = "29",
+											width = "20",
 											ZOrder = "1",
 										},
 										{

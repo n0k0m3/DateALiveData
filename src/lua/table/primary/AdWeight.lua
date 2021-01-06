@@ -107,7 +107,7 @@ return {
         showType = 1,
         res = "ui/update/s11.png",
         id = 11,
-        probability = 0,
+        probability = 5000,
     },
     [12] = {
         endTime = 1584547200,
@@ -404,7 +404,7 @@ return {
         showType = 2,
         res = "ui/update/s11.png",
         id = 36,
-        probability = 0,
+        probability = 5000,
     },
     [37] = {
         endTime = 1584547200,
@@ -729,7 +729,7 @@ return {
         showType = 3,
         res = "ui/update/s11.png",
         id = 61,
-        probability = 0,
+        probability = 5000,
     },
     [62] = {
         endTime = 1584547200,
@@ -1054,7 +1054,7 @@ return {
         showType = 31,
         res = "ui/update/s11.png",
         id = 86,
-        probability = 0,
+        probability = 5000,
     },
     [87] = {
         endTime = 1584547200,
@@ -1379,7 +1379,7 @@ return {
         showType = 32,
         res = "ui/update/s11.png",
         id = 111,
-        probability = 0,
+        probability = 5000,
     },
     [112] = {
         endTime = 1584547200,
@@ -1704,7 +1704,7 @@ return {
         showType = 33,
         res = "ui/update/s11.png",
         id = 136,
-        probability = 0,
+        probability = 5000,
     },
     [137] = {
         endTime = 1584547200,
@@ -2029,7 +2029,7 @@ return {
         showType = 34,
         res = "ui/update/s11.png",
         id = 161,
-        probability = 0,
+        probability = 5000,
     },
     [162] = {
         endTime = 1584547200,
@@ -2354,7 +2354,7 @@ return {
         showType = 35,
         res = "ui/update/s11.png",
         id = 186,
-        probability = 0,
+        probability = 5000,
     },
     [187] = {
         endTime = 1584547200,
@@ -2679,7 +2679,7 @@ return {
         showType = 36,
         res = "ui/update/s11.png",
         id = 211,
-        probability = 0,
+        probability = 5000,
     },
     [212] = {
         endTime = 1584547200,
@@ -3004,7 +3004,7 @@ return {
         showType = 37,
         res = "ui/update/s11.png",
         id = 236,
-        probability = 0,
+        probability = 5000,
     },
     [237] = {
         endTime = 1584547200,
@@ -3329,7 +3329,7 @@ return {
         showType = 38,
         res = "ui/update/s11.png",
         id = 261,
-        probability = 0,
+        probability = 5000,
     },
     [262] = {
         endTime = 1584547200,
@@ -3654,7 +3654,7 @@ return {
         showType = 39,
         res = "ui/update/s11.png",
         id = 286,
-        probability = 0,
+        probability = 5000,
     },
     [287] = {
         endTime = 1584547200,
@@ -3979,7 +3979,7 @@ return {
         showType = 40,
         res = "ui/update/s11.png",
         id = 311,
-        probability = 0,
+        probability = 5000,
     },
     [312] = {
         endTime = 1584547200,
@@ -4304,7 +4304,7 @@ return {
         showType = 41,
         res = "ui/update/s11.png",
         id = 336,
-        probability = 0,
+        probability = 5000,
     },
     [337] = {
         endTime = 1584547200,
@@ -4629,7 +4629,7 @@ return {
         showType = 101,
         res = "ui/update/s11.png",
         id = 361,
-        probability = 0,
+        probability = 5000,
     },
     [362] = {
         endTime = 1584547200,
@@ -4954,7 +4954,7 @@ return {
         showType = 102,
         res = "ui/update/s11.png",
         id = 386,
-        probability = 0,
+        probability = 5000,
     },
     [387] = {
         endTime = 1584547200,
@@ -5279,7 +5279,7 @@ return {
         showType = 103,
         res = "ui/update/s11.png",
         id = 411,
-        probability = 0,
+        probability = 5000,
     },
     [412] = {
         endTime = 1584547200,
@@ -5604,7 +5604,7 @@ return {
         showType = 104,
         res = "ui/update/s11.png",
         id = 436,
-        probability = 0,
+        probability = 5000,
     },
     [437] = {
         endTime = 1584547200,
@@ -5929,7 +5929,7 @@ return {
         showType = 105,
         res = "ui/update/s11.png",
         id = 461,
-        probability = 0,
+        probability = 5000,
     },
     [462] = {
         endTime = 1584547200,
@@ -6254,7 +6254,7 @@ return {
         showType = 110,
         res = "ui/update/s11.png",
         id = 486,
-        probability = 0,
+        probability = 5000,
     },
     [487] = {
         endTime = 1584547200,
@@ -6579,7 +6579,7 @@ return {
         showType = 112,
         res = "ui/update/s11.png",
         id = 511,
-        probability = 0,
+        probability = 5000,
     },
     [512] = {
         endTime = 1584547200,
@@ -6904,7 +6904,7 @@ return {
         showType = 113,
         res = "ui/update/s11.png",
         id = 536,
-        probability = 0,
+        probability = 5000,
     },
     [537] = {
         endTime = 1584547200,

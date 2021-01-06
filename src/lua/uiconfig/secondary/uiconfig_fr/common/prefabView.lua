@@ -356,7 +356,7 @@ local t =
 										PositionX = -38,
 										PositionY = -3,
 									},
-									width = "19",
+									width = "21",
 									ZOrder = "1",
 									components = 
 									{
@@ -401,13 +401,13 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 20,
+												PositionX = 22,
 												PositionY = 3,
 												IsPercent = true,
 												PercentX = 105,
 												PercentY = 18,
 											},
-											width = "38",
+											width = "39",
 											ZOrder = "1",
 										},
 									},
@@ -455,7 +455,7 @@ local t =
 										PositionX = -35,
 										PositionY = -26,
 									},
-									width = "25",
+									width = "26",
 									ZOrder = "1",
 								},
 							},
@@ -503,7 +503,7 @@ local t =
 								PositionX = 48,
 								PositionY = 37,
 							},
-							width = "45",
+							width = "42",
 							ZOrder = "1",
 						},
 						{
@@ -856,7 +856,7 @@ local t =
 								PositionX = 121,
 								PositionY = 66,
 							},
-							width = "45",
+							width = "42",
 							ZOrder = "1",
 						},
 						{
@@ -1170,7 +1170,7 @@ local t =
 												PositionX = -38,
 												PositionY = -3,
 											},
-											width = "19",
+											width = "21",
 											ZOrder = "1",
 											components = 
 											{
@@ -1215,13 +1215,13 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 20,
+														PositionX = 22,
 														PositionY = 3,
 														IsPercent = true,
 														PercentX = 105,
 														PercentY = 18,
 													},
-													width = "38",
+													width = "39",
 													ZOrder = "1",
 												},
 											},
@@ -1269,7 +1269,7 @@ local t =
 												PositionX = -35,
 												PositionY = -26,
 											},
-											width = "25",
+											width = "26",
 											ZOrder = "1",
 										},
 									},
@@ -1317,7 +1317,7 @@ local t =
 										PositionX = 48,
 										PositionY = 37,
 									},
-									width = "45",
+									width = "42",
 									ZOrder = "1",
 								},
 								{
@@ -1634,7 +1634,7 @@ local t =
 									{
 										
 									},
-									width = "58",
+									width = "56",
 									ZOrder = "1",
 								},
 							},
@@ -1645,11 +1645,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "36",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_activity_extra",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -1659,11 +1659,11 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -25,
+								PositionX = -8,
 								PositionY = 35,
 							},
 							visible = "False",
-							width = "55",
+							width = "91",
 							ZOrder = "1",
 							components = 
 							{
@@ -1687,14 +1687,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "9",
+									fontSize = "11",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "10",
+									height = "13",
 									ignoreSize = "True",
 									name = "Label_activity_extra",
 									nTextAlign = "1",
@@ -1711,7 +1711,7 @@ local t =
 										PositionX = -3,
 										PositionY = 4,
 									},
-									width = "50",
+									width = "67",
 									ZOrder = "1",
 								},
 							},
@@ -1788,7 +1788,7 @@ local t =
 										PositionX = -5,
 										PositionY = 3,
 									},
-									width = "43",
+									width = "48",
 									ZOrder = "1",
 								},
 							},
@@ -1797,13 +1797,13 @@ local t =
 							controlID = "Image_firstPass_Panel_dropGoodsItem_Panel-prefabView_Layer1_common_Game",
 							UUID = "fb395404_50a4_4593_b5bc_8d09a4dd9efa",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "36",
-							ignoreSize = "True",
+							height = "46",
+							ignoreSize = "False",
 							name = "Image_firstPass",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -1813,11 +1813,11 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -25,
-								PositionY = 35,
+								PositionX = -55,
+								PositionY = 30,
 							},
 							visible = "False",
-							width = "55",
+							width = "97",
 							ZOrder = "1",
 							components = 
 							{
@@ -1841,7 +1841,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "9",
+									fontSize = "12",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1862,8 +1862,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -5,
-										PositionY = 3,
+										PositionX = 43,
+										PositionY = 4,
 									},
 									width = "79",
 									ZOrder = "1",
@@ -1942,7 +1942,7 @@ local t =
 										PositionX = -5,
 										PositionY = 3,
 									},
-									width = "54",
+									width = "58",
 									ZOrder = "1",
 								},
 							},

@@ -169,7 +169,7 @@ return {
         rank = 1,
     },
     [303000] = {
-        buyEndTime = "2019-05-23 23:59:59",
+        buyEndTime = "2021-01-29 23:59:59",
         openTimeType = 1,
         showCurrency = {
             [1] = 500059,
@@ -189,13 +189,13 @@ return {
         },
         refreshCostId = 0,
         manualRefresh = false,
-        showBeginTime = "2019-05-01 23:59:59",
+        showBeginTime = "2021-01-06 00:00:00",
         autoRefreshCorn = "",
         name = "13400260",
         orderType = 1,
-        showEndTime = "2019-05-23 23:59:59",
+        showEndTime = "2021-01-29 23:59:59",
         roleSet = 22,
-        buyBeginTime = "2019-05-01 23:59:59",
+        buyBeginTime = "2021-01-06 00:00:00",
         rank = 1,
     },
     [301000] = {

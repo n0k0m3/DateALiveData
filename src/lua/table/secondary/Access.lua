@@ -2206,6 +2206,17 @@ return {
         },
         accessType = 3,
     },
+    [315] = {
+        accessparam = "",
+        name = "1400010",
+        name2 = "190000178",
+        id = 315,
+        jumpInterface = 23,
+        parameter = {
+            [1] = 1,
+        },
+        accessType = 11,
+    },
     [301] = {
         accessparam = "",
         name = "1400012",
@@ -2248,5 +2259,16 @@ return {
         parameter = {
         },
         accessType = 3,
+    },
+    [316] = {
+        accessparam = "",
+        name = "1400010",
+        name2 = "190000179",
+        id = 316,
+        jumpInterface = 23,
+        parameter = {
+            [1] = 1,
+        },
+        accessType = 11,
     },
 }

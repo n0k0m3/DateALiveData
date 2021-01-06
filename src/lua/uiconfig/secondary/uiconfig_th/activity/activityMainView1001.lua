@@ -328,7 +328,7 @@ local t =
 											controlID = "activityName_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView1001_fanshiAssist_activity_Game",
 											UUID = "bb39bec3_9d20_4254_9961_cad80c049ac5",
 											anchorPoint = "False",
-											anchorPointX = "1",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -343,14 +343,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "21",
 											ignoreSize = "True",
 											name = "activityName",
 											nTextAlign = "0",
@@ -364,9 +364,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 134,
+												PositionX = 56,
 											},
-											width = "83",
+											width = "95",
 											ZOrder = "1",
 										},
 										{
@@ -455,7 +455,7 @@ local t =
 											controlID = "activityName_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView1001_fanshiAssist_activity_Game",
 											UUID = "f0a02f2b_e3be_4708_900a_c0d8047ff8d4",
 											anchorPoint = "False",
-											anchorPointX = "1",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -470,14 +470,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "21",
 											ignoreSize = "True",
 											name = "activityName",
 											nTextAlign = "0",
@@ -491,9 +491,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 131,
+												PositionX = 34,
 											},
-											width = "83",
+											width = "95",
 											ZOrder = "1",
 										},
 										{

@@ -1,0 +1,48 @@
+
+main_effect_10311_tiankong.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tiankong
+  rotate: false
+  xy: 2, 1358
+  size: 1143, 256
+  orig: 1143, 256
+  offset: 0, 0
+  index: -1
+yun/yun1
+  rotate: false
+  xy: 704, 1297
+  size: 253, 59
+  orig: 253, 59
+  offset: 0, 0
+  index: -1
+yun/yun2
+  rotate: false
+  xy: 1147, 1383
+  size: 245, 48
+  orig: 245, 48
+  offset: 0, 0
+  index: -1
+yun/yun3
+  rotate: false
+  xy: 2, 1084
+  size: 354, 87
+  orig: 354, 87
+  offset: 0, 0
+  index: -1
+yun/yun4
+  rotate: false
+  xy: 1147, 1433
+  size: 467, 181
+  orig: 467, 181
+  offset: 0, 0
+  index: -1
+yun/yun5
+  rotate: false
+  xy: 2, 1173
+  size: 700, 183
+  orig: 700, 183
+  offset: 0, 0
+  index: -1

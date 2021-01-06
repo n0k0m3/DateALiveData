@@ -400,7 +400,7 @@ local t =
 														PositionX = 16,
 														PositionY = -2,
 													},
-													width = "76",
+													width = "77",
 													ZOrder = "1",
 												},
 											},
@@ -493,7 +493,7 @@ local t =
 												PositionX = 470,
 												PositionY = 13,
 											},
-											width = "115",
+											width = "116",
 											ZOrder = "1",
 										},
 										{
@@ -626,7 +626,7 @@ local t =
 												PositionY = 1,
 											},
 											visible = "False",
-											width = "506",
+											width = "537",
 											ZOrder = "1",
 										},
 									},
@@ -677,13 +677,13 @@ local t =
 									controlID = "img_topBg_panel_monthCardUI_Panel_base_Panel-rechargeMainNew_Layer1_recharge_Game",
 									UUID = "1f699871_7de0_4506_964c_2617ea88d8b6",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "64",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "img_topBg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -693,11 +693,11 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 337,
+										PositionX = 128,
 										PositionY = 527,
 										relativeToName = "Panel",
 									},
-									width = "420",
+									width = "545",
 									ZOrder = "1",
 								},
 								{
@@ -758,7 +758,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -805,15 +805,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "23",
+									ignoreSize = "True",
 									name = "label_tip2",
 									nTextAlign = "1",
 									nTextHAlign = "0",
@@ -829,7 +829,7 @@ local t =
 										PositionX = 223,
 										PositionY = 513,
 									},
-									width = "233",
+									width = "342",
 									ZOrder = "1",
 								},
 								{
@@ -872,13 +872,13 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 494,
-										PositionY = 525,
+										PositionX = 621,
+										PositionY = 529,
 										LeftPositon = 164,
 										TopPosition = 397,
 										relativeToName = "panel_totalCell",
 									},
-									width = "50",
+									width = "51",
 									ZOrder = "1",
 								},
 							},
@@ -951,13 +951,13 @@ local t =
 									controlID = "img_topBg_panel_monthCardUIIOS_Panel_base_Panel-rechargeMainNew_Layer1_recharge_Game",
 									UUID = "3dbc26e0_1a4b_4283_a9d6_d17574944429",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "64",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "img_topBg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -967,11 +967,11 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 321,
+										PositionX = 128,
 										PositionY = 527,
 										relativeToName = "Panel",
 									},
-									width = "420",
+									width = "545",
 									ZOrder = "1",
 									components = 
 									{
@@ -1016,10 +1016,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 117,
+												PositionX = 327,
 												PositionY = 400,
 											},
-											width = "295",
+											width = "268",
 											ZOrder = "1",
 										},
 									},
@@ -1044,15 +1044,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "23",
+									ignoreSize = "True",
 									name = "label_tip1",
 									nTextAlign = "1",
 									nTextHAlign = "0",
@@ -1065,10 +1065,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 207,
+										PositionX = 221,
 										PositionY = 542,
 									},
-									width = "223",
+									width = "233",
 									ZOrder = "1",
 								},
 								{
@@ -1091,15 +1091,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "23",
+									ignoreSize = "True",
 									name = "label_tip2",
 									nTextAlign = "1",
 									nTextHAlign = "0",
@@ -1112,10 +1112,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 207,
+										PositionX = 220,
 										PositionY = 514,
 									},
-									width = "223",
+									width = "342",
 									ZOrder = "1",
 								},
 								{
@@ -1158,13 +1158,13 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 478,
-										PositionY = 525,
+										PositionX = 623,
+										PositionY = 528,
 										LeftPositon = 164,
 										TopPosition = 397,
 										relativeToName = "panel_totalCell",
 									},
-									width = "50",
+									width = "51",
 									ZOrder = "1",
 								},
 								{
@@ -1373,7 +1373,7 @@ local t =
 										PositionX = 117,
 										PositionY = 400,
 									},
-									width = "92",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -1419,7 +1419,7 @@ local t =
 										PositionX = 153,
 										PositionY = 366,
 									},
-									width = "358",
+									width = "393",
 									ZOrder = "1",
 								},
 								{
@@ -1652,7 +1652,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1674,7 +1674,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -12,
-												PositionY = -25,
+												PositionY = -26,
 											},
 											width = "92",
 											ZOrder = "1",
@@ -1784,7 +1784,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1916,7 +1916,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -2048,7 +2048,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -2504,7 +2504,7 @@ local t =
 								TopPosition = 397,
 								relativeToName = "panel_totalCell",
 							},
-							width = "43",
+							width = "46",
 							ZOrder = "1",
 						},
 						{
@@ -2682,7 +2682,7 @@ local t =
 								nGravity = 2,
 								nAlign = 2
 							},
-							width = "150",
+							width = "163",
 							ZOrder = "1",
 						},
 						{
@@ -2731,7 +2731,7 @@ local t =
 								TopPosition = 397,
 								relativeToName = "panel_totalCell",
 							},
-							width = "43",
+							width = "46",
 							ZOrder = "1",
 						},
 					},
@@ -2976,7 +2976,7 @@ local t =
 														PositionX = -10,
 														PositionY = 9,
 													},
-													width = "11",
+													width = "12",
 													ZOrder = "1",
 												},
 												{
@@ -3021,7 +3021,7 @@ local t =
 													{
 														PositionX = 5,
 													},
-													width = "62",
+													width = "63",
 													ZOrder = "1",
 												},
 											},
@@ -3096,7 +3096,7 @@ local t =
 														PositionX = 1,
 														PositionY = -1,
 													},
-													width = "158",
+													width = "169",
 													ZOrder = "1",
 												},
 											},
@@ -3262,7 +3262,7 @@ local t =
 														PositionX = -40,
 														PositionY = 1,
 													},
-													width = "78",
+													width = "87",
 													ZOrder = "1",
 												},
 												{
@@ -3355,7 +3355,7 @@ local t =
 											{
 												PositionY = -179,
 											},
-											width = "127",
+											width = "119",
 											ZOrder = "1",
 										},
 										{
@@ -3533,7 +3533,7 @@ local t =
 													{
 														
 													},
-													width = "55",
+													width = "56",
 													ZOrder = "1",
 												},
 											},
@@ -3762,7 +3762,7 @@ local t =
 																PositionX = -18,
 																PositionY = -2,
 															},
-															width = "57",
+															width = "58",
 															ZOrder = "1",
 														},
 														{
@@ -3808,7 +3808,7 @@ local t =
 																PositionX = -33,
 																PositionY = -4,
 															},
-															width = "11",
+															width = "12",
 															ZOrder = "1",
 														},
 													},
@@ -3996,7 +3996,7 @@ local t =
 											{
 												PositionY = -179,
 											},
-											width = "157",
+											width = "143",
 											ZOrder = "1",
 										},
 										{
@@ -4072,7 +4072,7 @@ local t =
 													{
 														
 													},
-													width = "55",
+													width = "56",
 													ZOrder = "1",
 												},
 											},
@@ -4174,7 +4174,7 @@ local t =
 														PositionX = -40,
 														PositionY = 1,
 													},
-													width = "78",
+													width = "87",
 													ZOrder = "1",
 												},
 												{
@@ -4221,7 +4221,7 @@ local t =
 														PositionY = 1,
 													},
 													visible = "False",
-													width = "473",
+													width = "505",
 													ZOrder = "1",
 												},
 											},
@@ -4550,7 +4550,7 @@ local t =
 												PositionX = 32,
 												PositionY = -178,
 											},
-											width = "138",
+											width = "128",
 											ZOrder = "1",
 										},
 										{
@@ -4596,7 +4596,7 @@ local t =
 												PositionX = -40,
 												PositionY = -177,
 											},
-											width = "26",
+											width = "28",
 											ZOrder = "1",
 										},
 										{
@@ -4670,7 +4670,7 @@ local t =
 														PositionX = -38,
 														PositionY = 1,
 													},
-													width = "78",
+													width = "87",
 													ZOrder = "1",
 												},
 												{
@@ -4717,7 +4717,7 @@ local t =
 														PositionY = 1,
 													},
 													visible = "False",
-													width = "473",
+													width = "505",
 													ZOrder = "1",
 												},
 											},
@@ -4821,7 +4821,7 @@ local t =
 													{
 														PositionY = -2,
 													},
-													width = "59",
+													width = "61",
 													ZOrder = "1",
 												},
 												{
@@ -4987,7 +4987,7 @@ local t =
 												TopPosition = 61,
 												relativeToName = "panel_totalCell",
 											},
-											width = "52",
+											width = "50",
 											ZOrder = "1",
 										},
 										{
@@ -5036,7 +5036,7 @@ local t =
 												TopPosition = 65,
 												relativeToName = "panel_totalCell",
 											},
-											width = "221",
+											width = "218",
 											ZOrder = "1",
 										},
 										{

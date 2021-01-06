@@ -9647,9 +9647,9 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -354,
-												PositionY = 213,
-												LeftPositon = 45,
+												PositionX = -378,
+												PositionY = 178,
+												LeftPositon = 114,
 												TopPosition = 109,
 												relativeToName = "Panel_practice",
 												nType = 3,
@@ -9761,14 +9761,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "9",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "10",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_practice_infinite_on",
 													nTextAlign = "1",
@@ -9782,9 +9782,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
+														PositionX = 53,
 														PositionY = 9,
 													},
-													width = "37",
+													width = "70",
 													ZOrder = "1",
 												},
 												{
@@ -9806,14 +9807,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "9",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "10",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_practice_infinite_off",
 													nTextAlign = "1",
@@ -9827,10 +9828,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -37,
+														PositionX = -107,
 														PositionY = 9,
 													},
-													width = "52",
+													width = "101",
 													ZOrder = "1",
 												},
 												{
@@ -9859,8 +9860,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "0",
-													ignoreSize = "False",
+													height = "17",
+													ignoreSize = "True",
 													name = "Label_practice_infinite",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -9876,7 +9877,7 @@ local t =
 														PositionX = -20,
 														PositionY = -25,
 													},
-													width = "117",
+													width = "129",
 													ZOrder = "1",
 												},
 												{
@@ -9942,9 +9943,9 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -354,
-												PositionY = 143,
-												LeftPositon = 45,
+												PositionX = -378,
+												PositionY = 108,
+												LeftPositon = 114,
 												TopPosition = 179,
 												relativeToName = "Panel_practice",
 												nType = 3,
@@ -10056,14 +10057,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "9",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "10",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_practice_atk_on",
 													nTextAlign = "1",
@@ -10077,9 +10078,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
+														PositionX = 53,
 														PositionY = 9,
 													},
-													width = "37",
+													width = "70",
 													ZOrder = "1",
 												},
 												{
@@ -10101,14 +10103,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "9",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "10",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_practice_atk_off",
 													nTextAlign = "1",
@@ -10122,10 +10124,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -35,
+														PositionX = -107,
 														PositionY = 9,
 													},
-													width = "52",
+													width = "101",
 													ZOrder = "1",
 												},
 												{
@@ -10154,8 +10156,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "0",
-													ignoreSize = "False",
+													height = "17",
+													ignoreSize = "True",
 													name = "Label_practice_atk",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -10171,7 +10173,7 @@ local t =
 														PositionX = -20,
 														PositionY = -25,
 													},
-													width = "117",
+													width = "134",
 													ZOrder = "1",
 												},
 												{
@@ -10237,9 +10239,9 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -354,
-												PositionY = 74,
-												LeftPositon = 45,
+												PositionX = -378,
+												PositionY = 39,
+												LeftPositon = 114,
 												TopPosition = 248,
 												relativeToName = "Panel_practice",
 												nType = 3,
@@ -10351,14 +10353,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "9",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "10",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_practice_hurt_on",
 													nTextAlign = "1",
@@ -10372,9 +10374,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
+														PositionX = 53,
 														PositionY = 9,
 													},
-													width = "37",
+													width = "70",
 													ZOrder = "1",
 												},
 												{
@@ -10396,14 +10399,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "9",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "10",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_practice_hurt_off",
 													nTextAlign = "1",
@@ -10417,10 +10420,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -35,
+														PositionX = -107,
 														PositionY = 9,
 													},
-													width = "52",
+													width = "101",
 													ZOrder = "1",
 												},
 												{
@@ -10449,8 +10452,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "0",
-													ignoreSize = "False",
+													height = "17",
+													ignoreSize = "True",
 													name = "Label_practice_hurt",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -10466,7 +10469,7 @@ local t =
 														PositionX = -20,
 														PositionY = -25,
 													},
-													width = "117",
+													width = "134",
 													ZOrder = "1",
 												},
 												{

@@ -502,7 +502,7 @@ local t =
 														PositionX = 11,
 														PositionY = 389,
 													},
-													width = "269",
+													width = "290",
 													ZOrder = "1",
 												},
 												{
@@ -548,7 +548,7 @@ local t =
 														PositionX = 13,
 														PositionY = 335,
 													},
-													width = "57",
+													width = "60",
 													ZOrder = "1",
 												},
 												{
@@ -594,7 +594,7 @@ local t =
 														PositionX = 13,
 														PositionY = 313,
 													},
-													width = "57",
+													width = "60",
 													ZOrder = "1",
 												},
 												{
@@ -925,7 +925,7 @@ local t =
 												PositionX = 88,
 												PositionY = -3,
 											},
-											width = "37",
+											width = "38",
 											ZOrder = "1",
 										},
 									},
@@ -1121,7 +1121,7 @@ local t =
 														PositionX = 26,
 														PositionY = -30,
 													},
-													width = "53",
+													width = "54",
 													ZOrder = "1",
 												},
 											},
@@ -1202,7 +1202,7 @@ local t =
 														PositionX = 16,
 														PositionY = -36,
 													},
-													width = "75",
+													width = "83",
 													ZOrder = "1",
 												},
 											},
@@ -1283,7 +1283,7 @@ local t =
 														PositionX = 21,
 														PositionY = -35,
 													},
-													width = "52",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -1364,7 +1364,7 @@ local t =
 														PositionX = 32,
 														PositionY = -28,
 													},
-													width = "53",
+													width = "59",
 													ZOrder = "1",
 												},
 											},
@@ -1444,7 +1444,7 @@ local t =
 														PositionX = 39,
 														PositionY = -18,
 													},
-													width = "79",
+													width = "81",
 													ZOrder = "1",
 												},
 											},
@@ -1548,7 +1548,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "480",
 									ZOrder = "1",
 									components = 
@@ -1698,7 +1697,7 @@ local t =
 																PositionX = 38,
 																PositionY = 65,
 															},
-															width = "45",
+															width = "46",
 															ZOrder = "1",
 														},
 														{
@@ -1744,7 +1743,7 @@ local t =
 																PositionX = 74,
 																PositionY = 64,
 															},
-															width = "31",
+															width = "32",
 															ZOrder = "1",
 														},
 														{
@@ -1859,7 +1858,7 @@ local t =
 															controlID = "Label_name_Panel_atts_name_Panel_Panel_atts_info_Panel_right_Panel_base_Panel-fairyTrailDetails_Layer1_fairyNew_Game",
 															UUID = "6a826555_713f_43b4_a1e6_35bf71c925a0",
 															anchorPoint = "False",
-															anchorPointX = "0.5",
+															anchorPointX = "0",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -1895,10 +1894,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 1,
-																PositionY = 21,
+																PositionX = -46,
+																PositionY = 24,
 															},
-															width = "185",
+															width = "199",
 															ZOrder = "1",
 														},
 														{
@@ -1943,6 +1942,7 @@ local t =
 															{
 																PositionX = -22,
 															},
+															visible = "False",
 															width = "44",
 															ZOrder = "1",
 														},
@@ -1966,8 +1966,8 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 67,
-																PositionY = 21,
+																PositionX = 172,
+																PositionY = 23,
 															},
 															width = "45",
 															ZOrder = "1",
@@ -2223,7 +2223,7 @@ local t =
 														PositionY = 537,
 													},
 													visible = "False",
-													width = "60",
+													width = "70",
 													ZOrder = "1",
 												},
 												{
@@ -2463,7 +2463,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 392,
+														PositionX = 316,
 														PositionY = 272,
 														LeftPositon = 374,
 														TopPosition = 291,
@@ -2927,7 +2927,7 @@ local t =
 																		PositionX = 116,
 																		PositionY = 168,
 																	},
-																	width = "48",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -2974,7 +2974,7 @@ local t =
 																		PositionY = 40,
 																	},
 																	visible = "False",
-																	width = "31",
+																	width = "34",
 																	ZOrder = "1",
 																},
 																{
@@ -3021,7 +3021,7 @@ local t =
 																		PositionY = 40,
 																	},
 																	visible = "False",
-																	width = "48",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -3736,7 +3736,7 @@ local t =
 																		PositionX = 114,
 																		PositionY = 1,
 																	},
-																	width = "48",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -3783,7 +3783,7 @@ local t =
 																		PositionY = 40,
 																	},
 																	visible = "False",
-																	width = "31",
+																	width = "34",
 																	ZOrder = "1",
 																},
 																{
@@ -3830,7 +3830,7 @@ local t =
 																		PositionY = 40,
 																	},
 																	visible = "False",
-																	width = "48",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -4545,7 +4545,7 @@ local t =
 																		PositionX = 113,
 																		PositionY = 168,
 																	},
-																	width = "48",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -4592,7 +4592,7 @@ local t =
 																		PositionY = 40,
 																	},
 																	visible = "False",
-																	width = "31",
+																	width = "34",
 																	ZOrder = "1",
 																},
 																{
@@ -4639,7 +4639,7 @@ local t =
 																		PositionY = 40,
 																	},
 																	visible = "False",
-																	width = "48",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -5224,7 +5224,7 @@ local t =
 														TopPosition = 331,
 														relativeToName = "Panel",
 													},
-													width = "213",
+													width = "196",
 													ZOrder = "1",
 												},
 												{
@@ -5281,7 +5281,7 @@ local t =
 													controlID = "Label_skill_2_name_Panel_Panel_Equipment_Panel_right_Panel_base_Panel-fairyTrailDetails_Layer1_fairyNew_Game",
 													UUID = "496fc8be_c09f_420c_a993_e7798c89334e",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													ColorMixing = "#FFF0F8FF",
@@ -5318,13 +5318,13 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 457,
+														PositionX = 497,
 														PositionY = 276,
 														LeftPositon = 405,
 														TopPosition = 8,
 														relativeToName = "Panel",
 													},
-													width = "213",
+													width = "196",
 													ZOrder = "1",
 												},
 												{
@@ -5424,7 +5424,7 @@ local t =
 														TopPosition = 331,
 														relativeToName = "Panel",
 													},
-													width = "213",
+													width = "196",
 													ZOrder = "1",
 												},
 												{
@@ -5628,7 +5628,7 @@ local t =
 															controlID = "Label_name_Panel_atts_name_Panel_Panel_Equipment_Panel_right_Panel_base_Panel-fairyTrailDetails_Layer1_fairyNew_Game",
 															UUID = "48b5cd57_32a4_471b_8e4f_d982654987c0",
 															anchorPoint = "False",
-															anchorPointX = "0.5",
+															anchorPointX = "0",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -5664,10 +5664,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -27,
+																PositionX = -76,
 																PositionY = 11,
 															},
-															width = "170",
+															width = "186",
 															ZOrder = "1",
 														},
 														{
@@ -5713,6 +5713,7 @@ local t =
 																PositionX = -46,
 																PositionY = -10,
 															},
+															visible = "False",
 															width = "62",
 															ZOrder = "1",
 														},
@@ -5736,8 +5737,8 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 39,
-																PositionY = 11,
+																PositionX = 127,
+																PositionY = 10,
 															},
 															width = "29",
 															ZOrder = "1",
@@ -5817,18 +5818,18 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = true,
 																StrokeColor = "#FF63608B",
 																StrokeSize = 1,
 															},
-															height = "27",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_fairyTrailDetails_1",
 															nTextAlign = "1",
-															nTextHAlign = "1",
+															nTextHAlign = "0",
 															sizepercentx = "0",
 															sizepercenty = "0",
 															sizeType = "0",
@@ -5841,7 +5842,7 @@ local t =
 																PositionX = -149,
 																PositionY = -1,
 															},
-															width = "315",
+															width = "300",
 															ZOrder = "1",
 														},
 													},
@@ -5883,6 +5884,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "489",
 									ZOrder = "1",
 									components = 
@@ -6041,14 +6043,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "26",
+																	fontSize = "18",
 																	fontStroke = 
 																	{
 																		IsStroke = true,
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "32",
+																	height = "23",
 																	ignoreSize = "True",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
@@ -6064,7 +6066,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "161",
+																	width = "124",
 																	ZOrder = "1",
 																},
 															},
@@ -6121,14 +6123,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "26",
+																	fontSize = "18",
 																	fontStroke = 
 																	{
 																		IsStroke = true,
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "32",
+																	height = "23",
 																	ignoreSize = "True",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
@@ -6144,7 +6146,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "161",
+																	width = "124",
 																	ZOrder = "1",
 																},
 															},
@@ -6201,14 +6203,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "26",
+																	fontSize = "18",
 																	fontStroke = 
 																	{
 																		IsStroke = true,
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "32",
+																	height = "23",
 																	ignoreSize = "True",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
@@ -6224,7 +6226,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "161",
+																	width = "124",
 																	ZOrder = "1",
 																},
 															},
@@ -6326,7 +6328,7 @@ local t =
 														PositionX = 50,
 														PositionY = 467,
 													},
-													width = "53",
+													width = "59",
 													ZOrder = "1",
 												},
 												{
@@ -6372,7 +6374,7 @@ local t =
 														PositionX = 50,
 														PositionY = 133,
 													},
-													width = "64",
+													width = "71",
 													ZOrder = "1",
 												},
 												{
@@ -6449,7 +6451,7 @@ local t =
 															{
 																
 															},
-															width = "60",
+															width = "56",
 															ZOrder = "1",
 														},
 													},
@@ -6566,7 +6568,7 @@ local t =
 															{
 																
 															},
-															width = "76",
+															width = "80",
 															ZOrder = "1",
 														},
 													},
@@ -6618,18 +6620,18 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = true,
 																StrokeColor = "#FF63608B",
 																StrokeSize = 1,
 															},
-															height = "27",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_fairyTrailDetails_1",
 															nTextAlign = "1",
-															nTextHAlign = "1",
+															nTextHAlign = "0",
 															sizepercentx = "0",
 															sizepercenty = "0",
 															sizeType = "0",
@@ -6642,7 +6644,7 @@ local t =
 																PositionX = -149,
 																PositionY = -1,
 															},
-															width = "315",
+															width = "300",
 															ZOrder = "1",
 														},
 													},
@@ -6764,7 +6766,7 @@ local t =
 																		PositionY = -44,
 																	},
 																	visible = "False",
-																	width = "41",
+																	width = "39",
 																	ZOrder = "1",
 																},
 																{
@@ -6862,7 +6864,7 @@ local t =
 																		PositionY = 43,
 																	},
 																	visible = "False",
-																	width = "67",
+																	width = "64",
 																	ZOrder = "1",
 																},
 															},
@@ -6944,7 +6946,7 @@ local t =
 																		PositionY = -44,
 																	},
 																	visible = "False",
-																	width = "41",
+																	width = "39",
 																	ZOrder = "1",
 																},
 																{
@@ -7042,7 +7044,7 @@ local t =
 																		PositionY = 43,
 																	},
 																	visible = "False",
-																	width = "67",
+																	width = "64",
 																	ZOrder = "1",
 																},
 															},
@@ -7124,7 +7126,7 @@ local t =
 																		PositionY = -44,
 																	},
 																	visible = "False",
-																	width = "41",
+																	width = "39",
 																	ZOrder = "1",
 																},
 																{
@@ -7222,7 +7224,7 @@ local t =
 																		PositionY = 43,
 																	},
 																	visible = "False",
-																	width = "67",
+																	width = "64",
 																	ZOrder = "1",
 																},
 															},
@@ -7304,7 +7306,7 @@ local t =
 																		PositionY = -44,
 																	},
 																	visible = "False",
-																	width = "41",
+																	width = "39",
 																	ZOrder = "1",
 																},
 																{
@@ -7402,7 +7404,7 @@ local t =
 																		PositionY = 43,
 																	},
 																	visible = "False",
-																	width = "67",
+																	width = "64",
 																	ZOrder = "1",
 																},
 															},
@@ -7596,7 +7598,7 @@ local t =
 																PositionX = 9,
 																PositionY = 21,
 															},
-															width = "106",
+															width = "117",
 															ZOrder = "1",
 														},
 														{
@@ -8065,7 +8067,7 @@ local t =
 																				PositionX = -29,
 																				PositionY = 26,
 																			},
-																			width = "38",
+																			width = "36",
 																			ZOrder = "1",
 																		},
 																		{
@@ -8561,7 +8563,7 @@ local t =
 																				PositionX = -29,
 																				PositionY = 26,
 																			},
-																			width = "38",
+																			width = "36",
 																			ZOrder = "1",
 																		},
 																		{
@@ -9057,7 +9059,7 @@ local t =
 																				PositionX = -29,
 																				PositionY = 26,
 																			},
-																			width = "38",
+																			width = "36",
 																			ZOrder = "1",
 																		},
 																		{
@@ -9553,7 +9555,7 @@ local t =
 																				PositionX = -29,
 																				PositionY = 26,
 																			},
-																			width = "38",
+																			width = "36",
 																			ZOrder = "1",
 																		},
 																		{
@@ -10049,7 +10051,7 @@ local t =
 																				PositionX = -29,
 																				PositionY = 26,
 																			},
-																			width = "38",
+																			width = "36",
 																			ZOrder = "1",
 																		},
 																		{
@@ -10545,7 +10547,7 @@ local t =
 																				PositionX = -29,
 																				PositionY = 26,
 																			},
-																			width = "38",
+																			width = "36",
 																			ZOrder = "1",
 																		},
 																		{
@@ -10865,7 +10867,7 @@ local t =
 																		PositionX = 63,
 																		PositionY = 15,
 																	},
-																	width = "25",
+																	width = "27",
 																	ZOrder = "1",
 																},
 																{
@@ -10911,7 +10913,7 @@ local t =
 																		PositionX = 200,
 																		PositionY = 15,
 																	},
-																	width = "48",
+																	width = "50",
 																	ZOrder = "1",
 																},
 															},
@@ -11023,7 +11025,7 @@ local t =
 																		PositionX = 67,
 																		PositionY = 15,
 																	},
-																	width = "68",
+																	width = "63",
 																	ZOrder = "1",
 																},
 																{
@@ -11069,7 +11071,7 @@ local t =
 																		PositionX = 188,
 																		PositionY = 15,
 																	},
-																	width = "47",
+																	width = "50",
 																	ZOrder = "1",
 																},
 															},
@@ -11181,7 +11183,7 @@ local t =
 																		PositionX = 63,
 																		PositionY = 14,
 																	},
-																	width = "33",
+																	width = "39",
 																	ZOrder = "1",
 																},
 																{
@@ -11227,7 +11229,7 @@ local t =
 																		PositionX = 200,
 																		PositionY = 14,
 																	},
-																	width = "59",
+																	width = "61",
 																	ZOrder = "1",
 																},
 															},
@@ -11501,7 +11503,7 @@ local t =
 														PositionY = 537,
 													},
 													visible = "False",
-													width = "60",
+													width = "70",
 													ZOrder = "1",
 												},
 												{
@@ -11548,7 +11550,7 @@ local t =
 														PositionY = 537,
 													},
 													visible = "False",
-													width = "48",
+													width = "47",
 													ZOrder = "1",
 												},
 												{
@@ -11595,7 +11597,7 @@ local t =
 														PositionY = 536,
 													},
 													visible = "False",
-													width = "48",
+													width = "46",
 													ZOrder = "1",
 												},
 												{
@@ -11669,7 +11671,7 @@ local t =
 																PositionX = -149,
 																PositionY = -1,
 															},
-															width = "315",
+															width = "299",
 															ZOrder = "1",
 														},
 													},
@@ -12955,7 +12957,7 @@ local t =
 																PositionX = 35,
 																PositionY = 28,
 															},
-															width = "94",
+															width = "97",
 															ZOrder = "1",
 														},
 														{
@@ -13103,7 +13105,7 @@ local t =
 																PositionX = -149,
 																PositionY = -1,
 															},
-															width = "315",
+															width = "299",
 															ZOrder = "1",
 														},
 													},
@@ -13301,7 +13303,7 @@ local t =
 												PositionX = -58,
 												PositionY = 37,
 											},
-											width = "53",
+											width = "44",
 											ZOrder = "1",
 										},
 									},
@@ -13501,14 +13503,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "17",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "19",
 									ignoreSize = "True",
 									name = "Label_att_name",
 									nTextAlign = "1",
@@ -13522,10 +13524,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 100,
+										PositionX = 90,
 										PositionY = 15,
 									},
-									width = "123",
+									width = "96",
 									ZOrder = "1",
 								},
 								{
@@ -13568,10 +13570,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 280,
+										PositionX = 400,
 										PositionY = 16,
 									},
-									width = "48",
+									width = "46",
 									ZOrder = "1",
 								},
 							},
@@ -13699,7 +13701,7 @@ local t =
 										PositionY = 47,
 									},
 									visible = "False",
-									width = "80",
+									width = "86",
 									ZOrder = "1",
 								},
 							},
@@ -13861,7 +13863,7 @@ local t =
 											{
 												PositionY = 140,
 											},
-											width = "85",
+											width = "84",
 											ZOrder = "1",
 										},
 									},
@@ -14022,7 +14024,7 @@ local t =
 											{
 												
 											},
-											width = "71",
+											width = "79",
 											ZOrder = "1",
 										},
 									},
@@ -14169,9 +14171,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -1,
+												PositionX = 15,
 											},
-											width = "268",
+											width = "252",
 											ZOrder = "1",
 										},
 										{
@@ -14214,10 +14216,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 261,
-												PositionY = -1,
+												PositionX = 309,
 											},
-											width = "43",
+											width = "46",
 											ZOrder = "1",
 										},
 									},
@@ -14329,9 +14330,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -1,
+												PositionX = 15,
 											},
-											width = "176",
+											width = "171",
 											ZOrder = "1",
 											components = 
 											{
@@ -14379,7 +14380,8 @@ local t =
 														PositionX = 113,
 														PositionY = -7,
 													},
-													width = "83",
+													visible = "False",
+													width = "87",
 													ZOrder = "1",
 												},
 											},
@@ -14493,9 +14495,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = 15,
 											},
-											width = "254",
+											width = "240",
 											ZOrder = "1",
 											components = 
 											{
@@ -14543,6 +14545,7 @@ local t =
 														PositionX = 137,
 														PositionY = -7,
 													},
+													visible = "False",
 													width = "95",
 													ZOrder = "1",
 												},
@@ -14762,7 +14765,7 @@ local t =
 												PositionX = 154,
 												PositionY = 596,
 											},
-											width = "376",
+											width = "409",
 											ZOrder = "1",
 										},
 										{
@@ -15232,7 +15235,7 @@ local t =
 												PositionX = 379,
 												PositionY = 129,
 											},
-											width = "126",
+											width = "118",
 											ZOrder = "1",
 										},
 										{
@@ -15506,7 +15509,7 @@ local t =
 										PositionX = 102,
 										PositionY = 97,
 									},
-									width = "197",
+									width = "182",
 									ZOrder = "1",
 								},
 								{
@@ -15674,7 +15677,7 @@ local t =
 												PositionY = -44,
 											},
 											visible = "False",
-											width = "41",
+											width = "39",
 											ZOrder = "1",
 										},
 										{
@@ -15770,7 +15773,7 @@ local t =
 												PositionX = 36,
 												PositionY = 43,
 											},
-											width = "67",
+											width = "64",
 											ZOrder = "1",
 										},
 									},
@@ -16120,7 +16123,7 @@ local t =
 												PositionX = -131,
 												PositionY = 133,
 											},
-											width = "67",
+											width = "77",
 											ZOrder = "2",
 										},
 										{
@@ -16165,7 +16168,7 @@ local t =
 											{
 												PositionY = -20,
 											},
-											width = "75",
+											width = "68",
 											ZOrder = "2",
 										},
 										{
@@ -16371,7 +16374,7 @@ local t =
 												PositionX = -131,
 												PositionY = 133,
 											},
-											width = "67",
+											width = "77",
 											ZOrder = "2",
 										},
 										{
@@ -16416,7 +16419,7 @@ local t =
 											{
 												PositionY = -20,
 											},
-											width = "75",
+											width = "68",
 											ZOrder = "2",
 										},
 										{

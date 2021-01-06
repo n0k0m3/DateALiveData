@@ -938,7 +938,7 @@ function FunctionDataMgr:jSimulationTrial(chapterId)
     local checkExtId = TFAssetsManager:getCheckInfo(12)
     if checkExtId then
         TFAssetsManager:downloadAssetsOfFunc(checkExtId,function()
-            Utils:openView("simulationTrial.SimulationTrialMainView", chapterCid)
+            Utils:openView("simulationTrial.SimulationTrialMainView", chapterId)
         end,true)
         return
     end

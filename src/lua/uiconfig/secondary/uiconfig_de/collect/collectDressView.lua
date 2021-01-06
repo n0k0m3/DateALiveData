@@ -802,7 +802,7 @@ local t =
 													{
 														
 													},
-													width = "99",
+													width = "93",
 													ZOrder = "1",
 												},
 											},

@@ -2882,7 +2882,7 @@ return {
         money = 0,
         attribute2 = 1013,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 85,
             [2] = 41,
@@ -5186,7 +5186,7 @@ return {
         money = 0,
         attribute2 = 1013,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 85,
             [2] = 41,

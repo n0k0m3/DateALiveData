@@ -435,7 +435,7 @@ local t =
 												PositionY = 186,
 											},
 											visible = "False",
-											width = "69",
+											width = "70",
 											ZOrder = "1",
 										},
 										{
@@ -509,7 +509,7 @@ local t =
 														PositionX = -36,
 														PositionY = -2,
 													},
-													width = "34",
+													width = "36",
 													ZOrder = "1",
 												},
 												{
@@ -579,7 +579,7 @@ local t =
 													{
 														PositionX = 20,
 													},
-													width = "69",
+													width = "66",
 													ZOrder = "1",
 												},
 											},
@@ -795,7 +795,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -948,7 +948,7 @@ local t =
 											{
 												
 											},
-											width = "56",
+											width = "54",
 											ZOrder = "1",
 										},
 									},

@@ -216,7 +216,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_view",
 									nTextAlign = "1",
@@ -232,7 +232,7 @@ local t =
 									{
 										PositionY = -24,
 									},
-									width = "47",
+									width = "95",
 									ZOrder = "1",
 								},
 								{
@@ -420,8 +420,8 @@ local t =
 										StrokeColor = "#FFE37393",
 										StrokeSize = 2,
 									},
-									height = "34",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_exchange",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -436,7 +436,7 @@ local t =
 									{
 										
 									},
-									width = "101",
+									width = "160",
 									ZOrder = "1",
 								},
 							},
@@ -495,14 +495,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_check",
 									nTextAlign = "1",
@@ -518,7 +518,7 @@ local t =
 									{
 										PositionX = -35,
 									},
-									width = "91",
+									width = "151",
 									ZOrder = "1",
 								},
 								{
@@ -574,7 +574,7 @@ local t =
 								StrokeColor = "#FF3A4260",
 								StrokeSize = 2,
 							},
-							height = "41",
+							height = "38",
 							ignoreSize = "True",
 							name = "Label_tip1",
 							nTextAlign = "1",
@@ -591,7 +591,7 @@ local t =
 								PositionX = 386,
 								PositionY = 193,
 							},
-							width = "125",
+							width = "165",
 							ZOrder = "1",
 						},
 						{
@@ -613,14 +613,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "30",
+							fontSize = "24",
 							fontStroke = 
 							{
 								IsStroke = true,
 								StrokeColor = "#FF3A4260",
 								StrokeSize = 2,
 							},
-							height = "41",
+							height = "32",
 							ignoreSize = "True",
 							name = "Label_tip2",
 							nTextAlign = "1",
@@ -634,10 +634,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -382,
-								PositionY = -236,
+								PositionX = -352,
+								PositionY = -234,
 							},
-							width = "125",
+							width = "228",
 							ZOrder = "1",
 						},
 						{
@@ -686,14 +686,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "60",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "1",
@@ -739,7 +739,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -491,
+								PositionX = -489,
 								PositionY = -264,
 							},
 							uipanelviewmodel = 
@@ -1216,7 +1216,7 @@ local t =
 											{
 												
 											},
-											width = "35",
+											width = "38",
 											ZOrder = "1",
 										},
 									},

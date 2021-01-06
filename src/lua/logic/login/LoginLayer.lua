@@ -280,7 +280,7 @@ function LoginLayer:loginAccountSuccess()
     --     return
     -- end
 	
-	if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+	if CC_TARGET_PLATFORM ~= CC_PLATFORM_WIN32 then
 		if not LogonHelper:isVerification() then
 			LogonHelper:loginVerification();
 		end
@@ -602,7 +602,8 @@ end
 function LoginLayer:showWebView()
 	dump("show1")
 	if not self.isShowWeb then
-		Utils:sendHttpLog("informed_page_L")
+		--屏蔽弹出公告上报
+		--Utils:sendHttpLog("informed_page_L")
 		self.isShowWeb = true;
 		if me.platform == "android" then
 

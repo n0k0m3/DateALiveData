@@ -232,7 +232,7 @@ local t =
 									{
 										PositionY = -24,
 									},
-									width = "126",
+									width = "138",
 									ZOrder = "1",
 								},
 								{
@@ -436,7 +436,7 @@ local t =
 									{
 										
 									},
-									width = "244",
+									width = "275",
 									ZOrder = "1",
 								},
 							},
@@ -518,7 +518,7 @@ local t =
 									{
 										PositionX = -45,
 									},
-									width = "127",
+									width = "140",
 									ZOrder = "1",
 								},
 								{
@@ -591,7 +591,7 @@ local t =
 								PositionX = 386,
 								PositionY = 193,
 							},
-							width = "157",
+							width = "175",
 							ZOrder = "1",
 						},
 						{
@@ -613,14 +613,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "30",
+							fontSize = "22",
 							fontStroke = 
 							{
 								IsStroke = true,
 								StrokeColor = "#FF3A4260",
 								StrokeSize = 2,
 							},
-							height = "38",
+							height = "29",
 							ignoreSize = "True",
 							name = "Label_tip2",
 							nTextAlign = "1",
@@ -634,10 +634,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -382,
-								PositionY = -236,
+								PositionX = -354,
+								PositionY = -232,
 							},
-							width = "303",
+							width = "251",
 							ZOrder = "1",
 						},
 						{
@@ -1216,7 +1216,7 @@ local t =
 											{
 												
 											},
-											width = "35",
+											width = "38",
 											ZOrder = "1",
 										},
 									},

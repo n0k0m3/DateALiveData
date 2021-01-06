@@ -6466,11 +6466,11 @@ local t =
 														StrokeColor = "#FF22343F",
 														StrokeSize = 1,
 													},
-													height = "20",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_title",
 													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextHAlign = "0",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -6487,7 +6487,7 @@ local t =
 														nGravity = 3,
 														nAlign = 3
 													},
-													width = "162",
+													width = "170",
 													ZOrder = "1",
 												},
 												{
@@ -6530,7 +6530,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 74,
+														PositionX = 89,
+														PositionY = 1,
 														RightPosition = -200,
 														TopPosition = -23,
 														relativeToName = "Panel_victory",
@@ -8711,15 +8712,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_propLimit",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -8734,7 +8735,7 @@ local t =
 											{
 												PositionY = -23,
 											},
-											width = "136",
+											width = "800",
 											ZOrder = "1",
 										},
 										{
@@ -9348,7 +9349,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 510,
-										PositionY = 334,
+										PositionY = 333,
 										relativeToName = "Panel_top",
 										nType = 3,
 										nGravity = 6,
@@ -14145,7 +14146,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 510,
-								PositionY = 333,
+								PositionY = 334,
 								relativeToName = "Panel_victory",
 								nType = 3,
 								nGravity = 6,

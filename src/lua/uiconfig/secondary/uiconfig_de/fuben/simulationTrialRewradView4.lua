@@ -256,9 +256,10 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -227,
-										PositionY = 196,
+										PositionX = -67,
+										PositionY = 203,
 									},
+									visible = "False",
 									width = "2",
 									ZOrder = "1",
 									components = 
@@ -304,8 +305,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 9,
-												PositionY = -6,
+												PositionX = 50,
+												PositionY = -1,
 											},
 											width = "122",
 											ZOrder = "1",
@@ -314,7 +315,7 @@ local t =
 											controlID = "Label_title_Image_sign_Panel_parent_Panel_root_Panel-simulationTrialRewradView4_Layer1_fuben_Game",
 											UUID = "b6a58fa0_5f14_4519_8dd1_357ac7ab362f",
 											anchorPoint = "False",
-											anchorPointX = "1",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -336,7 +337,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -350,10 +351,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -2,
-												PositionY = -4,
+												PositionX = -281,
+												PositionY = -1,
 											},
-											width = "123",
+											width = "251",
 											ZOrder = "1",
 										},
 									},
@@ -460,18 +461,19 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "14",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "120",
-													ignoreSize = "False",
+													height = "16",
+													ignoreSize = "True",
 													name = "Label_name",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													rotation = "90",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -483,7 +485,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "30",
+													width = "143",
 													ZOrder = "1",
 												},
 											},
@@ -547,18 +549,19 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "14",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "120",
-													ignoreSize = "False",
+													height = "25",
+													ignoreSize = "True",
 													name = "Label_name",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													rotation = "90",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -570,7 +573,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "30",
+													width = "223",
 													ZOrder = "1",
 												},
 												{
@@ -640,6 +643,52 @@ local t =
 										nType = "0"
 									},
 									width = "662",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Label_title_Panel_parent_Panel_root_Panel-simulationTrialRewradView4_Layer1_fuben_Game",
+									UUID = "9945da19_7509_4db6_95ee_acf5ecfdd98b",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FFC46BAF",
+									fontName = "font/MFLiHei_Noncommercial.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "24",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "28",
+									ignoreSize = "True",
+									name = "Label_title",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "Kopfgeld des Jägers",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -344,
+										PositionY = 201,
+									},
+									width = "251",
 									ZOrder = "1",
 								},
 							},
@@ -773,7 +822,7 @@ local t =
 										PositionX = 10,
 										PositionY = 93,
 									},
-									width = "188",
+									width = "201",
 									ZOrder = "1",
 								},
 								{
@@ -857,7 +906,7 @@ local t =
 										PositionX = 582,
 										PositionY = 56,
 									},
-									width = "69",
+									width = "126",
 									ZOrder = "1",
 								},
 								{
@@ -912,15 +961,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -933,10 +982,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -2,
-												PositionY = -2,
+												
 											},
-											width = "98",
+											width = "120",
 											ZOrder = "1",
 										},
 									},
@@ -1055,7 +1103,7 @@ local t =
 										PositionX = 10,
 										PositionY = 93,
 									},
-									width = "188",
+									width = "201",
 									ZOrder = "1",
 								},
 								{
@@ -1139,7 +1187,7 @@ local t =
 										PositionX = 582,
 										PositionY = 56,
 									},
-									width = "69",
+									width = "126",
 									ZOrder = "1",
 								},
 								{
@@ -1194,15 +1242,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1215,10 +1263,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -2,
-												PositionY = -2,
+												
 											},
-											width = "98",
+											width = "120",
 											ZOrder = "1",
 										},
 									},

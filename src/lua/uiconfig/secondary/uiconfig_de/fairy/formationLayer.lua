@@ -574,11 +574,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "32",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_shiyong",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -588,11 +588,11 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 109,
+								PositionX = 94,
 								PositionY = 232,
 							},
 							visible = "False",
-							width = "86",
+							width = "117",
 							ZOrder = "1",
 							components = 
 							{
@@ -637,7 +637,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 16,
+										PositionX = 23,
 									},
 									width = "61",
 									ZOrder = "1",
@@ -2020,7 +2020,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -2032,6 +2032,8 @@ local t =
 							name = "Label_buttom_tip",
 							nTextAlign = "0",
 							nTextHAlign = "0",
+							scaleX = "0.9",
+							scaleY = "0.9",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -2044,7 +2046,7 @@ local t =
 								PositionX = -490,
 								PositionY = -223,
 							},
-							width = "630",
+							width = "662",
 							ZOrder = "1",
 						},
 						{
@@ -2343,7 +2345,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 294,
+								PositionX = 302,
 								PositionY = -223,
 							},
 							UItype = "Button",
@@ -2418,7 +2420,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -90,
+										PositionX = -95,
 										IsPercent = true,
 										PercentX = -50,
 									},

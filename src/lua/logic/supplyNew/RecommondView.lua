@@ -215,7 +215,7 @@ function RecommondView:updateGiftItem(item, data)
         Button_buy:setTextureNormal(btnSrc.."1.png")
     end
 
-    Label_num:setText(data.name)
+    Label_num:setText(Utils:MultiLanguageStringDeal(data.name))
 
     local Label_leftTime= TFDirector:getChildByPath(item,"Label_leftTime")
     Label_leftTime:setString(data.buyCount - RechargeDataMgr:getBuyCount(data.rechargeCfg.id).."/"..data.buyCount)
@@ -224,7 +224,7 @@ function RecommondView:updateGiftItem(item, data)
     local Label_tips = TFDirector:getChildByPath(item,"Label_tips")
     Label_tips:setVisible(data.buyCount ~= 0)
 
-    Label_desc:setText(data.des2)
+    Label_desc:setText(Utils:MultiLanguageStringDeal(data.des2))
     Label_desc:show()
 
     local serverTime = ServerDataMgr:getServerTime()

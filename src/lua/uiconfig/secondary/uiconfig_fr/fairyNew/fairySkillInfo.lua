@@ -222,7 +222,7 @@ local t =
 								PositionX = 244,
 								PositionY = 483,
 							},
-							width = "325",
+							width = "341",
 							ZOrder = "1",
 						},
 						{
@@ -380,7 +380,7 @@ local t =
 								PositionX = 492,
 								PositionY = 421,
 							},
-							width = "163",
+							width = "150",
 							ZOrder = "1",
 						},
 						{
@@ -426,7 +426,7 @@ local t =
 								PositionX = 873,
 								PositionY = 421,
 							},
-							width = "61",
+							width = "64",
 							ZOrder = "1",
 						},
 						{
@@ -498,7 +498,7 @@ local t =
 								PositionX = 492,
 								PositionY = 378,
 							},
-							width = "158",
+							width = "146",
 							ZOrder = "1",
 						},
 						{
@@ -544,7 +544,7 @@ local t =
 								PositionX = 677,
 								PositionY = 378,
 							},
-							width = "131",
+							width = "125",
 							ZOrder = "1",
 						},
 						{
@@ -566,14 +566,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "16",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "160",
+							height = "0",
 							ignoreSize = "False",
 							name = "Label_skilldesc",
 							nTextAlign = "0",
@@ -621,7 +621,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 683,
-								PositionY = 272,
+								PositionY = 273,
 							},
 							uipanelviewmodel = 
 							{

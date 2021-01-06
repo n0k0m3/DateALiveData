@@ -94,11 +94,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "122",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "img_1",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -113,7 +113,7 @@ local t =
 								nGravity = 6,
 								nAlign = 2
 							},
-							width = "427",
+							width = "456",
 							ZOrder = "1",
 						},
 						{
@@ -136,8 +136,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -165,
-								PositionY = 45,
+								PositionX = -180,
+								PositionY = 47,
 							},
 							width = "92",
 							ZOrder = "1",
@@ -151,21 +151,21 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "27",
+							height = "17",
 							ignoreSize = "True",
 							name = "img_3",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
-							srcBlendFunc = "1",
+							srcBlendFunc = "770",
 							texturePath = "ui/collect/collect_family_7.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 210,
+								PositionX = 217,
 								PositionY = 51,
 							},
-							width = "27",
+							width = "19",
 							ZOrder = "1",
 						},
 						{
@@ -235,8 +235,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -206,
-								PositionY = 44,
+								PositionX = -222,
+								PositionY = 45,
 							},
 							width = "89",
 							ZOrder = "1",
@@ -281,7 +281,7 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 209,
+								PositionX = 216,
 								PositionY = 50,
 							},
 							width = "19",
@@ -374,9 +374,9 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 110,
-								PositionY = -38,
+								PositionY = -40,
 							},
-							width = "53",
+							width = "50",
 							ZOrder = "1",
 						},
 						{
@@ -402,11 +402,11 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 159,
+								PositionX = 169,
 								PositionY = -38,
 							},
 							UItype = "Button",
-							width = "93",
+							width = "103",
 							ZOrder = "1",
 							components = 
 							{
@@ -430,14 +430,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
+									height = "18",
 									ignoreSize = "True",
 									name = "label_finish",
 									nTextAlign = "1",
@@ -453,7 +453,7 @@ local t =
 									{
 										PositionY = -1,
 									},
-									width = "93",
+									width = "91",
 									ZOrder = "1",
 								},
 							},
@@ -478,7 +478,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -72,
+								PositionX = -78,
 								PositionY = -39,
 							},
 							width = "255",
@@ -506,7 +506,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -73,
+								PositionX = -79,
 								PositionY = -40,
 							},
 							width = "255",

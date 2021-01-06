@@ -62280,7 +62280,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "",
+        name = "Tohka Invertida",
         cameraAction = 0,
         headL = "11303_b1",
         conditions = {
@@ -62314,7 +62314,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "",
+        name = "Tohka Invertida",
         cameraAction = 0,
         headL = "11303_b1",
         conditions = {
@@ -62518,7 +62518,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "",
+        name = "Tohka Invertida",
         cameraAction = 0,
         headL = "11001_h1",
         conditions = {
@@ -62620,7 +62620,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "",
+        name = "Tohka Invertida",
         cameraAction = 0,
         headL = "11001_x",
         conditions = {
@@ -62824,7 +62824,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "",
+        name = "Tohka Invertida",
         cameraAction = 0,
         headL = "10505_b2",
         conditions = {
@@ -63028,7 +63028,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "",
+        name = "Tohka Invertida",
         cameraAction = 0,
         headL = "10203_b1",
         conditions = {
@@ -63062,7 +63062,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "",
+        name = "Tohka Invertida",
         cameraAction = 0,
         headL = "",
         conditions = {
@@ -63130,7 +63130,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "",
+        name = "Tohka Invertida",
         cameraAction = 0,
         headL = "10203_E1",
         conditions = {

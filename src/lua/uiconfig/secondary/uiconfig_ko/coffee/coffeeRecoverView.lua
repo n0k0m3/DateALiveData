@@ -170,7 +170,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -187,7 +187,7 @@ local t =
 										PositionX = -253,
 										PositionY = 129,
 									},
-									width = "114",
+									width = "110",
 									ZOrder = "1",
 								},
 								{
@@ -325,7 +325,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_power_title",
 											nTextAlign = "1",
@@ -334,14 +334,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "体力",
+											text = "체력",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 20,
 											},
-											width = "49",
+											width = "45",
 											ZOrder = "1",
 										},
 										{
@@ -363,14 +363,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_power",
 											nTextAlign = "1",
@@ -387,7 +387,7 @@ local t =
 												PositionX = 349,
 												PositionY = -45,
 											},
-											width = "110",
+											width = "66",
 											ZOrder = "1",
 										},
 									},
@@ -411,14 +411,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_tips_1",
 									nTextAlign = "1",
@@ -433,9 +433,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -249,
-										PositionY = -47,
+										PositionY = -28,
 									},
-									width = "91",
+									width = "82",
 									ZOrder = "1",
 								},
 								{
@@ -457,14 +457,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_tips_2",
 									nTextAlign = "1",
@@ -478,10 +478,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -101,
-										PositionY = -47,
+										PositionX = -248,
+										PositionY = -55,
 									},
-									width = "133",
+									width = "123",
 									ZOrder = "1",
 								},
 								{
@@ -496,8 +496,8 @@ local t =
 									height = "100",
 									ignoreSize = "True",
 									name = "Image_cost_icon",
-									scaleX = "0.6",
-									scaleY = "0.6",
+									scaleX = "0.4",
+									scaleY = "0.4",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -506,8 +506,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -130,
-										PositionY = -48,
+										PositionX = -147,
+										PositionY = -30,
 									},
 									width = "100",
 									ZOrder = "1",
@@ -579,14 +579,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "确认恢复",
+											text = "회복 확인",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "99",
+											width = "92",
 											ZOrder = "1",
 										},
 									},
@@ -649,7 +649,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_get",
 											nTextAlign = "1",
@@ -658,14 +658,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "前往获取",
+											text = "획득하기",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "90",
+											width = "82",
 											ZOrder = "1",
 										},
 									},
@@ -798,7 +798,7 @@ local t =
 											{
 												PositionY = 1,
 											},
-											width = "57",
+											width = "70",
 											ZOrder = "1",
 										},
 									},

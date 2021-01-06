@@ -239,15 +239,15 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "40",
+							fontSize = "25",
 							fontStroke = 
 							{
 								IsStroke = true,
 								StrokeColor = "#FFDB689B",
 								StrokeSize = 2,
 							},
-							height = "50",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "giftName",
 							nTextAlign = "1",
 							nTextHAlign = "1",
@@ -260,10 +260,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -43,
+								PositionX = -22,
 								PositionY = -147,
 							},
-							width = "163",
+							width = "200",
 							ZOrder = "1",
 						},
 						{
@@ -729,7 +729,7 @@ local t =
 										PositionX = -44,
 										PositionY = 38,
 									},
-									width = "50",
+									width = "48",
 									ZOrder = "1",
 									components = 
 									{
@@ -832,7 +832,7 @@ local t =
 											{
 												PositionX = -2,
 											},
-											width = "47",
+											width = "46",
 											ZOrder = "1",
 										},
 									},
@@ -932,18 +932,18 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "24",
+							fontSize = "16",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "27",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "timeCount",
 							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -956,7 +956,7 @@ local t =
 								PositionX = 100,
 								PositionY = 170,
 							},
-							width = "161",
+							width = "167",
 							ZOrder = "1",
 						},
 					},

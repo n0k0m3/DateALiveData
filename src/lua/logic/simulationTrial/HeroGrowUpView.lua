@@ -166,7 +166,9 @@ end
 
 
 function HeroGrowUpView:initSkeletonTitle(growType)
-    local anmaitonIndex = (growType -1)*2
+    -- 小语种九种语言,所以索引时要 *18
+    -- 具体可查看动画文件
+    local anmaitonIndex = (growType - 1) * 18
     self.skeletonNode_title:setupPoseWhenPlay(true)
     self.skeletonNode_title:playByIndex(anmaitonIndex,0)
     self.skeletonNode_title:show()
@@ -174,7 +176,7 @@ function HeroGrowUpView:initSkeletonTitle(growType)
     self.skeletonNode_title:addMEListener(TFARMATURE_COMPLETE,function()
         self.skeletonNode_title:removeMEListener(TFARMATURE_COMPLETE)
         self.skeletonNode_title:setupPoseWhenPlay(false)
-        self.skeletonNode_title:playByIndex(anmaitonIndex + 1,1)
+        self.skeletonNode_title:playByIndex(anmaitonIndex + 9, 1)
     end)
 end
 

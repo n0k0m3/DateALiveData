@@ -291,7 +291,7 @@ local t =
 										LeftPositon = 15,
 										TopPosition = 224,
 									},
-									width = "210",
+									width = "229",
 									ZOrder = "1",
 									components = 
 									{
@@ -665,6 +665,33 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "img_name_bubble_Panel_avatars_Panel_root_Panel-avatarChangeView_Layer1_playerInfo_Game",
+									UUID = "e0fc4ed2_9980_4267_b7a6_facf12e409ea",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "65",
+									ignoreSize = "False",
+									name = "img_name_bubble",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/playerInfo/avatar/008_1.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 883,
+										PositionY = 258,
+										relativeToName = "Panel",
+									},
+									width = "218",
+									ZOrder = "1",
+								},
+								{
 									controlID = "panel_head_Panel_avatars_Panel_root_Panel-avatarChangeView_Layer1_playerInfo_Game",
 									UUID = "0d24c51e_a041_4982_ba1c_1345d7e86bf0",
 									anchorPoint = "False",
@@ -933,8 +960,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -949,12 +976,12 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 878,
-										PositionY = 260,
+										PositionX = 882,
+										PositionY = 257,
 										LeftPositon = 664,
 										TopPosition = 419,
 									},
-									width = "176",
+									width = "162",
 									ZOrder = "1",
 								},
 								{
@@ -1082,7 +1109,7 @@ local t =
 											{
 												
 											},
-											width = "89",
+											width = "84",
 											ZOrder = "1",
 										},
 									},
@@ -1220,7 +1247,7 @@ local t =
 											{
 												PositionY = 2,
 											},
-											width = "93",
+											width = "100",
 											ZOrder = "1",
 											components = 
 											{
@@ -1268,7 +1295,7 @@ local t =
 														PositionY = -14,
 													},
 													visible = "False",
-													width = "48",
+													width = "45",
 													ZOrder = "1",
 												},
 											},
@@ -1424,7 +1451,7 @@ local t =
 														PositionY = -14,
 													},
 													visible = "False",
-													width = "46",
+													width = "45",
 													ZOrder = "1",
 												},
 											},
@@ -1580,7 +1607,7 @@ local t =
 														PositionY = -14,
 													},
 													visible = "False",
-													width = "55",
+													width = "53",
 													ZOrder = "1",
 												},
 											},
@@ -1665,7 +1692,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "48",
 											ZOrder = "1",
 										},
 									},
@@ -1946,7 +1973,7 @@ local t =
 													{
 														PositionY = -2,
 													},
-													width = "67",
+													width = "74",
 													ZOrder = "1",
 												},
 											},
@@ -2086,7 +2113,7 @@ local t =
 												PositionX = 296,
 												PositionY = -20,
 											},
-											width = "129",
+											width = "124",
 											ZOrder = "1",
 										},
 									},
@@ -2293,7 +2320,7 @@ local t =
 													{
 														PositionY = -2,
 													},
-													width = "67",
+													width = "73",
 													ZOrder = "1",
 												},
 											},
@@ -2552,7 +2579,7 @@ local t =
 													{
 														PositionY = -2,
 													},
-													width = "67",
+													width = "73",
 													ZOrder = "1",
 												},
 											},
@@ -2660,6 +2687,7 @@ local t =
 			"ui/common/scroll_bar_01.png",
 			"ui/common/scroll_bar_02.png",
 			"ui/playerInfo/avatar/008.png",
+			"ui/playerInfo/avatar/008_1.png",
 			"ui/playerInfo/avatar/TXBK_moren_0.png",
 			"icon/hero/face/10201.png",
 			"ui/playerInfo/avatar/TXBK_moren_1.png",

@@ -718,7 +718,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "442",
 							ZOrder = "1",
 							components = 
@@ -1285,11 +1284,11 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_no_title",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1299,9 +1298,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 74,
+												PositionX = 61,
 											},
-											width = "247",
+											width = "200",
 											ZOrder = "1",
 										},
 										{
@@ -7252,7 +7251,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 566,
+								PositionX = 565,
 								PositionY = 321,
 								IsPercent = true,
 								PercentX = 49.82,

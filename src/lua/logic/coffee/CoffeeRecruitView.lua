@@ -182,7 +182,14 @@ function CoffeeRecruitView:registerEvents()
                     CoffeeDataMgr:send_MAID_ACTIVITY_REQ_REFRESH_RECRUIT(2)
                 else
                     local rstr = TextDataMgr:getTextAttr(13410048)
-                    local content = string.format(rstr.text, self.costNum_, self.costCfg_.icon)
+                    local content = ""
+
+                    -- 韩语的顺序反转
+                    if (TFLanguageMgr:getUsingLanguage() == cc.KOREAN) then
+                        content = string.format(rstr.text, self.costCfg_.icon, self.costNum_)
+                    else
+                        content = string.format(rstr.text, self.costNum_, self.costCfg_.icon)
+                    end
                     Utils:openView(
                         "common.ReConfirmTipsView",
                         {

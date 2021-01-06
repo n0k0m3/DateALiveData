@@ -17009,7 +17009,7 @@ local t =
 									controlID = "Label_power_Panel_assistantItem_Panel_prefab_Panel-fubenSquadView_Layer1_fuben_Game",
 									UUID = "510feb16_6afc_468b_a011_8cf853ea5453",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -17027,11 +17027,11 @@ local t =
 									fontSize = "20",
 									fontStroke = 
 									{
-										IsStroke = false,
-										StrokeColor = "#FFE6E6E6",
+										IsStroke = true,
+										StrokeColor = "#FF000000",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_power",
 									nTextAlign = "1",
@@ -17045,10 +17045,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -41,
-										PositionY = -33,
+										PositionX = 103,
+										PositionY = -30,
 									},
-									width = "61",
+									width = "62",
 									ZOrder = "1",
 								},
 								{

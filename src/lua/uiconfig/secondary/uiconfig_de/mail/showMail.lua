@@ -108,7 +108,7 @@ local t =
 								PositionX = 568,
 								PositionY = 320,
 							},
-							width = "381",
+							width = "470",
 							ZOrder = "1",
 							components = 
 							{
@@ -119,11 +119,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "430",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_bg_01",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -135,7 +135,7 @@ local t =
 									{
 										PositionY = 9,
 									},
-									width = "356",
+									width = "440",
 									ZOrder = "1",
 								},
 								{
@@ -160,7 +160,7 @@ local t =
 									{
 										PositionY = 203,
 									},
-									width = "350",
+									width = "436",
 									ZOrder = "1",
 								},
 								{
@@ -185,7 +185,7 @@ local t =
 									{
 										PositionY = -28,
 									},
-									width = "350",
+									width = "436",
 									ZOrder = "1",
 								},
 								{
@@ -208,7 +208,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -168,
+										PositionX = -204,
 										PositionY = 204,
 									},
 									width = "4",
@@ -234,7 +234,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -168,
+										PositionX = -204,
 										PositionY = -28,
 									},
 									width = "4",
@@ -264,7 +264,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 112,
+										PositionX = 158,
 										PositionY = -236,
 									},
 									UItype = "Button",
@@ -315,7 +315,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "89",
+											width = "84",
 											ZOrder = "1",
 										},
 									},
@@ -344,7 +344,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -113,
+										PositionX = -160,
 										PositionY = -236,
 									},
 									UItype = "Button",
@@ -395,7 +395,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "96",
+											width = "93",
 											ZOrder = "1",
 										},
 									},
@@ -425,7 +425,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 730,
+								PositionX = 764,
 								PositionY = 566,
 							},
 							UItype = "Button",
@@ -441,7 +441,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "82",
+							height = "90",
 							ignoreSize = "False",
 							name = "Image_item",
 							sizepercentx = "0",
@@ -451,10 +451,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -187,
+								PositionX = -188,
 								PositionY = 76,
 							},
-							width = "82",
+							width = "90",
 							ZOrder = "1",
 						},
 						{
@@ -490,7 +490,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "360",
+							width = "470",
 							ZOrder = "1",
 							components = 
 							{
@@ -514,18 +514,20 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_title",
-									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextAlign = "0",
+									nTextHAlign = "0",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -535,10 +537,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -179,
+										PositionX = -221,
 										PositionY = 244,
 									},
-									width = "89",
+									width = "500",
 									ZOrder = "1",
 								},
 								{
@@ -581,10 +583,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -164,
+										PositionX = -195,
 										PositionY = -27,
 									},
-									width = "75",
+									width = "68",
 									ZOrder = "1",
 								},
 								{
@@ -627,10 +629,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -162,
+										PositionX = -195,
 										PositionY = 204,
 									},
-									width = "64",
+									width = "63",
 									ZOrder = "1",
 								},
 								{
@@ -674,10 +676,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 166,
+										PositionX = 210,
 										PositionY = 203,
 									},
-									width = "110",
+									width = "109",
 									ZOrder = "1",
 								},
 								{
@@ -697,7 +699,7 @@ local t =
 									height = "170",
 									ignoreSize = "False",
 									innerHeight = "170",
-									innerWidth = "340",
+									innerWidth = "426",
 									name = "contentPanel",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -707,15 +709,15 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -172,
-										PositionY = 183,
+										PositionX = -214,
+										PositionY = 179,
 									},
 									uipanelviewmodel = 
 									{
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "340",
+									width = "426",
 									ZOrder = "1",
 									components = 
 									{
@@ -764,7 +766,7 @@ local t =
 												PositionX = 5,
 												PositionY = 170,
 											},
-											width = "335",
+											width = "426",
 											ZOrder = "1",
 										},
 									},
@@ -824,7 +826,7 @@ local t =
 											height = "110",
 											ignoreSize = "False",
 											innerHeight = "110",
-											innerWidth = "320",
+											innerWidth = "418",
 											name = "ScrollView_list",
 											showScrollbar = "False",
 											sizepercentx = "0",
@@ -834,15 +836,15 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 19,
-												PositionY = 38,
+												PositionX = -27,
+												PositionY = 26,
 											},
 											uipanelviewmodel = 
 											{
 												Layout="Absolute",
 												nType = "0"
 											},
-											width = "320",
+											width = "418",
 											ZOrder = "1",
 										},
 									},

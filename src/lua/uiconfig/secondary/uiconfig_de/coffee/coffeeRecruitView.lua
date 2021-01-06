@@ -306,15 +306,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF593524",
 												StrokeSize = 2,
 											},
-											height = "36",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -329,7 +329,7 @@ local t =
 											{
 												PositionY = 148,
 											},
-											width = "160",
+											width = "250",
 											ZOrder = "1",
 										},
 										{
@@ -579,7 +579,7 @@ local t =
 																StrokeColor = "#FF593524",
 																StrokeSize = 2,
 															},
-															height = "29",
+															height = "27",
 															ignoreSize = "True",
 															name = "Label_power",
 															nTextAlign = "1",
@@ -595,7 +595,7 @@ local t =
 															{
 																PositionX = 180,
 															},
-															width = "39",
+															width = "27",
 															ZOrder = "1",
 														},
 													},
@@ -654,7 +654,7 @@ local t =
 																StrokeColor = "#FF593524",
 																StrokeSize = 2,
 															},
-															height = "29",
+															height = "27",
 															ignoreSize = "True",
 															name = "Label_rush",
 															nTextAlign = "1",
@@ -670,7 +670,7 @@ local t =
 															{
 																PositionX = 76,
 															},
-															width = "39",
+															width = "27",
 															ZOrder = "1",
 														},
 													},
@@ -729,7 +729,7 @@ local t =
 																StrokeColor = "#FF593524",
 																StrokeSize = 2,
 															},
-															height = "29",
+															height = "27",
 															ignoreSize = "True",
 															name = "Label_cuisine",
 															nTextAlign = "1",
@@ -745,7 +745,7 @@ local t =
 															{
 																PositionX = 76,
 															},
-															width = "39",
+															width = "27",
 															ZOrder = "1",
 														},
 													},
@@ -821,8 +821,8 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "54",
-									ignoreSize = "True",
+									height = "60",
+									ignoreSize = "False",
 									name = "Button_recruit",
 									normal = "ui/activity/coffee/recruit/008.png",
 									sizepercentx = "0",
@@ -835,7 +835,7 @@ local t =
 										PositionY = -197,
 									},
 									UItype = "Button",
-									width = "190",
+									width = "235",
 									ZOrder = "1",
 									components = 
 									{
@@ -859,14 +859,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "17",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_recruit",
 											nTextAlign = "1",
@@ -880,9 +880,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 48,
+												PositionX = 56,
 											},
-											width = "55",
+											width = "113",
 											ZOrder = "1",
 										},
 										{
@@ -983,7 +983,7 @@ local t =
 														PositionX = 39,
 														PositionY = -2,
 													},
-													width = "44",
+													width = "43",
 													ZOrder = "1",
 												},
 											},
@@ -1023,7 +1023,7 @@ local t =
 											controlID = "Label_already_Image_already_Panel_elf_1_Panel_root_Panel-coffeeRecruitView_Layer1_coffee_Game",
 											UUID = "18e828d0_7b28_4d03_bb72_fcf3df9e061e",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -1038,14 +1038,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "19",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_already",
 											nTextAlign = "1",
@@ -1059,9 +1059,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = -52,
 											},
-											width = "81",
+											width = "108",
 											ZOrder = "1",
 										},
 									},
@@ -1263,15 +1263,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF593524",
 												StrokeSize = 2,
 											},
-											height = "36",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1286,7 +1286,7 @@ local t =
 											{
 												PositionY = 149,
 											},
-											width = "160",
+											width = "250",
 											ZOrder = "1",
 										},
 										{
@@ -1536,7 +1536,7 @@ local t =
 																StrokeColor = "#FF593524",
 																StrokeSize = 2,
 															},
-															height = "29",
+															height = "27",
 															ignoreSize = "True",
 															name = "Label_power",
 															nTextAlign = "1",
@@ -1552,7 +1552,7 @@ local t =
 															{
 																PositionX = 180,
 															},
-															width = "39",
+															width = "27",
 															ZOrder = "1",
 														},
 													},
@@ -1611,7 +1611,7 @@ local t =
 																StrokeColor = "#FF593524",
 																StrokeSize = 2,
 															},
-															height = "29",
+															height = "27",
 															ignoreSize = "True",
 															name = "Label_rush",
 															nTextAlign = "1",
@@ -1627,7 +1627,7 @@ local t =
 															{
 																PositionX = 76,
 															},
-															width = "39",
+															width = "27",
 															ZOrder = "1",
 														},
 													},
@@ -1686,7 +1686,7 @@ local t =
 																StrokeColor = "#FF593524",
 																StrokeSize = 2,
 															},
-															height = "29",
+															height = "27",
 															ignoreSize = "True",
 															name = "Label_cuisine",
 															nTextAlign = "1",
@@ -1702,7 +1702,7 @@ local t =
 															{
 																PositionX = 76,
 															},
-															width = "39",
+															width = "27",
 															ZOrder = "1",
 														},
 													},
@@ -1778,8 +1778,8 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "54",
-									ignoreSize = "True",
+									height = "60",
+									ignoreSize = "False",
 									name = "Button_recruit",
 									normal = "ui/activity/coffee/recruit/008.png",
 									sizepercentx = "0",
@@ -1792,7 +1792,7 @@ local t =
 										PositionY = -197,
 									},
 									UItype = "Button",
-									width = "190",
+									width = "235",
 									ZOrder = "1",
 									components = 
 									{
@@ -1816,14 +1816,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "17",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_recruit",
 											nTextAlign = "1",
@@ -1837,9 +1837,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 48,
+												PositionX = 56,
 											},
-											width = "55",
+											width = "113",
 											ZOrder = "1",
 										},
 										{
@@ -1940,7 +1940,7 @@ local t =
 														PositionX = 39,
 														PositionY = -2,
 													},
-													width = "44",
+													width = "43",
 													ZOrder = "1",
 												},
 											},
@@ -1980,7 +1980,7 @@ local t =
 											controlID = "Label_already_Image_already_Panel_elf_2_Panel_root_Panel-coffeeRecruitView_Layer1_coffee_Game",
 											UUID = "89a8a6f4_d6e8_46d8_bfc6_f5de6c38c39d",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -1995,14 +1995,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "19",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_already",
 											nTextAlign = "1",
@@ -2016,9 +2016,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = -52,
 											},
-											width = "81",
+											width = "108",
 											ZOrder = "1",
 										},
 									},
@@ -2220,15 +2220,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF593524",
 												StrokeSize = 2,
 											},
-											height = "36",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -2243,7 +2243,7 @@ local t =
 											{
 												PositionY = 149,
 											},
-											width = "160",
+											width = "250",
 											ZOrder = "1",
 										},
 										{
@@ -2493,7 +2493,7 @@ local t =
 																StrokeColor = "#FF593524",
 																StrokeSize = 2,
 															},
-															height = "29",
+															height = "27",
 															ignoreSize = "True",
 															name = "Label_power",
 															nTextAlign = "1",
@@ -2509,7 +2509,7 @@ local t =
 															{
 																PositionX = 180,
 															},
-															width = "39",
+															width = "27",
 															ZOrder = "1",
 														},
 													},
@@ -2568,7 +2568,7 @@ local t =
 																StrokeColor = "#FF593524",
 																StrokeSize = 2,
 															},
-															height = "29",
+															height = "27",
 															ignoreSize = "True",
 															name = "Label_rush",
 															nTextAlign = "1",
@@ -2584,7 +2584,7 @@ local t =
 															{
 																PositionX = 76,
 															},
-															width = "39",
+															width = "27",
 															ZOrder = "1",
 														},
 													},
@@ -2643,7 +2643,7 @@ local t =
 																StrokeColor = "#FF593524",
 																StrokeSize = 2,
 															},
-															height = "29",
+															height = "27",
 															ignoreSize = "True",
 															name = "Label_cuisine",
 															nTextAlign = "1",
@@ -2659,7 +2659,7 @@ local t =
 															{
 																PositionX = 76,
 															},
-															width = "39",
+															width = "27",
 															ZOrder = "1",
 														},
 													},
@@ -2735,8 +2735,8 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "54",
-									ignoreSize = "True",
+									height = "60",
+									ignoreSize = "False",
 									name = "Button_recruit",
 									normal = "ui/activity/coffee/recruit/008.png",
 									sizepercentx = "0",
@@ -2749,7 +2749,7 @@ local t =
 										PositionY = -197,
 									},
 									UItype = "Button",
-									width = "190",
+									width = "235",
 									ZOrder = "1",
 									components = 
 									{
@@ -2773,14 +2773,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "17",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_recruit",
 											nTextAlign = "1",
@@ -2794,9 +2794,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 48,
+												PositionX = 56,
 											},
-											width = "55",
+											width = "113",
 											ZOrder = "1",
 										},
 										{
@@ -2897,7 +2897,7 @@ local t =
 														PositionX = 39,
 														PositionY = -2,
 													},
-													width = "44",
+													width = "43",
 													ZOrder = "1",
 												},
 											},
@@ -2937,7 +2937,7 @@ local t =
 											controlID = "Label_already_Image_already_Panel_elf_3_Panel_root_Panel-coffeeRecruitView_Layer1_coffee_Game",
 											UUID = "b177f636_248d_4f9b_8b80_465cb5efffd5",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -2952,14 +2952,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "19",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_already",
 											nTextAlign = "1",
@@ -2973,9 +2973,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = -52,
 											},
-											width = "81",
+											width = "108",
 											ZOrder = "1",
 										},
 									},
@@ -3029,14 +3029,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_remain",
 									nTextAlign = "1",
@@ -3053,7 +3053,7 @@ local t =
 										PositionX = -537,
 										PositionY = -7,
 									},
-									width = "211",
+									width = "334",
 									ZOrder = "1",
 									components = 
 									{
@@ -3084,7 +3084,7 @@ local t =
 												StrokeColor = "#FF593524",
 												StrokeSize = 2,
 											},
-											height = "36",
+											height = "34",
 											ignoreSize = "True",
 											name = "Label_remain_count",
 											nTextAlign = "1",
@@ -3098,9 +3098,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 222,
+												PositionX = 346,
 											},
-											width = "25",
+											width = "18",
 											ZOrder = "1",
 										},
 									},
@@ -3145,10 +3145,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 345,
+										PositionX = 282,
 										PositionY = 7,
 									},
-									width = "124",
+									width = "126",
 									ZOrder = "1",
 								},
 								{
@@ -3191,10 +3191,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 334,
+										PositionX = 271,
 										PositionY = -15,
 									},
-									width = "119",
+									width = "106",
 									ZOrder = "1",
 								},
 								{
@@ -3203,14 +3203,14 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "54",
-									ignoreSize = "True",
+									height = "60",
+									ignoreSize = "False",
 									name = "Button_refresh",
 									normal = "ui/activity/coffee/recruit/008.png",
 									sizepercentx = "0",
@@ -3220,11 +3220,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 452,
+										PositionX = 427,
 										PositionY = -4,
 									},
 									UItype = "Button",
-									width = "190",
+									width = "220",
 									ZOrder = "1",
 									components = 
 									{
@@ -3248,14 +3248,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_refresh",
 											nTextAlign = "1",
@@ -3271,7 +3271,7 @@ local t =
 											{
 												PositionX = 49,
 											},
-											width = "55",
+											width = "115",
 											ZOrder = "1",
 										},
 										{
@@ -3294,7 +3294,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -39,
+												PositionX = -56,
 											},
 											width = "86",
 											ZOrder = "1",
@@ -3371,7 +3371,7 @@ local t =
 														PositionX = 31,
 														PositionY = -2,
 													},
-													width = "44",
+													width = "43",
 													ZOrder = "1",
 												},
 											},
@@ -3384,14 +3384,14 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "54",
-									ignoreSize = "True",
+									height = "60",
+									ignoreSize = "False",
 									name = "Button_refresh_free",
 									normal = "ui/activity/coffee/recruit/010.png",
 									sizepercentx = "0",
@@ -3401,11 +3401,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 452,
+										PositionX = 428,
 										PositionY = -4,
 									},
 									UItype = "Button",
-									width = "190",
+									width = "220",
 									ZOrder = "1",
 									components = 
 									{
@@ -3436,7 +3436,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_refresh_free",
 											nTextAlign = "1",
@@ -3452,7 +3452,7 @@ local t =
 											{
 												
 											},
-											width = "55",
+											width = "185",
 											ZOrder = "1",
 										},
 									},

@@ -149,10 +149,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 427,
-										PositionY = -174,
+										PositionX = 271,
+										PositionY = -205,
 									},
-									width = "115",
+									width = "131",
 									ZOrder = "1",
 								},
 								{
@@ -199,7 +199,7 @@ local t =
 										PositionX = 427,
 										PositionY = -174,
 									},
-									width = "115",
+									width = "131",
 									ZOrder = "1",
 								},
 								{
@@ -356,7 +356,7 @@ local t =
 												PositionX = 153,
 												PositionY = 20,
 											},
-											width = "74",
+											width = "69",
 											ZOrder = "1",
 										},
 										{
@@ -402,7 +402,7 @@ local t =
 												PositionX = -46,
 												PositionY = -25,
 											},
-											width = "90",
+											width = "89",
 											ZOrder = "1",
 										},
 										{
@@ -448,7 +448,7 @@ local t =
 												PositionX = 153,
 												PositionY = -25,
 											},
-											width = "46",
+											width = "41",
 											ZOrder = "1",
 										},
 									},
@@ -518,6 +518,7 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
+												PositionX = -24,
 												PositionY = 40,
 											},
 											uipanelviewmodel = 

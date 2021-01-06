@@ -538,7 +538,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -616,7 +616,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -70,
+										PositionY = -44,
 									},
 									uipanelviewmodel = 
 									{
@@ -716,7 +716,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = -1,
 									},
 									width = "160",
 									ZOrder = "1",

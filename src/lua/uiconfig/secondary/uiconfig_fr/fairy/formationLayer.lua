@@ -488,7 +488,7 @@ local t =
 									{
 										PositionY = 8,
 									},
-									width = "122",
+									width = "125",
 									ZOrder = "1",
 								},
 							},
@@ -638,7 +638,7 @@ local t =
 									{
 										PositionX = 16,
 									},
-									width = "54",
+									width = "53",
 									ZOrder = "1",
 								},
 							},
@@ -740,7 +740,7 @@ local t =
 									{
 										PositionX = 2,
 									},
-									width = "21",
+									width = "25",
 									ZOrder = "1",
 								},
 							},
@@ -817,7 +817,7 @@ local t =
 										PositionY = -3,
 									},
 									visible = "False",
-									width = "92",
+									width = "81",
 									ZOrder = "1",
 								},
 							},
@@ -893,7 +893,7 @@ local t =
 									{
 										PositionY = 11,
 									},
-									width = "43",
+									width = "45",
 									ZOrder = "1",
 								},
 							},
@@ -1073,7 +1073,7 @@ local t =
 										PositionX = 53,
 										PositionY = -1,
 									},
-									width = "32",
+									width = "33",
 									ZOrder = "1",
 								},
 							},
@@ -1307,7 +1307,7 @@ local t =
 										PositionY = 219,
 									},
 									visible = "False",
-									width = "127",
+									width = "125",
 									ZOrder = "1",
 								},
 							},
@@ -1355,7 +1355,7 @@ local t =
 								PositionX = -495,
 								PositionY = 224,
 							},
-							width = "259",
+							width = "278",
 							ZOrder = "1",
 						},
 						{
@@ -1718,7 +1718,7 @@ local t =
 										PositionX = 35,
 										PositionY = 32,
 									},
-									width = "38",
+									width = "36",
 									ZOrder = "1",
 								},
 							},
@@ -1916,7 +1916,7 @@ local t =
 								PositionX = -330,
 								PositionY = -152,
 							},
-							width = "31",
+							width = "33",
 							ZOrder = "1",
 						},
 						{
@@ -1962,7 +1962,7 @@ local t =
 								PositionX = -265,
 								PositionY = -151,
 							},
-							width = "101",
+							width = "102",
 							ZOrder = "1",
 						},
 						{
@@ -2020,7 +2020,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "17",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -2044,7 +2044,7 @@ local t =
 								PositionX = -490,
 								PositionY = -223,
 							},
-							width = "630",
+							width = "620",
 							ZOrder = "1",
 						},
 						{
@@ -2158,7 +2158,7 @@ local t =
 												PositionX = -21,
 												PositionY = -13,
 											},
-											width = "30",
+											width = "28",
 											ZOrder = "1",
 										},
 										{

@@ -1895,7 +1895,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 1,
+																PositionX = 19,
 																PositionY = 21,
 															},
 															width = "135",
@@ -1911,7 +1911,7 @@ local t =
 															compPath = "luacomponents.common.MEIconLabel",
 															dstBlendFunc = "771",
 															FontColor = "#FFFFFFFF",
-															fontName = "phanta.ttf",
+															fontName = "font/fangzheng_zhunyuan.ttf",
 															fontShadow = 
 															{
 																IsShadow = false,
@@ -1943,7 +1943,8 @@ local t =
 															{
 																PositionX = -22,
 															},
-															width = "0",
+															visible = "False",
+															width = "51",
 															ZOrder = "1",
 														},
 														{
@@ -1966,7 +1967,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 67,
+																PositionX = 114,
 																PositionY = 21,
 															},
 															width = "45",
@@ -2927,7 +2928,7 @@ local t =
 																		PositionX = 116,
 																		PositionY = 168,
 																	},
-																	width = "28",
+																	width = "29",
 																	ZOrder = "1",
 																},
 																{
@@ -2974,7 +2975,7 @@ local t =
 																		PositionY = 40,
 																	},
 																	visible = "False",
-																	width = "24",
+																	width = "29",
 																	ZOrder = "1",
 																},
 																{
@@ -3021,7 +3022,7 @@ local t =
 																		PositionY = 40,
 																	},
 																	visible = "False",
-																	width = "28",
+																	width = "29",
 																	ZOrder = "1",
 																},
 																{
@@ -3736,7 +3737,7 @@ local t =
 																		PositionX = 114,
 																		PositionY = 1,
 																	},
-																	width = "28",
+																	width = "29",
 																	ZOrder = "1",
 																},
 																{
@@ -3783,7 +3784,7 @@ local t =
 																		PositionY = 40,
 																	},
 																	visible = "False",
-																	width = "24",
+																	width = "29",
 																	ZOrder = "1",
 																},
 																{
@@ -3830,7 +3831,7 @@ local t =
 																		PositionY = 40,
 																	},
 																	visible = "False",
-																	width = "28",
+																	width = "29",
 																	ZOrder = "1",
 																},
 																{
@@ -4545,7 +4546,7 @@ local t =
 																		PositionX = 113,
 																		PositionY = 168,
 																	},
-																	width = "28",
+																	width = "29",
 																	ZOrder = "1",
 																},
 																{
@@ -4592,7 +4593,7 @@ local t =
 																		PositionY = 40,
 																	},
 																	visible = "False",
-																	width = "24",
+																	width = "29",
 																	ZOrder = "1",
 																},
 																{
@@ -4639,7 +4640,7 @@ local t =
 																		PositionY = 40,
 																	},
 																	visible = "False",
-																	width = "28",
+																	width = "29",
 																	ZOrder = "1",
 																},
 																{
@@ -5680,7 +5681,7 @@ local t =
 															compPath = "luacomponents.common.MEIconLabel",
 															dstBlendFunc = "771",
 															FontColor = "#FFFFFFFF",
-															fontName = "phanta.ttf",
+															fontName = "font/fangzheng_zhunyuan.ttf",
 															fontShadow = 
 															{
 																IsShadow = false,
@@ -5713,7 +5714,8 @@ local t =
 																PositionX = -46,
 																PositionY = -10,
 															},
-															width = "0",
+															visible = "False",
+															width = "37",
 															ZOrder = "1",
 														},
 														{
@@ -6381,14 +6383,14 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEButton",
 													ClickHighLightEnabled = "True",
 													dstBlendFunc = "771",
 													flipX = "False",
 													flipY = "False",
 													height = "41",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "btn_xiangxi",
 													normal = "ui/simulation_trial/spriteInfo/a6.png",
 													sizepercentx = "0",
@@ -6398,11 +6400,11 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = 420,
+														PositionX = 404,
 														PositionY = 469,
 													},
 													UItype = "Button",
-													width = "75",
+													width = "99",
 													ZOrder = "1",
 													components = 
 													{
@@ -6862,7 +6864,7 @@ local t =
 																		PositionY = 43,
 																	},
 																	visible = "False",
-																	width = "43",
+																	width = "49",
 																	ZOrder = "1",
 																},
 															},
@@ -7042,7 +7044,7 @@ local t =
 																		PositionY = 43,
 																	},
 																	visible = "False",
-																	width = "43",
+																	width = "49",
 																	ZOrder = "1",
 																},
 															},
@@ -7222,7 +7224,7 @@ local t =
 																		PositionY = 43,
 																	},
 																	visible = "False",
-																	width = "43",
+																	width = "49",
 																	ZOrder = "1",
 																},
 															},
@@ -7402,7 +7404,7 @@ local t =
 																		PositionY = 43,
 																	},
 																	visible = "False",
-																	width = "43",
+																	width = "49",
 																	ZOrder = "1",
 																},
 															},
@@ -7609,7 +7611,7 @@ local t =
 															compPath = "luacomponents.common.MEIconLabel",
 															dstBlendFunc = "771",
 															FontColor = "#FFFFFFFF",
-															fontName = "phanta.ttf",
+															fontName = "font/fangzheng_zhunyuan.ttf",
 															fontShadow = 
 															{
 																IsShadow = false,
@@ -7641,7 +7643,8 @@ local t =
 															{
 																PositionX = 34,
 															},
-															width = "0",
+															visible = "False",
+															width = "51",
 															ZOrder = "1",
 														},
 														{
@@ -8065,7 +8068,7 @@ local t =
 																				PositionX = -29,
 																				PositionY = 26,
 																			},
-																			width = "23",
+																			width = "22",
 																			ZOrder = "1",
 																		},
 																		{
@@ -8561,7 +8564,7 @@ local t =
 																				PositionX = -29,
 																				PositionY = 26,
 																			},
-																			width = "23",
+																			width = "22",
 																			ZOrder = "1",
 																		},
 																		{
@@ -9057,7 +9060,7 @@ local t =
 																				PositionX = -29,
 																				PositionY = 26,
 																			},
-																			width = "23",
+																			width = "22",
 																			ZOrder = "1",
 																		},
 																		{
@@ -9553,7 +9556,7 @@ local t =
 																				PositionX = -29,
 																				PositionY = 26,
 																			},
-																			width = "23",
+																			width = "22",
 																			ZOrder = "1",
 																		},
 																		{
@@ -10049,7 +10052,7 @@ local t =
 																				PositionX = -29,
 																				PositionY = 26,
 																			},
-																			width = "23",
+																			width = "22",
 																			ZOrder = "1",
 																		},
 																		{
@@ -10545,7 +10548,7 @@ local t =
 																				PositionX = -29,
 																				PositionY = 26,
 																			},
-																			width = "23",
+																			width = "22",
 																			ZOrder = "1",
 																		},
 																		{
@@ -10865,7 +10868,7 @@ local t =
 																		PositionX = 63,
 																		PositionY = 15,
 																	},
-																	width = "27",
+																	width = "28",
 																	ZOrder = "1",
 																},
 																{
@@ -10911,7 +10914,7 @@ local t =
 																		PositionX = 200,
 																		PositionY = 15,
 																	},
-																	width = "31",
+																	width = "34",
 																	ZOrder = "1",
 																},
 															},
@@ -11069,7 +11072,7 @@ local t =
 																		PositionX = 188,
 																		PositionY = 15,
 																	},
-																	width = "30",
+																	width = "33",
 																	ZOrder = "1",
 																},
 															},
@@ -11181,7 +11184,7 @@ local t =
 																		PositionX = 63,
 																		PositionY = 14,
 																	},
-																	width = "33",
+																	width = "39",
 																	ZOrder = "1",
 																},
 																{
@@ -11227,7 +11230,7 @@ local t =
 																		PositionX = 200,
 																		PositionY = 14,
 																	},
-																	width = "42",
+																	width = "45",
 																	ZOrder = "1",
 																},
 															},
@@ -11595,7 +11598,7 @@ local t =
 														PositionY = 536,
 													},
 													visible = "False",
-													width = "29",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -12968,7 +12971,7 @@ local t =
 															compPath = "luacomponents.common.MEIconLabel",
 															dstBlendFunc = "771",
 															FontColor = "#FFFFFFFF",
-															fontName = "phanta.ttf",
+															fontName = "font/fangzheng_zhunyuan.ttf",
 															fontShadow = 
 															{
 																IsShadow = false,
@@ -13001,7 +13004,8 @@ local t =
 																PositionX = 36,
 																PositionY = 7,
 															},
-															width = "0",
+															visible = "False",
+															width = "28",
 															ZOrder = "1",
 														},
 														{
@@ -13301,7 +13305,7 @@ local t =
 												PositionX = -58,
 												PositionY = 37,
 											},
-											width = "53",
+											width = "44",
 											ZOrder = "1",
 										},
 									},
@@ -13568,7 +13572,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 280,
+										PositionX = 359,
 										PositionY = 16,
 									},
 									width = "32",
@@ -13699,7 +13703,7 @@ local t =
 										PositionY = 47,
 									},
 									visible = "False",
-									width = "78",
+									width = "84",
 									ZOrder = "1",
 								},
 							},
@@ -14169,9 +14173,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
+												PositionX = 5,
 												PositionY = -1,
 											},
-											width = "97",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -14217,7 +14222,7 @@ local t =
 												PositionX = 261,
 												PositionY = -1,
 											},
-											width = "24",
+											width = "28",
 											ZOrder = "1",
 										},
 									},
@@ -14329,9 +14334,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -1,
+												PositionX = 5,
 											},
-											width = "130",
+											width = "135",
 											ZOrder = "1",
 											components = 
 											{
@@ -14379,6 +14384,7 @@ local t =
 														PositionX = 113,
 														PositionY = -7,
 													},
+													visible = "False",
 													width = "70",
 													ZOrder = "1",
 												},
@@ -14493,9 +14499,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = 5,
 											},
-											width = "125",
+											width = "130",
 											ZOrder = "1",
 											components = 
 											{
@@ -14543,6 +14549,7 @@ local t =
 														PositionX = 137,
 														PositionY = -7,
 													},
+													visible = "False",
 													width = "59",
 													ZOrder = "1",
 												},
@@ -15770,7 +15777,7 @@ local t =
 												PositionX = 36,
 												PositionY = 43,
 											},
-											width = "43",
+											width = "49",
 											ZOrder = "1",
 										},
 									},

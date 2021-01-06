@@ -38,6 +38,9 @@ function PushGiftView:initUI(ui)
     self.Button_close = TFDirector:getChildByPath(ui,"Button_close")
     self.giftName = TFDirector:getChildByPath(ui,"giftName")
 	self.DesLabel = TFDirector:getChildByPath(ui,"DesLabel")
+	--屏蔽描述
+	TFDirector:getChildByPath(ui,"ImageDescript"):hide()
+
     self.timeCount = TFDirector:getChildByPath(ui,"timeCount")
 
 	self.empty_2 = TFDirector:getChildByPath(ui,"empty_2")
@@ -76,13 +79,13 @@ function PushGiftView:refreshTime()
     local str = ""
     if self.data.triggerEndDate - serverTime > 0 then
         local hour, min = Utils:getFuzzyTime(self.data.triggerEndDate - serverTime, true)
-		str = string.format(self.extendData["timeFormat"], hour, min)
+		str = TextDataMgr:getText(self.extendData["timeFormat"], hour, min)
     end
     self.timeCount:setText(str)
 end
 
 function PushGiftView:refresView()
-    self.giftName:setText(self.data["name"])
+    self.giftName:setText(Utils:MultiLanguageStringDeal(self.data["name"]))
 	self.DesLabel:setText(self.extendData["showText"])
 	self.discountPrice.x = self.discountPrice:getPositionX()
 	if self.data.buyType == 1 then
@@ -103,9 +106,9 @@ function PushGiftView:refresView()
 			self.imageDiscountTag:show()
 		end
 		self.discountTag:show()
-		self.originPrice:setText("$"..self.data["originalPrice"])
+		self.originPrice:setText(self.data["originalPrice"])
 		self.discountTag:setTextById(277004, self.data["discount"])
-		self.discountPrice:setText("$ ".. self.data["rechargeCfg"]["price"])
+		self.discountPrice:setText(self.data["rechargeCfg"]["price"])
 		self.discountPrice:setPositionX(self.discountPrice.x - 20)
 	end
 

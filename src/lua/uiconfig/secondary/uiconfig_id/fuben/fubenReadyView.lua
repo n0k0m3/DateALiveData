@@ -2505,7 +2505,7 @@ local t =
 													controlID = "Label_datingDescTitle_Image_datingDesc_Panel_dating_Image_content_Panel_root_Panel-fubenReadyView_Layer1_fuben_Game",
 													UUID = "1856039d_0b29_4a74_897d_d9a131c1973d",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -2541,7 +2541,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -158,
+														PositionX = -245,
 														PositionY = -1,
 													},
 													width = "149",
@@ -2673,7 +2673,7 @@ local t =
 													controlID = "Label_datingTargetTitle_Image_datingTarget_Panel_dating_Image_content_Panel_root_Panel-fubenReadyView_Layer1_fuben_Game",
 													UUID = "c90e0968_d9fa_41b1_bdcb_1df17c677ebe",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -2709,7 +2709,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -160,
+														PositionX = -245,
 														PositionY = -1,
 													},
 													width = "149",

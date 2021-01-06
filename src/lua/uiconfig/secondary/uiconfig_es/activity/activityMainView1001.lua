@@ -343,18 +343,20 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
-											nTextHAlign = "0",
+											nTextHAlign = "2",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -364,9 +366,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 134,
+												PositionX = 160,
 											},
-											width = "83",
+											width = "120",
 											ZOrder = "1",
 										},
 										{
@@ -445,7 +447,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 53,
+												PositionX = 78,
 												PositionY = 2,
 											},
 											width = "176",
@@ -470,18 +472,20 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
-											nTextHAlign = "0",
+											nTextHAlign = "2",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -491,9 +495,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 131,
+												PositionX = 157,
+												PositionY = 1,
 											},
-											width = "83",
+											width = "120",
 											ZOrder = "1",
 										},
 										{

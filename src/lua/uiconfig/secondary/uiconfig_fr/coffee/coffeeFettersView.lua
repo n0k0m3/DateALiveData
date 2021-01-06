@@ -195,7 +195,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -212,7 +212,7 @@ local t =
 										PositionX = -253,
 										PositionY = 129,
 									},
-									width = "114",
+									width = "199",
 									ZOrder = "1",
 								},
 								{
@@ -331,7 +331,7 @@ local t =
 														StrokeColor = "#FF30354A",
 														StrokeSize = 2,
 													},
-													height = "29",
+													height = "27",
 													ignoreSize = "True",
 													name = "Label_fetters_name",
 													nTextAlign = "1",
@@ -348,7 +348,7 @@ local t =
 														PositionX = -222,
 														PositionY = 41,
 													},
-													width = "125",
+													width = "151",
 													ZOrder = "1",
 												},
 												{
@@ -550,7 +550,7 @@ local t =
 													UUID = "9f957bbd_3324_48af_8402_d3f177366026",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
-													anchorPointY = "0.5",
+													anchorPointY = "1",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
@@ -564,14 +564,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "46",
+													height = "0",
 													ignoreSize = "False",
 													name = "Label_desc",
 													nTextAlign = "0",
@@ -586,7 +586,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 129,
-														PositionY = -14,
+														PositionY = 28,
 													},
 													width = "223",
 													ZOrder = "1",
@@ -663,7 +663,7 @@ local t =
 													{
 														
 													},
-													width = "75",
+													width = "111",
 													ZOrder = "1",
 												},
 											},
@@ -786,7 +786,7 @@ local t =
 														StrokeColor = "#FF30354A",
 														StrokeSize = 2,
 													},
-													height = "29",
+													height = "27",
 													ignoreSize = "True",
 													name = "Label_fetters_name",
 													nTextAlign = "1",
@@ -803,7 +803,7 @@ local t =
 														PositionX = -222,
 														PositionY = 41,
 													},
-													width = "125",
+													width = "151",
 													ZOrder = "1",
 												},
 												{
@@ -1005,7 +1005,7 @@ local t =
 													UUID = "90813016_d913_4a74_8b22_b3028e4be600",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
-													anchorPointY = "0.5",
+													anchorPointY = "1",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
@@ -1019,14 +1019,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "46",
+													height = "0",
 													ignoreSize = "False",
 													name = "Label_desc",
 													nTextAlign = "0",
@@ -1041,7 +1041,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 129,
-														PositionY = -14,
+														PositionY = 28,
 													},
 													width = "223",
 													ZOrder = "1",
@@ -1118,7 +1118,7 @@ local t =
 													{
 														
 													},
-													width = "75",
+													width = "111",
 													ZOrder = "1",
 												},
 											},

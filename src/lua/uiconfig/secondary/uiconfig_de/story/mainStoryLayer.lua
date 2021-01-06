@@ -574,7 +574,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "37",
+													height = "34",
 													ignoreSize = "True",
 													name = "Label_role_name",
 													nTextAlign = "1",
@@ -591,7 +591,7 @@ local t =
 													{
 														
 													},
-													width = "194",
+													width = "156",
 													ZOrder = "1",
 												},
 											},
@@ -789,7 +789,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "37",
+													height = "34",
 													ignoreSize = "True",
 													name = "Label_role_name",
 													nTextAlign = "1",
@@ -806,7 +806,7 @@ local t =
 													{
 														
 													},
-													width = "194",
+													width = "156",
 													ZOrder = "1",
 												},
 											},
@@ -888,14 +888,14 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
 									height = "44",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Button_skip",
 									normal = "ui/common/button_skip.png",
 									sizepercentx = "0",
@@ -905,11 +905,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 1070,
-										PositionY = 601,
+										PositionX = 1054,
+										PositionY = 602,
 									},
 									UItype = "Button",
-									width = "110",
+									width = "160",
 									ZOrder = "1",
 									components = 
 									{
@@ -933,14 +933,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "17",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFF588A7",
 												StrokeSize = 2,
 											},
-											height = "31",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -956,7 +956,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "49",
+											width = "129",
 											ZOrder = "1",
 										},
 									},

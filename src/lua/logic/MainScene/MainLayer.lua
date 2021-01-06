@@ -804,15 +804,29 @@ function MainLayer:showLeftBtnAnim()
     end
 
      local threeActivity = {}
-    if self.button_OneYear:isVisible() then
-        table.insert(threeActivity , self.button_OneYear)
-    end
-    if self.Button_Activity7:isVisible() then
-        table.insert(threeActivity , self.Button_Activity7)
-    end
-    if self.Button_Activity91:isVisible() then
-        table.insert(threeActivity , self.Button_Activity91)
-    end
+
+     if TFGlobalUtils:isConnectMiniServer( ) then   --如果是小语种服
+        if self.button_OneYear:isVisible() then
+            table.insert(threeActivity , self.button_OneYear)
+        end
+        if self.Button_Activity7:isVisible() then
+            table.insert(threeActivity , self.Button_Activity7)
+        end
+        if self.Button_Activity1001:isVisible() then
+            table.insert(threeActivity , self.Button_Activity1001)
+        end
+     else
+        if self.button_OneYear:isVisible() then
+            table.insert(threeActivity , self.button_OneYear)
+        end
+        if self.Button_Activity7:isVisible() then
+            table.insert(threeActivity , self.Button_Activity7)
+        end
+        if self.Button_Activity91:isVisible() then
+            table.insert(threeActivity , self.Button_Activity91)
+        end
+     end
+    
 
     if self.Button_newPlayer:isVisible()  and #threeActivity<=1 then
         self.Button_newPlayer:setScale(0.85)
@@ -3336,15 +3350,30 @@ function MainLayer:updateOneYearBtns()
 
         
         local threeActivity = {}
-            if self.button_OneYear and self.button_OneYear:isVisible() then
-                table.insert(threeActivity , self.button_OneYear)
+            if TFGlobalUtils:isConnectMiniServer( ) then   --如果是小语种服
+
+                 if self.button_OneYear and self.button_OneYear:isVisible() then
+                    table.insert(threeActivity , self.button_OneYear)
+                end
+                if self.Button_Activity7 and self.Button_Activity7:isVisible() then
+                    table.insert(threeActivity , self.Button_Activity7)
+                end
+                if self.Button_Activity1001 and self.Button_Activity1001:isVisible() then
+                    table.insert(threeActivity , self.Button_Activity1001)
+                end
+            else
+
+                if self.button_OneYear and self.button_OneYear:isVisible() then
+                    table.insert(threeActivity , self.button_OneYear)
+                end
+                if self.Button_Activity7 and self.Button_Activity7:isVisible() then
+                    table.insert(threeActivity , self.Button_Activity7)
+                end
+                if self.Button_Activity91 and self.Button_Activity91:isVisible() then
+                    table.insert(threeActivity , self.Button_Activity91)
+                end
             end
-            if self.Button_Activity7 and self.Button_Activity7:isVisible() then
-                table.insert(threeActivity , self.Button_Activity7)
-            end
-            if self.Button_Activity91 and self.Button_Activity1001:isVisible() then
-                table.insert(threeActivity , self.Button_Activity91)
-            end
+            
 
 		
 		--按钮移动位置

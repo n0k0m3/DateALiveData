@@ -1242,7 +1242,7 @@ local t =
 											{
 												
 											},
-											width = "18",
+											width = "23",
 											ZOrder = "1",
 										},
 									},
@@ -1446,7 +1446,7 @@ local t =
 												PositionX = -4,
 												PositionY = 147,
 											},
-											width = "215",
+											width = "232",
 											ZOrder = "1",
 										},
 										{
@@ -1631,7 +1631,7 @@ local t =
 												PositionX = -4,
 												PositionY = -66,
 											},
-											width = "204",
+											width = "193",
 											ZOrder = "1",
 										},
 										{
@@ -1722,7 +1722,7 @@ local t =
 												PositionX = -2,
 												PositionY = -135,
 											},
-											width = "263",
+											width = "236",
 											ZOrder = "1",
 										},
 										{
@@ -1798,7 +1798,7 @@ local t =
 													{
 														
 													},
-													width = "101",
+													width = "84",
 													ZOrder = "1",
 												},
 											},
@@ -2663,7 +2663,7 @@ local t =
 										PositionX = -416,
 										PositionY = 217,
 									},
-									width = "81",
+									width = "89",
 									ZOrder = "1",
 								},
 								{
@@ -2799,7 +2799,7 @@ local t =
 												PositionY = 136,
 											},
 											visible = "False",
-											width = "68",
+											width = "62",
 											ZOrder = "1",
 										},
 										{
@@ -2846,7 +2846,7 @@ local t =
 												PositionX = 123,
 												PositionY = 129,
 											},
-											width = "50",
+											width = "41",
 											ZOrder = "1",
 										},
 										{
@@ -2940,7 +2940,7 @@ local t =
 												PositionX = 88,
 												PositionY = 119,
 											},
-											width = "37",
+											width = "36",
 											ZOrder = "1",
 										},
 										{
@@ -2987,7 +2987,7 @@ local t =
 												PositionX = 162,
 												PositionY = 140,
 											},
-											width = "37",
+											width = "36",
 											ZOrder = "1",
 										},
 										{
@@ -3034,7 +3034,7 @@ local t =
 												PositionX = 78,
 												PositionY = 81,
 											},
-											width = "48",
+											width = "46",
 											ZOrder = "1",
 										},
 										{
@@ -3255,7 +3255,7 @@ local t =
 										PositionX = 289,
 										PositionY = -230,
 									},
-									width = "56",
+									width = "59",
 									ZOrder = "1",
 								},
 								{
@@ -3302,7 +3302,7 @@ local t =
 										PositionX = 318,
 										PositionY = 7,
 									},
-									width = "56",
+									width = "59",
 									ZOrder = "1",
 								},
 								{
@@ -3349,7 +3349,7 @@ local t =
 										PositionX = 329,
 										PositionY = -28,
 									},
-									width = "56",
+									width = "59",
 									ZOrder = "1",
 								},
 								{
@@ -3596,7 +3596,7 @@ local t =
 										PositionX = -479,
 										PositionY = 238,
 									},
-									width = "195",
+									width = "213",
 									ZOrder = "1",
 								},
 								{
@@ -3643,7 +3643,7 @@ local t =
 										PositionX = -503,
 										PositionY = 202,
 									},
-									width = "76",
+									width = "82",
 									ZOrder = "1",
 								},
 								{
@@ -3757,7 +3757,7 @@ local t =
 												PositionX = 13,
 												PositionY = 119,
 											},
-											width = "285",
+											width = "313",
 											ZOrder = "1",
 										},
 										{
@@ -3851,7 +3851,7 @@ local t =
 												PositionX = 197,
 												PositionY = 117,
 											},
-											width = "23",
+											width = "28",
 											ZOrder = "1",
 										},
 										{
@@ -3992,7 +3992,7 @@ local t =
 												PositionX = 24,
 												PositionY = 42,
 											},
-											width = "57",
+											width = "59",
 											ZOrder = "1",
 										},
 										{
@@ -4157,7 +4157,7 @@ local t =
 										PositionX = 374,
 										PositionY = -213,
 									},
-									width = "207",
+									width = "232",
 									ZOrder = "1",
 								},
 							},
@@ -4607,7 +4607,7 @@ local t =
 												PositionX = 157,
 												PositionY = 84,
 											},
-											width = "43",
+											width = "36",
 											ZOrder = "1",
 										},
 										{
@@ -4701,7 +4701,7 @@ local t =
 												PositionX = 141,
 												PositionY = 104,
 											},
-											width = "15",
+											width = "14",
 											ZOrder = "1",
 										},
 										{
@@ -4748,7 +4748,7 @@ local t =
 												PositionX = 174,
 												PositionY = 56,
 											},
-											width = "29",
+											width = "34",
 											ZOrder = "1",
 										},
 									},
@@ -5313,7 +5313,7 @@ local t =
 												PositionX = -152,
 												PositionY = -227,
 											},
-											width = "43",
+											width = "36",
 											ZOrder = "1",
 										},
 										{
@@ -5407,7 +5407,7 @@ local t =
 												PositionX = -172,
 												PositionY = -231,
 											},
-											width = "40",
+											width = "39",
 											ZOrder = "1",
 										},
 										{
@@ -5454,7 +5454,7 @@ local t =
 												PositionX = -100,
 												PositionY = -211,
 											},
-											width = "35",
+											width = "34",
 											ZOrder = "1",
 										},
 									},
@@ -5535,7 +5535,7 @@ local t =
 												PositionX = -83,
 												PositionY = 5,
 											},
-											width = "90",
+											width = "101",
 											ZOrder = "1",
 										},
 									},
@@ -5584,7 +5584,7 @@ local t =
 										PositionX = -441,
 										PositionY = 207,
 									},
-									width = "56",
+									width = "58",
 									ZOrder = "1",
 								},
 								{
@@ -5631,7 +5631,7 @@ local t =
 										PositionX = -429,
 										PositionY = 179,
 									},
-									width = "42",
+									width = "46",
 									ZOrder = "1",
 								},
 								{
@@ -5731,7 +5731,7 @@ local t =
 											{
 												PositionX = 14,
 											},
-											width = "65",
+											width = "67",
 											ZOrder = "1",
 										},
 										{
@@ -5776,7 +5776,7 @@ local t =
 											{
 												PositionX = 59,
 											},
-											width = "65",
+											width = "67",
 											ZOrder = "1",
 										},
 									},
@@ -6164,7 +6164,7 @@ local t =
 										PositionX = -11,
 										PositionY = -28,
 									},
-									width = "65",
+									width = "67",
 									ZOrder = "1",
 								},
 								{
@@ -6211,7 +6211,7 @@ local t =
 										PositionY = -43,
 									},
 									visible = "False",
-									width = "87",
+									width = "80",
 									ZOrder = "1",
 								},
 							},
@@ -6361,7 +6361,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "224",
 									ZOrder = "1",
 									components = 
@@ -6434,7 +6433,7 @@ local t =
 											{
 												PositionY = 200,
 											},
-											width = "306",
+											width = "335",
 											ZOrder = "1",
 										},
 										{
@@ -6582,7 +6581,7 @@ local t =
 																PositionX = 25,
 																PositionY = 18,
 															},
-															width = "79",
+															width = "89",
 															ZOrder = "1",
 														},
 														{
@@ -6604,14 +6603,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "24",
+															fontSize = "20",
 															fontStroke = 
 															{
 																IsStroke = true,
 																StrokeColor = "#FF373C52",
 																StrokeSize = 1,
 															},
-															height = "29",
+															height = "25",
 															ignoreSize = "True",
 															name = "Label_stars",
 															nTextAlign = "1",
@@ -6625,10 +6624,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 90,
+																PositionX = 100,
 																PositionY = 15,
 															},
-															width = "80",
+															width = "76",
 															ZOrder = "1",
 														},
 														{
@@ -6766,7 +6765,7 @@ local t =
 																PositionX = 25,
 																PositionY = 18,
 															},
-															width = "63",
+															width = "68",
 															ZOrder = "1",
 														},
 														{
@@ -6788,14 +6787,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "24",
+															fontSize = "20",
 															fontStroke = 
 															{
 																IsStroke = true,
 																StrokeColor = "#FF373C52",
 																StrokeSize = 1,
 															},
-															height = "29",
+															height = "25",
 															ignoreSize = "True",
 															name = "Label_stars",
 															nTextAlign = "1",
@@ -6809,10 +6808,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 90,
+																PositionX = 100,
 																PositionY = 15,
 															},
-															width = "80",
+															width = "76",
 															ZOrder = "1",
 														},
 														{
@@ -6949,7 +6948,7 @@ local t =
 																PositionX = 25,
 																PositionY = 18,
 															},
-															width = "77",
+															width = "89",
 															ZOrder = "1",
 														},
 														{
@@ -6971,14 +6970,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "24",
+															fontSize = "20",
 															fontStroke = 
 															{
 																IsStroke = true,
 																StrokeColor = "#FF373C52",
 																StrokeSize = 1,
 															},
-															height = "29",
+															height = "25",
 															ignoreSize = "True",
 															name = "Label_stars",
 															nTextAlign = "1",
@@ -6992,10 +6991,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 90,
+																PositionX = 100,
 																PositionY = 15,
 															},
-															width = "80",
+															width = "76",
 															ZOrder = "1",
 														},
 														{
@@ -7211,7 +7210,7 @@ local t =
 												PositionX = -103,
 												PositionY = 145,
 											},
-											width = "114",
+											width = "125",
 											ZOrder = "1",
 										},
 										{
@@ -7257,7 +7256,7 @@ local t =
 												PositionX = 106,
 												PositionY = -163,
 											},
-											width = "88",
+											width = "92",
 											ZOrder = "1",
 										},
 									},
@@ -7481,7 +7480,7 @@ local t =
 											{
 												PositionY = 200,
 											},
-											width = "306",
+											width = "335",
 											ZOrder = "1",
 										},
 									},
@@ -7566,7 +7565,7 @@ local t =
 												PositionX = 110,
 												PositionY = -120,
 											},
-											width = "106",
+											width = "114",
 											ZOrder = "1",
 										},
 									},
@@ -7974,7 +7973,7 @@ local t =
 											{
 												PositionY = 200,
 											},
-											width = "306",
+											width = "335",
 											ZOrder = "1",
 										},
 									},
@@ -8059,7 +8058,7 @@ local t =
 												PositionX = 110,
 												PositionY = -120,
 											},
-											width = "97",
+											width = "106",
 											ZOrder = "1",
 										},
 									},
@@ -8493,7 +8492,7 @@ local t =
 											{
 												PositionY = 200,
 											},
-											width = "289",
+											width = "314",
 											ZOrder = "1",
 										},
 									},
@@ -8578,7 +8577,7 @@ local t =
 												PositionX = 110,
 												PositionY = -120,
 											},
-											width = "136",
+											width = "145",
 											ZOrder = "1",
 										},
 									},
@@ -9093,7 +9092,7 @@ local t =
 										PositionX = -11,
 										PositionY = -20,
 									},
-									width = "65",
+									width = "67",
 									ZOrder = "1",
 								},
 								{
@@ -9139,7 +9138,7 @@ local t =
 										PositionX = -11,
 										PositionY = -43,
 									},
-									width = "87",
+									width = "80",
 									ZOrder = "1",
 								},
 							},

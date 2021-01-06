@@ -545,8 +545,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_medal_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -559,9 +559,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -100,
+										PositionY = -88,
 									},
-									width = "157",
+									width = "150",
 									ZOrder = "1",
 								},
 								{
@@ -616,7 +616,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -70,
+										PositionY = -38,
 									},
 									uipanelviewmodel = 
 									{

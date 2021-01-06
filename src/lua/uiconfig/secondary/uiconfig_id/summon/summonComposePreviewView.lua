@@ -184,10 +184,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -404,
+										PositionX = -399,
 										PositionY = 228,
 									},
-									width = "178",
+									width = "203",
 									ZOrder = "1",
 								},
 								{
@@ -261,7 +261,7 @@ local t =
 										PositionY = 220,
 									},
 									visible = "False",
-									width = "127",
+									width = "126",
 									ZOrder = "1",
 								},
 								{
@@ -507,7 +507,7 @@ local t =
 										PositionX = -433,
 										PositionY = -18,
 									},
-									width = "57",
+									width = "56",
 									ZOrder = "1",
 								},
 								{
@@ -707,7 +707,7 @@ local t =
 									{
 										PositionY = -45,
 									},
-									width = "39",
+									width = "38",
 									ZOrder = "1",
 								},
 								{

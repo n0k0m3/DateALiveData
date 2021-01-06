@@ -238,14 +238,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "45",
+							fontSize = "25",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "110",
+							height = "0",
 							ignoreSize = "False",
 							name = "giftName",
 							nTextAlign = "1",
@@ -262,7 +262,7 @@ local t =
 								PositionX = -237,
 								PositionY = -129,
 							},
-							width = "100",
+							width = "120",
 							ZOrder = "1",
 						},
 						{
@@ -657,7 +657,7 @@ local t =
 										PositionX = 1,
 										PositionY = 38,
 									},
-									width = "50",
+									width = "48",
 									ZOrder = "1",
 									components = 
 									{
@@ -778,7 +778,7 @@ local t =
 										PositionX = -1,
 										PositionY = -40,
 									},
-									width = "60",
+									width = "59",
 									ZOrder = "1",
 								},
 								{
@@ -820,7 +820,7 @@ local t =
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
 							FontColor = "#FFFFFFFF",
-							fontName = "phanta.ttf",
+							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
 								IsShadow = false,
@@ -829,18 +829,18 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "16",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "23",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "timeCount",
 							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -853,7 +853,7 @@ local t =
 								PositionX = -105,
 								PositionY = -176,
 							},
-							width = "136",
+							width = "270",
 							ZOrder = "1",
 						},
 					},

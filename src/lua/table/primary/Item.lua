@@ -56700,7 +56700,7 @@ return {
         nameTextId = 2450000,
         icon = "icon/item/goods/529001.png",
         quality = 3,
-        desTextId = 2460000,
+        desTextId = 190012015,
         delete = false,
         useCast = {
         },
@@ -67783,7 +67783,7 @@ return {
         },
         order = 1,
         accessId = {
-            [1] = 1,
+            [1] = 310,
         },
         des = "反十预热代币",
     },

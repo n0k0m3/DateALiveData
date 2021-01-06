@@ -34,8 +34,27 @@ function CoffeeTaskView:initUI(ui)
     self.pannel_noEvent = TFDirector:getChildByPath(self.pannel_log, "pannel_noEvent")
     self.panelTapBtns = TFDirector:getChildByPath(Image_content, "panelTapBtns")
     self.btn_getAllLog = TFDirector:getChildByPath(self.pannel_log, "btn_getAllLog")
+    
+    -- TODO CLOSE 小语种暂时未翻译,屏蔽
+    if(not GlobalFuncDataMgr:isOpen(12)) then
+        self:disableSecondTab()
+    end
+    -- self:disableSecondTab 屏蔽了第二个标签页, so 参数只能为1
     self:chooseViewByIdx(1)
+
     -- self:refreshView()
+end
+
+--[[
+    屏蔽计事按钮
+]]
+function CoffeeTaskView:disableSecondTab()
+    for i, btn in ipairs(self.panelTapBtns:getChildren()) do
+        if (i == 2) then
+            btn:setVisible(false)
+            break
+        end
+    end
 end
 
 -- function CoffeeTaskView:refreshView()
@@ -152,8 +171,8 @@ function CoffeeTaskView:updateAllTaskItem()
         local foo = self.taskItems_[v]
         local progressInfo = ActivityDataMgr2:getProgressInfo(activityInfo.activityType, taskId)
         local itemInfo = ActivityDataMgr2:getItemInfo(activityInfo.activityType, taskId)
-        foo.Label_desc:setText(itemInfo.extendData.des2)
-        foo.Label_desc_complete:setText(itemInfo.extendData.des2)
+        foo.Label_desc:setText(Utils:MultiLanguageStringDeal(itemInfo.extendData.des2))
+        foo.Label_desc_complete:setText(Utils:MultiLanguageStringDeal(itemInfo.extendData.des2))
         foo.Label_step:setText(itemInfo.target)
         foo.Label_step_complete:setText(itemInfo.target)
         local isReceive = progressInfo.status == EC_TaskStatus.GET

@@ -383,7 +383,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "50",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_hero_name",
 											nTextAlign = "1",
@@ -398,7 +398,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 130,
-												PositionY = 537,
+												PositionY = 519,
 											},
 											width = "300",
 											ZOrder = "1",

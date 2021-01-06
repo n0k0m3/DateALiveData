@@ -690,7 +690,7 @@ return {
         helpInterface = {
             [1] = 1017,
         },
-        isHelp = true,
+        isHelp = false,
         help = "",
         isMain = true,
         isBack = true,
@@ -961,7 +961,7 @@ return {
         helpInterface = {
             [1] = 1015,
         },
-        isHelp = true,
+        isHelp = false,
         help = "",
         isMain = true,
         isBack = true,
@@ -6092,7 +6092,7 @@ return {
         helpInterface = {
             [1] = 2428,
         },
-        isHelp = true,
+        isHelp = false,
         help = "",
         isMain = true,
         isBack = true,

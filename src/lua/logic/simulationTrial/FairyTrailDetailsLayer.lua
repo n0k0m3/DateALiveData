@@ -337,6 +337,20 @@ function FairyTrailDetailsLayer:initUI(ui)
 	table.insert(self.tabButtons, {btn = self.btn_jiban, btnName = jibanBtnName,panel = self.tabPanels[4].pl,id = 4,uiType = self.tabPanels[4].uiType})
 	table.insert(self.tabButtons, {btn = self.btn_bone, btnName = boneBtnName,panel = self.tabPanels[5].pl,id = 5,uiType = self.tabPanels[5].uiType})
 
+	if not GlobalFuncDataMgr:isOpen(8) and not GlobalFuncDataMgr:isOpen(9) then
+		self.tabButtons[4].btn:hide()
+		self.tabButtons[5].btn:hide()
+		for i = 1 ,3,1 do
+			self.tabButtons[i].btn:setPosition(self.tabButtons[i+ 1].btn:getPosition())
+		end
+	elseif not GlobalFuncDataMgr:isOpen(8) and GlobalFuncDataMgr:isOpen(9) then
+		self.tabButtons[4].btn:hide()
+		self.tabButtons[5].btn:setPosition(self.tabButtons[4].btn:getPosition())
+	elseif not GlobalFuncDataMgr:isOpen(9) then
+		self.tabButtons[5].btn:hide()
+	end
+
+
 
 
 

@@ -367,7 +367,7 @@ local t =
 										PositionX = -25,
 										PositionY = 77,
 									},
-									width = "13",
+									width = "15",
 									ZOrder = "1",
 									components = 
 									{
@@ -414,7 +414,7 @@ local t =
 											{
 												PositionX = 27,
 											},
-											width = "38",
+											width = "39",
 											ZOrder = "1",
 										},
 									},
@@ -462,7 +462,7 @@ local t =
 										PositionX = 54,
 										PositionY = -80,
 									},
-									width = "34",
+									width = "35",
 									ZOrder = "1",
 								},
 								{
@@ -508,7 +508,7 @@ local t =
 										PositionX = 54,
 										PositionY = -94,
 									},
-									width = "26",
+									width = "27",
 									ZOrder = "1",
 								},
 								{
@@ -815,7 +815,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -963,7 +963,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1111,7 +1111,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1259,7 +1259,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1407,7 +1407,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1902,7 +1902,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -2324,7 +2324,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -3565,7 +3565,7 @@ local t =
 											{
 												
 											},
-											width = "213",
+											width = "204",
 											ZOrder = "1",
 										},
 									},

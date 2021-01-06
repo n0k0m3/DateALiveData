@@ -133,6 +133,8 @@ function LogonHelper:loginTest(account,password,code,isAuto)
 
             EventMgr:dispatchEvent(EV_LOGIN_UPDATESERVERNAME)
 
+            Utils:sendHttpLog("UTC_connected")
+
             if isAuto then
                 return;
             end
@@ -280,6 +282,8 @@ function LogonHelper:loginVerification()
             end
 
             EventMgr:dispatchEvent(EV_LOGIN_UPDATESERVERNAME)
+
+            Utils:sendHttpLog("UTC_connected")
         end  
     end
 
@@ -511,6 +515,8 @@ function LogonHelper:tryLoginUcCenter( localUrl )
     UserCenterHttpClient:addMERecvListener(self.loginCallback)
     UserCenterHttpClient:httpRequest(TFHTTP_TYPE_GET, urlList[self.urlIdx] ..self.path)
     print(urlList[self.urlIdx] ..self.path)
+
+    Utils:sendHttpLog("UTC_connect")
 
     -- local time = 0
     -- for url in self.connectedArray:iterator() do

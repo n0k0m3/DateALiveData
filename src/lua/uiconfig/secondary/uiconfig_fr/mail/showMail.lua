@@ -441,7 +441,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "82",
+							height = "90",
 							ignoreSize = "False",
 							name = "Image_item",
 							sizepercentx = "0",
@@ -452,9 +452,9 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -187,
-								PositionY = 76,
+								PositionY = 77,
 							},
-							width = "82",
+							width = "90",
 							ZOrder = "1",
 						},
 						{
@@ -584,7 +584,7 @@ local t =
 										PositionX = -164,
 										PositionY = -27,
 									},
-									width = "106",
+									width = "103",
 									ZOrder = "1",
 								},
 								{
@@ -630,7 +630,7 @@ local t =
 										PositionX = -162,
 										PositionY = 204,
 									},
-									width = "65",
+									width = "63",
 									ZOrder = "1",
 								},
 								{
@@ -677,7 +677,7 @@ local t =
 										PositionX = 166,
 										PositionY = 203,
 									},
-									width = "189",
+									width = "176",
 									ZOrder = "1",
 								},
 								{

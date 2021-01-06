@@ -205,11 +205,12 @@ local t =
 												StrokeColor = "#FF457278",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "30",
+											ignoreSize = "True",
 											name = "Label_helpView_1",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											rotation = "90",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -222,7 +223,7 @@ local t =
 												PositionX = 4,
 												PositionY = -1,
 											},
-											width = "26",
+											width = "83",
 											ZOrder = "1",
 										},
 									},
@@ -339,7 +340,7 @@ local t =
 												PositionX = 992,
 												PositionY = 7,
 											},
-											width = "132",
+											width = "157",
 											ZOrder = "1",
 										},
 										{
@@ -626,7 +627,7 @@ local t =
 															{
 																
 															},
-															width = "564",
+															width = "520",
 															ZOrder = "1",
 														},
 													},
@@ -740,7 +741,7 @@ local t =
 															{
 																
 															},
-															width = "564",
+															width = "520",
 															ZOrder = "1",
 														},
 													},
@@ -855,7 +856,7 @@ local t =
 															{
 																
 															},
-															width = "564",
+															width = "520",
 															ZOrder = "1",
 														},
 													},
@@ -907,7 +908,7 @@ local t =
 										PositionX = -200,
 										PositionY = -500,
 									},
-									width = "113",
+									width = "119",
 									ZOrder = "1",
 								},
 							},

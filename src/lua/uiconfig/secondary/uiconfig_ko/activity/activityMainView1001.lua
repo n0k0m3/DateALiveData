@@ -350,8 +350,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
 											nTextHAlign = "0",
@@ -366,7 +366,7 @@ local t =
 											{
 												PositionX = 134,
 											},
-											width = "83",
+											width = "85",
 											ZOrder = "1",
 										},
 										{
@@ -477,8 +477,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
 											nTextHAlign = "0",
@@ -493,7 +493,7 @@ local t =
 											{
 												PositionX = 131,
 											},
-											width = "83",
+											width = "85",
 											ZOrder = "1",
 										},
 										{

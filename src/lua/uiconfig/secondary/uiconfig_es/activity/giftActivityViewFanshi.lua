@@ -224,7 +224,7 @@ local t =
 										PositionX = -355,
 										PositionY = 2,
 									},
-									width = "147",
+									width = "166",
 									ZOrder = "1",
 								},
 								{
@@ -410,15 +410,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_num",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -433,7 +433,7 @@ local t =
 											{
 												PositionY = 217,
 											},
-											width = "107",
+											width = "240",
 											ZOrder = "1",
 										},
 										{
@@ -523,7 +523,7 @@ local t =
 											{
 												PositionY = -99,
 											},
-											width = "126",
+											width = "172",
 											ZOrder = "1",
 										},
 										{
@@ -568,7 +568,7 @@ local t =
 											{
 												PositionY = -215,
 											},
-											width = "92",
+											width = "122",
 											ZOrder = "1",
 											components = 
 											{
@@ -640,10 +640,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 10,
-												PositionY = -216,
+												PositionX = -53,
+												PositionY = -215,
 											},
-											width = "8",
+											width = "11",
 											ZOrder = "1",
 										},
 										{
@@ -702,7 +702,7 @@ local t =
 														StrokeColor = "#FFCA4465",
 														StrokeSize = 2,
 													},
-													height = "34",
+													height = "32",
 													ignoreSize = "True",
 													name = "Label_title_desc1",
 													nTextAlign = "1",
@@ -719,7 +719,7 @@ local t =
 														PositionX = -47,
 														PositionY = 4,
 													},
-													width = "53",
+													width = "77",
 													ZOrder = "1",
 												},
 												{
@@ -748,7 +748,7 @@ local t =
 														StrokeColor = "#FFD7812B",
 														StrokeSize = 2,
 													},
-													height = "34",
+													height = "32",
 													ignoreSize = "True",
 													name = "Label_title_desc",
 													nTextAlign = "1",
@@ -766,7 +766,7 @@ local t =
 														PositionY = 4,
 													},
 													visible = "False",
-													width = "102",
+													width = "547",
 													ZOrder = "1",
 												},
 											},
@@ -1013,7 +1013,7 @@ local t =
 												StrokeColor = "#FFCF3FA1",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_price",
 											nTextAlign = "1",
@@ -1029,7 +1029,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "75",
+											width = "54",
 											ZOrder = "1",
 										},
 										{

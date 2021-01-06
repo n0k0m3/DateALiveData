@@ -293,6 +293,7 @@ local t =
 										PositionX = 37,
 										PositionY = 34,
 									},
+									visible = "False",
 									width = "64",
 									ZOrder = "1",
 									components = 
@@ -328,7 +329,7 @@ local t =
 											controlID = "activityName_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView1001_fanshiAssist_activity_Game",
 											UUID = "bb39bec3_9d20_4254_9961_cad80c049ac5",
 											anchorPoint = "False",
-											anchorPointX = "1",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -343,15 +344,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
 											nTextHAlign = "0",
@@ -364,9 +365,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 134,
+												PositionX = 52,
 											},
-											width = "83",
+											width = "120",
 											ZOrder = "1",
 										},
 										{
@@ -445,7 +446,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 53,
+												PositionX = 65,
 												PositionY = 2,
 											},
 											width = "176",
@@ -455,7 +456,7 @@ local t =
 											controlID = "activityName_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView1001_fanshiAssist_activity_Game",
 											UUID = "f0a02f2b_e3be_4708_900a_c0d8047ff8d4",
 											anchorPoint = "False",
-											anchorPointX = "1",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -470,15 +471,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
 											nTextHAlign = "0",
@@ -491,9 +492,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 131,
+												PositionX = 42,
 											},
-											width = "83",
+											width = "104",
 											ZOrder = "1",
 										},
 										{

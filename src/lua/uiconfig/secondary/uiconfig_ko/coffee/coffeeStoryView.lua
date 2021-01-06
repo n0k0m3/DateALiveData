@@ -1029,7 +1029,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
@@ -1097,7 +1097,7 @@ local t =
 											{
 												PositionY = -52,
 											},
-											width = "129",
+											width = "133",
 											ZOrder = "1",
 										},
 									},
@@ -1458,14 +1458,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF593524",
 												StrokeSize = 2,
 											},
-											height = "27",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_cond",
 											nTextAlign = "1",
@@ -1481,7 +1481,7 @@ local t =
 											{
 												PositionY = 36,
 											},
-											width = "262",
+											width = "205",
 											ZOrder = "1",
 										},
 										{

@@ -473,7 +473,7 @@ local t =
 									{
 										PositionY = -2,
 									},
-									width = "126",
+									width = "124",
 									ZOrder = "1",
 								},
 								{
@@ -607,7 +607,7 @@ local t =
 									{
 										PositionY = -22,
 									},
-									width = "51",
+									width = "53",
 									ZOrder = "1",
 								},
 							},
@@ -618,7 +618,7 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEButton",
 							ClickHighLightEnabled = "True",
 							dstBlendFunc = "771",
@@ -642,7 +642,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							UItype = "Button",
-							width = "180",
+							width = "195",
 							ZOrder = "1",
 							components = 
 							{
@@ -666,7 +666,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -56,
+										PositionX = -58,
 										PositionY = -1,
 									},
 									width = "64",

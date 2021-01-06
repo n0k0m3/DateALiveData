@@ -113,32 +113,6 @@ local t =
 							ZOrder = "1",
 						},
 						{
-							controlID = "Image_summonComposeView_1_Panel_root_Panel-summonComposeView_Layer1_summon_Game",
-							UUID = "9aec4acf_c301_47b3_aeba_81ba67f79017",
-							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
-							classname = "MEImage",
-							dstBlendFunc = "771",
-							height = "640",
-							ignoreSize = "True",
-							name = "Image_summonComposeView_1",
-							sizepercentx = "0",
-							sizepercenty = "0",
-							sizeType = "0",
-							srcBlendFunc = "770",
-							texturePath = "ui/summon/new_ui/祈愿02.jpg",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								
-							},
-							visible = "False",
-							width = "1386",
-							ZOrder = "1",
-						},
-						{
 							controlID = "Spine_summonCompose_bg_Panel_root_Panel-summonComposeView_Layer1_summon_Game",
 							UUID = "0ea9a2f0_91a3_46c8_93a6_f46285bac84c",
 							classname = "MESpine",
@@ -756,7 +730,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "98",
+																	width = "97",
 																	ZOrder = "1",
 																},
 															},
@@ -1217,7 +1191,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "98",
+																	width = "97",
 																	ZOrder = "1",
 																},
 															},
@@ -1678,7 +1652,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "98",
+																	width = "97",
 																	ZOrder = "1",
 																},
 															},
@@ -2137,7 +2111,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "98",
+																	width = "97",
 																	ZOrder = "1",
 																},
 															},
@@ -2598,7 +2572,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "98",
+																	width = "97",
 																	ZOrder = "1",
 																},
 															},
@@ -3059,7 +3033,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "98",
+																	width = "97",
 																	ZOrder = "1",
 																},
 															},
@@ -3520,7 +3494,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "98",
+																	width = "97",
 																	ZOrder = "1",
 																},
 															},
@@ -3979,7 +3953,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "98",
+																	width = "97",
 																	ZOrder = "1",
 																},
 															},
@@ -4440,7 +4414,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "98",
+																	width = "97",
 																	ZOrder = "1",
 																},
 															},
@@ -4901,7 +4875,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "98",
+																	width = "97",
 																	ZOrder = "1",
 																},
 															},
@@ -5680,7 +5654,7 @@ local t =
 												PositionX = 6,
 												PositionY = 240,
 											},
-											width = "173",
+											width = "195",
 											ZOrder = "1",
 										},
 										{
@@ -5726,7 +5700,8 @@ local t =
 												PositionX = 6,
 												PositionY = 217,
 											},
-											width = "57",
+											visible = "False",
+											width = "54",
 											ZOrder = "1",
 										},
 										{
@@ -5755,11 +5730,11 @@ local t =
 												StrokeColor = "#FF30354A",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_top_tips",
-											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextAlign = "0",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -5769,9 +5744,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 134,
+												PositionY = 156,
 											},
-											width = "269",
+											width = "381",
 											ZOrder = "1",
 											components = 
 											{
@@ -5796,7 +5771,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 282,
+														PositionX = 306,
 														PositionY = 1,
 														IsPercent = true,
 														PercentX = 104.76,
@@ -5982,7 +5957,7 @@ local t =
 														PositionX = 2,
 														PositionY = 3,
 													},
-													width = "235",
+													width = "261",
 													ZOrder = "1",
 												},
 												{
@@ -6028,7 +6003,8 @@ local t =
 														PositionX = 2,
 														PositionY = -11,
 													},
-													width = "110",
+													visible = "False",
+													width = "106",
 													ZOrder = "1",
 												},
 											},
@@ -6052,14 +6028,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_need_time",
 											nTextAlign = "1",
@@ -6076,7 +6052,7 @@ local t =
 												PositionX = 206,
 												PositionY = 43,
 											},
-											width = "169",
+											width = "137",
 											ZOrder = "1",
 										},
 										{
@@ -6318,7 +6294,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -207,
-										PositionY = -186,
+										PositionY = -191,
 									},
 									width = "400",
 									ZOrder = "1",
@@ -6420,7 +6396,7 @@ local t =
 											{
 												PositionX = 38,
 											},
-											width = "32",
+											width = "36",
 											ZOrder = "1",
 										},
 									},
@@ -6498,7 +6474,7 @@ local t =
 									{
 										PositionX = -207,
 									},
-									width = "185",
+									width = "178",
 									ZOrder = "1",
 								},
 							},
@@ -6909,7 +6885,7 @@ local t =
 									{
 										PositionY = -38,
 									},
-									width = "36",
+									width = "30",
 									ZOrder = "1",
 								},
 							},
@@ -7131,7 +7107,7 @@ local t =
 										PositionX = 54,
 										PositionY = -75,
 									},
-									width = "30",
+									width = "34",
 									ZOrder = "1",
 								},
 								{
@@ -7223,7 +7199,7 @@ local t =
 										PositionX = -35,
 										PositionY = 85,
 									},
-									width = "17",
+									width = "19",
 									ZOrder = "1",
 									components = 
 									{
@@ -7268,7 +7244,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 18,
+												PositionX = 20,
 												PositionY = 2,
 												IsPercent = true,
 												PercentX = 103,
@@ -7548,7 +7524,6 @@ local t =
 		textures = 
 		{
 			"ui/summon/new_ui/bg.png",
-			"ui/summon/new_ui/祈愿02.jpg",
 			"ui/summon/new_ui/b001.png",
 			"ui/summon/new_ui/a001.png",
 			"ui/summon/new_ui/b003.png",

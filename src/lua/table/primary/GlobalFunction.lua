@@ -43,4 +43,8 @@ return {
         id = 11,
         isopen = 0,
     },
+    [12] = {
+        id = 12,
+        isopen = 0,
+    },
 }

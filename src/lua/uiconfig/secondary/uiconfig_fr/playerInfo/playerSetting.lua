@@ -400,7 +400,7 @@ local t =
 												PositionX = 130,
 												PositionY = 537,
 											},
-											width = "158",
+											width = "174",
 											ZOrder = "1",
 										},
 										{
@@ -503,7 +503,7 @@ local t =
 														PositionX = 100,
 														PositionY = -1,
 													},
-													width = "139",
+													width = "136",
 													ZOrder = "1",
 												},
 											},
@@ -673,7 +673,7 @@ local t =
 													{
 														PositionY = 166,
 													},
-													width = "253",
+													width = "229",
 													ZOrder = "1",
 												},
 											},
@@ -869,7 +869,7 @@ local t =
 										PositionX = 38,
 										PositionY = 532,
 									},
-									width = "149",
+									width = "165",
 									ZOrder = "1",
 								},
 								{
@@ -912,7 +912,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 347,
+										PositionX = 335,
 										PositionY = 538,
 									},
 									width = "94",
@@ -1206,7 +1206,7 @@ local t =
 														PositionX = 20,
 														PositionY = -1,
 													},
-													width = "48",
+													width = "53",
 													ZOrder = "1",
 												},
 												{
@@ -1254,7 +1254,7 @@ local t =
 														PositionY = -10,
 													},
 													visible = "False",
-													width = "23",
+													width = "27",
 													ZOrder = "1",
 												},
 											},
@@ -1301,7 +1301,7 @@ local t =
 											{
 												PositionX = 74,
 											},
-											width = "79",
+											width = "76",
 											ZOrder = "1",
 										},
 										{
@@ -1442,7 +1442,7 @@ local t =
 												PositionX = 25,
 												PositionY = 20,
 											},
-											width = "21",
+											width = "25",
 											ZOrder = "1",
 										},
 										{
@@ -1489,7 +1489,7 @@ local t =
 												PositionX = 127,
 												PositionY = 20,
 											},
-											width = "149",
+											width = "150",
 											ZOrder = "1",
 										},
 										{
@@ -1685,7 +1685,7 @@ local t =
 												PositionX = 108,
 												PositionY = 18,
 											},
-											width = "183",
+											width = "169",
 											ZOrder = "1",
 										},
 										{
@@ -1910,7 +1910,7 @@ local t =
 														PositionX = 14,
 														PositionY = 14,
 													},
-													width = "60",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -2036,7 +2036,7 @@ local t =
 														PositionX = 395,
 														PositionY = 30,
 													},
-													width = "64",
+													width = "67",
 													ZOrder = "1",
 												},
 												{
@@ -2108,7 +2108,7 @@ local t =
 														PositionX = 191,
 														PositionY = 22,
 													},
-													width = "45",
+													width = "42",
 													ZOrder = "1",
 												},
 												{
@@ -2154,7 +2154,7 @@ local t =
 														PositionX = 188,
 														PositionY = 22,
 													},
-													width = "34",
+													width = "32",
 													ZOrder = "1",
 												},
 											},
@@ -2370,7 +2370,7 @@ local t =
 														PositionX = 395,
 														PositionY = 30,
 													},
-													width = "64",
+													width = "67",
 													ZOrder = "1",
 												},
 												{
@@ -2442,7 +2442,7 @@ local t =
 														PositionX = 191,
 														PositionY = 22,
 													},
-													width = "45",
+													width = "42",
 													ZOrder = "1",
 												},
 												{
@@ -2488,7 +2488,7 @@ local t =
 														PositionX = 188,
 														PositionY = 22,
 													},
-													width = "34",
+													width = "32",
 													ZOrder = "1",
 												},
 											},
@@ -2577,7 +2577,7 @@ local t =
 														PositionX = 14,
 														PositionY = 18,
 													},
-													width = "41",
+													width = "40",
 													ZOrder = "1",
 												},
 												{
@@ -2624,7 +2624,7 @@ local t =
 														PositionX = 402,
 														PositionY = 19,
 													},
-													width = "55",
+													width = "52",
 													ZOrder = "1",
 												},
 												{
@@ -2740,7 +2740,7 @@ local t =
 														PositionX = 13,
 														PositionY = 14,
 													},
-													width = "144",
+													width = "137",
 													ZOrder = "1",
 												},
 												{
@@ -3053,7 +3053,7 @@ local t =
 														PositionX = 330,
 														PositionY = 22,
 													},
-													width = "62",
+													width = "61",
 													ZOrder = "1",
 												},
 												{
@@ -3227,7 +3227,7 @@ local t =
 														PositionX = 13,
 														PositionY = 22,
 													},
-													width = "176",
+													width = "166",
 													ZOrder = "1",
 												},
 												{
@@ -3274,7 +3274,7 @@ local t =
 														PositionX = 330,
 														PositionY = 22,
 													},
-													width = "139",
+													width = "130",
 													ZOrder = "1",
 												},
 												{
@@ -3448,7 +3448,7 @@ local t =
 														PositionX = 13,
 														PositionY = 22,
 													},
-													width = "94",
+													width = "95",
 													ZOrder = "1",
 												},
 												{
@@ -4086,7 +4086,7 @@ local t =
 										PositionX = 38,
 										PositionY = 534,
 									},
-									width = "162",
+									width = "173",
 									ZOrder = "1",
 								},
 								{
@@ -4132,7 +4132,7 @@ local t =
 										PositionX = 414,
 										PositionY = 530,
 									},
-									width = "36",
+									width = "39",
 									ZOrder = "1",
 								},
 								{
@@ -4179,7 +4179,7 @@ local t =
 										PositionY = 522,
 									},
 									visible = "False",
-									width = "84",
+									width = "82",
 									ZOrder = "1",
 								},
 								{
@@ -4569,7 +4569,7 @@ local t =
 												PositionX = -484,
 												PositionY = 7,
 											},
-											width = "249",
+											width = "275",
 											ZOrder = "1",
 										},
 										{
@@ -4616,7 +4616,7 @@ local t =
 												PositionY = -10,
 											},
 											visible = "False",
-											width = "112",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -4661,7 +4661,7 @@ local t =
 											{
 												PositionX = 338,
 											},
-											width = "65",
+											width = "62",
 											ZOrder = "1",
 										},
 										{
@@ -4740,7 +4740,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "129",
+													width = "121",
 													ZOrder = "1",
 												},
 											},
@@ -4851,7 +4851,7 @@ local t =
 													{
 														
 													},
-													width = "50",
+													width = "54",
 													ZOrder = "1",
 												},
 											},
@@ -4932,7 +4932,7 @@ local t =
 													{
 														
 													},
-													width = "82",
+													width = "83",
 													ZOrder = "1",
 												},
 											},
@@ -5013,7 +5013,7 @@ local t =
 													{
 														
 													},
-													width = "128",
+													width = "120",
 													ZOrder = "1",
 												},
 											},
@@ -5094,7 +5094,7 @@ local t =
 													{
 														
 													},
-													width = "66",
+													width = "71",
 													ZOrder = "1",
 												},
 											},
@@ -5175,7 +5175,7 @@ local t =
 													{
 														
 													},
-													width = "85",
+													width = "82",
 													ZOrder = "1",
 												},
 											},
@@ -5257,7 +5257,7 @@ local t =
 											{
 												
 											},
-											width = "50",
+											width = "54",
 											ZOrder = "1",
 										},
 										{
@@ -5634,7 +5634,7 @@ local t =
 														PositionX = 51,
 														PositionY = 34,
 													},
-													width = "70",
+													width = "69",
 													ZOrder = "1",
 												},
 												{
@@ -5734,7 +5734,7 @@ local t =
 														PositionX = 60,
 														PositionY = -4,
 													},
-													width = "67",
+													width = "66",
 													ZOrder = "1",
 												},
 											},
@@ -5872,7 +5872,7 @@ local t =
 														PositionX = 50,
 														PositionY = 44,
 													},
-													width = "36",
+													width = "37",
 													ZOrder = "1",
 												},
 												{
@@ -5972,7 +5972,7 @@ local t =
 														PositionX = 60,
 														PositionY = 8,
 													},
-													width = "67",
+													width = "66",
 													ZOrder = "1",
 												},
 											},
@@ -6210,7 +6210,7 @@ local t =
 														PositionX = 60,
 														PositionY = 8,
 													},
-													width = "67",
+													width = "66",
 													ZOrder = "1",
 												},
 											},
@@ -6386,7 +6386,7 @@ local t =
 												PositionX = 664,
 												PositionY = 165,
 											},
-											width = "52",
+											width = "49",
 											ZOrder = "1",
 										},
 										{
@@ -6432,7 +6432,7 @@ local t =
 												PositionX = 699,
 												PositionY = 163,
 											},
-											width = "41",
+											width = "39",
 											ZOrder = "1",
 										},
 										{
@@ -6478,7 +6478,7 @@ local t =
 												PositionX = 629,
 												PositionY = 140,
 											},
-											width = "105",
+											width = "104",
 											ZOrder = "1",
 										},
 										{
@@ -6638,7 +6638,7 @@ local t =
 											{
 												PositionX = 59,
 											},
-											width = "93",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -7420,7 +7420,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -7827,7 +7827,7 @@ local t =
 										PositionX = 290,
 										PositionY = 45,
 									},
-									width = "74",
+									width = "76",
 									ZOrder = "1",
 								},
 								{
@@ -7950,7 +7950,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "92",
+											width = "81",
 											ZOrder = "1",
 										},
 									},

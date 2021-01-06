@@ -495,8 +495,8 @@ end
 function SummonEquipView:createTipsButton(parentNode )
     local oneButton = TFButton:create("ui/task/1101.png")
         oneButton:setScale9Enabled(true)
-        oneButton:setContentSize(CCSize(100 , 40))
-        oneButton:setPosition(146 , -249)
+        oneButton:setContentSize(CCSize(120 , 40))
+        oneButton:setPosition(146 , -260)
 
         local label_empyTetx = TFLabel:create()
         label_empyTetx:setFontName("font/MFLiHei_Noncommercial.ttf")

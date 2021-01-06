@@ -1561,8 +1561,11 @@ function Utils:onKeyBack()
     local keyBackFun = function()
         local sceneName = currentScene.__cname
         if currentScene then
-            if sceneName == "LoginScene" or sceneName == "BattleScene" or sceneName == "MainScene" or sceneName == "NewCityMainScene" or sceneName == "PortraitWebScene" then               
-                local topLayer = currentScene:getTopLayer()
+            if sceneName == "LoginScene" or sceneName == "BattleScene" or sceneName == "MainScene" or sceneName == "NewCityMainScene" or sceneName == "PortraitWebScene" then
+                local topLayer = currentScene:getTopLayer() 
+                if topLayer and topLayer.__cname == "FubenEndlessJumpView" then   --无尽模式跳关选择界面不会被物理按键关闭
+                    return
+                end              
                 if topLayer and topLayer.specialKeyBackLogic then
                     local param = topLayer:specialKeyBackLogic()
                     if param then return end
@@ -2163,7 +2166,7 @@ function Utils:MultiLanguageStringDeal(content)
         local strBody = string.split(mailInfo.body , strTag)
         local idx = 1
         local language = TFLanguageMgr:getUsingLanguage()
-        if language == cc.ENGLISH then
+        if language == cc.SIMPLIFIED_CHINESE then
             idx = 2
         elseif language == cc.TRADITIONAL_CHINESE then
             idx = 3
@@ -2180,7 +2183,7 @@ function Utils:MultiLanguageStringDeal(content)
         elseif language == cc.KOREAN then
             idx = 9
         end
-        mailInfo.body = strBody[idx] or mailInfo.body
+        mailInfo.body = strBody[idx] or strBody[1] or content
     else
         local bodyStr = string.split(mailInfo.body , ',')
         if #bodyStr > 1 then

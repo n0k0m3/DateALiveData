@@ -72,7 +72,7 @@ local t =
 							controlID = "text1_Image_tips_bg_Panel-tipsGetMedal_Layer1_playerInfo_Game",
 							UUID = "5c26ec52_ee69_45df_a2d9_426b26ee603d",
 							anchorPoint = "False",
-							anchorPointX = "0",
+							anchorPointX = "1",
 							anchorPointY = "0.5",
 							classname = "METextArea",
 							dstBlendFunc = "771",
@@ -105,11 +105,11 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -160,
+								PositionX = 73,
 								PositionY = 3,
 							},
 							vAlignment = "1",
-							width = "244",
+							width = "238",
 							ZOrder = "1",
 						},
 						{
@@ -154,7 +154,7 @@ local t =
 								PositionY = 3,
 							},
 							vAlignment = "1",
-							width = "115",
+							width = "107",
 							ZOrder = "1",
 						},
 					},

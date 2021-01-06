@@ -15249,15 +15249,41 @@ return {
         scriptId = 7008,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 441,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 60,
+                text = "Apa yang kamu bicarakan? ",
+                delay = 1700,
+            },
+            [2] = {
+                speed = 60,
+                text = "Kondisiku sekarang bagus, ",
+                delay = 2520,
+            },
+            [3] = {
+                speed = 60,
+                text = "baiklah, ",
+                delay = 1880,
+            },
+            [4] = {
+                speed = 60,
+                text = "akhirnya aku, ",
+                delay = 2320,
+            },
+            [5] = {
+                speed = 60,
+                text = "bisa membunuhmu! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -15546,15 +15572,41 @@ return {
         scriptId = 7012,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 448,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 80,
+                text = "Aku......",
+                delay = 1840,
+            },
+            [2] = {
+                speed = 80,
+                text = "sangat kuat kan......",
+                delay = 3100,
+            },
+            [3] = {
+                speed = 80,
+                text = "Aku......",
+                delay = 1940,
+            },
+            [4] = {
+                speed = 80,
+                text = "tidak akan kalah dari siapa pun......",
+                delay = 3200,
+            },
+            [5] = {
+                speed = 80,
+                text = "benar kan......",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -16160,15 +16212,41 @@ return {
         scriptId = 7019,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 473,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 60,
+                text = "Hebat, ",
+                delay = 1820,
+            },
+            [2] = {
+                speed = 60,
+                text = "ini pertama kalinya aku melihat Inversi sehebat ini, ",
+                delay = 3100,
+            },
+            [3] = {
+                speed = 60,
+                text = "Ellen, coba lihat, ",
+                delay = 1400,
+            },
+            [4] = {
+                speed = 60,
+                text = "itu adalah mimpi kita, ",
+                delay = 1820,
+            },
+            [5] = {
+                speed = 60,
+                text = "impian kita sejak lama. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -19281,15 +19359,41 @@ return {
         scriptId = 100009,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 570,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "……Hmm,",
+                delay = 200,
+            },
+            [2] = {
+                speed = 40,
+                text = "Hmm! ",
+                delay = 800,
+            },
+            [3] = {
+                speed = 40,
+                text = "sungguh, tingkah laku seperti anak kecil. ",
+                delay = 800,
+            },
+            [4] = {
+                speed = 40,
+                text = "Dengarkan, hanya,",
+                delay = 800,
+            },
+            [5] = {
+                speed = 40,
+                text = "hanya sekali ini saja! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -19436,15 +19540,41 @@ return {
         scriptId = 100010,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 574,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Sesungguhnya,",
+                delay = 400,
+            },
+            [2] = {
+                speed = 40,
+                text = "kamu hanya butuh ketenangan. ",
+                delay = 800,
+            },
+            [3] = {
+                speed = 40,
+                text = " Ratatoskr,",
+                delay = 800,
+            },
+            [4] = {
+                speed = 40,
+                text = "\n ——tidak,",
+                delay = 800,
+            },
+            [5] = {
+                speed = 40,
+                text = " aku akan melindungi kakak. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -19552,15 +19682,31 @@ return {
         scriptId = 71001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 577,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Baik, aku mengerti. ",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Tohka, Kaguya, ",
+                delay = 800,
+            },
+            [3] = {
+                speed = 40,
+                text = " silakan pimpin di depan. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -19580,15 +19726,21 @@ return {
         scriptId = 71001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 578,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Serahkan saja padaku! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -19608,15 +19760,26 @@ return {
         scriptId = 71001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 579,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Hohoho, ",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "bibit-bibit kemenangan, diserahkan kepada kita sebagai perintis. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -19636,15 +19799,21 @@ return {
         scriptId = 71001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 580,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Jangan terlalu berlebihan ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -19664,15 +19833,31 @@ return {
         scriptId = 71002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 581,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Wilayah ini adalah area formasiku! ",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = " Kemarilah",
+                delay = 800,
+            },
+            [3] = {
+                speed = 40,
+                text = ", coba serang aku! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -19692,15 +19877,26 @@ return {
         scriptId = 71002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 582,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Bagus, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "musuh sepertinya mulai mundur! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -19720,15 +19916,31 @@ return {
         scriptId = 71002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 583,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Uhm, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "disini kelihatannya juga begitu, ",
+                delay = 800,
+            },
+            [3] = {
+                speed = 40,
+                text = "serangan musuh sudah melemah. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -19748,15 +19960,26 @@ return {
         scriptId = 71002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 584,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Eh eh eh! ",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Kenapa jadi begini......",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -19776,15 +19999,26 @@ return {
         scriptId = 71003,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 585,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "OK, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "aku mengerti. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -19804,15 +20038,31 @@ return {
         scriptId = 71003,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 586,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Bagus, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "dalam perang sebelumnya di dunia Kabbalah, ",
+                delay = 800,
+            },
+            [3] = {
+                speed = 40,
+                text = "kebetulan aku belajar banyak cara untuk menanggulanginya. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -19832,15 +20082,26 @@ return {
         scriptId = 71003,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 587,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Semuanya, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "bersiap untuk perang! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -19860,15 +20121,21 @@ return {
         scriptId = 71003,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 588,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Siap! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -19888,15 +20155,26 @@ return {
         scriptId = 71004,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 589,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Lapor komandan, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "musuh sudah mulai mundur. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -19916,15 +20194,31 @@ return {
         scriptId = 71004,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 590,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Akhirnya mereka menyerah. ",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Semuanya, ",
+                delay = 800,
+            },
+            [3] = {
+                speed = 40,
+                text = "bentuk formasi di tempat. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -19944,15 +20238,26 @@ return {
         scriptId = 71004,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 591,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Tim Pengamat terus pantau perubahan pada area, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "segera laporkan padaku kalau ada situasi. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -19972,15 +20277,21 @@ return {
         scriptId = 71004,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 592,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Ya! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20000,15 +20311,26 @@ return {
         scriptId = 71005,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 593,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Monster ini, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "ternyata ada hubungannya dengan Spirit. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20028,15 +20350,31 @@ return {
         scriptId = 71005,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 594,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Betul. ",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Dan aku tidak menyangka, ",
+                delay = 800,
+            },
+            [3] = {
+                speed = 40,
+                text = "ternyata bisa meminjam kekuatanmu. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20056,15 +20394,26 @@ return {
         scriptId = 71005,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 595,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Ini adalah keputusan yang terbaik, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "kamu dan aku sangat mengerti itu. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20084,15 +20433,21 @@ return {
         scriptId = 71005,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 596,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Hm. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20112,15 +20467,26 @@ return {
         scriptId = 71005,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 597,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Ganggu. ",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Musuh sudah menerobos maju. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20140,15 +20506,26 @@ return {
         scriptId = 71005,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 598,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Ya——! ",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Ini benar-benar seperti semut yang mengganggu! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20168,15 +20545,36 @@ return {
         scriptId = 71006,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 599,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Jumlah musuh sudah berkurang drastis! ......",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = " A",
+                delay = 400,
+            },
+            [3] = {
+                speed = 40,
+                text = ", ayo mundur",
+                delay = 1000,
+            },
+            [4] = {
+                speed = 40,
+                text = "! Apa kalian baik-baik saja? ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20196,15 +20594,26 @@ return {
         scriptId = 71006,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 600,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Bu, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "bukan masalah besar......",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20224,15 +20633,26 @@ return {
         scriptId = 71006,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 601,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Level ini, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "masih belum cukup untukku menggunakan kekuatan penuh dari Dark Gun. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20252,15 +20672,21 @@ return {
         scriptId = 71006,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 602,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Apa kamu tidak mau mengejarnya? ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20280,15 +20706,26 @@ return {
         scriptId = 71006,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 603,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Mempertimbangkan kemungkinan musuh mengirim bantuan, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "prioritas utama kita sekarang adalah istirahat. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20308,15 +20745,26 @@ return {
         scriptId = 71006,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 604,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Baiklah, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "selanjutnya ayo kita makan malam! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20336,15 +20784,26 @@ return {
         scriptId = 71007,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 605,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Ternyata kamu ada hubungannya dengan hal-hal aneh yang terjadi belakangan ini. ",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Kurumi. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20364,15 +20823,21 @@ return {
         scriptId = 71007,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 606,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Siapa yang tahu. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20392,15 +20857,26 @@ return {
         scriptId = 71007,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 607,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Baiklah, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "sepertinya kamu bisa menjadi target penyiksaan yang baik. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20420,15 +20896,26 @@ return {
         scriptId = 71007,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 608,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Ahaha, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "tiba-tiba taringnya muncul ya. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20448,15 +20935,26 @@ return {
         scriptId = 71008,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 609,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Benar-benar pantas menjadi Spirit Api, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "sangat menyeramkan. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20476,15 +20974,26 @@ return {
         scriptId = 71008,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 610,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Tapi menurutku lebih baik kamu menutupinya, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = " kalau tidak......",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20504,15 +21013,21 @@ return {
         scriptId = 71008,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 611,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Apa yang kamu bicarakan......",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20532,15 +21047,36 @@ return {
         scriptId = 71008,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 612,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Aku akan menunggu kalian saat keputusan terakhir, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "saat itu, kamu akan tahu. ",
+                delay = 1000,
+            },
+            [3] = {
+                speed = 40,
+                text = "Sebelum itu",
+                delay = 400,
+            },
+            [4] = {
+                speed = 40,
+                text = ", tunggulah dengan tenang. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20560,15 +21096,21 @@ return {
         scriptId = 71008,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 613,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Tunggu——! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20588,15 +21130,31 @@ return {
         scriptId = 71008,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 614,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Kalau begitu, ",
+                delay = 400,
+            },
+            [2] = {
+                speed = 40,
+                text = "jangan berhenti di sini. ",
+                delay = 1000,
+            },
+            [3] = {
+                speed = 40,
+                text = "Hihihihi~",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20616,15 +21174,26 @@ return {
         scriptId = 71009,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 615,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Di sini kuserahkan pada kalian, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "aku akan membawa %s berlindung terlebih dahulu. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20644,15 +21213,26 @@ return {
         scriptId = 71009,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 616,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Haa! ?",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "Aku tidak akan memberikan %s kepadamu! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20672,15 +21252,31 @@ return {
         scriptId = 71009,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 617,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Bicara apa kamu, ",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = " kamu harus tinggal di sini, ",
+                delay = 800,
+            },
+            [3] = {
+                speed = 40,
+                text = " dengan begitu keselamatan %s bisa terjamin. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20700,15 +21296,46 @@ return {
         scriptId = 71009,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 618,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Betul juga, ",
+                delay = 400,
+            },
+            [2] = {
+                speed = 40,
+                text = "keselamatan %s paling penting......",
+                delay = 1000,
+            },
+            [3] = {
+                speed = 40,
+                text = "! ",
+                delay = 400,
+            },
+            [4] = {
+                speed = 40,
+                text = "Tidak! ",
+                delay = 800,
+            },
+            [5] = {
+                speed = 40,
+                text = "Origami Tobiichi, ",
+                delay = 400,
+            },
+            [6] = {
+                speed = 40,
+                text = "aku tidak akan tertipu! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20728,15 +21355,26 @@ return {
         scriptId = 71010,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 619,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Benarkah......",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "Ini adalah pilihan terakhirmu. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20756,15 +21394,26 @@ return {
         scriptId = 71010,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 620,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Ternyata......",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "Jadi harapan itu hanya ilusi. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20784,15 +21433,26 @@ return {
         scriptId = 71010,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 621,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Perasaan ini......",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Apa kamu benar-benar ada di sana? ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20812,15 +21472,36 @@ return {
         scriptId = 71010,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 622,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Apa——......? ",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Nilai Spirit Power menunjukkan angka negatif? ",
+                delay = 800,
+            },
+            [3] = {
+                speed = 40,
+                text = "Ini......",
+                delay = 400,
+            },
+            [4] = {
+                speed = 40,
+                text = "Inversi! ?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -20840,15 +21521,26 @@ return {
         scriptId = 71010,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 623,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Keputusan terakhir sudah dimulai. ",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Aku akan menyaksikan Ending-mu dengan mataku sendiri. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -21903,15 +22595,47 @@ return {
         scriptId = 100015,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 649,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Datanglah,",
+                delay = 400,
+            },
+            [2] = {
+                speed = 40,
+                text = "Keputusasaan di dalam pedang itu",
+                delay = 600,
+            },
+            [3] = {
+                speed = 40,
+                text = "Mari",
+            },
+            [4] = {
+                speed = 40,
+                text = "「Sandalphon」",
+            },
+            [5] = {
+                speed = 40,
+                text = "dan",
+            },
+            [6] = {
+                speed = 40,
+                text = "「Shekinah」",
+            },
+            [7] = {
+                speed = 40,
+                text = "kita putuskan harapannya! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -22190,15 +22914,46 @@ return {
         scriptId = 100016,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 656,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Tapi,",
+                delay = 400,
+            },
+            [2] = {
+                speed = 40,
+                text = "baru saja benar benar,",
+                delay = 400,
+            },
+            [3] = {
+                speed = 40,
+                text = "meninggalkan catatan di tengah mesin,",
+                delay = 400,
+            },
+            [4] = {
+                speed = 40,
+                text = "dan tidak hilang. ",
+                delay = 400,
+            },
+            [5] = {
+                speed = 40,
+                text = "pasti suatu hari",
+                delay = 400,
+            },
+            [6] = {
+                speed = 40,
+                text = "kita akan berjumpa lagi. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -43720,7 +44475,8 @@ return {
         autoShutTime = 0,
         effect = "",
         id = 1314,
-        text = 0,
+        text = {
+        },
         actionL = {
         },
         cameraAction2 = 0,
@@ -112954,15 +113710,51 @@ return {
         scriptId = 201003,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 20100301,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Siapa aku? ",
+                delay = 300,
+            },
+            [2] = {
+                speed = 40,
+                text = "Aku ada di mana? ",
+                delay = 300,
+            },
+            [3] = {
+                speed = 40,
+                text = "Siapa yang sedang memukuliku? ",
+                delay = 700,
+            },
+            [4] = {
+                speed = 40,
+                text = "Dingg——",
+                delay = 300,
+            },
+            [5] = {
+                speed = 40,
+                text = "Hah? ",
+                delay = 300,
+            },
+            [6] = {
+                speed = 40,
+                text = "Tunggu,",
+                delay = 300,
+            },
+            [7] = {
+                speed = 40,
+                text = "Bug sudah diperbaiki. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -119979,15 +120771,46 @@ return {
         scriptId = 100195,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 10019507,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "ah! ",
+                delay = 300,
+            },
+            [2] = {
+                speed = 40,
+                text = "Aku menemukan masalahnya",
+                delay = 300,
+            },
+            [3] = {
+                speed = 40,
+                text = "Design ini memang ada masalah! ",
+                delay = 700,
+            },
+            [4] = {
+                speed = 40,
+                text = "Tunggu",
+                delay = 300,
+            },
+            [5] = {
+                speed = 40,
+                text = "Aku akan memperbaikinya! ",
+                delay = 300,
+            },
+            [6] = {
+                speed = 40,
+                text = "buat ulang semuanya! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,

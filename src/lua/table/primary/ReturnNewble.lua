@@ -191,7 +191,7 @@ return {
         weight = 2,
         status = 2,
         titleIcon = "ui/activity/fanshiAssist/fanshiMainView/btn_7n.png",
-        details = "{\"beginTime\":\"2020-8-25 00:00:02\",\"endTime\":\"2020-8-25 00:00:02\",\"activityShowType\":1001,\"name\":\"登录有礼#####Login Rewards\",\"bgPath\":\"ui/activity/fanshiAssist/fanshiMainView/btn_7n.png\",\"dayRstring\":\"r305004\",\"hourRstring\":\"r305005\",\"uiName\":\"fanshiAssistSignView\",\"SevenItemType\":\"2\",\"isScrollType\":\"2\"}",
+        details = "{\"beginTime\":\"2021-1-6 00:00:00\",\"endTime\":\"2021-1-20 23:59:59\",\"activityShowType\":1001,\"name\":\"190000438\",\"bgPath\":\"ui/activity/fanshiAssist/fanshiMainView/btn_7n.png\",\"dayRstring\":\"r305004\",\"hourRstring\":\"r305005\",\"uiName\":\"fanshiAssistSignView\",\"SevenItemType\":\"2\",\"isScrollType\":\"2\"}",
         type = 1010,
     },
     [120004] = {

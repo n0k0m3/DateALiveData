@@ -182,7 +182,7 @@ local t =
 										PositionX = -494,
 										PositionY = 226,
 									},
-									width = "246",
+									width = "259",
 									ZOrder = "1",
 								},
 								{
@@ -256,7 +256,7 @@ local t =
 										PositionY = 223,
 									},
 									visible = "False",
-									width = "65",
+									width = "58",
 									ZOrder = "1",
 								},
 								{
@@ -310,7 +310,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -389,7 +389,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -673,7 +673,7 @@ local t =
 											{
 												
 											},
-											width = "77",
+											width = "74",
 											ZOrder = "1",
 										},
 									},
@@ -806,7 +806,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -904,7 +904,7 @@ local t =
 												PositionY = -17,
 											},
 											visible = "False",
-											width = "25",
+											width = "27",
 											ZOrder = "1",
 										},
 									},
@@ -1054,7 +1054,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1228,7 +1228,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1402,7 +1402,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1576,7 +1576,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1689,7 +1689,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1787,7 +1787,7 @@ local t =
 												PositionY = -17,
 											},
 											visible = "False",
-											width = "26",
+											width = "27",
 											ZOrder = "1",
 										},
 									},
@@ -1936,7 +1936,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -2108,7 +2108,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -2280,7 +2280,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -2392,7 +2392,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -2538,7 +2538,7 @@ local t =
 										PositionX = 7,
 										PositionY = 37,
 									},
-									width = "20",
+									width = "23",
 									ZOrder = "1",
 								},
 								{
@@ -2686,14 +2686,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "18",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -2709,7 +2709,7 @@ local t =
 											{
 												PositionX = -217,
 											},
-											width = "56",
+											width = "70",
 											ZOrder = "1",
 										},
 									},
@@ -2859,14 +2859,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "18",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -2882,7 +2882,7 @@ local t =
 											{
 												PositionX = -217,
 											},
-											width = "56",
+											width = "70",
 											ZOrder = "1",
 										},
 									},
@@ -3001,7 +3001,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -3100,7 +3100,7 @@ local t =
 												PositionY = -18,
 											},
 											visible = "False",
-											width = "44",
+											width = "43",
 											ZOrder = "1",
 										},
 									},
@@ -3148,7 +3148,7 @@ local t =
 										PositionX = -84,
 										PositionY = -1,
 									},
-									width = "34",
+									width = "35",
 									ZOrder = "1",
 								},
 								{
@@ -3265,7 +3265,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -3363,7 +3363,7 @@ local t =
 												PositionY = -17,
 											},
 											visible = "False",
-											width = "16",
+											width = "17",
 											ZOrder = "1",
 										},
 									},
@@ -3514,7 +3514,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -3689,7 +3689,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -3802,7 +3802,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -3824,7 +3824,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -302,
-										PositionY = 3,
+										PositionY = 4,
 									},
 									width = "110",
 									ZOrder = "1",
@@ -3900,7 +3900,7 @@ local t =
 												PositionY = -17,
 											},
 											visible = "False",
-											width = "69",
+											width = "66",
 											ZOrder = "1",
 										},
 									},
@@ -4049,7 +4049,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -4221,7 +4221,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -4403,7 +4403,7 @@ local t =
 										PositionY = -17,
 									},
 									visible = "False",
-									width = "109",
+									width = "104",
 									ZOrder = "1",
 								},
 							},
@@ -4490,7 +4490,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -4588,7 +4588,7 @@ local t =
 												PositionY = -17,
 											},
 											visible = "False",
-											width = "27",
+											width = "28",
 											ZOrder = "1",
 										},
 									},
@@ -5663,7 +5663,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -5853,7 +5853,7 @@ local t =
 											{
 												
 											},
-											width = "71",
+											width = "79",
 											ZOrder = "1",
 										},
 									},

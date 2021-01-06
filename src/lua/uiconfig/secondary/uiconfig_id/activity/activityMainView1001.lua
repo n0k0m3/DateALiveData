@@ -343,18 +343,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
-											nTextHAlign = "0",
+											nTextHAlign = "2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -366,7 +366,7 @@ local t =
 											{
 												PositionX = 134,
 											},
-											width = "83",
+											width = "110",
 											ZOrder = "1",
 										},
 										{
@@ -470,18 +470,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
-											nTextHAlign = "0",
+											nTextHAlign = "2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -493,7 +493,7 @@ local t =
 											{
 												PositionX = 131,
 											},
-											width = "83",
+											width = "110",
 											ZOrder = "1",
 										},
 										{

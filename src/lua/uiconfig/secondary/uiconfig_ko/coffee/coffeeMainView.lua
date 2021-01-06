@@ -272,7 +272,6 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 18,
 										PositionY = -31,
 									},
 									width = "44",
@@ -404,7 +403,6 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 18,
 										PositionY = -31,
 									},
 									width = "45",
@@ -510,8 +508,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 18,
-										PositionY = -31,
+										PositionY = -30,
 									},
 									width = "45",
 									ZOrder = "1",
@@ -642,7 +639,6 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 29,
 										PositionY = -31,
 									},
 									width = "64",
@@ -1125,7 +1121,7 @@ local t =
 											{
 												PositionX = 271,
 											},
-											width = "94",
+											width = "93",
 											ZOrder = "1",
 										},
 									},
@@ -1220,7 +1216,7 @@ local t =
 											{
 												PositionX = 123,
 											},
-											width = "50",
+											width = "49",
 											ZOrder = "1",
 										},
 									},
@@ -1315,7 +1311,7 @@ local t =
 											{
 												PositionX = 126,
 											},
-											width = "39",
+											width = "38",
 											ZOrder = "1",
 										},
 									},
@@ -1996,7 +1992,7 @@ local t =
 												PositionX = -47,
 												PositionY = -5,
 											},
-											width = "66",
+											width = "64",
 											ZOrder = "1",
 										},
 										{
@@ -2042,7 +2038,7 @@ local t =
 												PositionX = 131,
 												PositionY = -9,
 											},
-											width = "72",
+											width = "73",
 											ZOrder = "1",
 										},
 										{
@@ -2387,7 +2383,7 @@ local t =
 												PositionX = -47,
 												PositionY = -5,
 											},
-											width = "66",
+											width = "64",
 											ZOrder = "1",
 										},
 										{
@@ -2433,7 +2429,7 @@ local t =
 												PositionX = 131,
 												PositionY = -9,
 											},
-											width = "72",
+											width = "73",
 											ZOrder = "1",
 										},
 										{
@@ -2778,7 +2774,7 @@ local t =
 												PositionX = -47,
 												PositionY = -5,
 											},
-											width = "66",
+											width = "64",
 											ZOrder = "1",
 										},
 										{
@@ -2824,7 +2820,7 @@ local t =
 												PositionX = 131,
 												PositionY = -9,
 											},
-											width = "72",
+											width = "73",
 											ZOrder = "1",
 										},
 										{

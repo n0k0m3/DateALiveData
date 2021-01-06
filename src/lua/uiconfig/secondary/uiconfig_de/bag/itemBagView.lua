@@ -492,7 +492,7 @@ local t =
 										PositionX = -453,
 										PositionY = 215,
 									},
-									width = "97",
+									width = "91",
 									ZOrder = "1",
 								},
 								{
@@ -538,7 +538,7 @@ local t =
 										PositionX = -257,
 										PositionY = 210,
 									},
-									width = "35",
+									width = "38",
 									ZOrder = "1",
 								},
 								{
@@ -584,7 +584,7 @@ local t =
 										PositionX = -399,
 										PositionY = 218,
 									},
-									width = "58",
+									width = "53",
 									ZOrder = "1",
 								},
 								{
@@ -759,7 +759,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "113",
+											width = "110",
 											ZOrder = "1",
 										},
 									},
@@ -844,7 +844,7 @@ local t =
 											{
 												
 											},
-											width = "102",
+											width = "100",
 											ZOrder = "1",
 										},
 									},
@@ -986,7 +986,7 @@ local t =
 													{
 														
 													},
-													width = "121",
+													width = "115",
 													ZOrder = "1",
 												},
 											},
@@ -1066,7 +1066,7 @@ local t =
 													{
 														
 													},
-													width = "113",
+													width = "110",
 													ZOrder = "1",
 												},
 											},
@@ -1142,7 +1142,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "204",
+													width = "188",
 													ZOrder = "1",
 												},
 											},
@@ -1390,7 +1390,7 @@ local t =
 															{
 																PositionY = -1,
 															},
-															width = "57",
+															width = "60",
 															ZOrder = "1",
 														},
 													},
@@ -1441,14 +1441,14 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEButton",
 													ClickHighLightEnabled = "True",
 													dstBlendFunc = "771",
 													flipX = "False",
 													flipY = "False",
 													height = "50",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Button_sellStar1",
 													normal = "ui/bag/new_ui/new_14.png",
 													sizepercentx = "0",
@@ -1462,7 +1462,7 @@ local t =
 														PositionY = 36,
 													},
 													UItype = "Button",
-													width = "136",
+													width = "157",
 													ZOrder = "1",
 													components = 
 													{
@@ -1487,7 +1487,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 43,
+																PositionX = 54,
 															},
 															width = "40",
 															ZOrder = "1",
@@ -1512,7 +1512,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 43,
+																PositionX = 54,
 															},
 															visible = "False",
 															width = "49",
@@ -1570,7 +1570,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "21",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_sell1",
 															nTextAlign = "1",
@@ -1584,10 +1584,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -58,
+																PositionX = -75,
 																PositionY = 9,
 															},
-															width = "121",
+															width = "104",
 															ZOrder = "1",
 														},
 													},
@@ -1598,14 +1598,14 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEButton",
 													ClickHighLightEnabled = "True",
 													dstBlendFunc = "771",
 													flipX = "False",
 													flipY = "False",
 													height = "50",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Button_sellStar2",
 													normal = "ui/bag/new_ui/new_14.png",
 													sizepercentx = "0",
@@ -1615,11 +1615,11 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = -80,
+														PositionX = -74,
 														PositionY = 36,
 													},
 													UItype = "Button",
-													width = "136",
+													width = "157",
 													ZOrder = "1",
 													components = 
 													{
@@ -1644,7 +1644,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 43,
+																PositionX = 54,
 															},
 															width = "40",
 															ZOrder = "1",
@@ -1669,7 +1669,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 43,
+																PositionX = 54,
 															},
 															visible = "False",
 															width = "49",
@@ -1753,7 +1753,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "21",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_sell2",
 															nTextAlign = "1",
@@ -1767,10 +1767,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -58,
+																PositionX = -77,
 																PositionY = 9,
 															},
-															width = "134",
+															width = "111",
 															ZOrder = "1",
 														},
 													},
@@ -1788,7 +1788,7 @@ local t =
 													flipX = "False",
 													flipY = "False",
 													height = "50",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Button_sellStar3",
 													normal = "ui/bag/new_ui/new_14.png",
 													sizepercentx = "0",
@@ -1798,11 +1798,11 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = 80,
+														PositionX = 96,
 														PositionY = 36,
 													},
 													UItype = "Button",
-													width = "136",
+													width = "157",
 													ZOrder = "1",
 													components = 
 													{
@@ -1827,7 +1827,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 43,
+																PositionX = 54,
 															},
 															width = "40",
 															ZOrder = "1",
@@ -1852,7 +1852,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 43,
+																PositionX = 54,
 															},
 															visible = "False",
 															width = "49",
@@ -1962,7 +1962,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "21",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_sell3",
 															nTextAlign = "1",
@@ -1976,10 +1976,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -58,
+																PositionX = -79,
 																PositionY = 9,
 															},
-															width = "134",
+															width = "111",
 															ZOrder = "1",
 														},
 													},
@@ -2383,7 +2383,7 @@ local t =
 											{
 												
 											},
-											width = "113",
+											width = "106",
 											ZOrder = "1",
 										},
 									},
@@ -2468,7 +2468,7 @@ local t =
 											{
 												
 											},
-											width = "90",
+											width = "87",
 											ZOrder = "1",
 										},
 									},
@@ -2547,7 +2547,7 @@ local t =
 											{
 												
 											},
-											width = "41",
+											width = "45",
 											ZOrder = "1",
 										},
 									},
@@ -2737,7 +2737,7 @@ local t =
 											{
 												PositionX = -20,
 											},
-											width = "82",
+											width = "78",
 											ZOrder = "1",
 										},
 										{
@@ -2879,7 +2879,7 @@ local t =
 													{
 														PositionX = -20,
 													},
-													width = "82",
+													width = "78",
 													ZOrder = "1",
 												},
 												{
@@ -2984,7 +2984,7 @@ local t =
 													{
 														PositionX = -20,
 													},
-													width = "78",
+													width = "73",
 													ZOrder = "1",
 												},
 												{
@@ -3092,7 +3092,7 @@ local t =
 												PositionX = -7,
 												PositionY = -4,
 											},
-											width = "142",
+											width = "141",
 											ZOrder = "1",
 										},
 										{
@@ -3287,7 +3287,7 @@ local t =
 													{
 														PositionX = 12,
 													},
-													width = "163",
+													width = "160",
 													ZOrder = "1",
 												},
 											},
@@ -3365,7 +3365,7 @@ local t =
 													{
 														
 													},
-													width = "224",
+													width = "218",
 													ZOrder = "1",
 												},
 											},
@@ -3443,7 +3443,7 @@ local t =
 													{
 														
 													},
-													width = "224",
+													width = "218",
 													ZOrder = "1",
 												},
 											},
@@ -3521,7 +3521,7 @@ local t =
 													{
 														
 													},
-													width = "224",
+													width = "218",
 													ZOrder = "1",
 												},
 											},
@@ -3599,7 +3599,7 @@ local t =
 													{
 														
 													},
-													width = "224",
+													width = "218",
 													ZOrder = "1",
 												},
 											},
@@ -3743,7 +3743,7 @@ local t =
 									controlID = "Label_name_Panel_tabItem_Panel_prefab_Panel-itemBagView_Layer1_bag_Game",
 									UUID = "ccdd0768_223e_43bb_a057_bebebdddb879",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "0.5",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -3758,14 +3758,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "18",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -3779,10 +3779,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -43,
+										PositionX = -8,
 										PositionY = -28,
 									},
-									width = "76",
+									width = "88",
 									ZOrder = "1",
 								},
 								{
@@ -3833,7 +3833,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -49,
-										PositionY = -27,
+										PositionY = -7,
 										relativeToName = "Panel",
 									},
 									width = "16",
@@ -4009,7 +4009,7 @@ local t =
 											{
 												
 											},
-											width = "133",
+											width = "147",
 											ZOrder = "1",
 										},
 									},
@@ -4107,7 +4107,7 @@ local t =
 									{
 										PositionY = 43,
 									},
-									width = "120",
+									width = "119",
 									ZOrder = "1",
 								},
 								{
@@ -4215,7 +4215,7 @@ local t =
 											{
 												
 											},
-											width = "90",
+											width = "84",
 											ZOrder = "1",
 										},
 									},
@@ -4653,7 +4653,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "113",
+											width = "110",
 											ZOrder = "1",
 										},
 									},
@@ -4735,7 +4735,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "157",
+											width = "154",
 											ZOrder = "1",
 										},
 									},

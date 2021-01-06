@@ -254,7 +254,7 @@ local t =
 										PositionX = 15,
 										PositionY = 42,
 									},
-									width = "158",
+									width = "176",
 									ZOrder = "1",
 									components = 
 									{
@@ -299,13 +299,13 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 158,
+												PositionX = 176,
 												PositionY = -2,
 												IsPercent = true,
 												PercentX = 100,
 												PercentY = -8,
 											},
-											width = "79",
+											width = "78",
 											ZOrder = "1",
 										},
 									},
@@ -330,10 +330,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 405,
-										PositionY = 11,
+										PositionX = 353,
+										PositionY = 12,
 									},
-									width = "560",
+									width = "500",
 									ZOrder = "1",
 								},
 								{
@@ -358,10 +358,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 405,
-										PositionY = 11,
+										PositionX = 353,
+										PositionY = 12,
 									},
-									width = "560",
+									width = "500",
 									ZOrder = "1",
 								},
 								{
@@ -435,7 +435,7 @@ local t =
 										PositionX = 40,
 										PositionY = 14,
 									},
-									width = "52",
+									width = "50",
 									ZOrder = "1",
 								},
 								{
@@ -478,10 +478,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 756,
+										PositionX = 695,
 										PositionY = 16,
 									},
-									width = "19",
+									width = "17",
 									ZOrder = "1",
 								},
 								{
@@ -524,10 +524,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 746,
+										PositionX = 685,
 										PositionY = 21,
 									},
-									width = "76",
+									width = "73",
 									ZOrder = "1",
 								},
 								{
@@ -555,7 +555,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 772,
+										PositionX = 713,
 										PositionY = 6,
 									},
 									uipanelviewmodel = 
@@ -563,7 +563,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "154",
+									width = "210",
 									ZOrder = "1",
 									components = 
 									{
@@ -574,14 +574,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
 											height = "44",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_pulldown",
 											normal = "ui/playerInfo/medal/ui_11.png",
 											sizepercentx = "0",
@@ -591,14 +591,14 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 77,
+												PositionX = 105,
 												PositionY = 23,
 												IsPercent = true,
 												PercentX = 50,
 												PercentY = 50,
 											},
 											UItype = "Button",
-											width = "150",
+											width = "210",
 											ZOrder = "1",
 											components = 
 											{
@@ -624,7 +624,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 57,
+														PositionX = 94,
 														PositionY = -3,
 													},
 													width = "17",
@@ -649,14 +649,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_title",
 													nTextAlign = "1",
@@ -670,9 +670,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														
+														PositionX = -5,
 													},
-													width = "47",
+													width = "41",
 													ZOrder = "1",
 												},
 											},
@@ -709,7 +709,7 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											width = "154",
+											width = "210",
 											ZOrder = "1",
 											components = 
 											{
@@ -746,7 +746,7 @@ local t =
 														Layout="Absolute",
 														nType = "0"
 													},
-													width = "154",
+													width = "210",
 													ZOrder = "1",
 													components = 
 													{
@@ -768,7 +768,7 @@ local t =
 															height = "44",
 															ignoreSize = "False",
 															innerHeight = "44",
-															innerWidth = "154",
+															innerWidth = "210",
 															name = "ScrollView_menu",
 															showScrollbar = "False",
 															sizepercentx = "0",
@@ -785,7 +785,7 @@ local t =
 																Layout="Absolute",
 																nType = "0"
 															},
-															width = "154",
+															width = "210",
 															ZOrder = "1",
 															components = 
 															{
@@ -822,7 +822,7 @@ local t =
 																		Layout="Absolute",
 																		nType = "0"
 																	},
-																	width = "154",
+																	width = "210",
 																	ZOrder = "1",
 																	components = 
 																	{
@@ -833,11 +833,11 @@ local t =
 																			anchorPoint = "False",
 																			anchorPointX = "0.5",
 																			anchorPointY = "0",
-																			backGroundScale9Enable = "False",
+																			backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 																			classname = "MEImage",
 																			dstBlendFunc = "771",
 																			height = "48",
-																			ignoreSize = "True",
+																			ignoreSize = "False",
 																			name = "Image_option",
 																			sizepercentx = "0",
 																			sizepercenty = "0",
@@ -847,9 +847,9 @@ local t =
 																			touchAble = "False",
 																			UILayoutViewModel = 
 																			{
-																				PositionX = 77,
+																				PositionX = 105,
 																			},
-																			width = "150",
+																			width = "210",
 																			ZOrder = "1",
 																		},
 																		{
@@ -871,14 +871,14 @@ local t =
 																				OffsetX = 0,
 																				OffsetY = 0,
 																			},
-																			fontSize = "24",
+																			fontSize = "20",
 																			fontStroke = 
 																			{
 																				IsStroke = false,
 																				StrokeColor = "#FFE6E6E6",
 																				StrokeSize = 1,
 																			},
-																			height = "27",
+																			height = "23",
 																			ignoreSize = "True",
 																			name = "Label_title",
 																			nTextAlign = "1",
@@ -892,10 +892,10 @@ local t =
 																			touchScaleEnable = "False",
 																			UILayoutViewModel = 
 																			{
-																				PositionX = 77,
+																				PositionX = 105,
 																				PositionY = 22,
 																			},
-																			width = "47",
+																			width = "41",
 																			ZOrder = "1",
 																		},
 																	},
@@ -1578,7 +1578,7 @@ local t =
 										PositionX = 20,
 										PositionY = 40,
 									},
-									width = "56",
+									width = "57",
 									ZOrder = "1",
 								},
 								{

@@ -14,7 +14,7 @@ return {
             [2] = "id_normal_6",
         },
         condition = 1015,
-        turnover3 = 60000000,
+        turnover3 = 6000000,
         expression1 = {
             [1] = "id_normal_13",
             [2] = "id_normal_8",
@@ -50,7 +50,7 @@ return {
             [2] = "id_normal_6",
         },
         condition = 1012,
-        turnover3 = 60000000,
+        turnover3 = 6000000,
         expression1 = {
             [1] = "id_normal_12",
             [2] = "id_normal_2",
@@ -86,7 +86,7 @@ return {
             [2] = "id_normal_7",
         },
         condition = 0,
-        turnover3 = 60000000,
+        turnover3 = 6000000,
         expression1 = {
             [1] = "id_normal_3",
             [2] = "id_normal_9",
@@ -122,7 +122,7 @@ return {
             [2] = "id_normal_1",
         },
         condition = 1016,
-        turnover3 = 60000000,
+        turnover3 = 6000000,
         expression1 = {
             [1] = "id_normal_5",
             [2] = "id_normal_9",
@@ -158,7 +158,7 @@ return {
             [2] = "id_normal_13",
         },
         condition = 1011,
-        turnover3 = 60000000,
+        turnover3 = 6000000,
         expression1 = {
             [1] = "id_normal_3",
             [2] = "id_normal_10",
@@ -194,7 +194,7 @@ return {
             [2] = "id_normal_13",
         },
         condition = 1019,
-        turnover3 = 60000000,
+        turnover3 = 6000000,
         expression1 = {
             [1] = "id_normal_8",
             [2] = "id_normal_4",

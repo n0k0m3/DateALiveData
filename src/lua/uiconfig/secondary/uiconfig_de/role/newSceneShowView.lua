@@ -910,7 +910,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "72",
+											width = "76",
 											ZOrder = "1",
 										},
 										{
@@ -982,7 +982,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "72",
+													width = "76",
 													ZOrder = "1",
 												},
 											},
@@ -1063,7 +1063,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "59",
+											width = "64",
 											ZOrder = "1",
 										},
 										{
@@ -1135,7 +1135,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "59",
+													width = "64",
 													ZOrder = "1",
 												},
 											},
@@ -1259,7 +1259,7 @@ local t =
 										PositionX = 111,
 										PositionY = 557,
 									},
-									width = "269",
+									width = "290",
 									ZOrder = "1",
 								},
 								{
@@ -1305,7 +1305,8 @@ local t =
 										PositionX = 113,
 										PositionY = 503,
 									},
-									width = "57",
+									visible = "False",
+									width = "60",
 									ZOrder = "1",
 								},
 							},
@@ -2583,7 +2584,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_bgmname",
 									nTextAlign = "0",
@@ -2599,7 +2600,7 @@ local t =
 									{
 										PositionX = -117,
 									},
-									width = "223",
+									width = "167",
 									ZOrder = "1",
 								},
 								{
@@ -2628,7 +2629,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_des1",
 									nTextAlign = "0",
@@ -2645,7 +2646,7 @@ local t =
 										PositionX = 212,
 										PositionY = 14,
 									},
-									width = "223",
+									width = "167",
 									ZOrder = "1",
 								},
 								{
@@ -2674,7 +2675,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_des2",
 									nTextAlign = "0",
@@ -2691,7 +2692,7 @@ local t =
 										PositionX = 212,
 										PositionY = -14,
 									},
-									width = "223",
+									width = "167",
 									ZOrder = "1",
 								},
 								{

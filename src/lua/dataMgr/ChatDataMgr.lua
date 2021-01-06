@@ -434,21 +434,11 @@ function ChatDataMgr:onRecvChatInfo(event)
 	print("chatInfo.fun=" .. chatInfo.fun)
 	print("chatInfo.chatType=" .. chatInfo.chatType)
     if chatInfo.chatType == EC_ChatType.SYSTEM then
-        local strTag = "#####"
-        chatInfo.isStrId = string.find(chatInfo.content , strTag)
-        if chatInfo.isStrId then
-            local strContent = string.split(chatInfo.content , strTag)
-
-            local code = TFLanguageMgr:getUsingLanguage()
-            if (code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE) then
-                chatInfo.content = strContent[1]
-            else
-                chatInfo.content = strContent[2] or chatInfo.content
-            end
-        end
+        chatInfo.content = Utils:MultiLanguageStringDeal(chatInfo.content)
         chatInfo.pname = TextDataMgr:getText(chatInfo.pname)
     end
     if chatInfo.fun == EC_ChatState.MARQUEEN then -- 跑马灯不影响其他聊天消息
+        chatInfo.content = Utils:MultiLanguageStringDeal(chatInfo.content)
         EventMgr:dispatchEvent(EV_RECV_CHATINFO,chatInfo)
         return
     end

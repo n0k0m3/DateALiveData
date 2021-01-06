@@ -1117,7 +1117,7 @@ local t =
 											height = "56",
 											ignoreSize = "True",
 											name = "Button_filter",
-											normal = "ui/chat/filter.png",
+											normal = "ui/chat/filter2.png",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1153,15 +1153,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "15",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "0",
-													ignoreSize = "False",
+													height = "23",
+													ignoreSize = "True",
 													name = "Label_filter",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1174,9 +1174,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = -2,
+														
 													},
-													width = "200",
+													width = "254",
 													ZOrder = "1",
 												},
 											},
@@ -9603,7 +9603,7 @@ local t =
 			"ui/chat/select.png",
 			"ui/chat/Sicon.png",
 			"ui/chat/Bicon.png",
-			"ui/chat/filter.png",
+			"ui/chat/filter2.png",
 			"ui/mainLayer/070.png",
 			"ui/chat/117.png",
 			"ui/chat/127.png",

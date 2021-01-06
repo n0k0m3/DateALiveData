@@ -301,6 +301,7 @@ end
 function CoffeeMainView:onShow()
     self.super.onShow(self)
     self:updateRedPointStatus()
+    self:refreshLive2d()
 end
 
 function CoffeeMainView:registerEvents()
@@ -366,11 +367,17 @@ function CoffeeMainView:refreshRoleIcon()
 end
 
 function CoffeeMainView:refreshNewLog()
+    -- TODO CLOSE 屏蔽事件刷新显示
+    if (not GlobalFuncDataMgr:isOpen(12)) then
+        return
+    end
+
     local txt = CoffeeDataMgr:getNewLogStr()
     if nil == txt then
         return 
     end
     self.lab_logShow:setText(txt)
+    self.Image_logShow:setContentSize(CCSize(self.Image_logShow:getContentSize().width , self.lab_logShow:getContentSize().height + 10))
     self:popAction(self.Image_logShow)
 end
 

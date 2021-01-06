@@ -144,7 +144,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -280,8 +279,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_receive",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -296,7 +295,7 @@ local t =
 											{
 												
 											},
-											width = "90",
+											width = "140",
 											ZOrder = "1",
 										},
 									},
@@ -396,18 +395,20 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "23",
+													height = "21",
 													ignoreSize = "True",
 													name = "lab_signLastNum-Copy1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													scaleX = "0.9",
+													scaleY = "0.9",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -419,7 +420,7 @@ local t =
 													{
 														PositionX = -60,
 													},
-													width = "193",
+													width = "177",
 													ZOrder = "1",
 												},
 											},
@@ -750,6 +751,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
