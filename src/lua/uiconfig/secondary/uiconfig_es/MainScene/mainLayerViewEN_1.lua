@@ -4651,14 +4651,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Favorabilidad",
+											text = "Favor",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -42,
 											},
-											width = "106",
+											width = "45",
 											ZOrder = "1",
 										},
 										{

@@ -558,10 +558,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 360,
-										PositionY = 106,
+										PositionX = 362,
+										PositionY = 114,
 									},
-									width = "222",
+									width = "232",
 									ZOrder = "1",
 								},
 								{
@@ -590,7 +590,7 @@ local t =
 										StrokeSize = 1,
 									},
 									hAlignment = "0",
-									height = "64",
+									height = "80",
 									ignoreSize = "False",
 									name = "TextArea_desc",
 									sizepercentx = "0",
@@ -602,8 +602,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 360,
-										PositionY = 80,
+										PositionX = 361,
+										PositionY = 96,
 									},
 									vAlignment = "0",
 									width = "400",

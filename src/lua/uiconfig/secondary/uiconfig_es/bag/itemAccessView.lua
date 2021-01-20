@@ -191,14 +191,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "24",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -215,7 +215,7 @@ local t =
 										PositionX = -174,
 										PositionY = 218,
 									},
-									width = "195",
+									width = "166",
 									ZOrder = "1",
 								},
 								{
@@ -271,8 +271,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -285,10 +285,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -5,
 										PositionY = 60,
 									},
-									width = "97",
+									width = "350",
 									ZOrder = "1",
 								},
 								{

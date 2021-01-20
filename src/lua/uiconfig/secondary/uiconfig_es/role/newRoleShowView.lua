@@ -553,7 +553,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 31.13,
 																	},
-																	width = "31",
+																	width = "33",
 																	ZOrder = "1",
 																},
 															},
@@ -602,7 +602,7 @@ local t =
 																IsPercent = true,
 																PercentX = 50,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -710,7 +710,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 34.13,
 																	},
-																	width = "92",
+																	width = "86",
 																	ZOrder = "1",
 																},
 															},
@@ -759,7 +759,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -865,7 +865,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 31.13,
 																	},
-																	width = "51",
+																	width = "46",
 																	ZOrder = "1",
 																},
 															},
@@ -914,7 +914,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -1069,7 +1069,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -1175,7 +1175,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 31.13,
 																	},
-																	width = "44",
+																	width = "48",
 																	ZOrder = "1",
 																},
 															},
@@ -1224,7 +1224,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -1333,7 +1333,7 @@ local t =
 																		PercentX = 206.13,
 																		PercentY = 23.08,
 																	},
-																	width = "175",
+																	width = "167",
 																	ZOrder = "1",
 																},
 																{
@@ -1382,7 +1382,7 @@ local t =
 																		PercentX = 231.13,
 																		PercentY = -33.33,
 																	},
-																	width = "107",
+																	width = "101",
 																	ZOrder = "1",
 																},
 															},
@@ -1535,7 +1535,7 @@ local t =
 													{
 														PositionX = 20,
 													},
-													width = "89",
+													width = "92",
 													ZOrder = "1",
 												},
 											},
@@ -1692,7 +1692,7 @@ local t =
 													{
 														
 													},
-													width = "96",
+													width = "92",
 													ZOrder = "1",
 												},
 											},
@@ -1809,7 +1809,7 @@ local t =
 													{
 														PositionX = -6,
 													},
-													width = "232",
+													width = "223",
 													ZOrder = "1",
 												},
 												{
@@ -2192,7 +2192,7 @@ local t =
 													{
 														
 													},
-													width = "111",
+													width = "113",
 													ZOrder = "1",
 												},
 											},
@@ -2490,7 +2490,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "99",
+											width = "110",
 											ZOrder = "1",
 										},
 										{
@@ -2562,7 +2562,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "99",
+													width = "110",
 													ZOrder = "1",
 												},
 											},
@@ -2643,7 +2643,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "140",
+											width = "159",
 											ZOrder = "1",
 										},
 										{
@@ -2715,7 +2715,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "140",
+													width = "159",
 													ZOrder = "1",
 												},
 											},
@@ -2796,7 +2796,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "79",
+											width = "88",
 											ZOrder = "1",
 										},
 										{
@@ -2868,7 +2868,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "79",
+													width = "88",
 													ZOrder = "1",
 												},
 											},
@@ -3239,7 +3239,7 @@ local t =
 													{
 														PositionX = 30,
 													},
-													width = "25",
+													width = "24",
 													ZOrder = "1",
 												},
 											},
@@ -3289,7 +3289,7 @@ local t =
 										PositionX = 111,
 										PositionY = 557,
 									},
-									width = "269",
+									width = "290",
 									ZOrder = "1",
 								},
 								{
@@ -3335,7 +3335,7 @@ local t =
 										PositionX = 113,
 										PositionY = 503,
 									},
-									width = "57",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -3381,7 +3381,7 @@ local t =
 										PositionX = 113,
 										PositionY = 483,
 									},
-									width = "57",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -3817,7 +3817,7 @@ local t =
 											controlID = "Label_unLockT_Panel_unLockT_Panel_unInfoItem_Panel_prefab_Panel-newRoleShowView_Layer1_role_Game",
 											UUID = "b4bc8d41_b127_4939_b0ad_bf7db0f61425",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -3848,18 +3848,18 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Favorabilidad",
+											text = "Favor",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 61,
-												PositionY = 53,
+												PositionX = 111,
+												PositionY = 55,
 												IsPercent = true,
-												PercentX = 50.67,
-												PercentY = 75.86,
+												PercentX = 93.19,
+												PercentY = 79.03,
 											},
-											width = "114",
+											width = "48",
 											ZOrder = "1",
 										},
 										{
@@ -4181,7 +4181,7 @@ local t =
 													{
 														
 													},
-													width = "66",
+													width = "63",
 													ZOrder = "1",
 												},
 											},
@@ -4376,7 +4376,7 @@ local t =
 													{
 														
 													},
-													width = "98",
+													width = "109",
 													ZOrder = "1",
 												},
 											},
@@ -5180,7 +5180,7 @@ local t =
 															{
 																PositionX = 18,
 															},
-															width = "102",
+															width = "95",
 															ZOrder = "1",
 														},
 														{
@@ -5310,7 +5310,7 @@ local t =
 															{
 																PositionX = 18,
 															},
-															width = "137",
+															width = "125",
 															ZOrder = "1",
 														},
 														{

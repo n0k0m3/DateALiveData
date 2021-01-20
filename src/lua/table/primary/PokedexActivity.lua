@@ -6,7 +6,7 @@ return {
         des2 = 1701028,
         tipIcon = "",
         sort = 1,
-        des1 = 1701027,
+        des1 = 190012037,
         icon = "icon/pokedexActivity/main_manyueji.png",
         title = 1701026,
         pokdexType = 2,

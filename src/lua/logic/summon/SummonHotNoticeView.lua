@@ -36,7 +36,7 @@ function SummonHotNoticeView:refreshView()
         local Label_time = TFDirector:getChildByPath(Panel_noticeItem, "Label_time")
         Image_ad:setTexture(summonCfg.icon)
         local endTime = self.endTime_[i]
-        Label_time:setTextById(1200071, TFDate(endTime[1]):tolocal():fmt("%Y-%m-%d"), TFDate(endTime[2]):fmt("%Y-%m-%d"))
+        Label_time:setText(TextDataMgr:getText(1200071, TFDate(endTime[1]+ GV_UTC_TIME_ZONE * 3600):fmt("%Y-%m-%d"), TFDate(endTime[2]+ GV_UTC_TIME_ZONE * 3600):fmt("%Y-%m-%d"))..GV_UTC_TIME_STRING)
         self.PageView_notice:addPage(Panel_noticeItem)
     end
 

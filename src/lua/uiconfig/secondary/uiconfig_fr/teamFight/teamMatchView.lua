@@ -500,8 +500,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_error_tip",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -516,7 +516,7 @@ local t =
 													{
 														
 													},
-													width = "450",
+													width = "260",
 													ZOrder = "1",
 												},
 											},

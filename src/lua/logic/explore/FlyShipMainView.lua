@@ -86,7 +86,7 @@ function FlyShipMainView:preLoadExploreRes()
 	if nationInfo then
 		local nationCfg = ExploreDataMgr:getAfkNationCfg(nationInfo.localNation)
 		if nationCfg then
-			local uiMap = require("lua.uiconfig.explore."..nationCfg.mapLayout)
+			local uiMap = require( TFGlobalUtils:loadUIConfigFilePath("lua.uiconfig.explore."..nationCfg.mapLayout))
 			for k, texture in pairs(uiMap.respaths.textures) do
 				me.TextureCache:addImage(texture)
 			end
@@ -325,6 +325,11 @@ function FlyShipMainView:updateCabinList( ... )
 		local Label_level = TFDirector:getChildByPath(Panel_normal,"Label_level")
 		local Image_redTip = TFDirector:getChildByPath(Panel_normal,"Image_redTip")
 		btn:setTextureNormal(roomCfg.mainIcon)
+		if (TFLanguageMgr:getUsingLanguage() == cc.SIMPLIFIED_CHINESE) or (TFLanguageMgr:getUsingLanguage() == cc.TRADITIONAL_CHINESE) then
+
+		else
+			btn:setContentSize(CCSize(160 , 95))
+		end
 		Label_name:setText(roomDetailCfg.name)
 		Label_level:setText("Lv."..roomDetailCfg.level)
 		Label_level:setVisible(roomCfg.showLevel)

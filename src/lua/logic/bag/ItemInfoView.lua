@@ -36,6 +36,7 @@ function ItemInfoView:initUI(ui)
     self.Button_close = TFDirector:getChildByPath(Panel_content, "Button_close")
     self.Label_name = TFDirector:getChildByPath(Panel_content, "Label_name")
     self.Label_desc = TFDirector:getChildByPath(Panel_content, "Label_desc")
+    self.Label_desc:hide()
     self.Image_line2 = TFDirector:getChildByPath(Panel_content, "Image_line2")
     self.Button_use = TFDirector:getChildByPath(Panel_content, "Button_use"):hide()
     self.Label_use = TFDirector:getChildByPath(self.Button_use, "Label_use")
@@ -60,6 +61,10 @@ function ItemInfoView:initUI(ui)
     self.Label_try:enableOutline(ccc4(0,0,0,50),1)
 
 	self.Button_mirror = TFDirector:getChildByPath(Panel_content,"Button_mirror"):hide();
+
+
+    self.ListView_des = UIListView:create(TFDirector:getChildByPath(ui, "ScrollView_des"))
+    self.Panel_des_item = TFDirector:getChildByPath(ui , "Panel_des")
 
     self:refreshView()
 end
@@ -92,6 +97,17 @@ function ItemInfoView:refreshView()
         self.Button_try:hide()
     end
     
+    --描述改为滚动
+    self.ListView_des:removeAllItems()
+
+    local Panel_des_item = self.Panel_des_item:clone()
+    Panel_des_item.Label_title = Panel_des_item:getChildByName("Label_title")
+    Panel_des_item.Label_title:setTextById(self.itemCfg_.desTextId)
+    Panel_des_item:setContentSize(Panel_des_item.Label_title:getContentSize())
+
+    self.ListView_des:pushBackCustomItem(Panel_des_item)
+
+
     self.Label_desc:setTextById(self.itemCfg_.desTextId)
     self.Label_name:setTextById(self.itemCfg_.nameTextId)
     local size = self.Label_name:Size()

@@ -207,6 +207,18 @@ function SummonDataMgr:init()
             self.celebrationPool_[v.quality] = items
         end
     end
+    self.advanceClothPool_ = {}
+    for k,v in pairs(self.summonPoolMap_) do
+        if v.poolType == 950 then
+            local items = self.advanceClothPool_[v.quality] or {}
+            for itemCid,num in pairs(v.itemMap) do
+
+                table.insert(items, {id = itemCid,num = num})
+            end
+            self.advanceClothPool_[v.quality] = items
+        end
+    end
+
 
     for k,v in pairs(self.summonPool_) do
         table.sort(v,function(a,b)
@@ -1439,6 +1451,11 @@ function SummonDataMgr:onRecvFreeTimeInfo(event)
         self.summonFreeTime[v.type] = v
     end
     EventMgr:dispatchEvent(EV_PRIVILEGE_UPDATE)
+end
+
+--根绝poolType获取配置
+function SummonDataMgr:getSummonPoolCfgsByPoolType()
+    return self.advanceClothPool_
 end
 
 return SummonDataMgr:new()

@@ -65,8 +65,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 510,
-						PositionY = 333,
+						PositionX = 480,
+						PositionY = 320,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -532,7 +532,7 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 159,
+												PositionX = 160,
 												PositionY = 131,
 												LeftPositon = 134,
 												BottomPosition = 109,
@@ -586,7 +586,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FF4566AA",
-											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -617,7 +617,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 96,
-												PositionY = 78,
+												PositionY = 77,
 												BottomPosition = 66,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
@@ -974,7 +974,7 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 159,
+												PositionX = 160,
 												PositionY = 131,
 												LeftPositon = 134,
 												BottomPosition = 109,
@@ -1028,7 +1028,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FF4566AA",
-											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -1059,7 +1059,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 96,
-												PositionY = 78,
+												PositionY = 77,
 												BottomPosition = 66,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
@@ -1416,7 +1416,7 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 159,
+												PositionX = 160,
 												PositionY = 131,
 												LeftPositon = 134,
 												BottomPosition = 109,
@@ -1470,7 +1470,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FF4566AA",
-											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -1501,7 +1501,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 96,
-												PositionY = 78,
+												PositionY = 77,
 												BottomPosition = 66,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
@@ -1866,7 +1866,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -1916,7 +1916,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -1966,7 +1966,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -2446,7 +2446,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFFFFF",
-									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,

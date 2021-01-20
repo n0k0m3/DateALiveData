@@ -5394,4 +5394,34 @@ return {
         res = "ui/fuli/seven_sign/002.png",
         res_en = "ui/fuli/seven_sign/002_ko.png",
     },
+    [1080] = {
+        id = 1080,
+        res = "ui/activity/picture/icon300.png",
+        res_en = "ui/activity/picture/icon300_ko.png",
+    },
+    [1081] = {
+        id = 1081,
+        res = "ui/activity/crazyDiamond/crazyDiamond_14.png",
+        res_en = "ui/activity/crazyDiamond/crazyDiamond_14_ko.png",
+    },
+    [1082] = {
+        id = 1082,
+        res = "ui/activity/picture/ad32.png",
+        res_en = "ui/activity/picture/ad32_ko.png",
+    },
+    [1083] = {
+        id = 1083,
+        res = "ui/activity/picture/icon32.png",
+        res_en = "ui/activity/picture/icon32_ko.png",
+    },
+    [1084] = {
+        id = 1084,
+        res = "ui/activity/picture/ad85.png",
+        res_en = "ui/activity/picture/ad85_ko.png",
+    },
+    [1085] = {
+        id = 1085,
+        res = "ui/activity/picture/icon85.png",
+        res_en = "ui/activity/picture/icon85_en.png",
+    },
 }

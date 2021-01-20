@@ -138,7 +138,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "32",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -147,18 +147,18 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "Treasure Assembly",
+							text = "Equip Treasure ",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 75,
+								PositionX = 74,
 								PositionY = 547,
 								IsPercent = true,
 								PercentX = 6.6,
 								PercentY = 85.47,
 							},
-							width = "115",
+							width = "227",
 							ZOrder = "1",
 							components = 
 							{
@@ -183,12 +183,13 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 116,
+										PositionX = 229,
 										PositionY = 1,
 										IsPercent = true,
 										PercentX = 101,
 										PercentY = 2.86,
 									},
+									visible = "False",
 									width = "121",
 									ZOrder = "1",
 								},
@@ -252,7 +253,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_equip",
 									nTextAlign = "1",
@@ -261,14 +262,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "assembly",
+									text = "Equip",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "51",
+									width = "76",
 									ZOrder = "1",
 								},
 							},
@@ -331,7 +332,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_equip",
 									nTextAlign = "1",
@@ -347,7 +348,7 @@ local t =
 									{
 										
 									},
-									width = "51",
+									width = "102",
 									ZOrder = "1",
 								},
 							},
@@ -403,15 +404,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_equip",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -426,7 +427,7 @@ local t =
 									{
 										
 									},
-									width = "52",
+									width = "120",
 									ZOrder = "1",
 								},
 							},
@@ -635,7 +636,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "559",
 									ZOrder = "1",
 									components = 
@@ -711,15 +711,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -733,9 +733,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 166,
-												PositionY = 144,
+												PositionY = 151,
 											},
-											width = "159",
+											width = "214",
 											ZOrder = "1",
 										},
 										{
@@ -757,18 +757,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_tip",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -781,7 +781,7 @@ local t =
 												PositionX = 169,
 												PositionY = 106,
 											},
-											width = "90",
+											width = "374",
 											ZOrder = "1",
 										},
 										{
@@ -803,14 +803,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_des3",
 											nTextAlign = "0",
@@ -827,7 +827,7 @@ local t =
 												PositionX = 171,
 												PositionY = 56,
 											},
-											width = "80",
+											width = "74",
 											ZOrder = "1",
 										},
 										{
@@ -930,7 +930,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_tip1",
 											nTextAlign = "1",
@@ -939,7 +939,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Equipping",
+											text = "Equipped",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1059,7 +1059,7 @@ local t =
 											controlID = "Label_equip_Panel_empty_Panel_gemSit1_Panel_base_Panel-gemAccessoriesTip_flyShipGrowUp_explore_Game",
 											UUID = "c5c92c2d_52af_4d0f_8057_ec49b7e9cbe6",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -1081,7 +1081,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_equip",
 											nTextAlign = "1",
@@ -1095,10 +1095,11 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 487,
+												PositionX = 537,
 												PositionY = 35,
 											},
-											width = "99",
+											visible = "False",
+											width = "225",
 											ZOrder = "1",
 										},
 									},
@@ -1136,7 +1137,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "559",
 									ZOrder = "1",
 									components = 
@@ -1212,15 +1212,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1234,9 +1234,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 166,
-												PositionY = 144,
+												PositionY = 151,
 											},
-											width = "159",
+											width = "214",
 											ZOrder = "1",
 										},
 										{
@@ -1258,18 +1258,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_tip",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1282,7 +1282,7 @@ local t =
 												PositionX = 169,
 												PositionY = 106,
 											},
-											width = "90",
+											width = "374",
 											ZOrder = "1",
 										},
 										{
@@ -1342,14 +1342,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_des3",
 											nTextAlign = "0",
@@ -1366,7 +1366,7 @@ local t =
 												PositionX = 171,
 												PositionY = 56,
 											},
-											width = "80",
+											width = "74",
 											ZOrder = "1",
 										},
 										{
@@ -1461,8 +1461,8 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "Label_empty",
 							nTextAlign = "1",
 							nTextHAlign = "1",
@@ -1470,7 +1470,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "No secret treasure yet",
+							text = "No available treasure ",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -1478,7 +1478,7 @@ local t =
 								PositionX = 291,
 								PositionY = 385,
 							},
-							width = "169",
+							width = "400",
 							ZOrder = "1",
 							components = 
 							{
@@ -1544,15 +1544,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Go to or to get",
+									text = "Obtained in                           or",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -13,
+										PositionX = -86,
 										PositionY = -280,
 									},
-									width = "348",
+									width = "248",
 									ZOrder = "1",
 									components = 
 									{
@@ -1576,14 +1576,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_empty_tip1",
 											nTextAlign = "1",
@@ -1592,15 +1592,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "[Explore event]",
+											text = "[Exploration]",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -61,
+												PositionX = 40,
 												PositionY = -1,
 											},
-											width = "102",
+											width = "115",
 											ZOrder = "1",
 										},
 										{
@@ -1622,14 +1622,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_empty_tip2",
 											nTextAlign = "1",
@@ -1638,15 +1638,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "[Spaceship Event]",
+											text = "[Airship Quests]",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 63,
+												PositionX = 201,
 												PositionY = -1,
 											},
-											width = "102",
+											width = "137",
 											ZOrder = "1",
 										},
 									},
@@ -1818,14 +1818,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_working",
 											nTextAlign = "1",
@@ -1839,9 +1839,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -3,
+												PositionX = 1,
+												PositionY = -2,
 											},
-											width = "68",
+											width = "84",
 											ZOrder = "1",
 										},
 									},

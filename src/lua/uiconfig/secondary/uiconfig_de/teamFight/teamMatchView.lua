@@ -494,7 +494,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -1042,6 +1042,7 @@ local t =
 											{
 												PositionY = 192,
 											},
+											visible = "False",
 											width = "176",
 											ZOrder = "1",
 											components = 

@@ -143,4 +143,40 @@ return {
         days = 5,
         loopId = 7,
     },
+    [13] = {
+        loopType = 1,
+        name = 1701850,
+        icon = "icon/hero/name/1113012.png",
+        id = 13,
+        summonId = {
+            [1] = 1041,
+            [2] = 1042,
+        },
+        days = 5,
+        loopId = 6,
+    },
+    [14] = {
+        loopType = 2,
+        name = 1701850,
+        icon = "icon/equipment/suit/icon6.png",
+        id = 14,
+        summonId = {
+            [1] = 2071,
+            [2] = 2072,
+        },
+        days = 5,
+        loopId = 8,
+    },
+    [15] = {
+        loopType = 2,
+        name = 1701850,
+        icon = "icon/equipment/suit/icon10.png",
+        id = 15,
+        summonId = {
+            [1] = 2031,
+            [2] = 2032,
+        },
+        days = 5,
+        loopId = 9,
+    },
 }

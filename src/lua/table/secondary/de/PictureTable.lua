@@ -5429,4 +5429,14 @@ return {
         res = "ui/fuli/seven_sign/002.png",
         res_en = "ui/fuli/seven_sign/002_de.png",
     },
+    [1087] = {
+        id = 1087,
+        res = "ui/activity/picture/ad32.png",
+        res_en = "ui/activity/picture/ad32_de.png",
+    },
+    [1088] = {
+        id = 1088,
+        res = "ui/activity/picture/icon32.png",
+        res_en = "ui/activity/picture/icon32_de.png",
+    },
 }

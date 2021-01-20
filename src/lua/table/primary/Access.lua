@@ -1049,7 +1049,7 @@ return {
         name = "1400023",
         name2 = "1410047",
         id = 98,
-        jumpInterface = 60,
+        jumpInterface = 1,
         parameter = {
         },
         accessType = 15,
@@ -1537,6 +1537,50 @@ return {
             [1] = 9,
         },
         accessType = 51,
+    },
+    [312] = {
+        accessparam = "",
+        name = "1400012",
+        name2 = "1410036",
+        id = 312,
+        jumpInterface = 6,
+        parameter = {
+            [1] = 54,
+        },
+        accessType = 3,
+    },
+    [313] = {
+        accessparam = "",
+        name = "1400012",
+        name2 = "1410036",
+        id = 313,
+        jumpInterface = 6,
+        parameter = {
+            [1] = 26,
+        },
+        accessType = 3,
+    },
+    [314] = {
+        accessparam = "",
+        name = "1400012",
+        name2 = "1410036",
+        id = 314,
+        jumpInterface = 6,
+        parameter = {
+            [1] = 25,
+        },
+        accessType = 3,
+    },
+    [315] = {
+        accessparam = "",
+        name = "1400012",
+        name2 = "1410036",
+        id = 315,
+        jumpInterface = 6,
+        parameter = {
+            [1] = 202,
+        },
+        accessType = 3,
     },
     [301] = {
         accessparam = "",

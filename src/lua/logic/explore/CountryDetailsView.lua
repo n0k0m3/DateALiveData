@@ -175,6 +175,8 @@ end
 function CountryDetailsView:registerEvents()
 
     EventMgr:addEventListener(self, EV_EXPLORE_UPGRADE_KNOWLEDGE, handler(self.updateRedTip, self))
+    EventMgr:addEventListener(self, EV_EXLPORE_ALL_PASS_JUMP, handler(self.allPassJumpCallBack, self))
+    
 
     self.Button_back:onClick(function()
         AlertManager:closeLayer(self)
@@ -182,6 +184,10 @@ function CountryDetailsView:registerEvents()
     self.Button_help:onClick(function()
         Utils:openView("common.HelpView", {2465})
     end)
+end
+
+function CountryDetailsView:allPassJumpCallBack( ... )
+    AlertManager:closeLayer(self)
 end
 
 return CountryDetailsView

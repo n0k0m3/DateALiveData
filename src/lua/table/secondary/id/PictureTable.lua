@@ -5394,4 +5394,14 @@ return {
         res = "ui/fuli/seven_sign/002.png",
         res_en = "ui/fuli/seven_sign/002_id.png",
     },
+    [1080] = {
+        id = 1080,
+        res = "ui/activity/picture/ad32.png",
+        res_en = "ui/activity/picture/ad32_id.png",
+    },
+    [1081] = {
+        id = 1081,
+        res = "ui/activity/picture/icon32.png",
+        res_en = "ui/activity/picture/icon32_id.png",
+    },
 }

@@ -4776,7 +4776,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFFFFF",
-									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -5363,7 +5363,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFFFFF",
-									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,

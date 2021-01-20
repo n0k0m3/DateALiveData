@@ -50,6 +50,13 @@ function DetailsBossPage:initUI(ui)
     --self.TableView_item:addMEListener(TFTABLEVIEW_SIZEATINDEX, handler(self.tableCellAtIndex, self))
     --self.TableView_item:addMEListener(TFTABLEVIEW_NUMOFCELLSINTABLEVIEW, handler(self.numberOfCellsInTableView, self))
 
+    --TODO CLOSE 屏蔽奖励特效
+    local panel_reward_effect = TFDirector:getChildByPath(self.Panel_root , "Spine_detailsBossPage_1(2)")
+    panel_reward_effect:hide()
+    local Image_award_bg = TFDirector:getChildByPath(self.Panel_root , "Image_award_bg")
+    Image_award_bg:getChildByName("Label_tip"):setTextById(2106003)
+    Image_award_bg:getChildByName("Label_tip"):setTextAreaSize(CCSize(88 , 0))
+
     self:updateBaseInfo()
 end
 
@@ -102,7 +109,44 @@ function DetailsBossPage:updateBaseInfo()
             self:addBossItem(k)
         end
         self:updateBossItem(k, v)
+
+
+
     end
+
+    local isAllPass = true
+    for k ,v in pairs(self.cityGroup)do
+        local cityBossEventCid = v.cityBoss
+        local isUnLock = true
+        local foundEventData = ExploreDataMgr:getFoundEventData(cityBossEventCid)
+        if not foundEventData then
+            isUnLock = false
+        end
+        local isPass = ExploreDataMgr:isFinishEvent(cityBossEventCid)
+        if isUnLock and not isPass then
+            self.TurnView_items:scrollToItem(k)
+            isAllPass = false
+            break
+        elseif not isUnLock and not isPass then
+            isAllPass = false
+        end
+
+    end
+    if isAllPass then  --如果全部通关则弹出跳转提示
+        self:timeOut(function( ... )
+            local alertparams = clone(EC_GameAlertParams)
+            alertparams.msg = 190000641
+            alertparams.confirm_title = 267012
+            alertparams.cancel_title = 1329128
+            alertparams.title = 800011
+            alertparams.comfirmCallback = handler(self.jumpToCivilizationView,self)
+            showGameAlert(alertparams)
+        end)
+    end
+end
+
+function DetailsBossPage:jumpToCivilizationView( ... )
+    EventMgr:dispatchEvent(EV_EXLPORE_ALL_PASS_JUMP, {})
 end
 
 function DetailsBossPage:addBossItem(id)
@@ -199,6 +243,7 @@ function DetailsBossPage:updateBossItem(id,data)
     local isPass = ExploreDataMgr:isFinishEvent(cityBossEventCid)
     bossItem.Image_pass:setVisible(isPass)
     bossItem.Image_normal_bg:setVisible(isUnLock and not isPass)
+
     if not isPass then
         bossItem.Image_lock:setVisible(not isUnLock)
     else

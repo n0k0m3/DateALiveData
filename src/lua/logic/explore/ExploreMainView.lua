@@ -30,6 +30,22 @@ function ExploreMainView:initUI(ui)
     self.Button_help = TFDirector:getChildByPath(self.Panel_root,"Button_help"):hide()
     self.Button_ship = TFDirector:getChildByPath(self.Panel_root,"Button_ship"):hide()
 
+    --战舰按钮入口添加文本描述
+    local label_empyTetx = TFLabel:create()
+    label_empyTetx:setFontName("font/MFLiHei_Noncommercial.ttf")
+    label_empyTetx:setFontSize(20)
+    --label_empyTetx:setTextAreaSize(CCSize(400 , 0))
+    label_empyTetx:setAnchorPoint(ccp(1 , 0.5))
+    label_empyTetx:setPosition(32 , -36)
+    label_empyTetx:setTextById(190000566)
+    --self.label_empyTetx:enableOutline(ccc4(0,0,0,255), 1)
+    self.Button_ship:addChild(label_empyTetx , 1)
+
+
+    self.Btn_ship_red = TFImage:create("ui/common/news_small.png")
+    self.Btn_ship_red:setPosition(20 , 15)
+    self.Button_ship:addChild(self.Btn_ship_red , 1)
+
     self.Panel_guide = TFDirector:getChildByPath(self.Panel_root,"Panel_guide")
 
     self.Button_map = TFDirector:getChildByPath(self.Panel_root,"Button_map"):hide()
@@ -74,6 +90,12 @@ function ExploreMainView:initUI(ui)
     self.Button_back = TFDirector:getChildByPath(self.Panel_cityZone,"Button_back")
     self.Panel_Box = TFDirector:getChildByPath(self.Panel_cityZone,"Panel_Box")
     self.Image_full = TFDirector:getChildByPath(self.Panel_cityZone,"Image_full")
+    self.Image_full:setPositionX(-36)
+    self.Image_full:setAnchorPoint(ccp(0 , 0.5))  --探索玩法文本超框修修改
+
+    --增加采集已满文本动态
+    ViewAnimationHelper.doMoveUpAndDown(self.Image_full , 0.5 , 5)
+
     self.Spine_box = TFDirector:getChildByPath(self.Panel_cityZone,"Spine_box")
     self.Button_quick = TFDirector:getChildByPath(self.Panel_cityZone,"Button_quick")
     self.ScrollView_cityZone = TFDirector:getChildByPath(self.Panel_root,"ScrollView_cityZone")
@@ -515,7 +537,14 @@ end
 
 function ExploreMainView:onShow()
     self.super.onShow(self)
-    
+
+    if self.bgm and self.bgm~= "" then
+        AudioExchangePlay.playBGM(self,true,self.bgm)
+    end
+     if self.battleView then
+        self.battleView:onShow(true)
+    end
+
     if Utils:getLocalSettingValue("flyshipDating") == "" then
         FunctionDataMgr:jStartDating(649)
         Utils:setLocalSettingValue("flyshipDating","true")
@@ -528,6 +557,15 @@ function ExploreMainView:onShow()
 
     if self.curNationId and self.curCityId then
         ExploreDataMgr:Send_GetShipAttrsInfo(EC_AfkActivityID.Main,self.curNationId,self.curCityId)
+    end
+
+    self:checkRedPointByShow()
+end
+
+function ExploreMainView:onHide()
+    self.super.onHide(self)
+    if self.battleView then
+        self.battleView:onShow(false)
     end
 end
 
@@ -1446,6 +1484,7 @@ function ExploreMainView:registerEvents()
     EventMgr:addEventListener(self, EV_EXPLORE_ACTIVITY, handler(self.updateExploreInfo, self))
     EventMgr:addEventListener(self, EV_EXPLORE_JUMPCITY, handler(self.onUpdateJmupCity, self))
     EventMgr:addEventListener(self, EV_EXPLORE_REMOVE_EVENT, handler(self.onRemoveEvent, self))
+    EventMgr:addEventListener(self, EV_EXLPORE_ALL_PASS_JUMP, handler(self.allPassJumpCallBack, self))
 
     local function scrollCallback(target, offsetRate, customOffsetRate, index)
         local h = self.Panel_nationItem:getContentSize().height/2
@@ -1564,7 +1603,50 @@ function ExploreMainView:registerEvents()
     self.Panel_closeAttrTip:onClick(function()
         self.tip_bg:hide()
     end)
+
+    self.Panel_touch:onClick(function( ... )
+        Utils:showTips(190000567)
+    end)
 end
 
+function ExploreMainView:checkRedPoint()
+    local cabins = TabDataMgr:getData("ExploreCabinUi")
+    for i = 1,#cabins do
+        local roomCfg = cabins[i]
+        local showRedPoint = false
+        local function checkUnlock( ... ) -- 策划说的只添加前端的舱室解锁逻辑
+            -- body
+            local unlock = true
+            if roomCfg.unlockCondition then
+
+                for k,v in pairs(roomCfg.unlockCondition) do
+                    local _cfg, detailCfg = ExploreDataMgr:getCabinCfg(k)
+                    if detailCfg.level < v then
+                        unlock = false
+                        break;
+                    end
+                end
+            end
+            return unlock
+        end
+        for k,v in pairs(roomCfg.pageUi) do
+            showRedPoint = ExploreDataMgr:checkRedPoint(roomCfg.type,v.fileName,v.pageIndex)
+            if showRedPoint and checkUnlock() then return true end
+        end
+    end
+    return false
+end
+
+function ExploreMainView:checkRedPointByShow( ... )
+    if self:checkRedPoint() then
+        self.Btn_ship_red:show()
+    else
+        self.Btn_ship_red:hide()
+    end
+end
+
+function ExploreMainView:allPassJumpCallBack( ... )
+    self:updateScreenInfo(false,true)
+end
 return ExploreMainView
 

@@ -204,8 +204,11 @@ function MainLayer:initUI(ui)
     -- 屏蔽通讯
     self.btn_phone_small:setVisible(false)
 
-    --暂时屏蔽指挥按钮
-    self.Button_dispatch:hide()
+    if not GlobalFuncDataMgr:isOpen(14) then
+        --暂时屏蔽指挥按钮
+        self.Button_dispatch:hide()
+    end
+    
 	
     self.Image_dispatchTips = TFDirector:getChildByPath(self.Button_dispatch, "Image_dispatchTips"):hide()
     self.Image_dispatchTips.Label_title = TFDirector:getChildByPath(self.Button_dispatch,"Label_title")
@@ -363,9 +366,13 @@ function MainLayer:initUI(ui)
 
     self.Button_explore    = TFDirector:getChildByPath(self.Panel_bottom,"Button_explore")
     self.effect_explore    = TFDirector:getChildByPath(self.Button_explore,"Spine_phone")
-    -- TODO CLOSE
-    -- 屏蔽飞船系统
-    self.Button_explore:setVisible(false)
+
+    if not GlobalFuncDataMgr:isOpen(13) then   --英文版小语种控制探索模式显示
+        -- TODO CLOSE
+        -- 屏蔽飞船系统
+        self.Button_explore:setVisible(false)
+    end
+    
     
 
     self.Button_league = TFDirector:getChildByPath(self.Panel_bottom, "Button_league")
@@ -1154,13 +1161,21 @@ function MainLayer:updateAction()
         return
     end
 
+
     table.sort(cfg, function(a, b)
        return a.sort < b.sort
     end)
     self.curPageIndex = 1
     self.openActivityCnt = 0
+
+
     for k,v in ipairs(cfg) do
-        if v.isOpen == 1 then
+        local isCanAddBoard = true 
+        if v.Id == 198 then
+            local taskData = TaskDataMgr:getTaskInfo(799000)
+            isCanAddBoard = (taskData.status ~= EC_TaskStatus.GETED)
+        end
+        if v.isOpen == 1 and isCanAddBoard then
             local inTime = self:AdBoardIsInOpenTime(v)
             local open = self:AdBoardIsOpen(v.Id)
             local openByPlate = self:AdBoardIsOpenByPlate(v)
@@ -4452,7 +4467,7 @@ function MainLayer:updatePushGiftList()
 				end)
 
 				clone.Name = clone:getChildByName("Name")
-				clone.Name:setText(data["name"])
+				clone.Name:setText(Utils:MultiLanguageStringDeal(data["name"]))
                 clone.Name:setSkewX(10)
 
 				clone.TimeCount = clone:getChildByName("TimeCount")		

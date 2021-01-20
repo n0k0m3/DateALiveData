@@ -197,7 +197,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {
-            [570004] = 30,
+            [566057] = 30,
         },
         kanbanBgm = "",
         kanbanEffect = {
@@ -247,7 +247,7 @@ return {
         roleModel = 210408,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 78,
+            [1] = 4,
         },
         icon = "icon/role/dress_kanban/10408.png",
     },
@@ -7343,7 +7343,7 @@ return {
         masterId = 0,
         background = "",
         smallType = 0,
-        quality = 2,
+        quality = 4,
         roleUnlock = 105,
         skinSettingIcon = "",
         speVoiceSuffix = "ext",
@@ -7358,7 +7358,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {
-            [570004] = 30,
+            [566057] = 30,
         },
         kanbanBgm = "",
         kanbanEffect = {
@@ -7408,7 +7408,7 @@ return {
         roleModel = 210512,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 185,
+            [1] = 4,
         },
         icon = "icon/role/dress_kanban/10512.png",
     },
@@ -9673,7 +9673,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {
-            [570004] = 30,
+            [566057] = 30,
         },
         kanbanBgm = "",
         kanbanEffect = {
@@ -9723,6 +9723,7 @@ return {
         roleModel = 210306,
         skinSettingTitle = 0,
         accessId = {
+            [1] = 4,
         },
         icon = "icon/role/dress_kanban/10307.png",
     },
@@ -9924,7 +9925,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {
-            [570004] = 30,
+            [566057] = 30,
         },
         kanbanBgm = "",
         kanbanEffect = {
@@ -9974,7 +9975,7 @@ return {
         roleModel = 210211,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 78,
+            [1] = 4,
         },
         icon = "icon/role/dress_kanban/10211.png",
     },
@@ -10006,7 +10007,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {
-            [570004] = 120,
+            [566057] = 120,
         },
         kanbanBgm = "sound/bgm/kanban/main_xinchun.mp3",
         kanbanEffect = {
@@ -10059,7 +10060,7 @@ return {
         roleModel = 210306,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 34,
+            [1] = 4,
         },
         icon = "icon/role/dress_kanban/10307.png",
     },

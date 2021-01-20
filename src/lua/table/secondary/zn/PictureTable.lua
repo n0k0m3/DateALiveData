@@ -5799,4 +5799,14 @@ return {
         res = "ui/summon/ad_clothes51.png",
         res_en = "ui/summon/ad_clothes51.png",
     },
+    [1161] = {
+        id = 1161,
+        res = "ui/activity/picture/ad32.png",
+        res_en = "ui/activity/picture/ad32.png",
+    },
+    [1162] = {
+        id = 1162,
+        res = "ui/activity/picture/icon32.png",
+        res_en = "ui/activity/picture/icon32.png",
+    },
 }

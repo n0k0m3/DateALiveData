@@ -1263,14 +1263,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "ทะลุอย่างรวดเร็ว",
+											text = "ทะลุรวดเร็ว",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "153",
+											width = "106",
 											ZOrder = "1",
 										},
 									},

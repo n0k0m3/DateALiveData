@@ -595,6 +595,7 @@ function FairyDetailsLayer:registerEvents()
     EventMgr:addEventListener(self,EV_COMMENT_COMMENTRESULT,handler(self.onCommentResult, self));
     EventMgr:addEventListener(self,EV_COMMENT_GETCOMMENT,handler(self.onGetAllComments, self));
     EventMgr:addEventListener(self,EV_COMMENT_PRISERESULT,handler(self.onPriseResult, self));
+    EventMgr:addEventListener(self, EV_STORE_BUYINFO_UPDATE, handler(self.updateSkinByStoreBack, self))
 
     self:setBackBtnCallback(function()
     	local showid = self.showHeroId
@@ -1303,6 +1304,13 @@ function FairyDetailsLayer:updateSkin(delay)
 	self:updateSkinBtnState()
 	self.showSkinID = HeroDataMgr:getCurSkin(self.showHeroId)
 	VoiceDataMgr:playVoiceByHeroID("change_hero",self.showHeroId);
+end
+
+function FairyDetailsLayer:updateSkinByStoreBack( )
+	for i, v in ipairs(self.skinItemsList_) do
+		self:updateSkinItem(i)
+	end
+	self:updateSkinBtnState()
 end
 
 

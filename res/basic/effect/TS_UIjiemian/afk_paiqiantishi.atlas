@@ -11,6 +11,13 @@ paiqiantishi/danzi
   orig: 100, 32
   offset: 0, 0
   index: -1
+paiqiantishi/de
+  rotate: false
+  xy: 261, 782
+  size: 160, 25
+  orig: 260, 37
+  offset: 38, 7
+  index: -1
 paiqiantishi/di1
   rotate: false
   xy: 2, 924
@@ -32,72 +39,114 @@ paiqiantishi/di3
   orig: 913, 42
   offset: 0, 0
   index: -1
+paiqiantishi/en
+  rotate: false
+  xy: 2, 741
+  size: 179, 33
+  orig: 260, 37
+  offset: 28, 1
+  index: -1
+paiqiantishi/es
+  rotate: false
+  xy: 423, 782
+  size: 128, 25
+  orig: 260, 37
+  offset: 52, 6
+  index: -1
+paiqiantishi/fr
+  rotate: false
+  xy: 2, 704
+  size: 129, 35
+  orig: 260, 37
+  offset: 51, 1
+  index: -1
+paiqiantishi/id
+  rotate: false
+  xy: 2, 776
+  size: 257, 31
+  orig: 260, 37
+  offset: 1, 3
+  index: -1
+paiqiantishi/ko
+  rotate: false
+  xy: 919, 956
+  size: 88, 29
+  orig: 260, 37
+  offset: 87, 3
+  index: -1
+paiqiantishi/th
+  rotate: false
+  xy: 2, 676
+  size: 114, 26
+  orig: 260, 37
+  offset: 61, 6
+  index: -1
 paiqiantishi/xunhuantiao/xunhuantiao_00000
   rotate: false
-  xy: 2, 803
+  xy: 261, 776
   size: 120, 4
   orig: 150, 62
   offset: 16, 27
   index: -1
 paiqiantishi/xunhuantiao/xunhuantiao_00001
   rotate: false
-  xy: 2, 797
+  xy: 183, 770
   size: 120, 4
   orig: 150, 62
   offset: 16, 27
   index: -1
 paiqiantishi/xunhuantiao/xunhuantiao_00002
   rotate: false
-  xy: 124, 803
+  xy: 553, 803
   size: 120, 4
   orig: 150, 62
   offset: 16, 27
   index: -1
 paiqiantishi/xunhuantiao/xunhuantiao_00003
-  rotate: false
-  xy: 2, 791
+  rotate: true
+  xy: 2, 554
   size: 120, 4
   orig: 150, 62
   offset: 16, 27
   index: -1
 paiqiantishi/xunhuantiao/xunhuantiao_00004
   rotate: false
-  xy: 124, 797
+  xy: 383, 776
   size: 120, 4
   orig: 150, 62
   offset: 16, 27
   index: -1
 paiqiantishi/xunhuantiao/xunhuantiao_00005
   rotate: false
-  xy: 246, 803
+  xy: 183, 764
   size: 120, 4
   orig: 150, 62
   offset: 16, 27
   index: -1
 paiqiantishi/xunhuantiao/xunhuantiao_00006
   rotate: false
-  xy: 2, 785
+  xy: 305, 770
   size: 120, 4
   orig: 150, 62
   offset: 16, 27
   index: -1
 paiqiantishi/xunhuantiao/xunhuantiao_00007
   rotate: false
-  xy: 124, 791
+  xy: 553, 797
   size: 120, 4
   orig: 150, 62
   offset: 16, 27
   index: -1
 paiqiantishi/xunhuantiao/xunhuantiao_00008
   rotate: false
-  xy: 246, 797
+  xy: 675, 803
   size: 120, 4
   orig: 150, 62
   offset: 16, 27
   index: -1
 paiqiantishi/xunhuantiao/xunhuantiao_00009
-  rotate: false
-  xy: 368, 803
+  rotate: true
+  xy: 2, 436
   size: 116, 4
   orig: 150, 62
   offset: 18, 27

@@ -307,7 +307,7 @@ local t =
 										PositionX = 568,
 										PositionY = 364,
 									},
-									width = "147",
+									width = "146",
 									ZOrder = "1",
 								},
 								{
@@ -367,7 +367,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -384,8 +384,85 @@ local t =
 										PositionX = 393,
 										PositionY = 520,
 									},
-									width = "116",
+									width = "115",
 									ZOrder = "1",
+								},
+								{
+									controlID = "panel_scroll_Panel_content_Panel_root_Panel-itemInfoView_Layer1_bag_Game",
+									UUID = "b52429e7_ff35_4a28_9fce_2405624720bd",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "150",
+									ignoreSize = "False",
+									name = "panel_scroll",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 397,
+										PositionY = 191,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "340",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "ScrollView_des_panel_scroll_Panel_content_Panel_root_Panel-itemInfoView_Layer1_bag_Game",
+											UUID = "e449d403_12b1_4bd5_9edc_b854b4ed7504",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "True",
+											bounceEnable = "False",
+											classname = "MEScrollView",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											direction = "1",
+											dstBlendFunc = "771",
+											height = "150",
+											ignoreSize = "False",
+											innerHeight = "150",
+											innerWidth = "340",
+											name = "ScrollView_des",
+											showScrollbar = "False",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											width = "340",
+											ZOrder = "1",
+										},
+									},
 								},
 								{
 									controlID = "Label_desc_Panel_content_Panel_root_Panel-itemInfoView_Layer1_bag_Game",
@@ -594,7 +671,7 @@ local t =
 										PositionX = 568,
 										PositionY = 134,
 									},
-									width = "245",
+									width = "249",
 									ZOrder = "1",
 								},
 								{
@@ -1189,7 +1266,7 @@ local t =
 										PositionX = 41,
 										PositionY = 13,
 									},
-									width = "43",
+									width = "46",
 									ZOrder = "1",
 								},
 								{
@@ -1235,7 +1312,92 @@ local t =
 										PositionX = 41,
 										PositionY = 13,
 									},
-									width = "43",
+									width = "46",
+									ZOrder = "1",
+								},
+							},
+						},
+						{
+							controlID = "Panel_des_Panel_prefab_Panel-itemInfoView_Layer1_bag_Game",
+							UUID = "87e8f7be_3a5b_4c0e_b341_28fb5469e89d",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "1",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "152",
+							ignoreSize = "False",
+							name = "Panel_des",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 94,
+								PositionY = 528,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "340",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Label_title_Panel_des_Panel_prefab_Panel-itemInfoView_Layer1_bag_Game",
+									UUID = "d66e2df6_547b_4858_bb99_8fe2adbd806a",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "1",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FF101117",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "20",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "0",
+									ignoreSize = "False",
+									name = "Label_title",
+									nTextAlign = "0",
+									nTextHAlign = "0",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "Remaining",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "340",
 									ZOrder = "1",
 								},
 							},

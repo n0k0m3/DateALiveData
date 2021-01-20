@@ -301,7 +301,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -380,7 +380,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -641,7 +641,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -650,14 +650,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "26",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_save",
 											nTextAlign = "1",
@@ -673,7 +673,7 @@ local t =
 											{
 												
 											},
-											width = "59",
+											width = "71",
 											ZOrder = "1",
 										},
 									},

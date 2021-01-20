@@ -176,6 +176,12 @@ function SummonView:initUI(ui)
 
     self.panel_cost_2 = TFDirector:getChildByPath(self.Panel_root , "panel_cost_2")
 
+    self.panel_cloth_show = TFDirector:getChildByPath(self.Panel_root , "Panel_cloth_show")
+    self.Image_cloth_show_arr = {}
+    for i = 1 , 5 do 
+        self.Image_cloth_show_arr[i] = TFDirector:getChildByPath(self.panel_cloth_show , "Image_cloth_"..i)
+    end
+
     self:refreshView()
     self:updateNoobReward()
     SummonDataMgr:resetAlreadyHaveHero()
@@ -393,6 +399,9 @@ function SummonView:updateSelectInfo()
     self.Image_curOwn:setScale(1)
     self.Image_curOwn:setPositionY(self.Image_curOwn.initPosY)
     if self.Image_firstCost:isVisible() then
+        local fontSize = self.Label_fistHave:getFontSize()
+        self.Label_have:setFontSize(fontSize)
+
         self.Image_curOwn:setScale(0.8)
         self.Image_curOwn:setPositionY(self.Image_curOwn.initPosY - 20)
     end
@@ -477,6 +486,7 @@ function SummonView:updateSelectInfo()
     local isClothseSummon = summonType == EC_SummonType.CLOTHESE_1 or summonType == EC_SummonType.CLOTHESE_2
     self.Panel_hotSPot:setVisible(isHotSummon or isClothseSummon)
 
+
     local isHavePrivilege, _ = RechargeDataMgr:getIsHavePrivilegeByType(105)
     local curTmpId = self.currentSummon_[self.selectHotTabIndex_].id
     self.pannel_lastTime:setVisible(not SummonDataMgr:isFreeBtnById(curTmpId)  and isHavePrivilege and isHotSummon)
@@ -546,6 +556,7 @@ function SummonView:updateSelectInfo()
         self.Button_equipPre:setVisible(tabData.loopType == EC_SummonLoopType.EQUIPMENT)
     end
 
+
     -- 服装召唤
     if isClothseSummon then
         local summon = {}
@@ -569,6 +580,38 @@ function SummonView:updateSelectInfo()
         local num = _num == 0 and summonCfg.immortalGetTimes or (summonCfg.immortalGetTimes - _num + 1)
         self.Label_hotCount:setText(num)
         self.Image_ad:setTexture(summonCfg.icon)
+    end
+
+    if summonCfg.poolType == 950 then
+        self.panel_cloth_show:show()
+        local summonPoolCfgs = SummonDataMgr:getSummonPoolCfgsByPoolType()
+        local showRewards = {}
+        for k , v in pairs(summonPoolCfgs)do
+            if k >= EC_ItemQuality.BLUE then
+                for itemK , itemV in pairs(v) do
+                    table.insert(showRewards , itemV)
+                end
+            end
+        end
+        for k , v in pairs(self.Image_cloth_show_arr) do 
+            if not v.Panel_goodsItem then
+                local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+                Panel_goodsItem:setTouchEnabled(false)
+                Panel_goodsItem:Pos(0, 0)
+                Panel_goodsItem:AddTo(v)
+                v.Panel_goodsItem = Panel_goodsItem
+            end
+            PrefabDataMgr:setInfo(v.Panel_goodsItem, showRewards[k].id, showRewards[k].num)
+            local showCfg = GoodsDataMgr:getItemCfg(showRewards[k].id)
+            v:getChildByName("Label_name"):setTextById(showCfg.nameTextId)
+            v.Panel_goodsItem:getChildByName("Image_icon"):setTouchEnabled(true)
+            v.Panel_goodsItem:getChildByName("Image_icon"):onClick(function()
+                Utils:openView("role.NewRoleShowView", showCfg.roleUnlock, showCfg.id)
+            end)
+        end
+
+    else
+        self.panel_cloth_show:hide()
     end
 
     ---检测坐标

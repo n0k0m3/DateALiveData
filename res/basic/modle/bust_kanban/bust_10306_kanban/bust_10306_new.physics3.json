@@ -3,7 +3,7 @@
 	"Meta": {
 		"PhysicsSettingCount": 1,
 		"TotalInputCount": 4,
-		"TotalOutputCount": 11,
+		"TotalOutputCount": 8,
 		"VertexCount": 3,
 		"EffectiveForces": {
 			"Gravity": {
@@ -147,40 +147,7 @@
 						"Id": "PARAM_HAIR_SIDE_DEFORM"
 					},
 					"VertexIndex": 1,
-					"Scale": 0.2,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "PARAM_HAIR_BACK"
-					},
-					"VertexIndex": 2,
-					"Scale": 1,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "PARAM_tuweijingx"
-					},
-					"VertexIndex": 2,
-					"Scale": 1,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "PARAM_tuweijingy"
-					},
-					"VertexIndex": 2,
-					"Scale": 1,
+					"Scale": 0.3,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false

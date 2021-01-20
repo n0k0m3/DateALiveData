@@ -307,7 +307,7 @@ local t =
 										PositionX = 568,
 										PositionY = 364,
 									},
-									width = "63",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -388,6 +388,83 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "panel_scroll_Panel_content_Panel_root_Panel-itemInfoView_Layer1_bag_Game",
+									UUID = "de45cf1c_63a8_4e43_b66a_8a681c948a19",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "150",
+									ignoreSize = "False",
+									name = "panel_scroll",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 397,
+										PositionY = 190,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "340",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "ScrollView_des_panel_scroll_Panel_content_Panel_root_Panel-itemInfoView_Layer1_bag_Game",
+											UUID = "ffcba03d_7aa0_4622_a9ce_aa5389d93679",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "True",
+											bounceEnable = "False",
+											classname = "MEScrollView",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											direction = "1",
+											dstBlendFunc = "771",
+											height = "150",
+											ignoreSize = "False",
+											innerHeight = "150",
+											innerWidth = "340",
+											name = "ScrollView_des",
+											showScrollbar = "False",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											width = "340",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
 									controlID = "Label_desc_Panel_content_Panel_root_Panel-itemInfoView_Layer1_bag_Game",
 									UUID = "bf163062_8c66_4c71_8fe3_d11330697fca",
 									anchorPoint = "False",
@@ -430,6 +507,7 @@ local t =
 										PositionX = 568,
 										PositionY = 345,
 									},
+									visible = "False",
 									width = "340",
 									ZOrder = "1",
 								},
@@ -508,7 +586,7 @@ local t =
 											{
 												
 											},
-											width = "44",
+											width = "40",
 											ZOrder = "1",
 										},
 									},
@@ -594,7 +672,7 @@ local t =
 										PositionX = 568,
 										PositionY = 134,
 									},
-									width = "116",
+									width = "123",
 									ZOrder = "1",
 								},
 								{
@@ -672,7 +750,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "84",
+											width = "83",
 											ZOrder = "1",
 										},
 									},
@@ -752,7 +830,7 @@ local t =
 											{
 												
 											},
-											width = "54",
+											width = "57",
 											ZOrder = "1",
 										},
 									},
@@ -1029,7 +1107,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "88",
+											width = "87",
 											ZOrder = "1",
 										},
 									},
@@ -1189,7 +1267,7 @@ local t =
 										PositionX = 41,
 										PositionY = 13,
 									},
-									width = "43",
+									width = "46",
 									ZOrder = "1",
 								},
 								{
@@ -1235,7 +1313,92 @@ local t =
 										PositionX = 41,
 										PositionY = 13,
 									},
-									width = "43",
+									width = "46",
+									ZOrder = "1",
+								},
+							},
+						},
+						{
+							controlID = "Panel_des_Panel_prefab_Panel-itemInfoView_Layer1_bag_Game",
+							UUID = "e2107e6d_84fd_4438_9052_6fae9fc0afc8",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "1",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "152",
+							ignoreSize = "False",
+							name = "Panel_des",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 94,
+								PositionY = 528,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "340",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Label_title_Panel_des_Panel_prefab_Panel-itemInfoView_Layer1_bag_Game",
+									UUID = "6c23ade5_c7b5_4eed_aa80_91e2cca5fe47",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "1",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FF101117",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "20",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "0",
+									ignoreSize = "False",
+									name = "Label_title",
+									nTextAlign = "0",
+									nTextHAlign = "0",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "Remaining",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "340",
 									ZOrder = "1",
 								},
 							},

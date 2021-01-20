@@ -8544,11 +8544,11 @@ return {
         helpInterface = {
             [1] = 3200,
         },
-        isHelp = true,
+        isHelp = false,
         help = "",
         isMain = true,
         isBack = true,
-        name = 190016283,
+        name = 190016279,
         icon = "icon/system/025.png",
         isDiban = true,
     },

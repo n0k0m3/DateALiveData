@@ -717,6 +717,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "442",
 							ZOrder = "1",
 							components = 
@@ -3956,7 +3957,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "442",
 							ZOrder = "1",
 							components = 
@@ -4338,14 +4338,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Asistente de cambio",
+											text = "Cambiar asistente",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -1,
 											},
-											width = "176",
+											width = "157",
 											ZOrder = "1",
 										},
 									},
