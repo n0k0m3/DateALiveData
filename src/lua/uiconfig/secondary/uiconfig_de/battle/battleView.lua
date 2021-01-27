@@ -17448,14 +17448,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "34",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF2187E5",
 										StrokeSize = 1,
 									},
-									height = "41",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_fallow",
 									nTextAlign = "1",
@@ -17471,7 +17471,7 @@ local t =
 									{
 										
 									},
-									width = "766",
+									width = "496",
 									ZOrder = "1",
 								},
 							},

@@ -125,6 +125,7 @@ function WhiteQueenScoreRankView:updateSelfPanel(data)
         local frame_icon,effect = AvatarDataMgr:getSelfAvatarFrameIconPath()
         Image_icon_frame:setTexture(frame_icon)
         Label_name:setText(MainPlayer:getPlayerName())
+        Label_name:setFontSize(18)
         Label_lv:setText("LV."..MainPlayer:getPlayerLv())
         Label_score:setText(tostring(math.max(0,data.myScore)))
 end
@@ -174,6 +175,7 @@ function WhiteQueenScoreRankView:updateRankInfo()
                     item.label_level = item:getChildByName("Label_lv")
                     item.label_score = item:getChildByName("Label_score")
                     item.image_icon_frame = item:getChildByName("Image_icon_frame")
+                    item.label_name:setFontSize(18)
               else
                     item.label_rank_num = item:getChildByName("Label_level_normal")
                     item.image_reward = {}

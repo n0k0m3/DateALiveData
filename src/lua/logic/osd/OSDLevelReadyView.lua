@@ -53,6 +53,8 @@ function OSDLevelReadyView:initUI( ui )
 
 	self.Chapter_bg:setTexture(self.levelCfg.captshowPic)
 	self.label_modelDesc:setTextById(self.levelCfg.dropString)
+	self.label_modelDesc:setTextAreaSize(CCSize(600 , 0))
+	self.label_modelDesc:setAnchorPoint(ccp(0 , 0.5))
 	self:refreshView( )
 end
 
