@@ -166,7 +166,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -183,7 +183,7 @@ local t =
 										PositionX = -363,
 										PositionY = 185,
 									},
-									width = "115",
+									width = "239",
 									ZOrder = "1",
 								},
 								{
@@ -209,6 +209,7 @@ local t =
 										PositionX = -237,
 										PositionY = 187,
 									},
+									visible = "False",
 									width = "2",
 									ZOrder = "1",
 								},
@@ -252,10 +253,11 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -233,
+										PositionX = -232,
 										PositionY = 180,
 									},
-									width = "111",
+									visible = "False",
+									width = "65",
 									ZOrder = "1",
 								},
 								{
@@ -448,7 +450,7 @@ local t =
 												StrokeColor = "#FF30354A",
 												StrokeSize = 2,
 											},
-											height = "39",
+											height = "36",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -462,10 +464,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -174,
-												PositionY = 31,
+												PositionX = -201,
+												PositionY = 35,
 											},
-											width = "119",
+											width = "169",
 											ZOrder = "1",
 										},
 										{
@@ -487,14 +489,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "25",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "58",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "0",
@@ -508,10 +510,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -174,
-												PositionY = 11,
+												PositionX = -185,
+												PositionY = 21,
 											},
-											width = "503",
+											width = "510",
 											ZOrder = "1",
 										},
 									},

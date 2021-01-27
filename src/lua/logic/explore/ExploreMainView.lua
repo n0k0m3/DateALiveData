@@ -538,9 +538,6 @@ end
 function ExploreMainView:onShow()
     self.super.onShow(self)
 
-    if self.bgm and self.bgm~= "" then
-        AudioExchangePlay.playBGM(self,true,self.bgm)
-    end
      if self.battleView then
         self.battleView:onShow(true)
     end
@@ -548,8 +545,14 @@ function ExploreMainView:onShow()
     if Utils:getLocalSettingValue("flyshipDating") == "" then
         FunctionDataMgr:jStartDating(649)
         Utils:setLocalSettingValue("flyshipDating","true")
+        self.isDatinging = true
         return
     end
+    if self.bgm and self.bgm~= "" then
+       AudioExchangePlay.playBGM(self,true,self.bgm)
+       self.isDatinging = false
+    end
+
     local step,groupId = GuideDataMgr:getCurStepInfo()
     if groupId == 29 and step > 604 then
         GameGuide:checkGuide(self)
@@ -1277,8 +1280,10 @@ function ExploreMainView:excuteGuideFunc39999(guideFuncId)
 end
 
 function ExploreMainView:changeBgm(bgm)
-    if bgm ~= "" and self.bgm ~= bgm then
-        AudioExchangePlay.playBGM(self,true,bgm)
+    if bgm ~= "" and self.bgm ~= bgm  then
+        if  not self.isDatinging then
+            AudioExchangePlay.playBGM(self,true,bgm)
+        end
         self.bgm = bgm
     end
 end

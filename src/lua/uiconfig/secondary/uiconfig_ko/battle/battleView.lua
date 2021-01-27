@@ -6530,6 +6530,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
+														PositionX = 30,
 														RightPosition = -200,
 														TopPosition = -23,
 														relativeToName = "Panel_victory",

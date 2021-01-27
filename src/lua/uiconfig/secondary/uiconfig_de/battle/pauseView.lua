@@ -455,7 +455,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 26,
-										PositionY = 42,
+										PositionY = 26,
 										LeftPositon = 355,
 										TopPosition = 210,
 										relativeToName = "Panel",
@@ -566,7 +566,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 510,
+												PositionX = 520,
 											},
 											width = "148",
 											ZOrder = "1",
@@ -597,8 +597,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_tip1",
 											nTextAlign = "1",
 											nTextHAlign = "0",
@@ -613,7 +613,7 @@ local t =
 											{
 												PositionX = 85,
 											},
-											width = "153",
+											width = "280",
 											ZOrder = "1",
 										},
 									},
@@ -644,7 +644,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 26,
-										PositionY = 77,
+										PositionY = 69,
 										LeftPositon = 355,
 										TopPosition = 210,
 										relativeToName = "Panel",
@@ -755,7 +755,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 510,
+												PositionX = 520,
 											},
 											width = "148",
 											ZOrder = "1",
@@ -786,8 +786,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_tip1",
 											nTextAlign = "1",
 											nTextHAlign = "0",
@@ -802,7 +802,7 @@ local t =
 											{
 												PositionX = 85,
 											},
-											width = "153",
+											width = "280",
 											ZOrder = "1",
 										},
 									},
@@ -944,7 +944,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 510,
+												PositionX = 520,
 											},
 											width = "148",
 											ZOrder = "1",
@@ -975,8 +975,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_tip1",
 											nTextAlign = "1",
 											nTextHAlign = "0",
@@ -991,7 +991,7 @@ local t =
 											{
 												PositionX = 85,
 											},
-											width = "153",
+											width = "280",
 											ZOrder = "1",
 										},
 									},

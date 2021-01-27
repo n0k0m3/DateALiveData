@@ -183,7 +183,7 @@ local t =
 										PositionX = -363,
 										PositionY = 185,
 									},
-									width = "288",
+									width = "298",
 									ZOrder = "1",
 								},
 								{
@@ -257,7 +257,7 @@ local t =
 										PositionY = 180,
 									},
 									visible = "False",
-									width = "126",
+									width = "124",
 									ZOrder = "1",
 								},
 								{
@@ -464,10 +464,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -174,
-												PositionY = 31,
+												PositionX = -199,
+												PositionY = 37,
 											},
-											width = "153",
+											width = "165",
 											ZOrder = "1",
 										},
 										{
@@ -489,14 +489,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "58",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "0",
@@ -510,10 +510,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -174,
-												PositionY = 11,
+												PositionX = -187,
+												PositionY = 23,
 											},
-											width = "503",
+											width = "510",
 											ZOrder = "1",
 										},
 									},

@@ -145,6 +145,7 @@ function WhiteQueenSendScoreView:updateActivity()
         lable_get:hide()
 
         local Image_geted = self.Button_rewards[i]:getChildByName("Image_geted")
+        Image_geted:getChildByName("Label_geted"):setTextById(14220068)
         Image_geted:hide()
 
         self.Button_rewards[i].goodsItem:setTouchEnabled(true)

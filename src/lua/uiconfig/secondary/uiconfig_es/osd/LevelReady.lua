@@ -456,7 +456,7 @@ local t =
 									{
 										
 									},
-									width = "70",
+									width = "66",
 									ZOrder = "1",
 								},
 							},
@@ -480,14 +480,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "26",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "21",
 							ignoreSize = "True",
 							name = "label_modle",
 							nTextAlign = "1",
@@ -502,16 +502,16 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 676,
-								PositionY = 500,
+								PositionY = 501,
 							},
-							width = "168",
+							width = "127",
 							ZOrder = "1",
 						},
 						{
 							controlID = "label_target_title_panel_base_Panel-LevelReady_entrance_osd_Game",
 							UUID = "81e3d1e7_17e4_40e6_8e3b_c103db5aed47",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -526,14 +526,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "24",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "28",
+							height = "21",
 							ignoreSize = "True",
 							name = "label_target_title",
 							nTextAlign = "1",
@@ -547,10 +547,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 789,
-								PositionY = 442,
+								PositionX = 679,
+								PositionY = 445,
 							},
-							width = "232",
+							width = "185",
 							ZOrder = "1",
 						},
 						{
@@ -572,14 +572,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "24",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "28",
+							height = "21",
 							ignoreSize = "True",
 							name = "label_reward_title",
 							nTextAlign = "1",
@@ -596,7 +596,7 @@ local t =
 								PositionX = 681,
 								PositionY = 250,
 							},
-							width = "254",
+							width = "203",
 							ZOrder = "1",
 						},
 						{
@@ -618,7 +618,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "24",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -688,7 +688,7 @@ local t =
 								PositionX = 1056,
 								PositionY = 498,
 							},
-							width = "68",
+							width = "71",
 							ZOrder = "1",
 						},
 						{

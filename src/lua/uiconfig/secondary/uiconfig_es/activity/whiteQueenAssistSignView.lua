@@ -1134,7 +1134,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "140",
+							height = "145",
 							ignoreSize = "False",
 							name = "Panel_sevenItem1",
 							sizepercentx = "0",
@@ -1340,7 +1340,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFF6C788",
+									FontColor = "#FF0E6AFA",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -1371,7 +1371,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 67,
+										PositionY = 60,
 									},
 									width = "69",
 									ZOrder = "1",

@@ -14,6 +14,11 @@ function KickOutConfirmView:initUI(ui)
     self.Button_ok = TFDirector:getChildByPath(self.panel_root, "Button_ok")
     self.Label_kickOut = TFDirector:getChildByPath(self.panel_root, "Label_kickOut")
     self.Label_kickOut:setTextById(240042,self.member.name)
+
+    local Label_title = TFDirector:getChildByPath(self.panel_root, "Label_title")
+    Label_title:setTextById(2100061)
+    Label_title:getChildByName("Label_pad_title"):hide()
+    Label_teamRoomView_1:getChildByName("Label_teamRoomView_1"):hide()
 end
 
 function KickOutConfirmView:AfterkickOut()

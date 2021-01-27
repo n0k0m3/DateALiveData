@@ -3030,6 +3030,11 @@ function FubenDataMgr:getKsanLevelInfo(dungenLevel)
     return self.ksDungeonCityCfgMap[dungenLevel]
 end
 
+---魔禁副本
+function FubenDataMgr:getMojinLevelInfo(dungenLevel)
+    return self.mojinCityDisplayCfgMap[dungenLevel]
+end
+
 function FubenDataMgr:checkIsAllChapterPassWin()
     if not self.isNeedCheckAllPassWin then  return end
     local data = TabDataMgr:getData("DiscreteData",1100008).data

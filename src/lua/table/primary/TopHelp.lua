@@ -5648,7 +5648,7 @@ return {
         help = "",
         isMain = true,
         isBack = true,
-        name = 190016186,
+        name = 190016065,
         icon = "icon/system/025.png",
         isDiban = true,
     },

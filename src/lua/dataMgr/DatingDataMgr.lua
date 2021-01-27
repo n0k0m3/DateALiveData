@@ -978,7 +978,6 @@ function DatingDataMgr:showDatingLayer(datingType,currentNodeId,isNoF,scriptId,i
         msg.datingRuleCid = scriptId
         msg.isFirst = isFirst or false
         print("isFirst " , isFirst)
-        print("88888888888888888", msg)
         self:setCurMsg(msg)
     elseif isNoF then
         local noFInfo = self:getNotFinishDatingInfoByType(datingType,nil,nil,true)

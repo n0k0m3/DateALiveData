@@ -436,14 +436,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -460,7 +460,7 @@ local t =
 												PositionX = -155,
 												PositionY = 75,
 											},
-											width = "212",
+											width = "171",
 											ZOrder = "1",
 										},
 										{
@@ -548,7 +548,7 @@ local t =
 											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "20",
+											height = "30",
 											ignoreSize = "False",
 											name = "Image_hotMallView_1",
 											sizepercentx = "0",
@@ -560,7 +560,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 84,
-												PositionY = -45,
+												PositionY = -41,
 											},
 											width = "150",
 											ZOrder = "1",
@@ -584,15 +584,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "14",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "16",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -606,9 +606,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 84,
-												PositionY = -45,
+												PositionY = -41,
 											},
-											width = "130",
+											width = "145",
 											ZOrder = "1",
 										},
 										{

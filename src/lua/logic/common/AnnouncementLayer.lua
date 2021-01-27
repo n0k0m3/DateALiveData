@@ -77,35 +77,64 @@ function AnnouncementLayer:updateNoticeData( data )
         end)
         local newGroupLen =  math.min(data[1].group ,self.groupLimit)
 
-        local usedata = {}
-        local getIdx = 1
-        for i=data[1].group,1 , -1 do
-            if getIdx > newGroupLen then
-                break
+        local titleShowList = {}
+        local contentShowList = {}
+        local titleHideList = {}
+        local contentHideList = {}
+
+        for _,_info in ipairs(data) do
+            if _info.isHide <= 0 and _info.type == "title" then
+                table.insert(titleShowList, _info)
+            end
+            if _info.isHide <= 0 and _info.type == "content" then
+                table.insert(contentShowList, _info)
             end
 
-            for k ,v in pairs(data) do
-                if v.isHide == false  and i == v.group then
-                    usedata[getIdx] = usedata[getIdx] or {}
-                    table.insert(usedata[getIdx] , v)
-                end
+            if _info.isHide > 0 and _info.type == "title" then
+                table.insert(titleHideList, _info)
             end
-
-            for k ,v in pairs(data) do
-                if v.isHide == true  and i == v.group then
-                    usedata[getIdx] = usedata[getIdx] or {}
-                    table.insert(usedata[getIdx] , v)
-                end
+            if _info.isHide > 0 and _info.type == "content" then
+                table.insert(contentHideList, _info)
             end
-            getIdx = getIdx + 1
         end
 
-        self.data = usedata
+        if #titleShowList < newGroupLen then
+            for i=1,(newGroupLen - #titleShowList) do
+                if titleHideList[i] then
+                    table.insert(titleShowList,titleHideList[i])
+                end
+            end
+        end
+        table.sort(titleShowList,function(a , b)
+            return a.group > b.group
+        end)
+
+        if #contentShowList < newGroupLen then
+            for i=1,(newGroupLen - #contentShowList) do
+                if contentHideList[i] then
+                    table.insert(contentShowList,contentHideList[i])
+                end
+            end
+        end
+        table.sort(contentShowList,function(a , b)
+            return a.group > b.group
+        end)
+
+        local showList = {}
+        for i=1,newGroupLen do
+            if titleShowList[i] and contentShowList[i] then
+                table.insert(showList, {titleShowList[i],contentShowList[i]})
+            end
+        end
+
+        self.data = showList
         self.myData = {}
 
-        for k ,v in pairs(self.data) do
+        for k ,v in ipairs(self.data) do
             local title = {}
             local content = {}
+            local group = 0
+           
             for key , data in pairs(v) do
                 local textData = {
                     baseName = data.baseName,
@@ -121,6 +150,8 @@ function AnnouncementLayer:updateNoticeData( data )
                 else
                     table.insert(content , textData)
                 end
+                group = data.group
+                --table.insert(group , data.group)
             end
             title.align = "left"
             table.sort(title ,function(a , b )
@@ -130,7 +161,7 @@ function AnnouncementLayer:updateNoticeData( data )
             table.sort(content ,function(a , b )
                 return a.index < b.index
             end)
-            table.insert(self.myData , {title = title , content = content})
+            table.insert(self.myData , {title = title , content = content, group = group})
         end
         self:initScrollInfos()
     else   --如果没有数据

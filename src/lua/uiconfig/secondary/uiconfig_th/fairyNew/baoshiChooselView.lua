@@ -1964,14 +1964,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_name",
 													nTextAlign = "1",
@@ -1988,7 +1988,7 @@ local t =
 														PositionX = 8,
 														PositionY = 99,
 													},
-													width = "80",
+													width = "66",
 													ZOrder = "1",
 												},
 												{

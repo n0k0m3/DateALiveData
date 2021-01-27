@@ -75,7 +75,8 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.BOSS_CHALLENGE] = requireNew("lua.logic.activity.JumpActivityView"),
             [EC_ActivityType2.DUNGEON_DROP] = requireNew("lua.logic.activity.DropActivityView"),
             [EC_ActivityType2.WSJ_2020] = requireNew("lua.logic.activity.JumpActivityView"), 
-            [EC_ActivityType2.ONLINE_SCORE_REWARD] = requireNew("lua.logic.activity.QuanfuzhuliViewEn")
+            [EC_ActivityType2.ONLINE_SCORE_REWARD] = requireNew("lua.logic.activity.QuanfuzhuliViewEn"),
+            
         },
         [2] = {
             [EC_ActivityType2.CGCOLLECTED] = requireNew("lua.logic.activity.JumpActivityView"),
@@ -85,8 +86,9 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.HALLOWEEN_GHOST] = requireNew("lua.logic.activity.PreHalloweenView"),
         },
         [4] = {
-
-
+            [EC_ActivityType2.ONLINE_SCORE_REWARD] = requireNew("lua.logic.activity.WhiteQueenSendScoreView"),
+            [EC_ActivityType2.LEAGUE_SCORE_ASSIT] = requireNew("lua.logic.activity.WhiteQueenLeagueScoreView"),
+            [EC_ActivityType2.LEAGUE_SCORE_RANK] = requireNew("lua.logic.activity.WhiteQueenScoreRankView"),
         },
         [5] = {
             [EC_ActivityType2.COURAGE] = requireNew("lua.logic.courage.CourageEnterView"),
@@ -389,6 +391,9 @@ end
 
 function ActivityMainView:onSubmitSuccessEvent(activitId, itemId, reward)
     local model = self.activityModel_[activitId]
+    if activitId == 21 and (not model or (model and not model:isVisible())) then  --根据活动id来强制转换成社团id目前全服应援固定21
+        model = self.activityModel_[22]
+    end
     if model and model.onSubmitSuccessEvent then
         model:onSubmitSuccessEvent(activitId, itemId, reward)
     end

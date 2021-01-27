@@ -5499,6 +5499,8 @@ function Hero:act_killMySelf(id,isCount)
     self.team:remove(self)
     if isCount then
         EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+    else
+        EventMgr:dispatchEvent(eEvent.EVENT_HERO_REMOVE, self)
     end
     self:release()
 end

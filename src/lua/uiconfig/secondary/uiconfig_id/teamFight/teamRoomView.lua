@@ -867,14 +867,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "28",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_roomName",
 													nTextAlign = "1",
@@ -891,7 +891,7 @@ local t =
 														PositionX = -143,
 														PositionY = 47,
 													},
-													width = "189",
+													width = "159",
 													ZOrder = "1",
 												},
 												{

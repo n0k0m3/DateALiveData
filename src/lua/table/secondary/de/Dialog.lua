@@ -68848,7 +68848,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "姐姐大人……请小心。",
+                text = "Onee-sama... sei vorsichtig.",
             },
         },
         actionL = {
@@ -68857,7 +68857,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingya",
         conditions = {
@@ -68882,7 +68882,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这些家伙是什么？这座城市的巡逻机器人吗？",
+                text = "Was sind das für Typen? Keibi Robos dieser Stadt?",
             },
         },
         actionL = {
@@ -68891,7 +68891,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11901_jingya",
         conditions = {
@@ -68916,7 +68916,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "我们并没有做什么奇怪的事情，即使是巡逻机器人也不应该对我们有敌意才对。",
+                text = "Wir haben nichts Seltsames getan, also sollten uns auch Keibi Robos nicht feindlich gesinnt sein.",
             },
         },
         actionL = {
@@ -68925,7 +68925,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_b1",
         conditions = {
@@ -68950,7 +68950,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "那么，这些家伙要是攻击我们怎么办？",
+                text = "Was sollen wir dann tun, wenn diese Dinger uns angreifen?",
             },
         },
         actionL = {
@@ -68959,7 +68959,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11901_b1",
         conditions = {
@@ -68984,7 +68984,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "黑子觉得，尽量缩小影响范围，不在这个城市引起恐慌为好。毕竟我和姐姐大人可是[私奔]出来的嘛。",
+                text = "Kuroko meint, wir sollten unseren Einflussbereich so weit wie möglich reduzieren. Es wäre das Beste, keine Panik in der Stadt zu schüren. Immerhin haben wir [durchgebrannt] und sind weggelaufen.",
             },
         },
         actionL = {
@@ -68993,7 +68993,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -69018,7 +69018,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "谁和你[私奔]了啊？！",
+                text = "Was meinst du, [durchgebrannt]?!",
             },
         },
         actionL = {
@@ -69027,7 +69027,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -69052,7 +69052,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "总之，姐姐大人先让它们失去战斗能力，然后我们趁机逃走吧！",
+                text = "Wie auch immer, Onee-sama, zerstören wir ihre Kampffähigkeiten und verschwinden dann von hier!",
             },
         },
         actionL = {
@@ -69061,7 +69061,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -69086,7 +69086,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "明白了，我会破坏它们的电力系统，剩下的就交给黑子你了。",
+                text = "Verstanden. Ich werde ihre elektrischen Systeme zerstören, der Rest liegt bei dir.",
             },
         },
         actionL = {
@@ -69095,7 +69095,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -69120,7 +69120,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "竟然攻击普通人，最近的DEM还真是有够差劲啊。",
+                text = "Greift ihr jetzt normale Menschen an? Dies ist ein neuer Tiefpunkt für DEM.",
             },
         },
         actionL = {
@@ -69129,7 +69129,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "崇宫真那",
+        name = "Mana Takamiya",
         cameraAction = 0,
         headL = "10601_b1",
         conditions = {
@@ -69154,7 +69154,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "哎？你是？",
+                text = "Häh? Wer bist du?",
             },
         },
         actionL = {
@@ -69163,7 +69163,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "10601_b1",
         conditions = {
@@ -69188,7 +69188,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "不用担心，我会救你们的。",
+                text = "Keine Sorge, ich rette dich.",
             },
         },
         actionL = {
@@ -69197,7 +69197,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "崇宫真那",
+        name = "Mana Takamiya",
         cameraAction = 0,
         headL = "10601_d1",
         conditions = {
@@ -69222,7 +69222,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "……那还真是多谢了。",
+                text = "...Vielen Dank.",
             },
         },
         actionL = {
@@ -69231,7 +69231,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "10601_d1",
         conditions = {
@@ -69256,7 +69256,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "谢谢你。我是御坂美琴，这位是白井黑子，可以告诉我们你的名字吗？",
+                text = "Danke. Ich bin Mikoto Misaka, das ist Kuroko Shirai. Kannst du uns deinen Namen sagen?",
             },
         },
         actionL = {
@@ -69265,7 +69265,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -69290,7 +69290,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "真那，崇宫真那。",
+                text = "Mana, Mana Takamiya.",
             },
         },
         actionL = {
@@ -69299,7 +69299,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "崇宫真那",
+        name = "Mana Takamiya",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -69324,7 +69324,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "那个，想请问下这些机器人为什么会突然攻击我们呢？",
+                text = "Ähm, kannst du uns sagen, warum diese Roboter uns plötzlich angegriffen haben?",
             },
         },
         actionL = {
@@ -69333,7 +69333,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_E1",
         conditions = {
@@ -69358,7 +69358,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这个我也不清楚，这还是我第一次见到它们攻击普通人。",
+                text = "Ich bin mir nicht sicher. Das ist das erste Mal, dass ich sehe, wie sie normale Menschen angreifen.",
             },
         },
         actionL = {
@@ -69367,7 +69367,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "崇宫真那",
+        name = "Mana Takamiya",
         cameraAction = 0,
         headL = "11801_E1",
         conditions = {
@@ -69392,7 +69392,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这样啊。对了，我们是第一次来到这座城市，可以请问下这个地方要怎么走吗？",
+                text = "Ich verstehe. Ach ja, wir sind das erste Mal in dieser Stadt, kannst du uns sagen, wie wir zu diesem Ort kommen?",
             },
         },
         actionL = {
@@ -69401,7 +69401,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -69426,7 +69426,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这个地址是？……哥哥家？！你们是哥哥的朋友吗？",
+                text = "Diese Adresse ist... nii-samas Zuhause?! Seid ihr seine Freunde?",
             },
         },
         actionL = {
@@ -69435,7 +69435,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "崇宫真那",
+        name = "Mana Takamiya",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -69460,7 +69460,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "哥哥？我记得是她一个女孩子啊……总之能麻烦你带我们去吗？",
+                text = "Onii-chan? Sollte es nicht ein Mädchen sein... Wie auch immer, kannst du uns bitte dorthin bringen?",
             },
         },
         actionL = {
@@ -69469,7 +69469,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingya",
         conditions = {
@@ -69494,7 +69494,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "没问题！",
+                text = "Kein Problem!",
             },
         },
         actionL = {
@@ -69503,7 +69503,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "崇宫真那",
+        name = "Mana Takamiya",
         cameraAction = 0,
         headL = "11901_jingya",
         conditions = {
@@ -69528,7 +69528,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "那么，我们就先从这附近开始寻找吧。",
+                text = "In Ordnung, fangen wir an, uns in der Nähe umzusehen.",
             },
         },
         actionL = {
@@ -69537,7 +69537,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -69562,7 +69562,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "姐姐大人，昨天那些家伙们又出现了。",
+                text = "Onee-sama, die Typen von gestern sind wieder da.",
             },
         },
         actionL = {
@@ -69571,7 +69571,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -69596,7 +69596,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "大概这附近是他们的地盘吧。",
+                text = "Dieses Gebiet muss ihr Territorium sein.",
             },
         },
         actionL = {
@@ -69605,7 +69605,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_E1",
         conditions = {
@@ -69630,7 +69630,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "无论是谁，只要是阻碍姐姐大人和黑子的约会都是不可原谅的！",
+                text = "Wer auch immer sie sind, Onee-samas Date mit Kuroko zu stören ist unverzeihlich!",
             },
         },
         actionL = {
@@ -69639,7 +69639,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11801_E1",
         conditions = {
@@ -69664,7 +69664,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "御坂小姐！白井小姐！Ratatoskr发现了茵蒂克丝的行踪，她被天宫市的监控拍到了。",
+                text = "Mikoto! Kuroko! Ratatoskr fand Index, sie wurde auf den Aufnahmen der Überwachungskameras von Tengu-Stadt gesichtet.",
             },
         },
         actionL = {
@@ -69698,7 +69698,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "啊，对了，Ratatoskr是个组织的名字……",
+                text = "Oh, richtig, Ratatoskr ist der Name einer Organisation...",
             },
         },
         actionL = {
@@ -69732,7 +69732,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "嗯，琴里小姐昨晚已经为我们介绍过了呢。",
+                text = "Ja, Kotori hat uns gestern Abend davon erzählt.",
             },
         },
         actionL = {
@@ -69741,7 +69741,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -69766,7 +69766,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这样吗……啊，还有，我们发现DEM也在寻找她，具体原因就不太清楚了。",
+                text = "Ich verstehe... Ach ja, wir haben herausgefunden, dass DEM auch nach ihr sucht. Der genaue Grund ist unklar.",
             },
         },
         actionL = {
@@ -69800,7 +69800,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "那不是很危险吗？",
+                text = "Ist das nicht gefährlich?",
             },
         },
         actionL = {
@@ -69809,7 +69809,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -69834,7 +69834,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "没错！我们必须在DEM之前找到她。",
+                text = "Genau! Wir müssen sie finden, bevor DEM es tut.",
             },
         },
         actionL = {
@@ -69868,7 +69868,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这里就是那孩子最后被监控拍摄到的地方了吗？",
+                text = "Ist dies der letzte Ort, an dem sie auf den Überwachungskameras zu sehen war?",
             },
         },
         actionL = {
@@ -69877,7 +69877,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_jingya",
         conditions = {
@@ -69902,7 +69902,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "没错。Ratatoskr推测她是坠落在公园的小湖中，独力游上岸后被靠近湖边的监控拍摄到的。",
+                text = "Ja. Ratatoskr spekuliert, dass sie in einen kleinen See im Park gefallen ist und von den Kameras aufgenommen wurde, nachdem sie an Land geschwommen war.",
             },
         },
         actionL = {
@@ -69936,7 +69936,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "%s！我也来帮忙了！",
+                text = "%s! Ich bin hier, um zu helfen!",
             },
         },
         actionL = {
@@ -69945,7 +69945,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "11801_jingya",
         conditions = {
@@ -69970,7 +69970,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "十香！",
+                text = "Tohka!",
             },
         },
         actionL = {
@@ -70004,7 +70004,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "虽然你们是鸢一折纸的朋友……但是%s说小孩子走丢了会让人很苦恼，所以让我也来帮忙吧。",
+                text = "Obwohl ihr Origami Tobiichis Freunde seid... %s sagte, dass alle wegen eines vermissten Kindes aufgeregt sind, also werde ich auch meine Hilfe anbieten.",
             },
         },
         actionL = {
@@ -70013,7 +70013,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "11801_jingya",
         conditions = {
@@ -70038,7 +70038,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "可以吗？这里到处都是些奇形怪状见人就打的机器人哦。",
+                text = "Kannst du es schaffen? Hier wimmelt es von seltsamen Robotern, die bei Sichtkontakt angreifen.",
             },
         },
         actionL = {
@@ -70047,7 +70047,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingya",
         conditions = {
@@ -70072,7 +70072,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "没关系，交给我吧！",
+                text = "Keine Sorge, überlass das mir!",
             },
         },
         actionL = {
@@ -70081,7 +70081,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "11901_jingya",
         conditions = {
@@ -70106,7 +70106,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "好厉害……十香也是能力者吗？这是什么能力啊？",
+                text = "Unglaublich... Bist du auch ein Esper, Tohka? Was für eine Kraft ist das?",
             },
         },
         actionL = {
@@ -70115,7 +70115,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_jingya",
         conditions = {
@@ -70131,25 +70131,19 @@ return {
         scriptId = 9241,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = true,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = true,
         effect = "",
         id = 2207,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "能力者？就是你们昨晚说的“累背鲁”什么的吗？我还是不太明白呢。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = true,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "11801_jingya",
         conditions = {
@@ -70174,7 +70168,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "简单说来就是拥有与常人不同的能力，也就是超能力呢。",
+                text = "Um es einfach auszudrücken, es ist jemand, der Fähigkeiten hat, die normale Menschen nicht haben. Im Grunde haben sie Superkräfte.",
             },
         },
         actionL = {
@@ -70183,7 +70177,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -70208,7 +70202,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "唔姆……我有能吃超多黄豆粉面包的能力！",
+                text = "Umu... Ich habe die Fähigkeit, Tonnen von Kinako-Brot zu essen!",
             },
         },
         actionL = {
@@ -70217,7 +70211,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -70242,7 +70236,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这个……",
+                text = "Na gut...",
             },
         },
         actionL = {
@@ -70251,7 +70245,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingya",
         conditions = {
@@ -70276,7 +70270,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "十香她比较特殊……对了！总之，我们分头寻找吧。",
+                text = "Tohka ist irgendwie besonders... Oh, richtig! Wie auch immer, teilen wir uns auf, um zu suchen.",
             },
         },
         actionL = {
@@ -70310,7 +70304,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "嗯。那么，三个小时后在这里汇合好了。",
+                text = "OK. Wir treffen uns in drei Stunden wieder hier.",
             },
         },
         actionL = {
@@ -70319,7 +70313,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -70344,7 +70338,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "哈哈哈找到了哦，他们果然在公园附近呢。",
+                text = "Hahaha, ich habe sie gefunden. Es stellt sich heraus, dass sie tatsächlich in der Nähe des Parks sind.",
             },
         },
         actionL = {
@@ -70353,7 +70347,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "四糸奈",
+        name = "Yoshinon",
         cameraAction = 0,
         headL = "10398_a2",
         conditions = {
@@ -70378,7 +70372,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "四糸奈、四糸乃，还有七罪？",
+                text = "Yoshinon, Yoshino und Natsumi?",
             },
         },
         actionL = {
@@ -70412,7 +70406,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "四糸乃听说有小孩子走丢了，所以叫上我一起过来帮忙了。",
+                text = "Yoshino hörte, dass ein Kind vermisst wird, also rief sie mich an, um bei der Suche zu helfen.",
             },
         },
         actionL = {
@@ -70421,7 +70415,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "10398_a2",
         conditions = {
@@ -70446,7 +70440,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "是。走丢的孩子现在一定很害怕，很寂寞……请让我们也来帮忙吧。",
+                text = "Ja. Das kleine Kind muss verängstigt und einsam sein... bitte lass uns bei der Suche helfen.",
             },
         },
         actionL = {
@@ -70455,7 +70449,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "四糸乃",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "10301_a1",
         conditions = {
@@ -70480,7 +70474,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "迷途的羔羊啊，让微风指引你踏迹的路线吧！",
+                text = "Verlorenes kleines Schaf, möge der Wind deinen Weg leiten!",
             },
         },
         actionL = {
@@ -70489,7 +70483,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "10701_c2",
         conditions = {
@@ -70514,7 +70508,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "解释，耶俱矢的意思是我们也想帮忙一起寻找失踪的孩子。",
+                text = "Erläuterung. Kaguya meint, dass wir auch bei der Suche nach dem verlorenen Kind helfen wollen.",
             },
         },
         actionL = {
@@ -70523,7 +70517,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10701_c2",
         conditions = {
@@ -70548,7 +70542,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "谢谢你们！人多一些找到那孩子的几率会更大。",
+                text = "Danke! Wir haben eine bessere Chance, sie zu finden, wenn mehr Leute beteiligt sind.",
             },
         },
         actionL = {
@@ -70582,7 +70576,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "dariling~我也来帮忙了，找到那孩子后dariling要陪我约会哦。",
+                text = "Darling, ich bin auch hier, um zu helfen. Du schuldest mir ein Date, sobald wir das Kind gefunden haben.",
             },
         },
         actionL = {
@@ -70591,7 +70585,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "诱宵美九",
+        name = "Miku Izayoi",
         cameraAction = 0,
         headL = "11001_c1",
         conditions = {
@@ -70616,7 +70610,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "美九！拜托你了。",
+                text = "Miku! Danke.",
             },
         },
         actionL = {
@@ -70650,7 +70644,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "短发？这些人是谁啊？",
+                text = "Kurze Haare? Wer sind diese Leute?",
             },
         },
         actionL = {
@@ -70659,7 +70653,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "茵蒂克丝",
+        name = "Index",
         cameraAction = 0,
         headL = "12101_jingxi",
         conditions = {
@@ -70684,7 +70678,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "一直暗中寻找你的坏蛋就是了。黑子，你先把她转移到安全地带。",
+                text = "Böse Menschen, die heimlich nach dir gesucht haben. Kuroko, bring sie an einen sicheren Ort.",
             },
         },
         actionL = {
@@ -70693,7 +70687,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "12101_jingxi",
         conditions = {
@@ -70718,7 +70712,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "了解。请小心，姐姐大人。",
+                text = "Verstanden. Sei vorsichtig, Onee-sama.",
             },
         },
         actionL = {
@@ -70727,7 +70721,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -70752,7 +70746,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "吃黄豆粉面包的心情都被你们破坏了，真是讨厌。",
+                text = "Wie ärgerlich, du hast mir die Stimmung für Kinako-Brot verdorben.",
             },
         },
         actionL = {
@@ -70761,7 +70755,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "10104_b1",
         conditions = {
@@ -70786,7 +70780,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这个时间点……看来我们是被跟踪了啊。%s请退后，我来保护你。",
+                text = "Zu diesem Zeitpunkt... sieht es so aus, als ob wir verfolgt werden. Tritt zurück, %s. Ich werde dich beschützen.",
             },
         },
         actionL = {
@@ -70795,7 +70789,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10104_b1",
         conditions = {
@@ -70820,7 +70814,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "讨厌的鸢一折纸！%s由我来保护，不需要你！",
+                text = "Nervige Origami Tobiichi! Ich werde %s beschützen, er braucht dich nicht!",
             },
         },
         actionL = {
@@ -70829,7 +70823,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "10104_b2",
         conditions = {
@@ -70854,7 +70848,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你还是注意一下前方吧，他们攻过来了。",
+                text = "Schau nach vorne, sie greifen an.",
             },
         },
         actionL = {
@@ -70863,7 +70857,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10104_b2",
         conditions = {
@@ -70888,7 +70882,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "姐姐大人英勇作战的姿态真是太美了！",
+                text = "Onee-sama's Kampfpose ist so schön!",
             },
         },
         actionL = {
@@ -70897,7 +70891,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingxi",
         conditions = {
@@ -70913,25 +70907,19 @@ return {
         scriptId = 9247,
         headMirrorL = true,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2236,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "如果您裙下那条“阻碍人类文明的绊脚石”能够消失就更加完美了！",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingxi",
         conditions = {
@@ -70956,7 +70944,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你在看哪里啊？黑子你这个变态！",
+                text = "Was schaust du? Kuroko das ist so pervers!",
             },
         },
         actionL = {
@@ -70965,7 +70953,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11901_jingxi",
         conditions = {
@@ -70990,7 +70978,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "开玩笑的~请让黑子来助您一臂之力吧！",
+                text = "Nur ein Scherz. Bitte erlaube Kuroko, dir zu Hilfe zu kommen!",
             },
         },
         actionL = {
@@ -70999,7 +70987,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingxi",
         conditions = {
@@ -71024,7 +71012,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "姐姐大人，作为黑子努力作战的奖励，明天可以和黑子一起约会吗？可以吗？",
+                text = "Onee-sama, wirst du mit mir auf ein Date gehen, als Belohnung für meinen tapferen Kampf? Bitte?",
             },
         },
         actionL = {
@@ -71033,7 +71021,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -71058,7 +71046,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "真拿你没办法……姑且……多耽误一天时间吧。",
+                text = "Was soll ich nur mit dir machen... naja... ich bin einverstanden, noch einen Tag mit dir zu verschwenden.",
             },
         },
         actionL = {
@@ -71067,7 +71055,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -71092,7 +71080,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "爱你哦！姐姐大人！",
+                text = "Liebe dich! Onee-sama!",
             },
         },
         actionL = {
@@ -71101,7 +71089,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingxi",
         conditions = {
@@ -71126,7 +71114,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "茵蒂克丝，是这个地方吗？",
+                text = "Index, ist das der Ort?",
             },
         },
         actionL = {
@@ -71160,7 +71148,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "气息很微弱，不能确定……",
+                text = "Die Aura ist schwach, ich kann mir nicht sicher sein...",
             },
         },
         actionL = {
@@ -71169,7 +71157,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "茵蒂克丝",
+        name = "Index",
         cameraAction = 0,
         headL = "12101_wunai",
         conditions = {
@@ -71194,7 +71182,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "总之试试看吧，十香，拜托了。",
+                text = "Versuchen wir es trotzdem mal. Tohka, ich zähle auf dich.",
             },
         },
         actionL = {
@@ -71228,7 +71216,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "交给我吧！",
+                text = "Überlass das mir!",
             },
         },
         actionL = {
@@ -71237,7 +71225,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "12101_wunai",
         conditions = {
@@ -71253,25 +71241,19 @@ return {
         scriptId = 9250,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2249,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "看来这里不是关键“符文点”呢……",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "茵蒂克丝",
+        name = "Index",
         cameraAction = 0,
         headL = "12101_wunai",
         conditions = {
@@ -71296,7 +71278,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "没关系，我们再试试别的地方吧。",
+                text = "Es ist OK, versuchen wir es woanders noch einmal.",
             },
         },
         actionL = {
@@ -71330,7 +71312,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这样在城市里大肆破坏真的没问题吗？",
+                text = "Können wir wirklich so eine Massenvernichtung in der Stadt zulassen?",
             },
         },
         actionL = {
@@ -71339,7 +71321,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "12101_wunai",
         conditions = {
@@ -71364,7 +71346,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "没关系，Ratatoskr明天之内就会帮我们修好的。",
+                text = "Keine Sorge, Ratatoskr wird bis morgen alles für uns in Ordnung bringen.",
             },
         },
         actionL = {
@@ -71398,7 +71380,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "莫名地感觉有点羡慕呢……也不知为什么……",
+                text = "Ich fange an, ein bisschen eifersüchtig zu sein... obwohl ich nicht weiß, warum...",
             },
         },
         actionL = {
@@ -71407,7 +71389,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "12101_wunai",
         conditions = {
@@ -71432,7 +71414,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "那么赶紧去下一个地方吧。",
+                text = "Dann nichts wie hin zum nächsten Ort.",
             },
         },
         actionL = {
@@ -71441,7 +71423,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingya",
         conditions = {
@@ -71466,7 +71448,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这里！肯定没错！100%确定！",
+                text = "Hier! Das muss es sein! Ich bin mir 100 % sicher!",
             },
         },
         actionL = {
@@ -71475,7 +71457,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "茵蒂克丝",
+        name = "Index",
         cameraAction = 0,
         headL = "12101_jingxi",
         conditions = {
@@ -71500,7 +71482,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这里……不是我们的学校么。",
+                text = "Ist das nicht... unsere Schule?",
             },
         },
         actionL = {
@@ -71534,7 +71516,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "邪恶的魔法师竟然将罪恶的计划延伸到了学校中，不可原谅！",
+                text = "Diese bösen Zauberer haben ihre bösen Pläne auf unsere Schule ausgeweitet. Unverzeihlich!",
             },
         },
         actionL = {
@@ -71543,7 +71525,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "12101_jingxi",
         conditions = {
@@ -71568,7 +71550,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "愤怒，竟然威胁学校的安全，夕弦不会原谅他们！",
+                text = "Wut. Die Dreistigkeit, die Schüler in Gefahr zu bringen, wird ihnen Yuzuru auch nicht verzeihen!",
             },
         },
         actionL = {
@@ -71577,7 +71559,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10801_f1",
         conditions = {
@@ -71602,7 +71584,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "耶俱矢、夕弦，这边就拜托你们了！",
+                text = "Kaguya, Yuzuru, das überlasse ich euch!",
             },
         },
         actionL = {
@@ -71627,21 +71609,15 @@ return {
         scriptId = 9252,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2262,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "琴里，我们在“符文点”找到了一个半透明晶体。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -71670,7 +71646,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这可真是重要发现，我们会立刻回收研究！",
+                text = "Das ist eine wichtige Entdeckung. Wir werden es sofort zur Analyse zurückbringen!",
             },
         },
         actionL = {
@@ -71679,7 +71655,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_e1",
         conditions = {
@@ -71704,7 +71680,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这边是有什么庆典吗？到处都好漂亮的样子。",
+                text = "Gibt es hier eine Feier? Alles sieht so schön aus.",
             },
         },
         actionL = {
@@ -71713,7 +71689,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "茵蒂克丝",
+        name = "Index",
         cameraAction = 0,
         headL = "12101_E2",
         conditions = {
@@ -71729,21 +71705,15 @@ return {
         scriptId = 9253,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2266,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "附近的中华街正在筹备的“春节祭”，所以有很多活动安排。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -71772,7 +71742,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "真好呀……快点破坏这个魔法阵，带我去吃好吃的吧！",
+                text = "Das ist großartig... Beeile dich und zerstöre diesen magischen Kreis, dann können wir etwas Leckeres essen!",
             },
         },
         actionL = {
@@ -71781,7 +71751,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "茵蒂克丝",
+        name = "Index",
         cameraAction = 0,
         headL = "12101_jingxi",
         conditions = {
@@ -71806,7 +71776,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "嗯！没问题！",
+                text = "OK! Kein Problem.",
             },
         },
         actionL = {
@@ -71831,25 +71801,19 @@ return {
         scriptId = 9254,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2270,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "令音对“符文点”找到的结晶进行了分析，发现它是基于精灵灵结晶制造出来的假货。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_b1",
         conditions = {
@@ -71874,7 +71838,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "研究对象有吸收能量的作用，但是非常微弱，所以不易察觉。另外晶体本身也脆弱易碎。",
+                text = "Das Untersuchungsobjekt ist in der Lage, Energie zu absorbieren, aber der Effekt ist extrem schwach und schwierig zu erkennen. Darüber hinaus ist das Kristalloid selbst sehr zerbrechlich.",
             },
         },
         actionL = {
@@ -71883,7 +71847,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "村雨令音",
+        name = "Reine Murasame",
         cameraAction = 0,
         headL = "10505_b1",
         conditions = {
@@ -71899,25 +71863,19 @@ return {
         scriptId = 9254,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = true,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = true,
         effect = "",
         id = 2272,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "综上所述，我们暂时将它命名为“虚假结晶体”。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_b2",
         conditions = {
@@ -71942,7 +71900,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "仍然建议按照原计划全部破坏它们，因为不知道聚集在一起的力量会产生效果。",
+                text = "Wir empfehlen immer noch, dem ursprünglichen Plan zu folgen, sie alle zu zerstören. Wir wissen nicht, welchen Effekt sie haben werden, wenn alle ihre Kräfte zusammenkommen.",
             },
         },
         actionL = {
@@ -71951,7 +71909,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "村雨令音",
+        name = "Reine Murasame",
         cameraAction = 0,
         headL = "10505_b2",
         conditions = {
@@ -71976,7 +71934,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "了解！我们会努力的！",
+                text = "Verstanden! Wir werden unser Bestes tun!",
             },
         },
         actionL = {
@@ -72010,7 +71968,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "找到了，就是这里！",
+                text = "Ich habe es gefunden, hier!",
             },
         },
         actionL = {
@@ -72019,7 +71977,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "茵蒂克丝",
+        name = "Index",
         cameraAction = 0,
         headL = "12101_jingxi",
         conditions = {
@@ -72044,7 +72002,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "竟然是四糸乃最喜欢的神社……",
+                text = "Es ist Yoshinos Lieblingsschrein...",
             },
         },
         actionL = {
@@ -72053,7 +72011,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "四糸奈",
+        name = "Yoshinon",
         cameraAction = 0,
         headL = "12101_jingxi",
         conditions = {
@@ -72078,7 +72036,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "怎么可以……用神社做坏事。",
+                text = "Wie können sie... einen Schrein benutzen, um schlechte Dinge zu tun?",
             },
         },
         actionL = {
@@ -72087,7 +72045,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "四糸乃",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "12101_jingxi",
         conditions = {
@@ -72112,7 +72070,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "坏人会被神明惩罚的哦~",
+                text = "Böse Menschen werden von Gott bestraft.",
             },
         },
         actionL = {
@@ -72121,7 +72079,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "四糸奈",
+        name = "Yoshinon",
         cameraAction = 0,
         headL = "12101_jingxi",
         conditions = {
@@ -72137,25 +72095,19 @@ return {
         scriptId = 9256,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2281,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "令音进一步分析了这个“虚假结晶体”的构造，发现还是和“精灵”有关。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_b1",
         conditions = {
@@ -72171,21 +72123,15 @@ return {
         scriptId = 9256,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2282,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "“虚假结晶体”和“魔法阵”又是什么限制精灵力量的装置吗？",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -72205,25 +72151,19 @@ return {
         scriptId = 9256,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2283,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "并不是。“魔法阵”是一种严密计算后的排列方式，目的是让“虚假结晶体”的效果发挥到最大。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_b2",
         conditions = {
@@ -72248,7 +72188,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "而积聚起来的力量可能是想用来对付精灵，或者什么别的灵结晶相关研究吧。",
+                text = "Und der Verwendungszweck der angesammelten Energie kann sein, Geister anzugreifen oder für andere Geisterkristall-Forschungen.",
             },
         },
         actionL = {
@@ -72257,7 +72197,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_b1",
         conditions = {
@@ -72282,7 +72222,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这样非常危险吧？",
+                text = "Ist das nicht sehr gefährlich?",
             },
         },
         actionL = {
@@ -72307,25 +72247,19 @@ return {
         scriptId = 9256,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2286,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "严重的话……会引起30年前“欧亚大空灾”那样可怕的后果。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_b1",
         conditions = {
@@ -72350,7 +72284,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "真美的温泉啊，如果能和姐姐大人一起共浴……木嘿~嘿~嘿~嘿~",
+                text = "Was für schöne heiße Quellen. Wenn ich nur mit Onee-sama darin baden könnte...hehehe.",
             },
         },
         actionL = {
@@ -72359,7 +72293,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingxi",
         conditions = {
@@ -72384,7 +72318,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "啊……共浴之前必须先解决这些讨厌的家伙们呢，那么开始工作吧。",
+                text = "Ah... Wir müssen diese lästigen Kerle loswerden, bevor wir gemeinsam baden. Machen wir uns an die Arbeit.",
             },
         },
         actionL = {
@@ -72393,7 +72327,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_b1",
         conditions = {
@@ -72409,25 +72343,19 @@ return {
         scriptId = 9258,
         headMirrorL = true,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2291,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "姐姐大人，所有碍事的东西都被黑子清理掉了，“虚假结晶体”也已经破坏。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -72452,7 +72380,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "辛苦了，黑子。",
+                text = "Gute Arbeit, Kuroko.",
             },
         },
         actionL = {
@@ -72461,7 +72389,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -72486,7 +72414,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这里的温泉非常温暖，请和黑子共浴吧！",
+                text = "Diese heißen Quellen sind so gemütlich, lass uns zusammen baden!",
             },
         },
         actionL = {
@@ -72495,7 +72423,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingxi",
         conditions = {
@@ -72520,7 +72448,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "我就算了……我不喜欢热浴池。",
+                text = "Nein danke... Ich mag keine heißen Quellen.",
             },
         },
         actionL = {
@@ -72529,7 +72457,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11901_jingxi",
         conditions = {
@@ -72554,7 +72482,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "讨厌，这里可是人家即将演出的地方呢……",
+                text = "Wie ärgerlich, hier werde ich gleich auftreten...",
             },
         },
         actionL = {
@@ -72563,7 +72491,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "诱宵美九",
+        name = "Miku Izayoi",
         cameraAction = 0,
         headL = "11001_a1",
         conditions = {
@@ -72579,25 +72507,19 @@ return {
         scriptId = 9259,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2297,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "为了darling能够参加我的春节粉丝见面会，“精灵爱豆美九”，要亲手打扫自己的舞台了哦！",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "诱宵美九",
+        name = "Miku Izayoi",
         cameraAction = 0,
         headL = "11001_a2",
         conditions = {
@@ -72613,25 +72535,19 @@ return {
         scriptId = 9260,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2299,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "darling~天宫广场舞台的“虚假结晶体”已经全部清理了。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "诱宵美九",
+        name = "Miku Izayoi",
         cameraAction = 0,
         headL = "11001_c1",
         conditions = {
@@ -72656,7 +72572,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "辛苦了。",
+                text = "Großartige Arbeit.",
             },
         },
         actionL = {
@@ -72681,25 +72597,19 @@ return {
         scriptId = 9260,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2301,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "darling记得一定要参加我的“春节祭”特别粉丝见面会哦！",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "诱宵美九",
+        name = "Miku Izayoi",
         cameraAction = 0,
         headL = "11001_c2",
         conditions = {
@@ -72724,7 +72634,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "嗯，我会带大家一起去的！",
+                text = "OK, ich bringe alle mit!",
             },
         },
         actionL = {
@@ -72758,7 +72668,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "让大姐姐来看看，是什么人在游乐园里搞破坏吧。",
+                text = "Mal sehen, wer im Vergnügungspark Ärger macht.",
             },
         },
         actionL = {
@@ -72767,7 +72677,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11301_c2",
         conditions = {
@@ -72792,7 +72702,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这是七罪?和刚刚看起来不一样啊。使用了变身的魔法吗？",
+                text = "Das ist Natsumi? Du siehst ganz anders aus. Hast du eine Art Verwandlungsmagie verwendet?",
             },
         },
         actionL = {
@@ -72801,7 +72711,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "茵蒂克丝",
+        name = "Index",
         cameraAction = 0,
         headL = "11301_c2",
         conditions = {
@@ -72826,7 +72736,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "嘘……这是秘密哦~",
+                text = "Pst... es ist ein Geheimnis.",
             },
         },
         actionL = {
@@ -72835,7 +72745,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11301_c1",
         conditions = {
@@ -72851,25 +72761,19 @@ return {
         scriptId = 9262,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2308,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "完成！DEM的杂鱼都被赶走了，“虚假结晶体”也全部破坏。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_b1",
         conditions = {
@@ -72894,7 +72798,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "好厉害，果然是使用了变身魔法吧？",
+                text = "Erstaunlich, du musst Verwandlungsmagie verwendet haben?",
             },
         },
         actionL = {
@@ -72903,7 +72807,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "茵蒂克丝",
+        name = "Index",
         cameraAction = 0,
         headL = "11303_b1",
         conditions = {
@@ -72928,7 +72832,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "算是吧……你肯定在想，还是刚才的我更美丽吧？反正真正的我，就是这样……",
+                text = "Das könnte man so sagen... Du denkst bestimmt, dass das andere Ich schöner war? Nun, das ist mein wahres Ich...",
             },
         },
         actionL = {
@@ -72937,7 +72841,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_x1",
         conditions = {
@@ -72962,7 +72866,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "没有，七罪原本的样子也很可爱啊。",
+                text = "Nein, du bist auch in deiner ursprünglichen Form süß.",
             },
         },
         actionL = {
@@ -72971,7 +72875,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "茵蒂克丝",
+        name = "Index",
         cameraAction = 0,
         headL = "11303_x1",
         conditions = {
@@ -72996,7 +72900,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "哎？真的？茵蒂克丝真的是这么想的吗？",
+                text = "Häh? Wirklich? Denkst du wirklich so, Index?",
             },
         },
         actionL = {
@@ -73005,7 +72909,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_i",
         conditions = {
@@ -73030,7 +72934,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "是哟。",
+                text = "Ja.",
             },
         },
         actionL = {
@@ -73039,7 +72943,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "茵蒂克丝",
+        name = "Index",
         cameraAction = 0,
         headL = "11303_i",
         conditions = {
@@ -73064,7 +72968,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "到达目标地点，探测发现DEM隐藏战斗部队。",
+                text = "Wir haben das Ziel erreicht. Verdecktes DEM-Team erkannt.",
             },
         },
         actionL = {
@@ -73073,7 +72977,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10201_a1",
         conditions = {
@@ -73089,25 +72993,19 @@ return {
         scriptId = 9263,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = true,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = true,
         effect = "",
         id = 2316,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "按照我们的计划进行吧，这里应该是最后的“符文点”了。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = true,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10201_a1",
         conditions = {
@@ -73132,7 +73030,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "了解。",
+                text = "Alles klar.",
             },
         },
         actionL = {
@@ -73141,7 +73039,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10201_a2",
         conditions = {
@@ -73166,7 +73064,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "辛苦了，折纸小姐。",
+                text = "Gute Arbeit, Origami.",
             },
         },
         actionL = {
@@ -73175,7 +73073,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -73191,25 +73089,19 @@ return {
         scriptId = 9264,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = true,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = true,
         effect = "",
         id = 2320,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "“梦魇”……你也潜伏在这里么？",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = true,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -73225,25 +73117,19 @@ return {
         scriptId = 9264,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = true,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = true,
         effect = "",
         id = 2321,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "啊啦啊啦~真是陌生的称呼呢，我还是更喜欢折纸小姐叫我“狂三”。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -73259,25 +73145,19 @@ return {
         scriptId = 9264,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = true,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = true,
         effect = "",
         id = 2322,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "我一直都跟着你们哦，看着你们破坏完所有的“虚假结晶体”嘻嘻嘻……",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -73302,7 +73182,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你有什么目的？！",
+                text = "Was hast du vor?!",
             },
         },
         actionL = {
@@ -73311,7 +73191,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -73336,7 +73216,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "不用紧张，我们的目的相同，都是毁灭DEM的计划。",
+                text = "Sei nicht nervös, wir haben das gleiche Ziel: DEMs Verschwörung zu stoppen.",
             },
         },
         actionL = {
@@ -73345,7 +73225,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -73361,25 +73241,19 @@ return {
         scriptId = 9264,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = true,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = true,
         effect = "",
         id = 2325,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "最后的“虚假结晶体”已经被我破坏了，你可以坐享其成了。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = true,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -73404,7 +73278,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "折纸小姐不会真的这么天真的以为一切已经结束了吧？这可是DEM筹备好几年的计划呢。",
+                text = "Fräulein Origami, bist du so naiv zu glauben, dass es wirklich vorbei ist? DEM hat das seit Jahren geplant.",
             },
         },
         actionL = {
@@ -73413,7 +73287,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -73429,25 +73303,19 @@ return {
         scriptId = 9264,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = true,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = true,
         effect = "",
         id = 2327,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "稍微给你一点提示吧——“能通往天堂的高塔”。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -73472,7 +73340,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "什么意思？！站住！",
+                text = "Was soll das bedeuten?! Beweg dich nicht!",
             },
         },
         actionL = {
@@ -73481,7 +73349,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -73497,25 +73365,19 @@ return {
         scriptId = 9265,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2330,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "按照狂三提供的线索，我们确认“能通往天堂的高塔”就是这座还未竣工的“烟火大会观赏塔”。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_b1",
         conditions = {
@@ -73540,7 +73402,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这座塔不是为春节祭期间观赏烟火特地修建的吗？",
+                text = "Wurde dieser Turm nicht extra gebaut, um das Frühlingsfest-Feuerwerk zu sehen?",
             },
         },
         actionL = {
@@ -73574,7 +73436,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "原计划是这样没错，但调查后发现背后投资方有DEM的影子……总之它很值得怀疑就是了。",
+                text = "Das war der ursprüngliche Plan, aber Nachforschungen ergaben, dass der Investor, der hinter dem Turm steht, Verbindungen zu DEM hat... Wie auch immer, es ist super verdächtig.",
             },
         },
         actionL = {
@@ -73583,7 +73445,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_b2",
         conditions = {
@@ -73608,7 +73470,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "确实……按照魔法阵的设置，这座塔就是所有力量汇集之地。",
+                text = "In der Tat... basierend auf der Platzierung des Magischen Kreises ist dieser Turm der Ort, an dem die gesamte Macht zusammenläuft.",
             },
         },
         actionL = {
@@ -73617,7 +73479,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "茵蒂克丝",
+        name = "Index",
         cameraAction = 0,
         headL = "10505_b2",
         conditions = {
@@ -73642,7 +73504,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "总之我们先想办法潜入进去调查一下吧。",
+                text = "Lass uns einen Weg finden, ihn zu infiltrieren und zu untersuchen.",
             },
         },
         actionL = {
@@ -73651,7 +73513,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -73676,7 +73538,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这个任务就交给我吧！姐姐大人请稍等。",
+                text = "Überlass das mir! Warte einen Moment, Onee-sama.",
             },
         },
         actionL = {
@@ -73685,7 +73547,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -73710,7 +73572,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "抱歉姐姐大人，塔的内部布满了监控，我移动到里面就被发现了。",
+                text = "Es tut mir leid, Onee-sama. Im gesamten Turm sind Überwachungskameras installiert, ich wurde entdeckt, sobald ich hinein ging.",
             },
         },
         actionL = {
@@ -73719,7 +73581,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingya",
         conditions = {
@@ -73744,7 +73606,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "没事吧，黑子？果然不该让你一个人进去冒险……",
+                text = "Bist du OK, Kuroko? Ich wusste, dass es eine schlechte Idee ist, dich alleine reingehen zu lassen...",
             },
         },
         actionL = {
@@ -73753,7 +73615,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11901_jingya",
         conditions = {
@@ -73778,7 +73640,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "能够得到姐姐大人的关心，黑子心甘情愿为姐姐大人披荆斩棘！",
+                text = "Kuroko würde für Onee-sama allen Gefahren der Welt trotzen!",
             },
         },
         actionL = {
@@ -73787,7 +73649,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_jingxi",
         conditions = {
@@ -73812,7 +73674,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "真亏你们能找到塔里来啊。",
+                text = "Du hast also doch den richtigen Ort gefunden.",
             },
         },
         actionL = {
@@ -73821,7 +73683,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦·马瑟斯",
+        name = "Ellen Mathers",
         cameraAction = 0,
         headL = "10901_c2",
         conditions = {
@@ -73846,7 +73708,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你们伪造这么多虚假的灵结晶，你们究竟有什么目的？",
+                text = "Warum hast du all diese gefälschten Geisterkristalle hergestellt?",
             },
         },
         actionL = {
@@ -73880,7 +73742,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这是艾克很早之前的计划，运用这些仿品汇集的力量，以数字的暴力，制造出超越真正精灵的赝品。",
+                text = "Ike plante dies schon vor Äonen, sammelte Macht mit gefälschten Kristallen und nutzte die Macht in Zahlen, um etwas zu erschaffen, das die echte Sache übertrifft.",
             },
         },
         actionL = {
@@ -73889,7 +73751,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦·马瑟斯",
+        name = "Ellen Mathers",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -73914,7 +73776,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "对于你们这几天来的努力，要说句抱歉了。即使被你们破坏了全部的符文，我们已经储存了足够多的力量了。",
+                text = "Ich empfand Mitgefühl für all die harte Arbeit, die du in letzter Zeit geleistet hast. Auch wenn du alle Runen zerstört hast, haben wir bereits genug Energie gespeichert.",
             },
         },
         actionL = {
@@ -73923,7 +73785,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦·马瑟斯",
+        name = "Ellen Mathers",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -73948,7 +73810,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "不会让你们的得逞的！",
+                text = "Das lasse ich dir nicht durchgehen!",
             },
         },
         actionL = {
@@ -73973,25 +73835,19 @@ return {
         scriptId = 9268,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2347,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "再挣扎也是没用的，艾克的“仪式”已经开始了。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦·马瑟斯",
+        name = "Ellen Mathers",
         cameraAction = 0,
         headL = "10901_c2",
         conditions = {
@@ -74016,7 +73872,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "我们这边也没闲着呢，和你的战斗只是为了吸引注意力而已。",
+                text = "Wir haben hier auch viel zu tun gehabt. Der Kampf mit dir war nur eine Ablenkung.",
             },
         },
         actionL = {
@@ -74025,7 +73881,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10901_c2",
         conditions = {
@@ -74050,7 +73906,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "哦？你们还有什么别的计划吗？不过怎样都是白费力气了，这整座塔……",
+                text = "Oh? Hast du einen anderen Plan? Was auch immer es ist, es spielt keine Rolle. Dieser gesamte Turm...",
             },
         },
         actionL = {
@@ -74059,7 +73915,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦·马瑟斯",
+        name = "Ellen Mathers",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -74084,7 +73940,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这整座塔怎么样都好……只要毁灭它，你们计划都无法继续进行了吧。",
+                text = "Was auch immer dieser Turm ist... solange er zerstört ist, wird dein Plan scheitern.",
             },
         },
         actionL = {
@@ -74093,7 +73949,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -74118,7 +73974,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "还真是狂妄呢，毁灭这座塔？就凭你们的力量吗？真是好笑。",
+                text = "Wie arrogant. Du denkst, du bist stark genug, um diesen Turm zu zerstören? Was für ein Witz.",
             },
         },
         actionL = {
@@ -74127,7 +73983,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦·马瑟斯",
+        name = "Ellen Mathers",
         cameraAction = 0,
         headL = "10901_c2",
         conditions = {
@@ -74143,25 +73999,19 @@ return {
         scriptId = 9269,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 2353,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "黑子，听到“能通往天堂的高塔”这个名字的时候，我就隐约有种不祥的感觉。",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_E1",
         conditions = {
@@ -74186,7 +74036,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "现在终于想起来了。你知道传说中古巴比伦的“通天塔”最后是什么下场吗？",
+                text = "Jetzt weiß ich es endlich wieder. Weißt du, wie die Legende vom Turm von Babylon endete?",
             },
         },
         actionL = {
@@ -74195,7 +74045,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -74220,7 +74070,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "记得，因为这狂妄的行为触怒了上帝，塔在建成前就被上帝给毁了。",
+                text = "Ich erinnere mich. Gott war wütend über ihre Arroganz und zerstörte den Turm vor seiner Fertigstellung.",
             },
         },
         actionL = {
@@ -74229,7 +74079,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -74254,7 +74104,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "那毁坏这种高层建筑物最快最省事的方法是？",
+                text = "Was ist dann der schnellste und einfachste Weg, ein hohes Gebäude wie dieses zu zerstören?",
             },
         },
         actionL = {
@@ -74263,7 +74113,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -74288,7 +74138,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "……啊，不愧是姐姐大人！黑子太佩服了！",
+                text = "...Ah, du bist der Beste, Onee-sama!",
             },
         },
         actionL = {
@@ -74297,7 +74147,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -74322,7 +74172,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "唯一的问题就是避雷针了。看，就是塔顶的那个。",
+                text = "Das einzige Problem sind die Blitzableiter. Sieh mal, da über dem Turm.",
             },
         },
         actionL = {
@@ -74331,7 +74181,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_E1",
         conditions = {
@@ -74356,7 +74206,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "简单，这就交给黑子吧！",
+                text = "Einfach, überlass es mir!",
             },
         },
         actionL = {
@@ -74365,7 +74215,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11801_E1",
         conditions = {
@@ -74390,7 +74240,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "（过了一会儿）",
+                text = "(Einen Moment später)",
             },
         },
         actionL = {
@@ -74424,7 +74274,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "……姐姐大人！我已经把避雷针全都移走了呢。",
+                text = "...Onee-sama! Ich habe alle Blitzableiter beseitigt.",
             },
         },
         actionL = {
@@ -74433,7 +74283,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -74458,7 +74308,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "嗯，我已经把事情告诉%s他们了，你帮他们快速撤离现场，越远越好。",
+                text = "Gut. Ich habe es %s schon gesagt. Hilf ihnen bei der Evakuierung, je weiter weg, desto besser.",
             },
         },
         actionL = {
@@ -74467,7 +74317,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -74492,7 +74342,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "是！姐姐大人！",
+                text = "Ja, Onee-sama!",
             },
         },
         actionL = {
@@ -74501,7 +74351,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -74526,7 +74376,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "那么……让你们见识一下真正的“落雷”吧！",
+                text = "Jetzt... zeige ich dir mal echten Donner!",
             },
         },
         actionL = {
@@ -74535,7 +74385,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11901_D1",
         conditions = {
@@ -74560,7 +74410,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "厉害……这也太强了吧！怎么做到的？！",
+                text = "Unglaublich... einfach unglaublich! Wie hast du das gemacht?!",
             },
         },
         actionL = {
@@ -74594,7 +74444,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "很简单的科学实践哦。借助了点空中积雨云内部的静电而已。",
+                text = "Es ist nur die Manifestation der einfachen Wissenschaft. Ich habe nur die statische Elektrizität der Regenwolken am Himmel genutzt.",
             },
         },
         actionL = {
@@ -74603,7 +74453,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -74628,7 +74478,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "不愧是我们常盘台的王牌！最强无敌的电击公主！姐姐大人太酷了！",
+                text = "Das Ass von Tokiwadai! Die allmächtige Elektro-Prinzessin! Onee-sama, du bist die Coolste!",
             },
         },
         actionL = {
@@ -74637,7 +74487,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "白井黑子",
+        name = "Kuroko Shirai",
         cameraAction = 0,
         headL = "11801_D1",
         conditions = {
@@ -74662,7 +74512,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "黑子！不要黏在我身上啊！",
+                text = "Kuroko! Werde nicht so anhänglich!",
             },
         },
         actionL = {
@@ -74671,7 +74521,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "御坂美琴",
+        name = "Mikoto Misaka",
         cameraAction = 0,
         headL = "11801_haixiu",
         conditions = {

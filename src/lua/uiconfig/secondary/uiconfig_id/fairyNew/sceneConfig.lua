@@ -429,5 +429,15 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="fairyEnergyBreakUp",
+			ui ="fairyEnergyBreakUp.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="fairyNew",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

@@ -81,6 +81,8 @@ function BrushMonster:init()
     self.brushId_ = 1
     self.waveMonsterId_ = {}
     self.enabled = true --刷怪器开关
+    self.checkTiming = 0
+    self.preBrushData = {}  --缓存抢波次刷怪的配置指令
 end
 --刷怪是否开启
 function BrushMonster:isEnabled()
@@ -167,6 +169,22 @@ function BrushMonster:update(delta)
             end
         end
     end
+    self:checkNextWaveData(delta)
+end
+
+function BrushMonster:checkNextWaveData(delta)
+    self.checkTiming = self.checkTiming + delta
+    if self.checkTiming > 1000 then
+        self.checkTiming = 0
+        local wave = battleController.getWave()
+        for k,v in pairs(self.preBrushData) do
+            if v.cfg.Count == wave then
+                self:onBurshEvent(v.cfg, v.param, v.call)
+                self.preBrushData[k] = nil
+                break
+            end
+        end
+    end
 end
 
 -- 关卡编辑器触发刷怪
@@ -174,6 +192,16 @@ function BrushMonster:onBurshEvent(brushCfg, params, callback)
     if not self:isEnabled() then 
         return 
     end
+
+    local newDunStepType = TabDataMgr:getData("DiscreteData",61007).data.newDunStepType or {}
+    if table.indexOf(newDunStepType,self.levelCfg_.dungeonType) ~= -1 then
+        local wave = battleController.getWave()
+        if brushCfg.Count > wave then
+            self.preBrushData[brushCfg.Count] = {cfg = brushCfg,param = params,call = callback}
+            return
+        end
+    end
+
     -- dump(brushCfg)
     -- dump(params)
     local type_ = brushCfg.Class
@@ -249,7 +277,6 @@ function BrushMonster:onBurshEvent(brushCfg, params, callback)
     if not self:resetMonsterPosition(monster, monsterSectionCfg) then
         return
     end
-
     local waveMonsterId = self.waveMonsterId_[brushCfg.Count] or {}
     for i, v in ipairs(monster) do
         v.dir = dir[i] or dir[1]
@@ -259,7 +286,6 @@ function BrushMonster:onBurshEvent(brushCfg, params, callback)
         self.brushId_ = self.brushId_ + 1
     end
     self.waveMonsterId_[brushCfg.Count] = waveMonsterId
-
     local function bootstrap()
         local node = TimingNode:create(duration, monster, callback)
         table.insert(self.timeNode_, node)

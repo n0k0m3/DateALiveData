@@ -30,10 +30,11 @@ function WelfareSignView:ctor( data )
 	self.countPage_ = 7
 	self.activityId = data
 	self.activityInfo = ActivityDataMgr2:getActivityInfo(self.activityId)
-	self.isScrollType = self.activityInfo.extendData.isScrollType		---1:用滑动表现形式 其他用翻页表现形式
-	self.SevenItemType = self.activityInfo.extendData.SevenItemType or 1		---1：横放的 2:斜着的
+	self.isScrollType = tonumber(self.activityInfo.extendData.isScrollType)		---1:用滑动表现形式 其他用翻页表现形式
+	self.SevenItemType = tonumber(self.activityInfo.extendData.SevenItemType) or 1		---1：横放的 2:斜着的
 	local uiName = self.activityInfo.extendData.uiName or "welfareSignView"
 	self.curResFileName = "style2"
+	print(self.activityInfo.extendData)
 	dump(uiName,"uiName")
 	self:init("lua.uiconfig.activity."..uiName)
 end
@@ -52,8 +53,8 @@ function WelfareSignView:initUI(ui)
 	self.Label_time_tip:setSkewX(10)
 	self.Label_time_tip:setTextById( 1710002)
 
-	self.btn_Last_ = TFDirector:getChildByPath(ui, "Button_last")
-	self.btn_Next_ = TFDirector:getChildByPath(ui, "Button_next")
+	self.btn_Last_ = TFDirector:getChildByPath(ui, "Button_last"):hide()
+	self.btn_Next_ = TFDirector:getChildByPath(ui, "Button_next"):hide()
 
 
 	self.Panel_page = TFDirector:getChildByPath(ui, "Panel_page")
@@ -69,6 +70,7 @@ function WelfareSignView:initUI(ui)
 	self.Image_content = TFDirector:getChildByPath(self.Panel_root, "Image_content")
 
 	local Panel_sevenItem1 = TFDirector:getChildByPath(self.Panel_prefab, "Panel_sevenItem1")
+	Panel_sevenItem1:getChildByName("Image_border"):show()
 	if self.isScrollType == 1 then
 		self.Panel_sevenItem = Panel_sevenItem1
 	end
@@ -98,12 +100,12 @@ function WelfareSignView:intUILogic()
 		self.Label_time_end:setText(endDateStr..GV_UTC_TIME_STRING)
 
 		--针对反十活动修改字体颜色
-		self.Label_time_begin:setFontColor(ccc3(235 , 149 , 245))
-		self.Label_time_end:setFontColor(ccc3(235 , 149 , 245))
-		self.Label_time_tip:setFontColor(ccc3(235 , 149 , 245))
-		self.Label_time_begin:enableOutline(ccc3(148,14 ,166) , 1)
-		self.Label_time_end:enableOutline(ccc3(148,14 ,166) , 1)
-		self.Label_time_tip:enableOutline(ccc3(148,14 ,166) , 1)
+		-- self.Label_time_begin:setFontColor(ccc3(235 , 149 , 245))
+		-- self.Label_time_end:setFontColor(ccc3(235 , 149 , 245))
+		-- self.Label_time_tip:setFontColor(ccc3(235 , 149 , 245))
+		-- self.Label_time_begin:enableOutline(ccc3(148,14 ,166) , 1)
+		-- self.Label_time_end:enableOutline(ccc3(148,14 ,166) , 1)
+		-- self.Label_time_tip:enableOutline(ccc3(148,14 ,166) , 1)
 	end
 
 	self.signItems_ = {}
@@ -143,7 +145,7 @@ function WelfareSignView:initPageTypeData()
 	end
 
 	--设置背景图
-	if self.activityInfo.extendData.activityShowType and (self.activityInfo.extendData.activityShowType == 6 or self.activityInfo.extendData.activityShowType == 91) then
+	if self.activityInfo.extendData.activityShowType and (self.activityInfo.extendData.activityShowType == 6 or self.activityInfo.extendData.activityShowType == 91) or self.activityInfo.extendData.uiName == "whiteQueenAssistSignView" then
 	elseif self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
 	else
 		self.Image_bg:setTexture("ui/activity/activityStyle/wefareSignActivity/"..self.curResFileName.."/bg"..self.selectPage_.. ".png")

@@ -164,16 +164,16 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF000000",
 										StrokeSize = 1,
 									},
-									hAlignment = "0",
-									height = "32",
-									ignoreSize = "True",
+									hAlignment = "1",
+									height = "0",
+									ignoreSize = "False",
 									name = "TextArea_title",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -184,11 +184,11 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 260,
-										PositionY = -32,
+										PositionX = 283,
+										PositionY = -33,
 									},
-									vAlignment = "0",
-									width = "62",
+									vAlignment = "1",
+									width = "231",
 									ZOrder = "1",
 								},
 								{

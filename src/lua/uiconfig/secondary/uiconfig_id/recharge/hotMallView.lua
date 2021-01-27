@@ -460,7 +460,7 @@ local t =
 												PositionX = -155,
 												PositionY = 75,
 											},
-											width = "186",
+											width = "210",
 											ZOrder = "1",
 										},
 										{
@@ -548,8 +548,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "20",
-											ignoreSize = "True",
+											height = "40",
+											ignoreSize = "False",
 											name = "Image_hotMallView_1",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -559,10 +559,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 101,
-												PositionY = -46,
+												PositionX = 94,
+												PositionY = -32,
 											},
-											width = "106",
+											width = "131",
 											ZOrder = "1",
 										},
 										{
@@ -591,8 +591,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "18",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -605,10 +605,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 101,
-												PositionY = -47,
+												PositionX = 94,
+												PositionY = -33,
 											},
-											width = "104",
+											width = "130",
 											ZOrder = "1",
 										},
 										{
@@ -654,7 +654,7 @@ local t =
 												PositionX = -105,
 												PositionY = -86,
 											},
-											width = "8",
+											width = "11",
 											ZOrder = "1",
 										},
 										{
@@ -700,7 +700,7 @@ local t =
 												PositionX = -120,
 												PositionY = -86,
 											},
-											width = "63",
+											width = "60",
 											ZOrder = "1",
 										},
 										{
@@ -774,7 +774,7 @@ local t =
 														PositionX = -55,
 														PositionY = 1,
 													},
-													width = "58",
+													width = "64",
 													ZOrder = "1",
 												},
 												{
@@ -821,7 +821,7 @@ local t =
 														PositionY = 1,
 													},
 													visible = "False",
-													width = "203",
+													width = "214",
 													ZOrder = "1",
 												},
 											},
@@ -928,7 +928,7 @@ local t =
 														PositionX = 34,
 														PositionY = -10,
 													},
-													width = "52",
+													width = "55",
 													ZOrder = "1",
 												},
 												{

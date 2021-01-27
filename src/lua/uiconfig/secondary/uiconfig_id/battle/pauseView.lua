@@ -128,7 +128,7 @@ local t =
 								PositionX = 568,
 								PositionY = 576,
 							},
-							width = "198",
+							width = "213",
 							ZOrder = "1",
 						},
 						{
@@ -201,7 +201,7 @@ local t =
 									{
 										PositionY = 2,
 									},
-									width = "118",
+									width = "132",
 									ZOrder = "1",
 								},
 							},
@@ -424,7 +424,7 @@ local t =
 											{
 												
 											},
-											width = "105",
+											width = "101",
 											ZOrder = "1",
 										},
 									},
@@ -568,7 +568,7 @@ local t =
 											{
 												PositionX = 510,
 											},
-											width = "144",
+											width = "135",
 											ZOrder = "1",
 										},
 										{
@@ -590,14 +590,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_tip1",
 											nTextAlign = "1",
@@ -613,7 +613,7 @@ local t =
 											{
 												PositionX = 85,
 											},
-											width = "163",
+											width = "135",
 											ZOrder = "1",
 										},
 									},
@@ -757,7 +757,7 @@ local t =
 											{
 												PositionX = 510,
 											},
-											width = "144",
+											width = "135",
 											ZOrder = "1",
 										},
 										{
@@ -779,14 +779,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_tip1",
 											nTextAlign = "1",
@@ -802,7 +802,7 @@ local t =
 											{
 												PositionX = 85,
 											},
-											width = "163",
+											width = "135",
 											ZOrder = "1",
 										},
 									},
@@ -946,7 +946,7 @@ local t =
 											{
 												PositionX = 510,
 											},
-											width = "144",
+											width = "135",
 											ZOrder = "1",
 										},
 										{
@@ -968,14 +968,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_tip1",
 											nTextAlign = "1",
@@ -991,7 +991,7 @@ local t =
 											{
 												PositionX = 85,
 											},
-											width = "163",
+											width = "135",
 											ZOrder = "1",
 										},
 									},
@@ -1043,14 +1043,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_dian2",
 											nTextAlign = "1",
@@ -1066,7 +1066,7 @@ local t =
 											{
 												PositionX = -63,
 											},
-											width = "131",
+											width = "105",
 											ZOrder = "1",
 										},
 										{
@@ -1178,18 +1178,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_tip1",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1201,7 +1201,7 @@ local t =
 											{
 												PositionX = -186,
 											},
-											width = "209",
+											width = "230",
 											ZOrder = "1",
 										},
 										{
@@ -1223,18 +1223,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_tip2",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1246,7 +1246,7 @@ local t =
 											{
 												PositionX = 61,
 											},
-											width = "209",
+											width = "230",
 											ZOrder = "1",
 										},
 									},
@@ -1298,14 +1298,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_dian1",
 											nTextAlign = "1",
@@ -1321,7 +1321,7 @@ local t =
 											{
 												PositionX = -63,
 											},
-											width = "131",
+											width = "105",
 											ZOrder = "1",
 										},
 										{
@@ -1486,14 +1486,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_dian3",
 											nTextAlign = "1",
@@ -1509,7 +1509,7 @@ local t =
 											{
 												PositionX = -63,
 											},
-											width = "134",
+											width = "112",
 											ZOrder = "1",
 										},
 										{
@@ -1718,7 +1718,7 @@ local t =
 								PositionX = 83,
 								PositionY = 17,
 							},
-							width = "21",
+							width = "20",
 							ZOrder = "1",
 						},
 						{
@@ -1731,7 +1731,7 @@ local t =
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
 							FontColor = "#FFFFFFFF",
-							fontName = "phanta.ttf",
+							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
 								IsShadow = false,
@@ -1740,14 +1740,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "16",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "46",
+							height = "0",
 							ignoreSize = "False",
 							name = "Label_desc",
 							nTextAlign = "0",
@@ -1762,7 +1762,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 104,
-								PositionY = 58,
+								PositionY = 62,
 							},
 							width = "264",
 							ZOrder = "1",
@@ -1837,7 +1837,7 @@ local t =
 									{
 										PositionX = 8,
 									},
-									width = "88",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -1889,14 +1889,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_time",
 									nTextAlign = "1",
@@ -1912,7 +1912,7 @@ local t =
 									{
 										PositionX = 8,
 									},
-									width = "88",
+									width = "77",
 									ZOrder = "1",
 								},
 							},

@@ -9,7 +9,7 @@ return {
     },
     [3] = {
         id = 3,
-        isopen = 0,
+        isopen = 1,
     },
     [4] = {
         id = 4,
@@ -29,11 +29,11 @@ return {
     },
     [8] = {
         id = 8,
-        isopen = 0,
+        isopen = 1,
     },
     [9] = {
         id = 9,
-        isopen = 0,
+        isopen = 1,
     },
     [10] = {
         id = 10,
@@ -41,10 +41,14 @@ return {
     },
     [11] = {
         id = 11,
-        isopen = 0,
+        isopen = 1,
     },
     [12] = {
         id = 12,
+        isopen = 0,
+    },
+    [13] = {
+        id = 13,
         isopen = 0,
     },
 }

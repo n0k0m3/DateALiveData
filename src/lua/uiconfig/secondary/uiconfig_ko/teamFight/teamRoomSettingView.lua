@@ -219,7 +219,7 @@ local t =
 								PositionX = 301,
 								PositionY = 450,
 							},
-							width = "114",
+							width = "110",
 							ZOrder = "1",
 							components = 
 							{
@@ -267,7 +267,7 @@ local t =
 									{
 										PositionX = 114,
 									},
-									width = "9",
+									width = "10",
 									ZOrder = "1",
 								},
 								{
@@ -313,7 +313,7 @@ local t =
 										PositionX = 123,
 										PositionY = -2,
 									},
-									width = "58",
+									width = "57",
 									ZOrder = "1",
 								},
 							},
@@ -542,8 +542,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_visible",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -558,7 +558,7 @@ local t =
 											{
 												PositionX = -60,
 											},
-											width = "103",
+											width = "240",
 											ZOrder = "1",
 										},
 									},
@@ -645,11 +645,11 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_visible",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -661,7 +661,7 @@ local t =
 											{
 												PositionX = -60,
 											},
-											width = "203",
+											width = "240",
 											ZOrder = "1",
 										},
 										{
@@ -773,8 +773,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_visible",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -789,7 +789,7 @@ local t =
 											{
 												PositionX = -60,
 											},
-											width = "143",
+											width = "240",
 											ZOrder = "1",
 										},
 										{
@@ -951,7 +951,7 @@ local t =
 													{
 														PositionX = -22,
 													},
-													width = "26",
+													width = "30",
 													ZOrder = "1",
 												},
 												{
@@ -1180,7 +1180,7 @@ local t =
 													{
 														PositionX = -22,
 													},
-													width = "26",
+													width = "30",
 													ZOrder = "1",
 												},
 												{

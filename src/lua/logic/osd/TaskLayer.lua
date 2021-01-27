@@ -28,6 +28,7 @@ function TaskLayer:initUI(ui)
     self.label_tip       = TFDirector:getChildByPath(self.panel_root, "Label_tip")
     self.label_complete  = TFDirector:getChildByPath(self.panel_root, "Label_complete")
     self.label_complete:hide()
+    self.label_complete:setTextAreaSize(CCSize(600 , 0))
     self.tabs  = {}
     self.taskListViews = {}
     for index = 1 , 2 do

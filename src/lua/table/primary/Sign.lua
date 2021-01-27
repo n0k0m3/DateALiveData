@@ -3649,14 +3649,4 @@ return {
         signTimes = 31,
         id = 365,
     },
-    [366] = {
-        name = "",
-        month = 2,
-        gifts = {
-            [500002] = 250,
-        },
-        icon = "",
-        signTimes = 29,
-        id = 366,
-    },
 }

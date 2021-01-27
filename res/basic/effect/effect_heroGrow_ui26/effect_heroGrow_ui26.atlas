@@ -12,8 +12,8 @@ final_00047_00000
   offset: 8, 0
   index: -1
 huangse
-  rotate: true
-  xy: 745, 680
+  rotate: false
+  xy: 208, 26
   size: 40, 31
   orig: 42, 33
   offset: 1, 1
@@ -25,25 +25,32 @@ images/de/effect_heroGrow_ui26_de_1_0
   orig: 328, 112
   offset: 19, 17
   index: -1
-images/en/01
+images/en/1
   rotate: false
-  xy: 527, 258
-  size: 80, 52
-  orig: 80, 52
+  xy: 967, 953
+  size: 52, 69
+  orig: 57, 69
   offset: 0, 0
   index: -1
-images/en/02
+images/en/2
   rotate: false
-  xy: 785, 803
-  size: 72, 52
-  orig: 80, 52
+  xy: 785, 713
+  size: 123, 65
+  orig: 124, 65
+  offset: 1, 0
+  index: -1
+images/en/3
+  rotate: false
+  xy: 785, 853
+  size: 145, 75
+  orig: 145, 75
   offset: 0, 0
   index: -1
-images/en/03
-  rotate: true
-  xy: 967, 942
-  size: 80, 52
-  orig: 80, 52
+images/en/4
+  rotate: false
+  xy: 323, 140
+  size: 136, 70
+  orig: 136, 70
   offset: 0, 0
   index: -1
 images/es/effect_heroGrow_ui26_es_1_0
@@ -69,42 +76,42 @@ images/id/effect_heroGrow_ui26_id_1_0
   index: -1
 images/id/effect_heroGrow_ui26_id_2_0
   rotate: false
-  xy: 785, 857
+  xy: 785, 780
   size: 137, 71
   orig: 153, 112
   offset: 6, 16
   index: -1
 images/ko/fang_00000
   rotate: false
-  xy: 323, 158
+  xy: 2, 5
   size: 104, 52
   orig: 104, 52
   offset: 0, 0
   index: -1
 images/ko/gong_00000
-  rotate: true
-  xy: 924, 879
+  rotate: false
+  xy: 590, 247
   size: 49, 48
   orig: 52, 52
   offset: 3, 3
   index: -1
 images/ko/kai_00000
   rotate: false
-  xy: 2, 5
+  xy: 108, 5
   size: 98, 52
   orig: 98, 52
   offset: 0, 0
   index: -1
 images/ko/neng_00000
-  rotate: false
-  xy: 613, 361
+  rotate: true
+  xy: 613, 297
   size: 50, 51
   orig: 52, 52
   offset: 0, 1
   index: -1
 images/ko/xin_00000
   rotate: false
-  xy: 613, 468
+  xy: 932, 876
   size: 49, 52
   orig: 52, 52
   offset: 1, 0
@@ -124,8 +131,8 @@ images/zh/fang_00000
   offset: 0, 0
   index: -1
 images/zh/gong_00000
-  rotate: false
-  xy: 859, 798
+  rotate: true
+  xy: 613, 458
   size: 62, 57
   orig: 65, 57
   offset: 0, 0
@@ -146,42 +153,42 @@ images/zh/neng_00000
   index: -1
 images/zh/xin_00000
   rotate: false
-  xy: 785, 739
+  xy: 527, 248
   size: 61, 62
   orig: 65, 62
   offset: 0, 0
   index: -1
 images/zn/fang_00000
   rotate: false
-  xy: 102, 5
+  xy: 613, 404
   size: 52, 52
   orig: 52, 52
   offset: 0, 0
   index: -1
 images/zn/gong_00000
   rotate: false
-  xy: 613, 309
+  xy: 461, 129
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 images/zn/kai_00000
   rotate: false
-  xy: 609, 257
+  xy: 461, 181
   size: 51, 50
   orig: 51, 50
   offset: 0, 0
   index: -1
 images/zn/neng_00000
-  rotate: false
-  xy: 156, 6
+  rotate: true
+  xy: 613, 349
   size: 53, 51
   orig: 53, 51
   offset: 0, 0
   index: -1
 images/zn/xin_00000
   rotate: false
-  xy: 613, 414
+  xy: 672, 476
   size: 52, 52
   orig: 52, 52
   offset: 0, 0

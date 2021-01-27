@@ -367,6 +367,9 @@ ATTR_CHILL              = 59,    --冰寒额外伤害点
 ATTR_NOW_HURT_STIFF     = 60,    --僵直(影响动画的播放速度)
 ATTR_DESPAIR      = 61, --绝望点(反折使用)
 ATTR_MAX_DESPAIR  = 62, --绝望点上限(反折使用)
+ATTR_SUPER_ENERGY = 63, --特殊能量
+ATTR_SUPER_ENERGY_LEVEL = 64, --能量消耗档位
+
 ----------------------
 
 -- 固定百分比属性（累加显示百分比）
@@ -797,6 +800,8 @@ enum.eBFEffectType =
     ET_TIMESCALE_CHANGE     = 13,       -- 角色时间减缓
     ET_TO_FLASH_BACK        = 14,       -- 回溯
     ET_SET_SKILL_CD         = 15,       -- 设置固定技能CD使用
+    ET_EFFECT_UNABLED       = 16,       -- 屏蔽指定buff效果
+    ET_FORCE_CHANGE_SKIN    = 17,       -- 强制变换形态
 }
 
 
@@ -948,16 +953,37 @@ E_FORM_1     = 62 ,--处于1形态中   变身相关的状态
 E_FORM_2     = 63 ,--处于2形态中   变身相关的状态
 E_ZM_SHMY    = 64 ,--正面伤害免疫   
 
-E_STATE_70 = 70 ,--暂无使用
-E_STATE_71 = 71 ,--暂无使用
-E_STATE_72 = 72 ,--暂无使用
-E_STATE_73 = 73 ,--暂无使用
-E_STATE_74 = 74 ,--暂无使用
-E_STATE_75 = 75 ,--暂无使用
-E_STATE_76 = 76 ,--暂无使用
-E_STATE_77 = 77 ,--暂无使用
-E_STATE_78 = 78 ,--暂无使用
-E_STATE_79 = 79 ,--暂无使用
+E_STATE_70 = 70 ,--
+E_STATE_71 = 71 ,--
+E_STATE_72 = 72 ,--
+E_STATE_73 = 73 ,--
+E_STATE_74 = 74 ,--
+E_STATE_75 = 75 ,--
+E_STATE_76 = 76 ,--
+E_STATE_77 = 77 ,--
+E_STATE_78 = 78 ,--
+E_STATE_79 = 79 ,--
+E_STATE_80 = 80 ,--
+E_STATE_81 = 81 ,--
+E_STATE_82 = 82 ,--
+E_STATE_83 = 83 ,--
+E_STATE_84 = 84 ,--
+E_STATE_85 = 85 ,--暂无使用
+E_STATE_86 = 86 ,--暂无使用
+E_STATE_87 = 87 ,--暂无使用
+E_STATE_88 = 88 ,--暂无使用
+E_STATE_89 = 89 ,--暂无使用
+E_STATE_90 = 90 ,--暂无使用
+E_STATE_91 = 91 ,--暂无使用
+E_STATE_92 = 92 ,--暂无使用
+E_STATE_93 = 93 ,--暂无使用
+E_STATE_94 = 94 ,--暂无使用
+E_STATE_95 = 95 ,--暂无使用
+E_STATE_96 = 96 ,--暂无使用
+E_STATE_97 = 97 ,--暂无使用
+E_STATE_98 = 98 ,--暂无使用
+E_STATE_99 = 99 ,--暂无使用
+E_STATE_100 = 100 ,--暂无使用
 
 E_XUAN_YUN_MY     = 101 ,--眩晕免疫
 E_DONG_JIE_MY     = 102 ,--冻结免疫
@@ -1394,6 +1420,8 @@ enum.eEvent = {
 	EVENT_SHOW__STACE_CLEAR        = "show_stace_clear"  , --战斗开始动画
 	-- EVENT_CREATE_HP_BAR            = "create_hp_bar"  , --觉醒血条
 	EVENT_HERO_DEAD                = "hero_dead"  , --角色死亡
+    EVENT_HERO_REMOVE                = "hero_remove"  , --角色非死亡移除
+
     EVENT_HERO_DEAD_BEFORE         = "hero_dead_before"  , --角色死亡前(开始渐隐小时时)
     EVENT_CAPTAIN_OFFSTAGE         = "captain_off_stage", -- 飞机 hp == 0，但还有子弹或者发射器存活
 	EVENT_ADD_COMBO                = "add_combo"  , --增加连击

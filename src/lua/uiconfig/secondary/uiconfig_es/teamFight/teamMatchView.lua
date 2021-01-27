@@ -500,8 +500,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_error_tip",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -516,7 +516,7 @@ local t =
 													{
 														
 													},
-													width = "358",
+													width = "260",
 													ZOrder = "1",
 												},
 											},
@@ -5422,14 +5422,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "14",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "44",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "0",
@@ -5442,10 +5442,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -116,
+										PositionX = -126,
 										PositionY = 6,
 									},
-									width = "320",
+									width = "330",
 									ZOrder = "1",
 								},
 							},

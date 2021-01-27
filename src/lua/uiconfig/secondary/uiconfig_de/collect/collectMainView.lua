@@ -1339,14 +1339,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "23",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "26",
 									ignoreSize = "True",
 									name = "Label_collect_title",
 									nTextAlign = "1",
@@ -1360,10 +1360,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -91,
-										PositionY = -55,
+										PositionX = -94,
+										PositionY = -48,
 									},
-									width = "126",
+									width = "111",
 									ZOrder = "1",
 								},
 								{

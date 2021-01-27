@@ -529,7 +529,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -553,7 +553,7 @@ local t =
 														PositionX = -10,
 														PositionY = 8,
 													},
-													width = "176",
+													width = "180",
 													ZOrder = "1",
 												},
 											},
@@ -672,14 +672,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "25",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_attr_title",
 											nTextAlign = "1",
@@ -694,9 +694,8 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 7,
-												PositionY = -2,
 											},
-											width = "396",
+											width = "346",
 											ZOrder = "1",
 										},
 									},
@@ -778,14 +777,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "27",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "31",
+											height = "23",
 											ignoreSize = "True",
 											name = "label_recast",
 											nTextAlign = "1",
@@ -804,7 +803,7 @@ local t =
 												PositionX = -1,
 												PositionY = -3,
 											},
-											width = "103",
+											width = "91",
 											ZOrder = "1",
 										},
 									},
@@ -860,14 +859,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "27",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "31",
+											height = "23",
 											ignoreSize = "True",
 											name = "label_sure",
 											nTextAlign = "1",
@@ -886,7 +885,7 @@ local t =
 												PositionX = -1,
 												PositionY = -3,
 											},
-											width = "153",
+											width = "126",
 											ZOrder = "1",
 										},
 									},
@@ -942,14 +941,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "27",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "31",
+											height = "23",
 											ignoreSize = "True",
 											name = "label_cancel",
 											nTextAlign = "1",
@@ -968,7 +967,7 @@ local t =
 												PositionX = -1,
 												PositionY = -3,
 											},
-											width = "125",
+											width = "105",
 											ZOrder = "1",
 										},
 									},
@@ -1109,7 +1108,7 @@ local t =
 												PositionX = 59,
 												PositionY = 17,
 											},
-											width = "33",
+											width = "32",
 											ZOrder = "1",
 										},
 									},
@@ -1339,15 +1338,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "label_skillName1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1363,7 +1362,7 @@ local t =
 														PositionX = 144,
 														PositionY = 73,
 													},
-													width = "90",
+													width = "110",
 													ZOrder = "1",
 												},
 												{
@@ -1385,7 +1384,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -1431,15 +1430,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "label_skillName2",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1455,7 +1454,7 @@ local t =
 														PositionX = 419,
 														PositionY = 74,
 													},
-													width = "90",
+													width = "110",
 													ZOrder = "1",
 												},
 												{
@@ -1579,7 +1578,7 @@ local t =
 														PositionX = 442,
 														PositionY = 43,
 													},
-													width = "55",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -1771,15 +1770,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "label_skillName1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1795,7 +1794,7 @@ local t =
 														PositionX = 144,
 														PositionY = 73,
 													},
-													width = "90",
+													width = "110",
 													ZOrder = "1",
 												},
 												{
@@ -1817,7 +1816,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -1887,7 +1886,7 @@ local t =
 														PositionX = 441,
 														PositionY = 43,
 													},
-													width = "55",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -2151,15 +2150,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "label_skillName1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -2175,7 +2174,7 @@ local t =
 														PositionX = 144,
 														PositionY = 73,
 													},
-													width = "90",
+													width = "110",
 													ZOrder = "1",
 												},
 												{
@@ -2197,7 +2196,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -2243,15 +2242,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "label_skillName2",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -2267,7 +2266,7 @@ local t =
 														PositionX = 419,
 														PositionY = 74,
 													},
-													width = "90",
+													width = "110",
 													ZOrder = "1",
 												},
 												{
@@ -2391,7 +2390,7 @@ local t =
 														PositionX = 442,
 														PositionY = 43,
 													},
-													width = "55",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -2583,15 +2582,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "label_skillName1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -2607,7 +2606,7 @@ local t =
 														PositionX = 144,
 														PositionY = 73,
 													},
-													width = "90",
+													width = "110",
 													ZOrder = "1",
 												},
 												{
@@ -2629,7 +2628,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -2699,7 +2698,7 @@ local t =
 														PositionX = 441,
 														PositionY = 43,
 													},
-													width = "55",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -2963,15 +2962,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "label_skillName1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -2987,7 +2986,7 @@ local t =
 														PositionX = 144,
 														PositionY = 73,
 													},
-													width = "90",
+													width = "110",
 													ZOrder = "1",
 												},
 												{
@@ -3009,7 +3008,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -3055,15 +3054,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "label_skillName2",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -3079,7 +3078,7 @@ local t =
 														PositionX = 419,
 														PositionY = 74,
 													},
-													width = "90",
+													width = "110",
 													ZOrder = "1",
 												},
 												{
@@ -3203,7 +3202,7 @@ local t =
 														PositionX = 442,
 														PositionY = 43,
 													},
-													width = "55",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -3395,15 +3394,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "label_skillName1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -3419,7 +3418,7 @@ local t =
 														PositionX = 144,
 														PositionY = 73,
 													},
-													width = "90",
+													width = "110",
 													ZOrder = "1",
 												},
 												{
@@ -3441,7 +3440,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -3511,7 +3510,7 @@ local t =
 														PositionX = 441,
 														PositionY = 43,
 													},
-													width = "55",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -3845,7 +3844,7 @@ local t =
 												PositionX = 144,
 												PositionY = 73,
 											},
-											width = "90",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -3937,7 +3936,7 @@ local t =
 												PositionX = 419,
 												PositionY = 74,
 											},
-											width = "90",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -4061,7 +4060,7 @@ local t =
 												PositionX = 442,
 												PositionY = 43,
 											},
-											width = "55",
+											width = "58",
 											ZOrder = "1",
 										},
 										{
@@ -4277,7 +4276,7 @@ local t =
 												PositionX = 144,
 												PositionY = 73,
 											},
-											width = "90",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -4369,7 +4368,7 @@ local t =
 												PositionX = 441,
 												PositionY = 43,
 											},
-											width = "55",
+											width = "58",
 											ZOrder = "1",
 										},
 										{

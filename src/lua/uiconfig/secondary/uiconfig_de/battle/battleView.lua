@@ -538,7 +538,7 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "1",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									bgColorOpacity = "50",
 									bIsOpenClipping = "False",
 									classname = "MEPanel",
@@ -547,7 +547,7 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "68",
+									height = "80",
 									ignoreSize = "False",
 									name = "Panel_captain",
 									panelTexturePath = "ui/battle/005.png",
@@ -559,9 +559,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 13,
-										PositionY = 634,
+										PositionY = 643,
 										LeftPositon = 13,
-										TopPosition = 6,
+										TopPosition = -3,
 										relativeToName = "Panel_ui",
 										nType = 3,
 									},
@@ -674,7 +674,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 68,
-												PositionY = -48,
+												PositionY = -43,
 											},
 											width = "49",
 											ZOrder = "1",
@@ -719,10 +719,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 236,
-												PositionY = -48,
+												PositionX = 248,
+												PositionY = -43,
 											},
-											visible = "False",
 											width = "31",
 											ZOrder = "1",
 										},
@@ -746,8 +745,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 179,
-												PositionY = -45,
+												PositionX = 145,
+												PositionY = -61,
 											},
 											visible = "False",
 											width = "144",
@@ -804,8 +803,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 177,
-												PositionY = -46,
+												PositionX = 143,
+												PositionY = -62,
 											},
 											visible = "False",
 											width = "146",
@@ -862,8 +861,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 177,
-												PositionY = -47,
+												PositionX = 143,
+												PositionY = -63,
 											},
 											visible = "False",
 											width = "102",
@@ -920,8 +919,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 177,
-												PositionY = -46,
+												PositionX = 143,
+												PositionY = -62,
 											},
 											visible = "False",
 											width = "146",
@@ -978,8 +977,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 143,
-												PositionY = -46,
+												PositionX = 109,
+												PositionY = -62,
 											},
 											visible = "False",
 											width = "82",
@@ -1123,8 +1122,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 177,
-												PositionY = -46,
+												PositionX = 143,
+												PositionY = -62,
 											},
 											visible = "False",
 											width = "137",
@@ -1181,8 +1180,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 177,
-												PositionY = -46,
+												PositionX = 143,
+												PositionY = -62,
 											},
 											visible = "False",
 											width = "124",
@@ -1239,8 +1238,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 174,
-												PositionY = -44,
+												PositionX = 140,
+												PositionY = -60,
 											},
 											width = "146",
 											ZOrder = "1",
@@ -1333,8 +1332,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 45,
-												PositionY = -34,
+												PositionX = 42,
+												PositionY = -40,
 												relativeToName = "Panel",
 											},
 											width = "58",
@@ -1455,8 +1454,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 174,
-												PositionY = -47,
+												PositionX = 140,
+												PositionY = -63,
 											},
 											visible = "False",
 											ZOrder = "2",
@@ -1487,8 +1486,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 157,
-												PositionY = -47,
+												PositionX = 123,
+												PositionY = -63,
 											},
 											visible = "False",
 											ZOrder = "2",
@@ -1519,8 +1518,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 176,
-												PositionY = -43,
+												PositionX = 142,
+												PositionY = -59,
 											},
 											visible = "False",
 											ZOrder = "2",
@@ -1627,8 +1626,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 174,
-												PositionY = -44,
+												PositionX = 140,
+												PositionY = -60,
 											},
 											visible = "False",
 											ZOrder = "2",
@@ -6266,8 +6265,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 410,
-												PositionY = 28,
+												PositionX = 375,
+												PositionY = 26,
 											},
 											width = "28",
 											ZOrder = "1",
@@ -6291,18 +6290,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_tip1",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -6312,17 +6311,17 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 435,
+												PositionX = 395,
 												PositionY = 28,
 											},
-											width = "94",
+											width = "326",
 											ZOrder = "1",
 										},
 										{
 											controlID = "Label_tip2_Panel_progress_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
 											UUID = "eb7de79c_bd55_4ca7_812c_8e3943021f92",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -6337,14 +6336,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF22343F",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_tip2",
 											nTextAlign = "1",
@@ -6358,10 +6357,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 730,
+												PositionX = 732,
 												PositionY = 28,
 											},
-											width = "95",
+											width = "86",
 											ZOrder = "1",
 										},
 									},

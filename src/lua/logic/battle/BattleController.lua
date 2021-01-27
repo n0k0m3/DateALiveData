@@ -67,6 +67,7 @@ function battleController.registerEvents()
     EventMgr:addEventListener(this, EV_SETTING_CHANGE, this._onSettingChange)
     --角色被击杀
     EventMgr:addEventListener(this, eEvent.EVENT_HERO_DEAD, this._onSlain)
+    EventMgr:addEventListener(this, eEvent.EVENT_HERO_REMOVE, this._onHeroRemove)
     EventMgr:addEventListener(this, eEvent.EVENT_ADD_COMBO, this._onComboEvnet)
     --统计相关
     EventMgr:addEventListener(this, eEvent.EVENT_NOTICE_HP, this._onNoticeHp)
@@ -359,6 +360,13 @@ end
 --拾取道具
 function battleController._onPickUp(data)
     statistics.pickUpEvent(data.itemType)
+end
+
+function battleController._onHeroRemove(hero)
+    local campType = hero:getCampType()
+    if campType == eCampType.Monster then
+        brushMonster:doSlain(hero)
+    end
 end
 
 --角色被击杀
@@ -1624,6 +1632,10 @@ end
 --设置波次
 function battleController.setWave(wave)
     victoryDecide.setWave(wave)
+end
+
+function battleController.getWave()
+    return victoryDecide.getWave()
 end
 
 function battleController.eventCheck(hero)

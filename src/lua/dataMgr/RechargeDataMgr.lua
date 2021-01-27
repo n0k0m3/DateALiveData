@@ -188,7 +188,10 @@ function RechargeDataMgr:recvGetOrderNo(event)
 		_type = 6;
 	end
 	--end]]
-
+	if event.data.orderNo == "" then
+		Utils:showTips(190000568)
+		return
+	end
 	if HeitaoSdk then
 		HeitaoSdk.pay(tostring(self.curPayId),
 			cfg.name2,
@@ -322,7 +325,11 @@ function RechargeDataMgr:getGiftDataByInterfaceType(giftType)
 
 	local serverTime = ServerDataMgr:getServerTime()
 	for k,v in pairs(self.goodsList.rechargeGiftBagCfg) do
-		if v.interfaceType == giftType and serverTime >= v.startDate and serverTime < v.endDate then
+		if v.interfaceType == giftType and v.startDate and v.endDate then
+			if serverTime >= v.startDate and serverTime < v.endDate then
+				table.insert(list,v)
+			end
+		elseif v.interfaceType == giftType then
 			table.insert(list,v);
 		end
 	end

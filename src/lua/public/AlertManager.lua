@@ -496,7 +496,19 @@ function AlertManager:hideInVisibleLayer( )
                     "RankNoticeView",
                     "LeagueSendRedPacketView",
                     "DetectiveMainView",
-
+                    "ExploreMainView",
+                    "CountryDetailsView",
+                    "ExploreCountryView",
+                    "FlyShipMainView",
+                    "CommonRoomView",
+                    "CommandTaskView",
+                    "CommandSkillView",
+                    "WeaponRoomView",
+                    "AccessoriesRoomView",
+                    "ExhibitionRoomView",
+                    "ExhibitionRoomInfoView",
+                    "GemComposeView",
+                    "TaskLayer",
                 }
                 local isInsert = true
                 for k , v in pairs(removeShowName) do

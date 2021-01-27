@@ -548,8 +548,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "20",
-											ignoreSize = "True",
+											height = "40",
+											ignoreSize = "False",
 											name = "Image_hotMallView_1",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -559,10 +559,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 101,
-												PositionY = -46,
+												PositionX = 92,
+												PositionY = -37,
 											},
-											width = "106",
+											width = "130",
 											ZOrder = "1",
 										},
 										{
@@ -574,8 +574,8 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFCAE3F5",
-											fontName = "font/fangzheng_zhunyuan.ttf",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -591,8 +591,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -605,10 +605,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 101,
-												PositionY = -47,
+												PositionX = 91,
+												PositionY = -39,
 											},
-											width = "78",
+											width = "130",
 											ZOrder = "1",
 										},
 										{
@@ -654,7 +654,7 @@ local t =
 												PositionX = -108,
 												PositionY = -86,
 											},
-											width = "8",
+											width = "11",
 											ZOrder = "1",
 										},
 										{
@@ -928,7 +928,7 @@ local t =
 														PositionX = 34,
 														PositionY = -10,
 													},
-													width = "51",
+													width = "53",
 													ZOrder = "1",
 												},
 												{

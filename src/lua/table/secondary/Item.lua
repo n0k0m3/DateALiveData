@@ -71387,6 +71387,50 @@ return {
         },
         des = "时装碎片，兑换时装专用货币",
     },
+    [564010] = {
+        isHide = false,
+        superType = 6,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 9999999,
+        outTime = 0,
+        smallType = 0,
+        bagType = 5,
+        autoUse = false,
+        nameTextId = 190000642,
+        icon = "icon/item/goods/566024.png",
+        quality = 4,
+        desTextId = 190000645,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 564010,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+        },
+        subType = 4,
+        batchUse = true,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 99999999,
+        dealProfit = {
+        },
+        order = 1,
+        accessId = {
+        },
+        des = "在应援活动中捐赠道具后可获得，可用于解锁或兑换活动奖励",
+    },
     [500128] = {
         isHide = false,
         superType = 6,
@@ -71426,6 +71470,50 @@ return {
         accessId = {
         },
         des = "",
+    },
+    [564011] = {
+        isHide = false,
+        superType = 6,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 9999999,
+        outTime = 0,
+        smallType = 0,
+        bagType = 5,
+        autoUse = false,
+        nameTextId = 190000643,
+        icon = "ui/fairy/new_ui/energy/ICON_linglidian.png",
+        quality = 4,
+        desTextId = 190000646,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 564011,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+        },
+        subType = 4,
+        batchUse = true,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 99999999,
+        dealProfit = {
+        },
+        order = 1,
+        accessId = {
+        },
+        des = "通过应援任务获得，可用于捐赠后获得积分",
     },
     [566059] = {
         isHide = false,
@@ -71470,6 +71558,50 @@ return {
         accessId = {
         },
         des = "活动积分，用于购买活动奖励",
+    },
+    [564012] = {
+        isHide = false,
+        superType = 6,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 9999999,
+        outTime = 0,
+        smallType = 0,
+        bagType = 5,
+        autoUse = false,
+        nameTextId = 14075,
+        icon = "icon/item/goods/580004.png",
+        quality = 4,
+        desTextId = 190000646,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 564012,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+        },
+        subType = 4,
+        batchUse = true,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 99999999,
+        dealProfit = {
+        },
+        order = 1,
+        accessId = {
+        },
+        des = "通过应援任务获得，可用于捐赠后获得积分",
     },
     [500129] = {
         isHide = false,

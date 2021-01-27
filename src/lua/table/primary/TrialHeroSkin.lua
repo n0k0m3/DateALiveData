@@ -2226,7 +2226,7 @@ return {
         smallType = 0,
         sellProfit = {
         },
-        fitting = false,
+        fitting = true,
         moveType = 1,
         totalMax = 1,
         convertMax = {

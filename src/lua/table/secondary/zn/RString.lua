@@ -4083,7 +4083,7 @@ return {
         [1] = {
             baseName = "MFLiHei_Noncommercial",
             name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FE3F9E",
+            color = "#000000",
             text = "%s",
             clickId = "",
             size = 20,
@@ -4099,7 +4099,7 @@ return {
         [3] = {
             baseName = "MFLiHei_Noncommercial",
             name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FE3F9E",
+            color = "#000000",
             text = "%s",
             clickId = "",
             size = 20,
@@ -4363,7 +4363,7 @@ return {
         [1] = {
             baseName = "MFLiHei_Noncommercial",
             name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FE3F9E",
+            color = "#000000",
             text = "%s",
             clickId = "",
             size = 20,
@@ -4379,7 +4379,7 @@ return {
         [3] = {
             baseName = "MFLiHei_Noncommercial",
             name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FE3F9E",
+            color = "#000000",
             text = "%s",
             clickId = "",
             size = 20,
@@ -4859,7 +4859,7 @@ return {
         [1] = {
             baseName = "MFLiHei_Noncommercial",
             name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FE3F9E",
+            color = "#000000",
             text = "%s",
             clickId = "",
             size = 20,
@@ -4875,7 +4875,7 @@ return {
         [3] = {
             baseName = "MFLiHei_Noncommercial",
             name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FE3F9E",
+            color = "#000000",
             text = "%s",
             clickId = "",
             size = 20,
@@ -5035,7 +5035,7 @@ return {
         [1] = {
             baseName = "MFLiHei_Noncommercial",
             name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FE3F9E",
+            color = "#000000",
             text = "%s",
             clickId = "",
             size = 20,
@@ -5051,7 +5051,7 @@ return {
         [3] = {
             baseName = "MFLiHei_Noncommercial",
             name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FE3F9E",
+            color = "#000000",
             text = "%s",
             clickId = "",
             size = 20,

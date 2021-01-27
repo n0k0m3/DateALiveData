@@ -2013,7 +2013,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "510",
 									ZOrder = "1",
 									components = 
@@ -5363,14 +5362,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_skill_1_name",
 													nTextAlign = "1",
@@ -5390,7 +5389,7 @@ local t =
 														TopPosition = 331,
 														relativeToName = "Panel",
 													},
-													width = "149",
+													width = "122",
 													ZOrder = "1",
 												},
 												{
@@ -5463,14 +5462,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_skill_2_name",
 													nTextAlign = "1",
@@ -5490,7 +5489,7 @@ local t =
 														TopPosition = 8,
 														relativeToName = "Panel",
 													},
-													width = "149",
+													width = "122",
 													ZOrder = "1",
 												},
 												{
@@ -5563,14 +5562,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_skill_3_name",
 													nTextAlign = "1",
@@ -5590,7 +5589,7 @@ local t =
 														TopPosition = 331,
 														relativeToName = "Panel",
 													},
-													width = "149",
+													width = "122",
 													ZOrder = "1",
 												},
 												{
@@ -5711,7 +5710,7 @@ local t =
 																	compPath = "luacomponents.common.MEIconLabel",
 																	dstBlendFunc = "771",
 																	FontColor = "#FFFFFFFF",
-																	fontName = "phanta.ttf",
+																	fontName = "font/fangzheng_zhunyuan.ttf",
 																	fontShadow = 
 																	{
 																		IsShadow = false,
@@ -5720,7 +5719,7 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "20",
+																	fontSize = "18",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
@@ -7153,6 +7152,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "650",
 									ZOrder = "1",
 									components = 
@@ -15251,14 +15251,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "22",
+																	fontSize = "18",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "60",
+																	height = "0",
 																	ignoreSize = "False",
 																	name = "Label_suit",
 																	nTextAlign = "1",
@@ -18430,8 +18430,6 @@ local t =
 									ignoreSize = "True",
 									name = "Button_skinDetail",
 									normal = "ui/fairy/new_ui/new_50.png",
-									scaleX = "0.8",
-									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",

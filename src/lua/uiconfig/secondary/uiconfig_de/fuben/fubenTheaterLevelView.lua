@@ -227,7 +227,7 @@ local t =
 										PositionX = -2,
 										PositionY = -3,
 									},
-									width = "83",
+									width = "64",
 									ZOrder = "1",
 								},
 							},
@@ -257,8 +257,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 471,
-								PositionY = 199,
+								PositionX = 463,
+								PositionY = 186,
 								LeftPositon = 964,
 								TopPosition = 121,
 								relativeToName = "Panel_root",
@@ -287,7 +287,7 @@ local t =
 									flipX = "False",
 									flipY = "False",
 									height = "50",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Button_diff_1",
 									normal = "ui/fuben/diff_expand.png",
 									sizepercentx = "0",
@@ -300,7 +300,7 @@ local t =
 										PositionY = -25,
 									},
 									UItype = "Button",
-									width = "150",
+									width = "180",
 									ZOrder = "1",
 									components = 
 									{
@@ -324,14 +324,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_diff",
 											nTextAlign = "1",
@@ -347,7 +347,7 @@ local t =
 											{
 												
 											},
-											width = "82",
+											width = "143",
 											ZOrder = "1",
 										},
 									},
@@ -365,7 +365,7 @@ local t =
 									flipX = "False",
 									flipY = "False",
 									height = "50",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Button_diff_2",
 									normal = "ui/fuben/diff_expand.png",
 									sizepercentx = "0",
@@ -378,7 +378,7 @@ local t =
 										PositionY = -75,
 									},
 									UItype = "Button",
-									width = "150",
+									width = "180",
 									ZOrder = "1",
 									components = 
 									{
@@ -402,14 +402,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_diff",
 											nTextAlign = "1",
@@ -425,7 +425,7 @@ local t =
 											{
 												
 											},
-											width = "82",
+											width = "143",
 											ZOrder = "1",
 										},
 									},
@@ -443,7 +443,7 @@ local t =
 									flipX = "False",
 									flipY = "False",
 									height = "50",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Button_diff_3",
 									normal = "ui/fuben/diff_expand.png",
 									sizepercentx = "0",
@@ -456,7 +456,7 @@ local t =
 										PositionY = -125,
 									},
 									UItype = "Button",
-									width = "150",
+									width = "180",
 									ZOrder = "1",
 									components = 
 									{
@@ -480,14 +480,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_diff",
 											nTextAlign = "1",
@@ -503,7 +503,7 @@ local t =
 											{
 												
 											},
-											width = "82",
+											width = "143",
 											ZOrder = "1",
 										},
 									},
@@ -651,7 +651,7 @@ local t =
 									controlID = "Label_chapter_order_Image_chapter_Panel_root_Panel-fubenTheaterLevelView_Layer1_fuben_Game",
 									UUID = "49041dcb_8d44_42ee_8c36_7c03af34451a",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -673,7 +673,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_chapter_order",
 									nTextAlign = "1",
@@ -687,10 +687,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 31,
-										PositionY = -2,
+										PositionX = 16,
+										PositionY = -3,
 									},
-									width = "43",
+									width = "64",
 									ZOrder = "1",
 								},
 								{
@@ -733,10 +733,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 71,
-										PositionY = -1,
+										PositionX = 114,
 									},
-									width = "51",
+									width = "64",
 									ZOrder = "1",
 								},
 								{
@@ -762,7 +761,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 265,
+										PositionX = 319,
 									},
 									UItype = "Button",
 									width = "42",
@@ -859,7 +858,7 @@ local t =
 							flipX = "False",
 							flipY = "False",
 							height = "46",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Button_hard",
 							normal = "ui/fuben/diff_switch.png",
 							sizepercentx = "0",
@@ -876,7 +875,7 @@ local t =
 								relativeToName = "Panel_root",
 							},
 							UItype = "Button",
-							width = "152",
+							width = "180",
 							ZOrder = "1",
 							components = 
 							{
@@ -900,14 +899,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF4C6189",
 										StrokeSize = 1,
 									},
-									height = "29",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_hard",
 									nTextAlign = "1",
@@ -921,9 +920,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 14,
+										PositionX = 23,
 									},
-									width = "52",
+									width = "82",
 									ZOrder = "1",
 								},
 								{
@@ -946,7 +945,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -51,
+										PositionX = -62,
 									},
 									width = "30",
 									ZOrder = "1",
@@ -1007,7 +1006,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_theater_name",
 									nTextAlign = "1",
@@ -1024,7 +1023,7 @@ local t =
 										PositionX = 118,
 										PositionY = 142,
 									},
-									width = "122",
+									width = "230",
 									ZOrder = "1",
 								},
 								{
@@ -1209,7 +1208,7 @@ local t =
 										PositionX = 118,
 										PositionY = -66,
 									},
-									width = "179",
+									width = "224",
 									ZOrder = "1",
 								},
 								{
@@ -1301,7 +1300,7 @@ local t =
 										PositionX = 120,
 										PositionY = -135,
 									},
-									width = "162",
+									width = "264",
 									ZOrder = "1",
 								},
 								{
@@ -1378,7 +1377,7 @@ local t =
 											{
 												
 											},
-											width = "58",
+											width = "194",
 											ZOrder = "1",
 										},
 									},
@@ -1605,8 +1604,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -124,
-								PositionY = 219,
+								PositionX = -42,
+								PositionY = 220,
 							},
 							UItype = "Button",
 							width = "62",
@@ -1717,7 +1716,7 @@ local t =
 												StrokeColor = "#FFFFFFFF",
 												StrokeSize = 2,
 											},
-											height = "19",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_newPlayerNumExp",
 											nTextAlign = "1",
@@ -1734,7 +1733,7 @@ local t =
 												PositionX = -12,
 												PositionY = -12,
 											},
-											width = "36",
+											width = "30",
 											ZOrder = "1",
 										},
 										{
@@ -1763,7 +1762,7 @@ local t =
 												StrokeColor = "#FFFFFFFF",
 												StrokeSize = 2,
 											},
-											height = "19",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_newPlayerNumCoin",
 											nTextAlign = "1",
@@ -1780,7 +1779,7 @@ local t =
 												PositionX = 55,
 												PositionY = -12,
 											},
-											width = "36",
+											width = "30",
 											ZOrder = "1",
 										},
 									},
@@ -1923,7 +1922,7 @@ local t =
 													{
 														PositionX = -6,
 													},
-													width = "143",
+													width = "280",
 													ZOrder = "1",
 												},
 											},
@@ -2027,7 +2026,7 @@ local t =
 												PositionX = 16,
 												PositionY = -5,
 											},
-											width = "74",
+											width = "82",
 											ZOrder = "1",
 										},
 										{
@@ -2073,7 +2072,7 @@ local t =
 												PositionX = 23,
 												PositionY = -15,
 											},
-											width = "32",
+											width = "35",
 											ZOrder = "1",
 										},
 										{
@@ -2147,7 +2146,7 @@ local t =
 												PositionX = 20,
 												PositionY = -15,
 											},
-											width = "7",
+											width = "6",
 											ZOrder = "1",
 										},
 									},
@@ -2411,7 +2410,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_unselect_order",
 									nTextAlign = "1",
@@ -2428,7 +2427,7 @@ local t =
 										PositionX = 35,
 										PositionY = -51,
 									},
-									width = "18",
+									width = "13",
 									ZOrder = "1",
 								},
 								{
@@ -2485,7 +2484,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_select_order",
 											nTextAlign = "1",
@@ -2502,7 +2501,7 @@ local t =
 												PositionX = 14,
 												PositionY = -54,
 											},
-											width = "55",
+											width = "93",
 											ZOrder = "1",
 										},
 									},
@@ -2586,7 +2585,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_time_lock",
 											nTextAlign = "1",
@@ -2602,7 +2601,7 @@ local t =
 											{
 												PositionY = -52,
 											},
-											width = "62",
+											width = "130",
 											ZOrder = "1",
 										},
 									},
@@ -2699,7 +2698,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -2716,7 +2715,7 @@ local t =
 										PositionX = -69,
 										PositionY = 44,
 									},
-									width = "90",
+									width = "237",
 									ZOrder = "1",
 								},
 								{
@@ -2950,7 +2949,7 @@ local t =
 											{
 												
 											},
-											width = "88",
+											width = "89",
 											ZOrder = "1",
 										},
 									},
@@ -3001,15 +3000,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_select_option",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -3024,7 +3023,7 @@ local t =
 											{
 												
 											},
-											width = "88",
+											width = "180",
 											ZOrder = "1",
 										},
 									},
@@ -3142,18 +3141,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "14",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "16",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -3166,7 +3165,7 @@ local t =
 										PositionX = -76,
 										PositionY = 16,
 									},
-									width = "103",
+									width = "138",
 									ZOrder = "1",
 								},
 								{
@@ -3512,14 +3511,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -3536,7 +3535,7 @@ local t =
 										PositionX = -77,
 										PositionY = 16,
 									},
-									width = "103",
+									width = "156",
 									ZOrder = "1",
 								},
 								{
@@ -3766,7 +3765,7 @@ local t =
 									{
 										PositionX = -55,
 									},
-									width = "31",
+									width = "28",
 									ZOrder = "1",
 								},
 								{
@@ -4048,7 +4047,7 @@ local t =
 									{
 										PositionX = -55,
 									},
-									width = "31",
+									width = "28",
 									ZOrder = "1",
 								},
 								{
@@ -4293,7 +4292,7 @@ local t =
 											{
 												
 											},
-											width = "88",
+											width = "89",
 											ZOrder = "1",
 										},
 									},
@@ -4344,14 +4343,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_select_condition",
 											nTextAlign = "1",
@@ -4367,7 +4366,7 @@ local t =
 											{
 												
 											},
-											width = "88",
+											width = "74",
 											ZOrder = "1",
 										},
 									},
@@ -4556,7 +4555,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -4572,7 +4571,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "83",
+											width = "217",
 											ZOrder = "1",
 										},
 									},
@@ -4982,7 +4981,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -4998,7 +4997,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "83",
+											width = "217",
 											ZOrder = "1",
 										},
 									},
@@ -5206,7 +5205,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -5223,7 +5222,7 @@ local t =
 										PositionX = -69,
 										PositionY = 44,
 									},
-									width = "90",
+									width = "237",
 									ZOrder = "1",
 								},
 								{
@@ -5654,7 +5653,7 @@ local t =
 											{
 												
 											},
-											width = "88",
+											width = "89",
 											ZOrder = "1",
 										},
 									},
@@ -5705,15 +5704,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_select_condition",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -5728,7 +5727,7 @@ local t =
 											{
 												
 											},
-											width = "88",
+											width = "180",
 											ZOrder = "1",
 										},
 									},
@@ -5844,7 +5843,7 @@ local t =
 									{
 										PositionX = -55,
 									},
-									width = "31",
+									width = "28",
 									ZOrder = "1",
 								},
 								{
@@ -6126,7 +6125,7 @@ local t =
 									{
 										PositionX = -55,
 									},
-									width = "31",
+									width = "28",
 									ZOrder = "1",
 								},
 								{
@@ -6305,7 +6304,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -6322,7 +6321,7 @@ local t =
 										PositionX = -29,
 										PositionY = 14,
 									},
-									width = "103",
+									width = "194",
 									ZOrder = "1",
 								},
 								{

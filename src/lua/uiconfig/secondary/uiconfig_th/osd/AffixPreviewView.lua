@@ -489,7 +489,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "25",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,

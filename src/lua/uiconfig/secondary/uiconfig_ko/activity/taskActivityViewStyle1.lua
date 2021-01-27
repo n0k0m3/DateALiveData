@@ -162,7 +162,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_timing",
 									nTextAlign = "1",
@@ -179,7 +179,7 @@ local t =
 										PositionX = 452,
 										PositionY = -48,
 									},
-									width = "118",
+									width = "94",
 									ZOrder = "1",
 								},
 								{
@@ -255,7 +255,7 @@ local t =
 										StrokeColor = "#FFC97CD4",
 										StrokeSize = 2,
 									},
-									height = "29",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_time_end",
 									nTextAlign = "0",
@@ -274,7 +274,7 @@ local t =
 										PositionY = -19,
 									},
 									visible = "False",
-									width = "84",
+									width = "101",
 									ZOrder = "1",
 								},
 								{
@@ -330,7 +330,7 @@ local t =
 										StrokeColor = "#FFC97CD4",
 										StrokeSize = 2,
 									},
-									height = "29",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_time_begin",
 									nTextAlign = "0",
@@ -349,7 +349,7 @@ local t =
 										PositionY = 11,
 									},
 									visible = "False",
-									width = "84",
+									width = "101",
 									ZOrder = "1",
 								},
 								{
@@ -378,7 +378,7 @@ local t =
 										StrokeColor = "#FFC97CD4",
 										StrokeSize = 2,
 									},
-									height = "29",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_time_tip",
 									nTextAlign = "0",
@@ -397,7 +397,7 @@ local t =
 										PositionY = 42,
 									},
 									visible = "False",
-									width = "84",
+									width = "101",
 									ZOrder = "1",
 								},
 							},
@@ -659,9 +659,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -287,
-										PositionY = -39,
+										PositionY = -32,
 									},
-									width = "75",
+									width = "103",
 									ZOrder = "1",
 								},
 								{
@@ -705,9 +705,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -51,
-										PositionY = -39,
+										PositionY = -51,
 									},
-									width = "73",
+									width = "74",
 									ZOrder = "1",
 								},
 								{
@@ -844,7 +844,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_receive",
 											nTextAlign = "1",
@@ -860,7 +860,7 @@ local t =
 											{
 												
 											},
-											width = "55",
+											width = "49",
 											ZOrder = "1",
 										},
 									},
@@ -891,7 +891,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_geted",
 									nTextAlign = "1",
@@ -908,7 +908,7 @@ local t =
 										PositionX = 369,
 										PositionY = -7,
 									},
-									width = "81",
+									width = "105",
 									ZOrder = "1",
 								},
 								{
@@ -955,7 +955,7 @@ local t =
 										PositionY = 52,
 									},
 									visible = "False",
-									width = "75",
+									width = "87",
 									ZOrder = "1",
 									components = 
 									{
@@ -1046,7 +1046,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_goto",
 											nTextAlign = "1",
@@ -1062,7 +1062,7 @@ local t =
 											{
 												
 											},
-											width = "54",
+											width = "50",
 											ZOrder = "1",
 										},
 									},

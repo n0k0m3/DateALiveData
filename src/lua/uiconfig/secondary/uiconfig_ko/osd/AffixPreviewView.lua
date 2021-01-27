@@ -255,7 +255,7 @@ local t =
 										PositionX = -220,
 										PositionY = 178,
 									},
-									width = "111",
+									width = "115",
 									ZOrder = "1",
 								},
 								{
@@ -487,14 +487,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "25",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "58",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "0",

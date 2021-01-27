@@ -31,6 +31,8 @@ function addActivityItem(self)
     Panel_activityItem.defaultSize = Panel_activityItem:getContentSize()
     Panel_activityItem.ImageSelect = TFDirector:getChildByPath(Panel_activityItem, "ImageSelect")
     Panel_activityItem.ImageNormal = TFDirector:getChildByPath(Panel_activityItem, "ImageNormal")
+    Panel_activityItem.ImageSelect.Image_icon =  Panel_activityItem.ImageSelect:getChildByName("Image_icon")
+    Panel_activityItem.ImageNormal.Image_icon =  Panel_activityItem.ImageNormal:getChildByName("Image_icon")
 
     Panel_activityItem.ImageNormal.activityName = TFDirector:getChildByPath(Panel_activityItem.ImageNormal, "activityName")
     Panel_activityItem.ImageNormal.Image_new   = TFDirector:getChildByPath(Panel_activityItem.ImageNormal, "Image_new"):hide()
@@ -53,8 +55,8 @@ function addActivityItem(self)
 
     Panel_activityItem.setTabBtnIcon = function (self,activity)
         local iconPath = activity.titleIcon or "ui/activity/picture/icon67.png"
-        self.ImageSelect:setTexture(string.sub(iconPath,0,-5) .. "_1.png")
-        self.ImageNormal:setTexture(iconPath)
+        self.ImageSelect.Image_icon:setTexture(string.sub(iconPath,0,-5) .. "_1.png")
+        self.ImageNormal.Image_icon:setTexture(iconPath)
     end
 
     Panel_activityItem.setVisibleRedpoint = function (self,select)

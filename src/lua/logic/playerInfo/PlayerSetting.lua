@@ -24,16 +24,18 @@ function PlayerSetting:initData(data)
     }
     local limitLevel = TabDataMgr:getData("DiscreteData",90008).data.contractLevel
     if MainPlayer:getPlayerLv() >= limitLevel then
-        -- table.insert(self.btnConfig_, {
-        --     txt = 63643,
-        --     idx = 4,
-        --     iconImg = "ui/playerInfo/new/040.png",
-        -- })
+        if GlobalFuncDataMgr:isOpen(15) then
+            table.insert(self.btnConfig_, {
+                txt = 63643,
+                idx = 4,
+                iconImg = "ui/playerInfo/new/040.png",
+            })
+        end
     end
 
     ---灵力共鸣是否开启
     local isOpen = FunctionDataMgr:isOpen(151)
-    if isOpen then
+    if isOpen  then  --增加小语种和英文版区别控制
         table.insert(self.btnConfig_, {
             txt = 14221105,
             idx = 5,

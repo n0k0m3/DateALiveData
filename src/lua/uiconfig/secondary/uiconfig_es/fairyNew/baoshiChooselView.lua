@@ -1299,7 +1299,7 @@ local t =
 														PositionX = 15,
 														PositionY = 21,
 													},
-													width = "205",
+													width = "222",
 													ZOrder = "1",
 												},
 												{
@@ -1484,7 +1484,7 @@ local t =
 												PositionX = 280,
 												PositionY = 250,
 											},
-											width = "88",
+											width = "89",
 											ZOrder = "1",
 										},
 									},
@@ -1669,7 +1669,7 @@ local t =
 													{
 														
 													},
-													width = "89",
+													width = "84",
 													ZOrder = "1",
 												},
 											},
@@ -1753,7 +1753,7 @@ local t =
 													{
 														
 													},
-													width = "83",
+													width = "84",
 													ZOrder = "1",
 												},
 											},
@@ -1837,7 +1837,7 @@ local t =
 													{
 														
 													},
-													width = "79",
+													width = "78",
 													ZOrder = "1",
 												},
 											},
@@ -1964,18 +1964,18 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_name",
 													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextHAlign = "0",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -1988,7 +1988,7 @@ local t =
 														PositionX = 8,
 														PositionY = 99,
 													},
-													width = "165",
+													width = "206",
 													ZOrder = "1",
 												},
 												{
@@ -2271,15 +2271,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "15",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_skill_name",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -2294,7 +2294,7 @@ local t =
 															{
 																PositionY = -48,
 															},
-															width = "63",
+															width = "85",
 															ZOrder = "1",
 														},
 													},
@@ -2373,15 +2373,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "15",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_skill_name",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -2396,7 +2396,7 @@ local t =
 															{
 																PositionY = -48,
 															},
-															width = "63",
+															width = "85",
 															ZOrder = "1",
 														},
 													},
@@ -2475,15 +2475,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "15",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_skill_name",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -2498,7 +2498,7 @@ local t =
 															{
 																PositionY = -48,
 															},
-															width = "63",
+															width = "85",
 															ZOrder = "1",
 														},
 													},

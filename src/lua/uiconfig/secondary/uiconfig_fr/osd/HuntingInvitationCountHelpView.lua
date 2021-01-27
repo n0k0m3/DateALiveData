@@ -512,8 +512,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 30,
-												PositionY = 436,
+												PositionX = 34,
+												PositionY = 462,
 											},
 											width = "42",
 											ZOrder = "1",
@@ -558,10 +558,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 56,
-												PositionY = 434,
+												PositionX = 62,
+												PositionY = 475,
 											},
-											width = "220",
+											width = "235",
 											ZOrder = "1",
 										},
 										{
@@ -604,10 +604,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 287,
-												PositionY = 434,
+												PositionX = 67,
+												PositionY = 448,
 											},
-											width = "342",
+											width = "370",
 											ZOrder = "1",
 										},
 										{
@@ -684,18 +684,18 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "targetContent",
 													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextHAlign = "0",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -707,7 +707,7 @@ local t =
 													{
 														PositionX = -274,
 													},
-													width = "300",
+													width = "430",
 													ZOrder = "1",
 												},
 												{
@@ -831,18 +831,18 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "targetContent",
 													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextHAlign = "0",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -854,7 +854,7 @@ local t =
 													{
 														PositionX = -274,
 													},
-													width = "300",
+													width = "430",
 													ZOrder = "1",
 												},
 												{
@@ -978,18 +978,18 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "targetContent",
 													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextHAlign = "0",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -1001,7 +1001,7 @@ local t =
 													{
 														PositionX = -274,
 													},
-													width = "300",
+													width = "430",
 													ZOrder = "1",
 												},
 												{
@@ -1125,18 +1125,18 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "targetContent",
 													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextHAlign = "0",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -1148,7 +1148,7 @@ local t =
 													{
 														PositionX = -274,
 													},
-													width = "300",
+													width = "430",
 													ZOrder = "1",
 												},
 												{
@@ -1272,18 +1272,18 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "targetContent",
 													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextHAlign = "0",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -1295,7 +1295,7 @@ local t =
 													{
 														PositionX = -274,
 													},
-													width = "300",
+													width = "430",
 													ZOrder = "1",
 												},
 												{

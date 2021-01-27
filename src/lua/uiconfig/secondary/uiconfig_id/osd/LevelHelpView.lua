@@ -205,11 +205,12 @@ local t =
 												StrokeColor = "#FF457278",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "30",
+											ignoreSize = "True",
 											name = "Label_helpView_1",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											rotation = "90",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -222,7 +223,7 @@ local t =
 												PositionX = 4,
 												PositionY = -1,
 											},
-											width = "26",
+											width = "83",
 											ZOrder = "1",
 										},
 									},
@@ -283,7 +284,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -504,
+										PositionX = -505,
 										PositionY = -252,
 									},
 									uipanelviewmodel = 
@@ -512,8 +513,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 30,
-												PositionY = 436,
+												PositionX = 28,
+												PositionY = 453,
 											},
 											width = "42",
 											ZOrder = "1",
@@ -563,18 +564,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "28",
+											fontSize = "23",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "35",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "title1",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -584,17 +585,17 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 60,
-												PositionY = 434,
+												PositionX = 53,
+												PositionY = 438,
 											},
-											width = "386",
+											width = "500",
 											ZOrder = "1",
 										},
 										{
 											controlID = "title2_Panel_help_item_Panel_content_Panel_base_Panel-LevelHelpView_entrance_osd_Game",
 											UUID = "0344ef04_5965_4f82_9098_6a957127249f",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -616,7 +617,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "35",
+											height = "32",
 											ignoreSize = "True",
 											name = "title2",
 											nTextAlign = "1",
@@ -630,10 +631,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 122,
-												PositionY = 140,
+												PositionX = 50,
+												PositionY = 141,
 											},
-											width = "124",
+											width = "271",
 											ZOrder = "1",
 										},
 										{
@@ -684,7 +685,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -256,
+														PositionX = -270,
+														PositionY = 2,
 													},
 													width = "30",
 													ZOrder = "1",
@@ -732,7 +734,7 @@ local t =
 														PositionX = -190,
 														PositionY = -1,
 													},
-													width = "98",
+													width = "130",
 													ZOrder = "1",
 												},
 												{
@@ -1088,7 +1090,7 @@ local t =
 														PositionX = -210,
 														PositionY = -1,
 													},
-													width = "98",
+													width = "149",
 													ZOrder = "1",
 												},
 												{
@@ -1469,7 +1471,7 @@ local t =
 													{
 														PositionX = -274,
 													},
-													width = "98",
+													width = "130",
 													ZOrder = "1",
 												},
 											},

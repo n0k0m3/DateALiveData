@@ -436,7 +436,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -548,8 +548,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "20",
-											ignoreSize = "True",
+											height = "40",
+											ignoreSize = "False",
 											name = "Image_hotMallView_1",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -559,10 +559,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 101,
-												PositionY = -46,
+												PositionX = 89,
+												PositionY = -34,
 											},
-											width = "106",
+											width = "140",
 											ZOrder = "1",
 										},
 										{
@@ -584,15 +584,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -606,9 +606,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 150,
-												PositionY = -47,
+												PositionY = -35,
 											},
-											width = "120",
+											width = "122",
 											ZOrder = "1",
 										},
 										{

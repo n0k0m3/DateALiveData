@@ -776,7 +776,7 @@ local t =
 													{
 														
 													},
-													width = "42",
+													width = "44",
 													ZOrder = "1",
 												},
 											},
@@ -877,7 +877,7 @@ local t =
 														PositionX = 33,
 														PositionY = 2,
 													},
-													width = "54",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -2132,7 +2132,7 @@ local t =
 													{
 														
 													},
-													width = "42",
+													width = "44",
 													ZOrder = "1",
 												},
 											},
@@ -2208,7 +2208,7 @@ local t =
 														PositionX = 13,
 														PositionY = -1,
 													},
-													width = "46",
+													width = "45",
 													ZOrder = "1",
 												},
 											},
@@ -3104,7 +3104,7 @@ local t =
 											{
 												PositionX = -22,
 											},
-											width = "26",
+											width = "30",
 											ZOrder = "1",
 										},
 										{
@@ -3230,8 +3230,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 970,
-								PositionY = 535,
+								PositionX = 945,
+								PositionY = 537,
 							},
 							uipanelviewmodel = 
 							{
@@ -3253,7 +3253,7 @@ local t =
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "47",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_handle_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -3263,9 +3263,9 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = 9,
 									},
-									width = "404",
+									width = "504",
 									ZOrder = "1",
 								},
 								{
@@ -3308,10 +3308,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -146,
-										PositionY = -12,
+										PositionX = -157,
+										PositionY = -10,
 									},
-									width = "99",
+									width = "145",
 									ZOrder = "1",
 								},
 								{
@@ -3354,10 +3354,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -93,
-										PositionY = -12,
+										PositionX = -71,
+										PositionY = -10,
 									},
-									width = "23",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -3403,7 +3403,7 @@ local t =
 										PositionX = -172,
 										PositionY = 10,
 									},
-									width = "45",
+									width = "34",
 									ZOrder = "1",
 									components = 
 									{
@@ -3462,8 +3462,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 2,
-										PositionY = -11,
+										PositionX = 31,
+										PositionY = -12,
 									},
 									uipanelviewmodel = 
 									{
@@ -3544,7 +3544,7 @@ local t =
 													{
 														PositionX = 20,
 													},
-													width = "26",
+													width = "30",
 													ZOrder = "1",
 												},
 												{
@@ -3614,9 +3614,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = -17,
+												PositionY = 2,
 											},
-											width = "81",
+											width = "110",
 											ZOrder = "1",
 										},
 									},
@@ -3646,8 +3647,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 2,
-										PositionY = 11,
+										PositionX = 15,
+										PositionY = 12,
 									},
 									uipanelviewmodel = 
 									{
@@ -3728,7 +3729,7 @@ local t =
 													{
 														PositionX = 20,
 													},
-													width = "26",
+													width = "30",
 													ZOrder = "1",
 												},
 												{
@@ -3798,9 +3799,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = -2,
+												PositionY = 1,
 											},
-											width = "81",
+											width = "71",
 											ZOrder = "1",
 										},
 									},
@@ -3828,7 +3830,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 130,
+										PositionX = 147,
 									},
 									UItype = "Button",
 									width = "43",
@@ -3973,7 +3975,7 @@ local t =
 											{
 												PositionX = -22,
 											},
-											width = "26",
+											width = "30",
 											ZOrder = "1",
 										},
 										{
@@ -4240,7 +4242,7 @@ local t =
 											{
 												PositionX = -22,
 											},
-											width = "26",
+											width = "30",
 											ZOrder = "1",
 										},
 										{
@@ -4500,7 +4502,7 @@ local t =
 											{
 												PositionX = -22,
 											},
-											width = "26",
+											width = "30",
 											ZOrder = "1",
 										},
 										{
@@ -4741,7 +4743,7 @@ local t =
 										PositionX = 65,
 										PositionY = -4,
 									},
-									width = "30",
+									width = "29",
 									ZOrder = "1",
 								},
 							},
@@ -5394,7 +5396,7 @@ local t =
 										PositionX = 204,
 										PositionY = 26,
 									},
-									width = "104",
+									width = "115",
 									ZOrder = "1",
 								},
 								{
@@ -5416,14 +5418,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "44",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "0",
@@ -5437,10 +5439,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -116,
-										PositionY = 6,
+										PositionX = -120,
+										PositionY = 8,
 									},
-									width = "320",
+									width = "328",
 									ZOrder = "1",
 								},
 							},

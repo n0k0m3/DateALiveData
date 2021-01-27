@@ -260,7 +260,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 296,
+								PositionX = 230,
 								PositionY = 256,
 							},
 							visible = "False",
@@ -336,7 +336,7 @@ local t =
 								PositionX = 549,
 								PositionY = -293,
 							},
-							width = "503",
+							width = "486",
 							ZOrder = "1",
 						},
 						{
@@ -410,7 +410,7 @@ local t =
 										PositionX = -9,
 										PositionY = 1,
 									},
-									width = "93",
+									width = "91",
 									ZOrder = "1",
 								},
 								{
@@ -457,7 +457,7 @@ local t =
 										PositionY = -12,
 									},
 									visible = "False",
-									width = "34",
+									width = "36",
 									ZOrder = "1",
 								},
 								{
@@ -503,7 +503,7 @@ local t =
 										PositionX = -5,
 										PositionY = -48,
 									},
-									width = "69",
+									width = "72",
 									ZOrder = "1",
 								},
 							},
@@ -579,7 +579,7 @@ local t =
 										PositionX = -9,
 										PositionY = 1,
 									},
-									width = "111",
+									width = "109",
 									ZOrder = "1",
 								},
 								{
@@ -626,7 +626,7 @@ local t =
 										PositionY = -12,
 									},
 									visible = "False",
-									width = "80",
+									width = "73",
 									ZOrder = "1",
 								},
 								{

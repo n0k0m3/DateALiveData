@@ -419,7 +419,7 @@ local t =
 									UUID = "92a91576_fc50_40a3_86bd_f9744c9b6446",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
-									anchorPointY = "0.5",
+									anchorPointY = "1",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
@@ -433,7 +433,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "17",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -457,9 +457,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 46,
-										PositionY = -23,
+										PositionY = -13,
 									},
-									width = "116",
+									width = "120",
 									ZOrder = "1",
 								},
 								{

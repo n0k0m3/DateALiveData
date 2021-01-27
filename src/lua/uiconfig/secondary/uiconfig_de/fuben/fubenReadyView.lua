@@ -1862,7 +1862,7 @@ local t =
 														PositionX = 56,
 														PositionY = -1,
 													},
-													width = "441",
+													width = "400",
 													ZOrder = "1",
 												},
 											},

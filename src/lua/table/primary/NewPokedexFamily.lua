@@ -96,7 +96,7 @@ return {
         },
     },
     [9] = {
-        show = 0,
+        show = 1,
         heroSkinId = 1103021,
         sort = 3,
         id = 9,

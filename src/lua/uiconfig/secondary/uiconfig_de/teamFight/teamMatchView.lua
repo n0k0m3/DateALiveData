@@ -5445,14 +5445,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "44",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "0",
@@ -5466,7 +5466,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -116,
-										PositionY = 6,
+										PositionY = 9,
 									},
 									width = "320",
 									ZOrder = "1",

@@ -70,7 +70,7 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 510,
+						PositionX = 374,
 						PositionY = 354,
 						relativeToName = "Panel",
 						nType = 3,
@@ -107,7 +107,6 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionY = 1,
 								LeftPositon = 536,
 								TopPosition = 288,
 								relativeToName = "Panel",
@@ -179,7 +178,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 102,
-								PositionY = -34,
+								PositionY = -35,
 							},
 							uipanelviewmodel = 
 							{
@@ -238,8 +237,8 @@ local t =
 							controlID = "Panel_activityItem_Panel_prefab_Panel-activityMainView4_activityStyleModel_activity_Game",
 							UUID = "45adc907_cfa8_42cd_b398_7e84cdda715d",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
+							anchorPointX = "0",
+							anchorPointY = "0",
 							backGroundScale9Enable = "False",
 							bgColorOpacity = "50",
 							bIsOpenClipping = "False",
@@ -281,7 +280,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "71",
+									height = "119",
 									ignoreSize = "True",
 									name = "ImageNormal",
 									sizepercentx = "0",
@@ -292,9 +291,11 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -2,
+										PositionX = 99,
+										PositionY = 35,
 									},
-									width = "198",
+									visible = "False",
+									width = "126",
 									ZOrder = "1",
 									components = 
 									{
@@ -321,7 +322,6 @@ local t =
 											{
 												PositionX = 46,
 											},
-											visible = "False",
 											width = "60",
 											ZOrder = "1",
 										},
@@ -330,7 +330,7 @@ local t =
 											UUID = "cd39e78c_96af_45de_b4b3_2bf9ea7f1d8d",
 											anchorPoint = "False",
 											anchorPointX = "1",
-											anchorPointY = "0.5",
+											anchorPointY = "0",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -344,31 +344,31 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF3C5AC7",
 												StrokeSize = 2,
 											},
-											height = "31",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
-											nTextHAlign = "0",
+											nTextHAlign = "2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Nom de l'événement",
+											text = "活动名字",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 90,
-												PositionY = -22,
+												PositionX = 96,
+												PositionY = -33,
 											},
-											width = "92",
+											width = "130",
 											ZOrder = "1",
 										},
 										{
@@ -408,21 +408,21 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "640",
+									height = "119",
 									ignoreSize = "True",
 									name = "ImageSelect",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									texturePath = "ui/activity/activityStyle/mainFrame/style2/bg.png",
+									texturePath = "ui/activity/activityStyle/mainFrame/style2/004.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -2,
+										PositionX = 99,
+										PositionY = 35,
 									},
-									visible = "False",
-									width = "1386",
+									width = "126",
 									ZOrder = "1",
 									components = 
 									{
@@ -449,7 +449,6 @@ local t =
 											{
 												PositionX = 46,
 											},
-											visible = "False",
 											width = "60",
 											ZOrder = "1",
 										},
@@ -458,7 +457,7 @@ local t =
 											UUID = "441dab89_70c1_4e65_9b53_30267950c2b0",
 											anchorPoint = "False",
 											anchorPointX = "1",
-											anchorPointY = "0.5",
+											anchorPointY = "0",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -472,31 +471,31 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF4C8FF8",
 												StrokeSize = 2,
 											},
-											height = "31",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
-											nTextHAlign = "0",
+											nTextHAlign = "2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Nom de l'événement",
+											text = "活动名字",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 52,
-												PositionY = -46,
+												PositionX = 96,
+												PositionY = -33,
 											},
-											width = "92",
+											width = "130",
 											ZOrder = "1",
 										},
 										{
@@ -519,8 +518,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 87,
-												PositionY = 52,
+												PositionX = 89,
+												PositionY = 27,
 											},
 											width = "30",
 											ZOrder = "1",
@@ -546,6 +545,7 @@ local t =
 			"ui/activity/activityStyle/mainFrame/style2/003.png",
 			"ui/activity/anniversary/ui_002.png",
 			"ui/common/news_small.png",
+			"ui/activity/activityStyle/mainFrame/style2/004.png",
 		},
 		armatures = 
 		{

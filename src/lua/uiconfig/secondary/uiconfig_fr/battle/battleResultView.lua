@@ -5914,9 +5914,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 296,
-								PositionY = 256,
+								PositionX = 249,
+								PositionY = 249,
 							},
+							visible = "False",
 							ZOrder = "1",
 						},
 						{
