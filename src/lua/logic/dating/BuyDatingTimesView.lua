@@ -48,7 +48,8 @@ function BuyDatingTimesView:refreshUI()
 
     local code = TFLanguageMgr:getUsingLanguage()
     if not((code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE)) then
-        self.Label_des:setTextById(190000059)
+        self.Label_des:setTextById(190000059 , remainCount)
+        self.Label_times2:hide()
     end
     self.Label_times2:setText(remainCount)
 

@@ -1618,7 +1618,6 @@ end
 --聊天内容
 function DatingScriptView:refreshChatContent()
     self.data = nil
-    print(self.scriptTableName , "4444444444")
     self.data = TabDataMgr:getData(self.scriptTableName)
 
     self.itemData = {}
@@ -1650,7 +1649,8 @@ function DatingScriptView:initChatContent()
     self.textarea.savePos = self.textarea:Pos()
     self.textarea.saveSize = self.textarea:Size()
     self.textDeScale = 1.2
-    self.textarea:setFontSize(self.textarea:getFontSize() * self.textDeScale)
+    --self.textarea:setFontSize(self.textarea:getFontSize() * self.textDeScale)
+    self.textarea:setFontSize(26)
     self.textarea:Scale(1 / self.textDeScale)
     --设置行间距
     --self.textarea:setLineHeight(self.textarea:getLineHeight() / self.textDeScale )
