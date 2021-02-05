@@ -367,7 +367,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "50",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_targetItemDesc",
 									nTextAlign = "0",
@@ -382,7 +382,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -159,
-										PositionY = -100,
+										PositionY = -105,
 									},
 									width = "320",
 									ZOrder = "1",
@@ -456,7 +456,7 @@ local t =
 											{
 												PositionY = -59,
 											},
-											width = "61",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -555,7 +555,7 @@ local t =
 											{
 												PositionY = -59,
 											},
-											width = "50",
+											width = "54",
 											ZOrder = "1",
 										},
 									},

@@ -260,7 +260,7 @@ local t =
 											{
 												PositionX = -2,
 											},
-											width = "214",
+											width = "147",
 											ZOrder = "1",
 										},
 									},
@@ -355,7 +355,7 @@ local t =
 											{
 												PositionX = -17,
 											},
-											width = "259",
+											width = "135",
 											ZOrder = "1",
 										},
 									},
@@ -604,7 +604,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 648,
-												PositionY = 32,
+												PositionY = 17,
 												LeftPositon = -284,
 												TopPosition = 406,
 												relativeToName = "Panel",
@@ -655,8 +655,9 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 5,
+														PositionY = 21,
 													},
-													width = "99",
+													width = "113",
 													ZOrder = "1",
 												},
 											},

@@ -239,18 +239,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "28",
-									ignoreSize = "True",
+									height = "23",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -263,7 +263,7 @@ local t =
 										PositionX = 33,
 										PositionY = 540,
 									},
-									width = "184",
+									width = "360",
 									ZOrder = "1",
 									components = 
 									{

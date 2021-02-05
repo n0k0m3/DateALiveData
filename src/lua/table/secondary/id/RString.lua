@@ -6086,7 +6086,7 @@ return {
             color = "#101117",
             text = "Sisa pembelian ",
             clickId = "",
-            size = 22,
+            size = 18,
         },
         [2] = {
             baseName = "fangzheng_zhunyuan",
@@ -6094,7 +6094,7 @@ return {
             color = "#eb3569",
             text = "%s",
             clickId = "",
-            size = 22,
+            size = 18,
         },
         [3] = {
             baseName = "fangzheng_zhunyuan",
@@ -6102,7 +6102,7 @@ return {
             color = "#101117",
             text = "x",
             clickId = "",
-            size = 22,
+            size = 18,
         },
         align = "center",
         id = 2004,

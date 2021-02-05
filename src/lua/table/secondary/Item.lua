@@ -12256,7 +12256,7 @@ return {
         useProfit = {
             hero = 111611,
             exp = 2633790,
-            value2 = 70,
+            value2 = 80,
             stringID = 2108099,
             value1 = 1,
         },
@@ -50250,6 +50250,7 @@ return {
         order = 1,
         accessId = {
             [1] = 141,
+            [2] = 4,
         },
         des = "[天宫市大冒险]活动中作战及收集资源产出的代币，可以在活动商店中兑换道具",
     },
