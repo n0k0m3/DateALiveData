@@ -27029,7 +27029,7 @@ return {
         },
     },
     [73027] = {
-        bornPoint = 4,
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -27053,7 +27053,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 640301,
+                [1] = 521512,
                 [2] = 1,
             },
         },

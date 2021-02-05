@@ -1118,8 +1118,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 26,
-														PositionY = -30,
+														PositionX = 43,
+														PositionY = -37,
 													},
 													width = "125",
 													ZOrder = "1",
@@ -2037,6 +2037,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "510",
 									ZOrder = "1",
 									components = 
@@ -5884,6 +5885,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "489",
 									ZOrder = "1",
 									components = 
@@ -7446,7 +7448,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "535",
 									ZOrder = "1",
 									components = 
@@ -11323,14 +11324,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "22",
+																	fontSize = "16",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "60",
+																	height = "0",
 																	ignoreSize = "False",
 																	name = "Label_suit",
 																	nTextAlign = "1",
@@ -11344,9 +11345,10 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		
+																		PositionX = -3,
+																		PositionY = -3,
 																	},
-																	width = "60",
+																	width = "100",
 																	ZOrder = "1",
 																},
 															},

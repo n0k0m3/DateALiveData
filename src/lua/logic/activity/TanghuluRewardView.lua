@@ -104,8 +104,9 @@ function TanghuluRewardView:refreshCellItem(item, idx)
             v.imgCompleteMask:setVisible(state == EC_Assist_Item_Status.GETED)
         end
     end
+
     -- 取第一串的描述
-    lab_desc:setText(cellData[1].extendData.des2)
+    lab_desc:setText(Utils:MultiLanguageStringDeal(cellData[1].extendData.des2))
 end
 
 return TanghuluRewardView

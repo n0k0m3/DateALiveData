@@ -319,7 +319,7 @@ local t =
 											{
 												PositionY = -36,
 											},
-											width = "63",
+											width = "67",
 											ZOrder = "1",
 										},
 									},
@@ -496,7 +496,7 @@ local t =
 														PositionX = -58,
 														PositionY = 95,
 													},
-													width = "40",
+													width = "37",
 													ZOrder = "1",
 												},
 											},
@@ -702,7 +702,7 @@ local t =
 														PositionX = -58,
 														PositionY = 95,
 													},
-													width = "40",
+													width = "37",
 													ZOrder = "1",
 												},
 											},
@@ -907,7 +907,7 @@ local t =
 														PositionX = -58,
 														PositionY = 95,
 													},
-													width = "40",
+													width = "37",
 													ZOrder = "1",
 												},
 											},
@@ -1185,7 +1185,7 @@ local t =
 												PositionX = -187,
 												PositionY = -4,
 											},
-											width = "255",
+											width = "278",
 											ZOrder = "1",
 										},
 										{
@@ -1231,7 +1231,7 @@ local t =
 												PositionX = -188,
 												PositionY = -57,
 											},
-											width = "201",
+											width = "222",
 											ZOrder = "1",
 										},
 										{
@@ -1351,7 +1351,7 @@ local t =
 												PositionX = -193,
 												PositionY = -3,
 											},
-											width = "302",
+											width = "327",
 											ZOrder = "1",
 										},
 										{
@@ -1414,7 +1414,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -340,
+										PositionX = -363,
 										PositionY = -275,
 									},
 									width = "268",
@@ -1465,7 +1465,7 @@ local t =
 												PositionX = -20,
 												PositionY = -2,
 											},
-											width = "209",
+											width = "193",
 											ZOrder = "1",
 										},
 										{
@@ -1511,7 +1511,7 @@ local t =
 												PositionX = 106,
 												PositionY = -3,
 											},
-											width = "16",
+											width = "15",
 											ZOrder = "1",
 										},
 									},
@@ -1539,8 +1539,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -96,
-										PositionY = -276,
+										PositionX = -115,
+										PositionY = -277,
 									},
 									UItype = "Button",
 									width = "211",
@@ -1590,7 +1590,7 @@ local t =
 											{
 												
 											},
-											width = "203",
+											width = "197",
 											ZOrder = "1",
 										},
 									},

@@ -1192,7 +1192,7 @@ return {
         cg3 = "",
         id = 2000035,
         cgId = 540359,
-        cg = "date_cg_252",
+        cg = "date_cg_252_1",
         backGround = "",
         cg2 = "",
         video = "",

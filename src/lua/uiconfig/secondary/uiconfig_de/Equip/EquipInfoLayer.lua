@@ -5610,14 +5610,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "28",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "0",
@@ -5637,7 +5637,7 @@ local t =
 												TopPosition = 529,
 												relativeToName = "Panel_equip",
 											},
-											width = "231",
+											width = "193",
 											ZOrder = "1",
 										},
 										{

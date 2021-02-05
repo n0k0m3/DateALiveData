@@ -6,7 +6,7 @@ return {
         picture = "ui/newyear/drinkGame/ningmengkabuqinuo.png",
         id = 1,
         gametype = 3,
-        name = "柠檬卡布奇诺",
+        name = "Lemon Cappuccino",
         formulation = {
             [1] = 3002,
             [2] = 3001,
@@ -26,7 +26,7 @@ return {
         picture = "ui/newyear/drinkGame/caomeinaigaicha.png",
         id = 2,
         gametype = 3,
-        name = "草莓奶盖茶",
+        name = "Strawberry Milk Tea",
         formulation = {
             [1] = 3007,
             [2] = 3001,
@@ -46,7 +46,7 @@ return {
         picture = "ui/newyear/drinkGame/caomeikafeinaixi.png",
         id = 3,
         gametype = 3,
-        name = "草莓咖啡奶昔",
+        name = "Strawberry Coffee Milkshake",
         formulation = {
             [1] = 3007,
             [2] = 3003,
@@ -66,7 +66,7 @@ return {
         picture = "ui/newyear/drinkGame/ningseqingkong.png",
         id = 4,
         gametype = 3,
-        name = "柠色青空冰饮",
+        name = "Refreshing Lemon Frosty",
         formulation = {
             [1] = 3002,
             [2] = 3003,
@@ -86,7 +86,7 @@ return {
         picture = "ui/newyear/drinkGame/feisexueyuan.png",
         id = 5,
         gametype = 3,
-        name = "绯色雪原冰饮",
+        name = "Scarlet Winterland Frosty",
         formulation = {
             [1] = 3007,
             [2] = 3003,
@@ -105,7 +105,7 @@ return {
         picture = "",
         id = 6,
         gametype = 4,
-        name = "新年吉祥如意",
+        name = "All the Best in the New Year",
         formulation = {
             [1] = 1001,
             [2] = 1002,
@@ -126,7 +126,7 @@ return {
         picture = "",
         id = 7,
         gametype = 4,
-        name = "大凉山贺新年",
+        name = "Season Greetings From Hot Games",
         formulation = {
             [1] = 1011,
             [2] = 1012,
@@ -147,7 +147,7 @@ return {
         picture = "",
         id = 8,
         gametype = 4,
-        name = "约战陪你到老",
+        name = "Dating Never Stops",
         formulation = {
             [1] = 1021,
             [2] = 1022,
@@ -168,7 +168,7 @@ return {
         picture = "",
         id = 9,
         gametype = 4,
-        name = "新年欧皇附体",
+        name = "New Year New Luck",
         formulation = {
             [1] = 1031,
             [2] = 1032,
@@ -189,7 +189,7 @@ return {
         picture = "",
         id = 10,
         gametype = 4,
-        name = "新年吉祥如意",
+        name = "All the Best in the New Year",
         formulation = {
             [1] = 1041,
             [2] = 1042,
@@ -210,7 +210,7 @@ return {
         picture = "",
         id = 11,
         gametype = 4,
-        name = "大凉山贺新年",
+        name = "Season Greetings From Hot Games",
         formulation = {
             [1] = 1051,
             [2] = 1052,
@@ -231,7 +231,7 @@ return {
         picture = "",
         id = 12,
         gametype = 4,
-        name = "约战陪你到老",
+        name = "Dating Never Stops",
         formulation = {
             [1] = 1061,
             [2] = 1062,
@@ -252,7 +252,7 @@ return {
         picture = "",
         id = 13,
         gametype = 4,
-        name = "新年欧皇附体",
+        name = "New Year New Luck",
         formulation = {
             [1] = 1071,
             [2] = 1072,
@@ -273,7 +273,7 @@ return {
         picture = "ui/activity/jointPicture/x1.png",
         id = 14,
         gametype = 6,
-        name = "拼图1",
+        name = "Puzzle 1",
         formulation = {
             [1] = 2001,
             [2] = 2002,
@@ -304,7 +304,7 @@ return {
         picture = "ui/activity/jointPicture/x2.png",
         id = 15,
         gametype = 6,
-        name = "拼图2",
+        name = "Puzzle 2",
         formulation = {
             [1] = 2101,
             [2] = 2102,
@@ -335,7 +335,7 @@ return {
         picture = "ui/activity/jointPicture/x3.png",
         id = 16,
         gametype = 6,
-        name = "拼图3",
+        name = "Puzzle 3",
         formulation = {
             [1] = 2201,
             [2] = 2202,
@@ -366,7 +366,7 @@ return {
         picture = "ui/activity/jointPicture/x4.png",
         id = 17,
         gametype = 6,
-        name = "拼图4",
+        name = "Puzzle 4",
         formulation = {
             [1] = 2301,
             [2] = 2302,
@@ -397,7 +397,7 @@ return {
         picture = "",
         id = 18,
         gametype = 2,
-        name = "鱼池1",
+        name = "Fish Pond 1",
         formulation = {
             [1] = 5001,
             [2] = 5001,
@@ -418,7 +418,7 @@ return {
         picture = "",
         id = 19,
         gametype = 2,
-        name = "鱼池2",
+        name = "Fish Pond 2",
         formulation = {
             [1] = 5001,
             [2] = 5001,
@@ -439,7 +439,7 @@ return {
         picture = "",
         id = 20,
         gametype = 2,
-        name = "鱼池3",
+        name = "Fish Pond 3",
         formulation = {
             [1] = 5001,
             [2] = 5001,
@@ -460,7 +460,7 @@ return {
         picture = "",
         id = 21,
         gametype = 2,
-        name = "鱼池4",
+        name = "Fish Pond 4",
         formulation = {
             [1] = 5001,
             [2] = 5001,
@@ -481,7 +481,7 @@ return {
         picture = "",
         id = 22,
         gametype = 5,
-        name = "牌组",
+        name = "Deck",
         formulation = {
             [1] = 4001,
             [2] = 4002,

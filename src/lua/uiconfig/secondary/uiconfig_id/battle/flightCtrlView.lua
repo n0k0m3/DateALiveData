@@ -376,7 +376,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_cdTime",
 											nTextAlign = "1",
@@ -392,7 +392,7 @@ local t =
 											{
 												
 											},
-											width = "36",
+											width = "26",
 											ZOrder = "1",
 										},
 									},
@@ -559,7 +559,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_cdTime",
 											nTextAlign = "1",
@@ -575,7 +575,7 @@ local t =
 											{
 												
 											},
-											width = "36",
+											width = "26",
 											ZOrder = "1",
 										},
 									},

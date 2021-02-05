@@ -1118,7 +1118,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 26,
+														PositionX = 36,
 														PositionY = -30,
 													},
 													width = "38",
@@ -1199,7 +1199,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 16,
+														PositionX = 26,
 														PositionY = -36,
 													},
 													width = "58",
@@ -1280,7 +1280,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 21,
+														PositionX = 26,
 														PositionY = -35,
 													},
 													width = "40",
@@ -1361,7 +1361,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 32,
+														PositionX = 42,
 														PositionY = -28,
 													},
 													width = "39",
@@ -1441,7 +1441,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 39,
+														PositionX = 49,
 														PositionY = -18,
 													},
 													width = "38",
@@ -2036,6 +2036,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "510",
 									ZOrder = "1",
 									components = 
@@ -15817,6 +15818,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 

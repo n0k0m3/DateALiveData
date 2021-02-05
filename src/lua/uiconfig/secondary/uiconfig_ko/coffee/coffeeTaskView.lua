@@ -869,7 +869,7 @@ local t =
 																PositionX = 338,
 																PositionY = -1,
 															},
-															width = "33",
+															width = "36",
 															ZOrder = "1",
 														},
 													},
@@ -982,7 +982,7 @@ local t =
 																	{
 																		PositionX = -4,
 																	},
-																	width = "36",
+																	width = "40",
 																	ZOrder = "1",
 																},
 															},
@@ -1842,7 +1842,7 @@ local t =
 											{
 												PositionX = -4,
 											},
-											width = "48",
+											width = "49",
 											ZOrder = "1",
 										},
 										{

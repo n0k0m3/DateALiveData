@@ -337,6 +337,32 @@ function FubenChapterView:initUI(ui)
     self.Panel_newyear.Label_hour_value         = TFDirector:getChildByPath(self.Panel_newyear, "Label_hour_value")
     self.Panel_newyear.Button_start     = TFDirector:getChildByPath(self.Panel_newyear, "Button_start")
 
+    local Panel_newyear_time = self.Panel_newyear:getChildByName("Panel_time")
+    self.Panel_newyear.Label_zuo = Panel_newyear_time:getChildByName("Label_zuo")
+    self.Panel_newyear.Label_zuo:setRotation(0)
+    self.Panel_newyear.Label_zuo:setAnchorPoint(ccp(0 , 0.5))
+    self.Panel_newyear.Label_zuo:setPosition(-300 , 210)
+    Panel_newyear_time.Label_zhan = Panel_newyear_time:getChildByName("Label_zhan")
+    Panel_newyear_time.Label_zhan:setText(GV_UTC_TIME_STRING)
+    Panel_newyear_time.Label_zhan:setFontSize(20)
+    Panel_newyear_time.Label_zhan:setFontName("font/MFLiHei_Noncommercial.ttf")
+    Panel_newyear_time.Label_sheng = Panel_newyear_time:getChildByName("Label_sheng")
+    Panel_newyear_time.Label_sheng:hide()
+    Panel_newyear_time.Label_yu = Panel_newyear_time:getChildByName("Label_yu")
+    Panel_newyear_time.Label_yu:hide()
+    Panel_newyear_time.Label_day_title = Panel_newyear_time:getChildByName("Label_day_title")
+    Panel_newyear_time.Label_day_title:hide()
+    Panel_newyear_time.Label_hour_title = Panel_newyear_time:getChildByName("Label_hour_title")
+    Panel_newyear_time.Label_hour_title:hide()
+    Panel_newyear_time.Label_day_value = Panel_newyear_time:getChildByName("Label_day_value")
+    Panel_newyear_time.Label_day_value:hide()
+    Panel_newyear_time.Label_hour_value = Panel_newyear_time:getChildByName("Label_hour_value")
+    Panel_newyear_time.Label_hour_value:hide()
+
+
+    
+    
+
     local model = SkeletonAnimation:create("modle/hero/paintshow_11751/paintshow_11751")
     model:setAnimationFps(GameConfig.ANIM_FPS)
     model:playByIndex(0, -1, -1, 1)
@@ -531,6 +557,8 @@ function FubenChapterView:refreshNewYearPage()
         local day, hour, min, sec = Utils:getTimeDHMZ(eTime,true)
         self.Panel_newyear.Label_day_value:setText(tostring(day))
         self.Panel_newyear.Label_hour_value:setText(tostring(hour))
+
+        self.Panel_newyear.Label_zuo:setTextById(13316023 , TextDataMgr:getText(800069 , day , hour))
     else
         TFDirector:getChildByPath(self.Panel_newyear, "Image_001"):hide()
         TFDirector:getChildByPath(self.Panel_newyear, "Image_002"):hide()
@@ -724,7 +752,7 @@ function FubenChapterView:updateFubenItem(index)
         end
     elseif fubenData.type_ == EC_FBType.NEWYEAR_FUBEN then
         if self.activityNewYear then
-            local year, month, day = Utils:getDate(self.activityNewYear.showEndTime, true)
+            local year, month, day = Utils:getUTCDateYMD(self.activityNewYear.showEndTime, GV_UTC_TIME_ZONE)
             local timeStr  = TextDataMgr:getText(12030003,month,day)
             foo.Label_tip:setScale(0.8)
             foo.Label_tip:setText(timeStr)

@@ -49,14 +49,22 @@ function addActivityItem(self)
         self.ImageSelect:setVisible(_select)
         self.ImageNormal:setVisible(not _select)
 
-        local nodeSize = _select and self.ImageSelect:getContentSize() or self.ImageNormal:getContentSize()
-        Panel_activityItem:setContentSize(CCSizeMake(math.max(Panel_activityItem.defaultSize.width,nodeSize.width),math.max(Panel_activityItem.defaultSize.height, nodeSize.height+2)))
+        -- local nodeSize = _select and self.ImageSelect:getContentSize() or self.ImageNormal:getContentSize()
+        -- Panel_activityItem:setContentSize(CCSizeMake(math.max(Panel_activityItem.defaultSize.width,nodeSize.width),math.max(Panel_activityItem.defaultSize.height, nodeSize.height+2)))
     end
 
     Panel_activityItem.setTabBtnIcon = function (self,activity)
         local iconPath = activity.titleIcon or "ui/activity/picture/icon67.png"
-        self.ImageSelect.Image_icon:setTexture(string.sub(iconPath,0,-5) .. "_1.png")
-        self.ImageNormal.Image_icon:setTexture(iconPath)
+        if self.ImageSelect.Image_icon then
+            self.ImageSelect.Image_icon:setTexture(string.sub(iconPath,0,-5) .. "_1.png")
+        else
+            self.ImageSelect:setTexture(string.sub(iconPath,0,-5) .. "_1.png")
+        end
+        if self.ImageNormal.Image_icon then
+            self.ImageNormal.Image_icon:setTexture(iconPath)
+        else
+            self.ImageNormal:setTexture(iconPath)
+        end
     end
 
     Panel_activityItem.setVisibleRedpoint = function (self,select)

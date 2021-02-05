@@ -1118,8 +1118,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 26,
-														PositionY = -30,
+														PositionX = 55,
+														PositionY = -35,
 													},
 													width = "97",
 													ZOrder = "1",
@@ -1199,8 +1199,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 16,
-														PositionY = -36,
+														PositionX = 51,
+														PositionY = -41,
 													},
 													width = "83",
 													ZOrder = "1",
@@ -1280,8 +1280,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 21,
-														PositionY = -35,
+														PositionX = 70,
+														PositionY = -32,
 													},
 													width = "61",
 													ZOrder = "1",
@@ -1361,8 +1361,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 32,
-														PositionY = -28,
+														PositionX = 59,
+														PositionY = -23,
 													},
 													width = "68",
 													ZOrder = "1",
@@ -1441,8 +1441,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 39,
-														PositionY = -18,
+														PositionX = 83,
+														PositionY = -9,
 													},
 													width = "98",
 													ZOrder = "1",
@@ -5885,6 +5885,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "489",
 									ZOrder = "1",
 									components = 
@@ -11331,7 +11332,7 @@ local t =
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "60",
+																	height = "0",
 																	ignoreSize = "False",
 																	name = "Label_suit",
 																	nTextAlign = "1",
@@ -11347,7 +11348,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "60",
+																	width = "120",
 																	ZOrder = "1",
 																},
 															},
@@ -11647,18 +11648,18 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = true,
 																StrokeColor = "#FF63608B",
 																StrokeSize = 1,
 															},
-															height = "27",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_fairyTrailDetails_1",
 															nTextAlign = "1",
-															nTextHAlign = "1",
+															nTextHAlign = "0",
 															sizepercentx = "0",
 															sizepercenty = "0",
 															sizeType = "0",
@@ -11671,7 +11672,7 @@ local t =
 																PositionX = -149,
 																PositionY = -1,
 															},
-															width = "239",
+															width = "300",
 															ZOrder = "1",
 														},
 													},
@@ -12954,7 +12955,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 35,
+																PositionX = 67,
 																PositionY = 28,
 															},
 															width = "120",
@@ -13003,6 +13004,7 @@ local t =
 																PositionX = 36,
 																PositionY = 7,
 															},
+															visible = "False",
 															width = "45",
 															ZOrder = "1",
 														},
@@ -13081,18 +13083,18 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = true,
 																StrokeColor = "#FF63608B",
 																StrokeSize = 1,
 															},
-															height = "27",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_fairyTrailDetails_1",
 															nTextAlign = "1",
-															nTextHAlign = "1",
+															nTextHAlign = "0",
 															sizepercentx = "0",
 															sizepercenty = "0",
 															sizeType = "0",
@@ -13105,7 +13107,7 @@ local t =
 																PositionX = -149,
 																PositionY = -1,
 															},
-															width = "239",
+															width = "300",
 															ZOrder = "1",
 														},
 													},

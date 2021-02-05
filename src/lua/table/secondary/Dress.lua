@@ -27,7 +27,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {
-            [566057] = 120,
+            [570004] = 120,
         },
         kanbanBgm = "sound/bgm/kanban/main_kuangsan_1.mp3",
         kanbanEffect = {
@@ -197,7 +197,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {
-            [566057] = 30,
+            [570004] = 30,
         },
         kanbanBgm = "",
         kanbanEffect = {
@@ -247,7 +247,7 @@ return {
         roleModel = 210408,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 4,
+            [1] = 142,
         },
         icon = "icon/role/dress_kanban/10408.png",
     },
@@ -2567,7 +2567,6 @@ return {
         roleModel = 210421,
         skinSettingTitle = 13203001,
         accessId = {
-            [1] = 181,
         },
         icon = "icon/role/dress_kanban/10422.png",
     },
@@ -2828,7 +2827,6 @@ return {
         roleModel = 210421,
         skinSettingTitle = 13203001,
         accessId = {
-            [1] = 183,
         },
         icon = "icon/role/dress_kanban/10423.png",
     },
@@ -4681,7 +4679,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {
-            [570004] = 120,
+            [566057] = 120,
         },
         kanbanBgm = "sound/bgm/kanban/main_kuroko_11901.mp3",
         kanbanEffect = {
@@ -4734,6 +4732,7 @@ return {
         roleModel = 211903,
         skinSettingTitle = 0,
         accessId = {
+            [1] = 4,
         },
         icon = "icon/role/dress_kanban/11901.png",
     },
@@ -4938,7 +4937,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 119,
         convertMax = {
-            [570004] = 120,
+            [566057] = 120,
         },
         kanbanBgm = "sound/bgm/kanban/main_mokoto_kuroko_double_11802.mp3",
         kanbanEffect = {
@@ -4994,6 +4993,7 @@ return {
         roleModel = 211903,
         skinSettingTitle = 0,
         accessId = {
+            [1] = 4,
         },
         icon = "icon/role/dress_kanban/11802.png",
     },
@@ -8672,7 +8672,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {
-            [570004] = 120,
+            [566057] = 120,
         },
         kanbanBgm = "sound/bgm/kanban/main_mikoto_11801.mp3",
         kanbanEffect = {
@@ -8727,6 +8727,7 @@ return {
         roleModel = 211803,
         skinSettingTitle = 0,
         accessId = {
+            [1] = 4,
         },
         icon = "icon/role/dress_kanban/11801.png",
     },
@@ -9015,7 +9016,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 118,
         convertMax = {
-            [570004] = 120,
+            [566057] = 120,
         },
         kanbanBgm = "sound/bgm/kanban/main_mokoto_kuroko_double_11802.mp3",
         kanbanEffect = {
@@ -9071,6 +9072,7 @@ return {
         roleModel = 211803,
         skinSettingTitle = 0,
         accessId = {
+            [1] = 4,
         },
         icon = "icon/role/dress_kanban/11802.png",
     },
@@ -9925,7 +9927,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {
-            [566057] = 30,
+            [570004] = 30,
         },
         kanbanBgm = "",
         kanbanEffect = {
@@ -9975,7 +9977,7 @@ return {
         roleModel = 210211,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 4,
+            [1] = 142,
         },
         icon = "icon/role/dress_kanban/10211.png",
     },

@@ -37,6 +37,7 @@ function JumpActivityView:initUI( ui )
 	self.label_time = TFDirector:getChildByPath(ui, "label_time")
 	self.label_date = TFDirector:getChildByPath(ui, "label_date")
 	self.Button_jump = TFDirector:getChildByPath(ui, "Button_jump")
+	self.Button_jump:setScaleX(1)
 
     if self.activityInfo.extendData.dateRstring then
     	local dateStyle = self.activityInfo.extendData.dateStyle
@@ -55,6 +56,16 @@ function JumpActivityView:initUI( ui )
 
     if self.activityInfo.extendData.bgPath then	
     	self.Image_bg:setTexture(self.activityInfo.extendData.bgPath)
+	end
+	if self.activityInfo.extendData.buttonPath then	
+		self.Button_jump:setTextureNormal(self.activityInfo.extendData.buttonPath)
+		self.Button_jump:setPosition(300 , -90)
+		if self.activityInfo.id == 58 then
+			self.label_date:setPosition(-400 , 240)
+		else
+			self.label_date:setPosition(-400 , 250)
+		end
+		self.Button_jump:getChildByName("label_jump"):hide()
 	end
 end
 

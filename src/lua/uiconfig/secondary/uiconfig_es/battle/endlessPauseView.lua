@@ -251,7 +251,7 @@ local t =
 								PositionX = 10,
 								PositionY = 257,
 							},
-							width = "74",
+							width = "73",
 							ZOrder = "1",
 						},
 						{
@@ -296,7 +296,7 @@ local t =
 							{
 								PositionY = 197,
 							},
-							width = "204",
+							width = "217",
 							ZOrder = "1",
 						},
 						{
@@ -341,7 +341,7 @@ local t =
 							{
 								PositionY = 256,
 							},
-							width = "116",
+							width = "126",
 							ZOrder = "1",
 						},
 						{
@@ -518,7 +518,7 @@ local t =
 											{
 												PositionX = -132,
 											},
-											width = "199",
+											width = "182",
 											ZOrder = "1",
 										},
 										{
@@ -565,7 +565,7 @@ local t =
 												PositionY = -13,
 											},
 											visible = "False",
-											width = "38",
+											width = "36",
 											ZOrder = "1",
 										},
 									},
@@ -690,7 +690,7 @@ local t =
 											{
 												PositionX = -132,
 											},
-											width = "216",
+											width = "206",
 											ZOrder = "1",
 										},
 										{
@@ -737,7 +737,7 @@ local t =
 												PositionY = -13,
 											},
 											visible = "False",
-											width = "38",
+											width = "36",
 											ZOrder = "1",
 										},
 									},
@@ -878,7 +878,7 @@ local t =
 											{
 												PositionX = -132,
 											},
-											width = "204",
+											width = "193",
 											ZOrder = "1",
 										},
 										{
@@ -925,7 +925,7 @@ local t =
 												PositionY = -12,
 											},
 											visible = "False",
-											width = "38",
+											width = "36",
 											ZOrder = "1",
 										},
 									},
@@ -1208,7 +1208,7 @@ local t =
 								PositionX = 83,
 								PositionY = 16,
 							},
-							width = "21",
+							width = "20",
 							ZOrder = "1",
 						},
 						{
@@ -1327,7 +1327,7 @@ local t =
 									{
 										PositionX = 8,
 									},
-									width = "104",
+									width = "95",
 									ZOrder = "1",
 								},
 							},
@@ -1403,7 +1403,7 @@ local t =
 									{
 										PositionX = 8,
 									},
-									width = "104",
+									width = "95",
 									ZOrder = "1",
 								},
 							},

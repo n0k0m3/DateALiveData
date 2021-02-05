@@ -626,7 +626,7 @@ local t =
 												PositionY = 1,
 											},
 											visible = "False",
-											width = "515",
+											width = "550",
 											ZOrder = "1",
 										},
 									},
@@ -781,7 +781,7 @@ local t =
 										PositionX = 223,
 										PositionY = 538,
 									},
-									width = "376",
+									width = "341",
 									ZOrder = "1",
 								},
 								{
@@ -828,7 +828,7 @@ local t =
 										PositionX = 223,
 										PositionY = 510,
 									},
-									width = "338",
+									width = "318",
 									ZOrder = "1",
 								},
 								{
@@ -1018,7 +1018,7 @@ local t =
 												PositionX = 117,
 												PositionY = 400,
 											},
-											width = "274",
+											width = "247",
 											ZOrder = "1",
 										},
 									},
@@ -1067,7 +1067,7 @@ local t =
 										PositionX = 207,
 										PositionY = 538,
 									},
-									width = "376",
+									width = "341",
 									ZOrder = "1",
 								},
 								{
@@ -1114,7 +1114,7 @@ local t =
 										PositionX = 207,
 										PositionY = 510,
 									},
-									width = "338",
+									width = "318",
 									ZOrder = "1",
 								},
 								{
@@ -1372,7 +1372,7 @@ local t =
 										PositionX = 117,
 										PositionY = 400,
 									},
-									width = "92",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -1418,7 +1418,7 @@ local t =
 										PositionX = 153,
 										PositionY = 366,
 									},
-									width = "296",
+									width = "330",
 									ZOrder = "1",
 								},
 								{
@@ -2503,7 +2503,7 @@ local t =
 								TopPosition = 397,
 								relativeToName = "panel_totalCell",
 							},
-							width = "43",
+							width = "45",
 							ZOrder = "1",
 						},
 						{
@@ -2681,7 +2681,7 @@ local t =
 								nGravity = 2,
 								nAlign = 2
 							},
-							width = "130",
+							width = "143",
 							ZOrder = "1",
 						},
 						{
@@ -2730,7 +2730,7 @@ local t =
 								TopPosition = 397,
 								relativeToName = "panel_totalCell",
 							},
-							width = "43",
+							width = "45",
 							ZOrder = "1",
 						},
 					},
@@ -2975,7 +2975,7 @@ local t =
 														PositionX = -10,
 														PositionY = 9,
 													},
-													width = "11",
+													width = "12",
 													ZOrder = "1",
 												},
 												{
@@ -3094,7 +3094,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "186",
+													width = "203",
 													ZOrder = "1",
 												},
 											},
@@ -3262,7 +3262,7 @@ local t =
 														PositionX = -40,
 														PositionY = 1,
 													},
-													width = "65",
+													width = "72",
 													ZOrder = "1",
 												},
 												{
@@ -3308,7 +3308,7 @@ local t =
 														PositionX = -40,
 														PositionY = 1,
 													},
-													width = "426",
+													width = "457",
 													ZOrder = "1",
 												},
 											},
@@ -3355,7 +3355,7 @@ local t =
 											{
 												PositionY = -179,
 											},
-											width = "121",
+											width = "111",
 											ZOrder = "1",
 										},
 										{
@@ -3808,7 +3808,7 @@ local t =
 																PositionX = -33,
 																PositionY = -4,
 															},
-															width = "11",
+															width = "12",
 															ZOrder = "1",
 														},
 													},
@@ -3857,7 +3857,7 @@ local t =
 											{
 												PositionY = 17,
 											},
-											width = "186",
+											width = "203",
 											ZOrder = "1",
 										},
 										{
@@ -3996,7 +3996,7 @@ local t =
 											{
 												PositionY = -179,
 											},
-											width = "121",
+											width = "111",
 											ZOrder = "1",
 										},
 										{
@@ -4174,7 +4174,7 @@ local t =
 														PositionX = -40,
 														PositionY = 1,
 													},
-													width = "65",
+													width = "72",
 													ZOrder = "1",
 												},
 												{
@@ -4221,7 +4221,7 @@ local t =
 														PositionY = 1,
 													},
 													visible = "False",
-													width = "426",
+													width = "457",
 													ZOrder = "1",
 												},
 											},
@@ -4411,7 +4411,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "298",
+													width = "323",
 													ZOrder = "1",
 												},
 											},
@@ -4458,7 +4458,7 @@ local t =
 											{
 												PositionY = -55,
 											},
-											width = "177",
+											width = "172",
 											ZOrder = "1",
 										},
 										{
@@ -4503,7 +4503,7 @@ local t =
 											{
 												PositionY = -85,
 											},
-											width = "127",
+											width = "129",
 											ZOrder = "1",
 										},
 										{
@@ -4548,7 +4548,7 @@ local t =
 											{
 												PositionY = -179,
 											},
-											width = "146",
+											width = "131",
 											ZOrder = "1",
 										},
 										{
@@ -4594,7 +4594,7 @@ local t =
 												PositionX = 10,
 												PositionY = -179,
 											},
-											width = "9",
+											width = "11",
 											ZOrder = "1",
 										},
 										{
@@ -4668,7 +4668,7 @@ local t =
 														PositionX = -38,
 														PositionY = 1,
 													},
-													width = "65",
+													width = "72",
 													ZOrder = "1",
 												},
 												{
@@ -4715,7 +4715,7 @@ local t =
 														PositionY = 1,
 													},
 													visible = "False",
-													width = "426",
+													width = "457",
 													ZOrder = "1",
 												},
 											},
@@ -4819,7 +4819,7 @@ local t =
 													{
 														PositionY = -2,
 													},
-													width = "53",
+													width = "55",
 													ZOrder = "1",
 												},
 												{
@@ -4935,7 +4935,7 @@ local t =
 												nGravity = 2,
 												nAlign = 2
 											},
-											width = "153",
+											width = "167",
 											ZOrder = "1",
 										},
 										{
@@ -4984,7 +4984,7 @@ local t =
 												TopPosition = 61,
 												relativeToName = "panel_totalCell",
 											},
-											width = "41",
+											width = "40",
 											ZOrder = "1",
 										},
 										{
@@ -5033,7 +5033,7 @@ local t =
 												TopPosition = 65,
 												relativeToName = "panel_totalCell",
 											},
-											width = "220",
+											width = "207",
 											ZOrder = "1",
 										},
 										{
@@ -5304,7 +5304,7 @@ local t =
 														
 													},
 													visible = "False",
-													width = "120",
+													width = "132",
 													ZOrder = "1",
 												},
 											},

@@ -2838,7 +2838,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "200",
 									ZOrder = "1",
 									components = 
@@ -3200,8 +3199,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "43",
-											ignoreSize = "True",
+											height = "58",
+											ignoreSize = "False",
 											name = "Image_title_di",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -3214,7 +3213,7 @@ local t =
 												PositionX = 123,
 												PositionY = 172,
 											},
-											width = "89",
+											width = "188",
 											ZOrder = "1",
 											components = 
 											{
@@ -3223,8 +3222,8 @@ local t =
 													controlID = "Label_title_desc1_Image_title_di_cell_recharge_img_di_panel_cell_Panel-rechargeMainNew_Layer1_recharge_Game",
 													UUID = "51a91390_9e9a_45cf_aab0_cbc238fbca1e",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
-													anchorPointY = "0.5",
+													anchorPointX = "1",
+													anchorPointY = "1",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
@@ -3245,11 +3244,11 @@ local t =
 														StrokeColor = "#FFCA4465",
 														StrokeSize = 2,
 													},
-													height = "29",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_title_desc1",
-													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextAlign = "0",
+													nTextHAlign = "2",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -3259,10 +3258,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -40,
-														PositionY = 1,
+														PositionX = -13,
+														PositionY = 17,
 													},
-													width = "87",
+													width = "166",
 													ZOrder = "1",
 												},
 												{
@@ -3381,6 +3380,7 @@ local t =
 												PositionX = 131,
 												PositionY = 178,
 											},
+											visible = "False",
 											width = "198",
 											ZOrder = "1",
 											components = 
@@ -4886,6 +4886,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "200",
 									ZOrder = "1",
 									components = 

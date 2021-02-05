@@ -155,7 +155,7 @@ local t =
 								PositionY = 224,
 								relativeToName = "Panel",
 							},
-							width = "258",
+							width = "275",
 							ZOrder = "1",
 						},
 						{
@@ -688,7 +688,7 @@ local t =
 								PositionY = 64,
 							},
 							visible = "False",
-							width = "94",
+							width = "88",
 							ZOrder = "1",
 						},
 						{
@@ -735,7 +735,7 @@ local t =
 								PositionY = 64,
 							},
 							visible = "False",
-							width = "136",
+							width = "135",
 							ZOrder = "1",
 						},
 					},

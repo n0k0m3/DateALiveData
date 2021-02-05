@@ -83,17 +83,32 @@ function ActivityBuyConfirmView:registerEvents()
                 Utils:showTips(302200)
                 return
             end
-            local args = {
-                self.activityId_,
-                self.itemId_,
-                self.selectNum,
-            }
-            --韩服好友助力兑换商店修改
-            local extendData = {num = self.selectNum}
-            local json = require("LuaScript.extends.json")
-            local jsonExtendData = json.encode(extendData)
-            ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId_, self.itemId_, jsonExtendData)
-            --ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId_, self.itemId_, self.selectNum)
+            local callback = function( ... )
+                local args = {
+                    self.activityId_,
+                    self.itemId_,
+                    self.selectNum,
+                }
+                --韩服好友助力兑换商店修改
+                local extendData = {num = self.selectNum}
+                local json = require("LuaScript.extends.json")
+                local jsonExtendData = json.encode(extendData)
+                ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId_, self.itemId_, jsonExtendData)
+                --ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId_, self.itemId_, self.selectNum)
+            end
+            local goodsCfg = GoodsDataMgr:getItemCfg(self.goodsId_)
+            if goodsCfg.superType == EC_ResourceType.DRESS or goodsCfg.superType == EC_ResourceType.REWARD then
+                if GoodsDataMgr:getItemCount(self.goodsId_) > 0 then
+                    Utils:openView("store.RepeatActivityBuyTipsView", self.goodsId_ , self.selectNum , callback)
+                    self.isHaveCloth = true
+                else
+                    callback()
+                end
+            else
+                callback()
+            end
+
+            
     end)
 
     self.Button_close:onClick(
@@ -208,6 +223,15 @@ function ActivityBuyConfirmView:onBuySuccessEvent(data)
 end
 
 function ActivityBuyConfirmView:onSubmitSuccessEvent(activitId, itemId, reward)
+    local goodsCfg = GoodsDataMgr:getItemCfg(self.goodsId_)
+    if self.isHaveCloth == true and  (goodsCfg.superType == EC_ResourceType.DRESS or goodsCfg.superType == EC_ResourceType.REWARD )then
+        if GoodsDataMgr:getItemCount(self.goodsId_) > 0 then
+            local convertCid, converNum = next(goodsCfg.convertMax)
+            local newReward = {}
+            table.insert(newReward , {id =convertCid , num =  converNum})
+            reward = newReward
+        end
+    end
     AlertManager:closeLayer(self)
     Utils:showReward(reward)
 end

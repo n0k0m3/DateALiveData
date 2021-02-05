@@ -203,14 +203,14 @@ local t =
 						OffsetX = 0,
 						OffsetY = 0,
 					},
-					fontSize = "22",
+					fontSize = "18",
 					fontStroke = 
 					{
 						IsStroke = false,
 						StrokeColor = "#FFE6E6E6",
 						StrokeSize = 1,
 					},
-					height = "27",
+					height = "21",
 					ignoreSize = "True",
 					name = "label_tip1",
 					nTextAlign = "1",
@@ -227,7 +227,7 @@ local t =
 						PositionX = 104,
 						PositionY = -148,
 					},
-					width = "97",
+					width = "106",
 					ZOrder = "1",
 				},
 				{
@@ -249,14 +249,14 @@ local t =
 						OffsetX = 0,
 						OffsetY = 0,
 					},
-					fontSize = "22",
+					fontSize = "18",
 					fontStroke = 
 					{
 						IsStroke = false,
 						StrokeColor = "#FFE6E6E6",
 						StrokeSize = 1,
 					},
-					height = "25",
+					height = "21",
 					ignoreSize = "True",
 					name = "label_activityTime",
 					nTextAlign = "1",
@@ -270,10 +270,10 @@ local t =
 					touchScaleEnable = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 204,
+						PositionX = 219,
 						PositionY = -146,
 					},
-					width = "116",
+					width = "74",
 					ZOrder = "1",
 				},
 				{
@@ -408,7 +408,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "btn_label",
 							nTextAlign = "1",
@@ -424,7 +424,7 @@ local t =
 							{
 								
 							},
-							width = "51",
+							width = "37",
 							ZOrder = "1",
 						},
 					},

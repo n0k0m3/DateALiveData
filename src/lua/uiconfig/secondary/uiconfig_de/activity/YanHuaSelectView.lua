@@ -300,7 +300,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "32",
 							ignoreSize = "True",
 							name = "label_title",
 							nTextAlign = "0",
@@ -317,7 +317,7 @@ local t =
 								PositionX = 394,
 								PositionY = 538,
 							},
-							width = "114",
+							width = "277",
 							ZOrder = "1",
 						},
 						{
@@ -430,8 +430,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "tip2",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -446,7 +446,7 @@ local t =
 									{
 										PositionY = -32,
 									},
-									width = "300",
+									width = "350",
 									ZOrder = "1",
 								},
 								{
@@ -985,7 +985,7 @@ local t =
 											{
 												
 											},
-											width = "63",
+											width = "100",
 											ZOrder = "1",
 										},
 									},

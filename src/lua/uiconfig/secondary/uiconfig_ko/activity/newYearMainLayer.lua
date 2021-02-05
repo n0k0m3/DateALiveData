@@ -70,8 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 510,
-						PositionY = 355,
+						PositionX = 480,
+						PositionY = 320,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -265,7 +265,7 @@ local t =
 										StrokeColor = "#FF4C6EAE",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_task",
 									nTextAlign = "1",
@@ -274,14 +274,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "퀘스트",
+									text = "Quest",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -40,
 									},
-									width = "44",
+									width = "64",
 									ZOrder = "1",
 								},
 								{
@@ -370,7 +370,7 @@ local t =
 										StrokeColor = "#FF4C6EAE",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_reward",
 									nTextAlign = "1",
@@ -379,14 +379,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "보상",
+									text = "Reward",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -40,
 									},
-									width = "44",
+									width = "84",
 									ZOrder = "1",
 								},
 							},
@@ -449,7 +449,7 @@ local t =
 										StrokeColor = "#FF4C6EAE",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_shop",
 									nTextAlign = "1",
@@ -458,14 +458,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "상점",
+									text = "Store",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -40,
 									},
-									width = "44",
+									width = "60",
 									ZOrder = "1",
 								},
 							},
@@ -533,7 +533,6 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "0",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -579,7 +578,6 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "0",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -677,8 +675,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "74",
-											ignoreSize = "True",
+											height = "96",
+											ignoreSize = "False",
 											name = "boss_bg",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -691,7 +689,7 @@ local t =
 												PositionX = 94,
 												PositionY = 108,
 											},
-											width = "192",
+											width = "220",
 											components = 
 											{
 												
@@ -717,7 +715,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -59,
+														PositionX = -68,
 														PositionY = 3,
 													},
 													width = "84",
@@ -742,14 +740,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "23",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_boss_name",
 													nTextAlign = "1",
@@ -758,15 +756,15 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "出现位置",
+													text = "Where it appears",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 19,
-														PositionY = 11,
+														PositionX = 26,
+														PositionY = 13,
 													},
-													width = "83",
+													width = "126",
 													ZOrder = "1",
 												},
 												{
@@ -788,15 +786,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "13",
 													fontStroke = 
 													{
 														IsStroke = true,
 														StrokeColor = "#FF822023",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_cityName",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -804,15 +802,15 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "도시 이름",
+													text = "City Name City NameCity ",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 19,
-														PositionY = -14,
+														PositionX = 21,
+														PositionY = -19,
 													},
-													width = "84",
+													width = "150",
 													ZOrder = "1",
 												},
 											},
@@ -877,10 +875,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 129,
-												PositionY = 40,
+												PositionX = 117,
+												PositionY = 36,
 											},
-											width = "212",
+											width = "250",
 											ZOrder = "1",
 										},
 										{
@@ -893,7 +891,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -902,14 +900,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF822023",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "19",
 											ignoreSize = "True",
 											name = "Label_score",
 											nTextAlign = "1",
@@ -918,15 +916,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "本轮评分：",
+											text = "Rating of current round",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 25,
+												PositionX = -1,
 												PositionY = 52,
 											},
-											width = "91",
+											width = "149",
 											ZOrder = "1",
 										},
 										{
@@ -939,7 +937,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -948,14 +946,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF822023",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_score_value",
 											nTextAlign = "1",
@@ -969,10 +967,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 229,
+												PositionX = 233,
 												PositionY = 52,
 											},
-											width = "89",
+											width = "80",
 											ZOrder = "1",
 										},
 										{
@@ -985,7 +983,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -994,14 +992,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF822023",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "19",
 											ignoreSize = "True",
 											name = "Label_total_score",
 											nTextAlign = "1",
@@ -1010,15 +1008,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "累积评分：",
+											text = "Total Score",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 25,
-												PositionY = 24,
+												PositionX = -1,
+												PositionY = 22,
 											},
-											width = "91",
+											width = "71",
 											ZOrder = "1",
 										},
 										{
@@ -1031,7 +1029,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -1040,14 +1038,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF822023",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_total_score_value",
 											nTextAlign = "1",
@@ -1064,7 +1062,7 @@ local t =
 												PositionX = 229,
 												PositionY = 24,
 											},
-											width = "110",
+											width = "97",
 											ZOrder = "1",
 										},
 									},
@@ -1223,7 +1221,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFFFFF",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -1232,14 +1230,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "17",
 									ignoreSize = "True",
 									name = "Label_unlock_title",
 									nTextAlign = "1",
@@ -1248,7 +1246,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "场景解锁：",
+									text = "Unlock the Scene",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1256,7 +1254,7 @@ local t =
 										PositionX = 7,
 										PositionY = 21,
 									},
-									width = "90",
+									width = "107",
 									ZOrder = "1",
 								},
 								{
@@ -1269,7 +1267,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFFFFF",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -1278,14 +1276,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_unlock_value",
 									nTextAlign = "1",
@@ -1294,7 +1292,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "0",
+									text = "15-15",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1302,7 +1300,7 @@ local t =
 										PositionX = 168,
 										PositionY = 21,
 									},
-									width = "0",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -1368,7 +1366,6 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "0",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1548,8 +1545,8 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "74",
-							ignoreSize = "True",
+							height = "96",
+							ignoreSize = "False",
 							name = "bossItem",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -1562,7 +1559,7 @@ local t =
 								PositionX = 1026,
 								PositionY = 340,
 							},
-							width = "192",
+							width = "220",
 							ZOrder = "1",
 							components = 
 							{
@@ -1589,7 +1586,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -59,
+										PositionX = -71,
 										PositionY = 3,
 									},
 									width = "84",
@@ -1614,14 +1611,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "19",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_tip",
 									nTextAlign = "1",
@@ -1630,15 +1627,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "出现位置",
+									text = "Where it appears",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = 19,
-										PositionY = 11,
+										PositionY = 14,
 									},
-									width = "79",
+									width = "111",
 									ZOrder = "1",
 								},
 								{
@@ -1660,15 +1657,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "13",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF822023",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_cityName",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1676,15 +1673,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "도시 이름",
+									text = "City Name",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = 22,
-										PositionY = -14,
+										PositionY = -17,
 									},
-									width = "84",
+									width = "150",
 									ZOrder = "1",
 								},
 							},
@@ -1820,7 +1817,7 @@ local t =
 													controlID = "Label_res_time_Image_res_time_bg_Panel_res_collect_Panel_event_status_Panel_prefab_Panel-newYearMainLayer_newyearFuben_activity_Game",
 													UUID = "73df73d1_1c9c_43be_bf88_dd4b1d55f88a",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -1856,9 +1853,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 12,
+														PositionX = -26,
 													},
-													width = "73",
+													width = "71",
 													ZOrder = "1",
 												},
 											},

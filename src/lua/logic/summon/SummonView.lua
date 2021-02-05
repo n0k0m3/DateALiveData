@@ -582,7 +582,7 @@ function SummonView:updateSelectInfo()
         self.Image_ad:setTexture(summonCfg.icon)
     end
 
-    if summonCfg.poolType == 950 then
+    if summonCfg.poolType == 960 then
         self.panel_cloth_show:show()
         local summonPoolCfgs = SummonDataMgr:getSummonPoolCfgsByPoolType()
         local showRewards = {}

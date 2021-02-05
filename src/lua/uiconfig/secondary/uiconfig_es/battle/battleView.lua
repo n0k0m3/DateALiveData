@@ -14146,7 +14146,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 510,
-								PositionY = 334,
+								PositionY = 333,
 								relativeToName = "Panel_victory",
 								nType = 3,
 								nGravity = 6,

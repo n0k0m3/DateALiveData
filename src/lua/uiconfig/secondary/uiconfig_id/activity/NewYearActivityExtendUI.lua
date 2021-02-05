@@ -108,7 +108,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 588,
+								PositionX = 516,
 								PositionY = 58,
 							},
 							UItype = "Button",
@@ -159,7 +159,7 @@ local t =
 									{
 										PositionY = -40,
 									},
-									width = "51",
+									width = "125",
 									ZOrder = "1",
 								},
 							},
@@ -252,8 +252,8 @@ local t =
 								StrokeColor = "#FFA3211F",
 								StrokeSize = 2,
 							},
-							height = "25",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "label_tip",
 							nTextAlign = "1",
 							nTextHAlign = "1",
@@ -266,10 +266,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1048,
-								PositionY = 424,
+								PositionX = 1033,
+								PositionY = 428,
 							},
-							width = "131",
+							width = "200",
 							ZOrder = "1",
 						},
 						{
@@ -345,7 +345,7 @@ local t =
 										TopPosition = 241,
 										relativeToName = "Panel",
 									},
-									width = "95",
+									width = "121",
 									ZOrder = "1",
 								},
 							},

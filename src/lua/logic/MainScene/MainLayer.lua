@@ -1061,7 +1061,7 @@ function MainLayer:setBackGroundByTime()
                     -- tempSpine:setPosition(self.Spine_effectHB:getPosition())
                     -- self.background:addChild(tempSpine, self.Spine_effectHB:getZOrder())
                     --TODO CLOSE 英文版修改为圣诞节背景
-                    res = "ui/mainLayer/new_ui_en_1/bg_shengdan.png"
+                    --res = "ui/mainLayer/new_ui_en_1/bg_shengdan.png"
                 end
             else
                 if spine then

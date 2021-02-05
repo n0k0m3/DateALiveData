@@ -6,7 +6,7 @@ local t =
 		
 		{
 			controlID = "Panel-touzhirenTip_Layer1_activity_Game",
-			UUID = "5018b54a_2ce4_4b63_85ba_ba70c7eda326",
+			UUID = "54b01f87_92a5_4a49_a512_f17163452288",
 			anchorPoint = "False",
 			anchorPointX = "0",
 			anchorPointY = "0",
@@ -238,7 +238,7 @@ local t =
 						},
 						{
 							controlID = "Button_close_Panel_base_Panel-touzhirenTip_Layer1_activity_Game",
-							UUID = "c8f74b6f_5c84_4d08_857b_9995a8556997",
+							UUID = "74c5c73b_ccbb_48d9_89a0_4fa0886e9bbe",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",

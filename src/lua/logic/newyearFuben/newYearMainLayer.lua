@@ -193,6 +193,8 @@ function newYearMainLayer:initMapLayer()
 			cityPoint.Panel_event1:setPositionX(-35)
 		end
 		cityPoint.Label_name:setTextById(cityCfg.name)
+		cityPoint.Label_name:setTextAreaSize(CCSize(200 , 0))
+		cityPoint.Label_name:setFontSize(18)
 		cityPoint.Image_lock:setPositionX(cityPoint.Label_name:getPositionX() - cityPoint.Label_name:getContentSize().width / 2 - 20)
 		cityPoint.Image_lock:hide()
 		cityPoint.Panel_event1:hide()

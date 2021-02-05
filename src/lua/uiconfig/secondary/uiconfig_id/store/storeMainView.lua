@@ -377,7 +377,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 61,
-										PositionY = -24,
+										PositionY = -54,
 									},
 									uipanelviewmodel = 
 									{
@@ -592,7 +592,7 @@ local t =
 									anchorPointY = "0.5",
 									backGroundScale9Enable = "False",
 									bgColorOpacity = "50",
-									bIsOpenClipping = "False",
+									bIsOpenClipping = "True",
 									bounceEnable = "False",
 									classname = "MEScrollView",
 									colorType = "0;SingleColor:#FF90EE90;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
@@ -601,7 +601,7 @@ local t =
 									height = "40",
 									ignoreSize = "False",
 									innerHeight = "40",
-									innerWidth = "360",
+									innerWidth = "400",
 									name = "ScrollView_assets",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -619,7 +619,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "360",
+									width = "400",
 									ZOrder = "1",
 								},
 								{
@@ -1042,7 +1042,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							touchAble = "False",
+							touchAble = "True",
 							UILayoutViewModel = 
 							{
 								PositionX = 612,
@@ -1053,7 +1053,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "170",
+							width = "180",
 							ZOrder = "1",
 							components = 
 							{
@@ -1079,7 +1079,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = 10,
 									},
 									width = "150",
 									ZOrder = "1",
@@ -1106,7 +1106,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -70,
+										PositionX = -60,
 										PositionY = 3,
 									},
 									width = "100",
@@ -1152,7 +1152,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -37,
+										PositionX = -27,
 									},
 									width = "62",
 									ZOrder = "1",

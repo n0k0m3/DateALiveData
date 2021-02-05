@@ -69825,7 +69825,6 @@ return {
         },
         order = 1,
         accessId = {
-            [1] = 187,
         },
         des = "可以替代货币（钻石）进行召唤的道具。外形是一个设计精巧的徽章",
     },
@@ -76890,7 +76889,7 @@ return {
         },
         order = 0,
         accessId = {
-            [1] = 129,
+            [1] = 319,
         },
         des = "可以替代货币（钻石）进行召唤的道具。外形是一个设计精巧的徽章",
     },
@@ -85743,30 +85742,18 @@ return {
                         num = 1,
                     },
                     [19] = {
-                        id = 522196,
-                        num = 1,
-                    },
-                    [20] = {
                         id = 522226,
                         num = 1,
                     },
-                    [21] = {
+                    [20] = {
                         id = 522236,
                         num = 1,
                     },
-                    [22] = {
+                    [21] = {
                         id = 522246,
                         num = 1,
                     },
-                    [23] = {
-                        id = 522276,
-                        num = 1,
-                    },
-                    [24] = {
-                        id = 522286,
-                        num = 1,
-                    },
-                    [25] = {
+                    [22] = {
                         id = 522296,
                         num = 1,
                     },
@@ -85892,30 +85879,18 @@ return {
                         num = 1,
                     },
                     [19] = {
-                        id = 522195,
-                        num = 1,
-                    },
-                    [20] = {
                         id = 522225,
                         num = 1,
                     },
-                    [21] = {
+                    [20] = {
                         id = 522235,
                         num = 1,
                     },
-                    [22] = {
+                    [21] = {
                         id = 522245,
                         num = 1,
                     },
-                    [23] = {
-                        id = 522275,
-                        num = 1,
-                    },
-                    [24] = {
-                        id = 522285,
-                        num = 1,
-                    },
-                    [25] = {
+                    [22] = {
                         id = 522295,
                         num = 1,
                     },
@@ -86041,30 +86016,18 @@ return {
                         num = 1,
                     },
                     [19] = {
-                        id = 522194,
-                        num = 1,
-                    },
-                    [20] = {
                         id = 522224,
                         num = 1,
                     },
-                    [21] = {
+                    [20] = {
                         id = 522234,
                         num = 1,
                     },
-                    [22] = {
+                    [21] = {
                         id = 522244,
                         num = 1,
                     },
-                    [23] = {
-                        id = 522274,
-                        num = 1,
-                    },
-                    [24] = {
-                        id = 522284,
-                        num = 1,
-                    },
-                    [25] = {
+                    [22] = {
                         id = 522294,
                         num = 1,
                     },
@@ -86190,38 +86153,18 @@ return {
                         num = 1,
                     },
                     [19] = {
-                        id = 521197,
-                        num = 1,
-                    },
-                    [20] = {
                         id = 521227,
                         num = 1,
                     },
-                    [21] = {
+                    [20] = {
                         id = 521237,
                         num = 1,
                     },
-                    [22] = {
+                    [21] = {
                         id = 521247,
                         num = 1,
                     },
-                    [23] = {
-                        id = 521277,
-                        num = 1,
-                    },
-                    [24] = {
-                        id = 521287,
-                        num = 1,
-                    },
-                    [25] = {
-                        id = 521277,
-                        num = 1,
-                    },
-                    [26] = {
-                        id = 521287,
-                        num = 1,
-                    },
-                    [27] = {
+                    [22] = {
                         id = 521297,
                         num = 1,
                     },
@@ -147357,30 +147300,18 @@ return {
                         num = 1,
                     },
                     [19] = {
-                        id = 521195,
-                        num = 1,
-                    },
-                    [20] = {
                         id = 521225,
                         num = 1,
                     },
-                    [21] = {
+                    [20] = {
                         id = 521235,
                         num = 1,
                     },
-                    [22] = {
+                    [21] = {
                         id = 521245,
                         num = 1,
                     },
-                    [23] = {
-                        id = 521275,
-                        num = 1,
-                    },
-                    [24] = {
-                        id = 521285,
-                        num = 1,
-                    },
-                    [25] = {
+                    [22] = {
                         id = 521295,
                         num = 1,
                     },
@@ -147588,30 +147519,18 @@ return {
                         num = 1,
                     },
                     [19] = {
-                        id = 521196,
-                        num = 1,
-                    },
-                    [20] = {
                         id = 521226,
                         num = 1,
                     },
-                    [21] = {
+                    [20] = {
                         id = 521236,
                         num = 1,
                     },
-                    [22] = {
+                    [21] = {
                         id = 521246,
                         num = 1,
                     },
-                    [23] = {
-                        id = 521276,
-                        num = 1,
-                    },
-                    [24] = {
-                        id = 521286,
-                        num = 1,
-                    },
-                    [25] = {
+                    [22] = {
                         id = 521296,
                         num = 1,
                     },
@@ -149149,7 +149068,7 @@ return {
         bagType = 0,
         autoUse = false,
         nameTextId = 0,
-        icon = "icon/cg/date_cg_251.png",
+        icon = "icon/cg/date_cg_251_1.png",
         quality = 1,
         desTextId = 0,
         delete = false,
@@ -149229,7 +149148,7 @@ return {
         bagType = 0,
         autoUse = false,
         nameTextId = 0,
-        icon = "icon/cg/date_cg_252.png",
+        icon = "icon/cg/date_cg_252_1.png",
         quality = 1,
         desTextId = 0,
         delete = false,
@@ -149309,7 +149228,7 @@ return {
         bagType = 0,
         autoUse = false,
         nameTextId = 0,
-        icon = "icon/cg/date_cg_253.png",
+        icon = "icon/cg/date_cg_253_1.png",
         quality = 1,
         desTextId = 0,
         delete = false,
@@ -149389,7 +149308,7 @@ return {
         bagType = 0,
         autoUse = false,
         nameTextId = 0,
-        icon = "icon/cg/date_cg_254.png",
+        icon = "icon/cg/date_cg_254_1.png",
         quality = 1,
         desTextId = 0,
         delete = false,

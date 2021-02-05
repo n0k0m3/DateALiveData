@@ -108,7 +108,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 588,
+								PositionX = 553,
 								PositionY = 58,
 							},
 							UItype = "Button",
@@ -159,7 +159,7 @@ local t =
 									{
 										PositionY = -40,
 									},
-									width = "51",
+									width = "162",
 									ZOrder = "1",
 								},
 							},
@@ -269,7 +269,7 @@ local t =
 								PositionX = 1048,
 								PositionY = 424,
 							},
-							width = "131",
+							width = "271",
 							ZOrder = "1",
 						},
 						{
@@ -345,7 +345,7 @@ local t =
 										TopPosition = 241,
 										relativeToName = "Panel",
 									},
-									width = "95",
+									width = "82",
 									ZOrder = "1",
 								},
 							},

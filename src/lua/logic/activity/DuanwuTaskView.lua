@@ -120,8 +120,8 @@ function DuanwuTaskView:updateAllTaskItem()
         local foo = self.taskItems_[v]
         local progressInfo = ActivityDataMgr2:getProgressInfo(EC_ActivityType2.DUANWU_1, taskData[i])
         local itemInfo = ActivityDataMgr2:getItemInfo(EC_ActivityType2.DUANWU_1, taskData[i])
-        foo.Label_desc:setText(itemInfo.extendData.des2)
-        foo.Label_desc_complete:setText(itemInfo.extendData.des2)
+        foo.Label_desc:setTextById(tonumber(itemInfo.extendData.des2) ,itemInfo.target)
+        foo.Label_desc_complete:setTextById(tonumber(itemInfo.extendData.des2) ,itemInfo.target)
         foo.Label_step:setText(itemInfo.target)
         foo.Label_step_complete:setText(itemInfo.target)
         local isReceive = progressInfo.status == EC_TaskStatus.GET

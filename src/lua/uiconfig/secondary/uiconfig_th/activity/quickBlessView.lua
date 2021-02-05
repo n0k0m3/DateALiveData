@@ -165,7 +165,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -174,7 +174,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "快捷贺语",
+									text = "Quick Greeting",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -182,7 +182,7 @@ local t =
 										PositionX = -342,
 										PositionY = 168,
 									},
-									width = "122",
+									width = "238",
 									ZOrder = "1",
 								},
 								{
@@ -208,6 +208,7 @@ local t =
 										PositionX = -215,
 										PositionY = 170,
 									},
+									visible = "False",
 									width = "2",
 									ZOrder = "1",
 								},
@@ -246,7 +247,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "พรีวิวไอเทม",
+									text = "Item Preview",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -254,7 +255,8 @@ local t =
 										PositionX = -211,
 										PositionY = 164,
 									},
-									width = "79",
+									visible = "False",
+									width = "77",
 									ZOrder = "1",
 								},
 								{
@@ -390,14 +392,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "24",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "65",
+							height = "0",
 							ignoreSize = "False",
 							name = "lab",
 							nTextAlign = "1",
@@ -406,7 +408,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "我是祝福我是祝福我是祝福我是祝福",
+							text = "I am a blessing I am a blessing I am a blessing",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -510,14 +512,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "选择",
+									text = "Select",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "43",
+									width = "45",
 									ZOrder = "1",
 								},
 							},

@@ -1,4 +1,3 @@
-
 local DuanwuMainView = class("DuanwuMainView", BaseLayer)
 
 function DuanwuMainView:initData()
@@ -10,7 +9,6 @@ function DuanwuMainView:initData()
         Utils:showTips("未配置活动类型为%s的活动", EC_ActivityType2.DUANWU_1)
     end
 
-    local datingAward = json.decode(self.submitActivityInfo_.extendData.datingAward)
     local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.DUANWU_2)
     if #activity > 0 then
         self.taskActivityId_ = activity[1]
@@ -129,8 +127,8 @@ function DuanwuMainView:updateTask()
         if itemId then
             local itemInfo = ActivityDataMgr2:getItemInfo(EC_ActivityType2.DUANWU_2, itemId)
             local progressInfo = ActivityDataMgr2:getProgressInfo(EC_ActivityType2.DUANWU_2, itemId)
-            v.Label_name:setText(itemInfo.extendData.des)
-            v.Label_desc:setText(itemInfo.extendData.des2)
+            v.Label_name:setText(Utils:MultiLanguageStringDeal(itemInfo.extendData.des))
+            v.Label_desc:setText(Utils:MultiLanguageStringDeal(itemInfo.extendData.des2))
             v.Button_receive:setVisible(progressInfo.status == EC_TaskStatus.GET)
             v.Button_goto:setVisible(progressInfo.status == EC_TaskStatus.ING and itemInfo.extendData.jumpInterface)
             v.Button_geted:setVisible(progressInfo.status == EC_TaskStatus.GETED)

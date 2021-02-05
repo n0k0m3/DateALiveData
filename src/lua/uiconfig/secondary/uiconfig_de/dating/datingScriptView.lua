@@ -690,7 +690,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -1261,
-												PositionY = -36,
+												PositionY = -60,
 											},
 											uipanelviewmodel = 
 											{
@@ -728,7 +728,7 @@ local t =
 														StrokeColor = "#FF49557F",
 														StrokeSize = 1,
 													},
-													height = "80",
+													height = "100",
 													ignoreSize = "False",
 													name = "TextArea_talking",
 													nTextAlign = "0",
@@ -743,7 +743,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 93,
-														PositionY = -3,
+														PositionY = 3,
 													},
 													width = "1040",
 													ZOrder = "1",
@@ -820,7 +820,7 @@ local t =
 													{
 														PositionX = 20,
 													},
-													width = "158",
+													width = "174",
 													ZOrder = "1",
 												},
 											},
@@ -829,7 +829,7 @@ local t =
 											controlID = "Image_jiasu_Image_textBg_Panel_main_Panel_base_Panel-datingScriptView_Layer1_dating_Game",
 											UUID = "2282a843_560c_4d19_a5ea_4f9ee8888e81",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
@@ -845,7 +845,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -178,
+												PositionX = -127,
 												PositionY = -42,
 											},
 											width = "92",
@@ -855,7 +855,7 @@ local t =
 											controlID = "Image_normal_Image_textBg_Panel_main_Panel_base_Panel-datingScriptView_Layer1_dating_Game",
 											UUID = "5cd78e9b_5757_4bd1_a22c_4887fde96a34",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
@@ -871,7 +871,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -179,
+												PositionX = -128,
 												PositionY = -42,
 											},
 											width = "80",
@@ -3741,7 +3741,7 @@ local t =
 														PositionX = 183,
 														PositionY = 24,
 													},
-													width = "72",
+													width = "82",
 													ZOrder = "1",
 												},
 												{
@@ -3843,7 +3843,7 @@ local t =
 														PositionX = 42,
 														PositionY = 24,
 													},
-													width = "117",
+													width = "129",
 													ZOrder = "1",
 												},
 												{

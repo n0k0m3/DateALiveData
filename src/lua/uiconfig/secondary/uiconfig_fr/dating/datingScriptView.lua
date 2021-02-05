@@ -829,7 +829,7 @@ local t =
 											controlID = "Image_jiasu_Image_textBg_Panel_main_Panel_base_Panel-datingScriptView_Layer1_dating_Game",
 											UUID = "2282a843_560c_4d19_a5ea_4f9ee8888e81",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
@@ -845,7 +845,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -178,
+												PositionX = -142,
 												PositionY = -42,
 											},
 											width = "92",
@@ -855,7 +855,7 @@ local t =
 											controlID = "Image_normal_Image_textBg_Panel_main_Panel_base_Panel-datingScriptView_Layer1_dating_Game",
 											UUID = "5cd78e9b_5757_4bd1_a22c_4887fde96a34",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
@@ -871,7 +871,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -179,
+												PositionX = -143,
 												PositionY = -42,
 											},
 											width = "80",

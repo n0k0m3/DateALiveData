@@ -184,14 +184,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "28",
+							fontSize = "20",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "23",
 							ignoreSize = "True",
 							name = "label_title",
 							nTextAlign = "0",
@@ -200,7 +200,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "Aperçu des récompenses",
+							text = "Rewards Preview",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -208,7 +208,7 @@ local t =
 								PositionX = 394,
 								PositionY = 538,
 							},
-							width = "115",
+							width = "180",
 							ZOrder = "1",
 						},
 						{

@@ -195,7 +195,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -204,7 +204,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Game result",
+									text = "Game Result",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -212,7 +212,7 @@ local t =
 										PositionX = -287,
 										PositionY = 136,
 									},
-									width = "115",
+									width = "180",
 									ZOrder = "1",
 								},
 								{

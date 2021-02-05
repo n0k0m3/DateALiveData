@@ -922,7 +922,7 @@ local t =
 												PositionY = -32,
 											},
 											vAlignment = "0",
-											width = "294",
+											width = "314",
 											ZOrder = "1",
 										},
 										{
@@ -1726,7 +1726,7 @@ local t =
 												PositionX = -3,
 												PositionY = 10,
 											},
-											width = "47",
+											width = "50",
 											ZOrder = "1",
 										},
 										{
@@ -1771,7 +1771,7 @@ local t =
 											{
 												PositionY = -17,
 											},
-											width = "38",
+											width = "39",
 											ZOrder = "1",
 										},
 									},
@@ -1997,7 +1997,7 @@ local t =
 									{
 										PositionY = 15,
 									},
-									width = "81",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -2209,7 +2209,7 @@ local t =
 												PercentX = 57.21,
 												PercentY = 21.35,
 											},
-											width = "60",
+											width = "64",
 											ZOrder = "1",
 										},
 										{
@@ -2449,7 +2449,7 @@ local t =
 											{
 												PositionY = -128,
 											},
-											width = "71",
+											width = "67",
 											ZOrder = "1",
 										},
 									},

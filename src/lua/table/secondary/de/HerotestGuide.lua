@@ -21,7 +21,7 @@ return {
         id = 7301,
         modelId = 210507,
         talkPos = 1,
-        desc = "不错,看来你已经解锁了三个不同的天使树方案了",
+        desc = "Großartig. Jetzt habt ihr drei verschiedene voreingestellte Fähigkeitsbäume für Engel freigeschaltet.",
     },
     [7302] = {
         nextGuideId = 7303,
@@ -29,7 +29,7 @@ return {
         id = 7302,
         modelId = 210507,
         talkPos = 2,
-        desc = "方案不同，强化的技能方向也有所不同。",
+        desc = "Diese Voreinstellungen können deine Fähigkeiten in verschiedene Richtungen verstärken.",
     },
     [2302] = {
         nextGuideId = 2303,
@@ -69,7 +69,7 @@ return {
         id = 5401,
         modelId = 210507,
         talkPos = 1,
-        desc = "信物也是提升战力的一种有效方式。",
+        desc = "Auch Souvenirs erhöhen deine KK effektiv.",
     },
     [5402] = {
         nextGuideId = 0,
@@ -77,7 +77,7 @@ return {
         id = 5402,
         modelId = 210507,
         talkPos = 2,
-        desc = "准备好的信物，拥有特殊的羁绊效果哦。",
+        desc = "Invertierte Origami exklusives Souvenir. Es hat einen besonderen Bond-Effekt.",
     },
     [302] = {
         nextGuideId = 303,
@@ -93,7 +93,7 @@ return {
         id = 8202,
         modelId = 210507,
         talkPos = 2,
-        desc = "对了,仔细看看套装的效果，战斗中可事半功倍哦",
+        desc = "Übrigens können Set-Effekte eine gute Hilfe in Kämpfen sein.",
     },
     [6102] = {
         nextGuideId = 0,
@@ -101,7 +101,7 @@ return {
         id = 6102,
         modelId = 210507,
         talkPos = 2,
-        desc = "赶紧去下一关试试看吧！",
+        desc = "Probieren wir sie auf der nächsten Stufe aus!",
     },
     [2401] = {
         nextGuideId = 2402,
@@ -117,7 +117,7 @@ return {
         id = 7501,
         modelId = 210507,
         talkPos = 1,
-        desc = "搭配宝石，会更进一步强化技能的效果。",
+        desc = "Mit Edelsteinen können die Effekte deiner Fähigkeiten noch verstärkt werden.",
     },
     [7502] = {
         nextGuideId = 0,
@@ -125,7 +125,7 @@ return {
         id = 7502,
         modelId = 210507,
         talkPos = 2,
-        desc = "好了,技巧本司令都告诉你了,快去试试吧！",
+        desc = "In Ordnung! Ich habe dir alle Tipps und Tricks beigebracht, geh und probiere sie selbst aus!",
     },
     [2402] = {
         nextGuideId = 0,
@@ -181,7 +181,7 @@ return {
         id = 6301,
         modelId = 210507,
         talkPos = 1,
-        desc = "不错,看来你已经解锁了三个不同的天使树方案了",
+        desc = "Großartig. Jetzt habt ihr drei verschiedene voreingestellte Fähigkeitsbäume für Engel freigeschaltet.",
     },
     [1401] = {
         nextGuideId = 1402,
@@ -197,7 +197,7 @@ return {
         id = 6303,
         modelId = 210507,
         talkPos = 1,
-        desc = " 并且还搭配了不同的被动方案，快试试看吧！",
+        desc = "Außerdem sind sie mit verschiedenen passiven Voreinstellungen ausgestattet. Probier sie jetzt aus!",
     },
     [2501] = {
         nextGuideId = 2502,
@@ -261,7 +261,7 @@ return {
         id = 5102,
         modelId = 210507,
         talkPos = 2,
-        desc = "赶紧去下一关试试看吧！",
+        desc = "Probieren wir sie auf der nächsten Stufe aus!",
     },
     [6501] = {
         nextGuideId = 6502,
@@ -269,7 +269,7 @@ return {
         id = 6501,
         modelId = 210507,
         talkPos = 1,
-        desc = "搭配宝石，会更进一步强化技能的效果。",
+        desc = "Mit Edelsteinen können die Effekte deiner Fähigkeiten noch verstärkt werden.",
     },
     [6502] = {
         nextGuideId = 0,
@@ -277,7 +277,7 @@ return {
         id = 6502,
         modelId = 210507,
         talkPos = 2,
-        desc = "好了,技巧本司令都告诉你了,快去试试吧！",
+        desc = "In Ordnung! Ich habe dir alle Tipps und Tricks beigebracht, geh und probiere sie selbst aus!",
     },
     [7201] = {
         nextGuideId = 7202,
@@ -285,7 +285,7 @@ return {
         id = 7201,
         modelId = 210507,
         talkPos = 1,
-        desc = "看来已经装备好[诺瓦露]的专属质点了。",
+        desc = "Es scheint, dass du das spezielle Sephira für Noire ausgerüstet hast.",
     },
     [1102] = {
         nextGuideId = 0,
@@ -301,7 +301,7 @@ return {
         id = 7202,
         modelId = 210507,
         talkPos = 2,
-        desc = "对了,仔细看看套装的效果，战斗中可事半功倍哦",
+        desc = "Übrigens können Set-Effekte eine gute Hilfe in Kämpfen sein.",
     },
     [8501] = {
         nextGuideId = 8502,
@@ -309,7 +309,7 @@ return {
         id = 8501,
         modelId = 210507,
         talkPos = 1,
-        desc = "搭配宝石，会更进一步强化技能的效果。",
+        desc = "Mit Edelsteinen können die Effekte deiner Fähigkeiten noch verstärkt werden.",
     },
     [8502] = {
         nextGuideId = 0,
@@ -317,7 +317,7 @@ return {
         id = 8502,
         modelId = 210507,
         talkPos = 2,
-        desc = "好了,技巧本司令都告诉你了,快去试试吧！",
+        desc = "In Ordnung! Ich habe dir alle Tipps und Tricks beigebracht, geh und probiere sie selbst aus!",
     },
     [3301] = {
         nextGuideId = 3302,
@@ -341,7 +341,7 @@ return {
         id = 5301,
         modelId = 210507,
         talkPos = 1,
-        desc = "不错,看来你已经解锁了三个不同的天使树方案了",
+        desc = "Großartig. Jetzt habt ihr drei verschiedene voreingestellte Fähigkeitsbäume für Engel freigeschaltet.",
     },
     [3302] = {
         nextGuideId = 3303,
@@ -357,7 +357,7 @@ return {
         id = 7303,
         modelId = 210507,
         talkPos = 1,
-        desc = " 并且还搭配了不同的被动方案，快试试看吧！",
+        desc = "Außerdem sind sie mit verschiedenen passiven Voreinstellungen ausgestattet. Probier sie jetzt aus!",
     },
     [5303] = {
         nextGuideId = 0,
@@ -365,7 +365,7 @@ return {
         id = 5303,
         modelId = 210507,
         talkPos = 1,
-        desc = " 并且还搭配了不同的被动方案，快试试看吧！",
+        desc = "Außerdem sind sie mit verschiedenen passiven Voreinstellungen ausgestattet. Probier sie jetzt aus!",
     },
     [8401] = {
         nextGuideId = 8402,
@@ -373,7 +373,7 @@ return {
         id = 8401,
         modelId = 210507,
         talkPos = 1,
-        desc = "信物也是提升战力的一种有效方式。",
+        desc = "Auch Souvenirs erhöhen deine KK effektiv.",
     },
     [3303] = {
         nextGuideId = 0,
@@ -389,7 +389,7 @@ return {
         id = 8303,
         modelId = 210507,
         talkPos = 1,
-        desc = " 并且还搭配了不同的被动方案，快试试看吧！",
+        desc = "Außerdem sind sie mit verschiedenen passiven Voreinstellungen ausgestattet. Probier sie jetzt aus!",
     },
     [1501] = {
         nextGuideId = 1502,
@@ -405,7 +405,7 @@ return {
         id = 7401,
         modelId = 210507,
         talkPos = 1,
-        desc = "信物也是提升战力的一种有效方式。",
+        desc = "Auch Souvenirs erhöhen deine KK effektiv.",
     },
     [1303] = {
         nextGuideId = 0,
@@ -421,7 +421,7 @@ return {
         id = 7402,
         modelId = 210507,
         talkPos = 2,
-        desc = "准备好的信物，拥有特殊的羁绊效果哦。",
+        desc = "Invertierte Origami exklusives Souvenir. Es hat einen besonderen Bond-Effekt.",
     },
     [8101] = {
         nextGuideId = 8102,
@@ -429,7 +429,7 @@ return {
         id = 8101,
         modelId = 210507,
         talkPos = 1,
-        desc = "精灵基础属性已经有很大提升了！",
+        desc = "Unsere Geister haben jetzt viel höhere Basis-Attribute!",
     },
     [4101] = {
         nextGuideId = 4102,
@@ -445,7 +445,7 @@ return {
         id = 8102,
         modelId = 210507,
         talkPos = 2,
-        desc = "赶紧去下一关试试看吧！",
+        desc = "Probieren wir sie auf der nächsten Stufe aus!",
     },
     [4102] = {
         nextGuideId = 0,
@@ -485,7 +485,7 @@ return {
         id = 5501,
         modelId = 210507,
         talkPos = 1,
-        desc = "搭配宝石，会更进一步强化技能的效果。",
+        desc = "Mit Edelsteinen können die Effekte deiner Fähigkeiten noch verstärkt werden.",
     },
     [8201] = {
         nextGuideId = 8202,
@@ -493,7 +493,7 @@ return {
         id = 8201,
         modelId = 210507,
         talkPos = 1,
-        desc = "看来已经装备好[贝露]的专属质点了。",
+        desc = "Es scheint, dass du das spezielle Sephira für Vert ausgerüstet hast.",
     },
     [3402] = {
         nextGuideId = 0,
@@ -509,7 +509,7 @@ return {
         id = 6201,
         modelId = 210507,
         talkPos = 1,
-        desc = "看来已经装备好[万由里]的专属质点了。",
+        desc = "Es scheint, dass du das spezielle Sephira für Mayuri ausgerüstet hast.",
     },
     [8402] = {
         nextGuideId = 0,
@@ -517,7 +517,7 @@ return {
         id = 8402,
         modelId = 210507,
         talkPos = 2,
-        desc = "准备好的信物，拥有特殊的羁绊效果哦。",
+        desc = "Invertierte Origami exklusives Souvenir. Es hat einen besonderen Bond-Effekt.",
     },
     [2101] = {
         nextGuideId = 2102,
@@ -541,7 +541,7 @@ return {
         id = 7101,
         modelId = 210507,
         talkPos = 1,
-        desc = "精灵基础属性已经有很大提升了！",
+        desc = "Unsere Geister haben jetzt viel höhere Basis-Attribute!",
     },
     [6402] = {
         nextGuideId = 0,
@@ -549,7 +549,7 @@ return {
         id = 6402,
         modelId = 210507,
         talkPos = 2,
-        desc = "准备好的信物，拥有特殊的羁绊效果哦。",
+        desc = "Invertierte Origami exklusives Souvenir. Es hat einen besonderen Bond-Effekt.",
     },
     [2102] = {
         nextGuideId = 0,
@@ -581,7 +581,7 @@ return {
         id = 6302,
         modelId = 210507,
         talkPos = 2,
-        desc = "方案不同，强化的技能方向也有所不同。",
+        desc = "Diese Voreinstellungen können deine Fähigkeiten in verschiedene Richtungen verstärken.",
     },
     [4301] = {
         nextGuideId = 4302,
@@ -597,7 +597,7 @@ return {
         id = 6202,
         modelId = 210507,
         talkPos = 2,
-        desc = "对了,仔细看看套装的效果，战斗中可事半功倍哦",
+        desc = "Übrigens können Set-Effekte eine gute Hilfe in Kämpfen sein.",
     },
     [4302] = {
         nextGuideId = 4303,
@@ -613,7 +613,7 @@ return {
         id = 6101,
         modelId = 210507,
         talkPos = 1,
-        desc = "精灵基础属性已经有很大提升了！",
+        desc = "Unsere Geister haben jetzt viel höhere Basis-Attribute!",
     },
     [4303] = {
         nextGuideId = 0,
@@ -645,7 +645,7 @@ return {
         id = 5502,
         modelId = 210507,
         talkPos = 2,
-        desc = "好了,技巧本司令都告诉你了,快去试试吧！",
+        desc = "In Ordnung! Ich habe dir alle Tipps und Tricks beigebracht, geh und probiere sie selbst aus!",
     },
     [3502] = {
         nextGuideId = 0,
@@ -661,7 +661,7 @@ return {
         id = 6401,
         modelId = 210507,
         talkPos = 1,
-        desc = "信物也是提升战力的一种有效方式。",
+        desc = "Auch Souvenirs erhöhen deine KK effektiv.",
     },
     [5302] = {
         nextGuideId = 5303,
@@ -669,7 +669,7 @@ return {
         id = 5302,
         modelId = 210507,
         talkPos = 2,
-        desc = "方案不同，强化的技能方向也有所不同。",
+        desc = "Diese Voreinstellungen können deine Fähigkeiten in verschiedene Richtungen verstärken.",
     },
     [2201] = {
         nextGuideId = 2202,
@@ -701,7 +701,7 @@ return {
         id = 7102,
         modelId = 210507,
         talkPos = 2,
-        desc = "赶紧去下一关试试看吧！",
+        desc = "Probieren wir sie auf der nächsten Stufe aus!",
     },
     [2202] = {
         nextGuideId = 0,
@@ -725,7 +725,7 @@ return {
         id = 8301,
         modelId = 210507,
         talkPos = 1,
-        desc = "不错,看来你已经解锁了三个不同的天使树方案了",
+        desc = "Großartig. Jetzt habt ihr drei verschiedene voreingestellte Fähigkeitsbäume für Engel freigeschaltet.",
     },
     [8302] = {
         nextGuideId = 8303,
@@ -733,7 +733,7 @@ return {
         id = 8302,
         modelId = 210507,
         talkPos = 2,
-        desc = "方案不同，强化的技能方向也有所不同。",
+        desc = "Diese Voreinstellungen können deine Fähigkeiten in verschiedene Richtungen verstärken.",
     },
     [4501] = {
         nextGuideId = 4502,
@@ -749,7 +749,7 @@ return {
         id = 5101,
         modelId = 210507,
         talkPos = 1,
-        desc = "精灵基础属性已经有很大提升了！",
+        desc = "Unsere Geister haben jetzt viel höhere Basis-Attribute!",
     },
     [4502] = {
         nextGuideId = 0,
@@ -765,7 +765,7 @@ return {
         id = 5201,
         modelId = 210507,
         talkPos = 1,
-        desc = "看来已经装备好御坂美琴的专属质点了。",
+        desc = "Es scheint, dass du das spezielle Sephira für Mikoto Misaka ausgerüstet hast.",
     },
     [4401] = {
         nextGuideId = 4402,
@@ -781,7 +781,7 @@ return {
         id = 5202,
         modelId = 210507,
         talkPos = 2,
-        desc = "对了,仔细看看套装的效果，战斗中可事半功倍哦",
+        desc = "Übrigens können Set-Effekte eine gute Hilfe in Kämpfen sein.",
     },
     [402] = {
         nextGuideId = 0,

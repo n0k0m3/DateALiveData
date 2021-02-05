@@ -92525,7 +92525,7 @@ return {
     [11071511] = {
         randomEffects = {
         },
-        triggerType = 2,
+        triggerType = 4,
         targetAttributeContrast = 0,
         targetID  = 0,
         targetMonsterType = -1,
@@ -92535,6 +92535,7 @@ return {
             [1] = 30,
         },
         triggerCondition = {
+            [1] = 2,
         },
         probability = 10000,
         interval = 2000,
@@ -93154,6 +93155,7 @@ return {
         targetAttributeTarget = 0,
         effects = {
             [1] = 21070311,
+            [2] = 60048,
         },
         skillType = 0,
         attributeContrast = {
@@ -93164,7 +93166,7 @@ return {
         triggerPosition = true,
         attributeTarget = 1,
         triggerTarget = 1,
-        des = "覆盖6033，每5点能量增加2%伤害加成",
+        des = "覆盖6033，每点能量增加2%伤害加成",
     },
     [11771111] = {
         randomEffects = {
@@ -149816,7 +149818,7 @@ return {
         },
         triggerCondition = {
         },
-        probability = 2000,
+        probability = 5000,
         interval = 0,
         priority = 0,
         targetState = 0,
@@ -150668,7 +150670,7 @@ return {
         targetID  = 0,
         targetMonsterType = -1,
         targetMonsterType2 = -1,
-        cd = 1000,
+        cd = 500,
         attributeNum = {
         },
         triggerCondition = {

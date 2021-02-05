@@ -737,7 +737,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "19",
+													width = "18",
 													ZOrder = "1",
 												},
 												{
@@ -1421,7 +1421,7 @@ local t =
 												PositionX = 200,
 												PositionY = 76,
 											},
-											width = "16",
+											width = "15",
 											ZOrder = "1",
 										},
 										{
@@ -1567,7 +1567,7 @@ local t =
 												PositionX = 120,
 												PositionY = 50,
 											},
-											width = "48",
+											width = "47",
 											ZOrder = "1",
 										},
 										{
@@ -2927,7 +2927,7 @@ local t =
 														PercentY = 50,
 													},
 													visible = "False",
-													width = "182",
+													width = "187",
 													ZOrder = "1",
 												},
 												{
@@ -4702,7 +4702,7 @@ local t =
 												PositionX = 1,
 												PositionY = -65,
 											},
-											width = "39",
+											width = "38",
 											ZOrder = "1",
 										},
 										{
@@ -5718,7 +5718,7 @@ local t =
 													{
 														PositionY = 2,
 													},
-													width = "71",
+													width = "76",
 													ZOrder = "1",
 												},
 											},
@@ -9396,10 +9396,10 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "70",
+											height = "80",
 											ignoreSize = "True",
 											name = "Button_rankNotice",
-											normal = "ui/mainLayer3/c1005.png",
+											normal = "ui/mainLayer/new_ui_3/c1005.png",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -9414,7 +9414,7 @@ local t =
 												relativeToName = "Panel",
 											},
 											UItype = "Button",
-											width = "70",
+											width = "80",
 											ZOrder = "1",
 											components = 
 											{
@@ -11383,7 +11383,7 @@ local t =
 										PositionX = 376,
 										PositionY = -43,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 							},
@@ -11644,7 +11644,7 @@ local t =
 										PositionX = -1,
 										PositionY = -13,
 									},
-									width = "56",
+									width = "54",
 									ZOrder = "1",
 								},
 							},
@@ -17584,7 +17584,7 @@ local t =
 			"ui/mainLayer/new_ui/btn_monthcard.png",
 			"ui/mainLayer/new_ui_1/btn_tzr.png",
 			"ui/mainLayer/new_ui_1/btn_tzrnew.png",
-			"ui/mainLayer3/c1005.png",
+			"ui/mainLayer/new_ui_3/c1005.png",
 			"ui/mainLayer/new_ui/btn_newPlayer.png",
 			"ui/task/01/4.png",
 			"ui/mainLayer/new_ui_1/003.png",

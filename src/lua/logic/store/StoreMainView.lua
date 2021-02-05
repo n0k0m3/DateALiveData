@@ -90,7 +90,7 @@ function StoreMainView:initUI(ui)
 end
 
 function StoreMainView:refreshView()
-    self.ListView_assets:setInertiaScrollEnabled(false)
+    self.ListView_assets:setInertiaScrollEnabled(true)
     if #self.storeData_ > 0 then
         self:showStoreList()
         self:selectTabBtn(self.defaultSelectIndex_)

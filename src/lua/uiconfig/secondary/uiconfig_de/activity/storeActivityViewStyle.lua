@@ -180,7 +180,7 @@ local t =
 										PositionY = -51,
 									},
 									visible = "False",
-									width = "81",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -330,7 +330,7 @@ local t =
 										PositionX = -421,
 									},
 									visible = "False",
-									width = "77",
+									width = "76",
 									ZOrder = "1",
 								},
 								{
@@ -376,7 +376,7 @@ local t =
 										PositionX = -375,
 										PositionY = 1,
 									},
-									width = "197",
+									width = "199",
 									ZOrder = "1",
 								},
 								{
@@ -510,7 +510,7 @@ local t =
 											{
 												PositionX = 155,
 											},
-											width = "71",
+											width = "74",
 											ZOrder = "1",
 										},
 									},
@@ -646,7 +646,7 @@ local t =
 											{
 												PositionX = 155,
 											},
-											width = "71",
+											width = "74",
 											ZOrder = "1",
 										},
 									},
@@ -782,7 +782,7 @@ local t =
 											{
 												PositionX = 155,
 											},
-											width = "71",
+											width = "74",
 											ZOrder = "1",
 										},
 									},
@@ -906,8 +906,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "26",
-											ignoreSize = "True",
+											height = "35",
+											ignoreSize = "False",
 											name = "Image_Limit",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -920,7 +920,7 @@ local t =
 												PositionX = 1,
 												PositionY = -212,
 											},
-											width = "156",
+											width = "180",
 											ZOrder = "1",
 											components = 
 											{
@@ -944,14 +944,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "34",
+													height = "0",
 													ignoreSize = "False",
 													name = "Label_countLimit",
 													nTextAlign = "1",
@@ -968,7 +968,7 @@ local t =
 														PositionX = -1,
 														PositionY = -1,
 													},
-													width = "158",
+													width = "175",
 													ZOrder = "1",
 												},
 											},
@@ -992,7 +992,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1013,7 +1013,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 206,
+												PositionY = 208,
 											},
 											width = "240",
 											ZOrder = "1",
@@ -1195,7 +1195,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 												{
@@ -1244,7 +1244,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -1391,7 +1391,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 												{
@@ -1440,7 +1440,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -1587,7 +1587,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 												{
@@ -1636,7 +1636,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -1716,7 +1716,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "90",
+											width = "100",
 											ZOrder = "1",
 										},
 									},
@@ -1793,7 +1793,7 @@ local t =
 												PositionX = -4,
 												PositionY = -9,
 											},
-											width = "31",
+											width = "30",
 											ZOrder = "1",
 										},
 										{
@@ -1839,7 +1839,7 @@ local t =
 												PositionX = 22,
 												PositionY = -14,
 											},
-											width = "12",
+											width = "11",
 											ZOrder = "1",
 										},
 										{
@@ -1885,7 +1885,7 @@ local t =
 												PositionX = 3,
 												PositionY = -29,
 											},
-											width = "32",
+											width = "28",
 											ZOrder = "1",
 										},
 									},

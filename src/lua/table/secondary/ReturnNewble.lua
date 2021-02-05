@@ -575,8 +575,8 @@ return {
         title = "登录有礼",
         weight = 2,
         status = 2,
-        titleIcon = "ui/activity/picture/icon192.png",
-        details = "{\"beginTime\":\"2020-01-15 00:00:00\",\"endTime\":\"2019-09-30 23:59:59\",\"activityShowType\":7,\"name\":\"登录有礼\",\"bgPath\":\"ui/activity/assist/kuangsan/btn_5n.png\",\"dayRstring\":\"r305004\",\"hourRstring\":\"r305005\",\"uiName\":\"welfareSignViewStyle1\",\"isScrollType\":1,\"skewX\":10}",
+        titleIcon = "ui/activity/picture/icon137.png",
+        details = "{\"beginTime\":\"2021-02-05 00:00:00\",\"endTime\":\"2021-03-05 23:59:59\",\"activityShowType\":3,\"name\":\"190000438\",\"bgPath\":\"ui/activity/assist/kuangsan/btn_5n.png\",\"dayRstring\":\"r305004\",\"hourRstring\":\"r305005\",\"uiName\":\"welfareSignViewStyle1\",\"SevenItemType\":2,\"isScrollType\":2,\"skewX\":10}",
         type = 1010,
     },
     [120013] = {
@@ -741,7 +741,7 @@ return {
         weight = 8,
         status = 2,
         titleIcon = "ui/activity/picture/icon58.png",
-        details = "{\"beginTime\":\"2019-9-13 00:00:00\",\"endTime\":\"2019-9-26 23:59:59\",\"taskCount\":3,\"taskChance\":{1:\"50:0:1\",2:\"0:0:0\",3:\"0:0:0\",4:\"30:0:1\",5:\"70:0:3\"},\"refresh\":43200,\"cg\":2000018,\"des1\":\"龙舟竞赛\",\"des2\":\"端午佳节\",\"cgName\":\"龙舟滑行\",\"cgAddress\":\"modle/cg/main_cg_role_242.png\",\"itemId\":500063,\"nameIcon\":\"ui/activity/logo/logo58.png\",\"bgIcon\":\"ui/activity/logo/bg58.png\"}",
+        details = "{\"beginTime\":\"2021-02-05 00:00:00\",\"endTime\":\"2021-02-17 23:59:59\",\"taskCount\":3,\"taskChance\":{1:\"50:0:1\",2:\"0:0:0\",3:\"0:0:0\",4:\"30:0:1\",5:\"70:0:3\"},\"refresh\":43200,\"cg\":2000018,\"des1\":\"龙舟竞赛\",\"des2\":\"端午佳节\",\"cgName\":\"龙舟滑行\",\"cgAddress\":\"modle/cg/main_cg_role_242.png\",\"itemId\":500063,\"nameIcon\":\"ui/activity/logo/logo58.png\",\"bgIcon\":\"ui/activity/logo/bg58.png\"}",
         type = 1008,
     },
     [100011] = {

@@ -96,7 +96,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "768",
+							height = "644",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "0",
@@ -109,7 +109,7 @@ local t =
 							{
 								
 							},
-							width = "1663",
+							width = "1386",
 							ZOrder = "1",
 						},
 						{
@@ -211,14 +211,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "50",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_tip",
 									nTextAlign = "0",
@@ -232,10 +232,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 32,
-										PositionY = 78,
+										PositionX = 17,
+										PositionY = 84,
 									},
-									width = "220",
+									width = "240",
 									ZOrder = "1",
 								},
 							},

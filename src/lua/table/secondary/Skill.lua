@@ -1414,7 +1414,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 5,
-        cd = 12000,
+        cd = 8000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -8599,7 +8599,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 6,
-        cd = 20000,
+        cd = 15000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -10420,7 +10420,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 5,
-        cd = 12000,
+        cd = 8000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -12585,7 +12585,7 @@ return {
         },
         symbol = "",
         id = 101790,
-        costEnergy = 100,
+        costEnergy = 50,
         extraEnergy = 0,
         video = "",
         keyEvent = "down",
@@ -15875,7 +15875,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 15000,
+        cd = 12000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -17599,7 +17599,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 6,
-        cd = 20000,
+        cd = 15000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -21279,7 +21279,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 12000,
+        cd = 10000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -24778,7 +24778,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 12000,
+        cd = 11000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -28561,7 +28561,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 15000,
+        cd = 12000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -32965,7 +32965,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 12000,
+        cd = 10000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -40621,7 +40621,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 12000,
+        cd = 11000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -45645,7 +45645,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 15000,
+        cd = 12000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -45741,7 +45741,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 12000,
+        cd = 11000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -45885,7 +45885,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 12000,
+        cd = 10000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -48264,7 +48264,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 15000,
+        cd = 12000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -54827,7 +54827,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 12000,
+        cd = 11000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -59728,7 +59728,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 20000,
+        cd = 15000,
         continuousAction = "",
         othershiftSkill = {
         },
@@ -62123,7 +62123,7 @@ return {
             [1] = 0,
         },
         gainEnergy = 0,
-        cd = 12000,
+        cd = 10000,
         continuousAction = "",
         othershiftSkill = {
         },

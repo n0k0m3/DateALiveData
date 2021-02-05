@@ -26,6 +26,7 @@ end
 function SimulationTrialMainView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
+    print(self.resConfig.ui)
     self:init("lua.uiconfig."..self.resConfig.ui)
 end
 

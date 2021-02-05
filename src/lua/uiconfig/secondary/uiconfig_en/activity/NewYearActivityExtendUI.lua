@@ -136,14 +136,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "23",
 									ignoreSize = "True",
 									name = "label_yanhua",
 									nTextAlign = "1",
@@ -159,7 +159,7 @@ local t =
 									{
 										PositionY = -40,
 									},
-									width = "51",
+									width = "83",
 									ZOrder = "1",
 								},
 							},
@@ -269,7 +269,7 @@ local t =
 								PositionX = 1048,
 								PositionY = 424,
 							},
-							width = "131",
+							width = "226",
 							ZOrder = "1",
 						},
 						{
@@ -345,7 +345,7 @@ local t =
 										TopPosition = 241,
 										relativeToName = "Panel",
 									},
-									width = "95",
+									width = "82",
 									ZOrder = "1",
 								},
 							},

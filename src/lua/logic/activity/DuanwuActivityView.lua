@@ -75,11 +75,11 @@ function DuanwuActivityView:updateActivity()
     end
 
     if ActivityDataMgr2:getActivityUIType() == 1 or ActivityDataMgr2:getActivityUIType() == 2 then
-        local str = self.activityInfo_.activityTitle
-        str = string.gsub(str, "\\n", "\n")
-        self.Label_tip:setString(str)
+        -- local str = self.activityInfo_.activityTitle
+        -- str = string.gsub(str, "\\n", "\n")
+        self.Label_tip:setString(Utils:MultiLanguageStringDeal(self.activityInfo_.activityTitle))
     else
-        self.Label_tip:setText(self.activityInfo_.extendData.dec)
+        self.Label_tip:setText(Utils:MultiLanguageStringDeal(self.activityInfo_.extendData.dec))
     end
 end
 

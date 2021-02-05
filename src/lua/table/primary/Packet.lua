@@ -16,7 +16,7 @@ return {
         id = 1,
         text = 14300105,
         systemTime = 0,
-        show = true,
+        show = false,
         maxItem = {
             [500002] = 198,
         },

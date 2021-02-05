@@ -379,7 +379,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "32",
 							ignoreSize = "True",
 							name = "Label_pad_title",
 							nTextAlign = "1",
@@ -396,7 +396,7 @@ local t =
 								PositionX = 214,
 								PositionY = 501,
 							},
-							width = "114",
+							width = "356",
 							ZOrder = "1",
 							components = 
 							{
@@ -535,7 +535,7 @@ local t =
 											{
 												PositionY = -7,
 											},
-											width = "115",
+											width = "109",
 											ZOrder = "1",
 										},
 									},
@@ -569,7 +569,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "25",
+							height = "23",
 							ignoreSize = "True",
 							name = "txt_tip1",
 							nTextAlign = "0",
@@ -586,7 +586,7 @@ local t =
 								PositionX = 441,
 								PositionY = 458,
 							},
-							width = "83",
+							width = "172",
 							ZOrder = "1",
 						},
 						{
@@ -616,7 +616,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "25",
+							height = "23",
 							ignoreSize = "True",
 							name = "txt_tip2",
 							nTextAlign = "0",
@@ -633,7 +633,7 @@ local t =
 								PositionX = 439,
 								PositionY = 295,
 							},
-							width = "125",
+							width = "231",
 							ZOrder = "1",
 						},
 						{
@@ -914,7 +914,7 @@ local t =
 										TopPosition = 241,
 										relativeToName = "Panel",
 									},
-									width = "121",
+									width = "98",
 									ZOrder = "1",
 								},
 							},
@@ -993,7 +993,7 @@ local t =
 									{
 										
 									},
-									width = "99",
+									width = "58",
 									ZOrder = "1",
 								},
 							},

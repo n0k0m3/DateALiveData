@@ -123,7 +123,7 @@ function ItemInfoListView:updateEventItem( item, data )
 			break
 		end 
 	end
-	Label_des:setText(itemInfo.extendData.des2)
+	Label_des:setTextById(tonumber(itemInfo.extendData.des2) , itemInfo.target)
 
 	Button_get:onClick(function ( ... )
 		-- body

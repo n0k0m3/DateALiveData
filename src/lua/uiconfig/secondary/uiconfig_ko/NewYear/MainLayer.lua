@@ -505,7 +505,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "플레이어 명은 최대 8개입니다",
+											text = "Player Name Max 16 Chars",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -514,7 +514,7 @@ local t =
 												PositionY = -32,
 											},
 											vAlignment = "0",
-											width = "222",
+											width = "252",
 											ZOrder = "1",
 										},
 										{
@@ -597,7 +597,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "19",
+													width = "18",
 													ZOrder = "1",
 												},
 												{
@@ -811,7 +811,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "시스템 공지",
+											text = "System Notice",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -820,7 +820,7 @@ local t =
 												PositionY = 13,
 											},
 											vAlignment = "0",
-											width = "97",
+											width = "115",
 											ZOrder = "1",
 										},
 									},
@@ -953,7 +953,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "설정",
+											text = "Settings",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -962,7 +962,7 @@ local t =
 												PositionY = -2,
 											},
 											visible = "False",
-											width = "38",
+											width = "64",
 											ZOrder = "1",
 										},
 									},
@@ -1135,7 +1135,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "호감도 레벨",
+											text = "Favor Level",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1143,7 +1143,7 @@ local t =
 												PositionX = 44,
 												PositionY = 75,
 											},
-											width = "119",
+											width = "148",
 											ZOrder = "1",
 										},
 										{
@@ -1189,7 +1189,7 @@ local t =
 												PositionX = 200,
 												PositionY = 76,
 											},
-											width = "16",
+											width = "15",
 											ZOrder = "1",
 										},
 										{
@@ -1227,7 +1227,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "今日好感度获取已达到上限",
+											text = "You can get 't more Favor today.",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1235,7 +1235,7 @@ local t =
 												PositionX = 11,
 												PositionY = 23,
 											},
-											width = "219",
+											width = "249",
 											ZOrder = "1",
 										},
 										{
@@ -1335,7 +1335,7 @@ local t =
 												PositionX = 120,
 												PositionY = 50,
 											},
-											width = "48",
+											width = "47",
 											ZOrder = "1",
 										},
 										{
@@ -1406,7 +1406,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "편집",
+													text = "Edit",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2012,7 +2012,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "지령",
+													text = "Order",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2020,7 +2020,7 @@ local t =
 														PositionY = -26,
 													},
 													vAlignment = "1",
-													width = "43",
+													width = "72",
 													ZOrder = "1",
 												},
 												{
@@ -2122,14 +2122,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "联络",
+													text = "Social",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -26,
 													},
-													width = "48",
+													width = "73",
 													ZOrder = "1",
 												},
 												{
@@ -2226,7 +2226,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "도감",
+													text = "Gallery",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2234,7 +2234,7 @@ local t =
 														PositionY = -26,
 													},
 													vAlignment = "1",
-													width = "45",
+													width = "89",
 													ZOrder = "1",
 												},
 												{
@@ -2500,7 +2500,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "1월20일 - 1월28일",
+													text = "Feb 5th - Feb 13th",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2512,7 +2512,7 @@ local t =
 														PercentY = 50,
 													},
 													visible = "False",
-													width = "182",
+													width = "186",
 													ZOrder = "1",
 												},
 												{
@@ -2944,14 +2944,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "정령",
+											text = "Spirit",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -34,
 											},
-											width = "47",
+											width = "76",
 											ZOrder = "1",
 										},
 										{
@@ -3126,14 +3126,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "인벤토리",
+											text = "Bag",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -34,
 											},
-											width = "90",
+											width = "51",
 											ZOrder = "1",
 										},
 									},
@@ -3232,14 +3232,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "동아리",
+											text = "Club",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -34,
 											},
-											width = "68",
+											width = "60",
 											ZOrder = "1",
 										},
 										{
@@ -3363,14 +3363,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "소환",
+											text = "Summon",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -34,
 											},
-											width = "49",
+											width = "115",
 											ZOrder = "1",
 										},
 										{
@@ -3493,7 +3493,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "城市",
+											text = "City",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -3501,7 +3501,7 @@ local t =
 												PositionX = 25,
 											},
 											visible = "False",
-											width = "51",
+											width = "44",
 											ZOrder = "1",
 										},
 										{
@@ -3653,7 +3653,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "상점",
+											text = "Store",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -3661,7 +3661,7 @@ local t =
 												PositionY = -34,
 											},
 											vAlignment = "1",
-											width = "46",
+											width = "70",
 											ZOrder = "1",
 										},
 										{
@@ -3783,7 +3783,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "충전",
+											text = "Top Up",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -3791,7 +3791,7 @@ local t =
 												PositionY = -34,
 											},
 											vAlignment = "1",
-											width = "47",
+											width = "93",
 											ZOrder = "1",
 										},
 										{
@@ -4006,7 +4006,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "0",
 											ignoreSize = "True",
 											name = "Label_message",
 											nTextAlign = "1",
@@ -4015,14 +4015,13 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "0",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -2,
 											},
-											width = "14",
+											width = "0",
 											ZOrder = "1",
 										},
 									},
@@ -4147,14 +4146,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "수령 가능",
+													text = "Claimable",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -23,
 													},
-													width = "79",
+													width = "80",
 													ZOrder = "1",
 												},
 											},
@@ -4937,14 +4936,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "공지",
+													text = "Announcement",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "38",
+													width = "122",
 													ZOrder = "1",
 												},
 												{
@@ -5070,14 +5069,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "우편",
+													text = "Mail",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "39",
+													width = "41",
 													ZOrder = "1",
 												},
 												{
@@ -5203,14 +5202,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "혜택",
+													text = "Benefits",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "39",
+													width = "66",
 													ZOrder = "1",
 												},
 												{
@@ -5336,14 +5335,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "이벤트",
+													text = "Event",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "57",
+													width = "49",
 													ZOrder = "1",
 												},
 												{
@@ -5469,14 +5468,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "주시",
+													text = "Follow",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "39",
+													width = "59",
 													ZOrder = "1",
 												},
 												{
@@ -5602,14 +5601,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "설문 조사",
+													text = "Questionnaire",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "80",
+													width = "115",
 													ZOrder = "1",
 												},
 												{
@@ -5735,14 +5734,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "업데이트",
+													text = "Update",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "75",
+													width = "61",
 													ZOrder = "1",
 												},
 												{
@@ -5868,14 +5867,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "응원",
+													text = "Support",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "39",
+													width = "69",
 													ZOrder = "1",
 												},
 												{
@@ -6001,14 +6000,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "회귀",
+													text = "Returner",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "38",
+													width = "73",
 													ZOrder = "1",
 												},
 												{
@@ -6134,14 +6133,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "元宵",
+													text = "Lantern Fest",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "44",
+													width = "102",
 													ZOrder = "1",
 												},
 												{
@@ -6267,14 +6266,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "월카드",
+													text = "Month Card",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "57",
+													width = "103",
 													ZOrder = "1",
 												},
 												{

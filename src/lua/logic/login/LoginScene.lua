@@ -83,10 +83,10 @@ function LoginScene:showVideoViewMiniServer( re )
 	end
 	
 	local delayTime ,videoPth1, videoPth2
-	if FunctionDataMgr:isOneYearLoginUI() then
+	if FunctionDataMgr:isMoJingLoginUI() then
 		delayTime = 1
-		videoPth1 = "video/loginPart3.mp4"
-		videoPth2 = "video/loginPart3.mp4"
+		videoPth1 = "video/loginPart6.mp4"
+		videoPth2 = "video/loginPart7.mp4"
 	else
 		delayTime = 2
 		videoPth1 = "video/loginPart3.mp4"
@@ -144,8 +144,8 @@ function LoginScene:showVideoViewEngServer( re )
 	
 	local videoPth1, videoPth2
 	if FunctionDataMgr:isMoJingLoginUI() then
-		videoPth1 = "video/loginPart1.mp4"
-		videoPth2 = "video/loginPart2.mp4"
+		videoPth1 = "video/loginPart6.mp4"
+		videoPth2 = "video/loginPart7.mp4"
 	else
 		videoPth1 = "video/loginPart1.mp4"
 		videoPth2 = "video/loginPart2.mp4"

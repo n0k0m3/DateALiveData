@@ -263,4 +263,40 @@ return {
             x = 1050,
         },
     },
+    [23] = {
+        show = 0,
+        heroSkinId = 1127011,
+        sort = 3,
+        id = 23,
+        heroId = 112701,
+        scale  = 0.35,
+        paintPosition = {
+            y = 210,
+            x = 550,
+        },
+    },
+    [24] = {
+        show = 1,
+        heroSkinId = 1116011,
+        sort = 4,
+        id = 24,
+        heroId = 111601,
+        scale  = 0.35,
+        paintPosition = {
+            y = 200,
+            x = 1070,
+        },
+    },
+    [25] = {
+        show = 1,
+        heroSkinId = 1117011,
+        sort = 6,
+        id = 25,
+        heroId = 111701,
+        scale  = 0.35,
+        paintPosition = {
+            y = 120,
+            x = 1000,
+        },
+    },
 }

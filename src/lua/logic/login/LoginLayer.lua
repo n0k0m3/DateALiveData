@@ -28,6 +28,7 @@ function LoginLayer:initUI(ui)
 
 	self.continue = TFDirector:getChildByPath(ui,"continue");
 	self.continue:setTextById(800086)
+	self.continue:setFontColor(ccc3(255 , 255 , 255))
 	local tween =
 	    {
 	        target = self.continue,

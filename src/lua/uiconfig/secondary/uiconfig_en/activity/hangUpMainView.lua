@@ -239,7 +239,7 @@ local t =
 										StrokeColor = "#FF8A2D32",
 										StrokeSize = 1,
 									},
-									height = "29",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_event",
 									nTextAlign = "1",
@@ -255,7 +255,7 @@ local t =
 									{
 										PositionY = -29,
 									},
-									width = "47",
+									width = "69",
 									ZOrder = "1",
 								},
 								{
@@ -344,7 +344,7 @@ local t =
 										StrokeColor = "#FF8A2D32",
 										StrokeSize = 1,
 									},
-									height = "29",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_sprite",
 									nTextAlign = "1",
@@ -360,7 +360,7 @@ local t =
 									{
 										PositionY = -29,
 									},
-									width = "48",
+									width = "68",
 									ZOrder = "1",
 								},
 								{
@@ -475,7 +475,7 @@ local t =
 										StrokeColor = "#FF8A2D32",
 										StrokeSize = 1,
 									},
-									height = "29",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_shop",
 									nTextAlign = "1",
@@ -491,7 +491,7 @@ local t =
 									{
 										PositionY = -29,
 									},
-									width = "48",
+									width = "65",
 									ZOrder = "1",
 								},
 								{
@@ -765,7 +765,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_timing",
 									nTextAlign = "1",
@@ -781,7 +781,7 @@ local t =
 									{
 										PositionY = -30,
 									},
-									width = "75",
+									width = "60",
 									ZOrder = "1",
 								},
 								{

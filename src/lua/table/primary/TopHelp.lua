@@ -5613,11 +5613,11 @@ return {
         helpInterface = {
             [1] = 3106,
         },
-        isHelp = true,
+        isHelp = false,
         help = "",
         isMain = true,
         isBack = true,
-        name = 190016185,
+        name = 190016234,
         icon = "icon/system/025.png",
         isDiban = true,
     },
@@ -7263,7 +7263,7 @@ return {
         helpInterface = {
             [1] = 1040,
         },
-        isHelp = true,
+        isHelp = false,
         help = "",
         isMain = true,
         isBack = true,
@@ -7295,7 +7295,7 @@ return {
         helpInterface = {
             [1] = 1041,
         },
-        isHelp = true,
+        isHelp = false,
         help = "",
         isMain = true,
         isBack = true,
@@ -7359,7 +7359,7 @@ return {
         helpInterface = {
             [1] = 2454,
         },
-        isHelp = true,
+        isHelp = false,
         help = "",
         isMain = true,
         isBack = true,
@@ -7391,7 +7391,7 @@ return {
         helpInterface = {
             [1] = 2454,
         },
-        isHelp = true,
+        isHelp = false,
         help = "",
         isMain = true,
         isBack = true,
@@ -7423,7 +7423,7 @@ return {
         helpInterface = {
             [1] = 2454,
         },
-        isHelp = true,
+        isHelp = false,
         help = "",
         isMain = true,
         isBack = true,

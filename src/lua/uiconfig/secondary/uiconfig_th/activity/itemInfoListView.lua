@@ -141,7 +141,7 @@ local t =
 							controlID = "Label_title_Panel_base_Panel-itemInfoListView_yanhua_activity_Game",
 							UUID = "0db8350e_e0f7_4393_b56a_750e6891f088",
 							anchorPoint = "False",
-							anchorPointX = "1",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -163,7 +163,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "32",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -172,15 +172,15 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "获得成就",
+							text = "Achievements",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 391,
+								PositionX = 274,
 								PositionY = 501,
 							},
-							width = "114",
+							width = "204",
 							ZOrder = "1",
 							components = 
 							{
@@ -225,9 +225,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 6,
+										PositionX = 210,
 									},
-									width = "9",
+									visible = "False",
+									width = "8",
 									ZOrder = "1",
 									components = 
 									{
@@ -267,7 +268,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "achievements",
+											text = "Achievements",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -275,7 +276,7 @@ local t =
 												PositionX = 3,
 												PositionY = -6,
 											},
-											width = "119",
+											width = "105",
 											ZOrder = "1",
 										},
 									},
@@ -556,7 +557,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -572,7 +573,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "ป้ายข้อความ",
+									text = "TextLable",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -826,15 +827,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_get",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -842,14 +843,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "รับรางวัล",
+											text = "Claim Reward",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "99",
+											width = "121",
 											ZOrder = "1",
 										},
 									},
@@ -901,15 +902,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_ing",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -917,14 +918,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "กำลังดำเนินการ",
+											text = "In Progress",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "73",
+											width = "120",
 											ZOrder = "1",
 										},
 									},
@@ -993,7 +994,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_geted",
 											nTextAlign = "1",
@@ -1002,7 +1003,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "รับแล้ว",
+											text = "Claimed",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1010,7 +1011,7 @@ local t =
 												PositionX = 630,
 												PositionY = 48,
 											},
-											width = "77",
+											width = "105",
 											ZOrder = "1",
 										},
 									},

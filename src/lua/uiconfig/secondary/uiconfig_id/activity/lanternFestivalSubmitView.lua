@@ -70,8 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 480,
-						PositionY = 320,
+						PositionX = 510,
+						PositionY = 354,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -196,7 +196,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -205,7 +205,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "奖励预览 l",
+									text = "Reward Preview",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -213,7 +213,7 @@ local t =
 										PositionX = -359,
 										PositionY = 177,
 									},
-									width = "138",
+									width = "257",
 									ZOrder = "1",
 								},
 								{
@@ -251,7 +251,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Infomation Create",
+									text = "Information Create",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -259,6 +259,7 @@ local t =
 										PositionX = -213,
 										PositionY = 172,
 									},
+									visible = "False",
 									width = "141",
 									ZOrder = "1",
 								},
@@ -336,15 +337,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_lanternFestivalSubmitView_1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -352,15 +353,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Tap untuk klaim",
+													text = "Tap to claim",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = 54,
-														PositionY = -1,
 													},
-													width = "91",
+													width = "93",
 													ZOrder = "1",
 												},
 											},
@@ -369,7 +369,7 @@ local t =
 											controlID = "Image_tips_Image_dating_Image_content_Panel_root_Panel-lanternFestivalSubmitView_lanternFestival_activity_Game",
 											UUID = "54bec460_f4e2_42f3_8e74_7912b1680670",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
@@ -385,7 +385,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 70,
+												PositionX = -64,
 												PositionY = -120,
 											},
 											width = "270",
@@ -433,7 +433,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														
+														PositionX = 135,
 													},
 													visible = "False",
 													width = "80",
@@ -616,15 +616,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -632,7 +632,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Nama Bacang",
+											text = "Zongzi",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -640,7 +640,7 @@ local t =
 												PositionX = -2,
 												PositionY = 19,
 											},
-											width = "91",
+											width = "180",
 											ZOrder = "1",
 										},
 										{
@@ -704,7 +704,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_progress",
 											nTextAlign = "1",
@@ -720,7 +720,7 @@ local t =
 											{
 												PositionY = -23,
 											},
-											width = "84",
+											width = "59",
 											ZOrder = "1",
 										},
 										{
@@ -962,15 +962,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_lanternFestivalSubmitView_1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -978,14 +978,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Material tidak cukup",
+													text = "Insufficient Materials",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "92",
+													width = "105",
 													ZOrder = "1",
 												},
 											},
@@ -1042,15 +1042,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_submit",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1058,14 +1058,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Serahkan",
+													text = "Submit",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "47",
+													width = "113",
 													ZOrder = "1",
 												},
 											},
@@ -1175,15 +1175,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1191,7 +1191,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Nama Bacang",
+											text = "Zongzi",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1199,7 +1199,7 @@ local t =
 												PositionX = -2,
 												PositionY = 19,
 											},
-											width = "91",
+											width = "180",
 											ZOrder = "1",
 										},
 										{
@@ -1263,7 +1263,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_progress",
 											nTextAlign = "1",
@@ -1279,7 +1279,7 @@ local t =
 											{
 												PositionY = -23,
 											},
-											width = "84",
+											width = "59",
 											ZOrder = "1",
 										},
 										{
@@ -1522,15 +1522,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_lanternFestivalSubmitView_1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1538,14 +1538,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Material tidak cukup",
+													text = "Insufficient Materials",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "92",
+													width = "105",
 													ZOrder = "1",
 												},
 											},
@@ -1600,15 +1600,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_submit",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1616,14 +1616,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Serahkan",
+													text = "Submit",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "47",
+													width = "113",
 													ZOrder = "1",
 												},
 											},
@@ -1733,15 +1733,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1749,7 +1749,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Nama Bacang",
+											text = "Zongzi",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1757,7 +1757,7 @@ local t =
 												PositionX = -2,
 												PositionY = 19,
 											},
-											width = "91",
+											width = "180",
 											ZOrder = "1",
 										},
 										{
@@ -1821,7 +1821,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_progress",
 											nTextAlign = "1",
@@ -1837,7 +1837,7 @@ local t =
 											{
 												PositionY = -23,
 											},
-											width = "84",
+											width = "59",
 											ZOrder = "1",
 										},
 										{
@@ -2080,15 +2080,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_lanternFestivalSubmitView_1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -2096,14 +2096,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Material tidak cukup",
+													text = "Insufficient Materials",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "92",
+													width = "105",
 													ZOrder = "1",
 												},
 											},
@@ -2158,15 +2158,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_submit",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -2174,14 +2174,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Serahkan",
+													text = "Submit",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "47",
+													width = "113",
 													ZOrder = "1",
 												},
 											},

@@ -149818,7 +149818,7 @@ return {
         },
         triggerCondition = {
         },
-        probability = 2000,
+        probability = 5000,
         interval = 0,
         priority = 0,
         targetState = 0,
@@ -150670,7 +150670,7 @@ return {
         targetID  = 0,
         targetMonsterType = -1,
         targetMonsterType2 = -1,
-        cd = 1000,
+        cd = 500,
         attributeNum = {
         },
         triggerCondition = {

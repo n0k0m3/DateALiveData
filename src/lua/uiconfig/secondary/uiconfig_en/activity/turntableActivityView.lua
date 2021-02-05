@@ -6,7 +6,7 @@ local t =
 		
 		{
 			controlID = "Panel-turntableActivityView_activityEn_activity_Game",
-			UUID = "2a7936f9_2b36_4145_b865_f444c7e0549d",
+			UUID = "80a9d1db_15e5_471e_8440_5462ccd2eb5d",
 			anchorPoint = "False",
 			anchorPointX = "0",
 			anchorPointY = "0",

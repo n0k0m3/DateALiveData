@@ -75,8 +75,8 @@ function SimulationTrialLevelView:initUI(ui)
 	self.Panel_tab2.Image_lock  = TFDirector:getChildByPath(self.Panel_tab2, "Image_lock")
 	self.Panel_tab2.setSelect = setSelect
     local datas = TabDataMgr:getData("DungeonLevelGroup")
-	self.Panel_tab1.Label_chapter_name:setText(datas[self.resConfig.groupIds[1]].titleName)
-	self.Panel_tab2.Label_chapter_name:setText(datas[self.resConfig.groupIds[2]].titleName)
+	self.Panel_tab1.Label_chapter_name:setText(Utils:MultiLanguageStringDeal(datas[self.resConfig.groupIds[1]].titleName))
+	self.Panel_tab2.Label_chapter_name:setText(Utils:MultiLanguageStringDeal(datas[self.resConfig.groupIds[2]].titleName))
 
 	self.Panel_checkPoints = TFDirector:getChildByPath(self.ScrollView_wave,"Panel_checkPoints")
 	--关卡和线
@@ -374,7 +374,7 @@ function SimulationTrialLevelView:changeChapter(index)
  			if not timeOpen then 
 				local timeInfo = self.levelOpenTab[self.resConfig.firstLevelCid]
 				if timeInfo then
-					Utils:showTips(2108104,timeInfo.month,timeInfo.day)
+					Utils:showTips(2108104,timeInfo.year, timeInfo.month,timeInfo.day)
 				end
 			else
 				Utils:showTips(2108111)

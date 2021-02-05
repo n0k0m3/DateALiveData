@@ -107,7 +107,7 @@ local t =
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
 							FontColor = "#FFFFFFFF",
-							fontName = "phanta.ttf",
+							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
 								IsShadow = false,
@@ -140,7 +140,7 @@ local t =
 								PositionX = 13,
 								PositionY = -1,
 							},
-							width = "78",
+							width = "76",
 							ZOrder = "1",
 						},
 					},

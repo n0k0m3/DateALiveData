@@ -3978,7 +3978,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "16",
 											ignoreSize = "True",
 											name = "Label_leftTime",
 											nTextAlign = "1",
@@ -3994,7 +3994,7 @@ local t =
 											{
 												PositionY = -179,
 											},
-											width = "295",
+											width = "210",
 											ZOrder = "1",
 										},
 										{

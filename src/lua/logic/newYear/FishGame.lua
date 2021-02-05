@@ -145,7 +145,7 @@ function FishGame:SendFinishGame(result)
 
     if not result then
         self.Label_result:show()
-        self.Label_result:setText("游戏失败")
+        self.Label_result:setTextById(800063)
         self:timeOut(function()
             AlertManager:closeLayer(self)
         end,1)
@@ -159,7 +159,7 @@ function FishGame:finishGame(data)
 
     if not data.status then
         self.Label_result:show()
-        self.Label_result:setText("游戏失败")
+        self.Label_result:setTextById(800063)
 
         self:timeOut(function()
             AlertManager:closeLayer(self)

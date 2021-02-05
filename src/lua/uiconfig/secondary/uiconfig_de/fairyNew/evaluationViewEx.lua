@@ -229,14 +229,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "28",
+							fontSize = "20",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "23",
 							ignoreSize = "True",
 							name = "Label_hero_name",
 							nTextAlign = "1",
@@ -253,7 +253,7 @@ local t =
 								PositionX = 244,
 								PositionY = 491,
 							},
-							width = "143",
+							width = "174",
 							ZOrder = "1",
 						},
 						{
@@ -331,7 +331,7 @@ local t =
 									{
 										
 									},
-									width = "62",
+									width = "79",
 									ZOrder = "1",
 								},
 							},
@@ -504,7 +504,7 @@ local t =
 										PositionX = 99,
 										PositionY = 51,
 									},
-									width = "129",
+									width = "148",
 									ZOrder = "1",
 								},
 								{
@@ -550,7 +550,7 @@ local t =
 										PositionX = 99,
 										PositionY = 27,
 									},
-									width = "87",
+									width = "92",
 									ZOrder = "1",
 								},
 								{
@@ -796,7 +796,7 @@ local t =
 										PositionX = 335,
 										PositionY = 15,
 									},
-									width = "38",
+									width = "62",
 									ZOrder = "1",
 									components = 
 									{

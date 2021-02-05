@@ -209,7 +209,7 @@ function SummonDataMgr:init()
     end
     self.advanceClothPool_ = {}
     for k,v in pairs(self.summonPoolMap_) do
-        if v.poolType == 950 then
+        if v.poolType == 960 then
             local items = self.advanceClothPool_[v.quality] or {}
             for itemCid,num in pairs(v.itemMap) do
 

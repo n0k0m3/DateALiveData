@@ -302,7 +302,7 @@ local t =
 										PositionX = -55,
 										PositionY = -87,
 									},
-									width = "53",
+									width = "55",
 									ZOrder = "1",
 								},
 								{
@@ -348,7 +348,7 @@ local t =
 										PositionX = 174,
 										PositionY = 83,
 									},
-									width = "76",
+									width = "80",
 									ZOrder = "1",
 								},
 								{
@@ -394,7 +394,7 @@ local t =
 										PositionX = -115,
 										PositionY = -88,
 									},
-									width = "38",
+									width = "36",
 									ZOrder = "1",
 									components = 
 									{
@@ -441,7 +441,7 @@ local t =
 											{
 												PositionX = -128,
 											},
-											width = "157",
+											width = "138",
 											ZOrder = "1",
 										},
 									},
@@ -520,7 +520,7 @@ local t =
 											{
 												PositionX = -12,
 											},
-											width = "48",
+											width = "46",
 											ZOrder = "1",
 										},
 										{
@@ -591,7 +591,7 @@ local t =
 												PositionX = 36,
 												PositionY = -1,
 											},
-											width = "91",
+											width = "101",
 											ZOrder = "1",
 										},
 										{
@@ -638,7 +638,7 @@ local t =
 												PositionY = -1,
 											},
 											visible = "False",
-											width = "132",
+											width = "147",
 											ZOrder = "1",
 										},
 									},
@@ -789,7 +789,7 @@ local t =
 											{
 												PositionY = -49,
 											},
-											width = "190",
+											width = "179",
 											ZOrder = "1",
 										},
 									},
@@ -899,7 +899,7 @@ local t =
 											{
 												PositionX = -12,
 											},
-											width = "41",
+											width = "44",
 											ZOrder = "1",
 										},
 									},
@@ -1011,7 +1011,7 @@ local t =
 												PositionX = -42,
 												PositionY = -38,
 											},
-											width = "41",
+											width = "44",
 											ZOrder = "1",
 										},
 									},
@@ -1059,7 +1059,7 @@ local t =
 										PositionX = -160,
 										PositionY = -11,
 									},
-									width = "29",
+									width = "28",
 									ZOrder = "1",
 									components = 
 									{
@@ -1106,7 +1106,7 @@ local t =
 											{
 												PositionX = -53,
 											},
-											width = "199",
+											width = "185",
 											ZOrder = "1",
 										},
 									},
@@ -1181,7 +1181,7 @@ local t =
 										PositionX = -147,
 										PositionY = 20,
 									},
-									width = "418",
+									width = "435",
 									ZOrder = "1",
 								},
 								{
@@ -1227,7 +1227,7 @@ local t =
 										PositionX = -146,
 										PositionY = -36,
 									},
-									width = "343",
+									width = "371",
 									ZOrder = "1",
 								},
 								{
@@ -1299,7 +1299,7 @@ local t =
 										PositionX = -180,
 										PositionY = 73,
 									},
-									width = "218",
+									width = "239",
 									ZOrder = "1",
 								},
 							},

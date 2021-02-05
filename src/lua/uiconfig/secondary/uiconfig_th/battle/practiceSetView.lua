@@ -333,7 +333,7 @@ local t =
 											{
 												
 											},
-											width = "118",
+											width = "124",
 											ZOrder = "1",
 										},
 									},
@@ -412,7 +412,7 @@ local t =
 											{
 												
 											},
-											width = "95",
+											width = "96",
 											ZOrder = "1",
 										},
 									},

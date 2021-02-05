@@ -1102,8 +1102,8 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "25",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "downcount",
 							nTextAlign = "1",
 							nTextHAlign = "1",
@@ -1111,7 +1111,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "Cuenta regresiva",
+							text = "Countdown",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -1119,7 +1119,7 @@ local t =
 								PositionX = -451,
 								PositionY = 31,
 							},
-							width = "64",
+							width = "200",
 							ZOrder = "1",
 						},
 						{

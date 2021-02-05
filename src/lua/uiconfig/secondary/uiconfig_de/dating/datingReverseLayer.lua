@@ -95,7 +95,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "781",
+							height = "1093",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "0",
@@ -112,7 +112,7 @@ local t =
 								nGravity = 6,
 								nAlign = 5
 							},
-							width = "1386",
+							width = "1940",
 							ZOrder = "1",
 						},
 						{
@@ -239,7 +239,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "20",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_infoTip",
 											nTextAlign = "1",
@@ -255,7 +255,7 @@ local t =
 											{
 												
 											},
-											width = "57",
+											width = "78",
 											ZOrder = "1",
 										},
 									},
@@ -318,7 +318,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "20",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_infoTip",
 											nTextAlign = "1",
@@ -334,7 +334,7 @@ local t =
 											{
 												
 											},
-											width = "39",
+											width = "42",
 											ZOrder = "1",
 										},
 									},
@@ -397,7 +397,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "20",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_infoTip",
 											nTextAlign = "1",
@@ -413,7 +413,7 @@ local t =
 											{
 												
 											},
-											width = "39",
+											width = "42",
 											ZOrder = "1",
 										},
 									},
@@ -555,7 +555,7 @@ local t =
 										PositionX = -14,
 										PositionY = 21,
 									},
-									width = "114",
+									width = "187",
 									ZOrder = "1",
 								},
 							},
@@ -1100,7 +1100,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_cityName",
 									nTextAlign = "1",
@@ -1117,7 +1117,7 @@ local t =
 										PositionX = -34,
 										PositionY = 23,
 									},
-									width = "106",
+									width = "312",
 									ZOrder = "1",
 								},
 							},

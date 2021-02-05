@@ -6,7 +6,7 @@ return {
         gametype = 4,
         order = 6,
         collocation = 0,
-        name = "体",
+        name = "2021",
         fishBaseInfo = {
         },
         speed = 0,
@@ -21,7 +21,7 @@ return {
         gametype = 6,
         order = 1,
         collocation = 0,
-        name = "套装3图1",
+        name = "Set 3 Pic 1",
         fishBaseInfo = {
         },
         speed = 0,
@@ -36,7 +36,7 @@ return {
         gametype = 4,
         order = 1,
         collocation = 0,
-        name = "鼠",
+        name = "Good",
         fishBaseInfo = {
         },
         speed = 0,
@@ -51,7 +51,7 @@ return {
         gametype = 6,
         order = 2,
         collocation = 0,
-        name = "套装3图2",
+        name = "Set 3 Pic 2",
         fishBaseInfo = {
         },
         speed = 0,
@@ -66,7 +66,7 @@ return {
         gametype = 4,
         order = 1,
         collocation = 0,
-        name = "新",
+        name = "Wish",
         fishBaseInfo = {
         },
         speed = 0,
@@ -81,7 +81,7 @@ return {
         gametype = 4,
         order = 2,
         collocation = 0,
-        name = "年",
+        name = "Luck",
         fishBaseInfo = {
         },
         speed = 0,
@@ -96,7 +96,7 @@ return {
         gametype = 6,
         order = 4,
         collocation = 0,
-        name = "套装3图4",
+        name = "Set 3 Pic 4",
         fishBaseInfo = {
         },
         speed = 0,
@@ -111,7 +111,7 @@ return {
         gametype = 6,
         order = 5,
         collocation = 0,
-        name = "套装3图5",
+        name = "Set 3 Pic 5",
         fishBaseInfo = {
         },
         speed = 0,
@@ -126,7 +126,7 @@ return {
         gametype = 4,
         order = 3,
         collocation = 0,
-        name = "鸿",
+        name = "in",
         fishBaseInfo = {
         },
         speed = 0,
@@ -141,7 +141,7 @@ return {
         gametype = 6,
         order = 6,
         collocation = 0,
-        name = "套装3图6",
+        name = "Set 3 Pic 6",
         fishBaseInfo = {
         },
         speed = 0,
@@ -156,7 +156,7 @@ return {
         gametype = 4,
         order = 2,
         collocation = 0,
-        name = "年",
+        name = "You a",
         fishBaseInfo = {
         },
         speed = 0,
@@ -171,7 +171,7 @@ return {
         gametype = 4,
         order = 4,
         collocation = 0,
-        name = "运",
+        name = "the",
         fishBaseInfo = {
         },
         speed = 0,
@@ -186,7 +186,7 @@ return {
         gametype = 6,
         order = 8,
         collocation = 0,
-        name = "套装3图8",
+        name = "Set 3 Pic 8",
         fishBaseInfo = {
         },
         speed = 0,
@@ -201,7 +201,7 @@ return {
         gametype = 6,
         order = 9,
         collocation = 0,
-        name = "套装3图9",
+        name = "Set 3 Pic 9",
         fishBaseInfo = {
         },
         speed = 0,
@@ -216,7 +216,7 @@ return {
         gametype = 4,
         order = 5,
         collocation = 0,
-        name = "当",
+        name = "Year",
         fishBaseInfo = {
         },
         speed = 0,
@@ -231,7 +231,7 @@ return {
         gametype = 6,
         order = 10,
         collocation = 0,
-        name = "套装3图10",
+        name = "Set 3 Pic 10",
         fishBaseInfo = {
         },
         speed = 0,
@@ -246,7 +246,7 @@ return {
         gametype = 4,
         order = 3,
         collocation = 0,
-        name = "吉",
+        name = "Happpy",
         fishBaseInfo = {
         },
         speed = 0,
@@ -261,7 +261,7 @@ return {
         gametype = 4,
         order = 6,
         collocation = 0,
-        name = "头",
+        name = "Ahead",
         fishBaseInfo = {
         },
         speed = 0,
@@ -276,7 +276,7 @@ return {
         gametype = 6,
         order = 12,
         collocation = 0,
-        name = "套装3图12",
+        name = "Set 3 Pic 12",
         fishBaseInfo = {
         },
         speed = 0,
@@ -291,7 +291,7 @@ return {
         gametype = 6,
         order = 13,
         collocation = 0,
-        name = "套装3图13",
+        name = "Set 3 Pic 13",
         fishBaseInfo = {
         },
         speed = 0,
@@ -306,7 +306,7 @@ return {
         gametype = 6,
         order = 14,
         collocation = 0,
-        name = "套装3图14",
+        name = "Set 3 Pic 14",
         fishBaseInfo = {
         },
         speed = 0,
@@ -321,7 +321,7 @@ return {
         gametype = 6,
         order = 15,
         collocation = 0,
-        name = "套装3图15",
+        name = "Set 3 Pic 15",
         fishBaseInfo = {
         },
         speed = 0,
@@ -336,7 +336,7 @@ return {
         gametype = 6,
         order = 16,
         collocation = 0,
-        name = "套装3图16",
+        name = "Set 3 Pic 16",
         fishBaseInfo = {
         },
         speed = 0,
@@ -351,7 +351,7 @@ return {
         gametype = 6,
         order = 5,
         collocation = 0,
-        name = "套装1图5",
+        name = "Set 1 Pic 5",
         fishBaseInfo = {
         },
         speed = 0,
@@ -367,7 +367,7 @@ return {
         gametype = 5,
         order = 0,
         collocation = 0,
-        name = "金牛座",
+        name = "Taurus",
         fishBaseInfo = {
         },
         speed = 0,
@@ -382,7 +382,7 @@ return {
         gametype = 4,
         order = 5,
         collocation = 0,
-        name = "如",
+        name = "New",
         fishBaseInfo = {
         },
         speed = 0,
@@ -398,7 +398,7 @@ return {
         gametype = 5,
         order = 0,
         collocation = 0,
-        name = "摩羯座",
+        name = "Capricorns",
         fishBaseInfo = {
         },
         speed = 0,
@@ -413,7 +413,7 @@ return {
         gametype = 6,
         order = 7,
         collocation = 0,
-        name = "套装1图7",
+        name = "Set 1 Pic 7",
         fishBaseInfo = {
         },
         speed = 0,
@@ -428,7 +428,7 @@ return {
         gametype = 4,
         order = 1,
         collocation = 0,
-        name = "你",
+        name = "May",
         fishBaseInfo = {
         },
         speed = 0,
@@ -444,7 +444,7 @@ return {
         gametype = 5,
         order = 0,
         collocation = 0,
-        name = "狮子座",
+        name = "Leo",
         fishBaseInfo = {
         },
         speed = 0,
@@ -459,7 +459,7 @@ return {
         gametype = 4,
         order = 6,
         collocation = 0,
-        name = "意",
+        name = "Year",
         fishBaseInfo = {
         },
         speed = 0,
@@ -474,7 +474,7 @@ return {
         gametype = 4,
         order = 2,
         collocation = 0,
-        name = "的",
+        name = "all",
         fishBaseInfo = {
         },
         speed = 0,
@@ -490,7 +490,7 @@ return {
         gametype = 5,
         order = 0,
         collocation = 0,
-        name = "双子座",
+        name = "Gemini",
         fishBaseInfo = {
         },
         speed = 0,
@@ -505,7 +505,7 @@ return {
         gametype = 6,
         order = 9,
         collocation = 0,
-        name = "套装1图9",
+        name = "Set 1 Pic 9",
         fishBaseInfo = {
         },
         speed = 0,
@@ -520,7 +520,7 @@ return {
         gametype = 4,
         order = 3,
         collocation = 0,
-        name = "专",
+        name = "Wishes",
         fishBaseInfo = {
         },
         speed = 0,
@@ -536,7 +536,7 @@ return {
         gametype = 5,
         order = 0,
         collocation = 0,
-        name = "天秤座",
+        name = "Libra",
         fishBaseInfo = {
         },
         speed = 0,
@@ -551,7 +551,7 @@ return {
         gametype = 6,
         order = 10,
         collocation = 0,
-        name = "套装1图10",
+        name = "Set 1 Pic 10",
         fishBaseInfo = {
         },
         speed = 0,
@@ -566,7 +566,7 @@ return {
         gametype = 4,
         order = 4,
         collocation = 0,
-        name = "鼠",
+        name = "come",
         fishBaseInfo = {
         },
         speed = 0,
@@ -581,7 +581,7 @@ return {
         gametype = 6,
         order = 1,
         collocation = 0,
-        name = "套装2图1",
+        name = "Set 2 Pic 1",
         fishBaseInfo = {
         },
         speed = 0,
@@ -596,7 +596,7 @@ return {
         gametype = 6,
         order = 11,
         collocation = 0,
-        name = "套装1图11",
+        name = "Set 1 Pic 11",
         fishBaseInfo = {
         },
         speed = 0,
@@ -611,7 +611,7 @@ return {
         gametype = 6,
         order = 2,
         collocation = 0,
-        name = "套装2图2",
+        name = "Set 2 Pic 2",
         fishBaseInfo = {
         },
         speed = 0,
@@ -626,7 +626,7 @@ return {
         gametype = 6,
         order = 3,
         collocation = 0,
-        name = "套装2图3",
+        name = "Set 2 Pic 3",
         fishBaseInfo = {
         },
         speed = 0,
@@ -641,7 +641,7 @@ return {
         gametype = 6,
         order = 12,
         collocation = 0,
-        name = "套装1图12",
+        name = "Set 1 Pic 12",
         fishBaseInfo = {
         },
         speed = 0,
@@ -656,7 +656,7 @@ return {
         gametype = 6,
         order = 4,
         collocation = 0,
-        name = "套装2图4",
+        name = "Set 2 Pic 4",
         fishBaseInfo = {
         },
         speed = 0,
@@ -671,7 +671,7 @@ return {
         gametype = 6,
         order = 5,
         collocation = 0,
-        name = "套装2图5",
+        name = "Set 2 Pic 5",
         fishBaseInfo = {
         },
         speed = 0,
@@ -686,7 +686,7 @@ return {
         gametype = 6,
         order = 13,
         collocation = 0,
-        name = "套装1图13",
+        name = "Set 1 Pic 13",
         fishBaseInfo = {
         },
         speed = 0,
@@ -701,7 +701,7 @@ return {
         gametype = 6,
         order = 6,
         collocation = 0,
-        name = "套装2图6",
+        name = "Set 2 Pic 6",
         fishBaseInfo = {
         },
         speed = 0,
@@ -716,7 +716,7 @@ return {
         gametype = 6,
         order = 7,
         collocation = 0,
-        name = "套装2图7",
+        name = "Set 2 Pic 7",
         fishBaseInfo = {
         },
         speed = 0,
@@ -731,7 +731,7 @@ return {
         gametype = 6,
         order = 14,
         collocation = 0,
-        name = "套装1图14",
+        name = "Set 1 Pic 14",
         fishBaseInfo = {
         },
         speed = 0,
@@ -746,7 +746,7 @@ return {
         gametype = 6,
         order = 8,
         collocation = 0,
-        name = "套装2图8",
+        name = "Set 2 Pic 8",
         fishBaseInfo = {
         },
         speed = 0,
@@ -761,7 +761,7 @@ return {
         gametype = 3,
         order = 1,
         collocation = 3003,
-        name = "糖块",
+        name = "Sugar Cube",
         fishBaseInfo = {
         },
         speed = 0,
@@ -776,7 +776,7 @@ return {
         gametype = 6,
         order = 9,
         collocation = 0,
-        name = "套装2图9",
+        name = "Set 2 Pic 9",
         fishBaseInfo = {
         },
         speed = 0,
@@ -791,7 +791,7 @@ return {
         gametype = 6,
         order = 15,
         collocation = 0,
-        name = "套装1图15",
+        name = "Set 1 Pic 15",
         fishBaseInfo = {
         },
         speed = 0,
@@ -806,7 +806,7 @@ return {
         gametype = 6,
         order = 10,
         collocation = 0,
-        name = "套装2图10",
+        name = "Set 2 Pic 10",
         fishBaseInfo = {
         },
         speed = 0,
@@ -821,7 +821,7 @@ return {
         gametype = 3,
         order = 2,
         collocation = 3001,
-        name = "冰块",
+        name = "Ice Cube",
         fishBaseInfo = {
         },
         speed = 0,
@@ -836,7 +836,7 @@ return {
         gametype = 6,
         order = 11,
         collocation = 0,
-        name = "套装2图11",
+        name = "Set 2 Pic 11",
         fishBaseInfo = {
         },
         speed = 0,
@@ -851,7 +851,7 @@ return {
         gametype = 6,
         order = 16,
         collocation = 0,
-        name = "套装1图16",
+        name = "Set 1 Pic 16",
         fishBaseInfo = {
         },
         speed = 0,
@@ -866,7 +866,7 @@ return {
         gametype = 6,
         order = 12,
         collocation = 0,
-        name = "套装2图12",
+        name = "Set 2 Pic 12",
         fishBaseInfo = {
         },
         speed = 0,
@@ -881,7 +881,7 @@ return {
         gametype = 3,
         order = 1,
         collocation = 3006,
-        name = "咖啡豆",
+        name = "Coffee Beans",
         fishBaseInfo = {
         },
         speed = 0,
@@ -896,7 +896,7 @@ return {
         gametype = 6,
         order = 13,
         collocation = 0,
-        name = "套装2图13",
+        name = "Set 2 Pic 13",
         fishBaseInfo = {
         },
         speed = 0,
@@ -911,7 +911,7 @@ return {
         gametype = 3,
         order = 2,
         collocation = 3005,
-        name = "绿茶",
+        name = "Green Tea",
         fishBaseInfo = {
         },
         speed = 0,
@@ -926,7 +926,7 @@ return {
         gametype = 4,
         order = 1,
         collocation = 0,
-        name = "恭",
+        name = "May",
         fishBaseInfo = {
         },
         speed = 0,
@@ -941,7 +941,7 @@ return {
         gametype = 3,
         order = 2,
         collocation = 3002,
-        name = "草莓",
+        name = "Strawberry",
         fishBaseInfo = {
         },
         speed = 0,
@@ -956,7 +956,7 @@ return {
         gametype = 6,
         order = 15,
         collocation = 0,
-        name = "套装2图15",
+        name = "Set 2 Pic 15",
         fishBaseInfo = {
         },
         speed = 0,
@@ -971,7 +971,7 @@ return {
         gametype = 4,
         order = 1,
         collocation = 0,
-        name = "大",
+        name = "May",
         fishBaseInfo = {
         },
         speed = 0,
@@ -986,7 +986,7 @@ return {
         gametype = 4,
         order = 2,
         collocation = 0,
-        name = "祝",
+        name = "Everything",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1001,7 +1001,7 @@ return {
         gametype = 4,
         order = 3,
         collocation = 0,
-        name = "身",
+        name = "Go",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1016,7 +1016,7 @@ return {
         gametype = 4,
         order = 2,
         collocation = 0,
-        name = "凉",
+        name = "This",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1031,7 +1031,7 @@ return {
         gametype = 4,
         order = 4,
         collocation = 0,
-        name = "体",
+        name = "Well",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1046,7 +1046,7 @@ return {
         gametype = 4,
         order = 5,
         collocation = 0,
-        name = "健",
+        name = "for",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1061,7 +1061,7 @@ return {
         gametype = 4,
         order = 3,
         collocation = 0,
-        name = "山",
+        name = "Year",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1076,7 +1076,7 @@ return {
         gametype = 4,
         order = 6,
         collocation = 0,
-        name = "康",
+        name = "You",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1092,7 +1092,7 @@ return {
         gametype = 2,
         order = 0,
         collocation = 0,
-        name = "乌龟",
+        name = "Turtle",
         fishBaseInfo = {
             offset = {
                 [1] = 15,
@@ -1122,7 +1122,7 @@ return {
         gametype = 2,
         order = 0,
         collocation = 0,
-        name = "小丑鱼",
+        name = "Clownfish",
         fishBaseInfo = {
             offset = {
                 [1] = 1,
@@ -1152,7 +1152,7 @@ return {
         gametype = 2,
         order = 0,
         collocation = 0,
-        name = "剑鱼",
+        name = "Swordfish",
         fishBaseInfo = {
             offset = {
                 [1] = 8,
@@ -1181,7 +1181,7 @@ return {
         gametype = 4,
         order = 4,
         collocation = 0,
-        name = "贺",
+        name = "Bring",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1196,7 +1196,7 @@ return {
         gametype = 4,
         order = 5,
         collocation = 0,
-        name = "新",
+        name = "Your",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1211,7 +1211,7 @@ return {
         gametype = 4,
         order = 1,
         collocation = 0,
-        name = "鼠",
+        name = "Wish",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1226,7 +1226,7 @@ return {
         gametype = 4,
         order = 6,
         collocation = 0,
-        name = "年",
+        name = "Happiness",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1241,7 +1241,7 @@ return {
         gametype = 4,
         order = 2,
         collocation = 0,
-        name = "行",
+        name = "You",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1256,7 +1256,7 @@ return {
         gametype = 4,
         order = 3,
         collocation = 0,
-        name = "大",
+        name = "Luck",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1271,7 +1271,7 @@ return {
         gametype = 4,
         order = 4,
         collocation = 0,
-        name = "运",
+        name = "in the",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1286,7 +1286,7 @@ return {
         gametype = 4,
         order = 5,
         collocation = 0,
-        name = "昌",
+        name = "New",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1301,7 +1301,7 @@ return {
         gametype = 4,
         order = 6,
         collocation = 0,
-        name = "隆",
+        name = "Year",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1316,7 +1316,7 @@ return {
         gametype = 4,
         order = 1,
         collocation = 0,
-        name = "约",
+        name = "D",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1331,7 +1331,7 @@ return {
         gametype = 4,
         order = 2,
         collocation = 0,
-        name = "战",
+        name = "A",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1346,7 +1346,7 @@ return {
         gametype = 4,
         order = 3,
         collocation = 0,
-        name = "陪",
+        name = "L",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1361,7 +1361,7 @@ return {
         gametype = 4,
         order = 4,
         collocation = 0,
-        name = "你",
+        name = "Dating",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1377,7 +1377,7 @@ return {
         gametype = 5,
         order = 0,
         collocation = 0,
-        name = "天蝎座",
+        name = "Scorpius",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1393,7 +1393,7 @@ return {
         gametype = 5,
         order = 0,
         collocation = 0,
-        name = "水瓶座",
+        name = "Aquarius",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1409,7 +1409,7 @@ return {
         gametype = 5,
         order = 0,
         collocation = 0,
-        name = "双鱼座",
+        name = "Pisces",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1424,7 +1424,7 @@ return {
         gametype = 4,
         order = 5,
         collocation = 0,
-        name = "到",
+        name = "Never",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1440,7 +1440,7 @@ return {
         gametype = 5,
         order = 0,
         collocation = 0,
-        name = "射手座",
+        name = "Sagittarius",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1455,7 +1455,7 @@ return {
         gametype = 6,
         order = 3,
         collocation = 0,
-        name = "套装3图3",
+        name = "Set 3 Pic 3",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1470,7 +1470,7 @@ return {
         gametype = 4,
         order = 1,
         collocation = 0,
-        name = "新",
+        name = "Wish",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1485,7 +1485,7 @@ return {
         gametype = 4,
         order = 6,
         collocation = 0,
-        name = "老",
+        name = "Stops",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1501,7 +1501,7 @@ return {
         gametype = 5,
         order = 0,
         collocation = 0,
-        name = "巨蟹座",
+        name = "Cancer",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1516,7 +1516,7 @@ return {
         gametype = 4,
         order = 2,
         collocation = 0,
-        name = "年",
+        name = "You",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1531,7 +1531,7 @@ return {
         gametype = 4,
         order = 4,
         collocation = 0,
-        name = "祥",
+        name = "Chinese",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1546,7 +1546,7 @@ return {
         gametype = 6,
         order = 1,
         collocation = 0,
-        name = "套装4图1",
+        name = "Set 4 Pic 1",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1561,7 +1561,7 @@ return {
         gametype = 6,
         order = 7,
         collocation = 0,
-        name = "套装3图7",
+        name = "Set 3 Pic 7",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1576,7 +1576,7 @@ return {
         gametype = 6,
         order = 2,
         collocation = 0,
-        name = "套装4图2",
+        name = "Set 4 Pic 2",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1592,7 +1592,7 @@ return {
         gametype = 5,
         order = 0,
         collocation = 0,
-        name = "处女座",
+        name = "Virgo",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1607,7 +1607,7 @@ return {
         gametype = 6,
         order = 3,
         collocation = 0,
-        name = "套装4图3",
+        name = "Set 4 Pic 3",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1622,7 +1622,7 @@ return {
         gametype = 6,
         order = 1,
         collocation = 0,
-        name = "套装1图1",
+        name = "Set 1 Pic 1",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1637,7 +1637,7 @@ return {
         gametype = 6,
         order = 4,
         collocation = 0,
-        name = "套装4图4",
+        name = "Set 4 Pic 4",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1653,7 +1653,7 @@ return {
         gametype = 5,
         order = 0,
         collocation = 0,
-        name = "白羊座",
+        name = "Aries",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1668,7 +1668,7 @@ return {
         gametype = 6,
         order = 5,
         collocation = 0,
-        name = "套装4图5",
+        name = "Set 4 Pic 5",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1683,7 +1683,7 @@ return {
         gametype = 4,
         order = 3,
         collocation = 0,
-        name = "欧",
+        name = "An",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1698,7 +1698,7 @@ return {
         gametype = 6,
         order = 6,
         collocation = 0,
-        name = "套装4图6",
+        name = "Set 4 Pic 6",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1713,7 +1713,7 @@ return {
         gametype = 6,
         order = 2,
         collocation = 0,
-        name = "套装1图2",
+        name = "Set 1 Pic 2",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1728,7 +1728,7 @@ return {
         gametype = 6,
         order = 7,
         collocation = 0,
-        name = "套装4图7",
+        name = "Set 4 Pic 7",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1743,7 +1743,7 @@ return {
         gametype = 4,
         order = 4,
         collocation = 0,
-        name = "皇",
+        name = "Unprecedented",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1758,7 +1758,7 @@ return {
         gametype = 6,
         order = 8,
         collocation = 0,
-        name = "套装4图8",
+        name = "Set 4 Pic 8",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1773,7 +1773,7 @@ return {
         gametype = 6,
         order = 11,
         collocation = 0,
-        name = "套装3图11",
+        name = "Set 3 Pic 11",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1788,7 +1788,7 @@ return {
         gametype = 6,
         order = 9,
         collocation = 0,
-        name = "套装4图9",
+        name = "Set 4 Pic 9",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1803,7 +1803,7 @@ return {
         gametype = 6,
         order = 3,
         collocation = 0,
-        name = "套装1图3",
+        name = "Set 1 Pic 3",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1818,7 +1818,7 @@ return {
         gametype = 6,
         order = 10,
         collocation = 0,
-        name = "套装4图10",
+        name = "Set 4 Pic 10",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1833,7 +1833,7 @@ return {
         gametype = 6,
         order = 8,
         collocation = 0,
-        name = "套装1图8",
+        name = "Set 1 Pic 8",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1848,7 +1848,7 @@ return {
         gametype = 6,
         order = 11,
         collocation = 0,
-        name = "套装4图11",
+        name = "Set 4 Pic 11",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1863,7 +1863,7 @@ return {
         gametype = 3,
         order = 2,
         collocation = 3004,
-        name = "汽水",
+        name = "Soda",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1878,7 +1878,7 @@ return {
         gametype = 6,
         order = 12,
         collocation = 0,
-        name = "套装4图12",
+        name = "Set 4 Pic 12",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1893,7 +1893,7 @@ return {
         gametype = 6,
         order = 4,
         collocation = 0,
-        name = "套装1图4",
+        name = "Set 1 Pic 4",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1908,7 +1908,7 @@ return {
         gametype = 6,
         order = 13,
         collocation = 0,
-        name = "套装4图13",
+        name = "Set 4 Pic 13",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1923,7 +1923,7 @@ return {
         gametype = 3,
         order = 1,
         collocation = 3008,
-        name = "牛奶",
+        name = "Milk",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1938,7 +1938,7 @@ return {
         gametype = 6,
         order = 14,
         collocation = 0,
-        name = "套装4图14",
+        name = "Set 4 Pic 14",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1953,7 +1953,7 @@ return {
         gametype = 3,
         order = 1,
         collocation = 3007,
-        name = "柠檬",
+        name = "Lemon",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1968,7 +1968,7 @@ return {
         gametype = 6,
         order = 15,
         collocation = 0,
-        name = "套装4图15",
+        name = "Set 4 Pic 15",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1983,7 +1983,7 @@ return {
         gametype = 6,
         order = 6,
         collocation = 0,
-        name = "套装1图6",
+        name = "Set 1 Pic 6",
         fishBaseInfo = {
         },
         speed = 0,
@@ -1998,7 +1998,7 @@ return {
         gametype = 6,
         order = 16,
         collocation = 0,
-        name = "套装4图16",
+        name = "Set 4 Pic 16",
         fishBaseInfo = {
         },
         speed = 0,
@@ -2013,7 +2013,7 @@ return {
         gametype = 4,
         order = 5,
         collocation = 0,
-        name = "约",
+        name = "Ture",
         fishBaseInfo = {
         },
         speed = 0,
@@ -2028,7 +2028,7 @@ return {
         gametype = 4,
         order = 5,
         collocation = 0,
-        name = "附",
+        name = "Healthy",
         fishBaseInfo = {
         },
         speed = 0,
@@ -2043,7 +2043,7 @@ return {
         gametype = 4,
         order = 6,
         collocation = 0,
-        name = "会",
+        name = ".",
         fishBaseInfo = {
         },
         speed = 0,
@@ -2058,7 +2058,7 @@ return {
         gametype = 6,
         order = 16,
         collocation = 0,
-        name = "套装2图16",
+        name = "Set 2 Pic 16",
         fishBaseInfo = {
         },
         speed = 0,
@@ -2073,7 +2073,7 @@ return {
         gametype = 6,
         order = 14,
         collocation = 0,
-        name = "套装2图14",
+        name = "Set 2 Pic 14",
         fishBaseInfo = {
         },
         speed = 0,

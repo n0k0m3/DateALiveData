@@ -495,7 +495,7 @@ local t =
 												PositionX = -90,
 												PositionY = -6,
 											},
-											width = "90",
+											width = "84",
 											ZOrder = "1",
 										},
 									},
@@ -636,7 +636,7 @@ local t =
 												PositionX = 90,
 												PositionY = -6,
 											},
-											width = "92",
+											width = "84",
 											ZOrder = "1",
 										},
 									},
@@ -694,7 +694,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "22",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_round",
 											nTextAlign = "1",
@@ -710,7 +710,7 @@ local t =
 											{
 												PositionY = -15,
 											},
-											width = "112",
+											width = "89",
 											ZOrder = "1",
 										},
 									},
@@ -896,7 +896,7 @@ local t =
 										StrokeColor = "#FF30354A",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_font",
 									nTextAlign = "1",
@@ -912,7 +912,7 @@ local t =
 									{
 										relativeToName = "Panel",
 									},
-									width = "53",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
@@ -1008,7 +1008,7 @@ local t =
 										StrokeColor = "#FF30354A",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_font",
 									nTextAlign = "1",
@@ -1024,7 +1024,7 @@ local t =
 									{
 										relativeToName = "Panel",
 									},
-									width = "53",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
@@ -1119,7 +1119,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_big",
 									nTextAlign = "1",
@@ -1135,7 +1135,7 @@ local t =
 									{
 										relativeToName = "Panel",
 									},
-									width = "44",
+									width = "35",
 									ZOrder = "1",
 								},
 								{
@@ -1264,7 +1264,7 @@ local t =
 									{
 										PositionY = 13,
 									},
-									width = "147",
+									width = "210",
 									ZOrder = "1",
 								},
 								{
@@ -1310,7 +1310,7 @@ local t =
 										PositionX = 218,
 										PositionY = 13,
 									},
-									width = "55",
+									width = "53",
 									ZOrder = "1",
 								},
 							},

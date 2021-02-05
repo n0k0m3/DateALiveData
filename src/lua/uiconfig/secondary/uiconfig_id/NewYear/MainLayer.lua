@@ -498,14 +498,14 @@ local t =
 												StrokeSize = 1,
 											},
 											hAlignment = "0",
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "TextArea_name",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Nama pemain maks 8 karakter",
+											text = "Player Name Max 16 Chars",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -514,7 +514,7 @@ local t =
 												PositionY = -32,
 											},
 											vAlignment = "0",
-											width = "148",
+											width = "252",
 											ZOrder = "1",
 										},
 										{
@@ -597,7 +597,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "19",
+													width = "18",
 													ZOrder = "1",
 												},
 												{
@@ -811,7 +811,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Pengumuman Sistem",
+											text = "System Notice",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -820,7 +820,7 @@ local t =
 												PositionY = 13,
 											},
 											vAlignment = "0",
-											width = "583",
+											width = "115",
 											ZOrder = "1",
 										},
 									},
@@ -953,7 +953,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Setting",
+											text = "Settings",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -962,7 +962,7 @@ local t =
 												PositionY = -2,
 											},
 											visible = "False",
-											width = "43",
+											width = "64",
 											ZOrder = "1",
 										},
 									},
@@ -1126,7 +1126,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_feelling_name",
 											nTextAlign = "1",
@@ -1135,7 +1135,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Level Favor",
+											text = "Favor Level",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1143,7 +1143,7 @@ local t =
 												PositionX = 44,
 												PositionY = 75,
 											},
-											width = "123",
+											width = "148",
 											ZOrder = "1",
 										},
 										{
@@ -1189,7 +1189,7 @@ local t =
 												PositionX = 200,
 												PositionY = 76,
 											},
-											width = "16",
+											width = "15",
 											ZOrder = "1",
 										},
 										{
@@ -1227,7 +1227,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Perolehan Favor telah maksimal",
+											text = "You can get 't more Favor today.",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1235,7 +1235,7 @@ local t =
 												PositionX = 11,
 												PositionY = 23,
 											},
-											width = "219",
+											width = "249",
 											ZOrder = "1",
 										},
 										{
@@ -1335,7 +1335,7 @@ local t =
 												PositionX = 120,
 												PositionY = 50,
 											},
-											width = "48",
+											width = "47",
 											ZOrder = "1",
 										},
 										{
@@ -2005,7 +2005,7 @@ local t =
 														StrokeSize = 1,
 													},
 													hAlignment = "1",
-													height = "29",
+													height = "27",
 													ignoreSize = "True",
 													name = "TextArea_Game_2",
 													sizepercentx = "0",
@@ -2020,7 +2020,7 @@ local t =
 														PositionY = -26,
 													},
 													vAlignment = "1",
-													width = "48",
+													width = "72",
 													ZOrder = "1",
 												},
 												{
@@ -2113,7 +2113,7 @@ local t =
 														StrokeColor = "#FF2F0B0B",
 														StrokeSize = 1,
 													},
-													height = "29",
+													height = "27",
 													ignoreSize = "True",
 													name = "Label_title",
 													nTextAlign = "1",
@@ -2122,14 +2122,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Sosial",
+													text = "Social",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -26,
 													},
-													width = "48",
+													width = "73",
 													ZOrder = "1",
 												},
 												{
@@ -2219,14 +2219,14 @@ local t =
 														StrokeSize = 1,
 													},
 													hAlignment = "1",
-													height = "29",
+													height = "27",
 													ignoreSize = "True",
 													name = "TextArea_Game_2",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Galeri",
+													text = "Gallery",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2234,7 +2234,7 @@ local t =
 														PositionY = -26,
 													},
 													vAlignment = "1",
-													width = "48",
+													width = "89",
 													ZOrder = "1",
 												},
 												{
@@ -2500,7 +2500,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "TextLable",
+													text = "Feb 5th - Feb 13th",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2512,7 +2512,7 @@ local t =
 														PercentY = 50,
 													},
 													visible = "False",
-													width = "193",
+													width = "186",
 													ZOrder = "1",
 												},
 												{
@@ -2935,7 +2935,7 @@ local t =
 												StrokeColor = "#FF2F0B0C",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_Game_1",
 											nTextAlign = "1",
@@ -2951,7 +2951,7 @@ local t =
 											{
 												PositionY = -34,
 											},
-											width = "52",
+											width = "76",
 											ZOrder = "1",
 										},
 										{
@@ -3117,7 +3117,7 @@ local t =
 												StrokeColor = "#FF2F0B0C",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_Game_1-Copy1",
 											nTextAlign = "1",
@@ -3126,7 +3126,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Ransel",
+											text = "Bag",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -3223,7 +3223,7 @@ local t =
 												StrokeColor = "#FF2F0B0C",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_Game_1-Copy2",
 											nTextAlign = "1",
@@ -3232,14 +3232,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Klub",
+											text = "Club",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -34,
 											},
-											width = "51",
+											width = "60",
 											ZOrder = "1",
 										},
 										{
@@ -3354,7 +3354,7 @@ local t =
 												StrokeColor = "#FF2F0B0C",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_Game_1-Copy3",
 											nTextAlign = "1",
@@ -3370,7 +3370,7 @@ local t =
 											{
 												PositionY = -34,
 											},
-											width = "52",
+											width = "115",
 											ZOrder = "1",
 										},
 										{
@@ -3493,7 +3493,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Kota",
+											text = "City",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -3501,7 +3501,7 @@ local t =
 												PositionX = 25,
 											},
 											visible = "False",
-											width = "51",
+											width = "44",
 											ZOrder = "1",
 										},
 										{
@@ -3646,14 +3646,14 @@ local t =
 												StrokeSize = 1,
 											},
 											hAlignment = "1",
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "TextArea_Game_2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Toko",
+											text = "Store",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -3661,7 +3661,7 @@ local t =
 												PositionY = -34,
 											},
 											vAlignment = "1",
-											width = "51",
+											width = "70",
 											ZOrder = "1",
 										},
 										{
@@ -3776,7 +3776,7 @@ local t =
 												StrokeSize = 1,
 											},
 											hAlignment = "1",
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "TextArea_Game_2",
 											sizepercentx = "0",
@@ -3791,7 +3791,7 @@ local t =
 												PositionY = -34,
 											},
 											vAlignment = "1",
-											width = "53",
+											width = "93",
 											ZOrder = "1",
 										},
 										{
@@ -4146,14 +4146,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Bisa Klaim",
+													text = "Claimable",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -23,
 													},
-													width = "63",
+													width = "80",
 													ZOrder = "1",
 												},
 											},
@@ -4936,14 +4936,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Pengumuman",
+													text = "Announcement",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "44",
+													width = "122",
 													ZOrder = "1",
 												},
 												{
@@ -5069,14 +5069,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Surat",
+													text = "Mail",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "44",
+													width = "41",
 													ZOrder = "1",
 												},
 												{
@@ -5202,14 +5202,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Benefit",
+													text = "Benefits",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "43",
+													width = "66",
 													ZOrder = "1",
 												},
 												{
@@ -5342,7 +5342,7 @@ local t =
 													{
 														PositionY = -20,
 													},
-													width = "43",
+													width = "49",
 													ZOrder = "1",
 												},
 												{
@@ -5468,14 +5468,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Ikuti",
+													text = "Follow",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "44",
+													width = "59",
 													ZOrder = "1",
 												},
 												{
@@ -5601,14 +5601,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Angket",
+													text = "Questionnaire",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "44",
+													width = "115",
 													ZOrder = "1",
 												},
 												{
@@ -5741,7 +5741,7 @@ local t =
 													{
 														PositionY = -20,
 													},
-													width = "44",
+													width = "61",
 													ZOrder = "1",
 												},
 												{
@@ -5874,7 +5874,7 @@ local t =
 													{
 														PositionY = -20,
 													},
-													width = "44",
+													width = "69",
 													ZOrder = "1",
 												},
 												{
@@ -6000,14 +6000,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Comeback",
+													text = "Returner",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "44",
+													width = "73",
 													ZOrder = "1",
 												},
 												{
@@ -6140,7 +6140,7 @@ local t =
 													{
 														PositionY = -20,
 													},
-													width = "44",
+													width = "102",
 													ZOrder = "1",
 												},
 												{
@@ -6266,14 +6266,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Kartu Bulanan",
+													text = "Month Card",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -20,
 													},
-													width = "43",
+													width = "103",
 													ZOrder = "1",
 												},
 												{

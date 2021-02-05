@@ -116,7 +116,7 @@ local t =
 							controlID = "Label_title_Panel_base_Panel-spriteTrainView_newyear_activity_Game",
 							UUID = "165ce690_04e0_40d8_92ff_d275c6c255f9",
 							anchorPoint = "False",
-							anchorPointX = "1",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -138,7 +138,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "32",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -147,15 +147,15 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "精灵培养",
+							text = "Spirit Practices",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 321,
+								PositionX = 207,
 								PositionY = 501,
 							},
-							width = "114",
+							width = "211",
 							ZOrder = "1",
 							components = 
 							{
@@ -200,9 +200,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 5,
+										PositionX = 216,
 									},
-									width = "9",
+									visible = "False",
+									width = "8",
 									ZOrder = "1",
 									components = 
 									{
@@ -242,7 +243,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "sprite train",
+											text = "Spirit Practice",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -250,7 +251,7 @@ local t =
 												PositionX = 3,
 												PositionY = -6,
 											},
-											width = "89",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -461,7 +462,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "实践加成",
+							text = "Practice Bonus",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -469,7 +470,7 @@ local t =
 								PositionX = 774,
 								PositionY = 254,
 							},
-							width = "83",
+							width = "117",
 							ZOrder = "1",
 						},
 						{
@@ -523,15 +524,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_action",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -539,14 +540,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "升级精灵",
+									text = "Upgrade",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "100",
+									width = "120",
 									ZOrder = "1",
 								},
 							},
@@ -600,7 +601,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "16",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -616,7 +617,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "ความคืบหน้าภารกิจ",
+							text = "Quest Progress",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -646,23 +647,23 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "30",
+							fontSize = "22",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "37",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "Label_name",
 							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextHAlign = "2",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "ชื่อของสปิริต",
+							text = "Spirit Name",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -670,7 +671,7 @@ local t =
 								PositionX = 906,
 								PositionY = 421,
 							},
-							width = "122",
+							width = "400",
 							ZOrder = "1",
 						},
 						{
@@ -692,23 +693,23 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = true,
 								StrokeColor = "#FFB33428",
 								StrokeSize = 2,
 							},
-							height = "29",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "Label_lv",
 							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextHAlign = "2",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "ชื่อของสปิริต",
+							text = "Spirit Name",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -716,7 +717,7 @@ local t =
 								PositionX = 906,
 								PositionY = 455,
 							},
-							width = "84",
+							width = "400",
 							ZOrder = "1",
 						},
 						{
@@ -766,15 +767,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_cur",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -782,7 +783,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "ชื่อของสปิริต",
+									text = "Spirit Name",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -790,7 +791,7 @@ local t =
 										PositionX = -72,
 										PositionY = -2,
 									},
-									width = "90",
+									width = "111",
 									ZOrder = "1",
 								},
 								{
@@ -812,15 +813,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_late",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -828,7 +829,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "ชื่อของสปิริต",
+									text = "Spirit Name",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -836,7 +837,7 @@ local t =
 										PositionX = 57,
 										PositionY = -1,
 									},
-									width = "90",
+									width = "111",
 									ZOrder = "1",
 								},
 							},
@@ -860,15 +861,15 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "27",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "Label_max",
 							nTextAlign = "1",
 							nTextHAlign = "1",
@@ -876,7 +877,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "ชื่อของสปิริต",
+							text = "Spirit Name",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -884,7 +885,7 @@ local t =
 								PositionX = 786,
 								PositionY = 209,
 							},
-							width = "90",
+							width = "111",
 							ZOrder = "1",
 						},
 						{
@@ -952,7 +953,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFFFFF",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -977,7 +978,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "ป้ายข้อความ",
+									text = "TextLable",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1266,7 +1267,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "lv 30",
+									text = "Lv.30",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1274,7 +1275,7 @@ local t =
 										PositionX = 89,
 										PositionY = 14,
 									},
-									width = "45",
+									width = "50",
 									ZOrder = "1",
 								},
 								{

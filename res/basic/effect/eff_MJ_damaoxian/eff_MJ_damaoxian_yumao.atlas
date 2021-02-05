@@ -1,13 +1,13 @@
 
 eff_MJ_damaoxian_yumao.png
-size: 64,64
+size: 128,128
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 yumao
   rotate: false
-  xy: 2, 8
-  size: 57, 51
-  orig: 57, 51
+  xy: 2, 10
+  size: 76, 68
+  orig: 76, 68
   offset: 0, 0
   index: -1

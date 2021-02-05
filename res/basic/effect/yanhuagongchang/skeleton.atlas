@@ -4,261 +4,219 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+effect/de
+  rotate: false
+  xy: 342, 795
+  size: 243, 95
+  orig: 243, 95
+  offset: 0, 0
+  index: -1
+effect/en
+  rotate: false
+  xy: 2, 2
+  size: 229, 88
+  orig: 229, 88
+  offset: 0, 0
+  index: -1
+effect/es
+  rotate: true
+  xy: 196, 393
+  size: 258, 88
+  orig: 258, 88
+  offset: 0, 0
+  index: -1
+effect/fr
+  rotate: false
+  xy: 630, 923
+  size: 267, 95
+  orig: 267, 95
+  offset: 0, 0
+  index: -1
 effect/glow3_000
   rotate: false
-  xy: 2, 641
+  xy: 2, 653
   size: 247, 193
   orig: 250, 193
   offset: 3, 0
   index: -1
 effect/glow4_000
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 480, 410
   size: 196, 76
   orig: 216, 80
   offset: 13, 0
   index: -1
-effect/liuguang1/liuguang1_001
-  rotate: false
-  xy: 342, 842
-  size: 34, 36
-  orig: 149, 183
-  offset: 18, 137
-  index: -1
-effect/liuguang1/liuguang1_003
+effect/id
   rotate: true
-  xy: 923, 701
-  size: 61, 69
-  orig: 149, 183
-  offset: 5, 114
-  index: -1
-effect/liuguang1/liuguang1_005
-  rotate: false
-  xy: 814, 361
-  size: 70, 89
-  orig: 149, 183
-  offset: 1, 94
-  index: -1
-effect/liuguang1/liuguang1_007
-  rotate: false
-  xy: 603, 330
-  size: 73, 110
-  orig: 149, 183
-  offset: 0, 73
-  index: -1
-effect/liuguang1/liuguang1_009
-  rotate: true
-  xy: 677, 442
-  size: 76, 130
-  orig: 149, 183
-  offset: 0, 53
-  index: -1
-effect/liuguang1/liuguang1_011
-  rotate: true
-  xy: 452, 331
-  size: 109, 149
-  orig: 149, 183
-  offset: 0, 34
-  index: -1
-effect/liuguang1/liuguang1_013
-  rotate: true
-  xy: 276, 310
-  size: 140, 174
-  orig: 149, 183
-  offset: 0, 9
-  index: -1
-effect/liuguang1/liuguang1_015
-  rotate: true
-  xy: 625, 694
-  size: 148, 182
-  orig: 149, 183
-  offset: 0, 1
-  index: -1
-effect/liuguang1/liuguang1_017
-  rotate: false
-  xy: 641, 520
-  size: 149, 172
-  orig: 149, 183
+  xy: 251, 665
+  size: 181, 87
+  orig: 181, 87
   offset: 0, 0
   index: -1
-effect/liuguang1/liuguang1_019
-  rotate: true
-  xy: 273, 160
-  size: 148, 151
-  orig: 149, 183
-  offset: 1, 0
-  index: -1
-effect/liuguang1/liuguang1_021
+effect/ko
   rotate: false
-  xy: 876, 876
-  size: 143, 130
-  orig: 149, 183
-  offset: 6, 0
-  index: -1
-effect/liuguang1/liuguang1_023
-  rotate: false
-  xy: 678, 332
-  size: 134, 108
-  orig: 149, 183
-  offset: 15, 0
-  index: -1
-effect/liuguang1/liuguang1_025
-  rotate: true
-  xy: 923, 764
-  size: 110, 89
-  orig: 149, 183
-  offset: 39, 0
-  index: -1
-effect/liuguang1/liuguang1_027
-  rotate: true
-  xy: 200, 18
-  size: 69, 64
-  orig: 149, 183
-  offset: 77, 3
+  xy: 288, 102
+  size: 186, 50
+  orig: 186, 50
+  offset: 0, 0
   index: -1
 effect/lizi3/lizi3_000
   rotate: false
-  xy: 2, 454
+  xy: 2, 466
   size: 192, 185
   orig: 192, 185
   offset: 0, 0
   index: -1
 effect/lizi3/lizi3_001
   rotate: false
-  xy: 2, 267
+  xy: 2, 279
   size: 192, 185
   orig: 192, 185
   offset: 0, 0
   index: -1
 effect/lizi3/lizi3_002
   rotate: false
-  xy: 2, 80
+  xy: 2, 92
   size: 192, 185
   orig: 192, 185
   offset: 0, 0
   index: -1
 effect/lizi3/lizi3_003
-  rotate: true
-  xy: 251, 642
+  rotate: false
+  xy: 340, 608
   size: 192, 185
   orig: 192, 185
   offset: 0, 0
   index: -1
 effect/lizi3/lizi3_005
-  rotate: true
-  xy: 438, 686
+  rotate: false
+  xy: 286, 421
   size: 192, 185
   orig: 192, 185
   offset: 0, 0
   index: -1
 effect/lizi3/lizi3_007
-  rotate: true
-  xy: 276, 452
+  rotate: false
+  xy: 288, 234
   size: 188, 185
   orig: 192, 185
   offset: 4, 0
   index: -1
 effect/lizi3/lizi3_009
   rotate: false
-  xy: 463, 508
+  xy: 534, 617
   size: 176, 176
   orig: 192, 185
   offset: 12, 3
   index: -1
 effect/lizi3/lizi3_011
   rotate: false
-  xy: 809, 728
+  xy: 712, 679
   size: 112, 114
   orig: 192, 185
   offset: 47, 37
   index: -1
 effect/lizi3/lizi3_013
   rotate: true
-  xy: 268, 45
+  xy: 899, 905
   size: 113, 115
   orig: 192, 185
   offset: 47, 36
   index: -1
 effect/lizi3/lizi3_015
   rotate: false
-  xy: 385, 45
+  xy: 550, 282
   size: 112, 113
   orig: 192, 185
   offset: 47, 37
   index: -1
 effect/lizi3/lizi3_017
   rotate: false
-  xy: 809, 620
+  xy: 518, 174
   size: 109, 106
   orig: 192, 185
   offset: 48, 43
   index: -1
 effect/lizi3/lizi3_019
-  rotate: false
-  xy: 792, 535
+  rotate: true
+  xy: 629, 173
   size: 107, 83
   orig: 192, 185
   offset: 48, 47
   index: -1
 effect/lizi3/lizi3_021
-  rotate: false
-  xy: 809, 452
+  rotate: true
+  xy: 664, 296
   size: 105, 81
   orig: 192, 185
   offset: 49, 48
   index: -1
 effect/lizi3/lizi3_023
   rotate: true
-  xy: 196, 89
+  xy: 478, 315
   size: 93, 70
   orig: 192, 185
   offset: 57, 52
   index: -1
+effect/th
+  rotate: true
+  xy: 696, 404
+  size: 211, 53
+  orig: 211, 53
+  offset: 0, 0
+  index: -1
+effect/zh
+  rotate: false
+  xy: 587, 795
+  size: 166, 49
+  orig: 166, 49
+  offset: 0, 0
+  index: -1
 effect/ziti/ziti_005
   rotate: false
-  xy: 2, 836
+  xy: 2, 848
   size: 338, 170
   orig: 338, 170
   offset: 0, 0
   index: -1
 effect/ziti/ziti_006
   rotate: false
-  xy: 342, 880
+  xy: 342, 892
   size: 286, 126
   orig: 338, 170
   offset: 33, 3
   index: -1
 effect/ziti/ziti_007
-  rotate: false
-  xy: 630, 916
+  rotate: true
+  xy: 196, 147
   size: 244, 90
   orig: 338, 170
   offset: 54, 18
   index: -1
 effect/ziti/ziti_008
-  rotate: true
-  xy: 196, 411
+  rotate: false
+  xy: 288, 154
   size: 228, 78
   orig: 338, 170
   offset: 62, 23
   index: -1
 effect/ziti/ziti_009
-  rotate: true
-  xy: 196, 184
+  rotate: false
+  xy: 630, 846
   size: 225, 75
   orig: 338, 170
   offset: 63, 25
   index: -1
 effect/ziti/ziti_010
-  rotate: false
-  xy: 630, 844
+  rotate: true
+  xy: 558, 397
   size: 218, 70
   orig: 338, 170
   offset: 67, 27
   index: -1
 effect/ziti/ziti_011
-  rotate: false
-  xy: 463, 442
+  rotate: true
+  xy: 630, 403
   size: 212, 64
   orig: 338, 170
   offset: 70, 30

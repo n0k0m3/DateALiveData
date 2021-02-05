@@ -373,14 +373,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "28",
+							fontSize = "22",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "25",
 							ignoreSize = "True",
 							name = "label_title",
 							nTextAlign = "0",
@@ -397,7 +397,7 @@ local t =
 								PositionX = 394,
 								PositionY = 538,
 							},
-							width = "141",
+							width = "233",
 							ZOrder = "1",
 						},
 						{
@@ -446,7 +446,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -696,7 +696,7 @@ local t =
 									{
 										
 									},
-									width = "58",
+									width = "31",
 									ZOrder = "1",
 								},
 							},
@@ -753,15 +753,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "btn_label",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -776,7 +776,7 @@ local t =
 									{
 										
 									},
-									width = "57",
+									width = "120",
 									ZOrder = "1",
 								},
 							},

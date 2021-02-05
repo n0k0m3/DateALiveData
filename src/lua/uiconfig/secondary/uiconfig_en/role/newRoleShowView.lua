@@ -553,7 +553,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 31.13,
 																	},
-																	width = "31",
+																	width = "33",
 																	ZOrder = "1",
 																},
 															},
@@ -602,7 +602,7 @@ local t =
 																IsPercent = true,
 																PercentX = 50,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -708,7 +708,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 34.9,
 																	},
-																	width = "71",
+																	width = "72",
 																	ZOrder = "1",
 																},
 															},
@@ -757,7 +757,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -863,7 +863,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 33.01,
 																	},
-																	width = "66",
+																	width = "65",
 																	ZOrder = "1",
 																},
 															},
@@ -912,7 +912,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -1018,7 +1018,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 33.01,
 																	},
-																	width = "63",
+																	width = "62",
 																	ZOrder = "1",
 																},
 															},
@@ -1067,7 +1067,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -1173,7 +1173,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 31.13,
 																	},
-																	width = "51",
+																	width = "55",
 																	ZOrder = "1",
 																},
 															},
@@ -1222,7 +1222,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -1331,7 +1331,7 @@ local t =
 																		PercentX = 206.13,
 																		PercentY = -2.56,
 																	},
-																	width = "180",
+																	width = "175",
 																	ZOrder = "1",
 																},
 																{
@@ -1381,7 +1381,7 @@ local t =
 																		PercentY = -33.33,
 																	},
 																	visible = "False",
-																	width = "108",
+																	width = "103",
 																	ZOrder = "1",
 																},
 															},
@@ -1534,7 +1534,7 @@ local t =
 													{
 														PositionX = 20,
 													},
-													width = "80",
+													width = "79",
 													ZOrder = "1",
 												},
 											},
@@ -1691,7 +1691,7 @@ local t =
 													{
 														
 													},
-													width = "71",
+													width = "73",
 													ZOrder = "1",
 												},
 											},
@@ -1808,7 +1808,7 @@ local t =
 													{
 														
 													},
-													width = "131",
+													width = "130",
 													ZOrder = "1",
 												},
 												{
@@ -2189,7 +2189,7 @@ local t =
 													{
 														
 													},
-													width = "87",
+													width = "92",
 													ZOrder = "1",
 												},
 											},
@@ -2471,7 +2471,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_t",
 											nTextAlign = "1",
@@ -2487,7 +2487,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "88",
+											width = "94",
 											ZOrder = "1",
 										},
 										{
@@ -2543,7 +2543,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "29",
+													height = "28",
 													ignoreSize = "True",
 													name = "Label_t",
 													nTextAlign = "1",
@@ -2559,7 +2559,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "88",
+													width = "94",
 													ZOrder = "1",
 												},
 											},
@@ -2624,7 +2624,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_t",
 											nTextAlign = "1",
@@ -2640,7 +2640,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "53",
+											width = "55",
 											ZOrder = "1",
 										},
 										{
@@ -2696,7 +2696,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "29",
+													height = "28",
 													ignoreSize = "True",
 													name = "Label_t",
 													nTextAlign = "1",
@@ -2712,7 +2712,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "53",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -2777,7 +2777,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_t",
 											nTextAlign = "1",
@@ -2793,7 +2793,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "80",
+											width = "85",
 											ZOrder = "1",
 										},
 										{
@@ -2849,7 +2849,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "29",
+													height = "28",
 													ignoreSize = "True",
 													name = "Label_t",
 													nTextAlign = "1",
@@ -2865,7 +2865,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "80",
+													width = "85",
 													ZOrder = "1",
 												},
 											},
@@ -2939,7 +2939,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Clothing settings",
+											text = "Setting",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -3011,7 +3011,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Clothing settings",
+													text = "Setting",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -3161,7 +3161,7 @@ local t =
 													{
 														PositionX = 30,
 													},
-													width = "31",
+													width = "35",
 													ZOrder = "1",
 												},
 											},
@@ -3235,7 +3235,7 @@ local t =
 													{
 														PositionX = 30,
 													},
-													width = "25",
+													width = "24",
 													ZOrder = "1",
 												},
 											},
@@ -3268,7 +3268,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "41",
+									height = "39",
 									ignoreSize = "True",
 									name = "Label_role_name",
 									nTextAlign = "0",
@@ -3285,7 +3285,7 @@ local t =
 										PositionX = 111,
 										PositionY = 557,
 									},
-									width = "281",
+									width = "290",
 									ZOrder = "1",
 								},
 								{
@@ -3331,7 +3331,7 @@ local t =
 										PositionX = 113,
 										PositionY = 503,
 									},
-									width = "57",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -3377,7 +3377,7 @@ local t =
 										PositionX = 113,
 										PositionY = 483,
 									},
-									width = "57",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -3552,7 +3552,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "70",
+							height = "100",
 							ignoreSize = "False",
 							name = "Panel_unInfoItem",
 							panelTexturePath = "ui/role/newRoleShow/BG1.png",
@@ -3645,7 +3645,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "14",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -3667,7 +3667,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 12,
-										PositionY = 35,
+										PositionY = 50,
 										IsPercent = true,
 										PercentX = 2.78,
 										PercentY = 50,
@@ -3701,7 +3701,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 404,
-										PositionY = 35,
+										PositionY = 50,
 										IsPercent = true,
 										PercentX = 92.87,
 										PercentY = 50,
@@ -3828,14 +3828,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_unLockT",
 											nTextAlign = "0",
@@ -3855,7 +3855,7 @@ local t =
 												PercentX = 66.67,
 												PercentY = 72.86,
 											},
-											width = "49",
+											width = "39",
 											ZOrder = "1",
 										},
 										{
@@ -3901,7 +3901,7 @@ local t =
 												PositionX = 80,
 												PositionY = 18,
 											},
-											width = "36",
+											width = "37",
 											ZOrder = "1",
 										},
 									},
@@ -4177,7 +4177,7 @@ local t =
 													{
 														
 													},
-													width = "62",
+													width = "61",
 													ZOrder = "1",
 												},
 											},
@@ -4356,7 +4356,7 @@ local t =
 														StrokeColor = "#FF4E5CB1",
 														StrokeSize = 1,
 													},
-													height = "28",
+													height = "27",
 													ignoreSize = "True",
 													name = "Label_use",
 													nTextAlign = "1",
@@ -4372,7 +4372,7 @@ local t =
 													{
 														
 													},
-													width = "96",
+													width = "104",
 													ZOrder = "1",
 												},
 											},
@@ -5064,7 +5064,7 @@ local t =
 													{
 														PositionX = 8,
 													},
-													width = "116",
+													width = "112",
 													ZOrder = "1",
 												},
 											},
@@ -5306,7 +5306,7 @@ local t =
 															{
 																PositionX = 18,
 															},
-															width = "88",
+															width = "87",
 															ZOrder = "1",
 														},
 														{
@@ -5516,7 +5516,7 @@ local t =
 													{
 														PositionX = 8,
 													},
-													width = "116",
+													width = "112",
 													ZOrder = "1",
 												},
 											},
@@ -5564,7 +5564,7 @@ local t =
 												PositionX = 3,
 												PositionY = 234,
 											},
-											width = "155",
+											width = "150",
 											ZOrder = "1",
 										},
 									},

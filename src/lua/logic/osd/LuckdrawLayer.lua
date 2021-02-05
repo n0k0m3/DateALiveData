@@ -457,7 +457,14 @@ function LuckdrawLayer:registerEvents()
                 else
                     local rstr = TextDataMgr:getTextAttr(303002 + i -1)
                     local formatStr = rstr and rstr.text or ""
-                    local content = string.format(formatStr, cost.num, TabDataMgr:getData("Item", cost.id).icon)
+                    local code = TFLanguageMgr:getUsingLanguage()
+                    local content
+                    if (code == cc.KOREAN) then
+                        content = string.format(formatStr, TabDataMgr:getData("Item", cost.id).icon ,cost.num)
+                    else
+                        content = string.format(formatStr, cost.num, TabDataMgr:getData("Item", cost.id).icon)
+                    end
+                    
                     local tipsId
                     local activeCnt = 0
                     local randomTarget = SummonDataMgr:getTargetCombination()

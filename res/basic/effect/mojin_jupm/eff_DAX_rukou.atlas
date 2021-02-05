@@ -4,24 +4,80 @@ size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+de
+  rotate: false
+  xy: 236, 474
+  size: 200, 36
+  orig: 200, 36
+  offset: 0, 0
+  index: -1
+en
+  rotate: false
+  xy: 236, 394
+  size: 118, 36
+  orig: 118, 36
+  offset: 0, 0
+  index: -1
+es
+  rotate: true
+  xy: 163, 125
+  size: 152, 40
+  orig: 152, 40
+  offset: 0, 0
+  index: -1
+fr
+  rotate: false
+  xy: 236, 432
+  size: 145, 40
+  orig: 145, 40
+  offset: 0, 0
+  index: -1
+id
+  rotate: false
+  xy: 2, 75
+  size: 157, 40
+  orig: 157, 40
+  offset: 0, 0
+  index: -1
+ko
+  rotate: false
+  xy: 236, 301
+  size: 74, 52
+  orig: 74, 52
+  offset: 0, 0
+  index: -1
+th
+  rotate: false
+  xy: 236, 355
+  size: 90, 37
+  orig: 90, 37
+  offset: 0, 0
+  index: -1
 waifazhen
   rotate: false
-  xy: 2, 124
-  size: 174, 173
-  orig: 174, 173
+  xy: 2, 279
+  size: 232, 231
+  orig: 232, 231
+  offset: 0, 0
+  index: -1
+zh
+  rotate: true
+  xy: 2, 2
+  size: 71, 55
+  orig: 71, 55
   offset: 0, 0
   index: -1
 zhongjinfazhen
   rotate: false
-  xy: 2, 2
-  size: 119, 120
-  orig: 119, 120
+  xy: 2, 117
+  size: 159, 160
+  orig: 159, 160
   offset: 0, 0
   index: -1
-zi
-  rotate: false
-  xy: 178, 253
-  size: 87, 44
-  orig: 90, 45
-  offset: 3, 1
+zn
+  rotate: true
+  xy: 59, 2
+  size: 71, 53
+  orig: 71, 53
+  offset: 0, 0
   index: -1

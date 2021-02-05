@@ -3255,7 +3255,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_refresh",
 											nTextAlign = "1",
@@ -3271,7 +3271,7 @@ local t =
 											{
 												PositionX = 49,
 											},
-											width = "97",
+											width = "74",
 											ZOrder = "1",
 										},
 										{

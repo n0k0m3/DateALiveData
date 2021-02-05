@@ -158,14 +158,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -180,9 +180,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -254,
-										PositionY = 131,
+										PositionY = 132,
 									},
-									width = "116",
+									width = "258",
 									ZOrder = "1",
 								},
 								{
@@ -259,7 +259,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "55",
+											width = "113",
 											ZOrder = "1",
 										},
 									},
@@ -283,7 +283,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -414,7 +414,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "54",
+											width = "88",
 											ZOrder = "1",
 										},
 									},

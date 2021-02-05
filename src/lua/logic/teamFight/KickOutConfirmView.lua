@@ -18,7 +18,7 @@ function KickOutConfirmView:initUI(ui)
     local Label_title = TFDirector:getChildByPath(self.panel_root, "Label_title")
     Label_title:setTextById(2100061)
     Label_title:getChildByName("Label_pad_title"):hide()
-    Label_teamRoomView_1:getChildByName("Label_teamRoomView_1"):hide()
+    Label_title:getChildByName("Label_teamRoomView_1"):hide()
 end
 
 function KickOutConfirmView:AfterkickOut()

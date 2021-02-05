@@ -114,7 +114,7 @@ function DuanwuSubmitView:updateSubmitItem(index)
     local isEnabled = count > 0
     foo.Button_submit:setVisible(progressInfo.status ~= EC_TaskStatus.GETED and isEnabled)
     foo.Button_submit:setTouchEnabled(isEnabled)
-    foo.img_resNoEnough:setVisible(not isEnabled)
+    foo.img_resNoEnough:setVisible(not isEnabled and progressInfo.status ~= EC_TaskStatus.GETED)
     foo.Button_down:setTouchEnabled(isEnabled)
     foo.Button_down:setGrayEnabled(not isEnabled)
     foo.Button_up:setTouchEnabled(isEnabled)

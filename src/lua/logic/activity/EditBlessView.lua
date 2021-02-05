@@ -1,12 +1,21 @@
 --
 
 local EditBlessView = class("EditBlessView", BaseLayer)
+
+
 local INPUT_LEN = 20
 
 function EditBlessView:initData(friendId)
     self.friendId = friendId
     self.sendText = ""
     self.blessWords = TabDataMgr:getData("DiscreteData",48002).data.blessWords
+
+    local code = TFLanguageMgr:getUsingLanguage()
+    if (code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE) then
+        INPUT_LEN = 20
+    else
+        INPUT_LEN = 100
+    end
 end
 
 function EditBlessView:ctor(...)
@@ -32,6 +41,9 @@ function EditBlessView:initUI(ui)
     self.inputLayer = require("lua.logic.common.InputLayer"):new(params)
     self:addLayer(self.inputLayer,1000)
 
+    self.Label_notes = TFDirector:getChildByPath(ui , "Label_notes")
+    local lastStr = self.Label_notes:getText()
+    self.Label_notes:setText(string.gsub(lastStr , 20 , INPUT_LEN))
 end
 
 function EditBlessView:onTouchSendBtn()
@@ -70,7 +82,7 @@ function EditBlessView:registerEvents()
             Utils:showTips(800104)
         else
             FriendDataMgr:send_SPRING_WISH_REQ_SEND_SPRING_WISH(self.friendId, self._ui.Label_modifyName:getText())
-            AlertManager:closeLayer(self)
+            self._ui.Button_ok:setTouchEnabled(false)
         end
     end)
 
@@ -112,6 +124,7 @@ function EditBlessView:onRecvIsSucces(data)
         -- Utils:showTips( word..":是屏蔽词无法发送!")
         Utils:showTips(12103028)
     end
+    AlertManager:closeLayer(self)
 end
 
 return EditBlessView

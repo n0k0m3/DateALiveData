@@ -115,7 +115,7 @@ local t =
 							controlID = "downcount_Panel_root_Panel-concoctDrinks_springFestival_activity_Game",
 							UUID = "76c95cd6_b10b_40b0_bf3d_c67e6433a0d8",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
+							anchorPointX = "1",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -137,7 +137,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "25",
+							height = "23",
 							ignoreSize = "True",
 							name = "downcount",
 							nTextAlign = "1",
@@ -146,15 +146,15 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "카운트 다운",
+							text = "Countdown",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 478,
+								PositionX = 539,
 								PositionY = 58,
 							},
-							width = "64",
+							width = "123",
 							ZOrder = "1",
 						},
 						{
@@ -417,14 +417,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "label",
 													nTextAlign = "1",
@@ -433,14 +433,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "卡布奇洛",
+													text = "Capuccilo",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = 5,
 													},
-													width = "98",
+													width = "85",
 													ZOrder = "1",
 												},
 											},
@@ -655,7 +655,6 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "0",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -760,7 +759,6 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "0",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -868,7 +866,6 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "0",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -973,7 +970,6 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "0",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1048,7 +1044,6 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "0",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1153,7 +1148,6 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "0",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1228,7 +1222,6 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "0",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1333,7 +1326,6 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "0",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1451,7 +1443,7 @@ local t =
 									anchorPointY = "0.5",
 									classname = "METextArea",
 									dstBlendFunc = "771",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -1460,7 +1452,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "17",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1468,14 +1460,14 @@ local t =
 										StrokeSize = 1,
 									},
 									hAlignment = "0",
-									height = "70",
+									height = "0",
 									ignoreSize = "False",
 									name = "text",
 									sizepercentx = "34",
 									sizepercenty = "21",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "我想要一杯卡布奇洛,你能给我调饮料吗",
+									text = "TextArea",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1484,7 +1476,7 @@ local t =
 										PositionY = 52,
 									},
 									vAlignment = "0",
-									width = "230",
+									width = "250",
 									ZOrder = "1",
 								},
 								{
@@ -1608,7 +1600,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FF223678",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -1617,7 +1609,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1625,7 +1617,7 @@ local t =
 										StrokeSize = 1,
 									},
 									height = "0",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "targetDrinkName",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1633,14 +1625,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "0",
+									text = "aaaaaaaaa",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -52,
 									},
-									width = "0",
+									width = "130",
 									ZOrder = "1",
 								},
 							},

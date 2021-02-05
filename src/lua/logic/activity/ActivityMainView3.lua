@@ -66,6 +66,7 @@ end
 
 Panel_activityItem.setTabBtnIcon = function (self,activity)
     local tabIcon = tabBtnIcon[activity.activityType]
+    print(tabIcon , "444444")
     if tabIcon then
         self.ImageSelect:setTexture(tabIcon.selected)
         self.ImageNormal:setTexture(tabIcon.normal)

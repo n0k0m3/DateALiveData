@@ -64,15 +64,15 @@ local t =
 						OffsetX = 0,
 						OffsetY = 0,
 					},
-					fontSize = "26",
+					fontSize = "24",
 					fontStroke = 
 					{
 						IsStroke = true,
 						StrokeColor = "#FF000000",
 						StrokeSize = 1,
 					},
-					height = "34",
-					ignoreSize = "True",
+					height = "0",
+					ignoreSize = "False",
 					name = "Label_text",
 					nTextAlign = "1",
 					nTextHAlign = "1",
@@ -87,7 +87,7 @@ local t =
 					{
 						
 					},
-					width = "144",
+					width = "500",
 					ZOrder = "1",
 				},
 			},

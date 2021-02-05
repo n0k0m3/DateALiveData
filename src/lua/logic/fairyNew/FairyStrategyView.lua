@@ -262,9 +262,17 @@ function FairyStrategyView:fairySkillInfo()
 		local skillInfo = self.skillCfg[skillId]
 		if not skillInfo then
 			self.groupSkill[i].root:setVisible(false)
+			local lastImageArrow = self.groupSkill[i-1].root:getChildByName("Image_arrow")
+			if lastImageArrow then
+				lastImageArrow:hide()
+			end
 		else
 			self.groupSkill[i].root:setVisible(true)
 			self.groupSkill[i].skillIcon:setTexture(skillInfo.icon)
+			local lastImageArrow = self.groupSkill[i].root:getChildByName("Image_arrow")
+			if lastImageArrow then
+				lastImageArrow:show()
+			end
 		end
 	end
 	self.ListView:pushBackCustomItem(self.Panel_fairy_skill)

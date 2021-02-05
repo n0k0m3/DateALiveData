@@ -47,7 +47,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n完成D级或D级以上符石挑战1次",
+        des2 = "开始进行检索……\n190000170",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -418,7 +418,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n通关1次普通难度副本或剧场副本",
+        des2 = "开始进行检索……\n12100018或剧场副本",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -526,7 +526,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n完成1次手工",
+        des2 = "开始进行检索……\n12100019",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -712,7 +712,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n通关1次困难难度副本",
+        des2 = "开始进行检索……\n12100020",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -784,7 +784,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n赠送1次礼物",
+        des2 = "开始进行检索……\n12100021",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -970,7 +970,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n通关1次地狱难度副本",
+        des2 = "开始进行检索……\n12100022",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -1564,7 +1564,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n使用夏拉姆转盘1次",
+        des2 = "开始进行检索……\n190000386",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -2080,7 +2080,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n领取1次打工奖励",
+        des2 = "开始进行检索……\n266219",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -2667,7 +2667,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n通关1次普通难度副本或剧场副本",
+        des2 = "开始进行检索……\n12100018或剧场副本",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -2961,7 +2961,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n完成1次手工",
+        des2 = "开始进行检索……\n12100019",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -3255,7 +3255,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n通关1次困难难度副本",
+        des2 = "开始进行检索……\n12100020",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -3330,7 +3330,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "领取1次打工奖励",
+        des2 = "266219",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -3547,7 +3547,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n赠送1次礼物",
+        des2 = "开始进行检索……\n12100021",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -3694,7 +3694,7 @@ return {
         relation = {
             [1] = 1008,
         },
-        des2 = "领取1次打工奖励",
+        des2 = "266219",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -3710,7 +3710,7 @@ return {
         id = 135001,
         progress = 1,
         open = 1,
-        des = "新春委托",
+        des = "190000680",
         type = 5,
         endingList = {
         },
@@ -3838,7 +3838,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n通关1次地狱难度副本",
+        des2 = "开始进行检索……\n12100022",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -3910,7 +3910,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "通关1次普通难度副本",
+        des2 = "12100018",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -3998,7 +3998,7 @@ return {
         id = 135002,
         progress = 1,
         open = 1,
-        des = "新春攻略",
+        des = "190000681",
         type = 5,
         endingList = {
         },
@@ -4199,7 +4199,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "完成1次手工",
+        des2 = "12100019",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -4271,7 +4271,7 @@ return {
         relation = {
             [1] = 1008,
         },
-        des2 = "通关1次普通难度副本",
+        des2 = "12100018",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -4287,7 +4287,7 @@ return {
         id = 135003,
         progress = 1,
         open = 1,
-        des = "新春委托",
+        des = "190000680",
         type = 5,
         endingList = {
         },
@@ -4487,7 +4487,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "通关1次困难难度副本",
+        des2 = "12100020",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -4559,7 +4559,7 @@ return {
         relation = {
             [1] = 1008,
         },
-        des2 = "完成1次手工",
+        des2 = "12100019",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -4575,7 +4575,7 @@ return {
         id = 135004,
         progress = 1,
         open = 1,
-        des = "新春攻略",
+        des = "190000681",
         type = 5,
         endingList = {
         },
@@ -4704,7 +4704,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n使用夏拉姆转盘1次",
+        des2 = "开始进行检索……\n190000386",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -4776,7 +4776,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "赠送1次礼物",
+        des2 = "12100021",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -4848,7 +4848,7 @@ return {
         relation = {
             [1] = 1008,
         },
-        des2 = "通关1次困难难度副本",
+        des2 = "12100020",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -4864,7 +4864,7 @@ return {
         id = 135005,
         progress = 1,
         open = 1,
-        des = "新春委托",
+        des = "190000680",
         type = 5,
         endingList = {
         },
@@ -4956,7 +4956,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n领取1次打工奖励",
+        des2 = "开始进行检索……\n266219",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -4992,7 +4992,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n完成D级或D级以上符石挑战1次",
+        des2 = "开始进行检索……\n190000170",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -5138,7 +5138,7 @@ return {
         relation = {
             [1] = 1008,
         },
-        des2 = "赠送1次礼物",
+        des2 = "12100021",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -5154,7 +5154,7 @@ return {
         id = 135006,
         progress = 1,
         open = 1,
-        des = "新春攻略",
+        des = "190000681",
         type = 5,
         endingList = {
         },
@@ -5283,7 +5283,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n领取1次打工奖励",
+        des2 = "开始进行检索……\n266219",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -5355,7 +5355,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "完成任意1次日常约会",
+        des2 = "190000169",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -5427,7 +5427,7 @@ return {
         relation = {
             [1] = 1008,
         },
-        des2 = "通关1次地狱难度副本",
+        des2 = "12100022",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -5443,7 +5443,7 @@ return {
         id = 135007,
         progress = 1,
         open = 1,
-        des = "新春委托",
+        des = "190000680",
         type = 5,
         endingList = {
         },
@@ -5535,7 +5535,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n通关1次普通难度副本或剧场副本",
+        des2 = "开始进行检索……\n12100018或剧场副本",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -5719,7 +5719,7 @@ return {
         relation = {
             [1] = 1008,
         },
-        des2 = "完成任意1次日常约会",
+        des2 = "190000169",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -5735,7 +5735,7 @@ return {
         id = 135008,
         progress = 1,
         open = 1,
-        des = "新春攻略",
+        des = "190000681",
         type = 5,
         endingList = {
         },
@@ -5828,7 +5828,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n完成1次手工",
+        des2 = "开始进行检索……\n12100019",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -5864,7 +5864,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n通关1次普通难度副本或剧场副本",
+        des2 = "开始进行检索……\n12100018或剧场副本",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -5936,7 +5936,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "使用夏拉姆转盘1次",
+        des2 = "190000386",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -5972,7 +5972,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n使用夏拉姆转盘1次",
+        des2 = "开始进行检索……\n190000386",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6008,7 +6008,7 @@ return {
         relation = {
             [1] = 1008,
         },
-        des2 = "通关组队副本1次",
+        des2 = "12100024",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6024,7 +6024,7 @@ return {
         id = 135009,
         progress = 1,
         open = 1,
-        des = "新春委托",
+        des = "190000680",
         type = 5,
         endingList = {
         },
@@ -6044,7 +6044,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "完成D级或D级以上符石挑战1次",
+        des2 = "190000170",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6080,7 +6080,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "通关组队副本1次",
+        des2 = "12100024",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6116,7 +6116,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n通关1次困难难度副本",
+        des2 = "开始进行检索……\n12100020",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6264,7 +6264,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "通关1次地狱难度副本",
+        des2 = "12100022",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6300,7 +6300,7 @@ return {
         relation = {
             [1] = 1008,
         },
-        des2 = "使用夏拉姆转盘1次",
+        des2 = "190000386",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6316,7 +6316,7 @@ return {
         id = 135010,
         progress = 1,
         open = 1,
-        des = "新春委托",
+        des = "190000680",
         type = 5,
         endingList = {
         },
@@ -6412,7 +6412,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n赠送1次礼物",
+        des2 = "开始进行检索……\n12100021",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6448,7 +6448,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n通关1次困难难度副本",
+        des2 = "开始进行检索……\n12100020",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6520,7 +6520,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "完成B级或B级以上符石挑战1次",
+        des2 = "190000171",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6556,7 +6556,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n使用夏拉姆转盘1次",
+        des2 = "开始进行检索……\n190000386",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6592,7 +6592,7 @@ return {
         relation = {
             [1] = 1008,
         },
-        des2 = "完成D级或D级以上符石挑战1次",
+        des2 = "190000170",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6608,7 +6608,7 @@ return {
         id = 135011,
         progress = 1,
         open = 1,
-        des = "新春委托",
+        des = "190000680",
         type = 5,
         endingList = {
         },
@@ -6702,7 +6702,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n通关1次地狱难度副本",
+        des2 = "开始进行检索……\n12100022",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6850,7 +6850,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n赠送1次礼物",
+        des2 = "开始进行检索……\n12100021",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6886,7 +6886,7 @@ return {
         relation = {
             [1] = 1008,
         },
-        des2 = "完成B级或B级以上符石挑战1次",
+        des2 = "190000171",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -6902,7 +6902,7 @@ return {
         id = 135012,
         progress = 1,
         open = 1,
-        des = "新春委托",
+        des = "190000680",
         type = 5,
         endingList = {
         },
@@ -6959,7 +6959,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n完成1次手工",
+        des2 = "开始进行检索……\n12100019",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -7031,7 +7031,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n通关1次地狱难度副本",
+        des2 = "开始进行检索……\n12100022",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -7541,7 +7541,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n完成D级或D级以上符石挑战1次",
+        des2 = "开始进行检索……\n190000170",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -7795,7 +7795,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n领取1次打工奖励",
+        des2 = "开始进行检索……\n266219",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -7867,7 +7867,7 @@ return {
         relation = {
             [1] = 1011,
         },
-        des2 = "开始进行检索……\n完成D级或D级以上符石挑战1次",
+        des2 = "开始进行检索……\n190000170",
         resetType = 1,
         consume = 0,
         nextCondition = 0,

@@ -1,0 +1,606 @@
+
+effects_11601_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_L/bai_000
+  rotate: false
+  xy: 780, 762
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+effect_L/skillC/bao_up1/bao_up1_000
+  rotate: true
+  xy: 800, 449
+  size: 366, 219
+  orig: 433, 267
+  offset: 35, 22
+  index: -1
+effect_L/skillC/bao_up1/bao_up1_001
+  rotate: false
+  xy: 412, 532
+  size: 366, 238
+  orig: 433, 267
+  offset: 35, 26
+  index: -1
+effect_L/skillC/bao_up1/bao_up1_004
+  rotate: false
+  xy: 412, 772
+  size: 386, 250
+  orig: 433, 267
+  offset: 26, 1
+  index: -1
+effect_L/skillC/bao_up1/bao_up1_006
+  rotate: false
+  xy: 2, 771
+  size: 408, 251
+  orig: 433, 267
+  offset: 15, 0
+  index: -1
+effect_L/skillC/bao_up1/bao_up1_008
+  rotate: false
+  xy: 2, 505
+  size: 357, 264
+  orig: 433, 267
+  offset: 68, 1
+  index: -1
+effect_L/skillC/bao_up1/bao_up1_012
+  rotate: false
+  xy: 210, 3
+  size: 272, 205
+  orig: 433, 267
+  offset: 58, 29
+  index: -1
+effect_L/skillC/dabaoadd/add_078
+  rotate: false
+  xy: 2, 210
+  size: 344, 293
+  orig: 350, 301
+  offset: 1, 8
+  index: -1
+effect_L/skillC/dabaoadd/add_082
+  rotate: false
+  xy: 484, 285
+  size: 313, 245
+  orig: 350, 301
+  offset: 15, 43
+  index: -1
+effect_L/skillC/kuo/kuo_030
+  rotate: true
+  xy: 484, 2
+  size: 281, 163
+  orig: 282, 167
+  offset: 0, 4
+  index: -1
+effect_L/skillC/kuo_074
+  rotate: false
+  xy: 2, 2
+  size: 206, 206
+  orig: 206, 206
+  offset: 0, 0
+  index: -1
+effect_L/skillC/renwushandian/renwushandian_010
+  rotate: true
+  xy: 769, 2
+  size: 199, 95
+  orig: 199, 176
+  offset: 0, 7
+  index: -1
+effect_L/skillC/renwushandian/renwushandian_015
+  rotate: true
+  xy: 866, 4
+  size: 197, 155
+  orig: 199, 176
+  offset: 2, 16
+  index: -1
+effect_L/skillC/shandianqiuxunhuan/shandianqiu_006
+  rotate: false
+  xy: 800, 817
+  size: 220, 205
+  orig: 234, 210
+  offset: 2, 5
+  index: -1
+effect_L/skillC/shifa/shifa_011
+  rotate: false
+  xy: 348, 228
+  size: 127, 159
+  orig: 222, 270
+  offset: 55, 33
+  index: -1
+effect_L/skillC/shifa/shifa_012
+  rotate: true
+  xy: 799, 288
+  size: 159, 204
+  orig: 222, 270
+  offset: 63, 16
+  index: -1
+effect_L/skillC/shifadimian/shifadimian_022
+  rotate: false
+  xy: 348, 389
+  size: 133, 88
+  orig: 197, 141
+  offset: 30, 19
+  index: -1
+effect_L/skillC/xialuoshandian/xialuoshandian_030
+  rotate: true
+  xy: 769, 203
+  size: 80, 252
+  orig: 118, 289
+  offset: 20, 29
+  index: -1
+effect_L/skillC/xialuoshandian/xialuoshandian_032
+  rotate: false
+  xy: 649, 2
+  size: 118, 281
+  orig: 118, 289
+  offset: 0, 8
+  index: -1
+effects_H/skillB/suishandian/suishandian_002
+  rotate: true
+  xy: 361, 626
+  size: 50, 47
+  orig: 120, 120
+  offset: 20, 62
+  index: -1
+effects_H/skillB/suishandian/suishandian_006
+  rotate: true
+  xy: 361, 555
+  size: 69, 46
+  orig: 120, 120
+  offset: 15, 20
+  index: -1
+effects_H/skillB/suishandian/suishandian_012
+  rotate: false
+  xy: 361, 479
+  size: 37, 74
+  orig: 120, 120
+  offset: 78, 23
+  index: -1
+effects_H/skillB/suishandian/suishandian_014
+  rotate: true
+  xy: 361, 678
+  size: 91, 47
+  orig: 120, 120
+  offset: 11, 16
+  index: -1
+
+effects_11601_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_L/skillC/bao_up1/bao_up1_002
+  rotate: false
+  xy: 336, 759
+  size: 327, 263
+  orig: 433, 267
+  offset: 56, 1
+  index: -1
+effect_L/skillC/dabaoadd/add_074
+  rotate: false
+  xy: 2, 487
+  size: 325, 275
+  orig: 350, 301
+  offset: 10, 17
+  index: -1
+effect_L/skillC/dabaoadd/add_076
+  rotate: false
+  xy: 665, 752
+  size: 322, 270
+  orig: 350, 301
+  offset: 13, 18
+  index: -1
+effect_L/skillC/dabaoadd/add_080
+  rotate: false
+  xy: 2, 764
+  size: 332, 258
+  orig: 350, 301
+  offset: 10, 43
+  index: -1
+effect_L/skillC/dabaoadd/add_084
+  rotate: false
+  xy: 2, 240
+  size: 308, 245
+  orig: 350, 301
+  offset: 17, 43
+  index: -1
+effect_L/skillC/dabaoadd/add_086
+  rotate: false
+  xy: 388, 6
+  size: 268, 234
+  orig: 350, 301
+  offset: 52, 50
+  index: -1
+effect_L/skillC/dabaoadd/add_087
+  rotate: true
+  xy: 152, 3
+  size: 235, 234
+  orig: 350, 301
+  offset: 52, 50
+  index: -1
+effect_L/skillC/dianquan/dianquan_003
+  rotate: true
+  xy: 867, 449
+  size: 103, 97
+  orig: 104, 104
+  offset: 0, 2
+  index: -1
+effect_L/skillC/kuo/kuo_028
+  rotate: true
+  xy: 2, 2
+  size: 236, 148
+  orig: 282, 167
+  offset: 20, 3
+  index: -1
+effect_L/skillC/quan_075
+  rotate: false
+  xy: 329, 448
+  size: 316, 309
+  orig: 316, 309
+  offset: 0, 0
+  index: -1
+effect_L/skillC/renwushandian/renwushandian_021
+  rotate: true
+  xy: 647, 448
+  size: 104, 121
+  orig: 199, 176
+  offset: 46, 22
+  index: -1
+effect_L/skillC/shandianqiuxunhuan/shandianqiu_004
+  rotate: false
+  xy: 795, 40
+  size: 224, 207
+  orig: 234, 210
+  offset: 2, 2
+  index: -1
+effect_L/skillC/shandianqiuxunhuan/shandianqiu_008
+  rotate: false
+  xy: 425, 245
+  size: 218, 201
+  orig: 234, 210
+  offset: 2, 9
+  index: -1
+effect_L/skillC/shandianqiuxunhuan/shandianqiu_011
+  rotate: false
+  xy: 795, 554
+  size: 225, 196
+  orig: 234, 210
+  offset: 0, 14
+  index: -1
+effect_L/skillC/shifa/shifa_015
+  rotate: false
+  xy: 658, 3
+  size: 135, 244
+  orig: 222, 270
+  offset: 25, 18
+  index: -1
+effect_L/skillC/shifadimian/shifadimian_024
+  rotate: true
+  xy: 647, 554
+  size: 196, 135
+  orig: 197, 141
+  offset: 0, 6
+  index: -1
+effect_L/skillC/shifadimian/shifadimian_026
+  rotate: true
+  xy: 645, 249
+  size: 197, 121
+  orig: 197, 141
+  offset: 0, 1
+  index: -1
+effect_L/skillC/shifadimian/shifadimian_028
+  rotate: true
+  xy: 768, 249
+  size: 197, 113
+  orig: 197, 141
+  offset: 0, 0
+  index: -1
+effect_L/skillC/shifadimian/shifadimian_030
+  rotate: true
+  xy: 883, 250
+  size: 197, 87
+  orig: 197, 141
+  offset: 0, 0
+  index: -1
+effect_L/skillC/xialuoshandian/xialuoshandian_026
+  rotate: false
+  xy: 989, 815
+  size: 19, 207
+  orig: 118, 289
+  offset: 53, 29
+  index: -1
+effect_L/skillC/xunhuanshandian/xunhuanshandian_054
+  rotate: true
+  xy: 312, 242
+  size: 204, 111
+  orig: 214, 124
+  offset: 10, 4
+  index: -1
+effects_H/skillB/suishandian/suishandian_010
+  rotate: true
+  xy: 770, 448
+  size: 104, 95
+  orig: 120, 120
+  offset: 14, 7
+  index: -1
+
+effects_11601_skillC3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_L/glow_000
+  rotate: false
+  xy: 549, 111
+  size: 76, 76
+  orig: 80, 80
+  offset: 2, 2
+  index: -1
+effect_L/skillC/bao_up1/bao_up1_010
+  rotate: false
+  xy: 2, 790
+  size: 298, 232
+  orig: 433, 267
+  offset: 62, 3
+  index: -1
+effect_L/skillC/ci_029
+  rotate: false
+  xy: 591, 741
+  size: 213, 117
+  orig: 213, 117
+  offset: 0, 0
+  index: -1
+effect_L/skillC/dianquan/dianquan_000
+  rotate: false
+  xy: 536, 190
+  size: 86, 88
+  orig: 104, 104
+  offset: 9, 10
+  index: -1
+effect_L/skillC/dianquan/dianquan_001
+  rotate: false
+  xy: 627, 100
+  size: 96, 90
+  orig: 104, 104
+  offset: 3, 6
+  index: -1
+effect_L/skillC/dianquan/dianquan_002
+  rotate: true
+  xy: 413, 2
+  size: 100, 92
+  orig: 104, 104
+  offset: 2, 3
+  index: -1
+effect_L/skillC/dimian_029
+  rotate: false
+  xy: 302, 790
+  size: 275, 67
+  orig: 293, 83
+  offset: 11, 5
+  index: -1
+effect_L/skillC/glow_027
+  rotate: false
+  xy: 200, 40
+  size: 211, 62
+  orig: 211, 67
+  offset: 0, 0
+  index: -1
+effect_L/skillC/kuo/kuo_032
+  rotate: false
+  xy: 2, 625
+  size: 282, 163
+  orig: 282, 167
+  offset: 0, 4
+  index: -1
+effect_L/skillC/kuo/kuo_034
+  rotate: false
+  xy: 302, 859
+  size: 282, 163
+  orig: 282, 167
+  offset: 0, 4
+  index: -1
+effect_L/skillC/kuo/kuo_036
+  rotate: false
+  xy: 586, 860
+  size: 282, 162
+  orig: 282, 167
+  offset: 0, 5
+  index: -1
+effect_L/skillC/kuo/kuo_038
+  rotate: false
+  xy: 2, 460
+  size: 282, 163
+  orig: 282, 167
+  offset: 0, 4
+  index: -1
+effect_L/skillC/renwushandian/renwushandian_007
+  rotate: true
+  xy: 870, 857
+  size: 165, 121
+  orig: 199, 176
+  offset: 5, 4
+  index: -1
+effect_L/skillC/renwushandian/renwushandian_019
+  rotate: false
+  xy: 896, 605
+  size: 84, 150
+  orig: 199, 176
+  offset: 59, 21
+  index: -1
+effect_L/skillC/renwushandian/renwushandian_025
+  rotate: false
+  xy: 624, 192
+  size: 107, 102
+  orig: 199, 176
+  offset: 38, 21
+  index: -1
+effect_L/skillC/shandianqiuxunhuan/shandianqiu_002
+  rotate: false
+  xy: 286, 592
+  size: 215, 196
+  orig: 234, 210
+  offset: 5, 14
+  index: -1
+effect_L/skillC/shandianqiuxunhuan/shandianqiu_010
+  rotate: false
+  xy: 286, 399
+  size: 215, 191
+  orig: 234, 210
+  offset: 6, 14
+  index: -1
+effect_L/skillC/shifa/shifa_009
+  rotate: false
+  xy: 733, 189
+  size: 53, 105
+  orig: 222, 270
+  offset: 77, 54
+  index: -1
+effect_L/skillC/shifa/shifa_010
+  rotate: false
+  xy: 487, 280
+  size: 73, 117
+  orig: 222, 270
+  offset: 84, 46
+  index: -1
+effect_L/skillC/shifa/shifa_013
+  rotate: true
+  xy: 806, 757
+  size: 98, 187
+  orig: 222, 270
+  offset: 56, 18
+  index: -1
+effect_L/skillC/shifa/shifa_014
+  rotate: true
+  xy: 2, 24
+  size: 164, 196
+  orig: 222, 270
+  offset: 58, 18
+  index: -1
+effect_L/skillC/shifa/shifa_017
+  rotate: false
+  xy: 2, 190
+  size: 168, 268
+  orig: 222, 270
+  offset: 0, 0
+  index: -1
+effect_L/skillC/shifadimian/shifadimian_032
+  rotate: true
+  xy: 815, 572
+  size: 183, 79
+  orig: 197, 141
+  offset: 7, 2
+  index: -1
+effect_L/skillC/xialuoshandian/xialuoshandian_027
+  rotate: true
+  xy: 200, 104
+  size: 84, 260
+  orig: 118, 289
+  offset: 15, 29
+  index: -1
+effect_L/skillC/xialuoshandian/xialuoshandian_028
+  rotate: false
+  xy: 503, 525
+  size: 86, 263
+  orig: 118, 289
+  offset: 18, 26
+  index: -1
+effect_L/skillC/xialuoshandian/xialuoshandian_029
+  rotate: true
+  xy: 271, 190
+  size: 86, 263
+  orig: 118, 289
+  offset: 18, 26
+  index: -1
+effect_L/skillC/xialuoshandian/xialuoshandian_034
+  rotate: false
+  xy: 172, 190
+  size: 97, 268
+  orig: 118, 289
+  offset: 21, 8
+  index: -1
+effect_L/skillC/xunhuan/xunhuan_000
+  rotate: true
+  xy: 719, 406
+  size: 117, 113
+  orig: 126, 114
+  offset: 5, 0
+  index: -1
+effect_L/skillC/xunhuan/xunhuan_001
+  rotate: false
+  xy: 507, 2
+  size: 115, 107
+  orig: 126, 114
+  offset: 7, 3
+  index: -1
+effect_L/skillC/xunhuan/xunhuan_002
+  rotate: true
+  xy: 792, 293
+  size: 111, 102
+  orig: 126, 114
+  offset: 10, 5
+  index: -1
+effect_L/skillC/xunhuan/xunhuan_003
+  rotate: false
+  xy: 679, 296
+  size: 111, 108
+  orig: 126, 114
+  offset: 8, 2
+  index: -1
+effect_L/skillC/xunhuan/xunhuan_004
+  rotate: false
+  xy: 562, 296
+  size: 115, 111
+  orig: 126, 114
+  offset: 7, 0
+  index: -1
+effect_L/skillC/xunhuanshandian/xunhuanshandian_046
+  rotate: false
+  xy: 271, 278
+  size: 214, 119
+  orig: 214, 124
+  offset: 0, 0
+  index: -1
+effect_L/skillC/xunhuanshandian/xunhuanshandian_048
+  rotate: false
+  xy: 503, 409
+  size: 214, 114
+  orig: 214, 124
+  offset: 0, 1
+  index: -1
+effect_L/skillC/xunhuanshandian/xunhuanshandian_050
+  rotate: true
+  xy: 591, 525
+  size: 214, 115
+  orig: 214, 124
+  offset: 0, 1
+  index: -1
+effect_L/skillC/xunhuanshandian/xunhuanshandian_052
+  rotate: true
+  xy: 708, 525
+  size: 214, 105
+  orig: 214, 124
+  offset: 0, 1
+  index: -1
+effects_H/skillB/suishandian/suishandian_000
+  rotate: false
+  xy: 624, 23
+  size: 62, 75
+  orig: 120, 120
+  offset: 16, 39
+  index: -1
+effects_H/skillB/suishandian/suishandian_004
+  rotate: false
+  xy: 788, 202
+  size: 109, 89
+  orig: 120, 120
+  offset: 8, 9
+  index: -1
+effects_H/skillB/suishandian/suishandian_008
+  rotate: true
+  xy: 462, 111
+  size: 77, 85
+  orig: 120, 120
+  offset: 13, 5
+  index: -1

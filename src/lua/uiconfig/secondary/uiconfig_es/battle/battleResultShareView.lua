@@ -159,7 +159,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "64",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_battleResultShareView_1",
 							sizepercentx = "0",
@@ -172,7 +172,7 @@ local t =
 							{
 								
 							},
-							width = "64",
+							width = "2",
 							ZOrder = "1",
 						},
 						{
@@ -376,7 +376,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "35",
+											height = "32",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -393,7 +393,7 @@ local t =
 												PositionX = -15,
 												PositionY = -2,
 											},
-											width = "107",
+											width = "165",
 											ZOrder = "1",
 										},
 									},
@@ -441,7 +441,7 @@ local t =
 										PositionX = 268,
 										PositionY = 115,
 									},
-									width = "57",
+									width = "112",
 									ZOrder = "1",
 								},
 								{
@@ -487,7 +487,7 @@ local t =
 										PositionX = 268,
 										PositionY = 75,
 									},
-									width = "227",
+									width = "462",
 									ZOrder = "1",
 								},
 								{
@@ -533,7 +533,7 @@ local t =
 										PositionX = 268,
 										PositionY = 34,
 									},
-									width = "126",
+									width = "102",
 									ZOrder = "1",
 								},
 								{
@@ -579,7 +579,7 @@ local t =
 										PositionX = 265,
 										PositionY = -8,
 									},
-									width = "133",
+									width = "131",
 									ZOrder = "1",
 								},
 								{
@@ -625,7 +625,7 @@ local t =
 										PositionX = 265,
 										PositionY = -50,
 									},
-									width = "126",
+									width = "102",
 									ZOrder = "1",
 								},
 								{
@@ -682,7 +682,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "35",
+											height = "32",
 											ignoreSize = "True",
 											name = "Label_role_title",
 											nTextAlign = "1",
@@ -698,7 +698,7 @@ local t =
 											{
 												PositionX = -8,
 											},
-											width = "114",
+											width = "359",
 											ZOrder = "1",
 										},
 										{
@@ -1044,7 +1044,7 @@ local t =
 												PositionX = -46,
 												PositionY = 37,
 											},
-											width = "39",
+											width = "74",
 											ZOrder = "1",
 										},
 									},

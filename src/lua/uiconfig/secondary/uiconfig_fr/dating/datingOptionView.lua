@@ -203,7 +203,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "1136",
 									ZOrder = "1",
 									components = 
@@ -260,7 +259,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "26",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -330,7 +329,7 @@ local t =
 														PositionY = -20,
 													},
 													visible = "False",
-													width = "206",
+													width = "194",
 													ZOrder = "1",
 												},
 												{
@@ -436,7 +435,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "26",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -506,7 +505,7 @@ local t =
 														PositionY = -20,
 													},
 													visible = "False",
-													width = "206",
+													width = "194",
 													ZOrder = "1",
 												},
 												{
@@ -612,7 +611,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "26",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -682,7 +681,7 @@ local t =
 														PositionY = -20,
 													},
 													visible = "False",
-													width = "206",
+													width = "194",
 													ZOrder = "1",
 												},
 												{
@@ -1179,7 +1178,7 @@ local t =
 															{
 																PositionX = 10,
 															},
-															width = "137",
+															width = "156",
 															ZOrder = "1",
 														},
 													},
@@ -1277,6 +1276,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "1136",
 									ZOrder = "1",
 									components = 
@@ -2056,7 +2056,7 @@ local t =
 												PercentX = 50.41,
 												PercentY = 28.46,
 											},
-											width = "189",
+											width = "177",
 											ZOrder = "1",
 										},
 										{
@@ -2105,7 +2105,7 @@ local t =
 												PercentX = 49.18,
 												PercentY = 8.14,
 											},
-											width = "144",
+											width = "129",
 											ZOrder = "1",
 										},
 									},

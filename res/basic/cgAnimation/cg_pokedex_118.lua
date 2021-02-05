@@ -68,7 +68,7 @@ return {
 -- Table: {14}
 {
    ["status"]={19},
-   ["filePath"]="F:\\projectGitTest\\bin\\Debug.win32\\../../Resource/res/basic/modle/cg\\main_cg_role_252.png",
+   ["filePath"]="F:\\projectGitTest\\bin\\Debug.win32\\../../Resource/res/basic/modle/cg\\main_cg_role_252_1.png",
 },
 -- Table: {15}
 {
@@ -78,7 +78,7 @@ return {
 -- Table: {16}
 {
    ["status"]={20},
-   ["filePath"]="F:\\projectGitTest\\bin\\Debug.win32\\../../Resource/res/basic/modle/cg\\main_cg_role_252.png",
+   ["filePath"]="F:\\projectGitTest\\bin\\Debug.win32\\../../Resource/res/basic/modle/cg\\main_cg_role_252_1.png",
 },
 -- Table: {17}
 {
@@ -88,7 +88,7 @@ return {
 -- Table: {18}
 {
    ["status"]={21},
-   ["filePath"]="F:\\projectGitTest\\bin\\Debug.win32\\../../Resource/res/basic/modle/cg\\main_cg_role_252.png",
+   ["filePath"]="F:\\projectGitTest\\bin\\Debug.win32\\../../Resource/res/basic/modle/cg\\main_cg_role_252_1.png",
 },
 -- Table: {19}
 {

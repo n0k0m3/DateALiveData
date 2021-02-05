@@ -247,7 +247,7 @@ function LightRiddles:gameOver(isShowTips)
 		AlertManager:closeLayer(self)
 	end
 	if isShowTips then
-		Utils:showTips("倒计时结束")
+		Utils:showTips(TextDataMgr:getText(2460046))
 		self:runAction(Sequence:createWithTwoActions(DelayTime:create(2), CallFunc:create(func)))
 	else
 		func()
@@ -272,18 +272,14 @@ function LightRiddles:gameVectory()
 	spineSuccess:setMix("animation1","animation",0.2)
     self.Panel_root:addChild(spineSuccess, 10)
     spineSuccess:addMEListener(TFARMATURE_COMPLETE,function(spine,animationName)
-		if animationName == "animation" then
-			spine:play("animation1", false)
-			self.mask:setVisible(true)
-		elseif animationName == "animation1" then
-			if self.rewards and #self.rewards >0 then
+    	spineSuccess:removeMEListener(TFARMATURE_COMPLETE)
+		if self.rewards and #self.rewards >0 then
 				local data = {}
 				data.rewards = self.rewards
 				ActivityDataMgr2:showGameResult(data)
 				self.spineOver = true
 			end
 			self:gameOver()
-		end
 		
      end)
 	self.touchShield:setVisible(true)

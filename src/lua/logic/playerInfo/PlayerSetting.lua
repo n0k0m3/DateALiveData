@@ -641,6 +641,7 @@ function PlayerSetting:updateMedalItem(item, medalCfg)
     target.Image_select:setVisible(false)
     target.Panel_wearing:setVisible(false)
     target.Image_medal_bg:setTexture(MedalDataMgr:getMedalStarBg(medalCfg.star))
+    target.Image_medal_bg:setContentSize(CCSize(160 , 260))
     target.Image_medal_icon:setTexture(medalCfg.icon)
     local scaleRate = medalCfg.size[1] or 100
     target.Image_medal_icon:setScale(scaleRate / 100)

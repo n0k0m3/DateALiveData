@@ -35,7 +35,6 @@ function WelfareSignView:ctor( data )
 	local uiName = self.activityInfo.extendData.uiName or "welfareSignView"
 	self.curResFileName = "style2"
 	print(self.activityInfo.extendData)
-	dump(uiName,"uiName")
 	self:init("lua.uiconfig.activity."..uiName)
 end
 
@@ -52,6 +51,11 @@ function WelfareSignView:initUI(ui)
 	self.Label_time_end:setSkewX(10)
 	self.Label_time_tip:setSkewX(10)
 	self.Label_time_tip:setTextById( 1710002)
+
+
+	self.Label_time_tip:setFontColor(ccc3(97 , 5 , 7))
+	self.Label_time_begin:setFontColor(ccc3(97 , 5 , 7))
+	self.Label_time_end:setFontColor(ccc3(97 , 5 , 7))
 
 	self.btn_Last_ = TFDirector:getChildByPath(ui, "Button_last"):hide()
 	self.btn_Next_ = TFDirector:getChildByPath(ui, "Button_next"):hide()
@@ -148,7 +152,7 @@ function WelfareSignView:initPageTypeData()
 	if self.activityInfo.extendData.activityShowType and (self.activityInfo.extendData.activityShowType == 6 or self.activityInfo.extendData.activityShowType == 91) or self.activityInfo.extendData.uiName == "whiteQueenAssistSignView" then
 	elseif self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
 	else
-		self.Image_bg:setTexture("ui/activity/activityStyle/wefareSignActivity/"..self.curResFileName.."/bg"..self.selectPage_.. ".png")
+		self.Image_bg:setTexture("ui/activity/activityStyle/wefareSignActivity/"..self.curResFileName.."/bg1".. ".png")
 	end
 end
 

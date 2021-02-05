@@ -1,0 +1,146 @@
+
+effects_11601_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/quickmove/glow1_000
+  rotate: false
+  xy: 2, 848
+  size: 403, 174
+  orig: 442, 174
+  offset: 25, 0
+  index: -1
+images/effects_H/quickmove/ren_000
+  rotate: false
+  xy: 219, 417
+  size: 109, 91
+  orig: 119, 102
+  offset: 5, 8
+  index: -1
+images/effects_H/quickmove/renbian_002
+  rotate: false
+  xy: 95, 636
+  size: 125, 109
+  orig: 125, 109
+  offset: 0, 0
+  index: -1
+images/effects_H/quickmove/shan/shan_000
+  rotate: false
+  xy: 734, 937
+  size: 285, 85
+  orig: 350, 99
+  offset: 30, 10
+  index: -1
+images/effects_H/quickmove/shan/shan_001
+  rotate: false
+  xy: 2, 747
+  size: 326, 99
+  orig: 350, 99
+  offset: 10, 0
+  index: -1
+images/effects_H/quickmove/shan/shan_002
+  rotate: false
+  xy: 407, 929
+  size: 325, 93
+  orig: 350, 99
+  offset: 8, 6
+  index: -1
+images/effects_H/quickmove/shan/shan_004
+  rotate: true
+  xy: 2, 418
+  size: 327, 91
+  orig: 350, 99
+  offset: 2, 0
+  index: -1
+images/effects_H/quickmove/shan/shan_006
+  rotate: true
+  xy: 2, 120
+  size: 296, 81
+  orig: 350, 99
+  offset: 47, 18
+  index: -1
+images/effects_H/quickmove/shan/shan_008
+  rotate: false
+  xy: 407, 866
+  size: 181, 61
+  orig: 350, 99
+  offset: 47, 18
+  index: -1
+images/effects_H/quickmove/zishen/zishen_000
+  rotate: true
+  xy: 222, 632
+  size: 113, 103
+  orig: 122, 103
+  offset: 2, 0
+  index: -1
+images/effects_H/quickmove/zishen/zishen_001
+  rotate: true
+  xy: 330, 732
+  size: 114, 95
+  orig: 122, 103
+  offset: 1, 0
+  index: -1
+images/effects_H/quickmove/zishen/zishen_002
+  rotate: true
+  xy: 446, 646
+  size: 113, 88
+  orig: 122, 103
+  offset: 0, 0
+  index: -1
+images/effects_H/quickmove/zishen/zishen_003
+  rotate: false
+  xy: 427, 761
+  size: 113, 103
+  orig: 122, 103
+  offset: 0, 0
+  index: -1
+images/effects_H/quickmove/zishen/zishen_004
+  rotate: false
+  xy: 95, 531
+  size: 122, 103
+  orig: 122, 103
+  offset: 0, 0
+  index: -1
+images/effects_H/quickmove/zishen/zishen_005
+  rotate: false
+  xy: 95, 427
+  size: 122, 102
+  orig: 122, 103
+  offset: 0, 1
+  index: -1
+images/effects_H/quickmove/zishen/zishen_006
+  rotate: false
+  xy: 590, 832
+  size: 117, 95
+  orig: 122, 103
+  offset: 5, 8
+  index: -1
+images/effects_H/quickmove/zishen/zishen_007
+  rotate: false
+  xy: 327, 638
+  size: 117, 92
+  orig: 122, 103
+  offset: 2, 5
+  index: -1
+images/effects_H/quickmove/zishen/zishen_008
+  rotate: true
+  xy: 709, 831
+  size: 96, 88
+  orig: 122, 103
+  offset: 0, 0
+  index: -1
+images/effects_H/quickmove/zishen/zishen_009
+  rotate: true
+  xy: 219, 510
+  size: 120, 103
+  orig: 122, 103
+  offset: 2, 0
+  index: -1
+images/effects_H/quickmove/zishen/zishen_010
+  rotate: true
+  xy: 2, 2
+  size: 116, 90
+  orig: 122, 103
+  offset: 6, 5
+  index: -1

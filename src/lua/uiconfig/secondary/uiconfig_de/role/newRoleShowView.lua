@@ -552,7 +552,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 31.13,
 																	},
-																	width = "31",
+																	width = "33",
 																	ZOrder = "1",
 																},
 															},
@@ -601,7 +601,7 @@ local t =
 																IsPercent = true,
 																PercentX = 50,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -707,7 +707,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 43.69,
 																	},
-																	width = "94",
+																	width = "89",
 																	ZOrder = "1",
 																},
 															},
@@ -756,7 +756,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -858,13 +858,13 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 37,
-																		PositionY = -1,
+																		PositionX = 38,
+																		PositionY = -2,
 																		IsPercent = true,
 																		PercentX = 35.84,
 																		PercentY = -4.62,
 																	},
-																	width = "67",
+																	width = "66",
 																	ZOrder = "1",
 																},
 															},
@@ -913,7 +913,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -1019,7 +1019,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 31.13,
 																	},
-																	width = "66",
+																	width = "64",
 																	ZOrder = "1",
 																},
 															},
@@ -1068,7 +1068,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -1174,7 +1174,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 31.13,
 																	},
-																	width = "42",
+																	width = "49",
 																	ZOrder = "1",
 																},
 															},
@@ -1223,7 +1223,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -1332,7 +1332,7 @@ local t =
 																		PercentX = 206.13,
 																		PercentY = 23.08,
 																	},
-																	width = "230",
+																	width = "217",
 																	ZOrder = "1",
 																},
 																{
@@ -1382,7 +1382,7 @@ local t =
 																		PercentY = -33.33,
 																	},
 																	visible = "False",
-																	width = "137",
+																	width = "128",
 																	ZOrder = "1",
 																},
 															},
@@ -1535,7 +1535,7 @@ local t =
 													{
 														PositionX = 20,
 													},
-													width = "84",
+													width = "88",
 													ZOrder = "1",
 												},
 											},
@@ -1692,7 +1692,7 @@ local t =
 													{
 														
 													},
-													width = "107",
+													width = "102",
 													ZOrder = "1",
 												},
 											},
@@ -1809,7 +1809,7 @@ local t =
 													{
 														
 													},
-													width = "262",
+													width = "263",
 													ZOrder = "1",
 												},
 												{
@@ -2190,7 +2190,7 @@ local t =
 													{
 														
 													},
-													width = "115",
+													width = "109",
 													ZOrder = "1",
 												},
 											},
@@ -2488,7 +2488,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "83",
+											width = "97",
 											ZOrder = "1",
 										},
 										{
@@ -2560,7 +2560,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "83",
+													width = "97",
 													ZOrder = "1",
 												},
 											},
@@ -2641,7 +2641,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "47",
+											width = "55",
 											ZOrder = "1",
 										},
 										{
@@ -2713,7 +2713,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -2794,7 +2794,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "78",
+											width = "87",
 											ZOrder = "1",
 										},
 										{
@@ -2866,7 +2866,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "78",
+													width = "87",
 													ZOrder = "1",
 												},
 											},
@@ -2925,15 +2925,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "28",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_t",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -2941,14 +2941,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "服装设置",
+											text = "Clothing settings",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												IsPercent = true,
 											},
-											width = "98",
+											width = "100",
 											ZOrder = "1",
 										},
 										{
@@ -2997,15 +2997,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "28",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_t",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -3013,14 +3013,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "服装设置",
+													text = "Clothing settings",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														IsPercent = true,
 													},
-													width = "98",
+													width = "100",
 													ZOrder = "1",
 												},
 											},
@@ -3237,7 +3237,7 @@ local t =
 													{
 														PositionX = 30,
 													},
-													width = "25",
+													width = "24",
 													ZOrder = "1",
 												},
 											},
@@ -3287,7 +3287,7 @@ local t =
 										PositionX = 112,
 										PositionY = 557,
 									},
-									width = "269",
+									width = "290",
 									ZOrder = "1",
 								},
 								{
@@ -3334,7 +3334,7 @@ local t =
 										PositionY = 503,
 									},
 									visible = "False",
-									width = "57",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -3381,7 +3381,7 @@ local t =
 										PositionY = 483,
 									},
 									visible = "False",
-									width = "57",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -3556,7 +3556,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "70",
+							height = "90",
 							ignoreSize = "False",
 							name = "Panel_unInfoItem",
 							panelTexturePath = "ui/role/newRoleShow/BG1.png",
@@ -3599,14 +3599,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "50",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_des",
 									nTextAlign = "0",
@@ -3620,14 +3620,11 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 12,
-										PositionY = 35,
-										IsPercent = true,
-										PercentX = 2.78,
-										PercentY = 50,
+										PositionX = 6,
+										PositionY = 45,
 									},
 									visible = "False",
-									width = "350",
+									width = "360",
 									ZOrder = "1",
 								},
 								{
@@ -3649,14 +3646,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "50",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_lockDes",
 									nTextAlign = "0",
@@ -3670,13 +3667,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 12,
-										PositionY = 35,
-										IsPercent = true,
-										PercentX = 2.78,
-										PercentY = 50,
+										PositionX = 6,
+										PositionY = 45,
 									},
-									width = "350",
+									width = "360",
 									ZOrder = "1",
 								},
 								{
@@ -3729,7 +3723,7 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "70",
+									height = "90",
 									ignoreSize = "False",
 									name = "Panel_unLockT",
 									sizepercentx = "0",
@@ -3760,8 +3754,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "68",
-											ignoreSize = "True",
+											height = "90",
+											ignoreSize = "False",
 											name = "Image_newRoleShowView_1",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -3772,12 +3766,12 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 60,
-												PositionY = 35,
+												PositionY = 45,
 												IsPercent = true,
 												PercentX = 50,
 												PercentY = 50,
 											},
-											width = "121",
+											width = "120",
 											ZOrder = "1",
 											components = 
 											{
@@ -3859,7 +3853,7 @@ local t =
 												PercentX = 66.67,
 												PercentY = 72.86,
 											},
-											width = "53",
+											width = "50",
 											ZOrder = "1",
 										},
 										{
@@ -4376,7 +4370,7 @@ local t =
 													{
 														
 													},
-													width = "76",
+													width = "86",
 													ZOrder = "1",
 												},
 											},
@@ -5180,7 +5174,7 @@ local t =
 															{
 																PositionX = 18,
 															},
-															width = "82",
+															width = "78",
 															ZOrder = "1",
 														},
 														{
@@ -5287,14 +5281,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "16",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
+															height = "18",
 															ignoreSize = "True",
 															name = "label",
 															nTextAlign = "1",
@@ -5308,9 +5302,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 18,
+																PositionX = 5,
+																PositionY = -1,
 															},
-															width = "128",
+															width = "91",
 															ZOrder = "1",
 														},
 														{

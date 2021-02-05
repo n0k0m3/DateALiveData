@@ -223,7 +223,7 @@ local t =
 									{
 										PositionX = -347,
 									},
-									width = "138",
+									width = "135",
 									ZOrder = "1",
 								},
 								{
@@ -570,7 +570,7 @@ local t =
 												PositionX = -12,
 												PositionY = -215,
 											},
-											width = "47",
+											width = "45",
 											ZOrder = "1",
 											components = 
 											{
@@ -645,7 +645,7 @@ local t =
 												PositionX = 24,
 												PositionY = -216,
 											},
-											width = "8",
+											width = "11",
 											ZOrder = "1",
 										},
 										{
@@ -704,7 +704,7 @@ local t =
 														StrokeColor = "#FFCA4465",
 														StrokeSize = 2,
 													},
-													height = "28",
+													height = "27",
 													ignoreSize = "True",
 													name = "Label_title_desc1",
 													nTextAlign = "1",
@@ -721,7 +721,7 @@ local t =
 														PositionX = -47,
 														PositionY = 6,
 													},
-													width = "73",
+													width = "81",
 													ZOrder = "1",
 												},
 												{
@@ -750,7 +750,7 @@ local t =
 														StrokeColor = "#FFD7812B",
 														StrokeSize = 2,
 													},
-													height = "22",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_title_desc",
 													nTextAlign = "1",
@@ -767,7 +767,7 @@ local t =
 														PositionX = -17,
 														PositionY = 4,
 													},
-													width = "252",
+													width = "235",
 													ZOrder = "1",
 												},
 											},
@@ -1014,7 +1014,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_price",
 											nTextAlign = "1",
@@ -1030,7 +1030,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "53",
+											width = "49",
 											ZOrder = "1",
 										},
 										{

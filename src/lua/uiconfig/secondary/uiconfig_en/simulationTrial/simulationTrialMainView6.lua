@@ -189,8 +189,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 342,
-								PositionY = 201,
+								PositionX = 337,
+								PositionY = 214,
 							},
 							width = "378",
 							ZOrder = "1",
@@ -201,7 +201,7 @@ local t =
 									controlID = "Label_time_Image_font1_Panel_root_Panel-simulationTrialMainView6_style1_simulationTrial_Game",
 									UUID = "e7a9ae3e_adcc_4a41_bb5e_30fb70cd9bdb",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -237,10 +237,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 40,
-										PositionY = -29,
+										PositionX = 159,
+										PositionY = -58,
 									},
-									width = "184",
+									width = "232",
 									ZOrder = "1",
 								},
 							},
@@ -350,7 +350,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "37",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -368,7 +368,7 @@ local t =
 								PositionY = 204,
 							},
 							visible = "False",
-							width = "124",
+							width = "213",
 							ZOrder = "1",
 						},
 						{
@@ -390,7 +390,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "16",
 							fontStroke = 
 							{
 								IsStroke = true,
@@ -411,8 +411,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 382,
-								PositionY = 75,
+								PositionX = 383,
+								PositionY = 69,
 							},
 							width = "311",
 							ZOrder = "1",
@@ -513,7 +513,7 @@ local t =
 									controlID = "Label_name_Button_view_role_Panel_root_Panel-simulationTrialMainView6_style1_simulationTrial_Game",
 									UUID = "80a3420e_4b34_4246_ae5a_12648b4e713e",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -535,7 +535,7 @@ local t =
 										StrokeColor = "#FFB0C4DE",
 										StrokeSize = 1,
 									},
-									height = "34",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -549,10 +549,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 26,
+										PositionX = 50,
 										PositionY = -47,
 									},
-									width = "56",
+									width = "106",
 									ZOrder = "1",
 								},
 								{
@@ -599,7 +599,7 @@ local t =
 										PositionX = 35,
 										PositionY = 49,
 									},
-									width = "58",
+									width = "59",
 									ZOrder = "1",
 								},
 								{
@@ -666,7 +666,7 @@ local t =
 									controlID = "Label_name_Button_enter_funben_Panel_root_Panel-simulationTrialMainView6_style1_simulationTrial_Game",
 									UUID = "52e36294_65e9_412f_92f6_ad5816ff7bb0",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -688,7 +688,7 @@ local t =
 										StrokeColor = "#FFB0C4DE",
 										StrokeSize = 1,
 									},
-									height = "34",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -702,10 +702,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 24,
+										PositionX = 57,
 										PositionY = -49,
 									},
-									width = "56",
+									width = "113",
 									ZOrder = "1",
 								},
 								{
@@ -752,7 +752,7 @@ local t =
 										PositionX = 38,
 										PositionY = 43,
 									},
-									width = "64",
+									width = "61",
 									ZOrder = "1",
 								},
 								{

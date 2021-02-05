@@ -358,7 +358,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "lv 30",
+									text = "Lv.30",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -366,7 +366,7 @@ local t =
 										PositionX = 101,
 										PositionY = 13,
 									},
-									width = "45",
+									width = "50",
 									ZOrder = "1",
 								},
 								{
@@ -423,7 +423,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_working",
 											nTextAlign = "1",
@@ -432,14 +432,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "实践中",
+											text = "Practice",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "63",
+											width = "87",
 											ZOrder = "1",
 										},
 									},

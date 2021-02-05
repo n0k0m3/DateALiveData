@@ -70,8 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 480,
-						PositionY = 320,
+						PositionX = 425,
+						PositionY = 354,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -131,7 +131,7 @@ local t =
 							height = "566",
 							ignoreSize = "False",
 							innerHeight = "574",
-							innerWidth = "126",
+							innerWidth = "208",
 							name = "ScrollView_activity",
 							showScrollbar = "False",
 							sizepercentx = "0",
@@ -141,15 +141,15 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -575,
-								PositionY = -38,
+								PositionX = -568,
+								PositionY = -39,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "126",
+							width = "205",
 							ZOrder = "1",
 						},
 						{
@@ -177,15 +177,40 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 55,
-								PositionY = -30,
+								PositionX = 102,
+								PositionY = -35,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "1001",
+							width = "924",
+							ZOrder = "1",
+						},
+						{
+							controlID = "Image_flag_Panel_root_Panel-activityMainView3_activityStyleModel_activity_Game",
+							UUID = "bab56a40_235d_4505_bc23_240a0a3c1b1e",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							height = "98",
+							ignoreSize = "True",
+							name = "Image_flag",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							texturePath = "ui/activity/activityStyle/mainFrame/styleCur/001.png",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionY = 250,
+							},
+							width = "216",
 							ZOrder = "1",
 						},
 					},
@@ -216,7 +241,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 561,
-						PositionY = -355,
+						PositionY = -286,
 						LeftPositon = -7,
 						TopPosition = 675,
 						relativeToName = "Panel",
@@ -237,8 +262,8 @@ local t =
 							controlID = "Panel_activityItem_Panel_prefab_Panel-activityMainView3_activityStyleModel_activity_Game",
 							UUID = "3989079a_18da_42b9_98fb_8a70d2d97b4a",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
+							anchorPointX = "0",
+							anchorPointY = "0",
 							backGroundScale9Enable = "False",
 							bgColorOpacity = "50",
 							bIsOpenClipping = "False",
@@ -248,7 +273,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "119",
+							height = "70",
 							ignoreSize = "False",
 							name = "Panel_activityItem",
 							sizepercentx = "0",
@@ -258,15 +283,14 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -481,
-								PositionY = 99,
+								PositionX = -560,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "126",
+							width = "206",
 							ZOrder = "1",
 							components = 
 							{
@@ -280,24 +304,50 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "98",
+									height = "60",
 									ignoreSize = "True",
 									name = "ImageNormal",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/activity/activityStyle/mainFrame/styleCur/002-1.png",
+									texturePath = "ui/activity/anniversary/ui_002.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = 53,
+										PositionY = 36,
 									},
-									width = "216",
+									width = "60",
 									ZOrder = "1",
 									components = 
 									{
 										
+										{
+											controlID = "Image_item_bg_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView3_activityStyleModel_activity_Game",
+											UUID = "03fc6238_d279_41b8_9217_b6dfb5d212fd",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "16",
+											ignoreSize = "True",
+											name = "Image_item_bg",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/anniversary/ui_010.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 34,
+											},
+											width = "10",
+											ZOrder = "-1",
+										},
 										{
 											controlID = "activityName_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView3_activityStyleModel_activity_Game",
 											UUID = "a5860e98_1b99_47c8_bfc9_85cfc962dd39",
@@ -307,7 +357,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFAAEDFE",
+											FontColor = "#FFFFCD98",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -317,31 +367,30 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "18",
 											fontStroke = 
 											{
-												IsStroke = true,
-												StrokeColor = "#FF0D2336",
-												StrokeSize = 2,
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
 											},
-											height = "34",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
-											nTextHAlign = "0",
+											nTextHAlign = "1",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "福利来袭",
+											text = "福利來襲",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -4,
-												PositionY = -43,
+												PositionX = 98,
 											},
-											width = "101",
+											width = "120",
 											ZOrder = "1",
 										},
 										{
@@ -364,10 +413,36 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 43,
-												PositionY = 41,
+												PositionX = 22,
+												PositionY = 16,
 											},
 											width = "30",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Image_line_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView3_activityStyleModel_activity_Game",
+											UUID = "34427e85_58f9_41bc_9592_82342c3bdcf2",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "98",
+											ignoreSize = "True",
+											name = "Image_line",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityStyle/mainFrame/styleCur/003.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 89,
+												PositionY = -32,
+											},
+											width = "216",
 											ZOrder = "1",
 										},
 									},
@@ -381,24 +456,50 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "98",
+									height = "60",
 									ignoreSize = "True",
 									name = "ImageSelect",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/activity/activityStyle/mainFrame/styleCur/002.png",
+									texturePath = "ui/activity/anniversary/ui_001.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = 53,
+										PositionY = 35,
 									},
-									width = "216",
+									width = "60",
 									ZOrder = "1",
 									components = 
 									{
 										
+										{
+											controlID = "Image_item_bg_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView3_activityStyleModel_activity_Game",
+											UUID = "e21cc27e_ee84_4035_a879_4dbe35322485",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "2",
+											ignoreSize = "True",
+											name = "Image_item_bg",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityStyle/mainFrame/styleCur/004.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 59,
+											},
+											width = "2",
+											ZOrder = "-1",
+										},
 										{
 											controlID = "activityName_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView3_activityStyleModel_activity_Game",
 											UUID = "1dc97398_be7a_44ae_bb23_6c1416708312",
@@ -408,7 +509,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFAAEDFE",
+											FontColor = "#FF86211A",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -418,31 +519,30 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "18",
 											fontStroke = 
 											{
-												IsStroke = true,
-												StrokeColor = "#FF0D2336",
-												StrokeSize = 2,
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
 											},
-											height = "34",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
-											nTextHAlign = "0",
+											nTextHAlign = "1",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "登录应援",
+											text = "登入應援",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -4,
-												PositionY = -43,
+												PositionX = 97,
 											},
-											width = "102",
+											width = "120",
 											ZOrder = "1",
 										},
 										{
@@ -465,8 +565,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 43,
-												PositionY = 41,
+												PositionX = 21,
+												PositionY = 18,
 											},
 											width = "30",
 											ZOrder = "1",
@@ -489,9 +589,13 @@ local t =
 		textures = 
 		{
 			"ui/activity/activityStyle/mainFrame/styleCur/bg.png",
-			"ui/activity/activityStyle/mainFrame/styleCur/002-1.png",
+			"ui/activity/activityStyle/mainFrame/styleCur/001.png",
+			"ui/activity/anniversary/ui_002.png",
+			"ui/activity/anniversary/ui_010.png",
 			"ui/common/news_small.png",
-			"ui/activity/activityStyle/mainFrame/styleCur/002.png",
+			"ui/activity/activityStyle/mainFrame/styleCur/003.png",
+			"ui/activity/anniversary/ui_001.png",
+			"ui/activity/activityStyle/mainFrame/styleCur/004.png",
 		},
 		armatures = 
 		{

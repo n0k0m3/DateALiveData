@@ -292,7 +292,7 @@ local t =
 								StrokeColor = "#FF2954A3",
 								StrokeSize = 1,
 							},
-							height = "32",
+							height = "30",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -308,7 +308,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "51",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -476,7 +476,7 @@ local t =
 								StrokeColor = "#FF4C6EAE",
 								StrokeSize = 1,
 							},
-							height = "27",
+							height = "25",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -492,7 +492,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "84",
+							width = "123",
 							ZOrder = "1",
 						},
 						{
@@ -660,7 +660,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -676,7 +676,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -844,7 +844,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -860,7 +860,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -1028,7 +1028,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -1044,7 +1044,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -1212,7 +1212,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -1228,7 +1228,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -1396,7 +1396,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -1412,7 +1412,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -1580,7 +1580,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -1596,7 +1596,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -1764,7 +1764,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -1780,7 +1780,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -1948,7 +1948,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -1964,7 +1964,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -2132,7 +2132,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -2148,7 +2148,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -2316,7 +2316,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -2332,7 +2332,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -2500,7 +2500,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -2516,7 +2516,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -2684,7 +2684,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -2700,7 +2700,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -2868,7 +2868,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -2884,7 +2884,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -3052,7 +3052,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -3068,7 +3068,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -3236,7 +3236,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -3252,7 +3252,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -3420,7 +3420,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -3436,7 +3436,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -3604,7 +3604,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -3620,7 +3620,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -3788,7 +3788,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -3804,7 +3804,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -3972,7 +3972,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -3988,7 +3988,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -4156,7 +4156,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -4172,7 +4172,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -4340,7 +4340,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -4356,7 +4356,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -4524,7 +4524,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -4540,7 +4540,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -4708,7 +4708,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -4724,7 +4724,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -4892,7 +4892,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -4908,7 +4908,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -5076,7 +5076,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -5092,7 +5092,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -5260,7 +5260,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -5276,7 +5276,7 @@ local t =
 							{
 								PositionY = -30,
 							},
-							width = "50",
+							width = "95",
 							ZOrder = "1",
 						},
 						{
@@ -5440,7 +5440,7 @@ local t =
 							{
 								PositionX = -34,
 							},
-							width = "83",
+							width = "149",
 							ZOrder = "1",
 						},
 					},

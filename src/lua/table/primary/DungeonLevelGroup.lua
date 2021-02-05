@@ -4480,7 +4480,7 @@ return {
         dungeonType = 30,
         pictureText = "",
         buyCountType = 0,
-        titleName = "第一章",
+        titleName = "900760",
     },
     [600006] = {
         resIcon = "",
@@ -4675,7 +4675,7 @@ return {
         dungeonType = 30,
         pictureText = "",
         buyCountType = 0,
-        titleName = "第二章",
+        titleName = "900762",
     },
     [600008] = {
         resIcon = "",
@@ -4964,7 +4964,7 @@ return {
         dungeonType = 30,
         pictureText = "",
         buyCountType = 0,
-        titleName = "第一章",
+        titleName = "900760",
     },
     [6001] = {
         resIcon = "",
@@ -5518,7 +5518,7 @@ return {
         dungeonType = 30,
         pictureText = "",
         buyCountType = 0,
-        titleName = "第二章",
+        titleName = "900762",
     },
     [6003] = {
         resIcon = "",
@@ -5670,7 +5670,7 @@ return {
         dungeonType = 30,
         pictureText = "",
         buyCountType = 0,
-        titleName = "第一章",
+        titleName = "900760",
     },
     [100001] = {
         resIcon = "",
@@ -6465,7 +6465,7 @@ return {
         dungeonType = 30,
         pictureText = "",
         buyCountType = 0,
-        titleName = "第二章",
+        titleName = "900762",
     },
     [1001] = {
         resIcon = "",
@@ -6769,7 +6769,7 @@ return {
         dungeonType = 30,
         pictureText = "",
         buyCountType = 0,
-        titleName = "第一章",
+        titleName = "900760",
     },
     [110002] = {
         resIcon = "",
@@ -7110,7 +7110,7 @@ return {
         dungeonType = 30,
         pictureText = "",
         buyCountType = 0,
-        titleName = "第二章",
+        titleName = "900762",
     },
     [110003] = {
         resIcon = "",

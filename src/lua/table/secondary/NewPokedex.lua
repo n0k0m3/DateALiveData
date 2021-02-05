@@ -2292,7 +2292,7 @@ return {
         sort = 158,
         sortr = "158",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -2355,7 +2355,7 @@ return {
         sort = 159,
         sortr = "159",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -2419,7 +2419,7 @@ return {
         sort = 157,
         sortr = "157",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -7560,7 +7560,7 @@ return {
         sort = 100,
         sortr = "100",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -7688,7 +7688,7 @@ return {
         sort = 101,
         sortr = "101",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -9891,7 +9891,7 @@ return {
         sort = 2014,
         sortr = "2014",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 8,
         type3 = {
             [1] = 208002,
@@ -13755,7 +13755,7 @@ return {
         sort = 1442,
         sortr = "1442",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -13819,7 +13819,7 @@ return {
         sort = 1441,
         sortr = "1441",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -13852,7 +13852,7 @@ return {
         sort = 1436,
         sortr = "1436",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -13885,7 +13885,7 @@ return {
         sort = 1438,
         sortr = "1438",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -13949,7 +13949,7 @@ return {
         sort = 1434,
         sortr = "1434",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -14451,7 +14451,7 @@ return {
         sort = 1981,
         sortr = "1981",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
@@ -17596,7 +17596,7 @@ return {
         sort = 1958,
         sortr = "1958",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
@@ -17789,7 +17789,7 @@ return {
         sort = 1957,
         sortr = "1957",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
@@ -17853,7 +17853,7 @@ return {
         sort = 1956,
         sortr = "1956",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
@@ -17917,7 +17917,7 @@ return {
         sort = 1955,
         sortr = "1955",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
@@ -17981,7 +17981,7 @@ return {
         sort = 1954,
         sortr = "1954",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
@@ -19515,7 +19515,7 @@ return {
         sort = 45,
         sortr = "45",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 1,
         type3 = {
             [1] = 201001,
@@ -20647,7 +20647,7 @@ return {
         sort = 879,
         sortr = "879",
         name1 = 1705168,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -20709,7 +20709,7 @@ return {
         sort = 880,
         sortr = "880",
         name1 = 1705169,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -20774,7 +20774,7 @@ return {
         sort = 882,
         sortr = "882",
         name1 = 1705280,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -20836,7 +20836,7 @@ return {
         sort = 883,
         sortr = "883",
         name1 = 1705280,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -20898,7 +20898,7 @@ return {
         sort = 884,
         sortr = "884",
         name1 = 1705280,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -20961,7 +20961,7 @@ return {
         sort = 885,
         sortr = "885",
         name1 = 1705280,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -24605,7 +24605,7 @@ return {
         sort = 1895,
         sortr = "1895",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
@@ -24732,7 +24732,7 @@ return {
         sort = 1893,
         sortr = "1893",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
@@ -24795,7 +24795,7 @@ return {
         sort = 342,
         sortr = "342",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
@@ -24826,7 +24826,7 @@ return {
         sort = 1892,
         sortr = "1892",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
@@ -24858,7 +24858,7 @@ return {
         sort = 1891,
         sortr = "1891",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
@@ -24953,7 +24953,7 @@ return {
         sort = 1890,
         sortr = "1890",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
@@ -25298,7 +25298,7 @@ return {
         sort = 344,
         sortr = "344",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
@@ -25782,7 +25782,7 @@ return {
         sort = 160,
         sortr = "160",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -26570,7 +26570,7 @@ return {
         sort = 340,
         sortr = "340",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
@@ -26824,7 +26824,7 @@ return {
         sort = 341,
         sortr = "341",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
@@ -29657,7 +29657,7 @@ return {
         sort = 156,
         sortr = "156",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -29754,7 +29754,7 @@ return {
         sort = 1449,
         sortr = "1449",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -29786,7 +29786,7 @@ return {
         sort = 1445,
         sortr = "1445",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -29819,7 +29819,7 @@ return {
         sort = 1451,
         sortr = "1451",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -29852,7 +29852,7 @@ return {
         sort = 1452,
         sortr = "1452",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -29883,7 +29883,7 @@ return {
         sort = 337,
         sortr = "337",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
@@ -29948,7 +29948,7 @@ return {
         sort = 1455,
         sortr = "1455",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -30108,7 +30108,7 @@ return {
         sort = 1432,
         sortr = "1432",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -30173,7 +30173,7 @@ return {
         sort = 1440,
         sortr = "1440",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -30206,7 +30206,7 @@ return {
         sort = 1437,
         sortr = "1437",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -30302,7 +30302,7 @@ return {
         sort = 1431,
         sortr = "1431",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -30683,7 +30683,7 @@ return {
         sort = 970,
         sortr = "970",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -31291,7 +31291,7 @@ return {
         sort = 343,
         sortr = "343",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
@@ -34987,7 +34987,7 @@ return {
         sort = 1750,
         sortr = "1750",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -35001,8 +35001,8 @@ return {
             night = 1312002,
         },
         specialCondition = {
-            stime = "2020-01-15 00:00:00",
-            etime = "2020-02-23 23:59:59",
+            stime = "2021-02-05 00:00:00",
+            etime = "2021-03-13 23:59:59",
         },
         cup = 0,
         size2 = 0,
@@ -36750,7 +36750,7 @@ return {
         sort = 966,
         sortr = "966",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -36877,7 +36877,7 @@ return {
         sort = 967,
         sortr = "967",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -37004,7 +37004,7 @@ return {
         sort = 968,
         sortr = "968",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -39261,7 +39261,7 @@ return {
         sort = 336,
         sortr = "336",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
@@ -43573,7 +43573,7 @@ return {
         sort = 338,
         sortr = "338",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
@@ -45812,7 +45812,7 @@ return {
         sort = 1435,
         sortr = "1435",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -45909,7 +45909,7 @@ return {
         sort = 1453,
         sortr = "1453",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -46007,7 +46007,7 @@ return {
         sort = 1443,
         sortr = "1443",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -46075,7 +46075,7 @@ return {
         sort = 1040,
         sortr = "1040",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -46139,7 +46139,7 @@ return {
         sort = 1444,
         sortr = "1444",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -46172,7 +46172,7 @@ return {
         sort = 1448,
         sortr = "1448",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -46205,7 +46205,7 @@ return {
         sort = 1447,
         sortr = "1447",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -46270,7 +46270,7 @@ return {
         sort = 1439,
         sortr = "1439",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -46303,7 +46303,7 @@ return {
         sort = 1450,
         sortr = "1450",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -46336,7 +46336,7 @@ return {
         sort = 1446,
         sortr = "1446",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -46433,7 +46433,7 @@ return {
         sort = 1454,
         sortr = "1454",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -46466,7 +46466,7 @@ return {
         sort = 1433,
         sortr = "1433",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -46498,7 +46498,7 @@ return {
         sort = 1430,
         sortr = "1430",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -47902,7 +47902,7 @@ return {
         sort = 1894,
         sortr = "1894",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
@@ -50153,7 +50153,7 @@ return {
         sort = 1041,
         sortr = "1041",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -52972,7 +52972,7 @@ return {
         sort = 155,
         sortr = "155",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -53102,7 +53102,7 @@ return {
         sort = 44,
         sortr = "44",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 1,
         type3 = {
             [1] = 201001,
@@ -53231,7 +53231,7 @@ return {
         sort = 154,
         sortr = "154",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -54267,7 +54267,7 @@ return {
         sort = 1042,
         sortr = "1042",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -54301,7 +54301,7 @@ return {
         sort = 1058,
         sortr = "1058",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -55940,7 +55940,7 @@ return {
         sort = 1779,
         sortr = "1779",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 8,
         type3 = {
             [1] = 208001,
@@ -56629,7 +56629,7 @@ return {
         sort = 339,
         sortr = "339",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
@@ -58367,7 +58367,7 @@ return {
         sort = 1059,
         sortr = "1059",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -61458,7 +61458,7 @@ return {
         sort = 969,
         sortr = "969",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -63074,7 +63074,7 @@ return {
         sort = 939,
         sortr = "939",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -63105,7 +63105,7 @@ return {
         sort = 940,
         sortr = "940",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -63136,7 +63136,7 @@ return {
         sort = 941,
         sortr = "941",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -64659,7 +64659,7 @@ return {
         sort = 1953,
         sortr = "1953",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,

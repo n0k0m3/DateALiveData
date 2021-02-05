@@ -3253,7 +3253,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
@@ -3276,7 +3276,7 @@ local t =
 											{
 												PositionY = -70,
 											},
-											width = "140",
+											width = "160",
 											ZOrder = "1",
 										},
 									},
@@ -3327,7 +3327,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = true,
@@ -3350,7 +3350,7 @@ local t =
 											{
 												PositionY = -70,
 											},
-											width = "140",
+											width = "160",
 											ZOrder = "1",
 										},
 									},
@@ -3401,7 +3401,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
@@ -3424,7 +3424,7 @@ local t =
 											{
 												PositionY = -70,
 											},
-											width = "140",
+											width = "160",
 											ZOrder = "1",
 										},
 									},
@@ -3475,7 +3475,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
@@ -3498,7 +3498,7 @@ local t =
 											{
 												PositionY = -70,
 											},
-											width = "140",
+											width = "160",
 											ZOrder = "1",
 										},
 									},
@@ -3549,7 +3549,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
@@ -3572,7 +3572,7 @@ local t =
 											{
 												PositionY = -70,
 											},
-											width = "140",
+											width = "160",
 											ZOrder = "1",
 										},
 									},

@@ -566,7 +566,7 @@ return {
             [1] = "show1",
         },
         actionId = 4230,
-        detection = true,
+        detection = false,
         effectsUp = {
             [1] = {
                 action = "skilld_UI_up",
@@ -995,7 +995,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_11601",
+            animation = "fight_11601_skillD_show",
         },
         effectsDown = {
             [1] = {

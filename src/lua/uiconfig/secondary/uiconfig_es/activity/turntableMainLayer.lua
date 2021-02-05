@@ -2831,7 +2831,7 @@ local t =
 									{
 										PositionX = -41,
 									},
-									width = "18",
+									width = "20",
 									ZOrder = "1",
 								},
 								{
@@ -2876,7 +2876,7 @@ local t =
 									{
 										PositionX = 100,
 									},
-									width = "47",
+									width = "65",
 									ZOrder = "1",
 								},
 							},
@@ -2984,7 +2984,7 @@ local t =
 									{
 										PositionX = -41,
 									},
-									width = "30",
+									width = "33",
 									ZOrder = "1",
 								},
 								{
@@ -3029,7 +3029,7 @@ local t =
 									{
 										PositionX = 100,
 									},
-									width = "69",
+									width = "88",
 									ZOrder = "1",
 								},
 							},
@@ -3261,7 +3261,7 @@ local t =
 									{
 										PositionX = 24,
 									},
-									width = "75",
+									width = "136",
 									ZOrder = "1",
 								},
 								{
@@ -3538,7 +3538,7 @@ local t =
 												StrokeColor = "#FFFFFFFF",
 												StrokeSize = 2,
 											},
-											height = "24",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_geted",
 											nTextAlign = "1",
@@ -3554,7 +3554,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "54",
+											width = "99",
 											ZOrder = "1",
 										},
 									},
@@ -3683,7 +3683,7 @@ local t =
 												StrokeColor = "#FFFFFFFF",
 												StrokeSize = 2,
 											},
-											height = "24",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_get",
 											nTextAlign = "1",
@@ -3699,7 +3699,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "55",
+											width = "104",
 											ZOrder = "1",
 										},
 									},
@@ -3795,7 +3795,7 @@ local t =
 												StrokeColor = "#FF5A5252",
 												StrokeSize = 2,
 											},
-											height = "24",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_money",
 											nTextAlign = "1",
@@ -3811,7 +3811,7 @@ local t =
 											{
 												PositionY = 10,
 											},
-											width = "42",
+											width = "32",
 											ZOrder = "1",
 										},
 									},

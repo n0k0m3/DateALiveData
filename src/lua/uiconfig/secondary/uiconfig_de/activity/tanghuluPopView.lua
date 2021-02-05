@@ -191,7 +191,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "32",
 							ignoreSize = "True",
 							name = "label_title",
 							nTextAlign = "0",
@@ -200,7 +200,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "Belohnungsvorschau",
+							text = "Rewards Preview",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -208,7 +208,7 @@ local t =
 								PositionX = 394,
 								PositionY = 538,
 							},
-							width = "115",
+							width = "256",
 							ZOrder = "1",
 						},
 						{

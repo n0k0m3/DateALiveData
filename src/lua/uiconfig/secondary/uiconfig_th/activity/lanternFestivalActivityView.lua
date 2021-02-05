@@ -241,7 +241,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -257,7 +257,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "รายละเอียดกิจกรรม รายละเอียดกิจกรรม รายละเอียดกิจกรรม รายละเอียดกิจกรรม รายละเอียดกิจกรรม รายละเอียดกิจกรรม",
+									text = "Event Description Event Description Event Description Event Description Event Description Event Description",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -327,7 +327,7 @@ local t =
 												StrokeColor = "#FF87231D",
 												StrokeSize = 1,
 											},
-											height = "34",
+											height = "32",
 											ignoreSize = "True",
 											name = "Label_goto",
 											nTextAlign = "1",
@@ -336,14 +336,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "ไปยัง",
+											text = "Go",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 12,
 											},
-											width = "106",
+											width = "41",
 											ZOrder = "1",
 										},
 									},
@@ -420,7 +420,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "เวลากิจกรรม",
+											text = "Event Time",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -429,7 +429,7 @@ local t =
 												PositionY = 250,
 											},
 											visible = "False",
-											width = "90",
+											width = "92",
 											ZOrder = "1",
 										},
 										{
@@ -467,7 +467,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "ป้ายข้อความ",
+											text = "TextLable",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -475,7 +475,7 @@ local t =
 												PositionX = 450,
 												PositionY = 250,
 											},
-											width = "106",
+											width = "80",
 											ZOrder = "1",
 										},
 									},

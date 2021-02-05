@@ -757,7 +757,7 @@ local t =
 									controlID = "Label_state_Panel_taskItem_Panel_prefab_Panel-agoraTaskView_Layer1_agora_Game",
 									UUID = "2292811e_1eb9_47e3_89e7_e2e537e417f3",
 									anchorPoint = "False",
-									anchorPointX = "1",
+									anchorPointX = "0.5",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -793,7 +793,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 333,
+										PositionX = 267,
 									},
 									width = "128",
 									ZOrder = "1",
@@ -824,7 +824,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
+									height = "54",
 									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "0",

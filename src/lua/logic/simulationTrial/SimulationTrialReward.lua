@@ -15,6 +15,8 @@ function SimulationTrialReward:ctor(...)
     self.super.ctor(self)
     self:initData(...)
     self:showPopAnim(true)
+
+    print("SimulationTrialReward: the resConfig ui is ", self.resConfig.ui)
     self:init("lua.uiconfig."..self.resConfig.ui)
 end
 
@@ -23,9 +25,9 @@ function SimulationTrialReward:initUI(ui)
     -- local Panel_root      = TFDirector:getChildByPath(ui, "Panel_root")
     self.Panel_root       = TFDirector:getChildByPath(ui, "Panel_parent")
     local Image_sign      = TFDirector:getChildByPath(self.Panel_root, "Image_sign")
-    local Label_title_en  = TFDirector:getChildByPath(Image_sign, "Label_title_en")
+    local Label_title_en  = TFDirector:getChildByPath(self.Panel_root, "Label_title_en")
     Label_title_en:setTextById(self.resConfig.titleEn)
-    local Label_title     = TFDirector:getChildByPath(Image_sign, "Label_title")
+    local Label_title     = TFDirector:getChildByPath(self.Panel_root, "Label_title")
     Label_title:setTextById(self.resConfig.titleCn)
 
     local Label_title     = TFDirector:getChildByPath(self.Panel_root, "Label_title")

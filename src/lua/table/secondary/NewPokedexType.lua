@@ -690,7 +690,7 @@ return {
     },
     [7015] = {
         type2 = 107015,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -704,7 +704,7 @@ return {
     },
     [7016] = {
         type2 = 107016,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -818,7 +818,7 @@ return {
     },
     [2019] = {
         type2 = 102019,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -1409,7 +1409,7 @@ return {
     },
     [1023] = {
         type2 = 101023,
-        isOpen = false,
+        isOpen = true,
         type1 = 1,
         type3 = {
             [1] = 201001,
@@ -1425,7 +1425,7 @@ return {
     },
     [1024] = {
         type2 = 101024,
-        isOpen = false,
+        isOpen = true,
         type1 = 1,
         type3 = {
             [1] = 201001,
@@ -1616,7 +1616,7 @@ return {
     },
     [2017] = {
         type2 = 102017,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -1738,7 +1738,7 @@ return {
     },
     [2018] = {
         type2 = 102018,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,

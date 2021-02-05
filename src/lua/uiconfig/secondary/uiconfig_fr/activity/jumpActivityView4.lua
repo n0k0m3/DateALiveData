@@ -213,7 +213,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "label_jump",
 									nTextAlign = "1",
@@ -232,7 +232,7 @@ local t =
 										
 									},
 									visible = "False",
-									width = "106",
+									width = "200",
 									ZOrder = "1",
 								},
 								{

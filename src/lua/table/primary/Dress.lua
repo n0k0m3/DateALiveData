@@ -249,7 +249,7 @@ return {
         roleModel = 210408,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 78,
+            [1] = 142,
         },
         icon = "icon/role/dress_kanban/10408.png",
     },
@@ -2396,7 +2396,6 @@ return {
         roleModel = 210421,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 182,
         },
         icon = "icon/role/dress_kanban/10421.png",
     },
@@ -2568,7 +2567,6 @@ return {
         roleModel = 210421,
         skinSettingTitle = 13203001,
         accessId = {
-            [1] = 181,
         },
         icon = "icon/role/dress_kanban/10422.png",
     },
@@ -2829,7 +2827,6 @@ return {
         roleModel = 210421,
         skinSettingTitle = 13203001,
         accessId = {
-            [1] = 183,
         },
         icon = "icon/role/dress_kanban/10423.png",
     },
@@ -6567,6 +6564,7 @@ return {
         roleModel = 212101,
         skinSettingTitle = 0,
         accessId = {
+            [1] = 316,
         },
         icon = "icon/role/dress_kanban/12101.png",
     },
@@ -9892,7 +9890,7 @@ return {
         roleModel = 210211,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 78,
+            [1] = 142,
         },
         icon = "icon/role/dress_kanban/10211.png",
     },

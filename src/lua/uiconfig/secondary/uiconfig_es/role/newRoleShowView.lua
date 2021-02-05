@@ -2927,15 +2927,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "28",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_t",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -2943,14 +2943,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "服装设置",
+											text = "Clothing settings",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												IsPercent = true,
 											},
-											width = "98",
+											width = "100",
 											ZOrder = "1",
 										},
 										{
@@ -2999,15 +2999,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "28",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_t",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -3015,14 +3015,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "服装设置",
+													text = "Clothing settings",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														IsPercent = true,
 													},
-													width = "98",
+													width = "100",
 													ZOrder = "1",
 												},
 											},
@@ -3599,14 +3599,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "50",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_des",
 									nTextAlign = "0",
@@ -3649,7 +3649,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -3853,7 +3853,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 111,
+												PositionX = 112,
 												PositionY = 55,
 												IsPercent = true,
 												PercentX = 93.19,

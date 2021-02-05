@@ -4196,7 +4196,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1033",
 							ZOrder = "1",
 							components = 
@@ -5977,7 +5976,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -587,
+								PositionX = -588,
 								PositionY = -32,
 								LeftPositon = 551,
 								TopPosition = -254,
@@ -6141,7 +6140,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -7650,14 +7649,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_timing",
 											nTextAlign = "1",
@@ -7674,7 +7673,7 @@ local t =
 												PositionX = 109,
 												PositionY = -155,
 											},
-											width = "105",
+											width = "94",
 											ZOrder = "1",
 										},
 									},
@@ -8243,14 +8242,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_timing",
 											nTextAlign = "1",
@@ -8267,7 +8266,7 @@ local t =
 												PositionX = 109,
 												PositionY = -156,
 											},
-											width = "105",
+											width = "94",
 											ZOrder = "1",
 										},
 									},
@@ -8762,14 +8761,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_timing",
 											nTextAlign = "1",
@@ -8786,7 +8785,7 @@ local t =
 												PositionX = 108,
 												PositionY = -153,
 											},
-											width = "105",
+											width = "94",
 											ZOrder = "1",
 										},
 									},
@@ -9067,14 +9066,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -9091,7 +9090,7 @@ local t =
 										PositionX = -11,
 										PositionY = -20,
 									},
-									width = "47",
+									width = "38",
 									ZOrder = "1",
 								},
 								{
@@ -9113,7 +9112,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,

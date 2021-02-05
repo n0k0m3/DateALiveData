@@ -1331,6 +1331,174 @@ return {
             [4] = 5,
         },
     },
+    [92] = {
+        graph = 5,
+        rarity = 5,
+        id = 92,
+        drawingId = 1423511,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 300,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1323511,
+        materialCondition = {
+            [1] = 4,
+            [2] = 111701,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [93] = {
+        graph = 5,
+        rarity = 5,
+        id = 93,
+        drawingId = 1423521,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 300,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1323521,
+        materialCondition = {
+            [1] = 4,
+            [2] = 111701,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [94] = {
+        graph = 5,
+        rarity = 5,
+        id = 94,
+        drawingId = 1423531,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 300,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1323531,
+        materialCondition = {
+            [1] = 4,
+            [2] = 111701,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [95] = {
+        graph = 5,
+        rarity = 5,
+        id = 95,
+        drawingId = 1423541,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 300,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1323541,
+        materialCondition = {
+            [1] = 4,
+            [2] = 111701,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [96] = {
+        graph = 5,
+        rarity = 5,
+        id = 96,
+        drawingId = 1424511,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 300,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1324511,
+        materialCondition = {
+            [1] = 4,
+            [2] = 111601,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [97] = {
+        graph = 5,
+        rarity = 5,
+        id = 97,
+        drawingId = 1424521,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 300,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1324521,
+        materialCondition = {
+            [1] = 4,
+            [2] = 111601,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [98] = {
+        graph = 5,
+        rarity = 5,
+        id = 98,
+        drawingId = 1424531,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 300,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1324531,
+        materialCondition = {
+            [1] = 4,
+            [2] = 111601,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [99] = {
+        graph = 5,
+        rarity = 5,
+        id = 99,
+        drawingId = 1424541,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 300,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1324541,
+        materialCondition = {
+            [1] = 4,
+            [2] = 111601,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
     [124] = {
         graph = 5,
         rarity = 6,
@@ -2591,6 +2759,174 @@ return {
             [4] = 5,
         },
     },
+    [216] = {
+        graph = 5,
+        rarity = 6,
+        id = 216,
+        drawingId = 1423611,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 1500,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1323611,
+        materialCondition = {
+            [1] = 5,
+            [2] = 111701,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [217] = {
+        graph = 5,
+        rarity = 6,
+        id = 217,
+        drawingId = 1423621,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 1500,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1323621,
+        materialCondition = {
+            [1] = 5,
+            [2] = 111701,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [218] = {
+        graph = 5,
+        rarity = 6,
+        id = 218,
+        drawingId = 1423631,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 1500,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1323631,
+        materialCondition = {
+            [1] = 5,
+            [2] = 111701,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [219] = {
+        graph = 5,
+        rarity = 6,
+        id = 219,
+        drawingId = 1423641,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 1500,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1323641,
+        materialCondition = {
+            [1] = 5,
+            [2] = 111701,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [220] = {
+        graph = 5,
+        rarity = 6,
+        id = 220,
+        drawingId = 1424611,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 1500,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1324611,
+        materialCondition = {
+            [1] = 5,
+            [2] = 111601,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [221] = {
+        graph = 5,
+        rarity = 6,
+        id = 221,
+        drawingId = 1424621,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 1500,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1324621,
+        materialCondition = {
+            [1] = 5,
+            [2] = 111601,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [222] = {
+        graph = 5,
+        rarity = 6,
+        id = 222,
+        drawingId = 1424631,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 1500,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1324631,
+        materialCondition = {
+            [1] = 5,
+            [2] = 111601,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [223] = {
+        graph = 5,
+        rarity = 6,
+        id = 223,
+        drawingId = 1424641,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 1500,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1324641,
+        materialCondition = {
+            [1] = 5,
+            [2] = 111601,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
     [244] = {
         graph = 5,
         rarity = 7,
@@ -3074,6 +3410,69 @@ return {
             [4] = 5,
         },
     },
+    [347] = {
+        graph = 5,
+        rarity = 7,
+        id = 347,
+        drawingId = 1424741,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 5000,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1324741,
+        materialCondition = {
+            [1] = 6,
+            [2] = 111601,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [346] = {
+        graph = 5,
+        rarity = 7,
+        id = 346,
+        drawingId = 1424731,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 5000,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1324731,
+        materialCondition = {
+            [1] = 6,
+            [2] = 111601,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [345] = {
+        graph = 5,
+        rarity = 7,
+        id = 345,
+        drawingId = 1424721,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 5000,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1324721,
+        materialCondition = {
+            [1] = 6,
+            [2] = 111601,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
     [312] = {
         graph = 5,
         rarity = 7,
@@ -3154,6 +3553,90 @@ return {
         materialCondition = {
             [1] = 6,
             [2] = 110302,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [344] = {
+        graph = 5,
+        rarity = 7,
+        id = 344,
+        drawingId = 1424711,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 5000,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1324711,
+        materialCondition = {
+            [1] = 6,
+            [2] = 111601,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [343] = {
+        graph = 5,
+        rarity = 7,
+        id = 343,
+        drawingId = 1423741,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 5000,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1323741,
+        materialCondition = {
+            [1] = 6,
+            [2] = 111701,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [342] = {
+        graph = 5,
+        rarity = 7,
+        id = 342,
+        drawingId = 1423731,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 5000,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1323731,
+        materialCondition = {
+            [1] = 6,
+            [2] = 111701,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [341] = {
+        graph = 5,
+        rarity = 7,
+        id = 341,
+        drawingId = 1423721,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 5000,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1323721,
+        materialCondition = {
+            [1] = 6,
+            [2] = 111701,
             [3] = 0,
             [4] = 5,
         },
@@ -3847,6 +4330,27 @@ return {
         materialCondition = {
             [1] = 6,
             [2] = 110602,
+            [3] = 0,
+            [4] = 5,
+        },
+    },
+    [340] = {
+        graph = 5,
+        rarity = 7,
+        id = 340,
+        drawingId = 1423711,
+        mustMaterial = {
+        },
+        needDrawing = true,
+        currency = {
+            [599501] = 5000,
+        },
+        randomResultItems = {
+        },
+        mustResultItems = 1323711,
+        materialCondition = {
+            [1] = 6,
+            [2] = 111701,
             [3] = 0,
             [4] = 5,
         },

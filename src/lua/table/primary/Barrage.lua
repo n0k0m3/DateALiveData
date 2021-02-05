@@ -16,4 +16,22 @@ return {
         loadNumber = 50,
         quantityReserved  = 500,
     },
+    [1102] = {
+        otherShowType = {
+            [1] = 1,
+            [2] = 2,
+            [3] = 3,
+            [4] = 4,
+        },
+        detail  = "春节",
+        id = 1102,
+        coolTime = 10,
+        barrageTim = 10,
+        quantityPublish = 50,
+        path  = "cg_znq_180901",
+        selfShowType = 7,
+        barrageType  = 5,
+        loadNumber = 50,
+        quantityReserved  = 500,
+    },
 }

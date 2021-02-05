@@ -4,66 +4,122 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-fengchegan
+de
   rotate: false
-  xy: 498, 638
-  size: 8, 69
-  orig: 8, 69
+  xy: 330, 455
+  size: 106, 64
+  orig: 106, 64
+  offset: 0, 0
+  index: -1
+en
+  rotate: false
+  xy: 661, 942
+  size: 111, 45
+  orig: 111, 45
+  offset: 0, 0
+  index: -1
+es
+  rotate: true
+  xy: 2, 2
+  size: 118, 38
+  orig: 118, 38
+  offset: 0, 0
+  index: -1
+fengchegan
+  rotate: true
+  xy: 213, 169
+  size: 11, 92
+  orig: 11, 92
   offset: 0, 0
   index: -1
 fengchezhongxin
   rotate: false
-  xy: 89, 82
-  size: 18, 18
-  orig: 18, 18
+  xy: 438, 495
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+fr
+  rotate: false
+  xy: 2, 122
+  size: 116, 58
+  orig: 116, 58
+  offset: 0, 0
+  index: -1
+id
+  rotate: false
+  xy: 470, 758
+  size: 126, 38
+  orig: 126, 38
+  offset: 0, 0
+  index: -1
+ko
+  rotate: false
+  xy: 120, 138
+  size: 91, 42
+  orig: 91, 42
   offset: 0, 0
   index: -1
 shanye1
   rotate: false
-  xy: 354, 532
-  size: 56, 31
-  orig: 56, 31
+  xy: 774, 946
+  size: 75, 41
+  orig: 75, 41
   offset: 0, 0
   index: -1
 shanye2
   rotate: false
-  xy: 249, 308
-  size: 48, 47
-  orig: 48, 47
+  xy: 661, 878
+  size: 64, 62
+  orig: 64, 62
   offset: 0, 0
   index: -1
 shanye3
   rotate: false
-  xy: 2, 2
-  size: 16, 52
-  orig: 16, 52
+  xy: 330, 339
+  size: 21, 69
+  orig: 21, 69
   offset: 0, 0
   index: -1
-wenzi
-  rotate: false
-  xy: 2, 56
-  size: 85, 44
-  orig: 90, 45
-  offset: 2, 1
+th
+  rotate: true
+  xy: 42, 42
+  size: 78, 48
+  orig: 78, 48
+  offset: 0, 0
   index: -1
 wenzihuan
   rotate: false
-  xy: 2, 357
-  size: 350, 350
-  orig: 350, 350
+  xy: 2, 521
+  size: 466, 466
+  orig: 466, 466
   offset: 0, 0
   index: -1
 xingxing
   rotate: false
-  xy: 2, 102
-  size: 245, 253
-  orig: 245, 253
+  xy: 2, 182
+  size: 326, 337
+  orig: 326, 337
+  offset: 0, 0
+  index: -1
+zh
+  rotate: false
+  xy: 330, 410
+  size: 90, 43
+  orig: 90, 43
   offset: 0, 0
   index: -1
 zhongxinfazhen
   rotate: false
-  xy: 354, 565
-  size: 142, 142
-  orig: 142, 142
+  xy: 470, 798
+  size: 189, 189
+  orig: 189, 189
+  offset: 0, 0
+  index: -1
+zn
+  rotate: false
+  xy: 470, 714
+  size: 90, 42
+  orig: 90, 42
   offset: 0, 0
   index: -1

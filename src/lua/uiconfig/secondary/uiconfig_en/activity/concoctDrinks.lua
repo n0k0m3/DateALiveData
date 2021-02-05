@@ -137,7 +137,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "25",
+							height = "23",
 							ignoreSize = "True",
 							name = "downcount",
 							nTextAlign = "1",
@@ -151,10 +151,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 478,
+								PositionX = 474,
 								PositionY = 58,
 							},
-							width = "64",
+							width = "123",
 							ZOrder = "1",
 						},
 						{
@@ -417,14 +417,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "label",
 													nTextAlign = "1",
@@ -440,7 +440,7 @@ local t =
 													{
 														PositionY = 5,
 													},
-													width = "98",
+													width = "85",
 													ZOrder = "1",
 												},
 											},
@@ -1416,7 +1416,7 @@ local t =
 							backGroundScale9Enable = "True;capInsetsX:50;capInsetsY:40;capInsetsWidth:113;capInsetsHeight:29",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "100",
+							height = "120",
 							ignoreSize = "False",
 							name = "dialog",
 							sizepercentx = "0",
@@ -1443,7 +1443,7 @@ local t =
 									anchorPointY = "0.5",
 									classname = "METextArea",
 									dstBlendFunc = "771",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -1452,7 +1452,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "17",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1460,23 +1460,23 @@ local t =
 										StrokeSize = 1,
 									},
 									hAlignment = "0",
-									height = "70",
+									height = "0",
 									ignoreSize = "False",
 									name = "text",
 									sizepercentx = "34",
 									sizepercenty = "21",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "I want a cappuccino, can you make me a drink",
+									text = "TextArea",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = 140,
-										PositionY = 52,
+										PositionY = 60,
 									},
 									vAlignment = "0",
-									width = "230",
+									width = "222",
 									ZOrder = "1",
 								},
 								{
@@ -1600,7 +1600,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FF223678",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -1609,7 +1609,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1617,7 +1617,7 @@ local t =
 										StrokeSize = 1,
 									},
 									height = "0",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "targetDrinkName",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1625,13 +1625,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
+									text = "aaaaaaaaa",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -52,
 									},
-									width = "0",
+									width = "130",
 									ZOrder = "1",
 								},
 							},

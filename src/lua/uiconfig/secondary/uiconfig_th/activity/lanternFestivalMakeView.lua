@@ -286,7 +286,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -302,7 +302,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "持有7753454545",
+									text = "Hold 7753454545",
 									touchAble = "False",
 									touchScaleEnable = "True",
 									UILayoutViewModel = 
@@ -331,15 +331,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "lab_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -347,7 +347,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "ฉายา",
+									text = "Title",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -356,7 +356,7 @@ local t =
 										PositionY = -46,
 									},
 									visible = "False",
-									width = "48",
+									width = "130",
 									ZOrder = "1",
 								},
 								{
@@ -439,7 +439,7 @@ local t =
 											{
 												PositionY = -53,
 											},
-											width = "40",
+											width = "34",
 											ZOrder = "1",
 										},
 										{
@@ -550,7 +550,7 @@ local t =
 											{
 												PositionY = -53,
 											},
-											width = "40",
+											width = "34",
 											ZOrder = "1",
 										},
 										{
@@ -661,7 +661,7 @@ local t =
 											{
 												PositionY = -51,
 											},
-											width = "40",
+											width = "34",
 											ZOrder = "1",
 										},
 									},
@@ -859,7 +859,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_make",
 											nTextAlign = "1",
@@ -868,14 +868,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "รวม",
+											text = "Craft",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "52",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -955,7 +955,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -971,14 +971,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "วัสดุไม่เพียงพอ",
+													text = "Insufficient Materials",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = 1,
 													},
-													width = "65",
+													width = "70",
 													ZOrder = "1",
 												},
 											},
@@ -1040,7 +1040,7 @@ local t =
 												StrokeColor = "#FF22374E",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_name_1",
 											nTextAlign = "1",
@@ -1049,7 +1049,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "สีแดง",
+											text = "Red",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1057,7 +1057,7 @@ local t =
 												PositionX = -7,
 												PositionY = 18,
 											},
-											width = "26",
+											width = "50",
 											ZOrder = "1",
 										},
 										{
@@ -1086,7 +1086,7 @@ local t =
 												StrokeColor = "#FF22374E",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_name_2",
 											nTextAlign = "1",
@@ -1095,7 +1095,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "ถั่ว",
+											text = "Bean",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1103,7 +1103,7 @@ local t =
 												PositionX = 6,
 												PositionY = -21,
 											},
-											width = "26",
+											width = "62",
 											ZOrder = "1",
 										},
 									},
@@ -1203,7 +1203,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1219,7 +1219,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "持有7753454545",
+									text = "Hold 7753454545",
 									touchAble = "False",
 									touchScaleEnable = "True",
 									UILayoutViewModel = 
@@ -1248,15 +1248,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "lab_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1264,7 +1264,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "ฉายา",
+									text = "Title",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1273,7 +1273,7 @@ local t =
 										PositionY = -46,
 									},
 									visible = "False",
-									width = "48",
+									width = "130",
 									ZOrder = "1",
 								},
 								{
@@ -1356,7 +1356,7 @@ local t =
 											{
 												PositionY = -53,
 											},
-											width = "40",
+											width = "34",
 											ZOrder = "1",
 										},
 										{
@@ -1467,7 +1467,7 @@ local t =
 											{
 												PositionY = -53,
 											},
-											width = "40",
+											width = "34",
 											ZOrder = "1",
 										},
 										{
@@ -1578,7 +1578,7 @@ local t =
 											{
 												PositionY = -51,
 											},
-											width = "40",
+											width = "34",
 											ZOrder = "1",
 										},
 									},
@@ -1775,7 +1775,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_make",
 											nTextAlign = "1",
@@ -1784,14 +1784,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "รวม",
+											text = "Craft",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "52",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -1871,7 +1871,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -1887,14 +1887,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "วัสดุไม่เพียงพอ",
+													text = "Insufficient Materials",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = 1,
 													},
-													width = "65",
+													width = "70",
 													ZOrder = "1",
 												},
 											},
@@ -1956,7 +1956,7 @@ local t =
 												StrokeColor = "#FF22374E",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_name_1",
 											nTextAlign = "1",
@@ -1965,7 +1965,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "สีแดง",
+											text = "Red",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1973,7 +1973,7 @@ local t =
 												PositionX = -7,
 												PositionY = 18,
 											},
-											width = "26",
+											width = "50",
 											ZOrder = "1",
 										},
 										{
@@ -2002,7 +2002,7 @@ local t =
 												StrokeColor = "#FF22374E",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_name_2",
 											nTextAlign = "1",
@@ -2011,7 +2011,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "ถั่ว",
+											text = "Bean",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2019,7 +2019,7 @@ local t =
 												PositionX = 6,
 												PositionY = -21,
 											},
-											width = "26",
+											width = "62",
 											ZOrder = "1",
 										},
 									},
@@ -2119,7 +2119,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -2135,7 +2135,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "持有7753454545",
+									text = "Hold 7753454545",
 									touchAble = "False",
 									touchScaleEnable = "True",
 									UILayoutViewModel = 
@@ -2164,15 +2164,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "lab_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -2180,7 +2180,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "ฉายา",
+									text = "Title",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -2189,7 +2189,7 @@ local t =
 										PositionY = -46,
 									},
 									visible = "False",
-									width = "48",
+									width = "130",
 									ZOrder = "1",
 								},
 								{
@@ -2272,7 +2272,7 @@ local t =
 											{
 												PositionY = -53,
 											},
-											width = "40",
+											width = "34",
 											ZOrder = "1",
 										},
 										{
@@ -2383,7 +2383,7 @@ local t =
 											{
 												PositionY = -53,
 											},
-											width = "40",
+											width = "34",
 											ZOrder = "1",
 										},
 										{
@@ -2494,7 +2494,7 @@ local t =
 											{
 												PositionY = -51,
 											},
-											width = "40",
+											width = "34",
 											ZOrder = "1",
 										},
 									},
@@ -2691,7 +2691,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_make",
 											nTextAlign = "1",
@@ -2700,14 +2700,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "รวม",
+											text = "Craft",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "52",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -2787,7 +2787,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -2803,14 +2803,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "วัสดุไม่เพียงพอ",
+													text = "Insufficient Materials",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = 1,
 													},
-													width = "65",
+													width = "70",
 													ZOrder = "1",
 												},
 											},
@@ -2872,7 +2872,7 @@ local t =
 												StrokeColor = "#FF22374E",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_name_1",
 											nTextAlign = "1",
@@ -2881,7 +2881,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "สีแดง",
+											text = "Red",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2889,7 +2889,7 @@ local t =
 												PositionX = -7,
 												PositionY = 18,
 											},
-											width = "26",
+											width = "50",
 											ZOrder = "1",
 										},
 										{
@@ -2918,7 +2918,7 @@ local t =
 												StrokeColor = "#FF22374E",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_name_2",
 											nTextAlign = "1",
@@ -2927,7 +2927,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "ถั่ว",
+											text = "Bean",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2935,7 +2935,7 @@ local t =
 												PositionX = 6,
 												PositionY = -21,
 											},
-											width = "26",
+											width = "62",
 											ZOrder = "1",
 										},
 									},
