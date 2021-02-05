@@ -231,14 +231,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "34",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_medal_name",
 									nTextAlign = "1",
@@ -255,7 +255,7 @@ local t =
 										PositionX = 4,
 										PositionY = 338,
 									},
-									width = "258",
+									width = "182",
 									ZOrder = "1",
 								},
 								{
@@ -301,7 +301,7 @@ local t =
 										PositionX = 666,
 										PositionY = 250,
 									},
-									width = "100",
+									width = "98",
 									ZOrder = "1",
 								},
 								{
@@ -570,7 +570,7 @@ local t =
 										PositionX = 283,
 										PositionY = 225,
 									},
-									width = "71",
+									width = "76",
 									ZOrder = "1",
 								},
 								{
@@ -616,7 +616,7 @@ local t =
 										PositionX = 374,
 										PositionY = 225,
 									},
-									width = "86",
+									width = "84",
 									ZOrder = "1",
 								},
 								{
@@ -662,7 +662,7 @@ local t =
 										PositionX = 218,
 										PositionY = 255,
 									},
-									width = "137",
+									width = "136",
 									ZOrder = "1",
 								},
 								{
@@ -708,7 +708,7 @@ local t =
 										PositionX = 374,
 										PositionY = 255,
 									},
-									width = "87",
+									width = "84",
 									ZOrder = "1",
 								},
 								{

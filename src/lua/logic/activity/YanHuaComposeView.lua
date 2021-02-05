@@ -72,7 +72,7 @@ function YanHuaComposeView:initUI( ui )
 		self.Panel_dotList:addChild(dot)
 	end
 	
-	self:flushContent()
+	--self:flushContent()
 end
 
 function YanHuaComposeView:registerEvents( )
@@ -243,7 +243,9 @@ function YanHuaComposeView:flushContent()
 		end
 	end
 end
-
+function YanHuaComposeView:onShow( ... )
+	self:flushContent()
+end
 function YanHuaComposeView:flushItem(itemNode,consume)
 	local pos = TFDirector:getChildByPath(itemNode,"pos")
 	if not pos.itemNode then

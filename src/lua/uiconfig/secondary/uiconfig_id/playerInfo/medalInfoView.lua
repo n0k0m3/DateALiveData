@@ -231,14 +231,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_medal_name",
 									nTextAlign = "1",
@@ -255,7 +255,7 @@ local t =
 										PositionX = 4,
 										PositionY = 338,
 									},
-									width = "162",
+									width = "115",
 									ZOrder = "1",
 								},
 								{
