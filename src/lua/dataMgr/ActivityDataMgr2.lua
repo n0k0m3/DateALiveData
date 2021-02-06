@@ -243,6 +243,22 @@ function ActivityDataMgr:getActivityInfo(id, activityShowType)
             end
         end
 
+        -- 活动结束后，隐藏活动
+        local excludeHideType = {
+            EC_ActivityType2.ONLINE_SCORE_REWARD,
+            EC_ActivityType2.LEAGUE_SCORE_ASSIT
+        }
+        for i = #activitys, 1, -1 do
+            local activity = activitys[i]
+            local index = table.indexOf(excludeHideType, activity.activityType)
+            if index ~= -1 then
+                local serverTime = ServerDataMgr:getServerTime()
+                if serverTime >= activity.endTime then
+                    table.remove(activitys, i)
+                end
+            end
+        end
+
         table.sort(activitys, function(a,b)
             return a.rank < b.rank
         end)
