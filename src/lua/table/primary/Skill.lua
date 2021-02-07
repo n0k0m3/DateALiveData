@@ -6177,7 +6177,7 @@ return {
         coverBuff = {
         },
         skillType = 1,
-        namecehua = "普攻",
+        namecehua = "普攻.",
         specialEnergy = 0,
         HurtType = "450045",
     },

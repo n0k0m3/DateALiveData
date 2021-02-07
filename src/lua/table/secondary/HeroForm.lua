@@ -14553,7 +14553,7 @@ return {
             [15] = 700394,
         },
         durationTime = -1,
-        des = "鞠奈入侵BOSS-LV1-角色",
+        des = "鞠奈入侵BOSS-LV1-角色 ",
     },
     [20005360] = {
         skillWeight = {

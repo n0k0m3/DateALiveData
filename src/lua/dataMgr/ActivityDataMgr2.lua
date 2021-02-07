@@ -259,6 +259,7 @@ function ActivityDataMgr:getActivityInfo(id, activityShowType)
             end
         end
 
+        
         table.sort(activitys, function(a,b)
             return a.rank < b.rank
         end)

@@ -8128,7 +8128,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -56,
-												PositionY = -52,
+												PositionY = 80,
 											},
 											uipanelviewmodel = 
 											{

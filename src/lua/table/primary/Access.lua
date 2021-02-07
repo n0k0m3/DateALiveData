@@ -1637,6 +1637,17 @@ return {
         },
         accessType = 3,
     },
+    [320] = {
+        accessparam = "",
+        name = "1400012",
+        name2 = "190016237",
+        id = 320,
+        jumpInterface = 6,
+        parameter = {
+            [1] = 66,
+        },
+        accessType = 52,
+    },
     [305] = {
         accessparam = "",
         name = "1400012",
