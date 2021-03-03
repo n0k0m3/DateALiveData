@@ -2526,11 +2526,11 @@ return {
         id = 102012,
         relation = 0,
         quantity = 0,
-        name = 0,
+        name = 31101,
         datingTitle2 = 0,
         datingTitle4 = 0,
         datingTitle1 = 0,
-        icon = "",
+        icon = "icon/hero/face/1111011.png",
         type2 = 3,
     },
     [102028] = {

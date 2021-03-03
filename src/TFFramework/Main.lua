@@ -19,7 +19,8 @@ function __G__TRACKBACK__(msg)
         --     CommonManager:openWarningLayer()
         -- end
 
-        Bugly:ReportLuaException(msg)
+        --Bugly:ReportLuaException(msg)
+        Crashlytics:reportLuaException(msg)
     end
 end
 

@@ -137,7 +137,7 @@ function DepotView:refreshView()
 
         if id == 3 and table.count(self._ui.Panel_3:getChildren()) == 0 then    -- 养成基金
             local layer = requireNew("lua.logic.supplyNew.FundNewView"):new()
-            layer:AddTo(self._ui.Panel_3)
+            self:addLayerToNode(layer ,self._ui.Panel_3)
         end
 
         if id == 4 then  -- 特勤支援

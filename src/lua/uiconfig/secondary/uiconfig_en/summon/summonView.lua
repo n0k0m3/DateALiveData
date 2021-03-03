@@ -1918,7 +1918,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -2304,7 +2303,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -101,
+												PositionX = -141,
 												PositionY = -1,
 											},
 											width = "254",
@@ -2350,7 +2349,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -103,
+												PositionX = -143,
 												PositionY = -1,
 											},
 											width = "22",

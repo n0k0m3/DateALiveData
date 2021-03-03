@@ -681,7 +681,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										
+										PositionY = -96,
 									},
 									UItype = "Button",
 									width = "74",
@@ -784,7 +784,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionY = 119,
+										PositionY = 23,
 									},
 									UItype = "Button",
 									width = "74",
@@ -890,7 +890,6 @@ local t =
 										PositionY = 130,
 									},
 									UItype = "Button",
-									visible = "False",
 									width = "74",
 									ZOrder = "1",
 									components = 
@@ -963,7 +962,7 @@ local t =
 											{
 												PositionY = -45,
 											},
-											width = "76",
+											width = "75",
 											ZOrder = "1",
 										},
 									},
@@ -1562,7 +1561,7 @@ local t =
 												StrokeColor = "#FFFFFFFF",
 												StrokeSize = 2,
 											},
-											height = "19",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_newPlayerNumExp",
 											nTextAlign = "1",
@@ -1579,7 +1578,7 @@ local t =
 												PositionX = -12,
 												PositionY = -12,
 											},
-											width = "36",
+											width = "30",
 											ZOrder = "1",
 										},
 										{
@@ -1608,7 +1607,7 @@ local t =
 												StrokeColor = "#FFFFFFFF",
 												StrokeSize = 2,
 											},
-											height = "19",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_newPlayerNumCoin",
 											nTextAlign = "1",
@@ -1625,7 +1624,7 @@ local t =
 												PositionX = 55,
 												PositionY = -12,
 											},
-											width = "36",
+											width = "30",
 											ZOrder = "1",
 										},
 									},

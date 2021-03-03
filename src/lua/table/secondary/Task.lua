@@ -31579,7 +31579,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 190014,
         extendsTaskId = 0,
         subType = 2,
@@ -50739,7 +50739,7 @@ return {
         colour2 = {
         },
         typeDes = "1330003",
-        open = false,
+        open = true,
         id = 210022,
         extendsTaskId = 0,
         subType = 2,
@@ -55334,13 +55334,13 @@ return {
         icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 50,
+            [1] = 40,
             [2] = 99,
         },
         colour2 = {
         },
         typeDes = "1330003",
-        open = false,
+        open = true,
         id = 220013,
         extendsTaskId = 0,
         subType = 2,
@@ -57667,7 +57667,7 @@ return {
         colour2 = {
         },
         typeDes = "1330003",
-        open = false,
+        open = true,
         id = 220019,
         extendsTaskId = 0,
         subType = 2,
@@ -75827,7 +75827,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 318008,
         extendsTaskId = 0,
         subType = 2,
@@ -77424,7 +77424,7 @@ return {
         colour2 = {
         },
         typeDes = "1330003",
-        open = false,
+        open = true,
         id = 220020,
         extendsTaskId = 0,
         subType = 2,

@@ -1104,10 +1104,10 @@ return {
         isSendRecordMsg = false,
         icon = "ui/store/new_ui/icon6.png",
         openContType = 1,
-        isOpen = false,
+        isOpen = true,
         id = 140000,
         storeLabel = "",
-        openContVal = 99,
+        openContVal = 28,
         refreshCostNum = {
         },
         refreshCostId = 0,

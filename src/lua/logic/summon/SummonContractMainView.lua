@@ -118,6 +118,8 @@ function SummonContractMainView:refreshView()
     end
     flushLabelTime()
     self.timer = TFDirector:addTimer(1000,-1,nil,flushLabelTime)
+
+
 end
 
 function SummonContractMainView:updateContractState()
@@ -189,6 +191,11 @@ function SummonContractMainView:updateContractState()
     self.Label_raw_costNum:setText(cfg.OriginalCost)
     self.Label_costNum:setText(cfg.Price)
     self:updateAllTaskItem()
+
+    if self.isBuyConfirm == true then
+        Utils:openView("summon.SummonContractDetailsView")
+        self.isBuyConfirm = false
+    end
 end
 
 function SummonContractMainView:updateAllTaskItem()
@@ -255,12 +262,13 @@ function SummonContractMainView:registerEvents()
     EventMgr:addEventListener(self, EV_UPDATE_SUMMONCONTRACT, handler(self.updateContractState, self))
 
     self.Button_details:onClick(function()
-            Utils:openView("summon.SummonContractDetailsView")
+        Utils:openView("summon.SummonContractDetailsView")
     end)
 
     self.Button_build:onClick(function()
         local canBuy, cfg = SummonDataMgr:getCanBuildContract( )
         if canBuy then
+            self.isBuyConfirm = true
             RechargeDataMgr:getOrderNO(cfg.SellingPrice);
         end
     end)

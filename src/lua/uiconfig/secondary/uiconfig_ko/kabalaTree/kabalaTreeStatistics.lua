@@ -194,7 +194,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "30",
+									height = "60",
 									ignoreSize = "True",
 									name = "Button_close",
 									normal = "ui/common/pop_ui/pop_btn_02.png",
@@ -209,7 +209,7 @@ local t =
 										PositionY = 176,
 									},
 									UItype = "Button",
-									width = "30",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -235,6 +235,7 @@ local t =
 										PositionX = -242,
 										PositionY = 168,
 									},
+									visible = "False",
 									width = "14",
 									ZOrder = "1",
 								},
@@ -281,7 +282,8 @@ local t =
 										PositionX = -251,
 										PositionY = 169,
 									},
-									width = "69",
+									visible = "False",
+									width = "64",
 									ZOrder = "1",
 								},
 								{
@@ -310,7 +312,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -327,7 +329,7 @@ local t =
 										PositionX = -377,
 										PositionY = 172,
 									},
-									width = "116",
+									width = "111",
 									ZOrder = "1",
 								},
 								{
@@ -353,6 +355,7 @@ local t =
 										PositionX = -258,
 										PositionY = 174,
 									},
+									visible = "False",
 									width = "2",
 									ZOrder = "1",
 								},
@@ -382,7 +385,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_timetip",
 									nTextAlign = "1",
@@ -399,7 +402,7 @@ local t =
 										PositionX = 212,
 										PositionY = 173,
 									},
-									width = "131",
+									width = "124",
 									ZOrder = "1",
 								},
 								{
@@ -428,7 +431,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_time",
 									nTextAlign = "2",
@@ -445,7 +448,7 @@ local t =
 										PositionX = 221,
 										PositionY = 174,
 									},
-									width = "95",
+									width = "77",
 									ZOrder = "1",
 								},
 							},
@@ -665,7 +668,7 @@ local t =
 													{
 														PositionY = 21,
 													},
-													width = "14",
+													width = "13",
 													ZOrder = "1",
 												},
 												{
@@ -830,7 +833,7 @@ local t =
 													{
 														PositionY = 21,
 													},
-													width = "14",
+													width = "13",
 													ZOrder = "1",
 												},
 												{
@@ -995,7 +998,7 @@ local t =
 													{
 														PositionY = 21,
 													},
-													width = "14",
+													width = "13",
 													ZOrder = "1",
 												},
 												{
@@ -1160,7 +1163,7 @@ local t =
 													{
 														PositionY = 21,
 													},
-													width = "14",
+													width = "13",
 													ZOrder = "1",
 												},
 												{
@@ -1325,7 +1328,7 @@ local t =
 													{
 														PositionY = 21,
 													},
-													width = "14",
+													width = "13",
 													ZOrder = "1",
 												},
 												{

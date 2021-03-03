@@ -314,7 +314,7 @@ local t =
 							controlID = "txt_tip_panel_content_Panel-whiteValentineActivityView_Layer1_activity_Game",
 							UUID = "fec78152_033f_460b_8b42_b1d41975ca93",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -329,14 +329,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "27",
+							height = "21",
 							ignoreSize = "True",
 							name = "txt_tip",
 							nTextAlign = "1",
@@ -350,10 +350,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -362,
+								PositionX = -430,
 								PositionY = -172,
 							},
-							width = "141",
+							width = "181",
 							ZOrder = "2",
 						},
 						{
@@ -382,7 +382,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "27",
+							height = "25",
 							ignoreSize = "True",
 							name = "txt_num",
 							nTextAlign = "1",
@@ -396,7 +396,7 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -286,
+								PositionX = -233,
 								PositionY = -172,
 							},
 							width = "14",

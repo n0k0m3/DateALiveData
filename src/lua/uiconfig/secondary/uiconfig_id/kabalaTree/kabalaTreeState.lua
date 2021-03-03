@@ -197,7 +197,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -214,7 +214,7 @@ local t =
 										PositionX = -493,
 										PositionY = 190,
 									},
-									width = "123",
+									width = "72",
 									ZOrder = "1",
 								},
 								{
@@ -278,6 +278,7 @@ local t =
 										PositionX = -301,
 										PositionY = 192,
 									},
+									visible = "False",
 									width = "121",
 									ZOrder = "1",
 								},
@@ -360,14 +361,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "28",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "35",
+													height = "18",
 													ignoreSize = "True",
 													name = "Label_btn_1",
 													nTextAlign = "1",
@@ -383,7 +384,7 @@ local t =
 													{
 														PositionY = 3,
 													},
-													width = "113",
+													width = "145",
 													ZOrder = "1",
 												},
 												{
@@ -428,7 +429,7 @@ local t =
 													{
 														PositionY = -20,
 													},
-													width = "91",
+													width = "81",
 													ZOrder = "1",
 												},
 											},
@@ -484,14 +485,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "28",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "35",
+													height = "18",
 													ignoreSize = "True",
 													name = "Label_btn_1",
 													nTextAlign = "1",
@@ -507,7 +508,7 @@ local t =
 													{
 														PositionY = 3,
 													},
-													width = "115",
+													width = "127",
 													ZOrder = "1",
 												},
 												{
@@ -552,7 +553,7 @@ local t =
 													{
 														PositionY = -20,
 													},
-													width = "124",
+													width = "117",
 													ZOrder = "1",
 												},
 											},
@@ -744,7 +745,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -765,9 +766,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -264,
+												PositionX = -287,
 											},
-											width = "100",
+											width = "120",
 											ZOrder = "1",
 										},
 										{
@@ -814,7 +815,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -883,7 +884,7 @@ local t =
 												PositionX = 145,
 												PositionY = 27,
 											},
-											width = "103",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -929,7 +930,7 @@ local t =
 												PositionX = 145,
 												PositionY = -3,
 											},
-											width = "70",
+											width = "100",
 											ZOrder = "1",
 										},
 										{
@@ -1005,7 +1006,7 @@ local t =
 													{
 														
 													},
-													width = "49",
+													width = "76",
 													ZOrder = "1",
 												},
 											},
@@ -1153,7 +1154,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1174,10 +1175,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -264,
+												PositionX = -287,
 												PositionY = 4,
 											},
-											width = "100",
+											width = "120",
 											ZOrder = "1",
 											components = 
 											{
@@ -1228,7 +1229,7 @@ local t =
 														PercentX = 48.89,
 														PercentY = -74.08,
 													},
-													width = "65",
+													width = "73",
 													ZOrder = "1",
 												},
 											},
@@ -1277,7 +1278,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1346,7 +1347,7 @@ local t =
 												PositionX = 145,
 												PositionY = 27,
 											},
-											width = "103",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -1392,7 +1393,7 @@ local t =
 												PositionX = 145,
 												PositionY = -3,
 											},
-											width = "70",
+											width = "100",
 											ZOrder = "1",
 										},
 										{
@@ -1468,7 +1469,7 @@ local t =
 													{
 														
 													},
-													width = "49",
+													width = "76",
 													ZOrder = "1",
 												},
 											},

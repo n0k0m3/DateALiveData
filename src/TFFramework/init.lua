@@ -53,6 +53,7 @@ require('TFFramework.utils.TFFunctionUtils')
 require('TFFramework.utils.TFStringUtils')
 require('TFFramework.utils.TFIOUtils')
 require('TFFramework.utils.Bugly')
+require('TFFramework.utils.Crashlytics')
 
 
 --[[

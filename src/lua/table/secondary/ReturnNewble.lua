@@ -321,6 +321,24 @@ return {
         details = "{\"beginTime\":\"2020-09-20 00:00:00\",\"endTime\":\"2020-10-20 23:59:59\",\"jumpInterface\":39,\"jumpParamters\":[422],\"addBuff\":{112701:{5:8611,6:8612,7:8613}}}",
         type = 1022,
     },
+    [200036] = {
+        subtitle = "",
+        changeTime = 0,
+        groups = {
+        },
+        id = 200036,
+        mailContent = 14220076,
+        open = 1,
+        mailTitle = 14220075,
+        items = "102786,102787,102788,102789,102790,102947",
+        showIcon = "",
+        title = "战令第6期",
+        weight = 0,
+        status = 2,
+        titleIcon = "",
+        details = "{\"beginTime\":\"2021-02-26 00:00:01\",\"endTime\":\"2021-03-31 23:59:59\",\"maxLevel\":100,\"rechargeList\":[910001,910002,910003],\"levelCost\":5,\"upMinExp\":10,\"activityShowType\":9999,\"addItems\":\"102947\",\"daytask\":\"102947\"}",
+        type = 1012,
+    },
     [200035] = {
         subtitle = "登录有礼",
         changeTime = 0,
@@ -741,7 +759,7 @@ return {
         weight = 8,
         status = 2,
         titleIcon = "ui/activity/picture/icon58.png",
-        details = "{\"beginTime\":\"2021-02-05 00:00:00\",\"endTime\":\"2021-02-17 23:59:59\",\"taskCount\":3,\"taskChance\":{1:\"50:0:1\",2:\"0:0:0\",3:\"0:0:0\",4:\"30:0:1\",5:\"70:0:3\"},\"refresh\":43200,\"cg\":2000018,\"des1\":\"龙舟竞赛\",\"des2\":\"端午佳节\",\"cgName\":\"龙舟滑行\",\"cgAddress\":\"modle/cg/main_cg_role_242.png\",\"itemId\":500063,\"nameIcon\":\"ui/activity/logo/logo58.png\",\"bgIcon\":\"ui/activity/logo/bg58.png\"}",
+        details = "{\"beginTime\":\"2021-02-05 00:00:00\",\"endTime\":\"2021-03-13 23:59:59\",\"taskCount\":3,\"taskChance\":{1:\"50:0:1\",2:\"0:0:0\",3:\"0:0:0\",4:\"30:0:1\",5:\"70:0:3\"},\"refresh\":43200,\"cg\":2000018,\"des1\":\"龙舟竞赛\",\"des2\":\"端午佳节\",\"cgName\":\"龙舟滑行\",\"cgAddress\":\"modle/cg/main_cg_role_242.png\",\"itemId\":500063,\"nameIcon\":\"ui/activity/logo/logo58.png\",\"bgIcon\":\"ui/activity/logo/bg58.png\"}",
         type = 1008,
     },
     [100011] = {

@@ -18076,7 +18076,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 7,
+        order = 8,
         grid = 24,
         priceVal = {
             [1] = 5,
@@ -18342,7 +18342,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 9,
+        order = 10,
         grid = 26,
         priceVal = {
             [1] = 5,
@@ -18456,7 +18456,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
+        order = 11,
         grid = 27,
         priceVal = {
             [1] = 5,
@@ -18570,7 +18570,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 11,
+        order = 12,
         grid = 28,
         priceVal = {
             [1] = 5,
@@ -18798,7 +18798,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 13,
+        order = 14,
         grid = 30,
         priceVal = {
             [1] = 5,
@@ -18874,7 +18874,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 14,
+        order = 15,
         grid = 31,
         priceVal = {
             [1] = 5,
@@ -18988,7 +18988,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 15,
+        order = 16,
         grid = 32,
         priceVal = {
             [1] = 5,
@@ -46576,7 +46576,7 @@ return {
             [250123] = 1,
         },
         showBeginTime = "",
-        openContVal = 99,
+        openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -46772,7 +46772,7 @@ return {
             [250124] = 1,
         },
         showBeginTime = "",
-        openContVal = 99,
+        openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -56860,7 +56860,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 5,
+        order = 17,
         grid = 33,
         priceVal = {
             [1] = 20,
@@ -57812,7 +57812,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 6,
+        order = 7,
         grid = 23,
         priceVal = {
             [1] = 5,
@@ -61154,7 +61154,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 8,
+        order = 9,
         grid = 25,
         priceVal = {
             [1] = 5,
@@ -63975,7 +63975,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 12,
+        order = 13,
         grid = 29,
         priceVal = {
             [1] = 5,
@@ -79548,7 +79548,7 @@ return {
             [250125] = 1,
         },
         showBeginTime = "",
-        openContVal = 99,
+        openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",

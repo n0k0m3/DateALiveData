@@ -13,7 +13,7 @@ return {
     },
     [4] = {
         id = 4,
-        isopen = 0,
+        isopen = 1,
     },
     [5] = {
         id = 5,
@@ -25,7 +25,7 @@ return {
     },
     [7] = {
         id = 7,
-        isopen = 0,
+        isopen = 1,
     },
     [8] = {
         id = 8,

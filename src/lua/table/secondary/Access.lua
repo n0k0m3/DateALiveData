@@ -1875,7 +1875,7 @@ return {
         id = 174,
         jumpInterface = 6,
         parameter = {
-            [1] = 11039,
+            [1] = 34,
         },
         accessType = 3,
     },
@@ -2311,6 +2311,17 @@ return {
         id = 313,
         jumpInterface = 101,
         parameter = {
+        },
+        accessType = 3,
+    },
+    [321] = {
+        accessparam = "",
+        name = "190000501",
+        name2 = "14300377",
+        id = 321,
+        jumpInterface = 144,
+        parameter = {
+            [1] = 1,
         },
         accessType = 3,
     },

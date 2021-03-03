@@ -216,7 +216,8 @@ function KabalaTreeExploreView:initUI(ui)
     self.Image_hiddenBoss = TFDirector:getChildByPath(self.Panel_UI, 'Image_hiddenBoss')
     self.Label_boss_name = TFDirector:getChildByPath(self.Panel_UI, 'Label_boss_name')
     self.Label_blood_tip = TFDirector:getChildByPath(self.Panel_UI, 'Label_blood_tip')
-    self.Label_blood_tip:setText("剩余血量")
+    self.Label_blood_tip:setTextById(3004047)
+    self.Label_blood_tip:hide()
     self.Label_blood = TFDirector:getChildByPath(self.Panel_UI, 'Label_blood')
     self.LoadingBar_boss_blood = TFDirector:getChildByPath(self.Panel_UI, 'LoadingBar_boss_blood')
     self.Image_head = TFDirector:getChildByPath(self.Panel_UI, 'Image_head')
@@ -1516,12 +1517,12 @@ function KabalaTreeExploreView:showHiddenEventInfo()
     self.Label_boss_name:setTextById(monserCfg.name)
     local pentcentOne = maxBossBlood/100
     if curBossBlood < pentcentOne then
-        self.Label_blood:setText("1%")
+        self.Label_blood:setTextById(3004047 ,"1%")
         self.LoadingBar_boss_blood:setPercent(1)
     else
         local percent = math.floor(curBossBlood / maxBossBlood * 100)
         self.LoadingBar_boss_blood:setPercent(percent)
-        self.Label_blood:setText(percent.."%")
+        self.Label_blood:setTextById(3004047 , percent.."%")
     end
 end
 

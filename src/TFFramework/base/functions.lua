@@ -304,8 +304,11 @@ local function CallError(msg)
     if VERSION_DEBUG == true then
         TFLOGERROR(msg)
     else
-        if Bugly then 
-            Bugly:ReportLuaException(msg)
+        -- if Bugly then 
+        --     Bugly:ReportLuaException(msg)
+        -- end
+        if Crashlytics then
+            Crashlytics:reportLuaException(msg)
         end
     end
 end

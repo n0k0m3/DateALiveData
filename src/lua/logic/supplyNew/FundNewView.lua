@@ -40,12 +40,13 @@ function FundNewView:updateView()
         self.cfgs[i].serverData = serverData
     end
 
+    local removeList = {}
     for j, v in ipairs(self.cfgs) do
         local fundCfg = RechargeDataMgr:getOneRechargeCfg(v.investMoneyID)
         if fundCfg.startDate and fundCfg.endDate then -- 限时基金礼包
             local timeNow = ServerDataMgr:getServerTime()
             if timeNow < fundCfg.startDate then -- 未开始
-                table.remove(self.cfgs, j)
+                table.insert(removeList , v.investMoneyID)
             end
             if timeNow > fundCfg.endDate then -- 已结束 显示时间外还不能移除的情况
                 local tmp = nil
@@ -55,8 +56,17 @@ function FundNewView:updateView()
                     end
                 end
                 if not tmp then
-                    table.remove(self.cfgs, j)
+                    table.insert(removeList , v.investMoneyID)
                 end
+            end
+        end
+    end
+
+    for k , v in pairs(removeList) do
+        for j, cfg in ipairs(self.cfgs)  do
+            if cfg.investMoneyID == v then
+                table.remove(self.cfgs, j)
+                break
             end
         end
     end
@@ -145,13 +155,39 @@ function FundNewView:updateItem(item, data)
     if not item.ScrollView_award then
         item.ScrollView_award = UIListView:create(TFDirector:getChildByPath(item, "ScrollView_award"))
     end
-    item.ScrollView_award:removeAllItems()
-    for i, v in ipairs(data.reward) do
-        local goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-        PrefabDataMgr:setInfo(goodsItem, v[1], v[2])
-        goodsItem:setScale(0.75)
-        item.ScrollView_award:pushBackCustomItem(goodsItem)
+    --item.ScrollView_award:removeAllItems()
+
+    local newRewardData = {}
+    for k ,v in pairs(data.reward) do
+        table.insert(newRewardData , {id = v[1] , num = v[2]})
     end
+
+    local taskCount = #newRewardData
+    local items = item.ScrollView_award:getItems()
+    local gap = taskCount - #items
+    if gap > 0 then
+        for i = 1, math.abs(gap) do
+            local goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+            item.ScrollView_award:pushBackCustomItem(goodsItem)
+        end
+    else
+        for i = 1, math.abs(gap) do
+            item.ScrollView_award:removeItem(1)
+        end
+    end
+
+    for i, v in ipairs(item.ScrollView_award:getItems()) do
+        PrefabDataMgr:setInfo(v, newRewardData[i].id, newRewardData[i].num)
+        v:setScale(0.75)
+    end
+
+
+    -- for i, v in ipairs(data.reward) do
+    --     local goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+    --     PrefabDataMgr:setInfo(goodsItem, v[1], v[2])
+    --     goodsItem:setScale(0.75)
+    --     item.ScrollView_award:pushBackCustomItem(goodsItem)
+    -- end
 
     local format_reward = {}
     for i, v in ipairs(data.reward) do

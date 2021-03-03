@@ -419,7 +419,7 @@ local t =
 																PositionX = 12,
 																PositionY = -2,
 															},
-															width = "83",
+															width = "87",
 															ZOrder = "1",
 														},
 													},
@@ -495,7 +495,7 @@ local t =
 																PositionX = 12,
 																PositionY = -2,
 															},
-															width = "83",
+															width = "87",
 															ZOrder = "1",
 														},
 													},
@@ -625,7 +625,7 @@ local t =
 																	{
 																		PositionY = 19,
 																	},
-																	width = "139",
+																	width = "135",
 																	ZOrder = "1",
 																},
 															},
@@ -675,7 +675,7 @@ local t =
 														PositionX = 239,
 														PositionY = -121,
 													},
-													width = "130",
+													width = "184",
 													ZOrder = "1",
 												},
 												{
@@ -721,7 +721,7 @@ local t =
 														PositionX = 249,
 														PositionY = -121,
 													},
-													width = "92",
+													width = "89",
 													ZOrder = "1",
 												},
 											},
@@ -784,7 +784,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -801,7 +801,7 @@ local t =
 										PositionX = -352,
 										PositionY = 193,
 									},
-									width = "154",
+									width = "246",
 									ZOrder = "1",
 								},
 								{
@@ -865,6 +865,7 @@ local t =
 										PositionX = -133,
 										PositionY = 194,
 									},
+									visible = "False",
 									width = "121",
 									ZOrder = "1",
 								},
@@ -919,7 +920,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -942,7 +943,7 @@ local t =
 											{
 												
 											},
-											width = "55",
+											width = "101",
 											ZOrder = "1",
 										},
 									},
@@ -998,7 +999,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1021,7 +1022,7 @@ local t =
 											{
 												
 											},
-											width = "54",
+											width = "179",
 											ZOrder = "1",
 										},
 									},

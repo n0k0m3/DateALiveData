@@ -118,11 +118,24 @@ function TFGlobalUtils:transAniNameByLanguage( spine, name )
 	return aniName
 end
 
+-- 战令区分1服和2服
+function TFGlobalUtils:replaceTexturePath(texturePath)
+	if(texturePath and texturePath ~= "") then
+		if TFGlobalUtils:isConnectMiniServer() then
+			texturePath = string.gsub(texturePath, "ui/task/01/", "ui/task/02/")
+		end
+	end
+	return texturePath
+end
+
 --多语言图片
 function TFGlobalUtils:transTexturePath( texturePath )
 	local code = TFLanguageMgr:getUsingLanguageCode("_")
 	if code ~= "" and texturePath and texturePath ~= "" then
 		if type(texturePath) ~= "userdata" then --如果是传入pTexture数据则直接调用原函数
+
+			texturePath = self:replaceTexturePath(texturePath)
+
 			if LanguageResMgr ~= nil then
 				local pitctureData = LanguageResMgr:getData()
 				if pitctureData[texturePath] then

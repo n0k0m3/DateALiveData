@@ -108,8 +108,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 568,
-						PositionY = 320,
+						PositionX = 510,
+						PositionY = 354,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -445,14 +445,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_btn",
 											nTextAlign = "1",
@@ -466,9 +466,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = 1,
 											},
-											width = "106",
+											width = "126",
 											ZOrder = "1",
 										},
 									},
@@ -524,7 +524,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -547,7 +547,7 @@ local t =
 											{
 												
 											},
-											width = "108",
+											width = "110",
 											ZOrder = "1",
 										},
 									},
@@ -582,7 +582,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 15,
-						PositionY = -740,
+						PositionY = -671,
 						LeftPositon = 15,
 						TopPosition = 740,
 						relativeToName = "Panel",

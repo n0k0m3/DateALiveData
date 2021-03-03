@@ -153,7 +153,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "30",
+									height = "60",
 									ignoreSize = "True",
 									name = "Button_close",
 									normal = "ui/common/pop_ui/pop_btn_02.png",
@@ -168,7 +168,7 @@ local t =
 										PositionY = 221,
 									},
 									UItype = "Button",
-									width = "30",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -190,14 +190,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -214,7 +214,7 @@ local t =
 										PositionX = -177,
 										PositionY = 219,
 									},
-									width = "114",
+									width = "213",
 									ZOrder = "1",
 								},
 								{
@@ -327,7 +327,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "title_award",
 											nTextAlign = "1",
@@ -344,7 +344,7 @@ local t =
 												PositionX = -161,
 												PositionY = -2,
 											},
-											width = "84",
+											width = "173",
 											ZOrder = "1",
 										},
 										{
@@ -430,7 +430,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "title_effect",
 											nTextAlign = "1",
@@ -447,7 +447,7 @@ local t =
 												PositionX = -161,
 												PositionY = -2,
 											},
-											width = "84",
+											width = "49",
 											ZOrder = "1",
 										},
 										{
@@ -595,7 +595,7 @@ local t =
 												PositionX = 14,
 												PositionY = 151,
 											},
-											width = "143",
+											width = "115",
 											ZOrder = "1",
 										},
 										{
@@ -617,7 +617,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "17",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -663,7 +663,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -733,7 +733,7 @@ local t =
 												PositionX = 10,
 												PositionY = 110,
 											},
-											width = "83",
+											width = "111",
 											ZOrder = "1",
 										},
 									},

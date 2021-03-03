@@ -214,7 +214,7 @@ local t =
 										PositionX = -179,
 										PositionY = 219,
 									},
-									width = "186",
+									width = "202",
 									ZOrder = "1",
 								},
 								{
@@ -284,7 +284,7 @@ local t =
 									{
 										PositionY = 152,
 									},
-									width = "311",
+									width = "284",
 									ZOrder = "1",
 								},
 								{
@@ -450,7 +450,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_placeName",
 									nTextAlign = "1",
@@ -521,7 +521,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
@@ -544,7 +544,7 @@ local t =
 											{
 												
 											},
-											width = "143",
+											width = "145",
 											ZOrder = "1",
 										},
 									},

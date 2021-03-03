@@ -191,14 +191,14 @@ local t =
 											{
 												PositionY = -62,
 											},
-											width = "134",
+											width = "168",
 											ZOrder = "1",
 										},
 										{
 											controlID = "Label_ItemName_Image_storeItem_Panel_ItemBg_Panel_root_Panel-kabalaTreeStore_Layer1_kabalaTree_Game",
 											UUID = "66e1ddf8_9fa3_4a7c_90b8_018efe66a159",
 											anchorPoint = "False",
-											anchorPointX = "0",
+											anchorPointX = "0.5",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -213,15 +213,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_ItemName",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -234,10 +234,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -95,
 												PositionY = 159,
 											},
-											width = "99",
+											width = "190",
 											ZOrder = "1",
 										},
 										{
@@ -335,7 +334,7 @@ local t =
 														PositionX = -7,
 														PositionY = 2,
 													},
-													width = "36",
+													width = "35",
 													ZOrder = "1",
 												},
 											},
@@ -390,7 +389,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "26",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = true,
@@ -413,7 +412,7 @@ local t =
 													{
 														
 													},
-													width = "69",
+													width = "145",
 													ZOrder = "1",
 												},
 											},
@@ -460,7 +459,7 @@ local t =
 											{
 												PositionY = -12,
 											},
-											width = "134",
+											width = "168",
 											ZOrder = "1",
 										},
 									},
@@ -579,7 +578,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -596,7 +595,7 @@ local t =
 										PositionX = -498,
 										PositionY = 225,
 									},
-									width = "142",
+									width = "146",
 									ZOrder = "1",
 								},
 								{
@@ -706,7 +705,7 @@ local t =
 										PositionX = 347,
 										PositionY = -221,
 									},
-									width = "93",
+									width = "117",
 									ZOrder = "1",
 								},
 								{
@@ -760,6 +759,7 @@ local t =
 										PositionX = -289,
 										PositionY = 226,
 									},
+									visible = "False",
 									width = "121",
 									ZOrder = "1",
 								},
@@ -789,7 +789,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_timetip",
 									nTextAlign = "1",
@@ -806,7 +806,7 @@ local t =
 										PositionX = 17,
 										PositionY = -223,
 									},
-									width = "131",
+									width = "152",
 									ZOrder = "1",
 								},
 								{
@@ -835,7 +835,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_time",
 									nTextAlign = "2",
@@ -852,7 +852,7 @@ local t =
 										PositionX = 26,
 										PositionY = -222,
 									},
-									width = "95",
+									width = "77",
 									ZOrder = "1",
 								},
 								{

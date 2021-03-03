@@ -61,7 +61,9 @@ function WhiteValentineActivityView:initUI( ui )
 	self.costList = UIListView:create(scroll_cost)
 	self.costList:setItemsMargin(34)
 
-	self:selectTab(1)
+	self:timeOut(function( ... )
+		self:selectTab(1)
+	end)
 end
 
 function WhiteValentineActivityView:selectTab(index)
@@ -301,7 +303,10 @@ end
 function WhiteValentineActivityView:registerEvents()
 	self.btn_exchange:onClick(function(...)
 		local itemId = self:getCurItemId()
-		ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId, itemId, 1)
+		local extendData = {num = 1}
+        local json = require("LuaScript.extends.json")
+        local jsonExtendData = json.encode(extendData)
+		ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId, itemId, jsonExtendData)
 	end)
 
 	self.tab_1:onClick(handler(self.onTabBtnHandle, self))

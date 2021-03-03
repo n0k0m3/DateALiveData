@@ -198,7 +198,7 @@ local t =
 											controlID = "Label_ItemName_Image_storeItem_Panel_ItemBg_Panel_root_Panel-kabalaTreeStore_Layer1_kabalaTree_Game",
 											UUID = "66e1ddf8_9fa3_4a7c_90b8_018efe66a159",
 											anchorPoint = "False",
-											anchorPointX = "0",
+											anchorPointX = "0.5",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -213,7 +213,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "13",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -234,7 +234,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -95,
+												PositionX = 1,
 												PositionY = 159,
 											},
 											width = "193",
@@ -335,7 +335,7 @@ local t =
 														PositionX = -7,
 														PositionY = 2,
 													},
-													width = "52",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -596,7 +596,7 @@ local t =
 										PositionX = -498,
 										PositionY = 225,
 									},
-									width = "135",
+									width = "146",
 									ZOrder = "1",
 								},
 								{
@@ -706,7 +706,7 @@ local t =
 										PositionX = 347,
 										PositionY = -221,
 									},
-									width = "113",
+									width = "137",
 									ZOrder = "1",
 								},
 								{
@@ -807,7 +807,7 @@ local t =
 										PositionX = 17,
 										PositionY = -223,
 									},
-									width = "180",
+									width = "196",
 									ZOrder = "1",
 								},
 								{
@@ -853,7 +853,7 @@ local t =
 										PositionX = 26,
 										PositionY = -222,
 									},
-									width = "73",
+									width = "77",
 									ZOrder = "1",
 								},
 								{

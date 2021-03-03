@@ -309,7 +309,7 @@ local t =
 												PositionX = 69,
 												PositionY = 10,
 											},
-											width = "34",
+											width = "33",
 											ZOrder = "1",
 											components = 
 											{
@@ -367,7 +367,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "28",
 											ignoreSize = "True",
 											name = "lab_buy",
 											nTextAlign = "1",
@@ -385,7 +385,7 @@ local t =
 												PositionY = -13,
 											},
 											visible = "False",
-											width = "49",
+											width = "51",
 											ZOrder = "1",
 										},
 										{
@@ -414,7 +414,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "28",
 											ignoreSize = "True",
 											name = "lab_buyAgain",
 											nTextAlign = "1",
@@ -432,7 +432,7 @@ local t =
 												PositionY = -13,
 											},
 											visible = "False",
-											width = "79",
+											width = "89",
 											ZOrder = "1",
 										},
 										{
@@ -478,7 +478,7 @@ local t =
 												PositionX = 52,
 												PositionY = -16,
 											},
-											width = "33",
+											width = "27",
 											ZOrder = "1",
 											components = 
 											{
@@ -525,7 +525,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "18",
+													width = "22",
 													ZOrder = "1",
 												},
 											},
@@ -578,6 +578,42 @@ local t =
 									},
 								},
 								{
+									controlID = "Panel_fundNewView_1_img_di_panel_cell_Panel-fundNewView_Layer1_supplyNew_Game",
+									UUID = "c0da14f8_4bca_4148_9514_23c8c8a48734",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "1;SingleColor:#FF0000CD;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "85",
+									ignoreSize = "False",
+									name = "Panel_fundNewView_1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -44,
+										PositionY = -56,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "160",
+									ZOrder = "1",
+								},
+								{
 									controlID = "ScrollView_award_img_di_panel_cell_Panel-fundNewView_Layer1_supplyNew_Game",
 									UUID = "48b57d7f_99e6_4865_8f7b_1b232324bc21",
 									anchorPoint = "False",
@@ -594,7 +630,7 @@ local t =
 									height = "85",
 									ignoreSize = "False",
 									innerHeight = "85",
-									innerWidth = "168",
+									innerWidth = "150",
 									name = "ScrollView_award",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -612,7 +648,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "168",
+									width = "150",
 									ZOrder = "1",
 								},
 								{
@@ -764,7 +800,7 @@ local t =
 												PositionY = -49,
 											},
 											visible = "False",
-											width = "96",
+											width = "94",
 											ZOrder = "1",
 										},
 										{
@@ -810,7 +846,7 @@ local t =
 											{
 												
 											},
-											width = "54",
+											width = "55",
 											ZOrder = "1",
 										},
 									},
@@ -923,7 +959,7 @@ local t =
 														PositionX = -1,
 														PositionY = 30,
 													},
-													width = "87",
+													width = "83",
 													ZOrder = "1",
 												},
 												{
@@ -993,7 +1029,7 @@ local t =
 													{
 														PositionX = -12,
 													},
-													width = "48",
+													width = "52",
 													ZOrder = "1",
 												},
 											},
@@ -1051,7 +1087,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "18",
+													height = "17",
 													ignoreSize = "True",
 													name = "lab_lastTime",
 													nTextAlign = "1",
@@ -1068,7 +1104,7 @@ local t =
 														PositionX = -44,
 														PositionY = 1,
 													},
-													width = "187",
+													width = "177",
 													ZOrder = "1",
 												},
 											},
@@ -1144,7 +1180,7 @@ local t =
 										PositionX = 85,
 										PositionY = 44,
 									},
-									width = "23",
+									width = "22",
 									ZOrder = "1",
 									components = 
 									{
@@ -1191,7 +1227,7 @@ local t =
 											{
 												PositionX = -121,
 											},
-											width = "104",
+											width = "98",
 											ZOrder = "1",
 										},
 									},
@@ -1304,7 +1340,7 @@ local t =
 												PositionX = -42,
 												PositionY = -38,
 											},
-											width = "41",
+											width = "44",
 											ZOrder = "1",
 										},
 									},
@@ -1399,7 +1435,7 @@ local t =
 											{
 												PositionX = 14,
 											},
-											width = "163",
+											width = "147",
 											ZOrder = "1",
 										},
 									},

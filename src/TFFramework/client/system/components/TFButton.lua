@@ -50,6 +50,9 @@ rawset(TFButton, "setTextureNormal", function ( self ,texturePath, ... )
 
 	local code = TFLanguageMgr:getUsingLanguageCode("_")
 	if code ~= "" and texturePath~= "" then
+		
+		texturePath = TFGlobalUtils:replaceTexturePath(texturePath)
+
 		if LanguageResMgr ~= nil then
 			local pitctureData = LanguageResMgr:getData()
 			if pitctureData[texturePath] then
