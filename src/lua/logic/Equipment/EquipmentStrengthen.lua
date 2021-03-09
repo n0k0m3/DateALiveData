@@ -733,7 +733,9 @@ end
 
 function EquipmentStrengthen:showChangeBtnEffect()
     local effect = TFDirector:getChildByPath(self.changeBtn,"Spine_clickStrengthen")
-    effect:playByIndex(0, -1, -1, 0)
+
+    local suffix = TFLanguageMgr:getUsingLanguageCode()
+    effect:play("animation_"..suffix, false)
 end
 
 function EquipmentStrengthen:onTouchFastBtn()

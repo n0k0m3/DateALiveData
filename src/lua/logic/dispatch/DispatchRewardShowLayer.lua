@@ -54,7 +54,7 @@ function DispatchRewardShowLayer:refreshView()
         local Label_buff_title = TFDirector:getChildByPath(reward_item, "Label_buff_title")
         local Label_buff_value = TFDirector:getChildByPath(reward_item, "Label_buff_value")
         local ScrollView_reward = UIListView:create(TFDirector:getChildByPath(reward_item, "ScrollView_reward"))
-        Label_buff_title:setText("出战收益：")
+        Label_buff_title:setTextById(190000570)
         local buff = self.rewardBuff[info.type] or 0
         Label_buff_value:setText(tostring(buff).."%")
         Image_icon:setTexture(self.typeInfo[info.type].showIcon)

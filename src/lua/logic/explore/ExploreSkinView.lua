@@ -108,6 +108,7 @@ function ExploreSkinView:updateInfo()
     self._ui.Spine_flyShip:play(spineCfg.showAction,true)
 
     self._ui.lab_noAttr:setVisible(#cfg.talent == 0)
+    self._ui.lab_noAttr:setTextById(13400066)
 
     self.scrollView_attrLab:removeAllItems()
     for i, id in ipairs(cfg.talent or {}) do

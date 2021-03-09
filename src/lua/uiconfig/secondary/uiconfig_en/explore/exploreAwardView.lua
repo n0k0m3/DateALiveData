@@ -162,14 +162,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_time_tip",
 											nTextAlign = "1",
@@ -178,14 +178,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Current cumulative earnings",
+											text = "Number of Earnings",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -352,
+												PositionX = -362,
 											},
-											width = "170",
+											width = "150",
 											ZOrder = "1",
 										},
 										{
@@ -228,9 +228,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -180,
+												PositionX = -138,
 											},
-											width = "83",
+											width = "134",
 											ZOrder = "1",
 										},
 										{
@@ -252,14 +252,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_speed_tip",
 											nTextAlign = "1",
@@ -268,14 +268,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Frequency of single income",
+											text = " Frequency of Single Earninngs",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 8,
 											},
-											width = "170",
+											width = "226",
 											ZOrder = "1",
 										},
 										{
@@ -318,9 +318,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 180,
+												PositionX = 250,
 											},
-											width = "36",
+											width = "35",
 											ZOrder = "1",
 										},
 									},
@@ -329,7 +329,7 @@ local t =
 									controlID = "Label_title_Image_bg_Panel_root_Panel-exploreAwardView_Layer1_explore_Game",
 									UUID = "aefb3e8d_1e4c_492b_8fd4_2a71d1a1aaa7",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -351,7 +351,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -360,15 +360,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Explore drop",
+									text = "Explore Drops",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -304,
+										PositionX = -358,
 										PositionY = 177,
 									},
-									width = "107",
+									width = "199",
 									ZOrder = "1",
 								},
 								{
@@ -462,6 +462,7 @@ local t =
 										PositionX = -244,
 										PositionY = 179,
 									},
+									visible = "False",
 									width = "2",
 									ZOrder = "1",
 								},
@@ -508,7 +509,8 @@ local t =
 										PositionX = -215,
 										PositionY = 177,
 									},
-									width = "44",
+									visible = "False",
+									width = "45",
 									ZOrder = "1",
 								},
 								{
@@ -574,14 +576,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Gain profit",
+											text = "Get Rewards",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = -220,
 											},
-											width = "91",
+											width = "113",
 											ZOrder = "1",
 										},
 									},
@@ -660,7 +662,7 @@ local t =
 											{
 												
 											},
-											width = "43",
+											width = "50",
 											ZOrder = "1",
 										},
 									},
@@ -691,8 +693,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_fulltip",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -708,7 +710,7 @@ local t =
 										PositionX = 2,
 										PositionY = -14,
 									},
-									width = "227",
+									width = "550",
 									ZOrder = "1",
 								},
 								{

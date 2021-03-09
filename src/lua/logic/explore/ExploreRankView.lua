@@ -94,7 +94,7 @@ function ExploreRankView:updateRankItem(item,data)
     local rank = data.rank
     local ranknum = TFDirector:getChildByPath(item,"ranknum")
     if rank == 0 then
-        ranknum:setText("暂未上榜")
+        ranknum:setTextById(14240013)
     else
         ranknum:setText(rank)
     end

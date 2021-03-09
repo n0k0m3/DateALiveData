@@ -75,7 +75,7 @@ function DetailsRecordPage:chooseRecordType(itemType)
         v.Label_btn:setColor(color)
         local posY = k == itemType and 9 or 3
         v.icon:setPositionY(posY)
-        local fntSize = k == itemType and 25 or 23
+        local fntSize = k == itemType and 18 or 18
         v.Label_btn:setFontSize(fntSize)
     end
 

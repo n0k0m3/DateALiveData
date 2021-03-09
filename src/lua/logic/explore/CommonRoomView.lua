@@ -342,6 +342,7 @@ function CommonRoomView:updatePanelInfo( ... )
 	local ScrollView_cost = TFDirector:getChildByPath(self.Panel_info,"ScrollView_cost")
 	local Label_Max = TFDirector:getChildByPath(self.Panel_info,"Label_Max")
 
+
 	local nextLevel = self.roomDetailCfg.level + 1
 	local nextCabinCfg =  ExploreDataMgr:getCabinLevelCfg(self.roomType, nextLevel)
 

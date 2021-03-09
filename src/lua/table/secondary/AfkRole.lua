@@ -16,7 +16,7 @@ return {
         icon2 = "icon/explore/event/map/ship_1.png",
         icon = "icon/explore/event/monster/FS_Vidofnir.png",
         fightMask = "effects_feichuan",
-        nameCn = "世界之眼",
+        nameCn = "",
         showSite = {
             y = 100,
             x = 568,
@@ -48,7 +48,7 @@ return {
         icon2 = "icon/explore/event/map/ship_2.png",
         icon = "icon/explore/event/monster/FS_Nidhogg.png",
         fightMask = "effects_feichuan2",
-        nameCn = "尼德霍格",
+        nameCn = "",
         showSite = {
             y = 120,
             x = 620,

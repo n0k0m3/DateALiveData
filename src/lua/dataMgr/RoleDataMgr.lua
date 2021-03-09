@@ -1846,6 +1846,11 @@ function RoleDataMgr:checkMainRewardState(roleId)
 end
 
 function RoleDataMgr:checkDayRewardState(roleId)
+
+    if not GlobalFuncDataMgr:isOpen(8) then  --TODO CLOSE小语种屏蔽信物奖励红点
+        return false
+    end
+
     local buildDataList = self:getDayBuildList(roleId)
     for i, v in ipairs(buildDataList) do
         local data = DatingDataMgr:getBuildDayScripInfo(v.buildId,roleId)
@@ -2433,6 +2438,9 @@ function RoleDataMgr:checkNewMainRewardState( roleId )
         end     
     end
 
+    if not GlobalFuncDataMgr:isOpen(8) then   --TODO CLOSE小语种屏蔽信物奖励红点
+        return false
+    end
     local mainLiveList = self:getNewMainList(roleId)
     for k , v in pairs(mainLiveList) do
         local taskInfo = TaskDataMgr:getTaskInfo(v.taskIdNew)

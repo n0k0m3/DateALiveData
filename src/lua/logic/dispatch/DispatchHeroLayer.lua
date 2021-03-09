@@ -166,10 +166,10 @@ function DispatchHeroLayer:selectHero(idx)
     self.Image_hero_state:setVisible(true)
     local pType = DispatchDataMgr:getHeroDispatchType(heroId)
     if pType then
-        self.Label_hero_state:setText(TextDataMgr:getText(112000212) ..TextDataMgr:getText(self:getDispatchNameId(pType)))
+        self.Label_hero_state:setText(TextDataMgr:getText(1100048) ..TextDataMgr:getText(self:getDispatchNameId(pType)))
     elseif HeroDataMgr:getIsHave(heroId) then
         self.Button_goto:setVisible(false)
-        self.Label_hero_state:setText(TextDataMgr:getText(112000212)..TextDataMgr:getText(213170))
+        self.Label_hero_state:setText(TextDataMgr:getText(1100048)..TextDataMgr:getText(213170))
     else
         self.Button_goto:setVisible(false)
         self.Image_hero_state:setVisible(false)

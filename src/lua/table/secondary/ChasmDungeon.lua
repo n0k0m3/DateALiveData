@@ -37,7 +37,7 @@ return {
         },
         lvlLimit = {
             [1] = 30,
-            [2] = 70,
+            [2] = 80,
         },
         bosspic = "boss_1.png",
         countLimit = 1,
@@ -127,7 +127,7 @@ return {
         },
         lvlLimit = {
             [1] = 25,
-            [2] = 70,
+            [2] = 80,
         },
         bosspic = "boss_6.png",
         countLimit = 1,
@@ -217,7 +217,7 @@ return {
         },
         lvlLimit = {
             [1] = 45,
-            [2] = 70,
+            [2] = 80,
         },
         bosspic = "boss_8.png",
         countLimit = 1,
@@ -307,7 +307,7 @@ return {
         },
         lvlLimit = {
             [1] = 20,
-            [2] = 70,
+            [2] = 80,
         },
         bosspic = "boss_2.png",
         countLimit = 1,
@@ -397,7 +397,7 @@ return {
         },
         lvlLimit = {
             [1] = 40,
-            [2] = 70,
+            [2] = 80,
         },
         bosspic = "boss_4.png",
         countLimit = 1,
@@ -487,7 +487,7 @@ return {
         },
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         bosspic = "boss_7.png",
         countLimit = 1,

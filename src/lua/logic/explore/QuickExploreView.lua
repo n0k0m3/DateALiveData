@@ -82,14 +82,9 @@ end
 
 function QuickExploreView:setFreshTime()
     local serverTime = ServerDataMgr:getServerTime()
-    local hour, min, sec = Utils:getTime(serverTime)
+    local hour, min, sec = ServerDataMgr:customUtcTimeForServer(serverTime)
     local passTime = hour*60*60 + min*60 + sec
-    local remainTime = 0
-    if hour < 6 then
-        remainTime = 6*60*60 - passTime
-    else
-        remainTime = 24*60*60 + 6*60*60 - passTime
-    end
+    local remainTime = 24*60*60 - passTime
     local day,hour, min, sec = Utils:getDHMS(remainTime, true)
     self.Label_freshTime:setTextById(13322005,hour..":"..min..":"..sec)
 end

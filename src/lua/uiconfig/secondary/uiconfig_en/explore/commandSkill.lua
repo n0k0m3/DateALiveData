@@ -333,14 +333,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "0",
@@ -357,7 +357,7 @@ local t =
 										PositionX = 1056,
 										PositionY = 540,
 									},
-									width = "159",
+									width = "105",
 									ZOrder = "1",
 								},
 								{
@@ -407,7 +407,7 @@ local t =
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "50",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "working",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -417,10 +417,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 1009,
+												PositionX = 1002,
 												PositionY = 504,
 											},
-											width = "142",
+											width = "202",
 											ZOrder = "1",
 											components = 
 											{
@@ -460,14 +460,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Active",
+													text = "Activated",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "57",
+													width = "69",
 													ZOrder = "1",
 												},
 											},
@@ -482,7 +482,7 @@ local t =
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "50",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "notWorking",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -492,10 +492,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 1009,
-												PositionY = 504,
+												PositionX = 1001,
+												PositionY = 503,
 											},
-											width = "142",
+											width = "202",
 											ZOrder = "1",
 											components = 
 											{
@@ -519,14 +519,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "21",
+													height = "17",
 													ignoreSize = "True",
 													name = "Label_notWorking",
 													nTextAlign = "1",
@@ -535,14 +535,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "inactivated",
+													text = "Not Activated",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "57",
+													width = "86",
 													ZOrder = "1",
 												},
 											},
@@ -599,7 +599,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_process",
 											nTextAlign = "1",
@@ -616,7 +616,7 @@ local t =
 												PositionX = 1068,
 												PositionY = 468,
 											},
-											width = "70",
+											width = "53",
 											ZOrder = "1",
 										},
 									},
@@ -749,15 +749,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_active",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -765,14 +765,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Activation form",
+											text = "Activate",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "107",
+											width = "124",
 											ZOrder = "1",
 										},
 									},
@@ -988,14 +988,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_flag",
 											nTextAlign = "1",
@@ -1004,14 +1004,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Active",
+											text = "Activated",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -2,
 											},
-											width = "62",
+											width = "81",
 											ZOrder = "1",
 										},
 									},

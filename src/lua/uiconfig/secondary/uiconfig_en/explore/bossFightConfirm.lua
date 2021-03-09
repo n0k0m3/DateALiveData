@@ -144,7 +144,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -161,7 +161,7 @@ local t =
 										PositionX = -354,
 										PositionY = 181,
 									},
-									width = "116",
+									width = "125",
 									ZOrder = "1",
 								},
 								{
@@ -187,6 +187,7 @@ local t =
 										PositionX = -232,
 										PositionY = 182,
 									},
+									visible = "False",
 									width = "2",
 									ZOrder = "1",
 								},
@@ -310,18 +311,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -334,7 +335,7 @@ local t =
 										PositionX = -307,
 										PositionY = 125,
 									},
-									width = "83",
+									width = "108",
 									ZOrder = "1",
 								},
 								{
@@ -472,7 +473,7 @@ local t =
 													{
 														PositionX = -233,
 													},
-													width = "81",
+													width = "54",
 													ZOrder = "1",
 												},
 												{
@@ -517,7 +518,7 @@ local t =
 													{
 														PositionX = -12,
 													},
-													width = "21",
+													width = "24",
 													ZOrder = "1",
 												},
 												{
@@ -562,7 +563,7 @@ local t =
 													{
 														
 													},
-													width = "103",
+													width = "33",
 													ZOrder = "1",
 												},
 												{
@@ -607,7 +608,7 @@ local t =
 													{
 														PositionX = 229,
 													},
-													width = "103",
+													width = "33",
 													ZOrder = "1",
 												},
 											},
@@ -683,7 +684,7 @@ local t =
 														PositionX = -233,
 														PositionY = -1,
 													},
-													width = "81",
+													width = "54",
 													ZOrder = "1",
 												},
 												{
@@ -729,7 +730,7 @@ local t =
 														PositionX = -12,
 														PositionY = -1,
 													},
-													width = "21",
+													width = "24",
 													ZOrder = "1",
 												},
 												{
@@ -774,7 +775,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "103",
+													width = "33",
 													ZOrder = "1",
 												},
 												{
@@ -820,7 +821,7 @@ local t =
 														PositionX = 230,
 														PositionY = -1,
 													},
-													width = "103",
+													width = "33",
 													ZOrder = "1",
 												},
 											},
@@ -887,7 +888,7 @@ local t =
 													controlID = "Label_tip_Image_info_Image_left_Image_bg_Panel_root_Panel-bossFightConfirm_Layer1_explore_Game",
 													UUID = "13fd165b_c263_4b52_be0a_99bfc3232188",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -918,15 +919,15 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Combat drop",
+													text = "Battle Drops",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -54,
+														PositionX = -99,
 														PositionY = -1,
 													},
-													width = "83",
+													width = "102",
 													ZOrder = "1",
 												},
 											},
@@ -989,7 +990,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "32",
+													height = "30",
 													ignoreSize = "True",
 													name = "Label_btn",
 													nTextAlign = "1",
@@ -998,14 +999,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Fight",
+													text = "Start",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "55",
+													width = "71",
 													ZOrder = "1",
 												},
 											},

@@ -168,7 +168,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -177,7 +177,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Airship backpack",
+									text = "Airship Bag",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -185,7 +185,7 @@ local t =
 										PositionX = -351,
 										PositionY = 182,
 									},
-									width = "114",
+									width = "173",
 									ZOrder = "1",
 								},
 								{
@@ -301,7 +301,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -309,10 +309,10 @@ local t =
 														StrokeSize = 1,
 													},
 													height = "0",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Label_Name",
 													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextHAlign = "0",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -321,10 +321,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -92,
+														PositionX = -98,
 														PositionY = -1,
 													},
-													width = "0",
+													width = "175",
 													ZOrder = "1",
 												},
 											},
@@ -348,14 +348,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "0",

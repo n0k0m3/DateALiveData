@@ -116,8 +116,13 @@ end
 
 function CoffeeMainView:updateRedPointStatus()
     local isShow = CoffeeDataMgr:isShowRedPoint(1)
-    local isShow1 = CoffeeDataMgr:isGetAllLogReward()
-    self.Image_achievement_tips:setVisible(isShow or not isShow1)
+
+    if (GlobalFuncDataMgr:isOpen(12)) then
+        local isShow1 = CoffeeDataMgr:isGetAllLogReward()
+        isShow = isShow or not isShow1
+    end
+
+    self.Image_achievement_tips:setVisible(isShow)
     local isShow = CoffeeDataMgr:isShowRedPoint(2) or CoffeeDataMgr:isShowRedPoint(3)
     self.Image_story_tips:setVisible(isShow)
     local isFree = CoffeeDataMgr:isCanFreeRefresh()

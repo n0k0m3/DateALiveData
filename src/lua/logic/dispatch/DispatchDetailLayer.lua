@@ -341,7 +341,7 @@ function DispatchDetailLayer:updateDispatchTimesUI()
 	end
 
 	self.Label_times_num:setText(tostring(self.selectTimes))
-	local titleStr = "派遣次数："
+	local titleStr = TextDataMgr:getText(190000571)
 	for i=1,#self.tabBtnInfo do
 		local info = self.tabBtnInfo[i]
 		if self.curSelectTab == info.ptype then
@@ -358,14 +358,14 @@ function DispatchDetailLayer:updateDispatchTimesUI()
 	if cost > 0 then
 		self.Label_cost1_title:show()
 		self.Label_cost1_num:show()
-		self.Label_cost1_num:setText((self.selectTimes*cost).."点")
+		self.Label_cost1_num:setTextById(190000572 , (self.selectTimes*cost))
 	else
 		self.Label_cost1_title:hide()
 		self.Label_cost1_num:hide()
 	end
 	
 	self.Label_cost2_title:setTextById(213037)
-	self.Label_cost2_num:setText(tostring(excutionCost*self.selectTimes).."点")
+	self.Label_cost2_num:setTextById(190000572 , tostring(excutionCost*self.selectTimes))
 end
 
 function DispatchDetailLayer:selectChapter(idx, force)
@@ -470,7 +470,7 @@ function DispatchDetailLayer:refreshChaptetItems()
 					foo.Label_time:show()
 					local suplusTime = info.eTime - serverTime
 					local day, hour, min, sec = Utils:getDHMS(suplusTime, false)
-					foo.Label_time:setTextById(112000213, min, sec)
+					foo.Label_time:setTextById(14300301, min, sec)
 					local percent = (suplusTime / (config.hangupTime * 60)) * 100
 					foo.LoadingBar_time:setPercent(percent)
 					local iconPath = "ui/dispatch/ui_057.png"

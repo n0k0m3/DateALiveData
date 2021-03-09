@@ -104,6 +104,7 @@ function PushGiftView:refresView()
 		self.originPrice:show()
 		if self.imageDiscountTag then
 			self.imageDiscountTag:show()
+			self.imageDiscountTag:hide()  --屏蔽折扣底图
 		end
 		self.discountTag:show()
 		self.originPrice:setText(self.data["originalPrice"])

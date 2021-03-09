@@ -1860,7 +1860,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "执行“领取”指令，就能将收获放进仓库中了哦！",
+        des = "Execute the \"Claim\" order to place the loot into the warehouse!",
     },
     [615] = {
         uiType = 1,
@@ -1883,7 +1883,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "那么我们先去指挥室看看吧！",
+        des = "Let's first check out the command room!",
     },
     [623] = {
         uiType = 1,
@@ -1906,7 +1906,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "接下来要介绍如何执行飞舰任务。",
+        des = "Next, let's see how to perform Airship Quests.",
     },
     [631] = {
         uiType = 0,
@@ -1929,7 +1929,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "竟然是秘宝碎片！真是不得了的收获呢！",
+        des = "Treasure Fragments! What an incredible find!",
     },
     [639] = {
         uiType = 1,
@@ -1952,7 +1952,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "在这间舱室内，我们建立了与天宫市的特殊链接交互，很神奇吧？",
+        des = "We created a special link to Tengu City in this cabin. Isn't it wonderful?",
     },
     [544] = {
         uiType = 1,
@@ -2067,7 +2067,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "获得了不菲的收获呢，这将是提升天空舰的重要资源！",
+        des = "We got loads of great rewards. These will be important resources for upgrading the Sky Airship!",
     },
     [616] = {
         uiType = 0,
@@ -2090,7 +2090,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "指挥室是整个天空舰的中枢，是所有舱室提升的基础哦。",
+        des = "The command room is the hub of the Sky Airship and is essential for the upgrades of all other cabins.",
     },
     [624] = {
         uiType = 7,
@@ -2113,7 +2113,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "按照任务要求让精灵们行动起来吧，去各大文明中获取更多收益！",
+        des = "Dispatch Spirits to perform quests and get more resources from all the civilizations!",
     },
     [632] = {
         uiType = 1,
@@ -2136,7 +2136,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "赶快前往陈列舱合成秘宝吧！",
+        des = "Go to the Display Cabin to craft treasures!",
     },
     [640] = {
         uiType = 1,
@@ -2159,7 +2159,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "选择刚才的宝物，放到阵列上，就能影响精灵们在天宫市的作战哦！",
+        des = "Select the treasure and place it in the array will grant bonus effects to Spirits who are fighting in Tengu City!",
     },
     [545] = {
         uiType = 0,
@@ -2274,7 +2274,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "欢迎来到全新的天空舰「Vedfolnir」！",
+        des = "Welcome to the brand new airship, Vedfolnir!",
     },
     [609] = {
         uiType = 1,
@@ -2297,7 +2297,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "刚刚得到报告，发现了战斗事件！",
+        des = "We just received a report of a battle event!",
     },
     [617] = {
         uiType = 0,
@@ -2320,7 +2320,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "指挥室的升级可是决定着其他舱室的升级上限哦。",
+        des = "The Command Room level determines the level cap for the other cabins.",
     },
     [625] = {
         uiType = 1,
@@ -2343,7 +2343,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "试试将精灵们派遣出去执行飞舰任务吧！",
+        des = "Try dispatching Spirits to perform Airship Quests!",
     },
     [633] = {
         uiType = 1,
@@ -2366,7 +2366,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "进入陈列舱的权限已经开通了。",
+        des = "Access to the Display Cabin has been granted.",
     },
     [641] = {
         uiType = 1,
@@ -2389,7 +2389,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "就是这样！如此一来，精灵们在战斗中的能力就得到加强了！",
+        des = "Just like this! Now the Spirits will become even stronger in combat!",
     },
     [546] = {
         uiType = 1,
@@ -2481,7 +2481,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "经过1个月的改造，天空舰已经融入了根达亚的最新科技！",
+        des = "After a month of modifications, our Airship has been integrated with the latest Gondayer tech!",
     },
     [610] = {
         uiType = 1,
@@ -2504,7 +2504,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "看来已经无法避免了呢，那么只能给对方迎头痛击了！",
+        des = "Looks like there's no avoiding it. Time to confront our enemies head-on!",
     },
     [618] = {
         uiType = 1,
@@ -2527,7 +2527,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "那么开始执行升级指令吧！",
+        des = "Now, let's execute the Upgrade order!",
     },
     [626] = {
         uiType = 1,
@@ -2550,7 +2550,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "首先要选择想要派遣出去的精灵。",
+        des = "First, you have to select the Spirits to dispatch.",
     },
     [634] = {
         uiType = 1,
@@ -2573,7 +2573,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "现在我们就去试试合成秘宝吧！",
+        des = "Now let's try crafting a treasure!",
     },
     [642] = {
         uiType = 0,
@@ -2596,7 +2596,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "今后一定要在探索和飞舰任务里多多搜集秘宝，就能快速提高精灵战力了。",
+        des = "Remember to keep searching for treasures in Explore and Airship Quests to quickly boosts the Spirits' BP.",
     },
     [531] = {
         uiType = 0,
@@ -2692,7 +2692,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "那么坐稳了！现在就让我们去往异界文明中探险吧！",
+        des = "Hold on tight! Time to explore brand new civilization in another realm!",
     },
     [611] = {
         uiType = 1,
@@ -2715,7 +2715,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "攻击系统已经准备就绪，让敌舰见识一下我们的厉害吧！",
+        des = "Our attack system is ready, show the enemy what we can do!",
     },
     [619] = {
         uiType = 1,
@@ -2738,7 +2738,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "甲板上好像发生了变化，我们现在就去看看吧！",
+        des = "The deck seems to have been renovated, let's take a look!",
     },
     [627] = {
         uiType = 1,
@@ -2761,7 +2761,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "执行“上阵”指令，让精灵们蓄势待发。",
+        des = "Execute the \"Deploy\" order to get the Spirits ready for action.",
     },
     [635] = {
         uiType = 0,
@@ -2784,7 +2784,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "刚才在探索和任务中，我们搜集到了1种秘宝的全部碎片！",
+        des = "We just found all of the fragments for one type of treasure in the exploration quest!",
     },
     [643] = {
         uiType = 0,
@@ -2807,7 +2807,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "那么讲解就到这里，异界的宏图已经展开，开始我们的作战吧！",
+        des = "That's it for the introduction. The grand Alien World expedition is now underway, let our battle begin!",
     },
     [532] = {
         uiType = 1,
@@ -2899,7 +2899,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "现在选择要到达的文明锚点吧！",
+        des = "Now, select the target civilization!",
     },
     [612] = {
         uiType = 6,
@@ -2922,7 +2922,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "激烈的战斗展开了，不断战胜BOSS就能推进探索进度，解锁新地图呢！",
+        des = "The fierce battle has begun. Keep defeating bosses to make progress in Exploration and unlock new maps!",
     },
     [620] = {
         uiType = 3,
@@ -2945,7 +2945,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "可以看到，升级了指挥室以后，有新的舱室解锁了哦！",
+        des = "As you can see, upgrading the Command Room will unlock new cabins!",
     },
     [628] = {
         uiType = 3,
@@ -2968,7 +2968,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "挑选好精灵后，就可以执行派遣操作了！",
+        des = "Once you've selected the Spirits, it is time to Dispatch them!",
     },
     [636] = {
         uiType = 1,
@@ -2991,7 +2991,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "选中想要合成的秘宝吧！",
+        des = "Select a treasure to craft!",
     },
     [541] = {
         uiType = 1,
@@ -3087,7 +3087,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "在监控画面中，能够看到我们与敌舰的实时作战情况！",
+        des = "You can watch our battle with the enemies in real-time on the surveillance screen!",
     },
     [613] = {
         uiType = 0,
@@ -3110,7 +3110,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "刚才清点了一下，我们的收获已经足以将天空舰提升一大截属性了！",
+        des = "We just checked the inventory, now we have enough resources to greatly boost the Sky Airship's stats!",
     },
     [621] = {
         uiType = 0,
@@ -3133,7 +3133,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "继续升级指挥室就能解锁更多舱室功能了！",
+        des = "Keep upgrading the Command Room to unlock more cabin functions!",
     },
     [629] = {
         uiType = 0,
@@ -3156,7 +3156,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "稍微等待一段时间，就能领取任务报酬了。",
+        des = "Wait for a short while, and you'll be able to claim the quest reward.",
     },
     [637] = {
         uiType = 1,
@@ -3179,7 +3179,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "现在执行“合成”指令，就能获得完整的秘宝了！",
+        des = "Now execute the \"Craft\" order to get the complete treasure!",
     },
     [542] = {
         uiType = 0,
@@ -3271,7 +3271,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "每隔一段时间，都会有探索收获可以领取哦，来看看我们的第一次收获吧。",
+        des = "You can claim Exploration Loot at set intervals. Let's see what our first loot is.",
     },
     [614] = {
         uiType = 1,
@@ -3294,7 +3294,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "等待战斗结束，我们可以去提升天空舰了哦！很期待呢！",
+        des = "When the battle ends, we can upgrade the Sky Airship! I can't wait!",
     },
     [622] = {
         uiType = 1,
@@ -3317,7 +3317,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "现在让我们继续回到指挥室看看其他有趣的系统吧。",
+        des = "Now let's head back to the Command Room to check out some other interesting systems.",
     },
     [630] = {
         uiType = 1,
@@ -3340,7 +3340,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "现在领取报酬，看看得到了什么好东西吧！",
+        des = "Now claim the reward. Let's see what we got!",
     },
     [638] = {
         uiType = 1,
@@ -3363,7 +3363,7 @@ return {
         dunId = 0,
         guideId = 29,
         guideType = 2,
-        des = "秘宝的厉害之处在于激活效果呢！让我们去看看吧。",
+        des = "A treasure's true power lies in its activated effect! Let's find out how it works.",
     },
     [543] = {
         uiType = 1,

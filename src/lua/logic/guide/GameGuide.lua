@@ -83,9 +83,8 @@ function GameGuide:showGuideLayer(ui, guideInfo, _widget, adjustPos)
 		end
 	end
 
+	local _GuideMain = require("lua.logic.guide.GuideMain"):new({cfg = guideInfo, ui = ui, widget = widget, pos = adjustPos})
 	if GuideDataMgr:checkEnableControl(guideInfo) then
-		local _GuideMain = require("lua.logic.guide.GuideMain"):new({cfg = guideInfo, ui = ui, widget = widget, pos = adjustPos})
-
 		ui._GuideMain = _GuideMain
 		if ui.__cname ~= "MainLayer" and  ui.__cname ~= "NewCityInfoView" then
 			_GuideMain:setAnchorPoint(ccp(0.5, 0.5))

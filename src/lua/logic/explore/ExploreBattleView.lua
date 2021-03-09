@@ -693,7 +693,7 @@ function ExploreBattleView:doSkillEvent(eventIdx)
                 for i, musicData in ipairs(musicDatas) do
                     local volume = musicData.volume*0.01
                     local EffectVolume = TFAudio.getEffectsVolume()
-                    if EffectVolume > 0 and volume > 0 then
+                    if EffectVolume > 0 and volume > 0 and self.isOnShow then
                         TFAudio.playEffect(musicData.resource,false,1,0,volume)
                     end
                 end
@@ -1034,7 +1034,7 @@ function ExploreBattleView:showEffectTip(dir, cfg, data, callback)
     end
     
     if data[4] and data[4] > 0 then
-        text = text.."吸收"..data[4]
+        text = text..TextDataMgr:getText(100000096)..data[4]
     end
     table.insert(self.tipsArray, {dir = dir,values = {text}, tipsType = enumTipsType.PuTong,colorType = 1})
 
@@ -1047,15 +1047,15 @@ function ExploreBattleView:showDamageTip(damageData, callback)
     if damageData[7] and damageData[7] > 0 then
         colorType = 5
         values[1] = "-"..damageData[4]
-        values[2] = "偏斜吸收"..damageData[7]
+        values[2] = TextDataMgr:getText(190000545)..damageData[7]
     elseif damageData[6] and damageData[6] > 0 then
         colorType = 4
         values[1] = "-"..damageData[4]
-        values[2] = "吸收"..damageData[6]
+        values[2] = TextDataMgr:getText(100000096)..damageData[6]
     elseif damageData[5] and damageData[5] == 1 then
         colorType = 3
         values[1] = "-"..damageData[4]
-        values[2] = "穿透！"
+        values[2] = TextDataMgr:getText(11101034)
     else
         colorType = 1
         values[1] = "-"..damageData[4]
@@ -1389,8 +1389,8 @@ function ExploreBattleView:getScriptSoundData(resource,action,event)
     return check(self.musicDatas[3],prams)
 end
 
-function ExploreBattleView:onShow()
-    self.super.onShow(self)
+function ExploreBattleView:onShow(state)
+    self.isOnShow = state
 end
 
 function ExploreBattleView:registerEvents()

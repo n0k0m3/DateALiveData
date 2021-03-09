@@ -3,7 +3,7 @@ return {
         id = 1,
         beginTime  = "00:00:01,0",
         endTime  = "00:00:02,0",
-        content  = "When I opened my eyes again, I found myself in what seemed to be another realm.",
+        content  = "When I opened my eyes again\nI found myself in what seemed to be another realm.",
     },
     [2] = {
         id = 2,

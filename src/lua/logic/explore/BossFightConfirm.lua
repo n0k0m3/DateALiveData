@@ -98,7 +98,7 @@ function BossFightConfirm:initUILogic()
         else
             local attrData = self:getAttributeConfig(attrId)
             local nameStr = TextDataMgr:getText(attrData.name)
-            self.attr[i].name:setText(nameStr.."ï¼š")
+            self.attr[i].name:setText(nameStr..":")
             local baseValue = baseAttr[attrId] or 0
             local upValue = upAttr[attrId] or 0
             local level = monsterCfg.level

@@ -41,6 +41,7 @@ function DetailsKnowledgePage:initUI(ui)
     self.Image_cost = TFDirector:getChildByPath(self.Panel_root,"Image_cost")
     self.Label_cost = TFDirector:getChildByPath(self.Image_cost,"Label_cost")
     self.Image_cost_icon = TFDirector:getChildByPath(self.Image_cost,"Image_cost_icon")
+    self.Label_cost_tip = TFDirector:getChildByPath(self.Image_cost,"Label_cost_tip")
 
     self.Panel_handel = TFDirector:getChildByPath(self.Image_details_bg,"Panel_handel")
 
@@ -105,13 +106,17 @@ function DetailsKnowledgePage:loadKnowledgeItem()
             local image_icon = TFDirector:getChildByPath(item,"Image_icon")
             local Image_select = TFDirector:getChildByPath(item,"Image_select"):hide()
             local Label_level = TFDirector:getChildByPath(item,"Label_level")
+            local image_red = TFImage:create("ui/common/news_small.png")
+            image_red:setPosition(40 , 30)
+            item:addChild(image_red , 1)
+            
 
             local isUnlockEffect = SkeletonAnimation:create("effect/effect_afk/effects_afk_abilityunlock")
             item:addChild(isUnlockEffect,99)
 
             item:setTouchEnabled(true)
             self.knowledgeItem_[v.id] = {root = item,icon = image_icon, image_normal = image_normal, learned = image_learned,unLockSpine = isUnlockEffect,
-                                         darkLine = darkLine,lock = image_lock, select = Image_select,Label_level = Label_level,showCfg = nil, isPlay = false}
+                                         darkLine = darkLine,lock = image_lock, select = Image_select,Label_level = Label_level,showCfg = nil, isPlay = false , redPoint = image_red}
             self.Panel_items:addChild(item)
 
 
@@ -140,6 +145,7 @@ function DetailsKnowledgePage:updateKnowledge(isUpgrade)
     end
 
     self:jumpToKnowledgeItem(self.selectIndex)
+    self:checkSkillCanLearn()
 end
 
 function DetailsKnowledgePage:updateKnowledgeItem(widget,cfg,isUpgrade)
@@ -361,6 +367,13 @@ function DetailsKnowledgePage:updateCost()
         break
     end
     self.Label_cost:setText(costNum)
+    if GoodsDataMgr:getItemCount(costId) < costNum then
+        self.Label_cost:setFontColor(ccc3(255 , 0 ,0))
+        self.Label_cost_tip:setFontColor(ccc3(255 , 0 ,0))
+    else
+        self.Label_cost:setFontColor(ccc3(255 , 255 ,255))
+        self.Label_cost_tip:setFontColor(ccc3(255 , 255 ,255))
+    end
 
     local itemCfg = GoodsDataMgr:getItemCfg(costId)
     if not itemCfg then
@@ -409,6 +422,50 @@ function DetailsKnowledgePage:registerEvents()
         ExploreDataMgr:Send_ExploreTechUpgrade(self.nextCfg.type,self.nextCfg.chapterID,self.nextCfg.id)
     end)
 
+end
+
+function DetailsKnowledgePage:checkSkillCanLearn( ... )
+    for k,v in pairs(self.knowledgeItem_) do
+        local cfg = v.showCfg
+        local state =  ExploreDataMgr:getKnowledgeState(cfg.type,cfg.id)
+        local isUnlock = state and true or false
+        local isLearn = state == 1
+        if isUnlock then
+            local curLevel = cfg.level
+            local nextLevel = 0
+            if isLearn then
+                nextLevel = curLevel + 1
+            else
+                nextLevel = curLevel
+            end
+            local nationId,position = cfg.chapterID,cfg.position
+            local knowledgeList = ExploreDataMgr:getNationKnowledge(nationId,position)
+            local useCfg = knowledgeList[nextLevel]
+            if not useCfg then
+                v.redPoint:setVisible(false)
+            else
+                local costId,costNum
+                local costInfo = useCfg.cost
+                for key,value in pairs(costInfo) do
+                    costId,costNum = key,value
+                    break
+                end
+
+                local isConditionUnlock = true
+                local condition = self:isUnlockItem(useCfg.preAbility,useCfg.condition,isUnlock)
+                for k,v in ipairs(condition) do
+                    if not v.isLearn then
+                       isConditionUnlock = false
+                    end
+                end
+                v.redPoint:setVisible(GoodsDataMgr:getItemCount(costId) >= costNum and isConditionUnlock)
+            end
+            
+        else
+            v.redPoint:setVisible(false)
+        end
+        
+    end
 end
 
 return DetailsKnowledgePage

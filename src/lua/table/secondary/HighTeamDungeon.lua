@@ -72,7 +72,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -189,7 +189,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -336,7 +336,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -452,7 +452,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -569,7 +569,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -716,7 +716,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -832,7 +832,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -980,7 +980,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -1127,7 +1127,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -1243,7 +1243,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -1360,7 +1360,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -1592,7 +1592,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -1709,7 +1709,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -1826,7 +1826,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -1943,7 +1943,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -2060,7 +2060,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -2178,7 +2178,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -2295,7 +2295,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -2412,7 +2412,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -2530,7 +2530,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -2647,7 +2647,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -2764,7 +2764,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -2882,7 +2882,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -2999,7 +2999,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -3116,7 +3116,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -3234,7 +3234,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -3351,7 +3351,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -3468,7 +3468,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -3586,7 +3586,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -3703,7 +3703,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -3820,7 +3820,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -3938,7 +3938,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -4056,7 +4056,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -4174,7 +4174,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -4322,7 +4322,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -4435,7 +4435,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -4550,7 +4550,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -4668,7 +4668,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -4816,7 +4816,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -4938,7 +4938,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -5045,7 +5045,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 1,
         countLimit = 1,
@@ -5159,7 +5159,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -5308,7 +5308,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -5431,7 +5431,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -5539,7 +5539,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 1,
         countLimit = 1,
@@ -5653,7 +5653,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -5876,7 +5876,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 1,
         countLimit = 1,
@@ -5990,7 +5990,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -6098,7 +6098,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 1,
         countLimit = 1,
@@ -6212,7 +6212,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -6320,7 +6320,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 1,
         countLimit = 1,
@@ -6434,7 +6434,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -6545,7 +6545,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 2,
         countLimit = 1,
@@ -6660,7 +6660,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -6778,7 +6778,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -6889,7 +6889,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 2,
         countLimit = 1,
@@ -7004,7 +7004,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -7122,7 +7122,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -7233,7 +7233,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 2,
         countLimit = 1,
@@ -7348,7 +7348,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -7466,7 +7466,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -7577,7 +7577,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 2,
         countLimit = 1,
@@ -7692,7 +7692,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -7810,7 +7810,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -7958,7 +7958,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -8067,7 +8067,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 2,
         countLimit = 1,
@@ -8182,7 +8182,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -8300,7 +8300,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -8414,7 +8414,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 3,
         countLimit = 1,
@@ -8529,7 +8529,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -8646,7 +8646,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -8794,7 +8794,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -8906,7 +8906,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 3,
         countLimit = 1,
@@ -9137,7 +9137,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -9285,7 +9285,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -9397,7 +9397,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 3,
         countLimit = 1,
@@ -9513,7 +9513,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -9631,7 +9631,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -9780,7 +9780,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -9892,7 +9892,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 3,
         countLimit = 1,
@@ -10008,7 +10008,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -10126,7 +10126,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -10355,7 +10355,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 3,
         countLimit = 1,
@@ -10471,7 +10471,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -10589,7 +10589,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -10706,7 +10706,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -10823,7 +10823,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -10941,7 +10941,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -11059,7 +11059,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -11176,7 +11176,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -11293,7 +11293,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -11411,7 +11411,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 5,
         countLimit = 1,
@@ -11529,7 +11529,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -11646,7 +11646,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -11793,7 +11793,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -11940,7 +11940,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -12056,7 +12056,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 6,
         countLimit = 1,
@@ -12173,7 +12173,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 4,
         countLimit = 1,
@@ -12320,7 +12320,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,
@@ -12467,7 +12467,7 @@ return {
         capDesc = 0,
         lvlLimit = {
             [1] = 35,
-            [2] = 70,
+            [2] = 80,
         },
         challangeLevel = 0,
         countLimit = 1,

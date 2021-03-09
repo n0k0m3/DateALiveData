@@ -154,10 +154,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 217,
-										PositionY = 115,
+										PositionX = 290,
+										PositionY = 117,
 									},
-									width = "27",
+									width = "26",
 									ZOrder = "1",
 								},
 								{
@@ -348,8 +348,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_remain_days-Copy1",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -365,7 +365,7 @@ local t =
 										PositionX = 252,
 										PositionY = -44,
 									},
-									width = "210",
+									width = "177",
 									ZOrder = "1",
 								},
 								{
@@ -411,7 +411,7 @@ local t =
 										PositionX = 59,
 										PositionY = -42,
 									},
-									width = "139",
+									width = "154",
 									ZOrder = "1",
 								},
 								{
