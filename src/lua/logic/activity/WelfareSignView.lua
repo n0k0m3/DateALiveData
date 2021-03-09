@@ -34,7 +34,6 @@ function WelfareSignView:ctor( data )
 	self.SevenItemType = tonumber(self.activityInfo.extendData.SevenItemType) or 1		---1：横放的 2:斜着的
 	local uiName = self.activityInfo.extendData.uiName or "welfareSignView"
 	self.curResFileName = "style2"
-	print(self.activityInfo.extendData)
 	self:init("lua.uiconfig.activity."..uiName)
 end
 
@@ -53,9 +52,10 @@ function WelfareSignView:initUI(ui)
 	self.Label_time_tip:setTextById( 1710002)
 
 
-	self.Label_time_tip:setFontColor(ccc3(97 , 5 , 7))
-	self.Label_time_begin:setFontColor(ccc3(97 , 5 , 7))
-	self.Label_time_end:setFontColor(ccc3(97 , 5 , 7))
+	--屏蔽春节登陆活动字体颜色
+	-- self.Label_time_tip:setFontColor(ccc3(97 , 5 , 7))
+	-- self.Label_time_begin:setFontColor(ccc3(97 , 5 , 7))
+	-- self.Label_time_end:setFontColor(ccc3(97 , 5 , 7))
 
 	self.btn_Last_ = TFDirector:getChildByPath(ui, "Button_last"):hide()
 	self.btn_Next_ = TFDirector:getChildByPath(ui, "Button_next"):hide()
@@ -151,6 +151,8 @@ function WelfareSignView:initPageTypeData()
 	--设置背景图
 	if self.activityInfo.extendData.activityShowType and (self.activityInfo.extendData.activityShowType == 6 or self.activityInfo.extendData.activityShowType == 91) or self.activityInfo.extendData.uiName == "whiteQueenAssistSignView" then
 	elseif self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
+	elseif self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == 2 then
+		self.Image_bg:setTexture("ui/activity/welfareSign/003.png")
 	else
 		self.Image_bg:setTexture("ui/activity/activityStyle/wefareSignActivity/"..self.curResFileName.."/bg1".. ".png")
 	end

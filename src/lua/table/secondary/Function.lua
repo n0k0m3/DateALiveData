@@ -2211,7 +2211,7 @@ return {
     },
     [127] = {
         isOpen = true,
-        openLevel = 99,
+        openLevel = 1,
         isStinger = false,
         id = 127,
         openDun = 0,

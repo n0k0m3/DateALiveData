@@ -40,7 +40,7 @@ function ValentineMainView:initUI(ui)
     self.Button_collapse = TFDirector:getChildByPath(self.Panel_root, "Button_collapse"):show()
     self.Button_chocolate = TFDirector:getChildByPath(self.Panel_root, "Button_chocolate")
     self.Label_chocolate = TFDirector:getChildByPath(self.Button_chocolate, "Label_chocolate")
-    self.Button_tacit = TFDirector:getChildByPath(self.Panel_root, "Button_tacit")
+    self.Button_tacit = TFDirector:getChildByPath(self.Panel_root, "Button_tacit"):hide()
     self.Label_tacit = TFDirector:getChildByPath(self.Button_tacit, "Label_tacit")
 
     local rankSize = self.Panel_rank:getSize()

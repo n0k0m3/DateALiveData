@@ -185,18 +185,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_tip",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -208,7 +208,7 @@ local t =
 									{
 										PositionX = -83,
 									},
-									width = "99",
+									width = "113",
 									ZOrder = "1",
 								},
 								{
@@ -253,7 +253,7 @@ local t =
 									{
 										PositionX = 32,
 									},
-									width = "45",
+									width = "48",
 									ZOrder = "1",
 								},
 							},
@@ -671,15 +671,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_btn",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -694,7 +694,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "120",
 											ZOrder = "1",
 										},
 									},
@@ -775,15 +775,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_award_tip",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -798,7 +798,7 @@ local t =
 									{
 										PositionX = -162,
 									},
-									width = "157",
+									width = "221",
 									ZOrder = "1",
 								},
 							},

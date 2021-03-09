@@ -146,8 +146,8 @@ function ChronoCrossTaskView:updateTaskItem(taskItem,data)
     local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo_.activityType, data)
     local itemInfo = ActivityDataMgr2:getItemInfo(self.activityInfo_.activityType, data)
 
-    Label_desc:setText(itemInfo.extendData.des2)
-    Label_desc_complete:setText(itemInfo.extendData.des2)
+    Label_desc:setText(Utils:MultiLanguageStringDeal(itemInfo.extendData.des2))
+    Label_desc_complete:setText(Utils:MultiLanguageStringDeal(itemInfo.extendData.des2))
     Label_step:setText(itemInfo.target)
     Label_step_complete:setText(itemInfo.target)
     local isReceive = progressInfo.status == EC_TaskStatus.GET

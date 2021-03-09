@@ -75316,6 +75316,50 @@ return {
         },
         des = "使用后可任意选择以下其中一个灵装，选择后不可更改，请谨慎。\n美九：灵装—舞台装\n十香：灵装—四月的公主\n折纸：灵装—CR-unit 龙胆",
     },
+    [566064] = {
+        isHide = false,
+        superType = 6,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 9999999,
+        outTime = 0,
+        smallType = 0,
+        bagType = 5,
+        autoUse = false,
+        nameTextId = 190000334,
+        icon = "icon/item/goods/566064.png",
+        quality = 4,
+        desTextId = 190000336,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566064,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+        },
+        subType = 4,
+        batchUse = true,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 99999999,
+        dealProfit = {
+        },
+        order = 1,
+        accessId = {
+        },
+        des = "感恩节专属活动道具，活动期间副本掉落，捐赠后可获得应援积分。 ",
+    },
     [554000] = {
         isHide = false,
         superType = 16,
@@ -75356,7 +75400,7 @@ return {
         },
         des = "2018年圣诞头像-圣诞麋鹿",
     },
-    [566064] = {
+    [566063] = {
         isHide = false,
         superType = 6,
         buyItemRecover = 0,
@@ -75371,15 +75415,15 @@ return {
         smallType = 0,
         bagType = 5,
         autoUse = false,
-        nameTextId = 190000334,
-        icon = "icon/item/goods/566064.png",
+        nameTextId = 190000333,
+        icon = "icon/item/goods/566063.png",
         quality = 4,
         desTextId = 190000336,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566064,
+        id = 566063,
         sellProfit = {
             [1] = {
                 [1] = 500001,
@@ -75440,7 +75484,7 @@ return {
         },
         des = "2019农历新年活动限定兑换头像！",
     },
-    [566063] = {
+    [566062] = {
         isHide = false,
         superType = 6,
         buyItemRecover = 0,
@@ -75455,15 +75499,15 @@ return {
         smallType = 0,
         bagType = 5,
         autoUse = false,
-        nameTextId = 190000333,
-        icon = "icon/item/goods/566063.png",
+        nameTextId = 190000332,
+        icon = "icon/item/goods/566062.png",
         quality = 4,
         desTextId = 190000336,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566063,
+        id = 566062,
         sellProfit = {
             [1] = {
                 [1] = 500001,
@@ -75524,7 +75568,7 @@ return {
         },
         des = "2019春日祭活动限定兑换头像！",
     },
-    [566062] = {
+    [566061] = {
         isHide = false,
         superType = 6,
         buyItemRecover = 0,
@@ -75539,15 +75583,15 @@ return {
         smallType = 0,
         bagType = 5,
         autoUse = false,
-        nameTextId = 190000332,
-        icon = "icon/item/goods/566062.png",
+        nameTextId = 190000331,
+        icon = "icon/item/goods/520038.png",
         quality = 4,
         desTextId = 190000336,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566062,
+        id = 566061,
         sellProfit = {
             [1] = {
                 [1] = 500001,
@@ -76488,90 +76532,6 @@ return {
         },
         des = "参与「秋日盛典」活动可获得该头像",
     },
-    [566061] = {
-        isHide = false,
-        superType = 6,
-        buyItemRecover = 0,
-        cost = "",
-        showBgPreview = 0,
-        pileUp = true,
-        useProfit = {
-        },
-        bornEffect = false,
-        gridMax = 9999999,
-        outTime = 0,
-        smallType = 0,
-        bagType = 5,
-        autoUse = false,
-        nameTextId = 190000331,
-        icon = "icon/item/goods/520038.png",
-        quality = 4,
-        desTextId = 190000336,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 566061,
-        sellProfit = {
-            [1] = {
-                [1] = 500001,
-                [2] = 1,
-            },
-        },
-        subType = 4,
-        batchUse = true,
-        convertMax = {
-        },
-        star = 0,
-        iconShow = "",
-        totalMax = 99999999,
-        dealProfit = {
-        },
-        order = 1,
-        accessId = {
-        },
-        des = "感恩节专属活动道具，活动期间副本掉落，捐赠后可获得应援积分。 ",
-    },
-    [554011] = {
-        isHide = false,
-        superType = 16,
-        buyItemRecover = 0,
-        cost = "",
-        showBgPreview = 0,
-        pileUp = true,
-        useProfit = {
-        },
-        bornEffect = false,
-        gridMax = 1,
-        outTime = 0,
-        smallType = 0,
-        bagType = 0,
-        autoUse = false,
-        nameTextId = 265117,
-        icon = "icon/hero/name/554010.png",
-        quality = 4,
-        desTextId = 265118,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 554011,
-        sellProfit = {
-        },
-        subType = 0,
-        batchUse = false,
-        convertMax = {
-        },
-        star = 0,
-        iconShow = "",
-        totalMax = 1,
-        dealProfit = {
-        },
-        order = 0,
-        accessId = {
-        },
-        des = "成功训练十香AI1次可获得该头像",
-    },
     [566060] = {
         isHide = false,
         superType = 16,
@@ -76612,7 +76572,7 @@ return {
         },
         des = "参与「裁决降临」活动解锁拼图可获得",
     },
-    [554012] = {
+    [554011] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -76627,15 +76587,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265120,
-        icon = "icon/hero/name/554011.png",
-        quality = 2,
-        desTextId = 265121,
+        nameTextId = 265117,
+        icon = "icon/hero/name/554010.png",
+        quality = 4,
+        desTextId = 265118,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554012,
+        id = 554011,
         sellProfit = {
         },
         subType = 0,
@@ -76650,7 +76610,7 @@ return {
         order = 0,
         accessId = {
         },
-        des = "",
+        des = "成功训练十香AI1次可获得该头像",
     },
     [566058] = {
         isHide = false,
@@ -76696,7 +76656,7 @@ return {
         },
         des = "活动福利，可以替代命运徽章进行召唤的限时道具。（优先使用，有效时间30天）",
     },
-    [554013] = {
+    [554012] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -76711,15 +76671,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265122,
-        icon = "icon/hero/name/554012.png",
-        quality = 3,
-        desTextId = 265123,
+        nameTextId = 265120,
+        icon = "icon/hero/name/554011.png",
+        quality = 2,
+        desTextId = 265121,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554013,
+        id = 554012,
         sellProfit = {
         },
         subType = 0,
@@ -76781,7 +76741,7 @@ return {
         },
         des = "可以替代货币（钻石）进行召唤的道具。外形是一个设计精巧的徽章",
     },
-    [554014] = {
+    [554013] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -76796,15 +76756,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265124,
-        icon = "icon/hero/name/554013.png",
-        quality = 4,
-        desTextId = 265125,
+        nameTextId = 265122,
+        icon = "icon/hero/name/554012.png",
+        quality = 3,
+        desTextId = 265123,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554014,
+        id = 554013,
         sellProfit = {
         },
         subType = 0,
@@ -76869,7 +76829,7 @@ return {
         },
         des = "你现在是DAL SP粉丝团的一员了",
     },
-    [554015] = {
+    [554014] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -76884,15 +76844,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265126,
-        icon = "icon/hero/name/554015.png",
+        nameTextId = 265124,
+        icon = "icon/hero/name/554013.png",
         quality = 4,
-        desTextId = 265127,
+        desTextId = 265125,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554015,
+        id = 554014,
         sellProfit = {
         },
         subType = 0,
@@ -76907,7 +76867,7 @@ return {
         order = 0,
         accessId = {
         },
-        des = "参与「猫の认可」活动可获得",
+        des = "",
     },
     [566052] = {
         isHide = false,
@@ -76961,7 +76921,7 @@ return {
         },
         des = "开启后可获得猫娘狂三CG。",
     },
-    [554016] = {
+    [554015] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -76976,15 +76936,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265128,
-        icon = "icon/hero/name/554016.png",
+        nameTextId = 265126,
+        icon = "icon/hero/name/554015.png",
         quality = 4,
-        desTextId = 265129,
+        desTextId = 265127,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554016,
+        id = 554015,
         sellProfit = {
         },
         subType = 0,
@@ -76999,7 +76959,7 @@ return {
         order = 0,
         accessId = {
         },
-        des = "2019圣诞活动限定兑换头像！",
+        des = "参与「猫の认可」活动可获得",
     },
     [566050] = {
         isHide = false,
@@ -78633,7 +78593,7 @@ return {
         },
         des = "开启后可选择任意角色的随机技能的A级宝石。",
     },
-    [554017] = {
+    [554016] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -78648,15 +78608,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265130,
-        icon = "icon/hero/name/554017.png",
+        nameTextId = 265128,
+        icon = "icon/hero/name/554016.png",
         quality = 4,
-        desTextId = 265131,
+        desTextId = 265129,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554017,
+        id = 554016,
         sellProfit = {
         },
         subType = 0,
@@ -78671,7 +78631,7 @@ return {
         order = 0,
         accessId = {
         },
-        des = "鼠年春节限定头像，可在春节商店兑换。",
+        des = "2019圣诞活动限定兑换头像！",
     },
     [566048] = {
         isHide = false,
@@ -78718,7 +78678,7 @@ return {
         },
         des = "9折战令折扣券",
     },
-    [554018] = {
+    [554017] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -78733,15 +78693,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265132,
-        icon = "icon/hero/name/554018.png",
+        nameTextId = 265130,
+        icon = "icon/hero/name/554017.png",
         quality = 4,
-        desTextId = 265133,
+        desTextId = 265131,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554018,
+        id = 554017,
         sellProfit = {
         },
         subType = 0,
@@ -78756,7 +78716,7 @@ return {
         order = 0,
         accessId = {
         },
-        des = "茵蒂克丝送上新年的祝福，联动商店兑换可获得该头像",
+        des = "鼠年春节限定头像，可在春节商店兑换。",
     },
     [566046] = {
         isHide = false,
@@ -78803,7 +78763,7 @@ return {
         },
         des = "7折战令折扣券",
     },
-    [554019] = {
+    [554018] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -78818,15 +78778,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265134,
-        icon = "icon/hero/name/554019.png",
+        nameTextId = 265132,
+        icon = "icon/hero/name/554018.png",
         quality = 4,
-        desTextId = 265135,
+        desTextId = 265133,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554019,
+        id = 554018,
         sellProfit = {
         },
         subType = 0,
@@ -78841,7 +78801,7 @@ return {
         order = 0,
         accessId = {
         },
-        des = "漫步花间遇见童话，在童话之森活动兑换可获得该头像",
+        des = "茵蒂克丝送上新年的祝福，联动商店兑换可获得该头像",
     },
     [566044] = {
         isHide = false,
@@ -78887,6 +78847,46 @@ return {
         accessId = {
         },
         des = "5折战令折扣券",
+    },
+    [554019] = {
+        isHide = false,
+        superType = 16,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 1,
+        outTime = 0,
+        smallType = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 265134,
+        icon = "icon/hero/name/554019.png",
+        quality = 4,
+        desTextId = 265135,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 554019,
+        sellProfit = {
+        },
+        subType = 0,
+        batchUse = false,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 1,
+        dealProfit = {
+        },
+        order = 0,
+        accessId = {
+        },
+        des = "漫步花间遇见童话，在童话之森活动兑换可获得该头像",
     },
     [566042] = {
         isHide = false,
@@ -78978,46 +78978,6 @@ return {
         },
         des = "1折战令折扣券",
     },
-    [554021] = {
-        isHide = false,
-        superType = 16,
-        buyItemRecover = 0,
-        cost = "",
-        showBgPreview = 0,
-        pileUp = true,
-        useProfit = {
-        },
-        bornEffect = false,
-        gridMax = 1,
-        outTime = 0,
-        smallType = 0,
-        bagType = 0,
-        autoUse = false,
-        nameTextId = 266605,
-        icon = "icon/hero/name/554021.png",
-        quality = 4,
-        desTextId = 266606,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 554021,
-        sellProfit = {
-        },
-        subType = 0,
-        batchUse = false,
-        convertMax = {
-        },
-        star = 0,
-        iconShow = "",
-        totalMax = 1,
-        dealProfit = {
-        },
-        order = 0,
-        accessId = {
-        },
-        des = "参与「暮雨小憩」活动可获得该头像",
-    },
     [566038] = {
         isHide = false,
         superType = 6,
@@ -79064,6 +79024,86 @@ return {
         },
         des = "可以替代货币（钻石）进行召唤的道具。外形是一个设计精巧的徽章",
     },
+    [554021] = {
+        isHide = false,
+        superType = 16,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 1,
+        outTime = 0,
+        smallType = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 266605,
+        icon = "icon/hero/name/554021.png",
+        quality = 4,
+        desTextId = 266606,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 554021,
+        sellProfit = {
+        },
+        subType = 0,
+        batchUse = false,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 1,
+        dealProfit = {
+        },
+        order = 0,
+        accessId = {
+        },
+        des = "参与「暮雨小憩」活动可获得该头像",
+    },
+    [566036] = {
+        isHide = false,
+        superType = 18,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 1,
+        outTime = 0,
+        smallType = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 266567,
+        icon = "icon/item/goods/10155.png",
+        quality = 4,
+        desTextId = 190000058,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566036,
+        sellProfit = {
+        },
+        subType = 0,
+        batchUse = false,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 1,
+        dealProfit = {
+        },
+        order = 0,
+        accessId = {
+        },
+        des = "参与2019新年应援活动",
+    },
     [554022] = {
         isHide = false,
         superType = 16,
@@ -79104,7 +79144,7 @@ return {
         },
         des = "",
     },
-    [566036] = {
+    [566034] = {
         isHide = false,
         superType = 18,
         buyItemRecover = 0,
@@ -79119,15 +79159,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 266567,
-        icon = "icon/item/goods/10155.png",
+        nameTextId = 266551,
+        icon = "icon/item/goods/10143.png",
         quality = 4,
-        desTextId = 190000058,
+        desTextId = 190000056,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566036,
+        id = 566034,
         sellProfit = {
         },
         subType = 0,
@@ -79184,7 +79224,7 @@ return {
         },
         des = "午后遇见镜中的那只猫，让心跳与镜中身影交织在一起",
     },
-    [566034] = {
+    [566032] = {
         isHide = false,
         superType = 18,
         buyItemRecover = 0,
@@ -79199,15 +79239,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 266551,
-        icon = "icon/item/goods/10143.png",
+        nameTextId = 266531,
+        icon = "icon/item/goods/10128.png",
         quality = 4,
-        desTextId = 190000056,
+        desTextId = 190000054,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566034,
+        id = 566032,
         sellProfit = {
         },
         subType = 0,
@@ -79264,7 +79304,7 @@ return {
         },
         des = "活动期间累计登录可获得该头像",
     },
-    [566032] = {
+    [566030] = {
         isHide = false,
         superType = 18,
         buyItemRecover = 0,
@@ -79279,15 +79319,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 266531,
-        icon = "icon/item/goods/10128.png",
+        nameTextId = 266516,
+        icon = "icon/item/goods/10116.png",
         quality = 4,
-        desTextId = 190000054,
+        desTextId = 190000052,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566032,
+        id = 566030,
         sellProfit = {
         },
         subType = 0,
@@ -79345,7 +79385,7 @@ return {
         },
         des = "",
     },
-    [566030] = {
+    [566028] = {
         isHide = false,
         superType = 18,
         buyItemRecover = 0,
@@ -79360,15 +79400,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 266516,
-        icon = "icon/item/goods/10116.png",
+        nameTextId = 266511,
+        icon = "icon/item/goods/10111.png",
         quality = 4,
-        desTextId = 190000052,
+        desTextId = 190000050,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566030,
+        id = 566028,
         sellProfit = {
         },
         subType = 0,
@@ -79425,7 +79465,7 @@ return {
         },
         des = "",
     },
-    [566028] = {
+    [566026] = {
         isHide = false,
         superType = 18,
         buyItemRecover = 0,
@@ -79440,15 +79480,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 266511,
-        icon = "icon/item/goods/10111.png",
+        nameTextId = 266585,
+        icon = "icon/item/goods/11902.png",
         quality = 4,
-        desTextId = 190000050,
+        desTextId = 190000048,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566028,
+        id = 566026,
         sellProfit = {
         },
         subType = 0,
@@ -79505,9 +79545,9 @@ return {
         },
         des = "",
     },
-    [566026] = {
+    [566024] = {
         isHide = false,
-        superType = 18,
+        superType = 6,
         buyItemRecover = 0,
         cost = "",
         showBgPreview = 0,
@@ -79515,20 +79555,20 @@ return {
         useProfit = {
         },
         bornEffect = false,
-        gridMax = 1,
+        gridMax = 999,
         outTime = 0,
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 266585,
-        icon = "icon/item/goods/11902.png",
+        nameTextId = 190000027,
+        icon = "icon/item/goods/566024.png",
         quality = 4,
-        desTextId = 190000048,
+        desTextId = 190000028,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566026,
+        id = 566024,
         sellProfit = {
         },
         subType = 0,
@@ -79537,13 +79577,13 @@ return {
         },
         star = 0,
         iconShow = "",
-        totalMax = 1,
+        totalMax = 99999999,
         dealProfit = {
         },
-        order = 0,
+        order = 1,
         accessId = {
         },
-        des = "参与2019新年应援活动",
+        des = "",
     },
     [554028] = {
         isHide = false,
@@ -79587,9 +79627,9 @@ return {
         },
         des = "参与「私人医生」活动可获得",
     },
-    [566024] = {
+    [566022] = {
         isHide = false,
-        superType = 6,
+        superType = 1001,
         buyItemRecover = 0,
         cost = "",
         showBgPreview = 0,
@@ -79597,29 +79637,30 @@ return {
         useProfit = {
         },
         bornEffect = false,
-        gridMax = 999,
+        gridMax = 0,
         outTime = 0,
         smallType = 0,
-        bagType = 0,
+        bagType = 95,
         autoUse = false,
-        nameTextId = 190000027,
-        icon = "icon/item/goods/566024.png",
+        nameTextId = 190000013,
+        icon = "icon/item/goods/566022.png",
         quality = 4,
-        desTextId = 190000028,
+        desTextId = 190000018,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566024,
+        id = 566022,
         sellProfit = {
         },
         subType = 0,
         batchUse = false,
         convertMax = {
+            [620001] = 1,
         },
         star = 0,
         iconShow = "",
-        totalMax = 99999999,
+        totalMax = 50,
         dealProfit = {
         },
         order = 1,
@@ -79667,7 +79708,7 @@ return {
         },
         des = "感谢你一直的守护和陪伴，参与「周年庆典」活动可获得该头像",
     },
-    [566022] = {
+    [566020] = {
         isHide = false,
         superType = 1001,
         buyItemRecover = 0,
@@ -79682,15 +79723,15 @@ return {
         smallType = 0,
         bagType = 95,
         autoUse = false,
-        nameTextId = 190000013,
-        icon = "icon/item/goods/566022.png",
+        nameTextId = 190000011,
+        icon = "icon/item/goods/566020.png",
         quality = 4,
-        desTextId = 190000018,
+        desTextId = 190000016,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566022,
+        id = 566020,
         sellProfit = {
         },
         subType = 0,
@@ -79748,7 +79789,7 @@ return {
         },
         des = "参与「生存游戏」或「秘密补给」活动可获得该头像",
     },
-    [566020] = {
+    [566018] = {
         isHide = false,
         superType = 1001,
         buyItemRecover = 0,
@@ -79763,15 +79804,15 @@ return {
         smallType = 0,
         bagType = 95,
         autoUse = false,
-        nameTextId = 190000011,
-        icon = "icon/item/goods/566020.png",
+        nameTextId = 190000009,
+        icon = "icon/item/goods/566018.png",
         quality = 4,
-        desTextId = 190000016,
+        desTextId = 190000014,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566020,
+        id = 566018,
         sellProfit = {
         },
         subType = 0,
@@ -79828,47 +79869,6 @@ return {
         accessId = {
         },
         des = "「在地下城寻求邂逅是否搞错了什么」联动纪念头像",
-    },
-    [566018] = {
-        isHide = false,
-        superType = 1001,
-        buyItemRecover = 0,
-        cost = "",
-        showBgPreview = 0,
-        pileUp = true,
-        useProfit = {
-        },
-        bornEffect = false,
-        gridMax = 0,
-        outTime = 0,
-        smallType = 0,
-        bagType = 95,
-        autoUse = false,
-        nameTextId = 190000009,
-        icon = "icon/item/goods/566018.png",
-        quality = 4,
-        desTextId = 190000014,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 566018,
-        sellProfit = {
-        },
-        subType = 0,
-        batchUse = false,
-        convertMax = {
-            [620001] = 1,
-        },
-        star = 0,
-        iconShow = "",
-        totalMax = 50,
-        dealProfit = {
-        },
-        order = 1,
-        accessId = {
-        },
-        des = "",
     },
     [500070] = {
         isHide = false,
@@ -81470,46 +81470,6 @@ return {
         },
         des = "自动使用后可获得随机金色宝物碎片",
     },
-    [552001] = {
-        isHide = false,
-        superType = 16,
-        buyItemRecover = 0,
-        cost = "",
-        showBgPreview = 0,
-        pileUp = true,
-        useProfit = {
-        },
-        bornEffect = false,
-        gridMax = 1,
-        outTime = 0,
-        smallType = 0,
-        bagType = 0,
-        autoUse = false,
-        nameTextId = 265000,
-        icon = "icon/hero/name/1101011.png",
-        quality = 4,
-        desTextId = 265500,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 552001,
-        sellProfit = {
-        },
-        subType = 0,
-        batchUse = false,
-        convertMax = {
-        },
-        star = 0,
-        iconShow = "",
-        totalMax = 1,
-        dealProfit = {
-        },
-        order = 0,
-        accessId = {
-        },
-        des = "夜刀神十香_初始头像",
-    },
     [651015] = {
         isHide = false,
         superType = 7,
@@ -81601,7 +81561,7 @@ return {
         },
         des = "自动使用后可获得随机紫色宝物碎片",
     },
-    [552002] = {
+    [552001] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -81616,15 +81576,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265001,
-        icon = "icon/hero/name/1101012.png",
+        nameTextId = 265000,
+        icon = "icon/hero/name/1101011.png",
         quality = 4,
-        desTextId = 265501,
+        desTextId = 265500,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 552002,
+        id = 552001,
         sellProfit = {
         },
         subType = 0,
@@ -81639,7 +81599,7 @@ return {
         order = 0,
         accessId = {
         },
-        des = "夜刀神十香_校服头像",
+        des = "夜刀神十香_初始头像",
     },
     [651014] = {
         isHide = false,
@@ -81744,6 +81704,113 @@ return {
         },
         des = "自动使用后可获得随机蓝色宝物碎片",
     },
+    [552002] = {
+        isHide = false,
+        superType = 16,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 1,
+        outTime = 0,
+        smallType = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 265001,
+        icon = "icon/hero/name/1101012.png",
+        quality = 4,
+        desTextId = 265501,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 552002,
+        sellProfit = {
+        },
+        subType = 0,
+        batchUse = false,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 1,
+        dealProfit = {
+        },
+        order = 0,
+        accessId = {
+        },
+        des = "夜刀神十香_校服头像",
+    },
+    [651013] = {
+        isHide = false,
+        superType = 7,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+            roll = {
+                count = 1,
+                items = {
+                    [1] = {
+                        min = 1,
+                        id = 561012,
+                        max = 1,
+                        weight = 3333,
+                    },
+                    [2] = {
+                        min = 1,
+                        id = 561013,
+                        max = 1,
+                        weight = 3333,
+                    },
+                    [3] = {
+                        min = 1,
+                        id = 561014,
+                        max = 1,
+                        weight = 3333,
+                    },
+                },
+            },
+        },
+        bornEffect = false,
+        gridMax = 999,
+        outTime = 0,
+        smallType = 0,
+        bagType = 9,
+        autoUse = true,
+        nameTextId = 13311368,
+        icon = "icon/item/goods/590115.png",
+        quality = 3,
+        desTextId = 13311384,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 651013,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 100,
+            },
+        },
+        subType = 0,
+        batchUse = true,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 999,
+        dealProfit = {
+        },
+        order = 1,
+        accessId = {
+        },
+        des = "自动使用后可获得随机形态升级材料",
+    },
     [552003] = {
         isHide = false,
         superType = 16,
@@ -81824,113 +81891,6 @@ return {
         },
         des = "一张通往神秘组织大凉山所在地的车票。",
     },
-    [651013] = {
-        isHide = false,
-        superType = 7,
-        buyItemRecover = 0,
-        cost = "",
-        showBgPreview = 0,
-        pileUp = true,
-        useProfit = {
-            roll = {
-                count = 1,
-                items = {
-                    [1] = {
-                        min = 1,
-                        id = 561012,
-                        max = 1,
-                        weight = 3333,
-                    },
-                    [2] = {
-                        min = 1,
-                        id = 561013,
-                        max = 1,
-                        weight = 3333,
-                    },
-                    [3] = {
-                        min = 1,
-                        id = 561014,
-                        max = 1,
-                        weight = 3333,
-                    },
-                },
-            },
-        },
-        bornEffect = false,
-        gridMax = 999,
-        outTime = 0,
-        smallType = 0,
-        bagType = 9,
-        autoUse = true,
-        nameTextId = 13311368,
-        icon = "icon/item/goods/590115.png",
-        quality = 3,
-        desTextId = 13311384,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 651013,
-        sellProfit = {
-            [1] = {
-                [1] = 500001,
-                [2] = 100,
-            },
-        },
-        subType = 0,
-        batchUse = true,
-        convertMax = {
-        },
-        star = 0,
-        iconShow = "",
-        totalMax = 999,
-        dealProfit = {
-        },
-        order = 1,
-        accessId = {
-        },
-        des = "自动使用后可获得随机形态升级材料",
-    },
-    [595002] = {
-        isHide = false,
-        superType = 32,
-        buyItemRecover = 0,
-        cost = "",
-        showBgPreview = 0,
-        pileUp = true,
-        useProfit = {
-        },
-        bornEffect = false,
-        gridMax = 99999,
-        outTime = 0,
-        smallType = 0,
-        bagType = 0,
-        autoUse = false,
-        nameTextId = 2101409,
-        icon = "icon/item/spring/004.png",
-        quality = 1,
-        desTextId = 2101422,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 595002,
-        sellProfit = {
-        },
-        subType = 0,
-        batchUse = false,
-        convertMax = {
-        },
-        star = 0,
-        iconShow = "",
-        totalMax = 99999,
-        dealProfit = {
-        },
-        order = 1,
-        accessId = {
-        },
-        des = "一本废弃的书稿，已经看不清写了些什么。",
-    },
     [651011] = {
         isHide = false,
         superType = 7,
@@ -81998,7 +81958,7 @@ return {
         },
         des = "自动使用后可获得随机武器升级材料",
     },
-    [595003] = {
+    [595002] = {
         isHide = false,
         superType = 32,
         buyItemRecover = 0,
@@ -82013,15 +81973,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 2101410,
-        icon = "icon/item/spring/005.png",
+        nameTextId = 2101409,
+        icon = "icon/item/spring/004.png",
         quality = 1,
-        desTextId = 2101423,
+        desTextId = 2101422,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 595003,
+        id = 595002,
         sellProfit = {
         },
         subType = 0,
@@ -82099,7 +82059,7 @@ return {
         },
         des = "自动使用后可获得文明3紫色宝物碎片",
     },
-    [595004] = {
+    [595003] = {
         isHide = false,
         superType = 32,
         buyItemRecover = 0,
@@ -82114,15 +82074,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 2101411,
-        icon = "icon/item/spring/006.png",
+        nameTextId = 2101410,
+        icon = "icon/item/spring/005.png",
         quality = 1,
-        desTextId = 2101424,
+        desTextId = 2101423,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 595004,
+        id = 595003,
         sellProfit = {
         },
         subType = 0,
@@ -82200,7 +82160,7 @@ return {
         },
         des = "自动使用后可获得文明2紫色宝物碎片",
     },
-    [595005] = {
+    [595004] = {
         isHide = false,
         superType = 32,
         buyItemRecover = 0,
@@ -82215,15 +82175,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 2101412,
-        icon = "icon/item/spring/007.png",
+        nameTextId = 2101411,
+        icon = "icon/item/spring/006.png",
         quality = 1,
-        desTextId = 2101425,
+        desTextId = 2101424,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 595005,
+        id = 595004,
         sellProfit = {
         },
         subType = 0,
@@ -82307,7 +82267,7 @@ return {
         },
         des = "自动使用后可获得文明2蓝色宝物碎片",
     },
-    [595006] = {
+    [595005] = {
         isHide = false,
         superType = 32,
         buyItemRecover = 0,
@@ -82322,15 +82282,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 2101413,
-        icon = "icon/item/spring/008.png",
+        nameTextId = 2101412,
+        icon = "icon/item/spring/007.png",
         quality = 1,
-        desTextId = 2101426,
+        desTextId = 2101425,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 595006,
+        id = 595005,
         sellProfit = {
         },
         subType = 0,
@@ -82414,7 +82374,7 @@ return {
         },
         des = "自动使用后可获得文明1紫色宝物碎片",
     },
-    [595007] = {
+    [595006] = {
         isHide = false,
         superType = 32,
         buyItemRecover = 0,
@@ -82429,15 +82389,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 2101414,
-        icon = "icon/item/spring/009.png",
+        nameTextId = 2101413,
+        icon = "icon/item/spring/008.png",
         quality = 1,
-        desTextId = 2101427,
+        desTextId = 2101426,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 595007,
+        id = 595006,
         sellProfit = {
         },
         subType = 0,
@@ -82452,7 +82412,7 @@ return {
         order = 1,
         accessId = {
         },
-        des = "大凉山员工非常喜欢的一种饮料。",
+        des = "一本废弃的书稿，已经看不清写了些什么。",
     },
     [651004] = {
         isHide = false,
@@ -82521,7 +82481,7 @@ return {
         },
         des = "自动使用后可获得文明1蓝色宝物碎片",
     },
-    [595008] = {
+    [595007] = {
         isHide = false,
         superType = 32,
         buyItemRecover = 0,
@@ -82536,15 +82496,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 2101415,
-        icon = "icon/item/spring/010.png",
+        nameTextId = 2101414,
+        icon = "icon/item/spring/009.png",
         quality = 1,
-        desTextId = 2101428,
+        desTextId = 2101427,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 595008,
+        id = 595007,
         sellProfit = {
         },
         subType = 0,
@@ -82559,7 +82519,7 @@ return {
         order = 1,
         accessId = {
         },
-        des = "听闻是大凉山项目组工作推进的必备能量来源。",
+        des = "大凉山员工非常喜欢的一种饮料。",
     },
     [651003] = {
         isHide = false,
@@ -82640,7 +82600,7 @@ return {
         },
         des = "自动使用后可获得随机结晶材料",
     },
-    [595009] = {
+    [595008] = {
         isHide = false,
         superType = 32,
         buyItemRecover = 0,
@@ -82655,15 +82615,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 2101416,
-        icon = "icon/item/spring/011.png",
+        nameTextId = 2101415,
+        icon = "icon/item/spring/010.png",
         quality = 1,
-        desTextId = 2101429,
+        desTextId = 2101428,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 595009,
+        id = 595008,
         sellProfit = {
         },
         subType = 0,
@@ -82678,7 +82638,7 @@ return {
         order = 1,
         accessId = {
         },
-        des = "一本项目计划书，上面密密麻麻写满了文字。",
+        des = "听闻是大凉山项目组工作推进的必备能量来源。",
     },
     [651002] = {
         isHide = false,
@@ -82759,9 +82719,9 @@ return {
         },
         des = "自动使用后可获得随机改造材料",
     },
-    [595010] = {
+    [595009] = {
         isHide = false,
-        superType = 6,
+        superType = 32,
         buyItemRecover = 0,
         cost = "",
         showBgPreview = 0,
@@ -82774,15 +82734,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 2101417,
-        icon = "icon/item/spring/013.png",
+        nameTextId = 2101416,
+        icon = "icon/item/spring/011.png",
         quality = 1,
-        desTextId = 2101430,
+        desTextId = 2101429,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 595010,
+        id = 595009,
         sellProfit = {
         },
         subType = 0,
@@ -82797,7 +82757,7 @@ return {
         order = 1,
         accessId = {
         },
-        des = "大凉山员工的出入证明，收集这些工牌可以兑换奖励。",
+        des = "一本项目计划书，上面密密麻麻写满了文字。",
     },
     [651001] = {
         isHide = false,
@@ -82907,6 +82867,46 @@ return {
         accessId = {
         },
         des = "自动使用后可获得随机祈愿材料",
+    },
+    [595010] = {
+        isHide = false,
+        superType = 6,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 99999,
+        outTime = 0,
+        smallType = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 2101417,
+        icon = "icon/item/spring/013.png",
+        quality = 1,
+        desTextId = 2101430,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 595010,
+        sellProfit = {
+        },
+        subType = 0,
+        batchUse = false,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 99999,
+        dealProfit = {
+        },
+        order = 1,
+        accessId = {
+        },
+        des = "大凉山员工的出入证明，收集这些工牌可以兑换奖励。",
     },
     [645001] = {
         isHide = false,
@@ -83728,6 +83728,46 @@ return {
         accessId = {
         },
         des = "主角光环技能碎片",
+    },
+    [690006] = {
+        isHide = false,
+        superType = 10,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 9999999,
+        outTime = 0,
+        smallType = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 0,
+        icon = "icon/cg/date_cg_223.png",
+        quality = 1,
+        desTextId = 0,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 690006,
+        sellProfit = {
+        },
+        subType = 0,
+        batchUse = false,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 9999999,
+        dealProfit = {
+        },
+        order = 1,
+        accessId = {
+        },
+        des = "情人节-狂三",
     },
     [690005] = {
         isHide = false,

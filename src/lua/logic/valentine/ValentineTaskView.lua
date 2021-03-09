@@ -118,7 +118,7 @@ function ValentineTaskView:updateTaskItem(index)
     local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo_.activityType, itemId)
 
     foo.Image_icon:setTexture(itemInfo.extendData.icon)
-    foo.Label_desc:setText(itemInfo.extendData.des2)
+    foo.Label_desc:setText(Utils:MultiLanguageStringDeal(itemInfo.extendData.des2))
     foo.Label_reward:setTextById(1890003)
 
     local goodsId, goodsNum

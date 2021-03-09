@@ -273,7 +273,7 @@ local t =
 									controlID = "Label_time_Image_font1_Panel_root_Panel-simulationTrialMainView_Layer1_fuben_Game",
 									UUID = "f44e7a80_fcec_4586_92d6_e5ab166a91da",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -309,10 +309,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 13,
+										PositionX = 164,
 										PositionY = -49,
 									},
-									width = "134",
+									width = "186",
 									ZOrder = "1",
 								},
 							},
@@ -321,7 +321,7 @@ local t =
 							controlID = "Image_font2_Panel_root_Panel-simulationTrialMainView_Layer1_fuben_Game",
 							UUID = "6c480ea7_e8cd_48a3_9353_72f839388156",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
@@ -337,7 +337,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -373,
+								PositionX = -549,
 								PositionY = -280,
 							},
 							width = "353",
@@ -369,7 +369,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "37",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -387,7 +387,7 @@ local t =
 								PositionY = 204,
 							},
 							visible = "False",
-							width = "124",
+							width = "213",
 							ZOrder = "1",
 						},
 						{
@@ -409,7 +409,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "20",
 							fontStroke = 
 							{
 								IsStroke = true,
@@ -532,7 +532,7 @@ local t =
 									controlID = "Label_name_Button_view_role_Panel_root_Panel-simulationTrialMainView_Layer1_fuben_Game",
 									UUID = "da6ba468_9b5f_4ed6_a409_cb24afe66294",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -554,7 +554,7 @@ local t =
 										StrokeColor = "#FF40468D",
 										StrokeSize = 1,
 									},
-									height = "34",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -568,10 +568,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 26,
+										PositionX = 60,
 										PositionY = -41,
 									},
-									width = "56",
+									width = "106",
 									ZOrder = "1",
 								},
 								{
@@ -685,7 +685,7 @@ local t =
 									controlID = "Label_name_Button_enter_funben_Panel_root_Panel-simulationTrialMainView_Layer1_fuben_Game",
 									UUID = "43564186_32cf_4cec_8f40_58a76bbacb18",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -707,7 +707,7 @@ local t =
 										StrokeColor = "#FF40468D",
 										StrokeSize = 1,
 									},
-									height = "34",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -721,10 +721,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 24,
+										PositionX = 58,
 										PositionY = -49,
 									},
-									width = "56",
+									width = "113",
 									ZOrder = "1",
 								},
 								{
@@ -771,7 +771,7 @@ local t =
 										PositionX = 26,
 										PositionY = 48,
 									},
-									width = "57",
+									width = "55",
 									ZOrder = "1",
 								},
 								{

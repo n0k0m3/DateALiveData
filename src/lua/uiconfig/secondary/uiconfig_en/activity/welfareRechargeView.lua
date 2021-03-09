@@ -196,7 +196,7 @@ local t =
 									controlID = "label_buyTimes_Image_content_Panel_root_Panel-welfareRechargeView_Layer1_activity_Game",
 									UUID = "2f2a5578_7c85_4c7d_a4ce_1ac958ae067d",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "0.5",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -211,14 +211,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "26",
+									height = "21",
 									ignoreSize = "True",
 									name = "label_buyTimes",
 									nTextAlign = "1",
@@ -232,10 +232,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 254,
+										PositionX = 338,
 										PositionY = -175,
 									},
-									width = "112",
+									width = "94",
 									ZOrder = "1",
 								},
 								{
@@ -257,7 +257,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -282,7 +282,7 @@ local t =
 										PositionX = 390,
 										PositionY = 65,
 									},
-									width = "53",
+									width = "78",
 									ZOrder = "1",
 								},
 							},
@@ -345,7 +345,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "31",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_signInReceive",
 									nTextAlign = "1",
@@ -361,8 +361,36 @@ local t =
 									{
 										
 									},
-									width = "76",
+									width = "83",
 									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Image_welfareRechargeView_1_Label_signInReceive_Button_action_Panel_root_Panel-welfareRechargeView_Layer1_activity_Game",
+											UUID = "1534f6a5_360c_4972_9f48_6d9271af2f6a",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "64",
+											ignoreSize = "True",
+											name = "Image_welfareRechargeView_1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -49,
+											},
+											width = "64",
+											ZOrder = "1",
+										},
+									},
 								},
 							},
 						},

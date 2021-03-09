@@ -26,7 +26,6 @@ end
 function SimulationTrialMainView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
-    print(self.resConfig.ui)
     self:init("lua.uiconfig."..self.resConfig.ui)
 end
 
@@ -46,8 +45,8 @@ function SimulationTrialMainView:initUI(ui)
     self.Label_desc:setTextById(self.resConfig.desc)
     self.Label_desc:setSkewX(8)
     self.Label_time          = TFDirector:getChildByPath(self.Panel_root  , "Label_time")
-    self.Label_time:setSkewX(8)        
-    self.Label_time:setTextById(self.resConfig.timeStr)
+    self.Label_time:setSkewX(8) 
+    self.Label_time:setText(TextDataMgr:getText(self.resConfig.timeStr)..GV_UTC_TIME_STRING)
     Utils:createHeroModel(self.heroId, self.Image_role,self.resConfig.modelScale)
     --召唤红点
     -- self:onRedPointUpdateSummon()

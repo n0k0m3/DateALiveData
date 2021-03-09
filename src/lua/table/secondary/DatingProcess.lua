@@ -912,38 +912,35 @@ return {
         },
         titleName = 901208,
     },
-    [2113002] = {
-        order = 17,
+    [2107001] = {
+        order = 18,
         end2Collect = {
             [1] = 1,
-            [2] = 1,
         },
         end4 = {
-            [1] = 461401514,
-            [2] = 461601810,
         },
-        role = 113,
+        role = 107,
         end5 = {
-            [1] = 461601518,
+            [1] = 750501727,
         },
         end4Synopsis = {
-            [1] = 910280,
-            [2] = 910281,
         },
         end1Title = {
-            [1] = 910274,
+            [1] = 910337,
+            [2] = 910340,
         },
-        icon = "scene/buildIcon/bg_jietigongyuan.png",
+        icon = "scene/buildIcon/shipindian.png",
         end5Title = {
-            [1] = 910282,
+            [1] = 910338,
         },
         end5Collect = {
             [1] = 1,
         },
-        datingScript = 2113002,
-        cgAnimation = 1001,
+        datingScript = 2107001,
+        cgAnimation = 1100,
         end1Collect = {
             [1] = 1,
+            [2] = 1,
         },
         end3Collect = {
             [1] = 1,
@@ -951,64 +948,59 @@ return {
             [3] = 1,
         },
         end2 = {
-            [1] = 461701230,
-            [2] = 461601328,
+            [1] = 750601420,
         },
         end4Collect = {
-            [1] = 1,
-            [2] = 1,
         },
         buildID = 31,
         end2Synopsis = {
-            [1] = 910275,
-            [2] = 910276,
+            [1] = 910343,
         },
-        smallIcon = "scene/buildIconSmall/gongyuan.png",
-        mood = "icon/role/dating/113/",
-        buildIcon = "icon/dayDating/jietigongyuan.png",
+        smallIcon = "scene/buildIconSmall/shangchang.png",
+        mood = "icon/role/dating/107/",
+        buildIcon = "icon/dayDating/shangchang.png",
         end1 = {
-            [1] = 461701146,
+            [1] = 750501124,
+            [2] = 750501925,
         },
         end1Synopsis = {
-            [1] = 910274,
+            [1] = 910337,
+            [2] = 910340,
         },
         end3Title = {
-            [1] = 910277,
-            [2] = 910278,
-            [3] = 910279,
+            [1] = 910339,
+            [2] = 910341,
+            [3] = 910342,
         },
         end2Title = {
-            [1] = 910275,
-            [2] = 910276,
+            [1] = 910343,
         },
-        id = 2113002,
+        id = 2107001,
         end4Title = {
-            [1] = 910280,
-            [2] = 910281,
         },
-        buildDes = 2081277,
-        taskId = 600017,
+        buildDes = 2081453,
+        taskId = 600021,
         favorLevel = 1,
-        buildSmailIcon = "ui/newCity/city_job/027.png",
+        buildSmailIcon = "ui/newCity/city_job/023.png",
         end3Synopsis = {
-            [1] = 910277,
-            [2] = 910278,
-            [3] = 910279,
+            [1] = 910339,
+            [2] = 910341,
+            [3] = 910342,
         },
         cg = {
-            [1] = 540263,
-            [2] = 540264,
+            [1] = 540378,
+            [2] = 540379,
         },
         end5Synopsis = {
-            [1] = 910282,
+            [1] = 910338,
         },
-        build = 206,
+        build = 102,
         end3 = {
-            [1] = 461701422,
-            [2] = 461601414,
-            [3] = 461501415,
+            [1] = 750701121,
+            [2] = 750501323,
+            [3] = 750601317,
         },
-        titleName = 12056,
+        titleName = 910344,
     },
     [2113001] = {
         order = 16,
@@ -1111,6 +1103,202 @@ return {
             [2] = 460601309,
         },
         titleName = 12042,
+    },
+    [2113002] = {
+        order = 17,
+        end2Collect = {
+            [1] = 1,
+            [2] = 1,
+        },
+        end4 = {
+            [1] = 461401514,
+            [2] = 461601810,
+        },
+        role = 113,
+        end5 = {
+            [1] = 461601518,
+        },
+        end4Synopsis = {
+            [1] = 910280,
+            [2] = 910281,
+        },
+        end1Title = {
+            [1] = 910274,
+        },
+        icon = "scene/buildIcon/bg_jietigongyuan.png",
+        end5Title = {
+            [1] = 910282,
+        },
+        end5Collect = {
+            [1] = 1,
+        },
+        datingScript = 2113002,
+        cgAnimation = 1001,
+        end1Collect = {
+            [1] = 1,
+        },
+        end3Collect = {
+            [1] = 1,
+            [2] = 1,
+            [3] = 1,
+        },
+        end2 = {
+            [1] = 461701230,
+            [2] = 461601328,
+        },
+        end4Collect = {
+            [1] = 1,
+            [2] = 1,
+        },
+        buildID = 31,
+        end2Synopsis = {
+            [1] = 910275,
+            [2] = 910276,
+        },
+        smallIcon = "scene/buildIconSmall/gongyuan.png",
+        mood = "icon/role/dating/113/",
+        buildIcon = "icon/dayDating/jietigongyuan.png",
+        end1 = {
+            [1] = 461701146,
+        },
+        end1Synopsis = {
+            [1] = 910274,
+        },
+        end3Title = {
+            [1] = 910277,
+            [2] = 910278,
+            [3] = 910279,
+        },
+        end2Title = {
+            [1] = 910275,
+            [2] = 910276,
+        },
+        id = 2113002,
+        end4Title = {
+            [1] = 910280,
+            [2] = 910281,
+        },
+        buildDes = 2081277,
+        taskId = 600017,
+        favorLevel = 1,
+        buildSmailIcon = "ui/newCity/city_job/027.png",
+        end3Synopsis = {
+            [1] = 910277,
+            [2] = 910278,
+            [3] = 910279,
+        },
+        cg = {
+            [1] = 540263,
+            [2] = 540264,
+        },
+        end5Synopsis = {
+            [1] = 910282,
+        },
+        build = 206,
+        end3 = {
+            [1] = 461701422,
+            [2] = 461601414,
+            [3] = 461501415,
+        },
+        titleName = 12056,
+    },
+    [2108001] = {
+        order = 19,
+        end2Collect = {
+            [1] = 1,
+        },
+        end4 = {
+            [1] = 751501810,
+            [2] = 751502406,
+        },
+        role = 108,
+        end5 = {
+            [1] = 751501110,
+            [2] = 751501524,
+        },
+        end4Synopsis = {
+            [1] = 910350,
+            [2] = 910354,
+        },
+        end1Title = {
+            [1] = 910352,
+        },
+        icon = "scene/buildIcon/wanoudian_1.png",
+        end5Title = {
+            [1] = 910346,
+            [2] = 910348,
+        },
+        end5Collect = {
+            [1] = 1,
+            [2] = 1,
+        },
+        datingScript = 2108001,
+        cgAnimation = 1101,
+        end1Collect = {
+            [1] = 1,
+        },
+        end3Collect = {
+            [1] = 1,
+            [2] = 1,
+            [3] = 1,
+        },
+        end2 = {
+            [1] = 751502313,
+        },
+        end4Collect = {
+            [1] = 1,
+            [2] = 1,
+        },
+        buildID = 31,
+        end2Synopsis = {
+            [1] = 910353,
+        },
+        smallIcon = "scene/buildIconSmall/shangchang.png",
+        mood = "icon/role/dating/108/",
+        buildIcon = "icon/dayDating/gouwuzhongxin.png",
+        end1 = {
+            [1] = 751401919,
+        },
+        end1Synopsis = {
+            [1] = 910352,
+        },
+        end3Title = {
+            [1] = 910347,
+            [2] = 910349,
+            [3] = 910351,
+        },
+        end2Title = {
+            [1] = 910353,
+        },
+        id = 2108001,
+        end4Title = {
+            [1] = 910350,
+            [2] = 910354,
+        },
+        buildDes = 2081454,
+        taskId = 600022,
+        favorLevel = 1,
+        buildSmailIcon = "ui/newCity/city_job/028.png",
+        end3Synopsis = {
+            [1] = 910347,
+            [2] = 910349,
+            [3] = 910351,
+        },
+        cg = {
+            [1] = 540380,
+            [2] = 540381,
+        },
+        end5Synopsis = {
+            [1] = 910346,
+            [2] = 910348,
+        },
+        build = 201,
+        end3 = {
+            [1] = 751501221,
+            [2] = 751501624,
+            [3] = 751401826,
+        },
+        titleName = 910345,
     },
     [2112002] = {
         order = 15,

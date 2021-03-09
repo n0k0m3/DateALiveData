@@ -749,7 +749,9 @@ function LeagueHallView:refreshPanelSetting()
 end
 
 function LeagueHallView:updateLevelLimit()
-    self.Label_slider_level:setTextById(800006, self.limitLevel_)
+    local realLevel = math.max(self.limitLevel_, self.minLevel_)
+
+    self.Label_slider_level:setTextById(800006, realLevel)
     local percent = math.floor((self.limitLevel_ - self.minLevel_) / (self.maxLevel_ - self.minLevel_) * 100)
     self.Slider_level:setPercent(percent)
 end

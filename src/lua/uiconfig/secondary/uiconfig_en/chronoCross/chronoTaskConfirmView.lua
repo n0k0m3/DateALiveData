@@ -165,7 +165,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -182,7 +182,7 @@ local t =
 										PositionX = -254,
 										PositionY = 131,
 									},
-									width = "116",
+									width = "327",
 									ZOrder = "1",
 								},
 								{
@@ -259,7 +259,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "55",
+											width = "92",
 											ZOrder = "1",
 										},
 									},
@@ -269,7 +269,7 @@ local t =
 									UUID = "b9f43845_dbd5_4860_9759_e09ad4127380",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
-									anchorPointY = "0.5",
+									anchorPointY = "1",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
@@ -290,7 +290,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "80",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_tips",
 									nTextAlign = "0",
@@ -304,7 +304,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 12,
+										PositionY = 76,
 									},
 									width = "480",
 									ZOrder = "1",
@@ -414,7 +414,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "54",
+											width = "74",
 											ZOrder = "1",
 										},
 									},

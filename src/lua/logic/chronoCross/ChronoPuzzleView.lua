@@ -81,10 +81,10 @@ function ChronoPuzzleView:updateCollectState()
         if itemInfo.rewardStat == 2 then
             self.Label_btn:setTextById(270491)
         else
-            self.Label_btn:setText("领取")
+            self.Label_btn:setTextById(700013)
         end
     else
-        self.Label_btn:setText("领取")
+        self.Label_btn:setTextById(700013)
         self.Button_goto:setGrayEnabled(true)
         self.Button_goto:setTouchEnabled(false)
     end

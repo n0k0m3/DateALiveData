@@ -700,10 +700,9 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 514,
-								PositionY = -244,
+								PositionY = -172,
 							},
 							UItype = "Button",
-							visible = "False",
 							width = "60",
 							ZOrder = "1",
 							components = 
@@ -974,7 +973,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "22",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -991,7 +990,7 @@ local t =
 												PositionX = -47,
 												PositionY = 15,
 											},
-											width = "74",
+											width = "75",
 											ZOrder = "1",
 										},
 										{
@@ -1143,7 +1142,7 @@ local t =
 												PositionX = 33,
 												PositionY = -21,
 											},
-											width = "55",
+											width = "60",
 											ZOrder = "1",
 										},
 									},

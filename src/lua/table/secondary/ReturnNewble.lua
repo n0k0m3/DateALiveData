@@ -109,7 +109,7 @@ return {
         weight = 1,
         status = 2,
         titleIcon = "ui/activity/picture/icon70.png",
-        details = "{\"beginTime\":\"2019-8-2 00:00:00\",\"endTime\":\"2019-8-18 23:59:59\",\"activityShowType\":2,\"name\":\"登录有礼\",\"bgPath\":\"ui/activity/picture/ad69.png\",\"dayRstring\":\"r305004\",\"hourRstring\":\"r305005\",\"uiName\":\"welfareSignView\"}",
+        details = "{\"beginTime\":\"2021-03-10 00:00:00\",\"endTime\":\"2021-03-26 23:59:59\",\"activityShowType\":2,\"name\":\"190000438\",\"bgPath\":\"ui/activity/picture/ad69.png\",\"dayRstring\":\"r305004\",\"hourRstring\":\"r305005\",\"uiName\":\"welfareSignView\"}",
         type = 1010,
     },
     [100013] = {
@@ -440,7 +440,7 @@ return {
         weight = 2,
         status = 2,
         titleIcon = "ui/activity/picture/icon72.png",
-        details = "{\"beginTime\":\"2019-8-2 00:00:00\",\"endTime\":\"2019-8-18 23:59:59\",\"activityShowType\":2,\"name\":\"重逢之约\",\"dressId\":410216,\"cg\":1001,\"des1\":\"\",\"des2\":\"\",\"reversalFcost\":{500071:50},\"reversalDvaule\":1,\"reversalRvalue\":[1,2,4,8],\"reversalRtotle\":{1:[3],2:[6],3:[12],4:[24]},\"reversalRlenth\":3,\"reversalFlush\":10000,\"reversalLength\":3,\"reversalLevel\":[0,500000,1500000,3000000],\"reversalDshow\":3,\"reversalDcount\":1,\"reversalFrame\":[1,2,3,4],\"reversalTitle\":[13310323,13310324,13310325,13310326,13310327,13310328,13310329,13310330,13310331,13310332]}",
+        details = "{\"beginTime\":\"2021-03-10 00:00:00\",\"endTime\":\"2021-03-26 23:59:59\",\"activityShowType\":2,\"name\":\"1420053\",\"dressId\":410216,\"cg\":1001,\"des1\":\"\",\"des2\":\"\",\"reversalFcost\":{500071:50},\"reversalDvaule\":1,\"reversalRvalue\":[1,2,4,8],\"reversalRtotle\":{1:[3],2:[6],3:[12],4:[24]},\"reversalRlenth\":3,\"reversalFlush\":10000,\"reversalLength\":3,\"reversalLevel\":[0,500000,1500000,3000000],\"reversalDshow\":3,\"reversalDcount\":1,\"reversalFrame\":[1,2,3,4],\"reversalTitle\":[13310323,13310324,13310325,13310326,13310327,13310328,13310329,13310330,13310331,13310332]}",
         type = 1011,
     },
     [100014] = {
@@ -782,7 +782,7 @@ return {
         weight = 9,
         status = 2,
         titleIcon = "ui/activity/picture/icon75.png",
-        details = "{\"beginTime\":\"2019-8-2 00:00:00\",\"endTime\":\"2019-8-22 23:59:59\",\"activityShowType\":2,\"name\":\"限定福利\",\"dayAward\":1,\"bgPath\":\"ui/activity/picture/ad70.png\",\"rechargeId\":376,\"tip\":213077,\"dayRstring\":213078,\"hourRstring\":213079}",
+        details = "{\"beginTime\":\"2021-03-10 00:00:00\",\"endTime\":\"2021-03-30 23:59:59\",\"activityShowType\":2,\"name\":\"190000698\",\"dayAward\":1,\"bgPath\":\"ui/activity/picture/ad70.png\",\"rechargeId\":376,\"tip\":213077,\"dayRstring\":213078,\"hourRstring\":213079}",
         type = 1009,
     },
     [100015] = {

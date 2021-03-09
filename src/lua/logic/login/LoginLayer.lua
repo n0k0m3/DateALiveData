@@ -45,6 +45,12 @@ function LoginLayer:initUI(ui)
 	    }
 	TFDirector:toTween(tween)
 
+	if TFGlobalUtils:isConnectEnServer() then
+		local logonImag = TFImage:create("ui/login/logo.png")
+		TFDirector:getChildByPath(ui , "logo"):addChild(logonImag)
+		logonImag:setPosition(-390 , 120)
+	end
+
 	self.loginBoard = TFDirector:getChildByPath(ui,"loginBoard");
 	self.loginBoard:setVisible(false);
 

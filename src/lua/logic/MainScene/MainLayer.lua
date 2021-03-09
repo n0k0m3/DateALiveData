@@ -452,6 +452,9 @@ function MainLayer:initUI(ui)
     self.button_Caociyuan = TFDirector:getChildByPath(ui,"button_Caociyuan")
     self.Image_CaociyuanClip = TFDirector:getChildByPath(ui,"Image_CaociyuanClip")
     self.button_OneYear   = TFDirector:getChildByPath(ui,"button_OneYear")
+
+    self.button_OneYear:setPosition(478 , 65)
+    self.button_Caociyuan:setPosition(478 , 65)
     self.Image_OneYearClip = TFDirector:getChildByPath(ui,"Image_OneYearClip")
 
     self.GiftRoot = TFDirector:getChildByPath(self.ui,"GiftRoot");
@@ -826,11 +829,11 @@ function MainLayer:showLeftBtnAnim()
         if self.button_OneYear:isVisible() then
             table.insert(threeActivity , self.button_OneYear)
         end
-        if self.Button_Activity7:isVisible() then
-            table.insert(threeActivity , self.Button_Activity7)
+        if self.Button_activity2:isVisible() then
+            table.insert(threeActivity , self.Button_activity2)
         end
-        if self.Button_Activity91:isVisible() then
-            table.insert(threeActivity , self.Button_Activity91)
+        if self.button_Caociyuan:isVisible() then
+            table.insert(threeActivity , self.button_Caociyuan)
         end
      end
     
@@ -890,9 +893,9 @@ function MainLayer:showLeftBtnAnim()
             v:runAction(Spawn:create({FadeIn:create(0.3),MoveTo:create(0.3,v.orgPos+ diffPos[k]),ScaleTo:create(0.3,0.8)}))
         end
     elseif #threeActivity == 3 then
-        local diffPos = {ccp(-90 , -20) , ccp(90 , -20) , ccp(0 , 50)}
+        local diffPos = {ccp(-60 , -20) , ccp(90 , -10) , ccp(0 , 40)}
         for k , v in pairs(threeActivity) do
-            v:setScale(0.4)
+            v:setScale(0.5)
             v.orgPos = v.orgPos or v:getPosition()
             local orgPos5 = v.orgPos
             v:setPosition(orgPos5 + diffPos[k])
@@ -3365,29 +3368,27 @@ function MainLayer:updateOneYearBtns()
 
         
         local threeActivity = {}
-            if TFGlobalUtils:isConnectMiniServer( ) then   --如果是小语种服
-
-                 if self.button_OneYear and self.button_OneYear:isVisible() then
-                    table.insert(threeActivity , self.button_OneYear)
-                end
-                if self.Button_Activity7 and self.Button_Activity7:isVisible() then
-                    table.insert(threeActivity , self.Button_Activity7)
-                end
-                if self.Button_Activity1001 and self.Button_Activity1001:isVisible() then
-                    table.insert(threeActivity , self.Button_Activity1001)
-                end
-            else
-
-                if self.button_OneYear and self.button_OneYear:isVisible() then
-                    table.insert(threeActivity , self.button_OneYear)
-                end
-                if self.Button_Activity7 and self.Button_Activity7:isVisible() then
-                    table.insert(threeActivity , self.Button_Activity7)
-                end
-                if self.Button_Activity91 and self.Button_Activity91:isVisible() then
-                    table.insert(threeActivity , self.Button_Activity91)
-                end
+        if TFGlobalUtils:isConnectMiniServer( ) then   --如果是小语种服
+            if self.button_OneYear:isVisible() then
+                table.insert(threeActivity , self.button_OneYear)
             end
+            if self.Button_Activity7:isVisible() then
+                table.insert(threeActivity , self.Button_Activity7)
+            end
+            if self.Button_Activity1001:isVisible() then
+                table.insert(threeActivity , self.Button_Activity1001)
+            end
+         else
+            if self.button_OneYear:isVisible() then
+                table.insert(threeActivity , self.button_OneYear)
+            end
+            if self.Button_activity2:isVisible() then
+                table.insert(threeActivity , self.Button_activity2)
+            end
+            if self.button_Caociyuan:isVisible() then
+                table.insert(threeActivity , self.button_Caociyuan)
+            end
+         end
             
 
 		
@@ -3435,8 +3436,8 @@ function MainLayer:updateOneYearBtns()
 
         if self.Button_Activity5 or self.button_OneYear or self.Button_Activity7 then
             if  (self.Button_Activity6 and self.Button_Activity6:isVisible()) 
-                        or (self.button_Caociyuan and self.button_Caociyuan:isVisible())
-                        or (self.Button_activity2 and self.Button_activity2:isVisible()) then
+                        or (self.button_Caociyuan and self.button_Caociyuan:isVisible() and #threeActivity <= 1)
+                        or (self.Button_activity2 and self.Button_activity2:isVisible() and #threeActivity <= 1) then
                 if self.Button_Activity5 then
                     self.Button_Activity5:setPosition(activityPos_left:getPosition())
                 end 
@@ -3464,7 +3465,7 @@ function MainLayer:updateOneYearBtns()
             end
         end
 
-        if self.Button_Activity6 or self.button_Caociyuan or self.Button_activity2 then
+        if (self.Button_Activity6 or self.button_Caociyuan or self.Button_activity2 )and #threeActivity <3 then
             if  (self.Button_Activity5 and self.Button_Activity5:isVisible()) 
                         or (self.button_OneYear and self.button_OneYear:isVisible())
                         or (self.Button_Activity7 and self.Button_Activity7:isVisible()) then
@@ -3473,11 +3474,11 @@ function MainLayer:updateOneYearBtns()
                     self.Button_Activity6:setPosition(activityPos_right:getPosition())
                 end
 
-                if self.button_Caociyuan then
+                if self.button_Caociyuan and #threeActivity <= 1 then
                     self.button_Caociyuan:setPosition(activityPos_right:getPosition())
                 end
 
-                if self.Button_activity2 then
+                if self.Button_activity2 and #threeActivity <= 1 then
                     self.Button_activity2:setPosition(activityPos_right:getPosition())
                 end
             else
@@ -3485,11 +3486,11 @@ function MainLayer:updateOneYearBtns()
                     self.Button_Activity6:setPosition(activityPos_mid:getPosition())
                 end
 
-                if self.button_Caociyuan then
+                if self.button_Caociyuan and #threeActivity <= 1 then
                     self.button_Caociyuan:setPosition(activityPos_mid:getPosition())
                 end
 
-                if self.Button_activity2 then
+                if self.Button_activity2 and #threeActivity <= 1 then
                     self.Button_activity2:setPosition(activityPos_mid:getPosition())
                 end
             end

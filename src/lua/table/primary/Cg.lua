@@ -2430,6 +2430,17 @@ return {
         video = "",
         cg4 = "",
     },
+    [30006] = {
+        type = 1,
+        cg3 = "",
+        id = 30006,
+        cgId = 690006,
+        cg = "date_cg_223",
+        backGround = "",
+        cg2 = "",
+        video = "",
+        cg4 = "",
+    },
     [30005] = {
         type = 1,
         cg3 = "",

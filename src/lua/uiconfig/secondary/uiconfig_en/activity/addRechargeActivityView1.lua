@@ -192,7 +192,7 @@ local t =
 										PositionX = 390,
 										PositionY = 232,
 									},
-									width = "212",
+									width = "213",
 									ZOrder = "1",
 								},
 								{
@@ -284,7 +284,7 @@ local t =
 										PositionX = 110,
 										PositionY = -238,
 									},
-									width = "267",
+									width = "247",
 									ZOrder = "1",
 								},
 								{
@@ -313,7 +313,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "36",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_recharge",
 									nTextAlign = "1",
@@ -328,9 +328,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 291,
-										PositionY = -203,
+										PositionY = -198,
 									},
-									width = "74",
+									width = "72",
 									ZOrder = "1",
 								},
 								{
@@ -535,7 +535,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "22",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_geted",
 											nTextAlign = "1",
@@ -551,7 +551,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "74",
+											width = "79",
 											ZOrder = "1",
 										},
 									},
@@ -706,7 +706,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "22",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_get",
 											nTextAlign = "1",
@@ -722,7 +722,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "54",
+											width = "58",
 											ZOrder = "1",
 										},
 									},
@@ -816,7 +816,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "22",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_money",
 											nTextAlign = "1",
@@ -832,7 +832,7 @@ local t =
 											{
 												PositionY = 10,
 											},
-											width = "35",
+											width = "33",
 											ZOrder = "1",
 										},
 									},

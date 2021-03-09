@@ -52,10 +52,10 @@ function ChronoCrossConfirmView:updateView()
     if not self.itemInfo then
         return
     end
-    self.Label_title:setText(self.itemInfo.extendData.des)
+    self.Label_title:setText(Utils:MultiLanguageStringDeal(self.itemInfo.extendData.des))
     local inputText = string.gsub(self.itemInfo.extendData.des2,"\\n", "\n")
-    self.Label_desc:setText(inputText)
-    self.Label_dating_desc:setText(inputText)
+    self.Label_desc:setTextById(inputText)
+    self.Label_dating_desc:setTextById(inputText)
     self.Image_icon:setTexture(self.itemInfo.extendData.iconShow)
     self.Image_dating:setTexture(self.itemInfo.extendData.iconShow)
     self.Image_reward:setVisible(self.taskType == EC_ChronoCrossTaskType.Special)
@@ -75,7 +75,7 @@ function ChronoCrossConfirmView:updateDatingTask()
         self.Label_receive:setTextById(13310307)
         self.Label_title:setTextById(303039)
     elseif self.itemInfo.extendData.state == EC_ChronoCrossDatingStatus.Ing then
-        self.Label_receive:setText("开始")
+        self.Label_receive:setTextById(267012)
     elseif self.itemInfo.extendData.state == EC_ChronoCrossDatingStatus.Lock then
         self.Label_receive:setTextById(13310343)
         self.Label_dating_desc:setTextById(13310342)

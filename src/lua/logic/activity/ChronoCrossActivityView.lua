@@ -164,11 +164,11 @@ end
 function ChronoCrossActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
 
-    local startDate = Utils:getLocalDate(self.activityInfo_.startTime)
+    local startDate = Utils:getUTCDate(self.activityInfo_.startTime, GV_UTC_TIME_ZONE)
     local startDateStr = startDate:fmt("%Y.%m.%d")
-    local endDate = Utils:getLocalDate(self.activityInfo_.endTime)
+    local endDate = Utils:getUTCDate(self.activityInfo_.endTime, GV_UTC_TIME_ZONE)
     local endDateStr = endDate:fmt("%Y.%m.%d")
-    self.Label_time:setTextById(800041, startDateStr, endDateStr)
+    self.Label_time:setText(TextDataMgr:getText(800041, startDateStr, endDateStr)..GV_UTC_TIME_STRING)
 
 end
 

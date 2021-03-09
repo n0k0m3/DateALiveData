@@ -24,7 +24,7 @@ end
 
 if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
     --googleOBB
-    IS_GOOGLE_OBB = true
+    IS_GOOGLE_OBB = false
     if IS_GOOGLE_OBB then
         if TFClientObbDownload then
             CCFileUtils:sharedFileUtils():setObbType(2)

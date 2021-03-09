@@ -39,7 +39,7 @@ return {
         money = 0,
         attribute2 = 1024,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -48,7 +48,7 @@ return {
         site = 5,
         title = 30243,
         optionalSkin = {
-            [1] = 1102103,
+            [1] = 1102111,
         },
         attrType = 0,
         floorTime = 0,
@@ -104,7 +104,7 @@ return {
             [1] = "video/summon_fanzhuanzhezhi1.mp4",
             [2] = "video/summon_fanzhuanzhezhi2.mp4",
         },
-        defaultSkin = 1102103,
+        defaultSkin = 1102111,
         skillPoint = {
             [1] = {
                 [13] = 0,
@@ -3836,7 +3836,7 @@ return {
         money = 0,
         attribute2 = 1024,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,

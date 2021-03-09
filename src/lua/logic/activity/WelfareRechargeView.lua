@@ -43,6 +43,15 @@ function WelfareRechargeView:initUI(ui)
 
     self.Button_action = TFDirector:getChildByPath(self.Panel_root, "Button_action")
     self.Label_action = TFDirector:getChildByPath(self.Button_action, "Label_signInReceive")
+
+    self.goodsData = RechargeDataMgr:getOneRechargeCfg(self.activityInfo.extendData.rechargeId)
+    local cfg = GoodsDataMgr:getItemCfg(self.goodsData.exchangeCost[1].id)
+
+    self.Label_action.img_icon = TFImage:create(cfg.icon)
+    self.Label_action.img_icon:setScale(0.5)
+
+    self.Label_action.img_icon:setPositionX(-50)
+    self.Label_action:addChild(self.Label_action.img_icon)
     self.label_tip = TFDirector:getChildByPath(self.Panel_root, "label_tip")
     self.label_buyTimes = TFDirector:getChildByPath(self.Panel_root, "label_buyTimes")
     self.Label_timing = TFDirector:getChildByPath(ui, "Label_timing")
@@ -76,10 +85,12 @@ function WelfareRechargeView:refreshView()
     self:updateAllSignItem()
     self.Image_content:setTexture(self.activityInfo.extendData.bgPath)
 
+    self.Label_action.img_icon:hide()
     if self.canBuy then
     	self.Button_action:setTouchEnabled(true)
     	self.Button_action:setGrayEnabled(false)
-    	self.Label_action:setText("￥ "..self.giftData.rechargeCfg.price)
+    	self.Label_action:setText("     "..self.goodsData.exchangeCost[1].num)
+        self.Label_action.img_icon:show()
     elseif self.progressInfo.status ~= EC_TaskStatus.GETED then
     	self.Button_action:setTouchEnabled(self.progressInfo.status == EC_TaskStatus.GET)
     	self.Button_action:setGrayEnabled(self.progressInfo.status ~= EC_TaskStatus.GET)
@@ -89,15 +100,16 @@ function WelfareRechargeView:refreshView()
     	self.Button_action:setTouchEnabled(false)
     	self.Button_action:setGrayEnabled(true)
     end
-    local startDate = Utils:getLocalDate(self.activityInfo.startTime)
-    local endDate = Utils:getLocalDate(self.activityInfo.endTime)
+
+    local startDate = Utils:getUTCDate(self.activityInfo.startTime, GV_UTC_TIME_ZONE)
+    local endDate = Utils:getUTCDate(self.activityInfo.endTime , GV_UTC_TIME_ZONE)
     local startDateStr = startDate:fmt("%m.%d")
     local endDateStr = endDate:fmt("%m.%d")
     if self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == 3 then
         self.Label_timing:setTextById(800041, startDateStr, endDateStr)
     end
 
-    local date = TextDataMgr:getText(800041, startDateStr, endDateStr)
+    local date = TextDataMgr:getText(800041, startDateStr, endDateStr)..GV_UTC_TIME_STRING
     self.label_tip:setTextById(self.activityInfo.extendData.tip or 13143, date)
     self:updateCountDown()
     self.Button_action:onClick(function ( ... )

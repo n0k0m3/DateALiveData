@@ -9,7 +9,7 @@ return {
         },
         id = 1,
         clublevel = 1,
-        maxmem = 30,
+        maxmem = 10,
         ruledes = {
             [1] = 1,
             [2] = 2,
@@ -111,7 +111,7 @@ return {
         },
         id = 2,
         clublevel = 2,
-        maxmem = 36,
+        maxmem = 15,
         ruledes = {
             [1] = 1,
             [2] = 2,

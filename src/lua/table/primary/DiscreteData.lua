@@ -1435,7 +1435,7 @@ return {
             lowActive = 30,
             redPacketItemId = 500035,
             impeachPeriodTime = 10080,
-            dayLimitExp = 30000,
+            dayLimitExp = 2000000,
             dayLimitKick = 5,
             impeachLimitNewbee = 14400,
         },

@@ -62,10 +62,24 @@ function JumpActivityView:initUI( ui )
 		self.Button_jump:setPosition(300 , -90)
 		if self.activityInfo.id == 58 then
 			self.label_date:setPosition(-400 , 240)
+		elseif self.activityInfo.id == 110 then
+			self.label_date:setFontColor(ccc3(255 , 255 , 255))
+			self.Button_jump:setPosition(350 , -200)
+		elseif self.activityInfo.id == 105 then
+			self.label_date:setFontColor(ccc3(255 , 255 , 255))
+			self.Button_jump:setPosition(300 , -200)
+			self.label_date:setPosition(-280 , 240)
+			-- if self.Button_jump:getChildByName("Label_hunterLevelActivity_1") then
+			-- 	self.Button_jump:getChildByName("Label_hunterLevelActivity_1"):hide()
+			-- end
+			self.Button_jump:getChildByName("Label_hunterLevelActivity_1"):setPositionX(0)
+			self.Button_jump:getChildByName("Label_hunterLevelActivity_1"):setFontColor(ccc3(255 , 0 , 0))
 		else
-			self.label_date:setPosition(-400 , 250)
+			self.label_date:setPosition(400 , 250)
 		end
-		self.Button_jump:getChildByName("label_jump"):hide()
+		if self.Button_jump:getChildByName("label_jump") then
+			self.Button_jump:getChildByName("label_jump"):hide()
+		end
 	end
 end
 
