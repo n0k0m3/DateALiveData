@@ -253,7 +253,7 @@ local t =
 										PositionX = -355,
 										PositionY = 182,
 									},
-									width = "248",
+									width = "269",
 									ZOrder = "1",
 								},
 								{
@@ -325,7 +325,7 @@ local t =
 										PositionX = -154,
 										PositionY = -107,
 									},
-									width = "51",
+									width = "50",
 									ZOrder = "1",
 								},
 								{
@@ -372,7 +372,7 @@ local t =
 										PositionY = -187,
 									},
 									visible = "False",
-									width = "73",
+									width = "74",
 									ZOrder = "1",
 								},
 								{
@@ -470,7 +470,7 @@ local t =
 										PositionX = 203,
 										PositionY = 138,
 									},
-									width = "286",
+									width = "307",
 									ZOrder = "1",
 								},
 								{
@@ -634,7 +634,7 @@ local t =
 										PositionX = 203,
 										PositionY = -22,
 									},
-									width = "143",
+									width = "157",
 									ZOrder = "1",
 								},
 								{
@@ -767,7 +767,7 @@ local t =
 										PositionX = 203,
 										PositionY = -131,
 									},
-									width = "206",
+									width = "192",
 									ZOrder = "1",
 								},
 								{
@@ -868,7 +868,7 @@ local t =
 												PositionX = 16,
 												PositionY = -11,
 											},
-											width = "63",
+											width = "62",
 											ZOrder = "1",
 										},
 										{
@@ -914,7 +914,7 @@ local t =
 												PositionX = 16,
 												PositionY = 12,
 											},
-											width = "56",
+											width = "54",
 											ZOrder = "1",
 										},
 									},
@@ -977,8 +977,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_apply",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -993,7 +993,7 @@ local t =
 											{
 												
 											},
-											width = "156",
+											width = "120",
 											ZOrder = "1",
 										},
 									},

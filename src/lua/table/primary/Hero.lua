@@ -717,7 +717,7 @@ return {
         money = 0,
         attribute2 = 1121,
         callLimit = 6,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -2351,6 +2351,7 @@ return {
         title = 30711,
         optionalSkin = {
             [1] = 1107011,
+            [2] = 1107071,
         },
         attrType = 4,
         floorTime = 0,
@@ -3153,7 +3154,7 @@ return {
         money = 0,
         attribute2 = 1121,
         callLimit = 6,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -3163,8 +3164,6 @@ return {
         title = 31211,
         optionalSkin = {
             [1] = 1120011,
-            [2] = 1120012,
-            [3] = 1120014,
         },
         attrType = 7,
         floorTime = 0,
@@ -4386,6 +4385,7 @@ return {
         title = 30811,
         optionalSkin = {
             [1] = 1108011,
+            [2] = 1108071,
         },
         attrType = 4,
         floorTime = 0,

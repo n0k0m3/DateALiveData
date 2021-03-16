@@ -27,7 +27,7 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.DUANWU_1] = requireNew("lua.logic.activity.DuanwuActivityView"),
             --[EC_ActivityType2.DROP] = requireNew("lua.logic.activity.BingoActivityView"),
             [EC_ActivityType2.BINGOGAME] = requireNew("lua.logic.activity.BingoActivityView"),
-            [EC_ActivityType2.DFW_AUTUMN] = requireNew("lua.logic.activity.AutumnActivityView"),
+            [EC_ActivityType2.DFW_AUTUMN] = requireNew("lua.logic.activity.ChunrijiActivityView"),  --春日祭活动入口ui暂时由Autumactivityview改为ChunrijiActivityVIew
             [EC_ActivityType2.WELFARE_RECHEAGE] = requireNew("lua.logic.activity.WelfareRechargeView"),
             [EC_ActivityType2.WELFARE_SIGN] = requireNew("lua.logic.activity.WelfareSignView"),
             [EC_ActivityType2.WELFARE_TASK] = requireNew("lua.logic.activity.JumpActivityView"),

@@ -185,7 +185,7 @@ local t =
 									{
 										PositionY = 217,
 									},
-									width = "224",
+									width = "239",
 									ZOrder = "1",
 								},
 								{
@@ -302,7 +302,7 @@ local t =
 										IsPercent = true,
 										PercentY = 35,
 									},
-									width = "209",
+									width = "201",
 									ZOrder = "1",
 								},
 							},
@@ -458,14 +458,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -481,7 +481,7 @@ local t =
 									{
 										PositionX = -305,
 									},
-									width = "106",
+									width = "92",
 									ZOrder = "1",
 								},
 								{
@@ -620,7 +620,7 @@ local t =
 											{
 												
 											},
-											width = "182",
+											width = "171",
 											ZOrder = "1",
 										},
 									},
@@ -698,7 +698,7 @@ local t =
 											{
 												
 											},
-											width = "125",
+											width = "127",
 											ZOrder = "1",
 										},
 									},
@@ -777,7 +777,7 @@ local t =
 											{
 												
 											},
-											width = "85",
+											width = "81",
 											ZOrder = "1",
 										},
 									},

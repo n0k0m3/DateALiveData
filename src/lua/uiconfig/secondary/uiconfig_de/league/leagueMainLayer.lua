@@ -415,7 +415,7 @@ local t =
 													{
 														
 													},
-													width = "361",
+													width = "149",
 													ZOrder = "99",
 												},
 												{
@@ -725,7 +725,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_npc_name",
 											nTextAlign = "1",
@@ -742,7 +742,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "122",
+											width = "151",
 											ZOrder = "1",
 										},
 									},
@@ -792,11 +792,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "31",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_name_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -808,7 +808,7 @@ local t =
 									{
 										
 									},
-									width = "104",
+									width = "140",
 									ZOrder = "2",
 									components = 
 									{
@@ -832,14 +832,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "13",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "15",
 											ignoreSize = "True",
 											name = "Label_build_name",
 											nTextAlign = "1",
@@ -855,7 +855,7 @@ local t =
 											{
 												
 											},
-											width = "83",
+											width = "74",
 											ZOrder = "1",
 										},
 										{

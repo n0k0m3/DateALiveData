@@ -61280,8 +61280,8 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 13200462,
-        icon = "icon/dafuweng/item/580242.png",
+        nameTextId = 15010139,
+        icon = "icon/item/goods/570079.png",
         quality = 5,
         desTextId = 13200465,
         delete = false,
@@ -61298,7 +61298,7 @@ return {
         },
         star = 0,
         iconShow = "",
-        totalMax = 6,
+        totalMax = 12,
         dealProfit = {
         },
         order = 1,
@@ -61361,8 +61361,8 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 13200463,
-        icon = "icon/dafuweng/item/580243.png",
+        nameTextId = 13200164,
+        icon = "icon/item/goods/501019.png",
         quality = 5,
         desTextId = 13200466,
         delete = false,
@@ -61379,7 +61379,7 @@ return {
         },
         star = 0,
         iconShow = "",
-        totalMax = 3,
+        totalMax = 6,
         dealProfit = {
         },
         order = 1,
@@ -75316,50 +75316,6 @@ return {
         },
         des = "使用后可任意选择以下其中一个灵装，选择后不可更改，请谨慎。\n美九：灵装—舞台装\n十香：灵装—四月的公主\n折纸：灵装—CR-unit 龙胆",
     },
-    [566064] = {
-        isHide = false,
-        superType = 6,
-        buyItemRecover = 0,
-        cost = "",
-        showBgPreview = 0,
-        pileUp = true,
-        useProfit = {
-        },
-        bornEffect = false,
-        gridMax = 9999999,
-        outTime = 0,
-        smallType = 0,
-        bagType = 5,
-        autoUse = false,
-        nameTextId = 190000334,
-        icon = "icon/item/goods/566064.png",
-        quality = 4,
-        desTextId = 190000336,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 566064,
-        sellProfit = {
-            [1] = {
-                [1] = 500001,
-                [2] = 1,
-            },
-        },
-        subType = 4,
-        batchUse = true,
-        convertMax = {
-        },
-        star = 0,
-        iconShow = "",
-        totalMax = 99999999,
-        dealProfit = {
-        },
-        order = 1,
-        accessId = {
-        },
-        des = "感恩节专属活动道具，活动期间副本掉落，捐赠后可获得应援积分。 ",
-    },
     [554000] = {
         isHide = false,
         superType = 16,
@@ -75400,7 +75356,7 @@ return {
         },
         des = "2018年圣诞头像-圣诞麋鹿",
     },
-    [566063] = {
+    [566064] = {
         isHide = false,
         superType = 6,
         buyItemRecover = 0,
@@ -75415,15 +75371,15 @@ return {
         smallType = 0,
         bagType = 5,
         autoUse = false,
-        nameTextId = 190000333,
-        icon = "icon/item/goods/566063.png",
+        nameTextId = 190000334,
+        icon = "icon/item/goods/566064.png",
         quality = 4,
         desTextId = 190000336,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566063,
+        id = 566064,
         sellProfit = {
             [1] = {
                 [1] = 500001,
@@ -75484,7 +75440,7 @@ return {
         },
         des = "2019农历新年活动限定兑换头像！",
     },
-    [566062] = {
+    [566063] = {
         isHide = false,
         superType = 6,
         buyItemRecover = 0,
@@ -75499,15 +75455,15 @@ return {
         smallType = 0,
         bagType = 5,
         autoUse = false,
-        nameTextId = 190000332,
-        icon = "icon/item/goods/566062.png",
+        nameTextId = 190000333,
+        icon = "icon/item/goods/566063.png",
         quality = 4,
         desTextId = 190000336,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566062,
+        id = 566063,
         sellProfit = {
             [1] = {
                 [1] = 500001,
@@ -75568,7 +75524,7 @@ return {
         },
         des = "2019春日祭活动限定兑换头像！",
     },
-    [566061] = {
+    [566062] = {
         isHide = false,
         superType = 6,
         buyItemRecover = 0,
@@ -75583,15 +75539,15 @@ return {
         smallType = 0,
         bagType = 5,
         autoUse = false,
-        nameTextId = 190000331,
-        icon = "icon/item/goods/520038.png",
+        nameTextId = 190000332,
+        icon = "icon/item/goods/566062.png",
         quality = 4,
         desTextId = 190000336,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566061,
+        id = 566062,
         sellProfit = {
             [1] = {
                 [1] = 500001,
@@ -76532,9 +76488,9 @@ return {
         },
         des = "参与「秋日盛典」活动可获得该头像",
     },
-    [566060] = {
+    [566061] = {
         isHide = false,
-        superType = 16,
+        superType = 6,
         buyItemRecover = 0,
         cost = "",
         showBgPreview = 0,
@@ -76542,35 +76498,39 @@ return {
         useProfit = {
         },
         bornEffect = false,
-        gridMax = 1,
+        gridMax = 9999999,
         outTime = 0,
         smallType = 0,
-        bagType = 0,
+        bagType = 5,
         autoUse = false,
-        nameTextId = 190000311,
-        icon = "icon/hero/name/566060.png",
+        nameTextId = 190000331,
+        icon = "icon/item/goods/520038.png",
         quality = 4,
-        desTextId = 190000312,
+        desTextId = 190000336,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566060,
+        id = 566061,
         sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1,
+            },
         },
-        subType = 0,
-        batchUse = false,
+        subType = 4,
+        batchUse = true,
         convertMax = {
         },
         star = 0,
         iconShow = "",
-        totalMax = 1,
+        totalMax = 99999999,
         dealProfit = {
         },
-        order = 0,
+        order = 1,
         accessId = {
         },
-        des = "参与「裁决降临」活动解锁拼图可获得",
+        des = "感恩节专属活动道具，活动期间副本掉落，捐赠后可获得应援积分。 ",
     },
     [554011] = {
         isHide = false,
@@ -76611,6 +76571,86 @@ return {
         accessId = {
         },
         des = "成功训练十香AI1次可获得该头像",
+    },
+    [566060] = {
+        isHide = false,
+        superType = 16,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 1,
+        outTime = 0,
+        smallType = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 190000311,
+        icon = "icon/hero/name/566060.png",
+        quality = 4,
+        desTextId = 190000312,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566060,
+        sellProfit = {
+        },
+        subType = 0,
+        batchUse = false,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 1,
+        dealProfit = {
+        },
+        order = 0,
+        accessId = {
+        },
+        des = "参与「裁决降临」活动解锁拼图可获得",
+    },
+    [554012] = {
+        isHide = false,
+        superType = 16,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 1,
+        outTime = 0,
+        smallType = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 265120,
+        icon = "icon/hero/name/554011.png",
+        quality = 2,
+        desTextId = 265121,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 554012,
+        sellProfit = {
+        },
+        subType = 0,
+        batchUse = false,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 1,
+        dealProfit = {
+        },
+        order = 0,
+        accessId = {
+        },
+        des = "",
     },
     [566058] = {
         isHide = false,
@@ -76656,7 +76696,7 @@ return {
         },
         des = "活动福利，可以替代命运徽章进行召唤的限时道具。（优先使用，有效时间30天）",
     },
-    [554012] = {
+    [554013] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -76671,15 +76711,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265120,
-        icon = "icon/hero/name/554011.png",
-        quality = 2,
-        desTextId = 265121,
+        nameTextId = 265122,
+        icon = "icon/hero/name/554012.png",
+        quality = 3,
+        desTextId = 265123,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554012,
+        id = 554013,
         sellProfit = {
         },
         subType = 0,
@@ -76741,7 +76781,7 @@ return {
         },
         des = "可以替代货币（钻石）进行召唤的道具。外形是一个设计精巧的徽章",
     },
-    [554013] = {
+    [554014] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -76756,15 +76796,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265122,
-        icon = "icon/hero/name/554012.png",
-        quality = 3,
-        desTextId = 265123,
+        nameTextId = 265124,
+        icon = "icon/hero/name/554013.png",
+        quality = 4,
+        desTextId = 265125,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554013,
+        id = 554014,
         sellProfit = {
         },
         subType = 0,
@@ -76829,7 +76869,7 @@ return {
         },
         des = "你现在是DAL SP粉丝团的一员了",
     },
-    [554014] = {
+    [554015] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -76844,15 +76884,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265124,
-        icon = "icon/hero/name/554013.png",
+        nameTextId = 265126,
+        icon = "icon/hero/name/554015.png",
         quality = 4,
-        desTextId = 265125,
+        desTextId = 265127,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554014,
+        id = 554015,
         sellProfit = {
         },
         subType = 0,
@@ -76867,7 +76907,7 @@ return {
         order = 0,
         accessId = {
         },
-        des = "",
+        des = "参与「猫の认可」活动可获得",
     },
     [566052] = {
         isHide = false,
@@ -76921,7 +76961,7 @@ return {
         },
         des = "开启后可获得猫娘狂三CG。",
     },
-    [554015] = {
+    [554016] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -76936,15 +76976,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265126,
-        icon = "icon/hero/name/554015.png",
+        nameTextId = 265128,
+        icon = "icon/hero/name/554016.png",
         quality = 4,
-        desTextId = 265127,
+        desTextId = 265129,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554015,
+        id = 554016,
         sellProfit = {
         },
         subType = 0,
@@ -76959,7 +76999,7 @@ return {
         order = 0,
         accessId = {
         },
-        des = "参与「猫の认可」活动可获得",
+        des = "2019圣诞活动限定兑换头像！",
     },
     [566050] = {
         isHide = false,
@@ -78593,7 +78633,7 @@ return {
         },
         des = "开启后可选择任意角色的随机技能的A级宝石。",
     },
-    [554016] = {
+    [554017] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -78608,15 +78648,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265128,
-        icon = "icon/hero/name/554016.png",
+        nameTextId = 265130,
+        icon = "icon/hero/name/554017.png",
         quality = 4,
-        desTextId = 265129,
+        desTextId = 265131,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554016,
+        id = 554017,
         sellProfit = {
         },
         subType = 0,
@@ -78631,7 +78671,7 @@ return {
         order = 0,
         accessId = {
         },
-        des = "2019圣诞活动限定兑换头像！",
+        des = "鼠年春节限定头像，可在春节商店兑换。",
     },
     [566048] = {
         isHide = false,
@@ -78678,7 +78718,7 @@ return {
         },
         des = "9折战令折扣券",
     },
-    [554017] = {
+    [554018] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -78693,15 +78733,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265130,
-        icon = "icon/hero/name/554017.png",
+        nameTextId = 265132,
+        icon = "icon/hero/name/554018.png",
         quality = 4,
-        desTextId = 265131,
+        desTextId = 265133,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554017,
+        id = 554018,
         sellProfit = {
         },
         subType = 0,
@@ -78716,7 +78756,7 @@ return {
         order = 0,
         accessId = {
         },
-        des = "鼠年春节限定头像，可在春节商店兑换。",
+        des = "茵蒂克丝送上新年的祝福，联动商店兑换可获得该头像",
     },
     [566046] = {
         isHide = false,
@@ -78763,7 +78803,7 @@ return {
         },
         des = "7折战令折扣券",
     },
-    [554018] = {
+    [554019] = {
         isHide = false,
         superType = 16,
         buyItemRecover = 0,
@@ -78778,15 +78818,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 265132,
-        icon = "icon/hero/name/554018.png",
+        nameTextId = 265134,
+        icon = "icon/hero/name/554019.png",
         quality = 4,
-        desTextId = 265133,
+        desTextId = 265135,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 554018,
+        id = 554019,
         sellProfit = {
         },
         subType = 0,
@@ -78801,7 +78841,7 @@ return {
         order = 0,
         accessId = {
         },
-        des = "茵蒂克丝送上新年的祝福，联动商店兑换可获得该头像",
+        des = "漫步花间遇见童话，在童话之森活动兑换可获得该头像",
     },
     [566044] = {
         isHide = false,
@@ -78847,46 +78887,6 @@ return {
         accessId = {
         },
         des = "5折战令折扣券",
-    },
-    [554019] = {
-        isHide = false,
-        superType = 16,
-        buyItemRecover = 0,
-        cost = "",
-        showBgPreview = 0,
-        pileUp = true,
-        useProfit = {
-        },
-        bornEffect = false,
-        gridMax = 1,
-        outTime = 0,
-        smallType = 0,
-        bagType = 0,
-        autoUse = false,
-        nameTextId = 265134,
-        icon = "icon/hero/name/554019.png",
-        quality = 4,
-        desTextId = 265135,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 554019,
-        sellProfit = {
-        },
-        subType = 0,
-        batchUse = false,
-        convertMax = {
-        },
-        star = 0,
-        iconShow = "",
-        totalMax = 1,
-        dealProfit = {
-        },
-        order = 0,
-        accessId = {
-        },
-        des = "漫步花间遇见童话，在童话之森活动兑换可获得该头像",
     },
     [566042] = {
         isHide = false,
@@ -78978,6 +78978,46 @@ return {
         },
         des = "1折战令折扣券",
     },
+    [554021] = {
+        isHide = false,
+        superType = 16,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 1,
+        outTime = 0,
+        smallType = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 266605,
+        icon = "icon/hero/name/554021.png",
+        quality = 4,
+        desTextId = 266606,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 554021,
+        sellProfit = {
+        },
+        subType = 0,
+        batchUse = false,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 1,
+        dealProfit = {
+        },
+        order = 0,
+        accessId = {
+        },
+        des = "参与「暮雨小憩」活动可获得该头像",
+    },
     [566038] = {
         isHide = false,
         superType = 6,
@@ -79024,86 +79064,6 @@ return {
         },
         des = "可以替代货币（钻石）进行召唤的道具。外形是一个设计精巧的徽章",
     },
-    [554021] = {
-        isHide = false,
-        superType = 16,
-        buyItemRecover = 0,
-        cost = "",
-        showBgPreview = 0,
-        pileUp = true,
-        useProfit = {
-        },
-        bornEffect = false,
-        gridMax = 1,
-        outTime = 0,
-        smallType = 0,
-        bagType = 0,
-        autoUse = false,
-        nameTextId = 266605,
-        icon = "icon/hero/name/554021.png",
-        quality = 4,
-        desTextId = 266606,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 554021,
-        sellProfit = {
-        },
-        subType = 0,
-        batchUse = false,
-        convertMax = {
-        },
-        star = 0,
-        iconShow = "",
-        totalMax = 1,
-        dealProfit = {
-        },
-        order = 0,
-        accessId = {
-        },
-        des = "参与「暮雨小憩」活动可获得该头像",
-    },
-    [566036] = {
-        isHide = false,
-        superType = 18,
-        buyItemRecover = 0,
-        cost = "",
-        showBgPreview = 0,
-        pileUp = true,
-        useProfit = {
-        },
-        bornEffect = false,
-        gridMax = 1,
-        outTime = 0,
-        smallType = 0,
-        bagType = 0,
-        autoUse = false,
-        nameTextId = 266567,
-        icon = "icon/item/goods/10155.png",
-        quality = 4,
-        desTextId = 190000058,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 566036,
-        sellProfit = {
-        },
-        subType = 0,
-        batchUse = false,
-        convertMax = {
-        },
-        star = 0,
-        iconShow = "",
-        totalMax = 1,
-        dealProfit = {
-        },
-        order = 0,
-        accessId = {
-        },
-        des = "参与2019新年应援活动",
-    },
     [554022] = {
         isHide = false,
         superType = 16,
@@ -79144,7 +79104,7 @@ return {
         },
         des = "",
     },
-    [566034] = {
+    [566036] = {
         isHide = false,
         superType = 18,
         buyItemRecover = 0,
@@ -79159,15 +79119,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 266551,
-        icon = "icon/item/goods/10143.png",
+        nameTextId = 266567,
+        icon = "icon/item/goods/10155.png",
         quality = 4,
-        desTextId = 190000056,
+        desTextId = 190000058,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566034,
+        id = 566036,
         sellProfit = {
         },
         subType = 0,
@@ -79224,7 +79184,7 @@ return {
         },
         des = "午后遇见镜中的那只猫，让心跳与镜中身影交织在一起",
     },
-    [566032] = {
+    [566034] = {
         isHide = false,
         superType = 18,
         buyItemRecover = 0,
@@ -79239,15 +79199,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 266531,
-        icon = "icon/item/goods/10128.png",
+        nameTextId = 266551,
+        icon = "icon/item/goods/10143.png",
         quality = 4,
-        desTextId = 190000054,
+        desTextId = 190000056,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566032,
+        id = 566034,
         sellProfit = {
         },
         subType = 0,
@@ -79304,7 +79264,7 @@ return {
         },
         des = "活动期间累计登录可获得该头像",
     },
-    [566030] = {
+    [566032] = {
         isHide = false,
         superType = 18,
         buyItemRecover = 0,
@@ -79319,15 +79279,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 266516,
-        icon = "icon/item/goods/10116.png",
+        nameTextId = 266531,
+        icon = "icon/item/goods/10128.png",
         quality = 4,
-        desTextId = 190000052,
+        desTextId = 190000054,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566030,
+        id = 566032,
         sellProfit = {
         },
         subType = 0,
@@ -79385,7 +79345,7 @@ return {
         },
         des = "",
     },
-    [566028] = {
+    [566030] = {
         isHide = false,
         superType = 18,
         buyItemRecover = 0,
@@ -79400,15 +79360,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 266511,
-        icon = "icon/item/goods/10111.png",
+        nameTextId = 266516,
+        icon = "icon/item/goods/10116.png",
         quality = 4,
-        desTextId = 190000050,
+        desTextId = 190000052,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566028,
+        id = 566030,
         sellProfit = {
         },
         subType = 0,
@@ -79465,7 +79425,7 @@ return {
         },
         des = "",
     },
-    [566026] = {
+    [566028] = {
         isHide = false,
         superType = 18,
         buyItemRecover = 0,
@@ -79480,15 +79440,15 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 266585,
-        icon = "icon/item/goods/11902.png",
+        nameTextId = 266511,
+        icon = "icon/item/goods/10111.png",
         quality = 4,
-        desTextId = 190000048,
+        desTextId = 190000050,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566026,
+        id = 566028,
         sellProfit = {
         },
         subType = 0,
@@ -79545,9 +79505,9 @@ return {
         },
         des = "",
     },
-    [566024] = {
+    [566026] = {
         isHide = false,
-        superType = 6,
+        superType = 18,
         buyItemRecover = 0,
         cost = "",
         showBgPreview = 0,
@@ -79555,20 +79515,20 @@ return {
         useProfit = {
         },
         bornEffect = false,
-        gridMax = 999,
+        gridMax = 1,
         outTime = 0,
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 190000027,
-        icon = "icon/item/goods/566024.png",
+        nameTextId = 266585,
+        icon = "icon/item/goods/11902.png",
         quality = 4,
-        desTextId = 190000028,
+        desTextId = 190000048,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566024,
+        id = 566026,
         sellProfit = {
         },
         subType = 0,
@@ -79577,13 +79537,13 @@ return {
         },
         star = 0,
         iconShow = "",
-        totalMax = 99999999,
+        totalMax = 1,
         dealProfit = {
         },
-        order = 1,
+        order = 0,
         accessId = {
         },
-        des = "",
+        des = "参与2019新年应援活动",
     },
     [554028] = {
         isHide = false,
@@ -79627,9 +79587,9 @@ return {
         },
         des = "参与「私人医生」活动可获得",
     },
-    [566022] = {
+    [566024] = {
         isHide = false,
-        superType = 1001,
+        superType = 6,
         buyItemRecover = 0,
         cost = "",
         showBgPreview = 0,
@@ -79637,30 +79597,29 @@ return {
         useProfit = {
         },
         bornEffect = false,
-        gridMax = 0,
+        gridMax = 999,
         outTime = 0,
         smallType = 0,
-        bagType = 95,
+        bagType = 0,
         autoUse = false,
-        nameTextId = 190000013,
-        icon = "icon/item/goods/566022.png",
+        nameTextId = 190000027,
+        icon = "icon/item/goods/566024.png",
         quality = 4,
-        desTextId = 190000018,
+        desTextId = 190000028,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566022,
+        id = 566024,
         sellProfit = {
         },
         subType = 0,
         batchUse = false,
         convertMax = {
-            [620001] = 1,
         },
         star = 0,
         iconShow = "",
-        totalMax = 50,
+        totalMax = 99999999,
         dealProfit = {
         },
         order = 1,
@@ -79708,7 +79667,7 @@ return {
         },
         des = "感谢你一直的守护和陪伴，参与「周年庆典」活动可获得该头像",
     },
-    [566020] = {
+    [566022] = {
         isHide = false,
         superType = 1001,
         buyItemRecover = 0,
@@ -79723,15 +79682,15 @@ return {
         smallType = 0,
         bagType = 95,
         autoUse = false,
-        nameTextId = 190000011,
-        icon = "icon/item/goods/566020.png",
+        nameTextId = 190000013,
+        icon = "icon/item/goods/566022.png",
         quality = 4,
-        desTextId = 190000016,
+        desTextId = 190000018,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566020,
+        id = 566022,
         sellProfit = {
         },
         subType = 0,
@@ -79789,7 +79748,7 @@ return {
         },
         des = "参与「生存游戏」或「秘密补给」活动可获得该头像",
     },
-    [566018] = {
+    [566020] = {
         isHide = false,
         superType = 1001,
         buyItemRecover = 0,
@@ -79804,15 +79763,15 @@ return {
         smallType = 0,
         bagType = 95,
         autoUse = false,
-        nameTextId = 190000009,
-        icon = "icon/item/goods/566018.png",
+        nameTextId = 190000011,
+        icon = "icon/item/goods/566020.png",
         quality = 4,
-        desTextId = 190000014,
+        desTextId = 190000016,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 566018,
+        id = 566020,
         sellProfit = {
         },
         subType = 0,
@@ -79870,6 +79829,47 @@ return {
         },
         des = "「在地下城寻求邂逅是否搞错了什么」联动纪念头像",
     },
+    [566018] = {
+        isHide = false,
+        superType = 1001,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 0,
+        outTime = 0,
+        smallType = 0,
+        bagType = 95,
+        autoUse = false,
+        nameTextId = 190000009,
+        icon = "icon/item/goods/566018.png",
+        quality = 4,
+        desTextId = 190000014,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566018,
+        sellProfit = {
+        },
+        subType = 0,
+        batchUse = false,
+        convertMax = {
+            [620001] = 1,
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 50,
+        dealProfit = {
+        },
+        order = 1,
+        accessId = {
+        },
+        des = "",
+    },
     [500070] = {
         isHide = false,
         superType = 5,
@@ -79903,46 +79903,6 @@ return {
         star = 0,
         iconShow = "",
         totalMax = 99999999,
-        dealProfit = {
-        },
-        order = 1,
-        accessId = {
-        },
-        des = "",
-    },
-    [540308] = {
-        isHide = false,
-        superType = 10,
-        buyItemRecover = 0,
-        cost = "",
-        showBgPreview = 0,
-        pileUp = true,
-        useProfit = {
-        },
-        bornEffect = false,
-        gridMax = 9999999,
-        outTime = 0,
-        smallType = 0,
-        bagType = 0,
-        autoUse = false,
-        nameTextId = 0,
-        icon = "icon/cg/main_cg_0901.png",
-        quality = 1,
-        desTextId = 0,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 540308,
-        sellProfit = {
-        },
-        subType = 0,
-        batchUse = false,
-        convertMax = {
-        },
-        star = 0,
-        iconShow = "",
-        totalMax = 9999999,
         dealProfit = {
         },
         order = 1,
@@ -85746,6 +85706,10 @@ return {
                         id = 522246,
                         num = 1,
                     },
+                    [18] = {
+                        id = 522146,
+                        num = 1,
+                    },
                 },
             },
         },
@@ -85861,6 +85825,10 @@ return {
                     },
                     [17] = {
                         id = 522245,
+                        num = 1,
+                    },
+                    [18] = {
+                        id = 522145,
                         num = 1,
                     },
                 },
@@ -85980,6 +85948,10 @@ return {
                         id = 522244,
                         num = 1,
                     },
+                    [18] = {
+                        id = 522144,
+                        num = 1,
+                    },
                 },
             },
         },
@@ -86095,6 +86067,10 @@ return {
                     },
                     [17] = {
                         id = 521247,
+                        num = 1,
+                    },
+                    [18] = {
+                        id = 521147,
                         num = 1,
                     },
                 },
@@ -87087,6 +87063,10 @@ return {
                         id = 521177,
                         num = 1,
                     },
+                    [16] = {
+                        id = 521147,
+                        num = 1,
+                    },
                 },
             },
         },
@@ -87196,6 +87176,10 @@ return {
                         id = 521176,
                         num = 1,
                     },
+                    [16] = {
+                        id = 521146,
+                        num = 1,
+                    },
                 },
             },
         },
@@ -87303,6 +87287,10 @@ return {
                     },
                     [15] = {
                         id = 521175,
+                        num = 1,
+                    },
+                    [16] = {
+                        id = 521145,
                         num = 1,
                     },
                 },
@@ -100372,6 +100360,30 @@ return {
                         max = 1,
                         weight = 100,
                     },
+                    [61] = {
+                        min = 1,
+                        id = 1314211,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [62] = {
+                        min = 1,
+                        id = 1314221,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [63] = {
+                        min = 1,
+                        id = 1314231,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [64] = {
+                        min = 1,
+                        id = 1314241,
+                        max = 1,
+                        weight = 100,
+                    },
                 },
             },
         },
@@ -112889,6 +112901,30 @@ return {
                         max = 1,
                         weight = 100,
                     },
+                    [61] = {
+                        min = 1,
+                        id = 1314311,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [62] = {
+                        min = 1,
+                        id = 1314321,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [63] = {
+                        min = 1,
+                        id = 1314331,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [64] = {
+                        min = 1,
+                        id = 1314341,
+                        max = 1,
+                        weight = 100,
+                    },
                 },
             },
         },
@@ -113338,6 +113374,30 @@ return {
                         max = 1,
                         weight = 100,
                     },
+                    [61] = {
+                        min = 1,
+                        id = 1314411,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [62] = {
+                        min = 1,
+                        id = 1314421,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [63] = {
+                        min = 1,
+                        id = 1314431,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [64] = {
+                        min = 1,
+                        id = 1314441,
+                        max = 1,
+                        weight = 100,
+                    },
                 },
             },
         },
@@ -113784,6 +113844,30 @@ return {
                     [60] = {
                         min = 1,
                         id = 1317541,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [61] = {
+                        min = 1,
+                        id = 1314511,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [62] = {
+                        min = 1,
+                        id = 1314521,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [63] = {
+                        min = 1,
+                        id = 1314531,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [64] = {
+                        min = 1,
+                        id = 1314541,
                         max = 1,
                         weight = 100,
                     },
@@ -114330,6 +114414,30 @@ return {
                     [60] = {
                         min = 1,
                         id = 1317741,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [61] = {
+                        min = 1,
+                        id = 1314711,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [62] = {
+                        min = 1,
+                        id = 1314721,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [63] = {
+                        min = 1,
+                        id = 1314731,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [64] = {
+                        min = 1,
+                        id = 1314741,
                         max = 1,
                         weight = 100,
                     },
@@ -128532,6 +128640,30 @@ return {
                         max = 1,
                         weight = 100,
                     },
+                    [61] = {
+                        min = 1,
+                        id = 1314111,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [62] = {
+                        min = 1,
+                        id = 1314121,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [63] = {
+                        min = 1,
+                        id = 1314131,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [64] = {
+                        min = 1,
+                        id = 1314141,
+                        max = 1,
+                        weight = 100,
+                    },
                 },
             },
         },
@@ -129759,6 +129891,30 @@ return {
                     [60] = {
                         min = 1,
                         id = 1317641,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [61] = {
+                        min = 1,
+                        id = 1314611,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [62] = {
+                        min = 1,
+                        id = 1314621,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [63] = {
+                        min = 1,
+                        id = 1314631,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [64] = {
+                        min = 1,
+                        id = 1314641,
                         max = 1,
                         weight = 100,
                     },
@@ -139093,30 +139249,30 @@ return {
         },
         des = "",
     },
-    [1] = {
+    [540308] = {
         isHide = false,
-        superType = 0,
+        superType = 10,
         buyItemRecover = 0,
         cost = "",
         showBgPreview = 0,
-        pileUp = false,
+        pileUp = true,
         useProfit = {
         },
         bornEffect = false,
-        gridMax = 0,
+        gridMax = 9999999,
         outTime = 0,
         smallType = 0,
         bagType = 0,
         autoUse = false,
         nameTextId = 0,
-        icon = "",
-        quality = 0,
+        icon = "icon/cg/main_cg_0901.png",
+        quality = 1,
         desTextId = 0,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 1,
+        id = 540308,
         sellProfit = {
         },
         subType = 0,
@@ -139125,10 +139281,10 @@ return {
         },
         star = 0,
         iconShow = "",
-        totalMax = 0,
+        totalMax = 9999999,
         dealProfit = {
         },
-        order = 0,
+        order = 1,
         accessId = {
         },
         des = "",
@@ -143653,6 +143809,10 @@ return {
                         id = 522174,
                         num = 1,
                     },
+                    [16] = {
+                        id = 522004,
+                        num = 1,
+                    },
                 },
             },
         },
@@ -144051,6 +144211,10 @@ return {
                         id = 522175,
                         num = 1,
                     },
+                    [16] = {
+                        id = 522005,
+                        num = 1,
+                    },
                 },
             },
         },
@@ -144198,6 +144362,10 @@ return {
                     },
                     [15] = {
                         id = 522176,
+                        num = 1,
+                    },
+                    [16] = {
+                        id = 522006,
                         num = 1,
                     },
                 },
@@ -145630,6 +145798,10 @@ return {
                         id = 521245,
                         num = 1,
                     },
+                    [18] = {
+                        id = 521145,
+                        num = 1,
+                    },
                 },
             },
         },
@@ -145826,6 +145998,10 @@ return {
                     },
                     [17] = {
                         id = 521246,
+                        num = 1,
+                    },
+                    [18] = {
+                        id = 521146,
                         num = 1,
                     },
                 },

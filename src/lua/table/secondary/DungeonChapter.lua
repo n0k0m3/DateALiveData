@@ -271,7 +271,7 @@ return {
         finishPicture = "",
         bottomPic = "",
         bottomEffect = "",
-        type = 1004,
+        type = 1,
         endShowHero = 110210,
         id = 11,
         isPlayAniSync = false,

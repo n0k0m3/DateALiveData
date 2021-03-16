@@ -63351,7 +63351,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "31001L_d2",
         conditions = {
@@ -63419,7 +63419,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "31001L_a2",
         conditions = {
@@ -63453,7 +63453,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_c1",
         conditions = {
@@ -63521,7 +63521,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -63589,7 +63589,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_a2",
         conditions = {
@@ -64031,7 +64031,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_b1",
         conditions = {
@@ -64056,7 +64056,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Aku Raja Iblis Astaroth. Selamat datang di Kota yang terlupakan. ",
+                text = "Aku Raja Iblis ASHTAROTH. Selamat datang di Kota yang terlupakan. ",
             },
         },
         actionL = {
@@ -64065,7 +64065,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_b1",
         conditions = {
@@ -64133,7 +64133,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -64167,7 +64167,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -64235,7 +64235,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -64303,7 +64303,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -64328,7 +64328,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Ternyata kamu……Astaroth! Kamu ternyata mengingkari janji dan membuat kekacauan di kota yang terlupakan? ",
+                text = "Ternyata kamu……ASHTAROTH! Kamu ternyata mengingkari janji dan membuat kekacauan di kota yang terlupakan? ",
             },
         },
         actionL = {
@@ -64337,7 +64337,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_b2",
         conditions = {
@@ -64371,7 +64371,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "31101L_b2",
         conditions = {
@@ -64405,7 +64405,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "31101L_b2",
         conditions = {
@@ -64439,7 +64439,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_d1",
         conditions = {
@@ -64464,7 +64464,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Oh, demi mengalahkan musuh bersama “Asmodeus”, aku tidak menuntut, sebagai sekutu, apakah kamu berniat memanfaatkanku? ",
+                text = "Oh, demi mengalahkan musuh bersama “ASMODAIOS”, aku tidak menuntut, sebagai sekutu, apakah kamu berniat memanfaatkanku? ",
             },
         },
         actionL = {
@@ -64473,7 +64473,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "31101L_d1",
         conditions = {
@@ -64507,7 +64507,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_d2",
         conditions = {
@@ -64541,7 +64541,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "31101L_d2",
         conditions = {
@@ -64566,7 +64566,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Ya, kembalikan wilayah itu! Aku sebagai Raja Iblis Belphegor menyatakan perang denganmu! ",
+                text = "Ya, kembalikan wilayah itu! Aku sebagai Raja Iblis BEELPHEGOR menyatakan perang denganmu! ",
             },
         },
         actionL = {
@@ -64575,7 +64575,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_d1",
         conditions = {
@@ -64643,7 +64643,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "31101L_d1",
         conditions = {
@@ -64705,7 +64705,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -64739,7 +64739,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -64807,7 +64807,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -64841,7 +64841,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_b2",
         conditions = {
@@ -64875,7 +64875,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_d1",
         conditions = {
@@ -64943,7 +64943,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_a1",
         conditions = {
@@ -65011,7 +65011,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_b2",
         conditions = {
@@ -65079,7 +65079,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_b2",
         conditions = {
@@ -65113,7 +65113,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_b2",
         conditions = {
@@ -65181,7 +65181,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_b1",
         conditions = {
@@ -65249,7 +65249,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -65274,7 +65274,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Tapi, di situ adalah wilayah musuhku——Asmodeus. ",
+                text = "Tapi, di situ adalah wilayah musuhku——ASMODAIOS. ",
             },
         },
         actionL = {
@@ -65283,7 +65283,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -65351,7 +65351,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_b1",
         conditions = {
@@ -65410,7 +65410,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Betul. Aku menginginkan wilayah Asmodeus, kamu butuh mencari Pintu Dunia. ",
+                text = "Betul. Aku menginginkan wilayah ASMODAIOS, kamu butuh mencari Pintu Dunia. ",
             },
         },
         actionL = {
@@ -65419,7 +65419,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -65453,7 +65453,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -65512,7 +65512,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Jika kekuatanku dapat mengalahkan Asmodeus, untuk apa aku membentuk aliansi bersama Astaroth? ",
+                text = "Jika kekuatanku dapat mengalahkan ASMODAIOS, untuk apa aku membentuk aliansi bersama ASHTAROTH? ",
             },
         },
         actionL = {
@@ -65521,7 +65521,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_b1",
         conditions = {
@@ -65546,7 +65546,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Oh oh……sayang sekali sudah putus dengan Astaroth. Tampaknya kamu sangat membutuhkan bantuan. ",
+                text = "Oh oh……sayang sekali sudah putus dengan ASHTAROTH. Tampaknya kamu sangat membutuhkan bantuan. ",
             },
         },
         actionL = {
@@ -65589,7 +65589,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -65648,7 +65648,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Kerumunan monster berkumpul……Asmodeus sialan……",
+                text = "Kerumunan monster berkumpul……ASMODAIOS sialan……",
             },
         },
         actionL = {
@@ -65657,7 +65657,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_i",
         conditions = {
@@ -65682,7 +65682,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Tampaknya kamu menemukan bantuan yang luar biasa……Belphegor. ",
+                text = "Tampaknya kamu menemukan bantuan yang luar biasa……BEELPHEGOR. ",
             },
         },
         actionL = {
@@ -65691,7 +65691,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "31001L_b2",
         conditions = {
@@ -65725,7 +65725,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31001L_b2",
         conditions = {
@@ -65759,7 +65759,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "31001L_d2",
         conditions = {
@@ -65821,7 +65821,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "31001L_d2",
         conditions = {
@@ -65846,7 +65846,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Apakah ini cara Belphegor menipumu? ",
+                text = "Apakah ini cara BEELPHEGOR menipumu? ",
             },
         },
         actionL = {
@@ -65855,7 +65855,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "31001L_d1",
         conditions = {
@@ -65880,7 +65880,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Asmodeus! Mati saja!! ",
+                text = "ASMODAIOS! Mati saja!! ",
             },
         },
         actionL = {
@@ -65889,7 +65889,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31001L_d1",
         conditions = {
@@ -65923,7 +65923,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "31001L_d1",
         conditions = {
@@ -65957,7 +65957,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "31001L_d2",
         conditions = {
@@ -65991,7 +65991,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "31001L_d1",
         conditions = {
@@ -66025,7 +66025,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "",
         conditions = {
@@ -66050,7 +66050,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Apakah pintu dunia benar-benar ada di wiayah Asmodeus? ",
+                text = "Apakah pintu dunia benar-benar ada di wiayah ASMODAIOS? ",
             },
         },
         actionL = {
@@ -66084,7 +66084,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Tentu! Jangan percaya dengan perkataan Asmodeus! Kita memiliki tujuan yang sama! ",
+                text = "Tentu! Jangan percaya dengan perkataan ASMODAIOS! Kita memiliki tujuan yang sama! ",
             },
         },
         actionL = {
@@ -66093,7 +66093,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_b1",
         conditions = {
@@ -66118,7 +66118,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Tujuan? Kamu ingin merebut wilayah Asmodeus. ",
+                text = "Tujuan? Kamu ingin merebut wilayah ASMODAIOS. ",
             },
         },
         actionL = {
@@ -66195,7 +66195,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -66297,7 +66297,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_b2",
         conditions = {
@@ -66331,7 +66331,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "10401L_b2",
         conditions = {
@@ -66399,7 +66399,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -66424,7 +66424,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Apakah Raja Iblis Astaroth……",
+                text = "Apakah Raja Iblis ASHTAROTH……",
             },
         },
         actionL = {
@@ -66467,7 +66467,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -66501,7 +66501,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_c1",
         conditions = {
@@ -66569,7 +66569,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -66637,7 +66637,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_c1",
         conditions = {
@@ -66739,7 +66739,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_b1",
         conditions = {
@@ -66807,7 +66807,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_b2",
         conditions = {
@@ -66875,7 +66875,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -66943,7 +66943,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -67079,7 +67079,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_c1",
         conditions = {
@@ -67113,7 +67113,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -67181,7 +67181,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -67206,7 +67206,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Tentu untuk dirimu sendiri~ Apakah kamu tidak takut pada Raja Iblis Astaroth? ",
+                text = "Tentu untuk dirimu sendiri~ Apakah kamu tidak takut pada Raja Iblis ASHTAROTH? ",
             },
         },
         actionL = {
@@ -67240,7 +67240,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Hehehe, jika Asmodeus dikalahkan olehku dan Belphegor……Apa yang akan kau lakukan? ",
+                text = "Hehehe, jika ASMODAIOS dikalahkan olehku dan BEELPHEGOR……Apa yang akan kau lakukan? ",
             },
         },
         actionL = {
@@ -67317,7 +67317,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_c1",
         conditions = {
@@ -67342,7 +67342,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Ketika kita menemukan pintu Dunia, maka aliansi antara aku dan Belphegor akan berakhir. Setelah aku meninggalkan dunia ini, kamu juga akan memperoleh “Nutrisi” yang diinginkan……",
+                text = "Ketika kita menemukan pintu Dunia, maka aliansi antara aku dan BEELPHEGOR akan berakhir. Setelah aku meninggalkan dunia ini, kamu juga akan memperoleh “Nutrisi” yang diinginkan……",
             },
         },
         actionL = {
@@ -67385,7 +67385,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -67487,7 +67487,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_b2",
         conditions = {
@@ -67555,7 +67555,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -67623,7 +67623,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -67691,7 +67691,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -67759,7 +67759,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -67784,7 +67784,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Apakah Belphegor akan datang? Haha……hanya mengandalkanmu seorang spirit tidak akan bisa mengalahkanku. ",
+                text = "Apakah BEELPHEGOR akan datang? Haha……hanya mengandalkanmu seorang spirit tidak akan bisa mengalahkanku. ",
             },
         },
         actionL = {
@@ -67793,7 +67793,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -67818,7 +67818,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Terserah padamu, aliansi Belphegor dan Astaroth sudah dalam perjalanan……sesuai dengan rencana. ",
+                text = "Terserah padamu, aliansi BEELPHEGOR dan ASHTAROTH sudah dalam perjalanan……sesuai dengan rencana. ",
             },
         },
         actionL = {
@@ -67852,7 +67852,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Belphegor dan Astaroth kembali berkoalisi? Apa yang kamu lakukan? ",
+                text = "BEELPHEGOR dan ASHTAROTH kembali berkoalisi? Apa yang kamu lakukan? ",
             },
         },
         actionL = {
@@ -67861,7 +67861,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -67963,7 +67963,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -68031,7 +68031,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -68099,7 +68099,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_b2",
         conditions = {
@@ -68167,7 +68167,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_i",
         conditions = {
@@ -68226,7 +68226,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Belphegor benar-benar pintar……berjalan bersamamu, apakah dia mengumpulkan banyak Kristal Pintu Dunia? ",
+                text = "BEELPHEGOR benar-benar pintar……berjalan bersamamu, apakah dia mengumpulkan banyak Kristal Pintu Dunia? ",
             },
         },
         actionL = {
@@ -68235,7 +68235,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_b1",
         conditions = {
@@ -68260,7 +68260,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Astaroth……pasti menipumu pergi ke Kota yang Hilang, memperoleh Kristal Qliphoth yang paling besar? ",
+                text = "ASHTAROTH……pasti menipumu pergi ke Kota yang Hilang, memperoleh Kristal Qliphoth yang paling besar? ",
             },
         },
         actionL = {
@@ -68269,7 +68269,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_b1",
         conditions = {
@@ -68328,7 +68328,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Tak disangka kamu masih ada hari ini……Asmodeus! ",
+                text = "Tak disangka kamu masih ada hari ini……ASMODAIOS! ",
             },
         },
         actionL = {
@@ -68337,7 +68337,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_b2",
         conditions = {
@@ -68371,7 +68371,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -68405,7 +68405,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -68473,7 +68473,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -68541,7 +68541,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -68575,7 +68575,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -68634,7 +68634,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Hahaha! Bahkan spirit kuat seperti dirimu, akan dibuat puisng oleh Belphegor……",
+                text = "Hahaha! Bahkan spirit kuat seperti dirimu, akan dibuat puisng oleh BEELPHEGOR……",
             },
         },
         actionL = {
@@ -68643,7 +68643,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_b1",
         conditions = {
@@ -68668,7 +68668,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Pasti Belphegor dan Astaroth……yang memberitahumu, bahwa spirit tidak dapat menguasai Qliphotoh? ",
+                text = "Pasti BEELPHEGOR dan ASHTAROTH……yang memberitahumu, bahwa spirit tidak dapat menguasai Qliphotoh? ",
             },
         },
         actionL = {
@@ -68677,7 +68677,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_b1",
         conditions = {
@@ -68745,7 +68745,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_i",
         conditions = {
@@ -68779,7 +68779,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_i",
         conditions = {
@@ -68813,7 +68813,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "10401L_i",
         conditions = {
@@ -75816,7 +75816,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Golab的首领Asmodeus一定不会善罢甘休的……这里太危险了，你们离开吧！",
+                text = "Golab的首领ASMODAIOS一定不会善罢甘休的……这里太危险了，你们离开吧！",
             },
         },
         actionL = {
@@ -76097,7 +76097,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "31001L_d2",
         conditions = {
@@ -76165,7 +76165,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "31001L_a2",
         conditions = {
@@ -76233,7 +76233,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Asmodeus",
+        name = "ASMODAIOS",
         cameraAction = 0,
         headL = "31001L_b2",
         conditions = {
@@ -76360,7 +76360,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "太好了！Asmodeus的阴谋被粉碎了！",
+                text = "太好了！ASMODAIOS的阴谋被粉碎了！",
             },
         },
         actionL = {
@@ -77380,7 +77380,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "不行……那里是魔王Belphegor的领地，太危险了！",
+                text = "不行……那里是魔王BEELPHEGOR的领地，太危险了！",
             },
         },
         actionL = {
@@ -77584,7 +77584,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "不好，难道是魔王Belphegor的魔物大军已经被惊动了……？",
+                text = "不好，难道是魔王BEELPHEGOR的魔物大军已经被惊动了……？",
             },
         },
         actionL = {
@@ -77652,7 +77652,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Belphegor一定会想办法夺回Malachim的，你们快逃！",
+                text = "BEELPHEGOR一定会想办法夺回Malachim的，你们快逃！",
             },
         },
         actionL = {
@@ -77720,7 +77720,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Belphegor轻易能造出魔物大军，我很不放心。",
+                text = "BEELPHEGOR轻易能造出魔物大军，我很不放心。",
             },
         },
         actionL = {
@@ -77754,7 +77754,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "既然如此，不如直接将Belphegor剿灭吧。",
+                text = "既然如此，不如直接将BEELPHEGOR剿灭吧。",
             },
         },
         actionL = {
@@ -78069,7 +78069,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_a1",
         conditions = {
@@ -78171,7 +78171,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_a2",
         conditions = {
@@ -78239,7 +78239,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Belphegor",
+        name = "BEELPHEGOR",
         cameraAction = 0,
         headL = "31101L_b2",
         conditions = {
@@ -78332,7 +78332,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "谢谢你们，你们不仅守护了“美丽”之地，还帮忙打败了Belphegor，彻底净化了世界树！",
+                text = "谢谢你们，你们不仅守护了“美丽”之地，还帮忙打败了BEELPHEGOR，彻底净化了世界树！",
             },
         },
         actionL = {
@@ -103273,7 +103273,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a1",
         conditions = {
@@ -103419,7 +103419,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a1",
         conditions = {
@@ -103725,7 +103725,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -103895,7 +103895,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a1",
         conditions = {
@@ -104065,7 +104065,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a1",
         conditions = {
@@ -114276,7 +114276,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_c1",
         conditions = {
@@ -114660,7 +114660,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -114918,7 +114918,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -121830,7 +121830,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -139740,7 +139740,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -139808,7 +139808,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -139910,7 +139910,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_c1",
         conditions = {
@@ -140012,7 +140012,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "40209_a2",
         conditions = {
@@ -142612,7 +142612,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Menculik? Kamu memang lucu, bukannya dirimu sendiri yang tiba-tiba muncul di [Istana Sihir] milik [Astaroth] ini? ",
+                text = "Menculik? Kamu memang lucu, bukannya dirimu sendiri yang tiba-tiba muncul di [Istana Sihir] milik [ASHTAROTH] ini? ",
             },
         },
         actionL = {
@@ -142655,7 +142655,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -145035,7 +145035,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -145885,7 +145885,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -145919,7 +145919,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -146021,7 +146021,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -146491,7 +146491,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -148151,7 +148151,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -148185,7 +148185,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -148219,7 +148219,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -148253,7 +148253,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -148423,7 +148423,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -148457,7 +148457,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -150769,7 +150769,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10301_a1",
         conditions = {
@@ -156238,7 +156238,7 @@ Ayah……Ibu……",
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASHTAROTH",
         cameraAction = 0,
         headL = "10301_a1",
         conditions = {

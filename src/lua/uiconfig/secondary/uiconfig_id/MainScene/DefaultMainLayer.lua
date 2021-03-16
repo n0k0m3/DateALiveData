@@ -6692,14 +6692,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "14",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "23",
+													height = "16",
 													ignoreSize = "True",
 													name = "Label_redpack_get",
 													nTextAlign = "1",
@@ -6715,7 +6715,7 @@ local t =
 													{
 														PositionY = -23,
 													},
-													width = "87",
+													width = "64",
 													ZOrder = "1",
 												},
 											},

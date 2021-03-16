@@ -141,7 +141,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -150,7 +150,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "选择一个国家",
+									text = "Select Country",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -158,7 +158,7 @@ local t =
 										PositionX = -137,
 										PositionY = 167,
 									},
-									width = "173",
+									width = "216",
 									ZOrder = "1",
 								},
 								{
@@ -305,7 +305,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "58",
+											width = "116",
 											ZOrder = "1",
 										},
 									},
@@ -450,7 +450,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "19",
+											height = "17",
 											ignoreSize = "True",
 											name = "Label_name_1",
 											nTextAlign = "1",
@@ -466,7 +466,7 @@ local t =
 											{
 												PositionX = -85,
 											},
-											width = "30",
+											width = "25",
 											ZOrder = "1",
 										},
 										{
@@ -495,7 +495,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "19",
+											height = "17",
 											ignoreSize = "True",
 											name = "Label_name_2",
 											nTextAlign = "1",
@@ -511,7 +511,7 @@ local t =
 											{
 												PositionX = 132,
 											},
-											width = "144",
+											width = "105",
 											ZOrder = "1",
 										},
 										{

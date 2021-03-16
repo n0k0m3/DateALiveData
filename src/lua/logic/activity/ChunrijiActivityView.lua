@@ -36,11 +36,13 @@ end
 
 function ChunrijiActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
-    local startDate = Utils:getLocalDate(self.activityInfo_.startTime)
+    local startDate = Utils:getUTCDate(self.activityInfo_.startTime , GV_UTC_TIME_ZONE)
     local startDateStr = startDate:fmt("%Y.%m.%d")
-    local endDate = Utils:getLocalDate(self.activityInfo_.endTime)
+    local endDate = Utils:getUTCDate(self.activityInfo_.endTime ,GV_UTC_TIME_ZONE)
     local endDateStr = endDate:fmt("%Y.%m.%d")
-    self.Label_time:setTextById(800041, startDateStr, endDateStr)
+    
+    self.Label_time:setText(TextDataMgr:getText(800041, startDateStr, endDateStr)..GV_UTC_TIME_STRING)
+
 
     if not self.cgView_ then
         local cg_cfg = TabDataMgr:getData("Cg")[self.activityInfo_.extendData.cg]
@@ -52,23 +54,45 @@ function ChunrijiActivityView:updateActivity()
         self.Panel_cg:addChild(cgView)
         self.cgView_ = cgView
     end
-    self.Label_tip:setText(self.activityInfo_.extendData.dec)
+    self.Label_tip:setText(Utils:MultiLanguageStringDeal(self.activityInfo_.extendData.dec))
 end
+
+-- function ChunrijiActivityView:registerEvents()
+--     EventMgr:addEventListener(self, EV_DFW_ENTER_MAIN, handler(self.onEnterDfwEvent, self))
+
+--     self.Button_goto:onClick(function()
+--             DfwDataMgr:send_SACRIFICE_REQ_SPRING_SACRIFICE()
+--     end)
+-- end
+
+-- function ChunrijiActivityView:onEnterDfwEvent()
+--     Utils:openView("dafuwong.DfwMainView")
+--     if self.activityInfo_.extendData.interDating then
+--         local key = "playDating"..self.activityInfo_.id.."player"..MainPlayer:getPlayerId()
+--         local string = CCUserDefault:sharedUserDefault():getStringForKey(key) 
+--         if string  ~= "false" then
+--             CCUserDefault:sharedUserDefault():setStringForKey(key,"true")
+--             FunctionDataMgr:jStartDating(self.activityInfo_.extendData.interDating)
+--         end
+--     end
+-- end
+
+--更改为秋日祭活动入口监听参数
 
 function ChunrijiActivityView:registerEvents()
     EventMgr:addEventListener(self, EV_DFW_ENTER_MAIN, handler(self.onEnterDfwEvent, self))
 
     self.Button_goto:onClick(function()
-            DfwDataMgr:send_SACRIFICE_REQ_SPRING_SACRIFICE()
+        DfwDataMgr:send_SACRIFICE_REQ_SPRING_SACRIFICE()
     end)
 end
 
 function ChunrijiActivityView:onEnterDfwEvent()
-    Utils:openView("dafuwong.DfwMainView")
+    Utils:openView("dfwautumn.DfwAutumnMainView")
     if self.activityInfo_.extendData.interDating then
         local key = "playDating"..self.activityInfo_.id.."player"..MainPlayer:getPlayerId()
-        local string = CCUserDefault:sharedUserDefault():getStringForKey(key) 
-        if string  ~= "false" then
+        local string = CCUserDefault:sharedUserDefault():getStringForKey(key)
+        if string ~= "true" then
             CCUserDefault:sharedUserDefault():setStringForKey(key,"true")
             FunctionDataMgr:jStartDating(self.activityInfo_.extendData.interDating)
         end

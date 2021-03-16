@@ -249,6 +249,31 @@ return {
             [2] = 60,
         },
     },
+    [1200012] = {
+        superType = 12,
+        order = 13,
+        exposedview = "icon/item/goods/1200012.png",
+        accessdes = "2470011",
+        skilltitle = "",
+        effectivetime = -1,
+        star = 5,
+        icon = "icon/item/goods/1200012.png",
+        quality = 1,
+        baseAttribute = {
+        },
+        id = 1200012,
+        baseskill = {
+        },
+        name = "2450011",
+        accessway = {
+        },
+        desTextId = 2460011,
+        MedalType = 2,
+        size = {
+            [1] = 55,
+            [2] = 60,
+        },
+    },
     [1200001] = {
         superType = 12,
         order = 1,

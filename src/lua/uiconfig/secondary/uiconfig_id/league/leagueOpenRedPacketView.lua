@@ -256,7 +256,7 @@ local t =
 											{
 												
 											},
-											width = "82",
+											width = "98",
 											ZOrder = "1",
 										},
 									},
@@ -280,15 +280,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_zhufuyu",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -303,7 +303,7 @@ local t =
 									{
 										PositionY = -30,
 									},
-									width = "219",
+									width = "250",
 									ZOrder = "1",
 								},
 								{
@@ -404,7 +404,7 @@ local t =
 										PositionX = -11,
 										PositionY = -72,
 									},
-									width = "61",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -557,7 +557,7 @@ local t =
 									{
 										PositionY = -192,
 									},
-									width = "143",
+									width = "197",
 									ZOrder = "1",
 								},
 							},

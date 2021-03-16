@@ -150,7 +150,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "选择一个国家",
+									text = "Select Country",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -158,7 +158,7 @@ local t =
 										PositionX = -137,
 										PositionY = 167,
 									},
-									width = "171",
+									width = "216",
 									ZOrder = "1",
 								},
 								{
@@ -511,7 +511,7 @@ local t =
 											{
 												PositionX = 132,
 											},
-											width = "99",
+											width = "105",
 											ZOrder = "1",
 										},
 										{

@@ -175,7 +175,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Give Chocolate",
+									text = "Send Chocolate",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -183,7 +183,7 @@ local t =
 										PositionX = -176,
 										PositionY = 217,
 									},
-									width = "220",
+									width = "227",
 									ZOrder = "1",
 								},
 								{

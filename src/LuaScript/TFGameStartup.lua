@@ -15,7 +15,7 @@ if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID  and HeitaoSdk and tonumber(Heitao
 end
 
 -- 如果是模拟器则直接打开调试模式
-if not CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+if not (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) then
     --非win32下只做日志输出
     Box = function( ... )
         print(...)

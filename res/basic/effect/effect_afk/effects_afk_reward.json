@@ -1,0 +1,96 @@
+{
+"skeleton": { "hash": "hALZCte48/5pZt3Ci2JBWCfYRn8", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "UI", "parent": "root" },
+	{ "name": "bian", "parent": "root" },
+	{ "name": "lizi", "parent": "root" }
+],
+"slots": [
+	{ "name": "images/reward/lizi/lizi_000", "bone": "lizi", "blend": "additive" },
+	{ "name": "images/reward/UI_000", "bone": "UI" },
+	{ "name": "images/reward/bian_000", "bone": "bian", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"images/reward/UI_000": {
+			"images/reward/UI_000": { "width": 75, "height": 66 }
+		},
+		"images/reward/bian_000": {
+			"images/reward/bian_000": { "width": 125, "height": 125 }
+		},
+		"images/reward/lizi/lizi_000": {
+			"images/reward/lizi/lizi_000": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_002": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_004": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_006": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_008": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_010": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_012": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_014": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_016": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_018": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_020": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_022": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_024": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_026": { "width": 125, "height": 125 },
+			"images/reward/lizi/lizi_028": { "width": 125, "height": 125 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/reward/UI_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/reward/UI_000" }
+				]
+			},
+			"images/reward/bian_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/reward/bian_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff45" },
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff45" },
+					{ "time": 0.7666, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff45" }
+				]
+			},
+			"images/reward/lizi/lizi_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/reward/lizi/lizi_000" },
+					{ "time": 0.0666, "name": "images/reward/lizi/lizi_002" },
+					{ "time": 0.1333, "name": "images/reward/lizi/lizi_004" },
+					{ "time": 0.2, "name": "images/reward/lizi/lizi_006" },
+					{ "time": 0.2666, "name": "images/reward/lizi/lizi_008" },
+					{ "time": 0.3333, "name": "images/reward/lizi/lizi_010" },
+					{ "time": 0.4, "name": "images/reward/lizi/lizi_012" },
+					{ "time": 0.4666, "name": "images/reward/lizi/lizi_014" },
+					{ "time": 0.5333, "name": "images/reward/lizi/lizi_016" },
+					{ "time": 0.6, "name": "images/reward/lizi/lizi_018" },
+					{ "time": 0.6666, "name": "images/reward/lizi/lizi_020" },
+					{ "time": 0.7333, "name": "images/reward/lizi/lizi_022" },
+					{ "time": 0.8, "name": "images/reward/lizi/lizi_024" },
+					{ "time": 0.8666, "name": "images/reward/lizi/lizi_026" },
+					{ "time": 0.9333, "name": "images/reward/lizi/lizi_028" },
+					{ "time": 1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bian": {
+				"translate": [
+					{ "time": 0, "x": -4.67, "y": -1.17 }
+				]
+			},
+			"UI": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 2.57 }
+				]
+			}
+		}
+	}
+}
+}

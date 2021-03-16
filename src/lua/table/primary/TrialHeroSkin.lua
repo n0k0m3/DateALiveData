@@ -83,7 +83,7 @@ return {
         smallType = 0,
         sellProfit = {
         },
-        fitting = false,
+        fitting = true,
         moveType = 0,
         totalMax = 1,
         convertMax = {
@@ -2088,7 +2088,7 @@ return {
         smallType = 0,
         sellProfit = {
         },
-        fitting = false,
+        fitting = true,
         moveType = 2,
         totalMax = 1,
         convertMax = {
@@ -2157,7 +2157,7 @@ return {
         smallType = 0,
         sellProfit = {
         },
-        fitting = false,
+        fitting = true,
         moveType = 2,
         totalMax = 1,
         convertMax = {

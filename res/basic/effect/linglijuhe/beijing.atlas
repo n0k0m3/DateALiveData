@@ -1,0 +1,41 @@
+
+beijing.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huaban1
+  rotate: false
+  xy: 2, 73
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+huaban5
+  rotate: false
+  xy: 2, 73
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+huaban2
+  rotate: false
+  xy: 43, 78
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+huaban3
+  rotate: false
+  xy: 2, 34
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+huaban4
+  rotate: false
+  xy: 2, 2
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1

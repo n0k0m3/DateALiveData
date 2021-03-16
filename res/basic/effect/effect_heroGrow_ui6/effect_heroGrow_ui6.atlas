@@ -1,83 +1,83 @@
 
 effect_heroGrow_ui6.png
-size: 512,512
+size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 kuang/kuang_00002
-  rotate: true
-  xy: 347, 354
-  size: 136, 143
-  orig: 225, 225
-  offset: 50, 47
+  rotate: false
+  xy: 2, 460
+  size: 181, 192
+  orig: 300, 300
+  offset: 67, 62
   index: -1
 kuang/kuang_00003
-  rotate: true
-  xy: 197, 354
-  size: 136, 148
-  orig: 225, 225
-  offset: 50, 45
+  rotate: false
+  xy: 261, 764
+  size: 181, 196
+  orig: 300, 300
+  offset: 67, 61
   index: -1
 kuang/kuang_00004
   rotate: false
-  xy: 2, 24
-  size: 129, 147
-  orig: 225, 225
-  offset: 53, 45
+  xy: 444, 765
+  size: 172, 195
+  orig: 300, 300
+  offset: 71, 61
   index: -1
 kuang/kuang_00006
   rotate: false
-  xy: 133, 46
-  size: 115, 125
-  orig: 225, 225
-  offset: 59, 55
+  xy: 618, 795
+  size: 152, 165
+  orig: 300, 300
+  offset: 79, 74
   index: -1
 kuang/kuang_00008
   rotate: false
-  xy: 110, 282
-  size: 85, 85
-  orig: 225, 225
-  offset: 70, 73
+  xy: 261, 649
+  size: 113, 113
+  orig: 300, 300
+  offset: 94, 97
   index: -1
 kuang/kuang_00010
-  rotate: true
-  xy: 2, 173
-  size: 194, 106
-  orig: 225, 225
-  offset: 16, 64
+  rotate: false
+  xy: 2, 654
+  size: 257, 142
+  orig: 300, 300
+  offset: 22, 85
   index: -1
 kuang/kuang_00012
   rotate: false
-  xy: 2, 369
-  size: 193, 121
-  orig: 225, 225
-  offset: 16, 54
+  xy: 2, 798
+  size: 257, 162
+  orig: 300, 300
+  offset: 22, 72
   index: -1
 kuang/kuang_00014
   rotate: false
-  xy: 225, 231
-  size: 119, 121
-  orig: 225, 225
-  offset: 54, 54
+  xy: 2, 296
+  size: 159, 162
+  orig: 300, 300
+  offset: 72, 72
   index: -1
 kuang/kuang_00016
   rotate: false
-  xy: 346, 236
-  size: 113, 116
-  orig: 225, 225
-  offset: 57, 57
+  xy: 2, 138
+  size: 151, 156
+  orig: 300, 300
+  offset: 76, 75
   index: -1
 kuang/kuang_00018
-  rotate: true
-  xy: 110, 173
-  size: 107, 113
-  orig: 225, 225
-  offset: 60, 57
+  rotate: false
+  xy: 772, 809
+  size: 143, 151
+  orig: 300, 300
+  offset: 80, 76
   index: -1
 kuang/kuang_00020
-  rotate: true
-  xy: 250, 126
-  size: 103, 100
-  orig: 225, 225
-  offset: 64, 64
+  rotate: false
+  xy: 2, 2
+  size: 137, 134
+  orig: 300, 300
+  offset: 85, 85
   index: -1

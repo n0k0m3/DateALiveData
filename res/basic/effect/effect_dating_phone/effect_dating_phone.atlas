@@ -27,42 +27,42 @@ repeat: none
   index: -1
 ICON
   rotate: true
-  xy: 64, 99
-  size: 41, 51
+  xy: 76, 146
+  size: 39, 49
   orig: 41, 51
-  offset: 0, 0
+  offset: 1, 1
   index: -1
 g_0
+  rotate: false
+  xy: 124, 188
+  size: 46, 61
+  orig: 46, 62
+  offset: 0, 0
+  index: -1
+g_1
   rotate: false
   xy: 76, 187
   size: 46, 62
   orig: 46, 62
   offset: 0, 0
   index: -1
-g_1
+g_2
   rotate: false
   xy: 2, 27
   size: 46, 62
   orig: 46, 62
   offset: 0, 0
   index: -1
-g_2
-  rotate: false
-  xy: 124, 187
-  size: 46, 62
-  orig: 46, 62
-  offset: 0, 0
-  index: -1
 g_3
-  rotate: true
-  xy: 76, 142
+  rotate: false
+  xy: 50, 28
   size: 43, 61
   orig: 43, 61
   offset: 0, 0
   index: -1
 g_4
-  rotate: false
-  xy: 139, 142
+  rotate: true
+  xy: 127, 156
   size: 30, 43
   orig: 30, 43
   offset: 0, 0

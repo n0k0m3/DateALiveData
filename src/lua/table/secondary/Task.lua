@@ -1861,7 +1861,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111101,
         extendsTaskId = 0,
         subType = 1,
@@ -2490,7 +2490,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111102,
         extendsTaskId = 0,
         subType = 1,
@@ -2992,7 +2992,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111103,
         extendsTaskId = 0,
         subType = 1,
@@ -3342,7 +3342,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111104,
         extendsTaskId = 0,
         subType = 1,
@@ -3594,7 +3594,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111105,
         extendsTaskId = 0,
         subType = 1,
@@ -3986,7 +3986,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111106,
         extendsTaskId = 0,
         subType = 1,
@@ -4424,7 +4424,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111107,
         extendsTaskId = 0,
         subType = 1,
@@ -4945,7 +4945,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111108,
         extendsTaskId = 0,
         subType = 1,
@@ -5513,7 +5513,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111109,
         extendsTaskId = 0,
         subType = 1,
@@ -5944,7 +5944,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111110,
         extendsTaskId = 0,
         subType = 1,
@@ -6442,7 +6442,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111111,
         extendsTaskId = 0,
         subType = 1,
@@ -6959,7 +6959,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111112,
         extendsTaskId = 0,
         subType = 1,
@@ -7411,7 +7411,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111113,
         extendsTaskId = 0,
         subType = 1,
@@ -8008,7 +8008,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111114,
         extendsTaskId = 0,
         subType = 1,
@@ -8462,7 +8462,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111115,
         extendsTaskId = 0,
         subType = 1,
@@ -9045,7 +9045,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111116,
         extendsTaskId = 0,
         subType = 1,
@@ -9492,7 +9492,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111117,
         extendsTaskId = 0,
         subType = 1,
@@ -9890,7 +9890,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111118,
         extendsTaskId = 0,
         subType = 1,
@@ -10417,7 +10417,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111119,
         extendsTaskId = 0,
         subType = 1,
@@ -11076,7 +11076,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111120,
         extendsTaskId = 0,
         subType = 1,
@@ -11743,7 +11743,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111121,
         extendsTaskId = 0,
         subType = 1,
@@ -12295,7 +12295,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121101,
         extendsTaskId = 0,
         subType = 1,
@@ -12390,7 +12390,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111122,
         extendsTaskId = 0,
         subType = 1,
@@ -12826,7 +12826,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121102,
         extendsTaskId = 0,
         subType = 1,
@@ -12921,7 +12921,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111123,
         extendsTaskId = 0,
         subType = 1,
@@ -13276,7 +13276,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121103,
         extendsTaskId = 0,
         subType = 1,
@@ -13368,7 +13368,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111124,
         extendsTaskId = 0,
         subType = 1,
@@ -13817,7 +13817,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121104,
         extendsTaskId = 0,
         subType = 1,
@@ -13909,7 +13909,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111125,
         extendsTaskId = 0,
         subType = 1,
@@ -14332,7 +14332,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121105,
         extendsTaskId = 0,
         subType = 1,
@@ -14380,7 +14380,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111126,
         extendsTaskId = 0,
         subType = 1,
@@ -14767,7 +14767,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121106,
         extendsTaskId = 0,
         subType = 1,
@@ -14815,7 +14815,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111127,
         extendsTaskId = 0,
         subType = 1,
@@ -15312,7 +15312,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121107,
         extendsTaskId = 0,
         subType = 1,
@@ -15360,7 +15360,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111128,
         extendsTaskId = 0,
         subType = 1,
@@ -15461,7 +15461,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131101,
         extendsTaskId = 0,
         subType = 1,
@@ -15719,7 +15719,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131102,
         extendsTaskId = 0,
         subType = 1,
@@ -15767,7 +15767,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121108,
         extendsTaskId = 0,
         subType = 1,
@@ -15863,7 +15863,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111129,
         extendsTaskId = 0,
         subType = 1,
@@ -15959,7 +15959,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131103,
         extendsTaskId = 0,
         subType = 1,
@@ -16260,7 +16260,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131104,
         extendsTaskId = 0,
         subType = 1,
@@ -16351,7 +16351,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121109,
         extendsTaskId = 0,
         subType = 1,
@@ -16447,7 +16447,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111130,
         extendsTaskId = 0,
         subType = 1,
@@ -16586,7 +16586,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131105,
         extendsTaskId = 0,
         subType = 1,
@@ -16881,7 +16881,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131106,
         extendsTaskId = 0,
         subType = 1,
@@ -16929,7 +16929,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121110,
         extendsTaskId = 0,
         subType = 1,
@@ -17025,7 +17025,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111131,
         extendsTaskId = 0,
         subType = 1,
@@ -17121,7 +17121,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131107,
         extendsTaskId = 0,
         subType = 1,
@@ -17373,7 +17373,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131108,
         extendsTaskId = 0,
         subType = 1,
@@ -17421,7 +17421,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121111,
         extendsTaskId = 0,
         subType = 1,
@@ -17517,7 +17517,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111132,
         extendsTaskId = 0,
         subType = 1,
@@ -17613,7 +17613,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131109,
         extendsTaskId = 0,
         subType = 1,
@@ -17868,7 +17868,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131110,
         extendsTaskId = 0,
         subType = 1,
@@ -17916,7 +17916,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121112,
         extendsTaskId = 0,
         subType = 1,
@@ -18012,7 +18012,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111133,
         extendsTaskId = 0,
         subType = 1,
@@ -18108,7 +18108,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131111,
         extendsTaskId = 0,
         subType = 1,
@@ -18344,7 +18344,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131112,
         extendsTaskId = 0,
         subType = 1,
@@ -18392,7 +18392,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121113,
         extendsTaskId = 0,
         subType = 1,
@@ -18488,7 +18488,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111134,
         extendsTaskId = 0,
         subType = 1,
@@ -18584,7 +18584,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131113,
         extendsTaskId = 0,
         subType = 1,
@@ -18728,7 +18728,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131114,
         extendsTaskId = 0,
         subType = 1,
@@ -18776,7 +18776,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121114,
         extendsTaskId = 0,
         subType = 1,
@@ -18872,7 +18872,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111135,
         extendsTaskId = 0,
         subType = 1,
@@ -18968,7 +18968,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131115,
         extendsTaskId = 0,
         subType = 1,
@@ -19259,7 +19259,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131116,
         extendsTaskId = 0,
         subType = 1,
@@ -19358,7 +19358,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121115,
         extendsTaskId = 0,
         subType = 1,
@@ -19454,7 +19454,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111136,
         extendsTaskId = 0,
         subType = 1,
@@ -19633,7 +19633,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131117,
         extendsTaskId = 0,
         subType = 1,
@@ -20012,7 +20012,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121116,
         extendsTaskId = 0,
         subType = 1,
@@ -20108,7 +20108,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111137,
         extendsTaskId = 0,
         subType = 1,
@@ -20485,7 +20485,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121117,
         extendsTaskId = 0,
         subType = 1,
@@ -20581,7 +20581,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111138,
         extendsTaskId = 0,
         subType = 1,
@@ -20925,7 +20925,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121118,
         extendsTaskId = 0,
         subType = 1,
@@ -21021,7 +21021,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111139,
         extendsTaskId = 0,
         subType = 1,
@@ -21451,7 +21451,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121119,
         extendsTaskId = 0,
         subType = 1,
@@ -21547,7 +21547,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111140,
         extendsTaskId = 0,
         subType = 1,
@@ -22000,7 +22000,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111141,
         extendsTaskId = 0,
         subType = 1,
@@ -22502,7 +22502,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111142,
         extendsTaskId = 0,
         subType = 1,
@@ -23004,7 +23004,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111143,
         extendsTaskId = 0,
         subType = 1,
@@ -23416,7 +23416,7 @@ return {
         colour2 = {
         },
         typeDes = "1330001",
-        open = false,
+        open = true,
         id = 111144,
         extendsTaskId = 0,
         subType = 1,
@@ -23720,7 +23720,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121124,
         extendsTaskId = 0,
         subType = 1,
@@ -24252,7 +24252,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121125,
         extendsTaskId = 0,
         subType = 1,
@@ -24702,7 +24702,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121126,
         extendsTaskId = 0,
         subType = 1,
@@ -25234,7 +25234,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121127,
         extendsTaskId = 0,
         subType = 1,
@@ -25758,7 +25758,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121128,
         extendsTaskId = 0,
         subType = 1,
@@ -26288,7 +26288,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121129,
         extendsTaskId = 0,
         subType = 1,
@@ -26814,7 +26814,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121130,
         extendsTaskId = 0,
         subType = 1,
@@ -79019,7 +79019,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121120,
         extendsTaskId = 0,
         subType = 1,
@@ -79110,7 +79110,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 131118,
         extendsTaskId = 0,
         subType = 1,
@@ -79158,7 +79158,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121121,
         extendsTaskId = 0,
         subType = 1,
@@ -79539,7 +79539,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121122,
         extendsTaskId = 0,
         subType = 1,
@@ -79630,7 +79630,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 121123,
         extendsTaskId = 0,
         subType = 1,
@@ -80312,7 +80312,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 191011,
         extendsTaskId = 0,
         subType = 2,

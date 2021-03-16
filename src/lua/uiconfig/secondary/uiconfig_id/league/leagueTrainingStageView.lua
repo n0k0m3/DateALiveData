@@ -169,7 +169,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -185,7 +185,7 @@ local t =
 									{
 										PositionY = 217,
 									},
-									width = "114",
+									width = "188",
 									ZOrder = "1",
 								},
 								{
@@ -302,7 +302,7 @@ local t =
 										IsPercent = true,
 										PercentY = 35,
 									},
-									width = "204",
+									width = "206",
 									ZOrder = "1",
 								},
 							},
@@ -458,18 +458,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -481,7 +481,7 @@ local t =
 									{
 										PositionX = -305,
 									},
-									width = "92",
+									width = "330",
 									ZOrder = "1",
 								},
 								{
@@ -620,7 +620,7 @@ local t =
 											{
 												
 											},
-											width = "90",
+											width = "123",
 											ZOrder = "1",
 										},
 									},
@@ -675,14 +675,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFFFC0CB",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_ing",
 											nTextAlign = "1",
@@ -698,7 +698,7 @@ local t =
 											{
 												
 											},
-											width = "70",
+											width = "112",
 											ZOrder = "1",
 										},
 									},
@@ -777,7 +777,7 @@ local t =
 											{
 												
 											},
-											width = "69",
+											width = "128",
 											ZOrder = "1",
 										},
 									},

@@ -7643,14 +7643,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "14",
+											fontSize = "13",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "40",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_zhufuyu",
 											nTextAlign = "1",
@@ -7667,7 +7667,7 @@ local t =
 												PositionX = -62,
 												PositionY = 57,
 											},
-											width = "83",
+											width = "120",
 											ZOrder = "1",
 										},
 										{
@@ -7696,8 +7696,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "18",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_check",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -7713,7 +7713,7 @@ local t =
 												PositionX = -62,
 												PositionY = 18,
 											},
-											width = "135",
+											width = "120",
 											ZOrder = "1",
 										},
 										{
@@ -8643,8 +8643,8 @@ local t =
 					touchAble = "True",
 					UILayoutViewModel = 
 					{
-						PositionX = 338,
-						PositionY = -882,
+						PositionX = 337,
+						PositionY = -881,
 						LeftPositon = 100,
 						TopPosition = 1500,
 						relativeToName = "Panel",

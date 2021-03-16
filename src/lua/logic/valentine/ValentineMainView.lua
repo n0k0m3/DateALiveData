@@ -47,6 +47,26 @@ function ValentineMainView:initUI(ui)
     self.collapseY_ = -GameConfig.WS.height * 0.5 - rankSize.height
     self.expandY_ = self.Panel_rank:getPosition().y
 
+    self.Button_store = TFButton:create("ui/valentine/aid/011.png") --TFButton:create("ui/store/new_ui/icon31.png")
+    local Image_store = TFImage:create("ui/store/new_ui/icon31.png")
+    self.Button_store:addChild(Image_store)
+    Image_store:setPositionY(10)
+    self.Panel_root:addChild(self.Button_store , 1)
+    self.Button_store:setPosition(477 , 150)
+    self.Button_store:onClick(function( ... )
+        FunctionDataMgr:jStore(551000)
+    end)
+
+    local label_store = TFLabel:create()
+    label_store:setTextById(13410002)
+    label_store:setAnchorPoint(ccp(0.5 , 0.5))
+    label_store:setPositionY(-20)
+    label_store:setFontName("font/fangzheng_zhunyuan.ttf")
+    label_store:setFontSize(22)
+    --label_store:setFontColor(ccc3(222 , 82 , 85))
+    --label_store:enableOutline(ccc3(0 , 0 , 0) , 2)
+    self.Button_store:addChild(label_store)
+
     self:refreshView()
 end
 

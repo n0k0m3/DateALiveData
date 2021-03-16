@@ -244,7 +244,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -268,7 +268,7 @@ local t =
 										PositionX = 19,
 										PositionY = 540,
 									},
-									width = "171",
+									width = "190",
 									ZOrder = "1",
 									components = 
 									{
@@ -558,7 +558,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -604,15 +604,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_revertTime",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -631,7 +631,7 @@ local t =
 										PercentX = 50,
 										PercentY = 40,
 									},
-									width = "216",
+									width = "300",
 									ZOrder = "1",
 								},
 								{
@@ -714,7 +714,7 @@ local t =
 												PositionX = 20,
 												PositionY = 100,
 											},
-											width = "234",
+											width = "252",
 											ZOrder = "1",
 											components = 
 											{
@@ -861,7 +861,7 @@ local t =
 											{
 												
 											},
-											width = "144",
+											width = "137",
 											ZOrder = "1",
 										},
 									},
@@ -941,7 +941,7 @@ local t =
 											{
 												
 											},
-											width = "200",
+											width = "189",
 											ZOrder = "1",
 										},
 										{
@@ -1043,7 +1043,7 @@ local t =
 											{
 												
 											},
-											width = "88",
+											width = "89",
 											ZOrder = "1",
 										},
 									},
@@ -1266,7 +1266,7 @@ local t =
 										PositionX = -278,
 										PositionY = -43,
 									},
-									width = "154",
+									width = "169",
 									ZOrder = "1",
 								},
 								{
@@ -1482,7 +1482,7 @@ local t =
 										PositionX = 37,
 										PositionY = -27,
 									},
-									width = "145",
+									width = "154",
 									ZOrder = "1",
 								},
 								{
@@ -2190,7 +2190,7 @@ local t =
 												PositionX = -1,
 												PositionY = -2,
 											},
-											width = "58",
+											width = "57",
 											ZOrder = "1",
 										},
 									},

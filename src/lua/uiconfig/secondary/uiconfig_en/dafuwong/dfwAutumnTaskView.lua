@@ -165,15 +165,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_refresh",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -188,7 +188,7 @@ local t =
 									{
 										
 									},
-									width = "56",
+									width = "120",
 									ZOrder = "1",
 								},
 							},
@@ -338,7 +338,7 @@ local t =
 										PositionX = -4,
 										PositionY = -2,
 									},
-									width = "37",
+									width = "41",
 									ZOrder = "1",
 								},
 							},
@@ -577,15 +577,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -598,9 +598,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 190,
+										PositionY = 192,
 									},
-									width = "100",
+									width = "180",
 									ZOrder = "1",
 								},
 								{
@@ -622,15 +622,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_get_reward",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -645,7 +645,7 @@ local t =
 									{
 										PositionY = 150,
 									},
-									width = "90",
+									width = "260",
 									ZOrder = "1",
 								},
 								{
@@ -667,14 +667,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "50",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_tips",
 									nTextAlign = "0",
@@ -688,7 +688,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -21,
+										PositionY = -1,
 									},
 									width = "250",
 									ZOrder = "1",
@@ -744,15 +744,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_receive",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -767,7 +767,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "51",
+											width = "120",
 											ZOrder = "1",
 										},
 									},
@@ -791,15 +791,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_geted",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -815,7 +815,7 @@ local t =
 										PositionY = -183,
 									},
 									visible = "False",
-									width = "75",
+									width = "120",
 									ZOrder = "1",
 								},
 								{

@@ -1,0 +1,34 @@
+
+equipment_satr_diamond.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/huang
+  rotate: false
+  xy: 2, 4
+  size: 33, 51
+  orig: 33, 51
+  offset: 0, 0
+  index: -1
+images/huangda
+  rotate: false
+  xy: 2, 57
+  size: 41, 64
+  orig: 41, 64
+  offset: 0, 0
+  index: -1
+images/zi
+  rotate: false
+  xy: 88, 70
+  size: 33, 51
+  orig: 33, 51
+  offset: 0, 0
+  index: -1
+images/zida
+  rotate: false
+  xy: 45, 57
+  size: 41, 64
+  orig: 41, 64
+  offset: 0, 0
+  index: -1

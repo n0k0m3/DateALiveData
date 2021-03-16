@@ -9,6 +9,8 @@ end
 function JoinLeagueLayer:initData()
    self.searchState = false
    self.filterState = false
+   self.isShowUnionDetails = false
+   self.isCanRefresh = true
 end
 
 function JoinLeagueLayer:initUI(ui)
@@ -47,6 +49,10 @@ end
 
 function JoinLeagueLayer:onShow()
     self.super.onShow(self)
+    if not self.isCanRefresh then 
+        self.isCanRefresh = true
+        return 
+    end
     LeagueDataMgr:queryUnionList()
 end
 
@@ -82,23 +88,30 @@ function JoinLeagueLayer:refreshLeagueList()
     end
 end
 
-function JoinLeagueLayer:refreshSearchUnion()
-    self.searchState = true
-    local union = LeagueDataMgr:getSearchOutUnion()
-    if union then
-        self.ScrollView_league:removeAllItems()
-        if self.filterState then
-            if union.canApply and MainPlayer:getPlayerLv() >= union.limitLevel and union.memberCount < union.memberCountMax then 
+function JoinLeagueLayer:refreshSearchUnion(data)
+    if self.isShowUnionDetails then
+         Utils:openView("league.LeagueSnapInfoView", data.union)
+         self.isShowUnionDetails = false
+         self.isCanRefresh = false
+    else
+        self.searchState = true
+        local union = LeagueDataMgr:getSearchOutUnion()
+        if union then
+            self.ScrollView_league:removeAllItems()
+            if self.filterState then
+                if union.canApply and MainPlayer:getPlayerLv() >= union.limitLevel and union.memberCount < union.memberCountMax then 
+                    local item = self.Panel_league_item:clone()
+                    self:updateLeagueItem(item, union)
+                    self.ScrollView_league:pushBackCustomItem(item)
+                end
+            else
                 local item = self.Panel_league_item:clone()
                 self:updateLeagueItem(item, union)
                 self.ScrollView_league:pushBackCustomItem(item)
             end
-        else
-            local item = self.Panel_league_item:clone()
-            self:updateLeagueItem(item, union)
-            self.ScrollView_league:pushBackCustomItem(item)
         end
     end
+    
 end
 
 function JoinLeagueLayer:refreshContentUI()
@@ -120,6 +133,20 @@ function JoinLeagueLayer:updateLeagueItem(item, data)
     local Button_aply = TFDirector:getChildByPath(item, "Button_aply")
     local Button_join = TFDirector:getChildByPath(item, "Button_join")
     local Label_aplied = TFDirector:getChildByPath(item, "Label_aplied")
+
+    local clickFunc = function ( ... )
+        self.isShowUnionDetails = true
+        LeagueDataMgr:SearchUnion(data.id)
+    end
+    if not item.Button_detail then
+        item.Button_detail = TFButton:create("ui/mainLayer/rank_notice/img_2.png")
+        item:addChild(item.Button_detail , 1)
+        item.Button_detail:setPosition(220 ,8)
+        item.Button_detail:onClick(clickFunc)
+    end
+
+    
+    
 
 
     local countryStr = ""
@@ -198,7 +225,7 @@ function JoinLeagueLayer:registerEvents()
     EventMgr:addEventListener(self, EV_UNION_APPLY_JOIN_UNION, handler(self.refreshContentUI, self))
     EventMgr:addEventListener(self, EV_UNION_FAST_JOIN_UNION, handler(self.joinUnionSuccess, self))
     EventMgr:addEventListener(self, EV_UNION_BASE_INFO_UPDATE, handler(self.joinUnionSuccess, self))
-    
+
 
     local function onTextFieldChangedHandleAcc(input)
         local text = input:getText()

@@ -51,7 +51,7 @@ function PushGiftView:initUI(ui)
     self.btn_pay = TFDirector:getChildByPath(ui,"btn_pay")
 	self.nodeGift = TFDirector:getChildByPath(ui,"gifts")
 	self.ImgCost = TFDirector:getChildByPath(ui,"ImgCost")
-	self.imageDiscountTag = TFDirector:getChildByPath(ui,"imageDiscountTag")
+	self.imageDiscountTag = TFDirector:getChildByPath(ui,"ImageDiscountTag")
 
     self:refresView()
 

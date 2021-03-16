@@ -558,7 +558,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -2190,7 +2190,7 @@ local t =
 												PositionX = -1,
 												PositionY = -2,
 											},
-											width = "58",
+											width = "57",
 											ZOrder = "1",
 										},
 									},

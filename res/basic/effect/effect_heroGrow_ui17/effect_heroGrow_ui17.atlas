@@ -6,29 +6,29 @@ filter: Linear,Linear
 repeat: none
 di_00000
   rotate: false
-  xy: 2, 74
-  size: 77, 52
-  orig: 114, 75
-  offset: 18, 10
+  xy: 2, 50
+  size: 102, 69
+  orig: 152, 100
+  offset: 24, 14
   index: -1
 mian_00000
   rotate: false
-  xy: 2, 39
-  size: 53, 33
-  orig: 75, 38
-  offset: 11, 5
+  xy: 2, 5
+  size: 70, 43
+  orig: 100, 50
+  offset: 15, 7
   index: -1
 zimu_00000
-  rotate: false
-  xy: 81, 115
-  size: 45, 11
-  orig: 75, 38
-  offset: 15, 13
+  rotate: true
+  xy: 106, 60
+  size: 59, 13
+  orig: 100, 50
+  offset: 21, 18
   index: -1
 zuibian_00000
   rotate: false
-  xy: 2, 9
-  size: 19, 28
-  orig: 38, 38
-  offset: 10, 6
+  xy: 74, 12
+  size: 24, 36
+  orig: 50, 50
+  offset: 14, 8
   index: -1

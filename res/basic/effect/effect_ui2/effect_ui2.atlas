@@ -1,97 +1,97 @@
 
 effect_ui2.png
-size: 512,512
+size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 images/jingyantiao_00109
   rotate: false
-  xy: 229, 196
-  size: 193, 24
-  orig: 203, 38
-  offset: 5, 8
+  xy: 2, 411
+  size: 256, 32
+  orig: 270, 50
+  offset: 7, 10
   index: -1
 images/lizi/lizi_00060
   rotate: false
-  xy: 2, 143
-  size: 225, 56
-  orig: 225, 75
+  xy: 2, 575
+  size: 300, 75
+  orig: 300, 100
   offset: 0, 0
   index: -1
 images/lizi/lizi_00061
   rotate: false
-  xy: 2, 391
-  size: 225, 63
-  orig: 225, 75
+  xy: 2, 822
+  size: 300, 84
+  orig: 300, 100
   offset: 0, 0
   index: -1
 images/lizi/lizi_00062
   rotate: false
-  xy: 2, 326
-  size: 225, 63
-  orig: 225, 75
-  offset: 0, 6
+  xy: 2, 736
+  size: 300, 84
+  orig: 300, 100
+  offset: 0, 8
   index: -1
 images/lizi/lizi_00063
   rotate: false
-  xy: 229, 392
-  size: 225, 62
-  orig: 225, 75
-  offset: 0, 9
+  xy: 304, 824
+  size: 300, 82
+  orig: 300, 100
+  offset: 0, 12
   index: -1
 images/lizi/lizi_00064
   rotate: false
-  xy: 2, 262
-  size: 225, 62
-  orig: 225, 75
-  offset: 0, 11
+  xy: 2, 652
+  size: 300, 82
+  orig: 300, 100
+  offset: 0, 15
   index: -1
 images/lizi/lizi_00065
   rotate: false
-  xy: 229, 329
-  size: 224, 61
-  orig: 225, 75
-  offset: 1, 13
+  xy: 304, 742
+  size: 298, 80
+  orig: 300, 100
+  offset: 2, 18
   index: -1
 images/lizi/lizi_00066
   rotate: false
-  xy: 2, 201
-  size: 225, 59
-  orig: 225, 75
-  offset: 0, 16
+  xy: 606, 828
+  size: 300, 78
+  orig: 300, 100
+  offset: 0, 22
   index: -1
 images/lizi/lizi_00067
   rotate: false
-  xy: 229, 271
-  size: 222, 56
-  orig: 225, 75
-  offset: 3, 19
+  xy: 304, 666
+  size: 296, 74
+  orig: 300, 100
+  offset: 4, 26
   index: -1
 images/lizi/lizi_00068
   rotate: false
-  xy: 2, 88
-  size: 214, 53
-  orig: 225, 75
-  offset: 10, 22
+  xy: 2, 502
+  size: 285, 71
+  orig: 300, 100
+  offset: 14, 29
   index: -1
 images/lizi/lizi_00069
   rotate: false
-  xy: 229, 222
-  size: 213, 47
-  orig: 225, 75
-  offset: 10, 28
+  xy: 304, 601
+  size: 283, 63
+  orig: 300, 100
+  offset: 14, 37
   index: -1
 images/lizi/lizi_00070
   rotate: false
-  xy: 2, 44
-  size: 212, 42
-  orig: 225, 75
-  offset: 11, 31
+  xy: 2, 445
+  size: 284, 55
+  orig: 300, 100
+  offset: 14, 42
   index: -1
 images/lizi/lizi_00071
   rotate: false
-  xy: 2, 13
-  size: 179, 29
-  orig: 225, 75
-  offset: 35, 43
+  xy: 2, 367
+  size: 238, 42
+  orig: 300, 100
+  offset: 47, 53
   index: -1

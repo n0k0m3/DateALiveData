@@ -1,131 +1,131 @@
 
 equipment_satr_low.png
-size: 1024,1024
+size: 1024,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 jia
   rotate: false
-  xy: 248, 547
+  xy: 248, 11
   size: 15, 15
   orig: 16, 16
   offset: 1, 0
   index: -1
 kuang/kuang_00004
   rotate: false
-  xy: 2, 768
+  xy: 2, 250
   size: 244, 246
   orig: 286, 284
   offset: 21, 15
   index: -1
 kuang/kuang_00005
   rotate: false
-  xy: 2, 520
+  xy: 2, 2
   size: 244, 246
   orig: 286, 284
   offset: 21, 15
   index: -1
 kuang/kuang_00006
   rotate: false
-  xy: 248, 776
+  xy: 248, 258
   size: 238, 238
   orig: 286, 284
   offset: 23, 19
   index: -1
 kuang/kuang_00007
   rotate: false
-  xy: 2, 290
+  xy: 248, 28
   size: 226, 228
   orig: 286, 284
   offset: 29, 24
   index: -1
 kuang/kuang_00008
   rotate: false
-  xy: 2, 290
+  xy: 248, 28
   size: 226, 228
   orig: 286, 284
   offset: 29, 24
   index: -1
 kuang/kuang_00009
   rotate: false
-  xy: 248, 564
+  xy: 488, 286
   size: 209, 210
   orig: 286, 284
   offset: 38, 33
   index: -1
 kuang/kuang_00010
   rotate: false
-  xy: 488, 851
+  xy: 699, 333
   size: 160, 163
   orig: 286, 284
   offset: 63, 55
   index: -1
 kuang/kuang_00011
   rotate: false
-  xy: 488, 851
+  xy: 699, 333
   size: 160, 163
   orig: 286, 284
   offset: 63, 55
   index: -1
 kuang/kuang_00012
   rotate: false
-  xy: 2, 157
+  xy: 861, 365
   size: 129, 131
   orig: 286, 284
   offset: 80, 71
   index: -1
 kuang/kuang_00013
-  rotate: false
-  xy: 650, 886
+  rotate: true
+  xy: 699, 205
   size: 126, 128
   orig: 286, 284
   offset: 82, 74
   index: -1
 kuang/kuang_00014
-  rotate: false
-  xy: 650, 886
+  rotate: true
+  xy: 699, 205
   size: 126, 128
   orig: 286, 284
   offset: 82, 74
   index: -1
 kuang/kuang_00015
   rotate: false
-  xy: 2, 33
+  xy: 861, 241
   size: 122, 122
   orig: 286, 284
   offset: 83, 78
   index: -1
 kuang/kuang_00016
   rotate: false
-  xy: 778, 895
+  xy: 488, 165
   size: 119, 119
   orig: 286, 284
   offset: 85, 77
   index: -1
 kuang/kuang_00017
   rotate: false
-  xy: 778, 895
+  xy: 488, 165
   size: 119, 119
   orig: 286, 284
   offset: 85, 77
   index: -1
 kuang/kuang_00018
   rotate: false
-  xy: 899, 900
+  xy: 476, 49
   size: 115, 114
   orig: 286, 284
   offset: 87, 80
   index: -1
 kuang/kuang_00019
   rotate: false
-  xy: 133, 175
+  xy: 593, 50
   size: 112, 113
   orig: 286, 284
   offset: 89, 80
   index: -1
 kuang/kuang_00020
   rotate: false
-  xy: 133, 175
+  xy: 593, 50
   size: 112, 113
   orig: 286, 284
   offset: 89, 80

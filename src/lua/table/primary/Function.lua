@@ -1701,8 +1701,6 @@ return {
         stingerDating = "",
         name = "",
         unlockExplain = {
-            [1] = 2,
-            [2] = 270420,
         },
         icon = "",
         levelType = 2,
@@ -1721,8 +1719,6 @@ return {
         stingerDating = "",
         name = "",
         unlockExplain = {
-            [1] = 2,
-            [2] = 270420,
         },
         icon = "",
         levelType = 2,
@@ -1741,8 +1737,6 @@ return {
         stingerDating = "",
         name = "",
         unlockExplain = {
-            [1] = 2,
-            [2] = 270420,
         },
         icon = "",
         levelType = 2,
@@ -1761,8 +1755,6 @@ return {
         stingerDating = "",
         name = "",
         unlockExplain = {
-            [1] = 2,
-            [2] = 270420,
         },
         icon = "",
         levelType = 2,
@@ -1781,8 +1773,6 @@ return {
         stingerDating = "",
         name = "",
         unlockExplain = {
-            [1] = 2,
-            [2] = 270420,
         },
         icon = "",
         levelType = 2,
@@ -1842,7 +1832,7 @@ return {
         name = "",
         unlockExplain = {
             [1] = 2,
-            [2] = 270420,
+            [2] = 270462,
         },
         icon = "",
         levelType = 2,

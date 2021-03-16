@@ -165,7 +165,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -182,7 +182,7 @@ local t =
 										PositionX = -134,
 										PositionY = 219,
 									},
-									width = "115",
+									width = "257",
 									ZOrder = "1",
 								},
 								{
@@ -383,15 +383,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "19",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_gift",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -406,7 +406,7 @@ local t =
 											{
 												
 											},
-											width = "112",
+											width = "120",
 											ZOrder = "1",
 										},
 									},

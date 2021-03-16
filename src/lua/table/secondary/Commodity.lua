@@ -4879,19 +4879,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [101406] = {
+    [401401] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 20,
-        grid = 14,
+        order = 4,
+        grid = 4,
         priceVal = {
-            [1] = 25000,
+            [1] = 500,
         },
         buyBeginTime = {
         },
-        storeId = 100000,
-        weight = 1250,
+        storeId = 401000,
+        weight = 1,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -4900,21 +4900,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 101406,
+        id = 401401,
         sellTimeType = 1,
         priceType = {
-            [1] = 500001,
+            [1] = 500002,
         },
         goods = {
-            [510238] = 1,
+            [599703] = 1,
         },
         showBeginTime = "",
-        openContVal = 50,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 3,
+        limitVal = 1,
         des = "",
     },
     [203804] = {
@@ -7156,7 +7156,7 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 30,
+        limitVal = 99,
         des = "",
     },
     [555002] = {
@@ -7232,7 +7232,7 @@ return {
         sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 7,
+        limitVal = 14,
         des = "",
     },
     [555004] = {
@@ -7270,7 +7270,7 @@ return {
         sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 3,
+        limitVal = 6,
         des = "",
     },
     [555005] = {
@@ -7553,8 +7553,8 @@ return {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 11,
-        grid = 11,
+        order = 25,
+        grid = 25,
         priceVal = {
             [1] = 600,
         },
@@ -8277,10 +8277,10 @@ return {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 25,
-        grid = 25,
+        order = 11,
+        grid = 11,
         priceVal = {
-            [1] = 500,
+            [1] = 3,
         },
         buyBeginTime = {
         },
@@ -8297,10 +8297,10 @@ return {
         id = 555023,
         sellTimeType = 1,
         priceType = {
-            [1] = 580229,
+            [1] = 580243,
         },
         goods = {
-            [599607] = 1,
+            [410212] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -8432,7 +8432,7 @@ return {
         order = 8,
         grid = 8,
         priceVal = {
-            [1] = 667,
+            [1] = 6,
         },
         buyBeginTime = {
         },
@@ -8454,10 +8454,10 @@ return {
         id = 555025,
         sellTimeType = 1,
         priceType = {
-            [1] = 580229,
+            [1] = 580242,
         },
         goods = {
-            [410115] = 1,
+            [410109] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -8503,7 +8503,7 @@ return {
         sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 2,
+        limitVal = 4,
         des = "",
     },
     [555027] = {
@@ -10616,39 +10616,46 @@ return {
         limitVal = 1,
         des = "",
     },
-    [150611] = {
+    [510003] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 13,
-        grid = 13,
+        order = 3,
+        grid = 1,
         priceVal = {
-            [1] = 60,
+            [1] = 2000,
         },
         buyBeginTime = {
         },
-        storeId = 150000,
-        weight = 630,
-        limitType = 1,
+        storeId = 510000,
+        weight = 1000,
+        limitType = 3,
         openContType = 1,
         ext = {
+            date = "11月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104603,
+                },
+            },
+            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 150611,
+        id = 510003,
         sellTimeType = 1,
         priceType = {
-            [1] = 500018,
+            [1] = 500075,
         },
         goods = {
-            [535242] = 1,
+            [410305] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -10658,11 +10665,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 2,
         grid = 1,
@@ -10671,11 +10678,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -10695,11 +10702,11 @@ return {
         goods = {
             [300019] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 1,
         des = "",
@@ -10746,11 +10753,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 3,
         grid = 1,
@@ -10759,11 +10766,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -10783,11 +10790,11 @@ return {
         goods = {
             [300020] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 1,
         des = "",
@@ -10841,11 +10848,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 4,
         grid = 1,
@@ -10854,11 +10861,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -10878,11 +10885,11 @@ return {
         goods = {
             [300021] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 1,
         des = "",
@@ -10891,11 +10898,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 5,
         grid = 1,
@@ -10904,11 +10911,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -10928,48 +10935,55 @@ return {
         goods = {
             [300022] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [150612] = {
+    [510005] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 13,
-        grid = 13,
+        order = 7,
+        grid = 1,
         priceVal = {
-            [1] = 10,
+            [1] = 2000,
         },
         buyBeginTime = {
         },
-        storeId = 150000,
-        weight = 310,
-        limitType = 1,
+        storeId = 510000,
+        weight = 1000,
+        limitType = 3,
         openContType = 1,
         ext = {
+            date = "2月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104607,
+                },
+            },
+            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 150612,
+        id = 510005,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 500075,
         },
         goods = {
-            [535243] = 1,
+            [410211] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -10979,11 +10993,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 6,
         grid = 1,
@@ -10992,11 +11006,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -11016,11 +11030,11 @@ return {
         goods = {
             [300023] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 1,
         des = "",
@@ -11067,11 +11081,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 7,
         grid = 1,
@@ -11080,11 +11094,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -11104,11 +11118,11 @@ return {
         goods = {
             [300024] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 1,
         des = "",
@@ -11162,11 +11176,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 8,
         grid = 1,
@@ -11175,11 +11189,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -11199,11 +11213,11 @@ return {
         goods = {
             [300025] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 1,
         des = "",
@@ -11212,11 +11226,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 9,
         grid = 1,
@@ -11225,11 +11239,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -11249,48 +11263,55 @@ return {
         goods = {
             [240009] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 30,
         des = "",
     },
-    [150613] = {
+    [510007] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 13,
-        grid = 13,
+        order = 10,
+        grid = 1,
         priceVal = {
-            [1] = 100,
+            [1] = 2000,
         },
         buyBeginTime = {
         },
-        storeId = 150000,
-        weight = 400,
-        limitType = 1,
+        storeId = 510000,
+        weight = 1000,
+        limitType = 3,
         openContType = 1,
         ext = {
+            date = "3月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104609,
+                },
+            },
+            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 150613,
+        id = 510007,
         sellTimeType = 1,
         priceType = {
-            [1] = 500018,
+            [1] = 500075,
         },
         goods = {
-            [535253] = 1,
+            [410212] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -11300,11 +11321,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 10,
         grid = 1,
@@ -11313,11 +11334,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -11337,11 +11358,11 @@ return {
         goods = {
             [520258] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 15,
         des = "",
@@ -11388,11 +11409,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 11,
         grid = 1,
@@ -11401,11 +11422,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -11425,11 +11446,11 @@ return {
         goods = {
             [520033] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 15,
         des = "",
@@ -11476,11 +11497,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 12,
         grid = 1,
@@ -11489,11 +11510,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -11513,11 +11534,11 @@ return {
         goods = {
             [520049] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 3,
         des = "",
@@ -11526,11 +11547,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 13,
         grid = 1,
@@ -11539,11 +11560,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -11563,55 +11584,48 @@ return {
         goods = {
             [522004] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 3,
         des = "",
     },
-    [510009] = {
+    [150614] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 15,
-        grid = 1,
+        order = 13,
+        grid = 13,
         priceVal = {
-            [1] = 2000,
+            [1] = 15,
         },
         buyBeginTime = {
         },
-        storeId = 510000,
-        weight = 1000,
-        limitType = 3,
+        storeId = 150000,
+        weight = 200,
+        limitType = 1,
         openContType = 1,
         ext = {
-            date = "5月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104611,
-                },
-            },
-            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 510009,
+        id = 150614,
         sellTimeType = 1,
         priceType = {
-            [1] = 500075,
+            [1] = 500002,
         },
         goods = {
-            [410508] = 1,
+            [535254] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -11621,11 +11635,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 14,
         grid = 1,
@@ -11634,11 +11648,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -11658,11 +11672,11 @@ return {
         goods = {
             [521005] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 3,
         des = "",
@@ -11709,11 +11723,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 15,
         grid = 1,
@@ -11722,11 +11736,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -11746,11 +11760,11 @@ return {
         goods = {
             [599604] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 5,
         des = "",
@@ -11804,11 +11818,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 16,
         grid = 1,
@@ -11817,11 +11831,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -11841,11 +11855,11 @@ return {
         goods = {
             [599605] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 1,
         des = "",
@@ -11904,11 +11918,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 17,
         grid = 1,
@@ -11917,11 +11931,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -11941,11 +11955,11 @@ return {
         goods = {
             [520031] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 50,
         des = "",
@@ -11992,11 +12006,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 18,
         grid = 1,
@@ -12005,11 +12019,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -12029,11 +12043,11 @@ return {
         goods = {
             [520032] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 40,
         des = "",
@@ -12080,11 +12094,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 19,
         grid = 1,
@@ -12093,11 +12107,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -12117,11 +12131,11 @@ return {
         goods = {
             [551111] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 30,
         des = "",
@@ -12175,11 +12189,11 @@ return {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 23,
+            day = 19,
         },
         order = 20,
         grid = 1,
@@ -12188,11 +12202,11 @@ return {
         },
         buyBeginTime = {
             min = 0,
-            year = 2020,
-            month = 2,
+            year = 2021,
+            month = 3,
             sec = 0,
             hour = 0,
-            day = 14,
+            day = 10,
         },
         storeId = 551000,
         weight = 10000,
@@ -12212,28 +12226,40 @@ return {
         goods = {
             [520064] = 1,
         },
-        showBeginTime = "2020-02-14 00:00:00",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
         limitVal = 40,
         des = "",
     },
-    [150104] = {
-        batchBuy = false,
+    [551020] = {
+        batchBuy = true,
         buyEndTime = {
+            min = 59,
+            year = 2021,
+            month = 3,
+            sec = 59,
+            hour = 23,
+            day = 19,
         },
-        order = 2,
-        grid = 2,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 6,
+            [1] = 50,
         },
         buyBeginTime = {
+            min = 0,
+            year = 2021,
+            month = 3,
+            sec = 0,
+            hour = 0,
+            day = 10,
         },
-        storeId = 150000,
-        weight = 600,
+        storeId = 551000,
+        weight = 10000,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -12242,63 +12268,56 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 150104,
+        id = 551020,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [534022] = 1,
+            [580312] = 50,
         },
-        showBeginTime = "",
+        showBeginTime = "2021-03-10 00:00:00",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "",
+        showEndTime = "2021-03-19 23:59:59",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 999,
         des = "",
     },
-    [510013] = {
+    [150616] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 22,
-        grid = 1,
+        order = 13,
+        grid = 13,
         priceVal = {
-            [1] = 2000,
+            [1] = 15,
         },
         buyBeginTime = {
         },
-        storeId = 510000,
-        weight = 1000,
-        limitType = 3,
+        storeId = 150000,
+        weight = 200,
+        limitType = 1,
         openContType = 1,
         ext = {
-            date = "7月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104615,
-                },
-            },
-            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 510013,
+        id = 150616,
         sellTimeType = 1,
         priceType = {
-            [1] = 500075,
+            [1] = 500002,
         },
         goods = {
-            [411208] = 1,
+            [535264] = 1,
         },
         showBeginTime = "",
-        openContVal = 99,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -12584,46 +12603,39 @@ return {
         limitVal = 1,
         des = "",
     },
-    [510017] = {
+    [150618] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 11,
-        grid = 1,
+        order = 13,
+        grid = 13,
         priceVal = {
-            [1] = 128,
+            [1] = 15,
         },
         buyBeginTime = {
         },
-        storeId = 510000,
-        weight = 1000,
-        limitType = 3,
+        storeId = 150000,
+        weight = 200,
+        limitType = 1,
         openContType = 1,
         ext = {
-            date = "3月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104609,
-                },
-            },
-            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 510017,
+        id = 150618,
         sellTimeType = 1,
         priceType = {
-            [1] = 500076,
+            [1] = 500002,
         },
         goods = {
-            [410109] = 1,
+            [535274] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -12750,39 +12762,46 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110133] = {
+    [510019] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
+        order = 14,
         grid = 1,
         priceVal = {
-            [1] = 36,
+            [1] = 128,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
+        storeId = 510000,
         weight = 1000,
-        limitType = 1,
+        limitType = 3,
         openContType = 1,
         ext = {
+            date = "5月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104611,
+                },
+            },
+            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110133,
+        id = 510019,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500076,
         },
         goods = {
-            [510301] = 3,
+            [410509] = 1,
         },
         showBeginTime = "",
-        openContVal = 10,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -26049,42 +26068,42 @@ return {
         limitVal = 3,
         des = "",
     },
-    [326040] = {
+    [204002] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 10,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 20,
+            [1] = 200,
         },
         buyBeginTime = {
         },
-        storeId = 328000,
-        weight = 1,
-        limitType = 3,
-        openContType = 1,
+        storeId = 203000,
+        weight = 75,
+        limitType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326040,
+        id = 204002,
         sellTimeType = 1,
         priceType = {
-            [1] = 570078,
+            [1] = 500002,
         },
         goods = {
-            [510155] = 1,
+            [570103] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 200,
+        limitVal = 1,
         des = "",
     },
     [204514] = {
@@ -37596,44 +37615,42 @@ return {
         limitVal = 99,
         des = "",
     },
-    [326205] = {
+    [554002] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 100,
+            [1] = 36,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
+        storeId = 322000,
+        weight = 1000,
+        limitType = 3,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326205,
+        id = 554002,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 500057,
         },
         goods = {
-            [555026] = 1,
+            [570037] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 20,
         des = "",
     },
     [554003] = {
@@ -37800,41 +37817,44 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326207] = {
-        batchBuy = true,
+    [554006] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 6,
+        grid = 6,
         priceVal = {
-            [1] = 100,
+            [1] = 160,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
+        storeId = 322000,
+        weight = 1000,
+        limitType = 3,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 600,
+            tipType = 1,
+            limitItemId = {
+                [1] = 308002,
+            },
+            tipId = 14300302,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326207,
+        id = 554006,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 500057,
         },
         goods = {
-            [555028] = 1,
+            [308002] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -41674,42 +41694,42 @@ return {
         limitVal = 50,
         des = "",
     },
-    [550013] = {
+    [204111] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 13,
-        grid = 1,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 10,
+            [1] = 40,
         },
         buyBeginTime = {
         },
-        storeId = 550000,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
+        storeId = 203000,
+        weight = 1200,
+        limitType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 550013,
+        id = 204111,
         sellTimeType = 1,
         priceType = {
-            [1] = 500075,
+            [1] = 500002,
         },
         goods = {
-            [599501] = 20,
+            [510155] = 2,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 50,
+        limitVal = 1,
         des = "",
     },
     [550014] = {
@@ -42092,42 +42112,42 @@ return {
         limitVal = 1,
         des = "",
     },
-    [204113] = {
+    [550021] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 21,
+        grid = 1,
         priceVal = {
-            [1] = 50,
+            [1] = 100,
         },
         buyBeginTime = {
         },
-        storeId = 203000,
-        weight = 1200,
-        limitType = 1,
-        openContType = 5,
+        storeId = 550000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204113,
+        id = 550021,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 500075,
         },
         goods = {
-            [510105] = 2,
+            [520048] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 5,
         des = "",
     },
     [550022] = {
@@ -42584,54 +42604,42 @@ return {
         limitVal = 1,
         des = "",
     },
-    [550029] = {
+    [204115] = {
         batchBuy = true,
         buyEndTime = {
-            min = 59,
-            year = 2021,
-            month = 3,
-            sec = 59,
-            hour = 23,
-            day = 15,
         },
-        order = 10,
-        grid = 1,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 1,
+            [1] = 30,
         },
         buyBeginTime = {
-            min = 0,
-            year = 2021,
-            month = 2,
-            sec = 0,
-            hour = 0,
-            day = 5,
         },
-        storeId = 310000,
-        weight = 10000,
-        limitType = 0,
-        openContType = 1,
+        storeId = 203000,
+        weight = 800,
+        limitType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 550029,
+        id = 204115,
         sellTimeType = 1,
         priceType = {
-            [1] = 501018,
+            [1] = 500002,
         },
         goods = {
-            [580300] = 1,
+            [570101] = 30,
         },
-        showBeginTime = "2021-02-05 00:00:00",
+        showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "",
-        showEndTime = "2021-03-15 23:59:59",
+        sellDescribtion = "2008",
+        showEndTime = "",
         serLimit = 0,
-        limitVal = 0,
+        limitVal = 1,
         des = "",
     },
     [550030] = {
@@ -43960,44 +43968,54 @@ return {
         limitVal = 50,
         des = "",
     },
-    [326277] = {
+    [550051] = {
         batchBuy = true,
         buyEndTime = {
+            min = 59,
+            year = 2021,
+            month = 3,
+            sec = 59,
+            hour = 23,
+            day = 15,
         },
-        order = 9,
-        grid = 0,
+        order = 24,
+        grid = 1,
         priceVal = {
-            [1] = 50,
+            [1] = 2,
         },
         buyBeginTime = {
+            min = 0,
+            year = 2021,
+            month = 2,
+            sec = 0,
+            hour = 0,
+            day = 5,
         },
-        storeId = 204000,
-        weight = 600,
-        limitType = 1,
+        storeId = 310000,
+        weight = 10000,
+        limitType = 3,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326277,
+        id = 550051,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 580309,
         },
         goods = {
-            [555021] = 1,
+            [230009] = 1,
         },
-        showBeginTime = "",
+        showBeginTime = "2021-02-05 00:00:00",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
+        sellDescribtion = "2004",
+        showEndTime = "2021-03-15 23:59:59",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 50,
         des = "",
     },
     [550052] = {
@@ -46414,14 +46432,14 @@ return {
         id = 313001,
         sellTimeType = 1,
         priceType = {
-            [1] = 580158,
+            [1] = 580231,
         },
         goods = {
-            [520225] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311565,
+        title = 13311572,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
@@ -46666,10 +46684,10 @@ return {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 1,
+            [1] = 2,
         },
         buyBeginTime = {
         },
@@ -46686,14 +46704,14 @@ return {
         id = 313004,
         sellTimeType = 1,
         priceType = {
-            [1] = 580159,
+            [1] = 580232,
         },
         goods = {
-            [520225] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311566,
+        title = 13311575,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
@@ -46822,10 +46840,10 @@ return {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 1,
+            [1] = 2,
         },
         buyBeginTime = {
         },
@@ -46842,14 +46860,14 @@ return {
         id = 313006,
         sellTimeType = 1,
         priceType = {
-            [1] = 580159,
+            [1] = 580232,
         },
         goods = {
-            [520225] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311566,
+        title = 13311577,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
@@ -46900,8 +46918,8 @@ return {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 3,
+        grid = 3,
         priceVal = {
             [1] = 2,
             [2] = 2,
@@ -46927,11 +46945,11 @@ return {
             [3] = 533107,
         },
         goods = {
-            [580164] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311567,
+        title = 13311578,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
@@ -47020,8 +47038,8 @@ return {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 3,
+        grid = 3,
         priceVal = {
             [1] = 2,
             [2] = 2,
@@ -47047,11 +47065,11 @@ return {
             [3] = 533108,
         },
         goods = {
-            [580164] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311567,
+        title = 13311579,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
@@ -47102,8 +47120,8 @@ return {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 3,
+        grid = 3,
         priceVal = {
             [1] = 2,
             [2] = 2,
@@ -47129,11 +47147,11 @@ return {
             [3] = 533109,
         },
         goods = {
-            [580164] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311567,
+        title = 13311580,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
@@ -47184,10 +47202,12 @@ return {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 3,
+            [1] = 1,
+            [2] = 1,
+            [3] = 1,
         },
         buyBeginTime = {
         },
@@ -47204,28 +47224,32 @@ return {
         id = 313010,
         sellTimeType = 1,
         priceType = {
-            [1] = 580158,
+            [1] = 533201,
+            [2] = 533203,
+            [3] = 533205,
         },
         goods = {
-            [520225] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311565,
+        title = 13311581,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311568",
+        des = "13311570",
     },
     [313011] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 3,
+            [1] = 1,
+            [2] = 1,
+            [3] = 1,
         },
         buyBeginTime = {
         },
@@ -47242,19 +47266,21 @@ return {
         id = 313011,
         sellTimeType = 1,
         priceType = {
-            [1] = 580158,
+            [1] = 533202,
+            [2] = 533204,
+            [3] = 533206,
         },
         goods = {
-            [520225] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311565,
+        title = 13311582,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311568",
+        des = "13311570",
     },
     [110533] = {
         batchBuy = false,
@@ -47298,10 +47324,10 @@ return {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 3,
+            [1] = 1,
         },
         buyBeginTime = {
         },
@@ -47318,26 +47344,26 @@ return {
         id = 313012,
         sellTimeType = 1,
         priceType = {
-            [1] = 580158,
+            [1] = 533301,
         },
         goods = {
-            [520225] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311565,
+        title = 13311583,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311568",
+        des = "13311570",
     },
     [313013] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 3,
+        grid = 3,
         priceVal = {
             [1] = 1,
         },
@@ -47356,26 +47382,26 @@ return {
         id = 313013,
         sellTimeType = 1,
         priceType = {
-            [1] = 580159,
+            [1] = 533302,
         },
         goods = {
-            [520225] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311566,
+        title = 13311584,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311569",
+        des = "13311570",
     },
     [313014] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 3,
+        grid = 3,
         priceVal = {
             [1] = 1,
         },
@@ -47394,28 +47420,30 @@ return {
         id = 313014,
         sellTimeType = 1,
         priceType = {
-            [1] = 580159,
+            [1] = 533303,
         },
         goods = {
-            [520225] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311566,
+        title = 13311585,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311569",
+        des = "13311570",
     },
     [313015] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 1,
+            [1] = 2,
+            [2] = 2,
+            [3] = 2,
         },
         buyBeginTime = {
         },
@@ -47432,19 +47460,21 @@ return {
         id = 313015,
         sellTimeType = 1,
         priceType = {
-            [1] = 580159,
+            [1] = 532101,
+            [2] = 532104,
+            [3] = 532107,
         },
         goods = {
-            [520225] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311566,
+        title = 13311586,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311569",
+        des = "13311570",
     },
     [110534] = {
         batchBuy = false,
@@ -47488,8 +47518,8 @@ return {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 3,
+        grid = 3,
         priceVal = {
             [1] = 2,
             [2] = 2,
@@ -47510,16 +47540,16 @@ return {
         id = 313016,
         sellTimeType = 1,
         priceType = {
-            [1] = 533201,
-            [2] = 533203,
-            [3] = 533205,
+            [1] = 532102,
+            [2] = 532105,
+            [3] = 532108,
         },
         goods = {
-            [580165] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311567,
+        title = 13311587,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
@@ -47530,8 +47560,8 @@ return {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 3,
+        grid = 3,
         priceVal = {
             [1] = 2,
             [2] = 2,
@@ -47552,16 +47582,16 @@ return {
         id = 313017,
         sellTimeType = 1,
         priceType = {
-            [1] = 533202,
-            [2] = 533204,
-            [3] = 533206,
+            [1] = 532103,
+            [2] = 532106,
+            [3] = 532109,
         },
         goods = {
-            [580165] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311567,
+        title = 13311588,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
@@ -47572,12 +47602,12 @@ return {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 2,
-            [2] = 2,
-            [3] = 2,
+            [1] = 1,
+            [2] = 1,
+            [3] = 1,
         },
         buyBeginTime = {
         },
@@ -47594,16 +47624,16 @@ return {
         id = 313018,
         sellTimeType = 1,
         priceType = {
-            [1] = 532101,
-            [2] = 532104,
-            [3] = 532107,
+            [1] = 532201,
+            [2] = 532203,
+            [3] = 532205,
         },
         goods = {
-            [580165] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311567,
+        title = 13311589,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
@@ -47617,7 +47647,9 @@ return {
         order = 3,
         grid = 3,
         priceVal = {
-            [1] = 3,
+            [1] = 1,
+            [2] = 1,
+            [3] = 1,
         },
         buyBeginTime = {
         },
@@ -47634,19 +47666,21 @@ return {
         id = 313019,
         sellTimeType = 1,
         priceType = {
-            [1] = 580158,
+            [1] = 532202,
+            [2] = 532204,
+            [3] = 532206,
         },
         goods = {
-            [520225] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311565,
+        title = 13311590,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311568",
+        des = "13311570",
     },
     [110535] = {
         batchBuy = false,
@@ -47693,7 +47727,7 @@ return {
         order = 3,
         grid = 3,
         priceVal = {
-            [1] = 3,
+            [1] = 1,
         },
         buyBeginTime = {
         },
@@ -47710,97 +47744,21 @@ return {
         id = 313020,
         sellTimeType = 1,
         priceType = {
-            [1] = 580158,
+            [1] = 532301,
         },
         goods = {
-            [520225] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311565,
+        title = 13311591,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311568",
+        des = "13311570",
     },
     [313021] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 3,
-        },
-        buyBeginTime = {
-        },
-        storeId = 313000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 313021,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 580158,
-        },
-        goods = {
-            [520225] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 13311565,
-        sellDescribtion = "",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "13311568",
-    },
-    [313022] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 3,
-        },
-        buyBeginTime = {
-        },
-        storeId = 313000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 313022,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 580158,
-        },
-        goods = {
-            [520225] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 13311565,
-        sellDescribtion = "",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "13311568",
-    },
-    [313023] = {
         batchBuy = false,
         buyEndTime = {
         },
@@ -47821,22 +47779,98 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 313023,
+        id = 313021,
         sellTimeType = 1,
         priceType = {
-            [1] = 580159,
+            [1] = 532302,
         },
         goods = {
-            [520225] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311566,
+        title = 13311592,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311569",
+        des = "13311570",
+    },
+    [313022] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 3,
+        grid = 3,
+        priceVal = {
+            [1] = 1,
+        },
+        buyBeginTime = {
+        },
+        storeId = 313000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 313022,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 532303,
+        },
+        goods = {
+            [500047] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 13311593,
+        sellDescribtion = "",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "13311570",
+    },
+    [150401] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 8,
+        grid = 8,
+        priceVal = {
+            [1] = 30,
+        },
+        buyBeginTime = {
+        },
+        storeId = 150000,
+        weight = 1200,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 150401,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500018,
+        },
+        goods = {
+            [535011] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
     },
     [110536] = {
         batchBuy = false,
@@ -47875,44 +47909,6 @@ return {
         serLimit = 0,
         limitVal = 1,
         des = "",
-    },
-    [313024] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 1,
-        },
-        buyBeginTime = {
-        },
-        storeId = 313000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 313024,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 580159,
-        },
-        goods = {
-            [520225] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 13311566,
-        sellDescribtion = "",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "13311569",
     },
     [202101] = {
         batchBuy = true,
@@ -47990,19 +47986,19 @@ return {
         limitVal = 30,
         des = "",
     },
-    [313025] = {
+    [150402] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 8,
+        grid = 8,
         priceVal = {
-            [1] = 1,
+            [1] = 6,
         },
         buyBeginTime = {
         },
-        storeId = 313000,
-        weight = 1000,
+        storeId = 150000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -48011,22 +48007,22 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 313025,
+        id = 150402,
         sellTimeType = 1,
         priceType = {
-            [1] = 580159,
+            [1] = 500002,
         },
         goods = {
-            [520225] = 1,
+            [535012] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311566,
-        sellDescribtion = "",
+        title = 0,
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311569",
+        des = "",
     },
     [312002] = {
         batchBuy = true,
@@ -48065,44 +48061,6 @@ return {
         serLimit = 0,
         limitVal = 199,
         des = "",
-    },
-    [313026] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 1,
-        },
-        buyBeginTime = {
-        },
-        storeId = 313000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 313026,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 580159,
-        },
-        goods = {
-            [520225] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 13311566,
-        sellDescribtion = "",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "13311569",
     },
     [141701] = {
         batchBuy = true,
@@ -48154,21 +48112,19 @@ return {
         limitVal = 10,
         des = "",
     },
-    [313027] = {
+    [150403] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 8,
+        grid = 8,
         priceVal = {
-            [1] = 2,
-            [2] = 2,
-            [3] = 2,
+            [1] = 30,
         },
         buyBeginTime = {
         },
-        storeId = 313000,
-        weight = 1000,
+        storeId = 150000,
+        weight = 1200,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -48177,24 +48133,22 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 313027,
+        id = 150403,
         sellTimeType = 1,
         priceType = {
-            [1] = 532102,
-            [2] = 532105,
-            [3] = 532108,
+            [1] = 500018,
         },
         goods = {
-            [580166] = 1,
+            [535021] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311567,
-        sellDescribtion = "",
+        title = 0,
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311570",
+        des = "",
     },
     [110537] = {
         batchBuy = false,
@@ -48272,48 +48226,6 @@ return {
         limitVal = 2,
         des = "",
     },
-    [313028] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 2,
-            [2] = 2,
-            [3] = 2,
-        },
-        buyBeginTime = {
-        },
-        storeId = 313000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 313028,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 532103,
-            [2] = 532106,
-            [3] = 532109,
-        },
-        goods = {
-            [580166] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 13311567,
-        sellDescribtion = "",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "13311570",
-    },
     [312005] = {
         batchBuy = false,
         buyEndTime = {
@@ -48352,21 +48264,19 @@ return {
         limitVal = 2,
         des = "",
     },
-    [313029] = {
+    [150404] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 8,
+        grid = 8,
         priceVal = {
-            [1] = 2,
-            [2] = 2,
-            [3] = 2,
+            [1] = 6,
         },
         buyBeginTime = {
         },
-        storeId = 313000,
-        weight = 1000,
+        storeId = 150000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -48375,24 +48285,22 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 313029,
+        id = 150404,
         sellTimeType = 1,
         priceType = {
-            [1] = 532201,
-            [2] = 532203,
-            [3] = 532205,
+            [1] = 500002,
         },
         goods = {
-            [580166] = 1,
+            [535022] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311567,
-        sellDescribtion = "",
+        title = 0,
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311570",
+        des = "",
     },
     [312006] = {
         batchBuy = true,
@@ -48431,48 +48339,6 @@ return {
         serLimit = 0,
         limitVal = 5,
         des = "",
-    },
-    [313030] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 2,
-            [2] = 2,
-            [3] = 2,
-        },
-        buyBeginTime = {
-        },
-        storeId = 313000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 313030,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 532202,
-            [2] = 532204,
-            [3] = 532206,
-        },
-        goods = {
-            [580166] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 13311567,
-        sellDescribtion = "",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "13311570",
     },
     [133001] = {
         batchBuy = true,
@@ -49766,44 +49632,6 @@ return {
         limitVal = 50,
         des = "",
     },
-    [560063] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 12,
-        priceVal = {
-            [1] = 280,
-        },
-        buyBeginTime = {
-        },
-        storeId = 600002,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 560063,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 566057,
-        },
-        goods = {
-            [1103019] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [326355] = {
         batchBuy = true,
         buyEndTime = {
@@ -49839,44 +49667,6 @@ return {
         openContVal = 1,
         title = 0,
         sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [560062] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 9,
-        grid = 11,
-        priceVal = {
-            [1] = 280,
-        },
-        buyBeginTime = {
-        },
-        storeId = 600002,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 560062,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 566057,
-        },
-        goods = {
-            [1105013] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -50194,44 +49984,6 @@ return {
         limitVal = 10,
         des = "",
     },
-    [560059] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 6,
-        grid = 8,
-        priceVal = {
-            [1] = 280,
-        },
-        buyBeginTime = {
-        },
-        storeId = 600002,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 560059,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 566057,
-        },
-        goods = {
-            [1101016] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [150414] = {
         batchBuy = false,
         buyEndTime = {
@@ -50352,14 +50104,14 @@ return {
         limitVal = 3,
         des = "",
     },
-    [560058] = {
+    [560063] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 5,
-        grid = 7,
+        order = 10,
+        grid = 12,
         priceVal = {
-            [1] = 230,
+            [1] = 280,
         },
         buyBeginTime = {
         },
@@ -50373,51 +50125,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 560058,
+        id = 560063,
         sellTimeType = 1,
         priceType = {
             [1] = 566057,
         },
         goods = {
-            [410509] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [560055] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 4,
-        priceVal = {
-            [1] = 230,
-        },
-        buyBeginTime = {
-        },
-        storeId = 600002,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 560055,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 566057,
-        },
-        goods = {
-            [410116] = 1,
+            [1103019] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -50510,20 +50224,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [560054] = {
-        batchBuy = true,
+    [560062] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 9,
+        grid = 11,
         priceVal = {
-            [1] = 50,
+            [1] = 280,
         },
         buyBeginTime = {
         },
         storeId = 600002,
         weight = 1000,
-        limitType = 0,
+        limitType = 3,
         openContType = 1,
         ext = {
         },
@@ -50531,21 +50245,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 560054,
+        id = 560062,
         sellTimeType = 1,
         priceType = {
-            [1] = 500096,
+            [1] = 566057,
         },
         goods = {
-            [566057] = 1,
+            [1105013] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 0,
+        limitVal = 1,
         des = "",
     },
     [150415] = {
@@ -50668,19 +50382,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [560053] = {
-        batchBuy = true,
+    [560059] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 23,
-        grid = 15,
+        order = 6,
+        grid = 8,
         priceVal = {
-            [1] = 20,
+            [1] = 280,
         },
         buyBeginTime = {
         },
-        storeId = 600001,
-        weight = 300,
+        storeId = 600002,
+        weight = 1000,
         limitType = 3,
         openContType = 1,
         ext = {
@@ -50689,13 +50403,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 560053,
+        id = 560059,
         sellTimeType = 1,
         priceType = {
-            [1] = 620001,
+            [1] = 566057,
         },
         goods = {
-            [555005] = 1,
+            [1101016] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -50703,22 +50417,22 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 10,
+        limitVal = 1,
         des = "",
     },
-    [560051] = {
-        batchBuy = true,
+    [560058] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 21,
-        grid = 15,
+        order = 5,
+        grid = 7,
         priceVal = {
-            [1] = 12,
+            [1] = 230,
         },
         buyBeginTime = {
         },
-        storeId = 600001,
-        weight = 600,
+        storeId = 600002,
+        weight = 1000,
         limitType = 3,
         openContType = 1,
         ext = {
@@ -50727,13 +50441,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 560051,
+        id = 560058,
         sellTimeType = 1,
         priceType = {
-            [1] = 620001,
+            [1] = 566057,
         },
         goods = {
-            [555003] = 3,
+            [410509] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -50741,7 +50455,7 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 10,
+        limitVal = 1,
         des = "",
     },
     [326361] = {
@@ -50826,19 +50540,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [560050] = {
-        batchBuy = true,
+    [560055] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 20,
-        grid = 15,
+        order = 2,
+        grid = 4,
         priceVal = {
-            [1] = 10,
+            [1] = 230,
         },
         buyBeginTime = {
         },
-        storeId = 600001,
-        weight = 800,
+        storeId = 600002,
+        weight = 1000,
         limitType = 3,
         openContType = 1,
         ext = {
@@ -50847,13 +50561,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 560050,
+        id = 560055,
         sellTimeType = 1,
         priceType = {
-            [1] = 620001,
+            [1] = 566057,
         },
         goods = {
-            [555002] = 5,
+            [410116] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -50861,7 +50575,7 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 6,
+        limitVal = 1,
         des = "",
     },
     [150416] = {
@@ -50980,20 +50694,20 @@ return {
         limitVal = 5,
         des = "",
     },
-    [560048] = {
+    [560054] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 18,
-        grid = 14,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 8,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 600001,
-        weight = 100,
-        limitType = 3,
+        storeId = 600002,
+        weight = 1000,
+        limitType = 0,
         openContType = 1,
         ext = {
         },
@@ -51001,36 +50715,36 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 560048,
+        id = 560054,
         sellTimeType = 1,
         priceType = {
-            [1] = 620001,
+            [1] = 500096,
         },
         goods = {
-            [551111] = 1,
+            [566057] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 5,
+        limitVal = 0,
         des = "",
     },
-    [560047] = {
+    [560053] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 17,
-        grid = 13,
+        order = 23,
+        grid = 15,
         priceVal = {
             [1] = 20,
         },
         buyBeginTime = {
         },
         storeId = 600001,
-        weight = 200,
+        weight = 300,
         limitType = 3,
         openContType = 1,
         ext = {
@@ -51039,13 +50753,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 560047,
+        id = 560053,
         sellTimeType = 1,
         priceType = {
             [1] = 620001,
         },
         goods = {
-            [520033] = 1,
+            [555005] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -51053,7 +50767,7 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 5,
+        limitVal = 10,
         des = "",
     },
     [326363] = {
@@ -51138,19 +50852,19 @@ return {
         limitVal = 5,
         des = "",
     },
-    [560046] = {
+    [560051] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 16,
-        grid = 13,
+        order = 21,
+        grid = 15,
         priceVal = {
-            [1] = 10,
+            [1] = 12,
         },
         buyBeginTime = {
         },
         storeId = 600001,
-        weight = 500,
+        weight = 600,
         limitType = 3,
         openContType = 1,
         ext = {
@@ -51159,13 +50873,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 560046,
+        id = 560051,
         sellTimeType = 1,
         priceType = {
             [1] = 620001,
         },
         goods = {
-            [520032] = 1,
+            [555003] = 3,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -51173,7 +50887,7 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 5,
+        limitVal = 10,
         des = "",
     },
     [150417] = {
@@ -51296,14 +51010,14 @@ return {
         limitVal = 3,
         des = "",
     },
-    [560043] = {
+    [560050] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 13,
-        grid = 13,
+        order = 20,
+        grid = 15,
         priceVal = {
-            [1] = 8,
+            [1] = 10,
         },
         buyBeginTime = {
         },
@@ -51317,13 +51031,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 560043,
+        id = 560050,
         sellTimeType = 1,
         priceType = {
             [1] = 620001,
         },
         goods = {
-            [520029] = 10,
+            [555002] = 5,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -51331,22 +51045,22 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 5,
+        limitVal = 6,
         des = "",
     },
-    [560042] = {
+    [560048] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 12,
-        grid = 12,
+        order = 18,
+        grid = 14,
         priceVal = {
-            [1] = 3,
+            [1] = 8,
         },
         buyBeginTime = {
         },
         storeId = 600001,
-        weight = 1000,
+        weight = 100,
         limitType = 3,
         openContType = 1,
         ext = {
@@ -51355,13 +51069,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 560042,
+        id = 560048,
         sellTimeType = 1,
         priceType = {
             [1] = 620001,
         },
         goods = {
-            [520219] = 1,
+            [551111] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -51369,7 +51083,7 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 8,
+        limitVal = 5,
         des = "",
     },
     [326365] = {
@@ -51454,19 +51168,19 @@ return {
         limitVal = 2,
         des = "",
     },
-    [560038] = {
+    [560047] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 8,
-        grid = 8,
+        order = 17,
+        grid = 13,
         priceVal = {
-            [1] = 10,
+            [1] = 20,
         },
         buyBeginTime = {
         },
         storeId = 600001,
-        weight = 1000,
+        weight = 200,
         limitType = 3,
         openContType = 1,
         ext = {
@@ -51475,13 +51189,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 560038,
+        id = 560047,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 620001,
         },
         goods = {
-            [566022] = 1,
+            [520033] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -51489,7 +51203,7 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 50,
+        limitVal = 5,
         des = "",
     },
     [150418] = {
@@ -51612,19 +51326,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [560034] = {
+    [560046] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 4,
-        grid = 4,
+        order = 16,
+        grid = 13,
         priceVal = {
             [1] = 10,
         },
         buyBeginTime = {
         },
         storeId = 600001,
-        weight = 1000,
+        weight = 500,
         limitType = 3,
         openContType = 1,
         ext = {
@@ -51633,13 +51347,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 560034,
+        id = 560046,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 620001,
         },
         goods = {
-            [566018] = 1,
+            [520032] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -51647,47 +51361,45 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 50,
+        limitVal = 5,
         des = "",
     },
-    [326493] = {
+    [560043] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 13,
+        grid = 13,
         priceVal = {
-            [1] = 10,
+            [1] = 8,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 700,
-        limitType = 1,
+        storeId = 600001,
+        weight = 800,
+        limitType = 3,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 500,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326493,
+        id = 560043,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 620001,
         },
         goods = {
-            [651014] = 2,
+            [520029] = 10,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 5,
         des = "",
     },
     [326367] = {
@@ -51768,84 +51480,80 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326492] = {
+    [560042] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 12,
+        grid = 12,
+        priceVal = {
+            [1] = 3,
+        },
+        buyBeginTime = {
+        },
+        storeId = 600001,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 560042,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 620001,
+        },
+        goods = {
+            [520219] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 8,
+        des = "",
+    },
+    [560038] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 8,
+        grid = 8,
         priceVal = {
             [1] = 10,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 700,
-        limitType = 1,
+        storeId = 600001,
+        weight = 1000,
+        limitType = 3,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 500,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326492,
+        id = 560038,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [555001] = 10,
+            [566022] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326491] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 700,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 500,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326491,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570101] = 20,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
+        limitVal = 50,
         des = "",
     },
     [326368] = {
@@ -51926,42 +51634,42 @@ return {
         limitVal = 50,
         des = "",
     },
-    [190006] = {
+    [190007] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 6,
-        grid = 6,
+        order = 7,
+        grid = 7,
         priceVal = {
-            [1] = 180,
+            [1] = 12000,
         },
         buyBeginTime = {
         },
         storeId = 190000,
         weight = 10000,
         limitType = 1,
-        openContType = 1,
+        openContType = 3,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 190006,
+        id = 190007,
         sellTimeType = 1,
         priceType = {
             [1] = 500037,
         },
         goods = {
-            [570019] = 3,
+            [250107] = 1,
         },
         showBeginTime = "",
-        openContVal = 99,
+        openContVal = 3,
         title = 0,
         sellDescribtion = "2006",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 10,
+        limitVal = 1,
         des = "",
     },
     [110202] = {
@@ -52080,19 +51788,19 @@ return {
         limitVal = 50,
         des = "",
     },
-    [120504] = {
-        batchBuy = true,
+    [110133] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 6,
-        grid = 5,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 360,
+            [1] = 36,
         },
         buyBeginTime = {
         },
-        storeId = 120000,
-        weight = 850,
+        storeId = 110000,
+        weight = 1000,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -52101,61 +51809,59 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 120504,
+        id = 110133,
         sellTimeType = 1,
         priceType = {
-            [1] = 570029,
+            [1] = 570002,
         },
         goods = {
-            [250053] = 1,
+            [510301] = 3,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 10,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [326452] = {
+    [560034] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 9,
-        grid = 0,
+        order = 4,
+        grid = 4,
         priceVal = {
-            [1] = 50,
+            [1] = 10,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
-        limitType = 1,
+        storeId = 600001,
+        weight = 1000,
+        limitType = 3,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326452,
+        id = 560034,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [570001] = 100,
+            [566018] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 50,
         des = "",
     },
     [326370] = {
@@ -52236,42 +51942,54 @@ return {
         limitVal = 99,
         des = "",
     },
-    [204116] = {
+    [550031] = {
         batchBuy = true,
         buyEndTime = {
+            min = 59,
+            year = 2021,
+            month = 3,
+            sec = 59,
+            hour = 23,
+            day = 15,
         },
-        order = 2,
-        grid = 2,
+        order = 12,
+        grid = 1,
         priceVal = {
-            [1] = 24,
+            [1] = 1,
         },
         buyBeginTime = {
+            min = 0,
+            year = 2021,
+            month = 2,
+            sec = 0,
+            hour = 0,
+            day = 5,
         },
-        storeId = 203000,
-        weight = 500,
-        limitType = 1,
-        openContType = 5,
+        storeId = 310000,
+        weight = 10000,
+        limitType = 0,
+        openContType = 1,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204116,
+        id = 550031,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 501018,
         },
         goods = {
-            [570101] = 30,
+            [580302] = 1,
         },
-        showBeginTime = "",
+        showBeginTime = "2021-02-05 00:00:00",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
+        sellDescribtion = "",
+        showEndTime = "2021-03-15 23:59:59",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 0,
         des = "",
     },
     [540001] = {
@@ -52396,41 +52114,39 @@ return {
         limitVal = 99,
         des = "",
     },
-    [326488] = {
-        batchBuy = true,
+    [110227] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 25,
+            [1] = 32,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 700,
+        storeId = 110000,
+        weight = 1000,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 500,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326488,
+        id = 110227,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [555002] = 5,
+            [510310] = 2,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 30,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -52558,36 +52274,34 @@ return {
         limitVal = 99,
         des = "",
     },
-    [326240] = {
+    [204221] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 9,
-        grid = 0,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 150,
+            [1] = 80,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 500,
+        storeId = 203000,
+        weight = 200,
         limitType = 1,
-        openContType = 1,
+        openContType = 5,
         ext = {
-            group = 1,
-            discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326240,
+        id = 204221,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510306] = 3,
+            [510308] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -52726,36 +52440,34 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326487] = {
+    [203208] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 25,
+            [1] = 15,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 700,
+        storeId = 202000,
+        weight = 600,
         limitType = 1,
-        openContType = 1,
+        openContType = 4,
         ext = {
-            group = 2,
-            discountWeight = 500,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326487,
+        id = 203208,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510153] = 5,
+            [570017] = 3,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -52894,20 +52606,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110611] = {
-        batchBuy = false,
+    [101503] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 6,
-        grid = 6,
+        order = 1,
+        grid = 19,
         priceVal = {
             [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
+        storeId = 100000,
+        weight = 10000,
+        limitType = 0,
         openContType = 1,
         ext = {
         },
@@ -52915,21 +52627,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110611,
+        id = 101503,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510302] = 1,
+            [570056] = 1,
         },
         showBeginTime = "",
-        openContVal = 40,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 0,
         des = "",
     },
     [540009] = {
@@ -53060,34 +52772,36 @@ return {
         limitVal = 1,
         des = "",
     },
-    [204221] = {
+    [326424] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 80,
+            [1] = 240,
         },
         buyBeginTime = {
         },
-        storeId = 203000,
-        weight = 200,
+        storeId = 204000,
+        weight = 500,
         limitType = 1,
-        openContType = 5,
+        openContType = 1,
         ext = {
+            group = 2,
+            discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204221,
+        id = 326424,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510308] = 1,
+            [510318] = 3,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -53226,14 +52940,14 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326486] = {
+    [326492] = {
         batchBuy = true,
         buyEndTime = {
         },
         order = 10,
         grid = 0,
         priceVal = {
-            [1] = 25,
+            [1] = 10,
         },
         buyBeginTime = {
         },
@@ -53249,13 +52963,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326486,
+        id = 326492,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510103] = 5,
+            [555001] = 10,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -53394,41 +53108,39 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326485] = {
-        batchBuy = true,
+    [150609] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 13,
+        grid = 13,
         priceVal = {
-            [1] = 30,
+            [1] = 60,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 700,
+        storeId = 150000,
+        weight = 625,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 500,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326485,
+        id = 150609,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 500018,
         },
         goods = {
-            [240009] = 1,
+            [535232] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -53562,20 +53274,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [101503] = {
-        batchBuy = true,
+    [110203] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 19,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 20,
+            [1] = 12,
         },
         buyBeginTime = {
         },
-        storeId = 100000,
-        weight = 10000,
-        limitType = 0,
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -53583,21 +53295,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 101503,
+        id = 110203,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [570056] = 1,
+            [510301] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 10,
         title = 0,
-        sellDescribtion = "",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 0,
+        limitVal = 1,
         des = "",
     },
     [540017] = {
@@ -53728,20 +53440,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [306008] = {
+    [130801] = {
         batchBuy = true,
         buyEndTime = {
         },
         order = 8,
         grid = 8,
         priceVal = {
-            [1] = 8000,
+            [1] = 6,
         },
         buyBeginTime = {
         },
-        storeId = 306000,
-        weight = 1,
-        limitType = 3,
+        storeId = 130000,
+        weight = 1000,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -53749,21 +53461,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 306008,
+        id = 130801,
         sellTimeType = 1,
         priceType = {
-            [1] = 500066,
+            [1] = 570005,
         },
         goods = {
-            [310003] = 1,
+            [570008] = 20,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 3,
         des = "",
     },
     [540019] = {
@@ -54060,36 +53772,34 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326484] = {
+    [204112] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 30,
+            [1] = 32,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 700,
+        storeId = 203000,
+        weight = 800,
         limitType = 1,
-        openContType = 1,
+        openContType = 5,
         ext = {
-            group = 2,
-            discountWeight = 500,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326484,
+        id = 204112,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [555003] = 3,
+            [510155] = 2,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -54100,44 +53810,39 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326056] = {
+    [110216] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 7,
-        grid = 24,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 1200,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 329000,
-        weight = 1,
-        limitType = 3,
-        openContType = 14,
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
         ext = {
-            tipType = 1,
-            limitItemId = {
-                [1] = 308001,
-            },
-            tipId = 14300302,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326056,
+        id = 110216,
         sellTimeType = 1,
         priceType = {
-            [1] = 570078,
+            [1] = 570002,
         },
         goods = {
-            [308001] = 1,
+            [510304] = 2,
         },
         showBeginTime = "",
-        openContVal = 7,
+        openContVal = 5,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -54183,19 +53888,57 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110203] = {
+    [143011] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 17,
+        grid = 33,
+        priceVal = {
+            [1] = 20,
+        },
+        buyBeginTime = {
+        },
+        storeId = 140000,
+        weight = 1000,
+        limitType = 0,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 143011,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570101,
+        },
+        goods = {
+            [551111] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 0,
+        des = "",
+    },
+    [110414] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 4,
+        grid = 4,
         priceVal = {
-            [1] = 12,
+            [1] = 20,
         },
         buyBeginTime = {
         },
         storeId = 110000,
-        weight = 1000,
+        weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -54204,16 +53947,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110203,
+        id = 110414,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510301] = 1,
+            [510317] = 1,
         },
         showBeginTime = "",
-        openContVal = 10,
+        openContVal = 40,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -54221,52 +53964,14 @@ return {
         limitVal = 1,
         des = "",
     },
-    [130801] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 8,
-        grid = 8,
-        priceVal = {
-            [1] = 6,
-        },
-        buyBeginTime = {
-        },
-        storeId = 130000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 130801,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570005,
-        },
-        goods = {
-            [570008] = 20,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
-    [326483] = {
+    [326488] = {
         batchBuy = true,
         buyEndTime = {
         },
         order = 10,
         grid = 0,
         priceVal = {
-            [1] = 35,
+            [1] = 25,
         },
         buyBeginTime = {
         },
@@ -54282,13 +53987,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326483,
+        id = 326488,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [651015] = 1,
+            [555002] = 5,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -54329,6 +54034,670 @@ return {
         },
         goods = {
             [555026] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [204017] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 1,
+        grid = 1,
+        priceVal = {
+            [1] = 30,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 800,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204017,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [555010] = 300,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326487] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 25,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 700,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 500,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326487,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510153] = 5,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [204223] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 3,
+        grid = 3,
+        priceVal = {
+            [1] = 80,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 200,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204223,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510313] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326384] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 100,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326384,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [555027] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326486] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 25,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 700,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 500,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326486,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510103] = 5,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326485] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 30,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 700,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 500,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326485,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [240009] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [101504] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 8,
+        grid = 20,
+        priceVal = {
+            [1] = 1200,
+        },
+        buyBeginTime = {
+        },
+        storeId = 100000,
+        weight = 10000,
+        limitType = 0,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 101504,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [570057] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 0,
+        des = "",
+    },
+    [326385] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 100,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326385,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [555028] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [306012] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 12,
+        grid = 12,
+        priceVal = {
+            [1] = 1000,
+        },
+        buyBeginTime = {
+        },
+        storeId = 306000,
+        weight = 1,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 306012,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500066,
+        },
+        goods = {
+            [599603] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 3,
+        des = "",
+    },
+    [326484] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 30,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 700,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 500,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326484,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [555003] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110543] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 5,
+        grid = 5,
+        priceVal = {
+            [1] = 60,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110543,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510316] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 30,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326386] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 100,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326386,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [555029] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110204] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 12,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110204,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510309] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 10,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110407] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 4,
+        grid = 4,
+        priceVal = {
+            [1] = 16,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110407,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510314] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 15,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [132001] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 20,
+        grid = 20,
+        priceVal = {
+            [1] = 3,
+        },
+        buyBeginTime = {
+        },
+        storeId = 130000,
+        weight = 1000,
+        limitType = 0,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 132001,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570009,
+        },
+        goods = {
+            [570019] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 0,
+        des = "",
+    },
+    [326387] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 100,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326387,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [561003] = 10,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326483] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 35,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 700,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 500,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326483,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [651015] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -54419,45 +54788,7 @@ return {
         limitVal = 1,
         des = "",
     },
-    [150401] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 8,
-        grid = 8,
-        priceVal = {
-            [1] = 30,
-        },
-        buyBeginTime = {
-        },
-        storeId = 150000,
-        weight = 1200,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 150401,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500018,
-        },
-        goods = {
-            [535011] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326384] = {
+    [326388] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -54480,18 +54811,63 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326384,
+        id = 326388,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [555027] = 1,
+            [561017] = 10,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [530012] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 12,
+        grid = 1,
+        priceVal = {
+            [1] = 1200,
+        },
+        buyBeginTime = {
+        },
+        storeId = 530000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+            date = "3月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104609,
+                },
+            },
+            storeLimit = 1,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 530012,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500075,
+        },
+        goods = {
+            [307002] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -54537,34 +54913,74 @@ return {
         limitVal = 1,
         des = "",
     },
-    [204017] = {
-        batchBuy = true,
+    [110614] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 6,
+        grid = 6,
         priceVal = {
-            [1] = 30,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 203000,
-        weight = 800,
+        storeId = 110000,
+        weight = 500,
         limitType = 1,
-        openContType = 5,
+        openContType = 1,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204017,
+        id = 110614,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510317] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 40,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326389] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 100,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326389,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [555010] = 300,
+            [561023] = 10,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -54615,47 +55031,7 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326385] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 100,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326385,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555028] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [204223] = {
+    [204225] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -54676,13 +55052,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204223,
+        id = 204225,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510313] = 1,
+            [510302] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -54733,6 +55109,46 @@ return {
         limitVal = 1,
         des = "",
     },
+    [326390] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 100,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326390,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [561011] = 10,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [326477] = {
         batchBuy = true,
         buyEndTime = {
@@ -54773,136 +55189,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326386] = {
+    [131301] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 13,
+        grid = 13,
         priceVal = {
-            [1] = 100,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326386,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555029] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [101504] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 8,
-        grid = 20,
-        priceVal = {
-            [1] = 1200,
-        },
-        buyBeginTime = {
-        },
-        storeId = 100000,
-        weight = 10000,
-        limitType = 0,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 101504,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570057] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 0,
-        des = "",
-    },
-    [101003] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 16,
-        grid = 10,
-        priceVal = {
-            [1] = 15000,
-        },
-        buyBeginTime = {
-        },
-        storeId = 100000,
-        weight = 1250,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 101003,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500001,
-        },
-        goods = {
-            [510219] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2002",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
-    [132001] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 20,
-        grid = 20,
-        priceVal = {
-            [1] = 3,
+            [1] = 6,
         },
         buyBeginTime = {
         },
         storeId = 130000,
         weight = 1000,
-        limitType = 0,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -54910,31 +55210,76 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 132001,
+        id = 131301,
         sellTimeType = 1,
         priceType = {
-            [1] = 570009,
+            [1] = 570005,
         },
         goods = {
-            [570019] = 1,
+            [570013] = 20,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 0,
+        limitVal = 3,
         des = "",
     },
-    [326387] = {
+    [530020] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 20,
+        grid = 1,
+        priceVal = {
+            [1] = 800,
+        },
+        buyBeginTime = {
+        },
+        storeId = 530000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+            date = "6月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104614,
+                },
+            },
+            storeLimit = 1,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 530020,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500075,
+        },
+        goods = {
+            [310003] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326391] = {
         batchBuy = true,
         buyEndTime = {
         },
         order = 10,
         grid = 0,
         priceVal = {
-            [1] = 100,
+            [1] = 90,
         },
         buyBeginTime = {
         },
@@ -54950,13 +55295,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326387,
+        id = 326391,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [561003] = 10,
+            [555015] = 3,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -55007,52 +55352,59 @@ return {
         limitVal = 1,
         des = "",
     },
-    [204019] = {
-        batchBuy = true,
+    [530022] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
+        order = 22,
         grid = 1,
         priceVal = {
-            [1] = 200,
+            [1] = 1200,
         },
         buyBeginTime = {
         },
-        storeId = 203000,
-        weight = 75,
-        limitType = 1,
-        openContType = 5,
+        storeId = 530000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
         ext = {
+            date = "8月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104616,
+                },
+            },
+            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204019,
+        id = 530022,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 500075,
         },
         goods = {
-            [570105] = 1,
+            [311002] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [110204] = {
+    [110205] = {
         batchBuy = false,
         buyEndTime = {
         },
         order = 2,
         grid = 2,
         priceVal = {
-            [1] = 12,
+            [1] = 16,
         },
         buyBeginTime = {
         },
@@ -55066,16 +55418,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110204,
+        id = 110205,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510309] = 1,
+            [510311] = 1,
         },
         showBeginTime = "",
-        openContVal = 10,
+        openContVal = 15,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -55083,14 +55435,14 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326388] = {
+    [326392] = {
         batchBuy = true,
         buyEndTime = {
         },
         order = 10,
         grid = 0,
         priceVal = {
-            [1] = 100,
+            [1] = 80,
         },
         buyBeginTime = {
         },
@@ -55106,13 +55458,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326388,
+        id = 326392,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [561017] = 10,
+            [555013] = 10,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -55123,31 +55475,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [550049] = {
+    [309003] = {
         batchBuy = true,
         buyEndTime = {
-            min = 59,
-            year = 2021,
-            month = 3,
-            sec = 59,
-            hour = 23,
-            day = 15,
         },
-        order = 22,
-        grid = 1,
+        order = 3,
+        grid = 3,
         priceVal = {
             [1] = 3,
         },
         buyBeginTime = {
-            min = 0,
-            year = 2021,
-            month = 2,
-            sec = 0,
-            hour = 0,
-            day = 5,
         },
-        storeId = 310000,
-        weight = 10000,
+        storeId = 309000,
+        weight = 1000,
         limitType = 3,
         openContType = 1,
         ext = {
@@ -55156,21 +55496,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 550049,
+        id = 309003,
         sellTimeType = 1,
         priceType = {
-            [1] = 580307,
+            [1] = 580043,
         },
         goods = {
-            [510105] = 1,
+            [510155] = 1,
         },
-        showBeginTime = "2021-02-05 00:00:00",
+        showBeginTime = "",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2004",
-        showEndTime = "2021-03-15 23:59:59",
+        showEndTime = "",
         serLimit = 0,
-        limitVal = 50,
+        limitVal = 20,
         des = "",
     },
     [326475] = {
@@ -55253,635 +55593,6 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326389] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 100,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326389,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [561023] = 10,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110225] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 40,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110225,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510313] = 2,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110614] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 6,
-        grid = 6,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110614,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510317] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 40,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326472] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 50,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 600,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 700,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326472,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [561021] = 50,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326390] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 100,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326390,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [561011] = 10,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110129] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 1,
-        grid = 1,
-        priceVal = {
-            [1] = 40,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110129,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510317] = 2,
-        },
-        showBeginTime = "",
-        openContVal = 40,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326471] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 50,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 600,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 700,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326471,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [561015] = 50,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [204225] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 80,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 200,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204225,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [510302] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326391] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 90,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326391,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555015] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [204007] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 1,
-        grid = 1,
-        priceVal = {
-            [1] = 30,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 600,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204007,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570004] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [204824] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 9,
-        grid = 9,
-        priceVal = {
-            [1] = 200,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 100,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204824,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555031] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [131301] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 13,
-        grid = 13,
-        priceVal = {
-            [1] = 6,
-        },
-        buyBeginTime = {
-        },
-        storeId = 130000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 131301,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570005,
-        },
-        goods = {
-            [570013] = 20,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
-    [326392] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 80,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326392,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555013] = 10,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [530022] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 22,
-        grid = 1,
-        priceVal = {
-            [1] = 1200,
-        },
-        buyBeginTime = {
-        },
-        storeId = 530000,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-            date = "8月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104616,
-                },
-            },
-            storeLimit = 1,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 530022,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500075,
-        },
-        goods = {
-            [311002] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326468] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 9,
-        grid = 0,
-        priceVal = {
-            [1] = 50,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 600,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 700,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326468,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570017] = 10,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [305015] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 15,
-        grid = 15,
-        priceVal = {
-            [1] = 2,
-        },
-        buyBeginTime = {
-        },
-        storeId = 305000,
-        weight = 1,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 305015,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 580080,
-        },
-        goods = {
-            [240009] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 50,
-        des = "",
-    },
     [326393] = {
         batchBuy = true,
         buyEndTime = {
@@ -55922,95 +55633,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110205] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 16,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110205,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510311] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 15,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110411] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 4,
-        grid = 4,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110411,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510302] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 40,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [204808] = {
+    [204009] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 9,
-        grid = 9,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 24,
+            [1] = 30,
         },
         buyBeginTime = {
         },
         storeId = 203000,
-        weight = 300,
+        weight = 600,
         limitType = 1,
         openContType = 5,
         ext = {
@@ -56019,13 +55654,91 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204808,
+        id = 204009,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [555014] = 2,
+            [570032] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [203203] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 3,
+        grid = 3,
+        priceVal = {
+            [1] = 15,
+        },
+        buyBeginTime = {
+        },
+        storeId = 202000,
+        weight = 600,
+        limitType = 1,
+        openContType = 4,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 203203,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [570011] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326472] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326472,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [561021] = 50,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -56076,202 +55789,6 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326428] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 50,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 600,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 700,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326428,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [510219] = 5,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110222] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 32,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110222,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510314] = 2,
-        },
-        showBeginTime = "",
-        openContVal = 15,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [203203] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 15,
-        },
-        buyBeginTime = {
-        },
-        storeId = 202000,
-        weight = 600,
-        limitType = 1,
-        openContType = 4,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 203203,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570011] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326395] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 75,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326395,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570050] = 5,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326464] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 9,
-        grid = 0,
-        priceVal = {
-            [1] = 50,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 600,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 700,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326464,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570013] = 10,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [203715] = {
         batchBuy = true,
         buyEndTime = {
@@ -56310,74 +55827,36 @@ return {
         limitVal = 1,
         des = "",
     },
-    [204325] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 4,
-        grid = 4,
-        priceVal = {
-            [1] = 80,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 200,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204325,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [510302] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326396] = {
+    [326471] = {
         batchBuy = true,
         buyEndTime = {
         },
         order = 10,
         grid = 0,
         priceVal = {
-            [1] = 75,
+            [1] = 50,
         },
         buyBeginTime = {
         },
         storeId = 204000,
-        weight = 500,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
             group = 2,
-            discountWeight = 600,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326396,
+        id = 326471,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [570007] = 5,
+            [561015] = 50,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -56428,14 +55907,14 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326244] = {
+    [326395] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 9,
+        order = 10,
         grid = 0,
         priceVal = {
-            [1] = 240,
+            [1] = 75,
         },
         buyBeginTime = {
         },
@@ -56444,20 +55923,20 @@ return {
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 1,
+            group = 2,
             discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326244,
+        id = 326395,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510312] = 3,
+            [570050] = 5,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -56468,14 +55947,208 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110421] = {
+    [110340] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 4,
-        grid = 4,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 32,
+            [1] = 60,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110340,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510313] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 30,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [204110] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 24,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 300,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204110,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [570032] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [203204] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 3,
+        grid = 3,
+        priceVal = {
+            [1] = 15,
+        },
+        buyBeginTime = {
+        },
+        storeId = 202000,
+        weight = 600,
+        limitType = 1,
+        openContType = 4,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 203204,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [570012] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326396] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 75,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326396,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [570007] = 5,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326468] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 9,
+        grid = 0,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326468,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [570017] = 10,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110617] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 6,
+        grid = 6,
+        priceVal = {
+            [1] = 20,
         },
         buyBeginTime = {
         },
@@ -56489,13 +56162,51 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110421,
+        id = 110617,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510312] = 2,
+            [510306] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 5,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110206] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 16,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110206,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510312] = 1,
         },
         showBeginTime = "",
         openContVal = 15,
@@ -56546,92 +56257,14 @@ return {
         limitVal = 1,
         des = "",
     },
-    [203204] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 15,
-        },
-        buyBeginTime = {
-        },
-        storeId = 202000,
-        weight = 600,
-        limitType = 1,
-        openContType = 4,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 203204,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570012] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326460] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 9,
-        grid = 0,
-        priceVal = {
-            [1] = 50,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 600,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 700,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326460,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570009] = 10,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110617] = {
+    [110545] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 6,
-        grid = 6,
+        order = 5,
+        grid = 5,
         priceVal = {
-            [1] = 20,
+            [1] = 48,
         },
         buyBeginTime = {
         },
@@ -56645,18 +56278,94 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110617,
+        id = 110545,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510306] = 2,
+            [510318] = 3,
         },
         showBeginTime = "",
-        openContVal = 5,
+        openContVal = 40,
         title = 0,
         sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [204620] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 7,
+        grid = 7,
+        priceVal = {
+            [1] = 40,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 100,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204620,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [520033] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [204204] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 3,
+        grid = 3,
+        priceVal = {
+            [1] = 15,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 500,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204204,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [570012] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -56702,94 +56411,96 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110206] = {
-        batchBuy = false,
+    [326436] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 16,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 1000,
+        storeId = 204000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
+            group = 2,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110206,
+        id = 326436,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510312] = 1,
+            [510227] = 2,
         },
         showBeginTime = "",
-        openContVal = 15,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [110417] = {
-        batchBuy = false,
+    [203205] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 4,
-        grid = 4,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 20,
+            [1] = 15,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 1000,
+        storeId = 202000,
+        weight = 600,
         limitType = 1,
-        openContType = 1,
+        openContType = 4,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110417,
+        id = 203205,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510306] = 2,
+            [570013] = 3,
         },
         showBeginTime = "",
-        openContVal = 5,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [110604] = {
-        batchBuy = false,
+    [120801] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 6,
-        grid = 6,
+        order = 1,
+        grid = 8,
         priceVal = {
-            [1] = 12,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
+        storeId = 120000,
         weight = 1000,
         limitType = 1,
         openContType = 1,
@@ -56799,18 +56510,18 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110604,
+        id = 120801,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510309] = 1,
+            [570034] = 1,
         },
         showBeginTime = "",
-        openContVal = 10,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -56856,198 +56567,6 @@ return {
         limitVal = 1,
         des = "",
     },
-    [143011] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 17,
-        grid = 33,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 140000,
-        weight = 1000,
-        limitType = 0,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 143011,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570101,
-        },
-        goods = {
-            [551111] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 0,
-        des = "",
-    },
-    [150404] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 8,
-        grid = 8,
-        priceVal = {
-            [1] = 6,
-        },
-        buyBeginTime = {
-        },
-        storeId = 150000,
-        weight = 600,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 150404,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [535022] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [203205] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 15,
-        },
-        buyBeginTime = {
-        },
-        storeId = 202000,
-        weight = 600,
-        limitType = 1,
-        openContType = 4,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 203205,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570013] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326400] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 75,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326400,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [561004] = 15,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [101008] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 16,
-        grid = 10,
-        priceVal = {
-            [1] = 15000,
-        },
-        buyBeginTime = {
-        },
-        storeId = 100000,
-        weight = 1250,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 101008,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500001,
-        },
-        goods = {
-            [510224] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2002",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
     [203717] = {
         batchBuy = true,
         buyEndTime = {
@@ -57086,7 +56605,7 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326456] = {
+    [326464] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -57109,53 +56628,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326456,
+        id = 326464,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [555022] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326401] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 75,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326401,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [561005] = 15,
+            [570013] = 10,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -57206,83 +56685,7 @@ return {
         limitVal = 1,
         des = "",
     },
-    [204420] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 5,
-        grid = 5,
-        priceVal = {
-            [1] = 100,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 300,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204420,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [510308] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110113] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 1,
-        grid = 1,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110113,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510316] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326402] = {
+    [326400] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -57305,13 +56708,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326402,
+        id = 326400,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [561006] = 15,
+            [561004] = 15,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -57322,20 +56725,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110307] = {
+    [161001] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 10,
+        grid = 10,
         priceVal = {
-            [1] = 16,
+            [1] = 200,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
+        storeId = 160000,
         weight = 1000,
-        limitType = 1,
+        limitType = 3,
         openContType = 1,
         ext = {
         },
@@ -57343,18 +56746,136 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110307,
+        id = 161001,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 570003,
         },
         goods = {
-            [510314] = 1,
+            [1110012] = 1,
         },
         showBeginTime = "",
-        openContVal = 15,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326260] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 1,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326260,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510229] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [552001] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 1,
+        grid = 1,
+        priceVal = {
+            [1] = 6,
+        },
+        buyBeginTime = {
+        },
+        storeId = 314000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 552001,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580043,
+        },
+        goods = {
+            [570031] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 10,
+        des = "",
+    },
+    [326401] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 75,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326401,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [561005] = 15,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -57398,14 +56919,14 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110218] = {
+    [110636] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 6,
+        grid = 6,
         priceVal = {
-            [1] = 24,
+            [1] = 48,
         },
         buyBeginTime = {
         },
@@ -57419,18 +56940,212 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110218,
+        id = 110636,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510301] = 2,
+            [510312] = 3,
         },
         showBeginTime = "",
-        openContVal = 10,
+        openContVal = 15,
         title = 0,
         sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [307005] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 1,
+        grid = 1,
+        priceVal = {
+            [1] = 2,
+        },
+        buyBeginTime = {
+        },
+        storeId = 307000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 307005,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580101,
+        },
+        goods = {
+            [520225] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 13200228,
+        sellDescribtion = "",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "13200258",
+    },
+    [326402] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 75,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326402,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [561006] = 15,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110207] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 16,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110207,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510314] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 15,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110312] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 3,
+        grid = 3,
+        priceVal = {
+            [1] = 16,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110312,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510310] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 30,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326460] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 9,
+        grid = 0,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326460,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [570009] = 10,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -57476,95 +57191,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [307005] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 1,
-        grid = 1,
-        priceVal = {
-            [1] = 2,
-        },
-        buyBeginTime = {
-        },
-        storeId = 307000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 307005,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 580101,
-        },
-        goods = {
-            [520225] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 13200228,
-        sellDescribtion = "",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "13200258",
-    },
-    [110207] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 16,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110207,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510314] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 15,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [120401] = {
+    [101008] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 5,
-        grid = 4,
+        order = 16,
+        grid = 10,
         priceVal = {
-            [1] = 120,
+            [1] = 15000,
         },
         buyBeginTime = {
         },
-        storeId = 120000,
-        weight = 1000,
+        storeId = 100000,
+        weight = 1250,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -57573,18 +57212,106 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 120401,
+        id = 101008,
         sellTimeType = 1,
         priceType = {
-            [1] = 570029,
+            [1] = 500001,
         },
         goods = {
-            [240040] = 1,
+            [510224] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 30,
+        title = 0,
+        sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 3,
+        des = "",
+    },
+    [550033] = {
+        batchBuy = true,
+        buyEndTime = {
+            min = 59,
+            year = 2021,
+            month = 3,
+            sec = 59,
+            hour = 23,
+            day = 15,
+        },
+        order = 14,
+        grid = 1,
+        priceVal = {
+            [1] = 1,
+        },
+        buyBeginTime = {
+            min = 0,
+            year = 2021,
+            month = 2,
+            sec = 0,
+            hour = 0,
+            day = 5,
+        },
+        storeId = 310000,
+        weight = 10000,
+        limitType = 0,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 550033,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 501018,
+        },
+        goods = {
+            [580304] = 1,
+        },
+        showBeginTime = "2021-02-05 00:00:00",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "",
+        showEndTime = "2021-03-15 23:59:59",
+        serLimit = 0,
+        limitVal = 0,
+        des = "",
+    },
+    [203207] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 3,
+        grid = 3,
+        priceVal = {
+            [1] = 15,
+        },
+        buyBeginTime = {
+        },
+        storeId = 202000,
+        weight = 600,
+        limitType = 1,
+        openContType = 4,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 203207,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [570016] = 3,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -57680,54 +57407,44 @@ return {
         limitVal = 1,
         des = "",
     },
-    [550037] = {
+    [326448] = {
         batchBuy = true,
         buyEndTime = {
-            min = 59,
-            year = 2021,
-            month = 3,
-            sec = 59,
-            hour = 23,
-            day = 15,
         },
-        order = 5,
-        grid = 1,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 10,
+            [1] = 50,
         },
         buyBeginTime = {
-            min = 0,
-            year = 2021,
-            month = 2,
-            sec = 0,
-            hour = 0,
-            day = 5,
         },
-        storeId = 310000,
-        weight = 10000,
-        limitType = 0,
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
         openContType = 1,
         ext = {
+            group = 2,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 550037,
+        id = 326448,
         sellTimeType = 1,
         priceType = {
-            [1] = 501017,
+            [1] = 500002,
         },
         goods = {
-            [580196] = 10,
+            [510239] = 1,
         },
-        showBeginTime = "2021-02-05 00:00:00",
+        showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "",
-        showEndTime = "2021-03-15 23:59:59",
+        sellDescribtion = "2008",
+        showEndTime = "",
         serLimit = 0,
-        limitVal = 0,
+        limitVal = 1,
         des = "",
     },
     [309001] = {
@@ -57808,18 +57525,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [143001] = {
-        batchBuy = true,
+    [307007] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 7,
-        grid = 23,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 5,
+            [1] = 2,
+            [2] = 2,
+            [3] = 2,
         },
         buyBeginTime = {
         },
-        storeId = 140000,
+        storeId = 307000,
         weight = 1000,
         limitType = 1,
         openContType = 1,
@@ -57829,56 +57548,58 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 143001,
+        id = 307007,
         sellTimeType = 1,
         priceType = {
-            [1] = 570101,
+            [1] = 533101,
+            [2] = 533104,
+            [3] = 533107,
         },
         goods = {
-            [551101] = 1,
+            [520226] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
+        title = 13200230,
+        sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 50,
-        des = "",
+        limitVal = 1,
+        des = "13200260",
     },
-    [203207] = {
-        batchBuy = true,
+    [110242] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 15,
+            [1] = 48,
         },
         buyBeginTime = {
         },
-        storeId = 202000,
-        weight = 600,
+        storeId = 110000,
+        weight = 1000,
         limitType = 1,
-        openContType = 4,
+        openContType = 1,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 203207,
+        id = 110242,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [570016] = 3,
+            [510310] = 3,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 30,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -57962,53 +57683,11 @@ return {
         limitVal = 1,
         des = "",
     },
-    [307007] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 1,
-        grid = 1,
-        priceVal = {
-            [1] = 2,
-            [2] = 2,
-            [3] = 2,
-        },
-        buyBeginTime = {
-        },
-        storeId = 307000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 307007,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 533101,
-            [2] = 533104,
-            [3] = 533107,
-        },
-        goods = {
-            [520226] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 13200230,
-        sellDescribtion = "",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "13200260",
-    },
-    [326448] = {
+    [326454] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
+        order = 9,
         grid = 0,
         priceVal = {
             [1] = 50,
@@ -58027,13 +57706,53 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326448,
+        id = 326454,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510239] = 1,
+            [555005] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326456] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 9,
+        grid = 0,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326456,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [555022] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -58124,58 +57843,18 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326454] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 9,
-        grid = 0,
-        priceVal = {
-            [1] = 50,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 600,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 700,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326454,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555005] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [313003] = {
+    [110220] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 3,
+            [1] = 32,
         },
         buyBeginTime = {
         },
-        storeId = 313000,
+        storeId = 110000,
         weight = 1000,
         limitType = 1,
         openContType = 1,
@@ -58185,22 +57864,60 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 313003,
+        id = 110220,
         sellTimeType = 1,
         priceType = {
-            [1] = 580158,
+            [1] = 570002,
         },
         goods = {
-            [520225] = 1,
+            [510311] = 2,
         },
         showBeginTime = "",
-        openContVal = 1,
-        title = 13311565,
-        sellDescribtion = "",
+        openContVal = 15,
+        title = 0,
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13311568",
+        des = "",
+    },
+    [101007] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 16,
+        grid = 10,
+        priceVal = {
+            [1] = 15000,
+        },
+        buyBeginTime = {
+        },
+        storeId = 100000,
+        weight = 1250,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 101007,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500001,
+        },
+        goods = {
+            [510223] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 30,
+        title = 0,
+        sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 3,
+        des = "",
     },
     [309004] = {
         batchBuy = true,
@@ -58280,19 +57997,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [161001] = {
-        batchBuy = false,
+    [170220] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 10,
+        order = 20,
+        grid = 20,
         priceVal = {
-            [1] = 200,
+            [1] = 3,
         },
         buyBeginTime = {
         },
-        storeId = 160000,
-        weight = 1000,
+        storeId = 170001,
+        weight = 10000,
         limitType = 3,
         openContType = 1,
         ext = {
@@ -58301,13 +58018,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 161001,
+        id = 170220,
         sellTimeType = 1,
         priceType = {
-            [1] = 570003,
+            [1] = 501051,
         },
         goods = {
-            [1110012] = 1,
+            [510105] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -58315,48 +58032,50 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 30,
         des = "",
     },
-    [326444] = {
-        batchBuy = true,
+    [307009] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 50,
+            [1] = 2,
+            [2] = 2,
+            [3] = 2,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
+        storeId = 307000,
+        weight = 1000,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326444,
+        id = 307009,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 533103,
+            [2] = 533106,
+            [3] = 533109,
         },
         goods = {
-            [510235] = 1,
+            [520226] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
+        title = 13200232,
+        sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "",
+        des = "13200262",
     },
     [309005] = {
         batchBuy = true,
@@ -58436,78 +58155,79 @@ return {
         limitVal = 1,
         des = "",
     },
-    [203208] = {
-        batchBuy = true,
+    [110208] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 15,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 202000,
-        weight = 600,
+        storeId = 110000,
+        weight = 500,
         limitType = 1,
-        openContType = 4,
+        openContType = 1,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 203208,
+        id = 110208,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [570017] = 3,
+            [510307] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 20,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [552009] = {
-        batchBuy = false,
+    [326452] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 8,
-        grid = 8,
+        order = 9,
+        grid = 0,
         priceVal = {
-            [1] = 133,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 314000,
-        weight = 1000,
-        limitType = 3,
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
         openContType = 1,
         ext = {
-            tipType = 1,
+            group = 2,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 552009,
+        id = 326452,
         sellTimeType = 1,
         priceType = {
-            [1] = 580043,
+            [1] = 500002,
         },
         goods = {
-            [312001] = 1,
+            [570001] = 100,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -58591,47 +58311,45 @@ return {
         limitVal = 1,
         des = "",
     },
-    [307009] = {
-        batchBuy = false,
+    [326266] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 2,
-            [2] = 2,
-            [3] = 2,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 307000,
-        weight = 1000,
+        storeId = 204000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
+            group = 1,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 307009,
+        id = 326266,
         sellTimeType = 1,
         priceType = {
-            [1] = 533103,
-            [2] = 533106,
-            [3] = 533109,
+            [1] = 500002,
         },
         goods = {
-            [520226] = 1,
+            [510235] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13200232,
-        sellDescribtion = "",
+        title = 0,
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13200262",
+        des = "",
     },
     [131501] = {
         batchBuy = true,
@@ -58749,74 +58467,36 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110208] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110208,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510307] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 20,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326442] = {
+    [326491] = {
         batchBuy = true,
         buyEndTime = {
         },
         order = 10,
         grid = 0,
         priceVal = {
-            [1] = 50,
+            [1] = 20,
         },
         buyBeginTime = {
         },
         storeId = 204000,
-        weight = 600,
+        weight = 700,
         limitType = 1,
         openContType = 1,
         ext = {
             group = 2,
-            discountWeight = 700,
+            discountWeight = 500,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326442,
+        id = 326491,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510233] = 1,
+            [570101] = 20,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -58826,6 +58506,44 @@ return {
         serLimit = 0,
         limitVal = 1,
         des = "",
+    },
+    [307011] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 3,
+        },
+        buyBeginTime = {
+        },
+        storeId = 307000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 307011,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580102,
+        },
+        goods = {
+            [520225] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 13200234,
+        sellDescribtion = "",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "13200264",
     },
     [309008] = {
         batchBuy = true,
@@ -58905,51 +58623,11 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326210] = {
+    [326458] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 100,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 1,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326210,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [561017] = 10,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326260] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
+        order = 9,
         grid = 0,
         priceVal = {
             [1] = 50,
@@ -58961,25 +58639,63 @@ return {
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 1,
+            group = 2,
             discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326260,
+        id = 326458,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510229] = 2,
+            [555024] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110307] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 3,
+        grid = 3,
+        priceVal = {
+            [1] = 16,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110307,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510314] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 15,
+        title = 0,
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -59063,56 +58779,18 @@ return {
         limitVal = 1,
         des = "",
     },
-    [306009] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 9,
-        grid = 9,
-        priceVal = {
-            [1] = 2500,
-        },
-        buyBeginTime = {
-        },
-        storeId = 306000,
-        weight = 1,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 306009,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500066,
-        },
-        goods = {
-            [599707] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
-    [307011] = {
+    [110127] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 3,
+            [1] = 32,
         },
         buyBeginTime = {
         },
-        storeId = 307000,
+        storeId = 110000,
         weight = 1000,
         limitType = 1,
         openContType = 1,
@@ -59122,22 +58800,62 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 307011,
+        id = 110127,
         sellTimeType = 1,
         priceType = {
-            [1] = 580102,
+            [1] = 570002,
         },
         goods = {
-            [520225] = 1,
+            [510310] = 2,
         },
         showBeginTime = "",
-        openContVal = 1,
-        title = 13200234,
-        sellDescribtion = "",
+        openContVal = 30,
+        title = 0,
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13200264",
+        des = "",
+    },
+    [326261] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 1,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326261,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510230] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
     },
     [309010] = {
         batchBuy = false,
@@ -59255,81 +58973,77 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326440] = {
-        batchBuy = true,
+    [307013] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 50,
+            [1] = 2,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
+        storeId = 307000,
+        weight = 1000,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326440,
+        id = 307013,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 580101,
         },
         goods = {
-            [510231] = 2,
+            [520225] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
+        title = 13200236,
+        sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "",
+        des = "13200266",
     },
-    [326458] = {
-        batchBuy = true,
+    [110209] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 9,
-        grid = 0,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 50,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
+        storeId = 110000,
+        weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326458,
+        id = 110209,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [555024] = 1,
+            [510308] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 20,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -59375,7 +59089,7 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326438] = {
+    [326444] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -59398,13 +59112,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326438,
+        id = 326444,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510229] = 2,
+            [510235] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -59415,52 +59129,14 @@ return {
         limitVal = 1,
         des = "",
     },
-    [204003] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 1,
-        grid = 1,
-        priceVal = {
-            [1] = 200,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 75,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204003,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570104] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110112] = {
+    [110222] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 16,
+            [1] = 32,
         },
         buyBeginTime = {
         },
@@ -59474,21 +59150,59 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110112,
+        id = 110222,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510310] = 1,
+            [510314] = 2,
         },
         showBeginTime = "",
-        openContVal = 30,
+        openContVal = 15,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
+        des = "",
+    },
+    [100806] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 14,
+        grid = 8,
+        priceVal = {
+            [1] = 10000,
+        },
+        buyBeginTime = {
+        },
+        storeId = 100000,
+        weight = 1250,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 100806,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500001,
+        },
+        goods = {
+            [510213] = 4,
+        },
+        showBeginTime = "",
+        openContVal = 20,
+        title = 0,
+        sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 3,
         des = "",
     },
     [110301] = {
@@ -59567,56 +59281,18 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110213] = {
-        batchBuy = false,
+    [120402] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 5,
+        grid = 4,
         priceVal = {
-            [1] = 20,
+            [1] = 120,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110213,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510316] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [307013] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 2,
-        },
-        buyBeginTime = {
-        },
-        storeId = 307000,
+        storeId = 120000,
         weight = 1000,
         limitType = 1,
         openContType = 1,
@@ -59626,22 +59302,60 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 307013,
+        id = 120402,
         sellTimeType = 1,
         priceType = {
-            [1] = 580101,
+            [1] = 570029,
         },
         goods = {
-            [520225] = 1,
+            [240041] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13200236,
-        sellDescribtion = "",
+        title = 0,
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13200266",
+        des = "",
+    },
+    [120504] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 6,
+        grid = 5,
+        priceVal = {
+            [1] = 360,
+        },
+        buyBeginTime = {
+        },
+        storeId = 120000,
+        weight = 850,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 120504,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570029,
+        },
+        goods = {
+            [250053] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
     },
     [326417] = {
         batchBuy = true,
@@ -59683,45 +59397,7 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110209] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110209,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510308] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 20,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326436] = {
+    [326442] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -59744,13 +59420,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326436,
+        id = 326442,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510227] = 2,
+            [510233] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -59761,39 +59437,81 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110321] = {
-        batchBuy = false,
+    [326462] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 9,
+        grid = 0,
         priceVal = {
-            [1] = 32,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 1000,
+        storeId = 204000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
+            group = 2,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110321,
+        id = 326462,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510312] = 2,
+            [570011] = 10,
         },
         showBeginTime = "",
-        openContVal = 15,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326440] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326440,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510231] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -59877,19 +59595,21 @@ return {
         limitVal = 1,
         des = "",
     },
-    [100807] = {
-        batchBuy = true,
+    [307016] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 14,
-        grid = 8,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 10000,
+            [1] = 2,
+            [2] = 2,
+            [3] = 2,
         },
         buyBeginTime = {
         },
-        storeId = 100000,
-        weight = 1250,
+        storeId = 307000,
+        weight = 1000,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -59898,56 +59618,53 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 100807,
+        id = 307016,
         sellTimeType = 1,
         priceType = {
-            [1] = 500001,
+            [1] = 533201,
+            [2] = 533203,
+            [3] = 533205,
         },
         goods = {
-            [510214] = 4,
+            [520226] = 1,
         },
         showBeginTime = "",
-        openContVal = 20,
-        title = 0,
-        sellDescribtion = "2002",
+        openContVal = 1,
+        title = 13200239,
+        sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 3,
-        des = "",
+        limitVal = 1,
+        des = "13200269",
     },
-    [170210] = {
-        batchBuy = false,
+    [202001] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 10,
+        order = 20,
+        grid = 20,
         priceVal = {
-            [1] = 120,
+            [1] = 10,
         },
         buyBeginTime = {
         },
-        storeId = 170001,
+        storeId = 201000,
         weight = 10000,
         limitType = 3,
         openContType = 1,
         ext = {
-            tipType = 1,
-            limitItemId = {
-                [1] = 570233,
-            },
-            tipId = 14300302,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 170210,
+        id = 202001,
         sellTimeType = 1,
         priceType = {
-            [1] = 501051,
+            [1] = 580039,
         },
         goods = {
-            [570233] = 1,
+            [555005] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -59955,7 +59672,7 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 10,
         des = "",
     },
     [326419] = {
@@ -59998,119 +59715,115 @@ return {
         limitVal = 1,
         des = "",
     },
-    [204609] = {
+    [101002] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 7,
-        grid = 7,
+        order = 16,
+        grid = 10,
         priceVal = {
-            [1] = 50,
+            [1] = 15000,
         },
         buyBeginTime = {
         },
-        storeId = 203000,
-        weight = 300,
+        storeId = 100000,
+        weight = 1250,
         limitType = 1,
-        openContType = 5,
+        openContType = 1,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204609,
+        id = 101002,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 500001,
         },
         goods = {
-            [555005] = 1,
+            [510218] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 30,
+        title = 0,
+        sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 3,
+        des = "",
+    },
+    [120507] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 6,
+        grid = 5,
+        priceVal = {
+            [1] = 360,
+        },
+        buyBeginTime = {
+        },
+        storeId = 120000,
+        weight = 850,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 120507,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570029,
+        },
+        goods = {
+            [250056] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [326420] = {
-        batchBuy = true,
+    [110210] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 9,
-        grid = 0,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 240,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
+        storeId = 110000,
         weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326420,
+        id = 110210,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [510310] = 3,
+            [510313] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 30,
         title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326462] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 9,
-        grid = 0,
-        priceVal = {
-            [1] = 50,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 600,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 2,
-            discountWeight = 700,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326462,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570011] = 10,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -60192,36 +59905,72 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326432] = {
+    [120701] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 8,
+        grid = 7,
         priceVal = {
-            [1] = 50,
+            [1] = 360,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
+        storeId = 120000,
+        weight = 850,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326432,
+        id = 120701,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570029,
+        },
+        goods = {
+            [250050] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [204007] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 1,
+        grid = 1,
+        priceVal = {
+            [1] = 30,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 600,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204007,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510223] = 5,
+            [570004] = 3,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -60231,48 +59980,6 @@ return {
         serLimit = 0,
         limitVal = 1,
         des = "",
-    },
-    [307016] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 2,
-            [2] = 2,
-            [3] = 2,
-        },
-        buyBeginTime = {
-        },
-        storeId = 307000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 307016,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 533201,
-            [2] = 533203,
-            [3] = 533205,
-        },
-        goods = {
-            [520226] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 13200239,
-        sellDescribtion = "",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "13200269",
     },
     [326421] = {
         batchBuy = true,
@@ -60314,68 +60021,18 @@ return {
         limitVal = 1,
         des = "",
     },
-    [550033] = {
+    [120611] = {
         batchBuy = true,
         buyEndTime = {
-            min = 59,
-            year = 2021,
-            month = 3,
-            sec = 59,
-            hour = 23,
-            day = 15,
         },
-        order = 14,
-        grid = 1,
+        order = 7,
+        grid = 6,
         priceVal = {
-            [1] = 1,
-        },
-        buyBeginTime = {
-            min = 0,
-            year = 2021,
-            month = 2,
-            sec = 0,
-            hour = 0,
-            day = 5,
-        },
-        storeId = 310000,
-        weight = 10000,
-        limitType = 0,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 550033,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 501018,
-        },
-        goods = {
-            [580304] = 1,
-        },
-        showBeginTime = "2021-02-05 00:00:00",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "",
-        showEndTime = "2021-03-15 23:59:59",
-        serLimit = 0,
-        limitVal = 0,
-        des = "",
-    },
-    [110340] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 60,
+            [1] = 600,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
+        storeId = 120000,
         weight = 500,
         limitType = 1,
         openContType = 1,
@@ -60385,56 +60042,96 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110340,
+        id = 120611,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 570029,
         },
         goods = {
-            [510313] = 3,
+            [250060] = 1,
         },
         showBeginTime = "",
-        openContVal = 30,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [120507] = {
+    [326438] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 6,
-        grid = 5,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 360,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 120000,
-        weight = 850,
+        storeId = 204000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326438,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510229] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [204107] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 30,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 600,
+        limitType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 120507,
+        id = 204107,
         sellTimeType = 1,
         priceType = {
-            [1] = 570029,
+            [1] = 500002,
         },
         goods = {
-            [250056] = 1,
+            [570004] = 3,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -60518,14 +60215,14 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110210] = {
+    [110341] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 20,
+            [1] = 60,
         },
         buyBeginTime = {
         },
@@ -60539,16 +60236,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110210,
+        id = 110341,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510313] = 1,
+            [510302] = 3,
         },
         showBeginTime = "",
-        openContVal = 30,
+        openContVal = 40,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -60556,39 +60253,41 @@ return {
         limitVal = 1,
         des = "",
     },
-    [120701] = {
+    [326466] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 8,
-        grid = 7,
+        order = 9,
+        grid = 0,
         priceVal = {
-            [1] = 360,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 120000,
-        weight = 850,
+        storeId = 204000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
+            group = 2,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 120701,
+        id = 326466,
         sellTimeType = 1,
         priceType = {
-            [1] = 570029,
+            [1] = 500002,
         },
         goods = {
-            [250050] = 1,
+            [570015] = 10,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -60634,18 +60333,61 @@ return {
         limitVal = 1,
         des = "",
     },
-    [120612] = {
-        batchBuy = true,
+    [170210] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 7,
-        grid = 6,
+        order = 10,
+        grid = 10,
         priceVal = {
-            [1] = 600,
+            [1] = 120,
         },
         buyBeginTime = {
         },
-        storeId = 120000,
+        storeId = 170001,
+        weight = 10000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+            tipType = 1,
+            limitItemId = {
+                [1] = 570233,
+            },
+            tipId = 14300302,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 170210,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 501051,
+        },
+        goods = {
+            [570233] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110224] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 40,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
         weight = 500,
         limitType = 1,
         openContType = 1,
@@ -60655,49 +60397,37 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 120612,
+        id = 110224,
         sellTimeType = 1,
         priceType = {
-            [1] = 570029,
+            [1] = 570002,
         },
         goods = {
-            [250061] = 1,
+            [510308] = 2,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 20,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [550031] = {
-        batchBuy = true,
+    [110508] = {
+        batchBuy = false,
         buyEndTime = {
-            min = 59,
-            year = 2021,
-            month = 3,
-            sec = 59,
-            hour = 23,
-            day = 15,
         },
-        order = 12,
-        grid = 1,
+        order = 5,
+        grid = 5,
         priceVal = {
-            [1] = 1,
+            [1] = 20,
         },
         buyBeginTime = {
-            min = 0,
-            year = 2021,
-            month = 2,
-            sec = 0,
-            hour = 0,
-            day = 5,
         },
-        storeId = 310000,
-        weight = 10000,
-        limitType = 0,
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -60705,56 +60435,18 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 550031,
+        id = 110508,
         sellTimeType = 1,
         priceType = {
-            [1] = 501018,
+            [1] = 570002,
         },
         goods = {
-            [580302] = 1,
-        },
-        showBeginTime = "2021-02-05 00:00:00",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "",
-        showEndTime = "2021-03-15 23:59:59",
-        serLimit = 0,
-        limitVal = 0,
-        des = "",
-    },
-    [204109] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 30,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 600,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204109,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570032] = 1,
+            [510307] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 20,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -60836,7 +60528,7 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326470] = {
+    [326428] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -60859,13 +60551,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326470,
+        id = 326428,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [561001] = 50,
+            [510219] = 5,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -60876,36 +60568,36 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326466] = {
+    [326213] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 9,
+        order = 10,
         grid = 0,
         priceVal = {
-            [1] = 50,
+            [1] = 90,
         },
         buyBeginTime = {
         },
         storeId = 204000,
-        weight = 600,
+        weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 700,
+            group = 1,
+            discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326466,
+        id = 326213,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [570015] = 10,
+            [555015] = 3,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -60956,6 +60648,44 @@ return {
         limitVal = 1,
         des = "",
     },
+    [110211] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 20,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110211,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510302] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 40,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [120702] = {
         batchBuy = true,
         buyEndTime = {
@@ -60994,74 +60724,34 @@ return {
         limitVal = 1,
         des = "",
     },
-    [203316] = {
+    [204818] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 4,
-        grid = 4,
+        order = 9,
+        grid = 9,
         priceVal = {
-            [1] = 80,
+            [1] = 100,
         },
         buyBeginTime = {
         },
-        storeId = 202000,
-        weight = 600,
+        storeId = 203000,
+        weight = 200,
         limitType = 1,
-        openContType = 4,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 203316,
+        id = 204818,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510314] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326214] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 80,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 1,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326214,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555013] = 10,
+            [555025] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -61150,14 +60840,53 @@ return {
         limitVal = 1,
         des = "",
     },
-    [143003] = {
-        batchBuy = true,
+    [326128] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 9,
-        grid = 25,
+        order = 4,
+        grid = 4,
         priceVal = {
-            [1] = 5,
+            [1] = 15,
+        },
+        buyBeginTime = {
+        },
+        storeId = 191000,
+        weight = 1,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326128,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580019,
+        },
+        goods = {
+            [240009] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 10,
+        des = "",
+    },
+    [142203] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 6,
+        grid = 22,
+        priceVal = {
+            [1] = 2000,
+            [2] = 5,
         },
         buyBeginTime = {
         },
@@ -61171,54 +60900,17 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 143003,
+        id = 142203,
         sellTimeType = 1,
         priceType = {
             [1] = 570101,
+            [2] = 570107,
         },
         goods = {
-            [551103] = 1,
+            [250125] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 50,
-        des = "",
-    },
-    [110211] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110211,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510302] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 40,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -61266,99 +60958,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326310] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 25,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 700,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 1,
-            discountWeight = 500,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326310,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555002] = 5,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326208] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 100,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 1,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326208,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555029] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [204119] = {
+    [204118] = {
         batchBuy = true,
         buyEndTime = {
         },
         order = 2,
         grid = 2,
         priceVal = {
-            [1] = 200,
+            [1] = 24,
         },
         buyBeginTime = {
         },
         storeId = 203000,
-        weight = 75,
+        weight = 500,
         limitType = 1,
         openContType = 5,
         ext = {
@@ -61367,13 +60979,93 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204119,
+        id = 204118,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [570105] = 1,
+            [555010] = 300,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326432] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326432,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510223] = 5,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326470] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326470,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [561001] = 50,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -61498,36 +61190,36 @@ return {
         limitVal = 30,
         des = "",
     },
-    [326424] = {
+    [326314] = {
         batchBuy = true,
         buyEndTime = {
         },
         order = 10,
         grid = 0,
         priceVal = {
-            [1] = 240,
+            [1] = 10,
         },
         buyBeginTime = {
         },
         storeId = 204000,
-        weight = 500,
+        weight = 700,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 600,
+            group = 1,
+            discountWeight = 500,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326424,
+        id = 326314,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510318] = 3,
+            [555001] = 10,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -61578,42 +61270,48 @@ return {
         limitVal = 1,
         des = "",
     },
-    [312003] = {
+    [540002] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 2,
+        grid = 1,
         priceVal = {
-            [1] = 10,
+            [1] = 1000,
         },
         buyBeginTime = {
         },
-        storeId = 312000,
+        storeId = 540000,
         weight = 1000,
-        limitType = 1,
+        limitType = 3,
         openContType = 1,
         ext = {
+            date = "11月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104603,
+                },
+            },
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 312003,
+        id = 540002,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 500075,
         },
         goods = {
-            [580155] = 1,
+            [250148] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 2,
+        limitVal = 1,
         des = "",
     },
     [308002] = {
@@ -61654,19 +61352,19 @@ return {
         limitVal = 99,
         des = "",
     },
-    [131401] = {
-        batchBuy = true,
+    [110409] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 14,
-        grid = 14,
+        order = 4,
+        grid = 4,
         priceVal = {
-            [1] = 6,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 130000,
-        weight = 1000,
+        storeId = 110000,
+        weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -61675,21 +61373,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 131401,
+        id = 110409,
         sellTimeType = 1,
         priceType = {
-            [1] = 570005,
+            [1] = 570002,
         },
         goods = {
-            [570014] = 20,
+            [510308] = 1,
         },
         showBeginTime = "",
-        openContVal = 99,
+        openContVal = 20,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 3,
+        limitVal = 1,
         des = "",
     },
     [326430] = {
@@ -61962,39 +61660,41 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110134] = {
-        batchBuy = false,
+    [326306] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 36,
+            [1] = 30,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 1000,
+        storeId = 204000,
+        weight = 700,
         limitType = 1,
         openContType = 1,
         ext = {
+            group = 1,
+            discountWeight = 500,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110134,
+        id = 326306,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510309] = 3,
+            [555003] = 3,
         },
         showBeginTime = "",
-        openContVal = 10,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -62114,44 +61814,41 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326136] = {
-        batchBuy = false,
+    [326206] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 12,
-        grid = 12,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 2000,
+            [1] = 100,
         },
         buyBeginTime = {
         },
-        storeId = 191000,
-        weight = 1,
-        limitType = 3,
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
         openContType = 1,
         ext = {
-            tipType = 2,
-            limitItemId = {
-                [1] = 410209,
-            },
-            tipId = 14300303,
+            group = 1,
+            discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326136,
+        id = 326206,
         sellTimeType = 1,
         priceType = {
-            [1] = 580019,
+            [1] = 500002,
         },
         goods = {
-            [410209] = 1,
+            [555027] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -62427,14 +62124,14 @@ return {
         limitVal = 1,
         des = "",
     },
-    [307015] = {
+    [307001] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 2,
+            [1] = 3,
         },
         buyBeginTime = {
         },
@@ -62448,22 +62145,22 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 307015,
+        id = 307001,
         sellTimeType = 1,
         priceType = {
-            [1] = 580101,
+            [1] = 580102,
         },
         goods = {
             [520225] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13200238,
+        title = 13200224,
         sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "13200268",
+        des = "13200254",
     },
     [326435] = {
         batchBuy = true,
@@ -62581,34 +62278,36 @@ return {
         limitVal = 1,
         des = "",
     },
-    [204014] = {
+    [326252] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 40,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 203000,
-        weight = 800,
+        storeId = 204000,
+        weight = 600,
         limitType = 1,
-        openContType = 5,
+        openContType = 1,
         ext = {
+            group = 1,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204014,
+        id = 326252,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510105] = 2,
+            [510221] = 5,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -62733,19 +62432,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [130501] = {
+    [110213] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 5,
-        grid = 5,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 300,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 130000,
-        weight = 1000,
+        storeId = 110000,
+        weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -62754,16 +62453,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 130501,
+        id = 110213,
         sellTimeType = 1,
         priceType = {
-            [1] = 570005,
+            [1] = 570002,
         },
         goods = {
-            [250075] = 1,
+            [510316] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 30,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -62811,39 +62510,39 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110341] = {
-        batchBuy = false,
+    [204016] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 60,
+            [1] = 24,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
+        storeId = 203000,
         weight = 500,
         limitType = 1,
-        openContType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110341,
+        id = 204016,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510302] = 3,
+            [570101] = 30,
         },
         showBeginTime = "",
-        openContVal = 40,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -62887,43 +62586,43 @@ return {
         limitVal = 1,
         des = "",
     },
-    [204002] = {
-        batchBuy = true,
+    [313002] = {
+        batchBuy = false,
         buyEndTime = {
         },
         order = 1,
         grid = 1,
         priceVal = {
-            [1] = 200,
+            [1] = 3,
         },
         buyBeginTime = {
         },
-        storeId = 203000,
-        weight = 75,
+        storeId = 313000,
+        weight = 1000,
         limitType = 1,
-        openContType = 5,
+        openContType = 1,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204002,
+        id = 313002,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 580231,
         },
         goods = {
-            [570103] = 1,
+            [500047] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
+        title = 13311573,
+        sellDescribtion = "",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "",
+        des = "13311568",
     },
     [204201] = {
         batchBuy = true,
@@ -63039,46 +62738,39 @@ return {
         limitVal = 5,
         des = "",
     },
-    [530002] = {
+    [110417] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 1,
+        order = 4,
+        grid = 4,
         priceVal = {
-            [1] = 1200,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 530000,
+        storeId = 110000,
         weight = 1000,
-        limitType = 3,
+        limitType = 1,
         openContType = 1,
         ext = {
-            date = "2月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104607,
-                },
-            },
-            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 530002,
+        id = 110417,
         sellTimeType = 1,
         priceType = {
-            [1] = 500075,
+            [1] = 570002,
         },
         goods = {
-            [306002] = 1,
+            [510306] = 2,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 5,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -63124,20 +62816,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [101002] = {
+    [306008] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 16,
-        grid = 10,
+        order = 8,
+        grid = 8,
         priceVal = {
-            [1] = 15000,
+            [1] = 8000,
         },
         buyBeginTime = {
         },
-        storeId = 100000,
-        weight = 1250,
-        limitType = 1,
+        storeId = 306000,
+        weight = 1,
+        limitType = 3,
         openContType = 1,
         ext = {
         },
@@ -63145,21 +62837,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 101002,
+        id = 306008,
         sellTimeType = 1,
         priceType = {
-            [1] = 500001,
+            [1] = 500066,
         },
         goods = {
-            [510218] = 3,
+            [310003] = 1,
         },
         showBeginTime = "",
-        openContVal = 30,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 3,
+        limitVal = 1,
         des = "",
     },
     [308012] = {
@@ -63200,41 +62892,44 @@ return {
         limitVal = 3,
         des = "",
     },
-    [326416] = {
-        batchBuy = true,
+    [170212] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 9,
-        grid = 0,
+        order = 12,
+        grid = 12,
         priceVal = {
-            [1] = 180,
+            [1] = 300,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
+        storeId = 170001,
+        weight = 10000,
+        limitType = 3,
         openContType = 1,
         ext = {
-            group = 2,
-            discountWeight = 600,
+            tipType = 2,
+            limitItemId = {
+                [1] = 410305,
+            },
+            tipId = 14300303,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326416,
+        id = 170212,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 501051,
         },
         goods = {
-            [510301] = 3,
+            [410305] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -63354,39 +63049,34 @@ return {
         limitVal = 2,
         des = "",
     },
-    [170212] = {
-        batchBuy = false,
+    [306009] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 12,
-        grid = 12,
+        order = 9,
+        grid = 9,
         priceVal = {
-            [1] = 300,
+            [1] = 2500,
         },
         buyBeginTime = {
         },
-        storeId = 170001,
-        weight = 10000,
+        storeId = 306000,
+        weight = 1,
         limitType = 3,
         openContType = 1,
         ext = {
-            tipType = 2,
-            limitItemId = {
-                [1] = 410305,
-            },
-            tipId = 14300303,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 170212,
+        id = 306009,
         sellTimeType = 1,
         priceType = {
-            [1] = 501051,
+            [1] = 500066,
         },
         goods = {
-            [410305] = 1,
+            [599707] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -63394,7 +63084,7 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 3,
         des = "",
     },
     [326441] = {
@@ -63437,20 +63127,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [553016] = {
-        batchBuy = true,
+    [110214] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 17,
-        grid = 17,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 200,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 323000,
-        weight = 1000,
-        limitType = 3,
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -63458,18 +63148,18 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 553016,
+        id = 110214,
         sellTimeType = 1,
         priceType = {
-            [1] = 500059,
+            [1] = 570002,
         },
         goods = {
-            [521006] = 1,
+            [510317] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 40,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -63513,19 +63203,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110214] = {
+    [110342] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 20,
+            [1] = 48,
         },
         buyBeginTime = {
         },
         storeId = 110000,
-        weight = 500,
+        weight = 1000,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -63534,16 +63224,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110214,
+        id = 110342,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510317] = 1,
+            [510310] = 3,
         },
         showBeginTime = "",
-        openContVal = 40,
+        openContVal = 30,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -63665,19 +63355,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110342] = {
+    [110108] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 48,
+            [1] = 20,
         },
         buyBeginTime = {
         },
         storeId = 110000,
-        weight = 1000,
+        weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -63686,16 +63376,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110342,
+        id = 110108,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510310] = 3,
+            [510307] = 1,
         },
         showBeginTime = "",
-        openContVal = 30,
+        openContVal = 20,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -63743,19 +63433,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [100305] = {
+    [101003] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 9,
-        grid = 3,
+        order = 16,
+        grid = 10,
         priceVal = {
-            [1] = 25,
+            [1] = 15000,
         },
         buyBeginTime = {
         },
         storeId = 100000,
-        weight = 2000,
+        weight = 1250,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -63764,21 +63454,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 100305,
+        id = 101003,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 500001,
         },
         goods = {
-            [510105] = 1,
+            [510219] = 3,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 30,
         title = 0,
         sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 5,
+        limitVal = 3,
         des = "",
     },
     [308016] = {
@@ -63819,42 +63509,44 @@ return {
         limitVal = 50,
         des = "",
     },
-    [306012] = {
+    [326420] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 12,
-        grid = 12,
+        order = 9,
+        grid = 0,
         priceVal = {
-            [1] = 1000,
+            [1] = 240,
         },
         buyBeginTime = {
         },
-        storeId = 306000,
-        weight = 1,
-        limitType = 3,
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
         openContType = 1,
         ext = {
+            group = 2,
+            discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 306012,
+        id = 326420,
         sellTimeType = 1,
         priceType = {
-            [1] = 500066,
+            [1] = 500002,
         },
         goods = {
-            [599603] = 1,
+            [510310] = 3,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 3,
+        limitVal = 1,
         des = "",
     },
     [110308] = {
@@ -63971,42 +63663,42 @@ return {
         limitVal = 50,
         des = "",
     },
-    [143007] = {
+    [204014] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 13,
-        grid = 29,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 5,
+            [1] = 40,
         },
         buyBeginTime = {
         },
-        storeId = 140000,
-        weight = 1000,
+        storeId = 203000,
+        weight = 800,
         limitType = 1,
-        openContType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 143007,
+        id = 204014,
         sellTimeType = 1,
         priceType = {
-            [1] = 570101,
+            [1] = 500002,
         },
         goods = {
-            [551107] = 1,
+            [510105] = 2,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 50,
+        limitVal = 1,
         des = "",
     },
     [326445] = {
@@ -64289,7 +63981,7 @@ return {
         limitVal = 10,
         des = "",
     },
-    [110313] = {
+    [110309] = {
         batchBuy = false,
         buyEndTime = {
         },
@@ -64310,16 +64002,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110313,
+        id = 110309,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510316] = 1,
+            [510308] = 1,
         },
         showBeginTime = "",
-        openContVal = 30,
+        openContVal = 20,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -64557,6 +64249,46 @@ return {
         limitVal = 1,
         des = "",
     },
+    [326416] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 9,
+        grid = 0,
+        priceVal = {
+            [1] = 180,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326416,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510301] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [311011] = {
         batchBuy = true,
         buyEndTime = {
@@ -64593,44 +64325,6 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 50,
-        des = "",
-    },
-    [110216] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110216,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510304] = 2,
-        },
-        showBeginTime = "",
-        openContVal = 5,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
         des = "",
     },
     [326449] = {
@@ -64713,44 +64407,6 @@ return {
         limitVal = 1,
         des = "",
     },
-    [204204] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 15,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 500,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204204,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570012] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [204222] = {
         batchBuy = true,
         buyEndTime = {
@@ -64787,6 +64443,44 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
+        des = "",
+    },
+    [101005] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 16,
+        grid = 10,
+        priceVal = {
+            [1] = 15000,
+        },
+        buyBeginTime = {
+        },
+        storeId = 100000,
+        weight = 1250,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 101005,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500001,
+        },
+        goods = {
+            [510221] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 30,
+        title = 0,
+        sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 3,
         des = "",
     },
     [204207] = {
@@ -64865,44 +64559,6 @@ return {
         limitVal = 1,
         des = "",
     },
-    [101005] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 16,
-        grid = 10,
-        priceVal = {
-            [1] = 15000,
-        },
-        buyBeginTime = {
-        },
-        storeId = 100000,
-        weight = 1250,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 101005,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500001,
-        },
-        goods = {
-            [510221] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2002",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
     [326490] = {
         batchBuy = true,
         buyEndTime = {
@@ -64943,6 +64599,44 @@ return {
         limitVal = 1,
         des = "",
     },
+    [143007] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 13,
+        grid = 29,
+        priceVal = {
+            [1] = 5,
+        },
+        buyBeginTime = {
+        },
+        storeId = 140000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 143007,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570101,
+        },
+        goods = {
+            [551107] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 50,
+        des = "",
+    },
     [326451] = {
         batchBuy = true,
         buyEndTime = {
@@ -64978,44 +64672,6 @@ return {
         openContVal = 1,
         title = 0,
         sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110244] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 60,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110244,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510317] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 40,
-        title = 0,
-        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -65059,42 +64715,82 @@ return {
         limitVal = 1,
         des = "",
     },
-    [101006] = {
+    [326493] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 16,
-        grid = 10,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 15000,
+            [1] = 10,
         },
         buyBeginTime = {
         },
-        storeId = 100000,
-        weight = 1250,
+        storeId = 204000,
+        weight = 700,
         limitType = 1,
         openContType = 1,
+        ext = {
+            group = 2,
+            discountWeight = 500,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326493,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [651014] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [204116] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 24,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 500,
+        limitType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 101006,
+        id = 204116,
         sellTimeType = 1,
         priceType = {
-            [1] = 500001,
+            [1] = 500002,
         },
         goods = {
-            [510222] = 3,
+            [570101] = 30,
         },
         showBeginTime = "",
-        openContVal = 30,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 3,
+        limitVal = 1,
         des = "",
     },
     [204208] = {
@@ -65173,19 +64869,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110110] = {
-        batchBuy = false,
+    [101006] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 16,
+        grid = 10,
         priceVal = {
-            [1] = 20,
+            [1] = 15000,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 500,
+        storeId = 100000,
+        weight = 1250,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -65194,36 +64890,37 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110110,
+        id = 101006,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500001,
         },
         goods = {
-            [510313] = 1,
+            [510222] = 3,
         },
         showBeginTime = "",
         openContVal = 30,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 3,
         des = "",
     },
-    [170220] = {
+    [305003] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 20,
-        grid = 20,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 3,
+            [1] = 1,
+            [2] = 1,
         },
         buyBeginTime = {
         },
-        storeId = 170001,
-        weight = 10000,
+        storeId = 305000,
+        weight = 1,
         limitType = 3,
         openContType = 1,
         ext = {
@@ -65232,13 +64929,14 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 170220,
+        id = 305003,
         sellTimeType = 1,
         priceType = {
-            [1] = 501051,
+            [1] = 580078,
+            [2] = 580079,
         },
         goods = {
-            [510105] = 1,
+            [599601] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -65246,7 +64944,7 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 30,
+        limitVal = 3,
         des = "",
     },
     [326453] = {
@@ -65327,19 +65025,19 @@ return {
         limitVal = 1,
         des = "13200255",
     },
-    [110114] = {
+    [110218] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 20,
+            [1] = 24,
         },
         buyBeginTime = {
         },
         storeId = 110000,
-        weight = 500,
+        weight = 1000,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -65348,16 +65046,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110114,
+        id = 110218,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510317] = 1,
+            [510301] = 2,
         },
         showBeginTime = "",
-        openContVal = 40,
+        openContVal = 10,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -65365,44 +65063,42 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326258] = {
+    [143001] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 7,
+        grid = 23,
         priceVal = {
-            [1] = 50,
+            [1] = 5,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
+        storeId = 140000,
+        weight = 1000,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326258,
+        id = 143001,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570101,
         },
         goods = {
-            [510227] = 2,
+            [551101] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 50,
         des = "",
     },
     [204209] = {
@@ -65481,19 +65177,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [101007] = {
-        batchBuy = true,
+    [110244] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 16,
-        grid = 10,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 15000,
+            [1] = 60,
         },
         buyBeginTime = {
         },
-        storeId = 100000,
-        weight = 1250,
+        storeId = 110000,
+        weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -65502,56 +65198,56 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 101007,
+        id = 110244,
         sellTimeType = 1,
         priceType = {
-            [1] = 500001,
+            [1] = 570002,
         },
         goods = {
-            [510223] = 3,
+            [510317] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 40,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110112] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 1,
+        grid = 1,
+        priceVal = {
+            [1] = 16,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110112,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510310] = 1,
         },
         showBeginTime = "",
         openContVal = 30,
         title = 0,
-        sellDescribtion = "2002",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
-    [120603] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 7,
-        grid = 6,
-        priceVal = {
-            [1] = 360,
-        },
-        buyBeginTime = {
-        },
-        storeId = 120000,
-        weight = 850,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 120603,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570029,
-        },
-        goods = {
-            [250052] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -65635,6 +65331,44 @@ return {
         limitVal = 1,
         des = "13200257",
     },
+    [110113] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 1,
+        grid = 1,
+        priceVal = {
+            [1] = 20,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110113,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510316] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 30,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [110219] = {
         batchBuy = false,
         buyEndTime = {
@@ -65668,44 +65402,6 @@ return {
         openContVal = 10,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [204614] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 7,
-        grid = 7,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 600,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204614,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [520030] = 5,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -65787,42 +65483,44 @@ return {
         limitVal = 1,
         des = "",
     },
-    [550021] = {
+    [326310] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 21,
-        grid = 1,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 100,
+            [1] = 25,
         },
         buyBeginTime = {
         },
-        storeId = 550000,
-        weight = 1000,
-        limitType = 3,
+        storeId = 204000,
+        weight = 700,
+        limitType = 1,
         openContType = 1,
         ext = {
+            group = 1,
+            discountWeight = 500,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 550021,
+        id = 326310,
         sellTimeType = 1,
         priceType = {
-            [1] = 500075,
+            [1] = 500002,
         },
         goods = {
-            [520048] = 1,
+            [555002] = 5,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 5,
+        limitVal = 1,
         des = "",
     },
     [160701] = {
@@ -65941,58 +65639,20 @@ return {
         limitVal = 1,
         des = "13200259",
     },
-    [204112] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 32,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 800,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204112,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [510155] = 2,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [160501] = {
+    [110114] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 7,
-        grid = 5,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 200,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 160000,
-        weight = 1000,
-        limitType = 3,
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -66000,18 +65660,56 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 160501,
+        id = 110114,
         sellTimeType = 1,
         priceType = {
-            [1] = 570004,
+            [1] = 570002,
         },
         goods = {
-            [410404] = 1,
+            [510317] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 40,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110245] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 48,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110245,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510318] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 40,
+        title = 0,
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -66093,33 +65791,57 @@ return {
         limitVal = 1,
         des = "",
     },
-    [550047] = {
-        batchBuy = false,
+    [204420] = {
+        batchBuy = true,
         buyEndTime = {
-            min = 59,
-            year = 2021,
-            month = 3,
-            sec = 59,
-            hour = 23,
-            day = 15,
         },
-        order = 20,
-        grid = 1,
+        order = 5,
+        grid = 5,
         priceVal = {
-            [1] = 33,
-            [2] = 33,
-            [3] = 33,
+            [1] = 100,
         },
         buyBeginTime = {
-            min = 0,
-            year = 2021,
-            month = 2,
-            sec = 0,
-            hour = 0,
-            day = 5,
         },
-        storeId = 310000,
-        weight = 10000,
+        storeId = 203000,
+        weight = 300,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204420,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510308] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [160501] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 7,
+        grid = 5,
+        priceVal = {
+            [1] = 200,
+        },
+        buyBeginTime = {
+        },
+        storeId = 160000,
+        weight = 1000,
         limitType = 3,
         openContType = 1,
         ext = {
@@ -66128,58 +65850,18 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 550047,
+        id = 160501,
         sellTimeType = 1,
         priceType = {
-            [1] = 580307,
-            [2] = 580308,
-            [3] = 580309,
+            [1] = 570004,
         },
         goods = {
-            [599605] = 1,
+            [410404] = 1,
         },
-        showBeginTime = "2021-02-05 00:00:00",
+        showBeginTime = "",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2004",
-        showEndTime = "2021-03-15 23:59:59",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110220] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 32,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110220,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510311] = 2,
-        },
-        showBeginTime = "",
-        openContVal = 15,
-        title = 0,
-        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -66267,52 +65949,14 @@ return {
         limitVal = 1,
         des = "13200261",
     },
-    [204606] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 7,
-        grid = 7,
-        priceVal = {
-            [1] = 24,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 400,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204606,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555003] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110635] = {
+    [110604] = {
         batchBuy = false,
         buyEndTime = {
         },
         order = 6,
         grid = 6,
         priceVal = {
-            [1] = 48,
+            [1] = 12,
         },
         buyBeginTime = {
         },
@@ -66326,18 +65970,56 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110635,
+        id = 110604,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510311] = 3,
+            [510309] = 1,
         },
         showBeginTime = "",
-        openContVal = 15,
+        openContVal = 10,
         title = 0,
         sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [204614] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 7,
+        grid = 7,
+        priceVal = {
+            [1] = 20,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 600,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204614,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [520030] = 5,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -66419,6 +66101,44 @@ return {
         limitVal = 1,
         des = "",
     },
+    [120101] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 1,
+        grid = 1,
+        priceVal = {
+            [1] = 10,
+        },
+        buyBeginTime = {
+        },
+        storeId = 120000,
+        weight = 10000,
+        limitType = 0,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 120101,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570001,
+        },
+        goods = {
+            [570029] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 0,
+        des = "",
+    },
     [204001] = {
         batchBuy = true,
         buyEndTime = {
@@ -66452,44 +66172,6 @@ return {
         openContVal = 1,
         title = 0,
         sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326124] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 5,
-        grid = 5,
-        priceVal = {
-            [1] = 1000,
-        },
-        buyBeginTime = {
-        },
-        storeId = 328000,
-        weight = 1,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326124,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570078,
-        },
-        goods = {
-            [575013] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -66573,39 +66255,46 @@ return {
         limitVal = 1,
         des = "13200263",
     },
-    [110221] = {
+    [510017] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 11,
+        grid = 1,
         priceVal = {
-            [1] = 32,
+            [1] = 128,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
+        storeId = 510000,
         weight = 1000,
-        limitType = 1,
+        limitType = 3,
         openContType = 1,
         ext = {
+            date = "3月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104609,
+                },
+            },
+            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110221,
+        id = 510017,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500076,
         },
         goods = {
-            [510312] = 2,
+            [410109] = 1,
         },
         showBeginTime = "",
-        openContVal = 15,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -66725,6 +66414,44 @@ return {
         limitVal = 1,
         des = "",
     },
+    [110221] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 32,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110221,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510312] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 15,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [140801] = {
         batchBuy = true,
         buyEndTime = {
@@ -66773,44 +66500,6 @@ return {
         showEndTime = "2019-06-03 23:59:59",
         serLimit = 0,
         limitVal = 10,
-        des = "",
-    },
-    [204216] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 80,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 400,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204216,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [510314] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
         des = "",
     },
     [326463] = {
@@ -66891,19 +66580,19 @@ return {
         limitVal = 1,
         des = "13200265",
     },
-    [204620] = {
+    [204003] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 7,
-        grid = 7,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 40,
+            [1] = 200,
         },
         buyBeginTime = {
         },
         storeId = 203000,
-        weight = 100,
+        weight = 75,
         limitType = 1,
         openContType = 5,
         ext = {
@@ -66912,13 +66601,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204620,
+        id = 204003,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [520033] = 1,
+            [570104] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -67043,77 +66732,79 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110127] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 1,
-        grid = 1,
-        priceVal = {
-            [1] = 32,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110127,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510310] = 2,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [120801] = {
+    [204606] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 1,
-        grid = 8,
+        order = 7,
+        grid = 7,
         priceVal = {
-            [1] = 50,
+            [1] = 24,
         },
         buyBeginTime = {
         },
-        storeId = 120000,
-        weight = 1000,
+        storeId = 203000,
+        weight = 400,
         limitType = 1,
-        openContType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 120801,
+        id = 204606,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [570034] = 1,
+            [555003] = 3,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326210] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 100,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 1,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326210,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [561017] = 10,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -67197,39 +66888,39 @@ return {
         limitVal = 1,
         des = "13200267",
     },
-    [204110] = {
-        batchBuy = true,
+    [110421] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 4,
+        grid = 4,
         priceVal = {
-            [1] = 24,
+            [1] = 32,
         },
         buyBeginTime = {
         },
-        storeId = 203000,
-        weight = 300,
+        storeId = 110000,
+        weight = 1000,
         limitType = 1,
-        openContType = 5,
+        openContType = 1,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204110,
+        id = 110421,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [570032] = 1,
+            [510312] = 2,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 15,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -67349,6 +67040,44 @@ return {
         limitVal = 1,
         des = "",
     },
+    [204216] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 3,
+        grid = 3,
+        priceVal = {
+            [1] = 80,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 400,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204216,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510314] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [204005] = {
         batchBuy = true,
         buyEndTime = {
@@ -67382,44 +67111,6 @@ return {
         openContVal = 1,
         title = 0,
         sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110512] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 5,
-        grid = 5,
-        priceVal = {
-            [1] = 16,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110512,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510310] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -67693,39 +67384,39 @@ return {
         limitVal = 1,
         des = "",
     },
-    [204818] = {
-        batchBuy = true,
+    [110321] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 9,
-        grid = 9,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 100,
+            [1] = 32,
         },
         buyBeginTime = {
         },
-        storeId = 203000,
-        weight = 200,
+        storeId = 110000,
+        weight = 1000,
         limitType = 1,
-        openContType = 5,
+        openContType = 1,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204818,
+        id = 110321,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [555025] = 1,
+            [510312] = 2,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 15,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -67813,39 +67504,39 @@ return {
         limitVal = 1,
         des = "13200271",
     },
-    [190008] = {
+    [203315] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 8,
-        grid = 8,
+        order = 4,
+        grid = 4,
         priceVal = {
-            [1] = 12000,
+            [1] = 64,
         },
         buyBeginTime = {
         },
-        storeId = 190000,
-        weight = 10000,
+        storeId = 202000,
+        weight = 400,
         limitType = 1,
-        openContType = 3,
+        openContType = 4,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
-        tag = 0,
-        id = 190008,
+        tag = 8000,
+        id = 203315,
         sellTimeType = 1,
         priceType = {
-            [1] = 500037,
+            [1] = 500002,
         },
         goods = {
-            [250108] = 1,
+            [510312] = 1,
         },
         showBeginTime = "",
-        openContVal = 3,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2006",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -67965,19 +67656,19 @@ return {
         limitVal = 1,
         des = "13200272",
     },
-    [203315] = {
+    [203316] = {
         batchBuy = true,
         buyEndTime = {
         },
         order = 4,
         grid = 4,
         priceVal = {
-            [1] = 64,
+            [1] = 80,
         },
         buyBeginTime = {
         },
         storeId = 202000,
-        weight = 400,
+        weight = 600,
         limitType = 1,
         openContType = 4,
         ext = {
@@ -67985,14 +67676,14 @@ return {
         sellTime = {
         },
         autoRefreshCorn = "",
-        tag = 8000,
-        id = 203315,
+        tag = 0,
+        id = 203316,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510312] = 1,
+            [510314] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -68003,19 +67694,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110224] = {
+    [110512] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 5,
+        grid = 5,
         priceVal = {
-            [1] = 40,
+            [1] = 16,
         },
         buyBeginTime = {
         },
         storeId = 110000,
-        weight = 500,
+        weight = 1000,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -68024,16 +67715,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110224,
+        id = 110512,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510308] = 2,
+            [510310] = 1,
         },
         showBeginTime = "",
-        openContVal = 20,
+        openContVal = 30,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -68117,39 +67808,44 @@ return {
         limitVal = 1,
         des = "13200273",
     },
-    [110608] = {
+    [326052] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 6,
-        grid = 6,
+        order = 3,
+        grid = 20,
         priceVal = {
-            [1] = 20,
+            [1] = 1800,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
+        storeId = 329000,
+        weight = 1,
+        limitType = 3,
+        openContType = 14,
         ext = {
+            tipType = 1,
+            limitItemId = {
+                [1] = 306003,
+            },
+            tipId = 14300302,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110608,
+        id = 326052,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 570078,
         },
         goods = {
-            [510307] = 1,
+            [306003] = 1,
         },
         showBeginTime = "",
-        openContVal = 20,
+        openContVal = 4,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -68269,19 +67965,57 @@ return {
         limitVal = 1,
         des = "13200274",
     },
-    [204009] = {
+    [110608] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 6,
+        grid = 6,
+        priceVal = {
+            [1] = 20,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110608,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510307] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 20,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [204808] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 9,
+        grid = 9,
         priceVal = {
-            [1] = 30,
+            [1] = 24,
         },
         buyBeginTime = {
         },
         storeId = 203000,
-        weight = 600,
+        weight = 300,
         limitType = 1,
         openContType = 5,
         ext = {
@@ -68290,53 +68024,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204009,
+        id = 204808,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [570032] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326314] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 10,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 700,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 1,
-            discountWeight = 500,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326314,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555001] = 10,
+            [555014] = 2,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -68425,39 +68119,39 @@ return {
         limitVal = 1,
         des = "13200275",
     },
-    [110609] = {
-        batchBuy = false,
+    [204824] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 6,
-        grid = 6,
+        order = 9,
+        grid = 9,
         priceVal = {
-            [1] = 20,
+            [1] = 200,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 500,
+        storeId = 203000,
+        weight = 100,
         limitType = 1,
-        openContType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110609,
+        id = 204824,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510308] = 1,
+            [555031] = 1,
         },
         showBeginTime = "",
-        openContVal = 20,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -68577,79 +68271,77 @@ return {
         limitVal = 1,
         des = "13200276",
     },
-    [326306] = {
-        batchBuy = true,
+    [110225] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 30,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 700,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 1,
-            discountWeight = 500,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326306,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555003] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [204011] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 1,
-        grid = 1,
+        order = 2,
+        grid = 2,
         priceVal = {
             [1] = 40,
         },
         buyBeginTime = {
         },
-        storeId = 203000,
-        weight = 1200,
+        storeId = 110000,
+        weight = 500,
         limitType = 1,
-        openContType = 5,
+        openContType = 1,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204011,
+        id = 110225,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [510155] = 2,
+            [510313] = 2,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 30,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110609] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 6,
+        grid = 6,
+        priceVal = {
+            [1] = 20,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110609,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510308] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 20,
+        title = 0,
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -68731,39 +68423,39 @@ return {
         limitVal = 1,
         des = "13200277",
     },
-    [110226] = {
-        batchBuy = false,
+    [204011] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 1,
+        grid = 1,
         priceVal = {
             [1] = 40,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 500,
+        storeId = 203000,
+        weight = 1200,
         limitType = 1,
-        openContType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110226,
+        id = 204011,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510302] = 2,
+            [510155] = 2,
         },
         showBeginTime = "",
-        openContVal = 40,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -68883,6 +68575,44 @@ return {
         limitVal = 1,
         des = "13200278",
     },
+    [110226] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 40,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110226,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510302] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 40,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [121101] = {
         batchBuy = true,
         buyEndTime = {
@@ -68923,44 +68653,6 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 2,
-        des = "",
-    },
-    [204013] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 1,
-        grid = 1,
-        priceVal = {
-            [1] = 50,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 1200,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204013,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [510105] = 2,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
         des = "",
     },
     [306002] = {
@@ -69039,39 +68731,39 @@ return {
         limitVal = 1,
         des = "13200279",
     },
-    [110227] = {
-        batchBuy = false,
+    [204013] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 32,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 1000,
+        storeId = 203000,
+        weight = 1200,
         limitType = 1,
-        openContType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110227,
+        id = 204013,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510310] = 2,
+            [510105] = 2,
         },
         showBeginTime = "",
-        openContVal = 30,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -69195,18 +68887,18 @@ return {
         limitVal = 1,
         des = "13200280",
     },
-    [313002] = {
+    [312003] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 3,
+            [1] = 10,
         },
         buyBeginTime = {
         },
-        storeId = 313000,
+        storeId = 312000,
         weight = 1000,
         limitType = 1,
         openContType = 1,
@@ -69216,56 +68908,56 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 313002,
+        id = 312003,
         sellTimeType = 1,
         priceType = {
-            [1] = 580158,
+            [1] = 500002,
         },
         goods = {
-            [520225] = 1,
+            [580155] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13311565,
-        sellDescribtion = "",
+        title = 0,
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
-        des = "13311568",
+        limitVal = 2,
+        des = "",
     },
-    [204015] = {
-        batchBuy = true,
+    [110611] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 6,
+        grid = 6,
         priceVal = {
-            [1] = 30,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 203000,
-        weight = 800,
+        storeId = 110000,
+        weight = 500,
         limitType = 1,
-        openContType = 5,
+        openContType = 1,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204015,
+        id = 110611,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [570101] = 30,
+            [510302] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 40,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -69351,7 +69043,7 @@ return {
         limitVal = 1,
         des = "13200281",
     },
-    [306001] = {
+    [204015] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -69362,31 +69054,31 @@ return {
         },
         buyBeginTime = {
         },
-        storeId = 306000,
-        weight = 1,
-        limitType = 3,
-        openContType = 1,
+        storeId = 203000,
+        weight = 800,
+        limitType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 306001,
+        id = 204015,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [500066] = 300,
+            [570101] = 30,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 99,
+        limitVal = 1,
         des = "",
     },
     [203710] = {
@@ -69545,39 +69237,39 @@ return {
         limitVal = 0,
         des = "",
     },
-    [204016] = {
-        batchBuy = true,
+    [110134] = {
+        batchBuy = false,
         buyEndTime = {
         },
         order = 1,
         grid = 1,
         priceVal = {
-            [1] = 24,
+            [1] = 36,
         },
         buyBeginTime = {
         },
-        storeId = 203000,
-        weight = 500,
+        storeId = 110000,
+        weight = 1000,
         limitType = 1,
-        openContType = 5,
+        openContType = 1,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204016,
+        id = 110134,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [570101] = 30,
+            [510309] = 3,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 10,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -69777,6 +69469,51 @@ return {
         limitVal = 1,
         des = "",
     },
+    [530002] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 1,
+        priceVal = {
+            [1] = 1200,
+        },
+        buyBeginTime = {
+        },
+        storeId = 530000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+            date = "2月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104607,
+                },
+            },
+            storeLimit = 1,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 530002,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500075,
+        },
+        goods = {
+            [306002] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [204018] = {
         batchBuy = true,
         buyEndTime = {
@@ -69860,44 +69597,6 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110613] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 6,
-        grid = 6,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110613,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510316] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [101104] = {
         batchBuy = true,
         buyEndTime = {
@@ -69934,6 +69633,44 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 3,
+        des = "",
+    },
+    [110613] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 6,
+        grid = 6,
+        priceVal = {
+            [1] = 20,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110613,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510316] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 30,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
         des = "",
     },
     [530006] = {
@@ -69976,44 +69713,6 @@ return {
         openContVal = 1,
         title = 0,
         sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [150403] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 8,
-        grid = 8,
-        priceVal = {
-            [1] = 30,
-        },
-        buyBeginTime = {
-        },
-        storeId = 150000,
-        weight = 1200,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 150403,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500018,
-        },
-        goods = {
-            [535021] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -70095,110 +69794,58 @@ return {
         limitVal = 1,
         des = "",
     },
-    [510003] = {
-        batchBuy = false,
+    [204019] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 3,
+        order = 1,
         grid = 1,
         priceVal = {
-            [1] = 2000,
+            [1] = 200,
         },
         buyBeginTime = {
         },
-        storeId = 510000,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-            date = "11月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104603,
-                },
-            },
-            storeLimit = 1,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 510003,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500075,
-        },
-        goods = {
-            [410305] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [510007] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 1,
-        priceVal = {
-            [1] = 2000,
-        },
-        buyBeginTime = {
-        },
-        storeId = 510000,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-            date = "3月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104609,
-                },
-            },
-            storeLimit = 1,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 510007,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500075,
-        },
-        goods = {
-            [410212] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110230] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 32,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
+        storeId = 203000,
+        weight = 75,
         limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204019,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [570105] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [554010] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 15,
+        grid = 15,
+        priceVal = {
+            [1] = 5,
+        },
+        buyBeginTime = {
+        },
+        storeId = 322000,
+        weight = 1000,
+        limitType = 3,
         openContType = 1,
         ext = {
         },
@@ -70206,18 +69853,63 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110230,
+        id = 554010,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500057,
         },
         goods = {
-            [510318] = 2,
+            [510105] = 1,
         },
         showBeginTime = "",
-        openContVal = 40,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 12,
+        des = "",
+    },
+    [510001] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 1,
+        grid = 1,
+        priceVal = {
+            [1] = 2000,
+        },
+        buyBeginTime = {
+        },
+        storeId = 510000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+            date = "10月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104601,
+                },
+            },
+            storeLimit = 1,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 510001,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500075,
+        },
+        goods = {
+            [410105] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -70261,46 +69953,39 @@ return {
         limitVal = 10,
         des = "",
     },
-    [530012] = {
+    [110230] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 12,
-        grid = 1,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 1200,
+            [1] = 32,
         },
         buyBeginTime = {
         },
-        storeId = 530000,
+        storeId = 110000,
         weight = 1000,
-        limitType = 3,
+        limitType = 1,
         openContType = 1,
         ext = {
-            date = "3月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104609,
-                },
-            },
-            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 530012,
+        id = 110230,
         sellTimeType = 1,
         priceType = {
-            [1] = 500075,
+            [1] = 570002,
         },
         goods = {
-            [307002] = 1,
+            [510318] = 2,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 40,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -70420,14 +70105,52 @@ return {
         limitVal = 5,
         des = "",
     },
-    [510019] = {
+    [120401] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 5,
+        grid = 4,
+        priceVal = {
+            [1] = 120,
+        },
+        buyBeginTime = {
+        },
+        storeId = 120000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 120401,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570029,
+        },
+        goods = {
+            [240040] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [510011] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 14,
+        order = 18,
         grid = 1,
         priceVal = {
-            [1] = 128,
+            [1] = 2000,
         },
         buyBeginTime = {
         },
@@ -70439,7 +70162,7 @@ return {
             date = "5月商品复刻事件",
             activityList = {
                 [100014] = {
-                    [1] = 104611,
+                    [1] = 104612,
                 },
             },
             storeLimit = 1,
@@ -70448,16 +70171,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 510019,
+        id = 510011,
         sellTimeType = 1,
         priceType = {
-            [1] = 500076,
+            [1] = 500075,
         },
         goods = {
-            [410509] = 1,
+            [411206] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 99,
         title = 0,
         sellDescribtion = "2004",
         showEndTime = "",
@@ -70465,80 +70188,49 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110109] = {
+    [510013] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
+        order = 22,
         grid = 1,
         priceVal = {
-            [1] = 20,
+            [1] = 2000,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
+        storeId = 510000,
+        weight = 1000,
+        limitType = 3,
         openContType = 1,
         ext = {
+            date = "7月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104615,
+                },
+            },
+            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110109,
+        id = 510013,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500075,
         },
         goods = {
-            [510308] = 1,
+            [411208] = 1,
         },
         showBeginTime = "",
-        openContVal = 20,
+        openContVal = 99,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "",
-    },
-    [130701] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 7,
-        grid = 7,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 130000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 130701,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570005,
-        },
-        goods = {
-            [570007] = 20,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
         des = "",
     },
     [101105] = {
@@ -70579,49 +70271,42 @@ return {
         limitVal = 3,
         des = "",
     },
-    [530020] = {
-        batchBuy = false,
+    [130701] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 20,
-        grid = 1,
+        order = 7,
+        grid = 7,
         priceVal = {
-            [1] = 800,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 530000,
+        storeId = 130000,
         weight = 1000,
-        limitType = 3,
+        limitType = 1,
         openContType = 1,
         ext = {
-            date = "6月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104614,
-                },
-            },
-            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 530020,
+        id = 130701,
         sellTimeType = 1,
         priceType = {
-            [1] = 500075,
+            [1] = 570005,
         },
         goods = {
-            [310003] = 1,
+            [570007] = 20,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 3,
         des = "",
     },
     [203202] = {
@@ -70738,81 +70423,77 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326262] = {
-        batchBuy = true,
+    [110313] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 50,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
+        storeId = 110000,
+        weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326262,
+        id = 110313,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [510231] = 2,
+            [510316] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 30,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [326282] = {
+    [120602] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 9,
-        grid = 0,
+        order = 7,
+        grid = 6,
         priceVal = {
-            [1] = 50,
+            [1] = 360,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
+        storeId = 120000,
+        weight = 850,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326282,
+        id = 120602,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570029,
         },
         goods = {
-            [570009] = 10,
+            [250051] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -70894,18 +70575,18 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110616] = {
-        batchBuy = false,
+    [143003] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 6,
-        grid = 6,
+        order = 9,
+        grid = 25,
         priceVal = {
-            [1] = 20,
+            [1] = 5,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
+        storeId = 140000,
         weight = 1000,
         limitType = 1,
         openContType = 1,
@@ -70915,21 +70596,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110616,
+        id = 143003,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 570101,
         },
         goods = {
-            [510304] = 2,
+            [551103] = 1,
         },
         showBeginTime = "",
-        openContVal = 5,
+        openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 50,
         des = "",
     },
     [530001] = {
@@ -71053,14 +70734,14 @@ return {
         limitVal = 50,
         des = "",
     },
-    [110315] = {
+    [110616] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 6,
+        grid = 6,
         priceVal = {
-            [1] = 16,
+            [1] = 20,
         },
         buyBeginTime = {
         },
@@ -71074,16 +70755,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110315,
+        id = 110616,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510318] = 1,
+            [510304] = 2,
         },
         showBeginTime = "",
-        openContVal = 40,
+        openContVal = 5,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -71136,18 +70817,18 @@ return {
         limitVal = 1,
         des = "",
     },
-    [131101] = {
-        batchBuy = true,
+    [110315] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 11,
-        grid = 11,
+        order = 3,
+        grid = 3,
         priceVal = {
-            [1] = 6,
+            [1] = 16,
         },
         buyBeginTime = {
         },
-        storeId = 130000,
+        storeId = 110000,
         weight = 1000,
         limitType = 1,
         openContType = 1,
@@ -71157,21 +70838,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 131101,
+        id = 110315,
         sellTimeType = 1,
         priceType = {
-            [1] = 570005,
+            [1] = 570002,
         },
         goods = {
-            [570011] = 20,
+            [510318] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 40,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 3,
+        limitVal = 1,
         des = "",
     },
     [101106] = {
@@ -71212,49 +70893,42 @@ return {
         limitVal = 3,
         des = "",
     },
-    [510008] = {
-        batchBuy = false,
+    [131101] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 12,
-        grid = 1,
+        order = 11,
+        grid = 11,
         priceVal = {
-            [1] = 2000,
+            [1] = 6,
         },
         buyBeginTime = {
         },
-        storeId = 510000,
+        storeId = 130000,
         weight = 1000,
-        limitType = 3,
+        limitType = 1,
         openContType = 1,
         ext = {
-            date = "4月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104610,
-                },
-            },
-            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 510008,
+        id = 131101,
         sellTimeType = 1,
         priceType = {
-            [1] = 500075,
+            [1] = 570005,
         },
         goods = {
-            [410112] = 1,
+            [570011] = 20,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 3,
         des = "",
     },
     [530005] = {
@@ -71378,39 +71052,41 @@ return {
         limitVal = 1,
         des = "",
     },
-    [401401] = {
+    [326282] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 4,
-        grid = 4,
+        order = 9,
+        grid = 0,
         priceVal = {
-            [1] = 500,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 401000,
-        weight = 1,
+        storeId = 204000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
+            group = 1,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 401401,
+        id = 326282,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [599703] = 1,
+            [570009] = 10,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -71461,49 +71137,42 @@ return {
         limitVal = 1,
         des = "",
     },
-    [510001] = {
-        batchBuy = false,
+    [101406] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 20,
+        grid = 14,
         priceVal = {
-            [1] = 2000,
+            [1] = 25000,
         },
         buyBeginTime = {
         },
-        storeId = 510000,
-        weight = 1000,
-        limitType = 3,
+        storeId = 100000,
+        weight = 1250,
+        limitType = 1,
         openContType = 1,
         ext = {
-            date = "10月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104601,
-                },
-            },
-            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 510001,
+        id = 101406,
         sellTimeType = 1,
         priceType = {
-            [1] = 500075,
+            [1] = 500001,
         },
         goods = {
-            [410105] = 1,
+            [510238] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 50,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 3,
         des = "",
     },
     [530008] = {
@@ -71551,46 +71220,41 @@ return {
         limitVal = 1,
         des = "",
     },
-    [510005] = {
-        batchBuy = false,
+    [326214] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 7,
-        grid = 1,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 2000,
+            [1] = 80,
         },
         buyBeginTime = {
         },
-        storeId = 510000,
-        weight = 1000,
-        limitType = 3,
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
         openContType = 1,
         ext = {
-            date = "2月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104607,
-                },
-            },
-            storeLimit = 1,
+            group = 1,
+            discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 510005,
+        id = 326214,
         sellTimeType = 1,
         priceType = {
-            [1] = 500075,
+            [1] = 500002,
         },
         goods = {
-            [410211] = 1,
+            [555013] = 10,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -71724,19 +71388,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326128] = {
-        batchBuy = false,
+    [100305] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 4,
-        grid = 4,
+        order = 9,
+        grid = 3,
         priceVal = {
-            [1] = 15,
+            [1] = 25,
         },
         buyBeginTime = {
         },
-        storeId = 191000,
-        weight = 1,
+        storeId = 100000,
+        weight = 2000,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -71745,21 +71409,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326128,
+        id = 100305,
         sellTimeType = 1,
         priceType = {
-            [1] = 580019,
+            [1] = 500002,
         },
         goods = {
-            [240009] = 1,
+            [510105] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 10,
+        limitVal = 5,
         des = "",
     },
     [530011] = {
@@ -71807,46 +71471,39 @@ return {
         limitVal = 1,
         des = "",
     },
-    [510015] = {
+    [110107] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 4,
+        order = 1,
         grid = 1,
         priceVal = {
-            [1] = 128,
+            [1] = 16,
         },
         buyBeginTime = {
         },
-        storeId = 510000,
+        storeId = 110000,
         weight = 1000,
-        limitType = 3,
+        limitType = 1,
         openContType = 1,
         ext = {
-            date = "12月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104605,
-                },
-            },
-            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 510015,
+        id = 110107,
         sellTimeType = 1,
         priceType = {
-            [1] = 500076,
+            [1] = 570002,
         },
         goods = {
-            [410407] = 1,
+            [510314] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 15,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -71890,14 +71547,14 @@ return {
         limitVal = 3,
         des = "",
     },
-    [110107] = {
+    [110619] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 6,
+        grid = 6,
         priceVal = {
-            [1] = 16,
+            [1] = 24,
         },
         buyBeginTime = {
         },
@@ -71911,16 +71568,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110107,
+        id = 110619,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510314] = 1,
+            [510309] = 2,
         },
         showBeginTime = "",
-        openContVal = 15,
+        openContVal = 10,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -71973,42 +71630,42 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110619] = {
-        batchBuy = false,
+    [190002] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 6,
-        grid = 6,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 24,
+            [1] = 60,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 1000,
+        storeId = 190000,
+        weight = 10000,
         limitType = 1,
-        openContType = 1,
+        openContType = 3,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110619,
+        id = 190002,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500037,
         },
         goods = {
-            [510309] = 2,
+            [520030] = 3,
         },
         showBeginTime = "",
-        openContVal = 10,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2006",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 15,
         des = "",
     },
     [530014] = {
@@ -72056,19 +71713,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110108] = {
+    [110620] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 6,
+        grid = 6,
         priceVal = {
-            [1] = 20,
+            [1] = 32,
         },
         buyBeginTime = {
         },
         storeId = 110000,
-        weight = 500,
+        weight = 1000,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -72077,16 +71734,16 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110108,
+        id = 110620,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510307] = 1,
+            [510311] = 2,
         },
         showBeginTime = "",
-        openContVal = 20,
+        openContVal = 15,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
@@ -72139,39 +71796,46 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110620] = {
+    [510009] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 6,
-        grid = 6,
+        order = 15,
+        grid = 1,
         priceVal = {
-            [1] = 32,
+            [1] = 2000,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
+        storeId = 510000,
         weight = 1000,
-        limitType = 1,
+        limitType = 3,
         openContType = 1,
         ext = {
+            date = "5月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104611,
+                },
+            },
+            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110620,
+        id = 510009,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500075,
         },
         goods = {
-            [510311] = 2,
+            [410508] = 1,
         },
         showBeginTime = "",
-        openContVal = 15,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -72222,41 +71886,39 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326266] = {
-        batchBuy = true,
+    [110109] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 50,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
+        storeId = 110000,
+        weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326266,
+        id = 110109,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [510235] = 1,
+            [510308] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 20,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -72390,41 +72052,46 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326265] = {
-        batchBuy = true,
+    [510015] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 4,
+        grid = 1,
         priceVal = {
-            [1] = 50,
+            [1] = 128,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
-        limitType = 1,
+        storeId = 510000,
+        weight = 1000,
+        limitType = 3,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 700,
+            date = "12月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104605,
+                },
+            },
+            storeLimit = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326265,
+        id = 510015,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 500076,
         },
         goods = {
-            [510234] = 1,
+            [410407] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -72475,41 +72142,39 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326264] = {
-        batchBuy = true,
+    [110110] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 50,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
+        storeId = 110000,
+        weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326264,
+        id = 110110,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [510233] = 1,
+            [510313] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 30,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -72553,41 +72218,39 @@ return {
         limitVal = 3,
         des = "",
     },
-    [326263] = {
+    [120601] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 7,
+        grid = 6,
         priceVal = {
-            [1] = 50,
+            [1] = 360,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
+        storeId = 120000,
+        weight = 850,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326263,
+        id = 120601,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570029,
         },
         goods = {
-            [510232] = 2,
+            [250050] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -72718,19 +72381,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [120601] = {
-        batchBuy = true,
+    [110111] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 7,
-        grid = 6,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 360,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 120000,
-        weight = 850,
+        storeId = 110000,
+        weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -72739,18 +72402,18 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 120601,
+        id = 110111,
         sellTimeType = 1,
         priceType = {
-            [1] = 570029,
+            [1] = 570002,
         },
         goods = {
-            [250050] = 1,
+            [510302] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 40,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -72888,36 +72551,36 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326261] = {
+    [326212] = {
         batchBuy = true,
         buyEndTime = {
         },
         order = 10,
         grid = 0,
         priceVal = {
-            [1] = 50,
+            [1] = 100,
         },
         buyBeginTime = {
         },
         storeId = 204000,
-        weight = 600,
+        weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
             group = 1,
-            discountWeight = 700,
+            discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326261,
+        id = 326212,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510230] = 2,
+            [561011] = 10,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -73004,83 +72667,7 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110111] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 1,
-        grid = 1,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110111,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510302] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 40,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [120602] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 7,
-        grid = 6,
-        priceVal = {
-            [1] = 360,
-        },
-        buyBeginTime = {
-        },
-        storeId = 120000,
-        weight = 850,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 120602,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570029,
-        },
-        goods = {
-            [250051] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2002",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326259] = {
+    [326265] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -73103,13 +72690,93 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326259,
+        id = 326265,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510228] = 2,
+            [510234] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326264] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 1,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326264,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510233] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326263] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 1,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326263,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510232] = 2,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -73160,47 +72827,45 @@ return {
         limitVal = 3,
         des = "",
     },
-    [326257] = {
+    [120603] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 7,
+        grid = 6,
         priceVal = {
-            [1] = 50,
+            [1] = 360,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
+        storeId = 120000,
+        weight = 850,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326257,
+        id = 120603,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570029,
         },
         goods = {
-            [510226] = 2,
+            [250052] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [326255] = {
+    [326262] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -73223,13 +72888,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326255,
+        id = 326262,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510224] = 5,
+            [510231] = 2,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -73356,51 +73021,7 @@ return {
         limitVal = 1,
         des = "",
     },
-    [540004] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 4,
-        grid = 1,
-        priceVal = {
-            [1] = 1000,
-        },
-        buyBeginTime = {
-        },
-        storeId = 540000,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-            date = "12月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104605,
-                },
-            },
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 540004,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500075,
-        },
-        goods = {
-            [250170] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326253] = {
+    [326259] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -73423,13 +73044,53 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326253,
+        id = 326259,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510222] = 5,
+            [510228] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326258] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 1,
+            discountWeight = 700,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326258,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510227] = 2,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -73520,39 +73181,41 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110242] = {
-        batchBuy = false,
+    [326257] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 48,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 1000,
+        storeId = 204000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
+            group = 1,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110242,
+        id = 326257,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510310] = 3,
+            [510226] = 2,
         },
         showBeginTime = "",
-        openContVal = 30,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -73634,115 +73297,119 @@ return {
         limitVal = 1,
         des = "",
     },
-    [120605] = {
+    [326255] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 7,
-        grid = 6,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 360,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 120000,
-        weight = 850,
+        storeId = 204000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
+            group = 1,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 120605,
+        id = 326255,
         sellTimeType = 1,
         priceType = {
-            [1] = 570029,
+            [1] = 500002,
         },
         goods = {
-            [250054] = 1,
+            [510224] = 5,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [550009] = {
+    [203311] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 9,
-        grid = 1,
+        order = 4,
+        grid = 4,
         priceVal = {
-            [1] = 300,
+            [1] = 64,
         },
         buyBeginTime = {
         },
-        storeId = 550000,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
+        storeId = 202000,
+        weight = 400,
+        limitType = 1,
+        openContType = 4,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
-        tag = 0,
-        id = 550009,
+        tag = 8000,
+        id = 203311,
         sellTimeType = 1,
         priceType = {
-            [1] = 500075,
+            [1] = 500002,
         },
         goods = {
-            [599604] = 1,
+            [510310] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 5,
+        limitVal = 1,
         des = "",
     },
-    [110243] = {
-        batchBuy = false,
+    [326253] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 60,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 500,
+        storeId = 204000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
+            group = 1,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110243,
+        id = 326253,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510316] = 3,
+            [510222] = 5,
         },
         showBeginTime = "",
-        openContVal = 30,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -73790,20 +73457,20 @@ return {
         limitVal = 2,
         des = "",
     },
-    [550025] = {
+    [120605] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 25,
-        grid = 1,
+        order = 7,
+        grid = 6,
         priceVal = {
-            [1] = 30,
+            [1] = 360,
         },
         buyBeginTime = {
         },
-        storeId = 550000,
-        weight = 1000,
-        limitType = 3,
+        storeId = 120000,
+        weight = 850,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -73811,37 +73478,37 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 550025,
+        id = 120605,
         sellTimeType = 1,
         priceType = {
-            [1] = 500075,
+            [1] = 570029,
         },
         goods = {
-            [240009] = 1,
+            [250054] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 999,
+        limitVal = 1,
         des = "",
     },
-    [202001] = {
-        batchBuy = true,
+    [110243] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 20,
-        grid = 20,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 10,
+            [1] = 60,
         },
         buyBeginTime = {
         },
-        storeId = 201000,
-        weight = 10000,
-        limitType = 3,
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -73849,21 +73516,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 202001,
+        id = 110243,
         sellTimeType = 1,
         priceType = {
-            [1] = 580039,
+            [1] = 570002,
         },
         goods = {
-            [555005] = 1,
+            [510316] = 3,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 30,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 10,
+        limitVal = 1,
         des = "",
     },
     [203212] = {
@@ -73984,44 +73651,6 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110245] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 48,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110245,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510318] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 40,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [110501] = {
         batchBuy = false,
         buyEndTime = {
@@ -74058,6 +73687,56 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
+        des = "",
+    },
+    [550029] = {
+        batchBuy = true,
+        buyEndTime = {
+            min = 59,
+            year = 2021,
+            month = 3,
+            sec = 59,
+            hour = 23,
+            day = 15,
+        },
+        order = 10,
+        grid = 1,
+        priceVal = {
+            [1] = 1,
+        },
+        buyBeginTime = {
+            min = 0,
+            year = 2021,
+            month = 2,
+            sec = 0,
+            hour = 0,
+            day = 5,
+        },
+        storeId = 310000,
+        weight = 10000,
+        limitType = 0,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 550029,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 501018,
+        },
+        goods = {
+            [580300] = 1,
+        },
+        showBeginTime = "2021-02-05 00:00:00",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "",
+        showEndTime = "2021-03-15 23:59:59",
+        serLimit = 0,
+        limitVal = 0,
         des = "",
     },
     [305010] = {
@@ -74102,70 +73781,32 @@ return {
         limitVal = 1,
         des = "",
     },
-    [120611] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 7,
-        grid = 6,
-        priceVal = {
-            [1] = 600,
-        },
-        buyBeginTime = {
-        },
-        storeId = 120000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 120611,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570029,
-        },
-        goods = {
-            [250060] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2002",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [140601] = {
+    [550041] = {
         batchBuy = true,
         buyEndTime = {
             min = 59,
-            year = 2019,
-            month = 6,
+            year = 2021,
+            month = 3,
             sec = 59,
             hour = 23,
-            day = 3,
+            day = 15,
         },
-        order = 99,
-        grid = 6,
+        order = 16,
+        grid = 1,
         priceVal = {
-            [1] = 30,
+            [1] = 10,
         },
         buyBeginTime = {
             min = 0,
-            year = 2019,
-            month = 5,
+            year = 2021,
+            month = 2,
             sec = 0,
             hour = 0,
-            day = 16,
+            day = 5,
         },
-        storeId = 140000,
-        weight = 1000,
-        limitType = 1,
+        storeId = 310000,
+        weight = 10000,
+        limitType = 0,
         openContType = 1,
         ext = {
         },
@@ -74173,21 +73814,75 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 140601,
+        id = 550041,
         sellTimeType = 1,
         priceType = {
-            [1] = 570101,
+            [1] = 500002,
         },
         goods = {
-            [550003] = 1,
+            [580308] = 1,
         },
-        showBeginTime = "2019-05-15 00:00:00",
-        openContVal = 99,
+        showBeginTime = "2021-02-05 00:00:00",
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "2019-06-03 23:59:59",
+        sellDescribtion = "",
+        showEndTime = "2021-03-15 23:59:59",
         serLimit = 0,
-        limitVal = 10,
+        limitVal = 0,
+        des = "",
+    },
+    [550047] = {
+        batchBuy = false,
+        buyEndTime = {
+            min = 59,
+            year = 2021,
+            month = 3,
+            sec = 59,
+            hour = 23,
+            day = 15,
+        },
+        order = 20,
+        grid = 1,
+        priceVal = {
+            [1] = 33,
+            [2] = 33,
+            [3] = 33,
+        },
+        buyBeginTime = {
+            min = 0,
+            year = 2021,
+            month = 2,
+            sec = 0,
+            hour = 0,
+            day = 5,
+        },
+        storeId = 310000,
+        weight = 10000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 550047,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580307,
+            [2] = 580308,
+            [3] = 580309,
+        },
+        goods = {
+            [599605] = 1,
+        },
+        showBeginTime = "2021-02-05 00:00:00",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "2021-03-15 23:59:59",
+        serLimit = 0,
+        limitVal = 1,
         des = "",
     },
     [203213] = {
@@ -74266,20 +73961,22 @@ return {
         limitVal = 1,
         des = "",
     },
-    [120101] = {
+    [305011] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 11,
+        grid = 11,
         priceVal = {
-            [1] = 10,
+            [1] = 35,
+            [2] = 35,
+            [3] = 35,
         },
         buyBeginTime = {
         },
-        storeId = 120000,
-        weight = 10000,
-        limitType = 0,
+        storeId = 305000,
+        weight = 1,
+        limitType = 3,
         openContType = 1,
         ext = {
         },
@@ -74287,24 +73984,76 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 120101,
+        id = 305011,
         sellTimeType = 1,
         priceType = {
-            [1] = 570001,
+            [1] = 580078,
+            [2] = 580079,
+            [3] = 580080,
         },
         goods = {
-            [570029] = 1,
+            [570217] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 0,
+        limitVal = 1,
         des = "",
     },
-    [120613] = {
+    [140601] = {
+        batchBuy = true,
+        buyEndTime = {
+            min = 59,
+            year = 2019,
+            month = 6,
+            sec = 59,
+            hour = 23,
+            day = 3,
+        },
+        order = 99,
+        grid = 6,
+        priceVal = {
+            [1] = 30,
+        },
+        buyBeginTime = {
+            min = 0,
+            year = 2019,
+            month = 5,
+            sec = 0,
+            hour = 0,
+            day = 16,
+        },
+        storeId = 140000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 140601,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570101,
+        },
+        goods = {
+            [550003] = 1,
+        },
+        showBeginTime = "2019-05-15 00:00:00",
+        openContVal = 99,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "2019-06-03 23:59:59",
+        serLimit = 0,
+        limitVal = 10,
+        des = "",
+    },
+    [120612] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -74325,13 +74074,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 120613,
+        id = 120612,
         sellTimeType = 1,
         priceType = {
             [1] = 570029,
         },
         goods = {
-            [250062] = 1,
+            [250061] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -74340,56 +74089,6 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "",
-    },
-    [551020] = {
-        batchBuy = true,
-        buyEndTime = {
-            min = 59,
-            year = 2020,
-            month = 2,
-            sec = 59,
-            hour = 23,
-            day = 23,
-        },
-        order = 1,
-        grid = 1,
-        priceVal = {
-            [1] = 50,
-        },
-        buyBeginTime = {
-            min = 0,
-            year = 2020,
-            month = 2,
-            sec = 0,
-            hour = 0,
-            day = 14,
-        },
-        storeId = 551000,
-        weight = 10000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 551020,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [580312] = 50,
-        },
-        showBeginTime = "2020-02-14 00:00:00",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "2020-02-23 23:59:59",
-        serLimit = 0,
-        limitVal = 999,
         des = "",
     },
     [305012] = {
@@ -74434,18 +74133,18 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110508] = {
-        batchBuy = false,
+    [120613] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 5,
-        grid = 5,
+        order = 7,
+        grid = 6,
         priceVal = {
-            [1] = 20,
+            [1] = 600,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
+        storeId = 120000,
         weight = 500,
         limitType = 1,
         openContType = 1,
@@ -74455,24 +74154,24 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110508,
+        id = 120613,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 570029,
         },
         goods = {
-            [510307] = 1,
+            [250062] = 1,
         },
         showBeginTime = "",
-        openContVal = 20,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
         des = "",
     },
-    [110636] = {
+    [110635] = {
         batchBuy = false,
         buyEndTime = {
         },
@@ -74493,13 +74192,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110636,
+        id = 110635,
         sellTimeType = 1,
         priceType = {
             [1] = 570002,
         },
         goods = {
-            [510312] = 3,
+            [510311] = 3,
         },
         showBeginTime = "",
         openContVal = 15,
@@ -74624,6 +74323,44 @@ return {
         limitVal = 1,
         des = "",
     },
+    [326124] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 5,
+        grid = 5,
+        priceVal = {
+            [1] = 1000,
+        },
+        buyBeginTime = {
+        },
+        storeId = 328000,
+        weight = 1,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326124,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570078,
+        },
+        goods = {
+            [575013] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [110637] = {
         batchBuy = false,
         buyEndTime = {
@@ -74657,46 +74394,6 @@ return {
         openContVal = 15,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326212] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 100,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 1,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326212,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [561011] = 10,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -74740,20 +74437,20 @@ return {
         limitVal = 50,
         des = "",
     },
-    [554002] = {
-        batchBuy = true,
+    [110126] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 2,
-        grid = 2,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 36,
+            [1] = 40,
         },
         buyBeginTime = {
         },
-        storeId = 322000,
-        weight = 1000,
-        limitType = 3,
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -74761,21 +74458,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 554002,
+        id = 110126,
         sellTimeType = 1,
         priceType = {
-            [1] = 500057,
+            [1] = 570002,
         },
         goods = {
-            [570037] = 1,
+            [510302] = 2,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 40,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 20,
+        limitVal = 1,
         des = "",
     },
     [520002] = {
@@ -74899,39 +74596,39 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110126] = {
-        batchBuy = false,
+    [204325] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 4,
+        grid = 4,
         priceVal = {
-            [1] = 40,
+            [1] = 80,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 500,
+        storeId = 203000,
+        weight = 200,
         limitType = 1,
-        openContType = 1,
+        openContType = 5,
         ext = {
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110126,
+        id = 204325,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510302] = 2,
+            [510302] = 1,
         },
         showBeginTime = "",
-        openContVal = 40,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -74982,47 +74679,42 @@ return {
         limitVal = 1,
         des = "",
     },
-    [554006] = {
-        batchBuy = false,
+    [131401] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 6,
-        grid = 6,
+        order = 14,
+        grid = 14,
         priceVal = {
-            [1] = 160,
+            [1] = 6,
         },
         buyBeginTime = {
         },
-        storeId = 322000,
+        storeId = 130000,
         weight = 1000,
-        limitType = 3,
+        limitType = 1,
         openContType = 1,
         ext = {
-            tipType = 1,
-            limitItemId = {
-                [1] = 308002,
-            },
-            tipId = 14300302,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 554006,
+        id = 131401,
         sellTimeType = 1,
         priceType = {
-            [1] = 500057,
+            [1] = 570005,
         },
         goods = {
-            [308002] = 1,
+            [570014] = 20,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 99,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 3,
         des = "",
     },
     [305016] = {
@@ -75063,41 +74755,39 @@ return {
         limitVal = 99,
         des = "",
     },
-    [326206] = {
-        batchBuy = true,
+    [110511] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 10,
-        grid = 0,
+        order = 5,
+        grid = 5,
         priceVal = {
-            [1] = 100,
+            [1] = 20,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
+        storeId = 110000,
         weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326206,
+        id = 110511,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570002,
         },
         goods = {
-            [555027] = 1,
+            [510302] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 40,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -75307,34 +74997,39 @@ return {
         limitVal = 1,
         des = "",
     },
-    [554010] = {
-        batchBuy = true,
+    [326136] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 15,
-        grid = 15,
+        order = 12,
+        grid = 12,
         priceVal = {
-            [1] = 5,
+            [1] = 2000,
         },
         buyBeginTime = {
         },
-        storeId = 322000,
-        weight = 1000,
+        storeId = 191000,
+        weight = 1,
         limitType = 3,
         openContType = 1,
         ext = {
+            tipType = 2,
+            limitItemId = {
+                [1] = 410209,
+            },
+            tipId = 14300303,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 554010,
+        id = 326136,
         sellTimeType = 1,
         priceType = {
-            [1] = 500057,
+            [1] = 580019,
         },
         goods = {
-            [510105] = 1,
+            [410209] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -75342,7 +75037,7 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 12,
+        limitVal = 1,
         des = "",
     },
     [305018] = {
@@ -75383,39 +75078,41 @@ return {
         limitVal = 99,
         des = "",
     },
-    [110511] = {
-        batchBuy = false,
+    [326208] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 5,
-        grid = 5,
+        order = 10,
+        grid = 0,
         priceVal = {
-            [1] = 20,
+            [1] = 100,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
+        storeId = 204000,
         weight = 500,
         limitType = 1,
         openContType = 1,
         ext = {
+            group = 1,
+            discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110511,
+        id = 326208,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510302] = 1,
+            [555029] = 1,
         },
         showBeginTime = "",
-        openContVal = 40,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -75542,22 +75239,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [311006] = {
+    [110129] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 9,
-        grid = 9,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 65,
-            [2] = 65,
-            [3] = 65,
+            [1] = 40,
         },
         buyBeginTime = {
         },
-        storeId = 311000,
-        weight = 1,
-        limitType = 3,
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -75565,20 +75260,18 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 311006,
+        id = 110129,
         sellTimeType = 1,
         priceType = {
-            [1] = 580127,
-            [2] = 580128,
-            [3] = 580129,
+            [1] = 570002,
         },
         goods = {
-            [300032] = 1,
+            [510317] = 2,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 40,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -75667,122 +75360,6 @@ return {
         limitVal = 3,
         des = "",
     },
-    [326211] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 0,
-        priceVal = {
-            [1] = 100,
-        },
-        buyBeginTime = {
-        },
-        storeId = 204000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-            group = 1,
-            discountWeight = 600,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326211,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [561023] = 10,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [190002] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 60,
-        },
-        buyBeginTime = {
-        },
-        storeId = 190000,
-        weight = 10000,
-        limitType = 1,
-        openContType = 3,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 190002,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500037,
-        },
-        goods = {
-            [520030] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2006",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 15,
-        des = "",
-    },
-    [203311] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 4,
-        grid = 4,
-        priceVal = {
-            [1] = 64,
-        },
-        buyBeginTime = {
-        },
-        storeId = 202000,
-        weight = 400,
-        limitType = 1,
-        openContType = 4,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 8000,
-        id = 203311,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [510310] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [110130] = {
         batchBuy = false,
         buyEndTime = {
@@ -75857,44 +75434,6 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 10,
-        des = "",
-    },
-    [110327] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 32,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110327,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510310] = 2,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
         des = "",
     },
     [110514] = {
@@ -76011,6 +75550,44 @@ return {
         limitVal = 5,
         des = "",
     },
+    [110327] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 3,
+        grid = 3,
+        priceVal = {
+            [1] = 32,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110327,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510310] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 30,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [190005] = {
         batchBuy = true,
         buyEndTime = {
@@ -76125,19 +75702,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [120309] = {
+    [190006] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 4,
-        grid = 3,
+        order = 6,
+        grid = 6,
         priceVal = {
-            [1] = 120,
+            [1] = 180,
         },
         buyBeginTime = {
         },
-        storeId = 120000,
-        weight = 1000,
+        storeId = 190000,
+        weight = 10000,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -76146,21 +75723,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 120309,
+        id = 190006,
         sellTimeType = 1,
         priceType = {
-            [1] = 570029,
+            [1] = 500037,
         },
         goods = {
-            [240048] = 1,
+            [570019] = 3,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 99,
         title = 0,
-        sellDescribtion = "2002",
+        sellDescribtion = "2006",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 10,
         des = "",
     },
     [203312] = {
@@ -76239,19 +75816,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [100602] = {
+    [120309] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 12,
-        grid = 6,
+        order = 4,
+        grid = 3,
         priceVal = {
-            [1] = 5000,
+            [1] = 120,
         },
         buyBeginTime = {
         },
-        storeId = 100000,
-        weight = 1250,
+        storeId = 120000,
+        weight = 1000,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -76260,56 +75837,18 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 100602,
+        id = 120309,
         sellTimeType = 1,
         priceType = {
-            [1] = 500001,
+            [1] = 570029,
         },
         goods = {
-            [510202] = 5,
+            [240048] = 1,
         },
         showBeginTime = "",
-        openContVal = 10,
+        openContVal = 1,
         title = 0,
         sellDescribtion = "2002",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
-    [190007] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 7,
-        grid = 7,
-        priceVal = {
-            [1] = 12000,
-        },
-        buyBeginTime = {
-        },
-        storeId = 190000,
-        weight = 10000,
-        limitType = 1,
-        openContType = 3,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 190007,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500037,
-        },
-        goods = {
-            [250107] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 3,
-        title = 0,
-        sellDescribtion = "2006",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -76391,22 +75930,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [304001] = {
+    [100602] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 7,
-        grid = 7,
+        order = 12,
+        grid = 6,
         priceVal = {
-            [1] = 2,
-            [2] = 2,
-            [3] = 2,
+            [1] = 5000,
         },
         buyBeginTime = {
         },
-        storeId = 304000,
-        weight = 1000,
-        limitType = 0,
+        storeId = 100000,
+        weight = 1250,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -76414,23 +75951,59 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 304001,
+        id = 100602,
         sellTimeType = 1,
         priceType = {
-            [1] = 580306,
-            [2] = 580300,
-            [3] = 580301,
+            [1] = 500001,
         },
         goods = {
-            [580307] = 1,
+            [510202] = 5,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 10,
         title = 0,
-        sellDescribtion = "",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 0,
+        limitVal = 3,
+        des = "",
+    },
+    [190008] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 8,
+        grid = 8,
+        priceVal = {
+            [1] = 12000,
+        },
+        buyBeginTime = {
+        },
+        storeId = 190000,
+        weight = 10000,
+        limitType = 1,
+        openContType = 3,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 190008,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500037,
+        },
+        goods = {
+            [250108] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 3,
+        title = 0,
+        sellDescribtion = "2006",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
         des = "",
     },
     [203314] = {
@@ -76466,44 +76039,6 @@ return {
         openContVal = 1,
         title = 0,
         sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110328] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 40,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110328,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510316] = 2,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -76547,12 +76082,12 @@ return {
         limitVal = 1,
         des = "",
     },
-    [304002] = {
+    [304001] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 8,
-        grid = 8,
+        order = 7,
+        grid = 7,
         priceVal = {
             [1] = 2,
             [2] = 2,
@@ -76570,15 +76105,15 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 304002,
+        id = 304001,
         sellTimeType = 1,
         priceType = {
             [1] = 580306,
-            [2] = 580302,
-            [3] = 580303,
+            [2] = 580300,
+            [3] = 580301,
         },
         goods = {
-            [580308] = 1,
+            [580307] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -76622,6 +76157,44 @@ return {
         openContVal = 4,
         title = 0,
         sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110328] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 3,
+        grid = 3,
+        priceVal = {
+            [1] = 40,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110328,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510316] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 30,
+        title = 0,
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -76677,6 +76250,86 @@ return {
         limitVal = 1,
         des = "",
     },
+    [304002] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 8,
+        grid = 8,
+        priceVal = {
+            [1] = 2,
+            [2] = 2,
+            [3] = 2,
+        },
+        buyBeginTime = {
+        },
+        storeId = 304000,
+        weight = 1000,
+        limitType = 0,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 304002,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580306,
+            [2] = 580302,
+            [3] = 580303,
+        },
+        goods = {
+            [580308] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 0,
+        des = "",
+    },
+    [203317] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 4,
+        grid = 4,
+        priceVal = {
+            [1] = 64,
+        },
+        buyBeginTime = {
+        },
+        storeId = 202000,
+        weight = 400,
+        limitType = 1,
+        openContType = 4,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 8000,
+        id = 203317,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510314] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [326060] = {
         batchBuy = false,
         buyEndTime = {
@@ -76713,6 +76366,49 @@ return {
         },
         showBeginTime = "",
         openContVal = 12,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326056] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 7,
+        grid = 24,
+        priceVal = {
+            [1] = 1200,
+        },
+        buyBeginTime = {
+        },
+        storeId = 329000,
+        weight = 1,
+        limitType = 3,
+        openContType = 14,
+        ext = {
+            tipType = 1,
+            limitItemId = {
+                [1] = 308001,
+            },
+            tipId = 14300302,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326056,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570078,
+        },
+        goods = {
+            [308001] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 7,
         title = 0,
         sellDescribtion = "2004",
         showEndTime = "",
@@ -76800,125 +76496,6 @@ return {
         limitVal = 1,
         des = "",
     },
-    [203317] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 4,
-        grid = 4,
-        priceVal = {
-            [1] = 64,
-        },
-        buyBeginTime = {
-        },
-        storeId = 202000,
-        weight = 400,
-        limitType = 1,
-        openContType = 4,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 8000,
-        id = 203317,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [510314] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326052] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 20,
-        priceVal = {
-            [1] = 1800,
-        },
-        buyBeginTime = {
-        },
-        storeId = 329000,
-        weight = 1,
-        limitType = 3,
-        openContType = 14,
-        ext = {
-            tipType = 1,
-            limitItemId = {
-                [1] = 306003,
-            },
-            tipId = 14300302,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326052,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570078,
-        },
-        goods = {
-            [306003] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 4,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [100603] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 12,
-        grid = 6,
-        priceVal = {
-            [1] = 5000,
-        },
-        buyBeginTime = {
-        },
-        storeId = 100000,
-        weight = 1250,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 100603,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500001,
-        },
-        goods = {
-            [510203] = 5,
-        },
-        showBeginTime = "",
-        openContVal = 10,
-        title = 0,
-        sellDescribtion = "2002",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
     [326048] = {
         batchBuy = false,
         buyEndTime = {
@@ -76952,82 +76529,6 @@ return {
         openContVal = 1,
         title = 0,
         sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [326044] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 14,
-        grid = 14,
-        priceVal = {
-            [1] = 50,
-        },
-        buyBeginTime = {
-        },
-        storeId = 328000,
-        weight = 1,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 326044,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570078,
-        },
-        goods = {
-            [520023] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 100,
-        des = "",
-    },
-    [150609] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 13,
-        grid = 13,
-        priceVal = {
-            [1] = 60,
-        },
-        buyBeginTime = {
-        },
-        storeId = 150000,
-        weight = 625,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 150609,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500018,
-        },
-        goods = {
-            [535232] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -77076,6 +76577,158 @@ return {
         limitVal = 1,
         des = "",
     },
+    [100603] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 12,
+        grid = 6,
+        priceVal = {
+            [1] = 5000,
+        },
+        buyBeginTime = {
+        },
+        storeId = 100000,
+        weight = 1250,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 100603,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500001,
+        },
+        goods = {
+            [510203] = 5,
+        },
+        showBeginTime = "",
+        openContVal = 10,
+        title = 0,
+        sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 3,
+        des = "",
+    },
+    [326044] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 14,
+        grid = 14,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 328000,
+        weight = 1,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326044,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570078,
+        },
+        goods = {
+            [520023] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 100,
+        des = "",
+    },
+    [326040] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 10,
+        priceVal = {
+            [1] = 20,
+        },
+        buyBeginTime = {
+        },
+        storeId = 328000,
+        weight = 1,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326040,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570078,
+        },
+        goods = {
+            [510155] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 200,
+        des = "",
+    },
+    [150611] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 13,
+        grid = 13,
+        priceVal = {
+            [1] = 60,
+        },
+        buyBeginTime = {
+        },
+        storeId = 150000,
+        weight = 630,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 150611,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500018,
+        },
+        goods = {
+            [535242] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [161102] = {
         batchBuy = false,
         buyEndTime = {
@@ -77109,6 +76762,44 @@ return {
         openContVal = 99,
         title = 0,
         sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [150612] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 13,
+        grid = 13,
+        priceVal = {
+            [1] = 10,
+        },
+        buyBeginTime = {
+        },
+        storeId = 150000,
+        weight = 310,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 150612,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [535243] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -77228,20 +76919,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326016] = {
-        batchBuy = true,
+    [150613] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 16,
-        grid = 16,
+        order = 13,
+        grid = 13,
         priceVal = {
-            [1] = 200,
+            [1] = 100,
         },
         buyBeginTime = {
         },
-        storeId = 326000,
-        weight = 1,
-        limitType = 3,
+        storeId = 150000,
+        weight = 400,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -77249,21 +76940,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326016,
+        id = 150613,
         sellTimeType = 1,
         priceType = {
-            [1] = 500124,
+            [1] = 500018,
         },
         goods = {
-            [510155] = 1,
+            [535253] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 30,
+        limitVal = 1,
         des = "",
     },
     [150102] = {
@@ -77294,44 +76985,6 @@ return {
         },
         goods = {
             [534012] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [150614] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 13,
-        grid = 13,
-        priceVal = {
-            [1] = 15,
-        },
-        buyBeginTime = {
-        },
-        storeId = 150000,
-        weight = 200,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 150614,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [535254] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -77418,6 +77071,44 @@ return {
         limitVal = 1,
         des = "",
     },
+    [326016] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 16,
+        grid = 16,
+        priceVal = {
+            [1] = 200,
+        },
+        buyBeginTime = {
+        },
+        storeId = 326000,
+        weight = 1,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326016,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500124,
+        },
+        goods = {
+            [510155] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 30,
+        des = "",
+    },
     [150615] = {
         batchBuy = false,
         buyEndTime = {
@@ -77456,19 +77147,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [150616] = {
+    [150104] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 13,
-        grid = 13,
+        order = 2,
+        grid = 2,
         priceVal = {
-            [1] = 15,
+            [1] = 6,
         },
         buyBeginTime = {
         },
         storeId = 150000,
-        weight = 200,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -77477,13 +77168,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 150616,
+        id = 150104,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [535264] = 1,
+            [534022] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -77608,44 +77299,6 @@ return {
         limitVal = 1,
         des = "",
     },
-    [150618] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 13,
-        grid = 13,
-        priceVal = {
-            [1] = 15,
-        },
-        buyBeginTime = {
-        },
-        storeId = 150000,
-        weight = 200,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 150618,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [535274] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [120503] = {
         batchBuy = true,
         buyEndTime = {
@@ -77679,6 +77332,44 @@ return {
         openContVal = 1,
         title = 0,
         sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [204609] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 7,
+        grid = 7,
+        priceVal = {
+            [1] = 50,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 300,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204609,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [555005] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -77760,50 +77451,6 @@ return {
         limitVal = 1,
         des = "",
     },
-    [540002] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 1,
-        priceVal = {
-            [1] = 1000,
-        },
-        buyBeginTime = {
-        },
-        storeId = 540000,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-            date = "11月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104603,
-                },
-            },
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 540002,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500075,
-        },
-        goods = {
-            [250148] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [110526] = {
         batchBuy = false,
         buyEndTime = {
@@ -77870,6 +77517,46 @@ return {
         },
         goods = {
             [570102] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326207] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 100,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 1,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326207,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [555028] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -78032,6 +77719,44 @@ return {
         limitVal = 1,
         des = "",
     },
+    [550009] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 9,
+        grid = 1,
+        priceVal = {
+            [1] = 300,
+        },
+        buyBeginTime = {
+        },
+        storeId = 550000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 550009,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500075,
+        },
+        goods = {
+            [599604] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 5,
+        des = "",
+    },
     [204105] = {
         batchBuy = true,
         buyEndTime = {
@@ -78065,44 +77790,6 @@ return {
         openContVal = 1,
         title = 0,
         sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [120508] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 6,
-        grid = 5,
-        priceVal = {
-            [1] = 360,
-        },
-        buyBeginTime = {
-        },
-        storeId = 120000,
-        weight = 850,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 120508,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570029,
-        },
-        goods = {
-            [250057] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -78146,20 +77833,20 @@ return {
         limitVal = 3,
         des = "",
     },
-    [100806] = {
+    [550013] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 14,
-        grid = 8,
+        order = 13,
+        grid = 1,
         priceVal = {
-            [1] = 10000,
+            [1] = 10,
         },
         buyBeginTime = {
         },
-        storeId = 100000,
-        weight = 1250,
-        limitType = 1,
+        storeId = 550000,
+        weight = 1000,
+        limitType = 3,
         openContType = 1,
         ext = {
         },
@@ -78167,62 +77854,24 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 100806,
+        id = 550013,
         sellTimeType = 1,
         priceType = {
-            [1] = 500001,
+            [1] = 500075,
         },
         goods = {
-            [510213] = 4,
-        },
-        showBeginTime = "",
-        openContVal = 20,
-        title = 0,
-        sellDescribtion = "2002",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
-    [204107] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 30,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 600,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204107,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570004] = 3,
+            [599501] = 20,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 50,
         des = "",
     },
-    [120509] = {
+    [120508] = {
         batchBuy = true,
         buyEndTime = {
         },
@@ -78243,18 +77892,58 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 120509,
+        id = 120508,
         sellTimeType = 1,
         priceType = {
             [1] = 570029,
         },
         goods = {
-            [250058] = 1,
+            [250057] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
         sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326205] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 100,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 1,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326205,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [555026] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -78386,6 +78075,204 @@ return {
         limitVal = 1,
         des = "",
     },
+    [120509] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 6,
+        grid = 5,
+        priceVal = {
+            [1] = 360,
+        },
+        buyBeginTime = {
+        },
+        storeId = 120000,
+        weight = 850,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 120509,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570029,
+        },
+        goods = {
+            [250058] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [100807] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 14,
+        grid = 8,
+        priceVal = {
+            [1] = 10000,
+        },
+        buyBeginTime = {
+        },
+        storeId = 100000,
+        weight = 1250,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 100807,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500001,
+        },
+        goods = {
+            [510214] = 4,
+        },
+        showBeginTime = "",
+        openContVal = 20,
+        title = 0,
+        sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 3,
+        des = "",
+    },
+    [204109] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 30,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 600,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204109,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [570032] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [326211] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 0,
+        priceVal = {
+            [1] = 100,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 1,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326211,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [561023] = 10,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [540004] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 4,
+        grid = 1,
+        priceVal = {
+            [1] = 1000,
+        },
+        buyBeginTime = {
+        },
+        storeId = 540000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+            date = "12月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104605,
+                },
+            },
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 540004,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500075,
+        },
+        goods = {
+            [250170] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
     [120510] = {
         batchBuy = true,
         buyEndTime = {
@@ -78424,41 +78311,39 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326213] = {
-        batchBuy = true,
+    [150504] = {
+        batchBuy = false,
         buyEndTime = {
         },
         order = 10,
-        grid = 0,
+        grid = 10,
         priceVal = {
-            [1] = 90,
+            [1] = 6,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 500,
+        storeId = 150000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 600,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326213,
+        id = 150504,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [555015] = 3,
+            [535112] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -78502,44 +78387,6 @@ return {
         limitVal = 3,
         des = "",
     },
-    [204111] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 40,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 1200,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204111,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [510155] = 2,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [110404] = {
         batchBuy = false,
         buyEndTime = {
@@ -78573,158 +78420,6 @@ return {
         openContVal = 10,
         title = 0,
         sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [100809] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 14,
-        grid = 8,
-        priceVal = {
-            [1] = 10000,
-        },
-        buyBeginTime = {
-        },
-        storeId = 100000,
-        weight = 1250,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 100809,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500001,
-        },
-        goods = {
-            [510216] = 4,
-        },
-        showBeginTime = "",
-        openContVal = 20,
-        title = 0,
-        sellDescribtion = "2002",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
-    [150504] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 10,
-        priceVal = {
-            [1] = 6,
-        },
-        buyBeginTime = {
-        },
-        storeId = 150000,
-        weight = 600,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 150504,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [535112] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [204115] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 30,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 800,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204115,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [570101] = 30,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [204117] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 2,
-        grid = 2,
-        priceVal = {
-            [1] = 30,
-        },
-        buyBeginTime = {
-        },
-        storeId = 203000,
-        weight = 800,
-        limitType = 1,
-        openContType = 5,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 204117,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [555010] = 300,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -78768,19 +78463,57 @@ return {
         limitVal = 3,
         des = "",
     },
-    [204118] = {
+    [100809] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 14,
+        grid = 8,
+        priceVal = {
+            [1] = 10000,
+        },
+        buyBeginTime = {
+        },
+        storeId = 100000,
+        weight = 1250,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 100809,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500001,
+        },
+        goods = {
+            [510216] = 4,
+        },
+        showBeginTime = "",
+        openContVal = 20,
+        title = 0,
+        sellDescribtion = "2002",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 3,
+        des = "",
+    },
+    [204113] = {
         batchBuy = true,
         buyEndTime = {
         },
         order = 2,
         grid = 2,
         priceVal = {
-            [1] = 24,
+            [1] = 50,
         },
         buyBeginTime = {
         },
         storeId = 203000,
-        weight = 500,
+        weight = 1200,
         limitType = 1,
         openContType = 5,
         ext = {
@@ -78789,7 +78522,83 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 204118,
+        id = 204113,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510105] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [307015] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 2,
+        },
+        buyBeginTime = {
+        },
+        storeId = 307000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 307015,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580101,
+        },
+        goods = {
+            [520225] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 13200238,
+        sellDescribtion = "",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "13200268",
+    },
+    [204117] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 30,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 800,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204117,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
@@ -78804,136 +78613,6 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "",
-    },
-    [110407] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 4,
-        grid = 4,
-        priceVal = {
-            [1] = 16,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110407,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510314] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 15,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [305011] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 11,
-        grid = 11,
-        priceVal = {
-            [1] = 35,
-            [2] = 35,
-            [3] = 35,
-        },
-        buyBeginTime = {
-        },
-        storeId = 305000,
-        weight = 1,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 305011,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 580078,
-            [2] = 580079,
-            [3] = 580080,
-        },
-        goods = {
-            [570217] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [550051] = {
-        batchBuy = true,
-        buyEndTime = {
-            min = 59,
-            year = 2021,
-            month = 3,
-            sec = 59,
-            hour = 23,
-            day = 15,
-        },
-        order = 24,
-        grid = 1,
-        priceVal = {
-            [1] = 2,
-        },
-        buyBeginTime = {
-            min = 0,
-            year = 2021,
-            month = 2,
-            sec = 0,
-            hour = 0,
-            day = 5,
-        },
-        storeId = 310000,
-        weight = 10000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 550051,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 580309,
-        },
-        goods = {
-            [230009] = 1,
-        },
-        showBeginTime = "2021-02-05 00:00:00",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "2021-03-15 23:59:59",
-        serLimit = 0,
-        limitVal = 50,
         des = "",
     },
     [150505] = {
@@ -79010,6 +78689,132 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
+        des = "",
+    },
+    [204119] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 200,
+        },
+        buyBeginTime = {
+        },
+        storeId = 203000,
+        weight = 75,
+        limitType = 1,
+        openContType = 5,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 204119,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [570105] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110408] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 4,
+        grid = 4,
+        priceVal = {
+            [1] = 20,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110408,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510307] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 20,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [550049] = {
+        batchBuy = true,
+        buyEndTime = {
+            min = 59,
+            year = 2021,
+            month = 3,
+            sec = 59,
+            hour = 23,
+            day = 15,
+        },
+        order = 22,
+        grid = 1,
+        priceVal = {
+            [1] = 3,
+        },
+        buyBeginTime = {
+            min = 0,
+            year = 2021,
+            month = 2,
+            sec = 0,
+            hour = 0,
+            day = 5,
+        },
+        storeId = 310000,
+        weight = 10000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 550049,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580307,
+        },
+        goods = {
+            [510105] = 1,
+        },
+        showBeginTime = "2021-02-05 00:00:00",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "2021-03-15 23:59:59",
+        serLimit = 0,
+        limitVal = 50,
         des = "",
     },
     [306013] = {
@@ -79100,94 +78905,6 @@ return {
         limitVal = 0,
         des = "",
     },
-    [110408] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 4,
-        grid = 4,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110408,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510307] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 20,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [550041] = {
-        batchBuy = true,
-        buyEndTime = {
-            min = 59,
-            year = 2021,
-            month = 3,
-            sec = 59,
-            hour = 23,
-            day = 15,
-        },
-        order = 16,
-        grid = 1,
-        priceVal = {
-            [1] = 10,
-        },
-        buyBeginTime = {
-            min = 0,
-            year = 2021,
-            month = 2,
-            sec = 0,
-            hour = 0,
-            day = 5,
-        },
-        storeId = 310000,
-        weight = 10000,
-        limitType = 0,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 550041,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [580308] = 1,
-        },
-        showBeginTime = "2021-02-05 00:00:00",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "",
-        showEndTime = "2021-03-15 23:59:59",
-        serLimit = 0,
-        limitVal = 0,
-        des = "",
-    },
     [550039] = {
         batchBuy = true,
         buyEndTime = {
@@ -79228,6 +78945,94 @@ return {
         },
         goods = {
             [580198] = 10,
+        },
+        showBeginTime = "2021-02-05 00:00:00",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "",
+        showEndTime = "2021-03-15 23:59:59",
+        serLimit = 0,
+        limitVal = 0,
+        des = "",
+    },
+    [150506] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 10,
+        grid = 10,
+        priceVal = {
+            [1] = 6,
+        },
+        buyBeginTime = {
+        },
+        storeId = 150000,
+        weight = 600,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 150506,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [535122] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [550037] = {
+        batchBuy = true,
+        buyEndTime = {
+            min = 59,
+            year = 2021,
+            month = 3,
+            sec = 59,
+            hour = 23,
+            day = 15,
+        },
+        order = 5,
+        grid = 1,
+        priceVal = {
+            [1] = 10,
+        },
+        buyBeginTime = {
+            min = 0,
+            year = 2021,
+            month = 2,
+            sec = 0,
+            hour = 0,
+            day = 5,
+        },
+        storeId = 310000,
+        weight = 10000,
+        limitType = 0,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 550037,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 501017,
+        },
+        goods = {
+            [580196] = 10,
         },
         showBeginTime = "2021-02-05 00:00:00",
         openContVal = 1,
@@ -79288,120 +79093,6 @@ return {
         limitVal = 0,
         des = "",
     },
-    [150506] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 10,
-        grid = 10,
-        priceVal = {
-            [1] = 6,
-        },
-        buyBeginTime = {
-        },
-        storeId = 150000,
-        weight = 600,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 150506,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [535122] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110409] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 4,
-        grid = 4,
-        priceVal = {
-            [1] = 20,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110409,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510308] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 20,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [309003] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 3,
-        },
-        buyBeginTime = {
-        },
-        storeId = 309000,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 309003,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 580043,
-        },
-        goods = {
-            [510155] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 20,
-        des = "",
-    },
     [100607] = {
         batchBuy = true,
         buyEndTime = {
@@ -79438,6 +79129,46 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 3,
+        des = "",
+    },
+    [326240] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 9,
+        grid = 0,
+        priceVal = {
+            [1] = 150,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 1,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326240,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510306] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
         des = "",
     },
     [110410] = {
@@ -79516,60 +79247,20 @@ return {
         limitVal = 10,
         des = "",
     },
-    [142203] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 6,
-        grid = 22,
-        priceVal = {
-            [1] = 2000,
-            [2] = 5,
-        },
-        buyBeginTime = {
-        },
-        storeId = 140000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 142203,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570101,
-            [2] = 570107,
-        },
-        goods = {
-            [250125] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [131201] = {
+    [550025] = {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 12,
-        grid = 12,
+        order = 25,
+        grid = 1,
         priceVal = {
-            [1] = 6,
+            [1] = 30,
         },
         buyBeginTime = {
         },
-        storeId = 130000,
+        storeId = 550000,
         weight = 1000,
-        limitType = 1,
+        limitType = 3,
         openContType = 1,
         ext = {
         },
@@ -79577,21 +79268,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 131201,
+        id = 550025,
         sellTimeType = 1,
         priceType = {
-            [1] = 570005,
+            [1] = 500075,
         },
         goods = {
-            [570012] = 20,
+            [240009] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 3,
+        limitVal = 999,
         des = "",
     },
     [150507] = {
@@ -79665,6 +79356,164 @@ return {
         openContVal = 10,
         title = 0,
         sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [131201] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 12,
+        grid = 12,
+        priceVal = {
+            [1] = 6,
+        },
+        buyBeginTime = {
+        },
+        storeId = 130000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 131201,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570005,
+        },
+        goods = {
+            [570012] = 20,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 3,
+        des = "",
+    },
+    [326244] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 9,
+        grid = 0,
+        priceVal = {
+            [1] = 240,
+        },
+        buyBeginTime = {
+        },
+        storeId = 204000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+            group = 1,
+            discountWeight = 600,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 326244,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500002,
+        },
+        goods = {
+            [510312] = 3,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2008",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [110411] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 4,
+        grid = 4,
+        priceVal = {
+            [1] = 20,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110411,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510302] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 40,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [311006] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 9,
+        grid = 9,
+        priceVal = {
+            [1] = 65,
+            [2] = 65,
+            [3] = 65,
+        },
+        buyBeginTime = {
+        },
+        storeId = 311000,
+        weight = 1,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 311006,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580127,
+            [2] = 580128,
+            [3] = 580129,
+        },
+        goods = {
+            [300032] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -79748,41 +79597,39 @@ return {
         limitVal = 1,
         des = "",
     },
-    [326252] = {
-        batchBuy = true,
+    [150508] = {
+        batchBuy = false,
         buyEndTime = {
         },
         order = 10,
-        grid = 0,
+        grid = 10,
         priceVal = {
-            [1] = 50,
+            [1] = 10,
         },
         buyBeginTime = {
         },
-        storeId = 204000,
-        weight = 600,
+        storeId = 150000,
+        weight = 305,
         limitType = 1,
         openContType = 1,
         ext = {
-            group = 1,
-            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 326252,
+        id = 150508,
         sellTimeType = 1,
         priceType = {
             [1] = 500002,
         },
         goods = {
-            [510221] = 5,
+            [535133] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
         title = 0,
-        sellDescribtion = "2008",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -79866,19 +79713,19 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110414] = {
-        batchBuy = false,
+    [100608] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 4,
-        grid = 4,
+        order = 12,
+        grid = 6,
         priceVal = {
-            [1] = 20,
+            [1] = 5000,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 500,
+        storeId = 100000,
+        weight = 1250,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -79887,36 +79734,36 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110414,
+        id = 100608,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500001,
         },
         goods = {
-            [510317] = 1,
+            [510208] = 5,
         },
         showBeginTime = "",
-        openContVal = 40,
+        openContVal = 10,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2002",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 3,
         des = "",
     },
-    [150508] = {
+    [130501] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 10,
-        grid = 10,
+        order = 5,
+        grid = 5,
         priceVal = {
-            [1] = 10,
+            [1] = 300,
         },
         buyBeginTime = {
         },
-        storeId = 150000,
-        weight = 305,
+        storeId = 130000,
+        weight = 1000,
         limitType = 1,
         openContType = 1,
         ext = {
@@ -79925,13 +79772,13 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 150508,
+        id = 130501,
         sellTimeType = 1,
         priceType = {
-            [1] = 500002,
+            [1] = 570005,
         },
         goods = {
-            [535133] = 1,
+            [250075] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -79980,158 +79827,6 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110543] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 5,
-        grid = 5,
-        priceVal = {
-            [1] = 60,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110543,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510316] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [100608] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 12,
-        grid = 6,
-        priceVal = {
-            [1] = 5000,
-        },
-        buyBeginTime = {
-        },
-        storeId = 100000,
-        weight = 1250,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 100608,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500001,
-        },
-        goods = {
-            [510208] = 5,
-        },
-        showBeginTime = "",
-        openContVal = 10,
-        title = 0,
-        sellDescribtion = "2002",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
-    [150402] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 8,
-        grid = 8,
-        priceVal = {
-            [1] = 6,
-        },
-        buyBeginTime = {
-        },
-        storeId = 150000,
-        weight = 600,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 150402,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500002,
-        },
-        goods = {
-            [535012] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110544] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 5,
-        grid = 5,
-        priceVal = {
-            [1] = 60,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110544,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510317] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 40,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [303001] = {
         batchBuy = true,
         buyEndTime = {
@@ -80170,21 +79865,20 @@ return {
         limitVal = 99,
         des = "",
     },
-    [305003] = {
-        batchBuy = true,
+    [110544] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 5,
+        grid = 5,
         priceVal = {
-            [1] = 1,
-            [2] = 1,
+            [1] = 60,
         },
         buyBeginTime = {
         },
-        storeId = 305000,
-        weight = 1,
-        limitType = 3,
+        storeId = 110000,
+        weight = 500,
+        limitType = 1,
         openContType = 1,
         ext = {
         },
@@ -80192,22 +79886,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 305003,
+        id = 110544,
         sellTimeType = 1,
         priceType = {
-            [1] = 580078,
-            [2] = 580079,
+            [1] = 570002,
         },
         goods = {
-            [599601] = 1,
+            [510317] = 3,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 40,
         title = 0,
-        sellDescribtion = "2004",
+        sellDescribtion = "2003",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 3,
+        limitVal = 1,
         des = "",
     },
     [150509] = {
@@ -80324,89 +80017,6 @@ return {
         limitVal = 99,
         des = "",
     },
-    [110545] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 5,
-        grid = 5,
-        priceVal = {
-            [1] = 48,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110545,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510318] = 3,
-        },
-        showBeginTime = "",
-        openContVal = 40,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [510011] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 18,
-        grid = 1,
-        priceVal = {
-            [1] = 2000,
-        },
-        buyBeginTime = {
-        },
-        storeId = 510000,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-            date = "5月商品复刻事件",
-            activityList = {
-                [100014] = {
-                    [1] = 104612,
-                },
-            },
-            storeLimit = 1,
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 510011,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500075,
-        },
-        goods = {
-            [411206] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 99,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [553008] = {
         batchBuy = true,
         buyEndTime = {
@@ -80443,6 +80053,82 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 30,
+        des = "",
+    },
+    [110418] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 4,
+        grid = 4,
+        priceVal = {
+            [1] = 24,
+        },
+        buyBeginTime = {
+        },
+        storeId = 110000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 110418,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 570002,
+        },
+        goods = {
+            [510301] = 2,
+        },
+        showBeginTime = "",
+        openContVal = 10,
+        title = 0,
+        sellDescribtion = "2003",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [553016] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 17,
+        grid = 17,
+        priceVal = {
+            [1] = 200,
+        },
+        buyBeginTime = {
+        },
+        storeId = 323000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 553016,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500059,
+        },
+        goods = {
+            [521006] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
         des = "",
     },
     [303003] = {
@@ -80483,39 +80169,41 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110418] = {
-        batchBuy = false,
+    [326277] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 4,
-        grid = 4,
+        order = 9,
+        grid = 0,
         priceVal = {
-            [1] = 24,
+            [1] = 50,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 1000,
+        storeId = 204000,
+        weight = 600,
         limitType = 1,
         openContType = 1,
         ext = {
+            group = 1,
+            discountWeight = 700,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110418,
+        id = 326277,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510301] = 2,
+            [555021] = 1,
         },
         showBeginTime = "",
-        openContVal = 10,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2008",
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
@@ -80559,20 +80247,20 @@ return {
         limitVal = 1,
         des = "",
     },
-    [110309] = {
-        batchBuy = false,
+    [306001] = {
+        batchBuy = true,
         buyEndTime = {
         },
-        order = 3,
-        grid = 3,
+        order = 1,
+        grid = 1,
         priceVal = {
-            [1] = 20,
+            [1] = 30,
         },
         buyBeginTime = {
         },
-        storeId = 110000,
-        weight = 500,
-        limitType = 1,
+        storeId = 306000,
+        weight = 1,
+        limitType = 3,
         openContType = 1,
         ext = {
         },
@@ -80580,21 +80268,21 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 110309,
+        id = 306001,
         sellTimeType = 1,
         priceType = {
-            [1] = 570002,
+            [1] = 500002,
         },
         goods = {
-            [510308] = 1,
+            [500066] = 300,
         },
         showBeginTime = "",
-        openContVal = 20,
+        openContVal = 1,
         title = 0,
-        sellDescribtion = "2003",
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
+        limitVal = 99,
         des = "",
     },
     [303004] = {
@@ -80677,14 +80365,14 @@ return {
         limitVal = 1,
         des = "13200270",
     },
-    [552001] = {
-        batchBuy = true,
+    [552009] = {
+        batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 8,
+        grid = 8,
         priceVal = {
-            [1] = 6,
+            [1] = 133,
         },
         buyBeginTime = {
         },
@@ -80693,98 +80381,19 @@ return {
         limitType = 3,
         openContType = 1,
         ext = {
+            tipType = 1,
         },
         sellTime = {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 552001,
+        id = 552009,
         sellTimeType = 1,
         priceType = {
             [1] = 580043,
         },
         goods = {
-            [570031] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 10,
-        des = "",
-    },
-    [305007] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 7,
-        grid = 7,
-        priceVal = {
-            [1] = 3,
-            [2] = 3,
-            [3] = 3,
-        },
-        buyBeginTime = {
-        },
-        storeId = 305000,
-        weight = 1,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 305007,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 580078,
-            [2] = 580079,
-            [3] = 580080,
-        },
-        goods = {
-            [599603] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 3,
-        des = "",
-    },
-    [303005] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 5,
-        grid = 5,
-        priceVal = {
-            [1] = 240,
-        },
-        buyBeginTime = {
-        },
-        storeId = 303000,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 303005,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500059,
-        },
-        goods = {
-            [250257] = 1,
+            [312001] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -80843,6 +80452,89 @@ return {
         showEndTime = "2019-06-03 23:59:59",
         serLimit = 0,
         limitVal = 10,
+        des = "",
+    },
+    [303005] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 5,
+        grid = 5,
+        priceVal = {
+            [1] = 240,
+        },
+        buyBeginTime = {
+        },
+        storeId = 303000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 303005,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500059,
+        },
+        goods = {
+            [250257] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "",
+    },
+    [510008] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 12,
+        grid = 1,
+        priceVal = {
+            [1] = 2000,
+        },
+        buyBeginTime = {
+        },
+        storeId = 510000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+            date = "4月商品复刻事件",
+            activityList = {
+                [100014] = {
+                    [1] = 104610,
+                },
+            },
+            storeLimit = 1,
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 510008,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500075,
+        },
+        goods = {
+            [410112] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
         des = "",
     },
     [150511] = {
@@ -80959,82 +80651,6 @@ return {
         limitVal = 1,
         des = "",
     },
-    [120402] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 5,
-        grid = 4,
-        priceVal = {
-            [1] = 120,
-        },
-        buyBeginTime = {
-        },
-        storeId = 120000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 120402,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570029,
-        },
-        goods = {
-            [240041] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2002",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
-    [110312] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 3,
-        grid = 3,
-        priceVal = {
-            [1] = 16,
-        },
-        buyBeginTime = {
-        },
-        storeId = 110000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 110312,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 570002,
-        },
-        goods = {
-            [510310] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 30,
-        title = 0,
-        sellDescribtion = "2003",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "",
-    },
     [550001] = {
         batchBuy = true,
         buyEndTime = {
@@ -81071,44 +80687,6 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 999,
-        des = "",
-    },
-    [303007] = {
-        batchBuy = true,
-        buyEndTime = {
-        },
-        order = 7,
-        grid = 7,
-        priceVal = {
-            [1] = 3,
-        },
-        buyBeginTime = {
-        },
-        storeId = 303000,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 303007,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500059,
-        },
-        goods = {
-            [599502] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 30,
         des = "",
     },
     [140701] = {
@@ -81161,6 +80739,120 @@ return {
         limitVal = 10,
         des = "",
     },
+    [313003] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 1,
+        grid = 1,
+        priceVal = {
+            [1] = 3,
+        },
+        buyBeginTime = {
+        },
+        storeId = 313000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 313003,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580231,
+        },
+        goods = {
+            [500047] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 13311574,
+        sellDescribtion = "",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "13311568",
+    },
+    [303007] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 7,
+        grid = 7,
+        priceVal = {
+            [1] = 3,
+        },
+        buyBeginTime = {
+        },
+        storeId = 303000,
+        weight = 1000,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 303007,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 500059,
+        },
+        goods = {
+            [599502] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 30,
+        des = "",
+    },
+    [313005] = {
+        batchBuy = false,
+        buyEndTime = {
+        },
+        order = 2,
+        grid = 2,
+        priceVal = {
+            [1] = 2,
+        },
+        buyBeginTime = {
+        },
+        storeId = 313000,
+        weight = 1000,
+        limitType = 1,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 313005,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580232,
+        },
+        goods = {
+            [500047] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 13311576,
+        sellDescribtion = "",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 1,
+        des = "13311569",
+    },
     [150512] = {
         batchBuy = false,
         buyEndTime = {
@@ -81197,82 +80889,6 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
-        des = "",
-    },
-    [313005] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 1,
-        grid = 1,
-        priceVal = {
-            [1] = 1,
-        },
-        buyBeginTime = {
-        },
-        storeId = 313000,
-        weight = 1000,
-        limitType = 1,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 313005,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 580159,
-        },
-        goods = {
-            [520225] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 13311566,
-        sellDescribtion = "",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 1,
-        des = "13311569",
-    },
-    [303008] = {
-        batchBuy = false,
-        buyEndTime = {
-        },
-        order = 8,
-        grid = 8,
-        priceVal = {
-            [1] = 6,
-        },
-        buyBeginTime = {
-        },
-        storeId = 303000,
-        weight = 1000,
-        limitType = 3,
-        openContType = 1,
-        ext = {
-        },
-        sellTime = {
-        },
-        autoRefreshCorn = "",
-        tag = 0,
-        id = 303008,
-        sellTimeType = 1,
-        priceType = {
-            [1] = 500059,
-        },
-        goods = {
-            [599602] = 1,
-        },
-        showBeginTime = "",
-        openContVal = 1,
-        title = 0,
-        sellDescribtion = "2004",
-        showEndTime = "",
-        serLimit = 0,
-        limitVal = 10,
         des = "",
     },
     [307003] = {
@@ -81313,20 +80929,20 @@ return {
         limitVal = 1,
         des = "13200256",
     },
-    [307001] = {
+    [303008] = {
         batchBuy = false,
         buyEndTime = {
         },
-        order = 1,
-        grid = 1,
+        order = 8,
+        grid = 8,
         priceVal = {
-            [1] = 3,
+            [1] = 6,
         },
         buyBeginTime = {
         },
-        storeId = 307000,
+        storeId = 303000,
         weight = 1000,
-        limitType = 1,
+        limitType = 3,
         openContType = 1,
         ext = {
         },
@@ -81334,22 +80950,22 @@ return {
         },
         autoRefreshCorn = "",
         tag = 0,
-        id = 307001,
+        id = 303008,
         sellTimeType = 1,
         priceType = {
-            [1] = 580102,
+            [1] = 500059,
         },
         goods = {
-            [520225] = 1,
+            [599602] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
-        title = 13200224,
-        sellDescribtion = "",
+        title = 0,
+        sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 1,
-        des = "13200254",
+        limitVal = 10,
+        des = "",
     },
     [110304] = {
         batchBuy = false,
@@ -81387,6 +81003,86 @@ return {
         showEndTime = "",
         serLimit = 0,
         limitVal = 1,
+        des = "",
+    },
+    [305015] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 15,
+        grid = 15,
+        priceVal = {
+            [1] = 2,
+        },
+        buyBeginTime = {
+        },
+        storeId = 305000,
+        weight = 1,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 305015,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580080,
+        },
+        goods = {
+            [240009] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 50,
+        des = "",
+    },
+    [305007] = {
+        batchBuy = true,
+        buyEndTime = {
+        },
+        order = 7,
+        grid = 7,
+        priceVal = {
+            [1] = 3,
+            [2] = 3,
+            [3] = 3,
+        },
+        buyBeginTime = {
+        },
+        storeId = 305000,
+        weight = 1,
+        limitType = 3,
+        openContType = 1,
+        ext = {
+        },
+        sellTime = {
+        },
+        autoRefreshCorn = "",
+        tag = 0,
+        id = 305007,
+        sellTimeType = 1,
+        priceType = {
+            [1] = 580078,
+            [2] = 580079,
+            [3] = 580080,
+        },
+        goods = {
+            [599603] = 1,
+        },
+        showBeginTime = "",
+        openContVal = 1,
+        title = 0,
+        sellDescribtion = "2004",
+        showEndTime = "",
+        serLimit = 0,
+        limitVal = 3,
         des = "",
     },
     [303009] = {

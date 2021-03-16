@@ -1274,11 +1274,6 @@ return {
         res = "ui/activity/christmas_dating/003.png",
         res_en = "ui/activity/christmas_dating/003_en.png",
     },
-    [256] = {
-        id = 256,
-        res = "icon/equipment/name/Astaroth.png",
-        res_en = "icon/equipment/name/Astaroth_en.png",
-    },
     [257] = {
         id = 257,
         res = "ui/activity/019.png",
@@ -2698,11 +2693,6 @@ return {
         id = 540,
         res = "icon/stone/random/524009.png",
         res_en = "icon/stone/random/524009_en.png",
-    },
-    [541] = {
-        id = 541,
-        res = "icon/item/goods/501019.png",
-        res_en = "icon/item/goods/501019_en.png",
     },
     [542] = {
         id = 542,
@@ -4729,11 +4719,6 @@ return {
         res = "ui/activity/activity_bg/jumpbutton.png",
         res_en = "ui/activity/activity_bg/jumpbutton_en.png",
     },
-    [947] = {
-        id = 947,
-        res = "icon/equipment/name/asimode.png",
-        res_en = "icon/equipment/name/asimode_en.png",
-    },
     [948] = {
         id = 948,
         res = "ui/dalmap/event/wenan_4.png",
@@ -5358,11 +5343,6 @@ return {
         id = 1072,
         res = "ui/activity/picture/ad186.png",
         res_en = "ui/activity/picture/ad186_en.png",
-    },
-    [1073] = {
-        id = 1073,
-        res = "icon/equipment/name/beigefen.png",
-        res_en = "icon/equipment/name/beigefen_en.png",
     },
     [1074] = {
         id = 1074,

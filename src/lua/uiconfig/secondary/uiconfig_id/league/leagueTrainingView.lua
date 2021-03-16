@@ -268,7 +268,7 @@ local t =
 										PositionX = 19,
 										PositionY = 540,
 									},
-									width = "137",
+									width = "152",
 									ZOrder = "1",
 									components = 
 									{
@@ -487,7 +487,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 120,
+										PositionX = 206,
 										PositionY = 464,
 									},
 									width = "0",
@@ -631,7 +631,7 @@ local t =
 										PercentX = 50,
 										PercentY = 40,
 									},
-									width = "167",
+									width = "155",
 									ZOrder = "1",
 								},
 								{
@@ -714,7 +714,7 @@ local t =
 												PositionX = 20,
 												PositionY = 100,
 											},
-											width = "183",
+											width = "197",
 											ZOrder = "1",
 											components = 
 											{
@@ -861,7 +861,7 @@ local t =
 											{
 												
 											},
-											width = "113",
+											width = "110",
 											ZOrder = "1",
 										},
 									},
@@ -941,7 +941,7 @@ local t =
 											{
 												
 											},
-											width = "158",
+											width = "150",
 											ZOrder = "1",
 										},
 										{
@@ -1043,7 +1043,7 @@ local t =
 											{
 												
 											},
-											width = "282",
+											width = "265",
 											ZOrder = "1",
 										},
 									},
@@ -1266,7 +1266,7 @@ local t =
 										PositionX = -281,
 										PositionY = -47,
 									},
-									width = "120",
+									width = "133",
 									ZOrder = "1",
 								},
 								{
@@ -1482,7 +1482,7 @@ local t =
 										PositionX = 36,
 										PositionY = -32,
 									},
-									width = "107",
+									width = "120",
 									ZOrder = "1",
 								},
 								{
@@ -2190,7 +2190,7 @@ local t =
 												PositionX = -1,
 												PositionY = -2,
 											},
-											width = "58",
+											width = "57",
 											ZOrder = "1",
 										},
 									},
@@ -2303,7 +2303,7 @@ local t =
 										PositionX = 33,
 										PositionY = 43,
 									},
-									width = "121",
+									width = "137",
 									ZOrder = "1",
 								},
 								{

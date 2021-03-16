@@ -392,15 +392,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_impeach_time",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -415,7 +415,7 @@ local t =
 													{
 														
 													},
-													width = "151",
+													width = "350",
 													ZOrder = "99",
 												},
 												{
@@ -742,7 +742,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "88",
+											width = "93",
 											ZOrder = "1",
 										},
 									},

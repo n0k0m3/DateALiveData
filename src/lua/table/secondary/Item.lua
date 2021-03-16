@@ -61340,8 +61340,8 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 13200462,
-        icon = "icon/dafuweng/item/580242.png",
+        nameTextId = 15010139,
+        icon = "icon/item/goods/570079.png",
         quality = 5,
         desTextId = 13200465,
         delete = false,
@@ -61358,7 +61358,7 @@ return {
         },
         star = 0,
         iconShow = "",
-        totalMax = 6,
+        totalMax = 12,
         dealProfit = {
         },
         order = 1,
@@ -61421,8 +61421,8 @@ return {
         smallType = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 13200463,
-        icon = "icon/dafuweng/item/580243.png",
+        nameTextId = 13200164,
+        icon = "icon/item/goods/501019.png",
         quality = 5,
         desTextId = 13200466,
         delete = false,
@@ -61439,7 +61439,7 @@ return {
         },
         star = 0,
         iconShow = "",
-        totalMax = 3,
+        totalMax = 6,
         dealProfit = {
         },
         order = 1,
@@ -87252,7 +87252,7 @@ return {
                         num = 1,
                     },
                     [19] = {
-                        id = 521297,
+                        id = 521197,
                         num = 1,
                     },
                     [20] = {
@@ -87385,7 +87385,7 @@ return {
                         num = 1,
                     },
                     [19] = {
-                        id = 521296,
+                        id = 521196,
                         num = 1,
                     },
                     [20] = {
@@ -87518,7 +87518,7 @@ return {
                         num = 1,
                     },
                     [19] = {
-                        id = 521295,
+                        id = 521195,
                         num = 1,
                     },
                     [20] = {

@@ -15,7 +15,7 @@ return {
         id = 3,
         beginTime  = "00:00:19,800",
         endTime  = "00:00:26,0",
-        content  = "If you weren't here for me, I would've done something else I couldn't take back…",
+        content  = "If you weren't here for me, I would've done \nsomething else I couldn't take back…",
     },
     [4] = {
         id = 4,
@@ -51,7 +51,7 @@ return {
         id = 9,
         beginTime  = "00:00:58,800",
         endTime  = "00:01:03,0",
-        content  = "Well, I'm honored to be there for you. Oh yeah, I've got something of yours to give back.",
+        content  = "Well, I'm honored to be there for you. \nOh yeah, I've got something of yours to give back.",
     },
     [10] = {
         id = 10,

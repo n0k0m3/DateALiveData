@@ -176,7 +176,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "25",
+							height = "23",
 							ignoreSize = "True",
 							name = "Label_empty",
 							nTextAlign = "1",
@@ -192,7 +192,7 @@ local t =
 							{
 								
 							},
-							width = "325",
+							width = "332",
 							ZOrder = "1",
 						},
 						{
@@ -357,7 +357,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -381,7 +381,7 @@ local t =
 												PositionX = -1,
 												PositionY = -26,
 											},
-											width = "0",
+											width = "130",
 											ZOrder = "1",
 										},
 									},
@@ -430,7 +430,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -483,7 +483,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_num",
 									nTextAlign = "1",
@@ -500,7 +500,7 @@ local t =
 										PositionX = 93,
 										PositionY = 119,
 									},
-									width = "40",
+									width = "30",
 									ZOrder = "1",
 								},
 								{
@@ -580,15 +580,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "26",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "30",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_use",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -601,9 +601,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = -3,
+														
 													},
-													width = "53",
+													width = "120",
 													ZOrder = "1",
 												},
 											},
@@ -629,15 +629,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_effect",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -652,7 +652,7 @@ local t =
 									{
 										PositionY = -130,
 									},
-									width = "165",
+									width = "180",
 									ZOrder = "1",
 								},
 								{

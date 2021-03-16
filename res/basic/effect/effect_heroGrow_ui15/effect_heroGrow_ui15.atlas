@@ -6,106 +6,106 @@ filter: Linear,Linear
 repeat: none
 kuang/kuang_00000
   rotate: false
-  xy: 772, 317
-  size: 152, 187
-  orig: 263, 263
-  offset: 50, 35
+  xy: 429, 4
+  size: 161, 199
+  orig: 280, 280
+  offset: 54, 38
   index: -1
 kuang/kuang_00002
   rotate: false
-  xy: 614, 315
-  size: 156, 189
-  orig: 263, 263
-  offset: 48, 36
+  xy: 261, 2
+  size: 166, 201
+  orig: 280, 280
+  offset: 52, 39
   index: -1
 kuang/kuang_00004
-  rotate: true
-  xy: 2, 2
-  size: 203, 238
-  orig: 263, 263
-  offset: 60, 0
+  rotate: false
+  xy: 261, 205
+  size: 216, 253
+  orig: 280, 280
+  offset: 64, 0
   index: -1
 kuang/kuang_00006
   rotate: false
-  xy: 261, 737
-  size: 242, 263
-  orig: 263, 263
-  offset: 21, 0
+  xy: 278, 742
+  size: 257, 280
+  orig: 280, 280
+  offset: 23, 0
   index: -1
 kuang/kuang_00008
   rotate: false
-  xy: 2, 737
-  size: 257, 263
-  orig: 263, 263
+  xy: 2, 742
+  size: 274, 280
+  orig: 280, 280
   offset: 0, 0
   index: -1
 kuang/kuang_00010
   rotate: false
-  xy: 2, 472
-  size: 250, 263
-  orig: 263, 263
+  xy: 2, 460
+  size: 267, 280
+  orig: 280, 280
   offset: 9, 0
   index: -1
 kuang/kuang_00012
   rotate: false
-  xy: 254, 472
-  size: 240, 263
-  orig: 263, 263
-  offset: 22, 0
+  xy: 271, 460
+  size: 256, 280
+  orig: 280, 280
+  offset: 23, 0
   index: -1
 kuang/kuang_00014
   rotate: false
-  xy: 2, 207
-  size: 241, 263
-  orig: 263, 263
-  offset: 22, 0
+  xy: 2, 178
+  size: 257, 280
+  orig: 280, 280
+  offset: 23, 0
   index: -1
 kuang/kuang_00016
   rotate: false
-  xy: 505, 737
-  size: 237, 263
-  orig: 263, 263
-  offset: 22, 0
+  xy: 537, 742
+  size: 253, 280
+  orig: 280, 280
+  offset: 23, 0
   index: -1
 kuang/kuang_00018
   rotate: false
-  xy: 744, 774
-  size: 184, 226
-  orig: 263, 263
-  offset: 22, 0
+  xy: 665, 252
+  size: 196, 241
+  orig: 280, 280
+  offset: 23, 0
   index: -1
 kuang/kuang_00020
   rotate: false
-  xy: 496, 506
-  size: 199, 229
-  orig: 263, 263
+  xy: 792, 778
+  size: 212, 244
+  orig: 280, 280
   offset: 10, 0
   index: -1
 kuang/kuang_00022
   rotate: false
-  xy: 245, 240
-  size: 208, 230
-  orig: 263, 263
+  xy: 529, 495
+  size: 222, 245
+  orig: 280, 280
   offset: 3, 0
   index: -1
 kuang/kuang_00024
   rotate: false
-  xy: 697, 506
-  size: 174, 229
-  orig: 263, 263
-  offset: 39, 0
+  xy: 479, 214
+  size: 184, 244
+  orig: 280, 280
+  offset: 42, 0
   index: -1
 kuang/kuang_00026
-  rotate: false
-  xy: 455, 273
-  size: 157, 197
-  orig: 263, 263
-  offset: 56, 37
+  rotate: true
+  xy: 2, 9
+  size: 167, 210
+  orig: 280, 280
+  offset: 60, 39
   index: -1
 kuang/kuang_00028
-  rotate: true
-  xy: 245, 82
-  size: 156, 183
-  orig: 263, 263
-  offset: 56, 35
+  rotate: false
+  xy: 592, 18
+  size: 166, 194
+  orig: 280, 280
+  offset: 59, 38
   index: -1

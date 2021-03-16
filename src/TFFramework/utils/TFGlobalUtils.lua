@@ -39,31 +39,31 @@ end
 function TFGlobalUtils:requireGlobalFile( path )
 	local fullPath = string.gsub(path , '%.' , '/')
 	if self:getPlayerServerIdx() == GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE then
-		local primaryFullPath = string.gsub(fullPath , 'table' , 'table/primary')   
+		local primaryFullPath = string.gsub(fullPath , '/table' , '/table/primary')   
 		primaryFullPath = "src/" ..primaryFullPath ..".lua"
 		if TFFileUtil:existFile(primaryFullPath) then
-			local primary = "table.primary"
-			local luaPath = string.gsub(path , 'table' , primary)
+			local primary = ".table.primary"
+			local luaPath = string.gsub(path , '%.table' , primary)
 			local file = require(luaPath)
 			return file
 		end
 	end
 
 	local code = TFLanguageMgr:getUsingLanguageCode()
-	local secondary = "table.secondary." ..code
-	local secondaryFullPath = string.gsub(fullPath , 'table' , 'table/secondary/' ..code)   
+	local secondary = ".table.secondary." ..code
+	local secondaryFullPath = string.gsub(fullPath , '/table' , '/table/secondary/' ..code)   
 	secondaryFullPath = "src/" ..secondaryFullPath ..".lua" 
 	if TFFileUtil:existFile(secondaryFullPath) then
-		local luaPath = string.gsub(path , 'table' , secondary)
+		local luaPath = string.gsub(path , '%.table' , secondary)
 		local file = require(luaPath)
 		return file
 	end
 
-	local secondary = "table.secondary"
-	local secondaryFullPath = string.gsub(fullPath , 'table' , 'table/secondary')   
+	local secondary = ".table.secondary"
+	local secondaryFullPath = string.gsub(fullPath , '/table' , '/table/secondary') 
 	secondaryFullPath = "src/" ..secondaryFullPath ..".lua" 
 	if TFFileUtil:existFile(secondaryFullPath) then
-		local file = require(string.gsub(path , 'table' , secondary)) 
+		local file = require(string.gsub(path , '%.table' , secondary)) 
 		return file
 	end
 
@@ -79,30 +79,30 @@ function TFGlobalUtils:unRequireGlobalFile( path )
 	local code = TFLanguageMgr:getUsingLanguageCode()
 	local fullPath = string.gsub(path , '%.' , '/')
 	if self:getPlayerServerIdx() == GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE then
-		local primaryFullPath = string.gsub(fullPath , 'table' , 'table/primary/')   
+		local primaryFullPath = string.gsub(fullPath , '/table' , '/table/primary/')   
 		primaryFullPath = "src/" ..primaryFullPath ..".lua" 
 		if TFFileUtil:existFile(primaryFullPath) then
-			local primary = "table.primary."
-			local luaPath = string.gsub(path , 'table' , primary)
+			local primary = ".table.primary."
+			local luaPath = string.gsub(path , '%.table' , primary)
 			TFDirector:unRequire(luaPath)
 			return
 		end
 	end
 
-	local secondary = "table.secondary." ..code
-	local secondaryFullPath = string.gsub(fullPath , 'table' , 'table/secondary/' ..code)   
+	local secondary = ".table.secondary." ..code
+	local secondaryFullPath = string.gsub(fullPath , '/table' , '/table/secondary/' ..code)   
 	secondaryFullPath = "src/" ..secondaryFullPath ..".lua" 
 	if TFFileUtil:existFile(secondaryFullPath) then
-		local luaPath = string.gsub(path , 'table' , secondary)
+		local luaPath = string.gsub(path , '%.table' , secondary)
 		TFDirector:unRequire(luaPath)
 		return
 	end
 
-	local secondary = "table.secondary."
-	local secondaryFullPath = string.gsub(fullPath , 'table' , 'table/secondary/')   
+	local secondary = ".table.secondary."
+	local secondaryFullPath = string.gsub(fullPath , '/table' , '/table/secondary/')   
 	secondaryFullPath = "src/" ..secondaryFullPath ..".lua" 
 	if TFFileUtil:existFile(secondaryFullPath) then
-		TFDirector:unRequire(string.gsub(path , 'table' , secondary))
+		TFDirector:unRequire(string.gsub(path , '%.table' , secondary))
 		return
 	end
 end
