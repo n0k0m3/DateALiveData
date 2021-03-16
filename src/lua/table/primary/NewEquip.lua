@@ -1076,7 +1076,7 @@ return {
         desTextId = 27012,
         cost = 2,
         pileUp = false,
-        illustratedJudge = false,
+        illustratedJudge = true,
         gridMax = 2,
         bagType = 13,
         nameTextId = 27011,
@@ -1093,7 +1093,7 @@ return {
             [500001] = 1,
         },
         endStar = 2,
-        display = false,
+        display = true,
         star = 1,
         accessId = {
             [1] = 59,
@@ -1132,7 +1132,7 @@ return {
         desTextId = 27014,
         cost = 2,
         pileUp = false,
-        illustratedJudge = false,
+        illustratedJudge = true,
         gridMax = 2,
         bagType = 13,
         nameTextId = 27013,
@@ -1149,7 +1149,7 @@ return {
             [500001] = 1,
         },
         endStar = 2,
-        display = false,
+        display = true,
         star = 1,
         accessId = {
             [1] = 60,
@@ -3970,7 +3970,6 @@ return {
         display = true,
         star = 1,
         accessId = {
-            [1] = 186,
         },
         level = 1,
     },

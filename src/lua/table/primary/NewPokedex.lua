@@ -17877,7 +17877,7 @@ return {
         sort = 840,
         sortr = "840",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -17908,7 +17908,7 @@ return {
         sort = 841,
         sortr = "841",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,

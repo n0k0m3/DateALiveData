@@ -622,12 +622,12 @@ return {
         },
         name = 13200501,
         showType = 1,
-        icon = 510242,
+        icon = 599605,
         reward = {
             fix = {
                 items = {
                     [1] = {
-                        id = 510242,
+                        id = 599605,
                         num = 1,
                     },
                 },

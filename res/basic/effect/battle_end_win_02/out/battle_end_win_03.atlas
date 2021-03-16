@@ -4,79 +4,204 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-kuangsan/effect/V1/V11_000
+kuangsan/de/battle_end_win_03_de
   rotate: false
-  xy: 404, 699
-  size: 400, 74
-  orig: 420, 100
-  offset: 11, 7
-  index: -1
-kuangsan/effect/V1/V21_000
-  rotate: false
-  xy: 376, 562
-  size: 400, 74
-  orig: 420, 100
-  offset: 11, 7
+  xy: 2, 632
+  size: 752, 82
+  orig: 870, 100
+  offset: 25, 3
   index: -1
 kuangsan/effect/V1/guangxian1_000
-  rotate: false
-  xy: 2, 727
+  rotate: true
+  xy: 822, 622
   size: 400, 200
   orig: 400, 200
   offset: 0, 0
   index: -1
 kuangsan/effect/V1/hengtiao1_000
-  rotate: false
-  xy: 376, 638
+  rotate: true
+  xy: 756, 296
   size: 418, 59
   orig: 420, 100
   offset: 0, 18
   index: -1
-kuangsan/effect/V1/lizi1/lizi_000
+kuangsan/effect/V1/lizi1/lizi_006
+  rotate: true
+  xy: 817, 273
+  size: 347, 149
+  orig: 350, 160
+  offset: 0, 3
+  index: -1
+kuangsan/effect/V1/lizi1/lizi_016
   rotate: false
-  xy: 27, 147
+  xy: 420, 272
+  size: 333, 136
+  orig: 350, 160
+  offset: 0, 13
+  index: -1
+kuangsan/effect/V1/shaoguang1_000
+  rotate: true
+  xy: 994, 126
+  size: 494, 23
+  orig: 500, 50
+  offset: 3, 13
+  index: -1
+kuangsan/en/V212
+  rotate: true
+  xy: 176, 2
+  size: 561, 82
+  orig: 561, 82
+  offset: 0, 0
+  index: -1
+kuangsan/en/yuhiyingyu
+  rotate: true
+  xy: 260, 2
+  size: 561, 82
+  orig: 562, 100
+  offset: 1, 3
+  index: -1
+kuangsan/es/battle_end_win_03_es
+  rotate: false
+  xy: 176, 800
+  size: 621, 82
+  orig: 870, 100
+  offset: 46, 3
+  index: -1
+kuangsan/es/battle_end_win_03_es_glow_0
+  rotate: false
+  xy: 176, 716
+  size: 621, 82
+  orig: 676, 153
+  offset: 35, 32
+  index: -1
+kuangsan/fr/battle_end_win_03_fr
+  rotate: false
+  xy: 2, 954
+  size: 818, 68
+  orig: 870, 100
+  offset: 41, 20
+  index: -1
+kuangsan/fr/battle_end_win_03_fr_glow_0
+  rotate: false
+  xy: 2, 884
+  size: 818, 68
+  orig: 858, 153
+  offset: 30, 49
+  index: -1
+kuangsan/id/battle_end_win_03_id
+  rotate: false
+  xy: 176, 565
+  size: 572, 65
+  orig: 870, 100
+  offset: 41, 20
+  index: -1
+kuangsan/id/battle_end_win_03_id_glow_0
+  rotate: false
+  xy: 420, 205
+  size: 572, 65
+  orig: 597, 153
+  offset: 11, 49
+  index: -1
+kuangsan/ko/V11_000
+  rotate: false
+  xy: 420, 138
+  size: 423, 65
+  orig: 423, 65
+  offset: 0, 0
+  index: -1
+kuangsan/th/battle_end_win_03_th
+  rotate: true
+  xy: 2, 8
+  size: 612, 85
+  orig: 870, 100
+  offset: 60, 3
+  index: -1
+kuangsan/th/battle_end_win_03_th_glow_0
+  rotate: true
+  xy: 89, 8
+  size: 612, 85
+  orig: 666, 153
+  offset: 30, 32
+  index: -1
+kuangsan/zh/V11_000
+  rotate: false
+  xy: 344, 486
+  size: 403, 77
+  orig: 420, 100
+  offset: 8, 6
+  index: -1
+kuangsan/zh/V21_000
+  rotate: false
+  xy: 420, 31
+  size: 420, 93
+  orig: 420, 100
+  offset: 0, 0
+  index: -1
+kuangsan/zn/V11_000
+  rotate: false
+  xy: 344, 410
+  size: 400, 74
+  orig: 420, 100
+  offset: 11, 7
+  index: -1
+kuangsan/zn/V21_000
+  rotate: true
+  xy: 344, 8
+  size: 400, 74
+  orig: 420, 100
+  offset: 11, 7
+  index: -1
+
+battle_end_win_032.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuangsan/de/battle_end_win_03_de_glow_0
+  rotate: false
+  xy: 2, 932
+  size: 752, 82
+  orig: 788, 153
+  offset: 14, 32
+  index: -1
+kuangsan/effect/V1/lizi1/lizi_000
+  rotate: true
+  xy: 217, 285
   size: 338, 128
   orig: 350, 160
   offset: 7, 9
   index: -1
 kuangsan/effect/V1/lizi1/lizi_002
   rotate: false
-  xy: 372, 424
+  xy: 69, 147
   size: 346, 136
   orig: 350, 160
   offset: 0, 5
   index: -1
 kuangsan/effect/V1/lizi1/lizi_004
   rotate: false
-  xy: 27, 277
+  xy: 350, 786
   size: 347, 144
-  orig: 350, 160
-  offset: 0, 3
-  index: -1
-kuangsan/effect/V1/lizi1/lizi_006
-  rotate: false
-  xy: 27, 576
-  size: 347, 149
   orig: 350, 160
   offset: 0, 3
   index: -1
 kuangsan/effect/V1/lizi1/lizi_008
   rotate: false
-  xy: 404, 775
+  xy: 2, 778
   size: 346, 152
   orig: 350, 160
   offset: 0, 3
   index: -1
 kuangsan/effect/V1/lizi1/lizi_010
   rotate: false
-  xy: 27, 423
+  xy: 2, 625
   size: 343, 151
   orig: 350, 160
   offset: 0, 5
   index: -1
 kuangsan/effect/V1/lizi1/lizi_012
-  rotate: false
-  xy: 376, 276
+  rotate: true
+  xy: 69, 285
   size: 338, 146
   orig: 350, 160
   offset: 0, 8
@@ -88,17 +213,10 @@ kuangsan/effect/V1/lizi1/lizi_014
   orig: 350, 160
   offset: 0, 9
   index: -1
-kuangsan/effect/V1/lizi1/lizi_016
-  rotate: false
-  xy: 367, 138
-  size: 333, 136
-  orig: 350, 160
-  offset: 0, 13
-  index: -1
-kuangsan/effect/V1/shaoguang1_000
+kuangsan/ko/V21_000
   rotate: true
-  xy: 2, 231
-  size: 494, 23
-  orig: 500, 50
-  offset: 3, 13
+  xy: 2, 200
+  size: 423, 65
+  orig: 423, 65
+  offset: 0, 0
   index: -1

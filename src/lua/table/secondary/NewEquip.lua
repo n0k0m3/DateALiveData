@@ -3968,7 +3968,6 @@ return {
         display = true,
         star = 1,
         accessId = {
-            [1] = 186,
         },
         level = 1,
     },
