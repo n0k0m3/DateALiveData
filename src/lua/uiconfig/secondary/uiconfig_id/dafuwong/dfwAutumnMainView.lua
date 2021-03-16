@@ -873,7 +873,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_store",
 									nTextAlign = "1",
@@ -889,7 +889,7 @@ local t =
 									{
 										PositionY = -27,
 									},
-									width = "73",
+									width = "95",
 									ZOrder = "1",
 								},
 							},
@@ -977,7 +977,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_turntable",
 									nTextAlign = "1",
@@ -993,7 +993,7 @@ local t =
 									{
 										PositionY = -27,
 									},
-									width = "75",
+									width = "140",
 									ZOrder = "1",
 								},
 							},
@@ -1081,7 +1081,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_task",
 									nTextAlign = "1",
@@ -1097,7 +1097,7 @@ local t =
 									{
 										PositionY = -27,
 									},
-									width = "75",
+									width = "208",
 									ZOrder = "1",
 								},
 							},
@@ -1185,7 +1185,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_hand_account",
 									nTextAlign = "1",
@@ -1201,7 +1201,7 @@ local t =
 									{
 										PositionY = -27,
 									},
-									width = "43",
+									width = "138",
 									ZOrder = "1",
 								},
 							},
@@ -1257,15 +1257,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_card",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1278,9 +1278,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -33,
+										PositionX = -1,
+										PositionY = -28,
 									},
-									width = "77",
+									width = "79",
 									ZOrder = "1",
 								},
 							},
@@ -1343,7 +1344,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_step_title",
 									nTextAlign = "1",
@@ -1360,7 +1361,7 @@ local t =
 										PositionX = -83,
 										PositionY = 7,
 									},
-									width = "84",
+									width = "94",
 									ZOrder = "1",
 								},
 								{
@@ -1389,7 +1390,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_step",
 									nTextAlign = "1",
@@ -1406,7 +1407,7 @@ local t =
 										PositionX = -81,
 										PositionY = -17,
 									},
-									width = "77",
+									width = "51",
 									ZOrder = "1",
 								},
 								{
@@ -1586,7 +1587,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1821,8 +1822,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_dice_tip",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1840,7 +1841,7 @@ local t =
 										TopPosition = 206,
 										relativeToName = "Panel",
 									},
-									width = "166",
+									width = "800",
 									ZOrder = "1",
 								},
 								{
@@ -1897,7 +1898,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_control_name",
 											nTextAlign = "1",
@@ -1913,7 +1914,7 @@ local t =
 											{
 												PositionY = 61,
 											},
-											width = "90",
+											width = "159",
 											ZOrder = "1",
 										},
 										{
@@ -1958,7 +1959,7 @@ local t =
 											{
 												PositionY = 29,
 											},
-											width = "245",
+											width = "233",
 											ZOrder = "1",
 										},
 										{
@@ -2189,15 +2190,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_dice_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -2212,7 +2213,7 @@ local t =
 											{
 												PositionY = 3,
 											},
-											width = "90",
+											width = "110",
 											ZOrder = "1",
 										},
 									},
@@ -2444,7 +2445,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "40",
+											height = "37",
 											ignoreSize = "True",
 											name = "Label_cancel",
 											nTextAlign = "1",
@@ -2460,7 +2461,7 @@ local t =
 											{
 												
 											},
-											width = "129",
+											width = "130",
 											ZOrder = "1",
 										},
 									},
@@ -2492,7 +2493,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								
+								PositionX = 1,
 							},
 							uipanelviewmodel = 
 							{
@@ -2555,7 +2556,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "64",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_gridItem",
 							sizepercentx = "0",
@@ -2569,7 +2570,7 @@ local t =
 								PositionX = -27,
 								PositionY = -97,
 							},
-							width = "64",
+							width = "2",
 							ZOrder = "1",
 							components = 
 							{
@@ -2583,7 +2584,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "64",
+									height = "2",
 									ignoreSize = "True",
 									name = "Image_build",
 									sizepercentx = "0",
@@ -2596,7 +2597,7 @@ local t =
 									{
 										
 									},
-									width = "64",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -2634,7 +2635,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "64",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_rewardItem",
 							sizepercentx = "0",
@@ -2648,7 +2649,7 @@ local t =
 								PositionX = 413,
 								PositionY = -7,
 							},
-							width = "64",
+							width = "2",
 							ZOrder = "1",
 						},
 						{
@@ -2745,7 +2746,7 @@ local t =
 										StrokeColor = "#FF72082C",
 										StrokeSize = 2,
 									},
-									height = "26",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_count",
 									nTextAlign = "1",
@@ -2761,7 +2762,7 @@ local t =
 									{
 										PositionY = -40,
 									},
-									width = "41",
+									width = "32",
 									ZOrder = "1",
 								},
 							},
@@ -2813,7 +2814,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "64",
+									height = "2",
 									ignoreSize = "True",
 									name = "Image_reward",
 									scaleX = "0.4",
@@ -2828,7 +2829,7 @@ local t =
 									{
 										PositionX = 17,
 									},
-									width = "64",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -2857,7 +2858,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_count",
 									nTextAlign = "1",
@@ -2874,7 +2875,7 @@ local t =
 										PositionX = -5,
 										PositionY = -2,
 									},
-									width = "28",
+									width = "29",
 									ZOrder = "1",
 								},
 							},

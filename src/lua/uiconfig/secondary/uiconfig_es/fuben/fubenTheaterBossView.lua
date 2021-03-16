@@ -213,7 +213,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "40",
+											height = "2",
 											ignoreSize = "True",
 											name = "Image_fubenEndlessView_1",
 											sizepercentx = "0",
@@ -226,7 +226,7 @@ local t =
 											{
 												PositionX = -76,
 											},
-											width = "40",
+											width = "2",
 											ZOrder = "1",
 										},
 										{
@@ -272,7 +272,7 @@ local t =
 												PositionX = 9,
 												PositionY = -3,
 											},
-											width = "261",
+											width = "292",
 											ZOrder = "1",
 										},
 									},
@@ -408,7 +408,7 @@ local t =
 												PositionX = 17,
 												PositionY = -2,
 											},
-											width = "245",
+											width = "271",
 											ZOrder = "1",
 										},
 									},
@@ -848,7 +848,7 @@ local t =
 									{
 										PositionY = 154,
 									},
-									width = "123",
+									width = "136",
 									ZOrder = "1",
 								},
 								{
@@ -933,14 +933,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "28",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_challenge_info_title",
 									nTextAlign = "1",
@@ -957,7 +957,7 @@ local t =
 										PositionX = -188,
 										PositionY = -3,
 									},
-									width = "272",
+									width = "243",
 									ZOrder = "1",
 								},
 								{
@@ -1073,14 +1073,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "28",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_dropReward",
 									nTextAlign = "1",
@@ -1097,7 +1097,7 @@ local t =
 										PositionX = -188,
 										PositionY = -3,
 									},
-									width = "225",
+									width = "211",
 									ZOrder = "1",
 								},
 								{
@@ -1187,14 +1187,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "28",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_contributionReward",
 									nTextAlign = "1",
@@ -1211,7 +1211,7 @@ local t =
 										PositionX = -188,
 										PositionY = -3,
 									},
-									width = "336",
+									width = "305",
 									ZOrder = "1",
 								},
 								{
@@ -1449,7 +1449,7 @@ local t =
 									{
 										PositionX = 63,
 									},
-									width = "16",
+									width = "15",
 									ZOrder = "1",
 								},
 							},
@@ -1827,7 +1827,7 @@ local t =
 										PositionX = -297,
 										PositionY = -98,
 									},
-									width = "288",
+									width = "322",
 									ZOrder = "1",
 									components = 
 									{
@@ -1923,7 +1923,7 @@ local t =
 										PositionX = -296,
 										PositionY = -127,
 									},
-									width = "119",
+									width = "136",
 									ZOrder = "1",
 									components = 
 									{
@@ -2050,7 +2050,7 @@ local t =
 									{
 										PositionX = -295,
 									},
-									width = "213",
+									width = "223",
 									ZOrder = "1",
 								},
 								{
@@ -2096,7 +2096,7 @@ local t =
 										PositionX = 294,
 										PositionY = -2,
 									},
-									width = "208",
+									width = "200",
 									ZOrder = "1",
 								},
 							},
@@ -2144,7 +2144,7 @@ local t =
 								PositionX = 60,
 								PositionY = 207,
 							},
-							width = "208",
+							width = "200",
 							ZOrder = "1",
 						},
 						{
@@ -2190,7 +2190,7 @@ local t =
 								PositionX = 115,
 								PositionY = -289,
 							},
-							width = "87",
+							width = "84",
 							ZOrder = "1",
 							components = 
 							{
@@ -2293,7 +2293,7 @@ local t =
 									{
 										PositionY = 12,
 									},
-									width = "87",
+									width = "86",
 									ZOrder = "1",
 								},
 								{
@@ -2338,7 +2338,7 @@ local t =
 									{
 										PositionY = -15,
 									},
-									width = "37",
+									width = "36",
 									ZOrder = "1",
 								},
 							},
@@ -2606,7 +2606,7 @@ local t =
 										PositionX = -216,
 										PositionY = -8,
 									},
-									width = "45",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -2652,7 +2652,7 @@ local t =
 										PositionX = -216,
 										PositionY = -8,
 									},
-									width = "45",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -2698,7 +2698,7 @@ local t =
 										PositionX = -153,
 										PositionY = -20,
 									},
-									width = "172",
+									width = "162",
 									ZOrder = "1",
 								},
 								{
@@ -3016,7 +3016,7 @@ local t =
 												PositionX = -4,
 												PositionY = 8,
 											},
-											width = "19",
+											width = "21",
 											ZOrder = "1",
 										},
 										{
@@ -3088,7 +3088,7 @@ local t =
 												PositionX = 3,
 												PositionY = -6,
 											},
-											width = "13",
+											width = "12",
 											ZOrder = "1",
 										},
 									},
@@ -3168,7 +3168,7 @@ local t =
 												PositionX = -4,
 												PositionY = 6,
 											},
-											width = "19",
+											width = "21",
 											ZOrder = "1",
 										},
 										{
@@ -3215,7 +3215,7 @@ local t =
 												PositionX = 4,
 												PositionY = -7,
 											},
-											width = "11",
+											width = "12",
 											ZOrder = "1",
 										},
 									},

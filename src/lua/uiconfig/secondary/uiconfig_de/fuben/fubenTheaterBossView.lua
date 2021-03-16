@@ -933,14 +933,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "28",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_challenge_info_title",
 									nTextAlign = "1",
@@ -957,7 +957,7 @@ local t =
 										PositionX = -188,
 										PositionY = -3,
 									},
-									width = "279",
+									width = "207",
 									ZOrder = "1",
 								},
 								{
@@ -1073,14 +1073,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "28",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_dropReward",
 									nTextAlign = "1",
@@ -1097,7 +1097,7 @@ local t =
 										PositionX = -188,
 										PositionY = -3,
 									},
-									width = "210",
+									width = "158",
 									ZOrder = "1",
 								},
 								{
@@ -1187,14 +1187,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "28",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_contributionReward",
 									nTextAlign = "1",
@@ -1211,7 +1211,7 @@ local t =
 										PositionX = -188,
 										PositionY = -3,
 									},
-									width = "240",
+									width = "177",
 									ZOrder = "1",
 								},
 								{
@@ -1380,18 +1380,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_remainCount_title",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1403,7 +1403,7 @@ local t =
 									{
 										PositionX = -59,
 									},
-									width = "198",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -1504,15 +1504,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "21",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_receive",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1527,7 +1527,7 @@ local t =
 									{
 										
 									},
-									width = "204",
+									width = "120",
 									ZOrder = "1",
 								},
 							},
@@ -2119,18 +2119,18 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "16",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "25",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "Label_permanent_reset_time",
 							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextHAlign = "2",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -2141,9 +2141,9 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 60,
-								PositionY = 207,
+								PositionY = 208,
 							},
-							width = "385",
+							width = "160",
 							ZOrder = "1",
 						},
 						{
