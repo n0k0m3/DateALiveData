@@ -1,9 +1,8 @@
 name: Date A Live Spirit Pledge Datamining
 
 on:
-  workflow_dispatch:
-  repository_dispatch:
-    types: dal
+  schedule:    
+    - cron: "*/30 * * * *"
     
 jobs:
   check-update:
@@ -23,7 +22,7 @@ jobs:
 
   dal:
     needs: check-update
-    # if: needs.check-update.outputs.check == 'true'
+    if: needs.check-update.outputs.check == 'true'
     name: Datamining
     runs-on: ubuntu-latest
     defaults:
@@ -46,16 +45,12 @@ jobs:
         uses: actions/checkout@v2
       - name: Clone Decryption Tool
         run: |
-          pwd
-          ls -lsa .
           git clone https://github.com/n0k0m3/DALSP-Assets-Decryption-tool
       - name: Install dependencies
         run: |
-          pwd
-          ls -lsa .
-          # python -m pip install --upgrade pip
-          # pip install -r DALSP-Assets-Decryption-tool/requirements.txt
+          python -m pip install --upgrade pip
+          pip install -r DALSP-Assets-Decryption-tool/requirements.txt
       - name: Download updates and mine
         run: |
-          cp DateALiveData/master/.github/workflows/update.py .
+          cp DateALiveData/.github/workflows/update.py .
           python update.py
