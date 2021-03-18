@@ -1,6 +1,7 @@
 # DateALiveData
-This repository holds the decrypted data for the game Date A Live: Spirit Pledge with version control
+
+[![Date A Live Spirit Pledge Datamining](https://github.com/n0k0m3/DateALiveData/actions/workflows/dalsp.yml/badge.svg?event=check_run)](https://github.com/n0k0m3/DateALiveData/actions/workflows/dalsp.yml)
+
+This repository holds the decrypted data for the game Date A Live: Spirit Pledge with version control. Every 30 minutes Github Action will be triggered and check for new updates for EN version
 
 Clone this repo: `git clone https://github.com/n0k0m3/DateALiveData --depth=1`
-
-More accessible (but less frequently updated) downloads: [EN Data](https://drive.google.com/drive/folders/13tlUX84qu0HUuc9Jo6BCS6T0RNFD-BZE?usp=sharing), [CN Data](https://drive.google.com/drive/folders/1qw2OliefgnELMR9EJA3eXQHxK4XRWH8g?usp=sharing)
