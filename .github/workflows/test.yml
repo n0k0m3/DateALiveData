@@ -19,7 +19,7 @@ jobs:
         run: |
           python check.py
     outputs:
-      check: ${{ steps.run_tests.outputs }}
+      check: ${{ steps.run_tests.outputs.test }}
 
   dal:
     needs: check-update
