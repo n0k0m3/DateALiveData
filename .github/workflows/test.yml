@@ -6,40 +6,51 @@ on:
     types: dal
     
 jobs:
+  check-update:
+    name: Check for new content
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download prereq
+        run: |
+          wget https://raw.githubusercontent.com/n0k0m3/DateALiveData/master/.github/workflows/check.py
+          wget https://raw.githubusercontent.com/n0k0m3/DateALiveData/master/.github/workflows/version.txt
+      - name: Print check result
+        id: run_tests
+        run: |
+          python check.py
+    outputs:
+      check: ${{ steps.run_tests.outputs }}
+
   dal:
+    needs: check-update
+    if: needs.check-update.outputs.check == 'true'
     name: Datamining
     runs-on: ubuntu-latest
     steps:
-      - name: Check update
+      - name: Maximize build space
+        uses: easimon/maximize-build-space@master
+        with:
+          root-reserve-mb: 512
+          swap-size-mb: 1024
+          remove-dotnet: 'true'
+          remove-android: 'true'
+          remove-haskell: 'true'
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Clone Decryption Tool
         run: |
-          ls
-          wget https://raw.githubusercontent.com/n0k0m3/DateALiveData/master/.github/workflows/check.py
-          wget https://raw.githubusercontent.com/n0k0m3/DateALiveData/master/.github/workflows/version.txt
-          python check.py
-      # - name: Maximize build space
-      #   uses: easimon/maximize-build-space@master
-      #   with:
-      #     root-reserve-mb: 512
-      #     swap-size-mb: 1024
-      #     remove-dotnet: 'true'
-      #     remove-android: 'true'
-      #     remove-haskell: 'true'
-      # - name: Checkout
-      #   uses: actions/checkout@v2
-      # - name: Clone Decryption Tool
-      #   run: |
-      #     cd ..
-      #     git clone https://github.com/n0k0m3/DALSP-Assets-Decryption-tool
-      # - name: Set up Python 3.8
-      #   uses: actions/setup-python@v2
-      #   with:
-      #     python-version: 3.8
-      # - name: Install dependencies
-      #   run: |
-      #     python -m pip install --upgrade pip
-      #     pip install requests
-      #     pip install -r DALSP-Assets-Decryption-tool/requirements.txt
-      # - name: Build
-      #   run: |
-      #     echo "Free space:"
-      #     df -h
+          cd ..
+          git clone https://github.com/n0k0m3/DALSP-Assets-Decryption-tool
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+          pip install -r DALSP-Assets-Decryption-tool/requirements.txt
+      - name: Build
+        run: |
+          echo "Free space:"
+          df -h
