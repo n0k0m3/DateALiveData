@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./..
+        working-directory: ./
     steps:
       # - name: Maximize build space
       #   uses: easimon/maximize-build-space@master
@@ -46,18 +46,16 @@ jobs:
       #   uses: actions/checkout@v2
       - name: Clone Decryption Tool
         run: |
-          echo "fun"
-          ls -l .
+          pwd
+          ls -lsa .
           git clone https://github.com/n0k0m3/DALSP-Assets-Decryption-tool
       - name: Install dependencies
         run: |
+          pwd
+          ls -lsa .
           python -m pip install --upgrade pip
           pip install -r DALSP-Assets-Decryption-tool/requirements.txt
       # - name: Download updates and mine
       #   run: |
       #     cd DateALiveData/master/.github/workflows
       #     python update.py
-      - name: Build
-        run: |
-          echo "Free space:"
-          df -h
