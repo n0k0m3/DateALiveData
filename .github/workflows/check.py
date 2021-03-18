@@ -38,8 +38,8 @@ commit_msg = regex_format_commitmsg(content)
 
 # If current version if old then update
 if pv(curver) < pv(server_current):
-    os.system("""echo "::set-output name=test::true""")
+    os.system('echo \"::set-output name=test::true\"')
 elif pv(curver) == pv(server_current):
-    os.system("""echo "::set-output name=test::false""")
+    os.system('echo \"::set-output name=test::false\"')
 else:
-    os.system("""echo "::set-output name=test::error""")
+    os.system('echo \"::set-output name=test::error\"')
