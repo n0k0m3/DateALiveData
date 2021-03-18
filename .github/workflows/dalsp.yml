@@ -1,6 +1,7 @@
 name: Date A Live Spirit Pledge Datamining
 
 on:
+  workflow_dispatch:
   schedule:    
     - cron: "*/30 * * * *"
     
