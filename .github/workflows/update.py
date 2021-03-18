@@ -19,7 +19,7 @@ checkxml = urllib.request.urlopen(
 checkxml = re.sub(r"&",r"&amp;",checkxml.decode("utf-8"))
 check_version = ET.fromstring(checkxml)
 
-with open("version.txt", "r") as f:
+with open("./DateALiveData/.github/workflows/version.txt", "r") as f:
     curver = f.read()
 
 server_appversion, server_current, server_minversion = [
@@ -53,7 +53,7 @@ if pv(curver) < pv(server_current):
         zipObj.extractall(basename)
 
     # Decrypt unzipped update to the repo
-    decrypt = ["python3", r"DALSP-Assets-Decryption-tool/main.py", 
+    decrypt = ["python", r"DALSP-Assets-Decryption-tool/main.py", 
                basename, "DateALiveData", "-w", "-v"]
     with subprocess.Popen(decrypt) as p1:
         pass
@@ -63,7 +63,7 @@ if pv(curver) < pv(server_current):
     rmtree(basename)
 
     # Write check file
-    with open("version.txt", "w+") as f:
+    with open("./DateALiveData/.github/workflows/version.txt", "w+") as f:
         f.write(server_current)
 
     # Git commit
