@@ -26,16 +26,6 @@ for lang in check_version:
     if lang.tag == "announcement_english":
         content = lang.attrib["content"]
 
-def regex_format_commitmsg(content):
-    title = "Version: {} | ToVersion: {} | AppVersion: {}\n".format(curver,server_current,server_appversion)
-    s = re.sub(r"(\[)","\\n\\1",content, 0, re.MULTILINE)
-    s = re.sub(r" (\d\.)","\\n\\1",s, 0, re.MULTILINE)
-    s = re.sub(r"(\s\s\s+)","\\n\\1",s, 0, re.MULTILINE)
-    s = re.sub(r"\s+(\-\S)","\\n   \\1",s, 0, re.MULTILINE)
-    return(title+s.lstrip())
-
-commit_msg = regex_format_commitmsg(content)
-
 # If current version if old then update
 if pv(curver) < pv(server_current):
     os.system('echo \"::set-output name=test::true\"')

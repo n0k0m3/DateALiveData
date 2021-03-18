@@ -26,30 +26,37 @@ jobs:
     # if: needs.check-update.outputs.check == 'true'
     name: Datamining
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./..
     steps:
-      - name: Maximize build space
-        uses: easimon/maximize-build-space@master
-        with:
-          root-reserve-mb: 512
-          swap-size-mb: 1024
-          remove-dotnet: 'true'
-          remove-android: 'true'
-          remove-haskell: 'true'
+      # - name: Maximize build space
+      #   uses: easimon/maximize-build-space@master
+      #   with:
+      #     root-reserve-mb: 512
+      #     swap-size-mb: 1024
+      #     remove-dotnet: 'true'
+      #     remove-android: 'true'
+      #     remove-haskell: 'true'
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
-      - name: Checkout
-        uses: actions/checkout@v2
+      # - name: Checkout
+      #   uses: actions/checkout@v2
       - name: Clone Decryption Tool
         run: |
-          cd ..
+          echo "fun"
+          ls -l .
           git clone https://github.com/n0k0m3/DALSP-Assets-Decryption-tool
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
           pip install -r DALSP-Assets-Decryption-tool/requirements.txt
+      # - name: Download updates and mine
+      #   run: |
+      #     cd DateALiveData/master/.github/workflows
+      #     python update.py
       - name: Build
         run: |
           echo "Free space:"

@@ -18,15 +18,10 @@ checkxml = urllib.request.urlopen(
     urllib.parse.urljoin(url, "check.xml")).read()
 checkxml = re.sub(r"&",r"&amp;",checkxml.decode("utf-8"))
 check_version = ET.fromstring(checkxml)
-try:
-    with open("check.json", "r") as f:
-        data = json.loads(f.read())
-except FileNotFoundError:
-    # default version to 1.0.01 if no config file found
-    data = {
-        "current_version": "1.0.01"
-    }
-curver = data["current_version"]
+
+with open("version.txt", "r") as f:
+    curver = f.read()
+
 server_appversion, server_current, server_minversion = [
     v for k, v in check_version.attrib.items()][:3]
 for lang in check_version:
@@ -46,8 +41,6 @@ commit_msg = regex_format_commitmsg(content)
 # If current version if old then update
 if pv(curver) < pv(server_current):
     filename = curver+"-"+server_current+".zip"
-    if pv(curver) == pv("1.0.01"):
-        filename = "default.zip"
     relative_path = "/".join(["zipsource", server_current, filename])
 
     # Download the zip update file
@@ -70,10 +63,8 @@ if pv(curver) < pv(server_current):
     rmtree(basename)
 
     # Write check file
-    data[server_current] = content
-    data["current_version"] = server_current
-    with open("check.json", "w+") as f:
-        f.write(json.dumps(data, indent=4))
+    with open("version.txt", "w+") as f:
+        f.write(server_current)
 
     # Git commit
     os.chdir("DateALiveData")
