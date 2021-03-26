@@ -13,7 +13,7 @@ jobs:
       - name: Download prereq
         run: |
           wget https://raw.githubusercontent.com/n0k0m3/DateALiveData/master/.github/workflows/check.py
-          wget https://raw.githubusercontent.com/n0k0m3/DateALiveData/master/.github/workflows/version.txt
+          wget https://raw.githubusercontent.com/n0k0m3/DateALiveData/master/version.txt
       - name: Print check result
         id: run_tests
         run: |
