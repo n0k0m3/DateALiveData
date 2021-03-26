@@ -53,5 +53,7 @@ jobs:
           pip install -r DALSP-Assets-Decryption-tool/requirements.txt
       - name: Download updates and mine
         run: |
+          git config --global user.email "actions@users.noreply.github.com"
+          git config --global user.name "GitHub Action"
           cp DateALiveData/.github/workflows/update.py .
           python update.py
