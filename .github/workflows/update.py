@@ -19,7 +19,7 @@ checkxml = urllib.request.urlopen(
 checkxml = re.sub(r"&",r"&amp;",checkxml.decode("utf-8"))
 check_version = ET.fromstring(checkxml)
 
-with open("./DateALiveData/.github/workflows/version.txt", "r") as f:
+with open("./DateALiveData/version.txt", "r") as f:
     curver = f.read()
 
 server_appversion, server_current, server_minversion = [
@@ -63,7 +63,7 @@ if pv(curver) < pv(server_current):
     rmtree(basename)
 
     # Write check file
-    with open("./DateALiveData/.github/workflows/version.txt", "w+") as f:
+    with open("./DateALiveData/version.txt", "w+") as f:
         f.write(server_current)
 
     # Git commit
