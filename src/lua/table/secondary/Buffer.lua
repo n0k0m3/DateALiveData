@@ -661,6 +661,7 @@ return {
         targetAttributeTarget = 0,
         effects = {
             [1] = 20570211,
+            [2] = 20570212,
         },
         skillType = 0,
         attributeContrast = {

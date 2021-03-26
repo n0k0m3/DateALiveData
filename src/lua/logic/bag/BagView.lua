@@ -529,9 +529,15 @@ function BagView:updateBtnView(index)
     end
 
     self.Button_choose:setVisible(btnConfig.category == EC_BagCategory.EQUIPMENT)
-    -- TODO CLOSE
-    -- 屏蔽质点筛选
-    self.Button_choose:setVisible(false)
+
+    if TFGlobalUtils:isConnectEnServer() then  --英文版打开质筛选按钮
+        self.Button_choose:getChildByName("Label_choose"):setTextById(13410018)
+    else
+        -- TODO CLOSE
+        -- 屏蔽质点筛选
+        self.Button_choose:setVisible(false)
+    end
+    
 
     -- TODO CLOSE
     -- 屏蔽宝石排序

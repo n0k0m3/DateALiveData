@@ -381,6 +381,83 @@ return {
         quality = 1,
         id = 9200113,
     },
+    [9200131] = {
+        superType = 38,
+        excursion1 = {
+        },
+        order = 31,
+        pileUp = true,
+        condition = {
+            hasItem = 570533,
+        },
+        gridMax = 1,
+        effectivetime = -1,
+        activeTime = 0,
+        clubPush = 0,
+        sellProfit = {
+        },
+        onceUseLimit = 0,
+        triggerEnvelope = 0,
+        totalMax = 1,
+        deletePrevious = false,
+        convertMax = {
+        },
+        content = 0,
+        classify = 3,
+        lamp = 0,
+        titleLevel = 1,
+        notable = 1325431,
+        showPower = 160,
+        accessdes = 1326433,
+        titleType = 31,
+        toplimit = 0,
+        size2 = {
+            [1] = 110,
+            [2] = 100,
+            [3] = 100,
+        },
+        bagType = 0,
+        autoUse = false,
+        star = 4,
+        reward = {
+        },
+        displayClassify = 1,
+        showEffect = "effect/title/chenghao_erzhounian/chenghao_erzhounian",
+        excursion2 = {
+            [1] = {
+                [1] = 5,
+                [2] = 5,
+            },
+            [2] = {
+                [1] = 0,
+                [2] = 15,
+            },
+            [3] = {
+                [1] = 0,
+                [2] = 20,
+            },
+        },
+        useCast = {
+        },
+        baseAttribute = {
+            [1] = 23470,
+            [2] = 5636,
+            [3] = 5215,
+        },
+        chatShow = true,
+        title = 0,
+        relatedTask = 0,
+        subType = 0,
+        timeDescription = 0,
+        showPic = "",
+        size1 = 0,
+        titleStar = 4,
+        dealProfit = {
+        },
+        probability = 0,
+        quality = 1,
+        id = 9200131,
+    },
     [9200114] = {
         superType = 38,
         excursion1 = {
@@ -914,14 +991,14 @@ return {
         quality = 1,
         id = 9200117,
     },
-    [9200131] = {
+    [9200110] = {
         superType = 38,
         excursion1 = {
         },
-        order = 31,
+        order = 10,
         pileUp = true,
         condition = {
-            hasItem = 570533,
+            hasItem = 570511,
         },
         gridMax = 1,
         effectivetime = -1,
@@ -936,13 +1013,13 @@ return {
         convertMax = {
         },
         content = 0,
-        classify = 3,
-        lamp = 0,
-        titleLevel = 1,
-        notable = 1325431,
-        showPower = 160,
-        accessdes = 1326433,
-        titleType = 31,
+        classify = 1,
+        lamp = 1101,
+        titleLevel = 4,
+        notable = 1325412,
+        showPower = 366,
+        accessdes = 1326413,
+        titleType = 10,
         toplimit = 0,
         size2 = {
             [1] = 110,
@@ -955,27 +1032,27 @@ return {
         reward = {
         },
         displayClassify = 1,
-        showEffect = "effect/title/chenghao_erzhounian/chenghao_erzhounian",
+        showEffect = "effect/title/chenghao_SYY/chenghao_SYY",
         excursion2 = {
             [1] = {
-                [1] = 5,
-                [2] = 5,
+                [1] = 2,
+                [2] = -5,
             },
             [2] = {
                 [1] = 0,
-                [2] = 15,
+                [2] = 0,
             },
             [3] = {
                 [1] = 0,
-                [2] = 20,
+                [2] = 15,
             },
         },
         useCast = {
         },
         baseAttribute = {
-            [1] = 23470,
-            [2] = 5636,
-            [3] = 5215,
+            [1] = 36327,
+            [2] = 11851,
+            [3] = 8060,
         },
         chatShow = true,
         title = 0,
@@ -989,6 +1066,6 @@ return {
         },
         probability = 0,
         quality = 1,
-        id = 9200131,
+        id = 9200110,
     },
 }

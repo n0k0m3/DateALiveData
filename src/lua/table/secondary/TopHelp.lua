@@ -6392,38 +6392,6 @@ return {
         isDiban = true,
     },
     [237] = {
-        helpDes = 63055,
-        resource = {
-            [1] = {
-                [1] = 500004,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500001,
-                [2] = 1,
-            },
-            [3] = {
-                [1] = 500002,
-                [2] = 1,
-            },
-        },
-        dynamic = false,
-        id = 237,
-        helpTitle = 61063,
-        fileName = "EquipReviewLayer",
-        isResource = true,
-        helpInterface = {
-            [1] = 3005,
-        },
-        isHelp = true,
-        help = "",
-        isMain = true,
-        isBack = true,
-        name = "190016210",
-        icon = "icon/system/025.png",
-        isDiban = true,
-    },
-    [238] = {
         helpDes = 63056,
         resource = {
             [1] = {
@@ -6440,12 +6408,44 @@ return {
             },
         },
         dynamic = false,
-        id = 238,
+        id = 237,
         helpTitle = 61064,
-        fileName = "EquipSelectChooseCondition",
+        fileName = "EquipReviewLayer",
         isResource = true,
         helpInterface = {
             [1] = 3006,
+        },
+        isHelp = true,
+        help = "",
+        isMain = true,
+        isBack = true,
+        name = "190016210",
+        icon = "icon/system/025.png",
+        isDiban = true,
+    },
+    [238] = {
+        helpDes = 63055,
+        resource = {
+            [1] = {
+                [1] = 500004,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+            [3] = {
+                [1] = 500002,
+                [2] = 1,
+            },
+        },
+        dynamic = false,
+        id = 238,
+        helpTitle = 61063,
+        fileName = "EquipSelectChooseCondition",
+        isResource = true,
+        helpInterface = {
+            [1] = 3005,
         },
         isHelp = true,
         help = "",

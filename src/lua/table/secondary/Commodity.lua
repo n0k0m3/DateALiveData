@@ -8443,7 +8443,7 @@ return {
         ext = {
             tipType = 2,
             limitItemId = {
-                [1] = 410115,
+                [1] = 410109,
             },
             tipId = 14300303,
         },

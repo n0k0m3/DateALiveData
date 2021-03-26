@@ -102,25 +102,25 @@ function EquipConvertChooseCondition:initPanelItems()
     self.typeItems = {}
     for i, v in ipairs(self.typeData) do
         local item = self.Panel_item:clone()
-        TFDirector:getChildByPath(item,"Label_item_name"):setText(v.name)
+        TFDirector:getChildByPath(item,"Label_item_name"):setText(Utils:MultiLanguageStringDeal(v.name))
         self.GridView_type:pushBackCustomItem(item)
         self.typeItems[i] = item
     end
     for i, v in ipairs(self.starData) do
         local item = self.Panel_item:clone()
-        TFDirector:getChildByPath(item,"Label_item_name"):setText(v.name)
+        TFDirector:getChildByPath(item,"Label_item_name"):setText(Utils:MultiLanguageStringDeal(v.name))
         self.GridView_star:pushBackCustomItem(item)
         self.starItems[i] = item
     end
     for i, v in ipairs(self.suitData) do
         local item = self.Panel_item:clone()
-        TFDirector:getChildByPath(item,"Label_item_name"):setText(v.name)
+        TFDirector:getChildByPath(item,"Label_item_name"):setText(Utils:MultiLanguageStringDeal(v.name))
         self.GridView_suit:pushBackCustomItem(item)
         self.suitItems[i] = item
     end
     for i, v in ipairs(self.colorData) do
         local item = self.Panel_item:clone()
-        TFDirector:getChildByPath(item,"Label_item_name"):setText(v.name)
+        TFDirector:getChildByPath(item,"Label_item_name"):setText(Utils:MultiLanguageStringDeal(v.name))
         local Image_flag = TFDirector:getChildByPath(item,"Image_flag"):show()
         Image_flag:setTexture(self:getColorImage(self.colorData[i].id))
         self.GridView_color:pushBackCustomItem(item)
@@ -128,7 +128,7 @@ function EquipConvertChooseCondition:initPanelItems()
     end
     for i, v in ipairs(self.wordsData) do
         local item = self.Panel_item:clone()
-        TFDirector:getChildByPath(item,"Label_item_name"):setText(v.name)
+        TFDirector:getChildByPath(item,"Label_item_name"):setText(Utils:MultiLanguageStringDeal(v.name))
         self.GridView_word:pushBackCustomItem(item)
         self.wordsItems[i] = item
     end

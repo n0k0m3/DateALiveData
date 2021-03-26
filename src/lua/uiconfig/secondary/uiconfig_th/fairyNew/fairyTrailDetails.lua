@@ -6043,15 +6043,15 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "26",
+																	fontSize = "20",
 																	fontStroke = 
 																	{
 																		IsStroke = true,
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "32",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -6066,7 +6066,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "106",
+																	width = "140",
 																	ZOrder = "1",
 																},
 															},
@@ -6123,15 +6123,15 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "26",
+																	fontSize = "20",
 																	fontStroke = 
 																	{
 																		IsStroke = true,
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "32",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -6146,7 +6146,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "106",
+																	width = "140",
 																	ZOrder = "1",
 																},
 															},
@@ -6203,15 +6203,15 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "26",
+																	fontSize = "20",
 																	fontStroke = 
 																	{
 																		IsStroke = true,
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "32",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -6226,7 +6226,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "106",
+																	width = "140",
 																	ZOrder = "1",
 																},
 															},

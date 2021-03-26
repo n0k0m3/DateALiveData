@@ -43,6 +43,23 @@ function ActivityBuyConfirmView:initUI(ui)
     self.Button_up      = TFDirector:getChildByPath(Image_bg,"Button_up")
     self.Button_max = TFDirector:getChildByPath(self.Panel_batch, "Button_max")
     self.Label_num      = TFDirector:getChildByPath(Image_bg,"Label_num")
+    self.Label_num:hide()
+
+    self.TextField_buyNum = TFDirector:getChildByPath(self.Panel_batch   , "TextField_buyNum")
+    self.TextField_buyNum:setPlaceHolder("")
+    self.TextField_buyNum:show()
+
+    local params = {
+        _type = EC_InputLayerType.OK,
+        buttonCallback = function()
+        end,
+        closeCallback = function()
+
+        end
+    }
+    self.inputLayer_ = requireNew("lua.logic.common.InputLayer"):new(params)
+    self:addLayer(self.inputLayer_, 1000)
+
 
     self:refreshView()
 end
@@ -143,6 +160,40 @@ function ActivityBuyConfirmView:registerEvents()
             local count = ActivityDataMgr2:getMaxBuyCount(self.activityInfo_.activityType, self.itemId_)
             self:updateBatchPanel(count)
     end)
+
+    self.TextField_buyNum:addMEListener(TFTEXTFIELD_DETACH, function(input)
+        local text = input:getText()
+        if text == "" or tonumber(text)<=0 then
+            text = self.oldInputText
+        end
+        input:setText(text)
+        self.inputLayer_:listener(input:getText())
+        self.selectNum = tonumber(text)
+    end)
+    self.TextField_buyNum:addMEListener(TFTEXTFIELD_ATTACH, function(input)
+        self.inputLayer_:show()
+        self.inputLayer_:listener(input:getText())
+        self.oldInputText = input:getText()
+    end)
+    self.TextField_buyNum:addMEListener(TFTEXTFIELD_TEXTCHANGE, function(input)
+        local text = input:getText()
+        if text ~= "" then
+            local new_text = string.gsub(text, "[^0-9]", "")
+            if tonumber(text) <=0 then
+                new_text = input:getText()
+            else
+                local isCan,leftTimes =  ActivityDataMgr2:getRemainBuyCount(self.activityInfo_.activityType, self.itemId_)
+                local count = ActivityDataMgr2:getMaxBuyCount(self.activityInfo_.activityType, self.itemId_)
+                new_text = math.min(count , tonumber(text))
+                new_text = math.min(new_text , leftTimes)
+            end
+            input:setText(new_text)
+            self.inputLayer_:listener(input:getText())
+        else
+            self.inputLayer_:listener(input:getText())
+        end
+        
+    end)
 end
 
 function ActivityBuyConfirmView:continueAddAction(addOrReduce)
@@ -199,6 +250,7 @@ function ActivityBuyConfirmView:updateBatchPanel(num)
     end
 
     self.Label_num:setString(self.selectNum)
+    self.TextField_buyNum:setText(self.selectNum)
 end
 
 function ActivityBuyConfirmView:onBuySuccessEvent(data)

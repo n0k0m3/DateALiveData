@@ -248,6 +248,9 @@ function MailMain:updateOneMail(item,idx)
 	local Label_time  	= TFDirector:getChildByPath(item,"Label_time");
 	Label_time:setString(Utils:howManyTimeAgo(mailInfo.createTime));
 
+	local Label_receive_time = TFDirector:getChildByPath(item , "Label_receive_time")
+	Label_receive_time:hide()
+
 	local btnRemove		= TFDirector:getChildByPath(item,"Button_remove");
 	btnRemove:onClick(function()
 		local function reaRemove()

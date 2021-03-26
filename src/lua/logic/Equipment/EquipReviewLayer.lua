@@ -106,9 +106,9 @@ function EquipReviewLayer:updateBtnState()
     local info = self.backUpInfos[self.selectIdx]
     if self.isSave then
         if info then
-            self.Button_save:getChildByName("Label_save"):setText("替 换")
+            self.Button_save:getChildByName("Label_save"):setTextById(900251)
         else
-            self.Button_save:getChildByName("Label_save"):setText("保 存")
+            self.Button_save:getChildByName("Label_save"):setTextById(2107022)
         end
     else
         self.Button_use:setTouchEnabled(false)

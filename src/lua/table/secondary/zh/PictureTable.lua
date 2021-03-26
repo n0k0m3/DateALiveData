@@ -5561,28 +5561,28 @@ return {
     },
     [1115] = {
         id = 1115,
-        res = "ui/mainLayer/new_ui/a5.png",
-        res_en = "ui/mainLayer/new_ui/a5_zh.png",
-    },
-    [1116] = {
-        id = 1116,
         res = "ui/iphoneX/roleTeach/roleTeachBuy/007.png",
         res_en = "ui/iphoneX/roleTeach/roleTeachBuy/007_zh.png",
     },
-    [1117] = {
-        id = 1117,
+    [1116] = {
+        id = 1116,
         res = "icon/item/spring/013.png",
         res_en = "icon/item/spring/013_zh.png",
     },
-    [1118] = {
-        id = 1118,
+    [1117] = {
+        id = 1117,
         res = "icon/equipment/suit/funian.png",
         res_en = "icon/equipment/suit/funian_zh.png",
     },
-    [1119] = {
-        id = 1119,
+    [1118] = {
+        id = 1118,
         res = "icon/title/5.png",
         res_en = "icon/title/5_zh.png",
+    },
+    [1119] = {
+        id = 1119,
+        res = "ui/fuli/seven_sign/002.png",
+        res_en = "ui/fuli/seven_sign/002_zh.png",
     },
     [1120] = {
         id = 1120,

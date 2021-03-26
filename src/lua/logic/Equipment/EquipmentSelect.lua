@@ -51,8 +51,14 @@ function EquipmentSelect:initUI(ui)
     self.Label_title    = TFDirector:getChildByName(self.Button_open,"Label_title");
     self.Label_title:setTextById(490022);
 
+
     --TODO CLOSE
-    --self.Button_choose = TFDirector:getChildByPath(ui,"Button_choose")
+    -- if TFGlobalUtils:isConnectEnServer() then  --英文版打开质点预设
+    --     self.Button_choose = TFDirector:getChildByPath(ui,"Button_choose")
+    -- else
+    --     self.Button_choose = TFDirector:getChildByPath(ui,"Button_choose"):hide()
+    -- end  --暂时屏蔽修改
+    
     self.Button_choose = TFDirector:getChildByPath(ui,"Button_choose"):hide()
 
     self.Panel_comb     = TFDirector:getChildByPath(ui,"Panel_comb");
@@ -610,9 +616,9 @@ function EquipmentSelect:registerEvents()
             self:onTouchButtonOpen()
         end)
     --TODO CLOSE
-    -- self.Button_choose:onClick(function()
-    --     Utils:openView("Equipment.EquipSelectChooseCondition", self.chooseConditionData)
-    -- end)
+    self.Button_choose:onClick(function()
+        Utils:openView("Equipment.EquipSelectChooseCondition", self.chooseConditionData)
+    end)
 
     self.Button_all:onClick(function()
             self.showList,self.equipCnt = self.allList,self.allCnt;

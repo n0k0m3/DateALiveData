@@ -10048,7 +10048,7 @@ return {
         sort = 2013,
         sortr = "2013",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 8,
         type3 = {
             [1] = 208002,
@@ -21528,7 +21528,7 @@ return {
         sort = 1931,
         sortr = "1931",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
@@ -42022,7 +42022,7 @@ return {
         sort = 1040,
         sortr = "1040",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -42031,8 +42031,12 @@ return {
         nameTextId = "332072",
         subType = 105,
         defaultInfo = {
+            day = 11001,
+            night = 11001,
         },
         specialCondition = {
+            stime = "2021-02-04 00:00:00",
+            etime = "2021-03-12 23:59:59",
         },
         cup = 2,
         size2 = 0,
@@ -62487,8 +62491,12 @@ return {
         nameTextId = "332072",
         subType = 105,
         defaultInfo = {
+            day = 11001,
+            night = 11001,
         },
         specialCondition = {
+            stime = "2020-09-20 00:00:00",
+            etime = "2020-10-23 23:59:59",
         },
         cup = 2,
         size2 = 0,

@@ -1362,8 +1362,13 @@ function FairyDetailsLayer:updateEquipLayer()
 	--TODO CLOSE
 	--self.Button_use_suit:setVisible(not self.isfriend)
 	--self.Button_save_suit:setVisible(not self.isfriend)
-	self.Button_use_suit:hide()
-	self.Button_save_suit:hide()
+	if TFGlobalUtils:isConnectEnServer() then  --英文版打开质点预设
+
+	else
+		self.Button_use_suit:hide()
+		self.Button_save_suit:hide()
+	end
+	
 	local equipedState = HeroDataMgr:checkEquipmentUnLockState(self.showHeroId)
 	self.Button_save_suit:setGrayEnabled(not equipedState)
 	self.Button_save_suit:setTouchEnabled(equipedState)

@@ -24,8 +24,12 @@ function TeamRoomSelectView:initData()
 
 	self.maxWaitingTime = Utils:getKVP(17001,"time")
 	--TODO CLOSE
-	--self.iconRes = {"D.png","C.png","B.png","A.png","S.png","blackwhite.png"}
-	self.iconRes = {"D.png","C.png","B.png","A.png","S.png"}
+    if TFGlobalUtils:isConnectEnServer() then  --英文版打开质点预设
+        self.iconRes = {"D.png","C.png","B.png","A.png","S.png","blackwhite.png"}
+    else
+        self.iconRes = {"D.png","C.png","B.png","A.png","S.png"}
+    end 
+	
 	self.difficultyItems = {}
 	self.curChoice = nil
 

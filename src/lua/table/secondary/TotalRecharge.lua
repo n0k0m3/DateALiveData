@@ -84,9 +84,16 @@ return {
         des = "266011",
     },
     [13] = {
-        recharge = 218999,
+        recharge = 154999,
         order = 13,
         id = 13,
+        open = 1,
+        des = "266012",
+    },
+    [14] = {
+        recharge = 218999,
+        order = 14,
+        id = 14,
         open = 0,
         des = "22050",
     },
