@@ -401,6 +401,7 @@ function MainLayer:initUI(ui)
     self.image_dot = {}
     for i=1,9 do
         self.image_dot[i] = TFDirector:getChildByPath(self.Panel_activity,"Image_dot"..i)
+        self.image_dot[i]:setPosition(self.image_dot[i]:getPosition() + ccp(-80 , 0))
     end
 
     --TODO CLOSE
@@ -1322,7 +1323,7 @@ function MainLayer:pageScrollEnd()
             if FunctionDataMgr:isMainLayerOneYearUI() then
                 str = "ui/mainLayer3/j2.png"
             else
-                str = "ui/mainLayer3/new_ui/activity_tab_01.png"
+                str = "ui/mainLayer/new_ui/activity_tab_01.png"
             end
             
         else
@@ -3209,10 +3210,13 @@ function MainLayer:onShow()
 
     self:flushZhaoHuanBtn()
 
-
-    SpineCache:getInstance():clearUnused();
-    me.TextureCache:removeUnusedTextures();
-    collectgarbage("collect");
+    local keys = me.TextureCache:textureKeys()
+    local nLen = keys:size()
+    if nLen > 500 then
+        SpineCache:getInstance():clearUnused()
+        me.TextureCache:removeUnusedTextures()
+        collectgarbage("collect")
+    end
 
     --[[local phoneBackState = DatingPhoneDataMgr:getPhoneBackState()
     if phoneBackState then

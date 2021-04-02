@@ -1,4 +1,164 @@
 return {
+    [8309] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 50,
+        order = 2,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 3,
+                        [2] = 0,
+                    },
+                    tag = "c1_3_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c2_6_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 9,
+                        [2] = 0,
+                    },
+                    tag = "c3_9_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c4_12_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 15,
+                        [2] = 0,
+                    },
+                    tag = "c5_15_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c6_18_0",
+                    reward = {
+                        [500002] = 30,
+                        [500001] = 10000,
+                        [570033] = 1,
+                    },
+                },
+                [7] = {
+                    cond = {
+                        [1] = 21,
+                        [2] = 0,
+                    },
+                    tag = "c7_21_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [8] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c8_24_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [9] = {
+                    cond = {
+                        [1] = 27,
+                        [2] = 0,
+                    },
+                    tag = "c9_27_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [10] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c10_30_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [11] = {
+                    cond = {
+                        [1] = 33,
+                        [2] = 0,
+                    },
+                    tag = "c11_33_0",
+                    reward = {
+                        [500002] = 50,
+                        [500001] = 10000,
+                        [570033] = 1,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 8309,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 559,
+        timeFrame = {
+        },
+        name = "",
+        pictureIcon = "",
+        dungeonType = 24,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
     [300003] = {
         resIcon = "",
         heroChapter = 0,
@@ -7,9 +167,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -43,9 +203,9 @@ return {
         preDungeonId = {
             [1] = 110323,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -73,17 +233,19 @@ return {
     [8312] = {
         resIcon = "",
         heroChapter = 0,
-        unlockLevel = 20,
+        unlockLevel = 2,
         order = 2,
         activityDsc = "",
         preDungeonId = {
         },
+        reward = {
+        },
         ext = {
             baseDrop = {
-                [291112] = 2,
-                [291113] = 3,
-                [291111] = 1,
-                [291114] = 4,
+                [291112] = 3,
+                [291113] = 5,
+                [291111] = 2,
+                [291114] = 8,
             },
             modelImage = "icon/equipment/paint/paint_meili_38.png",
             unlock = {
@@ -93,11 +255,9 @@ return {
                     dungeonid = 291035,
                 },
                 [3] = {
-                    heroid = 110901,
+                    heroid = 113101,
                 },
             },
-        },
-        reward = {
         },
         price = {
         },
@@ -115,8 +275,8 @@ return {
         dungeonChapterId = 3103,
         timeFrame = {
         },
-        name = "",
-        pictureIcon = "",
+        name = "16000583",
+        pictureIcon = "icon/fuben/levelIcon/dicuoliandong/hesitiya.png",
         dungeonType = 106,
         pictureText = "",
         buyCountType = 0,
@@ -125,18 +285,18 @@ return {
     [8313] = {
         resIcon = "",
         heroChapter = 0,
-        unlockLevel = 20,
+        unlockLevel = 2,
         order = 3,
         activityDsc = "",
         preDungeonId = {
         },
+        reward = {
+        },
         ext = {
             model = {
-                [1] = 110901,
-                [2] = 1109011,
+                [1] = 113101,
+                [2] = 1131011,
             },
-        },
-        reward = {
         },
         price = {
         },
@@ -154,8 +314,8 @@ return {
         dungeonChapterId = 3103,
         timeFrame = {
         },
-        name = "",
-        pictureIcon = "",
+        name = "16000584",
+        pictureIcon = "icon/fuben/levelIcon/dicuoliandong/hualun.png",
         dungeonType = 106,
         pictureText = "",
         buyCountType = 0,
@@ -169,9 +329,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -205,9 +365,9 @@ return {
         preDungeonId = {
             [1] = 109214,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -239,8 +399,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -337,6 +495,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -372,9 +532,9 @@ return {
         preDungeonId = {
             [1] = 108107,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -407,8 +567,6 @@ return {
         activityDsc = "",
         preDungeonId = {
             [1] = 102314,
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -667,6 +825,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -693,6 +853,41 @@ return {
         buyCountType = 0,
         titleName = "",
     },
+    [9701] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 60,
+        order = 0,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 3,
+        id = 9701,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 1204,
+        timeFrame = {
+        },
+        name = "",
+        pictureIcon = "",
+        dungeonType = 105,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
     [8003] = {
         resIcon = "",
         heroChapter = 0,
@@ -700,8 +895,6 @@ return {
         order = 2,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -820,6 +1013,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -855,9 +1050,9 @@ return {
         preDungeonId = {
             [1] = 111536,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -891,9 +1086,9 @@ return {
         preDungeonId = {
             [1] = 103106,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -921,7 +1116,7 @@ return {
         buyCountType = 0,
         titleName = "",
     },
-    [8005] = {
+    [9601] = {
         resIcon = "",
         heroChapter = 0,
         unlockLevel = 0,
@@ -929,7 +1124,40 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
+        reward = {
+        },
         ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 9601,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 3102,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 102,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [8005] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
         },
         reward = {
             [1] = {
@@ -1136,6 +1364,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -1170,9 +1400,9 @@ return {
         activityDsc = "300132",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
             [500002] = 50,
@@ -1212,9 +1442,9 @@ return {
         preDungeonId = {
             [1] = 103211,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -1246,8 +1476,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -1394,6 +1622,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -1420,6 +1650,187 @@ return {
         buyCountType = 0,
         titleName = "",
     },
+    [8203] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 2,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 1000,
+                        [500002] = 30,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 1000,
+                        [500002] = 30,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500001] = 1000,
+                        [500002] = 30,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 21,
+                        [2] = 0,
+                    },
+                    tag = "c4_21_0",
+                    reward = {
+                        [500002] = 30,
+                        [500001] = 1000,
+                        [570033] = 1,
+                    },
+                },
+            },
+            [2] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 2000,
+                        [500002] = 40,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 2000,
+                        [500002] = 40,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500002] = 40,
+                        [570002] = 10,
+                        [500001] = 2000,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500001] = 2000,
+                        [500002] = 40,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c5_30_0",
+                    reward = {
+                        [500002] = 40,
+                        [500001] = 2000,
+                        [510301] = 2,
+                    },
+                },
+            },
+            [3] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 50,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500002] = 50,
+                        [570002] = 15,
+                        [500001] = 3000,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500002] = 50,
+                        [500001] = 3000,
+                        [510301] = 3,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 8203,
+        layout = {
+            [1] = 511,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 430,
+        timeFrame = {
+        },
+        name = "300511",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 32,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
     [2002] = {
         resIcon = "",
         heroChapter = 0,
@@ -1429,9 +1840,9 @@ return {
         preDungeonId = {
             [1] = 102104,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -1459,6 +1870,45 @@ return {
         buyCountType = 0,
         titleName = "",
     },
+    [8314] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 2,
+        order = 4,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+            model = {
+                [1] = 110901,
+                [2] = 1109011,
+            },
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 8314,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 3103,
+        timeFrame = {
+        },
+        name = "16000585",
+        pictureIcon = "icon/fuben/levelIcon/dicuoliandong/ailun.png",
+        dungeonType = 106,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
     [500002] = {
         resIcon = "",
         heroChapter = 1,
@@ -1467,9 +1917,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -1497,6 +1947,41 @@ return {
         buyCountType = 0,
         titleName = "Chapter 1 ",
     },
+    [9501] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 9501,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 3101,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 101,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
     [200003] = {
         resIcon = "icon/fuben/007.png",
         heroChapter = 0,
@@ -1505,9 +1990,9 @@ return {
         activityDsc = "300133",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
             [500002] = 50,
@@ -1538,6 +2023,41 @@ return {
         buyCountType = 2,
         titleName = "300551",
     },
+    [9403] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 9403,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 3002,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 103,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
     [500003] = {
         resIcon = "",
         heroChapter = 2,
@@ -1545,8 +2065,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -1597,6 +2115,8 @@ return {
                     },
                 },
             },
+        },
+        ext = {
         },
         price = {
         },
@@ -1624,432 +2144,6 @@ return {
         buyCountType = 0,
         titleName = "Chapter 2",
     },
-    [9701] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 60,
-        order = 0,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 3,
-        id = 9701,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 1204,
-        timeFrame = {
-        },
-        name = "",
-        pictureIcon = "",
-        dungeonType = 105,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [2003] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 3,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 102208,
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 2003,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 2,
-        timeFrame = {
-        },
-        name = "300513",
-        pictureIcon = "icon/dungeon/chapter/chapter_3001_2.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [9601] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 9601,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 3102,
-        timeFrame = {
-        },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 102,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [500004] = {
-        resIcon = "",
-        heroChapter = 1,
-        unlockLevel = 15,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 500004,
-        layout = {
-            [1] = 511,
-            [2] = 514,
-            [3] = 514,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 412,
-        timeFrame = {
-        },
-        name = "300511",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 30,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "Chapter 1 ",
-    },
-    [8302] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 45,
-        order = 2,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-            [1] = {
-                [1] = {
-                    cond = {
-                        [1] = 3,
-                        [2] = 0,
-                    },
-                    tag = "c1_3_0",
-                    reward = {
-                        [500002] = 30,
-                        [500001] = 5000,
-                        [570033] = 1,
-                    },
-                },
-            },
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 8302,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 552,
-        timeFrame = {
-        },
-        name = "",
-        pictureIcon = "",
-        dungeonType = 22,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [200004] = {
-        resIcon = "icon/fuben/009.png",
-        heroChapter = 0,
-        unlockLevel = 10,
-        order = 3,
-        activityDsc = "300134",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-            [500002] = 50,
-        },
-        buyCountLimit = 2,
-        openTimeType = 4,
-        cycleParam = 0,
-        cycleType = 1,
-        countLimit = 1,
-        id = 200004,
-        layout = {
-            [1] = 0,
-        },
-        dropShow = {
-        },
-        desc = "300424",
-        dungeonChapterId = 101,
-        timeFrame = {
-            [1] = 2,
-            [2] = 3,
-            [3] = 7,
-            [4] = 1,
-        },
-        name = "300530",
-        pictureIcon = "icon/fuben/Dungeon_Sephiroth.png",
-        dungeonType = 3,
-        pictureText = "",
-        buyCountType = 2,
-        titleName = "300552",
-    },
-    [9501] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 9501,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 3101,
-        timeFrame = {
-        },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 101,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [500005] = {
-        resIcon = "",
-        heroChapter = 2,
-        unlockLevel = 15,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-            [1] = {
-                [1] = {
-                    cond = {
-                        [1] = 9,
-                        [2] = 0,
-                    },
-                    tag = "c1_9_0",
-                    reward = {
-                        [500002] = 50,
-                        [500077] = 50,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c2_18_0",
-                    reward = {
-                        [500077] = 40,
-                        [570033] = 1,
-                        [500002] = 50,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 27,
-                        [2] = 0,
-                    },
-                    tag = "c3_27_0",
-                    reward = {
-                        [500002] = 50,
-                        [500077] = 50,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 36,
-                        [2] = 0,
-                    },
-                    tag = "c4_36_0",
-                    reward = {
-                        [500077] = 40,
-                        [570035] = 1,
-                        [500002] = 50,
-                    },
-                },
-            },
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 500005,
-        layout = {
-            [1] = 511,
-            [2] = 514,
-            [3] = 514,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 412,
-        timeFrame = {
-        },
-        name = "300511",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 30,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "Chapter 2",
-    },
-    [9403] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 9403,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 3002,
-        timeFrame = {
-        },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 103,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [90005] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 5,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 109428,
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 90005,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 9,
-        timeFrame = {
-        },
-        name = "300515",
-        pictureIcon = "icon/dungeon/chapter/chapter_3001_2.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
     [9402] = {
         resIcon = "",
         heroChapter = 0,
@@ -2057,8 +2151,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -2187,6 +2279,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -2210,6 +2304,783 @@ return {
         buyCountType = 0,
         titleName = "",
     },
+    [2003] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 3,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 102208,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 2003,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 2,
+        timeFrame = {
+        },
+        name = "300513",
+        pictureIcon = "icon/dungeon/chapter/chapter_3001_2.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [9401] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c5_30_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 36,
+                        [2] = 0,
+                    },
+                    tag = "c6_36_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [7] = {
+                    cond = {
+                        [1] = 42,
+                        [2] = 0,
+                    },
+                    tag = "c7_42_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [8] = {
+                    cond = {
+                        [1] = 48,
+                        [2] = 0,
+                    },
+                    tag = "c8_48_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [9] = {
+                    cond = {
+                        [1] = 54,
+                        [2] = 0,
+                    },
+                    tag = "c9_54_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [10] = {
+                    cond = {
+                        [1] = 60,
+                        [2] = 0,
+                    },
+                    tag = "c10_60_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [11] = {
+                    cond = {
+                        [1] = 66,
+                        [2] = 0,
+                    },
+                    tag = "c11_66_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [12] = {
+                    cond = {
+                        [1] = 72,
+                        [2] = 0,
+                    },
+                    tag = "c12_72_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [13] = {
+                    cond = {
+                        [1] = 78,
+                        [2] = 0,
+                    },
+                    tag = "c13_78_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+                [14] = {
+                    cond = {
+                        [1] = 84,
+                        [2] = 0,
+                    },
+                    tag = "c14_84_0",
+                    reward = {
+                        [500077] = 5,
+                        [510323] = 1,
+                    },
+                },
+            },
+            [2] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500077] = 10,
+                        [510323] = 1,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500077] = 10,
+                        [510323] = 1,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500077] = 10,
+                        [510323] = 1,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500077] = 10,
+                        [510323] = 1,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 27,
+                        [2] = 0,
+                    },
+                    tag = "c5_27_0",
+                    reward = {
+                        [500077] = 10,
+                        [510323] = 1,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 9401,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 3001,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 100,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [500004] = {
+        resIcon = "",
+        heroChapter = 1,
+        unlockLevel = 15,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 500004,
+        layout = {
+            [1] = 511,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 412,
+        timeFrame = {
+        },
+        name = "300511",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 30,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "Chapter 1 ",
+    },
+    [8204] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 60,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 1000,
+                        [500002] = 30,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 1000,
+                        [500002] = 30,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500001] = 1000,
+                        [500002] = 30,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 21,
+                        [2] = 0,
+                    },
+                    tag = "c4_21_0",
+                    reward = {
+                        [500002] = 30,
+                        [500001] = 1000,
+                        [570033] = 1,
+                    },
+                },
+            },
+            [2] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 2000,
+                        [500002] = 40,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 2000,
+                        [500002] = 40,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500002] = 40,
+                        [570002] = 10,
+                        [500001] = 2000,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500001] = 2000,
+                        [500002] = 40,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c5_30_0",
+                    reward = {
+                        [500002] = 40,
+                        [500001] = 2000,
+                        [510301] = 2,
+                    },
+                },
+            },
+            [3] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 50,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500002] = 50,
+                        [570002] = 15,
+                        [500001] = 3000,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500002] = 50,
+                        [500001] = 3000,
+                        [510301] = 3,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 8204,
+        layout = {
+            [1] = 511,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 430,
+        timeFrame = {
+        },
+        name = "300511",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 107,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [200004] = {
+        resIcon = "icon/fuben/009.png",
+        heroChapter = 0,
+        unlockLevel = 10,
+        order = 3,
+        activityDsc = "300134",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+            [500002] = 50,
+        },
+        buyCountLimit = 2,
+        openTimeType = 4,
+        cycleParam = 0,
+        cycleType = 1,
+        countLimit = 1,
+        id = 200004,
+        layout = {
+            [1] = 0,
+        },
+        dropShow = {
+        },
+        desc = "300424",
+        dungeonChapterId = 101,
+        timeFrame = {
+            [1] = 2,
+            [2] = 3,
+            [3] = 7,
+            [4] = 1,
+        },
+        name = "300530",
+        pictureIcon = "icon/fuben/Dungeon_Sephiroth.png",
+        dungeonType = 3,
+        pictureText = "",
+        buyCountType = 2,
+        titleName = "300552",
+    },
+    [900002] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 0,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 900002,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 1203,
+        timeFrame = {
+        },
+        name = "",
+        pictureIcon = "",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [500005] = {
+        resIcon = "",
+        heroChapter = 2,
+        unlockLevel = 15,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 9,
+                        [2] = 0,
+                    },
+                    tag = "c1_9_0",
+                    reward = {
+                        [500002] = 50,
+                        [500077] = 50,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c2_18_0",
+                    reward = {
+                        [500077] = 40,
+                        [570033] = 1,
+                        [500002] = 50,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 27,
+                        [2] = 0,
+                    },
+                    tag = "c3_27_0",
+                    reward = {
+                        [500002] = 50,
+                        [500077] = 50,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 36,
+                        [2] = 0,
+                    },
+                    tag = "c4_36_0",
+                    reward = {
+                        [500077] = 40,
+                        [570035] = 1,
+                        [500002] = 50,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 500005,
+        layout = {
+            [1] = 511,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 412,
+        timeFrame = {
+        },
+        name = "300511",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 30,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "Chapter 2",
+    },
+    [9201] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 20,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 9201,
+        layout = {
+            [1] = 514,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 901,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 11,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [90005] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 5,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 109428,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 90005,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 9,
+        timeFrame = {
+        },
+        name = "300515",
+        pictureIcon = "icon/dungeon/chapter/chapter_3001_2.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [9101] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 9101,
+        layout = {
+            [1] = 514,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 601,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 10,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
     [500006] = {
         resIcon = "",
         heroChapter = 1,
@@ -2218,9 +3089,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -2257,8 +3128,6 @@ return {
         preDungeonId = {
             [1] = 106432,
             [2] = 106433,
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -2682,6 +3551,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -2717,9 +3588,9 @@ return {
         preDungeonId = {
             [1] = 108323,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -2753,9 +3624,9 @@ return {
         preDungeonId = {
             [1] = 107108,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -2790,8 +3661,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -2842,6 +3711,8 @@ return {
                     },
                 },
             },
+        },
+        ext = {
         },
         price = {
         },
@@ -2878,9 +3749,9 @@ return {
         preDungeonId = {
             [1] = 107216,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -2908,230 +3779,17 @@ return {
         buyCountType = 0,
         titleName = "",
     },
-    [9401] = {
+    [8315] = {
         resIcon = "",
         heroChapter = 0,
-        unlockLevel = 0,
+        unlockLevel = 2,
         order = 1,
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
-            [1] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 24,
-                        [2] = 0,
-                    },
-                    tag = "c4_24_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [5] = {
-                    cond = {
-                        [1] = 30,
-                        [2] = 0,
-                    },
-                    tag = "c5_30_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [6] = {
-                    cond = {
-                        [1] = 36,
-                        [2] = 0,
-                    },
-                    tag = "c6_36_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [7] = {
-                    cond = {
-                        [1] = 42,
-                        [2] = 0,
-                    },
-                    tag = "c7_42_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [8] = {
-                    cond = {
-                        [1] = 48,
-                        [2] = 0,
-                    },
-                    tag = "c8_48_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [9] = {
-                    cond = {
-                        [1] = 54,
-                        [2] = 0,
-                    },
-                    tag = "c9_54_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [10] = {
-                    cond = {
-                        [1] = 60,
-                        [2] = 0,
-                    },
-                    tag = "c10_60_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [11] = {
-                    cond = {
-                        [1] = 66,
-                        [2] = 0,
-                    },
-                    tag = "c11_66_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [12] = {
-                    cond = {
-                        [1] = 72,
-                        [2] = 0,
-                    },
-                    tag = "c12_72_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [13] = {
-                    cond = {
-                        [1] = 78,
-                        [2] = 0,
-                    },
-                    tag = "c13_78_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-                [14] = {
-                    cond = {
-                        [1] = 84,
-                        [2] = 0,
-                    },
-                    tag = "c14_84_0",
-                    reward = {
-                        [500077] = 5,
-                        [510323] = 1,
-                    },
-                },
-            },
-            [2] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500077] = 10,
-                        [510323] = 1,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500077] = 10,
-                        [510323] = 1,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500077] = 10,
-                        [510323] = 1,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 24,
-                        [2] = 0,
-                    },
-                    tag = "c4_24_0",
-                    reward = {
-                        [500077] = 10,
-                        [510323] = 1,
-                    },
-                },
-                [5] = {
-                    cond = {
-                        [1] = 27,
-                        [2] = 0,
-                    },
-                    tag = "c5_27_0",
-                    reward = {
-                        [500077] = 10,
-                        [510323] = 1,
-                    },
-                },
-            },
+        },
+        ext = {
         },
         price = {
         },
@@ -3140,18 +3798,18 @@ return {
         cycleParam = 0,
         cycleType = 0,
         countLimit = 0,
-        id = 9401,
+        id = 8315,
         layout = {
         },
         dropShow = {
         },
         desc = "",
-        dungeonChapterId = 3001,
+        dungeonChapterId = 3104,
         timeFrame = {
         },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 100,
+        name = "",
+        pictureIcon = "",
+        dungeonType = 3,
         pictureText = "",
         buyCountType = 0,
         titleName = "",
@@ -3165,9 +3823,9 @@ return {
         preDungeonId = {
             [1] = 107324,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -3200,9 +3858,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -3239,9 +3897,9 @@ return {
         preDungeonId = {
             [1] = 107431,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -3274,9 +3932,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -3301,110 +3959,17 @@ return {
         buyCountType = 0,
         titleName = "",
     },
-    [8002] = {
+    [8311] = {
         resIcon = "",
         heroChapter = 0,
-        unlockLevel = 0,
-        order = 2,
+        unlockLevel = 2,
+        order = 1,
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
-            [1] = {
-                [1] = {
-                    cond = {
-                        [1] = 3,
-                        [2] = 0,
-                    },
-                    tag = "c1_3_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c2_6_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 9,
-                        [2] = 0,
-                    },
-                    tag = "c3_9_0",
-                    reward = {
-                        [500002] = 30,
-                        [510302] = 1,
-                        [500001] = 5000,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c4_12_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [5] = {
-                    cond = {
-                        [1] = 15,
-                        [2] = 0,
-                    },
-                    tag = "c5_15_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [6] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c6_18_0",
-                    reward = {
-                        [500002] = 30,
-                        [510302] = 1,
-                        [500001] = 5000,
-                    },
-                },
-                [7] = {
-                    cond = {
-                        [1] = 21,
-                        [2] = 0,
-                    },
-                    tag = "c7_21_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [8] = {
-                    cond = {
-                        [1] = 24,
-                        [2] = 0,
-                    },
-                    tag = "c8_24_0",
-                    reward = {
-                        [500002] = 30,
-                        [500001] = 5000,
-                        [570033] = 1,
-                    },
-                },
-            },
+        },
+        ext = {
         },
         price = {
         },
@@ -3413,21 +3978,18 @@ return {
         cycleParam = 0,
         cycleType = 0,
         countLimit = 0,
-        id = 8002,
+        id = 8311,
         layout = {
-            [1] = 514,
-            [2] = 514,
-            [3] = 514,
         },
         dropShow = {
         },
         desc = "",
-        dungeonChapterId = 502,
+        dungeonChapterId = 3103,
         timeFrame = {
         },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 9,
+        name = "",
+        pictureIcon = "",
+        dungeonType = 106,
         pictureText = "",
         buyCountType = 0,
         titleName = "",
@@ -3439,8 +4001,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -3492,6 +4052,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -3518,17 +4080,130 @@ return {
         buyCountType = 0,
         titleName = "Chapter 2",
     },
-    [9201] = {
+    [8310] = {
         resIcon = "",
         heroChapter = 0,
-        unlockLevel = 20,
-        order = 1,
+        unlockLevel = 50,
+        order = 3,
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 3,
+                        [2] = 0,
+                    },
+                    tag = "c1_3_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c2_6_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 9,
+                        [2] = 0,
+                    },
+                    tag = "c3_9_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c4_12_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 15,
+                        [2] = 0,
+                    },
+                    tag = "c5_15_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c6_18_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [7] = {
+                    cond = {
+                        [1] = 21,
+                        [2] = 0,
+                    },
+                    tag = "c7_21_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [8] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c8_24_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [9] = {
+                    cond = {
+                        [1] = 27,
+                        [2] = 0,
+                    },
+                    tag = "c9_27_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [10] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c10_30_0",
+                    reward = {
+                        [500002] = 80,
+                        [500001] = 10000,
+                        [570033] = 1,
+                    },
+                },
+            },
+        },
+        ext = {
         },
         price = {
         },
@@ -3537,21 +4212,18 @@ return {
         cycleParam = 0,
         cycleType = 0,
         countLimit = 0,
-        id = 9201,
+        id = 8310,
         layout = {
-            [1] = 514,
-            [2] = 514,
-            [3] = 514,
         },
         dropShow = {
         },
         desc = "",
-        dungeonChapterId = 901,
+        dungeonChapterId = 560,
         timeFrame = {
         },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 11,
+        name = "",
+        pictureIcon = "",
+        dungeonType = 24,
         pictureText = "",
         buyCountType = 0,
         titleName = "",
@@ -3565,9 +4237,9 @@ return {
         preDungeonId = {
             [1] = 109534,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -3600,9 +4272,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -3638,9 +4310,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -3676,9 +4348,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -3712,9 +4384,9 @@ return {
         preDungeonId = {
             [1] = 108431,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -3747,9 +4419,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -3781,8 +4453,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -3834,6 +4504,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -3868,8 +4540,6 @@ return {
         activityDsc = "",
         preDungeonId = {
             [1] = 110644,
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -4348,6 +5018,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -4371,17 +5043,284 @@ return {
         buyCountType = 0,
         titleName = "",
     },
-    [9101] = {
+    [4001] = {
         resIcon = "",
         heroChapter = 0,
-        unlockLevel = 0,
+        unlockLevel = 18,
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
+            [1] = 103316,
         },
         reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 2500,
+                        [500002] = 30,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 2500,
+                        [500002] = 30,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500001] = 2500,
+                        [500002] = 30,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500001] = 2500,
+                        [500002] = 30,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c5_30_0",
+                    reward = {
+                        [500001] = 2500,
+                        [500002] = 30,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 36,
+                        [2] = 0,
+                    },
+                    tag = "c6_36_0",
+                    reward = {
+                        [500002] = 30,
+                        [500001] = 2500,
+                        [570033] = 1,
+                    },
+                },
+                [7] = {
+                    cond = {
+                        [1] = 42,
+                        [2] = 0,
+                    },
+                    tag = "c7_42_0",
+                    reward = {
+                        [500001] = 2500,
+                        [500002] = 30,
+                    },
+                },
+                [8] = {
+                    cond = {
+                        [1] = 48,
+                        [2] = 0,
+                    },
+                    tag = "c8_48_0",
+                    reward = {
+                        [500001] = 2500,
+                        [500002] = 30,
+                    },
+                },
+                [9] = {
+                    cond = {
+                        [1] = 54,
+                        [2] = 0,
+                    },
+                    tag = "c9_54_0",
+                    reward = {
+                        [500001] = 2500,
+                        [500002] = 30,
+                    },
+                },
+                [10] = {
+                    cond = {
+                        [1] = 57,
+                        [2] = 0,
+                    },
+                    tag = "c10_57_0",
+                    reward = {
+                        [500002] = 30,
+                        [500001] = 2500,
+                        [570033] = 1,
+                    },
+                },
+            },
+            [2] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 3500,
+                        [500002] = 40,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 3500,
+                        [500002] = 40,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500002] = 40,
+                        [570002] = 15,
+                        [500001] = 3500,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500001] = 3500,
+                        [500002] = 40,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c5_30_0",
+                    reward = {
+                        [500001] = 3500,
+                        [500002] = 40,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 36,
+                        [2] = 0,
+                    },
+                    tag = "c6_36_0",
+                    reward = {
+                        [500002] = 40,
+                        [570002] = 20,
+                        [500001] = 3500,
+                    },
+                },
+                [7] = {
+                    cond = {
+                        [1] = 42,
+                        [2] = 0,
+                    },
+                    tag = "c7_42_0",
+                    reward = {
+                        [500001] = 3500,
+                        [500002] = 40,
+                    },
+                },
+                [8] = {
+                    cond = {
+                        [1] = 45,
+                        [2] = 0,
+                    },
+                    tag = "c8_45_0",
+                    reward = {
+                        [500002] = 40,
+                        [510308] = 2,
+                        [500001] = 3500,
+                    },
+                },
+            },
+            [3] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 4500,
+                        [500002] = 50,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 4500,
+                        [500002] = 50,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500002] = 50,
+                        [570002] = 30,
+                        [500001] = 4500,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500001] = 4500,
+                        [500002] = 50,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 27,
+                        [2] = 0,
+                    },
+                    tag = "c5_27_0",
+                    reward = {
+                        [500002] = 50,
+                        [510308] = 3,
+                        [500001] = 4500,
+                    },
+                },
+            },
+        },
+        ext = {
         },
         price = {
         },
@@ -4390,7 +5329,7 @@ return {
         cycleParam = 0,
         cycleType = 0,
         countLimit = 0,
-        id = 9101,
+        id = 4001,
         layout = {
             [1] = 514,
             [2] = 514,
@@ -4399,12 +5338,12 @@ return {
         dropShow = {
         },
         desc = "",
-        dungeonChapterId = 601,
+        dungeonChapterId = 4,
         timeFrame = {
         },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 10,
+        name = "300511",
+        pictureIcon = "icon/dungeon/chapter/chapter_5001_2.png",
+        dungeonType = 2,
         pictureText = "",
         buyCountType = 0,
         titleName = "",
@@ -4417,9 +5356,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -4452,9 +5391,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -4490,9 +5429,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -4517,21 +5456,130 @@ return {
         buyCountType = 0,
         titleName = "",
     },
-    [8314] = {
+    [8307] = {
         resIcon = "",
         heroChapter = 0,
-        unlockLevel = 20,
-        order = 4,
+        unlockLevel = 50,
+        order = 3,
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-            model = {
-                [1] = 110901,
-                [2] = 1104024,
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 3,
+                        [2] = 0,
+                    },
+                    tag = "c1_3_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c2_6_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 9,
+                        [2] = 0,
+                    },
+                    tag = "c3_9_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c4_12_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 15,
+                        [2] = 0,
+                    },
+                    tag = "c5_15_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c6_18_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [7] = {
+                    cond = {
+                        [1] = 21,
+                        [2] = 0,
+                    },
+                    tag = "c7_21_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [8] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c8_24_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [9] = {
+                    cond = {
+                        [1] = 27,
+                        [2] = 0,
+                    },
+                    tag = "c9_27_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [10] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c10_30_0",
+                    reward = {
+                        [500002] = 80,
+                        [500001] = 10000,
+                        [570033] = 1,
+                    },
+                },
             },
         },
-        reward = {
+        ext = {
         },
         price = {
         },
@@ -4540,18 +5588,18 @@ return {
         cycleParam = 0,
         cycleType = 0,
         countLimit = 0,
-        id = 8314,
+        id = 8307,
         layout = {
         },
         dropShow = {
         },
         desc = "",
-        dungeonChapterId = 3103,
+        dungeonChapterId = 557,
         timeFrame = {
         },
         name = "",
         pictureIcon = "",
-        dungeonType = 106,
+        dungeonType = 23,
         pictureText = "",
         buyCountType = 0,
         titleName = "",
@@ -4564,9 +5612,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -4598,8 +5646,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -4651,6 +5697,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -4685,9 +5733,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -4719,8 +5767,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -4867,6 +5913,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -4893,17 +5941,197 @@ return {
         buyCountType = 0,
         titleName = "",
     },
-    [8311] = {
+    [8306] = {
         resIcon = "",
         heroChapter = 0,
-        unlockLevel = 20,
-        order = 1,
+        unlockLevel = 50,
+        order = 2,
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 3,
+                        [2] = 0,
+                    },
+                    tag = "c1_3_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c2_6_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 9,
+                        [2] = 0,
+                    },
+                    tag = "c3_9_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c4_12_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 15,
+                        [2] = 0,
+                    },
+                    tag = "c5_15_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c6_18_0",
+                    reward = {
+                        [500002] = 30,
+                        [500001] = 5000,
+                        [570033] = 1,
+                    },
+                },
+                [7] = {
+                    cond = {
+                        [1] = 21,
+                        [2] = 0,
+                    },
+                    tag = "c7_21_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [8] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c8_24_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [9] = {
+                    cond = {
+                        [1] = 27,
+                        [2] = 0,
+                    },
+                    tag = "c9_27_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [10] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c10_30_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [11] = {
+                    cond = {
+                        [1] = 33,
+                        [2] = 0,
+                    },
+                    tag = "c11_33_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [12] = {
+                    cond = {
+                        [1] = 36,
+                        [2] = 0,
+                    },
+                    tag = "c12_36_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [13] = {
+                    cond = {
+                        [1] = 39,
+                        [2] = 0,
+                    },
+                    tag = "c13_39_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [14] = {
+                    cond = {
+                        [1] = 42,
+                        [2] = 0,
+                    },
+                    tag = "c14_42_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [15] = {
+                    cond = {
+                        [1] = 45,
+                        [2] = 0,
+                    },
+                    tag = "c15_45_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [16] = {
+                    cond = {
+                        [1] = 48,
+                        [2] = 0,
+                    },
+                    tag = "c16_48_0",
+                    reward = {
+                        [500002] = 50,
+                        [500001] = 10000,
+                        [570033] = 1,
+                    },
+                },
+            },
+        },
+        ext = {
         },
         price = {
         },
@@ -4912,18 +6140,18 @@ return {
         cycleParam = 0,
         cycleType = 0,
         countLimit = 0,
-        id = 8311,
+        id = 8306,
         layout = {
         },
         dropShow = {
         },
         desc = "",
-        dungeonChapterId = 3103,
+        dungeonChapterId = 556,
         timeFrame = {
         },
         name = "",
         pictureIcon = "",
-        dungeonType = 106,
+        dungeonType = 23,
         pictureText = "",
         buyCountType = 0,
         titleName = "",
@@ -4936,9 +6164,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -4974,8 +6202,6 @@ return {
         activityDsc = "",
         preDungeonId = {
             [1] = 105412,
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -5333,6 +6559,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -5368,9 +6596,9 @@ return {
         preDungeonId = {
             [1] = 108539,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -5404,9 +6632,9 @@ return {
         preDungeonId = {
             [1] = 106106,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -5441,8 +6669,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -5494,6 +6720,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -5529,9 +6757,9 @@ return {
         preDungeonId = {
             [1] = 106212,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -5568,9 +6796,9 @@ return {
         preDungeonId = {
             [1] = 104105,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -5607,9 +6835,9 @@ return {
         preDungeonId = {
             [1] = 106318,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -5642,9 +6870,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -5680,8 +6908,6 @@ return {
         activityDsc = "",
         preDungeonId = {
             [1] = 109640,
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -6182,6 +7408,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -6214,9 +7442,9 @@ return {
         preDungeonId = {
             [1] = 104211,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -6244,119 +7472,18 @@ return {
         buyCountType = 0,
         titleName = "",
     },
-    [8307] = {
+    [110004] = {
         resIcon = "",
         heroChapter = 0,
-        unlockLevel = 50,
-        order = 3,
+        unlockLevel = 0,
+        order = 4,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
+            [1] = 111321,
         },
         reward = {
-            [1] = {
-                [1] = {
-                    cond = {
-                        [1] = 3,
-                        [2] = 0,
-                    },
-                    tag = "c1_3_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c2_6_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 9,
-                        [2] = 0,
-                    },
-                    tag = "c3_9_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c4_12_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [5] = {
-                    cond = {
-                        [1] = 15,
-                        [2] = 0,
-                    },
-                    tag = "c5_15_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [6] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c6_18_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [7] = {
-                    cond = {
-                        [1] = 21,
-                        [2] = 0,
-                    },
-                    tag = "c7_21_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [8] = {
-                    cond = {
-                        [1] = 24,
-                        [2] = 0,
-                    },
-                    tag = "c8_24_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 30,
-                    },
-                },
-                [9] = {
-                    cond = {
-                        [1] = 27,
-                        [2] = 0,
-                    },
-                    tag = "c9_27_0",
-                    reward = {
-                        [500002] = 50,
-                        [500001] = 10000,
-                        [570033] = 1,
-                    },
-                },
-            },
+        },
+        ext = {
         },
         price = {
         },
@@ -6365,18 +7492,18 @@ return {
         cycleParam = 0,
         cycleType = 0,
         countLimit = 0,
-        id = 8307,
+        id = 110004,
         layout = {
         },
         dropShow = {
         },
         desc = "",
-        dungeonChapterId = 557,
+        dungeonChapterId = 11,
         timeFrame = {
         },
-        name = "",
-        pictureIcon = "",
-        dungeonType = 23,
+        name = "300514",
+        pictureIcon = "icon/dungeon/chapter/chapter_7001_2.png",
+        dungeonType = 2,
         pictureText = "",
         buyCountType = 0,
         titleName = "",
@@ -6388,8 +7515,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -6441,6 +7566,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -6474,8 +7601,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -6622,6 +7747,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -6648,129 +7775,6 @@ return {
         buyCountType = 0,
         titleName = "",
     },
-    [8306] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 50,
-        order = 2,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-            [1] = {
-                [1] = {
-                    cond = {
-                        [1] = 3,
-                        [2] = 0,
-                    },
-                    tag = "c1_3_0",
-                    reward = {
-                        [500002] = 30,
-                        [500001] = 5000,
-                        [570033] = 1,
-                    },
-                },
-            },
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 8306,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 556,
-        timeFrame = {
-        },
-        name = "",
-        pictureIcon = "",
-        dungeonType = 23,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [110004] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 4,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 111321,
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 110004,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 11,
-        timeFrame = {
-        },
-        name = "300514",
-        pictureIcon = "icon/dungeon/chapter/chapter_7001_2.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [500018] = {
-        resIcon = "",
-        heroChapter = 1,
-        unlockLevel = 15,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 500018,
-        layout = {
-            [1] = 511,
-            [2] = 514,
-            [3] = 514,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 420,
-        timeFrame = {
-        },
-        name = "300511",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 30,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "900760",
-    },
     [110002] = {
         resIcon = "",
         heroChapter = 0,
@@ -6780,9 +7784,9 @@ return {
         preDungeonId = {
             [1] = 111107,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -6814,8 +7818,6 @@ return {
         order = 3,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -6965,6 +7967,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -6988,103 +7992,17 @@ return {
         buyCountType = 0,
         titleName = "",
     },
-    [1201] = {
+    [500018] = {
         resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 1201,
-        layout = {
-            [1] = 514,
-            [2] = 514,
-            [3] = 514,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 1201,
-        timeFrame = {
-        },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 16,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [500019] = {
-        resIcon = "",
-        heroChapter = 2,
+        heroChapter = 1,
         unlockLevel = 15,
         order = 1,
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
-            [1] = {
-                [1] = {
-                    cond = {
-                        [1] = 9,
-                        [2] = 0,
-                    },
-                    tag = "c1_9_0",
-                    reward = {
-                        [500077] = 25,
-                        [500002] = 50,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c2_18_0",
-                    reward = {
-                        [500002] = 50,
-                        [570033] = 1,
-                        [500077] = 20,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 27,
-                        [2] = 0,
-                    },
-                    tag = "c3_27_0",
-                    reward = {
-                        [500077] = 25,
-                        [500002] = 50,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 36,
-                        [2] = 0,
-                    },
-                    tag = "c4_36_0",
-                    reward = {
-                        [500002] = 50,
-                        [570035] = 1,
-                        [500077] = 20,
-                    },
-                },
-            },
+        },
+        ext = {
         },
         price = {
         },
@@ -7093,7 +8011,7 @@ return {
         cycleParam = 0,
         cycleType = 0,
         countLimit = 0,
-        id = 500019,
+        id = 500018,
         layout = {
             [1] = 511,
             [2] = 514,
@@ -7110,904 +8028,24 @@ return {
         dungeonType = 30,
         pictureText = "",
         buyCountType = 0,
-        titleName = "900762",
+        titleName = "900760",
     },
-    [110003] = {
+    [8302] = {
         resIcon = "",
         heroChapter = 0,
-        unlockLevel = 0,
-        order = 3,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 111214,
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 110003,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 11,
-        timeFrame = {
-        },
-        name = "300513",
-        pictureIcon = "icon/dungeon/chapter/chapter_7001_2.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [100006] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 6,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 110537,
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 100006,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 10,
-        timeFrame = {
-        },
-        name = "300516",
-        pictureIcon = "icon/dungeon/chapter/chapter_3001_2.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [8202] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 20,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-            [1] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500001] = 1000,
-                        [500002] = 30,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500001] = 1000,
-                        [500002] = 30,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500001] = 1000,
-                        [500002] = 30,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 21,
-                        [2] = 0,
-                    },
-                    tag = "c4_21_0",
-                    reward = {
-                        [500002] = 30,
-                        [500001] = 1000,
-                        [570033] = 1,
-                    },
-                },
-            },
-            [2] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500001] = 2000,
-                        [500002] = 40,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500001] = 2000,
-                        [500002] = 40,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500002] = 40,
-                        [570002] = 10,
-                        [500001] = 2000,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 24,
-                        [2] = 0,
-                    },
-                    tag = "c4_24_0",
-                    reward = {
-                        [500001] = 2000,
-                        [500002] = 40,
-                    },
-                },
-                [5] = {
-                    cond = {
-                        [1] = 30,
-                        [2] = 0,
-                    },
-                    tag = "c5_30_0",
-                    reward = {
-                        [500002] = 40,
-                        [500001] = 2000,
-                        [510301] = 2,
-                    },
-                },
-            },
-            [3] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500001] = 3000,
-                        [500002] = 50,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500002] = 50,
-                        [570002] = 15,
-                        [500001] = 3000,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500002] = 50,
-                        [500001] = 3000,
-                        [510301] = 3,
-                    },
-                },
-            },
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 8202,
-        layout = {
-            [1] = 511,
-            [2] = 514,
-            [3] = 514,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 422,
-        timeFrame = {
-        },
-        name = "300511",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 105,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [8201] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 23,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-            [1] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500001] = 1000,
-                        [500002] = 30,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500001] = 1000,
-                        [500002] = 30,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500001] = 1000,
-                        [500002] = 30,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 21,
-                        [2] = 0,
-                    },
-                    tag = "c4_21_0",
-                    reward = {
-                        [500002] = 30,
-                        [500001] = 1000,
-                        [570033] = 1,
-                    },
-                },
-            },
-            [2] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500001] = 2000,
-                        [500002] = 40,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500001] = 2000,
-                        [500002] = 40,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500002] = 40,
-                        [570002] = 10,
-                        [500001] = 2000,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 24,
-                        [2] = 0,
-                    },
-                    tag = "c4_24_0",
-                    reward = {
-                        [500001] = 2000,
-                        [500002] = 40,
-                    },
-                },
-                [5] = {
-                    cond = {
-                        [1] = 30,
-                        [2] = 0,
-                    },
-                    tag = "c5_30_0",
-                    reward = {
-                        [500002] = 40,
-                        [500001] = 2000,
-                        [510301] = 2,
-                    },
-                },
-            },
-            [3] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500001] = 3000,
-                        [500002] = 50,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500002] = 50,
-                        [570002] = 15,
-                        [500001] = 3000,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500002] = 50,
-                        [500001] = 3000,
-                        [510301] = 3,
-                    },
-                },
-            },
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 8201,
-        layout = {
-            [1] = 511,
-            [2] = 514,
-            [3] = 514,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 421,
-        timeFrame = {
-        },
-        name = "300511",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 104,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [100002] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 2,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 110108,
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 100002,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 10,
-        timeFrame = {
-        },
-        name = "300512",
-        pictureIcon = "icon/dungeon/chapter/chapter_7001_2.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [8102] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-            [1] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 24,
-                        [2] = 0,
-                    },
-                    tag = "c4_24_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [5] = {
-                    cond = {
-                        [1] = 30,
-                        [2] = 0,
-                    },
-                    tag = "c5_30_0",
-                    reward = {
-                        [500002] = 50,
-                        [510317] = 1,
-                        [500001] = 10000,
-                    },
-                },
-                [6] = {
-                    cond = {
-                        [1] = 36,
-                        [2] = 0,
-                    },
-                    tag = "c6_36_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [7] = {
-                    cond = {
-                        [1] = 42,
-                        [2] = 0,
-                    },
-                    tag = "c7_42_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [8] = {
-                    cond = {
-                        [1] = 48,
-                        [2] = 0,
-                    },
-                    tag = "c8_48_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [9] = {
-                    cond = {
-                        [1] = 54,
-                        [2] = 0,
-                    },
-                    tag = "c9_54_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [10] = {
-                    cond = {
-                        [1] = 60,
-                        [2] = 0,
-                    },
-                    tag = "c10_60_0",
-                    reward = {
-                        [500002] = 50,
-                        [510317] = 1,
-                        [500001] = 10000,
-                    },
-                },
-                [11] = {
-                    cond = {
-                        [1] = 66,
-                        [2] = 0,
-                    },
-                    tag = "c11_66_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [12] = {
-                    cond = {
-                        [1] = 72,
-                        [2] = 0,
-                    },
-                    tag = "c12_72_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [13] = {
-                    cond = {
-                        [1] = 78,
-                        [2] = 0,
-                    },
-                    tag = "c13_78_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [14] = {
-                    cond = {
-                        [1] = 84,
-                        [2] = 0,
-                    },
-                    tag = "c14_84_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [15] = {
-                    cond = {
-                        [1] = 90,
-                        [2] = 0,
-                    },
-                    tag = "c15_90_0",
-                    reward = {
-                        [500002] = 50,
-                        [500001] = 10000,
-                        [570033] = 1,
-                    },
-                },
-            },
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 8102,
-        layout = {
-            [1] = 514,
-            [2] = 514,
-            [3] = 514,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 2003,
-        timeFrame = {
-        },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 17,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [8101] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
+        unlockLevel = 45,
         order = 2,
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
             [1] = {
                 [1] = {
                     cond = {
-                        [1] = 5,
+                        [1] = 3,
                         [2] = 0,
                     },
-                    tag = "c1_5_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 10,
-                        [2] = 0,
-                    },
-                    tag = "c2_10_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 15,
-                        [2] = 0,
-                    },
-                    tag = "c3_15_0",
-                    reward = {
-                        [500002] = 50,
-                        [510302] = 1,
-                        [500001] = 10000,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 20,
-                        [2] = 0,
-                    },
-                    tag = "c4_20_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [5] = {
-                    cond = {
-                        [1] = 25,
-                        [2] = 0,
-                    },
-                    tag = "c5_25_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [6] = {
-                    cond = {
-                        [1] = 30,
-                        [2] = 0,
-                    },
-                    tag = "c6_30_0",
-                    reward = {
-                        [500002] = 50,
-                        [510302] = 1,
-                        [500001] = 10000,
-                    },
-                },
-                [7] = {
-                    cond = {
-                        [1] = 35,
-                        [2] = 0,
-                    },
-                    tag = "c7_35_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [8] = {
-                    cond = {
-                        [1] = 40,
-                        [2] = 0,
-                    },
-                    tag = "c8_40_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [9] = {
-                    cond = {
-                        [1] = 45,
-                        [2] = 0,
-                    },
-                    tag = "c9_45_0",
-                    reward = {
-                        [500002] = 50,
-                        [510302] = 1,
-                        [500001] = 10000,
-                    },
-                },
-                [10] = {
-                    cond = {
-                        [1] = 50,
-                        [2] = 0,
-                    },
-                    tag = "c10_50_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [11] = {
-                    cond = {
-                        [1] = 55,
-                        [2] = 0,
-                    },
-                    tag = "c11_55_0",
-                    reward = {
-                        [500001] = 10000,
-                        [500002] = 50,
-                    },
-                },
-                [12] = {
-                    cond = {
-                        [1] = 60,
-                        [2] = 0,
-                    },
-                    tag = "c12_60_0",
-                    reward = {
-                        [500002] = 50,
-                        [500001] = 10000,
-                        [570033] = 1,
-                    },
-                },
-            },
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 8101,
-        layout = {
-            [1] = 514,
-            [2] = 514,
-            [3] = 514,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 701,
-        timeFrame = {
-        },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 9,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [8006] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-            [1] = {
-                [1] = {
-                    cond = {
-                        [1] = 5,
-                        [2] = 0,
-                    },
-                    tag = "c1_5_0",
-                    reward = {
-                        [500002] = 30,
-                        [510317] = 1,
-                        [500001] = 5000,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 10,
-                        [2] = 0,
-                    },
-                    tag = "c2_10_0",
-                    reward = {
-                        [500002] = 30,
-                        [510317] = 1,
-                        [500001] = 5000,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 15,
-                        [2] = 0,
-                    },
-                    tag = "c3_15_0",
+                    tag = "c1_3_0",
                     reward = {
                         [500002] = 30,
                         [500001] = 5000,
@@ -8016,45 +8054,8 @@ return {
                 },
             },
         },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 8006,
-        layout = {
-            [1] = 514,
-            [2] = 514,
-            [3] = 514,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 2002,
-        timeFrame = {
-        },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 17,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [1002] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 2,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 101104,
-        },
         ext = {
         },
-        reward = {
-        },
         price = {
         },
         buyCountLimit = 0,
@@ -8062,860 +8063,18 @@ return {
         cycleParam = 0,
         cycleType = 0,
         countLimit = 0,
-        id = 1002,
-        layout = {
-            [1] = 514,
-            [2] = 514,
-            [3] = 514,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 1,
-        timeFrame = {
-        },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [8004] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 2,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 8004,
-        layout = {
-            [1] = 514,
-            [2] = 514,
-            [3] = 514,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 504,
-        timeFrame = {
-        },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 9,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [9301] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 9301,
-        layout = {
-            [1] = 514,
-            [2] = 514,
-            [3] = 514,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 1201,
-        timeFrame = {
-        },
-        name = "300512",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 16,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [900002] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 0,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 900002,
+        id = 8302,
         layout = {
         },
         dropShow = {
         },
         desc = "",
-        dungeonChapterId = 1203,
+        dungeonChapterId = 552,
         timeFrame = {
         },
         name = "",
         pictureIcon = "",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [5001] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 27,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 104315,
-        },
-        ext = {
-        },
-        reward = {
-            [1] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500001] = 3000,
-                        [500002] = 30,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500001] = 3000,
-                        [500002] = 30,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500001] = 3000,
-                        [500002] = 30,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 24,
-                        [2] = 0,
-                    },
-                    tag = "c4_24_0",
-                    reward = {
-                        [500001] = 3000,
-                        [500002] = 30,
-                    },
-                },
-                [5] = {
-                    cond = {
-                        [1] = 30,
-                        [2] = 0,
-                    },
-                    tag = "c5_30_0",
-                    reward = {
-                        [500001] = 3000,
-                        [500002] = 30,
-                    },
-                },
-                [6] = {
-                    cond = {
-                        [1] = 36,
-                        [2] = 0,
-                    },
-                    tag = "c6_36_0",
-                    reward = {
-                        [500001] = 3000,
-                        [500002] = 30,
-                    },
-                },
-                [7] = {
-                    cond = {
-                        [1] = 42,
-                        [2] = 0,
-                    },
-                    tag = "c7_42_0",
-                    reward = {
-                        [500002] = 30,
-                        [500001] = 3000,
-                        [570033] = 1,
-                    },
-                },
-                [8] = {
-                    cond = {
-                        [1] = 48,
-                        [2] = 0,
-                    },
-                    tag = "c8_48_0",
-                    reward = {
-                        [500001] = 3000,
-                        [500002] = 30,
-                    },
-                },
-                [9] = {
-                    cond = {
-                        [1] = 54,
-                        [2] = 0,
-                    },
-                    tag = "c9_54_0",
-                    reward = {
-                        [500001] = 3000,
-                        [500002] = 30,
-                    },
-                },
-                [10] = {
-                    cond = {
-                        [1] = 60,
-                        [2] = 0,
-                    },
-                    tag = "c10_60_0",
-                    reward = {
-                        [500001] = 3000,
-                        [500002] = 30,
-                    },
-                },
-                [11] = {
-                    cond = {
-                        [1] = 66,
-                        [2] = 0,
-                    },
-                    tag = "c11_66_0",
-                    reward = {
-                        [500001] = 3000,
-                        [500002] = 30,
-                    },
-                },
-                [12] = {
-                    cond = {
-                        [1] = 69,
-                        [2] = 0,
-                    },
-                    tag = "c12_69_0",
-                    reward = {
-                        [500002] = 30,
-                        [500001] = 3000,
-                        [570033] = 1,
-                    },
-                },
-            },
-            [2] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500001] = 4000,
-                        [500002] = 40,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500001] = 4000,
-                        [500002] = 40,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500001] = 4000,
-                        [500002] = 40,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 24,
-                        [2] = 0,
-                    },
-                    tag = "c4_24_0",
-                    reward = {
-                        [500002] = 40,
-                        [570002] = 20,
-                        [500001] = 4000,
-                    },
-                },
-                [5] = {
-                    cond = {
-                        [1] = 30,
-                        [2] = 0,
-                    },
-                    tag = "c5_30_0",
-                    reward = {
-                        [500001] = 4000,
-                        [500002] = 40,
-                    },
-                },
-                [6] = {
-                    cond = {
-                        [1] = 36,
-                        [2] = 0,
-                    },
-                    tag = "c6_36_0",
-                    reward = {
-                        [500001] = 4000,
-                        [500002] = 40,
-                    },
-                },
-                [7] = {
-                    cond = {
-                        [1] = 42,
-                        [2] = 0,
-                    },
-                    tag = "c7_42_0",
-                    reward = {
-                        [500002] = 40,
-                        [500001] = 4000,
-                        [510312] = 2,
-                    },
-                },
-                [8] = {
-                    cond = {
-                        [1] = 48,
-                        [2] = 0,
-                    },
-                    tag = "c8_48_0",
-                    reward = {
-                        [500001] = 4000,
-                        [500002] = 40,
-                    },
-                },
-                [9] = {
-                    cond = {
-                        [1] = 54,
-                        [2] = 0,
-                    },
-                    tag = "c9_54_0",
-                    reward = {
-                        [500001] = 4000,
-                        [500002] = 40,
-                    },
-                },
-                [10] = {
-                    cond = {
-                        [1] = 60,
-                        [2] = 0,
-                    },
-                    tag = "c10_60_0",
-                    reward = {
-                        [500002] = 40,
-                        [510311] = 2,
-                        [500001] = 4000,
-                    },
-                },
-            },
-            [3] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 50,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 50,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500002] = 50,
-                        [510311] = 3,
-                        [500001] = 5000,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 24,
-                        [2] = 0,
-                    },
-                    tag = "c4_24_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 50,
-                    },
-                },
-                [5] = {
-                    cond = {
-                        [1] = 30,
-                        [2] = 0,
-                    },
-                    tag = "c5_30_0",
-                    reward = {
-                        [500001] = 5000,
-                        [500002] = 50,
-                    },
-                },
-                [6] = {
-                    cond = {
-                        [1] = 36,
-                        [2] = 0,
-                    },
-                    tag = "c6_36_0",
-                    reward = {
-                        [500002] = 50,
-                        [500001] = 5000,
-                        [510312] = 3,
-                    },
-                },
-            },
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 5001,
-        layout = {
-            [1] = 512,
-            [2] = 512,
-            [3] = 512,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 5,
-        timeFrame = {
-        },
-        name = "300511",
-        pictureIcon = "icon/dungeon/chapter/chapter_5001_2.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [900001] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 0,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 900001,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 1203,
-        timeFrame = {
-        },
-        name = "",
-        pictureIcon = "",
-        dungeonType = 31,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [5002] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 2,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 105105,
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 5002,
-        layout = {
-            [1] = 512,
-            [2] = 512,
-            [3] = 512,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 5,
-        timeFrame = {
-        },
-        name = "300512",
-        pictureIcon = "icon/dungeon/chapter/chapter_5001_2.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [700001] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 0,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 700001,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 1001,
-        timeFrame = {
-        },
-        name = "",
-        pictureIcon = "",
-        dungeonType = 14,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [5003] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 3,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 105209,
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 5003,
-        layout = {
-            [1] = 512,
-            [2] = 512,
-            [3] = 512,
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 5,
-        timeFrame = {
-        },
-        name = "300513",
-        pictureIcon = "icon/dungeon/chapter/chapter_5001_2.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [600004] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 15,
-        order = 1,
-        activityDsc = "",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 600004,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 425,
-        timeFrame = {
-        },
-        name = "300511",
-        pictureIcon = "icon/fuben/top_shixiang.png",
-        dungeonType = 23,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [5004] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 4,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 105316,
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 5004,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 5,
-        timeFrame = {
-        },
-        name = "300514",
-        pictureIcon = "icon/dungeon/chapter/chapter_3001_2.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [100005] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 5,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 110430,
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 100005,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 10,
-        timeFrame = {
-        },
-        name = "300515",
-        pictureIcon = "icon/dungeon/chapter/chapter_3001_2.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [100003] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 3,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 110216,
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 100003,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 10,
-        timeFrame = {
-        },
-        name = "300513",
-        pictureIcon = "icon/dungeon/chapter/chapter_7001_2.png",
-        dungeonType = 2,
-        pictureText = "",
-        buyCountType = 0,
-        titleName = "",
-    },
-    [200001] = {
-        resIcon = "icon/fuben/003.png",
-        heroChapter = 0,
-        unlockLevel = 10,
-        order = 1,
-        activityDsc = "300131",
-        preDungeonId = {
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-            [500002] = 50,
-        },
-        buyCountLimit = 2,
-        openTimeType = 4,
-        cycleParam = 0,
-        cycleType = 1,
-        countLimit = 1,
-        id = 200001,
-        layout = {
-            [1] = 0,
-        },
-        dropShow = {
-        },
-        desc = "300421",
-        dungeonChapterId = 101,
-        timeFrame = {
-            [1] = 2,
-            [2] = 6,
-            [3] = 7,
-            [4] = 1,
-        },
-        name = "300520",
-        pictureIcon = "icon/fuben/Dungeon_STG.png",
-        dungeonType = 3,
-        pictureText = "",
-        buyCountType = 2,
-        titleName = "300549",
-    },
-    [90004] = {
-        resIcon = "",
-        heroChapter = 0,
-        unlockLevel = 0,
-        order = 4,
-        activityDsc = "",
-        preDungeonId = {
-            [1] = 109320,
-        },
-        ext = {
-        },
-        reward = {
-        },
-        price = {
-        },
-        buyCountLimit = 0,
-        openTimeType = 0,
-        cycleParam = 0,
-        cycleType = 0,
-        countLimit = 0,
-        id = 90004,
-        layout = {
-        },
-        dropShow = {
-        },
-        desc = "",
-        dungeonChapterId = 9,
-        timeFrame = {
-        },
-        name = "300514",
-        pictureIcon = "icon/dungeon/chapter/chapter_7001_2.png",
-        dungeonType = 2,
+        dungeonType = 22,
         pictureText = "",
         buyCountType = 0,
         titleName = "",
@@ -8928,8 +8087,6 @@ return {
         activityDsc = "",
         preDungeonId = {
             [1] = 108646,
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -9397,6 +8554,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -9420,18 +8579,17 @@ return {
         buyCountType = 0,
         titleName = "",
     },
-    [90002] = {
+    [1201] = {
         resIcon = "",
         heroChapter = 0,
         unlockLevel = 0,
-        order = 2,
+        order = 1,
         activityDsc = "",
         preDungeonId = {
-            [1] = 109106,
-        },
-        ext = {
         },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -9440,7 +8598,2005 @@ return {
         cycleParam = 0,
         cycleType = 0,
         countLimit = 0,
-        id = 90002,
+        id = 1201,
+        layout = {
+            [1] = 514,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 1201,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 16,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [500019] = {
+        resIcon = "",
+        heroChapter = 2,
+        unlockLevel = 15,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 9,
+                        [2] = 0,
+                    },
+                    tag = "c1_9_0",
+                    reward = {
+                        [500077] = 25,
+                        [500002] = 50,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c2_18_0",
+                    reward = {
+                        [500002] = 50,
+                        [570033] = 1,
+                        [500077] = 20,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 27,
+                        [2] = 0,
+                    },
+                    tag = "c3_27_0",
+                    reward = {
+                        [500077] = 25,
+                        [500002] = 50,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 36,
+                        [2] = 0,
+                    },
+                    tag = "c4_36_0",
+                    reward = {
+                        [500002] = 50,
+                        [570035] = 1,
+                        [500077] = 20,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 500019,
+        layout = {
+            [1] = 511,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 420,
+        timeFrame = {
+        },
+        name = "300511",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 30,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "900762",
+    },
+    [110003] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 3,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 111214,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 110003,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 11,
+        timeFrame = {
+        },
+        name = "300513",
+        pictureIcon = "icon/dungeon/chapter/chapter_7001_2.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [8202] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 20,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 1000,
+                        [500002] = 30,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 1000,
+                        [500002] = 30,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500001] = 1000,
+                        [500002] = 30,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 21,
+                        [2] = 0,
+                    },
+                    tag = "c4_21_0",
+                    reward = {
+                        [500002] = 30,
+                        [500001] = 1000,
+                        [570033] = 1,
+                    },
+                },
+            },
+            [2] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 2000,
+                        [500002] = 40,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 2000,
+                        [500002] = 40,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500002] = 40,
+                        [570002] = 10,
+                        [500001] = 2000,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500001] = 2000,
+                        [500002] = 40,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c5_30_0",
+                    reward = {
+                        [500002] = 40,
+                        [500001] = 2000,
+                        [510301] = 2,
+                    },
+                },
+            },
+            [3] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 50,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500002] = 50,
+                        [570002] = 15,
+                        [500001] = 3000,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500002] = 50,
+                        [500001] = 3000,
+                        [510301] = 3,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 8202,
+        layout = {
+            [1] = 511,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 422,
+        timeFrame = {
+        },
+        name = "300511",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 105,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [8201] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 23,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 1000,
+                        [500002] = 30,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 1000,
+                        [500002] = 30,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500001] = 1000,
+                        [500002] = 30,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 21,
+                        [2] = 0,
+                    },
+                    tag = "c4_21_0",
+                    reward = {
+                        [500002] = 30,
+                        [500001] = 1000,
+                        [570033] = 1,
+                    },
+                },
+            },
+            [2] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 2000,
+                        [500002] = 40,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 2000,
+                        [500002] = 40,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500002] = 40,
+                        [570002] = 10,
+                        [500001] = 2000,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500001] = 2000,
+                        [500002] = 40,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c5_30_0",
+                    reward = {
+                        [500002] = 40,
+                        [500001] = 2000,
+                        [510301] = 2,
+                    },
+                },
+            },
+            [3] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 50,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500002] = 50,
+                        [570002] = 15,
+                        [500001] = 3000,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500002] = 50,
+                        [500001] = 3000,
+                        [510301] = 3,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 8201,
+        layout = {
+            [1] = 511,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 421,
+        timeFrame = {
+        },
+        name = "300511",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 104,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [8102] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c5_30_0",
+                    reward = {
+                        [500002] = 50,
+                        [510317] = 1,
+                        [500001] = 10000,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 36,
+                        [2] = 0,
+                    },
+                    tag = "c6_36_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [7] = {
+                    cond = {
+                        [1] = 42,
+                        [2] = 0,
+                    },
+                    tag = "c7_42_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [8] = {
+                    cond = {
+                        [1] = 48,
+                        [2] = 0,
+                    },
+                    tag = "c8_48_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [9] = {
+                    cond = {
+                        [1] = 54,
+                        [2] = 0,
+                    },
+                    tag = "c9_54_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [10] = {
+                    cond = {
+                        [1] = 60,
+                        [2] = 0,
+                    },
+                    tag = "c10_60_0",
+                    reward = {
+                        [500002] = 50,
+                        [510317] = 1,
+                        [500001] = 10000,
+                    },
+                },
+                [11] = {
+                    cond = {
+                        [1] = 66,
+                        [2] = 0,
+                    },
+                    tag = "c11_66_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [12] = {
+                    cond = {
+                        [1] = 72,
+                        [2] = 0,
+                    },
+                    tag = "c12_72_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [13] = {
+                    cond = {
+                        [1] = 78,
+                        [2] = 0,
+                    },
+                    tag = "c13_78_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [14] = {
+                    cond = {
+                        [1] = 84,
+                        [2] = 0,
+                    },
+                    tag = "c14_84_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [15] = {
+                    cond = {
+                        [1] = 90,
+                        [2] = 0,
+                    },
+                    tag = "c15_90_0",
+                    reward = {
+                        [500002] = 50,
+                        [500001] = 10000,
+                        [570033] = 1,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 8102,
+        layout = {
+            [1] = 514,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 2003,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 17,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [100002] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 2,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 110108,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 100002,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 10,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/dungeon/chapter/chapter_7001_2.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [8101] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 2,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 5,
+                        [2] = 0,
+                    },
+                    tag = "c1_5_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 10,
+                        [2] = 0,
+                    },
+                    tag = "c2_10_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 15,
+                        [2] = 0,
+                    },
+                    tag = "c3_15_0",
+                    reward = {
+                        [500002] = 50,
+                        [510302] = 1,
+                        [500001] = 10000,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 20,
+                        [2] = 0,
+                    },
+                    tag = "c4_20_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 25,
+                        [2] = 0,
+                    },
+                    tag = "c5_25_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c6_30_0",
+                    reward = {
+                        [500002] = 50,
+                        [510302] = 1,
+                        [500001] = 10000,
+                    },
+                },
+                [7] = {
+                    cond = {
+                        [1] = 35,
+                        [2] = 0,
+                    },
+                    tag = "c7_35_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [8] = {
+                    cond = {
+                        [1] = 40,
+                        [2] = 0,
+                    },
+                    tag = "c8_40_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [9] = {
+                    cond = {
+                        [1] = 45,
+                        [2] = 0,
+                    },
+                    tag = "c9_45_0",
+                    reward = {
+                        [500002] = 50,
+                        [510302] = 1,
+                        [500001] = 10000,
+                    },
+                },
+                [10] = {
+                    cond = {
+                        [1] = 50,
+                        [2] = 0,
+                    },
+                    tag = "c10_50_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [11] = {
+                    cond = {
+                        [1] = 55,
+                        [2] = 0,
+                    },
+                    tag = "c11_55_0",
+                    reward = {
+                        [500001] = 10000,
+                        [500002] = 50,
+                    },
+                },
+                [12] = {
+                    cond = {
+                        [1] = 60,
+                        [2] = 0,
+                    },
+                    tag = "c12_60_0",
+                    reward = {
+                        [500002] = 50,
+                        [500001] = 10000,
+                        [570033] = 1,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 8101,
+        layout = {
+            [1] = 514,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 701,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 9,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [8006] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 5,
+                        [2] = 0,
+                    },
+                    tag = "c1_5_0",
+                    reward = {
+                        [500002] = 30,
+                        [510317] = 1,
+                        [500001] = 5000,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 10,
+                        [2] = 0,
+                    },
+                    tag = "c2_10_0",
+                    reward = {
+                        [500002] = 30,
+                        [510317] = 1,
+                        [500001] = 5000,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 15,
+                        [2] = 0,
+                    },
+                    tag = "c3_15_0",
+                    reward = {
+                        [500002] = 30,
+                        [500001] = 5000,
+                        [570033] = 1,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 8006,
+        layout = {
+            [1] = 514,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 2002,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 17,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [8004] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 2,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 8004,
+        layout = {
+            [1] = 514,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 504,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 9,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [1002] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 2,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 101104,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 1002,
+        layout = {
+            [1] = 514,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 1,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [8002] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 2,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 3,
+                        [2] = 0,
+                    },
+                    tag = "c1_3_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c2_6_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 9,
+                        [2] = 0,
+                    },
+                    tag = "c3_9_0",
+                    reward = {
+                        [500002] = 30,
+                        [510302] = 1,
+                        [500001] = 5000,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c4_12_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 15,
+                        [2] = 0,
+                    },
+                    tag = "c5_15_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c6_18_0",
+                    reward = {
+                        [500002] = 30,
+                        [510302] = 1,
+                        [500001] = 5000,
+                    },
+                },
+                [7] = {
+                    cond = {
+                        [1] = 21,
+                        [2] = 0,
+                    },
+                    tag = "c7_21_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [8] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c8_24_0",
+                    reward = {
+                        [500002] = 30,
+                        [500001] = 5000,
+                        [570033] = 1,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 8002,
+        layout = {
+            [1] = 514,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 502,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 9,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [9301] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 9301,
+        layout = {
+            [1] = 514,
+            [2] = 514,
+            [3] = 514,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 1201,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 16,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [900001] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 0,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 900001,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 1203,
+        timeFrame = {
+        },
+        name = "",
+        pictureIcon = "",
+        dungeonType = 31,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [5001] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 27,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 104315,
+        },
+        reward = {
+            [1] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 30,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 30,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 30,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 30,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c5_30_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 30,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 36,
+                        [2] = 0,
+                    },
+                    tag = "c6_36_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 30,
+                    },
+                },
+                [7] = {
+                    cond = {
+                        [1] = 42,
+                        [2] = 0,
+                    },
+                    tag = "c7_42_0",
+                    reward = {
+                        [500002] = 30,
+                        [500001] = 3000,
+                        [570033] = 1,
+                    },
+                },
+                [8] = {
+                    cond = {
+                        [1] = 48,
+                        [2] = 0,
+                    },
+                    tag = "c8_48_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 30,
+                    },
+                },
+                [9] = {
+                    cond = {
+                        [1] = 54,
+                        [2] = 0,
+                    },
+                    tag = "c9_54_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 30,
+                    },
+                },
+                [10] = {
+                    cond = {
+                        [1] = 60,
+                        [2] = 0,
+                    },
+                    tag = "c10_60_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 30,
+                    },
+                },
+                [11] = {
+                    cond = {
+                        [1] = 66,
+                        [2] = 0,
+                    },
+                    tag = "c11_66_0",
+                    reward = {
+                        [500001] = 3000,
+                        [500002] = 30,
+                    },
+                },
+                [12] = {
+                    cond = {
+                        [1] = 69,
+                        [2] = 0,
+                    },
+                    tag = "c12_69_0",
+                    reward = {
+                        [500002] = 30,
+                        [500001] = 3000,
+                        [570033] = 1,
+                    },
+                },
+            },
+            [2] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 4000,
+                        [500002] = 40,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 4000,
+                        [500002] = 40,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500001] = 4000,
+                        [500002] = 40,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500002] = 40,
+                        [570002] = 20,
+                        [500001] = 4000,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c5_30_0",
+                    reward = {
+                        [500001] = 4000,
+                        [500002] = 40,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 36,
+                        [2] = 0,
+                    },
+                    tag = "c6_36_0",
+                    reward = {
+                        [500001] = 4000,
+                        [500002] = 40,
+                    },
+                },
+                [7] = {
+                    cond = {
+                        [1] = 42,
+                        [2] = 0,
+                    },
+                    tag = "c7_42_0",
+                    reward = {
+                        [500002] = 40,
+                        [500001] = 4000,
+                        [510312] = 2,
+                    },
+                },
+                [8] = {
+                    cond = {
+                        [1] = 48,
+                        [2] = 0,
+                    },
+                    tag = "c8_48_0",
+                    reward = {
+                        [500001] = 4000,
+                        [500002] = 40,
+                    },
+                },
+                [9] = {
+                    cond = {
+                        [1] = 54,
+                        [2] = 0,
+                    },
+                    tag = "c9_54_0",
+                    reward = {
+                        [500001] = 4000,
+                        [500002] = 40,
+                    },
+                },
+                [10] = {
+                    cond = {
+                        [1] = 60,
+                        [2] = 0,
+                    },
+                    tag = "c10_60_0",
+                    reward = {
+                        [500002] = 40,
+                        [510311] = 2,
+                        [500001] = 4000,
+                    },
+                },
+            },
+            [3] = {
+                [1] = {
+                    cond = {
+                        [1] = 6,
+                        [2] = 0,
+                    },
+                    tag = "c1_6_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 50,
+                    },
+                },
+                [2] = {
+                    cond = {
+                        [1] = 12,
+                        [2] = 0,
+                    },
+                    tag = "c2_12_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 50,
+                    },
+                },
+                [3] = {
+                    cond = {
+                        [1] = 18,
+                        [2] = 0,
+                    },
+                    tag = "c3_18_0",
+                    reward = {
+                        [500002] = 50,
+                        [510311] = 3,
+                        [500001] = 5000,
+                    },
+                },
+                [4] = {
+                    cond = {
+                        [1] = 24,
+                        [2] = 0,
+                    },
+                    tag = "c4_24_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 50,
+                    },
+                },
+                [5] = {
+                    cond = {
+                        [1] = 30,
+                        [2] = 0,
+                    },
+                    tag = "c5_30_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 50,
+                    },
+                },
+                [6] = {
+                    cond = {
+                        [1] = 36,
+                        [2] = 0,
+                    },
+                    tag = "c6_36_0",
+                    reward = {
+                        [500002] = 50,
+                        [500001] = 5000,
+                        [510312] = 3,
+                    },
+                },
+            },
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 5001,
+        layout = {
+            [1] = 512,
+            [2] = 512,
+            [3] = 512,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 5,
+        timeFrame = {
+        },
+        name = "300511",
+        pictureIcon = "icon/dungeon/chapter/chapter_5001_2.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [700001] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 0,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 700001,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 1001,
+        timeFrame = {
+        },
+        name = "",
+        pictureIcon = "",
+        dungeonType = 14,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [5002] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 2,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 105105,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 5002,
+        layout = {
+            [1] = 512,
+            [2] = 512,
+            [3] = 512,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 5,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/dungeon/chapter/chapter_5001_2.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [600004] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 15,
+        order = 1,
+        activityDsc = "",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 600004,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 425,
+        timeFrame = {
+        },
+        name = "300511",
+        pictureIcon = "icon/fuben/top_shixiang.png",
+        dungeonType = 23,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [5003] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 3,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 105209,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 5003,
+        layout = {
+            [1] = 512,
+            [2] = 512,
+            [3] = 512,
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 5,
+        timeFrame = {
+        },
+        name = "300513",
+        pictureIcon = "icon/dungeon/chapter/chapter_5001_2.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [100005] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 5,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 110430,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 100005,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 10,
+        timeFrame = {
+        },
+        name = "300515",
+        pictureIcon = "icon/dungeon/chapter/chapter_3001_2.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [5004] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 4,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 105316,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 5004,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 5,
+        timeFrame = {
+        },
+        name = "300514",
+        pictureIcon = "icon/dungeon/chapter/chapter_3001_2.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [200001] = {
+        resIcon = "icon/fuben/003.png",
+        heroChapter = 0,
+        unlockLevel = 10,
+        order = 1,
+        activityDsc = "300131",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+            [500002] = 50,
+        },
+        buyCountLimit = 2,
+        openTimeType = 4,
+        cycleParam = 0,
+        cycleType = 1,
+        countLimit = 1,
+        id = 200001,
+        layout = {
+            [1] = 0,
+        },
+        dropShow = {
+        },
+        desc = "300421",
+        dungeonChapterId = 101,
+        timeFrame = {
+            [1] = 2,
+            [2] = 6,
+            [3] = 7,
+            [4] = 1,
+        },
+        name = "300520",
+        pictureIcon = "icon/fuben/Dungeon_STG.png",
+        dungeonType = 3,
+        pictureText = "",
+        buyCountType = 2,
+        titleName = "300549",
+    },
+    [100003] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 3,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 110216,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 100003,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 10,
+        timeFrame = {
+        },
+        name = "300513",
+        pictureIcon = "icon/dungeon/chapter/chapter_7001_2.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [200005] = {
+        resIcon = "icon/fuben/011.png",
+        heroChapter = 0,
+        unlockLevel = 25,
+        order = 5,
+        activityDsc = "300134",
+        preDungeonId = {
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+            [500002] = 50,
+        },
+        buyCountLimit = 2,
+        openTimeType = 4,
+        cycleParam = 0,
+        cycleType = 1,
+        countLimit = 1,
+        id = 200005,
+        layout = {
+            [1] = 0,
+        },
+        dropShow = {
+        },
+        desc = "300425",
+        dungeonChapterId = 101,
+        timeFrame = {
+            [1] = 4,
+            [2] = 6,
+            [3] = 7,
+            [4] = 1,
+        },
+        name = "300531",
+        pictureIcon = "icon/fuben/Dungeon_Link.png",
+        dungeonType = 3,
+        pictureText = "",
+        buyCountType = 2,
+        titleName = "300552",
+    },
+    [90004] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 4,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 109320,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 90004,
         layout = {
         },
         dropShow = {
@@ -9449,7 +10605,7 @@ return {
         dungeonChapterId = 9,
         timeFrame = {
         },
-        name = "300512",
+        name = "300514",
         pictureIcon = "icon/dungeon/chapter/chapter_7001_2.png",
         dungeonType = 2,
         pictureText = "",
@@ -9465,9 +10621,9 @@ return {
         preDungeonId = {
             [1] = 108215,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -9492,6 +10648,78 @@ return {
         buyCountType = 0,
         titleName = "",
     },
+    [90002] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 2,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 109106,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 90002,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 9,
+        timeFrame = {
+        },
+        name = "300512",
+        pictureIcon = "icon/dungeon/chapter/chapter_7001_2.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
+    [100006] = {
+        resIcon = "",
+        heroChapter = 0,
+        unlockLevel = 0,
+        order = 6,
+        activityDsc = "",
+        preDungeonId = {
+            [1] = 110537,
+        },
+        reward = {
+        },
+        ext = {
+        },
+        price = {
+        },
+        buyCountLimit = 0,
+        openTimeType = 0,
+        cycleParam = 0,
+        cycleType = 0,
+        countLimit = 0,
+        id = 100006,
+        layout = {
+        },
+        dropShow = {
+        },
+        desc = "",
+        dungeonChapterId = 10,
+        timeFrame = {
+        },
+        name = "300516",
+        pictureIcon = "icon/dungeon/chapter/chapter_3001_2.png",
+        dungeonType = 2,
+        pictureText = "",
+        buyCountType = 0,
+        titleName = "",
+    },
     [8301] = {
         resIcon = "",
         heroChapter = 0,
@@ -9499,8 +10727,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -9628,6 +10854,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -9659,9 +10887,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -9694,8 +10922,6 @@ return {
         activityDsc = "",
         preDungeonId = {
             [1] = 107539,
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -10196,6 +11422,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -10226,8 +11454,6 @@ return {
         order = 4,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -10333,6 +11559,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -10363,8 +11591,6 @@ return {
         order = 1,
         activityDsc = "",
         preDungeonId = {
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -10525,6 +11751,8 @@ return {
                 },
             },
         },
+        ext = {
+        },
         price = {
         },
         buyCountLimit = 0,
@@ -10556,9 +11784,9 @@ return {
         activityDsc = "",
         preDungeonId = {
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -10592,9 +11820,9 @@ return {
         preDungeonId = {
             [1] = 111429,
         },
-        ext = {
-        },
         reward = {
+        },
+        ext = {
         },
         price = {
         },
@@ -10619,284 +11847,209 @@ return {
         buyCountType = 0,
         titleName = "",
     },
-    [4001] = {
+    [8308] = {
         resIcon = "",
         heroChapter = 0,
-        unlockLevel = 18,
+        unlockLevel = 50,
         order = 1,
         activityDsc = "",
         preDungeonId = {
-            [1] = 103316,
-        },
-        ext = {
         },
         reward = {
             [1] = {
                 [1] = {
                     cond = {
-                        [1] = 6,
+                        [1] = 3,
                         [2] = 0,
                     },
-                    tag = "c1_6_0",
+                    tag = "c1_3_0",
                     reward = {
-                        [500001] = 2500,
+                        [500001] = 5000,
                         [500002] = 30,
                     },
                 },
                 [2] = {
                     cond = {
-                        [1] = 12,
+                        [1] = 6,
                         [2] = 0,
                     },
-                    tag = "c2_12_0",
+                    tag = "c2_6_0",
                     reward = {
-                        [500001] = 2500,
+                        [500001] = 5000,
                         [500002] = 30,
                     },
                 },
                 [3] = {
                     cond = {
-                        [1] = 18,
+                        [1] = 9,
                         [2] = 0,
                     },
-                    tag = "c3_18_0",
+                    tag = "c3_9_0",
                     reward = {
-                        [500001] = 2500,
+                        [500001] = 5000,
                         [500002] = 30,
                     },
                 },
                 [4] = {
                     cond = {
-                        [1] = 24,
+                        [1] = 12,
                         [2] = 0,
                     },
-                    tag = "c4_24_0",
+                    tag = "c4_12_0",
                     reward = {
-                        [500001] = 2500,
+                        [500001] = 5000,
                         [500002] = 30,
                     },
                 },
                 [5] = {
                     cond = {
-                        [1] = 30,
+                        [1] = 15,
                         [2] = 0,
                     },
-                    tag = "c5_30_0",
+                    tag = "c5_15_0",
                     reward = {
-                        [500001] = 2500,
+                        [500001] = 5000,
                         [500002] = 30,
                     },
                 },
                 [6] = {
                     cond = {
-                        [1] = 36,
+                        [1] = 18,
                         [2] = 0,
                     },
-                    tag = "c6_36_0",
+                    tag = "c6_18_0",
                     reward = {
                         [500002] = 30,
-                        [500001] = 2500,
+                        [500001] = 10000,
                         [570033] = 1,
                     },
                 },
                 [7] = {
                     cond = {
-                        [1] = 42,
+                        [1] = 21,
                         [2] = 0,
                     },
-                    tag = "c7_42_0",
+                    tag = "c7_21_0",
                     reward = {
-                        [500001] = 2500,
+                        [500001] = 5000,
                         [500002] = 30,
                     },
                 },
                 [8] = {
                     cond = {
-                        [1] = 48,
+                        [1] = 24,
                         [2] = 0,
                     },
-                    tag = "c8_48_0",
+                    tag = "c8_24_0",
                     reward = {
-                        [500001] = 2500,
+                        [500001] = 5000,
                         [500002] = 30,
                     },
                 },
                 [9] = {
                     cond = {
-                        [1] = 54,
+                        [1] = 27,
                         [2] = 0,
                     },
-                    tag = "c9_54_0",
+                    tag = "c9_27_0",
                     reward = {
-                        [500001] = 2500,
+                        [500001] = 5000,
                         [500002] = 30,
                     },
                 },
                 [10] = {
                     cond = {
-                        [1] = 57,
-                        [2] = 0,
-                    },
-                    tag = "c10_57_0",
-                    reward = {
-                        [500002] = 30,
-                        [500001] = 2500,
-                        [570033] = 1,
-                    },
-                },
-            },
-            [2] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500001] = 3500,
-                        [500002] = 40,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500001] = 3500,
-                        [500002] = 40,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500002] = 40,
-                        [570002] = 15,
-                        [500001] = 3500,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 24,
-                        [2] = 0,
-                    },
-                    tag = "c4_24_0",
-                    reward = {
-                        [500001] = 3500,
-                        [500002] = 40,
-                    },
-                },
-                [5] = {
-                    cond = {
                         [1] = 30,
                         [2] = 0,
                     },
-                    tag = "c5_30_0",
+                    tag = "c10_30_0",
                     reward = {
-                        [500001] = 3500,
-                        [500002] = 40,
+                        [500001] = 5000,
+                        [500002] = 30,
                     },
                 },
-                [6] = {
+                [11] = {
+                    cond = {
+                        [1] = 33,
+                        [2] = 0,
+                    },
+                    tag = "c11_33_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [12] = {
                     cond = {
                         [1] = 36,
                         [2] = 0,
                     },
-                    tag = "c6_36_0",
+                    tag = "c12_36_0",
                     reward = {
-                        [500002] = 40,
-                        [570002] = 20,
-                        [500001] = 3500,
+                        [500002] = 50,
+                        [500001] = 10000,
+                        [570033] = 1,
                     },
                 },
-                [7] = {
+                [13] = {
+                    cond = {
+                        [1] = 39,
+                        [2] = 0,
+                    },
+                    tag = "c13_39_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [14] = {
                     cond = {
                         [1] = 42,
                         [2] = 0,
                     },
-                    tag = "c7_42_0",
+                    tag = "c14_42_0",
                     reward = {
-                        [500001] = 3500,
-                        [500002] = 40,
+                        [500001] = 5000,
+                        [500002] = 30,
                     },
                 },
-                [8] = {
+                [15] = {
                     cond = {
                         [1] = 45,
                         [2] = 0,
                     },
-                    tag = "c8_45_0",
+                    tag = "c15_45_0",
                     reward = {
-                        [500002] = 40,
-                        [510308] = 2,
-                        [500001] = 3500,
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [16] = {
+                    cond = {
+                        [1] = 48,
+                        [2] = 0,
+                    },
+                    tag = "c16_48_0",
+                    reward = {
+                        [500001] = 5000,
+                        [500002] = 30,
+                    },
+                },
+                [17] = {
+                    cond = {
+                        [1] = 51,
+                        [2] = 0,
+                    },
+                    tag = "c17_51_0",
+                    reward = {
+                        [500002] = 50,
+                        [500001] = 10000,
+                        [570033] = 1,
                     },
                 },
             },
-            [3] = {
-                [1] = {
-                    cond = {
-                        [1] = 6,
-                        [2] = 0,
-                    },
-                    tag = "c1_6_0",
-                    reward = {
-                        [500001] = 4500,
-                        [500002] = 50,
-                    },
-                },
-                [2] = {
-                    cond = {
-                        [1] = 12,
-                        [2] = 0,
-                    },
-                    tag = "c2_12_0",
-                    reward = {
-                        [500001] = 4500,
-                        [500002] = 50,
-                    },
-                },
-                [3] = {
-                    cond = {
-                        [1] = 18,
-                        [2] = 0,
-                    },
-                    tag = "c3_18_0",
-                    reward = {
-                        [500002] = 50,
-                        [570002] = 30,
-                        [500001] = 4500,
-                    },
-                },
-                [4] = {
-                    cond = {
-                        [1] = 24,
-                        [2] = 0,
-                    },
-                    tag = "c4_24_0",
-                    reward = {
-                        [500001] = 4500,
-                        [500002] = 50,
-                    },
-                },
-                [5] = {
-                    cond = {
-                        [1] = 27,
-                        [2] = 0,
-                    },
-                    tag = "c5_27_0",
-                    reward = {
-                        [500002] = 50,
-                        [510308] = 3,
-                        [500001] = 4500,
-                    },
-                },
-            },
+        },
+        ext = {
         },
         price = {
         },
@@ -10905,21 +12058,18 @@ return {
         cycleParam = 0,
         cycleType = 0,
         countLimit = 0,
-        id = 4001,
+        id = 8308,
         layout = {
-            [1] = 514,
-            [2] = 514,
-            [3] = 514,
         },
         dropShow = {
         },
         desc = "",
-        dungeonChapterId = 4,
+        dungeonChapterId = 558,
         timeFrame = {
         },
-        name = "300511",
-        pictureIcon = "icon/dungeon/chapter/chapter_5001_2.png",
-        dungeonType = 2,
+        name = "",
+        pictureIcon = "",
+        dungeonType = 24,
         pictureText = "",
         buyCountType = 0,
         titleName = "",
@@ -10932,8 +12082,6 @@ return {
         activityDsc = "",
         preDungeonId = {
             [1] = 101207,
-        },
-        ext = {
         },
         reward = {
             [1] = {
@@ -11180,6 +12328,8 @@ return {
                     },
                 },
             },
+        },
+        ext = {
         },
         price = {
         },

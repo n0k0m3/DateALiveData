@@ -1,0 +1,188 @@
+
+effects_13301_jiejie.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/guangxian_000
+  rotate: false
+  xy: 2, 2
+  size: 224, 83
+  orig: 252, 90
+  offset: 10, 3
+  index: -1
+images/effects/piaodia/piaodai_000
+  rotate: false
+  xy: 224, 283
+  size: 167, 64
+  orig: 180, 90
+  offset: 0, 18
+  index: -1
+images/effects/piaodia/piaodai_002
+  rotate: false
+  xy: 234, 498
+  size: 173, 61
+  orig: 180, 90
+  offset: 0, 18
+  index: -1
+images/effects/piaodia/piaodai_004
+  rotate: false
+  xy: 469, 544
+  size: 175, 58
+  orig: 180, 90
+  offset: 0, 17
+  index: -1
+images/effects/piaodia/piaodai_006
+  rotate: false
+  xy: 499, 733
+  size: 177, 58
+  orig: 180, 90
+  offset: 0, 16
+  index: -1
+images/effects/piaodia/piaodai_008
+  rotate: false
+  xy: 274, 728
+  size: 180, 57
+  orig: 180, 90
+  offset: 0, 16
+  index: -1
+images/effects/piaodia/piaodai_010
+  rotate: true
+  xy: 409, 546
+  size: 180, 58
+  orig: 180, 90
+  offset: 0, 16
+  index: -1
+images/effects/piaodia/piaodai_012
+  rotate: false
+  xy: 208, 222
+  size: 180, 59
+  orig: 180, 90
+  offset: 0, 16
+  index: -1
+images/effects/piaodia/piaodai_014
+  rotate: false
+  xy: 469, 604
+  size: 176, 59
+  orig: 180, 90
+  offset: 4, 14
+  index: -1
+images/effects/piaodia/piaodai_016
+  rotate: true
+  xy: 330, 45
+  size: 175, 58
+  orig: 180, 90
+  offset: 5, 12
+  index: -1
+images/effects/piaodia/piaodai_018
+  rotate: false
+  xy: 714, 762
+  size: 178, 54
+  orig: 180, 90
+  offset: 1, 13
+  index: -1
+images/effects/piaodia/piaodai_020
+  rotate: true
+  xy: 390, 114
+  size: 167, 52
+  orig: 180, 90
+  offset: 0, 14
+  index: -1
+images/effects/piaodia/piaodai_022
+  rotate: false
+  xy: 678, 704
+  size: 160, 56
+  orig: 180, 90
+  offset: 4, 18
+  index: -1
+images/effects/piaodia/piaodai_024
+  rotate: false
+  xy: 647, 644
+  size: 159, 58
+  orig: 180, 90
+  offset: 7, 18
+  index: -1
+images/effects/piaodia/piaodai_026
+  rotate: false
+  xy: 469, 665
+  size: 170, 66
+  orig: 180, 90
+  offset: 3, 19
+  index: -1
+images/effects/piaodia/piaodai_028
+  rotate: true
+  xy: 905, 825
+  size: 175, 66
+  orig: 180, 90
+  offset: 0, 18
+  index: -1
+images/effects/skillD/guangshe_000
+  rotate: false
+  xy: 2, 498
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+images/effects/skillD/kuoyan/kuoyan_002
+  rotate: false
+  xy: 208, 102
+  size: 120, 118
+  orig: 234, 234
+  offset: 56, 59
+  index: -1
+images/effects/skillD/kuoyan/kuoyan_004
+  rotate: false
+  xy: 224, 349
+  size: 155, 147
+  orig: 234, 234
+  offset: 40, 44
+  index: -1
+images/effects/skillD/kuoyan/kuoyan_006
+  rotate: false
+  xy: 234, 561
+  size: 173, 165
+  orig: 234, 234
+  offset: 30, 36
+  index: -1
+images/effects/skillD/kuoyan/kuoyan_008
+  rotate: false
+  xy: 714, 818
+  size: 189, 182
+  orig: 234, 234
+  offset: 22, 29
+  index: -1
+images/effects/skillD/kuoyan/kuoyan_010
+  rotate: false
+  xy: 2, 87
+  size: 204, 196
+  orig: 234, 234
+  offset: 13, 22
+  index: -1
+images/effects/skillD/kuoyan/kuoyan_012
+  rotate: false
+  xy: 499, 793
+  size: 213, 207
+  orig: 234, 234
+  offset: 8, 16
+  index: -1
+images/effects/skillD/kuoyan/kuoyan_014
+  rotate: false
+  xy: 2, 285
+  size: 220, 211
+  orig: 234, 234
+  offset: 4, 13
+  index: -1
+images/effects/skillD/kuoyan/kuoyan_016
+  rotate: false
+  xy: 274, 787
+  size: 223, 213
+  orig: 234, 234
+  offset: 3, 13
+  index: -1
+images/effects/skillD/show/fazhen_000
+  rotate: false
+  xy: 2, 730
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1

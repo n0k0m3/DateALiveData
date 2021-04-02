@@ -1,0 +1,20 @@
+
+interObject_springFes_lantern1.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 563, 481
+  orig: 563, 481
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 567, 393
+  size: 81, 90
+  orig: 81, 90
+  offset: 0, 0
+  index: -1

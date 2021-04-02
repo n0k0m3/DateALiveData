@@ -1,0 +1,111 @@
+
+effects_13101_buff.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/buff/buff_00000
+  rotate: false
+  xy: 244, 335
+  size: 225, 165
+  orig: 271, 220
+  offset: 33, 20
+  index: -1
+images/effects_L/buff/buff_00002
+  rotate: false
+  xy: 2, 2
+  size: 232, 165
+  orig: 271, 220
+  offset: 25, 20
+  index: -1
+images/effects_L/buff/buff_00004
+  rotate: false
+  xy: 2, 169
+  size: 233, 165
+  orig: 271, 220
+  offset: 23, 20
+  index: -1
+images/effects_L/buff/buff_00006
+  rotate: false
+  xy: 743, 833
+  size: 234, 163
+  orig: 271, 220
+  offset: 22, 22
+  index: -1
+images/effects_L/buff/buff_00008
+  rotate: false
+  xy: 2, 500
+  size: 240, 164
+  orig: 271, 220
+  offset: 16, 21
+  index: -1
+images/effects_L/buff/buff_00010
+  rotate: false
+  xy: 2, 832
+  size: 255, 164
+  orig: 271, 220
+  offset: 16, 21
+  index: -1
+images/effects_L/buff/buff_00012
+  rotate: false
+  xy: 2, 666
+  size: 255, 164
+  orig: 271, 220
+  offset: 16, 21
+  index: -1
+images/effects_L/buff/buff_00014
+  rotate: false
+  xy: 259, 666
+  size: 240, 163
+  orig: 271, 220
+  offset: 16, 22
+  index: -1
+images/effects_L/buff/buff_00016
+  rotate: false
+  xy: 501, 833
+  size: 240, 163
+  orig: 271, 220
+  offset: 16, 22
+  index: -1
+images/effects_L/buff/buff_00018
+  rotate: false
+  xy: 244, 502
+  size: 237, 162
+  orig: 271, 220
+  offset: 19, 22
+  index: -1
+images/effects_L/buff/buff_00020
+  rotate: false
+  xy: 501, 667
+  size: 235, 164
+  orig: 271, 220
+  offset: 36, 21
+  index: -1
+images/effects_L/buff/buff_00022
+  rotate: false
+  xy: 237, 169
+  size: 224, 164
+  orig: 271, 220
+  offset: 37, 21
+  index: -1
+images/effects_L/buff/buff_00024
+  rotate: false
+  xy: 738, 666
+  size: 231, 165
+  orig: 271, 220
+  offset: 36, 20
+  index: -1
+images/effects_L/buff/buff_00026
+  rotate: false
+  xy: 259, 831
+  size: 240, 165
+  orig: 271, 220
+  offset: 26, 20
+  index: -1
+images/effects_L/buff/buff_00028
+  rotate: false
+  xy: 2, 336
+  size: 238, 162
+  orig: 271, 220
+  offset: 22, 23
+  index: -1

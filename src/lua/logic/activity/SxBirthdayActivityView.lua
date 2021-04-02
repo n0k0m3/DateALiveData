@@ -37,12 +37,14 @@ end
 
 function SxBirthdayActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
-	dump(self.activityInfo_)
-    local startDate = Utils:getLocalDate(self.activityInfo_.startTime)
-    local startDateStr = startDate:fmt("%Y.%m.%d")
-    local endDate = Utils:getLocalDate(self.activityInfo_.endTime)
-    local endDateStr = endDate:fmt("%Y.%m.%d")
-    self.Label_time:setTextById(800041, startDateStr, endDateStr)
+	-- dump(self.activityInfo_)
+ --    local startDate = Utils:getLocalDate(self.activityInfo_.startTime)
+ --    local startDateStr = startDate:fmt("%Y.%m.%d")
+ --    local endDate = Utils:getLocalDate(self.activityInfo_.endTime)
+ --    local endDateStr = endDate:fmt("%Y.%m.%d")
+ --    self.Label_time:setTextById(800041, startDateStr, endDateStr)
+
+    self.Label_time:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle))
 
 --    if not self.cgView_ then
 --        if self.activityInfo_.extendData.cg then

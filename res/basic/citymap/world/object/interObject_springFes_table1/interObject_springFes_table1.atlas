@@ -1,0 +1,27 @@
+
+interObject_springFes_table1.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zz1
+  rotate: false
+  xy: 240, 2
+  size: 177, 113
+  orig: 177, 113
+  offset: 0, 0
+  index: -1
+zz3
+  rotate: false
+  xy: 419, 42
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+zz4
+  rotate: false
+  xy: 2, 7
+  size: 236, 108
+  orig: 236, 108
+  offset: 0, 0
+  index: -1

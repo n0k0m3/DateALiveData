@@ -313,7 +313,7 @@ end
 function BFEffect:replace()
     _print("effect 替换"..self.data.id)
     if self.data.stopContent == eBFERemoveType.RT_REMOVE_ALL then
-        if self.data.effectType ~= eBFEffectType.ET_CHANGE_SKIN then --变身效果不需要做效果替换
+        if self.data.effectType ~= eBFEffectType.ET_CHANGE_SKIN and self.data.effectType ~= eBFEffectType.ET_FORCE_CHANGE_SKIN then --变身效果不需要做效果替换
             self:removeEffect()
         end
     end
@@ -322,7 +322,7 @@ function BFEffect:replace()
     self.nEventTriggerTimes = {}
     self.nDuration  = self:getDuration()
     --即时生效处理
-    if self.data.effectType ~= eBFEffectType.ET_CHANGE_SKIN then --变身效果不需要做效果替换
+    if self.data.effectType ~= eBFEffectType.ET_CHANGE_SKIN and self.data.effectType ~= eBFEffectType.ET_FORCE_CHANGE_SKIN then --变身效果不需要做效果替换
         self:onAtOnce()
     end
 
@@ -759,12 +759,24 @@ function BFEffect:takeEffect(addTimes)
                 local distortionId = self.data.distortionId
                 target:changeSkinEx(distortionId ,self:getObjectID())
             end
+        elseif effectType == eBFEffectType.ET_FORCE_CHANGE_SKIN then --强制变换形态
+            self.addState = target:getFormId() --保存原形态ID
+            local distortionId = self.data.distortionId
+            target:changeSkinEx(distortionId ,self:getObjectID())
         elseif effectType == eBFEffectType.ET_MODEL_SCALE then --模型缩放
             local scale = self.data.modelscale*target:getSkeletonNodeScale()
             target:setSkeletonNodeScale(scale) 
         elseif effectType == eBFEffectType.ET_USE_SKILL then--使用技能
             local skillType = self.data.useSkillType
             target:castByType(skillType)
+        elseif effectType == eBFEffectType.ET_EFFECT_UNABLED then--屏蔽指定效果
+            local loseBuffEfferctId = self.data.loseBuffEfferctId
+            for k,effectId in pairs(loseBuffEfferctId) do
+                local effect = target:getBFEffect(effectId)
+                if effect then
+                    effect:setTakeEffect(false)
+                end
+            end
         end
     self.realAddTimes = self.realAddTimes + 1
     self:showEffectName()
@@ -824,6 +836,11 @@ function BFEffect:removeEffect(addTimes)
                     target:recoverySkin(self:getObjectID())
                     self.addState = nil
                 end
+            elseif effectType == eBFEffectType.ET_FORCE_CHANGE_SKIN then --强制变换形态
+                if self.addState then 
+                    target:recoverySkin(self:getObjectID())
+                    self.addState = nil
+                end
             elseif effectType == eBFEffectType.ET_MODEL_SCALE then --模型缩放
                 --还原
                 local scale = target:getSkeletonNodeScale()
@@ -839,6 +856,15 @@ function BFEffect:removeEffect(addTimes)
                 local skills    = target:getSkillsByType(skillType)
                 for i, skill in ipairs(skills) do
                     skill:setCDControl(0)
+                end
+            elseif effectType == eBFEffectType.ET_EFFECT_UNABLED then--开放指定效果
+                local loseBuffEfferctId = self.data.loseBuffEfferctId
+                for k,effectId in pairs(loseBuffEfferctId) do
+                    local effect = target:getBFEffect(effectId)
+                    if effect then
+                        effect:setTakeEffect(true)
+                        effect:addTest()
+                    end
                 end
             end
 
@@ -1306,6 +1332,19 @@ function BFEffect:_triggerNewEffects(effectId)
     end
 end
 
+function BFEffect:checkAttrChangeState(takeObj,data)
+    if data.attributeGrow and data.attributeGrow > 0 and (data.effectNum < 0 or data.ratio < 0) then
+        if data.statestrike and #data.statestrike > 0 then
+            for i,state in ipairs(data.statestrike) do
+                if takeObj:isAState(state) then
+                    return false
+                end
+            end
+        end
+    end
+    return true
+end
+
 function BFEffect:_triggerNewEffect(data,takeObj)
     --免疫负面效果
     if takeObj:isAState(eAState.E_MIANYI_DBUFF) then
@@ -1319,6 +1358,11 @@ function BFEffect:_triggerNewEffect(data,takeObj)
         if data.attrDebuff then
             return
         end
+    end
+
+    --受目标状态影响
+    if not self:checkAttrChangeState(takeObj,data) then
+        return
     end
 
     if not self:checkEffectCondition(takeObj, data) then

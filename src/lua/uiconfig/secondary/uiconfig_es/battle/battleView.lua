@@ -158,6 +158,78 @@ local t =
 					},
 				},
 				{
+					controlID = "Panel_ui_effect_bottom_Panel-battleView_ui_battle_Game",
+					UUID = "3c60a9cd_1fa7_4012_8bd7_da68e0f384d6",
+					anchorPoint = "False",
+					anchorPointX = "0",
+					anchorPointY = "0",
+					backGroundScale9Enable = "False",
+					bgColorOpacity = "50",
+					bIsOpenClipping = "False",
+					classname = "MEPanel",
+					colorType = "0;SingleColor:#FF7CFC00;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+					DesignHeight = "640",
+					DesignType = "0",
+					DesignWidth = "960",
+					dstBlendFunc = "771",
+					height = "640",
+					ignoreSize = "False",
+					name = "Panel_ui_effect_bottom",
+					sizepercentx = "100",
+					sizepercenty = "100",
+					sizeType = "1",
+					srcBlendFunc = "1",
+					touchAble = "False",
+					UILayoutViewModel = 
+					{
+						relativeToName = "Panel_ui",
+						nType = 3,
+					},
+					uipanelviewmodel = 
+					{
+						Layout="Relative",
+						nType = "3"
+					},
+					width = "1136",
+					ZOrder = "1",
+					components = 
+					{
+						
+						{
+							controlID = "Spine_alert_Panel_ui_effect_bottom_Panel-battleView_ui_battle_Game",
+							UUID = "24ced9c0_173d_4aec_8f75_fd71c96f4ba9",
+							classname = "MESpine",
+							dstBlendFunc = "771",
+							name = "Spine_alert",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							spineModel = 
+							{
+								SpinePath = "effect/effect_articulo/effect_articulo",
+								animationName = "1136",
+								IsLoop = true,
+								IsPlay = true,
+								IsUseQueue = false,
+								AnimationQueue = 
+								{
+									
+								},
+							},
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionY = 667,
+								relativeToName = "Panel_ui_effect_bottom",
+								nType = 3,
+							},
+							visible = "False",
+							ZOrder = "1",
+						},
+					},
+				},
+				{
 					controlID = "Panel_ui_Panel-battleView_ui_battle_Game",
 					UUID = "cc49f6d9_6c5c_4cba_8ccb_3af0f4330540",
 					anchorPoint = "False",
@@ -629,6 +701,65 @@ local t =
 														
 													},
 													width = "176",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Image_loadbar_bt_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
+											UUID = "73fabf0b_ffd7_4de6_9caf_f51de3d5153b",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "4",
+											ignoreSize = "False",
+											name = "Image_loadbar_bt",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/battle/031.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 152,
+												PositionY = -12,
+												relativeToName = "Panel",
+											},
+											visible = "False",
+											width = "170",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "LoadingBar_bt_Image_loadbar_bt_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
+													UUID = "fe0f37b0_4b76_4ebd_b48d_eb5109554868",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+													classname = "MELoadingBar",
+													direction = "0",
+													dstBlendFunc = "771",
+													height = "4",
+													ignoreSize = "False",
+													name = "LoadingBar_bt",
+													percent = "100",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texture = "ui/battle/032.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "170",
 													ZOrder = "1",
 												},
 											},
@@ -1631,6 +1762,209 @@ local t =
 											},
 											visible = "False",
 											ZOrder = "2",
+										},
+										{
+											controlID = "Panel_super_energy_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
+											UUID = "554f2ad7_027e_4388_af38_d35334c28147",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "True",
+											classname = "MEPanel",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											DesignHeight = "640",
+											DesignType = "0",
+											DesignWidth = "960",
+											dstBlendFunc = "771",
+											height = "40",
+											ignoreSize = "False",
+											name = "Panel_super_energy",
+											scaleX = "1.2",
+											scaleY = "1.2",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 62,
+												PositionY = -75,
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											visible = "False",
+											width = "175",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Image_super_energy_bg_Panel_super_energy_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
+													UUID = "27de4ccc_cc1e_41f8_9d2d_4a4866bdfdbd",
+													anchorPoint = "False",
+													anchorPointX = "0",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "2",
+													ignoreSize = "True",
+													name = "Image_super_energy_bg",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "ui/battle/battle_energy_bar02.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														relativeToName = "Panel",
+													},
+													width = "2",
+													ZOrder = "1",
+													components = 
+													{
+														
+														{
+															controlID = "LoadingBar_super_energy_Image_super_energy_bg_Panel_super_energy_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
+															UUID = "5df8f7e2_2e32_42d4_bc82_205d8d19fea6",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MELoadingBar",
+															direction = "0",
+															dstBlendFunc = "771",
+															height = "2",
+															ignoreSize = "True",
+															name = "LoadingBar_super_energy",
+															percent = "100",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															texture = "ui/battle/battle_energy_bar02-1.png",
+															touchAble = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 110,
+															},
+															width = "2",
+															ZOrder = "1",
+														},
+													},
+												},
+												{
+													controlID = "Spine_super_energy_guang_Panel_super_energy_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
+													UUID = "1036e0a6_d257_4e07_a237_5d67e012a356",
+													classname = "MESpine",
+													dstBlendFunc = "771",
+													name = "Spine_super_energy_guang",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													spineModel = 
+													{
+														SpinePath = "effect/effect_Combat_energy/effect_Combat_energy",
+														animationName = "1",
+														IsLoop = true,
+														IsPlay = true,
+														IsUseQueue = false,
+														AnimationQueue = 
+														{
+															
+														},
+													},
+													srcBlendFunc = "1",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = 170,
+													},
+													ZOrder = "1",
+												},
+												{
+													controlID = "Spine_super_energy_dian_Panel_super_energy_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
+													UUID = "7c251eaf_b70a_4308_9786_f5fcb97a0527",
+													classname = "MESpine",
+													dstBlendFunc = "771",
+													name = "Spine_super_energy_dian",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													spineModel = 
+													{
+														SpinePath = "effect/effect_Combat_energy/effect_Combat_energy",
+														animationName = "3_1",
+														IsLoop = true,
+														IsPlay = true,
+														IsUseQueue = false,
+														AnimationQueue = 
+														{
+															
+														},
+													},
+													srcBlendFunc = "1",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = 110,
+													},
+													ZOrder = "1",
+												},
+												{
+													controlID = "Label_super_sp_Panel_super_energy_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
+													UUID = "226af5b0_5cfe_4546_bf7b_b9f52c02dfe9",
+													anchorPoint = "False",
+													anchorPointX = "0",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FFFFFFFF",
+													fontName = "font/MFLiHei_Noncommercial.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "14",
+													fontStroke = 
+													{
+														IsStroke = true,
+														StrokeColor = "#FF444444",
+														StrokeSize = 1,
+													},
+													height = "18",
+													ignoreSize = "True",
+													name = "Label_super_sp",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "势能",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = 8,
+														PositionY = -1,
+													},
+													width = "32",
+													ZOrder = "1",
+												},
+											},
 										},
 									},
 								},
@@ -14091,6 +14425,47 @@ local t =
 										},
 									},
 								},
+								{
+									controlID = "Panel_energy_bar_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
+									UUID = "79e490bd_4228_4d22_bf61_f1bb17f10868",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "100",
+									ignoreSize = "False",
+									name = "Panel_energy_bar",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 510,
+										PositionY = 180,
+										BottomPosition = 130,
+										relativeToName = "Panel_top",
+										nType = 3,
+										nGravity = 6,
+										nAlign = 8
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "300",
+									ZOrder = "1",
+								},
 							},
 						},
 						{
@@ -14146,7 +14521,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 510,
-								PositionY = 333,
+								PositionY = 334,
 								relativeToName = "Panel_victory",
 								nType = 3,
 								nGravity = 6,
@@ -17662,6 +18037,8 @@ local t =
 			"ui/battle/005.png",
 			"ui/battle/002.png",
 			"ui/battle/003.png",
+			"ui/battle/031.png",
+			"ui/battle/032.png",
 			"ui/battle/051.png",
 			"ui/battle/052.png",
 			"ui/battle/049.png",
@@ -17683,6 +18060,8 @@ local t =
 			"icon/hero/face/1101011.png",
 			"ui/battle/004.png",
 			"ui/onlineteam/012.png",
+			"ui/battle/battle_energy_bar02.png",
+			"ui/battle/battle_energy_bar02-1.png",
 			"ui/battle/015.png",
 			"ui/battle/017.png",
 			"icon/hero/face/1105011.png",
@@ -17794,8 +18173,6 @@ local t =
 			"ui/battle/028.png",
 			"ui/battle/029.png",
 			"ui/battle/030.png",
-			"ui/battle/031.png",
-			"ui/battle/032.png",
 			"ui/battle/059.png",
 			"ui/battle/n501.png",
 			"icon/affix/affix_1_jiansu.png",

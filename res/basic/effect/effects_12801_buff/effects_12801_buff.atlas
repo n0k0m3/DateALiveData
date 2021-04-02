@@ -1,0 +1,230 @@
+
+effects_12801_buff.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/glow
+  rotate: false
+  xy: 280, 70
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+effect/guangxian_000
+  rotate: false
+  xy: 166, 669
+  size: 132, 40
+  orig: 132, 40
+  offset: 0, 0
+  index: -1
+effects/buff/buff1/buff1_000
+  rotate: true
+  xy: 289, 242
+  size: 111, 117
+  orig: 150, 150
+  offset: 22, 13
+  index: -1
+effects/buff/buff1/buff1_002
+  rotate: false
+  xy: 408, 251
+  size: 111, 109
+  orig: 150, 150
+  offset: 18, 16
+  index: -1
+effects/buff/buff1/buff1_004
+  rotate: true
+  xy: 285, 132
+  size: 108, 109
+  orig: 150, 150
+  offset: 19, 14
+  index: -1
+effects/buff/buff1/buff1_006
+  rotate: false
+  xy: 404, 362
+  size: 118, 113
+  orig: 150, 150
+  offset: 10, 14
+  index: -1
+effects/buff/buff1/buff1_008
+  rotate: false
+  xy: 164, 292
+  size: 123, 118
+  orig: 150, 150
+  offset: 7, 11
+  index: -1
+effects/buff/buff1/buff1_010
+  rotate: false
+  xy: 164, 412
+  size: 122, 125
+  orig: 150, 150
+  offset: 8, 6
+  index: -1
+effects/buff/buff1/buff1_012
+  rotate: true
+  xy: 428, 599
+  size: 119, 125
+  orig: 150, 150
+  offset: 12, 7
+  index: -1
+effects/buff/buff1/buff1_014
+  rotate: true
+  xy: 289, 480
+  size: 120, 125
+  orig: 150, 150
+  offset: 16, 8
+  index: -1
+effects/buff/buff1/buff1_016
+  rotate: true
+  xy: 300, 602
+  size: 118, 126
+  orig: 150, 150
+  offset: 19, 7
+  index: -1
+effects/buff/buff1/buff1_018
+  rotate: false
+  xy: 289, 355
+  size: 113, 123
+  orig: 150, 150
+  offset: 23, 10
+  index: -1
+effects/buff/buff2/buff2_000
+  rotate: false
+  xy: 162, 539
+  size: 125, 128
+  orig: 150, 150
+  offset: 10, 14
+  index: -1
+effects/buff/buff2/buff2_002
+  rotate: false
+  xy: 416, 477
+  size: 123, 120
+  orig: 150, 150
+  offset: 9, 16
+  index: -1
+effects/buff/buff2/buff2_004
+  rotate: false
+  xy: 156, 170
+  size: 127, 120
+  orig: 150, 150
+  offset: 4, 15
+  index: -1
+effects/buff/buff2/buff2_006
+  rotate: false
+  xy: 153, 47
+  size: 125, 121
+  orig: 150, 150
+  offset: 2, 15
+  index: -1
+effects/buff/buff2/buff2_008
+  rotate: true
+  xy: 166, 711
+  size: 144, 125
+  orig: 150, 150
+  offset: 0, 14
+  index: -1
+effects/buff/buff2/buff2_010
+  rotate: false
+  xy: 875, 889
+  size: 146, 132
+  orig: 150, 150
+  offset: 1, 7
+  index: -1
+effects/buff/buff2/buff2_012
+  rotate: false
+  xy: 875, 755
+  size: 146, 132
+  orig: 150, 150
+  offset: 4, 8
+  index: -1
+effects/buff/buff2/buff2_014
+  rotate: false
+  xy: 293, 722
+  size: 144, 133
+  orig: 150, 150
+  offset: 4, 9
+  index: -1
+effects/buff/buff2/buff2_016
+  rotate: false
+  xy: 439, 720
+  size: 135, 135
+  orig: 150, 150
+  offset: 5, 8
+  index: -1
+effects/buff/buff2/buff2_018
+  rotate: false
+  xy: 576, 724
+  size: 125, 133
+  orig: 150, 150
+  offset: 13, 11
+  index: -1
+effects/buff/buff3/buff3_000
+  rotate: false
+  xy: 2, 176
+  size: 152, 153
+  orig: 186, 180
+  offset: 17, 24
+  index: -1
+effects/buff/buff3/buff3_002
+  rotate: true
+  xy: 2, 20
+  size: 154, 149
+  orig: 186, 180
+  offset: 16, 23
+  index: -1
+effects/buff/buff3/buff3_004
+  rotate: false
+  xy: 708, 860
+  size: 165, 161
+  orig: 186, 180
+  offset: 8, 10
+  index: -1
+effects/buff/buff3/buff3_006
+  rotate: false
+  xy: 362, 857
+  size: 173, 164
+  orig: 186, 180
+  offset: 8, 8
+  index: -1
+effects/buff/buff3/buff3_008
+  rotate: true
+  xy: 2, 496
+  size: 178, 158
+  orig: 186, 180
+  offset: 5, 14
+  index: -1
+effects/buff/buff3/buff3_010
+  rotate: false
+  xy: 182, 861
+  size: 178, 160
+  orig: 186, 180
+  offset: 7, 13
+  index: -1
+effects/buff/buff3/buff3_012
+  rotate: true
+  xy: 2, 676
+  size: 179, 162
+  orig: 186, 180
+  offset: 7, 12
+  index: -1
+effects/buff/buff3/buff3_014
+  rotate: false
+  xy: 2, 857
+  size: 178, 164
+  orig: 186, 180
+  offset: 8, 12
+  index: -1
+effects/buff/buff3/buff3_016
+  rotate: false
+  xy: 537, 859
+  size: 169, 162
+  orig: 186, 180
+  offset: 7, 15
+  index: -1
+effects/buff/buff3/buff3_018
+  rotate: true
+  xy: 2, 331
+  size: 163, 160
+  orig: 186, 180
+  offset: 13, 19
+  index: -1

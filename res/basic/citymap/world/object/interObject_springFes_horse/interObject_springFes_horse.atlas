@@ -1,0 +1,41 @@
+
+interObject_springFes_horse.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yym1
+  rotate: false
+  xy: 2, 73
+  size: 164, 135
+  orig: 164, 135
+  offset: 0, 0
+  index: -1
+yym2
+  rotate: false
+  xy: 2, 2
+  size: 145, 69
+  orig: 145, 69
+  offset: 0, 0
+  index: -1
+yym2_1
+  rotate: false
+  xy: 368, 169
+  size: 68, 39
+  orig: 68, 39
+  offset: 0, 0
+  index: -1
+yym2_2
+  rotate: false
+  xy: 168, 49
+  size: 145, 69
+  orig: 145, 69
+  offset: 0, 0
+  index: -1
+yym3
+  rotate: false
+  xy: 168, 120
+  size: 198, 88
+  orig: 198, 88
+  offset: 0, 0
+  index: -1

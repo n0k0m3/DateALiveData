@@ -694,11 +694,11 @@ function NewRoleShowView:initUnInfoExItem(item,idx, actionId)
     Label_lockDes:setFontSize(defaultFont)
 
     item.Button_c = Button_c
-    Button_c:onClick(function()
+    Button_c:onClick(function()	
         self:updateAllUnInfoItemsState(true)
         item.Button_c:timeOut(function()
-            self:updateAllUnInfoItemsState(false)
-        end,item.desTime)
+            self:updateAllUnInfoItemsState(false)			
+        end,item.desTime + 1.5)
 
         if self.model then
             if self.voiceHandle then
@@ -706,8 +706,18 @@ function NewRoleShowView:initUnInfoExItem(item,idx, actionId)
                 self.voiceHandle = nil
             end
 
-            local isPlayOk = self.model:newStartAction(data.action1, EC_PRIORITY.FORCE,nil,nil,nil,0,true)
+            local delayTime = 0
+			table.walk(data.lineStop, function(k,val)
+				delayTime = delayTime + val
+            end)
+            
+            local isPlayOk = self.model:newStartAction(data.action1, EC_PRIORITY.FORCE, delayTime, data.idleTo, data.idleToLoopDuration,0,true)
             if isPlayOk ~= -1  then
+            	self.roleAnimationEffect = self.roleAnimationEffect or {}
+				for k, v in pairs(self.roleAnimationEffect) do
+					v:removeFromParent()
+					self.roleAnimationEffect[k] = nil
+				end
                 self.model:showKanbanLines(data,ccp(360,100))
 				self:refreshAnimationEffect(data["kanbanEffect"])
 				self:refreshAnimationEffect(data["backgroundEffect"], true)
@@ -718,6 +728,7 @@ end
 
 function NewRoleShowView:initUnInfoItem(item,idx)
     local data = iTable[self.unInfoIdList[idx]]
+    item.data = data
     item.desTime = 0
     for i, v in ipairs(data.lineShow) do
         local time = data.lineStop[i]
@@ -745,7 +756,14 @@ function NewRoleShowView:initUnInfoItem(item,idx)
     Label_des:setFontSize(defaultFont)
     Label_lockDes:setFontSize(defaultFont)
 
-    if self.curRoleFavor >= data.favor and ishave then
+	local condition1 = data.idleFrom ~= "" and self.model and self.model:getIdleStatus() == data.idleFrom
+	local condition2 = data.idleFrom == ""
+    if self.curRoleFavor >= data.favor and ishave and (condition1 or condition2) then
+        Button_c:show()
+        Label_des:show()
+    elseif not condition1 then
+        Button_c:setGrayEnabled(true)
+        Button_c:setTouchEnabled(false)
         Button_c:show()
         Label_des:show()
     else
@@ -758,7 +776,7 @@ function NewRoleShowView:initUnInfoItem(item,idx)
         self:updateAllUnInfoItemsState(true)
         item.Button_c:timeOut(function()
             self:updateAllUnInfoItemsState(false)
-        end,item.desTime)
+        end,item.desTime + 1.5)
         if self.model then
             --兼容双人看板，只能点击好感等级低的
             local realFavorLv = RoleDataMgr:getRoleFavorLv(self.curId)
@@ -770,12 +788,22 @@ function NewRoleShowView:initUnInfoItem(item,idx)
                 TFAudio.stopEffect(self.voiceHandle)
                 self.voiceHandle = nil
             end
-            local live2dParts = self.model:parseKanBanInfo(self.model.modelId,data.favor)
-            local isPlayOk = self.model:newStartAction(live2dParts[data.position].action1, EC_PRIORITY.FORCE,nil,nil,nil,0,true)
+            
+            local delayTime = 0
+			table.walk(data.lineStop, function(k,val)
+				delayTime = delayTime + val
+            end)
+			
+            local isPlayOk = self.model:newStartAction(data.action1, EC_PRIORITY.FORCE,delayTime,data.idleTo, data.idleToLoopDuration,0,true)
             if isPlayOk ~= -1  then
-                self.model:showKanbanLines(live2dParts[data.position],ccp(360,100))
-				self:refreshAnimationEffect(live2dParts[data.position]["kanbanEffect"])
-				self:refreshAnimationEffect(live2dParts[data.position]["backgroundEffect"], true)
+            	self.roleAnimationEffect = self.roleAnimationEffect or {}
+				for k, v in pairs(self.roleAnimationEffect) do
+					v:removeFromParent()
+					self.roleAnimationEffect[k] = nil
+				end
+                self.model:showKanbanLines(data,ccp(360,100))
+				self:refreshAnimationEffect(data["kanbanEffect"])
+				self:refreshAnimationEffect(data["backgroundEffect"], true)
             end
         end
     end)
@@ -801,11 +829,7 @@ function NewRoleShowView:refreshAnimationEffect(effectIds, isBgEffect)
     else
         prefab = self.Spine_effectHB
     end
-	self.roleAnimationEffect = self.roleAnimationEffect or {}
-	for k, v in pairs(self.roleAnimationEffect) do
-		v:removeFromParent()
-		self.roleAnimationEffect[k] = nil
-	end
+	
     for k,effectId in pairs(effectIds) do
         local effect, cfg = Utils:createEffectByEffectId(effectId)
         if effect then			

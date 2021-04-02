@@ -45,7 +45,7 @@ function EndlessPauseView:initUI(ui)
     -- self.listView:setItemsMargin(0)
     local hero = battleController.getCaptain()
     if hero then 
-        local bufferEffects = hero:getBufferEffectMap()
+        local bufferEffects = hero:getEffectingBufferEffect()
         for i,bufferEffect in ipairs(bufferEffects) do
             local data = bufferEffect:getData()
             if data.duration ~= 0 and data.iconDisplay then 
@@ -91,7 +91,7 @@ function EndlessPauseView:createItem(effect)
         Label_num:hide()
     end
     if data.iconDes then 
-        Label_desc:setTextById(data.iconDes)
+        Label_desc:setText(data.iconDes)
     else
         Label_desc:setText("bufferEffect "..data.id.." 没有配置效果描述")
     end

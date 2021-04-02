@@ -1,0 +1,167 @@
+
+2021chunjie_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bao_00000
+  rotate: true
+  xy: 244, 350
+  size: 160, 159
+  orig: 263, 273
+  offset: 55, 59
+  index: -1
+images/bao_00001
+  rotate: false
+  xy: 498, 779
+  size: 233, 242
+  orig: 263, 273
+  offset: 18, 14
+  index: -1
+images/bao_00002
+  rotate: true
+  xy: 733, 567
+  size: 223, 228
+  orig: 263, 273
+  offset: 25, 27
+  index: -1
+images/bao_00003
+  rotate: false
+  xy: 2, 512
+  size: 249, 254
+  orig: 263, 273
+  offset: 10, 10
+  index: -1
+images/bao_00004
+  rotate: false
+  xy: 2, 768
+  size: 251, 253
+  orig: 263, 273
+  offset: 8, 10
+  index: -1
+images/bao_00005
+  rotate: false
+  xy: 2, 263
+  size: 240, 247
+  orig: 263, 273
+  offset: 14, 16
+  index: -1
+images/bao_00006
+  rotate: false
+  xy: 255, 771
+  size: 241, 250
+  orig: 263, 273
+  offset: 14, 16
+  index: -1
+images/bao_00007
+  rotate: false
+  xy: 2, 24
+  size: 231, 237
+  orig: 263, 273
+  offset: 20, 31
+  index: -1
+images/bao_00008
+  rotate: false
+  xy: 733, 792
+  size: 231, 229
+  orig: 263, 273
+  offset: 18, 37
+  index: -1
+images/bp
+  rotate: true
+  xy: 2, 10
+  size: 12, 36
+  orig: 28, 41
+  offset: 8, 2
+  index: -1
+images/g1
+  rotate: false
+  xy: 391, 529
+  size: 121, 121
+  orig: 128, 128
+  offset: 4, 3
+  index: -1
+images/rq_00000
+  rotate: true
+  xy: 638, 660
+  size: 117, 73
+  orig: 160, 137
+  offset: 3, 30
+  index: -1
+images/rq_00001
+  rotate: true
+  xy: 514, 545
+  size: 123, 111
+  orig: 160, 137
+  offset: 3, 13
+  index: -1
+images/rq_00002
+  rotate: true
+  xy: 384, 72
+  size: 137, 127
+  orig: 160, 137
+  offset: 5, 6
+  index: -1
+images/rq_00003
+  rotate: false
+  xy: 235, 73
+  size: 147, 136
+  orig: 160, 137
+  offset: 6, 1
+  index: -1
+images/rq_00004
+  rotate: false
+  xy: 244, 211
+  size: 150, 137
+  orig: 160, 137
+  offset: 7, 0
+  index: -1
+images/rq_00005
+  rotate: false
+  xy: 396, 211
+  size: 139, 137
+  orig: 160, 137
+  offset: 7, 0
+  index: -1
+images/rq_00006
+  rotate: false
+  xy: 255, 652
+  size: 136, 117
+  orig: 160, 137
+  offset: 10, 10
+  index: -1
+images/rq_00007
+  rotate: false
+  xy: 253, 540
+  size: 136, 110
+  orig: 160, 137
+  offset: 10, 9
+  index: -1
+images/rq_00009
+  rotate: true
+  xy: 513, 72
+  size: 137, 111
+  orig: 160, 137
+  offset: 8, 8
+  index: -1
+images/rq_00010
+  rotate: false
+  xy: 498, 670
+  size: 138, 107
+  orig: 160, 137
+  offset: 8, 11
+  index: -1
+images/rq_00012
+  rotate: false
+  xy: 235, 7
+  size: 127, 64
+  orig: 160, 137
+  offset: 18, 28
+  index: -1
+images/rq_00014
+  rotate: true
+  xy: 966, 919
+  size: 102, 55
+  orig: 160, 137
+  offset: 44, 31
+  index: -1

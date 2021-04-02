@@ -1,0 +1,186 @@
+
+effects_29012_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+XL/c/dian/dian_004
+  rotate: true
+  xy: 455, 271
+  size: 224, 194
+  orig: 260, 240
+  offset: 23, 19
+  index: -1
+XL/c/qi/c_001
+  rotate: false
+  xy: 651, 304
+  size: 360, 191
+  orig: 500, 300
+  offset: 72, 55
+  index: -1
+XL/c/qi/c_005
+  rotate: false
+  xy: 2, 2
+  size: 435, 258
+  orig: 500, 300
+  offset: 35, 21
+  index: -1
+XL/c/qi/c_009
+  rotate: false
+  xy: 2, 262
+  size: 451, 239
+  orig: 500, 300
+  offset: 22, 27
+  index: -1
+XL/c/qi/c_011
+  rotate: false
+  xy: 481, 497
+  size: 463, 260
+  orig: 500, 300
+  offset: 29, 19
+  index: -1
+XL/c/qi/c_013
+  rotate: false
+  xy: 2, 756
+  size: 477, 260
+  orig: 500, 300
+  offset: 23, 21
+  index: -1
+XL/c/qi/c_015
+  rotate: false
+  xy: 481, 759
+  size: 470, 257
+  orig: 500, 300
+  offset: 29, 21
+  index: -1
+XL/c/qi/c_017
+  rotate: false
+  xy: 2, 503
+  size: 453, 251
+  orig: 500, 300
+  offset: 22, 26
+  index: -1
+XL/c/qi/c_021
+  rotate: false
+  xy: 439, 2
+  size: 435, 258
+  orig: 500, 300
+  offset: 35, 21
+  index: -1
+
+effects_29012_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+XL/c/dian/dian_000
+  rotate: true
+  xy: 510, 8
+  size: 246, 191
+  orig: 260, 240
+  offset: 4, 23
+  index: -1
+XL/c/dian/dian_001
+  rotate: true
+  xy: 620, 507
+  size: 237, 197
+  orig: 260, 240
+  offset: 11, 18
+  index: -1
+XL/c/dian/dian_002
+  rotate: true
+  xy: 819, 510
+  size: 234, 192
+  orig: 260, 240
+  offset: 15, 19
+  index: -1
+XL/c/dian/dian_006
+  rotate: true
+  xy: 433, 506
+  size: 238, 185
+  orig: 260, 240
+  offset: 7, 31
+  index: -1
+XL/c/dian/dian_007
+  rotate: true
+  xy: 703, 9
+  size: 245, 200
+  orig: 260, 240
+  offset: 5, 18
+  index: -1
+XL/c/qi/c_003
+  rotate: false
+  xy: 452, 746
+  size: 442, 265
+  orig: 500, 300
+  offset: 32, 21
+  index: -1
+XL/c/qi/c_019
+  rotate: false
+  xy: 452, 746
+  size: 442, 265
+  orig: 500, 300
+  offset: 32, 21
+  index: -1
+XL/c/qi/c_007
+  rotate: false
+  xy: 2, 757
+  size: 448, 254
+  orig: 500, 300
+  offset: 25, 20
+  index: -1
+XL/c/qi/c_023
+  rotate: false
+  xy: 2, 504
+  size: 429, 251
+  orig: 500, 300
+  offset: 32, 17
+  index: -1
+XL/c/qi/c_025
+  rotate: true
+  xy: 2, 75
+  size: 427, 255
+  orig: 500, 300
+  offset: 32, 18
+  index: -1
+XL/c/qi/c_027
+  rotate: false
+  xy: 510, 256
+  size: 416, 248
+  orig: 500, 300
+  offset: 30, 22
+  index: -1
+XL/c/qi/c_029
+  rotate: true
+  xy: 259, 83
+  size: 419, 249
+  orig: 500, 300
+  offset: 40, 16
+  index: -1
+
+effects_29012_skillC3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+XL/c/dian/dian_003
+  rotate: false
+  xy: 2, 94
+  size: 234, 190
+  orig: 260, 240
+  offset: 15, 22
+  index: -1
+XL/c/dian/dian_005
+  rotate: false
+  xy: 245, 294
+  size: 234, 185
+  orig: 260, 240
+  offset: 17, 26
+  index: -1
+XL/c/dian/dian_008
+  rotate: false
+  xy: 2, 286
+  size: 241, 193
+  orig: 260, 240
+  offset: 8, 22
+  index: -1

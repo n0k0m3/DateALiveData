@@ -1,0 +1,223 @@
+
+effect_dicuo_bird.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+haoou/effects_mainInterface2-flyloop_0
+  rotate: false
+  xy: 29, 105
+  size: 24, 8
+  orig: 27, 14
+  offset: 1, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_30
+  rotate: false
+  xy: 29, 105
+  size: 24, 8
+  orig: 27, 14
+  offset: 1, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_1
+  rotate: false
+  xy: 2, 115
+  size: 25, 8
+  orig: 27, 14
+  offset: 0, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_10
+  rotate: false
+  xy: 80, 104
+  size: 22, 9
+  orig: 27, 14
+  offset: 2, 3
+  index: -1
+haoou/effects_mainInterface2-flyloop_11
+  rotate: true
+  xy: 12, 5
+  size: 23, 9
+  orig: 27, 14
+  offset: 1, 3
+  index: -1
+haoou/effects_mainInterface2-flyloop_12
+  rotate: true
+  xy: 2, 28
+  size: 24, 8
+  orig: 27, 14
+  offset: 1, 3
+  index: -1
+haoou/effects_mainInterface2-flyloop_13
+  rotate: true
+  xy: 2, 2
+  size: 24, 8
+  orig: 27, 14
+  offset: 1, 3
+  index: -1
+haoou/effects_mainInterface2-flyloop_14
+  rotate: false
+  xy: 2, 105
+  size: 25, 8
+  orig: 27, 14
+  offset: 0, 3
+  index: -1
+haoou/effects_mainInterface2-flyloop_15
+  rotate: false
+  xy: 29, 115
+  size: 25, 8
+  orig: 27, 14
+  offset: 0, 3
+  index: -1
+haoou/effects_mainInterface2-flyloop_16
+  rotate: false
+  xy: 2, 94
+  size: 24, 9
+  orig: 27, 14
+  offset: 1, 2
+  index: -1
+haoou/effects_mainInterface2-flyloop_17
+  rotate: false
+  xy: 78, 93
+  size: 22, 9
+  orig: 27, 14
+  offset: 2, 2
+  index: -1
+haoou/effects_mainInterface2-flyloop_18
+  rotate: true
+  xy: 33, 57
+  size: 21, 10
+  orig: 27, 14
+  offset: 3, 1
+  index: -1
+haoou/effects_mainInterface2-flyloop_19
+  rotate: false
+  xy: 2, 80
+  size: 21, 12
+  orig: 27, 14
+  offset: 3, 0
+  index: -1
+haoou/effects_mainInterface2-flyloop_2
+  rotate: false
+  xy: 56, 116
+  size: 25, 7
+  orig: 27, 14
+  offset: 0, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_20
+  rotate: false
+  xy: 25, 80
+  size: 19, 12
+  orig: 27, 14
+  offset: 4, 0
+  index: -1
+haoou/effects_mainInterface2-flyloop_21
+  rotate: false
+  xy: 46, 82
+  size: 19, 11
+  orig: 27, 14
+  offset: 4, 1
+  index: -1
+haoou/effects_mainInterface2-flyloop_22
+  rotate: true
+  xy: 34, 13
+  size: 19, 11
+  orig: 27, 14
+  offset: 4, 1
+  index: -1
+haoou/effects_mainInterface2-flyloop_23
+  rotate: true
+  xy: 109, 104
+  size: 19, 11
+  orig: 27, 14
+  offset: 4, 1
+  index: -1
+haoou/effects_mainInterface2-flyloop_24
+  rotate: false
+  xy: 102, 91
+  size: 19, 11
+  orig: 27, 14
+  offset: 4, 1
+  index: -1
+haoou/effects_mainInterface2-flyloop_25
+  rotate: false
+  xy: 46, 70
+  size: 19, 10
+  orig: 27, 14
+  offset: 4, 2
+  index: -1
+haoou/effects_mainInterface2-flyloop_26
+  rotate: true
+  xy: 33, 34
+  size: 21, 9
+  orig: 27, 14
+  offset: 3, 3
+  index: -1
+haoou/effects_mainInterface2-flyloop_27
+  rotate: true
+  xy: 23, 55
+  size: 23, 8
+  orig: 27, 14
+  offset: 2, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_28
+  rotate: true
+  xy: 23, 30
+  size: 23, 8
+  orig: 27, 14
+  offset: 2, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_29
+  rotate: false
+  xy: 83, 115
+  size: 24, 8
+  orig: 27, 14
+  offset: 1, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_3
+  rotate: false
+  xy: 28, 95
+  size: 24, 8
+  orig: 27, 14
+  offset: 1, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_4
+  rotate: true
+  xy: 2, 54
+  size: 24, 8
+  orig: 27, 14
+  offset: 1, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_5
+  rotate: true
+  xy: 12, 55
+  size: 23, 9
+  orig: 27, 14
+  offset: 1, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_6
+  rotate: true
+  xy: 12, 30
+  size: 23, 9
+  orig: 27, 14
+  offset: 1, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_7
+  rotate: true
+  xy: 23, 6
+  size: 22, 9
+  orig: 27, 14
+  offset: 2, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_8
+  rotate: false
+  xy: 56, 105
+  size: 22, 9
+  orig: 27, 14
+  offset: 2, 4
+  index: -1
+haoou/effects_mainInterface2-flyloop_9
+  rotate: false
+  xy: 54, 95
+  size: 22, 8
+  orig: 27, 14
+  offset: 2, 4
+  index: -1

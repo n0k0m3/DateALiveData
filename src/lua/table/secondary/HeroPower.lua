@@ -3,8 +3,11 @@ return {
         consumePrams = {
         },
         id = 1,
-        powerUI = 4,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 4,
+        specialEnergyName = 0,
         getType = 1,
         consumeType = 0,
         getPrams = {
@@ -21,8 +24,11 @@ return {
             [2] = 10000,
         },
         id = 2,
-        powerUI = 7,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 7,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 1,
         getPrams = {
@@ -37,8 +43,11 @@ return {
         consumePrams = {
         },
         id = 3,
-        powerUI = 5,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 5,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -51,8 +60,11 @@ return {
         consumePrams = {
         },
         id = 4,
-        powerUI = 6,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 6,
+        specialEnergyName = 0,
         getType = 2,
         consumeType = 0,
         getPrams = {
@@ -67,8 +79,11 @@ return {
         consumePrams = {
         },
         id = 5,
-        powerUI = 2,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 2,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -81,8 +96,11 @@ return {
         consumePrams = {
         },
         id = 6,
-        powerUI = 3,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 3,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -95,8 +113,11 @@ return {
         consumePrams = {
         },
         id = 7,
-        powerUI = 1,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -111,8 +132,11 @@ return {
             [2] = 10000,
         },
         id = 8,
-        powerUI = 8,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 8,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 1,
         getPrams = {
@@ -127,8 +151,11 @@ return {
         consumePrams = {
         },
         id = 9,
-        powerUI = 2,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 2,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -144,8 +171,11 @@ return {
             [3] = 5,
         },
         id = 10,
-        powerUI = 9,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 9,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 3,
         getPrams = {
@@ -160,8 +190,11 @@ return {
             [2] = 10000,
         },
         id = 11,
-        powerUI = 10,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 10,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 1,
         getPrams = {
@@ -176,8 +209,11 @@ return {
         consumePrams = {
         },
         id = 12,
-        powerUI = 1,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -190,8 +226,11 @@ return {
         consumePrams = {
         },
         id = 13,
-        powerUI = 11,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 11,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -204,8 +243,11 @@ return {
         consumePrams = {
         },
         id = 14,
-        powerUI = 2,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 2,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -218,8 +260,11 @@ return {
         consumePrams = {
         },
         id = 15,
-        powerUI = 12,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 12,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -232,8 +277,11 @@ return {
         consumePrams = {
         },
         id = 16,
-        powerUI = 13,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 13,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -246,8 +294,11 @@ return {
         consumePrams = {
         },
         id = 17,
-        powerUI = 5,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 5,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -260,8 +311,11 @@ return {
         consumePrams = {
         },
         id = 18,
-        powerUI = 5,
+        energyExchange = {
+        },
         specialEnergyUI = 1,
+        powerUI = 5,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -274,8 +328,11 @@ return {
         consumePrams = {
         },
         id = 19,
-        powerUI = 1,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -288,8 +345,11 @@ return {
         consumePrams = {
         },
         id = 20,
-        powerUI = 1,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
         getType = 3,
         consumeType = 0,
         getPrams = {
@@ -306,8 +366,11 @@ return {
             [2] = 10000,
         },
         id = 21,
-        powerUI = 14,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 14,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 1,
         getPrams = {
@@ -322,8 +385,11 @@ return {
         consumePrams = {
         },
         id = 22,
-        powerUI = 5,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 5,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -336,8 +402,11 @@ return {
         consumePrams = {
         },
         id = 23,
-        powerUI = 5,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 5,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -350,8 +419,11 @@ return {
         consumePrams = {
         },
         id = 24,
-        powerUI = 1,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
         getType = 3,
         consumeType = 0,
         getPrams = {
@@ -366,8 +438,11 @@ return {
         consumePrams = {
         },
         id = 25,
-        powerUI = 1,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
         getType = 3,
         consumeType = 0,
         getPrams = {
@@ -382,8 +457,11 @@ return {
         consumePrams = {
         },
         id = 26,
-        powerUI = 1,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
         getType = 3,
         consumeType = 0,
         getPrams = {
@@ -398,8 +476,11 @@ return {
         consumePrams = {
         },
         id = 27,
-        powerUI = 1,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -412,8 +493,11 @@ return {
         consumePrams = {
         },
         id = 28,
-        powerUI = 1,
+        energyExchange = {
+        },
         specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
         getType = 0,
         consumeType = 0,
         getPrams = {
@@ -421,5 +505,77 @@ return {
         triggerBuff = {
         },
         powerName = 2300121,
+    },
+    [29] = {
+        consumePrams = {
+        },
+        id = 29,
+        energyExchange = {
+            [1] = 0,
+            [2] = 63,
+        },
+        specialEnergyUI = 2,
+        powerUI = 1,
+        specialEnergyName = 2300122,
+        getType = 0,
+        consumeType = 0,
+        getPrams = {
+        },
+        triggerBuff = {
+        },
+        powerName = 2300112,
+    },
+    [30] = {
+        consumePrams = {
+        },
+        id = 30,
+        energyExchange = {
+        },
+        specialEnergyUI = 0,
+        powerUI = 4,
+        specialEnergyName = 0,
+        getType = 0,
+        consumeType = 0,
+        getPrams = {
+        },
+        triggerBuff = {
+        },
+        powerName = 2300123,
+    },
+    [31] = {
+        consumePrams = {
+        },
+        id = 31,
+        energyExchange = {
+        },
+        specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
+        getType = 0,
+        consumeType = 0,
+        getPrams = {
+        },
+        triggerBuff = {
+        },
+        powerName = 2300124,
+    },
+    [32] = {
+        consumePrams = {
+        },
+        id = 32,
+        energyExchange = {
+        },
+        specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
+        getType = 3,
+        consumeType = 0,
+        getPrams = {
+            [1] = 1000,
+            [2] = 3,
+        },
+        triggerBuff = {
+        },
+        powerName = 2300125,
     },
 }

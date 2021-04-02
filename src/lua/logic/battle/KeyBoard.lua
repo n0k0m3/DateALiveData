@@ -40,6 +40,9 @@ VKeyBind[eVKeyCode.SKILL_F]  = {bindPKeyCodes={ePKeyCode.U}, bindWidgetName ="F"
 VKeyBind[eVKeyCode.SKILL_G]  = {bindPKeyCodes={ePKeyCode.I}, bindWidgetName ="G"}
 VKeyBind[eVKeyCode.SKILL_H]  = {bindPKeyCodes={ePKeyCode.O}, bindWidgetName ="H"}
 VKeyBind[eVKeyCode.SKILL_I]  = {bindPKeyCodes={ePKeyCode.Y}, bindWidgetName ="I"}
+
+local VKeySubSkill = {}
+
 local function pGetAngle(self,other)
     local a2 = me.pNormalize(self)
     local b2 = me.pNormalize(other)
@@ -169,6 +172,7 @@ function KeyBoard:initUI(ui)
     EventMgr:addEventListener(self,eEvent.EVENT_CAPTAIN_CHANGE, handler(self.onCaptainChange,self))
     EventMgr:addEventListener(self,eEvent.EVENT_VKSTATE_CHANGE, handler(self.onVKStateChange,self))
     EventMgr:addEventListener(self,eEvent.EVENT_SKILLEX_REFRESH, handler(self.onSkillExChange,self))
+    EventMgr:addEventListener(self,eEvent.EVENT_SUB_SKILL_SHOW, handler(self.onSubSkillChange,self))
 
     self.panel_revive     = TFDirector:getChildByPath(self.panel_root, "Panel_revive"):hide()
     self.button_revive    = TFDirector:getChildByPath(self.panel_root, "Button_revive")
@@ -364,6 +368,56 @@ function KeyBoard:hideRevive()
     self.panel_ctrlpad:show()
 end
 
+function KeyBoard:doSubSkillAction(node,isShow)
+    if not node.showingState and not isShow then
+        return
+    end
+    node.showingState = isShow
+    node:stopAllActions()
+    if isShow then
+        node:setVisible(true)
+        node:setOpacity(0)
+        local actions = 
+        {
+            FadeTo:create(0.1,255)
+            ,
+            CallFunc:create(function()
+                
+            end)
+        }
+        node:runAction(Sequence:create(actions))
+    else
+        if node:isVisible() then
+            node:setVisible(true)
+            node:setOpacity(255)
+            local actions = 
+            {
+                FadeTo:create(0.1,1)
+                ,
+                CallFunc:create(function()
+                    node:setVisible(false)
+                end)
+            }
+            node:runAction(Sequence:create(actions))
+        end
+    end
+end
+
+function KeyBoard:onSubSkillChange(skill)
+    if not skill:isVisiable() then 
+        return
+    end
+    local keyNode = self.vKeyNodes[skill:getKeyCode()]
+    if not keyNode.Panel_sub_skill then
+        return
+    end
+    if keyNode.Panel_sub_skill:isVisible() then
+        self:doSubSkillAction(keyNode.Panel_sub_skill, false)
+    else
+        self:doSubSkillAction(keyNode.Panel_sub_skill, true)
+    end
+end
+
 function KeyBoard:onVKStateChange(skill,flag)
     if flag then
         self:onCaptainChange()
@@ -448,7 +502,7 @@ function KeyBoard:onVKStateChange(skill,flag)
                 keyNode:setTouchEnabled(false)
             end
             if keyNode.consume then
-                keyNode.consume:setActive(bEnoughEnergy)
+                keyNode.consume:setActive(bEnoughEnergy,skill:getCostEnergyShow())
             end
 
             if keyNode.cacheTimes then
@@ -544,6 +598,23 @@ function KeyBoard:onCaptainChange()
                         keyNode.exchange:setVisible(false)
                     end
                 end
+                --子技能按钮
+                VKeySubSkill[keyCode] = false
+                if keyNode.Panel_sub_skill then
+                    for i=1,3 do
+                        local subSkill = skill:getData().skillSubclasses[i]
+                        if subSkill then
+                            VKeySubSkill[keyCode] = true
+                            keyNode["Image_sub_icon"..i]:setVisible(true)
+                            keyNode["Image_sub_skillbg_"..i]:setVisible(false)
+                            keyNode["Image_sub_icon"..i]:setTexture(skill:getData().subclassesPicture[i] or "")
+                        else
+                            keyNode["Image_sub_icon"..i]:setVisible(false)
+                            keyNode["Image_sub_skillbg_"..i]:setVisible(false)
+                        end
+                    end
+                end
+
                 if keyNode.cdTime then
                     local cdTime = skill:getCDTime()
                     cdTime = math.ceil(cdTime*0.001)
@@ -568,9 +639,10 @@ function KeyBoard:onCaptainChange()
                     keyNode:setTouchEnabled(false)
                 end
                 if keyNode.consume then
-                    keyNode.consume:setText(tostring(skill:getCostEnergyShow()))
-                    keyNode.consume:setVisible(skill:getCostEnergyShow() > 0)
-                    keyNode.consume:setActive(bEnoughEnergy)
+                    local costValue = skill:getCostEnergyShow()
+                    keyNode.consume:setText(tostring(math.abs(costValue)))
+                    keyNode.consume:setVisible(costValue ~= 0)
+                    keyNode.consume:setActive(bEnoughEnergy,costValue)
                 end
 
                 if keyNode.cacheTimes then
@@ -592,8 +664,14 @@ function KeyBoard:onCaptainChange()
                 end
             end
         end
+        if battleController.useCustomAttrModle() then
+            dibanType = 3
+        end
         if dibanType == 2 then 
             self.skillKeyBG_B:show()
+            self.skillKeyBG_A:hide()
+        elseif dibanType == 3 then 
+            self.skillKeyBG_B:hide()
             self.skillKeyBG_A:hide()
         else
             self.skillKeyBG_B:hide()
@@ -722,6 +800,9 @@ local function bindFunc(node)
         if node.mask then
             node.mask:setVisible(not enabled)
         end
+        if node.Panel_sub_skill and not enabled and node.Panel_sub_skill:isVisible() then
+            KeyBoard:doSubSkillAction(node.Panel_sub_skill, false)
+        end
         if node.effect then
             node.effect:setVisible(enabled)
             if enabled and node._bTouchEnabled ~= enabled then
@@ -793,6 +874,7 @@ function KeyBoard:registerEvents()
             vKeyNode.consume      = vKeyNode:getChildByName("Label_sp")
             vKeyNode.cdTime       = vKeyNode:getChildByName("Label_cdTime")
             vKeyNode.cacheTimes   = vKeyNode:getChildByName("Label_cacheTimes")
+            vKeyNode.Panel_sub_skill   = vKeyNode:getChildByName("Panel_sub_skill")
             if vKeyNode.cacheTimes then
                 vKeyNode.cacheTimes:hide()
             end
@@ -803,12 +885,25 @@ function KeyBoard:registerEvents()
             if vKeyNode.mask then
                 vKeyNode.mask:hide()
             end
+            if vKeyNode.Panel_sub_skill then
+                for i=1,3 do
+                    vKeyNode["Image_sub_skillbg_"..i]   = vKeyNode:getChildByName("Image_sub_skillbg_"..i)
+                    vKeyNode["Image_sub_icon"..i]   = vKeyNode:getChildByName("Image_sub_icon"..i)
+                    vKeyNode["Panel_sub_rect"..i]   = vKeyNode:getChildByName("Panel_sub_rect"..i)
+                end
+
+                vKeyNode.Panel_sub_skill:setVisible(false)
+            end
             if vKeyNode.consume then
                  vKeyNode.consume:setSkewX(15)
-                vKeyNode.consume.setActive = function(self , active)
+                vKeyNode.consume.setActive = function(self , active, value)
                     if active then
                         self:setFontColor(me.WHITE)
-                        self:enableStroke(ccc3(0xfd,0x38,0x70),1)
+                        if value > 0 then
+                            self:enableStroke(ccc3(0xfd,0x38,0x70),1)
+                        else
+                            self:enableStroke(ccc3(18,32,136),1)         
+                        end
                     else
                         self:setFontColor(me.BLACK)
                         self:enableStroke(ccc3(0x22,0x26,0x2d),1)
@@ -816,7 +911,7 @@ function KeyBoard:registerEvents()
                         -- self:enableStroke(ccc3(0xfd,0x38,0x70),1)
                     end
                 end
-                vKeyNode.consume:setActive(true)
+                vKeyNode.consume:setActive(true,0)
             end
             bindFunc(vKeyNode)
             vKeyNode:setTouchEnabled(false)
@@ -844,8 +939,13 @@ function KeyBoard:registerVKeyEvent(vKeyNode,vKeyCode)
         local target = event.target
         if name == "began" then
            -- vKeyNode:setHighLightEnabled(true,true)
+           local startpos = target:getTouchStartPos()
            self:doKeyPressed(vKeyCode)
+        elseif event.name == "moved" then
+            local movepos = target:getTouchMovePos()
+            self:doKeyMoved(vKeyCode,movepos)
         elseif name == "ended" then
+            local endtpos = target:getTouchEndPos()
            -- vKeyNode:setHighLightEnabled(false,true)
            self:doKeyReleased(vKeyCode)
         end
@@ -858,16 +958,60 @@ end
 ----------------------------长按事件
 
 function KeyBoard:doKeyPressed(keyCode)
+    if VKeySubSkill[keyCode] then
+        local vKeyNode = self.vKeyNodes[keyCode]
+        vKeyNode.selectSubIdx = 0
+        if vKeyNode.Panel_sub_skill then
+            self:doSubSkillAction(vKeyNode.Panel_sub_skill, true)
+        end
+        return
+    end
+    
     KeyStateMgr.doKeyPressed(keyCode)
     self:startTimer(keyCode)
 end
 
+function KeyBoard:doKeyMoved(keyCode,movepos)
+    if VKeySubSkill[keyCode] then
+        local vKeyNode = self.vKeyNodes[keyCode]
+        if vKeyNode and vKeyNode.Panel_sub_skill then
+            vKeyNode.selectSubIdx = 0
+            movepos = vKeyNode.Panel_sub_skill:convertToNodeSpace(movepos)
+            for i=1,3 do
+                vKeyNode["Image_sub_skillbg_"..i]:setVisible(false)
+                if vKeyNode["Image_sub_icon"..i]:isVisible() then
+                    local rect = vKeyNode["Image_sub_icon"..i]:boundingBox()
+                    if me.rectContainsPoint(rect,movepos) then
+                        vKeyNode.selectSubIdx = i
+                        vKeyNode["Image_sub_skillbg_"..i]:setVisible(true)
+                    end 
+                end
+            end
+        end
+        return
+    end
+end
+
 function KeyBoard:doKeyReleased(keyCode)
+    if VKeySubSkill[keyCode] then
+        local vKeyNode = self.vKeyNodes[keyCode]
+        if vKeyNode.selectSubIdx and vKeyNode.selectSubIdx > 0 then
+            KeyStateMgr.doKeyPressed(keyCode,vKeyNode.selectSubIdx)
+        end
+        vKeyNode.selectSubIdx = 0
+        if vKeyNode.Panel_sub_skill then
+            self:doSubSkillAction(vKeyNode.Panel_sub_skill, false)
+        end
+        return
+    end
     KeyStateMgr.doKeyReleased(keyCode)
     self:stopTimer()
 end
 --按键长按
 function KeyBoard:doKeyDoing(keyCode)
+    if VKeySubSkill[keyCode] then
+        return
+    end
     KeyStateMgr.doKeyDoing(keyCode)
 end
 

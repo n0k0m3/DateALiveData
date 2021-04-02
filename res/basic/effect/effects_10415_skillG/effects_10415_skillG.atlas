@@ -1,0 +1,139 @@
+
+effects_10415_skillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow
+  rotate: false
+  xy: 931, 931
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+effectsY/skillG/boom/boom_001
+  rotate: true
+  xy: 369, 462
+  size: 122, 102
+  orig: 140, 280
+  offset: 8, 3
+  index: -1
+effectsY/skillG/boom/boom_003
+  rotate: false
+  xy: 2, 737
+  size: 103, 264
+  orig: 140, 280
+  offset: 14, 16
+  index: -1
+effectsY/skillG/boom/boom_005
+  rotate: false
+  xy: 223, 571
+  size: 123, 201
+  orig: 140, 280
+  offset: 10, 34
+  index: -1
+effectsY/skillG/boom/boom_007
+  rotate: false
+  xy: 571, 788
+  size: 127, 213
+  orig: 140, 280
+  offset: 9, 33
+  index: -1
+effectsY/skillG/boom/boom_009
+  rotate: false
+  xy: 348, 586
+  size: 132, 191
+  orig: 140, 280
+  offset: 6, 24
+  index: -1
+effectsY/skillG/boom/boom_011
+  rotate: false
+  xy: 235, 388
+  size: 132, 181
+  orig: 140, 280
+  offset: 4, 26
+  index: -1
+effectsY/skillG/boom/boom_013
+  rotate: false
+  xy: 482, 595
+  size: 121, 182
+  orig: 140, 280
+  offset: 9, 27
+  index: -1
+effectsY/skillG/boom/boom_015
+  rotate: false
+  xy: 111, 356
+  size: 122, 186
+  orig: 140, 280
+  offset: 10, 31
+  index: -1
+effectsY/skillG/buff/buff_000
+  rotate: false
+  xy: 339, 779
+  size: 230, 109
+  orig: 231, 126
+  offset: 0, 11
+  index: -1
+effectsY/skillG/buff/buff_002
+  rotate: false
+  xy: 700, 785
+  size: 229, 105
+  orig: 231, 126
+  offset: 1, 11
+  index: -1
+effectsY/skillG/buff/buff_004
+  rotate: false
+  xy: 700, 892
+  size: 229, 109
+  orig: 231, 126
+  offset: 2, 8
+  index: -1
+effectsY/skillG/buff/buff_006
+  rotate: false
+  xy: 107, 774
+  size: 230, 112
+  orig: 231, 126
+  offset: 1, 4
+  index: -1
+effectsY/skillG/buff/buff_008
+  rotate: true
+  xy: 2, 505
+  size: 230, 107
+  orig: 231, 126
+  offset: 1, 6
+  index: -1
+effectsY/skillG/buff/buff_010
+  rotate: true
+  xy: 2, 274
+  size: 229, 107
+  orig: 231, 126
+  offset: 1, 9
+  index: -1
+effectsY/skillG/buff/buff_012
+  rotate: true
+  xy: 2, 43
+  size: 229, 106
+  orig: 231, 126
+  offset: 0, 12
+  index: -1
+effectsY/skillG/buff/buff_014
+  rotate: true
+  xy: 111, 544
+  size: 228, 110
+  orig: 231, 126
+  offset: 0, 10
+  index: -1
+effectsY/skillG/buff/buff_016
+  rotate: false
+  xy: 107, 888
+  size: 230, 113
+  orig: 231, 126
+  offset: 0, 11
+  index: -1
+effectsY/skillG/buff/buff_018
+  rotate: false
+  xy: 339, 890
+  size: 230, 111
+  orig: 231, 126
+  offset: 0, 12
+  index: -1

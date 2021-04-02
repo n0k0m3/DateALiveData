@@ -1,0 +1,138 @@
+
+fight_29010.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiao1
+  rotate: true
+  xy: 2, 19
+  size: 117, 248
+  orig: 117, 248
+  offset: 0, 0
+  index: -1
+jiao1-1
+  rotate: true
+  xy: 311, 143
+  size: 154, 239
+  orig: 154, 239
+  offset: 0, 0
+  index: -1
+jiao2
+  rotate: true
+  xy: 717, 302
+  size: 104, 201
+  orig: 104, 201
+  offset: 0, 0
+  index: -1
+jiao2-1
+  rotate: false
+  xy: 803, 781
+  size: 130, 235
+  orig: 130, 235
+  offset: 0, 0
+  index: -1
+jiao3
+  rotate: true
+  xy: 803, 673
+  size: 106, 213
+  orig: 106, 213
+  offset: 0, 0
+  index: -1
+jiao3-1
+  rotate: false
+  xy: 717, 408
+  size: 129, 235
+  orig: 129, 235
+  offset: 0, 0
+  index: -1
+jiao4
+  rotate: false
+  xy: 742, 201
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+shenti2
+  rotate: false
+  xy: 2, 299
+  size: 713, 717
+  orig: 713, 717
+  offset: 0, 0
+  index: -1
+shenti3
+  rotate: false
+  xy: 252, 81
+  size: 25, 55
+  orig: 25, 55
+  offset: 0, 0
+  index: -1
+shenti4
+  rotate: false
+  xy: 844, 204
+  size: 61, 96
+  orig: 61, 96
+  offset: 0, 0
+  index: -1
+shenti5
+  rotate: true
+  xy: 848, 426
+  size: 66, 103
+  orig: 66, 103
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: false
+  xy: 987, 527
+  size: 27, 144
+  orig: 27, 144
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: true
+  xy: 935, 797
+  size: 219, 68
+  orig: 219, 68
+  offset: 0, 0
+  index: -1
+tou3
+  rotate: true
+  xy: 717, 645
+  size: 371, 84
+  orig: 371, 84
+  offset: 0, 0
+  index: -1
+tou4
+  rotate: false
+  xy: 2, 138
+  size: 307, 159
+  orig: 307, 159
+  offset: 0, 0
+  index: -1
+tui1
+  rotate: true
+  xy: 848, 494
+  size: 177, 137
+  orig: 177, 137
+  offset: 0, 0
+  index: -1
+tui2
+  rotate: false
+  xy: 552, 151
+  size: 188, 146
+  orig: 188, 146
+  offset: 0, 0
+  index: -1
+
+fight_290102.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti1
+  rotate: false
+  xy: 2, 73
+  size: 436, 365
+  orig: 436, 365
+  offset: 0, 0
+  index: -1

@@ -880,25 +880,52 @@ function Actor:playAni(action, loop, completeCallback,realAction)
     self.animation = action --记录程序定义动作名称
     self.loop = loop
     self.hero:setRoleAction(nil)
+    local transit
+    local transitAction
     if not realAction then
         local data = self.hero:getRoleAction(action)
         if data then
             action = data.realAction
-            --save current roleAction
+            transit = data.transit
             self.hero:setRoleAction(data)
+        end
+    end
+    if self.lastAction and transit and #transit >= 2 then
+        for i=1, #transit, 2 do
+            if transit[i] == self.lastAction then
+                transitAction = transit[i + 1] or nil
+                break
+            end
         end
     end
     loop = not (not loop)
     local l = loop and 1 or 0
-    self.skeletonNode:play(action, l)
-    if completeCallback and l == 0 then
+    if transitAction then
+        self.skeletonNode:play(transitAction, 0)
         self.skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(skeletonNode)
-                skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
-                    completeCallback(skeletonNode)
-                end)
+            skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+                self.skeletonNode:play(action, l)
+                if completeCallback and l == 0 then
+                    self.skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(skeletonNode)
+                        skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+                            completeCallback(skeletonNode)
+                        end)
+                end
+            end)
     else
-        self.skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+        self.skeletonNode:play(action, l)
+        if completeCallback and l == 0 then
+            self.skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(skeletonNode)
+                    skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+                        completeCallback(skeletonNode)
+                    end)
+        else
+            self.skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+        end
     end
+    
+    
+    self.lastAction = self.animation
     --切换动画 清零
     self.eventsIndex = {}
     self.bFix = false

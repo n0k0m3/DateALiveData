@@ -1,0 +1,83 @@
+
+effects_29010_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JB/b/boom/boom_001
+  rotate: false
+  xy: 2, 92
+  size: 335, 264
+  orig: 400, 300
+  offset: 45, 34
+  index: -1
+JB/b/boom/boom_003
+  rotate: false
+  xy: 2, 358
+  size: 344, 267
+  orig: 400, 300
+  offset: 40, 31
+  index: -1
+JB/b/boom/boom_005
+  rotate: true
+  xy: 788, 684
+  size: 338, 233
+  orig: 400, 300
+  offset: 34, 29
+  index: -1
+JB/b/boom/boom_007
+  rotate: false
+  xy: 348, 430
+  size: 356, 195
+  orig: 400, 300
+  offset: 25, 45
+  index: -1
+JB/b/boom/boom_009
+  rotate: false
+  xy: 339, 104
+  size: 343, 176
+  orig: 400, 300
+  offset: 30, 44
+  index: -1
+JB/b/boom/boom_011
+  rotate: false
+  xy: 348, 282
+  size: 347, 146
+  orig: 400, 300
+  offset: 26, 44
+  index: -1
+JB/b/boom/boom_013
+  rotate: true
+  xy: 706, 282
+  size: 343, 141
+  orig: 400, 300
+  offset: 25, 47
+  index: -1
+JB/b/boom/boom_015
+  rotate: false
+  xy: 2, 3
+  size: 334, 87
+  orig: 400, 300
+  offset: 26, 50
+  index: -1
+JB/b/dilie_000
+  rotate: false
+  xy: 339, 4
+  size: 300, 98
+  orig: 300, 100
+  offset: 0, 1
+  index: -1
+JB/glow_000
+  rotate: false
+  xy: 641, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+dilei
+  rotate: false
+  xy: 2, 627
+  size: 784, 395
+  orig: 788, 399
+  offset: 2, 2
+  index: -1

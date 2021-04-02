@@ -1,0 +1,118 @@
+
+effects_12201_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effetc/quickmove/add/add_00001
+  rotate: false
+  xy: 2, 705
+  size: 307, 74
+  orig: 315, 105
+  offset: 0, 16
+  index: -1
+images/effetc/quickmove/add/add_00003
+  rotate: false
+  xy: 2, 598
+  size: 268, 105
+  orig: 315, 105
+  offset: 17, 0
+  index: -1
+images/effetc/quickmove/add/add_00005
+  rotate: false
+  xy: 2, 384
+  size: 261, 105
+  orig: 315, 105
+  offset: 26, 0
+  index: -1
+images/effetc/quickmove/add/add_00007
+  rotate: false
+  xy: 2, 491
+  size: 267, 105
+  orig: 315, 105
+  offset: 20, 0
+  index: -1
+images/effetc/quickmove/add/add_00009
+  rotate: false
+  xy: 2, 300
+  size: 246, 82
+  orig: 315, 105
+  offset: 27, 15
+  index: -1
+images/effetc/quickmove/add/add_00011
+  rotate: false
+  xy: 2, 45
+  size: 158, 42
+  orig: 315, 105
+  offset: 46, 29
+  index: -1
+images/effetc/quickmove/canying_add1_00000
+  rotate: false
+  xy: 2, 89
+  size: 140, 134
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+images/effetc/quickmove/canying_add_00001
+  rotate: true
+  xy: 144, 96
+  size: 127, 112
+  orig: 140, 140
+  offset: 1, 12
+  index: -1
+images/effetc/quickmove/canying_nor00001
+  rotate: true
+  xy: 901, 888
+  size: 127, 114
+  orig: 140, 140
+  offset: 1, 11
+  index: -1
+images/effetc/quickmove/guangxian
+  rotate: false
+  xy: 2, 225
+  size: 242, 73
+  orig: 280, 210
+  offset: 19, 68
+  index: -1
+images/effetc/quickmove/nor/nor_00000
+  rotate: false
+  xy: 2, 875
+  size: 315, 140
+  orig: 350, 140
+  offset: 25, 0
+  index: -1
+images/effetc/quickmove/nor/nor_00002
+  rotate: false
+  xy: 2, 781
+  size: 312, 92
+  orig: 350, 140
+  offset: 32, 25
+  index: -1
+images/effetc/quickmove/nor/nor_00004
+  rotate: false
+  xy: 319, 940
+  size: 315, 75
+  orig: 350, 140
+  offset: 32, 28
+  index: -1
+images/effetc/quickmove/nor/nor_00006
+  rotate: false
+  xy: 319, 881
+  size: 264, 57
+  orig: 350, 140
+  offset: 59, 40
+  index: -1
+images/effetc/quickmove/nor/nor_00007
+  rotate: false
+  xy: 636, 959
+  size: 263, 56
+  orig: 350, 140
+  offset: 59, 40
+  index: -1
+images/effetc/quickmove/nor/nor_00008
+  rotate: false
+  xy: 636, 901
+  size: 181, 56
+  orig: 350, 140
+  offset: 105, 40
+  index: -1

@@ -1,0 +1,117 @@
+
+zhadan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/BOOM_002
+  rotate: true
+  xy: 372, 238
+  size: 396, 327
+  orig: 400, 400
+  offset: 2, 39
+  index: -1
+effect/BOOM_004
+  rotate: true
+  xy: 2, 241
+  size: 393, 368
+  orig: 400, 400
+  offset: 2, 27
+  index: -1
+effect/BOOM_006
+  rotate: false
+  xy: 387, 649
+  size: 369, 370
+  orig: 400, 400
+  offset: 2, 24
+  index: -1
+effect/BOOM_012
+  rotate: true
+  xy: 701, 271
+  size: 376, 315
+  orig: 400, 400
+  offset: 3, 34
+  index: -1
+effect/BOOM_016
+  rotate: true
+  xy: 758, 738
+  size: 281, 261
+  orig: 400, 400
+  offset: 49, 65
+  index: -1
+effect/BOOM_018
+  rotate: false
+  xy: 2, 26
+  size: 230, 213
+  orig: 400, 400
+  offset: 72, 87
+  index: -1
+huohua1
+  rotate: false
+  xy: 234, 39
+  size: 206, 197
+  orig: 208, 199
+  offset: 1, 1
+  index: -1
+huohua2
+  rotate: false
+  xy: 701, 25
+  size: 262, 244
+  orig: 264, 246
+  offset: 1, 1
+  index: -1
+lei
+  rotate: false
+  xy: 2, 636
+  size: 383, 383
+  orig: 385, 385
+  offset: 1, 1
+  index: -1
+yinxian
+  rotate: false
+  xy: 442, 71
+  size: 209, 165
+  orig: 211, 167
+  offset: 1, 1
+  index: -1
+
+zhadan2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/BOOM_000
+  rotate: false
+  xy: 2, 2
+  size: 288, 287
+  orig: 400, 400
+  offset: 54, 48
+  index: -1
+effect/BOOM_008
+  rotate: false
+  xy: 2, 291
+  size: 370, 315
+  orig: 400, 400
+  offset: 5, 41
+  index: -1
+effect/BOOM_010
+  rotate: false
+  xy: 2, 608
+  size: 375, 313
+  orig: 400, 400
+  offset: 3, 37
+  index: -1
+effect/BOOM_014
+  rotate: false
+  xy: 379, 612
+  size: 371, 309
+  orig: 400, 400
+  offset: 6, 36
+  index: -1
+lei1
+  rotate: false
+  xy: 752, 807
+  size: 115, 114
+  orig: 117, 116
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,249 @@
+
+effects_13201_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillF/baodian/baodian_000
+  rotate: false
+  xy: 404, 702
+  size: 396, 320
+  orig: 400, 320
+  offset: 2, 0
+  index: -1
+images/effects/skillF/baodian/baodian_001
+  rotate: false
+  xy: 2, 702
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+images/effects/skillF/baodian/baodian_003
+  rotate: false
+  xy: 2, 380
+  size: 400, 320
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+images/effects/skillF/baodian/baodian_005
+  rotate: false
+  xy: 2, 66
+  size: 400, 312
+  orig: 400, 320
+  offset: 0, 0
+  index: -1
+images/effects/skillF/baodian/baodian_007
+  rotate: true
+  xy: 404, 300
+  size: 400, 301
+  orig: 400, 320
+  offset: 0, 5
+  index: -1
+images/effects/skillF/baodian/baodian_011
+  rotate: true
+  xy: 802, 677
+  size: 345, 195
+  orig: 400, 320
+  offset: 24, 62
+  index: -1
+images/effects/skillF/dao/dao_020
+  rotate: true
+  xy: 707, 306
+  size: 369, 160
+  orig: 400, 240
+  offset: 29, 30
+  index: -1
+images/effects/skillF/dao/dao_022
+  rotate: true
+  xy: 869, 334
+  size: 341, 147
+  orig: 400, 240
+  offset: 44, 39
+  index: -1
+images/effects/skillF/dao/dao_029
+  rotate: false
+  xy: 736, 196
+  size: 286, 108
+  orig: 400, 240
+  offset: 85, 61
+  index: -1
+images/effects/skillF/xialuo/xialuo_002
+  rotate: true
+  xy: 736, 29
+  size: 165, 273
+  orig: 400, 400
+  offset: 133, 99
+  index: -1
+images/effects/skillF/xialuo/xialuo_010
+  rotate: true
+  xy: 404, 104
+  size: 194, 330
+  orig: 400, 400
+  offset: 106, 42
+  index: -1
+images/effects/skillF/xialuo/xialuo_018
+  rotate: true
+  xy: 404, 28
+  size: 74, 326
+  orig: 400, 400
+  offset: 149, 45
+  index: -1
+
+effects_13201_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/glow_002
+  rotate: false
+  xy: 747, 38
+  size: 173, 172
+  orig: 210, 203
+  offset: 19, 17
+  index: -1
+images/effects/skillA/guangxian_002
+  rotate: true
+  xy: 736, 282
+  size: 224, 88
+  orig: 255, 149
+  offset: 17, 27
+  index: -1
+images/effects/skillF/baodian/baodian_009
+  rotate: false
+  xy: 2, 832
+  size: 400, 190
+  orig: 400, 320
+  offset: 0, 64
+  index: -1
+images/effects/skillF/baodian/baodian_013
+  rotate: false
+  xy: 799, 860
+  size: 188, 162
+  orig: 400, 320
+  offset: 101, 76
+  index: -1
+images/effects/skillF/baodian/baodian_015
+  rotate: false
+  xy: 330, 2
+  size: 177, 152
+  orig: 400, 320
+  offset: 103, 80
+  index: -1
+images/effects/skillF/dao/dao_010
+  rotate: true
+  xy: 826, 212
+  size: 304, 126
+  orig: 400, 240
+  offset: 5, 88
+  index: -1
+images/effects/skillF/dao/dao_012
+  rotate: false
+  xy: 404, 838
+  size: 393, 184
+  orig: 400, 240
+  offset: 0, 29
+  index: -1
+images/effects/skillF/dao/dao_014
+  rotate: false
+  xy: 2, 652
+  size: 400, 178
+  orig: 400, 240
+  offset: 0, 29
+  index: -1
+images/effects/skillF/dao/dao_016
+  rotate: false
+  xy: 2, 481
+  size: 400, 169
+  orig: 400, 240
+  offset: 0, 29
+  index: -1
+images/effects/skillF/dao/dao_018
+  rotate: false
+  xy: 2, 317
+  size: 400, 162
+  orig: 400, 240
+  offset: 0, 29
+  index: -1
+images/effects/skillF/dao/dao_025
+  rotate: true
+  xy: 785, 518
+  size: 318, 128
+  orig: 400, 240
+  offset: 54, 50
+  index: -1
+images/effects/skillF/dao/dao_031
+  rotate: true
+  xy: 915, 607
+  size: 251, 103
+  orig: 400, 240
+  offset: 118, 63
+  index: -1
+images/effects/skillF/ren_000
+  rotate: false
+  xy: 922, 16
+  size: 94, 194
+  orig: 148, 236
+  offset: 30, 16
+  index: -1
+images/effects/skillF/renglow_000
+  rotate: true
+  xy: 509, 6
+  size: 148, 236
+  orig: 148, 236
+  offset: 0, 0
+  index: -1
+images/effects/skillF/xialuo/xialuo_004
+  rotate: true
+  xy: 2, 126
+  size: 189, 326
+  orig: 400, 400
+  offset: 109, 46
+  index: -1
+images/effects/skillF/xialuo/xialuo_006
+  rotate: false
+  xy: 596, 508
+  size: 187, 328
+  orig: 400, 400
+  offset: 110, 44
+  index: -1
+images/effects/skillF/xialuo/xialuo_008
+  rotate: false
+  xy: 404, 506
+  size: 190, 330
+  orig: 400, 400
+  offset: 109, 42
+  index: -1
+images/effects/skillF/xialuo/xialuo_012
+  rotate: true
+  xy: 404, 319
+  size: 185, 330
+  orig: 400, 400
+  offset: 106, 42
+  index: -1
+images/effects/skillF/xialuo/xialuo_014
+  rotate: true
+  xy: 404, 156
+  size: 161, 318
+  orig: 400, 400
+  offset: 114, 53
+  index: -1
+images/effects/skillF/xialuo/xialuo_016
+  rotate: true
+  xy: 2, 3
+  size: 121, 312
+  orig: 400, 400
+  offset: 133, 54
+  index: -1
+
+effects_13201_skillF3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillF/dao/dao_027
+  rotate: false
+  xy: 2, 190
+  size: 305, 117
+  orig: 400, 240
+  offset: 67, 55
+  index: -1

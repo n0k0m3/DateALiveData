@@ -167,11 +167,53 @@ return {
         particleEffectOffset = {
         },
     },
+    [1108071] = {
+        images = "icon/role/roleSkin/10807.png",
+        teamModelPos = {
+            y = -320,
+            x = -35,
+        },
+        teamModelScale = 0.5,
+        TeampaintPosition = {
+            y = -30,
+            x = 0,
+        },
+        huntingModelPos = {
+            y = -340,
+            x = -35,
+        },
+        paint = "modle/hero/paintshow_10807/paintshow_10807",
+        battleEndYingziPos = {
+            y = 0,
+            x = 0,
+        },
+        id = 1108071,
+        particleEffect = {
+        },
+        TeampaintSize = 0.3,
+        paintPosition = {
+            y = -680,
+            x = 110,
+        },
+        paintSize = 0.9,
+        paintDetailPosition = {
+            y = 0,
+            x = -40,
+        },
+        battleEndPosition = {
+            y = -75,
+            x = 0,
+        },
+        battleEndSize = 1.1,
+        paintDetailSize = 0.49,
+        particleEffectOffset = {
+        },
+    },
     [1128011] = {
-        images = "icon/role/roleSkin/10101.png",
+        images = "icon/role/roleSkin/12801.png",
         teamModelPos = {
             y = -315,
-            x = 0,
+            x = -60,
         },
         teamModelScale = 0.5,
         TeampaintPosition = {
@@ -192,13 +234,13 @@ return {
         },
         TeampaintSize = 0.32,
         paintPosition = {
-            y = -645,
-            x = 40,
+            y = -640,
+            x = 60,
         },
         paintSize = 0.92,
         paintDetailPosition = {
             y = -44,
-            x = -40,
+            x = -60,
         },
         battleEndPosition = {
             y = -50,
@@ -340,6 +382,48 @@ return {
         particleEffectOffset = {
         },
     },
+    [1120014] = {
+        images = "icon/role/roleSkin/11215.png",
+        teamModelPos = {
+            y = -290,
+            x = 18,
+        },
+        teamModelScale = 0.5,
+        TeampaintPosition = {
+            y = -15,
+            x = 1,
+        },
+        huntingModelPos = {
+            y = -295,
+            x = 18,
+        },
+        paint = "modle/hero/paintshow_11215/paintshow_11215",
+        battleEndYingziPos = {
+            y = 30,
+            x = 70,
+        },
+        id = 1120014,
+        particleEffect = {
+        },
+        TeampaintSize = 0.32,
+        paintPosition = {
+            y = -615,
+            x = 120,
+        },
+        paintSize = 0.9,
+        paintDetailPosition = {
+            y = -60,
+            x = -50,
+        },
+        battleEndPosition = {
+            y = 10,
+            x = 45,
+        },
+        battleEndSize = 1.1,
+        paintDetailSize = 0.51,
+        particleEffectOffset = {
+        },
+    },
     [1104013] = {
         images = "icon/role/roleSkin/10402.png",
         teamModelPos = {
@@ -379,6 +463,48 @@ return {
         },
         battleEndSize = 1.1,
         paintDetailSize = 0.49,
+        particleEffectOffset = {
+        },
+    },
+    [1110012] = {
+        images = "icon/role/roleSkin/11005.png",
+        teamModelPos = {
+            y = -330,
+            x = 0,
+        },
+        teamModelScale = 0.5,
+        TeampaintPosition = {
+            y = -25,
+            x = 5,
+        },
+        huntingModelPos = {
+            y = -330,
+            x = 0,
+        },
+        paint = "modle/hero/paintshow_11005/paintshow_11005",
+        battleEndYingziPos = {
+            y = 0,
+            x = 0,
+        },
+        id = 1110012,
+        particleEffect = {
+        },
+        TeampaintSize = 0.3,
+        paintPosition = {
+            y = -630,
+            x = 150,
+        },
+        paintSize = 0.9,
+        paintDetailPosition = {
+            y = -10,
+            x = -30,
+        },
+        battleEndPosition = {
+            y = -25,
+            x = 15,
+        },
+        battleEndSize = 1.1,
+        paintDetailSize = 0.5,
         particleEffectOffset = {
         },
     },
@@ -471,45 +597,87 @@ return {
         particleEffectOffset = {
         },
     },
-    [1108071] = {
-        images = "icon/role/roleSkin/10807.png",
+    [1109011] = {
+        images = "icon/role/roleSkin/10901.png",
         teamModelPos = {
-            y = -320,
-            x = -35,
+            y = -345,
+            x = 0,
         },
         teamModelScale = 0.5,
         TeampaintPosition = {
-            y = -30,
-            x = 0,
+            y = -45,
+            x = 5,
         },
         huntingModelPos = {
-            y = -340,
-            x = -35,
+            y = -345,
+            x = 0,
         },
-        paint = "modle/hero/paintshow_10807/paintshow_10807",
+        paint = "modle/hero/paintshow_10901/paintshow_10901",
         battleEndYingziPos = {
             y = 0,
             x = 0,
         },
-        id = 1108071,
+        id = 1109011,
         particleEffect = {
         },
         TeampaintSize = 0.3,
         paintPosition = {
-            y = -680,
-            x = 110,
+            y = -690,
+            x = 160,
         },
         paintSize = 0.9,
         paintDetailPosition = {
             y = 0,
-            x = -40,
-        },
-        battleEndPosition = {
-            y = -75,
             x = 0,
         },
+        battleEndPosition = {
+            y = -70,
+            x = 20,
+        },
         battleEndSize = 1.1,
-        paintDetailSize = 0.49,
+        paintDetailSize = 0.5,
+        particleEffectOffset = {
+        },
+    },
+    [1123012] = {
+        images = "icon/role/roleSkin/12301_2.png",
+        teamModelPos = {
+            y = -295,
+            x = 0,
+        },
+        teamModelScale = 0.5,
+        TeampaintPosition = {
+            y = -35,
+            x = 10,
+        },
+        huntingModelPos = {
+            y = -325,
+            x = 20,
+        },
+        paint = "modle/hero/paintshow_12301_2/paintshow_12301_2",
+        battleEndYingziPos = {
+            y = 30,
+            x = 40,
+        },
+        id = 1123012,
+        particleEffect = {
+        },
+        TeampaintSize = 0.3,
+        paintPosition = {
+            y = -625,
+            x = 140,
+        },
+        paintSize = 0.9,
+        paintDetailPosition = {
+            y = -35,
+            x = -50,
+        },
+        battleEndPosition = {
+            y = 30,
+            x = 55,
+        },
+        battleEndSize = 1.1,
+        paintDetailSize = 0.51,
         particleEffectOffset = {
         },
     },
@@ -555,84 +723,84 @@ return {
         particleEffectOffset = {
         },
     },
-    [1110012] = {
-        images = "icon/role/roleSkin/11005.png",
+    [1132011] = {
+        images = "icon/role/roleSkin/13201.png",
         teamModelPos = {
-            y = -330,
-            x = 0,
-        },
-        teamModelScale = 0.5,
-        TeampaintPosition = {
-            y = -25,
-            x = 5,
-        },
-        huntingModelPos = {
-            y = -330,
-            x = 0,
-        },
-        paint = "modle/hero/paintshow_11005/paintshow_11005",
-        battleEndYingziPos = {
-            y = 0,
-            x = 0,
-        },
-        id = 1110012,
-        particleEffect = {
-        },
-        TeampaintSize = 0.3,
-        paintPosition = {
-            y = -630,
-            x = 150,
-        },
-        paintSize = 0.9,
-        paintDetailPosition = {
-            y = -10,
-            x = -30,
-        },
-        battleEndPosition = {
-            y = -25,
-            x = 15,
-        },
-        battleEndSize = 1.1,
-        paintDetailSize = 0.5,
-        particleEffectOffset = {
-        },
-    },
-    [1109011] = {
-        images = "icon/role/roleSkin/10901.png",
-        teamModelPos = {
-            y = -345,
-            x = 0,
+            y = -250,
+            x = -15,
         },
         teamModelScale = 0.5,
         TeampaintPosition = {
             y = -45,
-            x = 5,
+            x = 10,
         },
         huntingModelPos = {
-            y = -345,
+            y = -325,
             x = 0,
         },
-        paint = "modle/hero/paintshow_10901/paintshow_10901",
+        paint = "modle/hero/paintshow_13201/paintshow_13201",
         battleEndYingziPos = {
-            y = 0,
-            x = 0,
+            y = 30,
+            x = 40,
         },
-        id = 1109011,
+        id = 1132011,
         particleEffect = {
         },
         TeampaintSize = 0.3,
         paintPosition = {
-            y = -690,
-            x = 160,
+            y = -550,
+            x = 120,
         },
         paintSize = 0.9,
         paintDetailPosition = {
-            y = 0,
-            x = 0,
+            y = -100,
+            x = -50,
         },
         battleEndPosition = {
-            y = -70,
-            x = 20,
+            y = 60,
+            x = 45,
+        },
+        battleEndSize = 1.1,
+        paintDetailSize = 0.51,
+        particleEffectOffset = {
+        },
+    },
+    [1131011] = {
+        images = "icon/role/roleSkin/13101.png",
+        teamModelPos = {
+            y = -315,
+            x = 0,
+        },
+        teamModelScale = 0.5,
+        TeampaintPosition = {
+            y = -30,
+            x = 10,
+        },
+        huntingModelPos = {
+            y = -325,
+            x = 0,
+        },
+        paint = "modle/hero/paintshow_13101/paintshow_13101",
+        battleEndYingziPos = {
+            y = 30,
+            x = 40,
+        },
+        id = 1131011,
+        particleEffect = {
+        },
+        TeampaintSize = 0.3,
+        paintPosition = {
+            y = -670,
+            x = 150,
+        },
+        paintSize = 0.9,
+        paintDetailPosition = {
+            y = -30,
+            x = -30,
+        },
+        battleEndPosition = {
+            y = -20,
+            x = 55,
         },
         battleEndSize = 1.1,
         paintDetailSize = 0.5,
@@ -1017,41 +1185,41 @@ return {
         particleEffectOffset = {
         },
     },
-    [1123012] = {
-        images = "icon/role/roleSkin/12301_2.png",
+    [1133011] = {
+        images = "icon/role/roleSkin/13301.png",
         teamModelPos = {
-            y = -295,
-            x = 0,
+            y = -300,
+            x = -20,
         },
         teamModelScale = 0.5,
         TeampaintPosition = {
-            y = -35,
+            y = -20,
             x = 10,
         },
         huntingModelPos = {
             y = -325,
-            x = 20,
+            x = 0,
         },
-        paint = "modle/hero/paintshow_12301_2/paintshow_12301_2",
+        paint = "modle/hero/paintshow_13301/paintshow_13301",
         battleEndYingziPos = {
             y = 30,
             x = 40,
         },
-        id = 1123012,
+        id = 1133011,
         particleEffect = {
         },
         TeampaintSize = 0.3,
         paintPosition = {
-            y = -625,
-            x = 140,
+            y = -630,
+            x = 120,
         },
-        paintSize = 0.9,
+        paintSize = 0.85,
         paintDetailPosition = {
-            y = -35,
+            y = -10,
             x = -50,
         },
         battleEndPosition = {
-            y = 30,
+            y = 20,
             x = 55,
         },
         battleEndSize = 1.1,
@@ -2236,7 +2404,7 @@ return {
         },
     },
     [2101012] = {
-        images = "icon/role/roleSkin/lvxueren.png",
+        images = "icon/role/roleSkin/10101.png",
         teamModelPos = {
             y = -175,
             x = 20,
@@ -2278,7 +2446,7 @@ return {
         },
     },
     [2101011] = {
-        images = "icon/role/roleSkin/hongxueren.png",
+        images = "icon/role/roleSkin/10101.png",
         teamModelPos = {
             y = -175,
             x = 20,
@@ -2320,7 +2488,7 @@ return {
         },
     },
     [2101013] = {
-        images = "icon/role/roleSkin/lanxueren.png",
+        images = "icon/role/roleSkin/10101.png",
         teamModelPos = {
             y = -175,
             x = 20,

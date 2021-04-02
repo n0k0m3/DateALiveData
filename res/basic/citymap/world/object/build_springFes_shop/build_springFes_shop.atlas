@@ -1,0 +1,34 @@
+
+build_springFes_shop.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhp1
+  rotate: true
+  xy: 847, 738
+  size: 252, 137
+  orig: 252, 137
+  offset: 0, 0
+  index: -1
+zhp2
+  rotate: false
+  xy: 146, 88
+  size: 161, 214
+  orig: 161, 214
+  offset: 0, 0
+  index: -1
+zhp3
+  rotate: false
+  xy: 2, 304
+  size: 843, 686
+  orig: 843, 686
+  offset: 0, 0
+  index: -1
+zhp4
+  rotate: false
+  xy: 2, 2
+  size: 142, 300
+  orig: 142, 300
+  offset: 0, 0
+  index: -1

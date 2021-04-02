@@ -9,71 +9,92 @@ end
 function TestView:initUI(ui)
     self.super.initUI(self,ui)
     self.Panel_root = TFDirector:getChildByPath(ui, "Panel_root")
-
-    self.Button_back = TFDirector:getChildByPath(self.Panel_root, "Button_back")
-
-
+    self.Label_fps_value = TFDirector:getChildByPath(ui, "Label_fps_value")
+    self.Label_sys_name_value = TFDirector:getChildByPath(ui, "Label_sys_name_value")
+    self.Label_textureCache_value = TFDirector:getChildByPath(ui, "Label_textureCache_value")
+    self.Label_texture_count_value = TFDirector:getChildByPath(ui, "Label_texture_count_value")
+    self.Button_close = TFDirector:getChildByPath(ui, "Button_close")
     self:refreshView()
 end
 
 function TestView:refreshView()
-    self:testScrollview()
-end
+    self.Label_sys_name_value:setString(TFDeviceInfo:getSystemVersion() or "win32")
+    local mpfCnt = me.Director:getAnimationInterval()
+    local nFPS = 0
+    local function updateTexture()
+        local keys = me.TextureCache:textureKeys()
+        local nLen = keys:size()
 
-function TestView:testScrollview()
-    local Panel_test_scrollview = TFDirector:getChildByPath(self.Panel_root, "Panel_test_scrollview")
-    local Button_test = TFDirector:getChildByPath(Panel_test_scrollview, "Button_test")
-    local ScrollView_test = TFDirector:getChildByPath(Panel_test_scrollview, "ScrollView_test")
-    local Panel_content = TFDirector:getChildByPath(ScrollView_test, "Panel_content")
-    local Button_func_1 = TFDirector:getChildByPath(Panel_content, "Button_func_1")
-    local innerContainer = ScrollView_test:getInnerContainer()
+        local nUsed = 0
+        local nVisited = 0
+        local nMem = 0
+        local nUsedMem = 0
+        local nVisitedMem = 0
+        local newVersion = false
+        if Texture2D.getBitsPerPixelForFormat then 
+            newVersion = true
+        end 
+        for i = 0, nLen - 1 do 
+            local name = keys:at(i)
+            local tex = me.TextureCache:textureForKey(name:getCString())
+            local bpp = newVersion and tex:getBitsPerPixelForFormat() or tex:bitsPerPixelForFormat()
+            local bytes = tex:getPixelsWide() * tex:getPixelsHigh() * bpp / 8 / 1024
+            nMem = nMem + bytes
 
-    local anchorPoint = ScrollView_test:getAnchorPoint()
-    local contentSize = ScrollView_test:getSize()
-    local innerSize = innerContainer:getSize()
-    local center = ccp(-contentSize.width * 0.5, -contentSize.height * 0.5)
+            local isVisiting = true
+            if tex.isVisiting then 
+                isVisiting = tex:isVisiting()
+            else 
+                isVisiting = tex:retainCount() > 1
+            end
 
-    Button_test:onClick(function()
-        local innerPos = innerContainer:getPosition()
-        local minY = contentSize.height - innerSize.height
-        local h = -minY
-        local w = contentSize.width - innerSize.width
+            if isVisiting then 
+                nVisited = nVisited + 1
+                nVisitedMem = nVisitedMem + bytes
+            end
 
-        local position = Button_func_1:getPosition()
-        local wp = Button_func_1:getParent():convertToWorldSpaceAR(position)
-        local np = ScrollView_test:convertToNodeSpaceAR(wp)
+            if tex:retainCount() > 1 then 
+                nUsed = nUsed + 1 
+                nUsedMem = nUsedMem + bytes
+            end
+        end
+        self.Label_fps_value:setString(string.format('%.1f/%.3f', nFPS, mpfCnt))
+        self.Label_textureCache_value:setString(string.format("%.2fM", nUsedMem/1024))
+        self.Label_texture_count_value:setString(string.format('%d', nUsed))
+    end
 
-        local foo = ccpSub(innerPos, np)
-        local dis = ccpSub(foo, center)
-        local percentX = -dis.x * 100 / w
-        local percentY = (dis.y - minY) * 100 / h
-
-        ScrollView_test:scrollTo(TF_SCROLLVIEW_SCROLL_TO_PERCENT_HORIZONTAL, 0.5, true, percentX, percentY)
+    local nFrameRate = 0
+    self.nDebugUpdateTID = TFDirector:addTimer(1000, -1, nil, function(dt)
+        updateTexture()
     end)
 
-    Button_func_1:onClick(function()
-        -- local innerPos = innerContainer:getPosition()
-        -- local minY = contentSize.height - innerSize.height
-        -- local h = -minY
-        -- local w = innerSize.width - contentSize.width
-
-        -- local position = Button_func_1:getPosition()
-        -- local wp = Button_func_1:getParent():convertToWorldSpaceAR(position)
-        -- local np = ScrollView_test:convertToNodeSpaceAR(wp)
-
-        -- local foo = ccpSub(innerPos, np)
-        -- local dis = ccpSub(foo, origin)
-        -- local percentX = -dis.x * 100 / w
-        -- local percentY = (dis.y - minY) * 100 / h
-
-        -- ScrollView_test:scrollTo(TF_SCROLLVIEW_SCROLL_TO_PERCENT_BOTH, 0.5, true, percentX, percentY)
+    local nFrameRate = 0
+    local nFrameDelta = 0
+    self.nDebugFrameTID = TFDirector:addTimer(0, -1, nil, function(dt)
+        nFrameRate = nFrameRate + 1
+        nFrameDelta = nFrameDelta + dt
+        if nFrameDelta > 0.2 then 
+            nFPS = nFrameRate / nFrameDelta
+            nFrameRate = 0
+            nFrameDelta = 0
+        end
     end)
 end
 
 function TestView:registerEvents()
-    self.Button_back:onClick(function()
-            AlertManager:closeLayer(self)
+    self.Button_close:onClick(function()
+        self:removeAll()
+        self:setVisible(false)
     end)
+end
+
+function TestView:removeAll()
+    if self.nDebugUpdateTID then
+        TFDirector:removeTimer(self.nDebugUpdateTID)
+        TFDirector:removeTimer(self.nDebugFrameTID)
+        self.nDebugUpdateTID = nil
+        self.nDebugFrameTID = nil
+    end
 end
 
 return TestView

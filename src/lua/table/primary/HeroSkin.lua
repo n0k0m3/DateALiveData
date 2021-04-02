@@ -2464,7 +2464,6 @@ return {
         },
         icon = "icon/role/dress/10111s.png",
         accessId = {
-            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1101",
     },

@@ -1,0 +1,20 @@
+
+UI_anniu.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gantan
+  rotate: false
+  xy: 45, 28
+  size: 12, 29
+  orig: 12, 29
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 10
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1

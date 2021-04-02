@@ -1,0 +1,41 @@
+
+build_springFes_battleGround.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ywc1
+  rotate: false
+  xy: 2, 2
+  size: 425, 434
+  orig: 425, 434
+  offset: 0, 0
+  index: -1
+ywc2
+  rotate: false
+  xy: 429, 257
+  size: 191, 179
+  orig: 191, 179
+  offset: 0, 0
+  index: -1
+ywc3
+  rotate: true
+  xy: 622, 280
+  size: 156, 194
+  orig: 156, 194
+  offset: 0, 0
+  index: -1
+ywc4
+  rotate: true
+  xy: 818, 274
+  size: 162, 187
+  orig: 162, 187
+  offset: 0, 0
+  index: -1
+ywc5
+  rotate: false
+  xy: 429, 57
+  size: 165, 198
+  orig: 165, 198
+  offset: 0, 0
+  index: -1

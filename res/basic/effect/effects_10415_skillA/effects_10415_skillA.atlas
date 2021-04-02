@@ -1,0 +1,878 @@
+
+effects_10415_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillA/baodian/baodian_003
+  rotate: false
+  xy: 646, 293
+  size: 184, 173
+  orig: 210, 210
+  offset: 13, 20
+  index: -1
+images/effects_H/skillA/baodian/baodian_005
+  rotate: false
+  xy: 627, 104
+  size: 203, 187
+  orig: 210, 210
+  offset: 1, 20
+  index: -1
+images/effects_H/skillA/baodian/baodian_009
+  rotate: false
+  xy: 832, 166
+  size: 190, 153
+  orig: 210, 210
+  offset: 17, 20
+  index: -1
+images/effects_H/skillA/dao/dao_007
+  rotate: true
+  xy: 490, 459
+  size: 245, 154
+  orig: 245, 175
+  offset: 0, 15
+  index: -1
+images/effects_H/skillA/dao/dao_008
+  rotate: true
+  xy: 244, 213
+  size: 245, 141
+  orig: 245, 175
+  offset: 0, 10
+  index: -1
+images/effects_H/skillA/dao2/dao2_008
+  rotate: false
+  xy: 627, 8
+  size: 239, 94
+  orig: 280, 140
+  offset: 27, 29
+  index: -1
+images/effects_H/skillA/fenshen1/fenshen_013
+  rotate: true
+  xy: 452, 2
+  size: 162, 173
+  orig: 210, 210
+  offset: 10, 17
+  index: -1
+images/effects_H/skillA/fenshen2/fenshen2_014
+  rotate: false
+  xy: 447, 175
+  size: 31, 32
+  orig: 245, 175
+  offset: 12, 39
+  index: -1
+images/effects_H/skillA/fenshen5/fenshen5_052
+  rotate: false
+  xy: 882, 846
+  size: 139, 176
+  orig: 140, 210
+  offset: 1, 13
+  index: -1
+images/effects_H/skillA/fenshen6/fenshen6_058
+  rotate: true
+  xy: 876, 708
+  size: 136, 135
+  orig: 175, 175
+  offset: 21, 25
+  index: -1
+images/effects_H/skillA/guangxian_004
+  rotate: true
+  xy: 596, 333
+  size: 124, 34
+  orig: 126, 35
+  offset: 1, 1
+  index: -1
+images/effects_H/skillA/qiangkou/qiangkou_000
+  rotate: false
+  xy: 344, 706
+  size: 266, 157
+  orig: 350, 175
+  offset: 8, 8
+  index: -1
+images/effects_H/skillA/qiangkou/qiangkou_001
+  rotate: false
+  xy: 2, 865
+  size: 342, 157
+  orig: 350, 175
+  offset: 8, 8
+  index: -1
+images/effects_H/skillA/qiangkou/qiangkou_002
+  rotate: false
+  xy: 2, 706
+  size: 340, 157
+  orig: 350, 175
+  offset: 10, 8
+  index: -1
+images/effects_H/skillA/qiangkou/qiangkou_004
+  rotate: false
+  xy: 346, 865
+  size: 270, 157
+  orig: 350, 175
+  offset: 10, 8
+  index: -1
+images/effects_H/skillA/qiangkou/qiangkou_006
+  rotate: false
+  xy: 618, 865
+  size: 262, 157
+  orig: 350, 175
+  offset: 10, 8
+  index: -1
+images/effects_H/skillA/qiangkou/qiangkou_008
+  rotate: false
+  xy: 612, 708
+  size: 262, 155
+  orig: 350, 175
+  offset: 10, 9
+  index: -1
+images/effects_H/skillA/shanbao/shanbao_000
+  rotate: true
+  xy: 832, 513
+  size: 193, 190
+  orig: 210, 210
+  offset: 5, 0
+  index: -1
+images/effects_H/skillA/shanbao/shanbao_002
+  rotate: false
+  xy: 832, 321
+  size: 190, 190
+  orig: 210, 210
+  offset: 5, 0
+  index: -1
+images/effects_H/skillA/xuanzhuan/xuanzhuan_075
+  rotate: false
+  xy: 2, 460
+  size: 245, 244
+  orig: 245, 245
+  offset: 0, 1
+  index: -1
+images/effects_H/skillA/xuanzhuan/xuanzhuan_077
+  rotate: false
+  xy: 2, 214
+  size: 240, 244
+  orig: 245, 245
+  offset: 5, 1
+  index: -1
+images/effects_H/skillA/xuanzhuan/xuanzhuan_079
+  rotate: false
+  xy: 249, 461
+  size: 239, 243
+  orig: 245, 245
+  offset: 6, 2
+  index: -1
+images/effects_H/skillA/xuanzhuan/xuanzhuan_081
+  rotate: true
+  xy: 2, 11
+  size: 201, 233
+  orig: 245, 245
+  offset: 32, 6
+  index: -1
+images/effects_H/skillA/xuanzhuan/xuanzhuan_083
+  rotate: false
+  xy: 387, 253
+  size: 207, 204
+  orig: 245, 245
+  offset: 23, 10
+  index: -1
+images/effects_H/skillA/xuli/xuli_000
+  rotate: true
+  xy: 868, 4
+  size: 160, 143
+  orig: 280, 210
+  offset: 58, 22
+  index: -1
+images/effects_H/skillA/xuli/xuli_006
+  rotate: true
+  xy: 646, 468
+  size: 238, 184
+  orig: 280, 210
+  offset: 42, 9
+  index: -1
+images/effects_H/skillA/xuli/xuli_010
+  rotate: false
+  xy: 237, 2
+  size: 213, 162
+  orig: 280, 210
+  offset: 51, 21
+  index: -1
+images/effects_H/skillA/zidan/zidan_000
+  rotate: false
+  xy: 387, 209
+  size: 207, 42
+  orig: 210, 70
+  offset: 1, 12
+  index: -1
+images/effects_H/skillA/zidan/zidan_002
+  rotate: false
+  xy: 237, 166
+  size: 208, 41
+  orig: 210, 70
+  offset: 1, 12
+  index: -1
+
+effects_10415_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillA/dao/dao_010
+  rotate: false
+  xy: 264, 661
+  size: 245, 135
+  orig: 245, 175
+  offset: 0, 10
+  index: -1
+images/effects_H/skillA/dao/dao_012
+  rotate: false
+  xy: 556, 662
+  size: 245, 130
+  orig: 245, 175
+  offset: 0, 15
+  index: -1
+images/effects_H/skillA/dao/dao_014
+  rotate: false
+  xy: 803, 582
+  size: 219, 116
+  orig: 245, 175
+  offset: 0, 28
+  index: -1
+images/effects_H/skillA/dao2/dao2_002
+  rotate: false
+  xy: 282, 798
+  size: 273, 113
+  orig: 280, 140
+  offset: 7, 14
+  index: -1
+images/effects_H/skillA/dao2/dao2_004
+  rotate: false
+  xy: 2, 799
+  size: 265, 108
+  orig: 280, 140
+  offset: 15, 15
+  index: -1
+images/effects_H/skillA/dao2/dao2_006
+  rotate: false
+  xy: 557, 794
+  size: 252, 104
+  orig: 280, 140
+  offset: 26, 19
+  index: -1
+images/effects_H/skillA/dao3/dao3_-77
+  rotate: true
+  xy: 823, 281
+  size: 148, 80
+  orig: 210, 140
+  offset: 15, 31
+  index: -1
+images/effects_H/skillA/dao3/dao3_-81
+  rotate: false
+  xy: 644, 331
+  size: 177, 98
+  orig: 210, 140
+  offset: 11, 19
+  index: -1
+images/effects_H/skillA/dao3/dao3_-87
+  rotate: true
+  xy: 530, 194
+  size: 133, 82
+  orig: 210, 140
+  offset: 56, 46
+  index: -1
+images/effects_H/skillA/fenshen1/fenshen_007
+  rotate: true
+  xy: 202, 5
+  size: 181, 174
+  orig: 210, 210
+  offset: 21, 15
+  index: -1
+images/effects_H/skillA/fenshen2/fenshen2_000
+  rotate: false
+  xy: 2, 382
+  size: 233, 144
+  orig: 245, 175
+  offset: 12, 18
+  index: -1
+images/effects_H/skillA/fenshen2/fenshen2_002
+  rotate: false
+  xy: 237, 329
+  size: 227, 151
+  orig: 245, 175
+  offset: 3, 11
+  index: -1
+images/effects_H/skillA/fenshen2/fenshen2_006
+  rotate: false
+  xy: 2, 528
+  size: 239, 147
+  orig: 245, 175
+  offset: 1, 15
+  index: -1
+images/effects_H/skillA/fenshen2/fenshen2_008
+  rotate: false
+  xy: 801, 431
+  size: 221, 149
+  orig: 245, 175
+  offset: 0, 13
+  index: -1
+images/effects_H/skillA/fenshen3_038
+  rotate: true
+  xy: 373, 194
+  size: 133, 155
+  orig: 175, 175
+  offset: 26, 10
+  index: -1
+images/effects_H/skillA/fenshen4/fenshen4_046
+  rotate: true
+  xy: 466, 329
+  size: 144, 176
+  orig: 173, 210
+  offset: 13, 10
+  index: -1
+images/effects_H/skillA/fenshen5/fenshen5_054
+  rotate: true
+  xy: 222, 193
+  size: 134, 149
+  orig: 140, 210
+  offset: 6, 18
+  index: -1
+images/effects_H/skillA/fenshen5/fenshen5_056
+  rotate: true
+  xy: 912, 170
+  size: 128, 110
+  orig: 140, 210
+  offset: 12, 57
+  index: -1
+images/effects_H/skillA/fenshen5/fenshen5_060
+  rotate: true
+  xy: 478, 532
+  size: 55, 75
+  orig: 140, 210
+  offset: 60, 82
+  index: -1
+images/effects_H/skillA/fenshen6/fenshen6_062
+  rotate: true
+  xy: 912, 40
+  size: 128, 110
+  orig: 175, 175
+  offset: 17, 29
+  index: -1
+images/effects_H/skillA/fenshen6/fenshen6_066
+  rotate: true
+  xy: 478, 475
+  size: 55, 75
+  orig: 175, 175
+  offset: 65, 53
+  index: -1
+images/effects_H/skillA/fenshen7/fenshen7_099
+  rotate: true
+  xy: 811, 700
+  size: 122, 209
+  orig: 175, 224
+  offset: 24, 9
+  index: -1
+images/effects_H/skillA/fenshen7/fenshen7_103
+  rotate: true
+  xy: 614, 195
+  size: 132, 198
+  orig: 175, 224
+  offset: 18, 9
+  index: -1
+images/effects_H/skillA/fenshen8/fenshen8_012
+  rotate: true
+  xy: 912, 300
+  size: 129, 110
+  orig: 210, 210
+  offset: 44, 48
+  index: -1
+images/effects_H/skillA/glow2
+  rotate: false
+  xy: 727, 443
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+images/effects_H/skillA/halo_0003
+  rotate: false
+  xy: 644, 432
+  size: 81, 81
+  orig: 90, 90
+  offset: 5, 5
+  index: -1
+images/effects_H/skillA/qiangkou/qiangkou_010
+  rotate: false
+  xy: 556, 515
+  size: 243, 145
+  orig: 350, 175
+  offset: 20, 14
+  index: -1
+images/effects_H/skillA/shanbao/shanbao_004
+  rotate: false
+  xy: 378, 3
+  size: 189, 189
+  orig: 210, 210
+  offset: 6, 1
+  index: -1
+images/effects_H/skillA/shanbao/shanbao_006
+  rotate: true
+  xy: 838, 824
+  size: 198, 181
+  orig: 210, 210
+  offset: 0, 21
+  index: -1
+images/effects_H/skillA/shanbao/shanbao_008
+  rotate: false
+  xy: 2, 5
+  size: 198, 181
+  orig: 210, 210
+  offset: 0, 21
+  index: -1
+images/effects_H/skillA/xuanzhuan/xuanzhuan_073
+  rotate: false
+  xy: 569, 3
+  size: 187, 189
+  orig: 245, 245
+  offset: 29, 21
+  index: -1
+images/effects_H/skillA/xuanzhuan/xuanzhuan_085
+  rotate: false
+  xy: 2, 188
+  size: 218, 192
+  orig: 245, 245
+  offset: 9, 20
+  index: -1
+images/effects_H/skillA/xuli/xuli_008
+  rotate: false
+  xy: 243, 482
+  size: 233, 177
+  orig: 280, 210
+  offset: 47, 15
+  index: -1
+images/effects_H/skillA/xuli/xuli_012
+  rotate: true
+  xy: 758, 2
+  size: 191, 152
+  orig: 280, 210
+  offset: 56, 24
+  index: -1
+images/effects_H/skillA/yanwu/yanwu_038
+  rotate: false
+  xy: 282, 913
+  size: 278, 109
+  orig: 280, 140
+  offset: 1, 11
+  index: -1
+images/effects_H/skillA/yanwu/yanwu_040
+  rotate: false
+  xy: 2, 909
+  size: 278, 113
+  orig: 280, 140
+  offset: 0, 9
+  index: -1
+images/effects_H/skillA/yanwu/yanwu_042
+  rotate: false
+  xy: 562, 900
+  size: 274, 122
+  orig: 280, 140
+  offset: 4, 0
+  index: -1
+images/effects_H/skillA/yanwu/yanwu_044
+  rotate: false
+  xy: 2, 677
+  size: 260, 120
+  orig: 280, 140
+  offset: 7, 0
+  index: -1
+images/effects_H/skillA/zidan/zidan_004
+  rotate: true
+  xy: 511, 589
+  size: 207, 43
+  orig: 210, 70
+  offset: 1, 12
+  index: -1
+
+effects_10415_skillA3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillA/baodian/baodian_000
+  rotate: false
+  xy: 2, 93
+  size: 173, 173
+  orig: 210, 210
+  offset: 24, 20
+  index: -1
+images/effects_H/skillA/baodian/baodian_001
+  rotate: false
+  xy: 177, 93
+  size: 173, 173
+  orig: 210, 210
+  offset: 24, 20
+  index: -1
+images/effects_H/skillA/baodian/baodian_007
+  rotate: false
+  xy: 2, 441
+  size: 189, 175
+  orig: 210, 210
+  offset: 17, 20
+  index: -1
+images/effects_H/skillA/baodian/baodian_011
+  rotate: false
+  xy: 777, 527
+  size: 167, 129
+  orig: 210, 210
+  offset: 31, 42
+  index: -1
+images/effects_H/skillA/baodian/baodian_013
+  rotate: true
+  xy: 919, 46
+  size: 110, 102
+  orig: 210, 210
+  offset: 46, 58
+  index: -1
+images/effects_H/skillA/dao/dao_005
+  rotate: false
+  xy: 203, 556
+  size: 202, 67
+  orig: 245, 175
+  offset: 17, 77
+  index: -1
+images/effects_H/skillA/dao2/dao2_000
+  rotate: true
+  xy: 919, 158
+  size: 121, 97
+  orig: 280, 140
+  offset: 31, 29
+  index: -1
+images/effects_H/skillA/dao2/dao2_010
+  rotate: false
+  xy: 2, 3
+  size: 185, 88
+  orig: 280, 140
+  offset: 75, 31
+  index: -1
+images/effects_H/skillA/dao3/dao3_-79
+  rotate: true
+  xy: 515, 268
+  size: 175, 88
+  orig: 210, 140
+  offset: 11, 28
+  index: -1
+images/effects_H/skillA/dao3/dao3_-83
+  rotate: false
+  xy: 407, 487
+  size: 188, 106
+  orig: 210, 140
+  offset: 11, 17
+  index: -1
+images/effects_H/skillA/dao3/dao3_-85
+  rotate: false
+  xy: 193, 447
+  size: 192, 107
+  orig: 210, 140
+  offset: 14, 17
+  index: -1
+images/effects_H/skillA/fenshen1/fenshen_009
+  rotate: false
+  xy: 352, 90
+  size: 169, 176
+  orig: 210, 210
+  offset: 12, 14
+  index: -1
+images/effects_H/skillA/fenshen1/fenshen_011
+  rotate: false
+  xy: 343, 268
+  size: 170, 175
+  orig: 210, 210
+  offset: 9, 15
+  index: -1
+images/effects_H/skillA/fenshen1/fenshen_015
+  rotate: false
+  xy: 605, 277
+  size: 158, 173
+  orig: 210, 210
+  offset: 10, 17
+  index: -1
+images/effects_H/skillA/fenshen2/fenshen2_004
+  rotate: false
+  xy: 211, 873
+  size: 217, 149
+  orig: 245, 175
+  offset: 0, 13
+  index: -1
+images/effects_H/skillA/fenshen2/fenshen2_010
+  rotate: false
+  xy: 430, 873
+  size: 214, 149
+  orig: 245, 175
+  offset: 0, 13
+  index: -1
+images/effects_H/skillA/fenshen2/fenshen2_012
+  rotate: false
+  xy: 646, 879
+  size: 206, 143
+  orig: 245, 175
+  offset: 1, 15
+  index: -1
+images/effects_H/skillA/fenshen4/fenshen4_041
+  rotate: false
+  xy: 523, 88
+  size: 148, 178
+  orig: 173, 210
+  offset: 12, 10
+  index: -1
+images/effects_H/skillA/fenshen4/fenshen4_044
+  rotate: true
+  xy: 597, 452
+  size: 147, 178
+  orig: 173, 210
+  offset: 12, 10
+  index: -1
+images/effects_H/skillA/fenshen4/fenshen4_052
+  rotate: false
+  xy: 796, 7
+  size: 121, 101
+  orig: 173, 210
+  offset: 28, 52
+  index: -1
+images/effects_H/skillA/fenshen4/fenshen4_054
+  rotate: false
+  xy: 350, 10
+  size: 101, 78
+  orig: 173, 210
+  offset: 37, 69
+  index: -1
+images/effects_H/skillA/fenshen4bai_041
+  rotate: false
+  xy: 193, 268
+  size: 148, 177
+  orig: 173, 194
+  offset: 14, 5
+  index: -1
+images/effects_H/skillA/fenshen5/fenshen5_047
+  rotate: true
+  xy: 594, 601
+  size: 124, 176
+  orig: 140, 210
+  offset: 1, 13
+  index: -1
+images/effects_H/skillA/fenshen5/fenshen5_058
+  rotate: false
+  xy: 673, 10
+  size: 110, 88
+  orig: 140, 210
+  offset: 13, 77
+  index: -1
+images/effects_H/skillA/fenshen7/fenshen7_096
+  rotate: true
+  xy: 211, 754
+  size: 117, 209
+  orig: 175, 224
+  offset: 24, 9
+  index: -1
+images/effects_H/skillA/fenshen7/fenshen7_101
+  rotate: true
+  xy: 203, 625
+  size: 127, 202
+  orig: 175, 224
+  offset: 23, 9
+  index: -1
+images/effects_H/skillA/fenshen8/fenshen8_000
+  rotate: false
+  xy: 673, 100
+  size: 121, 175
+  orig: 210, 210
+  offset: 42, 13
+  index: -1
+images/effects_H/skillA/fenshen8/fenshen8_004
+  rotate: true
+  xy: 833, 658
+  size: 120, 175
+  orig: 210, 210
+  offset: 42, 13
+  index: -1
+images/effects_H/skillA/fenshen8/fenshen8_006
+  rotate: true
+  xy: 854, 896
+  size: 126, 168
+  orig: 210, 210
+  offset: 46, 13
+  index: -1
+images/effects_H/skillA/fenshen9/fenshen9_145
+  rotate: true
+  xy: 777, 404
+  size: 121, 169
+  orig: 210, 210
+  offset: 48, 12
+  index: -1
+images/effects_H/skillA/fenshen9/fenshen9_149
+  rotate: true
+  xy: 765, 281
+  size: 121, 169
+  orig: 210, 210
+  offset: 48, 12
+  index: -1
+images/effects_H/skillA/fenshen9/fenshen9_151
+  rotate: false
+  xy: 796, 110
+  size: 121, 169
+  orig: 210, 210
+  offset: 48, 12
+  index: -1
+images/effects_H/skillA/fenshen9/fenshen9_153
+  rotate: true
+  xy: 854, 780
+  size: 114, 168
+  orig: 210, 210
+  offset: 55, 13
+  index: -1
+images/effects_H/skillA/qiangkou/qiangkou_012
+  rotate: false
+  xy: 422, 747
+  size: 202, 124
+  orig: 350, 175
+  offset: 51, 23
+  index: -1
+images/effects_H/skillA/shanbao/shanbao_010
+  rotate: false
+  xy: 2, 268
+  size: 186, 171
+  orig: 210, 210
+  offset: 14, 20
+  index: -1
+images/effects_H/skillA/shanbao/shanbao_012
+  rotate: false
+  xy: 407, 595
+  size: 185, 150
+  orig: 210, 210
+  offset: 15, 20
+  index: -1
+images/effects_H/skillA/shanbao/shanbao_014
+  rotate: false
+  xy: 646, 727
+  size: 185, 150
+  orig: 210, 210
+  offset: 15, 20
+  index: -1
+images/effects_H/skillA/xuli/xuli_002
+  rotate: false
+  xy: 2, 818
+  size: 207, 204
+  orig: 280, 210
+  offset: 39, 5
+  index: -1
+images/effects_H/skillA/xuli/xuli_004
+  rotate: false
+  xy: 2, 618
+  size: 199, 198
+  orig: 280, 210
+  offset: 40, 3
+  index: -1
+images/effects_H/skillA/xuli/xuli_016
+  rotate: false
+  xy: 189, 3
+  size: 159, 88
+  orig: 280, 210
+  offset: 66, 67
+  index: -1
+images/effects_H/skillA/zidan/zidan_006
+  rotate: false
+  xy: 387, 445
+  size: 204, 40
+  orig: 210, 70
+  offset: 1, 12
+  index: -1
+
+effects_10415_skillA4.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillA/fenshen1/fenshen_017
+  rotate: false
+  xy: 262, 210
+  size: 107, 152
+  orig: 210, 210
+  offset: 16, 23
+  index: -1
+images/effects_H/skillA/fenshen4/fenshen4_048
+  rotate: false
+  xy: 290, 365
+  size: 129, 144
+  orig: 173, 210
+  offset: 29, 13
+  index: -1
+images/effects_H/skillA/fenshen4/fenshen4_050
+  rotate: false
+  xy: 227, 100
+  size: 128, 108
+  orig: 173, 210
+  offset: 27, 47
+  index: -1
+images/effects_H/skillA/fenshen6/fenshen6_052
+  rotate: false
+  xy: 2, 364
+  size: 143, 145
+  orig: 175, 175
+  offset: 21, 15
+  index: -1
+images/effects_H/skillA/fenshen6/fenshen6_056
+  rotate: false
+  xy: 147, 364
+  size: 141, 145
+  orig: 175, 175
+  offset: 21, 15
+  index: -1
+images/effects_H/skillA/fenshen6/fenshen6_060
+  rotate: true
+  xy: 113, 69
+  size: 131, 112
+  orig: 175, 175
+  offset: 17, 27
+  index: -1
+images/effects_H/skillA/fenshen6/fenshen6_064
+  rotate: true
+  xy: 421, 399
+  size: 110, 88
+  orig: 175, 175
+  offset: 18, 48
+  index: -1
+images/effects_H/skillA/fenshen7/fenshen7_105
+  rotate: false
+  xy: 131, 214
+  size: 129, 148
+  orig: 175, 224
+  offset: 18, 9
+  index: -1
+images/effects_H/skillA/fenshen7/fenshen7_107
+  rotate: false
+  xy: 227, 10
+  size: 110, 88
+  orig: 175, 224
+  offset: 19, 66
+  index: -1
+images/effects_H/skillA/fenshen8/fenshen8_008
+  rotate: false
+  xy: 2, 202
+  size: 127, 160
+  orig: 210, 210
+  offset: 49, 17
+  index: -1
+images/effects_H/skillA/fenshen8/fenshen8_010
+  rotate: true
+  xy: 371, 231
+  size: 132, 112
+  orig: 210, 210
+  offset: 44, 46
+  index: -1
+images/effects_H/skillA/fenshen8/fenshen8_014
+  rotate: false
+  xy: 371, 141
+  size: 110, 88
+  orig: 210, 210
+  offset: 45, 67
+  index: -1
+images/effects_H/skillA/xuli/xuli_014
+  rotate: true
+  xy: 2, 26
+  size: 174, 109
+  orig: 280, 210
+  offset: 62, 56
+  index: -1

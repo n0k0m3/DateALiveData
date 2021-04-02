@@ -16,6 +16,7 @@ function NewCityBagView:initData(data)
     self.selectGridView = nil
     self.bagData = data or {}
     self.GridView_items = {}
+    self.tabData = {}
 end
 
 function NewCityBagView:initUI(ui)
@@ -46,14 +47,16 @@ function NewCityBagView:initUI(ui)
     self.Button_liwu = TFDirector:getChildByPath(ui, "Button_liwu")
     self.Button_cailiao = TFDirector:getChildByPath(ui, "Button_cailiao")
     self.Button_liwu:onClick(function(sender)
+        self:createBagItem(1)
         self:bagTabSwitch(sender, self.GridView_items[bagTab.liwu])
 
     end)
     self.Button_cailiao:onClick(function(sender)
+        self:createBagItem(2)
         self:bagTabSwitch(sender, self.GridView_items[bagTab.cailiao])
     end)
 
-    self:createBagItem()
+    self:createBagItem(1)
     self:bagTabSwitch(self.Button_liwu, self.GridView_items[bagTab.liwu])
 end
 
@@ -73,24 +76,50 @@ function NewCityBagView:bagTabSwitch(tab, gridview)
     self.Label_none:setVisible(not (self.selectGridView.count > 0))
 end
 
-function NewCityBagView:createBagItem()
+function NewCityBagView:createBagItem(tab)
+    if self.tabData[tab] then
+        return
+    end
+    self.tabData[tab] = true
     local allkeys = table.keys(self.bagData) or {}
     local createItem = function(id, num)
         local bagitem = self.bagItem:clone()
         PrefabDataMgr:setInfo(bagitem, id, num)
         return bagitem
     end
+
+    local gifts = {}
+    local materials = {}
     for i, v in ipairs(allkeys) do
         local bagdata = self.bagData[allkeys[i]]
-        dump(bagdata, "bagdata")
         local cfg = GoodsDataMgr:getItemCfg(bagdata.cid)
         if cfg.superType == EC_ResourceType.GIFT then
-            self.GridView_items[bagTab.liwu]:pushBackCustomItem(createItem(bagdata.id, bagdata.num))
+            table.insert(gifts,bagdata)
             self.GridView_items[bagTab.liwu].count = self.GridView_items[bagTab.liwu].count + 1
         elseif cfg.superType == EC_ResourceType.MATERIAL then
-            self.GridView_items[bagTab.cailiao]:pushBackCustomItem(createItem(bagdata.id, bagdata.num))
+            table.insert(materials,bagdata)
             self.GridView_items[bagTab.cailiao].count = self.GridView_items[bagTab.cailiao].count + 1
         end
+    end
+
+    if tab == 1 then
+        self.GridView_items[bagTab.liwu]:AsyncUpdateItem(gifts, function ( ... )
+            -- body
+        end, function ( bagdata )
+            -- body
+            local item = createItem(bagdata.id, bagdata.num)
+            self.GridView_items[bagTab.liwu]:pushBackCustomItem(item)
+            return item
+        end)
+    else
+        self.GridView_items[bagTab.cailiao]:AsyncUpdateItem(materials, function ( ... )
+            -- body
+        end, function ( bagdata )
+            -- body
+            local item = createItem(bagdata.id, bagdata.num)
+            self.GridView_items[bagTab.cailiao]:pushBackCustomItem(item)
+            return item
+        end)
     end
 end
 

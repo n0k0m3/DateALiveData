@@ -16,7 +16,7 @@ return {
         execute = {
             loseCotrolTime = 3000,
             cameraFocus = {
-                scale = 1.5,
+                scale = 1.1,
                 moveTime = 2000,
                 levelId = 291111,
             },
@@ -41,7 +41,7 @@ return {
         execute = {
             loseCotrolTime = 3000,
             cameraFocus = {
-                scale = 1.5,
+                scale = 1.3,
                 moveTime = 2000,
                 levelId = 291121,
             },
@@ -66,7 +66,7 @@ return {
         execute = {
             loseCotrolTime = 3000,
             cameraFocus = {
-                scale = 1.5,
+                scale = 1.3,
                 moveTime = 2000,
                 levelId = 291131,
             },
@@ -90,11 +90,11 @@ return {
         },
         execute = {
             cameraFocus = {
-                scale = 1.5,
+                scale = 1.3,
                 moveTime = 2000,
                 pos = {
-                    [1] = 1386,
-                    [2] = 622,
+                    [1] = 1494,
+                    [2] = 652,
                 },
             },
             hideVortex = 2000,
@@ -105,7 +105,7 @@ return {
     },
     [5] = {
         nextStep = 0,
-        flag = "dicuoprocess1001",
+        flag = "",
         trigger = {
             [1] = {
                 stage = 1,
@@ -114,7 +114,7 @@ return {
         execute = {
             loseCotrolTime = 1000,
             cameraFocus = {
-                scale = 1.5,
+                scale = 1,
                 moveTime = 1000,
                 currentLevel = 1,
             },

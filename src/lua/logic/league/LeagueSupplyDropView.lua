@@ -78,7 +78,6 @@ end
 
 function LeagueSupplyDropView:getSupplySuccess()
     self:refreshView()
-    self.ScrollView_log:removeAllItems()
     LeagueDataMgr:ReqSupplyRecord()
 end
 
@@ -89,18 +88,20 @@ function LeagueSupplyDropView:refreshLog(data)
         self.Label_no_logs:setVisible(true)
     end
     if not data.record then
+        self.ScrollView_log:removeAllItems()
         return
     end
-    local count = #self.ScrollView_log:getItems()
-    if #data.record > count then
-        for i = count + 1, 100 do
-            local info = data.record[i]
-            if not info then break end
-            local item = self.Panel_log_Item:clone()
-            self:updateLogItem(item, info)
-            self.ScrollView_log:pushBackCustomItem(item)
+    if #data.record > 100 then
+        for i = #data.record, 100,-1 do
+            table.remove(data.record,i)
         end
     end
+    self.ScrollView_log:AsyncUpdateItem(data.record,function (  )
+        return self.Panel_log_Item:clone()
+    end,
+    function (item,info)
+        self:updateLogItem(item, info)
+    end)
 end
 
 function LeagueSupplyDropView:updateLogItem(item, data)
@@ -132,7 +133,6 @@ function LeagueSupplyDropView:updateLogItem(item, data)
 end
 
 function LeagueSupplyDropView:onUnionInfoReset()
-    self.ScrollView_log:removeAllItems()
     self:refreshView()
     LeagueDataMgr:ReqSupplyRecord()
 end

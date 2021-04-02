@@ -4,8 +4,16 @@ local Property  = import(".Property")
 local enum      = import(".enum")
 local eAttrType = enum.eAttrType
 local eRoleType = enum.eRoleType
+local eBFState = enum.eBFState
 local print = BattleUtils.print
 local PropertyEx = class("PropertyEx")
+
+local AttrFullEvent = {}
+AttrFullEvent[eAttrType.ATTR_NOW_ENERGY] = eBFState.E_ATTR_FULL_56
+
+local AttrEmptyEvent = {}
+AttrEmptyEvent[eAttrType.ATTR_NOW_ENERGY] = eBFState.E_ATTR_EMPTY_56
+
 function PropertyEx:ctor()
     self.basePro = Property:new()
     self.dynaPro = Property:new()  --修改的属性
@@ -160,6 +168,7 @@ function PropertyEx:calcuPlusValue(attrType,value)
     return value
 end
 function PropertyEx:changeValue(attrType,value)
+    local lastValue = self:getValue(attrType)
     value = math.floor(value)
     local _changeValue = value
     if value == 0 then
@@ -214,11 +223,25 @@ function PropertyEx:changeValue(attrType,value)
     elseif attrType == eAttrType.ATTR_MAX_AGR_RATIO then
         self.dynaPro:changeValue(attrType,value)
         self:fixAttr(eAttrType.ATTR_NOW_AGR)
+    elseif attrType == eAttrType.ATTR_SUPER_ENERGY_LEVEL then 
+        if self:getValue(eAttrType.ATTR_SUPER_ENERGY) > 0 then
+            self.dynaPro:changeValue(attrType,value)
+        end
+    elseif attrType == eAttrType.ATTR_SUPER_ENERGY then 
+        if value > 0 then
+            if self:getValue(eAttrType.ATTR_NOW_ENERGY) > 0 then
+                self.dynaPro:changeValue(attrType,value)
+            end
+        else
+            self.dynaPro:changeValue(attrType,value)
+        end
     else
         self.dynaPro:changeValue(attrType,value)
     end
+    
+    local event = self:checkFullOrEmptyEvent(attrType,lastValue)
     self:fixAttr(attrType)
-    self:doChange(attrType,value)
+    self:doChange(attrType,value,event)
     if DEBUG == 1 then
         if _changeValue > 0 then 
             print(string.format("ATTR[%s]+%s=%s",attrType,_changeValue ,self:getValue(attrType)))
@@ -227,6 +250,22 @@ function PropertyEx:changeValue(attrType,value)
         end
     end
     return value
+end
+
+function PropertyEx:checkFullOrEmptyEvent(attrType,lastValue)
+    local nowValue = self:getValue(attrType)
+    local minValue = 0
+    local maxValue = 0 
+    if attrType == eAttrType.ATTR_NOW_ENERGY then
+        minValue = 0
+        maxValue = self:getValue(eAttrType.ATTR_MAX_ENERGY)
+    end
+    if lastValue < maxValue and nowValue >= maxValue then
+        return AttrFullEvent[attrType] or 0
+    elseif lastValue > minValue and nowValue <= minValue then
+        return AttrEmptyEvent[attrType] or 0
+    end
+    return 0
 end
 
 function PropertyEx:fixAttr(attrType)
@@ -280,6 +319,19 @@ function PropertyEx:fixAttr(attrType)
         self.dynaPro:setValue(eAttrType.ATTR_MAX_DESPAIR,maxValue)
         self.dynaPro:setValue(eAttrType.ATTR_DESPAIR,value)
     elseif attrType == eAttrType.ATTR_2105 then --取值范围[0-5]
+        local value = self.dynaPro:getValue(attrType)
+        value = math.max(0,value)
+        value = math.min(value,5)
+        self.dynaPro:setValue(attrType,value)
+    elseif attrType == eAttrType.ATTR_SUPER_ENERGY then --取值范围[0-100]
+        local value = self.dynaPro:getValue(attrType)
+        value = math.max(0,value)
+        value = math.min(value,100)
+        self.dynaPro:setValue(attrType,value)
+        if self:getValue(eAttrType.ATTR_SUPER_ENERGY) <= 0 then
+            self:setValue(eAttrType.ATTR_SUPER_ENERGY_LEVEL,0)
+        end
+    elseif attrType == eAttrType.ATTR_SUPER_ENERGY_LEVEL then --取值范围[0-5]
         local value = self.dynaPro:getValue(attrType)
         value = math.max(0,value)
         value = math.min(value,5)

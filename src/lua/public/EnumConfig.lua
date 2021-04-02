@@ -97,6 +97,14 @@ EC_FBLevelType = {
     MUSIC_GAME = 44,             --端午音律游戏
 	WORLD_BOSS = 45,           -- 社团世界Boss
     BOSS_CHALLENGE = 46,           -- Boss挑战
+    DICUO_MAINFIGHT = 47,           -- 地错主线战斗
+    DICUO_MAINDATING = 48,           -- 地错主线约会
+    DICUO_ENHUI = 49,           -- 地错恩惠
+    DICUO_HUALUN = 50,           -- 地错华伦
+    DICUO_JIBAN = 51,           -- 地错羁绊
+    SNOW_FESTIVAL = 52,         -- 冰雪大作战
+    NIANSHOU = 53,              -- 年兽大作战（鞭炮）
+    ENDLESS_PLUSS = 107,        --无尽plus
 }
 
 -- 万由里关卡类型
@@ -168,10 +176,11 @@ EC_FBType = {
 	KSAN_FUBEN = 23,    --狂三副本
 	NEWYEAR_FUBEN = 24,
     HWX_FUBEN = 25,     --海王星副本
+    DICUO_FUBEN = 26,     --海王星副本
     WORLD_BOSS = 45,    -- 社团世界Boss
 }
 
--- 活动副本id
+-- 活动副本id(Dungeonchapter id字段)
 EC_ActivityFubenType = {
     ENDLESS = 401,    -- 无尽副本
     TEAM = 402,    -- 组队副本
@@ -192,6 +201,8 @@ EC_ActivityFubenType = {
     SIMULATION_TRIAL_5 = 416,     -- 模拟试炼活动
 	HALLOWEEN2019 = 415,	--万圣节活动2019
     BOSS_CHALLENGE = 422,    --BOSS挑战入口
+    SNOW_FESVITAL = 430,     -- 冰雪节大作战
+    ENDLESS_PLUSS = 430,     --无尽plus
 }
 
 -- 活动副本
@@ -263,6 +274,7 @@ EC_LevelPassCond = {
     SCORE3 = 17,    -- 日常副本积分
     LIMIT_TIME_KILL2 = 18, -- 日常副本(限时杀怪)
     TIMING = 19,  -- 日常副本计时
+    KILL_ALL_OR_LIMIT = 20,    -- 歼灭或至少击杀数量
 }
 
 -- 主线剧情类型
@@ -1237,6 +1249,7 @@ EC_SummonType = {
     SPECIAL_SUMMON = 14,    -- 契约召唤
     CLOTHESE_1 = 15,  -- 时装召唤1
     CLOTHESE_2 = 16, -- 时装召唤2
+    CLOTHESE_3 = 17, -- 时装召唤3
     HOT_ROLE = 998,    -- 热点召唤(角色)
     HOT_EQUIPMENT = 999,    -- 热点召唤(角色)
 }
@@ -1301,6 +1314,9 @@ EC_TaskType = {
     ROLE_TEACH = 33,     -- 精灵调教成就
     WORLD_BOSS = 38,     -- 世界boss个人伤害奖励任务类型
     DFW_NEW     = 34,   -- 新-大富翁任务
+    DAY_GETAWARD = 39,   -- 每日免费奖励领取
+    NIANSHOU = 43,   -- 2021年兽任务
+    ENDLESS_PLUSS = 41,  -- 无尽plus任务
 }
 
 -- 任务状态
@@ -1736,11 +1752,17 @@ EC_ActivityType2 = {
     DETECTIVE_VOTE = 62,               --探索投票
     TURNTABLET2 = 63,          -- 2周年庆翻牌游戏
     TWOYEAR_FASHION_STORE = 64,  --2周年庆时装商店
-	BALLOON_ACTIVITY = 66,     --气球活动
+	BALLOON_ACTIVITY = 66,     --气球活动/烟花爆竹活动
     SIMULATION_SUMMON = 67,     --模拟召唤
     DUNGEON_DROP = 68,         --固定关卡掉落翻倍活动
     WSJ_2020 = 70,         --固定关卡掉落翻倍活动
+
+    SNOW_FESTIVAL_TASK = 75,         --冰雪节任务活动
+
+	SNOW_BOOK = 71,			--冰雪手册
+
     HALLOWEEN_GHOST  = 69,         --万圣节小鬼活动
+    CROSS_SUPPORT  = 73,         -- 跨服任务活动
     PRIVILEGE_ACTIVITY_DATA = 1020,      --特权活动数据(这个活动开启，特权功能才有数据)
 	BOSS_CHALLENGE = 1022,               --BOSS挑战
     NEWGIFT_PACK_EN = 85,       --新手礼包活动
@@ -1750,6 +1772,25 @@ EC_ActivityType2 = {
     LEAGUE_SCORE_ASSIT = 87 , --- 社团助力积分活动
     LEAGUE_SCORE_RANK = 88,  -- 社团助理排行榜活动
 
+    LAND_TURNTABLET = 1023,     -- 地错应援
+    DICUO_LINKAGE  = 1024,         --地错联动
+    MAOKA = 1025, --猫咖
+
+	SNOW_MEMORY = 1026,			--冰雪记忆
+    STORE_SNOW_FESTIVAL = 72,    -- 冰雪节商店
+    SNOW_FESTIVAL_FIGHT = 74,    -- 冰雪大作战 
+    FAN_SHI_STORE = 76,          -- 反十商店
+    FAN_SHI_TASK = 77,           -- 反十任务
+    FAN_SHI_DOC = 78,            -- 反十说明
+    NEWYEAR_WISH = 79,           -- 新年许愿
+    NEWYEAR_BUILDREPAIR = 83,    -- 新年建筑修复
+    HANTER = 85, --狩猎
+    FLOWER_SEND = 82,    -- 情人节鲜花赠送 
+
+    GUESS_WORD = 80,             -- 2021答题活动
+    SPRITE_FOR_GIFT = 81,        -- 精灵抽一送一
+    FIREWORKS_PRODUCT = 84,      --烟花制作
+    SPRING_GIFT = 86,            -- 春分赠礼
 }
 
 EC_Activity_CHRISTMAS_Subtype = {
@@ -1941,6 +1982,7 @@ EC_DropShowType = {
 EC_ActivityDropChangeType = {
     MULTIPLE = 1,    -- 翻倍
     EXTRA = 2,    -- 额外掉落
+    SUPER = 4,    -- 特殊掉落
 }
 
 -- 活动掉落检测类型
@@ -2139,6 +2181,7 @@ EC_ReportPlayerType = {
     GUANGGAO = 600041,
     ZUOBI    = 600042,
     SAORAO   = 600043,
+    GUAJI    = 600045,
 }
 
 EC_FairyDetailUIType = {
@@ -2266,6 +2309,7 @@ EC_DanmuType = {
     VIDEO = 3, -- 视频
     SCRIPT = 4, -- 剧情脚本
     Dating = 6, -- 约会弹幕
+    Wish = 7,   -- 许愿弹幕
     EVALUATION = 10, -- 剧情脚本
 }
 
@@ -2324,7 +2368,13 @@ EC_NetTeamType = {
     High = 2,      ---高级组队(春日特训)
     Osd  = 3,      ---夏拉姆
     FuShi = 4,     ---符石挑战
-    Hunter = 5     ---追猎计划
+    Hunter = 5,    ---追猎计划
+    SnowFestival = 10, --双旦大作战
+    NianShou = 11, --年兽大作战
+}
+
+EC_NetChangeState = {
+    HeroChange = 1,     ---角色更换中
 }
 
 EC_JOINTEAM_TYPE = {
@@ -2410,6 +2460,7 @@ WorldRoomType = {
     OSD_UNION = 2, -- 夏拉姆大世界社团房间
     ZNQ_WORLD = 3, -- 周年庆大世界社团房间
     ZNQ_UNION = 4, -- 周年庆大世界社团房间
+    SINGLE = 99, -- 单机类型
 }
 
 -- 大世界多人房间操作类型
@@ -2424,4 +2475,18 @@ WorldRoomOperateType = {
 EC_SWITCH_TYPE = {
     EXCHANGE_INVITE = 1,    --是否接受气球交易开关
 	TEAM_PRIVACY = 2,		--玩家的阵容隐私开关
+}
+
+EC_ActivityLockType = {
+    WishTreeLv = 1,         --个人特权等级
+    SnowFesTaskLv = 2,      --冰雪节日常任务等级
+    SnowFesAchiveLv  = 3,   --冰雪节成就任务等级
+}
+-- 联机战斗buff生效对象类型
+EC_ItemBuffTargetType = {
+    SELF = 1,                   -- 对自己
+    ALL_TEAM = 2,               -- 对团队
+    ALL_MONSTER = 3,            -- 对所有怪物
+    ALL_SPIRIT = 4,             -- 对全场所有存在
+    ALL_ELITE_MONSTER = 5,      -- 对所有精英怪
 }

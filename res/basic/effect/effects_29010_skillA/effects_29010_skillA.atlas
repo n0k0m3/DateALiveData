@@ -1,0 +1,293 @@
+
+effects_29010_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JB/a/glow_000
+  rotate: false
+  xy: 260, 143
+  size: 82, 83
+  orig: 100, 100
+  offset: 9, 9
+  index: -1
+JB/a/jiguang/jiguang_000
+  rotate: true
+  xy: 2, 4
+  size: 216, 43
+  orig: 700, 70
+  offset: 0, 14
+  index: -1
+JB/a/jiguang/jiguang_001
+  rotate: true
+  xy: 296, 264
+  size: 653, 55
+  orig: 700, 70
+  offset: 0, 9
+  index: -1
+JB/a/jiguang/jiguang_002
+  rotate: true
+  xy: 106, 234
+  size: 683, 52
+  orig: 700, 70
+  offset: 0, 11
+  index: -1
+JB/a/jiguang/jiguang_003
+  rotate: true
+  xy: 50, 231
+  size: 686, 54
+  orig: 700, 70
+  offset: 0, 10
+  index: -1
+JB/a/jiguang/jiguang_004
+  rotate: true
+  xy: 160, 234
+  size: 683, 52
+  orig: 700, 70
+  offset: 0, 11
+  index: -1
+JB/a/jiguang/jiguang_005
+  rotate: false
+  xy: 2, 970
+  size: 696, 52
+  orig: 700, 70
+  offset: 0, 10
+  index: -1
+JB/a/jiguang/jiguang_006
+  rotate: false
+  xy: 2, 919
+  size: 693, 49
+  orig: 700, 70
+  offset: 0, 12
+  index: -1
+JB/a/jiguang/jiguang_007
+  rotate: true
+  xy: 2, 222
+  size: 695, 46
+  orig: 700, 70
+  offset: 0, 13
+  index: -1
+JB/a/jiguang/jiguang_008
+  rotate: true
+  xy: 214, 227
+  size: 690, 41
+  orig: 700, 70
+  offset: 0, 15
+  index: -1
+JB/a/jiguang/jiguang_009
+  rotate: true
+  xy: 257, 228
+  size: 689, 37
+  orig: 700, 70
+  offset: 0, 17
+  index: -1
+JB/a/jiguang/jiguang_010
+  rotate: true
+  xy: 353, 243
+  size: 674, 33
+  orig: 700, 70
+  offset: 7, 19
+  index: -1
+JB/a/juqi/juqi_000
+  rotate: false
+  xy: 744, 753
+  size: 166, 177
+  orig: 200, 200
+  offset: 7, 15
+  index: -1
+JB/a/juqi/juqi_001
+  rotate: true
+  xy: 388, 198
+  size: 158, 173
+  orig: 200, 200
+  offset: 12, 10
+  index: -1
+JB/a/juqi/juqi_002
+  rotate: false
+  xy: 558, 572
+  size: 156, 161
+  orig: 200, 200
+  offset: 15, 18
+  index: -1
+JB/a/juqi/juqi_003
+  rotate: false
+  xy: 561, 415
+  size: 148, 155
+  orig: 200, 200
+  offset: 18, 19
+  index: -1
+JB/a/juqi/juqi_004
+  rotate: true
+  xy: 563, 119
+  size: 141, 149
+  orig: 200, 200
+  offset: 21, 20
+  index: -1
+JB/a/juqi/juqi_005
+  rotate: false
+  xy: 716, 588
+  size: 137, 146
+  orig: 200, 200
+  offset: 23, 20
+  index: -1
+JB/a/juqi/juqi_006
+  rotate: false
+  xy: 855, 610
+  size: 133, 141
+  orig: 200, 200
+  offset: 26, 20
+  index: -1
+JB/a/juqi/juqi_007
+  rotate: true
+  xy: 855, 479
+  size: 129, 133
+  orig: 200, 200
+  offset: 31, 22
+  index: -1
+JB/a/juqi/juqi_008
+  rotate: false
+  xy: 711, 322
+  size: 127, 126
+  orig: 200, 200
+  offset: 34, 25
+  index: -1
+JB/a/juqi/juqi_009
+  rotate: false
+  xy: 714, 89
+  size: 114, 107
+  orig: 200, 200
+  offset: 46, 31
+  index: -1
+JB/a/juqi/juqi_010
+  rotate: false
+  xy: 840, 264
+  size: 109, 102
+  orig: 200, 200
+  offset: 49, 33
+  index: -1
+JB/a/juxian/juxian_011
+  rotate: true
+  xy: 388, 358
+  size: 184, 171
+  orig: 200, 200
+  offset: 9, 16
+  index: -1
+JB/a/juxian/juxian_013
+  rotate: true
+  xy: 388, 544
+  size: 189, 168
+  orig: 200, 200
+  offset: 10, 16
+  index: -1
+JB/a/juxian/juxian_015
+  rotate: false
+  xy: 388, 735
+  size: 185, 182
+  orig: 200, 200
+  offset: 11, 11
+  index: -1
+JB/a/juxian/juxian_017
+  rotate: false
+  xy: 575, 736
+  size: 167, 181
+  orig: 200, 200
+  offset: 14, 12
+  index: -1
+JB/a/juxian/juxian_019
+  rotate: false
+  xy: 563, 262
+  size: 142, 151
+  orig: 200, 200
+  offset: 38, 29
+  index: -1
+JB/a/juxian/juxian_021
+  rotate: false
+  xy: 714, 198
+  size: 120, 122
+  orig: 200, 200
+  offset: 47, 43
+  index: -1
+JB/a/juxian/juxian_023
+  rotate: true
+  xy: 951, 292
+  size: 74, 71
+  orig: 200, 200
+  offset: 66, 66
+  index: -1
+JB/a/shifa/shifa_000
+  rotate: false
+  xy: 47, 2
+  size: 85, 85
+  orig: 150, 150
+  offset: 33, 33
+  index: -1
+JB/a/shifa/shifa_001
+  rotate: true
+  xy: 830, 59
+  size: 97, 100
+  orig: 150, 150
+  offset: 26, 27
+  index: -1
+JB/a/shifa/shifa_002
+  rotate: true
+  xy: 836, 158
+  size: 104, 106
+  orig: 150, 150
+  offset: 18, 21
+  index: -1
+JB/a/shifa/shifa_003
+  rotate: false
+  xy: 912, 814
+  size: 110, 116
+  orig: 150, 150
+  offset: 11, 14
+  index: -1
+JB/a/shifa/shifa_004
+  rotate: false
+  xy: 47, 89
+  size: 109, 107
+  orig: 150, 150
+  offset: 11, 23
+  index: -1
+JB/a/shifa/shifa_005
+  rotate: true
+  xy: 854, 368
+  size: 109, 112
+  orig: 150, 150
+  offset: 11, 18
+  index: -1
+JB/a/shifa/shifa_006
+  rotate: true
+  xy: 158, 30
+  size: 93, 95
+  orig: 150, 150
+  offset: 24, 29
+  index: -1
+JB/a/shifa/shifa_007
+  rotate: false
+  xy: 944, 175
+  size: 78, 87
+  orig: 150, 150
+  offset: 26, 30
+  index: -1
+JB/glow_000
+  rotate: false
+  xy: 158, 125
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+JB/guangxian_000
+  rotate: false
+  xy: 700, 932
+  size: 250, 90
+  orig: 250, 100
+  offset: 0, 7
+  index: -1
+JB/yuanhuan_000
+  rotate: false
+  xy: 716, 450
+  size: 136, 136
+  orig: 150, 150
+  offset: 5, 7
+  index: -1

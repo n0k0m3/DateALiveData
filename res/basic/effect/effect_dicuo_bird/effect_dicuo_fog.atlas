@@ -1,0 +1,20 @@
+
+effect_dicuo_fog.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yun1_000
+  rotate: false
+  xy: 2, 226
+  size: 416, 192
+  orig: 441, 219
+  offset: 15, 16
+  index: -1
+yun2_430
+  rotate: false
+  xy: 2, 32
+  size: 416, 192
+  orig: 441, 219
+  offset: 15, 16
+  index: -1

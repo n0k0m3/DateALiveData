@@ -120,6 +120,7 @@ return {
         isOpen = true,
         chapters = {
             [1] = 555,
+            [2] = 556,
         },
         titleView = "ui/fuben/kuangsanwaizhuan/kuangsanwaizhuan_TabText.png",
         fightItemRes = {
@@ -134,6 +135,7 @@ return {
         spineView = "modle/hero/paintshow_12701/paintshow_12701",
         titlePlaneType = 1,
         hardChapters = {
+            [1] = 557,
         },
         isClickable = true,
         chrView = "icon/hero/face/1129013.png",
@@ -151,6 +153,45 @@ return {
         datingItemRes = {
             bg = "ui/fuben/kuangsanwaizhuan/button/date.png",
             color = "#FF666295",
+        },
+    },
+    [5] = {
+        isOpen = true,
+        chapters = {
+            [1] = 558,
+            [2] = 559,
+        },
+        titleView = "ui/fuben/yuanshenjuchang/yuanshen_TabText.png",
+        fightItemRes = {
+            bg = "ui/fuben/yuanshenjuchang/button/battle.png",
+            color = "#FF7369ce",
+        },
+        id = 5,
+        cgItemRes = {
+            bg = "ui/fuben/yuanshenjuchang/button/CG1.png",
+            coverbg = "ui/fuben/yuanshenjuchang/button/CG2.png",
+        },
+        spineView = "modle/hero/paintshow_13301/paintshow_13301",
+        titlePlaneType = 1,
+        hardChapters = {
+            [1] = 560,
+        },
+        isClickable = true,
+        chrView = "icon/hero/face/1133011_juchang.png",
+        lockTips = 16000783,
+        openTime = 1612195200,
+        conditions = {
+            conditions = {
+                level = 55,
+            },
+        },
+        titlePlaneParm = {
+            des = 16000782,
+            path = "icon/cg/cg_yuanshenjuchang.png",
+        },
+        datingItemRes = {
+            bg = "ui/fuben/yuanshenjuchang/button/date.png",
+            color = "#FFda77ef",
         },
     },
     [423] = {

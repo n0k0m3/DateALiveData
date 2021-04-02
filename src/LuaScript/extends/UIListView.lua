@@ -416,6 +416,11 @@ function UIListView:setContentSize(size)
 end
 
 function UIListView:setVisible(visible)
+
+    if self.asyncAction and not visible then
+        self.scrollView_:stopAction(self.asyncAction)
+        self.asyncAction = nil
+    end 
     self.scrollView_:setVisible(visible)
 end
 
@@ -448,6 +453,51 @@ end
 
 function UIListView:s()
     return self.scrollView_
+end
+
+function UIListView:fillListItem(asyncId)
+    if asyncId ~= self.asyncId then
+        return
+    end
+    local data = self.datas_[self.loadIndex_]
+    if not data then return end
+
+    local item = self:getItem(self.loadIndex_)
+    if not item and self.createItemNodeFunc_ then
+        item = self.createItemNodeFunc_()
+        self:pushBackCustomItem(item)
+    end
+    if item then
+        if self.updateItemFunc_ then
+            self.updateItemFunc_(item, data, self.loadIndex_)
+        end
+        self.loadIndex_ = self.loadIndex_ + 1
+        local delayDuration = 0.02
+        local seq = Sequence:create({
+                DelayTime:create(delayDuration),
+                CallFunc:create(function()
+                        self:fillListItem(asyncId)
+                end)
+        })
+        item:runAction(seq)
+    end
+end
+
+function UIListView:AsyncUpdateItem(datas, createItemNodeFunc,updateItemFunc)
+    self.asyncId = self.asyncId or 0
+    self.asyncId = self.asyncId + 1
+    self.datas_ = datas or {}
+    self.createItemNodeFunc_ = createItemNodeFunc
+    self.updateItemFunc_ = updateItemFunc
+    self.loadIndex_ = 1
+    local items = self:getItems()
+    local gap = #datas - #items
+    if gap < 0 then
+        for i = 1, math.abs(gap) do
+            self:removeItem(1)
+        end
+    end
+    self:fillListItem(self.asyncId)
 end
 
 return UIListView

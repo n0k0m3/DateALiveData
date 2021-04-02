@@ -183,11 +183,13 @@ function DepotView:updateGirdView()
     local data = nil
     local girdView = nil
 
+    self.scroll_listSupply:setVisible(id == 1)
     if id == 1 then
         girdView = self.scroll_listSupply
         data = StoreDataMgr:getCommodity(100000)
     end
 
+    self.scroll_listGift:setVisible(id == 2)
     if id == 2 then
         girdView = self.scroll_listGift
         local realData = {}
@@ -207,6 +209,7 @@ function DepotView:updateGirdView()
         self._ui.lab_noData:setVisible(nil == data)
     end
 
+    self.scroll_listSupport:setVisible(id == 4)
     if id == 4 then
         girdView = self.scroll_listSupport
         data = StoreDataMgr:getCommodity(self.storeCid_)
@@ -223,27 +226,13 @@ function DepotView:updateGirdView()
         return
     end
 
-    local items = girdView:getItems()
-    local gap = #data - #items
-    if gap > 0 then
-        for i = 1, math.abs(gap) do
-            girdView:pushBackDefaultItem()
-        end
-    else
-        for i = 1, math.abs(gap) do
-            girdView:removeItem(1)
-        end
-    end
-
-    local items = girdView:getItems()
-    for i, item in ipairs(items) do
-        local _data = data[i]
-        if _data then
+    girdView:AsyncUpdateItem(data,function ( item ,_data )
+         if _data then
             item:show()
-            local commodityCfg
             self:updateItem(item, _data)
         end
-    end
+    end)
+   
 end
 
 function DepotView:updateItem(item, _data)

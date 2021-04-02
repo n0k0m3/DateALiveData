@@ -1,0 +1,634 @@
+
+effects_13301_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/glow
+  rotate: false
+  xy: 232, 90
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/effects/skillA/1/1_025
+  rotate: true
+  xy: 235, 172
+  size: 241, 86
+  orig: 280, 160
+  offset: 39, 30
+  index: -1
+images/effects/skillA/1/1_027
+  rotate: false
+  xy: 810, 470
+  size: 128, 46
+  orig: 280, 160
+  offset: 152, 31
+  index: -1
+images/effects/skillA/2/2_000
+  rotate: true
+  xy: 235, 415
+  size: 228, 87
+  orig: 280, 200
+  offset: 15, 14
+  index: -1
+images/effects/skillA/3/3_037
+  rotate: true
+  xy: 240, 680
+  size: 205, 82
+  orig: 280, 120
+  offset: 45, 7
+  index: -1
+images/effects/skillA/3/3_047
+  rotate: false
+  xy: 232, 8
+  size: 223, 80
+  orig: 280, 120
+  offset: 24, 18
+  index: -1
+images/effects/skillA/3/3_051
+  rotate: true
+  xy: 940, 470
+  size: 120, 66
+  orig: 280, 120
+  offset: 24, 27
+  index: -1
+images/effects/skillA/4/4_041
+  rotate: true
+  xy: 858, 525
+  size: 65, 70
+  orig: 240, 200
+  offset: 76, 83
+  index: -1
+images/effects/skillA/4/4_049
+  rotate: true
+  xy: 858, 592
+  size: 221, 163
+  orig: 240, 200
+  offset: 7, 15
+  index: -1
+images/effects/skillA/4/4_059
+  rotate: true
+  xy: 921, 278
+  size: 190, 99
+  orig: 240, 200
+  offset: 28, 30
+  index: -1
+images/effects/skillA/5/5_079
+  rotate: true
+  xy: 702, 518
+  size: 280, 154
+  orig: 280, 200
+  offset: 0, 22
+  index: -1
+images/effects/skillA/6/6_090
+  rotate: true
+  xy: 921, 158
+  size: 118, 65
+  orig: 320, 160
+  offset: 10, 36
+  index: -1
+images/effects/skillA/6/6_094
+  rotate: true
+  xy: 558, 466
+  size: 314, 142
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+images/effects/skillA/6/6_096
+  rotate: false
+  xy: 2, 887
+  size: 320, 135
+  orig: 320, 160
+  offset: 0, 1
+  index: -1
+images/effects/skillA/6/6_098
+  rotate: true
+  xy: 788, 155
+  size: 312, 131
+  orig: 320, 160
+  offset: 8, 4
+  index: -1
+images/effects/skillA/6/6_100
+  rotate: true
+  xy: 562, 4
+  size: 308, 119
+  orig: 320, 160
+  offset: 12, 18
+  index: -1
+images/effects/skillA/6/6_106
+  rotate: true
+  xy: 683, 39
+  size: 273, 103
+  orig: 320, 160
+  offset: 47, 22
+  index: -1
+images/effects/skillA/hit/hit_000
+  rotate: false
+  xy: 324, 782
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+images/effects/skillA/hit/hit_002
+  rotate: false
+  xy: 324, 314
+  size: 232, 228
+  orig: 240, 240
+  offset: 0, 12
+  index: -1
+images/effects/skillA/hit/hit_006
+  rotate: true
+  xy: 2, 173
+  size: 228, 223
+  orig: 240, 240
+  offset: 0, 15
+  index: -1
+images/effects/skillA/hit/hit_008
+  rotate: false
+  xy: 566, 800
+  size: 222, 222
+  orig: 240, 240
+  offset: 0, 18
+  index: -1
+images/effects/skillA/shifa/shifa_000
+  rotate: true
+  xy: 702, 469
+  size: 47, 106
+  orig: 240, 240
+  offset: 71, 66
+  index: -1
+images/effects/skillA/shifa/shifa_006
+  rotate: true
+  xy: 790, 815
+  size: 207, 229
+  orig: 240, 240
+  offset: 20, 5
+  index: -1
+images/effects/skillA/shifa/shifa_008
+  rotate: true
+  xy: 323, 90
+  size: 222, 237
+  orig: 240, 240
+  offset: 12, 1
+  index: -1
+images/effects/skillA/shifa/shifa_010
+  rotate: false
+  xy: 2, 403
+  size: 231, 240
+  orig: 240, 240
+  offset: 6, 0
+  index: -1
+images/effects/skillA/shifa/shifa_012
+  rotate: false
+  xy: 2, 645
+  size: 236, 240
+  orig: 240, 240
+  offset: 2, 0
+  index: -1
+images/effects/skillA/shifa/shifa_014
+  rotate: true
+  xy: 324, 544
+  size: 236, 232
+  orig: 240, 240
+  offset: 2, 8
+  index: -1
+images/effects/skillA/zidan/zidan_000
+  rotate: false
+  xy: 788, 2
+  size: 220, 151
+  orig: 240, 160
+  offset: 8, 0
+  index: -1
+images/effects/skillA/zidan/zidan_002
+  rotate: false
+  xy: 2, 20
+  size: 228, 151
+  orig: 240, 160
+  offset: 0, 0
+  index: -1
+images/effects/skillA/zidan/zidan_004
+  rotate: false
+  xy: 558, 314
+  size: 228, 150
+  orig: 240, 160
+  offset: 0, 0
+  index: -1
+
+effects_13301_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/1/1_011
+  rotate: true
+  xy: 881, 720
+  size: 226, 138
+  orig: 280, 160
+  offset: 54, 22
+  index: -1
+images/effects/skillA/1/1_013
+  rotate: false
+  xy: 2, 440
+  size: 266, 143
+  orig: 280, 160
+  offset: 10, 14
+  index: -1
+images/effects/skillA/1/1_015
+  rotate: false
+  xy: 279, 662
+  size: 272, 134
+  orig: 280, 160
+  offset: 3, 18
+  index: -1
+images/effects/skillA/1/1_017
+  rotate: false
+  xy: 2, 772
+  size: 275, 134
+  orig: 280, 160
+  offset: 0, 16
+  index: -1
+images/effects/skillA/1/1_019
+  rotate: false
+  xy: 599, 906
+  size: 280, 116
+  orig: 280, 160
+  offset: 0, 19
+  index: -1
+images/effects/skillA/1/1_021
+  rotate: false
+  xy: 309, 798
+  size: 278, 111
+  orig: 280, 160
+  offset: 2, 22
+  index: -1
+images/effects/skillA/1/1_023
+  rotate: false
+  xy: 274, 555
+  size: 268, 105
+  orig: 280, 160
+  offset: 12, 25
+  index: -1
+images/effects/skillA/2/2_006
+  rotate: true
+  xy: 2, 3
+  size: 250, 129
+  orig: 280, 200
+  offset: 25, 28
+  index: -1
+images/effects/skillA/2/2_008
+  rotate: false
+  xy: 763, 155
+  size: 258, 180
+  orig: 280, 200
+  offset: 18, 3
+  index: -1
+images/effects/skillA/2/2_010
+  rotate: false
+  xy: 553, 562
+  size: 269, 185
+  orig: 280, 200
+  offset: 6, 2
+  index: -1
+images/effects/skillA/2/2_012
+  rotate: false
+  xy: 2, 585
+  size: 270, 185
+  orig: 280, 200
+  offset: 2, 2
+  index: -1
+images/effects/skillA/2/2_014
+  rotate: false
+  xy: 270, 255
+  size: 262, 185
+  orig: 280, 200
+  offset: 4, 3
+  index: -1
+images/effects/skillA/2/2_016
+  rotate: false
+  xy: 2, 255
+  size: 259, 183
+  orig: 280, 200
+  offset: 4, 5
+  index: -1
+images/effects/skillA/3/3_039
+  rotate: false
+  xy: 270, 442
+  size: 264, 111
+  orig: 280, 120
+  offset: 2, 0
+  index: -1
+images/effects/skillA/3/3_049
+  rotate: false
+  xy: 881, 948
+  size: 140, 74
+  orig: 280, 120
+  offset: 24, 22
+  index: -1
+images/effects/skillA/4/4_055
+  rotate: false
+  xy: 811, 337
+  size: 210, 152
+  orig: 240, 200
+  offset: 10, 22
+  index: -1
+images/effects/skillA/5/5_073
+  rotate: true
+  xy: 133, 5
+  size: 248, 109
+  orig: 280, 200
+  offset: 16, 54
+  index: -1
+images/effects/skillA/5/5_075
+  rotate: false
+  xy: 544, 406
+  size: 265, 154
+  orig: 280, 200
+  offset: 15, 21
+  index: -1
+images/effects/skillA/5/5_077
+  rotate: false
+  xy: 589, 749
+  size: 275, 155
+  orig: 280, 200
+  offset: 5, 22
+  index: -1
+images/effects/skillA/5/5_085
+  rotate: true
+  xy: 244, 9
+  size: 244, 158
+  orig: 280, 200
+  offset: 1, 16
+  index: -1
+images/effects/skillA/6/6_092
+  rotate: true
+  xy: 404, 9
+  size: 244, 156
+  orig: 320, 160
+  offset: 11, 0
+  index: -1
+images/effects/skillA/6/6_102
+  rotate: false
+  xy: 2, 908
+  size: 305, 114
+  orig: 320, 160
+  offset: 15, 23
+  index: -1
+images/effects/skillA/6/6_104
+  rotate: false
+  xy: 309, 911
+  size: 288, 111
+  orig: 320, 160
+  offset: 32, 22
+  index: -1
+images/effects/skillA/hit/hit_014
+  rotate: false
+  xy: 562, 40
+  size: 199, 213
+  orig: 240, 240
+  offset: 19, 27
+  index: -1
+images/effects/skillA/shifa/shifa_016
+  rotate: true
+  xy: 824, 491
+  size: 227, 198
+  orig: 240, 240
+  offset: 8, 33
+  index: -1
+images/effects/skillA/zidan/zidan_006
+  rotate: false
+  xy: 534, 255
+  size: 227, 149
+  orig: 240, 160
+  offset: 1, 1
+  index: -1
+images/effects/skillA/zidan/zidan_008
+  rotate: false
+  xy: 763, 2
+  size: 219, 151
+  orig: 240, 160
+  offset: 9, 0
+  index: -1
+
+effects_13301_skillA3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/1/1_009
+  rotate: true
+  xy: 497, 11
+  size: 114, 62
+  orig: 280, 160
+  offset: 159, 73
+  index: -1
+images/effects/skillA/2/2_002
+  rotate: false
+  xy: 210, 753
+  size: 254, 111
+  orig: 280, 200
+  offset: 15, 18
+  index: -1
+images/effects/skillA/2/2_004
+  rotate: true
+  xy: 2, 39
+  size: 254, 131
+  orig: 280, 200
+  offset: 19, 24
+  index: -1
+images/effects/skillA/2/2_018
+  rotate: false
+  xy: 469, 879
+  size: 255, 143
+  orig: 280, 200
+  offset: 0, 30
+  index: -1
+images/effects/skillA/2/2_020
+  rotate: true
+  xy: 326, 333
+  size: 240, 117
+  orig: 280, 200
+  offset: 0, 53
+  index: -1
+images/effects/skillA/3/3_041
+  rotate: true
+  xy: 469, 127
+  size: 238, 102
+  orig: 280, 120
+  offset: 28, 5
+  index: -1
+images/effects/skillA/3/3_043
+  rotate: true
+  xy: 229, 111
+  size: 235, 94
+  orig: 280, 120
+  offset: 31, 9
+  index: -1
+images/effects/skillA/3/3_045
+  rotate: true
+  xy: 135, 53
+  size: 240, 92
+  orig: 280, 120
+  offset: 24, 10
+  index: -1
+images/effects/skillA/4/4_043
+  rotate: false
+  xy: 747, 514
+  size: 149, 95
+  orig: 240, 200
+  offset: 76, 83
+  index: -1
+images/effects/skillA/4/4_045
+  rotate: true
+  xy: 325, 112
+  size: 219, 142
+  orig: 240, 200
+  offset: 9, 36
+  index: -1
+images/effects/skillA/4/4_047
+  rotate: false
+  xy: 375, 588
+  size: 217, 163
+  orig: 240, 200
+  offset: 9, 15
+  index: -1
+images/effects/skillA/4/4_051
+  rotate: true
+  xy: 162, 348
+  size: 225, 162
+  orig: 240, 200
+  offset: 3, 16
+  index: -1
+images/effects/skillA/4/4_053
+  rotate: true
+  xy: 445, 367
+  size: 219, 160
+  orig: 240, 200
+  offset: 8, 18
+  index: -1
+images/effects/skillA/4/4_057
+  rotate: false
+  xy: 784, 611
+  size: 198, 120
+  orig: 240, 200
+  offset: 20, 26
+  index: -1
+images/effects/skillA/5/5_069
+  rotate: false
+  xy: 561, 31
+  size: 135, 59
+  orig: 280, 200
+  offset: 101, 102
+  index: -1
+images/effects/skillA/5/5_071
+  rotate: false
+  xy: 325, 2
+  size: 170, 108
+  orig: 280, 200
+  offset: 91, 54
+  index: -1
+images/effects/skillA/5/5_081
+  rotate: true
+  xy: 2, 540
+  size: 262, 156
+  orig: 280, 200
+  offset: 0, 18
+  index: -1
+images/effects/skillA/5/5_083
+  rotate: false
+  xy: 210, 866
+  size: 257, 156
+  orig: 280, 200
+  offset: 0, 18
+  index: -1
+images/effects/skillA/5/5_087
+  rotate: true
+  xy: 2, 295
+  size: 243, 158
+  orig: 280, 200
+  offset: 2, 15
+  index: -1
+images/effects/skillA/5/5_089
+  rotate: false
+  xy: 726, 879
+  size: 241, 143
+  orig: 280, 200
+  offset: 4, 26
+  index: -1
+images/effects/skillA/hit/hit_012
+  rotate: false
+  xy: 2, 804
+  size: 206, 218
+  orig: 240, 240
+  offset: 11, 22
+  index: -1
+images/effects/skillA/hit/hit_016
+  rotate: false
+  xy: 594, 682
+  size: 188, 195
+  orig: 240, 240
+  offset: 31, 45
+  index: -1
+images/effects/skillA/hit/hit_020
+  rotate: false
+  xy: 784, 733
+  size: 183, 144
+  orig: 240, 240
+  offset: 37, 45
+  index: -1
+images/effects/skillA/shifa/shifa_002
+  rotate: false
+  xy: 607, 500
+  size: 138, 180
+  orig: 240, 240
+  offset: 36, 29
+  index: -1
+images/effects/skillA/shifa/shifa_004
+  rotate: true
+  xy: 160, 575
+  size: 176, 213
+  orig: 240, 240
+  offset: 34, 13
+  index: -1
+images/effects/skillA/shifa/shifa_018
+  rotate: true
+  xy: 573, 92
+  size: 116, 143
+  orig: 240, 240
+  offset: 104, 47
+  index: -1
+images/effects/skillA/xiaozidan/zidan_024
+  rotate: false
+  xy: 607, 378
+  size: 154, 120
+  orig: 160, 120
+  offset: 6, 0
+  index: -1
+images/effects/skillA/xiaozidan/zidan_026
+  rotate: true
+  xy: 763, 357
+  size: 155, 120
+  orig: 160, 120
+  offset: 5, 0
+  index: -1
+images/effects/skillA/xiaozidan/zidan_028
+  rotate: true
+  xy: 573, 210
+  size: 155, 120
+  orig: 160, 120
+  offset: 5, 0
+  index: -1
+images/effects/skillA/xiaozidan/zidan_030
+  rotate: false
+  xy: 695, 235
+  size: 154, 120
+  orig: 160, 120
+  offset: 6, 0
+  index: -1
+images/effects/skillA/xiaozidan/zidan_032
+  rotate: true
+  xy: 718, 81
+  size: 152, 120
+  orig: 160, 120
+  offset: 8, 0
+  index: -1

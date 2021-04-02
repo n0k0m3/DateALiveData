@@ -1,0 +1,69 @@
+
+main_effect_10426.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/d
+  rotate: false
+  xy: 2, 1246
+  size: 1488, 800
+  orig: 1488, 800
+  offset: 0, 0
+  index: -1
+images/g1
+  rotate: false
+  xy: 1146, 2
+  size: 327, 193
+  orig: 327, 193
+  offset: 0, 0
+  index: -1
+images/g2
+  rotate: true
+  xy: 1492, 1302
+  size: 744, 400
+  orig: 744, 400
+  offset: 0, 0
+  index: -1
+images/g3
+  rotate: false
+  xy: 2, 571
+  size: 1437, 673
+  orig: 1437, 673
+  offset: 0, 0
+  index: -1
+images/g4
+  rotate: true
+  xy: 1441, 544
+  size: 700, 594
+  orig: 700, 594
+  offset: 0, 0
+  index: -1
+images/g5
+  rotate: false
+  xy: 2, 122
+  size: 628, 447
+  orig: 628, 447
+  offset: 0, 0
+  index: -1
+images/g6
+  rotate: false
+  xy: 632, 57
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+images/hei
+  rotate: true
+  xy: 1146, 197
+  size: 372, 200
+  orig: 372, 200
+  offset: 0, 0
+  index: -1
+images/hy
+  rotate: false
+  xy: 1894, 1870
+  size: 150, 176
+  orig: 150, 176
+  offset: 0, 0
+  index: -1

@@ -111,8 +111,10 @@ function SkyLadderEndSeasonView:initUIData()
     self.Label_stage_name_new:setTextById(curRankCfg.rankName)
 
     local raceEndTime = SkyLadderDataMgr:getRaceEndTime()
-    local endTime = Utils:getTimeData(raceEndTime)
-    self.Label_season_time:setTextById(3203009, endTime.Year, endTime.Month, endTime.Day)
+    --local endTime = Utils:getTimeData(raceEndTime)
+    local year , month , day = Utils:getUTCDateYMD(raceEndTime)
+    local endTime = {year = year , month = month , day = day}
+    self.Label_season_time:setText( TextDataMgr:getText(3203009, endTime.Year, endTime.Month, endTime.Day)..GV_UTC_TIME_STRING)
 
     self:playAction()
 end
@@ -183,9 +185,11 @@ function SkyLadderEndSeasonView:playAction()
         end
     end
 
+    self.Label_clicktip:setVisible(true)
     if self.actionId == 1 then
         self:playFirstAction()
     elseif self.actionId == 2 then
+        self.Label_clicktip:setVisible(false)
         if self.lastRewards and next(self.lastRewards) then
             self:playSecondAction()
         else

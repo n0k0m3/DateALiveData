@@ -2515,6 +2515,8 @@ function FubenDataMgr:onRecvFightOver(event)
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~FubenDataMgr:onRecvFightOver=" );
 
     local data = event.data
+    BattleDataMgr:setBattleResutlOrgData(data)
+
     local levelInfo = data.levelInfo
     local dropReward = data.rewards or {}
     local isWin = data.win

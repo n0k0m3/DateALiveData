@@ -1,0 +1,55 @@
+
+interObject_springFes_scareBox.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jxhz1
+  rotate: true
+  xy: 2, 120
+  size: 213, 123
+  orig: 213, 123
+  offset: 0, 0
+  index: -1
+jxhz2
+  rotate: false
+  xy: 175, 407
+  size: 222, 101
+  orig: 222, 101
+  offset: 0, 0
+  index: -1
+jxhz3
+  rotate: false
+  xy: 127, 207
+  size: 116, 107
+  orig: 116, 107
+  offset: 0, 0
+  index: -1
+jxhz4
+  rotate: false
+  xy: 175, 316
+  size: 202, 89
+  orig: 202, 89
+  offset: 0, 0
+  index: -1
+jxhz6
+  rotate: false
+  xy: 2, 335
+  size: 171, 173
+  orig: 171, 173
+  offset: 0, 0
+  index: -1
+jxhz7
+  rotate: false
+  xy: 2, 9
+  size: 116, 109
+  orig: 116, 109
+  offset: 0, 0
+  index: -1
+jxhz8
+  rotate: true
+  xy: 399, 392
+  size: 116, 109
+  orig: 116, 109
+  offset: 0, 0
+  index: -1

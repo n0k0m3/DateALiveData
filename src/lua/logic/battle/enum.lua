@@ -150,7 +150,8 @@ enum.eAnimation =
     KNEEL_RELIVE    = "kneelRelive", --瘫痪复活(TODO 暂未做处理)
     WIN       = "win" ,--胜利动作 
     FROZEN    = "hurt3", --冻结 frozen TODO 需要修改
-    GRASP     = "floor"--"grasp" --抓取
+    GRASP     = "floor",--"grasp" --抓取
+    TRANSIT1  = "transit1", --过度动作
 
 }
 
@@ -573,6 +574,19 @@ eAttrType.ATTR_2107     = 2107    --备用属性
 eAttrType.ATTR_2108     = 2108    --备用属性
 eAttrType.ATTR_2109     = 2109    --备用属性
 eAttrType.ATTR_2110     = 2110    --备用属性
+
+
+--定值属性使用，特定模式下使用
+eAttrType.ATTR_5000     = 5000    --攻击力
+eAttrType.ATTR_5001     = 5001    --伤害增加（比例）
+eAttrType.ATTR_5002     = 5002    --伤害减少（比例）
+eAttrType.ATTR_5003     = 5003    --暴击率
+eAttrType.ATTR_5004     = 5004    --暴击伤害
+eAttrType.ATTR_5005     = 5005    --穿透率
+eAttrType.ATTR_5006     = 5006    --穿透伤害
+eAttrType.ATTR_5811     = 5811    --伤害增加（额外技能1）
+eAttrType.ATTR_5812     = 5812    --伤害增加（额外技能2）
+eAttrType.ATTR_5813     = 5813    --伤害增加（额外技能3）
 
 enum.eAttrType = eAttrType
 
@@ -1008,6 +1022,7 @@ E_BA_TI_EX    = 165 ,--霸体扩展
 E_MIANYI_ATTR_DEBUFF   = 166 ,--免疫属性减少debuff
 E_MIANYI_LOSH_HP   = 167 ,--免疫免疫扣血
 E_RELIVE   = 61 ,--复活
+E_MOVE_SPEED_MY   = 168 ,--减速免疫
 
 
 
@@ -1058,6 +1073,22 @@ E_LOCK_HP_7  = 207, --锁血70%
 E_LOCK_HP_8  = 208, --锁血80%
 E_LOCK_HP_9  = 209, --锁血90%
 E_LOCK_HP_10 = 210, --锁血100%
+
+E_LIMIT_HP_ADD_1  = 301, --无限血量10点
+E_LIMIT_HP_ADD_2  = 302, --无限血量20点
+E_LIMIT_HP_ADD_3  = 303, --无限血量30点
+E_LIMIT_HP_ADD_4  = 304, --无限血量40点
+E_LIMIT_HP_ADD_5  = 305, --无限血量50点
+E_LIMIT_HP_ADD_6  = 306, --无限血量60点
+E_LIMIT_HP_ADD_7  = 307, --无限血量70点
+E_LIMIT_HP_ADD_8  = 308, --无限血量80点
+E_LIMIT_HP_ADD_9  = 309, --无限血量90点
+E_LIMIT_HP_SQR_1  = 311, --无限血量100点
+E_LIMIT_HP_SQR_2  = 312, --无限血量400点
+E_LIMIT_HP_SQR_3  = 313, --无限血量900点
+E_LIMIT_HP_SQR_4  = 314, --无限血量1600点
+E_LIMIT_HP_SQR_5  = 315, --无限血量2500点
+
 }
 enum.eBFState =
 {
@@ -1136,6 +1167,16 @@ E_JX_AIM        = 257, --发动觉醒 瞄准
 
 E_REV_AIM       = 270, --受到通用瞄准
 
+E_NOT_HITED         = 290, --通用未命中
+E_NOT_PT_HITED      = 291, --普攻未命中
+E_NOT_SKILL1_HITED  = 292, --SKILL1未命中
+E_NOT_SKILL2_HITED  = 293, --SKILL2未命中
+E_NOT_CCJ_HITED     = 294, --出场技未命中
+E_NOT_DZ_HITED      = 295, --大招未命中
+E_NOT_JX_HITED      = 296, --觉醒未命中
+E_NOT_EXTRA_SKILL_1_HITED   = 297, --使用特殊技能1未命中
+E_NOT_EXTRA_SKILL_2_HITED   = 298, --使用特殊技能2未命中
+E_NOT_EXTRA_SKILL_3_HITED   = 299, --使用特殊技能3未命中
 
 E_HITED         = 300, --通用命中
 E_PT_HITED      = 301, --普攻命中
@@ -1236,6 +1277,8 @@ E_REV_DARK          = 658, --受到暗属性伤害
 E_REV_MIND          = 659, --受到精神伤害
 E_REV_SPACE         = 660, --受到空间伤害
 
+E_ATTR_FULL_56         = 700, --56属性达到最大值
+E_ATTR_EMPTY_56        = 701, --56属性置空时
 
 }
 
@@ -1431,6 +1474,7 @@ enum.eEvent = {
 ---
 	EVENT_VKSTATE_CHANGE           = "vk_state_change" , --技能按钮状态变更
 	EVENT_CAPTAIN_CHANGE           = "captain_change"  , --队伍队长变更
+    EVENT_SUB_SKILL_SHOW           = "vk_sub_skill_show" , --技能子技能状态变更
     EVENT_HP_CHANGE                = "hp_change" ,   --血量变更
     EVENT_LOSE_HP                  = "lose_hp" ,   --失血
     EVENT_NOTICE_HP                = "notice_hp" , --总血量

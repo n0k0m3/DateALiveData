@@ -1,0 +1,223 @@
+
+build_springFes_wishingTree.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/hb_00000
+  rotate: false
+  xy: 54, 313
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00002
+  rotate: false
+  xy: 596, 934
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00004
+  rotate: false
+  xy: 54, 252
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00006
+  rotate: false
+  xy: 116, 313
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00008
+  rotate: false
+  xy: 658, 934
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00010
+  rotate: false
+  xy: 116, 252
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00012
+  rotate: false
+  xy: 178, 313
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00014
+  rotate: false
+  xy: 720, 934
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00016
+  rotate: false
+  xy: 178, 252
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00018
+  rotate: false
+  xy: 240, 313
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00020
+  rotate: false
+  xy: 782, 934
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00022
+  rotate: false
+  xy: 240, 252
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00024
+  rotate: false
+  xy: 302, 313
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00026
+  rotate: false
+  xy: 844, 934
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00028
+  rotate: false
+  xy: 302, 252
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+effects/hb_00030
+  rotate: false
+  xy: 364, 313
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+xys1
+  rotate: false
+  xy: 2, 694
+  size: 523, 299
+  orig: 523, 299
+  offset: 0, 0
+  index: -1
+xys10
+  rotate: false
+  xy: 2, 189
+  size: 18, 183
+  orig: 18, 183
+  offset: 0, 0
+  index: -1
+xys11
+  rotate: true
+  xy: 596, 913
+  size: 19, 90
+  orig: 19, 90
+  offset: 0, 0
+  index: -1
+xys12
+  rotate: false
+  xy: 2, 54
+  size: 16, 133
+  orig: 16, 133
+  offset: 0, 0
+  index: -1
+xys13
+  rotate: false
+  xy: 473, 555
+  size: 22, 137
+  orig: 22, 137
+  offset: 0, 0
+  index: -1
+xys14
+  rotate: false
+  xy: 527, 699
+  size: 16, 111
+  orig: 16, 111
+  offset: 0, 0
+  index: -1
+xys15
+  rotate: false
+  xy: 451, 535
+  size: 20, 157
+  orig: 20, 157
+  offset: 0, 0
+  index: -1
+xys2
+  rotate: false
+  xy: 2, 374
+  size: 447, 318
+  orig: 447, 318
+  offset: 0, 0
+  index: -1
+xys3
+  rotate: false
+  xy: 527, 812
+  size: 23, 181
+  orig: 23, 181
+  offset: 0, 0
+  index: -1
+xys4
+  rotate: false
+  xy: 451, 426
+  size: 18, 107
+  orig: 18, 107
+  offset: 0, 0
+  index: -1
+xys5
+  rotate: false
+  xy: 572, 892
+  size: 22, 101
+  orig: 22, 101
+  offset: 0, 0
+  index: -1
+xys6
+  rotate: false
+  xy: 552, 847
+  size: 18, 146
+  orig: 18, 146
+  offset: 0, 0
+  index: -1
+xys7
+  rotate: true
+  xy: 906, 978
+  size: 15, 87
+  orig: 15, 87
+  offset: 0, 0
+  index: -1
+xys8
+  rotate: false
+  xy: 22, 241
+  size: 30, 131
+  orig: 30, 131
+  offset: 0, 0
+  index: -1
+xys9
+  rotate: false
+  xy: 497, 595
+  size: 16, 97
+  orig: 16, 97
+  offset: 0, 0
+  index: -1

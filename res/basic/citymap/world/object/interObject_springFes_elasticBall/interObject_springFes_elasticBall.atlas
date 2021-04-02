@@ -1,0 +1,27 @@
+
+interObject_springFes_elasticBall.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cjq1
+  rotate: false
+  xy: 117, 58
+  size: 146, 58
+  orig: 146, 58
+  offset: 0, 0
+  index: -1
+cjq2
+  rotate: false
+  xy: 2, 2
+  size: 113, 114
+  orig: 113, 114
+  offset: 0, 0
+  index: -1
+cjq3
+  rotate: false
+  xy: 265, 59
+  size: 95, 57
+  orig: 95, 57
+  offset: 0, 0
+  index: -1

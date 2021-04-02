@@ -1,0 +1,208 @@
+
+effects_Watchmen_1_skill1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/glow_000
+  rotate: false
+  xy: 349, 21
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+images/effects/skill2/dibao/dibao_000
+  rotate: false
+  xy: 818, 16
+  size: 182, 129
+  orig: 315, 225
+  offset: 71, 13
+  index: -1
+images/effects/skill2/dibao/dibao_002
+  rotate: false
+  xy: 2, 587
+  size: 315, 213
+  orig: 315, 225
+  offset: 0, 8
+  index: -1
+images/effects/skill2/dibao/dibao_004
+  rotate: false
+  xy: 2, 802
+  size: 315, 220
+  orig: 315, 225
+  offset: 0, 5
+  index: -1
+images/effects/skill2/dibao/dibao_006
+  rotate: false
+  xy: 2, 364
+  size: 279, 221
+  orig: 315, 225
+  offset: 14, 4
+  index: -1
+images/effects/skill2/dibao/dibao_008
+  rotate: false
+  xy: 319, 802
+  size: 289, 220
+  orig: 315, 225
+  offset: 9, 2
+  index: -1
+images/effects/skill2/dibao/dibao_010
+  rotate: false
+  xy: 319, 591
+  size: 280, 209
+  orig: 315, 225
+  offset: 13, 5
+  index: -1
+images/effects/skill2/dibao/dibao_014
+  rotate: true
+  xy: 753, 195
+  size: 224, 120
+  orig: 315, 225
+  offset: 39, 24
+  index: -1
+images/effects/skill2/dibao/dibao_016
+  rotate: true
+  xy: 924, 890
+  size: 132, 65
+  orig: 315, 225
+  offset: 55, 54
+  index: -1
+images/effects/skill2/shifa/shifa_016
+  rotate: true
+  xy: 875, 147
+  size: 272, 100
+  orig: 315, 225
+  offset: 3, 28
+  index: -1
+images/effects/skill2/shifa/shifa_019
+  rotate: true
+  xy: 176, 52
+  size: 310, 171
+  orig: 315, 225
+  offset: 5, 28
+  index: -1
+images/effects/skill2/shifa/shifa_021
+  rotate: false
+  xy: 610, 852
+  size: 312, 170
+  orig: 315, 225
+  offset: 3, 28
+  index: -1
+images/effects/skill2/shifa/shifa_023
+  rotate: true
+  xy: 349, 113
+  size: 309, 168
+  orig: 315, 225
+  offset: 6, 29
+  index: -1
+images/effects/skill2/shifa/shifa_026
+  rotate: true
+  xy: 2, 52
+  size: 310, 172
+  orig: 315, 225
+  offset: 5, 27
+  index: -1
+images/effects/skill2/shifa/shifa_028
+  rotate: false
+  xy: 519, 2
+  size: 297, 173
+  orig: 315, 225
+  offset: 14, 29
+  index: -1
+images/effects/skill2/shifa/shifa_030
+  rotate: false
+  xy: 349, 424
+  size: 250, 165
+  orig: 315, 225
+  offset: 48, 38
+  index: -1
+images/effects/skill2/xialuo/xialuo_001
+  rotate: true
+  xy: 610, 789
+  size: 61, 388
+  orig: 90, 405
+  offset: 14, 6
+  index: -1
+images/effects/skill2/xialuo/xialuo_002
+  rotate: true
+  xy: 601, 697
+  size: 90, 390
+  orig: 90, 405
+  offset: 0, 4
+  index: -1
+images/effects/skill2/xialuo/xialuo_004
+  rotate: true
+  xy: 601, 605
+  size: 90, 380
+  orig: 90, 405
+  offset: 0, 8
+  index: -1
+images/effects/skill2/xialuo/xialuo_006
+  rotate: true
+  xy: 601, 513
+  size: 90, 375
+  orig: 90, 405
+  offset: 0, 8
+  index: -1
+images/effects/skill2/xialuo/xialuo_008
+  rotate: true
+  xy: 601, 421
+  size: 90, 374
+  orig: 90, 405
+  offset: 0, 9
+  index: -1
+images/effects/skill2/zhenfa_005
+  rotate: false
+  xy: 519, 177
+  size: 232, 242
+  orig: 270, 270
+  offset: 19, 22
+  index: -1
+
+effects_Watchmen_1_skill12.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/guangxian_000
+  rotate: true
+  xy: 458, 287
+  size: 222, 51
+  orig: 256, 61
+  offset: 14, 5
+  index: -1
+images/effects/skill2/dibao/dibao_012
+  rotate: false
+  xy: 2, 312
+  size: 272, 197
+  orig: 315, 225
+  offset: 19, 11
+  index: -1
+images/effects/skill2/shifa/shifa_017
+  rotate: true
+  xy: 2, 9
+  size: 301, 163
+  orig: 315, 225
+  offset: 5, 27
+  index: -1
+images/effects/skill2/xialuo/xialuo_000
+  rotate: false
+  xy: 276, 313
+  size: 90, 196
+  orig: 90, 405
+  offset: 0, 197
+  index: -1
+images/effects/skill2/xialuo/xialuo_011
+  rotate: false
+  xy: 368, 190
+  size: 88, 319
+  orig: 90, 405
+  offset: 2, 10
+  index: -1
+images/effects/skill2/xialuo/xialuo_014
+  rotate: false
+  xy: 167, 2
+  size: 88, 308
+  orig: 90, 405
+  offset: 2, 11
+  index: -1

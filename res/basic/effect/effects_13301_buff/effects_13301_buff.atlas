@@ -1,0 +1,117 @@
+
+effects_13301_buff.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/buff/buff_00000
+  rotate: false
+  xy: 576, 31
+  size: 283, 283
+  orig: 295, 295
+  offset: 4, 7
+  index: -1
+images/effects/buff/buff_00004
+  rotate: false
+  xy: 292, 27
+  size: 282, 287
+  orig: 295, 295
+  offset: 5, 2
+  index: -1
+images/effects/buff/buff_00006
+  rotate: true
+  xy: 583, 316
+  size: 283, 291
+  orig: 295, 295
+  offset: 5, 1
+  index: -1
+images/effects/buff/buff_00008
+  rotate: false
+  xy: 2, 2
+  size: 288, 293
+  orig: 295, 295
+  offset: 0, 1
+  index: -1
+images/effects/buff/buff_00010
+  rotate: false
+  xy: 2, 594
+  size: 288, 295
+  orig: 295, 295
+  offset: 0, 0
+  index: -1
+images/effects/buff/buff_00012
+  rotate: true
+  xy: 292, 603
+  size: 286, 295
+  orig: 295, 295
+  offset: 0, 0
+  index: -1
+images/effects/buff/buff_00014
+  rotate: false
+  xy: 2, 297
+  size: 288, 295
+  orig: 295, 295
+  offset: 6, 0
+  index: -1
+images/effects/buff/buff_00016
+  rotate: true
+  xy: 589, 601
+  size: 288, 292
+  orig: 295, 295
+  offset: 6, 3
+  index: -1
+images/effects/buff/buff_00018
+  rotate: true
+  xy: 292, 316
+  size: 285, 289
+  orig: 295, 295
+  offset: 7, 4
+  index: -1
+
+effects_13301_buff2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/buff/buff_00002
+  rotate: false
+  xy: 2, 573
+  size: 281, 285
+  orig: 295, 295
+  offset: 6, 9
+  index: -1
+images/effects/buff/buff_00020
+  rotate: false
+  xy: 285, 312
+  size: 281, 270
+  orig: 295, 295
+  offset: 7, 17
+  index: -1
+images/effects/buff/buff_00022
+  rotate: false
+  xy: 570, 586
+  size: 282, 272
+  orig: 295, 295
+  offset: 6, 17
+  index: -1
+images/effects/buff/buff_00024
+  rotate: false
+  xy: 285, 584
+  size: 283, 274
+  orig: 295, 295
+  offset: 5, 16
+  index: -1
+images/effects/buff/buff_00026
+  rotate: true
+  xy: 2, 2
+  size: 283, 274
+  orig: 295, 295
+  offset: 5, 16
+  index: -1
+images/effects/buff/buff_00028
+  rotate: true
+  xy: 2, 287
+  size: 284, 275
+  orig: 295, 295
+  offset: 4, 16
+  index: -1

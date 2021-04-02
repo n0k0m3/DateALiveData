@@ -1,0 +1,90 @@
+
+effects_shiyongshizhuang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fang_00000
+  rotate: false
+  xy: 809, 856
+  size: 58, 60
+  orig: 58, 60
+  offset: 0, 0
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 416
+  size: 656, 500
+  orig: 664, 500
+  offset: 8, 0
+  index: -1
+gong_00000
+  rotate: false
+  xy: 454, 352
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 304, 73
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1
+jie
+  rotate: false
+  xy: 745, 854
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+kai_00000
+  rotate: false
+  xy: 2, 2
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+neng_00000
+  rotate: false
+  xy: 745, 791
+  size: 59, 61
+  orig: 59, 61
+  offset: 0, 0
+  index: -1
+shenglidi
+  rotate: true
+  xy: 660, 424
+  size: 492, 83
+  orig: 494, 85
+  offset: 1, 1
+  index: -1
+suo
+  rotate: false
+  xy: 454, 288
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 2, 106
+  size: 450, 308
+  orig: 450, 320
+  offset: 0, 12
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 2, 66
+  size: 300, 38
+  orig: 300, 100
+  offset: 0, 31
+  index: -1
+xin_00000
+  rotate: false
+  xy: 518, 352
+  size: 61, 62
+  orig: 61, 62
+  offset: 0, 0
+  index: -1

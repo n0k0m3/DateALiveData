@@ -49,6 +49,7 @@ function LoginLayer:initUI(ui)
 		local logonImag = TFImage:create("ui/login/logo.png")
 		TFDirector:getChildByPath(ui , "logo"):addChild(logonImag)
 		logonImag:setPosition(-390 , 120)
+		logonImag:hide()
 	end
 
 	self.loginBoard = TFDirector:getChildByPath(ui,"loginBoard");

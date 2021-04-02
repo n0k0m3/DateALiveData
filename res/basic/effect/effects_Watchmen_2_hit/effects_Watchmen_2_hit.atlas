@@ -1,0 +1,62 @@
+
+effects_Watchmen_2_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/glow_000
+  rotate: false
+  xy: 2, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+images/effects/hith/hith_000
+  rotate: false
+  xy: 715, 804
+  size: 213, 188
+  orig: 270, 270
+  offset: 25, 41
+  index: -1
+images/effects/hith/hith_001
+  rotate: false
+  xy: 489, 770
+  size: 224, 222
+  orig: 270, 270
+  offset: 22, 24
+  index: -1
+images/effects/hith/hith_002
+  rotate: false
+  xy: 2, 338
+  size: 229, 222
+  orig: 270, 270
+  offset: 19, 24
+  index: -1
+images/effects/hith/hith_004
+  rotate: false
+  xy: 251, 780
+  size: 236, 212
+  orig: 270, 270
+  offset: 21, 31
+  index: -1
+images/effects/hith/hith_006
+  rotate: false
+  xy: 2, 778
+  size: 247, 214
+  orig: 270, 270
+  offset: 17, 34
+  index: -1
+images/effects/hith/hith_008
+  rotate: false
+  xy: 2, 562
+  size: 245, 214
+  orig: 270, 270
+  offset: 18, 34
+  index: -1
+images/effects/hith/hith_010
+  rotate: true
+  xy: 2, 94
+  size: 242, 206
+  orig: 270, 270
+  offset: 22, 37
+  index: -1

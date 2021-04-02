@@ -1,0 +1,54 @@
+
+angel_1131011.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b
+  rotate: false
+  xy: 988, 988
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+jian
+  rotate: false
+  xy: 538, 104
+  size: 448, 905
+  orig: 448, 905
+  offset: 0, 0
+  index: -1
+jian_TX
+  rotate: false
+  xy: 2, 158
+  size: 534, 851
+  orig: 534, 851
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: false
+  xy: 2, 67
+  size: 54, 40
+  orig: 54, 40
+  offset: 0, 0
+  index: -1
+saoguang
+  rotate: false
+  xy: 2, 109
+  size: 85, 47
+  orig: 85, 47
+  offset: 0, 0
+  index: -1
+
+angel_11310112.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jianqiao
+  rotate: false
+  xy: 2, 212
+  size: 628, 418
+  orig: 628, 418
+  offset: 0, 0
+  index: -1

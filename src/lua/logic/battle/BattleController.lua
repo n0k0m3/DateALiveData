@@ -1760,13 +1760,13 @@ function battleController.checkAndCreateSkillEx()
 end
 
 --额外的buff加成
-function battleController.getExtBuffList(heroId)
+function battleController.getExtBuffList(hero)
     local bufferIds = {}
     local data = BattleDataMgr:getLevelCfg()
 
 	--魔王试炼额外英雄buff
      if data.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
-		local buff = FubenDataMgr:getMonsterBuffByHeroId(heroId)
+		local buff = FubenDataMgr:getMonsterBuffByHeroId(hero.data.id)
 		table.insert(bufferIds, buff)
      end
 
@@ -1776,6 +1776,164 @@ function battleController.getExtBuffList(heroId)
         table.insert(bufferIds, v)  
     end
 
+    
+    -- 附加itemBuff(双旦大作战娱乐模式)
+    if data.dungeonType == EC_FBLevelType.SNOW_FESTIVAL then
+        local itemBuff = BattleDataMgr:getServerData().itemBuff or {}
+        for i,v in ipairs(itemBuff) do
+            local playerPid = v.pid
+            local itemBuffIds = v.buffId or {}
+            for i, itemBuffId in ipairs(itemBuffIds) do
+                if itemBuffId ~= 0 then
+                    local buffIds = TabDataMgr:getData("ItemOfBattleBuff", itemBuffId).buffIds
+                    for j, _buffId in ipairs(buffIds) do
+                        local buffCfg = TabDataMgr:getData("CombatModuleBuffMgr", _buffId)
+                        local targetType = buffCfg.targetType
+
+                        local isReachTrue = false
+                        if targetType == EC_ItemBuffTargetType.SELF then
+                            if hero.data.pid == playerPid then
+                                isReachTrue = true
+                            end
+                        elseif targetType == EC_ItemBuffTargetType.ALL_TEAM then
+                            if hero:getCampType() == eCampType.Hero then
+                                isReachTrue = true
+                            end
+                        elseif targetType == EC_ItemBuffTargetType.ALL_MONSTER then
+                            if hero:getCampType() ~= eCampType.Hero then
+                                isReachTrue = true
+                            end
+                        elseif targetType == EC_ItemBuffTargetType.ALL_SPIRIT then
+                            isReachTrue = true
+                        elseif targetType == EC_ItemBuffTargetType.ALL_ELITE_MONSTER then
+                            if hero:getCampType() == eCampType.Monster and hero:getMonsterType() == eMonsterType.MT_BOSS then
+                                isReachTrue = true
+                            end
+                        end
+
+                        if isReachTrue then
+                            table.insertTo(bufferIds, buffCfg.buffId)
+                        end
+                    end
+                end
+            end
+        end 
+    end
+
+    return bufferIds
+end
+
+function battleController.getAdditionBuff(hero)
+    local bufferIds = {}
+    local data = BattleDataMgr:getLevelCfg()
+    --满足特定条件buff
+    local addtionMap = TabDataMgr:getData("Addition")
+    for k,cfg in pairs(addtionMap) do
+        if cfg.type < 1000 then
+            local flag = true
+            for ptype,value in pairs(cfg.condition) do
+                if ptype == 1 then
+                    local count = 0
+                    for i,equipId in ipairs(value.equipList) do
+                        if EquipmentDataMgr:checkIsusing(hero.data.id,equipId) then
+                            count = count + 1
+                        end
+                    end
+                    if count ~= value.equipNum then
+                        flag = false
+                    end
+                elseif ptype == 2 then
+                    local heros = BattleDataMgr:getBattleData().heros
+                    local subFlag = false
+                    local count = 0
+                    for i,id in ipairs(value.heroFightList) do
+                        for j,heroData in ipairs(heros) do
+                            if heroData.id == id then
+                                count = count + 1
+                            end
+                        end
+                    end
+                    if count ~= value.heroFightNum then
+                        flag = false
+                    end
+                elseif ptype == 3 then
+                    local heros = BattleDataMgr:getBattleData().heros
+                    local subFlag = false
+                    for i,id in ipairs(value) do
+                        for j,heroData in ipairs(heros) do
+                            if heroData.roleType == eRoleType.Assist and heroData.id == id then
+                                subFlag = true
+                            end
+                        end
+                    end
+                    if not subFlag then
+                        flag = false
+                    end
+                elseif ptype == 4 then
+                    if TitleDataMgr:getEquipedTitleId() ~= value then
+                        flag = false
+                    end
+                elseif ptype == 5 then
+                    local havecard = tobool(RechargeDataMgr:getMonthCardLeftTime() > 0)
+                    flag = havecard
+                elseif ptype == 6 then
+                    flag = MainPlayer:getPlayerLv() >= value
+                elseif ptype == 7 then
+                    for i,medalId in ipairs(value) do
+                        local info = MedalDataMgr:getMedelInfoById(medalId)
+                        if not info then
+                            flag = false
+                        end
+                    end
+                elseif ptype == 8 then
+                    for i,taskId in ipairs(value) do
+                        local taskInfo = TaskDataMgr:getTaskInfo(taskId)
+                        if taskInfo and taskInfo.status == EC_TaskStatus.ING then
+                            flag = false
+                        end
+                    end
+                elseif ptype == 9 then
+                    for i,levelCid in ipairs(value) do
+                        if not FubenDataMgr:isPassPlotLevel(levelCid) then
+                            flag = false
+                        end
+                    end
+                elseif ptype == 10 then
+                    flag = false
+                    for i,levelType in ipairs(value) do
+                        local levelCfg = BattleDataMgr:getLevelCfg()
+                        if levelCfg.dungeonType == levelType then
+                            flag = true
+                        end
+                    end
+                elseif ptype == 11 then
+                    flag = false
+                    for i,levelId in ipairs(value) do
+                        local levelCfg = BattleDataMgr:getLevelCfg()
+                        if levelCfg.id == levelId then
+                            flag = true
+                        end
+                    end
+                end
+            end
+            if flag then
+                local buffData = cfg.effect[3] or {}
+                if buffData.buffid then
+                    for i,buffid in ipairs(buffData.buffid) do
+                        if buffData.heroid then
+                            if table.indexOf(buffData.heroid,hero.data.id) ~= -1 then
+                                table.insert(bufferIds, buffid)  
+                            end
+                        elseif buffData.campid then
+                            if table.indexOf(buffData.campid,hero:getCamp()) ~= -1 then
+                                table.insert(bufferIds, buffid)  
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
     return bufferIds
 end
 
@@ -1895,6 +2053,59 @@ function battleController.getPointBuffer(targetType)
         end
     end
     return bufferIds
+end
+
+function battleController.useCustomAttrModle(hero)
+    local data = BattleDataMgr:getLevelCfg()
+    if data.dungeonType == EC_FBLevelType.NIANSHOU then
+        return true
+    end
+    return false
+end
+
+function battleController.isHurtDataVaild(hurtData)
+    local data = BattleDataMgr:getLevelCfg()
+    if hurtData.dungeonType and hurtData.dungeonType == data.dungeonType then
+        return true
+    end
+    return false
+end
+
+function battleController.getCustomSkills(skills, hero)
+    local data = BattleDataMgr:getLevelCfg()
+    if data.dungeonType == EC_FBLevelType.NIANSHOU then
+        if hero:getCampType() == eCampType.Hero then
+            local realSkills = {}
+            for k,id in pairs(skills) do
+                local skillCfg = BattleDataMgr:getSkillData(id)
+                if skillCfg.skillType  ==  eSkillType.DODGE 
+                    or skillCfg.skillType  ==  eSkillType.DOWN
+                    or skillCfg.skillType  ==  eSkillType.STANDUP then
+                    table.insert(realSkills,id)
+                end
+            end
+            local cfg = TeamFightDataMgr:getBattleCfg()
+            if cfg and cfg.fixSkills then
+                for i,id in ipairs(cfg.fixSkills) do
+                    table.insert(realSkills,id)
+                end
+            end
+            local itemBuff = BattleDataMgr:getServerData().itemBuff or {}
+            for i,v in ipairs(itemBuff) do
+                if v.pid == hero.data.pid then
+                    local itemBuffIds = v.buffId or {}
+                    for i, itemBuffId in ipairs(itemBuffIds) do
+                        local itemBuffCfg = TabDataMgr:getData("ItemOfBattleBuff", itemBuffId)
+                        if itemBuffCfg.skillId > 0  then
+                            table.insert(realSkills,itemBuffCfg.skillId)
+                        end
+                    end
+                end
+            end
+            return realSkills
+        end
+    end
+    return skills
 end
 
 function battleController.initEndless()

@@ -1,0 +1,20 @@
+
+chenghao_xianqiandui.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xianqiandui_000
+  rotate: false
+  xy: 2, 125
+  size: 167, 44
+  orig: 178, 93
+  offset: 11, 28
+  index: -1
+images/xianqianduiglow_000
+  rotate: false
+  xy: 2, 71
+  size: 145, 52
+  orig: 178, 93
+  offset: 19, 24
+  index: -1

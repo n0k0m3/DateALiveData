@@ -1,0 +1,41 @@
+
+build_springFes_fireworksShop.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bz2
+  rotate: true
+  xy: 598, 293
+  size: 706, 394
+  orig: 706, 394
+  offset: 0, 0
+  index: -1
+bz3
+  rotate: false
+  xy: 100, 206
+  size: 95, 126
+  orig: 95, 126
+  offset: 0, 0
+  index: -1
+bz4
+  rotate: false
+  xy: 2, 334
+  size: 594, 665
+  orig: 594, 665
+  offset: 0, 0
+  index: -1
+bz5
+  rotate: false
+  xy: 2, 2
+  size: 96, 330
+  orig: 96, 330
+  offset: 0, 0
+  index: -1
+bz6
+  rotate: false
+  xy: 100, 51
+  size: 44, 153
+  orig: 44, 153
+  offset: 0, 0
+  index: -1

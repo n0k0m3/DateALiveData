@@ -1,0 +1,243 @@
+
+lan_nianshou_emo_2021.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+532
+  rotate: false
+  xy: 2, 162
+  size: 431, 394
+  orig: 431, 394
+  offset: 0, 0
+  index: -1
+533
+  rotate: false
+  xy: 913, 124
+  size: 102, 105
+  orig: 102, 105
+  offset: 0, 0
+  index: -1
+604
+  rotate: false
+  xy: 360, 628
+  size: 431, 394
+  orig: 431, 394
+  offset: 0, 0
+  index: -1
+biaoqing_0003
+  rotate: false
+  xy: 915, 652
+  size: 96, 70
+  orig: 96, 70
+  offset: 0, 0
+  index: -1
+biaoqing_0006
+  rotate: false
+  xy: 913, 2
+  size: 91, 120
+  orig: 91, 120
+  offset: 0, 0
+  index: -1
+biaoqing_0007
+  rotate: true
+  xy: 938, 349
+  size: 126, 63
+  orig: 126, 63
+  offset: 0, 0
+  index: -1
+biaoqing_0009
+  rotate: false
+  xy: 831, 231
+  size: 176, 102
+  orig: 176, 102
+  offset: 0, 0
+  index: -1
+biaoqing_0010
+  rotate: false
+  xy: 153, 43
+  size: 144, 117
+  orig: 144, 117
+  offset: 0, 0
+  index: -1
+biaoqing_0011
+  rotate: true
+  xy: 831, 482
+  size: 146, 105
+  orig: 146, 105
+  offset: 0, 0
+  index: -1
+biaoqing_0012
+  rotate: true
+  xy: 299, 4
+  size: 156, 103
+  orig: 156, 103
+  offset: 0, 0
+  index: -1
+biaoqing_0014
+  rotate: false
+  xy: 2, 558
+  size: 356, 464
+  orig: 356, 464
+  offset: 0, 0
+  index: -1
+biaoqing_0015
+  rotate: false
+  xy: 793, 724
+  size: 195, 298
+  orig: 195, 298
+  offset: 0, 0
+  index: -1
+biaoqing_0016
+  rotate: false
+  xy: 938, 477
+  size: 75, 173
+  orig: 75, 173
+  offset: 0, 0
+  index: -1
+biaoqing_0018
+  rotate: true
+  xy: 435, 195
+  size: 431, 394
+  orig: 431, 394
+  offset: 0, 0
+  index: -1
+erduo_0002
+  rotate: true
+  xy: 835, 13
+  size: 62, 75
+  orig: 62, 75
+  offset: 0, 0
+  index: -1
+erduo_0003
+  rotate: false
+  xy: 360, 570
+  size: 72, 56
+  orig: 72, 56
+  offset: 0, 0
+  index: -1
+h_kaixin
+  rotate: false
+  xy: 2, 32
+  size: 149, 128
+  orig: 149, 128
+  offset: 0, 0
+  index: -1
+h_ku
+  rotate: false
+  xy: 579, 77
+  size: 185, 116
+  orig: 185, 116
+  offset: 0, 0
+  index: -1
+h_meng
+  rotate: true
+  xy: 831, 335
+  size: 145, 105
+  orig: 145, 105
+  offset: 0, 0
+  index: -1
+h_zhuzi01
+  rotate: true
+  xy: 793, 630
+  size: 92, 120
+  orig: 92, 120
+  offset: 0, 0
+  index: -1
+h_zhuzi02
+  rotate: false
+  xy: 579, 12
+  size: 126, 63
+  orig: 126, 63
+  offset: 0, 0
+  index: -1
+l_shengqi
+  rotate: false
+  xy: 766, 77
+  size: 145, 116
+  orig: 145, 116
+  offset: 0, 0
+  index: -1
+l_shengqi01
+  rotate: false
+  xy: 435, 57
+  size: 142, 136
+  orig: 142, 136
+  offset: 0, 0
+  index: -1
+l_zhuzi012
+  rotate: false
+  xy: 707, 12
+  size: 126, 63
+  orig: 126, 63
+  offset: 0, 0
+  index: -1
+
+lan_nianshou_emo_20212.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+605
+  rotate: false
+  xy: 102, 127
+  size: 100, 105
+  orig: 100, 105
+  offset: 0, 0
+  index: -1
+biaoqing_0001
+  rotate: false
+  xy: 2, 32
+  size: 63, 66
+  orig: 63, 66
+  offset: 0, 0
+  index: -1
+biaoqing_0008
+  rotate: false
+  xy: 365, 532
+  size: 360, 296
+  orig: 360, 296
+  offset: 0, 0
+  index: -1
+biaoqing_0013
+  rotate: false
+  xy: 2, 100
+  size: 98, 132
+  orig: 98, 132
+  offset: 0, 0
+  index: -1
+biaoqing_0017
+  rotate: false
+  xy: 727, 723
+  size: 101, 105
+  orig: 101, 105
+  offset: 0, 0
+  index: -1
+erduo_0001
+  rotate: false
+  xy: 365, 352
+  size: 61, 56
+  orig: 61, 56
+  offset: 0, 0
+  index: -1
+h_toutao01
+  rotate: false
+  xy: 2, 532
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+l_shizitou
+  rotate: false
+  xy: 2, 234
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+l_zhuzi01
+  rotate: false
+  xy: 365, 410
+  size: 91, 120
+  orig: 91, 120
+  offset: 0, 0
+  index: -1

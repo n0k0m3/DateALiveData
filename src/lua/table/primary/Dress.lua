@@ -5821,7 +5821,7 @@ return {
         roleModel = 210122,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 185,
+            [1] = 155,
         },
         icon = "icon/role/dress_kanban/10122.png",
     },
@@ -6074,7 +6074,7 @@ return {
         roleModel = 210122,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 185,
+            [1] = 155,
         },
         icon = "icon/role/dress_kanban/10123.png",
     },

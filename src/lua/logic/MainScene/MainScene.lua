@@ -30,6 +30,11 @@ function MainScene:ctor(data)
     if not CUtils.getVersion or CUtils.getVersion() ~= "1.0.0" then
         me.Director:endToLua();
     end
+    if RELEASE_TEST then
+        self.testView = require("lua.logic.test.TestView"):new()
+        self:addChild(self.testView)
+        self.testView:setZOrder(9999)
+    end
 end
 
 function MainScene:onEnter()

@@ -1,0 +1,117 @@
+
+angel_1132011.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fxpiao1
+  rotate: false
+  xy: 880, 96
+  size: 60, 76
+  orig: 60, 78
+  offset: 0, 1
+  index: -1
+fxpiao2
+  rotate: true
+  xy: 942, 105
+  size: 67, 60
+  orig: 67, 62
+  offset: 0, 1
+  index: -1
+fxq1
+  rotate: false
+  xy: 2, 61
+  size: 753, 961
+  orig: 756, 962
+  offset: 2, 1
+  index: -1
+fxq1_1
+  rotate: false
+  xy: 757, 242
+  size: 253, 254
+  orig: 255, 258
+  offset: 0, 1
+  index: -1
+fxq3
+  rotate: true
+  xy: 757, 56
+  size: 116, 121
+  orig: 116, 121
+  offset: 0, 0
+  index: -1
+tadizuo
+  rotate: true
+  xy: 757, 498
+  size: 524, 193
+  orig: 524, 194
+  offset: 0, 0
+  index: -1
+tah1
+  rotate: false
+  xy: 757, 174
+  size: 239, 66
+  orig: 239, 66
+  offset: 0, 0
+  index: -1
+tah2
+  rotate: true
+  xy: 952, 647
+  size: 134, 62
+  orig: 134, 62
+  offset: 0, 0
+  index: -1
+tah3
+  rotate: false
+  xy: 94, 23
+  size: 90, 36
+  orig: 90, 37
+  offset: 0, 0
+  index: -1
+tah4
+  rotate: false
+  xy: 880, 66
+  size: 58, 28
+  orig: 58, 29
+  offset: 0, 0
+  index: -1
+taq1
+  rotate: true
+  xy: 952, 783
+  size: 239, 61
+  orig: 239, 62
+  offset: 0, 1
+  index: -1
+taq2
+  rotate: true
+  xy: 952, 511
+  size: 134, 64
+  orig: 134, 65
+  offset: 0, 1
+  index: -1
+taq3
+  rotate: false
+  xy: 2, 20
+  size: 90, 39
+  orig: 90, 39
+  offset: 0, 0
+  index: -1
+taq4
+  rotate: true
+  xy: 186, 2
+  size: 57, 28
+  orig: 57, 28
+  offset: 0, 0
+  index: -1
+
+angel_11320112.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tashen
+  rotate: false
+  xy: 2, 2
+  size: 306, 553
+  orig: 306, 553
+  offset: 0, 0
+  index: -1

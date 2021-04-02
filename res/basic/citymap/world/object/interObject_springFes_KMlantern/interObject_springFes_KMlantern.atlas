@@ -1,0 +1,41 @@
+
+interObject_springFes_KMlantern.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ggg2
+  rotate: false
+  xy: 317, 22
+  size: 221, 221
+  orig: 221, 221
+  offset: 0, 0
+  index: -1
+kmd1
+  rotate: true
+  xy: 2, 10
+  size: 233, 313
+  orig: 233, 313
+  offset: 0, 0
+  index: -1
+kmd2
+  rotate: true
+  xy: 540, 140
+  size: 103, 297
+  orig: 103, 297
+  offset: 0, 0
+  index: -1
+kmd3
+  rotate: false
+  xy: 540, 2
+  size: 182, 136
+  orig: 182, 136
+  offset: 0, 0
+  index: -1
+kmd5
+  rotate: false
+  xy: 724, 85
+  size: 195, 53
+  orig: 195, 53
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+SDeffect_910003.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hua
+  rotate: false
+  xy: 2, 73
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+images/huaban/1
+  rotate: false
+  xy: 56, 97
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+images/huaban/2
+  rotate: false
+  xy: 2, 35
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+images/huaban/3
+  rotate: false
+  xy: 2, 2
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1
+images/huaban/4
+  rotate: false
+  xy: 40, 35
+  size: 26, 36
+  orig: 26, 36
+  offset: 0, 0
+  index: -1
+images/huaban/5
+  rotate: true
+  xy: 58, 6
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+images/huaban/6
+  rotate: true
+  xy: 93, 98
+  size: 28, 30
+  orig: 28, 30
+  offset: 0, 0
+  index: -1
+images/huaban/7
+  rotate: false
+  xy: 30, 2
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1

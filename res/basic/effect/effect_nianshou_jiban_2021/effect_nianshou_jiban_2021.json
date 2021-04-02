@@ -1,0 +1,123 @@
+{
+"skeleton": { "hash": "Ky169SC0bku6luQ8NduygkrCqf8", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "dian1", "parent": "root" },
+	{ "name": "dian2", "parent": "root" }
+],
+"slots": [
+	{ "name": "dian1", "bone": "dian1" },
+	{ "name": "dian2", "bone": "dian2" }
+],
+"skins": {
+	"default": {
+		"dian1": {
+			"images/d_00000": { "width": 358, "height": 82 },
+			"images/d_00003": { "width": 358, "height": 82 },
+			"images/d_00005": { "width": 358, "height": 82 },
+			"images/d_00007": { "width": 358, "height": 82 },
+			"images/d_00010": { "width": 358, "height": 82 },
+			"images/d_00012": { "width": 358, "height": 82 },
+			"images/d_00014": { "width": 358, "height": 82 },
+			"images/d_00016": { "width": 358, "height": 82 },
+			"images/d_00018": { "width": 358, "height": 82 },
+			"images/d_00019": { "width": 358, "height": 82 }
+		},
+		"dian2": {
+			"images/sd_00000": { "width": 409, "height": 85 },
+			"images/sd_00002": { "width": 409, "height": 85 },
+			"images/sd_00003": { "width": 409, "height": 85 },
+			"images/sd_00004": { "width": 409, "height": 85 },
+			"images/sd_00006": { "width": 409, "height": 85 },
+			"images/sd_00007": { "width": 409, "height": 85 },
+			"images/sd_00008": { "width": 409, "height": 85 },
+			"images/sd_00009": { "width": 409, "height": 85 },
+			"images/sd_00010": { "width": 409, "height": 85 },
+			"images/sd_00012": { "width": 409, "height": 85 },
+			"images/sd_00013": { "width": 409, "height": 85 },
+			"images/sd_00014": { "width": 409, "height": 85 },
+			"images/sd_00015": { "width": 409, "height": 85 },
+			"images/sd_00017": { "width": 409, "height": 85 },
+			"images/sd_00018": { "width": 409, "height": 85 },
+			"images/sd_00019": { "width": 409, "height": 85 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"dian1": {
+				"attachment": [
+					{ "time": 0, "name": "images/d_00000" },
+					{ "time": 0.0333, "name": "images/d_00000" },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.1, "name": "images/d_00003" },
+					{ "time": 0.1333, "name": "images/d_00005" },
+					{ "time": 0.2, "name": "images/d_00007" },
+					{ "time": 0.2666, "name": "images/d_00010" },
+					{ "time": 0.3333, "name": "images/d_00012" },
+					{ "time": 0.4, "name": "images/d_00014" },
+					{ "time": 0.4666, "name": "images/d_00016" },
+					{ "time": 0.5333, "name": "images/d_00018" },
+					{ "time": 0.6, "name": "images/d_00019" }
+				]
+			}
+		},
+		"bones": {
+			"dian1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"dian2": {
+				"attachment": [
+					{ "time": 0, "name": "images/sd_00000" },
+					{ "time": 0.0666, "name": "images/sd_00002" },
+					{ "time": 0.1333, "name": "images/sd_00003" },
+					{ "time": 0.2, "name": "images/sd_00004" },
+					{ "time": 0.2666, "name": "images/sd_00006" },
+					{ "time": 0.3333, "name": "images/sd_00007" },
+					{ "time": 0.4, "name": "images/sd_00008" },
+					{ "time": 0.4666, "name": "images/sd_00009" },
+					{ "time": 0.5333, "name": "images/sd_00010" },
+					{ "time": 0.6, "name": "images/sd_00012" },
+					{ "time": 0.6666, "name": "images/sd_00013" },
+					{ "time": 0.7333, "name": "images/sd_00014" },
+					{ "time": 0.8, "name": "images/sd_00015" },
+					{ "time": 0.8666, "name": "images/sd_00017" },
+					{ "time": 0.9333, "name": "images/sd_00018" },
+					{ "time": 1, "name": "images/sd_00019" }
+				]
+			}
+		},
+		"bones": {
+			"dian2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

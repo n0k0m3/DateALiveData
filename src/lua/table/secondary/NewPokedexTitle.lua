@@ -18,13 +18,13 @@ return {
     [3] = {
         isOpen = true,
         name = 1701230,
-        cup = 2000,
+        cup = 3000,
         id = 3,
         icon = "icon/pokedexActivity/a3.png",
         describe = 1710533,
     },
     [4] = {
-        isOpen = false,
+        isOpen = true,
         name = 1701231,
         cup = 5000,
         id = 4,
@@ -32,9 +32,9 @@ return {
         describe = 1710534,
     },
     [5] = {
-        isOpen = false,
+        isOpen = true,
         name = 1701232,
-        cup = 10000,
+        cup = 7000,
         id = 5,
         icon = "icon/pokedexActivity/a5.png",
         describe = 1710535,

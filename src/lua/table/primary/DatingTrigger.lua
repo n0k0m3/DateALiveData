@@ -130,4 +130,95 @@ return {
         triggerParam = {
         },
     },
+    [13] = {
+        isRepeatable = false,
+        datingRuleId = 10001,
+        name = 0,
+        id = 13,
+        triggerType = "onShow",
+        fileName = "MaokaMainLayer",
+        triggerParam = {
+        },
+    },
+    [14] = {
+        isRepeatable = false,
+        datingRuleId = 10011,
+        name = 0,
+        id = 14,
+        triggerType = "onShow",
+        fileName = "AmusementPackMainView",
+        triggerParam = {
+        },
+    },
+    [15] = {
+        isRepeatable = false,
+        datingRuleId = 749071,
+        name = 0,
+        id = 15,
+        triggerType = "onShow",
+        fileName = "BuildRepairView",
+        triggerParam = {
+        },
+    },
+    [16] = {
+        isRepeatable = false,
+        datingRuleId = 10012,
+        name = 0,
+        id = 16,
+        triggerType = "onShow2",
+        fileName = "BuildRepairView",
+        triggerParam = {
+            repairsBuildLevel = 9,
+        },
+    },
+    [17] = {
+        isRepeatable = false,
+        datingRuleId = 749070,
+        name = 0,
+        id = 17,
+        triggerType = "onShow",
+        fileName = "FireFactoryView",
+        triggerParam = {
+        },
+    },
+    [18] = {
+        isRepeatable = false,
+        datingRuleId = 749068,
+        name = 0,
+        id = 18,
+        triggerType = "onShow",
+        fileName = "GuessWordMainView",
+        triggerParam = {
+        },
+    },
+    [19] = {
+        isRepeatable = false,
+        datingRuleId = 749067,
+        name = 0,
+        id = 19,
+        triggerType = "onShow",
+        fileName = "NianShouChallegeView",
+        triggerParam = {
+        },
+    },
+    [20] = {
+        isRepeatable = false,
+        datingRuleId = 749069,
+        name = 0,
+        id = 20,
+        triggerType = "onShow",
+        fileName = "NewyearTaskView",
+        triggerParam = {
+        },
+    },
+    [21] = {
+        isRepeatable = false,
+        datingRuleId = 749066,
+        name = 0,
+        id = 21,
+        triggerType = "onShow",
+        fileName = "FireworkStoreView",
+        triggerParam = {
+        },
+    },
 }

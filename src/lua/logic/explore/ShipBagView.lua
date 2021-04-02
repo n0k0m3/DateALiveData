@@ -46,37 +46,45 @@ function ShipBagView:initUILogic()
         -- body
         return v1.cid > v2.cid
     end)
-    for k,v in pairs(showList) do
-        local itemCfg = GoodsDataMgr:getItemCfg(v.cid)
-        if itemCfg then
 
-            local Panel_Item = self.GridView_award:pushBackDefaultItem()
-            local Image_icon = TFDirector:getChildByPath(Panel_Item,"Image_icon")
-            local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+    self.GridView_award:AsyncUpdateItem(showList,function( Panel_Item,v )
+        local itemCfg = GoodsDataMgr:getItemCfg(v.cid)
+        local Image_icon = TFDirector:getChildByPath(Panel_Item,"Image_icon")
+        local Panel_goodsItem = Image_icon.goods
+        if not Panel_goodsItem then
+            Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
             Panel_goodsItem:setAnchorPoint(ccp(0.5,0.5))
             Panel_goodsItem:setPosition(ccp(0,0))
             Panel_goodsItem:setScale(0.7)
             Image_icon:addChild(Panel_goodsItem)
-            PrefabDataMgr:setInfo(Panel_goodsItem, v.cid, v.num)
-
-            local Image_select = TFDirector:getChildByPath(Panel_Item,"Image_select"):hide()
-            if not self.select then
-                self.select = Image_select
-                self.Label_Name:setTextById(itemCfg.nameTextId)
-                self.Label_desc:setTextById(itemCfg.desTextId)
-                Image_select:show()
-            end
-            Panel_goodsItem:onClick(function()
-                if self.select then
-                    self.select:hide()
-                end
-                Image_select:show()
-                self.select = Image_select
-                self.Label_Name:setTextById(itemCfg.nameTextId)
-                self.Label_desc:setTextById(itemCfg.desTextId)
-            end)
+            Image_icon.goods = Panel_goodsItem
         end
-    end
+        PrefabDataMgr:setInfo(Panel_goodsItem, v.cid, v.num)
+
+        local Image_select = TFDirector:getChildByPath(Panel_Item,"Image_select"):hide()
+        if not self.select then
+            self.select = Image_select
+            self.Label_Name:setTextById(itemCfg.nameTextId)
+            self.Label_desc:setTextById(itemCfg.desTextId)
+            Image_select:show()
+        end
+        Panel_goodsItem:onClick(function()
+            if self.select then
+                self.select:hide()
+            end
+            Image_select:show()
+            self.select = Image_select
+            self.Label_Name:setTextById(itemCfg.nameTextId)
+            self.Label_desc:setTextById(itemCfg.desTextId)
+        end)
+    end,
+    function ( data )
+        local itemCfg = GoodsDataMgr:getItemCfg(data.cid)
+        if itemCfg then
+            local Panel_Item = self.GridView_award:pushBackDefaultItem()
+            return Panel_Item
+        end
+    end)
 end
 
 function ShipBagView:registerEvents()

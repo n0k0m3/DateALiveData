@@ -1,0 +1,139 @@
+
+effects_13107_qiuckmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+born/glow
+  rotate: false
+  xy: 417, 637
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+qiuckmove/canying_00003
+  rotate: false
+  xy: 268, 746
+  size: 147, 101
+  orig: 310, 163
+  offset: 77, 26
+  index: -1
+qiuckmove/canying_00004
+  rotate: false
+  xy: 268, 643
+  size: 147, 101
+  orig: 310, 163
+  offset: 77, 26
+  index: -1
+qiuckmove/guangxian
+  rotate: true
+  xy: 59, 212
+  size: 185, 11
+  orig: 185, 11
+  offset: 0, 0
+  index: -1
+qiuckmove/qilang/qilang_00002
+  rotate: true
+  xy: 497, 729
+  size: 118, 63
+  orig: 166, 114
+  offset: 48, 26
+  index: -1
+qiuckmove/qilang/qilang_00004
+  rotate: true
+  xy: 417, 714
+  size: 133, 78
+  orig: 166, 114
+  offset: 33, 18
+  index: -1
+qiuckmove/qilang/qilang_00006
+  rotate: false
+  xy: 808, 944
+  size: 138, 72
+  orig: 166, 114
+  offset: 28, 23
+  index: -1
+qiuckmove/qilang/qilang_00008
+  rotate: true
+  xy: 2, 2
+  size: 130, 68
+  orig: 166, 114
+  offset: 24, 26
+  index: -1
+qiuckmove/qiuckmove_hou/qiuckmove_hou_00001
+  rotate: false
+  xy: 2, 944
+  size: 271, 72
+  orig: 347, 105
+  offset: 41, 14
+  index: -1
+qiuckmove/qiuckmove_hou/qiuckmove_hou_00002
+  rotate: true
+  xy: 68, 690
+  size: 252, 72
+  orig: 347, 105
+  offset: 49, 14
+  index: -1
+qiuckmove/qiuckmove_hou/qiuckmove_hou_00003
+  rotate: true
+  xy: 142, 689
+  size: 253, 70
+  orig: 347, 105
+  offset: 48, 16
+  index: -1
+qiuckmove/qiuckmove_hou/qiuckmove_hou_00004
+  rotate: false
+  xy: 546, 957
+  size: 260, 59
+  orig: 347, 105
+  offset: 55, 18
+  index: -1
+qiuckmove/qiuckmove_hou/qiuckmove_hou_00005
+  rotate: false
+  xy: 275, 955
+  size: 269, 61
+  orig: 347, 105
+  offset: 49, 19
+  index: -1
+qiuckmove/qiuckmove_hou/qiuckmove_hou_00006
+  rotate: true
+  xy: 2, 666
+  size: 276, 64
+  orig: 347, 105
+  offset: 42, 19
+  index: -1
+qiuckmove/qiuckmove_hou/qiuckmove_hou_00007
+  rotate: true
+  xy: 2, 399
+  size: 265, 61
+  orig: 347, 105
+  offset: 53, 21
+  index: -1
+qiuckmove/qiuckmove_hou/qiuckmove_hou_00008
+  rotate: true
+  xy: 2, 134
+  size: 263, 55
+  orig: 347, 105
+  offset: 53, 22
+  index: -1
+qiuckmove/qiuckmove_hou/qiuckmove_hou_00009
+  rotate: false
+  xy: 275, 902
+  size: 262, 51
+  orig: 347, 105
+  offset: 52, 24
+  index: -1
+qiuckmove/qiuckmove_hou/qiuckmove_hou_00010
+  rotate: true
+  xy: 214, 680
+  size: 262, 52
+  orig: 347, 105
+  offset: 51, 24
+  index: -1
+qiuckmove/qiuckmove_hou/qiuckmove_hou_00011
+  rotate: false
+  xy: 268, 849
+  size: 259, 51
+  orig: 347, 105
+  offset: 53, 24
+  index: -1

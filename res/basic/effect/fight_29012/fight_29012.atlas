@@ -1,0 +1,278 @@
+
+fight_29012.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bozi
+  rotate: true
+  xy: 457, 507
+  size: 223, 217
+  orig: 223, 217
+  offset: 0, 0
+  index: -1
+bozi03
+  rotate: true
+  xy: 414, 16
+  size: 118, 196
+  orig: 118, 196
+  offset: 0, 0
+  index: -1
+bupian 02
+  rotate: true
+  xy: 726, 39
+  size: 96, 63
+  orig: 96, 63
+  offset: 0, 0
+  index: -1
+bupian01
+  rotate: false
+  xy: 676, 400
+  size: 79, 68
+  orig: 79, 68
+  offset: 0, 0
+  index: -1
+bupian03
+  rotate: true
+  xy: 605, 453
+  size: 52, 69
+  orig: 52, 69
+  offset: 0, 0
+  index: -1
+bupian04
+  rotate: false
+  xy: 605, 323
+  size: 63, 64
+  orig: 63, 64
+  offset: 0, 0
+  index: -1
+guanjie01
+  rotate: false
+  xy: 612, 2
+  size: 112, 133
+  orig: 112, 133
+  offset: 0, 0
+  index: -1
+guanjie02
+  rotate: false
+  xy: 674, 327
+  size: 51, 71
+  orig: 51, 71
+  offset: 0, 0
+  index: -1
+guanjie03
+  rotate: true
+  xy: 676, 534
+  size: 92, 87
+  orig: 92, 87
+  offset: 0, 0
+  index: -1
+guanjie04
+  rotate: false
+  xy: 676, 470
+  size: 87, 62
+  orig: 87, 62
+  offset: 0, 0
+  index: -1
+pigu
+  rotate: true
+  xy: 797, 152
+  size: 163, 212
+  orig: 163, 212
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 765, 317
+  size: 256, 297
+  orig: 256, 297
+  offset: 0, 0
+  index: -1
+shenti2
+  rotate: true
+  xy: 605, 137
+  size: 178, 190
+  orig: 178, 190
+  offset: 0, 0
+  index: -1
+tui01
+  rotate: false
+  xy: 2, 506
+  size: 453, 516
+  orig: 453, 516
+  offset: 0, 0
+  index: -1
+tui02
+  rotate: false
+  xy: 238, 136
+  size: 365, 368
+  orig: 365, 368
+  offset: 0, 0
+  index: -1
+tui03
+  rotate: true
+  xy: 612, 832
+  size: 190, 332
+  orig: 190, 332
+  offset: 0, 0
+  index: -1
+tui04
+  rotate: true
+  xy: 767, 616
+  size: 200, 255
+  orig: 200, 255
+  offset: 0, 0
+  index: -1
+tuijia02
+  rotate: true
+  xy: 797, 10
+  size: 140, 200
+  orig: 140, 200
+  offset: 0, 0
+  index: -1
+tuijia03
+  rotate: false
+  xy: 457, 732
+  size: 140, 290
+  orig: 140, 290
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: true
+  xy: 2, 41
+  size: 463, 234
+  orig: 463, 234
+  offset: 0, 0
+  index: -1
+weiba01
+  rotate: false
+  xy: 238, 9
+  size: 174, 125
+  orig: 174, 125
+  offset: 0, 0
+  index: -1
+weiba02
+  rotate: false
+  xy: 676, 628
+  size: 88, 102
+  orig: 88, 102
+  offset: 0, 0
+  index: -1
+weiba03
+  rotate: false
+  xy: 946, 939
+  size: 74, 83
+  orig: 74, 83
+  offset: 0, 0
+  index: -1
+weiba04
+  rotate: true
+  xy: 605, 389
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+weiba05
+  rotate: false
+  xy: 946, 889
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: -1
+weiba06
+  rotate: true
+  xy: 946, 818
+  size: 69, 71
+  orig: 69, 71
+  offset: 0, 0
+  index: -1
+weijian
+  rotate: true
+  xy: 599, 732
+  size: 98, 166
+  orig: 98, 166
+  offset: 0, 0
+  index: -1
+
+fight_290122.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bozi01
+  rotate: false
+  xy: 406, 733
+  size: 135, 171
+  orig: 135, 171
+  offset: 0, 0
+  index: -1
+bozi02
+  rotate: false
+  xy: 2, 2
+  size: 116, 181
+  orig: 116, 181
+  offset: 0, 0
+  index: -1
+buding1
+  rotate: false
+  xy: 170, 603
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+daodan
+  rotate: false
+  xy: 406, 906
+  size: 242, 85
+  orig: 242, 85
+  offset: 0, 0
+  index: -1
+paotai
+  rotate: true
+  xy: 2, 442
+  size: 271, 166
+  orig: 271, 166
+  offset: 0, 0
+  index: -1
+paotaidizuo
+  rotate: true
+  xy: 106, 329
+  size: 111, 42
+  orig: 111, 42
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 715
+  size: 237, 276
+  orig: 237, 276
+  offset: 0, 0
+  index: -1
+tuijia01_1
+  rotate: false
+  xy: 241, 727
+  size: 163, 264
+  orig: 163, 264
+  offset: 0, 0
+  index: -1
+tuijia01_2
+  rotate: false
+  xy: 543, 742
+  size: 116, 162
+  orig: 116, 162
+  offset: 0, 0
+  index: -1
+tuijia04
+  rotate: false
+  xy: 2, 185
+  size: 102, 255
+  orig: 102, 255
+  offset: 0, 0
+  index: -1
+weiba07
+  rotate: false
+  xy: 650, 939
+  size: 43, 52
+  orig: 43, 52
+  offset: 0, 0
+  index: -1

@@ -94,7 +94,7 @@ function KeyStateMgr.getKeyState()
     return this.keyState
 end
 
-function KeyStateMgr.doKeyPressed(keyCode)
+function KeyStateMgr.doKeyPressed(keyCode,skillSubId)
     -- print("Pressed :",keyCode , this.isEnable(),this.isValidKey(keyCode))
     if not this.isEnable() then
         return
@@ -105,12 +105,12 @@ function KeyStateMgr.doKeyPressed(keyCode)
         KeyStateMgr.keyCodeToAngle()
     else
         if this.isValidKey(keyCode) then
-            this.createAndPush(keyCode,eKeyEventType.DOWN)
+            this.createAndPush(keyCode,eKeyEventType.DOWN,skillSubId)
         end
     end
 end
 
-function KeyStateMgr.doKeyReleased(keyCode)
+function KeyStateMgr.doKeyReleased(keyCode,skillSubId)
     -- print("Released :",keyCode)
     if not this.isEnable() then
         return
@@ -126,7 +126,7 @@ function KeyStateMgr.doKeyReleased(keyCode)
 end
 
 --按键长按(从按键按下开始即时超过一定的时间)
-function KeyStateMgr.doKeyDoing(keyCode)
+function KeyStateMgr.doKeyDoing(keyCode,skillSubId)
     if not this.isEnable() then
         return
     end
@@ -160,10 +160,10 @@ function KeyStateMgr.clear()
     this.agent = nil
 end
 
-function KeyStateMgr.createAndPush(keyCode,eventType)
+function KeyStateMgr.createAndPush(keyCode,eventType,skillSubId)
     if not this.isEnable() then  return end
     if this.agent then
-        this.agent:createAndPush(keyCode,eventType)
+        this.agent:createAndPush(keyCode,eventType,skillSubId)
     end
 end
 

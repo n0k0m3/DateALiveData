@@ -1,0 +1,292 @@
+
+effects_29010_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JB/c/baolizi/baolizi_004
+  rotate: false
+  xy: 774, 782
+  size: 244, 238
+  orig: 300, 300
+  offset: 29, 49
+  index: -1
+JB/c/baolizi/baolizi_010
+  rotate: true
+  xy: 774, 255
+  size: 268, 161
+  orig: 300, 300
+  offset: 6, 31
+  index: -1
+JB/c/boom/boom_000
+  rotate: false
+  xy: 382, 85
+  size: 367, 310
+  orig: 400, 333
+  offset: 18, 11
+  index: -1
+JB/c/boom/boom_001
+  rotate: false
+  xy: 2, 387
+  size: 378, 318
+  orig: 400, 333
+  offset: 16, 3
+  index: -1
+JB/c/boom/boom_002
+  rotate: false
+  xy: 393, 700
+  size: 379, 320
+  orig: 400, 333
+  offset: 15, 2
+  index: -1
+JB/c/boom/boom_004
+  rotate: false
+  xy: 2, 707
+  size: 389, 313
+  orig: 400, 333
+  offset: 5, 7
+  index: -1
+JB/c/boom/boom_006
+  rotate: false
+  xy: 382, 397
+  size: 390, 301
+  orig: 400, 333
+  offset: 4, 7
+  index: -1
+JB/c/boom/boom_010
+  rotate: true
+  xy: 2, 97
+  size: 288, 276
+  orig: 400, 333
+  offset: 41, 13
+  index: -1
+JB/c/boom/boom_012
+  rotate: true
+  xy: 774, 525
+  size: 255, 176
+  orig: 400, 333
+  offset: 74, 75
+  index: -1
+JB/c/boom/boom_014
+  rotate: true
+  xy: 751, 12
+  size: 241, 162
+  orig: 400, 333
+  offset: 76, 89
+  index: -1
+JB/c/dian/dian_009
+  rotate: true
+  xy: 280, 230
+  size: 155, 93
+  orig: 200, 200
+  offset: 24, 52
+  index: -1
+JB/c/dian/dian_017
+  rotate: true
+  xy: 280, 107
+  size: 121, 94
+  orig: 200, 200
+  offset: 31, 96
+  index: -1
+JB/c/dian/dian_019
+  rotate: false
+  xy: 619, 6
+  size: 94, 77
+  orig: 200, 200
+  offset: 32, 116
+  index: -1
+JB/c/dian2/dian2_004
+  rotate: true
+  xy: 915, 6
+  size: 111, 102
+  orig: 220, 150
+  offset: 66, 31
+  index: -1
+JB/c/yan/yan_004
+  rotate: false
+  xy: 952, 327
+  size: 65, 200
+  orig: 100, 250
+  offset: 17, 13
+  index: -1
+JB/c/yan/yan_006
+  rotate: true
+  xy: 409, 11
+  size: 72, 208
+  orig: 100, 250
+  offset: 13, 21
+  index: -1
+JB/c/yan/yan_008
+  rotate: true
+  xy: 2, 6
+  size: 77, 208
+  orig: 100, 250
+  offset: 12, 26
+  index: -1
+JB/c/yan/yan_010
+  rotate: false
+  xy: 937, 119
+  size: 80, 206
+  orig: 100, 250
+  offset: 10, 30
+  index: -1
+JB/c/yan/yan_012
+  rotate: true
+  xy: 212, 2
+  size: 81, 195
+  orig: 100, 250
+  offset: 10, 43
+  index: -1
+JB/guangquan_000
+  rotate: true
+  xy: 952, 529
+  size: 251, 59
+  orig: 256, 70
+  offset: 3, 5
+  index: -1
+
+effects_29010_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JB/c/baolizi/baolizi_000
+  rotate: false
+  xy: 819, 868
+  size: 142, 154
+  orig: 300, 300
+  offset: 106, 84
+  index: -1
+JB/c/baolizi/baolizi_002
+  rotate: false
+  xy: 2, 259
+  size: 208, 193
+  orig: 300, 300
+  offset: 56, 67
+  index: -1
+JB/c/baolizi/baolizi_006
+  rotate: false
+  xy: 390, 759
+  size: 264, 263
+  orig: 300, 300
+  offset: 14, 36
+  index: -1
+JB/c/baolizi/baolizi_008
+  rotate: false
+  xy: 2, 454
+  size: 276, 273
+  orig: 300, 300
+  offset: 5, 26
+  index: -1
+JB/c/boom/boom_008
+  rotate: false
+  xy: 2, 729
+  size: 386, 293
+  orig: 400, 333
+  offset: 6, 5
+  index: -1
+JB/c/dian/dian_000
+  rotate: true
+  xy: 406, 522
+  size: 96, 103
+  orig: 200, 200
+  offset: 7, 44
+  index: -1
+JB/c/dian/dian_001
+  rotate: true
+  xy: 534, 617
+  size: 140, 120
+  orig: 200, 200
+  offset: 54, 25
+  index: -1
+JB/c/dian/dian_003
+  rotate: false
+  xy: 2, 78
+  size: 161, 179
+  orig: 200, 200
+  offset: 33, 5
+  index: -1
+JB/c/dian/dian_005
+  rotate: false
+  xy: 656, 839
+  size: 161, 183
+  orig: 200, 200
+  offset: 11, 8
+  index: -1
+JB/c/dian/dian_007
+  rotate: true
+  xy: 280, 558
+  size: 169, 124
+  orig: 200, 200
+  offset: 6, 16
+  index: -1
+JB/c/dian/dian_011
+  rotate: false
+  xy: 399, 460
+  size: 86, 60
+  orig: 200, 200
+  offset: 98, 13
+  index: -1
+JB/c/dian/dian_013
+  rotate: false
+  xy: 656, 740
+  size: 146, 97
+  orig: 200, 200
+  offset: 26, 18
+  index: -1
+JB/c/dian/dian_015
+  rotate: false
+  xy: 406, 620
+  size: 126, 137
+  orig: 200, 200
+  offset: 28, 32
+  index: -1
+JB/c/dian2/dian2_000
+  rotate: true
+  xy: 963, 904
+  size: 118, 56
+  orig: 220, 150
+  offset: 11, 38
+  index: -1
+JB/c/dian2/dian2_001
+  rotate: false
+  xy: 2, 6
+  size: 157, 70
+  orig: 220, 150
+  offset: 38, 27
+  index: -1
+JB/c/dian2/dian2_003
+  rotate: false
+  xy: 280, 460
+  size: 117, 96
+  orig: 220, 150
+  offset: 84, 25
+  index: -1
+JB/c/dian2/dian2_006
+  rotate: false
+  xy: 963, 852
+  size: 59, 50
+  orig: 220, 150
+  offset: 63, 88
+  index: -1
+JB/c/yan/yan_000
+  rotate: false
+  xy: 165, 144
+  size: 39, 113
+  orig: 100, 250
+  offset: 32, 6
+  index: -1
+JB/c/yan/yan_002
+  rotate: false
+  xy: 212, 272
+  size: 62, 180
+  orig: 100, 250
+  offset: 17, 9
+  index: -1
+JB/glow_000
+  rotate: false
+  xy: 656, 638
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

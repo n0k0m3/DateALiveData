@@ -1508,7 +1508,7 @@ return {
         flip = false,
         id = 410122,
         modelId = 101,
-        isPlyaerControlled = false,
+        isPlyaerControlled = true,
         iconPos = {
             y = 230,
             x = 70,

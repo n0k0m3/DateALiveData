@@ -361,7 +361,7 @@ function BattleView:initUI(ui)
 
     self.Panel_ui_effect_top    = TFDirector:getChildByPath(self.Panel_ui, "Panel_ui_effect_top")
     self.Panel_ui_effect_top:setTouchEnabled(false)
-    self.Panel_ui_effect_bottom = TFDirector:getChildByPath(self.Panel_ui, "Panel_ui_effect_bottom")
+    self.Panel_ui_effect_bottom = TFDirector:getChildByPath(ui, "Panel_ui_effect_bottom")
 
     self.effect_alert = TFDirector:getChildByPath(self.Panel_ui_effect_bottom, "Spine_alert")
     local size = self.Panel_ui_effect_bottom:getSize()
@@ -421,6 +421,8 @@ function BattleView:initUI(ui)
 
     local image_hp = self.plyerNode:getChildByName("Image_hp")
     self.plyerNode.loadingBar_hp = image_hp:getChildByName("LoadingBar_hp")
+    self.plyerNode.Image_loadbar_bt = self.plyerNode:getChildByName("Image_loadbar_bt")
+    self.plyerNode.LoadingBar_bt = self.plyerNode:getChildByName("LoadingBar_bt")
 
 
     self.plyerNode.label_sp  = self.plyerNode:getChildByName("Label_sp") --TODO 设置SP的名称
@@ -451,6 +453,12 @@ function BattleView:initUI(ui)
         end
 
     end
+
+    self.Panel_super_energy = self.plyerNode:getChildByName("Panel_super_energy"):hide()
+    self.LoadingBar_super_energy = self.plyerNode:getChildByName("LoadingBar_super_energy")
+    self.Spine_super_energy_guang = self.plyerNode:getChildByName("Spine_super_energy_guang")
+    self.Spine_super_energy_dian = self.plyerNode:getChildByName("Spine_super_energy_dian")
+    self.Label_super_sp = self.plyerNode:getChildByName("Label_super_sp")
 
     --队员列表
     self.Panel_menbers = self.Panel_top:getChildByName("Panel_menbers"):hide()
@@ -806,7 +814,7 @@ function BattleView:initUI(ui)
                  label_custom:setText("前关卡的levelScript字段信息为： "..levelCfgName)
              end
     end
-    
+    self.Panel_energy_bar = TFDirector:getChildByPath(self.Panel_top , "Panel_energy_bar")
     if BattleDataMgr:isMusicGameLevel() then
         self.musicGameView = MusicGameView:new(battleController)
         self.Panel_ui:addChild(self.musicGameView,10)
@@ -2235,9 +2243,21 @@ end
 
 function BattleView:onAddToUIEffect(effect)
     local size = self.Panel_ui_effect_bottom:getSize()
-    effect:setPosition(me.p(size.width/2,size.height/2))
-    effect:setCameraMask(self.Panel_ui_effect_bottom:getCameraMask())
-    self.Panel_ui_effect_bottom:addChild(effect)
+    if effect.fitScale then
+        local panel = TFPanel:create()
+        panel:setAnchorPoint(ccp(0.5,0.5))
+        panel:setPosition(me.p(size.width/2,size.height/2))
+        self.Panel_ui_effect_bottom:addChild(panel)
+        effect:setPosition(me.p(0,0))
+        effect:setCameraMask(self.Panel_ui_effect_bottom:getCameraMask())
+        panel:addChild(effect)
+        panel:setScale(1.0 + effect.fitScale)
+        effect:setBindParent(panel)
+    else
+        effect:setPosition(me.p(size.width/2,size.height/2))
+        effect:setCameraMask(self.Panel_ui_effect_bottom:getCameraMask())
+        self.Panel_ui_effect_bottom:addChild(effect)
+    end
 end
 
 -- 助战报幕
@@ -2478,10 +2498,40 @@ function BattleView:onHeroAttrChange(hero)
                     end
                 end
             end
+            if powerData.specialEnergyUI == 2 then 
+                self.Panel_super_energy:show()
+                self.Spine_super_energy_dian:hide()
+                if self.Label_super_sp._energyName ~= powerData.specialEnergyName then
+                    self.Label_super_sp:setText(TextDataMgr:getText(powerData.specialEnergyName))
+                    self.Label_super_sp._energyName = powerData.specialEnergyName
+                end
+                local level = hero:getSuperEnergyLevel()
+                level = math.min(level,3)
+                if self.Panel_super_energy._level ~= level then
+                    local file_name = "ui/battle/battle_energy_bar02-"..(level + 1)..".png"
+                    self.LoadingBar_super_energy:setTexture(file_name)
+                    self.Spine_super_energy_guang:play((level > 0 and tostring(level) or "1"),true)
+                    self.Panel_super_energy._level = level
+                end
+                
+                if level > 0 then
+                    self.Spine_super_energy_guang:show()
+                else
+                    self.Spine_super_energy_guang:hide()
+                end
+                if level == 3 then
+                    self.Spine_super_energy_dian:show()
+                end
+                local rate = hero:getSuperEnergy() / 100
+                self.LoadingBar_super_energy:setPercent(rate * 100)
+                self.Spine_super_energy_guang:setPositionX(47 + 123 * rate)
+            else
+                self.Panel_super_energy:hide()
+            end
         else
             self.keyBoard.Image_specialEnergy:setVisible(false)
             self.plyerNode.label_sp:hide()
-
+            self.Panel_super_energy:hide()
         -- dump(self.plyerNode.spNodes)
             for i,node in ipairs(self.plyerNode.spNodes) do
                 node:hide()
@@ -2536,6 +2586,70 @@ function BattleView:onHeroAttrChange(hero)
     end
 
 end
+
+function BattleView:updateEnergyBarPanel()
+    local captain = battleController.getCaptain()
+    if not captain or captain:isDead() then
+        return
+    end
+    local form = captain:getCurForm()
+    local expendData = form:getExpendData()
+    if expendData then
+        self.Panel_energy_bar:show()
+        if self.LoadingEnergyBar then
+            local curValue = captain:getValue(expendData[2])
+            local maxValue = captain:getMaxEnergy()
+            local percent = curValue / maxValue
+            self.LoadingEnergyBar:setPercent(percent * 100)
+            self.energyBarBianNode:setPosition(ccp(-57 + (169 * percent),0))
+        else
+            local file_name = "battle_energy_bar0"..expendData[5] or 1
+            if not self.energyBarBgNode then
+                self.energyBarBgNode = ResLoader.createEffect(file_name,1)
+                self.energyBarBgNode:play("chuxian",0)
+                self.energyBarBgNode:setPosition(ccp(0,0))
+                self.Panel_energy_bar:addChild(self.energyBarBgNode)
+                self.energyBarBgNode:addMEListener(TFARMATURE_COMPLETE,function(_skeletonNode)
+                    self.energyBarBgNode:removeMEListener(TFARMATURE_COMPLETE)
+                    self.energyBarBgNode:play("xunhuan",1)
+                end)
+                self.Panel_energy_bar:timeOut(function()
+                    self.LoadingEnergyBar = TFLoadingBar:create("ui/battle/"..file_name..".png")
+                    self.LoadingEnergyBar:setDirection(TFLOADINGBAR_LEFT)
+                    self.LoadingEnergyBar:setPosition(ccp(27,-2))
+                    self.LoadingEnergyBar:setPercent(0)
+                    self.Panel_energy_bar:addChild(self.LoadingEnergyBar)
+
+                    self.energyBarBianNode = ResLoader.createEffect(file_name,1)
+                    self.energyBarBianNode:play("bian",1)
+                    self.energyBarBianNode:setPosition(ccp(-57,0))
+                    self.energyBarNengliangNode = ResLoader.createEffect(file_name,1)
+                    self.energyBarNengliangNode:play("nengliang",1)
+                    self.energyBarNengliangNode:setPosition(ccp(28,-3))
+                    self.Panel_energy_bar:addChild(self.energyBarNengliangNode)
+                    self.Panel_energy_bar:addChild(self.energyBarBianNode)
+                end,0.8)
+            end
+        end
+    else
+        if self.energyBarBgNode and not self.hidingEnergyBar then
+            self.hidingEnergyBar = true
+            self.energyBarBgNode:play("xiaoshi",0)
+            local actionList = {FadeTo:create(0.5,10),CallFunc:create(function( ... )
+                self.Panel_energy_bar:removeAllChildren()
+                self.Panel_energy_bar:hide()
+                self.Panel_energy_bar:setOpacity(255)
+                self.hidingEnergyBar = false
+                self.energyBarBgNode = nil
+                self.LoadingEnergyBar = nil
+                self.energyBarBianNode = nil
+                self.energyBarNengliangNode = nil
+            end)}
+            self.Panel_energy_bar:runAction(Sequence:create(actionList))
+        end
+    end
+end
+
 --怪物属性刷新
 function BattleView:onBossChange(hero)
     if hero then
@@ -2797,6 +2911,8 @@ function BattleView:timeUpdate()
             self:updateDamageTestView()
         end
     end
+
+    self:updateEnergyBarPanel()
 end
 
 
@@ -3848,10 +3964,12 @@ end
 function BattleView:updateTeamItem(itemInfo,idx)
     if self.team_list_refresh_enable == true then
         local item = self.team_left_list:getItem(idx)
-        if self.team_switch_btn.page_idx == 0 then
-            self:updateTeamItemA(item,itemInfo)
-        else
-            self:updateTeamItemB(item,itemInfo,idx)
+        if item then
+            if self.team_switch_btn.page_idx == 0 then
+                self:updateTeamItemA(item,itemInfo)
+            else
+                self:updateTeamItemB(item,itemInfo,idx)
+            end
         end
     end
 end

@@ -207,6 +207,14 @@ return {
         range = 0,
         dsc = "白王：闪避",
     },
+    [28] = {
+        continueType = 1,
+        slowScale = 5000,
+        id = 28,
+        continueData = 700,
+        range = 1,
+        dsc = "苍反击",
+    },
     [206] = {
         continueType = 1,
         slowScale = 9000,

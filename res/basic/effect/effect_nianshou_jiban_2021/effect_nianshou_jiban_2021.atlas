@@ -1,0 +1,258 @@
+
+effect_nianshou_jiban_2021.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dlh
+  rotate: false
+  xy: 2, 320
+  size: 310, 310
+  orig: 310, 310
+  offset: 0, 0
+  index: -1
+images/fz
+  rotate: false
+  xy: 2, 632
+  size: 366, 363
+  orig: 366, 363
+  offset: 0, 0
+  index: -1
+images/g1
+  rotate: false
+  xy: 370, 751
+  size: 243, 244
+  orig: 256, 256
+  offset: 7, 6
+  index: -1
+images/glowc
+  rotate: false
+  xy: 2, 132
+  size: 207, 186
+  orig: 256, 256
+  offset: 25, 28
+  index: -1
+images/li_00000
+  rotate: false
+  xy: 357, 490
+  size: 132, 44
+  orig: 134, 53
+  offset: 0, 3
+  index: -1
+images/li_00002
+  rotate: false
+  xy: 370, 632
+  size: 132, 45
+  orig: 134, 53
+  offset: 0, 3
+  index: -1
+images/li_00004
+  rotate: true
+  xy: 211, 187
+  size: 131, 48
+  orig: 134, 53
+  offset: 0, 3
+  index: -1
+images/li_00006
+  rotate: false
+  xy: 615, 777
+  size: 123, 48
+  orig: 134, 53
+  offset: 0, 3
+  index: -1
+images/li_00008
+  rotate: false
+  xy: 615, 875
+  size: 131, 48
+  orig: 134, 53
+  offset: 0, 3
+  index: -1
+images/li_00010
+  rotate: false
+  xy: 357, 441
+  size: 121, 47
+  orig: 134, 53
+  offset: 0, 4
+  index: -1
+images/li_00012
+  rotate: false
+  xy: 211, 138
+  size: 119, 47
+  orig: 134, 53
+  offset: 2, 3
+  index: -1
+images/li_00014
+  rotate: false
+  xy: 338, 393
+  size: 120, 46
+  orig: 134, 53
+  offset: 0, 5
+  index: -1
+images/li_00016
+  rotate: false
+  xy: 615, 729
+  size: 119, 46
+  orig: 134, 53
+  offset: 0, 5
+  index: -1
+images/li_00018
+  rotate: false
+  xy: 314, 345
+  size: 116, 46
+  orig: 134, 53
+  offset: 0, 4
+  index: -1
+images/li_00020
+  rotate: true
+  xy: 261, 187
+  size: 131, 47
+  orig: 134, 53
+  offset: 0, 2
+  index: -1
+images/li_00022
+  rotate: false
+  xy: 2, 9
+  size: 132, 47
+  orig: 134, 53
+  offset: 0, 2
+  index: -1
+images/li_00024
+  rotate: false
+  xy: 357, 584
+  size: 132, 46
+  orig: 134, 53
+  offset: 0, 1
+  index: -1
+images/li_00026
+  rotate: false
+  xy: 615, 827
+  size: 129, 46
+  orig: 134, 53
+  offset: 3, 1
+  index: -1
+images/li_00028
+  rotate: false
+  xy: 357, 536
+  size: 132, 46
+  orig: 134, 53
+  offset: 0, 2
+  index: -1
+images/xian
+  rotate: false
+  xy: 314, 415
+  size: 22, 215
+  orig: 22, 215
+  offset: 0, 0
+  index: -1
+images/xian2
+  rotate: true
+  xy: 370, 734
+  size: 15, 210
+  orig: 15, 210
+  offset: 0, 0
+  index: -1
+images/zx_00000
+  rotate: false
+  xy: 370, 716
+  size: 189, 16
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00002
+  rotate: false
+  xy: 615, 960
+  size: 189, 16
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00004
+  rotate: false
+  xy: 615, 925
+  size: 189, 15
+  orig: 192, 19
+  offset: 0, 1
+  index: -1
+images/zx_00006
+  rotate: false
+  xy: 370, 679
+  size: 188, 16
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00008
+  rotate: false
+  xy: 806, 943
+  size: 188, 16
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00010
+  rotate: false
+  xy: 806, 979
+  size: 189, 16
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00012
+  rotate: false
+  xy: 2, 95
+  size: 189, 16
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00014
+  rotate: false
+  xy: 615, 978
+  size: 189, 17
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00016
+  rotate: false
+  xy: 2, 113
+  size: 189, 17
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00018
+  rotate: true
+  xy: 338, 441
+  size: 189, 17
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00020
+  rotate: false
+  xy: 370, 697
+  size: 188, 17
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00022
+  rotate: false
+  xy: 2, 58
+  size: 187, 17
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00024
+  rotate: false
+  xy: 615, 942
+  size: 189, 16
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00026
+  rotate: false
+  xy: 806, 961
+  size: 189, 16
+  orig: 192, 19
+  offset: 0, 0
+  index: -1
+images/zx_00028
+  rotate: false
+  xy: 2, 77
+  size: 189, 16
+  orig: 192, 19
+  offset: 0, 0
+  index: -1

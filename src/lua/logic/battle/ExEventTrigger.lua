@@ -239,10 +239,10 @@ function ExEventTrigger:getExTriggerCfg(id)
 			exTriggerDict = self:monsterEMode(tmcfg)
 		elseif #tmcfg["MonsterT"] > 0 then
 			exTriggerDict = self:monsterTMode(tmcfg)
-		elseif tmcfg["MonsterL"] > 0 then
+		elseif #tmcfg["MonsterL"] > 0 then
 			exTriggerDict = self:monsterLMode(tmcfg)
 		else
-
+			exTriggerDict = self:monsterNoneMode(tmcfg)
 		end
 	end
 	return exTriggerDict
@@ -861,6 +861,21 @@ function ExEventTrigger:monsterLMode(cfg)
 	jsonData["triggers"][#jsonData["triggers"] + 1] = tmAliveTrigger
 	jsonData["triggers"][#jsonData["triggers"] + 1] = tmTimetrigger
 	jsonData["triggers"][#jsonData["triggers"] + 1] = tmDieTrigger
+	return jsonData
+end
+
+function ExEventTrigger:monsterNoneMode(cfg)
+	local tmtriggers = self:triggerWithWinOrFail(cfg)
+	local jsonData = {}
+	jsonData["visualNode"] = {}
+	jsonData["triggers"] = {}
+	if self.BeginTimmerTrigger then
+		jsonData["triggers"][#jsonData["triggers"] + 1] = self.BeginTimmerTrigger
+	end
+	for i,v in ipairs(tmtriggers) do
+		jsonData["triggers"][#jsonData["triggers"] + 1] = v
+	end
+
 	return jsonData
 end
 

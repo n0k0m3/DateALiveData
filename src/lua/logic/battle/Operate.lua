@@ -66,13 +66,13 @@ function Operate:matchKeyEvent(eventData)
     return nil
 end
 
-function Operate:onKeyEvent(keyCode)
-    if self.hero:onKeyEvent(keyCode) then --技能释放成功清理队列
+function Operate:onKeyEvent(keyCode,skillSubId)
+    if self.hero:onKeyEvent(keyCode,skillSubId) then --技能释放成功清理队列
         self.keyQueue:clear()
     end
 end
 
-function Operate:createAndPush(keyCode,eventType)
+function Operate:createAndPush(keyCode,eventType,skillSubId)
     -- 按键不相同的情况下不再清理队列
     --doing 吃掉前一个down
     if eventType == eKeyEventType.DOING then
@@ -87,7 +87,7 @@ function Operate:createAndPush(keyCode,eventType)
     -- print_("------------------------------------------------------createAndPush:"..tostring(keyCode).." "..tostring(eventType))
     --点击按键(通知有新按键输入)
     if eventType == eKeyEventType.DOWN then
-        self:onKeyEvent(keyCode)
+        self:onKeyEvent(keyCode,skillSubId)
         -- dump(self.keyQueue.list)
     end
 end

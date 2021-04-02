@@ -1,0 +1,146 @@
+
+effects_10415_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+quickmove/canying
+  rotate: false
+  xy: 711, 284
+  size: 128, 139
+  orig: 128, 139
+  offset: 0, 0
+  index: -1
+quickmove/glow2
+  rotate: false
+  xy: 312, 27
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+quickmove/heiguang
+  rotate: true
+  xy: 679, 837
+  size: 164, 30
+  orig: 164, 30
+  offset: 0, 0
+  index: -1
+quickmove/shangceng/shangceng_00001
+  rotate: true
+  xy: 711, 109
+  size: 173, 70
+  orig: 644, 170
+  offset: 239, 76
+  index: -1
+quickmove/shangceng/shangceng_00002
+  rotate: true
+  xy: 783, 121
+  size: 161, 67
+  orig: 644, 170
+  offset: 239, 81
+  index: -1
+quickmove/shangceng/shangceng_00003
+  rotate: false
+  xy: 2, 19
+  size: 146, 76
+  orig: 644, 170
+  offset: 247, 72
+  index: -1
+quickmove/shangceng/shangceng_00004
+  rotate: true
+  xy: 598, 700
+  size: 146, 79
+  orig: 644, 170
+  offset: 249, 69
+  index: -1
+quickmove/shangceng/shangceng_00005
+  rotate: true
+  xy: 599, 848
+  size: 153, 78
+  orig: 644, 170
+  offset: 253, 70
+  index: -1
+quickmove/shangceng/shangceng_00006
+  rotate: false
+  xy: 150, 16
+  size: 160, 76
+  orig: 644, 170
+  offset: 254, 72
+  index: -1
+quickmove/shangceng/shangceng_00008
+  rotate: false
+  xy: 841, 357
+  size: 160, 72
+  orig: 644, 170
+  offset: 257, 74
+  index: -1
+quickmove/shangceng/shangceng_00010
+  rotate: false
+  xy: 841, 292
+  size: 131, 63
+  orig: 644, 170
+  offset: 283, 79
+  index: -1
+quickmove/xiaceng/xiaceng_00001
+  rotate: false
+  xy: 2, 848
+  size: 595, 153
+  orig: 644, 170
+  offset: 40, 6
+  index: -1
+quickmove/xiaceng/xiaceng_00002
+  rotate: false
+  xy: 2, 695
+  size: 594, 151
+  orig: 644, 170
+  offset: 40, 8
+  index: -1
+quickmove/xiaceng/xiaceng_00003
+  rotate: true
+  xy: 2, 97
+  size: 596, 149
+  orig: 644, 170
+  offset: 40, 8
+  index: -1
+quickmove/xiaceng/xiaceng_00004
+  rotate: true
+  xy: 153, 94
+  size: 599, 145
+  orig: 644, 170
+  offset: 41, 10
+  index: -1
+quickmove/xiaceng/xiaceng_00005
+  rotate: true
+  xy: 300, 99
+  size: 594, 140
+  orig: 644, 170
+  offset: 38, 15
+  index: -1
+quickmove/xiaceng/xiaceng_00006
+  rotate: true
+  xy: 442, 98
+  size: 595, 133
+  orig: 644, 170
+  offset: 38, 22
+  index: -1
+quickmove/xiaceng/xiaceng_00007
+  rotate: true
+  xy: 577, 113
+  size: 580, 132
+  orig: 644, 170
+  offset: 38, 23
+  index: -1
+quickmove/xiaceng/xiaceng_00009
+  rotate: true
+  xy: 711, 425
+  size: 576, 127
+  orig: 644, 170
+  offset: 38, 24
+  index: -1
+quickmove/xiaceng/xiaceng_00011
+  rotate: true
+  xy: 840, 431
+  size: 570, 126
+  orig: 644, 170
+  offset: 38, 24
+  index: -1

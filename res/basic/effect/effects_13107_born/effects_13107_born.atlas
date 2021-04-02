@@ -1,0 +1,139 @@
+
+effects_13107_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bornQ/bornQ_00007
+  rotate: false
+  xy: 864, 915
+  size: 141, 106
+  orig: 189, 245
+  offset: 24, 31
+  index: -1
+bornQ/bornQ_00009
+  rotate: true
+  xy: 2, 17
+  size: 152, 109
+  orig: 189, 245
+  offset: 19, 30
+  index: -1
+bornQ/bornQ_00011
+  rotate: true
+  xy: 2, 171
+  size: 150, 121
+  orig: 189, 245
+  offset: 18, 30
+  index: -1
+bornQ/bornQ_00013
+  rotate: false
+  xy: 2, 458
+  size: 157, 124
+  orig: 189, 245
+  offset: 16, 26
+  index: -1
+bornQ/bornQ_00015
+  rotate: false
+  xy: 183, 570
+  size: 137, 119
+  orig: 189, 245
+  offset: 25, 34
+  index: -1
+bornQ/bornQ_00017
+  rotate: false
+  xy: 2, 323
+  size: 144, 133
+  orig: 189, 245
+  offset: 21, 22
+  index: -1
+bornQ/bornQ_00019
+  rotate: false
+  xy: 529, 893
+  size: 145, 128
+  orig: 189, 245
+  offset: 18, 24
+  index: -1
+bornQ/bornQ_00021
+  rotate: false
+  xy: 370, 892
+  size: 157, 129
+  orig: 189, 245
+  offset: 16, 26
+  index: -1
+bornQ/bornQ_00041
+  rotate: false
+  xy: 2, 584
+  size: 179, 135
+  orig: 189, 245
+  offset: 4, 20
+  index: -1
+bornQ/bornQ_00043
+  rotate: false
+  xy: 2, 874
+  size: 188, 147
+  orig: 189, 245
+  offset: 0, 12
+  index: -1
+bornQ/bornQ_00045
+  rotate: false
+  xy: 2, 721
+  size: 179, 151
+  orig: 189, 245
+  offset: 4, 8
+  index: -1
+bornQ/bornQ_00047
+  rotate: false
+  xy: 192, 878
+  size: 176, 143
+  orig: 189, 245
+  offset: 8, 8
+  index: -1
+glow
+  rotate: false
+  xy: 161, 414
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+xualuo/xualuo_00003
+  rotate: true
+  xy: 161, 491
+  size: 77, 142
+  orig: 189, 245
+  offset: 54, 103
+  index: -1
+xualuo/xualuo_00005
+  rotate: true
+  xy: 860, 829
+  size: 84, 161
+  orig: 189, 245
+  offset: 53, 82
+  index: -1
+xualuo/xualuo_00007
+  rotate: false
+  xy: 266, 696
+  size: 84, 180
+  orig: 189, 245
+  offset: 53, 65
+  index: -1
+xualuo/xualuo_00009
+  rotate: false
+  xy: 183, 691
+  size: 81, 181
+  orig: 189, 245
+  offset: 53, 64
+  index: -1
+xualuo/xualuo_00011
+  rotate: true
+  xy: 676, 861
+  size: 79, 182
+  orig: 189, 245
+  offset: 55, 63
+  index: -1
+xualuo/xualuo_00013
+  rotate: true
+  xy: 676, 942
+  size: 79, 186
+  orig: 189, 245
+  offset: 55, 59
+  index: -1

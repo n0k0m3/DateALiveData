@@ -1,0 +1,475 @@
+
+effect_fentouzi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dingdian/h1_00000
+  rotate: false
+  xy: 180, 234
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+images/dingdian/h2_00000
+  rotate: false
+  xy: 109, 16
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+images/dingdian/h3_00000
+  rotate: false
+  xy: 698, 637
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+images/dingdian/h4_00000
+  rotate: false
+  xy: 682, 429
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+images/dingdian/h5_00000
+  rotate: false
+  xy: 678, 321
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+images/dingdian/h6_00000
+  rotate: false
+  xy: 677, 213
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+images/glow_000
+  rotate: false
+  xy: 888, 325
+  size: 84, 84
+  orig: 88, 88
+  offset: 2, 2
+  index: -1
+images/glow_00002
+  rotate: false
+  xy: 2, 797
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00005
+  rotate: true
+  xy: 902, 890
+  size: 132, 113
+  orig: 176, 194
+  offset: 25, 73
+  index: -1
+images/hongtouzi/hongtouzi_00006
+  rotate: false
+  xy: 763, 894
+  size: 137, 128
+  orig: 176, 194
+  offset: 23, 66
+  index: -1
+images/hongtouzi/hongtouzi_00007
+  rotate: false
+  xy: 2, 124
+  size: 131, 137
+  orig: 176, 194
+  offset: 29, 44
+  index: -1
+images/hongtouzi/hongtouzi_00008
+  rotate: false
+  xy: 281, 710
+  size: 127, 134
+  orig: 176, 194
+  offset: 28, 14
+  index: -1
+images/hongtouzi/hongtouzi_00009
+  rotate: true
+  xy: 901, 684
+  size: 102, 104
+  orig: 176, 194
+  offset: 41, 14
+  index: -1
+images/hongtouzi/hongtouzi_00010
+  rotate: false
+  xy: 790, 411
+  size: 100, 94
+  orig: 176, 194
+  offset: 42, 17
+  index: -1
+images/hongtouzi/hongtouzi_00011
+  rotate: true
+  xy: 2, 2
+  size: 120, 105
+  orig: 176, 194
+  offset: 33, 13
+  index: -1
+images/hongtouzi/hongtouzi_00012
+  rotate: false
+  xy: 388, 49
+  size: 128, 107
+  orig: 176, 194
+  offset: 27, 10
+  index: -1
+images/hongtouzi/hongtouzi_00013
+  rotate: false
+  xy: 901, 788
+  size: 115, 100
+  orig: 176, 194
+  offset: 32, 12
+  index: -1
+images/hongtouzi/hongtouzi_00014
+  rotate: true
+  xy: 287, 564
+  size: 144, 102
+  orig: 176, 194
+  offset: 15, 10
+  index: -1
+images/hongtouzi/hongtouzi_00015
+  rotate: true
+  xy: 180, 644
+  size: 151, 99
+  orig: 176, 194
+  offset: 9, 10
+  index: -1
+images/hongtouzi/hongtouzi_00016
+  rotate: false
+  xy: 529, 133
+  size: 134, 103
+  orig: 176, 194
+  offset: 16, 7
+  index: -1
+images/hongtouzi/hongtouzi_00017
+  rotate: false
+  xy: 410, 735
+  size: 146, 109
+  orig: 176, 194
+  offset: 12, 5
+  index: -1
+images/hongtouzi/hongtouzi_00018
+  rotate: true
+  xy: 180, 493
+  size: 149, 105
+  orig: 176, 194
+  offset: 16, 9
+  index: -1
+images/hongtouzi/hongtouzi_00019
+  rotate: false
+  xy: 558, 637
+  size: 138, 106
+  orig: 176, 194
+  offset: 27, 11
+  index: -1
+images/hongtouzi/hongtouzi_00020
+  rotate: true
+  xy: 288, 418
+  size: 144, 101
+  orig: 176, 194
+  offset: 25, 15
+  index: -1
+images/hongtouzi/hongtouzi_00021
+  rotate: false
+  xy: 558, 745
+  size: 148, 99
+  orig: 176, 194
+  offset: 22, 15
+  index: -1
+images/hongtouzi/hongtouzi_00022
+  rotate: false
+  xy: 536, 439
+  size: 144, 96
+  orig: 176, 194
+  offset: 20, 14
+  index: -1
+images/hongtouzi/hongtouzi_00023
+  rotate: false
+  xy: 538, 336
+  size: 138, 101
+  orig: 176, 194
+  offset: 17, 9
+  index: -1
+images/hongtouzi/hongtouzi_00024
+  rotate: false
+  xy: 391, 338
+  size: 145, 95
+  orig: 176, 194
+  offset: 11, 12
+  index: -1
+images/hongtouzi/hongtouzi_00025
+  rotate: false
+  xy: 135, 129
+  size: 144, 103
+  orig: 176, 194
+  offset: 12, 8
+  index: -1
+images/hongtouzi/hongtouzi_00026
+  rotate: true
+  xy: 180, 342
+  size: 149, 106
+  orig: 176, 194
+  offset: 10, 7
+  index: -1
+images/hongtouzi/hongtouzi_00027
+  rotate: false
+  xy: 536, 238
+  size: 139, 96
+  orig: 176, 194
+  offset: 16, 13
+  index: -1
+images/hongtouzi/hongtouzi_00028
+  rotate: false
+  xy: 391, 536
+  size: 142, 100
+  orig: 176, 194
+  offset: 18, 13
+  index: -1
+images/hongtouzi/hongtouzi_00029
+  rotate: false
+  xy: 391, 435
+  size: 143, 99
+  orig: 176, 194
+  offset: 21, 16
+  index: -1
+images/hongtouzi/hongtouzi_00030
+  rotate: false
+  xy: 535, 537
+  size: 143, 98
+  orig: 176, 194
+  offset: 25, 18
+  index: -1
+images/hongtouzi/hongtouzi_00031
+  rotate: false
+  xy: 410, 638
+  size: 146, 95
+  orig: 176, 194
+  offset: 26, 22
+  index: -1
+images/hongtouzi/hongtouzi_00032
+  rotate: false
+  xy: 388, 246
+  size: 146, 90
+  orig: 176, 194
+  offset: 25, 24
+  index: -1
+images/hongtouzi/hongtouzi_00033
+  rotate: false
+  xy: 388, 158
+  size: 139, 86
+  orig: 176, 194
+  offset: 24, 23
+  index: -1
+images/hongtouzi/hongtouzi_00034
+  rotate: true
+  xy: 518, 2
+  size: 129, 84
+  orig: 176, 194
+  offset: 26, 21
+  index: -1
+images/hongtouzi/hongtouzi_00035
+  rotate: false
+  xy: 763, 800
+  size: 136, 92
+  orig: 176, 194
+  offset: 24, 15
+  index: -1
+images/hongtouzi/hongtouzi_00036
+  rotate: true
+  xy: 288, 270
+  size: 146, 98
+  orig: 176, 194
+  offset: 19, 9
+  index: -1
+images/touzi/hong1_00036
+  rotate: false
+  xy: 2, 619
+  size: 176, 176
+  orig: 176, 176
+  offset: 0, 0
+  index: -1
+images/touzi/hong2_00036
+  rotate: false
+  xy: 229, 846
+  size: 176, 176
+  orig: 176, 176
+  offset: 0, 0
+  index: -1
+images/touzi/hong3_00036
+  rotate: false
+  xy: 2, 441
+  size: 176, 176
+  orig: 176, 176
+  offset: 0, 0
+  index: -1
+images/touzi/hong4_00036
+  rotate: false
+  xy: 407, 846
+  size: 176, 176
+  orig: 176, 176
+  offset: 0, 0
+  index: -1
+images/touzi/hong5_00036
+  rotate: false
+  xy: 2, 263
+  size: 176, 176
+  orig: 176, 176
+  offset: 0, 0
+  index: -1
+images/touzi/hong6_00036
+  rotate: false
+  xy: 585, 846
+  size: 176, 176
+  orig: 176, 176
+  offset: 0, 0
+  index: -1
+images/touzi_00000
+  rotate: true
+  xy: 785, 136
+  size: 80, 87
+  orig: 132, 132
+  offset: 25, 22
+  index: -1
+images/touzibai/touzibai_00035
+  rotate: false
+  xy: 786, 319
+  size: 100, 90
+  orig: 132, 132
+  offset: 17, 22
+  index: -1
+images/touzibai/touzibai_00036
+  rotate: true
+  xy: 887, 221
+  size: 96, 82
+  orig: 132, 132
+  offset: 20, 23
+  index: -1
+images/xingxing/xingxing_00001
+  rotate: false
+  xy: 229, 809
+  size: 36, 35
+  orig: 176, 176
+  offset: 68, 66
+  index: -1
+images/xingxing/xingxing_00002
+  rotate: false
+  xy: 708, 791
+  size: 53, 53
+  orig: 176, 176
+  offset: 63, 57
+  index: -1
+images/xingxing/xingxing_00003
+  rotate: false
+  xy: 891, 513
+  size: 65, 66
+  orig: 176, 176
+  offset: 59, 51
+  index: -1
+images/xingxing/xingxing_00004
+  rotate: false
+  xy: 665, 135
+  size: 76, 76
+  orig: 176, 176
+  offset: 55, 46
+  index: -1
+images/xingxing/xingxing_00005
+  rotate: true
+  xy: 813, 48
+  size: 86, 83
+  orig: 176, 176
+  offset: 50, 42
+  index: -1
+images/xingxing/xingxing_00006
+  rotate: false
+  xy: 806, 610
+  size: 92, 89
+  orig: 176, 176
+  offset: 47, 39
+  index: -1
+images/xingxing/xingxing_00007
+  rotate: true
+  xy: 806, 701
+  size: 97, 93
+  orig: 176, 176
+  offset: 44, 36
+  index: -1
+images/xingxing/xingxing_00008
+  rotate: true
+  xy: 892, 412
+  size: 99, 96
+  orig: 176, 176
+  offset: 42, 35
+  index: -1
+images/xingxing/xingxing_00009
+  rotate: false
+  xy: 785, 218
+  size: 100, 99
+  orig: 176, 176
+  offset: 41, 33
+  index: -1
+images/xingxing/xingxing_00010
+  rotate: false
+  xy: 790, 507
+  size: 99, 101
+  orig: 176, 176
+  offset: 41, 32
+  index: -1
+images/xingxing/xingxing_00011
+  rotate: false
+  xy: 900, 581
+  size: 104, 101
+  orig: 176, 176
+  offset: 41, 32
+  index: -1
+images/xingxing/xingxing_00012
+  rotate: false
+  xy: 288, 168
+  size: 98, 100
+  orig: 176, 176
+  offset: 41, 32
+  index: -1
+images/xingxing/xingxing_00013
+  rotate: true
+  xy: 680, 537
+  size: 98, 99
+  orig: 176, 176
+  offset: 42, 32
+  index: -1
+images/xingxing/xingxing_00014
+  rotate: true
+  xy: 281, 71
+  size: 95, 105
+  orig: 176, 176
+  offset: 39, 30
+  index: -1
+images/xingxing/xingxing_00015
+  rotate: true
+  xy: 709, 29
+  size: 104, 102
+  orig: 176, 176
+  offset: 44, 33
+  index: -1
+images/xingxing/xingxing_00016
+  rotate: true
+  xy: 604, 22
+  size: 109, 103
+  orig: 176, 176
+  offset: 40, 33
+  index: -1
+images/xingxing/xingxing_00017
+  rotate: true
+  xy: 269, 21
+  size: 48, 95
+  orig: 176, 176
+  offset: 46, 33
+  index: -1
+images/xingxing/xingxing_00018
+  rotate: false
+  xy: 217, 30
+  size: 50, 97
+  orig: 176, 176
+  offset: 47, 31
+  index: -1

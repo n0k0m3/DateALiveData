@@ -1562,7 +1562,7 @@ return {
         type1 = 1,
     },
     [11040] = {
-        sortForMainBgm = 0,
+        sortForMainBgm = 40,
         soundName = 0,
         bgm = "sound/bgm/kanban/main_shixiang_10123.mp3",
         id = 11040,

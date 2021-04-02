@@ -391,6 +391,15 @@ function EquipmentDataMgr:isUesing(id)
 	return self.equips[id].heroId ~= "0";
 end
 
+function EquipmentDataMgr:checkIsusing(heroId,cid)
+	for k,v in pairs(self.equips) do
+		if v.heroId ~= "0" and tonumber(v.heroId)== heroId and tonumber(v.cid) ==  cid then
+			return true
+		end
+	end
+	return false
+end
+
 function EquipmentDataMgr:getHeroSid(id)
 	return self.equips[id].heroId;
 end

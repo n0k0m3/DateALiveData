@@ -1,0 +1,626 @@
+
+effects_13301_exskillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/exskillB/2/2_002
+  rotate: true
+  xy: 884, 274
+  size: 170, 138
+  orig: 270, 180
+  offset: 87, 15
+  index: -1
+images/effects/exskillB/2/2_008
+  rotate: true
+  xy: 884, 48
+  size: 224, 137
+  orig: 270, 180
+  offset: 33, 16
+  index: -1
+images/effects/exskillB/2/2_010
+  rotate: true
+  xy: 884, 446
+  size: 230, 138
+  orig: 270, 180
+  offset: 26, 15
+  index: -1
+images/effects/exskillB/3/3_008
+  rotate: true
+  xy: 922, 770
+  size: 252, 91
+  orig: 315, 135
+  offset: 59, 24
+  index: -1
+images/effects/exskillB/3/3_010
+  rotate: false
+  xy: 437, 427
+  size: 211, 71
+  orig: 315, 135
+  offset: 100, 28
+  index: -1
+images/effects/exskillB/4/4_032
+  rotate: false
+  xy: 469, 765
+  size: 451, 257
+  orig: 473, 270
+  offset: 0, 0
+  index: -1
+images/effects/exskillB/4/4_034
+  rotate: false
+  xy: 2, 771
+  size: 465, 251
+  orig: 473, 270
+  offset: 0, 6
+  index: -1
+images/effects/exskillB/4/4_036
+  rotate: false
+  xy: 2, 508
+  size: 440, 261
+  orig: 473, 270
+  offset: 24, 9
+  index: -1
+images/effects/exskillB/4/4_038
+  rotate: false
+  xy: 444, 500
+  size: 438, 263
+  orig: 473, 270
+  offset: 35, 7
+  index: -1
+images/effects/exskillB/4/4_040
+  rotate: false
+  xy: 2, 244
+  size: 433, 262
+  orig: 473, 270
+  offset: 40, 8
+  index: -1
+images/effects/exskillB/dianqiu/dianqiu_000
+  rotate: false
+  xy: 437, 245
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/effects/exskillB/kuo/kuo_038
+  rotate: false
+  xy: 203, 4
+  size: 195, 238
+  orig: 270, 270
+  offset: 52, 19
+  index: -1
+images/effects/exskillB/qiubao/qiubao_010
+  rotate: true
+  xy: 400, 6
+  size: 236, 248
+  orig: 270, 270
+  offset: 19, 20
+  index: -1
+images/effects/exskillB/qiubao/qiubao_012
+  rotate: false
+  xy: 650, 249
+  size: 232, 249
+  orig: 270, 270
+  offset: 23, 19
+  index: -1
+images/effects/exskillB/qiubao/qiubao_014
+  rotate: false
+  xy: 650, 4
+  size: 225, 243
+  orig: 270, 270
+  offset: 32, 25
+  index: -1
+images/effects/exskillB/shifa1/shifa_004
+  rotate: false
+  xy: 2, 2
+  size: 199, 240
+  orig: 270, 270
+  offset: 38, 14
+  index: -1
+images/effects/glow
+  rotate: false
+  xy: 922, 678
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+
+effects_13301_exskillB22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/exskillB/2/2_000
+  rotate: true
+  xy: 717, 357
+  size: 166, 105
+  orig: 270, 180
+  offset: 86, 15
+  index: -1
+images/effects/exskillB/2/2_006
+  rotate: false
+  xy: 2, 621
+  size: 213, 137
+  orig: 270, 180
+  offset: 45, 16
+  index: -1
+images/effects/exskillB/2/2_012
+  rotate: false
+  xy: 217, 629
+  size: 225, 129
+  orig: 270, 180
+  offset: 27, 24
+  index: -1
+images/effects/exskillB/3/3_004
+  rotate: true
+  xy: 718, 525
+  size: 233, 109
+  orig: 315, 135
+  offset: 24, 20
+  index: -1
+images/effects/exskillB/3/3_006
+  rotate: false
+  xy: 444, 654
+  size: 272, 104
+  orig: 315, 135
+  offset: 31, 22
+  index: -1
+images/effects/exskillB/3/3_012
+  rotate: false
+  xy: 522, 357
+  size: 160, 57
+  orig: 315, 135
+  offset: 151, 34
+  index: -1
+images/effects/exskillB/4/4_028
+  rotate: true
+  xy: 829, 230
+  size: 379, 190
+  orig: 473, 270
+  offset: 5, 34
+  index: -1
+images/effects/exskillB/4/4_030
+  rotate: true
+  xy: 2, 182
+  size: 427, 246
+  orig: 473, 270
+  offset: 0, 7
+  index: -1
+images/effects/exskillB/4/4_042
+  rotate: false
+  xy: 2, 760
+  size: 425, 262
+  orig: 473, 270
+  offset: 48, 8
+  index: -1
+images/effects/exskillB/4/4_044
+  rotate: false
+  xy: 429, 760
+  size: 421, 262
+  orig: 473, 270
+  offset: 51, 8
+  index: -1
+images/effects/exskillB/4/4_046
+  rotate: false
+  xy: 394, 25
+  size: 159, 58
+  orig: 473, 270
+  offset: 71, 190
+  index: -1
+images/effects/exskillB/kuo/kuo_030
+  rotate: false
+  xy: 555, 2
+  size: 85, 81
+  orig: 270, 270
+  offset: 50, 97
+  index: -1
+images/effects/exskillB/kuo/kuo_036
+  rotate: false
+  xy: 522, 416
+  size: 193, 236
+  orig: 270, 270
+  offset: 50, 20
+  index: -1
+images/effects/exskillB/kuo1/kuo_027
+  rotate: false
+  xy: 681, 231
+  size: 130, 124
+  orig: 225, 225
+  offset: 48, 49
+  index: -1
+images/effects/exskillB/kuo1/kuo_031
+  rotate: true
+  xy: 250, 187
+  size: 168, 161
+  orig: 225, 225
+  offset: 28, 31
+  index: -1
+images/effects/exskillB/qiubao/qiubao_000
+  rotate: false
+  xy: 250, 357
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/effects/exskillB/qiubao/qiubao_018
+  rotate: false
+  xy: 2, 3
+  size: 208, 177
+  orig: 270, 270
+  offset: 50, 46
+  index: -1
+images/effects/exskillB/qiubao/qiubao_020
+  rotate: true
+  xy: 852, 816
+  size: 206, 161
+  orig: 270, 270
+  offset: 52, 46
+  index: -1
+images/effects/exskillB/shifa/shifa_002
+  rotate: false
+  xy: 212, 2
+  size: 180, 178
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/effects/exskillB/shifa1/shifa_002
+  rotate: false
+  xy: 852, 611
+  size: 156, 203
+  orig: 270, 270
+  offset: 40, 32
+  index: -1
+images/effects/exskillB/shifa1/shifa_012
+  rotate: false
+  xy: 413, 85
+  size: 266, 270
+  orig: 270, 270
+  offset: 2, 0
+  index: -1
+images/effects/exskillB/shifa1/shifa_016
+  rotate: false
+  xy: 681, 5
+  size: 256, 223
+  orig: 270, 270
+  offset: 9, 37
+  index: -1
+images/effects/guangxian_000
+  rotate: true
+  xy: 939, 4
+  size: 224, 83
+  orig: 252, 90
+  offset: 10, 3
+  index: -1
+
+effects_13301_exskillB23.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/exskillB/fazhen/fazhen_000
+  rotate: false
+  xy: 254, 208
+  size: 248, 270
+  orig: 270, 270
+  offset: 22, 0
+  index: -1
+images/effects/exskillB/fazhen/fazhen_002
+  rotate: false
+  xy: 516, 752
+  size: 247, 270
+  orig: 270, 270
+  offset: 23, 0
+  index: -1
+images/effects/exskillB/fazhen/fazhen_008
+  rotate: false
+  xy: 504, 208
+  size: 248, 270
+  orig: 270, 270
+  offset: 22, 0
+  index: -1
+images/effects/exskillB/fazhen/fazhen_010
+  rotate: false
+  xy: 254, 480
+  size: 249, 270
+  orig: 270, 270
+  offset: 21, 0
+  index: -1
+images/effects/exskillB/fazhen/fazhen_012
+  rotate: false
+  xy: 2, 480
+  size: 250, 270
+  orig: 270, 270
+  offset: 20, 0
+  index: -1
+images/effects/exskillB/fazhen/fazhen_014
+  rotate: false
+  xy: 2, 208
+  size: 250, 270
+  orig: 270, 270
+  offset: 20, 0
+  index: -1
+images/effects/exskillB/fazhen/fazhen_016
+  rotate: false
+  xy: 265, 752
+  size: 249, 270
+  orig: 270, 270
+  offset: 21, 0
+  index: -1
+images/effects/exskillB/fazhen/fazhen_018
+  rotate: false
+  xy: 505, 480
+  size: 248, 270
+  orig: 270, 270
+  offset: 22, 0
+  index: -1
+images/effects/exskillB/kuo1/kuo_037
+  rotate: true
+  xy: 2, 2
+  size: 204, 195
+  orig: 225, 225
+  offset: 8, 14
+  index: -1
+images/effects/exskillB/kuo1/kuo_039
+  rotate: false
+  xy: 415, 9
+  size: 210, 197
+  orig: 225, 225
+  offset: 4, 13
+  index: -1
+images/effects/exskillB/kuo1/kuo_041
+  rotate: false
+  xy: 199, 6
+  size: 214, 200
+  orig: 225, 225
+  offset: 4, 13
+  index: -1
+images/effects/exskillB/qiubao/qiubao_004
+  rotate: true
+  xy: 765, 753
+  size: 269, 257
+  orig: 270, 270
+  offset: 1, 9
+  index: -1
+images/effects/exskillB/shifa/shifa_012
+  rotate: true
+  xy: 627, 44
+  size: 162, 124
+  orig: 180, 180
+  offset: 12, 15
+  index: -1
+images/effects/exskillB/shifa1/shifa_006
+  rotate: true
+  xy: 754, 2
+  size: 233, 259
+  orig: 270, 270
+  offset: 22, 5
+  index: -1
+images/effects/exskillB/shifa1/shifa_008
+  rotate: true
+  xy: 755, 500
+  size: 250, 267
+  orig: 270, 270
+  offset: 13, 1
+  index: -1
+images/effects/exskillB/shifa1/shifa_010
+  rotate: false
+  xy: 2, 752
+  size: 261, 270
+  orig: 270, 270
+  offset: 6, 0
+  index: -1
+images/effects/exskillB/shifa1/shifa_014
+  rotate: false
+  xy: 755, 237
+  size: 265, 261
+  orig: 270, 270
+  offset: 2, 9
+  index: -1
+
+effects_13301_exskillB24.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/exskillB/2/2_004
+  rotate: false
+  xy: 251, 387
+  size: 195, 137
+  orig: 270, 180
+  offset: 63, 16
+  index: -1
+images/effects/exskillB/2/2_014
+  rotate: true
+  xy: 812, 403
+  size: 206, 104
+  orig: 270, 180
+  offset: 33, 45
+  index: -1
+images/effects/exskillB/3/3_002
+  rotate: true
+  xy: 793, 250
+  size: 135, 110
+  orig: 315, 135
+  offset: 24, 18
+  index: -1
+images/effects/exskillB/4/4_026
+  rotate: false
+  xy: 777, 135
+  size: 151, 113
+  orig: 473, 270
+  offset: 54, 73
+  index: -1
+images/effects/exskillB/dianqiu/dianqiu_008
+  rotate: false
+  xy: 809, 611
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/effects/exskillB/dianqiu/dianqiu_016
+  rotate: false
+  xy: 448, 362
+  size: 180, 179
+  orig: 180, 180
+  offset: 0, 1
+  index: -1
+images/effects/exskillB/dianqiu/dianqiu_024
+  rotate: false
+  xy: 245, 28
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/effects/exskillB/dianqiu/dianqiu_028
+  rotate: false
+  xy: 630, 387
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/effects/exskillB/fazhen/fazhen_004
+  rotate: false
+  xy: 2, 212
+  size: 246, 270
+  orig: 270, 270
+  offset: 24, 0
+  index: -1
+images/effects/exskillB/fazhen/fazhen_006
+  rotate: false
+  xy: 2, 484
+  size: 247, 270
+  orig: 270, 270
+  offset: 23, 0
+  index: -1
+images/effects/exskillB/kuo/kuo_032
+  rotate: false
+  xy: 440, 543
+  size: 179, 219
+  orig: 270, 270
+  offset: 50, 29
+  index: -1
+images/effects/exskillB/kuo/kuo_034
+  rotate: false
+  xy: 251, 526
+  size: 187, 228
+  orig: 270, 270
+  offset: 50, 24
+  index: -1
+images/effects/exskillB/kuo/kuo_040
+  rotate: true
+  xy: 2, 14
+  size: 196, 241
+  orig: 270, 270
+  offset: 53, 17
+  index: -1
+images/effects/exskillB/kuo1/kuo_029
+  rotate: false
+  xy: 427, 40
+  size: 154, 144
+  orig: 225, 225
+  offset: 36, 39
+  index: -1
+images/effects/exskillB/kuo1/kuo_033
+  rotate: false
+  xy: 250, 210
+  size: 182, 175
+  orig: 225, 225
+  offset: 21, 25
+  index: -1
+images/effects/exskillB/kuo1/kuo_035
+  rotate: true
+  xy: 621, 569
+  size: 194, 186
+  orig: 225, 225
+  offset: 13, 20
+  index: -1
+images/effects/exskillB/qiubao/qiubao_002
+  rotate: false
+  xy: 2, 756
+  size: 269, 260
+  orig: 270, 270
+  offset: 1, 8
+  index: -1
+images/effects/exskillB/qiubao/qiubao_006
+  rotate: false
+  xy: 273, 764
+  size: 265, 252
+  orig: 270, 270
+  offset: 2, 11
+  index: -1
+images/effects/exskillB/qiubao/qiubao_008
+  rotate: false
+  xy: 540, 765
+  size: 249, 251
+  orig: 270, 270
+  offset: 11, 14
+  index: -1
+images/effects/exskillB/qiubao/qiubao_016
+  rotate: false
+  xy: 791, 793
+  size: 212, 223
+  orig: 270, 270
+  offset: 45, 45
+  index: -1
+images/effects/exskillB/shifa/shifa_004
+  rotate: false
+  xy: 434, 186
+  size: 180, 174
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/effects/exskillB/shifa/shifa_006
+  rotate: true
+  xy: 905, 252
+  size: 149, 111
+  orig: 180, 180
+  offset: 20, 24
+  index: -1
+images/effects/exskillB/shifa/shifa_008
+  rotate: false
+  xy: 583, 12
+  size: 155, 117
+  orig: 180, 180
+  offset: 17, 20
+  index: -1
+images/effects/exskillB/shifa/shifa_010
+  rotate: false
+  xy: 616, 131
+  size: 159, 122
+  orig: 180, 180
+  offset: 15, 17
+  index: -1
+images/effects/exskillB/shifa/shifa_014
+  rotate: false
+  xy: 740, 7
+  size: 155, 122
+  orig: 180, 180
+  offset: 12, 17
+  index: -1
+images/effects/exskillB/shifa/shifa_016
+  rotate: false
+  xy: 918, 491
+  size: 85, 118
+  orig: 180, 180
+  offset: 52, 20
+  index: -1
+images/effects/exskillB/shifa/shifa_018
+  rotate: false
+  xy: 918, 423
+  size: 73, 66
+  orig: 180, 180
+  offset: 58, 68
+  index: -1
+images/effects/exskillB/shifa1/shifa_000
+  rotate: false
+  xy: 897, 15
+  size: 53, 118
+  orig: 270, 270
+  offset: 80, 75
+  index: -1
+images/effects/exskillB/shifa1/shifa_018
+  rotate: true
+  xy: 630, 255
+  size: 130, 161
+  orig: 270, 270
+  offset: 117, 53
+  index: -1

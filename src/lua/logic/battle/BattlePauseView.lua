@@ -97,7 +97,7 @@ function PauseView:initUI(ui)
     -- self.listView:setItemsMargin(0)
     local hero = battleController.getCaptain()
     if hero then 
-        local bufferEffects = hero:getBufferEffectMap()
+        local bufferEffects = hero:getEffectingBufferEffect()
         for i,bufferEffect in ipairs(bufferEffects) do
             local data = bufferEffect:getData()
             if data.duration ~= 0 and data.iconDisplay then 

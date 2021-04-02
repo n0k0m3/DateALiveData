@@ -1,0 +1,13 @@
+
+effects_SpringFestival_bgflow.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hb_00000
+  rotate: false
+  xy: 2, 2
+  size: 62, 64
+  orig: 64, 64
+  offset: 1, 0
+  index: -1

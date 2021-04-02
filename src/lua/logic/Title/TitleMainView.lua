@@ -119,28 +119,30 @@ function TitleMainView:titleControlBack()
 end
 
 function TitleMainView:updateTitleList()
-
     self.chooseImg = nil
     self.chooseTitleCfg = nil
 
-    self.ListView_title:removeAllItems()
     local titleCfgs = TitleDataMgr:getEnableShowTitles(self.classify - 1)
-    for i,cfg in ipairs(titleCfgs) do
-        local titleItem = self.Panel_title_item:clone()
-        self:updateTitleItem(titleItem, cfg)
-    end
+    self.ListView_title:AsyncUpdateItem(titleCfgs,function( item,data )
+        self:updateTitleItem(item, data)
+    end,
+    function (  )
+        local item = self.Panel_title_item:clone()
+        self.ListView_title:pushBackCustomItem(item)
+        return item
+    end)
 
     self:initTitleBaseUI()
 end
 
 function TitleMainView:updateTitleItem(titleItem,cfg)
-
     local titleInfo = TitleDataMgr:getTitleCfg(cfg.id)
     if not titleInfo then
         return
     end
     local isOwn = TitleDataMgr:getOwnTitleById(titleInfo.id)
     local Image_title_icon = TFDirector:getChildByPath(titleItem, "Image_title_icon")
+    Image_title_icon:removeAllChildren()
     local skeletonTitleNode = TitleDataMgr:getTitleEffectSkeletonModle(titleInfo.id, 1)
     Image_title_icon:addChild(skeletonTitleNode,10)
 
@@ -190,8 +192,6 @@ function TitleMainView:updateTitleItem(titleItem,cfg)
         self.chooseTitleId = cfg.id
         self:initTitleBaseUI()
     end)
-
-    self.ListView_title:pushBackCustomItem(titleItem)
 end
 
 function TitleMainView:initTitleBaseUI()

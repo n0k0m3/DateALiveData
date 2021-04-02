@@ -4,6 +4,11 @@ function BattleScene:ctor(...)
     self:addView()
     -- self:addMEListener(TFWIDGET_CLEANUP,handler(self._onCleanup,self))
     -- self:musicGame()
+    if RELEASE_TEST then
+        self.testView = require("lua.logic.test.TestView"):new()
+        self:addChild(self.testView)
+        self.testView:setZOrder(9999)
+    end
 end
 function BattleScene:addView()
     local fightingMode = BattleDataMgr:getLevelCfg().fightingMode

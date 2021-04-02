@@ -1,0 +1,362 @@
+
+effects_12301_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/glow
+  rotate: false
+  xy: 709, 3
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+images/effects_H/guangxian_000
+  rotate: true
+  xy: 979, 814
+  size: 208, 27
+  orig: 214, 32
+  offset: 4, 1
+  index: -1
+images/effects_H/skillA/kuoyuan/yuan_002
+  rotate: false
+  xy: 782, 301
+  size: 151, 55
+  orig: 245, 105
+  offset: 45, 11
+  index: -1
+images/effects_H/skillA/kuoyuan/yuan_006
+  rotate: false
+  xy: 505, 2
+  size: 202, 71
+  orig: 245, 105
+  offset: 20, 13
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_001
+  rotate: false
+  xy: 701, 214
+  size: 205, 84
+  orig: 245, 105
+  offset: 6, 3
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_007
+  rotate: true
+  xy: 350, 218
+  size: 240, 102
+  orig: 245, 105
+  offset: 3, 0
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_009
+  rotate: false
+  xy: 782, 358
+  size: 236, 102
+  orig: 245, 105
+  offset: 9, 0
+  index: -1
+images/effects_H/skillF/dimian/dimian_000
+  rotate: true
+  xy: 974, 475
+  size: 142, 42
+  orig: 245, 105
+  offset: 54, 30
+  index: -1
+images/effects_H/skillF/dimian/dimian_004
+  rotate: false
+  xy: 454, 214
+  size: 245, 84
+  orig: 245, 105
+  offset: 0, 9
+  index: -1
+images/effects_H/skillF/dimian/dimian_006
+  rotate: false
+  xy: 257, 665
+  size: 245, 85
+  orig: 245, 105
+  offset: 0, 9
+  index: -1
+images/effects_H/skillF/kuoyuan1/kuoyuan_000
+  rotate: false
+  xy: 781, 9
+  size: 123, 44
+  orig: 210, 105
+  offset: 42, 15
+  index: -1
+images/effects_H/skillF/kuoyuan1/kuoyuan_008
+  rotate: true
+  xy: 937, 10
+  size: 195, 70
+  orig: 210, 105
+  offset: 8, 12
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_000
+  rotate: false
+  xy: 937, 207
+  size: 85, 149
+  orig: 280, 280
+  offset: 120, 20
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_002
+  rotate: false
+  xy: 817, 55
+  size: 118, 157
+  orig: 280, 280
+  offset: 93, 20
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_004
+  rotate: true
+  xy: 787, 619
+  size: 147, 220
+  orig: 280, 280
+  offset: 66, 11
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_006
+  rotate: true
+  xy: 725, 462
+  size: 155, 247
+  orig: 280, 280
+  offset: 57, 0
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_008
+  rotate: true
+  xy: 243, 4
+  size: 177, 260
+  orig: 280, 280
+  offset: 52, 0
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_010
+  rotate: false
+  xy: 789, 768
+  size: 188, 254
+  orig: 280, 280
+  offset: 48, 0
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_012
+  rotate: false
+  xy: 2, 178
+  size: 218, 280
+  orig: 280, 280
+  offset: 27, 0
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_014
+  rotate: false
+  xy: 2, 460
+  size: 241, 280
+  orig: 280, 280
+  offset: 14, 0
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_016
+  rotate: true
+  xy: 514, 775
+  size: 247, 273
+  orig: 280, 280
+  offset: 12, 0
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_018
+  rotate: false
+  xy: 257, 752
+  size: 255, 270
+  orig: 280, 280
+  offset: 8, 0
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_020
+  rotate: false
+  xy: 2, 742
+  size: 253, 280
+  orig: 280, 280
+  offset: 10, 0
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_022
+  rotate: true
+  xy: 478, 443
+  size: 182, 245
+  orig: 280, 280
+  offset: 42, 0
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_024
+  rotate: true
+  xy: 2, 8
+  size: 168, 239
+  orig: 280, 280
+  offset: 49, 1
+  index: -1
+images/effects_H/skillF/longjuanfeng/longjuanfeng_026
+  rotate: true
+  xy: 245, 460
+  size: 165, 231
+  orig: 280, 280
+  offset: 53, 12
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_002
+  rotate: true
+  xy: 514, 627
+  size: 146, 271
+  orig: 175, 350
+  offset: 21, 55
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_004
+  rotate: true
+  xy: 454, 300
+  size: 141, 326
+  orig: 175, 350
+  offset: 21, 7
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_006
+  rotate: true
+  xy: 505, 75
+  size: 137, 310
+  orig: 175, 350
+  offset: 21, 6
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_010
+  rotate: false
+  xy: 222, 183
+  size: 126, 275
+  orig: 175, 350
+  offset: 21, 3
+  index: -1
+
+effects_12301_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillA/kuoyuan/yuan_000
+  rotate: false
+  xy: 508, 903
+  size: 88, 38
+  orig: 245, 105
+  offset: 77, 11
+  index: -1
+images/effects_H/skillA/kuoyuan/yuan_004
+  rotate: true
+  xy: 151, 306
+  size: 183, 65
+  orig: 245, 105
+  offset: 29, 13
+  index: -1
+images/effects_H/skillA/kuoyuan/yuan_008
+  rotate: true
+  xy: 192, 517
+  size: 212, 72
+  orig: 245, 105
+  offset: 15, 15
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_000
+  rotate: true
+  xy: 218, 339
+  size: 176, 68
+  orig: 245, 105
+  offset: 38, 3
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_002
+  rotate: true
+  xy: 2, 2
+  size: 216, 88
+  orig: 245, 105
+  offset: 8, 0
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_004
+  rotate: true
+  xy: 102, 491
+  size: 213, 88
+  orig: 245, 105
+  offset: 0, 0
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_006
+  rotate: true
+  xy: 2, 467
+  size: 237, 98
+  orig: 245, 105
+  offset: 8, 0
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_011
+  rotate: false
+  xy: 131, 731
+  size: 216, 102
+  orig: 245, 105
+  offset: 27, 0
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_013
+  rotate: false
+  xy: 131, 835
+  size: 217, 102
+  orig: 245, 105
+  offset: 26, 0
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_014
+  rotate: false
+  xy: 612, 919
+  size: 214, 101
+  orig: 245, 105
+  offset: 27, 0
+  index: -1
+images/effects_H/skillF/dimian/dimian_002
+  rotate: false
+  xy: 378, 943
+  size: 232, 77
+  orig: 245, 105
+  offset: 6, 9
+  index: -1
+images/effects_H/skillF/dimian/dimian_008
+  rotate: false
+  xy: 131, 939
+  size: 245, 81
+  orig: 245, 105
+  offset: 0, 9
+  index: -1
+images/effects_H/skillF/dimian/dimian_009
+  rotate: true
+  xy: 2, 220
+  size: 245, 78
+  orig: 245, 105
+  offset: 0, 10
+  index: -1
+images/effects_H/skillF/kuoyuan1/kuoyuan_002
+  rotate: true
+  xy: 338, 572
+  size: 157, 57
+  orig: 210, 105
+  offset: 26, 13
+  index: -1
+images/effects_H/skillF/kuoyuan1/kuoyuan_004
+  rotate: true
+  xy: 288, 353
+  size: 176, 64
+  orig: 210, 105
+  offset: 17, 12
+  index: -1
+images/effects_H/skillF/kuoyuan1/kuoyuan_006
+  rotate: true
+  xy: 82, 277
+  size: 188, 67
+  orig: 210, 105
+  offset: 12, 12
+  index: -1
+images/effects_H/skillF/kuoyuan1/kuoyuan_010
+  rotate: true
+  xy: 266, 531
+  size: 198, 70
+  orig: 210, 105
+  offset: 7, 12
+  index: -1
+images/effects_H/skillF/ren_000
+  rotate: true
+  xy: 828, 891
+  size: 129, 159
+  orig: 140, 175
+  offset: 8, 11
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_000
+  rotate: true
+  xy: 378, 849
+  size: 92, 128
+  orig: 175, 350
+  offset: 42, 107
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_008
+  rotate: false
+  xy: 2, 706
+  size: 127, 314
+  orig: 175, 350
+  offset: 21, 5
+  index: -1

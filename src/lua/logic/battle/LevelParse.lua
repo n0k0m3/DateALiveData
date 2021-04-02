@@ -104,6 +104,7 @@ function LevelParse:loadJson(file,exCfg)
 		self.data = json.decode(jsonContent) --关卡数据
 		if self.data == nil then
 			Box(string.format("Decode %s.json failed",self.file))
+			return
 		end
 		if self.exCfg and self.exCfg > 0 then
 			local exCfgData = TabDataMgr:getData("DungeonLevelStep",self.exCfg)
@@ -157,12 +158,15 @@ function LevelParse:parse(controller)
 	end
 	self:parseChildren(self.data.children,self.mapNode)
 	if self.exJson then
-		local group = self.visualNodes[self.data.AirBlockID]
-		group.List = {}
-		for i,v in ipairs(self.exJson["visualNode"]) do
-			self:addVisualNode(v.ID ,v)
-			group.List[#group.List + 1] = v.ID
+		if self.exJson["visualNode"] and #self.exJson["visualNode"] > 0 then
+			local group = self.visualNodes[self.data.AirBlockID]
+			group.List = {}
+			for i,v in ipairs(self.exJson["visualNode"]) do
+				self:addVisualNode(v.ID ,v)
+				group.List[#group.List + 1] = v.ID
+			end
 		end
+		
 		for i,v in ipairs(self.exJson["triggers"]) do
 			self:parseTriggerNode(v,self.mapNode)
 		end
@@ -221,7 +225,11 @@ end
 
 
 function LevelParse:getBlockSize()
-	return self.data.BlockSize
+	if self.data then
+		return self.data.BlockSize
+	else
+		return 10
+	end
 end
 
 

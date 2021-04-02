@@ -239,68 +239,54 @@ function StoreMainView:updateGoodsList()
     local data = StoreDataMgr:getCommodity(storeId)
     local ListView_goods = self.ListView_goods[self.selectIndex_]
 
-    -- 增加商品条目
-    local useItemList = ListView_goods:getItems()
-    local gap = #data - #useItemList
-    if gap > 0 then
-        for i = 1, gap do
-            local item = self.Panel_goodsItem:clone()
-            local Image_diban = TFDirector:getChildByPath(item, "Image_diban")
-            local foo = {}
-            foo.root = item
-            foo.Image_diban= Image_diban
-            foo.Label_free = TFDirector:getChildByPath(Image_diban, "Label_free")
-            foo.Label_free:setTextById(190000128)
-            foo.Panel_head = TFDirector:getChildByPath(Image_diban, "Panel_head")
-            foo.Spine_color_down = TFDirector:getChildByPath(foo.Panel_head, "Spine_color_down"):hide()
-            foo.Spine_color_up = TFDirector:getChildByPath(foo.Panel_head, "Spine_color_up"):hide()
-            foo.Image_cost_bg = TFDirector:getChildByPath(Image_diban, "Image_cost_bg")
-            foo.Label_name = TFDirector:getChildByPath(Image_diban, "Label_name")
-            foo.Label_countLimit = TFDirector:getChildByPath(Image_diban, "Label_countLimit"):hide()
-            foo.Label_timeLimit = TFDirector:getChildByPath(Image_diban, "Label_timeLimit"):hide()
-            foo.Button_buy = TFDirector:getChildByPath(item, "Button_buy")
-            foo.Label_buy = TFDirector:getChildByPath(item, "Label_buy")
-            foo.Label_buy:setTextById(900661)
+    ListView_goods:AsyncUpdateItem(data, function ( ... )
+        -- body
+        local item = self.Panel_goodsItem:clone()
+        local Image_diban = TFDirector:getChildByPath(item, "Image_diban")
+        local foo = {}
+        foo.root = item
+        foo.Image_diban= Image_diban
+        foo.Label_free = TFDirector:getChildByPath(Image_diban, "Label_free")
+        foo.Panel_head = TFDirector:getChildByPath(Image_diban, "Panel_head")
+        foo.Spine_color_down = TFDirector:getChildByPath(foo.Panel_head, "Spine_color_down"):hide()
+        foo.Spine_color_up = TFDirector:getChildByPath(foo.Panel_head, "Spine_color_up"):hide()
+        foo.Image_cost_bg = TFDirector:getChildByPath(Image_diban, "Image_cost_bg")
+        foo.Label_name = TFDirector:getChildByPath(Image_diban, "Label_name")
+        foo.Label_countLimit = TFDirector:getChildByPath(Image_diban, "Label_countLimit"):hide()
+        foo.Label_timeLimit = TFDirector:getChildByPath(Image_diban, "Label_timeLimit"):hide()
+        foo.Button_buy = TFDirector:getChildByPath(item, "Button_buy")
+        foo.Label_buy = TFDirector:getChildByPath(item, "Label_buy")
+        foo.Label_buy:setTextById(111000115)
 
-            foo.Image_buyTag = TFDirector:getChildByPath(foo.Button_buy, "Image_buyTag"):hide()
-            foo.Label_saleNum = TFDirector:getChildByPath(foo.Image_buyTag, "Label_saleNum")
-            foo.Image_open_time = TFDirector:getChildByPath(Image_diban, "Image_open_time"):hide()
-            foo.Label_open_time = TFDirector:getChildByPath(foo.Image_open_time, "Label_open_time")
-            foo.Image_zhezhao   = TFDirector:getChildByPath(item, "Image_zhezhao")
-            foo.Label_buy_tip   = TFDirector:getChildByPath(item, "Label_buy_tip"):hide()
-            foo.Panel_content   = TFDirector:getChildByPath(item, "Panel_content")
+        foo.Image_buyTag = TFDirector:getChildByPath(foo.Button_buy, "Image_buyTag"):hide()
+        foo.Label_saleNum = TFDirector:getChildByPath(foo.Image_buyTag, "Label_saleNum")
+        foo.Image_open_time = TFDirector:getChildByPath(Image_diban, "Image_open_time"):hide()
+        foo.Label_open_time = TFDirector:getChildByPath(foo.Image_open_time, "Label_open_time")
+        foo.Image_zhezhao   = TFDirector:getChildByPath(item, "Image_zhezhao")
+        foo.Label_buy_tip   = TFDirector:getChildByPath(item, "Label_buy_tip"):hide()
+        foo.Panel_content   = TFDirector:getChildByPath(item, "Panel_content")
 
-            local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-            Panel_goodsItem:ZO(1):AddTo(foo.Panel_head)
-            Panel_goodsItem:Pos(0, 0)
-            foo.Panel_goodsItem = Panel_goodsItem
-            foo.Panel_cost = {}
-            for i = 1, 3 do
-                foo.Panel_cost[i] = {}
-                foo.Panel_cost[i].root = TFDirector:getChildByPath(Image_diban, "Panel_cost_" .. i)
-                foo.Panel_cost[i].Image_icon = TFDirector:getChildByPath(foo.Panel_cost[i].root, "Image_icon")
-                foo.Panel_cost[i].Label_count = TFDirector:getChildByPath(foo.Panel_cost[i].root, "Label_count")
-                foo.Panel_cost[i].Label_countRed = TFDirector:getChildByPath(foo.Panel_cost[i].root, "Label_countRed")
-            end
-            self.goodsIconMap_[item] = foo
-            ListView_goods:pushBackCustomItem(item)
+        local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+        Panel_goodsItem:ZO(1):AddTo(foo.Panel_head)
+        Panel_goodsItem:Pos(0, 0)
+        foo.Panel_goodsItem = Panel_goodsItem
+        foo.Panel_cost = {}
+        for i = 1, 3 do
+            foo.Panel_cost[i] = {}
+            foo.Panel_cost[i].root = TFDirector:getChildByPath(Image_diban, "Panel_cost_" .. i)
+            foo.Panel_cost[i].Image_icon = TFDirector:getChildByPath(foo.Panel_cost[i].root, "Image_icon")
+            foo.Panel_cost[i].Label_count = TFDirector:getChildByPath(foo.Panel_cost[i].root, "Label_count")
+            foo.Panel_cost[i].Label_countRed = TFDirector:getChildByPath(foo.Panel_cost[i].root, "Label_countRed")
 
             foo.Label_free:setTextById(190000128)
         end
-    else
-        for i = 1, math.abs(gap) do
-            local item = ListView_goods:getItem(1)
-            self.goodsIconMap_[item] = nil
-            ListView_goods:removeItem(1)
-        end
-    end
-
-
-    -- 更新商品信息
-    useItemList = ListView_goods:getItems()
-    for i, v in ipairs(useItemList) do
-        self:updateGoodsItem(v, data[i])
-    end
+        self.goodsIconMap_[item] = foo
+        return item
+    end, function ( v,  _data)
+        -- body
+        self:updateGoodsItem(v, _data)
+    end)
+   
 end
 
 function StoreMainView:updateGoodsItem(item, commodityId)

@@ -1,0 +1,62 @@
+
+effects_Watchmen_3_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/glow_000
+  rotate: false
+  xy: 2, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+images/effects/hitb/hitb_000
+  rotate: false
+  xy: 441, 756
+  size: 213, 188
+  orig: 270, 270
+  offset: 25, 41
+  index: -1
+images/effects/hitb/hitb_001
+  rotate: false
+  xy: 2, 498
+  size: 224, 222
+  orig: 270, 270
+  offset: 22, 24
+  index: -1
+images/effects/hitb/hitb_002
+  rotate: false
+  xy: 2, 722
+  size: 227, 222
+  orig: 270, 270
+  offset: 19, 24
+  index: -1
+images/effects/hitb/hitb_004
+  rotate: false
+  xy: 231, 736
+  size: 208, 208
+  orig: 270, 270
+  offset: 31, 31
+  index: -1
+images/effects/hitb/hitb_006
+  rotate: false
+  xy: 2, 94
+  size: 198, 198
+  orig: 270, 270
+  offset: 36, 36
+  index: -1
+images/effects/hitb/hitb_008
+  rotate: false
+  xy: 2, 294
+  size: 202, 202
+  orig: 270, 270
+  offset: 34, 34
+  index: -1
+images/effects/hitb/hitb_009
+  rotate: false
+  xy: 656, 748
+  size: 197, 196
+  orig: 270, 270
+  offset: 37, 37
+  index: -1

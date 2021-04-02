@@ -1,0 +1,118 @@
+
+effects_13101_fengqiu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillC/boom1/boom1_000
+  rotate: false
+  xy: 468, 325
+  size: 221, 221
+  orig: 263, 263
+  offset: 20, 22
+  index: -1
+effects/skillC/boom1/boom1_001
+  rotate: true
+  xy: 691, 151
+  size: 184, 185
+  orig: 263, 263
+  offset: 39, 37
+  index: -1
+effects/skillC/boom1/boom1_002
+  rotate: false
+  xy: 691, 337
+  size: 208, 209
+  orig: 263, 263
+  offset: 27, 25
+  index: -1
+effects/skillC/boom1/boom1_004
+  rotate: false
+  xy: 234, 91
+  size: 222, 221
+  orig: 263, 263
+  offset: 21, 19
+  index: -1
+effects/skillC/boom1/boom1_006
+  rotate: false
+  xy: 712, 787
+  size: 228, 227
+  orig: 263, 263
+  offset: 17, 16
+  index: -1
+effects/skillC/boom1/boom1_008
+  rotate: false
+  xy: 2, 78
+  size: 230, 231
+  orig: 263, 263
+  offset: 16, 14
+  index: -1
+effects/skillC/boom1/boom1_010
+  rotate: false
+  xy: 2, 311
+  size: 230, 235
+  orig: 263, 263
+  offset: 16, 14
+  index: -1
+effects/skillC/fengqiu/fengqiu_000
+  rotate: false
+  xy: 239, 548
+  size: 232, 232
+  orig: 248, 248
+  offset: 8, 8
+  index: -1
+effects/skillC/fengqiu/fengqiu_003
+  rotate: false
+  xy: 478, 782
+  size: 232, 232
+  orig: 248, 248
+  offset: 8, 8
+  index: -1
+effects/skillC/fengqiu/fengqiu_006
+  rotate: false
+  xy: 234, 314
+  size: 232, 232
+  orig: 248, 248
+  offset: 8, 8
+  index: -1
+effects/skillC/fengqiu/fengqiu_009
+  rotate: false
+  xy: 2, 548
+  size: 235, 232
+  orig: 248, 248
+  offset: 5, 8
+  index: -1
+effects/skillC/fengqiu/fengqiu_012
+  rotate: false
+  xy: 2, 782
+  size: 238, 232
+  orig: 248, 248
+  offset: 2, 8
+  index: -1
+effects/skillC/fengqiu/fengqiu_015
+  rotate: false
+  xy: 242, 782
+  size: 234, 232
+  orig: 248, 248
+  offset: 6, 8
+  index: -1
+effects/skillC/fengqiu/fengqiu_018
+  rotate: false
+  xy: 473, 548
+  size: 232, 232
+  orig: 248, 248
+  offset: 8, 8
+  index: -1
+effects/skillC/glow_000
+  rotate: false
+  xy: 942, 942
+  size: 72, 72
+  orig: 75, 75
+  offset: 2, 2
+  index: -1
+effects/skillC/guangxian_000
+  rotate: false
+  xy: 2, 9
+  size: 211, 67
+  orig: 225, 75
+  offset: 7, 4
+  index: -1

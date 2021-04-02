@@ -1,0 +1,62 @@
+
+build_springFes_official.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ggg2
+  rotate: false
+  xy: 2, 47
+  size: 122, 122
+  orig: 122, 122
+  offset: 0, 0
+  index: -1
+zhugelou1
+  rotate: false
+  xy: 2, 593
+  size: 491, 420
+  orig: 491, 420
+  offset: 0, 0
+  index: -1
+zhugelou2
+  rotate: false
+  xy: 2, 171
+  size: 491, 420
+  orig: 491, 420
+  offset: 0, 0
+  index: -1
+zhugelou3
+  rotate: false
+  xy: 495, 593
+  size: 491, 420
+  orig: 491, 420
+  offset: 0, 0
+  index: -1
+zhugelou4
+  rotate: false
+  xy: 495, 171
+  size: 491, 420
+  orig: 491, 420
+  offset: 0, 0
+  index: -1
+zhugeloud
+  rotate: true
+  xy: 126, 116
+  size: 53, 127
+  orig: 53, 127
+  offset: 0, 0
+  index: -1
+zhugeloudl1
+  rotate: false
+  xy: 2, 3
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+zhugeloudl2
+  rotate: false
+  xy: 988, 960
+  size: 25, 53
+  orig: 25, 53
+  offset: 0, 0
+  index: -1

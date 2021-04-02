@@ -1,0 +1,139 @@
+
+chest_springFes_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/baoxiang_000
+  rotate: false
+  xy: 2, 758
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_001
+  rotate: false
+  xy: 2, 506
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_002
+  rotate: false
+  xy: 254, 758
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_003
+  rotate: false
+  xy: 2, 254
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_004
+  rotate: false
+  xy: 254, 506
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_005
+  rotate: false
+  xy: 506, 758
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_006
+  rotate: false
+  xy: 2, 2
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_008
+  rotate: false
+  xy: 254, 254
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_010
+  rotate: false
+  xy: 506, 506
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_012
+  rotate: false
+  xy: 758, 758
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_014
+  rotate: false
+  xy: 254, 2
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_016
+  rotate: false
+  xy: 506, 254
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_018
+  rotate: false
+  xy: 758, 506
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+effects/baoxiang_020
+  rotate: false
+  xy: 506, 2
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+lwh2
+  rotate: false
+  xy: 758, 408
+  size: 163, 96
+  orig: 163, 96
+  offset: 0, 0
+  index: -1
+lwh3
+  rotate: true
+  xy: 815, 41
+  size: 146, 67
+  orig: 146, 67
+  offset: 0, 0
+  index: -1
+lwh4
+  rotate: false
+  xy: 758, 189
+  size: 121, 117
+  orig: 121, 117
+  offset: 0, 0
+  index: -1
+lwh_1
+  rotate: false
+  xy: 758, 308
+  size: 159, 98
+  orig: 159, 98
+  offset: 0, 0
+  index: -1
+lwh_ying
+  rotate: true
+  xy: 758, 11
+  size: 176, 55
+  orig: 176, 55
+  offset: 0, 0
+  index: -1

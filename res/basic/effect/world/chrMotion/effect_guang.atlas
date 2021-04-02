@@ -1,0 +1,13 @@
+
+effect_guang.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang_000
+  rotate: false
+  xy: 2, 133
+  size: 238, 107
+  orig: 278, 175
+  offset: 19, 31
+  index: -1

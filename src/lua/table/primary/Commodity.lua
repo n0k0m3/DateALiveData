@@ -8405,7 +8405,7 @@ return {
         ext = {
             tipType = 2,
             limitItemId = {
-                [1] = 410109,
+                [1] = 410115,
             },
             tipId = 14300303,
         },
@@ -38125,7 +38125,7 @@ return {
             [510242] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 99,
         title = 0,
         sellDescribtion = "2004",
         showEndTime = "",

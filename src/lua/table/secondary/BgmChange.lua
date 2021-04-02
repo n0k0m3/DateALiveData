@@ -473,4 +473,34 @@ return {
         nameId = "WsjActivityMainView",
         bgm = "sound/halloween_2019.mp3",
     },
+    [84] = {
+        id = 84,
+        changeTime = 1,
+        nameId = "ChapterMapLayer",
+        bgm = "sound/bgm/kanban/main_aisi_13102.mp3",
+    },
+    [85] = {
+        id = 85,
+        changeTime = 1,
+        nameId = "ActivityMainView3",
+        bgm = "sound/bgm/kanban/main_qizui_11311.mp3",
+    },
+    [86] = {
+        id = 86,
+        changeTime = 1,
+        nameId = "SnowDayMemoryLevel",
+        bgm = "sound/bgm/kanban/main_qinli_1.mp3",
+    },
+    [87] = {
+        id = 87,
+        changeTime = 1,
+        nameId = "FireFactoryView",
+        bgm = "sound/bgm/dafuweng_main.mp3",
+    },
+    [88] = {
+        id = 88,
+        changeTime = 1,
+        nameId = "NianShouChallegeView",
+        bgm = "sound/bgm/dafuweng_main.mp3",
+    },
 }

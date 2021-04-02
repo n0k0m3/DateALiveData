@@ -162,7 +162,6 @@ function LockStep.initlize()
     -- CCDirector:sharedDirector():setDisplayStats(true)
 
     this.synchronBossStateTime = 0
-
     this.ipArray = TFArray:new()
     this.connectedIpArray = TFArray:new()
     this.AIHostCheckTime = 0
@@ -241,7 +240,11 @@ function LockStep.synchronBossState(markID)
         end
     else
         local time = LockStep.gettime()
-        if time - this.synchronBossStateTime > BattleConfig.BOSS_STATE_SYNCHRON_TIME then
+        local limitTime = BattleConfig.BOSS_STATE_SYNCHRON_TIME
+        if battleController.useCustomAttrModle() then
+            limitTime = BattleConfig.BOSS_STATE_SYNCHRON_TIME * 4
+        end
+        if time - this.synchronBossStateTime > limitTime then
             this.synchronBossStateTime =  time
             local enemys = battleController.getEnemyMember()
             for i, enemy in ipairs(enemys) do
@@ -309,7 +312,11 @@ function LockStep.syncAIStepData(markID, lastIdx, cruIdx, params)
         return
     end
     if lastIdx > 0 then
-        this.synchronBossState(markID)
+        if battleController.useCustomAttrModle() then
+
+        else
+            this.synchronBossState(markID)
+        end
     end
     local data = {}
     data[1] = markID
@@ -483,7 +490,7 @@ function LockStep.excuteFrameData(data)
                 local hero = battleController.getPlayer(id)
                 if hero then
                     hero:fix(operate.posX, operate.posY ,operate.dir, operate.hp)
-                    hero:createAndPush(keyCode, LockStep.trans2String(keyEvent))
+                    hero:createAndPush(keyCode, LockStep.trans2String(keyEvent),keyEventEx)
                 end
             end
         end
@@ -518,9 +525,8 @@ function LockStep.excuteBossAction( data )
                     if dataframe.posX ~= 0 or dataframe.posY ~= 0 then
                         enemy:revStateInfoData(clone(dataframe))  
                     end
-                    enemy:fix_boss(dataframe.operate,nil,nil,nil,nil,dataframe.sp)
                 end
-                enemy:fix_boss(dataframe.operate,nil,nil,nil,dataframe.hp)
+                enemy:fix_boss(dataframe.operate,nil,nil,nil,dataframe.hp,dataframe.sp)
             end
         end
     end
@@ -621,7 +627,6 @@ end
 
 --关闭连接
 function LockStep.closeUDP()
-    --printError("LockStep.closeUDP")
     if this.tb_heartbeat_timer then
         TFDirector:removeTimer(this.tb_heartbeat_timer)
         this.tb_heartbeat_timer = nil
@@ -663,7 +668,11 @@ end
 function LockStep:onRevPong(event)
     local data  = event.data
     local time  = data.time --服务器时间
-    LockStep.sendFightPing(time)
+    if tonumber(time) then
+        LockStep.sendFightPing(time)
+    else
+        LockStep.sendFightPing(tostring(ServerDataMgr:getServerTime()))
+    end
     -- dump(data)
     if data.data then
         this.netDelayTimes = {}
@@ -756,7 +765,7 @@ function LockStep:onRevEndFight(event)
     -- enum MsgID{eMsgID = 25605;}; //注意：消息id放最后,以免客户端解析异常
     --处理战斗结束消息
     _print("onRev Team Fight end")
-    dump(event)
+    dump(data)
     this.endData = event  --保存战斗结束的数据        
     EventMgr:dispatchEvent(eEvent.EVENT_TEAM_FIGHT_END)
 end
@@ -821,6 +830,11 @@ function LockStep:onRevStartFight(event)
     table.sort(temp,function(a ,b)
         return a.pid > b.pid
     end)
+    if #data.pids > #temp then
+        LockStep.closeUDP()
+        EventMgr:dispatchEvent(eEvent.EVENT_LEAVE)
+        return
+    end
     battleController:getBattleData().heros = temp
     LockStep.closeNetWait()
     --切换到战斗场景
@@ -988,7 +1002,7 @@ end
 
 --连接服务器
 function LockStep.connect(isReconnect)
-    print_("host:",this.host,"port:",this.port)
+    print("host:",this.host,"port:",this.port)
     if this.isConnected() then
         return
     end
@@ -1013,12 +1027,10 @@ function LockStep.connect(isReconnect)
         else
             this.kcpnet = TFClientNet:create(0,true)
         end
-
-        --this.kcpnet:SetConnTOT(50)
     end
     --连接成功
     local function onConnected(nResult)
-        print_("onConnected:",nResult)
+         print("onConnected:",nResult)
         if nResult == 1 then
             this.bConnected      = true
             this.nReconnectTimes = 0
@@ -1046,7 +1058,7 @@ function LockStep.connect(isReconnect)
     end
     --连接错误
     local function onConnectError()
-        print_("连接失败")
+        print("连接失败")
         this.bConnected = false
         if not this.reconnect() then
             Utils:showError(100000016)
@@ -1154,7 +1166,7 @@ function LockStep:isValidKey(keyCode)
     return true
 end
 
-function LockStep:createAndPush(keyCode,eventType)
+function LockStep:createAndPush(keyCode,eventType,skillSubId)
     -- print("Input key:", keyCode," event:",eventType)
     if this.isAllowInput() then
         local posX =  0
@@ -1167,7 +1179,7 @@ function LockStep:createAndPush(keyCode,eventType)
 
 
         if hero then
-            hero:createAndPush(keyCode, eventType)
+            hero:createAndPush(keyCode, eventType,skillSubId)
             local pos3D  = hero:getPosition3D()
             posX =  math.abs(pos3D.x)
             posY =  math.abs(pos3D.y)
@@ -1247,7 +1259,6 @@ end
 -- required int32 fightTime = 4;           // 战斗时间
 --通知战斗结束
 function LockStep.sendEndFight(message)
-    _print("LockStep.sendEndFight >>>>>>>>>>>>>")
     --战斗已经结束不需要发送
     if this.endData then
         return

@@ -1,0 +1,76 @@
+
+2021chunjie_4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xf_00000
+  rotate: false
+  xy: 2, 586
+  size: 284, 207
+  orig: 295, 207
+  offset: 0, 0
+  index: -1
+images/xf_00001
+  rotate: false
+  xy: 587, 598
+  size: 262, 202
+  orig: 295, 207
+  offset: 10, 0
+  index: -1
+images/xf_00002
+  rotate: false
+  xy: 288, 586
+  size: 272, 207
+  orig: 295, 207
+  offset: 0, 0
+  index: -1
+images/xf_00003
+  rotate: true
+  xy: 2, 292
+  size: 292, 195
+  orig: 295, 207
+  offset: 3, 5
+  index: -1
+images/xf_00004
+  rotate: true
+  xy: 2, 2
+  size: 288, 194
+  orig: 295, 207
+  offset: 4, 1
+  index: -1
+images/xf_00005
+  rotate: true
+  xy: 199, 294
+  size: 290, 183
+  orig: 295, 207
+  offset: 0, 16
+  index: -1
+images/xf_00006
+  rotate: false
+  xy: 587, 802
+  size: 289, 195
+  orig: 295, 207
+  offset: 1, 6
+  index: -1
+images/xf_00007
+  rotate: false
+  xy: 295, 799
+  size: 290, 198
+  orig: 295, 207
+  offset: 4, 0
+  index: -1
+images/xf_00008
+  rotate: true
+  xy: 384, 307
+  size: 277, 204
+  orig: 295, 207
+  offset: 4, 0
+  index: -1
+images/xf_00009
+  rotate: false
+  xy: 2, 795
+  size: 291, 202
+  orig: 295, 207
+  offset: 0, 5
+  index: -1

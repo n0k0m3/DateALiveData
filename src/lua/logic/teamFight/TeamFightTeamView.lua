@@ -387,11 +387,11 @@ function TeamFightTeamView:initTeamPart()
         self.teamItems[i]["stat"] = {}
         self.teamItems[i]["stat"]["value"] = 1
 
-        --创建克制icon
-        local heroBoxSize = self.teamItems[i]["player"]["hero_box"]:getContentSize()
-        local startPos = ccp(heroBoxSize.width/2 , 0) + ccp(- 30 , 30)
-        self.teamItems[i]["player"]["panel_element"] = Utils:createElementPanel(self.teamItems[i]["player"]["hero_box"] , 1 ,startPos)
-        self.teamItems[i]["player"]["panel_element"]:hide()
+        -- --创建克制icon  --屏蔽克制
+        -- local heroBoxSize = self.teamItems[i]["player"]["hero_box"]:getContentSize()
+        -- local startPos = ccp(heroBoxSize.width/2 , 0) + ccp(- 30 , 30)
+        -- self.teamItems[i]["player"]["panel_element"] = Utils:createElementPanel(self.teamItems[i]["player"]["hero_box"] , 1 ,startPos)
+        -- self.teamItems[i]["player"]["panel_element"]:hide()
 
         self.teamItems[i]["ctrl"] = {}
         self.teamItems[i]["ctrl"]["ctrl_root"] = self.teamItems[i]["item_root"]:getChildByName("Image_ctrl_pad")
@@ -734,10 +734,9 @@ function TeamFightTeamView:updateTeamPart()
         local tmpHero = self.teamInfoData[i]
         if tmpHero and table.count(HeroDataMgr:getHero(tmpHero.heroCid)) > 0 then
             --TODO 需要找服务器同学下发skinId
-            local heroData = HeroDataMgr:getHero(tmpHero.heroCid)
-
-            self.teamItems[i]["player"]["panel_element"]:show()
-            PrefabDataMgr:setInfo(self.teamItems[i]["player"]["panel_element"] , heroData.magicAttribute)
+            --local heroData = HeroDataMgr:getHero(tmpHero.heroCid)
+            -- self.teamItems[i]["player"]["panel_element"]:show()
+            -- PrefabDataMgr:setInfo(self.teamItems[i]["player"]["panel_element"] , heroData.magicAttribute)
 
             Utils:createTeamHeroModel(tmpHero.heroCid, self.teamItems[i]["player"]["hero"],tmpHero.skinCid,isHuntingModelPos)
             self.teamItems[i]["player"]["hero"]:setVisible(true)

@@ -1,0 +1,286 @@
+
+effect_dicuo_chain.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_030
+  rotate: false
+  xy: 776, 863
+  size: 163, 158
+  orig: 237, 234
+  offset: 30, 31
+  index: -1
+images/hitflash1_yellow
+  rotate: false
+  xy: 2, 765
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/lizi/lizi_030
+  rotate: false
+  xy: 845, 642
+  size: 68, 79
+  orig: 237, 234
+  offset: 81, 78
+  index: -1
+images/lizi/lizi_031
+  rotate: false
+  xy: 162, 255
+  size: 89, 112
+  orig: 237, 234
+  offset: 67, 58
+  index: -1
+images/lizi/lizi_032
+  rotate: false
+  xy: 760, 723
+  size: 107, 135
+  orig: 237, 234
+  offset: 55, 45
+  index: -1
+images/lizi/lizi_033
+  rotate: false
+  xy: 621, 542
+  size: 127, 152
+  orig: 237, 234
+  offset: 47, 35
+  index: -1
+images/lizi/lizi_034
+  rotate: false
+  xy: 473, 678
+  size: 141, 162
+  orig: 237, 234
+  offset: 41, 29
+  index: -1
+images/lizi/lizi_035
+  rotate: false
+  xy: 2, 44
+  size: 151, 170
+  orig: 237, 234
+  offset: 37, 25
+  index: -1
+images/lizi/lizi_036
+  rotate: false
+  xy: 2, 216
+  size: 158, 175
+  orig: 237, 234
+  offset: 35, 22
+  index: -1
+images/lizi/lizi_037
+  rotate: false
+  xy: 428, 842
+  size: 164, 179
+  orig: 237, 234
+  offset: 33, 19
+  index: -1
+images/lizi/lizi_038
+  rotate: false
+  xy: 2, 582
+  size: 167, 181
+  orig: 237, 234
+  offset: 33, 18
+  index: -1
+images/lizi/lizi_039
+  rotate: false
+  xy: 260, 840
+  size: 166, 181
+  orig: 237, 234
+  offset: 32, 18
+  index: -1
+images/lizi/lizi_040
+  rotate: true
+  xy: 594, 860
+  size: 161, 180
+  orig: 237, 234
+  offset: 37, 17
+  index: -1
+images/tielian/tielian_000
+  rotate: false
+  xy: 941, 938
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_002
+  rotate: false
+  xy: 941, 853
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_004
+  rotate: false
+  xy: 489, 463
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_006
+  rotate: true
+  xy: 263, 364
+  size: 78, 83
+  orig: 155, 155
+  offset: 38, 37
+  index: -1
+images/tielian/tielian_008
+  rotate: false
+  xy: 253, 279
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_010
+  rotate: true
+  xy: 162, 173
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_012
+  rotate: false
+  xy: 155, 88
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_014
+  rotate: false
+  xy: 155, 3
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_016
+  rotate: true
+  xy: 571, 462
+  size: 78, 83
+  orig: 155, 155
+  offset: 38, 37
+  index: -1
+images/tielian/tielian_018
+  rotate: true
+  xy: 656, 460
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_020
+  rotate: true
+  xy: 760, 641
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_022
+  rotate: false
+  xy: 750, 556
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_024
+  rotate: true
+  xy: 348, 361
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_026
+  rotate: false
+  xy: 433, 358
+  size: 79, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_028
+  rotate: true
+  xy: 335, 279
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tielian/tielian_030
+  rotate: true
+  xy: 420, 276
+  size: 80, 83
+  orig: 155, 155
+  offset: 37, 37
+  index: -1
+images/tieliansui/tieliansui_031
+  rotate: false
+  xy: 402, 443
+  size: 85, 92
+  orig: 237, 234
+  offset: 67, 64
+  index: -1
+images/tieliansui/tieliansui_032
+  rotate: true
+  xy: 298, 444
+  size: 91, 102
+  orig: 237, 234
+  offset: 63, 59
+  index: -1
+images/tieliansui/tieliansui_033
+  rotate: false
+  xy: 162, 369
+  size: 99, 113
+  orig: 237, 234
+  offset: 59, 54
+  index: -1
+images/tieliansui/tieliansui_034
+  rotate: true
+  xy: 171, 484
+  size: 108, 125
+  orig: 237, 234
+  offset: 54, 48
+  index: -1
+images/tieliansui/tieliansui_035
+  rotate: true
+  xy: 869, 735
+  size: 116, 135
+  orig: 237, 234
+  offset: 50, 43
+  index: -1
+images/tieliansui/tieliansui_036
+  rotate: true
+  xy: 473, 548
+  size: 128, 146
+  orig: 237, 234
+  offset: 46, 38
+  index: -1
+images/tieliansui/tieliansui_037
+  rotate: true
+  xy: 314, 537
+  size: 135, 157
+  orig: 237, 234
+  offset: 42, 33
+  index: -1
+images/tieliansui/tieliansui_038
+  rotate: false
+  xy: 171, 594
+  size: 141, 169
+  orig: 237, 234
+  offset: 38, 27
+  index: -1
+images/tieliansui/tieliansui_039
+  rotate: false
+  xy: 616, 696
+  size: 142, 162
+  orig: 237, 234
+  offset: 34, 40
+  index: -1
+images/tieliansui/tieliansui_040
+  rotate: false
+  xy: 2, 393
+  size: 158, 187
+  orig: 237, 234
+  offset: 30, 18
+  index: -1
+images/tieliansui/tieliansui_041
+  rotate: true
+  xy: 314, 674
+  size: 164, 157
+  orig: 237, 234
+  offset: 30, 12
+  index: -1

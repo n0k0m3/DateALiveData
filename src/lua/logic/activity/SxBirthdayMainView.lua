@@ -45,7 +45,7 @@ function SxBirthdayMainView:initUI(ui)
 		foo.btn:setTextureNormal(BUTTON_TYPE.LOCK)
 		foo.Image_cityIcon =  TFDirector:getChildByPath(foo.btn, "Image_cityIcon")
         foo.Label_CityName = TFDirector:getChildByPath(foo.btn, "Label_CityName")
-        foo.Label_CityName:setSkewX(15)
+        --foo.Label_CityName:setSkewX(15)
         self.Button_city[i] = foo
     end
 

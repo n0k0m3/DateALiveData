@@ -1,0 +1,27 @@
+
+hint_lamp.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dengpao
+  rotate: false
+  xy: 2, 153
+  size: 133, 150
+  orig: 133, 150
+  offset: 0, 0
+  index: -1
+images/liangdeng_010
+  rotate: false
+  xy: 2, 2
+  size: 132, 149
+  orig: 132, 149
+  offset: 0, 0
+  index: -1
+images/yuan_010
+  rotate: false
+  xy: 137, 206
+  size: 97, 97
+  orig: 111, 110
+  offset: 7, 6
+  index: -1

@@ -8,6 +8,7 @@ function Form:ctor(data,hero)
 	self.skillList = {}
 	self.aiAgent   = AIAgent:new(self.hero,self.data.AI)
 	-- 创建技能
+	self.data.skills = hero:combatCustomSkills(self.data.skills)
     for k, id in ipairs(self.data.skills) do
         local data =  BattleDataMgr:getSkillData(id,self.hero:getAngleDatas())
         if not data then --TODO 怪物技能不存在
@@ -132,6 +133,16 @@ function Form:update(time)
 				self:doTrans(self.data.reductionTrans)
 			end
 		end
+	end
+end
+
+function Form:getExpendData()
+	if not self.bActive then
+		return nil
+	end
+	local expend = self.data.expend
+	if expend and  #expend > 4 then
+		return expend
 	end
 end
 

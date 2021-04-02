@@ -1,0 +1,62 @@
+
+build_springFes_dressShopAdds.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cyp1
+  rotate: false
+  xy: 2, 2
+  size: 209, 235
+  orig: 209, 235
+  offset: 0, 0
+  index: -1
+cyp2
+  rotate: true
+  xy: 802, 243
+  size: 233, 208
+  orig: 233, 208
+  offset: 0, 0
+  index: -1
+cyp3
+  rotate: false
+  xy: 329, 267
+  size: 235, 209
+  orig: 235, 209
+  offset: 0, 0
+  index: -1
+cyp4
+  rotate: false
+  xy: 566, 266
+  size: 234, 210
+  orig: 234, 210
+  offset: 0, 0
+  index: -1
+cyp5
+  rotate: false
+  xy: 2, 239
+  size: 325, 237
+  orig: 325, 237
+  offset: 0, 0
+  index: -1
+cyp6
+  rotate: false
+  xy: 286, 138
+  size: 45, 99
+  orig: 45, 99
+  offset: 0, 0
+  index: -1
+cyp7
+  rotate: false
+  xy: 213, 118
+  size: 71, 119
+  orig: 71, 119
+  offset: 0, 0
+  index: -1
+cyp8
+  rotate: false
+  xy: 213, 16
+  size: 48, 100
+  orig: 48, 100
+  offset: 0, 0
+  index: -1

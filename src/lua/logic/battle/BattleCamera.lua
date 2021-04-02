@@ -38,24 +38,28 @@ function BattleCamera:setFixZ(id,duration,fixZ)
         if self.fixzMap[id] then
             self.fixzMap[id] = nil
         end
-        self.fixDuration = 0
-        self.fixZ = 0
-        local curId
-        local maxFixz = 0
-        for k,v in pairs(self.fixzMap) do
-            if v.fix > maxFixz then
-                maxFixz = v.fix
-                curId = k
+        if self.fixDuration > 0 then
+
+        else
+            self.fixDuration = 0
+            self.fixZ = 0
+            local curId
+            local maxFixz = 0
+            for k,v in pairs(self.fixzMap) do
+                if v.fix > maxFixz then
+                    maxFixz = v.fix
+                    curId = k
+                end
             end
-        end
-        if curId then
-            local info = self.fixzMap[curId]
-            if info.dura == -1 then
-                self.fixDuration = info.dura
-            else
-                self.fixDuration = math.max(info.dura - (self.controller:getTime() - info.time), 0)
+            if curId then
+                local info = self.fixzMap[curId]
+                if info.dura == -1 then
+                    self.fixDuration = info.dura
+                else
+                    self.fixDuration = math.max(info.dura - (self.controller:getTime() - info.time), 0)
+                end
+                self.fixZ = info.fix
             end
-            self.fixZ = info.fix
         end
     end
 end

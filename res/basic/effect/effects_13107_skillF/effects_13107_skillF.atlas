@@ -1,0 +1,222 @@
+
+effects_13107_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillC/glow_000
+  rotate: false
+  xy: 900, 251
+  size: 95, 95
+  orig: 100, 100
+  offset: 3, 3
+  index: -1
+images/effects_H/skillF/ci/ci_000
+  rotate: false
+  xy: 484, 353
+  size: 181, 56
+  orig: 450, 150
+  offset: 0, 51
+  index: -1
+images/effects_H/skillF/ci/ci_001
+  rotate: false
+  xy: 2, 879
+  size: 450, 143
+  orig: 450, 150
+  offset: 0, 1
+  index: -1
+images/effects_H/skillF/ci/ci_002
+  rotate: false
+  xy: 454, 880
+  size: 450, 142
+  orig: 450, 150
+  offset: 0, 1
+  index: -1
+images/effects_H/skillF/ci/ci_004
+  rotate: false
+  xy: 454, 751
+  size: 450, 127
+  orig: 450, 150
+  offset: 0, 9
+  index: -1
+images/effects_H/skillF/ci/ci_006
+  rotate: false
+  xy: 2, 752
+  size: 450, 125
+  orig: 450, 150
+  offset: 0, 10
+  index: -1
+images/effects_H/skillF/ci/ci_008
+  rotate: false
+  xy: 2, 628
+  size: 450, 122
+  orig: 450, 150
+  offset: 0, 11
+  index: -1
+images/effects_H/skillF/ci/ci_010
+  rotate: true
+  xy: 906, 348
+  size: 446, 104
+  orig: 450, 150
+  offset: 1, 16
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_037
+  rotate: false
+  xy: 251, 356
+  size: 231, 128
+  orig: 350, 300
+  offset: 68, 136
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_038
+  rotate: true
+  xy: 2, 350
+  size: 276, 247
+  orig: 350, 300
+  offset: 68, 15
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_039
+  rotate: true
+  xy: 2, 2
+  size: 344, 265
+  orig: 350, 300
+  offset: 0, 15
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_040
+  rotate: true
+  xy: 269, 2
+  size: 344, 265
+  orig: 350, 300
+  offset: 0, 15
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_042
+  rotate: true
+  xy: 536, 3
+  size: 343, 265
+  orig: 350, 300
+  offset: 0, 15
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_044
+  rotate: false
+  xy: 454, 486
+  size: 342, 263
+  orig: 350, 300
+  offset: 0, 15
+  index: -1
+images/effects_H/skillF/lie/lie_000
+  rotate: true
+  xy: 803, 193
+  size: 330, 95
+  orig: 350, 100
+  offset: 4, 5
+  index: -1
+images/effects_H/skillF/lie/lie_007
+  rotate: false
+  xy: 484, 411
+  size: 315, 73
+  orig: 350, 100
+  offset: 10, 13
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_046
+  rotate: true
+  xy: 251, 547
+  size: 79, 192
+  orig: 300, 300
+  offset: 104, 83
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_048
+  rotate: false
+  xy: 803, 525
+  size: 98, 224
+  orig: 300, 300
+  offset: 92, 76
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_050
+  rotate: false
+  xy: 906, 796
+  size: 110, 226
+  orig: 300, 300
+  offset: 88, 69
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_062
+  rotate: false
+  xy: 803, 31
+  size: 211, 160
+  orig: 300, 300
+  offset: 37, 36
+  index: -1
+
+effects_13107_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillF/daoguang/daoguang_046
+  rotate: false
+  xy: 2, 741
+  size: 342, 240
+  orig: 350, 300
+  offset: 0, 15
+  index: -1
+images/effects_H/skillF/daoguang/daoguang_048
+  rotate: false
+  xy: 2, 499
+  size: 342, 240
+  orig: 350, 300
+  offset: 0, 15
+  index: -1
+images/effects_H/skillF/lie/lie_002
+  rotate: false
+  xy: 560, 890
+  size: 349, 91
+  orig: 350, 100
+  offset: 1, 7
+  index: -1
+images/effects_H/skillF/lie/lie_004
+  rotate: false
+  xy: 560, 802
+  size: 350, 86
+  orig: 350, 100
+  offset: 0, 9
+  index: -1
+images/effects_H/skillF/lie/lie_006
+  rotate: false
+  xy: 560, 720
+  size: 320, 80
+  orig: 350, 100
+  offset: 8, 11
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_052
+  rotate: true
+  xy: 524, 571
+  size: 147, 240
+  orig: 300, 300
+  offset: 70, 32
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_054
+  rotate: false
+  xy: 346, 491
+  size: 176, 241
+  orig: 300, 300
+  offset: 60, 30
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_056
+  rotate: false
+  xy: 2, 2
+  size: 183, 245
+  orig: 300, 300
+  offset: 55, 27
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_058
+  rotate: false
+  xy: 2, 249
+  size: 204, 248
+  orig: 300, 300
+  offset: 42, 27
+  index: -1
+images/effects_H/skillF/xialuo/xialuo_060
+  rotate: false
+  xy: 346, 734
+  size: 212, 247
+  orig: 300, 300
+  offset: 36, 26
+  index: -1

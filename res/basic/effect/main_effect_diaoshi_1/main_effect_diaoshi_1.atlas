@@ -1,0 +1,146 @@
+
+main_effect_diaoshi_1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/saoguang/saoguang_005
+  rotate: false
+  xy: 182, 279
+  size: 20, 12
+  orig: 99, 208
+  offset: 20, 168
+  index: -1
+images/saoguang/saoguang_006
+  rotate: false
+  xy: 302, 480
+  size: 42, 27
+  orig: 99, 208
+  offset: 20, 154
+  index: -1
+images/saoguang/saoguang_007
+  rotate: false
+  xy: 182, 293
+  size: 53, 42
+  orig: 99, 208
+  offset: 20, 139
+  index: -1
+images/saoguang/saoguang_008
+  rotate: false
+  xy: 242, 449
+  size: 58, 58
+  orig: 99, 208
+  offset: 20, 123
+  index: -1
+images/saoguang/saoguang_009
+  rotate: false
+  xy: 182, 337
+  size: 58, 75
+  orig: 99, 208
+  offset: 20, 106
+  index: -1
+images/saoguang/saoguang_010
+  rotate: false
+  xy: 182, 414
+  size: 58, 93
+  orig: 99, 208
+  offset: 20, 88
+  index: -1
+images/saoguang/saoguang_011
+  rotate: false
+  xy: 62, 109
+  size: 58, 112
+  orig: 99, 208
+  offset: 20, 69
+  index: -1
+images/saoguang/saoguang_012
+  rotate: false
+  xy: 62, 223
+  size: 58, 132
+  orig: 99, 208
+  offset: 20, 49
+  index: -1
+images/saoguang/saoguang_013
+  rotate: false
+  xy: 62, 357
+  size: 58, 150
+  orig: 99, 208
+  offset: 20, 30
+  index: -1
+images/saoguang/saoguang_014
+  rotate: false
+  xy: 2, 347
+  size: 58, 160
+  orig: 99, 208
+  offset: 20, 20
+  index: -1
+images/saoguang/saoguang_015
+  rotate: false
+  xy: 2, 185
+  size: 58, 160
+  orig: 99, 208
+  offset: 20, 20
+  index: -1
+images/saoguang/saoguang_016
+  rotate: false
+  xy: 2, 38
+  size: 58, 145
+  orig: 99, 208
+  offset: 20, 20
+  index: -1
+images/saoguang/saoguang_017
+  rotate: false
+  xy: 122, 382
+  size: 58, 125
+  orig: 99, 208
+  offset: 20, 20
+  index: -1
+images/saoguang/saoguang_018
+  rotate: false
+  xy: 122, 275
+  size: 58, 105
+  orig: 99, 208
+  offset: 20, 20
+  index: -1
+images/saoguang/saoguang_019
+  rotate: false
+  xy: 122, 187
+  size: 58, 86
+  orig: 99, 208
+  offset: 20, 20
+  index: -1
+images/saoguang/saoguang_020
+  rotate: false
+  xy: 62, 39
+  size: 58, 68
+  orig: 99, 208
+  offset: 20, 20
+  index: -1
+images/saoguang/saoguang_021
+  rotate: false
+  xy: 122, 135
+  size: 58, 50
+  orig: 99, 208
+  offset: 20, 20
+  index: -1
+images/saoguang/saoguang_022
+  rotate: false
+  xy: 2, 2
+  size: 49, 34
+  orig: 99, 208
+  offset: 29, 20
+  index: -1
+images/saoguang/saoguang_023
+  rotate: false
+  xy: 122, 115
+  size: 30, 18
+  orig: 99, 208
+  offset: 48, 20
+  index: -1
+images/sui
+  rotate: false
+  xy: 242, 377
+  size: 20, 70
+  orig: 20, 70
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,299 @@
+
+effects_Watchmen_2_skill2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skill2/buff/buff_001
+  rotate: false
+  xy: 652, 2
+  size: 171, 164
+  orig: 270, 270
+  offset: 55, 46
+  index: -1
+images/effects/skill2/buff/buff_015
+  rotate: false
+  xy: 825, 2
+  size: 178, 196
+  orig: 270, 270
+  offset: 34, 40
+  index: -1
+images/effects/skill2/fazhen/fazhen_000
+  rotate: false
+  xy: 2, 873
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_002
+  rotate: false
+  xy: 2, 732
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_004
+  rotate: false
+  xy: 409, 873
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_006
+  rotate: false
+  xy: 2, 591
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_008
+  rotate: false
+  xy: 409, 732
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_010
+  rotate: false
+  xy: 2, 450
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_012
+  rotate: false
+  xy: 409, 591
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_014
+  rotate: true
+  xy: 816, 607
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_016
+  rotate: false
+  xy: 2, 309
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_018
+  rotate: false
+  xy: 409, 450
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_020
+  rotate: false
+  xy: 2, 168
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_022
+  rotate: false
+  xy: 409, 309
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_024
+  rotate: false
+  xy: 2, 27
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_026
+  rotate: false
+  xy: 409, 168
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/fazhen/fazhen_028
+  rotate: true
+  xy: 816, 200
+  size: 405, 139
+  orig: 405, 180
+  offset: 0, 16
+  index: -1
+images/effects/skill2/shifa/shifa_022
+  rotate: false
+  xy: 409, 10
+  size: 241, 156
+  orig: 270, 270
+  offset: 9, 52
+  index: -1
+
+effects_Watchmen_2_skill22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/efc_a_halo0001
+  rotate: false
+  xy: 2, 515
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+images/effects/glow_000
+  rotate: false
+  xy: 927, 927
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+images/effects/skill1/yuan_000
+  rotate: false
+  xy: 2, 747
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/effects/skill2/buff/buff_003
+  rotate: false
+  xy: 613, 336
+  size: 177, 166
+  orig: 270, 270
+  offset: 53, 46
+  index: -1
+images/effects/skill2/buff/buff_005
+  rotate: true
+  xy: 667, 678
+  size: 183, 177
+  orig: 270, 270
+  offset: 44, 41
+  index: -1
+images/effects/skill2/buff/buff_007
+  rotate: true
+  xy: 252, 239
+  size: 168, 185
+  orig: 270, 270
+  offset: 40, 37
+  index: -1
+images/effects/skill2/buff/buff_009
+  rotate: false
+  xy: 439, 264
+  size: 172, 190
+  orig: 270, 270
+  offset: 35, 36
+  index: -1
+images/effects/skill2/buff/buff_011
+  rotate: false
+  xy: 516, 72
+  size: 173, 190
+  orig: 270, 270
+  offset: 33, 40
+  index: -1
+images/effects/skill2/buff/buff_013
+  rotate: false
+  xy: 342, 42
+  size: 172, 195
+  orig: 270, 270
+  offset: 33, 37
+  index: -1
+images/effects/skill2/buff/buff_017
+  rotate: true
+  xy: 464, 678
+  size: 183, 201
+  orig: 270, 270
+  offset: 35, 38
+  index: -1
+images/effects/skill2/buff/buff_019
+  rotate: false
+  xy: 252, 409
+  size: 184, 199
+  orig: 270, 270
+  offset: 37, 40
+  index: -1
+images/effects/skill2/buff/buff_021
+  rotate: false
+  xy: 274, 610
+  size: 186, 196
+  orig: 270, 270
+  offset: 39, 43
+  index: -1
+images/effects/skill2/buff/buff_023
+  rotate: false
+  xy: 155, 42
+  size: 185, 195
+  orig: 270, 270
+  offset: 42, 41
+  index: -1
+images/effects/skill2/buff/buff_025
+  rotate: false
+  xy: 274, 808
+  size: 188, 209
+  orig: 270, 270
+  offset: 41, 37
+  index: -1
+images/effects/skill2/buff/buff_027
+  rotate: false
+  xy: 664, 504
+  size: 189, 172
+  orig: 270, 270
+  offset: 40, 40
+  index: -1
+images/effects/skill2/buff/buff_029
+  rotate: true
+  xy: 846, 702
+  size: 171, 166
+  orig: 270, 270
+  offset: 57, 44
+  index: -1
+images/effects/skill2/shifa/shifa_012
+  rotate: false
+  xy: 438, 456
+  size: 168, 100
+  orig: 270, 270
+  offset: 72, 84
+  index: -1
+images/effects/skill2/shifa/shifa_014
+  rotate: false
+  xy: 462, 558
+  size: 200, 118
+  orig: 270, 270
+  offset: 38, 74
+  index: -1
+images/effects/skill2/shifa/shifa_016
+  rotate: false
+  xy: 704, 875
+  size: 221, 142
+  orig: 270, 270
+  offset: 16, 60
+  index: -1
+images/effects/skill2/shifa/shifa_018
+  rotate: true
+  xy: 2, 42
+  size: 231, 151
+  orig: 270, 270
+  offset: 13, 55
+  index: -1
+images/effects/skill2/shifa/shifa_020
+  rotate: true
+  xy: 2, 275
+  size: 238, 156
+  orig: 270, 270
+  offset: 10, 52
+  index: -1
+images/effects/skill2/shifa/shifa_024
+  rotate: false
+  xy: 464, 863
+  size: 238, 154
+  orig: 270, 270
+  offset: 12, 53
+  index: -1
+images/effects/skill2/shifa/shifa_026
+  rotate: true
+  xy: 160, 310
+  size: 203, 90
+  orig: 270, 270
+  offset: 21, 96
+  index: -1

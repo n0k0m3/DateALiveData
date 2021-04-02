@@ -1,0 +1,118 @@
+
+main_effect_11010.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/BG_000
+  rotate: false
+  xy: 2, 1202
+  size: 1488, 800
+  orig: 1488, 800
+  offset: 0, 0
+  index: -1
+images/butiao1_000
+  rotate: true
+  xy: 1492, 259
+  size: 82, 237
+  orig: 93, 260
+  offset: 6, 9
+  index: -1
+images/butiao_000
+  rotate: false
+  xy: 1857, 1183
+  size: 136, 397
+  orig: 154, 424
+  offset: 8, 10
+  index: -1
+images/guang1_000
+  rotate: false
+  xy: 1492, 688
+  size: 477, 487
+  orig: 528, 526
+  offset: 21, 23
+  index: -1
+images/guang1_1_000
+  rotate: false
+  xy: 837, 134
+  size: 330, 264
+  orig: 466, 310
+  offset: 3, 43
+  index: -1
+images/guang1_2_000
+  rotate: false
+  xy: 1731, 217
+  size: 202, 124
+  orig: 250, 200
+  offset: 0, 37
+  index: -1
+images/guang_000
+  rotate: false
+  xy: 1492, 343
+  size: 437, 343
+  orig: 470, 380
+  offset: 17, 16
+  index: -1
+images/jianzhu_000
+  rotate: true
+  xy: 1492, 1177
+  size: 825, 363
+  orig: 851, 370
+  offset: 11, 7
+  index: -1
+images/shu_000
+  rotate: false
+  xy: 2, 115
+  size: 833, 283
+  orig: 843, 290
+  offset: 0, 0
+  index: -1
+images/yun1_000
+  rotate: true
+  xy: 1169, 71
+  size: 327, 170
+  orig: 332, 174
+  offset: 0, 2
+  index: -1
+images/yun2_000
+  rotate: true
+  xy: 1341, 8
+  size: 390, 92
+  orig: 399, 114
+  offset: 2, 12
+  index: -1
+images/yun3_000
+  rotate: false
+  xy: 549, 53
+  size: 262, 60
+  orig: 271, 66
+  offset: 2, 3
+  index: -1
+images/yun4_000
+  rotate: true
+  xy: 1435, 226
+  size: 172, 55
+  orig: 172, 60
+  offset: 0, 0
+  index: -1
+images/yun5_000
+  rotate: true
+  xy: 1857, 1582
+  size: 420, 145
+  orig: 422, 156
+  offset: 2, 6
+  index: -1
+images/yun_000
+  rotate: false
+  xy: 2, 7
+  size: 545, 106
+  orig: 546, 106
+  offset: 0, 0
+  index: -1
+images/zhongjing_000
+  rotate: false
+  xy: 2, 400
+  size: 1488, 800
+  orig: 1488, 800
+  offset: 0, 0
+  index: -1

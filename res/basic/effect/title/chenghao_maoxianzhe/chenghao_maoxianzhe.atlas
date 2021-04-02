@@ -1,0 +1,258 @@
+
+chenghao_maoxianzhe.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/di_000
+  rotate: false
+  xy: 197, 463
+  size: 186, 47
+  orig: 230, 200
+  offset: 22, 76
+  index: -1
+images/dian1_000
+  rotate: false
+  xy: 2, 435
+  size: 193, 75
+  orig: 230, 200
+  offset: 24, 62
+  index: -1
+images/dian2_000
+  rotate: false
+  xy: 2, 234
+  size: 145, 71
+  orig: 230, 200
+  offset: 35, 65
+  index: -1
+images/dian3_000
+  rotate: false
+  xy: 2, 364
+  size: 182, 69
+  orig: 230, 200
+  offset: 15, 65
+  index: -1
+images/pao/pao_001
+  rotate: false
+  xy: 338, 459
+  size: 44, 2
+  orig: 230, 200
+  offset: 41, 83
+  index: -1
+images/pao/pao_003
+  rotate: false
+  xy: 221, 362
+  size: 51, 6
+  orig: 230, 200
+  offset: 34, 83
+  index: -1
+images/pao/pao_005
+  rotate: true
+  xy: 226, 256
+  size: 51, 7
+  orig: 230, 200
+  offset: 34, 83
+  index: -1
+images/pao/pao_007
+  rotate: true
+  xy: 235, 308
+  size: 52, 22
+  orig: 230, 200
+  offset: 33, 83
+  index: -1
+images/pao/pao_009
+  rotate: true
+  xy: 183, 199
+  size: 51, 31
+  orig: 230, 200
+  offset: 33, 83
+  index: -1
+images/pao/pao_011
+  rotate: false
+  xy: 291, 404
+  size: 51, 32
+  orig: 230, 200
+  offset: 33, 83
+  index: -1
+images/pao/pao_013
+  rotate: false
+  xy: 221, 370
+  size: 63, 32
+  orig: 230, 200
+  offset: 33, 83
+  index: -1
+images/pao/pao_015
+  rotate: true
+  xy: 149, 224
+  size: 81, 32
+  orig: 230, 200
+  offset: 34, 83
+  index: -1
+images/pao/pao_017
+  rotate: false
+  xy: 385, 478
+  size: 100, 32
+  orig: 230, 200
+  offset: 34, 84
+  index: -1
+images/pao/pao_019
+  rotate: true
+  xy: 32, 108
+  size: 91, 29
+  orig: 230, 200
+  offset: 53, 87
+  index: -1
+images/pao/pao_021
+  rotate: true
+  xy: 63, 109
+  size: 90, 28
+  orig: 230, 200
+  offset: 54, 88
+  index: -1
+images/pao/pao_023
+  rotate: true
+  xy: 487, 420
+  size: 90, 23
+  orig: 230, 200
+  offset: 54, 93
+  index: -1
+images/pao/pao_025
+  rotate: true
+  xy: 120, 144
+  size: 88, 27
+  orig: 230, 200
+  offset: 56, 89
+  index: -1
+images/pao/pao_027
+  rotate: false
+  xy: 221, 404
+  size: 68, 32
+  orig: 230, 200
+  offset: 76, 83
+  index: -1
+images/pao/pao_029
+  rotate: false
+  xy: 286, 370
+  size: 55, 32
+  orig: 230, 200
+  offset: 89, 83
+  index: -1
+images/pao/pao_031
+  rotate: true
+  xy: 183, 252
+  size: 55, 32
+  orig: 230, 200
+  offset: 89, 83
+  index: -1
+images/pao/pao_033
+  rotate: true
+  xy: 186, 362
+  size: 71, 33
+  orig: 230, 200
+  offset: 89, 82
+  index: -1
+images/pao/pao_035
+  rotate: true
+  xy: 93, 108
+  size: 91, 25
+  orig: 230, 200
+  offset: 89, 82
+  index: -1
+images/pao/pao_037
+  rotate: false
+  xy: 385, 451
+  size: 92, 25
+  orig: 230, 200
+  offset: 89, 82
+  index: -1
+images/pao/pao_039
+  rotate: true
+  xy: 2, 9
+  size: 92, 27
+  orig: 230, 200
+  offset: 89, 83
+  index: -1
+images/pao/pao_041
+  rotate: true
+  xy: 2, 103
+  size: 96, 28
+  orig: 230, 200
+  offset: 90, 83
+  index: -1
+images/pao/pao_043
+  rotate: false
+  xy: 2, 201
+  size: 94, 31
+  orig: 230, 200
+  offset: 104, 83
+  index: -1
+images/pao/pao_045
+  rotate: true
+  xy: 149, 149
+  size: 73, 32
+  orig: 230, 200
+  offset: 125, 83
+  index: -1
+images/pao/pao_047
+  rotate: true
+  xy: 183, 148
+  size: 49, 32
+  orig: 230, 200
+  offset: 149, 83
+  index: -1
+images/pao/pao_049
+  rotate: true
+  xy: 174, 309
+  size: 51, 32
+  orig: 230, 200
+  offset: 147, 83
+  index: -1
+images/pao/pao_051
+  rotate: true
+  xy: 208, 309
+  size: 51, 25
+  orig: 230, 200
+  offset: 147, 90
+  index: -1
+images/pao/pao_053
+  rotate: true
+  xy: 259, 308
+  size: 52, 20
+  orig: 230, 200
+  offset: 146, 95
+  index: -1
+images/pao/pao_055
+  rotate: true
+  xy: 217, 255
+  size: 52, 7
+  orig: 230, 200
+  offset: 146, 109
+  index: -1
+images/pao/pao_057
+  rotate: true
+  xy: 479, 424
+  size: 52, 6
+  orig: 230, 200
+  offset: 146, 109
+  index: -1
+images/pao/pao_059
+  rotate: false
+  xy: 274, 366
+  size: 40, 2
+  orig: 230, 200
+  offset: 146, 113
+  index: -1
+images/zi_000
+  rotate: false
+  xy: 197, 438
+  size: 139, 23
+  orig: 230, 200
+  offset: 46, 88
+  index: -1
+images/zigou_000
+  rotate: false
+  xy: 2, 307
+  size: 170, 55
+  orig: 230, 200
+  offset: 30, 72
+  index: -1

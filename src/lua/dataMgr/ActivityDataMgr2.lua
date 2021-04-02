@@ -1115,7 +1115,9 @@ function ActivityDataMgr:getDropReward(dropCid)
                             allMultiple = extendData.allMultiple
                         end
                         table.merge(multipleReward, extendData.multiple)
-                    elseif extendData.changeType == EC_ActivityDropChangeType.EXTRA then
+                    elseif extendData.changeType == EC_ActivityDropChangeType.EXTRA 
+                        or extendData.changeType == EC_ActivityDropChangeType.SUPER then
+                        
                         if activityInfo.activityType == EC_ActivityType2.DROP then
                             for _, item in ipairs(extendData.activityProfit.roll.items) do
                                 table.insert(extraReward, item.id)

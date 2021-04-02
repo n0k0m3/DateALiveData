@@ -172,4 +172,15 @@ function Energy:onEvent(eventType)
 
 end
 
+function Energy:energyExchange(value)
+	if value >= 0 then
+		return
+	end
+	local energyExchange = self.data.energyExchange or {}
+	local rate = energyExchange[1]
+	if rate then
+		self.hero:changeValue(energyExchange[2],math.abs(value) * rate * 0.0001)
+	end
+end
+
 return Energy

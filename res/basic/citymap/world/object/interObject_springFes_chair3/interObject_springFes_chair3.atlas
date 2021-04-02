@@ -1,0 +1,13 @@
+
+interObject_springFes_chair3.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yizi
+  rotate: false
+  xy: 2, 2
+  size: 280, 219
+  orig: 280, 219
+  offset: 0, 0
+  index: -1

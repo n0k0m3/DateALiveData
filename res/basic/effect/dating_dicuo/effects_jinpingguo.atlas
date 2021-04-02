@@ -1,0 +1,264 @@
+
+effects_jinpingguo.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow
+  rotate: false
+  xy: 471, 418
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/guang/guang_070
+  rotate: false
+  xy: 437, 856
+  size: 354, 166
+  orig: 371, 182
+  offset: 7, 7
+  index: -1
+images/guang/guang_072
+  rotate: false
+  xy: 2, 748
+  size: 354, 166
+  orig: 371, 182
+  offset: 7, 7
+  index: -1
+images/guang/guang_074
+  rotate: false
+  xy: 2, 580
+  size: 354, 166
+  orig: 371, 182
+  offset: 7, 7
+  index: -1
+images/guang/guang_076
+  rotate: false
+  xy: 430, 688
+  size: 354, 166
+  orig: 371, 182
+  offset: 7, 7
+  index: -1
+images/guang/guang_078
+  rotate: false
+  xy: 430, 520
+  size: 354, 166
+  orig: 371, 182
+  offset: 7, 7
+  index: -1
+images/guang/guang_080
+  rotate: false
+  xy: 2, 412
+  size: 354, 166
+  orig: 371, 182
+  offset: 7, 7
+  index: -1
+images/guang/guang_082
+  rotate: true
+  xy: 2, 56
+  size: 354, 166
+  orig: 371, 182
+  offset: 7, 7
+  index: -1
+images/guang/guang_084
+  rotate: true
+  xy: 170, 56
+  size: 354, 166
+  orig: 371, 182
+  offset: 7, 7
+  index: -1
+images/guang/guang_086
+  rotate: true
+  xy: 338, 56
+  size: 354, 166
+  orig: 371, 182
+  offset: 7, 7
+  index: -1
+images/guang1_000
+  rotate: false
+  xy: 2, 916
+  size: 433, 106
+  orig: 433, 131
+  offset: 0, 11
+  index: -1
+images/guang2_000
+  rotate: true
+  xy: 358, 416
+  size: 102, 111
+  orig: 129, 133
+  offset: 12, 12
+  index: -1
+images/lizi/lizi_002
+  rotate: false
+  xy: 358, 570
+  size: 39, 37
+  orig: 371, 282
+  offset: 165, 116
+  index: -1
+images/lizi/lizi_004
+  rotate: false
+  xy: 358, 609
+  size: 67, 62
+  orig: 371, 282
+  offset: 151, 105
+  index: -1
+images/lizi/lizi_018
+  rotate: false
+  xy: 573, 327
+  size: 209, 191
+  orig: 371, 282
+  offset: 81, 41
+  index: -1
+images/lizi/lizi_022
+  rotate: false
+  xy: 784, 273
+  size: 234, 212
+  orig: 371, 282
+  offset: 67, 30
+  index: -1
+images/lizi/lizi_026
+  rotate: true
+  xy: 793, 763
+  size: 259, 228
+  orig: 371, 282
+  offset: 55, 21
+  index: -1
+images/lizi/lizi_028
+  rotate: true
+  xy: 506, 3
+  size: 268, 241
+  orig: 371, 282
+  offset: 50, 12
+  index: -1
+images/lizi/lizi_036
+  rotate: true
+  xy: 749, 5
+  size: 266, 241
+  orig: 371, 282
+  offset: 62, 20
+  index: -1
+images/lizi/lizi_038
+  rotate: true
+  xy: 358, 673
+  size: 241, 70
+  orig: 371, 282
+  offset: 61, 27
+  index: -1
+images/pingguo_000
+  rotate: false
+  xy: 786, 487
+  size: 236, 274
+  orig: 236, 274
+  offset: 0, 0
+  index: -1
+
+effects_jinpingguo2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Glow_CPxs_kx_056
+  rotate: false
+  xy: 878, 886
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+images/guang/guang_088
+  rotate: true
+  xy: 2, 393
+  size: 354, 166
+  orig: 371, 182
+  offset: 7, 7
+  index: -1
+images/guang/guang_090
+  rotate: false
+  xy: 265, 848
+  size: 354, 166
+  orig: 371, 182
+  offset: 7, 7
+  index: -1
+images/guang3_000
+  rotate: false
+  xy: 252, 175
+  size: 244, 244
+  orig: 260, 244
+  offset: 7, 0
+  index: -1
+images/lizi/lizi_006
+  rotate: false
+  xy: 170, 660
+  size: 93, 87
+  orig: 371, 282
+  offset: 137, 93
+  index: -1
+images/lizi/lizi_008
+  rotate: true
+  xy: 145, 15
+  size: 117, 108
+  orig: 371, 282
+  offset: 126, 83
+  index: -1
+images/lizi/lizi_010
+  rotate: false
+  xy: 2, 2
+  size: 141, 130
+  orig: 371, 282
+  offset: 114, 72
+  index: -1
+images/lizi/lizi_012
+  rotate: false
+  xy: 498, 96
+  size: 162, 148
+  orig: 371, 282
+  offset: 104, 63
+  index: -1
+images/lizi/lizi_014
+  rotate: true
+  xy: 498, 246
+  size: 180, 165
+  orig: 371, 282
+  offset: 95, 54
+  index: -1
+images/lizi/lizi_016
+  rotate: true
+  xy: 393, 428
+  size: 195, 180
+  orig: 371, 282
+  offset: 88, 46
+  index: -1
+images/lizi/lizi_020
+  rotate: false
+  xy: 170, 421
+  size: 221, 202
+  orig: 371, 282
+  offset: 74, 35
+  index: -1
+images/lizi/lizi_024
+  rotate: false
+  xy: 265, 625
+  size: 246, 221
+  orig: 371, 282
+  offset: 61, 25
+  index: -1
+images/lizi/lizi_030
+  rotate: false
+  xy: 2, 134
+  size: 248, 257
+  orig: 371, 282
+  offset: 69, 8
+  index: -1
+images/lizi/lizi_032
+  rotate: false
+  xy: 2, 749
+  size: 261, 265
+  orig: 371, 282
+  offset: 58, 1
+  index: -1
+images/lizi/lizi_034
+  rotate: false
+  xy: 621, 786
+  size: 255, 228
+  orig: 371, 282
+  offset: 64, 34
+  index: -1

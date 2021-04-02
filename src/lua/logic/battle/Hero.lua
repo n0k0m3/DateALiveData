@@ -130,6 +130,7 @@ function Hero:ctor(data,team,host)
     self.actionNames = {} --BattleDataMgr:getActionNames(data.model)
     --属性变更缓存
     self.attrTypeList = {}
+    self.flags = {}
     --形态
     self.skinIndex = 1
     self.actionMgr = ActionMgr.createMgr()
@@ -138,6 +139,7 @@ function Hero:ctor(data,team,host)
     self.atkRect  = me.rect(data.area[1],data.area[2],data.area[3],data.area[4])               --me.rect(-100,-20,200,50)
 
     self.data = data
+    self.data = BattleDataMgr:getHeroDataByAngle(data,self:getAngleDatas())
     self.team = team
     self.camp = self.data.camp
     -- 技能参数
@@ -184,7 +186,6 @@ function Hero:ctor(data,team,host)
     self.nFloatTime = 0
     --记录和动作相关的音效，动作切换时停止未播放完的音效
     self.soundEffects = {}
-    self.flags = {}
 
     -- 出生计时
     self.showTiming_ = 0
@@ -293,7 +294,7 @@ function Hero:getCallHeros()
         end
     end
     table.sort(result,function ( a,b )
-        return a.nBornTime > b.nBornTime
+        return a.nBornTime < b.nBornTime
     end)
     return result
 end
@@ -328,6 +329,15 @@ function Hero:addExtraProperty()
     for k,value in pairs(attrs) do
         self.property:changeValue(tonumber(k), value)
     end
+
+    --地错特定加成属性
+    local levelCfg = BattleDataMgr:getLevelCfg()
+    if levelCfg.useLinkAgeAttr then
+        attrs = FubenDataMgr:getLinkAgeHeroAttrsByHeroId(self.data.id)
+        for k,value in pairs(attrs) do
+            self.property:changeValue(tonumber(k), value)
+        end
+    end
 end
 
 --检查添加怪物词缀
@@ -354,6 +364,23 @@ function Hero:checkMonsterAffixs()
         end
     end
 
+    local levelCfg = BattleDataMgr:getLevelCfg()
+    if levelCfg.levelAffix and levelCfg.levelAffix.affixList then
+        for i,affixId in ipairs(levelCfg.levelAffix.affixList) do
+            for j,camp in ipairs(levelCfg.levelAffix.camp) do
+                if self:getCamp() == camp then
+                    local affixData = TabDataMgr:getData("MonsterAffix",affixId)
+                    if affixData then
+                        affixData.strName = "【"..TextDataMgr:getText(affixData.affixName).."】"
+                        affixData.levelAffix = true
+                        affixData.isShowOnHero = levelCfg.levelAffix.isShowOnHero
+                        table.insert(self.affixData,affixData)
+                    end
+                end
+            end
+        end
+    end
+
 end
 
 --怪物词缀
@@ -366,14 +393,36 @@ function Hero:hasAffixData()
     return self.affixData and #self.affixData > 0
 end
 
+--是否更新怪物血条面板
+function Hero:enableUpdateBossPanel()
+    if self:isBoss() then
+        return true
+    end
+    if self:getCampType() == eCampType.Monster and self:hasAffixData() then
+        return
+    end
+    return false
+end
+
 function Hero:getAffixDataIcons()
     local icons = {}
     if self.affixData then
         for i,v in ipairs(self.affixData) do
-            for index=1,5 do
-                local affixIcon = v["affixIcon"..index]
-                if ResLoader.isValid(affixIcon) then 
-                    table.insert(icons, affixIcon)
+            if v.levelAffix then
+                if v.isShowOnHero and v.isShowOnHero == 1 then
+                    for index=1,5 do
+                        local affixIcon = v["affixIcon"..index]
+                        if ResLoader.isValid(affixIcon) then 
+                            table.insert(icons, affixIcon)
+                        end
+                    end
+                end
+            else
+                for index=1,5 do
+                    local affixIcon = v["affixIcon"..index]
+                    if ResLoader.isValid(affixIcon) then 
+                        table.insert(icons, affixIcon)
+                    end
                 end
             end
         end
@@ -553,6 +602,11 @@ function Hero:recoverySkin(objectID)
         self:changeSkin(self.changeInfo.old,true)
         self.changeInfo = nil
     end
+end
+
+function Hero:combatCustomSkills(originSkills)
+    local customSkills = battleController.getCustomSkills(originSkills, self)
+    return customSkills
 end
 
 function Hero:changeSkin(formId,force)
@@ -742,12 +796,12 @@ function Hero:matchKeyEvent(...)
     return self.operate:matchKeyEvent(...)
 end
 
-function Hero:createAndPush(keyCode,eventType)
+function Hero:createAndPush(keyCode,eventType,skillSubId)
     if not self:isFlag(eFlag.FirstUpdate) then
         return
     end
     if self:isValidKey(keyCode) then
-        self.operate:createAndPush(keyCode,eventType)
+        self.operate:createAndPush(keyCode,eventType,skillSubId)
     end
 end
 
@@ -1118,7 +1172,7 @@ function Hero:getHpPercentEx()
     local maxValue = self.property:getValue(eAttrType.ATTR_MAX_HP)
     if size > 1 then
         local oneValue = maxValue/size           
-        local index    = value/oneValue
+        local index    = value/math.ceil(oneValue)
         if math.floor(index) < index then 
             index = math.ceil(index)
         end
@@ -1152,6 +1206,13 @@ function Hero:getEnergy()
 end
 function Hero:getMaxEnergy()
     return self.property:getValue(eAttrType.ATTR_MAX_ENERGY)
+end
+
+function Hero:getSuperEnergy()
+    return self.property:getValue(eAttrType.ATTR_SUPER_ENERGY)
+end
+function Hero:getSuperEnergyLevel()
+    return self.property:getValue(eAttrType.ATTR_SUPER_ENERGY_LEVEL)
 end
 
 function Hero:getEnergyPercent()
@@ -1352,6 +1413,16 @@ function Hero:getBufferEffectMap()
     return self.bufferEffectMap
 end
 
+function Hero:getEffectingBufferEffect()
+    local ret = {}
+    for i,v in ipairs(self.bufferEffectMap) do
+        if v.enableTakeEffect then
+            table.insert(ret,v)
+        end
+    end
+    return ret
+end
+
 function Hero:getCurForm()
     return self.curForm
 end
@@ -1400,7 +1471,7 @@ function Hero:createBufferList()
     end
 
     --额外buffer加成
-    local ids = battleController.getExtBuffList(self.data.id)
+    local ids = battleController.getExtBuffList(self)
     for k, buffId in ipairs(ids) do
         buffIds[buffId] = buffId
     end
@@ -1469,6 +1540,16 @@ function Hero:createBufferList()
         for i, buffId in ipairs(affixData.effectBuffers) do
             buffIds[buffId] = buffId
         end
+    end
+
+    --特定模式下只使用特定条件buff
+    if self:getCampType() == eCampType.Hero and battleController.useCustomAttrModle() then
+        buffIds = {}
+    end
+    --特殊条件buff加成
+    local ids = battleController.getAdditionBuff(self)
+    for k, buffId in ipairs(ids) do
+        buffIds[buffId] = buffId
     end
 
     buffIds = self:filteBuff(buffIds)
@@ -1709,6 +1790,9 @@ end
 
 function Hero:onEnterState(event)
     -- print("event.to:",event.to)
+    if not self:isBattle() then
+        return
+    end
     local args    = unpack(event.args)
     local fromState = event.from
     local toState = event.to
@@ -2381,10 +2465,16 @@ end
 
 function Hero:onDie(arg)
     --死亡事件检查
+    
     self:onEventTrigger(eBFState.E_DEAD,self)
     if not self:isAState(eAState.E_RELIVE) then
         self:setFlag(eFlag.DEAD_Statistics)
-        EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+        if self.isDeaded then
+            
+        else
+            self.isDeaded = true
+            EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+        end
     end
     local function _fadeOut( )
         self.actor:fadeOut(function()
@@ -2787,7 +2877,7 @@ function Hero:doFirstTrigger(time)
         --统计我方成员血量
         EventMgr:dispatchEvent(eEvent.EVENT_NOTICE_HP, self,self:getMaxHp())
         EventMgr:dispatchEvent(eEvent.EVENT_HERO_BATTLE, self)
-        if self:isBoss() or self:hasAffixData() then
+        if self:enableUpdateBossPanel() then
             EventMgr:dispatchEvent(eEvent.EVENT_BOSS_CHANGE, self)
         end
         --天赋buff触发
@@ -2829,6 +2919,9 @@ function Hero:clearFlag(flagType)
 end
 
 function Hero:toFlashBack(sec)
+    if not self.recorder then
+        return
+    end
     local data  = self.recorder:getData(sec)
     if data then 
         -- self:forceToFloor()
@@ -2848,7 +2941,9 @@ function Hero:update(time)
         EventTrigger:_onChangePos(self)
         self:setLastPosition(self.position3D.x,self.position3D.y,self.position3D.z)
     end
-    self.recorder:update(time,self)
+    if self.recorder then
+        self.recorder:update(time,self)
+    end
     local originTime = time
     time = time * self:getTimeScale()
     self.showTiming_ = self.showTiming_ + time
@@ -2859,7 +2954,6 @@ function Hero:update(time)
     if not self:isBattle() then
         self:clearFlag(eFlag.HITED)
         if self:isDead() then
-            battleController.synchronHp(self)
             self:onEventTrigger(eBFState.E_DEAD,self)
             if self:isAState(eAState.E_RELIVE) then
                 self:clearAState(eAState.E_RELIVE)
@@ -2868,7 +2962,12 @@ function Hero:update(time)
                 -- self:removeFrormBattle()
             else
                 self:setFlag(eFlag.DEAD_Statistics)
-                EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+                if self.isDeaded then
+                    
+                else
+                    self.isDeaded = true
+                    EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+                end
                 self:release()
                 self:checkAndRelease()
             end
@@ -2892,7 +2991,6 @@ function Hero:update(time)
     end
     --死亡
     if self:isDead() then
-        battleController.synchronHp(self)
         if not self:isFlag(eFlag.Dead) then
             self:setFlag(eFlag.Dead)
             --清理负面状态
@@ -3230,11 +3328,20 @@ function Hero:changeValue(attrType,value)
                 return
             end
         end
+    elseif attrType == eAttrType.ATTR_MOVE_SPEED then
+        if value < 0 then
+            if self:isAState(eAState.E_MOVE_SPEED_MY) then
+                return
+            end
+        end
     elseif attrType == eAttrType.ATTR_NOW_ENERGY then
         if value < 0 then
             if self:isFlag(eFlag.SUPER_SKILL) then
                 return
             end
+        end
+        if self.energyMgr then
+            self.energyMgr:energyExchange(value)
         end
     elseif attrType == eAttrType.ATTR_NOW_AGR then
         if value < 0 then
@@ -3347,6 +3454,7 @@ function Hero:changeHp(value,hurtType,target,bAbsorb,point,hideDamage)
            hurtType = eHurtType.DODGE1
         end
     end
+    local showValue
     -- 护盾吸收处理
     if bAbsorb then
         value = self:absorb(value)
@@ -3387,6 +3495,16 @@ function Hero:changeHp(value,hurtType,target,bAbsorb,point,hideDamage)
                 end
             end
 
+            local limitHp = self:getLimitHp()
+            if limitHp > 0 then
+                if hp < limitHp then
+                    self:setValue(eAttrType.ATTR_NOW_HP,limitHp)
+                    value = 0
+                elseif value + hp < limitHp then
+                    showValue = value
+                    value = limitHp - hp
+                end
+            end
         elseif value > 0 then --加血
             --触发被治疗事件
             self:onEventTrigger(eBFState.E_TREATE)
@@ -3412,7 +3530,8 @@ function Hero:changeHp(value,hurtType,target,bAbsorb,point,hideDamage)
         end
     end
     if not hideDamage then
-        self:showDamage(value,hurtType,point)
+        showValue = showValue or value
+        self:showDamage(showValue,hurtType,point)
     end
     if self.actor then
         self.actor:refresh()
@@ -3435,7 +3554,13 @@ function Hero:changeHp(value,hurtType,target,bAbsorb,point,hideDamage)
             self:addRevHurtValue(value)
         end
         EventMgr:dispatchEvent(eEvent.EVENT_HP_CHANGE, self,value)
-        battleController.synchronHp(self)
+        if battleController.useCustomAttrModle() then
+            if value > 0 or self:getRoleType() == eRoleType.Team then
+                battleController.synchronHp(self)
+            end
+        else
+            battleController.synchronHp(self)
+        end
     end
     return value
 end
@@ -4454,9 +4579,9 @@ function Hero:castById(id)
     self:castSK(skill,true)
 end
 
-function Hero:castSK(skill,force)
+function Hero:castSK(skill,force,skillSubId)
     if self:canCast(skill) then
-        skill:tryCast(force)
+        skill:tryCast(force,skillSubId)
         return true
     else
         self.willUseSkill = self.skill
@@ -4465,11 +4590,11 @@ function Hero:castSK(skill,force)
     end
 end
 
-function Hero:cast(keyCode)
+function Hero:cast(keyCode,skillSubId)
     local skill = self:getSkill(keyCode)
     if skill and skill:isEnable() and skill ~= self.skill then
         -- print("cast keyCode:",keyCode)
-        return self:castSK(skill)
+        return self:castSK(skill,false,skillSubId)
     end
     if not skill then
         --_print(""..self:getName().."没有skill "..tostring(keyCode))
@@ -4490,7 +4615,7 @@ function Hero:castByType(skillType)
 end
 
 --有按键输入
-function Hero:onKeyEvent(keyCode)
+function Hero:onKeyEvent(keyCode,skillSubId)
     --TODO 处理的不科学
     if battleController.isClearing then --战斗结束 不再处理案件响应
         return
@@ -4499,10 +4624,10 @@ function Hero:onKeyEvent(keyCode)
     if skill then
         if self.skill then
             if self.skill:getKeyCode() ~= keyCode and skill:checkLevel(self.skill:getLevel())  then
-                return self:cast(keyCode)
+                return self:cast(keyCode,skillSubId)
             end
         else
-            return self:cast(keyCode)
+            return self:cast(keyCode,skillSubId)
         end
     end
 end
@@ -4833,6 +4958,9 @@ function Hero:ai(dt)
     if self:isAState(eAState.E_JING_ZHI) or self:isAState(eAState.E_DONG_JIE) then
         return
     end
+    if EventTrigger:isRunning() then
+        return
+    end
 
     if self.isAIEnable == false then
         return
@@ -4890,28 +5018,39 @@ end
 
 -- 获取巡逻区域（方式2）
 function Hero:getPatrolRect(targetPos, myPos)
-    local site = self:checksite(targetPos, myPos)
+    local tpos = clone(targetPos)
+    local mpos = clone(myPos)
+    local moveRect = battleController:getMoveRect()
+    local moveRectMaxX = moveRect.origin.x + moveRect.size.width
+    local moveRectMaxY = moveRect.origin.y + moveRect.size.height
+    tpos.x = math.min(tpos.x, moveRectMaxX)
+    mpos.x = math.min(mpos.x, moveRectMaxX)
+    tpos.y = math.min(tpos.y,moveRectMaxY)
+    tpos.y = math.max(tpos.y,0)
+    mpos.y = math.min(mpos.y,moveRectMaxY)
+    mpos.y = math.max(mpos.y,0)
+    local site = self:checksite(tpos, mpos)
     local min = self.data.patrolNear
     local max = self.data.patrolFar
     local x = RandomGenerator.random(min, max)
     local y = RandomGenerator.random(min, max)
-    local moveRect = battleController:getMoveRect()
+    
     if site == 1 or site == 2 then
-        if math.abs(targetPos.x - moveRect.origin.x) <= x / 2 then
+        if math.abs(tpos.x - moveRect.origin.x) <= x / 2 then
             site = 3
         end
     else
-        local moveRectMaxX = moveRect.origin.x + moveRect.size.width
-        if math.abs(moveRectMaxX - targetPos.x) <= x / 2 then
+        
+        if math.abs(moveRectMaxX - tpos.x) <= x / 2 then
             site = 1
         end
     end
 
     local rect = {}
     if site == 1 or site == 2 then
-        rect = me.rect(targetPos.x - x, targetPos.y - y, x, y * 2)
+        rect = me.rect(tpos.x - x, tpos.y - y, x, y * 2)
     else
-        rect = me.rect(targetPos.x, targetPos.y - y, x, y * 2)
+        rect = me.rect(tpos.x, tpos.y - y, x, y * 2)
     end
     return rect
 end
@@ -5002,7 +5141,7 @@ function Hero:onEventTrigger(event,target,param)
     end
 end
 -- 属性变更
-function Hero:onAttrTrigger(attrType,value)
+function Hero:onAttrTrigger(attrType,value, event)
     if attrType == eAttrType.ATTR_NOW_HP then
         --自动恢复
         if self:isFlag(eFlag.HP_AUTO_RECOVERY) then
@@ -5010,6 +5149,9 @@ function Hero:onAttrTrigger(attrType,value)
                 self.property:setValue(eAttrType.ATTR_NOW_HP,self:getMaxHp())
             end
         end
+    end
+    if event and event > 0 then
+        self:onEventTrigger(event,self)
     end
 
 
@@ -5047,7 +5189,9 @@ function Hero:doAttrTrigger()
         or attrType == eAttrType.ATTR_NOW_SLD
         or attrType == eAttrType.ATTR_NOW_RST
         or attrType == eAttrType.ATTR_DESPAIR
-        or attrType == eAttrType.ATTR_NOW_ENERGY then
+        or attrType == eAttrType.ATTR_NOW_ENERGY
+        or attrType == eAttrType.ATTR_SUPER_ENERGY 
+        or attrType == eAttrType.ATTR_SUPER_ENERGY_LEVEL then
             EventMgr:dispatchEvent(eEvent.EVENT_HERO_ATTR_CHANGE,self)
             if self.superArmorMgr then
                 self.superArmorMgr:onAttrChange(attrType)
@@ -5496,9 +5640,15 @@ function Hero:act_killMySelf(id,isCount)
             end
         end
     end
+    self:setAIEnable(false)
     self.team:remove(self)
     if isCount then
-        EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+        if self.isDeaded then
+            
+        else
+            self.isDeaded = true
+            EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+        end
     else
         EventMgr:dispatchEvent(eEvent.EVENT_HERO_REMOVE, self)
     end
@@ -5519,7 +5669,10 @@ function Hero:act_moveToPositon(id,position, speedScale)
     if levelParse:canMove(position) then
         self.nSpeedScale = speedScale
         self:findPath(position)
-        self:doEvent(eStateEvent.BH_MOVEEX, eMoveState.FixedMove)
+        local ret = self:doEvent(eStateEvent.BH_MOVEEX,eMoveState.Patrol)
+        if not ret then
+            self:endToAI()
+        end
     else
         dump({position})
         self.aiAgent:next()
@@ -6191,9 +6344,6 @@ function Hero:fix_boss(heroId, posX , posY , dir , hp , sp)
     end
 
     local curHp = self:getHp()
-    if self.showTiming_ < 1500 and curHp > 500000 then
-        return
-    end
     if curHp > 0 and hp then
         local lose = hp - curHp
         if  lose < 0 then
@@ -6265,6 +6415,20 @@ function Hero:getLockHp()
     for i = 10, 1,-1 do
         if self:isAState(200 + i) then
             return self:getMaxHp()* i * 0.1
+        end
+    end
+    return 0
+end
+
+function Hero:getLimitHp()
+    for i = 9, 1,-1 do
+        if self:isAState(300 + i) then
+            return i * 10
+        end
+    end
+    for i = 5, 1,-1 do
+        if self:isAState(310 + i) then
+            return i * i * 100
         end
     end
     return 0

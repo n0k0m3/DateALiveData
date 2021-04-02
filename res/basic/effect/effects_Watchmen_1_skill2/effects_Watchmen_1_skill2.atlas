@@ -1,0 +1,341 @@
+
+effects_Watchmen_1_skill2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/guangxian_000
+  rotate: false
+  xy: 2, 6
+  size: 222, 51
+  orig: 256, 61
+  offset: 14, 5
+  index: -1
+images/effects/skill1/dibao/dibao_000
+  rotate: true
+  xy: 284, 62
+  size: 194, 139
+  orig: 315, 225
+  offset: 65, 2
+  index: -1
+images/effects/skill1/dibao/dibao_002
+  rotate: false
+  xy: 319, 801
+  size: 315, 221
+  orig: 315, 225
+  offset: 0, 0
+  index: -1
+images/effects/skill1/dibao/dibao_004
+  rotate: false
+  xy: 2, 797
+  size: 315, 225
+  orig: 315, 225
+  offset: 0, 0
+  index: -1
+images/effects/skill1/dibao/dibao_006
+  rotate: false
+  xy: 319, 574
+  size: 296, 225
+  orig: 315, 225
+  offset: 5, 0
+  index: -1
+images/effects/skill1/dibao/dibao_008
+  rotate: false
+  xy: 636, 798
+  size: 306, 224
+  orig: 315, 225
+  offset: 0, 0
+  index: -1
+images/effects/skill1/dibao/dibao_010
+  rotate: false
+  xy: 2, 580
+  size: 297, 215
+  orig: 315, 225
+  offset: 5, 0
+  index: -1
+images/effects/skill1/dibao/dibao_012
+  rotate: false
+  xy: 2, 369
+  size: 288, 209
+  orig: 315, 225
+  offset: 11, 0
+  index: -1
+images/effects/skill1/dibao/dibao_014
+  rotate: false
+  xy: 2, 241
+  size: 238, 126
+  orig: 315, 225
+  offset: 32, 14
+  index: -1
+images/effects/skill1/dibao/dibao_016
+  rotate: true
+  xy: 639, 240
+  size: 139, 68
+  orig: 315, 225
+  offset: 49, 45
+  index: -1
+images/effects/skill1/dimian/dimian_019
+  rotate: false
+  xy: 226, 6
+  size: 165, 39
+  orig: 328, 80
+  offset: 0, 15
+  index: -1
+images/effects/skill1/dimian/dimian_021
+  rotate: true
+  xy: 965, 380
+  size: 320, 57
+  orig: 328, 80
+  offset: 0, 13
+  index: -1
+images/effects/skill1/dimian/dimian_023
+  rotate: true
+  xy: 831, 331
+  size: 320, 59
+  orig: 328, 80
+  offset: 0, 14
+  index: -1
+images/effects/skill1/dimian/dimian_025
+  rotate: true
+  xy: 944, 702
+  size: 320, 69
+  orig: 328, 80
+  offset: 0, 11
+  index: -1
+images/effects/skill1/dimian/dimian_027
+  rotate: true
+  xy: 715, 59
+  size: 320, 57
+  orig: 328, 80
+  offset: 0, 14
+  index: -1
+images/effects/skill1/dimian/dimian_029
+  rotate: true
+  xy: 892, 58
+  size: 320, 57
+  orig: 328, 80
+  offset: 0, 14
+  index: -1
+images/effects/skill1/dimian/dimian_031
+  rotate: false
+  xy: 393, 2
+  size: 320, 58
+  orig: 328, 80
+  offset: 0, 14
+  index: -1
+images/effects/skill1/dimian/dimian_033
+  rotate: true
+  xy: 951, 58
+  size: 320, 57
+  orig: 328, 80
+  offset: 0, 14
+  index: -1
+images/effects/skill1/dimian/dimian_035
+  rotate: true
+  xy: 617, 476
+  size: 320, 63
+  orig: 328, 80
+  offset: 0, 14
+  index: -1
+images/effects/skill1/dimian/dimian_037
+  rotate: true
+  xy: 901, 380
+  size: 320, 62
+  orig: 328, 80
+  offset: 0, 14
+  index: -1
+images/effects/skill1/dimian/dimian_039
+  rotate: true
+  xy: 242, 47
+  size: 320, 40
+  orig: 328, 80
+  offset: 0, 14
+  index: -1
+images/effects/skill1/dimian/dimian_041
+  rotate: false
+  xy: 317, 316
+  size: 320, 62
+  orig: 328, 80
+  offset: 0, 14
+  index: -1
+images/effects/skill1/dimian/dimian_043
+  rotate: false
+  xy: 317, 261
+  size: 320, 53
+  orig: 328, 80
+  offset: 0, 14
+  index: -1
+images/effects/skill1/dimian/dimian_045
+  rotate: true
+  xy: 292, 258
+  size: 320, 23
+  orig: 328, 80
+  offset: 0, 14
+  index: -1
+images/effects/skill1/shandian/shandian_010
+  rotate: false
+  xy: 474, 385
+  size: 55, 48
+  orig: 175, 194
+  offset: 47, 30
+  index: -1
+images/effects/skill1/shandian/shandian_011
+  rotate: false
+  xy: 682, 479
+  size: 147, 172
+  orig: 175, 194
+  offset: 17, 5
+  index: -1
+images/effects/skill1/shandian/shandian_012
+  rotate: false
+  xy: 425, 88
+  size: 146, 171
+  orig: 175, 194
+  offset: 17, 6
+  index: -1
+images/effects/skill1/shandian/shandian_013
+  rotate: false
+  xy: 474, 435
+  size: 139, 137
+  orig: 175, 194
+  offset: 20, 18
+  index: -1
+images/effects/skill1/shandian/shandian_014
+  rotate: false
+  xy: 573, 102
+  size: 139, 136
+  orig: 175, 194
+  offset: 20, 18
+  index: -1
+images/effects/skill1/shandian/shandian_015
+  rotate: false
+  xy: 774, 64
+  size: 107, 107
+  orig: 175, 194
+  offset: 53, 48
+  index: -1
+images/effects/skill1/shandian/shandian_016
+  rotate: false
+  xy: 774, 64
+  size: 107, 107
+  orig: 175, 194
+  offset: 53, 48
+  index: -1
+images/effects/skill1/shandian/shandian_018
+  rotate: false
+  xy: 531, 384
+  size: 45, 49
+  orig: 219, 229
+  offset: 23, 127
+  index: -1
+images/effects/skill1/shandian/shandian_020
+  rotate: false
+  xy: 317, 405
+  size: 155, 167
+  orig: 219, 229
+  offset: 1, 45
+  index: -1
+images/effects/skill1/shandian/shandian_021
+  rotate: false
+  xy: 2, 59
+  size: 162, 180
+  orig: 219, 229
+  offset: 14, 32
+  index: -1
+images/effects/skill1/shandian/shandian_022
+  rotate: false
+  xy: 2, 59
+  size: 162, 180
+  orig: 219, 229
+  offset: 14, 32
+  index: -1
+images/effects/skill1/shandian/shandian_023
+  rotate: true
+  xy: 715, 653
+  size: 143, 184
+  orig: 219, 229
+  offset: 30, 26
+  index: -1
+images/effects/skill1/shandian/shandian_024
+  rotate: true
+  xy: 715, 653
+  size: 143, 184
+  orig: 219, 229
+  offset: 30, 26
+  index: -1
+images/effects/skill1/shandian/shandian_027
+  rotate: false
+  xy: 774, 173
+  size: 100, 156
+  orig: 219, 229
+  offset: 96, 0
+  index: -1
+images/effects/skill1/shandian/shandian_028
+  rotate: false
+  xy: 774, 173
+  size: 100, 156
+  orig: 219, 229
+  offset: 96, 0
+  index: -1
+images/effects/skill1/shandian/shandian_031
+  rotate: true
+  xy: 615, 381
+  size: 93, 165
+  orig: 219, 229
+  offset: 103, 2
+  index: -1
+images/effects/skill1/shandian/shandian_032
+  rotate: true
+  xy: 615, 381
+  size: 93, 165
+  orig: 219, 229
+  offset: 103, 2
+  index: -1
+images/effects/skill1/shandian/shandian_035
+  rotate: false
+  xy: 166, 81
+  size: 70, 158
+  orig: 219, 229
+  offset: 124, 5
+  index: -1
+images/effects/skill1/shandian/shandian_036
+  rotate: false
+  xy: 166, 81
+  size: 70, 158
+  orig: 219, 229
+  offset: 124, 5
+  index: -1
+images/effects/skill1/shandian/shandian_037
+  rotate: true
+  xy: 901, 752
+  size: 44, 37
+  orig: 219, 229
+  offset: 129, 122
+  index: -1
+images/effects/skill1/shandian/shandian_038
+  rotate: true
+  xy: 901, 752
+  size: 44, 37
+  orig: 219, 229
+  offset: 129, 122
+  index: -1
+
+effects_Watchmen_1_skill22.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/glow_000
+  rotate: false
+  xy: 2, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+images/effects/skill1/shandian/shandian_019
+  rotate: false
+  xy: 2, 94
+  size: 133, 135
+  orig: 219, 229
+  offset: 1, 45
+  index: -1

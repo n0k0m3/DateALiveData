@@ -1,0 +1,34 @@
+
+dianhua_AIS.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+003_1_000
+  rotate: false
+  xy: 2, 111
+  size: 191, 142
+  orig: 200, 160
+  offset: 4, 14
+  index: -1
+dianhua
+  rotate: false
+  xy: 2, 18
+  size: 50, 91
+  orig: 50, 92
+  offset: 0, 1
+  index: -1
+juxing1
+  rotate: false
+  xy: 54, 69
+  size: 41, 40
+  orig: 42, 40
+  offset: 0, 0
+  index: -1
+juxing2
+  rotate: false
+  xy: 195, 206
+  size: 58, 47
+  orig: 58, 48
+  offset: 0, 1
+  index: -1

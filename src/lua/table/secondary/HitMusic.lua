@@ -259,6 +259,16 @@ return {
         resource1 = "sound/common/explode.mp3",
         id = 2000405,
     },
+    [2000406] = {
+        resource2 = "sound/chunjie/ZhuanZhuan2.mp3",
+        volume2 = 65,
+        name = "鞭炮",
+        volume3 = 65,
+        volume1 = 65,
+        resource3 = "sound/chunjie/ZhuanZhuan2.mp3",
+        resource1 = "sound/chunjie/ZhuanZhuan2.mp3",
+        id = 2000406,
+    },
     [1060101] = {
         resource2 = "sound/10601/hitMechan_10601_1.mp3",
         volume2 = 80,

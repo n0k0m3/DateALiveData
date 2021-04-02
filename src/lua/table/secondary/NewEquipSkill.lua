@@ -251,4 +251,40 @@ return {
         icon = "",
         des = "231029",
     },
+    [30] = {
+        name = "",
+        attribute = {
+        },
+        id = 30,
+        suitSkill = 310040,
+        icon = "",
+        des = "231030",
+    },
+    [31] = {
+        name = "",
+        attribute = {
+        },
+        id = 31,
+        suitSkill = 310041,
+        icon = "",
+        des = "231031",
+    },
+    [32] = {
+        name = "",
+        attribute = {
+        },
+        id = 32,
+        suitSkill = 310042,
+        icon = "",
+        des = "231032",
+    },
+    [33] = {
+        name = "",
+        attribute = {
+        },
+        id = 33,
+        suitSkill = 310043,
+        icon = "",
+        des = "231033",
+    },
 }

@@ -38447,15 +38447,29 @@ return {
         triggerEvents = {
             [1] = "music0",
         },
+        cartoonResource = "fight_10415",
+        stopJudge = 0,
+        name = "狂三-出生",
+        volume = 100,
+        resource = "sound/10415/born.mp3",
+        id = 2666,
+        musicType = 0,
+    },
+    [2667] = {
+        action = "born",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
         cartoonResource = "fight_10213",
         stopJudge = 0,
         name = "反转折纸-出生",
         volume = 80,
         resource = "sound/10213/born.mp3",
-        id = 2666,
+        id = 2667,
         musicType = 0,
     },
-    [2667] = {
+    [2668] = {
         action = "quickmove",
         cartoonType = 1,
         triggerEvents = {
@@ -38466,10 +38480,10 @@ return {
         name = "反转折纸-闪避",
         volume = 80,
         resource = "sound/10213/quickmove.mp3",
-        id = 2667,
+        id = 2668,
         musicType = 0,
     },
-    [2668] = {
+    [2669] = {
         action = "skillA1",
         cartoonType = 1,
         triggerEvents = {
@@ -38480,10 +38494,10 @@ return {
         name = "反转折纸-普攻",
         volume = 80,
         resource = "sound/10213/skillA_1.mp3",
-        id = 2668,
+        id = 2669,
         musicType = 0,
     },
-    [2669] = {
+    [2670] = {
         action = "skillA2",
         cartoonType = 1,
         triggerEvents = {
@@ -38494,10 +38508,10 @@ return {
         name = "反转折纸-普攻",
         volume = 80,
         resource = "sound/10213/skillA_2.mp3",
-        id = 2669,
+        id = 2670,
         musicType = 0,
     },
-    [2670] = {
+    [2671] = {
         action = "skillA3",
         cartoonType = 1,
         triggerEvents = {
@@ -38508,10 +38522,10 @@ return {
         name = "反转折纸-普攻",
         volume = 80,
         resource = "sound/10213/skillA_3.mp3",
-        id = 2670,
+        id = 2671,
         musicType = 0,
     },
-    [2671] = {
+    [2672] = {
         action = "skillA4",
         cartoonType = 1,
         triggerEvents = {
@@ -38522,10 +38536,10 @@ return {
         name = "反转折纸-普攻",
         volume = 80,
         resource = "sound/10213/skillA_4.mp3",
-        id = 2671,
+        id = 2672,
         musicType = 0,
     },
-    [2672] = {
+    [2673] = {
         action = "skillA4",
         cartoonType = 1,
         triggerEvents = {
@@ -38536,10 +38550,10 @@ return {
         name = "反转折纸-普攻-语音",
         volume = 95,
         resource = "sound/10210/ORIGAMI_294_b.mp3",
-        id = 2672,
+        id = 2673,
         musicType = 1,
     },
-    [2673] = {
+    [2674] = {
         action = "skillB1",
         cartoonType = 1,
         triggerEvents = {
@@ -38550,10 +38564,10 @@ return {
         name = "反转折纸-技能1-挥舞1",
         volume = 100,
         resource = "sound/10213/skillB_1.mp3",
-        id = 2673,
+        id = 2674,
         musicType = 0,
     },
-    [2674] = {
+    [2675] = {
         action = "skillB1",
         cartoonType = 1,
         triggerEvents = {
@@ -38564,20 +38578,6 @@ return {
         name = "反转折纸-技能1-挥舞2",
         volume = 100,
         resource = "sound/10213/skillB_2.mp3",
-        id = 2674,
-        musicType = 0,
-    },
-    [2675] = {
-        action = "skillB1",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music3",
-        },
-        cartoonResource = "fight_10213",
-        stopJudge = 0,
-        name = "反转折纸-技能1-挥舞3",
-        volume = 100,
-        resource = "sound/10213/skillB_3.mp3",
         id = 2675,
         musicType = 0,
     },
@@ -38589,13 +38589,27 @@ return {
         },
         cartoonResource = "fight_10213",
         stopJudge = 0,
+        name = "反转折纸-技能1-挥舞3",
+        volume = 100,
+        resource = "sound/10213/skillB_3.mp3",
+        id = 2676,
+        musicType = 0,
+    },
+    [2677] = {
+        action = "skillB1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music3",
+        },
+        cartoonResource = "fight_10213",
+        stopJudge = 0,
         name = "反转折纸-技能1-挥舞3-语音",
         volume = 95,
         resource = "sound/10210/ORIGAMI_294_a.mp3",
-        id = 2676,
+        id = 2677,
         musicType = 1,
     },
-    [2677] = {
+    [2678] = {
         action = "skillB2",
         cartoonType = 1,
         triggerEvents = {
@@ -38606,10 +38620,10 @@ return {
         name = "反转折纸-技能1-刺地",
         volume = 95,
         resource = "sound/10213/skillB_4.mp3",
-        id = 2677,
+        id = 2678,
         musicType = 0,
     },
-    [2678] = {
+    [2679] = {
         action = "skillB1_1",
         cartoonType = 1,
         triggerEvents = {
@@ -38620,10 +38634,10 @@ return {
         name = "反转折纸-技能1-挥舞1",
         volume = 95,
         resource = "sound/10213/skillB_1.mp3",
-        id = 2678,
+        id = 2679,
         musicType = 0,
     },
-    [2679] = {
+    [2680] = {
         action = "skillB1_1",
         cartoonType = 1,
         triggerEvents = {
@@ -38634,10 +38648,10 @@ return {
         name = "反转折纸-技能1-挥舞2",
         volume = 95,
         resource = "sound/10213/skillB_2.mp3",
-        id = 2679,
+        id = 2680,
         musicType = 0,
     },
-    [2680] = {
+    [2681] = {
         action = "skillB1_1",
         cartoonType = 1,
         triggerEvents = {
@@ -38648,10 +38662,10 @@ return {
         name = "反转折纸-技能1-挥舞3",
         volume = 95,
         resource = "sound/10213/skillB_3.mp3",
-        id = 2680,
+        id = 2681,
         musicType = 0,
     },
-    [2681] = {
+    [2682] = {
         action = "skillB2_1",
         cartoonType = 1,
         triggerEvents = {
@@ -38662,10 +38676,10 @@ return {
         name = "反转折纸-技能1-刺地",
         volume = 95,
         resource = "sound/10213/skillB_4.mp3",
-        id = 2681,
+        id = 2682,
         musicType = 0,
     },
-    [2682] = {
+    [2683] = {
         action = "skillB2_UP",
         cartoonType = 2,
         triggerEvents = {
@@ -38680,20 +38694,6 @@ return {
         name = "反转折纸-技能1-刺地*4",
         volume = 95,
         resource = "sound/10213/skillB_4_1.mp3",
-        id = 2682,
-        musicType = 0,
-    },
-    [2683] = {
-        action = "skillB3",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music1",
-        },
-        cartoonResource = "fight_10213",
-        stopJudge = 0,
-        name = "反转折纸-技能1-闪",
-        volume = 95,
-        resource = "sound/10213/skillB_5.mp3",
         id = 2683,
         musicType = 0,
     },
@@ -38705,13 +38705,27 @@ return {
         },
         cartoonResource = "fight_10213",
         stopJudge = 0,
+        name = "反转折纸-技能1-闪",
+        volume = 95,
+        resource = "sound/10213/skillB_5.mp3",
+        id = 2684,
+        musicType = 0,
+    },
+    [2685] = {
+        action = "skillB3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_10213",
+        stopJudge = 0,
         name = "反转折纸-技能1-闪-语音",
         volume = 95,
         resource = "sound/10210/ORIGAMI_296_c.mp3",
-        id = 2684,
+        id = 2685,
         musicType = 1,
     },
-    [2685] = {
+    [2686] = {
         action = "skillB3_1",
         cartoonType = 2,
         triggerEvents = {
@@ -38722,20 +38736,6 @@ return {
         name = "反转折纸-技能1-空间斩",
         volume = 95,
         resource = "sound/10213/skillB_6.mp3",
-        id = 2685,
-        musicType = 0,
-    },
-    [2686] = {
-        action = "extra_skillB",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_10213",
-        stopJudge = 0,
-        name = "反转折纸-技能2-蓄力发射",
-        volume = 95,
-        resource = "sound/10213/extra_skillB_1_1.mp3",
         id = 2686,
         musicType = 0,
     },
@@ -38747,13 +38747,27 @@ return {
         },
         cartoonResource = "fight_10213",
         stopJudge = 0,
+        name = "反转折纸-技能2-蓄力发射",
+        volume = 95,
+        resource = "sound/10213/extra_skillB_1_1.mp3",
+        id = 2687,
+        musicType = 0,
+    },
+    [2688] = {
+        action = "extra_skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_10213",
+        stopJudge = 0,
         name = "反转折纸-技能2-蓄力发射-语音",
         volume = 95,
         resource = "sound/10210/ORIGAMI_291_b.mp3",
-        id = 2687,
+        id = 2688,
         musicType = 1,
     },
-    [2688] = {
+    [2689] = {
         action = "Level_0_UP",
         cartoonType = 2,
         triggerEvents = {
@@ -38764,10 +38778,10 @@ return {
         name = "反转折纸-技能2-爆炸",
         volume = 95,
         resource = "sound/10213/extra_skillB_1_2.mp3",
-        id = 2688,
+        id = 2689,
         musicType = 0,
     },
-    [2689] = {
+    [2690] = {
         action = "Level_1",
         cartoonType = 2,
         triggerEvents = {
@@ -38778,10 +38792,10 @@ return {
         name = "反转折纸-技能2-穿梭",
         volume = 95,
         resource = "sound/10210/extra_skillB_2.mp3",
-        id = 2689,
+        id = 2690,
         musicType = 0,
     },
-    [2690] = {
+    [2691] = {
         action = "Level_2",
         cartoonType = 2,
         triggerEvents = {
@@ -38792,20 +38806,6 @@ return {
         name = "反转折纸-技能2-落下",
         volume = 95,
         resource = "sound/10210/extra_skillB_3.mp3",
-        id = 2690,
-        musicType = 0,
-    },
-    [2691] = {
-        action = "skillC1",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_10213",
-        stopJudge = 0,
-        name = "反转折纸-必杀-闪出",
-        volume = 95,
-        resource = "sound/10213/skillC_1.mp3",
         id = 2691,
         musicType = 0,
     },
@@ -38817,13 +38817,27 @@ return {
         },
         cartoonResource = "fight_10213",
         stopJudge = 0,
+        name = "反转折纸-必杀-闪出",
+        volume = 95,
+        resource = "sound/10213/skillC_1.mp3",
+        id = 2692,
+        musicType = 0,
+    },
+    [2693] = {
+        action = "skillC1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_10213",
+        stopJudge = 0,
         name = "反转折纸-必杀-闪出-语音",
         volume = 100,
         resource = "sound/10210/ORIGAMI_287.mp3",
-        id = 2692,
+        id = 2693,
         musicType = 1,
     },
-    [2693] = {
+    [2694] = {
         action = "skillC1",
         cartoonType = 1,
         triggerEvents = {
@@ -38834,20 +38848,6 @@ return {
         name = "反转折纸-必杀-穿梭",
         volume = 100,
         resource = "sound/10213/skillC_2.mp3",
-        id = 2693,
-        musicType = 0,
-    },
-    [2694] = {
-        action = "skillC2",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_10213",
-        stopJudge = 0,
-        name = "反转折纸-必杀-蓄力砸落",
-        volume = 100,
-        resource = "sound/10213/skillC_3.mp3",
         id = 2694,
         musicType = 0,
     },
@@ -38859,13 +38859,27 @@ return {
         },
         cartoonResource = "fight_10213",
         stopJudge = 0,
+        name = "反转折纸-必杀-蓄力砸落",
+        volume = 100,
+        resource = "sound/10213/skillC_3.mp3",
+        id = 2695,
+        musicType = 0,
+    },
+    [2696] = {
+        action = "skillC2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_10213",
+        stopJudge = 0,
         name = "反转折纸-必杀-蓄力砸落-语音",
         volume = 100,
         resource = "sound/10210/ORIGAMI_293_c.mp3",
-        id = 2695,
+        id = 2696,
         musicType = 1,
     },
-    [2696] = {
+    [2697] = {
         action = "skillD_1",
         cartoonType = 1,
         triggerEvents = {
@@ -38876,10 +38890,10 @@ return {
         name = "反转折纸-觉醒-展示",
         volume = 100,
         resource = "sound/10213/skillD_1.mp3",
-        id = 2696,
+        id = 2697,
         musicType = 0,
     },
-    [2697] = {
+    [2698] = {
         action = "skillD_1",
         cartoonType = 1,
         triggerEvents = {
@@ -38890,10 +38904,10 @@ return {
         name = "反转折纸-觉醒-展示-语音",
         volume = 95,
         resource = "sound/10210/ORIGAMI_284.mp3",
-        id = 2697,
+        id = 2698,
         musicType = 1,
     },
-    [2698] = {
+    [2699] = {
         action = "skillD_3",
         cartoonType = 1,
         triggerEvents = {
@@ -38904,10 +38918,10 @@ return {
         name = "反转折纸-觉醒-攻击",
         volume = 95,
         resource = "sound/10210/skillD_3.mp3",
-        id = 2698,
+        id = 2699,
         musicType = 0,
     },
-    [2699] = {
+    [2700] = {
         action = "skillF",
         cartoonType = 1,
         triggerEvents = {
@@ -38918,10 +38932,10 @@ return {
         name = "反转折纸-出场技",
         volume = 95,
         resource = "sound/10213/skillF.mp3",
-        id = 2699,
+        id = 2700,
         musicType = 0,
     },
-    [2700] = {
+    [2701] = {
         action = "skillG_1",
         cartoonType = 1,
         triggerEvents = {
@@ -38932,10 +38946,10 @@ return {
         name = "反转折纸-额外技能-闪出",
         volume = 100,
         resource = "sound/10213/skillG_1.mp3",
-        id = 2700,
+        id = 2701,
         musicType = 0,
     },
-    [2701] = {
+    [2702] = {
         action = "skillG_2",
         cartoonType = 1,
         triggerEvents = {
@@ -38946,20 +38960,6 @@ return {
         name = "反转折纸-额外技能-旋转发射",
         volume = 100,
         resource = "sound/10213/skillG_2.mp3",
-        id = 2701,
-        musicType = 0,
-    },
-    [2702] = {
-        action = "skillG_3",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_10213",
-        stopJudge = 0,
-        name = "反转折纸-额外技能-蓄力",
-        volume = 100,
-        resource = "sound/10213/skillG_3.mp3",
         id = 2702,
         musicType = 0,
     },
@@ -38971,13 +38971,27 @@ return {
         },
         cartoonResource = "fight_10213",
         stopJudge = 0,
+        name = "反转折纸-额外技能-蓄力",
+        volume = 100,
+        resource = "sound/10213/skillG_3.mp3",
+        id = 2703,
+        musicType = 0,
+    },
+    [2704] = {
+        action = "skillG_3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_10213",
+        stopJudge = 0,
         name = "反转折纸-额外技能-蓄力-语音",
         volume = 95,
         resource = "sound/10210/ORIGAMI_295_b.mp3",
-        id = 2703,
+        id = 2704,
         musicType = 1,
     },
-    [2704] = {
+    [2705] = {
         action = "skillG_2_2",
         cartoonType = 2,
         triggerEvents = {
@@ -38988,10 +39002,10 @@ return {
         name = "反转折纸-额外技能-砸落",
         volume = 100,
         resource = "sound/10213/skillG_4.mp3",
-        id = 2704,
+        id = 2705,
         musicType = 0,
     },
-    [2705] = {
+    [2706] = {
         action = "skillF",
         cartoonType = 1,
         triggerEvents = {
@@ -39002,10 +39016,10 @@ return {
         name = "或守鞠奈-出场",
         volume = 100,
         resource = "sound/12501/skillF.mp3",
-        id = 2705,
+        id = 2706,
         musicType = 0,
     },
-    [2706] = {
+    [2707] = {
         action = "skillG",
         cartoonType = 1,
         triggerEvents = {
@@ -39016,10 +39030,10 @@ return {
         name = "或守鞠奈-额外技能",
         volume = 100,
         resource = "sound/12501/skillG.mp3",
-        id = 2706,
+        id = 2707,
         musicType = 0,
     },
-    [2707] = {
+    [2708] = {
         action = "quickmove",
         cartoonType = 1,
         triggerEvents = {
@@ -39030,10 +39044,10 @@ return {
         name = "或守鞠奈-闪避",
         volume = 100,
         resource = "sound/12501/quickmove.mp3",
-        id = 2707,
+        id = 2708,
         musicType = 0,
     },
-    [2708] = {
+    [2709] = {
         action = "born",
         cartoonType = 1,
         triggerEvents = {
@@ -39044,10 +39058,10 @@ return {
         name = "或守鞠奈-出生",
         volume = 100,
         resource = "sound/12501/born.mp3",
-        id = 2708,
+        id = 2709,
         musicType = 0,
     },
-    [2709] = {
+    [2710] = {
         action = "skillA_1",
         cartoonType = 1,
         triggerEvents = {
@@ -39058,10 +39072,10 @@ return {
         name = "或守鞠奈-普攻1",
         volume = 100,
         resource = "sound/12501/skillA_1.mp3",
-        id = 2709,
+        id = 2710,
         musicType = 0,
     },
-    [2710] = {
+    [2711] = {
         action = "skillA_2",
         cartoonType = 1,
         triggerEvents = {
@@ -39072,10 +39086,10 @@ return {
         name = "或守鞠奈-普攻2",
         volume = 100,
         resource = "sound/12501/skillA_2.mp3",
-        id = 2710,
+        id = 2711,
         musicType = 0,
     },
-    [2711] = {
+    [2712] = {
         action = "skillA_3",
         cartoonType = 1,
         triggerEvents = {
@@ -39086,10 +39100,10 @@ return {
         name = "或守鞠奈-普攻3",
         volume = 100,
         resource = "sound/12501/skillA_3.mp3",
-        id = 2711,
+        id = 2712,
         musicType = 0,
     },
-    [2712] = {
+    [2713] = {
         action = "skillA_3",
         cartoonType = 1,
         triggerEvents = {
@@ -39100,10 +39114,10 @@ return {
         name = "或守鞠奈-普攻-语音",
         volume = 100,
         resource = "sound/12501/MARINA_092.mp3",
-        id = 2712,
+        id = 2713,
         musicType = 1,
     },
-    [2713] = {
+    [2714] = {
         action = "skillA_4",
         cartoonType = 1,
         triggerEvents = {
@@ -39114,20 +39128,6 @@ return {
         name = "或守鞠奈-普攻4",
         volume = 100,
         resource = "sound/12501/skillA_4.mp3",
-        id = 2713,
-        musicType = 0,
-    },
-    [2714] = {
-        action = "skillA_5",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_12501",
-        stopJudge = 0,
-        name = "或守鞠奈-普攻5",
-        volume = 100,
-        resource = "sound/12501/skillA_5.mp3",
         id = 2714,
         musicType = 0,
     },
@@ -39139,13 +39139,27 @@ return {
         },
         cartoonResource = "fight_12501",
         stopJudge = 0,
+        name = "或守鞠奈-普攻5",
+        volume = 100,
+        resource = "sound/12501/skillA_5.mp3",
+        id = 2715,
+        musicType = 0,
+    },
+    [2716] = {
+        action = "skillA_5",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12501",
+        stopJudge = 0,
         name = "或守鞠奈-普攻-语音",
         volume = 100,
         resource = "sound/12501/MARINA_091.mp3",
-        id = 2715,
+        id = 2716,
         musicType = 1,
     },
-    [2716] = {
+    [2717] = {
         action = "skillB_2",
         cartoonType = 2,
         triggerEvents = {
@@ -39156,10 +39170,10 @@ return {
         name = "或守鞠奈-技能1初级",
         volume = 100,
         resource = "sound/12501/skillB_4.mp3",
-        id = 2716,
+        id = 2717,
         musicType = 0,
     },
-    [2717] = {
+    [2718] = {
         action = "skillB_2",
         cartoonType = 2,
         triggerEvents = {
@@ -39170,10 +39184,10 @@ return {
         name = "或守鞠奈-技能1初级语音",
         volume = 100,
         resource = "sound/12501/MARINA_094.mp3",
-        id = 2717,
+        id = 2718,
         musicType = 1,
     },
-    [2718] = {
+    [2719] = {
         action = "skillB_3",
         cartoonType = 2,
         triggerEvents = {
@@ -39184,10 +39198,10 @@ return {
         name = "或守鞠奈-技能1高级",
         volume = 100,
         resource = "sound/12501/skillB_5.mp3",
-        id = 2718,
+        id = 2719,
         musicType = 0,
     },
-    [2719] = {
+    [2720] = {
         action = "skillB_3",
         cartoonType = 2,
         triggerEvents = {
@@ -39198,10 +39212,10 @@ return {
         name = "或守鞠奈-技能1高级语音",
         volume = 100,
         resource = "sound/12501/MARINA_091.mp3",
-        id = 2719,
+        id = 2720,
         musicType = 1,
     },
-    [2720] = {
+    [2721] = {
         action = "skillB_1_chuxian",
         cartoonType = 2,
         triggerEvents = {
@@ -39212,20 +39226,6 @@ return {
         name = "或守鞠奈-替身出现",
         volume = 100,
         resource = "sound/12501/skillB_1.mp3",
-        id = 2720,
-        musicType = 0,
-    },
-    [2721] = {
-        action = "skillC_1",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_12501",
-        stopJudge = 0,
-        name = "或守鞠奈-必杀 冲刺1",
-        volume = 100,
-        resource = "sound/12501/skillC_1.mp3",
         id = 2721,
         musicType = 0,
     },
@@ -39237,13 +39237,27 @@ return {
         },
         cartoonResource = "fight_12501",
         stopJudge = 0,
+        name = "或守鞠奈-必杀 冲刺1",
+        volume = 100,
+        resource = "sound/12501/skillC_1.mp3",
+        id = 2722,
+        musicType = 0,
+    },
+    [2723] = {
+        action = "skillC_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12501",
+        stopJudge = 0,
         name = "或守鞠奈-必杀 冲刺1 语音",
         volume = 100,
         resource = "sound/12501/MARINA_085.mp3",
-        id = 2722,
+        id = 2723,
         musicType = 1,
     },
-    [2723] = {
+    [2724] = {
         action = "skillC_2",
         cartoonType = 1,
         triggerEvents = {
@@ -39254,10 +39268,10 @@ return {
         name = "或守鞠奈-必杀 冲刺2",
         volume = 100,
         resource = "sound/12501/skillC_1.mp3",
-        id = 2723,
+        id = 2724,
         musicType = 0,
     },
-    [2724] = {
+    [2725] = {
         action = "skillC_2",
         cartoonType = 1,
         triggerEvents = {
@@ -39268,22 +39282,8 @@ return {
         name = "或守鞠奈-必杀 冲刺1 语音",
         volume = 100,
         resource = "sound/12501/MARINA_085.mp3",
-        id = 2724,
-        musicType = 1,
-    },
-    [2725] = {
-        action = "skillC_3",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_12501",
-        stopJudge = 0,
-        name = "或守鞠奈-必杀 冲刺3",
-        volume = 100,
-        resource = "sound/12501/skillC_1.mp3",
         id = 2725,
-        musicType = 0,
+        musicType = 1,
     },
     [2726] = {
         action = "skillC_3",
@@ -39295,11 +39295,25 @@ return {
         stopJudge = 0,
         name = "或守鞠奈-必杀 冲刺3",
         volume = 100,
-        resource = "sound/12501/MARINA_085.mp3",
+        resource = "sound/12501/skillC_1.mp3",
         id = 2726,
-        musicType = 1,
+        musicType = 0,
     },
     [2727] = {
+        action = "skillC_3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12501",
+        stopJudge = 0,
+        name = "或守鞠奈-必杀 冲刺3",
+        volume = 100,
+        resource = "sound/12501/MARINA_085.mp3",
+        id = 2727,
+        musicType = 1,
+    },
+    [2728] = {
         action = "skillC_1",
         cartoonType = 1,
         triggerEvents = {
@@ -39310,10 +39324,10 @@ return {
         name = "或守鞠奈-必杀 数据空间1",
         volume = 100,
         resource = "sound/12501/skillC_2.mp3",
-        id = 2727,
+        id = 2728,
         musicType = 0,
     },
-    [2728] = {
+    [2729] = {
         action = "skillC_2",
         cartoonType = 1,
         triggerEvents = {
@@ -39324,10 +39338,10 @@ return {
         name = "或守鞠奈-必杀 数据空间2",
         volume = 100,
         resource = "sound/12501/skillC_2.mp3",
-        id = 2728,
+        id = 2729,
         musicType = 0,
     },
-    [2729] = {
+    [2730] = {
         action = "skillC_3",
         cartoonType = 1,
         triggerEvents = {
@@ -39338,10 +39352,10 @@ return {
         name = "或守鞠奈-必杀 数据空间3",
         volume = 100,
         resource = "sound/12501/skillC_2.mp3",
-        id = 2729,
+        id = 2730,
         musicType = 0,
     },
-    [2730] = {
+    [2731] = {
         action = "skillC_3",
         cartoonType = 1,
         triggerEvents = {
@@ -39352,20 +39366,6 @@ return {
         name = "或守鞠奈-必杀 飞刺阶段",
         volume = 100,
         resource = "sound/12501/skillC_3.mp3",
-        id = 2730,
-        musicType = 0,
-    },
-    [2731] = {
-        action = "extra_skillB",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_12501",
-        stopJudge = 0,
-        name = "或守鞠奈-技能2 施法阶段",
-        volume = 100,
-        resource = "sound/12501/skill_extra_skillB_1.mp3",
         id = 2731,
         musicType = 0,
     },
@@ -39377,13 +39377,27 @@ return {
         },
         cartoonResource = "fight_12501",
         stopJudge = 0,
+        name = "或守鞠奈-技能2 施法阶段",
+        volume = 100,
+        resource = "sound/12501/skill_extra_skillB_1.mp3",
+        id = 2732,
+        musicType = 0,
+    },
+    [2733] = {
+        action = "extra_skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12501",
+        stopJudge = 0,
         name = "或守鞠奈-技能2 施法阶段 语音",
         volume = 100,
         resource = "sound/12501/MARINA_098.mp3",
-        id = 2732,
+        id = 2733,
         musicType = 1,
     },
-    [2733] = {
+    [2734] = {
         action = "diquan_chuxian",
         cartoonType = 2,
         triggerEvents = {
@@ -39394,10 +39408,10 @@ return {
         name = "或守鞠奈-陷阱出现",
         volume = 100,
         resource = "sound/12501/skill_extra_skillB_2.mp3",
-        id = 2733,
+        id = 2734,
         musicType = 0,
     },
-    [2734] = {
+    [2735] = {
         action = "dici",
         cartoonType = 2,
         triggerEvents = {
@@ -39408,10 +39422,10 @@ return {
         name = "或守鞠奈-地刺出现",
         volume = 100,
         resource = "sound/12501/skill_extra_skillB_3.mp3",
-        id = 2734,
+        id = 2735,
         musicType = 0,
     },
-    [2735] = {
+    [2736] = {
         action = "guangzhu_chuxian_shang",
         cartoonType = 2,
         triggerEvents = {
@@ -39422,10 +39436,10 @@ return {
         name = "或守鞠奈-光柱出现",
         volume = 100,
         resource = "sound/12501/skill_extra_skillB_4.mp3",
-        id = 2735,
+        id = 2736,
         musicType = 0,
     },
-    [2736] = {
+    [2737] = {
         action = "diquan_xiaoshi",
         cartoonType = 2,
         triggerEvents = {
@@ -39436,10 +39450,10 @@ return {
         name = "或守鞠奈-地圈消失",
         volume = 100,
         resource = "sound/12501/skill_extra_skillB_5.mp3",
-        id = 2736,
+        id = 2737,
         musicType = 0,
     },
-    [2737] = {
+    [2738] = {
         action = "kulou",
         cartoonType = 2,
         triggerEvents = {
@@ -39450,10 +39464,10 @@ return {
         name = "或守鞠奈-骷髅出现及爆炸",
         volume = 100,
         resource = "sound/12501/skill_extra_skillB_6.mp3",
-        id = 2737,
+        id = 2738,
         musicType = 0,
     },
-    [2738] = {
+    [2739] = {
         action = "skillD_1",
         cartoonType = 1,
         triggerEvents = {
@@ -39464,10 +39478,10 @@ return {
         name = "或守鞠奈-觉醒-入地",
         volume = 100,
         resource = "sound/12501/skillD_1.mp3",
-        id = 2738,
+        id = 2739,
         musicType = 0,
     },
-    [2739] = {
+    [2740] = {
         action = "skillD_1",
         cartoonType = 1,
         triggerEvents = {
@@ -39478,10 +39492,10 @@ return {
         name = "或守鞠奈-觉醒-觉醒动画",
         volume = 100,
         resource = "sound/12501/skillD_2.mp3",
-        id = 2739,
+        id = 2740,
         musicType = 0,
     },
-    [2740] = {
+    [2741] = {
         action = "skillD_1",
         cartoonType = 1,
         triggerEvents = {
@@ -39492,10 +39506,10 @@ return {
         name = "或守鞠奈-觉醒1",
         volume = 100,
         resource = "sound/12501/MARINA_088.mp3",
-        id = 2740,
+        id = 2741,
         musicType = 1,
     },
-    [2741] = {
+    [2742] = {
         action = "skillD_3",
         cartoonType = 1,
         triggerEvents = {
@@ -39506,10 +39520,10 @@ return {
         name = "或守鞠奈-觉醒-攻击",
         volume = 100,
         resource = "sound/12501/skillD_3.mp3",
-        id = 2741,
+        id = 2742,
         musicType = 0,
     },
-    [2742] = {
+    [2743] = {
         action = "dici2",
         cartoonType = 2,
         triggerEvents = {
@@ -39520,10 +39534,10 @@ return {
         name = "或守鞠奈-地刺多段",
         volume = 100,
         resource = "sound/12501/skill_extra_skillB_7.mp3",
-        id = 2742,
+        id = 2743,
         musicType = 0,
     },
-    [2743] = {
+    [2744] = {
         action = "extra_skillB4",
         cartoonType = 2,
         triggerEvents = {
@@ -39534,10 +39548,10 @@ return {
         name = "或守鞠奈-电容出现",
         volume = 100,
         resource = "sound/junairuqin/appear.mp3",
-        id = 2743,
+        id = 2744,
         musicType = 0,
     },
-    [2744] = {
+    [2745] = {
         action = "boom",
         cartoonType = 2,
         triggerEvents = {
@@ -39548,10 +39562,10 @@ return {
         name = "或守鞠奈-电容爆炸",
         volume = 150,
         resource = "sound/junairuqin/explosion.mp3",
-        id = 2744,
+        id = 2745,
         musicType = 0,
     },
-    [2745] = {
+    [2746] = {
         action = "born",
         cartoonType = 1,
         triggerEvents = {
@@ -39562,10 +39576,10 @@ return {
         name = "鞠亚-出生",
         volume = 100,
         resource = "sound/12401/born.mp3",
-        id = 2745,
+        id = 2746,
         musicType = 0,
     },
-    [2746] = {
+    [2747] = {
         action = "quickmove",
         cartoonType = 1,
         triggerEvents = {
@@ -39576,10 +39590,10 @@ return {
         name = "鞠亚-闪避",
         volume = 100,
         resource = "sound/12401/quickmove.mp3",
-        id = 2746,
+        id = 2747,
         musicType = 0,
     },
-    [2747] = {
+    [2748] = {
         action = "skillA1",
         cartoonType = 1,
         triggerEvents = {
@@ -39590,10 +39604,10 @@ return {
         name = "鞠亚-普攻",
         volume = 100,
         resource = "sound/12401/skillA_1_1.mp3",
-        id = 2747,
+        id = 2748,
         musicType = 0,
     },
-    [2748] = {
+    [2749] = {
         action = "skillA2",
         cartoonType = 1,
         triggerEvents = {
@@ -39604,10 +39618,10 @@ return {
         name = "鞠亚-普攻",
         volume = 100,
         resource = "sound/12401/skillA_2_1.mp3",
-        id = 2748,
+        id = 2749,
         musicType = 0,
     },
-    [2749] = {
+    [2750] = {
         action = "skillA3",
         cartoonType = 1,
         triggerEvents = {
@@ -39618,10 +39632,10 @@ return {
         name = "鞠亚-普攻",
         volume = 100,
         resource = "sound/12401/skillA_3_1.mp3",
-        id = 2749,
+        id = 2750,
         musicType = 0,
     },
-    [2750] = {
+    [2751] = {
         action = "skillA4",
         cartoonType = 1,
         triggerEvents = {
@@ -39632,20 +39646,6 @@ return {
         name = "鞠亚-普攻",
         volume = 100,
         resource = "sound/12401/skillA_4.mp3",
-        id = 2750,
-        musicType = 0,
-    },
-    [2751] = {
-        action = "skillA5",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_12401",
-        stopJudge = 0,
-        name = "鞠亚-普攻",
-        volume = 100,
-        resource = "sound/12401/skillA_5.mp3",
         id = 2751,
         musicType = 0,
     },
@@ -39657,13 +39657,27 @@ return {
         },
         cartoonResource = "fight_12401",
         stopJudge = 0,
+        name = "鞠亚-普攻",
+        volume = 100,
+        resource = "sound/12401/skillA_5.mp3",
+        id = 2752,
+        musicType = 0,
+    },
+    [2753] = {
+        action = "skillA5",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12401",
+        stopJudge = 0,
         name = "鞠亚-普攻-语音",
         volume = 100,
         resource = "sound/12401/MARIA_096.mp3",
-        id = 2752,
+        id = 2753,
         musicType = 1,
     },
-    [2753] = {
+    [2754] = {
         action = "skillB",
         cartoonType = 1,
         triggerEvents = {
@@ -39674,25 +39688,11 @@ return {
         name = "鞠亚-普攻-语音",
         volume = 100,
         resource = "sound/12401/skillB_1.mp3",
-        id = 2753,
-        musicType = 0,
-    },
-    [2754] = {
-        action = "skillB2",
-        cartoonType = 2,
-        triggerEvents = {
-            [1] = "music1",
-        },
-        cartoonResource = "fight_12401_skillB",
-        stopJudge = 0,
-        name = "鞠亚-技能1-浮游炮",
-        volume = 100,
-        resource = "sound/12401/skillB_2.mp3",
         id = 2754,
         musicType = 0,
     },
     [2755] = {
-        action = "skillB4",
+        action = "skillB2",
         cartoonType = 2,
         triggerEvents = {
             [1] = "music1",
@@ -39706,7 +39706,7 @@ return {
         musicType = 0,
     },
     [2756] = {
-        action = "skillB5",
+        action = "skillB4",
         cartoonType = 2,
         triggerEvents = {
             [1] = "music1",
@@ -39720,7 +39720,7 @@ return {
         musicType = 0,
     },
     [2757] = {
-        action = "skillB6",
+        action = "skillB5",
         cartoonType = 2,
         triggerEvents = {
             [1] = "music1",
@@ -39734,7 +39734,7 @@ return {
         musicType = 0,
     },
     [2758] = {
-        action = "skillB7",
+        action = "skillB6",
         cartoonType = 2,
         triggerEvents = {
             [1] = "music1",
@@ -39748,7 +39748,7 @@ return {
         musicType = 0,
     },
     [2759] = {
-        action = "skillB8",
+        action = "skillB7",
         cartoonType = 2,
         triggerEvents = {
             [1] = "music1",
@@ -39762,7 +39762,7 @@ return {
         musicType = 0,
     },
     [2760] = {
-        action = "skillB1-3",
+        action = "skillB8",
         cartoonType = 2,
         triggerEvents = {
             [1] = "music1",
@@ -39776,6 +39776,20 @@ return {
         musicType = 0,
     },
     [2761] = {
+        action = "skillB1-3",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_12401_skillB",
+        stopJudge = 0,
+        name = "鞠亚-技能1-浮游炮",
+        volume = 100,
+        resource = "sound/12401/skillB_2.mp3",
+        id = 2761,
+        musicType = 0,
+    },
+    [2762] = {
         action = "skillB",
         cartoonType = 1,
         triggerEvents = {
@@ -39786,10 +39800,10 @@ return {
         name = "鞠亚-普攻-语音",
         volume = 100,
         resource = "sound/12401/MARIA_097.mp3",
-        id = 2761,
+        id = 2762,
         musicType = 1,
     },
-    [2762] = {
+    [2763] = {
         action = "extra_skillB1",
         cartoonType = 1,
         triggerEvents = {
@@ -39800,10 +39814,10 @@ return {
         name = "鞠亚-技能2-激光束",
         volume = 100,
         resource = "sound/12401/extra_skillB_1_1.mp3",
-        id = 2762,
+        id = 2763,
         musicType = 0,
     },
-    [2763] = {
+    [2764] = {
         action = "extra_skillB2",
         cartoonType = 1,
         triggerEvents = {
@@ -39814,10 +39828,10 @@ return {
         name = "鞠亚-技能2-激光射击",
         volume = 100,
         resource = "sound/12401/extra_skillB_1_2.mp3",
-        id = 2763,
+        id = 2764,
         musicType = 0,
     },
-    [2764] = {
+    [2765] = {
         action = "extra_skillB3",
         cartoonType = 1,
         triggerEvents = {
@@ -39828,10 +39842,10 @@ return {
         name = "鞠亚-技能2-激光炮",
         volume = 100,
         resource = "sound/12401/extra_skillB_1_3.mp3",
-        id = 2764,
+        id = 2765,
         musicType = 0,
     },
-    [2765] = {
+    [2766] = {
         action = "extra_skillB1",
         cartoonType = 1,
         triggerEvents = {
@@ -39842,10 +39856,10 @@ return {
         name = "鞠亚-技能2-语音",
         volume = 95,
         resource = "sound/12401/MARIA_099.mp3",
-        id = 2765,
+        id = 2766,
         musicType = 1,
     },
-    [2766] = {
+    [2767] = {
         action = "extra_skillB2",
         cartoonType = 1,
         triggerEvents = {
@@ -39856,10 +39870,10 @@ return {
         name = "鞠亚-技能2-语音",
         volume = 95,
         resource = "sound/12401/MARIA_095.mp3",
-        id = 2766,
+        id = 2767,
         musicType = 1,
     },
-    [2767] = {
+    [2768] = {
         action = "extra_skillB3",
         cartoonType = 1,
         triggerEvents = {
@@ -39870,10 +39884,10 @@ return {
         name = "鞠亚-技能2-语音",
         volume = 95,
         resource = "sound/12401/MARIA_098.mp3",
-        id = 2767,
+        id = 2768,
         musicType = 1,
     },
-    [2768] = {
+    [2769] = {
         action = "skillC",
         cartoonType = 1,
         triggerEvents = {
@@ -39884,10 +39898,10 @@ return {
         name = "鞠亚-必杀释放",
         volume = 100,
         resource = "sound/12401/skillC_1.mp3",
-        id = 2768,
+        id = 2769,
         musicType = 0,
     },
-    [2769] = {
+    [2770] = {
         action = "chuansuo_chuxian",
         cartoonType = 2,
         triggerEvents = {
@@ -39898,10 +39912,10 @@ return {
         name = "鞠亚-必杀-穿梭",
         volume = 95,
         resource = "sound/12401/skillC_2.mp3",
-        id = 2769,
+        id = 2770,
         musicType = 0,
     },
-    [2770] = {
+    [2771] = {
         action = "chuansuo_boom",
         cartoonType = 2,
         triggerEvents = {
@@ -39912,10 +39926,10 @@ return {
         name = "鞠亚-必杀-爆炸",
         volume = 95,
         resource = "sound/12401/skillC_3.mp3",
-        id = 2770,
+        id = 2771,
         musicType = 0,
     },
-    [2771] = {
+    [2772] = {
         action = "skillC",
         cartoonType = 1,
         triggerEvents = {
@@ -39926,10 +39940,10 @@ return {
         name = "鞠亚-必杀-语音",
         volume = 95,
         resource = "sound/12401/MARIA_092.mp3",
-        id = 2771,
+        id = 2772,
         musicType = 1,
     },
-    [2772] = {
+    [2773] = {
         action = "skillD_1",
         cartoonType = 1,
         triggerEvents = {
@@ -39940,10 +39954,10 @@ return {
         name = "鞠亚-觉醒-展示",
         volume = 85,
         resource = "sound/12401/skillD_1.mp3",
-        id = 2772,
+        id = 2773,
         musicType = 0,
     },
-    [2773] = {
+    [2774] = {
         action = "hit_up",
         cartoonType = 2,
         triggerEvents = {
@@ -39954,10 +39968,10 @@ return {
         name = "鞠亚-觉醒-激光",
         volume = 100,
         resource = "sound/12401/skillD_3.mp3",
-        id = 2773,
+        id = 2774,
         musicType = 0,
     },
-    [2774] = {
+    [2775] = {
         action = "skillD_1",
         cartoonType = 1,
         triggerEvents = {
@@ -39968,10 +39982,10 @@ return {
         name = "鞠亚-觉醒-语音",
         volume = 100,
         resource = "sound/12401/MARIA_091.mp3",
-        id = 2774,
+        id = 2775,
         musicType = 1,
     },
-    [2775] = {
+    [2776] = {
         action = "skillF",
         cartoonType = 1,
         triggerEvents = {
@@ -39982,10 +39996,10 @@ return {
         name = "鞠亚-出场",
         volume = 100,
         resource = "sound/12401/skillF.mp3",
-        id = 2775,
+        id = 2776,
         musicType = 0,
     },
-    [2776] = {
+    [2777] = {
         action = "skillG1",
         cartoonType = 1,
         triggerEvents = {
@@ -39996,234 +40010,10 @@ return {
         name = "鞠亚-出场",
         volume = 100,
         resource = "sound/12401/skillG_1.mp3",
-        id = 2776,
-        musicType = 0,
-    },
-    [2777] = {
-        action = "nengliangcang_chuxian",
-        cartoonType = 2,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "effects_31201_nengliangcang",
-        stopJudge = 0,
-        name = "12号boss能量舱落地",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_1.mp3",
         id = 2777,
         musicType = 0,
     },
     [2778] = {
-        action = "born",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_31201",
-        stopJudge = 0,
-        name = "12号boss召唤动作",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_2.mp3",
-        id = 2778,
-        musicType = 0,
-    },
-    [2779] = {
-        action = "skillA",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_31201",
-        stopJudge = 0,
-        name = "12号boss普攻",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_3.mp3",
-        id = 2779,
-        musicType = 0,
-    },
-    [2780] = {
-        action = "EskillA",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_31201",
-        stopJudge = 0,
-        name = "12号boss愤怒普攻",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_4.mp3",
-        id = 2780,
-        musicType = 0,
-    },
-    [2781] = {
-        action = "skillB",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_31201",
-        stopJudge = 0,
-        name = "12号boss跳劈",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_5.mp3",
-        id = 2781,
-        musicType = 0,
-    },
-    [2782] = {
-        action = "EskillB",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_31201",
-        stopJudge = 0,
-        name = "12号boss愤怒跳劈",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_6.mp3",
-        id = 2782,
-        musicType = 0,
-    },
-    [2783] = {
-        action = "skillC",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_31201",
-        stopJudge = 0,
-        name = "12号boss闪电",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_7.mp3",
-        id = 2783,
-        musicType = 0,
-    },
-    [2784] = {
-        action = "EskillC",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_31201",
-        stopJudge = 0,
-        name = "12号boss愤怒闪电",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_8.mp3",
-        id = 2784,
-        musicType = 0,
-    },
-    [2785] = {
-        action = "skillD",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_31201",
-        stopJudge = 0,
-        name = "12号boss能量吸收",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_9.mp3",
-        id = 2785,
-        musicType = 0,
-    },
-    [2786] = {
-        action = "EskillE",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_31201",
-        stopJudge = 0,
-        name = "12号boss锁定追击",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_10.mp3",
-        id = 2786,
-        musicType = 0,
-    },
-    [2787] = {
-        action = "EskillF",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_31201",
-        stopJudge = 0,
-        name = "12号boss血日",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_11.mp3",
-        id = 2787,
-        musicType = 0,
-    },
-    [2788] = {
-        action = "hurt",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_31201",
-        stopJudge = 0,
-        name = "12号boss受伤",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_12.mp3",
-        id = 2788,
-        musicType = 0,
-    },
-    [2789] = {
-        action = "Eweek",
-        cartoonType = 1,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "fight_31201",
-        stopJudge = 0,
-        name = "12号boss虚弱",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_13.mp3",
-        id = 2789,
-        musicType = 0,
-    },
-    [2790] = {
-        action = "hit",
-        cartoonType = 2,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "effects_31201_hit",
-        stopJudge = 0,
-        name = "12号boss爆点特效",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_14.mp3",
-        id = 2790,
-        musicType = 0,
-    },
-    [2791] = {
-        action = "nengliangcang_xiaoshi",
-        cartoonType = 2,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "effects_31201_nengliangcang",
-        stopJudge = 0,
-        name = "12号boss能量舱爆炸",
-        volume = 150,
-        resource = "sound/boss/boss_12hao_15.mp3",
-        id = 2791,
-        musicType = 0,
-    },
-    [2792] = {
-        action = "skillD_shandian",
-        cartoonType = 2,
-        triggerEvents = {
-            [1] = "music0",
-        },
-        cartoonResource = "effects_31201_skillD",
-        stopJudge = 1,
-        name = "12号boss闪电区域",
-        volume = 100,
-        resource = "sound/boss/boss_12hao_16.mp3",
-        id = 2792,
-        musicType = 0,
-    },
-    [2793] = {
         action = "born",
         cartoonType = 1,
         triggerEvents = {
@@ -40234,10 +40024,10 @@ return {
         name = "白王-出生",
         volume = 100,
         resource = "sound/12701/born.mp3",
-        id = 2793,
+        id = 2778,
         musicType = 0,
     },
-    [2794] = {
+    [2779] = {
         action = "quickmove",
         cartoonType = 1,
         triggerEvents = {
@@ -40248,10 +40038,10 @@ return {
         name = "白王-闪避",
         volume = 100,
         resource = "sound/12701/quickmove.mp3",
-        id = 2794,
+        id = 2779,
         musicType = 0,
     },
-    [2795] = {
+    [2780] = {
         action = "skillA1",
         cartoonType = 1,
         triggerEvents = {
@@ -40262,10 +40052,10 @@ return {
         name = "白王-普攻1",
         volume = 80,
         resource = "sound/12701/skillA.mp3",
-        id = 2795,
+        id = 2780,
         musicType = 0,
     },
-    [2796] = {
+    [2781] = {
         action = "skillA1A",
         cartoonType = 1,
         triggerEvents = {
@@ -40276,10 +40066,10 @@ return {
         name = "白王-普攻2",
         volume = 80,
         resource = "sound/12701/skillAA.mp3",
-        id = 2796,
+        id = 2781,
         musicType = 0,
     },
-    [2797] = {
+    [2782] = {
         action = "skillA1AA",
         cartoonType = 1,
         triggerEvents = {
@@ -40290,10 +40080,10 @@ return {
         name = "白王-普攻3",
         volume = 80,
         resource = "sound/12701/skillAAA.mp3",
-        id = 2797,
+        id = 2782,
         musicType = 0,
     },
-    [2798] = {
+    [2783] = {
         action = "skillA1AAA",
         cartoonType = 1,
         triggerEvents = {
@@ -40304,10 +40094,10 @@ return {
         name = "白王-普攻4",
         volume = 80,
         resource = "sound/12701/skillAAAA.mp3",
-        id = 2798,
+        id = 2783,
         musicType = 0,
     },
-    [2799] = {
+    [2784] = {
         action = "skillA1AAA2",
         cartoonType = 1,
         triggerEvents = {
@@ -40318,10 +40108,10 @@ return {
         name = "白王-普攻4-升级版",
         volume = 80,
         resource = "sound/12701/skillAAAA_2.mp3",
-        id = 2799,
+        id = 2784,
         musicType = 0,
     },
-    [2800] = {
+    [2785] = {
         action = "skillA1AAAA",
         cartoonType = 1,
         triggerEvents = {
@@ -40332,10 +40122,10 @@ return {
         name = "白王-普攻5",
         volume = 80,
         resource = "sound/12701/skillAAAAA.mp3",
-        id = 2800,
+        id = 2785,
         musicType = 0,
     },
-    [2801] = {
+    [2786] = {
         action = "skillA1AAAA",
         cartoonType = 1,
         triggerEvents = {
@@ -40346,10 +40136,10 @@ return {
         name = "白王-普攻5-升级版",
         volume = 100,
         resource = "sound/12701/skillAAAAA_2.mp3",
-        id = 2801,
+        id = 2786,
         musicType = 0,
     },
-    [2802] = {
+    [2787] = {
         action = "skillA1A",
         cartoonType = 1,
         triggerEvents = {
@@ -40360,10 +40150,10 @@ return {
         name = "白王-普攻-语音",
         volume = 100,
         resource = "sound/12701/ShiroQueen_048.mp3",
-        id = 2802,
+        id = 2787,
         musicType = 1,
     },
-    [2803] = {
+    [2788] = {
         action = "skillA1AAA",
         cartoonType = 1,
         triggerEvents = {
@@ -40374,10 +40164,24 @@ return {
         name = "白王-普攻-语音",
         volume = 100,
         resource = "sound/12701/ShiroQueen_052.mp3",
-        id = 2803,
+        id = 2788,
         musicType = 1,
     },
-    [2804] = {
+    [2789] = {
+        action = "skillA1AAA2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12701",
+        stopJudge = 0,
+        name = "白王-普攻-语音",
+        volume = 100,
+        resource = "sound/12701/ShiroQueen_052.mp3",
+        id = 2789,
+        musicType = 1,
+    },
+    [2790] = {
         action = "skillB_1",
         cartoonType = 1,
         triggerEvents = {
@@ -40388,10 +40192,10 @@ return {
         name = "白王-枪1",
         volume = 80,
         resource = "sound/12701/skillB.mp3",
-        id = 2804,
+        id = 2790,
         musicType = 0,
     },
-    [2805] = {
+    [2791] = {
         action = "skillB_2",
         cartoonType = 1,
         triggerEvents = {
@@ -40402,10 +40206,10 @@ return {
         name = "白王-枪2",
         volume = 80,
         resource = "sound/12701/skillBB.mp3",
-        id = 2805,
+        id = 2791,
         musicType = 0,
     },
-    [2806] = {
+    [2792] = {
         action = "skillB_3",
         cartoonType = 1,
         triggerEvents = {
@@ -40416,10 +40220,10 @@ return {
         name = "白王-枪3",
         volume = 80,
         resource = "sound/12701/skillBBB.mp3",
-        id = 2806,
+        id = 2792,
         musicType = 0,
     },
-    [2807] = {
+    [2793] = {
         action = "skillB_3+",
         cartoonType = 1,
         triggerEvents = {
@@ -40430,10 +40234,10 @@ return {
         name = "白王-枪3-升级版",
         volume = 80,
         resource = "sound/12701/skillBBB_2.mp3",
-        id = 2807,
+        id = 2793,
         musicType = 0,
     },
-    [2808] = {
+    [2794] = {
         action = "skillB_4",
         cartoonType = 1,
         triggerEvents = {
@@ -40444,10 +40248,10 @@ return {
         name = "白王-枪4",
         volume = 80,
         resource = "sound/12701/skillBBBB.mp3",
-        id = 2808,
+        id = 2794,
         musicType = 0,
     },
-    [2809] = {
+    [2795] = {
         action = "skillB_4_2",
         cartoonType = 1,
         triggerEvents = {
@@ -40458,10 +40262,10 @@ return {
         name = "白王-枪4-升级版",
         volume = 80,
         resource = "sound/12701/skillBBBB_2.mp3",
-        id = 2809,
+        id = 2795,
         musicType = 0,
     },
-    [2810] = {
+    [2796] = {
         action = "skillB_2",
         cartoonType = 1,
         triggerEvents = {
@@ -40472,10 +40276,24 @@ return {
         name = "白王-枪-语音",
         volume = 100,
         resource = "sound/12701/ShiroQueen_049.mp3",
-        id = 2810,
+        id = 2796,
         musicType = 1,
     },
-    [2811] = {
+    [2797] = {
+        action = "skillB_3+",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12701",
+        stopJudge = 0,
+        name = "白王-枪-语音",
+        volume = 100,
+        resource = "sound/12701/ShiroQueen_049.mp3",
+        id = 2797,
+        musicType = 1,
+    },
+    [2798] = {
         action = "skillB_3",
         cartoonType = 1,
         triggerEvents = {
@@ -40486,10 +40304,10 @@ return {
         name = "白王-枪-语音",
         volume = 100,
         resource = "sound/12701/ShiroQueen_051.mp3",
-        id = 2811,
+        id = 2798,
         musicType = 1,
     },
-    [2812] = {
+    [2799] = {
         action = "skillA2_2",
         cartoonType = 1,
         triggerEvents = {
@@ -40500,10 +40318,10 @@ return {
         name = "白王-A2",
         volume = 80,
         resource = "sound/12701/skillA2.mp3",
-        id = 2812,
+        id = 2799,
         musicType = 0,
     },
-    [2813] = {
+    [2800] = {
         action = "skillA2_2",
         cartoonType = 1,
         triggerEvents = {
@@ -40514,10 +40332,10 @@ return {
         name = "白王-A2-语音",
         volume = 100,
         resource = "sound/12701/ShiroQueen_050.mp3",
-        id = 2813,
+        id = 2800,
         musicType = 1,
     },
-    [2814] = {
+    [2801] = {
         action = "skillA2A",
         cartoonType = 1,
         triggerEvents = {
@@ -40528,10 +40346,10 @@ return {
         name = "白王-A2A",
         volume = 90,
         resource = "sound/12701/skillA2A.mp3",
-        id = 2814,
+        id = 2801,
         musicType = 0,
     },
-    [2815] = {
+    [2802] = {
         action = "skillA2A_2",
         cartoonType = 1,
         triggerEvents = {
@@ -40542,10 +40360,10 @@ return {
         name = "白王-A2A-升级版",
         volume = 90,
         resource = "sound/12701/skillA2A_2.mp3",
-        id = 2815,
+        id = 2802,
         musicType = 0,
     },
-    [2816] = {
+    [2803] = {
         action = "skillA2AA",
         cartoonType = 1,
         triggerEvents = {
@@ -40556,10 +40374,10 @@ return {
         name = "白王-A2AA",
         volume = 100,
         resource = "sound/12701/skillA2AA.mp3",
-        id = 2816,
+        id = 2803,
         musicType = 0,
     },
-    [2817] = {
+    [2804] = {
         action = "skillA2AA",
         cartoonType = 1,
         triggerEvents = {
@@ -40570,10 +40388,10 @@ return {
         name = "白王-A2AA",
         volume = 100,
         resource = "sound/12701/ShiroQueen_054.mp3",
-        id = 2817,
+        id = 2804,
         musicType = 1,
     },
-    [2818] = {
+    [2805] = {
         action = "skillA2AA",
         cartoonType = 1,
         triggerEvents = {
@@ -40584,10 +40402,10 @@ return {
         name = "白王-A2AA-升级版",
         volume = 90,
         resource = "sound/12701/skillA2AA.mp3",
-        id = 2818,
+        id = 2805,
         musicType = 0,
     },
-    [2819] = {
+    [2806] = {
         action = "skillA2AA_up",
         cartoonType = 2,
         triggerEvents = {
@@ -40598,10 +40416,10 @@ return {
         name = "白王-A2AA-爆炸",
         volume = 100,
         resource = "sound/12701/skillA2AA_2.mp3",
-        id = 2819,
+        id = 2806,
         musicType = 0,
     },
-    [2820] = {
+    [2807] = {
         action = "skillB_4_2",
         cartoonType = 1,
         triggerEvents = {
@@ -40612,10 +40430,10 @@ return {
         name = "白王-枪4-升级版",
         volume = 80,
         resource = "sound/12701/skillB_4_2.mp3",
-        id = 2820,
+        id = 2807,
         musicType = 0,
     },
-    [2821] = {
+    [2808] = {
         action = "skillA2+_2",
         cartoonType = 1,
         triggerEvents = {
@@ -40626,10 +40444,10 @@ return {
         name = "白王-A2+",
         volume = 80,
         resource = "sound/12701/skillA2+.mp3",
-        id = 2821,
+        id = 2808,
         musicType = 0,
     },
-    [2822] = {
+    [2809] = {
         action = "skillA2+A",
         cartoonType = 1,
         triggerEvents = {
@@ -40640,10 +40458,10 @@ return {
         name = "白王-A2+A",
         volume = 90,
         resource = "sound/12701/skillA2A_2.mp3",
-        id = 2822,
+        id = 2809,
         musicType = 0,
     },
-    [2823] = {
+    [2810] = {
         action = "skillA2+AA",
         cartoonType = 1,
         triggerEvents = {
@@ -40654,10 +40472,10 @@ return {
         name = "白王-A+2AA",
         volume = 90,
         resource = "sound/12701/skillA2AA_2.mp3",
-        id = 2823,
+        id = 2810,
         musicType = 0,
     },
-    [2824] = {
+    [2811] = {
         action = "skillA2+AA",
         cartoonType = 1,
         triggerEvents = {
@@ -40668,10 +40486,10 @@ return {
         name = "白王-A+2AA",
         volume = 100,
         resource = "sound/12701/ShiroQueen_055.mp3",
-        id = 2824,
+        id = 2811,
         musicType = 1,
     },
-    [2825] = {
+    [2812] = {
         action = "skillA2+AA",
         cartoonType = 1,
         triggerEvents = {
@@ -40682,10 +40500,10 @@ return {
         name = "白王-A+2AA",
         volume = 90,
         resource = "sound/12701/skillA2AA.mp3",
-        id = 2825,
+        id = 2812,
         musicType = 0,
     },
-    [2826] = {
+    [2813] = {
         action = "skillA2AA_up",
         cartoonType = 2,
         triggerEvents = {
@@ -40696,10 +40514,10 @@ return {
         name = "白王-A+2AA-爆炸",
         volume = 90,
         resource = "sound/12701/skillA2+AA_baozha.mp3",
-        id = 2826,
+        id = 2813,
         musicType = 0,
     },
-    [2827] = {
+    [2814] = {
         action = "skillA1AB",
         cartoonType = 1,
         triggerEvents = {
@@ -40710,10 +40528,10 @@ return {
         name = "白王-AAB",
         volume = 100,
         resource = "sound/12701/skillAAB.mp3",
-        id = 2827,
+        id = 2814,
         musicType = 0,
     },
-    [2828] = {
+    [2815] = {
         action = "skillA1ABB_chuxian",
         cartoonType = 2,
         triggerEvents = {
@@ -40724,10 +40542,10 @@ return {
         name = "白王-AABB-旋涡",
         volume = 80,
         resource = "sound/12701/skillAABB_xuanwo.mp3",
-        id = 2828,
+        id = 2815,
         musicType = 0,
     },
-    [2829] = {
+    [2816] = {
         action = "skillA1AB",
         cartoonType = 1,
         triggerEvents = {
@@ -40738,10 +40556,10 @@ return {
         name = "白王-AAB",
         volume = 100,
         resource = "sound/12701/ShiroQueen_050.mp3",
-        id = 2829,
+        id = 2816,
         musicType = 1,
     },
-    [2830] = {
+    [2817] = {
         action = "skillA1ABBB",
         cartoonType = 1,
         triggerEvents = {
@@ -40752,10 +40570,10 @@ return {
         name = "白王-AABBB",
         volume = 80,
         resource = "sound/12701/skillAABBB_2.mp3",
-        id = 2830,
+        id = 2817,
         musicType = 0,
     },
-    [2831] = {
+    [2818] = {
         action = "skillA1ABBB_1",
         cartoonType = 2,
         triggerEvents = {
@@ -40766,10 +40584,10 @@ return {
         name = "白王-AABBB_光点",
         volume = 90,
         resource = "sound/12701/skillAABBB_guangdian.mp3",
-        id = 2831,
+        id = 2818,
         musicType = 0,
     },
-    [2832] = {
+    [2819] = {
         action = "skillA1ABBB_3",
         cartoonType = 2,
         triggerEvents = {
@@ -40780,10 +40598,10 @@ return {
         name = "白王-AABBB_光点",
         volume = 90,
         resource = "sound/12701/skillAABBB_guangdian.mp3",
-        id = 2832,
+        id = 2819,
         musicType = 0,
     },
-    [2833] = {
+    [2820] = {
         action = "skillB2_1",
         cartoonType = 1,
         triggerEvents = {
@@ -40794,10 +40612,10 @@ return {
         name = "白王-B2",
         volume = 80,
         resource = "sound/12701/skillB2_1.mp3",
-        id = 2833,
+        id = 2820,
         musicType = 0,
     },
-    [2834] = {
+    [2821] = {
         action = "skillB2_1",
         cartoonType = 1,
         triggerEvents = {
@@ -40808,10 +40626,10 @@ return {
         name = "白王-B2",
         volume = 100,
         resource = "sound/12701/ShiroQueen_055.mp3",
-        id = 2834,
+        id = 2821,
         musicType = 1,
     },
-    [2835] = {
+    [2822] = {
         action = "skillB2_2",
         cartoonType = 1,
         triggerEvents = {
@@ -40822,10 +40640,10 @@ return {
         name = "白王-B2",
         volume = 80,
         resource = "sound/12701/skillB2_2.mp3",
-        id = 2835,
+        id = 2822,
         musicType = 0,
     },
-    [2836] = {
+    [2823] = {
         action = "skillB2+_1",
         cartoonType = 1,
         triggerEvents = {
@@ -40836,10 +40654,10 @@ return {
         name = "白王-B2+",
         volume = 90,
         resource = "sound/12701/skillB2+_1.mp3",
-        id = 2836,
+        id = 2823,
         musicType = 0,
     },
-    [2837] = {
+    [2824] = {
         action = "skillB2+_2",
         cartoonType = 1,
         triggerEvents = {
@@ -40850,10 +40668,10 @@ return {
         name = "白王-B2+",
         volume = 90,
         resource = "sound/12701/skillB2+_3.mp3",
-        id = 2837,
+        id = 2824,
         musicType = 0,
     },
-    [2838] = {
+    [2825] = {
         action = "skillB1BA2",
         cartoonType = 1,
         triggerEvents = {
@@ -40864,10 +40682,10 @@ return {
         name = "白王-BBA",
         volume = 80,
         resource = "sound/12701/skillBBA.mp3",
-        id = 2838,
+        id = 2825,
         musicType = 0,
     },
-    [2839] = {
+    [2826] = {
         action = "skillB1BA3",
         cartoonType = 1,
         triggerEvents = {
@@ -40878,10 +40696,10 @@ return {
         name = "白王-BBA_2",
         volume = 80,
         resource = "sound/12701/skillBBA_2.mp3",
-        id = 2839,
+        id = 2826,
         musicType = 0,
     },
-    [2840] = {
+    [2827] = {
         action = "skillB1BAA2",
         cartoonType = 1,
         triggerEvents = {
@@ -40892,10 +40710,10 @@ return {
         name = "白王-BBAA",
         volume = 90,
         resource = "sound/12701/skillBBAA.mp3",
-        id = 2840,
+        id = 2827,
         musicType = 0,
     },
-    [2841] = {
+    [2828] = {
         action = "skillB1BAA2",
         cartoonType = 1,
         triggerEvents = {
@@ -40906,10 +40724,10 @@ return {
         name = "白王-BBAA",
         volume = 100,
         resource = "sound/12701/ShiroQueen_062.mp3",
-        id = 2841,
+        id = 2828,
         musicType = 1,
     },
-    [2842] = {
+    [2829] = {
         action = "skillB1BAA3",
         cartoonType = 1,
         triggerEvents = {
@@ -40920,10 +40738,10 @@ return {
         name = "白王-BBAA_2",
         volume = 90,
         resource = "sound/12701/skillBBAA_2.mp3",
-        id = 2842,
+        id = 2829,
         musicType = 0,
     },
-    [2843] = {
+    [2830] = {
         action = "skillB1BAA3",
         cartoonType = 1,
         triggerEvents = {
@@ -40934,10 +40752,10 @@ return {
         name = "白王-BBAA_2",
         volume = 100,
         resource = "sound/12701/ShiroQueen_053.mp3",
-        id = 2843,
+        id = 2830,
         musicType = 1,
     },
-    [2844] = {
+    [2831] = {
         action = "skillB1BAA_4",
         cartoonType = 2,
         triggerEvents = {
@@ -40948,10 +40766,10 @@ return {
         name = "白王-BBAA_轰击",
         volume = 100,
         resource = "sound/12701/skillBBAA_hongji.mp3",
-        id = 2844,
+        id = 2831,
         musicType = 0,
     },
-    [2845] = {
+    [2832] = {
         action = "skillC1_1",
         cartoonType = 1,
         triggerEvents = {
@@ -40962,10 +40780,10 @@ return {
         name = "白王-C1",
         volume = 80,
         resource = "sound/12701/skillC1.mp3",
-        id = 2845,
+        id = 2832,
         musicType = 0,
     },
-    [2846] = {
+    [2833] = {
         action = "skillC1_1",
         cartoonType = 1,
         triggerEvents = {
@@ -40976,10 +40794,10 @@ return {
         name = "白王-C1",
         volume = 100,
         resource = "sound/12701/ShiroQueen_056.mp3",
-        id = 2846,
+        id = 2833,
         musicType = 1,
     },
-    [2847] = {
+    [2834] = {
         action = "skillC2_2",
         cartoonType = 1,
         triggerEvents = {
@@ -40990,10 +40808,10 @@ return {
         name = "白王-C2",
         volume = 100,
         resource = "sound/12701/skillC2.mp3",
-        id = 2847,
+        id = 2834,
         musicType = 0,
     },
-    [2848] = {
+    [2835] = {
         action = "skillD_1",
         cartoonType = 1,
         triggerEvents = {
@@ -41004,10 +40822,10 @@ return {
         name = "白王-觉醒",
         volume = 85,
         resource = "sound/12701/skillD_1.mp3",
-        id = 2848,
+        id = 2835,
         musicType = 0,
     },
-    [2849] = {
+    [2836] = {
         action = "skillD_1",
         cartoonType = 1,
         triggerEvents = {
@@ -41018,10 +40836,10 @@ return {
         name = "白王-觉醒-语音",
         volume = 100,
         resource = "sound/12701/ShiroQueen_046.mp3",
-        id = 2849,
+        id = 2836,
         musicType = 1,
     },
-    [2850] = {
+    [2837] = {
         action = "skillD_3",
         cartoonType = 1,
         triggerEvents = {
@@ -41032,11 +40850,11 @@ return {
         name = "白王-觉醒",
         volume = 90,
         resource = "sound/12701/skillD_3.mp3",
-        id = 2850,
+        id = 2837,
         musicType = 0,
     },
-    [2851] = {
-        action = "SkillD_3",
+    [2838] = {
+        action = "skillD_3",
         cartoonType = 1,
         triggerEvents = {
             [1] = "music0",
@@ -41046,10 +40864,10 @@ return {
         name = "白王-觉醒-语音",
         volume = 100,
         resource = "sound/12701/ShiroQueen_047.mp3",
-        id = 2851,
+        id = 2838,
         musicType = 1,
     },
-    [2852] = {
+    [2839] = {
         action = "skillF",
         cartoonType = 1,
         triggerEvents = {
@@ -41060,10 +40878,234 @@ return {
         name = "白王-出场",
         volume = 100,
         resource = "sound/12701/skillF.mp3",
+        id = 2839,
+        musicType = 0,
+    },
+    [2840] = {
+        action = "nengliangcang_chuxian",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_31201_nengliangcang",
+        stopJudge = 0,
+        name = "12号boss能量舱落地",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_1.mp3",
+        id = 2840,
+        musicType = 0,
+    },
+    [2841] = {
+        action = "born",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_31201",
+        stopJudge = 0,
+        name = "12号boss召唤动作",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_2.mp3",
+        id = 2841,
+        musicType = 0,
+    },
+    [2842] = {
+        action = "skillA",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_31201",
+        stopJudge = 0,
+        name = "12号boss普攻",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_3.mp3",
+        id = 2842,
+        musicType = 0,
+    },
+    [2843] = {
+        action = "EskillA",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_31201",
+        stopJudge = 0,
+        name = "12号boss愤怒普攻",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_4.mp3",
+        id = 2843,
+        musicType = 0,
+    },
+    [2844] = {
+        action = "skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_31201",
+        stopJudge = 0,
+        name = "12号boss跳劈",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_5.mp3",
+        id = 2844,
+        musicType = 0,
+    },
+    [2845] = {
+        action = "EskillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_31201",
+        stopJudge = 0,
+        name = "12号boss愤怒跳劈",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_6.mp3",
+        id = 2845,
+        musicType = 0,
+    },
+    [2846] = {
+        action = "skillC",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_31201",
+        stopJudge = 0,
+        name = "12号boss闪电",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_7.mp3",
+        id = 2846,
+        musicType = 0,
+    },
+    [2847] = {
+        action = "EskillC",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_31201",
+        stopJudge = 0,
+        name = "12号boss愤怒闪电",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_8.mp3",
+        id = 2847,
+        musicType = 0,
+    },
+    [2848] = {
+        action = "skillD",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_31201",
+        stopJudge = 0,
+        name = "12号boss能量吸收",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_9.mp3",
+        id = 2848,
+        musicType = 0,
+    },
+    [2849] = {
+        action = "EskillE",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_31201",
+        stopJudge = 0,
+        name = "12号boss锁定追击",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_10.mp3",
+        id = 2849,
+        musicType = 0,
+    },
+    [2850] = {
+        action = "EskillF",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_31201",
+        stopJudge = 0,
+        name = "12号boss血日",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_11.mp3",
+        id = 2850,
+        musicType = 0,
+    },
+    [2851] = {
+        action = "hurt",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_31201",
+        stopJudge = 0,
+        name = "12号boss受伤",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_12.mp3",
+        id = 2851,
+        musicType = 0,
+    },
+    [2852] = {
+        action = "Eweek",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_31201",
+        stopJudge = 0,
+        name = "12号boss虚弱",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_13.mp3",
         id = 2852,
         musicType = 0,
     },
     [2853] = {
+        action = "hit",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_31201_hit",
+        stopJudge = 0,
+        name = "12号boss爆点特效",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_14.mp3",
+        id = 2853,
+        musicType = 0,
+    },
+    [2854] = {
+        action = "nengliangcang_xiaoshi",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_31201_nengliangcang",
+        stopJudge = 0,
+        name = "12号boss能量舱爆炸",
+        volume = 150,
+        resource = "sound/boss/boss_12hao_15.mp3",
+        id = 2854,
+        musicType = 0,
+    },
+    [2855] = {
+        action = "skillD_shandian",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_31201_skillD",
+        stopJudge = 1,
+        name = "12号boss闪电区域",
+        volume = 100,
+        resource = "sound/boss/boss_12hao_16.mp3",
+        id = 2855,
+        musicType = 0,
+    },
+    [2856] = {
         action = "skillA1",
         cartoonType = 1,
         triggerEvents = {
@@ -41074,10 +41116,10 @@ return {
         name = "土方普攻",
         volume = 100,
         resource = "sound/10101/10101_skillA_2.mp3",
-        id = 2853,
+        id = 2856,
         musicType = 0,
     },
-    [2854] = {
+    [2857] = {
         action = "skillA2",
         cartoonType = 1,
         triggerEvents = {
@@ -41088,10 +41130,10 @@ return {
         name = "土方普攻",
         volume = 100,
         resource = "sound/10101/10101_skillA_1.mp3",
-        id = 2854,
+        id = 2857,
         musicType = 0,
     },
-    [2855] = {
+    [2858] = {
         action = "skillA3",
         cartoonType = 1,
         triggerEvents = {
@@ -41102,10 +41144,10 @@ return {
         name = "土方普攻",
         volume = 100,
         resource = "sound/10101/10101_skillA_3.mp3",
-        id = 2855,
+        id = 2858,
         musicType = 0,
     },
-    [2856] = {
+    [2859] = {
         action = "skillA4",
         cartoonType = 1,
         triggerEvents = {
@@ -41116,10 +41158,10 @@ return {
         name = "土方普攻",
         volume = 100,
         resource = "sound/10101/10101_skillA_5.mp3",
-        id = 2856,
+        id = 2859,
         musicType = 0,
     },
-    [2857] = {
+    [2860] = {
         action = "skillG1",
         cartoonType = 1,
         triggerEvents = {
@@ -41130,10 +41172,10 @@ return {
         name = "土方2普攻",
         volume = 100,
         resource = "sound/10101/10101_skillA_2.mp3",
-        id = 2857,
+        id = 2860,
         musicType = 0,
     },
-    [2858] = {
+    [2861] = {
         action = "skillG2",
         cartoonType = 1,
         triggerEvents = {
@@ -41144,10 +41186,10 @@ return {
         name = "土方2普攻",
         volume = 100,
         resource = "sound/10101/10101_skillA_1.mp3",
-        id = 2858,
+        id = 2861,
         musicType = 0,
     },
-    [2859] = {
+    [2862] = {
         action = "skillG3",
         cartoonType = 1,
         triggerEvents = {
@@ -41158,10 +41200,10 @@ return {
         name = "土方2普攻",
         volume = 100,
         resource = "sound/10101/10101_skillA_3.mp3",
-        id = 2859,
+        id = 2862,
         musicType = 0,
     },
-    [2860] = {
+    [2863] = {
         action = "skillG4",
         cartoonType = 1,
         triggerEvents = {
@@ -41172,10 +41214,10 @@ return {
         name = "土方2普攻",
         volume = 100,
         resource = "sound/10101/10101_skillA_5.mp3",
-        id = 2860,
+        id = 2863,
         musicType = 0,
     },
-    [2861] = {
+    [2864] = {
         action = "skillB3",
         cartoonType = 1,
         triggerEvents = {
@@ -41186,10 +41228,10 @@ return {
         name = "土方蓄力攻击",
         volume = 100,
         resource = "sound/10101/10101_skillB_1.mp3",
-        id = 2861,
+        id = 2864,
         musicType = 0,
     },
-    [2862] = {
+    [2865] = {
         action = "skillD3",
         cartoonType = 1,
         triggerEvents = {
@@ -41200,10 +41242,10 @@ return {
         name = "土方蓄力攻击",
         volume = 100,
         resource = "sound/10101/10101_skillB_1.mp3",
-        id = 2862,
+        id = 2865,
         musicType = 0,
     },
-    [2863] = {
+    [2866] = {
         action = "skillA1",
         cartoonType = 1,
         triggerEvents = {
@@ -41214,10 +41256,10 @@ return {
         name = "佐贺普攻",
         volume = 100,
         resource = "sound/10102/roleMusic_10102_002.mp3",
-        id = 2863,
+        id = 2866,
         musicType = 0,
     },
-    [2864] = {
+    [2867] = {
         action = "skillA2",
         cartoonType = 1,
         triggerEvents = {
@@ -41228,10 +41270,10 @@ return {
         name = "佐贺普攻",
         volume = 100,
         resource = "sound/10102/roleMusic_10102_003.mp3",
-        id = 2864,
+        id = 2867,
         musicType = 0,
     },
-    [2865] = {
+    [2868] = {
         action = "skillA3",
         cartoonType = 1,
         triggerEvents = {
@@ -41242,10 +41284,10 @@ return {
         name = "佐贺普攻",
         volume = 100,
         resource = "sound/10103/roleMusic_10103_001.mp3",
-        id = 2865,
+        id = 2868,
         musicType = 0,
     },
-    [2866] = {
+    [2869] = {
         action = "skillB",
         cartoonType = 1,
         triggerEvents = {
@@ -41256,10 +41298,10 @@ return {
         name = "佐贺飞镖",
         volume = 100,
         resource = "sound/10301/10301_skillA_1.mp3",
-        id = 2866,
+        id = 2869,
         musicType = 0,
     },
-    [2867] = {
+    [2870] = {
         action = "skillC",
         cartoonType = 1,
         triggerEvents = {
@@ -41270,10 +41312,10 @@ return {
         name = "烟雾弹",
         volume = 100,
         resource = "sound/11701/skillA_2.mp3",
-        id = 2867,
+        id = 2870,
         musicType = 0,
     },
-    [2868] = {
+    [2871] = {
         action = "skillD1",
         cartoonType = 1,
         triggerEvents = {
@@ -41284,10 +41326,10 @@ return {
         name = "法阵",
         volume = 100,
         resource = "sound/12201/skillA_3.mp3",
-        id = 2868,
+        id = 2871,
         musicType = 0,
     },
-    [2869] = {
+    [2872] = {
         action = "skillG3",
         cartoonType = 1,
         triggerEvents = {
@@ -41298,10 +41340,10 @@ return {
         name = "手里剑",
         volume = 100,
         resource = "sound/10209/skillA1.mp3",
-        id = 2869,
+        id = 2872,
         musicType = 0,
     },
-    [2870] = {
+    [2873] = {
         action = "skillA",
         cartoonType = 1,
         triggerEvents = {
@@ -41312,10 +41354,10 @@ return {
         name = "人偶普攻",
         volume = 100,
         resource = "sound/10501/10501_skillA_2.mp3",
-        id = 2870,
+        id = 2873,
         musicType = 0,
     },
-    [2871] = {
+    [2874] = {
         action = "skillA",
         cartoonType = 1,
         triggerEvents = {
@@ -41326,10 +41368,10 @@ return {
         name = "人偶普攻",
         volume = 100,
         resource = "sound/10501/10501_skillA_1.mp3",
-        id = 2871,
+        id = 2874,
         musicType = 0,
     },
-    [2872] = {
+    [2875] = {
         action = "skillC",
         cartoonType = 1,
         triggerEvents = {
@@ -41340,10 +41382,10 @@ return {
         name = "人偶飞刀",
         volume = 100,
         resource = "sound/10501/10501_skillA_4.mp3",
-        id = 2872,
+        id = 2875,
         musicType = 0,
     },
-    [2873] = {
+    [2876] = {
         action = "EskillA",
         cartoonType = 1,
         triggerEvents = {
@@ -41354,10 +41396,10 @@ return {
         name = "人偶2普攻",
         volume = 100,
         resource = "sound/10501/10501_skillA_2.mp3",
-        id = 2873,
+        id = 2876,
         musicType = 0,
     },
-    [2874] = {
+    [2877] = {
         action = "EskillA",
         cartoonType = 1,
         triggerEvents = {
@@ -41368,10 +41410,10 @@ return {
         name = "人偶2普攻",
         volume = 100,
         resource = "sound/10501/10501_skillA_1.mp3",
-        id = 2874,
+        id = 2877,
         musicType = 0,
     },
-    [2875] = {
+    [2878] = {
         action = "EskillA",
         cartoonType = 1,
         triggerEvents = {
@@ -41382,10 +41424,10 @@ return {
         name = "人偶2普攻",
         volume = 100,
         resource = "sound/10501/10501_skillA_2.mp3",
-        id = 2875,
+        id = 2878,
         musicType = 0,
     },
-    [2876] = {
+    [2879] = {
         action = "EskillA",
         cartoonType = 1,
         triggerEvents = {
@@ -41396,10 +41438,10 @@ return {
         name = "人偶2普攻",
         volume = 100,
         resource = "sound/10501/10501_skillA_4.mp3",
-        id = 2876,
+        id = 2879,
         musicType = 0,
     },
-    [2877] = {
+    [2880] = {
         action = "EskillC",
         cartoonType = 1,
         triggerEvents = {
@@ -41410,10 +41452,10 @@ return {
         name = "人偶飞刀",
         volume = 100,
         resource = "sound/10501/10501_skillA_4.mp3",
-        id = 2877,
+        id = 2880,
         musicType = 0,
     },
-    [2878] = {
+    [2881] = {
         action = "EskillD2",
         cartoonType = 1,
         triggerEvents = {
@@ -41424,7 +41466,2531 @@ return {
         name = "人偶背击",
         volume = 100,
         resource = "sound/10501/10501_skillA_4.mp3",
-        id = 2878,
+        id = 2881,
+        musicType = 0,
+    },
+    [2882] = {
+        action = "born",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-出生",
+        volume = 100,
+        resource = "sound/13101/born-2.mp3",
+        id = 2882,
+        musicType = 0,
+    },
+    [2883] = {
+        action = "quickmove",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-闪避",
+        volume = 80,
+        resource = "sound/13101/quickmove-1.mp3",
+        id = 2883,
+        musicType = 0,
+    },
+    [2884] = {
+        action = "skillA_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-普攻1",
+        volume = 100,
+        resource = "sound/13101/skillA-1.mp3",
+        id = 2884,
+        musicType = 0,
+    },
+    [2885] = {
+        action = "skillA_2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-普攻2",
+        volume = 80,
+        resource = "sound/13101/skillAA-1.mp3",
+        id = 2885,
+        musicType = 0,
+    },
+    [2886] = {
+        action = "skillA_3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-普攻3",
+        volume = 100,
+        resource = "sound/13101/skillAAA-1.mp3",
+        id = 2886,
+        musicType = 0,
+    },
+    [2887] = {
+        action = "skillA_4",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-普攻4",
+        volume = 100,
+        resource = "sound/13101/skillAAAA-1.mp3",
+        id = 2887,
+        musicType = 0,
+    },
+    [2888] = {
+        action = "skillA_5",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-普攻5",
+        volume = 100,
+        resource = "sound/13101/skillAAAAA-1.mp3",
+        id = 2888,
+        musicType = 0,
+    },
+    [2889] = {
+        action = "skillA_2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-普攻语音",
+        volume = 100,
+        resource = "sound/13101/AIS_64.mp3",
+        id = 2889,
+        musicType = 0,
+    },
+    [2890] = {
+        action = "skillA_5",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-普攻语音",
+        volume = 100,
+        resource = "sound/13101/AIS_65.mp3",
+        id = 2890,
+        musicType = 0,
+    },
+    [2891] = {
+        action = "skillB_2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-B1",
+        volume = 100,
+        resource = "sound/13101/skillB-1.mp3",
+        id = 2891,
+        musicType = 0,
+    },
+    [2892] = {
+        action = "zhanji2",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13101_skillC",
+        stopJudge = 0,
+        name = "华伦-B3",
+        volume = 100,
+        resource = "sound/13101/skillB-3.mp3",
+        id = 2892,
+        musicType = 0,
+    },
+    [2893] = {
+        action = "skillB_2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-B1-语音",
+        volume = 100,
+        resource = "sound/13101/AIS_62.mp3",
+        id = 2893,
+        musicType = 0,
+    },
+    [2894] = {
+        action = "skillB_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-AAB疾走",
+        volume = 100,
+        resource = "sound/13101/skillAAB_1.mp3",
+        id = 2894,
+        musicType = 0,
+    },
+    [2895] = {
+        action = "skillB_7",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-AAB疾走-天使树升级",
+        volume = 100,
+        resource = "sound/13101/skillAAB_2.mp3",
+        id = 2895,
+        musicType = 0,
+    },
+    [2896] = {
+        action = "skillB_8",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-AAB疾走-语音",
+        volume = 100,
+        resource = "sound/13101/AIS_67.mp3",
+        id = 2896,
+        musicType = 0,
+    },
+    [2897] = {
+        action = "skillB_3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-AAAB疾走",
+        volume = 80,
+        resource = "sound/13101/skillAAAB-1.mp3",
+        id = 2897,
+        musicType = 0,
+    },
+    [2898] = {
+        action = "hit1",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13101_fengqiu",
+        stopJudge = 0,
+        name = "华伦-AAAB疾走-爆炸",
+        volume = 100,
+        resource = "sound/13101/skill_extra1-2.mp3",
+        id = 2898,
+        musicType = 0,
+    },
+    [2899] = {
+        action = "extra_skillB1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-AAB进攻",
+        volume = 100,
+        resource = "sound/13101/skillAAB2-2.mp3",
+        id = 2899,
+        musicType = 0,
+    },
+    [2900] = {
+        action = "extra_skillB5",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-AAB进攻-天使升级",
+        volume = 100,
+        resource = "sound/13101/skillAAB_extra5.mp3",
+        id = 2900,
+        musicType = 0,
+    },
+    [2901] = {
+        action = "skillB_4",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-AAAB进攻",
+        volume = 80,
+        resource = "sound/13101/skillAAAB_plus1.mp3",
+        id = 2901,
+        musicType = 0,
+    },
+    [2902] = {
+        action = "skillB_5",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-AAAB进攻循环",
+        volume = 80,
+        resource = "sound/13101/skillAAAB_plus2.mp3",
+        id = 2902,
+        musicType = 0,
+    },
+    [2903] = {
+        action = "skillE",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-额外技能1",
+        volume = 80,
+        resource = "sound/13101/skillC1.mp3",
+        id = 2903,
+        musicType = 0,
+    },
+    [2904] = {
+        action = "skillE",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-额外技能语音",
+        volume = 100,
+        resource = "sound/13101/AIS_63.mp3",
+        id = 2904,
+        musicType = 0,
+    },
+    [2905] = {
+        action = "skillC_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-额外技能2",
+        volume = 80,
+        resource = "sound/13101/skillC_plus1.mp3",
+        id = 2905,
+        musicType = 0,
+    },
+    [2906] = {
+        action = "skillC_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-额外技能2语音",
+        volume = 100,
+        resource = "sound/13101/AIS_57.mp3",
+        id = 2906,
+        musicType = 0,
+    },
+    [2907] = {
+        action = "fengqiu_chuxian",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13101_fengqiu",
+        stopJudge = 0,
+        name = "华伦-额外技能2-2段",
+        volume = 80,
+        resource = "sound/13101/skillC_plus2.mp3",
+        id = 2907,
+        musicType = 0,
+    },
+    [2908] = {
+        action = "skillD_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-觉醒1",
+        volume = 100,
+        resource = "sound/13101/skillD_1-2.mp3",
+        id = 2908,
+        musicType = 0,
+    },
+    [2909] = {
+        action = "skillD_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-觉醒1语音",
+        volume = 100,
+        resource = "sound/13101/AIS_58.mp3",
+        id = 2909,
+        musicType = 0,
+    },
+    [2910] = {
+        action = "skillD_3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-觉醒3",
+        volume = 80,
+        resource = "sound/13101/skillD_3-2.mp3",
+        id = 2910,
+        musicType = 0,
+    },
+    [2911] = {
+        action = "skillD_3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-觉醒3语音",
+        volume = 100,
+        resource = "sound/13101/AIS_59.mp3",
+        id = 2911,
+        musicType = 0,
+    },
+    [2912] = {
+        action = "xuanfeng-chuxian",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13101_skillC",
+        stopJudge = 0,
+        name = "飓风爆发",
+        volume = 80,
+        resource = "sound/13101/skill_extra2-3.mp3",
+        id = 2912,
+        musicType = 0,
+    },
+    [2913] = {
+        action = "win",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-胜利",
+        volume = 100,
+        resource = "sound/13101/win-1.mp3",
+        id = 2913,
+        musicType = 0,
+    },
+    [2914] = {
+        action = "skillF",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13101",
+        stopJudge = 0,
+        name = "华伦-出场",
+        volume = 80,
+        resource = "sound/13101/skillF-1.mp3",
+        id = 2914,
+        musicType = 0,
+    },
+    [2915] = {
+        action = "born",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-出生",
+        volume = 100,
+        resource = "sound/12801/born.mp3",
+        id = 2915,
+        musicType = 0,
+    },
+    [2916] = {
+        action = "quickmove",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-闪避",
+        volume = 100,
+        resource = "sound/12801/quickmove.mp3",
+        id = 2916,
+        musicType = 0,
+    },
+    [2917] = {
+        action = "skillA1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-普攻1",
+        volume = 100,
+        resource = "sound/12801/skillA.mp3",
+        id = 2917,
+        musicType = 0,
+    },
+    [2918] = {
+        action = "skillA1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-普攻1语音",
+        volume = 100,
+        resource = "sound/12801/Cang_049.mp3",
+        id = 2918,
+        musicType = 1,
+    },
+    [2919] = {
+        action = "skillA2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-普攻2",
+        volume = 100,
+        resource = "sound/12801/skillA2.mp3",
+        id = 2919,
+        musicType = 0,
+    },
+    [2920] = {
+        action = "skillA3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-普攻3",
+        volume = 100,
+        resource = "sound/12801/skillA3.mp3",
+        id = 2920,
+        musicType = 0,
+    },
+    [2921] = {
+        action = "skillA3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-普攻3语音",
+        volume = 100,
+        resource = "sound/12801/Cang_050.mp3",
+        id = 2921,
+        musicType = 1,
+    },
+    [2922] = {
+        action = "skillA4",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-普攻4",
+        volume = 100,
+        resource = "sound/12801/skillA4.mp3",
+        id = 2922,
+        musicType = 0,
+    },
+    [2923] = {
+        action = "skillA5",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-普攻5",
+        volume = 100,
+        resource = "sound/12801/skillA5.mp3",
+        id = 2923,
+        musicType = 0,
+    },
+    [2924] = {
+        action = "skillA5",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-普攻5语音",
+        volume = 100,
+        resource = "sound/12801/Cang_053.mp3",
+        id = 2924,
+        musicType = 1,
+    },
+    [2925] = {
+        action = "skillA21",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-普攻长按",
+        volume = 100,
+        resource = "sound/12801/skillA-1.mp3",
+        id = 2925,
+        musicType = 0,
+    },
+    [2926] = {
+        action = "skillB1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-重击1",
+        volume = 100,
+        resource = "sound/12801/skillB.mp3",
+        id = 2926,
+        musicType = 0,
+    },
+    [2927] = {
+        action = "skillB2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 1,
+        name = "苍-重击2",
+        volume = 100,
+        resource = "sound/12801/skillBB.mp3",
+        id = 2927,
+        musicType = 0,
+    },
+    [2928] = {
+        action = "skillB2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-重击2语音",
+        volume = 100,
+        resource = "sound/12801/Cang_051.mp3",
+        id = 2928,
+        musicType = 1,
+    },
+    [2929] = {
+        action = "skillB3_up",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_12801_skillB",
+        stopJudge = 1,
+        name = "苍-重击3",
+        volume = 100,
+        resource = "sound/12801/skillBBB.mp3",
+        id = 2929,
+        musicType = 0,
+    },
+    [2930] = {
+        action = "skillB3_1_up",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_12801_skillB",
+        stopJudge = 1,
+        name = "苍-重击3升级",
+        volume = 100,
+        resource = "sound/12801/skillBBB+.mp3",
+        id = 2930,
+        musicType = 0,
+    },
+    [2931] = {
+        action = "skillB3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-重击3语音",
+        volume = 100,
+        resource = "sound/12801/Cang_058.mp3",
+        id = 2931,
+        musicType = 1,
+    },
+    [2932] = {
+        action = "skillAB1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 1,
+        name = "苍-AAB",
+        volume = 100,
+        resource = "sound/12801/skillAAB.mp3",
+        id = 2932,
+        musicType = 0,
+    },
+    [2933] = {
+        action = "skillAB2_1_up",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_12801_skillAB",
+        stopJudge = 0,
+        name = "苍-AABB",
+        volume = 80,
+        resource = "sound/12801/skillAABB.mp3",
+        id = 2933,
+        musicType = 0,
+    },
+    [2934] = {
+        action = "skillAB3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 1,
+        name = "苍-AABBB",
+        volume = 100,
+        resource = "sound/12801/skillAABBB.mp3",
+        id = 2934,
+        musicType = 0,
+    },
+    [2935] = {
+        action = "skillAB2_2_up",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_12801_skillAB",
+        stopJudge = 0,
+        name = "苍-AABB+",
+        volume = 80,
+        resource = "sound/12801/skillAABB+.mp3",
+        id = 2935,
+        musicType = 0,
+    },
+    [2936] = {
+        action = "skillAB2_3_up",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_12801_skillAB",
+        stopJudge = 0,
+        name = "苍-AABB++",
+        volume = 80,
+        resource = "sound/12801/skillAABB++.mp3",
+        id = 2936,
+        musicType = 0,
+    },
+    [2937] = {
+        action = "skillAB2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-AABB语音",
+        volume = 100,
+        resource = "sound/12801/Cang_055_A.mp3",
+        id = 2937,
+        musicType = 1,
+    },
+    [2938] = {
+        action = "skillB22",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-必杀1",
+        volume = 100,
+        resource = "sound/12801/skillB-1.mp3",
+        id = 2938,
+        musicType = 0,
+    },
+    [2939] = {
+        action = "skillB22",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-必杀1语音",
+        volume = 100,
+        resource = "sound/12801/Cang_050.mp3",
+        id = 2939,
+        musicType = 1,
+    },
+    [2940] = {
+        action = "skillB23",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 1,
+        name = "苍-必杀2",
+        volume = 100,
+        resource = "sound/12801/skillB-2.mp3",
+        id = 2940,
+        musicType = 0,
+    },
+    [2941] = {
+        action = "skillB24",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_12801_skillB",
+        stopJudge = 1,
+        name = "苍-必杀3",
+        volume = 80,
+        resource = "sound/12801/skillB-3.mp3",
+        id = 2941,
+        musicType = 0,
+    },
+    [2942] = {
+        action = "skillB24",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-必杀3语音",
+        volume = 100,
+        resource = "sound/12801/Cang_051.mp3",
+        id = 2942,
+        musicType = 1,
+    },
+    [2943] = {
+        action = "skillB25",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 1,
+        name = "苍-必杀4",
+        volume = 100,
+        resource = "sound/12801/skillB-4.mp3",
+        id = 2943,
+        musicType = 0,
+    },
+    [2944] = {
+        action = "skillB26",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-必杀5",
+        volume = 100,
+        resource = "sound/12801/skillB-5.mp3",
+        id = 2944,
+        musicType = 0,
+    },
+    [2945] = {
+        action = "skillB25",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-必杀4语音",
+        volume = 100,
+        resource = "sound/12801/Cang_057.mp3",
+        id = 2945,
+        musicType = 1,
+    },
+    [2946] = {
+        action = "skillC1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-额外技能",
+        volume = 100,
+        resource = "sound/12801/skillC1.mp3",
+        id = 2946,
+        musicType = 0,
+    },
+    [2947] = {
+        action = "skillC2_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-额外技能1",
+        volume = 100,
+        resource = "sound/12801/skillC2.mp3",
+        id = 2947,
+        musicType = 0,
+    },
+    [2948] = {
+        action = "skillC2_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-额外技能1语音",
+        volume = 100,
+        resource = "sound/12801/Cang_054.mp3",
+        id = 2948,
+        musicType = 1,
+    },
+    [2949] = {
+        action = "skillC2_2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-额外技能2",
+        volume = 100,
+        resource = "sound/12801/skillC3.mp3",
+        id = 2949,
+        musicType = 0,
+    },
+    [2950] = {
+        action = "skillD_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-觉醒",
+        volume = 100,
+        resource = "sound/12801/skillD_1.mp3",
+        id = 2950,
+        musicType = 0,
+    },
+    [2951] = {
+        action = "skillD_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-觉醒语音",
+        volume = 100,
+        resource = "sound/12801/Cang_059.mp3",
+        id = 2951,
+        musicType = 1,
+    },
+    [2952] = {
+        action = "skillD_3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-觉醒2",
+        volume = 100,
+        resource = "sound/12801/skillD_3.mp3",
+        id = 2952,
+        musicType = 0,
+    },
+    [2953] = {
+        action = "effcts_skillF",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-出场",
+        volume = 100,
+        resource = "sound/12801/skillF.mp3",
+        id = 2953,
+        musicType = 0,
+    },
+    [2954] = {
+        action = "win",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_12801",
+        stopJudge = 0,
+        name = "苍-胜利",
+        volume = 100,
+        resource = "sound/12801/win.mp3",
+        id = 2954,
+        musicType = 0,
+    },
+    [2955] = {
+        action = "quickmove",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-闪避",
+        volume = 100,
+        resource = "sound/13201/quickmove.mp3",
+        id = 2955,
+        musicType = 0,
+    },
+    [2956] = {
+        action = "skillA1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-普攻",
+        volume = 100,
+        resource = "sound/13201/skillA_1.mp3",
+        id = 2956,
+        musicType = 0,
+    },
+    [2957] = {
+        action = "skillA2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-普攻",
+        volume = 100,
+        resource = "sound/13201/skillA_2.mp3",
+        id = 2957,
+        musicType = 0,
+    },
+    [2958] = {
+        action = "skillA3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-普攻",
+        volume = 100,
+        resource = "sound/13201/skillA_3.mp3",
+        id = 2958,
+        musicType = 0,
+    },
+    [2959] = {
+        action = "skillA4",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-普攻",
+        volume = 100,
+        resource = "sound/13201/skillA_4.mp3",
+        id = 2959,
+        musicType = 0,
+    },
+    [2960] = {
+        action = "skillA5",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-普攻",
+        volume = 100,
+        resource = "sound/13201/skillA_5.mp3",
+        id = 2960,
+        musicType = 0,
+    },
+    [2961] = {
+        action = "skillA5",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-普攻-语音",
+        volume = 100,
+        resource = "sound/13201/SonoRio_050.mp3",
+        id = 2961,
+        musicType = 1,
+    },
+    [2962] = {
+        action = "skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-技能1释放",
+        volume = 100,
+        resource = "sound/13201/skillB_1.mp3",
+        id = 2962,
+        musicType = 0,
+    },
+    [2963] = {
+        action = "skillB_shifa",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "effects_13201_skillB",
+        stopJudge = 0,
+        name = "凛绪-技能1-子弹发射",
+        volume = 100,
+        resource = "sound/13201/skillB_2.mp3",
+        id = 2963,
+        musicType = 0,
+    },
+    [2964] = {
+        action = "skillB_da_hit",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "effects_13201_skillB",
+        stopJudge = 0,
+        name = "凛绪-技能1-爆炸",
+        volume = 100,
+        resource = "sound/13201/skillB_3.mp3",
+        id = 2964,
+        musicType = 0,
+    },
+    [2965] = {
+        action = "extra_skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-技能2释放",
+        volume = 100,
+        resource = "sound/13201/extra_skillB_1_1.mp3",
+        id = 2965,
+        musicType = 0,
+    },
+    [2966] = {
+        action = "exskillB_qiu_xunhuan",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "effects_13201_exskillB",
+        stopJudge = 0,
+        name = "凛绪-技能2球旋转",
+        volume = 100,
+        resource = "sound/13201/extra_skillB_1_2.mp3",
+        id = 2966,
+        musicType = 0,
+    },
+    [2967] = {
+        action = "skillC",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-必杀-释放",
+        volume = 100,
+        resource = "sound/13201/skillC_1.mp3",
+        id = 2967,
+        musicType = 0,
+    },
+    [2968] = {
+        action = "skillC_zidan",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "effects_13201_skillC",
+        stopJudge = 0,
+        name = "凛绪-必杀-流星",
+        volume = 100,
+        resource = "sound/13201/skillC_2.mp3",
+        id = 2968,
+        musicType = 0,
+    },
+    [2969] = {
+        action = "skillC_qiu_xiaoshi",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "effects_13201_skillC",
+        stopJudge = 0,
+        name = "凛绪-必杀-爆炸",
+        volume = 100,
+        resource = "sound/13201/skillC_3.mp3",
+        id = 2969,
+        musicType = 0,
+    },
+    [2970] = {
+        action = "skillD_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-觉醒",
+        volume = 100,
+        resource = "sound/13201/skillD_2.mp3",
+        id = 2970,
+        musicType = 0,
+    },
+    [2971] = {
+        action = "skillD_shouji_up",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "effects_13201_skillD",
+        stopJudge = 0,
+        name = "凛绪-觉醒-流星",
+        volume = 100,
+        resource = "sound/13201/skillD_3.mp3",
+        id = 2971,
+        musicType = 0,
+    },
+    [2972] = {
+        action = "skillG",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-额外技能",
+        volume = 100,
+        resource = "sound/13201/skillG_1.mp3",
+        id = 2972,
+        musicType = 0,
+    },
+    [2973] = {
+        action = "skillG_gongji_yuji",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13201_skillG",
+        stopJudge = 0,
+        name = "凛绪-额外技能发炮",
+        volume = 100,
+        resource = "sound/13201/skillG_2.mp3",
+        id = 2973,
+        musicType = 0,
+    },
+    [2974] = {
+        action = "skillF",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-技能出场",
+        volume = 95,
+        resource = "sound/13201/skillF.mp3",
+        id = 2974,
+        musicType = 0,
+    },
+    [2975] = {
+        action = "skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-技能1-语音",
+        volume = 100,
+        resource = "sound/13201/SonoRio_055.mp3",
+        id = 2975,
+        musicType = 1,
+    },
+    [2976] = {
+        action = "extra_skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-技能2-语音",
+        volume = 100,
+        resource = "sound/13201/SonoRio_057_B.mp3",
+        id = 2976,
+        musicType = 1,
+    },
+    [2977] = {
+        action = "skillC",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-必杀-语音",
+        volume = 100,
+        resource = "sound/13201/SonoRio_059.mp3",
+        id = 2977,
+        musicType = 1,
+    },
+    [2978] = {
+        action = "skillD_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-觉醒-语音",
+        volume = 100,
+        resource = "sound/13201/SonoRio_047.mp3",
+        id = 2978,
+        musicType = 1,
+    },
+    [2979] = {
+        action = "skillG",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13201",
+        stopJudge = 0,
+        name = "凛绪-额外技-语音",
+        volume = 100,
+        resource = "sound/13201/SonoRio_062.mp3",
+        id = 2979,
+        musicType = 1,
+    },
+    [2980] = {
+        action = "quickmove",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-闪避",
+        volume = 70,
+        resource = "sound/13301/quickmove.mp3",
+        id = 2980,
+        musicType = 0,
+    },
+    [2981] = {
+        action = "skillA1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-普攻",
+        volume = 100,
+        resource = "sound/13301/skillA.mp3",
+        id = 2981,
+        musicType = 0,
+    },
+    [2982] = {
+        action = "skillA2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-普攻",
+        volume = 100,
+        resource = "sound/13301/skillAA.mp3",
+        id = 2982,
+        musicType = 0,
+    },
+    [2983] = {
+        action = "skillA3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-普攻",
+        volume = 100,
+        resource = "sound/13301/skillAAA.mp3",
+        id = 2983,
+        musicType = 0,
+    },
+    [2984] = {
+        action = "skillA3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛绪-普攻-语音",
+        volume = 120,
+        resource = "sound/13301/SonoRinne_051_B.mp3",
+        id = 2984,
+        musicType = 1,
+    },
+    [2985] = {
+        action = "skillA4",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-普攻",
+        volume = 100,
+        resource = "sound/13301/skillAAAA.mp3",
+        id = 2985,
+        musicType = 0,
+    },
+    [2986] = {
+        action = "skillA5",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-普攻",
+        volume = 100,
+        resource = "sound/13301/skillAAAAA.mp3",
+        id = 2986,
+        musicType = 0,
+    },
+    [2987] = {
+        action = "skillA5",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛绪-普攻-语音",
+        volume = 120,
+        resource = "sound/13301/SonoRinne_052_B.mp3",
+        id = 2987,
+        musicType = 1,
+    },
+    [2988] = {
+        action = "skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-技能1",
+        volume = 100,
+        resource = "sound/13301/skillB_1.mp3",
+        id = 2988,
+        musicType = 0,
+    },
+    [2989] = {
+        action = "skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛绪-技能1-语音",
+        volume = 120,
+        resource = "sound/13301/SonoRinne_056_B.mp3",
+        id = 2989,
+        musicType = 1,
+    },
+    [2990] = {
+        action = "skillB_shandian_all",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillB",
+        stopJudge = 0,
+        name = "凛祢-技能1-爆炸",
+        volume = 100,
+        resource = "sound/13301/skillB_2.mp3",
+        id = 2990,
+        musicType = 0,
+    },
+    [2991] = {
+        action = "skillB_zidan",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillB",
+        stopJudge = 0,
+        name = "凛祢-技能1-子弹",
+        volume = 100,
+        resource = "sound/13301/skillB_3.mp3",
+        id = 2991,
+        musicType = 0,
+    },
+    [2992] = {
+        action = "skillB_shandian_all",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillB",
+        stopJudge = 0,
+        name = "凛祢-技能1-闪电",
+        volume = 100,
+        resource = "sound/13301/skillB_3.mp3",
+        id = 2992,
+        musicType = 0,
+    },
+    [2993] = {
+        action = "extra_skillB_all2",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_exskillB2",
+        stopJudge = 0,
+        name = "凛祢-技能2-匹配动作",
+        volume = 100,
+        resource = "sound/13301/skillexskillB_3.mp3",
+        id = 2993,
+        musicType = 0,
+    },
+    [2994] = {
+        action = "extra_skillB_all2",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_exskillB2",
+        stopJudge = 0,
+        name = "凛祢-技能2-语音",
+        volume = 120,
+        resource = "sound/13301/SonoRinne_057_B.mp3",
+        id = 2994,
+        musicType = 1,
+    },
+    [2995] = {
+        action = "extra_skillB_lujing1",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_exskillB2",
+        stopJudge = 0,
+        name = "凛祢-技能2-飞球",
+        volume = 100,
+        resource = "sound/13301/skillexskillB_4.mp3",
+        id = 2995,
+        musicType = 0,
+    },
+    [2996] = {
+        action = "extra_skillB_lujing2",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_exskillB2",
+        stopJudge = 0,
+        name = "凛祢-技能2-飞球",
+        volume = 100,
+        resource = "sound/13301/skillexskillB_4.mp3",
+        id = 2996,
+        musicType = 0,
+    },
+    [2997] = {
+        action = "extra_skillB_lujing3",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_exskillB2",
+        stopJudge = 0,
+        name = "凛祢-技能2-飞球",
+        volume = 100,
+        resource = "sound/13301/skillexskillB_4.mp3",
+        id = 2997,
+        musicType = 0,
+    },
+    [2998] = {
+        action = "extra_skillB_lujing4",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_exskillB2",
+        stopJudge = 0,
+        name = "凛祢-技能2-飞球",
+        volume = 100,
+        resource = "sound/13301/skillexskillB_4.mp3",
+        id = 2998,
+        musicType = 0,
+    },
+    [2999] = {
+        action = "extra_skillB_lujing5",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_exskillB2",
+        stopJudge = 0,
+        name = "凛祢-技能2-飞球",
+        volume = 100,
+        resource = "sound/13301/skillexskillB_4.mp3",
+        id = 2999,
+        musicType = 0,
+    },
+    [3000] = {
+        action = "extra_skillB_qiubao",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_exskillB",
+        stopJudge = 0,
+        name = "凛祢-技能2-爆炸",
+        volume = 100,
+        resource = "sound/13301/skillexskillB_5.mp3",
+        id = 3000,
+        musicType = 0,
+    },
+    [3001] = {
+        action = "extra_skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-技能2-法阵出现",
+        volume = 100,
+        resource = "sound/13301/skillexskillB_1.mp3",
+        id = 3001,
+        musicType = 0,
+    },
+    [3002] = {
+        action = "extra_skillB_all1",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "effects_13301_exskillB2",
+        stopJudge = 0,
+        name = "凛祢-技能2-法阵消失",
+        volume = 100,
+        resource = "sound/13301/skillexskillB_2.mp3",
+        id = 3002,
+        musicType = 0,
+    },
+    [3003] = {
+        action = "skillC1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-必杀-升空到蓄力",
+        volume = 100,
+        resource = "sound/13301/skillC_1.mp3",
+        id = 3003,
+        musicType = 0,
+    },
+    [3004] = {
+        action = "skillC1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛绪-必杀-语音",
+        volume = 100,
+        resource = "sound/13301/SonoRinne_058_B.mp3",
+        id = 3004,
+        musicType = 1,
+    },
+    [3005] = {
+        action = "skillC2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-必杀-蓄力",
+        volume = 100,
+        resource = "sound/13301/skillC_2.mp3",
+        id = 3005,
+        musicType = 0,
+    },
+    [3006] = {
+        action = "skillC3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-必杀-爆发",
+        volume = 100,
+        resource = "sound/13301/skillC_3.mp3",
+        id = 3006,
+        musicType = 0,
+    },
+    [3007] = {
+        action = "skillC3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛绪-必杀-语音",
+        volume = 100,
+        resource = "sound/13301/SonoRinne_062_B.mp3",
+        id = 3007,
+        musicType = 1,
+    },
+    [3008] = {
+        action = "skillC_quan_chuxian",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillC",
+        stopJudge = 0,
+        name = "凛祢-必杀-地圈出现",
+        volume = 100,
+        resource = "sound/13301/skillC_4.mp3",
+        id = 3008,
+        musicType = 0,
+    },
+    [3009] = {
+        action = "skillC_qiu_chuxian",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillC",
+        stopJudge = 0,
+        name = "凛祢-必杀-球体出现1",
+        volume = 100,
+        resource = "sound/13301/skillC_5.mp3",
+        id = 3009,
+        musicType = 0,
+    },
+    [3010] = {
+        action = "skillC_qiu_chuxian2",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillC",
+        stopJudge = 0,
+        name = "凛祢-必杀-球体出现2",
+        volume = 100,
+        resource = "sound/13301/skillC_5.mp3",
+        id = 3010,
+        musicType = 0,
+    },
+    [3011] = {
+        action = "skillC_qiu_xunhuan",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillC",
+        stopJudge = 0,
+        name = "凛祢-必杀-放电音效1",
+        volume = 100,
+        resource = "sound/13301/skillC_6.mp3",
+        id = 3011,
+        musicType = 0,
+    },
+    [3012] = {
+        action = "skillC_qiu_xunhuan2",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillC",
+        stopJudge = 0,
+        name = "凛祢-必杀-放电音效2",
+        volume = 100,
+        resource = "sound/13301/skillC_6.mp3",
+        id = 3012,
+        musicType = 0,
+    },
+    [3013] = {
+        action = "skillC_qiu_xialuo",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillC",
+        stopJudge = 0,
+        name = "凛祢-必杀-球体落下1",
+        volume = 100,
+        resource = "sound/13301/skillC_7.mp3",
+        id = 3013,
+        musicType = 0,
+    },
+    [3014] = {
+        action = "skillC_qiu_xialuo2",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillC",
+        stopJudge = 0,
+        name = "凛祢-必杀-球体落下2",
+        volume = 100,
+        resource = "sound/13301/skillC_7.mp3",
+        id = 3014,
+        musicType = 0,
+    },
+    [3015] = {
+        action = "skillC_daqiu_chuxian",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillC",
+        stopJudge = 0,
+        name = "凛祢-必杀-大球体出现",
+        volume = 100,
+        resource = "sound/13301/skillC_8.mp3",
+        id = 3015,
+        musicType = 0,
+    },
+    [3016] = {
+        action = "skillC_daqiu_xunhuan",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillC",
+        stopJudge = 0,
+        name = "凛祢-必杀-大球体放电",
+        volume = 100,
+        resource = "sound/13301/skillC_9.mp3",
+        id = 3016,
+        musicType = 0,
+    },
+    [3017] = {
+        action = "skillC_daqiu_xiaoshi",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillC",
+        stopJudge = 0,
+        name = "凛祢-必杀-大球体爆炸",
+        volume = 100,
+        resource = "sound/13301/skillC_10.mp3",
+        id = 3017,
+        musicType = 0,
+    },
+    [3018] = {
+        action = "skillD_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-觉醒",
+        volume = 100,
+        resource = "sound/13301/skillD_1.mp3",
+        id = 3018,
+        musicType = 0,
+    },
+    [3019] = {
+        action = "skillD_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛绪-觉醒-语音",
+        volume = 100,
+        resource = "sound/13301/SonoRinne_063_B.mp3",
+        id = 3019,
+        musicType = 1,
+    },
+    [3020] = {
+        action = "skillD_3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-觉醒",
+        volume = 100,
+        resource = "sound/13301/skillD_3.mp3",
+        id = 3020,
+        musicType = 0,
+    },
+    [3021] = {
+        action = "skillD_2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-觉醒",
+        volume = 100,
+        resource = "sound/13301/skillD_2.mp3",
+        id = 3021,
+        musicType = 0,
+    },
+    [3022] = {
+        action = "skillF",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛祢-出场",
+        volume = 100,
+        resource = "sound/13301/skillF.mp3",
+        id = 3022,
+        musicType = 0,
+    },
+    [3023] = {
+        action = "skillE_shifa",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillE",
+        stopJudge = 0,
+        name = "凛祢-额外技能-施法",
+        volume = 100,
+        resource = "sound/13301/skillE.mp3",
+        id = 3023,
+        musicType = 0,
+    },
+    [3024] = {
+        action = "skillE",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛绪-额外技能-语音",
+        volume = 100,
+        resource = "sound/13301/SonoRinne_061_B.mp3",
+        id = 3024,
+        musicType = 1,
+    },
+    [3025] = {
+        action = "skillE_zhaohuan",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_13301_skillE",
+        stopJudge = 0,
+        name = "凛祢-额外技能-召唤",
+        volume = 100,
+        resource = "sound/13301/skillE2.mp3",
+        id = 3025,
+        musicType = 0,
+    },
+    [3026] = {
+        action = "skill1_all",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "effects_Watchmen_1_skill1",
+        stopJudge = 0,
+        name = "黑色守护者-施法音效",
+        volume = 100,
+        resource = "sound/13301/b_skill1_2.mp3",
+        id = 3026,
+        musicType = 0,
+    },
+    [3027] = {
+        action = "skill1_dimian",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "effects_Watchmen_1_skill1",
+        stopJudge = 0,
+        name = "黑色守护者-落雷1",
+        volume = 100,
+        resource = "sound/13301/b_skill1_1.mp3",
+        id = 3027,
+        musicType = 0,
+    },
+    [3028] = {
+        action = "skill1_dimian2",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "effects_Watchmen_1_skill1",
+        stopJudge = 0,
+        name = "黑色守护者-落雷2",
+        volume = 100,
+        resource = "sound/13301/b_skill1_1.mp3",
+        id = 3028,
+        musicType = 0,
+    },
+    [3029] = {
+        action = "skill1_dimian3",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "effects_Watchmen_1_skill1",
+        stopJudge = 0,
+        name = "黑色守护者-落雷3",
+        volume = 100,
+        resource = "sound/13301/b_skill1_1.mp3",
+        id = 3029,
+        musicType = 0,
+    },
+    [3030] = {
+        action = "skill2_all",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "effects_Watchmen_1_skill2",
+        stopJudge = 0,
+        name = "黑色守护者-地裂音效",
+        volume = 100,
+        resource = "sound/13301/b_skill2.mp3",
+        id = 3030,
+        musicType = 0,
+    },
+    [3031] = {
+        action = "fight_Watchmen_3_skill1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_Watchmen_3",
+        stopJudge = 0,
+        name = "白色守护者-扔球",
+        volume = 100,
+        resource = "sound/13301/w_skill1.mp3",
+        id = 3031,
+        musicType = 0,
+    },
+    [3032] = {
+        action = "skill2_xishou",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_Watchmen_3_skill2",
+        stopJudge = 0,
+        name = "白色守护者-吸收",
+        volume = 100,
+        resource = "sound/13301/w_skill2_1.mp3",
+        id = 3032,
+        musicType = 0,
+    },
+    [3033] = {
+        action = "skill2_fashe",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "effects_Watchmen_3_skill2",
+        stopJudge = 0,
+        name = "白色守护者-发射",
+        volume = 100,
+        resource = "sound/13301/w_skill2_2.mp3",
+        id = 3033,
+        musicType = 0,
+    },
+    [3034] = {
+        action = "fight_Watchmen_2_skill1_1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_Watchmen_2",
+        stopJudge = 0,
+        name = "红色守护者-法圈",
+        volume = 100,
+        resource = "sound/13301/r_skill1.mp3",
+        id = 3034,
+        musicType = 0,
+    },
+    [3035] = {
+        action = "fight_Watchmen_2_skill2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_Watchmen_2",
+        stopJudge = 0,
+        name = "红色守护者-血池",
+        volume = 100,
+        resource = "sound/13301/r_skill2.mp3",
+        id = 3035,
+        musicType = 0,
+    },
+    [3036] = {
+        action = "skillA1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-普攻1",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_001_1.mp3",
+        id = 3036,
+        musicType = 0,
+    },
+    [3037] = {
+        action = "skillA2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+            [2] = "music2",
+            [3] = "music3",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-普攻2",
+        volume = 70,
+        resource = "sound/11201/roleMusic_11201_001_2.mp3",
+        id = 3037,
+        musicType = 0,
+    },
+    [3038] = {
+        action = "skillA3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+            [2] = "music2",
+            [3] = "music3",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-普攻3",
+        volume = 65,
+        resource = "sound/11201/roleMusic_11201_001_3.mp3",
+        id = 3038,
+        musicType = 0,
+    },
+    [3039] = {
+        action = "skillA3",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-普攻3",
+        volume = 60,
+        resource = "sound/11201/MAYURI_42.mp3",
+        id = 3039,
+        musicType = 1,
+    },
+    [3040] = {
+        action = "skillA4",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-普攻4-蓄力",
+        volume = 100,
+        resource = "sound/11201/roleMusic_11201_002.mp3",
+        id = 3040,
+        musicType = 0,
+    },
+    [3041] = {
+        action = "skillA4",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music2",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-普攻4-发射",
+        volume = 60,
+        resource = "sound/11201/MAYURI_43.mp3",
+        id = 3041,
+        musicType = 1,
+    },
+    [3042] = {
+        action = "skillA4",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music2",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-普攻4-发射",
+        volume = 100,
+        resource = "sound/11201/roleMusic_11201_003.mp3",
+        id = 3042,
+        musicType = 0,
+    },
+    [3043] = {
+        action = "skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-技能1-蓄力",
+        volume = 60,
+        resource = "sound/11201/MAYURI_83.mp3",
+        id = 3043,
+        musicType = 1,
+    },
+    [3044] = {
+        action = "skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-技能1-发射",
+        volume = 60,
+        resource = "sound/11201/MAYURI_79.mp3",
+        id = 3044,
+        musicType = 1,
+    },
+    [3045] = {
+        action = "skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-技能1-蓄力",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_005.mp3",
+        id = 3045,
+        musicType = 0,
+    },
+    [3046] = {
+        action = "skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-技能1-发射",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_006.mp3",
+        id = 3046,
+        musicType = 0,
+    },
+    [3047] = {
+        action = "extra_skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-技能2-发射",
+        volume = 60,
+        resource = "sound/11201/MAYURI_81.mp3",
+        id = 3047,
+        musicType = 1,
+    },
+    [3048] = {
+        action = "extra_skillB",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-技能2-发射",
+        volume = 10,
+        resource = "sound/11201/roleMusic_11201_009.mp3",
+        id = 3048,
+        musicType = 0,
+    },
+    [3049] = {
+        action = "skillC2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-必杀-触发",
+        volume = 60,
+        resource = "sound/11201/MAYURI_76.mp3",
+        id = 3049,
+        musicType = 1,
+    },
+    [3050] = {
+        action = "skillC2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-必杀-触发",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_014.mp3",
+        id = 3050,
+        musicType = 0,
+    },
+    [3051] = {
+        action = "skillG",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-额外技能-施法",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_018.mp3",
+        id = 3051,
+        musicType = 0,
+    },
+    [3052] = {
+        action = "skillG",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-额外技能-召唤出",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_019.mp3",
+        id = 3052,
+        musicType = 0,
+    },
+    [3053] = {
+        action = "skillF",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-出场技能",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_021.mp3",
+        id = 3053,
+        musicType = 0,
+    },
+    [3054] = {
+        action = "skillF",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-出场技能",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_022.mp3",
+        id = 3054,
+        musicType = 0,
+    },
+    [3055] = {
+        action = "born",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-出场",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_021.mp3",
+        id = 3055,
+        musicType = 0,
+    },
+    [3056] = {
+        action = "dodge",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-闪现",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_023.mp3",
+        id = 3056,
+        musicType = 0,
+    },
+    [3057] = {
+        action = "skillD1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-觉醒1-语音1",
+        volume = 60,
+        resource = "sound/11201/MAYURI_75.mp3",
+        id = 3057,
+        musicType = 1,
+    },
+    [3058] = {
+        action = "skillD1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-觉醒1-语音2",
+        volume = 60,
+        resource = "sound/11201/MAYURI_81.mp3",
+        id = 3058,
+        musicType = 1,
+    },
+    [3059] = {
+        action = "skillD1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-觉醒1",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_024_1.mp3",
+        id = 3059,
+        musicType = 0,
+    },
+    [3060] = {
+        action = "skillD1",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music1",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-觉醒2-展示音效",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_026_1.mp3",
+        id = 3060,
+        musicType = 0,
+    },
+    [3061] = {
+        action = "skillD2",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_11215",
+        stopJudge = 0,
+        name = "机械万由里-觉醒3",
+        volume = 80,
+        resource = "sound/11201/roleMusic_11201_028_1.mp3",
+        id = 3061,
         musicType = 0,
     },
     [100100] = {
@@ -41497,6 +44063,62 @@ return {
         id = 100108,
         musicType = 0,
     },
+    [100110] = {
+        action = "bullet",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "2021chunjie_1",
+        stopJudge = 0,
+        name = "春节鞭炮技能-摔炮",
+        volume = 100,
+        resource = "sound/chunjie/ShuaiPao1.mp3",
+        id = 100110,
+        musicType = 0,
+    },
+    [100112] = {
+        action = "bullet",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "2021chunjie_2",
+        stopJudge = 0,
+        name = "春节鞭炮技能-ca炮",
+        volume = 100,
+        resource = "sound/chunjie/CaPao1.mp3",
+        id = 100112,
+        musicType = 0,
+    },
+    [100114] = {
+        action = "bullet",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "2021chunjie_3",
+        stopJudge = 0,
+        name = "春节鞭炮技能-大地红",
+        volume = 100,
+        resource = "sound/chunjie/DaDiHong1.mp3",
+        id = 100114,
+        musicType = 0,
+    },
+    [100116] = {
+        action = "bullet",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "2021chunjie_4",
+        stopJudge = 0,
+        name = "春节鞭炮技能-烟花棒",
+        volume = 100,
+        resource = "sound/chunjie/ZhuanZhuan1.mp3",
+        id = 100116,
+        musicType = 0,
+    },
     [100002] = {
         action = "wojianputong_3_2",
         cartoonType = 2,
@@ -41507,7 +44129,7 @@ return {
         stopJudge = 0,
         name = "探索技能-我方普攻2",
         volume = 50,
-        resource = "tansuo_wojianjichu3.mp3",
+        resource = "sound/tansuo/tansuo_wojianjichu3.mp3",
         id = 100002,
         musicType = 0,
     },
@@ -41609,6 +44231,62 @@ return {
         id = 100109,
         musicType = 0,
     },
+    [100111] = {
+        action = "hit",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "2021chunjie_1",
+        stopJudge = 0,
+        name = "春节鞭炮技能-摔炮",
+        volume = 100,
+        resource = "sound/chunjie/ShuaiPao2.mp3",
+        id = 100111,
+        musicType = 0,
+    },
+    [100113] = {
+        action = "hit",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "2021chunjie_2",
+        stopJudge = 0,
+        name = "春节鞭炮技能-ca炮",
+        volume = 100,
+        resource = "sound/chunjie/CaPao2.mp3",
+        id = 100113,
+        musicType = 0,
+    },
+    [100115] = {
+        action = "hit",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "2021chunjie_3",
+        stopJudge = 0,
+        name = "春节鞭炮技能-大地红",
+        volume = 100,
+        resource = "sound/chunjie/DaDiHong2.mp3",
+        id = 100115,
+        musicType = 0,
+    },
+    [100117] = {
+        action = "animation",
+        cartoonType = 2,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "2021chunjie_5",
+        stopJudge = 0,
+        name = "春节鞭炮技能-烟花棒",
+        volume = 100,
+        resource = "sound/chunjie/YanHuaBang1.mp3",
+        id = 100117,
+        musicType = 0,
+    },
     [100007] = {
         action = "xiaobingzidan1",
         cartoonType = 2,
@@ -41647,7 +44325,7 @@ return {
         stopJudge = 0,
         name = "探索技能-我方普攻1",
         volume = 50,
-        resource = "tansuo_wojianjichu3.mp3",
+        resource = "sound/tansuo/tansuo_wojianjichu3.mp3",
         id = 100001,
         musicType = 0,
     },
@@ -41661,7 +44339,7 @@ return {
         stopJudge = 0,
         name = "探索技能-我方普攻3",
         volume = 50,
-        resource = "tansuo_wojianjichu3.mp3",
+        resource = "sound/tansuo/tansuo_wojianjichu3.mp3",
         id = 100003,
         musicType = 0,
     },

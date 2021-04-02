@@ -84,7 +84,7 @@ return {
         weight = 6,
         status = 2,
         titleIcon = "ui/activity/valentine/003.png",
-        details = "{\"beginTime\":\"2019-02-14 00:00:00\",\"endTime\":\"2019-02-19 23:59:59\",\"dec\":\"是巧克力的味道！\",\"cg\":102,\"refresh\":300,\"compose\":[580033,580034,580035],\"gift\":{580033:12,580034:10,580035:8},\"room\":\"newyearnight/qingrenjie.json\",\"privity\":{101:500038,102:500039,103:500040,104:500041,105:500042,112:500043,113:500044}}",
+        details = "{\"beginTime\":\"2021-03-10 00:00:00\",\"endTime\":\"2021-03-16 23:59:59\",\"dec\":\"是巧克力的味道！\",\"cg\":102,\"refresh\":300,\"compose\":[580212,580213,580214],\"gift\":{580212:10,580213:8,580214:6},\"room\":\"newyearnight/qingrenjie.json\",\"privity\":{101:501023,102:501024,103:501025,104:501026,105:501027,112:501028,113:501029}}",
         type = 1006,
     },
     [100009] = {
@@ -440,7 +440,7 @@ return {
         weight = 2,
         status = 2,
         titleIcon = "ui/activity/picture/icon72.png",
-        details = "{\"beginTime\":\"2021-03-10 00:00:00\",\"endTime\":\"2021-03-26 23:59:59\",\"activityShowType\":2,\"name\":\"1420053\",\"dressId\":410216,\"cg\":1001,\"des1\":\"\",\"des2\":\"\",\"reversalFcost\":{500071:50},\"reversalDvaule\":1,\"reversalRvalue\":[1,2,4,8],\"reversalRtotle\":{1:[3],2:[6],3:[12],4:[24]},\"reversalRlenth\":3,\"reversalFlush\":10000,\"reversalLength\":3,\"reversalLevel\":[0,500000,1500000,3000000],\"reversalDshow\":3,\"reversalDcount\":1,\"reversalFrame\":[1,2,3,4],\"reversalTitle\":[13310323,13310324,13310325,13310326,13310327,13310328,13310329,13310330,13310331,13310332]}",
+        details = "{\"beginTime\":\"2021-03-10 00:00:00\",\"endTime\":\"2021-03-26 23:59:59\",\"activityShowType\":2,\"name\":\"1420053\",\"dressId\":410216,\"cg\":1001,\"des1\":\"\",\"des2\":\"\",\"reversalFcost\":{500071:50},\"reversalDvaule\":1,\"reversalRvalue\":[1,2,4,8],\"reversalRtotle\":{1:[3],2:[6],3:[12],4:[24]},\"reversalRlenth\":3,\"reversalFlush\":10000,\"reversalLength\":3,\"reversalLevel\":[0,17000,50000,100000],\"reversalDshow\":3,\"reversalDcount\":1,\"reversalFrame\":[1,2,3,4],\"reversalTitle\":[13310323,13310324,13310325,13310326,13310327,13310328,13310329,13310330,13310331,13310332]}",
         type = 1011,
     },
     [100014] = {

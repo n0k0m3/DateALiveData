@@ -85,24 +85,9 @@ end
 function TouzirenView:refreshView( )
 	-- body
 	self.task_ =  TaskDataMgr:getTask(self.investorCfg.taskType)
-
-	local changeNum = #self.task_ - #self.Grid_task:getItems()
-	
-	if changeNum < 0 then
-		for i = 1,#math.abs(changeNum) do
-			self.Grid_task:removeItem(1)
-		end
-	end
-
-	for k,v in pairs(self.task_) do
-		local item = self.Grid_task:getItem(k)
-
-		if not item then
-			item = self.Grid_task:pushBackDefaultItem()
-		end
+	self.Grid_task:AsyncUpdateItem(self.task_,function (item,v)
 		self:updateTaskItem(item, v)
-	end
-
+	end)
 end
 
 function TouzirenView:onTaskReceiveEvent(reward)

@@ -84,22 +84,11 @@ function TaskActivityView:updateActivity()
     table.insertTo(self.taskData_,lockData)
 
 
-    local items = self.ListView_task:getItems()
-    local gap = #items - #self.taskData_
-
-    for i = 1, math.abs(gap) do
-        if gap > 0 then
-            local item = self.ListView_task:getItem(1)
-            self.taskItems_[item] = nil
-            self.ListView_task:removeItem(1)
-        else
-            local item = self:addTaskItem()
-            self.ListView_task:pushBackCustomItem(item)
-        end
-    end
-    for i, v in ipairs(self.ListView_task:getItems()) do
-        self:updateTaskItem(i)
-    end
+    self.ListView_task:AsyncUpdateItem(self.taskData_,function ( ... )
+        return self:addTaskItem()
+    end, function (v, data)
+        self:updateTaskItem(v, data)
+    end)   
 
     -- @desc:谷丰让改的
     self.Label_date:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle, true))
@@ -172,14 +161,12 @@ function TaskActivityView:addTaskItem()
     return Panel_taskItem
 end
 
-function TaskActivityView:updateTaskItem(index)
+function TaskActivityView:updateTaskItem(item,itemId)
     local activityInfo = self.activityInfo_
-    local itemId = self.taskData_[index]
     local itemInfo = ActivityDataMgr2:getItemInfo(activityInfo.activityType, itemId)
     local progress = ActivityDataMgr2:getProgress(activityInfo.activityType, itemId)
     local progressInfo = ActivityDataMgr2:getProgressInfo(activityInfo.activityType, itemId)
 
-    local item = self.ListView_task:getItem(index)
     local foo = self.taskItems_[item]
     local isUnlock = true
     if itemInfo.extendData and itemInfo.extendData.treeLevel then

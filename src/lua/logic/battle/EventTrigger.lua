@@ -755,7 +755,7 @@ function EventTrigger:bindCommonEventFunc(trigger)
 			end
 		elseif string.match(v.Class,"Summon") then
 			trigger.eventFunc[#trigger.eventFunc + 1] = function(obj,object)
-				self:refreshMonster(v.Class,v)
+				self:refreshMonster(v.Class,v,trigger)
 			end
 		elseif v.Class == "TriggerEventWin" or v.Class == "TriggerEventFail" then
 			trigger.eventFunc[#trigger.eventFunc + 1] = function(obj,object)
@@ -863,17 +863,14 @@ function EventTrigger:onActiveObject(objId,isActive)
 end
 
 --怪物刷新(普通刷新/补充刷怪)--刷可破坏障碍物NPC
-function EventTrigger:refreshMonster(event, refreshCfg)
-
+function EventTrigger:refreshMonster(event, refreshCfg, trigger)
+	-- if trigger and refreshCfg.Count and refreshCfg.Count > self.controller.getWave() then
+	-- 	trigger.cfg.Active = true
+	-- 	return
+	-- end
 	local params = {}
 	if refreshCfg.SummonType ~= "RandomPos" then
 		local pointsIDs = self.groupList[refreshCfg.TargetID or refreshCfg.GroupID]
-		if not pointsIDs then
-			local levelCfg = BattleDataMgr:getLevelCfg()
-			local msg = string.format("level id:%s,  groupList count:%d, targetID:%s, groupID:%s",
-					tostring(levelCfg.id), table.count(self.groupList), tostring(refreshCfg.TargetID), tostring(refreshCfg.GroupID) )
-			Bugly:ReportLuaException(msg)
-		end
 		local pointPosList = {}
 		for i,v in ipairs(pointsIDs or {}) do
 			local point = self.mapInfo.visualNodes[v]

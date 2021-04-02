@@ -83,6 +83,7 @@ function BrushMonster:init()
     self.enabled = true --刷怪器开关
     self.checkTiming = 0
     self.preBrushData = {}  --缓存抢波次刷怪的配置指令
+    self.checkCount = {}
 end
 --刷怪是否开启
 function BrushMonster:isEnabled()
@@ -182,6 +183,29 @@ function BrushMonster:checkNextWaveData(delta)
                 self:onBurshEvent(v.cfg, v.param, v.call)
                 self.preBrushData[k] = nil
                 break
+            end
+        end
+    end
+end
+
+function BrushMonster:checkEnableNextWave(delta)
+    self.checkTiming = self.checkTiming + delta
+    if self.checkTiming > 2000 then
+        self.checkTiming = 0
+        local wave = battleController.getWave()
+        local waveMonster = self.waveMonsterId_[wave] or {}
+        if next(waveMonster) then
+            local enemys = battleController.getEnemyMember()
+            if #enemys < 1 then
+                local count = self.checkCount[wave] or 0
+                count = count + 1
+                if count >= 5 then
+                    self.checkCount[wave] = 0
+                    waveMonster = {}
+                    battleController.nextWave()
+                else
+                    self.checkCount[wave] = count
+                end
             end
         end
     end

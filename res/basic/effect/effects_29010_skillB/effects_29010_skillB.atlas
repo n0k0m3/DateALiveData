@@ -1,0 +1,69 @@
+
+effects_29010_skillB.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JB/b/yan/yan_001
+  rotate: false
+  xy: 260, 352
+  size: 182, 79
+  orig: 300, 150
+  offset: 52, 23
+  index: -1
+JB/b/yan/yan_003
+  rotate: false
+  xy: 2, 22
+  size: 243, 95
+  orig: 300, 150
+  offset: 26, 22
+  index: -1
+JB/b/yan/yan_005
+  rotate: false
+  xy: 2, 119
+  size: 248, 97
+  orig: 300, 150
+  offset: 24, 22
+  index: -1
+JB/b/yan/yan_007
+  rotate: false
+  xy: 2, 218
+  size: 251, 96
+  orig: 300, 150
+  offset: 22, 22
+  index: -1
+JB/b/yan/yan_009
+  rotate: false
+  xy: 2, 316
+  size: 253, 95
+  orig: 300, 150
+  offset: 20, 22
+  index: -1
+JB/b/yan/yan_011
+  rotate: false
+  xy: 2, 413
+  size: 256, 93
+  orig: 300, 150
+  offset: 17, 22
+  index: -1
+JB/b/yan/yan_013
+  rotate: true
+  xy: 359, 96
+  size: 254, 79
+  orig: 300, 150
+  offset: 16, 23
+  index: -1
+JB/b/yan/yan_015
+  rotate: false
+  xy: 260, 433
+  size: 246, 73
+  orig: 300, 150
+  offset: 17, 26
+  index: -1
+JB/glow_000
+  rotate: false
+  xy: 257, 250
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

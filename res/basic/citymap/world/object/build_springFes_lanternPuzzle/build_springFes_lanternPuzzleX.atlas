@@ -1,0 +1,62 @@
+
+build_springFes_lanternPuzzleX.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dmj2_1
+  rotate: false
+  xy: 225, 2
+  size: 48, 90
+  orig: 48, 90
+  offset: 0, 0
+  index: -1
+dmj2_2
+  rotate: false
+  xy: 325, 172
+  size: 48, 87
+  orig: 48, 87
+  offset: 0, 0
+  index: -1
+dmj2_21
+  rotate: false
+  xy: 963, 344
+  size: 48, 166
+  orig: 48, 166
+  offset: 0, 0
+  index: -1
+dmj2_22
+  rotate: false
+  xy: 275, 75
+  size: 48, 90
+  orig: 48, 90
+  offset: 0, 0
+  index: -1
+dmj2_23
+  rotate: false
+  xy: 275, 167
+  size: 48, 92
+  orig: 48, 92
+  offset: 0, 0
+  index: -1
+dmj2_24
+  rotate: false
+  xy: 2, 261
+  size: 959, 249
+  orig: 959, 249
+  offset: 0, 0
+  index: -1
+dmj2_3
+  rotate: false
+  xy: 225, 94
+  size: 48, 165
+  orig: 48, 165
+  offset: 0, 0
+  index: -1
+ggg2
+  rotate: false
+  xy: 2, 38
+  size: 221, 221
+  orig: 221, 221
+  offset: 0, 0
+  index: -1

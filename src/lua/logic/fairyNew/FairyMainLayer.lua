@@ -116,8 +116,8 @@ function FairyMainLayer:initUI(ui)
 
 
      --创建克制icon
-   local startPos = self.Button_detail:getPosition()
-   self.panel_element = Utils:createElementPanel( self.Panel_right ,1 , ccp(startPos.x - 90 , startPos.y))
+   -- local startPos = self.Button_detail:getPosition()
+   -- self.panel_element = Utils:createElementPanel( self.Panel_right ,1 , ccp(startPos.x - 90 , startPos.y))
 
     
     self:initHeroListView()
@@ -552,7 +552,7 @@ function FairyMainLayer:updateHeroBaseInfo()
     end
 
     --更新克制icon
-    PrefabDataMgr:setInfo(self.panel_element , heroData.magicAttribute)
+    --PrefabDataMgr:setInfo(self.panel_element , heroData.magicAttribute)
 
     self.Button_change_skin:setVisible(not self.isfriend and HeroDataMgr:checkEnableShowChangeSkinBtn(self.showid))
     self:checkHeroRedDot()

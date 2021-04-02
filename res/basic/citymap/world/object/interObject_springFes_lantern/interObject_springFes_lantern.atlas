@@ -1,0 +1,41 @@
+
+interObject_springFes_lantern.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ggg2
+  rotate: false
+  xy: 423, 18
+  size: 221, 221
+  orig: 221, 221
+  offset: 0, 0
+  index: -1
+ldy
+  rotate: false
+  xy: 687, 197
+  size: 162, 42
+  orig: 162, 42
+  offset: 0, 0
+  index: -1
+lud_denglong1
+  rotate: false
+  xy: 646, 52
+  size: 39, 187
+  orig: 39, 187
+  offset: 0, 0
+  index: -1
+lud_denglong2
+  rotate: false
+  xy: 646, 52
+  size: 39, 187
+  orig: 39, 187
+  offset: 0, 0
+  index: -1
+lud_gan
+  rotate: true
+  xy: 2, 2
+  size: 237, 419
+  orig: 237, 419
+  offset: 0, 0
+  index: -1

@@ -176,7 +176,7 @@ end
 
 function IconListView:reload(hero,bAction,prefab)
     self:removeAllItem()
-    local list = hero:getBufferEffectMap()  
+    local list = hero:getEffectingBufferEffect()  
     for i, bufferEffect in ipairs(list) do
         if bufferEffect:isShowIcon() then
             self:createItem(bufferEffect,bAction,prefab)

@@ -1,0 +1,146 @@
+
+effects_29012_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+XL/d/boom/boom_000
+  rotate: true
+  xy: 2, 219
+  size: 230, 228
+  orig: 300, 280
+  offset: 56, 8
+  index: -1
+XL/d/boom/boom_001
+  rotate: false
+  xy: 571, 762
+  size: 262, 253
+  orig: 300, 280
+  offset: 30, 2
+  index: -1
+XL/d/boom/boom_003
+  rotate: false
+  xy: 2, 753
+  size: 280, 262
+  orig: 300, 280
+  offset: 16, 0
+  index: -1
+XL/d/boom/boom_005
+  rotate: false
+  xy: 284, 779
+  size: 285, 236
+  orig: 300, 280
+  offset: 15, 23
+  index: -1
+XL/d/boom/boom_007
+  rotate: true
+  xy: 2, 451
+  size: 300, 226
+  orig: 300, 280
+  offset: 0, 11
+  index: -1
+XL/d/boom/boom_009
+  rotate: true
+  xy: 835, 738
+  size: 277, 172
+  orig: 300, 280
+  offset: 17, 40
+  index: -1
+XL/d/boom/boom_011
+  rotate: false
+  xy: 293, 149
+  size: 158, 139
+  orig: 300, 280
+  offset: 76, 44
+  index: -1
+XL/d/boom/boom_013
+  rotate: false
+  xy: 505, 470
+  size: 112, 132
+  orig: 300, 280
+  offset: 84, 48
+  index: -1
+XL/d/daodan_000
+  rotate: false
+  xy: 2, 2
+  size: 97, 33
+  orig: 100, 63
+  offset: 0, 16
+  index: -1
+XL/d/huo/huo_000
+  rotate: false
+  xy: 2, 37
+  size: 168, 180
+  orig: 200, 200
+  offset: 8, 0
+  index: -1
+XL/d/huo/huo_001
+  rotate: false
+  xy: 506, 604
+  size: 156, 156
+  orig: 200, 200
+  offset: 13, 24
+  index: -1
+XL/d/huo/huo_002
+  rotate: false
+  xy: 330, 607
+  size: 174, 170
+  orig: 200, 200
+  offset: 6, 17
+  index: -1
+XL/d/huo/huo_003
+  rotate: false
+  xy: 330, 443
+  size: 173, 162
+  orig: 200, 200
+  offset: 7, 25
+  index: -1
+XL/d/huo/huo_004
+  rotate: false
+  xy: 293, 290
+  size: 168, 151
+  orig: 200, 200
+  offset: 11, 30
+  index: -1
+XL/d/huo/huo_005
+  rotate: false
+  xy: 664, 615
+  size: 156, 145
+  orig: 200, 200
+  offset: 23, 36
+  index: -1
+XL/d/qi/qi_000
+  rotate: true
+  xy: 463, 374
+  size: 67, 36
+  orig: 80, 50
+  offset: 9, 7
+  index: -1
+XL/d/qi/qi_001
+  rotate: true
+  xy: 172, 149
+  size: 68, 36
+  orig: 80, 50
+  offset: 8, 7
+  index: -1
+XL/dilie_000
+  rotate: true
+  xy: 230, 451
+  size: 300, 98
+  orig: 300, 100
+  offset: 0, 1
+  index: -1
+XL/glow_000
+  rotate: false
+  xy: 822, 636
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+XL/guangquan_000
+  rotate: true
+  xy: 232, 198
+  size: 251, 59
+  orig: 256, 70
+  offset: 3, 5
+  index: -1

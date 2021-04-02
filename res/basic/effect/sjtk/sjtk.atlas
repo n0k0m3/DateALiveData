@@ -1,0 +1,146 @@
+
+sjtk.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ban
+  rotate: false
+  xy: 2, 770
+  size: 424, 220
+  orig: 424, 220
+  offset: 0, 0
+  index: -1
+images/bk/bk_00000
+  rotate: false
+  xy: 2, 642
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00001
+  rotate: false
+  xy: 428, 864
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00002
+  rotate: false
+  xy: 2, 514
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00003
+  rotate: true
+  xy: 234, 538
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00004
+  rotate: false
+  xy: 660, 864
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00005
+  rotate: false
+  xy: 2, 386
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00006
+  rotate: false
+  xy: 2, 258
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00007
+  rotate: true
+  xy: 234, 306
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00008
+  rotate: false
+  xy: 2, 130
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00009
+  rotate: false
+  xy: 2, 2
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00010
+  rotate: true
+  xy: 234, 74
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00011
+  rotate: false
+  xy: 428, 736
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00012
+  rotate: false
+  xy: 660, 736
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00013
+  rotate: true
+  xy: 892, 760
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/bk/bk_00014
+  rotate: false
+  xy: 362, 608
+  size: 230, 126
+  orig: 230, 126
+  offset: 0, 0
+  index: -1
+images/dai
+  rotate: true
+  xy: 594, 671
+  size: 63, 196
+  orig: 63, 196
+  offset: 0, 0
+  index: -1
+images/g
+  rotate: false
+  xy: 362, 488
+  size: 220, 118
+  orig: 220, 118
+  offset: 0, 0
+  index: -1
+images/hua
+  rotate: true
+  xy: 234, 10
+  size: 62, 109
+  orig: 62, 109
+  offset: 0, 0
+  index: -1
+images/huaban
+  rotate: false
+  xy: 362, 438
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1

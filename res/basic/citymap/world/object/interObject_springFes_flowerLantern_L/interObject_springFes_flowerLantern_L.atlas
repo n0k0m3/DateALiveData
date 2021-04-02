@@ -1,0 +1,76 @@
+
+interObject_springFes_flowerLantern_L.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ggg2
+  rotate: false
+  xy: 2, 13
+  size: 221, 221
+  orig: 221, 221
+  offset: 0, 0
+  index: -1
+lhd1
+  rotate: false
+  xy: 225, 134
+  size: 124, 100
+  orig: 124, 100
+  offset: 0, 0
+  index: -1
+lianyi_000
+  rotate: false
+  xy: 351, 170
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+lianyi_002
+  rotate: false
+  xy: 481, 170
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+lianyi_004
+  rotate: false
+  xy: 611, 170
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+lianyi_006
+  rotate: false
+  xy: 741, 170
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+lianyi_008
+  rotate: false
+  xy: 871, 170
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+lianyi_010
+  rotate: false
+  xy: 225, 68
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+lianyi_012
+  rotate: false
+  xy: 225, 2
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+lianyi_014
+  rotate: false
+  xy: 355, 104
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1

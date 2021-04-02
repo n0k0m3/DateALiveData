@@ -1,0 +1,27 @@
+
+main_effect_12602_up.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bai_045
+  rotate: false
+  xy: 2, 62
+  size: 281, 160
+  orig: 594, 380
+  offset: 160, 114
+  index: -1
+images/xiangji_030
+  rotate: false
+  xy: 2, 224
+  size: 410, 254
+  orig: 704, 418
+  offset: 137, 86
+  index: -1
+images/xiangjikuang_030
+  rotate: false
+  xy: 2, 480
+  size: 982, 504
+  orig: 1112, 636
+  offset: 65, 68
+  index: -1

@@ -86,6 +86,7 @@ function SummonContractMainView:addTaskItem()
     end
     self.GridView_task:pushBackCustomItem(foo.root)
     self.idx = self.idx + 1
+    return foo.root
 end
 
 function SummonContractMainView:removeUI(  )
@@ -199,21 +200,10 @@ function SummonContractMainView:updateContractState()
 end
 
 function SummonContractMainView:updateAllTaskItem()
-    local items = self.GridView_task:getItems()
+
     self.showCfg = SummonDataMgr:getShowTaskItemList()
-    local taskList = self.showCfg.items
-    local gaps = #taskList - #items
-    for i = 1, math.abs(gaps) do
-        if gaps > 0 then
-            self:addTaskItem()
-        else
-            local item = self.GridView_task:getItem(1)
-            self.taskItems_[item] = nil
-            self.GridView_task:removeItem(1)
-        end
-    end
-    for i, v in ipairs(self.GridView_task:getItems()) do
-        local taskCid = taskList[i]
+    self.GridView_task:AsyncUpdateItem(self.showCfg.items,function ( v, taskCid )
+        -- body
         local taskCfg = TaskDataMgr:getTaskCfg(taskCid)
         local taskInfo = TaskDataMgr:getTaskInfo(taskCid) or {status = EC_TaskStatus.ING}
         local foo = self.taskItems_[v]
@@ -252,7 +242,10 @@ function SummonContractMainView:updateAllTaskItem()
                     TaskDataMgr:send_TASK_SUBMIT_TASK(taskCid)
                 end
         end)
-    end
+    end, function (  )
+        -- body
+        return self:addTaskItem()
+    end)
     self:checkShowBuyStageAni()
 end
 

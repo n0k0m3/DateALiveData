@@ -299,4 +299,52 @@ return {
             x = 1000,
         },
     },
+    [26] = {
+        show = 1,
+        heroSkinId = 1128011,
+        sort = 7,
+        id = 26,
+        heroId = 112801,
+        scale  = 0.35,
+        paintPosition = {
+            y = 220,
+            x = 1000,
+        },
+    },
+    [27] = {
+        show = 0,
+        heroSkinId = 1131011,
+        sort = 8,
+        id = 27,
+        heroId = 113101,
+        scale  = 0.35,
+        paintPosition = {
+            y = 220,
+            x = 1000,
+        },
+    },
+    [28] = {
+        show = 0,
+        heroSkinId = 1132011,
+        sort = 9,
+        id = 28,
+        heroId = 113201,
+        scale  = 0.35,
+        paintPosition = {
+            y = 220,
+            x = 1000,
+        },
+    },
+    [29] = {
+        show = 0,
+        heroSkinId = 1133011,
+        sort = 10,
+        id = 29,
+        heroId = 113301,
+        scale  = 0.35,
+        paintPosition = {
+            y = 220,
+            x = 1000,
+        },
+    },
 }

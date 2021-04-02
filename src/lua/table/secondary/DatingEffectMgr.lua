@@ -141,6 +141,20 @@ return {
         speBg = "",
         Zorder = 0,
     },
+    [411214] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_11214/main_effect_11214",
+        action = "beijing",
+        isLoop = true,
+        id = 411214,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
     [1018] = {
         offset = {
         },
@@ -1001,6 +1015,20 @@ return {
         speBg = "",
         Zorder = 0,
     },
+    [410222] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_10222/main_effect_10222",
+        action = "down",
+        isLoop = true,
+        id = 410222,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 1,
+    },
     [1072] = {
         offset = {
         },
@@ -1466,7 +1494,7 @@ return {
     [4127023] = {
         offset = {
         },
-        path = "effect/dating/ui_superKanban_13002/main_effect_12702",
+        path = "effect/dating/ui_superKanban_12702/main_effect_12702",
         action = "main_effect_12702_02",
         isLoop = false,
         id = 4127023,
@@ -1519,6 +1547,20 @@ return {
         speBg = "",
         Zorder = 0,
     },
+    [413303] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_13303/main_effect_13303",
+        action = "up",
+        isLoop = true,
+        id = 413303,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
     [1102] = {
         offset = {
         },
@@ -1546,6 +1588,20 @@ return {
         isDelete = true,
         speBg = "",
         Zorder = 0,
+    },
+    [4126021] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_12602/main_effect_12602_up",
+        action = "main_effect_12602_up",
+        isLoop = false,
+        id = 4126021,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 2,
     },
     [1104] = {
         offset = {
@@ -1873,6 +1929,20 @@ return {
         speBg = "",
         Zorder = 0,
     },
+    [412802] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_12802/main_effect_12802",
+        action = "animation",
+        isLoop = true,
+        id = 412802,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
     [1122] = {
         offset = {
         },
@@ -2042,6 +2112,22 @@ return {
         isDelete = true,
         speBg = "",
         Zorder = 0,
+    },
+    [410125] = {
+        offset = {
+            y = 13,
+            x = 0,
+        },
+        path = "effect/dating/ui_superKanban_10125/main_effect_yanhua",
+        action = "animation",
+        isLoop = false,
+        id = 410125,
+        particle = "",
+        lag = 1.3,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 1,
     },
     [410509] = {
         offset = {
@@ -2297,6 +2383,20 @@ return {
         speBg = "",
         Zorder = 0,
     },
+    [410117] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_10117/effect_main_10120",
+        action = "animation",
+        isLoop = true,
+        id = 410117,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
     [4112091] = {
         offset = {
         },
@@ -2383,6 +2483,20 @@ return {
         speBg = "scene/bg/kanban/bg_11315_base.png",
         Zorder = 0,
     },
+    [4102221] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_10222/main_effect_10222",
+        action = "up",
+        isLoop = true,
+        id = 4102221,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 2,
+    },
     [4110061] = {
         offset = {
             y = 0,
@@ -2427,13 +2541,69 @@ return {
         speBg = "",
         Zorder = 0,
     },
+    [4112142] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_11214/main_effect_11214",
+        action = "zhong",
+        isLoop = true,
+        id = 4112142,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
+    [411010] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_11010/main_effect_11010",
+        action = "animation",
+        isLoop = true,
+        id = 411010,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
     [410416] = {
         offset = {
         },
         path = "effect/dating/ui_superKanban_10416/effects_hfkuangsankanban",
-        action = "effects_hfkuangsankanban_all",
+        action = "effects_hfkuangsankanban_down",
         isLoop = true,
         id = 410416,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
+    [4104161] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_10416/effects_hfkuangsankanban",
+        action = "effects_hfkuangsankanban_up ",
+        isLoop = true,
+        id = 4104161,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
+    [4101234] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_10123/main_effect_10123",
+        action = "animation4",
+        isLoop = true,
+        id = 4101234,
         particle = "",
         lag = 0,
         scales = 1,
@@ -2468,6 +2638,34 @@ return {
         isDelete = true,
         speBg = "scene/bg/kanban/bg_wanyouli_high_11212.png",
         Zorder = 1,
+    },
+    [4126022] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_12602/main_effect_12602_down1",
+        action = "main_effect_12602_down1",
+        isLoop = false,
+        id = 4126022,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
+    [1120] = {
+        offset = {
+        },
+        path = "",
+        action = "",
+        isLoop = true,
+        id = 1120,
+        particle = "",
+        lag = 0,
+        scales = 0,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
     },
     [4113182] = {
         offset = {
@@ -2576,6 +2774,20 @@ return {
         action = "animation",
         isLoop = true,
         id = 410119,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
+    [4112141] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_11214/main_effect_11214",
+        action = "qian",
+        isLoop = true,
+        id = 4112141,
         particle = "",
         lag = 0,
         scales = 1,
@@ -2921,13 +3133,13 @@ return {
         speBg = "scene/bg/kanban/bg_10708_base.png",
         Zorder = 0,
     },
-    [4101234] = {
+    [410426] = {
         offset = {
         },
-        path = "effect/dating/ui_superKanban_10123/main_effect_10123",
-        action = "animation4",
+        path = "effect/dating/ui_superKanban_10426/main_effect_10426",
+        action = "animation",
         isLoop = true,
-        id = 4101234,
+        id = 410426,
         particle = "",
         lag = 0,
         scales = 1,
@@ -3159,16 +3371,16 @@ return {
         speBg = "",
         Zorder = 0,
     },
-    [1120] = {
+    [412602] = {
         offset = {
         },
-        path = "",
-        action = "",
+        path = "effect/dating/ui_superKanban_12602/main_effect_12602_down",
+        action = "main_effect_12602_down",
         isLoop = true,
-        id = 1120,
+        id = 412602,
         particle = "",
         lag = 0,
-        scales = 0,
+        scales = 1,
         isDelete = true,
         speBg = "",
         Zorder = 0,

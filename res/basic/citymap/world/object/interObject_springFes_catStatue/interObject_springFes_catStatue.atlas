@@ -1,0 +1,13 @@
+
+interObject_springFes_catStatue.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mmdx1
+  rotate: false
+  xy: 2, 2
+  size: 139, 170
+  orig: 139, 170
+  offset: 0, 0
+  index: -1

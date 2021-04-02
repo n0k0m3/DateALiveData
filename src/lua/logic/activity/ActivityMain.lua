@@ -497,6 +497,7 @@ function ActivityMain:receiveReward()
 end
 
 function ActivityMain:updateSign()
+    self.singItems_ = self.singItems_ or {}
     local actIdx = ActivityDataMgr:getActIdx(EC_ActivityType.SIGN)
     local entryCnt = ActivityDataMgr:getActEntryCnt(actIdx)
 
@@ -505,7 +506,6 @@ function ActivityMain:updateSign()
 
     local Panel_reward = TFDirector:getChildByPath(self.Panel_sign, "Panel_reward")
     local size = Panel_reward:getSize()
-    Panel_reward:removeAllChildren();
 
     local Image_item_bg = TFDirector:getChildByPath(self.Panel_prefab, "Image_item_bg")
     local receivedIdx   = ActivityDataMgr:getReceivedIndex(actIdx);
@@ -524,8 +524,7 @@ function ActivityMain:updateSign()
     end
     self.Panel_sign.lab_signLastNum:setText(canSignDay)
     self.Panel_sign.img_signNum:setVisible(nil ~= _cfg)
-
-    --修改多语言补签文本
+	--修改多语言补签文本
     local label_sign = self.Panel_sign.img_signNum:getChildByName("lab_signLastNum-Copy1")
     label_sign:setTextById(190000541 ,canSignDay)
     label_sign:setAnchorPoint(ccp(0 , 0.5))
@@ -533,26 +532,34 @@ function ActivityMain:updateSign()
     self.Panel_sign.lab_signLastNum:setText("")
     self.Panel_sign.lab_signLastNum:setPositionX(-120)
 
+    local index = 1
+    local function loadSignItem()
+        if index > entryCnt then return end
+        local item = self.singItems_[index]
+        if not item then
+            item = Image_item_bg:clone():show()
+            local i = (index-1) % col + 1
+            local j = math.ceil(index / col)
 
-    for index = 1, entryCnt do
-        local i = (index-1) % col + 1
-        local j = math.ceil(index / col)
+            local x = (i-0.5) * (size.width / col)
+            local y = (row-j+0.5) * (size.height / row)
 
-        local x = (i-0.5) * (size.width / col)
-        local y = (row-j+0.5) * (size.height / row)
-
-        local item = Image_item_bg:clone():show()
-        Panel_reward:addChild(item)
-        item:setScale(0.9)
-        item:setPosition(ccp(x, y))
-        self:updateOneSignEntry(item,index);
-
-
-        -- if index < receivedIdx then
-        --     item:getChild("Image_gray"):show()
-        --     --item:setGrayEnabled(true);
-        -- end
+            Panel_reward:addChild(item)
+            item:setScale(0.9)
+            item:setPosition(ccp(x, y))
+            self.singItems_[index] = item
+        end
+        self:updateOneSignEntry(item,index)
+        index = index + 1
+        local seq = Sequence:create({
+                DelayTime:create(0.01),
+                CallFunc:create(function()
+                        loadSignItem()
+                end)
+        })
+        item:runAction(seq)
     end
+    loadSignItem()
 
     self.Button_receive:setGrayEnabled(not isCanReceive and not canSignAain);
     self.Button_receive:setTouchEnabled(isCanReceive or canSignAain);

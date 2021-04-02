@@ -1,0 +1,271 @@
+
+effects_10302_skillE2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/glow_000
+  rotate: false
+  xy: 584, 77
+  size: 76, 76
+  orig: 80, 80
+  offset: 2, 2
+  index: -1
+images/effects/kuoqi_000
+  rotate: false
+  xy: 682, 62
+  size: 211, 208
+  orig: 240, 240
+  offset: 14, 18
+  index: -1
+images/effects/skille/bingbao/bingbao_004
+  rotate: false
+  xy: 2, 318
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+images/effects/skille/bingkuai/bingkuai_000
+  rotate: false
+  xy: 584, 16
+  size: 66, 59
+  orig: 264, 240
+  offset: 104, 49
+  index: -1
+images/effects/skille/bingqi/bingqi_000
+  rotate: false
+  xy: 2, 874
+  size: 440, 148
+  orig: 440, 160
+  offset: 0, 2
+  index: -1
+images/effects/skille/bingqi/bingqi_002
+  rotate: false
+  xy: 2, 724
+  size: 440, 148
+  orig: 440, 160
+  offset: 0, 2
+  index: -1
+images/effects/skille/bingqi/bingqi_004
+  rotate: false
+  xy: 2, 600
+  size: 439, 122
+  orig: 440, 160
+  offset: 0, 22
+  index: -1
+images/effects/skille/bingqi/bingqi_006
+  rotate: false
+  xy: 414, 396
+  size: 430, 123
+  orig: 440, 160
+  offset: 0, 18
+  index: -1
+images/effects/skille/bingqi/bingqi_008
+  rotate: false
+  xy: 444, 895
+  size: 438, 127
+  orig: 440, 160
+  offset: 0, 15
+  index: -1
+images/effects/skille/bingqi/bingqi_010
+  rotate: false
+  xy: 444, 769
+  size: 433, 124
+  orig: 440, 160
+  offset: 0, 18
+  index: -1
+images/effects/skille/bingqi/bingqi_012
+  rotate: false
+  xy: 443, 521
+  size: 431, 125
+  orig: 440, 160
+  offset: 1, 17
+  index: -1
+images/effects/skille/bingqi/bingqi_014
+  rotate: false
+  xy: 414, 272
+  size: 429, 122
+  orig: 440, 160
+  offset: 4, 20
+  index: -1
+images/effects/skille/bingqi/bingqi_016
+  rotate: false
+  xy: 444, 648
+  size: 435, 119
+  orig: 440, 160
+  offset: 0, 22
+  index: -1
+images/effects/skille/bingqi/bingqi_018
+  rotate: false
+  xy: 262, 155
+  size: 418, 115
+  orig: 440, 160
+  offset: 10, 23
+  index: -1
+images/effects/skille/bingquan/bingquan_000
+  rotate: true
+  xy: 132, 5
+  size: 311, 128
+  orig: 320, 128
+  offset: 0, 0
+  index: -1
+images/effects/skille/bingquan/bingquan_002
+  rotate: true
+  xy: 284, 290
+  size: 308, 128
+  orig: 320, 128
+  offset: 0, 0
+  index: -1
+images/effects/skille/bingquan/bingquan_004
+  rotate: true
+  xy: 884, 713
+  size: 309, 128
+  orig: 320, 128
+  offset: 0, 0
+  index: -1
+images/effects/skille/bingquan/bingquan_006
+  rotate: true
+  xy: 2, 2
+  size: 314, 128
+  orig: 320, 128
+  offset: 0, 0
+  index: -1
+images/effects/skille/bingquan/bingquan_008
+  rotate: false
+  xy: 262, 25
+  size: 320, 128
+  orig: 320, 128
+  offset: 0, 0
+  index: -1
+images/effects/skille/bingquan/bingquan_010
+  rotate: true
+  xy: 881, 391
+  size: 320, 128
+  orig: 320, 128
+  offset: 0, 0
+  index: -1
+
+effects_10302_skillE22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/juqi1_000
+  rotate: true
+  xy: 801, 529
+  size: 155, 147
+  orig: 160, 160
+  offset: 5, 7
+  index: -1
+images/effects/skille/bingbao/bingbao_000
+  rotate: false
+  xy: 814, 331
+  size: 147, 196
+  orig: 280, 280
+  offset: 71, 48
+  index: -1
+images/effects/skille/bingbao/bingbao_002
+  rotate: false
+  xy: 2, 453
+  size: 280, 273
+  orig: 280, 280
+  offset: 0, 7
+  index: -1
+images/effects/skille/bingbao/bingbao_006
+  rotate: false
+  xy: 2, 728
+  size: 280, 278
+  orig: 280, 280
+  offset: 0, 2
+  index: -1
+images/effects/skille/bingbao/bingbao_008
+  rotate: false
+  xy: 559, 762
+  size: 262, 244
+  orig: 280, 280
+  offset: 16, 15
+  index: -1
+images/effects/skille/bingbao/bingbao_010
+  rotate: false
+  xy: 284, 758
+  size: 273, 248
+  orig: 280, 280
+  offset: 0, 11
+  index: -1
+images/effects/skille/bingbao/bingbao_012
+  rotate: false
+  xy: 2, 201
+  size: 257, 250
+  orig: 280, 280
+  offset: 16, 9
+  index: -1
+images/effects/skille/bingbao/bingbao_014
+  rotate: false
+  xy: 284, 506
+  size: 257, 250
+  orig: 280, 280
+  offset: 16, 8
+  index: -1
+images/effects/skille/bingbao/bingbao_016
+  rotate: false
+  xy: 543, 506
+  size: 256, 250
+  orig: 280, 280
+  offset: 21, 8
+  index: -1
+images/effects/skille/bingkuai/bingkuai_002
+  rotate: false
+  xy: 2, 2
+  size: 212, 197
+  orig: 264, 240
+  offset: 23, 13
+  index: -1
+images/effects/skille/bingkuai/bingkuai_004
+  rotate: false
+  xy: 583, 39
+  size: 251, 229
+  orig: 264, 240
+  offset: 4, 2
+  index: -1
+images/effects/skille/bingkuai/bingkuai_006
+  rotate: false
+  xy: 284, 270
+  size: 263, 234
+  orig: 264, 240
+  offset: 1, 0
+  index: -1
+images/effects/skille/bingkuai/bingkuai_008
+  rotate: false
+  xy: 549, 270
+  size: 263, 234
+  orig: 264, 240
+  offset: 1, 0
+  index: -1
+images/effects/skille/bingquan/bingquan_012
+  rotate: true
+  xy: 823, 686
+  size: 320, 128
+  orig: 320, 128
+  offset: 0, 0
+  index: -1
+images/effects/skille/bingquan/bingquan_014
+  rotate: false
+  xy: 261, 140
+  size: 320, 128
+  orig: 320, 128
+  offset: 0, 0
+  index: -1
+images/effects/skille/bingquan/bingquan_016
+  rotate: false
+  xy: 216, 10
+  size: 320, 128
+  orig: 320, 128
+  offset: 0, 0
+  index: -1
+images/effects/skille/bingquan/bingquan_018
+  rotate: true
+  xy: 836, 9
+  size: 320, 128
+  orig: 320, 128
+  offset: 0, 0
+  index: -1

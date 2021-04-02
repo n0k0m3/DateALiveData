@@ -52,7 +52,8 @@ function VictoryDecide.init(data, agent)
     or this.nViewType == EC_LevelPassCond.LIMIT_TIME_KILL2 -- 日常副本(限时杀怪)
     or this.nViewType == EC_LevelPassCond.TIMING  -- 日常副本计时
     or this.nViewType == EC_LevelPassCond.HALLOWEEN_DESTORY
-    or this.nViewType == EC_LevelPassCond.GUARDMODE_3 then
+    or this.nViewType == EC_LevelPassCond.GUARDMODE_3
+    or this.nViewType == EC_LevelPassCond.KILL_ALL_OR_LIMIT  then
         -- this.nSecondTime    = cfg.victoryParam[1]
         -- this.nRemainingTime = cfg.victoryParam[1]*1000
         this.nSecondTime    = BattleDataMgr:getLevelCfg().time   --this.data.time 
@@ -352,7 +353,8 @@ function VictoryDecide.update(dt)
     or this.nViewType == EC_LevelPassCond.LIMIT_TIME_KILL2 -- 日常副本(限时杀怪)
     or this.nViewType == EC_LevelPassCond.TIMING  -- 日常副本计时
     or this.nViewType == EC_LevelPassCond.HALLOWEEN_DESTORY 
-    or this.nViewType == EC_LevelPassCond.SCORE then
+    or this.nViewType == EC_LevelPassCond.SCORE 
+    or this.nViewType == EC_LevelPassCond.KILL_ALL_OR_LIMIT then
     -- or this.nViewType == EC_LevelPassCond.GUARDMODE then  --守护模式没有时间限制 @周浩然
         this.scoreUpdate(dt)
         this.countDown(dt)
@@ -368,6 +370,13 @@ end
 -- 3在限定时间内击杀一定数量怪物，4目标击杀-具体怪物，5目标击杀-怪物类型，6目标击杀-怪物数量
 function VictoryDecide.getData()
     return this.data
+end
+
+function VictoryDecide.checkLastResult(isWin)
+    if this.nViewType == EC_LevelPassCond.KILL_ALL_OR_LIMIT then    -- 限时杀怪
+        return statistics.killNum >= this.data[1].victoryParam[2]
+    end
+    return isWin
 end
 
 --检查获胜条件
@@ -470,6 +479,19 @@ function VictoryDecide.checkResult()
         end 
         if this.nRemainingTime <= 0 then
             this.agent.endBattle(true)
+        end
+    elseif this.nViewType == EC_LevelPassCond.KILL_ALL_OR_LIMIT then    -- 限时杀怪
+        local members =  this.agent.getEnemyMember__()
+        if statistics.killNum >= this.data[1].victoryParam[1] and #members < 1 then 
+             this.agent.endBattle(true)
+             return
+        end
+        if this.nRemainingTime <= 0 then
+            if statistics.killNum >= this.data[1].victoryParam[2] then 
+                this.agent.endBattle(true)
+            else
+                this.agent.endBattle(false)
+            end
         end
     else
 

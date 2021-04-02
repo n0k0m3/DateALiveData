@@ -1,0 +1,132 @@
+
+effect_dicuo_particle.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hong
+  rotate: false
+  xy: 494, 494
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+images/hong/hong_000
+  rotate: false
+  xy: 272, 17
+  size: 89, 89
+  orig: 164, 140
+  offset: 37, 24
+  index: -1
+images/hong/hongdi_000
+  rotate: false
+  xy: 319, 238
+  size: 137, 128
+  orig: 164, 140
+  offset: 14, 4
+  index: -1
+images/hong/hongdiglow_000
+  rotate: false
+  xy: 161, 367
+  size: 156, 140
+  orig: 164, 140
+  offset: 4, 0
+  index: -1
+images/hong/hongglow_000
+  rotate: false
+  xy: 2, 231
+  size: 133, 130
+  orig: 164, 140
+  offset: 15, 4
+  index: -1
+images/hong1
+  rotate: false
+  xy: 494, 479
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+images/huang
+  rotate: false
+  xy: 475, 490
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+images/huang1
+  rotate: false
+  xy: 475, 471
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+images/jin/huang_000
+  rotate: false
+  xy: 137, 14
+  size: 89, 89
+  orig: 154, 142
+  offset: 33, 22
+  index: -1
+images/jin/huangglow_000
+  rotate: false
+  xy: 137, 105
+  size: 133, 130
+  orig: 154, 142
+  offset: 11, 2
+  index: -1
+images/jin/jindi_000
+  rotate: false
+  xy: 161, 237
+  size: 137, 128
+  orig: 154, 142
+  offset: 10, 2
+  index: -1
+images/jin/jindiglow_000
+  rotate: false
+  xy: 319, 368
+  size: 154, 139
+  orig: 154, 142
+  offset: 0, 0
+  index: -1
+images/lan
+  rotate: false
+  xy: 494, 464
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+images/lan/lan_000
+  rotate: false
+  xy: 2, 8
+  size: 89, 89
+  orig: 164, 149
+  offset: 38, 27
+  index: -1
+images/lan/landi_000
+  rotate: false
+  xy: 300, 108
+  size: 137, 128
+  orig: 164, 149
+  offset: 15, 7
+  index: -1
+images/lan/landiglow_000
+  rotate: false
+  xy: 2, 363
+  size: 157, 144
+  orig: 164, 149
+  offset: 4, 0
+  index: -1
+images/lan/langlow_000
+  rotate: false
+  xy: 2, 99
+  size: 133, 130
+  orig: 164, 149
+  offset: 16, 7
+  index: -1
+images/lan1
+  rotate: true
+  xy: 475, 460
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1

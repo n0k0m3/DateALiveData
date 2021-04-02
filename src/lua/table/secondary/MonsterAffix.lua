@@ -3586,6 +3586,26 @@ return {
             [4] = 16000126,
         },
     },
+    [635] = {
+        action = "",
+        attributeBuffers = {
+        },
+        id = 635,
+        effectBuffers = {
+            [1] = 10031,
+        },
+        affixIcon4 = "",
+        affixDesc = {
+            [1] = 16000640,
+        },
+        affixIcon1 = "icon/hero/affix/affix_88.png",
+        affixIcon3 = "",
+        affixIcon2 = "",
+        resource = "",
+        affixName = {
+            [1] = 16000636,
+        },
+    },
     [510] = {
         action = "effects_extra_common",
         attributeBuffers = {
@@ -3843,6 +3863,26 @@ return {
             [1] = 16000340,
         },
     },
+    [637] = {
+        action = "",
+        attributeBuffers = {
+        },
+        id = 637,
+        effectBuffers = {
+            [1] = 10033,
+        },
+        affixIcon4 = "",
+        affixDesc = {
+            [1] = 16000642,
+        },
+        affixIcon1 = "icon/hero/affix/affix_13_hunluan.png",
+        affixIcon3 = "",
+        affixIcon2 = "",
+        resource = "",
+        affixName = {
+            [1] = 16000638,
+        },
+    },
     [511] = {
         action = "effects_extra_one_02",
         attributeBuffers = {
@@ -4090,6 +4130,26 @@ return {
             [1] = 16000344,
         },
     },
+    [638] = {
+        action = "",
+        attributeBuffers = {
+        },
+        id = 638,
+        effectBuffers = {
+            [1] = 10034,
+        },
+        affixIcon4 = "",
+        affixDesc = {
+            [1] = 16000643,
+        },
+        affixIcon1 = "icon/hero/affix/affix_54_bingdong.png",
+        affixIcon3 = "",
+        affixIcon2 = "",
+        resource = "",
+        affixName = {
+            [1] = 16000639,
+        },
+    },
     [512] = {
         action = "effects_extra_common",
         attributeBuffers = {
@@ -4142,6 +4202,26 @@ return {
         affixIcon2 = "icon/hero/affix/affix_101.png",
         resource = "effects_extra_one",
         affixName = {
+        },
+    },
+    [636] = {
+        action = "",
+        attributeBuffers = {
+        },
+        id = 636,
+        effectBuffers = {
+            [1] = 10032,
+        },
+        affixIcon4 = "",
+        affixDesc = {
+            [1] = 16000641,
+        },
+        affixIcon1 = "icon/hero/affix/affix_35_hunluan.png",
+        affixIcon3 = "",
+        affixIcon2 = "",
+        resource = "",
+        affixName = {
+            [1] = 16000637,
         },
     },
     [305] = {

@@ -90,7 +90,7 @@ function SuperArmor:update(time)
 					self.hero:getActor():refresh()
 				end
 		        --UI Boss 血条更新
-		        if self.hero:isBoss() or self.hero:hasAffixData() then
+		        if self.hero:enableUpdateBossPanel() then
 		            EventMgr:dispatchEvent(eEvent.EVENT_BOSS_CHANGE, self.hero)
 				end
 			end

@@ -1,0 +1,202 @@
+
+effects_12301_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baodian/baodian_00023
+  rotate: false
+  xy: 2, 229
+  size: 147, 146
+  orig: 298, 242
+  offset: 72, 57
+  index: -1
+baodian/baodian_00024
+  rotate: false
+  xy: 259, 601
+  size: 210, 205
+  orig: 298, 242
+  offset: 41, 29
+  index: -1
+baodian/baodian_00026
+  rotate: false
+  xy: 276, 808
+  size: 253, 214
+  orig: 298, 242
+  offset: 20, 28
+  index: -1
+baodian/baodian_00028
+  rotate: false
+  xy: 2, 808
+  size: 272, 214
+  orig: 298, 242
+  offset: 11, 28
+  index: -1
+baodian/baodian_00030
+  rotate: false
+  xy: 2, 592
+  size: 255, 214
+  orig: 298, 242
+  offset: 20, 28
+  index: -1
+baodian/baodian_00032
+  rotate: false
+  xy: 2, 377
+  size: 240, 213
+  orig: 298, 242
+  offset: 28, 29
+  index: -1
+baodian/baodian_00034
+  rotate: true
+  xy: 612, 550
+  size: 130, 129
+  orig: 298, 242
+  offset: 79, 65
+  index: -1
+baodian/baodian_00036
+  rotate: false
+  xy: 743, 513
+  size: 130, 95
+  orig: 298, 242
+  offset: 80, 70
+  index: -1
+baozhakuosanhuan
+  rotate: false
+  xy: 531, 892
+  size: 202, 130
+  orig: 202, 130
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 17
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+guangxian
+  rotate: false
+  xy: 531, 824
+  size: 167, 66
+  orig: 167, 66
+  offset: 0, 0
+  index: -1
+hei
+  rotate: false
+  xy: 74, 32
+  size: 56, 55
+  orig: 56, 55
+  offset: 0, 0
+  index: -1
+xian/xian_00036
+  rotate: true
+  xy: 244, 392
+  size: 57, 15
+  orig: 78, 26
+  offset: 7, 7
+  index: -1
+xian/xian_00038
+  rotate: true
+  xy: 700, 828
+  size: 62, 15
+  orig: 78, 26
+  offset: 10, 7
+  index: -1
+xian/xian_00040
+  rotate: false
+  xy: 531, 808
+  size: 40, 14
+  orig: 78, 26
+  offset: 32, 7
+  index: -1
+xian/xian_00042
+  rotate: false
+  xy: 2, 6
+  size: 11, 9
+  orig: 78, 26
+  offset: 60, 9
+  index: -1
+xuanfeng/xuanfeng_00003
+  rotate: false
+  xy: 287, 317
+  size: 101, 132
+  orig: 178, 166
+  offset: 40, 7
+  index: -1
+xuanfeng/xuanfeng_00004
+  rotate: true
+  xy: 471, 550
+  size: 112, 139
+  orig: 178, 166
+  offset: 34, 7
+  index: -1
+xuanfeng/xuanfeng_00005
+  rotate: false
+  xy: 244, 451
+  size: 123, 139
+  orig: 178, 166
+  offset: 27, 7
+  index: -1
+xuanfeng/xuanfeng_00006
+  rotate: false
+  xy: 743, 610
+  size: 130, 134
+  orig: 178, 166
+  offset: 24, 7
+  index: -1
+xuanfeng/xuanfeng_00008
+  rotate: false
+  xy: 877, 751
+  size: 137, 133
+  orig: 178, 166
+  offset: 18, 7
+  index: -1
+xuanfeng/xuanfeng_00010
+  rotate: true
+  xy: 608, 682
+  size: 140, 132
+  orig: 178, 166
+  offset: 16, 7
+  index: -1
+xuanfeng/xuanfeng_00012
+  rotate: false
+  xy: 2, 89
+  size: 142, 138
+  orig: 178, 166
+  offset: 15, 6
+  index: -1
+xuanfeng/xuanfeng_00014
+  rotate: false
+  xy: 735, 888
+  size: 143, 134
+  orig: 178, 166
+  offset: 15, 6
+  index: -1
+xuanfeng/xuanfeng_00016
+  rotate: true
+  xy: 742, 746
+  size: 140, 133
+  orig: 178, 166
+  offset: 18, 6
+  index: -1
+xuanfeng/xuanfeng_00018
+  rotate: true
+  xy: 151, 233
+  size: 142, 134
+  orig: 178, 166
+  offset: 16, 6
+  index: -1
+xuanfeng/xuanfeng_00020
+  rotate: true
+  xy: 471, 664
+  size: 142, 135
+  orig: 178, 166
+  offset: 15, 6
+  index: -1
+xuanfeng/xuanfeng_00021
+  rotate: false
+  xy: 880, 886
+  size: 142, 136
+  orig: 178, 166
+  offset: 15, 8
+  index: -1

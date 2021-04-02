@@ -1,0 +1,229 @@
+
+effects_29011_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SW/skillC/dihuo/dihuo_001
+  rotate: true
+  xy: 478, 4
+  size: 277, 109
+  orig: 360, 180
+  offset: 42, 42
+  index: -1
+SW/skillC/dihuo/dihuo_003
+  rotate: false
+  xy: 357, 895
+  size: 342, 127
+  orig: 360, 180
+  offset: 12, 29
+  index: -1
+SW/skillC/dihuo/dihuo_005
+  rotate: false
+  xy: 2, 893
+  size: 353, 129
+  orig: 360, 180
+  offset: 6, 29
+  index: -1
+SW/skillC/dihuo/dihuo_007
+  rotate: false
+  xy: 357, 766
+  size: 340, 127
+  orig: 360, 180
+  offset: 4, 29
+  index: -1
+SW/skillC/dihuo/dihuo_009
+  rotate: false
+  xy: 2, 770
+  size: 330, 121
+  orig: 360, 180
+  offset: 4, 29
+  index: -1
+SW/skillC/dihuo/dihuo_011
+  rotate: false
+  xy: 2, 655
+  size: 330, 113
+  orig: 360, 180
+  offset: 4, 29
+  index: -1
+SW/skillC/penhuo/penhuo_003
+  rotate: false
+  xy: 589, 5
+  size: 198, 276
+  orig: 260, 320
+  offset: 44, 33
+  index: -1
+SW/skillC/penhuo/penhuo_005
+  rotate: true
+  xy: 2, 428
+  size: 225, 294
+  orig: 260, 320
+  offset: 25, 23
+  index: -1
+SW/skillC/penhuo/penhuo_007
+  rotate: true
+  xy: 334, 534
+  size: 230, 296
+  orig: 260, 320
+  offset: 17, 21
+  index: -1
+SW/skillC/penhuo/penhuo_015
+  rotate: true
+  xy: 632, 296
+  size: 238, 292
+  orig: 260, 320
+  offset: 12, 25
+  index: -1
+SW/skillC/penhuo/penhuo_021
+  rotate: false
+  xy: 2, 2
+  size: 238, 292
+  orig: 260, 320
+  offset: 12, 25
+  index: -1
+SW/skillC/penhuo/penhuo_023
+  rotate: true
+  xy: 699, 536
+  size: 238, 304
+  orig: 260, 320
+  offset: 12, 13
+  index: -1
+SW/skillC/penhuo/penhuo_025
+  rotate: true
+  xy: 701, 776
+  size: 246, 306
+  orig: 260, 320
+  offset: 8, 11
+  index: -1
+SW/skillC/penhuo/penhuo_029
+  rotate: false
+  xy: 242, 4
+  size: 234, 277
+  orig: 260, 320
+  offset: 14, 37
+  index: -1
+SW/skillC/penhuo/penhuo_031
+  rotate: true
+  xy: 789, 49
+  size: 245, 135
+  orig: 260, 320
+  offset: 9, 42
+  index: -1
+SW/skillC/penhuo/penhuo_033
+  rotate: false
+  xy: 2, 297
+  size: 246, 129
+  orig: 260, 320
+  offset: 8, 45
+  index: -1
+SW/skillC/yan/yan_003
+  rotate: true
+  xy: 472, 289
+  size: 243, 95
+  orig: 300, 150
+  offset: 26, 22
+  index: -1
+SW/skillC/yan/yan_005
+  rotate: true
+  xy: 298, 284
+  size: 248, 97
+  orig: 300, 150
+  offset: 24, 22
+  index: -1
+SW/skillC/yan/yan_007
+  rotate: true
+  xy: 926, 283
+  size: 251, 96
+  orig: 300, 150
+  offset: 22, 22
+  index: -1
+SW/skillC/yan/yan_009
+  rotate: true
+  xy: 926, 28
+  size: 253, 95
+  orig: 300, 150
+  offset: 20, 22
+  index: -1
+SW/skillC/yan/yan_015
+  rotate: true
+  xy: 397, 286
+  size: 246, 73
+  orig: 300, 150
+  offset: 17, 26
+  index: -1
+
+effects_29011_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SW/skillC/penhuo/penhuo_001
+  rotate: false
+  xy: 97, 247
+  size: 133, 195
+  orig: 260, 320
+  offset: 77, 106
+  index: -1
+SW/skillC/penhuo/penhuo_009
+  rotate: false
+  xy: 745, 734
+  size: 234, 286
+  orig: 260, 320
+  offset: 14, 31
+  index: -1
+SW/skillC/penhuo/penhuo_011
+  rotate: false
+  xy: 2, 732
+  size: 245, 288
+  orig: 260, 320
+  offset: 9, 29
+  index: -1
+SW/skillC/penhuo/penhuo_013
+  rotate: false
+  xy: 249, 734
+  size: 246, 286
+  orig: 260, 320
+  offset: 8, 31
+  index: -1
+SW/skillC/penhuo/penhuo_017
+  rotate: false
+  xy: 2, 444
+  size: 245, 286
+  orig: 260, 320
+  offset: 9, 31
+  index: -1
+SW/skillC/penhuo/penhuo_019
+  rotate: false
+  xy: 497, 734
+  size: 246, 286
+  orig: 260, 320
+  offset: 8, 31
+  index: -1
+SW/skillC/penhuo/penhuo_027
+  rotate: false
+  xy: 249, 448
+  size: 243, 284
+  orig: 260, 320
+  offset: 10, 33
+  index: -1
+SW/skillC/yan/yan_001
+  rotate: true
+  xy: 2, 2
+  size: 182, 79
+  orig: 300, 150
+  offset: 52, 23
+  index: -1
+SW/skillC/yan/yan_011
+  rotate: true
+  xy: 2, 186
+  size: 256, 93
+  orig: 300, 150
+  offset: 17, 22
+  index: -1
+SW/skillC/yan/yan_013
+  rotate: false
+  xy: 494, 653
+  size: 254, 79
+  orig: 300, 150
+  offset: 16, 23
+  index: -1

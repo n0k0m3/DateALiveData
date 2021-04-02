@@ -355,6 +355,8 @@ return {
         formId = {
             [1] = 1010301,
             [2] = 1010302,
+            [3] = 1010901,
+            [4] = 1010902,
         },
         eventType = 5,
         roleId = 110103,
@@ -372,6 +374,8 @@ return {
         formId = {
             [1] = 1010301,
             [2] = 1010302,
+            [3] = 1010901,
+            [4] = 1010902,
         },
         eventType = 7,
         roleId = 110103,
@@ -391,6 +395,8 @@ return {
         formId = {
             [1] = 1010301,
             [2] = 1010302,
+            [3] = 1010901,
+            [4] = 1010902,
         },
         eventType = 6,
         roleId = 110103,
@@ -409,6 +415,8 @@ return {
         formId = {
             [1] = 1010301,
             [2] = 1010302,
+            [3] = 1010901,
+            [4] = 1010902,
         },
         eventType = 1,
         roleId = 110103,
@@ -425,6 +433,8 @@ return {
         formId = {
             [1] = 1010301,
             [2] = 1010302,
+            [3] = 1010901,
+            [4] = 1010902,
         },
         eventType = 4,
         roleId = 110103,
@@ -442,6 +452,8 @@ return {
         formId = {
             [1] = 1010301,
             [2] = 1010302,
+            [3] = 1010901,
+            [4] = 1010902,
         },
         eventType = 2,
         roleId = 110103,
@@ -458,6 +470,8 @@ return {
         formId = {
             [1] = 1010301,
             [2] = 1010302,
+            [3] = 1010901,
+            [4] = 1010902,
         },
         eventType = 3,
         roleId = 110103,
@@ -476,6 +490,8 @@ return {
         formId = {
             [1] = 1010301,
             [2] = 1010302,
+            [3] = 1010901,
+            [4] = 1010902,
         },
         eventType = 8,
         roleId = 110103,
@@ -492,6 +508,8 @@ return {
         formId = {
             [1] = 1010301,
             [2] = 1010302,
+            [3] = 1010901,
+            [4] = 1010902,
         },
         eventType = 8,
         roleId = 110103,
@@ -508,6 +526,8 @@ return {
         formId = {
             [1] = 1010301,
             [2] = 1010302,
+            [3] = 1010901,
+            [4] = 1010902,
         },
         eventType = 8,
         roleId = 110103,
@@ -1108,6 +1128,8 @@ return {
         id = 67,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 5,
         roleId = 110210,
@@ -1124,6 +1146,8 @@ return {
         id = 68,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 7,
         roleId = 110210,
@@ -1142,6 +1166,8 @@ return {
         id = 69,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 6,
         roleId = 110210,
@@ -1159,6 +1185,8 @@ return {
         id = 70,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 1,
         roleId = 110210,
@@ -1174,6 +1202,8 @@ return {
         id = 71,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 4,
         roleId = 110210,
@@ -1190,6 +1220,8 @@ return {
         id = 72,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 2,
         roleId = 110210,
@@ -1205,6 +1237,8 @@ return {
         id = 73,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 3,
         roleId = 110210,
@@ -1221,6 +1255,8 @@ return {
         id = 74,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 8,
         roleId = 110210,
@@ -1236,6 +1272,8 @@ return {
         id = 75,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 8,
         roleId = 110210,
@@ -1251,6 +1289,8 @@ return {
         id = 76,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 8,
         roleId = 110210,
@@ -1266,6 +1306,8 @@ return {
         id = 77,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 8,
         roleId = 110210,
@@ -1281,6 +1323,8 @@ return {
         id = 78,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 8,
         roleId = 110210,
@@ -1296,6 +1340,8 @@ return {
         id = 79,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 5,
         roleId = 110211,
@@ -1312,6 +1358,8 @@ return {
         id = 80,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 7,
         roleId = 110211,
@@ -1330,6 +1378,8 @@ return {
         id = 81,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 6,
         roleId = 110211,
@@ -1347,6 +1397,8 @@ return {
         id = 82,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 1,
         roleId = 110211,
@@ -1362,6 +1414,8 @@ return {
         id = 83,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 4,
         roleId = 110211,
@@ -1378,6 +1432,8 @@ return {
         id = 84,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 2,
         roleId = 110211,
@@ -1393,6 +1449,8 @@ return {
         id = 85,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 3,
         roleId = 110211,
@@ -1409,6 +1467,8 @@ return {
         id = 86,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 8,
         roleId = 110211,
@@ -1424,6 +1484,8 @@ return {
         id = 87,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 8,
         roleId = 110211,
@@ -1439,6 +1501,8 @@ return {
         id = 88,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 8,
         roleId = 110211,
@@ -1454,6 +1518,8 @@ return {
         id = 89,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 8,
         roleId = 110211,
@@ -1469,6 +1535,8 @@ return {
         id = 90,
         formId = {
             [1] = 1021001,
+            [2] = 1021002,
+            [3] = 1021004,
         },
         eventType = 8,
         roleId = 110211,
@@ -1485,6 +1553,7 @@ return {
         formId = {
             [1] = 1030101,
             [2] = 1030105,
+            [3] = 1030109,
         },
         eventType = 5,
         roleId = 110301,
@@ -1502,6 +1571,7 @@ return {
         formId = {
             [1] = 1030101,
             [2] = 1030105,
+            [3] = 1030109,
         },
         eventType = 7,
         roleId = 110301,
@@ -1520,6 +1590,7 @@ return {
         formId = {
             [1] = 1030101,
             [2] = 1030105,
+            [3] = 1030109,
         },
         eventType = 6,
         roleId = 110301,
@@ -1538,6 +1609,7 @@ return {
         formId = {
             [1] = 1030101,
             [2] = 1030105,
+            [3] = 1030109,
         },
         eventType = 1,
         roleId = 110301,
@@ -1554,6 +1626,7 @@ return {
         formId = {
             [1] = 1030101,
             [2] = 1030105,
+            [3] = 1030109,
         },
         eventType = 4,
         roleId = 110301,
@@ -1573,6 +1646,7 @@ return {
         formId = {
             [1] = 1030101,
             [2] = 1030105,
+            [3] = 1030109,
         },
         eventType = 2,
         roleId = 110301,
@@ -1589,6 +1663,7 @@ return {
         formId = {
             [1] = 1030101,
             [2] = 1030105,
+            [3] = 1030109,
         },
         eventType = 3,
         roleId = 110301,
@@ -1606,6 +1681,7 @@ return {
         formId = {
             [1] = 1030101,
             [2] = 1030105,
+            [3] = 1030109,
         },
         eventType = 8,
         roleId = 110301,
@@ -1622,6 +1698,7 @@ return {
         formId = {
             [1] = 1030101,
             [2] = 1030105,
+            [3] = 1030109,
         },
         eventType = 8,
         roleId = 110301,
@@ -1638,6 +1715,7 @@ return {
         formId = {
             [1] = 1030101,
             [2] = 1030105,
+            [3] = 1030109,
         },
         eventType = 8,
         roleId = 110301,
@@ -1654,6 +1732,7 @@ return {
         formId = {
             [1] = 1030101,
             [2] = 1030105,
+            [3] = 1030109,
         },
         eventType = 8,
         roleId = 110301,
@@ -3333,6 +3412,8 @@ return {
         formId = {
             [1] = 1120101,
             [2] = 1120102,
+            [3] = 1120103,
+            [4] = 1120104,
         },
         eventType = 5,
         roleId = 112001,
@@ -3351,6 +3432,8 @@ return {
         formId = {
             [1] = 1120101,
             [2] = 1120102,
+            [3] = 1120103,
+            [4] = 1120104,
         },
         eventType = 7,
         roleId = 112001,
@@ -3370,6 +3453,8 @@ return {
         formId = {
             [1] = 1120101,
             [2] = 1120102,
+            [3] = 1120103,
+            [4] = 1120104,
         },
         eventType = 6,
         roleId = 112001,
@@ -3388,6 +3473,8 @@ return {
         formId = {
             [1] = 1120101,
             [2] = 1120102,
+            [3] = 1120103,
+            [4] = 1120104,
         },
         eventType = 1,
         roleId = 112001,
@@ -3406,6 +3493,8 @@ return {
         formId = {
             [1] = 1120101,
             [2] = 1120102,
+            [3] = 1120103,
+            [4] = 1120104,
         },
         eventType = 4,
         roleId = 112001,
@@ -3424,6 +3513,8 @@ return {
         formId = {
             [1] = 1120101,
             [2] = 1120102,
+            [3] = 1120103,
+            [4] = 1120104,
         },
         eventType = 2,
         roleId = 112001,
@@ -3440,6 +3531,8 @@ return {
         formId = {
             [1] = 1120101,
             [2] = 1120102,
+            [3] = 1120103,
+            [4] = 1120104,
         },
         eventType = 3,
         roleId = 112001,
@@ -3457,6 +3550,8 @@ return {
         formId = {
             [1] = 1120101,
             [2] = 1120102,
+            [3] = 1120103,
+            [4] = 1120104,
         },
         eventType = 8,
         roleId = 112001,
@@ -3473,6 +3568,8 @@ return {
         formId = {
             [1] = 1120101,
             [2] = 1120102,
+            [3] = 1120103,
+            [4] = 1120104,
         },
         eventType = 8,
         roleId = 112001,
@@ -3489,6 +3586,8 @@ return {
         formId = {
             [1] = 1120101,
             [2] = 1120102,
+            [3] = 1120103,
+            [4] = 1120104,
         },
         eventType = 8,
         roleId = 112001,
@@ -3504,6 +3603,7 @@ return {
         id = 208,
         formId = {
             [1] = 1130101,
+            [2] = 1130301,
         },
         eventType = 5,
         roleId = 111301,
@@ -3520,6 +3620,7 @@ return {
         id = 209,
         formId = {
             [1] = 1130101,
+            [2] = 1130301,
         },
         eventType = 7,
         roleId = 111301,
@@ -3539,6 +3640,7 @@ return {
         id = 210,
         formId = {
             [1] = 1130101,
+            [2] = 1130301,
         },
         eventType = 6,
         roleId = 111301,
@@ -3556,6 +3658,7 @@ return {
         id = 211,
         formId = {
             [1] = 1130101,
+            [2] = 1130301,
         },
         eventType = 1,
         roleId = 111301,
@@ -3571,6 +3674,7 @@ return {
         id = 212,
         formId = {
             [1] = 1130101,
+            [2] = 1130301,
         },
         eventType = 4,
         roleId = 111301,
@@ -3587,6 +3691,7 @@ return {
         id = 213,
         formId = {
             [1] = 1130101,
+            [2] = 1130301,
         },
         eventType = 2,
         roleId = 111301,
@@ -3602,6 +3707,7 @@ return {
         id = 214,
         formId = {
             [1] = 1130101,
+            [2] = 1130301,
         },
         eventType = 3,
         roleId = 111301,
@@ -3618,6 +3724,7 @@ return {
         id = 215,
         formId = {
             [1] = 1130101,
+            [2] = 1130301,
         },
         eventType = 8,
         roleId = 111301,
@@ -3632,6 +3739,7 @@ return {
         id = 216,
         formId = {
             [1] = 1130101,
+            [2] = 1130301,
         },
         eventType = 8,
         roleId = 111301,
@@ -3646,6 +3754,7 @@ return {
         id = 217,
         formId = {
             [1] = 1130101,
+            [2] = 1130301,
         },
         eventType = 8,
         roleId = 111301,
@@ -3660,6 +3769,7 @@ return {
         id = 218,
         formId = {
             [1] = 1130102,
+            [2] = 1130302,
         },
         eventType = 5,
         roleId = 111301,
@@ -3676,6 +3786,7 @@ return {
         id = 219,
         formId = {
             [1] = 1130102,
+            [2] = 1130302,
         },
         eventType = 7,
         roleId = 111301,
@@ -3696,6 +3807,7 @@ return {
         id = 220,
         formId = {
             [1] = 1130102,
+            [2] = 1130302,
         },
         eventType = 6,
         roleId = 111301,
@@ -3713,6 +3825,7 @@ return {
         id = 221,
         formId = {
             [1] = 1130102,
+            [2] = 1130302,
         },
         eventType = 1,
         roleId = 111301,
@@ -3728,6 +3841,7 @@ return {
         id = 222,
         formId = {
             [1] = 1130102,
+            [2] = 1130302,
         },
         eventType = 4,
         roleId = 111301,
@@ -3744,6 +3858,7 @@ return {
         id = 223,
         formId = {
             [1] = 1130102,
+            [2] = 1130302,
         },
         eventType = 2,
         roleId = 111301,
@@ -3759,6 +3874,7 @@ return {
         id = 224,
         formId = {
             [1] = 1130102,
+            [2] = 1130302,
         },
         eventType = 3,
         roleId = 111301,
@@ -3775,6 +3891,7 @@ return {
         id = 225,
         formId = {
             [1] = 1130102,
+            [2] = 1130302,
         },
         eventType = 8,
         roleId = 111301,
@@ -3789,6 +3906,7 @@ return {
         id = 226,
         formId = {
             [1] = 1130102,
+            [2] = 1130302,
         },
         eventType = 8,
         roleId = 111301,
@@ -3803,6 +3921,7 @@ return {
         id = 227,
         formId = {
             [1] = 1130102,
+            [2] = 1130302,
         },
         eventType = 8,
         roleId = 111301,
@@ -4421,6 +4540,7 @@ return {
         id = 268,
         formId = {
             [1] = 1041301,
+            [2] = 1041302,
         },
         eventType = 5,
         roleId = 110413,
@@ -4437,6 +4557,7 @@ return {
         id = 269,
         formId = {
             [1] = 1041301,
+            [2] = 1041302,
         },
         eventType = 7,
         roleId = 110413,
@@ -4453,6 +4574,7 @@ return {
         id = 270,
         formId = {
             [1] = 1041301,
+            [2] = 1041302,
         },
         eventType = 6,
         roleId = 110413,
@@ -4470,6 +4592,7 @@ return {
         id = 271,
         formId = {
             [1] = 1041301,
+            [2] = 1041302,
         },
         eventType = 1,
         roleId = 110413,
@@ -4485,6 +4608,7 @@ return {
         id = 272,
         formId = {
             [1] = 1041301,
+            [2] = 1041302,
         },
         eventType = 4,
         roleId = 110413,
@@ -4503,6 +4627,7 @@ return {
         id = 273,
         formId = {
             [1] = 1041301,
+            [2] = 1041302,
         },
         eventType = 2,
         roleId = 110413,
@@ -4518,6 +4643,7 @@ return {
         id = 274,
         formId = {
             [1] = 1041301,
+            [2] = 1041302,
         },
         eventType = 3,
         roleId = 110413,
@@ -4535,6 +4661,7 @@ return {
         id = 275,
         formId = {
             [1] = 1041301,
+            [2] = 1041302,
         },
         eventType = 8,
         roleId = 110413,
@@ -4550,6 +4677,7 @@ return {
         id = 276,
         formId = {
             [1] = 1041301,
+            [2] = 1041302,
         },
         eventType = 8,
         roleId = 110413,
@@ -4565,6 +4693,7 @@ return {
         id = 277,
         formId = {
             [1] = 1041301,
+            [2] = 1041302,
         },
         eventType = 8,
         roleId = 110413,
@@ -4580,6 +4709,7 @@ return {
         id = 278,
         formId = {
             [1] = 1041301,
+            [2] = 1041302,
         },
         eventType = 8,
         roleId = 110413,
@@ -5498,13 +5628,14 @@ return {
     [339] = {
         id = 339,
         formId = {
-            [1] = 1270101,
+            [1] = 113101,
+            [2] = 113102,
         },
         eventType = 5,
-        roleId = 112701,
+        roleId = 113101,
         resources = {
-            [1] = "sound/12701/ShiroQueen_035.mp3",
-            [2] = "sound/12701/ShiroQueen_036.mp3",
+            [1] = "sound/13101/AIS_42.mp3",
+            [2] = "sound/13101/AIS_43.mp3",
         },
         describe = "战斗胜利",
         cdTime = 0,
@@ -5514,13 +5645,14 @@ return {
     [340] = {
         id = 340,
         formId = {
-            [1] = 1270101,
+            [1] = 113101,
+            [2] = 113102,
         },
         eventType = 7,
-        roleId = 112701,
+        roleId = 113101,
         resources = {
-            [1] = "sound/12701/ShiroQueen_028.mp3",
-            [2] = "sound/12701/ShiroQueen_029.mp3",
+            [1] = "sound/13101/AIS_49.mp3",
+            [2] = "sound/13101/AIS_50.mp3",
         },
         describe = "切换角色(登场)",
         cdTime = 0,
@@ -5530,13 +5662,14 @@ return {
     [341] = {
         id = 341,
         formId = {
-            [1] = 1270101,
+            [1] = 113101,
+            [2] = 113102,
         },
         eventType = 6,
-        roleId = 112701,
+        roleId = 113101,
         resources = {
-            [1] = "sound/12701/ShiroQueen_038.mp3",
-            [2] = "sound/12701/ShiroQueen_037.mp3",
+            [1] = "sound/13101/AIS_44.mp3",
+            [2] = "sound/13101/AIS_45.mp3",
         },
         describe = "战斗失败",
         cdTime = 0,
@@ -5546,13 +5679,13 @@ return {
     [342] = {
         id = 342,
         formId = {
-            [1] = 1270101,
+            [1] = 113101,
+            [2] = 113102,
         },
         eventType = 1,
-        roleId = 112701,
+        roleId = 113101,
         resources = {
-            [1] = "sound/12701/ShiroQueen_039.mp3",
-            [2] = "sound/12701/ShiroQueen_038.mp3",
+            [1] = "sound/13101/AIS_48.mp3",
         },
         describe = "遇到强大敌人",
         cdTime = 5000,
@@ -5562,13 +5695,13 @@ return {
     [343] = {
         id = 343,
         formId = {
-            [1] = 1270101,
+            [1] = 113101,
+            [2] = 113102,
         },
         eventType = 4,
-        roleId = 112701,
+        roleId = 113101,
         resources = {
-            [1] = "sound/12701/ShiroQueen_041.mp3",
-            [2] = "sound/12701/ShiroQueen_042.mp3",
+            [1] = "sound/13101/AIS_56.mp3",
         },
         describe = "击杀敌人",
         cdTime = 5000,
@@ -5578,12 +5711,13 @@ return {
     [344] = {
         id = 344,
         formId = {
-            [1] = 1270101,
+            [1] = 113101,
+            [2] = 113102,
         },
         eventType = 2,
-        roleId = 112701,
+        roleId = 113101,
         resources = {
-            [1] = "sound/12701/ShiroQueen_043.mp3",
+            [1] = "sound/13101/AIS_51.mp3",
         },
         describe = "单次受到巨大伤害",
         cdTime = 5000,
@@ -5593,14 +5727,14 @@ return {
     [345] = {
         id = 345,
         formId = {
-            [1] = 1270101,
+            [1] = 113101,
+            [2] = 113102,
         },
         eventType = 3,
-        roleId = 112701,
+        roleId = 113101,
         resources = {
-            [1] = "sound/12701/ShiroQueen_033.mp3",
-            [2] = "sound/12701/ShiroQueen_032.mp3",
-            [3] = "sound/12701/ShiroQueen_034.mp3",
+            [1] = "sound/13101/AIS_55.mp3",
+            [2] = "sound/13101/AIS_57.mp3",
         },
         describe = "在战场上待机一段时间",
         cdTime = 10000,
@@ -5610,10 +5744,11 @@ return {
     [346] = {
         id = 346,
         formId = {
-            [1] = 1270101,
+            [1] = 113101,
+            [2] = 113102,
         },
         eventType = 8,
-        roleId = 112701,
+        roleId = 113101,
         resources = {
         },
         describe = "队友为指定角色时",
@@ -5624,10 +5759,11 @@ return {
     [347] = {
         id = 347,
         formId = {
-            [1] = 1270101,
+            [1] = 113101,
+            [2] = 113102,
         },
         eventType = 8,
-        roleId = 112701,
+        roleId = 113101,
         resources = {
         },
         describe = "队友为指定角色时",
@@ -5638,10 +5774,474 @@ return {
     [348] = {
         id = 348,
         formId = {
-            [1] = 1270101,
+            [1] = 113101,
+            [2] = 113102,
         },
         eventType = 8,
-        roleId = 112701,
+        roleId = 113101,
+        resources = {
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 0,
+    },
+    [349] = {
+        id = 349,
+        formId = {
+            [1] = 1280101,
+        },
+        eventType = 5,
+        roleId = 112801,
+        resources = {
+            [1] = "sound/12801/Cang_036.mp3",
+            [2] = "sound/12801/Cang_037.mp3",
+        },
+        describe = "战斗胜利",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [350] = {
+        id = 350,
+        formId = {
+            [1] = 1280101,
+        },
+        eventType = 7,
+        roleId = 112801,
+        resources = {
+            [1] = "sound/12801/Cang_31_B.mp3",
+            [2] = "sound/12801/Cang_32_B.mp3",
+        },
+        describe = "切换角色(登场)",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [351] = {
+        id = 351,
+        formId = {
+            [1] = 1280101,
+        },
+        eventType = 6,
+        roleId = 112801,
+        resources = {
+            [1] = "sound/12801/Cang_38.mp3",
+            [2] = "sound/12801/Cang_39.mp3",
+        },
+        describe = "战斗失败",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [352] = {
+        id = 352,
+        formId = {
+            [1] = 1280101,
+        },
+        eventType = 1,
+        roleId = 112801,
+        resources = {
+            [1] = "sound/12801/Cang_40.mp3",
+            [2] = "sound/12801/Cang_41.mp3",
+        },
+        describe = "遇到强大敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [353] = {
+        id = 353,
+        formId = {
+            [1] = 1280101,
+        },
+        eventType = 4,
+        roleId = 112801,
+        resources = {
+            [1] = "sound/12801/Cang_42_A.mp3",
+            [2] = "sound/12801/Cang_43.mp3",
+        },
+        describe = "击杀敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [354] = {
+        id = 354,
+        formId = {
+            [1] = 1280101,
+        },
+        eventType = 2,
+        roleId = 112801,
+        resources = {
+            [1] = "sound/12801/Cang_44.mp3",
+            [2] = "sound/12801/Cang_45_B.mp3",
+        },
+        describe = "单次受到巨大伤害",
+        cdTime = 5000,
+        probability = 10000,
+        param = 2000,
+    },
+    [355] = {
+        id = 355,
+        formId = {
+            [1] = 1280101,
+        },
+        eventType = 3,
+        roleId = 112801,
+        resources = {
+            [1] = "sound/12801/Cang_33.mp3",
+            [2] = "sound/12801/Cang_34.mp3",
+            [3] = "sound/12801/Cang_35.mp3",
+        },
+        describe = "在战场上待机一段时间",
+        cdTime = 10000,
+        probability = 5000,
+        param = 5000,
+    },
+    [356] = {
+        id = 356,
+        formId = {
+            [1] = 1280101,
+        },
+        eventType = 8,
+        roleId = 112801,
+        resources = {
+            [1] = "sound/12801/Cang_46.mp3",
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 110401,
+    },
+    [357] = {
+        id = 357,
+        formId = {
+            [1] = 1280101,
+        },
+        eventType = 8,
+        roleId = 112801,
+        resources = {
+            [1] = "sound/12801/Cang_46.mp3",
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 110413,
+    },
+    [358] = {
+        id = 358,
+        formId = {
+            [1] = 1280101,
+        },
+        eventType = 8,
+        roleId = 112801,
+        resources = {
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 0,
+    },
+    [359] = {
+        id = 359,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 5,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_032.mp3",
+            [2] = "sound/13201/SonoRio_032.mp3",
+        },
+        describe = "战斗胜利",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [360] = {
+        id = 360,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 7,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_037.mp3",
+        },
+        describe = "切换角色(登场)",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [361] = {
+        id = 361,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 6,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_034.mp3",
+            [2] = "sound/13201/SonoRio_035.mp3",
+        },
+        describe = "战斗失败",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [362] = {
+        id = 362,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 1,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_038.mp3",
+        },
+        describe = "遇到强大敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [363] = {
+        id = 363,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 4,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_036.mp3",
+        },
+        describe = "击杀敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [364] = {
+        id = 364,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 2,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_039.mp3",
+        },
+        describe = "单次受到巨大伤害",
+        cdTime = 5000,
+        probability = 10000,
+        param = 2000,
+    },
+    [365] = {
+        id = 365,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 3,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_040.mp3",
+            [2] = "sound/13201/SonoRio_041.mp3",
+            [3] = "sound/13201/SonoRio_042.mp3",
+        },
+        describe = "在战场上待机一段时间",
+        cdTime = 10000,
+        probability = 5000,
+        param = 5000,
+    },
+    [366] = {
+        id = 366,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 8,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_043.mp3",
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 112501,
+    },
+    [367] = {
+        id = 367,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 8,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_045.mp3",
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 113301,
+    },
+    [368] = {
+        id = 368,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 8,
+        roleId = 113201,
+        resources = {
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 0,
+    },
+    [369] = {
+        id = 369,
+        formId = {
+            [1] = 1330101,
+        },
+        eventType = 5,
+        roleId = 113301,
+        resources = {
+            [1] = "sound/13301/SonoRinne_033.mp3",
+            [2] = "sound/13301/SonoRinne_034.mp3",
+        },
+        describe = "战斗胜利",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [370] = {
+        id = 370,
+        formId = {
+            [1] = 1330101,
+        },
+        eventType = 7,
+        roleId = 113301,
+        resources = {
+            [1] = "sound/13301/SonoRinne_037.mp3",
+        },
+        describe = "切换角色(登场)",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [371] = {
+        id = 371,
+        formId = {
+            [1] = 1330101,
+        },
+        eventType = 6,
+        roleId = 113301,
+        resources = {
+            [1] = "sound/13301/SonoRinne_035.mp3",
+            [2] = "sound/13301/SonoRinne_036.mp3",
+        },
+        describe = "战斗失败",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [372] = {
+        id = 372,
+        formId = {
+            [1] = 1330101,
+        },
+        eventType = 1,
+        roleId = 113301,
+        resources = {
+            [1] = "sound/13301/SonoRinne_039.mp3",
+        },
+        describe = "遇到强大敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [373] = {
+        id = 373,
+        formId = {
+            [1] = 1330101,
+        },
+        eventType = 4,
+        roleId = 113301,
+        resources = {
+            [1] = "sound/13301/SonoRinne_038.mp3",
+        },
+        describe = "击杀敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [374] = {
+        id = 374,
+        formId = {
+            [1] = 1330101,
+        },
+        eventType = 2,
+        roleId = 113301,
+        resources = {
+            [1] = "sound/13301/SonoRinne_042.mp3",
+        },
+        describe = "单次受到巨大伤害",
+        cdTime = 5000,
+        probability = 10000,
+        param = 2000,
+    },
+    [375] = {
+        id = 375,
+        formId = {
+            [1] = 1330101,
+        },
+        eventType = 3,
+        roleId = 113301,
+        resources = {
+            [1] = "sound/13301/SonoRinne_043.mp3",
+            [2] = "sound/13301/SonoRinne_044.mp3",
+            [3] = "sound/13301/SonoRinne_045.mp3",
+        },
+        describe = "在战场上待机一段时间",
+        cdTime = 10000,
+        probability = 5000,
+        param = 5000,
+    },
+    [376] = {
+        id = 376,
+        formId = {
+            [1] = 1330101,
+        },
+        eventType = 8,
+        roleId = 113301,
+        resources = {
+            [1] = "sound/13301/SonoRio_046.mp3",
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 112601,
+    },
+    [377] = {
+        id = 377,
+        formId = {
+            [1] = 1330101,
+        },
+        eventType = 8,
+        roleId = 113301,
+        resources = {
+            [1] = "sound/13301/SonoRio_048.mp3",
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 113301,
+    },
+    [378] = {
+        id = 378,
+        formId = {
+            [1] = 1330101,
+        },
+        eventType = 8,
+        roleId = 113301,
         resources = {
         },
         describe = "队友为指定角色时",

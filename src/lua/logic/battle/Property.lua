@@ -61,7 +61,8 @@ end
 
 function Property:getValue(attrType)
     if not self.attr[attrType] then
-        printError("xxxxxxxxxxxxxx不存在的属性类型"..tostring(attrType))
+        print("xxxxxxxxxxxxxx不存在的属性类型"..tostring(attrType))
+        self.attr[attrType] = 0
         return 0
     end
     return self.attr[attrType]

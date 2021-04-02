@@ -328,19 +328,8 @@ end
 function GemComposeView:updateTreasureList( ... )
 	-- body
 	local showLists = self:getShowTreasureList()
-	for k,v in pairs(showLists) do
-		local item = self.gridView_list:getItem(k)
-		if not item then
-			item = self.Panel_goodItem:clone()
-			self.gridView_list:pushBackCustomItem(item)
-			item.goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-			item.goodsItem:setPosition(ccp(0,0))
-			item.goodsItem:setScale(0.9)
-			item:setName("item"..v.id)
-			item:addChild(item.goodsItem)
-		end
-
-		local Image_select = TFDirector:getChildByPath(item,"Image_select")
+	self.gridView_list:AsyncUpdateItem(showLists,function( item,v )
+        local Image_select = TFDirector:getChildByPath(item,"Image_select")
 		local Label_num = TFDirector:getChildByPath(item,"Label_num")
 		local Image_flag = TFDirector:getChildByPath(item,"Image_flag")
 		local Label_flag = TFDirector:getChildByPath(item,"Label_flag")
@@ -383,8 +372,16 @@ function GemComposeView:updateTreasureList( ... )
 			self.selectTreasureId = v.id
 			self:refreshView()
 		end)
-	end
-
+    end,
+    function (  )
+        item = self.Panel_goodItem:clone()
+		self.gridView_list:pushBackCustomItem(item)
+		item.goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+		item.goodsItem:setPosition(ccp(0,0))
+		item.goodsItem:setScale(0.9)
+		item:addChild(item.goodsItem)
+        return item
+    end)
 end
 
 function GemComposeView:getTreasureQualitys( ... )

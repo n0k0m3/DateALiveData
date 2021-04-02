@@ -218,14 +218,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_time_title",
 									nTextAlign = "1",
@@ -239,10 +239,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 107,
-										PositionY = -145,
+										PositionX = 98,
+										PositionY = -149,
 									},
-									width = "97",
+									width = "87",
 									ZOrder = "1",
 								},
 								{
@@ -264,18 +264,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_time",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -285,10 +285,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 207,
+										PositionX = 193,
 										PositionY = -143,
 									},
-									width = "116",
+									width = "240",
 									ZOrder = "1",
 								},
 								{
@@ -349,7 +349,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_goto",
 											nTextAlign = "1",
@@ -365,7 +365,7 @@ local t =
 											{
 												PositionY = -4,
 											},
-											width = "54",
+											width = "110",
 											ZOrder = "1",
 										},
 									},

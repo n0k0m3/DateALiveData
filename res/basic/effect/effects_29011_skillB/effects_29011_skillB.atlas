@@ -1,0 +1,153 @@
+
+effects_29011_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SW/skillB/huo/huo_000
+  rotate: false
+  xy: 359, 323
+  size: 179, 342
+  orig: 210, 360
+  offset: 19, 0
+  index: -1
+SW/skillB/huo/huo_001
+  rotate: false
+  xy: 2, 662
+  size: 182, 360
+  orig: 210, 360
+  offset: 18, 0
+  index: -1
+SW/skillB/huo/huo_002
+  rotate: false
+  xy: 186, 667
+  size: 186, 355
+  orig: 210, 360
+  offset: 14, 0
+  index: -1
+SW/skillB/huo/huo_003
+  rotate: false
+  xy: 564, 673
+  size: 188, 349
+  orig: 210, 360
+  offset: 12, 0
+  index: -1
+SW/skillB/huo/huo_004
+  rotate: false
+  xy: 182, 308
+  size: 175, 352
+  orig: 210, 360
+  offset: 19, 0
+  index: -1
+SW/skillB/huo/huo_005
+  rotate: false
+  xy: 2, 305
+  size: 178, 355
+  orig: 210, 360
+  offset: 16, 0
+  index: -1
+SW/skillB/huo/huo_006
+  rotate: true
+  xy: 2, 122
+  size: 181, 342
+  orig: 210, 360
+  offset: 13, 0
+  index: -1
+SW/skillB/huo/huo_007
+  rotate: false
+  xy: 374, 672
+  size: 188, 350
+  orig: 210, 360
+  offset: 13, 0
+  index: -1
+SW/skillB/huo/huo_008
+  rotate: false
+  xy: 754, 672
+  size: 183, 350
+  orig: 210, 360
+  offset: 17, 0
+  index: -1
+SW/skillB/huo/huo_009
+  rotate: false
+  xy: 540, 328
+  size: 180, 342
+  orig: 210, 360
+  offset: 15, 0
+  index: -1
+SW/skillB/xiaobao/xiaobao_000
+  rotate: false
+  xy: 561, 235
+  size: 159, 91
+  orig: 200, 150
+  offset: 17, 12
+  index: -1
+SW/skillB/xiaobao/xiaobao_001
+  rotate: false
+  xy: 200, 14
+  size: 159, 106
+  orig: 200, 150
+  offset: 17, 12
+  index: -1
+SW/skillB/xiaobao/xiaobao_002
+  rotate: false
+  xy: 722, 159
+  size: 166, 120
+  orig: 200, 150
+  offset: 16, 12
+  index: -1
+SW/skillB/xiaobao/xiaobao_003
+  rotate: false
+  xy: 722, 281
+  size: 177, 128
+  orig: 200, 150
+  offset: 13, 12
+  index: -1
+SW/skillB/xiaobao/xiaobao_004
+  rotate: false
+  xy: 722, 411
+  size: 187, 129
+  orig: 200, 150
+  offset: 8, 16
+  index: -1
+SW/skillB/xiaobao/xiaobao_005
+  rotate: false
+  xy: 722, 542
+  size: 192, 128
+  orig: 200, 150
+  offset: 6, 20
+  index: -1
+SW/skillB/xiaobao/xiaobao_006
+  rotate: true
+  xy: 901, 150
+  size: 191, 121
+  orig: 200, 150
+  offset: 4, 24
+  index: -1
+SW/skillB/xiaobao/xiaobao_007
+  rotate: false
+  xy: 2, 2
+  size: 196, 118
+  orig: 200, 150
+  offset: 0, 28
+  index: -1
+SW/skillB/xiaobao/xiaobao_008
+  rotate: true
+  xy: 911, 343
+  size: 197, 111
+  orig: 200, 150
+  offset: 0, 32
+  index: -1
+SW/skillB/xiaobao/xiaobao_009
+  rotate: false
+  xy: 359, 217
+  size: 200, 104
+  orig: 200, 150
+  offset: 0, 35
+  index: -1
+SW/skillB/xiaobao/xiaobao_010
+  rotate: true
+  xy: 939, 822
+  size: 200, 33
+  orig: 200, 150
+  offset: 0, 40
+  index: -1

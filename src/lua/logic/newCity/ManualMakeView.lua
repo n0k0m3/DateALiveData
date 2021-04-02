@@ -67,6 +67,9 @@ function ManualMakeView:initData(params)
 
 		self.manualType = 1
 		self.lastManualType = self.manualType
+		local manualList = ManualMakeDataMgr:getManualListByType(self.manualType) or {}
+        self.choosedManual = manualList[1]
+
 	end
 	self.addScore = 0
 	if self.datingId_ then
@@ -289,13 +292,6 @@ function ManualMakeView:registerEvents()
 		self:getManualAward()
 	end)
 
-
-	for k,v in pairs(self.menuItem_) do
-		v.root:onClick(function()
-			self:selectMenuItem(k,v.data)
-		end)
-	end
-
 	local size = self.Panel_menuTouch:Size()
 	local beginPos, endPos = me.p(0, 0), me.p(0, 0)
 	self.Panel_menuTouch:onTouch(function(event)
@@ -397,20 +393,21 @@ function ManualMakeView:updateMainView()
 	end
 end
 
+function ManualMakeView:updateGridView(  )
+	local manualList = ManualMakeDataMgr:getManualListByType(self.manualType)
+	local gridView = self.GridView_item[self.manualType]
+
+	gridView:AsyncUpdateItem(manualList, function ( item ,data )
+		-- body
+		self:updateMenuItem(item,data)
+	end, function ( data )
+		-- body
+		return self:addGoodsItem(self.manualType,data)
+	end)
+end
+
 function ManualMakeView:initHandWorkMenu()
-
-	for meueType=1,3 do
-		local manualList = ManualMakeDataMgr:getManualListByType(meueType)
-		local gridView = self.GridView_item[meueType]
-		for k,v in ipairs(manualList) do
-			local item = gridView:getItem(k)
-			if not item then
-				item = self:addGoodsItem(meueType,v)
-			end
-			self:updateMenuItem(item,v)
-		end
-	end
-
+	self:updateGridView()
 	self:initMenu()
 	local gridId = 1
 	if self.choosedManual then
@@ -490,9 +487,15 @@ function ManualMakeView:updateMenuItem(item,data)
 	if config then
 		PrefabDataMgr:setInfo(foo.Panel_goodsItem, data.presentId)
 	end
+
+	foo.Image_select:setVisible(self.choosedManual.presentId == data.presentId)
 	--材料是否充足
 	local isEnough = ManualMakeDataMgr:checkRedPointByCfg(data)
 	foo.Image_newtip:setVisible(isEnough)
+
+	foo.root:onClick(function()
+		self:selectMenuItem(k,data)
+	end)
 end
 
 function ManualMakeView:selectMenuItem(item,data)
@@ -502,7 +505,9 @@ function ManualMakeView:selectMenuItem(item,data)
 
 	self.selectedItem = self.menuItem_[item]
 
-	self.selectedItem.Image_select:setVisible(true)
+	if self.selectedItem then 
+		self.selectedItem.Image_select:setVisible(true)
+	end
 
 	self.choosedManual = data
 
@@ -534,6 +539,7 @@ function ManualMakeView:selectMenuItem(item,data)
 	--	self.Label_makefood:setTextById(252025)
 	--	self.maxCookCnt = 1
 	--end
+	self:updateGridView()
 end
 
 function ManualMakeView:refreshTabRedPoint()

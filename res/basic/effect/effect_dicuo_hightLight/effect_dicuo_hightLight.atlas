@@ -1,0 +1,216 @@
+
+effect_dicuo_hightLight.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/saoguang/saoguang_001
+  rotate: false
+  xy: 284, 205
+  size: 7, 49
+  orig: 271, 141
+  offset: 43, 47
+  index: -1
+images/saoguang/saoguang_002
+  rotate: false
+  xy: 206, 104
+  size: 16, 66
+  orig: 271, 141
+  offset: 43, 39
+  index: -1
+images/saoguang/saoguang_003
+  rotate: false
+  xy: 132, 8
+  size: 25, 78
+  orig: 271, 141
+  offset: 43, 35
+  index: -1
+images/saoguang/saoguang_004
+  rotate: false
+  xy: 401, 340
+  size: 33, 82
+  orig: 271, 141
+  offset: 43, 31
+  index: -1
+images/saoguang/saoguang_005
+  rotate: false
+  xy: 240, 172
+  size: 42, 82
+  orig: 271, 141
+  offset: 43, 31
+  index: -1
+images/saoguang/saoguang_006
+  rotate: false
+  xy: 80, 4
+  size: 50, 82
+  orig: 271, 141
+  offset: 43, 31
+  index: -1
+images/saoguang/saoguang_007
+  rotate: false
+  xy: 340, 340
+  size: 59, 82
+  orig: 271, 141
+  offset: 43, 31
+  index: -1
+images/saoguang/saoguang_008
+  rotate: false
+  xy: 171, 172
+  size: 67, 82
+  orig: 271, 141
+  offset: 43, 31
+  index: -1
+images/saoguang/saoguang_009
+  rotate: false
+  xy: 2, 4
+  size: 76, 82
+  orig: 271, 141
+  offset: 43, 31
+  index: -1
+images/saoguang/saoguang_010
+  rotate: false
+  xy: 172, 340
+  size: 82, 82
+  orig: 271, 141
+  offset: 46, 31
+  index: -1
+images/saoguang/saoguang_011
+  rotate: false
+  xy: 257, 424
+  size: 82, 82
+  orig: 271, 141
+  offset: 54, 31
+  index: -1
+images/saoguang/saoguang_012
+  rotate: false
+  xy: 2, 424
+  size: 83, 82
+  orig: 271, 141
+  offset: 62, 31
+  index: -1
+images/saoguang/saoguang_013
+  rotate: false
+  xy: 2, 88
+  size: 82, 82
+  orig: 271, 141
+  offset: 71, 31
+  index: -1
+images/saoguang/saoguang_014
+  rotate: false
+  xy: 2, 340
+  size: 83, 82
+  orig: 271, 141
+  offset: 79, 31
+  index: -1
+images/saoguang/saoguang_015
+  rotate: false
+  xy: 87, 172
+  size: 82, 82
+  orig: 271, 141
+  offset: 88, 31
+  index: -1
+images/saoguang/saoguang_016
+  rotate: false
+  xy: 87, 424
+  size: 83, 82
+  orig: 271, 141
+  offset: 96, 31
+  index: -1
+images/saoguang/saoguang_017
+  rotate: false
+  xy: 2, 256
+  size: 83, 82
+  orig: 271, 141
+  offset: 105, 31
+  index: -1
+images/saoguang/saoguang_018
+  rotate: false
+  xy: 87, 340
+  size: 83, 82
+  orig: 271, 141
+  offset: 113, 31
+  index: -1
+images/saoguang/saoguang_019
+  rotate: false
+  xy: 172, 424
+  size: 83, 82
+  orig: 271, 141
+  offset: 122, 31
+  index: -1
+images/saoguang/saoguang_020
+  rotate: false
+  xy: 2, 172
+  size: 83, 82
+  orig: 271, 141
+  offset: 130, 31
+  index: -1
+images/saoguang/saoguang_021
+  rotate: false
+  xy: 87, 256
+  size: 83, 82
+  orig: 271, 141
+  offset: 139, 31
+  index: -1
+images/saoguang/saoguang_022
+  rotate: false
+  xy: 172, 256
+  size: 82, 82
+  orig: 271, 141
+  offset: 148, 31
+  index: -1
+images/saoguang/saoguang_023
+  rotate: false
+  xy: 256, 340
+  size: 82, 82
+  orig: 271, 141
+  offset: 156, 31
+  index: -1
+images/saoguang/saoguang_024
+  rotate: false
+  xy: 341, 424
+  size: 79, 82
+  orig: 271, 141
+  offset: 165, 31
+  index: -1
+images/saoguang/saoguang_025
+  rotate: false
+  xy: 86, 88
+  size: 71, 82
+  orig: 271, 141
+  offset: 173, 31
+  index: -1
+images/saoguang/saoguang_026
+  rotate: false
+  xy: 256, 256
+  size: 62, 82
+  orig: 271, 141
+  offset: 182, 31
+  index: -1
+images/saoguang/saoguang_027
+  rotate: false
+  xy: 422, 424
+  size: 54, 82
+  orig: 271, 141
+  offset: 190, 31
+  index: -1
+images/saoguang/saoguang_028
+  rotate: false
+  xy: 159, 88
+  size: 45, 82
+  orig: 271, 141
+  offset: 199, 31
+  index: -1
+images/saoguang/saoguang_029
+  rotate: false
+  xy: 320, 256
+  size: 36, 82
+  orig: 271, 141
+  offset: 208, 31
+  index: -1
+images/saoguang/saoguang_030
+  rotate: false
+  xy: 478, 424
+  size: 28, 82
+  orig: 271, 141
+  offset: 216, 31
+  index: -1

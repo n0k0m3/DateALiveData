@@ -491,9 +491,9 @@ function FubenSquadView:initUI(ui)
             item.Button_add:setTextureNormal("ui/activity/kuangsan_fuben/fightReady/006.png")
         end
 
-        --创建克制icon
-        local startPos = item.Label_name:getPosition() + ccp(150 , -100)
-        item.panel_element = Utils:createElementPanel(item.Panel_role , 1 , startPos , nil , 0.5)
+        -- --创建克制icon
+        -- local startPos = item.Label_name:getPosition() + ccp(150 , -100)
+        -- item.panel_element = Utils:createElementPanel(item.Panel_role , 1 , startPos , nil , 0.5)
 
         --item.Panel_mojin_coin = TFDirector:getChildByPath(item.Panel_role, "Panel_mojin_coin"):hide()
 	   item.Panel_ksan_coin = TFDirector:getChildByPath(item.Panel_role, "Panel_ksan_coin"):hide()
@@ -520,8 +520,8 @@ function FubenSquadView:initUI(ui)
     self.Image_assistant_coin =TFDirector:getChildByPath(self.Panel_assistant_hwx_tip, "Image_coin")
     self.Label_assistant_coinbuff =TFDirector:getChildByPath(self.Panel_assistant_hwx_tip, "Label_coin_buff")
     --创建克制icon
-    local startPos = self.Label_name:getPosition() + ccp(160 , 0)
-    self.panel_element = Utils:createElementPanel(self.Panel_role , 1 , startPos , nil , 0.5)
+    -- local startPos = self.Label_name:getPosition() + ccp(160 , 0)
+    -- self.panel_element = Utils:createElementPanel(self.Panel_role , 1 , startPos , nil , 0.5)
 
 
     self.Image_cost = TFDirector:getChildByPath(self.Panel_root, "Image_cost")
@@ -2081,7 +2081,7 @@ function FubenSquadView:updateFormation()
             end
 			--更新克制icon
             v.Panel_ksan_coin:hide()
-            PrefabDataMgr:setInfo(v.panel_element , heroData.magicAttribute)
+            -- PrefabDataMgr:setInfo(v.panel_element , heroData.magicAttribute)
 
             v.Panel_mojin_coin:hide()
             v.Panel_hwx_tip:hide()
@@ -2319,7 +2319,7 @@ function FubenSquadView:updateAssistantItem(item, index)
     local isFriend = FriendDataMgr:isFriend(data.pid)
     local heroCfg = TabDataMgr:getData("Hero", data.helpHeroCid)
     local skinData = TabDataMgr:getData("HeroSkin", heroCfg.defaultSkin)
-    local panel_element = item.panel_element
+    --local panel_element = item.panel_element
 
     Image_friend:setVisible(isFriend)
     Label_name:setText(data.name)
@@ -2379,7 +2379,7 @@ function FubenSquadView:updateAssistantItem(item, index)
     Label_ship_select:setVisible(isSelect)
     Label_ship_normal:setText(shipValue)
     Label_ship_select:setText(shipValue)
-    PrefabDataMgr:setInfo(panel_element , heroCfg.magicAttribute)
+    --PrefabDataMgr:setInfo(panel_element , heroCfg.magicAttribute)
 end
 
 function FubenSquadView:tableCellTouched(tbl, cell)
@@ -2416,7 +2416,7 @@ function FubenSquadView:tableCellTouched(tbl, cell)
         model:update(0.1)
         model:stop()
         self.Label_name:setText(data.name)
-        PrefabDataMgr:setInfo(self.panel_element , heroCfg.magicAttribute)
+        --PrefabDataMgr:setInfo(self.panel_element , heroCfg.magicAttribute)
 
         self.Panel_assistant_hwx_tip:hide()
         if self.levelCfg_.dungeonType == EC_FBLevelType.HWX then
@@ -2454,8 +2454,8 @@ function FubenSquadView:tableCellAtIndex(tab, idx)
 		cell.item = item
 
         --创建克制icon
-        local startPos = item:getChildByName("Image_icon"):getPosition() + ccp(-20 , 30)
-        item.panel_element = Utils:createElementPanel(item , 1 , startPos , nil , 0.4)
+        -- local startPos = item:getChildByName("Image_icon"):getPosition() + ccp(-20 , 30)
+        -- item.panel_element = Utils:createElementPanel(item , 1 , startPos , nil , 0.4)
     end
     cell.idx = idx
 

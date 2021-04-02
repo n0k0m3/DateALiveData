@@ -877,6 +877,9 @@ function AIAgent:setCurRate(id)
 end
 
 function AIAgent:syncAIStepData(id, params)
+    if battleController.isZLJH() then
+        return
+    end
     local markID = self.host_:getData().markID
     local lastIdx = self:findRateIdx(self.lastRate)
     local cruIdx

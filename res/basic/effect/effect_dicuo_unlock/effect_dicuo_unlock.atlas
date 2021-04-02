@@ -1,0 +1,118 @@
+
+effect_dicuo_unlock.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/posui/posui_020
+  rotate: true
+  xy: 328, 38
+  size: 87, 88
+  orig: 198, 160
+  offset: 53, 41
+  index: -1
+images/posui/posui_023
+  rotate: false
+  xy: 2, 199
+  size: 152, 150
+  orig: 198, 160
+  offset: 19, 2
+  index: -1
+images/posui/posui_024
+  rotate: false
+  xy: 2, 351
+  size: 166, 159
+  orig: 198, 160
+  offset: 11, 0
+  index: -1
+images/posui/posui_025
+  rotate: true
+  xy: 392, 408
+  size: 102, 118
+  orig: 198, 160
+  offset: 46, 27
+  index: -1
+images/posui/posui_026
+  rotate: false
+  xy: 328, 127
+  size: 104, 121
+  orig: 198, 160
+  offset: 45, 25
+  index: -1
+images/posui/posui_027
+  rotate: false
+  xy: 262, 250
+  size: 105, 122
+  orig: 198, 160
+  offset: 44, 24
+  index: -1
+images/posui/posui_028
+  rotate: false
+  xy: 392, 283
+  size: 107, 123
+  orig: 198, 160
+  offset: 43, 24
+  index: -1
+images/posui/posui_029
+  rotate: false
+  xy: 219, 98
+  size: 107, 124
+  orig: 198, 160
+  offset: 43, 23
+  index: -1
+images/posui/posui_030
+  rotate: false
+  xy: 156, 224
+  size: 104, 125
+  orig: 198, 160
+  offset: 45, 22
+  index: -1
+images/posui/posui_031
+  rotate: false
+  xy: 111, 70
+  size: 106, 127
+  orig: 198, 160
+  offset: 44, 20
+  index: -1
+images/posui/posui_032
+  rotate: false
+  xy: 282, 380
+  size: 108, 130
+  orig: 198, 160
+  offset: 43, 16
+  index: -1
+images/posui/posui_033
+  rotate: false
+  xy: 2, 63
+  size: 107, 134
+  orig: 198, 160
+  offset: 44, 12
+  index: -1
+images/posui/posui_034
+  rotate: false
+  xy: 170, 374
+  size: 110, 136
+  orig: 198, 160
+  offset: 42, 8
+  index: -1
+images/suotou
+  rotate: true
+  xy: 2, 2
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+images/suotou1
+  rotate: false
+  xy: 156, 202
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+images/suotou2_000
+  rotate: false
+  xy: 2, 17
+  size: 38, 44
+  orig: 96, 92
+  offset: 28, 26
+  index: -1

@@ -1280,10 +1280,10 @@ return {
         icon = "icon/datingSceneIcon/bg_2020chunjie.png",
         EXA = 11031,
     },
-    [1314008] = {
-        unlockHint = 1705447,
+    [1301003] = {
+        unlockHint = 0,
         sortForMainScene = 0,
-        id = 1314008,
+        id = 1301003,
         backgroundEffect = {
         },
         kanbanEffect = {
@@ -1294,12 +1294,12 @@ return {
         dayNight = {
             [1] = 210005,
         },
-        name = 1705445,
-        groupBelong = 10012,
-        describe = 1705446,
-        background = "ui/mainLayer/new_ui_4/bg_2nd.png",
-        icon = "icon/datingSceneIcon/bg_twoyear.png",
-        EXA = 11052,
+        name = 1702236,
+        groupBelong = 10001,
+        describe = 1702408,
+        background = "scene/bg/bg_chufang.png",
+        icon = "",
+        EXA = 13003,
     },
     [1301004] = {
         unlockHint = 0,
@@ -2246,6 +2246,27 @@ return {
         icon = "",
         EXA = 13008,
     },
+    [1309005] = {
+        unlockHint = 1713501,
+        sortForMainScene = 4,
+        id = 1309005,
+        backgroundEffect = {
+        },
+        kanbanEffect = {
+        },
+        bgOffset = {
+        },
+        scale = 0,
+        dayNight = {
+            [1] = 210002,
+        },
+        name = 1712501,
+        groupBelong = 10009,
+        describe = 1713001,
+        background = "scene/bg/bg_yuchang_dong.png",
+        icon = "icon/datingSceneIcon/bg_yuchang_dong.png",
+        EXA = 13013,
+    },
     [1308001] = {
         unlockHint = 1702378,
         sortForMainScene = 1,
@@ -2624,6 +2645,69 @@ return {
         icon = "icon/datingSceneIcon/bg_shengdan.png",
         EXA = 11061,
     },
+    [1314010] = {
+        unlockHint = 1705453,
+        sortForMainScene = 5,
+        id = 1314010,
+        backgroundEffect = {
+        },
+        kanbanEffect = {
+        },
+        bgOffset = {
+        },
+        scale = 0,
+        dayNight = {
+            [1] = 210005,
+        },
+        name = 1705451,
+        groupBelong = 10012,
+        describe = 1705452,
+        background = "ui/mainLayer/new_ui/bg_2021.png",
+        icon = "icon/datingSceneIcon/bg_2021.png",
+        EXA = 11031,
+    },
+    [1314009] = {
+        unlockHint = 1705448,
+        sortForMainScene = 4,
+        id = 1314009,
+        backgroundEffect = {
+        },
+        kanbanEffect = {
+        },
+        bgOffset = {
+        },
+        scale = 0,
+        dayNight = {
+            [1] = 210005,
+        },
+        name = 1705449,
+        groupBelong = 10012,
+        describe = 1705450,
+        background = "ui/mainLayer/new_ui_5/bg_shengdan.png",
+        icon = "icon/datingSceneIcon/bg_shengdan.png",
+        EXA = 11061,
+    },
+    [1314008] = {
+        unlockHint = 1705447,
+        sortForMainScene = 0,
+        id = 1314008,
+        backgroundEffect = {
+        },
+        kanbanEffect = {
+        },
+        bgOffset = {
+        },
+        scale = 0,
+        dayNight = {
+            [1] = 210005,
+        },
+        name = 1705445,
+        groupBelong = 10012,
+        describe = 1705446,
+        background = "ui/mainLayer/new_ui_4/bg_2nd.png",
+        icon = "icon/datingSceneIcon/bg_twoyear.png",
+        EXA = 11052,
+    },
     [1301001] = {
         unlockHint = 1702357,
         sortForMainScene = 1,
@@ -2665,27 +2749,6 @@ return {
         background = "scene/bg/bg_fanting.png",
         icon = "",
         EXA = 13002,
-    },
-    [1301003] = {
-        unlockHint = 0,
-        sortForMainScene = 0,
-        id = 1301003,
-        backgroundEffect = {
-        },
-        kanbanEffect = {
-        },
-        bgOffset = {
-        },
-        scale = 0,
-        dayNight = {
-            [1] = 210005,
-        },
-        name = 1702236,
-        groupBelong = 10001,
-        describe = 1702408,
-        background = "scene/bg/bg_chufang.png",
-        icon = "",
-        EXA = 13003,
     },
     [1304022] = {
         unlockHint = 1710571,

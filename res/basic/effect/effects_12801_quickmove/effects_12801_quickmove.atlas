@@ -1,0 +1,174 @@
+
+effects_12801_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/glow
+  rotate: false
+  xy: 386, 759
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+effect/guangxian_000
+  rotate: true
+  xy: 51, 2
+  size: 132, 40
+  orig: 132, 40
+  offset: 0, 0
+  index: -1
+effect/quickmove/add/ad_000
+  rotate: false
+  xy: 244, 821
+  size: 231, 96
+  orig: 240, 96
+  offset: 0, 0
+  index: -1
+effect/quickmove/add/ad_001
+  rotate: false
+  xy: 2, 626
+  size: 229, 96
+  orig: 240, 96
+  offset: 0, 0
+  index: -1
+effect/quickmove/add/ad_002
+  rotate: false
+  xy: 2, 528
+  size: 223, 96
+  orig: 240, 96
+  offset: 0, 0
+  index: -1
+effect/quickmove/add/ad_003
+  rotate: false
+  xy: 244, 919
+  size: 240, 94
+  orig: 240, 96
+  offset: 0, 1
+  index: -1
+effect/quickmove/add/ad_004
+  rotate: false
+  xy: 2, 917
+  size: 240, 96
+  orig: 240, 96
+  offset: 0, 0
+  index: -1
+effect/quickmove/add/ad_005
+  rotate: false
+  xy: 2, 820
+  size: 240, 95
+  orig: 240, 96
+  offset: 0, 0
+  index: -1
+effect/quickmove/add/ad_006
+  rotate: false
+  xy: 2, 724
+  size: 240, 94
+  orig: 240, 96
+  offset: 0, 0
+  index: -1
+effect/quickmove/add/ad_007
+  rotate: false
+  xy: 486, 928
+  size: 240, 85
+  orig: 240, 96
+  offset: 0, 1
+  index: -1
+effect/quickmove/bd/bd_000
+  rotate: true
+  xy: 2, 4
+  size: 250, 47
+  orig: 270, 90
+  offset: 0, 24
+  index: -1
+effect/quickmove/bd/bd_001
+  rotate: false
+  xy: 728, 967
+  size: 270, 46
+  orig: 270, 90
+  offset: 0, 24
+  index: -1
+effect/quickmove/bd/bd_002
+  rotate: true
+  xy: 2, 256
+  size: 270, 44
+  orig: 270, 90
+  offset: 0, 25
+  index: -1
+effect/quickmove/bd/bd_003
+  rotate: false
+  xy: 728, 928
+  size: 265, 37
+  orig: 270, 90
+  offset: 5, 28
+  index: -1
+effect/quickmove/bd/bd_004
+  rotate: false
+  xy: 486, 901
+  size: 270, 25
+  orig: 270, 90
+  offset: 0, 31
+  index: -1
+effect/quickmove/bd/bd_005
+  rotate: false
+  xy: 477, 878
+  size: 257, 21
+  orig: 270, 90
+  offset: 13, 32
+  index: -1
+effect/quickmove/canying_000
+  rotate: false
+  xy: 48, 395
+  size: 168, 131
+  orig: 175, 144
+  offset: 4, 7
+  index: -1
+effects/quickmove/quan/quan_000
+  rotate: true
+  xy: 628, 827
+  size: 49, 112
+  orig: 90, 180
+  offset: 32, 50
+  index: -1
+effects/quickmove/quan/quan_001
+  rotate: true
+  xy: 48, 273
+  size: 63, 132
+  orig: 90, 180
+  offset: 21, 13
+  index: -1
+effects/quickmove/quan/quan_002
+  rotate: false
+  xy: 112, 162
+  size: 71, 109
+  orig: 90, 180
+  offset: 11, 15
+  index: -1
+effects/quickmove/quan/quan_003
+  rotate: true
+  xy: 244, 755
+  size: 64, 140
+  orig: 90, 180
+  offset: 9, 7
+  index: -1
+effects/quickmove/quan/quan_004
+  rotate: false
+  xy: 51, 136
+  size: 59, 135
+  orig: 90, 180
+  offset: 9, 24
+  index: -1
+effects/quickmove/quan/quan_005
+  rotate: true
+  xy: 48, 338
+  size: 55, 146
+  orig: 90, 180
+  offset: 11, 22
+  index: -1
+effects/quickmove/quan/quan_006
+  rotate: true
+  xy: 477, 827
+  size: 49, 149
+  orig: 90, 180
+  offset: 14, 21
+  index: -1

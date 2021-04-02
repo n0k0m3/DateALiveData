@@ -178,8 +178,8 @@ function TeamLevelPreview:initCustom1UI()
 	self.Panel_use:getChildByName("Image_level_goal"):getChildByName("Label_title"):setTextById(2100049)
 	self.levelPreviewNodes["label_member_num"] = self.Panel_use:getChildByName("label_member_num")
 
-	local startPos = img_pad:getChildByName("Button_open_house"):getPosition() + ccp(-300 , 0)
-	self.levelPreviewNodes["panel_elements"] = Utils:createElementPanel(img_pad ,3 , startPos , 65 , 1)
+	-- local startPos = img_pad:getChildByName("Button_open_house"):getPosition() + ccp(-300 , 0)
+	-- self.levelPreviewNodes["panel_elements"] = Utils:createElementPanel(img_pad ,3 , startPos , 65 , 1)
 end
 
 function TeamLevelPreview:refreshView()
