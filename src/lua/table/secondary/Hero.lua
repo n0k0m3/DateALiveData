@@ -4204,7 +4204,7 @@ return {
         testType = 0,
         pentacle = "icon/system/112801.png",
         enName2 = "Tsang",
-        enName = "Biscuit Smash ",
+        enName = "Biscuit Smasher ",
         rarity = 4,
         patrolFar = 100,
         money = 0,

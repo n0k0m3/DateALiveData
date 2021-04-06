@@ -225,7 +225,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_time_title",
 									nTextAlign = "1",
@@ -239,10 +239,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 107,
-										PositionY = -145,
+										PositionX = 111,
+										PositionY = -107,
 									},
-									width = "97",
+									width = "98",
 									ZOrder = "1",
 								},
 								{
@@ -276,6 +276,8 @@ local t =
 									name = "Label_time",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -285,10 +287,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 207,
-										PositionY = -143,
+										PositionX = 115,
+										PositionY = -141,
 									},
-									width = "116",
+									width = "113",
 									ZOrder = "1",
 								},
 								{
@@ -349,7 +351,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_goto",
 											nTextAlign = "1",

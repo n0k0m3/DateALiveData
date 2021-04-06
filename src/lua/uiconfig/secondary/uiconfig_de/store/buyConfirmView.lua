@@ -459,7 +459,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -135,
+										PositionY = -148,
 									},
 									uipanelviewmodel = 
 									{
@@ -702,6 +702,8 @@ local t =
 									name = "Label_desc",
 									nTextAlign = "0",
 									nTextHAlign = "0",
+									scaleX = "0.9",
+									scaleY = "0.9",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -713,7 +715,7 @@ local t =
 									{
 										PositionY = 38,
 									},
-									width = "338",
+									width = "387",
 									ZOrder = "1",
 								},
 							},
