@@ -1668,14 +1668,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Le classement est mis à jour toutes les        minutes",
+													text = "Le classement est mis à jour toutes les          minutes",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = 2,
 													},
-													width = "396",
+													width = "406",
 													ZOrder = "1",
 												},
 												{
@@ -1718,7 +1718,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 114,
+														PositionX = 116,
 													},
 													width = "42",
 													ZOrder = "1",

@@ -71,7 +71,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 510,
-						PositionY = 359,
+						PositionY = 334,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -860,7 +860,7 @@ local t =
 									height = "300",
 									ignoreSize = "False",
 									innerHeight = "300",
-									innerWidth = "215",
+									innerWidth = "280",
 									name = "scrollView_bossList",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -870,7 +870,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 933,
+										PositionX = 870,
 										PositionY = 266,
 									},
 									uipanelviewmodel = 
@@ -878,7 +878,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "215",
+									width = "280",
 									ZOrder = "1",
 								},
 								{
@@ -887,11 +887,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "62",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "bossItem",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -904,7 +904,7 @@ local t =
 										PositionX = 1039,
 										PositionY = 531,
 									},
-									width = "196",
+									width = "280",
 									ZOrder = "1",
 									components = 
 									{
@@ -931,7 +931,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -69,
+												PositionX = -77,
 												PositionY = 9,
 											},
 											width = "2",
@@ -941,7 +941,7 @@ local t =
 											controlID = "Label_tip_bossItem_Panel_stage2_Panel_ui_Panel-mainMapLayer_kuangsanFuben_activity_Game",
 											UUID = "7472e978_b537_4f64_bf37_01824932ad5c",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -977,7 +977,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 30,
+												PositionX = -54,
 												PositionY = 14,
 											},
 											width = "153",
@@ -987,7 +987,7 @@ local t =
 											controlID = "Label_cityName_bossItem_Panel_stage2_Panel_ui_Panel-mainMapLayer_kuangsanFuben_activity_Game",
 											UUID = "2b301263_d116_4d3d_92ab_f8bcf2fafa32",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -1023,7 +1023,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 10,
+												PositionX = -74,
 												PositionY = -12,
 											},
 											width = "195",
@@ -1066,6 +1066,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "400",
 							ZOrder = "1",
 							components = 

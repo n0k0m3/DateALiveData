@@ -106,7 +106,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 533,
-								PositionY = 358,
+								PositionY = 359,
 								IsPercent = true,
 								PercentX = 46.92,
 								PercentY = 56.09,
@@ -698,11 +698,11 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -715,7 +715,7 @@ local t =
 										PositionX = 55,
 										PositionY = 42,
 									},
-									width = "486",
+									width = "208",
 									ZOrder = "5",
 								},
 								{

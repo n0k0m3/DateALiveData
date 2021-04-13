@@ -246,7 +246,7 @@ local t =
 						nType = "0"
 					},
 					width = "240",
-					ZOrder = "1",
+					ZOrder = "2",
 					components = 
 					{
 						
@@ -345,7 +345,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 110,
+								PositionX = 75,
 								PositionY = 53,
 							},
 							uipanelviewmodel = 
@@ -538,7 +538,7 @@ local t =
 						nType = "0"
 					},
 					width = "240",
-					ZOrder = "1",
+					ZOrder = "2",
 					components = 
 					{
 						
@@ -637,8 +637,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 91,
-								PositionY = 68,
+								PositionX = 146,
+								PositionY = 91,
 							},
 							uipanelviewmodel = 
 							{
@@ -830,7 +830,7 @@ local t =
 						nType = "0"
 					},
 					width = "240",
-					ZOrder = "1",
+					ZOrder = "2",
 					components = 
 					{
 						
@@ -1122,7 +1122,7 @@ local t =
 						nType = "0"
 					},
 					width = "240",
-					ZOrder = "1",
+					ZOrder = "3",
 					components = 
 					{
 						
@@ -1222,7 +1222,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 117,
-								PositionY = 40,
+								PositionY = -11,
 							},
 							uipanelviewmodel = 
 							{
@@ -1268,7 +1268,7 @@ local t =
 						nType = "0"
 					},
 					width = "240",
-					ZOrder = "1",
+					ZOrder = "2",
 					components = 
 					{
 						

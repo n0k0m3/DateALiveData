@@ -1159,15 +1159,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "30",
+													fontSize = "23",
 													fontStroke = 
 													{
 														IsStroke = true,
 														StrokeColor = "#FF4D49AD",
 														StrokeSize = 2,
 													},
-													height = "38",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_serverRechargeView_1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1183,7 +1183,7 @@ local t =
 													{
 														
 													},
-													width = "331",
+													width = "211",
 													ZOrder = "1",
 												},
 											},
