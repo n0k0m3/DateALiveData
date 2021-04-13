@@ -418,8 +418,8 @@ function Utils:getTime(timestamp, formating)
 end
 
 --TODO CLOSE 英文版UTC 时分秒格式化
-function Utils:getUTCDateHMS( timestamp, formating )
-     local date = self:getUTCDate(timestamp)
+function Utils:getUTCDateHMS( timestamp, formating , timeZone)
+     local date = self:getUTCDate(timestamp,timeZone)
     local hour, min, sec = date:gettime()
     if formating then
         hour = string.format("%.2d", hour)
@@ -440,8 +440,8 @@ function Utils:getDate(timestamp, formating)
 end
 
 --TODO CLOSE 英文版UTC 年月日格式化
-function Utils:getUTCDateYMD( timestamp , formating )
-    local date = self:getUTCDate(timestamp)
+function Utils:getUTCDateYMD( timestamp , formating , timeZone )
+    local date = self:getUTCDate(timestamp ,timeZone)
     local year, month, day = date:getdate()
     if formating then
         month = string.format("%.2d", month)

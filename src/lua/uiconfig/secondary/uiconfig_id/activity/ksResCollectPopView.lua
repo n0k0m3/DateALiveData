@@ -185,7 +185,7 @@ local t =
 									controlID = "Label_rankPopView_1_pannel_top_pannel_root_Panel-ksResCollectPopView_kuangsanFuben_activity_Game",
 									UUID = "89e64419_8bd2_4faa_b7a5_3cd08fb0edee",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -207,7 +207,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_rankPopView_1",
 									nTextAlign = "1",
@@ -221,10 +221,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 450,
+										PositionX = 392,
 										PositionY = 538,
 									},
-									width = "114",
+									width = "215",
 									ZOrder = "1",
 								},
 							},
@@ -356,7 +356,7 @@ local t =
 								PositionX = 548,
 								PositionY = 229,
 							},
-							width = "130",
+							width = "151",
 							ZOrder = "1",
 							components = 
 							{
@@ -600,7 +600,7 @@ local t =
 									{
 										PositionX = -40,
 									},
-									width = "10",
+									width = "13",
 									ZOrder = "1",
 								},
 							},
@@ -664,7 +664,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_ksResCollectPopView_1",
 									nTextAlign = "1",
@@ -680,7 +680,7 @@ local t =
 									{
 										
 									},
-									width = "54",
+									width = "103",
 									ZOrder = "1",
 								},
 							},
@@ -780,7 +780,7 @@ local t =
 									{
 										PositionX = -5,
 									},
-									width = "47",
+									width = "50",
 									ZOrder = "1",
 								},
 							},

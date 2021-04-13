@@ -178,7 +178,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_rankPopView_1",
 									nTextAlign = "1",
@@ -187,15 +187,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Quest Battle|",
+									text = "Quest Battle",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 327,
+										PositionX = 351,
 										PositionY = -49,
 									},
-									width = "124",
+									width = "180",
 									ZOrder = "1",
 								},
 								{
@@ -241,7 +241,8 @@ local t =
 										PositionX = 392,
 										PositionY = -55,
 									},
-									width = "141",
+									visible = "False",
+									width = "134",
 									ZOrder = "1",
 								},
 								{
@@ -288,7 +289,7 @@ local t =
 										PositionY = -38,
 									},
 									visible = "False",
-									width = "291",
+									width = "245",
 									ZOrder = "1",
 								},
 								{
@@ -441,7 +442,7 @@ local t =
 										PositionX = 268,
 										PositionY = 124,
 									},
-									width = "383",
+									width = "502",
 									ZOrder = "1",
 								},
 							},
@@ -571,14 +572,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "itemLabTip",
 									nTextAlign = "1",
@@ -592,10 +593,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 13,
+										PositionX = 7,
 										PositionY = 90,
 									},
-									width = "224",
+									width = "234",
 									ZOrder = "1",
 									components = 
 									{
@@ -619,14 +620,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "labProcesShow",
 											nTextAlign = "1",
@@ -642,7 +643,7 @@ local t =
 											{
 												PositionX = 234,
 											},
-											width = "62",
+											width = "68",
 											ZOrder = "1",
 										},
 									},
@@ -907,7 +908,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_ksOutbountTaskView_1",
 											nTextAlign = "1",
@@ -923,7 +924,7 @@ local t =
 											{
 												
 											},
-											width = "55",
+											width = "85",
 											ZOrder = "1",
 										},
 									},
@@ -988,7 +989,7 @@ local t =
 												StrokeColor = "#FFC73C39",
 												StrokeSize = 1,
 											},
-											height = "34",
+											height = "32",
 											ignoreSize = "True",
 											name = "Label_ksOutbountTaskView_1",
 											nTextAlign = "1",
@@ -1004,7 +1005,7 @@ local t =
 											{
 												
 											},
-											width = "55",
+											width = "73",
 											ZOrder = "1",
 										},
 									},
@@ -1015,7 +1016,7 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "0",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "107",
@@ -1062,7 +1063,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "labHavePass",
 											nTextAlign = "1",
@@ -1076,10 +1077,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 612,
+												PositionX = 608,
 												PositionY = 54,
 											},
-											width = "81",
+											width = "199",
 											ZOrder = "1",
 										},
 									},
@@ -1110,7 +1111,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "labNotComplete",
 									nTextAlign = "1",
@@ -1124,10 +1125,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 613,
+										PositionX = 604,
 										PositionY = 54,
 									},
-									width = "73",
+									width = "204",
 									ZOrder = "1",
 								},
 							},

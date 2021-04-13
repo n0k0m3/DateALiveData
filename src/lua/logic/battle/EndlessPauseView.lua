@@ -91,7 +91,7 @@ function EndlessPauseView:createItem(effect)
         Label_num:hide()
     end
     if data.iconDes then 
-        Label_desc:setText(data.iconDes)
+        Label_desc:setTextById(data.iconDes)
     else
         Label_desc:setText("bufferEffect "..data.id.." 没有配置效果描述")
     end

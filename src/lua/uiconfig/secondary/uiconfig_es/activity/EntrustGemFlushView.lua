@@ -242,7 +242,7 @@ local t =
 											{
 												
 											},
-											width = "111",
+											width = "113",
 											ZOrder = "1",
 										},
 									},
@@ -290,7 +290,7 @@ local t =
 										PositionX = -254,
 										PositionY = 129,
 									},
-									width = "238",
+									width = "253",
 									ZOrder = "1",
 								},
 								{
@@ -337,7 +337,7 @@ local t =
 										PositionY = 123,
 									},
 									visible = "False",
-									width = "141",
+									width = "138",
 									ZOrder = "1",
 								},
 								{
@@ -393,8 +393,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_remainCount",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -409,7 +409,7 @@ local t =
 									{
 										PositionY = 80,
 									},
-									width = "162",
+									width = "500",
 									ZOrder = "1",
 								},
 								{
@@ -454,7 +454,7 @@ local t =
 									{
 										PositionY = -61,
 									},
-									width = "320",
+									width = "299",
 									ZOrder = "1",
 								},
 								{
@@ -525,7 +525,7 @@ local t =
 									{
 										PositionX = 7,
 									},
-									width = "66",
+									width = "70",
 									ZOrder = "1",
 								},
 							},

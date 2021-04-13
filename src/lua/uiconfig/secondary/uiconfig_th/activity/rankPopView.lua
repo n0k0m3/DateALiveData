@@ -178,7 +178,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_rankPopView_1",
 									nTextAlign = "1",
@@ -187,7 +187,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "อันดับต่อสู้ |",
+									text = "อันดับต่อสู้",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -195,7 +195,7 @@ local t =
 										PositionX = 329,
 										PositionY = -49,
 									},
-									width = "124",
+									width = "106",
 									ZOrder = "1",
 								},
 								{
@@ -241,7 +241,8 @@ local t =
 										PositionX = 396,
 										PositionY = -55,
 									},
-									width = "141",
+									visible = "False",
+									width = "71",
 									ZOrder = "1",
 								},
 								{
@@ -287,7 +288,7 @@ local t =
 										PositionX = 395,
 										PositionY = -38,
 									},
-									width = "356",
+									width = "233",
 									ZOrder = "1",
 								},
 								{
@@ -438,11 +439,12 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "154",
+											height = "0",
 											ignoreSize = "False",
 											name = "lab",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											rotation = "90",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -454,7 +456,7 @@ local t =
 											{
 												
 											},
-											width = "38",
+											width = "148",
 											ZOrder = "1",
 										},
 									},
@@ -539,11 +541,12 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "154",
+											height = "0",
 											ignoreSize = "False",
 											name = "lab",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											rotation = "90",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -553,9 +556,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionY = -1,
 											},
-											width = "38",
+											width = "148",
 											ZOrder = "1",
 										},
 									},
@@ -755,7 +758,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "22",
+															height = "21",
 															ignoreSize = "True",
 															name = "lab",
 															nTextAlign = "1",
@@ -771,7 +774,7 @@ local t =
 															{
 																PositionX = 21,
 															},
-															width = "128",
+															width = "86",
 															ZOrder = "1",
 														},
 													},
@@ -855,7 +858,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "22",
+															height = "21",
 															ignoreSize = "True",
 															name = "lab",
 															nTextAlign = "1",
@@ -871,7 +874,7 @@ local t =
 															{
 																PositionX = 9,
 															},
-															width = "93",
+															width = "95",
 															ZOrder = "1",
 														},
 													},
@@ -955,7 +958,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "22",
+															height = "21",
 															ignoreSize = "True",
 															name = "lab",
 															nTextAlign = "1",
@@ -971,7 +974,7 @@ local t =
 															{
 																PositionX = 16,
 															},
-															width = "111",
+															width = "99",
 															ZOrder = "1",
 														},
 													},
@@ -1050,7 +1053,7 @@ local t =
 														PositionX = -269,
 														PositionY = -1,
 													},
-													width = "39",
+													width = "82",
 													ZOrder = "1",
 												},
 												{
@@ -1121,7 +1124,7 @@ local t =
 													{
 														PositionX = -28,
 													},
-													width = "39",
+													width = "35",
 													ZOrder = "1",
 												},
 												{
@@ -1193,7 +1196,7 @@ local t =
 														PositionX = 239,
 														PositionY = -1,
 													},
-													width = "75",
+													width = "60",
 													ZOrder = "1",
 												},
 											},
@@ -1318,7 +1321,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
+															height = "25",
 															ignoreSize = "True",
 															name = "myDataRankNum",
 															nTextAlign = "1",
@@ -1334,7 +1337,7 @@ local t =
 															{
 																
 															},
-															width = "38",
+															width = "27",
 															ZOrder = "1",
 														},
 													},
@@ -1505,7 +1508,7 @@ local t =
 														PositionX = 275,
 														PositionY = 20,
 													},
-													width = "163",
+													width = "161",
 													ZOrder = "1",
 												},
 												{
@@ -1551,7 +1554,7 @@ local t =
 														PositionX = 277,
 														PositionY = 48,
 													},
-													width = "48",
+													width = "47",
 													ZOrder = "1",
 												},
 												{
@@ -1580,7 +1583,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "30",
+													height = "28",
 													ignoreSize = "True",
 													name = "myTime",
 													nTextAlign = "1",
@@ -1597,7 +1600,7 @@ local t =
 														PositionX = 483,
 														PositionY = 31,
 													},
-													width = "108",
+													width = "77",
 													ZOrder = "1",
 												},
 											},
@@ -1608,11 +1611,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "32",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "imgRefreshBg",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -1622,10 +1625,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 534,
+												PositionX = 512,
 												PositionY = 66,
 											},
-											width = "236",
+											width = "291",
 											ZOrder = "1",
 											components = 
 											{
@@ -1665,14 +1668,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "ตารางอันดับมีการอัปเดตทุก  นาที",
+													text = "ตารางอันดับมีการอัปเดตทุก      นาที",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = 2,
 													},
-													width = "218",
+													width = "251",
 													ZOrder = "1",
 												},
 												{
@@ -1715,9 +1718,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -28,
+														PositionX = 81,
 													},
-													width = "24",
+													width = "26",
 													ZOrder = "1",
 												},
 											},
@@ -1855,7 +1858,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "22",
+															height = "21",
 															ignoreSize = "True",
 															name = "lab",
 															nTextAlign = "1",
@@ -1871,7 +1874,7 @@ local t =
 															{
 																
 															},
-															width = "91",
+															width = "82",
 															ZOrder = "1",
 														},
 													},
@@ -1930,7 +1933,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "22",
+															height = "21",
 															ignoreSize = "True",
 															name = "lab",
 															nTextAlign = "1",
@@ -1946,7 +1949,7 @@ local t =
 															{
 																
 															},
-															width = "92",
+															width = "113",
 															ZOrder = "1",
 														},
 													},
@@ -2025,7 +2028,7 @@ local t =
 														PositionX = -217,
 														PositionY = -1,
 													},
-													width = "75",
+													width = "94",
 													ZOrder = "1",
 												},
 												{
@@ -2096,7 +2099,7 @@ local t =
 													{
 														PositionX = 134,
 													},
-													width = "75",
+													width = "96",
 													ZOrder = "1",
 												},
 											},
@@ -2371,7 +2374,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "dataRankNum",
 											nTextAlign = "1",
@@ -2387,7 +2390,7 @@ local t =
 											{
 												
 											},
-											width = "38",
+											width = "27",
 											ZOrder = "1",
 										},
 									},
@@ -2558,7 +2561,7 @@ local t =
 										PositionX = 268,
 										PositionY = 21,
 									},
-									width = "163",
+									width = "161",
 									ZOrder = "1",
 								},
 								{
@@ -2604,7 +2607,7 @@ local t =
 										PositionX = 270,
 										PositionY = 49,
 									},
-									width = "48",
+									width = "47",
 									ZOrder = "1",
 								},
 								{
@@ -2633,7 +2636,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "useTime",
 									nTextAlign = "1",
@@ -2650,7 +2653,7 @@ local t =
 										PositionX = 465,
 										PositionY = 34,
 									},
-									width = "108",
+									width = "77",
 									ZOrder = "1",
 								},
 							},
@@ -2761,7 +2764,7 @@ local t =
 										PositionX = 105,
 										PositionY = 34,
 									},
-									width = "84",
+									width = "82",
 									ZOrder = "1",
 								},
 								{

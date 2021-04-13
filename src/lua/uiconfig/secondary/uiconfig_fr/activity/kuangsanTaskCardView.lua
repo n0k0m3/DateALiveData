@@ -295,7 +295,7 @@ local t =
 													{
 														
 													},
-													width = "99",
+													width = "102",
 													ZOrder = "1",
 												},
 											},
@@ -363,7 +363,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_progress",
 											nTextAlign = "1",
@@ -380,7 +380,7 @@ local t =
 												PositionX = -374,
 												PositionY = -249,
 											},
-											width = "178",
+											width = "270",
 											ZOrder = "1",
 										},
 										{
@@ -406,11 +406,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 457,
+												PositionX = 433,
 												PositionY = -265,
 											},
 											UItype = "Button",
-											width = "180",
+											width = "260",
 											ZOrder = "1",
 											components = 
 											{
@@ -441,7 +441,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "32",
+													height = "30",
 													ignoreSize = "True",
 													name = "Label_award",
 													nTextAlign = "1",
@@ -457,7 +457,7 @@ local t =
 													{
 														
 													},
-													width = "108",
+													width = "234",
 													ZOrder = "1",
 												},
 											},
@@ -557,7 +557,7 @@ local t =
 												PositionX = -409,
 												PositionY = -265,
 											},
-											width = "50",
+											width = "72",
 											ZOrder = "1",
 										},
 										{
@@ -579,14 +579,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_cost1",
 											nTextAlign = "1",
@@ -603,7 +603,7 @@ local t =
 												PositionX = -372,
 												PositionY = -286,
 											},
-											width = "83",
+											width = "74",
 											ZOrder = "1",
 										},
 										{
@@ -650,18 +650,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_cost2",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -674,7 +674,7 @@ local t =
 												PositionX = -209,
 												PositionY = -286,
 											},
-											width = "517",
+											width = "504",
 											ZOrder = "1",
 										},
 									},
@@ -868,7 +868,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_count",
 											nTextAlign = "1",
@@ -885,7 +885,7 @@ local t =
 												PositionX = 52,
 												PositionY = -49,
 											},
-											width = "54",
+											width = "37",
 											ZOrder = "1",
 										},
 									},

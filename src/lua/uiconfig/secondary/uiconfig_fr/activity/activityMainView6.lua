@@ -293,6 +293,7 @@ local t =
 										PositionX = 37,
 										PositionY = 34,
 									},
+									visible = "False",
 									width = "78",
 									ZOrder = "1",
 									components = 
@@ -343,7 +344,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -355,6 +356,8 @@ local t =
 											name = "activityName",
 											nTextAlign = "0",
 											nTextHAlign = "0",
+											scaleX = "0.9",
+											scaleY = "0.9",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -364,9 +367,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 154,
+												PositionX = 162,
 											},
-											width = "93",
+											width = "117",
 											ZOrder = "1",
 										},
 										{
@@ -420,7 +423,6 @@ local t =
 										PositionX = 52,
 										PositionY = 33,
 									},
-									visible = "False",
 									width = "78",
 									ZOrder = "1",
 									components = 
@@ -471,7 +473,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
@@ -483,6 +485,8 @@ local t =
 											name = "activityName",
 											nTextAlign = "0",
 											nTextHAlign = "0",
+											scaleX = "0.9",
+											scaleY = "0.9",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -492,9 +496,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 139,
+												PositionX = 145,
 											},
-											width = "93",
+											width = "104",
 											ZOrder = "1",
 										},
 										{

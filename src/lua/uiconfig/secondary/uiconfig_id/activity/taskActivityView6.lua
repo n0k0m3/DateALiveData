@@ -822,14 +822,14 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
 									height = "54",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Button_receive",
 									normal = "ui/activity/assist/kuangsan/012.png",
 									sizepercentx = "0",
@@ -843,7 +843,7 @@ local t =
 										PositionY = -7,
 									},
 									UItype = "Button",
-									width = "144",
+									width = "165",
 									ZOrder = "1",
 									components = 
 									{
@@ -867,15 +867,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_receive",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -890,7 +890,7 @@ local t =
 											{
 												
 											},
-											width = "85",
+											width = "144",
 											ZOrder = "1",
 										},
 									},

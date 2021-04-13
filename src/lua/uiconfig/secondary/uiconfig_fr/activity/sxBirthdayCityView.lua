@@ -250,8 +250,8 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "42",
-							ignoreSize = "True",
+							height = "77",
+							ignoreSize = "False",
 							name = "Image_name",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -304,7 +304,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Voyage en bord de mer",
+									text = "Voyage en bord de merVoyage en bord de merVoyage en bord de merVoyage en bord de mer",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -388,7 +388,7 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
@@ -399,7 +399,7 @@ local t =
 											{
 												nHitType = 3,
 											},
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_dating",
 											normal = "ui/activity/sx_birthday/travel/SXSR_YH_button_2.png",
 											sizepercentx = "0",
@@ -409,11 +409,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 182,
-												PositionY = -29,
+												PositionX = 300,
+												PositionY = -35,
 											},
 											UItype = "Button",
-											width = "101",
+											width = "140",
 											ZOrder = "1",
 											components = 
 											{
@@ -444,8 +444,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "0",
-													ignoreSize = "False",
+													height = "21",
+													ignoreSize = "True",
 													name = "Label_dating",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -460,7 +460,7 @@ local t =
 													{
 														PositionY = -3,
 													},
-													width = "79",
+													width = "119",
 													ZOrder = "1",
 												},
 											},
@@ -940,7 +940,7 @@ local t =
 										PositionX = -153,
 										PositionY = -21,
 									},
-									width = "252",
+									width = "370",
 									ZOrder = "1",
 								},
 							},
@@ -1016,7 +1016,7 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
@@ -1027,7 +1027,7 @@ local t =
 											{
 												nHitType = 3,
 											},
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_dating",
 											normal = "ui/activity/sx_birthday/travel/SXSR_YH_button_2.png",
 											sizepercentx = "0",
@@ -1037,11 +1037,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 182,
-												PositionY = -29,
+												PositionX = 300,
+												PositionY = -35,
 											},
 											UItype = "Button",
-											width = "101",
+											width = "140",
 											ZOrder = "1",
 											components = 
 											{
@@ -1568,7 +1568,7 @@ local t =
 										PositionX = -153,
 										PositionY = -21,
 									},
-									width = "252",
+									width = "370",
 									ZOrder = "1",
 								},
 							},
@@ -1644,7 +1644,7 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
@@ -1655,7 +1655,7 @@ local t =
 											{
 												nHitType = 3,
 											},
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_dating",
 											normal = "ui/activity/sx_birthday/travel/SXSR_YH_button_2.png",
 											sizepercentx = "0",
@@ -1665,11 +1665,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 182,
-												PositionY = -28,
+												PositionX = 300,
+												PositionY = -35,
 											},
 											UItype = "Button",
-											width = "101",
+											width = "140",
 											ZOrder = "1",
 											components = 
 											{
@@ -2194,7 +2194,7 @@ local t =
 										PositionX = -153,
 										PositionY = -21,
 									},
-									width = "252",
+									width = "370",
 									ZOrder = "1",
 								},
 							},
@@ -2318,7 +2318,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = true,
@@ -2330,18 +2330,21 @@ local t =
 									name = "Label_desc",
 									nTextAlign = "1",
 									nTextHAlign = "0",
+									scaleX = "0.9",
+									scaleY = "0.9",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Texte de la description",
+									text = "Texte de la descriptioxte de la descriptionTexte dede la descriptionTexte de la descriptionTexte dede la descriptionTexte",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = -379,
+										PositionY = -2,
 									},
-									width = "292",
+									width = "336",
 									ZOrder = "1",
 								},
 							},

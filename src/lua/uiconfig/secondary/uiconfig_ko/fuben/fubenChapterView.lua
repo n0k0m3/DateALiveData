@@ -2023,7 +2023,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -520,
+										PositionX = -483,
 										PositionY = -284,
 									},
 									uipanelviewmodel = 
@@ -2941,7 +2941,7 @@ local t =
 												PositionX = 88,
 												PositionY = 119,
 											},
-											width = "37",
+											width = "36",
 											ZOrder = "1",
 										},
 										{
@@ -2988,7 +2988,7 @@ local t =
 												PositionX = 162,
 												PositionY = 140,
 											},
-											width = "37",
+											width = "36",
 											ZOrder = "1",
 										},
 										{
@@ -3035,7 +3035,7 @@ local t =
 												PositionX = 78,
 												PositionY = 81,
 											},
-											width = "48",
+											width = "46",
 											ZOrder = "1",
 										},
 										{
@@ -3442,7 +3442,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1033",
 							ZOrder = "1",
 							components = 
@@ -3521,8 +3520,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -407,
-										PositionY = 223,
+										PositionX = -328,
+										PositionY = 225,
 									},
 									width = "308",
 									ZOrder = "1",
@@ -3547,8 +3546,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -494,
-										PositionY = 237,
+										PositionX = -415,
+										PositionY = 239,
 									},
 									width = "8",
 									ZOrder = "1",
@@ -3594,8 +3593,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -479,
-										PositionY = 238,
+										PositionX = -400,
+										PositionY = 240,
 									},
 									width = "110",
 									ZOrder = "1",
@@ -3641,8 +3640,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -503,
-										PositionY = 202,
+										PositionX = -424,
+										PositionY = 204,
 									},
 									width = "44",
 									ZOrder = "1",
@@ -3672,11 +3671,11 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -516,
-										PositionY = -280,
+										PositionX = -438,
+										PositionY = -277,
 										IsPercent = true,
-										PercentX = -50,
-										PercentY = -50,
+										PercentX = -42.41,
+										PercentY = -49.49,
 									},
 									uipanelviewmodel = 
 									{
@@ -3698,7 +3697,7 @@ local t =
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "260",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_timedi",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -3708,10 +3707,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 114,
-												PositionY = 126,
+												PositionX = 116,
+												PositionY = 117,
 											},
-											width = "314",
+											width = "400",
 											ZOrder = "1",
 										},
 										{
@@ -3802,8 +3801,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 102,
-												PositionY = 96,
+												PositionX = 80,
+												PositionY = 87,
 											},
 											width = "68",
 											ZOrder = "1",
@@ -3849,8 +3848,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 197,
-												PositionY = 117,
+												PositionX = 211,
+												PositionY = 112,
 											},
 											width = "70",
 											ZOrder = "1",
@@ -3896,8 +3895,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 46,
-												PositionY = 85,
+												PositionX = 24,
+												PositionY = 76,
 											},
 											width = "53",
 											ZOrder = "1",
@@ -3943,8 +3942,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 142,
-												PositionY = 108,
+												PositionX = 154,
+												PositionY = 105,
 											},
 											width = "53",
 											ZOrder = "1",
@@ -3993,7 +3992,7 @@ local t =
 												PositionX = 24,
 												PositionY = 42,
 											},
-											width = "57",
+											width = "59",
 											ZOrder = "1",
 										},
 										{
@@ -4016,8 +4015,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 131,
-												PositionY = 145,
+												PositionX = 168,
+												PositionY = 150,
 											},
 											width = "8",
 											ZOrder = "1",
@@ -4702,7 +4701,7 @@ local t =
 												PositionX = 141,
 												PositionY = 104,
 											},
-											width = "15",
+											width = "14",
 											ZOrder = "1",
 										},
 										{
@@ -4749,7 +4748,7 @@ local t =
 												PositionX = 174,
 												PositionY = 56,
 											},
-											width = "29",
+											width = "34",
 											ZOrder = "1",
 										},
 									},
@@ -5408,7 +5407,7 @@ local t =
 												PositionX = -172,
 												PositionY = -231,
 											},
-											width = "40",
+											width = "39",
 											ZOrder = "1",
 										},
 										{
@@ -5455,7 +5454,7 @@ local t =
 												PositionX = -100,
 												PositionY = -211,
 											},
-											width = "35",
+											width = "34",
 											ZOrder = "1",
 										},
 									},
@@ -5585,7 +5584,7 @@ local t =
 										PositionX = -441,
 										PositionY = 207,
 									},
-									width = "56",
+									width = "58",
 									ZOrder = "1",
 								},
 								{
@@ -5632,7 +5631,7 @@ local t =
 										PositionX = -429,
 										PositionY = 179,
 									},
-									width = "42",
+									width = "46",
 									ZOrder = "1",
 								},
 								{
@@ -5936,7 +5935,7 @@ local t =
 							height = "570",
 							ignoreSize = "False",
 							innerHeight = "570",
-							innerWidth = "116",
+							innerWidth = "130",
 							name = "ScrollView_fuben",
 							showScrollbar = "False",
 							sizepercentx = "0",
@@ -5954,7 +5953,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "114",
+							width = "130",
 							ZOrder = "1",
 						},
 						{
@@ -5963,11 +5962,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "570",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_fubenChapterView_1",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -5983,7 +5982,7 @@ local t =
 								TopPosition = -254,
 								relativeToName = "Panel",
 							},
-							width = "114",
+							width = "150",
 							ZOrder = "1",
 						},
 					},
@@ -6066,7 +6065,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "116",
+							width = "130",
 							ZOrder = "1",
 							components = 
 							{
@@ -6077,11 +6076,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "96",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_select",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -6093,7 +6092,7 @@ local t =
 									{
 										
 									},
-									width = "116",
+									width = "130",
 									ZOrder = "1",
 								},
 								{
@@ -6435,7 +6434,7 @@ local t =
 											{
 												PositionY = 200,
 											},
-											width = "175",
+											width = "190",
 											ZOrder = "1",
 										},
 										{
@@ -6629,7 +6628,7 @@ local t =
 																PositionX = 90,
 																PositionY = 15,
 															},
-															width = "80",
+															width = "90",
 															ZOrder = "1",
 														},
 														{
@@ -6813,7 +6812,7 @@ local t =
 																PositionX = 90,
 																PositionY = 15,
 															},
-															width = "80",
+															width = "90",
 															ZOrder = "1",
 														},
 														{
@@ -6996,7 +6995,7 @@ local t =
 																PositionX = 90,
 																PositionY = 15,
 															},
-															width = "80",
+															width = "90",
 															ZOrder = "1",
 														},
 														{
@@ -7480,7 +7479,7 @@ local t =
 											{
 												PositionY = 200,
 											},
-											width = "175",
+											width = "190",
 											ZOrder = "1",
 										},
 									},
@@ -7565,7 +7564,7 @@ local t =
 												PositionX = 110,
 												PositionY = -120,
 											},
-											width = "95",
+											width = "94",
 											ZOrder = "1",
 										},
 									},
@@ -7973,7 +7972,7 @@ local t =
 											{
 												PositionY = 200,
 											},
-											width = "175",
+											width = "190",
 											ZOrder = "1",
 										},
 									},
@@ -8058,7 +8057,7 @@ local t =
 												PositionX = 110,
 												PositionY = -120,
 											},
-											width = "95",
+											width = "94",
 											ZOrder = "1",
 										},
 									},
@@ -8492,7 +8491,7 @@ local t =
 											{
 												PositionY = 200,
 											},
-											width = "164",
+											width = "178",
 											ZOrder = "1",
 										},
 									},
@@ -8577,7 +8576,7 @@ local t =
 												PositionX = 110,
 												PositionY = -120,
 											},
-											width = "95",
+											width = "94",
 											ZOrder = "1",
 										},
 									},
@@ -8993,7 +8992,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "116",
+							width = "130",
 							ZOrder = "1",
 							components = 
 							{
@@ -9004,11 +9003,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "96",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_select",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -9020,7 +9019,7 @@ local t =
 									{
 										PositionY = 10,
 									},
-									width = "116",
+									width = "130",
 									ZOrder = "1",
 								},
 								{

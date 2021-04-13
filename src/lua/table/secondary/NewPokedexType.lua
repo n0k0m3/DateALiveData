@@ -2139,7 +2139,7 @@ return {
     },
     [2007] = {
         type2 = 102007,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,

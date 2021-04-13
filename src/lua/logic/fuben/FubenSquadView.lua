@@ -901,6 +901,8 @@ function FubenSquadView:showKsanLevelData()
         PrefabDataMgr:setInfo(Panel_dropGoodsItem, {v}, flag, arg)
         listview_reward:pushBackCustomItem(Panel_dropGoodsItem)
     end
+
+    TFDirector:getChildByPath(self.Panel_KuangSan, "Label_ksan_tips"):setTextById(12032063)
 end
 
 function FubenSquadView:showNewYearLevelData( ... )

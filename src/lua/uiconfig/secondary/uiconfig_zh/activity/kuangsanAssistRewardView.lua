@@ -94,7 +94,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "561",
+							height = "576",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "100",
@@ -113,7 +113,7 @@ local t =
 								LeftPositon = 118,
 								TopPosition = 70,
 							},
-							width = "1061",
+							width = "1021",
 							ZOrder = "1",
 							components = 
 							{
@@ -144,7 +144,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -158,10 +158,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -220,
-										PositionY = 151,
+										PositionX = -289,
+										PositionY = 216,
 									},
-									width = "115",
+									width = "114",
 									ZOrder = "1",
 								},
 								{
@@ -187,8 +187,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 472,
-										PositionY = 150,
+										PositionX = 402,
+										PositionY = 215,
 									},
 									UItype = "Button",
 									width = "30",
@@ -214,8 +214,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 68,
-										PositionY = -79,
+										PositionX = -1,
+										PositionY = -13,
 									},
 									visible = "False",
 									width = "975",
@@ -244,8 +244,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -201,
-										PositionY = 38,
+										PositionX = -270,
+										PositionY = 103,
 									},
 									UItype = "Button",
 									width = "64",
@@ -323,8 +323,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -201,
-										PositionY = -146,
+										PositionX = -270,
+										PositionY = -80,
 									},
 									UItype = "Button",
 									width = "64",
@@ -399,8 +399,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 160,
-										PositionY = 114,
+										PositionX = 90,
+										PositionY = 179,
 									},
 									width = "664",
 									ZOrder = "1",
@@ -449,7 +449,7 @@ local t =
 											{
 												PositionX = -203,
 											},
-											width = "39",
+											width = "21",
 											ZOrder = "1",
 										},
 										{
@@ -523,7 +523,7 @@ local t =
 											{
 												PositionX = 170,
 											},
-											width = "39",
+											width = "0",
 											ZOrder = "1",
 										},
 									},
@@ -555,8 +555,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -174,
-										PositionY = -234,
+										PositionX = -243,
+										PositionY = -168,
 									},
 									uipanelviewmodel = 
 									{
@@ -593,8 +593,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -174,
-										PositionY = -234,
+										PositionX = -243,
+										PositionY = -168,
 									},
 									uipanelviewmodel = 
 									{
@@ -696,7 +696,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_desc",
 									nTextAlign = "1",
@@ -713,7 +713,7 @@ local t =
 										PositionX = 55,
 										PositionY = 42,
 									},
-									width = "145",
+									width = "142",
 									ZOrder = "5",
 								},
 								{

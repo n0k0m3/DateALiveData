@@ -341,7 +341,7 @@ function MainMapLayer:initMapLayer()
 			local point = TFDirector:getChildByPath(self.cityMap,"panel_point"..k)
 			local Panel_status = TFDirector:getChildByPath(point,"Panel_status")
 			point.statusNode = self.Panel_point_status:clone()
-			point.statusNode:setPosition(ccp(0,0))
+			point.statusNode:setPosition(ccp(0,50))
 			Panel_status:addChild(point.statusNode)
 
 			local Panel_effect = TFDirector:getChildByPath(point.statusNode,"Panel_effect")

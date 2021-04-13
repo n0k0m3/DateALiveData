@@ -95,7 +95,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "561",
+							height = "576",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "100",
@@ -114,7 +114,7 @@ local t =
 								LeftPositon = 118,
 								TopPosition = 70,
 							},
-							width = "1061",
+							width = "1021",
 							ZOrder = "1",
 							components = 
 							{
@@ -145,7 +145,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -159,10 +159,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -214,
-										PositionY = 154,
+										PositionX = -296,
+										PositionY = 217,
 									},
-									width = "114",
+									width = "319",
 									ZOrder = "1",
 								},
 								{
@@ -188,8 +188,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 478,
-										PositionY = 153,
+										PositionX = 395,
+										PositionY = 216,
 									},
 									UItype = "Button",
 									width = "30",
@@ -215,8 +215,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 138,
-										PositionY = -52,
+										PositionX = 55,
+										PositionY = 11,
 									},
 									visible = "False",
 									width = "700",
@@ -248,7 +248,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "340",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "0",
@@ -262,8 +262,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 138,
-										PositionY = -52,
+										PositionX = 56,
+										PositionY = 11,
 									},
 									width = "711",
 									ZOrder = "2",

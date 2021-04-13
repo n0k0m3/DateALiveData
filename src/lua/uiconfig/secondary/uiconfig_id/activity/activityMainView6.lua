@@ -293,6 +293,7 @@ local t =
 										PositionX = 37,
 										PositionY = 34,
 									},
+									visible = "False",
 									width = "78",
 									ZOrder = "1",
 									components = 
@@ -343,7 +344,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -366,7 +367,7 @@ local t =
 											{
 												PositionX = 154,
 											},
-											width = "93",
+											width = "110",
 											ZOrder = "1",
 										},
 										{
@@ -420,7 +421,6 @@ local t =
 										PositionX = 52,
 										PositionY = 33,
 									},
-									visible = "False",
 									width = "78",
 									ZOrder = "1",
 									components = 
@@ -471,7 +471,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
@@ -494,7 +494,7 @@ local t =
 											{
 												PositionX = 139,
 											},
-											width = "93",
+											width = "97",
 											ZOrder = "1",
 										},
 										{

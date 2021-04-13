@@ -84,7 +84,7 @@ return {
         combatPower = 60,
         desTextId = 231025,
         herosequip = 332006,
-        display = false,
+        display = true,
         suitarmsID = {
             [1] = 309001,
             [2] = 309002,
@@ -235,7 +235,7 @@ return {
         combatPower = 60,
         desTextId = 231017,
         herosequip = 331037,
-        display = false,
+        display = true,
         suitarmsID = {
             [1] = 317001,
             [2] = 317002,
@@ -384,7 +384,7 @@ return {
         combatPower = 60,
         desTextId = 231018,
         herosequip = 331038,
-        display = false,
+        display = true,
         suitarmsID = {
             [1] = 318001,
         },
@@ -456,7 +456,7 @@ return {
         combatPower = 60,
         desTextId = 231028,
         herosequip = 332009,
-        display = false,
+        display = true,
         suitarmsID = {
             [1] = 327001,
         },
@@ -697,7 +697,7 @@ return {
         combatPower = 60,
         desTextId = 231019,
         herosequip = 331039,
-        display = false,
+        display = true,
         suitarmsID = {
             [1] = 319001,
         },

@@ -112,8 +112,8 @@ function SkyLadderEndSeasonView:initUIData()
 
     local raceEndTime = SkyLadderDataMgr:getRaceEndTime()
     --local endTime = Utils:getTimeData(raceEndTime)
-    local year , month , day = Utils:getUTCDateYMD(raceEndTime)
-    local endTime = {year = year , month = month , day = day}
+    local Year , Month , Day = Utils:getUTCDateYMD(raceEndTime , false ,GV_UTC_TIME_ZONE)
+    local endTime = {Year = Year , Month = Month , Day = Day}
     self.Label_season_time:setText( TextDataMgr:getText(3203009, endTime.Year, endTime.Month, endTime.Day)..GV_UTC_TIME_STRING)
 
     self:playAction()

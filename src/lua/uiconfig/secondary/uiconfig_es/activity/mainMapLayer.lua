@@ -149,7 +149,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -510,
+								PositionX = -481,
 								PositionY = -3,
 							},
 							UItype = "Button",
@@ -184,7 +184,7 @@ local t =
 										StrokeColor = "#FF822023",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_task",
 									nTextAlign = "1",
@@ -200,7 +200,7 @@ local t =
 									{
 										PositionY = -30,
 									},
-									width = "44",
+									width = "75",
 									ZOrder = "1",
 								},
 								{
@@ -254,7 +254,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -510,
+								PositionX = -481,
 								PositionY = -87,
 							},
 							UItype = "Button",
@@ -289,7 +289,7 @@ local t =
 										StrokeColor = "#FF822023",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_rank",
 									nTextAlign = "1",
@@ -305,7 +305,7 @@ local t =
 									{
 										PositionY = -30,
 									},
-									width = "44",
+									width = "137",
 									ZOrder = "1",
 								},
 							},
@@ -333,7 +333,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -510,
+								PositionX = -481,
 								PositionY = -171,
 							},
 							UItype = "Button",
@@ -368,7 +368,7 @@ local t =
 										StrokeColor = "#FF822023",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_collect",
 									nTextAlign = "1",
@@ -384,7 +384,7 @@ local t =
 									{
 										PositionY = -30,
 									},
-									width = "44",
+									width = "76",
 									ZOrder = "1",
 								},
 								{
@@ -438,7 +438,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -510,
+								PositionX = -481,
 								PositionY = -255,
 							},
 							UItype = "Button",
@@ -473,7 +473,7 @@ local t =
 										StrokeColor = "#FF822023",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_shop",
 									nTextAlign = "1",
@@ -489,7 +489,7 @@ local t =
 									{
 										PositionY = -30,
 									},
-									width = "44",
+									width = "75",
 									ZOrder = "1",
 								},
 							},
@@ -574,7 +574,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_stage",
 									nTextAlign = "1",
@@ -591,7 +591,7 @@ local t =
 										PositionX = -2,
 										PositionY = 7,
 									},
-									width = "84",
+									width = "65",
 									ZOrder = "1",
 								},
 								{
@@ -620,7 +620,7 @@ local t =
 										StrokeColor = "#FF822023",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_timing",
 									nTextAlign = "1",
@@ -637,7 +637,7 @@ local t =
 										PositionX = 2,
 										PositionY = -20,
 									},
-									width = "126",
+									width = "81",
 									ZOrder = "1",
 								},
 							},
@@ -667,7 +667,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -568,
+								PositionX = -583,
 								PositionY = -320,
 							},
 							uipanelviewmodel = 
@@ -749,10 +749,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -4,
+												PositionX = 20,
 												PositionY = 14,
 											},
-											width = "83",
+											width = "130",
 											ZOrder = "1",
 										},
 										{
@@ -781,7 +781,7 @@ local t =
 												StrokeColor = "#FF822023",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_progress",
 											nTextAlign = "1",
@@ -798,7 +798,7 @@ local t =
 												PositionX = 10,
 												PositionY = -11,
 											},
-											width = "69",
+											width = "53",
 											ZOrder = "1",
 										},
 									},
@@ -830,7 +830,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -568,
+								PositionX = -583,
 								PositionY = -320,
 							},
 							uipanelviewmodel = 
@@ -918,7 +918,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "2",
 											ignoreSize = "True",
 											name = "Image_head",
 											scaleX = "0.8",
@@ -934,7 +934,7 @@ local t =
 												PositionX = -69,
 												PositionY = 9,
 											},
-											width = "64",
+											width = "2",
 											ZOrder = "1",
 										},
 										{
@@ -977,10 +977,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -5,
+												PositionX = 30,
 												PositionY = 14,
 											},
-											width = "83",
+											width = "153",
 											ZOrder = "1",
 										},
 										{
@@ -1009,7 +1009,7 @@ local t =
 												StrokeColor = "#FF822023",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_cityName",
 											nTextAlign = "1",
@@ -1026,7 +1026,7 @@ local t =
 												PositionX = 10,
 												PositionY = -12,
 											},
-											width = "84",
+											width = "195",
 											ZOrder = "1",
 										},
 									},
@@ -1058,7 +1058,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -568,
+								PositionX = -583,
 								PositionY = -320,
 							},
 							uipanelviewmodel = 
@@ -1146,7 +1146,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "2",
 											ignoreSize = "True",
 											name = "Image_head",
 											scaleX = "0.8",
@@ -1161,7 +1161,7 @@ local t =
 											{
 												PositionX = 86,
 											},
-											width = "64",
+											width = "2",
 											ZOrder = "1",
 										},
 										{
@@ -1183,18 +1183,20 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_bossName",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1204,10 +1206,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -73,
+												PositionX = -76,
 												PositionY = 14,
 											},
-											width = "83",
+											width = "165",
 											ZOrder = "1",
 										},
 										{
@@ -1236,7 +1238,7 @@ local t =
 												StrokeColor = "#FF822023",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "score",
 											nTextAlign = "1",
@@ -1253,7 +1255,7 @@ local t =
 												PositionX = 55,
 												PositionY = -12,
 											},
-											width = "45",
+											width = "47",
 											ZOrder = "1",
 										},
 										{
@@ -1788,11 +1790,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "26",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_bar_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1804,7 +1806,7 @@ local t =
 									{
 										PositionY = 15,
 									},
-									width = "188",
+									width = "311",
 									ZOrder = "1",
 									components = 
 									{
@@ -1815,12 +1817,12 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MELoadingBar",
 											direction = "0",
 											dstBlendFunc = "771",
 											height = "18",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "loadingBar_process",
 											percent = "100",
 											sizepercentx = "0",
@@ -1833,7 +1835,7 @@ local t =
 											{
 												
 											},
-											width = "122",
+											width = "247",
 											ZOrder = "1",
 										},
 										{
@@ -1903,7 +1905,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "58",
+											width = "77",
 											ZOrder = "1",
 										},
 										{
@@ -1926,7 +1928,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -57,
+												PositionX = -125,
 											},
 											width = "40",
 											ZOrder = "1",
@@ -1937,7 +1939,7 @@ local t =
 									controlID = "Label_name_Panel_point_status_Panel_prefab_Panel-mainMapLayer_kuangsanFuben_activity_Game",
 									UUID = "2c5c1b9d_144c_425d_af1f_2cdb0f777097",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -1973,9 +1975,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
+										PositionX = -51,
 										PositionY = 42,
 									},
-									width = "112",
+									width = "226",
 									ZOrder = "1",
 								},
 								{
@@ -2051,7 +2054,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "2",
 											ignoreSize = "True",
 											name = "Image_head",
 											scaleX = "0.8",
@@ -2067,7 +2070,7 @@ local t =
 												PositionX = -46,
 												PositionY = 123,
 											},
-											width = "64",
+											width = "2",
 											ZOrder = "1",
 										},
 										{
@@ -2113,7 +2116,7 @@ local t =
 												PositionX = 21,
 												PositionY = 125,
 											},
-											width = "74",
+											width = "71",
 											ZOrder = "1",
 										},
 									},
@@ -2191,7 +2194,7 @@ local t =
 													backGroundScale9Enable = "False",
 													classname = "MEImage",
 													dstBlendFunc = "771",
-													height = "64",
+													height = "2",
 													ignoreSize = "True",
 													name = "Image_head",
 													scaleX = "0.8",
@@ -2206,7 +2209,7 @@ local t =
 													{
 														PositionY = 4,
 													},
-													width = "64",
+													width = "2",
 													ZOrder = "1",
 												},
 											},
@@ -2248,7 +2251,7 @@ local t =
 													backGroundScale9Enable = "False",
 													classname = "MEImage",
 													dstBlendFunc = "771",
-													height = "64",
+													height = "2",
 													ignoreSize = "True",
 													name = "Image_head",
 													scaleX = "0.8",
@@ -2263,7 +2266,7 @@ local t =
 													{
 														PositionY = 4,
 													},
-													width = "64",
+													width = "2",
 													ZOrder = "1",
 												},
 											},
@@ -2305,7 +2308,7 @@ local t =
 													backGroundScale9Enable = "False",
 													classname = "MEImage",
 													dstBlendFunc = "771",
-													height = "64",
+													height = "2",
 													ignoreSize = "True",
 													name = "Image_head",
 													scaleX = "0.8",
@@ -2320,7 +2323,7 @@ local t =
 													{
 														PositionY = 4,
 													},
-													width = "64",
+													width = "2",
 													ZOrder = "1",
 												},
 											},

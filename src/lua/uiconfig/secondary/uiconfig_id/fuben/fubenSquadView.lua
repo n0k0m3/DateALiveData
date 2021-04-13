@@ -13124,7 +13124,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -13674,18 +13673,20 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_title",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													scaleX = "0.8",
+													scaleY = "0.8",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -13695,9 +13696,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -213,
+														PositionX = -225,
 													},
-													width = "161",
+													width = "130",
 													ZOrder = "1",
 												},
 												{
@@ -13920,11 +13921,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "44",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_assistboss",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -13934,10 +13935,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 78,
+												PositionX = 124,
 												PositionY = 84,
 											},
-											width = "206",
+											width = "310",
 											ZOrder = "1",
 											components = 
 											{
@@ -13982,7 +13983,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -56,
+														PositionX = -108,
 														PositionY = -2,
 													},
 													width = "244",
@@ -16164,6 +16165,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 

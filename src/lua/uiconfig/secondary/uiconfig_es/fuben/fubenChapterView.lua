@@ -1099,7 +1099,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1033",
 							ZOrder = "1",
 							components = 
@@ -2022,7 +2021,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -520,
+										PositionX = -430,
 										PositionY = -284,
 									},
 									uipanelviewmodel = 
@@ -3520,7 +3519,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -407,
+										PositionX = -278,
 										PositionY = 223,
 									},
 									width = "308",
@@ -3546,7 +3545,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -494,
+										PositionX = -365,
 										PositionY = 237,
 									},
 									width = "8",
@@ -3593,7 +3592,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -479,
+										PositionX = -350,
 										PositionY = 238,
 									},
 									width = "213",
@@ -3640,7 +3639,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -503,
+										PositionX = -374,
 										PositionY = 202,
 									},
 									width = "82",
@@ -3671,10 +3670,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -516,
+										PositionX = -387,
 										PositionY = -280,
 										IsPercent = true,
-										PercentX = -50,
+										PercentX = -37.54,
 										PercentY = -50,
 									},
 									uipanelviewmodel = 
@@ -3697,7 +3696,7 @@ local t =
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "260",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_timedi",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -3710,7 +3709,7 @@ local t =
 												PositionX = 114,
 												PositionY = 126,
 											},
-											width = "314",
+											width = "330",
 											ZOrder = "1",
 										},
 										{
@@ -3801,7 +3800,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 102,
+												PositionX = 97,
 												PositionY = 96,
 											},
 											width = "68",
@@ -3848,8 +3847,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 197,
-												PositionY = 117,
+												PositionX = 221,
+												PositionY = 123,
 											},
 											width = "28",
 											ZOrder = "1",
@@ -3895,7 +3894,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 46,
+												PositionX = 41,
 												PositionY = 85,
 											},
 											width = "53",
@@ -3942,8 +3941,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 142,
-												PositionY = 108,
+												PositionX = 166,
+												PositionY = 114,
 											},
 											width = "53",
 											ZOrder = "1",
@@ -4015,8 +4014,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 131,
-												PositionY = 145,
+												PositionX = 326,
+												PositionY = 186,
 											},
 											width = "8",
 											ZOrder = "1",
@@ -5935,7 +5934,7 @@ local t =
 							height = "570",
 							ignoreSize = "False",
 							innerHeight = "570",
-							innerWidth = "116",
+							innerWidth = "180",
 							name = "ScrollView_fuben",
 							showScrollbar = "False",
 							sizepercentx = "0",
@@ -5953,7 +5952,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "114",
+							width = "180",
 							ZOrder = "1",
 						},
 						{
@@ -5962,11 +5961,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "570",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_fubenChapterView_1",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -5982,7 +5981,7 @@ local t =
 								TopPosition = -254,
 								relativeToName = "Panel",
 							},
-							width = "114",
+							width = "200",
 							ZOrder = "1",
 						},
 					},
@@ -6065,7 +6064,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "116",
+							width = "180",
 							ZOrder = "1",
 							components = 
 							{
@@ -6076,11 +6075,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "96",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_select",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -6090,9 +6089,9 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = 1,
 									},
-									width = "116",
+									width = "180",
 									ZOrder = "1",
 								},
 								{
@@ -8993,7 +8992,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "116",
+							width = "180",
 							ZOrder = "1",
 							components = 
 							{
@@ -9004,11 +9003,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "96",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_select",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -9020,7 +9019,7 @@ local t =
 									{
 										PositionY = 10,
 									},
-									width = "116",
+									width = "180",
 									ZOrder = "1",
 								},
 								{

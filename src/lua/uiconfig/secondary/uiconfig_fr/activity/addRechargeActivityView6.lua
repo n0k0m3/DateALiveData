@@ -329,7 +329,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -11,
+										PositionX = 1,
 										PositionY = -214,
 									},
 									width = "73",
@@ -515,7 +515,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "88",
+							width = "107",
 							ZOrder = "1",
 							components = 
 							{

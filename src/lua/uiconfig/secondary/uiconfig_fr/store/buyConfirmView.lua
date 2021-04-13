@@ -449,7 +449,7 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "60",
+									height = "48",
 									ignoreSize = "False",
 									name = "Panel_batch",
 									sizepercentx = "0",
@@ -459,7 +459,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -135,
+										PositionY = -154,
 									},
 									uipanelviewmodel = 
 									{

@@ -290,9 +290,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 37,
+										PositionX = 38,
 										PositionY = 34,
 									},
+									visible = "False",
 									width = "78",
 									ZOrder = "1",
 									components = 
@@ -355,6 +356,8 @@ local t =
 											name = "activityName",
 											nTextAlign = "0",
 											nTextHAlign = "0",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -366,7 +369,7 @@ local t =
 											{
 												PositionX = 154,
 											},
-											width = "93",
+											width = "132",
 											ZOrder = "1",
 										},
 										{
@@ -420,7 +423,6 @@ local t =
 										PositionX = 52,
 										PositionY = 33,
 									},
-									visible = "False",
 									width = "78",
 									ZOrder = "1",
 									components = 
@@ -483,6 +485,8 @@ local t =
 											name = "activityName",
 											nTextAlign = "0",
 											nTextHAlign = "0",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -492,9 +496,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 139,
+												PositionX = 143,
 											},
-											width = "93",
+											width = "132",
 											ZOrder = "1",
 										},
 										{

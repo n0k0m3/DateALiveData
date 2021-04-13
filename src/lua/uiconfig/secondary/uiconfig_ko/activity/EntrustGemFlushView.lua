@@ -242,7 +242,7 @@ local t =
 											{
 												
 											},
-											width = "54",
+											width = "47",
 											ZOrder = "1",
 										},
 									},
@@ -273,7 +273,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -290,7 +290,7 @@ local t =
 										PositionX = -254,
 										PositionY = 129,
 									},
-									width = "114",
+									width = "135",
 									ZOrder = "1",
 								},
 								{
@@ -333,10 +333,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -133,
-										PositionY = 123,
+										PositionX = -113,
+										PositionY = 122,
 									},
-									width = "141",
+									width = "134",
 									ZOrder = "1",
 								},
 								{
@@ -359,8 +359,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -135,
-										PositionY = 131,
+										PositionX = -115,
+										PositionY = 130,
 									},
 									width = "2",
 									ZOrder = "1",
@@ -391,8 +391,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_remainCount",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -407,7 +407,7 @@ local t =
 									{
 										PositionY = 80,
 									},
-									width = "477",
+									width = "500",
 									ZOrder = "1",
 								},
 								{
@@ -452,7 +452,7 @@ local t =
 									{
 										PositionY = -61,
 									},
-									width = "385",
+									width = "392",
 									ZOrder = "1",
 								},
 								{
@@ -523,7 +523,7 @@ local t =
 									{
 										PositionX = 7,
 									},
-									width = "66",
+									width = "70",
 									ZOrder = "1",
 								},
 							},

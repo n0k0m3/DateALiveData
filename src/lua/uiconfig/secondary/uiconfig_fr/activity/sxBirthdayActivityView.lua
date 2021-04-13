@@ -218,15 +218,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "14",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "21",
+									ignoreSize = "True",
 									name = "Label_time_title",
 									nTextAlign = "1",
 									nTextHAlign = "0",
@@ -239,10 +239,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 107,
-										PositionY = -145,
+										PositionX = 114,
+										PositionY = -113,
 									},
-									width = "120",
+									width = "226",
 									ZOrder = "1",
 								},
 								{
@@ -264,15 +264,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "21",
+									ignoreSize = "True",
 									name = "Label_time",
 									nTextAlign = "1",
 									nTextHAlign = "0",
@@ -285,10 +285,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 214,
+										PositionX = 112,
 										PositionY = -143,
 									},
-									width = "220",
+									width = "74",
 									ZOrder = "1",
 								},
 								{

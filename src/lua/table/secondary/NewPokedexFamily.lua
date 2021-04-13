@@ -296,19 +296,19 @@ return {
         scale  = 0.35,
         paintPosition = {
             y = 120,
-            x = 1000,
+            x = 1070,
         },
     },
     [26] = {
         show = 1,
         heroSkinId = 1128011,
-        sort = 7,
+        sort = 6,
         id = 26,
         heroId = 112801,
         scale  = 0.35,
         paintPosition = {
-            y = 220,
-            x = 1000,
+            y = 100,
+            x = 950,
         },
     },
     [27] = {

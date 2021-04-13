@@ -82,7 +82,7 @@ function LoginScene:showVideoViewMiniServer( re )
         USE_NATIVE_VLC = true
 	end
 	
-	local delayTime ,videoPth1, videoPth2
+	local videoPth1, videoPth2
 	if FunctionDataMgr:isMoJingLoginUI() then
 		delayTime = 1
 		videoPth1 = "video/loginPart6.mp4"
@@ -90,8 +90,9 @@ function LoginScene:showVideoViewMiniServer( re )
 	else
 		delayTime = 2
 		videoPth1 = "video/loginPart3.mp4"
-		videoPth2 = "video/loginPart3.mp4"
+		videoPth2 = "video/loginPart3_1.mp4"
 	end
+	
 
 	if self.videoView or re then
 		
@@ -119,20 +120,22 @@ function LoginScene:showVideoViewMiniServer( re )
 	    videoView:setAnchorPoint(ccp(0.5, 0.5))
 	    videoView:setPosition(ccp((GameConfig.WS.width - videoView:getSize().width)/2 + videoView:getSize().width / 2, (GameConfig.WS.height - videoView:getSize().height)/2 + videoView:getSize().height / 2))
 	    currentScene:addChild(videoView)
+	    videoView:setSkipComplete(true)
 	    videoView:setEndLoop(true)
-	    videoView:setIshowSkip(false)
+	    videoView:setIshowSkip(true)
+	    videoView:bindSpecicalCompleteCallBack(function()
+	    	videoView:setSkipComplete(false)
+	    	videoView:setIshowSkip(false)
+    		Utils:sendHttpLog("cartoon_finish_J")
+    		local layer = require("lua.logic.login.LoginLayer"):new(self.data)
+			videoView:addTopLayer(layer)
+			layer:setPosition(ccp(-GameConfig.WS.width / 2,-GameConfig.WS.height / 2))
+			self.layer = layer
+	    end)
 	    USE_NATIVE_VLC = OldValue
 	    TFAudio.resumeMusic()
 
-	    TimeOut(function()
-	    	Utils:sendHttpLog("cartoon_finish_J")
-	    		local layer = require("lua.logic.login.LoginLayer"):new(self.data)
-				videoView:addTopLayer(layer)
-				layer:setPosition(ccp(-GameConfig.WS.width / 2,-GameConfig.WS.height / 2))
-				self.layer = layer
-	    	end,delayTime)
-
-	    self.videoView = videoView;
+	    self.videoView = videoView
 	end
 end
 
