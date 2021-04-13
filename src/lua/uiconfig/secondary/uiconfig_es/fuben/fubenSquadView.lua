@@ -934,11 +934,11 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEImage",
 													dstBlendFunc = "771",
 													height = "32",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Image_try_type",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -948,10 +948,10 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 48,
+														PositionX = 20,
 														PositionY = 190,
 													},
-													width = "86",
+													width = "140",
 													ZOrder = "1",
 													components = 
 													{
@@ -975,14 +975,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "10",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "11",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_try_type",
 															nTextAlign = "1",
@@ -996,9 +996,9 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 16,
+																PositionX = 25,
 															},
-															width = "49",
+															width = "83",
 															ZOrder = "1",
 														},
 													},
@@ -2557,11 +2557,11 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 17,
+														PositionX = 20,
 														PositionY = 190,
 													},
 													visible = "False",
-													width = "142",
+													width = "140",
 													ZOrder = "1",
 													components = 
 													{
@@ -2585,14 +2585,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_try_type",
 															nTextAlign = "1",
@@ -2606,9 +2606,9 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 24,
+																PositionX = 25,
 															},
-															width = "91",
+															width = "83",
 															ZOrder = "1",
 														},
 													},
@@ -4315,11 +4315,11 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 18,
+														PositionX = 20,
 														PositionY = 190,
 													},
 													visible = "False",
-													width = "142",
+													width = "140",
 													ZOrder = "1",
 													components = 
 													{
@@ -4343,14 +4343,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_try_type",
 															nTextAlign = "1",
@@ -4364,9 +4364,9 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 23,
+																PositionX = 25,
 															},
-															width = "91",
+															width = "83",
 															ZOrder = "1",
 														},
 													},
@@ -13688,8 +13688,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_title",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -13704,7 +13704,7 @@ local t =
 													{
 														PositionX = -213,
 													},
-													width = "154",
+													width = "79",
 													ZOrder = "1",
 												},
 												{
@@ -13738,6 +13738,8 @@ local t =
 													name = "Label_time_info",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													scaleX = "0.8",
+													scaleY = "0.8",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -13747,7 +13749,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -72,
+														PositionX = -87,
 														PositionY = 18,
 													},
 													width = "126",
@@ -13784,6 +13786,8 @@ local t =
 													name = "Label_score_info",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													scaleX = "0.8",
+													scaleY = "0.8",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -13793,7 +13797,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -72,
+														PositionX = -92,
 														PositionY = -13,
 													},
 													width = "220",
@@ -13830,6 +13834,8 @@ local t =
 													name = "Label_time",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													scaleX = "0.8",
+													scaleY = "0.8",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -13839,7 +13845,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 195,
+														PositionX = 212,
 														PositionY = 18,
 													},
 													width = "59",
@@ -13876,6 +13882,8 @@ local t =
 													name = "Label_score",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													scaleX = "0.8",
+													scaleY = "0.8",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -13885,7 +13893,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 195,
+														PositionX = 212,
 														PositionY = -20,
 													},
 													width = "74",
@@ -13913,8 +13921,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 88,
-														PositionY = -15,
+														PositionX = 139,
+														PositionY = -16,
 													},
 													width = "100",
 													ZOrder = "1",
@@ -16163,7 +16171,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								
+								PositionX = -1,
 							},
 							uipanelviewmodel = 
 							{

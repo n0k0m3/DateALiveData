@@ -933,11 +933,11 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEImage",
 													dstBlendFunc = "771",
 													height = "32",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Image_try_type",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -947,11 +947,11 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 46,
+														PositionX = 16,
 														PositionY = 190,
 													},
 													visible = "False",
-													width = "86",
+													width = "145",
 													ZOrder = "1",
 													components = 
 													{
@@ -975,14 +975,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "10",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "11",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_try_type",
 															nTextAlign = "1",
@@ -996,9 +996,9 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 17,
+																PositionX = 25,
 															},
-															width = "48",
+															width = "81",
 															ZOrder = "1",
 														},
 													},
@@ -2544,11 +2544,11 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEImage",
 													dstBlendFunc = "771",
 													height = "32",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Image_try_type",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -2558,11 +2558,11 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 46,
+														PositionX = 16,
 														PositionY = 190,
 													},
 													visible = "False",
-													width = "86",
+													width = "145",
 													ZOrder = "1",
 													components = 
 													{
@@ -2586,14 +2586,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "10",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "11",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_try_type",
 															nTextAlign = "1",
@@ -2607,9 +2607,9 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 17,
+																PositionX = 25,
 															},
-															width = "48",
+															width = "81",
 															ZOrder = "1",
 														},
 													},
@@ -4303,11 +4303,11 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEImage",
 													dstBlendFunc = "771",
 													height = "32",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Image_try_type",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -4317,11 +4317,11 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 46,
+														PositionX = 15,
 														PositionY = 190,
 													},
 													visible = "False",
-													width = "86",
+													width = "145",
 													ZOrder = "1",
 													components = 
 													{
@@ -4345,14 +4345,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "10",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "11",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_try_type",
 															nTextAlign = "1",
@@ -4366,9 +4366,9 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 17,
+																PositionX = 25,
 															},
-															width = "48",
+															width = "81",
 															ZOrder = "1",
 														},
 													},
@@ -13694,8 +13694,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_title",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -13710,7 +13710,7 @@ local t =
 													{
 														PositionX = -213,
 													},
-													width = "168",
+													width = "91",
 													ZOrder = "1",
 												},
 												{

@@ -838,6 +838,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "400",
 							ZOrder = "1",
 							components = 
@@ -860,7 +861,7 @@ local t =
 									height = "300",
 									ignoreSize = "False",
 									innerHeight = "300",
-									innerWidth = "304",
+									innerWidth = "370",
 									name = "scrollView_bossList",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -870,7 +871,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 827,
+										PositionX = 761,
 										PositionY = 266,
 									},
 									uipanelviewmodel = 
@@ -878,7 +879,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "304",
+									width = "370",
 									ZOrder = "1",
 								},
 								{
@@ -904,7 +905,7 @@ local t =
 										PositionX = 1039,
 										PositionY = 531,
 									},
-									width = "304",
+									width = "370",
 									ZOrder = "1",
 									components = 
 									{
@@ -931,7 +932,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -90,
+												PositionX = -118,
 												PositionY = 10,
 											},
 											width = "2",
@@ -977,7 +978,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -62,
+												PositionX = -90,
 												PositionY = 15,
 											},
 											width = "102",
@@ -1023,7 +1024,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -61,
+												PositionX = -89,
 												PositionY = -10,
 											},
 											width = "116",
@@ -1066,7 +1067,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "400",
 							ZOrder = "1",
 							components = 
@@ -1089,7 +1089,7 @@ local t =
 									height = "300",
 									ignoreSize = "False",
 									innerHeight = "300",
-									innerWidth = "270",
+									innerWidth = "350",
 									name = "scrollView_rankList",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -1099,7 +1099,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 883,
+										PositionX = 781,
 										PositionY = 266,
 									},
 									uipanelviewmodel = 
@@ -1107,7 +1107,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "270",
+									width = "350",
 									ZOrder = "1",
 								},
 								{
@@ -1116,11 +1116,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "62",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "rankItem",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1133,7 +1133,7 @@ local t =
 										PositionX = 1019,
 										PositionY = 531,
 									},
-									width = "258",
+									width = "350",
 									ZOrder = "1",
 									components = 
 									{
@@ -1160,7 +1160,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 86,
+												PositionX = 134,
+												PositionY = 1,
 											},
 											width = "2",
 											ZOrder = "1",
@@ -1205,8 +1206,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -73,
-												PositionY = 14,
+												PositionX = -118,
+												PositionY = 15,
 											},
 											width = "127",
 											ZOrder = "1",
@@ -1251,8 +1252,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 55,
-												PositionY = -12,
+												PositionX = 81,
+												PositionY = -10,
 											},
 											width = "47",
 											ZOrder = "1",
@@ -1277,7 +1278,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -99,
+												PositionX = -144,
+												PositionY = 1,
 											},
 											width = "40",
 											ZOrder = "1",
@@ -1304,8 +1306,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -64,
-												PositionY = -7,
+												PositionX = -109,
+												PositionY = -5,
 											},
 											width = "100",
 											ZOrder = "1",

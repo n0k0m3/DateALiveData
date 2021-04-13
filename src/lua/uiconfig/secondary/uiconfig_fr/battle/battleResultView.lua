@@ -1385,7 +1385,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "558",
 							ZOrder = "1",
 							components = 
@@ -1664,7 +1663,6 @@ local t =
 										PositionX = 266,
 										PositionY = 50,
 									},
-									visible = "False",
 									width = "148",
 									ZOrder = "1",
 									components = 
@@ -3199,11 +3197,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "1",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "40",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_reward1",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -3217,7 +3215,7 @@ local t =
 												PositionY = 448,
 												relativeToName = "Panel",
 											},
-											width = "148",
+											width = "220",
 											ZOrder = "1",
 											components = 
 											{
@@ -3311,6 +3309,7 @@ local t =
 														PositionX = -11,
 														PositionY = -11,
 													},
+													visible = "False",
 													width = "78",
 													ZOrder = "1",
 												},
@@ -3597,11 +3596,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "1",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "40",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_reward2",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -3614,7 +3613,7 @@ local t =
 												PositionX = 602,
 												PositionY = 169,
 											},
-											width = "148",
+											width = "250",
 											ZOrder = "1",
 											components = 
 											{
@@ -3708,6 +3707,7 @@ local t =
 														PositionX = -11,
 														PositionY = -11,
 													},
+													visible = "False",
 													width = "70",
 													ZOrder = "1",
 												},

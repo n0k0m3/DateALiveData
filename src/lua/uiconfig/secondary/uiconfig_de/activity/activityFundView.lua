@@ -205,7 +205,7 @@ local t =
 										PositionY = -51,
 									},
 									visible = "False",
-									width = "81",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -219,7 +219,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF453505",
+							FontColor = "#FF997913",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -366,7 +366,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_buy",
 									nTextAlign = "1",
@@ -382,7 +382,7 @@ local t =
 									{
 										
 									},
-									width = "42",
+									width = "29",
 									ZOrder = "1",
 								},
 								{
@@ -560,7 +560,7 @@ local t =
 								StrokeColor = "#FF453505",
 								StrokeSize = 1,
 							},
-							height = "27",
+							height = "25",
 							ignoreSize = "True",
 							name = "label_time",
 							nTextAlign = "1",
@@ -577,7 +577,7 @@ local t =
 								PositionX = -454,
 								PositionY = 243,
 							},
-							width = "140",
+							width = "114",
 							ZOrder = "1",
 						},
 						{
@@ -589,7 +589,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF453505",
+							FontColor = "#FF997913",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -606,7 +606,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "27",
+							height = "25",
 							ignoreSize = "True",
 							name = "Label_desc_2",
 							nTextAlign = "0",
@@ -623,7 +623,7 @@ local t =
 								PositionX = -269,
 								PositionY = -214,
 							},
-							width = "163",
+							width = "260",
 							ZOrder = "1",
 						},
 						{
@@ -635,7 +635,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF453505",
+							FontColor = "#FF997913",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -652,7 +652,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "27",
+							height = "25",
 							ignoreSize = "True",
 							name = "Label_buy_time",
 							nTextAlign = "0",
@@ -669,7 +669,7 @@ local t =
 								PositionX = -101,
 								PositionY = -214,
 							},
-							width = "163",
+							width = "260",
 							ZOrder = "1",
 						},
 					},
@@ -806,7 +806,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -823,7 +823,7 @@ local t =
 												PositionY = 212,
 											},
 											visible = "False",
-											width = "108",
+											width = "201",
 											ZOrder = "1",
 										},
 									},
@@ -837,7 +837,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF694912",
+									FontColor = "#FF997913",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -978,7 +978,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label",
 											nTextAlign = "1",
@@ -994,7 +994,7 @@ local t =
 											{
 												
 											},
-											width = "68",
+											width = "112",
 											ZOrder = "1",
 										},
 									},
@@ -1077,7 +1077,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_geted",
 											nTextAlign = "1",
@@ -1093,7 +1093,7 @@ local t =
 											{
 												PositionY = -146,
 											},
-											width = "68",
+											width = "106",
 											ZOrder = "1",
 										},
 									},
@@ -1183,7 +1183,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "32",
+													height = "30",
 													ignoreSize = "True",
 													name = "Label_buy",
 													nTextAlign = "1",
@@ -1199,7 +1199,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "55",
+													width = "117",
 													ZOrder = "1",
 												},
 											},

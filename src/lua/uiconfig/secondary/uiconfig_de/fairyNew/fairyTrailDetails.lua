@@ -2030,7 +2030,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 80,
+										PositionX = 38,
 									},
 									uipanelviewmodel = 
 									{
@@ -5282,7 +5282,7 @@ local t =
 													controlID = "Label_skill_2_name_Panel_Panel_Equipment_Panel_right_Panel_base_Panel-fairyTrailDetails_Layer1_fairyNew_Game",
 													UUID = "496fc8be_c09f_420c_a993_e7798c89334e",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													ColorMixing = "#FFF0F8FF",
@@ -5319,7 +5319,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 452,
+														PositionX = 421,
 														PositionY = 272,
 														LeftPositon = 405,
 														TopPosition = 8,
@@ -6051,8 +6051,8 @@ local t =
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "23",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -6067,7 +6067,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "97",
+																	width = "140",
 																	ZOrder = "1",
 																},
 															},
@@ -7448,7 +7448,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "535",
 									ZOrder = "1",
 									components = 
@@ -7644,6 +7643,7 @@ local t =
 															{
 																PositionX = 34,
 															},
+															visible = "False",
 															width = "44",
 															ZOrder = "1",
 														},
@@ -11286,8 +11286,8 @@ local t =
 															dstBlendFunc = "771",
 															flipX = "False",
 															flipY = "False",
-															height = "106",
-															ignoreSize = "True",
+															height = "150",
+															ignoreSize = "False",
 															name = "Button_suit",
 															normal = "ui/new_equip/026.png",
 															sizepercentx = "0",
@@ -11301,7 +11301,7 @@ local t =
 																PositionY = 57,
 															},
 															UItype = "Button",
-															width = "106",
+															width = "150",
 															ZOrder = "1",
 															components = 
 															{
@@ -11337,6 +11337,8 @@ local t =
 																	name = "Label_suit",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
+																	scaleX = "0.8",
+																	scaleY = "0.8",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
 																	sizeType = "0",
@@ -11348,7 +11350,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "120",
+																	width = "118",
 																	ZOrder = "1",
 																},
 															},

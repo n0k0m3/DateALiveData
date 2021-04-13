@@ -71,7 +71,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 510,
-						PositionY = 334,
+						PositionY = 333,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -838,6 +838,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "400",
 							ZOrder = "1",
 							components = 
@@ -1066,7 +1067,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "400",
 							ZOrder = "1",
 							components = 
@@ -1089,7 +1089,7 @@ local t =
 									height = "300",
 									ignoreSize = "False",
 									innerHeight = "300",
-									innerWidth = "270",
+									innerWidth = "320",
 									name = "scrollView_rankList",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -1099,7 +1099,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 883,
+										PositionX = 827,
 										PositionY = 266,
 									},
 									uipanelviewmodel = 
@@ -1107,7 +1107,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "270",
+									width = "320",
 									ZOrder = "1",
 								},
 								{
@@ -1116,11 +1116,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "62",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "rankItem",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1133,7 +1133,7 @@ local t =
 										PositionX = 1019,
 										PositionY = 531,
 									},
-									width = "258",
+									width = "320",
 									ZOrder = "1",
 									components = 
 									{
@@ -1160,7 +1160,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 86,
+												PositionX = 121,
+												PositionY = 1,
 											},
 											width = "2",
 											ZOrder = "1",
@@ -1196,8 +1197,6 @@ local t =
 											name = "Label_bossName",
 											nTextAlign = "1",
 											nTextHAlign = "1",
-											scaleX = "0.8",
-											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1207,8 +1206,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -76,
-												PositionY = 14,
+												PositionX = -107,
+												PositionY = 13,
 											},
 											width = "165",
 											ZOrder = "1",
@@ -1253,8 +1252,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 55,
-												PositionY = -12,
+												PositionX = 76,
+												PositionY = -10,
 											},
 											width = "47",
 											ZOrder = "1",
@@ -1279,7 +1278,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -99,
+												PositionX = -130,
 											},
 											width = "40",
 											ZOrder = "1",
@@ -1306,7 +1305,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -64,
+												PositionX = -95,
 												PositionY = -7,
 											},
 											width = "100",

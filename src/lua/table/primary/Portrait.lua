@@ -1251,6 +1251,33 @@ return {
         fontcolor = "",
         classify = 1,
     },
+    [701] = {
+        ShowEffect1 = "",
+        group = 1,
+        condition = {
+            [1] = {
+                hasHero = 110701,
+            },
+        },
+        accessdes = 265510,
+        titleType = 25,
+        theirdialog = "",
+        icon = "icon/hero/name/1107011.png",
+        checkType = 0,
+        minedialog = "",
+        id = 701,
+        ShowEffect2 = "",
+        font = "",
+        name = 265010,
+        toggle = {
+        },
+        itemTemplateId = {
+            [1] = 110701,
+        },
+        classifyOrder = 25,
+        fontcolor = "",
+        classify = 1,
+    },
     [10009] = {
         ShowEffect1 = "",
         group = 2,
@@ -2373,32 +2400,32 @@ return {
         fontcolor = "",
         classify = 2,
     },
-    [701] = {
+    [60013] = {
         ShowEffect1 = "",
         group = 1,
         condition = {
             [1] = {
-                hasHero = 110701,
+                hasItem = 566051,
             },
         },
-        accessdes = 265510,
-        titleType = 25,
+        accessdes = 266909,
+        titleType = 99,
         theirdialog = "",
-        icon = "icon/hero/name/1107011.png",
+        icon = "icon/hero/name/555020.png",
         checkType = 0,
         minedialog = "",
-        id = 701,
+        id = 60013,
         ShowEffect2 = "",
         font = "",
-        name = 265010,
+        name = 190000147,
         toggle = {
         },
         itemTemplateId = {
-            [1] = 110701,
+            [1] = 566051,
         },
-        classifyOrder = 25,
+        classifyOrder = 99,
         fontcolor = "",
-        classify = 1,
+        classify = 2,
     },
     [101] = {
         ShowEffect1 = "",

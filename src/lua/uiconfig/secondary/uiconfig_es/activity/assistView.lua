@@ -2418,6 +2418,8 @@ local t =
 									name = "Label_unlock_tip",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -2428,9 +2430,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 100,
-										PositionY = 121,
+										PositionY = 136,
 									},
-									width = "281",
+									width = "154",
 									ZOrder = "1",
 								},
 								{

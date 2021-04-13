@@ -1409,7 +1409,7 @@ local t =
 													controlID = "Label_cur_point_title_Image_point_flag_Image_progress_bg_Panel_head_Panel_root_Panel-assistView_kuangsanAssist_activity_Game",
 													UUID = "cb3c9c36_faf4_4ced_a15f_90849d54d466",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0.6",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -2414,6 +2414,8 @@ local t =
 									name = "Label_unlock_tip",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -2424,9 +2426,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 100,
-										PositionY = 121,
+										PositionY = 131,
 									},
-									width = "300",
+									width = "128",
 									ZOrder = "1",
 								},
 								{

@@ -303,8 +303,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -435,
-								PositionY = 30,
+								PositionX = -434,
+								PositionY = 23,
 							},
 							width = "136",
 							ZOrder = "1",
@@ -350,8 +350,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -371,
-								PositionY = 1,
+								PositionX = -374,
+								PositionY = 5,
 							},
 							width = "59",
 							ZOrder = "1",

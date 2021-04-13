@@ -838,6 +838,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "400",
 							ZOrder = "1",
 							components = 
@@ -1066,7 +1067,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "400",
 							ZOrder = "1",
 							components = 
@@ -1089,7 +1089,7 @@ local t =
 									height = "300",
 									ignoreSize = "False",
 									innerHeight = "300",
-									innerWidth = "270",
+									innerWidth = "320",
 									name = "scrollView_rankList",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -1099,7 +1099,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 883,
+										PositionX = 812,
 										PositionY = 266,
 									},
 									uipanelviewmodel = 
@@ -1107,7 +1107,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "270",
+									width = "320",
 									ZOrder = "1",
 								},
 								{
@@ -1116,11 +1116,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "62",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "rankItem",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1133,7 +1133,7 @@ local t =
 										PositionX = 1019,
 										PositionY = 531,
 									},
-									width = "258",
+									width = "320",
 									ZOrder = "1",
 									components = 
 									{
@@ -1160,7 +1160,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 86,
+												PositionX = 119,
 											},
 											width = "2",
 											ZOrder = "1",
@@ -1205,8 +1205,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -77,
-												PositionY = 16,
+												PositionX = -107,
+												PositionY = 14,
 											},
 											width = "133",
 											ZOrder = "1",
@@ -1251,8 +1251,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 55,
-												PositionY = -12,
+												PositionX = 72,
+												PositionY = -11,
 											},
 											width = "47",
 											ZOrder = "1",
@@ -1277,7 +1277,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -99,
+												PositionX = -129,
+												PositionY = -1,
 											},
 											width = "40",
 											ZOrder = "1",
@@ -1304,8 +1305,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -64,
-												PositionY = -7,
+												PositionX = -94,
+												PositionY = -8,
 											},
 											width = "100",
 											ZOrder = "1",

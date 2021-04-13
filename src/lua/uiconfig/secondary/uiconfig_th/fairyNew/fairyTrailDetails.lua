@@ -2030,7 +2030,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 80,
+										PositionX = 47,
 									},
 									uipanelviewmodel = 
 									{
@@ -5885,6 +5885,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "489",
 									ZOrder = "1",
 									components = 
@@ -11332,7 +11333,7 @@ local t =
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "60",
+																	height = "0",
 																	ignoreSize = "False",
 																	name = "Label_suit",
 																	nTextAlign = "1",

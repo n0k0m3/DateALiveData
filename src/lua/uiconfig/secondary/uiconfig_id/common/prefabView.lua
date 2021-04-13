@@ -1813,7 +1813,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -4,
-								PositionY = 34,
+								PositionY = 37,
 							},
 							width = "100",
 							ZOrder = "1",
@@ -1851,11 +1851,13 @@ local t =
 									name = "Label_firstPass",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "1st Clear",
+									text = "First Clear",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1863,7 +1865,7 @@ local t =
 										PositionX = -5,
 										PositionY = 4,
 									},
-									width = "84",
+									width = "101",
 									ZOrder = "1",
 								},
 							},

@@ -2409,11 +2409,13 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_unlock_tip",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -2424,9 +2426,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 100,
-										PositionY = 121,
+										PositionY = 133,
 									},
-									width = "258",
+									width = "143",
 									ZOrder = "1",
 								},
 								{

@@ -99,8 +99,12 @@ function ActivityFundView:updateGiftBagInfo()
         isCanBuy = false
     end
 
-    self.Label_buy_time:setVisible(isCanBuy)
-    self.Label_desc_2:setVisible(isCanBuy)
+    --TODO CLOSE
+    -- self.Label_buy_time:setVisible(isCanBuy)
+    -- self.Label_desc_2:setVisible(isCanBuy)
+    self.Label_buy_time:hide()
+    self.Label_desc_2:hide()
+
     self.Button_buy:setVisible(isCanBuy)
     self.Image_geted:setVisible(not isCanBuy)
 

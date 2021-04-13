@@ -172,8 +172,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -447,
-								PositionY = 214,
+								PositionX = -321,
+								PositionY = 230,
 							},
 							width = "107",
 							ZOrder = "1",
@@ -293,7 +293,7 @@ local t =
 							name = "label_tip1",
 							nTextAlign = "1",
 							nTextHAlign = "1",
-							rotation = "-10",
+							rotation = "-12",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -303,8 +303,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -435,
-								PositionY = 30,
+								PositionX = -285,
+								PositionY = -30,
 							},
 							width = "179",
 							ZOrder = "1",
@@ -340,7 +340,7 @@ local t =
 							name = "label_number",
 							nTextAlign = "1",
 							nTextHAlign = "1",
-							rotation = "-11",
+							rotation = "-12",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -350,8 +350,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -371,
-								PositionY = 1,
+								PositionX = -221,
+								PositionY = -53,
 							},
 							width = "59",
 							ZOrder = "1",

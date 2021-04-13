@@ -2030,7 +2030,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 80,
+										PositionX = 21,
 									},
 									uipanelviewmodel = 
 									{
@@ -2294,7 +2294,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 296,
+														PositionX = 292,
 														PositionY = 326,
 													},
 													width = "378",
@@ -2464,7 +2464,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 316,
+														PositionX = 390,
 														PositionY = 272,
 														LeftPositon = 374,
 														TopPosition = 291,
@@ -5282,7 +5282,7 @@ local t =
 													controlID = "Label_skill_2_name_Panel_Panel_Equipment_Panel_right_Panel_base_Panel-fairyTrailDetails_Layer1_fairyNew_Game",
 													UUID = "496fc8be_c09f_420c_a993_e7798c89334e",
 													anchorPoint = "False",
-													anchorPointX = "1",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													ColorMixing = "#FFF0F8FF",
@@ -5319,7 +5319,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 497,
+														PositionX = 408,
 														PositionY = 276,
 														LeftPositon = 405,
 														TopPosition = 8,
@@ -7644,6 +7644,7 @@ local t =
 															{
 																PositionX = 34,
 															},
+															visible = "False",
 															width = "44",
 															ZOrder = "1",
 														},
@@ -11286,8 +11287,8 @@ local t =
 															dstBlendFunc = "771",
 															flipX = "False",
 															flipY = "False",
-															height = "106",
-															ignoreSize = "True",
+															height = "139",
+															ignoreSize = "False",
 															name = "Button_suit",
 															normal = "ui/new_equip/026.png",
 															sizepercentx = "0",
@@ -11301,7 +11302,7 @@ local t =
 																PositionY = 57,
 															},
 															UItype = "Button",
-															width = "106",
+															width = "139",
 															ZOrder = "1",
 															components = 
 															{
@@ -11332,7 +11333,7 @@ local t =
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "60",
+																	height = "0",
 																	ignoreSize = "False",
 																	name = "Label_suit",
 																	nTextAlign = "1",
@@ -11348,7 +11349,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "60",
+																	width = "88",
 																	ZOrder = "1",
 																},
 															},
@@ -11713,7 +11714,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "750",
 									ZOrder = "1",
 									components = 
@@ -13045,8 +13045,8 @@ local t =
 													backGroundScale9Enable = "False",
 													classname = "MEImage",
 													dstBlendFunc = "771",
-													height = "66",
-													ignoreSize = "True",
+													height = "90",
+													ignoreSize = "False",
 													name = "Image_lockMsg",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -13083,7 +13083,7 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "16",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = true,
