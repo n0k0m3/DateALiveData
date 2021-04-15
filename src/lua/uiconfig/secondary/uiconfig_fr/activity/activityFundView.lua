@@ -1176,14 +1176,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "26",
+													fontSize = "21",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "30",
+													height = "24",
 													ignoreSize = "True",
 													name = "Label_buy",
 													nTextAlign = "1",
@@ -1199,7 +1199,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "146",
+													width = "117",
 													ZOrder = "1",
 												},
 											},
