@@ -90,7 +90,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "548",
+							height = "542",
 							ignoreSize = "True",
 							name = "Image_ad",
 							sizepercentx = "0",
@@ -103,7 +103,7 @@ local t =
 							{
 								
 							},
-							width = "892",
+							width = "885",
 							ZOrder = "1",
 							components = 
 							{

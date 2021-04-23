@@ -477,6 +477,32 @@ local t =
 									width = "168",
 									ZOrder = "1",
 								},
+								{
+									controlID = "Image_summon_tip_Image_summon_Panel_root_Panel-summonMainView_Layer1_summon_Game",
+									UUID = "4567dac1_0415_4bc9_9e20_68c94628a4a2",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "30",
+									ignoreSize = "True",
+									name = "Image_summon_tip",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/common/news_small.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 38,
+										PositionY = -202,
+									},
+									width = "30",
+									ZOrder = "1",
+								},
 							},
 						},
 						{
@@ -764,8 +790,8 @@ local t =
 			"ui/summon/019.png",
 			"ui/summon/017.png",
 			"ui/summon/024.png",
-			"ui/summon/020.png",
 			"ui/common/news_small.png",
+			"ui/summon/020.png",
 		},
 		armatures = 
 		{

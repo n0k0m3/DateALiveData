@@ -104,6 +104,8 @@ function sdkCallback(result, msg)
         local ret = json.decode(msg);
         if ret.action == "TMGSpeechToTextSuccess" then
             EventMgr:dispatchEvent(EV_VOICE_SDK_BACK,ret.params.text);
+        elseif ret.action == "WebviewUrlBack" then
+            EventMgr:dispatchEvent(EV_WEBVIEW_URL_BACK,ret.params.url)
         end
     elseif result == HeitaoSdk.KEYBOARD_UP then
         dump(msg)
@@ -241,11 +243,20 @@ function login()
 
     local ok,ret
      if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-        ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "login", {language = language});
+        if NEW_APP_VERSION then
+            local _, migrationServerIdValue = TFGlobalUtils:getMigrationServerId(true)
+            ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "login", {language = language, migrationServerId = migrationServerIdValue});
+        else
+            ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "login", {language = language});
+        end
     elseif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
-        ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "login", {language}, "(Ljava/lang/String;)V")
+        if NEW_APP_VERSION then
+            local _, migrationServerIdValue = TFGlobalUtils:getMigrationServerId(true)
+            ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "login", {language, migrationServerIdValue}, "(Ljava/lang/String;Ljava/lang/String;)V");
+        else
+            ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "login", {language}, "(Ljava/lang/String;)V")
+        end
     end
-    
     return HeitaoSdk.checkResult(ok,ret)
 end
 

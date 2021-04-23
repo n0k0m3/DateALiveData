@@ -70,12 +70,14 @@ function AvatarDataMgr:onRecvAvatarData(event)
     if data.activeCid then
         for k,cid in pairs(data.activeCid) do
             local cfg = self:getAvatarCfgById(cid)
-            if cfg.group == 1 then
-                self:updateOneAvatarInfo(cid)
-            elseif cfg.group == 2 then
-                self:updateOneFrameInfo(cid)
-            elseif cfg.group == 3 then
-                self:updateOneChatBubbleInfo(cid)
+            if cfg then
+                if cfg.group == 1 then
+                    self:updateOneAvatarInfo(cid)
+                elseif cfg.group == 2 then
+                    self:updateOneFrameInfo(cid)
+                elseif cfg.group == 3 then
+                    self:updateOneChatBubbleInfo(cid)
+                end
             end
         end
     end
@@ -154,7 +156,7 @@ function AvatarDataMgr:onRecvAvatarUnlock(event)
                     local name = TextDataMgr:getText(cfg.name)
                     if #cfg.toggle > 0  then
                         local extraData = self:getExtraData()
-                        local month = extraData.month or 1
+                        local month = extraData and extraData.month or 1
                         for k, v in pairs(cfg.toggle) do
                             local months = v.month
                             local month1 = months[1]

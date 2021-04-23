@@ -40,10 +40,14 @@ local changeTime = 0
 function AudioExchangePlay.getDefaultBgm()
 --	local isOneYear = FunctionDataMgr:isMainLayerOneYearUI()
 --	local bgm = isOneYear and "sound/bgm/main_OneYear.mp3" or "sound/bgm/main_001.mp3"
-
-	local uidata = TabDataMgr:getData("Uichange", MainUISettingMgr:getui())
-	local bgm = uidata.bgm
-
+	
+	local bgm = "sound/bgm/main_001.mp3"
+	if MainUISettingMgr:getui() > 0 then
+		local uidata = TabDataMgr:getData("Uichange", MainUISettingMgr:getui())
+		if uidata then
+			bgm = uidata.bgm
+		end
+	end
 	if not bgm  or bgm == "" then
 		bgm = "sound/bgm/main_001.mp3"
 	end

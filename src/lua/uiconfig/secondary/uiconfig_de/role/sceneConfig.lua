@@ -49,5 +49,25 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="trialDressOutTimeView",
+			ui ="trialDressOutTimeView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="role",
+			canLoad=true,
+			logic="",
+		},
+		{
+			name="trialDressUnlockView",
+			ui ="trialDressUnlockView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="role",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

@@ -134,7 +134,7 @@ local t =
 										StrokeColor = "#FF3A1316",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "label_date",
 									nTextAlign = "0",
@@ -151,7 +151,7 @@ local t =
 										PositionX = -437,
 										PositionY = 213,
 									},
-									width = "140",
+									width = "114",
 									ZOrder = "1",
 								},
 								{
@@ -212,7 +212,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_btn",
 											nTextAlign = "1",
@@ -228,7 +228,7 @@ local t =
 											{
 												
 											},
-											width = "53",
+											width = "94",
 											ZOrder = "1",
 										},
 									},

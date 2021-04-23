@@ -1,0 +1,216 @@
+
+snowFes_miniga_hint.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yuan_000
+  rotate: false
+  xy: 2, 1675
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_001
+  rotate: false
+  xy: 2, 1326
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_002
+  rotate: false
+  xy: 339, 1675
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_003
+  rotate: false
+  xy: 2, 977
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_004
+  rotate: false
+  xy: 339, 1326
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_005
+  rotate: false
+  xy: 676, 1675
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_006
+  rotate: false
+  xy: 2, 628
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_007
+  rotate: false
+  xy: 339, 977
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_008
+  rotate: false
+  xy: 676, 1326
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_009
+  rotate: false
+  xy: 1013, 1675
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_010
+  rotate: false
+  xy: 2, 279
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_011
+  rotate: false
+  xy: 339, 628
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_012
+  rotate: false
+  xy: 676, 977
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_013
+  rotate: false
+  xy: 1013, 1326
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_014
+  rotate: false
+  xy: 1350, 1675
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_015
+  rotate: false
+  xy: 339, 279
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_016
+  rotate: false
+  xy: 676, 628
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_017
+  rotate: false
+  xy: 1013, 977
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_018
+  rotate: false
+  xy: 1350, 1326
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_019
+  rotate: false
+  xy: 1687, 1675
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_020
+  rotate: false
+  xy: 676, 279
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_021
+  rotate: false
+  xy: 1013, 628
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_022
+  rotate: false
+  xy: 1350, 977
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_023
+  rotate: false
+  xy: 1687, 1326
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_024
+  rotate: false
+  xy: 1013, 279
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_025
+  rotate: false
+  xy: 1350, 628
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_026
+  rotate: false
+  xy: 1687, 977
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_027
+  rotate: false
+  xy: 1350, 279
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_028
+  rotate: false
+  xy: 1687, 628
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1
+images/yuan_029
+  rotate: false
+  xy: 1687, 279
+  size: 335, 347
+  orig: 700, 700
+  offset: 349, 333
+  index: -1

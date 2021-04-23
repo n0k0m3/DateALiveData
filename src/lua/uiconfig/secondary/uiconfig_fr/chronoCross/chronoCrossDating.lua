@@ -444,7 +444,7 @@ local t =
 															{
 																PositionY = -82,
 															},
-															width = "134",
+															width = "148",
 															ZOrder = "1",
 														},
 													},
@@ -582,7 +582,7 @@ local t =
 													{
 														PositionY = -83,
 													},
-													width = "134",
+													width = "148",
 													ZOrder = "1",
 												},
 											},
@@ -923,7 +923,7 @@ local t =
 															{
 																PositionY = -82,
 															},
-															width = "134",
+															width = "148",
 															ZOrder = "1",
 														},
 													},
@@ -1061,7 +1061,7 @@ local t =
 													{
 														PositionY = -82,
 													},
-													width = "134",
+													width = "148",
 													ZOrder = "1",
 												},
 											},
@@ -1403,7 +1403,7 @@ local t =
 															{
 																PositionY = -82,
 															},
-															width = "134",
+															width = "148",
 															ZOrder = "1",
 														},
 													},
@@ -1541,7 +1541,7 @@ local t =
 													{
 														PositionY = -82,
 													},
-													width = "134",
+													width = "148",
 													ZOrder = "1",
 												},
 											},
@@ -1882,7 +1882,7 @@ local t =
 															{
 																PositionY = -83,
 															},
-															width = "134",
+															width = "148",
 															ZOrder = "1",
 														},
 													},
@@ -2020,7 +2020,7 @@ local t =
 													{
 														PositionY = -83,
 													},
-													width = "134",
+													width = "148",
 													ZOrder = "1",
 												},
 											},
@@ -2366,7 +2366,7 @@ local t =
 													{
 														
 													},
-													width = "88",
+													width = "89",
 													ZOrder = "1",
 												},
 											},
@@ -2444,7 +2444,7 @@ local t =
 												PositionX = 4,
 												PositionY = -15,
 											},
-											width = "158",
+											width = "157",
 											ZOrder = "1",
 										},
 										{
@@ -2490,7 +2490,7 @@ local t =
 												PositionX = 4,
 												PositionY = 8,
 											},
-											width = "259",
+											width = "279",
 											ZOrder = "1",
 										},
 									},
@@ -2633,7 +2633,7 @@ local t =
 										PositionX = -4,
 										PositionY = 5,
 									},
-									width = "233",
+									width = "249",
 									ZOrder = "1",
 								},
 								{
@@ -2927,7 +2927,7 @@ local t =
 											{
 												PositionX = 9,
 											},
-											width = "216",
+											width = "204",
 											ZOrder = "1",
 										},
 									},
@@ -3020,7 +3020,7 @@ local t =
 										PositionX = 680,
 										PositionY = -37,
 									},
-									width = "87",
+									width = "91",
 									ZOrder = "1",
 								},
 								{
@@ -3097,7 +3097,7 @@ local t =
 											{
 												PositionY = -34,
 											},
-											width = "52",
+											width = "58",
 											ZOrder = "1",
 										},
 										{
@@ -3262,7 +3262,7 @@ local t =
 													{
 														PositionX = -30,
 													},
-													width = "58",
+													width = "59",
 													ZOrder = "1",
 												},
 												{
@@ -3371,7 +3371,7 @@ local t =
 																PositionX = -82,
 																PositionY = 87,
 															},
-															width = "198",
+															width = "187",
 															ZOrder = "1",
 														},
 														{
@@ -3417,7 +3417,7 @@ local t =
 																PositionX = -82,
 																PositionY = 67,
 															},
-															width = "293",
+															width = "272",
 															ZOrder = "1",
 														},
 														{
@@ -3463,7 +3463,7 @@ local t =
 																PositionX = -82,
 																PositionY = 47,
 															},
-															width = "293",
+															width = "272",
 															ZOrder = "1",
 														},
 													},

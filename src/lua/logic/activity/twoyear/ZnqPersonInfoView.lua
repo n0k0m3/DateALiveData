@@ -68,7 +68,7 @@ function ZnqPersonInfoView:updatePlayerInfo( ... )
 	Label_name:setText(MainPlayer:getPlayerName())
 	Label_lv:setText(PrivilegeDataMgr:getWishTreeLv())
 	Label_union:setText(PrivilegeDataMgr:getCurClubWishLv())
-	Label_corn:setText(GoodsDataMgr:getItemCount(570078))
+	Label_corn:setText(GoodsDataMgr:getItemCount(501158))
 
 	function changeNameSwitch( ... )
 		-- body
@@ -352,10 +352,12 @@ function ZnqPersonInfoView:onClose( ... )
 	local control = WorldRoomDataMgr:getCurControl()
 	if self.selectSkin and self.selectSkin ~= self.actorData.skinCid then
 		control:operateChangeSkin(self.selectSkin)
+		Utils:showTips(13205006)
 	end
 
 	if self.selectEffectId and self.selectEffectId ~= self.actorData.effectId then
 		control:operateChangeEffect(self.selectEffectId)
+		Utils:showTips(13205006)
 	end
 end
 

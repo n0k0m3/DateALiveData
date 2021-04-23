@@ -268,7 +268,7 @@ local t =
 										PositionX = 19,
 										PositionY = 540,
 									},
-									width = "146",
+									width = "159",
 									ZOrder = "1",
 									components = 
 									{
@@ -690,14 +690,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "28",
+											fontSize = "23",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "26",
 											ignoreSize = "True",
 											name = "Label_reward_title",
 											nTextAlign = "1",
@@ -714,7 +714,7 @@ local t =
 												PositionX = 20,
 												PositionY = 100,
 											},
-											width = "298",
+											width = "259",
 											ZOrder = "1",
 											components = 
 											{
@@ -861,7 +861,7 @@ local t =
 											{
 												
 											},
-											width = "86",
+											width = "73",
 											ZOrder = "1",
 										},
 									},
@@ -941,7 +941,7 @@ local t =
 											{
 												
 											},
-											width = "164",
+											width = "147",
 											ZOrder = "1",
 										},
 										{
@@ -1043,7 +1043,7 @@ local t =
 											{
 												
 											},
-											width = "88",
+											width = "89",
 											ZOrder = "1",
 										},
 									},
@@ -1484,7 +1484,7 @@ local t =
 										PositionX = -1,
 										PositionY = -32,
 									},
-									width = "180",
+									width = "191",
 									ZOrder = "1",
 								},
 								{
@@ -2192,7 +2192,7 @@ local t =
 												PositionX = -1,
 												PositionY = -2,
 											},
-											width = "58",
+											width = "57",
 											ZOrder = "1",
 										},
 									},

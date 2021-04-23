@@ -213,7 +213,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "40",
+											height = "2",
 											ignoreSize = "True",
 											name = "Image_fubenEndlessView_1",
 											sizepercentx = "0",
@@ -226,7 +226,7 @@ local t =
 											{
 												PositionX = -76,
 											},
-											width = "40",
+											width = "2",
 											ZOrder = "1",
 										},
 										{
@@ -848,7 +848,7 @@ local t =
 									{
 										PositionY = 154,
 									},
-									width = "168",
+									width = "170",
 									ZOrder = "1",
 								},
 								{
@@ -1448,7 +1448,7 @@ local t =
 									{
 										PositionX = 46,
 									},
-									width = "16",
+									width = "15",
 									ZOrder = "1",
 								},
 							},
@@ -2049,7 +2049,7 @@ local t =
 									{
 										PositionX = -295,
 									},
-									width = "208",
+									width = "215",
 									ZOrder = "1",
 								},
 								{
@@ -2095,7 +2095,7 @@ local t =
 										PositionX = 294,
 										PositionY = -2,
 									},
-									width = "195",
+									width = "193",
 									ZOrder = "1",
 								},
 							},
@@ -2143,7 +2143,7 @@ local t =
 								PositionX = 60,
 								PositionY = 207,
 							},
-							width = "195",
+							width = "193",
 							ZOrder = "1",
 						},
 						{
@@ -2189,7 +2189,7 @@ local t =
 								PositionX = 261,
 								PositionY = -289,
 							},
-							width = "87",
+							width = "84",
 							ZOrder = "1",
 							components = 
 							{
@@ -2337,7 +2337,7 @@ local t =
 									{
 										PositionY = -15,
 									},
-									width = "37",
+									width = "36",
 									ZOrder = "1",
 								},
 							},
@@ -2605,7 +2605,7 @@ local t =
 										PositionX = -216,
 										PositionY = -8,
 									},
-									width = "45",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -2651,7 +2651,7 @@ local t =
 										PositionX = -216,
 										PositionY = -8,
 									},
-									width = "45",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -2743,7 +2743,7 @@ local t =
 										PositionX = -93,
 										PositionY = 12,
 									},
-									width = "53",
+									width = "51",
 									ZOrder = "1",
 								},
 								{
@@ -3015,7 +3015,7 @@ local t =
 												PositionX = -4,
 												PositionY = 8,
 											},
-											width = "17",
+											width = "19",
 											ZOrder = "1",
 										},
 										{
@@ -3087,7 +3087,7 @@ local t =
 												PositionX = 3,
 												PositionY = -6,
 											},
-											width = "13",
+											width = "12",
 											ZOrder = "1",
 										},
 									},
@@ -3167,7 +3167,7 @@ local t =
 												PositionX = -4,
 												PositionY = 6,
 											},
-											width = "17",
+											width = "19",
 											ZOrder = "1",
 										},
 										{
@@ -3214,7 +3214,7 @@ local t =
 												PositionX = 4,
 												PositionY = -7,
 											},
-											width = "11",
+											width = "12",
 											ZOrder = "1",
 										},
 									},

@@ -876,7 +876,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "494",
+									height = "506",
 									ignoreSize = "True",
 									name = "Image_diban",
 									sizepercentx = "0",
@@ -889,7 +889,7 @@ local t =
 									{
 										
 									},
-									width = "268",
+									width = "280",
 									ZOrder = "1",
 									components = 
 									{

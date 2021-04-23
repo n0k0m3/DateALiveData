@@ -1098,7 +1098,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF737594",
+							FontColor = "#FFB958A6",
 							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
@@ -1135,6 +1135,36 @@ local t =
 							width = "39",
 							ZOrder = "1",
 						},
+						{
+							controlID = "btn_help_Panel_base_Panel-christmasPreView_Layer1_activity_Game",
+							UUID = "d8ada0b4_c26c_4f8a_94c2_3d71b6700a35",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEButton",
+							ClickHighLightEnabled = "True",
+							dstBlendFunc = "771",
+							flipX = "False",
+							flipY = "False",
+							height = "48",
+							ignoreSize = "True",
+							name = "btn_help",
+							normal = "ui/activity/christmas_pre/z4.png",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "True",
+							UILayoutViewModel = 
+							{
+								PositionX = 400,
+								PositionY = -156,
+							},
+							UItype = "Button",
+							width = "53",
+							ZOrder = "1",
+						},
 					},
 				},
 			},
@@ -1159,6 +1189,7 @@ local t =
 			"ui/activity/christmas_pre/m1.png",
 			"ui/activity/christmas_pre/m2.png",
 			"ui/activity/christmas_pre/z1.png",
+			"ui/activity/christmas_pre/z4.png",
 		},
 		armatures = 
 		{

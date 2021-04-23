@@ -1,0 +1,13 @@
+
+snowFes_LvUp.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/009
+  rotate: false
+  xy: 2, 1089
+  size: 1318, 231
+  orig: 1318, 231
+  offset: 0, 0
+  index: -1

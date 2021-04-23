@@ -1,0 +1,20 @@
+
+snowFes_miniga_pieceFalse.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_000
+  rotate: false
+  xy: 59, 30
+  size: 38, 114
+  orig: 84, 155
+  offset: 26, 16
+  index: -1
+images/saojiao_000
+  rotate: false
+  xy: 2, 2
+  size: 55, 142
+  orig: 84, 155
+  offset: 17, 1
+  index: -1

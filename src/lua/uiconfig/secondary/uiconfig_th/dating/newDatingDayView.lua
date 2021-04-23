@@ -342,7 +342,7 @@ local t =
 															controlID = "Label_name_Image_infoDi_Panel_clip_Panel_info_Panel_option_Panel_base_Panel-newDatingDayView_Layer1_dating_Game",
 															UUID = "a7c057e6_739d_4c2a_8fe2_d65cdd898fc3",
 															anchorPoint = "False",
-															anchorPointX = "0.5",
+															anchorPointX = "0",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -378,7 +378,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -87,
+																PositionX = -129,
 																PositionY = 36,
 															},
 															width = "126",
@@ -500,7 +500,7 @@ local t =
 																	{
 																		PositionX = 111,
 																	},
-																	width = "46",
+																	width = "44",
 																	ZOrder = "1",
 																},
 															},
@@ -729,7 +729,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "60",
+															height = "0",
 															ignoreSize = "False",
 															name = "Label_des",
 															nTextAlign = "0",
@@ -988,7 +988,7 @@ local t =
 													{
 														PositionY = 10,
 													},
-													width = "98",
+													width = "109",
 													ZOrder = "1",
 												},
 												{
@@ -1033,7 +1033,7 @@ local t =
 													{
 														PositionY = -18,
 													},
-													width = "30",
+													width = "35",
 													ZOrder = "1",
 												},
 											},
@@ -1117,7 +1117,7 @@ local t =
 													{
 														PositionY = 10,
 													},
-													width = "98",
+													width = "109",
 													ZOrder = "1",
 												},
 												{
@@ -1162,7 +1162,7 @@ local t =
 													{
 														PositionY = -18,
 													},
-													width = "30",
+													width = "35",
 													ZOrder = "1",
 												},
 											},
@@ -1246,7 +1246,7 @@ local t =
 													{
 														PositionY = 10,
 													},
-													width = "98",
+													width = "109",
 													ZOrder = "1",
 												},
 												{
@@ -1291,7 +1291,7 @@ local t =
 													{
 														PositionY = -18,
 													},
-													width = "30",
+													width = "35",
 													ZOrder = "1",
 												},
 											},
@@ -1375,7 +1375,7 @@ local t =
 													{
 														PositionY = 10,
 													},
-													width = "98",
+													width = "109",
 													ZOrder = "1",
 												},
 												{
@@ -1420,7 +1420,7 @@ local t =
 													{
 														PositionY = -18,
 													},
-													width = "30",
+													width = "35",
 													ZOrder = "1",
 												},
 											},
@@ -1507,7 +1507,7 @@ local t =
 											{
 												PositionY = 10,
 											},
-											width = "104",
+											width = "107",
 											ZOrder = "1",
 										},
 										{
@@ -1552,7 +1552,7 @@ local t =
 											{
 												PositionY = -18,
 											},
-											width = "30",
+											width = "35",
 											ZOrder = "1",
 										},
 									},
@@ -1673,7 +1673,7 @@ local t =
 												PercentX = 21.28,
 												PercentY = -6.9,
 											},
-											width = "35",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -1979,10 +1979,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -41,
-										PositionY = -4,
+										PositionX = -52,
+										PositionY = -2,
 									},
-									width = "21",
+									width = "20",
 									ZOrder = "1",
 								},
 								{
@@ -2028,7 +2028,7 @@ local t =
 										PositionX = -17,
 										PositionY = -19,
 									},
-									width = "15",
+									width = "14",
 									ZOrder = "1",
 								},
 							},
@@ -2371,7 +2371,7 @@ local t =
 															{
 																PositionX = -28,
 															},
-															width = "39",
+															width = "36",
 															ZOrder = "1",
 														},
 													},
@@ -2564,7 +2564,7 @@ local t =
 																	{
 																		PositionX = 60,
 																	},
-																	width = "42",
+																	width = "41",
 																	ZOrder = "10",
 																},
 															},

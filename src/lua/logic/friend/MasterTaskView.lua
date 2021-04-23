@@ -8,6 +8,7 @@ function MasterTaskView:initData()
     self.allCfgs = nil -- 所有阶段配置
     self.data = nil  -- 当前阶段包含数据
     self.activeItems = {}
+    self.hadOutMaster = false
     self:refreshData()
 end
 
@@ -66,10 +67,7 @@ function MasterTaskView:initUI(ui)
     self.taskView = UIListView:create(self._ui.ScrollView_task)
     self._ui.Panel_activeItem:hide()
 
-    self._ui.btn_outMaster:setVisible(not FriendDataMgr:isApprenticeFinished())
-    TFDirector:getChildByPath(self._ui.btn_outMaster, "txt"):setTextById(1340070)
-    self._ui.lab_hadOutMaster:setTextById(1340072)
-    self._ui.lab_hadOutMaster:setVisible(not self._ui.btn_outMaster:isVisible())
+    self:updateOutMasterBtn()
 
     self:initGiftItems()
     self:refreshAllView()
@@ -123,7 +121,10 @@ function MasterTaskView:registerEvents()
                 type = 9
                 id   = id_2
             end
-            FriendDataMgr:send_APPRENTICE_REQ_HANDLE_APPRENTICE(type, id)  
+            
+            if type and id then
+                FriendDataMgr:send_APPRENTICE_REQ_HANDLE_APPRENTICE(type, id)  
+            end
         else
             Utils:showTips(1340017)
         end
@@ -134,6 +135,7 @@ function MasterTaskView:registerEvents()
         self:refreshAllView()
     end)
     EventMgr:addEventListener(self,EV_FRIEND_OUTMASTER_UPDATE,function()
+        self.hadOutMaster = true
         self._ui.btn_outMaster:setVisible(false)
         self._ui.lab_hadOutMaster:setVisible(true)
     end)
@@ -141,6 +143,16 @@ function MasterTaskView:registerEvents()
         self:refreshData()
         self:refreshAllView()
     end)
+
+    EventMgr:addEventListener(self, EV_FRIEND_MASTER_UPDATE, handler(self.updateOutMasterBtn, self))
+end
+
+function MasterTaskView:updateOutMasterBtn()
+    if self.hadOutMaster then return  end
+    self._ui.btn_outMaster:setVisible(not FriendDataMgr:isApprenticeFinished())
+    TFDirector:getChildByPath(self._ui.btn_outMaster, "txt"):setTextById(1340070)
+    self._ui.lab_hadOutMaster:setTextById(1340072)
+    self._ui.lab_hadOutMaster:setVisible(not self._ui.btn_outMaster:isVisible())
 end
 
 function MasterTaskView:initGiftItems()

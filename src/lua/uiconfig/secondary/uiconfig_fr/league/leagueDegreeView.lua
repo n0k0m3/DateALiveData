@@ -933,7 +933,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "540",
+							height = "570",
 							ignoreSize = "False",
 							name = "Panel_degree",
 							sizepercentx = "0",
@@ -976,7 +976,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 540,
+										PositionY = 570,
 									},
 									width = "783",
 									ZOrder = "1",
@@ -1001,7 +1001,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 170,
+										PositionY = 200,
 									},
 									width = "783",
 									ZOrder = "1",
@@ -1032,7 +1032,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 392,
-										PositionY = 494,
+										PositionY = 524,
 									},
 									uipanelviewmodel = 
 									{

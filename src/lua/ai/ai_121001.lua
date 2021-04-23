@@ -318,7 +318,7 @@ return {
         ["B93FC49D0C0943E2B1B037AF3BC0016B"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 200,
-            ["Weight"] = 50,
+            ["Weight"] = 20,
             ["NodeTag"] = "B93FC49D0C0943E2B1B037AF3BC0016B",
             ["RangeOrigin"] = {
                 ["y"] = -20,

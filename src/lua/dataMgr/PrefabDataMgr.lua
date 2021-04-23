@@ -104,11 +104,14 @@ function PrefabDataMgr:addItemId(item, cid)
     idText:setText(cid)
 end
 
-function PrefabDataMgr:set_Panel_goodsItem(item, idOrCid, count, level)
+function PrefabDataMgr:set_Panel_goodsItem(item, idOrCid, count, level, isNotAccess)
     local cid, id
     if type(idOrCid) == "string" then
         id = idOrCid
         local itemInfo = GoodsDataMgr:getSingleItem(id)
+        if not itemInfo then
+            return
+        end
         cid = itemInfo.cid
         level = itemInfo.level
         step = itemInfo.step

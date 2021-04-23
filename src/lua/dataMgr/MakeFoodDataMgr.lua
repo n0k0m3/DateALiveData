@@ -182,6 +182,9 @@ function MakeFoodDataMgr:existCookFood(foodType)
     end
 
     local foodList = self:getFoodlistByType(foodType)
+    if not foodList then
+        return false
+    end
     for k,v in ipairs(foodList) do
         local isEnough = self:isEnoughCook(v.materials)
         if isEnough then

@@ -16,6 +16,7 @@ GV_FUBEN_PREPLOT_FLAG = make("GV_FUBEN_PREPLOT_FLAG", "boolean", false, false)
 -- 精灵契约提示
 GV_ELF_CONTRACT_TIP = make("GV_ELF_CONTRACT_TIP", "boolean", false, false)
 -- 是否进入过女仆咖啡厅
+
 GV_COFFEE_IS_FIRSTENTER = make("GV_COFFEE_IS_FIRSTENTER", "boolean", true, true)
 GV_COFFEE_IS_FIRSTENTER = make("GV_COFFEE_IS_FIRSTENTER_NEW01", "boolean", true, true)
 -- 是否第一次进入端午活动
@@ -39,3 +40,5 @@ GV_MIDAUTUMN_580129_FIRSTMAKE = make("GV_MIDAUTUMN_580129_FIRSTMAKE", "boolean",
 
 GV_UTC_TIME_ZONE = -7   ---Utc时区设置 目前 正负即为 对应+ - 时区
 GV_UTC_TIME_STRING = "(UTC-7)"
+
+GV_COFFEE_IS_FIRSTENTER = make("GV_COFFEE_IS_FIRSTENTER_NEW01", "boolean", true, true)

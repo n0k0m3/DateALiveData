@@ -139,6 +139,10 @@ function BasicMap:removeActor( actor )
     end
 end
 
+function BasicMap:updateMapNpcList( ... )
+    -- body
+end
+
 function BasicMap:update(dt)
     self.control:update(dt)
 
@@ -147,6 +151,7 @@ function BasicMap:update(dt)
         self.nCount = self.nCount + 1
     else
         self.nCount = 0
+        self:updateMapNpcList()
         self:handlOcclusion()
     end
 

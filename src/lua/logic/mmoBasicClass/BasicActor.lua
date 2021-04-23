@@ -109,6 +109,11 @@ function BasicActor:getPid()
 	return self.data.pid
 end
 
+function BasicActor:needUpdate(  )
+	-- body
+	return true
+end
+
 function BasicActor:getMoveSpeed()
 	return self.moveSpeed * self.speedScale
 end
@@ -374,6 +379,9 @@ function BasicActor:addTo(panel)
 end
 
 function BasicActor:move(xv, yv, fix)
+	local moveSpeed = self:getMoveSpeed()
+	if moveSpeed == 0 then return end
+	
 	local pos = self.position3D
 	local nx = pos.x + xv
 	local ny = pos.y + yv
@@ -406,9 +414,9 @@ function BasicActor:move(xv, yv, fix)
 			return false
 		end
 	end
+
 	pos.z = pos.y --逻辑位置和渲染位置相同
 	self:setPosition3D(pos.x, pos.z, pos.z)
-	local moveSpeed = self:getMoveSpeed()
 	local flag = moveSpeed * xv
 	if flag < 0 then
 		self:setDir(eDir.LEFT)
@@ -419,18 +427,24 @@ function BasicActor:move(xv, yv, fix)
 end
 
 function BasicActor:moveTo(pos, callback)
+	if self.targetPos and self.targetPos.x == pos.x and self.targetPos.y == pos.y then return end
 	self:setAutoMove(true)
 	self.moveCallBack = callback
 	self:findPath(pos)
 	if #self.autoPathList > 0 then
+		self.targetPos = pos
 		self:doEvent("MOVE")
+	else
+		return false
 	end
+	return true
 end
 
 function BasicActor:setAutoMove(value)
 	self.autoMove = value
 	if self.autoMove == false then
 		self:cleanAutoPath()
+		self.targetPos = nil
 	end
 
 end
@@ -448,6 +462,7 @@ end
 --根据寻路路径移动，放在update
 function BasicActor:pathMove(dt)
 	local speed = self:getUnsignedMoveSpeed()
+	if speed == 0 then return end
 	local targetPos = self.autoPathList[1]
 	local pos  = self:getPosition3D()
 	local distance  = me.pGetDistance(targetPos,pos)
@@ -494,9 +509,12 @@ function BasicActor:handleMove(dt)
 	if not self:checkMoveState() then return end
 	local state = self:getState()
 	local moveSpeed = self:getUnsignedMoveSpeed()
+	if moveSpeed == 0 then return end
 	moveSpeed = moveSpeed * dt
-	-- local vector = self:getRokeVector()
 	local  vector = self._rokerVector or ccp(0,0)
+	if self.isSingeActor then -- 单机玩家
+		vector = self:getRokeVector()
+	end
 	local xv = moveSpeed * vector.x
 	local yv = moveSpeed * vector.y * BattleConfig.YV_ATTENUATION_RATIO
 	if xv ~= 0 or yv ~= 0 then

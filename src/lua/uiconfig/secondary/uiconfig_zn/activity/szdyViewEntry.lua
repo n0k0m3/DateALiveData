@@ -93,7 +93,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "547",
+							height = "546",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "0",
@@ -107,186 +107,7 @@ local t =
 								LeftPositon = 122,
 								TopPosition = 46,
 							},
-							width = "891",
-							ZOrder = "1",
-						},
-						{
-							controlID = "Image_szdyViewEntry_1_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
-							UUID = "e98b4914_ad3d_4f9a_866c_50787f9017a7",
-							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
-							classname = "MEImage",
-							dstBlendFunc = "771",
-							height = "491",
-							ignoreSize = "True",
-							name = "Image_szdyViewEntry_1",
-							sizepercentx = "0",
-							sizepercenty = "0",
-							sizeType = "0",
-							srcBlendFunc = "1",
-							texturePath = "ui/activity/szdy/004.png",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								PositionX = -177,
-								PositionY = 25,
-								LeftPositon = 112,
-								TopPosition = 49,
-							},
-							width = "557",
-							ZOrder = "1",
-							components = 
-							{
-								
-								{
-									controlID = "Spine_szdyViewEntry_1_Image_szdyViewEntry_1_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
-									UUID = "3edcf79b_d293_4772_8d80_5c4a6c1ed385",
-									classname = "MESpine",
-									dstBlendFunc = "771",
-									name = "Spine_szdyViewEntry_1",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									spineModel = 
-									{
-										SpinePath = "effect/shikonghuilang/shikonghuilang",
-										animationName = "keji",
-										IsLoop = true,
-										IsPlay = true,
-										IsUseQueue = false,
-										AnimationQueue = 
-										{
-											
-										},
-									},
-									srcBlendFunc = "1",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = -97,
-										PositionY = 165,
-									},
-									ZOrder = "1",
-								},
-								{
-									controlID = "Spine_szdyViewEntry_2_Image_szdyViewEntry_1_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
-									UUID = "f6f96866_7747_47a3_8fd4_9639f56b04cd",
-									classname = "MESpine",
-									dstBlendFunc = "771",
-									name = "Spine_szdyViewEntry_2",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									spineModel = 
-									{
-										SpinePath = "effect/shikonghuilang/shikonghuilang",
-										animationName = "liuguang",
-										IsLoop = true,
-										IsPlay = true,
-										IsUseQueue = false,
-										AnimationQueue = 
-										{
-											
-										},
-									},
-									srcBlendFunc = "1",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = 547,
-										PositionY = -180,
-									},
-									ZOrder = "1",
-								},
-								{
-									controlID = "Spine_szdyViewEntry_3_Image_szdyViewEntry_1_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
-									UUID = "0d15158a_a082_4db1_8a66_eef191f1a38d",
-									classname = "MESpine",
-									dstBlendFunc = "771",
-									name = "Spine_szdyViewEntry_3",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									spineModel = 
-									{
-										SpinePath = "effect/shikonghuilang/shikonghuilang",
-										animationName = "lizi",
-										IsLoop = true,
-										IsPlay = true,
-										IsUseQueue = false,
-										AnimationQueue = 
-										{
-											
-										},
-									},
-									srcBlendFunc = "1",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = 29,
-										PositionY = -53,
-									},
-									ZOrder = "1",
-								},
-							},
-						},
-						{
-							controlID = "Image_szdyViewEntry_2_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
-							UUID = "c3832d46_1124_4caa_a202_fa95a21b0d2d",
-							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
-							classname = "MEImage",
-							dstBlendFunc = "771",
-							height = "297",
-							ignoreSize = "True",
-							name = "Image_szdyViewEntry_2",
-							sizepercentx = "0",
-							sizepercenty = "0",
-							sizeType = "0",
-							srcBlendFunc = "1",
-							texturePath = "ui/activity/szdy/003.png",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								PositionX = 209,
-								PositionY = -8,
-								LeftPositon = 681,
-								TopPosition = 179,
-							},
-							width = "193",
-							ZOrder = "1",
-						},
-						{
-							controlID = "Image_szdyViewEntry_3_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
-							UUID = "9a2f694b_ea3b_4975_bd8a_857a11ad1b28",
-							anchorPoint = "False",
-							anchorPointX = "1",
-							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
-							classname = "MEImage",
-							dstBlendFunc = "771",
-							height = "133",
-							ignoreSize = "True",
-							name = "Image_szdyViewEntry_3",
-							sizepercentx = "0",
-							sizepercenty = "0",
-							sizeType = "0",
-							srcBlendFunc = "1",
-							texturePath = "ui/activity/szdy/006.png",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								PositionX = 433,
-								PositionY = 203,
-								relativeToName = "Panel_root",
-								nGravity = 5,
-								nAlign = 6
-							},
-							width = "738",
+							width = "890",
 							ZOrder = "1",
 						},
 						{
@@ -301,10 +122,10 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "97",
+							height = "58",
 							ignoreSize = "True",
 							name = "Button_enter",
-							normal = "ui/activity/szdy/002.png",
+							normal = "ui/common/button_big_n.png",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -312,14 +133,14 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 207,
-								PositionY = -227,
+								PositionX = 339,
+								PositionY = -210,
 								LeftPositon = 654,
 								TopPosition = 494,
 								relativeToName = "Panel",
 							},
 							UItype = "Button",
-							width = "242",
+							width = "134",
 							ZOrder = "1",
 							components = 
 							{
@@ -343,14 +164,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "36",
+									fontSize = "30",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "45",
+									height = "37",
 									ignoreSize = "True",
 									name = "label",
 									nTextAlign = "1",
@@ -366,36 +187,7 @@ local t =
 									{
 										PositionY = -3,
 									},
-									width = "82",
-									ZOrder = "1",
-								},
-								{
-									controlID = "Spine_szdyViewEntry_1_Button_enter_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
-									UUID = "a1c0ec1e_7410_42cb_85b0_3b61f6e2fcc0",
-									classname = "MESpine",
-									dstBlendFunc = "771",
-									name = "Spine_szdyViewEntry_1",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									spineModel = 
-									{
-										SpinePath = "effect/shikonghuilang/shikonghuilang",
-										animationName = "anniu",
-										IsLoop = true,
-										IsPlay = true,
-										IsUseQueue = false,
-										AnimationQueue = 
-										{
-											
-										},
-									},
-									srcBlendFunc = "1",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										
-									},
+									width = "68",
 									ZOrder = "1",
 								},
 							},
@@ -512,7 +304,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FFFFFFFF",
+							FontColor = "#FFE05654",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -525,11 +317,11 @@ local t =
 							fontSize = "22",
 							fontStroke = 
 							{
-								IsStroke = false,
-								StrokeColor = "#FFE6E6E6",
-								StrokeSize = 1,
+								IsStroke = true,
+								StrokeColor = "#FFFFFFFF",
+								StrokeSize = 2,
 							},
-							height = "27",
+							height = "31",
 							ignoreSize = "True",
 							name = "act_time",
 							nTextAlign = "1",
@@ -547,7 +339,7 @@ local t =
 								PositionX = -357,
 								PositionY = 243,
 							},
-							width = "90",
+							width = "92",
 							ZOrder = "1",
 							components = 
 							{
@@ -561,7 +353,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FFE05654",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -574,11 +366,11 @@ local t =
 									fontSize = "18",
 									fontStroke = 
 									{
-										IsStroke = false,
-										StrokeColor = "#FFE6E6E6",
-										StrokeSize = 1,
+										IsStroke = true,
+										StrokeColor = "#FFFFFFFF",
+										StrokeSize = 2,
 									},
-									height = "22",
+									height = "26",
 									ignoreSize = "True",
 									name = "act_timeStart",
 									nTextAlign = "1",
@@ -596,7 +388,7 @@ local t =
 										PositionX = -66,
 										PositionY = -24,
 									},
-									width = "118",
+									width = "120",
 									ZOrder = "1",
 								},
 								{
@@ -608,7 +400,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FFE05654",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -621,11 +413,11 @@ local t =
 									fontSize = "18",
 									fontStroke = 
 									{
-										IsStroke = false,
-										StrokeColor = "#FFE6E6E6",
-										StrokeSize = 1,
+										IsStroke = true,
+										StrokeColor = "#FFFFFFFF",
+										StrokeSize = 2,
 									},
-									height = "22",
+									height = "26",
 									ignoreSize = "True",
 									name = "act_timeEnd",
 									nTextAlign = "1",
@@ -643,7 +435,7 @@ local t =
 										PositionX = -85,
 										PositionY = -45,
 									},
-									width = "118",
+									width = "120",
 									ZOrder = "1",
 								},
 							},
@@ -709,7 +501,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "400",
+							height = "50",
 							ignoreSize = "False",
 							name = "Panel_Item",
 							sizepercentx = "0",
@@ -719,14 +511,15 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionY = 7,
+								PositionX = -133,
+								PositionY = -54,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "400",
+							width = "50",
 							ZOrder = "1",
 							components = 
 							{
@@ -785,29 +578,69 @@ local t =
 								},
 								{
 									controlID = "finish_Panel_Item_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
-									UUID = "026a5c73_f7a3_4284_b87a_3109df3356ea",
+									UUID = "50cb2a09_4884_4e80_a93d_dc7d5d5aa4b4",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
 									backGroundScale9Enable = "False",
-									classname = "MEImage",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "True",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "34",
-									ignoreSize = "True",
+									height = "80",
+									ignoreSize = "False",
 									name = "finish",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/activity/groupPurchase/canget.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -32,
-										PositionY = -133,
+										PositionX = -31,
+										PositionY = -136,
 									},
-									width = "107",
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "80",
 									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "finish_finish_Panel_Item_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
+											UUID = "026a5c73_f7a3_4284_b87a_3109df3356ea",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "34",
+											ignoreSize = "True",
+											name = "finish",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/groupPurchase/canget.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 2,
+												PositionY = 2,
+											},
+											width = "107",
+											ZOrder = "1",
+										},
+									},
 								},
 								{
 									controlID = "Image_szdyViewEntry_1_Panel_Item_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
@@ -818,7 +651,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "50",
+									height = "43",
 									ignoreSize = "True",
 									name = "Image_szdyViewEntry_1",
 									sizepercentx = "0",
@@ -830,36 +663,76 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -141,
-										PositionY = -134,
+										PositionY = -137,
 									},
-									width = "71",
+									width = "50",
 									ZOrder = "1",
 								},
 								{
 									controlID = "got_Panel_Item_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
-									UUID = "7dbba602_d020_48db_87ee_858499eb3368",
+									UUID = "f6811582_329d_4d3f_9b83_c621b6c44c22",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
 									backGroundScale9Enable = "False",
-									classname = "MEImage",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "True",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "34",
-									ignoreSize = "True",
+									height = "80",
+									ignoreSize = "False",
 									name = "got",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/activity/groupPurchase/hasget.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -32,
-										PositionY = -133,
+										PositionX = -31,
+										PositionY = -136,
 									},
-									width = "107",
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "80",
 									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "got_got_Panel_Item_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
+											UUID = "7dbba602_d020_48db_87ee_858499eb3368",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "34",
+											ignoreSize = "True",
+											name = "got",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/groupPurchase/hasget.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -1,
+												PositionY = 1,
+											},
+											width = "107",
+											ZOrder = "1",
+										},
+									},
 								},
 								{
 									controlID = "touch_Panel_Item_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
@@ -899,6 +772,52 @@ local t =
 								},
 							},
 						},
+						{
+							controlID = "Label_own_Panel_root_Panel-szdyViewEntry_Layer1_activity_Game",
+							UUID = "0143033b_f405_4d0b_980e_51be02de9638",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0.5",
+							classname = "MELabel",
+							compPath = "luacomponents.common.MEIconLabel",
+							dstBlendFunc = "771",
+							FontColor = "#FF843338",
+							fontName = "font/fangzheng_zhunyuan.ttf",
+							fontShadow = 
+							{
+								IsShadow = false,
+								ShadowColor = "#FFFFFFFF",
+								ShadowAlpha = 255,
+								OffsetX = 0,
+								OffsetY = 0,
+							},
+							fontSize = "20",
+							fontStroke = 
+							{
+								IsStroke = false,
+								StrokeColor = "#FFE6E6E6",
+								StrokeSize = 1,
+							},
+							height = "23",
+							ignoreSize = "True",
+							name = "Label_own",
+							nTextAlign = "1",
+							nTextHAlign = "1",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "770",
+							text = "当我拥有:",
+							touchAble = "False",
+							touchScaleEnable = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = -432,
+								PositionY = -248,
+							},
+							width = "87",
+							ZOrder = "1",
+						},
 					},
 				},
 			},
@@ -913,10 +832,7 @@ local t =
 		textures = 
 		{
 			"ui/activity/szdy/bg.png",
-			"ui/activity/szdy/004.png",
-			"ui/activity/szdy/003.png",
-			"ui/activity/szdy/006.png",
-			"ui/activity/szdy/002.png",
+			"ui/common/button_big_n.png",
 			"ui/activity/szdy/001.png",
 			"icon/item/goods/510301.png",
 			"ui/activity/szdy/008.png",

@@ -4,15 +4,9 @@
 
 local AntiAddictionlayer = class("AntiAddictionlayer",BaseLayer)
 
-function AntiAddictionlayer:initData(time, scale, isVisilbe)
+function AntiAddictionlayer:initData(scale)
     self.curScale = scale or 1
     self.curScale = 1 / self.curScale
-    self:setTime(time)
-    if nil == isVisilbe then
-        isVisilbe = true
-    end
-    self.isVisilbe = isVisilbe
-
     local _tmpStr = Utils:getLocalSettingValue("AntiAddictionImg_Pos")
     if "" ~= _tmpStr then
         local _pos = string.split(_tmpStr, ",")
@@ -34,37 +28,32 @@ end
 
 function AntiAddictionlayer:initUI(ui)
     self.super.initUI(self,ui)
-    self:setLayerVisilbe(self.isVisilbe)
     if self.imgPoskeep then
         self._ui.img_diS:setPosition(self:getRectSafePoint(self._ui.img_diS, self.imgPoskeep))
         self._ui.img_diB:setPosition(self:getRectSafePoint(self._ui.img_diB, self.imgPoskeep))
     end
     self._ui.img_diS:setScale(self.curScale)
     self._ui.img_diB:setScale(self.curScale)
-    self:timeShowFunc()
 end
 
 function AntiAddictionlayer:timeShowFunc()
-    self.time = self.time - 1
-
-    if self.time > 0 then
-        local min = math.floor(self.time / 60)
-        local sec = self.time - min*60
-        self._ui.img_diS:setVisible(self.time <= self.limitMinTime)
+    local time = MainPlayer.warnTimeKeep
+    if time > 0 then
+        local min = math.floor(time / 60)
+        local sec = time - min*60
+        self._ui.img_diS:setVisible(time <= self.limitMinTime)
         self._ui.img_diB:setVisible(not self._ui.img_diS:isVisible())
-        self._ui.lab_TimeS:setText(self.time)
+        self._ui.lab_TimeS:setText(time)
         self._ui.lab_TImeB:setTextById(14300301,min,sec)
     else
-        self:removerlayer()
+        Utils:closeAnitAddictionLayer()
     end
 end
 
 function AntiAddictionlayer:registerEvents()
-    if not self.timer then
-        self.timer = TFDirector:addTimer(1000, -1, nil ,handler(self.timeShowFunc ,self))
-    end
     self._ui.btn_close:onClick(function()
-        self:removerlayer()
+        MainPlayer:setWarnTipFlag(true)
+        Utils:closeAnitAddictionLayer()
     end)
 
     self._ui.img_diB:setTouchEnabled(true)
@@ -106,26 +95,8 @@ function AntiAddictionlayer:getRectSafePoint(target, point)
     return ccp(_x, _y)
 end
 
-function AntiAddictionlayer:removeTimer()
-    if self.timer then
-        TFDirector:removeTimer(self.timer)
-        self.timer = nil
-    end
-end
-
-function AntiAddictionlayer:setTime(time)
-    self.time = tonumber(time)
-end
-
 function AntiAddictionlayer:setLayerVisilbe(isVisilbe)
     self.ui:setVisible(isVisilbe)
-end
-
-function AntiAddictionlayer:removerlayer()
-    self:removeTimer()
-    if self:getParent() then
-        self:removeFromParent() 
-    end   
 end
 
 return AntiAddictionlayer

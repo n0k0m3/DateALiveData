@@ -835,7 +835,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_assent",
 											nTextAlign = "1",
@@ -851,7 +851,7 @@ local t =
 											{
 												
 											},
-											width = "115",
+											width = "88",
 											ZOrder = "1",
 										},
 									},
@@ -914,7 +914,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_decline",
 											nTextAlign = "1",
@@ -930,7 +930,7 @@ local t =
 											{
 												
 											},
-											width = "98",
+											width = "75",
 											ZOrder = "1",
 										},
 									},

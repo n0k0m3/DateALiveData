@@ -1,0 +1,76 @@
+{
+"skeleton": { "hash": "2oYOJtkSK/MQpEtjsVKR76nLDHA", "spine": "2.1.27", "width": 26, "height": 26, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "xiaoqiu", "bone": "root", "attachment": "xiaoqiu" }
+],
+"skins": {
+	"default": {
+		"xiaoqiu": {
+			"xiaoqiu": { "width": 26, "height": 26 }
+		}
+	}
+},
+"animations": {
+	"disappear": {
+		"slots": {
+			"xiaoqiu": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiu" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.8333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"idle": {
+		"slots": {
+			"xiaoqiu": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiu" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

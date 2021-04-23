@@ -146,6 +146,12 @@ function VlcPlayer:init()
     end
 
     self.video:addMEListener(EventTag, function(node)
+        if self.filePath == "video/loginPart1.mp4" or self.filePath == "video/loginPart6.mp4" then
+            local currentScene = Public:currentScene()
+            if currentScene and currentScene.__cname == "LoginScene" then
+                currentScene:loginVideoOver()
+            end
+        end
         if self.onVideoPlayComplete then
             self.startTime = 0
             self.touchNum  = 0
@@ -238,6 +244,12 @@ function VlcPlayer:initSkipBtn()
     -- self.skipBtn:setSize(ccs(size.width * 2,self.height * 2))
 
     self.skipBtn:onClick(function()
+        if self.filePath == "video/loginPart1.mp4" or self.filePath == "video/loginPart6.mp4" then
+            local currentScene = Public:currentScene()
+            if currentScene and currentScene.__cname == "LoginScene" then
+                currentScene:loginVideoOver()
+            end
+        end
         if self.onVideoPlayComplete then
             self:showSkipBtn()
             self.onVideoPlayComplete(self, true)

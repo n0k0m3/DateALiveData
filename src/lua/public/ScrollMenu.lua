@@ -401,6 +401,11 @@ function ScrollMenu:scrollToAction()
             self.timer = nil
             return;
         end
+        if tolua.isnull(self) or _time > 300 then
+            TFDirector:removeTimer(self.timer)
+            self.timer = nil
+            return
+        end
         if offsetY < 0 then
             self:moveCells(-dt * speed);
         else

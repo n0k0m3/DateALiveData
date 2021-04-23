@@ -82,12 +82,7 @@ end
 function TxjzResultView:registerEvents()
     self.Panel_touch:onClick(function()
             if self.isEnableTouching_ then
-                if battleController.lastSceneName == "BaseOSDScene" then 
-                    local OSDControl = require("lua.logic.osd.OSDControl")
-                    OSDControl:enterOSD({})
-                else
-                    AlertManager:changeScene(SceneType.MainScene)
-                end
+                battleController.popLastScence(  )
             end
     end)
 end

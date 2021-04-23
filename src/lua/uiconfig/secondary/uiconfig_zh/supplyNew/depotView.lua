@@ -243,7 +243,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_support",
 											nTextAlign = "1",
@@ -306,7 +306,7 @@ local t =
 												PositionX = -387,
 												PositionY = -19,
 											},
-											width = "74",
+											width = "84",
 											ZOrder = "1",
 										},
 										{
@@ -608,7 +608,7 @@ local t =
 												PositionX = -509,
 												PositionY = 15,
 											},
-											width = "74",
+											width = "84",
 											ZOrder = "1",
 											components = 
 											{
@@ -1125,7 +1125,7 @@ local t =
 												nType = 3,
 												nGravity = 1,
 											},
-											width = "62",
+											width = "61",
 											ZOrder = "1",
 										},
 										{
@@ -1176,7 +1176,7 @@ local t =
 												nType = 3,
 												nGravity = 1,
 											},
-											width = "62",
+											width = "61",
 											ZOrder = "1",
 										},
 									},
@@ -1202,7 +1202,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "15",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -1224,7 +1224,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 49,
-								PositionY = 55,
+								PositionY = 57,
 							},
 							width = "153",
 							ZOrder = "1",
@@ -1363,11 +1363,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "21",
-							ignoreSize = "True",
+							height = "29",
+							ignoreSize = "False",
 							name = "img_limitDi",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -1425,7 +1425,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 3,
+										
 									},
 									width = "141",
 									ZOrder = "1",
@@ -1486,7 +1486,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_sale",
 									nTextAlign = "1",
@@ -1503,7 +1503,7 @@ local t =
 										PositionX = 6,
 										PositionY = 4,
 									},
-									width = "36",
+									width = "31",
 									ZOrder = "1",
 								},
 							},
@@ -1551,7 +1551,7 @@ local t =
 								PositionX = -47,
 								PositionY = -18,
 							},
-							width = "18",
+							width = "24",
 							ZOrder = "1",
 						},
 						{
@@ -1645,7 +1645,7 @@ local t =
 								PositionY = -53,
 							},
 							visible = "False",
-							width = "23",
+							width = "27",
 							ZOrder = "1",
 						},
 					},

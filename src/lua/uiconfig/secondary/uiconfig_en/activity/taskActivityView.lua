@@ -178,7 +178,7 @@ local t =
 										PositionX = 417,
 										PositionY = -51,
 									},
-									width = "81",
+									width = "82",
 									ZOrder = "1",
 								},
 								{
@@ -253,7 +253,7 @@ local t =
 										StrokeColor = "#FFC97CD4",
 										StrokeSize = 2,
 									},
-									height = "28",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_time_end",
 									nTextAlign = "0",
@@ -272,7 +272,7 @@ local t =
 										PositionY = -19,
 									},
 									visible = "False",
-									width = "123",
+									width = "122",
 									ZOrder = "1",
 								},
 								{
@@ -328,7 +328,7 @@ local t =
 										StrokeColor = "#FFC97CD4",
 										StrokeSize = 2,
 									},
-									height = "28",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_time_begin",
 									nTextAlign = "0",
@@ -347,7 +347,7 @@ local t =
 										PositionY = 11,
 									},
 									visible = "False",
-									width = "123",
+									width = "122",
 									ZOrder = "1",
 								},
 								{
@@ -376,7 +376,7 @@ local t =
 										StrokeColor = "#FFC97CD4",
 										StrokeSize = 2,
 									},
-									height = "28",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_time_tip",
 									nTextAlign = "0",
@@ -395,7 +395,7 @@ local t =
 										PositionY = 42,
 									},
 									visible = "False",
-									width = "123",
+									width = "122",
 									ZOrder = "1",
 								},
 							},
@@ -685,7 +685,7 @@ local t =
 										PositionX = -296,
 										PositionY = -39,
 									},
-									width = "118",
+									width = "110",
 									ZOrder = "1",
 								},
 								{
@@ -886,7 +886,7 @@ local t =
 											{
 												
 											},
-											width = "118",
+											width = "114",
 											ZOrder = "1",
 										},
 									},
@@ -934,7 +934,7 @@ local t =
 										PositionX = 342,
 										PositionY = -23,
 									},
-									width = "76",
+									width = "75",
 									ZOrder = "1",
 								},
 								{
@@ -1006,7 +1006,7 @@ local t =
 										PositionX = -25,
 										PositionY = 52,
 									},
-									width = "108",
+									width = "105",
 									ZOrder = "1",
 									components = 
 									{
@@ -1113,7 +1113,7 @@ local t =
 											{
 												
 											},
-											width = "30",
+											width = "29",
 											ZOrder = "1",
 										},
 									},

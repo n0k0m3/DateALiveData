@@ -44,6 +44,9 @@ end
 function StoreDataMgr:sortWithCommodity(storeId)
     local commodity = self.commodity_[storeId]
     local storeCfg = self:getStoreCfg(storeId)
+    if not storeCfg then
+        return
+    end
     local orderType = 1;
     if storeCfg.extra then
         local jsonData = json.decode(storeCfg.extra);
@@ -84,6 +87,7 @@ end
 
 function StoreDataMgr:isOpen(storeCid)
     local cfg = self:getStoreCfg(storeCid)
+    if not cfg then return false end
     local isOpen = false
     if cfg.openContType == 1 then    -- 玩家等级
         isOpen = MainPlayer:getPlayerLv() >= cfg.openContVal
@@ -118,6 +122,27 @@ function StoreDataMgr:getOpenStore(storeType)
             if self:isOpen(v) then
                 table.insert(condStore, v)
             end
+        end
+    end
+    -- 开启时间判断
+    for i, v in ipairs(condStore) do
+        local isOpen = self:isOpenTime(v)
+        if isOpen then
+            table.insert(store, v)
+        end
+    end
+
+    return store
+end
+
+
+function StoreDataMgr:getOpenStoreByStoreIds(storeIds)
+    local condStore = {}
+    local store = {}
+    -- 开启条件判断
+    for i, v in ipairs(storeIds) do
+        if self:isOpen(v) then
+            table.insert(condStore, v)
         end
     end
     -- 开启时间判断
@@ -588,7 +613,7 @@ end
 
 function StoreDataMgr:onRecvBuyResource(event)
     local data = event.data
-    EventMgr:dispatchEvent(EV_STORE_BUYRESOURCE, data.cid, data.count)
+    EventMgr:dispatchEvent(EV_STORE_BUYRESOURCE, data.cid, data.count, data.reward)
 end
 
 function StoreDataMgr:onRecvSellPreview(event)

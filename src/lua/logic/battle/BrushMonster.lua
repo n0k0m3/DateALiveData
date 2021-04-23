@@ -698,6 +698,8 @@ function BrushMonster:transData(monsterSectionCid, monster)
         end
         if rawData.level then
             rawData.level = math.max(1, rawData.level)
+        else
+            rawData.level = MainPlayer:getPlayerLv()
         end
         local data = BattleDataMgr:transData(eRoleType.Monster, rawData)
         table.insert(waveMonster, data)

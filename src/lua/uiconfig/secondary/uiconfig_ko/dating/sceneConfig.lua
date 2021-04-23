@@ -480,16 +480,6 @@ local t = {
 			logic="",
 		},
 		{
-			name="datingLetterViewNew",
-			ui ="datingLetterViewNew.lua",
-			x=0,
-			y=0,
-			speed=0,
-			layer="dating",
-			canLoad=true,
-			logic="",
-		},
-		{
 			name="room01",
 			ui ="room01.lua",
 			x=0,

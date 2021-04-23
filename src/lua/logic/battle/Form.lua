@@ -117,7 +117,6 @@ function Form:update(time)
 			return
 		end
 	end
-
 	local expend = self.data.expend
 	if expend and  #expend > 3 then
 		local interval = expend[1]  --间隔

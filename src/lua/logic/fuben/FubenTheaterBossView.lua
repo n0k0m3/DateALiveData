@@ -513,16 +513,19 @@ function FubenTheaterBossView:updateChallengeInfo()
 
     local items = self.ListView_challenge_info:getItems()
     local gap = #challengeInfo - #items
-    if gap > 0 then
-        for i = 1, gap do
-            local Panel_challengeInfo_item = self.Panel_challengeInfo_item:clone()
-            self.ListView_challenge_info:pushBackCustomItem(Panel_challengeInfo_item)
+    if gap < 0 then
+        for i = 1, math.abs(gap) do
+            self.ListView_challenge_info:removeItem(1)
         end
     end
-
-    for i, v in ipairs(self.ListView_challenge_info:getItems()) do
-        local info = challengeInfo[i]
-        local Label_notice = TFDirector:getChildByPath(v, "Label_notice")
+    
+    for i, info in ipairs(challengeInfo) do
+        local item = self.ListView_challenge_info:getItem(i)
+        if not item then
+            item = self.Panel_challengeInfo_item:clone()
+            self.ListView_challenge_info:pushBackCustomItem(item)
+        end
+        local Label_notice = TFDirector:getChildByPath(item, "Label_notice")
         Label_notice:setTextById("r300998", info.name, info.contribution)
     end
 
@@ -542,6 +545,7 @@ end
 function FubenTheaterBossView:removeCountDownTimer()
     if self.countDownTimer_ then
         TFDirector:removeTimer(self.countDownTimer_)
+        self.countDownTimer_ = nil
     end
 end
 
@@ -561,12 +565,15 @@ function FubenTheaterBossView:updateResetTime()
 end
 
 function FubenTheaterBossView:onCountDownPer()
+    if not self.reqTiming_ then
+        return
+    end
     if self.reqTiming_ >= 60  then
         FubenDataMgr:send_ODEUM_UPDATE_CONTRIBUTION()
         self.reqTiming_ = 0
     end
     self.reqTiming_ = self.reqTiming_ + 1
-    if self.reqChallengeInfoTiming_ >= 1 then
+    if self.reqChallengeInfoTiming_ >= 5 then
         FubenDataMgr:send_ODEUM_REQ_NOTICE()
         self.reqChallengeInfoTiming_ = 0
     end

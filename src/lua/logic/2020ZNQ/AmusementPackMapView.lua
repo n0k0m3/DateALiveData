@@ -27,6 +27,7 @@ local AmusementPackMapView = class("AmusementPackMapView",BasicMap)
 
 function AmusementPackMapView:ctor( ... )
 	-- body
+    self.viewOffset = CCSize(400,400)
 	self.super.ctor(self, WorldRoomDataMgr:getCurControl())
 end
 
@@ -62,6 +63,31 @@ function AmusementPackMapView:initMapElement( ... )
     end
 
     self:createActors()
+end
+
+function AmusementPackMapView:setViewOffset( width, height )
+    -- body
+    self.viewOffset = CCSize(width,height)
+end
+
+function AmusementPackMapView:updateMapNpcList( ... )
+    -- body
+    local npcList = self.mapParse:getNpcList()
+    for k, v in ipairs(npcList) do
+        local npcCfg = self.control:getNpcCfg(tonumber(v.CfgID))
+        if npcCfg then
+            local npcId = npcCfg.id
+            local pos = me.p(v.Position.X, v.Position.Y)
+            local npcData = self.control:getActorDataByPid(npcId)
+
+            if not npcData then
+                npcData = self.control:createNewEmptyData(npcId)
+                npcData.pos =  me.p(v.Position.X, v.Position.Y)
+                npcData.areaRect = me.rect(0,0,v.Size.W, v.Size.H)
+                self.control:updateActorData(npcData)
+            end
+        end
+    end
 end
 
 function AmusementPackMapView:createActors( ... )
@@ -115,7 +141,7 @@ function AmusementPackMapView:checkInViewByPos( pos )
     local cameraPos = self.camera:getPosition3D()
     local cameraPos2d = ccp(cameraPos.x,cameraPos.y)
     local _pos = ccp(pos.x - cameraPos2d.x, pos.y - cameraPos2d.y)
-    if math.abs(_pos.x) < cameraSize.width/2 + 400 and math.abs(_pos.y) < cameraSize.height/2 + 400 then
+    if math.abs(_pos.x) < cameraSize.width/2 + self.viewOffset.width and math.abs(_pos.y) < cameraSize.height/2 + self.viewOffset.height then
         return true
     else
         return false

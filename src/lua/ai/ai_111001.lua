@@ -136,7 +136,6 @@ return {
             ["Desc"] = "子节点",
             ["Duration"] = 1000,
             ["NodeTag"] = "D704D239E4C344C9BFEE4E9BD06EB47F",
-            ["Force"] = 0,
             ["TriggerType"] = 0,
             ["Static"] = false,
             ["Pos"] = {
@@ -146,6 +145,10 @@ return {
             ["Class"] = "ChildNode",
             ["Loop"] = 0,
             ["Priority"] = 1,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
         },
         ["B8E848856C9E436D98185232AED87BAE"] = {
             ["Pos"] = {
@@ -235,7 +238,7 @@ return {
         ["B93FC49D0C0943E2B1B037AF3BC0016B"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 200,
-            ["Weight"] = 50,
+            ["Weight"] = 10,
             ["NodeTag"] = "B93FC49D0C0943E2B1B037AF3BC0016B",
             ["RangeOrigin"] = {
                 ["y"] = -20,
@@ -274,7 +277,6 @@ return {
             ["Desc"] = "子节点",
             ["Duration"] = 2000,
             ["NodeTag"] = "C3A5C27DA02F46C5A1051544C308338A",
-            ["Force"] = 0,
             ["TriggerType"] = 1,
             ["Static"] = false,
             ["Pos"] = {
@@ -284,6 +286,10 @@ return {
             ["Class"] = "ChildNode",
             ["Loop"] = 0,
             ["Priority"] = 2,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
         },
         ["2158BDD84512466C9CA40868378AC21F"] = {
             ["Desc"] = "行为",

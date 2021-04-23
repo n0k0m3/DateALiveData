@@ -21,6 +21,8 @@ local CHANGE_TYPE = {
     leftAndRightChange = 11,    --左右合并
     fadeSpeType = 12,           --特殊淡入切换
     longWhiteType = 13,   --长时间白屏
+    whiteShotType = 14,    --白屏快闪
+    whiteMiddleChange =15,  --白屏中等
 }
 
 function DatingChangeBgView:initData(bgTarget,type, closeCallBack, refreshBgStateBack,isShowChangeBg)
@@ -150,7 +152,11 @@ function DatingChangeBgView:enterAction()
     elseif self.changeType == CHANGE_TYPE.fadeSpeType then
         self:fadeSpeChange(closeCallFunc,refreshBgStateFunc)
     elseif self.changeType == CHANGE_TYPE.longWhiteType then
-        self:longWhiteChange(closeCallFunc,refreshBgStateFunc)       
+        self:longWhiteChange(closeCallFunc,refreshBgStateFunc)
+    elseif self.changeType == CHANGE_TYPE.whiteShotType then
+        self:whiteShotChange(closeCallFunc,refreshBgStateFunc)
+    elseif self.changeType == CHANGE_TYPE.whiteMiddleChange then
+        self:whiteMiddleChange(closeCallFunc,refreshBgStateFunc)             
     end
 end
 
@@ -250,6 +256,42 @@ function DatingChangeBgView:whiteChange(closeCallBack,refreshBgStateCallBack)
     self.Panel_maskWhite:runAction(CCSequence:create(acArrOut))
 end
 
+function DatingChangeBgView:whiteShotChange(closeCallBack,refreshBgStateCallBack)
+    print("whiteShotChange")
+
+    self.Panel_maskWhite:show()
+    self.Panel_maskWhite:setOpacity(0)
+    local time = 0.3
+    local acArrOut = TFVector:create()
+    local fadeIn = CCFadeIn:create(time)
+    local deyTimeAc = CCDelayTime:create(0.1)
+    local fadeOut = CCFadeOut:create(time)
+    acArrOut:addObject(fadeIn)
+    acArrOut:addObject(refreshBgStateCallBack)
+    acArrOut:addObject(deyTimeAc)
+    acArrOut:addObject(fadeOut)
+    acArrOut:addObject(closeCallBack)
+    self.Panel_maskWhite:runAction(CCSequence:create(acArrOut))
+end
+
+function DatingChangeBgView:whiteMiddleChange(closeCallBack,refreshBgStateCallBack)
+    print("whiteMiddleChange")
+
+    self.Panel_maskWhite:show()
+    self.Panel_maskWhite:setOpacity(0)
+    local time = 0.6
+    local acArrOut = TFVector:create()
+    local fadeIn = CCFadeIn:create(time)
+    local deyTimeAc = CCDelayTime:create(0.3)
+    local fadeOut = CCFadeOut:create(time)
+    acArrOut:addObject(fadeIn)
+    acArrOut:addObject(refreshBgStateCallBack)
+    acArrOut:addObject(deyTimeAc)
+    acArrOut:addObject(fadeOut)
+    acArrOut:addObject(closeCallBack)
+    self.Panel_maskWhite:runAction(CCSequence:create(acArrOut))
+end
+
 function DatingChangeBgView:longWhiteChange(closeCallBack,refreshBgStateCallBack)
     print("longWhiteChange")
 
@@ -328,7 +370,7 @@ function DatingChangeBgView:circleChange(closeCallBack,refreshBgStateCallBack)
 
     stencil:Scale(15)
 
-    local time = 1
+    local time = 1.6
     local acArrOut = TFVector:create()
     local scaleIn = CCScaleTo:create(time/2,0)
     local deyTime = CCDelayTime:create(0.5)

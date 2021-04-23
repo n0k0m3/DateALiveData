@@ -42,6 +42,31 @@ local t =
 			{
 				
 				{
+					controlID = "Image_bg_Panel-znq_help_znq_yly_activity_Game",
+					UUID = "22f53d68_ef14_4399_92f7_0d3e23620a26",
+					anchorPoint = "False",
+					anchorPointX = "0.5",
+					anchorPointY = "0.5",
+					backGroundScale9Enable = "False",
+					classname = "MEImage",
+					dstBlendFunc = "771",
+					height = "373",
+					ignoreSize = "True",
+					name = "Image_bg",
+					sizepercentx = "0",
+					sizepercenty = "0",
+					sizeType = "0",
+					srcBlendFunc = "770",
+					texturePath = "ui/activity/znq_yly/help/bg.png",
+					touchAble = "False",
+					UILayoutViewModel = 
+					{
+						PositionY = 33,
+					},
+					width = "876",
+					ZOrder = "1",
+				},
+				{
 					controlID = "PageView_help_Panel-znq_help_znq_yly_activity_Game",
 					UUID = "87efa511_76d1_4cc8_985a_c47e3705f0af",
 					anchorPoint = "False",
@@ -148,6 +173,7 @@ local t =
 	{
 		textures = 
 		{
+			"ui/activity/znq_yly/help/bg.png",
 			"ui/simulation_trial/arrow.png",
 		},
 		armatures = 

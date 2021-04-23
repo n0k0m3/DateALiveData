@@ -348,7 +348,7 @@ local t =
 									{
 										
 									},
-									width = "91",
+									width = "84",
 									ZOrder = "1",
 								},
 							},

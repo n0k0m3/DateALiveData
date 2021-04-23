@@ -168,7 +168,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -189,
+										PositionX = -30,
 										PositionY = -326,
 									},
 									uipanelviewmodel = 
@@ -265,11 +265,11 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 276,
+								PositionX = 307,
 								PositionY = -229,
 							},
 							UItype = "Button",
-							width = "202",
+							width = "262",
 							ZOrder = "2",
 						},
 						{
@@ -289,7 +289,7 @@ local t =
 							height = "70",
 							ignoreSize = "False",
 							innerHeight = "70",
-							innerWidth = "550",
+							innerWidth = "430",
 							name = "scroll_cost",
 							showScrollbar = "False",
 							sizepercentx = "0",
@@ -299,15 +299,15 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -393,
-								PositionY = -264,
+								PositionX = -335,
+								PositionY = -265,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "550",
+							width = "430",
 							ZOrder = "2",
 						},
 						{
@@ -375,14 +375,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "27",
+							height = "22",
 							ignoreSize = "True",
 							name = "txt_num",
 							nTextAlign = "1",
@@ -396,10 +396,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -286,
-								PositionY = -172,
+								PositionX = -307,
+								PositionY = -174,
 							},
-							width = "14",
+							width = "13",
 							ZOrder = "2",
 						},
 						{
@@ -431,6 +431,7 @@ local t =
 								PositionY = 133,
 							},
 							UItype = "Button",
+							visible = "False",
 							width = "84",
 							ZOrder = "2",
 						},
@@ -463,8 +464,39 @@ local t =
 								PositionY = -132,
 							},
 							UItype = "Button",
+							visible = "False",
 							width = "84",
 							ZOrder = "2",
+						},
+						{
+							controlID = "btn_get_panel_content_Panel-whiteValentineActivityView_Layer1_activity_Game",
+							UUID = "a345bb04_c504_4a26_9a03_c6ac902dd903",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEButton",
+							ClickHighLightEnabled = "True",
+							dstBlendFunc = "771",
+							flipX = "False",
+							flipY = "False",
+							height = "102",
+							ignoreSize = "True",
+							name = "btn_get",
+							normal = "ui/activity/whiteValentine/008.png",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "True",
+							UILayoutViewModel = 
+							{
+								PositionX = 286,
+								PositionY = -80,
+							},
+							UItype = "Button",
+							width = "115",
+							ZOrder = "1",
 						},
 						{
 							controlID = "panel_time_panel_content_Panel-whiteValentineActivityView_Layer1_activity_Game",
@@ -648,8 +680,8 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "121",
-							ignoreSize = "True",
+							height = "147",
+							ignoreSize = "False",
 							name = "img_di",
 							scaleX = "0.58",
 							scaleY = "0.58",
@@ -657,13 +689,13 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fairy_particle/1.png",
+							texturePath = "ui/activity/whiteValentine/009.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
 								
 							},
-							width = "136",
+							width = "166",
 							ZOrder = "1",
 						},
 						{
@@ -738,7 +770,8 @@ local t =
 			"ui/activity/whiteValentine/tab1.png",
 			"ui/activity/whiteValentine/tab2s.png",
 			"ui/activity/whiteValentine/tab2.png",
-			"ui/fairy_particle/1.png",
+			"ui/activity/whiteValentine/008.png",
+			"ui/activity/whiteValentine/009.png",
 			"icon/item/goods/500055.png",
 			"ui/activity/whiteValentine/img_icon_bg.png",
 		},

@@ -35,6 +35,7 @@ function LeagueSendRedPacketView:initUI(ui)
     self.Image_res_icon = TFDirector:getChildByPath(self.Panel_content, "Image_res_icon")
     self.Label_res_num = TFDirector:getChildByPath(self.Panel_content, "Label_res_num")
     self.Button_buy = TFDirector:getChildByPath(self.Panel_content, "Button_buy")
+	self.Button_buy.res = TFDirector:getChildByPath(self.Button_buy, "Image_res_icon")
     self.Label_price = TFDirector:getChildByPath(self.Button_buy, "Label_price")
     self.Button_send = TFDirector:getChildByPath(self.Panel_content, "Button_send")
     self.Button_left = TFDirector:getChildByPath(self.Panel_content, "Button_left")
@@ -109,23 +110,28 @@ function LeagueSendRedPacketView:refreshView()
             end
             
         end
-        self.Image_packet_bg:setTexture(bgTexture[self.packetType_])
-        self.Label_name:setTextById(nameId[self.packetType_])
-   else
-        self.Label_tips:setTextById(tipsTextId[self.packetType_])
+        self.Image_packet_bg:setTexture("ui/league/ui_45.png")
+        self.Label_name:setTextById(270455)
+		self.Button_buy.res:hide()
+   else	
+		local cfg = RechargeDataMgr:getOneRechargeCfg(packetCfg.rechargeID)
+        self.Label_tips:setTextById(270359)
         self.Image_cost_bg:setVisible(false)
+		self.Button_buy.res:show()
+		self.Button_buy.res:setTexture(GoodsDataMgr:getItemCfg(cfg.exchangeCost[1].id).icon)
         self.Image_packet_bg:setTexture("ui/league/ui_08.png")
         self.Label_name:setTextById(270456)
         self.Button_send:setVisible(false)
         self.Button_buy:setVisible(true)
-        local cfg = RechargeDataMgr:getOneRechargeCfg(packetCfg.rechargeID)
-        self.Label_price:setTextById(1605003 , cfg.rechargeCfg.price * 0.01)
+        self.Label_price:setText(cfg.exchangeCost[1].num)
    end
    self.Label_total_num:setText("x"..packetCfg.bonus)
    
    self.Label_count:setTextById(270360, packetCfg.numbers)
    local surplsTimes = LeagueDataMgr:getSendPacketSurplsTimes(packetCfg.id)
    self.Label_send_limit:setTextById(270362, surplsTimes)
+
+	self.surplsTimes = surplsTimes
 end
 
 function LeagueSendRedPacketView:sendRedPacketSuccess()
@@ -207,11 +213,16 @@ function LeagueSendRedPacketView:registerEvents()
     end)
 
     self.Button_buy:onClick(function()
+		local packetCfg = LeagueDataMgr:getPacketCfgByType(self.packetType_)
+        local surplsTimes = LeagueDataMgr:getSendPacketSurplsTimes(packetCfg.id)
+		if surplsTimes <= 0 then
+			Utils:showTips(270416)
+			return
+		end
+
         local packetCfg = LeagueDataMgr:getPacketCfgByType(self.packetType_)
         local text = self.Label_zhufuyu:getText()
-        local info = {cid = tostring(packetCfg.id), bless = text}
-        local string = json.encode(info)
-        LeagueDataMgr:SendRedPacket(packetCfg.id, text)
+        RechargeDataMgr:getOrderNO(packetCfg.rechargeID, {discount = "", id=packetCfg.id, bless=text, buyCount=1})
     end)
 
     self.Button_left:onClick(function()

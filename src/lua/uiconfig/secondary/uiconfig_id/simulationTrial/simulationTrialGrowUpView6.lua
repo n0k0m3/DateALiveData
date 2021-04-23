@@ -184,7 +184,7 @@ local t =
 							spineModel = 
 							{
 								SpinePath = "effect/effect_herotest_word/effect_herotest_word",
-								animationName = "effect_herotest_word01_0",
+								animationName = "effect_herotest_word02_0",
 								IsLoop = false,
 								IsPlay = true,
 								IsUseQueue = false,
@@ -197,7 +197,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 286,
+								PositionX = 133,
 								PositionY = 169,
 								LeftPositon = 568,
 								TopPosition = 320,

@@ -66,7 +66,7 @@ return {
         ["84AB46CD6CD745C5A69F994BBBC58001"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 200,
-            ["Weight"] = 10,
+            ["Weight"] = 20,
             ["NodeTag"] = "84AB46CD6CD745C5A69F994BBBC58001",
             ["RangeOrigin"] = {
                 ["y"] = -20,
@@ -91,7 +91,7 @@ return {
         ["2158BDD84512466C9CA40868378AC21F"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 200,
-            ["Weight"] = 10,
+            ["Weight"] = 40,
             ["NodeTag"] = "2158BDD84512466C9CA40868378AC21F",
             ["RangeOrigin"] = {
                 ["y"] = -20,
@@ -148,7 +148,7 @@ return {
             ["Class"] = "RootNode",
             ["NodeTag"] = "C96EF13DA34A4AB38F2B1946553979A9",
             ["ID"] = "110101",
-            ["Name"] = "助战真那",
+            ["Name"] = "助战反转十香",
             ["Static"] = true,
         },
         ["B93FC49D0C0943E2B1B037AF3BC0016B"] = {
@@ -204,7 +204,6 @@ return {
             ["Desc"] = "子节点",
             ["Duration"] = 1000,
             ["NodeTag"] = "D704D239E4C344C9BFEE4E9BD06EB47F",
-            ["Force"] = 0,
             ["TriggerType"] = 0,
             ["Static"] = false,
             ["Pos"] = {
@@ -214,6 +213,10 @@ return {
             ["Class"] = "ChildNode",
             ["Loop"] = 0,
             ["Priority"] = 1,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
         },
         ["18666D84035C457E830B779A5D952B80"] = {
             ["Desc"] = "行为",
@@ -232,7 +235,6 @@ return {
             ["Desc"] = "子节点",
             ["Duration"] = 2000,
             ["NodeTag"] = "C3A5C27DA02F46C5A1051544C308338A",
-            ["Force"] = 0,
             ["TriggerType"] = 1,
             ["Static"] = false,
             ["Pos"] = {
@@ -242,6 +244,10 @@ return {
             ["Class"] = "ChildNode",
             ["Loop"] = 0,
             ["Priority"] = 2,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
         },
         ["D584F1DAEDA6417D96B6C696DD0B8D6F"] = {
             ["Desc"] = "顺序行为",

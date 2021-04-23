@@ -843,7 +843,6 @@ end
 function DetectiveMainView:exitGame()
 
     local function confirmCall()
-        FunctionDataMgr:jActivity3()
         AlertManager:closeLayer(self)
     end
     local function cancleCall()
@@ -936,6 +935,5 @@ function DetectiveMainView:specialKeyBackLogic( )
     self:exitGame()
     return true
 end
-
 
 return DetectiveMainView

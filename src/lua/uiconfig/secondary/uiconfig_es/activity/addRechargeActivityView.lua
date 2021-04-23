@@ -104,7 +104,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								
+								PositionX = -4,
+								PositionY = -6,
 							},
 							width = "926",
 							ZOrder = "1",
@@ -368,6 +369,52 @@ local t =
 									ZOrder = "1",
 								},
 							},
+						},
+						{
+							controlID = "Label_addRechargeActivityView_1_Panel_root_Panel-addRechargeActivityView_Layer1_activity_Game",
+							UUID = "d273e30c_277f_4d83_ae04_fa36c791370d",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0.5",
+							classname = "MELabel",
+							compPath = "luacomponents.common.MEIconLabel",
+							dstBlendFunc = "771",
+							FontColor = "#FFFFFFFF",
+							fontName = "font/MFLiHei_Noncommercial.ttf",
+							fontShadow = 
+							{
+								IsShadow = false,
+								ShadowColor = "#FFFFFFFF",
+								ShadowAlpha = 255,
+								OffsetX = 0,
+								OffsetY = 0,
+							},
+							fontSize = "26",
+							fontStroke = 
+							{
+								IsStroke = true,
+								StrokeColor = "#FF4A43AC",
+								StrokeSize = 2,
+							},
+							height = "36",
+							ignoreSize = "True",
+							name = "Label_addRechargeActivityView_1",
+							nTextAlign = "1",
+							nTextHAlign = "1",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "770",
+							text = "当前充值金额：",
+							touchAble = "False",
+							touchScaleEnable = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = -398,
+								PositionY = -218,
+							},
+							width = "168",
+							ZOrder = "1",
 						},
 					},
 				},

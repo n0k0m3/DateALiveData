@@ -1153,7 +1153,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "54",
+											height = "146",
 											ignoreSize = "True",
 											name = "Button_get",
 											normal = "ui/activity/courage/enter/007.png",
@@ -1167,7 +1167,7 @@ local t =
 												PositionX = 345,
 											},
 											UItype = "Button",
-											width = "144",
+											width = "246",
 											ZOrder = "1",
 											components = 
 											{

@@ -14,6 +14,9 @@ function CollectMainView:initUI(ui)
 	self.super.initUI(self,ui)
 	local root_panel = ui:getChildByName("Panel_root")
 	self.collector_panel = root_panel:getChildByName("Panel_enter_collector")
+	self.collector_panel.Button_CheckReward = self.collector_panel:getChildByName("Button_CheckReward")
+	self.collector_panel.Button_CheckReward.Image_ExistReward = self.collector_panel.Button_CheckReward:getChildByName("Image_ExistReward")
+
 	self.sprite_panel = root_panel:getChildByName("Panel_enter_sprite")
 	self.equip_panel = root_panel:getChildByName("Panel_enter_equip")
 	self.token_panel = root_panel:getChildByName("Panel_enter_token")
@@ -25,7 +28,6 @@ function CollectMainView:initUI(ui)
 	self.medal_panel = root_panel:getChildByName("Panel_enter_medal")
 	self.Panel_enter_scene = root_panel:getChildByName("Panel_enter_scene")
 
-	
 end
 
 function CollectMainView:commonUpdateInfo(tarnode,pageType)
@@ -129,6 +131,7 @@ function CollectMainView:refreshView()
 	self:updateCollectDating()
 	self:updateCollectMedal()
 	self:updateCollectScene()
+	self:updateRewardTip()
 end
 
 function CollectMainView:onShow()
@@ -141,6 +144,7 @@ end
 
 function CollectMainView:registerEvents()
 	EventMgr:addEventListener(self,EV_COLLECT_UPDATE_INFO,handler(self.refreshView, self))
+	EventMgr:addEventListener(self, EV_TASK_RECEIVE, handler(self.updateRewardTip, self))
 	
 	self.collector_panel:onClick(function()
 		-- Utils:openView("collect.CollectorView")
@@ -216,6 +220,24 @@ function CollectMainView:registerEvents()
 		end
 		Utils:openView("collect.CollectSceneView")
 	end)
+
+	self.collector_panel.Button_CheckReward:onClick(function()
+		Utils:openView("collect.CollectRewardView")
+	end)
+end
+
+function CollectMainView:updateRewardTip()
+	local completeNum = 0
+	local CfgList = TabDataMgr:getData("NewPokedexTask")
+	for k, v in pairs(CfgList) do
+		if v.type == 1 then
+			local taskInfo = TaskDataMgr:getTaskInfo(v.id)
+			if taskInfo and taskInfo.status == EC_TaskStatus.GET then
+				completeNum = completeNum + 1
+			end
+		end
+	end
+	self.collector_panel.Button_CheckReward.Image_ExistReward:setVisible(completeNum > 0)
 end
 
 function CollectMainView:removeUI()

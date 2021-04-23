@@ -237,7 +237,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "碎片选择",
+							text = "파편 선택",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -245,7 +245,7 @@ local t =
 								PositionX = 216,
 								PositionY = 499,
 							},
-							width = "117",
+							width = "110",
 							ZOrder = "1",
 							components = 
 							{
@@ -270,7 +270,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 118,
+										PositionX = 111,
 										PositionY = 1,
 										IsPercent = true,
 										PercentX = 101,
@@ -355,7 +355,7 @@ local t =
 									{
 										
 									},
-									width = "51",
+									width = "45",
 									ZOrder = "1",
 								},
 							},
@@ -416,7 +416,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "27",
+							height = "26",
 							ignoreSize = "True",
 							name = "Label_tip",
 							nTextAlign = "1",
@@ -425,7 +425,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "已经选择总数量",
+							text = "총 개수 선택 완료",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -433,7 +433,7 @@ local t =
 								PositionX = 287,
 								PositionY = 159,
 							},
-							width = "171",
+							width = "184",
 							ZOrder = "1",
 						},
 						{
@@ -516,7 +516,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "27",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_allnum",
 							nTextAlign = "1",
@@ -533,7 +533,7 @@ local t =
 								PositionX = 288,
 								PositionY = 131,
 							},
-							width = "144",
+							width = "112",
 							ZOrder = "1",
 						},
 						{
@@ -562,7 +562,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "27",
+							height = "26",
 							ignoreSize = "True",
 							name = "Label_name",
 							nTextAlign = "1",
@@ -579,7 +579,7 @@ local t =
 								PositionX = 222,
 								PositionY = 212,
 							},
-							width = "95",
+							width = "117",
 							ZOrder = "1",
 						},
 						{
@@ -758,7 +758,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "26",
 									ignoreSize = "True",
 									name = "Label_num",
 									nTextAlign = "1",
@@ -774,7 +774,7 @@ local t =
 									{
 										PositionX = -40,
 									},
-									width = "41",
+									width = "47",
 									ZOrder = "1",
 								},
 							},
@@ -814,7 +814,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "暂无碎片",
+							text = "아직 파편 없음",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -822,7 +822,7 @@ local t =
 								PositionX = 562,
 								PositionY = 363,
 							},
-							width = "113",
+							width = "167",
 							ZOrder = "1",
 						},
 					},

@@ -50,6 +50,11 @@ function RechargeDataMgr:init()
 
 	TFDirector:addProto(s2c.RECHARGE_PUSH_CHANGE_RECHARGE_CFG, self, self.recvGoodsList)
 
+	TFDirector:addProto(s2c.RECHARGE_RESP_WEEK_CARD_INFO, self, self.onRecvWeekCardInfo)
+	TFDirector:addProto(s2c.RECHARGE_RESP_GET_WEEK_AWARD, self, self.onRecvWeekSignAward)
+
+	TFDirector:addProto(s2c.RECHARGE_PUSH_CHANGE_RECHARGE_CFG, self, self.recvGoodsList)
+
 	--s2c.RECHARGE_BUY_MONTH_CARD_INFO
 
 	if HeitaoSdk then
@@ -102,7 +107,7 @@ function RechargeDataMgr:recvRechargeOk(event)
 		Utils:showReward(tempReward);
 	end
 
-	EventMgr:dispatchEvent(EV_RECHARGE_UPDATE);
+	EventMgr:dispatchEvent(EV_RECHARGE_UPDATE, reward);
 end
 
 function RechargeDataMgr:onLogin()
@@ -154,12 +159,11 @@ function RechargeDataMgr:getOrderNO(goodsid, extraInfo)
 			else
 				Utils:openView("store.TokenPopView",goodsid);
 			end
-		elseif false then
+		elseif goods.item and #goods.item > 0 then
 			Utils:openView("store.BuyConfirmView2", goodsid)
 		else
 			Utils:openView("common.ConfirmBoxViewSmall", goodsid, extraInfo)
 		end
-
 		--Utils:openView("store.TokenPopView",goodsid);
 	else
 		local msg = {
@@ -1479,6 +1483,7 @@ function RechargeDataMgr:getWeekCardCanSign()
 	local isHaveCard = tobool((info.etime - ServerDataMgr:getServerTime()) > 0)
 	return (isHaveCard and info.canSign)
 end
+
 --获取月卡信息
 function RechargeDataMgr:getMonthCardInfo(  )
 	return self.monthCard

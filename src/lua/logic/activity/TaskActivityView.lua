@@ -57,11 +57,58 @@ function TaskActivityView:initUI(ui)
         self.Label_reset = TFDirector:getChildByPath(self.Panel_refresh,"Label_reset")
     end
 
+    self.Panel_progress = TFDirector:getChildByPath(self.Panel_root,"Panel_progress")
+
+    if self.Panel_progress then
+        self:initPanelProgress()
+    end
+
     self:refreshView()
+end
+
+function TaskActivityView:initPanelProgress( ... )
+    -- body
+    self.Label_value1 = TFDirector:getChildByPath(self.Panel_progress,"Label_value1")
+    self.Label_value2 = TFDirector:getChildByPath(self.Panel_progress,"Label_value2")
+    self.Button_rank = TFDirector:getChildByPath(self.Panel_progress,"Button_rank")
+    self.Button_help = TFDirector:getChildByPath(self.Panel_progress,"Button_help")
+    self.ScrollView_progress = TFDirector:getChildByPath(self.Panel_progress,"ScrollView_progress")
+
+    self.ScrollView_progress:setContentOffset(ccp(-50,0))
+    self.Image_active_progress = TFDirector:getChildByPath(self.Panel_progress,"Image_progress_di")
+    self.LoadingBar_progress = TFDirector:getChildByPath(self.Panel_progress,"LoadingBar_progress")
+
+    self.Panel_activeItem = TFDirector:getChildByPath(self.Panel_prefab,"Panel_activeItem")
+    self.activeItem_ = {}
+    self:initProgressTask()
+
+    if self.Button_rank then
+        self.Button_rank:onClick(function ( ... )
+            -- body
+            Utils:openView("activity.TaskRankView",self.activityId_)
+        end)
+    end
+
+    if self.Button_help then
+        self.Button_help:setVisible(self.activityInfo_.extendData.helpInterface)
+        self.Button_help:onClick(function ( ... )
+            -- body
+            Utils:openView("common.HelpView",self.activityInfo_.extendData.helpInterface)
+        end)
+    end
+    self.requsetCrossData = true
+end
+
+function TaskActivityView:updatePanelProgress( ... )
+    -- body
+    self:updateProgressTask()
 end
 
 function TaskActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
+    if not self.activityInfo_ then
+        return
+    end
     local taskData = ActivityDataMgr2:getItems(self.activityId_)
     self.taskData_ = {}
     local unLockData = {}
@@ -69,8 +116,8 @@ function TaskActivityView:updateActivity()
     for k,v in ipairs(taskData) do
         local itemInfo = ActivityDataMgr2:getItemInfo(self.activityInfo_.activityType, v)
         local isUnlock = true
-        if itemInfo.extendData and itemInfo.extendData.treeLevel then
-            isUnlock = PrivilegeDataMgr:getWishTreeLv() >= itemInfo.extendData.treeLevel
+        if itemInfo.extendData and itemInfo.extendData.level then
+            isUnlock = PrivilegeDataMgr:getWishTreeLv() >= itemInfo.extendData.level
         end
 
         if isUnlock then
@@ -89,6 +136,8 @@ function TaskActivityView:updateActivity()
     end, function (v, data)
         self:updateTaskItem(v, data)
     end)   
+
+    self:updatePanelProgress()
 
     -- @desc:谷丰让改的
     self.Label_date:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle, true))
@@ -169,9 +218,9 @@ function TaskActivityView:updateTaskItem(item,itemId)
 
     local foo = self.taskItems_[item]
     local isUnlock = true
-    if itemInfo.extendData and itemInfo.extendData.treeLevel then
-        isUnlock = PrivilegeDataMgr:getWishTreeLv() >= itemInfo.extendData.treeLevel
-        foo.Label_lock:setTextById(15010119,itemInfo.extendData.treeLevel)
+    if itemInfo.extendData and itemInfo.extendData.level then
+        isUnlock = PrivilegeDataMgr:getWishTreeLv() >= itemInfo.extendData.level
+        foo.Label_lock:setTextById(15010119,itemInfo.extendData.level)
     end
     foo.Image_lock:setVisible(not isUnlock)
 
@@ -227,9 +276,18 @@ function TaskActivityView:updateTaskItem(item,itemId)
         foo.Image_getted_mask:setVisible(progressInfo.status == EC_TaskStatus.GETED)
     end
     foo.Button_receive:onClick(function()
+        if ServerDataMgr:getServerTime() >= self.activityInfo_.endTime then
+            Utils:showTips(1710021)
+            return
+        end
             ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(activityInfo.id, itemId)
     end)
     foo.Button_goto:onClick(function()
+            if ServerDataMgr:getServerTime() >= self.activityInfo_.endTime then
+                Utils:showTips(1710021)
+                return
+            end
+
             local param = itemInfo.extendData.parameter or {}
             FunctionDataMgr:enterByFuncId(itemInfo.extendData.jumpInterface,unpack(param))
     end)
@@ -273,10 +331,17 @@ function TaskActivityView:updateCountDonw()
             self.Label_timing:setTextById("r42007", day, hour)
         end
     end
+
+    if self.requsetCrossData and (not self.lastRequsetTime or math.abs(self.lastRequsetTime - serverTime) >= 300) then
+        self.lastRequsetTime = serverTime
+        ActivityDataMgr2:SEND_ACTIVITY_REQ_CROSS_SUPPORT_INFO()
+    end
 end
 
 function TaskActivityView:registerEvents()
+    self.super.registerEvents(self)
 
+    EventMgr:addEventListener(self, EV_CROSS_SUPPORT_INFO, handler(self.onCrossSupportInfoRsp, self))
     if self.Button_refresh then
         self.Button_refresh:onClick(function ( ... )
 
@@ -310,6 +375,21 @@ function TaskActivityView:registerEvents()
     end
 end
 
+function TaskActivityView:onCrossSupportInfoRsp( data )
+    -- body
+    if data.isFirst and data.myScore > 0 then
+        Utils:openView("activity.AssistPopView",data.myScore,data.onlineTime)
+    end
+
+    if  self.Label_value1 then
+        self.Label_value1:setText(data.myScore)
+    end
+
+    if  self.Label_value2 then
+        self.Label_value2:setText(data.score)
+    end
+end
+
 function TaskActivityView:onSubmitSuccessEvent(activitId, itemId, reward)
     if self.activityId_ ~= activitId then return end
     Utils:showReward(reward)
@@ -330,6 +410,88 @@ end
 function TaskActivityView:reFreshItem()
     -- body
     ActivityDataMgr2:send_ACTIVITY_REQ_ACTIVITY_ITEM_REFRESH(self.activityId_)
+end
+
+function TaskActivityView:initProgressTask()
+    self.activeTask_ = self.activityInfo_.extendData.activeItemid
+
+    local size = self.Image_active_progress:Size()
+    for i = #self.activeTask_, 1, -1 do
+        local taskCfg = ActivityDataMgr2:getItemInfo(self.activityInfo_.activityType, self.activeTask_[i])
+
+        if not self.maxActive_ then
+            self.maxActive_ = taskCfg.target
+        end
+
+        local percent = taskCfg.target / self.maxActive_
+        local Panel_activeItem = self.Panel_activeItem:clone()
+        local item = {}
+        item.root = Panel_activeItem
+        item.Panel_geted = TFDirector:getChildByPath(item.root, "Panel_geted")
+        item.Button_geted = TFDirector:getChildByPath(item.Panel_geted, "Button_geted")
+        item.Button_geted:setOpacity(255 * 0.3)
+        item.Panel_canGet = TFDirector:getChildByPath(item.root, "Panel_canGet")
+        item.Spine_receive = TFDirector:getChildByPath(item.Panel_canGet, "Spine_receive")
+        item.Spine_receive:play("animation", true)
+        item.Button_canGet = TFDirector:getChildByPath(item.Panel_canGet, "Button_canGet")
+        item.Button_canGet:setOpacity(255 * 0.3)
+        item.Panel_notGet = TFDirector:getChildByPath(item.root, "Panel_notGet")
+        item.Button_notGet = TFDirector:getChildByPath(item.Panel_notGet, "Button_notGet")
+        item.Button_notGet:setOpacity(255 * 0.3)
+        item.Label_getValue = TFDirector:getChildByPath(item.root, "Label_getValue")
+        item.Label_getValue:setText(Utils:format_number_w(taskCfg.target))
+        self.activeItem_[i] = item
+        Panel_activeItem:Pos(size.width * percent, 0):AddTo(self.Image_active_progress,15)
+
+        item.Button_canGet:onClick(function ( ... )
+            -- body
+            
+            if ServerDataMgr:getServerTime() >= self.activityInfo_.endTime then
+                Utils:showTips(1710021)
+                return
+            end
+            ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId_,self.activeTask_[i])
+        end)  
+
+        item.Button_geted:onClick(function ( ... )
+            -- body
+            self:showPreview(i)
+        end) 
+
+        item.Button_notGet:onClick(function ( ... )
+            -- body
+            self:showPreview(i)
+        end)
+    end
+end
+
+function TaskActivityView:updateProgressTask(  )
+    -- body
+     for i, v in ipairs(self.activeItem_ or {}) do
+        local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo_.activityType,self.activeTask_[i])
+        v.Panel_geted:setVisible(progressInfo.status == EC_TaskStatus.GETED)
+        v.Panel_canGet:setVisible(progressInfo.status == EC_TaskStatus.GET)
+        v.Panel_notGet:setVisible(progressInfo.status == EC_TaskStatus.ING)
+
+        if i == #self.activeItem_ then
+            self.LoadingBar_progress:setPercent(progressInfo.progress*100/self.maxActive_)
+        end
+    end
+end
+
+function TaskActivityView:showPreview(index)
+    local item = self.activeItem_[index]
+    local wp = item.root:getParent():convertToWorldSpace(item.root:Pos())
+    -- local np = self.Image_preview:getParent():convertToNodeSpaceAR(wp)
+
+    local taskCfg = ActivityDataMgr2:getItemInfo(self.activityInfo_.activityType, self.activeTask_[index])
+    local reward = {}
+    for k,v in pairs(taskCfg.reward) do
+        table.insert(reward,{id = k, num = v})
+    end
+    Utils:previewReward(self.Image_preview, reward)
+
+    -- self.Image_preview:Pos(np)
 end
 
 return TaskActivityView

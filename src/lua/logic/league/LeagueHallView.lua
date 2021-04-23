@@ -172,6 +172,7 @@ function LeagueHallView:initUI(ui)
     self.panel_country_setting =  Utils:createClubCountryNamePanel(self.Panel_left , ccp(self.Button_modify:getPositionX() - 280 , self.Button_modify:getPositionY() - 50)  , true , true , nil , true)
     self.panel_country_info = Utils:createClubCountryNamePanel(self.Panel_infos:getChildByName("Panel_league_info") , ccp(self.Button_modify_name:getPositionX() - 280 , self.Button_modify_name:getPositionY() - 50)  , true , true , nil , true)
 
+
     self:initLeft()
     self:initTabView()
 
@@ -181,6 +182,211 @@ function LeagueHallView:initUI(ui)
     self:selectTabBtn(self.defaultIdx or 1)
 
 
+end
+
+--初始化列表
+function LeagueHallView:initTabView()
+    self.tableView = TFTableView:create()
+    self.tableView:setTableViewSize(self.panel_list:getContentSize())
+    self.tableView:setDirection(TFTableView.TFSCROLLVERTICAL)
+    self.tableView:setVerticalFillOrder(TFTableView.TFTabViewFILLTOPDOWN)
+
+    self.tableView:addMEListener(TFTABLEVIEW_SIZEFORINDEX, self.cellSizeForTable)
+    self.tableView:addMEListener(TFTABLEVIEW_SIZEATINDEX, self.tableCellAtIndex)
+    self.tableView:addMEListener(TFTABLEVIEW_NUMOFCELLSINTABLEVIEW, self.numberOfCellsInTableView)
+
+    self.tableView.logic = self
+    self.panel_list:addChild(self.tableView)
+end
+
+function LeagueHallView.cellSizeForTable(table, idx)
+    local self = table.logic
+    local itemSize = self.panel_rank_item:getContentSize()
+    return itemSize.height, itemSize.width
+end
+
+function LeagueHallView.tableCellAtIndex(table, idx)
+    local cell = table:dequeueCell()
+    local self = table.logic
+
+    if nil == cell then
+        cell = TFTableViewCell:create()
+        local itemCell = self.panel_rank_item:clone()
+        itemCell:show()
+        itemCell:setPosition(ccp(0, 0))
+        cell.itemCell = itemCell
+        cell:addChild(itemCell)
+    end
+
+    self:updateRankItem(cell.itemCell, idx + 1)
+
+    return cell
+end
+
+function LeagueHallView:updateRankItem(itemCell, idx)
+    local data = LeagueDataMgr.leagueBackInfo.playerReCallRank[idx]
+    if not data then
+        itemCell:hide()
+        return
+    end
+    itemCell:show()
+    local img_rank = TFDirector:getChildByPath(itemCell, "img_rank")
+    local txt_rank = TFDirector:getChildByPath(itemCell, "txt_rank")
+    local img_head_icon = TFDirector:getChildByPath(itemCell, "img_head_icon")
+    local img_head_frame = TFDirector:getChildByPath(itemCell, "img_head_frame")
+    local img_head_front = TFDirector:getChildByPath(itemCell, "img_head_front")
+    local txt_name = TFDirector:getChildByPath(itemCell, "txt_name")
+    local txt_level = TFDirector:getChildByPath(itemCell, "txt_level")
+    local txt_score = TFDirector:getChildByPath(itemCell, "txt_score")
+
+    if data.rank < 1 then
+        img_rank:setVisible(false)
+        txt_rank:setVisible(true)
+        txt_rank:setTextById(263009)
+    elseif data.rank <= 3 then
+        img_rank:setVisible(true)
+        txt_rank:setVisible(false)
+        local num = 37 + data.rank
+        img_rank:setTexture("ui/activity/assist/0"..num..".png")
+    else
+        txt_rank:setText(data.rank)
+        img_rank:setVisible(false)
+        txt_rank:setVisible(true)
+    end
+    txt_name:setText(data.playerName)
+    txt_score:setText(data.recallScore)
+    txt_level:setText("Lv." .. data.level)
+
+    img_head_icon:setTexture(AvatarDataMgr:getAvatarIconPath(data.portraitCid))
+    local avatarFrameIcon, avatarFrameEffect = AvatarDataMgr:getAvatarFrameIconPath(data.portraitFrameCid)
+    img_head_front:setTexture(avatarFrameIcon)
+    local headFrameEffect = img_head_front:getChildByName("headFrameEffect")
+    if headFrameEffect then
+        headFrameEffect:removeFromParent()
+    end
+    if avatarFrameEffect ~= "" then
+        headFrameEffect = SkeletonAnimation:create(avatarFrameEffect)
+        headFrameEffect:setAnchorPoint(ccp(0,0))
+        headFrameEffect:setPosition(ccp(0,0))
+        headFrameEffect:play("animation", true)
+        headFrameEffect:setName("headFrameEffect")
+        img_head_front:addChild(headFrameEffect, 1)
+    end
+end
+
+function LeagueHallView.numberOfCellsInTableView(table)
+    if LeagueDataMgr.leagueBackInfo then
+        return #LeagueDataMgr.leagueBackInfo.playerReCallRank
+    end
+    return 0
+end
+
+function LeagueHallView:updateBackInfo()
+    self:updateLeftTab()
+    self:updateRank()
+    self:updateMyScore()
+    self:updateBackReward()
+end
+
+function LeagueHallView:updateLeftTab()
+    local isOpen = false
+    if LeagueDataMgr.leagueBackInfo then
+        isOpen = LeagueDataMgr.leagueBackInfo.open
+    end
+    self.btnConfig_[4].isShow = isOpen
+    self.btnConfig_[5].isShow = isOpen
+    self.tabBtn_[4].Panel_tabItem:setVisible(isOpen)
+    self.tabBtn_[5].Panel_tabItem:setVisible(isOpen)
+end
+
+function LeagueHallView:updateRank()
+    self.tableView:reloadData()
+    self.tableView:setScrollToBegin(false)
+    self.btn_pre:hide()
+    self.btn_next:hide()
+    if not LeagueDataMgr.leagueBackInfo or #LeagueDataMgr.leagueBackInfo.playerReCallRank == 0 then 
+        self.img_page_bg:hide()
+        self.label_rank_tip:show()
+        return
+    end
+
+    self.label_rank_tip:hide()
+    self.img_page_bg:setVisible(LeagueDataMgr.leagueBackInfo.total > 1)
+    self.txt_page:setText(LeagueDataMgr.leagueBackInfo.index)
+    if LeagueDataMgr.leagueBackInfo.index > 1 then
+        self.btn_pre:show()
+    end
+
+    if LeagueDataMgr.leagueBackInfo.index < LeagueDataMgr.leagueBackInfo.total then
+        self.btn_next:show()
+    end
+end
+
+function LeagueHallView:updateMyScore()
+    local score = 0
+    if LeagueDataMgr.leagueBackInfo and LeagueDataMgr.leagueBackInfo.score then
+        score = LeagueDataMgr.leagueBackInfo.score
+    end
+    self.txt_score:setText(score)
+    self.img_score:setPositionX(self.txt_score:getPositionX() - self.txt_score:getContentSize().width - 3)
+end
+
+function LeagueHallView:updateBackReward()
+    local awardInfo = {}
+    local myScore = 0
+    if LeagueDataMgr.leagueBackInfo then
+        awardInfo = LeagueDataMgr.leagueBackInfo.awardInfo or {}
+        myScore = LeagueDataMgr.leagueBackInfo.score or 0
+    end
+
+    local items = self.rewardList:getItems()
+    local gap = #awardInfo - #items
+    for i = 1, math.abs(gap) do
+        if gap > 0 then
+            local itemCell = self.img_award_item:clone()
+            itemCell:show()
+            self.rewardList:pushBackCustomItem(itemCell)
+        else
+            self.rewardList:removeItem(1)
+        end
+    end
+
+    for k, v in ipairs(awardInfo) do
+        local item = self.rewardList:getItem(k)
+        self:updateAwardItem(item, v, myScore)
+    end
+end
+
+function LeagueHallView:updateAwardItem(item, data, myScore)
+    local txt_score = TFDirector:getChildByPath(item, "txt_score")
+    local label_state = TFDirector:getChildByPath(item, "label_state")
+    local img_got = TFDirector:getChildByPath(item, "img_got"):hide()
+
+    txt_score:setTextById(63817, data.awardScore)
+    if myScore >= data.awardScore then
+        img_got:show()
+        label_state:hide()
+    else
+        img_got:hide()
+        label_state:show()
+    end
+
+    local rewards = data.rewards or {}
+    for i = 1, 4 do
+        local cell = TFDirector:getChildByPath(item, "img_item" .. i)
+        if not cell.goodsItem then
+            local goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+            goodsItem:setScale(0.7)
+            goodsItem:AddTo(cell):Pos(0,0):ZO(1)
+            cell.goodsItem = goodsItem
+        end
+
+        cell.goodsItem:hide()
+        if i <= #rewards then
+            cell.goodsItem:show()
+            PrefabDataMgr:setInfo(cell.goodsItem, rewards[i].id, rewards[i].num)
+        end
+    end
 end
 
 --初始化列表
@@ -498,6 +704,7 @@ function LeagueHallView:refreshPanelInfos()
     local degree = LeagueDataMgr:getSelfDegree()
     self.Button_edit_notice:setVisible(LeagueDataMgr:checkDegreeOwnPermission(degree, EC_UNION_PERMISSION_Type.EDIT))
     self.Button_modify_name:setVisible(degree == EC_UNION_DEGREE_Type.HEAD)
+
     self.panel_country_info:getChildByName("bgPanel"):setTouchEnabled(degree == EC_UNION_DEGREE_Type.HEAD)
 
     local count = #self.ScrollView_changes:getItems()
@@ -701,6 +908,7 @@ function LeagueHallView:refreshPanelSetting()
     self.Button_disband:setVisible(degree == EC_UNION_DEGREE_Type.HEAD)
     self.Button_modify:setVisible(degree == EC_UNION_DEGREE_Type.HEAD)
     self.panel_country_setting:getChildByName("bgPanel"):setTouchEnabled(degree == EC_UNION_DEGREE_Type.HEAD)
+
     self.Button_quit:setVisible(degree > EC_UNION_DEGREE_Type.HEAD)
     local openLimit = LeagueDataMgr:checkDegreeOwnPermission(degree, EC_UNION_PERMISSION_Type.OPEN_LIMIT)
     local openApply = LeagueDataMgr:checkDegreeOwnPermission(degree, EC_UNION_PERMISSION_Type.OPEN_APPLY)
@@ -959,8 +1167,12 @@ function LeagueHallView:registerEvents()
     end)
 
     self.Button_kick:onClick(function()
+        local name = ""
         local info = LeagueDataMgr:getMemberInfoByPlayerId(self.selectMemberId)
-        showChooseMessageBox(TextDataMgr:getText(270450), TextDataMgr:getText(270451, info.name), function()
+        if info and info.name then
+            name = info.name
+        end
+        showChooseMessageBox(TextDataMgr:getText(270450), TextDataMgr:getText(270451, name), function()
             print("showChooseMessageBox-----------", self.selectMemberId)
             AlertManager:close()
             LeagueDataMgr:operateUnionMember(EC_UNIONType.KICK, {self.selectMemberId})

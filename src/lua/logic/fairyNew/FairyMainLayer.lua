@@ -628,7 +628,7 @@ function FairyMainLayer:updateCompose()
 		needCnt = needs[2]
 	end
 
-    if hero.ishave and CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+    if hero.ishave and (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or RELEASE_TEST) then
         self.Button_oneKey:show()
     else
         self.Button_oneKey:hide()

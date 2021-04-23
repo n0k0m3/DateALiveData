@@ -152,6 +152,83 @@ return {
         quality = 1,
         id = 9200111,
     },
+    [9200126] = {
+        superType = 38,
+        excursion1 = {
+        },
+        order = 26,
+        pileUp = true,
+        condition = {
+            hasItem = 570528,
+        },
+        gridMax = 1,
+        effectivetime = -1,
+        activeTime = 0,
+        clubPush = 0,
+        sellProfit = {
+        },
+        onceUseLimit = 0,
+        triggerEnvelope = 0,
+        totalMax = 1,
+        deletePrevious = false,
+        convertMax = {
+        },
+        content = 0,
+        classify = 1,
+        lamp = 0,
+        titleLevel = 1,
+        notable = 1325426,
+        showPower = 292,
+        accessdes = 1326428,
+        titleType = 26,
+        toplimit = 0,
+        size2 = {
+            [1] = 100,
+            [2] = 90,
+            [3] = 90,
+        },
+        bagType = 0,
+        autoUse = false,
+        star = 4,
+        reward = {
+        },
+        displayClassify = 1,
+        showEffect = "effect/title/chenghao_linghunjianshangjia/chenghao_linghunjianshangjia",
+        excursion2 = {
+            [1] = {
+                [1] = 5,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            [3] = {
+                [1] = 0,
+                [2] = 15,
+            },
+        },
+        useCast = {
+        },
+        baseAttribute = {
+            [1] = 27370,
+            [2] = 9012,
+            [3] = 7004,
+        },
+        chatShow = true,
+        title = 0,
+        relatedTask = 0,
+        subType = 0,
+        timeDescription = 0,
+        showPic = "",
+        size1 = 0,
+        titleStar = 4,
+        dealProfit = {
+        },
+        probability = 0,
+        quality = 1,
+        id = 9200126,
+    },
     [9200112] = {
         superType = 38,
         excursion1 = {

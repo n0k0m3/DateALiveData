@@ -91,9 +91,9 @@ function LuckyListView:updateTurnItem(index,data)
     end
     local stageIndex = OneYearDataMgr:getCurTurnIndex()
     local isUnLock = index <= stageIndex
-    local color = isUnLock and ccc3(197,46,48) or ccc3(255,255,255)
-    curItem.lable_btn:setTextById(112000258, index)
-    curItem.lable_btn:setColor(color)
+    -- local color = isUnLock and ccc3(197,46,48) or ccc3(255,255,255)
+    curItem.lable_btn:setText(index)
+    -- curItem.lable_btn:setColor(color)
     curItem.btn:setTouchEnabled(isUnLock)
     curItem.lock:setVisible(not isUnLock)
     --local res = isUnLock and "018.png" or "019.png"

@@ -242,7 +242,7 @@ local t =
 									{
 										
 									},
-									width = "106",
+									width = "102",
 									ZOrder = "1",
 								},
 							},
@@ -364,7 +364,7 @@ local t =
 									{
 										
 									},
-									width = "247",
+									width = "230",
 									ZOrder = "1",
 								},
 							},
@@ -467,7 +467,7 @@ local t =
 									{
 										
 									},
-									width = "47",
+									width = "50",
 									ZOrder = "1",
 								},
 							},

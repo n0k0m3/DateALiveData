@@ -1,0 +1,13 @@
+
+doumaobang.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+doumaobang
+  rotate: false
+  xy: 2, 2
+  size: 144, 71
+  orig: 144, 71
+  offset: 0, 0
+  index: -1

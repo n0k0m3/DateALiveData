@@ -82,27 +82,36 @@ function FunctionDataMgr:initFuncList()
         [143] = self.jKsanGift,       --狂三
         [144] = self.jGiftPacks,       --礼包合集
         [151] = self.jGMSkill,         --主角光环
-        [999] = self.jSpecialFuben,    --特殊活动副本
-        [199] = self.jAssistanceCode,
-        -- [200] = self.jRechargeArray,
-        [305] = self.jNewGuyGiftBag,    --萌新礼包弹窗
-        [306] = self.jHundredLoginView,  ---百日活动礼包
-		[152] = self.jMonStore,         --魔王试炼商店
+        [152] = self.jMonStore,         --魔王试炼商店
         [155] = self.jFlyShip,          --探索
-		[156] = self.jCollectCGView,    -- 跳转CG图鉴
+        [156] = self.jCollectCGView,    -- 跳转CG图鉴
+        [199] = self.jAssistanceCode,
         [200] = self.jHeroMain,         -- 跳转精灵主界面
-        -- [999] = self.jSpecialFuben,    --特殊活动副本
+        [999] = self.jSpecialFuben,    --特殊活动副本
         [300] = self.jWorldRoom,    -- 进入大世界
         [301] = self.jPrivilegeLeague,    -- 乐园特权
         [302] = self.jPersonInfoBase,    -- 乐园个人信息
         [303] = self.jFashionStore,    -- 时装商城
         [304] = self.jStorePack,    -- 乐园商店
-        [405] = self.jBalloon,    -- 气球活动
-        [406] = self.jTurnTable,    -- 转盘活动
+        [305] = self.jBalloon,    -- 气球活动
+        [306] = self.jTurnTable,    -- 转盘活动
         [307] = self.jSimulateSummon,    -- 模拟召唤
         [308] = self.jActivityByHasActivity,    -- 活动跳转，强制无活动不打开
+        [309] = self.jNewYearWishTree,    -- 许愿树
+        [310] = self.jNewYearBuildRepair,  -- 建筑修复
+        [311] = self.jGuessWord2021,  -- 灯谜街-猜灯谜
+        [312] = self.jFireWorkFactory,  -- 2021烟花工场
+        [313] = self.jNianshou2021,  -- 2021年兽鞭炮挑战
+        [314] = self.jNewYearClothStore,  -- 2021年成衣铺
+        [315] = self.jNewYearStore,  -- 2021乐园商店
+        [316] = self.jNewYearTask,  -- 2021乐园任务
+        [405] = self.jBalloon,    -- 气球活动
+        [406] = self.jTurnTable,    -- 转盘活动
         [500] = self.jWarStore,             --夏拉姆商店跳转
         [501] = self.jBagAndShowGemDecose,             --打开背包并且打开宝石分解界面
+        -- [200] = self.jRechargeArray,
+        --[305] = self.jNewGuyGiftBag,    --萌新礼包弹窗
+        --[306] = self.jHundredLoginView,  ---百日活动礼包
     }
     local tempFunc = {}
     for k, v in pairs(self.funcList_) do
@@ -208,12 +217,14 @@ function FunctionDataMgr:getOpenFuncList()
     return self.openFuncList_
 end
 
-function FunctionDataMgr:__makeAccessItem(desc, open, jumpId, args)
+function FunctionDataMgr:__makeAccessItem(desc, open, jumpId, args, accessCfg)
     return {
         desc = desc,
         open = open,
         jumpId = jumpId,
         args = args,
+        startTime = accessCfg.startTime,
+        endTime = accessCfg.endTime,
     }
 end
 
@@ -229,189 +240,198 @@ function FunctionDataMgr:enterByFuncId(id, ...)
     end
 end
 
-function FunctionDataMgr:getAccess(itemId)
-    local rets = {}
-    local itemCfg = GoodsDataMgr:getItemCfg(itemId) or {}
-    local accessId = itemCfg.accessId or {}
-    for i, v in ipairs(accessId) do
-        local accessCfg = self.accessMap_[v]
-        local accessType = accessCfg.accessType
-        if accessType == self.accessType_.FUBEN_PLOT_PRECISE then
-            if self.fubenDropMap_[itemId] then
-                local drop = self.fubenDropMap_[itemId][EC_FBType.PLOT] or {}
-                for _, levelId in ipairs(drop) do
-                    local levelCfg = FubenDataMgr:getLevelCfg(levelId)
-                    local levelGroupCfg = FubenDataMgr:getLevelGroupCfg(levelCfg.levelGroupId)
+function FunctionDataMgr:getAccessItem(rets , accessCfg, itemId)
+    local foo = nil
+    local accessType = accessCfg.accessType
+    if accessType == self.accessType_.FUBEN_PLOT_PRECISE then
+        if self.fubenDropMap_[itemId] then
+            local drop = self.fubenDropMap_[itemId][EC_FBType.PLOT] or {}
+            for _, levelId in ipairs(drop) do
+                local levelCfg = FubenDataMgr:getLevelCfg(levelId)
+                local levelGroupCfg = FubenDataMgr:getLevelGroupCfg(levelCfg.levelGroupId)
 
-                    local chapterName = FubenDataMgr:getChapterOrderName(levelGroupCfg.dungeonChapterId)
-                    local diffName = TextDataMgr:getText(EC_FBDiffName[levelCfg.difficulty])
-                    local levelName = FubenDataMgr:getLevelName(levelId)
+                local chapterName = FubenDataMgr:getChapterOrderName(levelGroupCfg.dungeonChapterId)
+                local diffName = TextDataMgr:getText(EC_FBDiffName[levelCfg.difficulty])
+                local levelName = FubenDataMgr:getLevelName(levelId)
+                local title = TextDataMgr:getText(accessCfg.name)
+                local info = TextDataMgr:getText(accessCfg.name2, chapterName, diffName, levelName)
+                local desc = TextDataMgr:getText(1420002, title, info)
+                local open = FubenDataMgr:checkPlotLevelEnabled(levelId)
+                local jumpId = accessCfg.jumpInterface
+                local args = {levelId}
+                foo = self:__makeAccessItem(desc, open, jumpId, args, accessCfg)
+                table.insert(rets, foo)
+            end
+        end
+    elseif accessType == self.accessType_.FUBEN_DAILY_PRECISE then
+        if self.fubenDropMap_[itemId] then
+            local drop = self.fubenDropMap_[itemId][EC_FBType.DAILY] or {}
+            local levelGroupMap = {}
+            for _, levelId in ipairs(drop) do
+                local levelCfg = FubenDataMgr:getLevelCfg(levelId)
+                local levelGroupCfg = FubenDataMgr:getLevelGroupCfg(levelCfg.levelGroupId)
+                if not levelGroupMap[levelCfg.levelGroupId] then
+                    levelGroupMap[levelCfg.levelGroupId] = true
+                    local levelGroupName = TextDataMgr:getText(levelGroupCfg.name)
                     local title = TextDataMgr:getText(accessCfg.name)
-                    local info = TextDataMgr:getText(accessCfg.name2, chapterName, diffName, levelName)
-                    local desc = TextDataMgr:getText(1420002, title, info)
+                    local desc = TextDataMgr:getText(1420002, title, levelGroupName)
+                    local info = TextDataMgr:getText(levelCfg.name)
                     local open = FubenDataMgr:checkPlotLevelEnabled(levelId)
                     local jumpId = accessCfg.jumpInterface
                     local args = {levelId}
-                    local foo = self:__makeAccessItem(desc, open, jumpId, args)
+                    foo = self:__makeAccessItem(desc, open, jumpId, args, accessCfg)
                     table.insert(rets, foo)
                 end
             end
-        elseif accessType == self.accessType_.FUBEN_DAILY_PRECISE then
-            if self.fubenDropMap_[itemId] then
-                local drop = self.fubenDropMap_[itemId][EC_FBType.DAILY] or {}
-                local levelGroupMap = {}
-                for _, levelId in ipairs(drop) do
-                    local levelCfg = FubenDataMgr:getLevelCfg(levelId)
-                    local levelGroupCfg = FubenDataMgr:getLevelGroupCfg(levelCfg.levelGroupId)
-                    if not levelGroupMap[levelCfg.levelGroupId] then
-                        levelGroupMap[levelCfg.levelGroupId] = true
-                        local levelGroupName = TextDataMgr:getText(levelGroupCfg.name)
-                        local title = TextDataMgr:getText(accessCfg.name)
-                        local desc = TextDataMgr:getText(1420002, title, levelGroupName)
-                        local info = TextDataMgr:getText(levelCfg.name)
-                        local open = FubenDataMgr:checkPlotLevelEnabled(levelId)
-                        local jumpId = accessCfg.jumpInterface
-                        local args = {levelId}
-                        local foo = self:__makeAccessItem(desc, open, jumpId, args)
-                        table.insert(rets, foo)
-                    end
-                end
-            end
-        elseif accessType == self.accessType_.THEATER then
-            if self.fubenDropMap_[itemId] then
-                local drop = self.fubenDropMap_[itemId][EC_FBType.THEATER] or {}
-                for _, levelId in ipairs(drop) do
-                    local theaterLevelCfg = FubenDataMgr:getLevelCfg(levelId)
-                    local levelCfg = FubenDataMgr:getLevelCfg(levelId)
-                    local theaterLevelCfg = FubenDataMgr:getTheaterDungeonLevelCfg(levelId)
-                    local chapterCfg = FubenDataMgr:getChapterCfg(theaterLevelCfg.chapter)
-                    local extraChapterCid = FubenDataMgr:getTheaterExtraChapter(chapterCfg.id)
-                    local levelName = FubenDataMgr:getLevelName(levelId)
-                    local title = TextDataMgr:getText(accessCfg.name)
-                    local desc = TextDataMgr:getText(1420002, title, levelName)
-                    local enabled = FubenDataMgr:checkTheaterLevelEnabled(levelId)
-                    local locked = FubenDataMgr:checkTheaterLevelLocked(levelId)
-                    local levelEnabeld = MainPlayer:getPlayerLv() >= chapterCfg.unlockLevel
-                    local open = enabled and not locked
-                    local jumpId = accessCfg.jumpInterface
-                    local args = {extraChapterCid,levelId}
-                    local foo = self:__makeAccessItem(desc, open, jumpId, args)
-                    table.insert(rets, foo)
-                end
-            end
-        elseif accessType == self.accessType_.THEATER_HARD then
-            if self.fubenDropMap_[itemId] then
-                local drop = self.fubenDropMap_[itemId][EC_FBType.THEATER_HARD] or {}
-                for _, levelId in ipairs(drop) do
-                    local theaterLevelCfg = FubenDataMgr:getLevelCfg(levelId)
-                    local levelCfg = FubenDataMgr:getLevelCfg(levelId)
-                    local theaterLevelCfg = FubenDataMgr:getTheaterDungeonLevelCfg(levelId)
-                    local chapterCfg = FubenDataMgr:getChapterCfg(theaterLevelCfg.chapter)
-
-
-                    local chapter = FubenDataMgr:getTheaterChapter(accessCfg.parameter[1])
-                    local enabled, condEnabled = FubenDataMgr:checkTheaterChapterEnabled(chapter[1])
-
-                    local levelName = FubenDataMgr:getLevelName(levelId)
-                    local title = TextDataMgr:getText(accessCfg.name)
-                    local desc = TextDataMgr:getText(1420002, title, levelName)
-                    local enabled = FubenDataMgr:checkTheaterLevelEnabled(levelId)
-                    local locked = FubenDataMgr:checkTheaterLevelLocked(levelId)
-                    local open = enabled and not locked and condEnabled
-                    local jumpId = accessCfg.jumpInterface
-                    local args = {accessCfg.parameter[1],levelId}
-                    local foo = self:__makeAccessItem(desc, open, jumpId, args)
-                    table.insert(rets, foo)
-                end
-            end
-        elseif accessType == self.accessType_.THEATER_BOSS then
-            local chapter = FubenDataMgr:getChapter(EC_FBType.THEATER_HARD)
-            local chapterCid = chapter[1]
-            local chapterCfg = FubenDataMgr:getChapterCfg(chapterCid)
-            local levelEnable = MainPlayer:getPlayerLv() >= chapterCfg.unlockLevel
-
-            local title = TextDataMgr:getText(accessCfg.name)
-            local info = TextDataMgr:getText(accessCfg.name2)
-            local desc = TextDataMgr:getText(1420002, title, info)
-            local jumpCid = accessCfg.jumpInterface
-            local open = levelEnable
-            local args = accessCfg.parameter
-            local foo = self:__makeAccessItem(desc, open, jumpCid, args)
-            table.insert(rets, foo)
-         elseif accessType == self.accessType_.ACTIVITY then -- 途径是活动界面的 需要检测是否有对应类型活动
-            local addAccess = true
-            local parameter = {}
-            if accessCfg.accessparam ~= "" then
-                addAccess = false
-                local typeList = string.split(accessCfg.accessparam,",")
-                for k,v in pairs(typeList) do
-                    local activityInfos = ActivityDataMgr2:getActivityInfoByType(tonumber(v))
-                    if #activityInfos > 0 then
-                        addAccess = true
-                        parameter = {activityInfos[1]}
-                        break;
-                    end
-                end
-            else
-                parameter = accessCfg.parameter
-            end
-            if addAccess then
+        end
+    elseif accessType == self.accessType_.THEATER then
+        if self.fubenDropMap_[itemId] then
+            local drop = self.fubenDropMap_[itemId][EC_FBType.THEATER] or {}
+            for _, levelId in ipairs(drop) do
+                local theaterLevelCfg = FubenDataMgr:getLevelCfg(levelId)
+                local levelCfg = FubenDataMgr:getLevelCfg(levelId)
+                local theaterLevelCfg = FubenDataMgr:getTheaterDungeonLevelCfg(levelId)
+                local chapterCfg = FubenDataMgr:getChapterCfg(theaterLevelCfg.chapter)
+                local extraChapterCid = FubenDataMgr:getTheaterExtraChapter(chapterCfg.id)
+                local levelName = FubenDataMgr:getLevelName(levelId)
                 local title = TextDataMgr:getText(accessCfg.name)
-                local info = TextDataMgr:getText(accessCfg.name2)
-                local desc = TextDataMgr:getText(1420002, title, info)
-                local jumpCid = accessCfg.jumpInterface
-                local open = self:isOpenByClient(jumpCid)
-                local args = parameter
-                local foo = self:__makeAccessItem(desc, open, jumpCid, args)
+                local desc = TextDataMgr:getText(1420002, title, levelName)
+                local enabled = FubenDataMgr:checkTheaterLevelEnabled(levelId)
+                local locked = FubenDataMgr:checkTheaterLevelLocked(levelId)
+                local levelEnabeld = MainPlayer:getPlayerLv() >= chapterCfg.unlockLevel
+                local open = enabled and not locked
+                local jumpId = accessCfg.jumpInterface
+                local args = {extraChapterCid,levelId}
+                foo = self:__makeAccessItem(desc, open, jumpId, args, accessCfg)
                 table.insert(rets, foo)
             end
-        elseif accessType == self.accessType_.ACTIVITYBYID then -- 途径是活动界面的 需要检测是否有对应类型活动
-            local addAccess = true
-            local parameter = {}
-            if accessCfg.parameter and #accessCfg.parameter > 0 then
-                addAccess = false
-                for k,v in pairs(accessCfg.parameter) do
-                    local activityInfo = ActivityDataMgr2:getActivityInfo(v)
-                    if activityInfo then
-                        addAccess = true
-                        parameter = {v}
-                        break;
-                    end
-                end
-            end
+        end
+    elseif accessType == self.accessType_.THEATER_HARD then
+        if self.fubenDropMap_[itemId] then
+            local drop = self.fubenDropMap_[itemId][EC_FBType.THEATER_HARD] or {}
+            for _, levelId in ipairs(drop) do
+                local theaterLevelCfg = FubenDataMgr:getLevelCfg(levelId)
+                local levelCfg = FubenDataMgr:getLevelCfg(levelId)
+                local theaterLevelCfg = FubenDataMgr:getTheaterDungeonLevelCfg(levelId)
+                local chapterCfg = FubenDataMgr:getChapterCfg(theaterLevelCfg.chapter)
 
-            if addAccess then
+
+                local chapter = FubenDataMgr:getTheaterChapter(accessCfg.parameter[1])
+                local enabled, condEnabled = FubenDataMgr:checkTheaterChapterEnabled(chapter[1])
+
+                local levelName = FubenDataMgr:getLevelName(levelId)
                 local title = TextDataMgr:getText(accessCfg.name)
-                local info = TextDataMgr:getText(accessCfg.name2)
-                local desc = TextDataMgr:getText(1420002, title, info)
-                local jumpCid = accessCfg.jumpInterface
-                local open = self:isOpenByClient(jumpCid)
-                local args = parameter
-                local foo = self:__makeAccessItem(desc, open, jumpCid, args)
+                local desc = TextDataMgr:getText(1420002, title, levelName)
+                local enabled = FubenDataMgr:checkTheaterLevelEnabled(levelId)
+                local locked = FubenDataMgr:checkTheaterLevelLocked(levelId)
+                local open = enabled and not locked and condEnabled
+                local jumpId = accessCfg.jumpInterface
+                local args = {accessCfg.parameter[1],levelId}
+                foo = self:__makeAccessItem(desc, open, jumpId, args, accessCfg)
                 table.insert(rets, foo)
             end
-        elseif accessType == self.accessType_.USEITEM then
-            local args = accessCfg.parameter
-            local count = GoodsDataMgr:getItemCount(args[1])
-            local itemCfg = GoodsDataMgr:getItemCfg(args[1])
-            local itemName = TextDataMgr:getText(itemCfg.nameTextId)
-            local title = TextDataMgr:getText(accessCfg.name)
-            local info = TextDataMgr:getText(accessCfg.name2, itemName)
-            local desc = TextDataMgr:getText(1420002, title, info)
-            local jumpCid = accessCfg.jumpInterface
-            local open = count > 0
-            local foo = self:__makeAccessItem(desc, open, jumpCid, args)
-            table.insert(rets, foo)
+        end
+    elseif accessType == self.accessType_.THEATER_BOSS then
+        local chapter = FubenDataMgr:getChapter(EC_FBType.THEATER_HARD)
+        local chapterCid = chapter[1]
+        local chapterCfg = FubenDataMgr:getChapterCfg(chapterCid)
+        local levelEnable = MainPlayer:getPlayerLv() >= chapterCfg.unlockLevel
+
+        local title = TextDataMgr:getText(accessCfg.name)
+        local info = TextDataMgr:getText(accessCfg.name2)
+        local desc = TextDataMgr:getText(1420002, title, info)
+        local jumpCid = accessCfg.jumpInterface
+        local open = levelEnable
+        local args = accessCfg.parameter
+        foo = self:__makeAccessItem(desc, open, jumpCid, args, accessCfg)
+        table.insert(rets, foo)
+    elseif accessType == self.accessType_.ACTIVITY then -- 途径是活动界面的 需要检测是否有对应类型活动
+        local addAccess = true
+        local parameter = {}
+        if accessCfg.accessparam ~= "" then
+            addAccess = false
+            local typeList = string.split(accessCfg.accessparam,",")
+            for k,v in pairs(typeList) do
+                local activityInfos = ActivityDataMgr2:getActivityInfoByType(tonumber(v))
+                if #activityInfos > 0 then
+                    addAccess = true
+                    parameter = {activityInfos[1]}
+                    break;
+                end
+            end
         else
+            parameter = accessCfg.parameter
+        end
+        if addAccess then
             local title = TextDataMgr:getText(accessCfg.name)
             local info = TextDataMgr:getText(accessCfg.name2)
             local desc = TextDataMgr:getText(1420002, title, info)
             local jumpCid = accessCfg.jumpInterface
             local open = self:isOpenByClient(jumpCid)
-            local args = accessCfg.parameter
-            local foo = self:__makeAccessItem(desc, open, jumpCid, args)
+            local args = parameter
+            foo = self:__makeAccessItem(desc, open, jumpCid, args, accessCfg)
             table.insert(rets, foo)
         end
+    elseif accessType == self.accessType_.ACTIVITYBYID then -- 途径是活动界面的 需要检测是否有对应类型活动
+        local addAccess = true
+        local parameter = {}
+        if accessCfg.parameter and #accessCfg.parameter > 0 then
+            addAccess = false
+            for k,v in pairs(accessCfg.parameter) do
+                local activityInfo = ActivityDataMgr2:getActivityInfo(v)
+                if activityInfo then
+                    addAccess = true
+                    parameter = {v}
+                    break;
+                end
+            end
+        end
+        if addAccess then
+            local title = TextDataMgr:getText(accessCfg.name)
+            local info = TextDataMgr:getText(accessCfg.name2)
+            local desc = TextDataMgr:getText(1420002, title, info)
+            local jumpCid = accessCfg.jumpInterface
+            local open = self:isOpenByClient(jumpCid)
+            local args = parameter
+            foo = self:__makeAccessItem(desc, open, jumpCid, args, accessCfg)
+            table.insert(rets, foo)
+        end
+    elseif accessType == self.accessType_.USEITEM then
+        local args = accessCfg.parameter
+        local count = GoodsDataMgr:getItemCount(args[1])
+        local itemCfg = GoodsDataMgr:getItemCfg(args[1])
+        local itemName = TextDataMgr:getText(itemCfg.nameTextId)
+        local title = TextDataMgr:getText(accessCfg.name)
+        local info = TextDataMgr:getText(accessCfg.name2, itemName)
+        local desc = TextDataMgr:getText(1420002, title, info)
+        local jumpCid = accessCfg.jumpInterface
+        local open = count > 0
+        foo = self:__makeAccessItem(desc, open, jumpCid, args, accessCfg)
+        table.insert(rets, foo)
+    else
+        local title = TextDataMgr:getText(accessCfg.name)
+        local info = TextDataMgr:getText(accessCfg.name2)
+        local desc = TextDataMgr:getText(1420002, title, info)
+        local jumpCid = accessCfg.jumpInterface
+        local open = self:isOpenByClient(jumpCid)
+        local args = accessCfg.parameter
+        foo = self:__makeAccessItem(desc, open, jumpCid, args, accessCfg)
+        table.insert(rets, foo)
+    end
+end
+
+function FunctionDataMgr:getAccess(itemId)
+    local  rets = {}
+    local itemCfg = GoodsDataMgr:getItemCfg(itemId) or {}
+    local accessId = itemCfg.accessId or {}
+    for i, v in ipairs(accessId) do
+        local accessCfg = self.accessMap_[v]
+        self:getAccessItem(rets, accessCfg, itemId)
+    end
+
+    local accessExtData = ActivityDataMgr2:getAccessExtData(itemId)
+    for _, v in pairs(accessExtData) do
+        self:getAccessItem(rets, v, itemId)
     end
     return rets
 end
@@ -640,6 +660,7 @@ function FunctionDataMgr:jActivityByHasActivity(activityShowType, activitId)
 end
 
 function FunctionDataMgr:jActivity3(activitId, activityShowType)
+    if not self:checkFuncOpen(6) then return end
     activityShowType = activityShowType or 3
     self:downloadAssetsBeforeOnEnter(function()
         Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
@@ -647,6 +668,7 @@ function FunctionDataMgr:jActivity3(activitId, activityShowType)
 end
 
 function FunctionDataMgr:jActivity4(activitId, activityShowType)
+    if not self:checkFuncOpen(6) then return end
     activityShowType = activityShowType or 4
     self:downloadAssetsBeforeOnEnter(function()
         Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
@@ -654,6 +676,7 @@ function FunctionDataMgr:jActivity4(activitId, activityShowType)
 end
 
 function FunctionDataMgr:jActivity5(activitId, activityShowType)
+    if not self:checkFuncOpen(6) then return end
     activityShowType = activityShowType or 5
     self:downloadAssetsBeforeOnEnter(function()
         Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
@@ -661,10 +684,26 @@ function FunctionDataMgr:jActivity5(activitId, activityShowType)
 end
 
 function FunctionDataMgr:jActivity6(activitId, activityShowType)
+    if not self:checkFuncOpen(6) then return end
     activityShowType = activityShowType or 6
+
     self:downloadAssetsBeforeOnEnter(function()
-        Utils:openView("activity.ActivityMainView6", activitId, activityShowType)
+        Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
     end)
+end
+
+function FunctionDataMgr:jWorldRoom(roomType)
+    roomType = roomType or WorldRoomType.ZNQ_WORLD
+
+
+    local mapCfg = TabDataMgr:getData("WorldMap",roomType)
+    if mapCfg and not mapCfg.isSingle then
+        TFDirector:send(c2s.NEW_WORLD_REQ_PRE_ENTER_NEW_WORLD,{roomType})
+    elseif mapCfg then
+        WorldRoomDataMgr:enterRoom(roomType)
+    else
+        print("=======配置丢失=======")
+    end
 end
 
 function FunctionDataMgr:jActivity91(activitId, activityShowType)
@@ -679,13 +718,8 @@ function FunctionDataMgr:jActivity1001(activitId, activityShowType)
     end)
 end
 
-function FunctionDataMgr:jWorldRoom(roomType)
-    roomType = roomType or WorldRoomType.ZNQ_WORLD
-    TFDirector:send(c2s.NEW_WORLD_REQ_PRE_ENTER_NEW_WORLD,{roomType})
-end
-
 function FunctionDataMgr:jActivity2(activitId, activityShowType)
-    if not self:checkFuncOpen() then return end
+    if not self:checkFuncOpen(6) then return end
     self:closeChronoCrossOpenedView(activitId)
     activityShowType = activityShowType or 2
 
@@ -695,6 +729,7 @@ function FunctionDataMgr:jActivity2(activitId, activityShowType)
 end
 
 function FunctionDataMgr:jActivity7(activitId, activityShowType)
+    if not self:checkFuncOpen(6) then return end
     activityShowType = activityShowType or 7
 
     self:downloadAssetsBeforeOnEnter(function()
@@ -766,6 +801,10 @@ function FunctionDataMgr:jHeroMain( )
     Utils:openView("fairyNew.FairyMainLayer")
 end
 
+function FunctionDataMgr:jHeroMain( )
+    Utils:openView("fairyNew.FairyMainLayer")
+end
+
 function FunctionDataMgr:jHero()
     if not self:checkFuncOpen() then return end
     HeroDataMgr.showid = HeroDataMgr:getHeroId(1, 1);
@@ -782,10 +821,10 @@ function FunctionDataMgr:jJieJing()
     Utils:openView("fairyNew.FairyDetailsLayer", {showid=HeroDataMgr:getHeroId(1, 1), friend=false, gotoWhichTab = 2})
 end
 
-function FunctionDataMgr:jAngel()
+function FunctionDataMgr:jAngel(...)
     if not self:checkFuncOpen() then return end
     HeroDataMgr.showid = HeroDataMgr:getHeroId(1, 1);
-    Utils:openView("fairyNew.FairyDetailsLayer", {showid=HeroDataMgr:getHeroId(1, 1), friend=false, gotoWhichTab = 4})
+    Utils:openView("fairyNew.FairyDetailsLayer", {showid=HeroDataMgr:getHeroId(1, 1), friend=false, gotoWhichTab = 4, fromView=...})
 end
 
 function FunctionDataMgr:jEquipment()
@@ -944,12 +983,12 @@ function FunctionDataMgr:jSimulationTrial(chapterId)
     end
 end
 
-function FunctionDataMgr:jCollectCGView(tabIndex)
+function FunctionDataMgr:jCollectCGView(...)
 	if CollectDataMgr:checkPageCanEnter(EC_CollectPage.CG) == false then
 		Utils:showTips(241009)
 		return
 	end
-	Utils:openView("collect.CollectCGView", tabIndex)
+	Utils:openView("collect.CollectCGView", ...)
 end
 
 function FunctionDataMgr:jGiftStore()
@@ -1327,12 +1366,10 @@ function FunctionDataMgr:jUnionInvade()
                 Utils:showTips(16000224)
                 return
             end
-
             if not LeagueDataMgr:isPassTimeInWorldBoss() then
                 Utils:showTips(16000221)
                 return 
             end
-
             Utils:openView("league.WorldBossView")
         end
     else
@@ -1643,6 +1680,63 @@ function FunctionDataMgr:jPrivilegeLeague( ... )
     Utils:openView("privilege.PrivilegeLeagueView")
 end
 
+function FunctionDataMgr:jNewYearWishTree()
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.NEWYEAR_WISH)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+
+    local view = requireNew("lua.logic.newYear.WishTree"):new()
+    AlertManager:addLayer(view,AlertManager.BLOCK_CLOSE)
+    AlertManager:show()
+    --Utils:openView("newYear.WishTree")
+end
+
+function FunctionDataMgr:jFireWorkFactory()
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.FIREWORKS_PRODUCT)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+    Utils:openView("activity.2021_spring.FireFactoryView")
+end
+
+function FunctionDataMgr:jNewYearClothStore()
+    Utils:openView("activity.2021_spring.NewspringClothStore")
+end
+
+function FunctionDataMgr:jNewYearStore()
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.STORE)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+    Utils:openView("activity.2021_spring.FireworkStoreView")
+end
+
+function FunctionDataMgr:jNewYearTask()
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.SNOW_FESTIVAL_TASK)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+    Utils:openView("activity.2021_spring.NewyearTaskView")
+end
+
+function FunctionDataMgr:jNewYearBuildRepair()
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.NEWYEAR_BUILDREPAIR)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+
+    local view = requireNew("lua.logic.newYear.BuildRepairView"):new()
+    AlertManager:addLayer(view,AlertManager.BLOCK_CLOSE)
+    AlertManager:show()
+
+end
+
 function FunctionDataMgr:jPersonInfoBase( index )
     -- body
     if Utils:checkInWorldRoomScene(WorldRoomType.ZNQ_WORLD) then
@@ -1707,6 +1801,26 @@ function FunctionDataMgr:getModifyFuncIsOpen( ... )
         return not info.openWelfare
     end
     return true
+end
+
+function FunctionDataMgr:jGuessWord2021( ... )
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.GUESS_WORD)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+    ActivityDataMgr2:SEND_ACTIVITY2_REQ_RIDDLE_DATA()
+end
+
+function FunctionDataMgr:jNianshou2021()
+    local levelCfg = TabDataMgr:getData("NewYearBeast2021",291135)
+    local closeTime = Utils:getTimeByDate(levelCfg.closeTime)
+    local serverTime = ServerDataMgr:getServerTime()
+    if closeTime <= serverTime then
+        Utils:showTips(1890001)
+        return
+    end
+    Utils:openView("activity.2021_spring.NianShouChallegeView")
 end
 
 return FunctionDataMgr:new()

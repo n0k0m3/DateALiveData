@@ -214,7 +214,7 @@ local t =
 										PositionX = -177,
 										PositionY = 218,
 									},
-									width = "124",
+									width = "141",
 									ZOrder = "1",
 								},
 								{

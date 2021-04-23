@@ -177,7 +177,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "飞舰背包",
+									text = "공중함 인벤토리",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -185,7 +185,7 @@ local t =
 										PositionX = -351,
 										PositionY = 182,
 									},
-									width = "114",
+									width = "184",
 									ZOrder = "1",
 								},
 								{
@@ -301,7 +301,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -317,7 +317,6 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "0",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -365,7 +364,6 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "0",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 

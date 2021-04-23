@@ -19,6 +19,7 @@ local eGuideAction       = enum.eGuideAction
 local eEvent             = enum.eEvent
 
 local flightController          = {}
+local this = flightController
 
 local function onSlain(hero)
     if hero:getData().roleType == 1 then
@@ -174,6 +175,11 @@ function flightController.init(data)
     flightController.flightMode = true
     flightController.fixZEye = me.Director:getZEye() * 0.15
     flightController.data      = data
+    this.sysTimeLimit = 1577811661 --2020年1月1日
+    this.sysStartTime = 0  --开始计时节点时间
+    this.sysStopTime = 0   --强制停止计时节点
+    this.sysEndBattleTime = 0  --战斗结束时间点
+
     --flightController.timeLine  = 0
     flightController.timeScale = 1.0
     flightController.offStages = {}
@@ -218,6 +224,19 @@ function flightController.setTiming(bTime)
             flightController.player:fire()
         end
     end
+
+    if EventTrigger:isRunning() then
+        return
+    end
+    if bTime then
+        this.adjustSysStartTime()
+    else
+        if this.sysStartTime > this.sysTimeLimit then
+            this.sysStopTime = BattleUtils.gettime()
+        end
+    end
+    BattleMgr.updatePauseState(not bTime)
+
 end
 function flightController.getGlobalFixZ()
     return flightController.fixZEye --flightController.data.cameraAmend or 0
@@ -315,6 +334,10 @@ function flightController.update(delta)
 
     if flightController.bTiming then
         --flightController.timeLine = flightController.timeLine + delta
+        if this.sysStartTime < this.sysTimeLimit then
+            this.sysStartTime = BattleUtils.gettime()
+        end
+
         statistics.update(delta)
         victoryDecide.update(delta)
     end
@@ -433,6 +456,7 @@ function flightController.endBattle(result)
     end
     flightController.focusNode = nil
     flightController.bTiming = false
+    this.sysEndBattleTime = BattleUtils.gettime()
     victoryDecide.clear()
     KeyStateMgr.setEnable(false)
     FlightBrushMonster.stop()
@@ -475,6 +499,7 @@ function flightController.exitBattle()
     flightController.started = false
     flightController.focusNode = nil
     flightController.bTiming = false
+    this.sysEndBattleTime = BattleUtils.gettime()
     BulletCache:Stop()
     BulletCache:Dispose(true)
     flightController.forceCleanStage()
@@ -512,6 +537,9 @@ end
 
 function flightController.clear()
     flightController.bStart = nil
+    this.sysStartTime = 0
+    this.sysStopTime = 0
+    this.sysEndBattleTime = 0
     ObjectPool.eraseAll()
 end
 
@@ -567,5 +595,56 @@ end
 function flightController.onCreateObstacle(refreshCfg,params)
 
 end
+
+--真实操作时间（暂停 剧情中断时间除外）
+function flightController.getControlPassTime()
+    if this.sysStartTime < this.sysTimeLimit then
+        return 0
+    end
+    if this.sysEndBattleTime > 0 then
+        return this.sysEndBattleTime - this.sysStartTime
+    end
+    return BattleUtils.gettime() - this.sysStartTime
+end
+
+function flightController.getStopTime()
+    return this.sysStopTime
+end
+
+function flightController.pauseOrResume(isPause)
+     if isPause then
+        if this.sysStopTime > this.sysTimeLimit then
+            return
+        end
+        if this.sysStartTime > this.sysTimeLimit then
+            this.sysStopTime = BattleUtils.gettime()
+        end
+    else
+        this.adjustSysStartTime()
+    end
+    BattleMgr.updatePauseState(isPause)
+end
+
+function flightController.adjustSysStartTime()
+    if this.sysStartTime < this.sysTimeLimit then
+        return
+    end
+    if this.sysStopTime > this.sysTimeLimit then
+        this.sysStartTime = this.sysStartTime + (BattleUtils.gettime() - this.sysStopTime)
+        this.sysStopTime = 0
+    end
+end
+
+--真实操作时间（暂停 剧情中断时间除外）
+function flightController.getControlPassTime()
+    if this.sysStartTime < this.sysTimeLimit then
+        return 0
+    end
+    if this.sysEndBattleTime > 0 then
+        return this.sysEndBattleTime - this.sysStartTime
+    end
+    return BattleUtils.gettime() - this.sysStartTime
+end
+
 
 return flightController

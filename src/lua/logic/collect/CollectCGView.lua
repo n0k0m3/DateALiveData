@@ -1,6 +1,6 @@
 local CollectCGView = class("CollectCGView",BaseLayer)
 
-function CollectCGView:initData(jumpTabIndex)
+function CollectCGView:initData(jumpTabIndex, playId)
 	self.pageUICfg = {}
 	local tmPageUIcfg = CollectDataMgr:getPageUICfg(EC_CollectPage.CG)
 	for k,v in pairs(tmPageUIcfg) do
@@ -10,6 +10,7 @@ function CollectCGView:initData(jumpTabIndex)
 		return a.order < b.order
 	end )
 	self.isActivityCG = false
+	self.playId = playId
 
 	self.jumpTabIndex = jumpTabIndex or 1
 end
@@ -36,6 +37,11 @@ function CollectCGView:initUI(ui)
     self.list_view = UIListView:create(scroll_list)
     self.list_view:setScrollBar(self.collectBaseView.scrollBar)
     self:initBaseUI()
+
+	if self.playId then
+		local cgCfg = CollectDataMgr:getCommonCGCfg(self.playId)
+		self:playCG(cgCfg)
+	end
 end
 
 function CollectCGView:initBaseUI()

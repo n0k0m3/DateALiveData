@@ -1,14 +1,15 @@
 local MemberPrivilegeScan = class("MemberPrivilegeScan", BaseLayer)
 
-function MemberPrivilegeScan:initData()
+function MemberPrivilegeScan:initData(privilegeType)
 
     self.mapPrivilege = {}
+    self.privilegeType = privilegeType
 end
 
-function MemberPrivilegeScan:ctor(...)
+function MemberPrivilegeScan:ctor(privilegeType)
     self.super.ctor(self)
     self:showPopAnim(true)
-    self:initData(...)
+    self:initData(privilegeType)
     self:init("lua.uiconfig.privilege.memberPrivilegeScan")
 end
 

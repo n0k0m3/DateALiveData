@@ -43,9 +43,11 @@ function BalloonInviteView:initUI(ui)
     self.check_one = TFDirector:getChildByPath(ui, "check_one")
     self.check_all = TFDirector:getChildByPath(ui, "check_all")
     self.txt_desc = TFDirector:getChildByPath(ui, "txt_desc")
+    self.txt_desc:setTextById(18000006,self.info.friendName)
+    self.txt_timer = TFDirector:getChildByPath(ui, "txt_timer")
 
     local label_title = TFDirector:getChildByPath(ui, "label_title")
-    label_title:setTextById(13317055)
+    label_title:setTextById(18000015)
 
     local label_btn = TFDirector:getChildByPath(self.check_one, "label_btn")
     label_btn:setTextById(13317032)
@@ -72,7 +74,7 @@ function BalloonInviteView:updateTimeTxt()
     	self:closeHandle()
         return
     end 
-    self.txt_desc:setTextById(13317031, self.info.friendName, diffTime)
+    self.txt_timer:setTextById(13317058, math.floor(diffTime))
 end
 
 function BalloonInviteView:removeTimer()

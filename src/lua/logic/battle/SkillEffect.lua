@@ -692,6 +692,7 @@ function Effect:setPosition3D(x,y,z)
         self.position3D.z = z 
     end
     self:setPosition(self.position3D.x,self.position3D.z)
+
 end
 
 function Effect:setPositionX(x)
@@ -2722,6 +2723,7 @@ function NormalEffect:handlHurt(order)
             end
         end
     end
+
     self:setAlreadyShowHitLine(false)
     --障碍物碰撞判定
     local objects = obstacleMgr:getObjects()

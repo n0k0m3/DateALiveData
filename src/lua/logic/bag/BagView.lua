@@ -834,7 +834,6 @@ function BagView:addGoodsItem()
     foo.limit_icon = limit_icon;
 
     local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-    Panel_goodsItem:setTouchEnabled(false)
     Panel_goodsItem:Pos(0, 0)
     Panel_goodsItem:AddTo(foo.Panel_head)
     foo.Panel_goodsItem = Panel_goodsItem
@@ -855,6 +854,7 @@ function BagView:updateGoodsItem(item, data)
     foo.Panel_aging:hide()
     foo.limit_icon:setVisible(data.outTime)
     PrefabDataMgr:setInfo(foo.Panel_goodsItem, data.id, data.num)
+    foo.Panel_goodsItem:setTouchEnabled(false)
 
     -- 是否装备
     if itemCfg.superType == EC_ResourceType.SPIRIT then
@@ -1806,6 +1806,9 @@ function BagView:removeCountDownTimer()
 end
 
 function BagView:onCountDownPer()
+    if not self.goodsData_ then
+        return
+    end
     local goodsData = self.goodsData_[self.selectIndex_]
     if goodsData == nil then
         return
@@ -2100,8 +2103,10 @@ function BagView:onItemUpdateEvent(oldGoods, goods)
                 end
             end
         else
-            goodsData[index] = GoodsDataMgr:getSingleItem(goodsId)
-            table.insert(needUpdateGoods, index)
+            if index then
+                goodsData[index] = GoodsDataMgr:getSingleItem(goodsId)
+                table.insert(needUpdateGoods, index)
+            end
         end
         for i, v in ipairs(needUpdateGoods) do
             local item = gridView:getItem(v)

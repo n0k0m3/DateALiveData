@@ -1,0 +1,194 @@
+
+snowFes_miniga_win.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guangxian/guangxian1_001
+  rotate: false
+  xy: 825, 10
+  size: 179, 165
+  orig: 357, 331
+  offset: 100, 87
+  index: -1
+images/guangxian/guangxian1_004
+  rotate: true
+  xy: 680, 2
+  size: 173, 143
+  orig: 357, 331
+  offset: 111, 93
+  index: -1
+images/guangxian/guangxian1_006
+  rotate: true
+  xy: 172, 50
+  size: 87, 121
+  orig: 357, 331
+  offset: 142, 111
+  index: -1
+images/lizi/lizi_006
+  rotate: false
+  xy: 693, 471
+  size: 309, 270
+  orig: 357, 331
+  offset: 23, 42
+  index: -1
+images/lizi/lizi_008
+  rotate: false
+  xy: 693, 743
+  size: 324, 279
+  orig: 357, 331
+  offset: 15, 40
+  index: -1
+images/lizi/lizi_010
+  rotate: false
+  xy: 345, 140
+  size: 333, 286
+  orig: 357, 331
+  offset: 10, 37
+  index: -1
+images/lizi/lizi_012
+  rotate: false
+  xy: 2, 139
+  size: 341, 290
+  orig: 357, 331
+  offset: 6, 35
+  index: -1
+images/lizi/lizi_014
+  rotate: false
+  xy: 2, 431
+  size: 345, 293
+  orig: 357, 331
+  offset: 3, 34
+  index: -1
+images/lizi/lizi_016
+  rotate: false
+  xy: 2, 726
+  size: 345, 296
+  orig: 357, 331
+  offset: 3, 33
+  index: -1
+images/lizi/lizi_018
+  rotate: false
+  xy: 349, 726
+  size: 342, 296
+  orig: 357, 331
+  offset: 5, 33
+  index: -1
+images/lizi/lizi_020
+  rotate: false
+  xy: 349, 428
+  size: 332, 296
+  orig: 357, 331
+  offset: 14, 33
+  index: -1
+images/lizi/lizi_022
+  rotate: true
+  xy: 683, 177
+  size: 292, 296
+  orig: 357, 331
+  offset: 50, 33
+  index: -1
+images/xian_000
+  rotate: false
+  xy: 2, 71
+  size: 168, 66
+  orig: 357, 331
+  offset: 104, 117
+  index: -1
+
+snowFes_miniga_win2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_000
+  rotate: false
+  xy: 799, 799
+  size: 212, 212
+  orig: 357, 331
+  offset: 70, 51
+  index: -1
+images/guang1_000
+  rotate: false
+  xy: 2, 9
+  size: 180, 180
+  orig: 357, 331
+  offset: 89, 65
+  index: -1
+images/guang_000
+  rotate: false
+  xy: 279, 730
+  size: 258, 281
+  orig: 279, 300
+  offset: 11, 1
+  index: -1
+images/guangxian/guangxian1_000
+  rotate: true
+  xy: 184, 5
+  size: 184, 164
+  orig: 357, 331
+  offset: 95, 87
+  index: -1
+images/guangxian/guangxian1_002
+  rotate: false
+  xy: 488, 565
+  size: 178, 163
+  orig: 357, 331
+  offset: 101, 89
+  index: -1
+images/guangxian/guangxian1_003
+  rotate: false
+  xy: 260, 324
+  size: 189, 162
+  orig: 357, 331
+  offset: 106, 90
+  index: -1
+images/guangxian/guangxian1_005
+  rotate: false
+  xy: 488, 422
+  size: 151, 141
+  orig: 357, 331
+  offset: 116, 94
+  index: -1
+images/hei_000
+  rotate: false
+  xy: 539, 730
+  size: 258, 281
+  orig: 357, 331
+  offset: 56, 16
+  index: -1
+images/lizi/lizi_000
+  rotate: false
+  xy: 799, 594
+  size: 207, 203
+  orig: 357, 331
+  offset: 77, 70
+  index: -1
+images/lizi/lizi_002
+  rotate: false
+  xy: 2, 191
+  size: 256, 234
+  orig: 357, 331
+  offset: 51, 57
+  index: -1
+images/lizi/lizi_004
+  rotate: true
+  xy: 2, 427
+  size: 287, 256
+  orig: 357, 331
+  offset: 35, 48
+  index: -1
+images/lizi/lizi_024
+  rotate: false
+  xy: 2, 716
+  size: 275, 295
+  orig: 357, 331
+  offset: 50, 34
+  index: -1
+images/yuan_000
+  rotate: false
+  xy: 260, 488
+  size: 226, 226
+  orig: 357, 331
+  offset: 68, 40
+  index: -1

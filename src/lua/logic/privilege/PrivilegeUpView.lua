@@ -3,6 +3,13 @@ local PrivilegeUpView = class("PrivilegeUpView", BaseLayer)
 function PrivilegeUpView:initData()
 
     self.mapPrivilege = {}
+
+    self.privilegeType = 0
+    local activityIds = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.PRIVILEGE_ACTIVITY_DATA)
+    local activityInfo = ActivityDataMgr2:getActivityInfo(activityIds[1])
+    if activityInfo and activityInfo.extendData then
+        self.privilegeType = activityInfo.extendData.type
+    end
 end
 
 function PrivilegeUpView:ctor(...)
@@ -46,11 +53,22 @@ function PrivilegeUpView:initUILogic()
     self:updateMemberShipUpCost()
 end
 
+function PrivilegeUpView:getIndex(cid)
+    local index = 1
+    for k,v in ipairs(self.mapPrivilege) do
+        if v.id == cid then
+            index = k
+            break
+        end
+    end
+    return index
+end
+
 function PrivilegeUpView:loadMemberShipPrivilege()
     self.mapPrivilege = PrivilegeDataMgr:getWishTreeCfg() or {}
     self.oldCid = PrivilegeDataMgr:getWishTreeCid()
     self.TableView_priviledge:reloadData()
-    self:tableViewScrollToCell(self.oldCid)
+    self:tableViewScrollToCell(self:getIndex(self.oldCid))
 end
 
 function PrivilegeUpView:cellSizeForTable()
@@ -168,7 +186,7 @@ function PrivilegeUpView:afterUpMemberShipLv()
 
     self:updateMemberShipUpCost()
     self.TableView_priviledge:reloadData()
-    self:tableViewScrollToCell(self.oldCid,0.3)
+    self:tableViewScrollToCell(self:getIndex(self.oldCid),0.3)
 end
 
 function PrivilegeUpView:playEffect()

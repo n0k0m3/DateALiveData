@@ -57,14 +57,10 @@ function TeamRoomSelectView:initUI(ui)
 
 	self.TextButton_single_match = TFDirector:getChildByPath(self.Panel_level, "TextButton_single_match")
 	self.TextButton_stop_match = TFDirector:getChildByPath(self.Panel_level, "TextButton_stop_match"):hide()
-
-	for i=1,6 do
-		TFDirector:getChildByPath(self.Panel_root, "Button_"..i):hide()
-	end
+	
 	local isHavePrivilege, cfg = RechargeDataMgr:getIsHavePrivilegeByType(101)
 	for k,v in ipairs(self.iconRes) do
         local node = TFDirector:getChildByPath(self.Panel_root, "Button_"..k)
-        node:show()
 		node.Image_select = TFDirector:getChildByPath(node, "Image_select")
         node.Image_select:setVisible(false)
 		node.Image_icon = TFDirector:getChildByPath(node, "Image_icon")

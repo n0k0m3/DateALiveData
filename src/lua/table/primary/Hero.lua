@@ -2,12 +2,6 @@ return {
     [110211] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -18,7 +12,12 @@ return {
                 [2] = 0,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 102,
         callReplenish = 0,
         expitem = {
@@ -28,7 +27,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30241",
         testType = 1,
         pentacle = "icon/system/110210.png",
@@ -137,12 +136,6 @@ return {
     [111601] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -153,7 +146,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 118,
         callReplenish = 0,
         expitem = {
@@ -163,7 +161,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 0,
+        accessdes = 0,
         nameTextId = "31801",
         testType = 0,
         pentacle = "icon/system/111601.png",
@@ -272,12 +270,6 @@ return {
     [110601] = {
         namePic = "icon/hero/namepic/10601.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/712.png",
         class = 1,
         condition = {
@@ -288,7 +280,12 @@ return {
                 [2] = 8,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 106,
         callReplenish = 0,
         expitem = {
@@ -298,7 +295,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30601",
         testType = 0,
         pentacle = "icon/system/110601.png",
@@ -408,12 +405,6 @@ return {
     [110101] = {
         namePic = "icon/hero/namepic/10101.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/711.png",
         class = 2,
         condition = {
@@ -424,7 +415,12 @@ return {
                 [2] = 8,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 101,
         callReplenish = 0,
         expitem = {
@@ -434,7 +430,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30101",
         testType = 0,
         pentacle = "icon/system/110101.png",
@@ -546,12 +542,6 @@ return {
     [110302] = {
         namePic = "icon/hero/namepic/10301.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/713.png",
         class = 1,
         condition = {
@@ -562,7 +552,12 @@ return {
                 [2] = 30,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 103,
         callReplenish = 0,
         expitem = {
@@ -572,7 +567,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30321",
         testType = 0,
         pentacle = "icon/system/110302.png",
@@ -681,12 +676,6 @@ return {
     [112011] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -697,7 +686,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 112,
         callReplenish = 0,
         expitem = {
@@ -707,7 +701,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 0,
+        accessdes = 0,
         nameTextId = "31201",
         testType = 1,
         pentacle = "icon/system/111101.png",
@@ -816,12 +810,6 @@ return {
     [111511] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 2,
         condition = {
@@ -832,7 +820,12 @@ return {
                 [2] = 0,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 115,
         callReplenish = 0,
         expitem = {
@@ -842,7 +835,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "31501",
         testType = 1,
         pentacle = "icon/system/111501.png",
@@ -951,12 +944,6 @@ return {
     [112401] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -967,7 +954,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 124,
         callReplenish = 0,
         expitem = {
@@ -977,7 +969,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 0,
+        accessdes = 0,
         nameTextId = "32241",
         testType = 0,
         pentacle = "icon/system/112401.png",
@@ -1086,12 +1078,6 @@ return {
     [111401] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -1103,7 +1089,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 270801,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 114,
         callReplenish = 0,
         expitem = {
@@ -1113,7 +1104,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 270801,
         nameTextId = "31401",
         testType = 0,
         pentacle = "icon/system/111401.png",
@@ -1222,12 +1213,6 @@ return {
     [110208] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -1238,7 +1223,12 @@ return {
                 [2] = 15,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 102,
         callReplenish = 0,
         expitem = {
@@ -1248,7 +1238,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30221",
         testType = 0,
         pentacle = "icon/system/110208.png",
@@ -1357,12 +1347,6 @@ return {
     [110401] = {
         namePic = "icon/hero/namepic/10401.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/714.png",
         class = 1,
         condition = {
@@ -1373,7 +1357,12 @@ return {
                 [2] = 30,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 104,
         callReplenish = 0,
         expitem = {
@@ -1383,7 +1372,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30401",
         testType = 0,
         pentacle = "icon/system/110401.png",
@@ -1494,12 +1483,6 @@ return {
     [110413] = {
         namePic = "icon/hero/namepic/10401.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/714.png",
         class = 1,
         condition = {
@@ -1510,7 +1493,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 104,
         callReplenish = 0,
         expitem = {
@@ -1520,7 +1508,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "31601",
         testType = 0,
         pentacle = "icon/system/110413.png",
@@ -1629,12 +1617,6 @@ return {
     [110102] = {
         namePic = "icon/hero/namepic/10101.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/711.png",
         class = 2,
         condition = {
@@ -1645,7 +1627,12 @@ return {
                 [2] = 30,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 101,
         callReplenish = 0,
         expitem = {
@@ -1655,7 +1642,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30121",
         testType = 0,
         pentacle = "icon/system/110102.png",
@@ -1764,12 +1751,6 @@ return {
     [112311] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -1780,7 +1761,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 123,
         callReplenish = 0,
         expitem = {
@@ -1790,7 +1776,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 0,
+        accessdes = 0,
         nameTextId = "32201",
         testType = 1,
         pentacle = "icon/system/112301.png",
@@ -1896,15 +1882,143 @@ return {
         weaponType = 4,
         name = 32201,
     },
-    [112701] = {
+    [113201] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
+        color = "ui/715.png",
+        class = 1,
+        condition = {
+        },
+        convert = {
+            [1] = {
+                [1] = 510339,
+                [2] = 60,
+            },
+        },
         back = {
             interval = 0,
             distance = 0,
             trigger = false,
             param = 0,
         },
+        role = 132,
+        callReplenish = 0,
+        expitem = {
+            [1] = 510101,
+            [2] = 510102,
+            [3] = 510103,
+            [4] = 510104,
+            [5] = 510105,
+        },
+        accessdes = 0,
+        nameTextId = "32297",
+        testType = 0,
+        pentacle = "icon/system/113201.png",
+        enName2 = "Rio Sonogami",
+        enName = "",
+        rarity = 5,
+        patrolFar = 100,
+        money = 0,
+        attribute2 = 1243,
+        callLimit = 20,
+        isOpen = 0,
+        color2 = {
+            [1] = 69,
+            [2] = 91,
+            [3] = 141,
+        },
+        site = 42,
+        title = 32299,
+        optionalSkin = {
+            [1] = 1132011,
+        },
+        attrType = 6,
+        floorTime = 0,
+        AngelLevelId = 1251,
+        EnergyBreakLevel = 1241,
+        patrolNear = 10,
+        compose = {
+            [510339] = 120,
+        },
+        soundPic = "icon/hero/Lines/1.png",
+        battleTips = {
+            [1] = 31213,
+            [2] = 31214,
+            [3] = 31215,
+        },
+        cv = "1201015",
+        order = 85,
+        titlePic = "icon/hero/titlepic/10201.png",
+        attackData = 9000,
+        angelWakeCons = {
+            [1] = {
+                [570007] = 100,
+            },
+            [2] = {
+                [570007] = 300,
+            },
+            [3] = {
+                [570007] = 600,
+            },
+            [4] = {
+                [570007] = 1000,
+            },
+        },
+        defenseDate = 5000,
+        code = "1201029",
+        bagType = 1,
+        describe = 32300,
+        bornEffect = 1,
+        attribute = 1243,
+        area = {
+            [1] = -130,
+            [2] = -30,
+            [3] = 260,
+            [4] = 60,
+        },
+        limitArea = 0,
+        paint = 0,
+        enterField = 10000,
+        AngelID = 1136,
+        seedType = 1,
+        summonIcon = "Icon/role/face/up/102.png",
+        bornVideo = {
+            [1] = "video/summon_linxu1.mp4",
+            [2] = "video/summon_linxu2.mp4",
+        },
+        defaultSkin = 1132011,
+        skillPoint = {
+            [1] = {
+                [13] = 0,
+            },
+            [2] = {
+                [13] = 0,
+            },
+            [3] = {
+                [13] = 0,
+            },
+            [4] = {
+                [13] = 0,
+            },
+            [5] = {
+                [13] = 0,
+            },
+        },
+        changeType = false,
+        heroLimitType = 24,
+        quality = 6,
+        label = {
+            [1] = 4,
+            [2] = 5,
+            [3] = 11,
+        },
+        id = 113201,
+        weaponType = 1,
+        name = 32297,
+    },
+    [112701] = {
+        namePic = "icon/hero/namepic/10201.png",
+        superType = 1,
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -1915,7 +2029,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 127,
         callReplenish = 0,
         expitem = {
@@ -1925,7 +2044,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 0,
+        accessdes = 0,
         nameTextId = "32256",
         testType = 0,
         pentacle = "icon/system/112701.png",
@@ -2034,12 +2153,6 @@ return {
     [112201] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -2051,7 +2164,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 270801,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 122,
         callReplenish = 0,
         expitem = {
@@ -2061,7 +2179,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 0,
+        accessdes = 270801,
         nameTextId = "32217",
         testType = 0,
         pentacle = "icon/system/112201.png",
@@ -2170,12 +2288,6 @@ return {
     [111701] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 3,
         condition = {
@@ -2186,7 +2298,12 @@ return {
                 [2] = 30,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 119,
         callReplenish = 0,
         expitem = {
@@ -2196,7 +2313,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 0,
+        accessdes = 0,
         nameTextId = "31901",
         testType = 0,
         pentacle = "icon/system/111701.png",
@@ -2305,12 +2422,6 @@ return {
     [110701] = {
         namePic = "icon/hero/namepic/10701.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/924.png",
         class = 1,
         condition = {
@@ -2321,7 +2432,12 @@ return {
                 [2] = 15,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 107,
         callReplenish = 0,
         expitem = {
@@ -2331,7 +2447,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30701",
         testType = 0,
         pentacle = "icon/system/110701.png",
@@ -2441,12 +2557,6 @@ return {
     [110201] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -2457,7 +2567,12 @@ return {
                 [2] = 5,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 102,
         callReplenish = 0,
         expitem = {
@@ -2467,7 +2582,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30201",
         testType = 0,
         pentacle = "icon/system/110201.png",
@@ -2577,12 +2692,6 @@ return {
     [110209] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -2593,7 +2702,12 @@ return {
                 [2] = 30,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 102,
         callReplenish = 0,
         expitem = {
@@ -2603,7 +2717,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30231",
         testType = 0,
         pentacle = "icon/system/110209.png",
@@ -2712,12 +2826,6 @@ return {
     [110414] = {
         namePic = "icon/hero/namepic/10401.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/714.png",
         class = 1,
         condition = {
@@ -2728,7 +2836,12 @@ return {
                 [2] = 0,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 104,
         callReplenish = 0,
         expitem = {
@@ -2738,7 +2851,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "31601",
         testType = 1,
         pentacle = "icon/system/110413.png",
@@ -2847,12 +2960,6 @@ return {
     [110103] = {
         namePic = "icon/hero/namepic/10101.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/711.png",
         class = 2,
         condition = {
@@ -2863,7 +2970,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 101,
         callReplenish = 0,
         expitem = {
@@ -2873,7 +2985,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30130",
         testType = 0,
         pentacle = "icon/system/110103.png",
@@ -2983,12 +3095,6 @@ return {
     [112501] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -2999,7 +3105,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 125,
         callReplenish = 0,
         expitem = {
@@ -3009,7 +3120,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 0,
+        accessdes = 0,
         nameTextId = "32233",
         testType = 0,
         pentacle = "icon/system/112501.png",
@@ -3118,12 +3229,6 @@ return {
     [112001] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -3134,7 +3239,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 112,
         callReplenish = 0,
         expitem = {
@@ -3144,7 +3254,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "31201",
         testType = 0,
         pentacle = "icon/system/111101.png",
@@ -3253,12 +3363,6 @@ return {
     [111501] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 2,
         condition = {
@@ -3270,7 +3374,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 270801,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 115,
         callReplenish = 0,
         expitem = {
@@ -3280,7 +3389,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 270801,
         nameTextId = "31501",
         testType = 0,
         pentacle = "icon/system/111501.png",
@@ -3389,12 +3498,6 @@ return {
     [111001] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -3405,7 +3508,12 @@ return {
                 [2] = 15,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 110,
         callReplenish = 0,
         expitem = {
@@ -3415,7 +3523,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "31001",
         testType = 0,
         pentacle = "icon/system/111001.png",
@@ -3525,12 +3633,6 @@ return {
     [110501] = {
         namePic = "icon/hero/namepic/10501.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/710.png",
         class = 2,
         condition = {
@@ -3541,7 +3643,12 @@ return {
                 [2] = 30,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 105,
         callReplenish = 0,
         expitem = {
@@ -3551,7 +3658,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30501",
         testType = 0,
         pentacle = "icon/system/110501.png",
@@ -3662,12 +3769,6 @@ return {
     [210103] = {
         namePic = "icon/hero/namepic/10101.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/711.png",
         class = 2,
         condition = {
@@ -3678,7 +3779,12 @@ return {
                 [2] = 8,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 106,
         callReplenish = 0,
         expitem = {
@@ -3688,7 +3794,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "14110437",
         testType = 0,
         pentacle = "icon/system/110101.png",
@@ -3797,12 +3903,6 @@ return {
     [110210] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -3813,7 +3913,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 102,
         callReplenish = 0,
         expitem = {
@@ -3823,7 +3928,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30241",
         testType = 0,
         pentacle = "icon/system/110210.png",
@@ -3933,12 +4038,6 @@ return {
     [111411] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -3949,7 +4048,12 @@ return {
                 [2] = 0,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 114,
         callReplenish = 0,
         expitem = {
@@ -3959,7 +4063,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "31401",
         testType = 1,
         pentacle = "icon/system/111401.png",
@@ -4065,15 +4169,143 @@ return {
         weaponType = 4,
         name = 31401,
     },
-    [112301] = {
+    [112801] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
+        color = "ui/715.png",
+        class = 1,
+        condition = {
+        },
+        convert = {
+            [1] = {
+                [1] = 510336,
+                [2] = 30,
+            },
+        },
         back = {
             interval = 0,
             distance = 0,
             trigger = false,
             param = 0,
         },
+        role = 128,
+        callReplenish = 0,
+        expitem = {
+            [1] = 510101,
+            [2] = 510102,
+            [3] = 510103,
+            [4] = 510104,
+            [5] = 510105,
+        },
+        accessdes = 0,
+        nameTextId = "32264",
+        testType = 0,
+        pentacle = "icon/system/112801.png",
+        enName2 = "Tsang",
+        enName = "Biscuit Smasher ",
+        rarity = 4,
+        patrolFar = 100,
+        money = 0,
+        attribute2 = 1231,
+        callLimit = 1,
+        isOpen = 0,
+        color2 = {
+            [1] = 69,
+            [2] = 91,
+            [3] = 141,
+        },
+        site = 40,
+        title = 32266,
+        optionalSkin = {
+            [1] = 1128011,
+        },
+        attrType = 1,
+        floorTime = 0,
+        AngelLevelId = 1231,
+        EnergyBreakLevel = 1231,
+        patrolNear = 10,
+        compose = {
+            [510336] = 60,
+        },
+        soundPic = "icon/hero/Lines/1.png",
+        battleTips = {
+            [1] = 31213,
+            [2] = 31214,
+            [3] = 31215,
+        },
+        cv = "1201015",
+        order = 85,
+        titlePic = "icon/hero/titlepic/10201.png",
+        attackData = 9000,
+        angelWakeCons = {
+            [1] = {
+                [570013] = 100,
+            },
+            [2] = {
+                [570013] = 300,
+            },
+            [3] = {
+                [570013] = 600,
+            },
+            [4] = {
+                [570013] = 1000,
+            },
+        },
+        defenseDate = 5000,
+        code = "1201027",
+        bagType = 1,
+        describe = 32267,
+        bornEffect = 1,
+        attribute = 1231,
+        area = {
+            [1] = -130,
+            [2] = -30,
+            [3] = 260,
+            [4] = 60,
+        },
+        limitArea = 0,
+        paint = 0,
+        enterField = 10000,
+        AngelID = 1133,
+        seedType = 1,
+        summonIcon = "Icon/role/face/up/102.png",
+        bornVideo = {
+            [1] = "video/summon_cang1.mp4",
+            [2] = "video/summon_cang2.mp4",
+        },
+        defaultSkin = 1128011,
+        skillPoint = {
+            [1] = {
+                [13] = 0,
+            },
+            [2] = {
+                [13] = 0,
+            },
+            [3] = {
+                [13] = 0,
+            },
+            [4] = {
+                [13] = 0,
+            },
+            [5] = {
+                [13] = 0,
+            },
+        },
+        changeType = false,
+        heroLimitType = 22,
+        quality = 6,
+        label = {
+            [1] = 4,
+            [2] = 5,
+            [3] = 11,
+        },
+        id = 112801,
+        weaponType = 1,
+        name = 32264,
+    },
+    [112301] = {
+        namePic = "icon/hero/namepic/10201.png",
+        superType = 1,
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -4085,7 +4317,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 270801,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 123,
         callReplenish = 0,
         expitem = {
@@ -4095,7 +4332,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 0,
+        accessdes = 270801,
         nameTextId = "32201",
         testType = 0,
         pentacle = "icon/system/112301.png",
@@ -4204,12 +4441,6 @@ return {
     [111301] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 3,
         condition = {
@@ -4220,7 +4451,12 @@ return {
                 [2] = 30,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 113,
         callReplenish = 0,
         expitem = {
@@ -4230,7 +4466,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "31301",
         testType = 0,
         pentacle = "icon/system/111301.png",
@@ -4241,7 +4477,7 @@ return {
         money = 0,
         attribute2 = 1131,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -4339,12 +4575,6 @@ return {
     [110801] = {
         namePic = "icon/hero/namepic/10801.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/923.png",
         class = 1,
         condition = {
@@ -4355,7 +4585,12 @@ return {
                 [2] = 15,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 108,
         callReplenish = 0,
         expitem = {
@@ -4365,7 +4600,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30801",
         testType = 0,
         pentacle = "icon/system/110801.png",
@@ -4475,12 +4710,6 @@ return {
     [110301] = {
         namePic = "icon/hero/namepic/10301.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/713.png",
         class = 3,
         condition = {
@@ -4491,7 +4720,12 @@ return {
                 [2] = 5,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 103,
         callReplenish = 0,
         expitem = {
@@ -4501,7 +4735,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30301",
         testType = 0,
         pentacle = "icon/system/110301.png",
@@ -4610,12 +4844,6 @@ return {
     [210102] = {
         namePic = "icon/hero/namepic/10101.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/711.png",
         class = 2,
         condition = {
@@ -4626,7 +4854,12 @@ return {
                 [2] = 8,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 106,
         callReplenish = 0,
         expitem = {
@@ -4636,7 +4869,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "14110436",
         testType = 0,
         pentacle = "icon/system/110101.png",
@@ -4745,12 +4978,6 @@ return {
     [210101] = {
         namePic = "icon/hero/namepic/10101.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/711.png",
         class = 2,
         condition = {
@@ -4761,7 +4988,12 @@ return {
                 [2] = 8,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 106,
         callReplenish = 0,
         expitem = {
@@ -4771,7 +5003,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "14110435",
         testType = 0,
         pentacle = "icon/system/110101.png",
@@ -4877,15 +5109,143 @@ return {
         weaponType = 1,
         name = 14110435,
     },
-    [111611] = {
+    [113301] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
+        color = "ui/715.png",
+        class = 1,
+        condition = {
+        },
+        convert = {
+            [1] = {
+                [1] = 510338,
+                [2] = 60,
+            },
+        },
         back = {
             interval = 0,
             distance = 0,
             trigger = false,
             param = 0,
         },
+        role = 133,
+        callReplenish = 1,
+        expitem = {
+            [1] = 510101,
+            [2] = 510102,
+            [3] = 510103,
+            [4] = 510104,
+            [5] = 510105,
+        },
+        accessdes = 0,
+        nameTextId = "32289",
+        testType = 0,
+        pentacle = "icon/system/113301.png",
+        enName2 = "Ruler",
+        enName = "",
+        rarity = 5,
+        patrolFar = 100,
+        money = 0,
+        attribute2 = 1242,
+        callLimit = 3,
+        isOpen = 0,
+        color2 = {
+            [1] = 69,
+            [2] = 91,
+            [3] = 141,
+        },
+        site = 43,
+        title = 32291,
+        optionalSkin = {
+            [1] = 1133011,
+        },
+        attrType = 6,
+        floorTime = 0,
+        AngelLevelId = 1242,
+        EnergyBreakLevel = 1242,
+        patrolNear = 10,
+        compose = {
+            [510338] = 120,
+        },
+        soundPic = "icon/hero/Lines/1.png",
+        battleTips = {
+            [1] = 31213,
+            [2] = 31214,
+            [3] = 31215,
+        },
+        cv = "1201015",
+        order = 85,
+        titlePic = "icon/hero/titlepic/10201.png",
+        attackData = 9000,
+        angelWakeCons = {
+            [1] = {
+                [570007] = 100,
+            },
+            [2] = {
+                [570007] = 300,
+            },
+            [3] = {
+                [570007] = 600,
+            },
+            [4] = {
+                [570007] = 1000,
+            },
+        },
+        defenseDate = 5000,
+        code = "1201030",
+        bagType = 1,
+        describe = 32292,
+        bornEffect = 1,
+        attribute = 1242,
+        area = {
+            [1] = -130,
+            [2] = -30,
+            [3] = 260,
+            [4] = 60,
+        },
+        limitArea = 0,
+        paint = 0,
+        enterField = 10000,
+        AngelID = 1135,
+        seedType = 1,
+        summonIcon = "Icon/role/face/up/102.png",
+        bornVideo = {
+            [1] = "video/summon_linmi1.mp4",
+            [2] = "video/summon_linmi2.mp4",
+        },
+        defaultSkin = 1133011,
+        skillPoint = {
+            [1] = {
+                [13] = 0,
+            },
+            [2] = {
+                [13] = 0,
+            },
+            [3] = {
+                [13] = 0,
+            },
+            [4] = {
+                [13] = 0,
+            },
+            [5] = {
+                [13] = 0,
+            },
+        },
+        changeType = false,
+        heroLimitType = 24,
+        quality = 6,
+        label = {
+            [1] = 4,
+            [2] = 5,
+            [3] = 11,
+        },
+        id = 113301,
+        weaponType = 1,
+        name = 32289,
+    },
+    [111611] = {
+        namePic = "icon/hero/namepic/10201.png",
+        superType = 1,
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -4896,7 +5256,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 118,
         callReplenish = 0,
         expitem = {
@@ -4906,7 +5271,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 0,
+        accessdes = 0,
         nameTextId = "31801",
         testType = 1,
         pentacle = "icon/system/111601.png",
@@ -5015,12 +5380,6 @@ return {
     [112211] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -5031,7 +5390,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 122,
         callReplenish = 0,
         expitem = {
@@ -5041,7 +5405,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 0,
+        accessdes = 0,
         nameTextId = "32217",
         testType = 1,
         pentacle = "icon/system/112201.png",
@@ -5150,12 +5514,6 @@ return {
     [110113] = {
         namePic = "icon/hero/namepic/10101.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/711.png",
         class = 2,
         condition = {
@@ -5166,7 +5524,12 @@ return {
                 [2] = 0,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 101,
         callReplenish = 0,
         expitem = {
@@ -5176,7 +5539,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30130",
         testType = 1,
         pentacle = "icon/system/110103.png",
@@ -5285,12 +5648,6 @@ return {
     [113101] = {
         namePic = "icon/hero/namepic/10201.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/715.png",
         class = 1,
         condition = {
@@ -5301,7 +5658,12 @@ return {
                 [2] = 60,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 131,
         callReplenish = 0,
         expitem = {
@@ -5311,7 +5673,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 0,
+        accessdes = 0,
         nameTextId = "32280",
         testType = 0,
         pentacle = "icon/system/113101.png",
@@ -5420,12 +5782,6 @@ return {
     [110602] = {
         namePic = "icon/hero/namepic/10601.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/712.png",
         class = 1,
         condition = {
@@ -5436,7 +5792,12 @@ return {
                 [2] = 15,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 106,
         callReplenish = 0,
         expitem = {
@@ -5446,7 +5807,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30604",
         testType = 0,
         pentacle = "icon/system/110602.png",
@@ -5555,12 +5916,6 @@ return {
     [110901] = {
         namePic = "icon/hero/namepic/10101.png",
         superType = 1,
-        back = {
-            interval = 0,
-            distance = 0,
-            trigger = false,
-            param = 0,
-        },
         color = "ui/711.png",
         class = 2,
         condition = {
@@ -5571,7 +5926,12 @@ return {
                 [2] = 30,
             },
         },
-        accessdes = 0,
+        back = {
+            interval = 0,
+            distance = 0,
+            trigger = false,
+            param = 0,
+        },
         role = 109,
         callReplenish = 0,
         expitem = {
@@ -5581,7 +5941,7 @@ return {
             [4] = 510104,
             [5] = 510105,
         },
-        magicAttribute = 9,
+        accessdes = 0,
         nameTextId = "30901",
         testType = 0,
         pentacle = "icon/system/110901.png",

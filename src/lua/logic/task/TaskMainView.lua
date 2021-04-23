@@ -325,7 +325,7 @@ function TaskMainView:showMainTask()
                     local levelId = taskCfg.finishParams["dunId"]
                     FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, levelId)
                 else
-                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface)
+                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
                 end
         end)
 
@@ -591,7 +591,7 @@ function TaskMainView:showDailyTask()
                     local levelId = taskCfg.finishParams["dunId"]
                     FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, levelId)
                 else
-                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface)
+                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
                 end
         end)
 
@@ -603,9 +603,15 @@ function TaskMainView:showDailyTask()
 
     for i, v in ipairs(self.activeItem_) do
         local taskInfo = TaskDataMgr:getTaskInfo(self.activeTask_[i])
-        v.Panel_geted:setVisible(taskInfo.status == EC_TaskStatus.GETED)
-        v.Panel_canGet:setVisible(taskInfo.status == EC_TaskStatus.GET)
-        v.Panel_notGet:setVisible(taskInfo.status == EC_TaskStatus.ING)
+        if taskInfo then
+            v.Panel_geted:setVisible(taskInfo.status == EC_TaskStatus.GETED)
+            v.Panel_canGet:setVisible(taskInfo.status == EC_TaskStatus.GET)
+            v.Panel_notGet:setVisible(taskInfo.status == EC_TaskStatus.ING)
+        else
+            v.Panel_geted:setVisible(true)
+            v.Panel_canGet:setVisible(false)
+            v.Panel_notGet:setVisible(false)
+        end
     end
 
 
@@ -684,7 +690,7 @@ function TaskMainView:updateHonorTaskItem(item, taskCid)
                 local levelId = taskCfg.finishParams["dunId"]
                 FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, levelId)
             else
-                FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface)
+                FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
             end
     end)
 
@@ -772,7 +778,7 @@ function TaskMainView:showActivityTask()
                     local levelId = taskCfg.finishParams["dunId"]
                     FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, levelId)
                 else
-                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface)
+                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
                 end
         end)
 
@@ -1001,6 +1007,9 @@ end
 function TaskMainView:updateTrainingTime()
     local serverTime = ServerDataMgr:getServerTime()
     local activityInfo = ActivityDataMgr2:getWarOrderAcrivityInfo()
+    if activityInfo == nil then
+        return
+    end
     local isEnd = serverTime > activityInfo.endTime
     local remainTime
     if isEnd then
@@ -1090,6 +1099,9 @@ function TaskMainView:updateTrainingTask()
         foo.idx = loadIndex
         local progressInfo = ActivityDataMgr2:getProgressInfo(self.warOrderActivity.activityType, self.trainingTaskData[foo.idx])
         local itemInfo = ActivityDataMgr2:getItemInfo(self.warOrderActivity.activityType, self.trainingTaskData[foo.idx])
+        if not itemInfo then
+            return
+        end
         foo.Image_diban:setTexture("ui/task/training/ui_019.png")
         foo.Label_reset_tips:setText("")
         foo.Label_name:setColor(ccc3(48,61,153))
@@ -1137,7 +1149,7 @@ function TaskMainView:updateTrainingTask()
 
         foo.Button_goto:setVisible(isIng and itemInfo.extendData.jumpInterface and itemInfo.extendData.jumpInterface ~= 0)
         foo.Button_goto:onClick(function()
-           FunctionDataMgr:enterByFuncId(itemInfo.extendData.jumpInterface)
+            FunctionDataMgr:enterByFuncId(itemInfo.extendData.jumpInterface)
         end)
 
         local fadeInDuration = 0.2

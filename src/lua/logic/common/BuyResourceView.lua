@@ -98,8 +98,14 @@ function BuyResourceView:registerEvents()
     end)
 end
 
-function BuyResourceView:onBuyResourceEvent()
-    Utils:showReward({{id = self.itemRecoverCfg_.item_id, num = self.cost.targetNum}})
+function BuyResourceView:onBuyResourceEvent(id, count, rewards)
+    local rewardData = nil
+    if rewards and table.count(rewards) > 0 then
+        rewardData = rewards
+    else
+        rewardData = {{id = self.itemRecoverCfg_.item_id, num = self.cost.targetNum}}
+    end
+    Utils:showReward(rewardData)
     AlertManager:closeLayer(self)
 end
 

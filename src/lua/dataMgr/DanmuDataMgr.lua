@@ -85,6 +85,7 @@ function DanmuDataMgr:onSendDanmuRsp( event )
 	local index = self.index[data.type] or #self.allDanmuData[data.type]
 	table.insert(self.allDanmuData[data.type],index,{playerName = MainPlayer:getPlayerName(),content = data.content, sendTime = ServerDataMgr:getServerTime(), showType = danmuCfg.selfShowType})
 
+	EventMgr:dispatchEvent(EV_DANMU_AFTER_SEND,data.type)
 end
 
 function DanmuDataMgr:onRecvDanmuData(event)
@@ -195,7 +196,7 @@ end
 
 ---datingScriptId:optional
 function DanmuDataMgr:sendDanmu(type, text, datingScriptId)
-	if not text or text == "" then return end 
+	if not text or text == "" then return end
 	TFDirector:send(c2s.CHAT_REQ_SEND_BULLET_SCREEN,{text,type,datingScriptId})
 end
 

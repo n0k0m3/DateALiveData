@@ -213,7 +213,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "2",
+											height = "40",
 											ignoreSize = "True",
 											name = "Image_fubenEndlessView_1",
 											sizepercentx = "0",
@@ -226,7 +226,7 @@ local t =
 											{
 												PositionX = -76,
 											},
-											width = "2",
+											width = "40",
 											ZOrder = "1",
 										},
 										{
@@ -2228,11 +2228,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "58",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_myContribution",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -2242,10 +2242,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -407,
+								PositionX = -372,
 								PositionY = -287,
 							},
-							width = "104",
+							width = "176",
 							ZOrder = "1",
 							components = 
 							{
@@ -2269,14 +2269,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_myContribution_title",
 									nTextAlign = "1",
@@ -2292,7 +2292,7 @@ local t =
 									{
 										PositionY = 12,
 									},
-									width = "137",
+									width = "165",
 									ZOrder = "1",
 								},
 								{

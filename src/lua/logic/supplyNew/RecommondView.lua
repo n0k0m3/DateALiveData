@@ -53,6 +53,7 @@ end
 function RecommondView:registerEvents()
     EventMgr:addEventListener(self,EV_RECHARGE_UPDATE,handler(self.updateContentView, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_SUBMIT_SUCCESS, handler(self.onSubmitSuccessEvent, self))
+    EventMgr:addEventListener(self, EV_TASK_RECEIVE, handler(self.onTaskReceiveEvent, self))
 end
 
 function RecommondView:onSubmitSuccessEvent(activitId, itemId, reward)
@@ -63,6 +64,13 @@ function RecommondView:onSubmitSuccessEvent(activitId, itemId, reward)
             self:updateContentView()
         end, 0.3)
     end
+end
+
+function RecommondView:onTaskReceiveEvent(reward)
+    Utils:showReward(reward)
+    self:timeOut(function()
+        self:updateContentView()
+    end, 0.3)
 end
 
 function RecommondView:updateContentView()
@@ -85,13 +93,32 @@ function RecommondView:updateContentView()
             end
             if itemInfo then
                 progressInfo = ActivityDataMgr2:getProgressInfo(warOrderActivity.activityType, itemInfo.id)
-                if progressInfo.status == EC_TaskStatus.GET or progressInfo.status == EC_TaskStatus.GETED then
+                if progressInfo and (progressInfo.status == EC_TaskStatus.GET or progressInfo.status == EC_TaskStatus.GETED) then
                     itemInfo.item = {} 
                     for _id, _num in pairs(itemInfo.reward) do
-                        table.insert(itemInfo.item,{id = _id, num = _num})
+                        table.insert(itemInfo.item, {id = _id, num = _num})
                     end
                     table.insert(giftData, itemInfo)
                 end
+            end
+        end
+    end
+
+    if self.data.id == 4 then  -- 培养专区
+        local taskList = TaskDataMgr:getTask(EC_TaskType.DAY_GETAWARD)
+        for i, v in ipairs(taskList) do
+            local tempTab = {}
+            local taskCfg = TaskDataMgr:getTaskCfg(v)
+            local taskInfo = TaskDataMgr:getTaskInfo(v)
+            if taskInfo and (taskInfo.status == EC_TaskStatus.GET or taskInfo.status == EC_TaskStatus.GETED) then
+                tempTab.id = v
+                tempTab.taskCfg = taskCfg
+                tempTab.taskInfo = taskInfo
+                tempTab.item = {}
+                for i, _data in ipairs(taskCfg.reward) do
+                    table.insert(tempTab.item, {id = _data[1], num = _data[2]})
+                end
+                table.insert( giftData, 1, tempTab)
             end
         end
     end
@@ -142,33 +169,58 @@ function RecommondView:updateGiftItem(item, data)
     local Label_num = TFDirector:getChildByPath(item,"Label_num")
     local img_countBg = TFDirector:getChildByPath(item,"img_countBg")
     local Label_countdown = TFDirector:getChildByPath(img_countBg,"Label_countdown")
+    local Label_txt = TFDirector:getChildByPath(Button_get,"Label_txt")
     
-    if not data.rechargeCfg and self.data.id == 5 then
-        local warOrderActivity = ActivityDataMgr2:getWarOrderAcrivityInfo()
-        local progressInfo = ActivityDataMgr2:getProgressInfo(warOrderActivity.activityType, data.id)
+    if not data.rechargeCfg then
+        if self.data.id == 5 then
+            local warOrderActivity = ActivityDataMgr2:getWarOrderAcrivityInfo()
+            local progressInfo = ActivityDataMgr2:getProgressInfo(warOrderActivity.activityType, data.id)
 
-        local Label_price = TFDirector:getChildByPath(item,"Label_price")
-        local Label_txt = TFDirector:getChildByPath(Button_get,"Label_txt")
-        Label_desc:hide()
-        img_countBg:setVisible(false)
-        Button_buy:setVisible(false)
-        Button_get:show()
-        Label_num:setTextById(data.details)
-        local isReceive = progressInfo.status == EC_TaskStatus.GET
-        local isGeted = progressInfo.status == EC_TaskStatus.GETED
-        if isReceive then
-            Label_txt:setTextById(1820002)
-        else
-            Label_txt:setTextById(1300015)
+            Label_desc:hide()
+            img_countBg:setVisible(false)
+            Button_buy:setVisible(false)
+            Button_get:show()
+            Label_num:setTextById(data.details)
+            local isReceive = progressInfo.status == EC_TaskStatus.GET
+            local isGeted = progressInfo.status == EC_TaskStatus.GETED
+            if isReceive then
+                Label_txt:setTextById(1820002)
+            else
+                Label_txt:setTextById(1300015)
+            end
+
+            Button_get:setGrayEnabled(isGeted)
+            Button_get:setTouchEnabled(not isGeted)
+
+            Button_get:onClick(function()
+                ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(warOrderActivity.id, data.id)
+            end)
+            return
         end
 
-        Button_get:setGrayEnabled(isGeted)
-        Button_get:setTouchEnabled(not isGeted)
+        if self.data.id == 4 then
+            local progressInfo = data.taskInfo
+            Label_desc:setTextById(data.taskCfg.des)
+            img_countBg:setVisible(false)
+            Button_buy:setVisible(false)
+            Button_get:show()
+            Label_num:setTextById(tonumber(data.taskCfg.name))
+            local isReceive = progressInfo.status == EC_TaskStatus.GET
+            local isGeted = progressInfo.status == EC_TaskStatus.GETED
+            if isReceive then
+                Label_txt:setTextById(1820002)
+            else
+                Label_txt:setTextById(1300015)
+            end
 
-        Button_get:onClick(function()
-            ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(warOrderActivity.id, data.id)
-        end)
-        return
+            Button_get:setGrayEnabled(isGeted)
+            Button_get:setTouchEnabled(not isGeted)
+
+            Button_get:onClick(function()
+                TaskDataMgr:send_TASK_SUBMIT_TASK(data.id)
+            end)
+            return
+        end
     end
 
     local Label_price    = TFDirector:getChildByPath(item,"Label_price")
@@ -179,10 +231,15 @@ function RecommondView:updateGiftItem(item, data)
         Label_price.oldPos  = Label_price:getPosition()
     end
     Label_price:setString("￥"..data.rechargeCfg.price)
-
-    if data.discount and data.discount ~= "" then
+    
+    local jsonData = nil
+    if data.extendData then
+        jsonData = Json.decode(data.extendData)
+    end
+    if jsonData and jsonData.discount and jsonData.discount ~= "" then
         Label_oldPriceLine:setVisible(true)
-        Label_oldPrice:setText(data.discount)
+        Label_oldPrice:setText(jsonData.discount)
+        Label_price:setPositionY(Label_price.oldPos.y)
     else
         Label_oldPriceLine:setVisible(false)
         Label_price:setPositionY(Label_price.oldPos.y - 10)
@@ -364,6 +421,16 @@ function RecommondView:updateCellItem(item, data, canTouch, posY)
 			end
 		end
 	end
+end
+
+function RecommondView:removeEvents()
+    self:removeCountDownTimer()
+end
+
+function RecommondView:removeCountDownTimer()
+    if self.countDownTimer_ then
+        TFDirector:removeTimer(self.countDownTimer_)
+    end
 end
 
 function RecommondView:refreshView()

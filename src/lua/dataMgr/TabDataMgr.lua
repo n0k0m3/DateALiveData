@@ -80,9 +80,9 @@ function TabDataMgr:getData(name, id)
             Box(errMsg..tostring(debug.traceback()))
             return
         elseif not self.tabData_[name][id] then
-            local errMsg = string.format("TabDataMgr:getData table=%s id=%s data is nil!",tostring(name),tostring(id))
-            Bugly:ReportLuaException(errMsg)
-            if id > 0 then
+            if id > 0 then -- 避免默认值id 为0,或小于0 取不到提交报错信息
+                local errMsg = string.format("TabDataMgr:getData table=%s id=%s data is nil!",tostring(name),tostring(id))
+                Bugly:ReportLuaException(errMsg)
                 Box(errMsg..tostring(debug.traceback()))
             end
             return

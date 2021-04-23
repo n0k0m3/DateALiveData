@@ -373,11 +373,19 @@ function NewCityDataMgr:sendStartEntranceEvent(entranceid)
     --required int32 datingType = 1; //约会类型1 外传 2 主线
     --required int32 entranceId = 2; //入口id
     --required int32 datingValue = 3; //当类型为外传时,值传外传ID,主线则为主线章节
+    if not entranceid then
+        return
+    end
     self.tmpScriptSettlement = {}
     self:setCurEntranceId(entranceid)
+    local datingValue = self:getDatingValue()
+    if not datingValue then
+        return
+    end
+
     local msg = {
         self.curDatingCityType,
-        self:getDatingValue(),
+        datingValue,
         entranceid,
     }
     TFDirector:send(c2s.EXTRA_DATING_REQ_START_ENTRANCE_EVENT, msg)

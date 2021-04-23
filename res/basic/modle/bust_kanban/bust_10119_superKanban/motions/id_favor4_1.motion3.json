@@ -5,9 +5,9 @@
 		"Fps": 30.0,
 		"Loop": true,
 		"AreBeziersRestricted": true,
-		"CurveCount": 82,
-		"TotalSegmentCount": 310,
-		"TotalPointCount": 990,
+		"CurveCount": 98,
+		"TotalSegmentCount": 321,
+		"TotalPointCount": 1023,
 		"UserDataCount": 0,
 		"TotalUserDataSize": 0
 	},
@@ -1932,59 +1932,22 @@
 				0,
 				0,
 				1,
-				0.067,
+				0.122,
 				0,
-				0.133,
+				0.244,
 				0,
-				0.2,
+				0.367,
 				0,
-				1,
-				0.3,
-				0,
+				2,
 				0.4,
 				1,
-				0.5,
+				2,
+				3.033,
 				1,
-				1,
-				0.567,
-				1,
-				0.633,
-				1,
-				0.7,
-				1,
-				1,
-				0.833,
-				1,
-				0.967,
-				1,
-				1.1,
-				1,
-				1,
-				1.189,
-				1,
-				1.278,
-				1,
-				1.367,
-				1,
-				1,
-				1.944,
-				1,
-				2.522,
-				1,
-				3.1,
-				1,
-				1,
-				3.156,
-				1,
-				3.211,
+				2,
+				3.067,
 				0,
-				3.267,
-				0,
-				1,
-				3.367,
-				0,
-				3.467,
-				0,
+				2,
 				3.567,
 				0
 			]
@@ -1996,52 +1959,22 @@
 				0,
 				1,
 				1,
-				0.089,
+				0.122,
 				1,
-				0.178,
-				0.741,
-				0.267,
-				0.316,
+				0.244,
 				1,
-				0.322,
-				0.051,
-				0.378,
-				-0.4,
-				0.433,
-				-0.4,
+				0.367,
 				1,
-				0.522,
+				2,
+				0.4,
 				-0.4,
-				0.611,
+				2,
+				3.033,
 				-0.4,
-				0.7,
-				-0.4,
+				2,
+				3.067,
 				1,
-				0.833,
-				-0.4,
-				0.967,
-				-0.4,
-				1.1,
-				-0.4,
-				1,
-				1.189,
-				-0.4,
-				1.278,
-				-0.4,
-				1.367,
-				-0.4,
-				1,
-				2.011,
-				-0.4,
-				2.656,
-				-0.4,
-				3.3,
-				-0.4,
-				1,
-				3.389,
-				-0.4,
-				3.478,
-				1,
+				2,
 				3.567,
 				1
 			]
@@ -2311,6 +2244,21 @@
 		},
 		{
 			"Target": "Parameter",
+			"Id": "PARAM_BACK_L_02",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
 			"Id": "PARAM_HAIR_SIDE_R",
 			"Segments": [
 				0,
@@ -2372,6 +2320,216 @@
 		{
 			"Target": "Parameter",
 			"Id": "PARAM_HAIR_BACK_R_04",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_05",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_06",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_07",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_08",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_09",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_10",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_11",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_12",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_13",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_14",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_15",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_16",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_17",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAIR_BACK_R_18",
 			"Segments": [
 				0,
 				0,
@@ -2522,6 +2680,21 @@
 		{
 			"Target": "Parameter",
 			"Id": "PARAM_lock2",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.189,
+				0,
+				2.378,
+				0,
+				3.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_qunzishuai",
 			"Segments": [
 				0,
 				0,

@@ -73,19 +73,21 @@ function NewDatingDayView:refreshPanelInfo()
     Image_lock.title = TFDirector:getChildByPath(Image_lock, "Label_title")
     local Label_des = TFDirector:getChildByPath(self.Panel_info, "Label_des")
 
-    if data.buildDes then
-        Label_des:setTextById(data.buildDes)
-    end
+    if data then
+        if data.buildDes then
+            Label_des:setTextById(data.buildDes)
+        end
 
-    local nameStr = ""
-    if data.titleName and data.titleName ~= 0 then
-        nameStr = TextDataMgr:getTextAttr(data.titleName).text
-    else
-        nameStr = TextDataMgr:getTextAttr(data.nameId).text
-    end
-    Label_name:setText(nameStr)
+        local nameStr = ""
+        if data.titleName and data.titleName ~= 0 then
+            nameStr = TextDataMgr:getTextAttr(data.titleName).text
+        else
+            nameStr = TextDataMgr:getTextAttr(data.nameId).text
+        end
+        Label_name:setText(nameStr)
 
-    Image_unlock.pro:setText(math.ceil(data.process) .. "%")
+        Image_unlock.pro:setText(math.ceil(data.process) .. "%")
+    end
 
     local Image_favorStar = TFDirector:getChildByPath(Image_lock, "Image_favorStar"):hide()
     local Label_lock = TFDirector:getChildByPath(Image_favorStar, "Label_lock")

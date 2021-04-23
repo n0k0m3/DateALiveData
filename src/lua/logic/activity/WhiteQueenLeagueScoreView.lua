@@ -38,7 +38,7 @@ function WhiteQueenLeagueScoreView:initUI(ui)
     self.list_for_des = UIListView:create(TFDirector:getChildByPath(self.Panel_root, "ScrollView_des"))
 
 
-    local leagueActivityInfo =  ActivityDataMgr2:getActivityInfo(ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.LEAGUE_SCORE_ASSIT)[1])
+   
 
 
     self.league_scroll_reward = TFDirector:getChildByPath(self.Panel_root, "ScrollView_reward")

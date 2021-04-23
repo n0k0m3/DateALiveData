@@ -1224,7 +1224,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -70,
-										PositionY = 218,
+										PositionY = 219,
 									},
 									width = "106",
 									ZOrder = "1",

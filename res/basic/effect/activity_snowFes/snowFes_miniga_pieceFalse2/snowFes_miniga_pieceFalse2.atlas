@@ -1,0 +1,13 @@
+
+snowFes_miniga_pieceFalse2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hong_000
+  rotate: false
+  xy: 2, 2
+  size: 128, 222
+  orig: 205, 274
+  offset: 38, 21
+  index: -1

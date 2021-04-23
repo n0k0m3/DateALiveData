@@ -71,16 +71,19 @@ function TopBar:initUI(ui)
                             --Utils:notOpenTips()
                             --RechargeDataMgr:showRechageLayer();
                             FunctionDataMgr:jPay()
-                        elseif v[1] == EC_SItemType.POWER then
-                            --体力购买单独面板
-                            if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
-                                Utils:openView("common.BuyTiliLayer", v[1])
-                            else
-                                Utils:showTips(800021)
-                            end
+                            Utils:sendHttpLog("Diamond")
                         else
                             if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
-                                Utils:openView("common.BuyResourceView", v[1])
+--								if EC_SItemType.POWER == v[1] then
+--									Utils:openView("common.BuyPhysicalPowerView", v[1])
+--								else
+									Utils:openView("common.BuyResourceView", v[1])
+--								end
+                                if v[1] == EC_SItemType.POWER then
+                                    Utils:sendHttpLog("strength")
+                                elseif v[1] == EC_SItemType.GOLD then
+                                    Utils:sendHttpLog("gold")
+                                end
                             else
                                 Utils:showTips(800021)
                             end

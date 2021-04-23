@@ -12,7 +12,7 @@ function LoginLayer:ctor(data)
 	if FunctionDataMgr:isMoJingLoginUI() then
 		self:init("lua.uiconfig.loginScene.oneYearloginLayer")
 	else
-		if TFGlobalUtils:isConnectEnServer() then
+		if (TFGlobalUtils:isConnectEnServer() or TFGlobalUtils:isConnectKoreaTwServer()) then
 			self:init("lua.uiconfig.loginScene.loginLayerNew1")
 		else
 			self:init("lua.uiconfig.loginScene.loginLayer")
@@ -102,57 +102,101 @@ function LoginLayer:initUI(ui)
 	end))
 
 	self.accountBtn = TFDirector:getChildByPath(ui,"TextButton_account");
-	self.accountBtnPosX = self.accountBtn:getPositionX()
 	self.accountBtn:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
 			if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
 				self:showLoingBoard()
 			end
 		end));
 
+	self.Button_User_proto = TFDirector:getChildByPath(ui,"Button_User_proto")
+	if self.Button_User_proto then
+		--TODO CLOSE
+		-- self.Button_User_proto:getChildByName("Label_user_proto"):setSkewX(5)
+		-- self.Button_User_proto:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
+		-- 	Utils:openView("login.UserProto")
+		-- end));
+		self.Button_User_proto:hide()
+	end
+
+	self.Button_Conceal_proto = TFDirector:getChildByPath(ui,"Button_Conceal_proto")
+	if self.Button_Conceal_proto then
+		--TODO CLOSE
+		-- print(self.Button_Conceal_proto)
+		-- self.Button_Conceal_proto:getChildByName("Label_conceal_proto"):setSkewX(5)
+		-- self.Button_Conceal_proto:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
+		-- 	Utils:openView("login.ConcealProto")
+		-- end));
+		self.Button_Conceal_proto:hide()
+	end
+
+	self.Button_notice = TFDirector:getChildByPath(ui,"Button_notice")
+	--TODO CLOSE
+	-- self.Button_notice:getChildByName("Label_notice"):setSkewX(5)
+	-- self.Button_notice:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
+		
+	-- 	if CC_TARGET_PLATFORM ~= CC_PLATFORM_WIN32 then
+	-- 		if me.platform == "android" then
+ --            	HeitaoSdk.isFunctionSupported("showAnnouncement")
+ --            else
+ --                if tonumber(TFDeviceInfo:getCurAppVersion()) >= 3.10 then
+ --                    HeitaoSdk.isFunctionSupported("showAnnouncement")
+ --                else
+ --                    HeitaoSdk.isFunctionSupported("contactCustomerService")
+ --                end
+ --            end
+	-- 	end
+		
+	-- end));
+	self.Button_notice:hide()
+	self.accountBtn:setPosition(self.Button_notice:getPosition())
+
 
 	self.cleanUpBtn = TFDirector:getChildByPath(ui,"Button_cleanup");
+	self.cleanUpBtn:getChildByName("Label_cleanup"):setSkewX(5)
 	self.cleanUpBtn:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
-		Utils:openView("login.CleanUpView")
+		--Utils:openView("login.CleanUpView")
 		local fullModuleName = string.format("lua.logic.%s", "login.CleanUpView")
 	    local view = requireNew(fullModuleName):new()
 	    self:addLayer(view,998)
 	    self.cleanUpView = view
 	end));
+	self.cleanUpBtn:setPosition(self.Button_User_proto:getPosition())
 
-	self.thanksBtn = TFDirector:getChildByPath(ui,"TextButton_");
+	self.thanksBtn = TFDirector:getChildByPath(ui,"Button_thanks");
 	self.thanksBtn:hide()
-	self.thanksBtn:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
+	--TODO CLOSE
+	-- self.thanksBtn:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
 
-			local currentScene = Public:currentScene();
-			--currentScene:removeVideoView();
+	-- 		local currentScene = Public:currentScene();
+	-- 		--currentScene:removeVideoView();
 
-			TFAudio.pauseMusic();
+	-- 		TFAudio.pauseMusic();
 
-			if CC_PLATFORM_IOS == CC_TARGET_PLATFORM then
-				currentScene:changeVideo("video/thanks.mp4");
-			else
-				MovieScene:create({
-					path = "video/thanks.mp4",
-					showSkip = true,
-					endCall = function() 
-						TFAudio.resumeMusic()
-						TimeOut(function()
-								currentScene:showVideoView(true);
-							end,0)
-					end
-				})
-			end
-		end));
+	-- 		if CC_PLATFORM_IOS == CC_TARGET_PLATFORM then
+	-- 			currentScene:changeVideo("video/thanks.mp4");
+	-- 		else
+	-- 			MovieScene:create({
+	-- 				path = "video/thanks.mp4",
+	-- 				showSkip = true,
+	-- 				endCall = function() 
+	-- 					TFAudio.resumeMusic()
+	-- 					TimeOut(function()
+	-- 							currentScene:showVideoView(true);
+	-- 						end,0)
+	-- 				end
+	-- 			})
+	-- 		end
+	-- 	end));
 
-	self.Button_play = TFDirector:getChildByPath(ui,"Button_play");
-	self.Button_playPosX = self.Button_play:getPositionX()
+	self.Button_pv = TFDirector:getChildByPath(ui,"Button_pv");
+	self.Button_pv:getChildByName("Label_pv"):setSkewX(5)
 	local vedioPath
 	if FunctionDataMgr:isOneYearLoginUI() then
 		vedioPath = "video/haiwangxingopenpv.MP4"
 	else
 		vedioPath = "video/openpv.mp4"
 	end
-	self.Button_play:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
+	self.Button_pv:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
 		local currentScene = Public:currentScene();
 		TFAudio.pauseMusic();
 		if CC_PLATFORM_IOS == CC_TARGET_PLATFORM then
@@ -170,6 +214,19 @@ function LoginLayer:initUI(ui)
 			})
 		end
 	end));
+
+	self.Button_migrationServer = TFDirector:getChildByPath(ui,"Button_migrationServer");
+	self.Button_migrationServer:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
+	 	self:showMigrationServerView(function(isUpdate)
+	 		-- body
+	 		if isUpdate and HeitaoSdk and HeitaoSdk.isLogined then
+	 			HeitaoSdk.loginOut()
+	 		end
+	 	end, true)
+	end));
+	self.Button_migrationServer:setPosition(self.Button_Conceal_proto:getPosition())
+	self.Button_migrationServer:setVisible(NEW_APP_VERSION)
+	TFDirector:getChildByPath(self.Button_migrationServer,"Label_migrationServer"):setTextById(190000816)
 	
     self.Panel_serverList = TFDirector:getChildByPath(ui, "Panel_serverList")
     -- self.Panel_serverList:setVisible(GameConfig.Debug)
@@ -210,30 +267,45 @@ function LoginLayer:initUI(ui)
     
 end
 
+function LoginLayer:showMigrationServerView( callBack, force )
+	-- body
+	local isExitCache, _ = TFGlobalUtils:getMigrationServerId(true)
+	if ((not isExitCache) and NEW_APP_VERSION) or force then
+		local fullModuleName = string.format("lua.logic.%s", "login.MigrationServerLayer")
+	    local view = requireNew(fullModuleName):new(callBack)
+	    self:addLayer(view,998)
+	    self.migrationServerView = view
+	else
+		callBack(false)
+	end
+end
+
 function LoginLayer:login()
 	if CC_TARGET_PLATFORM ~= CC_PLATFORM_WIN32 and HeitaoSdk then
 		HeitaoSdk.disableDeviceSleep(true)
 		if not self.isShowLoingBoard then
 			Utils:sendHttpLog("sdk_activate")
-			HeitaoSdk.login();
+			self:showMigrationServerView(function(isUpdate)
+				-- body
+				HeitaoSdk.login();
+			end)
 		else
 			HeitaoSdk.loginOut();
 		end
 		self.accountBtn:setVisible(false)
-		self.Button_play:setPositionX(self.accountBtnPosX)
 	else
-
-		if not self.isShowLoingBoard then
-			local pluginTimer
-			pluginTimer = TFDirector:addTimer(0,1,nil,function ()
-		                                                TFDirector:removeTimer(pluginTimer)
-		                                                self:autoLogin();
-			end)
-		else
-			self:showLoingBoard();
-		end
-		self.accountBtn:setVisible(true)
-		self.Button_play:setPositionX(self.Button_playPosX)
+		self:showMigrationServerView(function(isUpdate)
+				if not self.isShowLoingBoard then
+				local pluginTimer
+				pluginTimer = TFDirector:addTimer(0,1,nil,function ()
+			                                                TFDirector:removeTimer(pluginTimer)
+			                                                self:autoLogin();
+				end)
+			else
+				self:showLoingBoard();
+			end
+			self.accountBtn:setVisible(true)
+		end)
 	end
 
 end
@@ -241,15 +313,15 @@ end
 function LoginLayer:refreshView()
     self:updateServerName()
 
-    if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
-    	if (TFGlobalUtils:getCacheServer( ) == GLOBAL_SERVER_LIST.SERVER_UNKNOW)  and (not (TFGlobalUtils:getPlayerServerIdx() == GLOBAL_SERVER_LIST.SERVER_ENGLISH)) then
-	    	TFGlobalUtils:setCacheServer(GLOBAL_SERVER_LIST.SERVER_ENGLISH)
-	        -- 重启客户端
-	        TFDirector:dispatchGlobalEventWith("Engine_Will_Restart", {})
-	        restartLuaEngine("")
-	        return
-	    end
-    end
+    -- if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+    -- 	if (TFGlobalUtils:getCacheServer( ) == GLOBAL_SERVER_LIST.SERVER_UNKNOW)  and (not (TFGlobalUtils:getPlayerServerIdx() == GLOBAL_SERVER_LIST.SERVER_ENGLISH)) then
+	   --  	TFGlobalUtils:setCacheServer(GLOBAL_SERVER_LIST.SERVER_ENGLISH)
+	   --      -- 重启客户端
+	   --      TFDirector:dispatchGlobalEventWith("Engine_Will_Restart", {})
+	   --      restartLuaEngine("")
+	   --      return
+	   --  end
+    -- end
 end
 
 function LoginLayer:autoLogin()
@@ -513,6 +585,7 @@ function LoginLayer:loginGameServerSuccess(event)
     local currentScene = Public:currentScene()
     if currentScene ~= nil and currentScene.getTopLayer then
         if currentScene.__cname == "LoginScene" then
+        	MainPlayer:stopLoadTimer()
         	local playerLv = MainPlayer:getPlayerLv()
         	if playerLv <= 5 then
         		MainPlayer:enterGame()
@@ -525,10 +598,14 @@ function LoginLayer:loginGameServerSuccess(event)
         	end
         end
 	end
-	Utils:setVisibleAnitAddictionLayer(true)
 end
 
 function LoginLayer.enterNextPage(sender)
+	if not TFGlobalUtils:canMigrationServerEnterGameServer() then
+		Utils:showError("选择的区域与服务器不一致")
+		return 
+	end
+
 	local self = sender.logic
 	if CC_TARGET_PLATFORM ~= CC_PLATFORM_WIN32 and HeitaoSdk then
 		if not HeitaoSdk.isLogined() then
@@ -545,6 +622,15 @@ function LoginLayer.enterNextPage(sender)
 			LogonHelper:loginVerification();
 			return;
 		end
+
+		--TODO CLOSE
+		-- if not LogonHelper:isAgreedProto() then
+		-- 	local filePath = "src/lua/uiconfig/loginScene/concealProto.lua"
+		-- 	if me.FileUtils:isFileExist( filePath ) then
+		-- 		Utils:openView("login.ConcealProto")
+		-- 		return
+		-- 	end
+		-- end
 		
 		HeitaoSdk.doAntiAddicationQuery();	
 
@@ -613,17 +699,10 @@ function LoginLayer:showWebView()
 		--屏蔽弹出公告上报
 		--Utils:sendHttpLog("informed_page_L")
 		self.isShowWeb = true;
-		if me.platform == "android" then
-
-			if HeitaoSdk then
-				-- TODO CLOSE 使用最新公告
-            	self:openNewNoticeLayer()
-				--HeitaoSdk.isFunctionSupported("showAnnouncement");
-			else
-				-- TODO CLOSE 使用最新公告
-            	self:openNewNoticeLayer()
-			end
-	        
+		if RELEASE_TEST then
+			
+		elseif me.platform == "android" then
+	        HeitaoSdk.isFunctionSupported("showAnnouncement");
 	    else
 	    	dump("show2")
 	        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 3.10 then
@@ -671,15 +750,17 @@ function LoginLayer:chooseBox(index)
 end
 
 function LoginLayer:onKeyBack()
-    if self.cleanUpView or self.noticeLayer then
+    if self.cleanUpView or self.noticeLayer or self.migrationServerView then
     	if self.noticeLayer then
     		self:removeLayer(self.noticeLayer, true)
         	self.noticeLayer = nil
     	elseif self.cleanUpView then
     		self:removeLayer(self.cleanUpView, true)
         	self.cleanUpView = nil
+        elseif self.migrationServerView then
+        	self:removeLayer(self.migrationServerView, true)
+        	self.migrationServerView = nil
     	end
-        
     else
         if HeitaoSdk then
             HeitaoSdk.loginExit()

@@ -217,12 +217,8 @@ function LuckdrawLayer:updateRandomTarget()
                 node.spine:play(spineName,false)
                 node.spine:setVisible(true)
                 node.spine:addMEListener(TFARMATURE_COMPLETE,function()
-                    self:timeOut(function()
-                        if node and node.spine then
-                            node.spine:removeMEListener(TFARMATURE_COMPLETE)
-                            node.spine:setVisible(false)
-                        end                       
-                    end, 0)
+                    node.spine:removeMEListener(TFARMATURE_COMPLETE)
+                    node.spine:setVisible(false)
                 end)
             end
             node:setPosition(ccp(0,0))

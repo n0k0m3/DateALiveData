@@ -1,0 +1,28 @@
+return {
+    [1] = {
+        incrItemId = 500004,
+        id = 1,
+        incrCount  = 3,
+        endTime = "2018-10-25 00:00:00",
+        interval  = 86400,
+        initInterval  = 0,
+        incrMax  = 10,
+        initAdd = 1,
+        holdMax = 30,
+        startTime = "2018-10-25 00:00:00",
+        type  = 1,
+    },
+    [2] = {
+        incrItemId = 665105,
+        id = 2,
+        incrCount  = 2,
+        endTime = "2021-3-9 59:59:59",
+        interval  = 86400,
+        initInterval  = 21600,
+        incrMax  = 14,
+        initAdd = 2,
+        holdMax = 999,
+        startTime = "2021-2-4 00:00:00",
+        type  = 1,
+    },
+}

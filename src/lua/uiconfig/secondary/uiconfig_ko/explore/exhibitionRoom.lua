@@ -362,7 +362,7 @@ local t =
 										PositionX = 1055,
 										PositionY = 540,
 									},
-									width = "159",
+									width = "121",
 									ZOrder = "1",
 								},
 								{
@@ -2170,7 +2170,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "秘宝属性",
+											text = "보물 속성",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2317,7 +2317,7 @@ local t =
 										PositionX = 1180,
 										PositionY = 540,
 									},
-									width = "159",
+									width = "121",
 									ZOrder = "1",
 								},
 								{
@@ -2433,7 +2433,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "秘宝属性",
+											text = "보물 속성",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2722,7 +2722,7 @@ local t =
 												PositionX = 82,
 												PositionY = 149,
 											},
-											width = "135",
+											width = "103",
 											ZOrder = "1",
 										},
 										{
@@ -2871,7 +2871,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "待装载",
+											text = "적재 대기",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2879,7 +2879,7 @@ local t =
 												PositionX = 82,
 												PositionY = 240,
 											},
-											width = "63",
+											width = "79",
 											ZOrder = "1",
 										},
 										{
@@ -2917,7 +2917,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "还未装载任何秘宝",
+											text = "아직 아무런 보물을 탑재하지 않았습니다",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -3063,7 +3063,7 @@ local t =
 												PositionX = 82,
 												PositionY = 149,
 											},
-											width = "64",
+											width = "58",
 											ZOrder = "1",
 										},
 										{
@@ -3101,7 +3101,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "还未装载任何秘宝",
+											text = "아직 아무런 보물을 탑재하지 않았습니다",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 

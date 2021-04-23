@@ -85,6 +85,8 @@ function ActivityBuyConfirmView:refreshView()
         self.Label_count:setTextById(301013, GoodsDataMgr:getItemCount(self.goodsId_))
     end
 
+    self.Label_count:setVisible(not itemCfg.noShowItemNum)
+
     self.Panel_batch:setVisible(self.isBatchBuy_)
     if self.isBatchBuy_ then
         self.selectNum = 1

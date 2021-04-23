@@ -21,7 +21,14 @@ function PrivilegeDataMgr:init()
     self.clubWishTreeCfg = TabDataMgr:getData("ClubMembership")
 
     ---乐园卡
-    self.wishTreeCfg = TabDataMgr:getData("Membership")
+    self.wishTreeCfg = {}
+    local Membership = TabDataMgr:getData("Membership")
+    for k,v in ipairs(Membership) do
+        if not self.wishTreeCfg[v.privilegeType] then
+            self.wishTreeCfg[v.privilegeType] = {}
+        end
+        table.insert(self.wishTreeCfg[v.privilegeType],v)
+    end
 
 end
 
@@ -40,19 +47,44 @@ function PrivilegeDataMgr:getPrivilegeCfg(privilegeId)
     return self.privilegeCfg[privilegeId]
 end
 
+function PrivilegeDataMgr:getPrivilegeType()
+    local privilegeType = 0
+    local activityIds = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.PRIVILEGE_ACTIVITY_DATA)
+    local activityInfo = ActivityDataMgr2:getActivityInfo(activityIds[1])
+    if activityInfo and activityInfo.extendData then
+        privilegeType = activityInfo.extendData.type
+    end
+    return privilegeType
+end
+
 ---获取乐园卡特权配置
 function PrivilegeDataMgr:getWishTreeCfg(cid)
 
-    if not cid then
-        return self.wishTreeCfg
+    local privilegeType = self:getPrivilegeType()
+    local treeCfg = self.wishTreeCfg[privilegeType]
+    if not treeCfg then
+        return
     end
 
-    return self.wishTreeCfg[cid]
+    if not cid then
+        return treeCfg
+    end
+
+    for k,v in ipairs(treeCfg) do
+        if v.id == cid then
+            return v
+        end
+    end
+
 end
 
-function PrivilegeDataMgr:getWishTreeByLv(lv)
+function PrivilegeDataMgr:getWishTreeByLv(privilegeType,lv)
 
-    for k,v in ipairs(self.wishTreeCfg) do
+    local curTypeCfg = self.wishTreeCfg[privilegeType]
+    if not curTypeCfg then
+        return
+    end
+    for k,v in ipairs(curTypeCfg) do
         if v.level == lv then
             return v
         end
@@ -78,7 +110,14 @@ end
 ---获取当前乐园卡等级
 function PrivilegeDataMgr:getWishTreeCid()
 
-    return self.curWishTreeCid or 0
+    local privilegeType = self:getPrivilegeType()
+    local defaultCid = 0
+    local wishCfg = self:getWishTreeByLv(privilegeType,1)
+    if wishCfg then
+        defaultCid = wishCfg.id - 1
+    end
+    self.curWishTreeCid = self.curWishTreeCid == 0 and defaultCid or self.curWishTreeCid
+    return self.curWishTreeCid or defaultCid
 end
 
 function PrivilegeDataMgr:getWishTreeLv()

@@ -306,6 +306,9 @@ function LeagueTrainingView:startBattle()
     local battleController = require("lua.logic.battle.BattleController")
     local matrixInfo = LeagueDataMgr:getTrainMatrixInfo()
     local themeCfg = LeagueDataMgr:getTrainMatrixThemeCfg(matrixInfo.theme)
+    if not themeCfg then
+        return
+    end
     local formationData = FubenDataMgr:getInitFormation(themeCfg.monster)
     HeroDataMgr:changeDataByFuben(themeCfg.monster, formationData)
     local heros = {}

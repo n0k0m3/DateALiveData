@@ -197,7 +197,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "45",
+							height = "41",
 							ignoreSize = "True",
 							name = "Label_hero_name",
 							nTextAlign = "1",
@@ -217,7 +217,7 @@ local t =
 								PercentX = 8.19,
 								PercentY = 60.16,
 							},
-							width = "218",
+							width = "215",
 							ZOrder = "3",
 						},
 						{
@@ -464,7 +464,7 @@ local t =
 								PositionX = 6,
 								PositionY = 47,
 							},
-							width = "90",
+							width = "88",
 							ZOrder = "3",
 						},
 						{
@@ -556,7 +556,7 @@ local t =
 								PositionX = 6,
 								PositionY = 20,
 							},
-							width = "57",
+							width = "130",
 							ZOrder = "3",
 						},
 						{

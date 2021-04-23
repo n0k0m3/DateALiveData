@@ -127,7 +127,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "64",
+									height = "2",
 									ignoreSize = "True",
 									name = "Image_assistRankingView_1",
 									sizepercentx = "0",
@@ -141,7 +141,7 @@ local t =
 										
 									},
 									visible = "False",
-									width = "64",
+									width = "2",
 									ZOrder = "1",
 								},
 								{

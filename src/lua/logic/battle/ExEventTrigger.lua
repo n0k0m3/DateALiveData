@@ -196,9 +196,11 @@ function ExEventTrigger:getBrushMonsterCount(monsterIdx)
 	local monsterSectionCid = self.monsterSection_[monsterIdx]
 	local monsterSectionCfg = TabDataMgr:getData("MonsterSection", monsterSectionCid)
 	local monsterCount = 0
-	monsterCount = monsterCount + table.count(monsterSectionCfg.fixedMonster)
-	for k,v in pairs(monsterSectionCfg.randomMonster) do
-		monsterCount = monsterCount + v[2]
+	if monsterSectionCfg then
+		monsterCount = monsterCount + table.count(monsterSectionCfg.fixedMonster)
+		for k,v in pairs(monsterSectionCfg.randomMonster) do
+			monsterCount = monsterCount + v[2]
+		end
 	end
 	return monsterCount
 end

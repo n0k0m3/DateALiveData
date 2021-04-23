@@ -2263,7 +2263,7 @@ return {
         sort = 778,
         sortr = "778",
         name1 = 1706098,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -2296,7 +2296,7 @@ return {
         sort = 779,
         sortr = "779",
         name1 = 1706099,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -2814,7 +2814,7 @@ return {
         sort = 783,
         sortr = "783",
         name1 = 1706099,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -3044,7 +3044,7 @@ return {
         sort = 787,
         sortr = "787",
         name1 = 1706099,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -4590,7 +4590,7 @@ return {
         sort = 1801,
         sortr = "1801",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -4648,13 +4648,16 @@ return {
             [1] = 110010,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 101,
         unlock = {
+            ownItems = {
+                [585008] = 1,
+            },
         },
         sort = 1803,
         sortr = "1803",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -4687,7 +4690,7 @@ return {
         sort = 1804,
         sortr = "1804",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -9427,7 +9430,7 @@ return {
         sort = 2143,
         sortr = "2143",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 8,
         type3 = {
             [1] = 208002,
@@ -15291,13 +15294,16 @@ return {
             [1] = 110011,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 101,
         unlock = {
+            ownItems = {
+                [585009] = 1,
+            },
         },
         sort = 1817,
         sortr = "1817",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -16044,7 +16050,7 @@ return {
         sort = 1785,
         sortr = "1785",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -16745,13 +16751,16 @@ return {
             [1] = 110003,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 101,
         unlock = {
+            ownItems = {
+                [585004] = 1,
+            },
         },
         sort = 1731,
         sortr = "1731",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -16784,7 +16793,7 @@ return {
         sort = 1733,
         sortr = "1733",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -17210,7 +17219,7 @@ return {
         sort = 1046,
         sortr = "1046",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -24130,7 +24139,7 @@ return {
         sort = 1129,
         sortr = "1129",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -25201,13 +25210,16 @@ return {
             [1] = 110012,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 101,
         unlock = {
+            ownItems = {
+                [585010] = 1,
+            },
         },
         sort = 1826,
         sortr = "1826",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -27053,7 +27065,7 @@ return {
         sort = 1749,
         sortr = "1749",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -37072,7 +37084,7 @@ return {
         sort = 2106,
         sortr = "2106",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
@@ -39701,7 +39713,7 @@ return {
         sort = 1008,
         sortr = "1008",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -39828,7 +39840,7 @@ return {
         sort = 1009,
         sortr = "1009",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -42642,7 +42654,7 @@ return {
         sort = 786,
         sortr = "786",
         name1 = 1706099,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -44715,7 +44727,7 @@ return {
         sort = 104,
         sortr = "104",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -45457,7 +45469,7 @@ return {
         sort = 1772,
         sortr = "1772",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -45490,7 +45502,7 @@ return {
         sort = 1773,
         sortr = "1773",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -46564,7 +46576,7 @@ return {
         sort = 781,
         sortr = "781",
         name1 = 1706099,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -48155,7 +48167,7 @@ return {
         sort = 2085,
         sortr = "2085",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
@@ -48646,17 +48658,20 @@ return {
             [1] = 110001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 101,
         unlock = {
+            ownItems = {
+                [585001] = 1,
+            },
         },
         sort = 1717,
         sortr = "1717",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210005,
+            [2] = 210002,
         },
         id = 1301006,
         nameTextId = "3320074",
@@ -52672,7 +52687,7 @@ return {
         sort = 2007,
         sortr = "2007",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
@@ -53970,7 +53985,7 @@ return {
         sort = 784,
         sortr = "784",
         name1 = 1706099,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -61015,7 +61030,7 @@ return {
         sort = 976,
         sortr = "976",
         name1 = 1706097,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -61726,7 +61741,7 @@ return {
         sort = 782,
         sortr = "782",
         name1 = 1706099,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -61792,7 +61807,7 @@ return {
         sort = 785,
         sortr = "785",
         name1 = 1706099,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,

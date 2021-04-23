@@ -607,6 +607,66 @@ function FubenChapterView:updateHwxStar()
     self.Panel_hwx.Label_hwx_star:setText(fightStarNum.."/"..totalFightStarNum)
 end
 
+function FubenChapterView:refreshNewYearPage()
+
+    if not self.activityNewYear then
+        return
+    end
+    local serverTime = ServerDataMgr:getServerTime()
+    local eTime      = self.activityNewYear.extendData.activityduration.battleendtime - serverTime
+
+    if eTime > 0 then
+        local day, hour, min, sec = Utils:getTimeDHMZ(eTime,true)
+        self.Panel_newyear.Label_day_value:setText(tostring(day))
+        self.Panel_newyear.Label_hour_value:setText(tostring(hour))
+    else
+        TFDirector:getChildByPath(self.Panel_newyear, "Image_001"):hide()
+        TFDirector:getChildByPath(self.Panel_newyear, "Image_002"):hide()
+        TFDirector:getChildByPath(self.Panel_newyear, "Panel_time"):hide()
+    end
+
+    local sTime      = self.activityNewYear.showStartTime  - serverTime
+    local showEndTime = self.activityNewYear.showEndTime - serverTime
+    local visible = showEndTime > 0 and sTime < 0
+    self.Panel_newyear.Button_start:setTouchEnabled(visible)
+    self.Panel_newyear.Button_start:setGrayEnabled(not visible)
+end
+
+function FubenChapterView:refreshHwxPage()
+    if not self.activityHwxFuben then
+        return
+    end
+    local serverTime = ServerDataMgr:getServerTime()
+    local eTime      = self.activityHwxFuben.extendData.activityduration.battleendtime - serverTime
+    if eTime > 0 then
+        local day, hour, min, sec = Utils:getTimeDHMZ(eTime,true)
+        local dayStr = tostring(day)
+        self.Panel_hwx.Label_day_value:setText(dayStr[1].." "..dayStr[2])
+        local hourStr = tostring(hour)
+        self.Panel_hwx.Label_hour_value:setText(hourStr[1].." "..hourStr[2])
+    else
+        self.Panel_hwx.Panel_time:hide()
+    end
+
+    local sTime      = self.activityHwxFuben.showStartTime  - serverTime
+    local showEndTime = self.activityHwxFuben.showEndTime - serverTime
+    local visible = showEndTime > 0 and sTime < 0
+    self.Panel_hwx.Button_start:setTouchEnabled(visible)
+    self.Panel_hwx.Button_start:setGrayEnabled(not visible)
+
+    self:updateHwxStar()
+
+end
+
+function FubenChapterView:updateHwxStar()
+
+    local chapter = FubenDataMgr:getChapter(EC_FBType.HWX_FUBEN)
+    local chapterCid = chapter[1]
+    local totalFightStarNum, totalDatingStarNum = FubenDataMgr:getChapterTotalStarNum(chapterCid, 1)
+    local fightStarNum, datingStarNum = FubenDataMgr:getChapterStarNum(chapterCid, 1)
+    self.Panel_hwx.Label_hwx_star:setText(fightStarNum.."/"..totalFightStarNum)
+end
+
 function FubenChapterView:flushTheater(  )
     self:flushTheaterList()
     local theaterCfg = self.theaterChapters_[self.selectTheaterId]
@@ -753,6 +813,20 @@ function FubenChapterView:updateFubenItem(index)
     elseif fubenData.type_ == EC_FBType.NEWYEAR_FUBEN then
         if self.activityNewYear then
             local year, month, day = Utils:getUTCDateYMD(self.activityNewYear.showEndTime, GV_UTC_TIME_ZONE)
+            local timeStr  = TextDataMgr:getText(12030003,month,day)
+            foo.Label_tip:setScale(0.8)
+            foo.Label_tip:setText(timeStr)
+        end
+    elseif fubenData.type_ == EC_FBType.HWX_FUBEN then
+        if self.activityHwxFuben then
+            local year, month, day = Utils:getDate(self.activityHwxFuben.showEndTime, true)
+            local timeStr  = TextDataMgr:getText(12030003,month,day)
+            foo.Label_tip:setScale(0.8)
+            foo.Label_tip:setText(timeStr)
+        end
+    elseif fubenData.type_ == EC_FBType.NEWYEAR_FUBEN then
+        if self.activityNewYear then
+            local year, month, day = Utils:getDate(self.activityNewYear.showEndTime, true)
             local timeStr  = TextDataMgr:getText(12030003,month,day)
             foo.Label_tip:setScale(0.8)
             foo.Label_tip:setText(timeStr)
@@ -1168,6 +1242,33 @@ function FubenChapterView:updateActivityTiming(index, chapterCid)
     elseif chapterCid == EC_ActivityFubenType.BIG_WORLD then
         self.activityChapterState_[index] = false
         foo.Panel_timing:hide()
+    elseif chapterCid == EC_ActivityFubenType.ENDLESS_PLUSS then
+        local funcIsOpen = FunctionDataMgr:checkFuncOpen(157)
+        local instage = FubenEndlessPlusDataMgr:inStageTime()
+        if funcIsOpen and instage then
+            local index = FubenEndlessPlusDataMgr:getStage()
+            local kvpCfg = FubenEndlessPlusDataMgr:getKvpCfg(index)
+            if not kvpCfg then
+                self.activityChapterState_[index] = false
+                foo.Image_state:show()
+                foo.Label_state:setTextById(1890001)
+            else
+                local deadLine = kvpCfg.etime
+                local remainTime = math.max(0, deadLine - serverTime)
+                local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
+                if day ~= "00" then
+                    foo.Label_timing:setTextById("r80002", day, hour)
+                    foo.Label_tips:setTextById("r80011", day, hour)
+                else
+                    foo.Label_timing:setTextById("r80001", hour, min)
+                    foo.Label_tips:setTextById("r80010", hour, min)
+                end
+            end
+        else
+            self.activityChapterState_[index] = false
+            foo.Image_state:show()
+            foo.Label_state:setTextById(1890001)
+        end
     elseif FubenDataMgr:isSimulationChapter(chapterCid) then
         local startTime, endTime = FubenDataMgr:getSimulationTrialActiveTime(chapterCid)
         if startTime and endTime then
@@ -1709,7 +1810,6 @@ function FubenChapterView:updateActivityChapterItem(index, subIndex)
                         local endlessInfo = FubenDataMgr:getEndlessInfo()
                         if endlessInfo.step == EC_EndlessState.ING then
                             Utils:openView("fuben.FubenEndlessView", chapterCid)
-
                         end
                     elseif chapterCid == EC_ActivityFubenType.KABALA then
                         if KabalaTreeDataMgr:isFunctionOpen() then
@@ -1773,6 +1873,12 @@ function FubenChapterView:updateActivityChapterItem(index, subIndex)
                     elseif  chapterCid == EC_ActivityFubenType.BOSS_CHALLENGE then
                         if self.activityChapterState_[subIndex] then
                             Utils:openView("fuben.BossChallegeMainView")
+                        end
+                    elseif chapterCid == EC_ActivityFubenType.ENDLESS_PLUSS then
+                        local funcIsOpen = FunctionDataMgr:checkFuncOpen(157)
+                        local instage = FubenEndlessPlusDataMgr:inStageTime()
+                        if funcIsOpen and instage then
+                            Utils:openView("fuben.FubenEndlessPlusView")
                         end
                     end
                 end
@@ -2266,7 +2372,9 @@ function FubenChapterView:removeCountDownTimer()
 end
 
 function FubenChapterView:onCountDownPer()
-    if self.fubenData_ == nil then self:removeCountDownTimer() return end
+    if not self.fubenData_ then
+        return
+    end
     for i, v in ipairs(self.fubenData_) do
         if v.type_ == EC_FBType.DAILY then
             if self.cache_[i] then

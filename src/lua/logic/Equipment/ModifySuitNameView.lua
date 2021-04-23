@@ -1,14 +1,15 @@
 local ModifySuitNameView = class("ModifySuitNameView", BaseLayer)
 
-function ModifySuitNameView:ctor(posId)
+function ModifySuitNameView:ctor( ...)
     self.super.ctor(self)
-    self:initData(posId)
+    self:initData(...)
     self:showPopAnim(true)
     self:init("lua.uiconfig.Equip.modifySuitNameView")
 end
 
-function ModifySuitNameView:initData(posId)
-    self.posId = posId
+function ModifySuitNameView:initData(...)
+    local parm = ...
+    self.okClickReqCallback = parm.okClickReqCallback
 end
 
 function ModifySuitNameView:initUI(ui)
@@ -53,6 +54,7 @@ end
 
 function ModifySuitNameView:registerEvents()
     EventMgr:addEventListener(self, EQUIPMENT_SAVE_BACKUP_NAME, handler(self.onChangeNameOk, self))
+    EventMgr:addEventListener(self, TOKEN_SAVE_BACKUP_NAME, handler(self.onChangeNameOk, self))
 
     local function onTextFieldChangedHandleAcc(input)
         local text = input:getText()
@@ -90,7 +92,9 @@ function ModifySuitNameView:registerEvents()
             Utils:showTips(200006)
             return
         end
-        EquipmentDataMgr:ReqSaveEquipBackupDecr(self.posId,text)
+        if self.okClickReqCallback then
+            self.okClickReqCallback(text)
+        end
     end,
     EC_BTN.CLOSE)
 

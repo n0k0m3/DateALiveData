@@ -75,7 +75,7 @@ function EndlessPauseView:createItem(effect)
     elseif data.duration  > 0 then
         Image_time1:show()
         Image_time2:hide()
-        local time = effect.nDuration*0.001 --换算苗
+        local time = effect:getSuplusTime()*0.001 --换算苗
         Label_time:setText(string.format("%.2fs",time))
     end
     if ResLoader.isValid(data.icon) then 

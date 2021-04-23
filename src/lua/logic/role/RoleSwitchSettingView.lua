@@ -5,7 +5,7 @@ function RoleSwitchSettingView:initData(openType)
     self.originalSwitchList = RoleSwitchDataMgr:getSwitchList()
     self.openType = openType
 	print("轮播列表")
-	dump(self.originalSwitchList)
+	--dump(self.originalSwitchList)
 end
 
 function RoleSwitchSettingView:ctor(openType)
@@ -44,7 +44,7 @@ function RoleSwitchSettingView:initHighRoleList()
     self.ListView_select:removeAllItems()
     local highDressList = RoleSwitchDataMgr:getAllHighDress()
 	print("轮播设置列表")
-	dump(highDressList)
+	--dump(highDressList)
     table.sort(highDressList,function(a,b)
         local isHaveRoleA = RoleDataMgr:getIsHave(a.roleId)
         local isHaveA = GoodsDataMgr:getDress(a.dressId)
@@ -168,7 +168,7 @@ function RoleSwitchSettingView:registerEvents()
 
     EventMgr:addEventListener(self,EV_UPDATE_SWITCH_LIST,handler(self.onUpdateSwitchList, self))
     self.Button_close:onClick(function()
-        dump(self.originalSwitchList)
+        --dump(self.originalSwitchList)
         self:cancleChange()
     end)
 
@@ -176,15 +176,17 @@ function RoleSwitchSettingView:registerEvents()
         if self.openType == 1 then
             RoleSwitchDataMgr:Send_TurnSwitchState(true)
         end
+
         local newSwitchList = RoleSwitchDataMgr:getSwitchList()
 		print("轮播新列表")
-        dump(newSwitchList)
+        --dump(newSwitchList)
         RoleSwitchDataMgr:Send_NewSwithList(newSwitchList)
+
         AlertManager:closeLayer(self)
     end)
 
     self.TextButton_cancel:onClick(function()
-        dump(self.originalSwitchList)
+        --dump(self.originalSwitchList)
         self:cancleChange()
     end)
 

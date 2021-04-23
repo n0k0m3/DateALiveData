@@ -207,7 +207,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_rankPopView_1",
 									nTextAlign = "1",
@@ -224,7 +224,7 @@ local t =
 										PositionX = 450,
 										PositionY = 538,
 									},
-									width = "114",
+									width = "266",
 									ZOrder = "1",
 								},
 							},
@@ -356,7 +356,7 @@ local t =
 								PositionX = 548,
 								PositionY = 229,
 							},
-							width = "130",
+							width = "112",
 							ZOrder = "1",
 							components = 
 							{
@@ -600,7 +600,7 @@ local t =
 									{
 										PositionX = -40,
 									},
-									width = "10",
+									width = "13",
 									ZOrder = "1",
 								},
 							},
@@ -664,7 +664,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_ksResCollectPopView_1",
 									nTextAlign = "1",
@@ -680,7 +680,7 @@ local t =
 									{
 										
 									},
-									width = "54",
+									width = "98",
 									ZOrder = "1",
 								},
 							},
@@ -780,7 +780,7 @@ local t =
 									{
 										PositionX = -5,
 									},
-									width = "47",
+									width = "50",
 									ZOrder = "1",
 								},
 							},

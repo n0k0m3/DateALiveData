@@ -18,6 +18,10 @@ function PrivilageCard:initData()
 
 	self.isDoubleCardOpen = ActivityDataMgr2:isOpen(EC_ActivityType2.DOUBLE_CARD)
 
+	self.activityId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.DOUBLE_CARD)[1]
+	self.activityData = ActivityDataMgr2:getActivityInfo(self.activityId)
+	print("222222222",self.activityData)
+
 	self.packageData = RechargeDataMgr:getGiftListByType(20)
 
 	self.monthRewardNodes = {}
@@ -37,7 +41,9 @@ function PrivilageCard:initUI(ui)
 	self.monthCard.reward.reward1				= TFDirector:getChildByPath(TFDirector:getChildByPath(self.monthCard.reward, "cur_reward"),		"reward_1")
 	self.monthCard.reward.reward2				= TFDirector:getChildByPath(TFDirector:getChildByPath(self.monthCard.reward, "cur_reward"),		"reward_2")
 	self.monthCard.reward.double1				= TFDirector:getChildByPath(TFDirector:getChildByPath(self.monthCard.reward, "cur_reward"),		"Image_Double_1")
+	self.monthCard.reward.double1.label			= TFDirector:getChildByPath(self.monthCard.reward.double1, "label")
 	self.monthCard.reward.double2				= TFDirector:getChildByPath(TFDirector:getChildByPath(self.monthCard.reward, "cur_reward"),		"Image_Double_2")
+	self.monthCard.reward.double2.label			= TFDirector:getChildByPath(self.monthCard.reward.double2, "label")
 	self.monthCard.reward.target_reward			= TFDirector:getChildByPath(TFDirector:getChildByPath(self.monthCard.reward, "target_reward"),	"reward_1")
 	self.monthCard.reward.target_day			= TFDirector:getChildByPath(TFDirector:getChildByPath(self.monthCard.reward, "label_sign_again"),"label2")
 	self.monthCard.btn_check					= TFDirector:getChildByPath(self.monthCard, "btn_check")
@@ -162,6 +168,8 @@ end
 function PrivilageCard:initMonthSignReward()
 	self:removeAllMonthCardRewardNodes()
 
+	local multiple = self.activityData.extendData or 1
+
 	local signData = RechargeDataMgr:getMonthCardSignData()
 
 	local basereward  = signData.basrReward or {}
@@ -169,10 +177,11 @@ function PrivilageCard:initMonthSignReward()
         local Item = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone():Scale(0.6):Pos(0,0)
 		local num = v.num
 		if self.isDoubleCardOpen then
-			num = num * 2
+			num = num * multiple
 		end
 		if self.monthCard.reward["double"..i] then
 			self.monthCard.reward["double"..i]:setVisible(self.isDoubleCardOpen)
+			self.monthCard.reward["double"..i].label:setTextById(1890012, multiple)
 		end
 	
         PrefabDataMgr:setInfo(Item, v.id, num)

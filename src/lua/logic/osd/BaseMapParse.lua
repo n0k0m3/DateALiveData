@@ -487,6 +487,23 @@ function BaseMapParse:tranGridPosToPos(col,row)
 	return me.p((col+0.5) * bs, (row + 0.5) * bs)
 end
 
+function BaseMapParse:getRandomDP(curpos,w,h)
+	local col,row = self:transPosToGridPos(curpos)
+    local isCanMove = self:canMoveXY(curpos.x,curpos.y)
+    if isCanMove == false then
+        print("Add on wrong position!")
+    else
+        local gridpos = self.pathFinder.astar:findRandomPos(row, col, w, h)
+        if gridpos.x == col and gridpos.y == row then
+            print("The Same Point$$$$$$$$$$$$$$$$$$$")
+        else
+            return self:tranGridPosToPos(gridpos.x,gridpos.y)
+        end
+	    
+    end
+	return nil
+end
+
 function BaseMapParse:getCol()
 	return self.pathFinder.astar:getWidth()
 end

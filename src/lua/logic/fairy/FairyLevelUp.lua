@@ -137,6 +137,9 @@ function FairyLevelUp:holdDownAction(isAddOp)
 	local entryFalg = false
 
 	local function action(dt)
+		if not self.timer or not self.onTouchButtonUp then
+			return
+		end
         timing = timing + dt
         speedTiming = speedTiming + dt
         if speedTiming >= 3.0 then
@@ -155,7 +158,7 @@ function FairyLevelUp:holdDownAction(isAddOp)
             timing = 0
         end
     end
-
+    self:stopTimer()
     self.timer = TFDirector:addTimer(0, -1, nil, action)
 end
 

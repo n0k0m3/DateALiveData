@@ -312,11 +312,13 @@ function LeagueBuildingMainView:showFusionTask()
     local curWeekExp = LeagueDataMgr:getUnionWeekExp()
     local receiveIndex = LeagueDataMgr:getUnionFusionTaskStageGetIndex()
     for i, v in ipairs(self.activeItem_) do
-        local stageInfo = self.stageData_[i]
         local idx = table.indexOf(receiveIndex, i - 1)
         v.Panel_geted:setVisible(idx ~= -1)
-        v.Panel_canGet:setVisible(curWeekExp >= stageInfo.stage and idx == -1)
-        v.Panel_notGet:setVisible(curWeekExp < stageInfo.stage)
+        local stageInfo = self.stageData_[i]
+        if stageInfo then
+            v.Panel_canGet:setVisible(curWeekExp >= stageInfo.stage and idx == -1)
+            v.Panel_notGet:setVisible(curWeekExp < stageInfo.stage)
+        end
     end
 
     local percent = me.clampf(curWeekExp / self.maxStage_, 0, 1)

@@ -66,7 +66,7 @@ return {
         ["84AB46CD6CD745C5A69F994BBBC58001"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 200,
-            ["Weight"] = 10,
+            ["Weight"] = 20,
             ["NodeTag"] = "84AB46CD6CD745C5A69F994BBBC58001",
             ["RangeOrigin"] = {
                 ["y"] = -20,
@@ -91,7 +91,7 @@ return {
         ["2158BDD84512466C9CA40868378AC21F"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 200,
-            ["Weight"] = 10,
+            ["Weight"] = 40,
             ["NodeTag"] = "2158BDD84512466C9CA40868378AC21F",
             ["RangeOrigin"] = {
                 ["y"] = -20,
@@ -101,8 +101,8 @@ return {
             ["Static"] = false,
             ["FixTarget"] = 0,
             ["Pos"] = {
-                ["y"] = 246,
-                ["x"] = 990,
+                ["y"] = 251,
+                ["x"] = 1003,
             },
             ["Class"] = "PathfindingBevNode",
             ["WalkWeight"] = 0,
@@ -204,7 +204,6 @@ return {
             ["Desc"] = "子节点",
             ["Duration"] = 1000,
             ["NodeTag"] = "D704D239E4C344C9BFEE4E9BD06EB47F",
-            ["Force"] = 0,
             ["TriggerType"] = 0,
             ["Static"] = false,
             ["Pos"] = {
@@ -236,7 +235,6 @@ return {
             ["Desc"] = "子节点",
             ["Duration"] = 2000,
             ["NodeTag"] = "C3A5C27DA02F46C5A1051544C308338A",
-            ["Force"] = 0,
             ["TriggerType"] = 1,
             ["Static"] = false,
             ["Pos"] = {

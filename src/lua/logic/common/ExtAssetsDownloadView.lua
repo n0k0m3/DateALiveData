@@ -31,6 +31,7 @@ function ExtAssetsDownloadView:initUI(ui)
 	self.txt_fileSize = TFDirector:getChildByPath(self.root_panel,"Label_filesize")
 	self.tipLabel = TFDirector:getChildByPath(self.root_panel,"Label_title")
 	self.tipLabel:setText(self.strCfg[190000146].text)
+	self.closed = true
 end
 
 function ExtAssetsDownloadView:onShow()
@@ -74,6 +75,11 @@ function ExtAssetsDownloadView:transNetSpeed(speed)
 	return speedstr
 end
 function ExtAssetsDownloadView:onCloseUI()
+	if not self.closed  then
+		return
+	end
+	self.closed = false
+	self:removeMEListener(TFWIDGET_ENTERFRAME)
 	EventMgr:removeEventListenerByTarget(self)
 	local currentScene = Public:currentScene()
     if currentScene.__cname == "LoginScene" then
@@ -86,7 +92,6 @@ end
 
 function ExtAssetsDownloadView:removeUI()
 	self.super.removeUI(self)
-	self:removeMEListener(TFWIDGET_ENTERFRAME)
 	if CommonManager:getConnectionStatus() == true then
 		TFDirector:send(c2s.SHARE_REQ_INTO_PANEL, {1000})
 	end

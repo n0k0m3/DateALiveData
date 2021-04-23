@@ -1308,6 +1308,12 @@ function Hero:getTimeScale()
     return battleController.getTeam():getTimeScale(self:getCamp())*selfTimeScale
 end
 
+function Hero:updatePauseState(isPause)
+    for k , effect in ipairs(self.bufferEffectMap) do
+        effect:updatePauseState(isPause)
+    end
+end
+
 ---buffer 效果
 function Hero:getBFEffectAddTimes(id)
     local times = 0
@@ -2133,6 +2139,7 @@ end
 
 --复活
 function Hero:onRelive()
+    self.isDeaded = false
     self:getActor():playRelive(function()
         --切换到待机
         --HP恢复50%
@@ -2538,6 +2545,7 @@ end
 
 --复活
 function Hero:relive(targetPos)
+    self.isDeaded = false
     if self:isDead() then
         self:forceToFloor()
         self:doEvent(eStateEvent.BH_RELIVE)
@@ -2548,6 +2556,7 @@ end
 
 --强制直接回血
 function Hero:forceRelive()
+    self.isDeaded = false
     self:forceToFloor()
     local hp = self:getValue(eAttrType.ATTR_MAX_HP)/2
     self:setValue(eAttrType.ATTR_NOW_HP,hp,true)
@@ -2585,6 +2594,7 @@ function Hero:excuteAction(action )
             Utils:showTips(tostring(self.data.pname).."离开了队伍")
         end
     elseif action == eHeroAction.RELIVE then --复活
+        self.isDeaded = false
         self.actor:show()
         local hp = self:getValue(eAttrType.ATTR_MAX_HP)
         self:setValue(eAttrType.ATTR_NOW_HP,hp,true)
@@ -3372,7 +3382,6 @@ function Hero:changeValue(attrType,value)
     if self:getActor() then
         self:getActor():refresh()
     end
-
 end
 
 --吸收处理
@@ -5546,9 +5555,9 @@ function Hero:act_useSkill(id,skillCid)
         realCid = self.AIStepParams[2]
     end
     local skill = self:getSkillByCid(realCid)
-	if not skill then 
-		return
-	end
+    if not skill then 
+        return
+    end
     if self.lastSkillCid and realCid == self.lastSkillCid then
         if self.aiUseSkillTime < 1000 then
             self:endToAI()

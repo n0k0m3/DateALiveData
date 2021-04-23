@@ -498,7 +498,7 @@ end
 function FriendDataMgr:isApprenticeFinished()
     local limitLv  = Utils:getKVP(90023, "apprenticeClass")
     local playerLv = MainPlayer:getPlayerLv()
-    if limitLv[1] <= playerLv and playerLv <= limitLv[2] then  -- 作为徒弟 自己是否出师
+    if self.isMasterExist.state or (not self.isMasterExist.state and not self.isApprenticeExist.state) then  -- 作为徒弟 自己是否出师
         return self.apprenticeFinished or false
     else  -- 作为师父 自己当前教育的学员是否出师
         if self.isApprenticeExist.id then
@@ -984,8 +984,12 @@ function FriendDataMgr:onRecvMasterData(event)
             end
         else
             if v.type == EC_FriendMasterType.Master or v.type == EC_FriendMasterType.SameGate then
-                if v.type == EC_FriendMasterType.Master and not data.finished  then
-                    self.isMasterExist = {state = true, id = v.playerId}
+                if v.type == EC_FriendMasterType.Master then
+                    if  not data.finished  then
+                        self.isMasterExist = {state = true, id = v.playerId}
+                    else
+                        self.isMasterExist = {state = false, id = nil}
+                    end
                 end
                 if nil == self.masterDataDic[EC_FriendMaster.Master][v.playerId] then
                     --  服务器可能不会下发的数据 给个默认值

@@ -158,6 +158,8 @@ function TeamRoomView:updateRoomItems(item,data)
 
     local Label_minLv = TFDirector:getChildByPath(item, "Label_minLv")
 
+    local Label_minLv = TFDirector:getChildByPath(item, "Label_minLv")
+
     Image_title2:setVisible(data.teamType ~= EC_NetTeamType.FuShi)
     Image_title:setVisible(data.teamType == EC_NetTeamType.FuShi)
     -- 1,2,3,4
@@ -210,7 +212,7 @@ function TeamRoomView:registerEvents()
 
     self.TextButton_refresh:onClick(function()
         local data = TeamFightDataMgr:getTeamInfoByType(self.choosedTeamType)
-        if not data.nextTime then
+        if not data or not data.nextTime then
             return
         end
         local curTime = ServerDataMgr:getServerTime()

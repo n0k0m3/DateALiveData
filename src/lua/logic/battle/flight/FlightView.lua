@@ -407,6 +407,7 @@ end
 function FlightView:onPause()
     self.pause_ = true
     flightController.pause()
+    flightController.pauseOrResume(true)
     TFAudio:pauseAllEffects()
     TFAudio:pauseMusic()
 end
@@ -414,6 +415,7 @@ end
 function FlightView:onResume()
     self.pause_ = false
     flightController.resume()
+    flightController.pauseOrResume(false)
     TFAudio:resumeMusic()
     TFAudio:resumeAllEffects()
 end

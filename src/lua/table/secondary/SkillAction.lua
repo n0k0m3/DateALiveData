@@ -2655,7 +2655,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能1-滑铲-3级-结束",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -5569,7 +5569,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-3级1",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -9971,7 +9971,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-3级2",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -14798,7 +14798,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-0级1",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -14848,7 +14848,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-3级3",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -18414,7 +18414,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-0级2",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -18464,7 +18464,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-3级4",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -19571,7 +19571,7 @@ return {
         loop = false,
         name = "强化十香-B-1",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -23686,7 +23686,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-0级3",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -23736,7 +23736,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-3级5",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -25152,7 +25152,7 @@ return {
         loop = false,
         name = "强化十香-B-2",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -29139,7 +29139,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-0级4",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -29189,7 +29189,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-3级6",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -30069,7 +30069,7 @@ return {
         loop = false,
         name = "强化十香-B-3",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -30338,7 +30338,7 @@ return {
         loop = true,
         name = "狂三-技能1-滑铲-3级-转圈循环",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -30396,7 +30396,7 @@ return {
         loop = false,
         name = "狂三-技能2-空中射击-3级-上升",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -30792,7 +30792,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能2-空中射击-0级-射击",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -39817,7 +39817,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能2-空中射击-1级-射击",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -42551,7 +42551,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-3级9",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -45883,7 +45883,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-3级10",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -46708,7 +46708,7 @@ return {
         loop = false,
         name = "狂三-技能1-滑铲-3级-结束",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -47308,7 +47308,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能2-空中射击-2级-上升",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -50419,7 +50419,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-3级2",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -58039,7 +58039,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-1级1",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -61910,7 +61910,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-1级2",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -62818,7 +62818,7 @@ return {
         loop = false,
         name = "狂三-技能1-滑铲-0级-滑铲",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -62924,7 +62924,7 @@ return {
         loop = false,
         name = "狂三-技能2-空中射击-落下",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -63377,7 +63377,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能2-空中射击-3级-上升",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -63594,7 +63594,7 @@ return {
         loop = false,
         name = "精灵折纸-技能2-0,1级-冲击",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -65739,7 +65739,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-1级3",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -67073,7 +67073,7 @@ return {
         loop = false,
         name = "精灵折纸-技能2-0,1级-闪回",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -68539,7 +68539,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-1级4",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -69863,7 +69863,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能2-空中射击-3级-射击",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -70028,7 +70028,7 @@ return {
         loop = false,
         name = "精灵折纸-技能2-2,3级-冲击",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -72359,7 +72359,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-1级5",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -73760,7 +73760,7 @@ return {
         loop = false,
         name = "精灵折纸-技能2-2,3级-蓄力",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -77674,7 +77674,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-1级6",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -79600,7 +79600,7 @@ return {
         loop = false,
         name = "狂三-技能1-滑铲-1级-滑铲转圈",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -80459,7 +80459,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能2-空中射击-落下",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -80744,7 +80744,7 @@ return {
         loop = false,
         name = "精灵折纸-技能2-2,3级-闪回",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -84797,7 +84797,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-1级7",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -94404,7 +94404,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能1-滑铲-1级-滑铲转圈",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -105969,7 +105969,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-2级10",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -107422,7 +107422,7 @@ return {
         loop = false,
         name = "狂三-技能1-滑铲-2级-滑铲",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -108180,7 +108180,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能1-滑铲-2级-滑铲",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -112498,7 +112498,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-2级1",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -119470,7 +119470,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-2级2",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -122193,7 +122193,7 @@ return {
         loop = true,
         name = "狂三圣诞节-技能1-滑铲-2级-转圈循环",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -124106,7 +124106,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-3级8",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -130775,7 +130775,7 @@ return {
         loop = false,
         name = "强化十香-A-3",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -135277,7 +135277,7 @@ return {
         loop = false,
         name = "强化十香-A-1",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -135619,7 +135619,7 @@ return {
         loop = true,
         name = "狂三-技能1-滑铲-2级-转圈循环",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -135677,7 +135677,7 @@ return {
         loop = false,
         name = "狂三-技能2-空中射击-1级-射击",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -140363,7 +140363,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-2级7",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -142376,7 +142376,7 @@ return {
         loop = false,
         name = "强化十香-A-2",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -143649,7 +143649,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-2级4",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -144667,7 +144667,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-3级7",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -146872,7 +146872,7 @@ return {
         loop = false,
         name = "狂三-技能2-空中射击-3级-射击",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -147143,7 +147143,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能1-滑铲-2级-结束",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -147807,7 +147807,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-2级6",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -150544,7 +150544,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能1-滑铲-3级-滑铲",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -151138,7 +151138,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-2级3",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -153285,7 +153285,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-2级5",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -153709,7 +153709,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能2-空中射击-2级-射击",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -156479,7 +156479,7 @@ return {
         loop = false,
         name = "强化十香-A-4",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -161999,7 +161999,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-2级8",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -163586,7 +163586,7 @@ return {
         loop = false,
         name = "强化十香-A-5",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -163907,7 +163907,7 @@ return {
         loop = false,
         name = "狂三-技能1-滑铲-2级-结束",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -163961,7 +163961,7 @@ return {
         loop = false,
         name = "狂三-技能2-空中射击-2级-上升",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -164672,7 +164672,7 @@ return {
         loop = true,
         name = "狂三圣诞节-技能1-滑铲-3级-转圈循环",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -168287,7 +168287,7 @@ return {
         loop = false,
         name = "狂三圣诞节-技能1-滑铲-0级-滑铲",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -169022,7 +169022,7 @@ return {
         loop = false,
         name = "AST崇宫真那-技能2-2级9",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -169573,7 +169573,7 @@ return {
         loop = false,
         name = "狂三-技能1-滑铲-3级-滑铲",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -169627,7 +169627,7 @@ return {
         loop = false,
         name = "狂三-技能2-空中射击-2级-射击",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -171270,7 +171270,7 @@ return {
         loop = false,
         name = "狂三-技能2-空中射击-0级-射击",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {

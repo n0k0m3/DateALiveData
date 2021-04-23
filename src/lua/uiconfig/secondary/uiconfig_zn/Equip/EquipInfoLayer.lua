@@ -3625,7 +3625,7 @@ local t =
 														PositionX = 127,
 														PositionY = 111,
 													},
-													width = "97",
+													width = "98",
 													ZOrder = "1",
 												},
 												{
@@ -4358,7 +4358,7 @@ local t =
 														PositionX = 153,
 														PositionY = 15,
 													},
-													width = "60",
+													width = "57",
 													ZOrder = "1",
 												},
 												{
@@ -4495,7 +4495,7 @@ local t =
 												TopPosition = 556,
 												relativeToName = "Panel_equip",
 											},
-											width = "24",
+											width = "23",
 											ZOrder = "1",
 										},
 										{
@@ -4742,7 +4742,7 @@ local t =
 												PositionX = 249,
 												PositionY = 45,
 											},
-											width = "38",
+											width = "44",
 											ZOrder = "1",
 										},
 										{
@@ -4834,7 +4834,7 @@ local t =
 												PositionX = 206,
 												PositionY = 43,
 											},
-											width = "38",
+											width = "34",
 											ZOrder = "1",
 										},
 										{
@@ -6249,7 +6249,7 @@ local t =
 										TopPosition = 1,
 										relativeToName = "Panel_skill_item",
 									},
-									width = "28",
+									width = "34",
 									ZOrder = "1",
 								},
 								{
@@ -6482,7 +6482,7 @@ local t =
 												PositionX = 127,
 												PositionY = 9,
 											},
-											width = "73",
+											width = "68",
 											ZOrder = "1",
 										},
 									},
@@ -6616,7 +6616,7 @@ local t =
 												PositionX = 127,
 												PositionY = 9,
 											},
-											width = "73",
+											width = "68",
 											ZOrder = "1",
 										},
 									},
@@ -8355,7 +8355,7 @@ local t =
 												PositionX = -38,
 												PositionY = -3,
 											},
-											width = "17",
+											width = "19",
 											ZOrder = "1",
 											components = 
 											{
@@ -8400,7 +8400,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 18,
+														PositionX = 20,
 														PositionY = 2,
 														IsPercent = true,
 														PercentX = 103,

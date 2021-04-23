@@ -1,0 +1,76 @@
+{
+"skeleton": { "hash": "Xw8uk2EwXl1VWrsm5xUDFkOL3CE", "spine": "2.1.27", "width": 37, "height": 37, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "hongqiu", "bone": "root", "attachment": "hongqiu" }
+],
+"skins": {
+	"default": {
+		"hongqiu": {
+			"hongqiu": { "width": 37, "height": 37 }
+		}
+	}
+},
+"animations": {
+	"disappear": {
+		"slots": {
+			"hongqiu": {
+				"attachment": [
+					{ "time": 0, "name": "hongqiu" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 6.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"idle": {
+		"slots": {
+			"hongqiu": {
+				"attachment": [
+					{ "time": 0, "name": "hongqiu" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

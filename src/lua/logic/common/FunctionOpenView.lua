@@ -56,8 +56,12 @@ function FunctionOpenView:refreshView()
         self.ListView_function:pushBackCustomItem(Panel_funcItem)
 
         Button_func:onClick(function()
+				local name
+				if v == 31 then
+					name = self.__cname
+				end
                 AlertManager:closeLayer(self)
-                FunctionDataMgr:enterByFuncId(v)
+                FunctionDataMgr:enterByFuncId(v, name)
                 GameGuide:checkGuideEnd(self.guideFuncId)
         end)
     end
@@ -92,7 +96,7 @@ end
 function FunctionOpenView:excuteGuideFunc8001(guideFuncId)
     local targetNode
     for i, id in ipairs(self.openFuncList_) do
-        if id == 23 or id == 29 or id == 34 or id == 32 or id == 33 then
+        if id == 23 or id == 29 or id == 34 or id == 32 or id == 33 or id == 31 then
             targetNode = self.ListView_function:getItem(i)
         end
     end

@@ -1,6 +1,7 @@
 
 local BaseDataMgr = import(".BaseDataMgr")
 local GoodsDataMgr = class("GoodsDataMgr", BaseDataMgr)
+local UserDefalt = CCUserDefault:sharedUserDefault()
 
 function GoodsDataMgr:init()
     TFDirector:addProto(s2c.ITEM_ITEM_LIST, self, self.onRecvItemLsit)
@@ -19,6 +20,8 @@ function GoodsDataMgr:init()
     self.dress_ = {}
     self.newFlags_ = {}
     self.newGemDatas = {}
+
+	self.deleteDressList = {}		--删除的时装列表
 
     -- 奖励id范围
     self.itemFilter_ = Utils:getKVP(3001)
@@ -156,7 +159,7 @@ function GoodsDataMgr:getItemCfg(cid)
 
     if tabName then
         local cfg = TabDataMgr:getData(tabName, cid)
-        return cfg
+        return cfg or {}
     else
         Bugly:ReportLuaException("getItemCfg error no item id:"..cid)
         Utils:showError(800001, cid)
@@ -309,23 +312,92 @@ function GoodsDataMgr:__dressHandle(sItem)
         self.originGoods_[sItem.id] = item
         if ct == EC_SChangeType.ADD then
             RoleSwitchDataMgr:addNewDress(item.cid)
+			
+			--弹试用时装获得提示
+			local cfg = self:getItemCfg(tonumber(item.cid))
+			if cfg and cfg.masterId ~= 0 then
+				local realDress = self:getDress(cfg.masterId)
+				if not realDress then
+					Utils:openView("role.TrialDressUnlockView", item.cid)
+				end
+			end
         end
     elseif ct == EC_SChangeType.UPDATE then
         item = self.originGoods_[sItem.id] or {}
         oldItem = clone(item)
         attrAssgin(item, sItem)
     elseif ct == EC_SChangeType.DELETE then
-        item = self.originGoods_[sItem.id]
-        oldItem = clone(item)
+        item = nil
+        oldItem = clone(self.originGoods_[sItem.id])
         self.originGoods_[sItem.id] = nil
+
+        local TrialCfg =  self:getItemCfg(sItem.cid)
+        if TrialCfg.masterId ~= 0 then  
+            local dressInfo = self:getDress(TrialCfg.masterId)
+            if not dressInfo then
+                self:addDeleteDressList(sItem.cid)
+
+				local playerId = MainPlayer:getPlayerId() or ""
+				local localDressList = UserDefalt:getStringForKey("TrialDressIdList" .. playerId .. "Poped") or ""
+				UserDefalt:setStringForKey("TrialDressIdList"..playerId .. "Poped", localDressList .. "|" .. sItem.cid)
+            end
+        end
     end
 
-    self.dress_[sItem.cid] = item
-
+    self.dress_[sItem.cid] = item                                                                                                                                                                
     -- 进背包
     self:putInBug(sItem.id, sItem.cid, item)
 
-    EventMgr:dispatchEvent(EV_BAG_DRESS_UPDATE, oldItem, item)
+    EventMgr:dispatchEvent(EV_BAG_DRESS_UPDATE, oldItem, item, ct)
+end
+
+function GoodsDataMgr:loadLocalTrialDress()
+	local playerId = MainPlayer:getPlayerId() or ""
+	local keyHead = "TrialDressIdList" .. playerId .. "Poped"
+	local localDressList = UserDefalt:getStringForKey(keyHead) or ""
+	local tab = string.split(localDressList,"|")	
+	local ret = {}
+	for k,v in pairs(tab) do
+		if tonumber(v) then
+			self:addDeleteDressList(tonumber(v))
+		end
+	end
+	print("本地过期列表", ret)
+end
+
+function GoodsDataMgr:queueDeleteDressList()
+	local ret
+	if #self.deleteDressList > 0 then
+		ret = table.remove(self.deleteDressList, 1)	
+	end
+	
+	return ret
+end
+
+function GoodsDataMgr:saveLocalTrialDress()
+	local localDressList = ""
+	for i,v in ipairs(self.deleteDressList) do
+		localDressList = localDressList .."|" ..v
+	end
+	local playerId = MainPlayer:getPlayerId() or ""
+	UserDefalt:setStringForKey("TrialDressIdList"..playerId .. "Poped",  localDressList)
+end
+
+function GoodsDataMgr:removeAndSaveDeleteDressList(dressId)
+	for i,v in ipairs(self.deleteDressList) do
+		if v == dressId then
+			table.remove(self.deleteDressList, i)
+		end
+	end
+	self:saveLocalTrialDress()
+end
+
+function GoodsDataMgr:addDeleteDressList(dressId)
+	if table.indexOf(self.deleteDressList, dressId) ~= -1 then
+		return 
+	end
+
+	table.insert(self.deleteDressList, dressId)
 end
 
 function GoodsDataMgr:__equipmentHandle(sItem)

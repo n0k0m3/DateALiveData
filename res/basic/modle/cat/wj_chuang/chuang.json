@@ -1,0 +1,99 @@
+{
+"skeleton": { "hash": "tsnwjFKA2CZWNoqdjbOMqownwDk", "spine": "2.1.27", "width": 203, "height": 157, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "就action1", "parent": "root", "y": 14.04, "color": "ff0004ff" }
+],
+"slots": [
+	{ "name": "chuang", "bone": "root", "attachment": "chuang" }
+],
+"skins": {
+	"default": {
+		"chuang": {
+			"chuang": { "width": 203, "height": 157 }
+		}
+	}
+},
+"animations": {
+	"disappear": {
+		"slots": {
+			"chuang": {
+				"attachment": [
+					{ "time": 0, "name": "chuang" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 6.5, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"就action1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"idle": {
+		"slots": {
+			"chuang": {
+				"attachment": [
+					{ "time": 0, "name": "chuang" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"就action1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

@@ -90,14 +90,14 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "534",
+							height = "540",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/activity/activity_bg/034.png",
+							texturePath = "ui/activity/activity_bg/jumpbg2.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
@@ -167,11 +167,10 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "52",
+							height = "167",
 							ignoreSize = "True",
 							name = "Button_jump",
-							normal = "ui/activity/courage/enter/009.png",
-							scaleX = "0.7",
+							normal = "ui/activity/activity_bg/jumpbutton2.png",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -179,11 +178,11 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 350,
-								PositionY = -204,
+								PositionX = 352,
+								PositionY = -184,
 							},
 							UItype = "Button",
-							width = "230",
+							width = "214",
 							ZOrder = "1",
 							components = 
 							{
@@ -259,11 +258,11 @@ local t =
 							fontSize = "20",
 							fontStroke = 
 							{
-								IsStroke = false,
-								StrokeColor = "#FFE6E6E6",
+								IsStroke = true,
+								StrokeColor = "#FF4A4A48",
 								StrokeSize = 1,
 							},
-							height = "23",
+							height = "25",
 							ignoreSize = "True",
 							name = "label_date",
 							nTextAlign = "1",
@@ -277,10 +276,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -419,
-								PositionY = 244,
+								PositionX = -404,
+								PositionY = 242,
 							},
-							width = "80",
+							width = "81",
 							ZOrder = "1",
 						},
 					},
@@ -296,8 +295,8 @@ local t =
 	{
 		textures = 
 		{
-			"ui/activity/activity_bg/034.png",
-			"ui/activity/courage/enter/009.png",
+			"ui/activity/activity_bg/jumpbg2.png",
+			"ui/activity/activity_bg/jumpbutton2.png",
 		},
 		armatures = 
 		{

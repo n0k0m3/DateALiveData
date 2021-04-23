@@ -89,7 +89,11 @@ function ExploreSkinView:updateListView()
             ExploreDataMgr:Send_EXPLORE_REQ_EXPLORE_UPDATE_SKIN(cfg.id)
         end)
         foo.btn_go:onClick(function()
-            FunctionDataMgr:jStore(327000)
+            if  cfg.isSkip then
+                FunctionDataMgr:jStore(327000)
+            else
+                Utils:showTips(13322108)
+            end
         end)
     end
 end

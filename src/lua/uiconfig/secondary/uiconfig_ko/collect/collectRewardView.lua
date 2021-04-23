@@ -162,7 +162,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -328,
+										PositionX = -341,
 										PositionY = 225,
 									},
 									width = "30",
@@ -208,7 +208,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -287,
+										PositionX = -300,
 										PositionY = 219,
 									},
 									width = "68",
@@ -281,7 +281,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "图鉴收藏家",
+							text = "도감 수집가",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -289,7 +289,7 @@ local t =
 								PositionX = 76,
 								PositionY = 542,
 							},
-							width = "153",
+							width = "147",
 							ZOrder = "1",
 						},
 						{
@@ -457,18 +457,18 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "当前奖杯",
+											text = "현재 트로피",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -296,
+												PositionX = -291,
 												PositionY = 7,
 												LeftPositon = 22,
 												TopPosition = 654,
 												relativeToName = "Panel",
 											},
-											width = "91",
+											width = "108",
 											ZOrder = "1",
 										},
 										{
@@ -592,14 +592,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "全部领取",
+													text = "전부 수령",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "83",
+													width = "79",
 													ZOrder = "1",
 												},
 											},
@@ -639,7 +639,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "奖杯数:5000",
+											text = "트로피 개수:5000",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -647,7 +647,7 @@ local t =
 												PositionX = 221,
 												PositionY = 2,
 											},
-											width = "102",
+											width = "131",
 											ZOrder = "1",
 										},
 									},
@@ -971,14 +971,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "入门鉴赏家",
+											text = "입문 감정사",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = -1,
 											},
-											width = "113",
+											width = "104",
 											ZOrder = "1",
 										},
 									},
@@ -1110,7 +1110,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "奖励达到到奖励达到奖励励达到奖励达到奖励达到奖励达到",
+													text = "보상",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1155,14 +1155,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "道具名字道具名",
+													text = "아이템 이름 아이템 이름",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = -167,
 													},
-													width = "157",
+													width = "221",
 													ZOrder = "1",
 												},
 												{
@@ -1336,7 +1336,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "奖励达到到奖励达到奖励励达到奖励达到奖励达到奖励达到",
+													text = "보상",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1381,14 +1381,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "道具名字道具名",
+													text = "아이템 이름 아이템 이름",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = -167,
 													},
-													width = "157",
+													width = "221",
 													ZOrder = "1",
 												},
 												{
@@ -1529,7 +1529,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "奖励达到到奖励达到奖励励达到奖励达到奖励达到奖励达到",
+													text = "보상",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 

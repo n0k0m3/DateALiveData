@@ -97,6 +97,8 @@ local __dataMgr = {
     KVP("WorldRoomDataMgr","lua.dataMgr.WorldRoomDataMgr"),
     KVP("PrivilegeDataMgr","lua.dataMgr.PrivilegeDataMgr"),
     KVP("TurnTabletMgr", "lua.dataMgr.TurnTabletMgr"),
+    KVP("MaokaActivityMgr", "lua.dataMgr.MaokaActivityMgr"),
+    KVP("FubenEndlessPlusDataMgr", "lua.dataMgr.FubenEndlessPlusDataMgr"),
     KVP("GlobalFuncDataMgr","lua.dataMgr.GlobalFuncDataMgr"),
 }
 

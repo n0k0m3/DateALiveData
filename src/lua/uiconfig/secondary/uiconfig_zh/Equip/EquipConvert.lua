@@ -3610,7 +3610,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -607,
-								PositionY = 113,
+								PositionY = -400,
 							},
 							uipanelviewmodel = 
 							{
@@ -6082,21 +6082,23 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "40",
-									ignoreSize = "False",
+									height = "100",
+									ignoreSize = "True",
 									name = "Image_gold",
+									scaleX = "0.45",
+									scaleY = "0.45",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "icon/system/003.png",
+									texturePath = "icon/item/goods/510104.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = 28,
 										PositionY = 18,
 									},
-									width = "40",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -6383,7 +6385,7 @@ local t =
 			"ui/448.png",
 			"ui/common/level_normal.png",
 			"ui/Equipment/new_ui/new_38.png",
-			"icon/system/003.png",
+			"icon/item/goods/510104.png",
 			"ui/Equipment/new_ui/new_09.png",
 		},
 		armatures = 

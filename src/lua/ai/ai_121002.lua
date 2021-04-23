@@ -66,7 +66,7 @@ return {
         ["84AB46CD6CD745C5A69F994BBBC58001"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 200,
-            ["Weight"] = 10,
+            ["Weight"] = 20,
             ["NodeTag"] = "84AB46CD6CD745C5A69F994BBBC58001",
             ["RangeOrigin"] = {
                 ["y"] = -20,
@@ -91,7 +91,7 @@ return {
         ["2158BDD84512466C9CA40868378AC21F"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 200,
-            ["Weight"] = 10,
+            ["Weight"] = 40,
             ["NodeTag"] = "2158BDD84512466C9CA40868378AC21F",
             ["RangeOrigin"] = {
                 ["y"] = -20,

@@ -261,7 +261,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "25",
+							height = "24",
 							ignoreSize = "True",
 							name = "Label_tip1",
 							nTextAlign = "1",
@@ -270,7 +270,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "精灵战斗力",
+							text = "정령 전투력",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -324,7 +324,7 @@ local t =
 								PositionX = 216,
 								PositionY = 499,
 							},
-							width = "114",
+							width = "134",
 							ZOrder = "1",
 							components = 
 							{
@@ -349,7 +349,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 115,
+										PositionX = 135,
 										PositionY = 1,
 										IsPercent = true,
 										PercentX = 101,
@@ -386,7 +386,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "32",
+							height = "33",
 							ignoreSize = "True",
 							name = "Label_power",
 							nTextAlign = "1",
@@ -403,7 +403,7 @@ local t =
 								PositionX = 568,
 								PositionY = 198,
 							},
-							width = "111",
+							width = "82",
 							ZOrder = "1",
 						},
 						{
@@ -473,14 +473,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "休息",
+									text = "휴식",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "51",
+									width = "45",
 									ZOrder = "1",
 								},
 							},
@@ -559,7 +559,7 @@ local t =
 									{
 										
 									},
-									width = "52",
+									width = "45",
 									ZOrder = "1",
 								},
 							},
@@ -639,7 +639,7 @@ local t =
 									{
 										
 									},
-									width = "52",
+									width = "46",
 									ZOrder = "1",
 								},
 							},
@@ -709,7 +709,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "暂无可用精灵",
+							text = "사용 가능한 정령이 없습니다",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -717,7 +717,7 @@ local t =
 								PositionX = 567,
 								PositionY = 362,
 							},
-							width = "170",
+							width = "325",
 							ZOrder = "1",
 						},
 					},
@@ -947,14 +947,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "当前精灵",
+											text = "현재 정령",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -1,
 											},
-											width = "85",
+											width = "79",
 											ZOrder = "1",
 										},
 									},
@@ -1023,14 +1023,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "派遣中",
+											text = "파견 중",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -1,
 											},
-											width = "63",
+											width = "62",
 											ZOrder = "1",
 										},
 									},

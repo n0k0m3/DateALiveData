@@ -398,7 +398,6 @@ end
 
 function DatingDataMgr:initCityDatingInfo(cityDatingInfo)
     local data = self.datingRuleTable[cityDatingInfo.datingRuleCid]
-
     if data then 
         cityDatingInfo.cityId = data.enter_condition["buildingCid"]
         -- print("cityDatingInfo.cityId ",cityDatingInfo.cityId)
@@ -579,7 +578,11 @@ end
 
 function DatingDataMgr:getCityDatingLines(datingType,ruleCid)
     local cityDatingInfo = self:getCityDatingInfoByRuleCid(datingType,ruleCid)
-    return cityDatingInfo.data["lines"]
+    if cityDatingInfo then
+        return cityDatingInfo.data["lines"]
+    else
+        return {}
+    end
 end
 
 function DatingDataMgr:getCityDatingBg(datingType,ruleCid)
@@ -893,7 +896,7 @@ function DatingDataMgr:sendDialogueMsg(branchNodeId,selectedNodeId,datingType,ro
         isGameOver,
         datingType,
         roleId,
-        datingId
+        tostring(datingId)
     }
     print("dialogueMsg ",dialogueMsg)
     TFDirector:send(c2s.DATING_DIALOGUE, dialogueMsg)
@@ -966,11 +969,7 @@ function DatingDataMgr:showDatingLayer(datingType,currentNodeId,isNoF,scriptId,i
     end
     if not datingType then
         self:setMiniGameOption()
-    elseif (datingType == EC_DatingScriptType.SHOW_SCRIPT or datingType == EC_DatingScriptType.FUBEN_SCRIPT
-            or datingType == EC_DatingScriptType.SPECIAL_SCRIPT or datingType == EC_DatingScriptType.MAIN_SCRIPT
-            or datingType == EC_DatingScriptType.OUTSIDE_SCRIPT or datingType == EC_DatingScriptType.FUBEN_CITY_SCRIPT
-            or datingType == EC_DatingScriptType.FAVOR_SCRIPT or datingType == 20)
-            and currentNodeId then
+    elseif currentNodeId then
         local msg = {}
         msg.currentNodeId = currentNodeId
         msg.datingType = datingType

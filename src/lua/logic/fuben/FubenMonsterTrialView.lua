@@ -50,6 +50,13 @@ function FubenMonsterTrialView:initUI(ui)
 
 	self.level_bg = TFDirector:getChildByPath(self.Level_list, "level_bg")
 
+	local list = TFDirector:getChildByPath(self.ui, "SpriteList")
+	self.tableView = Utils:scrollView2TableView(list)
+	self.tableView:setDirection(TFTableView.TFSCROLLVERTICAL)
+	self.tableView:addMEListener(TFTABLEVIEW_SIZEFORINDEX, handler(self.tableCellSize,self))
+	self.tableView:addMEListener(TFTABLEVIEW_NUMOFCELLSINTABLEVIEW, handler(self.numberOfCells,self))
+	self.tableView:addMEListener(TFTABLEVIEW_SIZEATINDEX, handler(self.tableCellAtIndex,self))
+
 	for i = 1, 10 do
 		local lvl = TFDirector:getChildByPath(self.level_bg, "level"..i)
 		lvl.bg					= TFDirector:getChildByPath(lvl, "bg")
@@ -240,7 +247,7 @@ function FubenMonsterTrialView:refreshLevelInfo()
 end
 
 function FubenMonsterTrialView:refreshSpriteBuff()
-	self:initTableView()
+
 	self.tableView:reloadData()
 end
 
@@ -255,12 +262,7 @@ function FubenMonsterTrialView:removeEvents()
 end
 
 function FubenMonsterTrialView:initTableView()
-	local list = TFDirector:getChildByPath(self.ui, "SpriteList")
-	self.tableView = Utils:scrollView2TableView(list)
-	self.tableView:setDirection(TFTableView.TFSCROLLVERTICAL)
-	self.tableView:addMEListener(TFTABLEVIEW_SIZEFORINDEX, handler(self.tableCellSize,self))
-    self.tableView:addMEListener(TFTABLEVIEW_NUMOFCELLSINTABLEVIEW, handler(self.numberOfCells,self))
-    self.tableView:addMEListener(TFTABLEVIEW_SIZEATINDEX, handler(self.tableCellAtIndex,self))
+
 end
 
 function FubenMonsterTrialView:tableCellSize(tableView, idx)

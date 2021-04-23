@@ -120,7 +120,6 @@ function ChatDataMgr:getRichtextImgDict()
 end
 
 function ChatDataMgr:onLogin()
-    EventMgr:addEventListener(self,EV_OFFLINE_EVENT, handler(self.onLoginOut,self))
     TFDirector:addProto(s2c.CHAT_RESP_INIT_CHAT_INFO, self, self.onChatRecordWorldInfo)
     TFDirector:send(c2s.CHAT_REQ_INIT_CHAT_INFO, {})
     EventMgr:addEventListener(self,EV_CHAT_UPDATE_TEAM_INVITE, handler(self.onUpdateTeamInvite, self))
@@ -475,9 +474,9 @@ function ChatDataMgr:onRecvChatInfo(event)
         local playerInfo = {}
         playerInfo.playerId = chatInfo.pid
         playerInfo.palyerName = chatInfo.pname
-		
+        
         if playerInfo.playerId ~= MainPlayer:getPlayerId() or chatInfo.fun == EC_ChatState.TEAM  then
-			print("---------------------------------------addPlayerToPlist")
+            print("---------------------------------------addPlayerToPlist")
             self:addPlayerToPlist(playerInfo)
         end
 
@@ -1083,15 +1082,5 @@ end
 function ChatDataMgr:getAiAdviceData()
     return self.aiAdviceData
 end
-
---社团历史记录消息
-function ChatDataMgr:onRecvLeagueHistoryChat( event )
-    local data = event.data
-    data.msgs = data.msgs or {}
-    for k ,v in pairs(data.msgs) do
-        self:onRecvChatInfo({data = v})
-    end
-end
-
 
 return ChatDataMgr:new()

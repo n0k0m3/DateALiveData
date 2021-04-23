@@ -109,6 +109,53 @@ local t =
 							{
 								
 								{
+									controlID = "label_time_Image_bg_Panel_root_Panel-kuangsanAssistSignView_kuangsanAssist_activity_Game",
+									UUID = "ce5e5685_6d3e_4be0_bf51_7858a5a8740a",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FFFFFFFF",
+									fontName = "font/MFLiHei_Noncommercial.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "20",
+									fontStroke = 
+									{
+										IsStroke = true,
+										StrokeColor = "#FF3A1316",
+										StrokeSize = 1,
+									},
+									height = "27",
+									ignoreSize = "True",
+									name = "label_time",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "12-10 12-20",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -452,
+										PositionY = 223,
+									},
+									visible = "False",
+									width = "140",
+									ZOrder = "1",
+								},
+								{
 									controlID = "Image_days_Image_bg_Panel_root_Panel-kuangsanAssistSignView_kuangsanAssist_activity_Game",
 									UUID = "56c95a2a_c0ad_4978_bfd7_48420ffb9c2b",
 									anchorPoint = "False",

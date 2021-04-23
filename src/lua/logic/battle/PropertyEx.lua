@@ -28,10 +28,10 @@ function PropertyEx:setListener(listener)
     self.listener = listener
 end
 
-function PropertyEx:doChange(attrType,value)
+function PropertyEx:doChange(attrType,value,event)
     if attrType < 100 or attrType > 2000 or attrType == 503 or attrType == 507 then
         if self.listener then
-            self.listener(attrType,value)
+            self.listener(attrType,value,event)
             if attrType == eAttrType.ATTR_NOW_HP then
                 self.listener(eAttrType.ATTR_NOW_HP_PERCENT,0)
             end

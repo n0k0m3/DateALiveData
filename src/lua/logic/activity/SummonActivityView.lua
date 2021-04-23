@@ -28,6 +28,7 @@ function SummonActivityView:ctor( data )
 	self.activityId = data
 	self.activityInfo = ActivityDataMgr2:getActivityInfo(self.activityId)
 	self:init("lua.uiconfig.activity.summonActivity")
+    self.ablelistener = true
 end
 
 function SummonActivityView:initUI( ui )
@@ -228,6 +229,7 @@ function SummonActivityView:registerEvents()
                 local cost = self.costItem_[i]
                 if GoodsDataMgr:currencyIsEnough(cost.id, cost.num) then
                     local function reaSummon()
+                        self.ablelistener = true
                         SummonDataMgr:send_SUMMON_SUMMON(tonumber(self.activityInfo.extendData.summon[i]), cost.index)
                     end
                     if MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_Summon) then
@@ -252,6 +254,9 @@ function SummonActivityView:registerEvents()
 end
 
 function SummonActivityView:onSummonResultEvent(reward, staticItem)
+    if not self.ablelistener then
+        return
+    end
     Utils:showReward(reward or {}, staticItem or {})
 end
 
@@ -336,6 +341,16 @@ function SummonActivityView:updateSummonCnt()
         self.label_get_num:show()
         self.label_get_num:setTextById(2130519, totalCnt)
     end
+end
+
+function SummonActivityView:onShow()
+    self.super.onShow(self)
+    self.ablelistener = true
+end
+
+function SummonActivityView:onHide( )
+    self.super.onHide(self)
+    self.ablelistener = false
 end
 
 return SummonActivityView

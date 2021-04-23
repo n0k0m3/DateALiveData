@@ -717,7 +717,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "442",
 							ZOrder = "1",
 							components = 
@@ -2193,7 +2192,6 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											visible = "False",
 											width = "410",
 											ZOrder = "1",
 											components = 
@@ -2517,7 +2515,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 330,
+												PositionY = 291,
 												LeftPositon = 461,
 												TopPosition = 207,
 												relativeToName = "Panel_root",
@@ -2679,7 +2677,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 290,
+												PositionY = 249,
 												LeftPositon = 461,
 												TopPosition = 207,
 												relativeToName = "Panel_root",
@@ -2828,7 +2826,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 208,
+												PositionY = 168,
 												LeftPositon = 461,
 												TopPosition = 207,
 												relativeToName = "Panel_root",
@@ -3957,6 +3955,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "442",
 							ZOrder = "1",
 							components = 
@@ -8075,51 +8074,6 @@ local t =
 											ZOrder = "1",
 										},
 										{
-											controlID = "Label_medal_name_Panel_content_Panel_medal_item_Panel_prefab_Panel-playerSetting_Layer1_playerInfo_Game",
-											UUID = "f537a386_d958_47ff_bbd1_67b347542b20",
-											anchorPoint = "False",
-											anchorPointX = "0.5",
-											anchorPointY = "0",
-											classname = "MELabel",
-											compPath = "luacomponents.common.MEIconLabel",
-											dstBlendFunc = "771",
-											FontColor = "#FF2D3141",
-											fontName = "font/MFLiHei_Noncommercial.ttf",
-											fontShadow = 
-											{
-												IsShadow = false,
-												ShadowColor = "#FFFFFFFF",
-												ShadowAlpha = 255,
-												OffsetX = 0,
-												OffsetY = 0,
-											},
-											fontSize = "22",
-											fontStroke = 
-											{
-												IsStroke = false,
-												StrokeColor = "#FFE6E6E6",
-												StrokeSize = 1,
-											},
-											height = "0",
-											ignoreSize = "False",
-											name = "Label_medal_name",
-											nTextAlign = "0",
-											nTextHAlign = "1",
-											sizepercentx = "0",
-											sizepercenty = "0",
-											sizeType = "0",
-											srcBlendFunc = "770",
-											text = "Medallón de prueba Alpha",
-											touchAble = "False",
-											touchScaleEnable = "False",
-											UILayoutViewModel = 
-											{
-												PositionY = -112,
-											},
-											width = "154",
-											ZOrder = "1",
-										},
-										{
 											controlID = "Image_medal_icon_Panel_content_Panel_medal_item_Panel_prefab_Panel-playerSetting_Layer1_playerInfo_Game",
 											UUID = "d3cf804a_cedc_43f7_8eab_cbaeaca77fe8",
 											anchorPoint = "False",
@@ -8513,6 +8467,51 @@ local t =
 												nType = "0"
 											},
 											width = "160",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Label_medal_name_Panel_content_Panel_medal_item_Panel_prefab_Panel-playerSetting_Layer1_playerInfo_Game",
+											UUID = "f537a386_d958_47ff_bbd1_67b347542b20",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FF2D3141",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "22",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "0",
+											ignoreSize = "False",
+											name = "Label_medal_name",
+											nTextAlign = "0",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "Medallón de prueba Alpha",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionY = -112,
+											},
+											width = "154",
 											ZOrder = "1",
 										},
 									},

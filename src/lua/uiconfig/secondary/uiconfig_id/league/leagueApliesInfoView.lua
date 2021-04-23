@@ -415,7 +415,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_decline_all",
 											nTextAlign = "1",
@@ -431,7 +431,7 @@ local t =
 											{
 												
 											},
-											width = "130",
+											width = "99",
 											ZOrder = "1",
 										},
 									},

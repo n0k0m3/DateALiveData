@@ -245,7 +245,7 @@ local t =
 						
 						{
 							controlID = "Image_bubble_Panel_npc_Panel-actor_prefab_znq_yly_activity_Game",
-							UUID = "45ee7f58_3e48_43c8_9c19_768c9f89962f",
+							UUID = "a4cd6fcc_c25c_4dd8_b0e6_0ec767d0353e",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0",

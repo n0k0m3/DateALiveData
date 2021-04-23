@@ -60,6 +60,9 @@ end
 
 function TTFLive2D:startActionEventTimer()
 	self.actionEventtimer_ = TFDirector:addTimer(0, -1, nil, function(dt)
+		if not self.newActionEventTime then
+			self.newActionEventTime = 0
+		end
         self.newActionEventTime = self.newActionEventTime + dt
         if self.curActionEvents then
         	for eventId,time in pairs(self.curActionEvents) do
@@ -168,12 +171,9 @@ function TTFLive2D:onTap(sender, idx, x, y)
 
 	if #checkStr > 0 and self.isSendTouch then
 		local event;
-		if self.showEffect then
+		if self.curTouchPart then
 			event = self.curTouchPart
-			self.showEffect = false
-			sender:timeOut(function()   
-				self.showEffect = true
-			end,part.desTime)
+			self.curTouchPart = nil
 		end
 		EventMgr:dispatchEvent(EV_DATING_EVENT.touchRole, event or {})
 		
@@ -346,8 +346,9 @@ function TTFLive2D:getRandomAction(part)
 	return partsInfo
 end
 
-function TTFLive2D:kanbanTouchEvent(live2dParts, part)
 
+function TTFLive2D:kanbanTouchEvent(live2dParts, part)
+	self.curTouchPart = nil
 	if self.lastTouchPartsName == nil then
 		self.lastTouchPartsName = live2dParts.partsName
 	elseif self.lastTouchPartsName ~= live2dParts.partsName then
@@ -373,7 +374,9 @@ function TTFLive2D:kanbanTouchEvent(live2dParts, part)
 			-- 	end
 			 	self:showKanbanLines(live2dParts)
 			-- 	live2dParts.consecutiveClicks = 0
+				self.curTouchPart = live2dParts
 			 end
+			 
 		else
 			local action1 = nil
 			local voice1 = nil
@@ -391,7 +394,9 @@ function TTFLive2D:kanbanTouchEvent(live2dParts, part)
 				partsCfg.lineStop			= partInfo.lineStop
 				partsCfg.idleToLoopDuration = partInfo.idleToLoopDuration
 				partsCfg.idleFrom			= partInfo.idleFrom
-				partsCfg.idleTo				= partInfo.idleTo				
+				partsCfg.idleTo				= partInfo.idleTo		
+				partsCfg.kanbanEffect	    = partInfo.kanbanEffect
+				partsCfg.backgroundEffect	= partInfo.backgroundEffect		
 			else
 				partsCfg.idleTo = ""
 				partsCfg.idleToLoopDuration = nil
@@ -429,8 +434,8 @@ function TTFLive2D:kanbanTouchEvent(live2dParts, part)
 			 	self:showKanbanLines(partsCfg)
 			-- 	partsCfg.consecutiveClicks = partsCfg.consecutiveClicks + 1
 				self.curIdleActionName = partsCfg.idleFrom
+				self.curTouchPart = partsCfg
 			end
-			
 		end
 		
 		self.curTouchPart = live2dParts
@@ -741,9 +746,10 @@ function TTFLive2D:playClipOut()
         end,0)
 end
 
-local TFLive2dTimer = nil;
+local TFLive2dTimer = {};
 function TTFLive2D:addRenderTexture()
-	local tx = CCRenderTexture:create(self:getSize().width,self:getSize().height)
+	local renderSize = self.getSize and self:getSize() or {width = 500,height = 300}
+	local tx = CCRenderTexture:create(renderSize.width,renderSize.height)
 	tx:begin();
 	self:visit();
 	tx:endToLua();
@@ -763,12 +769,19 @@ function TTFLive2D:addRenderTexture()
 	local function delayToGame(dt)
 
 		if tolua.isnull(self) then
-			TFDirector:removeTimer(TFLive2dTimer);
-	    	self.timer_ = nil
-	    	TFLive2dTimer = nil;
+			for i = #TFLive2dTimer,1,-1 do
+				local tb = TFLive2dTimer[i]
+				if tolua.isnull(tb.obj) then
+					TFDirector:removeTimer(tb.timer)
+					table.remove(TFLive2dTimer,i)
+				end
+			end
 	    	return;
 		end
-
+		if not self.timer_ then
+			return
+		end
+		self:stopTimer()
 		self:show()
 		local tx = CCRenderTexture:create(self:getSize().width,self:getSize().height)
 		tx:begin();
@@ -779,9 +792,9 @@ function TTFLive2D:addRenderTexture()
 		sp:setTexture(tx:getSprite():getTexture());
 		--self:stopTimer()
 	end
-	self.timer_ = TFDirector:addTimer(10, -1, nil, delayToGame)
-	TFLive2dTimer = self.timer_;
-
+	self:stopTimer()
+	self.timer_ = TFDirector:addTimer(10, 1, nil, delayToGame)
+	table.insert(TFLive2dTimer,{ obj = self, timer_ = self.timer_})
 	return sp
 end
 
@@ -812,7 +825,12 @@ function TTFLive2D:stopTimer()
 	if self.timer_ then
 	    TFDirector:removeTimer(self.timer_)
 	    self.timer_ = nil
-	    TFLive2dTimer = nil;
+	    for k,v in pairs(TFLive2dTimer) do
+	    	if self == v.obj then
+	    		table.remove(TFLive2dTimer,k)
+	    		break;
+	    	end
+	    end
 	end
 end
 
@@ -1062,12 +1080,12 @@ function ElvesNpc:createLive2dNpcID(modelId,isTouch,isSendTouch,defaultAcName,is
 	print("ElvesNpc:createLive2dNpcID roleInfo: ",roleInfo)
 
 	_ElvesNpc.live2d = TTFLive2D:createWithRole(roleInfo, isMainLayer)
+
 	if not TFFileUtil:existFile(roleInfo.rolePath  .."/" ..roleInfo.roleName) then
 		local errMsg = string.format("ElvesNpc:createLive2dNpcID modelId = %s roleInfo.rolePath  =%s roleInfo.roleName=%s  not exit resource!",tostring(modelId),tostring(roleInfo.rolePath),tostring(roleInfo.roleName))
 		Bugly:ReportLuaException(errMsg)
 		return
 	end
-
 
 	local node = CCNode:create():Size(CCSizeMake(2000,2000))
 	node:OnBegan(function(sender, pos)
@@ -1103,6 +1121,9 @@ function ElvesNpc:getModelBindVoicePath(modelId,actionName)
 	local str = string.format("%s/%s",modelData.rolePath,modelData.roleName)
 	local jsonContent = io.readfile(str)
 	local data         = json.decode(jsonContent) --模型数据
+	if not data then
+		return "modle/bust/sounds/TOUKA_02.mp3"
+	end
 	local newAddStr = "newPath/"
 	local motions  = data.motions or data.FileReferences.Motions
 	if motions and motions[actionName] and motions[actionName][1] then

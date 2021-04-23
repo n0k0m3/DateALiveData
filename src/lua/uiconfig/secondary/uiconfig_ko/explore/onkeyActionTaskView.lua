@@ -224,7 +224,7 @@ local t =
 									{
 										PositionY = -2,
 									},
-									width = "51",
+									width = "45",
 									ZOrder = "1",
 								},
 							},
@@ -264,7 +264,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "派遣确认",
+							text = "파견 확인",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -272,7 +272,7 @@ local t =
 								PositionX = 74,
 								PositionY = 547,
 							},
-							width = "115",
+							width = "109",
 							ZOrder = "1",
 							components = 
 							{
@@ -297,7 +297,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 118,
+										PositionX = 110,
 										PositionY = 1,
 										IsPercent = true,
 										PercentX = 101,
@@ -463,14 +463,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_taskName",
 									nTextAlign = "1",
@@ -487,7 +487,7 @@ local t =
 										PositionX = 9,
 										PositionY = 114,
 									},
-									width = "159",
+									width = "103",
 									ZOrder = "1",
 								},
 								{
@@ -516,7 +516,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "24",
 									ignoreSize = "True",
 									name = "Label_tip1",
 									nTextAlign = "1",
@@ -525,7 +525,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "概率奖励",
+									text = "확률 보상",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -533,7 +533,7 @@ local t =
 										PositionX = 399,
 										PositionY = 114,
 									},
-									width = "90",
+									width = "93",
 									ZOrder = "1",
 								},
 								{
@@ -562,7 +562,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "24",
 									ignoreSize = "True",
 									name = "Label_tip2",
 									nTextAlign = "1",
@@ -571,7 +571,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "额外奖励",
+									text = "추가 보상",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -579,7 +579,7 @@ local t =
 										PositionX = 705,
 										PositionY = 114,
 									},
-									width = "90",
+									width = "93",
 									ZOrder = "1",
 								},
 								{
@@ -939,14 +939,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "当前精灵",
+											text = "현재 정령",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -1,
 											},
-											width = "85",
+											width = "79",
 											ZOrder = "1",
 										},
 									},
@@ -1015,14 +1015,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "派遣中",
+											text = "파견 중",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -1,
 											},
-											width = "63",
+											width = "62",
 											ZOrder = "1",
 										},
 									},

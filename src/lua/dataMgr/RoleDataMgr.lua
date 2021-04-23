@@ -1,5 +1,6 @@
 local BaseDataMgr = import(".BaseDataMgr")
 local RoleDataMgr = class("RoleDataMgr", BaseDataMgr)
+local UserDefalt = CCUserDefault:sharedUserDefault()
 
 function RoleDataMgr:ctor()
     self.roleTable = clone(TabDataMgr:getData("Role"));
@@ -17,6 +18,7 @@ function RoleDataMgr:ctor()
 end
 
 function RoleDataMgr:init()
+    TFDirector:addProto(s2c.ROLE_ROLE_INFO_LIST, self, self.roleHandle)
     TFDirector:addProto(s2c.ROLE_ROLE_INFO, self, self.roleInfoChange)
     TFDirector:addProto(s2c.ROLE_SWITCH_ROLE_RESULT, self, self.switchRoleHandle)
     TFDirector:addProto(s2c.ROLE_TOUCH_ROLE, self, self.onTouchRoleHandle)
@@ -64,7 +66,6 @@ end
 function RoleDataMgr:onLogin()
     self:resetLogin()
 
-    TFDirector:addProto(s2c.ROLE_ROLE_INFO_LIST, self, self.roleHandle)
     TFDirector:send(c2s.ROLE_GET_ROLE, {})
     TFDirector:send(c2s.EXTRA_DATING_REQ_FAVOR_DATING_ROLE_STATUE, {})
     TFDirector:send(c2s.EXTRA_DATING_REQ_FAVOR_DATING_AWARD,{})
@@ -656,12 +657,17 @@ function RoleDataMgr:favorToLevel(favor,cid)
 end
 
 function RoleDataMgr:dressFindModel(dressId)
+	local ret
     local dressTable = TabDataMgr:getData("Dress")
     self.data = dressTable[dressId]
     if self.data then
-        return self.data.roleModel
+		if self.data.type == 1 then
+			ret = self.data.roleModel
+		else
+			ret = self.data.highRoleModel
+		end
     end
-    return nil
+    return ret
 end
 
 --切換看板娘請求（使用）
@@ -699,17 +705,20 @@ end
 function RoleDataMgr:switchRoleHandle(event)
     if event.data then
         local roleInfo = event.data.Rolestatus
-        local roleId = roleInfo[1].roleId
-        local status = roleInfo[1].status
-        for k,v in pairs(self.roleTable) do
-            if v.sid and v.sid == roleId then
-                v.status = status
-                self.useId = v.id
-				print("设置USE_id")
-            else
-                v.status = 0
+        for i,info in ipairs(roleInfo) do
+            local roleId = info.roleId
+            local status = info.status
+            for k,v in pairs(self.roleTable) do
+                if v.sid and tonumber(v.sid) == tonumber(roleId) and status == 1 then
+                    v.status = status
+                    self.useId = v.id
+                    print("设置USE_id")
+                else
+                    v.status = 0
+                end
             end
         end
+        
         EventMgr:dispatchEvent(EV_DATING_EVENT.refreshRoleModel)
         self:initShowList();
         EventMgr:dispatchEvent(EV_DATING_EVENT.switchRole)
@@ -896,6 +905,7 @@ function RoleDataMgr:getCurId()
 end
 
 function RoleDataMgr:getRoleCount()
+    if not self.showList then return 0 end
     return table.count(self.showList);
 end
 
@@ -1041,7 +1051,11 @@ end
 
 function RoleDataMgr:getRoleInfo(id)
     id = id or self:getCurId()
-    return self.roleTable[id]
+    local role = self.roleTable[id]
+    if not role then
+        return self.roleTable[101]
+    end
+    return role
 end
 
 function RoleDataMgr:getMainIconPath(id,idx)
@@ -1151,7 +1165,6 @@ function RoleDataMgr:getDressIdList(roleId)
     local useDressId = useRoleInfo.dressId
     local dressIdList = {}
 	local dressTable = TabDataMgr:getData("Dress")
-	local unlock = GoodsDataMgr:getDress(value)
     for i,v in ipairs(useRoleInfo.dressIdList) do
 		local id = v
 		local exsit = false
@@ -1189,6 +1202,36 @@ function RoleDataMgr:getDressIdList(roleId)
 			table.insert(dressIdList, id)
 		end
     end
+	
+	--试用时装的处理:试用时装存在的时候,列表不显示正式时装;试用和正式都存在的时候不显示试用时装
+	local tempList = {}
+	for i=#dressIdList, 1, -1 do
+		local dressId = dressIdList[i]
+		local cfg = GoodsDataMgr:getItemCfg(dressId)		
+		if cfg.masterId ~= 0 then
+			local dressInfo = GoodsDataMgr:getDress(dressId)			
+			local MasterExsit = GoodsDataMgr:getDress(cfg.masterId)
+			if dressInfo and not MasterExsit then	
+				local bOutTime = dressInfo.outTime > ServerDataMgr:getServerTime()
+				if bOutTime then
+					table.insert(tempList, dressId)
+				else
+					table.remove(dressIdList, i)
+				end
+			else
+				table.remove(dressIdList, i)
+			end
+		end
+	end
+
+	for i,v in ipairs(tempList) do
+		local cfg = GoodsDataMgr:getItemCfg(v)	
+		local index = table.indexOf(dressIdList, cfg.masterId)	
+		if index ~= -1 then
+			table.remove(dressIdList,index)
+		end
+	end
+	--排序
     local function sortFunc(a,b)
         local aIsHave = GoodsDataMgr:getDress(a)
         local bIsHave = GoodsDataMgr:getDress(b)
@@ -1264,6 +1307,9 @@ end
 
 function RoleDataMgr:getFavorMaxLv(id)
     local npcInfo = self.roleTable[id]
+    if not npcInfo then
+        return 1
+    end
     return #npcInfo.favorLevels-1
 end
 
@@ -1433,6 +1479,7 @@ end
 
 function RoleDataMgr:changeDressHandle(event)
     if event.data then
+		RoleSwitchDataMgr:setFirstFlag(false)
         EventMgr:dispatchEvent(EV_DATING_EVENT.changeDress)
     else
         -- toastMessage("换装失败")
@@ -1490,6 +1537,18 @@ function RoleDataMgr:refreshRoleInfo(roleInfo)
         end
     end
 
+end
+
+function RoleDataMgr:getRoleIdByDressId(dress)
+	for k,v in pairs(self.roleTable) do
+        local id = k
+        for idx,dressId in ipairs(self.roleTable[id].dress) do
+            if dress == dressId then
+                return id
+            end
+        end
+    end
+	return nil
 end
 
 function RoleDataMgr:resetRoleInfo(roleInfo)

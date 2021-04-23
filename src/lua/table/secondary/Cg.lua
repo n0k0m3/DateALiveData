@@ -2340,7 +2340,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "联动地错-双人浴场",
+        video = "",
     },
     [910405] = {
         type = 1,
@@ -2362,7 +2362,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "dab剧场-狂三纱和1",
+        video = "",
     },
     [910406] = {
         type = 1,
@@ -2384,7 +2384,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "dab剧场-狂三纱和3",
+        video = "",
     },
     [910407] = {
         type = 1,
@@ -2406,7 +2406,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "dab剧场-纱和1",
+        video = "",
     },
     [1111033] = {
         type = 1,
@@ -2417,7 +2417,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "dab剧场-纱和2",
+        video = "",
     },
     [1111034] = {
         type = 1,
@@ -2428,7 +2428,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "dab剧场-白王狂三双人",
+        video = "",
     },
     [1111035] = {
         type = 1,
@@ -2439,7 +2439,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "冒险猫咖啡-照片墙",
+        video = "",
     },
     [1111036] = {
         type = 1,
@@ -2450,7 +2450,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "冒险猫咖啡-狂三",
+        video = "",
     },
     [1111037] = {
         type = 1,
@@ -2461,7 +2461,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "春节2021除夕合影",
+        video = "",
     },
     [1111038] = {
         type = 1,
@@ -2472,7 +2472,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "春节2021乐园",
+        video = "",
     },
     [1111039] = {
         type = 1,
@@ -2483,7 +2483,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "春节2021狂三单人",
+        video = "",
     },
     [1111040] = {
         type = 1,
@@ -2494,7 +2494,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "园神剧场-凛绪秋千",
+        video = "",
     },
     [1111041] = {
         type = 1,
@@ -2505,7 +2505,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "园神剧场-双人1",
+        video = "",
     },
     [1111042] = {
         type = 1,
@@ -2516,7 +2516,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "园神剧场-双人2",
+        video = "",
     },
     [1111043] = {
         type = 1,
@@ -2527,7 +2527,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "园神剧场-凛祢厨房",
+        video = "",
     },
     [1111044] = {
         type = 1,
@@ -2538,7 +2538,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "园神剧场-凛祢回眸",
+        video = "",
     },
     [70] = {
         type = 1,
@@ -4749,7 +4749,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "dab剧场-狂三纱和2",
+        video = "",
     },
     [910101] = {
         type = 1,
@@ -4759,7 +4759,7 @@ return {
         cg = "date_cg_87",
         backGround = "",
         cg2 = "",
-        cg4 = "date_cg_87_01",
+        cg4 = "",
         video = "",
     },
     [910103] = {
@@ -5001,8 +5001,8 @@ return {
         cg = "",
         backGround = "",
         cg2 = "",
-        cg4 = "video/dab_pk.mp4",
-        video = "dab剧场-对决视频",
+        cg4 = "",
+        video = "video/dab_pk.mp4",
     },
     [2000012] = {
         type = 1,
@@ -5255,7 +5255,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "联动地错-赫斯缇雅从天而降",
+        video = "",
     },
     [1010701] = {
         type = 1,
@@ -5277,7 +5277,7 @@ return {
         backGround = "",
         cg2 = "",
         cg4 = "",
-        video = "联动地错-艾丝膝枕",
+        video = "",
     },
     [1010702] = {
         type = 1,

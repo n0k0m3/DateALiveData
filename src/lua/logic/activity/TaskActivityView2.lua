@@ -134,8 +134,6 @@ function TaskActivityView:updateActivity()
         table.insert(self.taskData_,v.id)
     end
 
-    
-
     self.ListView_task:AsyncUpdateItem(self.taskData_,function ( ... )
         return self:addTaskItem()
     end, function (v, data)

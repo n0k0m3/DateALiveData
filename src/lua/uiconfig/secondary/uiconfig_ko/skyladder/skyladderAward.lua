@@ -266,7 +266,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "35",
+															height = "32",
 															ignoreSize = "True",
 															name = "Label_btn_1",
 															nTextAlign = "1",
@@ -282,7 +282,7 @@ local t =
 															{
 																PositionY = 3,
 															},
-															width = "114",
+															width = "104",
 															ZOrder = "1",
 														},
 														{
@@ -327,7 +327,7 @@ local t =
 															{
 																PositionY = -20,
 															},
-															width = "91",
+															width = "81",
 															ZOrder = "1",
 														},
 													},
@@ -390,7 +390,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "35",
+															height = "32",
 															ignoreSize = "True",
 															name = "Label_btn_1",
 															nTextAlign = "1",
@@ -406,7 +406,7 @@ local t =
 															{
 																PositionY = 3,
 															},
-															width = "114",
+															width = "104",
 															ZOrder = "1",
 														},
 														{
@@ -451,7 +451,7 @@ local t =
 															{
 																PositionY = -20,
 															},
-															width = "124",
+															width = "117",
 															ZOrder = "1",
 														},
 													},
@@ -516,7 +516,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -525,7 +525,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "奖励预览",
+									text = "보상 미리보기",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -533,7 +533,7 @@ local t =
 										PositionX = -493,
 										PositionY = 209,
 									},
-									width = "123",
+									width = "171",
 									ZOrder = "1",
 									components = 
 									{
@@ -558,8 +558,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 129,
-												PositionY = 1,
+												PositionX = 177,
+												PositionY = 2,
 											},
 											width = "2",
 											ZOrder = "1",
@@ -584,8 +584,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 141,
-												PositionY = -2,
+												PositionX = 189,
 											},
 											width = "14",
 											ZOrder = "1",
@@ -630,8 +629,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 167,
-												PositionY = -3,
+												PositionX = 215,
+												PositionY = -1,
 											},
 											width = "67",
 											ZOrder = "1",
@@ -701,14 +700,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "提示信息提示信息提示信息提示信息提示信息提示信息",
+											text = "알림 정보",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 17,
 											},
-											width = "483",
+											width = "79",
 											ZOrder = "1",
 										},
 									},
@@ -876,7 +875,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_stage_name",
 											nTextAlign = "1",
@@ -893,7 +892,7 @@ local t =
 												PositionX = -238,
 												PositionY = 6,
 											},
-											width = "100",
+											width = "69",
 											ZOrder = "1",
 											components = 
 											{
@@ -941,7 +940,7 @@ local t =
 													{
 														PositionY = -21,
 													},
-													width = "68",
+													width = "67",
 													ZOrder = "1",
 												},
 											},
@@ -986,10 +985,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -118,
+												PositionX = -130,
 												PositionY = 12,
 											},
-											width = "111",
+											width = "129",
 											ZOrder = "1",
 										},
 										{
@@ -1018,7 +1017,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "22",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_taget",
 											nTextAlign = "1",
@@ -1032,10 +1031,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -7,
+												PositionX = 15,
 												PositionY = 12,
 											},
-											width = "65",
+											width = "75",
 											ZOrder = "1",
 										},
 										{
@@ -1064,8 +1063,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_stage_desc2",
 											nTextAlign = "1",
 											nTextHAlign = "0",
@@ -1073,15 +1072,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "的玩家将获得此道具",
+											text = "의 유저는 이 아이템 획득할 예정입니다",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -119,
-												PositionY = -10,
+												PositionX = -131,
+												PositionY = -22,
 											},
-											width = "165",
+											width = "221",
 											ZOrder = "1",
 										},
 										{

@@ -140,16 +140,6 @@ local t = {
 			logic="",
 		},
 		{
-			name="collectFamilyLayer",
-			ui ="collectFamilyLayer.lua",
-			x=0,
-			y=0,
-			speed=0,
-			layer="collect",
-			canLoad=true,
-			logic="",
-		},
-		{
 			name="collectRewardView",
 			ui ="collectRewardView.lua",
 			x=0,

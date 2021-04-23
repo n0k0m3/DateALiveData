@@ -370,7 +370,7 @@ local t =
 										PositionX = -402,
 										PositionY = -35,
 									},
-									width = "104",
+									width = "115",
 									ZOrder = "1",
 								},
 								{
@@ -420,30 +420,30 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "19",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_lock",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "解锁信息",
+											text = "정보 개방",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 10,
 											},
-											width = "83",
+											width = "306",
 											ZOrder = "1",
 										},
 									},
@@ -474,7 +474,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "60",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_nation_des",
 									nTextAlign = "0",
@@ -491,7 +491,7 @@ local t =
 										PositionX = -397,
 										PositionY = -62,
 									},
-									width = "280",
+									width = "330",
 									ZOrder = "1",
 								},
 								{
@@ -1250,7 +1250,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "大地图选择",
+									text = "큰 맵 선택",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1258,7 +1258,7 @@ local t =
 										PositionX = -407,
 										PositionY = 155,
 									},
-									width = "122",
+									width = "104",
 									ZOrder = "1",
 								},
 								{
@@ -1312,14 +1312,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "13",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "15",
 											ignoreSize = "True",
 											name = "Label_btn",
 											nTextAlign = "1",
@@ -1328,7 +1328,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "探索文明",
+											text = "문명 탐색",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1336,7 +1336,7 @@ local t =
 												PositionX = 2,
 												PositionY = -1,
 											},
-											width = "82",
+											width = "55",
 											ZOrder = "1",
 										},
 									},
@@ -1384,7 +1384,7 @@ local t =
 										PositionX = -407,
 										PositionY = 137,
 									},
-									width = "86",
+									width = "81",
 									ZOrder = "1",
 								},
 								{
@@ -1456,7 +1456,7 @@ local t =
 											{
 												
 											},
-											width = "104",
+											width = "115",
 											ZOrder = "1",
 										},
 									},
@@ -1656,7 +1656,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "知识点:",
+									text = "지식 포인트:",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1665,7 +1665,7 @@ local t =
 										PositionY = -136,
 									},
 									visible = "False",
-									width = "67",
+									width = "102",
 									ZOrder = "1",
 								},
 								{
@@ -1712,7 +1712,7 @@ local t =
 										PositionY = -136,
 									},
 									visible = "False",
-									width = "59",
+									width = "57",
 									ZOrder = "1",
 								},
 								{
@@ -1782,7 +1782,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "探索掉落",
+											text = "탐색 드랍",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1790,7 +1790,7 @@ local t =
 												PositionX = -18,
 												PositionY = -1,
 											},
-											width = "75",
+											width = "73",
 											ZOrder = "1",
 										},
 										{
@@ -1871,14 +1871,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "13",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "15",
 											ignoreSize = "True",
 											name = "Label_btn",
 											nTextAlign = "1",
@@ -1887,7 +1887,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "返回文明",
+											text = "문명으로 돌아가기",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1895,7 +1895,7 @@ local t =
 												PositionX = 2,
 												PositionY = -1,
 											},
-											width = "82",
+											width = "102",
 											ZOrder = "1",
 										},
 									},
@@ -1961,15 +1961,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "【大地图选择",
+									text = "[큰 맵 선택",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -419,
+										PositionX = -408,
 										PositionY = 154,
 									},
-									width = "146",
+									width = "115",
 									ZOrder = "1",
 								},
 								{
@@ -2138,7 +2138,7 @@ local t =
 										PositionX = -405,
 										PositionY = 136,
 									},
-									width = "86",
+									width = "81",
 									ZOrder = "1",
 								},
 								{
@@ -2208,7 +2208,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "快速探索",
+											text = "쾌속 탐색",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2216,7 +2216,7 @@ local t =
 												PositionX = 16,
 												PositionY = -1,
 											},
-											width = "74",
+											width = "72",
 											ZOrder = "1",
 										},
 										{
@@ -2309,7 +2309,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "森林",
+											text = "숲",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2317,7 +2317,7 @@ local t =
 												PositionX = 9,
 												PositionY = -2,
 											},
-											width = "43",
+											width = "21",
 											ZOrder = "1",
 										},
 										{
@@ -2481,7 +2481,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "获得20%的加成",
+															text = "보너스 20% 획득",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -2527,7 +2527,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "获得20%的加成",
+															text = "보너스 20% 획득",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -2535,7 +2535,7 @@ local t =
 																PositionX = -149,
 																PositionY = 67,
 															},
-															width = "126",
+															width = "124",
 															ZOrder = "1",
 														},
 														{
@@ -2664,7 +2664,7 @@ local t =
 									{
 										PositionY = -42,
 									},
-									width = "65",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -2825,7 +2825,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "探索掉落",
+											text = "탐색 드랍",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2833,7 +2833,7 @@ local t =
 												PositionX = -198,
 												PositionY = 128,
 											},
-											width = "107",
+											width = "106",
 											ZOrder = "1",
 										},
 										{
@@ -2973,7 +2973,7 @@ local t =
 												PositionX = -109,
 												PositionY = 128,
 											},
-											width = "44",
+											width = "45",
 											ZOrder = "1",
 										},
 										{
@@ -3039,14 +3039,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "掉落道具",
+													text = "아이템 드랍",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = -220,
 													},
-													width = "91",
+													width = "104",
 													ZOrder = "1",
 												},
 											},
@@ -3254,14 +3254,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "13",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "15",
 											ignoreSize = "True",
 											name = "Label_btn",
 											nTextAlign = "1",
@@ -3278,7 +3278,7 @@ local t =
 												PositionX = 4,
 												PositionY = -1,
 											},
-											width = "66",
+											width = "50",
 											ZOrder = "1",
 										},
 									},
@@ -3344,12 +3344,12 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "世界之眼",
+									text = "세계의 눈",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -401,
+										PositionX = -400,
 										PositionY = 154,
 									},
 									width = "98",
@@ -3418,7 +3418,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "强袭",
+											text = "강습",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -3426,7 +3426,7 @@ local t =
 												PositionX = -24,
 												PositionY = -1,
 											},
-											width = "43",
+											width = "39",
 											ZOrder = "1",
 										},
 									},
@@ -3474,7 +3474,7 @@ local t =
 										PositionX = -398,
 										PositionY = 137,
 									},
-									width = "86",
+									width = "81",
 									ZOrder = "1",
 								},
 								{
@@ -3604,14 +3604,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "14",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "16",
 											ignoreSize = "True",
 											name = "Label_system_name",
 											nTextAlign = "1",
@@ -3620,7 +3620,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "武器系统",
+											text = "무기 시스템무기 ",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -3628,7 +3628,7 @@ local t =
 												PositionX = 7,
 												PositionY = -2,
 											},
-											width = "82",
+											width = "97",
 											ZOrder = "1",
 										},
 									},
@@ -3839,7 +3839,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "采集舱容量",
+																	text = "채집실 용량",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
@@ -3847,7 +3847,7 @@ local t =
 																		PositionX = 14,
 																		PositionY = 16,
 																	},
-																	width = "103",
+																	width = "97",
 																	ZOrder = "1",
 																},
 																{
@@ -3869,14 +3869,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "14",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "21",
+																	height = "16",
 																	ignoreSize = "True",
 																	name = "Label_attr_value",
 																	nTextAlign = "1",
@@ -3885,7 +3885,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "1000 1000",
+																	text = "100",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
@@ -3893,7 +3893,7 @@ local t =
 																		PositionX = 142,
 																		PositionY = 14,
 																	},
-																	width = "80",
+																	width = "25",
 																	ZOrder = "1",
 																},
 																{
@@ -3915,14 +3915,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "14",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "21",
+																	height = "16",
 																	ignoreSize = "True",
 																	name = "Label_attr_add",
 																	nTextAlign = "1",
@@ -3939,7 +3939,7 @@ local t =
 																		PositionX = 253,
 																		PositionY = 14,
 																	},
-																	width = "40",
+																	width = "32",
 																	ZOrder = "1",
 																},
 																{
@@ -4071,7 +4071,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "采集舱容量",
+																	text = "채집실 용량",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
@@ -4079,7 +4079,7 @@ local t =
 																		PositionX = 14,
 																		PositionY = 16,
 																	},
-																	width = "103",
+																	width = "97",
 																	ZOrder = "1",
 																},
 																{
@@ -4101,14 +4101,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "14",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "21",
+																	height = "16",
 																	ignoreSize = "True",
 																	name = "Label_attr_value",
 																	nTextAlign = "1",
@@ -4117,7 +4117,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "1000 1000",
+																	text = "100",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
@@ -4125,7 +4125,7 @@ local t =
 																		PositionX = 142,
 																		PositionY = 14,
 																	},
-																	width = "80",
+																	width = "25",
 																	ZOrder = "1",
 																},
 																{
@@ -4147,14 +4147,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "14",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "21",
+																	height = "16",
 																	ignoreSize = "True",
 																	name = "Label_attr_add",
 																	nTextAlign = "1",
@@ -4171,7 +4171,7 @@ local t =
 																		PositionX = 253,
 																		PositionY = 14,
 																	},
-																	width = "40",
+																	width = "32",
 																	ZOrder = "1",
 																},
 																{
@@ -4239,7 +4239,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "探索属性",
+													text = "속성 탐색",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -4247,7 +4247,7 @@ local t =
 														PositionX = -111,
 														PositionY = 31,
 													},
-													width = "82",
+													width = "81",
 													ZOrder = "1",
 													components = 
 													{
@@ -4345,7 +4345,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "战斗属性",
+													text = "전투 속성",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -4353,7 +4353,7 @@ local t =
 														PositionX = -111,
 														PositionY = 80,
 													},
-													width = "82",
+													width = "80",
 													ZOrder = "1",
 													components = 
 													{
@@ -4570,14 +4570,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "17",
 											ignoreSize = "True",
 											name = "Label_equip_des",
 											nTextAlign = "0",
@@ -4586,7 +4586,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "每回合有238%概率发射6枚导",
+											text = "턴마다 238%의 확률로 미사일 6개 발사",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -4594,7 +4594,7 @@ local t =
 												PositionX = 7,
 												PositionY = -8,
 											},
-											width = "236",
+											width = "234",
 											ZOrder = "1",
 										},
 									},
@@ -4843,7 +4843,7 @@ local t =
 															{
 																
 															},
-															width = "100",
+															width = "91",
 															ZOrder = "1",
 														},
 													},
@@ -5184,7 +5184,7 @@ local t =
 													{
 														
 													},
-													width = "79",
+													width = "71",
 													ZOrder = "1",
 												},
 											},
@@ -5443,7 +5443,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "采集舱容量",
+											text = "채집실 용량",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -5451,7 +5451,7 @@ local t =
 												PositionX = 13,
 												PositionY = 16,
 											},
-											width = "103",
+											width = "97",
 											ZOrder = "1",
 										},
 										{
@@ -5473,14 +5473,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "14",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "16",
 											ignoreSize = "True",
 											name = "Label_attr_value",
 											nTextAlign = "1",
@@ -5489,7 +5489,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "1000 1000",
+											text = "100000",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -5497,7 +5497,7 @@ local t =
 												PositionX = 142,
 												PositionY = 14,
 											},
-											width = "80",
+											width = "49",
 											ZOrder = "1",
 										},
 										{
@@ -5519,14 +5519,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "14",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "16",
 											ignoreSize = "True",
 											name = "Label_attr_add",
 											nTextAlign = "1",
@@ -5535,7 +5535,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "+100",
+											text = "+10000",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -5543,7 +5543,7 @@ local t =
 												PositionX = 253,
 												PositionY = 14,
 											},
-											width = "40",
+											width = "48",
 											ZOrder = "1",
 										},
 										{
@@ -5714,7 +5714,7 @@ local t =
 											{
 												PositionY = -49,
 											},
-											width = "16",
+											width = "22",
 											ZOrder = "1",
 										},
 									},

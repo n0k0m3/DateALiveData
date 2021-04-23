@@ -352,8 +352,6 @@ function FairyTrailDetailsLayer:initUI(ui)
 
 
 
-
-
 	for i,v in ipairs(self.tabButtons) do
 		v.btn:setTexturePressed(self.tabRes[v.id].select);
 	end

@@ -168,7 +168,9 @@ function FavorUpgradeLayer:initElvesNpc()
     --self.elvesNpc:setVisible(false)
 
     self.speData = clone(speAcData[RoleDataMgr:getCurId()])
-
+    if not self.speData then
+        return
+    end
     local upgradeName = self.speData["upgrade"].action
     -- local time = self.speData["upgrade"].actionTime
     self.elvesNpc:newStartAction(upgradeName,EC_PRIORITY.FORCE)

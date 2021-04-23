@@ -28,9 +28,12 @@ function ServerListView:initUI(ui)
     self.ListView_groupList:setItemsMargin(6)
 
     self.Button_serverListItem = TFDirector:getChildByPath(self.Panel_prefab, "Button_serverListItem")
-    if TFGlobalUtils:isConnectEnServer() then
+    if TFGlobalUtils:isConnectEnServer() or TFGlobalUtils:isConnectKoreaTwServer() then
         self.Button_serverListItem:setTextureNormal("ui/login/new1/b7.png")
         self.Button_serverListItem:setTexturePressed("ui/login/new1/b7.png")
+    elseif TFGlobalUtils:isConnectMiniServer() then
+        self.Button_serverListItem:setTextureNormal("ui/login/7.png")
+        self.Button_serverListItem:setTexturePressed("ui/login/7.png")
     end
 
     self:refreshView()
@@ -46,8 +49,7 @@ function ServerListView:showServerGroup()
         self.ListView_groupList:pushBackCustomItem(item)
         local Label_name = TFDirector:getChildByPath(item, "Label_name")
 
-        if (_group.groupType == GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE) then
-
+        if (_group.groupType == GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE) or (_group.groupType == GLOBAL_SERVER_LIST.SERVER_KOREA_TW) then
             local imgNew = TFImage:create("ui/recharge/new.png")
             imgNew:setPosition(80 , 20)
             item:addChild(imgNew)

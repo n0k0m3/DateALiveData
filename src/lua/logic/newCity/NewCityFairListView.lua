@@ -179,6 +179,7 @@ function NewCityFairListView:onCreateFairList()
                 --if self.fairclickfunc then
                 --    self.fairclickfunc(v)
                 --end
+				GameGuide:checkGuideEnd(self.guideFuncId)
             end)
             self.ListView_fair:pushBackCustomItem(fairitem)
         end

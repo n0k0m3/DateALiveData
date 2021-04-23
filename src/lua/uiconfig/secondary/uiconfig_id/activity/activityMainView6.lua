@@ -5,7 +5,7 @@ local t =
 	{
 		
 		{
-			controlID = "Panel-activityMainView6_kuangsanAssist_activity_Game",
+			controlID = "Panel-activityMainView6_activityStyleModel_activity_Game",
 			UUID = "226a6866_0a0e_43aa_bbac_a53ee9b3f4a4",
 			anchorPoint = "False",
 			anchorPointX = "0",
@@ -46,7 +46,7 @@ local t =
 			{
 				
 				{
-					controlID = "Panel_root_Panel-activityMainView6_kuangsanAssist_activity_Game",
+					controlID = "Panel_root_Panel-activityMainView6_activityStyleModel_activity_Game",
 					UUID = "6908e524_e116_4003_9f73_a2fce32d57c1",
 					anchorPoint = "False",
 					anchorPointX = "0.5",
@@ -88,7 +88,7 @@ local t =
 					{
 						
 						{
-							controlID = "Image_bg_Panel_root_Panel-activityMainView6_kuangsanAssist_activity_Game",
+							controlID = "Image_bg_Panel_root_Panel-activityMainView6_activityStyleModel_activity_Game",
 							UUID = "1b12ea8d_075a_4525_b425_de990e53a812",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
@@ -115,7 +115,7 @@ local t =
 							ZOrder = "1",
 						},
 						{
-							controlID = "Panel_activity_Panel_root_Panel-activityMainView6_kuangsanAssist_activity_Game",
+							controlID = "Panel_activity_Panel_root_Panel-activityMainView6_activityStyleModel_activity_Game",
 							UUID = "c2ab306c_e869_45f9_900b_7ef2fc6adc02",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
@@ -151,7 +151,7 @@ local t =
 							ZOrder = "1",
 						},
 						{
-							controlID = "ScrollView_activity_Panel_root_Panel-activityMainView6_kuangsanAssist_activity_Game",
+							controlID = "ScrollView_activity_Panel_root_Panel-activityMainView6_activityStyleModel_activity_Game",
 							UUID = "bfb414dd_9328_4c26_88b8_47b99739d335",
 							anchorPoint = "False",
 							anchorPointX = "0",
@@ -191,7 +191,7 @@ local t =
 					},
 				},
 				{
-					controlID = "Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+					controlID = "Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
 					UUID = "7b8cb005_dec5_48d3_a1fc_982ebb56224f",
 					anchorPoint = "False",
 					anchorPointX = "0.5",
@@ -234,7 +234,7 @@ local t =
 					{
 						
 						{
-							controlID = "Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+							controlID = "Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
 							UUID = "0349901c_e8ef_4ca8_862b_f3a2824e7e92",
 							anchorPoint = "False",
 							anchorPointX = "0",
@@ -271,7 +271,7 @@ local t =
 							{
 								
 								{
-									controlID = "ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+									controlID = "ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
 									UUID = "6fd4e6a6_68c7_4185_bc07_d9cc3fbbf857",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
@@ -300,7 +300,7 @@ local t =
 									{
 										
 										{
-											controlID = "Image_item_bg_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+											controlID = "Image_item_bg_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
 											UUID = "29a2e382_f289_4580_9997_950bc1f22233",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -326,7 +326,7 @@ local t =
 											ZOrder = "-1",
 										},
 										{
-											controlID = "activityName_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+											controlID = "activityName_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
 											UUID = "51730a52_e7b6_4bac_bb3c_5db8c73c5f8f",
 											anchorPoint = "False",
 											anchorPointX = "1",
@@ -371,7 +371,7 @@ local t =
 											ZOrder = "1",
 										},
 										{
-											controlID = "Image_new_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+											controlID = "Image_new_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
 											UUID = "16cbf43e_587e_4e12_82cc_adb647a77b31",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -399,7 +399,7 @@ local t =
 									},
 								},
 								{
-									controlID = "ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+									controlID = "ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
 									UUID = "15cba77b_1619_46d6_807b_c59ae36746b6",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
@@ -427,7 +427,7 @@ local t =
 									{
 										
 										{
-											controlID = "Image_item_bg_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+											controlID = "Image_item_bg_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
 											UUID = "0be83fa1_3025_4225_93d6_665459a544d2",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -453,7 +453,7 @@ local t =
 											ZOrder = "-1",
 										},
 										{
-											controlID = "activityName_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+											controlID = "activityName_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
 											UUID = "98381ecf_b38e_4ed2_9431_cc43777632fa",
 											anchorPoint = "False",
 											anchorPointX = "1",
@@ -498,7 +498,7 @@ local t =
 											ZOrder = "1",
 										},
 										{
-											controlID = "Image_new_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+											controlID = "Image_new_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
 											UUID = "e4c7c9e5_3796_4b0f_b93d_c35252d9d054",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -526,7 +526,7 @@ local t =
 									},
 								},
 								{
-									controlID = "Image_line_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+									controlID = "Image_line_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
 									UUID = "f6a79291_8533_40cf_8ec1_a638af8e3681",
 									anchorPoint = "False",
 									anchorPointX = "0.5",

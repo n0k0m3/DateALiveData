@@ -278,6 +278,7 @@ end
 function TaskDataMgr:onRecvTask(event)
     local data = event.data
     if not data.taks then return end
+    local updateCids = {}
     for i, v in ipairs(data.taks) do
         local taskCfg = self:getTaskCfg(v.cid)
         if v.ct == EC_SChangeType.DEFAULT then
@@ -290,8 +291,11 @@ function TaskDataMgr:onRecvTask(event)
             elseif v.ct == EC_SChangeType.DELETE then
                 self.taskInfo_[v.cid] = nil
             end
-            EventMgr:dispatchEvent(EV_TASK_UPDATE, v.cid)
+            table.insert(updateCids, v.cid)
         end
+    end
+    if table.count(updateCids) > 0 then
+        EventMgr:dispatchEvent(EV_TASK_UPDATE, updateCids)
     end
 end
 
@@ -483,6 +487,19 @@ function TaskDataMgr:getTrainingShopTipsState()
         progressInfo = ActivityDataMgr2:getProgressInfo(warOrderActivity.activityType, itemInfo.id)
         if progressInfo.status == EC_TaskStatus.GET then
             state = true
+        end
+    end
+    return state
+end
+
+function TaskDataMgr:getDailyAwardRedShow()
+    local state = false
+    local taskList = self:getTask(EC_TaskType.DAY_GETAWARD)
+    for i, id in ipairs(taskList) do
+        local taskInfo = self:getTaskInfo(id)
+        if taskInfo.status == EC_TaskStatus.GET then
+            state = true
+            break
         end
     end
     return state

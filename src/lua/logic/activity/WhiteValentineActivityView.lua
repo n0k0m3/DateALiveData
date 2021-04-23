@@ -42,6 +42,7 @@ function WhiteValentineActivityView:initUI( ui )
 	self.image_bg = TFDirector:getChildByPath(ui, "image_bg")
 	self.image_bg.initPosX = self.image_bg:getPositionX()
 	self.txt_num = TFDirector:getChildByPath(ui, "txt_num")
+	self.txt_tip = TFDirector:getChildByPath(ui, "txt_tip")
 
 	self.panel_item = TFDirector:getChildByPath(ui, "panel_item"):hide()
 
@@ -50,10 +51,12 @@ function WhiteValentineActivityView:initUI( ui )
 	self.Spine_effectH =TFDirector:getChildByPath(ui,"effectH")
 
 	self.time_time = TFDirector:getChildByPath(ui, "time_time")
-    self.time_time_end = TFDirector:getChildByPath(ui, "time_time_end")
+	self.time_time_end = TFDirector:getChildByPath(ui, "time_time_end")
+	
+	self.btn_get = TFDirector:getChildByPath(ui, "btn_get")
 
-	self.tab_1 = TFDirector:getChildByPath(ui, "tab_1")
-	self.tab_2 = TFDirector:getChildByPath(ui, "tab_2")
+	self.tab_1 = TFDirector:getChildByPath(ui, "tab_1"):hide()
+	self.tab_2 = TFDirector:getChildByPath(ui, "tab_2"):hide()
 	self.tab_1.index = 1
 	self.tab_2.index = 2
 
@@ -61,9 +64,10 @@ function WhiteValentineActivityView:initUI( ui )
 	self.costList = UIListView:create(scroll_cost)
 	self.costList:setItemsMargin(34)
 
-	self:timeOut(function( ... )
-		self:selectTab(1)
-	end)
+	self.txt_tip:setSkewX(12)
+	self.txt_num:setSkewX(12)
+
+	self:selectTab(1)
 end
 
 function WhiteValentineActivityView:selectTab(index)
@@ -88,6 +92,11 @@ end
 
 function WhiteValentineActivityView:refreshView()
 	local activityInfo = ActivityDataMgr2:getActivityInfo(self.activityId)
+	if activityInfo.extendData.dressId2 then
+		self.tab_1:show()
+		self.tab_2:show()
+	end
+
 	local startStr =  Utils:getDateString(activityInfo.startTime)
     local endStr =  Utils:getDateString(activityInfo.endTime)
     self.time_time:setText(startStr)
@@ -100,19 +109,20 @@ function WhiteValentineActivityView:refreshView()
 	local dressId = self:getDressId()
 	if dressId then
 	    local dressTable = TabDataMgr:getData("Dress")
-	    local dressData = dressTable[dressId]
+		local dressData = dressTable[dressId]
+		local modelId
 	    if dressData and dressData.type and dressData.type == 2 then
 	        modelId = dressData.highRoleModel
 	    else
 	    	modelId = dressData.roleModel
 	    end
+		-- 换皮做我的猫后活动暂时不需要这个 TODO
+	    -- if self.elvesNpc then
+	    --     self.elvesNpc:removeFromParent()
+	    --     self.elvesNpc = nil
+	    -- end
 
-	    if self.elvesNpc then
-	        self.elvesNpc:removeFromParent()
-	        self.elvesNpc = nil
-	    end
-
-	    if not self.elvesNpc then
+		if not self.elvesNpc then
 		    local elvesNpcTable = ElvesNpcTable:createLive2dNpcID(modelId,true,false,nil,false)
 		    if not elvesNpcTable then
 		        return
@@ -185,15 +195,15 @@ function WhiteValentineActivityView:refreshView()
 	self.image_bg:setPositionX(self.image_bg.initPosX + 30)
 
 	local canExchange = true
-	local unLock = GoodsDataMgr:getDress(dressId)
-	if unLock then
-		canExchange = false
-	end
+	-- local unLock = GoodsDataMgr:getDress(dressId)
+	-- if unLock then
+	-- 	canExchange = false
+	-- end
 
 	local costItems = {}
 	for k, v in pairs(itemInfo.target) do
        	local num = GoodsDataMgr:getItemCount(k)
-       	if num < v and (not unLock) then
+       	if num < v then
        		canExchange = false
        	end
         table.insert(costItems, {id = k, num = v})
@@ -230,7 +240,7 @@ function WhiteValentineActivityView:updateExchangeList(data)
         local itemCfg = GoodsDataMgr:getItemCfg(itemInfo.id)
         PrefabDataMgr:addItemId(goodsItem, itemInfo.id)
         img_icon:setTexture(itemCfg.icon)
-        img_di:setTexture("ui/fairy_particle/" .. itemCfg.quality .. ".png")
+        -- img_di:setTexture("ui/fairy_particle/" .. itemCfg.quality .. ".png")
         local num = GoodsDataMgr:getItemCount(itemInfo.id)
         if num >= itemInfo.num or unLock then
        		img_gray:hide()
@@ -303,10 +313,32 @@ end
 function WhiteValentineActivityView:registerEvents()
 	self.btn_exchange:onClick(function(...)
 		local itemId = self:getCurItemId()
-		local extendData = {num = 1}
-        local json = require("LuaScript.extends.json")
-        local jsonExtendData = json.encode(extendData)
-		ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId, itemId, jsonExtendData)
+		local callFunc = function ( ... )  
+			local extendData = {num = 1}
+	        local json = require("LuaScript.extends.json")
+	        local jsonExtendData = json.encode(extendData)
+			ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId, itemId, jsonExtendData)
+        end
+        local activityInfo = ActivityDataMgr2:getActivityInfo(self.activityId)
+        local itemInfo = ActivityDataMgr2:getItemInfo(activityInfo.activityType, itemId)
+        local tipId = Utils:getStoreBuyTipId(itemInfo.extendData, 2) 
+        if tipId then
+            local args = {
+                tittle = 2107025,
+                reType = "buyGiftTip",
+                content = TextDataMgr:getText(tipId),
+                confirmCall = function ( ... )
+                    callFunc()
+                end,
+            }
+            Utils:showReConfirm(args)
+            return
+        end
+        callFunc()
+	end)
+
+	self.btn_get:onClick(function()
+		FunctionDataMgr:jSummon()
 	end)
 
 	self.tab_1:onClick(handler(self.onTabBtnHandle, self))

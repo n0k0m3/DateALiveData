@@ -13,6 +13,7 @@ function Statistics.init(starCfg)
     this.allTime  = this.levelCfg.time*1000 --总时间
     ----战斗数据统计----
     this.time     = 0  --通关时间
+    this.testTime = 0
     this.hp       = 0  --总血量
     this.loseHp   = 0  --失血
     this.dead     = 0  --死亡
@@ -74,6 +75,7 @@ end
 function Statistics.clear( ... )
     --统计相关
     this.time     = 0  --通关时间
+    this.testTime = 0
     this.hp       = 0  --总血量
     this.loseHp   = 0  --失血
     this.dead     = 0  --死亡
@@ -115,6 +117,11 @@ function Statistics.resetEndless()
     this.endlessTime = 0    -- 无尽模式时间
     this.endlessReward = {}    -- 无极模式奖励
     this.endlessPassLevel = {}    -- 通过的层数记录
+end
+
+--真实操作时间（暂停 剧情中断时间除外）
+function Statistics.getControlPassTime()
+    return this.controller.getControlPassTime()
 end
 
 
@@ -171,6 +178,12 @@ function Statistics.getStarRuleValue(starType,starParam)
         return this.skillAwakeKill    
     elseif starType == EC_FBStarRule.ASSIST then --
         return this.assist
+    elseif starType == EC_FBStarRule.NOT_ASSIST then
+        if this.assist == 1 then
+            return 0
+        else
+            return 1
+        end
     elseif starType == EC_FBStarRule.HERO_BATTLE then --
         if this.heroIds[starParam] then
             return 1
@@ -219,8 +232,8 @@ function Statistics.update(dt)
             this.practiceTime = this.practiceTime + dt
         end
     end
-
-    this.time = this.time + dt
+    this.testTime = this.testTime + dt
+    this.time = this.controller.getControlPassTime()
     this.handlCombo(dt)--连击计时
     this.percent20Tip(EC_FBStarRule.TIME)
     this.percent20Tip(EC_FBStarRule.MORE_REMAINING_TIME)
@@ -535,6 +548,8 @@ function Statistics.getStarIsReach(index)
         isReach = tobool(this.skillAwakeKill >= starParam)    
     elseif starType == EC_FBStarRule.ASSIST then
         isReach = tobool(this.assist == 1)
+    elseif starType == EC_FBStarRule.NOT_ASSIST then
+        isReach = tobool(this.assist == 0)
     elseif starType == EC_FBStarRule.HERO_BATTLE then
         isReach = tobool(this.heroIds[starParam])
     elseif starType == EC_FBStarRule.LIMIT_KILL then  --X 秒必须杀死一个敌人
@@ -619,6 +634,7 @@ function Statistics.getAllCondStarType()
     local condRule4 = {
         EC_FBStarRule.HERO_BATTLE,
         EC_FBStarRule.ASSIST,
+        EC_FBStarRule.NOT_ASSIST,
     }
     -- 条件满足进行中，不满足失败
     local condRule5 = {

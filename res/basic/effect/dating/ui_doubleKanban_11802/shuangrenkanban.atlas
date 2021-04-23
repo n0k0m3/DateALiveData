@@ -4,74 +4,60 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-D
-  rotate: false
-  xy: 2, 66
-  size: 56, 81
-  orig: 56, 81
-  offset: 0, 0
-  index: -1
-glow_000
-  rotate: false
-  xy: 865, 865
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
 s_000
   rotate: false
-  xy: 2, 679
-  size: 575, 266
-  orig: 575, 266
+  xy: 2, 694
+  size: 693, 320
+  orig: 693, 320
   offset: 0, 0
   index: -1
 yanhua/baiyanhua_00004
-  rotate: false
-  xy: 2, 414
-  size: 284, 263
-  orig: 284, 263
+  rotate: true
+  xy: 697, 672
+  size: 342, 317
+  orig: 342, 317
   offset: 0, 0
   index: -1
 yanhua/baiyanhua_00006
   rotate: false
-  xy: 579, 682
-  size: 284, 263
-  orig: 284, 263
+  xy: 2, 375
+  size: 342, 317
+  orig: 342, 317
   offset: 0, 0
   index: -1
 yanhua/baiyanhua_00008
   rotate: false
-  xy: 573, 152
-  size: 281, 263
-  orig: 281, 263
-  offset: 0, 0
+  xy: 663, 10
+  size: 339, 317
+  orig: 342, 317
+  offset: 3, 0
   index: -1
 yanhua/baiyanhua_00028
-  rotate: false
-  xy: 288, 149
-  size: 282, 263
-  orig: 282, 263
+  rotate: true
+  xy: 2, 33
+  size: 340, 317
+  orig: 342, 317
   offset: 0, 0
   index: -1
 yanhua/baiyanhua_00030
-  rotate: false
-  xy: 288, 414
-  size: 283, 263
-  orig: 283, 263
+  rotate: true
+  xy: 690, 329
+  size: 341, 317
+  orig: 342, 317
   offset: 0, 0
   index: -1
 yanhua/baiyanhua_00032
   rotate: false
-  xy: 2, 149
-  size: 284, 263
-  orig: 284, 263
+  xy: 346, 375
+  size: 342, 317
+  orig: 342, 317
   offset: 0, 0
   index: -1
 yanhua/baiyanhua_00034
   rotate: false
-  xy: 579, 417
-  size: 282, 263
-  orig: 282, 263
+  xy: 321, 56
+  size: 340, 317
+  orig: 342, 317
   offset: 0, 0
   index: -1
 
@@ -80,87 +66,107 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-yanhua/baiyanhua_00002
-  rotate: false
-  xy: 523, 249
-  size: 255, 251
-  orig: 255, 251
-  offset: 0, 0
-  index: -1
-yanhua/baiyanhua_00010
-  rotate: false
-  xy: 782, 283
-  size: 235, 226
-  orig: 235, 226
-  offset: 0, 0
-  index: -1
-yanhua/baiyanhua_00012
+D
   rotate: true
-  xy: 782, 511
-  size: 242, 236
-  orig: 242, 236
-  offset: 0, 0
+  xy: 331, 2
+  size: 67, 98
+  orig: 140, 140
+  offset: 38, 19
   index: -1
-yanhua/baiyanhua_00014
-  rotate: false
-  xy: 523, 4
-  size: 251, 243
-  orig: 251, 243
-  offset: 0, 0
+yanhua/baiyanhua_00002
+  rotate: true
+  xy: 331, 71
+  size: 307, 303
+  orig: 342, 317
+  offset: 27, 14
   index: -1
 yanhua/baiyanhua_00016
   rotate: false
-  xy: 523, 502
-  size: 257, 251
-  orig: 257, 251
-  offset: 0, 0
+  xy: 670, 93
+  size: 310, 303
+  orig: 342, 317
+  offset: 13, 13
   index: -1
 yanhua/baiyanhua_00018
-  rotate: true
-  xy: 267, 488
-  size: 265, 254
-  orig: 265, 254
-  offset: 0, 0
+  rotate: false
+  xy: 673, 398
+  size: 319, 306
+  orig: 342, 317
+  offset: 8, 11
   index: -1
 yanhua/baiyanhua_00020
-  rotate: true
-  xy: 264, 211
-  size: 269, 257
-  orig: 269, 257
-  offset: 0, 0
+  rotate: false
+  xy: 673, 706
+  size: 324, 310
+  orig: 342, 317
+  offset: 6, 7
   index: -1
 yanhua/baiyanhua_00022
-  rotate: true
-  xy: 2, 206
-  size: 274, 260
-  orig: 274, 260
-  offset: 0, 0
+  rotate: false
+  xy: 338, 384
+  size: 330, 313
+  orig: 342, 317
+  offset: 3, 4
   index: -1
 yanhua/baiyanhua_00024
   rotate: false
-  xy: 285, 755
-  size: 277, 263
-  orig: 277, 263
-  offset: 0, 0
+  xy: 2, 380
+  size: 334, 317
+  orig: 342, 317
+  offset: 1, 0
   index: -1
 yanhua/baiyanhua_00026
   rotate: false
-  xy: 2, 755
-  size: 281, 263
-  orig: 281, 263
+  xy: 2, 699
+  size: 338, 317
+  orig: 342, 317
   offset: 0, 0
   index: -1
 yanhua/baiyanhua_00036
   rotate: false
-  xy: 564, 755
-  size: 273, 263
-  orig: 273, 263
+  xy: 342, 699
+  size: 329, 317
+  orig: 342, 317
   offset: 0, 0
   index: -1
 yanhua/baiyanhua_00038
-  rotate: true
-  xy: 2, 482
-  size: 271, 263
-  orig: 271, 263
-  offset: 0, 0
+  rotate: false
+  xy: 2, 61
+  size: 327, 317
+  orig: 342, 317
+  offset: 2, 0
+  index: -1
+
+shuangrenkanban3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_000
+  rotate: false
+  xy: 2, 2
+  size: 96, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+yanhua/baiyanhua_00010
+  rotate: false
+  xy: 306, 407
+  size: 283, 272
+  orig: 342, 317
+  offset: 26, 29
+  index: -1
+yanhua/baiyanhua_00012
+  rotate: false
+  xy: 2, 100
+  size: 292, 284
+  orig: 342, 317
+  offset: 22, 23
+  index: -1
+yanhua/baiyanhua_00014
+  rotate: false
+  xy: 2, 386
+  size: 302, 293
+  orig: 342, 317
+  offset: 17, 19
   index: -1

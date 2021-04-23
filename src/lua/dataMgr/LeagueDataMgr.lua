@@ -72,7 +72,6 @@ function LeagueDataMgr:init()
     self.noticeChangeRed = false
     self.degreeNumMax = {1,2,10,999}
     self.redPackTypes = 3
-
     self.leagueBackInfo = nil
 
     -- 世界boss相关
@@ -257,7 +256,6 @@ end
 
 --请求追猎计划信息 TODO
 function LeagueDataMgr:ReqHuntingDungeonInfo()
-    --printError("请求追猎计划信息")
     -- Box("请求追猎计划信息")
     TFDirector:send(c2s.HUNTING_DUNGEON_REQ_HUNTING_DUNGEON_INFO, {})
 end
@@ -2232,6 +2230,244 @@ function LeagueDataMgr:getClubCountryDataById( id )
     return self.clubCountry_[id] or {}
 end
 --[[---------------------------------]]
+--填写社团召回成功
+function LeagueDataMgr:onRespWirteUnionReCall(event)
+    local data = event.data
+
+end
+
+--社团召回排名信息
+function LeagueDataMgr:onRespUnionReCallRank(event)
+    local data = event.data
+    self.leagueBackInfo = data
+    self.leagueBackInfo.playerReCallRank = self.leagueBackInfo.playerReCallRank or {}
+
+    EventMgr:dispatchEvent(EV_LEAGUE_BACK_ALL_INFO)
+end
+
+--我的积分
+function LeagueDataMgr:onRespTickGetUnionScore(event)
+    local data = event.data
+    self.leagueBackInfo = self.leagueBackInfo or {}
+    self.leagueBackInfo.score = data.score
+
+    EventMgr:dispatchEvent(EV_LEAGUE_BACK_SCORE_UPDATE)
+end
+
+-----------------------世界boss相关----------------------------
+
+-- 9101（基础信息请求）
+function LeagueDataMgr:send_JU_NAI_INVASION_REQ_JU_NAI_INVASION_INFO()
+    TFDirector:send(c2s.JU_NAI_INVASION_REQ_JU_NAI_INVASION_INFO, {})
+end
+
+-- 9104(士气值请求)
+function LeagueDataMgr:send_JU_NAI_INVASION_REQ_GET_UNION_MORALE()
+    TFDirector:send(c2s.JU_NAI_INVASION_REQ_GET_UNION_MORALE, {})
+end
+
+-- 9105(获取社团玩家士气攻打信息列表)
+function LeagueDataMgr:send_JU_NAI_INVASION_REQ_GET_UNION_PLAYER_ATTR()
+    TFDirector:send(c2s.JU_NAI_INVASION_REQ_GET_UNION_PLAYER_ATTR, {})
+end
+
+-- 9106(获取社团玩家伤害排行榜)
+function LeagueDataMgr:send_send_JU_NAI_INVASION_REQ_GET_UNION_PLAYER_RANK()
+    TFDirector:send(c2s.JU_NAI_INVASION_REQ_GET_UNION_PLAYER_RANK, {})
+end
+
+-- 9107(获取社团伤害排行榜)
+function LeagueDataMgr:send_JU_NAI_INVASION_REQ_GET_UNION_RANK(tag)
+    tag = tag or 1
+    TFDirector:send(c2s.JU_NAI_INVASION_REQ_GET_UNION_RANK, {tag})
+end
+-- 
+function LeagueDataMgr:onRecvWorldBossInfo(event)
+    local data = event.data
+    dump(data)
+    self.worldBossInfo = data
+    EventMgr:dispatchEvent(EV_LEAGUE_WORLDBOSS_INFO)
+end
+
+function LeagueDataMgr:onRecvMoraleNum(event)
+    local data = event.data
+    self:setLeagueMoreale(data.morale)
+    EventMgr:dispatchEvent(EV_LEAGUE_WORLDBOSS_MORALE_UPDATE)
+end
+
+function LeagueDataMgr:onRecvPlayerAttackInfo(event)
+    local tmpData = {}
+    local data = event.data
+    self:setLeagueMoreale(data.morale)
+
+    local members = self.myUnionData_.members
+    -- 以原有社团排序为准
+    for i, info in ipairs(members) do      
+        local _existData = nil
+        for i, nowInfo in ipairs(data.attr or {}) do 
+            if info.playerId == nowInfo.playerId then
+                _existData = nowInfo
+            end
+        end
+        if _existData then
+            table.insert(tmpData, table.merge(info, _existData)) 
+        else
+            table.insert(tmpData, info)
+        end
+    end
+    EventMgr:dispatchEvent(EV_LEAGUE_WORLDBOSS_ATTACKINFO_UPDATE, tmpData)
+end
+
+function LeagueDataMgr:onRecvPlayerAttackRank(event)
+    local tmpData = {}
+    local data = event.data
+    -- self:setLeagueMoreale(data.morale)
+
+    local members = self.myUnionData_.members
+    for i, nowInfo in ipairs(data.playerDamage or {}) do  
+        for i, info in ipairs(members) do
+            if info.playerId == nowInfo.playerId then
+                table.insert(tmpData, table.merge(nowInfo, info))
+            end
+        end
+    end
+    table.sort(tmpData, function(a, b)
+        return a.rank < b.rank
+    end)
+    EventMgr:dispatchEvent(EV_LEAGUE_WORLDBOSS_ATTACKRANK_UPDATE, tmpData)
+end
+
+function LeagueDataMgr:onRecvLeagueAttackRank(event)
+    local data = event.data
+    EventMgr:dispatchEvent(EV_LEAGUE_WORLDBOSS_LEAGUERANK_UPDATE, data)
+end
+
+function LeagueDataMgr:setLeagueMoreale(num)
+    self.worldBossInfo.morale = num
+end
+
+-- 获取Boss当前配置
+function LeagueDataMgr:getCurInvade()
+    return self.clubInvadeDic_[self.worldBossInfo.id]
+end
+
+function LeagueDataMgr:keepBeforeFightWorldBossType()
+    self.keepWorldBossType = self:getCurInvade().type
+end
+
+function LeagueDataMgr:getFightWorldBossType()
+    return self.keepWorldBossType
+end
+
+function LeagueDataMgr:clearFightWorldBossType()
+    self.keepWorldBossType = nil
+end
+
+-- 获取当前世界boss基本信息
+function LeagueDataMgr:getWorldBossInfo()
+    return self.worldBossInfo
+end
+
+-- 当前士气值
+function LeagueDataMgr:getMorale()
+    return self.worldBossInfo.morale or 0
+end
+
+function LeagueDataMgr:getAllBossAffixs()
+    local affixIds = clone(self:getCurInvade().fixAffix) or {}
+    for i, id  in ipairs(self:getWorldBossInfo().buffIds or {}) do
+        table.insert(affixIds, id)
+    end 
+    -- for i, id in ipairs(affixIds) do
+    --     local affixCfg = TabDataMgr:getData("MonsterAffix", id)
+    --     for i, buffId in ipairs(affixCfg.attributeBuffers) do
+    --         table.insert(affixs, buffId)
+    --     end
+    -- end
+    return affixIds
+end
+
+-- 是否有奖励和我造成最大伤害
+function LeagueDataMgr:getIsRewardsAndMaxNum()
+    if not self:getCurInvade() then
+        return false, 0
+    end
+
+    local isCanGetAward = false
+    local maxHurtNum = 0
+    local taskList = TaskDataMgr:getTask(EC_TaskType.WORLD_BOSS)
+    for i, id in ipairs(taskList) do
+        local taskInfo = TaskDataMgr:getTaskInfo(id)
+        if taskInfo.status == EC_TaskStatus.GET and self:getCurInvade().type == EC_WorldBossType.World then
+            isCanGetAward = true
+        end
+        maxHurtNum = math.max(taskInfo.progress, maxHurtNum)
+    end
+    return isCanGetAward, maxHurtNum
+end
+
+-- 是否开启世界boss并且战斗过一次（红点显隐）
+function LeagueDataMgr:isWorldBossOpenRedShow()
+    if not self:getCurInvade() then
+        return false
+    end
+
+    local _bool = false
+    local type = self:getWorldBossInfo().type
+    if type and type == 2 and FunctionDataMgr:isOpen(97) and self:isPassTimeInWorldBoss() and self:isWorldBossOpen() then
+        local levelInfo = FubenDataMgr:getLevelInfo(self:getCurInvade().dungeonLevelId)
+        if levelInfo and levelInfo.fightCount >= 1 then
+            _bool = false
+        else
+            _bool = true
+        end
+    end
+    return _bool
+end
+
+-- 是否达到进入次元入侵限定时间
+function LeagueDataMgr:isPassTimeInWorldBoss()
+    local menberInfo = self:getMemberInfoByPlayerId(MainPlayer:getPlayerId())
+    local joinTime   = menberInfo.joinTime
+    local passHours  = (ServerDataMgr:getServerTime() - joinTime/1000) / 3600
+    local limitTime  = Utils:getKVP(51101,"enterTimeLimit")
+    return passHours > limitTime
+end
+
+-- 获取战斗精灵基础属性
+function LeagueDataMgr:getFightAttrChange(roleType)
+    local attr = {}
+    local levelCfg = BattleDataMgr:getLevelCfg()
+    if levelCfg.dungeonType == EC_FBLevelType.WORLD_BOSS then
+        local data = Utils:getKVP(51102)
+        for type, v in pairs(data) do
+            if type == roleType then
+                for attrType,value in pairs(v) do
+                    attr[attrType] = value * self:getMorale()
+                end
+                break
+            end
+        end
+    end
+    return attr
+end
+
+-- 获取boss额外附加词缀
+function LeagueDataMgr:getCurBossBuffers()
+    -- local affixs= {}
+    local levelCfg = BattleDataMgr:getLevelCfg()
+    if levelCfg.dungeonType == EC_FBLevelType.WORLD_BOSS then
+        -- affixs = self:getWorldBossInfo().buffIds or {}
+        return self:getAllBossAffixs()
+    end
+    -- return affixs
+end
+
+function LeagueDataMgr:isWorldBossOpen()
+    local openTime = Utils:getKVP(51101,"timeOpen")
+    local serverTime = ServerDataMgr:getServerTime() * 1000
+    return serverTime > openTime
+end
 
 --填写社团召回成功
 function LeagueDataMgr:onRespWirteUnionReCall(event)

@@ -203,6 +203,7 @@ local t =
 										PositionX = 1109,
 										PositionY = 484,
 									},
+									visible = "False",
 									width = "239",
 									ZOrder = "1",
 								},
@@ -247,7 +248,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 900,
-										PositionY = 484,
+										PositionY = 480,
 									},
 									width = "158",
 									ZOrder = "1",
@@ -878,7 +879,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionY = -139,
+								PositionX = 1,
+								PositionY = -142,
 							},
 							UItype = "Button",
 							width = "136",

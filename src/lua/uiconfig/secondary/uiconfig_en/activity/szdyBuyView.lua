@@ -213,7 +213,7 @@ local t =
 									{
 										PositionY = 60,
 									},
-									width = "135",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -265,14 +265,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -289,7 +289,7 @@ local t =
 										PositionX = -175,
 										PositionY = 217,
 									},
-									width = "116",
+									width = "264",
 									ZOrder = "1",
 								},
 								{
@@ -412,7 +412,7 @@ local t =
 											{
 												
 											},
-											width = "55",
+											width = "43",
 											ZOrder = "1",
 										},
 									},
@@ -672,15 +672,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Buying consumes diamonds",
+									text = "Diamonds Cost:",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -42,
+										PositionX = -15,
 										PositionY = 12,
 									},
-									width = "130",
+									width = "127",
 									ZOrder = "1",
 									components = 
 									{
@@ -725,9 +725,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 75,
+												PositionX = 64,
 											},
-											width = "25",
+											width = "24",
 											ZOrder = "1",
 										},
 									},

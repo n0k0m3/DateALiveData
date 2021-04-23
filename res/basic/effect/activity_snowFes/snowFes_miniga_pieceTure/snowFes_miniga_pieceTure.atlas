@@ -1,0 +1,230 @@
+
+snowFes_miniga_pieceTure.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bian_000
+  rotate: false
+  xy: 2, 342
+  size: 35, 120
+  orig: 59, 132
+  offset: 13, 7
+  index: -1
+images/sanjiao_000
+  rotate: false
+  xy: 2, 233
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_000
+  rotate: false
+  xy: 39, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_001
+  rotate: false
+  xy: 2, 124
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_002
+  rotate: false
+  xy: 19, 233
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_003
+  rotate: false
+  xy: 56, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_004
+  rotate: false
+  xy: 2, 15
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_005
+  rotate: false
+  xy: 19, 124
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_006
+  rotate: false
+  xy: 73, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_007
+  rotate: false
+  xy: 19, 15
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_008
+  rotate: false
+  xy: 90, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_009
+  rotate: false
+  xy: 107, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_010
+  rotate: false
+  xy: 124, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_011
+  rotate: false
+  xy: 141, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_012
+  rotate: false
+  xy: 158, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_013
+  rotate: false
+  xy: 175, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_014
+  rotate: false
+  xy: 192, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_015
+  rotate: false
+  xy: 209, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_016
+  rotate: false
+  xy: 226, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_017
+  rotate: false
+  xy: 243, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_018
+  rotate: false
+  xy: 260, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_019
+  rotate: false
+  xy: 277, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_020
+  rotate: false
+  xy: 294, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_021
+  rotate: false
+  xy: 311, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_022
+  rotate: false
+  xy: 328, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_023
+  rotate: false
+  xy: 345, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_024
+  rotate: false
+  xy: 362, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_025
+  rotate: false
+  xy: 379, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_026
+  rotate: false
+  xy: 396, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_027
+  rotate: false
+  xy: 413, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_028
+  rotate: false
+  xy: 430, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1
+images/saoguang/saoguang_029
+  rotate: false
+  xy: 447, 355
+  size: 15, 107
+  orig: 59, 132
+  offset: 23, 11
+  index: -1

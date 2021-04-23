@@ -1299,7 +1299,7 @@ local t =
 														PositionX = 15,
 														PositionY = 21,
 													},
-													width = "115",
+													width = "127",
 													ZOrder = "1",
 												},
 												{
@@ -1484,7 +1484,7 @@ local t =
 												PositionX = 280,
 												PositionY = 250,
 											},
-											width = "88",
+											width = "89",
 											ZOrder = "1",
 										},
 									},
@@ -1753,7 +1753,7 @@ local t =
 													{
 														
 													},
-													width = "61",
+													width = "56",
 													ZOrder = "1",
 												},
 											},
@@ -1837,7 +1837,7 @@ local t =
 													{
 														
 													},
-													width = "58",
+													width = "59",
 													ZOrder = "1",
 												},
 											},
@@ -1859,7 +1859,7 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "120",
+									height = "160",
 									ignoreSize = "False",
 									name = "Panel_baoshi_item",
 									sizepercentx = "0",
@@ -1886,13 +1886,13 @@ local t =
 											controlID = "Image_bg_Panel_baoshi_item_Panel_right_Panel_base_Panel-baoshiChooselView_Layer1_fairyNew_Game",
 											UUID = "ab2b1dab_602d_4080_a555_95504e5f5766",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
-											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											anchorPointX = "0",
+											anchorPointY = "0",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "112",
-											ignoreSize = "True",
+											height = "160",
+											ignoreSize = "False",
 											name = "Image_bg",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -1902,10 +1902,9 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 268,
-												PositionY = 60,
+												
 											},
-											width = "528",
+											width = "536",
 											ZOrder = "1",
 										},
 										{
@@ -1923,7 +1922,7 @@ local t =
 											DesignType = "0",
 											DesignWidth = "960",
 											dstBlendFunc = "771",
-											height = "120",
+											height = "160",
 											ignoreSize = "False",
 											name = "Panel_info",
 											sizepercentx = "0",
@@ -1985,10 +1984,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 8,
-														PositionY = 99,
+														PositionX = 6,
+														PositionY = 145,
 													},
-													width = "90",
+													width = "87",
 													ZOrder = "1",
 												},
 												{
@@ -2014,7 +2013,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 46,
-														PositionY = 46,
+														PositionY = 67,
 													},
 													width = "110",
 													ZOrder = "1",
@@ -2042,7 +2041,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 46,
-														PositionY = 46,
+														PositionY = 67,
 													},
 													width = "36",
 													ZOrder = "1",
@@ -2088,7 +2087,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 87,
-														PositionY = 45,
+														PositionY = 66,
 													},
 													width = "220",
 													ZOrder = "1",
@@ -2113,8 +2112,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 513,
-														PositionY = 106,
+														PositionX = 511,
+														PositionY = 152,
 													},
 													width = "6",
 													ZOrder = "1",
@@ -2139,8 +2138,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 513,
-														PositionY = 96,
+														PositionX = 511,
+														PositionY = 142,
 													},
 													width = "6",
 													ZOrder = "1",
@@ -2165,8 +2164,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 523,
-														PositionY = 96,
+														PositionX = 521,
+														PositionY = 142,
 													},
 													width = "6",
 													ZOrder = "1",
@@ -2191,8 +2190,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 523,
-														PositionY = 106,
+														PositionX = 521,
+														PositionY = 152,
 													},
 													width = "6",
 													ZOrder = "1",
@@ -2219,8 +2218,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 354,
-														PositionY = 55,
+														PositionX = 341,
+														PositionY = 90,
 													},
 													width = "68",
 													ZOrder = "1",
@@ -2257,7 +2256,7 @@ local t =
 															UUID = "aa25a441_a91c_4d80_80d0_5cbed8beabbf",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
-															anchorPointY = "0.5",
+															anchorPointY = "1",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
 															dstBlendFunc = "771",
@@ -2278,8 +2277,8 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_skill_name",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -2294,7 +2293,7 @@ local t =
 															{
 																PositionY = -48,
 															},
-															width = "39",
+															width = "65",
 															ZOrder = "1",
 														},
 													},
@@ -2321,8 +2320,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 424,
-														PositionY = 55,
+														PositionX = 411,
+														PositionY = 90,
 													},
 													width = "68",
 													ZOrder = "1",
@@ -2359,7 +2358,7 @@ local t =
 															UUID = "d1583302_e446_4d49_a04b_2ebaca67b01b",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
-															anchorPointY = "0.5",
+															anchorPointY = "1",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
 															dstBlendFunc = "771",
@@ -2380,8 +2379,8 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_skill_name",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -2396,7 +2395,7 @@ local t =
 															{
 																PositionY = -48,
 															},
-															width = "39",
+															width = "65",
 															ZOrder = "1",
 														},
 													},
@@ -2423,8 +2422,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 494,
-														PositionY = 55,
+														PositionX = 481,
+														PositionY = 90,
 													},
 													width = "68",
 													ZOrder = "1",
@@ -2461,7 +2460,7 @@ local t =
 															UUID = "7d42e933_1d14_4be7_84ba_3a6244ad039d",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
-															anchorPointY = "0.5",
+															anchorPointY = "1",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
 															dstBlendFunc = "771",
@@ -2482,8 +2481,8 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_skill_name",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -2498,7 +2497,7 @@ local t =
 															{
 																PositionY = -48,
 															},
-															width = "39",
+															width = "65",
 															ZOrder = "1",
 														},
 													},
@@ -2525,8 +2524,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 270,
-														PositionY = 100,
+														PositionX = 268,
+														PositionY = 146,
 													},
 													width = "262",
 													ZOrder = "1",
@@ -2535,13 +2534,13 @@ local t =
 													controlID = "Image_select_Panel_info_Panel_baoshi_item_Panel_right_Panel_base_Panel-baoshiChooselView_Layer1_fairyNew_Game",
 													UUID = "2894ebc8_12a8_4cf7_b4b8_b0d209688bdf",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
-													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													anchorPointX = "0",
+													anchorPointY = "0",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEImage",
 													dstBlendFunc = "771",
-													height = "122",
-													ignoreSize = "True",
+													height = "165",
+													ignoreSize = "False",
 													name = "Image_select",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -2551,10 +2550,9 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 269,
-														PositionY = 60,
+														PositionX = -4,
 													},
-													width = "538",
+													width = "546",
 													ZOrder = "1",
 												},
 											},
@@ -2580,7 +2578,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 467,
-												PositionY = 101,
+												PositionY = 145,
 											},
 											width = "86",
 											ZOrder = "1",

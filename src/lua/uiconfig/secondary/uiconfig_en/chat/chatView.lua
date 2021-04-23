@@ -5397,9 +5397,9 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = 99,
+														PositionX = 116,
 														IsPercent = true,
-														PercentX = 49.88,
+														PercentX = 58,
 														PercentY = 0.83,
 													},
 													UItype = "Button",

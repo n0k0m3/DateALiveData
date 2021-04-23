@@ -306,7 +306,7 @@ local t =
 										PositionX = 115,
 										PositionY = 521,
 									},
-									width = "183",
+									width = "141",
 									ZOrder = "1",
 								},
 								{
@@ -335,7 +335,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "22",
 									ignoreSize = "True",
 									name = "Label_tip1",
 									nTextAlign = "1",
@@ -344,7 +344,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "下一星级能力",
+									text = "다음 성급 능력",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -352,7 +352,7 @@ local t =
 										PositionX = 33,
 										PositionY = 209,
 									},
-									width = "122",
+									width = "128",
 									ZOrder = "1",
 								},
 								{
@@ -374,14 +374,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "96",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_des",
 									nTextAlign = "0",
@@ -390,7 +390,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "激活能力",
+									text = "능력 활성화",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -420,14 +420,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "96",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_des1",
 									nTextAlign = "0",
@@ -436,7 +436,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "激活能力",
+									text = "능력 활성화",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -466,7 +466,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -482,7 +482,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "已达最大星数",
+									text = "최대 별 상한에 도달",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -528,7 +528,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "宝物能力",
+									text = "보물 능력",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -536,7 +536,7 @@ local t =
 										PositionX = 38,
 										PositionY = 336,
 									},
-									width = "83",
+									width = "79",
 									ZOrder = "1",
 								},
 								{
@@ -558,14 +558,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_item_des",
 									nTextAlign = "0",
@@ -574,7 +574,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "激活能力",
+									text = "능력 활성화",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -825,14 +825,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "宝物合成",
+											text = "보물 합성",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -1,
 											},
-											width = "101",
+											width = "96",
 											ZOrder = "1",
 										},
 										{
@@ -930,14 +930,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "宝物升星",
+											text = "보물 승급",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -1,
 											},
-											width = "100",
+											width = "97",
 											ZOrder = "1",
 										},
 										{
@@ -1033,7 +1033,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "已达最大星数",
+									text = "최대 별 상한에 도달",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1041,7 +1041,7 @@ local t =
 										PositionX = 461,
 										PositionY = 214,
 									},
-									width = "149",
+									width = "198",
 									ZOrder = "1",
 								},
 							},
@@ -1205,7 +1205,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_filter",
 											nTextAlign = "1",
@@ -1222,7 +1222,7 @@ local t =
 												PositionX = -54,
 												PositionY = -1,
 											},
-											width = "47",
+											width = "44",
 											ZOrder = "1",
 										},
 									},
@@ -1425,7 +1425,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "22",
 									ignoreSize = "True",
 									name = "Label_num",
 									nTextAlign = "1",
@@ -1441,7 +1441,7 @@ local t =
 									{
 										PositionY = -57,
 									},
-									width = "80",
+									width = "98",
 									ZOrder = "1",
 								},
 								{
@@ -1607,7 +1607,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "22",
 									ignoreSize = "True",
 									name = "Label_num",
 									nTextAlign = "1",
@@ -1623,7 +1623,7 @@ local t =
 									{
 										PositionY = -20,
 									},
-									width = "80",
+									width = "98",
 									ZOrder = "10",
 								},
 								{
@@ -1695,7 +1695,7 @@ local t =
 											{
 												
 											},
-											width = "64",
+											width = "98",
 											ZOrder = "1",
 										},
 									},
@@ -1819,7 +1819,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_filter",
 											nTextAlign = "1",
@@ -1835,7 +1835,7 @@ local t =
 											{
 												
 											},
-											width = "73",
+											width = "89",
 											ZOrder = "1",
 										},
 									},

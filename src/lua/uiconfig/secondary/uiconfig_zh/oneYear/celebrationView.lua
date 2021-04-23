@@ -239,7 +239,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "926",
 									ZOrder = "1",
 									components = 
@@ -8033,6 +8032,7 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
+											visible = "False",
 											width = "100",
 											ZOrder = "1",
 											components = 
@@ -10148,6 +10148,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "378",
 									ZOrder = "1",
 									components = 

@@ -198,7 +198,10 @@ function EquipReviewLayer:registerEvents()
     end)
 
     self.Button_rename:onClick(function()
-        Utils:openView("Equipment.ModifySuitNameView",self.selectIdx)
+        local function modifyName(txt)
+            EquipmentDataMgr:ReqSaveEquipBackupDecr(self.selectIdx, txt)
+        end
+        Utils:openView("Equipment.ModifySuitNameView", {okClickReqCallback = modifyName})
     end)
 end
 

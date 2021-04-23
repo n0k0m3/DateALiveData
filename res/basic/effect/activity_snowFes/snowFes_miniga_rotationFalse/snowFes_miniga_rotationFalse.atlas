@@ -1,0 +1,26 @@
+
+snowFes_miniga_rotationFalse.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ui_000
+  rotate: false
+  xy: 2, 2
+  size: 580, 620
+  orig: 580, 620
+  offset: 0, 0
+  index: -1
+
+snowFes_miniga_rotationFalse2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_000
+  rotate: false
+  xy: 2, 2
+  size: 584, 585
+  orig: 584, 585
+  offset: 0, 0
+  index: -1

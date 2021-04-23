@@ -3203,8 +3203,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 67,
-												PositionY = 102,
+												PositionX = -338,
+												PositionY = -192,
 											},
 											width = "68",
 											ZOrder = "1",

@@ -324,6 +324,8 @@ function FubenTheaterLevelView:onShow()
         self:refreshView()
         self.isFirst = true
     end
+
+	GameGuide:checkGuide(self)
 end
 
 function FubenTheaterLevelView:removeUI()
@@ -513,13 +515,7 @@ function FubenTheaterLevelView:selectChapter(index)
     local chapterCfg = FubenDataMgr:getChapterCfg(chapterCid)
     local enabled, condEnabled, timeEnabled, levelEnabeld = FubenDataMgr:checkTheaterChapterEnabled(chapterCid)
     if not timeEnabled then
-        if index == 2 then
-            Utils:showTips(12010139)
-        elseif index == 3 then
-            Utils:showTips(12010140)
-        elseif index == 4 then
-            Utils:showTips(12010141)
-        end
+        Utils:showTips(chapterCfg.lockedTip)
         return
     end
 
@@ -1663,6 +1659,15 @@ end
 
 function FubenTheaterLevelView:onGetLevelGroupRewardEvent()
     self:updateStartRewardState()
+end
+
+function FubenTheaterLevelView:excuteGuideFunc1001()
+	local targetNode = self.ui
+	GameGuide:guideTargetNode(targetNode, ccp(150,0))
+end
+function FubenTheaterLevelView:excuteGuideFunc1002()
+	local targetNode = self.ui
+	GameGuide:guideTargetNode(targetNode, ccp(-110,0))
 end
 
 return FubenTheaterLevelView

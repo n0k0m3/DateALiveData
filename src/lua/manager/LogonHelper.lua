@@ -191,6 +191,8 @@ function LogonHelper:loginTest(account,password,code,isAuto)
     if code and code ~= "" then
         path = path.."&activateKey="..code;
     end
+    local _, migrationServerId = TFGlobalUtils:getMigrationServerId(true)
+    path = path.."&addressIndex="..migrationServerId;
 
     self.path = string.gsub(path," ","");
     --print(path);
@@ -354,6 +356,8 @@ function LogonHelper:loginVerification()
     if code and code ~= "" then
         path = path.."&activateKey="..code;
     end
+    local _, migrationServerId = TFGlobalUtils:getMigrationServerId(true)
+    path = path.."&addressIndex="..migrationServerId;
 
     path = string.gsub(path," ","");
     --print(path);

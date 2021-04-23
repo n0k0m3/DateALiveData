@@ -149,11 +149,17 @@ end
 
 -- 添加子panel
 function BaseScene:addLayer(layer, zorder)
+    if not self.baseLayer then
+        return
+    end
     self.baseLayer:addLayer(layer, zorder);
 end
 
 -- 删除子panel
 function BaseScene:removeLayer(layer, isDispose)
+    if not self.baseLayer then
+        return
+    end
     self.baseLayer:removeLayer(layer, isDispose);
 end
 

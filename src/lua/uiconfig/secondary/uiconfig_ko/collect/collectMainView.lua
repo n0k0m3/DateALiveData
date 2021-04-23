@@ -636,6 +636,114 @@ local t =
 									width = "110",
 									ZOrder = "1",
 								},
+								{
+									controlID = "Button_CheckReward_Panel_enter_collector_Panel_root_Layer-collectMainView_Layer1_collect_Game",
+									UUID = "0a2d4c0d_afda_4fec_a96b_e9a57e24d5af",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "32",
+									ignoreSize = "False",
+									name = "Button_CheckReward",
+									normal = "ui/common/button_middle_n.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = -126,
+										PositionY = -99,
+									},
+									UItype = "Button",
+									width = "117",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_collectMainView_1_Button_CheckReward_Panel_enter_collector_Panel_root_Layer-collectMainView_Layer1_collect_Game",
+											UUID = "18024597_51ad_47a5_ab02_45c5c5658266",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "20",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "23",
+											ignoreSize = "True",
+											name = "Label_collectMainView_1",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "보상 보기",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -1,
+												PositionY = -1,
+											},
+											width = "78",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Image_ExistReward_Button_CheckReward_Panel_enter_collector_Panel_root_Layer-collectMainView_Layer1_collect_Game",
+											UUID = "2502f678_eb80_4371_9f5a_754d44bd1fb6",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "42",
+											ignoreSize = "True",
+											name = "Image_ExistReward",
+											scaleX = "0.8",
+											scaleY = "0.8",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/common/news_big.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 50,
+												PositionY = 14,
+											},
+											width = "42",
+											ZOrder = "1",
+										},
+									},
+								},
 							},
 						},
 						{
@@ -794,7 +902,7 @@ local t =
 										PositionX = -73,
 										PositionY = -30,
 									},
-									width = "20",
+									width = "18",
 									ZOrder = "1",
 								},
 								{
@@ -868,7 +976,7 @@ local t =
 										PositionX = -85,
 										PositionY = -30,
 									},
-									width = "59",
+									width = "65",
 									ZOrder = "1",
 								},
 								{
@@ -914,7 +1022,7 @@ local t =
 										PositionX = -95,
 										PositionY = -100,
 									},
-									width = "41",
+									width = "40",
 									ZOrder = "1",
 								},
 								{
@@ -1102,7 +1210,7 @@ local t =
 										PositionX = -73,
 										PositionY = -30,
 									},
-									width = "20",
+									width = "18",
 									ZOrder = "1",
 								},
 								{
@@ -1176,7 +1284,7 @@ local t =
 										PositionX = -84,
 										PositionY = -30,
 									},
-									width = "59",
+									width = "65",
 									ZOrder = "1",
 								},
 								{
@@ -1222,7 +1330,7 @@ local t =
 										PositionX = -95,
 										PositionY = -100,
 									},
-									width = "41",
+									width = "40",
 									ZOrder = "1",
 								},
 								{
@@ -1409,7 +1517,7 @@ local t =
 										PositionX = 85,
 										PositionY = -55,
 									},
-									width = "17",
+									width = "16",
 									ZOrder = "1",
 								},
 								{
@@ -1483,7 +1591,7 @@ local t =
 										PositionX = 70,
 										PositionY = -51,
 									},
-									width = "46",
+									width = "50",
 									ZOrder = "1",
 								},
 								{
@@ -1529,7 +1637,7 @@ local t =
 										PositionX = 55,
 										PositionY = -100,
 									},
-									width = "35",
+									width = "34",
 									ZOrder = "1",
 								},
 								{
@@ -1670,7 +1778,7 @@ local t =
 										PositionX = -90,
 										PositionY = -56,
 									},
-									width = "47",
+									width = "51",
 									ZOrder = "1",
 								},
 								{
@@ -1716,7 +1824,7 @@ local t =
 										PositionX = 70,
 										PositionY = -51,
 									},
-									width = "46",
+									width = "50",
 									ZOrder = "1",
 								},
 								{
@@ -1788,7 +1896,7 @@ local t =
 										PositionX = 85,
 										PositionY = -55,
 									},
-									width = "17",
+									width = "16",
 									ZOrder = "1",
 								},
 								{
@@ -1862,7 +1970,7 @@ local t =
 										PositionX = 55,
 										PositionY = -100,
 									},
-									width = "35",
+									width = "34",
 									ZOrder = "1",
 								},
 							},
@@ -2022,7 +2130,7 @@ local t =
 									{
 										PositionX = -35,
 									},
-									width = "16",
+									width = "14",
 									ZOrder = "1",
 								},
 								{
@@ -2095,7 +2203,7 @@ local t =
 									{
 										PositionX = -50,
 									},
-									width = "135",
+									width = "146",
 									ZOrder = "1",
 								},
 								{
@@ -2141,7 +2249,7 @@ local t =
 										PositionX = -60,
 										PositionY = -30,
 									},
-									width = "35",
+									width = "34",
 									ZOrder = "1",
 								},
 								{
@@ -2307,7 +2415,7 @@ local t =
 										PositionX = -69,
 										PositionY = 33,
 									},
-									width = "101",
+									width = "103",
 									ZOrder = "1",
 								},
 								{
@@ -2353,7 +2461,7 @@ local t =
 										PositionX = 50,
 										PositionY = -1,
 									},
-									width = "16",
+									width = "14",
 									ZOrder = "1",
 								},
 								{
@@ -2427,7 +2535,7 @@ local t =
 										PositionX = 35,
 										PositionY = -1,
 									},
-									width = "48",
+									width = "53",
 									ZOrder = "1",
 								},
 								{
@@ -2473,7 +2581,7 @@ local t =
 										PositionX = 25,
 										PositionY = -31,
 									},
-									width = "35",
+									width = "34",
 									ZOrder = "1",
 								},
 								{
@@ -2685,7 +2793,7 @@ local t =
 									{
 										PositionX = 150,
 									},
-									width = "16",
+									width = "14",
 									ZOrder = "1",
 								},
 								{
@@ -2758,7 +2866,7 @@ local t =
 									{
 										PositionX = 140,
 									},
-									width = "54",
+									width = "59",
 									ZOrder = "1",
 								},
 								{
@@ -2804,7 +2912,7 @@ local t =
 										PositionX = 120,
 										PositionY = -40,
 									},
-									width = "35",
+									width = "34",
 									ZOrder = "1",
 								},
 								{
@@ -2991,7 +3099,7 @@ local t =
 										PositionX = 59,
 										PositionY = 1,
 									},
-									width = "16",
+									width = "14",
 									ZOrder = "1",
 								},
 								{
@@ -3065,7 +3173,7 @@ local t =
 										PositionX = 49,
 										PositionY = 1,
 									},
-									width = "48",
+									width = "53",
 									ZOrder = "1",
 								},
 								{
@@ -3111,7 +3219,7 @@ local t =
 										PositionX = 30,
 										PositionY = -39,
 									},
-									width = "35",
+									width = "34",
 									ZOrder = "1",
 								},
 								{
@@ -3324,7 +3432,7 @@ local t =
 										PositionX = 60,
 										PositionY = 1,
 									},
-									width = "16",
+									width = "14",
 									ZOrder = "1",
 								},
 								{
@@ -3398,7 +3506,7 @@ local t =
 										PositionX = 50,
 										PositionY = 1,
 									},
-									width = "48",
+									width = "53",
 									ZOrder = "1",
 								},
 								{
@@ -3444,7 +3552,7 @@ local t =
 										PositionX = 30,
 										PositionY = -39,
 									},
-									width = "35",
+									width = "34",
 									ZOrder = "1",
 								},
 								{
@@ -3657,7 +3765,7 @@ local t =
 										PositionX = 51,
 										PositionY = -1,
 									},
-									width = "16",
+									width = "14",
 									ZOrder = "1",
 								},
 								{
@@ -3731,7 +3839,7 @@ local t =
 										PositionX = 36,
 										PositionY = -1,
 									},
-									width = "48",
+									width = "53",
 									ZOrder = "1",
 								},
 								{
@@ -3777,7 +3885,7 @@ local t =
 										PositionX = 26,
 										PositionY = -31,
 									},
-									width = "35",
+									width = "34",
 									ZOrder = "1",
 								},
 								{
@@ -3854,6 +3962,8 @@ local t =
 			"ui/collect/TJ_ZY_bg_1_2.png",
 			"icon/expression/001.png",
 			"ui/collect/TJ_ZY_bg_1_1.png",
+			"ui/common/button_middle_n.png",
+			"ui/common/news_big.png",
 			"ui/collect/TJ_ZY_bg_2.png",
 			"ui/common/news_small.png",
 			"ui/collect/TJ_ZY_bg_3.png",

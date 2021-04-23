@@ -466,6 +466,11 @@ function EquipmentReform:onHide()
     EquipmentDataMgr:setBackFromReform(self.showId)
 end
 
+function EquipmentReform:onClose()
+    self.super.onClose(self)
+    EquipmentDataMgr:setBackFromReform(nil)
+end
+
 function EquipmentReform:removeUI()
 	self.super.removeUI(self)
 end

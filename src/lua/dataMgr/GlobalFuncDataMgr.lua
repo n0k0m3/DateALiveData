@@ -6,11 +6,16 @@ function GlobalFuncDataMgr:init()
 end
 
 function GlobalFuncDataMgr:reset()
-    
+	self.functionMap = nil
+    self.functionMap = TabDataMgr:getData("GlobalFunction")
 end
 
 function GlobalFuncDataMgr:onLogin()
     return {}
+end
+
+function GlobalFuncDataMgr:onLoginOut()
+    self:reset()
 end
 
 function GlobalFuncDataMgr:isOpen( id )

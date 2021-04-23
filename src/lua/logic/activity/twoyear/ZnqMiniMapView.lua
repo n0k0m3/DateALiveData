@@ -30,7 +30,7 @@ end
 function ZnqMiniMapView:initUI(ui)
 	self.super.initUI(self,ui)
 	self.btns = {}
-	for i = 1,9 do
+	for i = 1,8 do
 		self.btns[i] = TFDirector:getChildByPath(ui, "btn_room_"..i)
 		local redPoint = TFDirector:getChildByPath(self.btns[i], "Image_red_tip")
 		redPoint:setVisible(self:getRedPointState(i))
@@ -39,7 +39,7 @@ function ZnqMiniMapView:initUI(ui)
 end
 
 function ZnqMiniMapView:updateRedTip()
-	for i = 1,9 do
+	for i = 1,8 do
 		local redPoint = TFDirector:getChildByPath(self.btns[i], "Image_red_tip")
 		redPoint:setVisible(self:getRedPointState(i))
 	end
@@ -51,6 +51,8 @@ function ZnqMiniMapView:getRedPointState( index )
 		return ActivityDataMgr2:isBalloonTip()
 	elseif index == 5 then
 		return ActivityDataMgr2:isShowRedPointInMainView(7)
+	elseif index == 8 then -- 年兽界面红点逻辑
+		return GoodsDataMgr:getItemCount(665105) > 0 and not FubenDataMgr.enterNianshouChanllenge
 	elseif index == 9 then
 		return TurnTabletMgr:isTurnTabletRedShow()
 	end
@@ -64,11 +66,7 @@ function ZnqMiniMapView:registerEvents()
 	EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(self.updateRedTip, self))
 	-- body
 	for k,v in ipairs(self.btns) do
-		v.id = k  --TODO CLOSE 暂时屏蔽部分按钮响应前往日志
-		v:onClick(function ( sender )
-			if sender.id == 8 or sender.id ==4 or sender.id == 2 then
-				return
-			end
+		v:onClick(function ( ... )
 			-- body
 			WorldRoomDataMgr:getCurControl():changeMainHeroToBornPos(k)
 			EventMgr:dispatchEvent(EV_WORLD_CLOSE_BASE_INFO)

@@ -19,8 +19,8 @@ return {
         fightCount = -1,
         battleTime = 300,
         lvlLimit = {
-            [1] = 20,
-            [2] = 70,
+            [1] = 10,
+            [2] = 80,
         },
         bosspic = "boss_6.png",
         bossicon = "ui/termBegin/level/101.png",
@@ -60,8 +60,8 @@ return {
         fightCount = -1,
         battleTime = 150,
         lvlLimit = {
-            [1] = 20,
-            [2] = 70,
+            [1] = 50,
+            [2] = 80,
         },
         bosspic = "boss_8.png",
         bossicon = "ui/termBegin/level/203.png",
@@ -74,7 +74,7 @@ return {
         LevelDesc = 2101851,
         levelTarget = 2101857,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710006,
@@ -183,8 +183,8 @@ return {
         fightCount = -1,
         battleTime = 300,
         lvlLimit = {
-            [1] = 20,
-            [2] = 70,
+            [1] = 30,
+            [2] = 80,
         },
         bosspic = "boss_7.png",
         bossicon = "ui/termBegin/level/102.png",
@@ -197,7 +197,7 @@ return {
         LevelDesc = 2101852,
         levelTarget = 2101854,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710005,
@@ -306,8 +306,8 @@ return {
         fightCount = -1,
         battleTime = 300,
         lvlLimit = {
-            [1] = 20,
-            [2] = 70,
+            [1] = 50,
+            [2] = 80,
         },
         bosspic = "boss_8.png",
         bossicon = "ui/termBegin/level/103.png",
@@ -320,7 +320,7 @@ return {
         LevelDesc = 2101852,
         levelTarget = 2101854,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710006,
@@ -429,8 +429,8 @@ return {
         fightCount = -1,
         battleTime = 300,
         lvlLimit = {
-            [1] = 20,
-            [2] = 70,
+            [1] = 10,
+            [2] = 80,
         },
         bosspic = "boss_2.png",
         bossicon = "ui/termBegin/level/301.png",
@@ -552,8 +552,8 @@ return {
         fightCount = -1,
         battleTime = 300,
         lvlLimit = {
-            [1] = 20,
-            [2] = 70,
+            [1] = 30,
+            [2] = 80,
         },
         bosspic = "boss_1.png",
         bossicon = "ui/termBegin/level/302.png",
@@ -566,7 +566,7 @@ return {
         LevelDesc = 2101850,
         levelTarget = 2101853,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710005,
@@ -675,8 +675,8 @@ return {
         fightCount = -1,
         battleTime = 300,
         lvlLimit = {
-            [1] = 20,
-            [2] = 70,
+            [1] = 50,
+            [2] = 80,
         },
         bosspic = "boss_4.png",
         bossicon = "ui/termBegin/level/303.png",
@@ -689,7 +689,7 @@ return {
         LevelDesc = 2101850,
         levelTarget = 2101853,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710006,
@@ -839,8 +839,8 @@ return {
         fightCount = -1,
         battleTime = 150,
         lvlLimit = {
-            [1] = 20,
-            [2] = 70,
+            [1] = 10,
+            [2] = 80,
         },
         bosspic = "boss_6.png",
         bossicon = "ui/termBegin/level/201.png",
@@ -1003,8 +1003,8 @@ return {
         fightCount = -1,
         battleTime = 150,
         lvlLimit = {
-            [1] = 20,
-            [2] = 70,
+            [1] = 30,
+            [2] = 80,
         },
         bosspic = "boss_7.png",
         bossicon = "ui/termBegin/level/202.png",
@@ -1017,7 +1017,7 @@ return {
         LevelDesc = 2101851,
         levelTarget = 2101856,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710005,

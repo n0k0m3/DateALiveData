@@ -86,6 +86,38 @@ local t =
 					{
 						
 						{
+							controlID = "Image_titleChangeView_1_Panel_root_Panel-titleChangeView_Layer1_playerInfo_Game",
+							UUID = "73bbbb25_a734_4b06_8d8c_4fadc6151522",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							height = "640",
+							ignoreSize = "True",
+							name = "Image_titleChangeView_1",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "770",
+							texturePath = "ui/title/change/称号2.jpg",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 550,
+								PositionY = 318,
+								LeftPositon = -143,
+								BottomPosition = -2,
+								relativeToName = "Panel_root",
+								nType = 3,
+								nGravity = 4,
+								nAlign = 7
+							},
+							width = "1386",
+							ZOrder = "1",
+						},
+						{
 							controlID = "Panel_title_Panel_root_Panel-titleChangeView_Layer1_playerInfo_Game",
 							UUID = "4ea91b31_3fe4_49cb_8b8b_78d3e366b8e9",
 							anchorPoint = "False",
@@ -1701,6 +1733,7 @@ local t =
 	{
 		textures = 
 		{
+			"ui/title/change/称号2.jpg",
 			"ui/common/pop_ui/pop_bg_01.png",
 			"ui/common/pop_ui/pop_ui_02.png",
 			"ui/common/pop_ui/pop_btn_02.png",

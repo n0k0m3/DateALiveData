@@ -289,7 +289,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "64",
+									height = "2",
 									ignoreSize = "True",
 									name = "Image_skill_icon",
 									scaleX = "0.8",
@@ -304,7 +304,7 @@ local t =
 									{
 										PositionX = -2,
 									},
-									width = "64",
+									width = "2",
 									ZOrder = "1",
 								},
 								{

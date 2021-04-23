@@ -1751,7 +1751,7 @@ local t =
 												PositionY = -133,
 											},
 											UItype = "Button",
-											width = "122",
+											width = "144",
 											ZOrder = "1",
 											components = 
 											{

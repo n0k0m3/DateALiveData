@@ -407,7 +407,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 237,
+										PositionX = 238,
 										PositionY = 96,
 										IsPercent = true,
 										PercentX = 40.97,

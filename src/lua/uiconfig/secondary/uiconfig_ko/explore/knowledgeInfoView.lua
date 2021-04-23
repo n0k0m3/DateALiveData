@@ -207,7 +207,7 @@ local t =
 							height = "103",
 							ignoreSize = "False",
 							innerHeight = "103",
-							innerWidth = "306",
+							innerWidth = "348",
 							name = "ScrollView_cost",
 							showScrollbar = "False",
 							sizepercentx = "0",
@@ -217,7 +217,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 569,
+								PositionX = 567,
 								PositionY = 198,
 							},
 							uipanelviewmodel = 
@@ -225,7 +225,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "306",
+							width = "348",
 							ZOrder = "1",
 						},
 						{
@@ -271,7 +271,7 @@ local t =
 								PositionX = 395,
 								PositionY = 532,
 							},
-							width = "183",
+							width = "141",
 							ZOrder = "1",
 						},
 						{
@@ -317,7 +317,7 @@ local t =
 								PositionX = 562,
 								PositionY = 356,
 							},
-							width = "183",
+							width = "141",
 							ZOrder = "1",
 						},
 						{
@@ -500,7 +500,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "33",
 									ignoreSize = "True",
 									name = "Label_active",
 									nTextAlign = "1",
@@ -509,14 +509,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "研 究",
+									text = "연 구",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "60",
+									width = "57",
 									ZOrder = "1",
 								},
 							},
@@ -603,7 +603,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
+									height = "20",
 									ignoreSize = "True",
 									name = "tag",
 									nTextAlign = "1",
@@ -620,7 +620,7 @@ local t =
 										PositionX = 87,
 										PositionY = 11,
 									},
-									width = "39",
+									width = "37",
 									ZOrder = "1",
 								},
 								{
@@ -642,14 +642,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "22",
 									ignoreSize = "True",
 									name = "goldnum",
 									nTextAlign = "1",
@@ -666,7 +666,7 @@ local t =
 										PositionX = 86,
 										PositionY = -13,
 									},
-									width = "86",
+									width = "93",
 									ZOrder = "1",
 								},
 								{
@@ -835,14 +835,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_num",
 									nTextAlign = "1",
@@ -880,14 +880,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_num1",
 									nTextAlign = "1",

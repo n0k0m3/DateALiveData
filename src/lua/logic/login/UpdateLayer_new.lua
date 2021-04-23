@@ -131,37 +131,8 @@ function UpdateLayer_new:startAction()
 end
 --随机广告图
 local function randomAD()
-    local showDatas = {}
-    local datas =  TFGlobalUtils:requireGlobalFile("lua.table.AdWeight")
-    TFGlobalUtils:unRequireGlobalFile("lua.table.AdWeight")
-    local start = 0
-    for i, data in pairs(datas) do
-        if data.showType == 1 then
-            data.section = data.probability + start
-            start = data.section
-            table.insert(showDatas,data)
-        end
-    end
-    if #showDatas > 0 then
-        local maxValue = showDatas[#showDatas].section
-        local ranValue = math.random(maxValue)
-        print("randomAD maxValue:"..maxValue.." ranValue:"..ranValue)
-        for i, data in ipairs(showDatas) do
-            if ranValue <= data.section then
-                -- print(1 , ranValue ,data)
-                if TFFileUtil:existFile(data.res) then
-                    return data.res ,data.descID
-                end
-                return "ui/update/s1.png",data.descID
-            end 
-        end
-    end
     -- Box("random ad data error showType:"..tostring(showType).." random:"..tostring(ranValue))
-    if TFFileUtil:existFile(showDatas[1].res) then
-        return showDatas[1].res ,showDatas[1].descID
-    end
-
-    return "ui/update/s1.png" ,showDatas[1].descID
+    return Utils:randomAD(1)
 end
 
 

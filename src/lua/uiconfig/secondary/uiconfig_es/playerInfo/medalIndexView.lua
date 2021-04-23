@@ -444,7 +444,7 @@ local t =
 												PositionX = 14,
 												PositionY = 19,
 											},
-											width = "210",
+											width = "194",
 											ZOrder = "1",
 										},
 										{
@@ -544,7 +544,7 @@ local t =
 												PositionX = 287,
 												PositionY = 21,
 											},
-											width = "56",
+											width = "53",
 											ZOrder = "1",
 										},
 										{
@@ -590,7 +590,7 @@ local t =
 												PositionX = 341,
 												PositionY = 15,
 											},
-											width = "35",
+											width = "38",
 											ZOrder = "1",
 										},
 									},
@@ -669,7 +669,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "145",
+											width = "134",
 											ZOrder = "1",
 										},
 									},
@@ -852,7 +852,7 @@ local t =
 										IsPercent = true,
 										PercentY = 38.68,
 									},
-									width = "244",
+									width = "262",
 									ZOrder = "1",
 								},
 								{

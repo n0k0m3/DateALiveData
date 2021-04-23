@@ -111,6 +111,12 @@ function TitleDataMgr:getEnableShowTitles(classify)
             end
         end
     end
+    table.sort(unlocks, function (a,b)
+        return a.order < b.order
+    end )
+    table.sort(locks, function (a,b)
+        return a.order < b.order
+    end )
     for i,v in ipairs(using) do
         table.insert(sortCfgs, v)
     end

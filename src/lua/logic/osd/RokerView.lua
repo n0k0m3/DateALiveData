@@ -130,6 +130,10 @@ function RokerView:setRokeVector(vx, vy)
 end
 
 function RokerView:update(dt)
+    if self.isSinglePlayer then
+        return
+    end
+
     local configTime = self.configTime or OSDConfig.SYN_POS_TIME
     if not self.sendDelta or self.sendDelta >= configTime then
         --第一次 OR 每个一秒发一次
@@ -149,6 +153,11 @@ end
 function RokerView:changeSynicTime( dt )
     -- body
     self.configTime = dt or OSDConfig.SYN_POS_TIME
+end
+
+function RokerView:setIsSinglePlayer( isSingle )
+    -- body
+    self.isSinglePlayer = isSingle
 end
 
 function RokerView:getConfigTime( ... )

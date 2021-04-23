@@ -201,6 +201,10 @@ function SummonView:refreshRightTabTxt()
             v.Label_hotTab:setTextById(self.clothseData_[i].text)
         end
     end
+
+    for i,v in ipairs(self.Button_hotTab) do
+        v:setVisible(summonType ~= EC_SummonType.CLOTHESE_3)
+    end
 end
 
 function SummonView:addSummonItem(i)
@@ -211,6 +215,7 @@ function SummonView:addSummonItem(i)
     foo.Image_icon = TFDirector:getChildByPath(foo.root, "Image_icon")
     foo.Label_name = TFDirector:getChildByPath(foo.root, "Label_name")
     foo.Image_upTips = TFDirector:getChildByPath(foo.root, "Image_upTips"):hide()
+    foo.Image_red_tip = TFDirector:getChildByPath(foo.root, "Image_red_tip"):hide()
     foo.id = i
     self.ListView_summon:pushBackCustomItem(foo.root)
     self.summonItems_[i] = foo
@@ -223,6 +228,7 @@ function SummonView:updateSummonItem(index)
     foo.Image_icon:setTexture(summonCfg.smallIcon)
     foo.Label_name:setTextById(summonCfg.name)
     foo.Image_upTips:setVisible(summonCfg.up)
+    foo.Image_red_tip:setVisible(SummonDataMgr:isFreeBtnById(summon[1].id))
     if summonCfg.summonType == EC_SummonType.DIAMOND then
         local isNewGuy = SummonDataMgr:isOpenNoob()
         foo.Image_upTips:setVisible(isNewGuy or summonCfg.summonType == EC_SummonType.ELF_CONTRACT )
@@ -391,7 +397,6 @@ function SummonView:updateSelectInfo()
             self.Image_fistIcon:setTexture(firstCostCfg.icon)
             self.Label_fistCur:setTextById(800007, GoodsDataMgr:getItemCount(firstCostId))
             self.Label_fistHave:setTextById(1200001, TextDataMgr:getText(firstCostCfg.nameTextId))
-            self.Label_fistHave:setFontSize(20)
         end
         self.firstCostItemId_ = firstCostId
     end
@@ -418,7 +423,7 @@ function SummonView:updateSelectInfo()
     if summonCfg.summonType == EC_SummonType.APPOINT_EQUIPMENT or summonCfg.summonType == EC_SummonType.APPOINT_HERO
     or summonCfg.summonType == EC_SummonType.CLOTHESE
     or summonCfg.summonType == EC_SummonType.SPECIAL_SUMMON
-    or summonCfg.summonType == EC_SummonType.CLOTHESE_1 or summonCfg.summonType == EC_SummonType.CLOTHESE_2 then
+    or summonCfg.summonType == EC_SummonType.CLOTHESE_1 or summonCfg.summonType == EC_SummonType.CLOTHESE_2 or summonCfg.summonType == EC_SummonType.CLOTHESE_3 then
         if summonInfo then
             local startShow = TFDate(summonInfo.startShow + GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d")
             local endShow = TFDate(summonInfo.endShow+ GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d ")
@@ -484,7 +489,7 @@ function SummonView:updateSelectInfo()
     -- 热点召唤
     local isHotSummon = summonType == EC_SummonType.HOT_ROLE or summonType == EC_SummonType.HOT_EQUIPMENT
     local isClothseSummon = summonType == EC_SummonType.CLOTHESE_1 or summonType == EC_SummonType.CLOTHESE_2
-    self.Panel_hotSPot:setVisible(isHotSummon or isClothseSummon)
+    self.Panel_hotSPot:setVisible(isHotSummon or isClothseSummon or summonType == EC_SummonType.CLOTHESE_3)
 
 
     local isHavePrivilege, _ = RechargeDataMgr:getIsHavePrivilegeByType(105)
@@ -612,6 +617,16 @@ function SummonView:updateSelectInfo()
 
     else
         self.panel_cloth_show:hide()
+    end
+
+    if summonType == EC_SummonType.CLOTHESE_3 then
+        self.Image_hotPlay:setVisible(false)
+        self.Button_equipPre:setVisible(false)
+        self.Label_hotCount_2:setTextById(15010088)
+        local _num = SummonDataMgr:getPreciousCount(summonType)
+        local num = _num == 0 and summonCfg.immortalGetTimes or (summonCfg.immortalGetTimes - _num + 1)
+        self.Label_hotCount:setText(num)
+        self.Image_ad:setTexture(summonCfg.icon)
     end
 
     ---检测坐标
@@ -747,12 +762,6 @@ function SummonView:registerEvents()
     EventMgr:addEventListener(self, EV_FUBEN_UPDATE_LIMITHERO, handler(self.onLimitHeroEvent, self))
     EventMgr:addEventListener(self, EV_SUMMON_HOTSPLOT_UPDATE, handler(self.onHotSpotUpdateEvent, self))
     EventMgr:addEventListener(self, EV_PRIVILEGE_UPDATE, handler(self.updateSelectInfo, self))
-
-
-
-    self.Button_goto_shop:onClick(function( ... )
-        FunctionDataMgr:jStore(600002)
-    end)
 
     self.Button_preview:onClick(function()
         local summon = self.viewSelectSummon_
@@ -1079,6 +1088,11 @@ function SummonView:onSummonResultEvent(reward)
   --   TFAudio.playBmg("sound/card1.mp3")
     self:updateNoobReward()
     self:updateSelectInfo()
+    for i, v in ipairs(self.summon_) do
+        if v[1].isOpen then
+            self:updateSummonItem(i)
+        end
+    end
     Utils:openView("summon.SummonResultView", reward or {})
 end
 

@@ -8,6 +8,9 @@ function MainUISettingMgr:init()
 	TFDirector:addProto(s2c.MEDAL_RESP_UI_CHANGE_INFO, self, self.onRecvChangeInfo)
 	--更换UI显示
 	TFDirector:addProto(s2c.MEDAL_RESP_CHANGE_UI_CHANGE, self, self.onRecvChange)
+
+	TFDirector:addProto(s2c.PLAYER_RESP_SET_UI_CHANGE, self, self.onRecvUIUseRecd)
+	TFDirector:addProto(s2c.PLAYER_PUSH_UI_CHANGE_INFO, self, self.onRecvUIFestivalInfo)
 	
 	self.currentId = -1
 	self.uiChange = {}
@@ -20,6 +23,7 @@ function MainUISettingMgr:onLogin()
 	self.currentId = -1
 	self.uiChange = {}
 	self:ReqUiChangeInfo()
+	self:send_PLAYER_REQ_LOGIN_UI_CHANGE_INFO()
 	return {s2c.MEDAL_RESP_UI_CHANGE_INFO}
 end
 
@@ -127,5 +131,39 @@ function MainUISettingMgr:getCurUiCfg()
 	return tb
 end
 
+-- 主页面活动期间ui提供选择
+function MainUISettingMgr:send_PLAYER_REQ_SET_UI_CHANGE(useId, state)
+	TFDirector:send(c2s.PLAYER_REQ_SET_UI_CHANGE, {useId, state})
+end
+
+function MainUISettingMgr:send_PLAYER_REQ_LOGIN_UI_CHANGE_INFO()
+	TFDirector:send(c2s.PLAYER_REQ_LOGIN_UI_CHANGE_INFO, {})
+end
+
+function MainUISettingMgr:onRecvUIUseRecd(event)
+	if not event.data then
+		return
+	end
+end
+
+function MainUISettingMgr:onRecvUIFestivalInfo(event)
+	local data = event.data
+	if not data then
+		return
+	end
+	if data.needChange then
+		self.festivalInfoKeep = data
+	end
+end
+
+function MainUISettingMgr:getfestivalInfo()
+	return self.festivalInfoKeep
+end
+
+function MainUISettingMgr:setfestivalInfoStateNil()
+	if self.festivalInfoKeep then
+		self.festivalInfoKeep = nil
+	end
+end
 
 return MainUISettingMgr:new()

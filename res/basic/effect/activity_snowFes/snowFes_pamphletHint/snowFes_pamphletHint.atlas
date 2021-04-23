@@ -1,0 +1,125 @@
+
+snowFes_pamphletHint.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_000
+  rotate: false
+  xy: 2, 171
+  size: 176, 96
+  orig: 230, 145
+  offset: 25, 23
+  index: -1
+images/guangxian_000
+  rotate: false
+  xy: 440, 409
+  size: 395, 32
+  orig: 436, 79
+  offset: 22, 24
+  index: -1
+images/lizi_000
+  rotate: false
+  xy: 2, 878
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_002
+  rotate: false
+  xy: 2, 791
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_004
+  rotate: false
+  xy: 440, 878
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_006
+  rotate: false
+  xy: 2, 704
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_008
+  rotate: false
+  xy: 440, 791
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_010
+  rotate: false
+  xy: 2, 617
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_012
+  rotate: false
+  xy: 440, 704
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_014
+  rotate: false
+  xy: 2, 530
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_016
+  rotate: false
+  xy: 440, 617
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_018
+  rotate: false
+  xy: 2, 443
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_020
+  rotate: false
+  xy: 440, 530
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_022
+  rotate: false
+  xy: 2, 356
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_024
+  rotate: false
+  xy: 440, 443
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_026
+  rotate: true
+  xy: 878, 527
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1
+images/lizi_028
+  rotate: false
+  xy: 2, 269
+  size: 436, 85
+  orig: 436, 85
+  offset: 0, 0
+  index: -1

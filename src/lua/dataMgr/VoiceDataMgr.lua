@@ -35,7 +35,9 @@ function VoiceDataMgr:getVoice(_type,roleID,dressId)
 	local voiceTable = self.voiceTable[_type][roleID].voice
 	local voicePath = voiceTable[math.random(1,#voiceTable)]
 	if roleID and not dressId then
-		dressId = RoleDataMgr:getUseRoleInfo().dressId
+		if 	roleID == RoleDataMgr:getUseId() then
+			dressId = RoleDataMgr:getUseRoleInfo().dressId
+		end
 	end
 	if dressId then
 		local suffixStr = ".mp3"
@@ -43,7 +45,7 @@ function VoiceDataMgr:getVoice(_type,roleID,dressId)
 		local kz = TabDataMgr:getData("Dress",dressId).speVoiceSuffix or ""
 		local dressVoicePath = tablePath[1] .. "_" .. kz .. suffixStr
 		if self:file_exists(dressVoicePath) then
-			voicePath = dressVoicePath
+			voicePath = dressVoicePath			
 		end
 	end
 

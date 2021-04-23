@@ -245,6 +245,26 @@ local function handleAngleData(data,angleDatas,mixDatas,isClone)
             table.insertTo(data[attr.fieldName],attr["data"..attr.valueType])
         end
     end
+    if mixDatas then
+        local attrs = mixDatas[data.id] --有没有对应ID得数据
+        if attrs then
+            for i , attr in ipairs(attrs) do
+                if attr.changeType == eChangeType.MATH or attr.changeType == eChangeType.MATH_EX then     --加减
+                    local _changeValue   = attr["data"..attr.valueType]
+                    data[attr.fieldName] = data[attr.fieldName] + _changeValue
+                    if attr.changeType == eChangeType.MATH then
+                        data[attr.fieldName] = math.max(data[attr.fieldName],0)
+                    end
+                elseif attr.changeType == eChangeType.REPLACE then --替换
+                    data[attr.fieldName] = attr["data"..attr.valueType]
+                elseif attr.changeType == eChangeType.RIDE then --乘
+                    data[attr.fieldName] = data[attr.fieldName] * attr["data"..attr.valueType]
+                elseif attr.changeType == eChangeType.MERGE then -- 数组类型合并 
+                    table.insertTo(data[attr.fieldName],attr["data"..attr.valueType])
+                end
+            end
+        end
+    end 
     return data
 end
 

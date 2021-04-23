@@ -1207,11 +1207,11 @@ local t =
 											anchorPointX = "0",
 											anchorPointY = "0",
 											backGroundScale9Enable = "False",
-											bgColorOpacity = "50",
+											bgColorOpacity = "255",
 											bIsOpenClipping = "True",
 											bounceEnable = "False",
 											classname = "MEScrollView",
-											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											colorType = "0;SingleColor:#FF000000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 											direction = "1",
 											dstBlendFunc = "771",
 											height = "215",
@@ -1624,11 +1624,11 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 534,
-												PositionY = 66,
+												PositionX = 537,
+												PositionY = 63,
 											},
 											width = "236",
-											ZOrder = "1",
+											ZOrder = "2",
 											components = 
 											{
 												

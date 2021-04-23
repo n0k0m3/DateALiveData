@@ -87,6 +87,9 @@ end
 
 function DepotView:onCountDownPer()
     local storeInfo = StoreDataMgr:getStoreInfo(self.storeCid_)
+    if not storeInfo then
+        return
+    end
     local remainTime = math.max(0, storeInfo.nextRefreshTime - ServerDataMgr:getServerTime())
     local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
     if day == "00" then

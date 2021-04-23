@@ -2550,28 +2550,29 @@ return {
         },
         quality = 3,
     },
-    [105014] = {
+    [106036] = {
         resultShow3 = {
-            [500022] = 1,
+            [500020] = 2,
         },
-        id = 105014,
-        condition = 3,
-        costTime = 7200,
+        id = 106036,
+        condition = 2,
+        costTime = 21600,
         resultShow1 = {
-            [532107] = 23,
-            [500018] = 30,
-            [500022] = 1,
+            [500020] = 2,
+            [532103] = 45,
+            [500018] = 60,
         },
         resultShow2 = {
             [1] = 500002,
-            [2] = 532205,
-            [3] = 532206,
+            [2] = 532201,
+            [3] = 532202,
+            [4] = 532301,
         },
-        name = 920114,
-        jobExp = 15,
+        name = 920036,
+        jobExp = 30,
         timeLimit = false,
         costVim = {
-            [500024] = 15,
+            [500024] = 30,
         },
         result = {
             basic = {
@@ -2580,22 +2581,29 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 8,
+                        max = 17,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
-                        weight = 4500,
-                        max = 4,
-                        id = 532205,
+                        weight = 5000,
+                        max = 6,
+                        id = 532201,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
-                        weight = 4500,
-                        max = 4,
-                        id = 532206,
+                        weight = 5000,
+                        max = 6,
+                        id = 532202,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3500,
+                        max = 1,
+                        id = 532301,
                     },
                 },
             },
@@ -2603,20 +2611,20 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 30,
+                        num = 60,
                     },
                     [2] = {
-                        id = 532107,
-                        num = 23,
+                        id = 532103,
+                        num = 45,
                     },
                     [3] = {
-                        id = 500022,
-                        num = 1,
+                        id = 500020,
+                        num = 2,
                     },
                 },
             },
         },
-        quality = 2,
+        quality = 4,
     },
     [103002] = {
         resultShow3 = {
@@ -2892,28 +2900,27 @@ return {
         },
         quality = 1,
     },
-    [106037] = {
+    [105015] = {
         resultShow3 = {
+            [500023] = 0,
         },
-        id = 106037,
-        condition = 2,
-        costTime = 21600,
+        id = 105015,
+        condition = 3,
+        costTime = 7200,
         resultShow1 = {
-            [532101] = 24,
-            [500018] = 60,
-            [532103] = 21,
+            [500018] = 30,
+            [532108] = 23,
         },
         resultShow2 = {
             [1] = 500002,
-            [2] = 532201,
-            [3] = 532202,
-            [4] = 532301,
+            [2] = 532205,
+            [3] = 532206,
         },
-        name = 920037,
-        jobExp = 30,
+        name = 920115,
+        jobExp = 15,
         timeLimit = false,
         costVim = {
-            [500024] = 30,
+            [500024] = 15,
         },
         result = {
             basic = {
@@ -2922,29 +2929,22 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 17,
+                        max = 8,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 532201,
+                        weight = 4500,
+                        max = 4,
+                        id = 532205,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 532202,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3500,
-                        max = 1,
-                        id = 532301,
+                        weight = 4500,
+                        max = 4,
+                        id = 532206,
                     },
                 },
             },
@@ -2952,20 +2952,16 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 60,
+                        num = 30,
                     },
                     [2] = {
-                        id = 532101,
-                        num = 24,
-                    },
-                    [3] = {
-                        id = 532103,
-                        num = 21,
+                        id = 532108,
+                        num = 23,
                     },
                 },
             },
         },
-        quality = 4,
+        quality = 2,
     },
     [103003] = {
         resultShow3 = {
@@ -6939,6 +6935,233 @@ return {
         },
         quality = 5,
     },
+    [104047] = {
+        resultShow3 = {
+        },
+        id = 104047,
+        condition = -1,
+        costTime = 28800,
+        resultShow1 = {
+            [533109] = 28,
+            [500018] = 80,
+            [533107] = 32,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+            [4] = 533303,
+        },
+        name = 920297,
+        jobExp = 40,
+        timeLimit = false,
+        costVim = {
+            [500024] = 40,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 23,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 2,
+                        id = 533303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 80,
+                    },
+                    [2] = {
+                        id = 533107,
+                        num = 32,
+                    },
+                    [3] = {
+                        id = 533109,
+                        num = 28,
+                    },
+                },
+            },
+        },
+        quality = 5,
+    },
+    [104046] = {
+        resultShow3 = {
+            [500023] = 2,
+        },
+        id = 104046,
+        condition = -1,
+        costTime = 28800,
+        resultShow1 = {
+            [533109] = 60,
+            [500018] = 80,
+            [500023] = 2,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+            [4] = 533303,
+        },
+        name = 920296,
+        jobExp = 40,
+        timeLimit = false,
+        costVim = {
+            [500024] = 40,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 23,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 2,
+                        id = 533303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 80,
+                    },
+                    [2] = {
+                        id = 533109,
+                        num = 60,
+                    },
+                    [3] = {
+                        id = 500023,
+                        num = 2,
+                    },
+                },
+            },
+        },
+        quality = 5,
+    },
+    [104045] = {
+        resultShow3 = {
+            [500023] = 2,
+        },
+        id = 104045,
+        condition = -1,
+        costTime = 28800,
+        resultShow1 = {
+            [500023] = 2,
+            [533108] = 60,
+            [500018] = 80,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+            [4] = 533303,
+        },
+        name = 920295,
+        jobExp = 40,
+        timeLimit = false,
+        costVim = {
+            [500024] = 40,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 23,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 2,
+                        id = 533303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 80,
+                    },
+                    [2] = {
+                        id = 533108,
+                        num = 60,
+                    },
+                    [3] = {
+                        id = 500023,
+                        num = 2,
+                    },
+                },
+            },
+        },
+        quality = 5,
+    },
     [107006] = {
         resultShow3 = {
             [500023] = 1,
@@ -7301,233 +7524,6 @@ return {
             },
         },
         quality = 3,
-    },
-    [104047] = {
-        resultShow3 = {
-        },
-        id = 104047,
-        condition = -1,
-        costTime = 28800,
-        resultShow1 = {
-            [533109] = 28,
-            [500018] = 80,
-            [533107] = 32,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-            [4] = 533303,
-        },
-        name = 920297,
-        jobExp = 40,
-        timeLimit = false,
-        costVim = {
-            [500024] = 40,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 23,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533206,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 2,
-                        id = 533303,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 80,
-                    },
-                    [2] = {
-                        id = 533107,
-                        num = 32,
-                    },
-                    [3] = {
-                        id = 533109,
-                        num = 28,
-                    },
-                },
-            },
-        },
-        quality = 5,
-    },
-    [104046] = {
-        resultShow3 = {
-            [500023] = 2,
-        },
-        id = 104046,
-        condition = -1,
-        costTime = 28800,
-        resultShow1 = {
-            [533109] = 60,
-            [500018] = 80,
-            [500023] = 2,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-            [4] = 533303,
-        },
-        name = 920296,
-        jobExp = 40,
-        timeLimit = false,
-        costVim = {
-            [500024] = 40,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 23,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533206,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 2,
-                        id = 533303,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 80,
-                    },
-                    [2] = {
-                        id = 533109,
-                        num = 60,
-                    },
-                    [3] = {
-                        id = 500023,
-                        num = 2,
-                    },
-                },
-            },
-        },
-        quality = 5,
-    },
-    [104045] = {
-        resultShow3 = {
-            [500023] = 2,
-        },
-        id = 104045,
-        condition = -1,
-        costTime = 28800,
-        resultShow1 = {
-            [500023] = 2,
-            [533108] = 60,
-            [500018] = 80,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-            [4] = 533303,
-        },
-        name = 920295,
-        jobExp = 40,
-        timeLimit = false,
-        costVim = {
-            [500024] = 40,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 23,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533206,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 2,
-                        id = 533303,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 80,
-                    },
-                    [2] = {
-                        id = 533108,
-                        num = 60,
-                    },
-                    [3] = {
-                        id = 500023,
-                        num = 2,
-                    },
-                },
-            },
-        },
-        quality = 5,
     },
     [104044] = {
         resultShow3 = {
@@ -8138,6 +8134,234 @@ return {
         },
         quality = 4,
     },
+    [104036] = {
+        resultShow3 = {
+            [500023] = 2,
+        },
+        id = 104036,
+        condition = 0,
+        costTime = 21600,
+        resultShow1 = {
+            [533109] = 45,
+            [500018] = 60,
+            [500023] = 2,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+            [4] = 533303,
+        },
+        name = 920286,
+        jobExp = 30,
+        timeLimit = false,
+        costVim = {
+            [500024] = 30,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 17,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 533206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3500,
+                        max = 1,
+                        id = 533303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 60,
+                    },
+                    [2] = {
+                        id = 533109,
+                        num = 45,
+                    },
+                    [3] = {
+                        id = 500023,
+                        num = 2,
+                    },
+                },
+            },
+        },
+        quality = 4,
+    },
+    [104035] = {
+        resultShow3 = {
+            [500023] = 1,
+        },
+        id = 104035,
+        condition = 0,
+        costTime = 21600,
+        resultShow1 = {
+            [500023] = 1,
+            [533108] = 45,
+            [500018] = 60,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+            [4] = 533303,
+        },
+        name = 920285,
+        jobExp = 30,
+        timeLimit = false,
+        costVim = {
+            [500024] = 30,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 17,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 533206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3500,
+                        max = 1,
+                        id = 533303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 60,
+                    },
+                    [2] = {
+                        id = 533108,
+                        num = 45,
+                    },
+                    [3] = {
+                        id = 500023,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 4,
+    },
+    [104034] = {
+        resultShow3 = {
+            [500022] = 2,
+        },
+        id = 104034,
+        condition = 0,
+        costTime = 21600,
+        resultShow1 = {
+            [500018] = 60,
+            [533107] = 45,
+            [500022] = 2,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+            [4] = 533303,
+        },
+        name = 920284,
+        jobExp = 30,
+        timeLimit = false,
+        costVim = {
+            [500024] = 30,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 17,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 533206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3500,
+                        max = 1,
+                        id = 533303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 60,
+                    },
+                    [2] = {
+                        id = 533107,
+                        num = 45,
+                    },
+                    [3] = {
+                        id = 500022,
+                        num = 2,
+                    },
+                },
+            },
+        },
+        quality = 4,
+    },
     [107007] = {
         resultShow3 = {
         },
@@ -8493,234 +8717,6 @@ return {
             },
         },
         quality = 3,
-    },
-    [104036] = {
-        resultShow3 = {
-            [500023] = 2,
-        },
-        id = 104036,
-        condition = 0,
-        costTime = 21600,
-        resultShow1 = {
-            [533109] = 45,
-            [500018] = 60,
-            [500023] = 2,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-            [4] = 533303,
-        },
-        name = 920286,
-        jobExp = 30,
-        timeLimit = false,
-        costVim = {
-            [500024] = 30,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 17,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 533206,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3500,
-                        max = 1,
-                        id = 533303,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 60,
-                    },
-                    [2] = {
-                        id = 533109,
-                        num = 45,
-                    },
-                    [3] = {
-                        id = 500023,
-                        num = 2,
-                    },
-                },
-            },
-        },
-        quality = 4,
-    },
-    [104035] = {
-        resultShow3 = {
-            [500023] = 1,
-        },
-        id = 104035,
-        condition = 0,
-        costTime = 21600,
-        resultShow1 = {
-            [500023] = 1,
-            [533108] = 45,
-            [500018] = 60,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-            [4] = 533303,
-        },
-        name = 920285,
-        jobExp = 30,
-        timeLimit = false,
-        costVim = {
-            [500024] = 30,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 17,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 533206,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3500,
-                        max = 1,
-                        id = 533303,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 60,
-                    },
-                    [2] = {
-                        id = 533108,
-                        num = 45,
-                    },
-                    [3] = {
-                        id = 500023,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 4,
-    },
-    [104034] = {
-        resultShow3 = {
-            [500022] = 2,
-        },
-        id = 104034,
-        condition = 0,
-        costTime = 21600,
-        resultShow1 = {
-            [500018] = 60,
-            [533107] = 45,
-            [500022] = 2,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-            [4] = 533303,
-        },
-        name = 920284,
-        jobExp = 30,
-        timeLimit = false,
-        costVim = {
-            [500024] = 30,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 17,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 533206,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3500,
-                        max = 1,
-                        id = 533303,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 60,
-                    },
-                    [2] = {
-                        id = 533107,
-                        num = 45,
-                    },
-                    [3] = {
-                        id = 500022,
-                        num = 2,
-                    },
-                },
-            },
-        },
-        quality = 4,
     },
     [104033] = {
         resultShow3 = {
@@ -9331,6 +9327,234 @@ return {
         },
         quality = 3,
     },
+    [104025] = {
+        resultShow3 = {
+            [500023] = 1,
+        },
+        id = 104025,
+        condition = 1,
+        costTime = 14400,
+        resultShow1 = {
+            [500023] = 1,
+            [533108] = 30,
+            [500018] = 40,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+            [4] = 533303,
+        },
+        name = 920275,
+        jobExp = 20,
+        timeLimit = false,
+        costVim = {
+            [500024] = 20,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 11,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 533206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 1500,
+                        max = 1,
+                        id = 533303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 40,
+                    },
+                    [2] = {
+                        id = 533108,
+                        num = 30,
+                    },
+                    [3] = {
+                        id = 500023,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 3,
+    },
+    [104024] = {
+        resultShow3 = {
+            [500022] = 1,
+        },
+        id = 104024,
+        condition = 1,
+        costTime = 14400,
+        resultShow1 = {
+            [500018] = 40,
+            [533107] = 30,
+            [500022] = 1,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+            [4] = 533303,
+        },
+        name = 920274,
+        jobExp = 20,
+        timeLimit = false,
+        costVim = {
+            [500024] = 20,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 11,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 533206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 1500,
+                        max = 1,
+                        id = 533303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 40,
+                    },
+                    [2] = {
+                        id = 533107,
+                        num = 30,
+                    },
+                    [3] = {
+                        id = 500022,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 3,
+    },
+    [104023] = {
+        resultShow3 = {
+            [500022] = 1,
+        },
+        id = 104023,
+        condition = 1,
+        costTime = 14400,
+        resultShow1 = {
+            [533109] = 30,
+            [500018] = 40,
+            [500022] = 1,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+            [4] = 533303,
+        },
+        name = 920273,
+        jobExp = 20,
+        timeLimit = false,
+        costVim = {
+            [500024] = 20,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 11,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 533206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 1500,
+                        max = 1,
+                        id = 533303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 40,
+                    },
+                    [2] = {
+                        id = 533109,
+                        num = 30,
+                    },
+                    [3] = {
+                        id = 500022,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 3,
+    },
     [107008] = {
         resultShow3 = {
         },
@@ -9690,234 +9914,6 @@ return {
                     },
                     [3] = {
                         id = 500020,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 3,
-    },
-    [104025] = {
-        resultShow3 = {
-            [500023] = 1,
-        },
-        id = 104025,
-        condition = 1,
-        costTime = 14400,
-        resultShow1 = {
-            [500023] = 1,
-            [533108] = 30,
-            [500018] = 40,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-            [4] = 533303,
-        },
-        name = 920275,
-        jobExp = 20,
-        timeLimit = false,
-        costVim = {
-            [500024] = 20,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 11,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 533206,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 1500,
-                        max = 1,
-                        id = 533303,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 40,
-                    },
-                    [2] = {
-                        id = 533108,
-                        num = 30,
-                    },
-                    [3] = {
-                        id = 500023,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 3,
-    },
-    [104024] = {
-        resultShow3 = {
-            [500022] = 1,
-        },
-        id = 104024,
-        condition = 1,
-        costTime = 14400,
-        resultShow1 = {
-            [500018] = 40,
-            [533107] = 30,
-            [500022] = 1,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-            [4] = 533303,
-        },
-        name = 920274,
-        jobExp = 20,
-        timeLimit = false,
-        costVim = {
-            [500024] = 20,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 11,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 533206,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 1500,
-                        max = 1,
-                        id = 533303,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 40,
-                    },
-                    [2] = {
-                        id = 533107,
-                        num = 30,
-                    },
-                    [3] = {
-                        id = 500022,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 3,
-    },
-    [104023] = {
-        resultShow3 = {
-            [500022] = 1,
-        },
-        id = 104023,
-        condition = 1,
-        costTime = 14400,
-        resultShow1 = {
-            [533109] = 30,
-            [500018] = 40,
-            [500022] = 1,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-            [4] = 533303,
-        },
-        name = 920273,
-        jobExp = 20,
-        timeLimit = false,
-        costVim = {
-            [500024] = 20,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 11,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 533206,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 1500,
-                        max = 1,
-                        id = 533303,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 40,
-                    },
-                    [2] = {
-                        id = 533109,
-                        num = 30,
-                    },
-                    [3] = {
-                        id = 500022,
                         num = 1,
                     },
                 },
@@ -10481,6 +10477,204 @@ return {
         },
         quality = 2,
     },
+    [104014] = {
+        resultShow3 = {
+            [500022] = 1,
+        },
+        id = 104014,
+        condition = 2,
+        costTime = 7200,
+        resultShow1 = {
+            [500018] = 30,
+            [533107] = 23,
+            [500022] = 1,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+        },
+        name = 920264,
+        jobExp = 15,
+        timeLimit = false,
+        costVim = {
+            [500024] = 15,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 8,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 4,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 4,
+                        id = 533206,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 30,
+                    },
+                    [2] = {
+                        id = 533107,
+                        num = 23,
+                    },
+                    [3] = {
+                        id = 500022,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 2,
+    },
+    [104013] = {
+        resultShow3 = {
+        },
+        id = 104013,
+        condition = 2,
+        costTime = 7200,
+        resultShow1 = {
+            [500018] = 30,
+            [533109] = 23,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+        },
+        name = 920263,
+        jobExp = 15,
+        timeLimit = false,
+        costVim = {
+            [500024] = 15,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 8,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 4,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 4,
+                        id = 533206,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 30,
+                    },
+                    [2] = {
+                        id = 533109,
+                        num = 23,
+                    },
+                },
+            },
+        },
+        quality = 2,
+    },
+    [104012] = {
+        resultShow3 = {
+            [500021] = 1,
+        },
+        id = 104012,
+        condition = 2,
+        costTime = 7200,
+        resultShow1 = {
+            [533108] = 23,
+            [500021] = 1,
+            [500018] = 30,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+        },
+        name = 920262,
+        jobExp = 15,
+        timeLimit = false,
+        costVim = {
+            [500024] = 15,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 8,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 4,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 4,
+                        id = 533206,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 30,
+                    },
+                    [2] = {
+                        id = 533108,
+                        num = 23,
+                    },
+                    [3] = {
+                        id = 500021,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 2,
+    },
     [107009] = {
         resultShow3 = {
         },
@@ -10840,204 +11034,6 @@ return {
             },
         },
         quality = 3,
-    },
-    [104014] = {
-        resultShow3 = {
-            [500022] = 1,
-        },
-        id = 104014,
-        condition = 2,
-        costTime = 7200,
-        resultShow1 = {
-            [500018] = 30,
-            [533107] = 23,
-            [500022] = 1,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-        },
-        name = 920264,
-        jobExp = 15,
-        timeLimit = false,
-        costVim = {
-            [500024] = 15,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 8,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 4,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 4,
-                        id = 533206,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 30,
-                    },
-                    [2] = {
-                        id = 533107,
-                        num = 23,
-                    },
-                    [3] = {
-                        id = 500022,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 2,
-    },
-    [104013] = {
-        resultShow3 = {
-        },
-        id = 104013,
-        condition = 2,
-        costTime = 7200,
-        resultShow1 = {
-            [500018] = 30,
-            [533109] = 23,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-        },
-        name = 920263,
-        jobExp = 15,
-        timeLimit = false,
-        costVim = {
-            [500024] = 15,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 8,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 4,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 4,
-                        id = 533206,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 30,
-                    },
-                    [2] = {
-                        id = 533109,
-                        num = 23,
-                    },
-                },
-            },
-        },
-        quality = 2,
-    },
-    [104012] = {
-        resultShow3 = {
-            [500021] = 1,
-        },
-        id = 104012,
-        condition = 2,
-        costTime = 7200,
-        resultShow1 = {
-            [533108] = 23,
-            [500021] = 1,
-            [500018] = 30,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-        },
-        name = 920262,
-        jobExp = 15,
-        timeLimit = false,
-        costVim = {
-            [500024] = 15,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 8,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 4,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 4,
-                        id = 533206,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 30,
-                    },
-                    [2] = {
-                        id = 533108,
-                        num = 23,
-                    },
-                    [3] = {
-                        id = 500021,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 2,
     },
     [104011] = {
         resultShow3 = {
@@ -11442,6 +11438,198 @@ return {
         },
         quality = 1,
     },
+    [104005] = {
+        resultShow3 = {
+        },
+        id = 104005,
+        condition = 3,
+        costTime = 3600,
+        resultShow1 = {
+            [500018] = 20,
+            [533108] = 15,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+        },
+        name = 920255,
+        jobExp = 10,
+        timeLimit = false,
+        costVim = {
+            [500024] = 10,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 5,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 533206,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 20,
+                    },
+                    [2] = {
+                        id = 533108,
+                        num = 15,
+                    },
+                },
+            },
+        },
+        quality = 1,
+    },
+    [104004] = {
+        resultShow3 = {
+            [500022] = 1,
+        },
+        id = 104004,
+        condition = 3,
+        costTime = 3600,
+        resultShow1 = {
+            [500018] = 20,
+            [533107] = 15,
+            [500022] = 1,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+        },
+        name = 920254,
+        jobExp = 10,
+        timeLimit = false,
+        costVim = {
+            [500024] = 10,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 5,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 533206,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 20,
+                    },
+                    [2] = {
+                        id = 533107,
+                        num = 15,
+                    },
+                    [3] = {
+                        id = 500022,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 1,
+    },
+    [104003] = {
+        resultShow3 = {
+        },
+        id = 104003,
+        condition = 3,
+        costTime = 3600,
+        resultShow1 = {
+            [500018] = 20,
+            [533109] = 15,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533205,
+            [3] = 533206,
+        },
+        name = 920253,
+        jobExp = 10,
+        timeLimit = false,
+        costVim = {
+            [500024] = 10,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 5,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 533205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 533206,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 20,
+                    },
+                    [2] = {
+                        id = 533109,
+                        num = 15,
+                    },
+                },
+            },
+        },
+        quality = 1,
+    },
     [102014] = {
         resultShow3 = {
             [500023] = 1,
@@ -11510,17 +11698,17 @@ return {
         },
         quality = 2,
     },
-    [103043] = {
+    [103040] = {
         resultShow3 = {
-            [500021] = 2,
         },
-        id = 103043,
-        condition = -2,
-        costTime = 28800,
+        id = 103040,
+        condition = -1,
+        costTime = 21600,
         resultShow1 = {
-            [533106] = 60,
-            [500018] = 80,
-            [500021] = 2,
+            [533106] = 15,
+            [500018] = 60,
+            [533104] = 15,
+            [533105] = 21,
         },
         resultShow2 = {
             [1] = 500002,
@@ -11528,11 +11716,11 @@ return {
             [3] = 533204,
             [4] = 533302,
         },
-        name = 920243,
-        jobExp = 40,
+        name = 920240,
+        jobExp = 30,
         timeLimit = false,
         costVim = {
-            [500024] = 40,
+            [500024] = 30,
         },
         result = {
             basic = {
@@ -11541,28 +11729,28 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 23,
+                        max = 17,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
                         weight = 5000,
-                        max = 7,
+                        max = 6,
                         id = 533203,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
                         weight = 5000,
-                        max = 7,
+                        max = 6,
                         id = 533204,
                     },
                     [4] = {
                         min = 1,
                         num = 0,
-                        weight = 5000,
-                        max = 2,
+                        weight = 3500,
+                        max = 1,
                         id = 533302,
                     },
                 },
@@ -11571,20 +11759,24 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 80,
-                    },
-                    [2] = {
-                        id = 533106,
                         num = 60,
                     },
+                    [2] = {
+                        id = 533104,
+                        num = 15,
+                    },
                     [3] = {
-                        id = 500021,
-                        num = 2,
+                        id = 533105,
+                        num = 21,
+                    },
+                    [4] = {
+                        id = 533106,
+                        num = 15,
                     },
                 },
             },
         },
-        quality = 5,
+        quality = 4,
     },
     [107010] = {
         resultShow3 = {
@@ -11956,198 +12148,6 @@ return {
         },
         quality = 3,
     },
-    [104005] = {
-        resultShow3 = {
-        },
-        id = 104005,
-        condition = 3,
-        costTime = 3600,
-        resultShow1 = {
-            [500018] = 20,
-            [533108] = 15,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-        },
-        name = 920255,
-        jobExp = 10,
-        timeLimit = false,
-        costVim = {
-            [500024] = 10,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 5,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 533206,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 20,
-                    },
-                    [2] = {
-                        id = 533108,
-                        num = 15,
-                    },
-                },
-            },
-        },
-        quality = 1,
-    },
-    [104004] = {
-        resultShow3 = {
-            [500022] = 1,
-        },
-        id = 104004,
-        condition = 3,
-        costTime = 3600,
-        resultShow1 = {
-            [500018] = 20,
-            [533107] = 15,
-            [500022] = 1,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-        },
-        name = 920254,
-        jobExp = 10,
-        timeLimit = false,
-        costVim = {
-            [500024] = 10,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 5,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 533206,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 20,
-                    },
-                    [2] = {
-                        id = 533107,
-                        num = 15,
-                    },
-                    [3] = {
-                        id = 500022,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 1,
-    },
-    [104003] = {
-        resultShow3 = {
-        },
-        id = 104003,
-        condition = 3,
-        costTime = 3600,
-        resultShow1 = {
-            [500018] = 20,
-            [533109] = 15,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533205,
-            [3] = 533206,
-        },
-        name = 920253,
-        jobExp = 10,
-        timeLimit = false,
-        costVim = {
-            [500024] = 10,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 5,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 533205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 533206,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 20,
-                    },
-                    [2] = {
-                        id = 533109,
-                        num = 15,
-                    },
-                },
-            },
-        },
-        quality = 1,
-    },
     [104002] = {
         resultShow3 = {
             [500021] = 1,
@@ -12277,6 +12277,236 @@ return {
             },
         },
         quality = 1,
+    },
+    [103050] = {
+        resultShow3 = {
+        },
+        id = 103050,
+        condition = -2,
+        costTime = 28800,
+        resultShow1 = {
+            [533106] = 20,
+            [500018] = 80,
+            [533104] = 20,
+            [533105] = 28,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533203,
+            [3] = 533204,
+            [4] = 533302,
+        },
+        name = 920250,
+        jobExp = 40,
+        timeLimit = false,
+        costVim = {
+            [500024] = 40,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 23,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533203,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 2,
+                        id = 533302,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 80,
+                    },
+                    [2] = {
+                        id = 533104,
+                        num = 20,
+                    },
+                    [3] = {
+                        id = 533105,
+                        num = 28,
+                    },
+                    [4] = {
+                        id = 533106,
+                        num = 20,
+                    },
+                },
+            },
+        },
+        quality = 5,
+    },
+    [103049] = {
+        resultShow3 = {
+        },
+        id = 103049,
+        condition = -2,
+        costTime = 28800,
+        resultShow1 = {
+            [533106] = 32,
+            [500018] = 80,
+            [533105] = 28,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533203,
+            [3] = 533204,
+            [4] = 533302,
+        },
+        name = 920249,
+        jobExp = 40,
+        timeLimit = true,
+        costVim = {
+            [500024] = 40,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 23,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533203,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 2,
+                        id = 533302,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 80,
+                    },
+                    [2] = {
+                        id = 533106,
+                        num = 32,
+                    },
+                    [3] = {
+                        id = 533105,
+                        num = 28,
+                    },
+                },
+            },
+        },
+        quality = 5,
+    },
+    [103048] = {
+        resultShow3 = {
+        },
+        id = 103048,
+        condition = -2,
+        costTime = 28800,
+        resultShow1 = {
+            [533105] = 32,
+            [533104] = 28,
+            [500018] = 80,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533203,
+            [3] = 533204,
+            [4] = 533302,
+        },
+        name = 920248,
+        jobExp = 40,
+        timeLimit = true,
+        costVim = {
+            [500024] = 40,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 23,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533203,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 2,
+                        id = 533302,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 80,
+                    },
+                    [2] = {
+                        id = 533105,
+                        num = 32,
+                    },
+                    [3] = {
+                        id = 533104,
+                        num = 28,
+                    },
+                },
+            },
+        },
+        quality = 5,
     },
     [107035] = {
         resultShow3 = {
@@ -12505,17 +12735,16 @@ return {
         },
         quality = 5,
     },
-    [103050] = {
+    [103047] = {
         resultShow3 = {
         },
-        id = 103050,
+        id = 103047,
         condition = -2,
         costTime = 28800,
         resultShow1 = {
-            [533106] = 20,
+            [533106] = 28,
             [500018] = 80,
-            [533104] = 20,
-            [533105] = 28,
+            [533104] = 32,
         },
         resultShow2 = {
             [1] = 500002,
@@ -12523,9 +12752,9 @@ return {
             [3] = 533204,
             [4] = 533302,
         },
-        name = 920250,
+        name = 920247,
         jobExp = 40,
-        timeLimit = false,
+        timeLimit = true,
         costVim = {
             [500024] = 40,
         },
@@ -12570,15 +12799,11 @@ return {
                     },
                     [2] = {
                         id = 533104,
-                        num = 20,
+                        num = 32,
                     },
                     [3] = {
-                        id = 533105,
-                        num = 28,
-                    },
-                    [4] = {
                         id = 533106,
-                        num = 20,
+                        num = 28,
                     },
                 },
             },
@@ -12648,17 +12873,17 @@ return {
         },
         quality = 2,
     },
-    [103034] = {
+    [103031] = {
         resultShow3 = {
-            [500021] = 2,
+            [500020] = 1,
         },
-        id = 103034,
+        id = 103031,
         condition = -1,
         costTime = 21600,
         resultShow1 = {
+            [500020] = 1,
             [500018] = 60,
             [533104] = 45,
-            [500021] = 2,
         },
         resultShow2 = {
             [1] = 500002,
@@ -12666,7 +12891,7 @@ return {
             [3] = 533204,
             [4] = 533302,
         },
-        name = 920234,
+        name = 920231,
         jobExp = 30,
         timeLimit = false,
         costVim = {
@@ -12716,8 +12941,8 @@ return {
                         num = 45,
                     },
                     [3] = {
-                        id = 500021,
-                        num = 2,
+                        id = 500020,
+                        num = 1,
                     },
                 },
             },
@@ -13080,231 +13305,6 @@ return {
         },
         quality = 3,
     },
-    [103049] = {
-        resultShow3 = {
-        },
-        id = 103049,
-        condition = -2,
-        costTime = 28800,
-        resultShow1 = {
-            [533106] = 32,
-            [500018] = 80,
-            [533105] = 28,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533203,
-            [3] = 533204,
-            [4] = 533302,
-        },
-        name = 920249,
-        jobExp = 40,
-        timeLimit = true,
-        costVim = {
-            [500024] = 40,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 23,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533203,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 2,
-                        id = 533302,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 80,
-                    },
-                    [2] = {
-                        id = 533106,
-                        num = 32,
-                    },
-                    [3] = {
-                        id = 533105,
-                        num = 28,
-                    },
-                },
-            },
-        },
-        quality = 5,
-    },
-    [103048] = {
-        resultShow3 = {
-        },
-        id = 103048,
-        condition = -2,
-        costTime = 28800,
-        resultShow1 = {
-            [533105] = 32,
-            [533104] = 28,
-            [500018] = 80,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533203,
-            [3] = 533204,
-            [4] = 533302,
-        },
-        name = 920248,
-        jobExp = 40,
-        timeLimit = true,
-        costVim = {
-            [500024] = 40,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 23,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533203,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 2,
-                        id = 533302,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 80,
-                    },
-                    [2] = {
-                        id = 533105,
-                        num = 32,
-                    },
-                    [3] = {
-                        id = 533104,
-                        num = 28,
-                    },
-                },
-            },
-        },
-        quality = 5,
-    },
-    [103047] = {
-        resultShow3 = {
-        },
-        id = 103047,
-        condition = -2,
-        costTime = 28800,
-        resultShow1 = {
-            [533106] = 28,
-            [500018] = 80,
-            [533104] = 32,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533203,
-            [3] = 533204,
-            [4] = 533302,
-        },
-        name = 920247,
-        jobExp = 40,
-        timeLimit = true,
-        costVim = {
-            [500024] = 40,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 23,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533203,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 2,
-                        id = 533302,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 80,
-                    },
-                    [2] = {
-                        id = 533104,
-                        num = 32,
-                    },
-                    [3] = {
-                        id = 533106,
-                        num = 28,
-                    },
-                },
-            },
-        },
-        quality = 5,
-    },
     [103046] = {
         resultShow3 = {
             [500023] = 2,
@@ -13450,6 +13450,234 @@ return {
                     },
                     [3] = {
                         id = 500023,
+                        num = 2,
+                    },
+                },
+            },
+        },
+        quality = 5,
+    },
+    [103044] = {
+        resultShow3 = {
+            [500021] = 2,
+        },
+        id = 103044,
+        condition = -2,
+        costTime = 28800,
+        resultShow1 = {
+            [500018] = 80,
+            [533104] = 60,
+            [500021] = 2,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533203,
+            [3] = 533204,
+            [4] = 533302,
+        },
+        name = 920244,
+        jobExp = 40,
+        timeLimit = false,
+        costVim = {
+            [500024] = 40,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 23,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533203,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 2,
+                        id = 533302,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 80,
+                    },
+                    [2] = {
+                        id = 533104,
+                        num = 60,
+                    },
+                    [3] = {
+                        id = 500021,
+                        num = 2,
+                    },
+                },
+            },
+        },
+        quality = 5,
+    },
+    [103043] = {
+        resultShow3 = {
+            [500021] = 2,
+        },
+        id = 103043,
+        condition = -2,
+        costTime = 28800,
+        resultShow1 = {
+            [533106] = 60,
+            [500018] = 80,
+            [500021] = 2,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533203,
+            [3] = 533204,
+            [4] = 533302,
+        },
+        name = 920243,
+        jobExp = 40,
+        timeLimit = false,
+        costVim = {
+            [500024] = 40,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 23,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533203,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 2,
+                        id = 533302,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 80,
+                    },
+                    [2] = {
+                        id = 533106,
+                        num = 60,
+                    },
+                    [3] = {
+                        id = 500021,
+                        num = 2,
+                    },
+                },
+            },
+        },
+        quality = 5,
+    },
+    [103042] = {
+        resultShow3 = {
+            [500020] = 2,
+        },
+        id = 103042,
+        condition = -2,
+        costTime = 28800,
+        resultShow1 = {
+            [500020] = 2,
+            [533105] = 60,
+            [500018] = 80,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533203,
+            [3] = 533204,
+            [4] = 533302,
+        },
+        name = 920242,
+        jobExp = 40,
+        timeLimit = false,
+        costVim = {
+            [500024] = 40,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 23,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533203,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 533204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 2,
+                        id = 533302,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 80,
+                    },
+                    [2] = {
+                        id = 533105,
+                        num = 60,
+                    },
+                    [3] = {
+                        id = 500020,
                         num = 2,
                     },
                 },
@@ -13684,17 +13912,17 @@ return {
         },
         quality = 5,
     },
-    [103044] = {
+    [103041] = {
         resultShow3 = {
-            [500021] = 2,
+            [500020] = 2,
         },
-        id = 103044,
+        id = 103041,
         condition = -2,
         costTime = 28800,
         resultShow1 = {
+            [500020] = 2,
             [500018] = 80,
             [533104] = 60,
-            [500021] = 2,
         },
         resultShow2 = {
             [1] = 500002,
@@ -13702,7 +13930,7 @@ return {
             [3] = 533204,
             [4] = 533302,
         },
-        name = 920244,
+        name = 920241,
         jobExp = 40,
         timeLimit = false,
         costVim = {
@@ -13752,7 +13980,7 @@ return {
                         num = 60,
                     },
                     [3] = {
-                        id = 500021,
+                        id = 500020,
                         num = 2,
                     },
                 },
@@ -13828,15 +14056,16 @@ return {
         },
         quality = 2,
     },
-    [103028] = {
+    [103025] = {
         resultShow3 = {
+            [500023] = 1,
         },
-        id = 103028,
+        id = 103025,
         condition = 0,
         costTime = 14400,
         resultShow1 = {
-            [533105] = 16,
-            [533104] = 14,
+            [500023] = 1,
+            [533105] = 30,
             [500018] = 40,
         },
         resultShow2 = {
@@ -13845,9 +14074,9 @@ return {
             [3] = 533204,
             [4] = 533302,
         },
-        name = 920228,
+        name = 920225,
         jobExp = 20,
-        timeLimit = true,
+        timeLimit = false,
         costVim = {
             [500024] = 20,
         },
@@ -13892,11 +14121,11 @@ return {
                     },
                     [2] = {
                         id = 533105,
-                        num = 16,
+                        num = 30,
                     },
                     [3] = {
-                        id = 533104,
-                        num = 14,
+                        id = 500023,
+                        num = 1,
                     },
                 },
             },
@@ -14274,238 +14503,6 @@ return {
             },
         },
         quality = 3,
-    },
-    [103042] = {
-        resultShow3 = {
-            [500020] = 2,
-        },
-        id = 103042,
-        condition = -2,
-        costTime = 28800,
-        resultShow1 = {
-            [500020] = 2,
-            [533105] = 60,
-            [500018] = 80,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533203,
-            [3] = 533204,
-            [4] = 533302,
-        },
-        name = 920242,
-        jobExp = 40,
-        timeLimit = false,
-        costVim = {
-            [500024] = 40,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 23,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533203,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 2,
-                        id = 533302,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 80,
-                    },
-                    [2] = {
-                        id = 533105,
-                        num = 60,
-                    },
-                    [3] = {
-                        id = 500020,
-                        num = 2,
-                    },
-                },
-            },
-        },
-        quality = 5,
-    },
-    [103041] = {
-        resultShow3 = {
-            [500020] = 2,
-        },
-        id = 103041,
-        condition = -2,
-        costTime = 28800,
-        resultShow1 = {
-            [500020] = 2,
-            [500018] = 80,
-            [533104] = 60,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533203,
-            [3] = 533204,
-            [4] = 533302,
-        },
-        name = 920241,
-        jobExp = 40,
-        timeLimit = false,
-        costVim = {
-            [500024] = 40,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 23,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533203,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 533204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 2,
-                        id = 533302,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 80,
-                    },
-                    [2] = {
-                        id = 533104,
-                        num = 60,
-                    },
-                    [3] = {
-                        id = 500020,
-                        num = 2,
-                    },
-                },
-            },
-        },
-        quality = 5,
-    },
-    [103040] = {
-        resultShow3 = {
-        },
-        id = 103040,
-        condition = -1,
-        costTime = 21600,
-        resultShow1 = {
-            [533106] = 15,
-            [500018] = 60,
-            [533104] = 15,
-            [533105] = 21,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533203,
-            [3] = 533204,
-            [4] = 533302,
-        },
-        name = 920240,
-        jobExp = 30,
-        timeLimit = false,
-        costVim = {
-            [500024] = 30,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 17,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 533203,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 533204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3500,
-                        max = 1,
-                        id = 533302,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 60,
-                    },
-                    [2] = {
-                        id = 533104,
-                        num = 15,
-                    },
-                    [3] = {
-                        id = 533105,
-                        num = 21,
-                    },
-                    [4] = {
-                        id = 533106,
-                        num = 15,
-                    },
-                },
-            },
-        },
-        quality = 4,
     },
     [103039] = {
         resultShow3 = {
@@ -14946,28 +14943,28 @@ return {
         },
         quality = 1,
     },
-    [106004] = {
+    [107047] = {
         resultShow3 = {
-            [500023] = 1,
         },
-        id = 106004,
-        condition = 5,
-        costTime = 3600,
+        id = 107047,
+        condition = 2,
+        costTime = 28800,
         resultShow1 = {
-            [532101] = 15,
-            [500018] = 20,
-            [500023] = 1,
+            [532104] = 32,
+            [500018] = 80,
+            [532106] = 28,
         },
         resultShow2 = {
             [1] = 500002,
-            [2] = 532201,
-            [3] = 532202,
+            [2] = 532203,
+            [3] = 532204,
+            [4] = 532302,
         },
-        name = 920004,
-        jobExp = 10,
-        timeLimit = true,
+        name = 920097,
+        jobExp = 40,
+        timeLimit = false,
         costVim = {
-            [500024] = 10,
+            [500024] = 40,
         },
         result = {
             basic = {
@@ -14976,22 +14973,29 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 5,
+                        max = 23,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 532201,
+                        weight = 5000,
+                        max = 7,
+                        id = 532203,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 532202,
+                        weight = 5000,
+                        max = 7,
+                        id = 532204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 2,
+                        id = 532302,
                     },
                 },
             },
@@ -14999,20 +15003,20 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 20,
+                        num = 80,
                     },
                     [2] = {
-                        id = 532101,
-                        num = 15,
+                        id = 532104,
+                        num = 32,
                     },
                     [3] = {
-                        id = 500023,
-                        num = 1,
+                        id = 532106,
+                        num = 28,
                     },
                 },
             },
         },
-        quality = 1,
+        quality = 5,
     },
     [103035] = {
         resultShow3 = {
@@ -15084,6 +15088,234 @@ return {
                     [3] = {
                         id = 500023,
                         num = 1,
+                    },
+                },
+            },
+        },
+        quality = 4,
+    },
+    [103034] = {
+        resultShow3 = {
+            [500021] = 2,
+        },
+        id = 103034,
+        condition = -1,
+        costTime = 21600,
+        resultShow1 = {
+            [500018] = 60,
+            [533104] = 45,
+            [500021] = 2,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533203,
+            [3] = 533204,
+            [4] = 533302,
+        },
+        name = 920234,
+        jobExp = 30,
+        timeLimit = false,
+        costVim = {
+            [500024] = 30,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 17,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 533203,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 533204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3500,
+                        max = 1,
+                        id = 533302,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 60,
+                    },
+                    [2] = {
+                        id = 533104,
+                        num = 45,
+                    },
+                    [3] = {
+                        id = 500021,
+                        num = 2,
+                    },
+                },
+            },
+        },
+        quality = 4,
+    },
+    [103033] = {
+        resultShow3 = {
+            [500021] = 1,
+        },
+        id = 103033,
+        condition = -1,
+        costTime = 21600,
+        resultShow1 = {
+            [533106] = 45,
+            [500018] = 60,
+            [500021] = 1,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533203,
+            [3] = 533204,
+            [4] = 533302,
+        },
+        name = 920233,
+        jobExp = 30,
+        timeLimit = false,
+        costVim = {
+            [500024] = 30,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 17,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 533203,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 533204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3500,
+                        max = 1,
+                        id = 533302,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 60,
+                    },
+                    [2] = {
+                        id = 533106,
+                        num = 45,
+                    },
+                    [3] = {
+                        id = 500021,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 4,
+    },
+    [103032] = {
+        resultShow3 = {
+            [500020] = 2,
+        },
+        id = 103032,
+        condition = -1,
+        costTime = 21600,
+        resultShow1 = {
+            [500020] = 2,
+            [533105] = 45,
+            [500018] = 60,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533203,
+            [3] = 533204,
+            [4] = 533302,
+        },
+        name = 920232,
+        jobExp = 30,
+        timeLimit = false,
+        costVim = {
+            [500024] = 30,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 17,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 533203,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 533204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3500,
+                        max = 1,
+                        id = 533302,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 60,
+                    },
+                    [2] = {
+                        id = 533105,
+                        num = 45,
+                    },
+                    [3] = {
+                        id = 500020,
+                        num = 2,
                     },
                 },
             },
@@ -15442,17 +15674,17 @@ return {
         },
         quality = 4,
     },
-    [103033] = {
+    [103030] = {
         resultShow3 = {
-            [500021] = 1,
         },
-        id = 103033,
-        condition = -1,
-        costTime = 21600,
+        id = 103030,
+        condition = 0,
+        costTime = 14400,
         resultShow1 = {
-            [533106] = 45,
-            [500018] = 60,
-            [500021] = 1,
+            [533106] = 10,
+            [500018] = 40,
+            [533104] = 10,
+            [533105] = 14,
         },
         resultShow2 = {
             [1] = 500002,
@@ -15460,11 +15692,11 @@ return {
             [3] = 533204,
             [4] = 533302,
         },
-        name = 920233,
-        jobExp = 30,
+        name = 920230,
+        jobExp = 20,
         timeLimit = false,
         costVim = {
-            [500024] = 30,
+            [500024] = 20,
         },
         result = {
             basic = {
@@ -15473,27 +15705,27 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 17,
+                        max = 11,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
-                        weight = 5000,
-                        max = 6,
+                        weight = 4500,
+                        max = 5,
                         id = 533203,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
-                        weight = 5000,
-                        max = 6,
+                        weight = 4500,
+                        max = 5,
                         id = 533204,
                     },
                     [4] = {
                         min = 1,
                         num = 0,
-                        weight = 3500,
+                        weight = 1500,
                         max = 1,
                         id = 533302,
                     },
@@ -15503,20 +15735,24 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 60,
+                        num = 40,
                     },
                     [2] = {
-                        id = 533106,
-                        num = 45,
+                        id = 533104,
+                        num = 10,
                     },
                     [3] = {
-                        id = 500021,
-                        num = 1,
+                        id = 533105,
+                        num = 14,
+                    },
+                    [4] = {
+                        id = 533106,
+                        num = 10,
                     },
                 },
             },
         },
-        quality = 4,
+        quality = 3,
     },
     [106018] = {
         resultShow3 = {
@@ -15885,97 +16121,27 @@ return {
         },
         quality = 1,
     },
-    [103006] = {
+    [106017] = {
         resultShow3 = {
-            [500023] = 1,
         },
-        id = 103006,
-        condition = 2,
-        costTime = 3600,
+        id = 106017,
+        condition = 4,
+        costTime = 7200,
         resultShow1 = {
-            [533106] = 15,
-            [500018] = 20,
-            [500023] = 1,
+            [532101] = 12,
+            [500018] = 30,
+            [532103] = 11,
         },
         resultShow2 = {
             [1] = 500002,
-            [2] = 533203,
-            [3] = 533204,
+            [2] = 532201,
+            [3] = 532202,
         },
-        name = 920206,
-        jobExp = 10,
-        timeLimit = true,
-        costVim = {
-            [500024] = 10,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 5,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 533203,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 533204,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 20,
-                    },
-                    [2] = {
-                        id = 533106,
-                        num = 15,
-                    },
-                    [3] = {
-                        id = 500023,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 1,
-    },
-    [103032] = {
-        resultShow3 = {
-            [500020] = 2,
-        },
-        id = 103032,
-        condition = -1,
-        costTime = 21600,
-        resultShow1 = {
-            [500020] = 2,
-            [533105] = 45,
-            [500018] = 60,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533203,
-            [3] = 533204,
-            [4] = 533302,
-        },
-        name = 920232,
-        jobExp = 30,
+        name = 920017,
+        jobExp = 15,
         timeLimit = false,
         costVim = {
-            [500024] = 30,
+            [500024] = 15,
         },
         result = {
             basic = {
@@ -15984,181 +16150,22 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 17,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 533203,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 533204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3500,
-                        max = 1,
-                        id = 533302,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 60,
-                    },
-                    [2] = {
-                        id = 533105,
-                        num = 45,
-                    },
-                    [3] = {
-                        id = 500020,
-                        num = 2,
-                    },
-                },
-            },
-        },
-        quality = 4,
-    },
-    [103031] = {
-        resultShow3 = {
-            [500020] = 1,
-        },
-        id = 103031,
-        condition = -1,
-        costTime = 21600,
-        resultShow1 = {
-            [500020] = 1,
-            [500018] = 60,
-            [533104] = 45,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533203,
-            [3] = 533204,
-            [4] = 533302,
-        },
-        name = 920231,
-        jobExp = 30,
-        timeLimit = false,
-        costVim = {
-            [500024] = 30,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 17,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 533203,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 533204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3500,
-                        max = 1,
-                        id = 533302,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 60,
-                    },
-                    [2] = {
-                        id = 533104,
-                        num = 45,
-                    },
-                    [3] = {
-                        id = 500020,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 4,
-    },
-    [103030] = {
-        resultShow3 = {
-        },
-        id = 103030,
-        condition = 0,
-        costTime = 14400,
-        resultShow1 = {
-            [533106] = 10,
-            [500018] = 40,
-            [533104] = 10,
-            [533105] = 14,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533203,
-            [3] = 533204,
-            [4] = 533302,
-        },
-        name = 920230,
-        jobExp = 20,
-        timeLimit = false,
-        costVim = {
-            [500024] = 20,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 11,
+                        max = 8,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
                         weight = 4500,
-                        max = 5,
-                        id = 533203,
+                        max = 4,
+                        id = 532201,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
                         weight = 4500,
-                        max = 5,
-                        id = 533204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 1500,
-                        max = 1,
-                        id = 533302,
+                        max = 4,
+                        id = 532202,
                     },
                 },
             },
@@ -16166,24 +16173,20 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 40,
+                        num = 30,
                     },
                     [2] = {
-                        id = 533104,
-                        num = 10,
+                        id = 532101,
+                        num = 12,
                     },
                     [3] = {
-                        id = 533105,
-                        num = 14,
-                    },
-                    [4] = {
-                        id = 533106,
-                        num = 10,
+                        id = 532103,
+                        num = 11,
                     },
                 },
             },
         },
-        quality = 3,
+        quality = 2,
     },
     [103029] = {
         resultShow3 = {
@@ -16254,6 +16257,232 @@ return {
                     [3] = {
                         id = 533105,
                         num = 14,
+                    },
+                },
+            },
+        },
+        quality = 3,
+    },
+    [103028] = {
+        resultShow3 = {
+        },
+        id = 103028,
+        condition = 0,
+        costTime = 14400,
+        resultShow1 = {
+            [533105] = 16,
+            [533104] = 14,
+            [500018] = 40,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533203,
+            [3] = 533204,
+            [4] = 533302,
+        },
+        name = 920228,
+        jobExp = 20,
+        timeLimit = true,
+        costVim = {
+            [500024] = 20,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 11,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 533203,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 533204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 1500,
+                        max = 1,
+                        id = 533302,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 40,
+                    },
+                    [2] = {
+                        id = 533105,
+                        num = 16,
+                    },
+                    [3] = {
+                        id = 533104,
+                        num = 14,
+                    },
+                },
+            },
+        },
+        quality = 3,
+    },
+    [103027] = {
+        resultShow3 = {
+        },
+        id = 103027,
+        condition = 0,
+        costTime = 14400,
+        resultShow1 = {
+            [533106] = 14,
+            [500018] = 40,
+            [533104] = 16,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533203,
+            [3] = 533204,
+            [4] = 533302,
+        },
+        name = 920227,
+        jobExp = 20,
+        timeLimit = true,
+        costVim = {
+            [500024] = 20,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 11,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 533203,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 533204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 1500,
+                        max = 1,
+                        id = 533302,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 40,
+                    },
+                    [2] = {
+                        id = 533104,
+                        num = 16,
+                    },
+                    [3] = {
+                        id = 533106,
+                        num = 14,
+                    },
+                },
+            },
+        },
+        quality = 3,
+    },
+    [103026] = {
+        resultShow3 = {
+            [500023] = 1,
+        },
+        id = 103026,
+        condition = 0,
+        costTime = 14400,
+        resultShow1 = {
+            [533106] = 30,
+            [500018] = 40,
+            [500023] = 1,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 533203,
+            [3] = 533204,
+            [4] = 533302,
+        },
+        name = 920226,
+        jobExp = 20,
+        timeLimit = true,
+        costVim = {
+            [500024] = 20,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 11,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 533203,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 533204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 1500,
+                        max = 1,
+                        id = 533302,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 40,
+                    },
+                    [2] = {
+                        id = 533106,
+                        num = 30,
+                    },
+                    [3] = {
+                        id = 500023,
+                        num = 1,
                     },
                 },
             },
@@ -16632,28 +16861,28 @@ return {
         },
         quality = 4,
     },
-    [103027] = {
+    [103006] = {
         resultShow3 = {
+            [500023] = 1,
         },
-        id = 103027,
-        condition = 0,
-        costTime = 14400,
+        id = 103006,
+        condition = 2,
+        costTime = 3600,
         resultShow1 = {
-            [533106] = 14,
-            [500018] = 40,
-            [533104] = 16,
+            [533106] = 15,
+            [500018] = 20,
+            [500023] = 1,
         },
         resultShow2 = {
             [1] = 500002,
             [2] = 533203,
             [3] = 533204,
-            [4] = 533302,
         },
-        name = 920227,
-        jobExp = 20,
+        name = 920206,
+        jobExp = 10,
         timeLimit = true,
         costVim = {
-            [500024] = 20,
+            [500024] = 10,
         },
         result = {
             basic = {
@@ -16662,29 +16891,22 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 11,
+                        max = 5,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
-                        weight = 4500,
-                        max = 5,
+                        weight = 3800,
+                        max = 3,
                         id = 533203,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
-                        weight = 4500,
-                        max = 5,
+                        weight = 3800,
+                        max = 3,
                         id = 533204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 1500,
-                        max = 1,
-                        id = 533302,
                     },
                 },
             },
@@ -16692,20 +16914,20 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 40,
+                        num = 20,
                     },
                     [2] = {
-                        id = 533104,
-                        num = 16,
+                        id = 533106,
+                        num = 15,
                     },
                     [3] = {
-                        id = 533106,
-                        num = 14,
+                        id = 500023,
+                        num = 1,
                     },
                 },
             },
         },
-        quality = 3,
+        quality = 1,
     },
     [107023] = {
         resultShow3 = {
@@ -16926,6 +17148,68 @@ return {
         },
         quality = 4,
     },
+    [106051] = {
+        resultShow3 = {
+        },
+        id = 106051,
+        condition = 5,
+        costTime = 3600,
+        resultShow1 = {
+            [500018] = 20,
+            [532117] = 15,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532201,
+            [3] = 532202,
+        },
+        name = 920301,
+        jobExp = 10,
+        timeLimit = false,
+        costVim = {
+            [500024] = 10,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 5,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 532201,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 532202,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 20,
+                    },
+                    [2] = {
+                        id = 532117,
+                        num = 15,
+                    },
+                },
+            },
+        },
+        quality = 1,
+    },
     [105047] = {
         resultShow3 = {
         },
@@ -17001,26 +17285,28 @@ return {
         },
         quality = 5,
     },
-    [102003] = {
+    [107028] = {
         resultShow3 = {
         },
-        id = 102003,
-        condition = 1,
-        costTime = 3600,
+        id = 107028,
+        condition = 4,
+        costTime = 14400,
         resultShow1 = {
-            [500018] = 20,
-            [533103] = 15,
+            [532104] = 14,
+            [500018] = 40,
+            [532105] = 16,
         },
         resultShow2 = {
             [1] = 500002,
-            [2] = 533201,
-            [3] = 533202,
+            [2] = 532203,
+            [3] = 532204,
+            [4] = 532302,
         },
-        name = 920153,
-        jobExp = 10,
+        name = 920078,
+        jobExp = 20,
         timeLimit = false,
         costVim = {
-            [500024] = 10,
+            [500024] = 20,
         },
         result = {
             basic = {
@@ -17029,22 +17315,29 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 5,
+                        max = 11,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 533201,
+                        weight = 4500,
+                        max = 5,
+                        id = 532203,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 533202,
+                        weight = 4500,
+                        max = 5,
+                        id = 532204,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 1500,
+                        max = 1,
+                        id = 532302,
                     },
                 },
             },
@@ -17052,28 +17345,32 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 20,
+                        num = 40,
                     },
                     [2] = {
-                        id = 533103,
-                        num = 15,
+                        id = 532105,
+                        num = 16,
+                    },
+                    [3] = {
+                        id = 532104,
+                        num = 14,
                     },
                 },
             },
         },
-        quality = 1,
+        quality = 3,
     },
-    [107046] = {
+    [107044] = {
         resultShow3 = {
-            [500023] = 2,
+            [500022] = 2,
         },
-        id = 107046,
+        id = 107044,
         condition = 2,
         costTime = 28800,
         resultShow1 = {
-            [500023] = 2,
-            [532106] = 60,
+            [532104] = 60,
             [500018] = 80,
+            [500022] = 2,
         },
         resultShow2 = {
             [1] = 500002,
@@ -17081,9 +17378,9 @@ return {
             [3] = 532204,
             [4] = 532302,
         },
-        name = 920096,
+        name = 920094,
         jobExp = 40,
-        timeLimit = false,
+        timeLimit = true,
         costVim = {
             [500024] = 40,
         },
@@ -17127,11 +17424,11 @@ return {
                         num = 80,
                     },
                     [2] = {
-                        id = 532106,
+                        id = 532104,
                         num = 60,
                     },
                     [3] = {
-                        id = 500023,
+                        id = 500022,
                         num = 2,
                     },
                 },
@@ -17139,184 +17436,28 @@ return {
         },
         quality = 5,
     },
-    [103026] = {
+    [105014] = {
         resultShow3 = {
-            [500023] = 1,
+            [500022] = 1,
         },
-        id = 103026,
-        condition = 0,
-        costTime = 14400,
+        id = 105014,
+        condition = 3,
+        costTime = 7200,
         resultShow1 = {
-            [533106] = 30,
-            [500018] = 40,
-            [500023] = 1,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 533203,
-            [3] = 533204,
-            [4] = 533302,
-        },
-        name = 920226,
-        jobExp = 20,
-        timeLimit = true,
-        costVim = {
-            [500024] = 20,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 11,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 533203,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 533204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 1500,
-                        max = 1,
-                        id = 533302,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 40,
-                    },
-                    [2] = {
-                        id = 533106,
-                        num = 30,
-                    },
-                    [3] = {
-                        id = 500023,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 3,
-    },
-    [106040] = {
-        resultShow3 = {
-        },
-        id = 106040,
-        condition = 2,
-        costTime = 21600,
-        resultShow1 = {
-            [532101] = 15,
-            [500018] = 60,
-            [532102] = 21,
-            [532103] = 15,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 532201,
-            [3] = 532202,
-            [4] = 532301,
-        },
-        name = 920040,
-        jobExp = 30,
-        timeLimit = false,
-        costVim = {
-            [500024] = 30,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 17,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 532201,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 6,
-                        id = 532202,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3500,
-                        max = 1,
-                        id = 532301,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 60,
-                    },
-                    [2] = {
-                        id = 532101,
-                        num = 15,
-                    },
-                    [3] = {
-                        id = 532102,
-                        num = 21,
-                    },
-                    [4] = {
-                        id = 532103,
-                        num = 15,
-                    },
-                },
-            },
-        },
-        quality = 4,
-    },
-    [105049] = {
-        resultShow3 = {
-        },
-        id = 105049,
-        condition = 0,
-        costTime = 28800,
-        resultShow1 = {
-            [532109] = 32,
-            [532108] = 28,
-            [500018] = 80,
+            [532107] = 23,
+            [500018] = 30,
+            [500022] = 1,
         },
         resultShow2 = {
             [1] = 500002,
             [2] = 532205,
             [3] = 532206,
-            [4] = 532303,
         },
-        name = 920149,
-        jobExp = 40,
+        name = 920114,
+        jobExp = 15,
         timeLimit = false,
         costVim = {
-            [500024] = 40,
+            [500024] = 15,
         },
         result = {
             basic = {
@@ -17325,29 +17466,22 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 23,
+                        max = 8,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
-                        weight = 5000,
-                        max = 7,
+                        weight = 4500,
+                        max = 4,
                         id = 532205,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
-                        weight = 5000,
-                        max = 7,
+                        weight = 4500,
+                        max = 4,
                         id = 532206,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 5000,
-                        max = 2,
-                        id = 532303,
                     },
                 },
             },
@@ -17355,20 +17489,20 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 80,
+                        num = 30,
                     },
                     [2] = {
-                        id = 532109,
-                        num = 32,
+                        id = 532107,
+                        num = 23,
                     },
                     [3] = {
-                        id = 532108,
-                        num = 28,
+                        id = 500022,
+                        num = 1,
                     },
                 },
             },
         },
-        quality = 5,
+        quality = 2,
     },
     [107045] = {
         resultShow3 = {
@@ -17446,6 +17580,68 @@ return {
         },
         quality = 5,
     },
+    [105005] = {
+        resultShow3 = {
+        },
+        id = 105005,
+        condition = 4,
+        costTime = 3600,
+        resultShow1 = {
+            [500018] = 20,
+            [532108] = 15,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532205,
+            [3] = 532206,
+        },
+        name = 920105,
+        jobExp = 10,
+        timeLimit = false,
+        costVim = {
+            [500024] = 10,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 5,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 532205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 532206,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 20,
+                    },
+                    [2] = {
+                        id = 532108,
+                        num = 15,
+                    },
+                },
+            },
+        },
+        quality = 1,
+    },
     [107015] = {
         resultShow3 = {
             [500023] = 0,
@@ -17509,28 +17705,29 @@ return {
         },
         quality = 2,
     },
-    [107047] = {
+    [106025] = {
         resultShow3 = {
+            [500020] = 1,
         },
-        id = 107047,
-        condition = 2,
-        costTime = 28800,
+        id = 106025,
+        condition = 3,
+        costTime = 14400,
         resultShow1 = {
-            [532104] = 32,
-            [500018] = 80,
-            [532106] = 28,
+            [500020] = 1,
+            [500018] = 40,
+            [532102] = 30,
         },
         resultShow2 = {
             [1] = 500002,
-            [2] = 532203,
-            [3] = 532204,
-            [4] = 532302,
+            [2] = 532201,
+            [3] = 532202,
+            [4] = 532301,
         },
-        name = 920097,
-        jobExp = 40,
+        name = 920025,
+        jobExp = 20,
         timeLimit = false,
         costVim = {
-            [500024] = 40,
+            [500024] = 20,
         },
         result = {
             basic = {
@@ -17539,29 +17736,29 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 23,
+                        max = 11,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 532203,
+                        weight = 4500,
+                        max = 5,
+                        id = 532201,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
-                        weight = 5000,
-                        max = 7,
-                        id = 532204,
+                        weight = 4500,
+                        max = 5,
+                        id = 532202,
                     },
                     [4] = {
                         min = 1,
                         num = 0,
-                        weight = 5000,
-                        max = 2,
-                        id = 532302,
+                        weight = 1500,
+                        max = 1,
+                        id = 532301,
                     },
                 },
             },
@@ -17569,20 +17766,20 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 80,
+                        num = 40,
                     },
                     [2] = {
-                        id = 532104,
-                        num = 32,
+                        id = 532102,
+                        num = 30,
                     },
                     [3] = {
-                        id = 532106,
-                        num = 28,
+                        id = 500020,
+                        num = 1,
                     },
                 },
             },
         },
-        quality = 5,
+        quality = 3,
     },
     [105035] = {
         resultShow3 = {
@@ -17812,6 +18009,74 @@ return {
         },
         quality = 4,
     },
+    [106004] = {
+        resultShow3 = {
+            [500023] = 1,
+        },
+        id = 106004,
+        condition = 5,
+        costTime = 3600,
+        resultShow1 = {
+            [532101] = 15,
+            [500018] = 20,
+            [500023] = 1,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532201,
+            [3] = 532202,
+        },
+        name = 920004,
+        jobExp = 10,
+        timeLimit = true,
+        costVim = {
+            [500024] = 10,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 5,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 532201,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 532202,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 20,
+                    },
+                    [2] = {
+                        id = 532101,
+                        num = 15,
+                    },
+                    [3] = {
+                        id = 500023,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 1,
+    },
     [106020] = {
         resultShow3 = {
         },
@@ -17884,29 +18149,26 @@ return {
         },
         quality = 2,
     },
-    [106036] = {
+    [106052] = {
         resultShow3 = {
-            [500020] = 2,
         },
-        id = 106036,
-        condition = 2,
-        costTime = 21600,
+        id = 106052,
+        condition = 4,
+        costTime = 7200,
         resultShow1 = {
-            [500020] = 2,
-            [532103] = 45,
-            [500018] = 60,
+            [500018] = 30,
+            [532117] = 23,
         },
         resultShow2 = {
             [1] = 500002,
             [2] = 532201,
             [3] = 532202,
-            [4] = 532301,
         },
-        name = 920036,
-        jobExp = 30,
+        name = 920302,
+        jobExp = 15,
         timeLimit = false,
         costVim = {
-            [500024] = 30,
+            [500024] = 15,
         },
         result = {
             basic = {
@@ -17915,29 +18177,22 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 17,
+                        max = 8,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
-                        weight = 5000,
-                        max = 6,
+                        weight = 4500,
+                        max = 4,
                         id = 532201,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
-                        weight = 5000,
-                        max = 6,
+                        weight = 4500,
+                        max = 4,
                         id = 532202,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3500,
-                        max = 1,
-                        id = 532301,
                     },
                 },
             },
@@ -17945,20 +18200,16 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 60,
+                        num = 30,
                     },
                     [2] = {
-                        id = 532103,
-                        num = 45,
-                    },
-                    [3] = {
-                        id = 500020,
-                        num = 2,
+                        id = 532117,
+                        num = 23,
                     },
                 },
             },
         },
-        quality = 4,
+        quality = 2,
     },
     [105048] = {
         resultShow3 = {
@@ -18186,22 +18437,22 @@ return {
         },
         quality = 3,
     },
-    [105005] = {
+    [105003] = {
         resultShow3 = {
         },
-        id = 105005,
+        id = 105003,
         condition = 4,
         costTime = 3600,
         resultShow1 = {
             [500018] = 20,
-            [532108] = 15,
+            [532109] = 15,
         },
         resultShow2 = {
             [1] = 500002,
             [2] = 532205,
             [3] = 532206,
         },
-        name = 920105,
+        name = 920103,
         jobExp = 10,
         timeLimit = false,
         costVim = {
@@ -18240,233 +18491,13 @@ return {
                         num = 20,
                     },
                     [2] = {
-                        id = 532108,
+                        id = 532109,
                         num = 15,
                     },
                 },
             },
         },
         quality = 1,
-    },
-    [105022] = {
-        resultShow3 = {
-            [500019] = 1,
-        },
-        id = 105022,
-        condition = 2,
-        costTime = 14400,
-        resultShow1 = {
-            [500018] = 40,
-            [532108] = 30,
-            [500019] = 1,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 532205,
-            [3] = 532206,
-            [4] = 532303,
-        },
-        name = 920122,
-        jobExp = 20,
-        timeLimit = true,
-        costVim = {
-            [500024] = 20,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 11,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 532205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 532206,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 1500,
-                        max = 1,
-                        id = 532303,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 40,
-                    },
-                    [2] = {
-                        id = 532108,
-                        num = 30,
-                    },
-                    [3] = {
-                        id = 500019,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 3,
-    },
-    [105004] = {
-        resultShow3 = {
-            [500022] = 1,
-        },
-        id = 105004,
-        condition = 4,
-        costTime = 3600,
-        resultShow1 = {
-            [532107] = 15,
-            [500018] = 20,
-            [500022] = 1,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 532205,
-            [3] = 532206,
-        },
-        name = 920104,
-        jobExp = 10,
-        timeLimit = false,
-        costVim = {
-            [500024] = 10,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 5,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 532205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 532206,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 20,
-                    },
-                    [2] = {
-                        id = 532107,
-                        num = 15,
-                    },
-                    [3] = {
-                        id = 500022,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 1,
-    },
-    [105021] = {
-        resultShow3 = {
-            [500019] = 1,
-        },
-        id = 105021,
-        condition = 2,
-        costTime = 14400,
-        resultShow1 = {
-            [532107] = 30,
-            [500018] = 40,
-            [500019] = 1,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 532205,
-            [3] = 532206,
-            [4] = 532303,
-        },
-        name = 920121,
-        jobExp = 20,
-        timeLimit = true,
-        costVim = {
-            [500024] = 20,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 11,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 532205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 532206,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 1500,
-                        max = 1,
-                        id = 532303,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 40,
-                    },
-                    [2] = {
-                        id = 532107,
-                        num = 30,
-                    },
-                    [3] = {
-                        id = 500019,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 3,
     },
     [107025] = {
         resultShow3 = {
@@ -18610,6 +18641,157 @@ return {
             },
         },
         quality = 2,
+    },
+    [106053] = {
+        resultShow3 = {
+            [500019] = 1,
+        },
+        id = 106053,
+        condition = 3,
+        costTime = 14400,
+        resultShow1 = {
+            [500018] = 40,
+            [532117] = 30,
+            [500019] = 1,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532201,
+            [3] = 532202,
+            [4] = 532301,
+        },
+        name = 920303,
+        jobExp = 20,
+        timeLimit = false,
+        costVim = {
+            [500024] = 20,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 11,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 532201,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 532202,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 1500,
+                        max = 1,
+                        id = 532301,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 40,
+                    },
+                    [2] = {
+                        id = 532117,
+                        num = 30,
+                    },
+                    [3] = {
+                        id = 500019,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 3,
+    },
+    [105049] = {
+        resultShow3 = {
+        },
+        id = 105049,
+        condition = 0,
+        costTime = 28800,
+        resultShow1 = {
+            [532109] = 32,
+            [532108] = 28,
+            [500018] = 80,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532205,
+            [3] = 532206,
+            [4] = 532303,
+        },
+        name = 920149,
+        jobExp = 40,
+        timeLimit = false,
+        costVim = {
+            [500024] = 40,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 23,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 532205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 7,
+                        id = 532206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 2,
+                        id = 532303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 80,
+                    },
+                    [2] = {
+                        id = 532109,
+                        num = 32,
+                    },
+                    [3] = {
+                        id = 532108,
+                        num = 28,
+                    },
+                },
+            },
+        },
+        quality = 5,
     },
     [107016] = {
         resultShow3 = {
@@ -19057,73 +19239,6 @@ return {
         },
         quality = 4,
     },
-    [106017] = {
-        resultShow3 = {
-        },
-        id = 106017,
-        condition = 4,
-        costTime = 7200,
-        resultShow1 = {
-            [532101] = 12,
-            [500018] = 30,
-            [532103] = 11,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 532201,
-            [3] = 532202,
-        },
-        name = 920017,
-        jobExp = 15,
-        timeLimit = false,
-        costVim = {
-            [500024] = 15,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 8,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 4,
-                        id = 532201,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 4,
-                        id = 532202,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 30,
-                    },
-                    [2] = {
-                        id = 532101,
-                        num = 12,
-                    },
-                    [3] = {
-                        id = 532103,
-                        num = 11,
-                    },
-                },
-            },
-        },
-        quality = 2,
-    },
     [105002] = {
         resultShow3 = {
             [500019] = 1,
@@ -19258,6 +19373,141 @@ return {
             },
         },
         quality = 2,
+    },
+    [105006] = {
+        resultShow3 = {
+            [500023] = 1,
+        },
+        id = 105006,
+        condition = 4,
+        costTime = 3600,
+        resultShow1 = {
+            [500023] = 1,
+            [532109] = 15,
+            [500018] = 20,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532205,
+            [3] = 532206,
+        },
+        name = 920106,
+        jobExp = 10,
+        timeLimit = false,
+        costVim = {
+            [500024] = 10,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 5,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 532205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 532206,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 20,
+                    },
+                    [2] = {
+                        id = 532109,
+                        num = 15,
+                    },
+                    [3] = {
+                        id = 500023,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 1,
+    },
+    [106009] = {
+        resultShow3 = {
+        },
+        id = 106009,
+        condition = 5,
+        costTime = 3600,
+        resultShow1 = {
+            [532103] = 8,
+            [532102] = 7,
+            [500018] = 20,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532201,
+            [3] = 532202,
+        },
+        name = 920009,
+        jobExp = 10,
+        timeLimit = false,
+        costVim = {
+            [500024] = 10,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 5,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 532201,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 532202,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 20,
+                    },
+                    [2] = {
+                        id = 532103,
+                        num = 8,
+                    },
+                    [3] = {
+                        id = 532102,
+                        num = 7,
+                    },
+                },
+            },
+        },
+        quality = 1,
     },
     [107027] = {
         resultShow3 = {
@@ -19410,135 +19660,6 @@ return {
         },
         quality = 5,
     },
-    [106009] = {
-        resultShow3 = {
-        },
-        id = 106009,
-        condition = 5,
-        costTime = 3600,
-        resultShow1 = {
-            [532103] = 8,
-            [532102] = 7,
-            [500018] = 20,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 532201,
-            [3] = 532202,
-        },
-        name = 920009,
-        jobExp = 10,
-        timeLimit = false,
-        costVim = {
-            [500024] = 10,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 5,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 532201,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 532202,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 20,
-                    },
-                    [2] = {
-                        id = 532103,
-                        num = 8,
-                    },
-                    [3] = {
-                        id = 532102,
-                        num = 7,
-                    },
-                },
-            },
-        },
-        quality = 1,
-    },
-    [105003] = {
-        resultShow3 = {
-        },
-        id = 105003,
-        condition = 4,
-        costTime = 3600,
-        resultShow1 = {
-            [500018] = 20,
-            [532109] = 15,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 532205,
-            [3] = 532206,
-        },
-        name = 920103,
-        jobExp = 10,
-        timeLimit = false,
-        costVim = {
-            [500024] = 10,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 5,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 532205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 532206,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 20,
-                    },
-                    [2] = {
-                        id = 532109,
-                        num = 15,
-                    },
-                },
-            },
-        },
-        quality = 1,
-    },
     [105020] = {
         resultShow3 = {
         },
@@ -19611,92 +19732,17 @@ return {
         },
         quality = 2,
     },
-    [107028] = {
+    [107046] = {
         resultShow3 = {
+            [500023] = 2,
         },
-        id = 107028,
-        condition = 4,
-        costTime = 14400,
-        resultShow1 = {
-            [532104] = 14,
-            [500018] = 40,
-            [532105] = 16,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 532203,
-            [3] = 532204,
-            [4] = 532302,
-        },
-        name = 920078,
-        jobExp = 20,
-        timeLimit = false,
-        costVim = {
-            [500024] = 20,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 11,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 532203,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 532204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 1500,
-                        max = 1,
-                        id = 532302,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 40,
-                    },
-                    [2] = {
-                        id = 532105,
-                        num = 16,
-                    },
-                    [3] = {
-                        id = 532104,
-                        num = 14,
-                    },
-                },
-            },
-        },
-        quality = 3,
-    },
-    [107044] = {
-        resultShow3 = {
-            [500022] = 2,
-        },
-        id = 107044,
+        id = 107046,
         condition = 2,
         costTime = 28800,
         resultShow1 = {
-            [532104] = 60,
+            [500023] = 2,
+            [532106] = 60,
             [500018] = 80,
-            [500022] = 2,
         },
         resultShow2 = {
             [1] = 500002,
@@ -19704,9 +19750,9 @@ return {
             [3] = 532204,
             [4] = 532302,
         },
-        name = 920094,
+        name = 920096,
         jobExp = 40,
-        timeLimit = true,
+        timeLimit = false,
         costVim = {
             [500024] = 40,
         },
@@ -19750,17 +19796,161 @@ return {
                         num = 80,
                     },
                     [2] = {
-                        id = 532104,
+                        id = 532106,
                         num = 60,
                     },
                     [3] = {
-                        id = 500022,
+                        id = 500023,
                         num = 2,
                     },
                 },
             },
         },
         quality = 5,
+    },
+    [105004] = {
+        resultShow3 = {
+            [500022] = 1,
+        },
+        id = 105004,
+        condition = 4,
+        costTime = 3600,
+        resultShow1 = {
+            [532107] = 15,
+            [500018] = 20,
+            [500022] = 1,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532205,
+            [3] = 532206,
+        },
+        name = 920104,
+        jobExp = 10,
+        timeLimit = false,
+        costVim = {
+            [500024] = 10,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 5,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 532205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3800,
+                        max = 3,
+                        id = 532206,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 20,
+                    },
+                    [2] = {
+                        id = 532107,
+                        num = 15,
+                    },
+                    [3] = {
+                        id = 500022,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 1,
+    },
+    [105021] = {
+        resultShow3 = {
+            [500019] = 1,
+        },
+        id = 105021,
+        condition = 2,
+        costTime = 14400,
+        resultShow1 = {
+            [532107] = 30,
+            [500018] = 40,
+            [500019] = 1,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532205,
+            [3] = 532206,
+            [4] = 532303,
+        },
+        name = 920121,
+        jobExp = 20,
+        timeLimit = true,
+        costVim = {
+            [500024] = 20,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 11,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 532205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 532206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 1500,
+                        max = 1,
+                        id = 532303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 40,
+                    },
+                    [2] = {
+                        id = 532107,
+                        num = 30,
+                    },
+                    [3] = {
+                        id = 500019,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 3,
     },
     [107017] = {
         resultShow3 = {
@@ -19979,29 +20169,26 @@ return {
         },
         quality = 4,
     },
-    [103025] = {
+    [102003] = {
         resultShow3 = {
-            [500023] = 1,
         },
-        id = 103025,
-        condition = 0,
-        costTime = 14400,
+        id = 102003,
+        condition = 1,
+        costTime = 3600,
         resultShow1 = {
-            [500023] = 1,
-            [533105] = 30,
-            [500018] = 40,
+            [500018] = 20,
+            [533103] = 15,
         },
         resultShow2 = {
             [1] = 500002,
-            [2] = 533203,
-            [3] = 533204,
-            [4] = 533302,
+            [2] = 533201,
+            [3] = 533202,
         },
-        name = 920225,
-        jobExp = 20,
+        name = 920153,
+        jobExp = 10,
         timeLimit = false,
         costVim = {
-            [500024] = 20,
+            [500024] = 10,
         },
         result = {
             basic = {
@@ -20010,29 +20197,22 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 11,
+                        max = 5,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 533203,
+                        weight = 3800,
+                        max = 3,
+                        id = 533201,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 533204,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 1500,
-                        max = 1,
-                        id = 533302,
+                        weight = 3800,
+                        max = 3,
+                        id = 533202,
                     },
                 },
             },
@@ -20040,20 +20220,16 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 40,
+                        num = 20,
                     },
                     [2] = {
-                        id = 533105,
-                        num = 30,
-                    },
-                    [3] = {
-                        id = 500023,
-                        num = 1,
+                        id = 533103,
+                        num = 15,
                     },
                 },
             },
         },
-        quality = 3,
+        quality = 1,
     },
     [102035] = {
         resultShow3 = {
@@ -20131,160 +20307,29 @@ return {
         },
         quality = 4,
     },
-    [105006] = {
+    [106040] = {
         resultShow3 = {
-            [500023] = 1,
         },
-        id = 105006,
-        condition = 4,
-        costTime = 3600,
-        resultShow1 = {
-            [500023] = 1,
-            [532109] = 15,
-            [500018] = 20,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 532205,
-            [3] = 532206,
-        },
-        name = 920106,
-        jobExp = 10,
-        timeLimit = false,
-        costVim = {
-            [500024] = 10,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 5,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 532205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3800,
-                        max = 3,
-                        id = 532206,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 20,
-                    },
-                    [2] = {
-                        id = 532109,
-                        num = 15,
-                    },
-                    [3] = {
-                        id = 500023,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 1,
-    },
-    [105015] = {
-        resultShow3 = {
-            [500023] = 0,
-        },
-        id = 105015,
-        condition = 3,
-        costTime = 7200,
-        resultShow1 = {
-            [500018] = 30,
-            [532108] = 23,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 532205,
-            [3] = 532206,
-        },
-        name = 920115,
-        jobExp = 15,
-        timeLimit = false,
-        costVim = {
-            [500024] = 15,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 8,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 4,
-                        id = 532205,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 4,
-                        id = 532206,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 30,
-                    },
-                    [2] = {
-                        id = 532108,
-                        num = 23,
-                    },
-                },
-            },
-        },
-        quality = 2,
-    },
-    [105023] = {
-        resultShow3 = {
-            [500022] = 1,
-        },
-        id = 105023,
+        id = 106040,
         condition = 2,
-        costTime = 14400,
+        costTime = 21600,
         resultShow1 = {
-            [532109] = 30,
-            [500022] = 1,
-            [500018] = 40,
+            [532101] = 15,
+            [500018] = 60,
+            [532102] = 21,
+            [532103] = 15,
         },
         resultShow2 = {
             [1] = 500002,
-            [2] = 532205,
-            [3] = 532206,
-            [4] = 532303,
+            [2] = 532201,
+            [3] = 532202,
+            [4] = 532301,
         },
-        name = 920123,
-        jobExp = 20,
+        name = 920040,
+        jobExp = 30,
         timeLimit = false,
         costVim = {
-            [500024] = 20,
+            [500024] = 30,
         },
         result = {
             basic = {
@@ -20293,29 +20338,29 @@ return {
                         min = 1,
                         num = 0,
                         weight = 3333,
-                        max = 11,
+                        max = 17,
                         id = 500002,
                     },
                     [2] = {
                         min = 1,
                         num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 532205,
+                        weight = 5000,
+                        max = 6,
+                        id = 532201,
                     },
                     [3] = {
                         min = 1,
                         num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 532206,
+                        weight = 5000,
+                        max = 6,
+                        id = 532202,
                     },
                     [4] = {
                         min = 1,
                         num = 0,
-                        weight = 1500,
+                        weight = 3500,
                         max = 1,
-                        id = 532303,
+                        id = 532301,
                     },
                 },
             },
@@ -20323,20 +20368,99 @@ return {
                 items = {
                     [1] = {
                         id = 500018,
-                        num = 40,
+                        num = 60,
                     },
                     [2] = {
-                        id = 532109,
-                        num = 30,
+                        id = 532101,
+                        num = 15,
                     },
                     [3] = {
-                        id = 500022,
-                        num = 1,
+                        id = 532102,
+                        num = 21,
+                    },
+                    [4] = {
+                        id = 532103,
+                        num = 15,
                     },
                 },
             },
         },
-        quality = 3,
+        quality = 4,
+    },
+    [106037] = {
+        resultShow3 = {
+        },
+        id = 106037,
+        condition = 2,
+        costTime = 21600,
+        resultShow1 = {
+            [532101] = 24,
+            [500018] = 60,
+            [532103] = 21,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532201,
+            [3] = 532202,
+            [4] = 532301,
+        },
+        name = 920037,
+        jobExp = 30,
+        timeLimit = false,
+        costVim = {
+            [500024] = 30,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 17,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 532201,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 5000,
+                        max = 6,
+                        id = 532202,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3500,
+                        max = 1,
+                        id = 532301,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 60,
+                    },
+                    [2] = {
+                        id = 532101,
+                        num = 24,
+                    },
+                    [3] = {
+                        id = 532103,
+                        num = 21,
+                    },
+                },
+            },
+        },
+        quality = 4,
     },
     [107029] = {
         resultShow3 = {
@@ -20406,157 +20530,6 @@ return {
                     },
                     [3] = {
                         id = 532105,
-                        num = 14,
-                    },
-                },
-            },
-        },
-        quality = 3,
-    },
-    [106025] = {
-        resultShow3 = {
-            [500020] = 1,
-        },
-        id = 106025,
-        condition = 3,
-        costTime = 14400,
-        resultShow1 = {
-            [500020] = 1,
-            [500018] = 40,
-            [532102] = 30,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 532201,
-            [3] = 532202,
-            [4] = 532301,
-        },
-        name = 920025,
-        jobExp = 20,
-        timeLimit = false,
-        costVim = {
-            [500024] = 20,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 11,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 532201,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 532202,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 1500,
-                        max = 1,
-                        id = 532301,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 40,
-                    },
-                    [2] = {
-                        id = 532102,
-                        num = 30,
-                    },
-                    [3] = {
-                        id = 500020,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        quality = 3,
-    },
-    [106029] = {
-        resultShow3 = {
-        },
-        id = 106029,
-        condition = 3,
-        costTime = 14400,
-        resultShow1 = {
-            [532103] = 16,
-            [532102] = 14,
-            [500018] = 40,
-        },
-        resultShow2 = {
-            [1] = 500002,
-            [2] = 532201,
-            [3] = 532202,
-            [4] = 532301,
-        },
-        name = 920029,
-        jobExp = 20,
-        timeLimit = false,
-        costVim = {
-            [500024] = 20,
-        },
-        result = {
-            basic = {
-                items = {
-                    [1] = {
-                        min = 1,
-                        num = 0,
-                        weight = 3333,
-                        max = 11,
-                        id = 500002,
-                    },
-                    [2] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 532201,
-                    },
-                    [3] = {
-                        min = 1,
-                        num = 0,
-                        weight = 4500,
-                        max = 5,
-                        id = 532202,
-                    },
-                    [4] = {
-                        min = 1,
-                        num = 0,
-                        weight = 1500,
-                        max = 1,
-                        id = 532301,
-                    },
-                },
-            },
-            fix = {
-                items = {
-                    [1] = {
-                        id = 500018,
-                        num = 40,
-                    },
-                    [2] = {
-                        id = 532103,
-                        num = 16,
-                    },
-                    [3] = {
-                        id = 532102,
                         num = 14,
                     },
                 },
@@ -20634,6 +20607,233 @@ return {
                     [3] = {
                         id = 500022,
                         num = 1,
+                    },
+                },
+            },
+        },
+        quality = 3,
+    },
+    [105023] = {
+        resultShow3 = {
+            [500022] = 1,
+        },
+        id = 105023,
+        condition = 2,
+        costTime = 14400,
+        resultShow1 = {
+            [532109] = 30,
+            [500022] = 1,
+            [500018] = 40,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532205,
+            [3] = 532206,
+            [4] = 532303,
+        },
+        name = 920123,
+        jobExp = 20,
+        timeLimit = false,
+        costVim = {
+            [500024] = 20,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 11,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 532205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 532206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 1500,
+                        max = 1,
+                        id = 532303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 40,
+                    },
+                    [2] = {
+                        id = 532109,
+                        num = 30,
+                    },
+                    [3] = {
+                        id = 500022,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 3,
+    },
+    [105022] = {
+        resultShow3 = {
+            [500019] = 1,
+        },
+        id = 105022,
+        condition = 2,
+        costTime = 14400,
+        resultShow1 = {
+            [500018] = 40,
+            [532108] = 30,
+            [500019] = 1,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532205,
+            [3] = 532206,
+            [4] = 532303,
+        },
+        name = 920122,
+        jobExp = 20,
+        timeLimit = true,
+        costVim = {
+            [500024] = 20,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 11,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 532205,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 532206,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 1500,
+                        max = 1,
+                        id = 532303,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 40,
+                    },
+                    [2] = {
+                        id = 532108,
+                        num = 30,
+                    },
+                    [3] = {
+                        id = 500019,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        quality = 3,
+    },
+    [106029] = {
+        resultShow3 = {
+        },
+        id = 106029,
+        condition = 3,
+        costTime = 14400,
+        resultShow1 = {
+            [532103] = 16,
+            [532102] = 14,
+            [500018] = 40,
+        },
+        resultShow2 = {
+            [1] = 500002,
+            [2] = 532201,
+            [3] = 532202,
+            [4] = 532301,
+        },
+        name = 920029,
+        jobExp = 20,
+        timeLimit = false,
+        costVim = {
+            [500024] = 20,
+        },
+        result = {
+            basic = {
+                items = {
+                    [1] = {
+                        min = 1,
+                        num = 0,
+                        weight = 3333,
+                        max = 11,
+                        id = 500002,
+                    },
+                    [2] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 532201,
+                    },
+                    [3] = {
+                        min = 1,
+                        num = 0,
+                        weight = 4500,
+                        max = 5,
+                        id = 532202,
+                    },
+                    [4] = {
+                        min = 1,
+                        num = 0,
+                        weight = 1500,
+                        max = 1,
+                        id = 532301,
+                    },
+                },
+            },
+            fix = {
+                items = {
+                    [1] = {
+                        id = 500018,
+                        num = 40,
+                    },
+                    [2] = {
+                        id = 532103,
+                        num = 16,
+                    },
+                    [3] = {
+                        id = 532102,
+                        num = 14,
                     },
                 },
             },

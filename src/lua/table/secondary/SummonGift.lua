@@ -27,4 +27,11 @@ return {
         id = 4,
         heroLimitId = 80007,
     },
+    [5] = {
+        dungeonId = 710005,
+        showOrder = 5,
+        heroId = 111301,
+        id = 5,
+        heroLimitId = 80013,
+    },
 }

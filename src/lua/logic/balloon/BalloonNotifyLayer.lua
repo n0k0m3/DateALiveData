@@ -41,7 +41,7 @@ function BalloonNotifyLayer:initUI(ui)
 	self.txt_name = TFDirector:getChildByPath(ui, "txt_name")
 	self.txt_desc = TFDirector:getChildByPath(ui, "txt_desc")
 	self.txt_time = TFDirector:getChildByPath(ui, "txt_time")
-	self.txt_desc:setTextById(13317043)
+	self.txt_desc:setTextById(18000010)
 	self.txt_name:setText(self.info.friendName)
 	self.img_bg:setTouchEnabled(true)
 

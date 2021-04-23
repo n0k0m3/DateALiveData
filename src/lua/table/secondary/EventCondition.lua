@@ -455,17 +455,23 @@ return {
         event_id = 14,
         remark = "X个天使最大星级X",
     },
+    [17019] = {
+        id = 17019,
+        history = false,
+        event_id = 17,
+        remark = "无尽200层boss10秒内通关",
+    },
     [2018] = {
         id = 2018,
         history = false,
         event_id = 2,
         remark = "灵装批发活动的id专用条件",
     },
-    [17019] = {
-        id = 17019,
+    [17501] = {
+        id = 17501,
         history = false,
         event_id = 17,
-        remark = "无尽200层boss10秒内通关",
+        remark = "召唤某个（多个）固定卡池",
     },
     [11043] = {
         id = 11043,
@@ -1077,7 +1083,7 @@ return {
         id = 17050,
         history = false,
         event_id = 17,
-        remark = "召唤某个（多个）固定卡池",
+        remark = "任意精灵收到礼物数量",
     },
     [16001] = {
         id = 16001,

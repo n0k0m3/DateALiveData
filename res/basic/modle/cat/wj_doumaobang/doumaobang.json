@@ -1,0 +1,76 @@
+{
+"skeleton": { "hash": "YpFLVcaQz6IbEWHrNFNdytpgn9E", "spine": "2.1.27", "width": 144, "height": 71, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "doumaobang", "bone": "root", "attachment": "doumaobang" }
+],
+"skins": {
+	"default": {
+		"doumaobang": {
+			"doumaobang": { "width": 144, "height": 71 }
+		}
+	}
+},
+"animations": {
+	"disappear": {
+		"slots": {
+			"doumaobang": {
+				"attachment": [
+					{ "time": 0, "name": "doumaobang" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.5, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"idle": {
+		"slots": {
+			"doumaobang": {
+				"attachment": [
+					{ "time": 0, "name": "doumaobang" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

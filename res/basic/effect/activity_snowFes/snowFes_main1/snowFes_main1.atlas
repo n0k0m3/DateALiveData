@@ -1,0 +1,97 @@
+
+snowFes_main1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 92, 90
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 92, 101
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 47, 29
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 92, 113
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 2, 2
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 2, 18
+  size: 28, 20
+  orig: 28, 20
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 111, 115
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 32, 27
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+7
+  rotate: true
+  xy: 17, 2
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 17, 2
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 92, 80
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 60, 29
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+xuehua_000
+  rotate: false
+  xy: 2, 40
+  size: 88, 86
+  orig: 300, 300
+  offset: 104, 110
+  index: -1

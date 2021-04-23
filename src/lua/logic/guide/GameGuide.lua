@@ -24,6 +24,7 @@ function GameGuide:checkGuide(ui)
 			self.ui = ui
 			self:excuteGuide(guideInfo)
 		end
+		print("开始引导", guideInfo)
 		if guideInfo.delay and guideInfo.delay > 0 then
 			self:delayToGuide(guideInfo.delay, callBack)
 		else

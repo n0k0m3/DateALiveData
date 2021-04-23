@@ -5,6 +5,7 @@ return {
         cup = 0,
         id = 1,
         icon = "icon/pokedexActivity/a1.png",
+        describe = 1710531,
     },
     [2] = {
         isOpen = true,
@@ -12,6 +13,7 @@ return {
         cup = 1000,
         id = 2,
         icon = "icon/pokedexActivity/a2.png",
+        describe = 1710532,
     },
     [3] = {
         isOpen = true,
@@ -19,6 +21,7 @@ return {
         cup = 2000,
         id = 3,
         icon = "icon/pokedexActivity/a3.png",
+        describe = 1710533,
     },
     [4] = {
         isOpen = false,
@@ -26,6 +29,7 @@ return {
         cup = 5000,
         id = 4,
         icon = "icon/pokedexActivity/a4.png",
+        describe = 1710534,
     },
     [5] = {
         isOpen = false,
@@ -33,5 +37,6 @@ return {
         cup = 10000,
         id = 5,
         icon = "icon/pokedexActivity/a5.png",
+        describe = 1710535,
     },
 }

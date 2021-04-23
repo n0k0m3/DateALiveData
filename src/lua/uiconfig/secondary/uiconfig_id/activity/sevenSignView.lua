@@ -164,7 +164,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "54",
+									height = "79",
 									ignoreSize = "False",
 									name = "Button_sevenReceive",
 									normal = "ui/common/button_middle_n.png",
@@ -175,7 +175,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 397,
+										PositionX = 402,
 										PositionY = -196,
 									},
 									UItype = "Button",
@@ -210,8 +210,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_signInReceive",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -226,7 +226,7 @@ local t =
 											{
 												
 											},
-											width = "73",
+											width = "148",
 											ZOrder = "1",
 										},
 									},

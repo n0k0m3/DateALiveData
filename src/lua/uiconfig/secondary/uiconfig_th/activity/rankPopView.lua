@@ -187,7 +187,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "อันดับต่อสู้",
+									text = "อันดับต่อสู้ |",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -195,7 +195,7 @@ local t =
 										PositionX = 329,
 										PositionY = -49,
 									},
-									width = "106",
+									width = "121",
 									ZOrder = "1",
 								},
 								{
@@ -241,7 +241,6 @@ local t =
 										PositionX = 396,
 										PositionY = -55,
 									},
-									visible = "False",
 									width = "71",
 									ZOrder = "1",
 								},
@@ -439,8 +438,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "23",
+											ignoreSize = "True",
 											name = "lab",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -456,7 +455,7 @@ local t =
 											{
 												
 											},
-											width = "148",
+											width = "85",
 											ZOrder = "1",
 										},
 									},
@@ -541,8 +540,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "23",
+											ignoreSize = "True",
 											name = "lab",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -556,9 +555,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -1,
+												
 											},
-											width = "148",
+											width = "88",
 											ZOrder = "1",
 										},
 									},
@@ -1208,11 +1207,11 @@ local t =
 											anchorPointX = "0",
 											anchorPointY = "0",
 											backGroundScale9Enable = "False",
-											bgColorOpacity = "50",
+											bgColorOpacity = "255",
 											bIsOpenClipping = "True",
 											bounceEnable = "False",
 											classname = "MEScrollView",
-											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											colorType = "0;SingleColor:#FF000000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 											direction = "1",
 											dstBlendFunc = "771",
 											height = "215",
@@ -1625,11 +1624,11 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 512,
-												PositionY = 66,
+												PositionX = 521,
+												PositionY = 63,
 											},
-											width = "291",
-											ZOrder = "1",
+											width = "278",
+											ZOrder = "2",
 											components = 
 											{
 												
@@ -1668,14 +1667,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "ตารางอันดับมีการอัปเดตทุก      นาที",
+													text = "ตารางอันดับมีการอัปเดตทุก       นาที",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = 2,
 													},
-													width = "251",
+													width = "256",
 													ZOrder = "1",
 												},
 												{
@@ -1718,7 +1717,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 81,
+														PositionX = 80,
 													},
 													width = "26",
 													ZOrder = "1",

@@ -55,29 +55,30 @@ function ActivityFundView:updateGiftBagInfo()
         return
     end
 
-    local act = CCSequence:create({
-        CCCallFunc:create(function()
-            local curTime = ServerDataMgr:getServerTime()
-            local endTime = self.giftData.endDate
-            local remainTime = endTime - curTime
-            local day, hour, min, sec = Utils:getTimeDHMZ(remainTime, true)
-            if day == "00" then
-                self.Label_buy_time:setTextById(190000078 ,hour  , min , sec)
-            else
-                self.Label_buy_time:setTextById(213514 ,day , hour , min)
-            end
-            if remainTime <= 0 then
-                self.Label_buy_time:stopAllActions()
-                self.Label_buy_time:setText("")
-                self.Label_desc_2:setTextById(63649)
-            else
-                self.Label_desc_2:setText("")
-            end
-        end),
-        CCDelayTime:create(1)
-    })
+    --TODO CLOSE
+    -- local act = CCSequence:create({
+    --     CCCallFunc:create(function()
+    --         local curTime = ServerDataMgr:getServerTime()
+    --         local endTime = self.giftData.endDate
+    --         local remainTime = endTime - curTime
+    --         local day, hour, min, sec = Utils:getTimeDHMZ(remainTime, true)
+    --         if day == "00" then
+    --             self.Label_buy_time:setTextById(190000078 ,hour  , min , sec)
+    --         else
+    --             self.Label_buy_time:setTextById(213514 ,day , hour , min)
+    --         end
+    --         if remainTime <= 0 then
+    --             self.Label_buy_time:stopAllActions()
+    --             self.Label_buy_time:setText("")
+    --             self.Label_desc_2:setTextById(63649)
+    --         else
+    --             self.Label_desc_2:setText("")
+    --         end
+    --     end),
+    --     CCDelayTime:create(1)
+    -- })
 
-    self.Label_buy_time:runAction(CCRepeatForever:create(act))
+    -- self.Label_buy_time:runAction(CCRepeatForever:create(act))
 
     self.Label_buy:setTextById(1325305 ,self.giftData.rechargeCfg.price / 100)
     self.Image_icon:setVisible(self.giftData.buyType == 1)
@@ -108,7 +109,7 @@ function ActivityFundView:updateGiftBagInfo()
     self.Button_buy:setVisible(isCanBuy)
     self.Image_geted:setVisible(not isCanBuy)
 
-    self.Label_buy_time:setPosition(self.Label_desc_2:getPosition())
+    --self.Label_buy_time:setPosition(self.Label_desc_2:getPosition())
 
     self:updateActivity()
 end
@@ -154,14 +155,12 @@ function ActivityFundView:updateActivity()
 
     local _startyear, _startmonth, _startday = Utils:getDate(self.activityInfo_.showStartTime, true)
     local _endyear, _endmonth, _endday = Utils:getDate(self.activityInfo_.showEndTime, true)
-    -- if self.activityInfo_.extendData.activityShowType and self.activityInfo_.extendData.activityShowType == 6 then
-    --     self.label_time:setSkewX(10)
-    --     self.label_time:setText(_startmonth .. "." .. _startday .. "             " .. _endmonth .. "." .. _endday)
-    -- else
-    --     self.label_time:setText(_startmonth .. "." .. _startday .. " - " .. _endmonth .. "." .. _endday)
-    -- end
-
-    self.label_time:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.showEndTime, self.activityInfo_.extendData.dateStyle))
+    if self.activityInfo_.extendData.activityShowType and self.activityInfo_.extendData.activityShowType == 6 then
+        self.label_time:setSkewX(10)
+        self.label_time:setText(_startmonth .. "." .. _startday .. "             " .. _endmonth .. "." .. _endday)
+    else
+        self.label_time:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle))
+    end
 end
 
 function ActivityFundView:addGoodsItem()

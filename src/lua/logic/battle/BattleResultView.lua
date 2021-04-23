@@ -43,6 +43,8 @@ function BattleResultView:initData()
         self.invented     =  teamFightEndData.invented
         --荣誉值
         self.huntingHonor =  teamFightEndData.huntingHonor or 0
+        self.extRewards = teamFightEndData.extRewards or {}
+        self.extTips = teamFightEndData.extTips or 0
     end
     
     for i, v in ipairs(dropReward or {}) do
@@ -125,6 +127,8 @@ function BattleResultView:initUI(ui)
     self.ScrollView_reward = TFDirector:getChildByPath(self.Panel_reward, "ScrollView_reward")
     self.list_reward = UIListView:create(self.ScrollView_reward)
     self.list_reward:setItemsMargin(10)
+
+    self.Panel_addtion = TFDirector:getChildByPath(self.Panel_reward, "Panel_addtion"):hide()
 
 
     self.Panel_evaluation = TFDirector:getChildByPath(self.Panel_root, "Panel_evaluation"):hide()
@@ -338,6 +342,26 @@ function BattleResultView:refreshTeamPage()
                     item:setScale(0.7)
                     roleRewardList:pushBackCustomItem(item)
                     PrefabDataMgr:setInfo(item, v.id, v.num)
+                end
+            end
+        end
+        if playerInfo.pid == MainPlayer:getPlayerId() then
+            playerInfo.extRewards = self.extRewards
+            playerInfo.extTips = self.extTips
+        end
+
+        if playerInfo.extRewards and #playerInfo.extRewards > 0 then
+            for i, v in ipairs(playerInfo.extRewards) do 
+                if v.id ~= EC_SItemType.PLAYEREXP and v.id ~= EC_SItemType.SPIRITEXP and
+                    v.id ~= EC_SItemType.FAVOR and v.id ~= EC_SItemType.CONTRIBUTION then
+                    local item = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
+                    item:setScale(0.7)
+                    roleRewardList:pushBackCustomItem(item)
+                    local flag = EC_DropShowType.ACTIVITY_EXTRA
+                    if playerInfo.extTips == 1 then
+
+                    end
+                    PrefabDataMgr:setInfo(item, {v.id, v.num},flag)
                 end
             end
         end
@@ -630,6 +654,14 @@ function BattleResultView:refreshView()
                         -- local msec = string.format("%02d", self.passTime_ % 1000 * 0.1)
                         local hour, min, sec = Utils:getTime(timestamp, true)
                         self.Label_pass_time:setTextById(800014, min, sec)
+                    elseif self.levelCfg_.dungeonType == EC_FBLevelType.ENDLESS_PLUSS then
+                        local cfg = FubenEndlessPlusDataMgr:getFloorDungeonLevelCfg(self.levelCfg_.id)
+                        if cfg then
+                            local passTime = FubenEndlessPlusDataMgr:getFloorCostTiem(cfg.floorId)
+                            local timestamp = passTime / 1000
+                            local hour, min, sec = Utils:getTime(timestamp, true)
+                            self.Label_pass_time:setTextById(800014, min, sec)
+                        end
                     elseif self.levelCfg_.dungeonType == EC_FBLevelType.THEATER_FIGHTING then
                         local theaterBossInfo = FubenDataMgr:getTheaterBossInfo()
                         self.Image_lingbo:setVisible(theaterBossInfo.odeumType == EC_TheaterBossType.LINGBO)
@@ -975,10 +1007,17 @@ function BattleResultView:createHeroPanel()
     model1:update(0.1)
     model1:stop()
     local tx = CCRenderTexture:create(1136,1000)
+    if not tx then
+        return
+    end
     tx:begin()
     self.Image_battleResult_role_mirror:visit()
     tx:endToLua()
     
+    if not tx:getSprite():getTexture() then
+        model1:removeFromParent()
+        return
+    end
     local yinziPos = ccp(-340, -380)
     yinziPos.x = yinziPos.x + modelInfo.battleEndYingziPos.x
     yinziPos.y = yinziPos.y + modelInfo.battleEndYingziPos.y
@@ -1039,6 +1078,9 @@ function BattleResultView:showEvaluationNodesAnim()
 end
 
 function BattleResultView:showRewardsNodesAnim()
+    if self.levelCfg_ and (self.levelCfg_.dungeonType == EC_FBLevelType.DICUO_ENHUI or self.levelCfg_.dungeonType == EC_FBLevelType.DICUO_HUALUN or self.levelCfg_.dungeonType == EC_FBLevelType.DICUO_JIBAN) then
+        return
+    end 
     local actNodes = {}
     actNodes[#actNodes + 1] = self.Panel_extend
     actNodes[#actNodes + 1] = self.Image_role_bg
@@ -1212,6 +1254,10 @@ end
 
 function BattleResultView:updateReward()
     self.Label_playerName:setText(MainPlayer:getPlayerName())
+    if self.levelCfg_ and (self.levelCfg_.dungeonType == EC_FBLevelType.DICUO_ENHUI or self.levelCfg_.dungeonType == EC_FBLevelType.DICUO_HUALUN or self.levelCfg_.dungeonType == EC_FBLevelType.DICUO_JIBAN) then
+        self:updateAddtionPanel()
+        return
+    end
 
     self.roles_item = {}
     for i, v in ipairs(self.formation_) do
@@ -1252,6 +1298,110 @@ function BattleResultView:updateReward()
     end
     local minX = math.min((#self.rewardList_ * 79), self.ScrollView_reward:getSize().width)
     self.ScrollView_reward:setPositionX(self.ScrollView_reward:getPositionX() - minX)
+end
+
+function BattleResultView:updateAddtionPanel()
+    self.Image_role_bg:hide()
+    self.Image_reward:hide()
+    self.Panel_addtion:show()
+    self.roles_item = {}
+    local ScrollView_addtions = TFDirector:getChildByPath(self.Panel_addtion, "ScrollView_addtions")
+    self.list_addtions = UIListView:create(ScrollView_addtions)
+    self.list_addtions:setItemsMargin(3)
+    local Label_addtion_title = TFDirector:getChildByPath(self.Panel_addtion, "Label_addtion_title")
+    if self.levelCfg_.dungeonType == EC_FBLevelType.DICUO_JIBAN then
+        Label_addtion_title:setText("羁绊印章")
+    elseif self.levelCfg_.dungeonType == EC_FBLevelType.DICUO_HUALUN then
+        Label_addtion_title:setText("冒险者印章")
+    else
+        Label_addtion_title:setText("伟业")
+    end
+    local addtion_item = TFDirector:getChildByPath(self.Panel_prefab, "Panel_addtion_item")
+    local totalNum = 0
+    for k,v in pairs(self.resultData_.orgData.rewards or {}) do
+        totalNum = totalNum + v.num
+    end
+    for i,v in ipairs(self.resultData_.orgData.additionAward or {}) do
+        local item = addtion_item:clone()
+        local cfg = TabDataMgr:getData("Addition",v.additionId)
+        TFDirector:getChildByPath(item, "Label_addtion_name"):setTextById(cfg.awardDesc)
+        local num = 0
+        for k,reward in pairs(v.rewards or {}) do
+            num = num + reward.num 
+        end
+        TFDirector:getChildByPath(item, "Label_addtion_num"):setText("+"..num)
+        self.list_addtions:pushBackCustomItem(item)
+    end
+    if self.resultData_.orgData.original then
+        local num = 0
+        for k,v in pairs(self.resultData_.orgData.original) do
+            num = num + v.num 
+        end
+        
+        if num > 0 then
+            local item = addtion_item:clone()
+            TFDirector:getChildByPath(item, "Label_addtion_name"):setText("通关基础奖励")
+            TFDirector:getChildByPath(item, "Label_addtion_num"):setText("+"..num)
+            self.list_addtions:pushBackCustomItem(item)
+        end
+    end
+
+    if not self.resultData_.orgData.additionAward then
+        local item = addtion_item:clone()
+        TFDirector:getChildByPath(item, "Label_addtion_name"):setText("通关基础奖励")
+        TFDirector:getChildByPath(item, "Label_addtion_num"):setText("+"..totalNum)
+        self.list_addtions:pushBackCustomItem(item)
+    end
+
+    local Image_addtion_role_bg = TFDirector:getChildByPath(self.Panel_addtion, "Image_addtion_role_bg"):hide()
+    local Image_addtion_reward = TFDirector:getChildByPath(self.Panel_addtion, "Image_addtion_reward"):hide()
+    if self.levelCfg_.dungeonType == EC_FBLevelType.DICUO_HUALUN or self.levelCfg_.dungeonType == EC_FBLevelType.DICUO_JIBAN then
+        Image_addtion_reward:show()
+        local ScrollView_addtion_reward = TFDirector:getChildByPath(self.Panel_addtion, "ScrollView_addtion_reward")
+        local list_addtion_reward = UIListView:create(ScrollView_addtion_reward)
+        list_addtion_reward:setItemsMargin(3)
+        list_addtion_reward:setVisible(#self.rewardList_ > 0)
+        local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+        list_addtion_reward:removeAllItems()
+        for i, v in ipairs(self.rewardList_) do
+            local item = Panel_goodsItem:clone()
+            item:setScale(0.65)
+            list_addtion_reward:pushBackCustomItem(item)
+            PrefabDataMgr:setInfo(item, v.id, v.num)
+        end
+        local minX = math.min((#self.rewardList_ * 79), ScrollView_addtion_reward:getSize().width)
+        ScrollView_addtion_reward:setPositionX(ScrollView_addtion_reward:getPositionX() - minX)
+    else
+        Image_addtion_role_bg:show()
+        local Panel_addtion_role = TFDirector:getChildByPath(self.Panel_addtion, "Panel_addtion_role")
+        local Panel_addtion_role_item = TFDirector:getChildByPath(self.Panel_prefab, "Panel_addtion_role_item")
+        self.roles_item = {}
+        for i, v in ipairs(self.formation_) do
+            local item = {}
+            item.root = Panel_addtion_role_item:clone()
+            item.Panel_role = TFDirector:getChildByPath(item.root, "Panel_role")
+            item.Image_playerIcon = TFDirector:getChildByPath(item.root, "Image_playerIcon")
+            item.Image_quality = TFDirector:getChildByPath(item.root, "Image_quality")
+            item.Label_hero_level = TFDirector:getChildByPath(item.root, "Label_hero_level")
+            item.Image_pinzhi = TFDirector:getChildByPath(item.Panel_role, "Image_pinzhi")
+            item.Label_level = TFDirector:getChildByPath(item.root, "Label_level")
+
+            item.Image_roleExp = TFDirector:getChildByPath(item.root, "Image_roleExp")
+            item.LoadingBar_roleExp = TFDirector:getChildByPath(item.root, "LoadingBar_roleExp")
+            item.Label_exp = TFDirector:getChildByPath(item.root, "Label_exp")
+            item.Image_playerIcon:setTexture(HeroDataMgr:getIconPathById(v.id, v.skinCid))
+            item.Label_hero_level:setText("Lv."..v.lvl)
+            item.Image_pinzhi:setTexture(HeroDataMgr:getQualityPic(v.id, v.quality))
+
+            Panel_addtion_role:addChild(item.root)
+            item.root:setPosition(ccp(-((i - 1) *95)-40 , 50))
+            item.Label_exp:setText("+"..totalNum)
+            local level,exp,maxExp = FubenDataMgr:getLinkAgeHeroLevel(v.id)
+            item.Label_level:setText("Lv"..level)
+            item.LoadingBar_roleExp:setPercent(exp/maxExp*100)
+        end
+    end
+
 end
 
 function BattleResultView:updateRoleExps()
@@ -1355,6 +1505,22 @@ function BattleResultView:onTeamFightRewardRefresh(data)
                         end
                     end
                 end
+
+                if data.extRewards and #data.extRewards > 0 then
+                    for i, v in ipairs(data.extRewards) do 
+                        if v.id ~= EC_SItemType.PLAYEREXP and v.id ~= EC_SItemType.SPIRITEXP and
+                            v.id ~= EC_SItemType.FAVOR and v.id ~= EC_SItemType.CONTRIBUTION then
+                            local item = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
+                            item:setScale(0.7)
+                            list:pushBackCustomItem(item)
+                            local flag = EC_DropShowType.ACTIVITY_EXTRA
+                            if data.extTips and data.extTips == 1 then
+
+                            end
+                            PrefabDataMgr:setInfo(item, {v.id, v.num},flag)
+                        end
+                    end
+                end
             end
         end
     end
@@ -1449,12 +1615,7 @@ function BattleResultView:registerEvents()
                     if GuideDataMgr:isInNewGuide() and AlertManager:getMainSceneCacheLayerNum() < 1 then
                         AlertManager:setOpenFubenCom(true)
                     end
-                    if battleController.lastSceneName == "BaseOSDScene" then 
-                        local OSDControl = require("lua.logic.osd.OSDControl")
-                        OSDControl:enterOSD({})
-                    else
-                        AlertManager:changeScene(SceneType.MainScene)
-                    end
+                    battleController.popLastScence()
                 end
             end
     end

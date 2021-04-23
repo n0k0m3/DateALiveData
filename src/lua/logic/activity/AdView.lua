@@ -33,11 +33,11 @@ end
 
 function AdView:initData(data)
   self.isAutoOpen = data
-	self.activityId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.AD_ACTIVITY)[1]
 	self:updateData()
 end
 
 function AdView:updateData()
+    self.activityId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.AD_ACTIVITY)[1]
     self.activityInfo = ActivityDataMgr2:getActivityInfo(self.activityId)
 end
 
@@ -79,6 +79,10 @@ function AdView:updateUI()
 	local allItems = self.activityInfo.items
     for k, v in ipairs(allItems or {}) do
         local itemInfo = ActivityDataMgr2:getItemInfo(self.activityInfo.activityType, v)
+        if not itemInfo then
+          AlertManager:closeLayer(self)
+          return
+        end
         local adPanel = self.adList[k]
         adPanel.img_ad:setTexture(itemInfo.extendData.icon)
         adPanel:setTouchEnabled(false)

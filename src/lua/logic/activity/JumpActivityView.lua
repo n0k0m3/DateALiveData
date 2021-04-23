@@ -119,6 +119,10 @@ function JumpActivityView:jumpFunc( )
 		FunctionDataMgr:jSpecialFuben(activityInfo.activityType)
 	elseif activityInfo.activityType == EC_ActivityType2.WSJ_2020 then
 		Utils:openView("activity.WsjActivityMainView", self.activityId)
+	elseif activityInfo.activityType == EC_ActivityType2.DICUO_LINKAGE then
+		Utils:openView("liandongChapter.ChapterMapLayer", self.activityId)
+	elseif activityInfo.activityType == EC_ActivityType2.MAOKA then
+        FunctionDataMgr:jWorldRoom(99)
 	elseif activityInfo.extendData.jumpInterface  then
 		FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface, unpack(activityInfo.extendData.jumpParamters or {}))
 	end

@@ -22,7 +22,7 @@ return {
     },
     [1305002] = {
         unlockHint = 1702371,
-        sortForMainScene = 0,
+        sortForMainScene = 1,
         id = 1305002,
         backgroundEffect = {
         },
@@ -43,7 +43,7 @@ return {
     },
     [1305003] = {
         unlockHint = 1702372,
-        sortForMainScene = 0,
+        sortForMainScene = 2,
         id = 1305003,
         backgroundEffect = {
         },
@@ -169,7 +169,7 @@ return {
     },
     [1304001] = {
         unlockHint = 1702368,
-        sortForMainScene = 0,
+        sortForMainScene = 1,
         id = 1304001,
         backgroundEffect = {
         },
@@ -631,7 +631,7 @@ return {
     },
     [1303003] = {
         unlockHint = 1710500,
-        sortForMainScene = 0,
+        sortForMainScene = 3,
         id = 1303003,
         backgroundEffect = {
         },
@@ -652,7 +652,7 @@ return {
     },
     [1303004] = {
         unlockHint = 1702365,
-        sortForMainScene = 0,
+        sortForMainScene = 5,
         id = 1303004,
         backgroundEffect = {
         },
@@ -1261,7 +1261,7 @@ return {
     },
     [1314007] = {
         unlockHint = 1705263,
-        sortForMainScene = 0,
+        sortForMainScene = 3,
         id = 1314007,
         backgroundEffect = {
         },
@@ -1345,7 +1345,7 @@ return {
     },
     [1301006] = {
         unlockHint = 1710500,
-        sortForMainScene = 0,
+        sortForMainScene = 6,
         id = 1301006,
         backgroundEffect = {
         },
@@ -1702,7 +1702,7 @@ return {
     },
     [1312008] = {
         unlockHint = 1710500,
-        sortForMainScene = 0,
+        sortForMainScene = 3,
         id = 1312008,
         backgroundEffect = {
         },
@@ -1870,7 +1870,7 @@ return {
     },
     [1311006] = {
         unlockHint = 1710500,
-        sortForMainScene = 0,
+        sortForMainScene = 3,
         id = 1311006,
         backgroundEffect = {
         },
@@ -1933,7 +1933,7 @@ return {
     },
     [1310002] = {
         unlockHint = 1702385,
-        sortForMainScene = 0,
+        sortForMainScene = 2,
         id = 1310002,
         backgroundEffect = {
         },
@@ -1975,7 +1975,7 @@ return {
     },
     [1310004] = {
         unlockHint = 1710500,
-        sortForMainScene = 0,
+        sortForMainScene = 4,
         id = 1310004,
         backgroundEffect = {
         },
@@ -1996,7 +1996,7 @@ return {
     },
     [1310005] = {
         unlockHint = 1702387,
-        sortForMainScene = 0,
+        sortForMainScene = 5,
         id = 1310005,
         backgroundEffect = {
         },
@@ -2416,7 +2416,7 @@ return {
     },
     [1307003] = {
         unlockHint = 1702377,
-        sortForMainScene = 0,
+        sortForMainScene = 3,
         id = 1307003,
         backgroundEffect = {
         },

@@ -333,6 +333,7 @@ function EquipmentInfo:updateUI()
 
     local inherentDesc = EquipmentDataMgr:getEquipInherentAttrDesc(equipmentId);
     self.Label_guyou:setTextById(inherentDesc);
+    self.Label_guyou:setDimensions(280, 0)
     self.allElementsListView:removeAllItems()
 
     local Panel_guyou_title = TFDirector:getChildByPath(self.ui, "Panel_guyou_title")
@@ -346,6 +347,8 @@ function EquipmentInfo:updateUI()
 
     Panel_teshu_title:setVisible(false)
     local clone2 = Panel_teshu_title:clone()
+    --TODO CLOSE
+    --clone2:setSize(CCSizeMake(300,self.Label_guyou:getContentSize().height + 30))
     clone2:setVisible(true)
     
     if EquipmentDataMgr:getIsHaveSpecialAttr(equipmentId) then

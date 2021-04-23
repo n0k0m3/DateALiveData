@@ -408,12 +408,6 @@ function Buffer:trigger()
     end
 end
 function Buffer:triggerOnce(takeObj,data)
-        -- Box("self.probability111:"..tostring(self.probability))
-    -- if not data.effectPosition then  --false 时必须出战才能生效
-    --     if not takeObj:isFight() then
-    --         return
-    --     end
-    -- end
         --免疫负面效果
         if takeObj:isAState(eAState.E_MIANYI_DBUFF) then
             if data.benefitType >= 2 then

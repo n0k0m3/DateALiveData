@@ -577,7 +577,7 @@ local t =
 										},
 										{
 											controlID = "Image_icon5_Image_lvbg1_Image_bg_Panel_root_Panel-BlackAndWhiteMainView_Layer1_blackAndWhite_Game",
-											UUID = "32150cbb_984a_401f_9f4c_9e916c908df0",
+											UUID = "a56a07ae_1ca3_4b80_b4f8_b9f9dd5f7698",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -814,7 +814,7 @@ local t =
 										},
 										{
 											controlID = "Image_icon5_Image_lvbg2_Image_bg_Panel_root_Panel-BlackAndWhiteMainView_Layer1_blackAndWhite_Game",
-											UUID = "50d3264e_1617_428d_84ed_23fa17aab016",
+											UUID = "d5eb7bf8_44b2_4e0b_8aa8_7ccf25fde7ce",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -1054,7 +1054,7 @@ local t =
 										},
 										{
 											controlID = "Image_icon5_Image_lvbg3_Image_bg_Panel_root_Panel-BlackAndWhiteMainView_Layer1_blackAndWhite_Game",
-											UUID = "359568c1_97d6_4e17_91f8_ae1fdf7ec7e3",
+											UUID = "2c1a947c_917d_4965_9de1_472f9d9fc9c9",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",

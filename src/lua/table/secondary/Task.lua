@@ -9143,7 +9143,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370001,
         extendsTaskId = 0,
         subType = 2,
@@ -9284,7 +9284,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370002,
         extendsTaskId = 0,
         subType = 2,
@@ -9678,7 +9678,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370004,
         extendsTaskId = 0,
         subType = 2,
@@ -9812,7 +9812,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370005,
         extendsTaskId = 0,
         subType = 2,
@@ -9956,7 +9956,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370006,
         extendsTaskId = 0,
         subType = 2,
@@ -10345,7 +10345,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370008,
         extendsTaskId = 0,
         subType = 2,
@@ -10486,7 +10486,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370009,
         extendsTaskId = 0,
         subType = 2,
@@ -10975,7 +10975,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370012,
         extendsTaskId = 0,
         subType = 2,
@@ -11153,7 +11153,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370013,
         extendsTaskId = 0,
         subType = 2,
@@ -11640,7 +11640,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370016,
         extendsTaskId = 0,
         subType = 2,
@@ -50457,7 +50457,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370007,
         extendsTaskId = 0,
         subType = 2,
@@ -63859,15 +63859,15 @@ return {
         reward = {
             [1] = {
                 [1] = 580043,
-                [2] = 8,
+                [2] = 10,
             },
             [2] = {
                 [1] = 510154,
-                [2] = 1,
+                [2] = 3,
             },
             [3] = {
                 [1] = 510104,
-                [2] = 1,
+                [2] = 3,
             },
         },
         startDate = {
@@ -63877,7 +63877,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 70,
+            [2] = 80,
         },
         colour2 = {
         },
@@ -63888,7 +63888,7 @@ return {
         subType = 2,
         endDate = {
         },
-        progress = 300,
+        progress = 400,
         type = 19,
         name = "1310877",
         acceptCondId = 10001,
@@ -64024,15 +64024,15 @@ return {
         reward = {
             [1] = {
                 [1] = 580043,
-                [2] = 5,
+                [2] = 8,
             },
             [2] = {
-                [1] = 510153,
-                [2] = 1,
+                [1] = 510154,
+                [2] = 2,
             },
             [3] = {
-                [1] = 510103,
-                [2] = 1,
+                [1] = 510104,
+                [2] = 2,
             },
         },
         startDate = {
@@ -64042,7 +64042,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 70,
+            [2] = 80,
         },
         colour2 = {
         },
@@ -64053,7 +64053,7 @@ return {
         subType = 2,
         endDate = {
         },
-        progress = 200,
+        progress = 300,
         type = 19,
         name = "1310877",
         acceptCondId = 10001,
@@ -64077,15 +64077,15 @@ return {
         reward = {
             [1] = {
                 [1] = 580043,
-                [2] = 4,
+                [2] = 5,
             },
             [2] = {
-                [1] = 510152,
-                [2] = 1,
+                [1] = 510153,
+                [2] = 2,
             },
             [3] = {
-                [1] = 510102,
-                [2] = 1,
+                [1] = 510103,
+                [2] = 2,
             },
         },
         startDate = {
@@ -64095,7 +64095,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 70,
+            [2] = 80,
         },
         colour2 = {
         },
@@ -64106,7 +64106,7 @@ return {
         subType = 2,
         endDate = {
         },
-        progress = 100,
+        progress = 200,
         type = 19,
         name = "1310877",
         acceptCondId = 10001,
@@ -64130,14 +64130,14 @@ return {
         reward = {
             [1] = {
                 [1] = 580043,
-                [2] = 2,
+                [2] = 3,
             },
             [2] = {
-                [1] = 510151,
+                [1] = 510153,
                 [2] = 1,
             },
             [3] = {
-                [1] = 510101,
+                [1] = 510103,
                 [2] = 1,
             },
         },
@@ -64148,7 +64148,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 70,
+            [2] = 80,
         },
         colour2 = {
         },
@@ -64159,7 +64159,7 @@ return {
         subType = 2,
         endDate = {
         },
-        progress = 50,
+        progress = 100,
         type = 19,
         name = "1310877",
         acceptCondId = 10001,
@@ -76840,7 +76840,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370015,
         extendsTaskId = 0,
         subType = 2,
@@ -77033,7 +77033,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370014,
         extendsTaskId = 0,
         subType = 2,
@@ -77124,7 +77124,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370011,
         extendsTaskId = 0,
         subType = 2,
@@ -77210,7 +77210,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370010,
         extendsTaskId = 0,
         subType = 2,
@@ -77301,7 +77301,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 370003,
         extendsTaskId = 0,
         subType = 2,

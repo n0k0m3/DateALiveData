@@ -256,7 +256,7 @@ function GetItemView:playAni()
                         Utils:playSound(6002)
                         showItemCnt = showItemCnt + 1
                         print(showItemCnt)
-                        if not self.directClose then
+                        if not self.directClose and self.Panel_touch then
                             self.Panel_touch:setVisible(showItemCnt >= itemCount)
                         end
                     end),
@@ -285,7 +285,7 @@ end
 function GetItemView:registerEvents()
     self.Panel_touch:onClick(function()
         if self.hideCallBack then
-            self.hideCallBack()
+            self.hideCallBack(self.goodsItem_)
         end
         AlertManager:closeLayer(self)
 		--EventMgr:dispatchEvent(EV_CLOSE_MAIN_LAYER)
@@ -294,7 +294,7 @@ function GetItemView:registerEvents()
 
     self.Panel_guide:onClick(function()
         if self.hideCallBack then
-            self.hideCallBack()
+            self.hideCallBack(self.goodsItem_)
         end
         AlertManager:closeLayer(self)
         --EventMgr:dispatchEvent(EV_CLOSE_MAIN_LAYER)

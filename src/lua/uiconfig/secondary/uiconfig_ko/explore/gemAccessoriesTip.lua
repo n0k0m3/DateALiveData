@@ -147,7 +147,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "宝物装配",
+							text = "보물 조립",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -158,7 +158,7 @@ local t =
 								PercentX = 6.6,
 								PercentY = 85.47,
 							},
-							width = "115",
+							width = "109",
 							ZOrder = "1",
 							components = 
 							{
@@ -183,7 +183,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 116,
+										PositionX = 110,
 										PositionY = 1,
 										IsPercent = true,
 										PercentX = 101,
@@ -261,14 +261,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "装配",
+									text = "조립",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "51",
+									width = "45",
 									ZOrder = "1",
 								},
 							},
@@ -347,7 +347,7 @@ local t =
 									{
 										
 									},
-									width = "51",
+									width = "45",
 									ZOrder = "1",
 								},
 							},
@@ -426,7 +426,7 @@ local t =
 									{
 										
 									},
-									width = "52",
+									width = "46",
 									ZOrder = "1",
 								},
 							},
@@ -735,7 +735,7 @@ local t =
 												PositionX = 166,
 												PositionY = 144,
 											},
-											width = "159",
+											width = "121",
 											ZOrder = "1",
 										},
 										{
@@ -764,7 +764,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_tip",
 											nTextAlign = "1",
@@ -773,7 +773,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "激活效果",
+											text = "효과 활성화",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -781,7 +781,7 @@ local t =
 												PositionX = 169,
 												PositionY = 106,
 											},
-											width = "90",
+											width = "110",
 											ZOrder = "1",
 										},
 										{
@@ -810,7 +810,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_des3",
 											nTextAlign = "0",
@@ -827,7 +827,7 @@ local t =
 												PositionX = 171,
 												PositionY = 56,
 											},
-											width = "80",
+											width = "98",
 											ZOrder = "1",
 										},
 										{
@@ -930,7 +930,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_tip1",
 											nTextAlign = "1",
@@ -939,7 +939,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "正在装配中",
+											text = "조립 중",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -947,7 +947,7 @@ local t =
 												PositionX = 489,
 												PositionY = -1,
 											},
-											width = "112",
+											width = "69",
 											ZOrder = "1",
 										},
 									},
@@ -1090,15 +1090,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "可装配位",
+											text = "조립 가능 슬롯",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 487,
+												PositionX = 465,
 												PositionY = 35,
 											},
-											width = "99",
+											width = "147",
 											ZOrder = "1",
 										},
 									},
@@ -1236,7 +1236,7 @@ local t =
 												PositionX = 166,
 												PositionY = 144,
 											},
-											width = "159",
+											width = "121",
 											ZOrder = "1",
 										},
 										{
@@ -1265,7 +1265,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_tip",
 											nTextAlign = "1",
@@ -1274,7 +1274,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "激活效果",
+											text = "효과 활성화",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1282,7 +1282,7 @@ local t =
 												PositionX = 169,
 												PositionY = 106,
 											},
-											width = "90",
+											width = "110",
 											ZOrder = "1",
 										},
 										{
@@ -1349,7 +1349,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_des3",
 											nTextAlign = "0",
@@ -1366,7 +1366,7 @@ local t =
 												PositionX = 171,
 												PositionY = 56,
 											},
-											width = "80",
+											width = "98",
 											ZOrder = "1",
 										},
 										{
@@ -1470,7 +1470,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "暂未获取秘宝",
+							text = "아직 보물 미획득",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -1478,7 +1478,7 @@ local t =
 								PositionX = 291,
 								PositionY = 385,
 							},
-							width = "169",
+							width = "192",
 							ZOrder = "1",
 							components = 
 							{
@@ -1535,7 +1535,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "22",
 									ignoreSize = "True",
 									name = "Label_empty_tip",
 									nTextAlign = "1",
@@ -1544,15 +1544,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "请前往                     或                    中获取",
+									text = "또는                 에서 수령하세요",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -13,
-										PositionY = -280,
+										PositionX = 56,
+										PositionY = -282,
 									},
-									width = "348",
+									width = "282",
 									ZOrder = "1",
 									components = 
 									{
@@ -1592,15 +1592,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "[探索事件]",
+											text = "[사건 탐색]",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -61,
-												PositionY = -1,
+												PositionX = -47,
 											},
-											width = "102",
+											width = "96",
 											ZOrder = "1",
 										},
 										{
@@ -1638,15 +1637,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "[飞舰任务]",
+											text = "[공중함 퀘스트]",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 63,
-												PositionY = -1,
+												PositionX = -211,
 											},
-											width = "102",
+											width = "132",
 											ZOrder = "1",
 										},
 									},
@@ -1825,7 +1823,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_working",
 											nTextAlign = "1",
@@ -1834,14 +1832,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "装备中",
+											text = "장착 중",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -3,
 											},
-											width = "68",
+											width = "69",
 											ZOrder = "1",
 										},
 									},

@@ -1,7 +1,7 @@
 local MainLayer = class("MainLayer", BaseLayer)
 
 function MainLayer:initData()
-
+	GoodsDataMgr:loadLocalTrialDress()
 end
 
 function MainLayer:init(uipath)
@@ -23,7 +23,6 @@ function MainLayer:ctor(data)
 	
     self.showRffect = data
     self.giftButton = {}
-    self.giftButton = {}
 
     self.UTC_TIME = -7  --主界面显示时区为UTC-7
 
@@ -41,17 +40,19 @@ function MainLayer:ctor(data)
 	]]
 	--self:init("lua.uiconfig.MainScene.WanKryptonMainLayer")
 
-    
-
-	local uidata = TabDataMgr:getData("Uichange", MainUISettingMgr:getui())
-
-	if uidata then
-		print("init--------------------------------------------=" .. MainUISettingMgr:getui())
-		-- dump(uidata)
-		self:init(uidata.uiConfig)
-	else
-		self:init("lua.uiconfig.MainScene.DefaultMainLayer")
-	end
+    local changeId = MainUISettingMgr:getui()
+    if changeId > 0 then
+    	local uidata = TabDataMgr:getData("Uichange", changeId)
+    	if uidata then
+    		print("init--------------------------------------------=" .. MainUISettingMgr:getui())
+    		-- dump(uidata)
+    		self:init(uidata.uiConfig)
+    	else
+    		self:init("lua.uiconfig.MainScene.DefaultMainLayer")
+    	end
+    else
+        self:init("lua.uiconfig.MainScene.DefaultMainLayer")
+    end
 end
 
 function MainLayer:isOneCelebrationMainLayer()
@@ -229,6 +230,9 @@ function MainLayer:initUI(ui)
     self.Button_newPlayer = TFDirector:getChildByPath(self.Panel_left, "Button_newPlayer")
     self.Image_newPlayerTip = TFDirector:getChildByPath(self.Button_newPlayer, "Image_newPlayerTip"):show()
 
+    self.Button_newPlayerBook = TFDirector:getChildByPath(self.Panel_left, "Button_newPlayerBook")
+    self.Image_newPlayerBookTip = TFDirector:getChildByPath(self.Button_newPlayerBook, "Image_newPlayerTip")
+
     self.Button_Activity5 = TFDirector:getChildByPath(self.ui, "Button_Activity5")
     self.Image_activity_red5 = TFDirector:getChildByPath(self.ui, "Image_activity_red5"):hide()
     self.Button_Activity6 = TFDirector:getChildByPath(self.ui, "Button_Activity6")
@@ -264,13 +268,12 @@ function MainLayer:initUI(ui)
     self.Image_redPack_tips     = TFDirector:getChildByPath(ui,"Image_redPack_tips")
     self.Panel_chat_di      = TFDirector:getChildByPath(ui,"Panel_chat_di");
     self.Label_message      = TFDirector:getChildByPath(ui,"Label_message");
-
+    self.Label_message:setText("")
 
     self.img_chat_new_tip = TFImage:create("ui/recharge/new.png")
     self.img_chat_new_tip:setPosition(40 ,10)
     self.Image_chat:addChild(self.img_chat_new_tip , 1)
     self.img_chat_new_tip:hide()
-
 
     -- ai通知图标
     self.Image_aiAdvice_tips = TFDirector:getChildByPath(self.Image_chat,"Image_aiAdvice_tips")
@@ -403,6 +406,10 @@ function MainLayer:initUI(ui)
         self.image_dot[i] = TFDirector:getChildByPath(self.Panel_activity,"Image_dot"..i)
         self.image_dot[i]:setPosition(self.image_dot[i]:getPosition() + ccp(-80 , 0))
     end
+    self.btn_ad = TFDirector:getChildByPath(self.Panel_activity, "btn_ad")
+    if self.btn_ad then
+        self.btn_ad:hide()
+    end
 
     --TODO CLOSE
     --self.btn_ad = TFDirector:getChildByPath(self.Panel_activity, "btn_ad")
@@ -521,10 +528,9 @@ function MainLayer:initUI(ui)
     local activityInfos = ActivityDataMgr2:getActivityInfo(nil,EC_ActivityType2.FANSHI_ASSIST)
     self.Button_Activity1001:setVisible(#activityInfos > 0)
 
-    
     --showType:7 不在主界面用
-    local activityInfos = ActivityDataMgr2:getActivityInfo(nil,7)
-    self.Button_Activity7:setVisible((#activityInfos > 0))
+    --local activityInfos = ActivityDataMgr2:getActivityInfo(nil,7)
+    --self.Button_Activity7:setVisible((#activityInfos > 0)
 
     if self.Button_serverGiftActivity then
         local activityInfos = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.SERVER_GIFT)
@@ -755,10 +761,9 @@ function MainLayer:updateLeftButtons()
 			end
 		end
 		
-		local tmAllBtns3 = { self.Button_kefu , self.Button_fb, self.Button_twitter, self.Button_dis ,self.Button_update, self.Button_backPlayer, self.Button_wj,self.Button_preview,self.Button_OneYearShare,self.btn_zhuifan,self.btn_phone_small}
+		local tmAllBtns3 = {self.Button_update, self.Button_backPlayer, self.Button_wj,self.Button_preview,self.Button_OneYearShare,self.btn_zhuifan,self.btn_phone_small}
 		local tmAllBtnspos3 = {ccp(52,104),ccp(165,104),ccp(265,104),ccp(52,43),ccp(165,43),ccp(265,43),ccp(355,104)}
-        local idx = 1
-        local isShowSpineBtn = false
+		local idx = 1
         local isShowSpineBtn = false
 		for k,v in ipairs(tmAllBtns3) do
 			if v:isVisible() then
@@ -766,8 +771,7 @@ function MainLayer:updateLeftButtons()
 				idx  = idx + 1
                 isShowSpineBtn = true
 			end
-        end
-        self.Button_btnListEx:setVisible(isShowSpineBtn)
+		end
         self.Button_btnListEx:setVisible(isShowSpineBtn)
 	end		
 		
@@ -880,8 +884,16 @@ function MainLayer:showLeftBtnAnim()
     end
 
 
-
-   
+    local threeActivity = {}
+    if self.button_OneYear:isVisible() then
+        table.insert(threeActivity , self.button_OneYear)
+    end
+    if self.Button_Activity7:isVisible() then
+        table.insert(threeActivity , self.Button_Activity7)
+    end
+    if self.Button_Activity91:isVisible() then
+        table.insert(threeActivity , self.Button_Activity91)
+    end
 
     --多个活动同时存在新增特殊处理 
     if #threeActivity == 2 then
@@ -904,7 +916,13 @@ function MainLayer:showLeftBtnAnim()
         end
     end
 
-
+    if self.Button_newPlayerBook:isVisible() then
+        self.Button_newPlayerBook:setScale(0.85)
+        self.Button_newPlayerBook:setOpacity(0)
+        local orgPos = self.Button_newPlayerBook:getPosition()
+        self.Button_newPlayerBook:setPosition(me.p(orgPos.x - 20,orgPos.y))
+        self.Button_newPlayerBook:runAction(Spawn:create({FadeIn:create(0.3),MoveTo:create(0.3,orgPos),ScaleTo:create(0.3,1)}))
+    end
 
 end
 
@@ -912,17 +930,14 @@ function MainLayer:refreshAnimationEffect(effectIds, isBgEffect)
 	if effectIds == nil or #effectIds == 0 then
 		return;
 	end
-	self.roleAnimationEffect = self.roleAnimationEffect or {}
+
 	local prefab = nil
     if not isBgEffect then
         prefab = self.Spine_effectH
     else
         prefab = self.Spine_effectHB
     end
-	for k, v in pairs(self.roleAnimationEffect) do
-		v:removeFromParent()
-		self.roleAnimationEffect[k] = nil
-	end
+
     for k,effectId in pairs(effectIds) do
         local effect, cfg = Utils:createEffectByEffectId(effectId)
         if effect then			
@@ -978,7 +993,7 @@ function MainLayer:setBackGroundByTime()
     if dressData and dressData.background and #dressData.background ~= 0 then
         spbackground = dressData.background
     end
-
+    
     if spbackground then
         local spine = self.background:getChildByName("yearBgSpine")
         if spine then
@@ -1012,14 +1027,12 @@ function MainLayer:setBackGroundByTime()
             v:show()
         end
         self.background:setTexture(spbackground)
-        self:ResolutionAdaptation()
        
         self:refreshBg(self.background)
         dressData.scale = dressData.scale or 1
         self.background:setScale(dressData.scale)
         local curPosX, curPosY = self:checkImageBgPos(dressData.bgOffset)
         self.background:Pos(curPosX, curPosY)
-        return
     else
         self.effectSK = self.effectSK or {}
             for k,v in pairs(self.effectSK) do
@@ -1031,32 +1044,31 @@ function MainLayer:setBackGroundByTime()
             v:removeFromParent()
             self.effectSKB[k] = nil
         end
-    end
-
-    if Utils:isNewYearMainLayerUi() then
-        self:refreshBg(self.background,"ui/newyear/bg_newyear.png")
-    else
-        local res = "ui/mainLayer/new_ui/bg_morning.png"
-        local curDayCid,curNightCid = SceneSoundDataMgr:getCurSceneCid()
-        local sceneDayCfg = SceneSoundDataMgr:getMainSceneChange(curDayCid)
-        local sceneNightCfg = SceneSoundDataMgr:getMainSceneChange(curNightCid)
-        local hour = Utils:getTime(ServerDataMgr:getServerTime())
-        if hour <= 18 and hour >= 6 then
-            if sceneDayCfg and sceneDayCfg.background then
-                res = sceneDayCfg.background
-            end
+        if Utils:isNewYearMainLayerUi() then
+            self:refreshBg(self.background,"ui/newyear/bg_newyear.png")
         else
-            if sceneNightCfg and sceneNightCfg.background then
-                res = sceneNightCfg.background
+            local res = "ui/mainLayer/new_ui/bg_morning.png"
+            local curDayCid,curNightCid = SceneSoundDataMgr:getCurSceneCid()
+            local sceneDayCfg = SceneSoundDataMgr:getMainSceneChange(curDayCid)
+            local sceneNightCfg = SceneSoundDataMgr:getMainSceneChange(curNightCid)
+            local hour = Utils:getTime(ServerDataMgr:getServerTime())
+            if hour <= 18 and hour >= 6 then
+                if sceneDayCfg and sceneDayCfg.background then
+                    res = sceneDayCfg.background
+                end
             else
-                res = "ui/mainLayer/new_ui/bg_nightfall.png"
+                if sceneNightCfg and sceneNightCfg.background then
+                    res = sceneNightCfg.background
+                else
+                    res = "ui/mainLayer/new_ui/bg_nightfall.png"
+                end
             end
-        end
 
-        -- 周年庆固定骨骼背景
-        local spine = self.background:getChildByName("yearBgSpine")
-        local defaultBgDayId = Utils:getKVP(46026,"data")[1]["defaultDayScene"]
-            if curDayCid == defaultBgDayId and nil == spbackground then
+            -- 周年庆固定骨骼背景
+            local spine = self.background:getChildByName("yearBgSpine")
+            local disData = Utils:getKVP(46026,"data")[1]
+            local defaultBgDayId = disData.defaultDayScene
+            if curDayCid == defaultBgDayId and nil == spbackground and disData.isusespine ~= 0 then
                 if not spine then
                     -- local tempSpine = SkeletonAnimation:create("effect/ui_effect_oneYearKanban/effects_ZNQ_kanban")
                     -- tempSpine:setName("yearBgSpine")
@@ -1072,10 +1084,24 @@ function MainLayer:setBackGroundByTime()
                     spine:removeFromParent()
                 end
             end
-        self:refreshBg(self.background,res)
+            self:refreshBg(self.background,res)
+        end
+        self.background:Pos(self.background.savePos)
     end
-    self.background:setScale(1)
-    self.background:Pos(self.background.savePos)
+
+    local curWidth = me.EGLView:getDesignResolutionSize().width
+    local fitScale = (curWidth - 1386) / 1386 * 1.0
+    if dressData and dressData.adaptation and dressData.adaptation == 1 and fitScale > 0 then
+        self.background:setScale(1.0 + fitScale)
+        self.imageNpc:setScale(1.0 + fitScale)
+        local offX = 1386 * fitScale / 2 * 0.8
+        local offY = 640 * fitScale / 2 * 0.8
+        self.imageNpc:setPosition(ccp(-offX, -offY))
+    else
+        self.background:setScale(1.0)
+        self.imageNpc:setScale(1.0)
+        self.imageNpc:setPosition(ccp(0, 0))
+    end
 end
 
 function MainLayer:refreshBg(imageBg, bgPath)
@@ -1094,7 +1120,7 @@ function MainLayer:refreshBg(imageBg, bgPath)
     imageBg:setContentSize(CCSizeMake(newWidth, newHeigth))
 
     local dressData = RoleDataMgr:useDressFindData()
-    if  dressData and RoleDataMgr:useDressFindData().highRoleModel ~= 0 then
+    if dressData and dressData.highRoleModel ~= 0 then
         DatingPhoneDataMgr:keepMainBgTexture(false)
     else
         DatingPhoneDataMgr:keepMainBgTexture(imageBg:getTexture())
@@ -1215,6 +1241,7 @@ function MainLayer:updateAction()
     local size = self.Panel_activity:Size()
     local beginPos, endPos = me.p(0, 0), me.p(0, 0)
     self.PageView_Activity:onTouch(function(event)
+        Utils:sendHttpLog("banner")
         if event.name == "began" then
             beginPos = event.target:getTouchStartPos()
             self.PageView_Activity:stopAllActions()
@@ -1532,6 +1559,8 @@ end
 function MainLayer:onChatViewForceClose()
     if self.chatView and not self.chatView.closeState then
         self:resetLive2dPos()
+    end
+    if self.chatView then
         self.chatView.closeState = nil
         self.chatView = nil
     end
@@ -1582,6 +1611,7 @@ function MainLayer:registerEvents()
 
     EventMgr:addEventListener(self, EV_ASSISTANCE_FRIENDHELPINFOS, handler(self.onRedPointUpdateFriendHelp, self))
     EventMgr:addEventListener(self,EV_CHANGE_MAINSCENE_INFO, handler(self.onRecvUpdateLive2D, self))
+
     EventMgr:addEventListener(self,EV_CHANGE_MAINSCENE_INFO, handler(self.onUpdateMainScene, self))
     EventMgr:addEventListener(self,EV_UPDATE_SWITCH_STATE,handler(self.checkSwitchTime, self))
     EventMgr:addEventListener(self,EV_START_SWITCH_TIME,handler(self.startSwitchTime, self))
@@ -1595,6 +1625,13 @@ function MainLayer:registerEvents()
 
     EventMgr:addEventListener(self,EV_LEAGUE_WORLDBOSS_INFO, handler(self.onRedPointUpdateUnion, self))
     EventMgr:addEventListener(self, EV_RECONECT_EVENT, handler(self.onShow, self))
+
+	EventMgr:addEventListener(self,EV_UPDATE_SWITCH_LIST,handler(self.onChangeSwitchList, self))
+	EventMgr:addEventListener(self, EV_DATING_EVENT.changeDress, handler(self.onRecvUpdateLive2D, self))
+	EventMgr:addEventListener(self, EV_BAG_DRESS_UPDATE, handler(self.onDressDelete, self))
+    EventMgr:addEventListener(self, EV_WEBVIEW_URL_BACK, handler(self.onWebViewUrlBack, self))
+    EventMgr:addEventListener(self, EV_BAG_DRESS_UPDATE, handler(self.onDressDelete, self))
+    EventMgr:addEventListener(self, EV_VALENTINESDAY_MAIN_INFO, handler(self.onUpdateActivitysState, self))
     
 	if not self:isOneCelebrationMainLayer() then
 		--self.Panel_btListEx = TFDirector:getChildByPath(self.Panel_left, "Panel_btListEx")
@@ -1612,21 +1649,22 @@ function MainLayer:registerEvents()
 		end)
 	end
 	
-    self.btn_ad:onClick(function()
-        if not ActivityDataMgr2:isAdActivityOpen() then
-            Utils:showTips(213227)
-            return
-        end
+    -- self.btn_ad:onClick(function()
+    --     if not ActivityDataMgr2:isAdActivityOpen() then
+    --         Utils:showTips(213227)
+    --         return
+    --     end
 
-        local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.AD_ACTIVITY)
-        ActivityDataMgr2:sendReqClickAdActivity(activity[1], 0, 2)
-        Utils:openView("activity.AdView")
-    end)
+    --     local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.AD_ACTIVITY)
+    --     ActivityDataMgr2:sendReqClickAdActivity(activity[1], 0, 2)
+    --     Utils:openView("activity.AdView")
+    -- end)
 
     self.tiliAdd:onClick(function()
             local itemCfg = GoodsDataMgr:getItemCfg(EC_SItemType.POWER)
             if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
-                 Utils:openView("common.BuyTiliLayer", itemCfg.id)
+                --Utils:openView("common.BuyPhysicalPowerView", itemCfg.id)
+				Utils:openView("common.BuyResourceView", itemCfg.id)
             else
                 Utils:showTips(800021)
             end
@@ -1640,10 +1678,6 @@ function MainLayer:registerEvents()
             end
 --			Utils:openView("activity.LightRiddles")
     end)
-    self.Image_coin:setTouchEnabled(true)
-    self.Image_coin:onClick(function()
-        Utils:showInfo(EC_SItemType.GOLD)
-    end)
     self.diamondsAdd:onClick(function()
             FunctionDataMgr:jPay()
     end)
@@ -1651,18 +1685,23 @@ function MainLayer:registerEvents()
     -- 约会
     self.dateBtn:onClick(function ()
             -- FunctionDataMgr:jDating()
+        Utils:sendHttpLog("date")
             FunctionDataMgr:jCity()
             GameGuide:checkGuideEnd(self.guideFuncId)
     end)
 
     -- 副本
     self.battleBtn:onClick(function ()
-        TFAssetsManager:downloadHeroAssets(function()
-            --检查更新
-            MainPlayer:checkVersion();
-            FunctionDataMgr:jPlotFuben()
-            GameGuide:checkGuideEnd(self.guideFuncId)
-        end,true)
+		--BlackAndWhiteDataMgr:send_NEW_WORLD_REQ_BLACK_WHITE()
+		--Utils:openView("blackAndWhite.BlackAndWhiteMainView")
+		
+        Utils:sendHttpLog("battle")
+            TFAssetsManager:downloadHeroAssets(function()
+                --检查更新
+                MainPlayer:checkVersion();
+                FunctionDataMgr:jPlotFuben()
+                GameGuide:checkGuideEnd(self.guideFuncId)
+            end,true)
     end)
 
     self.Panelzuozhan:setTouchEnabled(false)
@@ -1690,6 +1729,7 @@ function MainLayer:registerEvents()
     end)
 
     self.Button_fairy:onClick(function()
+        Utils:sendHttpLog("elf")
             Utils:openView("fairyNew.FairyMainLayer")
 
             -- local layer = requireNew("lua.logic.fairyNew.FairyMainLayer"):new()
@@ -1700,6 +1740,8 @@ function MainLayer:registerEvents()
 
     -- 背包
     self.Button_bag:onClick(function()
+
+        Utils:sendHttpLog("bag")
             FunctionDataMgr:jBag()
     end)
 
@@ -1714,9 +1756,11 @@ function MainLayer:registerEvents()
     -- 聊天
     self.Image_chat:setTouchEnabled(true)
     self.Image_chat:onClick(function()
+            Utils:sendHttpLog("Chat")
             self:onChatViewOpen();
     end)
     self.Panel_chat_di:onClick(function()
+            Utils:sendHttpLog("Chat")
             self:onChatViewOpen();
     end)
     -- 召唤
@@ -1795,10 +1839,12 @@ function MainLayer:registerEvents()
     end)
 
     self.Button_friend:onClick(function()
+        Utils:sendHttpLog("firend")
             FunctionDataMgr:jFriend()
     end)
 
     self.Button_mail:onClick(function()
+        Utils:sendHttpLog("email")
             FunctionDataMgr:jEmail()
     end)
 
@@ -1807,12 +1853,14 @@ function MainLayer:registerEvents()
     end)
 
     self.Button_task:onClick(function()
+        Utils:sendHttpLog("Task")
             FunctionDataMgr:jTask()
             GameGuide:checkGuideEnd(self.guideFuncId)
     end)
 
     self.Button_explore:onClick(function ( ... )
         -- body
+        Utils:sendHttpLog("Explore")
             FunctionDataMgr:jFlyShip()
     end)
 
@@ -1822,6 +1870,7 @@ function MainLayer:registerEvents()
         end)
 
     self.Button_giftpacks:onClick(function()
+            Utils:sendHttpLog("supply")
             GlobalVarDataMgr:setValue(GV_ELF_CONTRACT_TIP, true)
             Utils:openView("supplyNew.SupplyMainNewView")
     end)
@@ -1833,6 +1882,7 @@ function MainLayer:registerEvents()
     end
 
     self.Button_pokedex:onClick(function()
+        Utils:sendHttpLog("Collection")
             FunctionDataMgr:jPokedex()
     end)
     
@@ -1854,7 +1904,6 @@ function MainLayer:registerEvents()
         Utils:openView("ar.ARMainLayer")
     end)
 
-
     self.btn_phone_small:onClick(function()
         self.Panel_ai_chat:setVisible(false)
         if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or RELEASE_TEST then
@@ -1872,6 +1921,7 @@ function MainLayer:registerEvents()
     -- 福利
     self.Button_welfare:onClick(function()
             --Utils:openView("task.TaskSignInView")
+        Utils:sendHttpLog("gift")
         local callBackFunc= function( )
             if ActivityDataMgr:getIsHaveActs() then
                 Utils:openView("activity.ActivityMain")
@@ -1897,23 +1947,27 @@ function MainLayer:registerEvents()
 
     -- 活动
     self.Button_activity:onClick(function()
+        Utils:sendHttpLog("Activity")
         FunctionDataMgr:jActivity()
     end)
 
 
     self.Button_activity2:onClick(function ()
+        Utils:sendHttpLog("Activity")
         FunctionDataMgr:jActivity2()
     end)
 
     --周年庆活动
     if self.button_OneYear then
         self.button_OneYear:onClick(function ()
+            Utils:sendHttpLog("Activity")
             FunctionDataMgr:jActivity3()
         end)
     end
 
     if self.button_Caociyuan then
         self.button_Caociyuan:onClick(function ()
+            Utils:sendHttpLog("Activity")
             FunctionDataMgr:jActivity4()
         end)
     end
@@ -1928,18 +1982,26 @@ function MainLayer:registerEvents()
         Utils:openView("activity.CuteNewPlayerView")
     end)
 
+    -- 萌新手册
+    self.Button_newPlayerBook:onClick(function()
+        Utils:openView("activity.ActivityNewPlayerPopView") 
+    end)
+
     --试胆大会
     self.Button_Activity5:onClick(function()
+        Utils:sendHttpLog("Activity")
         FunctionDataMgr:jActivity5()
     end)
 
     --狂三应援
     self.Button_Activity6:onClick(function()
+        Utils:sendHttpLog("Activity")
+        --TODO CLOSE
+        -- local activityInfo = ActivityDataMgr2:getActivityInfo(nil,6)[1]
+        -- if not activityInfo then return end
+        -- FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface,unpack(activityInfo.extendData.jumpParamters or {}))
 
         FunctionDataMgr:jActivity6()
-
-        --local activityInfo = ActivityDataMgr2:getActivityInfo(nil,6)[1]
-        --FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface,unpack(activityInfo.extendData.jumpParamters or {}))
     end)
 
     --周年庆游乐园
@@ -1960,6 +2022,7 @@ function MainLayer:registerEvents()
 
     --狂三应援
     self.Button_Activity7:onClick(function()
+        Utils:sendHttpLog("Activity")
         FunctionDataMgr:jActivity7()
     end)
 
@@ -2092,6 +2155,7 @@ function MainLayer:registerEvents()
 
     --社团
     self.Button_league:onClick(function()
+        Utils:sendHttpLog("Community")
         if GlobalFuncDataMgr:isOpen(5) then 
              FunctionDataMgr:jUnion()
         else
@@ -2168,22 +2232,17 @@ function MainLayer:registerEvents()
         end
         self.Button_showUI:setVisible(not self.Panel_top:isVisible())
         self.Button_showUI:setZOrder(100)
-
-        if not self.hideTimer then
-            self.hideTimer = TFDirector:addTimer(3000,1,nil,function ( ... )
-                -- body
-                self.hideTimer = nil
-                local arr = {
-                    FadeOut:create(0.5),
-                     CallFunc:create(function ( ... )
-                         -- body
-                         self.Button_showUI:hide()
-                         self.Button_showUI:setOpacity(255)
-                     end)
-                }
-                self.Button_showUI:runAction(Sequence:create(arr))
-            end)
-        end
+        self.Button_showUI:timeOut(function ( ... )
+            local arr = {
+                FadeOut:create(0.5),
+                 CallFunc:create(function ( ... )
+                     -- body
+                     self.Button_showUI:hide()
+                     self.Button_showUI:setOpacity(255)
+                 end)
+            }
+            self.Button_showUI:runAction(Sequence:create(arr))
+        end,3000)
     end)
 
     self.Button_showUI:onClick(function ( ... )
@@ -2196,11 +2255,13 @@ function MainLayer:registerEvents()
         FunctionDataMgr:jAssistanceCode()          
     end)
     self.Button_dispatch:onClick(function()
+        Utils:sendHttpLog("Command")
         FunctionDataMgr:jDispatch()
         GameGuide:checkGuideEnd(self.guideFuncId)
     end)
 
     if self.Button_gongzhu then
+        Utils:sendHttpLog("cultivate")
         self.Button_gongzhu:onClick(function()
             FunctionDataMgr:jTask(EC_TaskPage.TRAININIG)
         end)
@@ -2450,7 +2511,10 @@ function MainLayer:widgetShow()
 end
 
 function MainLayer:onChatViewClose()
-    self.chatView.closeState = true
+    
+    if self.chatView then
+        self.chatView.closeState = true
+    end
     self:widgetShow();
     if self.elvesNpc then
         self.elvesNpc:runAction(Sequence:create({CCMoveBy:create(0.2,ccp(-600,0))}));
@@ -2460,9 +2524,19 @@ function MainLayer:onChatViewClose()
         v:runAction(Sequence:create({CCMoveBy:create(0.2,ccp(-600,0))}))
     end
     self.ui:timeOut(function()
-            self.chatView.closeState = nil
             self.chatView = nil
         end,0.3)
+end
+
+function MainLayer:onChangeSwitchList()
+	local statute = RoleSwitchDataMgr:getSwitchState()	
+	local switchList = RoleSwitchDataMgr:getSwitchList()
+	local roleInfo = RoleDataMgr:getRoleInfo(RoleDataMgr:getUseId())
+	print("轮播状态:",statute, roleInfo.dressId, switchList)
+	if statute and table.indexOf(switchList, roleInfo.dressId) == -1 then	--轮播中, 当前播放的看板如果不在轮播列表中 就切换到下一个
+		RoleSwitchDataMgr:setFirstFlag(false)
+		RoleSwitchDataMgr:setNextRole()
+	end
 end
 
 function MainLayer:onSwitchPrivate()
@@ -2474,8 +2548,8 @@ end
 
 function MainLayer:onChatViewOpen(isOpenInput,type)
     --if not FunctionDataMgr:checkFuncOpen(42) then return end
-
     if self.chatView then
+         self.chatView.closeState = nil
         return
     end
 
@@ -2494,6 +2568,7 @@ function MainLayer:onChatViewOpen(isOpenInput,type)
     end,isOpenInput,nil,nil,type) 
 
     self.chatView = ChatView
+    self.chatView.closeState = nil
 end
 
 function MainLayer:onRecvUpdateLive2D()
@@ -2589,12 +2664,8 @@ function MainLayer:updateLive2d()
 
     local offPos = dressData.offSet
 
-    if dressData and dressData.type and dressData.type == 2 then
-        if offPos and offPos.x and offPos.x ~= 0 and offPos.y and offPos.y ~= 0 then
-            self.elvesNpc:setPosition(ccp(410,-100) + ccp(offPos.x,offPos.y))
-        else
-            self.elvesNpc:setPosition(ccp(410,-100));--位置
-        end
+    if offPos and offPos.x and offPos.y then
+        self.elvesNpc:setPosition(ccp(410,-100) + ccp(offPos.x,offPos.y))
     else
         self.elvesNpc:setPosition(ccp(410,-100));--位置
     end
@@ -2919,6 +2990,13 @@ function MainLayer:onRedPointUpdateActivity()
     local isShow = ActivityDataMgr2:isShowRedPointInMainView(91)
     self.Image_activity_red91:setVisible(isShow)
 
+    if ActivityDataMgr:isActivateNewPlayerBook() and not ActivityDataMgr:isCompleteAllNewPlayerBook() then
+        local _bool = ActivityDataMgr:isNewPlayerBookRedShow() or ActivityDataMgr:getIsCanReceive(1)
+        self.Image_newPlayerBookTip:setVisible(_bool)
+        self.Button_newPlayerBook:show()
+    else
+        self.Button_newPlayerBook:hide()
+    end
 end
 
 function MainLayer:onRedPointUpdateDispatch()
@@ -3036,19 +3114,13 @@ function MainLayer:onCountDownPer(dt)
     self.label_serverTime:setString(string.format("%02d:%02d:%02d %s" , time_s_hour , time_s_min , time_s_sec, GV_UTC_TIME_STRING))
 
     if not self.feellingInfoShowTime_ then
-        TFDirector:removeTimer(timerUpdate_)
-        self.timerUpdate_ = nil
-        timerUpdate_ = nil
-        return;
+        return
     end
-
     self.feellingInfoShowTime_ = self.feellingInfoShowTime_ + 1
     if self.feellingInfoShowTime_ > 3 then
         self.Panel_feelling_info:hide()
     end
 
-
-    --屏蔽补给站礼包时间显示
     -- local giftBagEndTime = RechargeDataMgr:getLimitGiftBagTime()
     -- if giftBagEndTime > 0 and giftBagEndTime > ServerDataMgr:getServerTime() then
     --     local day, hour, min = Utils:getFuzzyDHMS(giftBagEndTime - ServerDataMgr:getServerTime(), true)
@@ -3084,7 +3156,12 @@ function MainLayer:onTouchRole(event)
 
     })
     self.Image_switch_role:runAction(CCRepeatForever:create(seqact))
-	
+
+	self.roleAnimationEffect = self.roleAnimationEffect or {}
+    for k, v in pairs(self.roleAnimationEffect) do
+        v:removeFromParent()
+        self.roleAnimationEffect[k] = nil
+    end
 	local effects = event["kanbanEffect"] or {}
 	self:refreshAnimationEffect(effects)
 	local bgEffects = event["backgroundEffect"] or {}
@@ -3142,17 +3219,13 @@ function MainLayer:onShow()
     self:onRedPointUpdatePoker()
     self:onRedPointUpdateUnion()
     self:onRedPointUpdateDispatch()
-
-    --检查过期折扣券
-    self:checkOverdueCoupon()
-
     --self.Image_noticeTip:setVisible(TaskDataMgr:getTempValue())
     --self.Image_noticeTip:setVisible(NoticeDataMgr:getNoticeCount() > 0)
     self.Image_noticeTip:setVisible(false)
     self.Image_wjTip:setVisible(not MainPlayer:getIsTouchWJ());
     self.fairyTips:setVisible(HeroDataMgr:checkRedPoint());
     if self.chatView and not self.chatView.closeState then
-        self:onChatViewClose()
+        self:resetLive2dPos()
     end
 
     local redPoin = TitleDataMgr:checkTitleRedState()
@@ -3177,8 +3250,9 @@ function MainLayer:onShow()
     -- else
     --     --self.ui:runAnimation("Action0",1)
     -- end
-    
-    self:updateLive2d()
+
+    self:initNpc()
+
     self:showLeftBtnAnim()
     self:timeOut(function()
         self:removeLockLayer()
@@ -3193,9 +3267,13 @@ function MainLayer:onShow()
     self:checkNewRecharge()
     self:checkStarEvaluate()
     self:check206TypeInfo()
+
+    self:checkfestivalInfoUIShow()
+	
     self:checkDayOpenView()
     self:checkPreview();
     self:updateGiftPacksState()
+	self:checkTrialDressOutTimePop()
     self:checkAdsShowEnable()
     self:checkRecallView()
     self:checkOneYearShare()
@@ -3277,6 +3355,7 @@ function MainLayer:onShow()
 
     self:onUpdateServerGiftRedPoint()
 
+    RoleSwitchDataMgr:setSwitchAnimateState(false)
 
     --请求回收过期物品
     local currentScene = Public:currentScene()
@@ -3292,7 +3371,15 @@ function MainLayer:onShow()
     --     self.Button_ARCamera:hide()
     -- end
     
-
+    local actId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.FLOWER_SEND)[1]
+    if actId then
+        local info = ActivityDataMgr2:getActivityInfo(actId)
+        if info then
+            --请求情人节活动数据
+            print("开始请求情人节活动")
+            TFDirector:send(c2s.ACTIVITY2_REQ_VALENTINE_DATA,{})
+        end
+    end
 end
 
 function MainLayer:onUpdateServerGiftRedPoint(  )
@@ -3369,7 +3456,6 @@ function MainLayer:updateOneYearBtns()
         --     runBtnAct(self.button_Caociyuan,self.Image_CaociyuanClip)
         -- end
 
-
         
         local threeActivity = {}
         if TFGlobalUtils:isConnectMiniServer( ) then   --如果是小语种服
@@ -3429,7 +3515,7 @@ function MainLayer:updateOneYearBtns()
 				self.Button_mail:setPosition(ccp(344,351))
 				self.Button_friend:setPosition(ccp(422,369))
 				
-				
+				self.Panel_activity:setPosition(ccp(457,448))
 			end
             self.Panel_activity:setPosition(ccp(520,460))
 		end
@@ -3514,9 +3600,6 @@ function MainLayer:checkAdsShowEnable()
     self:checkChristmasSignIn()
     self:checkChristmasBag()
     self:checkSevenSign()
-
-
-
 end
 
 function MainLayer:checkRecallView()
@@ -3733,13 +3816,25 @@ function MainLayer:checkSevenSign()
     end
 
     local actIndex = ActivityDataMgr:getActIdx(EC_ActivityType.SEVENDAY)
+    local isActivateBook = ActivityDataMgr:isActivateNewPlayerBook()
+    local isCompleteAllNewPlayerBook = ActivityDataMgr:isCompleteAllNewPlayerBook()
+    local isRedShow = ActivityDataMgr:isNewPlayerBookRedShow()
+    local _bool = false
     if actIndex ~= -1 then
         local isCanReceive = ActivityDataMgr:getIsCanReceive(actIndex)
-        if isCanReceive then
+
+        if isCanReceive and (not isActivateBook or isCompleteAllNewPlayerBook) then
             GlobalVarDataMgr:setValue(GV_FULI_SEVENSIGNIN_FLAG, true)
             Utils:openView("activity.SevenSignView")            
         end
+        _bool = isCanReceive
     end
+    
+    if (isRedShow or _bool) and isActivateBook and not isCompleteAllNewPlayerBook then
+        GlobalVarDataMgr:setValue(GV_FULI_SEVENSIGNIN_FLAG, true)
+        Utils:openView("activity.ActivityNewPlayerPopView")
+    end
+
 end
 
 function MainLayer:checkChristmasBag()
@@ -3842,6 +3937,11 @@ function MainLayer:checkPreview()
 end
 
 function MainLayer:checkDayOpenView()
+    --关闭广告页弹出功能
+    if true then
+        return
+    end
+
     if not ActivityDataMgr2:isAdActivityOpen() then
         return
     end
@@ -3890,11 +3990,73 @@ function MainLayer:startSwitchTime()
     self.Image_switch_role:runAction(CCRepeatForever:create(seqact))
 end
 
-function MainLayer:checkSwitchTime()
+function MainLayer:initNpc()
+	if self.bInitNpc == nil then
+		self.bInitNpc = true
+		local isInSwitch = RoleSwitchDataMgr:getSwitchState()
+		if not isInSwitch then
+			self:updateLive2d()
+        else
+            local nextSwitchTime = RoleSwitchDataMgr:getNextSwitchTime()
+            dump(RoleSwitchDataMgr:getNextSwitchTime())
+            if ServerDataMgr:getServerTime() >= nextSwitchTime then
+                self.Image_switch_role:stopAllActions()
+                RoleSwitchDataMgr:setFirstFlag(false)
+                RoleSwitchDataMgr:setNextRole()
+            else
+                self:updateLive2d()
+            end
+			return
+		end
+	else
+		self:updateLive2d()
+	end
+end
+--时装体验卡过期提醒
+function MainLayer:checkTrialDressOutTimePop()
+	local topLayer = AlertManager:getTopLayer()
+	if topLayer and topLayer.__cname == "TrialDressOutTimeView" then
+		return
+	end
 
+	local val = GoodsDataMgr:queueDeleteDressList()
+	if val then
+		local arr = TabDataMgr:getData("DiscreteData", 90040).data	
+		local rechargeIds = arr[val] or {}
+
+		local outtime1 = false
+		local rechargeData1 = RechargeDataMgr:getOneRechargeCfg(rechargeIds[1])
+		if rechargeData1 then
+			if ServerDataMgr:getServerTime() >= rechargeData1.endDate then
+				outtime1 = true
+			end
+		else
+			outtime1 = true
+		end
+
+		local outtime2 = false
+		local rechargeData2 = RechargeDataMgr:getOneRechargeCfg(rechargeIds[2])
+		if rechargeData2 then
+			if ServerDataMgr:getServerTime() >= rechargeData2.endDate then
+				outtime2 = true
+			end
+		else
+			outtime2 = true
+		end
+
+		if outtime1 and outtime2 then
+			GoodsDataMgr:removeAndSaveDeleteDressList(val)
+			self:checkTrialDressOutTimePop()
+			return
+		end		
+		Utils:openView("role.TrialDressOutTimeView", val, true)
+	end
+end
+
+function MainLayer:checkSwitchTime()
     local isInSwitch = RoleSwitchDataMgr:getSwitchState()
     if not isInSwitch then
-        self.Image_switch_role:stopAllActions()
+        self.Image_switch_role:stopAllActions()		
         return
     end
 
@@ -4124,31 +4286,22 @@ function MainLayer:updateWenJuanState()
 end
 
 function MainLayer:updateGiftPacksState()
+
+
     self.Button_giftpacks:show()
     self.Image_redTips:hide()
-
     local redState = false
-    -- 战令红点判断
-    if (GlobalFuncDataMgr:isOpen(7)) then
-        redState = redState or TaskDataMgr:getTrainingShopTipsState()
+   
+    local dailyAwardRedShow = TaskDataMgr:getDailyAwardRedShow()
+    local stateTraining = (GlobalFuncDataMgr:isOpen(7) and TaskDataMgr:getTrainingShopTipsState())
+    local isFundRed = (GlobalFuncDataMgr:isOpen(2) and RechargeDataMgr:isGrowFundViewShowRed())
+    local havecard = tobool(RechargeDataMgr:getMonthCardLeftTime() > 0)
+    local cansign = RechargeDataMgr:isMonthCardCanSign()
+    local canGetTask = (GlobalFuncDataMgr:isOpen(6) and SummonDataMgr:getCanGetTask())
+    local isWeekCardCanSign = (GlobalFuncDataMgr:isOpen(1) and RechargeDataMgr:getWeekCardCanSign())
+    if isFundRed or dailyAwardRedShow or stateTraining or (havecard and cansign) or isWeekCardCanSign or canGetTask then
+        redState = true
     end
-    -- 养成基金红点判断
-    if (GlobalFuncDataMgr:isOpen(2)) then
-        redState = redState or RechargeDataMgr:isGrowFundViewShowRed()
-    end
-
-    -- 月卡红点判断
-    redState = redState or (tobool(RechargeDataMgr:getMonthCardLeftTime() > 0) and RechargeDataMgr:isMonthCardCanSign())
-
-    -- 精灵契约红点判断
-    if (GlobalFuncDataMgr:isOpen(6)) then
-        redState = redState or SummonDataMgr:getCanGetTask()
-    end
-    -- 周卡红点判断
-    if (GlobalFuncDataMgr:isOpen(1)) then
-        redState = redState or RechargeDataMgr:getWeekCardCanSign() 
-    end
-
     if redState then
         self.Image_redTips:show()        
     end
@@ -4233,9 +4386,19 @@ function MainLayer:onUpdateActivitysState()
     local activityInfos = ActivityDataMgr2:getActivityInfo(nil,1001)
     self.Button_Activity1001:setVisible(#activityInfos > 0)
 
-    --showType:7 不在主界面用  --TODO 英文版凛冬活动打开入口
-    local activityInfos = ActivityDataMgr2:getActivityInfo(nil,7)
-    self.Button_Activity7:setVisible(#activityInfos > 0)
+    --showType:7 不在主界面用
+    --local activityInfos = ActivityDataMgr2:getActivityInfo(nil,7)
+    --self.Button_Activity7:setVisible(#activityInfos > 0)
+
+    if self.button_OneYear then
+        local activityInfos = ActivityDataMgr2:getActivityInfo(nil,3)
+        self.button_OneYear:setVisible(#activityInfos > 0)
+    end
+    
+    if self.button_Caociyuan then
+        local activityInfos = ActivityDataMgr2:getActivityInfo(nil,4)
+        self.button_Caociyuan:setVisible(#activityInfos > 0)
+    end
 
     if self.button_OneYear then
         local activityInfos = ActivityDataMgr2:getActivityInfo(nil,3)
@@ -4251,11 +4414,11 @@ function MainLayer:onUpdateActivitysState()
         local activityInfos = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.SERVER_GIFT)
         self.Button_serverGiftActivity:setVisible(#activityInfos > 0)
     end
-    local adPath = "ui/mainLayer/ad_btn.png"
-    if not ActivityDataMgr2:isAdActivityOpen() then
-        adPath = "ui/mainLayer/ad_btn1.png"
-    end
-    self.btn_ad:setTextureNormal(adPath)
+    -- local adPath = "ui/mainLayer/ad_btn.png"
+    -- if not ActivityDataMgr2:isAdActivityOpen() then
+    --     adPath = "ui/mainLayer/ad_btn1.png"
+    -- end
+    -- self.btn_ad:setTextureNormal(adPath)
   
     self:oneYearUIDeal()
 end
@@ -4429,7 +4592,7 @@ function MainLayer:onRecyclingItems(data)
 end
 
 function MainLayer:onCheckPushGift()
-    self:updatePushGiftList()
+	self:updatePushGiftList()
 	local giftData = RechargeDataMgr:getPushGift(1)
     if giftData then
         local currentScene = Public:currentScene()
@@ -4541,6 +4704,12 @@ function MainLayer:refreAiAdvice()
     self.Image_aiAdvice_tips:setVisible(_data.channel)
 end
 
+function MainLayer:onDressDelete(oldItem, Item, operateCode)
+	if operateCode == EC_SChangeType.DELETE and AlertManager:getLayerNum() == 0 then
+		self:checkTrialDressOutTimePop()
+	end
+end
+
 function MainLayer:removeAiAdviceTimer()
     if self.aiAdviceTimer then
         TFDirector:removeTimer(self.aiAdviceTimer)
@@ -4548,23 +4717,30 @@ function MainLayer:removeAiAdviceTimer()
     end
 end
 
---检查过期折扣券
-function MainLayer:checkOverdueCoupon( ... )
-    if GuideDataMgr:isInNewGuide() then
-        return
+function MainLayer:onWebViewUrlBack(msg)
+    local url = msg or ""
+    print("onWebViewUrlBack========================= "..url)
+    local funcID,params
+    local pStart,pEnd = string.find(url,"gofun/")
+    local pramStart,pramEnd = string.find(url,"?id=")
+    if pStart and pramStart then
+        funcID = string.sub(url,pEnd + 1,pramStart - 1)
+        params = string.sub(url,pramEnd + 1)
+    elseif pStart and not pramStart then
+        funcID = string.sub(url,pEnd + 1)
     end
-    if Utils:getIsDayChangeBySaveData( "IsJumpOverdueCoupon" ) then
-        local time_1 = self.overdueTime.thirdNotification.leftTime[1]
-        local time_2 = self.overdueTime.secondNotification.leftTime[1]
-        local goodsData = {}
-        local originItem , convertItem = GoodsDataMgr:getOverdueCouponData(self.overdueTime.itemType ,time_1 * 60 , time_2 * 60)
-        goodsData.originItem = originItem
-        goodsData.convertItem = convertItem
-        if #goodsData.originItem >0 or #goodsData.convertItem >0 then
-            Utils:openView("bag.OverduePromptView", goodsData)
-        else
-            Utils:clearDayChageSaveData( "IsJumpOverdueCoupon" )
-        end
+    if params then
+        params = tonumber(params)
+    end
+    --跳转
+    if funcID then
+        FunctionDataMgr:enterByFuncId(tonumber(funcID),params)
+    end
+end
+function MainLayer:checkfestivalInfoUIShow()
+    local _data = MainUISettingMgr:getfestivalInfo()
+    if _data then
+        Utils:openView("MainScene.ChangeMainUIPopView", _data)
     end
 end
 

@@ -142,10 +142,10 @@ end
 function FubenReadyView:refreshView()
     local levelType = self.levelCfg_.dungeonType
     self.Panel_dating:hide()
-    if levelType == EC_FBLevelType.FIGHTING or levelType == EC_FBLevelType.THEATER_FIGHTING or levelType == EC_FBLevelType.HWX then
+    if levelType == EC_FBLevelType.FIGHTING or levelType == EC_FBLevelType.THEATER_FIGHTING or levelType == EC_FBLevelType.HWX or levelType == EC_FBLevelType.DICUO_MAINFIGHT then
         self.Panel_fighting:show()
         self:updateFighting()
-    elseif levelType == EC_FBLevelType.DATING or levelType == EC_FBLevelType.THEATER_DATING or levelType == EC_FBLevelType.CITYDATING then
+    elseif levelType == EC_FBLevelType.DATING or levelType == EC_FBLevelType.THEATER_DATING or levelType == EC_FBLevelType.CITYDATING or levelType == EC_FBLevelType.DICUO_MAINDATING then
         self.Panel_dating:show()
         self:updateDating()
     end
@@ -169,6 +169,12 @@ end
 
 function FubenReadyView:playPrePlot()
     local function callback()
+        if not self.levelCfg_ then
+            if self.Panel_root then
+                self.Panel_root:show()
+            end
+            return
+        end
         KabalaTreeDataMgr:playStory(1, self.levelCfg_.preDialog,function ()
                                         EventMgr:dispatchEvent(EV_CG_END, function()
                                                                    self.Panel_root:show()
@@ -253,7 +259,8 @@ function FubenReadyView:updateFighting()
     if cost then
         local costItemCfg = GoodsDataMgr:getItemCfg(cost[1])
         self.Image_costIcon:setTexture(costItemCfg.icon)
-        self.Label_costNum:setText(cost[2])
+        local challengeCount = math.max(1, self.challengeCount_)
+        self.Label_costNum:setText(cost[2] * challengeCount)
         self.Button_cost:show()
         self.Button_select:setVisible(#self.levelCfg_.quickBattleParameter > 0)
         if self.Button_select:isVisible() then
@@ -268,7 +275,7 @@ function FubenReadyView:updateFighting()
     local fbType = self.chapterCfg_.type
     local isFirstPass = false
     if fbType == EC_FBType.PLOT or fbType == EC_FBType.THEATER or fbType == EC_FBType.THEATER_HARD  or fbType == EC_FBType.LINKAGE
-        or fbType == EC_FBType.HWX_FUBEN then
+        or fbType == EC_FBType.HWX_FUBEN or fbType == EC_FBType.DICUO_FUBEN then
         local name = FubenDataMgr:getLevelName(self.levelCid_)
         self.Label_name:setText(name)
         local isRandomDrop = FubenDataMgr:isPassPlotLevel(self.levelCid_)
@@ -288,7 +295,8 @@ function FubenReadyView:updateFighting()
             self.Label_earnings_mode:setTextById(350001)
             local costCfg = GoodsDataMgr:getItemCfg(self.earningsCostCid_)
             self.Image_earnings_costIcon:setTexture(costCfg.icon)
-            self.Label_earnings_costCount:setTextById(800005, self.earningsCostNum_, GoodsDataMgr:getItemCount(self.earningsCostCid_))
+            local challengeCount = math.max(1, self.challengeCount_)
+            self.Label_earnings_costCount:setTextById(800005, self.earningsCostNum_ * challengeCount, GoodsDataMgr:getItemCount(self.earningsCostCid_))
             self.Image_earnings_costIcon:onClick(function()
                     Utils:showInfo(self.earningsCostCid_)
             end)
@@ -534,14 +542,17 @@ function FubenReadyView:updateEarningState(isSelect)
         if GoodsDataMgr:currencyIsEnough(self.earningsCostCid_, costNum) then
             self.Panel_buffer:show()
             self.Image_earnings_multiple:show()
+            self.CheckBox_earnings:setSelectedState(true)
         else
             Utils:showTips(350002)
             self.CheckBox_earnings:setSelectedState(false)
         end
     else
+        self.CheckBox_earnings:setSelectedState(false)
         self.Image_earnings_multiple:hide()
         self.Panel_buffer:hide()
     end
+    self:refreshView()
 end
 
 function FubenReadyView:onChallengeCountUpdateEvent(count)

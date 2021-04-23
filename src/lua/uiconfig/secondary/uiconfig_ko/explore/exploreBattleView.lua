@@ -478,7 +478,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "16",
+											height = "15",
 											ignoreSize = "True",
 											name = "Label_hp1",
 											nTextAlign = "1",
@@ -495,7 +495,7 @@ local t =
 												PositionX = -90,
 												PositionY = -6,
 											},
-											width = "90",
+											width = "103",
 											ZOrder = "1",
 										},
 									},
@@ -619,7 +619,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "16",
+											height = "15",
 											ignoreSize = "True",
 											name = "Label_hp2",
 											nTextAlign = "1",
@@ -636,7 +636,7 @@ local t =
 												PositionX = 90,
 												PositionY = -6,
 											},
-											width = "92",
+											width = "103",
 											ZOrder = "1",
 										},
 									},
@@ -694,7 +694,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "22",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_round",
 											nTextAlign = "1",
@@ -710,7 +710,7 @@ local t =
 											{
 												PositionY = -15,
 											},
-											width = "112",
+											width = "87",
 											ZOrder = "1",
 										},
 									},
@@ -912,7 +912,7 @@ local t =
 									{
 										relativeToName = "Panel",
 									},
-									width = "53",
+									width = "46",
 									ZOrder = "1",
 								},
 								{
@@ -1024,7 +1024,7 @@ local t =
 									{
 										relativeToName = "Panel",
 									},
-									width = "53",
+									width = "46",
 									ZOrder = "1",
 								},
 								{
@@ -1135,7 +1135,7 @@ local t =
 									{
 										relativeToName = "Panel",
 									},
-									width = "44",
+									width = "39",
 									ZOrder = "1",
 								},
 								{
@@ -1173,7 +1173,6 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "0",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1258,14 +1257,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "战斗速度百分比加成",
+									text = "전투 속도 퍼센티지 보너스",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = 13,
 									},
-									width = "147",
+									width = "180",
 									ZOrder = "1",
 								},
 								{
@@ -1311,7 +1310,7 @@ local t =
 										PositionX = 218,
 										PositionY = 13,
 									},
-									width = "55",
+									width = "62",
 									ZOrder = "1",
 								},
 							},

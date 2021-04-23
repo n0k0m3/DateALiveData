@@ -1,0 +1,223 @@
+
+snowFes_memory_s.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_000
+  rotate: false
+  xy: 767, 414
+  size: 119, 119
+  orig: 202, 174
+  offset: 43, 25
+  index: -1
+images/lizi/lizi_000
+  rotate: false
+  xy: 614, 533
+  size: 151, 166
+  orig: 202, 174
+  offset: 23, 5
+  index: -1
+images/lizi/lizi_001
+  rotate: false
+  xy: 767, 535
+  size: 153, 165
+  orig: 202, 174
+  offset: 23, 5
+  index: -1
+images/lizi/lizi_002
+  rotate: true
+  xy: 496, 701
+  size: 157, 164
+  orig: 202, 174
+  offset: 19, 6
+  index: -1
+images/lizi/lizi_003
+  rotate: false
+  xy: 169, 696
+  size: 159, 163
+  orig: 202, 174
+  offset: 19, 6
+  index: -1
+images/lizi/lizi_004
+  rotate: false
+  xy: 2, 696
+  size: 165, 163
+  orig: 202, 174
+  offset: 16, 6
+  index: -1
+images/lizi/lizi_005
+  rotate: false
+  xy: 2, 861
+  size: 168, 161
+  orig: 202, 174
+  offset: 16, 7
+  index: -1
+images/lizi/lizi_006
+  rotate: false
+  xy: 172, 862
+  size: 168, 160
+  orig: 202, 174
+  offset: 16, 7
+  index: -1
+images/lizi/lizi_007
+  rotate: true
+  xy: 2, 525
+  size: 169, 159
+  orig: 202, 174
+  offset: 15, 7
+  index: -1
+images/lizi/lizi_008
+  rotate: true
+  xy: 2, 353
+  size: 170, 153
+  orig: 202, 174
+  offset: 14, 11
+  index: -1
+images/lizi/lizi_009
+  rotate: true
+  xy: 302, 176
+  size: 168, 150
+  orig: 202, 174
+  offset: 15, 13
+  index: -1
+images/lizi/lizi_010
+  rotate: true
+  xy: 153, 2
+  size: 169, 149
+  orig: 202, 174
+  offset: 14, 14
+  index: -1
+images/lizi/lizi_011
+  rotate: true
+  xy: 2, 178
+  size: 173, 150
+  orig: 202, 174
+  offset: 12, 13
+  index: -1
+images/lizi/lizi_012
+  rotate: true
+  xy: 157, 350
+  size: 173, 143
+  orig: 202, 174
+  offset: 14, 19
+  index: -1
+images/lizi/lizi_013
+  rotate: true
+  xy: 313, 521
+  size: 173, 145
+  orig: 202, 174
+  offset: 13, 18
+  index: -1
+images/lizi/lizi_014
+  rotate: true
+  xy: 154, 173
+  size: 175, 146
+  orig: 202, 174
+  offset: 11, 18
+  index: -1
+images/lizi/lizi_015
+  rotate: true
+  xy: 2, 2
+  size: 174, 149
+  orig: 202, 174
+  offset: 12, 16
+  index: -1
+images/lizi/lizi_016
+  rotate: true
+  xy: 302, 346
+  size: 173, 147
+  orig: 202, 174
+  offset: 13, 19
+  index: -1
+images/lizi/lizi_017
+  rotate: true
+  xy: 163, 525
+  size: 169, 148
+  orig: 202, 174
+  offset: 15, 19
+  index: -1
+images/lizi/lizi_018
+  rotate: true
+  xy: 304, 6
+  size: 168, 150
+  orig: 202, 174
+  offset: 15, 18
+  index: -1
+images/lizi/lizi_019
+  rotate: true
+  xy: 460, 531
+  size: 167, 152
+  orig: 202, 174
+  offset: 15, 16
+  index: -1
+images/lizi/lizi_020
+  rotate: true
+  xy: 451, 354
+  size: 165, 153
+  orig: 202, 174
+  offset: 15, 15
+  index: -1
+images/lizi/lizi_021
+  rotate: false
+  xy: 662, 702
+  size: 165, 156
+  orig: 202, 174
+  offset: 14, 13
+  index: -1
+images/lizi/lizi_022
+  rotate: false
+  xy: 330, 700
+  size: 164, 158
+  orig: 202, 174
+  offset: 14, 11
+  index: -1
+images/lizi/lizi_023
+  rotate: false
+  xy: 456, 28
+  size: 160, 160
+  orig: 202, 174
+  offset: 14, 9
+  index: -1
+images/lizi/lizi_024
+  rotate: false
+  xy: 454, 190
+  size: 159, 162
+  orig: 202, 174
+  offset: 14, 8
+  index: -1
+images/lizi/lizi_025
+  rotate: true
+  xy: 844, 702
+  size: 157, 163
+  orig: 202, 174
+  offset: 16, 7
+  index: -1
+images/lizi/lizi_026
+  rotate: true
+  xy: 678, 860
+  size: 162, 164
+  orig: 202, 174
+  offset: 13, 7
+  index: -1
+images/lizi/lizi_027
+  rotate: true
+  xy: 844, 861
+  size: 161, 165
+  orig: 202, 174
+  offset: 15, 6
+  index: -1
+images/lizi/lizi_028
+  rotate: true
+  xy: 342, 860
+  size: 162, 166
+  orig: 202, 174
+  offset: 13, 5
+  index: -1
+images/lizi/lizi_029
+  rotate: true
+  xy: 510, 860
+  size: 162, 166
+  orig: 202, 174
+  offset: 12, 5
+  index: -1

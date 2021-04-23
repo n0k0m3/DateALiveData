@@ -5,8 +5,8 @@ local t =
 	{
 		
 		{
-			controlID = "Panel-activityMainView6_kuangsanAssist_activity_Game",
-			UUID = "226a6866_0a0e_43aa_bbac_a53ee9b3f4a4",
+			controlID = "Panel-activityMainView6_activityStyleModel_activity_Game",
+			UUID = "6e7b095d_d7f4_48ae_9186_a43e57e59df2",
 			anchorPoint = "False",
 			anchorPointX = "0",
 			anchorPointY = "0",
@@ -46,8 +46,8 @@ local t =
 			{
 				
 				{
-					controlID = "Panel_root_Panel-activityMainView6_kuangsanAssist_activity_Game",
-					UUID = "6908e524_e116_4003_9f73_a2fce32d57c1",
+					controlID = "Panel_root_Panel-activityMainView6_activityStyleModel_activity_Game",
+					UUID = "b80949bd_4dd2_4bd7_9909_546310673736",
 					anchorPoint = "False",
 					anchorPointX = "0.5",
 					anchorPointY = "0.5",
@@ -88,8 +88,8 @@ local t =
 					{
 						
 						{
-							controlID = "Image_bg_Panel_root_Panel-activityMainView6_kuangsanAssist_activity_Game",
-							UUID = "1b12ea8d_075a_4525_b425_de990e53a812",
+							controlID = "Image_bg_Panel_root_Panel-activityMainView6_activityStyleModel_activity_Game",
+							UUID = "dbd78ca9_0c22_49ec_8af9_6c5890559fff",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
@@ -115,8 +115,8 @@ local t =
 							ZOrder = "1",
 						},
 						{
-							controlID = "Panel_activity_Panel_root_Panel-activityMainView6_kuangsanAssist_activity_Game",
-							UUID = "c2ab306c_e869_45f9_900b_7ef2fc6adc02",
+							controlID = "Panel_activity_Panel_root_Panel-activityMainView6_activityStyleModel_activity_Game",
+							UUID = "05b739ad_a96a_4c60_8393_32675702f982",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
@@ -151,8 +151,8 @@ local t =
 							ZOrder = "1",
 						},
 						{
-							controlID = "ScrollView_activity_Panel_root_Panel-activityMainView6_kuangsanAssist_activity_Game",
-							UUID = "bfb414dd_9328_4c26_88b8_47b99739d335",
+							controlID = "ScrollView_activity_Panel_root_Panel-activityMainView6_activityStyleModel_activity_Game",
+							UUID = "5f56cd08_dfd2_4d0e_b02d_2d6a908a4b32",
 							anchorPoint = "False",
 							anchorPointX = "0",
 							anchorPointY = "0.5",
@@ -191,8 +191,8 @@ local t =
 					},
 				},
 				{
-					controlID = "Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
-					UUID = "7b8cb005_dec5_48d3_a1fc_982ebb56224f",
+					controlID = "Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
+					UUID = "aa00498e_af64_4004_802a_94a1753bac72",
 					anchorPoint = "False",
 					anchorPointX = "0.5",
 					anchorPointY = "0.5",
@@ -234,11 +234,11 @@ local t =
 					{
 						
 						{
-							controlID = "Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
-							UUID = "0349901c_e8ef_4ca8_862b_f3a2824e7e92",
+							controlID = "Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
+							UUID = "544f8ea2_fc7f_4294_8fbf_fd05c34cd482",
 							anchorPoint = "False",
-							anchorPointX = "0",
-							anchorPointY = "0",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
 							backGroundScale9Enable = "False",
 							bgColorOpacity = "50",
 							bIsOpenClipping = "False",
@@ -271,8 +271,8 @@ local t =
 							{
 								
 								{
-									controlID = "ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
-									UUID = "6fd4e6a6_68c7_4185_bc07_d9cc3fbbf857",
+									controlID = "ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
+									UUID = "ec9f5630_5178_4fa7_9bb6_732afc4b8f57",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -290,8 +290,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 37,
-										PositionY = 34,
+										PositionX = -65,
+										PositionY = -1,
 									},
 									width = "78",
 									ZOrder = "1",
@@ -299,8 +299,8 @@ local t =
 									{
 										
 										{
-											controlID = "Image_item_bg_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
-											UUID = "29a2e382_f289_4580_9997_950bc1f22233",
+											controlID = "Image_item_bg_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
+											UUID = "715b69b4_7b7e_45f1_8481_0525a8e8befa",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -325,15 +325,15 @@ local t =
 											ZOrder = "-1",
 										},
 										{
-											controlID = "activityName_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
-											UUID = "51730a52_e7b6_4bac_bb3c_5db8c73c5f8f",
+											controlID = "activityName_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
+											UUID = "776218db_93a5_48e7_b0ec_f61601b46390",
 											anchorPoint = "False",
 											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFD7CBA0",
+											FontColor = "#FFFFA6A7",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -343,15 +343,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "27",
+											ignoreSize = "True",
 											name = "activityName",
 											nTextAlign = "0",
 											nTextHAlign = "0",
@@ -359,19 +359,19 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Pack Store",
+											text = "禮包商店",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 154,
+												PositionX = 142,
 											},
-											width = "93",
+											width = "91",
 											ZOrder = "1",
 										},
 										{
-											controlID = "Image_new_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
-											UUID = "16cbf43e_587e_4e12_82cc_adb647a77b31",
+											controlID = "Image_new_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
+											UUID = "01346fd7_7ded_41bb_88fd_e32790672f83",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -398,8 +398,8 @@ local t =
 									},
 								},
 								{
-									controlID = "ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
-									UUID = "15cba77b_1619_46d6_807b_c59ae36746b6",
+									controlID = "ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
+									UUID = "02fb0965_aca9_4650_b2ba_b1d37fafbcdd",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -417,18 +417,17 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 52,
-										PositionY = 33,
+										PositionX = -50,
+										PositionY = -2,
 									},
-									visible = "False",
 									width = "78",
 									ZOrder = "1",
 									components = 
 									{
 										
 										{
-											controlID = "Image_item_bg_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
-											UUID = "0be83fa1_3025_4225_93d6_665459a544d2",
+											controlID = "Image_item_bg_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
+											UUID = "171ebaf9_3272_49cf_a021_30c8ad18c762",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -453,15 +452,15 @@ local t =
 											ZOrder = "-1",
 										},
 										{
-											controlID = "activityName_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
-											UUID = "98381ecf_b38e_4ed2_9431_cc43777632fa",
+											controlID = "activityName_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
+											UUID = "5e9ac65d_cef1_4c34_bb82_9aa1d6cb30ff",
 											anchorPoint = "False",
 											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFF9D286",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -471,15 +470,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "22",
 											fontStroke = 
 											{
-												IsStroke = true,
-												StrokeColor = "#FF6A1927",
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "27",
+											ignoreSize = "True",
 											name = "activityName",
 											nTextAlign = "0",
 											nTextHAlign = "0",
@@ -487,19 +486,19 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Pack Store",
+											text = "禮包商店",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 139,
 											},
-											width = "93",
+											width = "91",
 											ZOrder = "1",
 										},
 										{
-											controlID = "Image_new_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
-											UUID = "e4c7c9e5_3796_4b0f_b93d_c35252d9d054",
+											controlID = "Image_new_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
+											UUID = "e4f17ff1_a0d0_4948_8154_6b5e88e4a43f",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -526,8 +525,8 @@ local t =
 									},
 								},
 								{
-									controlID = "Image_line_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
-									UUID = "f6a79291_8533_40cf_8ec1_a638af8e3681",
+									controlID = "Image_line_Panel_activityItem_Panel_prefab_Panel-activityMainView6_activityStyleModel_activity_Game",
+									UUID = "24fc5322_58e7_48e5_a49f_35762613f03b",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -545,7 +544,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 102,
+										PositionY = -35,
 									},
 									width = "116",
 									ZOrder = "1",

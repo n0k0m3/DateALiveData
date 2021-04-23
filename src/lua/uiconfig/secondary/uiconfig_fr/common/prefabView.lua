@@ -1816,8 +1816,7 @@ local t =
 								PositionX = -55,
 								PositionY = 30,
 							},
-							visible = "False",
-							width = "97",
+							width = "114",
 							ZOrder = "1",
 							components = 
 							{
@@ -1841,7 +1840,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "12",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1853,6 +1852,8 @@ local t =
 									name = "Label_firstPass",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1862,10 +1863,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 43,
+										PositionX = 54,
 										PositionY = 4,
 									},
-									width = "79",
+									width = "128",
 									ZOrder = "1",
 								},
 							},

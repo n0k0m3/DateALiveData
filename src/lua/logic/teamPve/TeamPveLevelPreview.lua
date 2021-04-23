@@ -21,6 +21,10 @@ function TeamPveLevelPreview:initUI(ui)
     self.super.initUI(self, ui)
     local root_panel= TFDirector:getChildByPath(ui,"Panel_root")
     self.levelPreviewPanel = TFDirector:getChildByPath(root_panel, "Panel_level_preview")
+
+    local Panel_common = self.levelPreviewPanel:getChildByName("Panel_common"):show()
+    local Panel_custom1 = self.levelPreviewPanel:getChildByName("Panel_custom1"):hide()
+
     self:handleLevelPreviewUI()
     self:refreshView()
 end

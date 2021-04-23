@@ -86,35 +86,6 @@ local t =
 					{
 						
 						{
-							controlID = "Image_editJoinLimitView_1_Panel_base_Panel-leagueSendRedPacketView_Layer1_league_Game",
-							UUID = "8b369c42_7226_4853_8d47_23267ab3bcce",
-							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
-							classname = "MEImage",
-							dstBlendFunc = "771",
-							height = "64",
-							ignoreSize = "True",
-							name = "Image_editJoinLimitView_1",
-							sizepercentx = "0",
-							sizepercenty = "0",
-							sizeType = "0",
-							srcBlendFunc = "770",
-							texturePath = "ui/league/红包发放3 拷贝.jpg",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								PositionX = 568,
-								PositionY = 320,
-								IsPercent = true,
-								PercentX = 50,
-								PercentY = 50,
-							},
-							width = "64",
-							ZOrder = "1",
-						},
-						{
 							controlID = "Image_bg_Panel_base_Panel-leagueSendRedPacketView_Layer1_league_Game",
 							UUID = "faea3a44_017a_4441_b032_9ae18e76469f",
 							anchorPoint = "False",
@@ -1131,9 +1102,37 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = 16,
+												PositionY = -1,
 											},
 											width = "21",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Image_res_icon_Button_buy_Panel_content_Panel_base_Panel-leagueSendRedPacketView_Layer1_league_Game",
+											UUID = "689d4b2c_751d_4ca6_a1df_09174a107214",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "100",
+											ignoreSize = "True",
+											name = "Image_res_icon",
+											scaleX = "0.4",
+											scaleY = "0.4",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "icon/system/005.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -30,
+											},
+											width = "100",
 											ZOrder = "1",
 										},
 									},
@@ -1153,7 +1152,6 @@ local t =
 	{
 		textures = 
 		{
-			"ui/league/红包发放3 拷贝.jpg",
 			"ui/common/pop_ui/pop_bg_01.png",
 			"ui/common/pop_ui/pop_btn_02.png",
 			"ui/league/ui_08.png",

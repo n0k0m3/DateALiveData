@@ -25,6 +25,13 @@ function ServerDataMgr:init()
             },
             {
                 id = 100003,
+                group_id = 80,
+                groupName = "韩台_dev",
+                serverGroup = "hantai_dev",
+                groupType = GLOBAL_SERVER_LIST.SERVER_KOREA_TW
+            },
+            {
+                id = 100004,
                 group_id = 65,
                 groupName = "程序自用分组_minlang",
                 serverGroup = "chengxu",
@@ -41,7 +48,7 @@ function ServerDataMgr:init()
                 groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
             },
             {
-                id = 100004,
+                id = 100005,
                 group_id = 25,
                 groupName = "程序自用分组_en",
                 serverGroup = "chengxu",
@@ -57,10 +64,26 @@ function ServerDataMgr:init()
                 },
                 groupType = GLOBAL_SERVER_LIST.SERVER_ENGLISH
             },
-
+            {
+                id = 100006,
+                group_id = 85,
+                groupName = "程序自用分组_韩台",
+                serverGroup = "chengxu",
+                list ={
+                    {
+                        serverId = 761,
+                        serverName= "hujutao",
+                    },
+                    {
+                        serverId = 760,
+                        serverName= "yuxie",
+                    },
+                },
+                groupType = GLOBAL_SERVER_LIST.SERVER_KOREA_TW
+            },
             {   
                 -- 小语种策划服
-                id = 100005,
+                id = 100007,
                 group_id = 38,
                 groupName = "策划_minlang",
                 serverGroup = "cehua",
@@ -75,7 +98,7 @@ function ServerDataMgr:init()
             },
             {
                 -- 英文策划服(暂时用小语种)
-                id = 100006,
+                id = 100008,
                 group_id = 888,
                 groupName = "策划_eng",
                 serverGroup = "cehua",
@@ -87,7 +110,7 @@ function ServerDataMgr:init()
                     },
                 },
                 groupType = GLOBAL_SERVER_LIST.SERVER_ENGLISH
-            }
+            },
         }
     else
         --TODO
@@ -121,7 +144,7 @@ function ServerDataMgr:init()
         --         groupType = GLOBAL_SERVER_LIST.SERVER_ENGLISH
         --     }
         -- }
-
+        
         self.server_ = {
             {
                 -- 英文正式服
@@ -138,10 +161,20 @@ function ServerDataMgr:init()
                 groupName = "Server II",
                 serverGroup = "xyz_server",
                 groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
+            },
+            {   
+                -- 小语种正式服
+                id = 200005,
+                group_id = 32,
+                groupName = "Server III",
+                serverGroup = "xyz_server",
+                groupType = GLOBAL_SERVER_LIST.SERVER_KOREA_TW
             }
         }
+        
     end
-    
+
+    self.gameSeverList = {}
     TFDirector:addProto(s2c.LOGIN_RESP_SERVER_TIME, self, self.onRecvServerTime)
 end
 -- [[登录服开始]]--
@@ -211,7 +244,18 @@ function ServerDataMgr:onRecvServerTime(event)
 end
 
 function ServerDataMgr:getGroupList( )
-    return self.server_
+    if GameConfig.Debug then return self.server_ end
+    local list = {}
+    for i,_serverInfo in ipairs(self.server_) do
+        if TFGlobalUtils:isGameServerOpen(_serverInfo.groupType) then
+            table.insert(list, _serverInfo)
+        end
+    end
+    table.sort(list, function( a,b )
+        -- body
+        return a.id < b.id
+    end)
+    return list
 end
 
 function ServerDataMgr:getGroupById( groupCfgId, group_id )
@@ -260,7 +304,7 @@ function ServerDataMgr:setGameServerList(serverData)
     --     return
     -- end
 
-    self.gameSeverList = serverData;
+    self.gameSeverList = serverData or {}
 end
 
 function ServerDataMgr:getGameServerList()

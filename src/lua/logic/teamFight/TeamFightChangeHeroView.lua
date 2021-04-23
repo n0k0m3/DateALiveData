@@ -112,6 +112,8 @@ function TeamFightChangeHeroView:initUI(ui)
     self.Button_info:setVisible(not self.showHeros)
     self.Label_buttom_tip:setVisible(false)
 
+    TeamFightDataMgr:Send_ChangeRoleState(EC_NetChangeState.HeroChange,1)
+
     self:updateRuleList()
 
     self:changeShowOne();
@@ -167,8 +169,6 @@ function TeamFightChangeHeroView.tableCellAtIndex(table, idx)
         cell:addChild(parentNode)
         cell.node = parentNode
         table.cells[cell] = true
-
-        local startPos = parentNode:getChildByName("Image_duty"):getPosition() + ccp(2 ,-180)
     end
     local itemNode = cell.node
     self:updateOneHead(itemNode, idx + 1)
@@ -432,6 +432,7 @@ end
 
 function TeamFightChangeHeroView:onHide()
     self.super.onHide(self)
+    TeamFightDataMgr:Send_ChangeRoleState(EC_NetChangeState.HeroChange,0)
 end
 
 function TeamFightChangeHeroView:removeUI()

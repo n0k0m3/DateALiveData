@@ -23,10 +23,10 @@ function TeamLevelPreview:initUI(ui)
     self.levelPreviewPanel = TFDirector:getChildByPath(root_panel, "Panel_level_preview")
     local Panel_common = self.levelPreviewPanel:getChildByName("Panel_common"):hide()
     local Panel_custom1 = self.levelPreviewPanel:getChildByName("Panel_custom1"):hide()
-    self.levelPreviewNodes = {}
+	self.levelPreviewNodes = {}
     if self.teamLevelStat then
     	self.Panel_use = Panel_common
-    	self:initCommonPreview()
+		self:initCommonPreview()
     else
     	self.Panel_use = Panel_custom1
     	self:initCustom1UI()

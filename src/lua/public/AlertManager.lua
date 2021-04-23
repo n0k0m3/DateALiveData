@@ -150,9 +150,6 @@ end
 
 function AlertManager:removeMainSceneLayerParamsCache(cname)
     local currentScene = Public:currentScene()
-    if currentScene.__cname ~= "MainScene" then
-        return
-    end
     for i = #MainSceneLayerParamsCache, 1, -1 do
         local data = MainSceneLayerParamsCache[i]
         if data and data.cname == cname then
@@ -321,7 +318,7 @@ function AlertManager:addLayerToQueue(layer,block,tweentype)
     end
 
     if layer.popAnim then
-        layer.block = AlertManager.BLOCK_AND_GRAY_CLOSE
+        layer.block = block or AlertManager.BLOCK_AND_GRAY_CLOSE
     else
         layer.block = block or AlertManager.BLOCK_AND_GRAY
     end
@@ -1054,8 +1051,10 @@ function AlertManager:closeAllByChangeScene()
 
     for layer in self.layerQueue:iterator() do
         local function onCompleteCallback()
-            layer:onHide()
-            layer:onClose()
+            if layer.onHide then
+                layer:onHide()
+                layer:onClose()
+            end
             if layer.blockUI then
                 layer.toScene:removeLayer(layer.blockUI);
             end

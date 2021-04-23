@@ -151,10 +151,19 @@ function HeitaoSdk.login()
 end
 
 function HeitaoSdk.loginOut()
-
-    local ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "loginOut", nil, "()V")
-    
-    return HeitaoSdk.checkResult(ok,ret)
+    if NEW_APP_VERSION then
+        local _exitCacheValue, migrationServerIdValue = TFGlobalUtils:getMigrationServerId(true)
+        if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+            local ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "loginOut", {migrationServerIdValue}, "(Ljava/lang/String;)V")
+            return HeitaoSdk.checkResult(ok,ret)
+        elseif CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
+            local ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "loginOut", {migrationServerId = migrationServerIdValue});
+            return HeitaoSdk.checkResult(ok,ret)
+        end
+    else
+        local ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "loginOut", nil, "()V")
+        return HeitaoSdk.checkResult(ok,ret)
+    end
 end
 
 function HeitaoSdk.loginExit()
@@ -761,6 +770,20 @@ function HeitaoSdk.reportClientEvent(name, jsonData)
         ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "reportClientEvent", {name, jsonData}, "(Ljava/lang/String;Ljava/lang/String;)V");
     end
     return HeitaoSdk.checkResult(ok,ret)
+end
+
+function HeitaoSdk.isTestPackage( )
+    if tonumber(TFDeviceInfo:getCurAppVersion()) >= 2.70 then return true end
+    local ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "isTestPackage", nil, "()Ljava/lang/String;")
+    if ok and tonumber(ret) > 0 then return true end
+    return false
+end
+
+function HeitaoSdk.isNewVersionApp( )
+    -- body
+    local ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "isTestPackage", nil, "()Ljava/lang/String;")
+    if ok then return true end
+    return false
 end
 
 return HeitaoSdk

@@ -1,7 +1,7 @@
 
 local t = {
     --分辨率
-    {{1024, 768},{1280, 720},{2436 , 1125},{1136, 640},{960, 640},{2048 , 1536 },{2400,1080},{1600,720}},
+    {{960, 640},{1024, 768},{1136, 640},{1280, 720},{1600,720},{2048 , 1536 },{2340,1080},{2400,1080},{2436 , 1125},{3840,1644},{2700,1200},{2800,1200}},
     --货币
     {500001,500002,500003,500004,500005,500018,500019,500020,500021,500022,500023,500024,500025},
     --经验卡
@@ -89,13 +89,18 @@ function GMView:initUI(ui)
     self.btnList:setItemsMargin(1)
     self:addFunBtn("特权")
     self:addFunBtn("个人特权")
-    self:addFunBtn("时装活动")
-    self:addFunBtn("周年庆商店")
+    self:addFunBtn("许愿树")
+    self:addFunBtn("建筑修复")
     self:addFunBtn("气球活动")
     self:addFunBtn("进入周年庆大世界")
     self:addFunBtn("新补给站")
     self:addFunBtn("模拟召唤")
     self:addFunBtn("周年庆活动")
+    self:addFunBtn("猜题2021")
+    self:addFunBtn("烟花活动")
+    self:addFunBtn("情人节活动")
+    self:addFunBtn("春节乐园商店活动")
+    self:addFunBtn("春节乐园任务")
 
     self.Panel_summon =  TFDirector:getChildByPath(self.Panel_root, "Panel_summon")
     self.TextField_PoolId = TFDirector:getChildByPath(self.Panel_summon, "TextField_PoolId")
@@ -401,18 +406,18 @@ function GMView:registerEvents()
     end)
 
     self.Button_send:onClick(function()
-            local cmd = self.TextField_cmd:getText()
-            local chatState = EC_ChatState.CHAT
-            if #cmd > 0 then
-                local args = {
-                    1,
-                    chatState,
-                    cmd
-                }
+           local cmd = self.TextField_cmd:getText()
+           local chatState = EC_ChatState.CHAT
+           if #cmd > 0 then
+               local args = {
+                   1,
+                   chatState,
+                   cmd
+               }
 
-                TFDirector:send(c2s.CHAT_CHAT,args)
-            end
-            AlertManager:close()
+               TFDirector:send(c2s.CHAT_CHAT,args)
+           end
+           AlertManager:close()
     end)
 
     for i, v in ipairs(self.Panel_unlockFB) do
@@ -508,9 +513,9 @@ function GMView:runFunTest(index)
     elseif index == 2 then
         Utils:openView("activity.twoyear.PersonInfoBase",3)
     elseif index == 3 then
-        Utils:openView("activity.twoyear.FashionStore")
+        FunctionDataMgr:jNewYearWishTree()
     elseif index == 4 then
-        Utils:openView("activity.twoyear.StorePackMainView")
+        FunctionDataMgr:jNewYearBuildRepair()
         --SimulationSummonDataMgr:reqSimulateSummonInfo()
     elseif index == 5 then
         Utils:openView("balloon.BalloonMainView")
@@ -524,6 +529,16 @@ function GMView:runFunTest(index)
         SimulationSummonDataMgr:reqSimulateSummonInfo()
     elseif index == 9 then
         FunctionDataMgr:jActivity7()
+    elseif index == 10 then
+        FunctionDataMgr:jGuessWord2021()
+    elseif index == 11 then
+        Utils:openView("activity.2021_spring.FireFactoryView", 11204)
+    elseif index == 12 then
+        Utils:openView("activity.2021_spring.ValentinesDay", 2068)
+    elseif index == 13 then
+        Utils:openView("activity.2021_spring.FireworkStoreView", 11172)
+    elseif index == 14 then
+        Utils:openView("activity.2021_spring.NewyearTaskView", 11115)
     end
 end
 

@@ -387,7 +387,7 @@ local t =
 										PositionX = -11,
 										PositionY = 13,
 									},
-									width = "59",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
@@ -433,7 +433,7 @@ local t =
 										PositionX = -11,
 										PositionY = -15,
 									},
-									width = "59",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
@@ -548,8 +548,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "21",
+									ignoreSize = "True",
 									name = "Label_chapterOrder",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -565,7 +565,7 @@ local t =
 										PositionX = 10,
 										PositionY = -2,
 									},
-									width = "82",
+									width = "94",
 									ZOrder = "1",
 								},
 								{
@@ -594,8 +594,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "23",
+									ignoreSize = "True",
 									name = "Label_chapterName",
 									nTextAlign = "1",
 									nTextHAlign = "0",
@@ -608,10 +608,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 97,
+										PositionX = 163,
 										PositionY = -1,
 									},
-									width = "186",
+									width = "54",
 									ZOrder = "1",
 								},
 							},
@@ -667,7 +667,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -689,7 +689,6 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -2,
-										PositionY = -3,
 									},
 									width = "124",
 									ZOrder = "1",
@@ -784,7 +783,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -862,7 +861,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -940,7 +939,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -993,8 +992,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -215,
-								PositionY = 220,
+								PositionX = -62,
+								PositionY = 219,
 							},
 							UItype = "Button",
 							width = "108",
@@ -1070,7 +1069,7 @@ local t =
 										PositionX = 19,
 										PositionY = -1,
 									},
-									width = "61",
+									width = "63",
 									ZOrder = "1",
 								},
 							},
@@ -1099,8 +1098,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -105,
-								PositionY = 219,
+								PositionX = 47,
+								PositionY = 218,
 							},
 							UItype = "Button",
 							width = "62",
@@ -1520,7 +1519,7 @@ local t =
 												PositionX = 16,
 												PositionY = -5,
 											},
-											width = "114",
+											width = "119",
 											ZOrder = "1",
 										},
 										{
@@ -1566,7 +1565,7 @@ local t =
 												PositionX = 23,
 												PositionY = -15,
 											},
-											width = "48",
+											width = "50",
 											ZOrder = "1",
 										},
 										{
@@ -1640,7 +1639,7 @@ local t =
 												PositionX = 20,
 												PositionY = -15,
 											},
-											width = "7",
+											width = "6",
 											ZOrder = "1",
 										},
 									},
@@ -1763,6 +1762,88 @@ local t =
 									UItype = "Button",
 									visible = "False",
 									width = "100",
+									ZOrder = "1",
+								},
+							},
+						},
+						{
+							controlID = "Button_next_Panel_root_Panel-fubenLevelView_Layer1_fuben_Game",
+							UUID = "6b65af43_cfd7_4e66_b628_fa31c655c282",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEButton",
+							ClickHighLightEnabled = "True",
+							dstBlendFunc = "771",
+							flipX = "False",
+							flipY = "False",
+							height = "58",
+							ignoreSize = "True",
+							name = "Button_next",
+							normal = "ui/common/button_big_n.png",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "True",
+							UILayoutViewModel = 
+							{
+								PositionX = -253,
+								PositionY = -276,
+								LeftPositon = 170,
+								TopPosition = -221,
+								relativeToName = "Panel",
+							},
+							UItype = "Button",
+							width = "134",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Label_fubenLevelView_1_Button_next_Panel_root_Panel-fubenLevelView_Layer1_fuben_Game",
+									UUID = "0bd88e95_dd59_4c7c_8236_993390a2afa7",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FFFFFFFF",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "22",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "25",
+									ignoreSize = "True",
+									name = "Label_fubenLevelView_1",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "前往下一章",
+									touchAble = "False",
+									touchScaleEnable = "True",
+									UILayoutViewModel = 
+									{
+										PositionY = -2,
+									},
+									width = "113",
 									ZOrder = "1",
 								},
 							},
@@ -1972,7 +2053,7 @@ local t =
 											{
 												PositionY = -36,
 											},
-											width = "28",
+											width = "31",
 											ZOrder = "1",
 										},
 									},
@@ -2173,7 +2254,7 @@ local t =
 											{
 												
 											},
-											width = "206",
+											width = "190",
 											ZOrder = "1",
 										},
 									},
@@ -4304,6 +4385,7 @@ local t =
 			"ui/fuben/box_1.png",
 			"ui/common/news_small.png",
 			"ui/fuben/box_2.png",
+			"ui/common/button_big_n.png",
 			"ui/fuben/levleDiban.png",
 			"icon/fuben/level_1.png",
 			"ui/fuben/fighting_paly.png",

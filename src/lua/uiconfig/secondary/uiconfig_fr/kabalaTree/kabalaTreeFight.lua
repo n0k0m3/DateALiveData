@@ -2193,7 +2193,7 @@ local t =
 																StrokeColor = "#FF801031",
 																StrokeSize = 1,
 															},
-															height = "25",
+															height = "13",
 															ignoreSize = "True",
 															name = "Label_effect_name",
 															nTextAlign = "1",
@@ -2210,7 +2210,7 @@ local t =
 																PositionX = -67,
 																PositionY = -5,
 															},
-															width = "51",
+															width = "26",
 															ZOrder = "1",
 														},
 														{

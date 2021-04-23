@@ -41,6 +41,8 @@ function AngelInfo:ctor(data)
 
     self.isPass = data.isPass
 
+	self.fromView = data.fromView
+
     self.isfriend = data.isfriend
     self.notAction = data.notAction
 
@@ -274,10 +276,11 @@ function AngelInfo:registerEvents()
             elseif errCode == -3 then
                 strTips = TextDataMgr:getText(450024,TextDataMgr:getText(errTips.nameId),errTips.lvl)
             end
-            toastMessage(strTips)
+            toastMessage(strTips)			
             return
         end
         AngelDataMgr:doReqUpgradeSkill(self.heroid, self.curAngleSkill.skillType, self.curAngleSkill.position, 1)
+		GameGuide:checkGuideEnd(self.guideFuncId)
     end)
     self.Button_load_skill:onClick(function()
         local state = self.Button_load_skill.state
@@ -519,6 +522,8 @@ function AngelInfo:initOneSkillItem(item, config)
         else
             self:moveSkillItemInMid(item)
         end
+
+		GameGuide:checkGuideEnd(self.guideFuncId)
     end)
 end
 
@@ -1807,6 +1812,31 @@ function AngelInfo:onShow()
     --self.curAngleSkillItem = self.mainIcons[6]
     self:moveSkillItemInMid(self.curAngleSkillItem)
     self.Panel_skill:setScale(0.6)
+
+	GameGuide:checkGuide(self)
+end
+
+--引导
+function AngelInfo:excuteGuideFunc1001(guideFuncId)
+    --local targetNode = TFDirector:getChildByPath(self.Panel_skill, "icon_22")
+
+	local targetNode = TFDirector:getChildByPath(self.ui, "Image_skill_point_bg")
+    self.guideFuncId = guideFuncId
+    GameGuide:guideTargetNode(targetNode)
+end
+
+--引导
+function AngelInfo:excuteGuideFunc70002(guideFuncId)
+    local targetNode = TFDirector:getChildByPath(self.Panel_skill, "icon_22")
+    self.guideFuncId = guideFuncId
+    GameGuide:guideTargetNode(targetNode)
+end
+
+--引导
+function AngelInfo:excuteGuideFunc70003(guideFuncId)
+    local targetNode = TFDirector:getChildByPath(self.ui, "Button_add_skill_level")
+    self.guideFuncId = guideFuncId
+    GameGuide:guideTargetNode(targetNode, ccp(0,0))
 end
 
 return AngelInfo;

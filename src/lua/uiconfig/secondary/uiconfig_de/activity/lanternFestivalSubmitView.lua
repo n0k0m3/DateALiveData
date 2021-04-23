@@ -70,8 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 510,
-						PositionY = 354,
+						PositionX = 480,
+						PositionY = 320,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -213,7 +213,7 @@ local t =
 										PositionX = -359,
 										PositionY = 177,
 									},
-									width = "257",
+									width = "258",
 									ZOrder = "1",
 								},
 								{

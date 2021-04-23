@@ -85,6 +85,7 @@ function battleController.registerEvents()
     EventMgr:addEventListener(this, EV_BATTLE_END_TRIGGER_EVENT, this.endBattle)
     EventMgr:addEventListener(this, EV_PRACTICE_SET_SKIN, this.setSkin) --木桩试穿灵装
     EventMgr:addEventListener(this, eEvent.EVENT_TRIGGER_JUMP, this.onTriggerJump) --组队副本跳转
+    EventMgr:addEventListener(this, EV_RECONECT_EVENT, handler(this.onReconnect))
     -- EventMgr:addEventListener(this, eEvent.EVENT_CHANGE_GUNGEON, this.onChangeDungeon) --组队副本跳转
 
 
@@ -456,10 +457,88 @@ function battleController.getTime()
    return statistics.time
 end
 
+function battleController.isTiming()
+    if this.isRun() then
+        if this.isLockStep() then
+            return  true
+        else
+            if this.tmTimeDelayhandle then
+                return false
+            end
+            return this.bTiming
+        end
+    end
+    return false
+end
+
+--设置时间停止开始
+function battleController.setTiming(bTime)
+    if this.isLockStep() then
+        return
+    end
+    if EventTrigger:isRunning() then
+        return
+    end
+    if bTime then
+        this.adjustSysStartTime()
+    else
+        if this.sysStartTime > this.sysTimeLimit then
+            this.sysStopTime = BattleUtils.gettime()
+        end
+    end
+    this.bTiming = bTime
+    BattleMgr.updatePauseState(not bTime)
+end
+
+function battleController.pauseOrResume(isPause)
+    if isPause then
+        if this.sysStopTime > this.sysTimeLimit then
+            return
+        end
+        if this.sysStartTime > this.sysTimeLimit then
+            this.sysStopTime = BattleUtils.gettime()
+        end
+    else
+        if this.isTiming() then
+            this.adjustSysStartTime()
+        end
+    end
+    BattleMgr.updatePauseState(isPause)
+end
+
+function battleController.adjustSysStartTime()
+    if this.sysStartTime < this.sysTimeLimit then
+        return
+    end
+    if this.sysStopTime > this.sysTimeLimit then
+        this.sysStartTime = this.sysStartTime + (BattleUtils.gettime() - this.sysStopTime)
+        this.sysStopTime = 0
+    end
+end
+
+function battleController.getStopTime()
+    return this.sysStopTime
+end
+
+--真实操作时间（暂停 剧情中断时间除外）
+function battleController.getControlPassTime()
+    if this.sysStartTime < this.sysTimeLimit then
+        return 0
+    end
+    if this.sysEndBattleTime > 0 then
+        return this.sysEndBattleTime - this.sysStartTime
+    end
+    local time = 0
+    if this.sysStopTime > this.sysTimeLimit then
+        time = time + (BattleUtils.gettime() - this.sysStopTime)
+    end
+    return BattleUtils.gettime() - (this.sysStartTime + time)
+end
+
 function battleController.fixTime(time)
     if time > statistics.time then
-        statistics.time = time
-        victoryDecide.fixRemainime(statistics.time)
+        this.sysStartTime = BattleUtils.gettime() - time
+        victoryDecide.fixRemainime()
     end
 end
 
@@ -484,6 +563,10 @@ function battleController.init(data)
     this.bWin      = false
     this.bSlowMotion = false
     this.bSlowMotionTime = 0
+    this.sysTimeLimit = 1577811661 --2020年1月1日
+    this.sysStartTime = 0  --开始计时节点时间
+    this.sysStopTime = 0   --强制停止计时节点
+    this.sysEndBattleTime = 0  --战斗结束时间点
     this.captain = nil --当前正在操作的角色
     KeyStateMgr.setEnable(true)
     --关卡胜利条件
@@ -693,26 +776,6 @@ function battleController.synchronHurtValue(hero)
     end
 end
 
-
-function battleController.isTiming()
-    if this.isRun() then
-        if this.isLockStep() then
-            return  true
-        else
-            if this.tmTimeDelayhandle then
-                return false
-            end
-            return this.bTiming
-        end
-    end
-    return false
-end
-
---设置时间停止开始
-function battleController.setTiming(bTime)
-    this.bTiming = bTime
-end
-
 function battleController:getBattleData()
     return this.data
 end
@@ -877,6 +940,9 @@ function battleController.clear()
     this.bSlowMotion = false
     this.bSlowMotionTime = 0
     -- --统计相关
+    this.sysStartTime = 0
+    this.sysStopTime = 0
+    this.sysEndBattleTime = 0
     statistics.clear()
     --关卡胜利条件
     victoryDecide.clear()
@@ -1076,13 +1142,13 @@ end
 
 function battleController.showWarning(callFunc)
     if not this.levelCfg_.warningTime then
-        this.bTiming = false
+        this.setTiming(false)
         BattleUtils.playEffect(BattleConfig.BOSS_WARNING ,false,1)
         EventMgr:dispatchEvent(eEvent.EVENT_BOSS_WARNING, function ()
                 if callFunc then
                     callFunc()
                 end
-                this.bTiming = true
+                this.setTiming(true)
             end)
     else
         EventMgr:dispatchEvent(eEvent.EVENT_BOSS_WARNING)
@@ -1147,10 +1213,11 @@ function battleController.herosEnter()
                 this.tmTimeDelayhandle = BattleTimerManager:addTimer(this.levelCfg_.delayTime,1,function()
                     BattleTimerManager:removeTimer(this.tmTimeDelayhandle)
                     this.tmTimeDelayhandle = nil
+                    this.setTiming(true)
                 end,nil)
             end
             this.showCounDown(function()
-                this.bTiming = true --开始计时
+                this.setTiming(true)--开始计时
                 EventTrigger:start()
                 local levelCfg_ = BattleDataMgr:getLevelCfg()
                 if levelCfg_ and (levelCfg_.dungeonType == EC_FBLevelType.PRACTICE or levelCfg_.dungeonType == EC_FBLevelType.MUSIC_GAME) then
@@ -1250,6 +1317,7 @@ function battleController.requestFightStart(...)
     -- dump({...})
     local data = {...}
     FubenDataMgr:send_DUNGEON_FIGHT_START(...)
+    FubenDataMgr:saveCurFightParam(...)
     this.specifyMonsters = nil
 end
 
@@ -1281,19 +1349,18 @@ function battleController.requestFightingOver()
         if statistics.skillAwakeKill > 0 then
           table.insert(skillEnemy,{eSkillType.AWAKE, statistics.skillAwakeKill})
         end
-        if levelCfg.dungeonType == EC_FBLevelType.PRACTICE  then
-            AlertManager:changeScene(SceneType.MainScene)
-        elseif levelCfg.dungeonType == EC_FBLevelType.NOOBSUMMON then
-             AlertManager:changeScene(SceneType.MainScene)
-		elseif levelCfg.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
-			battleController.sendVerifyFightResult(isWin)
-			local costTime = math.floor(this.getTime())
-	
-			local total = FubenDataMgr:caculationMonsterScore(this.levelCfg_.id, costTime)			
+        if levelCfg.dungeonType == EC_FBLevelType.PRACTICE or
+                levelCfg.dungeonType == EC_FBLevelType.NOOBSUMMON or
+                levelCfg.dungeonType == EC_FBLevelType.MUSIC_GAME then
+                    EventMgr:dispatchEvent(eEvent.EVENT_QUIT_BATTLE)  --英文版新增战斗结束
+        elseif levelCfg.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
+            battleController.sendVerifyFightResult(isWin)
+            local costTime = math.floor(this.getTime())
+    
+            local total = FubenDataMgr:caculationMonsterScore(this.levelCfg_.id, costTime)          
             FubenDataMgr:send_DUNGEON_FIGHT_OVER(levelId, isWin, {total},
                                                  maxComboNum, pickUpTypeCount,
                                                  pickUpCount, killTargets, costTime, hitValue,rating,skillEnemy)
-
         else
             battleController.sendVerifyFightResult(isWin)
             local costTime = math.floor(this.getTime())
@@ -1360,10 +1427,17 @@ function battleController.enterBattle(data, ...)
     this.nStartTime = BattleUtils.gettime() --战斗开始时间
     BattleDataMgr:setServerData(data, ...)
     local data = BattleDataMgr:getBattleData()
+    if not data.heros or #data.heros < 1 then
+        return
+    end
     ResLoader.loadAllRes(data , function()
         this.init(data)
         this.changeToBattleScene()
     end)
+end
+
+function battleController.stopEnterBattle()
+    ResLoader.stopTimer()
 end
 
 --
@@ -1403,9 +1477,24 @@ function battleController.enterTeamBattle(sData, ...)
     end)
 end
 
+function battleController.popLastScence( ... )
+    -- body
+    if this.lastSceneName == "BaseOSDScene" then 
+        local OSDControl = require("lua.logic.osd.OSDControl")
+        OSDControl:enterOSD({})
+    elseif this.lastSceneName == "AmusementPackScene" then
+        WorldRoomDataMgr:enterCurRoom()       
+    else
+        AlertManager:changeScene(SceneType.MainScene)
+    end
+end
+
 
 --TODO重先进入战斗场景
 function battleController.reEnterTeamBattle(index,resTime)
+    if not this.data then
+        return
+    end
     this.isChangeDungeon = true
     --重先组织角色数据
     local node  = this.data.dungeonNodes[this.data.dungeonIndex]
@@ -1429,10 +1518,15 @@ function battleController.reEnterTeamBattle(index,resTime)
     levelParse:clean()
     AlertManager:changeScene(SceneType.TRANSITION)
     --延迟切换到战斗场景
-    local timerHandle
-    timerHandle = TFDirector:addTimer(500, 1, nil, function ()
-        TFDirector:removeTimer(timerHandle)
+    local timerHandle = TFDirector:addTimer(500, 1, nil, function ()
+        if timerHandle then
+            TFDirector:removeTimer(timerHandle)
+            timerHandle = nil
+        end
         local data = BattleDataMgr:getBattleData()
+        if not data then
+            return
+        end
         local maxComboNum = statistics.maxComboNum
         local killNum     = statistics.killNum   -- 击杀总人数
         local killBossNum = statistics.killBossNum --击杀Boss数量
@@ -1454,12 +1548,10 @@ end
 function battleController._endBattle()
     --战斗结束音效
     musicMgr.playEndOfBattle(this.bWin)
-    EventMgr:dispatchEvent(eEvent.EVENT_SHOW__STACE_CLEAR, function()
-        this.requestFightingOver()
-    end)
+    EventMgr:dispatchEvent(eEvent.EVENT_SHOW__STACE_CLEAR, function ()end)
     HeroDataMgr:changeDataToSelf()
     --向服务发送战斗结束请求
-    --this.requestFightingOver()
+    this.requestFightingOver()
 end
 
 --移除
@@ -1472,11 +1564,14 @@ end
 
 --结束战斗
 function battleController.endBattle(bWin)
-    --printError("endBattle")
     if this.isZLJH() or this.isWorldBossFour() then 
         bWin = true
     end
     if this.isClearing then return end
+    local enemys = this.getEnemyMember()
+    for i, enemy in ipairs(enemys) do
+        enemy:setAIEnable(false)
+    end
     if bWin then 
         if this.isLockStepEx() then 
             local nodeData = this.getDungeonNode()
@@ -1499,6 +1594,7 @@ function battleController.endBattle(bWin)
     victoryDecide.doRefresh()
     victoryDecide.stopReduceTimer()
     this.isClearing = true
+    this.sysEndBattleTime = BattleUtils.gettime()
     this.bWin = bWin
     KeyStateMgr.setEnable(false)
     this.stopSynchronizeTimer()
@@ -1510,6 +1606,9 @@ function battleController.endBattle(bWin)
     local count = 1
     this.removeEndBattleTimer()
     this.endBattleTimer = BattleTimerManager:addTimer(500,-1,nil,function()
+        if not this.endBattleTimer then
+            return
+        end
         if this.team:isPlayedEndAction(eCampType.Hero) or count > 4 then
             this.removeEndBattleTimer()
             this._endBattle()
@@ -1523,6 +1622,7 @@ function battleController.forceEndBattle(bWin,callFunc)
     _print("forceEndBattle")
     if this.isClearing then return end
     this.isClearing = true
+    this.sysEndBattleTime = BattleUtils.gettime()
     KeyStateMgr.setEnable(false)
     this.stopSynchronizeTimer()
     if bWin then
@@ -1541,6 +1641,12 @@ function battleController.forceEndBattle(bWin,callFunc)
         end)
     HeroDataMgr:changeDataToSelf()
     this.team:clearAllBuff()
+end
+
+function battleController:onReconnect()
+    if this.isClearing then
+        EventMgr:dispatchEvent(eEvent.EVENT_LEAVE)
+    end
 end
 
 function battleController.startTimer()
@@ -1582,10 +1688,12 @@ function battleController.update(delta)
     levelParse:update(delta)
     BattleTimerManager:update(delta*0.001)
     --道具更新
-    BattleMgr.update(delta)
     this.handlSlowMotion(delta)
     this.skillExUpdate(delta)
     if this.isTiming() then
+        if this.sysStartTime < this.sysTimeLimit then
+            this.sysStartTime = BattleUtils.gettime()
+        end
         --关卡挑战统计
         statistics.update(delta)
         --胜负判定
@@ -1593,6 +1701,7 @@ function battleController.update(delta)
         --音效触发
         musicMgr.update(delta)
     end
+    BattleMgr.update(delta)
     -- 刷怪
     brushMonster:update(delta)
     if BattleGuide:isGuideStart() then
@@ -1645,7 +1754,11 @@ function battleController.eventCheck(hero)
     --队员死亡
     if this.isLockStep() then
         if this.isTeamMemberAllDead() then 
-            this.endBattle(false)
+            if this.levelCfg_.dungeonType == EC_FBLevelType.NIANSHOU then
+                this.endBattle(victoryDecide.checkLastResult(false))
+            else
+                this.endBattle(false)
+            end
         end
     else
         --木桩副本只要有角色死亡直接结束战斗
@@ -1764,7 +1877,7 @@ function battleController.getExtBuffList(hero)
     local bufferIds = {}
     local data = BattleDataMgr:getLevelCfg()
 
-	--魔王试炼额外英雄buff
+    --魔王试炼额外英雄buff
      if data.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
 		local buff = FubenDataMgr:getMonsterBuffByHeroId(hero.data.id)
 		table.insert(bufferIds, buff)
@@ -1970,15 +2083,15 @@ function battleController.getPointBuffer(targetType)
             end
         end
     end
-	--魔王试炼
-	if data.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
-		local buffCfgList = FubenDataMgr:getMonsterTrialBuffListByLvId(data.id)
+    --魔王试炼
+    if data.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
+        local buffCfgList = FubenDataMgr:getMonsterTrialBuffListByLvId(data.id)
         for k, v in ipairs(buffCfgList) do
             if v.limitTargetType and v.limitTargetType[1] == targetType then
                 table.insert(bufferIds, v.affixId)
             end
         end
-	end
+    end
 
     --天梯
     if data.dungeonType == EC_FBLevelType.SKYLADDER then
@@ -1989,6 +2102,26 @@ function battleController.getPointBuffer(targetType)
                 table.insertTo(bufferIds, buffCfg.buffId)
             end
         end
+    end
+
+    --无尽plus
+    if data.dungeonType == EC_FBLevelType.ENDLESS_PLUSS then
+        --local endlessPlusbuff = FubenEndlessPlusDataMgr:getBuff(data.id)
+        --for k,v in ipairs(endlessPlusbuff) do
+        --    local buffCfg = TabDataMgr:getData("FloorBuff", v)
+        --    if buffCfg.limitTargetType == targetType then
+        --        table.insertTo(bufferIds, buffCfg.buffId)
+        --    end
+        --end
+
+        local buffCid = FubenEndlessPlusDataMgr:getSelectBuffCid()        
+        if buffCid then
+            local buffCfg = TabDataMgr:getData("FloorBuff", buffCid)
+            if buffCfg.limitTargetType == targetType then                
+               table.insertTo(bufferIds, buffCfg.buffId)
+            end
+        end
+
     end
 
     --海王星Buff
@@ -2289,6 +2422,9 @@ end
 
 --AI同步相关
 function battleController.checkAISyncHost()
+    if this.isZLJH() then
+        return true
+    end
     local hostPid = LockStep.getAISyncHostPid()
     return tonumber(hostPid) == MainPlayer:getPlayerId()
 end
@@ -2304,10 +2440,21 @@ end
 
 --战斗伤害统计
 function battleController.setDamageData(srcHero, hurtValue, hurtData, hurtType, buffId)
-    if not BattleConfig.DAMAGE_TEST or srcHero:getCampType() ~= eCampType.Hero then
+    if not BattleConfig.DAMAGE_TEST then
         return
     end
-    local cid = srcHero:getData().id
+    local cid
+    if srcHero:getCampType() == eCampType.Hero then
+        cid = srcHero:getData().id
+    elseif srcHero:getCampType() == eCampType.Call then
+        local host = srcHero:getHost()
+        if host and host:getCampType() == eCampType.Hero then
+            cid = host:getData().id
+        end
+    end
+    if not cid then
+        return
+    end
     this.damageData[cid] = this.damageData[cid] or {}
 
     local hurtType1 = battleController.getDamageHurtType(hurtType)

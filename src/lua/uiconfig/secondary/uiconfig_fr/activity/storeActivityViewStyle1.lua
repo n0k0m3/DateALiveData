@@ -268,7 +268,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "46",
+									height = "50",
 									ignoreSize = "True",
 									name = "Image_resource",
 									sizepercentx = "0",
@@ -282,7 +282,7 @@ local t =
 										PositionX = -457,
 										PositionY = -2,
 									},
-									width = "282",
+									width = "322",
 									ZOrder = "1",
 								},
 								{
@@ -424,7 +424,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "40",
+											height = "44",
 											ignoreSize = "True",
 											name = "Image_di",
 											sizepercentx = "0",
@@ -437,7 +437,7 @@ local t =
 											{
 												PositionX = 108,
 											},
-											width = "136",
+											width = "174",
 											ZOrder = "1",
 										},
 										{
@@ -539,7 +539,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 116,
+										PositionX = 93,
 									},
 									uipanelviewmodel = 
 									{
@@ -560,7 +560,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "40",
+											height = "44",
 											ignoreSize = "True",
 											name = "Image_di",
 											sizepercentx = "0",
@@ -573,7 +573,7 @@ local t =
 											{
 												PositionX = 107,
 											},
-											width = "136",
+											width = "174",
 											ZOrder = "1",
 										},
 										{
@@ -675,7 +675,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -55,
+										PositionX = -100,
 									},
 									uipanelviewmodel = 
 									{
@@ -696,7 +696,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "40",
+											height = "44",
 											ignoreSize = "True",
 											name = "Image_di",
 											sizepercentx = "0",
@@ -709,7 +709,7 @@ local t =
 											{
 												PositionX = 109,
 											},
-											width = "136",
+											width = "174",
 											ZOrder = "1",
 										},
 										{
@@ -878,7 +878,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "500",
+									height = "492",
 									ignoreSize = "True",
 									name = "Image_diban",
 									sizepercentx = "0",
@@ -891,7 +891,7 @@ local t =
 									{
 										
 									},
-									width = "274",
+									width = "264",
 									ZOrder = "1",
 									components = 
 									{
@@ -905,7 +905,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "26",
+											height = "2",
 											ignoreSize = "True",
 											name = "Image_Limit",
 											sizepercentx = "0",
@@ -919,7 +919,7 @@ local t =
 												PositionX = 1,
 												PositionY = -212,
 											},
-											width = "156",
+											width = "2",
 											ZOrder = "1",
 											components = 
 											{

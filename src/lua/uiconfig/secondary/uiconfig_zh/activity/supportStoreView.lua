@@ -129,8 +129,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 85,
-								PositionY = -8,
+								PositionX = 38,
+								PositionY = -3,
 							},
 							width = "994",
 							ZOrder = "1",
@@ -276,8 +276,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -395,
-								PositionY = -285,
+								PositionX = -433,
+								PositionY = -281,
 							},
 							width = "401",
 							ZOrder = "1",
@@ -398,8 +398,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 358,
-								PositionY = -279,
+								PositionX = 319,
+								PositionY = -275,
 							},
 							width = "104",
 							ZOrder = "1",
@@ -551,8 +551,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 484,
-								PositionY = -279,
+								PositionX = 445,
+								PositionY = -275,
 							},
 							UItype = "Button",
 							width = "124",

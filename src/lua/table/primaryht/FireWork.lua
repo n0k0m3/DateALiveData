@@ -1,0 +1,78 @@
+return {
+    [14] = {
+        type = 580201,
+        effect = "animation3",
+        id = 14,
+        voice = "sound/dating_sound/dating_416.mp3",
+        body = {
+            [1] = "告别单身，拥有真爱！",
+        },
+        interval_time = 3,
+        loop = 1,
+        end_time = "2021-02-20 23:59:59",
+        weight = 30,
+        tine = 6,
+        specialbody = "[\"%s燃放了脱单烟花，祝大家2020脱单成功，拥有真爱！\"]",
+        begin_time = "2021-02-05 00:00:00",
+        reward = {
+            [510155] = 1,
+        },
+    },
+    [13] = {
+        type = 580200,
+        effect = "animation",
+        id = 13,
+        voice = "sound/dating_sound/dating_284.mp3",
+        body = {
+            [1] = "新的一年要暴富暴富！",
+        },
+        interval_time = 3,
+        loop = 1,
+        end_time = "2021-02-20 23:59:59",
+        weight = 30,
+        tine = 6,
+        specialbody = "[\"%s燃放了变富烟花，祝大家贫穷散退！2020暴富暴富！\"]",
+        begin_time = "2021-02-05 00:00:00",
+        reward = {
+            [510104] = 1,
+        },
+    },
+    [15] = {
+        type = 580202,
+        effect = "animation4",
+        id = 15,
+        voice = "sound/dating_sound/dating_285.mp3",
+        body = {
+            [1] = "熬夜不秃头，健康伴随久！",
+        },
+        interval_time = 3,
+        loop = 1,
+        end_time = "2021-02-20 23:59:59",
+        weight = 30,
+        tine = 6,
+        specialbody = "[\"%s燃放了健康烟花，祝大家健康长寿，熬夜不秃头\"]",
+        begin_time = "2021-02-05 00:00:00",
+        reward = {
+            [501020] = 200,
+        },
+    },
+    [16] = {
+        type = 580203,
+        effect = "animation6",
+        id = 16,
+        voice = "sound/dating_sound/dating_286.mp3",
+        body = {
+            [1] = "吸欧气！变欧皇！老婆全都有！",
+        },
+        interval_time = 3,
+        loop = 1,
+        end_time = "2021-02-20 23:59:59",
+        weight = 30,
+        tine = 6,
+        specialbody = "[\"%s燃放了幸运烟花，祝大家欧气满满，单抽十抽全中！\"]",
+        begin_time = "2021-02-05 00:00:00",
+        reward = {
+            [501016] = 200,
+        },
+    },
+}

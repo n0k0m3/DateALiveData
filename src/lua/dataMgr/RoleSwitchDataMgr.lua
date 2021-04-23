@@ -27,6 +27,7 @@ end
 function RoleSwitchDataMgr:onLogin()
     --self:initSwitchList()
     --self:initOpenState()
+    -- self.nextSwitchTime = 0
 end
 
 function RoleSwitchDataMgr:onEnterMain()
@@ -58,7 +59,7 @@ end
 
 function RoleSwitchDataMgr:initSwitchList()
     self.firstFlag = true
-    self.nextSwitchTime = ServerDataMgr:getServerTime() + self.intervalTime
+    self.nextSwitchTime =  self.intervalTime or 0
     local rotationList,state = RoleDataMgr:getRoleSwitchData()
     self.switchList = {}
     self.allHighDress = {}
@@ -98,7 +99,7 @@ function RoleSwitchDataMgr:initAllHighDress()
 
         for k,v in ipairs(dressTab) do
             local dressCfg = self:getDressCfg(v)
-            if dressCfg and dressCfg.type == 2 and not dressCfg.notTurnPlay then
+            if dressCfg and dressCfg.type == 2 and not dressCfg.notTurnPlay and dressCfg.masterId == 0 then
                 table.insert(self.allHighDress,{roleId = roleId,dressId = v})
             end
         end
@@ -141,6 +142,10 @@ end
 
 function RoleSwitchDataMgr:addNewDress(dressId)
     if self.switchList then
+		local cfg =  GoodsDataMgr:getItemCfg(dressId)
+		if cfg and cfg.masterId ~= 0 then
+			return
+		end
         self:insertSwitchList(dressId)
     end
 end
@@ -205,6 +210,13 @@ function RoleSwitchDataMgr:removeFromSwitchList(dressId,isTemp)
         end
     end
     if not isTemp then
+		--检查是否正在使用中
+		local roleInfo = RoleDataMgr:getRoleInfo(RoleDataMgr:getUseId())
+		if roleInfo.dressId == dressId then
+			self:setFirstFlag(false)
+			self:setNextRole()
+		end
+
         self:Send_NewSwithList(self.switchList)
     else
         EventMgr:dispatchEvent(EV_UPDATE_SWITCH_LIST)
@@ -308,7 +320,7 @@ function RoleSwitchDataMgr:Send_TurnSwitchState(state)
         end
         self:setNewSwitchList()
     end
-    self:setSwitchState(state)
+    --self:setSwitchState(state)
     TFDirector:send(c2s.ROLE_REQ_SET_ROTATION_OPEN, {state})
 end
 
@@ -330,7 +342,7 @@ function RoleSwitchDataMgr:onRecvChangeSwitchState(event)
     self:setSwitchState(data.rotationState)
     if data.rotationState then
         self:setNextSwitchTime()
-        self:setNextRole()
+        --self:setNextRole()
     end
     EventMgr:dispatchEvent(EV_UPDATE_SWITCH_STATE)
 end
@@ -414,9 +426,9 @@ function RoleSwitchDataMgr:setNextRole()
     if firstFlag then
         return
     end
-
+    self:setNextSwitchTime()
     self:setBgm(nextDressId)
-    if roleId ~= useId then
+    if tonumber(roleId) ~= tonumber(useId) then
         self.switchRoleID = roleId
         self.switchDressId = nextDressId
         self:switchRole(roleId)

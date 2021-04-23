@@ -40,6 +40,18 @@ end
 function MainScene:onEnter()
 	self.super.onEnter(self)
 	TFAudio.stopMusic()
+
+    ---重开战斗
+    local flag = FubenDataMgr:getReopenFlag()
+    local param = FubenDataMgr:getCurFightParam()
+    if flag and param then
+        local battleController = require("lua.logic.battle.BattleController")
+        battleController.requestFightStart(param[1], param[2], param[3], param[4], param[5], param[6])
+        FubenDataMgr:clearCurFightParam()
+        FubenDataMgr:setReopenFlag()
+        return
+    end
+
     HeroDataMgr:changeDataToSelf()
 
     if not FubenDataMgr:enterFirstPlotLevel() then
@@ -69,6 +81,13 @@ function MainScene:onKeyBack()
             Box("真机上调用退出")
         end
     end
+end
+
+
+function MainScene:getButtomLayer(  )
+    -- body
+    if self.___mainLayer then return self.___mainLayer end
+    return self.super.getButtomLayer(self)
 end
 
 function MainScene:onExit()

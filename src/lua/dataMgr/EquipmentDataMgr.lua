@@ -20,6 +20,7 @@ function EquipmentDataMgr:ctor()
 	self.gemsData = {}  --宝石数据
 	self.chooseConditionData = {selectState = {},cids = {},isSingle = true}
 	self.equipBackUpInfos = {}
+	self.tokenBackUpInfos = {}
     self:init()
     self:initEquipAdvancedCfg()
 end
@@ -88,6 +89,11 @@ function EquipmentDataMgr:initEquipAdvancedCfg( )
             end
         end)
     end
+
+	TFDirector:addProto(s2c.EQUIPMENT_RESP_GET_NEW_EQUIP_PLANS, self, self.recvTokenBackUpInfo)
+	TFDirector:addProto(s2c.EQUIPMENT_RESP_SET_NEW_EQUIP_PLAN_NAME, self, self.recvSaveTokenBackUpName)
+	TFDirector:addProto(s2c.EQUIPMENT_RESP_USE_NEW_EQUIP_PLAN, self, self.recvUseTokenBackUpPos)
+	TFDirector:addProto(s2c.EQUIPMENT_RESP_SAVE_NEW_EQUIP_PLAN, self, self.recvSaveTokenBackUp)
 end
 
 function EquipmentDataMgr:onLogin()
@@ -231,6 +237,15 @@ function EquipmentDataMgr:chageDataToSkyLadder()
 
 end
 
+function EquipmentDataMgr:getEquipByRealId(id)
+	if self.equips[id] then
+		return self.equips[id]
+	end
+	for k,v in pairs(self.equips) do
+		return v
+	end
+end
+
 function EquipmentDataMgr:changeDataToSelf()
 	if self.myEquips then
 		self.equips = {}--self.myEquips;
@@ -313,7 +328,7 @@ function EquipmentDataMgr:getEquipLv(id)
 		return 1
 	end
 
-	return self.equips[id].level;
+	return self:getEquipByRealId(id).level;
 end
 
 function EquipmentDataMgr:getEquipStarLv(id)
@@ -322,6 +337,9 @@ function EquipmentDataMgr:getEquipStarLv(id)
 	if self:isCid(id) then
 		cid = id
 	else
+		if not self.equips[id] then
+			return starLv
+		end
 		cid = self.equips[id].cid;
 		starLv = self.equips[id].star
 	end
@@ -336,8 +354,9 @@ function EquipmentDataMgr:getEquiGrowthpStar(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
-		starLv = self.equips[id].star
+		local equip = self:getEquipByRealId(id)
+		cid = equip.cid;
+		starLv = equip.star
 	end
 
 	starLv = self.equipBase[cid].star + self:getEquipStarLevel(id)
@@ -349,7 +368,7 @@ function EquipmentDataMgr:getEquipQuality(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local quality = self.equipBase[cid].quality;
@@ -361,7 +380,7 @@ function EquipmentDataMgr:getEquipShowType(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local showType = self.equipBase[cid].showType;
@@ -374,7 +393,7 @@ function EquipmentDataMgr:getEquipName(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local nameid = self.equipBase[cid].name;
@@ -388,7 +407,19 @@ function EquipmentDataMgr:isUesing(id)
 	end
 
 	if string.find(id,"equipment") then return false end 
-	return self.equips[id].heroId ~= "0";
+	if self.equips[id] and self.equips[id].heroId then
+		return self.equips[id].heroId ~= "0";
+	end
+	return false
+end
+
+function EquipmentDataMgr:checkIsusing(heroId,cid)
+	for k,v in pairs(self.equips) do
+		if v.heroId ~= "0" and tonumber(v.heroId)== heroId and tonumber(v.cid) ==  cid then
+			return true
+		end
+	end
+	return false
 end
 
 function EquipmentDataMgr:checkIsusing(heroId,cid)
@@ -401,15 +432,15 @@ function EquipmentDataMgr:checkIsusing(heroId,cid)
 end
 
 function EquipmentDataMgr:getHeroSid(id)
-	return self.equips[id].heroId;
+	return self:getEquipByRealId(id).heroId;
 end
 
 function EquipmentDataMgr:getPosition(id)
-	return self.equips[id].position;
+	return self:getEquipByRealId(id).position;
 end
 
 function EquipmentDataMgr:getEquipNum(id)
-	return self.equips[id].num;
+	return self:getEquipByRealId(id).num;
 end
 
 function EquipmentDataMgr:getEquipCid(id)
@@ -417,7 +448,7 @@ function EquipmentDataMgr:getEquipCid(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	return cid;
@@ -437,7 +468,7 @@ function EquipmentDataMgr:getEquipMaxLv(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 		rid = id
 	end
 	if rid then
@@ -458,7 +489,7 @@ function EquipmentDataMgr:getEquipCurNeedExp(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local star   = self:getEquiGrowthpStar(id)
@@ -472,7 +503,7 @@ function EquipmentDataMgr:getEquipTotalExp(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local curexp = self:getEquipCurExp(id);
@@ -491,7 +522,7 @@ function EquipmentDataMgr:calcLevelUp(id,exp)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local curexp = self:getEquipCurExp(id);
@@ -532,7 +563,7 @@ function EquipmentDataMgr:getEquipExpPercent(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 
@@ -549,7 +580,7 @@ function EquipmentDataMgr:getEquipIcon(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local iconpath = self.equipBase[cid].icon;
@@ -612,6 +643,9 @@ function EquipmentDataMgr:getEquipStarGrow(id)
 	if self:isCid(id) then
 		cid = id
 	else
+        if not self.equips[id] then
+            return false
+        end
 		cid = self.equips[id].cid
 	end
 
@@ -624,7 +658,7 @@ function EquipmentDataMgr:getEquipStarCfg(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid
+		cid = self:getEquipByRealId(id).cid
 	end
 	return self.EquipmentStar[cid]
 end
@@ -678,7 +712,7 @@ end
 function EquipmentDataMgr:getEquipStageLevel(id)
 	local stageLevel = 0
 	if not self:isCid(id) then
-		local equip = self.equips[id]
+		local equip = self:getEquipByRealId(id)
 		stageLevel = equip.star * 2 + equip.stage + 1
 	end
 	return stageLevel
@@ -688,7 +722,7 @@ end
 function EquipmentDataMgr:getEquipStarLevel(id)
 	local starLevel = 0
 	if not self:isCid(id) then
-		local equip = self.equips[id]
+		local equip = self:getEquipByRealId(id)
 		starLevel = equip.star * 3 + equip.stage
 	end
 	return starLevel
@@ -725,7 +759,7 @@ function EquipmentDataMgr:getEquipPhotoSize(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	return self.equipBase[cid].photoSize;
@@ -736,7 +770,7 @@ function EquipmentDataMgr:getEquipBaseAtk(id,lv,useStage)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local _lv = lv or self:getEquipLv(id);
@@ -754,7 +788,7 @@ function EquipmentDataMgr:getEquipBaseHp(id,lv,useStage)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local _lv = lv or self:getEquipLv(id);
@@ -772,7 +806,7 @@ function EquipmentDataMgr:getEquipBaseDef(id,lv,useStage)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local _lv = lv or self:getEquipLv(id);
@@ -789,10 +823,8 @@ function EquipmentDataMgr:getEquipSubType(id)
 	local cid = 0;
 	if self:isCid(id) then
 		cid = id
-	elseif self.equips[id] then
-		cid = self.equips[id].cid;
 	else
-		Bugly:ReportLuaException("errorEquipId:========================="..id)
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local subType = -1
@@ -807,7 +839,7 @@ function EquipmentDataMgr:getEquipHalfPaint(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local halfPaint = self.equipBase[cid].halfPaint;
@@ -819,7 +851,7 @@ function EquipmentDataMgr:getEquipHalfPaint2(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local halfPaint = self.equipBase[cid].equipPaint;
@@ -832,7 +864,7 @@ function EquipmentDataMgr:getEquipPaint(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local paint = self.equipBase[cid].paint;
@@ -844,7 +876,7 @@ function EquipmentDataMgr:getEquipPaintPosition(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local paintPosition = self.equipBase[cid].paintPosition;
@@ -856,7 +888,7 @@ function EquipmentDataMgr:getEquipPaintScale(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local size = self.equipBase[cid].size;
@@ -868,7 +900,11 @@ function EquipmentDataMgr:getEquipCost(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		if self.equips[id] then
+			cid = self.equips[id].cid;
+		else
+			return 0
+		end
 	end
 
 	local cost = self.equipBase[cid].cost;
@@ -880,7 +916,7 @@ function EquipmentDataMgr:getEquipInherentAttrDesc(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local skillID = self.equipBase[cid].inherentAttribute;
@@ -903,7 +939,7 @@ function EquipmentDataMgr:getEquipInherentSkill(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local skillID = self.equipBase[cid].inherentAttribute;
@@ -916,7 +952,7 @@ function EquipmentDataMgr:getEquipSpecialAttrs(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local attrs = self.equips[id].attrs or {};
@@ -951,14 +987,14 @@ function EquipmentDataMgr:getIsHaveSpecialAttr(id)
 		return false
 	end
 
-	return self.equips[id].attrs ~= nil;
+	return self:getEquipByRealId(id).attrs ~= nil;
 end
 
 function EquipmentDataMgr:getEquipSpecialAttrsColors(id)
 	if self:isCid(id) then
 		return {}
 	end
-	if self.equips[id].attrs then
+	if self:getEquipByRealId(id).attrs then
 		local color = {}
 		for k,v in pairs(attrs) do
 			local level = self.EquipmentRandom[v.cid].level
@@ -982,7 +1018,7 @@ function EquipmentDataMgr:getEquipCombInfo(id, defalut)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local combination = self.equipBase[cid].combination;
@@ -1002,7 +1038,7 @@ function EquipmentDataMgr:getEquipCombSkillInfo(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local combination = self.equipBase[cid].combination;
@@ -1025,7 +1061,7 @@ function EquipmentDataMgr:getEquipSuitInfo(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 
 	local suit = self.equipBase[cid].suit;
@@ -1038,7 +1074,7 @@ function EquipmentDataMgr:getEquipSuitInfos(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self.equips[id].cid;
+		cid = self:getEquipByRealId(id).cid;
 	end
 	local suitsData = {}
 	local suit = self.equipBase[cid].suit
@@ -1744,7 +1780,7 @@ function EquipmentDataMgr:getEquipIsLock(id)
 	if self:isCid(id) then
 		return false;
 	end
-	return tobool(self.equips[id].isLock)
+	return tobool(self:getEquipByRealId(id).isLock)
 end
 
 function EquipmentDataMgr:getEquipIsLockOrUsing(id)
@@ -2399,9 +2435,11 @@ function EquipmentDataMgr:getHeroOwnTuzhiInfos(rarity)
 	        local tuzhiCfg = self:getGemCfg(v.drawingId)
 	        if num > 0 then
 	            local info = infos[condition[2]]
-	            local posNum = info.posNum[tuzhiCfg.skillType]
-	            info.num = info.num + num
-	            info.posNum[tuzhiCfg.skillType] = info.posNum[tuzhiCfg.skillType] + num
+				if info then
+					local posNum = info.posNum[tuzhiCfg.skillType]
+					info.num = info.num + num
+					info.posNum[tuzhiCfg.skillType] = info.posNum[tuzhiCfg.skillType] + num
+				end
 	        end
 	    end
     end
@@ -2427,8 +2465,10 @@ function EquipmentDataMgr:getHeroOwnGemInfos(rarity)
     	local cfg = self:getGemCfg(v.cid)
     	if cfg.rarity == rarity then
 	    	local info = infos[cfg.heroId]
-	        info.num = info.num + 1
-	        info.posNum[cfg.skillType] = info.posNum[cfg.skillType] + 1
+	    	if info then
+		        info.num = info.num + 1
+		        info.posNum[cfg.skillType] = info.posNum[cfg.skillType] + 1		    	
+		    end
 	    end
     end
     local heroInfos = {}
@@ -3176,6 +3216,52 @@ function EquipmentDataMgr:isUniversalEquip(id)
 	end
     local itemCfg = GoodsDataMgr:getItemCfg(cid)
     return (itemCfg.subType == 101)
+end
+
+-- 信物保存方案
+function EquipmentDataMgr:requestTokenPlan(heroId)
+	TFDirector:send(c2s.EQUIPMENT_REQ_GET_NEW_EQUIP_PLANS,{heroId})
+end
+
+function EquipmentDataMgr:requestTokenRename(heroId, index, name)
+	TFDirector:send(c2s.EQUIPMENT_REQ_SET_NEW_EQUIP_PLAN_NAME,{heroId, index, name})
+end
+
+function EquipmentDataMgr:requestUseToken(heroId, index)
+	TFDirector:send(c2s.EQUIPMENT_REQ_USE_NEW_EQUIP_PLAN,{heroId, index})
+end
+
+function EquipmentDataMgr:requestSavaToken(heroId, index, txtName, plans)
+	TFDirector:send(c2s.EQUIPMENT_REQ_SAVE_NEW_EQUIP_PLAN,{heroId, index, txtName, plans})
+end
+
+function EquipmentDataMgr:recvTokenBackUpInfo(event)
+	local data = event.data
+	if not data then
+		return
+	end 
+	self.tokenBackUpInfos = {}
+	for i, v in ipairs(data.plan or {}) do
+		self.tokenBackUpInfos[v.index] = v
+	end
+	EventMgr:dispatchEvent(TOKEN_BACKUP_INFO, data)
+end
+
+function EquipmentDataMgr:recvUseTokenBackUpPos(event)
+	EventMgr:dispatchEvent(TOKEN_USE_BACKUP_INFO)
+end
+
+function EquipmentDataMgr:recvSaveTokenBackUpName(event)
+	EventMgr:dispatchEvent(TOKEN_SAVE_BACKUP_NAME)
+	Utils:showTips(270454)
+end
+
+function EquipmentDataMgr:recvSaveTokenBackUp(event)
+	EventMgr:dispatchEvent(TOKEN_SAVE_BACKUP_POS)
+end
+
+function EquipmentDataMgr:getTokenBackUpInfo()
+	return self.tokenBackUpInfos
 end
 
 return EquipmentDataMgr:new();

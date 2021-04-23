@@ -178,7 +178,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "选择宝物",
+									text = "보물 선택",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -186,7 +186,7 @@ local t =
 										PositionX = -350,
 										PositionY = 181,
 									},
-									width = "116",
+									width = "110",
 									ZOrder = "1",
 								},
 								{
@@ -338,7 +338,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "23",
+													height = "22",
 													ignoreSize = "True",
 													name = "Label_fit",
 													nTextAlign = "1",
@@ -347,14 +347,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "条件不符",
+													text = "조건 부적합",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = 10,
 													},
-													width = "83",
+													width = "104",
 													ZOrder = "1",
 												},
 												{
@@ -439,7 +439,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "23",
+													height = "22",
 													ignoreSize = "True",
 													name = "Label_fit",
 													nTextAlign = "1",
@@ -448,14 +448,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "可展示",
+													text = "전시 가능",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = 10,
 													},
-													width = "63",
+													width = "85",
 													ZOrder = "1",
 												},
 												{
@@ -512,7 +512,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -521,7 +521,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "可展示",
+											text = "전시 가능",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -529,7 +529,7 @@ local t =
 												PositionX = -81,
 												PositionY = 8,
 											},
-											width = "63",
+											width = "85",
 											ZOrder = "1",
 										},
 									},
@@ -599,14 +599,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "暂未获得任何宝物",
+									text = "아직 아무런 보물을 획득하지 않았습니다",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "224",
+									width = "457",
 									ZOrder = "1",
 								},
 							},

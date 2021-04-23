@@ -162,8 +162,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -328,
-										PositionY = 225,
+										PositionX = -172,
+										PositionY = 227,
 									},
 									visible = "False",
 									width = "30",
@@ -204,16 +204,16 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Réglages",
+									text = "Settings",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -287,
-										PositionY = 219,
+										PositionX = -131,
+										PositionY = 220,
 									},
 									visible = "False",
-									width = "89",
+									width = "68",
 									ZOrder = "1",
 								},
 							},
@@ -283,7 +283,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "图鉴收藏家",
+							text = "Illustrator Collector",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -291,7 +291,7 @@ local t =
 								PositionX = 76,
 								PositionY = 542,
 							},
-							width = "153",
+							width = "312",
 							ZOrder = "1",
 						},
 						{
@@ -428,7 +428,7 @@ local t =
 											controlID = "progressTittle_TaskProgress_Panel_Right_Panel_root_Panel-collectRewardView_Layer1_collect_Game",
 											UUID = "e894f53d_1917_4594_9742_310c66ceba5e",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -459,18 +459,18 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "当前奖杯",
+											text = "Current Trophy",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -296,
+												PositionX = -341,
 												PositionY = 7,
 												LeftPositon = 22,
 												TopPosition = 654,
 												relativeToName = "Panel",
 											},
-											width = "91",
+											width = "181",
 											ZOrder = "1",
 										},
 										{
@@ -594,14 +594,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "全部领取",
+													text = "Claim all",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "83",
+													width = "72",
 													ZOrder = "1",
 												},
 											},
@@ -641,7 +641,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "奖杯数:5000",
+											text = "Number of Trophies:5000",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -649,7 +649,7 @@ local t =
 												PositionX = 221,
 												PositionY = 2,
 											},
-											width = "102",
+											width = "195",
 											ZOrder = "1",
 										},
 									},
@@ -765,14 +765,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "24",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF646464",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_collect_title",
 									nTextAlign = "1",
@@ -781,7 +781,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Collectionneur débutant",
+									text = "Rookie Collector",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -789,7 +789,7 @@ local t =
 										PositionX = 226,
 										PositionY = 495,
 									},
-									width = "235",
+									width = "211",
 									ZOrder = "1",
 								},
 								{
@@ -840,7 +840,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -973,14 +973,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "入门鉴赏家",
+											text = "Entry Connoisseur",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = -1,
 											},
-											width = "113",
+											width = "166",
 											ZOrder = "1",
 										},
 									},
@@ -1103,7 +1103,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "65",
+													height = "0",
 													ignoreSize = "False",
 													name = "desc",
 													nTextAlign = "1",
@@ -1112,14 +1112,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "奖励达到到奖励达到奖励励达到奖励达到奖励达到奖励达到",
+													text = "Reward reaching to reward reaching reward reaching reward reaching reward reaching reward reaching reward reaching",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = 65,
 													},
-													width = "200",
+													width = "233",
 													ZOrder = "1",
 												},
 												{
@@ -1148,8 +1148,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_name",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1157,14 +1157,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "道具名字道具名",
+													text = "Item name Item name",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = -167,
 													},
-													width = "157",
+													width = "188",
 													ZOrder = "1",
 												},
 												{
@@ -1233,7 +1233,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Récupérer",
+															text = "Claim",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -1241,7 +1241,7 @@ local t =
 																PositionX = 1,
 																PositionY = -2,
 															},
-															width = "121",
+															width = "77",
 															ZOrder = "1",
 														},
 													},
@@ -1322,14 +1322,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "65",
+													height = "0",
 													ignoreSize = "False",
 													name = "desc",
 													nTextAlign = "1",
@@ -1338,14 +1338,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "奖励达到到奖励达到奖励励达到奖励达到奖励达到奖励达到",
+													text = "Reward reaching to reward reaching reward reaching reward reaching reward reaching reward reaching reward reaching",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = 65,
 													},
-													width = "200",
+													width = "245",
 													ZOrder = "1",
 												},
 												{
@@ -1367,7 +1367,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -1383,14 +1383,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "道具名字道具名",
+													text = "Item name Item name",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = -167,
 													},
-													width = "130",
+													width = "188",
 													ZOrder = "1",
 												},
 												{
@@ -1412,14 +1412,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "24",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "23",
+													height = "28",
 													ignoreSize = "True",
 													name = "Label_get",
 													nTextAlign = "1",
@@ -1428,7 +1428,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Récupéré",
+													text = "Claimed",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1436,7 +1436,7 @@ local t =
 														PositionX = 264,
 														PositionY = -2,
 													},
-													width = "93",
+													width = "105",
 													ZOrder = "1",
 												},
 											},
@@ -1464,6 +1464,7 @@ local t =
 												PositionX = 346,
 												PositionY = 42,
 											},
+											visible = "False",
 											width = "689",
 											ZOrder = "1",
 											components = 
@@ -1514,14 +1515,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "65",
+													height = "0",
 													ignoreSize = "False",
 													name = "desc",
 													nTextAlign = "1",
@@ -1530,14 +1531,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "奖励达到到奖励达到奖励励达到奖励达到奖励达到奖励达到",
+													text = "Reward reaching to reward reaching reward reaching reward reaching reward reaching reward reaching reward reaching",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 65,
+														PositionX = 49,
 													},
-													width = "200",
+													width = "212",
 													ZOrder = "1",
 												},
 												{
@@ -1559,7 +1560,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -1575,14 +1576,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Nom de l'objet",
+													text = "Item Name",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = -167,
 													},
-													width = "130",
+													width = "188",
 													ZOrder = "1",
 												},
 												{
@@ -1604,14 +1605,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "24",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "18",
+													height = "28",
 													ignoreSize = "True",
 													name = "Label_unreach",
 													nTextAlign = "1",
@@ -1620,15 +1621,15 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Non atteint",
+													text = "Not Achieved",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 266,
+														PositionX = 245,
 														PositionY = -1,
 													},
-													width = "89",
+													width = "169",
 													ZOrder = "1",
 												},
 											},

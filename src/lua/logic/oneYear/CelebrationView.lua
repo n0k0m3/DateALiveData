@@ -18,7 +18,6 @@ end
 function CelebrationView:initUI(ui)
     self.super.initUI(self,ui)
 
-
     OneYearDataMgr:Send_GetLuckyList()
     TFDirector:send(c2s.YEAR_LOTTO_REQ_YEAR_LOTTO_INFO, {})
     self:refreshUI()

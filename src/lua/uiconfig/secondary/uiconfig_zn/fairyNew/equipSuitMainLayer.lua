@@ -153,7 +153,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "64",
+									height = "2",
 									ignoreSize = "True",
 									name = "Image_b2(2)",
 									sizepercentx = "0",
@@ -168,7 +168,7 @@ local t =
 										IsPercent = true,
 										PercentX = -50,
 									},
-									width = "64",
+									width = "2",
 									ZOrder = "1",
 								},
 							},
@@ -6749,7 +6749,7 @@ local t =
 											{
 												nHitType = 3,
 											},
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_qianghua",
 											normal = "ui/fairy/new_ui/new_12.png",
 											pressed = "ui/fairy/new_ui/new_12.png",
@@ -6760,11 +6760,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 287,
-												PositionY = 40,
+												PositionX = 358,
+												PositionY = 38,
 											},
 											UItype = "Button",
-											width = "134",
+											width = "110",
 											ZOrder = "1",
 											components = 
 											{
@@ -6834,7 +6834,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -40,
+														PositionX = -35,
 													},
 													width = "32",
 													ZOrder = "1",
@@ -6859,8 +6859,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 56,
-														PositionY = 23,
+														PositionX = 49,
+														PositionY = 21,
 													},
 													width = "30",
 													ZOrder = "1",
@@ -6884,7 +6884,7 @@ local t =
 											{
 												nHitType = 3,
 											},
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_wear",
 											normal = "ui/fairy/new_ui/new_12.png",
 											pressed = "ui/fairy/new_ui/new_12.png",
@@ -6895,11 +6895,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 480,
+												PositionX = 485,
 												PositionY = 40,
 											},
 											UItype = "Button",
-											width = "134",
+											width = "110",
 											ZOrder = "1",
 											components = 
 											{
@@ -6993,7 +6993,7 @@ local t =
 											{
 												nHitType = 3,
 											},
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_drop",
 											normal = "ui/fairy/new_ui/new_12.png",
 											pressed = "ui/fairy/new_ui/new_12.png",
@@ -7004,11 +7004,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 480,
-												PositionY = 40,
+												PositionX = 483,
+												PositionY = 38,
 											},
 											UItype = "Button",
-											width = "134",
+											width = "110",
 											ZOrder = "1",
 											components = 
 											{
@@ -7084,6 +7084,164 @@ local t =
 													ZOrder = "1",
 												},
 											},
+										},
+									},
+								},
+								{
+									controlID = "btn_useToken_Panel_right_Panel_base_Panel-equipSuitMainLayer_Layer1_fairyNew_Game",
+									UUID = "7966b7c8_58e8_43ec_9d25_4f4306a4a0a4",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "58",
+									ignoreSize = "False",
+									name = "btn_useToken",
+									normal = "ui/fairy/new_ui/new_12.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 106,
+										PositionY = 38,
+									},
+									UItype = "Button",
+									width = "110",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_use_suit_btn_useToken_Panel_right_Panel_base_Panel-equipSuitMainLayer_Layer1_fairyNew_Game",
+											UUID = "a98760e9_1dc9_4987_8543_4eb283cf3443",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "24",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "27",
+											ignoreSize = "True",
+											name = "Label_use_suit",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "预设",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												
+											},
+											width = "51",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "btn_saveToken_Panel_right_Panel_base_Panel-equipSuitMainLayer_Layer1_fairyNew_Game",
+									UUID = "6900e07a_7e6d_4743_9ddc_b8a15c542d4d",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "58",
+									ignoreSize = "False",
+									name = "btn_saveToken",
+									normal = "ui/fairy/new_ui/new_12.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 232,
+										PositionY = 38,
+									},
+									UItype = "Button",
+									width = "110",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_save_suit_btn_saveToken_Panel_right_Panel_base_Panel-equipSuitMainLayer_Layer1_fairyNew_Game",
+											UUID = "6df97385_76a3_4ec2_867d_12ab0f9aefc4",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "24",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "27",
+											ignoreSize = "True",
+											name = "Label_save_suit",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "保存",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												
+											},
+											width = "51",
+											ZOrder = "1",
 										},
 									},
 								},

@@ -105,7 +105,7 @@ function BalloonDealView:initUI(ui)
     self.super.initUI(self, ui)
 
     local label_title = TFDirector:getChildByPath(ui, "label_title")
-    label_title:setTextById(13317056)
+    label_title:setTextById(18000016)
 
     self.panel_item = TFDirector:getChildByPath(ui, "panel_item"):hide()
     self.btn_close = TFDirector:getChildByPath(ui, "btn_close")
@@ -126,10 +126,10 @@ function BalloonDealView:initUI(ui)
     self.txt_right_cnt = TFDirector:getChildByPath(ui, "txt_right_cnt")
 
     local txt_tip = TFDirector:getChildByPath(ui, "txt_tip")
-    txt_tip:setTextById(13317030)
+    txt_tip:setTextById(18000005)
 
     local bag_title = TFDirector:getChildByPath(ui, "bag_title")
-    bag_title:setTextById(13317053)
+    bag_title:setTextById(18000019)
 
     local scroll_bag = TFDirector:getChildByPath(ui, "scroll_bag")
     local bagItem = self.panel_item:clone()
@@ -159,8 +159,10 @@ end
 
 function BalloonDealView:updateUI()
     self:updateBagList()
-    self.txt_left_cnt:setTextById(13317028, self:getItemTotalCnt(self.leftDataList))
-    self.txt_right_cnt:setTextById(13317029, self:getItemTotalCnt(self.rightDataList))
+    self.txt_left_cnt:setTextById(13317028, "")
+    self.txt_left_cnt:getChildByName("Label_count"):setText(self:getItemTotalCnt(self.leftDataList))
+    self.txt_right_cnt:setTextById(13317029, "")
+    self.txt_right_cnt:getChildByName("Label_count"):setText(self:getItemTotalCnt(self.rightDataList))
 end
 
 function BalloonDealView:updateBagList()
@@ -192,6 +194,8 @@ function BalloonDealView:updateBagList()
             local itemNode = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
             itemNode:setScale(0.8)
             itemNode:setPosition(ccp(0, 0))
+            itemNode:getChildByName("Image_icon"):setScale(0.8)
+            itemNode:getChildByName("Image_icon"):setPositionX(5)
             item:addChild(itemNode)
             item.itemNode = itemNode
         end
@@ -235,6 +239,8 @@ function BalloonDealView:updateLeftList()
         local txt_cnt = TFDirector:getChildByPath(item, "txt_cnt")
         if not item.itemNode then
             local itemNode = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+            itemNode:getChildByName("Image_icon"):setScale(0.8)
+            itemNode:getChildByName("Image_icon"):setPositionX(5)
             itemNode:setScale(0.8)
             itemNode:setPosition(ccp(0, 0))
             item:addChild(itemNode)
@@ -247,13 +253,15 @@ function BalloonDealView:updateLeftList()
         item:setTouchEnabled(true)
         item:onClick(handler(self.onLeftItemClick, self))
     end
-    self.txt_left_cnt:setTextById(13317028, self:getItemTotalCnt(self.leftDataList))
+    self.txt_left_cnt:setTextById(13317028, "")
+    self.txt_left_cnt:getChildByName("Label_count"):setText(self:getItemTotalCnt(self.leftDataList))
 
     self:updateLeftBtn()
 end
 
 function BalloonDealView:updateLeftBtn()
-    self.img_equal:setTexture("ui/balloon/16.png")
+    --self.img_equal:setTexture("ui/balloon/16.png")
+    self.img_equal:setTexture("ui/activity/2021_spring/fireWorks/pop/008.png")
     local curNum = self:getItemTotalCnt(self.leftDataList)
     local rightCnt = self:getItemTotalCnt(self.rightDataList)
     local isCanTouch = false
@@ -277,7 +285,8 @@ function BalloonDealView:updateLeftBtn()
     end
 
     if rightCnt == curNum then
-        self.img_equal:setTexture("ui/balloon/17.png")
+        --self.img_equal:setTexture("ui/balloon/17.png")
+        self.img_equal:setTexture("ui/activity/2021_spring/fireWorks/pop/007.png")
     end
 
     self.btn_left:setGrayEnabled(not isCanTouch)
@@ -334,7 +343,8 @@ function BalloonDealView:onUpdateSelectBalloon(data)
         txt_cnt:setText("x" .. v.value)
     end
 
-    self.txt_right_cnt:setTextById(13317029, self:getItemTotalCnt(self.rightDataList))
+    self.txt_right_cnt:setTextById(13317029, "")
+    self.txt_right_cnt:getChildByName("Label_count"):setText(self:getItemTotalCnt(self.rightDataList))
 
     self.img_right_state:hide()
     if data.friendConfirm then
@@ -366,7 +376,7 @@ function BalloonDealView:onExchangeResult(data)
         Utils:showReward(rewards)
     else
         --取消交易
-        Utils:showTips(13317052)
+        Utils:showTips(18000014)
     end
     AlertManager:closeLayer(self)
 end

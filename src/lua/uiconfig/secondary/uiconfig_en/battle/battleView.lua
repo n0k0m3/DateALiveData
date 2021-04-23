@@ -1813,7 +1813,7 @@ local t =
 													backGroundScale9Enable = "False",
 													classname = "MEImage",
 													dstBlendFunc = "771",
-													height = "2",
+													height = "18",
 													ignoreSize = "True",
 													name = "Image_super_energy_bg",
 													sizepercentx = "0",
@@ -1826,7 +1826,7 @@ local t =
 													{
 														relativeToName = "Panel",
 													},
-													width = "2",
+													width = "178",
 													ZOrder = "1",
 													components = 
 													{
@@ -1841,7 +1841,7 @@ local t =
 															classname = "MELoadingBar",
 															direction = "0",
 															dstBlendFunc = "771",
-															height = "2",
+															height = "14",
 															ignoreSize = "True",
 															name = "LoadingBar_super_energy",
 															percent = "100",
@@ -1855,7 +1855,7 @@ local t =
 															{
 																PositionX = 110,
 															},
-															width = "2",
+															width = "130",
 															ZOrder = "1",
 														},
 													},

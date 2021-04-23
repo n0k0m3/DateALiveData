@@ -273,7 +273,7 @@ function MakeFoodView:initFoodMenu()
 	self:initMenu()
 	local gridId = 1
 	if self.choosedFood then
-		local foodList = MakeFoodDataMgr:getFoodlistByType(self.curMenuId)
+		local foodList = MakeFoodDataMgr:getFoodlistByType(self.curMenuId) or {}
 		for k,v in ipairs(foodList) do
 			if v.id == self.choosedFood.id then
 				gridId = k
@@ -443,7 +443,7 @@ function MakeFoodView:updateMainView()
 
 	if not self.cooking then
 		if self.haveAward then
-			self:showAwardPL()
+			self:getCookAward()
 		else
 			self.Panel_makefoodAward:setVisible(false)
 		end
@@ -1158,6 +1158,9 @@ end
 function MakeFoodView:onRecvCookFood(data)
 
 	self.endCookTime = data.endTime
+	if self.choosedFood and self.choosedFood.cooktime and self.choosedFood.cooktime > 0 then
+		self.endCookTime = ServerDataMgr:getServerTime() + self.choosedFood.cooktime
+	end
 
 	local spawn = Spawn:create({
             CCFadeOut:create(0.2),

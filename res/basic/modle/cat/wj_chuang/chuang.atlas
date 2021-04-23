@@ -1,0 +1,13 @@
+
+chuang.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chuang
+  rotate: false
+  xy: 2, 2
+  size: 203, 157
+  orig: 203, 157
+  offset: 0, 0
+  index: -1

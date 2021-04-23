@@ -42,8 +42,12 @@ end
 function requireNew(uiPath)
     local unRequireTable = {
         "lua.logic.activity.ActivityMainView",
+        "lua.logic.fuben.FubenReadyView",
         "lua.logic.fuben.FubenTheaterLevelView",
         "TFFramework.luacomponents.common.TFMultiTouchPanel",
+        "lua.logic.2020ZNQ.AmusementPackControl",
+        "lua.logic.2020ZNQ.AmusementPackActor",
+        "lua.logic.store.StoreMainView",
     }
     if me.platform == "win32" or table.find(unRequireTable,uiPath) ~= -1 then
         TFDirector:unRequire(uiPath);

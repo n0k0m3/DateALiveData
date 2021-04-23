@@ -93,7 +93,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "546",
+							height = "547",
 							ignoreSize = "True",
 							name = "bg",
 							sizepercentx = "0",
@@ -106,7 +106,7 @@ local t =
 							{
 								PositionX = -2,
 							},
-							width = "890",
+							width = "891",
 							ZOrder = "1",
 							components = 
 							{
@@ -120,7 +120,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "80",
+									height = "142",
 									ignoreSize = "True",
 									name = "Image_title",
 									sizepercentx = "0",
@@ -131,10 +131,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -43,
-										PositionY = 64,
+										PositionX = 294,
+										PositionY = 70,
 									},
-									width = "258",
+									width = "298",
 									ZOrder = "1",
 								},
 							},
@@ -148,7 +148,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF737594",
+							FontColor = "#FFA82826",
 							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
@@ -158,14 +158,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "15",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "17",
+							height = "21",
 							ignoreSize = "True",
 							name = "label_time",
 							nTextAlign = "1",
@@ -182,7 +182,7 @@ local t =
 								PositionX = -443,
 								PositionY = 256,
 							},
-							width = "62",
+							width = "73",
 							ZOrder = "1",
 						},
 						{
@@ -750,7 +750,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "200",
 									ZOrder = "1",
 									components = 
@@ -806,7 +805,6 @@ local t =
 													{
 														PositionY = -1,
 													},
-													visible = "False",
 													width = "106",
 													ZOrder = "1",
 													components = 
@@ -896,7 +894,7 @@ local t =
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
 															dstBlendFunc = "771",
-															FontColor = "#FF737594",
+															FontColor = "#FF6E8DD0",
 															fontName = "font/MFLiHei_Noncommercial.ttf",
 															fontShadow = 
 															{
@@ -906,14 +904,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "20",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
+															height = "25",
 															ignoreSize = "True",
 															name = "Label_ing_num",
 															nTextAlign = "1",
@@ -930,7 +928,7 @@ local t =
 															{
 																PositionY = 11,
 															},
-															width = "44",
+															width = "40",
 															ZOrder = "1",
 														},
 													},
@@ -1099,7 +1097,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF737594",
+							FontColor = "#FFB958A6",
 							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
@@ -1125,7 +1123,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "Deskripsi",
+							text = "描述",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -1134,6 +1132,36 @@ local t =
 								PositionY = 267,
 							},
 							width = "39",
+							ZOrder = "1",
+						},
+						{
+							controlID = "btn_help_Panel_base_Panel-christmasPreView_Layer1_activity_Game",
+							UUID = "d8ada0b4_c26c_4f8a_94c2_3d71b6700a35",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEButton",
+							ClickHighLightEnabled = "True",
+							dstBlendFunc = "771",
+							flipX = "False",
+							flipY = "False",
+							height = "48",
+							ignoreSize = "True",
+							name = "btn_help",
+							normal = "ui/activity/christmas_pre/z4.png",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "True",
+							UILayoutViewModel = 
+							{
+								PositionX = 400,
+								PositionY = -156,
+							},
+							UItype = "Button",
+							width = "53",
 							ZOrder = "1",
 						},
 					},
@@ -1160,6 +1188,7 @@ local t =
 			"ui/activity/christmas_pre/m1.png",
 			"ui/activity/christmas_pre/m2.png",
 			"ui/activity/christmas_pre/z1.png",
+			"ui/activity/christmas_pre/z4.png",
 		},
 		armatures = 
 		{

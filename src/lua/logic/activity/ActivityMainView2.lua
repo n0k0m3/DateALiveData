@@ -41,8 +41,8 @@ function addActivityItem(self)
     Panel_activityItem.ImageSelect.Image_new   = TFDirector:getChildByPath(Panel_activityItem.ImageSelect, "Image_new"):hide()
 
     Panel_activityItem.setActivityName = function (self,name)
-        self.ImageSelect.activityName:setText(Utils:MultiLanguageStringDeal(name))
-        self.ImageNormal.activityName:setText(Utils:MultiLanguageStringDeal(name))
+    self.ImageSelect.activityName:setText(Utils:MultiLanguageStringDeal(name))
+    self.ImageNormal.activityName:setText(Utils:MultiLanguageStringDeal(name))
     end
 
     Panel_activityItem.setSelect = function (self,_select)

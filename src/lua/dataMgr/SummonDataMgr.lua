@@ -308,14 +308,40 @@ function SummonDataMgr:onEnterMain()
 end
 
 function SummonDataMgr:isShowRedPointInMainView()
+    local isShow = self:isComposeRedShow()
+    if not isShow then
+        isShow = self:isSummonRedShow()
+    end
+    return isShow
+end
+
+function SummonDataMgr:isSummonRedShow()
     local isShow = false
-    for i, v in ipairs(self.summonCompose_) do
-        local isCanReceive = self:isCanReceiveComposeReward(v)
+    local summonDatas = self:getSummon()
+    for k,data in pairs(summonDatas) do
+        for i,v in ipairs(data) do
+            if v.isOpen and self:isFreeBtnById(v.id) then
+                isShow = true
+                break
+            end
+        end
+        if isShow then
+            break
+        end
+    end
+    return isShow
+end
+
+function SummonDataMgr:isComposeRedShow()
+    local isShow = false
+    for k, v in pairs(self.summonCompose_) do
+        local isCanReceive = self:isCanReceiveComposeReward(k)
         if isCanReceive then
             isShow = true
             break
         end
     end
+    return isShow
 end
 
 function SummonDataMgr:isCanReceiveComposeReward(pointType)
@@ -395,7 +421,7 @@ function SummonDataMgr:getSummon()
     end
 
     -- 热点召唤列表单独处理
-    if self.hotSpotInfo_.heroHotSummonOrder then
+    if self.hotSpotInfo_ and self.hotSpotInfo_.heroHotSummonOrder then
         local hotSummon = self:getHotSummon(EC_SummonLoopType.ROLE)
         table.insert(summon, hotSummon)
     end
@@ -640,7 +666,6 @@ function SummonDataMgr:isFreeBtnById(id)
     local _bool = false
     local isHavePrivilege, _ = RechargeDataMgr:getIsHavePrivilegeByType(105)
     local cfg = self.summonMap_[id]
-
     if isHavePrivilege and cfg then
         local lastTime = self:getFreeTimeById(id) - ServerDataMgr:getServerTime()
         -- 特殊（热点召唤角色和质点或运算）
@@ -681,19 +706,22 @@ end
 
 function SummonDataMgr:resertSummon()
     for i,data in ipairs(self.summon_) do
-        local cfg =  self:getSummonCfg(data[1].id)
-        if cfg then
-            if cfg.summonType == EC_SummonType.APPOINT_EQUIPMENT or
-                cfg.summonType == EC_SummonType.APPOINT_HERO or
-                cfg.summonType == EC_SummonType.CLOTHESE or 
-                cfg.summonType == EC_SummonType.CLOTHESE_1 or 
-                cfg.summonType == EC_SummonType.CLOTHESE_2 then
-                data[1].isOpen = self:isInShowStage(data[1].id)
-            elseif cfg.summonType == EC_SummonType.ELF_CONTRACT then
-                data[1].isOpen = false
-                if self:getSummonContractInfo().summonInfo then
-                    local remainTime = math.max(self.summonContract.summonInfo.endTime - ServerDataMgr:getServerTime())
-                    data[1].isOpen = remainTime > 0
+        for j,v in ipairs(data) do
+            local cfg =  self:getSummonCfg(v.id)
+            if cfg then
+                if cfg.summonType == EC_SummonType.APPOINT_EQUIPMENT or
+                    cfg.summonType == EC_SummonType.APPOINT_HERO or
+                    cfg.summonType == EC_SummonType.CLOTHESE or 
+                    cfg.summonType == EC_SummonType.CLOTHESE_1 or 
+                    cfg.summonType == EC_SummonType.CLOTHESE_2 or 
+                    cfg.summonType == EC_SummonType.CLOTHESE_3 then
+                    v.isOpen = self:isInShowStage(v.id)
+                elseif cfg.summonType == EC_SummonType.ELF_CONTRACT then
+                    v.isOpen = false
+                    if self:getSummonContractInfo().summonInfo then
+                        local remainTime = math.max(self.summonContract.summonInfo.endTime - ServerDataMgr:getServerTime())
+                        v.isOpen = remainTime > 0
+                    end
                 end
             end
         end
@@ -701,7 +729,19 @@ function SummonDataMgr:resertSummon()
         table.sort(data, function(a, b)
             local cfgA = self:getSummonCfg(a.id)
             local cfgB = self:getSummonCfg(b.id)
-            return cfgA.summonType < cfgB.summonType
+            local flaga = a.isOpen and 1 or 0
+            local flagb = b.isOpen and 1 or 0
+            local infoA = self.summonMap_[a.id]
+            local infoB = self.summonMap_[b.id]
+
+            if flaga == flagb then
+                if infoA.cardCount == infoB.cardCount then
+                    return cfgA.summonType < cfgB.summonType
+                else
+                    return infoA.cardCount < infoB.cardCount
+                end 
+            end   
+            return flaga > flagb
         end)
     end
 

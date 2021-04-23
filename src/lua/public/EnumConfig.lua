@@ -202,7 +202,7 @@ EC_ActivityFubenType = {
 	HALLOWEEN2019 = 415,	--万圣节活动2019
     BOSS_CHALLENGE = 422,    --BOSS挑战入口
     SNOW_FESVITAL = 430,     -- 冰雪节大作战
-    ENDLESS_PLUSS = 430,     --无尽plus
+    ENDLESS_PLUSS = 431,     --无尽plus
 }
 
 -- 活动副本
@@ -304,6 +304,7 @@ EC_FBStarRule = {
     GET_MONSTER_ITEM   = 21,    --吃到X个怪物道具
     GET_MONSTER_ITEM_COM = 22,  --连续吃到X个怪物道具
     PASS_LEVEL_NO_ITEM = 23,    --不吃道具通关
+    NOT_ASSIST     = 24,        --不使用助战
     KILL_COUNT = 31,    -- 击杀怪物数量
     SCORE = 32,    -- 积分
     SKILL_DODGE = 33 ,   --使用x次闪避技能
@@ -322,8 +323,8 @@ EC_FBStarRuleStr = {
     [EC_FBStarRule.HIT] = 300056,
     [EC_FBStarRule.FALL] = 300057,
     [EC_FBStarRule.SKILL_AWAKE] = 300058,
-[EC_FBStarRule.SKILL_ENTER_KILL] = 300059,
-[EC_FBStarRule.SKILL_AWAKE_KILL] = 300071,
+    [EC_FBStarRule.SKILL_ENTER_KILL] = 300059,
+    [EC_FBStarRule.SKILL_AWAKE_KILL] = 300071,
     [EC_FBStarRule.ASSIST] = 300060,
     [EC_FBStarRule.HERO_BATTLE] = 300061,
     [EC_FBStarRule.LIMIT_KILL] = 300062,
@@ -338,6 +339,7 @@ EC_FBStarRuleStr = {
     [EC_FBStarRule.GET_MONSTER_ITEM]  = 300071,
     [EC_FBStarRule.GET_MONSTER_ITEM_COM]  = 300072,
     [EC_FBStarRule.PASS_LEVEL_NO_ITEM]  = 300073,
+    [EC_FBStarRule.NOT_ASSIST]  = 300074,
 }
 
 -- 服务器操作类型
@@ -1518,7 +1520,8 @@ EC_OneLoginStatusType = {
     ReconFirm_PreTeam = "ReconFirm_PreTeam",                     --预设队伍提示
     ReConfirm_AssistanceGameUseScore = "ReConfirm_AssistanceGameUseScore",   ---使用尤茨分数投掷
     ReConfirm_CrazyDiamond = "ReConfirm_CrazyDiamond",   ---疯狂钻石抽取
-    ReConfirm_DafuwengRefreashCost = "ReConfirm_DafuwengRefreashCost"  --大富翁刷新二次确认消耗
+    ReConfirm_DafuwengRefreashCost = "ReConfirm_DafuwengRefreashCost",  --大富翁刷新二次确认消耗
+    ReconFirm_PreTeam = "ReconFirm_PreTeam",                     --预设队伍提示
 }
 
 EC_SKILL_TYPE = {
@@ -1765,13 +1768,6 @@ EC_ActivityType2 = {
     CROSS_SUPPORT  = 73,         -- 跨服任务活动
     PRIVILEGE_ACTIVITY_DATA = 1020,      --特权活动数据(这个活动开启，特权功能才有数据)
 	BOSS_CHALLENGE = 1022,               --BOSS挑战
-    NEWGIFT_PACK_EN = 85,       --新手礼包活动
-
-    PINTU_ACTIVITY_EN = 86,  --拼图活动英文版
-
-    LEAGUE_SCORE_ASSIT = 87 , --- 社团助力积分活动
-    LEAGUE_SCORE_RANK = 88,  -- 社团助理排行榜活动
-
     LAND_TURNTABLET = 1023,     -- 地错应援
     DICUO_LINKAGE  = 1024,         --地错联动
     MAOKA = 1025, --猫咖
@@ -1790,7 +1786,11 @@ EC_ActivityType2 = {
     GUESS_WORD = 80,             -- 2021答题活动
     SPRITE_FOR_GIFT = 81,        -- 精灵抽一送一
     FIREWORKS_PRODUCT = 84,      --烟花制作
+    NEWGIFT_PACK_EN = 85,       --新手礼包活动
     SPRING_GIFT = 86,            -- 春分赠礼
+    LEAGUE_SCORE_ASSIT = 87 , --- 社团助力积分活动
+    LEAGUE_SCORE_RANK = 88,  -- 社团助理排行榜活动
+    ACCESS_TYPE = 89,            -- 跳转路径拓展
 }
 
 EC_Activity_CHRISTMAS_Subtype = {
@@ -2476,6 +2476,7 @@ EC_SWITCH_TYPE = {
     EXCHANGE_INVITE = 1,    --是否接受气球交易开关
 	TEAM_PRIVACY = 2,		--玩家的阵容隐私开关
 }
+
 
 EC_ActivityLockType = {
     WishTreeLv = 1,         --个人特权等级

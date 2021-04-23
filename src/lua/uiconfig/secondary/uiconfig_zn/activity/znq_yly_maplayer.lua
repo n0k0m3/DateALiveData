@@ -254,7 +254,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "54",
+											height = "51",
 											ignoreSize = "True",
 											name = "Image_top2",
 											sizepercentx = "0",
@@ -267,7 +267,7 @@ local t =
 											{
 												
 											},
-											width = "62",
+											width = "59",
 											ZOrder = "-1",
 										},
 									},
@@ -317,6 +317,37 @@ local t =
 					components = 
 					{
 						
+						{
+							controlID = "Spine_ui_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+							UUID = "19c853b7_c71f_4660_9f2b_4d76f2d0ce9d",
+							classname = "MESpine",
+							dstBlendFunc = "771",
+							name = "Spine_ui",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							spineModel = 
+							{
+								SpinePath = "effect/dating/ui_superKanban_11212/main_effect_11212_qianjing",
+								animationName = "animation3",
+								IsLoop = true,
+								IsPlay = true,
+								IsUseQueue = false,
+								AnimationQueue = 
+								{
+									
+								},
+							},
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 560,
+								PositionY = 307,
+								relativeToName = "Panel",
+							},
+							ZOrder = "1",
+						},
 						{
 							controlID = "panel_roker_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
 							UUID = "c979c3b4_e1f4_47c2_a417_68da69adad23",
@@ -369,7 +400,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "219",
+									height = "223",
 									ignoreSize = "True",
 									name = "img_roker_bg",
 									sizepercentx = "0",
@@ -400,7 +431,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "79",
+											height = "70",
 											ignoreSize = "True",
 											name = "img_light",
 											opacity = "0",
@@ -414,7 +445,7 @@ local t =
 											{
 												
 											},
-											width = "79",
+											width = "70",
 											ZOrder = "1",
 										},
 										{
@@ -426,7 +457,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "79",
+											height = "70",
 											ignoreSize = "True",
 											name = "img_roker",
 											sizepercentx = "0",
@@ -439,7 +470,7 @@ local t =
 											{
 												
 											},
-											width = "79",
+											width = "70",
 											ZOrder = "1",
 										},
 									},
@@ -495,7 +526,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "54",
+									height = "51",
 									ignoreSize = "True",
 									name = "Image_top1",
 									sizepercentx = "0",
@@ -509,7 +540,7 @@ local t =
 										PositionX = -508,
 										PositionY = -35,
 									},
-									width = "62",
+									width = "59",
 									ZOrder = "1",
 								},
 								{
@@ -551,7 +582,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "54",
+									height = "51",
 									ignoreSize = "True",
 									name = "Image_top2",
 									sizepercentx = "0",
@@ -565,7 +596,7 @@ local t =
 										PositionX = -422,
 										PositionY = -35,
 									},
-									width = "62",
+									width = "59",
 									ZOrder = "1",
 								},
 								{
@@ -593,108 +624,6 @@ local t =
 									{
 										PositionX = -509,
 										PositionY = -35,
-									},
-									UItype = "Button",
-									width = "62",
-									ZOrder = "1",
-								},
-							},
-						},
-						{
-							controlID = "Panel_btn_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
-							UUID = "178713aa_0088_4d39_92bb_d641a4831e38",
-							anchorPoint = "False",
-							anchorPointX = "0",
-							anchorPointY = "0",
-							backGroundScale9Enable = "False",
-							bgColorOpacity = "50",
-							bIsOpenClipping = "False",
-							classname = "MEPanel",
-							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
-							DesignHeight = "640",
-							DesignType = "0",
-							DesignWidth = "960",
-							dstBlendFunc = "771",
-							height = "640",
-							ignoreSize = "False",
-							name = "Panel_btn",
-							sizepercentx = "0",
-							sizepercenty = "0",
-							sizeType = "0",
-							srcBlendFunc = "1",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								PositionY = 1,
-								relativeToName = "panel_ui",
-								nGravity = 6,
-								nAlign = 5
-							},
-							uipanelviewmodel = 
-							{
-								Layout="Absolute",
-								nType = "0"
-							},
-							width = "1136",
-							ZOrder = "1",
-							components = 
-							{
-								
-								{
-									controlID = "Button_chat_Panel_btn_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
-									UUID = "30a756ef_3769_4d72_831f_cf7322bf05b9",
-									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
-									classname = "MEButton",
-									ClickHighLightEnabled = "True",
-									dstBlendFunc = "771",
-									flipX = "False",
-									flipY = "False",
-									height = "70",
-									ignoreSize = "True",
-									name = "Button_chat",
-									normal = "ui/activity/znq_yly/mainUi/013.png",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "1",
-									touchAble = "True",
-									UILayoutViewModel = 
-									{
-										PositionX = 59,
-										PositionY = 285,
-									},
-									UItype = "Button",
-									width = "62",
-									ZOrder = "1",
-								},
-								{
-									controlID = "Button_emoji_Panel_btn_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
-									UUID = "173c8572_82f1_4b63_8758_21f3c4f31ccd",
-									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
-									classname = "MEButton",
-									ClickHighLightEnabled = "True",
-									dstBlendFunc = "771",
-									flipX = "False",
-									flipY = "False",
-									height = "70",
-									ignoreSize = "True",
-									name = "Button_emoji",
-									normal = "ui/activity/znq_yly/mainUi/012.png",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "1",
-									touchAble = "True",
-									UILayoutViewModel = 
-									{
-										PositionX = 1092,
-										PositionY = 269,
 									},
 									UItype = "Button",
 									width = "62",
@@ -739,6 +668,176 @@ local t =
 							ZOrder = "1",
 						},
 						{
+							controlID = "Panel_miniMap_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+							UUID = "b5776f4e_84dc_4c47_a214_09015d318d4d",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "180",
+							HitType = 
+							{
+								nHitType = 1,
+								nXpos = 0,
+								nYpos = 50,
+								nHitWidth = 229,
+								nHitHeight = 130
+							},
+							ignoreSize = "False",
+							name = "Panel_miniMap",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 907,
+								PositionY = 448,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "229",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Image_map_Panel_miniMap_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+									UUID = "2a47ab22_7c64_464f_a415_fb8cf5e9b915",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "270",
+									ignoreSize = "True",
+									name = "Image_map",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/znq_yly/mainUi/015.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 115,
+										PositionY = 61,
+									},
+									width = "215",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Panel_area_Panel_miniMap_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+									UUID = "3624f318_762a_44f3_9cf4_0bd7ec4781c7",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "105",
+									ignoreSize = "False",
+									name = "Panel_area",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 13,
+										PositionY = 69,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "204",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Image_light_Panel_area_Panel_miniMap_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+											UUID = "f555bc1c_6819_43d6_855a_16089ca8eebf",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "24",
+											ignoreSize = "True",
+											name = "Image_light",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/znq_yly/mainUi/014.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 20,
+												PositionY = 28,
+											},
+											width = "28",
+											ZOrder = "1",
+										},
+									},
+								},
+							},
+						},
+						{
+							controlID = "Button_jiemi_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+							UUID = "1bef9560_a11b_43c6_9ef1_9b0de8de36ef",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEButton",
+							ClickHighLightEnabled = "True",
+							dstBlendFunc = "771",
+							flipX = "False",
+							flipY = "False",
+							height = "90",
+							ignoreSize = "True",
+							name = "Button_jiemi",
+							normal = "ui/activity/znq_yly/mainUi/029.png",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "True",
+							UILayoutViewModel = 
+							{
+								PositionX = 1024,
+								PositionY = 459,
+							},
+							UItype = "Button",
+							width = "90",
+							ZOrder = "1",
+						},
+						{
 							controlID = "Panel_emoji_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
 							UUID = "415023f3_626d_4afa_8bd4_ff43754299c9",
 							anchorPoint = "False",
@@ -763,7 +862,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 670,
+								PositionX = 640,
 								PositionY = 183,
 								LeftPositon = 670,
 								TopPosition = 58,
@@ -780,6 +879,42 @@ local t =
 							{
 								
 								{
+									controlID = "Panel_block_Panel_emoji_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+									UUID = "6293ddbd_8abc_4431_a525_642417c98d86",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "640",
+									ignoreSize = "False",
+									name = "Panel_block",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = -89,
+										PositionY = -180,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "1386",
+									ZOrder = "1",
+								},
+								{
 									controlID = "bg_emoji_Panel_emoji_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
 									UUID = "51af8c24_93cf_4ac1_9926_2f65d72e791a",
 									anchorPoint = "False",
@@ -788,7 +923,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "270",
+									height = "303",
 									ignoreSize = "True",
 									name = "bg_emoji",
 									sizepercentx = "0",
@@ -796,13 +931,13 @@ local t =
 									sizeType = "0",
 									srcBlendFunc = "1",
 									texturePath = "ui/activity/znq_yly/mainUi/011.png",
-									touchAble = "False",
+									touchAble = "True",
 									UILayoutViewModel = 
 									{
 										PositionX = 203,
 										PositionY = 122,
 									},
-									width = "401",
+									width = "437",
 									ZOrder = "1",
 								},
 								{
@@ -819,10 +954,10 @@ local t =
 									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 									direction = "1",
 									dstBlendFunc = "771",
-									height = "242",
+									height = "269",
 									ignoreSize = "False",
-									innerHeight = "242",
-									innerWidth = "314",
+									innerHeight = "269",
+									innerWidth = "329",
 									name = "ScrollView_emoji",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -832,15 +967,15 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 12,
-										PositionY = 6,
+										PositionX = -2,
+										PositionY = -13,
 									},
 									uipanelviewmodel = 
 									{
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "314",
+									width = "329",
 									ZOrder = "1",
 								},
 								{
@@ -868,8 +1003,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 354,
-										PositionY = 190,
+										PositionX = 373,
+										PositionY = 216,
 									},
 									uipanelviewmodel = 
 									{
@@ -893,7 +1028,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "122",
+											height = "93",
 											ignoreSize = "True",
 											name = "Button_ani_n",
 											normal = "ui/activity/znq_yly/mainUi/003.png",
@@ -907,7 +1042,7 @@ local t =
 												
 											},
 											UItype = "Button",
-											width = "50",
+											width = "66",
 											ZOrder = "1",
 											components = 
 											{
@@ -968,7 +1103,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "122",
+											height = "93",
 											ignoreSize = "True",
 											name = "Image_ani_s",
 											sizepercentx = "0",
@@ -981,8 +1116,7 @@ local t =
 											{
 												
 											},
-											visible = "False",
-											width = "50",
+											width = "66",
 											ZOrder = "1",
 											components = 
 											{
@@ -996,7 +1130,7 @@ local t =
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
-													FontColor = "#FF6D78C6",
+													FontColor = "#FF842540",
 													fontName = "font/MFLiHei_Noncommercial.ttf",
 													fontShadow = 
 													{
@@ -1061,8 +1195,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 354,
-										PositionY = 67,
+										PositionX = 373,
+										PositionY = 123,
 									},
 									uipanelviewmodel = 
 									{
@@ -1086,7 +1220,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "122",
+											height = "93",
 											ignoreSize = "True",
 											name = "Button_emoji_n",
 											normal = "ui/activity/znq_yly/mainUi/003.png",
@@ -1101,7 +1235,7 @@ local t =
 											},
 											UItype = "Button",
 											visible = "False",
-											width = "50",
+											width = "66",
 											ZOrder = "1",
 											components = 
 											{
@@ -1162,7 +1296,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "122",
+											height = "93",
 											ignoreSize = "True",
 											name = "Image_emoji_s",
 											sizepercentx = "0",
@@ -1175,7 +1309,7 @@ local t =
 											{
 												
 											},
-											width = "50",
+											width = "66",
 											ZOrder = "1",
 											components = 
 											{
@@ -1189,7 +1323,7 @@ local t =
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
-													FontColor = "#FF6D78C6",
+													FontColor = "#FF842540",
 													fontName = "font/MFLiHei_Noncommercial.ttf",
 													fontShadow = 
 													{
@@ -1229,75 +1363,9 @@ local t =
 										},
 									},
 								},
-							},
-						},
-						{
-							controlID = "Panel_miniMap_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
-							UUID = "b5776f4e_84dc_4c47_a214_09015d318d4d",
-							anchorPoint = "False",
-							anchorPointX = "0",
-							anchorPointY = "0",
-							backGroundScale9Enable = "False",
-							bgColorOpacity = "50",
-							bIsOpenClipping = "False",
-							classname = "MEPanel",
-							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
-							DesignHeight = "640",
-							DesignType = "0",
-							DesignWidth = "960",
-							dstBlendFunc = "771",
-							height = "127",
-							ignoreSize = "False",
-							name = "Panel_miniMap",
-							sizepercentx = "0",
-							sizepercenty = "0",
-							sizeType = "0",
-							srcBlendFunc = "1",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								PositionX = 893,
-								PositionY = 501,
-							},
-							uipanelviewmodel = 
-							{
-								Layout="Absolute",
-								nType = "0"
-							},
-							width = "227",
-							ZOrder = "1",
-							components = 
-							{
-								
 								{
-									controlID = "Image_map_Panel_miniMap_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
-									UUID = "2a47ab22_7c64_464f_a415_fb8cf5e9b915",
-									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
-									classname = "MEImage",
-									dstBlendFunc = "771",
-									height = "149",
-									ignoreSize = "True",
-									name = "Image_map",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "1",
-									texturePath = "ui/activity/znq_yly/mainUi/015.png",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = 115,
-										PositionY = 61,
-									},
-									width = "275",
-									ZOrder = "1",
-								},
-								{
-									controlID = "Panel_area_Panel_miniMap_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
-									UUID = "3624f318_762a_44f3_9cf4_0bd7ec4781c7",
+									controlID = "Panel_btn_item_Panel_emoji_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+									UUID = "a5629aa1_6bde_4c7b_90f9_d04d9baca854",
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "0",
@@ -1310,9 +1378,9 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "105",
+									height = "10",
 									ignoreSize = "False",
-									name = "Panel_area",
+									name = "Panel_btn_item",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1320,46 +1388,275 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 13,
-										PositionY = 13,
+										PositionX = 373,
+										PositionY = 30,
 									},
 									uipanelviewmodel = 
 									{
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "204",
+									width = "10",
 									ZOrder = "1",
 									components = 
 									{
 										
 										{
-											controlID = "Image_light_Panel_area_Panel_miniMap_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
-											UUID = "f555bc1c_6819_43d6_855a_16089ca8eebf",
+											controlID = "Button_item_n_Panel_btn_item_Panel_emoji_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+											UUID = "0f01a5f9_58ec_4f82_8e8a_7306dec6a6e9",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEButton",
+											ClickHighLightEnabled = "True",
+											dstBlendFunc = "771",
+											flipX = "False",
+											flipY = "False",
+											height = "93",
+											ignoreSize = "True",
+											name = "Button_item_n",
+											normal = "ui/activity/znq_yly/mainUi/003.png",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												
+											},
+											UItype = "Button",
+											visible = "False",
+											width = "66",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Label_item_n_Button_item_n_Panel_btn_item_Panel_emoji_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+													UUID = "6735aadd_470b_489a_9cfe_eb3ba5399e13",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FF9BC6F2",
+													fontName = "font/MFLiHei_Noncommercial.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "24",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "0",
+													ignoreSize = "False",
+													name = "Label_item_n",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "物品",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "23",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Image_item_s_Panel_btn_item_Panel_emoji_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+											UUID = "462fb8c8_6864_4701_a5aa_2fe54d4251ae",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "42",
+											height = "93",
 											ignoreSize = "True",
-											name = "Image_light",
+											name = "Image_item_s",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/activity/znq_yly/mainUi/014.png",
+											texturePath = "ui/activity/znq_yly/mainUi/002.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 20,
-												PositionY = 28,
+												
 											},
-											width = "42",
+											width = "66",
 											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Label_item_s_Image_item_s_Panel_btn_item_Panel_emoji_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+													UUID = "f9f6427c_d4d7_4e40_94ff_eb479d3087f6",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FF842540",
+													fontName = "font/MFLiHei_Noncommercial.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "24",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "0",
+													ignoreSize = "False",
+													name = "Label_item_s",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "物品",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "23",
+													ZOrder = "1",
+												},
+											},
 										},
 									},
+								},
+							},
+						},
+						{
+							controlID = "Panel_btn_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+							UUID = "178713aa_0088_4d39_92bb_d641a4831e38",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "640",
+							ignoreSize = "False",
+							name = "Panel_btn",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionY = 1,
+								relativeToName = "panel_ui",
+								nGravity = 6,
+								nAlign = 5
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "1136",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Button_chat_Panel_btn_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+									UUID = "30a756ef_3769_4d72_831f_cf7322bf05b9",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "86",
+									ignoreSize = "True",
+									name = "Button_chat",
+									normal = "ui/activity/znq_yly/mainUi/013.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 59,
+										PositionY = 285,
+									},
+									UItype = "Button",
+									width = "86",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Button_emoji_Panel_btn_panel_ui_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+									UUID = "173c8572_82f1_4b63_8758_21f3c4f31ccd",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "86",
+									ignoreSize = "True",
+									name = "Button_emoji",
+									normal = "ui/activity/znq_yly/mainUi/012.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 1092,
+										PositionY = 269,
+									},
+									UItype = "Button",
+									width = "86",
+									ZOrder = "1",
 								},
 							},
 						},
@@ -1513,8 +1810,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1017,
-								PositionY = 472,
+								PositionX = 885,
+								PositionY = 479,
 							},
 							width = "167",
 							ZOrder = "1",
@@ -1639,7 +1936,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "47",
+									height = "46",
 									ignoreSize = "True",
 									name = "Image_flag",
 									sizepercentx = "0",
@@ -1653,7 +1950,7 @@ local t =
 										PositionX = 47,
 										PositionY = 36,
 									},
-									width = "41",
+									width = "46",
 									ZOrder = "1",
 								},
 								{
@@ -1702,7 +1999,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "119",
+							height = "131",
 							ignoreSize = "False",
 							name = "Panel_emojiItem",
 							sizepercentx = "0",
@@ -1720,7 +2017,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "102",
+							width = "108",
 							ZOrder = "1",
 							components = 
 							{
@@ -1734,7 +2031,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "119",
+									height = "134",
 									ignoreSize = "True",
 									name = "Image_border",
 									sizepercentx = "0",
@@ -1747,7 +2044,7 @@ local t =
 									{
 										
 									},
-									width = "102",
+									width = "108",
 									ZOrder = "1",
 								},
 								{
@@ -1781,10 +2078,80 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										
+										PositionY = 11,
 									},
 									UItype = "Button",
 									width = "79",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Label_num_Panel_emojiItem_Panel_prefab_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+									UUID = "fee203a2_588a_4601_bc5f_238ceec12674",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FF35516B",
+									fontName = "font/MFLiHei_Noncommercial.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "20",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "25",
+									ignoreSize = "True",
+									name = "Label_num",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "20",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionY = -52,
+									},
+									width = "36",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Image_gray_Panel_emojiItem_Panel_prefab_Panel-znq_yly_maplayer_znq_yly_activity_Game",
+									UUID = "37316268_1159_420c_a6f8_b6f81b3b99a8",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "132",
+									ignoreSize = "True",
+									name = "Image_gray",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/znq_yly/mainUi/028.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "106",
 									ZOrder = "1",
 								},
 							},
@@ -1807,18 +2174,20 @@ local t =
 			"ui/activity/znq_yly/mainUi/024.png",
 			"ui/activity/znq_yly/mainUi/025.png",
 			"ui/common/btn_back.png",
-			"ui/activity/znq_yly/mainUi/013.png",
-			"ui/activity/znq_yly/mainUi/012.png",
+			"ui/activity/znq_yly/mainUi/015.png",
+			"ui/activity/znq_yly/mainUi/014.png",
+			"ui/activity/znq_yly/mainUi/029.png",
 			"ui/activity/znq_yly/mainUi/011.png",
 			"ui/activity/znq_yly/mainUi/003.png",
 			"ui/activity/znq_yly/mainUi/002.png",
-			"ui/activity/znq_yly/mainUi/015.png",
-			"ui/activity/znq_yly/mainUi/014.png",
+			"ui/activity/znq_yly/mainUi/013.png",
+			"ui/activity/znq_yly/mainUi/012.png",
 			"ui/activity/znq_yly/mainUi/022.png",
 			"ui/activity/znq_yly/mainUi/019.png",
 			"ui/activity/znq_yly/mainUi/001.png",
 			"ui/activity/znq_yly/mainUi/004.png",
 			"ui/activity/znq_yly/mainUi/007.png",
+			"ui/activity/znq_yly/mainUi/028.png",
 		},
 		armatures = 
 		{

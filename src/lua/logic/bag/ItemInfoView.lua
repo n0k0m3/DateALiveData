@@ -2,15 +2,19 @@
 local ItemInfoView = class("ItemInfoView", BaseLayer)
 
 function ItemInfoView:initData(itemCid, itemId, isShowAccess, isNotShowTry)
-    dump(itemCid)
+    print(itemCid, itemId, isShowAccess, isNotShowTry)
     self.itemCid_ = itemCid
     self.itemId_ = itemId
     self.isShowAccess_ = tobool(isShowAccess)
     self.isNotShowTry_ = tobool(isNotShowTry)
     if self.itemId_ then
         self.itemInfo_ = GoodsDataMgr:getSingleItem(self.itemId_)
-        self.itemCid_ = self.itemInfo_.cid
+        if self.itemInfo_ then
+            self.itemCid_ = self.itemInfo_.cid
+        end
     end
+
+
     self.itemCfg_ = GoodsDataMgr:getItemCfg(self.itemCid_)
     self.costEnable_ = true
     self.countDownTimer_ = nil
@@ -39,6 +43,7 @@ function ItemInfoView:initUI(ui)
     self.Label_desc:hide()
     self.Image_line2 = TFDirector:getChildByPath(Panel_content, "Image_line2")
     self.Button_use = TFDirector:getChildByPath(Panel_content, "Button_use"):hide()
+    self.Button_exchange = TFDirector:getChildByPath(Panel_content, "Button_exchange"):hide()
     self.Label_use = TFDirector:getChildByPath(self.Button_use, "Label_use")
     self.Button_access = TFDirector:getChildByPath(Panel_content, "Button_access")
     self.Button_try = TFDirector:getChildByPath(Panel_content, "Button_try"):hide()
@@ -71,11 +76,11 @@ end
 
 function ItemInfoView:refreshView()
     local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-    Panel_goodsItem:setTouchEnabled(false)
     Panel_goodsItem:AddTo(self.Image_head)
     self.Image_head:setTexture("")
     Panel_goodsItem:Pos(0, 0)
     PrefabDataMgr:setInfo(Panel_goodsItem, self.itemCid_)
+    Panel_goodsItem:setTouchEnabled(false)
 
     --卡巴拉道具不显示拥有数量
     if self.itemCfg_.superType == EC_ResourceType.UNION_EXP
@@ -88,6 +93,8 @@ function ItemInfoView:refreshView()
     else
         self.Label_count:setTextById(301013, GoodsDataMgr:getItemCount(self.itemCid_))
     end
+
+    self.Label_count:setVisible(not self.itemCfg_.noShowItemNum)
 
     self.Button_try:hide()
     if self.itemCfg_.superType == EC_ResourceType.DRESS then
@@ -137,6 +144,10 @@ function ItemInfoView:refreshView()
         self.ListView_cost:setContentSize(containerSize)
     elseif self.itemCfg_.superType == EC_ResourceType.TRAILCARD and GoodsDataMgr:getItemCount(self.itemCid_) > 0 then
         self.Button_use:setVisible(true)
+    elseif self.itemCfg_.superType == EC_ResourceType.ACTIVITY_ITEM then
+        if self.itemCfg_.exchangType == 1 then--可以交换的物品
+            self.Button_exchange:show()
+        end
     else
         self.Button_access:setPositionX(self.Button_use:getPositionX())
     end
@@ -162,6 +173,7 @@ function ItemInfoView:updateCountDown()
     local remainTime = math.max(0, self.itemInfo_.outTime - ServerDataMgr:getServerTime())
     if remainTime == 0 then
         self.Button_use:hide()
+        self.Button_exchange:hide()
         self:removeCountDownTimer()
         self.Label_countDown:setTextById(301010)
     else
@@ -220,7 +232,7 @@ function ItemInfoView:registerEvents()
                 return
             end
 
-            if self.itemCfg_.useProfit.custom then
+            if self.itemCfg_.useProfit.custom and self.itemInfo_ then
                 local itemId = self.itemId_
                 AlertManager:closeLayer(self)
                 Utils:openView("bag.UseItemSelectView",itemId, self.selectNum)
@@ -283,7 +295,11 @@ function ItemInfoView:registerEvents()
 
 	self.Button_mirror:onClick(function()
 		Utils:openView("collect.CollectScenePreView", self.itemCfg_.showBgPreview)
-	end)
+    end)
+    
+    self.Button_exchange:onClick(function()
+        Utils:openView("friend.FriendView",self.itemCfg_.id)
+    end)
 end
 
 function ItemInfoView:tryOnDress(dressId)

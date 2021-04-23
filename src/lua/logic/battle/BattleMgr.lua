@@ -61,6 +61,14 @@ function component:pause()
     end
 end
 
+function component:updatePauseState(isPause)
+    for i = #self.list , 1 , -1 do
+        if self.list[i] and self.list[i].updatePauseState then
+            self.list[i]:updatePauseState(isPause)
+        end
+    end
+end
+
 function component:resume()
     self.bPause = false
     for i = #self.list , 1 , -1 do
@@ -142,6 +150,12 @@ end
 function BattleMgr.resume()
     for k,mgr in ipairs(mgrList) do
         mgr:resume()
+    end
+end
+
+function BattleMgr.updatePauseState(isPause)
+    for k,mgr in ipairs(mgrList) do
+        mgr:updatePauseState(isPause)
     end
 end
 

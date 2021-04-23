@@ -297,6 +297,9 @@ end
 function CityJobView:updateBuildItem(buildItem,idx)
     local buildCfg = CityJobDataMgr:getBuildCfgByIdx(idx)
     local jobInfoList = CityJobDataMgr:getJobInfoListByIdx(idx)
+    if not jobInfoList then
+        return
+    end
     local Image_bg = TFDirector:getChildByPath(buildItem,"Image_bg")
     local LoadingBar_job = TFDirector:getChildByPath(buildItem,"LoadingBar_job")
     local Label_percent = TFDirector:getChildByPath(buildItem,"Label_percent"):hide()
@@ -304,7 +307,10 @@ function CityJobView:updateBuildItem(buildItem,idx)
     local Label_name = TFDirector:getChildByPath(buildItem,"Label_name")
     local Image_lock = TFDirector:getChildByPath(buildItem,"Image_lock")
 
-    Label_name:setTextById(buildCfg.nameId)
+    if buildCfg then
+        Label_name:setTextById(buildCfg.nameId)
+    end
+
     if self.workingJobInfo and self.selectBuildIndex_ == idx then
         local supTime = CityJobDataMgr:getJobEventSuplTime()
         if supTime <= 0 then
@@ -618,6 +624,7 @@ function CityJobView:updateCountDonw()
         self:refreshJobEvent()
         self:refreshBuildScroll()
         self.Panel_working:hide()
+        self:removeCountDownTimer()
         return
     end
     local _, hour, min, sec = Utils:getDHMS(remainTime, false)

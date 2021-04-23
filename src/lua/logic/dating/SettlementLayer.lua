@@ -184,6 +184,9 @@ function SettlementLayer:initPanelExpView()
         local cfgData = TabDataMgr:getData(tabName[self.typeMgrCfg.callSynopsis])
         local endId = self.data_.endId
         local descStr
+        if not cfgData then
+            return
+        end
         if self.typeMgrCfg.callSynopsis == 1 then
             local endType = DatingDataMgr:getFinishDayScriptEndType(DatingDataMgr:getFinishDayScriptEndId())
             local endIds = cfgData[self.curScript.datingRuleCid]["end"..endType]
@@ -198,7 +201,9 @@ function SettlementLayer:initPanelExpView()
         elseif self.typeMgrCfg.callSynopsis == 2 then
             descStr = TextDataMgr:getText(cfgData[self.curScript.datingRuleCid].endSynopsis)
         elseif self.typeMgrCfg.callSynopsis == 3 then
-            descStr = TextDataMgr:getText(cfgData[endId].endSynopsis)
+            if endId and cfgData[endId] then
+                descStr = TextDataMgr:getText(cfgData[endId].endSynopsis)
+            end
         elseif self.typeMgrCfg.callSynopsis == 4 then
             descStr = TextDataMgr:getText(cfgData[self.curScript.datingRuleCid].endSynopsis)
         end

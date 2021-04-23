@@ -139,8 +139,8 @@ local t =
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
-									srcBlendFunc = "1",
-									texturePath = "scene/bg/bg_new.png",
+									srcBlendFunc = "770",
+									texturePath = "scene/bg/bg_heizi.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
@@ -1816,7 +1816,7 @@ local t =
 	{
 		textures = 
 		{
-			"scene/bg/bg_new.png",
+			"scene/bg/bg_heizi.png",
 			"ui/fuben/experience/level_bg.png",
 			"ui/fairy_strategy/btn_1.png",
 			"ui/common/news_small.png",

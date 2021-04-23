@@ -280,7 +280,6 @@ function EquipConvert:updateNeedGold()
             needGold = 0
         end
         self.Image_gold:setTexture(GoodsDataMgr:getItemCfg(id).icon)
-        self.Image_gold:setScale(0.3)
         self.Image_gold:setTouchEnabled(true)
         self.Image_gold:onClick(function ()
                 Utils:showInfo(id)

@@ -269,7 +269,9 @@ function MailDataMgr:revcOpenAllEnvelope(event)
 	if not event.data then
 		return;
 	end
-	Utils:showReward(event.data.rewards)
+	if event.data.rewards then
+		Utils:showReward(event.data.rewards)
+	end
 end
 
 function MailDataMgr:revcFightEnvelope(event)

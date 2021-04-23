@@ -63,7 +63,7 @@ local t =
 					{
 						PositionY = 33,
 					},
-					width = "895",
+					width = "882",
 					ZOrder = "1",
 				},
 				{
@@ -78,7 +78,7 @@ local t =
 					dstBlendFunc = "771",
 					flipX = "False",
 					flipY = "False",
-					height = "114",
+					height = "148",
 					ignoreSize = "True",
 					name = "btn_room_2",
 					normal = "ui/activity/znq_yly/miniMap/006.png",
@@ -89,11 +89,11 @@ local t =
 					touchAble = "True",
 					UILayoutViewModel = 
 					{
-						PositionX = -215,
-						PositionY = 29,
+						PositionX = -278,
+						PositionY = 159,
 					},
 					UItype = "Button",
-					width = "143",
+					width = "162",
 					ZOrder = "1",
 					components = 
 					{
@@ -118,9 +118,9 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionY = 45,
+								PositionX = 2,
+								PositionY = -27,
 							},
-							visible = "False",
 							width = "103",
 							ZOrder = "1",
 							components = 
@@ -161,7 +161,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "时装屋",
+									text = "主阁楼",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -213,7 +213,7 @@ local t =
 					dstBlendFunc = "771",
 					flipX = "False",
 					flipY = "False",
-					height = "161",
+					height = "153",
 					ignoreSize = "True",
 					name = "btn_room_3",
 					normal = "ui/activity/znq_yly/miniMap/007.png",
@@ -224,11 +224,11 @@ local t =
 					touchAble = "True",
 					UILayoutViewModel = 
 					{
-						PositionX = -26,
-						PositionY = 11,
+						PositionX = -23,
+						PositionY = 28,
 					},
 					UItype = "Button",
-					width = "256",
+					width = "192",
 					ZOrder = "1",
 					components = 
 					{
@@ -295,14 +295,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "舞台",
+									text = "祈愿树",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = 3,
 									},
-									width = "43",
+									width = "63",
 									ZOrder = "1",
 								},
 								{
@@ -347,7 +347,7 @@ local t =
 					dstBlendFunc = "771",
 					flipX = "False",
 					flipY = "False",
-					height = "176",
+					height = "159",
 					ignoreSize = "True",
 					name = "btn_room_1",
 					normal = "ui/activity/znq_yly/miniMap/009.png",
@@ -358,11 +358,11 @@ local t =
 					touchAble = "True",
 					UILayoutViewModel = 
 					{
-						PositionX = -247,
-						PositionY = -75,
+						PositionX = -371,
+						PositionY = -79,
 					},
 					UItype = "Button",
-					width = "285",
+					width = "156",
 					ZOrder = "1",
 					components = 
 					{
@@ -387,8 +387,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 3,
-								PositionY = 55,
+								PositionX = -1,
+								PositionY = -18,
 							},
 							width = "103",
 							ZOrder = "1",
@@ -430,14 +430,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "泳池",
+									text = "年货铺子",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = 3,
 									},
-									width = "43",
+									width = "83",
 									ZOrder = "1",
 								},
 								{
@@ -482,7 +482,7 @@ local t =
 					dstBlendFunc = "771",
 					flipX = "False",
 					flipY = "False",
-					height = "97",
+					height = "107",
 					ignoreSize = "True",
 					name = "btn_room_5",
 					normal = "ui/activity/znq_yly/miniMap/004.png",
@@ -493,11 +493,11 @@ local t =
 					touchAble = "True",
 					UILayoutViewModel = 
 					{
-						PositionX = -149,
-						PositionY = 120,
+						PositionX = -71,
+						PositionY = 175,
 					},
 					UItype = "Button",
-					width = "110",
+					width = "125",
 					ZOrder = "1",
 					components = 
 					{
@@ -522,8 +522,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -14,
-								PositionY = 29,
+								PositionX = -5,
+								PositionY = -31,
 							},
 							width = "103",
 							ZOrder = "1",
@@ -565,14 +565,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "活动",
+									text = "告示墙",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = 3,
 									},
-									width = "42",
+									width = "63",
 									ZOrder = "1",
 								},
 								{
@@ -617,7 +617,7 @@ local t =
 					dstBlendFunc = "771",
 					flipX = "False",
 					flipY = "False",
-					height = "140",
+					height = "146",
 					ignoreSize = "True",
 					name = "btn_room_6",
 					normal = "ui/activity/znq_yly/miniMap/005.png",
@@ -628,11 +628,11 @@ local t =
 					touchAble = "True",
 					UILayoutViewModel = 
 					{
-						PositionX = 265,
-						PositionY = -26,
+						PositionX = 343,
+						PositionY = -83,
 					},
 					UItype = "Button",
-					width = "146",
+					width = "213",
 					ZOrder = "1",
 					components = 
 					{
@@ -657,8 +657,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -3,
-								PositionY = 29,
+								PositionX = -19,
+								PositionY = -11,
 							},
 							width = "103",
 							ZOrder = "1",
@@ -700,14 +700,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "乐园商店",
+									text = "成衣铺",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = 3,
 									},
-									width = "83",
+									width = "63",
 									ZOrder = "1",
 								},
 								{
@@ -752,7 +752,7 @@ local t =
 					dstBlendFunc = "771",
 					flipX = "False",
 					flipY = "False",
-					height = "97",
+					height = "138",
 					ignoreSize = "True",
 					name = "btn_room_7",
 					normal = "ui/activity/znq_yly/miniMap/010.png",
@@ -763,11 +763,11 @@ local t =
 					touchAble = "True",
 					UILayoutViewModel = 
 					{
-						PositionX = 84,
-						PositionY = 72,
+						PositionX = 287,
+						PositionY = 179,
 					},
 					UItype = "Button",
-					width = "114",
+					width = "331",
 					ZOrder = "1",
 					components = 
 					{
@@ -792,8 +792,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -2,
-								PositionY = 43,
+								PositionX = -6,
+								PositionY = -36,
 							},
 							width = "103",
 							ZOrder = "1",
@@ -835,7 +835,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "气球车",
+									text = "灯谜街",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -887,7 +887,7 @@ local t =
 					dstBlendFunc = "771",
 					flipX = "False",
 					flipY = "False",
-					height = "122",
+					height = "106",
 					ignoreSize = "True",
 					name = "btn_room_8",
 					normal = "ui/activity/znq_yly/miniMap/008.png",
@@ -898,11 +898,11 @@ local t =
 					touchAble = "True",
 					UILayoutViewModel = 
 					{
-						PositionX = -17,
-						PositionY = 174,
+						PositionX = 61,
+						PositionY = 161,
 					},
 					UItype = "Button",
-					width = "240",
+					width = "103",
 					ZOrder = "1",
 					components = 
 					{
@@ -927,9 +927,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionY = 16,
+								PositionY = -25,
 							},
-							visible = "False",
 							width = "103",
 							ZOrder = "1",
 							components = 
@@ -970,142 +969,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "许愿城堡",
-									touchAble = "False",
-									touchScaleEnable = "False",
-									UILayoutViewModel = 
-									{
-										PositionY = 3,
-									},
-									width = "83",
-									ZOrder = "1",
-								},
-								{
-									controlID = "Image_red_tip_Image_title_btn_room_8_Panel-znq_miniMap_znq_yly_activity_Game",
-									UUID = "c756a9e4_3427_49fc_a4ac_f79205cad8ce",
-									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
-									classname = "MEImage",
-									dstBlendFunc = "771",
-									height = "30",
-									ignoreSize = "True",
-									name = "Image_red_tip",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "1",
-									texturePath = "ui/common/news_small.png",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = 36,
-										PositionY = 15,
-									},
-									width = "30",
-									ZOrder = "1",
-								},
-							},
-						},
-					},
-				},
-				{
-					controlID = "btn_room_9_Panel-znq_miniMap_znq_yly_activity_Game",
-					UUID = "05f080dc_60d8_4cdc_a47c_a59ab327f846",
-					anchorPoint = "False",
-					anchorPointX = "0.5",
-					anchorPointY = "0.5",
-					backGroundScale9Enable = "False",
-					classname = "MEButton",
-					ClickHighLightEnabled = "True",
-					dstBlendFunc = "771",
-					flipX = "False",
-					flipY = "False",
-					height = "117",
-					ignoreSize = "True",
-					name = "btn_room_9",
-					normal = "ui/activity/znq_yly/miniMap/011.png",
-					sizepercentx = "0",
-					sizepercenty = "0",
-					sizeType = "0",
-					srcBlendFunc = "1",
-					touchAble = "True",
-					UILayoutViewModel = 
-					{
-						PositionX = 289,
-						PositionY = 107,
-					},
-					UItype = "Button",
-					width = "135",
-					ZOrder = "1",
-					components = 
-					{
-						
-						{
-							controlID = "Image_title_btn_room_9_Panel-znq_miniMap_znq_yly_activity_Game",
-							UUID = "5823c1cf_2e39_486b_afe6_e58dc120390a",
-							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
-							classname = "MEImage",
-							dstBlendFunc = "771",
-							height = "50",
-							ignoreSize = "True",
-							name = "Image_title",
-							sizepercentx = "0",
-							sizepercenty = "0",
-							sizeType = "0",
-							srcBlendFunc = "1",
-							texturePath = "ui/activity/znq_yly/miniMap/001.png",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								PositionX = 5,
-								PositionY = 27,
-							},
-							width = "103",
-							ZOrder = "1",
-							components = 
-							{
-								
-								{
-									controlID = "Label_title_Image_title_btn_room_9_Panel-znq_miniMap_znq_yly_activity_Game",
-									UUID = "19effeea_4a98_43e1_9370_156b71545431",
-									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									classname = "MELabel",
-									compPath = "luacomponents.common.MEIconLabel",
-									dstBlendFunc = "771",
-									FontColor = "#FF0B275A",
-									fontName = "font/fangzheng_zhunyuan.ttf",
-									fontShadow = 
-									{
-										IsShadow = false,
-										ShadowColor = "#FFFFFFFF",
-										ShadowAlpha = 255,
-										OffsetX = 0,
-										OffsetY = 0,
-									},
-									fontSize = "20",
-									fontStroke = 
-									{
-										IsStroke = false,
-										StrokeColor = "#FFE6E6E6",
-										StrokeSize = 1,
-									},
-									height = "23",
-									ignoreSize = "True",
-									name = "Label_title",
-									nTextAlign = "1",
-									nTextHAlign = "1",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "770",
-									text = "占星屋",
+									text = "演武场",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1116,8 +980,8 @@ local t =
 									ZOrder = "1",
 								},
 								{
-									controlID = "Image_red_tip_Image_title_btn_room_9_Panel-znq_miniMap_znq_yly_activity_Game",
-									UUID = "050f7556_7440_45f4_8c14_aa3d88f932a4",
+									controlID = "Image_red_tip_Image_title_btn_room_8_Panel-znq_miniMap_znq_yly_activity_Game",
+									UUID = "c756a9e4_3427_49fc_a4ac_f79205cad8ce",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -1157,7 +1021,7 @@ local t =
 					dstBlendFunc = "771",
 					flipX = "False",
 					flipY = "False",
-					height = "108",
+					height = "163",
 					ignoreSize = "True",
 					name = "btn_room_4",
 					normal = "ui/activity/znq_yly/miniMap/003.png",
@@ -1168,11 +1032,11 @@ local t =
 					touchAble = "True",
 					UILayoutViewModel = 
 					{
-						PositionX = 170,
-						PositionY = 49,
+						PositionX = 382,
+						PositionY = 63,
 					},
 					UItype = "Button",
-					width = "94",
+					width = "140",
 					ZOrder = "1",
 					components = 
 					{
@@ -1197,10 +1061,9 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 4,
-								PositionY = 40,
+								PositionX = -10,
+								PositionY = -26,
 							},
-							visible = "False",
 							width = "103",
 							ZOrder = "1",
 							components = 
@@ -1241,7 +1104,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "模拟召唤",
+									text = "烟花工坊",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1302,7 +1165,6 @@ local t =
 			"ui/activity/znq_yly/miniMap/005.png",
 			"ui/activity/znq_yly/miniMap/010.png",
 			"ui/activity/znq_yly/miniMap/008.png",
-			"ui/activity/znq_yly/miniMap/011.png",
 			"ui/activity/znq_yly/miniMap/003.png",
 		},
 		armatures = 

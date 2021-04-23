@@ -18,12 +18,14 @@ function EquipmentSelect:ctor(data)
     self.chooseConditionData = EquipmentDataMgr:getChooseCondition()
     self.recommendCids = {}
     self.equipRecommendCfg = TabDataMgr:getData("EquipmentRecommend")[self.heroid]
-    for i=1,3 do
-        local recommend = self.equipRecommendCfg["recommend"..i]
-        if recommend and #recommend > 0 then
-            for j, cid in ipairs(recommend) do
-                if not self.recommendCids[cid] then
-                    self.recommendCids[cid] = true
+    if self.equipRecommendCfg then
+        for i=1,3 do
+            local recommend = self.equipRecommendCfg["recommend"..i]
+            if recommend and #recommend > 0 then
+                for j, cid in ipairs(recommend) do
+                    if not self.recommendCids[cid] then
+                        self.recommendCids[cid] = true
+                    end
                 end
             end
         end

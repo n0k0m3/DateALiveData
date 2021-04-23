@@ -90,7 +90,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "535",
+							height = "547",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "0",
@@ -103,7 +103,7 @@ local t =
 							{
 								
 							},
-							width = "925",
+							width = "895",
 							ZOrder = "1",
 							components = 
 							{
@@ -188,6 +188,36 @@ local t =
 									visible = "False",
 									width = "140",
 									ZOrder = "1",
+								},
+								{
+									controlID = "Button_dating_review_Image_bg_Panel_root_Panel-welfareSignViewStyle1_activityStyleModel_activity_Game",
+									UUID = "b6771bc8_325a_4662_b428_d452789fc453",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "142",
+									ignoreSize = "True",
+									name = "Button_dating_review",
+									normal = "ui/activity/activityStyle/wefareSignActivity/style2/002.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 135,
+										PositionY = -198,
+									},
+									UItype = "Button",
+									visible = "False",
+									width = "158",
 								},
 								{
 									controlID = "Panel_page_Image_bg_Panel_root_Panel-welfareSignViewStyle1_activityStyleModel_activity_Game",
@@ -493,7 +523,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 221,
+										PositionX = 192,
 										PositionY = -267,
 									},
 									uipanelviewmodel = 
@@ -831,7 +861,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "2",
+									height = "64",
 									ignoreSize = "True",
 									name = "Image_border",
 									sizepercentx = "0",
@@ -844,7 +874,7 @@ local t =
 									{
 										
 									},
-									width = "2",
+									width = "64",
 									ZOrder = "1",
 								},
 								{
@@ -1104,7 +1134,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "2",
+									height = "64",
 									ignoreSize = "True",
 									name = "Image_getted",
 									sizepercentx = "0",
@@ -1118,7 +1148,7 @@ local t =
 										
 									},
 									visible = "False",
-									width = "2",
+									width = "64",
 									ZOrder = "1",
 								},
 							},
@@ -1471,6 +1501,7 @@ local t =
 			"ui/activity/fashionStore/1/007.png",
 			"ui/activity/fashionStore/1/008.png",
 			"ui/activity/fashionStore/1/004.png",
+			"ui/activity/activityStyle/wefareSignActivity/style2/002.png",
 			"ui/activity/activityStyle/wefareSignActivity/style2/left.png",
 			"ui/activity/activityStyle/wefareSignActivity/style2/004_n.png",
 			"icon/item/goods/500055.png",

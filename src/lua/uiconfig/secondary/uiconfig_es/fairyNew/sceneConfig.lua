@@ -390,16 +390,6 @@ local t = {
 			logic="",
 		},
 		{
-			name="fairyElementPanel",
-			ui ="fairyElementPanel.lua",
-			x=0,
-			y=0,
-			speed=0,
-			layer="fairyNew",
-			canLoad=true,
-			logic="",
-		},
-		{
 			name="gongmingMainView",
 			ui ="gongmingMainView.lua",
 			x=0,

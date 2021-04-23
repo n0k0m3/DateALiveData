@@ -57,6 +57,7 @@ function FairyDetailsLayer:ctor(data)
 
 	self.heroPos = data.pos
 	self.gotoWhichTab = data.gotoWhichTab
+	self.fromView = data.fromView		--上一个界面的引用
 	self.skyladder = data.skyladder
 
     self:init("lua.uiconfig.fairyNew.fairyDetails")
@@ -753,7 +754,6 @@ function FairyDetailsLayer:registerEvents()
 		-- 		end
 		-- 	end
 		-- end
-
 	end)
 
 	--微博分享
@@ -823,12 +823,13 @@ function FairyDetailsLayer:registerEvents()
 		self["angelPanel"..i]:setTouchEnabled(true);
 		self["angelPanel"..i]:onClick(function()
 				if self["angelPanel"..i].skillid and not self.isfriend then
+					GameGuide:checkGuideEnd(self.guideFuncId)
 					Utils:openView("angelNew.AngelInfo", {skillid = self["angelPanel"..i].skillid,
-						skillType = self["angelPanel"..i].skillType,idx = i,heroid = self.showHeroId,isfriend = self.isfriend,backTag = self.backTag, isPass = false})
+						skillType = self["angelPanel"..i].skillType,idx = i,heroid = self.showHeroId,isfriend = self.isfriend,backTag = self.backTag, isPass = false, fromView=self.fromView})
 					-- local layer = require("lua.logic.angelNew.AngelInfo"):new({skillid = self["angelPanel"..i].skillid,
 					-- 	skillType = self["angelPanel"..i].skillType,idx = i,heroid = self.showHeroId,isfriend = self.isfriend,backTag = self.backTag, isPass = false});
 			  --       AlertManager:addLayer(layer)
-			  --       AlertManager:show()
+			  --       AlertManager:show()	
 			    end
 			end)
 	end
@@ -1856,7 +1857,6 @@ function FairyDetailsLayer:updateAngelLayer()
     --local Label_angel_level = TFDirector:getChildByPath(self.angelPanel,"Label_angel_level")
     --Label_angel_level:setText("Lv."..HeroDataMgr:getAngelBreakLevel(self.showHeroId))
     local Label_angel_level = TFDirector:getChildByPath(self.angelPanel,"Label_angel_level"):hide()
-    
     local angelLv = HeroDataMgr:getAngelLevel(self.showHeroId);
     if angelLv >= 5 then
     	self.Button_Awaken:hide();
@@ -1901,13 +1901,15 @@ function FairyDetailsLayer:updateAngelLayer()
     local effect = HeroDataMgr:getAngelModelEffect(self.showHeroId)
     for i, v in ipairs(effect) do
         local particleNode  = TFParticle:create(v.effect)
-        particleNode:setName("particleNode")
-        particleNode:resetSystem()
-        particleNode:setZOrder(v.order)
-        local position = ccpAdd(self.Image_angel:Pos(), offset)
-        particleNode:setPosition(position)
-        self.Image_angel:getParent():addChild(particleNode)
-        self.angelParticleNode_[i] = particleNode
+        if particleNode then
+	        particleNode:setName("particleNode")
+	        particleNode:resetSystem()
+	        particleNode:setZOrder(v.order)
+	        local position = ccpAdd(self.Image_angel:Pos(), offset)
+	        particleNode:setPosition(position)
+	        self.Image_angel:getParent():addChild(particleNode)
+	        self.angelParticleNode_[i] = particleNode
+	    end
     end
 
     --天使形象
@@ -2682,6 +2684,13 @@ function FairyDetailsLayer:excuteGuideFunc11006(guideFuncId)
     local targetNode = self["equipPanel"..1].Image_addBack
     self.guideFuncId = guideFuncId
     GameGuide:guideTargetNode(targetNode, ccp(-30, 0))
+end
+
+--引导点击天使左上角槽位
+function FairyDetailsLayer:excuteGuideFunc70001(guideFuncId)
+    local targetNode = TFDirector:getChildByPath(self.angelPanel, "Image_skill_1")
+    self.guideFuncId = guideFuncId
+    GameGuide:guideTargetNode(targetNode, ccp(0,10))
 end
 
 return FairyDetailsLayer;

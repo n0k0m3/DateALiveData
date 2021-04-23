@@ -242,7 +242,9 @@ function FairyEvolutionLayer:updateMaterialInfo()
 	dump(self.curEvoCellId)
 
 	local evoData  = HeroDataMgr:getEvolutionDataById(self.showHeroId, self.curPartition, self.curEvoCellId)
-
+	if not evoData then
+		return
+	end
 	print("updateMaterialInfo========================>")
 	print(self.curPartition, self.curEvoCellId)
 

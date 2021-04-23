@@ -40,7 +40,6 @@ function MainPlayer:init()
     TFDirector:addProto(s2c.ACTIVITY_RESP_SWITCH_LIST, self, self.onRespSwitchList)
     TFDirector:addProto(s2c.ACTIVITY_RESP_CHANGE_SWITCH, self, self.onRespChangeSwitch)
 
-
     local enterBackgroundFunc = function()
         EventMgr:dispatchEvent(EV_APP_ENTERBACKGROUND)
     end
@@ -81,6 +80,7 @@ function MainPlayer:init()
 
     self.sdkAccountStatus = "0"
     self.sdkAccountTime = ServerDataMgr:getServerTime()
+
     --服务器保存的开关列表
     self.switchList = {}
 end
@@ -382,20 +382,60 @@ function MainPlayer:updateStringByServer()
     if not self.clientDiscreteData then return end
 
     local warnTime = self.clientDiscreteData.warnTime
-    if warnTime and self.warnTimeKeep ~= warnTime then
-        if nil == self.warnTimeKeep then
-            Utils:showAnitAddictionLayer(warnTime, false)
-        else
-            Utils:showAnitAddictionLayer(warnTime, true)
-        end
+    if warnTime then
         self.warnTimeKeep = warnTime
     end
+    self:startWarnTimer()
+
 
     local clientString = self.clientDiscreteData.clientString
     for k, v in pairs(clientString or {}) do
         TabDataMgr:updateString(k, v)
     end
 end
+
+function MainPlayer:startWarnTimer()
+    if not self.warnTimeKeep then  return  end
+    if  self.warnTimer == nil then
+        self.warnTimer = TFDirector:addTimer(1000, -1, nil,
+        function()
+            if self.warnTimeKeep then
+                self.warnTimeKeep = self.warnTimeKeep - 1
+                if self.warnTimeKeep > 0 then
+                    if self.warnTipFlag then
+                        self.limitMinTime = 300
+                        local _data = Utils:getKVP(20003, "antiwarn")
+                        if _data then
+                            self.limitMinTime = _data[#_data] * 60 
+                        end
+                        if self.warnTimeKeep <= self.limitMinTime then
+                            Utils:showAnitAddictionLayer()
+                        end
+                    else
+                        Utils:showAnitAddictionLayer()
+                    end
+                else
+                    self:stopWarnTimer()
+                    Utils:closeAnitAddictionLayer()
+                end
+            end
+        end)
+    end
+end
+
+function MainPlayer:setWarnTipFlag(flag)
+    self.warnTipFlag = flag
+end
+
+function MainPlayer:stopWarnTimer()
+    self:setWarnTipFlag(false)
+    if self.warnTimer then
+        TFDirector:removeTimer(self.warnTimer)
+        self.warnTimer = nil
+    end
+end
+
+
 
 function MainPlayer:getFreeTimesUse(eType)
     for k,v in pairs(self.playerAttr) do
@@ -818,6 +858,9 @@ function MainPlayer:onLogin(event)
     local isOver = false;
     dump(table.count(self.dataMgr_));
     local function step(dt)
+        if not self.loadDataTimer then
+            return
+        end
         index = index + 1;
         if index > table.count(self.dataMgr_) then
             isOver = NetWork:checkLoginMsgOver()
@@ -826,6 +869,7 @@ function MainPlayer:onLogin(event)
         if isOver or not CommonManager:getConnectionStatus() then
             NetWork:reset()
             TFDirector:removeTimer(timer);
+            self.loadDataTimer = nil
         end
 
         local value = self.dataMgr_[index];
@@ -846,6 +890,14 @@ function MainPlayer:onLogin(event)
     self:sendReqInvestorScoreInfo()
     self:sendReqSwitchList()
     timer = TFDirector:addTimer(0, -1, nil,step);
+    self.loadDataTimer = timer
+end
+
+function MainPlayer:stopLoadTimer()
+    if self.loadDataTimer then
+        TFDirector:removeTimer(self.loadDataTimer)
+        self.loadDataTimer = nil
+    end
 end
 
 function MainPlayer:onLoginOut()
@@ -885,7 +937,9 @@ function MainPlayer:reset()
     self.phoneNum = nil;
     self.antiAddication = 0;
     self.switchList = {}
+    self.playername = nil
     self:stopHeartBeat()
+    self:stopWarnTimer()
     self:onLoginOut();
 
     self.sdkAccountStatus = "0"

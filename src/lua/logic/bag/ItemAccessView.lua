@@ -58,8 +58,17 @@ function ItemAccessView:refreshView()
 
     for i, v in ipairs(self.access_) do
         local item
+        local isJumpFuncOutTime = false
         if v.open then
             item = self.Panel_unlockAccessItem:clone()
+            if v.startTime and v.endTime and v.startTime ~= "" and v.endTime ~= "" then
+                local curTime = ServerDataMgr:getServerTime()
+                local _, startTime = Utils:changStrToDate(v.startTime)
+                local _, endTime = Utils:changStrToDate(v.endTime)
+                if curTime < startTime or curTime > endTime then
+                    isJumpFuncOutTime = true
+                end
+            end
         else
             item = self.Panel_lockAccessItem:clone()
         end
@@ -67,10 +76,14 @@ function ItemAccessView:refreshView()
         Label_desc:setText(v.desc)
 
         local Button_goto = TFDirector:getChildByPath(item, "Button_goto")
-
+        Button_goto:setGrayEnabled(isJumpFuncOutTime)
         Button_goto:setTouchEnabled(v.open)
         Button_goto:onClick(function()
-            AlertManager:closeLayer(self)
+            if isJumpFuncOutTime then
+                Button_goto:setGrayEnabled(true)
+                Utils:showTips(219007)
+                return
+            end
             FunctionDataMgr:enterByFuncId(v.jumpId, unpack(v.args))
         end)
         self.ListView_access:pushBackCustomItem(item)

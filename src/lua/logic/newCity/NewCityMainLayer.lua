@@ -186,7 +186,7 @@ function NewCityMainLayer:initUI(ui)
     NewCityDataMgr:clearBuildExtraFunc()
     if NewCityDataMgr.curCityType == EC_NewCityType.NewCity_Normal or NewCityDataMgr.curCityType == EC_NewCityType.NewCity_Update then
         self:onFairStateUpdate()
-        self.infoView = requireNew("lua.logic.newCity.NewCityInfoView"):new(true)
+        
         self.fairView = requireNew("lua.logic.newCity.NewCityFairListView"):new(function(roleid)
             if self.ScrollView_city.isScrolling then
                 self.ScrollView_city:stopAllActions()
@@ -205,7 +205,9 @@ function NewCityMainLayer:initUI(ui)
                 end
             end
         end)
-        self:addLayerToNode(self.fairView, self.Panel_ui, EC_NewCityZOrder.FairListView)
+		self.infoView = requireNew("lua.logic.newCity.NewCityInfoView"):new(true, self.fairView)
+		
+        self:addLayerToNode(self.fairView, self.Panel_ui, EC_NewCityZOrder.InfoView)
         self.enterVoiceHandle = VoiceDataMgr:playVoice("button_dating",RoleDataMgr:getUseId())
         self.extendUI = ActivityDataMgr2:createExtendUI(self)
         if self.extendUI then
@@ -238,15 +240,17 @@ function NewCityMainLayer:initUI(ui)
     self.guideMask = TFPanel:create():Size(GameConfig.WS)
     self.guideMask:Touchable(true)
     self.guideMask:setSwallowTouch(true)
-    self:addChild(self.guideMask, 10000)
+    self:addChild(self.guideMask, 1000)
     self:timeOut(function()
         if self.guideMask then
             self.guideMask:removeFromParent()
             self.guideMask = nil
         end
+		print(1111)
         if self:checkGuide() then
             return
         end
+		print(2222, NewCityDataMgr.curCityType)
         if NewCityDataMgr.curCityType == EC_NewCityType.NewCity_Normal or NewCityDataMgr.curCityType == EC_NewCityType.NewCity_Update then
             self:checkOutsideOpen()
             self:checkRemindEvents()
@@ -729,6 +733,13 @@ function NewCityMainLayer:cityCameraMove(movetype, offx, offy, endz, callback)
             self.isCityCameraMove = false
             if callback then
                 callback()
+            end
+            return
+        end
+        if not self.cityCamera then
+            if self.cityCameraMoveTimer then
+                TFDirector:removeTimer(self.cityCameraMoveTimer)
+                self.cityCameraMoveTimer = nil
             end
             return
         end

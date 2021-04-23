@@ -1,0 +1,987 @@
+local t = 
+{
+	version = 1,
+	components = 
+	{
+		
+		{
+			controlID = "Panel-fireExchangeView_activity_2021_spring_activity_Game",
+			UUID = "61cddd65_98bd_408e_91c1_e0376554971c",
+			anchorPoint = "False",
+			anchorPointX = "0",
+			anchorPointY = "0",
+			backGroundScale9Enable = "False",
+			bgColorOpacity = "50",
+			bIsOpenClipping = "False",
+			classname = "MEPanel",
+			colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+			DesignHeight = "640",
+			DesignType = "0",
+			DesignWidth = "960",
+			dstBlendFunc = "771",
+			height = "640",
+			ignoreSize = "False",
+			name = "Panel",
+			PanelRelativeSizeModel = 
+			{
+				PanelRelativeEnable = true,
+			},
+			sizepercentx = "0",
+			sizepercenty = "0",
+			sizeType = "0",
+			srcBlendFunc = "1",
+			touchAble = "False",
+			UILayoutViewModel = 
+			{
+				nType = 3,
+			},
+			uipanelviewmodel = 
+			{
+				Layout="Relative",
+				nType = "3"
+			},
+			width = "1136",
+			ZOrder = "1",
+			components = 
+			{
+				
+				{
+					controlID = "Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+					UUID = "000af154_1235_4337_92c8_ef6d82e8e7f5",
+					anchorPoint = "False",
+					anchorPointX = "0",
+					anchorPointY = "0",
+					backGroundScale9Enable = "False",
+					bgColorOpacity = "50",
+					bIsOpenClipping = "False",
+					classname = "MEPanel",
+					colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+					DesignHeight = "640",
+					DesignType = "0",
+					DesignWidth = "960",
+					dstBlendFunc = "771",
+					height = "640",
+					ignoreSize = "False",
+					name = "Panel_root",
+					PanelRelativeSizeModel = 
+					{
+						PanelRelativeEnable = true,
+					},
+					sizepercentx = "0",
+					sizepercenty = "0",
+					sizeType = "0",
+					srcBlendFunc = "1",
+					touchAble = "False",
+					UILayoutViewModel = 
+					{
+						relativeToName = "Panel",
+						nType = 3,
+						nGravity = 6,
+						nAlign = 5
+					},
+					uipanelviewmodel = 
+					{
+						Layout="Absolute",
+						nType = "0"
+					},
+					width = "1136",
+					ZOrder = "1",
+					components = 
+					{
+						
+						{
+							controlID = "Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+							UUID = "4232ab82_a77e_4291_9e3b_adbe3855f0b6",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "400",
+							ignoreSize = "False",
+							name = "Panel_right",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								TopPosition = 240,
+								relativeToName = "Panel",
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "400",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Image_bg_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+									UUID = "4b62577b_43c9_4c8d_8a3e_9e8f012acf62",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "500",
+									ignoreSize = "False",
+									name = "Image_bg",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/common/pop_ui/pop_bg_02.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 690,
+										PositionY = 317,
+									},
+									width = "700",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Image_head_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+									UUID = "a32cd16d_e7e3_4f20_afc6_8c7cbcb0c7e5",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "50",
+									ignoreSize = "False",
+									name = "Image_head",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/common/pop_ui/pop_bg_02.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 686,
+										PositionY = 566,
+									},
+									width = "300",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_title_Image_head_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+											UUID = "ded0b212_a7de_4c0e_82b0_99f2624ff60d",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "20",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "23",
+											ignoreSize = "True",
+											name = "Label_title",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "交换界面",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												
+											},
+											width = "83",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "Panel_self_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+									UUID = "b56c9ce5_5838_4028_b39b_24171dc4c13b",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "50",
+									ignoreSize = "False",
+									name = "Panel_self",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 341,
+										PositionY = 71,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "50",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_num_self_Panel_self_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+											UUID = "e2fdf358_457a_4bad_b7d9_a85598f5a60e",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "phanta.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "20",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "23",
+											ignoreSize = "True",
+											name = "Label_num_self",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "TextLable",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 173,
+												PositionY = 98,
+											},
+											width = "80",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Button_comfirm_self_Panel_self_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+											UUID = "4cc82408_c8f9_4f48_b14d_7118188aa623",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEButton",
+											ClickHighLightEnabled = "True",
+											dstBlendFunc = "771",
+											flipX = "False",
+											flipY = "False",
+											height = "98",
+											ignoreSize = "True",
+											name = "Button_comfirm_self",
+											normal = "ui/activity/2020SnowDay/book/013.png",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionX = 179,
+												PositionY = 36,
+											},
+											UItype = "Button",
+											width = "180",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Label_Button_comfirm_self_Panel_self_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+													UUID = "5afbb391_d8df_4f2b_93f4_27f8ec065f76",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FFFFFFFF",
+													fontName = "font/fangzheng_zhunyuan.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "20",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "23",
+													ignoreSize = "True",
+													name = "Label",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "确认",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "43",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "ScrollView_Panel_self_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+											UUID = "9b282a75_7bfc_400e_b497_d8d3fd6d6717",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "True",
+											bounceEnable = "False",
+											classname = "MEScrollView",
+											colorType = "1;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											direction = "1",
+											dstBlendFunc = "771",
+											height = "300",
+											ignoreSize = "False",
+											innerHeight = "300",
+											innerWidth = "320",
+											name = "ScrollView",
+											showScrollbar = "False",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionX = 16,
+												PositionY = 164,
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											width = "320",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "Panel_other_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+									UUID = "d582b5c3_f1e0_4317_8183_25cbec4c09e8",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "50",
+									ignoreSize = "False",
+									name = "Panel_other",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 343,
+										PositionY = 74,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "50",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_num_other_Panel_other_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+											UUID = "d5266b84_61cd_4cfa_9aab_a3f2e6b92b7c",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "phanta.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "20",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "23",
+											ignoreSize = "True",
+											name = "Label_num_other",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "TextLable",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 509,
+												PositionY = 96,
+											},
+											width = "80",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Button_comfirm_other_Panel_other_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+											UUID = "76408975_73ca_4567_86bd_e91b83cdcbb7",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEButton",
+											ClickHighLightEnabled = "True",
+											dstBlendFunc = "771",
+											flipX = "False",
+											flipY = "False",
+											height = "98",
+											ignoreSize = "True",
+											name = "Button_comfirm_other",
+											normal = "ui/activity/2020SnowDay/book/013.png",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionX = 519,
+												PositionY = 35,
+											},
+											UItype = "Button",
+											width = "180",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Label_Button_comfirm_other_Panel_other_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+													UUID = "61aa7ab0_d753_4c03_bb1e_1b6c04812d2c",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FFFFFFFF",
+													fontName = "phanta.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "20",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "23",
+													ignoreSize = "True",
+													name = "Label",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "确认",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "43",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "ScrollView_Panel_other_Panel_right_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+											UUID = "03196aa9_2b4f_4eec_b08f_c12db56697db",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "True",
+											bounceEnable = "False",
+											classname = "MEScrollView",
+											colorType = "1;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											direction = "1",
+											dstBlendFunc = "771",
+											height = "300",
+											ignoreSize = "False",
+											innerHeight = "300",
+											innerWidth = "320",
+											name = "ScrollView",
+											showScrollbar = "False",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionX = 358,
+												PositionY = 160,
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											width = "320",
+											ZOrder = "1",
+										},
+									},
+								},
+							},
+						},
+						{
+							controlID = "Panel_left_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+							UUID = "0b9c254c_1974_456d_99d7_335b705a02e0",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "400",
+							ignoreSize = "False",
+							name = "Panel_left",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								TopPosition = 240,
+								relativeToName = "Panel",
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "400",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Image_bg_Panel_left_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+									UUID = "6ce15bb3_a1a4_4070_beff_df993d85e5ca",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "250",
+									ignoreSize = "False",
+									name = "Image_bg",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/common/pop_ui/pop_bg_02.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 169,
+										PositionY = 253,
+									},
+									width = "300",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Image_head_Panel_left_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+									UUID = "28e8bdd5_3de2_4642_a732_5b20362ea632",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "50",
+									ignoreSize = "False",
+									name = "Image_head",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/common/pop_ui/pop_bg_02.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 168,
+										PositionY = 376,
+									},
+									width = "150",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_title_Image_head_Panel_left_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+											UUID = "6c3b63ff_137a_46bc_81b4_f7b20cb7359f",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "20",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "23",
+											ignoreSize = "True",
+											name = "Label_title",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "气球背包",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												
+											},
+											width = "83",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "ScrollView_Panel_left_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+									UUID = "ea727a94_c1da_475c_9041_5a51686970e3",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "True",
+									bounceEnable = "False",
+									classname = "MEScrollView",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									direction = "1",
+									dstBlendFunc = "771",
+									height = "200",
+									ignoreSize = "False",
+									innerHeight = "200",
+									innerWidth = "270",
+									name = "ScrollView",
+									showScrollbar = "False",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 31,
+										PositionY = 136,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "270",
+									ZOrder = "1",
+								},
+							},
+						},
+						{
+							controlID = "Button_close_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+							UUID = "70a31500_aa86_4ad2_841e_b3bd4d8dea25",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEButton",
+							ClickHighLightEnabled = "True",
+							dstBlendFunc = "771",
+							flipX = "False",
+							flipY = "False",
+							height = "60",
+							ignoreSize = "True",
+							name = "Button_close",
+							normal = "ui/common/close2.png",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "True",
+							UILayoutViewModel = 
+							{
+								PositionX = 1055,
+								PositionY = 580,
+							},
+							UItype = "Button",
+							width = "60",
+							ZOrder = "1",
+						},
+						{
+							controlID = "Panel_prefab_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+							UUID = "dd421e42_cf08_4ab6_98c9_fa31d5356240",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "1;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "70",
+							ignoreSize = "False",
+							name = "Panel_prefab",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 54,
+								PositionY = -246,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "70",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Image_head_Panel_prefab_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+									UUID = "91cb1ae0_ff33_48a0_91cb_90ebd6ad9981",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "50",
+									ignoreSize = "False",
+									name = "Image_head",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/common/pop_ui/pop_bg_02.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionY = -1,
+									},
+									width = "50",
+									ZOrder = "1",
+								},
+								{
+									controlID = "labelNum_Panel_prefab_Panel_root_Panel-fireExchangeView_activity_2021_spring_activity_Game",
+									UUID = "f8ec8d97_c313_4f1e_b0af_7139097988a3",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FFFFFFFF",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "20",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "23",
+									ignoreSize = "True",
+									name = "labelNum",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "30",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 19,
+										PositionY = 19,
+									},
+									width = "25",
+									ZOrder = "1",
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+	actions = 
+	{
+		
+	},
+	respaths = 
+	{
+		textures = 
+		{
+			"ui/common/pop_ui/pop_bg_02.png",
+			"ui/activity/2020SnowDay/book/013.png",
+			"ui/common/close2.png",
+		},
+		armatures = 
+		{
+			
+		},
+		movieclips = 
+		{
+			
+		},
+	},
+}
+return t
+

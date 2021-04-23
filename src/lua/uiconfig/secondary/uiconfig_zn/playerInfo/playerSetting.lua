@@ -2191,7 +2191,6 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											visible = "False",
 											width = "410",
 											ZOrder = "1",
 											components = 
@@ -2515,7 +2514,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 330,
+												PositionY = 291,
 												LeftPositon = 461,
 												TopPosition = 207,
 												relativeToName = "Panel_root",
@@ -2677,7 +2676,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 290,
+												PositionY = 249,
 												LeftPositon = 461,
 												TopPosition = 207,
 												relativeToName = "Panel_root",
@@ -2826,7 +2825,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 208,
+												PositionY = 168,
 												LeftPositon = 461,
 												TopPosition = 207,
 												relativeToName = "Panel_root",

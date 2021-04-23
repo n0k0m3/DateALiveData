@@ -43,6 +43,16 @@ function PlayerSetting:initData(data)
         })
     end
 
+    ---灵力共鸣是否开启
+    local isOpen = FunctionDataMgr:isOpen(151)
+    if isOpen then
+        table.insert(self.btnConfig_, {
+            txt = 14221105,
+            idx = 5,
+            iconImg = "ui/fairy/new_ui/gongming/3.png",
+        })
+    end
+
     self.defaultIdx = data and data.selectIdx or nil
     self.selectIndex_ = nil
     self.isFriend_ =  data and data.isFriend or nil
@@ -266,17 +276,21 @@ function PlayerSetting:initInfo()
     self.Image_title_effect_bg = TFDirector:getChildByPath(self.Button_title,"Image_title_effect_bg")
     self.Image_title_new = TFDirector:getChildByPath(self.Button_title,"Image_title_new"):hide()
 
-
    
     --屏蔽实名认真
     TFDirector:getChildByPath(self.Panel_player_info,"Panel_certification"):hide()
     
-
-
     self.Label_lv1 = TFDirector:getChildByPath(self.Panel_player_info,"Label_lv1")
     self.Label_maxLv1 = TFDirector:getChildByPath(self.Panel_player_info, "Label_maxLv1")
     self.LoadingBar_lv1  = TFDirector:getChildByPath(self.Panel_player_info,"LoadingBar_lv1")
     self.Label_curExp1 = TFDirector:getChildByPath(self.Panel_player_info,"Label_curExp1")
+
+    --TODO CLOSE
+    local touziPanel = TFDirector:getChildByPath(self.Panel_player_info,"Panel_touzi")
+    touziPanel:hide()
+    if TFGlobalUtils:isConnectKoreaTwServer() then
+        touziPanel:show()
+    end
 end
 
 function PlayerSetting:refreshInfo()
@@ -641,7 +655,7 @@ function PlayerSetting:updateMedalItem(item, medalCfg)
     target.Image_select:setVisible(false)
     target.Panel_wearing:setVisible(false)
     target.Image_medal_bg:setTexture(MedalDataMgr:getMedalStarBg(medalCfg.star))
-    target.Image_medal_bg:setContentSize(CCSize(160 , 260))
+    target.Image_medal_bg:setContentSize(CCSize(160 , 228))
     target.Image_medal_icon:setTexture(medalCfg.icon)
     local scaleRate = medalCfg.size[1] or 100
     target.Image_medal_icon:setScale(scaleRate / 100)

@@ -1,0 +1,318 @@
+
+xiaokaoji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Z
+  rotate: false
+  xy: 873, 895
+  size: 147, 125
+  orig: 147, 125
+  offset: 0, 0
+  index: -1
+datui1
+  rotate: false
+  xy: 873, 698
+  size: 145, 195
+  orig: 145, 195
+  offset: 0, 0
+  index: -1
+doumaobang
+  rotate: true
+  xy: 953, 19
+  size: 115, 57
+  orig: 115, 57
+  offset: 0, 0
+  index: -1
+haozi
+  rotate: false
+  xy: 953, 136
+  size: 58, 28
+  orig: 58, 28
+  offset: 0, 0
+  index: -1
+huzi1
+  rotate: true
+  xy: 873, 514
+  size: 182, 136
+  orig: 182, 136
+  offset: 0, 0
+  index: -1
+huzi2
+  rotate: true
+  xy: 873, 255
+  size: 257, 135
+  orig: 257, 135
+  offset: 0, 0
+  index: -1
+jingxia
+  rotate: true
+  xy: 2, 5
+  size: 235, 286
+  orig: 235, 286
+  offset: 0, 0
+  index: -1
+qipao
+  rotate: false
+  xy: 757, 2
+  size: 194, 162
+  orig: 194, 162
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 242
+  size: 869, 778
+  orig: 869, 778
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: true
+  xy: 290, 10
+  size: 230, 465
+  orig: 230, 465
+  offset: 0, 0
+  index: -1
+yan5_1
+  rotate: false
+  xy: 757, 166
+  size: 259, 74
+  orig: 259, 74
+  offset: 0, 0
+  index: -1
+
+xiaokaoji2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+datui2
+  rotate: false
+  xy: 879, 79
+  size: 125, 156
+  orig: 125, 156
+  offset: 0, 0
+  index: -1
+guantou
+  rotate: false
+  xy: 625, 634
+  size: 302, 388
+  orig: 302, 388
+  offset: 0, 0
+  index: -1
+jiao2
+  rotate: true
+  xy: 929, 662
+  size: 109, 84
+  orig: 109, 84
+  offset: 0, 0
+  index: -1
+mei
+  rotate: true
+  xy: 929, 773
+  size: 249, 79
+  orig: 249, 79
+  offset: 0, 0
+  index: -1
+qiu
+  rotate: false
+  xy: 625, 565
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 2
+  size: 560, 344
+  orig: 560, 344
+  offset: 0, 0
+  index: -1
+xiangquan1_2
+  rotate: false
+  xy: 2, 564
+  size: 621, 458
+  orig: 621, 458
+  offset: 0, 0
+  index: -1
+yan2
+  rotate: true
+  xy: 879, 237
+  size: 395, 134
+  orig: 395, 134
+  offset: 0, 0
+  index: -1
+z_tou
+  rotate: true
+  xy: 348, 20
+  size: 542, 529
+  orig: 542, 529
+  offset: 0, 0
+  index: -1
+zui1_1
+  rotate: false
+  xy: 625, 597
+  size: 115, 35
+  orig: 115, 35
+  offset: 0, 0
+  index: -1
+zui1_2
+  rotate: false
+  xy: 879, 25
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+
+xiaokaoji3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caocong
+  rotate: false
+  xy: 2, 711
+  size: 624, 308
+  orig: 624, 308
+  offset: 0, 0
+  index: -1
+dab1
+  rotate: true
+  xy: 262, 2
+  size: 162, 171
+  orig: 162, 171
+  offset: 0, 0
+  index: -1
+er1
+  rotate: false
+  xy: 628, 713
+  size: 266, 306
+  orig: 266, 306
+  offset: 0, 0
+  index: -1
+er2
+  rotate: false
+  xy: 2, 32
+  size: 258, 255
+  orig: 258, 255
+  offset: 0, 0
+  index: -1
+jiao1
+  rotate: true
+  xy: 890, 261
+  size: 110, 106
+  orig: 110, 106
+  offset: 0, 0
+  index: -1
+saihong
+  rotate: true
+  xy: 628, 229
+  size: 482, 260
+  orig: 482, 260
+  offset: 0, 0
+  index: -1
+shou1
+  rotate: true
+  xy: 890, 108
+  size: 151, 104
+  orig: 151, 104
+  offset: 0, 0
+  index: -1
+shuye
+  rotate: true
+  xy: 435, 67
+  size: 97, 130
+  orig: 97, 130
+  offset: 0, 0
+  index: -1
+shuye2
+  rotate: true
+  xy: 797, 3
+  size: 103, 122
+  orig: 103, 122
+  offset: 0, 0
+  index: -1
+xiaob1
+  rotate: false
+  xy: 617, 62
+  size: 178, 165
+  orig: 178, 165
+  offset: 0, 0
+  index: -1
+xiaob2
+  rotate: true
+  xy: 896, 775
+  size: 113, 106
+  orig: 113, 106
+  offset: 0, 0
+  index: -1
+xiaotui1
+  rotate: false
+  xy: 890, 373
+  size: 131, 150
+  orig: 131, 150
+  offset: 0, 0
+  index: -1
+xiaotui2
+  rotate: false
+  xy: 896, 890
+  size: 114, 129
+  orig: 114, 129
+  offset: 0, 0
+  index: -1
+yan1
+  rotate: true
+  xy: 2, 289
+  size: 420, 194
+  orig: 420, 194
+  offset: 0, 0
+  index: -1
+yan3
+  rotate: false
+  xy: 262, 166
+  size: 353, 170
+  orig: 353, 170
+  offset: 0, 0
+  index: -1
+yan4
+  rotate: false
+  xy: 198, 338
+  size: 388, 166
+  orig: 388, 166
+  offset: 0, 0
+  index: -1
+yan5
+  rotate: false
+  xy: 198, 506
+  size: 381, 203
+  orig: 381, 203
+  offset: 0, 0
+  index: -1
+zui2
+  rotate: true
+  xy: 890, 525
+  size: 186, 94
+  orig: 186, 94
+  offset: 0, 0
+  index: -1
+
+xiaokaoji4.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dab2
+  rotate: false
+  xy: 2, 2
+  size: 158, 189
+  orig: 158, 189
+  offset: 0, 0
+  index: -1
+shou2
+  rotate: false
+  xy: 162, 97
+  size: 112, 94
+  orig: 112, 94
+  offset: 0, 0
+  index: -1

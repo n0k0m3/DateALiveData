@@ -62,6 +62,10 @@ function WorldRoomDataMgr:ctor()
 
 	TFDirector:addProto(s2c.NEW_WORLD_RESP_AREA_SHOW_DATA, self, self.onRevAreaShowData)
 
+	TFDirector:addProto(s2c.NEW_WORLD_REFRESH_AREA_RIDDLES, self, self.onRevAreaRiddlesData)
+
+	TFDirector:addProto(s2c.NEW_WORLD_REFRESH_RIDDLES, self, self.onRevUpdateAreaRiddlesData)
+
 end
 
 function WorldRoomDataMgr:reset()
@@ -112,9 +116,12 @@ function WorldRoomDataMgr:getControlByRoomType(roomType )
 	-- body
 	if not self.controlerMap[roomType] then
 		if roomType == WorldRoomType.ZNQ_WORLD or roomType == WorldRoomType.ZNQ_UNION then -- 两个管理器使用统一对象
-			local control = require("lua.logic.2020ZNQ.AmusementPackControl"):new()
+			local control = requireNew("lua.logic.2020ZNQ.AmusementPackControl"):new()
 			self.controlerMap[roomType] = control
 			-- self.controlerMap[WorldRoomType.ZNQ_UNION] = control
+		elseif roomType == WorldRoomType.SINGLE then
+			local control = requireNew("lua.logic.singleWorldScene.SingleWorldSceneControl"):new()
+			self.controlerMap[roomType] = control
 		end
 	end
 
@@ -125,7 +132,7 @@ function WorldRoomDataMgr:getExtDataControlByType(roomType )
 	-- body
 	if not self.extDataControlerMap[roomType] then
 		if roomType == WorldRoomType.ZNQ_WORLD or roomType == WorldRoomType.ZNQ_UNION then -- 两个管理器使用统一对象
-			local control = require("lua.logic.2020ZNQ.AmusementPackDataControl"):new()
+			local control = requireNew("lua.logic.2020ZNQ.AmusementPackDataControl"):new()
 			self.extDataControlerMap[WorldRoomType.ZNQ_WORLD] = control
 			self.extDataControlerMap[WorldRoomType.ZNQ_UNION] = control
 		end
@@ -165,6 +172,9 @@ function WorldRoomDataMgr:handlePreEnter(data)
 	local mapCfg = TabDataMgr:getData("WorldMap",data.roomType)
 	OSDConnector:setReconnectCount(mapCfg.netReconnectCount)
 	OSDConnector:setHeartBeatDeal(mapCfg.heartBeatDeal)
+
+	local dataControler = self:getExtDataControlByType(data.roomType)
+	dataControler:clearData()
 	--尝试连接到服务器
 	OSDConnector:connect(self.serverInfo)
 	showLoading()
@@ -193,36 +203,7 @@ function WorldRoomDataMgr:onRevEnterNewWord( event )
 		OSDDataMgr:onRevEnterNewWord(event)
 	else
 		local controler = self:getControlByRoomType(data.roomType)
-		
-
 		controler:initData()
-		local mapCfg = TabDataMgr:getData("WorldMap",data.roomType)
-		if mapCfg then
-			controler:setMapInfo(mapCfg.mapResource)
-			controler:setModelScale(mapCfg.modelScale)
-			controler:setMoveSpeed(mapCfg.moveSpeed)
-			controler:setMaxPlayerNumInScene(mapCfg.syncPlayerNum)
-			controler:setBornPos(mapCfg.bornPos)
-			controler:setCameraFixZ(mapCfg.cameraScope)
-			if mapCfg.cameraSlowMoveSpeed then
-				controler:setCameraSlowMoveDel(mapCfg.cameraSlowMoveSpeed / 1000)
-			end
-
-			if mapCfg.synPosTime then
-				controler:setSynPosTime(mapCfg.synPosTime / 1000)
-			end
-
-			if mapCfg.whiteModel == "" then
-				mapCfg.whiteModel = nil
-			end
-			controler:setGhost(mapCfg.whiteModel)
-
-			if mapCfg.playerInterActions then
-				controler:setPlayerInterActions(mapCfg.playerInterActions)
-			end
-		end
-		--清除聊天记录
-		self:clearChatInfoList()
 		local data = event.data
 		print("--------------onRevEnterNewWord---------------------")
 		local playerInfos = data.playerInfos
@@ -237,7 +218,65 @@ function WorldRoomDataMgr:onRevEnterNewWord( event )
 			controler:updateActorData(roomInfo)
 		end
 		controler:deriveData()
-		controler:enterRoom()
+		self:enterRoom(data.roomType)
+	end
+end
+
+function WorldRoomDataMgr:enterRoom( roomType )
+	-- body
+	self.roomType = roomType 
+	local controler = self:getControlByRoomType(roomType)
+	local mapCfg = TabDataMgr:getData("WorldMap",roomType)
+	if mapCfg then
+		controler:setMapInfo(mapCfg.mapResource)
+		controler:setModelScale(mapCfg.modelScale)
+		controler:setMoveSpeed(mapCfg.moveSpeed)
+		controler:setMaxPlayerNumInScene(mapCfg.syncPlayerNum)
+		controler:setBornPos(mapCfg.bornPos)
+		controler:setCameraFixZ(mapCfg.cameraScope)
+
+		if mapCfg.controlobj and mapCfg.controlobj ~= 0 then
+			controler:createMainHeroData(mapCfg.controlobj)
+		end
+
+		if mapCfg.cameraSlowMoveSpeed and mapCfg.cameraSlowMoveSpeed ~= 0 then
+			controler:setCameraSlowMoveDel(mapCfg.cameraSlowMoveSpeed / 1000)
+		end
+
+		if mapCfg.synPosTime and mapCfg.synPosTime ~= 0 then
+			controler:setSynPosTime(mapCfg.synPosTime / 1000)
+		end
+
+		if mapCfg.whiteModel == "" then
+			mapCfg.whiteModel = nil
+		end
+		controler:setGhost(mapCfg.whiteModel)
+
+		if mapCfg.playerInterActions then
+			controler:setPlayerInterActions(mapCfg.playerInterActions)
+		end
+	end
+	--清除聊天记录
+	self:clearChatInfoList()
+	
+	controler:enterRoom()
+end
+
+
+function WorldRoomDataMgr:enterCurRoom( )
+	if not self.roomType then -- 没有当前房间类型直接返回主场景
+        AlertManager:changeScene(SceneType.MainScene) 
+		return 
+	end
+	FunctionDataMgr:jWorldRoom(self.roomType)
+end
+
+function WorldRoomDataMgr:getCurWorldMainView(  )
+	-- body
+	if self.roomType == WorldRoomType.ZNQ_WORLD or self.roomType == WorldRoomType.ZNQ_UNION then
+		return requireNew("lua.logic.2020ZNQ.AmusementPackMainView"):new()
+	elseif self.roomType == WorldRoomType.SINGLE then
+		return requireNew("lua.logic.activity.maoka.MaokaMainLayer"):new()
 	end
 end
 
@@ -435,7 +474,7 @@ end
 
 function WorldRoomDataMgr:exitRoom(  )
 	-- body
-	local controler = self:getControlByRoomType(roomType or self.roomType)
+	local controler = self:getCurControl()
 	if controler:exitRoom() then
 		self:reset()
     	OSDConnector:close()
@@ -558,6 +597,26 @@ function WorldRoomDataMgr:onRevAreaShowData(event)
 	if not data then
 		return
 	end
+	EventMgr:dispatchEvent(EV_WORLD_AREA_DATA,data)
+end
+
+function WorldRoomDataMgr:onRevAreaRiddlesData(event)
+	local data = event.data
+	if not data then
+		return
+	end
+	local controler = self:getExtDataControlByType(data.roomType)
+	controler:parseAllRiddlesData(data)
+	EventMgr:dispatchEvent(EV_WORLD_AREA_DATA,data)
+end
+
+function WorldRoomDataMgr:onRevUpdateAreaRiddlesData(event)
+	local data = event.data
+	if not data then
+		return
+	end
+	local controler = self:getExtDataControlByType(data.roomType)
+	controler:parseRiddlesData(data)
 	EventMgr:dispatchEvent(EV_WORLD_AREA_DATA,data)
 end
 

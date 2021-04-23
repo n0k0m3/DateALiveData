@@ -269,7 +269,7 @@ end
 
 function FubenFlightSquadView:makeFormationData(heroData, type_, id)
     return {
-        data = heroData,
+        data = clone(heroData),
         type = type_,
         id = id,
     }

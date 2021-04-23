@@ -23,6 +23,7 @@ function SummonMainView:initUI(ui)
     self.Button_summon = TFDirector:getChildByPath(Image_summon, "Button_summon")
     self.Label_summon_en = TFDirector:getChildByPath(Image_summon, "Label_summon_en")
     self.Image_upTips = TFDirector:getChildByPath(Image_summon, "Image_upTips")
+    self.Image_summon_tip = TFDirector:getChildByPath(Image_summon, "Image_summon_tip")
 
     local Image_compose = TFDirector:getChildByPath(self.Panel_root, "Image_compose")
     self.Label_compose = TFDirector:getChildByPath(Image_compose, "Label_compose")
@@ -59,7 +60,10 @@ end
 function SummonMainView:onShow()
     self.super.onShow(self)
     self:removeLockLayer()
-    local isShow = SummonDataMgr:isShowRedPointInMainView()
+
+    local summonRed = SummonDataMgr:isSummonRedShow()
+    self.Image_summon_tip:setVisible(summonRed)
+    local isShow = SummonDataMgr:isComposeRedShow()
     self.Image_compose_tip:setVisible(isShow)
     self:timeOut(function()
         GameGuide:checkGuide(self);

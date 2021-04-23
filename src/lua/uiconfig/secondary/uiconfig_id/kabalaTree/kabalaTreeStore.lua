@@ -717,7 +717,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "2",
+									height = "100",
 									ignoreSize = "True",
 									name = "Image_coin",
 									scaleX = "0.7",
@@ -733,7 +733,7 @@ local t =
 										PositionX = 320,
 										PositionY = -220,
 									},
-									width = "2",
+									width = "100",
 									ZOrder = "1",
 								},
 								{

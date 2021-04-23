@@ -1,4 +1,5 @@
 local Utils = Utils or {}
+local UtilsCheckCondFunc = import(".UtilsCheckCondFunc")
 
 -- scrollView -> TableView
 function Utils:scrollView2TableView(scrollView)
@@ -32,27 +33,28 @@ function Utils:showNoticeNode( parent, content )
         return layer
 end
 
-function Utils:showAnitAddictionLayer(lastTime, isVisible)
-    if not lastTime then
+function Utils:showAnitAddictionLayer()
+    local currentScene = Public:currentScene()
+    if currentScene.__cname == "LoginScene" then
         return
     end
 
     -- 剩余时间 不超过配置不显示 （第一个为最大时间）
     local maxSec = Utils:getKVP(20003, "antiwarn")[1] * 60
-    if lastTime > maxSec then
+    if MainPlayer.warnTimeKeep > maxSec then
         return
     end
     
     local node = me.Director:getNotificationNode()
     local layer
     if not node:getChildByName("AnitAddictionLayer") then
-        layer = requireNew("lua.logic.common.AntiAddictionlayer"):new(lastTime, node:getScale(), isVisible)
+        layer = requireNew("lua.logic.common.AntiAddictionlayer"):new(node:getScale())
         layer:setName("AnitAddictionLayer")
         node:addChild(layer)
     else
         layer = node:getChildByName("AnitAddictionLayer")
-        layer:setTime(lastTime)
     end
+    layer:timeShowFunc()
 end
 
 function Utils:setVisibleAnitAddictionLayer(isVisible)
@@ -67,7 +69,7 @@ function Utils:closeAnitAddictionLayer()
     local node = me.Director:getNotificationNode()
     local layer = node:getChildByName("AnitAddictionLayer")
     if layer then
-        layer:removerlayer()
+        layer:removeFromParent()
     end
 end
 
@@ -267,24 +269,21 @@ function Utils:showRewardEx(rewardList,staticRewardList,hideCallBack,titleId)
     local isSkyCardCnt = 0
     for k,v in ipairs(rewardList) do
         local itemCfg = GoodsDataMgr:getItemCfg(v.id)
-        if itemCfg == nil then
-            Bugly:ReportLuaException("Utils:showReward: ========================= " .. tostring(v.id))
-        else
-            if itemCfg.superType == EC_ResourceType.SKYLADDER then
-                if itemCfg.subType == 1 then
+        if itemCfg.superType == EC_ResourceType.SKYLADDER then
+            if itemCfg.subType == 1 then
+                isSkyCardCnt = isSkyCardCnt + 1
+                table.insert(cardList,{id = v.id,num = v.num})
+            else
+                local cardId = SkyLadderDataMgr:getCovertOrigalId(v.id)
+                if cardId then
                     isSkyCardCnt = isSkyCardCnt + 1
-                    table.insert(cardList,{id = v.id,num = v.num})
-                else
-                    local cardId = SkyLadderDataMgr:getCovertOrigalId(v.id)
-                    if cardId then
-                        isSkyCardCnt = isSkyCardCnt + 1
-                        table.insert(cardList,{id = cardId,num = v.num})
-                    end
+                    table.insert(cardList,{id = cardId,num = v.num})
                 end
             end
-            if itemCfg.isHide then
-                table.remove(rewardList,k)
-            end
+        end
+
+        if itemCfg.isHide then
+            table.remove(rewardList,k)
         end
     end
 
@@ -570,7 +569,7 @@ function Utils:openView(moduleName, ...)
         view:setAnchorPoint(me.p(0.5,0.5))
         currentScene:addCustomLayer(view)
     else
-        AlertManager:addLayer(view)
+        AlertManager:addLayer(view, view.block)
         AlertManager:show()
         if table.indexOf(not_cache_views,view.__cname) == -1 then  --排除不需要缓存的ui
             AlertManager:addMainSceneLayerParamsCache(view.__cname, moduleName, ...)
@@ -597,16 +596,12 @@ function Utils:setAliginCenterByListView(listView, isHorizontal)
     listView:setContentSize(size)
 end
 
-function Utils:format_number(count)
-    local pow_6 = math.pow(10, 5)
-    local pow_8 = math.pow(10, 7)
+function Utils:format_number(count,boundaryNumber)
+    boundaryNumber = boundaryNumber or math.pow(10, 6)
     local rets = tostring(count)
-    if count < pow_8 and count >= pow_6 then
-        local foo = math.floor(count / math.pow(10, 3))
+    if count >= boundaryNumber then
+        local foo = math.floor(count / 1000)
         rets = tostring(foo) .. "k"
-    elseif count >= pow_8 then
-        local foo = math.floor(count / math.pow(10, 6))
-        rets = tostring(foo) .. "m"
     end
     return rets
 end
@@ -614,7 +609,7 @@ end
 function Utils:format_number_w(count, boundaryNumber)
     boundaryNumber = boundaryNumber or math.pow(10, 5)
     local rets = tostring(count)
-    if count > boundaryNumber then
+    if count >= boundaryNumber then
         local foo = math.floor(count / 10000)
         rets = tostring(foo) .. "w"
     end
@@ -996,9 +991,14 @@ function Utils:getLocalDate(timestamp)
 end
 
 function Utils:getChineseNumber(number)
+    if not number then
+        return ""
+    end
+
     if not ((TFLanguageMgr:getUsingLanguage() == cc.SIMPLIFIED_CHINESE) or (TFLanguageMgr:getUsingLanguage() == cc.TRADITIONAL_CHINESE)) then
         return number
     end
+
     local retTab = {}
     if number < 10000 then
         local bits = #tostring(number)
@@ -1435,12 +1435,15 @@ function Utils:randomAD(showType)
     return "ui/update/s1.png" , {}
 end
 
-function Utils:showWebView(url,size,noAppend,attach)
+function Utils:showWebView(url,size,noAppend,attach,isInternetExplore)
     if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
         dump({url,size,noAppend,attach})
         return;
     end
-
+    if isInternetExplore then
+        TFDeviceInfo:openUrl(url)
+        return
+    end
     local fullModuleName = string.format("lua.logic.%s", "login.NoticeBoard")
     local view = requireNew(fullModuleName):new()
     AlertManager:addLayer(view,AlertManager.BLOCK)
@@ -1628,13 +1631,14 @@ function Utils:changStrToDate(str)
     local sp1 = string.split(str," ")
     local sp2 = string.split(sp1[1], "-")
     local sp3 = string.split(sp1[2], ":")
-    local _year  = sp2[1]
-    local _month = sp2[2]
-    local _day   = sp2[3]
-    local _hour  = sp3[1]
-    local _minute = sp3[2]
-    local _second = sp3[3]
-    return {day = _day, month = _month,  year = _year, hour = _hour, min = _minute, sec = _second}
+    local _year     = tonumber(sp2[1])
+    local _month    = tonumber(sp2[2])
+    local _day      = tonumber(sp2[3])
+    local _hour     = tonumber(sp3[1])
+    local _minute   = tonumber(sp3[2])
+    local _second   = tonumber(sp3[3])
+    local osTime    = os.time({day = _day, month = _month, year = _year, hour = _hour, minute = _minute, second = _second})
+    return {day = _day, month = _month,  year = _year, hour = _hour, min = _minute, sec = _second}, osTime
 end
 
 -- 年月日时分秒比较( return (date1 - date2 >= 0))
@@ -1925,14 +1929,12 @@ function Utils:getActivityDateString(startTime, endTime, stringType,_bool)
     local endDate = self:getUTCDate(endTime ,GV_UTC_TIME_ZONE)
     local endDateStr = endDate:fmt(" %Y.%m.%d  %H:%M")
 
-
     if stringType == 1 then
         startDateStr = startDate:fmt("%m.%d")
         endDateStr = endDate:fmt("%m.%d")
     end
     --修改显示活动时间
     --local text1 = TextDataMgr:getText(1710002)
-
     if _bool then
         text1 = ""
     end
@@ -1987,7 +1989,6 @@ function Utils:covertToColorRGB(color)
 
     return colorRGB
 end
-
 
 function Utils:getStoreBuyTipId( extendData, func)
     -- body
@@ -2059,6 +2060,7 @@ function Utils:showTipTool(targetNode, offsetPos)
     tipTool.lastTipsTime = ServerDataMgr:getServerTime()
     tipTool:showAnimIn()
 end
+
 
 function Utils:getIsDayChangeBySaveData( strName )
     local playerId = MainPlayer:getPlayerId()
@@ -2228,6 +2230,32 @@ function Utils:MultiLanguageStringDeal(content)
     return mailInfo.body
 end
 
+--reward = {id,id }
+function Utils:createRewardListHor1(scrollView, rewards)
+    if not scrollView.uilist then
+        scrollView.uilist = UIListView:create(scrollView)
+    end
+
+    local count = #scrollView.uilist:getItems() - table.count(rewards)
+
+    for i = 1,math.abs(count) do
+        if count > 0 then
+            scrollView.uilist:removeItem(1)
+        end
+    end
+
+    for k, id in ipairs(rewards) do
+        local panel_goodsItem = scrollView.uilist:getItem(k)
+        if not panel_goodsItem then
+            panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+            scrollView.uilist:pushBackCustomItem(panel_goodsItem)
+        end
+        PrefabDataMgr:setInfo(panel_goodsItem, tonumber(id))
+        local size = scrollView:getContentSize()
+        panel_goodsItem:setScale(size.height/panel_goodsItem:getContentSize().height)
+    end
+
+end
 
 -- 将数值转成3位一个带逗号
 function Utils:converNumWithComma(num)
@@ -2273,4 +2301,41 @@ function Utils:checkInWorldRoomScene(roomType)
     end
     return false
 end
+
+function Utils:checkFlagIsEnable( flagId, ... ) -- 标记检测条件是否满足
+    -- body
+    local flagCfg = TabDataMgr:getData("Flags",flagId)
+    if not flagCfg then return true end
+    local checkResult = true
+    for k,v in pairs(flagCfg.condition) do
+        if not (UtilsCheckCondFunc["check_"..k] and UtilsCheckCondFunc["check_"..k](v, ...))then
+            checkResult = false
+            break
+        end
+    end
+    return checkResult
+end
+
+function Utils:getFlagData( flagId ) -- 获取标记对应key数据
+    -- body
+    local flagCfg = TabDataMgr:getData("Flags",flagId)
+    if not flagCfg then return true end
+    local returnData = {}
+    for k,v in pairs(flagCfg.condition) do
+        if UtilsCheckCondFunc["get_"..k] then
+            returnData[k] = UtilsCheckCondFunc["get_"..k](v)
+        end
+    end
+    return returnData
+end
+
+function Utils:isOfficialChannel()
+    local platformId = 0
+    if HeitaoSdk then
+        platformId = HeitaoSdk.getplatformId() % 10000
+    end
+
+    return platformId == 101 or platformId == 173 or platformId == 682
+end
+
 return Utils

@@ -62,8 +62,6 @@ require('TFFramework.utils.Crashlytics')
 require('TFFramework.base.me.initME')
 
 require('TFFramework.utils.TFVisibleUtils')
-require('TFFramework.utils.TFLanguageUtils')
-require('TFFramework.utils.TFGlobalUtils')
 --[[--
 	Load Algorithm
 ]]
@@ -124,7 +122,8 @@ else
 end
 
 require("TFFramework.HeitaoSdk.HeitaoSdk")
-
+require('TFFramework.utils.TFLanguageUtils')
+require('TFFramework.utils.TFGlobalUtils')
 --推送
 require("TFFramework.push.TFPush")
 --IMSDK
@@ -137,6 +136,7 @@ collectgarbage("setstepmul", 5000)
 if TFFileUtil:existFile("LuaScript/adapt.lua") then
 	require("LuaScript.adapt")
 end 
+
 
 ------------------------------------------------------info
 SetConcoleTextColor(ConsoleColor.forg.lavender, ConsoleColor.forg.lavender, ConsoleColor.forg.lavender)

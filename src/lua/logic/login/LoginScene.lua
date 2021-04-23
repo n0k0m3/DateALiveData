@@ -33,7 +33,7 @@ function LoginScene:onEnter(re)
 end
 
 function LoginScene:showVideoView(re)
-	if TFGlobalUtils:isConnectEnServer() then
+	if TFGlobalUtils:isConnectEnServer() or TFGlobalUtils:isConnectKoreaTwServer() then
 		self:showVideoViewEngServer(re)
 	else
 		self:showVideoViewMiniServer(re)
@@ -185,19 +185,64 @@ function LoginScene:showVideoViewEngServer( re )
 	    videoView:setEndLoop(true)
 	    videoView:setIshowSkip(true)
 	    videoView:bindSpecicalCompleteCallBack(function()
-	    	videoView:setSkipComplete(false)
-	    	videoView:setIshowSkip(false)
-    		Utils:sendHttpLog("cartoon_finish_J")
-    		local layer = require("lua.logic.login.LoginLayer"):new(self.data)
-			videoView:addTopLayer(layer)
-			layer:setPosition(ccp(-GameConfig.WS.width / 2,-GameConfig.WS.height / 2))
-			self.layer = layer
+	    	self:loginVideoOver()
 	    end)
 	    USE_NATIVE_VLC = OldValue
 	    TFAudio.resumeMusic()
 
 	    self.videoView = videoView
 	end
+end
+
+function LoginScene:loginVideoOver()
+	if self.addedLoginLayer then
+		return
+	end
+	self.addedLoginLayer = true
+	print("9999999999999999999999999")
+	self.videoView:setSkipComplete(false)
+	self.videoView:setIshowSkip(false)
+	Utils:sendHttpLog("cartoon_finish_J")
+	local layer = require("lua.logic.login.LoginLayer"):new(self.data)
+	self.videoView:addTopLayer(layer)
+	layer:setPosition(ccp(-GameConfig.WS.width / 2,-GameConfig.WS.height / 2))
+	self.layer = layer
+end
+
+function LoginScene:changeVideo(path)
+	self.videoView:changeVideo(path)
+	self.layer:hide();
+end
+
+function LoginScene:removeVideoView()
+	if self.videoView then
+		self.videoView:removeFromParent();
+		self.videoView = nil;
+	end
+end
+
+function LoginScene:addLoadingLayer(layer)
+	if self.videoView then
+		self.videoView:addLoadingLayer(layer,999)
+	end
+end
+
+function LoginScene:addCustomLayer(layer)
+	if self.videoView then
+		self.videoView:addCustomLayer(layer,999)
+	end
+end
+
+
+function LoginScene:onExit()
+	self.super.onExit(self)
+	Utils.isInMovieScene = false
+end
+
+function LoginScene:onKeyBack()
+    if self.layer then
+    	self.layer:onKeyBack()
+    end
 end
 
 return LoginScene;

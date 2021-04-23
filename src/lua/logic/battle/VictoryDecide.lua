@@ -57,8 +57,8 @@ function VictoryDecide.init(data, agent)
         -- this.nSecondTime    = cfg.victoryParam[1]
         -- this.nRemainingTime = cfg.victoryParam[1]*1000
         this.nSecondTime    = BattleDataMgr:getLevelCfg().time   --this.data.time 
-        this.nRemainingTime = this.nSecondTime*1000
-        this.nTime          = this.nRemainingTime  --总时间
+        this.nTime = this.nSecondTime*1000
+        this.nRemainingTime = this.nTime
     end
     this.nStartTime = BattleUtils.gettime()
 end
@@ -81,13 +81,12 @@ end
 --设置剩余时间(高级组队用)
 function VictoryDecide.setRemainime(time)
     this.nSecondTime    = time 
-    this.nRemainingTime = this.nSecondTime*1000
-    this.nTime          = this.nRemainingTime  --总时间
+    this.nTime          = this.nSecondTime*1000
+    this.nRemainingTime = this.nTime  --总时间
 end
 
 --修正剩余时间
 function VictoryDecide.fixRemainime(passTime)
-    this.nRemainingTime = this.nTime - passTime
     this.countDown(0)
 end
 
@@ -126,7 +125,7 @@ function VictoryDecide.doSlain(hero)
     if this.nViewType == EC_LevelPassCond.TIMING then --殺怪增加時間
         if this.agent:isRun() then --游戏结束停止增加事件
             if data.killTime then --增加時間(秒)
-                this.nRemainingTime = this.nRemainingTime + data.killTime*1000
+                this.nTime = this.nTime + data.killTime*1000
                 this.countDown(0)
             end
         end
@@ -327,7 +326,7 @@ end
 
 function VictoryDecide.countDown(dt)
     if this.nRemainingTime > 0 then
-        this.nRemainingTime = VictoryDecide.calcRemainime(dt)
+        this.nRemainingTime = this.nTime - this.agent.getTime()
         this.nRemainingTime = math.max(this.nRemainingTime,0)
         local second = math.floor(this.nRemainingTime/1000)
         if second ~= this.nSecondTime then

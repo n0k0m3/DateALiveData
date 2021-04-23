@@ -14,6 +14,7 @@ end
 
 function PersonInfoBase:ctor(...)
     self.super.ctor(self)
+    self.block = AlertManager.BLOCK
     self:initData(...)
     self:showPopAnim(true)
     self:init("lua.uiconfig.activity.znq_yly_info")
@@ -71,8 +72,10 @@ function PersonInfoBase:addTabItem()
     local Panel_tabItem = self.Panel_tabItem:clone()
     local foo = {}
     foo.root = Panel_tabItem
+    foo.Image_normal = TFDirector:getChildByPath(foo.root, "Image_normal")
     foo.select = TFDirector:getChildByPath(foo.root, "select")
-    foo.Label_cn = TFDirector:getChildByPath(foo.root, "Label_cn")
+    foo.Label_cn = TFDirector:getChildByPath(foo.Image_normal, "Label_cn")
+    foo.Label_cn_s = TFDirector:getChildByPath(foo.select, "Label_cn")
     foo.Label_en = TFDirector:getChildByPath(foo.root, "Label_en")
     foo.redTip = TFDirector:getChildByPath(foo.root, "Image_red_tip"):hide()
     self.tabItem_[foo.root] = foo
@@ -85,6 +88,7 @@ function PersonInfoBase:updateTabItem(index)
     local item = self.ListView_tab:getItem(index)
     local foo = self.tabItem_[item]
     foo.Label_cn:setTextById(info.nameCN)
+    foo.Label_cn_s:setTextById(info.nameCN)
     foo.Label_en:setTextById(info.nameEN)
     
     foo.root:onClick(function()
@@ -102,8 +106,7 @@ function PersonInfoBase:selectTabItem(index, force)
         local isSelect = i == index
         local foo = self.tabItem_[v]
         foo.select:setVisible(isSelect)
-        foo.Label_cn:setColor(isSelect and ccc3(109,120,198) or ccc3(155,198,242))
-        foo.Label_en:setColor(isSelect and ccc3(233,172,240) or ccc3(157,153,217))
+        foo.Image_normal:setVisible(not isSelect)
     end
 
     local model = self.loadedModel_[index]

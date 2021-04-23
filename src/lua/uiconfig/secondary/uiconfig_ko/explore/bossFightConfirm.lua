@@ -144,7 +144,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -161,7 +161,7 @@ local t =
 										PositionX = -354,
 										PositionY = 181,
 									},
-									width = "116",
+									width = "110",
 									ZOrder = "1",
 								},
 								{
@@ -279,7 +279,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "遭遇敌人袭击，是否前往迎敌？遭遇敌人袭击，是否前往迎敌？",
+											text = "TextLable",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -326,7 +326,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "boss名字",
+									text = "보스 이름",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -334,7 +334,7 @@ local t =
 										PositionX = -307,
 										PositionY = 125,
 									},
-									width = "83",
+									width = "79",
 									ZOrder = "1",
 								},
 								{
@@ -465,14 +465,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "攻击：10",
+													text = "공격",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = -233,
 													},
-													width = "81",
+													width = "37",
 													ZOrder = "1",
 												},
 												{
@@ -517,7 +517,7 @@ local t =
 													{
 														PositionX = -12,
 													},
-													width = "21",
+													width = "24",
 													ZOrder = "1",
 												},
 												{
@@ -555,14 +555,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "生命：1000",
+													text = "HP",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "103",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -600,14 +600,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "生命：1000",
+													text = "HP",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = 229,
 													},
-													width = "103",
+													width = "28",
 													ZOrder = "1",
 												},
 											},
@@ -675,7 +675,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "攻击：10",
+													text = "공격",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -683,7 +683,7 @@ local t =
 														PositionX = -233,
 														PositionY = -1,
 													},
-													width = "81",
+													width = "37",
 													ZOrder = "1",
 												},
 												{
@@ -729,7 +729,7 @@ local t =
 														PositionX = -12,
 														PositionY = -1,
 													},
-													width = "21",
+													width = "24",
 													ZOrder = "1",
 												},
 												{
@@ -767,14 +767,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "生命：1000",
+													text = "HP",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -1,
 													},
-													width = "103",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -812,7 +812,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "生命：1000",
+													text = "HP",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -820,7 +820,7 @@ local t =
 														PositionX = 230,
 														PositionY = -1,
 													},
-													width = "103",
+													width = "28",
 													ZOrder = "1",
 												},
 											},
@@ -918,7 +918,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "作战掉落",
+													text = "작전 드랍",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -926,7 +926,7 @@ local t =
 														PositionX = -54,
 														PositionY = -1,
 													},
-													width = "83",
+													width = "79",
 													ZOrder = "1",
 												},
 											},
@@ -989,7 +989,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "32",
+													height = "30",
 													ignoreSize = "True",
 													name = "Label_btn",
 													nTextAlign = "1",
@@ -1005,7 +1005,7 @@ local t =
 													{
 														
 													},
-													width = "55",
+													width = "49",
 													ZOrder = "1",
 												},
 											},

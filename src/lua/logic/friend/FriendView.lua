@@ -255,7 +255,6 @@ function FriendView:initUI(ui)
     self.Panel_shielding:addChild(self.label_empyTetx_shielding)
 
 
-
     -- 师徒
     self.Panel_master              = TFDirector:getChildByPath(self.Panel_root, "Panel_master")
     local masterTableview          = TFDirector:getChildByPath(self.Panel_root, "ScrollView_master")

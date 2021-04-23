@@ -6,14 +6,14 @@ local enum_visi_type = {
     hide = 2                    --都不可见
 }
 
-function TeamRoomSettingView:ctor(isCreateRoom,teamType,confirmCallBack)
+function TeamRoomSettingView:ctor(isCreateRoom,teamType,confirmCallBack,lvlLimit)
     self.super.ctor(self)
-    self:initData(isCreateRoom,teamType,confirmCallBack)
+    self:initData(isCreateRoom,teamType,confirmCallBack,lvlLimit)
     self:showPopAnim(true)
     self:init("lua.uiconfig.teamFight.teamRoomSettingView")
 end
 
-function TeamRoomSettingView:initData(isCreateRoom,teamType,confirmCallBack)
+function TeamRoomSettingView:initData(isCreateRoom,teamType,confirmCallBack,lvlLimit)
 
     self.maxWaitingTime = Utils:getKVP(17001,"time")
     self.createTeamWaitTime = Utils:getKVP(21005,"time")
@@ -21,7 +21,11 @@ function TeamRoomSettingView:initData(isCreateRoom,teamType,confirmCallBack)
     self.isCreateRoom = isCreateRoom
     self.maxLevel_ =  MainPlayer:getMaxPlayerLevel() or 100
     self.curLimitLevel = 1
-    self.defaultLevel = 1
+    if lvlLimit then
+        self.curLimitLevel = lvlLimit[1] or self.curLimitLevel
+        self.maxLevel_ = lvlLimit[2] or self.maxLevel_
+    end
+    self.defaultLevel = self.curLimitLevel
     self.teamType = teamType
     self.confirmCallBack = confirmCallBack
     self.isOpenAutoMatch = false

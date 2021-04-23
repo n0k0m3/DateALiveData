@@ -118,8 +118,6 @@ function WarOrderView:updateTaskGiftItem(item,itemInfo)
     else
         Label_price:setTextById(1300015)
     end
-    Label_price:setAnchorPoint(ccp(0.5 , 0.5))
-     Label_price:setPositionX(0)
 
     local Label_num     = TFDirector:getChildByPath(item,"Label_num")
     Label_num:setTextById(tonumber(itemInfo.details))
@@ -138,7 +136,6 @@ function WarOrderView:updateTaskGiftItem(item,itemInfo)
     else
         Label_countdown:setText(itemInfo.extendData.des2 or "")
     end
-
 
     local Image_new = TFDirector:getChildByPath(item,"Image_new"):hide()
     local Image_title_di = TFDirector:getChildByPath(item,"Image_title_di"):hide()

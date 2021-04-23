@@ -15,6 +15,11 @@ local DiceState = {
     START = "q",
     TURN = "z",
 }
+local StepCount = {
+	300201,
+	300202,
+	300203
+}
 
 local SzdyView = class("SzdyView", BaseLayer)
 function SzdyView:ctor(...)
@@ -41,6 +46,9 @@ function SzdyView:initData(activityId,costCount)
 	self.stationPoint = nil
 	self.firstRound = true
 	self.resetAnimationPlaying = false
+	self.surpriseRewards = nil
+
+	self.btnEnabled = true
 
 	self.speedScale = self.activityInfo.extendData.speed or 10000
 	self.speedScale = self.speedScale / 10000
@@ -73,12 +81,52 @@ function SzdyView:initUI(ui)
 	self.restoreTime = TFDirector:getChildByName(ui, "restoreTime")
 	self.restoreTime:setText("")
 
-	self.intervalSpace = ccs(self.content.size.width / 10, self.content.size.height / 5)
+	self.Panel_Surprise = TFDirector:getChildByName(ui, "Panel_Surprise"):show()
+	self.Panel_Surprise.ShieldLayer = TFDirector:getChildByName(self.Panel_Surprise, "ShieldLayer"):Hide()
+	self.Panel_Surprise.ShieldLayer:setTouchEnabled(true)
+	self.Panel_Surprise.ShieldLayer:setSwallowTouch(true)
+	self.Panel_Surprise.ShieldLayer:addMEListener(TFWIDGET_CLICK,function(widget)		
+		widget:hide()
+		self.Panel_Surprise.Panel_pray:setOpacity(0)
+		self.Panel_Surprise.Panel_pray:hide()	
+		self.Panel_Surprise.Spine_surprise:stopAllActions()
+		self.Panel_Surprise.Spine_surprise:hide()
+		if self.surpriseRewards and table.count(self.surpriseRewards) > 0 then
+			Utils:showReward(self.surpriseRewards, nil, function()
+				self.surpriseRewards = nil
+				self:endRound()
+			end)
+		end
+	end)
+	self.Panel_Surprise.Panel_pray = TFDirector:getChildByName(self.Panel_Surprise, "Panel_pray"):show()
+	self.Panel_Surprise.Panel_pray:setOpacity(0)	
+
+	self.Panel_Surprise.Spine_surprise = TFDirector:getChildByName(self.Panel_Surprise, "Spine_surprise"):Hide()
+	self.Panel_Surprise.Spine_surprise:addMEListener(
+            TFARMATURE_COMPLETE,
+            function(_, aniName)
+                if aniName == "animation2" then
+					self.Panel_Surprise.ShieldLayer:show()
+					self.Panel_Surprise.Panel_pray:show()
+					self.Panel_Surprise.Panel_pray:runAction(FadeIn:create(0.2))
+					self.Panel_Surprise.Spine_surprise:play("animation", true)
+                end
+            end)
+
+	self.intervalSpace = ccs(self.content.size.width / 8, self.content.size.height / 6)
 
 	self.touch_mask = TFDirector:getChildByName(ui, "touch_mask")
 	self.touch_mask:setTouchEnabled(true)
 	self.touch_mask:setSwallowTouch(true)
 	self:showToushShield(false)
+
+	self.Panel_share = TFDirector:getChildByName(ui, "Panel_share")
+	self.ScrollView_reward = UIListView:create( TFDirector:getChildByName(self.Panel_share, "ScrollView_reward"))
+
+	self.Button_share = TFDirector:getChildByName(ui, "Button_share")
+	self.Button_share:onClick(function()
+		Utils:openView("activity.SzdyShareView", self.activityId)
+	end)
 
 	self.Button_throw = TFDirector:getChildByName(ui, "Button_throw")
 	self.Button_throw.effect = TFDirector:getChildByName(self.Button_throw, "throwEffect")
@@ -102,14 +150,28 @@ function SzdyView:initUI(ui)
 			function(...)
 			    self.resetAnimationPlaying = false
 				self:updateData()
-			end
-        )
+			end)
+
+	self:addShareReward()
 
 	self:runDiceEffect(self:getDiceAnimation(1, DiceState.IDLE),true)
+
+end
+
+function SzdyView:addShareReward()
+	self.ScrollView_reward:removeAllItems()
+	local taskInfo = ActivityDataMgr2:getItemInfo(self.activityInfo.activityType, self.activityInfo.items[2])
+	local rewards = taskInfo.reward or {}
+	for k, v in pairs( rewards) do
+		local item = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+		PrefabDataMgr:setInfo(item, k, v)
+		item:setScale(0.7)
+		self.ScrollView_reward:pushBackCustomItem(item)
+	end	
 end
 
 function SzdyView:getDiceAnimation(point, state)
-    local name = "huang" .. point .. state
+    local name = "hong" .. point .. state
     return name
 end
 
@@ -123,8 +185,19 @@ function SzdyView:registerEvents()
 	end)
 
 	self.Button_throw:onClick(function()
+		if self.btnEnabled == false or self.Panel_Surprise.Spine_surprise:isVisible() then
+			return 
+		end
+
 		if self.resetAnimationPlaying == false then
-			ActivityDataMgr2:requestSZQYStep(self.activityId)
+			if GoodsDataMgr:getItemCount(self.costItemId) > 0 then
+				self:showToushShield(true)
+				self.btnEnabled = false
+				self:timeOut(function() self.btnEnabled = true end, 0.5)
+				ActivityDataMgr2:requestSZQYStep(self.activityId)				
+			else
+				Utils:showAccess(self.costItemId)
+			end
 		end
 	end)
 
@@ -149,7 +222,7 @@ function SzdyView:getPositionByIdx(index)
 	local x = index % 10 + 1	
 	local y = math.floor(index / 10)
 
-	return ccp(self.Prefab_Step.size.width / 2 + (x-1) * (self.intervalSpace.width + 10), self.content.size.height - self.Prefab_Step.size.height / 2 - y * self.intervalSpace.height - 70)
+	return ccp(self.Prefab_Step.size.width / 2 + (x-1) * (self.intervalSpace.width + 1), self.content.size.height - self.Prefab_Step.size.height / 2 - y * (self.intervalSpace.height + 1.7))
 end
 
 function SzdyView:refreshView()
@@ -180,15 +253,15 @@ function SzdyView:initStep(item, config, idx)
 	item.Icon		= item:getChildByName("Icon")
 	item.item_num	= item:getChildByName("item_num")
 	item.ImageGet	= item:getChildByName("get")
+	item.stepTip	= item:getChildByName("stepTip"):hide()
 	item.ImageGet:Hide()
 	item.Icon:Hide()
 	item.item_num:Hide()
 	item.item_pos:Hide()
 	item.bg:Show()
-	item.bg:setTexture(config.icon1)
 
 	local function __showReward()
-		item.Icon:Hide()
+		--item.Icon:Hide()
 		item.item_pos:Show()
 		local rewards = self:getRewardConfig(config)
 		if rewards[1] then			
@@ -211,24 +284,33 @@ function SzdyView:initStep(item, config, idx)
 		end
 	end
 	if config.type ==  StepType.None then
-		item.Icon:Hide()
+		item.Icon:setTexture(config.icon1)
+		item.Icon:show()
 	elseif config.type ==  StepType.GoHead then
-		item.Icon:show()
-		item.Icon:setTexture(config.icon2)
+		local text1 = TextDataMgr:getText(63854)
+		local text2 = TextDataMgr:getText(StepCount[ math.abs(config.reward.step)])
+		local text = string.format(text1, text2)
+		item.stepTip:show()
+		item.stepTip:setString(text)
 	elseif config.type ==  StepType.GoBack then
-		item.Icon:show()
-		item.Icon:setTexture(config.icon2)
+		item.stepTip:show()
+		local text1 = TextDataMgr:getText(63853)
+		local text2 = TextDataMgr:getText(StepCount[ math.abs(config.reward.step)])
+		local text = string.format(text1, text2)
+		item.stepTip:show()
+		item.stepTip:setString(text)
 	elseif config.type ==  StepType.Item then
 		__showReward()
-
 	elseif config.type ==  StepType.EndBox then
+		item.Icon:show()
+		item.Icon:setTexture(config.icon1)
 		__showReward()
 	elseif config.type ==  StepType.Dice then
 		item.Icon:show()
-		item.Icon:setTexture(config.icon2)
+		item.Icon:setTexture(config.icon1)
 	elseif config.type ==  StepType.Start then
 		item.Icon:show()
-		item.Icon:setTexture(config.icon2)
+		item.Icon:setTexture(config.icon1)
 	end
 end
 
@@ -265,6 +347,8 @@ function SzdyView:updateData()
 
 	self:resetStepData()
 
+	self:showToushShield(false)	
+
 	self:refreshView()
 
 	self:stepToDirect(self.data.location + 1)
@@ -278,12 +362,21 @@ function SzdyView:startStep(data)
 	self:resetStepData()
 
 	self.stepData = data
+	if data == nil then
+		print("时之契约单步数据为空!!!!!!")
+		return
+	end	
+
 	if self.route[self.stationPoint] == nil then
 		return
 	end
 
 	local curOrder = self.route[self.stationPoint].idx
-	for k,v in ipairs(data.locations or {}) do
+	local locations = clone(data.locations)
+	if data.tiggerClear == true and #locations > 0 then
+		table.remove(locations, #locations)
+	end
+	for k,v in ipairs(locations or {}) do
 		if v ~= 0 then
 			local luaIdx = v + 1
 			local offset = luaIdx - curOrder
@@ -294,8 +387,6 @@ function SzdyView:startStep(data)
 			curOrder = v + 1
 		end
 	end
-
-	self:showToushShield(true)
 
 	self.Label_DiceNum:setText(GoodsDataMgr:getItemCount(self.costItemId))
 
@@ -318,9 +409,10 @@ end
 
 function SzdyView:stepTo(index)
 	if nil == index then
-		self.Role.Spine_role:play("idle", true)
-		self:resetStepData()	
+		self.Role.Spine_role:play("idle", true)			
 		self:doEvents()
+		self:resetStepData()
+		self:showToushShield(false)	
 		return;
 	end
 
@@ -355,14 +447,20 @@ end
 function SzdyView:resetStepData()
 	self.stepIndex = 1
 	self.stepPath = {}
-	self.stepData = nil
-	self:showToushShield(false)	
+	self.stepData = nil	
 end
 
 function SzdyView:doEvents(force)
 	local route = self.route[self.stationPoint]
 	if route == nil then
 		return;
+	end
+
+	if self.stepData and self.stepData.triggerClear == true then		--触发获得全部事件
+		self.surpriseRewards = clone(self.stepData.rewards)		
+		self.Panel_Surprise.Spine_surprise:show()
+		self.Panel_Surprise.Spine_surprise:play("animation2", false)
+		return
 	end
 
 	local hadGot = ActivityDataMgr2:getCurrentRewards()

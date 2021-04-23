@@ -212,9 +212,8 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -150,
-										PositionY = -4,
 									},
-									width = "122",
+									width = "113",
 									ZOrder = "1",
 								},
 								{
@@ -258,9 +257,8 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -87,
-										PositionY = -4,
 									},
-									width = "157",
+									width = "143",
 									ZOrder = "1",
 								},
 							},
@@ -271,11 +269,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "47",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_remain_count",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -285,10 +283,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 493,
+								PositionX = 519,
 								PositionY = 217,
 							},
-							width = "388",
+							width = "600",
 							ZOrder = "1",
 							components = 
 							{
@@ -297,7 +295,7 @@ local t =
 									controlID = "Label_remain_title_Image_remain_count_Panel_root_Panel-fubenDailyView_Layer1_fuben_Game",
 									UUID = "57047e1f_099b_4250_9762_1ed603a837c6",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -312,15 +310,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "28",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "32",
+									ignoreSize = "True",
 									name = "Label_remain_title",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -333,10 +331,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -186,
-										PositionY = -3,
+										PositionX = -81,
 									},
-									width = "91",
+									width = "199",
 									ZOrder = "1",
 								},
 								{
@@ -379,10 +376,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -87,
-										PositionY = -3,
+										PositionX = -76,
 									},
-									width = "60",
+									width = "63",
 									ZOrder = "1",
 								},
 								{
@@ -408,7 +404,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 5,
+										PositionX = 15,
+										PositionY = 3,
 									},
 									UItype = "Button",
 									width = "44",
@@ -1217,7 +1214,7 @@ local t =
 										PositionX = 1,
 										PositionY = -53,
 									},
-									width = "88",
+									width = "89",
 									ZOrder = "2",
 								},
 								{
@@ -1262,7 +1259,7 @@ local t =
 									{
 										PositionY = -102,
 									},
-									width = "45",
+									width = "46",
 									ZOrder = "1",
 								},
 								{

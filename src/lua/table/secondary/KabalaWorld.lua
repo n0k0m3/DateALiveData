@@ -38,7 +38,7 @@ return {
         strongpointEvent = {
         },
         pollutionDeepen = 10000,
-        dateBegin = "2021-02-26 08:00:00",
+        dateBegin = "2021-04-28 08:00:00",
         mapDocumentRandom = {
             [1] = 105001,
         },
@@ -192,7 +192,7 @@ return {
             [2] = 570101,
             [3] = 570106,
         },
-        dateEnd = "2021-03-01 08:00:00",
+        dateEnd = "2021-05-01 08:00:00",
         unlockBuff = {
         },
         scanCost = {
@@ -442,7 +442,7 @@ return {
         strongpointEvent = {
         },
         pollutionDeepen = 10000,
-        dateBegin = "2021-03-02 08:00:00",
+        dateBegin = "2021-05-02 08:00:00",
         mapDocumentRandom = {
             [1] = 106001,
         },
@@ -596,7 +596,7 @@ return {
             [2] = 570101,
             [3] = 570107,
         },
-        dateEnd = "2021-03-05 08:00:00",
+        dateEnd = "2021-05-05 08:00:00",
         unlockBuff = {
         },
         scanCost = {
@@ -830,7 +830,7 @@ return {
         strongpointEvent = {
         },
         pollutionDeepen = 10000,
-        dateBegin = "2021-03-06 08:00:00",
+        dateBegin = "2021-05-06 08:00:00",
         mapDocumentRandom = {
             [1] = 104002,
         },
@@ -969,7 +969,7 @@ return {
             [2] = 570101,
             [3] = 570105,
         },
-        dateEnd = "2021-03-09 08:00:00",
+        dateEnd = "2021-05-09 08:00:00",
         unlockBuff = {
         },
         scanCost = {

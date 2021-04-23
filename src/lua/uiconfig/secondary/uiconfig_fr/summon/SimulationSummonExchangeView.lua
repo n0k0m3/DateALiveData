@@ -1117,7 +1117,7 @@ local t =
 									sizeType = "0",
 									srcBlendFunc = "1",
 									texturePath = "ui/fairy/new_ui/new_15.png",
-									touchAble = "False",
+									touchAble = "True",
 									UILayoutViewModel = 
 									{
 										PositionX = -216,
@@ -1461,7 +1461,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "103",
+									height = "102",
 									ignoreSize = "True",
 									name = "Image_lock",
 									sizepercentx = "0",
@@ -1474,7 +1474,7 @@ local t =
 									{
 										
 									},
-									width = "431",
+									width = "434",
 									ZOrder = "1",
 								},
 							},

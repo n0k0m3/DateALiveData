@@ -224,7 +224,7 @@ local t =
 										PositionX = -230,
 										PositionY = 202,
 									},
-									width = "86",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -262,7 +262,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "奖励规则",
+									text = "보상 규칙",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -270,7 +270,7 @@ local t =
 										PositionX = -299,
 										PositionY = 208,
 									},
-									width = "114",
+									width = "109",
 									ZOrder = "1",
 								},
 								{
@@ -322,14 +322,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_tip",
 									nTextAlign = "1",
@@ -493,7 +493,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "第1名",
+									text = "1등",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -501,7 +501,7 @@ local t =
 										PositionX = -337,
 										PositionY = 42,
 									},
-									width = "56",
+									width = "35",
 									ZOrder = "1",
 								},
 								{
@@ -639,7 +639,7 @@ local t =
 												PositionX = 9,
 												PositionY = -2,
 											},
-											width = "45",
+											width = "42",
 											ZOrder = "1",
 										},
 									},

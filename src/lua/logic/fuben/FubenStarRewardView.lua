@@ -5,7 +5,10 @@ function FubenStarRewardView:initData(levelGroupId, diff)
     self.levelGroupId_ = levelGroupId
     self.levelGroupCfg_ = FubenDataMgr:getLevelGroupCfg(levelGroupId)
     self.levelGroupInfo_ = FubenDataMgr:getLevelGroupInfo(levelGroupId)
-    self.diffReward_ = self.levelGroupCfg_.reward[diff] or {}
+    if self.levelGroupCfg_ then
+        self.diffReward_ = self.levelGroupCfg_.reward[diff]
+    end
+    self.diffReward_ = self.diffReward_ or {}
     self.stars_ = table.keys(self.diffReward_)
     table.sort(self.stars_)
     self.diff_ = diff

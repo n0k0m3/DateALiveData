@@ -41,6 +41,7 @@ function BaseLayer:ctor(data)
     self.LayerCreatIndex   = LayerCreatNum
     self.popAnim           = false
     self.rclosing          = false
+    self.disposed          = true
     LayerCreatNum          = LayerCreatNum + 1
 
     local pDirector = CCDirector:sharedDirector();
@@ -217,7 +218,10 @@ end
 -- 清理内存
 function BaseLayer:dispose()
     -- print("BaseLayer dispose..")
-
+    if not self.disposed then
+        return
+    end
+    self.disposed = false
     self:__removeEvents()
     self:removeEvents()
     self:removeUI()

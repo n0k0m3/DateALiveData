@@ -1,7 +1,7 @@
 
 local StoreMainView = class("StoreMainView", BaseLayer)
 
-function StoreMainView:initData(params)
+function StoreMainView:initData(params, isStoreList)
     self.ListView_goods = {}
     self.tabBtn_ = {}
     self.defaultSelectIndex_ = 1
@@ -9,15 +9,20 @@ function StoreMainView:initData(params)
     self.goodsIconMap_ = {}
     local storeId = nil;
     local storeType = EC_StoreType.SUPPLY;
-    if type(params) == "table" and table.count(params) >= 1 then
+    if type(params) == "table" and table.count(params) >= 1 and not isStoreList then
         storeId = params[1]
         storeType = params[2] or EC_StoreType.SUPPLY;
     else
         storeId = params;
     end
 
-    self.storeData_ = StoreDataMgr:getOpenStore(storeType)
+    self.isStoreList = isStoreList
+    if isStoreList then
+        self.storeIds = params
+    end 
+    self.storeType = storeType;
 
+    self:updateStoreData()
     if storeId then
         local index = table.indexOf(self.storeData_, storeId)
         if index ~= -1 then
@@ -38,7 +43,17 @@ function StoreMainView:initData(params)
         end
     end
 
-    self.storeType = storeType;
+end
+
+function StoreMainView:updateStoreData( ... )
+    -- body
+    if  self.isStoreList then
+        self.storeData_ = StoreDataMgr:getOpenStoreByStoreIds(self.storeIds)
+    else
+        self.storeType = self.storeType or EC_StoreType.SUPPLY
+        self.storeData_ = StoreDataMgr:getOpenStore(self.storeType)
+    end
+
 end
 
 function StoreMainView:getClosingStateParams()
@@ -352,14 +367,6 @@ function StoreMainView:updateGoodsItem(item, commodityId)
                         else
                             Utils:openView("store.BuyConfirmView", commodityId)
                         end
-                    -- 大富翁道具卡     
-                    elseif (goodsCfg.superType == EC_ResourceType.DFW_NEW_CARD) then
-                        -- 超出最大拥有数量
-                        if GoodsDataMgr:getItemCount(goodsId) >= goodsCfg.totalMax then
-                            Utils:openView("store.RepeatBuyTipsView", commodityId)
-                        else
-                            Utils:openView("store.BuyConfirmView", commodityId)
-                        end
                     else
                         local costId = commodityCfg.priceType
                         local costNum = commodityCfg.priceVal
@@ -492,8 +499,7 @@ function StoreMainView:updateGoodsItem(item, commodityId)
 end
 
 function StoreMainView:updateData()
-    self.storeType = self.storeType or EC_StoreType.SUPPLY
-    self.storeData_ = StoreDataMgr:getOpenStore(self.storeType)
+    self:updateStoreData()
 end
 
 function StoreMainView:registerEvents()
@@ -566,13 +572,18 @@ function StoreMainView:updateCountDonw()
     local storeId = self.storeData_[self.selectIndex_]
     -- 商店刷新倒计时
     local storeInfo = StoreDataMgr:getStoreInfo(storeId)
-    local remainTime = math.max(0, storeInfo.nextRefreshTime - ServerDataMgr:getServerTime())
-    local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
-    -- local timeVec = string.split(TextDataMgr:getTextAttr(302202).text,"：")
-    if day == "00" then
-        self.Label_countdown_time:setTextById(800027, hour, min)
-    else
-        self.Label_countdown_time:setTextById(800044, day, hour, min)
+    if not storeInfo then
+        return
+    end
+    if storeInfo.nextRefreshTime then
+        local remainTime = math.max(0, storeInfo.nextRefreshTime - ServerDataMgr:getServerTime())
+        local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
+        -- local timeVec = string.split(TextDataMgr:getTextAttr(302202).text,"：")
+        if day == "00" then
+            self.Label_countdown_time:setTextById(800027, hour, min)
+        else
+            self.Label_countdown_time:setTextById(800044, day, hour, min)
+        end
     end
     -- 限时商店倒计时
     self.Label_deadLine:hide()

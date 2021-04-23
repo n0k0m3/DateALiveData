@@ -104,6 +104,7 @@ function SupplyMainNewView:updateAllRed()
 
         -- 战令
         if btnCfg.tabType == ENUM_SUPPLYS.ZHANLIN then
+            local state4 = TaskDataMgr:getDailyAwardRedShow()
             local state5 = TaskDataMgr:getTrainingShopTipsState()
             if self.selectIndex == idx then
                 for i, _item in ipairs(self.topTabListView:getItems()) do
@@ -111,10 +112,13 @@ function SupplyMainNewView:updateAllRed()
                     if _item.id == 5 then -- 战令商店
                         topRedIshow = state5
                     end
+                    if _item.id == 4 then -- 培养专区
+                        topRedIshow = state4
+                    end
                     _item.img_red:setVisible(topRedIshow)
                 end
             end
-            isShwow = state5
+            isShwow = state5 or state4
         end
 
         -- 补给
@@ -139,8 +143,7 @@ function SupplyMainNewView:updateAllRed()
         if btnCfg.tabType == ENUM_SUPPLYS.MONTH_CARD then   
             local havecard = tobool(RechargeDataMgr:getMonthCardLeftTime() > 0)
             local cansign = RechargeDataMgr:isMonthCardCanSign()
-            isShwow = havecard and cansign 
-            
+            isShwow = havecard and cansign      
         end
         -- 周卡
         if btnCfg.tabType == ENUM_SUPPLYS.WEEK_CARD then
@@ -165,7 +168,7 @@ function SupplyMainNewView:selectTabIdx(idx)
         item.Image_select:setVisible(i == self.selectIndex)
     end
 
-    local topBannerDisId = self.tabBtnCfg[idx].topBannerDisId
+    local topBannerDisId = self.tabBtnCfg[idx] and self.tabBtnCfg[idx].topBannerDisId or nil
     local topData = nil
     if nil ~= topBannerDisId then
         self._ui.Image_topBtn:setVisible(true)
@@ -321,33 +324,50 @@ function SupplyMainNewView:getCurTopCanShowData()
         return data
     end
     for i, v in ipairs(data) do
-        if RechargeDataMgr:getLeftGiftCnt(tonumber(v.interface)) > 0 or v.id == 5 then
-            local itemInfo = nil
-            if v.id == 5 then
-                local warOrderActivity = ActivityDataMgr2:getWarOrderAcrivityInfo()
-                if warOrderActivity and warOrderActivity.id then
-                    local trainingTaskData = ActivityDataMgr2:getItems(warOrderActivity.id)
-                    for i,v in ipairs(trainingTaskData) do
-                        if tonumber(warOrderActivity.extendData.daytask) == v then
-                            itemInfo = ActivityDataMgr2:getItemInfo(warOrderActivity.activityType, v)
-                            break
+        if RechargeDataMgr:getLeftGiftCnt(tonumber(v.interface)) > 0 then
+            table.insert(_data ,v)
+        else
+            -- 特殊处理添加
+            if v.id == 5 or v.id == 4 then
+                local needIn = false
+                
+                if v.id == 5 then
+                    local warOrderActivity = ActivityDataMgr2:getWarOrderAcrivityInfo()
+                    if warOrderActivity and warOrderActivity.id then
+                        local trainingTaskData = ActivityDataMgr2:getItems(warOrderActivity.id)
+                        for i, _id in ipairs(trainingTaskData) do
+                            if tonumber(warOrderActivity.extendData.daytask) == _id then
+                                if ActivityDataMgr2:getItemInfo(warOrderActivity.activityType, _id) then
+                                    needIn = true
+                                    break
+                                end
+                            end
                         end
                     end
                 end
+
+                if v.id == 4 then
+                    local taskList = TaskDataMgr:getTask(EC_TaskType.DAY_GETAWARD)
+                    if taskList and table.count(taskList) > 0 then
+                        needIn = true
+                    end
+                end
+
+                if needIn then
+                    table.insert(_data ,v)
+                end
             end
-            if itemInfo then
-                table.insert(_data ,v)
-                break
-            end
-            table.insert(_data ,v)
         end
     end
+
     return _data
 end
 
 function SupplyMainNewView:topBtnClickFunc(idx)
-    local topBannerDisId = self.tabBtnCfg[self.selectIndex].topBannerDisId
     local data = self:getCurTopCanShowData()
+    if not data[idx] then
+        idx = 1
+    end
     for i, item in ipairs(self.topTabListView:getItems()) do
         local normalSrcImg = "ui/supplyNew/"..data[i].icon.."1.png"
         local pressSrcImg = "ui/supplyNew/"..data[i].icon.."2.png"

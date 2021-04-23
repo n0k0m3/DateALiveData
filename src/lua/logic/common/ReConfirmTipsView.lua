@@ -7,7 +7,11 @@ function ReConfirmTipsView:ctor(...)
     else
         self:showPopAnim(true)
     end
-    self:init("lua.uiconfig.common.reConfirmTipsView")
+    if self.showData.uiPath then
+        self:init(self.showData.uiPath )
+    else
+        self:init("lua.uiconfig.common.reConfirmTipsView")
+    end
 end
 
 function ReConfirmTipsView:initData(...)

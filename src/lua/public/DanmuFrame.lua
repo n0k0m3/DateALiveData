@@ -87,6 +87,13 @@ end
 function DanmuFrame:play(  )
 	if not self.runTimer then
 		self.runTimer = TFDirector:addTimer(100,-1,nil,function ( ... )
+			if not self.getDanmu then
+				if self.runTimer then
+					TFDirector:removeTimer(self.runTimer)
+					self.runTimer = nil
+				end
+				return
+			end
 			self:getDanmu()
 		end)
 	end

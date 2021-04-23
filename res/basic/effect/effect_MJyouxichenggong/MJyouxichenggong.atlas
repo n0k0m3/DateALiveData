@@ -11,25 +11,11 @@ baiguyang
   orig: 347, 160
   offset: 0, 0
   index: -1
-de/de
-  rotate: true
-  xy: 964, 857
-  size: 119, 58
-  orig: 119, 58
-  offset: 0, 0
-  index: -1
-en/en
-  rotate: true
-  xy: 904, 761
-  size: 215, 58
-  orig: 215, 58
-  offset: 0, 0
-  index: -1
-es/es
+dian_00000
   rotate: false
-  xy: 496, 938
-  size: 227, 44
-  orig: 227, 44
+  xy: 661, 462
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 final_00047_00000
@@ -39,39 +25,25 @@ final_00047_00000
   orig: 406, 151
   offset: 0, 0
   index: -1
-fr/fr
-  rotate: false
-  xy: 798, 978
-  size: 224, 44
-  orig: 224, 44
-  offset: 0, 0
-  index: -1
 huangse
   rotate: false
-  xy: 912, 626
+  xy: 496, 951
   size: 40, 31
   orig: 42, 33
   offset: 1, 1
   index: -1
-id/id
+ji_00000
   rotate: false
-  xy: 692, 603
-  size: 218, 51
-  orig: 218, 51
+  xy: 713, 462
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
-ko/ko1
-  rotate: true
-  xy: 964, 761
-  size: 94, 50
-  orig: 94, 50
-  offset: 0, 0
-  index: -1
-ko/ko2
-  rotate: true
-  xy: 903, 659
-  size: 100, 49
-  orig: 100, 49
+sheng_00000
+  rotate: false
+  xy: 765, 462
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 shenglidi
@@ -80,13 +52,6 @@ shenglidi
   size: 492, 83
   orig: 494, 85
   offset: 1, 1
-  index: -1
-th/th
-  rotate: true
-  xy: 692, 673
-  size: 101, 40
-  orig: 101, 40
-  offset: 0, 0
   index: -1
 tiao1_00000
   rotate: false
@@ -104,7 +69,7 @@ tiao_00000
   index: -1
 yanhua/baiyanhua_00002
   rotate: false
-  xy: 662, 449
+  xy: 410, 785
   size: 154, 152
   orig: 171, 159
   offset: 13, 7
@@ -125,70 +90,70 @@ yanhua/baiyanhua_00006
   index: -1
 yanhua/baiyanhua_00008
   rotate: false
-  xy: 410, 777
+  xy: 566, 823
   size: 169, 159
   orig: 171, 159
   offset: 2, 0
   index: -1
 yanhua/baiyanhua_00010
   rotate: false
-  xy: 347, 15
+  xy: 336, 163
   size: 142, 137
   orig: 171, 159
   offset: 13, 14
   index: -1
 yanhua/baiyanhua_00012
-  rotate: false
-  xy: 347, 154
+  rotate: true
+  xy: 815, 516
   size: 146, 143
   orig: 171, 159
   offset: 11, 11
   index: -1
 yanhua/baiyanhua_00014
-  rotate: true
-  xy: 818, 449
+  rotate: false
+  xy: 661, 514
   size: 152, 148
   orig: 171, 159
   offset: 8, 9
   index: -1
 yanhua/baiyanhua_00016
-  rotate: false
-  xy: 504, 460
+  rotate: true
+  xy: 506, 466
   size: 156, 153
   orig: 171, 159
   offset: 6, 6
   index: -1
 yanhua/baiyanhua_00018
   rotate: true
-  xy: 581, 776
+  xy: 737, 822
   size: 160, 154
   orig: 171, 159
   offset: 4, 5
   index: -1
 yanhua/baiyanhua_00020
   rotate: false
-  xy: 336, 299
+  xy: 734, 664
   size: 162, 156
   orig: 171, 159
   offset: 3, 3
   index: -1
 yanhua/baiyanhua_00022
   rotate: false
-  xy: 336, 457
+  xy: 566, 664
   size: 166, 157
   orig: 171, 159
   offset: 1, 2
   index: -1
 yanhua/baiyanhua_00024
   rotate: false
-  xy: 522, 615
+  xy: 336, 463
   size: 168, 159
   orig: 171, 159
   offset: 0, 0
   index: -1
 yanhua/baiyanhua_00026
   rotate: false
-  xy: 351, 616
+  xy: 351, 624
   size: 169, 159
   orig: 171, 159
   offset: 0, 0
@@ -223,70 +188,21 @@ yanhua/baiyanhua_00034
   index: -1
 yanhua/baiyanhua_00036
   rotate: false
-  xy: 737, 817
+  xy: 336, 302
   size: 165, 159
   orig: 171, 159
   offset: 0, 0
   index: -1
 yanhua/baiyanhua_00038
   rotate: false
-  xy: 737, 656
+  xy: 347, 2
   size: 164, 159
   orig: 171, 159
   offset: 1, 0
   index: -1
-zh/1
+zhi_00000
   rotate: false
-  xy: 954, 709
-  size: 51, 50
-  orig: 51, 50
-  offset: 0, 0
-  index: -1
-zh/2
-  rotate: false
-  xy: 954, 657
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-zh/3
-  rotate: false
-  xy: 954, 605
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-zh/4
-  rotate: false
-  xy: 968, 553
-  size: 49, 50
-  orig: 49, 50
-  offset: 0, 0
-  index: -1
-zn/dian_00000
-  rotate: false
-  xy: 968, 501
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-zn/ji_00000
-  rotate: false
-  xy: 968, 449
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-zn/sheng_00000
-  rotate: false
-  xy: 495, 247
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-zn/zhi_00000
-  rotate: false
-  xy: 495, 195
+  xy: 817, 464
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

@@ -251,7 +251,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_theam_title",
 									nTextAlign = "1",
@@ -268,7 +268,7 @@ local t =
 										PositionX = 19,
 										PositionY = 540,
 									},
-									width = "190",
+									width = "149",
 									ZOrder = "1",
 									components = 
 									{

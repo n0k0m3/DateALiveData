@@ -467,14 +467,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_rule",
 											nTextAlign = "0",
@@ -490,7 +490,7 @@ local t =
 											{
 												PositionX = 14,
 											},
-											width = "80",
+											width = "89",
 											ZOrder = "1",
 										},
 									},
@@ -542,14 +542,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_rule",
 											nTextAlign = "0",
@@ -565,7 +565,7 @@ local t =
 											{
 												PositionX = 14,
 											},
-											width = "80",
+											width = "89",
 											ZOrder = "1",
 										},
 									},
@@ -617,14 +617,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_rule",
 											nTextAlign = "0",
@@ -640,7 +640,7 @@ local t =
 											{
 												PositionX = 14,
 											},
-											width = "80",
+											width = "89",
 											ZOrder = "1",
 										},
 									},
@@ -692,14 +692,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_rule",
 											nTextAlign = "0",
@@ -715,7 +715,7 @@ local t =
 											{
 												PositionX = 14,
 											},
-											width = "80",
+											width = "89",
 											ZOrder = "1",
 										},
 									},
@@ -794,7 +794,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "45",
 											ZOrder = "1",
 										},
 									},
@@ -873,7 +873,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "47",
 											ZOrder = "1",
 										},
 									},
@@ -921,7 +921,7 @@ local t =
 										PositionX = 986,
 										PositionY = 106,
 									},
-									width = "77",
+									width = "97",
 									ZOrder = "1",
 								},
 								{
@@ -998,7 +998,7 @@ local t =
 											{
 												
 											},
-											width = "52",
+											width = "46",
 											ZOrder = "1",
 										},
 										{
@@ -1051,14 +1051,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_taskdes",
 									nTextAlign = "0",
@@ -1121,7 +1121,7 @@ local t =
 										PositionX = 1057,
 										PositionY = 541,
 									},
-									width = "159",
+									width = "121",
 									ZOrder = "1",
 								},
 								{
@@ -1273,7 +1273,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "概率获得",
+									text = "일정 확률로 획득",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1452,7 +1452,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "46",
+											height = "44",
 											ignoreSize = "True",
 											name = "Label_costNum",
 											nTextAlign = "1",
@@ -1469,7 +1469,7 @@ local t =
 												PositionX = -23,
 												PositionY = -2,
 											},
-											width = "66",
+											width = "77",
 											ZOrder = "1",
 										},
 										{
@@ -1526,7 +1526,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_cost",
 											nTextAlign = "1",
@@ -1543,7 +1543,7 @@ local t =
 												PositionX = 32,
 												PositionY = -13,
 											},
-											width = "43",
+											width = "41",
 											ZOrder = "1",
 										},
 									},
@@ -1689,7 +1689,7 @@ local t =
 									controlID = "Label_timming_Panel_show_Panel_base_Panel-commandTask_flyShipGrowUp_explore_Game",
 									UUID = "8e944f63_013c_4196_85a9_46bb0871e874",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -1711,7 +1711,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_timming",
 									nTextAlign = "1",
@@ -1725,10 +1725,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 174,
+										PositionX = 253,
 										PositionY = 170,
 									},
-									width = "118",
+									width = "91",
 									ZOrder = "1",
 								},
 								{
@@ -1793,7 +1793,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "26",
 									ignoreSize = "True",
 									name = "Label_condition_tip",
 									nTextAlign = "1",
@@ -1802,7 +1802,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "未达成派遣条件",
+									text = "파견 조건 미달성",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1810,7 +1810,7 @@ local t =
 										PositionX = 1052,
 										PositionY = 106,
 									},
-									width = "171",
+									width = "176",
 									ZOrder = "1",
 								},
 								{
@@ -1880,14 +1880,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "一键派遣",
+											text = "간편 파견",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -2,
 											},
-											width = "99",
+											width = "95",
 											ZOrder = "1",
 										},
 									},
@@ -1966,7 +1966,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "100",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -2199,14 +2199,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "派遣中",
+											text = "파견 중",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -2,
 											},
-											width = "63",
+											width = "62",
 											ZOrder = "1",
 										},
 									},
@@ -2280,7 +2280,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "64",
+											width = "80",
 											ZOrder = "1",
 										},
 									},

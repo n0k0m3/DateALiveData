@@ -1,0 +1,13 @@
+
+haozi.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+haozi
+  rotate: false
+  xy: 2, 2
+  size: 72, 35
+  orig: 72, 35
+  offset: 0, 0
+  index: -1

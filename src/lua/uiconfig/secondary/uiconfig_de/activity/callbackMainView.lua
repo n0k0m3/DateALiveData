@@ -113,12 +113,12 @@ local t =
 							controlID = "label_time_Panel_base_Panel-callbackMainView_Layer1_activity_Game",
 							UUID = "75ab44c6_548e_4167_9680_9caecf778cae",
 							anchorPoint = "False",
-							anchorPointX = "1",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FFFFFFFF",
+							FontColor = "#FF004198",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -128,31 +128,32 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "24",
+							fontSize = "28",
 							fontStroke = 
 							{
-								IsStroke = false,
-								StrokeColor = "#FFE6E6E6",
-								StrokeSize = 1,
+								IsStroke = true,
+								StrokeColor = "#FFCEE9FF",
+								StrokeSize = 2,
 							},
-							height = "30",
+							height = "39",
 							ignoreSize = "True",
 							name = "label_time",
 							nTextAlign = "1",
 							nTextHAlign = "1",
+							rotation = "-25",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "30",
+							text = "30 23 545 ",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 418,
-								PositionY = 157,
+								PositionX = -430,
+								PositionY = 162,
 							},
-							width = "43",
+							width = "181",
 							ZOrder = "1",
 						},
 						{
@@ -180,8 +181,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 185,
-								PositionY = 190,
+								PositionX = 321,
+								PositionY = 171,
 							},
 							uipanelviewmodel = 
 							{
@@ -244,8 +245,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 187,
-								PositionY = 189,
+								PositionX = 323,
+								PositionY = 170,
 							},
 							width = "400",
 							ZOrder = "10",
@@ -290,7 +291,7 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 136,
+								PositionX = 197,
 								PositionY = 253,
 							},
 							width = "99",
@@ -336,8 +337,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 256,
-								PositionY = 253,
+								PositionX = 309,
+								PositionY = 252,
 							},
 							width = "27",
 							ZOrder = "1",
@@ -484,7 +485,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 2,
+								PositionX = 1,
 								PositionY = 125,
 							},
 							width = "293",
@@ -728,6 +729,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
+								PositionX = -1,
 								PositionY = -129,
 							},
 							width = "293",
@@ -863,9 +865,11 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "266",
+							height = "257",
 							ignoreSize = "True",
 							name = "Image_dress",
+							scaleX = "0.9",
+							scaleY = "0.9",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -874,10 +878,13 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -253,
-								PositionY = 111,
+								PositionX = -269,
+								PositionY = 64,
+								IsPercent = true,
+								PercentX = -29.11,
+								PercentY = 11.92,
 							},
-							width = "364",
+							width = "284",
 							ZOrder = "1",
 							components = 
 							{
@@ -886,12 +893,12 @@ local t =
 									controlID = "label_dress_name_Image_dress_Panel_base_Panel-callbackMainView_Layer1_activity_Game",
 									UUID = "d201ac97_63c9_41af_a4bb_1bf99b7a1cc5",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "0.5",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFF2A8",
+									FontColor = "#FFD478FF",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -901,19 +908,19 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "40",
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FFE07553",
-										StrokeSize = 2,
+										StrokeColor = "#FFF6F6FB",
+										StrokeSize = 3,
 									},
-									height = "34",
+									height = "56",
 									ignoreSize = "True",
 									name = "label_dress_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
-									rotation = "-10",
+									rotation = "-30",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -923,10 +930,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -88,
-										PositionY = -21,
+										PositionX = 41,
+										PositionY = -39,
 									},
-									width = "101",
+									width = "166",
 									ZOrder = "1",
 								},
 							},
@@ -943,7 +950,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "31",
+							height = "43",
 							ignoreSize = "True",
 							name = "Button_rule",
 							normal = "ui/activity/callback/3.png",
@@ -954,11 +961,58 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 374,
-								PositionY = 255,
+								PositionX = 400,
+								PositionY = 250,
 							},
 							UItype = "Button",
-							width = "120",
+							width = "69",
+							ZOrder = "1",
+						},
+						{
+							controlID = "label_award_tip_Panel_base_Panel-callbackMainView_Layer1_activity_Game",
+							UUID = "1a791ebe_f75b_415d_a5ba_54edd8d3f90d",
+							anchorPoint = "False",
+							anchorPointX = "1",
+							anchorPointY = "0.5",
+							classname = "MELabel",
+							compPath = "luacomponents.common.MEIconLabel",
+							dstBlendFunc = "771",
+							FontColor = "#FFFFFFFF",
+							fontName = "font/fangzheng_zhunyuan.ttf",
+							fontShadow = 
+							{
+								IsShadow = false,
+								ShadowColor = "#FFFFFFFF",
+								ShadowAlpha = 255,
+								OffsetX = 0,
+								OffsetY = 0,
+							},
+							fontSize = "20",
+							fontStroke = 
+							{
+								IsStroke = true,
+								StrokeColor = "#FF1269DE",
+								StrokeSize = 3,
+							},
+							height = "29",
+							ignoreSize = "True",
+							name = "label_award_tip",
+							nTextAlign = "0",
+							nTextHAlign = "1",
+							rotation = "-59",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "770",
+							text = "每日首次分享可获得",
+							touchAble = "False",
+							touchScaleEnable = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 273,
+								PositionY = 49,
+							},
+							width = "186",
 							ZOrder = "1",
 						},
 						{
@@ -973,6 +1027,7 @@ local t =
 							height = "44",
 							ignoreSize = "True",
 							name = "Image_award_tip",
+							rotation = "-61",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -981,60 +1036,12 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 434,
-								PositionY = -42,
+								PositionX = 280,
+								PositionY = 57,
 							},
+							visible = "False",
 							width = "229",
 							ZOrder = "10",
-							components = 
-							{
-								
-								{
-									controlID = "label_award_tip_Image_award_tip_Panel_base_Panel-callbackMainView_Layer1_activity_Game",
-									UUID = "1a791ebe_f75b_415d_a5ba_54edd8d3f90d",
-									anchorPoint = "False",
-									anchorPointX = "1",
-									anchorPointY = "0.5",
-									classname = "MELabel",
-									compPath = "luacomponents.common.MEIconLabel",
-									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
-									fontName = "font/MFLiHei_Noncommercial.ttf",
-									fontShadow = 
-									{
-										IsShadow = false,
-										ShadowColor = "#FFFFFFFF",
-										ShadowAlpha = 255,
-										OffsetX = 0,
-										OffsetY = 0,
-									},
-									fontSize = "22",
-									fontStroke = 
-									{
-										IsStroke = true,
-										StrokeColor = "#FFA924DE",
-										StrokeSize = 2,
-									},
-									height = "31",
-									ignoreSize = "True",
-									name = "label_award_tip",
-									nTextAlign = "0",
-									nTextHAlign = "1",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "770",
-									text = "每日首次分享可获得",
-									touchAble = "False",
-									touchScaleEnable = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = -5,
-									},
-									width = "200",
-									ZOrder = "1",
-								},
-							},
 						},
 						{
 							controlID = "Button_share_Panel_base_Panel-callbackMainView_Layer1_activity_Game",
@@ -1048,7 +1055,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "169",
+							height = "141",
 							ignoreSize = "True",
 							name = "Button_share",
 							normal = "ui/activity/callback/6.png",
@@ -1059,11 +1066,11 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 326,
-								PositionY = -146,
+								PositionX = 343,
+								PositionY = -193,
 							},
 							UItype = "Button",
-							width = "158",
+							width = "176",
 							ZOrder = "1",
 							components = 
 							{
@@ -1128,7 +1135,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "39",
+							height = "338",
 							ignoreSize = "True",
 							name = "Button_share_geted",
 							normal = "ui/activity/callback/geted.png",
@@ -1139,11 +1146,11 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 378,
-								PositionY = 93,
+								PositionX = 272,
+								PositionY = -68,
 							},
 							UItype = "Button",
-							width = "108",
+							width = "269",
 							ZOrder = "1",
 						},
 						{
@@ -1164,6 +1171,7 @@ local t =
 							height = "88",
 							ignoreSize = "False",
 							name = "Panel_award",
+							rotation = "-61",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -1171,8 +1179,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 426,
-								PositionY = 31,
+								PositionX = 339,
+								PositionY = 27,
 							},
 							uipanelviewmodel = 
 							{
@@ -1194,7 +1202,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "39",
+							height = "338",
 							ignoreSize = "True",
 							name = "Button_share_get",
 							normal = "ui/activity/callback/get.png",
@@ -1205,11 +1213,11 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 379,
-								PositionY = 93,
+								PositionX = 270,
+								PositionY = -67,
 							},
 							UItype = "Button",
-							width = "108",
+							width = "269",
 							ZOrder = "1",
 						},
 						{
@@ -1227,7 +1235,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "520",
+							height = "100",
 							ignoreSize = "False",
 							name = "Panel_call",
 							sizepercentx = "0",
@@ -1237,15 +1245,15 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -64,
-								PositionY = -273,
+								PositionX = -84,
+								PositionY = -300,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "500",
+							width = "100",
 							ZOrder = "1",
 							components = 
 							{
@@ -1254,12 +1262,12 @@ local t =
 									controlID = "label_back_tip_Panel_call_Panel_base_Panel-callbackMainView_Layer1_activity_Game",
 									UUID = "9f426877_b691_43e6_85e6_4fde0fab8562",
 									anchorPoint = "False",
-									anchorPointX = "0",
-									anchorPointY = "0.5",
+									anchorPointX = "0.5",
+									anchorPointY = "1",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FF073574",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -1276,12 +1284,12 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "187",
+									ignoreSize = "False",
 									name = "label_back_tip",
 									nTextAlign = "0",
 									nTextHAlign = "0",
-									rotation = "59",
+									rotation = "-31",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1291,10 +1299,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -341,
+										PositionX = -342,
 										PositionY = 209,
 									},
-									width = "135",
+									width = "25",
 									ZOrder = "1",
 								},
 								{
@@ -1306,7 +1314,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FF073574",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -1353,7 +1361,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "251",
+									height = "46",
 									ignoreSize = "True",
 									name = "Image_back_tip",
 									sizepercentx = "0",
@@ -1367,7 +1375,8 @@ local t =
 										PositionX = -283,
 										PositionY = 134,
 									},
-									width = "193",
+									visible = "False",
+									width = "335",
 								},
 								{
 									controlID = "label_invite_uid_tip_Panel_call_Panel_base_Panel-callbackMainView_Layer1_activity_Game",
@@ -1388,32 +1397,32 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "21",
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FF8C34A9",
+										StrokeColor = "#FF006DA5",
 										StrokeSize = 2,
 									},
-									height = "31",
+									height = "30",
 									ignoreSize = "True",
 									name = "label_invite_uid_tip",
 									nTextAlign = "0",
 									nTextHAlign = "1",
-									rotation = "58",
+									rotation = "-30",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "11111111111111",
+									text = "邀",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -232,
-										PositionY = 246,
+										PositionX = -160,
+										PositionY = 223,
 									},
-									width = "159",
+									width = "26",
 									ZOrder = "1",
 									components = 
 									{
@@ -1437,14 +1446,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "21",
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF8C34A9",
+												StrokeColor = "#FF006DA5",
 												StrokeSize = 2,
 											},
-											height = "31",
+											height = "30",
 											ignoreSize = "True",
 											name = "label_text",
 											nTextAlign = "0",
@@ -1486,7 +1495,7 @@ local t =
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF8C34A9",
+												StrokeColor = "#FF006DA5",
 												StrokeSize = 2,
 											},
 											height = "29",
@@ -1504,8 +1513,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 10,
-												PositionY = -39,
+												PositionX = 12,
+												PositionY = -36,
 											},
 											width = "138",
 											ZOrder = "1",
@@ -1521,7 +1530,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "327",
+									height = "26",
 									ignoreSize = "True",
 									name = "Image_task_tip",
 									sizepercentx = "0",
@@ -1532,21 +1541,22 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -251,
-										PositionY = 172,
+										PositionX = -50,
+										PositionY = 68,
 									},
-									width = "243",
+									visible = "False",
+									width = "13",
 								},
 								{
 									controlID = "label_task_tip_Panel_call_Panel_base_Panel-callbackMainView_Layer1_activity_Game",
 									UUID = "87f201b1_bcc7_4a86_9e29_1fd4fcc0725d",
 									anchorPoint = "False",
-									anchorPointX = "0",
-									anchorPointY = "0.5",
+									anchorPointX = "0.5",
+									anchorPointY = "1",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FF073574",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -1563,12 +1573,12 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "260",
+									ignoreSize = "False",
 									name = "label_task_tip",
 									nTextAlign = "0",
 									nTextHAlign = "1",
-									rotation = "59",
+									rotation = "-31",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1578,10 +1588,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -330,
-										PositionY = 286,
+										PositionX = -332,
+										PositionY = 306,
 									},
-									width = "231",
+									width = "25",
 									ZOrder = "1",
 								},
 								{
@@ -1593,7 +1603,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FF073574",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -1625,8 +1635,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -197,
-										PositionY = 67,
+										PositionX = -198,
+										PositionY = 87,
 									},
 									width = "37",
 									ZOrder = "1",
@@ -1648,7 +1658,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "520",
+							height = "100",
 							ignoreSize = "False",
 							name = "Panel_response",
 							sizepercentx = "0",
@@ -1658,8 +1668,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -68,
-								PositionY = -259,
+								PositionX = -88,
+								PositionY = -252,
 							},
 							uipanelviewmodel = 
 							{
@@ -1667,7 +1677,7 @@ local t =
 								nType = "0"
 							},
 							visible = "False",
-							width = "500",
+							width = "100",
 							ZOrder = "1",
 							components = 
 							{
@@ -1684,7 +1694,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "87",
+									height = "70",
 									ignoreSize = "True",
 									name = "Button_submit",
 									normal = "ui/activity/callback/15.png",
@@ -1695,11 +1705,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 240,
-										PositionY = 36,
+										PositionX = 87,
+										PositionY = 57,
 									},
 									UItype = "Button",
-									width = "183",
+									width = "170",
 									ZOrder = "1",
 									components = 
 									{
@@ -1761,21 +1771,21 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "43",
+									height = "46",
 									ignoreSize = "True",
 									name = "Image_receive_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/activity/callback/14.png",
+									texturePath = "ui/activity/callback/12.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -188,
-										PositionY = 38,
+										PositionX = -323,
+										PositionY = 48,
 									},
-									width = "361",
+									width = "335",
 									ZOrder = "1",
 								},
 								{
@@ -1803,8 +1813,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -187,
-										PositionY = 41,
+										PositionX = -338,
+										PositionY = 51,
 										LeftPositon = 182,
 										TopPosition = 28,
 										relativeToName = "Panel_quick",
@@ -1908,6 +1918,32 @@ local t =
 											ZOrder = "1",
 										},
 									},
+								},
+								{
+									controlID = "Image_callbackMainView_1_Panel_response_Panel_base_Panel-callbackMainView_Layer1_activity_Game",
+									UUID = "63973279_4ed7_43f9_a16f_621438c812ca",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "26",
+									ignoreSize = "True",
+									name = "Image_callbackMainView_1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/callback/13.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -32,
+										PositionY = 51,
+									},
+									width = "13",
+									ZOrder = "1",
 								},
 							},
 						},
@@ -2025,7 +2061,6 @@ local t =
 			"ui/activity/callback/12.png",
 			"ui/activity/callback/13.png",
 			"ui/activity/callback/15.png",
-			"ui/activity/callback/14.png",
 			"ui/common/frame_green.png",
 		},
 		armatures = 

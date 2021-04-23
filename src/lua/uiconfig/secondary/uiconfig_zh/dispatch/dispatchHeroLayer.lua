@@ -91,6 +91,62 @@ local t =
 					{
 						
 						{
+							controlID = "Image_bg_Panel_root_Panel-dispatchHeroLayer_Layer1_dispatch_Game",
+							UUID = "e35504a5_0d4a_45e2_a71d_a9534ed1b1da",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							height = "640",
+							ignoreSize = "True",
+							name = "Image_bg",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "770",
+							texturePath = "ui/dispatch/ui_082.png",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								LeftPositon = -125,
+								relativeToName = "Panel_root",
+								nType = 3,
+							},
+							width = "1386",
+							ZOrder = "1",
+						},
+						{
+							controlID = "Image_modle_Panel_root_Panel-dispatchHeroLayer_Layer1_dispatch_Game",
+							UUID = "103cc26d_db54_4e56_8935_5b32c40f7264",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							height = "64",
+							ignoreSize = "True",
+							name = "Image_modle",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = -232,
+								PositionY = 15,
+								LeftPositon = 303,
+								TopPosition = 272,
+								relativeToName = "Panel_root",
+								nType = 3,
+							},
+							width = "64",
+							ZOrder = "1",
+						},
+						{
 							controlID = "Panel_content_Panel_root_Panel-dispatchHeroLayer_Layer1_dispatch_Game",
 							UUID = "3a5a275c_613b_4887_a346_65201d60f65c",
 							anchorPoint = "False",
@@ -131,56 +187,6 @@ local t =
 							components = 
 							{
 								
-								{
-									controlID = "Image_bg_Panel_content_Panel_root_Panel-dispatchHeroLayer_Layer1_dispatch_Game",
-									UUID = "e35504a5_0d4a_45e2_a71d_a9534ed1b1da",
-									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
-									classname = "MEImage",
-									dstBlendFunc = "771",
-									height = "640",
-									ignoreSize = "True",
-									name = "Image_bg",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "770",
-									texturePath = "ui/dispatch/ui_082.png",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										
-									},
-									width = "1386",
-									ZOrder = "1",
-								},
-								{
-									controlID = "Image_modle_Panel_content_Panel_root_Panel-dispatchHeroLayer_Layer1_dispatch_Game",
-									UUID = "103cc26d_db54_4e56_8935_5b32c40f7264",
-									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
-									classname = "MEImage",
-									dstBlendFunc = "771",
-									height = "64",
-									ignoreSize = "True",
-									name = "Image_modle",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "1",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = -232,
-										PositionY = 16,
-									},
-									width = "64",
-									ZOrder = "1",
-								},
 								{
 									controlID = "Image_left_mask_Panel_content_Panel_root_Panel-dispatchHeroLayer_Layer1_dispatch_Game",
 									UUID = "e8bfab7a_7995_46b7_ae70_b46d8759d559",
@@ -407,7 +413,7 @@ local t =
 										nType = "0"
 									},
 									width = "600",
-									ZOrder = "1",
+									ZOrder = "5",
 									components = 
 									{
 										

@@ -346,7 +346,7 @@ function ActivityDataMgr:receiveReward(actIdx)
 	end
 
 	if not isCan and not isCanSignAgain then
-		Utils:showTips(TextDataMgr:getText(800057));
+		Utils:showTips(800057);
 		return;
 	end
 
@@ -588,6 +588,87 @@ function ActivityDataMgr:revcBuySevenExGift(event)
     self:addSevenExBuyTimes(self.dayTag)
     EventMgr:dispatchEvent(EV_TASK_UPDATE)
     self.dayTag = nil
+end
+
+-- 是否激活萌新手册
+function ActivityDataMgr:isActivateNewPlayerBook()
+	local cfg = TabDataMgr:getData("NoviceTask")
+	local isActivate = true
+	for i, v in pairs(cfg) do
+		local statusInfo = TaskDataMgr:getTaskInfo(v.id)
+		if not statusInfo then
+			isActivate = false
+			break
+		end
+	end
+	return isActivate
+end
+
+-- 是否完成萌新手册
+function ActivityDataMgr:isCompleteAllNewPlayerBook()
+	local cfg = TabDataMgr:getData("NoviceTask")
+	local isCompleteAll = true
+	for i, v in pairs(cfg) do
+		local statusInfo = TaskDataMgr:getTaskInfo(v.id)
+		if not statusInfo then
+			isCompleteAll = false
+			break
+		end
+		if statusInfo.status ~= EC_TaskStatus.GETED then
+			isCompleteAll = false
+			break
+		end
+	end
+	return isCompleteAll
+end
+
+function ActivityDataMgr:isNewPlayerBookRedShow()
+	local groupNovice = {}
+	local isRedShow = false
+	local taskCfg = TabDataMgr:getData("NoviceTask")
+	for i, cfg in pairs(taskCfg) do
+		if not groupNovice[cfg.taskGroup] then
+			groupNovice[cfg.taskGroup] = {}
+		end
+		table.insert(groupNovice[cfg.taskGroup], cfg)
+	end
+	table.sort(groupNovice, function(a, b)
+		return a[1].taskGroup < b[1].taskGroup 
+	end)
+
+	local curUnLockGroup = 1
+	for group, v in pairs(groupNovice) do
+        local _bool = false
+        for i, cfg in ipairs(v) do
+			local _status = EC_TaskStatus.ING
+			local statusInfo = TaskDataMgr:getTaskInfo(cfg.id)
+            if statusInfo then
+                _status = statusInfo.status
+            end
+            if _status == EC_TaskStatus.ING or group == table.count(groupNovice) then
+                curUnLockGroup = group
+                _bool = true
+				break
+            end
+        end
+        if _bool then
+            break
+        end
+	end 
+
+	for i, cfg in pairs(taskCfg) do
+		local _status = EC_TaskStatus.ING
+		local statusInfo = TaskDataMgr:getTaskInfo(cfg.id)
+		if statusInfo then
+			_status = statusInfo.status
+		end
+		if _status == EC_TaskStatus.GET and cfg.taskGroup <= curUnLockGroup then
+			isRedShow = true
+			break
+		end
+	end 
+
+	return isRedShow, curUnLockGroup
 end
 
 function ActivityDataMgr:revcNewYear(event)

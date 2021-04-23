@@ -1,8 +1,8 @@
 local NewCityInfoView = class("NewCityInfoView", BaseLayer)
 
-function NewCityInfoView:ctor(bhidetop)
+function NewCityInfoView:ctor(...)
     self.super.ctor(self)
-    self:initData(bhidetop)
+    self:initData(...)
     self:init("lua.uiconfig.newCity.newCityInfoView")
 end
 
@@ -15,8 +15,9 @@ function NewCityInfoView:registerEvents()
     EventMgr:addEventListener(self, EV_DATING_EVENT.refreshRedTips, handler(self.checkJianzhiRedPoint, self))
 end
 
-function NewCityInfoView:initData(bhidetop)
+function NewCityInfoView:initData(bhidetop,fairyLayer)
     self.bHideTop = bhidetop or false
+	self.fairyLayer = fairyLayer
 end
 
 function NewCityInfoView:initUI(ui)
@@ -268,6 +269,16 @@ function NewCityInfoView:excuteGuideFunc16001(guideFuncId)
     local targetNode = self.Button_jianzhi
     self.guideFuncId = guideFuncId
     GameGuide:guideTargetNode(targetNode)
+end
+
+--引导装备质点
+function NewCityInfoView:excuteGuideFunc1006(guideFuncId)
+	if self.fairyLayer then
+		local targetNode = self.fairyLayer.ListView_fair:getItems()[1]
+		self.guideFuncId = guideFuncId
+		GameGuide:guideTargetNode(targetNode)
+		self.fairyLayer.guideFuncId = guideFuncId
+	end
 end
 
 return NewCityInfoView

@@ -203,6 +203,9 @@ end
 
 function FubenCitySettlementLayer:onClose()
     self.super.onClose(self)
+    if self.elvesNpc then
+        self.elvesNpc:stopTimer()
+    end
     if self.voiceHandle then
         TFAudio.stopEffect(self.voiceHandle)
     end

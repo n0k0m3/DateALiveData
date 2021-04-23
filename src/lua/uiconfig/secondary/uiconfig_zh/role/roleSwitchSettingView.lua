@@ -1176,14 +1176,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "夜刀神十香",
+											text = "八个字八个字八哥",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -335,
+												PositionX = -351,
 											},
-											width = "123",
+											width = "195",
 											ZOrder = "1",
 										},
 										{
@@ -1226,7 +1226,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -164,
+												PositionX = -133,
 											},
 											width = "99",
 											ZOrder = "1",

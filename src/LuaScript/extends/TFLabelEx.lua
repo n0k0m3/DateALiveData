@@ -17,6 +17,17 @@ local function setText(self,format, ...)
 end
 rawset(Label, "setText", setText)
 
+local _setVisible = Label.setVisible
+local function setVisible(self, isVisible)
+    if self.__richText then
+        self.__richText:setVisible(isVisible)
+    else
+        _setVisible(self,isVisible)
+    end
+
+end
+rawset(Label, "setVisible", setVisible)
+
 function TFLabelEx:setTextById(id, ...)
     local textAttr = TextDataMgr:getTextAttr(id)
     if textAttr then
@@ -72,6 +83,7 @@ function TFLabelEx:setTextEx(text, isRString)
             if self:getParent() then
                 richText:AddTo(self:getParent())
             end
+            richText:setVisible(self:isVisible())
             richText:AnchorPoint(self:AnchorPoint())
             richText:Pos(self:Pos())
             richText:ZO(self:ZO())
@@ -92,6 +104,7 @@ function TFLabelEx:setTextEx(text, isRString)
         return self
     end
 end
+
 
 function TFLabelEx:printerHandle(textAttr, completeHandle, ...)
     local index = 1

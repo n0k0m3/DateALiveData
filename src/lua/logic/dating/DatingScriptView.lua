@@ -1245,7 +1245,7 @@ function DatingScriptView:changeElvesNpcShow(deyTime)
             deyTime = math.max(deyTime, self:showElvesNpc(elvesNpc, i,deyShowNpcTime))
         end
     end
-
+    self:playElvesNpcShowAni(deyShowNpcTime)
     --self:checkNpcShader()
 
     return deyTime
@@ -1490,6 +1490,39 @@ function DatingScriptView:updateElvesNpc(elvesNpc,roleInfo)
     end
 end
 
+function DatingScriptView:playElvesNpcShowAni( disTime )
+    -- body
+        self.Panel_lockTouch:timeOut(function()
+            for id = 1,3 do
+                    local npc = self.npcData_["id"..id]
+                    if npc then
+                        if self.itemData["roleShowType" .. id] and self.itemData["roleShowType" .. id] ~= 0
+                                and not (self.isSkip and not self.isAuto) and npc.type ~= 2 then
+                            npc:timeOut(function()
+                                if self.itemData["roleShowType" .. id] == 2 then
+                                    npc:playIn(0.3)
+                                elseif self.itemData["roleShowType" .. id] == 3 then
+                                    npc:playMoveLeftIn(0.3)
+                                elseif self.itemData["roleShowType" .. id] == 4 then
+                                    npc:playMoveRightIn(0.3)
+                                elseif self.itemData["roleShowType" .. id] == 5 then
+                                    npc:playMoveUpIn(0.3)
+                                elseif self.itemData["roleShowType" .. id] == 6 then
+                                    npc:playIn(0.15)    
+                                end
+                            end, 0.3)
+                        else
+                            npc:show()
+                            if npc.type == 2 then
+                                npc:setOpacity(0)
+                                npc:fadeIn(0.3)
+                            end
+                        end
+                    end
+            end
+        end,disTime)
+end
+
 function DatingScriptView:createElvesNpc(disTime,roleInfo)
     local id = roleInfo.id
     if self.itemData["roleDisaprType" .. id] and self.itemData["roleDisaprType" .. id] == 2 and not (self.isSkip and not self.isAuto) then
@@ -1536,35 +1569,6 @@ function DatingScriptView:createElvesNpc(disTime,roleInfo)
         elvesNpc.touchNode:setTouchEnabled(false)
     end
     self:updateElvesNpc(elvesNpc,roleInfo)
-
-    self.Panel_lockTouch:timeOut(function()
-        local npc = self.npcData_["id"..id]
-        if self.npcData_["id"..id] then
-            if self.itemData["roleShowType" .. id] and self.itemData["roleShowType" .. id] ~= 0
-                    and not (self.isSkip and not self.isAuto) and elvesNpc.type ~= 2 then
-                npc:timeOut(function()
-                    if self.itemData["roleShowType" .. id] == 2 then
-                        npc:playIn(0.3)
-                    elseif self.itemData["roleShowType" .. id] == 3 then
-                        npc:playMoveLeftIn(0.3)
-                    elseif self.itemData["roleShowType" .. id] == 4 then
-                        npc:playMoveRightIn(0.3)
-                    elseif self.itemData["roleShowType" .. id] == 5 then
-                        npc:playMoveUpIn(0.3)
-                    elseif self.itemData["roleShowType" .. id] == 6 then
-                        npc:playIn(0.15)    
-                    end
-                end, 0.3)
-            else
-                npc:show()
-                if elvesNpc.type == 2 then
-                    npc:setOpacity(0)
-                    npc:fadeIn(0.3)
-                end
-            end
-        end
-    end,disTime)
-
     return deyTime
 end
 
@@ -2577,10 +2581,9 @@ function DatingScriptView:playSceneSoundEffect(pathName)
             print("sceneSoundEffectName ", sceneSoundEffectName)
             self.sceneSoundEffectHandle = TFAudio.playSound(sceneSoundEffectName,true)
         else
-            changeEffectVolume(self.Image_black, 1.5, 1.0, 1.5, function ( ... )
-                if self.sceneSoundEffectHandle then
-                    TFAudio.stopEffect(self.sceneSoundEffectHandle)
-                end              
+            local handler = self.sceneSoundEffectHandle
+            changeEffectVolume(self.Image_black, 0.8, 0.5, 0.8, function ( ... )
+                TFAudio.stopEffect(handler)
                 self.sceneSoundEffectHandle = nil
             end, function ( ... )
                 local sceneSoundEffectName = self.itemData.sceneSoundEffect
@@ -3556,6 +3559,8 @@ function DatingScriptView:registerEvents()
 
     --EventMgr:addEventListener(self, EV_DANMU_SEND, handler(self.insertDanMu, self))
 
+    --EventMgr:addEventListener(self, EV_DANMU_SEND, handler(self.insertDanMu, self))
+
     self.skipButton:onClick(function()
         self:refreshButtonListState(self.skipButton)
         if self.isSkip and not self.isAuto and not(#self.itemData.jump > 1 or self.itemData.optionType == 5)  then
@@ -3850,6 +3855,17 @@ function DatingScriptView:onClose()
     self.ui:stopAllActions()
     self:stopAllActions()
     self.super.onClose(self)
+    for k,v in pairs(self.npcData_) do
+        v:stopTimer()
+    end
+
+end
+
+function DatingScriptView:setDanMuPannelVisible(visible)
+    if visible then
+        visible = self.isDatingDanMu
+    end
+    self.Panel_danmuView:setVisible(visible)
 
 end
 

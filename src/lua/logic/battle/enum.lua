@@ -966,7 +966,6 @@ E_STATE_60 = 60 , --该状态中不被怪物追踪
 E_FORM_1     = 62 ,--处于1形态中   变身相关的状态
 E_FORM_2     = 63 ,--处于2形态中   变身相关的状态
 E_ZM_SHMY    = 64 ,--正面伤害免疫   
-
 E_STATE_70 = 70 ,--
 E_STATE_71 = 71 ,--
 E_STATE_72 = 72 ,--
@@ -1537,6 +1536,7 @@ enum.eEvent = {
     EVENT_STATUS_BOSS              = "event_status_boss" ,--boss血量刷新
     EVENT_SKILL_OVER              = "event_skill_over" ,--技能释放完成
     EVENT_WORLDROOM_LEAVE                    = "EV_LEAVE",    -- 离开
+    EVENT_QUIT_BATTLE = "event_quit_battle"   --英文版适应修改战斗结算后需要添加事件触发试炼结算
 }
 
 -- 刷怪规则

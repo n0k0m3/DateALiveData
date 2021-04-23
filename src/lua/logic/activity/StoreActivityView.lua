@@ -33,10 +33,11 @@ function StoreActivityView:initUI(ui)
     self.ListView_goods = UIListView:create(ScrollView_goods)
     local Panel_resource = TFDirector:getChildByPath(self.Panel_root, "Panel_resource")
     self.Panel_asset = {}
-    for i = 1, 3 do
+    for i = 1, 6 do
         local foo = {}
         foo.root = TFDirector:getChildByPath(Panel_resource, "Panel_asset_" .. i):hide()
         foo.Image_icon = TFDirector:getChildByPath(foo.root, "Image_icon")
+        foo.Image_icon:setSwallowTouch(false)
         foo.Label_count = TFDirector:getChildByPath(foo.root, "Label_count")
         self.Panel_asset[i] = foo
     end
@@ -47,7 +48,20 @@ end
 
 function StoreActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
-    self.goodsData_ = ActivityDataMgr2:getItems(self.activityId_)
+
+    local tmpGoodsData_ = ActivityDataMgr2:getItems(self.activityId_)
+    local frontData = {}
+    local hadUsedData = {}
+    for i, id in ipairs(tmpGoodsData_) do
+        local isCanBuy = ActivityDataMgr2:getRemainBuyCount(self.activityInfo_.activityType, id)
+        if isCanBuy then
+            table.insert(frontData, id)
+        else
+            table.insert(hadUsedData, id)
+        end
+    end
+    self.goodsData_ = frontData
+    table.insertTo(self.goodsData_, hadUsedData)
 
     local items = self.ListView_goods:getItems()
     local gap = #items - #self.goodsData_
@@ -85,6 +99,10 @@ function StoreActivityView:updateActivity()
             foo.root:show()
             foo.Image_icon:setTexture(itemCfg.icon)
             foo.Label_count:setText(GoodsDataMgr:getItemCount(id))
+            foo.root:setTouchEnabled(true)
+            foo.root:onClick(function()
+                Utils:showInfo(id)
+            end)
         end
     end
 
@@ -278,7 +296,7 @@ function StoreActivityView:updateGoodsItem(index)
 end
 
 function StoreActivityView:refreshView()
-    self.Label_tips:setTextById(5000008)
+    self.Label_tips:setTextById(63830)
 end
 
 function StoreActivityView:updateCountDonw()

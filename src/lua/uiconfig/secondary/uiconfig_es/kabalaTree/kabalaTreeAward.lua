@@ -531,7 +531,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_btn",
 											nTextAlign = "1",
@@ -547,7 +547,7 @@ local t =
 											{
 												
 											},
-											width = "110",
+											width = "83",
 											ZOrder = "1",
 										},
 									},

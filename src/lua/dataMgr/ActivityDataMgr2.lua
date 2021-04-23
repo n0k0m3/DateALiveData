@@ -138,6 +138,49 @@ function ActivityDataMgr:init()
 
 
 
+    -- 地错活动
+    TFDirector:addProto(s2c.ACTIVITY_RESP_ASSISTANCE_INFO, self, self.onRecvTurnTabletData)
+    TFDirector:addProto(s2c.ACTIVITY_RESP_ASSISTANCE_FLOP, self, self.onRecvDoTurnTabletReward)
+    TFDirector:addProto(s2c.ACTIVITY_RESP_ASSISTANCE_FLOP_RANK, self, self.onRecvDoTurnTabletRankData)
+
+    TFDirector:addProto(s2c.ACTIVITY_RESP_CROSS_SUPPORT_INFO, self, self.onRecvCrossSupportInfo)
+
+	--冰雪节
+	TFDirector:addProto(s2c.SNOW_FESTIVAL_RES_PAMPHLET_INFO, self, self.onRecvSnowBookData)
+	TFDirector:addProto(s2c.SNOW_FESTIVAL_RES_PAMPHLET_LEVEL_UP, self, self.onUpgradeSuccess)
+	TFDirector:addProto(s2c.SNOW_FESTIVAL_RES_ENTER_MEMORY, self, self.onRecvSnowMemory)
+	TFDirector:addProto(s2c.SNOW_FESTIVAL_RES_FINISH_GAME, self, self.onRecvSnowGameOver)
+	TFDirector:addProto(s2c.SNOW_FESTIVAL_RES_MEMORY_LOCATION, self, self.onRecvSnowFocusLoaction)
+
+    -- 冰雪大作战
+    TFDirector:addProto(s2c.CHASM_PUSH_TEAM_BUFF, self, self.onRecvChasmTeamBuffData)
+    TFDirector:addProto(s2c.CHASM_RESP_USE_BUFF, self, self.onRecvChasmTeamUseBuff)
+
+    -- 反十
+    TFDirector:addProto(s2c.ACTIVITY2_RES_REVERSE_TEN_WINDOW, self, self.onRecvFanShiAwardData)
+    TFDirector:addProto(s2c.ACTIVITY2_RES_REVERSE_TEN_REWARD, self, self.onRecvFanShiGet)
+
+    --- 新年愿望列表
+    TFDirector:addProto(s2c.ACTIVITY2_RESP_SEND_SPRING_WITH_TREE, self, self.onRecvSendWishTree)
+    TFDirector:addProto(s2c.ACTIVITY2_RESP_SPRING_WITH_TREE_LIST, self, self.onRecvWishList)
+
+    ---建筑修复
+    TFDirector:addProto(s2c.ACTIVITY2_RES_REPAIR_DATA, self, self.onRecvRepairData)
+    TFDirector:addProto(s2c.ACTIVITY2_RES_REPAIR_SUBMIT, self, self.onRecvSubMit)
+    TFDirector:addProto(s2c.ACTIVITY2_RES_TAKE_REPAIR_OUTPUT, self, self.onRecvGetBuildReward)
+
+    --2021春节活动
+    TFDirector:addProto(s2c.ACTIVITY2_RES_VALENTINE_DATA, self, self.onRecValentinesDayData)
+    TFDirector:addProto(s2c.ACTIVITY2_RES_SEND_ROSE, self, self.onRecFlowerVotes)
+    TFDirector:addProto(s2c.ACTIVITY2_RES_TAKE_ROSE_REWARD, self, self.onRecVantinesProgressReward)
+
+    -- 2021答题
+    TFDirector:addProto(s2c.ACTIVITY2_RES_RIDDLE_DATA, self, self.onRecvRiddleData)
+    TFDirector:addProto(s2c.ACTIVITY2_RES_RIDDLE_ONCE, self, self.onRecvRiddleAwarsInfo)
+
+    --  春分赠礼
+    TFDirector:addProto(s2c.SUMMON_RES_ACTIVITY_EXCHANGE, self, self.onRecvSpringGiftReward)
+    
     self.activityInfo_ = {}
     self.activityInfoMap_ = {}
     self.itemInfoMap_ = {}
@@ -156,11 +199,18 @@ function ActivityDataMgr:reset()
     self.itemInfoMap_ = {}
     self.progressInfoMap_ = {}
     self.warOrderInfo_ = nil
-    self.activityCfgDataMap_ = {}
     self.saveStr = nil
     self.newYearFubenInfo = nil
     self.callbackInfo = nil
     self.halloweenPass = nil
+
+    self.curRepairExp =  0
+    self.curRepairLv = 1
+    self.repairOutput = {}
+    self.wishMyInfo = {}
+    self.wishList = {}
+
+    self:resetActivityInfoMap_()
 end
 
 function ActivityDataMgr:onLogin()
@@ -174,6 +224,15 @@ function ActivityDataMgr:onLogin()
     self:Send_getGhostInfo()
     -- TFDirector:send(c2s.ACTIVITY_NEW_REQ_YEAR_ACTIVITY_CONFIG, {})
     return {s2c.ACTIVITY_NEW_RESP_ACTIVITYS, s2c.ACTIVITY_NEW_RESP_ACTIVITY_ITEMS, s2c.ACTIVITY_NEW_RESP_ACTIVITY_PROGRESS}
+end
+
+function ActivityDataMgr:resetActivityInfoMap_()
+    for key, value in pairs(self.activityCfgDataMap_) do
+        -- 针对断线重连不清数据
+        if key ~= EC_ActivityType2.LAND_TURNTABLET then
+            value = nil
+        end
+    end
 end
 
 function ActivityDataMgr:onLoginOut()
@@ -307,6 +366,13 @@ function ActivityDataMgr:getProgressInfo(type_, id)
     return defaultProcess
 end
 
+function ActivityDataMgr:getProgressInfoWithoutDefault(type_, id)
+    if self.progressInfoMap_ and self.progressInfoMap_[type_] then
+        return self.progressInfoMap_[type_][id]
+    end
+    return nil
+end
+
 function ActivityDataMgr:getItems(id)
     local index = self.activityInfoMap_[id]
     local activityInfo = self.activityInfo_[index]
@@ -318,7 +384,7 @@ function ActivityDataMgr:getItems(id)
         local haveItems = {}
         for i, v in ipairs(activityInfo.items) do
             local info = self:getItemInfo(activityInfo.activityType, v)
-            if info then
+            if info and not (info.extendData and info.extendData.isHide) then
                 table.insert(haveItems, v)
             end
         end
@@ -341,6 +407,7 @@ function ActivityDataMgr:getItems(id)
         end)
 
         if activityInfo.activityType ==EC_ActivityType2.TASK or
+            activityInfo.activityType ==EC_ActivityType2.CROSS_SUPPORT or
             activityInfo.activityType ==EC_ActivityType2.BACKPLAYER or
             activityInfo.activityType ==EC_ActivityType2.BACKACTIVITY or
             activityInfo.activityType ==EC_ActivityType2.CHRISTMAS or
@@ -350,8 +417,9 @@ function ActivityDataMgr:getItems(id)
             activityInfo.activityType ==EC_ActivityType2.VALENTINE or
             activityInfo.activityType ==EC_ActivityType2.FUND or
             activityInfo.activityType ==EC_ActivityType2.TRAINING or
-            activityInfo.activityType ==EC_ActivityType2.NEW_BACKACTIVITY 
-             then
+            activityInfo.activityType ==EC_ActivityType2.NEW_BACKACTIVITY or
+            activityInfo.activityType ==EC_ActivityType2.SNOW_FESTIVAL_TASK or 
+            activityInfo.activityType ==EC_ActivityType2.SPRING_GIFT then
             local getData = {}
             local ingData = {}
             local getedData = {}
@@ -413,7 +481,18 @@ function ActivityDataMgr:getNewPlayerActivityInfo(newOrBack)
     return activitys
 end
 
-
+function ActivityDataMgr:getAccessExtData(itemId)
+    local tmpTab = {}
+    local activityIds = self:getActivityInfoByType(EC_ActivityType2.ACCESS_TYPE)
+    for _itemId, activityId in pairs(activityIds) do
+        local activityInfo_ = ActivityDataMgr2:getActivityInfo(activityId)
+        if not tmpTab[activityId] then
+            tmpTab[activityId] = {}
+        end
+        tmpTab[activityId] = activityInfo_.extendData[tostring(itemId)]
+    end
+    return tmpTab
+end
 
 function ActivityDataMgr:getAssistItemInfos(id, subType)
     local index = self.activityInfoMap_[id]
@@ -709,6 +788,63 @@ function ActivityDataMgr:isShowRedPoint(activityId)
             if #activity > 0 then
                 isShow = isShow or self:isCanGet(activity[1])
             end
+        elseif activityInfo.activityType == EC_ActivityType2.HANTER then
+            local taskType = activityInfo.extendData.taskType
+            local taskData = {}
+            for k, item in pairs(TabDataMgr:getData("Task") or {}) do
+                if item.type == taskType then                    
+                    local taskInfo = TaskDataMgr:getTaskInfo(item.id)
+                    if taskInfo and taskInfo.status == EC_TaskStatus.GET then
+                        isShow = true
+                        break;
+                    end
+                end 
+            end
+        elseif activityInfo.activityType == EC_ActivityType2.FLOWER_SEND then
+            local items = self:getItems(activityId)
+            for k,v in pairs( items) do
+                local progressInfo = self:getProgressInfo(activityInfo.activityType, v)
+                if progressInfo.status == EC_TaskStatus.GET then
+                    isShow = true
+                    break;
+                end
+            end
+
+            local ValentineData = self:getValentinesDayData()
+            if ValentineData then
+                local takelist = self:getVantinesProgress() or {}
+                local rewards = activityInfo.extendData.rewards or {}
+                for k,v in pairs(rewards) do
+                    print(progress)              
+                    local index = table.indexOf(takelist, tostring(k))
+                    if index == -1 then
+                        print(ValentineData.totalCount, k)
+                        if tonumber(ValentineData.totalCount or 0) > tonumber(k) then
+                            isShow = true
+                            break;
+                        end
+                    end
+                end
+            end            
+        elseif activityInfo.activityType == EC_ActivityType2.SNOW_FESTIVAL_TASK then
+            local day = activityInfo.extendData.day or {}
+            for i=1,#day do
+                local progressInfo = self:getProgressInfo(activityInfo.activityType, day[i])
+                if progressInfo.status == EC_TaskStatus.GET then
+                    isShow = true
+                    break;
+                end
+            end
+
+            local once = activityInfo.extendData.once or {}
+            for i=1,#once do
+                local progressInfo = ActivityDataMgr2:getProgressInfo(activityInfo.activityType, once[i])
+                if progressInfo.status == EC_TaskStatus.GET then
+                    isShow = true
+                    break;
+                end
+            end
+
         elseif activityInfo.activityType == EC_ActivityType2.BINGOGAME then
             isShow = self:isCanGet(activityId)
 
@@ -811,6 +947,23 @@ function ActivityDataMgr:isShowRedPoint(activityId)
             else
                 return false
             end
+		elseif activityInfo.activityType == EC_ActivityType2.SNOW_BOOK then
+			local snowBookData = ActivityDataMgr2:getSnowBookData() or {}
+			local exp = snowBookData.exp or 0
+			local pamphletLevel = snowBookData.pamphletLevel or 0
+			local cfgLastOption = TabDataMgr:getData("EventMembership", pamphletLevel- 1) or {}
+			cfgLastOption.costToNext = cfgLastOption.costToNext or 0
+			local cfgOption = TabDataMgr:getData("EventMembership", pamphletLevel) or {}
+			cfgOption.costToNext = cfgOption.costToNext or 0
+
+			if exp-(cfgLastOption.costToNext or 0) >= cfgOption.costToNext-(cfgLastOption.costToNext or 0) 
+			and pamphletLevel <	activityInfo.extendData.maxLevel then
+				return true
+			else
+				return false
+			end
+		elseif activityInfo.activityType == EC_ActivityType2.SNOW_MEMORY then
+			
         elseif activityInfo.activityType == EC_ActivityType2.CHRISTMAS_FIGHT then
             if not activityInfo.dungeonInfo then return false end
 
@@ -838,7 +991,6 @@ function ActivityDataMgr:isShowRedPoint(activityId)
             end
             return haveGhost
         elseif activityInfo.activityType == EC_ActivityType2.WSJ_2020 then
-
         elseif activityInfo.activityType == EC_ActivityType2.ONLINE_SCORE_REWARD then   --这里subtype是2014
             local taskData = self:getActivityItemsInfoBySubType(activityInfo.id, 2014)
             for k, v in pairs(taskData) do
@@ -856,6 +1008,21 @@ function ActivityDataMgr:isShowRedPoint(activityId)
                 local progressInfo = ActivityDataMgr2:getProgressInfo(needActivityInfo.activityType, v.id)
                 if progressInfo.status == EC_TaskStatus.GET then
                     isShow = true
+                end
+            end
+        elseif activityInfo.activityType == EC_ActivityType2.LAND_TURNTABLET then
+            local progressInfo = self:getProgressInfo(activityInfo.activityType, activityInfo.items[1])
+            local taskState = false
+            if progressInfo and progressInfo.status == EC_TaskStatus.GET then
+                taskState = true
+            end
+            isShow = self:isLandTabletRankRedShow() or taskState
+        elseif activityInfo.activityType == EC_ActivityType2.CROSS_SUPPORT then
+            for _, itemId in ipairs(activityInfo.items) do
+                local progressInfo = self:getProgressInfo(activityInfo.activityType, itemId)
+                local itemInfo = self:getItemInfo(activityInfo.activityType, itemId)
+                if progressInfo and progressInfo.status == EC_TaskStatus.GET then
+                    isShow = true
                     break
                 end
             end
@@ -867,10 +1034,9 @@ function ActivityDataMgr:isShowRedPoint(activityId)
                 if progressInfo and progressInfo.status == EC_TaskStatus.GET then
                     isShow = true
                     ---特权任务的锁定状态判断
-                    if activityInfo.activityType == EC_ActivityType2.TASK then
-                        if itemInfo.extendData and itemInfo.extendData.treeLevel then
-                            isShow = PrivilegeDataMgr:getWishTreeLv() >= itemInfo.extendData.treeLevel
-                        end
+                    if itemInfo.extendData and itemInfo.extendData.level then
+                        local level = self:getCurUnLockLevelByType(itemInfo.extendData.lockType)
+                        isShow = level >= itemInfo.extendData.level
                     end
 
                     break
@@ -931,6 +1097,19 @@ function ActivityDataMgr:isShowRedPoint(activityId)
         end
     end
     return isShow
+end
+
+function ActivityDataMgr:getCurUnLockLevelByType(lockType)
+
+    local level = 0
+    if lockType == EC_ActivityLockType.WishTreeLv then
+        level = PrivilegeDataMgr:getWishTreeLv()
+    elseif lockType == EC_ActivityLockType.SnowFesTaskLv then
+        level = self:getSnowAchive("snowFesTaskLv") or 0
+    elseif lockType == EC_ActivityLockType.SnowFesAchiveLv then
+        level = self:getSnowAchive("snowFesAchiveLv") or 0
+    end
+    return level
 end
 
 function ActivityDataMgr:setChristmasPreSaveStr(saveStr)
@@ -1265,6 +1444,7 @@ function ActivityDataMgr:__handleActivity(activitys)
                 table.insert(self.activityInfo_, activityInfo)
             end
         elseif activityInfo.ct == EC_SChangeType.DELETE then
+            self:deleteActivityDataBack(activityInfo)
             local index = self.activityInfoMap_[activityInfo.id]
             if index then
                 table.remove(self.activityInfo_, index)
@@ -1273,6 +1453,7 @@ function ActivityDataMgr:__handleActivity(activitys)
             EventMgr:dispatchEvent(EV_ACTIVITY_DELETED, activityInfo.id,activityInfo.extendData)
         elseif activityInfo.ct == EC_SChangeType.UPDATE then
             local index = self.activityInfoMap_[activityInfo.id]
+
             if index then
                 self.activityInfo_[index] = self.activityInfo_[index] or {}
                 for k,v in pairs(activityInfo) do
@@ -1280,6 +1461,14 @@ function ActivityDataMgr:__handleActivity(activitys)
                 end
             end
         end
+
+        local index = self.activityInfoMap_[activityInfo.id]
+        if index then
+            self:activityDataChange(self.activityInfo_[index], activityInfo.activityType)
+        else
+            self:activityDataChange(activityInfo, activityInfo.activityType)
+        end
+
         if not self.itemInfoMap_[activityInfo.activityType] then
             self.itemInfoMap_[activityInfo.activityType] = {}
         end
@@ -1287,6 +1476,29 @@ function ActivityDataMgr:__handleActivity(activitys)
 
     self:updateActivtyOrder()
     EventMgr:dispatchEvent(EV_ACTIVITY_UPDATE_ACTIVITY)
+end
+
+function ActivityDataMgr:activityDataChange( activityInfo, activityType )
+    -- body
+    if activityType == EC_ActivityType2.MAOKA then
+        MaokaActivityMgr:setActivityData(activityInfo)
+    end
+end
+
+function ActivityDataMgr:deleteActivityDataBack( activityInfo )
+    -- body
+    if activityInfo.activityType == EC_ActivityType2.DICUO_LINKAGE then
+        AlertManager:removeMainSceneLayerParamsCache("ChapterMapLayer")
+        AlertManager:removeMainSceneLayerParamsCache("JibanChapterLayer")
+        AlertManager:removeMainSceneLayerParamsCache("EnhuiChapterLayer")
+        AlertManager:removeMainSceneLayerParamsCache("HualunChapterLayer")
+    elseif activityInfo.activityType == EC_ActivityType2.MAOKA then
+        local currentScene = Public:currentScene();
+        if currentScene.__cname == "AmusementPackScene" then
+            Utils:showTips(activityInfo.extendData.activityEndTip)
+            AlertManager:changeScene(SceneType.MainScene)
+        end
+    end
 end
 
 function ActivityDataMgr:onRecvActivitys(event)
@@ -1362,6 +1574,12 @@ function ActivityDataMgr:__parserItem(itemInfo)
     elseif type_ == EC_ActivityType2.CHRONO_CROSS then
         itemInfo.target = tonumber(itemInfo.target)
         itemInfo.reward = json.decode(itemInfo.reward)
+    elseif type_ == EC_ActivityType2.STORE_SNOW_FESTIVAL then
+        itemInfo.target = json.decode(itemInfo.target)
+        itemInfo.reward = json.decode(itemInfo.reward)
+    elseif type_ == EC_ActivityType2.FAN_SHI_STORE then
+        itemInfo.target = json.decode(itemInfo.target)
+        itemInfo.reward = json.decode(itemInfo.reward)
     else
         if itemInfo.target then
             itemInfo.target = tonumber(itemInfo.target)
@@ -1391,13 +1609,13 @@ function ActivityDataMgr:onRecvItems(event)
 	
     local data = event.data
     if not data or not data.items then return end
-
     for i, v in ipairs(data.items) do
         local itemInfo = self:__parserItem(v)
         self.itemInfoMap_[v.type] = self.itemInfoMap_[v.type] or {}
         self.itemInfoMap_[v.type][v.id] = itemInfo
-        -- print("================================================onRecvItems=type=" .. v.type .. "id=" .. v.id)
+		--print("onRecvItems=type=" .. v.type .. "id=" .. v.id)
     end
+	EventMgr:dispatchEvent(EV_ACTIVITY_UPDATE_ITEM_INFO)
 end
 
 function ActivityDataMgr:onRecvProgress(event)
@@ -1439,6 +1657,12 @@ function ActivityDataMgr:actionActivtyPush( activitys )
                 DuanwuHangUpDataMgr:sendHANGUP_ACT_REQ_ACT_INFO()
             elseif v.activityType == EC_ActivityType2.DETECTIVE_CHAPTER then
                 DetectiveDataMgr:getServerInitData()
+            elseif v.activityType == EC_ActivityType2.DICUO_LINKAGE then 
+                FubenDataMgr:SEND_DUNGEON_REQ_GET_LINK_AGE()
+            elseif v.activityType == EC_ActivityType2.MAOKA then 
+                MaokaActivityMgr:onActivityAdd()
+            elseif v.activityType == EC_ActivityType2.NEWYEAR_BUILDREPAIR then
+                TFDirector:send(c2s.ACTIVITY2_REQ_REPAIR_DATA,{})
             end
         end
     end
@@ -1726,7 +1950,7 @@ function ActivityDataMgr:onRecvActivityInnerData(  event  )
         for k,v in pairs(json.decode(data.jsonData)) do
             activityInfo.extendData[k] = v
         end
-        EventMgr:dispatchEvent(EV_ACTIVITY_UPDATE_ACTIVITY)
+        EventMgr:dispatchEvent(EV_ACTIVITY_UPDATE_ACTIVITY, true)
     end
 end
 
@@ -1864,6 +2088,9 @@ function ActivityDataMgr:getWarOrderLevel()
 end
 
 function ActivityDataMgr:getWarOrderMaxLevel()
+    if not self:getWarOrderAcrivityInfo() then
+        return 0
+    end
     return self:getWarOrderAcrivityInfo().extendData.maxLevel
 end
 
@@ -1888,6 +2115,7 @@ end
 
 function ActivityDataMgr:checkWarOrderTaskRedPoint()
     local activityInfo = self:getWarOrderAcrivityInfo()
+    if not activityInfo then return false end
     local taskData = self:getItems(activityInfo.id)
     for i, info in ipairs(taskData) do
         if not activityInfo.extendData.daytask or tonumber(activityInfo.extendData.daytask) ~= info then
@@ -1902,12 +2130,18 @@ end
 
 function ActivityDataMgr:getWarOrderChargeList()
     local activityInfo = self:getWarOrderAcrivityInfo()
+    if not activityInfo then
+        return {}
+    end
     local rechargeList = activityInfo.extendData.rechargeList or {}
     return rechargeList
 end
 
 function ActivityDataMgr:getWarOrderChargeState()
     local activityInfo = self:getWarOrderAcrivityInfo()
+    if not activityInfo then
+        return 0
+    end
     local rechargeList = activityInfo.extendData.rechargeList
     if RechargeDataMgr:getBuyCount(rechargeList[2]) > 0 then
         return 2
@@ -3163,5 +3397,1420 @@ function ActivityDataMgr:OnActivityUnionItem(event)
     EventMgr:dispatchEvent(EV_ACTIVITY_RES_ACTIVITY_UNION_ITEM , data)
 end
 
+
+---------------春节挂机活动开始---------------------
+
+function ActivityDataMgr:onRecvHangUpInfo( event )
+    -- body
+    local data = event.data
+    if not data then return end
+    data.eventList = data.eventList or {}
+    data.hangUpRoleInfo = data.hangUpRoleInfo or {}
+    data.specialAward = data.specialAward or {}
+    local activityInfo = self:getActivityInfo(data.activityId)
+    activityInfo.data = data
+
+    EventMgr:dispatchEvent(EV_ACTIVITY_UPDATE_PROGRESS)
+end
+
+function ActivityDataMgr:onRecvHangUpRoleLevelUpRsp( event )
+    -- body
+    EventMgr:dispatchEvent(EV_ACTIVITY_HANGUP_ROLE_LEVELUP)
+end
+
+function ActivityDataMgr:onRecvGetHangUpSEventAwardRsp( event )
+    -- body
+    local data = event.data
+    if not data then return end
+
+    Utils:showReward(data.rewards)
+end
+
+function ActivityDataMgr:onRecvGetHangUpRewardRsp( event )
+    local data = event.data
+    if not data then return end
+
+    Utils:showReward(data.rewards)
+end
+
+function ActivityDataMgr:onRecvUpOrDownHangUpRoleRsp( event )
+    -- body 
+    local data = event.data
+    if not data then return end
+    if data.up then
+        Utils:showTips(14300211)
+    else
+        Utils:showTips(14300212)
+    end
+end
+
+function ActivityDataMgr:onRecvSendEventInfo( event )
+    -- body
+    local data = event.data
+    if not data then return end
+
+    local activityInfo = self:getActivityInfo(data.activityId)
+
+    if (not activityInfo) or (not activityInfo.data) then return end
+
+    for k,v in pairs(data.eventList or {}) do
+        local has 
+        for _k,_v in pairs(activityInfo.data.eventList) do
+            if _v.eventId == v.eventId then
+                has = true
+                if v.ct == EC_SChangeType.DELETE then
+                    table.remove(activityInfo.data.eventList,_k)
+                else
+                    activityInfo.data.eventList[_k] = clone(v)
+                end
+                break;
+            end
+        end
+        
+        if not has then
+            table.insert(activityInfo.data.eventList,v)
+        end
+    end
+    EventMgr:dispatchEvent(EV_ACTIVITY_UPDATE_HANGUP_EVENTLIST)
+end
+
+function ActivityDataMgr:onRecvSendSpecialEventAward( event )
+    -- body
+    local data = event.data
+    if not data then return end
+
+    local activityInfo = self:getActivityInfo(data.activityId)
+    if (not activityInfo) or (not activityInfo.data) then return end
+    activityInfo.data.specialAward = activityInfo.data.specialAward or {}
+    for k,v in pairs(data.specialAward or {}) do
+        local has 
+        for _k,_v in pairs(activityInfo.data.specialAward) do
+            if _v.id == v.id then
+                has = true
+                if v.ct == EC_SChangeType.DELETE then
+                    table.remove(activityInfo.data.specialAward,_k)
+                else
+                    activityInfo.data.specialAward[_k] = clone(v)
+                end
+                break;
+            end
+        end
+
+        if not has then
+            table.insert(activityInfo.data.specialAward,v)
+        end
+    end
+    EventMgr:dispatchEvent(EV_ACTIVITY_UPDATE_HANGUP_SPECIALAWARD)
+end
+
+function ActivityDataMgr:onRecvSendHangUpRoleInfo( event )
+    -- body
+    local data = event.data
+    if not data then return end
+
+    local activityInfo = self:getActivityInfo(data.activityId)
+    if (not activityInfo) or (not activityInfo.data) then return end
+
+    for k,v in pairs(data.hangUpRoleInfo or {}) do
+        local has 
+        for _k,_v in pairs(activityInfo.data.hangUpRoleInfo) do
+            if _v.roleId == v.roleId then
+                has = true
+                if v.ct == EC_SChangeType.DELETE then
+                    table.remove(activityInfo.data.hangUpRoleInfo,_k)
+                else
+                    activityInfo.data.hangUpRoleInfo[_k] = clone(v)
+                end
+                break;
+            end
+        end
+
+        if not has then
+            table.insert(activityInfo.data.hangUpRoleInfo,v)
+        end
+    end
+    EventMgr:dispatchEvent(EV_ACTIVITY_UPDATE_HANGUP_ROLEINFO)
+end
+
+function ActivityDataMgr:send_ACTIVITY_REQ_GET_HANG_UP_INFO( ... )
+    -- body
+    TFDirector:send(c2s.ACTIVITY_REQ_GET_HANG_UP_INFO,{ ... })
+end
+
+function ActivityDataMgr:send_ACTIVITY_REQ_UP_HANG_UP_ROLE_LEVEL( ... )
+    -- body
+    TFDirector:send(c2s.ACTIVITY_REQ_UP_HANG_UP_ROLE_LEVEL,{...})
+end
+
+function ActivityDataMgr:send_ACTIVITY_REQ_GET_HANG_UP_AWARD( ... )
+    -- body
+    TFDirector:send(c2s.ACTIVITY_REQ_GET_HANG_UP_AWARD,{ ... })
+end
+
+function ActivityDataMgr:send_ACTIVITY_REQ_GET_HANG_UP_SEVENT_AWARD( ... )
+    -- body
+    TFDirector:send(c2s.ACTIVITY_REQ_GET_HANG_UP_SEVENT_AWARD,{ ... })
+end
+
+function ActivityDataMgr:send_ACTIVITY_REQ_GET_HANG_UP_INFO( ... )
+    -- body
+    TFDirector:send(c2s.ACTIVITY_REQ_GET_HANG_UP_INFO,{ ... })
+end
+
+function ActivityDataMgr:send_ACTIVITY_REQ_UP_OR_DOWN_HANG_UP_ROLE( ... )
+    -- body
+    TFDirector:send(c2s.ACTIVITY_REQ_UP_OR_DOWN_HANG_UP_ROLE,{ ... })
+end
+
+function ActivityDataMgr:send_ACTIVITY_REQ_ACTIVITY_ITEM_REFRESH( ... )
+    -- body
+    TFDirector:send(c2s.ACTIVITY_REQ_ACTIVITY_ITEM_REFRESH,{...})
+end
+
+---------------春节挂机活动结束---------------------
+
+-------------新年副本活动-----------------------
+--副本数据信息
+function ActivityDataMgr:Req2020FestivalInfo()
+    TFDirector:send(c2s.SPRING_FESTIVAL_REQ2020_FESTIVAL_INFO,{})
+end
+
+--领取资源
+function ActivityDataMgr:Req2020FestivalResource(dungeon, count, multiple)
+    TFDirector:send(c2s.SPRING_FESTIVAL_REQ2020_FESTIVAL_RESOURCE,{dungeon, count, multiple})
+end
+
+--请求小游戏
+function ActivityDataMgr:Req2020FestivalGameInit(city, area)
+    self.gameCity,self.gameArea = city, area
+    TFDirector:send(c2s.SPRING_FESTIVAL_REQ2020_FESTIVAL_GAME_INIT,{city, area})
+end
+
+--完成小游戏
+function ActivityDataMgr:Req2020FestivalGameFinish(group, param)
+    print(self.gameCity, self.gameArea,group)
+    dump(param)
+    if not self.gameCity or not self.gameArea then
+        return
+    end
+    TFDirector:send(c2s.SPRING_FESTIVAL_REQ2020_FESTIVAL_GAME_FINISH,{self.gameCity, self.gameArea, group, param})
+end
+
+--活动副本信息
+function ActivityDataMgr:onRespFestival2020Info(event)
+    local data = event.data
+    if not data then return end
+    self.newYearFubenInfo = {}
+    self.newYearFubenInfo.stage = data.stage
+    self.newYearFubenInfo.stageEnd = data.stageEnd
+    self.newYearFubenInfo.totalScore = data.totalScore
+    self.newYearFubenInfo.round = data.round
+    self.newYearFubenInfo.roundScore = data.roundScore
+    self.newYearFubenInfo.cities = {}
+    for i, city in ipairs(data.cities) do
+        self.newYearFubenInfo.cities[city.id] = {}
+        for j, areaInfo in ipairs(city.areas) do
+            self.newYearFubenInfo.cities[city.id][areaInfo.area] = areaInfo
+        end
+    end
+    EventMgr:dispatchEvent(EV_NEW_YEAR_FUBEN_INFO_UPDATE)
+end
+
+--城市信息刷新
+function ActivityDataMgr:onRespFestival2020CityRefresh(event)
+    if not self.newYearFubenInfo then
+        self.newYearFubenInfo = {}
+        self.newYearFubenInfo.cities = {}
+    end
+    local data = event.data
+    if not data then return end
+    for i, city in ipairs(data.cities) do
+        self.newYearFubenInfo.cities[city.id] = self.newYearFubenInfo.cities[city.id] or {}
+        if city.areas then
+            for j, areaInfo in ipairs(city.areas) do
+                self.newYearFubenInfo.cities[city.id][areaInfo.area] = areaInfo
+            end
+        end
+    end
+    EventMgr:dispatchEvent(EV_NEW_YEAR_FUBEN_INFO_UPDATE)
+end
+
+function ActivityDataMgr:getNewYearFubenInfo()
+    return self.newYearFubenInfo
+end
+
+
+--获取城市节点数据
+function ActivityDataMgr:getNewYearCityPointInfo(cityId)
+    for k,v in pairs(self.newYearFubenInfo.cities) do
+        if tonumber(k) == cityId then
+            return v
+        end
+    end
+end
+
+--获取城市子节点数据
+function ActivityDataMgr:getNewYearCitySubPointInfo(cityId,area)
+    local cityInfo = self:getNewYearCityInfo(cityId)
+    if cityInfo[area] then
+        return cityInfo[area]
+    end
+end
+
+function ActivityDataMgr:getNewYearCitySubPointInfoByDungeon(dungeon)
+    for k,city in pairs(self.newYearFubenInfo.cities) do
+        for p, area in pairs(city) do
+            if area.dungeon == dungeon then
+                return area
+            end
+        end
+    end
+end
+
+--领取资源返回
+function ActivityDataMgr:onRespFestival2020Resource(event)
+    local data = event.data
+    if data.rewards then
+        Utils:showReward(data.rewards)
+    end
+end
+
+--完成小游戏
+function ActivityDataMgr:onRespFestival2020Finish(event)
+    local data = event.data
+    if not data then
+        return
+    end
+
+    --data
+        --status = 1;//游戏选项是否正确
+        --game = 2;//游戏类型
+        --cases = 3;//或许需要例子说明，备用字段
+        --rewards = 4; //获得奖励
+    EventMgr:dispatchEvent(EV_NEW_YEAR_GAME_FINISH,data)
+
+end
+
+function ActivityDataMgr:enterGame(data)
+
+    local gameType = data.game
+    if EC_NewYearGameType.Fish == gameType then
+        Utils:openView("newYear.FishGame",data)
+    elseif EC_NewYearGameType.Divine == gameType then
+        Utils:openView("newYear.CardGame",data)
+	elseif EC_NewYearGameType.Light == gameType then
+		Utils:openView("activity.LightRiddles",data)
+	elseif EC_NewYearGameType.Puzzle == gameType then
+		Utils:openView("activity.JointPicture",data)
+	elseif EC_NewYearGameType.Drink == gameType then
+		Utils:openView("activity.ConcoctDrinks",data)
+    end
+
+end
+
+--初始化小游戏
+function ActivityDataMgr:onRespFestival2020GameInit(event)
+    local data = event.data
+    if not data then
+        return
+    end
+        --game = 1;//游戏类型
+        --group = 2;//组合id
+        --result = 3;//答案
+        --pool = 4;//选项池
+    self:enterGame(data)
+    --EventMgr:dispatchEvent(EV_NEW_YEAR_GAME_INIT,data)
+end
+
+function ActivityDataMgr:showGameResult(data)
+    Utils:showReward(data.rewards,nil,nil,2460048)
+end
+
+----召回活动
+function ActivityDataMgr:setCallBackInfo(info)
+    self.callbackInfo = info
+end
+
+function ActivityDataMgr:getCallBackInfo()
+    return self.callbackInfo
+end
+
+function ActivityDataMgr:ReqGetBeCallInfo(activityId)
+    TFDirector:send(c2s.ACTIVITY_REQ_GET_BE_CALL_INFO,{activityId})
+end
+
+function ActivityDataMgr:ReqShareComplete(activityId)
+    TFDirector:send(c2s.ACTIVITY_REQ_SHARE_COMPLETE,{activityId})
+end
+
+function ActivityDataMgr:ReqWriteBeCallPlayerId(activityId,uid)
+    TFDirector:send(c2s.ACTIVITY_REQ_WRITE_BE_CALL_PLAYER_ID,{activityId,uid})
+end
+
+function ActivityDataMgr:sendReqActivityPrayTask(activityId, taskItemId)
+    TFDirector:send(c2s.ACTIVITY_REQ_ACTIVITY_PRAY_TASK, {activityId, taskItemId})
+end
+
+function ActivityDataMgr:onRespCallBackInfo(event)
+
+    local data = event.data
+    if not data then
+        return
+    end
+    self:setCallBackInfo(data)
+    EventMgr:dispatchEvent(EV_ACTIVITY_CALL_BACK_INFO)
+end
+
+function ActivityDataMgr:onRespShareComplete(data)
+	EventMgr:dispatchEvent(EV_ACTIVITY_SHARE_COMPLETE)
+end
+
+function ActivityDataMgr:onRespSubmitUid(event)
+    local data = event.data
+    if not data then
+        return
+    end
+
+    dump(data)
+    ----0表示成功  其他去读string.csv里面的id
+    local successCode = data.successCode
+    if successCode == 0 then
+        Utils:showTips(100000145)
+        EventMgr:dispatchEvent(EV_ACTIVITY_CALL_BACK_BIND,true)
+    else
+        Utils:showTips(successCode)
+    end
+end
+
+function ActivityDataMgr:onActivityItemRefreshRsp(data)
+
+end
+
+--------团购-------------
+function ActivityDataMgr:initGPVariable()
+	self.myGroupTeamInfo = nil
+	self.groupPurchaseHallInfo = nil
+	self.nextinvitServer = 10
+	self.cdInternal = {}
+	self.GPNeedUpate =  {}
+end
+
+function ActivityDataMgr:setNextinvitServer(cd)
+	self.nextinvitServer = ServerDataMgr:getServerTime() + cd
+end
+
+function ActivityDataMgr:setGPUpdateVarible(tag, giftID)
+	self.GPNeedUpate[giftID] = tag
+end
+
+function ActivityDataMgr:getGPUpdateVarible(giftID)
+	return self.GPNeedUpate[giftID] or  true
+end
+
+function ActivityDataMgr:getNextinvitServer()
+	return self.nextinvitServer
+end
+
+
+
+------收到创建团购----------
+function ActivityDataMgr:onCreateGroupPurchase(evt)
+	local data = {teamInfo = evt.data}
+	dump(data)
+	self:saveMyGroupPurchaseInfo(data)
+	EventMgr:dispatchEvent(EV_GROUP_PURCHASE_CREATE)
+end
+
+--收到加入团购
+function ActivityDataMgr:onJoinGroupPurchase(evt)
+	self:saveMyGroupPurchaseInfo({teamInfo = evt.data})
+	EventMgr:dispatchEvent(EV_GROUP_PURCHASE_JOIN, evt.data)
+end
+
+--其他人加入
+function ActivityDataMgr:onOtherJoin(evt)
+	print("其他人加入")
+	dump(evt.data)
+	self:saveMyGroupPurchaseInfo({teamInfo = evt.data})
+	EventMgr:dispatchEvent(EV_GROUP_PURCHASE_OTHER_JOIN, evt.data)
+end
+
+function ActivityDataMgr:saveMyGroupPurchaseInfo(tab)
+	if table.count(tab)== 0 then
+		return;
+	end
+	local teamInfo = tab.teamInfo
+	self.myGroupTeamInfo = self.myGroupTeamInfo or {}
+	for k,v in pairs(teamInfo) do
+		self.myGroupTeamInfo[v.teamId] = v
+		self.myGroupTeamInfo[v.teamId].creator = {}
+		self.myGroupTeamInfo[v.teamId].partner = {}
+		for s,q in pairs(v.members) do
+			if q.isCreator then
+				table.insert(self.myGroupTeamInfo[v.teamId].creator, q)
+			else
+				table.insert(self.myGroupTeamInfo[v.teamId].partner, q)
+			end
+		end
+	end
+end
+
+function ActivityDataMgr:getMyGroupPurchaseInfo(giftID)
+
+	if giftID == nil then
+		return self.myGroupTeamInfo
+	end
+
+	for k, v in pairs(self.myGroupTeamInfo or {}) do
+		if v.giftId == giftID then
+			return v
+		end
+	end
+
+	return nil
+end
+
+
+function ActivityDataMgr:resetHallListData()
+	self.groupPurchaseHallInfo = nil
+end
+--收到刷新列表消息
+function ActivityDataMgr:onRefreshGroupPurchase(evt)
+	--self.groupPurchaseHallInfo = evt.data
+	self.groupPurchaseHallInfo = self.groupPurchaseHallInfo or {}
+	self.groupPurchaseHallInfo[evt.data.giftId] = evt.data
+
+	print("收到刷新列表消息")
+	dump(self.groupPurchaseHallInfo)
+	EventMgr:dispatchEvent(EV_GROUP_PURCHASE_REFRESH, self.groupPurchaseHallInfo)
+end
+
+function ActivityDataMgr:getGroupPurchaseHallInfo()
+	return self.groupPurchaseHallInfo
+end
+
+function ActivityDataMgr:getGPHallInfo(type_, giftId)
+	if self.groupPurchaseHallInfo == nil or self.groupPurchaseHallInfo[giftId] == nil then
+		return;
+	end
+	local data = self.groupPurchaseHallInfo[giftId]
+	local teamInfo;
+	if type_ == EC_GroupType.ALL then
+		teamInfo = data.allTeamInfos
+	elseif type_ == EC_GroupType.Friend then
+		teamInfo = data.friendTeamInfos
+	end
+
+	local ret = {}
+	for i=1, #(teamInfo or {}) do 
+		local team = teamInfo[i]
+		if  team.isShow then
+			table.insert(ret,  team)
+		end
+	end
+
+	local playerId = MainPlayer:getPlayerId()
+	--按合伙人数多少排序
+	for key, val in pairs(ret) do 
+		val.partnerNum = 0
+		val.creator = {}
+		val.partner = {}
+		val.isMySelf = false
+		for k,v in pairs(val.members) do
+			if v.isCreator then
+				table.insert(val.creator, v)
+			else
+				val.partnerNum = val.partnerNum + 1
+				table.insert(val.partner, v)
+			end
+
+			if v.playerId == playerId then
+				val.isMySelf = true
+			end
+		end
+	end
+	table.sort(ret, function(a, b)
+		return a.partnerNum > b.partnerNum
+	end)
+
+	return ret
+end
+
+--收到领取团购
+function ActivityDataMgr:onRecieveGroupPurchase(evt)
+	EventMgr:dispatchEvent(EV_GROUP_PURCHASE_GET, evt.data)
+end
+
+function ActivityDataMgr:sendQueryGiftStatus()
+	TFDirector:send(c2s.RECHARGE_REQ_GROUP_GIFT_INFO, {})
+end
+
+--收到取消团购
+function ActivityDataMgr:onCancelGroupPurchase(evt)
+	local teamId = evt.data["teamId"]
+	self.myGroupTeamInfo[teamId] = nil
+	EventMgr:dispatchEvent(EV_GROUP_PURCHASE_CANCEL, evt.data)
+end
+
+function ActivityDataMgr:onGetMyGroupPurchaseData(evt)  
+	print("ActivityDataMgr:onGetMyGroupPurchaseData")
+	dump(evt.data)
+	self.myGroupTeamInfo = {}
+
+	self:saveMyGroupPurchaseInfo(evt.data)
+
+	EventMgr:dispatchEvent(EV_GROUP_PURCHASE_SELF, evt.data)
+end
+
+function ActivityDataMgr:onQueryGiftStatus(evt)
+	self.giftStatus = {}
+
+	for k, v in pairs(evt.data.giftInfos) do
+		self.giftStatus[v.giftId] = v
+	end
+
+	EventMgr:dispatchEvent(EV_GROUP_PURCHASE_QUERY_GIFT)
+end
+function ActivityDataMgr:onDissolution(evt)
+	local teamId = evt.data["teamId"]
+	self.myGroupTeamInfo[teamId] = nil
+	EventMgr:dispatchEvent(EV_GROUP_PURCHASE_DISSLUTION)
+end
+
+function ActivityDataMgr:onShowGroupInHall()
+	EventMgr:dispatchEvent(EV_GROUP_PURCHASE_SHOW_HALL)
+end
+
+
+function ActivityDataMgr:getGiftStatus(giftId)
+	if giftId then
+		return self.giftStatus[giftId]
+	end
+	return self.giftStatus
+end
+
+function ActivityDataMgr:setGPActivityInfo(activityInfo)
+	self.GPActivityInfo = activityInfo
+end
+
+function ActivityDataMgr:setTeamShowStatus(giftId, show)
+	for k, v in pairs(self.myGroupTeamInfo) do
+		if v.giftId == giftId then
+			v.isShow = show
+			break;
+		end
+	end
+end
+
+function ActivityDataMgr:getGPActivityInfo()
+	return self.GPActivityInfo
+end
+
+function ActivityDataMgr:getGPTeamIdByGiftId(giftId)
+	for k, v in pairs(self.myGroupTeamInfo) do
+		if v.giftId == giftId then
+			return v.teamId
+		end
+	end
+	return nil
+end
+
+
+--劳动节活动
+function ActivityDataMgr:requestLobarDayScore()
+	TFDirector:send(c2s.ACTIVITY_REQ_UNION_LABOUR_SCORE, {})
+end
+function ActivityDataMgr:requestLobarConvert()
+	TFDirector:send(c2s.ACTIVITY_REQ_UNION_LABOUR_CONVERT, {})
+end
+
+function ActivityDataMgr:requestLobarDayRank()
+	TFDirector:send(c2s.ACTIVITY_REQ_UNION_LABOUR_RANK, {})
+end
+
+function ActivityDataMgr:onLobarDayScore(event)
+	print("onLobarDayScore")
+	dump(event.data)
+	self.lobarDayTotalScore = event.data.totalScore or 0
+	EventMgr:dispatchEvent(EV_LOBAR_DAY_SCORE_RECEIVE)
+end
+
+function ActivityDataMgr:onLobarDayRank(event)
+	self.lobarDayRankData = event.data
+	EventMgr:dispatchEvent(EV_LOBAR_DAY_RANK_RECEIVE)
+end
+
+function ActivityDataMgr:getLobarRank()
+	return self.lobarDayRankData
+end
+
+function ActivityDataMgr:getLobarScore()
+	return self.lobarDayTotalScore
+end
+
+function ActivityDataMgr:setCacheTaskSelect(index)
+	self.lobarDayTaskSelect =index
+end
+function ActivityDataMgr:getCacheTaskSelect()
+	local idx = self.lobarDayTaskSelect
+	self.lobarDayTaskSelect = nil
+	return idx
+end
+
+function ActivityDataMgr:onPhyscalConvert(event)
+	self.LobarConvertData = event.data
+	dump(event.data)
+	EventMgr:dispatchEvent(EV_LOBAR_DAY_CONVERT_PROGRESS, self.LobarConvertData)
+end
+
+function ActivityDataMgr:getLobarConvertData()
+	return self.LobarConvertData
+end
+
+function ActivityDataMgr:sendReqClickAdActivity(activityId, itemId, type)
+    TFDirector:send(c2s.ACTIVITY_REQ_CLICK_AD_ACTIVITY, {activityId, itemId, type})
+end
+
+function ActivityDataMgr:isAdActivityOpen()
+    local activity = self:getActivityInfoByType(EC_ActivityType2.AD_ACTIVITY)
+    if #activity > 0 then
+        local activityInfo = self:getActivityInfo(activity[1])
+        for k, v in ipairs(activityInfo.items or {}) do
+            local itemInfo = self:getItemInfo(activityInfo.activityType, v)
+            local endTime = 0
+            if itemInfo and itemInfo.extendData.endTime then
+                endTime = itemInfo.extendData.endTime
+            end
+            if ServerDataMgr:getServerTime() <= endTime then
+                return true
+            end
+        end
+    end
+    return false
+end
+
+--时之契约
+function ActivityDataMgr:requestSZQYData(actId)
+	TFDirector:send(c2s.ACTIVITY_REQ_TIME_CONTRACT, {actId})
+end
+
+function ActivityDataMgr:requestSZQYStep(actId)
+	TFDirector:send(c2s.ACTIVITY_REQ_DICE_CONTRACT, {actId})
+end
+
+function ActivityDataMgr:requestResetSZQY(actId)
+	TFDirector:send(c2s.ACTIVITY_REQ_REFRESH_CONTRACT, {actId})
+end
+
+function ActivityDataMgr:onSZQYData(evt)
+	self.dataSZQY = evt.data
+	self.dataSZQY.awardList = self.dataSZQY.awardList or {} 
+
+	EventMgr:dispatchEvent(EV_SZQY_RESP_MAIN_DATA)
+end
+
+function ActivityDataMgr:onSZQYStep(evt)
+	self.dataSZQYStep = evt.data
+	EventMgr:dispatchEvent(EV_SZQY_RESP_STEP, evt.data)
+end
+
+function ActivityDataMgr:onResetSZQY(evt)	
+	EventMgr:dispatchEvent(EV_SZQY_RESP_RESET)
+end
+
+function ActivityDataMgr:getSZQYRewards()
+	return self.dataSZQY.awardList or {}
+end
+
+function ActivityDataMgr:getSZQYData()
+	return self.dataSZQY or {}
+end
+
+function ActivityDataMgr:getCurrentRewards()
+	local got = true	
+	if self.dataSZQYStep then
+		local locations = self.dataSZQYStep.locations
+		if table.indexOf(self.dataSZQY.awardList, locations[#locations]) == -1 then
+			table.insert(self.dataSZQY.awardList, locations[#locations])
+			got = false
+		end
+	end
+	return got
+end
+
+function ActivityDataMgr:checkReward(location)
+	return table.indexOf(self.dataSZQY.awardList, location) == -1
+end
+
+--花嫁活动
+function ActivityDataMgr:sendDressVoteComfirm(itemId, voteNum)
+	TFDirector:send(c2s.ACTIVITY_REQ_VOTE_ACTIVITY, {itemId, voteNum})
+end
+
+function ActivityDataMgr:sendDressVoteUpdate()
+	TFDirector:send(c2s.ACTIVITY_REQ_VOTE_ACTIVITY_INFO, {})
+end
+
+function ActivityDataMgr:sendDressVoteChange(itemId)
+	if itemId == nil then
+		return;
+	end	
+	TFDirector:send(c2s.ACTIVITY_REQ_CHANGE_VOTE_INFO, {itemId})
+end
+
+function ActivityDataMgr:onDressVoteSucess(evt)
+	local data = evt.data
+
+	self.dressVoteData[data.itemId].total = self.dressVoteData[data.itemId].total + data.addNum or 0
+
+	local temp = {}
+	for k, v in pairs(self.dressVoteData) do
+		table.insert(temp,v)
+	end
+	self.dressVoteData = self:cfgDressVoteData(temp)
+	EventMgr:dispatchEvent(EV_VOTE_DRESS_SUCESS, data)
+end
+
+function ActivityDataMgr:onDressVoteInfo(evt)
+	local data = evt.data
+	if data == nil then
+		return
+	end
+
+	if data.voteInfo == nil or (data.voteInfo and #data.voteInfo == 0) then
+		return
+	end
+	self.dressVoteData = self:cfgDressVoteData(data.voteInfo)
+	EventMgr:dispatchEvent(EV_VOTE_DRESS_UPDATE, self.dressVoteData)
+end
+
+
+function ActivityDataMgr:cfgDressVoteData(info)
+	local ret = {}
+	for i = 1, #info do
+		local newTotal = info[i].total or 0;
+		local curTotal = 0
+		if self.dressVoteData and self.dressVoteData[info[i].itemId] then
+			curTotal = self.dressVoteData[info[i].itemId].total
+		end
+		if newTotal <= curTotal then
+			newTotal = curTotal
+		end
+		ret[info[i].itemId] = {itemId = info[i].itemId, total = newTotal}
+	end
+
+	local temp = {}
+	for k, v in pairs(ret) do
+		table.insert(temp,v)
+	end
+	table.sort(temp,function(a, b)
+		return a.total > b.total
+	end)
+
+	local index = 1
+	for i = 1, #temp do
+		ret[temp[i].itemId].sort = index
+		index = index + 1
+	end
+
+	return ret
+end
+
+function ActivityDataMgr:getDressVoteData(itemId)
+	return self.dressVoteData
+end
+
+function ActivityDataMgr:setDressVoteData(info)
+	if not self.dressVoteFirstEnter then
+		self.dressVoteData = self:cfgDressVoteData(info)
+		self.dressVoteFirstEnter = true
+	end
+end
+
+function ActivityDataMgr:onRecvAnnivDress(event)
+    local data = event.data
+    if not data then
+        return
+    end
+
+    EventMgr:dispatchEvent(EV_UPDATE_TWOYEAR_FASHION, data)
+end
+
+function ActivityDataMgr:onRecvFreshAnnivDress(event)
+
+end
+
+--周年庆放飞气球相关逻辑
+function ActivityDataMgr:sendReqFlyBalloon(items)
+    TFDirector:send(c2s.ACTIVITY_REQ_FLY_BALLOON, {items})
+end
+
+--请求/取消好友交换气球
+--operType操作类型 1 请求 2 取消
+function ActivityDataMgr:sendReqExchangeApply(friendId, operType)
+    TFDirector:send(c2s.ACTIVITY_REQ_EXCHANGE_APPLY, {friendId, operType})
+end
+
+--接受/拒绝好友交换气球邀请
+--accept是否接受 true 接受 false 拒绝
+--otherOption = 3;//其他选项 二进制或运算 1(1)不再接受对方 2(10)不再接受好友 3(11) 全部不接受
+function ActivityDataMgr:sendReqDealFriendExchangeApply(friendId, accept, otherOption)
+    TFDirector:send(c2s.ACTIVITY_REQ_DEAL_FRIEND_EXCHANGE_APPLY, {friendId, accept, otherOption})
+end
+
+--交易中主动取消交易
+function ActivityDataMgr:sendReqCancelBalloonTrade(friendId)
+    TFDirector:send(c2s.ACTIVITY_REQ_CANCEL_BALLOON_TRADE, {friendId})
+end
+
+--选中的气球id
+--itemIds我选中的气球id
+--confirm确认状态 true已确认 false 未确认
+function ActivityDataMgr:sendReqSelectBalloonId(friendId, itemIds, confirm)
+    TFDirector:send(c2s.ACTIVITY_REQ_SELECT_BALLOON_ID, {friendId, itemIds, confirm})
+end
+
+--确认交易
+function ActivityDataMgr:sendReqConfirmTrade(friendId)
+    TFDirector:send(c2s.ACTIVITY_REQ_CONFIRM_TRADE, {friendId})
+end
+
+--放飞气球成功返回
+function ActivityDataMgr:onFlyBalloonSucc(event)
+    local data = event.data
+
+    local rewardLevel = data.rewardLevel or 1
+    local stringId = 13317044 + rewardLevel - 1
+    local rewards = data.rewards or {}
+    Utils:showReward(rewards, nil, nil, stringId)
+    EventMgr:dispatchEvent(EV_BALLOON_FLY_SUCC)
+end
+
+--返回好友交换气球请求
+function ActivityDataMgr:onResExchangeApply(event)
+    local data = event.data
+    if data.operType == 2 then
+        --交易前主动取消
+        EventMgr:dispatchEvent(EV_BALLOON_EXCHANGE_CANCEL)
+    else
+        --请求发送成功
+        Utils:openView("balloon.BalloonReqView", data)
+    end
+end
+
+--对方收到交易的提示
+function ActivityDataMgr:onExchangeBalloonNotify(event)
+    local data = event.data
+    print("对方收到交易的提示", data)
+    if data.timeout > 0 then
+        --收到交易的提示
+        self:showBalloonNotifyLayer(data)
+    else
+        --对方交易前主动取消
+        if self:isCanExchange() then
+            Utils:showTips(13317049)
+        end
+        EventMgr:dispatchEvent(EV_BALLOON_EXCHANGE_CANCEL)
+    end
+end
+
+function ActivityDataMgr:isCanExchange()
+    local ret = true
+    local currentScene = Public:currentScene()
+    if currentScene.__cname == "BattleScene" or DatingDataMgr:getIsDating() and AlertManager:getLayerBySpecialName("DatingScriptView") then 
+        ret = false
+    end
+    print("ActivityDataMgr:isCanExchange", ret, currentScene.__cname, DatingDataMgr:getIsDating())
+    return ret
+end
+
+function ActivityDataMgr:showBalloonNotifyLayer(data)
+    if not self:isCanExchange() or not data then return end
+    local currentScene = Public:currentScene()
+    local layer = requireNew("lua.logic.balloon.BalloonNotifyLayer"):new(data)
+    layer:setName("BalloonNotifyLayer")
+    currentScene:addChild(layer)
+end
+
+--接受/拒绝好友交换气球邀请
+function ActivityDataMgr:onResDealFriendExchangeApply(event)
+    EventMgr:dispatchEvent(EV_BALLOON_EXCHANGE_REPLY)
+end
+
+--通知对方弹交换面板
+function ActivityDataMgr:onOpenExchangePanel(event)
+    local data = event.data
+    --true弹交易面板 false交易取消
+    if data.result then
+        Utils:openView("balloon.BalloonDealView", data.friendId)
+    else
+        --交易取消
+        if self:isCanExchange() then
+            Utils:showTips(13317050)
+        end
+    end
+    EventMgr:dispatchEvent(EV_BALLOON_EXCHANGE_NOTIFY)
+end
+
+--更新选中的气球id
+function ActivityDataMgr:onUpdateSelectBalloonId(event)
+    local data = event.data
+
+    EventMgr:dispatchEvent(EV_BALLOON_CHOOSE_UPDATE, data)
+end
+
+--确认交易结果
+function ActivityDataMgr:onConfirmTrade(event)
+
+end
+
+--交换气球结果
+function ActivityDataMgr:onBalloonExchangeResult(event)
+    local data = event.data
+
+    --result交换结果 1成功 2取消
+    EventMgr:dispatchEvent(EV_BALLOON_EXCHANGE_RESULT, data)
+end
+
+--判断气球活动是否有可领取
+function ActivityDataMgr:isBalloonTip()
+    local activityIdList = self:getActivityInfoByType(EC_ActivityType2.BALLOON_ACTIVITY)
+    if #activityIdList <= 0 then return false end
+    return self:isCanGet(activityIdList[1])
+end
+
+function ActivityDataMgr:reqHalloweenPass( ... )
+    -- body
+    TFDirector:send(c2s.ACTIVITY_REQ_HALLOWEEN_PASS,{})
+end
+
+function ActivityDataMgr:onHalloweenPassRsp( event )
+    -- body
+    local data = event.data
+    if not data then return end
+
+    self.halloweenPass = data.passInfo
+    EventMgr:dispatchEvent(EV_ACTIVITY_HALLOWEEN_PASS_RSP)
+end
+
+function ActivityDataMgr:getDungeonPassCount( dungeonId )
+    -- body
+    if not self.halloweenPass then return 0 end
+
+    for k,v in ipairs(self.halloweenPass) do
+        if v.dunId == dungeonId then 
+            return v.passCount
+        end
+    end
+
+    return 0
+end
+
+function ActivityDataMgr:getHalloweenUnableSuperBuffIds()
+    local buffId = {}
+    if not self.halloweenPass then return buffId end
+    local ghostChatper = TabDataMgr:getData("GhostChapter")
+    for k,cfg in pairs(ghostChatper) do
+        local curPorgress = self:getDungeonPassCount(cfg.progressLevel)
+        if curPorgress >= cfg.progressAmount then
+            table.insert(buffId,cfg.unableBuff)
+        end
+    end
+    return buffId
+end
+
+
+function ActivityDataMgr:Send_getGhostInfo()
+    TFDirector:send(c2s.PLAYER_REQ_PHANTOM_INFO, {})
+end
+
+function ActivityDataMgr:Send_giveGift(ghostid,ghostPos,giftIndex)
+    self.giftIndex = giftIndex
+    TFDirector:send(c2s.PLAYER_REQ_PHANTOM_GIFT, {ghostid,giftIndex,ghostPos})
+end
+
+function ActivityDataMgr:GetGhostInfo()
+    return self.ghostInfo or {}
+end
+
+
+function ActivityDataMgr:onRespGhostInfo(event)
+
+    local data = event.data
+    if not data then
+        return
+    end
+    dump(data)
+
+    ---data.phantomInfo :服务器默认是3个元素，没有鬼的话，phantomId = 0
+    self.ghostInfo = {}
+    for k,v in ipairs(data.phantomInfo or {}) do
+        self.ghostInfo[v.pos] = v.phantomId
+    end
+
+    EventMgr:dispatchEvent(EV_ACTIVITY_UPDATE_PROGRESS)
+    EventMgr:dispatchEvent(EV_PRE_HALLOWEEN_GHOST,data.type == 2)
+end
+
+function ActivityDataMgr:onRespGift(event)
+
+    local data = event.data
+    EventMgr:dispatchEvent(EV_PRE_HALLOWEEN_GIFT,data.rewardInfo or {},self.giftIndex)
+end
+
+-- 地错应援活动
+-- 请求地错应援数据
+function ActivityDataMgr:send_ACTIVITY_REQ_ASSISTANCE_INFO(activityId)
+    TFDirector:send(c2s.ACTIVITY_REQ_ASSISTANCE_INFO, {activityId})
+end
+
+-- 请求地错应援翻牌
+function ActivityDataMgr:send_ACTIVITY_REQ_ASSISTANCE_FLOP(activityId, count)
+    TFDirector:send(c2s.ACTIVITY_REQ_ASSISTANCE_FLOP, {activityId, count})
+end
+
+-- 请求地错应援排行榜
+function ActivityDataMgr:send_ACTIVITY_REQ_ASSISTANCE_FLOP_RANK(activityId)
+    TFDirector:send(c2s.ACTIVITY_REQ_ASSISTANCE_FLOP_RANK, {activityId})
+end
+
+function ActivityDataMgr:onRecvTurnTabletData(event)
+    local data = event.data
+    if not data then return end
+    local open
+    if self.activityCfgDataMap_[EC_ActivityType2.LAND_TURNTABLET] then
+        open = self.activityCfgDataMap_[EC_ActivityType2.LAND_TURNTABLET].open
+    end
+    self.activityCfgDataMap_[EC_ActivityType2.LAND_TURNTABLET] = data
+    if nil ~= open then
+        self.activityCfgDataMap_[EC_ActivityType2.LAND_TURNTABLET].open = open
+    end
+    EventMgr:dispatchEvent(EV_LAND_TURNTABLET_INFO)
+end
+
+function ActivityDataMgr:onRecvDoTurnTabletReward(event)
+    local data = event.data
+    if not data then return end
+    self.activityCfgDataMap_[EC_ActivityType2.LAND_TURNTABLET].open = data.open
+    EventMgr:dispatchEvent(EV_LAND_TURNTABLET_REWARD, data.rewards)
+end
+
+function ActivityDataMgr:onRecvDoTurnTabletRankData(event)
+    local data = event.data
+    if not data then return end
+    EventMgr:dispatchEvent(EV_LAND_TURNTABLET_RANK, data)
+end
+
+function ActivityDataMgr:setLandTabletRankRedFalse()
+    Utils:setLocalSettingValue("Activity_LandTabletRankRedShow"..MainPlayer:getPlayerId(), "true")
+end
+
+function ActivityDataMgr:isLandTabletRankRedShow()
+    if Utils:getLocalSettingValue("Activity_LandTabletRankRedShow"..MainPlayer:getPlayerId()) == "true" then 
+        return false
+    else
+        return true
+    end
+end
+
+-- 下卷应援活动数据
+function ActivityDataMgr:onRecvCrossSupportInfo(event)
+    local data = event.data
+    if not data then return end
+    EventMgr:dispatchEvent(EV_CROSS_SUPPORT_INFO, data)
+end
+
+function ActivityDataMgr:SEND_ACTIVITY_REQ_CROSS_SUPPORT_INFO( ... )
+    -- body
+    TFDirector:send(c2s.ACTIVITY_REQ_CROSS_SUPPORT_INFO, {})
+end
+
+--冰雪节
+--snow book
+function ActivityDataMgr:onRecvSnowBookData(event)
+	local data = event.data
+	self.snowDayBookData = data or {}
+	EventMgr:dispatchEvent(EV_ICE_SNOW_BOOK_DATA, data)
+end
+
+function ActivityDataMgr:onUpgradeSuccess(event)
+	EventMgr:dispatchEvent(EV_ICE_SNOW_UPGRADE, data)
+end
+
+function ActivityDataMgr:getSnowBookData()
+	return self.snowDayBookData
+end
+
+function ActivityDataMgr:getSnowBuffInfo()
+	self.snowDayBookData = self.snowDayBookData or {}
+	local snowBuffInfo = {}
+	for k, v in ipairs(self.snowDayBookData.buff or {}) do
+		v.value = v.value or {}
+		snowBuffInfo[v.name] = v.value[1] or 1
+	end
+	return snowBuffInfo
+end
+
+function ActivityDataMgr:sendEnterSnowDay()
+	TFDirector:send(c2s.SNOW_FESTIVAL_REQ_PAMPHLET_INFO, {})
+end
+
+function ActivityDataMgr:sendSnowBookUpgrade(...)
+	TFDirector:send(c2s.SNOW_FESTIVAL_REQ_PAMPHLET_LEVEL_UP, {...})
+end
+
+function ActivityDataMgr:sendSnowGameOver(...)
+	TFDirector:send(c2s.SNOW_FESTIVAL_REQ_FINISH_GAME, {...})
+end
+
+function ActivityDataMgr:onRecvSnowMemoryData(event)
+	local data = event.data
+    if not data then return end
+
+	self.snowDayBookData = data
+end
+
+--snow memory
+function ActivityDataMgr:onRecvSnowMemory(event)
+	local data = event.data
+	self.snowMemoryData = data
+
+	EventMgr:dispatchEvent(EV_ICE_SNOW_LEVEL_DETAIL, data)
+end
+
+function ActivityDataMgr:getSnowAchive(achiveName)
+	local tab = {}
+	local snowDayBookData = self.snowDayBookData or {}
+	local buffArr = snowDayBookData.buff or {}
+
+	for k,v in ipairs(buffArr) do		
+		v.value = v.value or {1}
+		tab[v.name] = v.value[1]
+	end
+
+	local ret = tab
+	if achiveName then
+		ret = tab[achiveName]
+	end
+
+	return ret
+end
+
+function ActivityDataMgr:onRecvSnowGameOver(event)
+	local data = event.data
+	EventMgr:dispatchEvent(EV_ICE_SNOW_GAME_OVER, data)
+end
+
+function ActivityDataMgr:sendEnterSnowMemory(taskId)
+	TFDirector:send(c2s.SNOW_FESTIVAL_REQ_ENTER_MEMORY, {taskId})
+end
+
+function ActivityDataMgr:sendSnowLevelFocus(...)
+	TFDirector:send(c2s.SNOW_FESTIVAL_REQ_MEMORY_LOCATION, {...})
+end
+
+function ActivityDataMgr:onRecvSnowFocusLoaction(event)
+	local data = event.data
+	self.snowFocusData = data or {}
+	EventMgr:dispatchEvent(EV_ICE_SNOW_FOCUS_LOCATION, data)
+end
+function ActivityDataMgr:getSnowFocusLoaction()
+	return self.snowFocusData.location
+end
+
+function ActivityDataMgr:getSnowMemoryData()
+	return self.snowMemoryData or {}
+end
+
+function ActivityDataMgr:onRecvChasmTeamBuffData(event)
+    local data = event.data
+    if not data then return end
+    self.chasmTeamBuffItemData = self.chasmTeamBuffItemData or {}
+    self.chasmTeamBuffItemData[data.functionType] = data.buff
+    if data.functionType == 1 then
+        EventMgr:dispatchEvent(EV_SNOWFESTIVAL_FIGHT_BUFF_INFO)
+    elseif data.functionType == 2 then
+        EventMgr:dispatchEvent(EV_NIANSHOU_FIGHT_ITEM_INFO)
+    end
+end
+
+function ActivityDataMgr:onRecvChasmTeamUseBuff(event)
+    local data = event.data
+    if not data then return end
+end
+
+function ActivityDataMgr:SEND_CHASM_REQ_USE_BUFF(buffId)
+    TFDirector:send(c2s.CHASM_REQ_USE_BUFF, {buffId})
+end
+
+function ActivityDataMgr:getSnowFestivalTeamData()
+    if self.chasmTeamBuffItemData then
+        return self.chasmTeamBuffItemData[1]
+    end
+end
+
+function ActivityDataMgr:getNianShouTeamSkillData()
+    if self.chasmTeamBuffItemData then
+        return self.chasmTeamBuffItemData[2]
+    end
+end
+
+function ActivityDataMgr:SEND_ACTIVITY2_REQ_REVERSE_TEN_WINDOW()
+    TFDirector:send(c2s.ACTIVITY2_REQ_REVERSE_TEN_WINDOW, {})
+end
+
+function ActivityDataMgr:SEND_ACTIVITY2_REQ_REVERSE_TEN_REWARD()
+    TFDirector:send(c2s.ACTIVITY2_REQ_REVERSE_TEN_REWARD, {})
+end
+
+function ActivityDataMgr:onRecvFanShiAwardData(event)
+    local data = event.data
+    if not data then return end
+    EventMgr:dispatchEvent(EV_FANSHI_AWARD_DATA, data)
+end
+
+function ActivityDataMgr:onRecvFanShiGet(event)
+    local data = event.data
+    if not data then return end
+    if data.reward then
+        Utils:showReward(data.reward)
+    end
+end
+
+function ActivityDataMgr:onRecvSendWishTree(event)
+    local data = event.data
+    if not data then return end
+
+    TFDirector:send(c2s.ACTIVITY2_REQ_SPRING_WITH_TREE_LIST,{})
+end
+
+function ActivityDataMgr:getNewYearWishInfo()
+    return self.wishMyInfo or {},self.wishList or {}
+end
+
+function ActivityDataMgr:onRecvWishList(event)
+    local data = event.data
+    if not data then return end
+
+    self.wishMyInfo = data.myInfo or {}
+    self.wishList = {}
+    for k,v in ipairs(data.friendWish or {}) do
+        table.insert(self.wishList,{data = v, type = 1})
+    end
+
+    for k,v in ipairs(data.unionWish or {}) do
+        table.insert(self.wishList,{data = v, type = 2})
+    end
+
+    table.sort(self.wishList,function(a,b)
+        return a.data.time < b.data.time
+    end)
+    EventMgr:dispatchEvent(EV_FRIEND_WISH_LIST)
+end
+
+function ActivityDataMgr:getBuildRepairInfo()
+    return self.curRepairExp,self.curRepairLv
+end
+
+function ActivityDataMgr:getBuildOutPut()
+    return self.repairOutput or {}
+end
+
+function ActivityDataMgr:onRecvRepairData(event)
+    local data = event.data
+    if not data then return end
+
+    self.curRepairExp = data.progress or 0
+    self.curRepairLv = data.level or 1
+    self.repairOutput = data.repairOutput or {}
+    dump(data)
+    EventMgr:dispatchEvent(EV_BUILD_REPAIR_DATA)
+end
+
+function ActivityDataMgr:onRecvSubMit(event)
+    local data = event.data
+    if not data then return end
+
+    if data.rewardsMsg then
+        Utils:showReward(data.rewardsMsg)
+    end
+
+    EventMgr:dispatchEvent(EV_AFTER_BUILD_REPAIR)
+
+end
+
+function ActivityDataMgr:onRecvGetBuildReward(event)
+    local data = event.data
+    if not data then return end
+
+    if data.rewardsMsg then
+        Utils:showReward(data.rewardsMsg)
+    end
+end
+
+--春节活动2021
+function ActivityDataMgr:onRecValentinesDayData(event)
+    self.ValentinesDayData = event.data or {}
+    self.valentinesRewardProgress = self.ValentinesDayData.takeList or {}
+    EventMgr:dispatchEvent(EV_VALENTINESDAY_MAIN_INFO)
+end
+
+function ActivityDataMgr:getValentinesDayData()
+    return self.ValentinesDayData
+end
+
+function ActivityDataMgr:onRecFlowerVotes(event)
+    EventMgr:dispatchEvent(EV_VALENTINESDAY_FLOWERS_VOTES)
+end
+
+function ActivityDataMgr:onRecVantinesProgressReward(event)
+    local data = event.data or {}
+    self.valentinesRewardProgress = data.takeList or {}
+    EventMgr:dispatchEvent(EV_VALENTINESDAY_RPOGRESS_REWARD, data.rewardsMsg)
+end
+
+function ActivityDataMgr:getVantinesProgress()
+    return self.valentinesRewardProgress or {}
+end
+function ActivityDataMgr:SEND_ACTIVITY2_REQ_RIDDLE_DATA()
+    TFDirector:send(c2s.ACTIVITY2_REQ_RIDDLE_DATA, {})
+end
+
+function ActivityDataMgr:SEND_ACTIVITY2_REQ_RIDDLE_ONCE(idx)
+    TFDirector:send(c2s.ACTIVITY2_REQ_RIDDLE_ONCE, {idx})
+end
+
+function ActivityDataMgr:onRecvRiddleData(event)
+    local data = event.data
+    if not data then return end
+    self.leftRewardCountKeep = data.leftRewardCount -- 奖励次数
+    if data.id == 0 then
+        if not AlertManager:getLayerBySpecialName("GuessWordMainView") then
+            Utils:showTips(17000000)
+        end
+    else
+        EventMgr:dispatchEvent(EV_RIDDLE_GET_QUESDATA, data)
+    end
+end
+
+function ActivityDataMgr:onRecvRiddleAwarsInfo(event)
+    local data = event.data
+    if not data then return end
+    EventMgr:dispatchEvent(EV_RIDDLE_ANSAWE_AWARD, data)
+end
+
+function ActivityDataMgr:getGuessWorldLeftRewardCountKeep()
+    return self.leftRewardCountKeep or 0
+end
+
+function ActivityDataMgr:SEND_SUMMON_REQ_ACTIVITY_EXCHANGE(choiceIds, targetModelId)
+    TFDirector:send(c2s.SUMMON_REQ_ACTIVITY_EXCHANGE, {choiceIds, targetModelId})
+end
+
+function ActivityDataMgr:onRecvSpringGiftReward(event)
+    local data = event.data
+    if not data then return end
+    EventMgr:dispatchEvent(EV_SPRING_GIFT_DATA, data)
+end
 
 return ActivityDataMgr:new()

@@ -22,8 +22,8 @@ function Preview:registerEvents()
     self.Button_preview:onClick(function()
         local info = FunctionDataMgr:getMainFuncInfo(EC_MainFuncType.PREVIEW)
         Box(info.welfareUrl)
-        -- Utils:showWebView(info.welfareUrl)
-        TFDeviceInfo:openUrl(info.welfareUrl)
+        Utils:showWebView(info.welfareUrl)
+        --TFDeviceInfo:openUrl(info.welfareUrl)
     end)
 end
 

@@ -46,10 +46,6 @@ function CallBackMainView:initUI(ui)
     self.Panel_root = TFDirector:getChildByPath(ui, "Panel_base")
     self.Image_callback_award = TFDirector:getChildByPath(self.ui, "Image_callback_award"):hide()
     self.Button_share = TFDirector:getChildByPath(self.Panel_root, "Button_share")
-
-    local label_share = self.Button_share:getChildByName("Label_btn")
-    label_share:setTextById(1810001)
-
     self.Button_share_get = TFDirector:getChildByPath(self.Panel_root, "Button_share_get")
     self.Button_share_geted = TFDirector:getChildByPath(self.Panel_root, "Button_share_geted")
     self.Panel_award = TFDirector:getChildByPath(self.Panel_root, "Panel_award")
@@ -59,15 +55,9 @@ function CallBackMainView:initUI(ui)
     self.label_invite_uid = TFDirector:getChildByPath(self.Panel_call, "label_invite_uid")
     self.label_task_num = TFDirector:getChildByPath(self.Panel_call, "label_task_num")
     self.label_back_tip = TFDirector:getChildByPath(self.Panel_call, "label_back_tip")
+    self.label_back_tip:setTextById(63695)
     self.label_task_tip = TFDirector:getChildByPath(self.Panel_call, "label_task_tip")
-    self.label_invite_uid_tip = TFDirector:getChildByPath(self.Panel_call , "label_invite_uid_tip")
-
-    self.label_back_num:hide()
-    self.label_task_num:hide()
-    self.label_invite_uid_tip:getChildByName("label_text"):hide()
-    self.label_invite_uid_tip:getChildByName("label_invite_uid"):hide()
-
-    
+    self.label_task_tip:setTextById(63696)
 
 
     self.Panel_response = TFDirector:getChildByPath(self.Panel_root, "Panel_response"):hide()
@@ -79,9 +69,7 @@ function CallBackMainView:initUI(ui)
     for i=1,4 do
         local mask = TFDirector:getChildByPath(self.Panel_root, "Image_mask"..i)
         local labelCondition = TFDirector:getChildByPath(mask, "Label_condition")
-        local Label_unlock_tip = TFDirector:getChildByPath(mask , "Label_unlock_tip")
-        Label_unlock_tip:setTextById(350005)
-        table.insert(self.dressCondition_,{mask = mask, con = labelCondition , lock = Label_unlock_tip})
+        table.insert(self.dressCondition_,{mask = mask, con = labelCondition})
     end
     self.Button_rule = TFDirector:getChildByPath(self.Panel_root, "Button_rule")
     self.Button_get_dress = TFDirector:getChildByPath(self.Panel_root, "Button_get_dress")
@@ -91,13 +79,7 @@ function CallBackMainView:initUI(ui)
     self.label_dress_tip = TFDirector:getChildByPath(self.Panel_root, "label_dress_tip")
     self.label_dress_name = TFDirector:getChildByPath(self.Panel_root, "label_dress_name")
     self.label_score_tip = TFDirector:getChildByPath(self.Panel_root, "label_score_tip")
-    self.Button_get_dress:setPositionX(self.Button_get_dress:getPositionX() - 50)
-    self.Image_dress_geted:setPositionX(self.Button_get_dress:getPositionX() - 50)
-
     self.label_score_tip:setTextById(63698)
-
-    self.label_award_tip = TFDirector:getChildByPath(self.Panel_root , "label_award_tip")
-    self.label_award_tip:setTextById(190000275)
     dump(self.activityInfo_)
 
     ActivityDataMgr2:ReqGetBeCallInfo(self.activityId)
@@ -112,9 +94,9 @@ function CallBackMainView:refreshView()
         return
     end
 
-    local starDate = Utils:getUTCDate(self.activityInfo_.showStartTime, GV_UTC_TIME_ZONE):fmt("%m.%d")
-    local endDate = Utils:getUTCDate(self.activityInfo_.showEndTime, GV_UTC_TIME_ZONE):fmt("%m.%d")
-    self.label_time:setText(starDate.." - "..endDate..GV_UTC_TIME_STRING)
+    local _startyear, _startmonth, _startday = Utils:getDate(self.activityInfo_.showStartTime, true)
+    local _endyear, _endmonth, _endday = Utils:getDate(self.activityInfo_.showEndTime, true)
+    self.label_time:setText(_startmonth .. "." .. _startday .. "-" .. _endmonth .. "." .. _endday)
 
     self:onUpdateCallBackInfo()
     self:refreshDressTask()
@@ -129,6 +111,7 @@ function CallBackMainView:refreshDressTask()
 
     local itemInfo = ActivityDataMgr2:getItemInfo(self.activityInfo_.activityType, self.dressTaskId)
     local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo_.activityType, self.dressTaskId)
+    dump(itemInfo)
     self.Button_get_dress:setVisible(progressInfo.status == EC_TaskStatus.GET)
     self.Image_dress_geted:setVisible(progressInfo.status == EC_TaskStatus.GETED)
     local itemId
@@ -210,12 +193,9 @@ function CallBackMainView:refreshShareTask()
         end)
     end
 
-    self.label_invite_uid:setText("Code: "..self.callbackData.codeInfo)
-    self.label_invite_uid_tip:setTextById(190000280 , self.callbackData.codeInfo)
+    self.label_invite_uid:setText("UID:"..self.callbackData.codeInfo)
     self.label_back_num:setText(self.callbackData.beCallNum)
     self.label_task_num:setText(self.callbackData.taskSize)
-    self.label_task_tip:setTextById(63696 , self.callbackData.taskSize)
-    self.label_back_tip:setTextById(63695 , self.callbackData.beCallNum)
 
 end
 
@@ -315,7 +295,12 @@ function CallBackMainView:registerEvents()
 
     local shareClick = false
     self.Button_share:onClick(function()
-        FunctionDataMgr:jWelfare(EC_ActivityType.SIGN)
+        if not shareClick then
+            self:timeOut(function()
+                Utils:openView("activity.CallBackShareView",self.activityId)
+                shareClick = false
+            end, 0.2)
+        end
     end)
 
     self.Button_share_get:onClick(function()

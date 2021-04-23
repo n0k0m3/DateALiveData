@@ -1,7 +1,36 @@
 return {
     ["links"] = {
-        ["EB33A5DE88414BD39580766ED5745B34"] = {
-            [1] = "E04DC2142EDB4410BD175EDE53FCE10D",
+        ["D689226717924765A1282295BCD0A509"] = {
+            [1] = "9FE6E46E6B7D4A2AA13E89106ADC42D6",
+        },
+        ["7587C276F0BD4A478265C83CA8F8D51C"] = {
+            [1] = "5F4FD01BE16842F1A05227BD69159C05",
+        },
+        ["E04DC2142EDB4410BD175EDE53FCE10D"] = {
+            [1] = "6845CF3A9C9F45968CE957B5D4CDF41B",
+        },
+        ["BA0FF1ED0F7D42E5B3DA73919D708C93"] = {
+            [1] = "E051B4F0ED344F81987A871E946362B8",
+        },
+        ["BE9749ECB63B476492C0AFD4282BB653"] = {
+            [1] = "F70DC066619B4CAABB2058E8E83FB243",
+            [2] = "022019E07ADA4F788DA48315E9C6C948",
+            [3] = "4FEDA4FA68524B1D8372842B161A0A7C",
+        },
+        ["9FE6E46E6B7D4A2AA13E89106ADC42D6"] = {
+            [1] = "527F4777749F45F594507D2EFD9C4F61",
+        },
+        ["F70DC066619B4CAABB2058E8E83FB243"] = {
+            [1] = "BB14296A85DE41F1B41E1D4F32D0AF58",
+        },
+        ["5AA537BB32A24D0389B4CB1FFCA0EA3D"] = {
+            [1] = "FF9F5350CA484FAE84FC9D798CCBE748",
+        },
+        ["4CA76CB597B04F598BCD4FB1F9B94B75"] = {
+            [1] = "2E649A383CCC400CA3E13C5EB9254068",
+        },
+        ["4FEDA4FA68524B1D8372842B161A0A7C"] = {
+            [1] = "BB14296A85DE41F1B41E1D4F32D0AF58",
         },
         ["9819F6D899A146C68C5BA9627C8AF861"] = {
             [1] = "7587C276F0BD4A478265C83CA8F8D51C",
@@ -9,45 +38,20 @@ return {
         ["BF049D7F0FC74704948B0D02F75A5509"] = {
             [1] = "5AA537BB32A24D0389B4CB1FFCA0EA3D",
         },
-        ["7587C276F0BD4A478265C83CA8F8D51C"] = {
-            [1] = "5F4FD01BE16842F1A05227BD69159C05",
-        },
         ["2D6EEDDE2CE0484492D4AAA889C5CBF6"] = {
             [1] = "EB33A5DE88414BD39580766ED5745B34",
         },
         ["72367D3DC1494159967E56DCED990E69"] = {
             [1] = "C6316271D41547DD8B96C0025350AA2C",
         },
-        ["208DAC54DB4249CC89B736C03BC76D11"] = {
-            [1] = "D689226717924765A1282295BCD0A509",
-        },
-        ["4CA76CB597B04F598BCD4FB1F9B94B75"] = {
-            [1] = "2E649A383CCC400CA3E13C5EB9254068",
-        },
-        ["BE9749ECB63B476492C0AFD4282BB653"] = {
-            [1] = "F70DC066619B4CAABB2058E8E83FB243",
-            [2] = "022019E07ADA4F788DA48315E9C6C948",
-            [3] = "4FEDA4FA68524B1D8372842B161A0A7C",
-        },
-        ["2E649A383CCC400CA3E13C5EB9254068"] = {
-            [1] = "0686992E8C0F4BCEB7F17EA576C9C8F5",
-        },
-        ["BA0FF1ED0F7D42E5B3DA73919D708C93"] = {
-            [1] = "208DAC54DB4249CC89B736C03BC76D11",
-        },
-        ["F704226FA6C74EC6A3C6BF7A0A01030D"] = {
-            [1] = "BE9749ECB63B476492C0AFD4282BB653",
-            [2] = "BA0FF1ED0F7D42E5B3DA73919D708C93",
-            [3] = "5C99A113E5944F00B3A093C9AAA536BC",
-            [4] = "F321BD80CB39463F8258E317C001B334",
-            [5] = "9819F6D899A146C68C5BA9627C8AF861",
-            [6] = "2D6EEDDE2CE0484492D4AAA889C5CBF6",
+        ["022019E07ADA4F788DA48315E9C6C948"] = {
+            [1] = "BB14296A85DE41F1B41E1D4F32D0AF58",
         },
         ["F321BD80CB39463F8258E317C001B334"] = {
             [1] = "72367D3DC1494159967E56DCED990E69",
         },
-        ["9FE6E46E6B7D4A2AA13E89106ADC42D6"] = {
-            [1] = "527F4777749F45F594507D2EFD9C4F61",
+        ["BB14296A85DE41F1B41E1D4F32D0AF58"] = {
+            [1] = "4CA76CB597B04F598BCD4FB1F9B94B75",
         },
         ["5F4FD01BE16842F1A05227BD69159C05"] = {
             [1] = "7CFA9E0AA0F448AAB7870D325D68EA47",
@@ -57,38 +61,38 @@ return {
         ["088CECE2150D40F6A9C98AE28DCF3524"] = {
             [1] = "FF324D583A7C48FEBAF32EC9C1B04A9F",
         },
-        ["D689226717924765A1282295BCD0A509"] = {
-            [1] = "9FE6E46E6B7D4A2AA13E89106ADC42D6",
+        ["208DAC54DB4249CC89B736C03BC76D11"] = {
+            [1] = "C27878781EAF4D30AAC43EC96EAB7644",
         },
         ["32D8FDC9C0DD495EA6F39253F3BB6E6E"] = {
             [1] = "D218E87AEE504407B65CFCABE3D22873",
         },
+        ["C6316271D41547DD8B96C0025350AA2C"] = {
+            [1] = "84669459F663471D98C6EFF39EAB078B",
+        },
+        ["7CFA9E0AA0F448AAB7870D325D68EA47"] = {
+            [1] = "B9E0479831DD4A1AB84D641644AA6CB8",
+        },
+        ["EB33A5DE88414BD39580766ED5745B34"] = {
+            [1] = "E04DC2142EDB4410BD175EDE53FCE10D",
+        },
         ["0686992E8C0F4BCEB7F17EA576C9C8F5"] = {
             [1] = "32D8FDC9C0DD495EA6F39253F3BB6E6E",
-        },
-        ["F70DC066619B4CAABB2058E8E83FB243"] = {
-            [1] = "BB14296A85DE41F1B41E1D4F32D0AF58",
-        },
-        ["5AA537BB32A24D0389B4CB1FFCA0EA3D"] = {
-            [1] = "FF9F5350CA484FAE84FC9D798CCBE748",
-        },
-        ["4498B501463B4F13A85B3986D51EAA41"] = {
-            [1] = "088CECE2150D40F6A9C98AE28DCF3524",
         },
         ["527F4777749F45F594507D2EFD9C4F61"] = {
             [1] = "4E20DF120BA2476BAEB5BFFA3FEC6545",
         },
-        ["BB14296A85DE41F1B41E1D4F32D0AF58"] = {
-            [1] = "4CA76CB597B04F598BCD4FB1F9B94B75",
+        ["4498B501463B4F13A85B3986D51EAA41"] = {
+            [1] = "088CECE2150D40F6A9C98AE28DCF3524",
         },
-        ["022019E07ADA4F788DA48315E9C6C948"] = {
-            [1] = "BB14296A85DE41F1B41E1D4F32D0AF58",
+        ["C27878781EAF4D30AAC43EC96EAB7644"] = {
+            [1] = "8CB5267F9BE3496FA468A6FC94E88D34",
         },
-        ["4FEDA4FA68524B1D8372842B161A0A7C"] = {
-            [1] = "BB14296A85DE41F1B41E1D4F32D0AF58",
+        ["DE3632BD444C4D0D8A2E2243E9A31B34"] = {
+            [1] = "208DAC54DB4249CC89B736C03BC76D11",
         },
-        ["E04DC2142EDB4410BD175EDE53FCE10D"] = {
-            [1] = "6845CF3A9C9F45968CE957B5D4CDF41B",
+        ["E051B4F0ED344F81987A871E946362B8"] = {
+            [1] = "D689226717924765A1282295BCD0A509",
         },
         ["5C99A113E5944F00B3A093C9AAA536BC"] = {
             [1] = "BF049D7F0FC74704948B0D02F75A5509",
@@ -96,11 +100,17 @@ return {
         ["D218E87AEE504407B65CFCABE3D22873"] = {
             [1] = "203F3A8692A248DC87C163278511862B",
         },
-        ["7CFA9E0AA0F448AAB7870D325D68EA47"] = {
-            [1] = "B9E0479831DD4A1AB84D641644AA6CB8",
+        ["2E649A383CCC400CA3E13C5EB9254068"] = {
+            [1] = "0686992E8C0F4BCEB7F17EA576C9C8F5",
         },
-        ["C6316271D41547DD8B96C0025350AA2C"] = {
-            [1] = "84669459F663471D98C6EFF39EAB078B",
+        ["F704226FA6C74EC6A3C6BF7A0A01030D"] = {
+            [1] = "BA0FF1ED0F7D42E5B3DA73919D708C93",
+            [2] = "BE9749ECB63B476492C0AFD4282BB653",
+            [3] = "5C99A113E5944F00B3A093C9AAA536BC",
+            [4] = "F321BD80CB39463F8258E317C001B334",
+            [5] = "9819F6D899A146C68C5BA9627C8AF861",
+            [6] = "2D6EEDDE2CE0484492D4AAA889C5CBF6",
+            [7] = "DE3632BD444C4D0D8A2E2243E9A31B34",
         },
     },
     ["nodes"] = {
@@ -159,12 +169,12 @@ return {
             ["TriggerType"] = 1,
             ["Static"] = false,
             ["Pos"] = {
-                ["y"] = 1287,
-                ["x"] = 305,
+                ["y"] = 1162,
+                ["x"] = 409,
             },
             ["Class"] = "ChildNode",
             ["Loop"] = 0,
-            ["Priority"] = 6,
+            ["Priority"] = 8,
             ["DurationInterval"] = {
                 [1] = 0,
                 [2] = 0,
@@ -304,6 +314,19 @@ return {
             },
             ["Static"] = false,
         },
+        ["84669459F663471D98C6EFF39EAB078B"] = {
+            ["Desc"] = "施放技能",
+            ["Pos"] = {
+                ["y"] = 477,
+                ["x"] = 1176,
+            },
+            ["Weight"] = 10,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "84669459F663471D98C6EFF39EAB078B",
+            ["ID"] = 502640,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
         ["2D6EEDDE2CE0484492D4AAA889C5CBF6"] = {
             ["Desc"] = "巡逻",
             ["Duration"] = 0,
@@ -332,6 +355,75 @@ return {
             ["Duration"] = 15000,
             ["Type"] = 1,
             ["Static"] = false,
+        },
+        ["7CFA9E0AA0F448AAB7870D325D68EA47"] = {
+            ["Desc"] = "行为",
+            ["LimitArea"] = 200,
+            ["Weight"] = 40,
+            ["NodeTag"] = "7CFA9E0AA0F448AAB7870D325D68EA47",
+            ["RangeOrigin"] = {
+                ["y"] = -30,
+                ["x"] = -400,
+            },
+            ["RunWeight"] = 0,
+            ["Static"] = false,
+            ["FixTarget"] = 0,
+            ["Pos"] = {
+                ["y"] = 20,
+                ["x"] = 1075,
+            },
+            ["Class"] = "PathfindingBevNode",
+            ["WalkWeight"] = 0,
+            ["RangeSize"] = {
+                ["height"] = 60,
+                ["width"] = 800,
+            },
+            ["WalkDistance"] = 0,
+            ["Type"] = 0,
+        },
+        ["DE3632BD444C4D0D8A2E2243E9A31B34"] = {
+            ["Desc"] = "子节点",
+            ["Duration"] = 0,
+            ["NodeTag"] = "DE3632BD444C4D0D8A2E2243E9A31B34",
+            ["TriggerType"] = 0,
+            ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 1337,
+                ["x"] = 414,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 0,
+            ["Parallel"] = 1,
+            ["Priority"] = 0,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+        },
+        ["4498B501463B4F13A85B3986D51EAA41"] = {
+            ["Desc"] = "行为",
+            ["LimitArea"] = 100,
+            ["Weight"] = 60,
+            ["NodeTag"] = "4498B501463B4F13A85B3986D51EAA41",
+            ["RangeOrigin"] = {
+                ["y"] = -15,
+                ["x"] = -400,
+            },
+            ["RunWeight"] = 0,
+            ["Static"] = false,
+            ["FixTarget"] = 0,
+            ["Pos"] = {
+                ["y"] = 155,
+                ["x"] = 1072,
+            },
+            ["Class"] = "PathfindingBevNode",
+            ["WalkWeight"] = 0,
+            ["RangeSize"] = {
+                ["height"] = 30,
+                ["width"] = 800,
+            },
+            ["WalkDistance"] = 0,
+            ["Type"] = 0,
         },
         ["FF324D583A7C48FEBAF32EC9C1B04A9F"] = {
             ["Desc"] = "施放技能",
@@ -432,8 +524,8 @@ return {
         },
         ["208DAC54DB4249CC89B736C03BC76D11"] = {
             ["Pos"] = {
-                ["y"] = 1308,
-                ["x"] = 605,
+                ["y"] = 1348,
+                ["x"] = 642,
             },
             ["Class"] = "ConditionSelfHPLessNode",
             ["NodeTag"] = "208DAC54DB4249CC89B736C03BC76D11",
@@ -535,30 +627,17 @@ return {
             ["Type"] = 1,
             ["Static"] = false,
         },
-        ["7CFA9E0AA0F448AAB7870D325D68EA47"] = {
-            ["Desc"] = "行为",
-            ["LimitArea"] = 200,
-            ["Weight"] = 40,
-            ["NodeTag"] = "7CFA9E0AA0F448AAB7870D325D68EA47",
-            ["RangeOrigin"] = {
-                ["y"] = -30,
-                ["x"] = -400,
-            },
-            ["RunWeight"] = 0,
-            ["Static"] = false,
-            ["FixTarget"] = 0,
+        ["C27878781EAF4D30AAC43EC96EAB7644"] = {
+            ["Desc"] = "顺序行为",
             ["Pos"] = {
-                ["y"] = 20,
-                ["x"] = 1075,
+                ["y"] = 1323,
+                ["x"] = 919,
             },
-            ["Class"] = "PathfindingBevNode",
-            ["WalkWeight"] = 0,
-            ["RangeSize"] = {
-                ["height"] = 60,
-                ["width"] = 800,
-            },
-            ["WalkDistance"] = 0,
+            ["Weight"] = 0,
+            ["Class"] = "OrderBevNode",
+            ["NodeTag"] = "C27878781EAF4D30AAC43EC96EAB7644",
             ["Type"] = 0,
+            ["Static"] = false,
         },
         ["6845CF3A9C9F45968CE957B5D4CDF41B"] = {
             ["Desc"] = "行为",
@@ -576,30 +655,17 @@ return {
             ["Static"] = false,
             ["Type"] = 9,
         },
-        ["4498B501463B4F13A85B3986D51EAA41"] = {
-            ["Desc"] = "行为",
-            ["LimitArea"] = 100,
-            ["Weight"] = 60,
-            ["NodeTag"] = "4498B501463B4F13A85B3986D51EAA41",
-            ["RangeOrigin"] = {
-                ["y"] = -15,
-                ["x"] = -400,
-            },
-            ["RunWeight"] = 0,
-            ["Static"] = false,
-            ["FixTarget"] = 0,
+        ["E051B4F0ED344F81987A871E946362B8"] = {
             ["Pos"] = {
-                ["y"] = 155,
-                ["x"] = 1072,
+                ["y"] = 1177,
+                ["x"] = 622,
             },
-            ["Class"] = "PathfindingBevNode",
-            ["WalkWeight"] = 0,
-            ["RangeSize"] = {
-                ["height"] = 30,
-                ["width"] = 800,
-            },
-            ["WalkDistance"] = 0,
-            ["Type"] = 0,
+            ["Judge"] = 3,
+            ["Class"] = "ConditionAssociationNode",
+            ["NodeTag"] = "E051B4F0ED344F81987A871E946362B8",
+            ["Value"] = 0,
+            ["Key"] = "fenshen",
+            ["Static"] = false,
         },
         ["5C99A113E5944F00B3A093C9AAA536BC"] = {
             ["Desc"] = "闪避",
@@ -634,18 +700,21 @@ return {
             ["Key"] = "p",
             ["Type"] = 0,
         },
-        ["84669459F663471D98C6EFF39EAB078B"] = {
-            ["Desc"] = "施放技能",
-            ["Pos"] = {
-                ["y"] = 477,
-                ["x"] = 1176,
-            },
-            ["Weight"] = 10,
-            ["Class"] = "ReleaseSkillBevNode",
-            ["NodeTag"] = "84669459F663471D98C6EFF39EAB078B",
-            ["ID"] = 502640,
-            ["Type"] = 1,
+        ["8CB5267F9BE3496FA468A6FC94E88D34"] = {
+            ["Desc"] = "行为",
+            ["Weight"] = 0,
+            ["NodeTag"] = "8CB5267F9BE3496FA468A6FC94E88D34",
+            ["Reset"] = 0,
             ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 1333,
+                ["x"] = 1180,
+            },
+            ["AddValue"] = 1,
+            ["Class"] = "AssociationBevNode",
+            ["DelayTime"] = 0,
+            ["Key"] = "fenshen",
+            ["Type"] = 0,
         },
         ["2E649A383CCC400CA3E13C5EB9254068"] = {
             ["Desc"] = "行为",

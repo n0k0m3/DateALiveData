@@ -12,6 +12,7 @@ function BaoshiComposeView:initData()
     self.minRarity = 2
     self.maxRarity = 6
 
+    self.gemsData = {}
 
     self.gem_group = {}
     self.spineLineAnim = {}
@@ -164,7 +165,7 @@ function BaoshiComposeView:updateTuzhiItem(item, idx)
     Label_count:setText(tostring(GoodsDataMgr:getItemCount(data.drawingId)))
     local gemCfg = EquipmentDataMgr:getGemCfg(data.drawingId)
     Image_bg:setTextureNormal(EC_ItemIcon[gemCfg.quality])
-    Image_bg:setTouchEnabled(true)
+
     Image_icon:setTexture(gemCfg.icon)
     Image_quality:setTexture(EquipmentDataMgr:getGemRarityIcon(gemCfg.rarity))
     Image_pos_bg:setTexture(EquipmentDataMgr:getGemPosBg(gemCfg.quality))
@@ -843,10 +844,9 @@ function BaoshiComposeView:registerEvents()
                 elseif tonumber(k) == EC_SItemType.DIAMOND then
                     Utils:showTips(800048)
                 else
-                    local itemCfg = GoodsDataMgr:getItemCfg(k)
-                    if itemCfg and itemCfg.nameTextId then
-                        Utils:showTips(TextDataMgr:getText(2100034 , TextDataMgr:getText(itemCfg.nameTextId)))
-                    end
+                    local itemCfg = GoodsDataMgr:getItemCfg(tonumber(k))
+                    local text = TextDataMgr:getText(63847,TextDataMgr:getText(itemCfg.nameTextId))
+                    Utils:showTips(text)
                 end
 
                 
@@ -875,6 +875,10 @@ function BaoshiComposeView:registerEvents()
                     Utils:showTips(493004)
                 elseif tonumber(k) == EC_SItemType.DIAMOND then
                     Utils:showTips(800048)
+                else
+                    local itemCfg = GoodsDataMgr:getItemCfg(tonumber(k))
+                    local text = TextDataMgr:getText(63847,TextDataMgr:getText(itemCfg.nameTextId))
+                    Utils:showTips(text)
                 end
                 return
             end

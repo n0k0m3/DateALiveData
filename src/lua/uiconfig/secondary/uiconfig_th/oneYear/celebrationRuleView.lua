@@ -96,20 +96,20 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "576",
+							height = "455",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/activity/oneYear/luckyReward1/pop/bg.png",
+							texturePath = "ui/activity/oneYear/luckyReward2/Pop/025.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
 								
 							},
-							width = "1021",
+							width = "1055",
 							ZOrder = "1",
 							components = 
 							{
@@ -126,10 +126,10 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "30",
+									height = "32",
 									ignoreSize = "True",
 									name = "Button_close",
-									normal = "ui/common/guanbi.png",
+									normal = "ui/activity/oneYear/luckyReward2/Pop/028.png",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -137,11 +137,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 403,
-										PositionY = 215,
+										PositionX = 426,
+										PositionY = 177,
 									},
 									UItype = "Button",
-									width = "30",
+									width = "35",
 									ZOrder = "1",
 								},
 								{
@@ -171,6 +171,7 @@ local t =
 										PositionY = 101,
 									},
 									UItype = "Button",
+									visible = "False",
 									width = "64",
 									ZOrder = "1",
 									components = 
@@ -275,6 +276,7 @@ local t =
 										PositionY = -81,
 									},
 									UItype = "Button",
+									visible = "False",
 									width = "64",
 									ZOrder = "1",
 									components = 
@@ -412,6 +414,7 @@ local t =
 											{
 												
 											},
+											visible = "False",
 											width = "666",
 											ZOrder = "1",
 										},
@@ -438,6 +441,7 @@ local t =
 												PositionX = -2,
 												PositionY = 165,
 											},
+											visible = "False",
 											width = "666",
 											ZOrder = "1",
 											components = 
@@ -504,10 +508,10 @@ local t =
 											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 											direction = "1",
 											dstBlendFunc = "771",
-											height = "330",
+											height = "348",
 											ignoreSize = "False",
-											innerHeight = "330",
-											innerWidth = "666",
+											innerHeight = "348",
+											innerWidth = "716",
 											name = "ScrollView_award",
 											showScrollbar = "False",
 											sizepercentx = "0",
@@ -517,15 +521,15 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = -336,
-												PositionY = -183,
+												PositionX = -349,
+												PositionY = -212,
 											},
 											uipanelviewmodel = 
 											{
 												Layout="Absolute",
 												nType = "0"
 											},
-											width = "666",
+											width = "716",
 											ZOrder = "1",
 										},
 									},
@@ -563,6 +567,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "666",
 									ZOrder = "1",
 									components = 
@@ -623,7 +628,7 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "114",
+									height = "103",
 									ignoreSize = "False",
 									name = "Panel_award_item",
 									sizepercentx = "0",
@@ -640,7 +645,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "666",
+									width = "716",
 									ZOrder = "1",
 									components = 
 									{
@@ -654,20 +659,20 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "114",
+											height = "103",
 											ignoreSize = "True",
 											name = "Image_cell_bg",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/activity/oneYear/luckyReward1/pop/028.png",
+											texturePath = "ui/activity/oneYear/luckyReward2/Pop/018.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "666",
+											width = "716",
 											ZOrder = "1",
 										},
 										{
@@ -812,28 +817,28 @@ local t =
 								},
 								{
 									controlID = "Image_line_Image_bg_Panel_root_Panel-celebrationRuleView_Layer1_oneYear_Game",
-									UUID = "e7cbde98_104c_4fc1_adc9_71bca6569e05",
+									UUID = "afa5510a_8fc1_4f62_aed1_fe8d28569608",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "25",
-									ignoreSize = "False",
+									height = "26",
+									ignoreSize = "True",
 									name = "Image_line",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
-									srcBlendFunc = "1",
-									texturePath = "ui/activity/oneYear/luckyReward/pop/012.png",
+									srcBlendFunc = "770",
+									texturePath = "ui/activity/oneYear/luckyReward2/Pop/027.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -163,
-										PositionY = 215,
+										PositionX = -122,
+										PositionY = 175,
 									},
-									width = "2",
+									width = "5",
 									ZOrder = "1",
 								},
 								{
@@ -942,14 +947,14 @@ local t =
 	{
 		textures = 
 		{
-			"ui/activity/oneYear/luckyReward1/pop/bg.png",
-			"ui/common/guanbi.png",
+			"ui/activity/oneYear/luckyReward2/Pop/025.png",
+			"ui/activity/oneYear/luckyReward2/Pop/028.png",
 			"ui/activity/oneYear/luckyReward1/pop/002.png",
 			"ui/activity/oneYear/luckyReward1/pop/001.png",
 			"ui/activity/oneYear/luckyReward1/pop/003.png",
 			"ui/activity/oneYear/luckyReward1/pop/027.png",
-			"ui/activity/oneYear/luckyReward1/pop/028.png",
-			"ui/activity/oneYear/luckyReward/pop/012.png",
+			"ui/activity/oneYear/luckyReward2/Pop/018.png",
+			"ui/activity/oneYear/luckyReward2/Pop/027.png",
 		},
 		armatures = 
 		{

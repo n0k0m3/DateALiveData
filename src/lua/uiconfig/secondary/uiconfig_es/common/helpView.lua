@@ -111,10 +111,10 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 568,
-								PositionY = 299,
+								PositionY = 320,
 								IsPercent = true,
 								PercentX = 50,
-								PercentY = 46.72,
+								PercentY = 50,
 							},
 							uipanelviewmodel = 
 							{

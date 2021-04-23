@@ -12,7 +12,7 @@ function GiftPackMainView:initData(panelId)
     self.modelPanel = {}
     self.selectIndex = nil
     self.curPanelId = nil
-    panelId = self:initTabData(panelId)
+    self:initTabData()
     if panelId then
         for i, v in ipairs(self.tabData) do
             if v.id == panelId then
@@ -23,37 +23,19 @@ function GiftPackMainView:initData(panelId)
     end
 end
 
-function GiftPackMainView:initTabData(panelId)
+function GiftPackMainView:initTabData()
     self.tabData = {
     {id = 1, name = 14300095,iconRes = "ui/recharge/gifts/new_1/006.png"},
     {id = 2, name = 14300096,iconRes = "ui/recharge/gifts/new_1/004.png"},
-    -- {id = 4, name = 14300097,iconRes = "ui/recharge/gifts/new_1/007.png"},
-    -- {id = 5, name = 14300099,iconRes = "ui/recharge/gifts/new_1/005.png"},
     }
     if GlobalFuncDataMgr:isOpen(1) then
         table.insert(self.tabData, {id = 3, name = 14300348,iconRes = "ui/recharge/gifts/new_1/011.png"})
     end
+    table.insert(self.tabData, {id = 4, name = 14300097,iconRes = "ui/recharge/gifts/new_1/007.png"},)
+    table.insert(self.tabData, {id = 5, name = 14300099,iconRes = "ui/recharge/gifts/new_1/005.png"},)
     if GlobalFuncDataMgr:isOpen(2) then
         table.insert(self.tabData, {id = 8, name = 23019,iconRes = "ui/recharge/gifts/new_1/009.png"})
     end
-
-    --local newBirdPacks = RechargeDataMgr:getNewBirdGiftData()
-    --if newBirdPacks and #newBirdPacks > 0 then
-       -- table.insert(self.tabData,1,{id = 6, name = 14300098, iconRes = "ui/recharge/gifts/new_1/008.png"})
-    --end
-
-    -- local limitPacks = RechargeDataMgr:getLimitGiftData() -- ′￥・￠à?°ü×aò?μ??÷????á?
-    -- if limitPacks and #limitPacks > 0 then
-    --     table.insert(self.tabData,1,{id = 6, name = 14300094, iconRes = "ui/recharge/gifts/new_1/010.png"})
-    -- end
-
-
-    -- RechargeDataMgr:getGiftDataByInterfaceType(12)  --活动限定
-    -- RechargeDataMgr:getGiftDataByInterfaceType(21)  --代币礼包
-    -- RechargeDataMgr:getGiftDataByInterfaceType(22)  --时装礼包
-    -- RechargeDataMgr:getGiftDataByInterfaceType(23)  --每日礼包
-    -- RechargeDataMgr:getGiftDataByInterfaceType(24)  --每周礼包
-    -- RechargeDataMgr:getGiftDataByInterfaceType(25)  --每月礼包
 
     local giftTypeList = {12 , 21 , 22 , 23 , 24 , 25}
     local nameList = {190000102 , 190000103 ,190000104 ,190000105 ,1650009 ,190000310}
@@ -65,7 +47,6 @@ function GiftPackMainView:initTabData(panelId)
         if v == panelId then
             panelId = 8 + k
         end
-
     end
 
     function checkDateLimit(data)
@@ -179,7 +160,7 @@ function GiftPackMainView:updateUI()
     local panelId = self.tabData[self.selectIndex].id
     self.curPanelId = panelId
     if self["updatePanelView"..panelId] then
-        local model = self["updatePanelView"..panelId](self ,self.tabData[self.selectIndex].giftData )
+        local model = self["updatePanelView"..panelId](self)
         model:show()
         if model.updateContentView then
             model:updateContentView()
@@ -257,61 +238,6 @@ function GiftPackMainView:updatePanelView8()
     end
     return model
 end
-function GiftPackMainView:updatePanelView9(realGiftDaya)
-    local model = self.modelPanel[9]
-    if not model then
-        model = requireNew("lua.logic.store.HotMallView"):new(realGiftDaya)
-        self:addLayerToNode(model, self.Panel_content)
-        self.modelPanel[9] = model
-    end
-    return model
-end
-function GiftPackMainView:updatePanelView10(realGiftDaya)
-    local model = self.modelPanel[10]
-    if not model then
-        model = requireNew("lua.logic.store.HotMallView"):new(realGiftDaya)
-        self:addLayerToNode(model, self.Panel_content)
-        self.modelPanel[10] = model
-    end
-    return model
-end
-function GiftPackMainView:updatePanelView11(realGiftDaya)
-    local model = self.modelPanel[11]
-    if not model then
-        model = requireNew("lua.logic.store.HotMallView"):new(realGiftDaya)
-        self:addLayerToNode(model, self.Panel_content)
-        self.modelPanel[11] = model
-    end
-    return model
-end
-function GiftPackMainView:updatePanelView12(realGiftDaya)
-    local model = self.modelPanel[12]
-    if not model then
-        model = requireNew("lua.logic.store.HotMallView"):new(realGiftDaya)
-        self:addLayerToNode(model, self.Panel_content)
-        self.modelPanel[12] = model
-    end
-    return model
-end
-function GiftPackMainView:updatePanelView13(realGiftDaya)
-    local model = self.modelPanel[13]
-    if not model then
-        model = requireNew("lua.logic.store.HotMallView"):new(realGiftDaya)
-        self:addLayerToNode(model, self.Panel_content)
-        self.modelPanel[13] = model
-    end
-    return model
-end
-
-function GiftPackMainView:updatePanelView14(realGiftDaya)
-    local model = self.modelPanel[14]
-    if not model then
-        model = requireNew("lua.logic.store.HotMallView"):new(realGiftDaya)
-        self:addLayerToNode(model, self.Panel_content)
-        self.modelPanel[14] = model
-    end
-    return model
-end
 
 function GiftPackMainView:updatePanelView3()
     local model = self.modelPanel[3]
@@ -323,7 +249,6 @@ function GiftPackMainView:updatePanelView3()
     return model
 end
 
---国服新增 待处理
 function GiftPackMainView:updatePanelView9()
     local model = self.modelPanel[9]
     if not model then
@@ -353,6 +278,7 @@ function GiftPackMainView:updatePanelView11()
     end
     return model
 end
+
 function GiftPackMainView:onShow()
     self.super.onShow(self)
     self:showRedPoint()

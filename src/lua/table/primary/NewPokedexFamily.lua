@@ -216,7 +216,7 @@ return {
         },
     },
     [19] = {
-        show = 0,
+        show = 1,
         heroSkinId = 1120011,
         sort = 4,
         id = 19,
@@ -228,7 +228,7 @@ return {
         },
     },
     [20] = {
-        show = 0,
+        show = 1,
         heroSkinId = 1113011,
         sort = 5,
         id = 20,

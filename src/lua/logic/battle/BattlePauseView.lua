@@ -28,6 +28,8 @@ function PauseView:initUI(ui)
     self.Button_exit   = TFDirector:getChildByPath(self.Panel_pause, "Button_exit")
     self.Button_show_task = TFDirector:getChildByPath(self.Panel_pause, "Button_show_task"):hide()
     --
+    self.Button_reopen = TFDirector:getChildByPath(self.Panel_pause, "Button_reopen"):hide()
+
     self.Label_dian1   = TFDirector:getChildByPath(self.Panel_pause, "Label_dian1")
     self.Label_dian2   = TFDirector:getChildByPath(self.Panel_pause, "Label_dian2")
     --章节名称
@@ -61,6 +63,8 @@ function PauseView:initUI(ui)
     else
         self.Image_challenge:show()
     end
+
+    self.Button_reopen:setVisible(self.levelCfg_.dungeonType == EC_FBLevelType.ENDLESS_PLUSS )
 
     local name = FubenDataMgr:getLevelName(self.levelCfg_.id)
     self.Label_title:setText(name)
@@ -125,7 +129,7 @@ function PauseView:createItem(effect)
     elseif data.duration  > 0 then
         Image_time1:show()
         Image_time2:hide()
-        local time = effect.nDuration*0.001 --换算苗
+        local time = effect:getSuplusTime()*0.001 --换算苗
         Label_time:setText(string.format("%.2fs",time))
     end
     if ResLoader.isValid(data.icon) then 
@@ -265,9 +269,20 @@ function PauseView:registerEvents()
             AlertManager:closeLayer(self)
         end)
     self.Button_exit:addMEListener(TFWIDGET_CLICK, function()
-            EventMgr:dispatchEvent(eEvent.EVENT_LEAVE)
-            AlertManager:closeLayer(self)
-        end)
+
+        if self.levelCfg_.dungeonType == EC_FBLevelType.ENDLESS_PLUSS then
+            FubenEndlessPlusDataMgr:Send_ExitChallenge()
+        end
+        EventMgr:dispatchEvent(eEvent.EVENT_LEAVE)
+        AlertManager:closeLayer(self)
+    end)
+
+    self.Button_reopen:addMEListener(TFWIDGET_CLICK, function()
+        FubenDataMgr:setReopenFlag(true)
+        EventMgr:dispatchEvent(eEvent.EVENT_LEAVE)
+        AlertManager:closeLayer(self)
+    end)
+
     self.Button_set:addMEListener(TFWIDGET_CLICK, function()
             --EventMgr:dispatchEvent(eEvent.EVENT_LEAVE)
             --AlertManager:closeLayer(self)

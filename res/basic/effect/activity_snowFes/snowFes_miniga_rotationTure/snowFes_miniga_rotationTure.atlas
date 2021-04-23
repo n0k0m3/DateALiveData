@@ -1,0 +1,249 @@
+
+snowFes_miniga_rotationTure.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/UI_000
+  rotate: false
+  xy: 2, 436
+  size: 584, 585
+  orig: 584, 585
+  offset: 0, 0
+  index: -1
+images/glow_000
+  rotate: true
+  xy: 2, 154
+  size: 280, 283
+  orig: 342, 337
+  offset: 33, 27
+  index: -1
+images/wenli/wenli_000
+  rotate: false
+  xy: 287, 202
+  size: 236, 232
+  orig: 342, 337
+  offset: 55, 54
+  index: -1
+images/wenli/wenli_030
+  rotate: false
+  xy: 287, 202
+  size: 236, 232
+  orig: 342, 337
+  offset: 55, 54
+  index: -1
+images/wenli/wenli_001
+  rotate: false
+  xy: 525, 202
+  size: 236, 232
+  orig: 342, 337
+  offset: 55, 54
+  index: -1
+images/wenli/wenli_005
+  rotate: true
+  xy: 287, 2
+  size: 198, 227
+  orig: 342, 337
+  offset: 55, 54
+  index: -1
+images/wenli/wenli_006
+  rotate: false
+  xy: 822, 799
+  size: 199, 222
+  orig: 342, 337
+  offset: 56, 54
+  index: -1
+images/wenli/wenli_009
+  rotate: true
+  xy: 2, 23
+  size: 62, 220
+  orig: 342, 337
+  offset: 202, 56
+  index: -1
+images/wenli/wenli_010
+  rotate: true
+  xy: 2, 87
+  size: 65, 222
+  orig: 342, 337
+  offset: 202, 55
+  index: -1
+images/wenli/wenli_011
+  rotate: false
+  xy: 904, 574
+  size: 70, 223
+  orig: 342, 337
+  offset: 202, 55
+  index: -1
+images/wenli/wenli_012
+  rotate: false
+  xy: 826, 568
+  size: 76, 229
+  orig: 342, 337
+  offset: 198, 55
+  index: -1
+images/wenli/wenli_025
+  rotate: true
+  xy: 588, 785
+  size: 236, 232
+  orig: 342, 337
+  offset: 55, 54
+  index: -1
+images/wenli/wenli_026
+  rotate: false
+  xy: 588, 551
+  size: 236, 232
+  orig: 342, 337
+  offset: 55, 54
+  index: -1
+images/wenli/wenli_027
+  rotate: true
+  xy: 763, 313
+  size: 236, 232
+  orig: 342, 337
+  offset: 55, 54
+  index: -1
+images/wenli/wenli_028
+  rotate: true
+  xy: 763, 75
+  size: 236, 232
+  orig: 342, 337
+  offset: 55, 54
+  index: -1
+
+snowFes_miniga_rotationTure2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/wenli/wenli_002
+  rotate: false
+  xy: 2, 486
+  size: 235, 232
+  orig: 342, 337
+  offset: 55, 54
+  index: -1
+images/wenli/wenli_003
+  rotate: false
+  xy: 239, 486
+  size: 232, 232
+  orig: 342, 337
+  offset: 55, 54
+  index: -1
+images/wenli/wenli_004
+  rotate: true
+  xy: 467, 254
+  size: 230, 229
+  orig: 342, 337
+  offset: 55, 54
+  index: -1
+images/wenli/wenli_013
+  rotate: false
+  xy: 696, 22
+  size: 216, 230
+  orig: 342, 337
+  offset: 65, 55
+  index: -1
+images/wenli/wenli_014
+  rotate: false
+  xy: 698, 257
+  size: 224, 230
+  orig: 342, 337
+  offset: 63, 55
+  index: -1
+images/wenli/wenli_015
+  rotate: false
+  xy: 467, 22
+  size: 227, 230
+  orig: 342, 337
+  offset: 62, 55
+  index: -1
+images/wenli/wenli_016
+  rotate: false
+  xy: 711, 489
+  size: 234, 230
+  orig: 342, 337
+  offset: 56, 55
+  index: -1
+images/wenli/wenli_017
+  rotate: true
+  xy: 235, 11
+  size: 235, 230
+  orig: 342, 337
+  offset: 55, 55
+  index: -1
+images/wenli/wenli_018
+  rotate: true
+  xy: 235, 248
+  size: 236, 230
+  orig: 342, 337
+  offset: 55, 55
+  index: -1
+images/wenli/wenli_019
+  rotate: false
+  xy: 240, 721
+  size: 236, 231
+  orig: 342, 337
+  offset: 55, 55
+  index: -1
+images/wenli/wenli_020
+  rotate: true
+  xy: 2, 248
+  size: 236, 231
+  orig: 342, 337
+  offset: 55, 55
+  index: -1
+images/wenli/wenli_021
+  rotate: false
+  xy: 478, 721
+  size: 236, 231
+  orig: 342, 337
+  offset: 55, 55
+  index: -1
+images/wenli/wenli_022
+  rotate: true
+  xy: 2, 10
+  size: 236, 231
+  orig: 342, 337
+  offset: 55, 55
+  index: -1
+images/wenli/wenli_023
+  rotate: false
+  xy: 473, 490
+  size: 236, 229
+  orig: 342, 337
+  offset: 55, 57
+  index: -1
+images/wenli/wenli_024
+  rotate: false
+  xy: 716, 721
+  size: 236, 231
+  orig: 342, 337
+  offset: 55, 55
+  index: -1
+images/wenli/wenli_029
+  rotate: false
+  xy: 2, 720
+  size: 236, 232
+  orig: 342, 337
+  offset: 55, 54
+  index: -1
+
+snowFes_miniga_rotationTure3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/wenli/wenli_007
+  rotate: false
+  xy: 2, 2
+  size: 203, 221
+  orig: 342, 337
+  offset: 56, 54
+  index: -1
+images/wenli/wenli_008
+  rotate: false
+  xy: 2, 225
+  size: 205, 221
+  orig: 342, 337
+  offset: 57, 54
+  index: -1

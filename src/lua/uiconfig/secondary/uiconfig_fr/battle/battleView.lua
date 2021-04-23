@@ -159,7 +159,7 @@ local t =
 				},
 				{
 					controlID = "Panel_ui_effect_bottom_Panel-battleView_ui_battle_Game",
-					UUID = "dca6e426_084a_4862_a259_6c1bd5ecef25",
+					UUID = "f5927b0b_cf8e_4ae8_a2da_49bc299135e0",
 					anchorPoint = "False",
 					anchorPointX = "0",
 					anchorPointY = "0",
@@ -197,7 +197,7 @@ local t =
 						
 						{
 							controlID = "Spine_alert_Panel_ui_effect_bottom_Panel-battleView_ui_battle_Game",
-							UUID = "4cef94cd_1aea_4ded_9b4a_ac38ff338265",
+							UUID = "ed6fd30a_b169_459d_b430_514344c8e3ec",
 							classname = "MESpine",
 							dstBlendFunc = "771",
 							name = "Spine_alert",
@@ -267,77 +267,6 @@ local t =
 					components = 
 					{
 						
-						{
-							controlID = "Panel_ui_effect_bottom_Panel_ui_Panel-battleView_ui_battle_Game",
-							UUID = "f5927b0b_cf8e_4ae8_a2da_49bc299135e0",
-							anchorPoint = "False",
-							anchorPointX = "0",
-							anchorPointY = "0",
-							backGroundScale9Enable = "False",
-							bgColorOpacity = "50",
-							bIsOpenClipping = "False",
-							classname = "MEPanel",
-							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
-							DesignHeight = "640",
-							DesignType = "0",
-							DesignWidth = "960",
-							dstBlendFunc = "771",
-							height = "640",
-							ignoreSize = "False",
-							name = "Panel_ui_effect_bottom",
-							sizepercentx = "100",
-							sizepercenty = "100",
-							sizeType = "1",
-							srcBlendFunc = "1",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								relativeToName = "Panel_ui",
-								nType = 3,
-							},
-							uipanelviewmodel = 
-							{
-								Layout="Absolute",
-								nType = "0"
-							},
-							width = "1136",
-							ZOrder = "1",
-							components = 
-							{
-								
-								{
-									controlID = "Spine_alert_Panel_ui_effect_bottom_Panel_ui_Panel-battleView_ui_battle_Game",
-									UUID = "ed6fd30a_b169_459d_b430_514344c8e3ec",
-									classname = "MESpine",
-									dstBlendFunc = "771",
-									name = "Spine_alert",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									spineModel = 
-									{
-										SpinePath = "effect/effect_articulo/effect_articulo",
-										animationName = "1136",
-										IsLoop = true,
-										IsPlay = true,
-										IsUseQueue = false,
-										AnimationQueue = 
-										{
-											
-										},
-									},
-									srcBlendFunc = "1",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = 568,
-										PositionY = 335,
-									},
-									visible = "False",
-									ZOrder = "1",
-								},
-							},
-						},
 						{
 							controlID = "Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
 							UUID = "1f4d8feb_43c6_4a89_a671_753f5ef93c9b",
@@ -619,7 +548,7 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "82",
+									height = "68",
 									ignoreSize = "False",
 									name = "Panel_captain",
 									panelTexturePath = "ui/battle/005.png",
@@ -631,9 +560,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 13,
-										PositionY = 642,
+										PositionY = 634,
 										LeftPositon = 13,
-										TopPosition = -2,
+										TopPosition = 6,
 										relativeToName = "Panel_ui",
 										nType = 3,
 									},
@@ -1813,7 +1742,7 @@ local t =
 													backGroundScale9Enable = "False",
 													classname = "MEImage",
 													dstBlendFunc = "771",
-													height = "2",
+													height = "18",
 													ignoreSize = "True",
 													name = "Image_super_energy_bg",
 													sizepercentx = "0",
@@ -1826,14 +1755,14 @@ local t =
 													{
 														relativeToName = "Panel",
 													},
-													width = "2",
+													width = "178",
 													ZOrder = "1",
 													components = 
 													{
 														
 														{
 															controlID = "LoadingBar_super_energy_Image_super_energy_bg_Panel_super_energy_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
-															UUID = "d20c9f02_1372_43db_824e_01b17d6a28e1",
+															UUID = "ce06fe33_eec9_4999_835c_e2a10966608b",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -1841,7 +1770,7 @@ local t =
 															classname = "MELoadingBar",
 															direction = "0",
 															dstBlendFunc = "771",
-															height = "2",
+															height = "14",
 															ignoreSize = "True",
 															name = "LoadingBar_super_energy",
 															percent = "100",
@@ -1855,14 +1784,14 @@ local t =
 															{
 																PositionX = 110,
 															},
-															width = "2",
+															width = "130",
 															ZOrder = "1",
 														},
 													},
 												},
 												{
 													controlID = "Spine_super_energy_guang_Panel_super_energy_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
-													UUID = "d35698c3_df2a_4ddc_8dce_5982d30b09b5",
+													UUID = "9f4d0821_8e00_4dba_a113_8159b2189bd9",
 													classname = "MESpine",
 													dstBlendFunc = "771",
 													name = "Spine_super_energy_guang",
@@ -1920,7 +1849,7 @@ local t =
 												},
 												{
 													controlID = "Label_super_sp_Panel_super_energy_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
-													UUID = "817e8754_bd63_4acd_9fce_344bce2bddf7",
+													UUID = "9825bcce_e4b1_47d7_884c_7c745479bff8",
 													anchorPoint = "False",
 													anchorPointX = "0",
 													anchorPointY = "0.5",
@@ -1944,7 +1873,7 @@ local t =
 														StrokeColor = "#FF444444",
 														StrokeSize = 1,
 													},
-													height = "18",
+													height = "19",
 													ignoreSize = "True",
 													name = "Label_super_sp",
 													nTextAlign = "1",
@@ -14246,7 +14175,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "184",
 									ZOrder = "1",
 									components = 
@@ -14430,7 +14358,7 @@ local t =
 								},
 								{
 									controlID = "Panel_energy_bar_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
-									UUID = "73ad5be8_8a25_42d6_8912_15ef7bb11934",
+									UUID = "2a1c4695_2695_4bdf_bc59_806b722401d1",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",

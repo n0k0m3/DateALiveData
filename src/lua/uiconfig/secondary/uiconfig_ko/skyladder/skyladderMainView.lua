@@ -288,7 +288,7 @@ local t =
 										PositionX = -459,
 										PositionY = -12,
 									},
-									width = "23",
+									width = "19",
 									ZOrder = "1",
 								},
 								{
@@ -362,7 +362,7 @@ local t =
 										PositionX = -296,
 										PositionY = -12,
 									},
-									width = "93",
+									width = "90",
 									ZOrder = "1",
 								},
 								{
@@ -397,7 +397,7 @@ local t =
 									controlID = "Label_blood_tip_Image_top_Panel_root_Panel-skyladderMainView_Layer1_skyladder_Game",
 									UUID = "be9743db_a9ac_4097_b2b4_c0c6c3067115",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -460,7 +460,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 74,
+												PositionX = 32,
 											},
 											width = "66",
 											ZOrder = "1",
@@ -978,7 +978,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -168,
+												PositionX = -177,
 											},
 											width = "28",
 											ZOrder = "1",
@@ -1025,7 +1025,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 44,
+														PositionX = 51,
 													},
 													width = "73",
 													ZOrder = "1",
@@ -1052,7 +1052,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -45,
+												PositionX = -59,
 											},
 											width = "28",
 											ZOrder = "1",
@@ -1126,7 +1126,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 168,
+												PositionX = 160,
 											},
 											width = "28",
 											ZOrder = "1",
@@ -1137,7 +1137,7 @@ local t =
 													controlID = "Label_name_Image_icon_4_Image_rank_title_Image_rank_Panel_root_Panel-skyladderMainView_Layer1_skyladder_Game",
 													UUID = "a091b89f_4fd9_4e68_85b5_85f9fbc5c0d6",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -1173,7 +1173,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 59,
+														PositionX = 22,
 													},
 													width = "97",
 													ZOrder = "1",
@@ -1413,7 +1413,7 @@ local t =
 														PositionX = -260,
 														PositionY = -1,
 													},
-													width = "45",
+													width = "44",
 													ZOrder = "1",
 												},
 												{
@@ -1505,7 +1505,7 @@ local t =
 														PositionX = -159,
 														PositionY = 12,
 													},
-													width = "53",
+													width = "51",
 													ZOrder = "1",
 												},
 												{
@@ -1551,7 +1551,7 @@ local t =
 														PositionX = 113,
 														PositionY = 11,
 													},
-													width = "63",
+													width = "62",
 													ZOrder = "1",
 													components = 
 													{
@@ -2697,7 +2697,7 @@ local t =
 										PositionX = -260,
 										PositionY = -10,
 									},
-									width = "45",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -2789,7 +2789,7 @@ local t =
 										PositionX = -157,
 										PositionY = 12,
 									},
-									width = "53",
+									width = "51",
 									ZOrder = "1",
 								},
 								{
@@ -2835,7 +2835,7 @@ local t =
 										PositionX = 113,
 										PositionY = 14,
 									},
-									width = "33",
+									width = "32",
 									ZOrder = "1",
 									components = 
 									{

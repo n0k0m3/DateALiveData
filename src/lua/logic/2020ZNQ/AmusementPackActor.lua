@@ -46,6 +46,7 @@ local ActorStateType = {
 		MOVE = 3,
 		SILENCE = 4,
 		ACTIVE = 5,
+		INIT = 6,
 	}
 
 local ActorEventName = {
@@ -54,6 +55,7 @@ local ActorEventName = {
 		MOVE = "MOVE",
 		SILENCE = "SILENCE",
 		ACTIVE = "ACTIVE",
+		INIT = "INIT",
 	}
 
 local eAnimation = {
@@ -64,8 +66,9 @@ local eAnimation = {
 function AmusementPackActor:ctor( data )
 	-- body
 	local events = {
-			{name = ActorEventName.BORN, from = {ActorStateType.STAND}, to = ActorStateType.BORN},
-			{name = ActorEventName.STAND, from = {"*"}, to = ActorStateType.STAND},
+			{name = ActorEventName.INIT, from = {"*"}, to = ActorStateType.INIT},
+			{name = ActorEventName.BORN, from = {ActorStateType.INIT}, to = ActorStateType.BORN},
+			{name = ActorEventName.STAND, from = {ActorStateType.INIT, ActorStateType.BORN, ActorStateType.MOVE, ActorStateType.ACTIVE}, to = ActorStateType.STAND},
 			{name = ActorEventName.MOVE, from = {ActorStateType.BORN, ActorStateType.STAND, ActorStateType.MOVE}, to = ActorStateType.MOVE},
 			{name = ActorEventName.SILENCE, from = {ActorStateType.STAND, ActorStateType.MOVE,ActorStateType.ACTIVE}, to = ActorStateType.SILENCE},
 			{name = ActorEventName.ACTIVE, from = {ActorStateType.SILENCE}, to = ActorStateType.ACTIVE},
@@ -73,10 +76,11 @@ function AmusementPackActor:ctor( data )
 
 	local initial = {
 			event = "initEvent",
-			state = ActorStateType.STAND,
+			state = ActorStateType.INIT,
 			defer = true
 		}
 	self.super.ctor(self, data, events, initial)
+	self:addFSMAfterEvents(ActorStateType.INIT, handler(self.initState,self))
 	self:addFSMAfterEvents(ActorStateType.BORN, handler(self.playBorn,self))
 	self:addFSMAfterEvents(ActorStateType.STAND, handler(self.playStand,self))
 	self:addFSMAfterEvents(ActorStateType.MOVE, handler(self.playMove,self))
@@ -85,8 +89,12 @@ function AmusementPackActor:ctor( data )
 
 	self:addFSMLeaveEvents(ActorStateType.MOVE, handler(self.leaveMove,self))
 
-	self:doEvent("initEvent")
 	self:createActor(data)
+	self:doEvent("initEvent")
+end
+
+function AmusementPackActor:initState( ... )
+	-- body
 end
 
 function AmusementPackActor:createActor( actorData )
@@ -96,9 +104,16 @@ function AmusementPackActor:createActor( actorData )
 	else
 		self:createNpc(actorData)
 	end
+
+	if self:isMainHero() then
+		self.isTriggerFuc = true
+	end
+
 	if actorData.pos then
 		self:setPosition3D(actorData.pos.x ,actorData.pos.y, actorData.pos.y)
 	end
+	
+	self.childType = actorData.childType
 	self:updateHideNode()
 end
 
@@ -113,27 +128,35 @@ function AmusementPackActor:getAnimWithPrefix(anim)
     return anim
 end
 
-function AmusementPackActor:createSpine( ... )
+function AmusementPackActor:createSpine( notSetPose )
 	-- body
-	 if ResLoader.cacheSpine[self.resPath] and #ResLoader.cacheSpine[self.resPath] >= 1 then
-    	self.skeletonNode = ResLoader.cacheSpine[self.resPath][1]
-    	self.skeletonNode:autorelease()
-    	table.remove(ResLoader.cacheSpine[self.resPath],1)
+	self.skeletonNode = self:createSkeleton(self.resPath, notSetPose)
+end
 
-    	self.skeletonNode:removeMEListener(TFARMATURE_EVENT)
-        self.skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
-        self.skeletonNode:removeMEListener(TFWIDGET_ENTER)
-        self.skeletonNode:removeMEListener(TFWIDGET_EXIT)
+function AmusementPackActor:createSkeleton( resPath, notSetPose )
+	-- body
+	local skeletonNode = nil
+	 if ResLoader.cacheSpine[resPath] and #ResLoader.cacheSpine[resPath] >= 1 then
+    	skeletonNode = ResLoader.cacheSpine[resPath][1]
+    	skeletonNode:autorelease()
+    	table.remove(ResLoader.cacheSpine[resPath],1)
+
+    	skeletonNode:removeMEListener(TFARMATURE_EVENT)
+        skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+        skeletonNode:removeMEListener(TFWIDGET_ENTER)
+        skeletonNode:removeMEListener(TFWIDGET_EXIT)
         -- _print("找到 skeleton:"..skeletonNode:retainCount().." "..resPath)
         --重置位置
-        self.skeletonNode:setPosition(me.p(0,0))
-        self.skeletonNode:setAnimationFps(GameConfig.ANIM_FPS)
-        self.skeletonNode:setColor(me.WHITE)
-        self.skeletonNode:setRotation(0)
-        self.skeletonNode:clearTracks()
+        skeletonNode:setPosition(me.p(0,0))
+        skeletonNode:setAnimationFps(GameConfig.ANIM_FPS)
+        skeletonNode:setColor(me.WHITE)
+       	skeletonNode:setRotation(0)
+        skeletonNode:clearTracks()
     else
-		self.skeletonNode = ResLoader.getSkeletonNode(self.resPath)
+		skeletonNode = ResLoader.getSkeletonNode(resPath)
     end
+    skeletonNode:setupPoseWhenPlay(not notSetPose)
+    return skeletonNode
 end
 
 function AmusementPackActor:createHero( actorData )
@@ -154,11 +177,16 @@ function AmusementPackActor:createHero( actorData )
 	local heroUI = TFDirector:getChildByPath(prefabe, "Panel_player"):clone()
 
 	
+	self.isCameraScale = false
 	self.lable_name = TFDirector:getChildByPath(heroUI,"lable_name")
 	self.lable_name:setText(actorData.pname)
 
 	self.image_bubble = TFDirector:getChildByPath(heroUI, "Image_bubble"):hide()
 	local label_bubble = TFDirector:getChildByPath(heroUI, "Label_bubble")
+
+	self.defaultImg = self.image_bubble:getTexture()
+	self.chatBubbleOffsetSize = CCSize(self.image_bubble:getContentSize().width - label_bubble:getContentSize().width, self.image_bubble:getContentSize().height - label_bubble:getContentSize().height)
+
 	label_bubble:setTextById("r70003")
 	self.label_bubble = label_bubble.__richText
 
@@ -175,8 +203,14 @@ function AmusementPackActor:createHero( actorData )
 		self.ghostNode = TFImage:create(WorldRoomDataMgr:getCurControl():getGhost())
 		self.ghostNode:setAnchorPoint(ccp(0.5,0))
 		self:addChild(self.ghostNode)
+		self.ghostNode:hide()
 	end
 
+	self.parmaFlag = nil
+    self.isAction = true
+    self.cameraScope = WorldRoomDataMgr:getCurControl().cameraFixZ
+
+	self.modelType = 1
 end
 
 function AmusementPackActor:createNpc( actorData )
@@ -189,32 +223,62 @@ function AmusementPackActor:createNpc( actorData )
 
 			self.speedScale = npcCfg.moveSpeedMultiplier or 1
     		self.resPath = aniPath
-    		self:createSpine()
-		    self:addChild(self.skeletonNode)
+    		self:createSpine(resCfg.notSetPose)
+		    self:addChild(self.skeletonNode,1)
 
 		 	local _drawNode = TFImage:create("ui/common/img_touming.png") -- 解决对象绘制bug 
 		 	self.skeletonNode:addChild(_drawNode)
-		 else
 
+			self.skeletonNode:setScale(npcCfg.modelScale)
+		 else
 		 	self.imageNode = TFImage:create(resCfg.path)
+		 	if resCfg.anchor and #resCfg.anchor > 0 then
+			 	self.imageNode:setAnchorPoint(ccp(resCfg.anchor[1],resCfg.anchor[2]))
+			end
 		 	self:addChild(self.imageNode)
 		 end
+		 self.isSpecialModel = resCfg.isSpecialModel
 	end
 
-	 self.isCameraScale = false
+	if npcCfg.interArea and #npcCfg.interArea > 0 then
+		self.areaRect = me.rect(0,0,npcCfg.interArea[1],npcCfg.interArea[2])
+	end
+
+
+    self.cameraScope = npcCfg.cameraScope
+
+	self.isCameraScale = false
 	-- body
 	local prefabe = AmusementPackActor.prefabe
 	local npcUI = TFDirector:getChildByPath(prefabe, "Panel_npc"):clone()
 
 	self.image_bubble = TFDirector:getChildByPath(npcUI, "Image_bubble"):hide()
 	local label_bubble = TFDirector:getChildByPath(npcUI, "Label_bubble")
-	self.label_bubble = label_bubble
+	self.defaultImg = self.image_bubble:getTexture()
+	self.chatBubbleOffsetSize = CCSize(self.image_bubble:getContentSize().width - label_bubble:getContentSize().width, self.image_bubble:getContentSize().height - label_bubble:getContentSize().height)
+
+	label_bubble:setTextById("r70003")
+	self.label_bubble = label_bubble.__richText
 
 	npcUI:setPosition(ccp(0,0))
-	self:addChild(npcUI)
+	self:addChild(npcUI,2)
 	self.showUi = npcUI	
 
 	self:setDir(npcCfg.dir)
+
+	if npcCfg.isShowShadow then
+		if not self.shadowNode then
+			self.shadowNode = TFImage:create("citymap/world/shadow.png")
+			self:addChild(self.shadowNode)
+		end
+
+		if not self.ghostNode and WorldRoomDataMgr:getCurControl():getGhost() then
+			self.ghostNode = TFImage:create(WorldRoomDataMgr:getCurControl():getGhost())
+			self.ghostNode:setAnchorPoint(ccp(0.5,0))
+			self:addChild(self.ghostNode)
+			self.ghostNode:hide()
+		end
+	end
 
 	if self.audioHandler then
 		TFAudio.stopEffect(self.audioHandler)
@@ -228,6 +292,21 @@ function AmusementPackActor:createNpc( actorData )
 	if npcCfg.bgm and npcCfg.bgm ~= "" then
 		WorldRoomDataMgr:getCurControl():setCurBgm(npcCfg.bgm)
 	end
+	
+	if npcCfg.aiEnable then
+		self.aiModel = requireNew("lua.logic.singleWorldScene.SingleAIBehave"):new({tarNode = self ,life = npcCfg.aiTime, cfgId = npcCfg.aiCfgId})
+		self.deleteAi = npcCfg.deleteAi
+	end
+
+	if npcCfg.parmaFlag ~= 0 then
+		self.parmaFlag = npcCfg.parmaFlag
+	end
+	self.isAlWayTrigger = npcCfg.isAlWayTrigger
+	self.layerOut = npcCfg.layer
+
+	self.modelType = 2
+
+    self.isAction = npcCfg.isAction
 end
 -- 转换富文本
 function AmusementPackActor:setRichContent(lab_content,str,fontColor)
@@ -235,7 +314,6 @@ function AmusementPackActor:setRichContent(lab_content,str,fontColor)
     if type(str) == 'table' then
         return
     end
-    str = string.htmlspecialchars(str)
     local dicts = ChatDataMgr:getRichtextImgDict()
     local strdata = nil
     for _str, value in pairs(dicts) do
@@ -270,22 +348,81 @@ function AmusementPackActor:setRichContent(lab_content,str,fontColor)
 end
 
 --聊天气泡显示
-function AmusementPackActor:playTalk(content)
+function AmusementPackActor:playTalk(content, nofadeIn, borderImg)
+
+	if borderImg then
+		self.image_bubble:setTexture(borderImg)
+	elseif self.defaultImg then
+		self.image_bubble:setTexture(self.defaultImg)
+	end
+
 	if self.image_bubble then 
 		-- self.label_bubble:setText(content)
 		self:setRichContent(self.label_bubble,content)
+
+		local size = self.label_bubble:getContentSize()
+		self.image_bubble:setContentSize(CCSize(size.width + self.chatBubbleOffsetSize.width, size.height + self.chatBubbleOffsetSize.height))
+
 	    self.image_bubble:stopAllActions()
-	    self.image_bubble:setScale(0.2)
-	    self.image_bubble:show()
-	    local actions = 
-	    {   
-	        ScaleTo:create(0.2,1),
-	        DelayTime:create(2),
-	        ScaleTo:create(0.2,0.1),
-	        Hide:create()
-	    }
-	    self.image_bubble:runAction(Sequence:create(actions))
+		self.image_bubble:show()
+	    if not nofadeIn then
+		    self.image_bubble:setScale(0.2)
+		    local actions = 
+		    {   
+		        ScaleTo:create(0.2,1),
+		        DelayTime:create(2),
+		        ScaleTo:create(0.2,0.1),
+		        Hide:create()
+		    }
+		    self.image_bubble:runAction(Sequence:create(actions))
+		else
+		    self.image_bubble:setScale(1)
+  			local actions = 
+		    {   
+		        DelayTime:create(2.5),
+		        Hide:create()
+		    }
+		    self.image_bubble:runAction(Sequence:create(actions))
+		end
 	end
+end
+
+function AmusementPackActor:aiDeleteCallBack(  )
+	-- body
+	if self.aiModel then
+		self.aiModel:setAIEnabled(false)
+		if self.deleteAi then
+			for k,v in ipairs(self.deleteAi) do
+				WorldRoomDataMgr:getCurControl():triggerNpcFunc({interActionId = v, triggerPid = self:getPid()}, true)
+			end
+		end
+	end
+end
+
+function AmusementPackActor:manualAddAI( aiCfgId )
+	-- body
+	self.manualAITab = self.manualAITab or {}
+	if not self.manualAITab[aiCfgId] then
+		self.manualAITab[aiCfgId] = requireNew("lua.logic.singleWorldScene.SingleAIBehave"):new({tarNode = self ,life = -1, cfgId = aiCfgId})
+		self.manualAITab[aiCfgId]:setAIEnabled(true)
+	end
+end
+
+function AmusementPackActor:manualDeleteAI( aiCfgId )
+	-- body
+	self.manualAITab = self.manualAITab or {}
+	if not self.manualAITab[aiCfgId] then return end
+	local ai = self.manualAITab[aiCfgId]
+	ai:setAIEnabled(false)
+	self.manualAITab[aiCfgId] = nil
+end
+
+function AmusementPackActor:aiTalk(talkid)
+    self.isTalking = true
+   
+    self:playTalk(TextDataMgr:getTextEx(talkid))
+    self.image_bubble:stopAllActions()
+    return self.image_bubble
 end
 
 function AmusementPackActor:pauseAudio( ... )
@@ -337,9 +474,57 @@ function AmusementPackActor:addEffectNode( ... )
 	end
 end
 
-function AmusementPackActor:update( dt, actorData )
+function AmusementPackActor:needUpdate(  )
+	-- body
+	return self.aiModel or (self.manualAITab and table.count(self.manualAITab) > 0) or self.parmaFlag
+end
+
+function AmusementPackActor:update( dt, actorData, index)
 	-- body
 	self.super.update(self,dt,actorData)
+	index = index or 0
+
+	self.aiUpdateDt = self.aiUpdateDt or 0
+	self.aiUpdateDt = self.aiUpdateDt + dt
+
+	if not self.actorAiDt and self.aiUpdateDt > 0.01 then
+		self.actorAiDt = 0 + index*0.003
+		self.aiUpdateDt = 0
+	end
+
+	if self.aiModel and self.actorAiDt and  self.aiUpdateDt >= self.actorAiDt then
+		self.actorAiDt = nil
+		self.aiModel:update(self.aiUpdateDt)
+	end
+	self.manualAiUpdateDt = self.manualAiUpdateDt or 0
+	self.manualAiUpdateDt = self.manualAiUpdateDt + dt
+
+	if not self.actorManualAiDt and self.manualAiUpdateDt > 0.02 then
+		self.actorManualAiDt = 0.01 + index*0.003
+		self.manualAiUpdateDt = 0
+	end
+
+	if self.manualAITab and self.actorManualAiDt and self.manualAiUpdateDt >= self.actorManualAiDt then
+		self.actorManualAiDt = nil
+		for k,v in pairs(self.manualAITab) do
+			v:update(self.manualAiUpdateDt)
+		end
+	end
+	
+	self.updateExDatadt = self.updateExDatadt or 0
+	self.updateExDatadt = self.updateExDatadt + dt
+
+	if not self.actorExDataDt and self.updateExDatadt > 0.03  then
+		self.actorExDataDt = 0.02 + index*0.003
+        self.updateExDatadt = 0
+	end
+	if self.parmaFlag and self.actorExDataDt and self.updateExDatadt >= self.actorExDataDt then -- 通过标记获取数据
+		self.updateExDatadt = nil
+        local flagData = Utils:getFlagData(self.parmaFlag)
+        if flagData and flagData.worldRiddlesData then
+            self:setPosition3D(flagData.worldRiddlesData.lox, flagData.worldRiddlesData.loy, flagData.worldRiddlesData.loy)
+        end 
+    end
 end 
 
 function AmusementPackActor:updateHideNode( ... )
@@ -397,6 +582,9 @@ function AmusementPackActor:inBuildAction( dt, buildActor )
 			end
 			return 
 		end
+
+		self:delayAIAction(boneCfg.aiDelayTime or 5000)
+		
 		self.focusbuildActor = buildActor
 		self:setDir(boneCfg.dir)
 		self:playAni(boneCfg.chrAni, true)
@@ -413,6 +601,7 @@ function AmusementPackActor:inBuildAction( dt, buildActor )
 			end
 			EventMgr:dispatchEvent(EV_WORLD_ROKER_VIEW_SHOW,false)
 		end
+
 	end
 	self.inBuilding = true
 	self:doEvent(ActorEventName.SILENCE)
@@ -426,27 +615,45 @@ function AmusementPackActor:inBuildAction( dt, buildActor )
 	end
 end
 
+function AmusementPackActor:delayAIAction( delayTime )
+	-- body
+	if self.aiModel then
+		self.aiModel:removeAI()
+		self.aiModel:addAITimer(delayTime,function()
+			self.aiModel:onBehaveComplete()
+		end)
+	end
+end
+
+function AmusementPackActor:aiAction( )
+	-- body
+	local actorData = self:getActorData()
+	if not actorData then return end
+	actorData.buildId = nil
+end
+
 function AmusementPackActor:notInBuilding( ... )
 	-- body
 	if self.inBuilding then
 		self.inBuilding = false
 		self.buildPlayOpen = false
 		self:doEvent(ActorEventName.ACTIVE)
+
+		if self.shadowNode then
+			self.shadowNode:show()
+		end
 	end
 
-	if self.focusbuildActor then
+	if self.focusbuildActor and self.focusbuildActor.checkCanDoActive then
 		self.focusbuildActor:checkCanDoActive()
-		self.focusbuildActor = nil
 	end
+	
+	self.focusbuildActor = nil
 
 	if self.cachePos then
 		self:setPosition3D(self.cachePos.x,self.cachePos.y,self.cachePos.y)
 		self:moveToStand()
 		self.cachePos = nil
-	end
-
-	if self.shadowNode then
-		self.shadowNode:show()
 	end
 
 	if self.effectAudioHandler then
@@ -456,7 +663,8 @@ function AmusementPackActor:notInBuilding( ... )
 	
 	if self:isMainHero() then
 		local control = WorldRoomDataMgr:getCurControl()
-		control:changeCameraFixZ(control.cameraFixZ)
+		local cameraScope = self.cameraScope > 0 and self.cameraScope or control.cameraFixZ
+		control:changeCameraFixZ(cameraScope)
 		EventMgr:dispatchEvent(EV_WORLD_ROKER_VIEW_SHOW,true)
 	end
 end
@@ -467,17 +675,20 @@ function AmusementPackActor:checkCanDoActive( ... )
 	if not actorData.decorateId then return end
 	local npcCfg = TabDataMgr:getData("WorldObjectMgr", actorData.decorateId)
 	local cfg = TabDataMgr:getData("WorldObjectAction",npcCfg.objectAni_open)
-	if not self:checkCondition(cfg.playCond) or (actorData.inRoomPid and table.count(actorData.inRoomPid) == 0) then
+	if not cfg or not self:checkCondition(cfg.playCond) or (actorData.inRoomPid and table.count(actorData.inRoomPid) == 0) then
 		self:doEvent(ActorEventName.ACTIVE)
+		self:doEvent(ActorEventName.STAND)
 	end
 end
 
 function AmusementPackActor:addTo( panel )
 	-- body
-	MapUtils:addChild(panel, self, 2)             --中层
+	self.layerOut = self.layerOut or 2
+	MapUtils:addChild(panel, self, self.layerOut)  --中层
 	-- MapUtils:addChild(panel, self, 1)             --底层
-	-- MapUtils:addChild(panel, self, 3)             --中层
+	-- MapUtils:addChild(panel, self, 3)             --顶层
 	-- MapUtils:addChild(panel, self, 4)             --boss层
+	self:playBorn()
 end
 
 function AmusementPackActor:changeSkin( actorData )
@@ -489,15 +700,22 @@ end
 function AmusementPackActor:playBorn()
 	-- body
 	local function onCallBack()
+		if self.aiModel then
+			self.aiModel:setAIEnabled(true)
+		end
 		self:doEvent(ActorEventName.STAND)
 	end
 
 	if self.data.decorateId then
 		local npcCfg = TabDataMgr:getData("WorldObjectMgr", self.data.decorateId)
-		self:actionByCfgId(npcCfg.objectAni_born,nil,onCallBack)
+		if npcCfg.objectAni_born ~= 0 then
+			self:actionByCfgId(npcCfg.objectAni_born,nil,onCallBack)
+		else
+			onCallBack()
+		end
 	elseif self.data then
 		local bornAction = "born_up"
-		self:playEffect("effect/born/born", nil, nil, false, bornAction, onCallBack)
+		self:playEffect("effect/born/born", nil, nil, false, bornAction, false,onCallBack)
 		self:playStand()
 	else
 		onCallBack()
@@ -532,8 +750,6 @@ function AmusementPackActor:beActive()
 end
 
 function AmusementPackActor:leaveMove(event)
-	-- body
-	self:cleanAutoPath()
 end
 
 function AmusementPackActor:playAni(action, loop, completeCallback)
@@ -589,29 +805,42 @@ function AmusementPackActor:_onExit(  )
 end
 
 --播放特效
-function AmusementPackActor:playEffect(effectName, followDir, effectScale, isLoop, actionName, callFunc)
+function AmusementPackActor:playEffect(effectName, followDir, effectScale, isLoop, actionName, fullScene,callFunc)
 	local showOtherEffect = SettingDataMgr:getWorldShowEffect()
-	if not self:isMainHero() and not showOtherEffect then
+	if (not self:isMainHero() and not showOtherEffect) 
+		or (self.ishide and not fullScene ) then
+		if callFunc then
+			callFunc()
+		end
 		return
 	end
 
+	
 	local skeletonNode = self.staticEffect
 	local recoverAni = false
 	if effectName ~= "all" then
 		local resPath = effectName
-		skeletonNode = ResLoader.createSpine(resPath, effectScale)
+		skeletonNode = self:createSkeleton(resPath)
 		if not skeletonNode then
 			Box("======配置资源特效文件找不到===资源"..effectName)
 			return
 		end
 
+		skeletonNode:setScale(effectScale)
 		if followDir then
 			MapUtils:setSkeletonNodeDir(skeletonNode, self:getDir())
 		end
-		self:addChild(skeletonNode, 2)
-	 	local _drawNode = TFImage:create("ui/common/img_touming.png") -- 解决对象绘制bug 
-	 	skeletonNode:addChild(_drawNode)
-		self:setCameraMask(self:getCameraMask())
+		if not fullScene then
+			self:addChild(skeletonNode, 2)
+		 	local _drawNode = TFImage:create("ui/common/img_touming.png") -- 解决对象绘制bug 
+		 	skeletonNode:addChild(_drawNode)
+			self:setCameraMask(self:getCameraMask())
+		else
+			local pos = WorldRoomDataMgr:getCurControl():getBaseMap():convertToNodeSpace(ccp(GameConfig.WS.width/2,GameConfig.WS.height/2))
+			skeletonNode:setPosition(pos)
+			skeletonNode:setCameraMask(1)
+			WorldRoomDataMgr:getCurControl():getBaseMap():addChild(skeletonNode)
+		end
 	else
 		recoverAni = true
 	end
@@ -626,7 +855,7 @@ function AmusementPackActor:playEffect(effectName, followDir, effectScale, isLoo
 
 
 
-	if isLoop then
+	if isLoop and not fullScene then
 		if self.staticEffect then
 			self.staticEffect:removeMEListener(TFARMATURE_COMPLETE)
 			self.staticEffect:removeFromParent()
@@ -643,10 +872,20 @@ function AmusementPackActor:playEffect(effectName, followDir, effectScale, isLoo
 				_skeletonNode:play(_skeletonNode.loopAni,true)
 				return
 			end
+			self:addCacheSpine(_skeletonNode,effectName)
 			_skeletonNode:removeFromParent()
 		end)
 	end
 	return skeletonNode
+end
+
+function AmusementPackActor:addCacheSpine( skeletonNode, resPath )
+	-- body
+	ResLoader.cacheSpine[resPath] = ResLoader.cacheSpine[resPath] or {}
+	if #ResLoader.cacheSpine[resPath] <= 20 then -- 同一个spine 最多缓存20个
+		table.insert(ResLoader.cacheSpine[resPath],skeletonNode)
+		skeletonNode:retain()
+	end
 end
 
 function AmusementPackActor:doEvent( eventName, ... )
@@ -674,8 +913,15 @@ function AmusementPackActor:updateShowNode( actorData )
 	self.animation = nil
 	self.shadowNode = nil
 	self.ghostNode = nil
+	self.lable_name = nil
 	self:createActor(actorData)
+	self:doEvent(ActorEventName.ACTIVE)
 	self:setCameraMask(self:getCameraMask())
+	if self:isMainHero() then
+		local control = WorldRoomDataMgr:getCurControl()
+		local cameraScope = self.cameraScope > 0 and self.cameraScope or control.cameraFixZ
+		control:changeCameraFixZ(cameraScope)
+	end
 end
 
 function AmusementPackActor:checkCondition( cond )
@@ -707,14 +953,45 @@ function AmusementPackActor:actionByCfgId( cfgId, pagram, callFunc )
 	if not self:checkCondition(cfg.playCond) then
 		return false
 	end
-	
+
+	local finishCallBack = callFunc
+
+	if cfg.finishActionButton and #cfg.finishActionButton > 0 then
+		finishCallBack = function ( ... )
+			-- body
+			for k,v in ipairs(cfg.finishActionButton) do
+				WorldRoomDataMgr:getCurControl():playActionButton(v, nil,self:getPid())
+			end
+
+			if callFunc then
+				callFunc()
+			end
+		end
+	end
+
+	if cfg.aiDelayTime and cfg.aiDelayTime ~= 0 then
+		self:delayAIAction( cfg.aiDelayTime)
+	end
+
+	if cfg.beStand then
+		self:setAutoMove(false)
+	end
+
+	if cfg.modelDir and cfg.modelDir ~= 0 then
+		self:setDir(cfg.modelDir)
+	end
+
+	if cfg.hideShadow and self.shadowNode then
+		self.shadowNode:hide()
+	end
+
 	if self.effectAudioHandler then
 		TFAudio.stopEffect(self.effectAudioHandler)
 		self.effectAudioHandler = nil
 	end
 
 	local addCallFunc = false
-	if cfg.objectAction ~= "" then
+	if cfg.objectAction ~= "" then -- 动作播放
 		if not cfg.objectActIsLoop then
 			self:doEvent(ActorEventName.SILENCE)
 			addCallFunc = true
@@ -722,45 +999,76 @@ function AmusementPackActor:actionByCfgId( cfgId, pagram, callFunc )
 		self:playAni(cfg.objectAction, cfg.objectActIsLoop, function ( ... )
 			-- body
 			self:doEvent(ActorEventName.ACTIVE)
-			if callFunc then
-				callFunc()
+			if cfg.hideShadow and self.shadowNode then
+				self.shadowNode:show()
+			end
+			if finishCallBack then
+				finishCallBack()
 			end
 		end)
 	end
 
-	if cfg.motionRecourse_1 ~= "" then
+	if cfg.motionRecourse_1 ~= "" then -- 特效效果
 		local skeletonNode = nil
 		if addCallFunc then
-			skeletonNode = self:playEffect(cfg.motionRecourse_1, cfg.dirFollowObj, 1, cfg.motionActIsLoop, cfg.motionAction_1)
+			skeletonNode = self:playEffect(cfg.motionRecourse_1, cfg.dirFollowObj, 1, cfg.motionActIsLoop, cfg.motionAction_1, cfg.fullScene)
 		else
 			addCallFunc = true
-			skeletonNode = self:playEffect(cfg.motionRecourse_1, cfg.dirFollowObj, 1, cfg.motionActIsLoop, cfg.motionAction_1, callFunc)
+			skeletonNode = self:playEffect(cfg.motionRecourse_1, cfg.dirFollowObj, 1, cfg.motionActIsLoop, cfg.motionAction_1, cfg.fullScene, finishCallBack)
 		end
 		if table.count(cfg.offSet) ~= 0 then
-			if not skeletonNode then
-				return
+			if skeletonNode then
+				skeletonNode:setPosition(skeletonNode:getPosition() + ccp(cfg.offSet.x,cfg.offSet.y))
 			end
-			skeletonNode:setPosition(ccp(cfg.offSet.x,cfg.offSet.y))
 		end
 	end
 
-	if cfg.audioId ~= 0 then
-		local distance = WorldRoomDataMgr:getCurControl():getDistanceFromMainHero(self)
-		if not distance then
-			return
-		end
-		local handler = Utils:playSound(cfg.audioId,cfg.audioLoop)
-		cfg.audioRange = cfg.audioRange or 300
-		cfg.audioRate = cfg.audioRate or 100
-        local valume = math.min(1,(cfg.audioRange - distance)/(cfg.audioRange*cfg.audioRate/100))
-        valume = math.max(0,valume)
+	if not addCallFunc and finishCallBack then
+		finishCallBack()
+	end
 
-		local baseVol = SettingDataMgr:getSoundMainVal()
-    	local effectVol = SettingDataMgr:getSoundEffectVal()
-		TFAudio.setEffectsVolumeById(handler,baseVol*effectVol*valume)
-		if cfg.audioLoop then
-			self.effectAudioHandler = handler
+	if cfg.audioId ~= 0 then -- 背景音效
+		local distance = WorldRoomDataMgr:getCurControl():getDistanceFromMainHero(self)
+		if distance then
+			local handler = Utils:playSound(cfg.audioId,cfg.audioLoop)
+			cfg.audioRange = cfg.audioRange or 300
+			cfg.audioRate = cfg.audioRate or 100
+	        local valume = math.min(1,(cfg.audioRange - distance)/(cfg.audioRange*cfg.audioRate/100))
+	        valume = math.max(0,valume)
+
+			local baseVol = SettingDataMgr:getSoundMainVal()
+	    	local effectVol = SettingDataMgr:getSoundEffectVal()
+			TFAudio.setEffectsVolumeById(handler,baseVol*effectVol*valume)
+			if cfg.audioLoop then
+				self.effectAudioHandler = handler
+			end
 		end
+	end
+
+	if cfg.changeModel and cfg.changeModel.actorCfgId then
+		local actorData = WorldRoomDataMgr:getCurControl():createNewEmptyData(cfg.changeModel.actorCfgId)
+		actorData.pos = self:getPosition()
+		actorData.pid = self:getPid()
+		self:updateShowNode(actorData)
+		self:playBorn()
+	end
+
+	if cfg.recoverModel then
+		local actorData = WorldRoomDataMgr:getCurControl():getActorDataByPid(self:getPid())
+		self:updateShowNode(actorData)
+		self:playBorn()
+	end
+
+	if cfg.chatText and cfg.chatText ~= 0 then -- 背景音效
+    	self:playTalk(TextDataMgr:getTextEx(cfg.chatText),true, cfg.chatTexture)
+	end
+
+	if cfg.manualAICfgId and cfg.manualAICfgId > 0 then
+		self:manualAddAI(cfg.manualAICfgId)
+	end
+
+	if cfg.manualDelAICfgId and cfg.manualDelAICfgId > 0 then
+		self:manualDeleteAI(cfg.manualDelAICfgId)
 	end
 
 	return true
@@ -769,10 +1077,20 @@ end
 function AmusementPackActor:removeActor( ... )
 	-- body
 	self:notInBuilding()
+	if  self.aiModel then
+		self.aiModel.tarNode = nil
+	end
+
+	if self.manualAITab then
+		for k ,v in pairs(self.manualAITab) do
+			v.tarNode = nil
+		end
+	end
+
+	self.aiModel = nil
+	self.manualAITab = nil
 	if self.skeletonNode then -- 缓存现有spine 备用
-		self.skeletonNode:retain()
-		ResLoader.cacheSpine[self.resPath] = ResLoader.cacheSpine[self.resPath] or {}
-		table.insert(ResLoader.cacheSpine[self.resPath],self.skeletonNode)
+		self:addCacheSpine(self.skeletonNode,self.resPath)
 	end
 	self.super.removeActor(self)
 end
@@ -819,6 +1137,7 @@ function AmusementPackActor:hideSelf( show )
 	if self.ghostNode then
 		self.ghostNode:setVisible(not show)
 	end
+	self.ishide = not show
 end
 
 return AmusementPackActor 

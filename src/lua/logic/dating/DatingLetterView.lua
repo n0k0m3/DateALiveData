@@ -176,7 +176,7 @@ function DatingLetterView:flushDatingRewardView( pageIndex )
     local taskId = mainItemInfo.taskId or 0
     local rewardData = TaskDataMgr:getTaskCfg(taskId) or {}
     local taskInfo = TaskDataMgr:getTaskInfo(taskId) or {}
-    local progress = taskInfo.progress -- 已激活结局
+    local progress = taskInfo.progress or 0 -- 已激活结局
     local totalEndOfNum = rewardData.progress -- 总需要激活解决
     if totalEndOfNum == 0 then totalEndOfNum = 1 end
     

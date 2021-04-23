@@ -328,9 +328,9 @@ local t =
 									colorType = "0;SingleColor:#FFEE82EE;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 									direction = "2",
 									dstBlendFunc = "771",
-									height = "380",
+									height = "395",
 									ignoreSize = "False",
-									innerHeight = "380",
+									innerHeight = "395",
 									innerWidth = "994",
 									name = "ScrollView_chapter",
 									showScrollbar = "False",
@@ -4301,7 +4301,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,

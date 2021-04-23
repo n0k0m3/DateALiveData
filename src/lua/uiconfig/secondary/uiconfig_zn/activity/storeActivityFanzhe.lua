@@ -6,7 +6,7 @@ local t =
 		
 		{
 			controlID = "Panel-storeActivityFanzhe_welfareSignView_activity_Game",
-			UUID = "155d78f7_0945_4d2b_af8d_63c5513341d0",
+			UUID = "03cbb031_7400_4441_8d31_6ed4844f06a5",
 			anchorPoint = "False",
 			anchorPointX = "0",
 			anchorPointY = "0",

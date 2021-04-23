@@ -64,6 +64,8 @@ function ActivityMain:initUI(ui)
     self.Panel_newGiftEn = TFDirector:getChildByPath(self.Panel_root , "Panel_newGiftEn")
     self.Panel_newGiftEn:hide()
 
+    self.Panel_tzr = TFDirector:getChildByPath(self.Panel_root, "Panel_tzr"):hide()
+
     self.panel_sevenEx = TFDirector:getChildByPath(ui,"Panel_sevenEx"):hide()
     -- local Panel_tehui = TFDirector:getChildByPath(self.panel_sevenEx, "Panel_tehui")
     -- --暂时屏蔽七日大礼包
@@ -196,7 +198,7 @@ function ActivityMain:initActivitysBtn()
     end
 
     --七日狂欢
-    if self.selectSevenExIdx > 0 then
+    if self.selectSevenExIdx > 0 and not ActivityDataMgr:isActivateNewPlayerBook() then
         local btn           = self.actBtnItem:clone();
         local titleLabel    = TFDirector:getChildByPath(btn,"Label");
         local icon          = TFDirector:getChildByPath(btn,"Image_icon")
@@ -333,8 +335,6 @@ function ActivityMain:updateNewGiftEn( ... )
     end
 end
 
-
-
 function ActivityMain:showRedPoint()
     for k,v in pairs(self.actBtns) do
         local redTip = v:getParent():getChildByName("RedTip")
@@ -465,6 +465,8 @@ function ActivityMain:registerEvents()
             --     end
             -- end
             Utils:openView("supplyNew.SupplyMainNewView",2)
+            -- Utils:openView("store.GiftPackMainView",3)
+            --FunctionDataMgr:jGiftPacks(2, 4)
     end)
 
     self.Panel_awardConfirm:onClick(function()

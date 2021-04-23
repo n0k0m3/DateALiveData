@@ -66,8 +66,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 777,
-						PositionY = 557,
+						PositionX = 837,
+						PositionY = 627,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 3,
@@ -96,7 +96,7 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionY = 556,
+						PositionY = 626,
 						TopPosition = 1,
 						relativeToName = "Panel",
 						nType = 3,
@@ -123,8 +123,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 480,
-						PositionY = 320,
+						PositionX = 510,
+						PositionY = 355,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -187,8 +187,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 480,
-						PositionY = 320,
+						PositionX = 510,
+						PositionY = 355,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -2626,8 +2626,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 480,
-						PositionY = 320,
+						PositionX = 510,
+						PositionY = 355,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,

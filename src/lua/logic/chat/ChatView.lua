@@ -882,8 +882,7 @@ function ChatView:tryClose()
          AlertManager:closeLayer(self)
     end)
     local actions = {
-        MoveTo:create(0.4, me.p(-self.panel_chat:getSize().width - 500,0)),
-        DelayTime:create(0.05),
+        MoveTo:create(0.2, me.p(-self.panel_chat:getSize().width - 100,0)),
         callback
     }
 
@@ -1347,7 +1346,6 @@ function ChatView:updateItem(item, chatInfo)
                 Image_res:setTexture("icon/system/001.png")
 			end
 
-
             if chatInfo.fun == EC_ChatState.RED_PACK1 then
                 packetCfg = TabDataMgr:getData("Packet", content.cid)
                 local resItem = next(packetCfg.item)
@@ -1358,7 +1356,7 @@ function ChatView:updateItem(item, chatInfo)
                 else
                     Image_res:setTexture("icon/system/005.png")
                 end
-            
+
             end
 
             local info = ChatDataMgr:getRedPacketStatus(id, content.time)
@@ -1539,7 +1537,7 @@ function ChatView:updateItem(item, chatInfo)
                 Image_title:addChild(skeletonTitleNode,10)
             end
         end
-        Image_title:setScale(0.6)
+        Image_title:setScale(0.55)
     end
 
     --消息
@@ -2344,6 +2342,7 @@ function ChatView:setSelectChanel(chatType)
         local onlineCount = LeagueDataMgr:getUnionMemberOnlineCount()
         self.Label_online_num:setText(onlineCount.."/"..totalCount)
         self.Panel_private:hide()
+
 
     elseif chatType == EC_ChatType.RED_PACK then
         self.Panel_redPack:show()

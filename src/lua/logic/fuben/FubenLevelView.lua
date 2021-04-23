@@ -5,7 +5,21 @@ function FubenLevelView:initData(chapterCid, levelCid)
     self.chapterCid_ = chapterCid
     self.chapterCfg_ = FubenDataMgr:getChapterCfg(self.chapterCid_)
     self.levelGroup_ = FubenDataMgr:getLevelGroup(chapterCid)
+	 
 
+	self.nextChapterId = nil	
+	local chapterData = FubenDataMgr:getChapter(EC_FBType.PLOT)
+	local found = false
+	for i,v in pairs(chapterData) do
+		if found then
+			self.nextChapterId = v
+			break;
+		end
+		if self.chapterCid_ == v then
+			found = true
+		end
+	end
+	
     self.rowNum_ = 5
     self.colNum_ = 13
     self.colMargin_ = 90
@@ -86,8 +100,8 @@ function FubenLevelView:initData(chapterCid, levelCid)
             table.sort(level, function(a, b)
                            local cfgA = FubenDataMgr:getLevelCfg(a)
                            local cfgB = FubenDataMgr:getLevelCfg(b)
-                           local colA = math.mod(cfgA.positionOrder[1], self.colNum_)
-                           local colB = math.mod(cfgB.positionOrder[1], self.colNum_)
+                           local colA = math.mod(cfgA.positionOrder[1] or 1, self.colNum_)
+                           local colB = math.mod(cfgB.positionOrder[1] or 1, self.colNum_)
                            return colA > colB
             end)
         end
@@ -182,6 +196,11 @@ function FubenLevelView:initUI(ui)
     local ScrollView_wave = TFDirector:getChildByPath(self.Panel_root, "ScrollView_wave")
     self.ListView_wave = UIListView:create(ScrollView_wave)
 
+	self.Button_next = TFDirector:getChildByPath(self.Panel_root, "Button_next"):hide()
+	self.Button_next:onClick(function()
+		Utils:openView("fuben.FubenLevelView", self.nextChapterId)
+	end)
+
     local Image_star = TFDirector:getChildByPath(self.Panel_root, "Image_star"):hide()
     self.Label_fighting_starnum = TFDirector:getChildByPath(Image_star, "Label_fighting_starnum")
     self.Label_dating_starnum = TFDirector:getChildByPath(Image_star, "Label_dating_starnum")
@@ -263,6 +282,20 @@ function FubenLevelView:refreshView()
     self.Button_review:setVisible(self.chapterCfg_.video ~= 0)
 
     self:showPopView()
+	
+	self:showNextChapterBtn()
+end
+
+function FubenLevelView:showNextChapterBtn()
+--	if self.nextChapterId then
+--		local firstLevelCid = FubenDataMgr:getChapterFirstLevel(self.nextChapterId, EC_FBDiff.SIMPLE)
+--		local enabled, preIsOpen, levelIsOpen = FubenDataMgr:checkPlotLevelEnabled(firstLevelCid)
+--		if enabled then
+--			self.Button_next:show()
+--		else
+--			self.Button_next:hide()
+--		end
+--	end
 end
 
 function FubenLevelView:updateStartRewardState()
@@ -300,6 +333,9 @@ function FubenLevelView:selectDiff(index)
     if not enabled then
         local firstLevelCid = FubenDataMgr:getChapterFirstLevel(self.chapterCid_, diffData.diff)
         local firstLevelCfg = FubenDataMgr:getLevelCfg(firstLevelCid)
+        if not firstLevelCfg then
+            return
+        end
         local count = #firstLevelCfg.preLevelId
         if count == 1 then
             local levelName = FubenDataMgr:getLevelName(firstLevelCfg.preLevelId[1])
@@ -643,6 +679,7 @@ end
 
 function FubenLevelView:registerEvents()
     EventMgr:addEventListener(self, EV_FUBEN_LEVELGROUPREWARD, handler(self.onGetLevelGroupRewardEvent, self))
+	EventMgr:addEventListener(self, EV_BATTLE_FIGHTOVER, handler(self.showNextChapterBtn, self))
 
     self.Button_diff_select:onClick(function()
             local visible = self.Panel_diff:isVisible()
@@ -651,12 +688,18 @@ function FubenLevelView:registerEvents()
 
     self.Button_reward_receive:onClick(function()
             local diffData = self.diffData_[self.selectDiffIndex_]
+            if not diffData then
+                return
+            end
             local levelGroupCid = self.levelGroup_[self.selectLevelGroupIndex_]
             Utils:openView("fuben.FubenStarRewardView", self.levelGroup_[1], diffData.diff)
     end)
 
     self.Button_reward_geted:onClick(function()
             local diffData = self.diffData_[self.selectDiffIndex_]
+            if not diffData then
+                return
+            end
             local levelGroupCid = self.levelGroup_[self.selectLevelGroupIndex_]
             Utils:openView("fuben.FubenStarRewardView", self.levelGroup_[1], diffData.diff)
     end)

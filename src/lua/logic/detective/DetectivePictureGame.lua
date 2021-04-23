@@ -245,32 +245,25 @@ function DetectivePictureGame:checkVectory()
 end
 
 function DetectivePictureGame:gameVectory()
-	-- local spineSuccess = SkeletonAnimation:create("effect/effect_MJyouxichenggong/MJyouxichenggong")
-	-- spineSuccess:setPosition(ccp(self.touchShield.size.width / 2, self.touchShield.size.height / 2))
- --    spineSuccess:play("animation", false)
-	-- spineSuccess:setMix("animation","animation1",0.2)
-	-- spineSuccess:setMix("animation1","animation",0.2)
-	-- spineSuccess:setPosition(ccp(0,0))
- --    self.Panel_root:addChild(spineSuccess, 10)
- --    spineSuccess:addMEListener(TFARMATURE_COMPLETE,function(spine,animationName)
-	-- 	if animationName == "animation" then
-	-- 		spine:play("animation1", false)
-	-- 		self.mask:setVisible(true)
-	-- 	elseif animationName == "animation1" then
-	-- 		local orderIds = self.cfg_["formulation"]
-	-- 		DetectiveDataMgr:Req_DetectiveGameFinish(orderIds,self.curGroup)
-	-- 	end
- --     end)
-
-    --TODO 暂时跳过特效直接完成
-
+	local spineSuccess = SkeletonAnimation:create("effect/effect_MJyouxichenggong/MJyouxichenggong")
+	spineSuccess:setPosition(ccp(self.touchShield.size.width / 2, self.touchShield.size.height / 2))
+    spineSuccess:play("animation", false)
+	spineSuccess:setMix("animation","animation1",0.2)
+	spineSuccess:setMix("animation1","animation",0.2)
+	spineSuccess:setPosition(ccp(0,0))
+    self.Panel_root:addChild(spineSuccess, 10)
+    spineSuccess:addMEListener(TFARMATURE_COMPLETE,function(spine,animationName)
+		if animationName == "animation" then
+			spine:play("animation1", false)
+			self.mask:setVisible(true)
+		elseif animationName == "animation1" then
+			local orderIds = self.cfg_["formulation"]
+			DetectiveDataMgr:Req_DetectiveGameFinish(orderIds,self.curGroup)
+		end
+     end)
 	self.touchShield:setVisible(true)
 	TFAudio.playSound("sound/dating_sound/dating_285.mp3")
 	self:removeCountDownTimer()
-
-
-	local orderIds = self.cfg_["formulation"]
-	DetectiveDataMgr:Req_DetectiveGameFinish(orderIds,self.curGroup)
 end
 
 function DetectivePictureGame:addCountDownTimer()

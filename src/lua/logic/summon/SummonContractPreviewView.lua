@@ -77,11 +77,9 @@ function SummonContractPreviewView:initUI( ui )
 	local button_sw3 = TFDirector:getChildByPath(ui,"button_sw3")
 	image_3:setTexture(self.summonCfg.image_m)
 
-
 	--英文版暂时屏蔽反十 TODO  20201124
 	image_3:setColor(ccc3(0 ,0 ,0))
 	image_3:setTouchEnabled(false)
-
 
 	image_1:setZOrder(4)
 	image_2:setZOrder(2)

@@ -566,15 +566,15 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "20",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "0",
-																	ignoreSize = "False",
+																	height = "25",
+																	ignoreSize = "True",
 																	name = "Label_start",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -587,10 +587,10 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 93,
+																		PositionX = 89,
 																		PositionY = -42,
 																	},
-																	width = "144",
+																	width = "149",
 																	ZOrder = "1",
 																},
 																{
@@ -696,7 +696,7 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "20",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
@@ -826,7 +826,7 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "20",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
@@ -956,7 +956,7 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "20",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
@@ -1086,7 +1086,7 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "20",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
@@ -1216,7 +1216,7 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "20",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
@@ -1346,7 +1346,7 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "20",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
@@ -1476,7 +1476,7 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "20",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
@@ -1606,7 +1606,7 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "20",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,

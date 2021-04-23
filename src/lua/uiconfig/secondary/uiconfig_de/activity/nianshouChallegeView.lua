@@ -1,0 +1,1938 @@
+local t = 
+{
+	version = 1,
+	components = 
+	{
+		
+		{
+			controlID = "Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+			UUID = "1873f845_c429_44cd_8785_95e0889a697d",
+			anchorPoint = "False",
+			anchorPointX = "0",
+			anchorPointY = "0",
+			backGroundScale9Enable = "False",
+			bgColorOpacity = "50",
+			bIsOpenClipping = "False",
+			classname = "MEPanel",
+			colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+			DesignHeight = "640",
+			DesignType = "0",
+			DesignWidth = "960",
+			dstBlendFunc = "771",
+			height = "640",
+			ignoreSize = "False",
+			name = "Panel",
+			PanelRelativeSizeModel = 
+			{
+				PanelRelativeEnable = true,
+			},
+			sizepercentx = "0",
+			sizepercenty = "0",
+			sizeType = "0",
+			srcBlendFunc = "1",
+			touchAble = "False",
+			UILayoutViewModel = 
+			{
+				nType = 3,
+			},
+			uipanelviewmodel = 
+			{
+				Layout="Relative",
+				nType = "3"
+			},
+			width = "1136",
+			ZOrder = "1",
+			components = 
+			{
+				
+				{
+					controlID = "Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+					UUID = "4f2f21c8_0efe_4fa2_bae5_b2ae92c29090",
+					anchorPoint = "False",
+					anchorPointX = "0",
+					anchorPointY = "0",
+					backGroundScale9Enable = "False",
+					bgColorOpacity = "50",
+					bIsOpenClipping = "False",
+					classname = "MEPanel",
+					colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+					DesignHeight = "640",
+					DesignType = "0",
+					DesignWidth = "960",
+					dstBlendFunc = "771",
+					height = "640",
+					ignoreSize = "False",
+					name = "Panel_root",
+					sizepercentx = "0",
+					sizepercenty = "0",
+					sizeType = "0",
+					srcBlendFunc = "1",
+					touchAble = "False",
+					UILayoutViewModel = 
+					{
+						PositionX = -58,
+						PositionY = 35,
+						relativeToName = "Panel",
+						nType = 3,
+						nGravity = 6,
+						nAlign = 5
+					},
+					uipanelviewmodel = 
+					{
+						Layout="Absolute",
+						nType = "0"
+					},
+					width = "1136",
+					ZOrder = "1",
+					components = 
+					{
+						
+						{
+							controlID = "Panel_touch_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+							UUID = "395784a6_bf33_4850_85f1_d3e8e99cc259",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "640",
+							ignoreSize = "False",
+							name = "Panel_touch",
+							sizepercentx = "100",
+							sizepercenty = "100",
+							sizeType = "1",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Relative",
+								nType = "3"
+							},
+							width = "1136",
+							ZOrder = "1",
+						},
+						{
+							controlID = "Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+							UUID = "fc3a1ec7_d559_4932_8de5_bacd87d5998a",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "640",
+							ignoreSize = "False",
+							name = "Panel_level_sel",
+							sizepercentx = "100",
+							sizepercenty = "100",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								relativeToName = "Panel",
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "1136",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Image_bg_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+									UUID = "a9b161bb_509a_4122_9384_07a0ef4dc187",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "640",
+									ignoreSize = "False",
+									name = "Image_bg",
+									sizepercentx = "100",
+									sizepercenty = "100",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									texturePath = "ui/activity/newyear_2021/nianshou/bg.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 568,
+										PositionY = 320,
+										IsPercent = true,
+										PercentX = 50,
+										PercentY = 50,
+									},
+									width = "1386",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Image_nianshouChallegeView_4_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+									UUID = "d56d23cb_2f7a_4aa2_a620_6b89b78aa0c7",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "640",
+									ignoreSize = "True",
+									name = "Image_nianshouChallegeView_4",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									texturePath = "ui/activity/newyear_2021/nianshou/年兽玩法主界面.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 568,
+										PositionY = 320,
+										IsPercent = true,
+										PercentX = 50,
+										PercentY = 50,
+									},
+									visible = "False",
+									width = "1386",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Image_open_time_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+									UUID = "63ec042a_f248_4985_ac2c_a038709dd322",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "47",
+									ignoreSize = "True",
+									name = "Image_open_time",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/newyear_2021/nianshou/001.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 223,
+										PositionY = 543,
+									},
+									width = "425",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_open_time_Image_open_time_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "6918b5fc_4400_4851_8244_f121acefc522",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FF294D70",
+											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "22",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "25",
+											ignoreSize = "True",
+											name = "Label_open_time",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "剩余活动时间：20天20小时20分",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -202,
+												PositionY = -2,
+											},
+											width = "317",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "Button_task_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+									UUID = "6223d95d_f7e9_470c_ae5f_8461f6548c1e",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "102",
+									ignoreSize = "True",
+									name = "Button_task",
+									normal = "ui/activity/newyear_2021/nianshou/005.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 64,
+										PositionY = 460,
+									},
+									UItype = "Button",
+									width = "83",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Image_red_Button_task_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "d8363e1d_74f1_48c1_8396_ddf3e2ea287d",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "30",
+											ignoreSize = "True",
+											name = "Image_red",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/common/news_small.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 38,
+												PositionY = 48,
+											},
+											visible = "False",
+											width = "30",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+									UUID = "565b5096_543f_490b_a897_0000a451d603",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "200",
+									ignoreSize = "False",
+									name = "Panel_nianshou",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "200",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Panel_nianshou1_Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "1643ebbb_62ba_481f_99ff_2ab6f994c288",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "False",
+											classname = "MEPanel",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											DesignHeight = "640",
+											DesignType = "0",
+											DesignWidth = "960",
+											dstBlendFunc = "771",
+											height = "150",
+											ignoreSize = "False",
+											name = "Panel_nianshou1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 361,
+												PositionY = 425,
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											width = "150",
+											ZOrder = "2",
+											components = 
+											{
+												
+												{
+													controlID = "Spine_nianshou1_Panel_nianshou1_Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "97b7f342_9f28_41e9_b404_3a2018c35040",
+													classname = "MESpine",
+													dstBlendFunc = "771",
+													name = "Spine_nianshou1",
+													scaleX = "0.3",
+													scaleY = "0.3",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													spineModel = 
+													{
+														SpinePath = "effect/effect_nianshou_2021/cheng_nianshou_emo_2021",
+														animationName = "stand",
+														IsLoop = true,
+														IsPlay = true,
+														IsUseQueue = false,
+														AnimationQueue = 
+														{
+															
+														},
+													},
+													srcBlendFunc = "1",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionY = -81,
+													},
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Panel_nianshou2_Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "69160bd1_f5ff_4d63_989e_6a23e26d5217",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "False",
+											classname = "MEPanel",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											DesignHeight = "640",
+											DesignType = "0",
+											DesignWidth = "960",
+											dstBlendFunc = "771",
+											height = "150",
+											ignoreSize = "False",
+											name = "Panel_nianshou2",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 224,
+												PositionY = 165,
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											width = "150",
+											ZOrder = "2",
+											components = 
+											{
+												
+												{
+													controlID = "Spine_nianshou2_Panel_nianshou2_Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "b52e4307_90c9_4cbe_b483_d6a9c18ab8a3",
+													classname = "MESpine",
+													dstBlendFunc = "771",
+													name = "Spine_nianshou2",
+													scaleX = "0.3",
+													scaleY = "0.3",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													spineModel = 
+													{
+														SpinePath = "effect/effect_nianshou_2021/hong_nianshou_emo_2021",
+														animationName = "stand",
+														IsLoop = true,
+														IsPlay = true,
+														IsUseQueue = false,
+														AnimationQueue = 
+														{
+															
+														},
+													},
+													srcBlendFunc = "1",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionY = -80,
+													},
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Panel_nianshou3_Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "2ea152b4_d2a3_4358_9df6_2526918555ab",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "False",
+											classname = "MEPanel",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											DesignHeight = "640",
+											DesignType = "0",
+											DesignWidth = "960",
+											dstBlendFunc = "771",
+											height = "100",
+											ignoreSize = "False",
+											name = "Panel_nianshou3",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 512,
+												PositionY = 165,
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											width = "100",
+											ZOrder = "2",
+											components = 
+											{
+												
+												{
+													controlID = "Spine_nianshou3_Panel_nianshou3_Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "197e8d6d_02e3_46a8_a135_86f62b225336",
+													classname = "MESpine",
+													dstBlendFunc = "771",
+													name = "Spine_nianshou3",
+													scaleX = "0.3",
+													scaleY = "0.3",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													spineModel = 
+													{
+														SpinePath = "effect/effect_nianshou_2021/lan_nianshou_emo_2021",
+														animationName = "stand",
+														IsLoop = true,
+														IsPlay = true,
+														IsUseQueue = false,
+														AnimationQueue = 
+														{
+															
+														},
+													},
+													srcBlendFunc = "1",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionY = -80,
+														relativeToName = "Panel",
+													},
+													ZOrder = "2",
+												},
+												{
+													controlID = "Spine_nianshouChallegeView_1_Panel_nianshou3_Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "83ea08ae_83af_4be2_9100_a9c7764ed449",
+													classname = "MESpine",
+													dstBlendFunc = "771",
+													name = "Spine_nianshouChallegeView_1",
+													scaleX = "0.1",
+													scaleY = "0.1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													spineModel = 
+													{
+														SpinePath = "effect/effect_nianshou_2021/lan_nianshou_emo_2021",
+														animationName = "stand",
+														IsLoop = true,
+														IsPlay = true,
+														IsUseQueue = false,
+														AnimationQueue = 
+														{
+															
+														},
+													},
+													srcBlendFunc = "1",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionY = -500,
+													},
+													ZOrder = "3",
+												},
+											},
+										},
+										{
+											controlID = "Image_buff_bg_Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "03d470db_2a24_4857_8857_efa1a92c7a22",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "50",
+											ignoreSize = "True",
+											name = "Image_buff_bg",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/newyear_2021/nianshou/004.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 366,
+												PositionY = 43,
+											},
+											width = "476",
+											ZOrder = "2",
+											components = 
+											{
+												
+												{
+													controlID = "Label_buff_Image_buff_bg_Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "72cb4e1a_ab60_446f_bde4_1c9ea9eabd5b",
+													anchorPoint = "False",
+													anchorPointX = "0",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FF416385",
+													fontName = "font/fangzheng_zhunyuan.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "20",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "23",
+													ignoreSize = "True",
+													name = "Label_buff",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "午：为其他年兽提供每秒",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = -212,
+													},
+													width = "223",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Spine_line1_Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "ff60d9d4_4075_42c4_b5be_b0ee48a24298",
+											classname = "MESpine",
+											dstBlendFunc = "771",
+											name = "Spine_line1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											spineModel = 
+											{
+												SpinePath = "effect/effect_nianshou_jiban_2021/effect_nianshou_jiban_2021",
+												animationName = "animation",
+												IsLoop = true,
+												IsPlay = true,
+												IsUseQueue = false,
+												AnimationQueue = 
+												{
+													
+												},
+											},
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 360,
+												PositionY = 256,
+											},
+											ZOrder = "1",
+										},
+										{
+											controlID = "Spine_line2_Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "41cf96c6_0589_4bef_a0c5_1029f01e675a",
+											classname = "MESpine",
+											dstBlendFunc = "771",
+											name = "Spine_line2",
+											rotation = "-120",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											spineModel = 
+											{
+												SpinePath = "effect/effect_nianshou_jiban_2021/effect_nianshou_jiban_2021",
+												animationName = "animation",
+												IsLoop = true,
+												IsPlay = true,
+												IsUseQueue = false,
+												AnimationQueue = 
+												{
+													
+												},
+											},
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 357,
+												PositionY = 244,
+											},
+											ZOrder = "1",
+										},
+										{
+											controlID = "Spine_line3_Panel_nianshou_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "807e7022_5ee3_485f_9757_59b00029790d",
+											classname = "MESpine",
+											dstBlendFunc = "771",
+											name = "Spine_line3",
+											rotation = "120",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											spineModel = 
+											{
+												SpinePath = "effect/effect_nianshou_jiban_2021/effect_nianshou_jiban_2021",
+												animationName = "animation",
+												IsLoop = true,
+												IsPlay = true,
+												IsUseQueue = false,
+												AnimationQueue = 
+												{
+													
+												},
+											},
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 368,
+												PositionY = 237,
+											},
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+									UUID = "8e323ea9_0411_473d_a6a3_381ac1482b2a",
+									anchorPoint = "False",
+									anchorPointX = "1",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "570",
+									ignoreSize = "False",
+									name = "Panel_level_info",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 1136,
+										IsPercent = true,
+										PercentX = 100,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "500",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Panel_flag_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "d7096330_4bd8_4ea3_8de2_9220d8f535d0",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "False",
+											classname = "MEPanel",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											DesignHeight = "640",
+											DesignType = "0",
+											DesignWidth = "960",
+											dstBlendFunc = "771",
+											height = "258",
+											ignoreSize = "False",
+											name = "Panel_flag",
+											sizepercentx = "100",
+											sizepercenty = "30",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -460,
+												PositionY = 307,
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											width = "460",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "ScrollView_flags_Panel_flag_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "2f746dab_fcb1_4c67_ae1f_dd1ad39fea8a",
+													anchorPoint = "False",
+													anchorPointX = "0",
+													anchorPointY = "0",
+													backGroundScale9Enable = "False",
+													bgColorOpacity = "50",
+													bIsOpenClipping = "True",
+													bounceEnable = "True",
+													classname = "MEScrollView",
+													colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+													direction = "1",
+													dstBlendFunc = "771",
+													height = "212",
+													ignoreSize = "False",
+													innerHeight = "212",
+													innerWidth = "430",
+													name = "ScrollView_flags",
+													showScrollbar = "False",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													touchAble = "True",
+													UILayoutViewModel = 
+													{
+														PositionX = 30,
+													},
+													uipanelviewmodel = 
+													{
+														Layout="Absolute",
+														nType = "0"
+													},
+													width = "430",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Image_flag_title_bg_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "d5149a6a_0181_4157_8cbc_6d94e82c86cc",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "43",
+											ignoreSize = "True",
+											name = "Image_flag_title_bg",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/newyear_2021/nianshou/002.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -428,
+												PositionY = 546,
+											},
+											width = "449",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Label_flag_name_Image_flag_title_bg_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "7a60c2a5_be62_46c9_bc34_f041b6084f78",
+													anchorPoint = "False",
+													anchorPointX = "0",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FF416385",
+													fontName = "font/MFLiHei_Noncommercial.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "26",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "32",
+													ignoreSize = "True",
+													name = "Label_flag_name",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "年兽特性",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = 55,
+													},
+													width = "107",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Image_pass_title_bg_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "f6945576_8c9d_49e5_8c7c_52df539903ea",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "43",
+											ignoreSize = "True",
+											name = "Image_pass_title_bg",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/newyear_2021/nianshou/002.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -428,
+												PositionY = 283,
+											},
+											width = "449",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Label_pass_name_Image_pass_title_bg_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "b4fb76aa_8311_4e6c_a6b9_e6b9291d1520",
+													anchorPoint = "False",
+													anchorPointX = "0",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FF416385",
+													fontName = "font/MFLiHei_Noncommercial.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "26",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "32",
+													ignoreSize = "True",
+													name = "Label_pass_name",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "通关描述",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = 55,
+													},
+													width = "107",
+													ZOrder = "1",
+												},
+												{
+													controlID = "Label_pass_desc_Image_pass_title_bg_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "884b46ff_e502_4d47_89ce_8b0406f13404",
+													anchorPoint = "False",
+													anchorPointX = "0",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FFFFFFFF",
+													fontName = "font/fangzheng_zhunyuan.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "20",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "23",
+													ignoreSize = "True",
+													name = "Label_pass_desc",
+													nTextAlign = "0",
+													nTextHAlign = "0",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "用鞭炮击败至少一只年兽",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = 26,
+														PositionY = -43,
+													},
+													width = "223",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Image_reward_title_bg_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "fd836bab_9069_4396_9a86_aa2ba435550c",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "43",
+											ignoreSize = "True",
+											name = "Image_reward_title_bg",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/newyear_2021/nianshou/002.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -428,
+												PositionY = 197,
+											},
+											width = "449",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Label_reward_name_Image_reward_title_bg_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "40da429c_95a7_45c9_a0cc_19dea665f5d1",
+													anchorPoint = "False",
+													anchorPointX = "0",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FF416385",
+													fontName = "font/MFLiHei_Noncommercial.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "26",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "32",
+													ignoreSize = "True",
+													name = "Label_reward_name",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "通关奖励",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = 55,
+													},
+													width = "107",
+													ZOrder = "1",
+												},
+												{
+													controlID = "Button_reward_tip_Image_reward_title_bg_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "5b14abc5_2275_4f31_974f_469d4f1a72d3",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEButton",
+													ClickHighLightEnabled = "True",
+													dstBlendFunc = "771",
+													flipX = "False",
+													flipY = "False",
+													height = "48",
+													ignoreSize = "True",
+													name = "Button_reward_tip",
+													normal = "ui/activity/newyear_2021/nianshou/003.png",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													touchAble = "True",
+													UILayoutViewModel = 
+													{
+														PositionX = 200,
+													},
+													UItype = "Button",
+													width = "48",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Panel_reward_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "2f488c0e_f25d_4859_9795_55620173e38b",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "False",
+											classname = "MEPanel",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											DesignHeight = "640",
+											DesignType = "0",
+											DesignWidth = "960",
+											dstBlendFunc = "771",
+											height = "100",
+											ignoreSize = "False",
+											name = "Panel_reward",
+											sizepercentx = "100",
+											sizepercenty = "54",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -460,
+												PositionY = 75,
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											width = "460",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "ScrollView_rewards_Panel_reward_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "e5249357_5a05_4c90_a9b8_4173a181d0e3",
+													anchorPoint = "False",
+													anchorPointX = "0",
+													anchorPointY = "0",
+													backGroundScale9Enable = "False",
+													bgColorOpacity = "50",
+													bIsOpenClipping = "True",
+													bounceEnable = "False",
+													classname = "MEScrollView",
+													colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+													direction = "2",
+													dstBlendFunc = "771",
+													height = "80",
+													ignoreSize = "False",
+													innerHeight = "80",
+													innerWidth = "420",
+													name = "ScrollView_rewards",
+													showScrollbar = "False",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													touchAble = "True",
+													UILayoutViewModel = 
+													{
+														PositionX = 33,
+														PositionY = 14,
+													},
+													uipanelviewmodel = 
+													{
+														Layout="Absolute",
+														nType = "0"
+													},
+													width = "420",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Image_tips_show_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "5135c8f5_97bf_47b0_9f2e_6677838a3232",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "190",
+											ignoreSize = "False",
+											name = "Image_tips_show",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/newyear_2021/nianshou/006.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -228,
+												PositionY = 222,
+											},
+											visible = "False",
+											width = "394",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Label_tips_show_Image_tips_show_Panel_level_info_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "8ad2bc3e_8f18_46ce_9e40_39947ff131e9",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FFFFFFFF",
+													fontName = "font/fangzheng_zhunyuan.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "20",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "170",
+													ignoreSize = "False",
+													name = "Label_tips_show",
+													nTextAlign = "0",
+													nTextHAlign = "0",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = 2,
+														PositionY = 93,
+													},
+													width = "370",
+													ZOrder = "1",
+												},
+											},
+										},
+									},
+								},
+								{
+									controlID = "Panel_buttons_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+									UUID = "8b8da488_42fa_4763_9fb9_559317d7d36c",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "70",
+									ignoreSize = "False",
+									name = "Panel_buttons",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "1136",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Button_auto_match_Panel_buttons_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "217f5d2a_5af9_4b37_8872_610e23a08f3f",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+											classname = "MEButton",
+											ClickHighLightEnabled = "True",
+											dstBlendFunc = "771",
+											flipX = "False",
+											flipY = "False",
+											height = "89",
+											HitType = 
+											{
+												nHitType = 3,
+											},
+											ignoreSize = "False",
+											name = "Button_auto_match",
+											normal = "ui/activity/newyear_2021/nianshou/btn4.png",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionX = 1060,
+												PositionY = 43,
+											},
+											UItype = "Button",
+											width = "164",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Label_title_Button_auto_match_Panel_buttons_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "82dc255f_9f53_42b0_8467_6544cf68834e",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FFB4331C",
+													fontName = "font/MFLiHei_Noncommercial.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "26",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "32",
+													ignoreSize = "True",
+													name = "Label_title",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "单人匹配",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "106",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Button_open_house_Panel_buttons_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "9326454c_90bc_4c22_ae7f_b139d84fd8ec",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEButton",
+											ClickHighLightEnabled = "True",
+											dstBlendFunc = "771",
+											flipX = "False",
+											flipY = "False",
+											height = "89",
+											HitType = 
+											{
+												nHitType = 3,
+											},
+											ignoreSize = "True",
+											name = "Button_open_house",
+											normal = "ui/activity/newyear_2021/nianshou/btn6.png",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionX = 903,
+												PositionY = 43,
+											},
+											UItype = "Button",
+											width = "164",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Label_title_Button_open_house_Panel_buttons_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "0b800244_5325_42a6_9e16_9ed5f244edc1",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FFFFFFFF",
+													fontName = "font/MFLiHei_Noncommercial.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "26",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "32",
+													ignoreSize = "True",
+													name = "Label_title",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "创建房间",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "106",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Button_cost_Panel_buttons_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+											UUID = "744f71de_148b_476a_9f84_842e3dff149f",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEButton",
+											ClickHighLightEnabled = "True",
+											dstBlendFunc = "771",
+											flipX = "False",
+											flipY = "False",
+											height = "50",
+											ignoreSize = "True",
+											name = "Button_cost",
+											normal = "ui/fuben/cost_diban.png",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionX = 762,
+												PositionY = 43,
+											},
+											UItype = "Button",
+											width = "104",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Label_costNum_Button_cost_Panel_buttons_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "305af6de_0f2a_4264_856f_f1ecf376ebd0",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FFFFFFFF",
+													fontName = "font/fangzheng_zhunyuan.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "52",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "60",
+													ignoreSize = "True",
+													name = "Label_costNum",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "6",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = -25,
+														PositionY = -4,
+													},
+													width = "29",
+													ZOrder = "1",
+												},
+												{
+													controlID = "Image_costIcon_Button_cost_Panel_buttons_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "ee696fa8_a276_4cd3_be35_199338c850a7",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "100",
+													ignoreSize = "True",
+													name = "Image_costIcon",
+													scaleX = "0.25",
+													scaleY = "0.25",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "icon/item/goods/510401.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = 21,
+														PositionY = 10,
+													},
+													width = "100",
+													ZOrder = "1",
+												},
+												{
+													controlID = "Label_cost_Button_cost_Panel_buttons_Panel_level_sel_Panel_root_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+													UUID = "34ad472c_2104_480b_9086_0dcf3eb638ab",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FFFFFFFF",
+													fontName = "font/fangzheng_zhunyuan.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "20",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "23",
+													ignoreSize = "True",
+													name = "Label_cost",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "消耗",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = 18,
+														PositionY = -13,
+													},
+													width = "43",
+													ZOrder = "1",
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				{
+					controlID = "Panel_prefabe_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+					UUID = "cfe6dce6_e40b_47be_ac51_b633f26e6577",
+					anchorPoint = "False",
+					anchorPointX = "0",
+					anchorPointY = "0",
+					backGroundScale9Enable = "False",
+					bgColorOpacity = "50",
+					bIsOpenClipping = "False",
+					classname = "MEPanel",
+					colorType = "0;SingleColor:#FF000000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+					DesignHeight = "640",
+					DesignType = "0",
+					DesignWidth = "960",
+					dstBlendFunc = "771",
+					height = "50",
+					ignoreSize = "False",
+					name = "Panel_prefabe",
+					sizepercentx = "0",
+					sizepercenty = "0",
+					sizeType = "0",
+					srcBlendFunc = "1",
+					touchAble = "False",
+					UILayoutViewModel = 
+					{
+						PositionX = 287,
+						PositionY = -100,
+						LeftPositon = 287,
+						TopPosition = 760,
+						relativeToName = "Panel_root",
+						nType = 3,
+					},
+					uipanelviewmodel = 
+					{
+						Layout="Absolute",
+						nType = "0"
+					},
+					width = "352",
+					ZOrder = "1",
+					components = 
+					{
+						
+						{
+							controlID = "Panel_flag_item_Panel_prefabe_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+							UUID = "253f7413_63e8_4e89_9937_573e1ed23ab0",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "68",
+							ignoreSize = "False",
+							name = "Panel_flag_item",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 331,
+								PositionY = -200,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "430",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Image_flag_Panel_flag_item_Panel_prefabe_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+									UUID = "6b8e75db_d27d_4424_a38d_2eefeca9cdf6",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "20",
+									ignoreSize = "True",
+									name = "Image_flag",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/newyear_2021/nianshou/007.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 18,
+										PositionY = 54,
+									},
+									width = "20",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Label_flag_Panel_flag_item_Panel_prefabe_Panel-nianshouChallegeView_activity_2021_spring_activity_Game",
+									UUID = "a94ac103_cc98_4279_a35a_21045386cdc9",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FFFFFFFF",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "20",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "70",
+									ignoreSize = "False",
+									name = "Label_flag",
+									nTextAlign = "0",
+									nTextHAlign = "0",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "年兽免疫除鞭炮技能以外的所有伤害，包括降临技，精灵被动攻击等，包括降临技，精灵被动攻击等",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 29,
+										PositionY = 30,
+									},
+									width = "388",
+									ZOrder = "1",
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+	actions = 
+	{
+		
+	},
+	respaths = 
+	{
+		textures = 
+		{
+			"ui/activity/newyear_2021/nianshou/bg.png",
+			"ui/activity/newyear_2021/nianshou/年兽玩法主界面.png",
+			"ui/activity/newyear_2021/nianshou/001.png",
+			"ui/activity/newyear_2021/nianshou/005.png",
+			"ui/common/news_small.png",
+			"ui/activity/newyear_2021/nianshou/004.png",
+			"ui/activity/newyear_2021/nianshou/002.png",
+			"ui/activity/newyear_2021/nianshou/003.png",
+			"ui/activity/newyear_2021/nianshou/006.png",
+			"ui/activity/newyear_2021/nianshou/btn4.png",
+			"ui/activity/newyear_2021/nianshou/btn6.png",
+			"ui/fuben/cost_diban.png",
+			"icon/item/goods/510401.png",
+			"ui/activity/newyear_2021/nianshou/007.png",
+		},
+		armatures = 
+		{
+			
+		},
+		movieclips = 
+		{
+			
+		},
+	},
+}
+return t
+

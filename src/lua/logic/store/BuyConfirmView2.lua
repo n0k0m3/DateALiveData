@@ -99,7 +99,7 @@ function BuyConfirmView2:registerEvents()
                 Utils:showAccess(self.commodityCfg_.exchangeCost[1].id)
                 return
             end
-            Utils:openView("common.ConfirmBoxViewSmallNew", self.commodityId_,{buyCount = self.selectNum})
+            RechargeDataMgr:RECHARGE_REQ_CHARGE_EXCHANGE(self.commodityId_,"",0,"", self.selectNum)
     end)
 
     self.Button_close:onClick(
@@ -209,7 +209,7 @@ function BuyConfirmView2:updateBatchPanel(num)
         self.selectNum = 1
     end
 
-    if leftTimes and leftTimes > 0 then
+    if leftTimes then
         count = math.min(count, leftTimes)
     end
     if self.selectNum >= count then

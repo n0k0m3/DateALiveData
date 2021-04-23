@@ -1,0 +1,13 @@
+
+xiaoqiu.png
+size: 32,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiaoqiu
+  rotate: false
+  xy: 2, 2
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1

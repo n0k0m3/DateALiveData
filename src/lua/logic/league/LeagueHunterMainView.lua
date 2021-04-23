@@ -532,7 +532,14 @@ function LeagueHunterMainView:getChallengeTimes()
 end
 
 function LeagueHunterMainView:updateTimeFunc()
-	local stepInfo   = LeagueDataMgr:getHuntingDungeonInfo().step
+	local huntingDungeonInfo = LeagueDataMgr:getHuntingDungeonInfo()
+	if not huntingDungeonInfo then
+		return
+	end
+	local stepInfo   = huntingDungeonInfo.step
+	if not stepInfo then
+		return
+	end
 	local nextTime   = stepInfo.nextTime
     local remainTime = math.max(0,nextTime - ServerDataMgr:getServerTime())
     local day, hour, min, sec = Utils:getTimeDHMZ(remainTime, true)
