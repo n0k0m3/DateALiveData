@@ -125,7 +125,8 @@ function SzdyView:initUI(ui)
 
 	self.Button_share = TFDirector:getChildByName(ui, "Button_share")
 	self.Button_share:onClick(function()
-		Utils:openView("activity.SzdyShareView", self.activityId)
+		--Utils:openView("activity.SzdyShareView", self.activityId)
+		ActivityDataMgr2:ReqShareComplete(self.activityId)
 	end)
 
 	self.Button_throw = TFDirector:getChildByName(ui, "Button_throw")
@@ -180,6 +181,8 @@ function SzdyView:registerEvents()
 	EventMgr:addEventListener(self,EV_SZQY_RESP_MAIN_DATA,handler(self.newRound, self))
 	EventMgr:addEventListener(self,EV_SZQY_RESP_STEP,handler(self.startStep, self))
 	EventMgr:addEventListener(self, EV_BAG_ITEM_UPDATE, handler(self.updateSaiziNum, self))
+	EventMgr:addEventListener(self, EV_ACTIVITY_SHARE_COMPLETE, handler(self.submitReward, self))
+	EventMgr:addEventListener(self, EV_ACTIVITY_SUBMIT_SUCCESS, handler(self.showReward, self))
 	EventMgr:addEventListener(self, EV_RECONECT_EVENT, function()
 		self:launch(true) 
 	end)
@@ -527,6 +530,28 @@ function SzdyView:updateSaiziNum()
 	self.Label_DiceNum:setText(GoodsDataMgr:getItemCount(self.costItemId))
 end
 
+
+function SzdyView:onShow( )
+	self.super.onShow(self)
+	local taskInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo.activityType, self.activityInfo.items[2])
+	if taskInfo.status == EC_TaskStatus.GETED then
+		self.Button_share:setTouchEnabled(false)
+		self.Button_share:setGrayEnabled(true)
+	end
+end
+
+function SzdyView:submitReward()
+	local taskInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo.activityType, self.activityInfo.items[2])
+	if taskInfo.status == EC_TaskStatus.GET then
+		ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId, self.activityInfo.items[2])
+	end
+end
+
+function SzdyView:showReward(activitId, entryid,rewards)
+	if self.activityId == activitId and rewards and #rewards > 1 then	
+		Utils:showReward(rewards)		
+	end
+end
 
 return SzdyView
 --endregion

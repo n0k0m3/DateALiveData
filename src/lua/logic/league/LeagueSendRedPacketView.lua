@@ -110,8 +110,8 @@ function LeagueSendRedPacketView:refreshView()
             end
             
         end
-        self.Image_packet_bg:setTexture("ui/league/ui_45.png")
-        self.Label_name:setTextById(270455)
+        self.Image_packet_bg:setTexture(bgTexture[self.packetType_])
+        self.Label_name:setTextById(nameId[self.packetType_])
 		self.Button_buy.res:hide()
    else	
 		local cfg = RechargeDataMgr:getOneRechargeCfg(packetCfg.rechargeID)

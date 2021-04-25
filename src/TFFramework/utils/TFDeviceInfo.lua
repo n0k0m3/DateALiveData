@@ -55,13 +55,12 @@ function TFDeviceInfo:getCurAppName()
 end
 
 function TFDeviceInfo:getCurAppVersion()
-
     if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then 
         return "1.0.0"
     end
 
     if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-        local ok,ret = TFLuaOcJava.callStaticMethod("HeitaoManager", "getAppVersion",nil,"()Ljava/lang/String;")
+        local ok,ret = TFLuaOcJava.callStaticMethod("sdkManager", "getAppVersion",nil,"()Ljava/lang/String;")
         return TFDeviceInfo.checkResult(ok,ret)
     else
         local ok,ret = TFLuaOcJava.callStaticMethod(TFDeviceInfo.CLASS_NAME, "getCurAppVersion",nil,"()Ljava/lang/String;")

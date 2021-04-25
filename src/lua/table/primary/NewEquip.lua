@@ -4116,7 +4116,7 @@ return {
         desTextId = 27062,
         cost = 4,
         pileUp = false,
-        illustratedJudge = false,
+        illustratedJudge = true,
         gridMax = 2,
         bagType = 13,
         nameTextId = 27061,
@@ -4133,7 +4133,7 @@ return {
             [500001] = 1,
         },
         endStar = 3,
-        display = false,
+        display = true,
         star = 1,
         accessId = {
             [1] = 74,

@@ -772,7 +772,7 @@ local t =
 										PositionX = -54,
 										PositionY = -72,
 									},
-									width = "56",
+									width = "55",
 									ZOrder = "1",
 									components = 
 									{
@@ -821,7 +821,7 @@ local t =
 												PositionY = 1,
 												relativeToName = "Panel",
 											},
-											width = "24",
+											width = "28",
 											ZOrder = "1",
 										},
 									},
@@ -918,7 +918,7 @@ local t =
 												PositionY = -1,
 												relativeToName = "Panel",
 											},
-											width = "24",
+											width = "28",
 											ZOrder = "1",
 										},
 									},
@@ -1056,7 +1056,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "分享奖励",
+									text = "签到奖励",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1102,7 +1102,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "245",
+									width = "215",
 									ZOrder = "1",
 								},
 								{
@@ -1111,16 +1111,16 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "59",
-									ignoreSize = "True",
+									height = "50",
+									ignoreSize = "False",
 									name = "Button_share",
-									normal = "ui/common/btn_share.png",
+									normal = "ui/common/button09.png",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1128,12 +1128,61 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 293,
+										PositionX = 283,
 										PositionY = 54,
 									},
 									UItype = "Button",
-									width = "59",
+									width = "90",
 									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_szdyView_1_Button_share_Panel_share_Panel_root_Panel-szdyView_Layer1_activity_Game",
+											UUID = "2603d042_6557_4ce4_941b_1dfc137731ca",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "20",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "23",
+											ignoreSize = "True",
+											name = "Label_szdyView_1",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "签  到",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												
+											},
+											width = "53",
+											ZOrder = "1",
+										},
+									},
 								},
 							},
 						},
@@ -1484,7 +1533,7 @@ local t =
 			"ui/activity/szdy/path/007.png",
 			"ui/common/img_touming.png",
 			"ui/activity/szdy/path/bg2.png",
-			"ui/common/btn_share.png",
+			"ui/common/button09.png",
 		},
 		armatures = 
 		{

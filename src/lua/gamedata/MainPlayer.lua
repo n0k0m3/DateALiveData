@@ -658,10 +658,11 @@ function MainPlayer:getSwitchByType(type)
 end
 
 function MainPlayer:checkScoreInfo()
-    if self.scoreInfo and not self.scoreInfo.asked then
-        self.scoreInfo.asked = true
-       Utils:openView("activity.Activity_touzhirenTip",self.scoreInfo)
-    end
+    --TODO CLOSE
+    -- if self.scoreInfo and not self.scoreInfo.asked then
+    --     self.scoreInfo.asked = true
+    --    Utils:openView("activity.Activity_touzhirenTip",self.scoreInfo)
+    -- end
 end
 
 function MainPlayer:getAssistId()

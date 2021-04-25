@@ -1,7 +1,7 @@
 local HeitaoSdk = {}
 
 if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-HeitaoSdk.classname         = "HeitaoManager"
+HeitaoSdk.classname         = "sdkManager"
 elseif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
 HeitaoSdk.classname         = "org/cocos2dx/TerransForce/HeitaoSdkManager"
 end

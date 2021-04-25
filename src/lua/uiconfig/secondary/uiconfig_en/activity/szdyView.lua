@@ -1103,7 +1103,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "245",
+									width = "215",
 									ZOrder = "1",
 								},
 								{
@@ -1112,16 +1112,16 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "59",
-									ignoreSize = "True",
+									height = "50",
+									ignoreSize = "False",
 									name = "Button_share",
-									normal = "ui/common/btn_share.png",
+									normal = "ui/common/button09.png",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1129,12 +1129,61 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 293,
+										PositionX = 281,
 										PositionY = 54,
 									},
 									UItype = "Button",
-									width = "59",
+									width = "90",
 									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_szdyView_1_Button_share_Panel_share_Panel_root_Panel-szdyView_Layer1_activity_Game",
+											UUID = "b8cc2336_aa88_480e_86d2_6a6b643f9949",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "22",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "25",
+											ignoreSize = "True",
+											name = "Label_szdyView_1",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "Sign-in",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												
+											},
+											width = "67",
+											ZOrder = "1",
+										},
+									},
 								},
 							},
 						},
@@ -1485,7 +1534,7 @@ local t =
 			"ui/activity/szdy/path/007.png",
 			"ui/common/img_touming.png",
 			"ui/activity/szdy/path/bg2.png",
-			"ui/common/btn_share.png",
+			"ui/common/button09.png",
 		},
 		armatures = 
 		{
