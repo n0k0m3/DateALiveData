@@ -6555,7 +6555,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 341,
+										PositionX = 410,
 										PositionY = 50,
 									},
 									width = "140",
@@ -6661,11 +6661,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 192,
+										PositionX = 232,
 										PositionY = 50,
 									},
 									UItype = "Button",
-									width = "130",
+									width = "199",
 									ZOrder = "1",
 									components = 
 									{
@@ -6735,7 +6735,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 62,
+												PositionX = 90,
 												PositionY = 24,
 											},
 											width = "30",
@@ -6981,7 +6981,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "80",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_qiyue_tips",
 											nTextAlign = "1",

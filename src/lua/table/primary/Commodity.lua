@@ -57980,7 +57980,7 @@ return {
             [570015] = 20,
         },
         showBeginTime = "",
-        openContVal = 99,
+        openContVal = 1,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",

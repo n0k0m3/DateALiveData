@@ -489,7 +489,7 @@ local t =
 										PositionX = 564,
 										PositionY = 168,
 									},
-									width = "103",
+									width = "105",
 									ZOrder = "1",
 								},
 								{
@@ -561,7 +561,7 @@ local t =
 										PositionX = 360,
 										PositionY = 106,
 									},
-									width = "222",
+									width = "232",
 									ZOrder = "1",
 								},
 								{
@@ -735,7 +735,7 @@ local t =
 											{
 												
 											},
-											width = "63",
+											width = "44",
 											ZOrder = "1",
 										},
 									},
@@ -940,7 +940,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 244,
-										PositionY = 86,
+										PositionY = 106,
 									},
 									width = "40",
 									ZOrder = "1",
@@ -951,11 +951,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "32",
-									ignoreSize = "True",
+									height = "56",
+									ignoreSize = "False",
 									name = "Image_type_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -966,7 +966,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 142,
-										PositionY = 44,
+										PositionY = 55,
 									},
 									width = "256",
 									ZOrder = "1",
@@ -997,8 +997,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_title",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1012,9 +1012,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 142,
-										PositionY = 44,
+										PositionY = 52,
 									},
-									width = "123",
+									width = "245",
 									ZOrder = "1",
 								},
 								{
@@ -1114,7 +1114,7 @@ local t =
 											{
 												PositionY = 72,
 											},
-											width = "69",
+											width = "61",
 											ZOrder = "1",
 										},
 									},

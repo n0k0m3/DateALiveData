@@ -602,7 +602,7 @@ end
 
 function LoginLayer.enterNextPage(sender)
 	if not TFGlobalUtils:canMigrationServerEnterGameServer() then
-		Utils:showError("选择的区域与服务器不一致")
+		Utils:showError(TextDataMgr:getText(190000830))
 		return 
 	end
 

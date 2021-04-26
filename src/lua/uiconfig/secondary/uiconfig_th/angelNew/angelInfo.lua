@@ -742,7 +742,7 @@ local t =
 													controlID = "Label_skill_name_Image_skill_bg_Panel_angelskill_info_Panel_right_Panel_base_Panel-angelInfo_angelInfo_angelNew_Game",
 													UUID = "3bf7954c_7396_4957_892c_8c8a821bc06e",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -778,7 +778,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -3,
+														PositionX = -80,
 														PositionY = 79,
 													},
 													width = "62",
@@ -1020,7 +1020,7 @@ local t =
 														PositionX = -1,
 														PositionY = 4,
 													},
-													width = "31",
+													width = "28",
 													ZOrder = "1",
 												},
 											},
@@ -1144,7 +1144,7 @@ local t =
 												PositionX = 334,
 												PositionY = 405,
 											},
-											width = "33",
+											width = "41",
 											ZOrder = "1",
 										},
 										{
@@ -1190,7 +1190,7 @@ local t =
 												PositionX = 347,
 												PositionY = 387,
 											},
-											width = "129",
+											width = "134",
 											ZOrder = "1",
 										},
 										{
@@ -2000,7 +2000,7 @@ local t =
 												PositionY = 425,
 											},
 											visible = "False",
-											width = "118",
+											width = "122",
 											ZOrder = "1",
 										},
 										{
@@ -2387,7 +2387,7 @@ local t =
 														PositionX = 65,
 														PositionY = -329,
 													},
-													width = "13",
+													width = "12",
 													ZOrder = "1",
 												},
 												{
@@ -2805,7 +2805,7 @@ local t =
 												PositionX = 20,
 												PositionY = -1,
 											},
-											width = "75",
+											width = "74",
 											ZOrder = "3",
 										},
 										{

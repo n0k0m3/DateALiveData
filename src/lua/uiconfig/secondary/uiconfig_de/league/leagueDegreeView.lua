@@ -170,7 +170,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -187,7 +187,7 @@ local t =
 										PositionX = -386,
 										PositionY = 231,
 									},
-									width = "107",
+									width = "219",
 									ZOrder = "1",
 								},
 								{
@@ -327,7 +327,7 @@ local t =
 									{
 										PositionY = 215,
 									},
-									width = "296",
+									width = "233",
 									ZOrder = "1",
 								},
 								{
@@ -444,7 +444,7 @@ local t =
 											{
 												
 											},
-											width = "47",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -523,7 +523,7 @@ local t =
 											{
 												
 											},
-											width = "47",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -602,7 +602,7 @@ local t =
 											{
 												
 											},
-											width = "47",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -681,7 +681,7 @@ local t =
 											{
 												
 											},
-											width = "47",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -728,7 +728,7 @@ local t =
 									{
 										PositionY = -201,
 									},
-									width = "91",
+									width = "150",
 									ZOrder = "1",
 								},
 							},
@@ -797,8 +797,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -812,8 +812,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -302,
+										PositionY = -5,
 									},
-									width = "83",
+									width = "158",
 									ZOrder = "1",
 								},
 								{
@@ -1087,7 +1088,7 @@ local t =
 												PositionX = -302,
 												PositionY = 24,
 											},
-											width = "91",
+											width = "138",
 											ZOrder = "1",
 										},
 										{
@@ -1133,7 +1134,7 @@ local t =
 												PositionX = -302,
 												PositionY = -22,
 											},
-											width = "91",
+											width = "96",
 											ZOrder = "1",
 										},
 										{
@@ -1179,7 +1180,7 @@ local t =
 												PositionX = -139,
 												PositionY = 24,
 											},
-											width = "47",
+											width = "81",
 											ZOrder = "1",
 										},
 										{
@@ -1225,7 +1226,7 @@ local t =
 												PositionX = 12,
 												PositionY = 24,
 											},
-											width = "69",
+											width = "117",
 											ZOrder = "1",
 										},
 										{
@@ -1271,7 +1272,7 @@ local t =
 												PositionX = 162,
 												PositionY = 24,
 											},
-											width = "47",
+											width = "44",
 											ZOrder = "1",
 										},
 										{
@@ -1317,7 +1318,7 @@ local t =
 												PositionX = 312,
 												PositionY = 24,
 											},
-											width = "48",
+											width = "73",
 											ZOrder = "1",
 										},
 										{
@@ -1363,7 +1364,7 @@ local t =
 												PositionX = -139,
 												PositionY = -22,
 											},
-											width = "23",
+											width = "30",
 											ZOrder = "1",
 										},
 										{
@@ -1409,7 +1410,7 @@ local t =
 												PositionX = 12,
 												PositionY = -22,
 											},
-											width = "32",
+											width = "31",
 											ZOrder = "1",
 										},
 										{
@@ -1455,7 +1456,7 @@ local t =
 												PositionX = 162,
 												PositionY = -22,
 											},
-											width = "37",
+											width = "40",
 											ZOrder = "1",
 										},
 										{
@@ -1501,7 +1502,7 @@ local t =
 												PositionX = 312,
 												PositionY = -22,
 											},
-											width = "24",
+											width = "23",
 											ZOrder = "1",
 										},
 									},

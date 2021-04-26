@@ -328,7 +328,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -339,7 +339,7 @@ local t =
 											ignoreSize = "False",
 											name = "Label_supply_title",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -350,7 +350,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 263,
-												PositionY = 542,
+												PositionY = 546,
 											},
 											width = "500",
 											ZOrder = "1",
@@ -671,11 +671,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 446,
+												PositionX = 423,
 												PositionY = 42,
 											},
 											UItype = "Button",
-											width = "130",
+											width = "173",
 											ZOrder = "1",
 											components = 
 											{
@@ -699,7 +699,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "13",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -722,7 +722,7 @@ local t =
 													{
 														
 													},
-													width = "123",
+													width = "160",
 													ZOrder = "1",
 												},
 											},

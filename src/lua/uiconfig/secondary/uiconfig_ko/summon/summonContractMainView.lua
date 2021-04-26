@@ -434,7 +434,7 @@ local t =
 										PositionY = -1,
 									},
 									visible = "False",
-									width = "78",
+									width = "76",
 									ZOrder = "1",
 								},
 								{
@@ -526,7 +526,7 @@ local t =
 										PositionY = -16,
 									},
 									visible = "False",
-									width = "193",
+									width = "199",
 									ZOrder = "1",
 								},
 								{
@@ -572,7 +572,7 @@ local t =
 										PositionX = -164,
 										PositionY = 21,
 									},
-									width = "21",
+									width = "25",
 									ZOrder = "1",
 									components = 
 									{
@@ -620,7 +620,7 @@ local t =
 												PositionX = 8,
 												PositionY = -36,
 											},
-											width = "43",
+											width = "42",
 											ZOrder = "1",
 										},
 									},
@@ -696,7 +696,7 @@ local t =
 										PositionX = -120,
 										PositionY = 57,
 									},
-									width = "46",
+									width = "42",
 									ZOrder = "1",
 								},
 							},
@@ -707,14 +707,14 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEButton",
 							ClickHighLightEnabled = "True",
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
 							height = "58",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Button_build",
 							normal = "ui/summon/elf_contract/new_1/002.png",
 							sizepercentx = "0",
@@ -724,11 +724,11 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 470,
+								PositionX = 457,
 								PositionY = -280,
 							},
 							UItype = "Button",
-							width = "134",
+							width = "191",
 							ZOrder = "1",
 							components = 
 							{
@@ -800,7 +800,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -31,
+										PositionX = -66,
 									},
 									width = "64",
 									ZOrder = "1",
@@ -811,6 +811,7 @@ local t =
 									classname = "MESpine",
 									dstBlendFunc = "771",
 									name = "spine_effect",
+									scaleX = "1.3",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -857,10 +858,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 472,
+								PositionX = 452,
 								PositionY = -252,
 							},
-							width = "169",
+							width = "207",
 							ZOrder = "1",
 							components = 
 							{
@@ -1279,7 +1280,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 323,
+								PositionX = 275,
 								PositionY = -280,
 							},
 							UItype = "Button",

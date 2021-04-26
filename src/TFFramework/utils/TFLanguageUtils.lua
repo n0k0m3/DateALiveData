@@ -63,14 +63,15 @@ end
 --当前使用语言是否可用
 function TFLanguageMgr:languageEnable( language )
 	local list = self:getLanguages()
-	local idx = table.find(list, language)
-	if idx ~= -1 then
+	if table.find(list, language) ~= -1 then
 		return true, language
 	end
-	if TFGlobalUtils:isConnectKoreaTwServer() then
-		return false, cc.KOREAN
+
+	local deviceLanguage = TFLanguageMgr:getCurrentLanguage() or cc.ENGLISH
+	if table.find(list, deviceLanguage) ~= -1 then
+		return false, deviceLanguage
 	end
-	return false, cc.ENGLISH
+	return false, list[1]
 end
 
 function TFLanguageMgr:getCurrentLanguage( )

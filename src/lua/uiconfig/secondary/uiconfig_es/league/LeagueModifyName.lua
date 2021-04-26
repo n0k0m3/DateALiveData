@@ -236,7 +236,7 @@ local t =
 											{
 												
 											},
-											width = "206",
+											width = "197",
 											ZOrder = "1",
 										},
 									},
@@ -276,7 +276,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "请输入新的社团名称",
+									text = "Please enter a new club name",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -285,7 +285,7 @@ local t =
 										IsPercent = true,
 										PercentY = 21.87,
 									},
-									width = "237",
+									width = "308",
 									ZOrder = "1",
 								},
 								{
@@ -409,7 +409,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "120",
+											width = "121",
 											ZOrder = "1",
 										},
 									},
@@ -449,7 +449,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "修改名称 ",
+									text = "Rename",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -457,7 +457,7 @@ local t =
 										PositionX = -249,
 										PositionY = 130,
 									},
-									width = "114",
+									width = "121",
 									ZOrder = "1",
 								},
 								{
@@ -504,7 +504,7 @@ local t =
 										PositionY = 128,
 									},
 									visible = "False",
-									width = "116",
+									width = "114",
 									ZOrder = "1",
 								},
 								{

@@ -40,10 +40,6 @@ function ServerDataMgr:init()
                         serverId = 660,
                         serverName= "yuxie",
                     },
-                    {
-                        serverId = 651,
-                        serverName= "liuwei",
-                    },
                 },
                 groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
             },
@@ -57,10 +53,6 @@ function ServerDataMgr:init()
                         serverId = 260,
                         serverName= "yuxie",
                     },
-                    {
-                        serverId = 251,
-                        serverName= "liuwei",
-                    },
                 },
                 groupType = GLOBAL_SERVER_LIST.SERVER_ENGLISH
             },
@@ -70,10 +62,6 @@ function ServerDataMgr:init()
                 groupName = "程序自用分组_韩台",
                 serverGroup = "chengxu",
                 list ={
-                    {
-                        serverId = 761,
-                        serverName= "hujutao",
-                    },
                     {
                         serverId = 760,
                         serverName= "yuxie",
@@ -97,7 +85,7 @@ function ServerDataMgr:init()
                 groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
             },
             {
-                -- 英文策划服(暂时用小语种)
+                -- 英文策划服
                 id = 100008,
                 group_id = 888,
                 groupName = "策划_eng",
@@ -111,40 +99,23 @@ function ServerDataMgr:init()
                 },
                 groupType = GLOBAL_SERVER_LIST.SERVER_ENGLISH
             },
+            {
+                --韩台策划服
+                id = 100009,
+                group_id = 86,
+                groupName = "策划_ht",
+                serverGroup = "cehua",
+                list ={
+                    {
+                        url = {
+                            [1] = "http://148.153.156.103:7070/account/login"
+                        }
+                    },
+                },
+                groupType = GLOBAL_SERVER_LIST.SERVER_KOREA_TW
+            },
         }
     else
-        --TODO
-        -- self.server_ = {
-        --     {   
-        --         -- 小语种策划服
-        --         id = 200001,
-        --         group_id = 888,
-        --         groupName = "minlang_cehua",
-        --         serverGroup = "cehua",
-        --         list ={
-        --             {
-        --                 serverId = 888001,
-        --                 serverName= ""
-        --             },
-        --         },
-        --         groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
-        --     },
-        --     {
-        --         -- 英文策划服(暂时用小语种)
-        --         id = 200002,
-        --         group_id = 888,
-        --         groupName = "eng_cehua",
-        --         serverGroup = "cehua",
-        --         list ={
-        --             {
-        --                 serverId = 888001,
-        --                 serverName= ""
-        --             },
-        --         },
-        --         groupType = GLOBAL_SERVER_LIST.SERVER_ENGLISH
-        --     }
-        -- }
-        
         self.server_ = {
             {
                 -- 英文正式服
@@ -163,7 +134,7 @@ function ServerDataMgr:init()
                 groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
             },
             {   
-                -- 小语种正式服
+                -- 新韩台正式服
                 id = 200005,
                 group_id = 32,
                 groupName = "Server III",

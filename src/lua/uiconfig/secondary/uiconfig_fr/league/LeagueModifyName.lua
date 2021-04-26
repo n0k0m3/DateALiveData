@@ -105,8 +105,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 480,
-								PositionY = 320,
+								PositionX = 510,
+								PositionY = 334,
 								IsPercent = true,
 								PercentX = 50,
 								PercentY = 50,
@@ -236,7 +236,7 @@ local t =
 											{
 												
 											},
-											width = "227",
+											width = "219",
 											ZOrder = "1",
 										},
 									},
@@ -276,7 +276,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "请输入新的社团名称",
+									text = "Please enter a new club name",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -285,14 +285,14 @@ local t =
 										IsPercent = true,
 										PercentY = 21.87,
 									},
-									width = "237",
+									width = "308",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_notes_Image_bg_Panel_base_Panel-LeagueModifyName_Layer1_league_Game",
 									UUID = "33b2423d_a046_4276_b43d_3acb7ff660ef",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -314,7 +314,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_notes",
 									nTextAlign = "1",
@@ -323,14 +323,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
+									text = "It cannot exceed 16 characters",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 154,
+										PositionX = 241,
 										PositionY = -39,
 									},
-									width = "0",
+									width = "221",
 									ZOrder = "1",
 								},
 								{
@@ -450,7 +451,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "修改名称 ",
+									text = "Rename",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -458,7 +459,7 @@ local t =
 										PositionX = -249,
 										PositionY = 130,
 									},
-									width = "114",
+									width = "121",
 									ZOrder = "1",
 								},
 								{
@@ -505,7 +506,7 @@ local t =
 										PositionY = 128,
 									},
 									visible = "False",
-									width = "120",
+									width = "118",
 									ZOrder = "1",
 								},
 								{

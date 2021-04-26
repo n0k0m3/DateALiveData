@@ -410,7 +410,7 @@ local t =
 													{
 														PositionX = -48,
 													},
-													width = "134",
+													width = "135",
 													ZOrder = "1",
 													components = 
 													{
@@ -698,11 +698,13 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "21",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_tips",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													scaleX = "0.8",
+													scaleY = "0.8",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -715,7 +717,7 @@ local t =
 														PositionX = -57,
 														PositionY = 7,
 													},
-													width = "75",
+													width = "98",
 													ZOrder = "1",
 												},
 												{
@@ -759,9 +761,9 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -62,
-														PositionY = -13,
+														PositionY = -15,
 													},
-													width = "23",
+													width = "27",
 													ZOrder = "1",
 												},
 												{
@@ -807,7 +809,7 @@ local t =
 														PositionX = 54,
 														PositionY = 9,
 													},
-													width = "66",
+													width = "69",
 													ZOrder = "1",
 													components = 
 													{
@@ -881,7 +883,7 @@ local t =
 														PositionX = 57,
 														PositionY = -15,
 													},
-													width = "33",
+													width = "27",
 													ZOrder = "1",
 													components = 
 													{
@@ -928,7 +930,7 @@ local t =
 															{
 																PositionX = -1,
 															},
-															width = "18",
+															width = "22",
 															ZOrder = "1",
 														},
 													},

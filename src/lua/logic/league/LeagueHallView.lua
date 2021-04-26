@@ -703,7 +703,7 @@ function LeagueHallView:refreshPanelInfos()
 
     local degree = LeagueDataMgr:getSelfDegree()
     self.Button_edit_notice:setVisible(LeagueDataMgr:checkDegreeOwnPermission(degree, EC_UNION_PERMISSION_Type.EDIT))
-    self.Button_modify_name:setVisible(degree == EC_UNION_DEGREE_Type.HEAD)
+    self.Button_modify_name:setVisible((degree == EC_UNION_DEGREE_Type.HEAD) and GlobalFuncDataMgr:isOpen(16))
 
     self.panel_country_info:getChildByName("bgPanel"):setTouchEnabled(degree == EC_UNION_DEGREE_Type.HEAD)
 
@@ -906,7 +906,7 @@ function LeagueHallView:refreshPanelSetting()
     self.Button_edit:setVisible(LeagueDataMgr:checkDegreeOwnPermission(degree, EC_UNION_PERMISSION_Type.EDIT))
     self.Button_change_flag:setVisible(LeagueDataMgr:checkDegreeOwnPermission(degree, EC_UNION_PERMISSION_Type.CHANGE_FLAG))
     self.Button_disband:setVisible(degree == EC_UNION_DEGREE_Type.HEAD)
-    self.Button_modify:setVisible(degree == EC_UNION_DEGREE_Type.HEAD)
+    self.Button_modify:setVisible((degree == EC_UNION_DEGREE_Type.HEAD) and GlobalFuncDataMgr:isOpen(16))
     self.panel_country_setting:getChildByName("bgPanel"):setTouchEnabled(degree == EC_UNION_DEGREE_Type.HEAD)
 
     self.Button_quit:setVisible(degree > EC_UNION_DEGREE_Type.HEAD)

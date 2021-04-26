@@ -113,11 +113,11 @@ if DEBUG_PACKAGE then
         URL_LOGIN_KOREA_TW[1] = "http://192.168.20.36:9080/account/login"
     else
         if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-            URL_LOGIN_KOREA_TW[1] = "https://148.153.75.131:7070/account/login"
-            URL_LOGIN_KOREA_TW[2] = "https://148.153.75.131:7070/account/login"
+            URL_LOGIN_KOREA_TW[1] = "https://148.153.156.103:7070/account/login"
+            URL_LOGIN_KOREA_TW[2] = "https://148.153.156.103:7070/account/login"
         else
-            URL_LOGIN_KOREA_TW[1] = "http://148.153.75.131:7070/account/login"
-            URL_LOGIN_KOREA_TW[2] = "http://148.153.75.131:7070/account/login"
+            URL_LOGIN_KOREA_TW[1] = "http://148.153.156.103:7070/account/login"
+            URL_LOGIN_KOREA_TW[2] = "http://148.153.156.103:7070/account/login"
         end
     end
 else
@@ -161,9 +161,9 @@ if DEBUG_PACKAGE then
             URL_LOGIN_QUERYDATE = "http://148.153.75.131:7070/account/querydate"
         else 
             if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-                URL_LOGIN_QUERYDATE = "https://148.153.75.131:7070/account/querydate"
+                URL_LOGIN_QUERYDATE = "https://148.153.156.103:7070/account/querydate"
             else
-                URL_LOGIN_QUERYDATE = "http://148.153.75.131:7070/account/querydate"
+                URL_LOGIN_QUERYDATE = "http://148.153.156.103:7070/account/querydate"
             end
         end
     end

@@ -25,6 +25,7 @@ function TeamPveMainView:onShow()
             FunctionDataMgr:jStartDating(datingId)
         end
     end
+    self:initLive2d()
 end
 
 function TeamPveMainView:initUI(ui)
@@ -40,13 +41,23 @@ function TeamPveMainView:initUI(ui)
     --self.ListView_Dungeon:setItemsMargin(10)
 
     EventMgr:dispatchEvent(EV_HIDE_MAIN_LIVE2D)
-    self:initLive2d()
+    --self:initLive2d()
 
     self:updateDungeonList()
 
 end
 
 function TeamPveMainView:initLive2d()
+
+    if self.elvesRole then
+        self.elvesRole:stopAllActions()
+        self.elvesRole:removeFromParent()
+        self.elvesRole = nil
+
+        if self.timeOutTimer or self.timeOutTimer_1 then
+            self:stopAllActions()
+        end
+    end
 
     self.elvesRole = ElvesNpcTable:createLive2dNpcID(self.modelId,false,false,nil,false).live2d
     self.elvesRole.touchNode.isCloseTouchFollow = true
@@ -71,7 +82,7 @@ function TeamPveMainView:initLive2d()
         local secondActIndex = math.random(1,#config.action)
         local secondTime = config.timeRandom[secondTimeIndex]
         local actionName2 = config.action[secondActIndex]
-        self:timeOut(function()
+        self.timeOutTimer_1 = self:timeOut(function()
             if self.elvesRole then
                 local currentScene = Public:currentScene()
                 if currentScene then
@@ -80,15 +91,18 @@ function TeamPveMainView:initLive2d()
                     end
                 end
             end
+            self.timeOutTimer_1 = nil
             circleFunc( )
         end,secondTime)
     end
-    self:timeOut(function()
+    self.timeOutTimer =  self:timeOut(function()
         if self.elvesRole then
             self.elvesRole:newStartAction(actionName,EC_PRIORITY.FORCE)
         end
         circleFunc()
+        self.timeOutTimer = nil
     end,firstTime)
+
 end
 
 function TeamPveMainView:updateDungeonList()

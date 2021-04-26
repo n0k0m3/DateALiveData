@@ -16,6 +16,7 @@ function CollectMainView:initUI(ui)
 	self.collector_panel = root_panel:getChildByName("Panel_enter_collector")
 	self.collector_panel.Button_CheckReward = self.collector_panel:getChildByName("Button_CheckReward")
 	self.collector_panel.Button_CheckReward.Image_ExistReward = self.collector_panel.Button_CheckReward:getChildByName("Image_ExistReward")
+	self.collector_panel.Button_CheckReward:setVisible(GlobalFuncDataMgr:isOpen(17))
 
 	self.sprite_panel = root_panel:getChildByName("Panel_enter_sprite")
 	self.equip_panel = root_panel:getChildByName("Panel_enter_equip")
