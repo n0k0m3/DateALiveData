@@ -15,8 +15,8 @@
 			"Idle": [
 				{
 					"File": "motions/idle.motion3.json",
-					"FadeInTime": 0.1,
-					"FadeOutTime": 0.1
+					"FadeInTime": 0.101,
+					"FadeOutTime": 0.101
 				}
 			],
 			"Id_favor1_1": [

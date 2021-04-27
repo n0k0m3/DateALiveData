@@ -27,6 +27,9 @@ function LanguageResMgr:getData()
     return self.languageResTable
 end
 
+function LanguageResMgr:changeGameLanguage()
+    self:init()
+end
 
 
 return LanguageResMgr:new()

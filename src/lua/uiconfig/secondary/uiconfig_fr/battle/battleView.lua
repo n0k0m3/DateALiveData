@@ -1873,7 +1873,7 @@ local t =
 														StrokeColor = "#FF444444",
 														StrokeSize = 1,
 													},
-													height = "19",
+													height = "18",
 													ignoreSize = "True",
 													name = "Label_super_sp",
 													nTextAlign = "1",
@@ -6697,7 +6697,6 @@ local t =
 												PositionX = 95,
 												PositionY = 13,
 											},
-											visible = "False",
 											width = "192",
 											ZOrder = "1",
 											components = 
@@ -6828,7 +6827,6 @@ local t =
 												PositionX = -3,
 												PositionY = -30,
 											},
-											visible = "False",
 											width = "193",
 											ZOrder = "1",
 											components = 
@@ -7038,7 +7036,6 @@ local t =
 												PositionX = -3,
 												PositionY = -30,
 											},
-											visible = "False",
 											width = "194",
 											ZOrder = "1",
 											components = 

@@ -197,4 +197,8 @@ function TextDataMgr:reset()
 
 end
 
+function TextDataMgr:changeGameLanguage()
+    self:init()
+end
+
 return TextDataMgr:new()

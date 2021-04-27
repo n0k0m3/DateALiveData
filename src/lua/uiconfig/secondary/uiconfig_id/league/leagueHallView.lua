@@ -1443,7 +1443,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1000",
 							ZOrder = "1",
 							components = 
@@ -1676,11 +1675,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 628,
+										PositionX = 541,
 										PositionY = 47,
 									},
 									UItype = "Button",
-									width = "120",
+									width = "133",
 									ZOrder = "1",
 									components = 
 									{
@@ -1704,14 +1703,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "18",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_delate",
 											nTextAlign = "1",
@@ -1727,7 +1726,7 @@ local t =
 											{
 												
 											},
-											width = "98",
+											width = "119",
 											ZOrder = "1",
 										},
 									},
@@ -1755,11 +1754,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 764,
+										PositionX = 701,
 										PositionY = 47,
 									},
 									UItype = "Button",
-									width = "120",
+									width = "175",
 									ZOrder = "1",
 									components = 
 									{
@@ -1783,15 +1782,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "23",
+											ignoreSize = "True",
 											name = "Label_aply",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1806,7 +1805,7 @@ local t =
 											{
 												PositionX = -1,
 											},
-											width = "120",
+											width = "169",
 											ZOrder = "1",
 										},
 										{
@@ -1861,11 +1860,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 904,
+										PositionX = 878,
 										PositionY = 47,
 									},
 									UItype = "Button",
-									width = "120",
+									width = "162",
 									ZOrder = "1",
 									components = 
 									{
@@ -1889,15 +1888,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "23",
+											ignoreSize = "True",
 											name = "Label_degree",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1912,7 +1911,7 @@ local t =
 											{
 												
 											},
-											width = "120",
+											width = "150",
 											ZOrder = "1",
 										},
 									},
@@ -1949,7 +1948,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "160",
+									width = "200",
 									ZOrder = "1",
 									components = 
 									{
@@ -1960,11 +1959,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "159",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_bg1",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -1977,7 +1976,7 @@ local t =
 												PositionX = 80,
 												PositionY = 90,
 											},
-											width = "132",
+											width = "200",
 											ZOrder = "1",
 										},
 										{
@@ -1986,14 +1985,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
 											height = "38",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_detail",
 											normal = "ui/league/ui_03.png",
 											sizepercentx = "0",
@@ -2007,7 +2006,7 @@ local t =
 												PositionY = 142,
 											},
 											UItype = "Button",
-											width = "116",
+											width = "180",
 											ZOrder = "1",
 											components = 
 											{
@@ -2065,14 +2064,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
 											height = "38",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_appoint",
 											normal = "ui/league/ui_03.png",
 											sizepercentx = "0",
@@ -2086,7 +2085,7 @@ local t =
 												PositionY = 92,
 											},
 											UItype = "Button",
-											width = "116",
+											width = "180",
 											ZOrder = "1",
 											components = 
 											{
@@ -2144,14 +2143,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
 											height = "38",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_kick",
 											normal = "ui/league/ui_03.png",
 											sizepercentx = "0",
@@ -2165,7 +2164,7 @@ local t =
 												PositionY = 42,
 											},
 											UItype = "Button",
-											width = "116",
+											width = "180",
 											ZOrder = "1",
 											components = 
 											{
@@ -2299,6 +2298,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1030",
 							ZOrder = "1",
 							components = 

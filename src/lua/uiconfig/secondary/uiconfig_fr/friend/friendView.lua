@@ -2874,7 +2874,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -2895,9 +2895,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -23,
+												PositionY = -33,
 											},
-											width = "400",
+											width = "492",
 											ZOrder = "1",
 										},
 										{
@@ -2964,7 +2964,7 @@ local t =
 											controlID = "Label_inviteTip_Panel_inviteOpen_Panel_invite_Panel_root_Panel-friendView_Layer1_friend_Game",
 											UUID = "b94924fd_7b5c_4d9f_a662_fbf1df4d2e98",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -3000,7 +3000,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 196,
+												PositionX = 267,
 												PositionY = -64,
 											},
 											width = "86",

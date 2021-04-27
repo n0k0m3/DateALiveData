@@ -39,6 +39,7 @@ rawset(TFImage, "setTexture", function ( self ,texturePath, ... )
 		_setTexture_en(self, texturePath , ...)
 		return
 	end
+
 	local code = TFLanguageMgr:getUsingLanguageCode("_")
 	if code ~= "" and texturePath~= "" then
 
@@ -47,6 +48,7 @@ rawset(TFImage, "setTexture", function ( self ,texturePath, ... )
 		if LanguageResMgr ~= nil then
 			local pitctureData = LanguageResMgr:getData()
 			if pitctureData[texturePath] then
+				print("texturePath>>>>>>>> " ..tostring(pitctureData[texturePath]))
 				_setTexture_en(self,pitctureData[texturePath] , ...)
 			else
 				_setTexture_en(self, texturePath,...)
@@ -55,6 +57,7 @@ rawset(TFImage, "setTexture", function ( self ,texturePath, ... )
 			local textureName = string.gsub(texturePath , "%." ,code..".")
 			if TFFileUtil:existFile(textureName) then
 				_setTexture_en(self, textureName , ...)
+				print("texturePath>>>>>>>> " ..tostring(textureName))
 			else
 				_setTexture_en(self, texturePath,...)
 			end

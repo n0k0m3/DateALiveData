@@ -162,13 +162,13 @@ function SummonContractMainView:updateContractState()
     --self.Label_num:setText(cfg.ShowMultiple)
     self.Label_num:setTextById(cfg.ShowMultiple)
 
-    self.Label_build:setTextById(1325305,cfg.Price)
+    --self.Label_build:setTextById(1325305,cfg.Price)  --英文版换代币描述
     if canBuy then
         self.lab_tip:setTextById(1325314)
     else
         self.lab_tip:setTextById(1325308)
     end
-    self.Label_num:setText(cfg.ShowMultiple)
+    --self.Label_num:setText(cfg.ShowMultiple)  --英文版换id读取
     local lastStageBuy = false
 
     if self.contractInfo.actIndentures and #self.contractInfo.actIndentures > 0  then

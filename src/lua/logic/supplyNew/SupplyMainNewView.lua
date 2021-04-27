@@ -319,6 +319,11 @@ function SupplyMainNewView:getCurTopCanShowData()
                     table.remove(data, k)
                 end
             end
+            --屏蔽代币礼包英文版
+            if (v.id == 2) then
+                    table.remove(data, k)
+            end
+
         end
 
         return data

@@ -312,7 +312,7 @@
 						"Id": "PARAM_ribbon3_3"
 					},
 					"VertexIndex": 3,
-					"Scale": 1,
+					"Scale": 0.6,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -323,7 +323,7 @@
 						"Id": "PARAM_ribbon3_4"
 					},
 					"VertexIndex": 4,
-					"Scale": 1,
+					"Scale": 0.5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -431,7 +431,7 @@
 						"Y": 40
 					},
 					"Mobility": 0.95,
-					"Delay": 1,
+					"Delay": 0.85,
 					"Acceleration": 1,
 					"Radius": 10
 				}

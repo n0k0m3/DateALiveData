@@ -4940,7 +4940,7 @@ local t =
 											controlID = "label_totalDiamond_cell_total_img_di_panel_cell_Panel-rechargeMainNew_Layer1_recharge_Game",
 											UUID = "c3401001_f3a8_4e49_8ec1_78c8f7d7cd4c",
 											anchorPoint = "False",
-											anchorPointX = "0",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -4976,7 +4976,6 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -1,
 												PositionY = 145,
 												LeftPositon = 130,
 												TopPosition = 61,
@@ -5025,8 +5024,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -110,
-												PositionY = 146,
+												PositionX = 7,
+												PositionY = 143,
 												LeftPositon = 169,
 												TopPosition = 65,
 												relativeToName = "panel_totalCell",

@@ -18912,7 +18912,7 @@ return {
         },
         startDate = {
         },
-        jumpInterface = 0,
+        jumpInterface = 801,
         icon = "",
         completeResult = 2,
         playerLevel = {

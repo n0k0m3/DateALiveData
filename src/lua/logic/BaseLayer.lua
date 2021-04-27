@@ -269,6 +269,7 @@ function BaseLayer:initUI(ui)
         end
     end
 
+
     self:ResolutionAdaptation()
 end
 

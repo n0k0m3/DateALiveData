@@ -110,8 +110,8 @@ function FunctionDataMgr:initFuncList()
         [500] = self.jWarStore,             --夏拉姆商店跳转
         [501] = self.jBagAndShowGemDecose,             --打开背包并且打开宝石分解界面
         -- [200] = self.jRechargeArray,
-        --[305] = self.jNewGuyGiftBag,    --萌新礼包弹窗
-        --[306] = self.jHundredLoginView,  ---百日活动礼包
+        [800] = self.jNewGuyGiftBag,    --萌新礼包弹窗  --英文版新增
+        [801] = self.jHundredLoginView,  ---百日活动礼包  --英文版新增
     }
     local tempFunc = {}
     for k, v in pairs(self.funcList_) do

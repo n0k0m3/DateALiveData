@@ -494,7 +494,7 @@ return {
             y = 230,
             x = 70,
         },
-        rolePath = "modle/citymodle/city_104161/city_10416",
+        rolePath = "modle/citymodle/city_10416/city_10416",
         roleType = 1,
         rolePath2 = "modle/citymodle/city_410404",
         role = "",

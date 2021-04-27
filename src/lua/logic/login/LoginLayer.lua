@@ -359,6 +359,13 @@ function LoginLayer:loginAccountSuccess()
 	   -- showGameAlert(alertparams)
     --     return
     -- end
+
+    if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+    	local curScene = Public:currentScene()
+        if curScene  and curScene.changeGameLanguage then
+            curScene:changeGameLanguage()
+        end
+    end
 	
 	if CC_TARGET_PLATFORM ~= CC_PLATFORM_WIN32 then
 		if not LogonHelper:isVerification() then

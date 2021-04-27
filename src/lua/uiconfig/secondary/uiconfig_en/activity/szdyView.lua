@@ -950,8 +950,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -41,
-								PositionY = -291,
+								PositionX = -114,
 								LeftPositon = 455,
 								TopPosition = 638,
 								relativeToName = "Panel",
@@ -1347,14 +1346,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_pray1",
 											nTextAlign = "1",
@@ -1371,7 +1370,7 @@ local t =
 												PositionX = 10,
 												PositionY = 56,
 											},
-											width = "338",
+											width = "281",
 											ZOrder = "1",
 										},
 										{
@@ -1393,14 +1392,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_pray2",
 											nTextAlign = "1",
@@ -1417,7 +1416,7 @@ local t =
 												PositionX = 11,
 												PositionY = 7,
 											},
-											width = "259",
+											width = "215",
 											ZOrder = "1",
 										},
 										{
@@ -1439,14 +1438,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_pray3",
 											nTextAlign = "1",
@@ -1463,7 +1462,7 @@ local t =
 												PositionX = 12,
 												PositionY = -42,
 											},
-											width = "408",
+											width = "339",
 											ZOrder = "1",
 										},
 									},

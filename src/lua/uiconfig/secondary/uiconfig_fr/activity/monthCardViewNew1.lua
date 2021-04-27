@@ -4444,7 +4444,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "158",
+							height = "200",
 							ignoreSize = "False",
 							name = "Panel_giftItem1",
 							sizepercentx = "0",
@@ -4476,8 +4476,8 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "30",
-									ignoreSize = "True",
+									height = "45",
+									ignoreSize = "False",
 									name = "imgTop",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -4488,7 +4488,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 1,
-										PositionY = 60,
+										PositionY = 79,
 									},
 									width = "418",
 									ZOrder = "1",
@@ -4502,8 +4502,8 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "124",
-									ignoreSize = "True",
+									height = "163",
+									ignoreSize = "False",
 									name = "Image_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -4514,7 +4514,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 1,
-										PositionY = -15,
+										PositionY = -23,
 									},
 									width = "418",
 									ZOrder = "1",
@@ -4559,8 +4559,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -171,
-										PositionY = 66,
+										PositionX = -168,
+										PositionY = 80,
 									},
 									width = "41",
 									ZOrder = "1",
@@ -4592,8 +4592,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -200,
-										PositionY = -59,
+										PositionX = -199,
+										PositionY = -49,
 									},
 									uipanelviewmodel = 
 									{
@@ -4622,15 +4622,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "12",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "14",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_buystr",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -4643,10 +4643,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 103,
-										PositionY = 61,
+										PositionX = 118,
+										PositionY = 94,
 									},
-									width = "103",
+									width = "75",
 									ZOrder = "1",
 								},
 								{
@@ -4668,14 +4668,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "18",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_buyCount",
 									nTextAlign = "1",
@@ -4689,17 +4689,17 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 103,
-										PositionY = 60,
+										PositionX = 107,
+										PositionY = 80,
 									},
-									width = "11",
+									width = "12",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_revert_Panel_giftItem1_Panel_prefab_Panel-monthCardViewNew1_Layer1_activity_Game",
 									UUID = "2ad02240_2902_4e8d_8fb0_2f692dea0052",
 									anchorPoint = "False",
-									anchorPointX = "1",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -4735,8 +4735,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 78,
-										PositionY = 53,
+										PositionX = -205,
+										PositionY = 48,
 									},
 									width = "74",
 									ZOrder = "1",
@@ -4766,8 +4766,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 146,
-										PositionY = -13,
+										PositionX = 138,
+										PositionY = -14,
 									},
 									uipanelviewmodel = 
 									{
@@ -4965,7 +4965,7 @@ local t =
 									UUID = "c2861440_0a83_4b4f_a498_96f627bb722e",
 									anchorPoint = "False",
 									anchorPointX = "1",
-									anchorPointY = "0.5",
+									anchorPointY = "0",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
@@ -4979,7 +4979,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "12",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = true,
@@ -4989,21 +4989,23 @@ local t =
 									height = "0",
 									ignoreSize = "False",
 									name = "label_time_limit",
-									nTextAlign = "1",
+									nTextAlign = "2",
 									nTextHAlign = "2",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "TextLable",
+									text = "TextLableTextLableTextLableTextLableTextLableTextLableTextLableTextLableTextLable",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 207,
-										PositionY = -64,
+										PositionX = 205,
+										PositionY = -98,
 									},
-									width = "414",
+									width = "513",
 									ZOrder = "1",
 								},
 							},
@@ -5018,12 +5020,12 @@ local t =
 							bgColorOpacity = "50",
 							bIsOpenClipping = "False",
 							classname = "MEPanel",
-							colorType = "0;SingleColor:#FFFF0000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							colorType = "1;SingleColor:#FFFF0000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 							DesignHeight = "640",
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "158",
+							height = "200",
 							ignoreSize = "False",
 							name = "Panel_giftItem2",
 							sizepercentx = "0",
@@ -5055,8 +5057,8 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "30",
-									ignoreSize = "True",
+									height = "45",
+									ignoreSize = "False",
 									name = "Image_monthCardViewNew1_1",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -5067,7 +5069,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 1,
-										PositionY = 59,
+										PositionY = 79,
 									},
 									width = "418",
 									ZOrder = "1",
@@ -5078,11 +5080,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "124",
-									ignoreSize = "True",
+									height = "163",
+									ignoreSize = "False",
 									name = "Image_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -5093,7 +5095,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 1,
-										PositionY = -14,
+										PositionY = -23,
 									},
 									width = "418",
 									ZOrder = "1",
@@ -5138,8 +5140,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -172,
-										PositionY = 66,
+										PositionX = -168,
+										PositionY = 80,
 									},
 									width = "41",
 									ZOrder = "1",
@@ -5171,8 +5173,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -201,
-										PositionY = -59,
+										PositionX = -200,
+										PositionY = -47,
 									},
 									uipanelviewmodel = 
 									{
@@ -5201,15 +5203,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "12",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "14",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_buystr",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -5222,10 +5224,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 103,
-										PositionY = 62,
+										PositionX = 118,
+										PositionY = 94,
 									},
-									width = "103",
+									width = "75",
 									ZOrder = "1",
 								},
 								{
@@ -5247,14 +5249,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "18",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_buyCount",
 									nTextAlign = "1",
@@ -5268,17 +5270,17 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 104,
-										PositionY = 60,
+										PositionX = 107,
+										PositionY = 80,
 									},
-									width = "11",
+									width = "12",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_revert_Panel_giftItem2_Panel_prefab_Panel-monthCardViewNew1_Layer1_activity_Game",
 									UUID = "019171c4_a58e_4d90_9c76_c1d1922af1a6",
 									anchorPoint = "False",
-									anchorPointX = "1",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -5314,8 +5316,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 78,
-										PositionY = 53,
+										PositionX = -205,
+										PositionY = 48,
 									},
 									width = "74",
 									ZOrder = "1",
@@ -5346,7 +5348,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 138,
-										PositionY = -25,
+										PositionY = -12,
 									},
 									uipanelviewmodel = 
 									{
@@ -5544,7 +5546,7 @@ local t =
 									UUID = "11e98401_0b9c_431f_8243_68fac963e75b",
 									anchorPoint = "False",
 									anchorPointX = "1",
-									anchorPointY = "0.5",
+									anchorPointY = "0",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
@@ -5558,7 +5560,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "12",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = true,
@@ -5568,8 +5570,10 @@ local t =
 									height = "0",
 									ignoreSize = "False",
 									name = "label_time_limit",
-									nTextAlign = "1",
+									nTextAlign = "2",
 									nTextHAlign = "2",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -5579,10 +5583,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 207,
-										PositionY = -64,
+										PositionX = 205,
+										PositionY = -80,
 									},
-									width = "414",
+									width = "513",
 									ZOrder = "1",
 								},
 							},

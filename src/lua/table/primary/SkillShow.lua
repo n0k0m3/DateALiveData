@@ -739,7 +739,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_10209",
+            animation = "fight_10209_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -817,7 +817,7 @@ return {
         },
         showAction = {
             action = "skillD_2",
-            animation = "fight_11401",
+            animation = "fight_11401_skillD_2",
         },
         effectsDown = {
             [1] = {
@@ -843,7 +843,7 @@ return {
         },
         showAction = {
             action = "skillD_2",
-            animation = "fight_11501",
+            animation = "fight_11501_skillD_2",
         },
         effectsDown = {
             [1] = {
@@ -917,7 +917,7 @@ return {
         },
         showAction = {
             action = "skillD2",
-            animation = "fight_10413",
+            animation = "fight_10413_skillD2",
         },
         effectsDown = {
             [1] = {
@@ -1043,7 +1043,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_12301",
+            animation = "fight_12301_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -1095,7 +1095,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_12201",
+            animation = "fight_12201_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -1177,7 +1177,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_12501",
+            animation = "fight_12501_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -1203,7 +1203,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_12701",
+            animation = "fight_12701_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -1229,7 +1229,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_12401",
+            animation = "fight_12401_skillD_show",
         },
         effectsDown = {
             [1] = {

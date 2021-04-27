@@ -41,6 +41,7 @@ local headName = {
 local TestType = {
     Normal = 1,
     Summon = 2,
+    Language = 3,
 }
 
 local selectnum = 1;
@@ -119,6 +120,8 @@ function GMView:initUI(ui)
     self.Label_openTime:setText("开始时间：")
     self.Label_closeTime:setText("输出结果：")
 
+    self:initLanguagePanel()
+
     self.Panel_unlockFB = {}
     for i = 1, 4 do
         local item = {}
@@ -130,7 +133,7 @@ function GMView:initUI(ui)
     end
 
     self.chooseTab = {}
-    for i=1,2 do
+    for i=1,3 do
         local btn = TFDirector:getChildByPath(self.Panel_root, "Button_tab_" .. i)
         local select = TFDirector:getChildByPath(btn, "Image_select")
         local Label_btn = TFDirector:getChildByPath(btn, "Label_btn")
@@ -147,6 +150,66 @@ function GMView:initUI(ui)
     self.ContentTableView:reloadData();
 
     self:chooseTestType(TestType.Normal)
+end
+
+function GMView:initLanguagePanel( )
+    -- body
+    if TFGlobalUtils:isConnectEnServer() then
+        self.Panel_language = TFDirector:getChildByPath(self.Panel_root, "Panel_language_server1"):hide()
+    elseif TFGlobalUtils:isConnectMiniServer() then
+        self.Panel_language = TFDirector:getChildByPath(self.Panel_root, "Panel_language_server2"):hide()
+    else
+        self.Panel_language = TFDirector:getChildByPath(self.Panel_root, "Panel_language_server3"):hide()
+    end
+
+    self.languageCheckBox = {}
+    self.languaeCheckBoxIdx = TFLanguageMgr:getLanguages()
+    for i=1,#self.languaeCheckBoxIdx do
+        local checkBox = TFDirector:getChildByPath(self.Panel_language, "checkBox_language_" ..i)
+        table.insert(self.languageCheckBox, checkBox)
+    end
+
+    local function checkBoxSel( checkBox )
+        for i,_checkbox in ipairs(self.languageCheckBox) do
+            if _checkbox:getSelectedState() and (_checkbox ~= checkBox) then
+                _checkbox:setSelectedState(false)
+            end
+        end
+        checkBox:setSelectedState(true)
+    end
+
+    local function checkBoxUnSel( checkBox )
+        local selCount = 0
+        for i,_checkbox in ipairs(self.languageCheckBox) do
+            if _checkbox:getSelectedState() then
+                selCount = selCount +1
+            end
+        end
+        if selCount <= 1 then checkBox:setSelectedState(true) return end
+    end
+
+    local usingLanguage = TFLanguageMgr:getUsingLanguage()
+    local idx = table.find(self.languaeCheckBoxIdx, usingLanguage)
+    for i,_checkbox in ipairs(self.languageCheckBox) do
+        _checkbox:setSelectedState(idx == i)
+        _checkbox:onEvent(function( event )
+            if event.name == "selected" then
+                checkBoxSel(event.target)
+                TFLanguageMgr:setUsingLanguage(self.languaeCheckBoxIdx[i])
+                for i, v in ipairs(MainPlayer.dataMgr_) do
+                    if type(v.changeGameLanguage) == "function" then
+                        v:changeGameLanguage()
+                    end
+                end
+                local curScene = Public:currentScene()
+                if curScene  and curScene.changeGameLanguage then
+                    curScene:changeGameLanguage()
+                end
+            else
+                checkBoxUnSel(event.target)
+            end
+        end)
+    end
 end
 
 function GMView:addFunBtn(name)
@@ -375,6 +438,7 @@ function GMView:chooseTestType(chooseId)
 
     self.Panel_quick:setVisible(chooseId == TestType.Normal)
     self.Panel_summon:setVisible(chooseId == TestType.Summon)
+    self.Panel_language:setVisible(chooseId == TestType.Language)
 end
 
 function GMView:registerEvents()

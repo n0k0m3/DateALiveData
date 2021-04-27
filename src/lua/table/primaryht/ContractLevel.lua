@@ -1,588 +1,1178 @@
 return {
+    [1010715] = {
+        EnergyExp = 92813,
+        id = 1010715,
+        LevelUpReward = 2145,
+    },
     [1010204] = {
         EnergyExp = 92813,
         id = 1010204,
         LevelUpReward = 612,
+    },
+    [1010716] = {
+        EnergyExp = 92813,
+        id = 1010716,
+        LevelUpReward = 2148,
     },
     [1010205] = {
         EnergyExp = 92813,
         id = 1010205,
         LevelUpReward = 615,
     },
+    [1010717] = {
+        EnergyExp = 92813,
+        id = 1010717,
+        LevelUpReward = 2151,
+    },
     [1010206] = {
         EnergyExp = 92813,
         id = 1010206,
         LevelUpReward = 618,
+    },
+    [1010718] = {
+        EnergyExp = 92813,
+        id = 1010718,
+        LevelUpReward = 2154,
     },
     [1010207] = {
         EnergyExp = 92813,
         id = 1010207,
         LevelUpReward = 621,
     },
+    [1010719] = {
+        EnergyExp = 92813,
+        id = 1010719,
+        LevelUpReward = 2157,
+    },
     [1010208] = {
         EnergyExp = 92813,
         id = 1010208,
         LevelUpReward = 624,
+    },
+    [1010720] = {
+        EnergyExp = 92813,
+        id = 1010720,
+        LevelUpReward = 2160,
     },
     [1010209] = {
         EnergyExp = 92813,
         id = 1010209,
         LevelUpReward = 627,
     },
+    [1010721] = {
+        EnergyExp = 92813,
+        id = 1010721,
+        LevelUpReward = 2163,
+    },
     [1010210] = {
         EnergyExp = 92813,
         id = 1010210,
         LevelUpReward = 630,
+    },
+    [1010722] = {
+        EnergyExp = 92813,
+        id = 1010722,
+        LevelUpReward = 2166,
     },
     [1010211] = {
         EnergyExp = 92813,
         id = 1010211,
         LevelUpReward = 633,
     },
+    [1010723] = {
+        EnergyExp = 92813,
+        id = 1010723,
+        LevelUpReward = 2169,
+    },
     [1010212] = {
         EnergyExp = 92813,
         id = 1010212,
         LevelUpReward = 636,
+    },
+    [1010724] = {
+        EnergyExp = 92813,
+        id = 1010724,
+        LevelUpReward = 2172,
     },
     [1010213] = {
         EnergyExp = 92813,
         id = 1010213,
         LevelUpReward = 639,
     },
+    [1010725] = {
+        EnergyExp = 92813,
+        id = 1010725,
+        LevelUpReward = 2175,
+    },
     [1010214] = {
         EnergyExp = 92813,
         id = 1010214,
         LevelUpReward = 642,
+    },
+    [1010726] = {
+        EnergyExp = 92813,
+        id = 1010726,
+        LevelUpReward = 2178,
     },
     [1010215] = {
         EnergyExp = 92813,
         id = 1010215,
         LevelUpReward = 645,
     },
+    [1010727] = {
+        EnergyExp = 92813,
+        id = 1010727,
+        LevelUpReward = 2181,
+    },
     [1010216] = {
         EnergyExp = 92813,
         id = 1010216,
         LevelUpReward = 648,
+    },
+    [1010728] = {
+        EnergyExp = 92813,
+        id = 1010728,
+        LevelUpReward = 2184,
     },
     [1010217] = {
         EnergyExp = 92813,
         id = 1010217,
         LevelUpReward = 651,
     },
+    [1010729] = {
+        EnergyExp = 92813,
+        id = 1010729,
+        LevelUpReward = 2187,
+    },
     [1010218] = {
         EnergyExp = 92813,
         id = 1010218,
         LevelUpReward = 654,
+    },
+    [1010730] = {
+        EnergyExp = 92813,
+        id = 1010730,
+        LevelUpReward = 2190,
     },
     [1010219] = {
         EnergyExp = 92813,
         id = 1010219,
         LevelUpReward = 657,
     },
+    [1010731] = {
+        EnergyExp = 92813,
+        id = 1010731,
+        LevelUpReward = 2193,
+    },
     [1010220] = {
         EnergyExp = 92813,
         id = 1010220,
         LevelUpReward = 660,
+    },
+    [1010732] = {
+        EnergyExp = 92813,
+        id = 1010732,
+        LevelUpReward = 2196,
     },
     [1010221] = {
         EnergyExp = 92813,
         id = 1010221,
         LevelUpReward = 663,
     },
+    [1010733] = {
+        EnergyExp = 92813,
+        id = 1010733,
+        LevelUpReward = 2199,
+    },
     [1010222] = {
         EnergyExp = 92813,
         id = 1010222,
         LevelUpReward = 666,
+    },
+    [1010734] = {
+        EnergyExp = 92813,
+        id = 1010734,
+        LevelUpReward = 2202,
     },
     [1010223] = {
         EnergyExp = 92813,
         id = 1010223,
         LevelUpReward = 669,
     },
+    [1010735] = {
+        EnergyExp = 92813,
+        id = 1010735,
+        LevelUpReward = 2205,
+    },
     [1010224] = {
         EnergyExp = 92813,
         id = 1010224,
         LevelUpReward = 672,
+    },
+    [1010736] = {
+        EnergyExp = 92813,
+        id = 1010736,
+        LevelUpReward = 2208,
     },
     [1010225] = {
         EnergyExp = 92813,
         id = 1010225,
         LevelUpReward = 675,
     },
+    [1010737] = {
+        EnergyExp = 92813,
+        id = 1010737,
+        LevelUpReward = 2211,
+    },
     [1010226] = {
         EnergyExp = 92813,
         id = 1010226,
         LevelUpReward = 678,
+    },
+    [1010738] = {
+        EnergyExp = 92813,
+        id = 1010738,
+        LevelUpReward = 2214,
     },
     [1010227] = {
         EnergyExp = 92813,
         id = 1010227,
         LevelUpReward = 681,
     },
+    [1010739] = {
+        EnergyExp = 92813,
+        id = 1010739,
+        LevelUpReward = 2217,
+    },
     [1010228] = {
         EnergyExp = 92813,
         id = 1010228,
         LevelUpReward = 684,
+    },
+    [1010740] = {
+        EnergyExp = 92813,
+        id = 1010740,
+        LevelUpReward = 2220,
     },
     [1010229] = {
         EnergyExp = 92813,
         id = 1010229,
         LevelUpReward = 687,
     },
+    [1010741] = {
+        EnergyExp = 92813,
+        id = 1010741,
+        LevelUpReward = 2223,
+    },
     [1010230] = {
         EnergyExp = 92813,
         id = 1010230,
         LevelUpReward = 690,
+    },
+    [1010742] = {
+        EnergyExp = 92813,
+        id = 1010742,
+        LevelUpReward = 2226,
     },
     [1010231] = {
         EnergyExp = 92813,
         id = 1010231,
         LevelUpReward = 693,
     },
+    [1010743] = {
+        EnergyExp = 92813,
+        id = 1010743,
+        LevelUpReward = 2229,
+    },
     [1010232] = {
         EnergyExp = 92813,
         id = 1010232,
         LevelUpReward = 696,
+    },
+    [1010744] = {
+        EnergyExp = 92813,
+        id = 1010744,
+        LevelUpReward = 2232,
     },
     [1010233] = {
         EnergyExp = 92813,
         id = 1010233,
         LevelUpReward = 699,
     },
+    [1010745] = {
+        EnergyExp = 92813,
+        id = 1010745,
+        LevelUpReward = 2235,
+    },
     [1010234] = {
         EnergyExp = 92813,
         id = 1010234,
         LevelUpReward = 702,
+    },
+    [1010746] = {
+        EnergyExp = 92813,
+        id = 1010746,
+        LevelUpReward = 2238,
     },
     [1010235] = {
         EnergyExp = 92813,
         id = 1010235,
         LevelUpReward = 705,
     },
+    [1010747] = {
+        EnergyExp = 92813,
+        id = 1010747,
+        LevelUpReward = 2241,
+    },
     [1010236] = {
         EnergyExp = 92813,
         id = 1010236,
         LevelUpReward = 708,
+    },
+    [1010748] = {
+        EnergyExp = 92813,
+        id = 1010748,
+        LevelUpReward = 2244,
     },
     [1010237] = {
         EnergyExp = 92813,
         id = 1010237,
         LevelUpReward = 711,
     },
+    [1010749] = {
+        EnergyExp = 92813,
+        id = 1010749,
+        LevelUpReward = 2247,
+    },
     [1010238] = {
         EnergyExp = 92813,
         id = 1010238,
         LevelUpReward = 714,
+    },
+    [1010750] = {
+        EnergyExp = 92813,
+        id = 1010750,
+        LevelUpReward = 2250,
     },
     [1010239] = {
         EnergyExp = 92813,
         id = 1010239,
         LevelUpReward = 717,
     },
+    [1010751] = {
+        EnergyExp = 92813,
+        id = 1010751,
+        LevelUpReward = 2253,
+    },
     [1010240] = {
         EnergyExp = 92813,
         id = 1010240,
         LevelUpReward = 720,
+    },
+    [1010752] = {
+        EnergyExp = 92813,
+        id = 1010752,
+        LevelUpReward = 2256,
     },
     [1010241] = {
         EnergyExp = 92813,
         id = 1010241,
         LevelUpReward = 723,
     },
+    [1010753] = {
+        EnergyExp = 92813,
+        id = 1010753,
+        LevelUpReward = 2259,
+    },
     [1010242] = {
         EnergyExp = 92813,
         id = 1010242,
         LevelUpReward = 726,
+    },
+    [1010754] = {
+        EnergyExp = 92813,
+        id = 1010754,
+        LevelUpReward = 2262,
     },
     [1010243] = {
         EnergyExp = 92813,
         id = 1010243,
         LevelUpReward = 729,
     },
+    [1010755] = {
+        EnergyExp = 92813,
+        id = 1010755,
+        LevelUpReward = 2265,
+    },
     [1010244] = {
         EnergyExp = 92813,
         id = 1010244,
         LevelUpReward = 732,
+    },
+    [1010756] = {
+        EnergyExp = 92813,
+        id = 1010756,
+        LevelUpReward = 2268,
     },
     [1010245] = {
         EnergyExp = 92813,
         id = 1010245,
         LevelUpReward = 735,
     },
+    [1010757] = {
+        EnergyExp = 92813,
+        id = 1010757,
+        LevelUpReward = 2271,
+    },
     [1010246] = {
         EnergyExp = 92813,
         id = 1010246,
         LevelUpReward = 738,
+    },
+    [1010758] = {
+        EnergyExp = 92813,
+        id = 1010758,
+        LevelUpReward = 2274,
     },
     [1010247] = {
         EnergyExp = 92813,
         id = 1010247,
         LevelUpReward = 741,
     },
+    [1010759] = {
+        EnergyExp = 92813,
+        id = 1010759,
+        LevelUpReward = 2277,
+    },
     [1010248] = {
         EnergyExp = 92813,
         id = 1010248,
         LevelUpReward = 744,
+    },
+    [1010760] = {
+        EnergyExp = 92813,
+        id = 1010760,
+        LevelUpReward = 2280,
     },
     [1010249] = {
         EnergyExp = 92813,
         id = 1010249,
         LevelUpReward = 747,
     },
+    [1010761] = {
+        EnergyExp = 92813,
+        id = 1010761,
+        LevelUpReward = 2283,
+    },
     [1010250] = {
         EnergyExp = 92813,
         id = 1010250,
         LevelUpReward = 750,
+    },
+    [1010762] = {
+        EnergyExp = 92813,
+        id = 1010762,
+        LevelUpReward = 2286,
     },
     [1010251] = {
         EnergyExp = 92813,
         id = 1010251,
         LevelUpReward = 753,
     },
+    [1010763] = {
+        EnergyExp = 92813,
+        id = 1010763,
+        LevelUpReward = 2289,
+    },
     [1010252] = {
         EnergyExp = 92813,
         id = 1010252,
         LevelUpReward = 756,
+    },
+    [1010764] = {
+        EnergyExp = 92813,
+        id = 1010764,
+        LevelUpReward = 2292,
     },
     [1010253] = {
         EnergyExp = 92813,
         id = 1010253,
         LevelUpReward = 759,
     },
+    [1010765] = {
+        EnergyExp = 92813,
+        id = 1010765,
+        LevelUpReward = 2295,
+    },
     [1010254] = {
         EnergyExp = 92813,
         id = 1010254,
         LevelUpReward = 762,
+    },
+    [1010766] = {
+        EnergyExp = 92813,
+        id = 1010766,
+        LevelUpReward = 2298,
     },
     [1010255] = {
         EnergyExp = 92813,
         id = 1010255,
         LevelUpReward = 765,
     },
+    [1010767] = {
+        EnergyExp = 92813,
+        id = 1010767,
+        LevelUpReward = 2301,
+    },
     [1010256] = {
         EnergyExp = 92813,
         id = 1010256,
         LevelUpReward = 768,
+    },
+    [1010768] = {
+        EnergyExp = 92813,
+        id = 1010768,
+        LevelUpReward = 2304,
     },
     [1010257] = {
         EnergyExp = 92813,
         id = 1010257,
         LevelUpReward = 771,
     },
+    [1010769] = {
+        EnergyExp = 92813,
+        id = 1010769,
+        LevelUpReward = 2307,
+    },
     [1010258] = {
         EnergyExp = 92813,
         id = 1010258,
         LevelUpReward = 774,
+    },
+    [1010770] = {
+        EnergyExp = 92813,
+        id = 1010770,
+        LevelUpReward = 2310,
     },
     [1010259] = {
         EnergyExp = 92813,
         id = 1010259,
         LevelUpReward = 777,
     },
+    [1010771] = {
+        EnergyExp = 92813,
+        id = 1010771,
+        LevelUpReward = 2313,
+    },
     [1010260] = {
         EnergyExp = 92813,
         id = 1010260,
         LevelUpReward = 780,
+    },
+    [1010772] = {
+        EnergyExp = 92813,
+        id = 1010772,
+        LevelUpReward = 2316,
     },
     [1010261] = {
         EnergyExp = 92813,
         id = 1010261,
         LevelUpReward = 783,
     },
+    [1010773] = {
+        EnergyExp = 92813,
+        id = 1010773,
+        LevelUpReward = 2319,
+    },
     [1010262] = {
         EnergyExp = 92813,
         id = 1010262,
         LevelUpReward = 786,
+    },
+    [1010774] = {
+        EnergyExp = 92813,
+        id = 1010774,
+        LevelUpReward = 2322,
     },
     [1010263] = {
         EnergyExp = 92813,
         id = 1010263,
         LevelUpReward = 789,
     },
+    [1010775] = {
+        EnergyExp = 92813,
+        id = 1010775,
+        LevelUpReward = 2325,
+    },
     [1010264] = {
         EnergyExp = 92813,
         id = 1010264,
         LevelUpReward = 792,
+    },
+    [1010776] = {
+        EnergyExp = 92813,
+        id = 1010776,
+        LevelUpReward = 2328,
     },
     [1010265] = {
         EnergyExp = 92813,
         id = 1010265,
         LevelUpReward = 795,
     },
+    [1010777] = {
+        EnergyExp = 92813,
+        id = 1010777,
+        LevelUpReward = 2331,
+    },
     [1010266] = {
         EnergyExp = 92813,
         id = 1010266,
         LevelUpReward = 798,
+    },
+    [1010778] = {
+        EnergyExp = 92813,
+        id = 1010778,
+        LevelUpReward = 2334,
     },
     [1010267] = {
         EnergyExp = 92813,
         id = 1010267,
         LevelUpReward = 801,
     },
+    [1010779] = {
+        EnergyExp = 92813,
+        id = 1010779,
+        LevelUpReward = 2337,
+    },
     [1010268] = {
         EnergyExp = 92813,
         id = 1010268,
         LevelUpReward = 804,
+    },
+    [1010780] = {
+        EnergyExp = 92813,
+        id = 1010780,
+        LevelUpReward = 2340,
     },
     [1010269] = {
         EnergyExp = 92813,
         id = 1010269,
         LevelUpReward = 807,
     },
+    [1010781] = {
+        EnergyExp = 92813,
+        id = 1010781,
+        LevelUpReward = 2343,
+    },
     [1010270] = {
         EnergyExp = 92813,
         id = 1010270,
         LevelUpReward = 810,
+    },
+    [1010782] = {
+        EnergyExp = 92813,
+        id = 1010782,
+        LevelUpReward = 2346,
     },
     [1010271] = {
         EnergyExp = 92813,
         id = 1010271,
         LevelUpReward = 813,
     },
+    [1010783] = {
+        EnergyExp = 92813,
+        id = 1010783,
+        LevelUpReward = 2349,
+    },
     [1010272] = {
         EnergyExp = 92813,
         id = 1010272,
         LevelUpReward = 816,
+    },
+    [1010784] = {
+        EnergyExp = 92813,
+        id = 1010784,
+        LevelUpReward = 2352,
     },
     [1010273] = {
         EnergyExp = 92813,
         id = 1010273,
         LevelUpReward = 819,
     },
+    [1010785] = {
+        EnergyExp = 92813,
+        id = 1010785,
+        LevelUpReward = 2355,
+    },
     [1010274] = {
         EnergyExp = 92813,
         id = 1010274,
         LevelUpReward = 822,
+    },
+    [1010786] = {
+        EnergyExp = 92813,
+        id = 1010786,
+        LevelUpReward = 2358,
     },
     [1010275] = {
         EnergyExp = 92813,
         id = 1010275,
         LevelUpReward = 825,
     },
+    [1010787] = {
+        EnergyExp = 92813,
+        id = 1010787,
+        LevelUpReward = 2361,
+    },
     [1010276] = {
         EnergyExp = 92813,
         id = 1010276,
         LevelUpReward = 828,
+    },
+    [1010788] = {
+        EnergyExp = 92813,
+        id = 1010788,
+        LevelUpReward = 2364,
     },
     [1010277] = {
         EnergyExp = 92813,
         id = 1010277,
         LevelUpReward = 831,
     },
+    [1010789] = {
+        EnergyExp = 92813,
+        id = 1010789,
+        LevelUpReward = 2367,
+    },
     [1010278] = {
         EnergyExp = 92813,
         id = 1010278,
         LevelUpReward = 834,
+    },
+    [1010790] = {
+        EnergyExp = 92813,
+        id = 1010790,
+        LevelUpReward = 2370,
     },
     [1010279] = {
         EnergyExp = 92813,
         id = 1010279,
         LevelUpReward = 837,
     },
+    [1010791] = {
+        EnergyExp = 92813,
+        id = 1010791,
+        LevelUpReward = 2373,
+    },
     [1010280] = {
         EnergyExp = 92813,
         id = 1010280,
         LevelUpReward = 840,
+    },
+    [1010792] = {
+        EnergyExp = 92813,
+        id = 1010792,
+        LevelUpReward = 2376,
     },
     [1010281] = {
         EnergyExp = 92813,
         id = 1010281,
         LevelUpReward = 843,
     },
+    [1010793] = {
+        EnergyExp = 92813,
+        id = 1010793,
+        LevelUpReward = 2379,
+    },
     [1010282] = {
         EnergyExp = 92813,
         id = 1010282,
         LevelUpReward = 846,
+    },
+    [1010794] = {
+        EnergyExp = 92813,
+        id = 1010794,
+        LevelUpReward = 2382,
     },
     [1010283] = {
         EnergyExp = 92813,
         id = 1010283,
         LevelUpReward = 849,
     },
+    [1010795] = {
+        EnergyExp = 92813,
+        id = 1010795,
+        LevelUpReward = 2385,
+    },
     [1010284] = {
         EnergyExp = 92813,
         id = 1010284,
         LevelUpReward = 852,
+    },
+    [1010796] = {
+        EnergyExp = 92813,
+        id = 1010796,
+        LevelUpReward = 2388,
     },
     [1010285] = {
         EnergyExp = 92813,
         id = 1010285,
         LevelUpReward = 855,
     },
+    [1010797] = {
+        EnergyExp = 92813,
+        id = 1010797,
+        LevelUpReward = 2391,
+    },
     [1010286] = {
         EnergyExp = 92813,
         id = 1010286,
         LevelUpReward = 858,
+    },
+    [1010798] = {
+        EnergyExp = 92813,
+        id = 1010798,
+        LevelUpReward = 2394,
     },
     [1010287] = {
         EnergyExp = 92813,
         id = 1010287,
         LevelUpReward = 861,
     },
+    [1010799] = {
+        EnergyExp = 92813,
+        id = 1010799,
+        LevelUpReward = 2397,
+    },
     [1010288] = {
         EnergyExp = 92813,
         id = 1010288,
         LevelUpReward = 864,
+    },
+    [1010800] = {
+        EnergyExp = 92813,
+        id = 1010800,
+        LevelUpReward = 2400,
     },
     [1010289] = {
         EnergyExp = 92813,
         id = 1010289,
         LevelUpReward = 867,
     },
+    [1010801] = {
+        EnergyExp = 92813,
+        id = 1010801,
+        LevelUpReward = 2403,
+    },
     [1010290] = {
         EnergyExp = 92813,
         id = 1010290,
         LevelUpReward = 870,
+    },
+    [1010802] = {
+        EnergyExp = 92813,
+        id = 1010802,
+        LevelUpReward = 2406,
     },
     [1010291] = {
         EnergyExp = 92813,
         id = 1010291,
         LevelUpReward = 873,
     },
+    [1010803] = {
+        EnergyExp = 92813,
+        id = 1010803,
+        LevelUpReward = 2409,
+    },
     [1010292] = {
         EnergyExp = 92813,
         id = 1010292,
         LevelUpReward = 876,
+    },
+    [1010804] = {
+        EnergyExp = 92813,
+        id = 1010804,
+        LevelUpReward = 2412,
     },
     [1010293] = {
         EnergyExp = 92813,
         id = 1010293,
         LevelUpReward = 879,
     },
+    [1010805] = {
+        EnergyExp = 92813,
+        id = 1010805,
+        LevelUpReward = 2415,
+    },
     [1010294] = {
         EnergyExp = 92813,
         id = 1010294,
         LevelUpReward = 882,
+    },
+    [1010806] = {
+        EnergyExp = 92813,
+        id = 1010806,
+        LevelUpReward = 2418,
     },
     [1010295] = {
         EnergyExp = 92813,
         id = 1010295,
         LevelUpReward = 885,
     },
+    [1010807] = {
+        EnergyExp = 92813,
+        id = 1010807,
+        LevelUpReward = 2421,
+    },
     [1010296] = {
         EnergyExp = 92813,
         id = 1010296,
         LevelUpReward = 888,
+    },
+    [1010808] = {
+        EnergyExp = 92813,
+        id = 1010808,
+        LevelUpReward = 2424,
     },
     [1010297] = {
         EnergyExp = 92813,
         id = 1010297,
         LevelUpReward = 891,
     },
+    [1010809] = {
+        EnergyExp = 92813,
+        id = 1010809,
+        LevelUpReward = 2427,
+    },
     [1010298] = {
         EnergyExp = 92813,
         id = 1010298,
         LevelUpReward = 894,
+    },
+    [1010810] = {
+        EnergyExp = 92813,
+        id = 1010810,
+        LevelUpReward = 2430,
     },
     [1010299] = {
         EnergyExp = 92813,
         id = 1010299,
         LevelUpReward = 897,
     },
+    [1010811] = {
+        EnergyExp = 92813,
+        id = 1010811,
+        LevelUpReward = 2433,
+    },
     [1010300] = {
         EnergyExp = 92813,
         id = 1010300,
         LevelUpReward = 900,
+    },
+    [1010812] = {
+        EnergyExp = 92813,
+        id = 1010812,
+        LevelUpReward = 2436,
     },
     [1010301] = {
         EnergyExp = 92813,
         id = 1010301,
         LevelUpReward = 903,
     },
+    [1010813] = {
+        EnergyExp = 92813,
+        id = 1010813,
+        LevelUpReward = 2439,
+    },
     [1010302] = {
         EnergyExp = 92813,
         id = 1010302,
         LevelUpReward = 906,
+    },
+    [1010814] = {
+        EnergyExp = 92813,
+        id = 1010814,
+        LevelUpReward = 2442,
     },
     [1010303] = {
         EnergyExp = 92813,
         id = 1010303,
         LevelUpReward = 909,
     },
+    [1010815] = {
+        EnergyExp = 92813,
+        id = 1010815,
+        LevelUpReward = 2445,
+    },
     [1010304] = {
         EnergyExp = 92813,
         id = 1010304,
         LevelUpReward = 912,
+    },
+    [1010816] = {
+        EnergyExp = 92813,
+        id = 1010816,
+        LevelUpReward = 2448,
     },
     [1010305] = {
         EnergyExp = 92813,
         id = 1010305,
         LevelUpReward = 915,
     },
+    [1010817] = {
+        EnergyExp = 92813,
+        id = 1010817,
+        LevelUpReward = 2451,
+    },
     [1010306] = {
         EnergyExp = 92813,
         id = 1010306,
         LevelUpReward = 918,
+    },
+    [1010818] = {
+        EnergyExp = 92813,
+        id = 1010818,
+        LevelUpReward = 2454,
     },
     [1010307] = {
         EnergyExp = 92813,
         id = 1010307,
         LevelUpReward = 921,
     },
+    [1010819] = {
+        EnergyExp = 92813,
+        id = 1010819,
+        LevelUpReward = 2457,
+    },
     [1010308] = {
         EnergyExp = 92813,
         id = 1010308,
         LevelUpReward = 924,
+    },
+    [1010820] = {
+        EnergyExp = 92813,
+        id = 1010820,
+        LevelUpReward = 2460,
     },
     [1010309] = {
         EnergyExp = 92813,
         id = 1010309,
         LevelUpReward = 927,
     },
+    [1010821] = {
+        EnergyExp = 92813,
+        id = 1010821,
+        LevelUpReward = 2463,
+    },
     [1010310] = {
         EnergyExp = 92813,
         id = 1010310,
         LevelUpReward = 930,
+    },
+    [1010822] = {
+        EnergyExp = 92813,
+        id = 1010822,
+        LevelUpReward = 2466,
     },
     [1010311] = {
         EnergyExp = 92813,
         id = 1010311,
         LevelUpReward = 933,
     },
+    [1010823] = {
+        EnergyExp = 92813,
+        id = 1010823,
+        LevelUpReward = 2469,
+    },
     [1010312] = {
         EnergyExp = 92813,
         id = 1010312,
         LevelUpReward = 936,
+    },
+    [1010824] = {
+        EnergyExp = 92813,
+        id = 1010824,
+        LevelUpReward = 2472,
     },
     [1010313] = {
         EnergyExp = 92813,
         id = 1010313,
         LevelUpReward = 939,
     },
+    [1010825] = {
+        EnergyExp = 92813,
+        id = 1010825,
+        LevelUpReward = 2475,
+    },
     [1010314] = {
         EnergyExp = 92813,
         id = 1010314,
         LevelUpReward = 942,
+    },
+    [1010826] = {
+        EnergyExp = 92813,
+        id = 1010826,
+        LevelUpReward = 2478,
     },
     [1010315] = {
         EnergyExp = 92813,
         id = 1010315,
         LevelUpReward = 945,
     },
+    [1010827] = {
+        EnergyExp = 92813,
+        id = 1010827,
+        LevelUpReward = 2481,
+    },
     [1010316] = {
         EnergyExp = 92813,
         id = 1010316,
         LevelUpReward = 948,
+    },
+    [1010828] = {
+        EnergyExp = 92813,
+        id = 1010828,
+        LevelUpReward = 2484,
     },
     [1010317] = {
         EnergyExp = 92813,
         id = 1010317,
         LevelUpReward = 951,
     },
+    [1010829] = {
+        EnergyExp = 92813,
+        id = 1010829,
+        LevelUpReward = 2487,
+    },
     [1010318] = {
         EnergyExp = 92813,
         id = 1010318,
         LevelUpReward = 954,
+    },
+    [1010830] = {
+        EnergyExp = 92813,
+        id = 1010830,
+        LevelUpReward = 2490,
     },
     [1010319] = {
         EnergyExp = 92813,
         id = 1010319,
         LevelUpReward = 957,
     },
+    [1010831] = {
+        EnergyExp = 92813,
+        id = 1010831,
+        LevelUpReward = 2493,
+    },
     [1010320] = {
         EnergyExp = 92813,
         id = 1010320,
         LevelUpReward = 960,
+    },
+    [1010832] = {
+        EnergyExp = 92813,
+        id = 1010832,
+        LevelUpReward = 2496,
     },
     [1010321] = {
         EnergyExp = 92813,
@@ -3474,50 +4064,100 @@ return {
         id = 1010193,
         LevelUpReward = 579,
     },
+    [1010705] = {
+        EnergyExp = 92813,
+        id = 1010705,
+        LevelUpReward = 2115,
+    },
     [1010194] = {
         EnergyExp = 92813,
         id = 1010194,
         LevelUpReward = 582,
+    },
+    [1010706] = {
+        EnergyExp = 92813,
+        id = 1010706,
+        LevelUpReward = 2118,
     },
     [1010195] = {
         EnergyExp = 92813,
         id = 1010195,
         LevelUpReward = 585,
     },
+    [1010707] = {
+        EnergyExp = 92813,
+        id = 1010707,
+        LevelUpReward = 2121,
+    },
     [1010196] = {
         EnergyExp = 92813,
         id = 1010196,
         LevelUpReward = 588,
+    },
+    [1010708] = {
+        EnergyExp = 92813,
+        id = 1010708,
+        LevelUpReward = 2124,
     },
     [1010197] = {
         EnergyExp = 92813,
         id = 1010197,
         LevelUpReward = 591,
     },
+    [1010709] = {
+        EnergyExp = 92813,
+        id = 1010709,
+        LevelUpReward = 2127,
+    },
     [1010198] = {
         EnergyExp = 92813,
         id = 1010198,
         LevelUpReward = 594,
+    },
+    [1010710] = {
+        EnergyExp = 92813,
+        id = 1010710,
+        LevelUpReward = 2130,
     },
     [1010199] = {
         EnergyExp = 92813,
         id = 1010199,
         LevelUpReward = 597,
     },
+    [1010711] = {
+        EnergyExp = 92813,
+        id = 1010711,
+        LevelUpReward = 2133,
+    },
     [1010200] = {
         EnergyExp = 92813,
         id = 1010200,
         LevelUpReward = 600,
+    },
+    [1010712] = {
+        EnergyExp = 92813,
+        id = 1010712,
+        LevelUpReward = 2136,
     },
     [1010201] = {
         EnergyExp = 92813,
         id = 1010201,
         LevelUpReward = 603,
     },
+    [1010713] = {
+        EnergyExp = 92813,
+        id = 1010713,
+        LevelUpReward = 2139,
+    },
     [1010202] = {
         EnergyExp = 92813,
         id = 1010202,
         LevelUpReward = 606,
+    },
+    [1010714] = {
+        EnergyExp = 92813,
+        id = 1010714,
+        LevelUpReward = 2142,
     },
     [1010203] = {
         EnergyExp = 92813,

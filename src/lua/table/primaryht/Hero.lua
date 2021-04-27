@@ -846,7 +846,7 @@ return {
         money = 0,
         attribute2 = 1151,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -980,7 +980,7 @@ return {
         money = 0,
         attribute2 = 1211,
         callLimit = 10,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -1115,7 +1115,7 @@ return {
         money = 0,
         attribute2 = 1141,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -1788,7 +1788,7 @@ return {
         money = 0,
         attribute2 = 1191,
         callLimit = 2,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -1922,7 +1922,7 @@ return {
         money = 0,
         attribute2 = 1243,
         callLimit = 20,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -2191,7 +2191,7 @@ return {
         money = 0,
         attribute2 = 1181,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -3132,7 +3132,7 @@ return {
         money = 0,
         attribute2 = 1201,
         callLimit = 10,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -3403,7 +3403,7 @@ return {
         money = 0,
         attribute2 = 1151,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -4078,7 +4078,7 @@ return {
         money = 0,
         attribute2 = 1141,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -4347,7 +4347,7 @@ return {
         money = 0,
         attribute2 = 1191,
         callLimit = 2,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -5155,7 +5155,7 @@ return {
         money = 0,
         attribute2 = 1242,
         callLimit = 3,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -5423,7 +5423,7 @@ return {
         money = 0,
         attribute2 = 1181,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -5691,7 +5691,7 @@ return {
         money = 0,
         attribute2 = 1241,
         callLimit = 20,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,

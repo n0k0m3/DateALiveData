@@ -352,16 +352,6 @@ function FubenDataMgr:onLogin()
     TFDirector:send(c2s.HERO_REQ_SIMULATE_TRAIN_INFO, {}) --模拟试炼信息
     TFDirector:send(c2s.DUNGEON_REQ_TIME_LINKAGE_INFO,{})
 
-    local chapter = self:getChapter(EC_FBType.PLOT)
-    local firstLevelCid = self:getChapterFirstLevel(chapter[1], EC_FBDiff.SIMPLE)
-    firstLevelCid = 101101
-    local levelCfg = self:getLevelCfg(firstLevelCid)
-    local type_ = levelCfg.heroLimitType
-    local isLimitHero = (type_ == EC_LimitHeroType.LIMIT_NJ or type_ == EC_LimitHeroType.LIMIT_J)
-    if isLimitHero and not self:isPassPlotLevel(firstLevelCid) then
-        TFDirector:send(c2s.DUNGEON_LIMIT_HERO_DUNGEON, {firstLevelCid})
-        table.insert(waitList, s2c.DUNGEON_LIMIT_HERO_DUNGEON)
-    end
 
     return waitList
 end

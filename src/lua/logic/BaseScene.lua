@@ -38,6 +38,8 @@ function BaseScene:ctor(data)
     self:addTouchEffectLayer()
 
     self:updateUIUserInterfaceStyle()
+
+    self:initLanguageLabel()
 end
 
 function BaseScene:updateUIUserInterfaceStyle( )
@@ -232,6 +234,38 @@ end
 
 function BaseScene:onKeyBack()
 
+end
+
+function BaseScene:initLanguageLabel( )
+    if  CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 and TFLanguageMgr then
+        self.languageLabel = TFLabel:create()
+        self.languageLabel:setFontName("font/fangzheng_zhunyuan.ttf")
+        self.languageLabel:setFontSize(20)
+        self.languageLabel:setAnchorPoint(ccp(1, 0.5))
+        self.languageLabel:setPosition(GameConfig.WS.width, 20) 
+        self:addChild(self.languageLabel,100000)
+
+        local text = TFLanguageMgr:getWindowsTestTextByLanguage(TFLanguageMgr:getUsingLanguage())
+        if SaveManager then
+            local account,_ = SaveManager:getUserInfoDemo()
+            text = text .." (" ..account ..")"
+        end
+        self.languageLabel:setText(text)
+        self.languageLabel:enableStroke(ccc3(0, 0, 0), 1)
+    end
+end
+
+function BaseScene:changeGameLanguage()
+    if  CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 and TFLanguageMgr then
+        if self.languageLabel then
+            local text = TFLanguageMgr:getWindowsTestTextByLanguage(TFLanguageMgr:getUsingLanguage())
+            if SaveManager then
+                local account,_ = SaveManager:getUserInfoDemo()
+                text = text .." (" ..account ..")"
+            end
+            self.languageLabel:setText(text)
+        end
+    end
 end
 
 return BaseScene;

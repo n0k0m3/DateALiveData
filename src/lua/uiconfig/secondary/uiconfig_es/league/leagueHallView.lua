@@ -1443,7 +1443,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1000",
 							ZOrder = "1",
 							components = 
@@ -1676,11 +1675,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 614,
+										PositionX = 563,
 										PositionY = 47,
 									},
 									UItype = "Button",
-									width = "154",
+									width = "165",
 									ZOrder = "1",
 									components = 
 									{
@@ -1755,11 +1754,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 764,
+										PositionX = 745,
 										PositionY = 47,
 									},
 									UItype = "Button",
-									width = "120",
+									width = "165",
 									ZOrder = "1",
 									components = 
 									{
@@ -1960,11 +1959,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "159",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_bg1",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -1977,7 +1976,7 @@ local t =
 												PositionX = 80,
 												PositionY = 90,
 											},
-											width = "132",
+											width = "188",
 											ZOrder = "1",
 										},
 										{
@@ -1986,14 +1985,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
 											height = "38",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_detail",
 											normal = "ui/league/ui_03.png",
 											sizepercentx = "0",
@@ -2007,7 +2006,7 @@ local t =
 												PositionY = 142,
 											},
 											UItype = "Button",
-											width = "116",
+											width = "158",
 											ZOrder = "1",
 											components = 
 											{
@@ -2065,14 +2064,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
 											height = "38",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_appoint",
 											normal = "ui/league/ui_03.png",
 											sizepercentx = "0",
@@ -2086,7 +2085,7 @@ local t =
 												PositionY = 92,
 											},
 											UItype = "Button",
-											width = "116",
+											width = "158",
 											ZOrder = "1",
 											components = 
 											{
@@ -2144,14 +2143,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
 											height = "38",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_kick",
 											normal = "ui/league/ui_03.png",
 											sizepercentx = "0",
@@ -2165,7 +2164,7 @@ local t =
 												PositionY = 42,
 											},
 											UItype = "Button",
-											width = "116",
+											width = "158",
 											ZOrder = "1",
 											components = 
 											{
@@ -2299,6 +2298,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1030",
 							ZOrder = "1",
 							components = 

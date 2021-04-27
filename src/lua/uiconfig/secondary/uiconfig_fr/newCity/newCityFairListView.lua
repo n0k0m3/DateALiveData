@@ -188,7 +188,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "500",
+									width = "800",
 									ZOrder = "1",
 									components = 
 									{
@@ -220,7 +220,7 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionY = 290,
+												PositionY = 285,
 												IsPercent = true,
 												PercentY = 50,
 											},
@@ -437,7 +437,7 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											width = "400",
+											width = "430",
 											ZOrder = "1",
 											components = 
 											{
@@ -515,7 +515,7 @@ local t =
 															{
 																PositionY = -33,
 															},
-															width = "80",
+															width = "76",
 															ZOrder = "1",
 														},
 													},
@@ -593,7 +593,7 @@ local t =
 															{
 																PositionY = -33,
 															},
-															width = "60",
+															width = "56",
 															ZOrder = "1",
 														},
 														{
@@ -697,7 +697,7 @@ local t =
 															{
 																PositionY = -33,
 															},
-															width = "106",
+															width = "102",
 															ZOrder = "1",
 														},
 														{
@@ -801,7 +801,7 @@ local t =
 															{
 																PositionY = -33,
 															},
-															width = "62",
+															width = "61",
 															ZOrder = "1",
 														},
 													},
@@ -828,11 +828,11 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 295,
+												PositionX = 393,
 												PositionY = 48,
 											},
 											visible = "False",
-											width = "350",
+											width = "550",
 											ZOrder = "1",
 											components = 
 											{
@@ -872,14 +872,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "TextLable",
+													text = "Statut : Récompenses de retour (Veuillez réclamer les récompenses)",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "81",
+													width = "529",
 													ZOrder = "1",
 												},
 											},

@@ -2551,11 +2551,11 @@ return {
         icon = "",
         levelType = 1,
     },
-    [305] = {
+    [500] = {
         isOpen = true,
         openLevel = 1,
         isStinger = false,
-        id = 305,
+        id = 500,
         openDun = 0,
         repetition = false,
         stingerTrigger = {
@@ -2587,11 +2587,29 @@ return {
         icon = "",
         levelType = 1,
     },
-    [500] = {
+    [801] = {
         isOpen = true,
         openLevel = 1,
         isStinger = false,
-        id = 500,
+        id = 801,
+        openDun = 0,
+        repetition = false,
+        stingerTrigger = {
+        },
+        serverId = 2,
+        showIcon = false,
+        stingerDating = "",
+        name = "",
+        unlockExplain = {
+        },
+        icon = "",
+        levelType = 1,
+    },
+    [800] = {
+        isOpen = true,
+        openLevel = 1,
+        isStinger = false,
+        id = 800,
         openDun = 0,
         repetition = false,
         stingerTrigger = {

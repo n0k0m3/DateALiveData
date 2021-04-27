@@ -4759,7 +4759,7 @@ return {
         cg = "date_cg_87",
         backGround = "",
         cg2 = "",
-        cg4 = "",
+        cg4 = "date_cg_87_01",
         video = "",
     },
     [910103] = {

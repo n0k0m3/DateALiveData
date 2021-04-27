@@ -2755,6 +2755,42 @@ return {
             [6] = 59,
         },
     },
+    [79] = {
+        serId = {
+            [1] = 3,
+            [2] = 6,
+            [3] = 8,
+            [4] = 9,
+        },
+        isOpen = 1,
+        id = 79,
+        adicon = "ui/mainLayer/new_ui/ad/springFes2021.png",
+        systemType = {
+            [1] = 1,
+            [2] = 2,
+            [3] = 3,
+        },
+        activityType = 3,
+        name = "春晓游园会",
+        startDate = {
+            [1] = 2021,
+            [2] = 2,
+            [3] = 4,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
+        },
+        sort = 79,
+        jumpId = "300",
+        endDate = {
+            [1] = 2021,
+            [2] = 3,
+            [3] = 12,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
+        },
+    },
     [198] = {
         serId = {
             [1] = 3,
@@ -2781,7 +2817,7 @@ return {
         startDate = {
         },
         sort = 198,
-        jumpId = "306",
+        jumpId = "801",
         endDate = {
         },
     },

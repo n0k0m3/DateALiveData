@@ -47,11 +47,11 @@ local t =
 					anchorPoint = "False",
 					anchorPointX = "0.5",
 					anchorPointY = "0.5",
-					backGroundScale9Enable = "False",
+					backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 					classname = "MEImage",
 					dstBlendFunc = "771",
-					height = "76",
-					ignoreSize = "True",
+					height = "119",
+					ignoreSize = "False",
 					name = "Image_tips_bg",
 					sizepercentx = "0",
 					sizepercenty = "0",
@@ -63,7 +63,7 @@ local t =
 					{
 						
 					},
-					width = "175",
+					width = "264",
 					ZOrder = "1",
 					components = 
 					{
@@ -98,7 +98,7 @@ local t =
 							ignoreSize = "False",
 							name = "Label_tips_single",
 							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -108,10 +108,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -75,
-								PositionY = -2,
+								PositionX = -118,
+								PositionY = 20,
 							},
-							width = "150",
+							width = "236",
 							ZOrder = "1",
 						},
 						{
@@ -154,10 +154,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -75,
-								PositionY = -5,
+								PositionX = -120,
+								PositionY = -29,
 							},
-							width = "150",
+							width = "239",
 							ZOrder = "1",
 						},
 					},

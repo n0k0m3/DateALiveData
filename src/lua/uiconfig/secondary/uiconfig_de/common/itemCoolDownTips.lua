@@ -47,11 +47,11 @@ local t =
 					anchorPoint = "False",
 					anchorPointX = "0.5",
 					anchorPointY = "0.5",
-					backGroundScale9Enable = "False",
+					backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 					classname = "MEImage",
 					dstBlendFunc = "771",
-					height = "76",
-					ignoreSize = "True",
+					height = "99",
+					ignoreSize = "False",
 					name = "Image_tips_bg",
 					sizepercentx = "0",
 					sizepercenty = "0",
@@ -63,7 +63,7 @@ local t =
 					{
 						
 					},
-					width = "175",
+					width = "275",
 					ZOrder = "1",
 					components = 
 					{
@@ -108,9 +108,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -72,
+								PositionX = -126,
+								PositionY = 21,
 							},
-							width = "150",
+							width = "255",
 							ZOrder = "1",
 						},
 						{
@@ -132,7 +133,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "16",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -153,10 +154,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -74,
-								PositionY = -2,
+								PositionX = -126,
+								PositionY = -19,
 							},
-							width = "150",
+							width = "251",
 							ZOrder = "1",
 						},
 					},

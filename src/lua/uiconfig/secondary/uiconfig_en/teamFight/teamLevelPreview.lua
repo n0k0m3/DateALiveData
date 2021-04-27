@@ -626,7 +626,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "消耗",
+															text = "Cost",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -634,7 +634,7 @@ local t =
 																PositionX = 90,
 																PositionY = 25,
 															},
-															width = "43",
+															width = "39",
 															ZOrder = "1",
 														},
 													},
@@ -951,7 +951,7 @@ local t =
 														PositionY = 116,
 													},
 													vAlignment = "0",
-													width = "460",
+													width = "440",
 													ZOrder = "1",
 												},
 												{
@@ -1070,7 +1070,7 @@ local t =
 														PositionY = -71,
 													},
 													vAlignment = "0",
-													width = "460",
+													width = "440",
 													ZOrder = "1",
 												},
 												{

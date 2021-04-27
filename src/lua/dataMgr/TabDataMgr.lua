@@ -104,4 +104,8 @@ function TabDataMgr:reset()
     self.tabData_ = {}
 end
 
+function TabDataMgr:changeGameLanguage()
+    self:reset()
+end
+
 return TabDataMgr:new()

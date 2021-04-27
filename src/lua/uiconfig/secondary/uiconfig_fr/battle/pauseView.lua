@@ -1002,11 +1002,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "40",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_challenge",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1016,10 +1016,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 129,
+										PositionX = 150,
 										PositionY = 171,
 									},
-									width = "148",
+									width = "197",
 									ZOrder = "1",
 									components = 
 									{
@@ -1043,15 +1043,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "25",
+											ignoreSize = "True",
 											name = "Label_dian2",
 											nTextAlign = "1",
 											nTextHAlign = "0",
@@ -1064,9 +1064,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -63,
+												PositionX = -85,
 											},
-											width = "112",
+											width = "149",
 											ZOrder = "1",
 										},
 										{
@@ -1257,11 +1257,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "40",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_battleView_2",
 									sizepercentx = "96",
 									sizepercenty = "65",
@@ -1271,10 +1271,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 129,
+										PositionX = 167,
 										PositionY = 291,
 									},
-									width = "148",
+									width = "235",
 									ZOrder = "1",
 									components = 
 									{
@@ -1298,15 +1298,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "25",
+											ignoreSize = "True",
 											name = "Label_dian1",
 											nTextAlign = "1",
 											nTextHAlign = "0",
@@ -1319,9 +1319,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -63,
+												PositionX = -85,
 											},
-											width = "112",
+											width = "149",
 											ZOrder = "1",
 										},
 										{
@@ -1445,11 +1445,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "40",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_buff",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1459,10 +1459,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 77,
+										PositionX = 119,
 										PositionY = 301,
 									},
-									width = "148",
+									width = "230",
 									ZOrder = "1",
 									components = 
 									{
@@ -1486,15 +1486,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "25",
+											ignoreSize = "True",
 											name = "Label_dian3",
 											nTextAlign = "1",
 											nTextHAlign = "0",
@@ -1507,9 +1507,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -63,
+												PositionX = -105,
 											},
-											width = "112",
+											width = "175",
 											ZOrder = "1",
 										},
 										{
@@ -1613,7 +1613,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "48",
+							height = "2",
 							ignoreSize = "True",
 							name = "Button_reopen",
 							normal = "ui/battle/n215.png",
@@ -1631,7 +1631,7 @@ local t =
 							},
 							UItype = "Button",
 							visible = "False",
-							width = "55",
+							width = "2",
 							ZOrder = "1",
 						},
 						{
@@ -1646,7 +1646,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "48",
+							height = "2",
 							ignoreSize = "True",
 							name = "Button_leave",
 							normal = "ui/battle/n214.png",
@@ -1664,7 +1664,7 @@ local t =
 							},
 							UItype = "Button",
 							visible = "False",
-							width = "54",
+							width = "2",
 							ZOrder = "1",
 						},
 					},

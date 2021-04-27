@@ -1008,7 +1008,7 @@ return {
         type = 1,
     },
     [510416] = {
-        rolePath = "modle/bust_kanban/bust_10416_superKanban1",
+        rolePath = "modle/bust_kanban/bust_10416_superKanban",
         name = "狂三-韩服高级",
         id = 510416,
         isCloseTouchFollow = false,

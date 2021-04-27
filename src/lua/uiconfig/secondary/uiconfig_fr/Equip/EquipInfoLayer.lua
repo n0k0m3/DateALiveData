@@ -7297,7 +7297,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "26",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -7401,14 +7401,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "26",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_button_name",
 									nTextAlign = "1",
@@ -7424,7 +7424,7 @@ local t =
 									{
 										PositionX = 2,
 									},
-									width = "105",
+									width = "137",
 									ZOrder = "1",
 								},
 							},

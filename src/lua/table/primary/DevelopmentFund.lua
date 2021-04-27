@@ -1,58 +1,4 @@
 return {
-    [1152] = {
-        titleIcon2 = "ui/recharge/growFundview/017.png",
-        reorder = "4",
-        id = 1152,
-        investMoneyID = 50051,
-        reward = {
-            [1] = {
-                [1] = 570033,
-                [2] = 1,
-            },
-        },
-        name3 = "",
-        title = 190000108,
-        notable = "190000106",
-        titleIcon1 = "ui/recharge/growFundview/018.png",
-        titleIcon = "ui/recharge/growFundview/019.png",
-        content = 190000109,
-        colour = {
-            [1] = 120,
-            [2] = 56,
-            [3] = 168,
-        },
-    },
-    [1156] = {
-        titleIcon2 = "ui/recharge/growFundview/008.png",
-        reorder = "8",
-        id = 1156,
-        investMoneyID = 50059,
-        reward = {
-            [1] = {
-                [1] = 510242,
-                [2] = 3,
-            },
-            [2] = {
-                [1] = 510105,
-                [2] = 1,
-            },
-            [3] = {
-                [1] = 500001,
-                [2] = 1000,
-            },
-        },
-        name3 = "",
-        title = 223506,
-        notable = "23025",
-        titleIcon1 = "ui/recharge/growFundview/009.png",
-        titleIcon = "ui/recharge/growFundview/056.png",
-        content = 223507,
-        colour = {
-            [1] = 120,
-            [2] = 56,
-            [3] = 168,
-        },
-    },
     [1100] = {
         titleIcon2 = "ui/recharge/growFundview/011.png",
         reorder = "1",
@@ -78,7 +24,7 @@ return {
     },
     [1153] = {
         titleIcon2 = "ui/recharge/growFundview/014.png",
-        reorder = "5",
+        reorder = "6",
         id = 1153,
         investMoneyID = 50052,
         reward = {
@@ -99,37 +45,6 @@ return {
             [3] = 168,
         },
     },
-    [1157] = {
-        titleIcon2 = "ui/recharge/growFundview/011.png",
-        reorder = "9",
-        id = 1157,
-        investMoneyID = 50060,
-        reward = {
-            [1] = {
-                [1] = 500004,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500024,
-                [2] = 25,
-            },
-            [3] = {
-                [1] = 500002,
-                [2] = 10,
-            },
-        },
-        name3 = "",
-        title = 223500,
-        notable = "190000682",
-        titleIcon1 = "ui/recharge/growFundview/012.png",
-        titleIcon = "ui/recharge/growFundview/050.png",
-        content = 190000693,
-        colour = {
-            [1] = 166,
-            [2] = 100,
-            [3] = 41,
-        },
-    },
     [1101] = {
         titleIcon2 = "ui/recharge/growFundview/005.png",
         reorder = "2",
@@ -147,68 +62,6 @@ return {
         titleIcon1 = "ui/recharge/growFundview/006.png",
         titleIcon = "ui/recharge/growFundview/007.png",
         content = 223503,
-        colour = {
-            [1] = 181,
-            [2] = 88,
-            [3] = 40,
-        },
-    },
-    [1154] = {
-        titleIcon2 = "ui/recharge/growFundview/017.png",
-        reorder = "6",
-        id = 1154,
-        investMoneyID = 50057,
-        reward = {
-            [1] = {
-                [1] = 570033,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500004,
-                [2] = 30,
-            },
-            [3] = {
-                [1] = 500002,
-                [2] = 30,
-            },
-        },
-        name3 = "",
-        title = 190000108,
-        notable = "190000106",
-        titleIcon1 = "ui/recharge/growFundview/018.png",
-        titleIcon = "ui/recharge/growFundview/054.png",
-        content = 190000109,
-        colour = {
-            [1] = 120,
-            [2] = 56,
-            [3] = 168,
-        },
-    },
-    [1158] = {
-        titleIcon2 = "ui/recharge/growFundview/005.png",
-        reorder = "10",
-        id = 1158,
-        investMoneyID = 50061,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 180,
-            },
-            [2] = {
-                [1] = 500004,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500001,
-                [2] = 5000,
-            },
-        },
-        name3 = "",
-        title = 223502,
-        notable = "190000683",
-        titleIcon1 = "ui/recharge/growFundview/006.png",
-        titleIcon = "ui/recharge/growFundview/051.png",
-        content = 190000693,
         colour = {
             [1] = 181,
             [2] = 88,
@@ -238,97 +91,27 @@ return {
             [3] = 145,
         },
     },
-    [1155] = {
-        titleIcon2 = "ui/recharge/growFundview/014.png",
-        reorder = "7",
-        id = 1155,
-        investMoneyID = 50058,
+    [1152] = {
+        titleIcon2 = "ui/recharge/growFundview/017.png",
+        reorder = "5",
+        id = 1152,
+        investMoneyID = 50051,
         reward = {
             [1] = {
-                [1] = 570035,
+                [1] = 570033,
                 [2] = 1,
-            },
-            [2] = {
-                [1] = 500004,
-                [2] = 30,
-            },
-            [3] = {
-                [1] = 500002,
-                [2] = 30,
             },
         },
         name3 = "",
-        title = 190000110,
-        notable = "190000107",
-        titleIcon1 = "ui/recharge/growFundview/015.png",
-        titleIcon = "ui/recharge/growFundview/055.png",
-        content = 190000111,
+        title = 190000108,
+        notable = "190000106",
+        titleIcon1 = "ui/recharge/growFundview/018.png",
+        titleIcon = "ui/recharge/growFundview/019.png",
+        content = 190000109,
         colour = {
             [1] = 120,
             [2] = 56,
             [3] = 168,
-        },
-    },
-    [1159] = {
-        titleIcon2 = "ui/recharge/growFundview/002.png",
-        reorder = "11",
-        id = 1159,
-        investMoneyID = 50062,
-        reward = {
-            [1] = {
-                [1] = 555010,
-                [2] = 200,
-            },
-            [2] = {
-                [1] = 555011,
-                [2] = 10,
-            },
-            [3] = {
-                [1] = 555012,
-                [2] = 10,
-            },
-        },
-        name3 = "",
-        title = 223504,
-        notable = "190000684",
-        titleIcon1 = "ui/recharge/growFundview/003.png",
-        titleIcon = "ui/recharge/growFundview/052.png",
-        content = 190000693,
-        colour = {
-            [1] = 57,
-            [2] = 81,
-            [3] = 145,
-        },
-    },
-    [1160] = {
-        titleIcon2 = "ui/recharge/growFundview/002.png",
-        reorder = "12",
-        id = 1160,
-        investMoneyID = 50063,
-        reward = {
-            [1] = {
-                [1] = 555013,
-                [2] = 10,
-            },
-            [2] = {
-                [1] = 555014,
-                [2] = 10,
-            },
-            [3] = {
-                [1] = 555015,
-                [2] = 10,
-            },
-        },
-        name3 = "",
-        title = 223504,
-        notable = "190000685",
-        titleIcon1 = "ui/recharge/growFundview/003.png",
-        titleIcon = "ui/recharge/growFundview/053.png",
-        content = 190000693,
-        colour = {
-            [1] = 57,
-            [2] = 81,
-            [3] = 145,
         },
     },
 }
