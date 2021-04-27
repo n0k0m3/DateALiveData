@@ -710,7 +710,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -1175,16 +1174,16 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_raiders",
-											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextAlign = "0",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "[던전 안의 적",
+											text = "[던전 안의 적[던전 안의 적[던전 안의 적[던전 안의 적[던전 안의 적[던전 안의 적[던전 안의 적",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1192,7 +1191,7 @@ local t =
 												PositionX = 2,
 												PositionY = -43,
 											},
-											width = "107",
+											width = "450",
 											ZOrder = "1",
 										},
 										{
@@ -1663,6 +1662,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -3168,7 +3168,7 @@ local t =
 											{
 												PositionX = 432,
 											},
-											width = "30",
+											width = "31",
 											ZOrder = "1",
 										},
 									},
@@ -3380,7 +3380,7 @@ local t =
 										PositionX = -257,
 										PositionY = -10,
 									},
-									width = "98",
+									width = "93",
 									ZOrder = "1",
 								},
 								{
@@ -3426,7 +3426,7 @@ local t =
 										PositionX = -258,
 										PositionY = -10,
 									},
-									width = "98",
+									width = "93",
 									ZOrder = "1",
 								},
 								{
@@ -3536,7 +3536,7 @@ local t =
 											{
 												PositionX = 39,
 											},
-											width = "63",
+											width = "66",
 											ZOrder = "1",
 										},
 									},
@@ -3648,7 +3648,7 @@ local t =
 											{
 												PositionX = 39,
 											},
-											width = "63",
+											width = "66",
 											ZOrder = "1",
 										},
 									},
@@ -3760,7 +3760,7 @@ local t =
 											{
 												PositionX = 39,
 											},
-											width = "33",
+											width = "37",
 											ZOrder = "1",
 										},
 									},
@@ -3927,7 +3927,7 @@ local t =
 										PositionX = -216,
 										PositionY = -8,
 									},
-									width = "45",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -3973,7 +3973,7 @@ local t =
 										PositionX = -216,
 										PositionY = -8,
 									},
-									width = "45",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -4065,7 +4065,7 @@ local t =
 										PositionX = -93,
 										PositionY = 12,
 									},
-									width = "53",
+									width = "51",
 									ZOrder = "1",
 								},
 								{
@@ -4111,7 +4111,7 @@ local t =
 										PositionX = 62,
 										PositionY = 11,
 									},
-									width = "36",
+									width = "35",
 									ZOrder = "1",
 								},
 								{
@@ -4203,7 +4203,7 @@ local t =
 										PositionX = 115,
 										PositionY = -19,
 									},
-									width = "73",
+									width = "77",
 									ZOrder = "1",
 								},
 								{
@@ -4530,7 +4530,7 @@ local t =
 										PositionX = -258,
 										PositionY = -6,
 									},
-									width = "98",
+									width = "93",
 									ZOrder = "1",
 								},
 								{
@@ -4576,7 +4576,7 @@ local t =
 										PositionX = -258,
 										PositionY = -6,
 									},
-									width = "98",
+									width = "93",
 									ZOrder = "1",
 								},
 								{
@@ -4686,7 +4686,7 @@ local t =
 											{
 												PositionX = 39,
 											},
-											width = "63",
+											width = "66",
 											ZOrder = "1",
 										},
 									},
@@ -4798,7 +4798,7 @@ local t =
 											{
 												PositionX = 39,
 											},
-											width = "63",
+											width = "66",
 											ZOrder = "1",
 										},
 									},
@@ -4910,7 +4910,7 @@ local t =
 											{
 												PositionX = 39,
 											},
-											width = "33",
+											width = "37",
 											ZOrder = "1",
 										},
 									},

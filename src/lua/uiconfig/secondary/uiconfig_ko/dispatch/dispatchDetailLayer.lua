@@ -3670,7 +3670,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 445,
+												PositionX = 471,
 												PositionY = 18,
 											},
 											width = "45",
@@ -4286,8 +4286,8 @@ local t =
 											controlID = "Label_name_Panel_item_info_Panel_chapter_item_Panel_prefab_Panel-dispatchDetailLayer_Layer1_dispatch_Game",
 											UUID = "cee69618_f94a_45ce_a439_39f03d621654",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
-											anchorPointY = "0.5",
+											anchorPointX = "0",
+											anchorPointY = "0",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -4308,8 +4308,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "28",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -4322,10 +4322,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 29,
-												PositionY = 40,
+												PositionX = -41,
+												PositionY = 33,
 											},
-											width = "140",
+											width = "155",
 											ZOrder = "1",
 										},
 										{

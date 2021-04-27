@@ -125,11 +125,11 @@ else
         URL_LOGIN_KOREA_TW[1] = "http://192.168.20.36:9080/account/login"
     else
         if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-            URL_LOGIN_KOREA_TW[1] = "https://uc-ml.datealive.com:8082/account/login"
-            URL_LOGIN_KOREA_TW[2] = "https://uc-ml.moonramble.com:8082/account/login"
+            URL_LOGIN_KOREA_TW[1] = "https://uc-kt.moonramble.com:8082/account/login"
+            URL_LOGIN_KOREA_TW[2] = "https://uc-kt.datealive.com:8082/account/login"
         else
-            URL_LOGIN_KOREA_TW[1] = "http://uc-ml.datealive.com:8081/account/login"
-            URL_LOGIN_KOREA_TW[2] = "http://uc-ml.moonramble.com:8081/account/login"
+            URL_LOGIN_KOREA_TW[1] = "http://uc-kt.moonramble.com:8081/account/login"
+            URL_LOGIN_KOREA_TW[2] = "http://uc-kt.datealive.com:8081/account/login"
         end
     end
 end
@@ -193,9 +193,9 @@ else
             URL_LOGIN_QUERYDATE = "http://192.168.20.55:8980/account/querydate"
         else 
             if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-                URL_LOGIN_QUERYDATE = "https://uc-ml.datealive.com:8082/account/querydate"
+                URL_LOGIN_QUERYDATE = "https://uc-kt.moonramble.com:8082/account/querydate"
             else
-                URL_LOGIN_QUERYDATE = "http://uc-ml.datealive.com:8081/account/querydate"
+                URL_LOGIN_QUERYDATE = "http://uc-kt.moonramble.com:8081/account/querydate"
             end
         end
     end

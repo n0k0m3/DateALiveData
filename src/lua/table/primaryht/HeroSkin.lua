@@ -359,7 +359,6 @@ return {
         },
         icon = "icon/role/dress/11207s.png",
         accessId = {
-            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_11201",
     },
@@ -507,7 +506,6 @@ return {
         },
         icon = "icon/role/dress/11212s.png",
         accessId = {
-            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_11201",
     },
@@ -728,7 +726,6 @@ return {
         },
         icon = "icon/role/dress/10407s.png",
         accessId = {
-            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_1104",
     },
@@ -1306,7 +1303,7 @@ return {
         },
         icon = "icon/role/dress/10305s.png",
         accessId = {
-            [1] = 310,
+            [1] = 319,
         },
         AngelSkillTree = "Angle_skill_1103",
     },
@@ -1380,7 +1377,7 @@ return {
         },
         icon = "icon/role/dress/10309s.png",
         accessId = {
-            [1] = 310,
+            [1] = 319,
         },
         AngelSkillTree = "Angle_skill_1103",
     },
@@ -2331,7 +2328,7 @@ return {
         },
         icon = "icon/role/dress/10103s.png",
         accessId = {
-            [1] = 305,
+            [1] = 800,
         },
         AngelSkillTree = "Angle_skill_1101",
     },
@@ -2549,7 +2546,7 @@ return {
         },
         icon = "icon/role/dress/10111s.png",
         accessId = {
-            [1] = 310,
+            [1] = 319,
         },
         AngelSkillTree = "Angle_skill_1101",
     },
@@ -3065,7 +3062,7 @@ return {
         },
         icon = "icon/role/dress/10109s.png",
         accessId = {
-            [1] = 310,
+            [1] = 319,
         },
         AngelSkillTree = "Angle_skill_1301",
     },
@@ -4730,7 +4727,6 @@ return {
         },
         icon = "icon/role/dress/10405s.png",
         accessId = {
-            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_1104",
     },
@@ -5395,7 +5391,7 @@ return {
         },
         icon = "icon/role/dress/10505s.png",
         accessId = {
-            [1] = 310,
+            [1] = 319,
         },
         AngelSkillTree = "Angle_skill_1105",
     },

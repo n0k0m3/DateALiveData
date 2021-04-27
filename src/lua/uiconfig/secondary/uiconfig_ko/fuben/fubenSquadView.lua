@@ -12043,7 +12043,7 @@ local t =
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "38",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_equip_tip",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -12053,10 +12053,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 86,
+												PositionX = 67,
 												PositionY = 112,
 											},
-											width = "190",
+											width = "302",
 											ZOrder = "1",
 											components = 
 											{
@@ -12127,7 +12127,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 46,
+														PositionX = 115,
 														PositionY = -4,
 													},
 													width = "28",
