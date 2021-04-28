@@ -284,7 +284,7 @@ local t =
 								relativeToName = "Panel_root",
 							},
 							UItype = "Button",
-							width = "158",
+							width = "135",
 							ZOrder = "1",
 							components = 
 							{
@@ -315,8 +315,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_masterGiveGiftView_1",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -331,7 +331,7 @@ local t =
 									{
 										
 									},
-									width = "146",
+									width = "126",
 									ZOrder = "1",
 								},
 							},
@@ -643,7 +643,7 @@ local t =
 										LeftPositon = 911,
 										TopPosition = 29,
 									},
-									width = "45",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -741,14 +741,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_order_name",
 													nTextAlign = "1",
@@ -766,7 +766,7 @@ local t =
 														PositionX = -16,
 														PositionY = -1,
 													},
-													width = "86",
+													width = "66",
 													ZOrder = "1",
 												},
 												{
@@ -888,14 +888,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "24",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_order_1",
 															nTextAlign = "1",
@@ -911,7 +911,7 @@ local t =
 															{
 																PositionX = -14,
 															},
-															width = "86",
+															width = "66",
 															ZOrder = "1",
 														},
 														{
@@ -993,14 +993,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "24",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_order_2",
 															nTextAlign = "1",
@@ -1016,7 +1016,7 @@ local t =
 															{
 																PositionX = -14,
 															},
-															width = "86",
+															width = "66",
 															ZOrder = "1",
 														},
 														{
@@ -1100,14 +1100,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_sortRule",
 													nTextAlign = "1",
@@ -1125,7 +1125,7 @@ local t =
 														PositionX = -3,
 														PositionY = -1,
 													},
-													width = "92",
+													width = "71",
 													ZOrder = "1",
 												},
 												{
@@ -1246,14 +1246,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "24",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_nameSelect",
 															nTextAlign = "1",
@@ -1270,7 +1270,7 @@ local t =
 															{
 																
 															},
-															width = "70",
+															width = "49",
 															ZOrder = "1",
 														},
 													},

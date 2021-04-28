@@ -268,10 +268,11 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 266,
-								PositionY = 549,
+								PositionX = 267,
+								PositionY = 551,
 							},
-							width = "56",
+							visible = "False",
+							width = "55",
 							ZOrder = "1",
 						},
 						{
@@ -294,9 +295,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 260,
-								PositionY = 557,
+								PositionX = 261,
+								PositionY = 559,
 							},
+							visible = "False",
 							width = "3",
 							ZOrder = "1",
 						},
@@ -497,7 +499,7 @@ local t =
 									outlineColor = "#FF000000",
 									outlineSize = "1",
 									passwordEnable = "False",
-									placeHolder = "输入玩家ID",
+									placeHolder = "플레이어 ID 입력",
 									shadowColor = "#FF000000",
 									shadowHeight = "0",
 									shadowWidth = "0",
@@ -505,7 +507,6 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "0",
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
@@ -1129,7 +1130,7 @@ local t =
 												PositionX = -260,
 												PositionY = 7,
 											},
-											width = "215",
+											width = "217",
 											ZOrder = "1",
 										},
 										{
@@ -1221,7 +1222,7 @@ local t =
 												PositionX = 38,
 												PositionY = 7,
 											},
-											width = "62",
+											width = "69",
 											ZOrder = "1",
 										},
 										{
@@ -1815,7 +1816,7 @@ local t =
 												PositionX = 450,
 												PositionY = 42,
 											},
-											width = "13",
+											width = "12",
 											ZOrder = "1",
 											components = 
 											{
@@ -1855,7 +1856,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "名师等级：",
+													text = "훌륭한 스승 레벨",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1863,7 +1864,7 @@ local t =
 														PositionX = -54,
 														PositionY = 1,
 													},
-													width = "90",
+													width = "138",
 													ZOrder = "1",
 												},
 											},

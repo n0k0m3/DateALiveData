@@ -67,4 +67,8 @@ return {
         id = 17,
         isopen = 0,
     },
+    [18] = {
+        id = 18,
+        isopen = 0,
+    },
 }

@@ -4934,7 +4934,7 @@ return {
             periodTime = 15,
             openinglevel = 10,
             lineTime = 3,
-            open = 0,
+            open = 1,
             apprenticeLevel = {
                 [1] = 61,
                 [2] = 999,

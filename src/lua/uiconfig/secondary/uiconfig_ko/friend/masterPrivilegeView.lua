@@ -236,13 +236,14 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 402,
+								PositionX = 403,
 								PositionY = 480,
 								LeftPositon = 196,
 								TopPosition = 82,
 								relativeToName = "Panel",
 							},
-							width = "56",
+							visible = "False",
+							width = "55",
 							ZOrder = "1",
 						},
 						{
@@ -265,9 +266,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 396,
+								PositionX = 397,
 								PositionY = 487,
 							},
+							visible = "False",
 							width = "3",
 							ZOrder = "1",
 						},
@@ -502,14 +504,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "名师   奖励",
+											text = "훌륭한 스승    보상",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 137,
 											},
-											width = "108",
+											width = "167",
 											ZOrder = "1",
 										},
 										{
@@ -554,7 +556,7 @@ local t =
 											{
 												PositionX = 191,
 											},
-											width = "9",
+											width = "12",
 											ZOrder = "1",
 										},
 									},
@@ -1049,7 +1051,7 @@ local t =
 											{
 												PositionY = -6,
 											},
-											width = "28",
+											width = "32",
 											ZOrder = "1",
 										},
 									},
@@ -1117,15 +1119,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "升级经验：",
+											text = "업그레이드 경험치",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -167,
-												PositionY = 23,
+												PositionX = -140,
+												PositionY = 39,
 											},
-											width = "99",
+											width = "160",
 											ZOrder = "1",
 										},
 										{
@@ -1163,7 +1165,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "新晋导师",
+											text = "새로운 지도교사",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1171,7 +1173,7 @@ local t =
 												PositionX = -116,
 												PositionY = -26,
 											},
-											width = "91",
+											width = "145",
 											ZOrder = "1",
 											components = 
 											{
@@ -1211,14 +1213,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "教官称谓：",
+													text = "교관 호칭",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = -51,
 													},
-													width = "99",
+													width = "86",
 													ZOrder = "1",
 												},
 											},
@@ -1323,7 +1325,7 @@ local t =
 												PositionX = 242,
 												PositionY = 37,
 											},
-											width = "84",
+											width = "87",
 											ZOrder = "1",
 										},
 									},
@@ -1429,7 +1431,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "名师   奖励",
+													text = "훌륭한 스승    보상",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1437,7 +1439,7 @@ local t =
 														PositionX = -52,
 														PositionY = -1,
 													},
-													width = "108",
+													width = "167",
 													ZOrder = "1",
 												},
 												{
@@ -1484,7 +1486,7 @@ local t =
 														PositionY = -1,
 													},
 													visible = "False",
-													width = "9",
+													width = "12",
 													ZOrder = "1",
 												},
 											},

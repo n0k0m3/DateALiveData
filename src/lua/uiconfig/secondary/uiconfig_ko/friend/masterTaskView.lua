@@ -206,10 +206,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -267,
-										PositionY = 230,
+										PositionX = -266,
+										PositionY = 233,
 									},
-									width = "34",
+									width = "35",
 									ZOrder = "1",
 								},
 								{
@@ -232,8 +232,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -272,
-										PositionY = 237,
+										PositionX = -271,
+										PositionY = 240,
 									},
 									width = "3",
 									ZOrder = "1",
@@ -971,7 +971,7 @@ local t =
 																	{
 																		PositionY = -1,
 																	},
-																	width = "44",
+																	width = "46",
 																	ZOrder = "1",
 																},
 															},
@@ -1130,7 +1130,7 @@ local t =
 												LeftPositon = 271,
 												TopPosition = 77,
 											},
-											width = "137",
+											width = "139",
 											ZOrder = "1",
 										},
 									},
@@ -1170,7 +1170,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "我是任务，我是任务我是任务我是任务我我是任务我是任务我是任务……",
+									text = "TextLable",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1730,7 +1730,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "已毕业",
+							text = "기졸업",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -1739,7 +1739,7 @@ local t =
 								PositionY = 96,
 							},
 							visible = "False",
-							width = "80",
+							width = "73",
 							ZOrder = "1",
 						},
 					},
@@ -1902,7 +1902,7 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+									backGroundScale9Enable = "False",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
@@ -1919,11 +1919,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 921,
+										PositionX = 944,
 										PositionY = 31,
 									},
 									UItype = "Button",
-									width = "151",
+									width = "100",
 									ZOrder = "1",
 									components = 
 									{
@@ -1947,15 +1947,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "19",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_friendView_1",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1970,7 +1970,7 @@ local t =
 											{
 												
 											},
-											width = "134",
+											width = "107",
 											ZOrder = "1",
 										},
 									},
@@ -2018,7 +2018,7 @@ local t =
 										PositionX = 743,
 										PositionY = 31,
 									},
-									width = "29",
+									width = "28",
 									ZOrder = "1",
 								},
 								{

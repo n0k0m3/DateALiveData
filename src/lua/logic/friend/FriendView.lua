@@ -46,18 +46,16 @@ function FriendView:initData(selectIndex)
         }
     }
 
-    -- TOOD CLOSE
-    -- 屏蔽师徒系统
-    -- if Utils:getKVP(90023,"open") == 1 and MainPlayer:getPlayerLv() >= Utils:getKVP(90023, "openinglevel") then
-    --     table.insert(self.tabData_,{
-    --         text = 1340000,
-    --         title = 700031,
-    --         heading = 700004,
-    --         icon = "ui/friend/master/icon.png",
-    --         bIcon = "icon/system/045.png",
-    --         type_ = EC_Friend.MASTER,
-    --     })
-    -- end
+    if Utils:getKVP(90023,"open") == 1 and MainPlayer:getPlayerLv() >= Utils:getKVP(90023, "openinglevel") then
+        table.insert(self.tabData_,{
+            text = 1340000,
+            title = 700031,
+            heading = 700004,
+            icon = "ui/friend/master/icon.png",
+            bIcon = "icon/system/045.png",
+            type_ = EC_Friend.MASTER,
+        })
+    end
     
     self.ruleText_ = {700057, 700058, 700060, 700061}
 

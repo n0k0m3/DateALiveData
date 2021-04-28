@@ -59,4 +59,16 @@ return {
         id = 15,
         isopen = 1,
     },
+    [16] = {
+        id = 16,
+        isopen = 1,
+    },
+    [17] = {
+        id = 17,
+        isopen = 1,
+    },
+    [18] = {
+        id = 18,
+        isopen = 1,
+    },
 }

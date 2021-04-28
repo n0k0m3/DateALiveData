@@ -407,7 +407,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 202,
+										PositionX = 130,
 										PositionY = 69,
 									},
 									vAlignment = "1",
@@ -609,12 +609,12 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "             is available for download, Would you like to update now?",
+									text = "is available for download. Would you like to update now?",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 291,
+										PositionX = 320,
 										PositionY = 56,
 									},
 									width = "400",
