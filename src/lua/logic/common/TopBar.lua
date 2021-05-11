@@ -74,16 +74,14 @@ function TopBar:initUI(ui)
                             Utils:sendHttpLog("Diamond")
                         else
                             if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
---								if EC_SItemType.POWER == v[1] then
---									Utils:openView("common.BuyPhysicalPowerView", v[1])
---								else
-									Utils:openView("common.BuyResourceView", v[1])
---								end
-                                if v[1] == EC_SItemType.POWER then
+								if EC_SItemType.POWER == v[1] then
+									Utils:openView("common.BuyTiliLayer", v[1])
                                     Utils:sendHttpLog("strength")
-                                elseif v[1] == EC_SItemType.GOLD then
+								else
+									Utils:openView("common.BuyResourceView", v[1])
                                     Utils:sendHttpLog("gold")
-                                end
+
+								end
                             else
                                 Utils:showTips(800021)
                             end

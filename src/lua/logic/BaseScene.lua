@@ -249,6 +249,20 @@ function BaseScene:initLanguageLabel( )
         if SaveManager then
             local account,_ = SaveManager:getUserInfoDemo()
             text = text .." (" ..account ..")"
+
+            if LogonHelper then
+                local group_id = LogonHelper:getGroupId()
+                local serverId = LogonHelper:getServerId()
+                local groupCfgId = LogonHelper:getGroupCfgId()
+                if group_id and groupCfgId then
+                    local groupName = ServerDataMgr:getGroupNameById(groupCfgId, group_id)
+                    local serverName = ServerDataMgr:getServerNameById(groupCfgId, serverId)
+                    text = text ..groupName
+                    if serverName and serverName ~= "" then
+                        text = text .."_" ..serverName
+                    end
+                end
+            end
         end
         self.languageLabel:setText(text)
         self.languageLabel:enableStroke(ccc3(0, 0, 0), 1)
@@ -262,6 +276,20 @@ function BaseScene:changeGameLanguage()
             if SaveManager then
                 local account,_ = SaveManager:getUserInfoDemo()
                 text = text .." (" ..account ..")"
+
+                if LogonHelper then
+                    local group_id = LogonHelper:getGroupId()
+                    local serverId = LogonHelper:getServerId()
+                    local groupCfgId = LogonHelper:getGroupCfgId()
+                    if group_id and groupCfgId then
+                        local groupName = ServerDataMgr:getGroupNameById(groupCfgId, group_id)
+                        local serverName = ServerDataMgr:getServerNameById(groupCfgId, serverId)
+                        text = text ..groupName
+                        if serverName and serverName ~= "" then
+                            text = text .."_" ..serverName
+                        end
+                    end
+                end
             end
             self.languageLabel:setText(text)
         end

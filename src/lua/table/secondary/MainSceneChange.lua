@@ -2248,7 +2248,7 @@ return {
     },
     [1309005] = {
         unlockHint = 1713501,
-        sortForMainScene = 4,
+        sortForMainScene = 0,
         id = 1309005,
         backgroundEffect = {
         },
@@ -2621,7 +2621,7 @@ return {
         groupBelong = 10014,
         describe = 190000421,
         background = "ui/mainLayer/new_ui_en_1/bg_shengdan.png",
-        icon = "icon/datingSceneIcon/bg_shengdan.png",
+        icon = "icon/datingSceneIcon/bg_shengdan1.png",
         EXA = 11061,
     },
     [1314301] = {
@@ -2642,12 +2642,12 @@ return {
         groupBelong = 10014,
         describe = 190000401,
         background = "ui/mainLayer/new_ui_en_1/bg_shengdan.png",
-        icon = "icon/datingSceneIcon/bg_shengdan.png",
+        icon = "icon/datingSceneIcon/bg_shengdan1.png",
         EXA = 11061,
     },
     [1314010] = {
         unlockHint = 1705453,
-        sortForMainScene = 5,
+        sortForMainScene = 0,
         id = 1314010,
         backgroundEffect = {
         },
@@ -2668,7 +2668,7 @@ return {
     },
     [1314009] = {
         unlockHint = 1705448,
-        sortForMainScene = 4,
+        sortForMainScene = 0,
         id = 1314009,
         backgroundEffect = {
         },

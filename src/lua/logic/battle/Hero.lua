@@ -146,32 +146,7 @@ function Hero:ctor(data,team,host)
     self.limitArea = self.data.limitArea
     self.area = self.data.area
 
-    --检查是否有词缀
-    self:checkMonsterAffixs()
-
-    --基础属性
-    self.property = Property.new()
-    self.property:parseFrom(self.data,host)
-    if self.data.unlimitedHp == 2 then --指定血量
-        local _attrs = battleController.getSpecifyMonsterInfo(self.data.id)
-        if _attrs then 
-            for k ,v in pairs(_attrs) do
-                if k < 50 then 
-                    self.property:setBaseValue(k,v)
-                else 
-                    self.property:setValue(k,v)
-                end
-            end
-        end
-    end
-    if self.data.__hp then 
-        self.property:setValue(eAttrType.ATTR_NOW_HP,self.data.__hp)
-    end
-    self.property:setListener(handler(self.onAttrTrigger,self))
-
-    self:addExtraProperty()
-
-    self.bufferEffectMap = {}
+     self.bufferEffectMap = {}
 
     self.skillMap = {}  --key类型
     self.skillList = {}
@@ -182,6 +157,7 @@ function Hero:ctor(data,team,host)
     self.pathList  = {}
     --移动状态
     self.moveState = -1
+
     --浮空保护时间
     self.nFloatTime = 0
     --记录和动作相关的音效，动作切换时停止未播放完的音效
@@ -189,8 +165,6 @@ function Hero:ctor(data,team,host)
 
     -- 出生计时
     self.showTiming_ = 0
-    --记录出生时间
-    self.nBornTime    = BattleUtils.gettime()
 
     --释放的技能
     self.skill    = nil
@@ -207,9 +181,6 @@ function Hero:ctor(data,team,host)
     -- 是否暂停伤害统计
     self.isHurtValuePause = false
 
-    --附加状态
-    self.stateMgr = StateMgr:new(self)
-
     --记录受击的技能ID
     self.nLastBloodSkillGroupId = 0
 
@@ -217,59 +188,92 @@ function Hero:ctor(data,team,host)
     self.effetList = {}
     --Buffer 列表
     self.bufferList     = {}
-    self:createBufferList()
 
-    --切换角色冷却管理器
-    local roleType = self.data.roleType
-    if roleType == eRoleType.Hero then
-        if self.data.enterField > 0 then
-            self.countDown = CountDown:create(self.data.enterField)
-            self.countDown:setListener(handler(self.onCountDown,self))
+    --检查是否有词缀
+    self:checkMonsterAffixs()
+    if team then
+        --记录出生时间
+        self.nBornTime    = BattleUtils.gettime()
+        --基础属性
+        self.property = Property.new()
+        self.property:parseFrom(self.data,host)
+        if self.data.unlimitedHp == 2 then --指定血量
+            local _attrs = battleController.getSpecifyMonsterInfo(self.data.id)
+            if _attrs then 
+                for k ,v in pairs(_attrs) do
+                    if k < 50 then 
+                        self.property:setBaseValue(k,v)
+                    else 
+                        self.property:setValue(k,v)
+                    end
+                end
+            end
         end
+
+        if self.data.__hp then 
+            self.property:setValue(eAttrType.ATTR_NOW_HP,self.data.__hp)
+        end
+        self.property:setListener(handler(self.onAttrTrigger,self))
+
+        self:addExtraProperty()
+        --附加状态
+        self.stateMgr = StateMgr:new(self)
+        self:createBufferList()
+
+        --切换角色冷却管理器
+        local roleType = self.data.roleType
+        if roleType == eRoleType.Hero then
+            if self.data.enterField > 0 then
+                self.countDown = CountDown:create(self.data.enterField)
+                self.countDown:setListener(handler(self.onCountDown,self))
+            end
+        end
+            --附加状态 then return end
+        --创建技能
+        self:createSkills()
+        --创建Actor
+        self:createActor()
+
+        self:createFSM()
+
+
+        --敌方队伍不需要播放战斗结束动画
+        if not self.data.isPlayVictorAction then
+            self:setFlag(eFlag.EndOfBattle)
+            self:setFlag(eFlag.PlayedEndAction)
+        end
+
+        --能量获取/消耗处理
+        if self.data.heroPower and self.data.heroPower > 0 then
+            self.energyData = BattleDataMgr:getEnergyData(self.data.heroPower,self:getAngleDatas())
+            self.energyMgr = Energy:new(self.energyData,self)
+        end
+        if self.data.stiffness and self.data.stiffness > 0 then
+            self.superArmorMgr = SuperArmor:new(self)
+        end
+
+        -- 寻路检测计时
+        self.pathCheckTiming = 0
+        -- 寻路检测间隔时间
+        self.pathCeckInterval = 1000
+
+        --AI操作数容器
+        self.AIStepDatas = {}
+        self.AIStepCD = 0
+        self.aiUseSkillTime = 10000
+
+        self.preCastSkillData = {}
+
+        --互斥音效列表
+        self.effectMutexList = {}
+        self.recorder = Recorder:new()
+
+        if BattleDataMgr:isMusicGameLevel() then
+             self:setPracticeInfinite(true)
+        end
+        self.skillDamageFlag = 0  --AI技能是否造成伤害
     end
-    --创建技能
-    self:createSkills()
-    --创建Actor
-    self:createActor()
-
-    self:createFSM()
-
-
-    --敌方队伍不需要播放战斗结束动画
-    if not self.data.isPlayVictorAction then
-        self:setFlag(eFlag.EndOfBattle)
-        self:setFlag(eFlag.PlayedEndAction)
-    end
-
-    --能量获取/消耗处理
-    if self.data.heroPower and self.data.heroPower > 0 then
-        self.energyData = BattleDataMgr:getEnergyData(self.data.heroPower,self:getAngleDatas())
-        self.energyMgr = Energy:new(self.energyData,self)
-    end
-    if self.data.stiffness and self.data.stiffness > 0 then
-        self.superArmorMgr = SuperArmor:new(self)
-    end
-
-    -- 寻路检测计时
-    self.pathCheckTiming = 0
-    -- 寻路检测间隔时间
-    self.pathCeckInterval = 1000
-
-    --AI操作数容器
-    self.AIStepDatas = {}
-    self.AIStepCD = 0
-    self.aiUseSkillTime = 10000
-
-    self.preCastSkillData = {}
-
-    --互斥音效列表
-    self.effectMutexList = {}
-    self.recorder = Recorder:new()
-
-    if BattleDataMgr:isMusicGameLevel() then
-         self:setPracticeInfinite(true)
-    end
-    self.skillDamageFlag = 0  --AI技能是否造成伤害
+    self.eventData_ = {}
 
 end
 --锤子的范围
@@ -975,6 +979,11 @@ function Hero:onAStateClear(state)
                 self:doEvent(eStateEvent.BH_FLOAT,data)
             end
         end
+    elseif state == eAState.E_STATE_84 then
+        self:doEvent(eStateEvent.BH_STAND)
+        if self.aiAgent then
+            self.aiAgent:next()
+        end
     end
 end
 
@@ -997,6 +1006,9 @@ function Hero:onAStateDel(state,objectID)
     elseif state == eAState.E_PARALYSIS then --麻痹
         self:onStateRemoveTrigger(state)
     elseif state == eAState.E_JING_ZHI then --静止
+        self:onStateRemoveTrigger(state)
+    elseif state == eAState.E_STATE_84 then --静止
+        self.actor:playStand() 
         self:onStateRemoveTrigger(state)
     elseif state == eAState.E_MEI_HUO then --魅惑
         self:onStateRemoveTrigger(state)
@@ -1092,7 +1104,19 @@ function Hero:onAStateAdd(state,objectID)
         --     end
         -- end
         self:removeAllEffect()
-
+    elseif state == eAState.E_STATE_84 then
+        --移除所有特效
+        -- local effectList = effectMgr:getObjects()
+        -- for i = #effectList , 1 , -1 do
+        --     local effect = effectList[i]
+        --     if effect and effect.srcHero == self then
+        --         effect:preRemove()
+        --         -- effectMgr:remove(effect)
+        --     end
+        -- end
+        self.actor:stopAni()
+        self:removeAllEffect()
+        self:cleanPath()
     elseif state >= eAState.E_SKILLTYPE_1_DISABLE and state <= eAState.E_SKILLTYPE_7_DISABLE then
         -- for key,v in pairs(skill_type_disable) do
         --     if v == state then
@@ -1463,8 +1487,9 @@ function Hero:calcPointTargetTypes()
     end
     return pointTargetTypes
 end
---302
-function Hero:createBufferList()
+
+
+function Hero:getBufferIds()
     --技能buff 相关
     local buffIds = {}
     ---关卡buffer 加成
@@ -1564,6 +1589,14 @@ function Hero:createBufferList()
         table.insert(buffIdList,id)
     end
     table.sort(buffIdList)
+    dump(buffIdList," "..self:getName())
+    -- Box("xxx::"..tostring(self:getName()))
+    return buffIdList
+end
+--302
+function Hero:createBufferList()
+    --技能buff 相关
+    local buffIdList = self:getBufferIds()
     for i, id in ipairs(buffIdList) do
         local buffer = Buffer.create(id,self)
         buffer:addToMgr()
@@ -2324,25 +2357,17 @@ function Hero:onBorn(callback)
     --0 特效 1只播动作   2 特效和动作同时播
     local bornType = self.data.bornEffect
     if bornType == 0 then
+        self.actor:playStand()
+        self.actor.skeletonNode:show()
         local bornEffect = self.data.currencybornEffect
         local bornAction = self.data.currencybornAction
-        --_print("bornEffect"..tostring(bornEffect).." bornAction"..tostring(bornAction))
-            -- 通用出场特效
+        if bornEffect ~= "" then
             local scale        = BattleConfig.MODAL_SCALE* self:getSkeletonNodeScale()
             local skeletonNode = self.actor:playEffect(bornEffect,scale,bornAction,onFunc)
-            --TODO 10帧开始显示角色
-            -- local count = 0
-            -- self.actor:OnFrame(function( ... )
-            --     count = count + 1
-            --     if count > 11 then
-            --         self.actor.skeletonNode:show()
-            --         self.actor:OnFrame(nil)
-            --     end
-            -- end)
             __setSkeletonNodeDir(skeletonNode,self:getDir())
-            self.actor:playStand()
-            self.actor.skeletonNode:show()
-        -- else
+        else
+            onFunc()
+        end
     elseif bornType == 1 then
         self.actor.skeletonNode:show()
         self.actor:playBorn(onFunc)
@@ -3006,6 +3031,7 @@ function Hero:update(time)
             --清理负面状态
             self:clearAState(eAState.E_DONG_JIE)
             self:clearAState(eAState.E_JING_ZHI)
+            self:clearAState(eAState.E_STATE_84)
             self:clearAState(eAState.E_XUAN_YUN)
             self:clearAState(eAState.E_PARALYSIS)
         end
@@ -3022,7 +3048,7 @@ function Hero:update(time)
         end
     end
 
-    if not self:isAState(eAState.E_JING_ZHI) then
+    if not (self:isAState(eAState.E_JING_ZHI) or self:isAState(eAState.E_STATE_84)) then
         if state == eState.ST_FLOAT then
             --浮空时间计算
             self:doFloatingProtection(time)
@@ -3061,7 +3087,19 @@ function Hero:update(time)
                 return    
             end 
             if not self:isManual() then
-                self:autoMove(time)
+                if battleController.isLockStep() then
+                    if LockStep.JumpFrame then
+                        if not self.autoMoveOnframe then
+                            self.autoMoveOnframe = true
+                            self:autoMove(time)
+                        end
+                    else
+                        self.autoMoveOnframe = false
+                        self:autoMove(time)
+                    end
+                else
+                    self:autoMove(time)
+                end
                -- _print("_____________autoMove_______________")
             end
         end
@@ -3073,7 +3111,19 @@ function Hero:update(time)
         if self:isManual() then
             self:handlMove(time)
         else
-            self:ai(time)
+            if battleController.isLockStep() then
+                if LockStep.JumpFrame then
+                    if not self.runAiOnframe then
+                        self.runAiOnframe = true
+                        self:ai(time)
+                    end
+                else
+                    self.runAiOnframe = false
+                    self:ai(time)
+                end
+            else
+                self:ai(time)
+            end
             -- _print("_____________ai_______________")
         end
     else
@@ -3707,6 +3757,9 @@ function Hero:canCast(skill)
     if self:isAState(eAState.E_JING_ZHI) then
         return false
     end
+    if self:isAState(eAState.E_STATE_84) then
+        return false
+    end
     if self:isAState(eAState.E_DONG_JIE) then
         return false
     end
@@ -3859,7 +3912,7 @@ function me.pGetDistanceX(p1,p2)
 end
 
 function Hero:doHurtAction(data)
-    if self:isAState(eAState.E_DONG_JIE) or self:isAState(eAState.E_JING_ZHI) then
+    if self:isAState(eAState.E_DONG_JIE) or self:isAState(eAState.E_JING_ZHI) or self:isAState(eAState.E_STATE_84) then
         return
     end
     -- self:getActor():fixPosition()
@@ -4095,6 +4148,7 @@ end
 function Hero:canMove()
     if self:isAState(eAState.E_DONG_JIE) or
         self:isAState(eAState.E_JING_ZHI) or
+        self:isAState(eAState.E_STATE_84) or
         self:isAState(eAState.E_PARALYSIS) or
         self:isAState(eAState.E_XUAN_YUN) then
         return false
@@ -4162,13 +4216,6 @@ function Hero:move(xv,yv,fix)
         --         self:setDir(eDir.LEFT)
         --     end
         -- end
-        local moveSpeed = self:getMoveSpeed()
-        local flag = moveSpeed*xv
-        if flag < 0 then
-            self:setDir(eDir.LEFT)
-        elseif flag > 0 then
-            self:setDir(eDir.RIGHT)
-        end
         -- self:actor:playMove()
         -- EventTrigger:_onChangePos(self)
     end
@@ -4269,13 +4316,29 @@ function Hero:handlMove(time)
         if vector.x ~= 0 or vector.y ~= 0 then
             if xv~=0 or yv ~=0 then
                 self:move(xv,yv,true)
+            end
+            
+            local flag = xv* self:getMoveSpeed()
+            if self.skill then
+                local skillCfg = self.skill.skillCfg
+                local skillActionCfg = BattleDataMgr:getActionData(skillCfg.first, self:getAngleDatas())
+                if skillActionCfg.moveType and skillActionCfg.moveType == 5 then
+                    
+                else
+                    if  flag > 0 then 
+                        self:setDir(eDir.RIGHT)
+                    elseif flag < 0 then
+                        self:setDir(eDir.LEFT)
+                    end 
+                end
             else
-                if vector.x > 0 then 
+                if  flag > 0 then 
                     self:setDir(eDir.RIGHT)
-                elseif vector.x < 0 then
+                elseif flag < 0 then
                     self:setDir(eDir.LEFT)
                 end 
             end
+
             if state ~= eState.ST_SKILL and state ~= eState.ST_MOVEEX then
                 self:doEvent(eStateEvent.BH_MOVEEX)
             end
@@ -4752,6 +4815,28 @@ function Hero:pathMove(time)
         if xv ~= 0 or yv ~= 0 then 
             self:move(xv,yv)
         end
+
+        local flag = xv* self:getMoveSpeed()
+        if self.skill then
+            local skillCfg = self.skill.skillCfg
+            local skillActionCfg = BattleDataMgr:getActionData(skillCfg.first, self:getAngleDatas())
+            if skillActionCfg.moveType and skillActionCfg.moveType == 5 then
+            else
+                if  flag > 0 then 
+                    self:setDir(eDir.RIGHT)
+                elseif flag < 0 then
+                    self:setDir(eDir.LEFT)
+                end 
+            end
+        else
+            if  flag > 0 then 
+                self:setDir(eDir.RIGHT)
+            elseif flag < 0 then
+                self:setDir(eDir.LEFT)
+            end 
+        end
+       
+
         pos       = self:getPosition3D()
         distance  = me.pGetDistance(targetPos,pos)
         if distance < 1 then
@@ -4764,7 +4849,7 @@ function Hero:pathMove(time)
     end
 end
 function Hero:autoMove(time)
-    if self:isAState(eAState.E_STOP_MOVE) then
+    if self:isAState(eAState.E_STOP_MOVE) or self:isAState(eAState.E_STATE_84) then
         self.pathList= {}
     end
 
@@ -4964,7 +5049,7 @@ function Hero:ai(dt)
     if self:getState() == eState.ST_BORN then 
         return
     end
-    if self:isAState(eAState.E_JING_ZHI) or self:isAState(eAState.E_DONG_JIE) then
+    if self:isAState(eAState.E_JING_ZHI) or self:isAState(eAState.E_DONG_JIE) or self:isAState(eAState.E_STATE_84) then
         return
     end
     if EventTrigger:isRunning() then
@@ -5134,13 +5219,22 @@ function Hero:onEventTrigger(event,target,param)
         --记录命中
         self:setFlag(eFlag.HITED)
     end
+    
+    if self.skill then
+        self.skill:onEventTrigger(self,event,target,param)
+    end
 
+    self:doBuffEvent(event,target,param)
+end
+
+function Hero:doBuffEvent(event,target,param)
     bufferMgr:walk(function(buffer)
         buffer:onEventTrigger(self,event,target,param)
     end)
     self:walkBufferEffectWalk(function (effect)
         effect:onEventTrigger(self,event,target,param)
     end)
+
     --能量获取和消耗
     if self.energyMgr then
         self.energyMgr:onEvent(event)
@@ -5148,6 +5242,11 @@ function Hero:onEventTrigger(event,target,param)
     if self.superArmorMgr then
         self.superArmorMgr:onEvent(event)
     end
+
+
+    --todo  添加技能检测事件触发机制
+    
+
 end
 -- 属性变更
 function Hero:onAttrTrigger(attrType,value, event)
@@ -5182,30 +5281,32 @@ function Hero:doAttrTrigger()
     -- TFTime:b()
     local _attrTypeList = self.attrTypeList
     self.attrTypeList = {}
-    bufferMgr:walk(function(buffer)
-        for i, attrType in ipairs(_attrTypeList) do
-            buffer:onAttrTrigger(self,attrType,0)
-        end
-    end)
-    self:walkBufferEffectWalk(function(effect)
-        for i, attrType in ipairs(_attrTypeList) do
-            effect:onAttrTrigger(self,attrType,0)
-        end
-    end)
-    for i, attrType in ipairs(_attrTypeList) do
-        if attrType == eAttrType.ATTR_NOW_HP
-        or attrType == eAttrType.ATTR_NOW_AGR
-        or attrType == eAttrType.ATTR_NOW_SLD
-        or attrType == eAttrType.ATTR_NOW_RST
-        or attrType == eAttrType.ATTR_DESPAIR
-        or attrType == eAttrType.ATTR_NOW_ENERGY
-        or attrType == eAttrType.ATTR_SUPER_ENERGY 
-        or attrType == eAttrType.ATTR_SUPER_ENERGY_LEVEL then
-            EventMgr:dispatchEvent(eEvent.EVENT_HERO_ATTR_CHANGE,self)
-            if self.superArmorMgr then
-                self.superArmorMgr:onAttrChange(attrType)
+    if #_attrTypeList > 0 then
+        bufferMgr:walk(function(buffer)
+            for i, attrType in ipairs(_attrTypeList) do
+                buffer:onAttrTrigger(self,attrType,0)
             end
-            break
+        end)
+        self:walkBufferEffectWalk(function(effect)
+            for i, attrType in ipairs(_attrTypeList) do
+                effect:onAttrTrigger(self,attrType,0)
+            end
+        end)
+        for i, attrType in ipairs(_attrTypeList) do
+            if attrType == eAttrType.ATTR_NOW_HP
+            or attrType == eAttrType.ATTR_NOW_AGR
+            or attrType == eAttrType.ATTR_NOW_SLD
+            or attrType == eAttrType.ATTR_NOW_RST
+            or attrType == eAttrType.ATTR_DESPAIR
+            or attrType == eAttrType.ATTR_NOW_ENERGY
+            or attrType == eAttrType.ATTR_SUPER_ENERGY 
+            or attrType == eAttrType.ATTR_SUPER_ENERGY_LEVEL then
+                EventMgr:dispatchEvent(eEvent.EVENT_HERO_ATTR_CHANGE,self)
+                if self.superArmorMgr then
+                    self.superArmorMgr:onAttrChange(attrType)
+                end
+                break
+            end
         end
     end
     -- TFTime:e(self:getName().."[doAttrTrigger]")
@@ -5306,6 +5407,7 @@ function Hero:setControl(tarPos)
         hero:forceClearAState_(eAState.E_XUAN_YUN)
         hero:forceClearAState_(eAState.E_PARALYSIS)
         hero:forceClearAState_(eAState.E_JING_ZHI)
+        hero:forceClearAState_(eAState.E_STATE_84)
         hero:forceClearAState_(eAState.E_STOP_MOVE)
         local state = hero:getState()  --原角色处于进场和离场状态 不切换
         if state == eState.ST_DEPARTURE then
@@ -5702,6 +5804,9 @@ function Hero:act_playEffect(id,type_, effectName, animationName, order, loopTim
     local effect = ResLoader.createEffect(effectName, scale)
     if type_ == 1 then    -- 时间
         BattleTimerManager:addTimer(loopTime, 1, function()
+                                        if effect.resPath then
+                                            ResLoader.addCacheSpine(effect,effect.resPath)
+                                        end
                                         effect:removeFromParent()
         end)
         effect:play(animationName, true)
@@ -5712,6 +5817,9 @@ function Hero:act_playEffect(id,type_, effectName, animationName, order, loopTim
             function()
                 count = count + 1
                 if count >= loopTime then
+                    if effect.resPath then
+                        ResLoader.addCacheSpine(effect,effect.resPath)
+                    end
                     effect:removeFromParent()
                 else
                     effect:play(animationName)
@@ -6355,7 +6463,7 @@ function Hero:fix_boss(heroId, posX , posY , dir , hp , sp)
     local curHp = self:getHp()
     if curHp > 0 and hp then
         local lose = hp - curHp
-        if  lose < 0 then
+        if  lose < 0 and lose > -1000000 then
             self:setValue(eAttrType.ATTR_NOW_HP,hp,true)
             if battleController.isShowFixHurt() then
                 self:showDamage(lose) --显示掉血
@@ -6471,5 +6579,14 @@ function Hero:interruptAIStep()
     self:doEvent(eStateEvent.BH_STAND)
 end
 
+function Hero:moveToPosAction(pos)
+    self:setPosition3D(pos.x)
+    local function onFunc()
+        self:endToAI()
+    end
+    local scale        = BattleConfig.MODAL_SCALE* self:getSkeletonNodeScale()
+    local skeletonNode = self.actor:playEffect("effects_11201_quickmove",scale,"diceng",onFunc)
+    __setSkeletonNodeDir(skeletonNode,self:getDir())
+end
 
 return Hero

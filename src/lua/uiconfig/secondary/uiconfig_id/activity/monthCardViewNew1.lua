@@ -3669,6 +3669,7 @@ local t =
 												PositionX = -3,
 												PositionY = 5,
 											},
+											visible = "False",
 											width = "408",
 											ZOrder = "1",
 										},
@@ -3999,7 +4000,7 @@ local t =
 											bIsOpenClipping = "True",
 											bounceEnable = "False",
 											classname = "MEScrollView",
-											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											colorType = "1;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 											direction = "2",
 											dstBlendFunc = "771",
 											height = "75",
@@ -4032,11 +4033,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "52",
-											ignoreSize = "True",
+											height = "67",
+											ignoreSize = "False",
 											name = "Image_extraTipsBg",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -4047,7 +4048,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -131,
-												PositionY = 53,
+												PositionY = 58,
 											},
 											width = "132",
 											ZOrder = "1",
@@ -4094,8 +4095,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 20,
-														PositionY = 2,
+														PositionX = 19,
+														PositionY = -10,
 													},
 													width = "26",
 													ZOrder = "1",
@@ -4141,6 +4142,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -26,
+														PositionY = 12,
 													},
 													width = "68",
 													ZOrder = "1",
@@ -4185,7 +4187,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 47,
+														PositionX = 46,
+														PositionY = -12,
 													},
 													width = "31",
 													ZOrder = "1",

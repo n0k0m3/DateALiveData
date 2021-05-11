@@ -872,21 +872,13 @@ function AmusementPackActor:playEffect(effectName, followDir, effectScale, isLoo
 				_skeletonNode:play(_skeletonNode.loopAni,true)
 				return
 			end
-			self:addCacheSpine(_skeletonNode,effectName)
+			ResLoader.addCacheSpine(_skeletonNode,effectName)
 			_skeletonNode:removeFromParent()
 		end)
 	end
 	return skeletonNode
 end
 
-function AmusementPackActor:addCacheSpine( skeletonNode, resPath )
-	-- body
-	ResLoader.cacheSpine[resPath] = ResLoader.cacheSpine[resPath] or {}
-	if #ResLoader.cacheSpine[resPath] <= 20 then -- 同一个spine 最多缓存20个
-		table.insert(ResLoader.cacheSpine[resPath],skeletonNode)
-		skeletonNode:retain()
-	end
-end
 
 function AmusementPackActor:doEvent( eventName, ... )
 	-- body
@@ -1090,7 +1082,7 @@ function AmusementPackActor:removeActor( ... )
 	self.aiModel = nil
 	self.manualAITab = nil
 	if self.skeletonNode then -- 缓存现有spine 备用
-		self:addCacheSpine(self.skeletonNode,self.resPath)
+		ResLoader.addCacheSpine(self.skeletonNode,self.resPath)
 	end
 	self.super.removeActor(self)
 end

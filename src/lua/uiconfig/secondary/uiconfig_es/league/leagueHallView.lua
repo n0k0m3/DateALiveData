@@ -1443,6 +1443,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1000",
 							ZOrder = "1",
 							components = 
@@ -2298,7 +2299,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1030",
 							ZOrder = "1",
 							components = 
@@ -4152,7 +4152,7 @@ local t =
 																	controlID = "Label_leagueHallView_1_Panel_country_panel_scroll_ScrollView_leagueHallView_1_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
 																	UUID = "db145c8e_56fc_4dd3_8206_2c7b86f32e18",
 																	anchorPoint = "False",
-																	anchorPointX = "1",
+																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
 																	classname = "MELabel",
 																	compPath = "luacomponents.common.MEIconLabel",
@@ -4188,7 +4188,7 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 266,
+																		PositionX = 256,
 																		PositionY = 31,
 																	},
 																	width = "31",

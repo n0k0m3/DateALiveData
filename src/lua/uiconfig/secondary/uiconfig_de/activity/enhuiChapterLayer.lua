@@ -204,7 +204,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_tip",
 									nTextAlign = "1",
@@ -213,14 +213,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "恩惠试炼",
+									text = "Grace Trails",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = -185,
 									},
-									width = "91",
+									width = "142",
 									ZOrder = "1",
 								},
 								{
@@ -249,7 +249,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_diff",
 									nTextAlign = "1",
@@ -266,7 +266,7 @@ local t =
 										PositionX = 136,
 										PositionY = -2,
 									},
-									width = "26",
+									width = "18",
 									ZOrder = "1",
 								},
 								{
@@ -292,7 +292,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -70,
+										PositionX = -18,
 									},
 									UItype = "Button",
 									width = "32",
@@ -392,7 +392,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_tip",
 									nTextAlign = "1",
@@ -401,14 +401,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "通关基础伟业奖励：",
+									text = "Stage Exploit Reward",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = -185,
 									},
-									width = "187",
+									width = "248",
 									ZOrder = "1",
 								},
 								{
@@ -437,7 +437,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_baseNum",
 									nTextAlign = "1",
@@ -454,7 +454,7 @@ local t =
 										PositionX = 136,
 										PositionY = -2,
 									},
-									width = "26",
+									width = "18",
 									ZOrder = "1",
 								},
 							},
@@ -628,7 +628,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_lv",
 									nTextAlign = "1",
@@ -645,7 +645,7 @@ local t =
 										PositionX = 79,
 										PositionY = 18,
 									},
-									width = "61",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
@@ -667,14 +667,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_tip1",
 									nTextAlign = "1",
@@ -683,7 +683,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "伟业：",
+									text = "Exploit",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -691,7 +691,7 @@ local t =
 										PositionX = 257,
 										PositionY = 17,
 									},
-									width = "45",
+									width = "48",
 									ZOrder = "1",
 								},
 								{
@@ -737,7 +737,7 @@ local t =
 										PositionX = 311,
 										PositionY = 16,
 									},
-									width = "60",
+									width = "67",
 									ZOrder = "1",
 								},
 								{
@@ -775,7 +775,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "战力：",
+									text = "BP",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -783,7 +783,7 @@ local t =
 										PositionX = 77,
 										PositionY = -7,
 									},
-									width = "45",
+									width = "23",
 									ZOrder = "1",
 								},
 								{
@@ -829,7 +829,7 @@ local t =
 										PositionX = 128,
 										PositionY = -8,
 									},
-									width = "39",
+									width = "42",
 									ZOrder = "1",
 								},
 								{
@@ -1124,7 +1124,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_lv",
 									nTextAlign = "1",
@@ -1141,7 +1141,7 @@ local t =
 										PositionX = 79,
 										PositionY = 18,
 									},
-									width = "61",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
@@ -1163,14 +1163,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_tip1",
 									nTextAlign = "1",
@@ -1179,7 +1179,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "伟业：",
+									text = "Exploit",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1187,7 +1187,7 @@ local t =
 										PositionX = 257,
 										PositionY = 17,
 									},
-									width = "45",
+									width = "48",
 									ZOrder = "1",
 								},
 								{
@@ -1233,7 +1233,7 @@ local t =
 										PositionX = 311,
 										PositionY = 16,
 									},
-									width = "60",
+									width = "67",
 									ZOrder = "1",
 								},
 								{
@@ -1271,7 +1271,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "战力：",
+									text = "BP",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1279,7 +1279,7 @@ local t =
 										PositionX = 77,
 										PositionY = -7,
 									},
-									width = "45",
+									width = "23",
 									ZOrder = "1",
 								},
 								{
@@ -1325,7 +1325,7 @@ local t =
 										PositionX = 128,
 										PositionY = -8,
 									},
-									width = "39",
+									width = "42",
 									ZOrder = "1",
 								},
 								{
@@ -1620,7 +1620,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_lv",
 									nTextAlign = "1",
@@ -1637,7 +1637,7 @@ local t =
 										PositionX = 79,
 										PositionY = 18,
 									},
-									width = "61",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
@@ -1659,14 +1659,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_tip1",
 									nTextAlign = "1",
@@ -1675,7 +1675,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "伟业：",
+									text = "Exploit",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1683,7 +1683,7 @@ local t =
 										PositionX = 257,
 										PositionY = 17,
 									},
-									width = "45",
+									width = "48",
 									ZOrder = "1",
 								},
 								{
@@ -1729,7 +1729,7 @@ local t =
 										PositionX = 311,
 										PositionY = 16,
 									},
-									width = "60",
+									width = "67",
 									ZOrder = "1",
 								},
 								{
@@ -1767,7 +1767,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "战力：",
+									text = "BP",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1775,7 +1775,7 @@ local t =
 										PositionX = 77,
 										PositionY = -7,
 									},
-									width = "45",
+									width = "23",
 									ZOrder = "1",
 								},
 								{
@@ -1821,7 +1821,7 @@ local t =
 										PositionX = 128,
 										PositionY = -8,
 									},
-									width = "39",
+									width = "42",
 									ZOrder = "1",
 								},
 								{
@@ -1998,15 +1998,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_ready",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -2014,14 +2014,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "进入准备",
+									text = "Ready to Enter",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -1,
 									},
-									width = "107",
+									width = "120",
 									ZOrder = "1",
 								},
 							},
@@ -2077,15 +2077,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_ready",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -2093,14 +2093,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "进入准备",
+									text = "Ready to Enter",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -1,
 									},
-									width = "107",
+									width = "120",
 									ZOrder = "1",
 								},
 							},
@@ -2176,7 +2176,7 @@ local t =
 										PositionX = -30,
 										PositionY = -2,
 									},
-									width = "32",
+									width = "30",
 									ZOrder = "1",
 								},
 								{
@@ -2214,7 +2214,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "消耗",
+									text = "Cost",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -2222,7 +2222,7 @@ local t =
 										PositionX = 20,
 										PositionY = -12,
 									},
-									width = "43",
+									width = "39",
 									ZOrder = "1",
 								},
 								{
@@ -2290,7 +2290,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "当前恩惠等级上限：",
+							text = "Max Grace Level",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -2298,7 +2298,7 @@ local t =
 								PositionX = 262,
 								PositionY = 38,
 							},
-							width = "170",
+							width = "135",
 							ZOrder = "1",
 							components = 
 							{
@@ -2345,7 +2345,7 @@ local t =
 									{
 										PositionX = 179,
 									},
-									width = "13",
+									width = "12",
 									ZOrder = "1",
 								},
 								{

@@ -24,6 +24,8 @@ end
 function LandTurnTabletRankView:initUI(ui)
     self.super.initUI(self,ui)
 
+    TFDirector:getChildByPath(ui , "Label_landTurnTabletRankView_1-Copy3"):hide()  --英文版屏蔽渠道服标签
+    
     self.tableView = Utils:scrollView2TableView(self._ui.ScrollView_content)
     self.tableView:onNumberOfCells(function()
         return table.count(self.rankData)
@@ -118,6 +120,7 @@ function LandTurnTabletRankView:updateCell(cell, idx)
     end
 
     lab_cannel:setText(stringId)
+    lab_cannel:hide()  --英文版屏蔽渠道服标签
     lab_playerName:setText(data.playerName)
     lab_rankTxt:setText(data.rank)
     local iconSrc = nil

@@ -252,7 +252,7 @@ local t =
 								PositionX = -349,
 								PositionY = 192,
 							},
-							width = "372",
+							width = "348",
 							ZOrder = "1",
 							components = 
 							{
@@ -360,7 +360,7 @@ local t =
 									{
 										
 									},
-									width = "115",
+									width = "107",
 									ZOrder = "1",
 								},
 							},
@@ -424,7 +424,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_refresh",
 									nTextAlign = "1",
@@ -440,7 +440,7 @@ local t =
 									{
 										
 									},
-									width = "143",
+									width = "108",
 									ZOrder = "1",
 								},
 							},
@@ -564,7 +564,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									HitType = 
 									{
 										nHitType = 1,
@@ -588,7 +588,7 @@ local t =
 									{
 										PositionX = -3,
 									},
-									width = "170",
+									width = "141",
 									ZOrder = "1",
 								},
 							},
@@ -853,7 +853,7 @@ local t =
 										PositionX = -278,
 										PositionY = 10,
 									},
-									width = "171",
+									width = "168",
 									ZOrder = "1",
 								},
 								{
@@ -899,14 +899,14 @@ local t =
 										PositionX = -276,
 										PositionY = -35,
 									},
-									width = "50",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_members_Panel_league_item_Panel_prefab_Panel-JoinLeagueLayer_Layer1_league_Game",
 									UUID = "6a12fc0d_f567_43e3_a3a6_3974b3de6bb2",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -942,10 +942,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 240,
+										PositionX = 329,
 										PositionY = 45,
 									},
-									width = "117",
+									width = "109",
 									ZOrder = "1",
 								},
 								{
@@ -1037,7 +1037,7 @@ local t =
 										PositionX = -50,
 										PositionY = -35,
 									},
-									width = "125",
+									width = "113",
 									ZOrder = "1",
 								},
 								{
@@ -1083,7 +1083,7 @@ local t =
 										PositionX = 336,
 										PositionY = 45,
 									},
-									width = "52",
+									width = "51",
 									ZOrder = "1",
 								},
 								{
@@ -1129,7 +1129,7 @@ local t =
 										PositionX = 107,
 										PositionY = 10,
 									},
-									width = "42",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -1184,14 +1184,14 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
 									height = "44",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Button_aply",
 									normal = "ui/common/button_small_blue_n.png",
 									sizepercentx = "0",
@@ -1201,11 +1201,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 320,
-										PositionY = -10,
+										PositionX = 309,
+										PositionY = -33,
 									},
 									UItype = "Button",
-									width = "108",
+									width = "166",
 									ZOrder = "1",
 									components = 
 									{
@@ -1252,7 +1252,7 @@ local t =
 											{
 												
 											},
-											width = "167",
+											width = "154",
 											ZOrder = "1",
 										},
 									},
@@ -1300,7 +1300,7 @@ local t =
 										PositionX = 320,
 										PositionY = -10,
 									},
-									width = "82",
+									width = "81",
 									ZOrder = "1",
 								},
 								{
@@ -1309,14 +1309,14 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
 									height = "44",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Button_join",
 									normal = "ui/common/button_small_blue_n.png",
 									sizepercentx = "0",
@@ -1326,11 +1326,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 320,
-										PositionY = -10,
+										PositionX = 312,
+										PositionY = -33,
 									},
 									UItype = "Button",
-									width = "108",
+									width = "166",
 									ZOrder = "1",
 									components = 
 									{
@@ -1377,7 +1377,7 @@ local t =
 											{
 												
 											},
-											width = "104",
+											width = "95",
 											ZOrder = "1",
 										},
 									},

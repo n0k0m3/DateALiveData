@@ -139,8 +139,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -195,
-										PositionY = -72,
+										PositionX = 100,
+										PositionY = -62,
 									},
 									uipanelviewmodel = 
 									{
@@ -154,7 +154,7 @@ local t =
 									controlID = "Label_timing_Image_bg_Panel_root_Panel-addRechargeActivityView_Layer1_activity_Game",
 									UUID = "69b0e525_5119_42ff_a49c_46b2897ee505",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -190,10 +190,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -437,
-										PositionY = 243,
+										PositionX = 431,
+										PositionY = 251,
 									},
-									width = "212",
+									width = "213",
 									ZOrder = "1",
 								},
 								{
@@ -240,7 +240,7 @@ local t =
 										PositionY = 26,
 									},
 									visible = "False",
-									width = "1272",
+									width = "1178",
 									ZOrder = "1",
 								},
 								{
@@ -287,7 +287,7 @@ local t =
 										PositionY = -228,
 									},
 									visible = "False",
-									width = "809",
+									width = "873",
 									ZOrder = "1",
 								},
 								{
@@ -330,10 +330,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 241,
-										PositionY = -208,
+										PositionX = -213,
+										PositionY = -209,
 									},
-									width = "86",
+									width = "89",
 									ZOrder = "1",
 								},
 								{
@@ -361,8 +361,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -200,
-										PositionY = -210,
+										PositionX = 321,
+										PositionY = -234,
 									},
 									UItype = "Button",
 									width = "262",
@@ -396,7 +396,7 @@ local t =
 								StrokeColor = "#FF4A43AC",
 								StrokeSize = 2,
 							},
-							height = "36",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_addRechargeActivityView_1",
 							nTextAlign = "1",
@@ -413,7 +413,7 @@ local t =
 								PositionX = -398,
 								PositionY = -218,
 							},
-							width = "168",
+							width = "170",
 							ZOrder = "1",
 						},
 					},
@@ -604,7 +604,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "131",
+											width = "142",
 											ZOrder = "1",
 										},
 									},
@@ -749,7 +749,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "111",
+											width = "124",
 											ZOrder = "1",
 										},
 									},
@@ -901,7 +901,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "88",
+							width = "127",
 							ZOrder = "1",
 							components = 
 							{
@@ -955,11 +955,13 @@ local t =
 											height = "122",
 											ignoreSize = "True",
 											name = "Image_geted",
+											scaleX = "0.2",
+											scaleY = "0.2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/activity/fanshiAssist/addRecharge/02.png",
+											texturePath = "ui/activity/add_recharge/005.png",
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
@@ -1010,7 +1012,7 @@ local t =
 											{
 												PositionY = 9,
 											},
-											width = "108",
+											width = "118",
 											ZOrder = "1",
 										},
 									},
@@ -1064,8 +1066,8 @@ local t =
 											sizeType = "0",
 											spineModel = 
 											{
-												SpinePath = "effect/ui_fanzhehuodong_gift/ui_fanzhehuodong_gift",
-												animationName = "animation2",
+												SpinePath = "effect/ui_task_gift/ui_task_gift",
+												animationName = "animation",
 												IsLoop = true,
 												IsPlay = true,
 												IsUseQueue = false,
@@ -1097,7 +1099,9 @@ local t =
 											height = "122",
 											ignoreSize = "True",
 											name = "Button_get",
-											normal = "ui/activity/fanshiAssist/addRecharge/03.png",
+											normal = "ui/activity/add_recharge/006.png",
+											scaleX = "0.2",
+											scaleY = "0.2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1153,7 +1157,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "92",
+											width = "103",
 											ZOrder = "1",
 										},
 									},
@@ -1208,11 +1212,13 @@ local t =
 											height = "122",
 											ignoreSize = "True",
 											name = "Image_notGet",
+											scaleX = "0.2",
+											scaleY = "0.2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/activity/fanshiAssist/addRecharge/03.png",
+											texturePath = "ui/activity/add_recharge/007.png",
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
@@ -1288,8 +1294,9 @@ local t =
 			"ui/task/box_3.png",
 			"ui/task/box_2.png",
 			"ui/task/box_1.png",
-			"ui/activity/fanshiAssist/addRecharge/02.png",
-			"ui/activity/fanshiAssist/addRecharge/03.png",
+			"ui/activity/add_recharge/005.png",
+			"ui/activity/add_recharge/006.png",
+			"ui/activity/add_recharge/007.png",
 		},
 		armatures = 
 		{

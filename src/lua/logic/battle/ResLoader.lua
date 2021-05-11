@@ -8,8 +8,12 @@ local eEffectType = enum.eEffectType
 local _print = print
 local print = BattleUtils.print
 _print = print
+local effectLoadNum = 5
+local hurtEffectLoadNum = 40
+local buffEffectLoadNum = 10
 local ResLoader = {}
 ResLoader.cacheSpine = {}
+ResLoader.loadSpineNum = {}
 local eLoadType =
 {
     LT_SYNC  = 1 , --同步加载
@@ -20,8 +24,33 @@ ResLoader.loadType   = eLoadType.LT_SYNC
 ResLoader.Interval   = 1 --1000/GameConfig.FPS
 ResLoader.IS_PRELOAD_SKILL_EFFECT = true --是否预加载技能特效
 ResLoader.IS_AUTO_RELEASE = false
+ResLoader.SAVE_SPINENODE = true  --是否缓存spine动画
+ResLoader.LOAD_SKILLEFFECT = true  --是否缓存spine动画
+ResLoader.LOAD_BUFFEFFECT = false  --是否缓存spine动画
+ResLoader.LOAD_HURTEFFECT = true  --是否缓存spine动画
+
+local memerySize = {1500,1000,800}
+
+function checkMemeryFreeNum( ... )
+    -- body
+    local freeMem = tonumber(substringForMemoryExpression(TFDeviceInfo.getFreeMem()))
+    if freeMem > memerySize[1]*1024 then
+        ResLoader.LOAD_SKILLEFFECT = true  --是否缓存spine动画
+        ResLoader.LOAD_BUFFEFFECT = true  --是否缓存spine动画
+        ResLoader.LOAD_HURTEFFECT = true  --是否缓存spine动画
+    elseif freeMem > memerySize[2]*1024 then
+        ResLoader.LOAD_SKILLEFFECT = false  --是否缓存spine动画
+        ResLoader.LOAD_BUFFEFFECT = true  --是否缓存spine动画
+        ResLoader.LOAD_HURTEFFECT = true  --是否缓存spine动画
+    elseif freeMem > memerySize[3]*1024 then 
+        ResLoader.LOAD_SKILLEFFECT = false  --是否缓存spine动画
+        ResLoader.LOAD_BUFFEFFECT = false  --是否缓存spine动画
+        ResLoader.LOAD_HURTEFFECT = true  --是否缓存spine动画
+    end
+end
 
 if TFDeviceInfo.isLowDevice() then 
+    ResLoader.SAVE_SPINENODE = false
     ResLoader.IS_PRELOAD_SKILL_EFFECT = false
     ResLoader.IS_AUTO_RELEASE = true
     print_("LowDevice not pre load")
@@ -68,6 +97,8 @@ end
 
 --战斗资源列表
 function ResLoader.createResList(data)
+    ResLoader.loadSpineNum = {}
+    checkMemeryFreeNum()
     local roleNameMap = {} --角色 模型
 
     --所有技能
@@ -78,8 +109,158 @@ function ResLoader.createResList(data)
         local formData = TabDataMgr:getData("HeroForm",heroData.beginForm)
         roleNameMap[formData.model] = formData.model
     end
+
+    local loadSkillEffectResource,loadBufferEffectResource,loadSkillHurtResource,loadBufferResource
+    local loadedSkillEffectIds = {}
+    local loadedBuffEffectIds = {}
+
+    loadSkillEffectResource = function (heroData, effectId)
+        if loadedSkillEffectIds[effectId] then return end
+        loadedSkillEffectIds[effectId] = true
+        local effectData = BattleDataMgr:getEffectData(effectId,heroData.angleDatas)
+        if not effectData then
+            Box("effect "..tostring(effectId).." not found")
+        else
+            if effectData.hurtList then
+                for k,hurtId in pairs(effectData.hurtList) do
+                    if hurtId > 0 then
+                        loadSkillHurtResource(heroData, hurtId)
+                    end
+                end
+            end
+
+            if effectData.triggerEffects then
+                for k,effectId in pairs(effectData.triggerEffects) do
+                    loadSkillEffectResource(heroData, effectId)
+                end
+            end
+
+            if effectData.triggernewEffects then
+                for k,effectId in pairs(effectData.triggernewEffects) do
+                    loadSkillEffectResource(heroData, effectId)
+                end
+            end
+
+            if ResLoader.LOAD_SKILLEFFECT then 
+                if ResLoader.isValid(effectData.resource) then
+                    effecNameMap[effectData.resource] = effectData.resource
+                    ResLoader.loadSpineNum[effectData.resource] = ResLoader.loadSpineNum[effectData.resource] or 0
+                    ResLoader.loadSpineNum[effectData.resource] = math.max(ResLoader.loadSpineNum[effectData.resource] , effectLoadNum)
+                end
+
+                if ResLoader.isValid(effectData.endEffect) then
+                   effecNameMap[effectData.endEffect] =effectData.endEffect
+                end
+            end
+
+            if ResLoader.LOAD_HURTEFFECT then 
+                if ResLoader.isValid(effectData.hurtEffect) then
+                    effecNameMap[effectData.hurtEffect]=effectData.hurtEffect
+                    ResLoader.loadSpineNum[effectData.hurtEffect] = ResLoader.loadSpineNum[effectData.hurtEffect] or 0
+                    ResLoader.loadSpineNum[effectData.hurtEffect] = math.max(ResLoader.loadSpineNum[effectData.hurtEffect] ,hurtEffectLoadNum)
+                end
+            end
+        end
+    end
+
+    loadBufferResource = function (heroData, buffId)
+        local data = TabDataMgr:getData("Buffer",buffId)
+        if not data then return end
+        for _k, effectId in ipairs(data.effects) do
+            loadBufferEffectResource(heroData,effectId)
+        end
+        --随机buffer effect
+        if data.randomEffects then
+            for _k,effects in ipairs(data.randomEffects) do
+                for __k, effectId in ipairs(effects) do 
+                    loadBufferEffectResource(heroData,effectId)
+                end
+            end
+        end
+    end
+
+    loadBufferEffectResource = function (heroData, effectId)
+        if loadedBuffEffectIds[effectId] then return end
+        loadedBuffEffectIds[effectId] = true
+
+        local effectCfg   = TabDataMgr:getData("BufferEffect",effectId)
+        if not effectCfg then return end
+        if  ResLoader.LOAD_BUFFEFFECT then 
+
+            if effectCfg.effectList then
+                for __k, resId in pairs(effectCfg.effectList) do
+                    local resCfg = TabDataMgr:getData("BufferEffectList",resId)
+
+                    if resCfg and ResLoader.isValid(resCfg.resource) then
+                        effecNameMap[resCfg.resource] = resCfg.resource
+                        ResLoader.loadSpineNum[resCfg.resource] = ResLoader.loadSpineNum[resCfg.resource] or 0
+                        ResLoader.loadSpineNum[resCfg.resource] = math.max(ResLoader.loadSpineNum[resCfg.resource] ,buffEffectLoadNum)
+                    end
+                end
+            end
+
+            if ResLoader.isValid(effectCfg.resource1) then
+                effecNameMap[effectCfg.resource1] = effectCfg.resource1
+                ResLoader.loadSpineNum[effectCfg.resource1] = ResLoader.loadSpineNum[effectCfg.resource1] or 0
+                ResLoader.loadSpineNum[effectCfg.resource1] = math.max(ResLoader.loadSpineNum[effectCfg.resource1] ,buffEffectLoadNum)
+            end
+
+            if ResLoader.isValid(effectCfg.resource2) then
+                effecNameMap[effectCfg.resource2] = effectCfg.resource2
+                ResLoader.loadSpineNum[effectCfg.resource2] = ResLoader.loadSpineNum[effectCfg.resource2] or 0
+                ResLoader.loadSpineNum[effectCfg.resource2] = math.max(ResLoader.loadSpineNum[effectCfg.resource2] ,buffEffectLoadNum)
+            end
+        end
+
+
+        if effectCfg.newEffectIds then
+            for ___k,effectId in pairs(effectCfg.newEffectIds) do
+                loadBufferEffectResource(heroData,effectId)
+            end
+        end
+
+        if effectCfg.actionId then
+            for ___k,effectId in pairs(effectCfg.actionId) do
+                loadSkillEffectResource(heroData,effectId)
+            end
+        end
+    end
+
+    loadSkillHurtResource = function (heroData, hurtId )
+        -- body
+        local hurtData = BattleDataMgr:getHurtData(hurtId,heroData.angleDatas)
+         if not hurtData then
+            Box("hurt "..tostring(hurtId).." not found")
+        else
+            if hurtData.nohitbuffId then
+                for k,buffId in pairs(hurtData.nohitbuffId) do
+                    if buffId > 100 then
+                        loadBufferResource(heroData, buffId)
+                    end
+                end
+            end
+
+            if hurtData.buffId then
+                for k,buffId in pairs(hurtData.buffId) do
+                    if buffId > 100 then
+                        loadBufferResource(heroData, buffId)
+                    end
+                end
+            end
+            
+            if hurtData.backbuffId then
+                for k,buffId in pairs(hurtData.backbuffId) do
+                    if buffId > 100 then
+                        loadBufferResource(heroData, buffId)
+                    end
+                end
+            end
+        end
+    end
+
     local function createOne(heroData)
         --预加载初始形态的资源
+
         local formData = TabDataMgr:getData("HeroForm",heroData.beginForm)
         roleNameMap[formData.model] = formData.model
         --TODO 默认技能资源预加载 未处理完成
@@ -87,7 +268,9 @@ function ResLoader.createResList(data)
         if ResLoader.IS_PRELOAD_SKILL_EFFECT then
             skills = formData.skills 
         end
-        for m , skillId in ipairs(skills) do
+
+        local addSkillEffectIds = {}
+        for m , skillId in ipairs(skills) do  -- 技能特效相关
             local skillData = BattleDataMgr:getSkillData(skillId,heroData.angleDatas)
             --ICON
             if  not  skillData then
@@ -98,49 +281,34 @@ function ResLoader.createResList(data)
             end
             --动作数据
             local actionDatas = BattleDataMgr:getActionDatas(skillId)
-            if not  actionDatas then
-                print("skill action" ..tostring(skillId).." not found")
-                return
-            end
-            for k, actionData in pairs(actionDatas) do
-                -- print("actionData.id::",actionData.id)
-                local actionData = BattleDataMgr:getActionData(actionData.id,heroData.angleDatas)
-                local showData = BattleDataMgr:getShowData(actionData.id)
-                if showData then
-                    -- dump(showData)
-                    for kk, effect in pairs(showData.effectsUp) do
-                        effecNameMap[effect.animation] = effect.animation
-                    end
-                    for kk, effect in pairs(showData.effectsDown) do
-                        effecNameMap[effect.animation] = effect.animation
-                    end
-                    --觉醒模型(角色类型) TODO 和角色模型应该相同????
-                    if showData.showAction then
-                        if ResLoader.isValid(showData.showAction.animation) then
-                            roleNameMap[showData.showAction.animation] = showData.showAction.animation
+            if  actionDatas then
+                for k, actionData in pairs(actionDatas) do
+                    -- print("actionData.id::",actionData.id)
+                    local actionData = BattleDataMgr:getActionData(actionData.id,heroData.angleDatas)
+                    local showData = BattleDataMgr:getShowData(actionData.id)
+                    if showData then
+                        -- dump(showData)
+                        for kk, effect in pairs(showData.effectsUp) do
+                            effecNameMap[effect.animation] = effect.animation
+                        end
+                        for kk, effect in pairs(showData.effectsDown) do
+                            effecNameMap[effect.animation] = effect.animation
+                        end
+                        --觉醒模型(角色类型) TODO 和角色模型应该相同????
+                        if showData.showAction then
+                            if ResLoader.isValid(showData.showAction.animation) then
+                                roleNameMap[showData.showAction.animation] = showData.showAction.animation
+                            end
+                        end
+                        --觉醒音效
+                        if ResLoader.isValid(showData.showSound) then
+                            soundNameMap[showData.showSound] = showData.showSound
                         end
                     end
-                    --觉醒音效
-                    if ResLoader.isValid(showData.showSound) then
-                        soundNameMap[showData.showSound] = showData.showSound
-                    end
-                end
 
                 --包涵特效
-                for i, effectId in ipairs(actionData.includeEffect) do
-                    local effectData = BattleDataMgr:getEffectData(effectId,heroData.angleDatas)
-                    if not effectData then
-                        Box("effect "..tostring(effectId).." not found")
-                    else
-                        if ResLoader.isValid(effectData.resource) then
-                            effecNameMap[effectData.resource] = effectData.resource
-                        end
-                        if ResLoader.isValid(skillData.endEffect) then
-                           effecNameMap[effectData.endEffect] =effectData.endEffect
-                        end
-                        if ResLoader.isValid(skillData.hurtEffect) then
-                            effecNameMap[effectData.hurtEffect]=effectData.hurtEffect
-                        end
+                    for i, effectId in ipairs(actionData.includeEffect) do
+                        loadSkillEffectResource(heroData, effectId)
                     end
                 end
             end
@@ -159,6 +327,11 @@ function ResLoader.createResList(data)
                 end
             end
         end
+
+        for k, buffId in pairs(BattleDataMgr.getHeroBuffIds(heroData)) do 
+            loadBufferResource(heroData, buffId)
+        end
+
     end
     local showAttackEffect = true
     -- if  data.battleType == EC_BattleType.HIGH_TEAM_FIGHT 
@@ -201,9 +374,26 @@ function ResLoader.createResList(data)
         table.insert(resList,createResInfo(eResType.RT_SPINE,actorModel))
     end
     -- TODO临时屏蔽特效预加载
+    effecNameMap["effects_HitLine"] = "effects_HitLine"
+    ResLoader.loadSpineNum["effects_HitLine"] = hurtEffectLoadNum
+    -- TODO临时屏蔽特效预加载
+    effecNameMap["effect_monster_die"] = "effect_monster_die"
+    ResLoader.loadSpineNum["effect_monster_die"] = hurtEffectLoadNum
+
+    effecNameMap["battle_stoic"] = "battle_stoic"
+    ResLoader.loadSpineNum["battle_stoic"] = hurtEffectLoadNum
+
+    effecNameMap["effects_debuff"] = "effects_debuff"
+    ResLoader.loadSpineNum["effects_debuff"] = buffEffectLoadNum
 
     for k , effecName in pairs(effecNameMap) do
+        local tmpName = effecName
         effecName = string.format("effect/%s/%s",effecName,effecName)
+        if ResLoader.loadSpineNum[tmpName] then
+            ResLoader.loadSpineNum[effecName] = ResLoader.loadSpineNum[tmpName]
+            ResLoader.loadSpineNum[tmpName] = nil
+        end
+
         table.insert(resList,createResInfo(eResType.RT_IMAGE,effecName..".png"))
         table.insert(resList,createResInfo(eResType.RT_SPINE,effecName))
     end
@@ -467,8 +657,25 @@ function ResLoader.loadSpine(filePath,scale)
     scale =  scale or 1
     if ResLoader.IS_CACHE_SKELETONODE  then
         ResLoader.getSkeletonNode(filePath)
+        if ResLoader.loadSpineNum[filePath] then
+            for i = 1,ResLoader.loadSpineNum[filePath] do
+                local skeletonNode = ResLoader.getSkeletonNode(filePath)
+                ResLoader.addCacheSpine(skeletonNode,filePath)
+            end
+        end
     else
         SpineCache:getInstance():addFile(filePath..".skel",filePath..".atlas",scale)
+    end
+end
+
+function ResLoader.addCacheSpine( skeletonNode, resPath )
+    -- body
+    if not ResLoader.SAVE_SPINENODE then return end
+    ResLoader.cacheSpine[resPath] = ResLoader.cacheSpine[resPath] or {}
+    if #ResLoader.cacheSpine[resPath] <= math.max(buffEffectLoadNum,hurtEffectLoadNum)*4 then -- 同一个spine 最多缓存20个
+        table.insert(ResLoader.cacheSpine[resPath],skeletonNode)
+        skeletonNode:retain()
+        skeletonNode.resPath = resPath
     end
 end
 --音效
@@ -495,12 +702,41 @@ function ResLoader.createRole(roleName,scale)
     return ResLoader.createSpine(resPath,scale,BattleConfig.TO_SETUP_POSE)
 end
 
-function ResLoader.createEffect(effectName,scale)
+function ResLoader.createEffect(effectName,scale, isInsertCache)
     if not effectName or effectName == "" then
         printError("xxx")
     end
     local resPath = string.format("effect/%s/%s", effectName, effectName)
-    local skeletonNode = ResLoader.createSpine(resPath,scale)
+    local skeletonNode = nil
+    local t1 = os.clock()
+    if ResLoader.cacheSpine[resPath] and #ResLoader.cacheSpine[resPath] >= 1 then
+        print("=========4444444444========")
+        skeletonNode = ResLoader.cacheSpine[resPath][1]
+        skeletonNode:autorelease()
+        table.remove(ResLoader.cacheSpine[resPath],1)
+
+        skeletonNode:removeMEListener(TFARMATURE_EVENT)
+        skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+        skeletonNode:removeMEListener(TFWIDGET_ENTER)
+        skeletonNode:removeMEListener(TFWIDGET_EXIT)
+        skeletonNode:removeMEListener(TFWIDGET_CLEANUP)
+        -- _print("找到 skeleton:"..skeletonNode:retainCount().." "..resPath)
+        --重置位置
+        skeletonNode:setPosition(me.p(0,0))
+        skeletonNode:setAnimationFps(GameConfig.ANIM_FPS)
+        skeletonNode:setColor(me.WHITE)
+        skeletonNode:setRotation(0)
+        skeletonNode:clearTracks()
+        skeletonNode:setScale(scale)
+    else
+        skeletonNode = ResLoader.createSpine(resPath,scale)
+    end
+
+    print("=======111111111111createEffect=========",os.clock() - t1,effectName)
+    if isInsertCache then
+        skeletonNode.resPath = resPath
+    end
+
     skeletonNode:setScheduleUpdateWhenEnter(true)
     BattleMgr.bindSchedule(skeletonNode)
     return skeletonNode
@@ -572,6 +808,15 @@ function ResLoader.clean()
     end
     skeletonNodeCache = {}
     osdRoleResMap  ={}
+
+    if ResLoader.cacheSpine then
+        for k,v in pairs(ResLoader.cacheSpine) do
+            for _k,_v in ipairs(v) do
+                _v:release()
+            end
+        end
+        ResLoader.cacheSpine = {}
+    end
 end
 
 

@@ -756,7 +756,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "19",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1092,14 +1092,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "15",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "17",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_times_txt",
 													nTextAlign = "1",
@@ -1115,7 +1115,7 @@ local t =
 													{
 														PositionX = -10,
 													},
-													width = "202",
+													width = "243",
 													ZOrder = "1",
 												},
 												{

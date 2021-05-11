@@ -282,11 +282,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "115",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_leagueBuildingMainView_3",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -296,9 +296,9 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -271,
+												PositionX = -248,
 											},
-											width = "160",
+											width = "203",
 											ZOrder = "1",
 										},
 										{
@@ -321,7 +321,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -184,
+												PositionX = -163,
 												PositionY = -18,
 											},
 											width = "492",
@@ -377,18 +377,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "23",
+											ignoreSize = "True",
 											name = "Label_activeTitle",
-											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextAlign = "0",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -398,10 +398,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -339,
-												PositionY = 41,
+												PositionX = -350,
+												PositionY = 44,
 											},
-											width = "125",
+											width = "176",
 											ZOrder = "1",
 										},
 										{
@@ -447,7 +447,7 @@ local t =
 												PositionX = -265,
 												PositionY = -5,
 											},
-											width = "81",
+											width = "78",
 											ZOrder = "1",
 										},
 										{
@@ -584,7 +584,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FF3E4474",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -593,7 +593,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -763,7 +763,7 @@ local t =
 												PositionX = 152,
 												PositionY = 533,
 											},
-											width = "174",
+											width = "165",
 											ZOrder = "1",
 										},
 										{
@@ -866,7 +866,7 @@ local t =
 												PositionX = 22,
 												PositionY = 153,
 											},
-											width = "127",
+											width = "126",
 											ZOrder = "1",
 										},
 										{
@@ -912,7 +912,7 @@ local t =
 												PositionX = 280,
 												PositionY = 153,
 											},
-											width = "52",
+											width = "56",
 											ZOrder = "1",
 										},
 										{
@@ -1012,7 +1012,7 @@ local t =
 												PositionX = 152,
 												PositionY = 121,
 											},
-											width = "69",
+											width = "72",
 											ZOrder = "2",
 										},
 										{
@@ -1034,7 +1034,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1045,7 +1045,7 @@ local t =
 											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1056,9 +1056,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 152,
-												PositionY = 61,
+												PositionY = 56,
 											},
-											width = "280",
+											width = "298",
 											ZOrder = "1",
 										},
 									},
@@ -1217,7 +1217,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1378,7 +1378,7 @@ local t =
 										PositionX = 344,
 										PositionY = 49,
 									},
-									width = "28",
+									width = "32",
 									ZOrder = "1",
 								},
 								{
@@ -1504,7 +1504,7 @@ local t =
 											{
 												PositionX = 46,
 											},
-											width = "33",
+											width = "36",
 											ZOrder = "1",
 										},
 									},
@@ -1779,7 +1779,7 @@ local t =
 											{
 												
 											},
-											width = "42",
+											width = "45",
 											ZOrder = "1",
 										},
 									},
@@ -1842,8 +1842,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_receive",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1858,7 +1858,7 @@ local t =
 											{
 												PositionX = 1,
 											},
-											width = "81",
+											width = "94",
 											ZOrder = "1",
 										},
 									},
@@ -1958,7 +1958,7 @@ local t =
 										PositionX = -22,
 										PositionY = 50,
 									},
-									width = "165",
+									width = "146",
 									ZOrder = "1",
 								},
 								{
@@ -2004,7 +2004,7 @@ local t =
 										PositionX = -338,
 										PositionY = 49,
 									},
-									width = "116",
+									width = "107",
 									ZOrder = "1",
 								},
 								{
@@ -2051,7 +2051,7 @@ local t =
 										PositionY = -14,
 									},
 									visible = "False",
-									width = "91",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -2484,7 +2484,7 @@ local t =
 												PositionX = -1,
 												PositionY = -2,
 											},
-											width = "74",
+											width = "72",
 											ZOrder = "1",
 										},
 									},

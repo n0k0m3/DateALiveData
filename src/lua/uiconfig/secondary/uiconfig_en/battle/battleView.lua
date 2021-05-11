@@ -14414,6 +14414,47 @@ local t =
 										},
 									},
 								},
+								{
+									controlID = "Panel_energy_bar_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
+									UUID = "4fbc9909_2a66_4618_907b_b52590422796",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "100",
+									ignoreSize = "False",
+									name = "Panel_energy_bar",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 568,
+										PositionY = 180,
+										BottomPosition = 130,
+										relativeToName = "Panel_top",
+										nType = 3,
+										nGravity = 6,
+										nAlign = 8
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "300",
+									ZOrder = "1",
+								},
 							},
 						},
 						{

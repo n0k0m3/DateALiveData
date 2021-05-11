@@ -739,10 +739,14 @@ function BagView:getCurCapacity(index)
 end
 
 function BagView:updateCapacity()
+    local maxNum = 999
+    if TFGlobalUtils:isConnectKoreaTwServer() then
+        maxNum = 9999
+    end
     local capacity = self:getCurCapacity(self.selectIndex_)
-    self.Label_capacity:setTextById(800005, capacity, 999)
-    self.Label_capacity_percent:setText(string.format("%0.1f",(capacity / 999 * 100)).."%")
-    self.LoadingBar_capacity:setPercent(capacity / 999 * 100)
+    self.Label_capacity:setTextById(800005, capacity, maxNum)
+    self.Label_capacity_percent:setText(string.format("%0.1f",(capacity / maxNum * 100)).."%")
+    self.LoadingBar_capacity:setPercent(capacity / maxNum * 100)
 end
 
 function BagView:showGoodsItem()

@@ -1779,7 +1779,7 @@ return {
     },
     [97] = {
         isOpen = true,
-        openLevel = 99,
+        openLevel = 60,
         isStinger = false,
         id = 97,
         openDun = 0,
@@ -1795,11 +1795,11 @@ return {
             [2] = 270420,
         },
         icon = "",
-        levelType = 2,
+        levelType = 1,
     },
     [98] = {
         isOpen = false,
-        openLevel = 99,
+        openLevel = 4,
         isStinger = false,
         id = 98,
         openDun = 0,
@@ -2398,8 +2398,8 @@ return {
         levelType = 1,
     },
     [153] = {
-        isOpen = false,
-        openLevel = 99,
+        isOpen = true,
+        openLevel = 40,
         isStinger = false,
         id = 153,
         openDun = 0,
@@ -2407,7 +2407,7 @@ return {
         stingerTrigger = {
         },
         serverId = 3,
-        showIcon = false,
+        showIcon = true,
         stingerDating = "",
         name = "",
         unlockExplain = {

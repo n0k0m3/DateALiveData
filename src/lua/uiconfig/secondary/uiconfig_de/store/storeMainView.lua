@@ -2330,7 +2330,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -2342,6 +2342,8 @@ local t =
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -2353,7 +2355,7 @@ local t =
 											{
 												PositionY = 189,
 											},
-											width = "193",
+											width = "239",
 											ZOrder = "1",
 										},
 									},

@@ -63,7 +63,6 @@ function SkillHelpView:refreshView()
 end
 
 function SkillHelpView:onShow()
-	self.super.onShow(self)
 	self:refreshView()
 end
 

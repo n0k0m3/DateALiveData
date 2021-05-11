@@ -1780,7 +1780,7 @@ EC_ActivityType2 = {
     FAN_SHI_DOC = 78,            -- 反十说明
     NEWYEAR_WISH = 79,           -- 新年许愿
     NEWYEAR_BUILDREPAIR = 83,    -- 新年建筑修复
-    HANTER = 85, --狩猎
+    HANTER = 501, --狩猎
     FLOWER_SEND = 82,    -- 情人节鲜花赠送 
 
     GUESS_WORD = 80,             -- 2021答题活动

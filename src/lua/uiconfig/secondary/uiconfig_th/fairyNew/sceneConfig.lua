@@ -80,6 +80,16 @@ local t = {
 			logic="",
 		},
 		{
+			name="evaluationView",
+			ui ="evaluationView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="fairyNew",
+			canLoad=true,
+			logic="",
+		},
+		{
 			name="fairyStrategy",
 			ui ="fairyStrategy.lua",
 			x=0,

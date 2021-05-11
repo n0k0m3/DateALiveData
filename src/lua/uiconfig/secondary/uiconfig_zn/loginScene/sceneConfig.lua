@@ -140,6 +140,16 @@ local t = {
 			logic="",
 		},
 		{
+			name="loginLayerGlobal_1",
+			ui ="loginLayerGlobal_1.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="loginScene",
+			canLoad=true,
+			logic="",
+		},
+		{
 			name="oneYearloginLayer",
 			ui ="oneYearloginLayer.lua",
 			x=0,

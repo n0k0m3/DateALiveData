@@ -144,10 +144,10 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 568,
-								PositionY = 324,
+								PositionY = 320,
 								IsPercent = true,
 								PercentX = 50,
-								PercentY = 50.59,
+								PercentY = 50,
 							},
 							width = "1386",
 							ZOrder = "1",
@@ -158,11 +158,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "31",
-							ignoreSize = "True",
+							height = "66",
+							ignoreSize = "False",
 							name = "img_line_1",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -172,11 +172,11 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 361,
-								PositionY = 464,
+								PositionX = 246,
+								PositionY = 530,
 								relativeToName = "Panel",
 							},
-							width = "4",
+							width = "6",
 							ZOrder = "1",
 						},
 						{
@@ -188,7 +188,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "7",
+							height = "10",
 							ignoreSize = "True",
 							name = "img_line_2",
 							sizepercentx = "0",
@@ -199,11 +199,11 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 568,
-								PositionY = 256,
+								PositionX = 588,
+								PositionY = 214,
 								relativeToName = "Panel",
 							},
-							width = "573",
+							width = "841",
 							ZOrder = "1",
 						},
 						{
@@ -215,7 +215,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF585A6F",
+							FontColor = "#FF63657C",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -225,14 +225,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "28",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "23",
+							height = "32",
 							ignoreSize = "True",
 							name = "label_title",
 							nTextAlign = "1",
@@ -241,15 +241,61 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "地区设置",
+							text = "游戏设置",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 372,
-								PositionY = 460,
+								PositionX = 263,
+								PositionY = 538,
 							},
-							width = "83",
+							width = "114",
+							ZOrder = "1",
+						},
+						{
+							controlID = "label_tip_panel_root_Panel-migrationServerLayer_Layer1_loginScene_Game",
+							UUID = "f2a19253_1d99_4f9b_8eed_f6634e524d23",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0.5",
+							classname = "MELabel",
+							compPath = "luacomponents.common.MEIconLabel",
+							dstBlendFunc = "771",
+							FontColor = "#FF63657C",
+							fontName = "font/fangzheng_zhunyuan.ttf",
+							fontShadow = 
+							{
+								IsShadow = false,
+								ShadowColor = "#FFFFFFFF",
+								ShadowAlpha = 255,
+								OffsetX = 0,
+								OffsetY = 0,
+							},
+							fontSize = "18",
+							fontStroke = 
+							{
+								IsStroke = false,
+								StrokeColor = "#FFE6E6E6",
+								StrokeSize = 1,
+							},
+							height = "0",
+							ignoreSize = "False",
+							name = "label_tip",
+							nTextAlign = "1",
+							nTextHAlign = "0",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "770",
+							text = "(港澳台地区)",
+							touchAble = "False",
+							touchScaleEnable = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 262,
+								PositionY = 506,
+							},
+							width = "700",
 							ZOrder = "1",
 						},
 						{
@@ -264,7 +310,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "45",
+							height = "60",
 							ignoreSize = "False",
 							name = "btn_ok",
 							normal = "ui/migrationServer/migrationServer_11.png",
@@ -276,11 +322,11 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 569,
-								PositionY = 209,
+								PositionX = 589,
+								PositionY = 145,
 							},
 							UItype = "Button",
-							width = "262",
+							width = "385",
 							ZOrder = "1",
 							components = 
 							{
@@ -294,7 +340,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF4E576E",
+									FontColor = "#FF63657C",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -304,14 +350,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "29",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "33",
 									ignoreSize = "True",
 									name = "label_ok",
 									nTextAlign = "1",
@@ -327,7 +373,7 @@ local t =
 									{
 										
 									},
-									width = "48",
+									width = "63",
 									ZOrder = "1",
 								},
 							},
@@ -338,13 +384,13 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+							backGroundScale9Enable = "False",
 							classname = "MEButton",
 							ClickHighLightEnabled = "True",
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "46",
+							height = "70",
 							ignoreSize = "False",
 							name = "btn_pulldown",
 							normal = "ui/migrationServer/migrationServer_9.png",
@@ -356,14 +402,11 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 569,
-								PositionY = 411,
-								IsPercent = true,
-								PercentX = 50.11,
-								PercentY = 64.24,
+								PositionX = 588,
+								PositionY = 439,
 							},
 							UItype = "Button",
-							width = "422",
+							width = "615",
 							ZOrder = "1",
 							components = 
 							{
@@ -378,7 +421,7 @@ local t =
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									flipY = "True",
-									height = "12",
+									height = "18",
 									ignoreSize = "True",
 									name = "img_arrow",
 									rotation = "180",
@@ -390,9 +433,9 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 164,
+										PositionX = 272,
 									},
-									width = "24",
+									width = "35",
 									ZOrder = "1",
 								},
 								{
@@ -414,14 +457,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "29",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "33",
 									ignoreSize = "True",
 									name = "label_title",
 									nTextAlign = "1",
@@ -437,7 +480,7 @@ local t =
 									{
 										
 									},
-									width = "81",
+									width = "116",
 									ZOrder = "1",
 								},
 							},
@@ -450,14 +493,14 @@ local t =
 							anchorPointY = "1",
 							backGroundScale9Enable = "False",
 							bgColorOpacity = "50",
-							bIsOpenClipping = "True",
+							bIsOpenClipping = "False",
 							classname = "MEPanel",
 							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 							DesignHeight = "640",
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "150",
+							height = "140",
 							ignoreSize = "False",
 							name = "panel_window",
 							sizepercentx = "0",
@@ -467,15 +510,15 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 360,
-								PositionY = 386,
+								PositionX = 281,
+								PositionY = 408,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "422",
+							width = "615",
 							ZOrder = "1",
 							components = 
 							{
@@ -485,17 +528,17 @@ local t =
 									UUID = "3f812579_73cd_4cee_9137_cd0f3becc9ac",
 									anchorPoint = "False",
 									anchorPointX = "0",
-									anchorPointY = "0",
+									anchorPointY = "1",
 									backGroundScale9Enable = "False",
 									bgColorOpacity = "50",
 									bIsOpenClipping = "False",
 									classname = "MEPanel",
-									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									colorType = "0;SingleColor:#FFFF0000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 									DesignHeight = "640",
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "50",
+									height = "140",
 									ignoreSize = "False",
 									name = "panel_pullwin",
 									sizepercentx = "0",
@@ -505,14 +548,14 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionY = 1136,
 									},
 									uipanelviewmodel = 
 									{
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "422",
+									width = "615",
 									ZOrder = "1",
 									components = 
 									{
@@ -522,7 +565,7 @@ local t =
 											UUID = "034f2021_fbd1_479b_b06c_19f9983e0fa1",
 											anchorPoint = "False",
 											anchorPointX = "0",
-											anchorPointY = "0",
+											anchorPointY = "1",
 											backGroundScale9Enable = "False",
 											bgColorOpacity = "50",
 											bIsOpenClipping = "True",
@@ -531,10 +574,10 @@ local t =
 											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 											direction = "1",
 											dstBlendFunc = "771",
-											height = "44",
+											height = "140",
 											ignoreSize = "False",
-											innerHeight = "44",
-											innerWidth = "422",
+											innerHeight = "140",
+											innerWidth = "615",
 											name = "scrollView_menu",
 											showScrollbar = "False",
 											sizepercentx = "0",
@@ -551,7 +594,7 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											width = "422",
+											width = "615",
 											ZOrder = "1",
 											components = 
 											{
@@ -564,14 +607,14 @@ local t =
 													anchorPointY = "0",
 													backGroundScale9Enable = "False",
 													bgColorOpacity = "50",
-													bIsOpenClipping = "True",
+													bIsOpenClipping = "False",
 													classname = "MEPanel",
 													colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 													DesignHeight = "640",
 													DesignType = "0",
 													DesignWidth = "960",
 													dstBlendFunc = "771",
-													height = "44",
+													height = "70",
 													ignoreSize = "False",
 													name = "panel_cell",
 													sizepercentx = "0",
@@ -588,7 +631,7 @@ local t =
 														Layout="Absolute",
 														nType = "0"
 													},
-													width = "422",
+													width = "615",
 													ZOrder = "1",
 													components = 
 													{
@@ -602,7 +645,7 @@ local t =
 															backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 															classname = "MEImage",
 															dstBlendFunc = "771",
-															height = "46",
+															height = "70",
 															ignoreSize = "False",
 															name = "img_option",
 															sizepercentx = "0",
@@ -613,9 +656,9 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 211,
+																PositionX = 307,
 															},
-															width = "422",
+															width = "615",
 															ZOrder = "1",
 														},
 														{
@@ -637,14 +680,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "29",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "33",
 															ignoreSize = "True",
 															name = "label_title",
 															nTextAlign = "1",
@@ -658,10 +701,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 211,
-																PositionY = 22,
+																PositionX = 307,
+																PositionY = 35,
 															},
-															width = "81",
+															width = "116",
 															ZOrder = "1",
 														},
 														{
@@ -684,9 +727,9 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 211,
+																PositionX = 307,
 															},
-															width = "422",
+															width = "615",
 															ZOrder = "1",
 														},
 													},
@@ -694,6 +737,61 @@ local t =
 											},
 										},
 									},
+								},
+							},
+						},
+						{
+							controlID = "Image_scrollBarModel_panel_root_Panel-migrationServerLayer_Layer1_loginScene_Game",
+							UUID = "6f42fafb_6196_473b_b1c3_cefed06e8eb4",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							height = "200",
+							ignoreSize = "False",
+							name = "Image_scrollBarModel",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							texturePath = "ui/migrationServer/migrationServer_3.png",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 945,
+								PositionY = 267,
+							},
+							width = "18",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Image_scrollBarInner_Image_scrollBarModel_panel_root_Panel-migrationServerLayer_Layer1_loginScene_Game",
+									UUID = "f7c9e016_ce4b_4f3c_aae9_794dec8a33d3",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "200",
+									ignoreSize = "False",
+									name = "Image_scrollBarInner",
+									sizepercentx = "100",
+									sizepercenty = "100",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/migrationServer/migrationServer_5.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "18",
+									ZOrder = "1",
 								},
 							},
 						},
@@ -750,6 +848,8 @@ local t =
 			"ui/migrationServer/migrationServer_9.png",
 			"ui/migrationServer/migrationServer_8.png",
 			"ui/migrationServer/migrationServer_10.png",
+			"ui/migrationServer/migrationServer_3.png",
+			"ui/migrationServer/migrationServer_5.png",
 			"ui/migrationServer/migrationServer_12.png",
 		},
 		armatures = 

@@ -228,14 +228,14 @@ function flightController.setTiming(bTime)
     if EventTrigger:isRunning() then
         return
     end
-    if bTime then
-        this.adjustSysStartTime()
-    else
-        if this.sysStartTime > this.sysTimeLimit then
-            this.sysStopTime = BattleUtils.gettime()
-        end
-    end
-    BattleMgr.updatePauseState(not bTime)
+    -- if bTime then
+    --     this.adjustSysStartTime()
+    -- else
+    --     if this.sysStartTime > this.sysTimeLimit then
+    --         this.sysStopTime = BattleUtils.gettime()
+    --     end
+    -- end
+    -- BattleMgr.updatePauseState(not bTime)
 
 end
 function flightController.getGlobalFixZ()
@@ -612,17 +612,17 @@ function flightController.getStopTime()
 end
 
 function flightController.pauseOrResume(isPause)
-     if isPause then
-        if this.sysStopTime > this.sysTimeLimit then
-            return
-        end
-        if this.sysStartTime > this.sysTimeLimit then
-            this.sysStopTime = BattleUtils.gettime()
-        end
-    else
-        this.adjustSysStartTime()
-    end
-    BattleMgr.updatePauseState(isPause)
+    --  if isPause then
+    --     if this.sysStopTime > this.sysTimeLimit then
+    --         return
+    --     end
+    --     if this.sysStartTime > this.sysTimeLimit then
+    --         this.sysStopTime = BattleUtils.gettime()
+    --     end
+    -- else
+    --     this.adjustSysStartTime()
+    -- end
+    -- BattleMgr.updatePauseState(isPause)
 end
 
 function flightController.adjustSysStartTime()

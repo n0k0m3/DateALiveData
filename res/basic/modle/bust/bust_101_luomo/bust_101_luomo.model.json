@@ -1,0 +1,19 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"bust_101_luomo.moc",
+	"textures":[
+		"bust_101_luomo.1024/texture_00.png",
+		"bust_101_luomo.1024/texture_01.png"
+	],
+	"motions":{
+		"id_dress_black":[
+			{"file":"motions/id_dress_black.mtn","fade_in":0,"fade_out":0}
+		],
+		"id_dress_black1":[
+			{"file":"motions/id_dress_black1.mtn","fade_in":0,"fade_out":0}
+		]
+	},
+	"physics":"physics.json",
+	"project_settings":"bust_101_luomo.settings.json",
+	"name":"bust_101_luomo"
+}

@@ -948,7 +948,7 @@ local t =
 														PositionY = 116,
 													},
 													vAlignment = "0",
-													width = "460",
+													width = "430",
 													ZOrder = "1",
 												},
 												{
@@ -1067,7 +1067,7 @@ local t =
 														PositionY = -71,
 													},
 													vAlignment = "0",
-													width = "460",
+													width = "430",
 													ZOrder = "1",
 												},
 												{

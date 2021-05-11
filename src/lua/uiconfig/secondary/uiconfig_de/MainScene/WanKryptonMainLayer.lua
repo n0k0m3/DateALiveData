@@ -3114,7 +3114,7 @@ local t =
 													DesignType = "0",
 													DesignWidth = "960",
 													dstBlendFunc = "771",
-													height = "84",
+													height = "100",
 													ignoreSize = "False",
 													name = "PageView_Activity",
 													sizepercentx = "0",
@@ -3124,15 +3124,15 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = -82,
-														PositionY = -35,
+														PositionX = -216,
+														PositionY = -48,
 													},
 													uipanelviewmodel = 
 													{
 														Layout="Absolute",
 														nType = "0"
 													},
-													width = "306",
+													width = "441",
 													ZOrder = "1",
 												},
 												{

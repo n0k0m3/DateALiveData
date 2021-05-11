@@ -250,10 +250,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 318,
+								PositionX = 327,
 								PositionY = 541,
 							},
-							width = "150",
+							width = "172",
 							ZOrder = "1",
 						},
 						{
@@ -353,7 +353,7 @@ local t =
 								PositionY = 534,
 							},
 							visible = "False",
-							width = "120",
+							width = "119",
 							ZOrder = "1",
 						},
 						{
@@ -431,7 +431,7 @@ local t =
 									{
 										
 									},
-									width = "103",
+									width = "99",
 									ZOrder = "1",
 								},
 							},
@@ -511,7 +511,7 @@ local t =
 									{
 										
 									},
-									width = "102",
+									width = "96",
 									ZOrder = "1",
 								},
 							},
@@ -577,7 +577,7 @@ local t =
 							ignoreSize = "False",
 							name = "Label_change",
 							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -633,10 +633,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 628,
-								PositionY = 474,
+								PositionX = 627,
+								PositionY = 500,
 							},
-							width = "80",
+							width = "74",
 							ZOrder = "1",
 						},
 						{
@@ -679,8 +679,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 341,
-								PositionY = 474,
+								PositionX = 340,
+								PositionY = 500,
 							},
 							width = "70",
 							ZOrder = "1",
@@ -705,8 +705,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 481,
-								PositionY = 474,
+								PositionX = 480,
+								PositionY = 500,
 							},
 							width = "40",
 							ZOrder = "1",
@@ -726,7 +726,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "42",
+							height = "50",
 							ignoreSize = "False",
 							name = "Panel_att_item",
 							sizepercentx = "0",
@@ -770,7 +770,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 46,
-										PositionY = 20,
+										PositionY = 25,
 									},
 									width = "21",
 									ZOrder = "1",
@@ -794,18 +794,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_att_desc",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -816,9 +816,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 65,
-										PositionY = 20,
+										PositionY = 25,
 									},
-									width = "101",
+									width = "168",
 									ZOrder = "1",
 								},
 							},
@@ -849,7 +849,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 218,
-								PositionY = 236,
+								PositionY = 246,
 							},
 							uipanelviewmodel = 
 							{
@@ -931,7 +931,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 496,
-								PositionY = 236,
+								PositionY = 246,
 							},
 							uipanelviewmodel = 
 							{

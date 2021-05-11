@@ -238,7 +238,7 @@ local t =
 									{
 										PositionY = 20,
 									},
-									width = "52",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
@@ -281,10 +281,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -388,
+										PositionX = -329,
 										PositionY = 19,
 									},
-									width = "44",
+									width = "49",
 									ZOrder = "1",
 								},
 							},
@@ -324,7 +324,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "리소스 다운로드 중",
+							text = "추가 리소스 다운로드 중입니다",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -332,7 +332,7 @@ local t =
 								PositionX = 127,
 								PositionY = 29,
 							},
-							width = "140",
+							width = "225",
 							ZOrder = "1",
 						},
 					},

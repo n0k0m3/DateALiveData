@@ -62,9 +62,10 @@ function VideoView:stopVideo()
         callBackfun_()
     end
 
-    if self.danmuMark then
-        self.danmuMark:removeEvents()
-    end
+    --TODO CLOSE
+    -- if self.danmuMark then
+    --     self.danmuMark:removeEvents()
+    -- end
 
     AlertManager:closeLayer(self)
 
@@ -81,11 +82,12 @@ function VideoView:playVideo(video, isEnd)
         end
     end
 
-    if self.danmuMark then
-        self.danmuMark:removeEvents()
-        self.danmuMark:removeFromParent()
-        self.danmuMark = nil
-    end
+    --TODO CLOSE
+    -- if self.danmuMark then
+    --     self.danmuMark:removeEvents()
+    --     self.danmuMark:removeFromParent()
+    --     self.danmuMark = nil
+    -- end
 
     if not self.videoPlayer_ then
         -- self.videoPlayer_ = VlcPlayer:create({filePath = video,onVideoPlayComplete = handler(self.onVideoPlayComplete, self)});
@@ -119,19 +121,20 @@ function VideoView:playVideo(video, isEnd)
         self.videoPlayer_:play(isEnd and self.isEndLoop)
     end
 
-    local danmuId = Utils:getDanmuId(EC_DanmuType.VIDEO,video)
-    if danmuId then
-        local param = {
-            id = danmuId,
-            offset = 60,
-            danmuHeight = 580,
-            autoRun = true,
-            rowNum = 8
-        }
-        self.danmuMark = Utils:createDanmuMark(param)
-        self.danmuMark:setZOrder(2)
-        self.videoPlayer_:addChild(self.danmuMark)
-    end
+    --TODO CLOSE
+    -- local danmuId = Utils:getDanmuId(EC_DanmuType.VIDEO,video)
+    -- if danmuId then
+    --     local param = {
+    --         id = danmuId,
+    --         offset = 60,
+    --         danmuHeight = 580,
+    --         autoRun = true,
+    --         rowNum = 8
+    --     }
+    --     self.danmuMark = Utils:createDanmuMark(param)
+    --     self.danmuMark:setZOrder(2)
+    --     self.videoPlayer_:addChild(self.danmuMark)
+    -- end
 
     dump(self:getPosition());
 end

@@ -95413,6 +95413,14728 @@ return {
         textBg = 11,
         bgName = "",
     },
+    [3028] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9399,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3028,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Target confirmed! All units, prepare for battle!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "AST Agent",
+        cameraAction = 0,
+        headL = "20101_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3029] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_huangzhang",
+        scriptId = 9399,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3029,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "What?! These humans do have the audacity to kill gods!... Bell... Where are you?!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "20101_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3030] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13001_huangzhang",
+        scriptId = 9399,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3030,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Umu! Goddess, we will protect you!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tohka Yatogami",
+        cameraAction = 0,
+        headL = "10101_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3031] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9400,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3031,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You're strong, what is your adventurer level?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3032] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10101_e2",
+        scriptId = 9400,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3032,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Adventurer? What's that?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Tohka Yatogami",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3033] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10101_e2",
+        scriptId = 9400,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3033,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You don't know what an Adventurer is? Looks like this is somewhere far away from Orario. By the way, I don't know your name yet. I am Goddess Hestia. And you?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3034] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10101_e2",
+        scriptId = 9400,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3034,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Tohka! Tohka Yatogami. That's the name %s gave me.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Tohka Yatogami",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3035] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10101_e2",
+        scriptId = 9400,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3035,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "What a lovely name!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3036] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10101_e2",
+        scriptId = 9400,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3036,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Don't let your guard down. The priority is to find a safe place to hide, please come with me.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3037] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9401,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3037,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Do not resist, Spirit!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ryouko Kusakabe",
+        cameraAction = 0,
+        headL = "30201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3038] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_haoqi",
+        scriptId = 9401,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3038,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Spirit? Are you talking to me? I'm not a Spirit, I'm a Goddess! A Goddess, understand?!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "30201_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3039] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9401,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3039,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Goddess? Is that your codename?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ryouko Kusakabe",
+        cameraAction = 0,
+        headL = "30201_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3040] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9401,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3040,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Wakaka - the hero summoned by %s has arrived with the wind, now tremble in fear!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kaguya",
+        cameraAction = 0,
+        headL = "30201_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3041] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9401,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3041,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Though what you just said sounds like what a devil would say... anyway... I'm counting on you, Kaguya.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "30201_a2",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3042] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9402,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3042,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Incredible, are you a wind adventurer like WallenWhatsIt?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3043] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "30201_b1",
+        scriptId = 9402,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3043,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "No... where are the reinforcements?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ryouko Kusakabe",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3044] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "30201_b1",
+        scriptId = 9402,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3044,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Heh, are you going to repeat your cheat skill with reinforcements? However this kind of trick is meaningless in front of me.  Everyone get away from here, now! I will stay here to cover you!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kaguya",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3045] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9402,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3045,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Thank you, Kaguya.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3046] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9403,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3046,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Observation. Hestia seems to have next to zero BP.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3047] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9403,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3047,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Yeah, we can't let AST hurt her.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3048] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9403,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3048,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Understood. Yuzuru has come to help.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3049] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9404,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3049,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Err? You... didn't you stay there to cover! ",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3050] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_a1",
+        scriptId = 9404,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3050,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Negative. Yuzuru and Kaguya are twin Spirits who control the wind.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3051] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10801_a1",
+        scriptId = 9404,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3051,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "No wonder you look like that other girl! Amazing!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3052] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9405,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3052,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Origami Tobiichi... get out of the way!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ryouko Kusakabe",
+        cameraAction = 0,
+        headL = "30201_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3053] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10201_a1",
+        scriptId = 9405,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3053,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Sorry, but if you want to hurt %s, you'll have to go through me first.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "30201_b2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3054] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9406,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3054,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "They can't catch up for the time being.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3055] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9406,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3055,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ah, with all of the tourists here even AST won't do anything rash like what they would do in Tengu City.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3056] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_huangzhang",
+        scriptId = 9406,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3056,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I always have a feeling that this world... is even more terrifying than the Dungeon.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3057] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_huangzhang",
+        scriptId = 9406,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3057,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Hey... are you alright?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3058] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13001_huangzhang",
+        scriptId = 9406,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3058,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "She must be completely exhausted.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3059] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9407,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3059,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Is that an earthquake? Why is everything shaking so much?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tohka Yatogami",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3060] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_youyu",
+        scriptId = 9407,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3060,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Are the enemies back?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3061] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13001_youyu",
+        scriptId = 9407,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3061,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Oh no... this time it's DEM!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tohka Yatogami",
+        cameraAction = 0,
+        headL = "10101_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3062] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_youyu",
+        scriptId = 9407,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3062,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "This world is no less dangerous than Orario, or even the Dungeon...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "10101_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3063] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9408,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3063,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I feel sleepy... what's going on?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tohka Yatogami",
+        cameraAction = 0,
+        headL = "10101_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3064] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9408,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3064,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Are you OK, Tohka?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10101_a1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3065] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9408,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3065,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "It's okay, just a little dizzy…",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tohka Yatogami",
+        cameraAction = 0,
+        headL = "10101_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3066] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9409,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3066,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "There's a sudden decrease in the Spiritual Pressure data! What happened?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kotori Itsuka",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3067] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9409,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3067,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I don't know...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3068] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9409,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3068,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Vile Legion of Evil! I will never kneel before the powers of evil! Bring it on!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kaguya",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3069] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9410,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3069,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Support. I'm here to help Kaguya.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3070] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_c2",
+        scriptId = 9410,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3070,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "It's all done! But still... thank you.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kaguya",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3071] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10701_c2",
+        scriptId = 9410,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3071,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Withdraw. Let's head back to the safe area as soon as possible.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3072] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9411,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3072,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I won't let you take a single step further in my attack range!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "10201_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3073] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9411,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3073,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "The Legion of Evil has used evil magic to restrict our powers. You must be careful!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kaguya",
+        cameraAction = 0,
+        headL = "10201_b2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3074] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10701_a2",
+        scriptId = 9411,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3074,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Leave this all to me. I'm not just a Spirit, I can also fight as a Wizard.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3075] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9412,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3075,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I will admit you are powerful, but you're still no match for the power of the wind! Hahaha.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kaguya",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3076] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_a1",
+        scriptId = 9412,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3076,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Admiration. I expect no less from Master Origami.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3077] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10801_a1",
+        scriptId = 9412,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3077,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I am affected by some unusual power as well. It's strange.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3078] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9413,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3078,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Is this...an isekai? Has the curse of the Love Goddess come true?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3079] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_c2",
+        scriptId = 9413,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3079,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You're the one who caused the Spacequake? Spirit!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "13101_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3080] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_c2",
+        scriptId = 9413,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3080,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Spirit? I do have the blood of spirits in me... but how do you...?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3081] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_c2",
+        scriptId = 9413,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3081,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Thanks to you, the wind turbines DEM installed here are broken.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3082] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_h1",
+        scriptId = 9413,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3082,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "As a price, we want to invite you to Ike's lab!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3083] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9414,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3083,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Sorry...Ike. That girl was too strong, and she got away.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "10901_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3084] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "31301_c1",
+        scriptId = 9414,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3084,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ahhh, I saw that! It's in my expectation. Also she mentioned she had the blood of spirits, interesting. Keep tracking her.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Westcott",
+        cameraAction = 0,
+        headL = "10901_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3085] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "31301_c1",
+        scriptId = 9414,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3085,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Yeah.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "10901_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3086] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9415,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3086,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Kihihi...You really are interesting... the power inside of you looks delicious.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3087] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9415,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3087,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Who are you?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3088] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9415,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3088,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ah, forgive me. I forgot to introduce myself. My name is Kurumi Tokisaki.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3089] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9415,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3089,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "It's a bit abrupt to make such a request on our first meeting, but... please allow me to...feast on you!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3090] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9416,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3090,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "She defeated Nightmare's clone so easily...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "10901_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3091] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "31301_c1",
+        scriptId = 9416,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3091,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Interesting. Judging from her actions, she doesn't look like any Spirit we are familiar with. Why not make her our helper, perhaps it will be of benefit to the Project Basket of Gwyddno.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Westcott",
+        cameraAction = 0,
+        headL = "10901_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3092] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3092,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "If we walk through here, we can find where %s is staying?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yoshino",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3093] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_d1",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3093,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Of course! Miku wouldn't lie to me!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3094] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_e2",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3094,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Thankfully I ran into Miss Miku...otherwise we wouldn't be able to find %s.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yoshino",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3095] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "11303_e2",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3095,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Haha, do you think %s will be surprised to see Yoshino and Natsumi?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yoshinon",
+        cameraAction = 0,
+        headL = "10399_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3096] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_e2",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3096,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ah!...over there... over there... there's a strange person.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "10399_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3097] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = true,
+        headR = "11303_e2",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3097,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "What's DEM... doing here...?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yoshino",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3098] = {
+        order = 7,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_b1",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3098,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "There's a lot of them... I'll turn them all into cotton candy!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3099] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9418,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3099,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Why are those guys here?!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "11303_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3100] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_a1",
+        scriptId = 9418,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3100,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Are they... up to something again?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yoshino",
+        cameraAction = 0,
+        headL = "11303_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3101] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10301_a1",
+        scriptId = 9418,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3101,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "It must be a sinister scheme!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yoshinon",
+        cameraAction = 0,
+        headL = "11303_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3102] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9419,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3102,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I'll leave here to you until the wind turbine is fully repaired. Don't let any targets go!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3103] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_zhanyi",
+        scriptId = 9419,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3103,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Understood. To catch the Spirits, I will try my best.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3104] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_zhanyi",
+        scriptId = 9419,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3104,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "If the Project Basket of Gwyddno works, all of the Spirits on Arubi Island will become the fuel of your trip home.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3105] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_zhanyi",
+        scriptId = 9419,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3105,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Who is there?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3106] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_zhanyi",
+        scriptId = 9419,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3106,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "They... they found us...!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yoshino",
+        cameraAction = 0,
+        headL = "10301_i1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3107] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_b1",
+        scriptId = 9419,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3107,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Yoshino, careful!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "10301_i1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3108] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9420,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3108,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Phew...phew... we finally get out! What's Project Basket of Gwyddno? Why did that blonde woman say she wanted to turn us into fuel? What the heck! So scary!! It's like a B-level terror movie!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "11303_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3109] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_a2",
+        scriptId = 9420,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3109,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I don't know... but... we should tell %s right away.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yoshino",
+        cameraAction = 0,
+        headL = "11303_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3110] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10301_a2",
+        scriptId = 9420,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3110,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Yeah, that one with the slim sword looked pretty strong. Anyway, let's take a detour and get out of here...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "11303_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3111] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9421,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3111,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Wahh...we're caught up...who are you? Why are you helping DEM?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "11303_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3112] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9421,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3112,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Are you Spirits too? Powerful indeed.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "11303_e1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3113] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9421,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3113,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Miss Natsumi, look out!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yoshino",
+        cameraAction = 0,
+        headL = "10301_i1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3114] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9422,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3114,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Yoshino, leave it to me. You go tell Kotori and %s!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "11303_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3115] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_i1",
+        scriptId = 9422,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3115,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "But... I can't leave you all alone...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yoshino",
+        cameraAction = 0,
+        headL = "11303_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3116] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10301_i1",
+        scriptId = 9422,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3116,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Go now before it's too late! Don't worry, I will become smaller and then get away!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "11303_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3117] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_i1",
+        scriptId = 9422,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3117,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "OK... but you have to be careful...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yoshino",
+        cameraAction = 0,
+        headL = "11303_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3118] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9423,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3118,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You must be Hestia's friend? Please calm down!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tohka Yatogami",
+        cameraAction = 0,
+        headL = "10101_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3119] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_jingya",
+        scriptId = 9423,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3119,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Goddess Hestia? The Spirits have her?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "10101_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3120] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_jingya",
+        scriptId = 9423,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3120,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Yes. She's with us. Ratatoskr is studying the secrets of the golden apple, there must be a way to reconnect with your world!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tohka Yatogami",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3121] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_zhanyi",
+        scriptId = 9423,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3121,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Scheming to take Orario? Unforgivable.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3122] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_zhanyi",
+        scriptId = 9423,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3122,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ah... the beautiful lady misunderstood us! Danger danger... but she did look cool drawing her sword!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Miku Izayoi",
+        cameraAction = 0,
+        headL = "11001_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3123] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9424,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3123,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "DEM accomplice discovered! Prepare to accept the punishment of the wind!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kaguya",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3124] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_a1",
+        scriptId = 9424,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3124,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Suggestion. Let us tear the enemy to shreds together in a hurricane.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3125] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10801_a1",
+        scriptId = 9424,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3125,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Spirit who controls wind?... Bring it on.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_zhanyi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3126] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9425,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3126,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "They're weaker than I expected...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3127] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_c1",
+        scriptId = 9425,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3127,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Heh. Of course. The wind turbine repairs are complete. Basket of Gwyddno can be run as planned now.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "13101_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3128] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_c1",
+        scriptId = 9425,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3128,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "So I'm closer to Orario as well.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3129] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_c1",
+        scriptId = 9425,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3129,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Yes! I'll leave the rest to you.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3130] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_c1",
+        scriptId = 9425,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3130,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Understood.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3131] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3131,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Stop fighting, everyone calms down!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3132] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_jingya",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3132,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Hestia... aren't you held hostage by them?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3133] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_jingya",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3133,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Hostage? Not at all. They are not bad people. Did DEM trick you?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3134] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3134,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "They're lying. The Spirits cause a Spacequake when they enter this world, they are a huge threat to the safety of humans.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3135] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3135,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "About this... I heard from Ratatoskr who saved me! But, the occurrence of Spacequakes is not related to their will. They are not evil. As long as we let Ratatoskr study the golden apple, we can find a way back to Orario.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3136] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3136,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I've found the way back to Orario. That is to use the Spirit's power to activate DEM's device and recreate the energy field when we came here.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3137] = {
+        order = 7,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3137,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Spirit Power... the energy in %s is Spirit Power... do you mean that we can return without the golden apple...?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "13001_youyu",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3138] = {
+        order = 8,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_zhanyi",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3138,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Of course! Even if for Bell, you shouldn't use the golden apple here. Come to me and let's go back to our world through DEM's device...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13001_youyu",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3139] = {
+        order = 9,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3139,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "For this, we need to defeat all these Spirits...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13001_youyu",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3140] = {
+        order = 10,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3140,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "...No way.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3141] = {
+        order = 11,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3141,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Be prepared for your death!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "10201_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3142] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9427,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3142,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "While I don't know what you did to weaken Spirit Power and enhance the Realizer...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3143] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9427,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3143,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "But you seem to have forgotten, I can utilize Realizer as well.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3144] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9427,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3144,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You can't keep this up all by yourself. Give up.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3145] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9427,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3145,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "This is not up to you...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3146] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9428,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3146,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Commander! DEM Fleet detected ahead of us!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kannazuki",
+        cameraAction = 0,
+        headL = "30501_d1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3147] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9428,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3147,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "All units, red alert! Prepare for battle!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kotori Itsuka",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3148] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_a2",
+        scriptId = 9428,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3148,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Fraxinus?!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3149] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_a2",
+        scriptId = 9428,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3149,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Don't you learn from your previous failures? Are you up to another scheme? Ellen!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kotori Itsuka",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3150] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9429,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3150,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "This Ratatoskr, is the organization that protects Spirits?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3151] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_weixiao",
+        scriptId = 9429,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3151,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Yes. They really are trying to help me. So... please trust my judgment... come, have a listen to what they say?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Hestia",
+        cameraAction = 0,
+        headL = "13101_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3152] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13001_weixiao",
+        scriptId = 9429,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3152,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "...I will demonstrate that you are the one who was tricked, not me.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3153] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9430,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3153,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ara, ara... I discovered... your secret...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3154] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9430,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3154,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "That's it. This huge vortex is a byproduct of the device's heat dissipation?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3155] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9431,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3155,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Arubi Island... when did you start planning all of this?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3156] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9432,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3156,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Whew...I had to transform into a pebble to dodge the pursuit. This was tough.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "11303_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3157] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9432,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3157,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Huh? What is this place?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "11303_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3158] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9433,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3158,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "It's tightly guarded, there's something fishy going on. I should tell Kotori.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "11303_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3159] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3159,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Kotori, that vortex should be the thermal vent of Basket of Gwyddno!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3160] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3160,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I know, Natsumi already told me.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kotori Itsuka",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3161] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3161,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Natsumi is back already?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3162] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3162,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Yes, she has returned to Fraxinus on my orders and is awaiting a comprehensive inspection.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kotori Itsuka",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3163] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_d1",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3163,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Kukaka! The device couldn't keep cool without the sea water, right? It's time for the Hurricane Children to show their strength!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kaguya",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3164] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10701_d1",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3164,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Understood. Only Kaguya and Yuzuru can completely draw the sea water away.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3165] = {
+        order = 7,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_d1",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3165,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Wait...! Let's plan this first!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3166] = {
+        order = 8,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3166,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Awaken! Dance! Rip!—— Water Tornado!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kaguya",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3167] = {
+        order = 9,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10701_a2",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3167,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Resolute. Together, Yuzuru and Kaguya can draw away all of the water here.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3168] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9435,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3168,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Failure. The tornado wasn't strong enough to blow the water away.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3169] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9435,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3169,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Woah! The Power of Wind is awakening, I'm losing control of the wind!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kaguya",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3170] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10701_a2",
+        scriptId = 9435,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3170,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Bad. I feel my Spirit Power is drained away at rapid space.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3171] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_i",
+        scriptId = 9435,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3171,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Crap, it's meaningless without separating the inner bay and the outer area. The wind is only helping their turbines spin... and generating more power for Basket of Gwyddno!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kotori Itsuka",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3172] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_b2",
+        scriptId = 9435,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3172,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Everyone split up and destroy all of the wind turbines on Arubi Island!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kotori Itsuka",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3173] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9436,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3173,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "We must destroy the wind turbines, otherwise our Spirit Power will all be weakened!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tohka Yatogami",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3174] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9436,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3174,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "No... my power is already...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tohka Yatogami",
+        cameraAction = 0,
+        headL = "10101_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3175] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10201_a1",
+        scriptId = 9436,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3175,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "It's no use, no need to act tough. Leave this to me.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "10101_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3176] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10201_a1",
+        scriptId = 9436,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3176,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Don't get the wrong idea, I'm not helping you. I'm just proving——that %s doesn't need anyone else but me.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Origami Tobiichi",
+        cameraAction = 0,
+        headL = "10101_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3177] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9437,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3177,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Just leave this to me! Into candy canes!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "11303_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3178] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_a1",
+        scriptId = 9437,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3178,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "My Spirit Power has become weakener...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yoshino",
+        cameraAction = 0,
+        headL = "11303_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3179] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10301_a1",
+        scriptId = 9437,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3179,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Army Breaker!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Miku",
+        cameraAction = 0,
+        headL = "11001_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3180] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_d1",
+        scriptId = 9437,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3180,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "We're saved! It's all thanks to Miku.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yoshino",
+        cameraAction = 0,
+        headL = "11001_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3181] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10301_d1",
+        scriptId = 9437,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3181,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Go and destroy the wind turbines, I'll take care of the situation here!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Miku",
+        cameraAction = 0,
+        headL = "11001_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3182] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9438,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3182,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ghaha, our work here is finished. Yoshino is amazing!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yoshinon",
+        cameraAction = 0,
+        headL = "10399_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3183] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_a2",
+        scriptId = 9438,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3183,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Uhh... on the water... over there... is that another one?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Natsumi",
+        cameraAction = 0,
+        headL = "10399_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3184] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "11303_a2",
+        scriptId = 9438,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3184,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Oh no, maybe we missed it. We have to tell Kotori right away.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Miku",
+        cameraAction = 0,
+        headL = "11001_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3185] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9439,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3185,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ara, good day everyone!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3186] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9439,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3186,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "The little fishy that got away... Sink to the ocean depths!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3187] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9440,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3187,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Mission accomplished!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kotori Itsuka",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3188] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9440,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3188,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "But the vortex is still there,  meaning the device is still operating...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3189] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9440,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3189,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Try to break the cooling device, it's the only way left.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kotori Itsuka",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3190] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9440,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3190,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Leave this to me.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3191] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9440,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3191,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You are willing to help us?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kotori Itsuka",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3192] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9440,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3192,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Yes... seeing how you battle, I'm convinced that you are not a calamity that will destroy the world.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3193] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9441,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3193,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "It would take too much wind energy to pull the sea water away, but parting the water should be possible... I'm willing to give it a shot.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3194] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9441,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3194,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Hurricane Children, please help me!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_zhanyi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3195] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9441,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3195,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "The fates of the Hurricane Children and the Sword Maiden of Wind have intertwined! True Hurricane Force, activate!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kaguya",
+        cameraAction = 0,
+        headL = "13101_zhanyi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3196] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_a1",
+        scriptId = 9441,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3196,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Careful. We must control the wind power and focus it in one place to part the waters.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "13101_zhanyi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3197] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10801_a1",
+        scriptId = 9441,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3197,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Please, lend me your aid—— Lil Rafaga!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_zhanyi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3198] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3198,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "An unprecedented cooperation! Flawless victory! Hahaha.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kaguya",
+        cameraAction = 0,
+        headL = "10701_x",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3199] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_a1",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3199,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Reminder. Don't get too carried away, Kaguya. Focus on maintaining the wind power. Leave the rest to Fraxinus.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yuzuru",
+        cameraAction = 0,
+        headL = "10701_x",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3200] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_a1",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3200,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Incredible! The waters of the ocean... really splinted apart.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10701_x",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3201] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3201,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "We can only maintain it for a short duration, please hurry.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "10701_x",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3202] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3202,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Understood! Kannazuki, lock onto the target device and prepare to fire!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kotori Itsuka",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3203] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "30501_d1",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3203,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Copy! Energy charged and target acquired! Attack!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kannazuki",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3204] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9443,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3204,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "We did it!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3205] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9443,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3205,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "The waters have converged, smooth as a mirror as before.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3206] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_a2",
+        scriptId = 9443,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3206,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I can't believe you joined Ratatoskr...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3207] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_a2",
+        scriptId = 9443,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3207,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I already know the truth about Spirits. You can't fool me anymore.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3208] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9444,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3208,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Too bad... without Spirit Power as fuel, you'll never make it back. Not even Ratatoskr can help you.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Ellen",
+        cameraAction = 0,
+        headL = "10901_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3209] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9444,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3209,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I trust my judgment.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Ais Wallenstein",
+        cameraAction = 0,
+        headL = "10901_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3210] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9445,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3210,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Where's the Doll Master?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Isami Hijikata",
+        cameraAction = 0,
+        headL = "32501_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3211] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10402R_xiemei",
+        scriptId = 9445,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3211,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "She has run away. I won't stop you if you want to give chase.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "32501_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3212] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10402R_xiemei",
+        scriptId = 9445,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3212,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "It's the first time I've met you, but I can't trust you.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Isami Hijikata",
+        cameraAction = 0,
+        headL = "32501_shengqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3213] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10402R_weixiao",
+        scriptId = 9445,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3213,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Well, you're free to do as you please.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "32501_shengqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3214] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12801_zhanyi",
+        scriptId = 9445,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3214,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Take this!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "32501_shengqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3215] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9446,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3215,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "It's me, Hibiki! I'm so sorry, please don't shoot!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hibiki Higoromo",
+        cameraAction = 0,
+        headL = "12601_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3216] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10402R_jingya",
+        scriptId = 9446,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3216,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You're still alive, huh. Hm, I guess that's... good?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "12601_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3217] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10402R_jingya",
+        scriptId = 9446,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3217,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "There's nothing better!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hibiki Higoromo",
+        cameraAction = 0,
+        headL = "12601_kaixin",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3218] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "32601_moren",
+        scriptId = 9446,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3218,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Hah!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yui Sagakure",
+        cameraAction = 0,
+        headL = "12601_kaixin",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3219] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "32601_moren",
+        scriptId = 9446,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3219,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Watch out!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hibiki Higoromo",
+        cameraAction = 0,
+        headL = "12601_fennu",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3220] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10402R_xiemei",
+        scriptId = 9446,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3220,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Is that the art of invisibility? *cackles*",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "12601_fennu",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3221] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9447,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3221,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "What is the matter?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3222] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12801_moren",
+        scriptId = 9447,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3222,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I want to fight you... last, so now I must get rid of these hindrances.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "10402L_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3223] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12801_moren",
+        scriptId = 9447,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3223,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Uh-huh...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3224] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "32501_weixiao",
+        scriptId = 9447,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3224,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Haaaaah!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Isami Hijikata",
+        cameraAction = 0,
+        headL = "10402L_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3225] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "32501_weixiao",
+        scriptId = 9447,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3225,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Laelaps!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "12801_zhanyi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3226] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9448,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3226,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Looks like we're not needed here. Anyway, why don't we go somewhere else?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Hibiki Higoromo",
+        cameraAction = 0,
+        headL = "12601_youyu",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3227] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10402R_jingya",
+        scriptId = 9448,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3227,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "...Yes.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "12601_youyu",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3228] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9449,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3228,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "That's all you got? Does losing Ayame Takeshita make you lose yourself?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "12801_buman",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3229] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "32501_fennu",
+        scriptId = 9449,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3229,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Shut up! …Shut your mouth...!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Isami Hijikata",
+        cameraAction = 0,
+        headL = "12801_buman",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3230] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "32501_fennu",
+        scriptId = 9449,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3230,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I heard that Isami Hijikata and Ayame Takeshita were two of the few capable warriors of the Neighboring World.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "12801_moren",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3231] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "32501_fennu",
+        scriptId = 9449,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3231,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "What would Ayame Takeshita think of you if she saw you now?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "12801_buman",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3232] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "32501_jingya",
+        scriptId = 9449,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3232,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "...!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Isami Hijikata",
+        cameraAction = 0,
+        headL = "12801_buman",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3233] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "32501_weixiao",
+        scriptId = 9449,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3233,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "...Right. She said she liked my swordsmanship.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Isami Hijikata",
+        cameraAction = 0,
+        headL = "12801_buman",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3234] = {
+        order = 7,
+        voice = "",
+        isSpeakingL = false,
+        headR = "32501_weixiao",
+        scriptId = 9449,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3234,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "My apologies for my poor technique. I am going to show you what the sword truly is, I swear on my name!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Isami Hijikata",
+        cameraAction = 0,
+        headL = "12801_buman",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3235] = {
+        order = 8,
+        voice = "",
+        isSpeakingL = true,
+        headR = "32501_weixiao",
+        scriptId = 9449,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3235,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Mhm... Very well.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "12801_moren",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3236] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = false,
+        headR = "32501_jingya",
+        scriptId = 9450,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3236,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Tsang is so strong, I knew it!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Isami Hijikata",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3237] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "32501_jingya",
+        scriptId = 9450,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3237,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "By a small fraction.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "12801_moren",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3238] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "32501_weixiao",
+        scriptId = 9450,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3238,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "That was my best effort, the swordsmanship that Ayame said she liked. If that's not enough, then nothing will be!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Isami Hijikata",
+        cameraAction = 0,
+        headL = "12801_moren",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3239] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "32501_jingya",
+        scriptId = 9450,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3239,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ayame... next time... let's...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Isami Hijikata",
+        cameraAction = 0,
+        headL = "12801_moren",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3240] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9451,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3240,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "One moment, please.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yui Sagakure",
+        cameraAction = 0,
+        headL = "32601_moren",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3241] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12801_jingya",
+        scriptId = 9451,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3241,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "What is it?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "32601_moren",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3242] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12801_jingya",
+        scriptId = 9451,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3242,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Queen is participating in this round of battle, which causes me to think this is no longer a battle royale.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yui Sagakure",
+        cameraAction = 0,
+        headL = "32601_moren",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3243] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12801_moren",
+        scriptId = 9451,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3243,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Right. So you're going to kill Queen?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "32601_moren",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3244] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12801_moren",
+        scriptId = 9451,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3244,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Of course.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yui Sagakure",
+        cameraAction = 0,
+        headL = "32601_moren",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3245] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9452,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3245,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Who... who are you?!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_yaoya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3246] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_chaofeng",
+        scriptId = 9452,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3246,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Oh, you don't know? I guess it's possible. I'm... I'm the one you abandoned.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_yaoya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3247] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9453,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3247,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Meow!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "White Cat",
+        cameraAction = 0,
+        headL = "dab_mao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3248] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10402R_yaoya",
+        scriptId = 9453,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3248,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Oh, no! Please run away!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "dab_mao",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3249] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10402R_yaoya",
+        scriptId = 9453,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3249,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "What a pain in the neck, that cat.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "12701L_xiee",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3250] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9454,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3250,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Queen...!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "12801_zhanyi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3251] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_xiee",
+        scriptId = 9454,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3251,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "...You are all in my way.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "12801_zhanyi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3252] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_xiee",
+        scriptId = 9454,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3252,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Let's fight it out before I get to Kurumi Tokisaki!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "12801_buman",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3253] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9455,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3253,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Here, kitty. I'll take you to safety.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_weixiao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3254] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12801_buman",
+        scriptId = 9455,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3254,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "She's gone... I would have loved to fight her. Oh, well.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "10402L_weixiao",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3255] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9456,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3255,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ah, ...isn't it a bit despicable to join up?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "12701L_chaofeng",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3256] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12801_zhanyi",
+        scriptId = 9456,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3256,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Whatever it takes to win.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "12701L_chaofeng",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3257] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "32601_shengqi",
+        scriptId = 9456,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3257,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Devil, you will meet your end today for trying to destroy the Neighboring World.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Yui Sagakure",
+        cameraAction = 0,
+        headL = "12701L_chaofeng",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3258] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "32601_shengqi",
+        scriptId = 9456,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3258,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Hmph… Nothing but dead men walking!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "12701L_xiee",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3259] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9457,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3259,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You are persistent, aren't you?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "12701L_weixiao2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3260] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12801_zhanyi",
+        scriptId = 9457,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3260,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "N-No, it's not over!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "12701L_weixiao2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3261] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12801_zhanyi",
+        scriptId = 9457,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3261,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Yes, it is.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "12701L_weixiao2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3262] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9458,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3262,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Your...turn.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Tsang",
+        cameraAction = 0,
+        headL = "12801_buman",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3263] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9458,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3263,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Shichiho Gyoja, Goenmason!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yui Sagakure",
+        cameraAction = 0,
+        headL = "32601_shengqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3264] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_weixiao2",
+        scriptId = 9458,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3264,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "So you were the main act! ",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "32601_shengqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3265] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9459,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3265,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I've been defeated, but I want to know one last thing... Why would you destroy the Neighboring World?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yui Sagakure",
+        cameraAction = 0,
+        headL = "32601_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3266] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_chaofeng",
+        scriptId = 9459,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3266,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Because I hate everything.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "32601_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3267] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_chaofeng",
+        scriptId = 9459,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3267,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "What about Kurumi Tokisaki, that girl too?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yui Sagakure",
+        cameraAction = 0,
+        headL = "32601_haoqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3268] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_biyan",
+        scriptId = 9459,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3268,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I hate her. But this time around, I realize I love her after all.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "32601_haoqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3269] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_biyan",
+        scriptId = 9459,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3269,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "...!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Yui Sagakure",
+        cameraAction = 0,
+        headL = "32601_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3270] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_chaofeng",
+        scriptId = 9459,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3270,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "…Yes, that's right. She is very adorable, and very irritating.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "32601_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3271] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9460,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3271,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Zafkiel!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_xiee",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3272] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_xiee",
+        scriptId = 9460,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3272,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Lucifugus!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_xiee",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3273] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9461,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3273,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Aleph!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_zhanyi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3274] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_weixiao2",
+        scriptId = 9461,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3274,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Moznaim!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_zhanyi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3275] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_weixiao2",
+        scriptId = 9461,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3275,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Spatial displacement...!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_yaoya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3276] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_xiee",
+        scriptId = 9461,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3276,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Gotcha.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_yaoya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3277] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_weixiao1",
+        scriptId = 9462,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3277,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You can't defeat me, for sure.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3278] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_weixiao1",
+        scriptId = 9462,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3278,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You never know until you try… Dalet...!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_weixiao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3279] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_xiee",
+        scriptId = 9462,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3279,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Trying to turn back time? Heh... As if I'd let that happen.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_weixiao",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3280] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9463,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3280,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ugh...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_yaoya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3281] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_weixiao2",
+        scriptId = 9463,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3281,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I have told you. You can't defeat me. ",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_yaoya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3282] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_weixiao1",
+        scriptId = 9463,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3282,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "What's wrong, cat's got your tongue? Say... Kurumi, why did you... kill me?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_yaoya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3283] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_weixiao1",
+        scriptId = 9463,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3283,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I...killed you?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3284] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_chaofeng",
+        scriptId = 9463,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3284,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Hey, Kurumi. Why did you kill me?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3285] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_chaofeng",
+        scriptId = 9463,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3285,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "...That, voice...!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3286] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9464,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3286,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You're...Sawa?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_yaoya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3287] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_daxiao",
+        scriptId = 9464,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3287,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "After you killed me, I arrived here and got the power that you all abandoned. Isn't it nice?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_yaoya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3288] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_daxiao",
+        scriptId = 9464,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3288,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Sawa... what do you want now?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_xiemei",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3289] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_chaofeng",
+        scriptId = 9464,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3289,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "At first it was to kill you, but after the battle I understand now. I still want to be with you.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_xiemei",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3290] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_biyan",
+        scriptId = 9464,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3290,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I thought I'd keep fighting in this world, all by myself. Then you showed up...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_xiemei",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3291] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_biyan",
+        scriptId = 9464,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3291,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Why do you pit the Quasi-Spirits against each other? Surely it has nothing to do with me?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_zhanyi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3292] = {
+        order = 7,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_weixiao2",
+        scriptId = 9464,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3292,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I just do it to get more power. What's wrong with that? We're all dead, anyway.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_zhanyi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3293] = {
+        order = 8,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_weixiao2",
+        scriptId = 9464,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3293,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "All dead, huh. Sawa... It's my fault that you've become like this.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_yaoya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3294] = {
+        order = 9,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_weixiao2",
+        scriptId = 9464,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3294,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "But... I'll do it all again if I have to.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_zhanyi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3295] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9465,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3295,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I'm responsible for what happened to you, and to that degree, I'll take the responsibility!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_zhanyi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3296] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_xiee",
+        scriptId = 9465,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3296,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Fine, then I'll give you a reason to want to stay with me! You just have to stay alive and stay by my side...!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_zhanyi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3297] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_xiee",
+        scriptId = 9465,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3297,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "That's...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_yaoya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3298] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9466,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3298,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Arie!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "12701L_xiee",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3299] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10402R_zhanyi",
+        scriptId = 9466,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3299,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Zafkiel...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "12701L_xiee",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3300] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10402R_zhanyi",
+        scriptId = 9466,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3300,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You think that'd be enough to stop me?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "12701L_daxiao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3301] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10402R_zhanyi",
+        scriptId = 9466,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3301,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I will stop you for sure!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "12701L_daxiao",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3302] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10402R_zhanyi",
+        scriptId = 9466,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3302,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "In that case, you're coming with me!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "12701L_xiee",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3303] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9467,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3303,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Zayin!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_xiee",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3304] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12701R_weixiao1",
+        scriptId = 9467,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3304,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "The bullet... stopped?",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "10402L_xiee",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3305] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_weixiao1",
+        scriptId = 9467,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3305,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Sawa... or should I say, Queen. You're not built for battle.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_xiemei",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3306] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12701R_weixiao1",
+        scriptId = 9467,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3306,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "No matter how much power you have, you lack the key factor to win.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "10402L_xiemei",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3307] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9468,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3307,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "This time for sure...!",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "12701L_weixiao2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3308] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10402R_xiee",
+        scriptId = 9468,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3308,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Victory is mine.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "12701L_weixiao2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3309] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10402R_kuangxiao",
+        scriptId = 9468,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3309,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You cannot think about anything else while in battle. The moment your mind wandered to me was the moment of defeat.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "Kurumi Tokisaki",
+        cameraAction = 0,
+        headL = "12701L_weixiao2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3310] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10402R_kuangxiao",
+        scriptId = 9468,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3310,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Kurumi... is amazing, as always...",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "Queen",
+        cameraAction = 0,
+        headL = "12701L_weixiao1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3311] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9469,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3311,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "检测到异常的灵波反应。这……难道是%s的灵力逆流了？地点就是附近的公园！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3312] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10101_e2",
+        scriptId = 9469,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3312,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "DEM的人来了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3313] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10101_e2",
+        scriptId = 9469,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3313,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "居然直接出现在家门口……胆子倒不小。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3314] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9470,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3314,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "鏖杀公！哼哼，不自量力！琴里，我们乘胜追击吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_b3",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3315] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_b1",
+        scriptId = 9470,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3315,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "撤退得太快了……感觉有阴谋，小心为上。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10101_b3",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3316] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9471,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3316,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "要保护我们的家！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "10301_d1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3317] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_b2",
+        scriptId = 9471,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3317,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "把你们都变成棒棒糖好了……！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "10301_d1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3318] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9472,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3318,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这么快就结束战斗了，不愧是四糸乃~",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "11303_d2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3319] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_a1",
+        scriptId = 9472,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3319,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我们……是不是追得太远了？总感觉到不安……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "11303_d2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3320] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10399_d1",
+        scriptId = 9472,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3320,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "快点回到家里吧！不知道琴里他们怎么样了呢~",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "四糸奈",
+        cameraAction = 0,
+        headL = "11303_d2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3321] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9473,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3321,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "居然敢阻碍我去见%s，绝不原谅！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3322] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9474,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3322,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "注意。有敌人来了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3323] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_c2",
+        scriptId = 9474,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3323,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "真的假的？突然就强制战斗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3324] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9475,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3324,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊啊，真是过分啊……darling明明答应过要来接我的。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "诱宵美九",
+        cameraAction = 0,
+        headL = "11001_h1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3325] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9475,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3325,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "算了，还是我直接过去找他吧~不过……你们是想要阻挡我吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "诱宵美九",
+        cameraAction = 0,
+        headL = "11001_x",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3326] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9476,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3326,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "终于见面了呢，Ruler。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3327] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13301R_beishang",
+        scriptId = 9476,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3327,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "果然，日常终会有被打破的一天呢……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛祢",
+        cameraAction = 0,
+        headL = "10901_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3328] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13301R_beishang",
+        scriptId = 9476,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3328,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "看来你已经做好准备了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3329] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13301R_weixiao",
+        scriptId = 9476,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3329,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "虽然不知道为什么凶祸乐园会再现……但这一次，我绝对会抓住幸福的！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛祢",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3330] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9476,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3330,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "噢？虽然我很理解你，但现在的凶祸乐园，就算是你也没办法支配了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3331] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9477,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3331,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "怎么回事……凶祸乐园不受控制了……？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "园神凛祢",
+        cameraAction = 0,
+        headL = "13301R_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3332] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_e2",
+        scriptId = 9477,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3332,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你的伙伴都已经被我布下的棋子牵制住了，单独跟我走一趟吧，Ruler。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "13301R_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3333] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9477,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3333,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "唔！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "园神凛祢",
+        cameraAction = 0,
+        headL = "13301R_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3334] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10401R_g1",
+        scriptId = 9477,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3334,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊啦，DEM连Ruler都盯上了……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "13301R_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3335] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10401R_g2",
+        scriptId = 9477,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3335,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不受控制的凶祸乐园，又是什么意思呢……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "13301R_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3336] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9478,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3336,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "敌人明知这种程度的攻击压制不了我们，却还是不断包围过来……就好像是在故意拖住我们一样……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3337] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12401_fennu",
+        scriptId = 9478,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3337,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我来帮你们！世界树……请回应我吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "或守鞠亚",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3338] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12401_fennu",
+        scriptId = 9478,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3338,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "鞠亚！你怎么在这里？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3339] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9479,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3339,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "凛祢……凛祢被DEM的人抓走了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3340] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_b2",
+        scriptId = 9479,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3340,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "什么！？中计了……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3341] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9480,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3341,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊啦啊啦，你手里的钥匙链……是%s的对吧？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3342] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_yihuo",
+        scriptId = 9480,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3342,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "爸爸的……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3343] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13201_yihuo",
+        scriptId = 9480,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3343,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你这是要去哪里？难道要把它交给DEM吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3344] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_buman",
+        scriptId = 9480,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3344,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这个……请不要阻拦凛绪……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3345] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13201_buman",
+        scriptId = 9480,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3345,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "那可不是你说了算哦~",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3346] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9481,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3346,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "抱歉……！凛绪也是为了妈妈，为了大家……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "13201_buman",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3347] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10401R_c1",
+        scriptId = 9481,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3347,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊啦，好可惜，差点就抓住了呢……我可没敢下重手，毕竟她是你的“女儿”，我可不想被你怨恨呢……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "13201_buman",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3348] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10401R_f1",
+        scriptId = 9481,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3348,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "嘻嘻嘻，这样的消息，当然要当面告诉你才行。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "13201_buman",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3349] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_yihuo",
+        scriptId = 9482,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3349,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "爸爸……？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3350] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_yihuo",
+        scriptId = 9482,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3350,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "凛绪！你果然在这里……告诉我发生了什么！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3351] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_fennu",
+        scriptId = 9482,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3351,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可是……就要来不及了！妈妈会消失的！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3352] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_buman",
+        scriptId = 9482,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3352,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "等凛绪办完了事情，会给爸爸解释的。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3353] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_buman",
+        scriptId = 9482,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3353,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "别走！把钥匙还给我！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3354] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_buman",
+        scriptId = 9482,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3354,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这是唯一的办法了，凛绪不想伤害任何人……！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3355] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9483,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3355,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我必须提醒你，这个世界能相信的只有爸爸和姐姐哦。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "或守鞠奈",
+        cameraAction = 0,
+        headL = "12501_biyan",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3356] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_yihuo",
+        scriptId = 9483,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3356,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "鞠奈……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "12501_biyan",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3357] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13201_yihuo",
+        scriptId = 9483,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3357,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "把钥匙还给%s吧，这是很重要的物品，不是吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "或守鞠奈",
+        cameraAction = 0,
+        headL = "12501_haoqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3358] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_buman",
+        scriptId = 9483,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3358,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可是……妈妈更加需要它！那个金发的姐姐是这样告诉凛绪的……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "12501_haoqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3359] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13201_buman",
+        scriptId = 9483,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3359,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "她一定没有告诉你，你口中的妈妈，也被他们带走了吧？而且还袭击了大家……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "或守鞠奈",
+        cameraAction = 0,
+        headL = "12501_biyan",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3360] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_buman",
+        scriptId = 9483,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3360,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "什么……！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "12501_biyan",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3361] = {
+        order = 7,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13201_buman",
+        scriptId = 9483,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3361,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "乖孩子。相信姐姐和爸爸，我们可以解决一切的。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "或守鞠奈",
+        cameraAction = 0,
+        headL = "12501_kaixin",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3362] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9484,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3362,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "作为DEM的基地，这警戒也太松懈了点吧？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3363] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10201_g",
+        scriptId = 9484,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3363,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "难道是……阴谋？看来凛祢不在这里……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3364] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "30501_c2",
+        scriptId = 9484,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3364,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "司令！检测到凛祢的灵波了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "神无月恭平",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3365] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "30501_c2",
+        scriptId = 9484,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3365,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "在新天宫塔……？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3366] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9485,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3366,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "狂风啊，给予我力量吧，击溃邪魔的屏障吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3367] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_b1",
+        scriptId = 9485,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3367,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "迎战。为了找到凛祢被囚禁的地方，耶俱矢和夕弦不会有任何畏惧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3368] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9486,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3368,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不愧是八舞姐妹！这里的障碍被扫清了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3369] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9486,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3369,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "库卡卡卡卡！吾之利刃所向披靡~汝就安心前进，将后背交付与吾等吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3370] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10701_a2",
+        scriptId = 9486,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3370,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "同意。这里就交给我们吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3371] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9487,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3371,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "被……被包围了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "10301_i1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3372] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11001_f1",
+        scriptId = 9487,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3372,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "破军歌姬！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "诱宵美九",
+        cameraAction = 0,
+        headL = "10301_i1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3373] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "11001_f1",
+        scriptId = 9487,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3373,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "谢谢你，美九小姐。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "10301_d2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3374] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11001_c1",
+        scriptId = 9487,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3374,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "为了darling和凛祢小姐，我可不会放弃呢~",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "诱宵美九",
+        cameraAction = 0,
+        headL = "10301_d2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3375] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9488,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3375,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你们继续前进吧，我来帮助四糸乃对付他们。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "诱宵美九",
+        cameraAction = 0,
+        headL = "11001_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3376] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10101_e2",
+        scriptId = 9488,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3376,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "真的可以吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "11001_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3377] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10101_e2",
+        scriptId = 9488,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3377,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这里……有我和美九小姐就足够了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3378] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_b2",
+        scriptId = 9488,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3378,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "事到如今也不能犹豫了，走吧，十香。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3379] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9489,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3379,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "把凛祢交出来！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_b3",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3380] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_h1",
+        scriptId = 9489,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3380,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "哦？你们的动作还挺快的嘛。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10101_b3",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3381] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_h1",
+        scriptId = 9489,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3381,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这里是凶祸乐园的幻象中吧？你们利用某种方式侵入了这个世界，企图控制凛祢，进一步支配整个幻象世界。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3382] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_h1",
+        scriptId = 9489,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3382,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "呵呵，我该说，不愧是拉塔托斯克的指挥官么。但是有一点你错了，现在的这个凶祸乐园……可不受Ruler的控制呢。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3383] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_h1",
+        scriptId = 9489,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3383,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "什么意思！？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3384] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9490,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3384,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可惜啊，在我们互相浪费时间的时候，那个孩子已经把钥匙交到了艾克手上吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3385] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_i",
+        scriptId = 9490,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3385,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "……！%s的钥匙？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10901_c2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3386] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10505_i",
+        scriptId = 9490,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3386,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "获得了Ruler这一实验体和钥匙，我们就能无限地重置这个世界，重复任何我们想要进行的实验了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_h1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3387] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_i",
+        scriptId = 9490,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3387,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可恶，你这混蛋！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3388] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9491,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3388,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "钥匙在我的手上，怕是要让你们失望了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3389] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9491,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3389,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "%s，凛绪……？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3390] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_e1",
+        scriptId = 9491,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3390,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "果然这样吗……真是可惜啊。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3391] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_e1",
+        scriptId = 9491,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3391,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "所以妈妈马上就要消失这种话……果然是骗我的？要用钥匙来稳定妈妈的灵力，也是假的……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "13201_yihuo",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3392] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_c2",
+        scriptId = 9491,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3392,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我可没有撒谎哦~ruler确实要消失了……凶祸乐园很不稳定，你也感受的到吧？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "13201_yihuo",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3393] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_c2",
+        scriptId = 9491,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3393,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "战斗的时候，话太多可是会输的哟。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "或守鞠奈",
+        cameraAction = 0,
+        headL = "12502_benghuai",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3394] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9492,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3394,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你们什么时候……？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3395] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_a2",
+        scriptId = 9492,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3395,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "呼……伪装到现在还真是不容易呢。周围的敌人都被我们解决了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "10505_b3",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3396] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10401R_g1",
+        scriptId = 9492,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3396,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊啦，请好好抓紧时间哟……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10505_b4",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3397] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10401R_g1",
+        scriptId = 9492,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3397,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "%s，去拯救凛祢吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3398] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10401R_g1",
+        scriptId = 9492,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3398,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "明白！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10505_e2",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3399] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9493,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3399,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "妈妈！终于找到你了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "13201_kaixin",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3400] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9493,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3400,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "%s？凛绪？抱歉，都是因为我的自私，才导致了这一切……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "园神凛祢",
+        cameraAction = 0,
+        headL = "13301R_beishang",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3401] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9493,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3401,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "现在不是说话的时候，先离开这里~",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "13301R_beishang",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3402] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9494,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3402,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不追吗？艾克。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3403] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "31301_c1",
+        scriptId = 9494,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3403,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "呵呵呵，实验数据我们已经拿到了，更何况就算得到了ruler，他们也不得不做同样的事情。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "韦斯考特",
+        cameraAction = 0,
+        headL = "10901_e2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3404] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "31301_c1",
+        scriptId = 9494,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3404,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊，无论什么方式，只要凶祸乐园能够维持，我们就有机会。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3405] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "31301_c1",
+        scriptId = 9494,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3405,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "先看看拉塔托斯克的本事吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "韦斯考特",
+        cameraAction = 0,
+        headL = "10901_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3406] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9495,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3406,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这个地方……简直就像是《天宫市之恋》的数据核心呢。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "或守鞠亚",
+        cameraAction = 0,
+        headL = "12401_moren",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3407] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12502_zhoumei",
+        scriptId = 9495,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3407,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "果然……是这么回事……！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "或守鞠奈",
+        cameraAction = 0,
+        headL = "12401_moren",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3408] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9496,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3408,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "果然……凶祸乐园不受ruler控制的原因，在这里！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "或守鞠亚",
+        cameraAction = 0,
+        headL = "12401_buman",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3409] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12502_fennu",
+        scriptId = 9496,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3409,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这个世界是凶祸乐园和《天宫市之恋》融合而成的……也就是说，本应消失的两个世界融合成了一个功能不全的最恶的形态……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "或守鞠奈",
+        cameraAction = 0,
+        headL = "12401_buman",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3410] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12502_fennu",
+        scriptId = 9496,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3410,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "…总之，我们立即将这一情况报告琴里他们吧！当务之急，是避免这个世界的崩坏。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "或守鞠亚",
+        cameraAction = 0,
+        headL = "12401_buman",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3411] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9497,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3411,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "%s说过，新天宫塔按理说是不应该存在的……可是它确实就矗立在这里。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "或守鞠亚",
+        cameraAction = 0,
+        headL = "12401_wugu",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3412] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12502_zhoumei",
+        scriptId = 9497,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3412,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "新天宫塔是我苏醒的地方，一定有某种关联。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "或守鞠奈",
+        cameraAction = 0,
+        headL = "12401_wugu",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3413] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12502_zhoumei",
+        scriptId = 9497,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3413,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这些敌人我来解决，你们两个抓紧时间看能否建立登出口。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3414] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9498,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3414,
+        text = {
+            [1] = {
+                speed = 11,
+                text = "这个数据流是……！这里应该就是登出口没错了。不过，现在控制着这个世界的最高权限是……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "或守鞠亚",
+        cameraAction = 0,
+        headL = "12401_buman",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3415] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12502_zhoumei",
+        scriptId = 9498,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3415,
+        text = {
+            [1] = {
+                speed = 11,
+                text = "果然，他们利用了基于我的数据制造的病毒，才入侵了这个世界。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "或守鞠奈",
+        cameraAction = 0,
+        headL = "12401_buman",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3416] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12502_zhoumei",
+        scriptId = 9498,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3416,
+        text = {
+            [1] = {
+                speed = 12,
+                text = "不要紧……顺利的话，最高权限马上就会改变成%s的。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3417] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12502_zhoumei",
+        scriptId = 9498,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3417,
+        text = {
+            [1] = {
+                speed = 12,
+                text = "两个世界的法则互相融合的现在，以约会方式攻略原本的管理者Ruler，就肯定能获得最高控制权的。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3418] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12502_zhoumei",
+        scriptId = 9498,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3418,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "成功定位连接端。鞠奈，帮帮我……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "或守鞠亚",
+        cameraAction = 0,
+        headL = "12401_fennu",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3419] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12502_weixiao",
+        scriptId = 9498,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3419,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "好。已固定连接坐标，接下来……就要在DEM发现前，把拥有最高权限的某人带来这里就OK啦。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "或守鞠奈",
+        cameraAction = 0,
+        headL = "12401_fennu",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3420] = {
+        order = 7,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12502_weixiao",
+        scriptId = 9498,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3420,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "太好了，这样%s他们就能平安回到原来的世界了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "或守鞠亚",
+        cameraAction = 0,
+        headL = "12401_weixiao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3421] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9499,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3421,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "让你看看真正的凶祸乐园的力量吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "园神凛祢",
+        cameraAction = 0,
+        headL = "13301R_buman",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3422] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "31301_c1",
+        scriptId = 9499,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3422,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "和上次想必……实力大不相同了么。实在有趣……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "韦斯考特",
+        cameraAction = 0,
+        headL = "13301R_buman",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3423] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "31301_c1",
+        scriptId = 9499,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3423,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这一次，凛绪是真的为了爸爸的幸福！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "13201_kaixin",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3424] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9500,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3424,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这样值得吗？离开这里的话，你恐怕又要陷入沉睡了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3425] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12502_weixiao",
+        scriptId = 9500,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3425,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "只要不做你们的棋子，一切都值得！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "或守鞠奈",
+        cameraAction = 0,
+        headL = "10901_e2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3426] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12502_weixiao",
+        scriptId = 9500,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3426,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "仅凭你，没有办法阻止我吧？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3427] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12401_fennu",
+        scriptId = 9500,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3427,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "那就让你看看，真正的或守的力量吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "或守鞠亚",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3428] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9501,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3428,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "虽然已经有所觉悟，但没想到DEM的手下居然这么多。这重重包围的阵势，看来不会是轻松的一战啊……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3429] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_e2",
+        scriptId = 9501,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3429,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "请相信她们的力量，这一切都是为了%s啊！所以，我们也……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3430] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_e1",
+        scriptId = 9501,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3430,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "登出口就在前方，全力前进吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3431] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_e1",
+        scriptId = 9501,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3431,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "凛祢、凛绪、鞠亚、鞠奈……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3432] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9502,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3432,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "是我眼睛花了吗？怎么感觉地面在下陷……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3433] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11001_x",
+        scriptId = 9502,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3433,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "十香小姐请小心~要是受伤了我会心疼的哟！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "诱宵美九",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3434] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9503,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3434,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "有DEM的人……在吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3435] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_a2",
+        scriptId = 9503,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3435,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "刚才从远处还看不出来，走近才发现，这建筑物散发着各种奇怪的违和感呢……果然如四糸乃所说，这里就是DEM制造的接口吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3436] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "11303_a2",
+        scriptId = 9503,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3436,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我家的四糸乃，论直觉不会输给任何人哦！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸奈",
+        cameraAction = 0,
+        headL = "10399_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3437] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_b2",
+        scriptId = 9503,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3437,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "敌人来了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "10399_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3438] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9504,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3438,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "疑问。耶俱矢为什么闭着眼睛？小心落入敌人的陷阱。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3439] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_d1",
+        scriptId = 9504,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3439,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "哼哼哼！在黑暗之中，吾之第三眼，开！一定能找到虚拟世界的连接点！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10801_e1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3440] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10701_d1",
+        scriptId = 9504,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3440,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "指出。前面的房屋看上去有些奇怪，夕弦怀疑就在那里。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3441] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_e1",
+        scriptId = 9504,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3441,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "哈？睁开眼只剩我一个人了？等等我啊！夕弦~~~",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3442] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9505,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3442,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "……可恶，打倒单体没有用！难道是……DEM在制造复制体？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_g",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3443] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9505,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3443,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不，%s还在等我的消息，我一定不能放弃……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3444] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10401R_f1",
+        scriptId = 9505,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3444,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊啦啊啦，真是没完没了，不如“我们”也出场吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10201_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3445] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10401R_f1",
+        scriptId = 9505,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3445,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "狂三！？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3446] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10401R_g1",
+        scriptId = 9505,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3446,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊啦，久等了。我也拿出真本事吧~",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3447] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9506,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3447,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "回应我吧，凶祸乐园！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "园神凛祢",
+        cameraAction = 0,
+        headL = "13301R_buman",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3448] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_weixiao",
+        scriptId = 9506,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3448,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "妈妈，凛绪好像也感应到了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "13301R_buman",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3449] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_b1",
+        scriptId = 9506,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3449,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "看来这就是DEM最后的主力部队了。两位都要小心啊！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "13301R_buman",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3450] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10505_b1",
+        scriptId = 9506,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3450,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我不会再次输给她了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "园神凛祢",
+        cameraAction = 0,
+        headL = "13301R_buman",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3451] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9507,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3451,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "两个Ruler，居然都拥有了如此实力……实在是我方的误算……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3452] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12502_weixiao",
+        scriptId = 9507,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3452,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "还有，也别忘了我们呐！为了%s和凛绪，我不会退缩的。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "或守鞠奈",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3453] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "12502_weixiao",
+        scriptId = 9507,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3453,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "仅凭你，没有办法阻止我吧？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3454] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "12401_fennu",
+        scriptId = 9507,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3454,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "那就让你看看，真正的或守的力量吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "或守鞠亚",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3455] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9508,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3455,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "所有的接口竟然都被破坏了……是我小看你们了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_h1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3456] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13301R_moren",
+        scriptId = 9508,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3456,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "即便是虚拟的世界，这里也由不得你们乱来。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛祢",
+        cameraAction = 0,
+        headL = "10901_h1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3457] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13201_fennu",
+        scriptId = 9508,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3457,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "伤害爸爸妈妈还有大家的事情，凛绪一定会抗争到底的！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "10901_h1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3458] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13201_fennu",
+        scriptId = 9508,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3458,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "精神不错。那么，你会怎么选择呢？ruler。我很期待。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦·马瑟斯",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3459] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13301R_jingya",
+        scriptId = 9508,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3459,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "什么意思……？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "园神凛祢",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3460] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13301R_jingya",
+        scriptId = 9508,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3460,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "消失了……？我们赢了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "园神凛绪",
+        cameraAction = 0,
+        headL = "13201_kaixin",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
     [10014905] = {
         order = 5,
         voice = "",

@@ -3783,7 +3783,7 @@ local t =
 											bIsOpenClipping = "True",
 											bounceEnable = "False",
 											classname = "MEScrollView",
-											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											colorType = "1;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 											direction = "2",
 											dstBlendFunc = "771",
 											height = "75",
@@ -3819,7 +3819,7 @@ local t =
 											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "53",
+											height = "63",
 											ignoreSize = "False",
 											name = "Image_extraTipsBg",
 											sizepercentx = "0",
@@ -3831,7 +3831,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -131,
-												PositionY = 53,
+												PositionY = 58,
 											},
 											width = "137",
 											ZOrder = "1",
@@ -3857,14 +3857,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "15",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "17",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_extraTips",
 													nTextAlign = "1",
@@ -3878,10 +3878,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -20,
+														PositionX = -8,
 														PositionY = -6,
 													},
-													width = "19",
+													width = "22",
 													ZOrder = "1",
 												},
 												{
@@ -3903,14 +3903,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "15",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "17",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_monthCardViewNew1_1",
 													nTextAlign = "1",
@@ -3925,9 +3925,9 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -7,
-														PositionY = 7,
+														PositionY = 8,
 													},
-													width = "90",
+													width = "109",
 													ZOrder = "1",
 												},
 												{
@@ -3949,14 +3949,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "15",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "17",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_monthCardViewNew1_1-Copy1",
 													nTextAlign = "1",
@@ -3970,10 +3970,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 11,
+														PositionX = 26,
 														PositionY = -5,
 													},
-													width = "29",
+													width = "33",
 													ZOrder = "1",
 												},
 											},
@@ -3999,7 +3999,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -197,
-												PositionY = 54,
+												PositionY = 60,
 											},
 											width = "2",
 											ZOrder = "1",
@@ -4067,6 +4067,7 @@ local t =
 												PositionX = -3,
 												PositionY = 5,
 											},
+											visible = "False",
 											width = "408",
 											ZOrder = "1",
 										},
@@ -4111,7 +4112,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -208,
-												PositionY = 46,
+												PositionY = 49,
 											},
 											width = "209",
 											ZOrder = "1",

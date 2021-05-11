@@ -79,6 +79,7 @@ end
 --强制清楚状态 没有事件通知
 function StateMgr:forceClearState(state)
     if self.stateSign[state] then
+        self.host:onAStateClear(state)
         self.stateSign[state] = {}
     end
 end

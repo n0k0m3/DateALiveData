@@ -165,8 +165,14 @@ function GMView:initLanguagePanel( )
     self.languageCheckBox = {}
     self.languaeCheckBoxIdx = TFLanguageMgr:getLanguages()
     for i=1,#self.languaeCheckBoxIdx do
+        local languageLabel = TFDirector:getChildByPath(self.Panel_language, "label_language_" ..i)
+        if languageLabel then
+            languageLabel:setText(TFLanguageMgr:getWindowsTestTextByLanguage(self.languaeCheckBoxIdx[i]))
+        end
         local checkBox = TFDirector:getChildByPath(self.Panel_language, "checkBox_language_" ..i)
-        table.insert(self.languageCheckBox, checkBox)
+        if checkBox then
+            table.insert(self.languageCheckBox, checkBox)
+        end
     end
 
     local function checkBoxSel( checkBox )

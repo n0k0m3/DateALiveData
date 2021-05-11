@@ -66,6 +66,10 @@ function ServerDataMgr:init()
                         serverId = 760,
                         serverName= "yuxie",
                     },
+                    {
+                        serverId = 762,
+                        serverName= "saf",
+                    },
                 },
                 groupType = GLOBAL_SERVER_LIST.SERVER_KOREA_TW
             },

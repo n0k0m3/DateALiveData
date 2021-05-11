@@ -220,8 +220,6 @@ function TeamFightResultView:initUI(ui)
 end
 
 function TeamFightResultView:onShow( ... )
-    self.super.onShow(self)
-    
     self.uinode:runAnimation(self.UIAnimPlayList[1],1)
     self.uinode:setAnimationCallBack(self.UIAnimPlayList[1], TFANIMATION_END, function(data)
         self.uinode:runAnimation(self.UIAnimPlayList[2],1)

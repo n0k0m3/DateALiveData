@@ -1645,7 +1645,6 @@ function BattleView:_fadeOut()
 end
 
 function BattleView:onShow()
-    self.super.onShow(self)
     print("------------onShow-------------")
     if not self.bOnShow then
         self.Panel_fight:setCameraMask(eCameraFlag.CF_MAP)
@@ -1669,8 +1668,6 @@ function BattleView:onShow()
 end
 
 function BattleView:exitBattle()
-    self.mapView:clean()
-
     battleController.exitBattle()
     --清理场景上的节点
     self.Panel_map:removeAllChildren()
@@ -2301,6 +2298,9 @@ function BattleView:onShowHitLine(pos)
     skeletonNode:setPosition(pos)
     skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(_skeletonNode)
         _skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+        if _skeletonNode.resPath then
+            ResLoader.addCacheSpine(_skeletonNode,_skeletonNode.resPath)
+        end
         _skeletonNode:removeFromParent()
     end)
     self.mapView:addObject3(skeletonNode)
@@ -3007,6 +3007,9 @@ function BattleView:onHeroDead(hero)
             skeletonNode:setPosition(position)
             skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(_skeletonNode)
                 _skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+                if _skeletonNode.resPath then
+                    ResLoader.addCacheSpine(_skeletonNode,_skeletonNode.resPath)
+                end
                 _skeletonNode:removeFromParent()
             end)
             self:onEffectAddToLayer(skeletonNode,3)

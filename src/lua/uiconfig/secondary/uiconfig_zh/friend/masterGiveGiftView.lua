@@ -480,7 +480,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_masterGiveGiftView_1",
 									nTextAlign = "1",
@@ -499,7 +499,7 @@ local t =
 										LeftPositon = 16,
 										TopPosition = 30,
 									},
-									width = "99",
+									width = "98",
 									ZOrder = "1",
 								},
 								{
@@ -528,7 +528,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_masterGiveGiftView_1-Copy1",
 									nTextAlign = "1",
@@ -547,7 +547,7 @@ local t =
 										LeftPositon = 703,
 										TopPosition = 29,
 									},
-									width = "100",
+									width = "98",
 									ZOrder = "1",
 								},
 								{
@@ -643,7 +643,7 @@ local t =
 										LeftPositon = 911,
 										TopPosition = 29,
 									},
-									width = "45",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -713,11 +713,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = -77,
+												PositionX = -85,
 												PositionY = -31,
 											},
 											UItype = "Button",
-											width = "123",
+											width = "147",
 											ZOrder = "1",
 											components = 
 											{
@@ -790,7 +790,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 34,
+														PositionX = 50,
 														PositionY = -2,
 													},
 													width = "30",
@@ -824,7 +824,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -76,
+												PositionX = -85,
 												PositionY = -143,
 											},
 											uipanelviewmodel = 
@@ -864,7 +864,7 @@ local t =
 														PositionY = 68,
 													},
 													UItype = "Button",
-													width = "123",
+													width = "147",
 													ZOrder = "1",
 													components = 
 													{
@@ -935,7 +935,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 34,
+																PositionX = 50,
 															},
 															width = "30",
 															ZOrder = "1",
@@ -969,7 +969,7 @@ local t =
 														PositionY = 20,
 													},
 													UItype = "Button",
-													width = "123",
+													width = "147",
 													ZOrder = "1",
 													components = 
 													{
@@ -1039,7 +1039,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 34,
+																PositionX = 50,
 															},
 															width = "30",
 															ZOrder = "1",
@@ -1270,7 +1270,7 @@ local t =
 															{
 																
 															},
-															width = "70",
+															width = "64",
 															ZOrder = "1",
 														},
 													},

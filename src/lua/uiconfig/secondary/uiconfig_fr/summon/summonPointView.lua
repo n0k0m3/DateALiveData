@@ -232,7 +232,7 @@ local t =
 									{
 										PositionY = -24,
 									},
-									width = "67",
+									width = "76",
 									ZOrder = "1",
 								},
 								{
@@ -686,7 +686,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1153,7 +1153,7 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "30",
@@ -1169,7 +1169,7 @@ local t =
 									{
 										PositionY = -92,
 									},
-									width = "100",
+									width = "145",
 									ZOrder = "1",
 									components = 
 									{
@@ -1216,7 +1216,7 @@ local t =
 											{
 												
 											},
-											width = "53",
+											width = "54",
 											ZOrder = "1",
 										},
 									},

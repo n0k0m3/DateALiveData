@@ -5,7 +5,7 @@ return {
         common = 15010183,
         group = 1,
         id = 1,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300017,
         items = {
             [1] = 750028,
@@ -22,7 +22,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色生命上限-50%",
+        stringId = "190200017",
         affixId = 11206,
         position = 7,
         limitTargetType = {
@@ -41,7 +41,7 @@ return {
         common = 15010002,
         group = 1,
         id = 2,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300004,
         items = {
             [1] = 750028,
@@ -58,7 +58,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物受到的黑暗伤害-80%",
+        stringId = "190200018",
         affixId = 11219,
         position = 2,
         limitTargetType = {
@@ -77,7 +77,7 @@ return {
         common = 15010003,
         group = 1,
         id = 3,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300007,
         items = {
             [1] = 750028,
@@ -94,7 +94,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物受到的神圣伤害-80%",
+        stringId = "190200019",
         affixId = 11218,
         position = 3,
         limitTargetType = {
@@ -113,7 +113,7 @@ return {
         common = 15010004,
         group = 1,
         id = 4,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300014,
         items = {
             [1] = 750028,
@@ -130,7 +130,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色生命值回复效率-50%",
+        stringId = "190200020",
         affixId = 11203,
         position = 4,
         limitTargetType = {
@@ -149,7 +149,7 @@ return {
         common = 15010005,
         group = 1,
         id = 5,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300015,
         items = {
             [1] = 750028,
@@ -166,7 +166,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色连击数高于50时，伤害-30%",
+        stringId = "190200021",
         affixId = 11204,
         position = 5,
         limitTargetType = {
@@ -185,7 +185,7 @@ return {
         common = 15010183,
         group = 1,
         id = 6,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300027,
         items = {
             [1] = 750015,
@@ -202,7 +202,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色生命上限-50%",
+        stringId = "190200022",
         affixId = 11206,
         position = 7,
         limitTargetType = {
@@ -221,7 +221,7 @@ return {
         common = 15010002,
         group = 1,
         id = 7,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300005,
         items = {
             [1] = 750015,
@@ -238,7 +238,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物受到的黑暗伤害-80%",
+        stringId = "190200023",
         affixId = 11219,
         position = 2,
         limitTargetType = {
@@ -257,7 +257,7 @@ return {
         common = 15010003,
         group = 1,
         id = 8,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300008,
         items = {
             [1] = 750015,
@@ -274,7 +274,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物受到的神圣伤害-80%",
+        stringId = "190200024",
         affixId = 11218,
         position = 3,
         limitTargetType = {
@@ -293,7 +293,7 @@ return {
         common = 15010004,
         group = 1,
         id = 9,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300024,
         items = {
             [1] = 750015,
@@ -310,7 +310,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色生命值回复效率-50%",
+        stringId = "190200025",
         affixId = 11203,
         position = 4,
         limitTargetType = {
@@ -329,7 +329,7 @@ return {
         common = 15010005,
         group = 1,
         id = 10,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300025,
         items = {
             [1] = 750015,
@@ -346,7 +346,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色连击数高于50时，伤害-30%",
+        stringId = "190200026",
         affixId = 11204,
         position = 5,
         limitTargetType = {
@@ -365,7 +365,7 @@ return {
         common = 15010183,
         group = 1,
         id = 11,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300037,
         items = {
             [1] = 750002,
@@ -382,7 +382,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色生命上限-50%",
+        stringId = "190200027",
         affixId = 11206,
         position = 7,
         limitTargetType = {
@@ -401,7 +401,7 @@ return {
         common = 15010002,
         group = 1,
         id = 12,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300006,
         items = {
             [1] = 750002,
@@ -418,7 +418,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物受到的黑暗伤害-80%",
+        stringId = "190200028",
         affixId = 11219,
         position = 2,
         limitTargetType = {
@@ -437,7 +437,7 @@ return {
         common = 15010003,
         group = 1,
         id = 13,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300009,
         items = {
             [1] = 750002,
@@ -454,7 +454,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物受到的神圣伤害-80%",
+        stringId = "190200029",
         affixId = 11218,
         position = 3,
         limitTargetType = {
@@ -473,7 +473,7 @@ return {
         common = 15010004,
         group = 1,
         id = 14,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300034,
         items = {
             [1] = 750002,
@@ -490,7 +490,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色生命值回复效率-50%",
+        stringId = "190200030",
         affixId = 11203,
         position = 4,
         limitTargetType = {
@@ -509,7 +509,7 @@ return {
         common = 15010005,
         group = 1,
         id = 15,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300035,
         items = {
             [1] = 750002,
@@ -526,7 +526,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色连击数高于50时，伤害-30%",
+        stringId = "190200031",
         affixId = 11204,
         position = 5,
         limitTargetType = {
@@ -545,7 +545,7 @@ return {
         common = 15010001,
         group = 2,
         id = 16,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300001,
         items = {
             [1] = 750028,
@@ -562,7 +562,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色穿透伤害-20%",
+        stringId = "190200032",
         affixId = 11208,
         position = 1,
         limitTargetType = {
@@ -581,7 +581,7 @@ return {
         common = 15010183,
         group = 2,
         id = 17,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300017,
         items = {
             [1] = 750028,
@@ -598,7 +598,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "所有角色每1秒减少2点能量",
+        stringId = "190200033",
         affixId = 11223,
         position = 7,
         limitTargetType = {
@@ -617,7 +617,7 @@ return {
         common = 15010003,
         group = 2,
         id = 18,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300007,
         items = {
             [1] = 750028,
@@ -634,7 +634,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "所有出场能量值归零",
+        stringId = "190200034",
         affixId = 11224,
         position = 3,
         limitTargetType = {
@@ -653,7 +653,7 @@ return {
         common = 15010004,
         group = 2,
         id = 19,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300014,
         items = {
             [1] = 750028,
@@ -670,7 +670,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "受到的火焰伤害-80%",
+        stringId = "190200035",
         affixId = 11215,
         position = 4,
         limitTargetType = {
@@ -689,7 +689,7 @@ return {
         common = 15010006,
         group = 2,
         id = 20,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300016,
         items = {
             [1] = 750028,
@@ -706,7 +706,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物受到的暴风伤害-80%",
+        stringId = "190200036",
         affixId = 11216,
         position = 6,
         limitTargetType = {
@@ -725,7 +725,7 @@ return {
         common = 15010001,
         group = 2,
         id = 21,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300002,
         items = {
             [1] = 750015,
@@ -742,7 +742,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色穿透伤害-20%",
+        stringId = "190200037",
         affixId = 11208,
         position = 1,
         limitTargetType = {
@@ -761,7 +761,7 @@ return {
         common = 15010183,
         group = 2,
         id = 22,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300027,
         items = {
             [1] = 750015,
@@ -778,7 +778,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "所有角色每1秒减少2点能量",
+        stringId = "190200038",
         affixId = 11223,
         position = 7,
         limitTargetType = {
@@ -797,7 +797,7 @@ return {
         common = 15010003,
         group = 2,
         id = 23,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300008,
         items = {
             [1] = 750015,
@@ -814,7 +814,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "所有出场能量值归零",
+        stringId = "190200039",
         affixId = 11224,
         position = 3,
         limitTargetType = {
@@ -833,7 +833,7 @@ return {
         common = 15010004,
         group = 2,
         id = 24,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300024,
         items = {
             [1] = 750015,
@@ -850,7 +850,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "受到的火焰伤害-80%",
+        stringId = "190200040",
         affixId = 11215,
         position = 4,
         limitTargetType = {
@@ -869,7 +869,7 @@ return {
         common = 15010006,
         group = 2,
         id = 25,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300026,
         items = {
             [1] = 750015,
@@ -886,7 +886,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物受到的暴风伤害-80%",
+        stringId = "190200041",
         affixId = 11216,
         position = 6,
         limitTargetType = {
@@ -905,7 +905,7 @@ return {
         common = 15010001,
         group = 2,
         id = 26,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300003,
         items = {
             [1] = 750002,
@@ -922,7 +922,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色穿透伤害-20%",
+        stringId = "190200042",
         affixId = 11208,
         position = 1,
         limitTargetType = {
@@ -941,7 +941,7 @@ return {
         common = 15010183,
         group = 2,
         id = 27,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300037,
         items = {
             [1] = 750002,
@@ -958,7 +958,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "所有角色每1秒减少2点能量",
+        stringId = "190200043",
         affixId = 11223,
         position = 7,
         limitTargetType = {
@@ -977,7 +977,7 @@ return {
         common = 15010003,
         group = 2,
         id = 28,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300009,
         items = {
             [1] = 750002,
@@ -994,7 +994,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "所有出场能量值归零",
+        stringId = "190200044",
         affixId = 11224,
         position = 3,
         limitTargetType = {
@@ -1013,7 +1013,7 @@ return {
         common = 15010004,
         group = 2,
         id = 29,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300034,
         items = {
             [1] = 750002,
@@ -1030,7 +1030,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "受到的火焰伤害-80%",
+        stringId = "190200045",
         affixId = 11215,
         position = 4,
         limitTargetType = {
@@ -1049,7 +1049,7 @@ return {
         common = 15010006,
         group = 2,
         id = 30,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300036,
         items = {
             [1] = 750002,
@@ -1066,7 +1066,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物受到的暴风伤害-80%",
+        stringId = "190200046",
         affixId = 11216,
         position = 6,
         limitTargetType = {
@@ -1085,7 +1085,7 @@ return {
         common = 15010001,
         group = 3,
         id = 31,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300001,
         items = {
             [1] = 750028,
@@ -1102,7 +1102,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物受到的精神伤害-80%",
+        stringId = "190200047",
         affixId = 11222,
         position = 1,
         limitTargetType = {
@@ -1121,7 +1121,7 @@ return {
         common = 15010002,
         group = 3,
         id = 32,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300004,
         items = {
             [1] = 750028,
@@ -1138,7 +1138,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "每次释放技能后，叠加buff，可叠加2层，持续2秒，2层后扣除血量，血量为最大生命30%",
+        stringId = "190200048",
         affixId = 11227,
         position = 2,
         limitTargetType = {
@@ -1157,7 +1157,7 @@ return {
         common = 15010003,
         group = 3,
         id = 33,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300007,
         items = {
             [1] = 750028,
@@ -1174,7 +1174,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色每次释放技能后，叠加buff，可叠加5层，持续6秒，5层后扣除角色血量，血量为自身最大生命的50%",
+        stringId = "190200049",
         affixId = 11202,
         position = 3,
         limitTargetType = {
@@ -1193,7 +1193,7 @@ return {
         common = 15010005,
         group = 3,
         id = 34,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300015,
         items = {
             [1] = 750028,
@@ -1210,7 +1210,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物受到的物理伤害-50%",
+        stringId = "190200050",
         affixId = 11220,
         position = 5,
         limitTargetType = {
@@ -1229,7 +1229,7 @@ return {
         common = 15010006,
         group = 3,
         id = 35,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300016,
         items = {
             [1] = 750028,
@@ -1246,7 +1246,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色受到伤害后若生命值低于70%时，自身攻击力-80%持续6秒",
+        stringId = "190200051",
         affixId = 11205,
         position = 6,
         limitTargetType = {
@@ -1265,7 +1265,7 @@ return {
         common = 15010001,
         group = 3,
         id = 36,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300002,
         items = {
             [1] = 750015,
@@ -1282,7 +1282,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物受到的精神伤害-80%",
+        stringId = "190200052",
         affixId = 11222,
         position = 1,
         limitTargetType = {
@@ -1301,7 +1301,7 @@ return {
         common = 15010002,
         group = 3,
         id = 37,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300005,
         items = {
             [1] = 750015,
@@ -1318,7 +1318,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "每次释放技能后，叠加buff，可叠加2层，持续2秒，2层后扣除血量，血量为最大生命30%",
+        stringId = "190200053",
         affixId = 11227,
         position = 2,
         limitTargetType = {
@@ -1337,7 +1337,7 @@ return {
         common = 15010003,
         group = 3,
         id = 38,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300008,
         items = {
             [1] = 750015,
@@ -1354,7 +1354,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色每次释放技能后，叠加buff，可叠加5层，持续6秒，5层后扣除角色血量，血量为自身最大生命的50%",
+        stringId = "190200054",
         affixId = 11202,
         position = 3,
         limitTargetType = {
@@ -1373,7 +1373,7 @@ return {
         common = 15010005,
         group = 3,
         id = 39,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300025,
         items = {
             [1] = 750015,
@@ -1390,7 +1390,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物受到的物理伤害-50%",
+        stringId = "190200055",
         affixId = 11220,
         position = 5,
         limitTargetType = {
@@ -1409,7 +1409,7 @@ return {
         common = 15010006,
         group = 3,
         id = 40,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300026,
         items = {
             [1] = 750015,
@@ -1426,7 +1426,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色受到伤害后若生命值低于70%时，自身攻击力-80%持续6秒",
+        stringId = "190200056",
         affixId = 11205,
         position = 6,
         limitTargetType = {
@@ -1445,7 +1445,7 @@ return {
         common = 15010001,
         group = 3,
         id = 41,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300003,
         items = {
             [1] = 750002,
@@ -1462,7 +1462,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物受到的精神伤害-80%",
+        stringId = "190200057",
         affixId = 11222,
         position = 1,
         limitTargetType = {
@@ -1481,7 +1481,7 @@ return {
         common = 15010002,
         group = 3,
         id = 42,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300006,
         items = {
             [1] = 750002,
@@ -1498,7 +1498,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "每次释放技能后，叠加buff，可叠加2层，持续2秒，2层后扣除血量，血量为最大生命30%",
+        stringId = "190200058",
         affixId = 11227,
         position = 2,
         limitTargetType = {
@@ -1517,7 +1517,7 @@ return {
         common = 15010003,
         group = 3,
         id = 43,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300009,
         items = {
             [1] = 750002,
@@ -1534,7 +1534,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色每次释放技能后，叠加buff，可叠加5层，持续6秒，5层后扣除角色血量，血量为自身最大生命的50%",
+        stringId = "190200059",
         affixId = 11202,
         position = 3,
         limitTargetType = {
@@ -1553,7 +1553,7 @@ return {
         common = 15010005,
         group = 3,
         id = 44,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300035,
         items = {
             [1] = 750002,
@@ -1570,7 +1570,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物受到的物理伤害-50%",
+        stringId = "190200060",
         affixId = 11220,
         position = 5,
         limitTargetType = {
@@ -1589,7 +1589,7 @@ return {
         common = 15010006,
         group = 3,
         id = 45,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300036,
         items = {
             [1] = 750002,
@@ -1606,7 +1606,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色受到伤害后若生命值低于70%时，自身攻击力-80%持续6秒",
+        stringId = "190200061",
         affixId = 11205,
         position = 6,
         limitTargetType = {
@@ -1625,7 +1625,7 @@ return {
         common = 15010001,
         group = 4,
         id = 46,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300001,
         items = {
             [1] = 750028,
@@ -1642,7 +1642,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物攻击速度+30%，移动速度+20%",
+        stringId = "190200062",
         affixId = 11209,
         position = 1,
         limitTargetType = {
@@ -1661,7 +1661,7 @@ return {
         common = 15010002,
         group = 4,
         id = 47,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300004,
         items = {
             [1] = 750028,
@@ -1678,7 +1678,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色每次释放技能后，叠加buff，可叠加5层，持续6秒，5层后扣除角色血量，血量为自身最大生命的50%",
+        stringId = "190200063",
         affixId = 11202,
         position = 2,
         limitTargetType = {
@@ -1697,7 +1697,7 @@ return {
         common = 15010183,
         group = 4,
         id = 48,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300017,
         items = {
             [1] = 750028,
@@ -1714,7 +1714,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "所有角色CD增加15%",
+        stringId = "190200064",
         affixId = 11225,
         position = 7,
         limitTargetType = {
@@ -1733,7 +1733,7 @@ return {
         common = 15010005,
         group = 4,
         id = 49,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300015,
         items = {
             [1] = 750028,
@@ -1750,7 +1750,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色防御力降低100%",
+        stringId = "190200065",
         affixId = 11210,
         position = 5,
         limitTargetType = {
@@ -1769,7 +1769,7 @@ return {
         common = 15010006,
         group = 4,
         id = 50,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300016,
         items = {
             [1] = 750028,
@@ -1786,7 +1786,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色连击数高于50时，伤害-30%",
+        stringId = "190200066",
         affixId = 11204,
         position = 6,
         limitTargetType = {
@@ -1805,7 +1805,7 @@ return {
         common = 15010001,
         group = 4,
         id = 51,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300002,
         items = {
             [1] = 750015,
@@ -1822,7 +1822,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物攻击速度+30%，移动速度+20%",
+        stringId = "190200067",
         affixId = 11209,
         position = 1,
         limitTargetType = {
@@ -1841,7 +1841,7 @@ return {
         common = 15010002,
         group = 4,
         id = 52,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300005,
         items = {
             [1] = 750015,
@@ -1858,7 +1858,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色每次释放技能后，叠加buff，可叠加5层，持续6秒，5层后扣除角色血量，血量为自身最大生命的50%",
+        stringId = "190200068",
         affixId = 11202,
         position = 2,
         limitTargetType = {
@@ -1877,7 +1877,7 @@ return {
         common = 15010183,
         group = 4,
         id = 53,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300027,
         items = {
             [1] = 750015,
@@ -1894,7 +1894,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "所有角色CD增加15%",
+        stringId = "190200069",
         affixId = 11225,
         position = 7,
         limitTargetType = {
@@ -1913,7 +1913,7 @@ return {
         common = 15010005,
         group = 4,
         id = 54,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300025,
         items = {
             [1] = 750015,
@@ -1930,7 +1930,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色防御力降低100%",
+        stringId = "190200070",
         affixId = 11210,
         position = 5,
         limitTargetType = {
@@ -1949,7 +1949,7 @@ return {
         common = 15010006,
         group = 4,
         id = 55,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300026,
         items = {
             [1] = 750015,
@@ -1966,7 +1966,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色连击数高于50时，伤害-30%",
+        stringId = "190200071",
         affixId = 11204,
         position = 6,
         limitTargetType = {
@@ -1985,7 +1985,7 @@ return {
         common = 15010001,
         group = 4,
         id = 56,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300003,
         items = {
             [1] = 750002,
@@ -2002,7 +2002,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物攻击速度+30%，移动速度+20%",
+        stringId = "190200072",
         affixId = 11209,
         position = 1,
         limitTargetType = {
@@ -2021,7 +2021,7 @@ return {
         common = 15010002,
         group = 4,
         id = 57,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300006,
         items = {
             [1] = 750002,
@@ -2038,7 +2038,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色每次释放技能后，叠加buff，可叠加5层，持续6秒，5层后扣除角色血量，血量为自身最大生命的50%",
+        stringId = "190200073",
         affixId = 11202,
         position = 2,
         limitTargetType = {
@@ -2057,7 +2057,7 @@ return {
         common = 15010183,
         group = 4,
         id = 58,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300037,
         items = {
             [1] = 750002,
@@ -2074,7 +2074,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "所有角色CD增加15%",
+        stringId = "190200074",
         affixId = 11225,
         position = 7,
         limitTargetType = {
@@ -2093,7 +2093,7 @@ return {
         common = 15010005,
         group = 4,
         id = 59,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300035,
         items = {
             [1] = 750002,
@@ -2110,7 +2110,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色防御力降低100%",
+        stringId = "190200075",
         affixId = 11210,
         position = 5,
         limitTargetType = {
@@ -2129,7 +2129,7 @@ return {
         common = 15010006,
         group = 4,
         id = 60,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300036,
         items = {
             [1] = 750002,
@@ -2146,7 +2146,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色连击数高于50时，伤害-30%",
+        stringId = "190200076",
         affixId = 11204,
         position = 6,
         limitTargetType = {
@@ -2165,7 +2165,7 @@ return {
         common = 15010001,
         group = 5,
         id = 61,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300001,
         items = {
             [1] = 750028,
@@ -2182,7 +2182,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物防御力+15%",
+        stringId = "190200077",
         affixId = 11211,
         position = 1,
         limitTargetType = {
@@ -2201,7 +2201,7 @@ return {
         common = 15010003,
         group = 5,
         id = 62,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300007,
         items = {
             [1] = 750028,
@@ -2218,7 +2218,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物受到的雷电伤害-80%",
+        stringId = "190200078",
         affixId = 11217,
         position = 3,
         limitTargetType = {
@@ -2237,7 +2237,7 @@ return {
         common = 15010004,
         group = 5,
         id = 63,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300014,
         items = {
             [1] = 750028,
@@ -2254,7 +2254,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物受到的精神伤害-80%",
+        stringId = "190200079",
         affixId = 11222,
         position = 4,
         limitTargetType = {
@@ -2273,7 +2273,7 @@ return {
         common = 15010183,
         group = 5,
         id = 64,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300017,
         items = {
             [1] = 750028,
@@ -2290,7 +2290,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "所有角色CD增加15%",
+        stringId = "190200080",
         affixId = 11225,
         position = 7,
         limitTargetType = {
@@ -2309,7 +2309,7 @@ return {
         common = 15010006,
         group = 5,
         id = 65,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300016,
         items = {
             [1] = 750028,
@@ -2326,7 +2326,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色防御力降低100%",
+        stringId = "190200081",
         affixId = 11210,
         position = 6,
         limitTargetType = {
@@ -2345,7 +2345,7 @@ return {
         common = 15010001,
         group = 5,
         id = 66,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300002,
         items = {
             [1] = 750015,
@@ -2362,7 +2362,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色连击数高于50时，伤害-30%",
+        stringId = "190200082",
         affixId = 11204,
         position = 1,
         limitTargetType = {
@@ -2381,7 +2381,7 @@ return {
         common = 15010003,
         group = 5,
         id = 67,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300008,
         items = {
             [1] = 750015,
@@ -2398,7 +2398,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物受到的雷电伤害-80%",
+        stringId = "190200083",
         affixId = 11217,
         position = 3,
         limitTargetType = {
@@ -2417,7 +2417,7 @@ return {
         common = 15010004,
         group = 5,
         id = 68,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300024,
         items = {
             [1] = 750015,
@@ -2434,7 +2434,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物受到的精神伤害-80%",
+        stringId = "190200084",
         affixId = 11222,
         position = 4,
         limitTargetType = {
@@ -2453,7 +2453,7 @@ return {
         common = 15010183,
         group = 5,
         id = 69,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300027,
         items = {
             [1] = 750015,
@@ -2470,7 +2470,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "所有角色CD增加15%",
+        stringId = "190200085",
         affixId = 11225,
         position = 7,
         limitTargetType = {
@@ -2489,7 +2489,7 @@ return {
         common = 15010006,
         group = 5,
         id = 70,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300026,
         items = {
             [1] = 750015,
@@ -2506,7 +2506,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色防御力降低100%",
+        stringId = "190200086",
         affixId = 11210,
         position = 6,
         limitTargetType = {
@@ -2525,7 +2525,7 @@ return {
         common = 15010001,
         group = 5,
         id = 71,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300003,
         items = {
             [1] = 750002,
@@ -2542,7 +2542,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色连击数高于50时，伤害-30%",
+        stringId = "190200087",
         affixId = 11204,
         position = 1,
         limitTargetType = {
@@ -2561,7 +2561,7 @@ return {
         common = 15010003,
         group = 5,
         id = 72,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300009,
         items = {
             [1] = 750002,
@@ -2578,7 +2578,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物受到的雷电伤害-80%",
+        stringId = "190200088",
         affixId = 11217,
         position = 3,
         limitTargetType = {
@@ -2597,7 +2597,7 @@ return {
         common = 15010004,
         group = 5,
         id = 73,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300034,
         items = {
             [1] = 750002,
@@ -2614,7 +2614,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物受到的精神伤害-80%",
+        stringId = "190200089",
         affixId = 11222,
         position = 4,
         limitTargetType = {
@@ -2633,7 +2633,7 @@ return {
         common = 15010183,
         group = 5,
         id = 74,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300037,
         items = {
             [1] = 750002,
@@ -2650,7 +2650,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "所有角色CD增加15%",
+        stringId = "190200090",
         affixId = 11225,
         position = 7,
         limitTargetType = {
@@ -2669,7 +2669,7 @@ return {
         common = 15010006,
         group = 5,
         id = 75,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300036,
         items = {
             [1] = 750002,
@@ -2686,7 +2686,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色防御力降低100%",
+        stringId = "190200091",
         affixId = 11210,
         position = 6,
         limitTargetType = {
@@ -2705,7 +2705,7 @@ return {
         common = 15010002,
         group = 6,
         id = 76,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300004,
         items = {
             [1] = 750028,
@@ -2722,7 +2722,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物生命上限+50%",
+        stringId = "190200092",
         affixId = 11212,
         position = 2,
         limitTargetType = {
@@ -2741,7 +2741,7 @@ return {
         common = 15010003,
         group = 6,
         id = 77,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300007,
         items = {
             [1] = 750028,
@@ -2758,7 +2758,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物受到的黑暗伤害-80%",
+        stringId = "190200093",
         affixId = 11219,
         position = 3,
         limitTargetType = {
@@ -2777,7 +2777,7 @@ return {
         common = 15010004,
         group = 6,
         id = 78,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300014,
         items = {
             [1] = 750028,
@@ -2794,7 +2794,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色受到伤害后若生命值低于70%时，自身攻击力-80%持续6秒",
+        stringId = "190200094",
         affixId = 11205,
         position = 4,
         limitTargetType = {
@@ -2813,7 +2813,7 @@ return {
         common = 15010005,
         group = 6,
         id = 79,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300015,
         items = {
             [1] = 750028,
@@ -2830,7 +2830,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色暴击伤害-50%",
+        stringId = "190200095",
         affixId = 11207,
         position = 5,
         limitTargetType = {
@@ -2849,7 +2849,7 @@ return {
         common = 15010183,
         group = 6,
         id = 80,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300017,
         items = {
             [1] = 750028,
@@ -2866,7 +2866,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色连击数高于50时，伤害-30%",
+        stringId = "190200096",
         affixId = 11204,
         position = 7,
         limitTargetType = {
@@ -2885,7 +2885,7 @@ return {
         common = 15010002,
         group = 6,
         id = 81,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300005,
         items = {
             [1] = 750015,
@@ -2902,7 +2902,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物生命上限+50%",
+        stringId = "190200097",
         affixId = 11212,
         position = 2,
         limitTargetType = {
@@ -2921,7 +2921,7 @@ return {
         common = 15010003,
         group = 6,
         id = 82,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300008,
         items = {
             [1] = 750015,
@@ -2938,7 +2938,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物受到的黑暗伤害-80%",
+        stringId = "190200098",
         affixId = 11219,
         position = 3,
         limitTargetType = {
@@ -2957,7 +2957,7 @@ return {
         common = 15010004,
         group = 6,
         id = 83,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300024,
         items = {
             [1] = 750015,
@@ -2974,7 +2974,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色受到伤害后若生命值低于70%时，自身攻击力-80%持续6秒",
+        stringId = "190200099",
         affixId = 11205,
         position = 4,
         limitTargetType = {
@@ -2993,7 +2993,7 @@ return {
         common = 15010005,
         group = 6,
         id = 84,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300025,
         items = {
             [1] = 750015,
@@ -3010,7 +3010,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色暴击伤害-50%",
+        stringId = "190200100",
         affixId = 11207,
         position = 5,
         limitTargetType = {
@@ -3029,7 +3029,7 @@ return {
         common = 15010183,
         group = 6,
         id = 85,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300027,
         items = {
             [1] = 750015,
@@ -3046,7 +3046,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色连击数高于50时，伤害-30%",
+        stringId = "190200101",
         affixId = 11204,
         position = 7,
         limitTargetType = {
@@ -3065,7 +3065,7 @@ return {
         common = 15010002,
         group = 6,
         id = 86,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300006,
         items = {
             [1] = 750002,
@@ -3082,7 +3082,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物生命上限+50%",
+        stringId = "190200102",
         affixId = 11212,
         position = 2,
         limitTargetType = {
@@ -3101,7 +3101,7 @@ return {
         common = 15010003,
         group = 6,
         id = 87,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300009,
         items = {
             [1] = 750002,
@@ -3118,7 +3118,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物受到的黑暗伤害-80%",
+        stringId = "190200103",
         affixId = 11219,
         position = 3,
         limitTargetType = {
@@ -3137,7 +3137,7 @@ return {
         common = 15010004,
         group = 6,
         id = 88,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300034,
         items = {
             [1] = 750002,
@@ -3154,7 +3154,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色受到伤害后若生命值低于70%时，自身攻击力-80%持续6秒",
+        stringId = "190200104",
         affixId = 11205,
         position = 4,
         limitTargetType = {
@@ -3173,7 +3173,7 @@ return {
         common = 15010005,
         group = 6,
         id = 89,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300035,
         items = {
             [1] = 750002,
@@ -3190,7 +3190,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色暴击伤害-50%",
+        stringId = "190200105",
         affixId = 11207,
         position = 5,
         limitTargetType = {
@@ -3209,7 +3209,7 @@ return {
         common = 15010183,
         group = 6,
         id = 90,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300037,
         items = {
             [1] = 750002,
@@ -3226,7 +3226,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色连击数高于50时，伤害-30%",
+        stringId = "190200106",
         affixId = 11204,
         position = 7,
         limitTargetType = {
@@ -3245,7 +3245,7 @@ return {
         common = 15010001,
         group = 7,
         id = 91,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300001,
         items = {
             [1] = 750028,
@@ -3262,7 +3262,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色穿透伤害-20%",
+        stringId = "190200107",
         affixId = 11208,
         position = 1,
         limitTargetType = {
@@ -3281,7 +3281,7 @@ return {
         common = 15010002,
         group = 7,
         id = 92,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300004,
         items = {
             [1] = 750028,
@@ -3298,7 +3298,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "所有角色每1秒减少2点能量",
+        stringId = "190200108",
         affixId = 11223,
         position = 2,
         limitTargetType = {
@@ -3317,7 +3317,7 @@ return {
         common = 15010183,
         group = 7,
         id = 93,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300017,
         items = {
             [1] = 750028,
@@ -3334,7 +3334,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "所有出场能量值归零",
+        stringId = "190200109",
         affixId = 11224,
         position = 7,
         limitTargetType = {
@@ -3353,7 +3353,7 @@ return {
         common = 15010004,
         group = 7,
         id = 94,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300014,
         items = {
             [1] = 750028,
@@ -3370,7 +3370,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物受到的雷电伤害-80%",
+        stringId = "190200110",
         affixId = 11217,
         position = 4,
         limitTargetType = {
@@ -3389,7 +3389,7 @@ return {
         common = 15010005,
         group = 7,
         id = 95,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300015,
         items = {
             [1] = 750028,
@@ -3406,7 +3406,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物受到的冰霜伤害-80%",
+        stringId = "190200111",
         affixId = 11214,
         position = 5,
         limitTargetType = {
@@ -3425,7 +3425,7 @@ return {
         common = 15010001,
         group = 7,
         id = 96,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300002,
         items = {
             [1] = 750015,
@@ -3442,7 +3442,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色穿透伤害-20%",
+        stringId = "190200112",
         affixId = 11208,
         position = 1,
         limitTargetType = {
@@ -3461,7 +3461,7 @@ return {
         common = 15010002,
         group = 7,
         id = 97,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300005,
         items = {
             [1] = 750015,
@@ -3478,7 +3478,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "所有角色每1秒减少2点能量",
+        stringId = "190200113",
         affixId = 11223,
         position = 2,
         limitTargetType = {
@@ -3497,7 +3497,7 @@ return {
         common = 15010183,
         group = 7,
         id = 98,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300027,
         items = {
             [1] = 750015,
@@ -3514,7 +3514,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "所有出场能量值归零",
+        stringId = "190200114",
         affixId = 11224,
         position = 7,
         limitTargetType = {
@@ -3533,7 +3533,7 @@ return {
         common = 15010004,
         group = 7,
         id = 99,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300024,
         items = {
             [1] = 750015,
@@ -3550,7 +3550,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物受到的雷电伤害-80%",
+        stringId = "190200115",
         affixId = 11217,
         position = 4,
         limitTargetType = {
@@ -3569,7 +3569,7 @@ return {
         common = 15010005,
         group = 7,
         id = 100,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300025,
         items = {
             [1] = 750015,
@@ -3586,7 +3586,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物受到的冰霜伤害-80%",
+        stringId = "190200116",
         affixId = 11214,
         position = 5,
         limitTargetType = {
@@ -3605,7 +3605,7 @@ return {
         common = 15010001,
         group = 7,
         id = 101,
-        dungeonName = "王冠",
+        dungeonName = "190200142",
         dungeonLevelId = 2300003,
         items = {
             [1] = 750002,
@@ -3622,7 +3622,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色穿透伤害-20%",
+        stringId = "190200117",
         affixId = 11208,
         position = 1,
         limitTargetType = {
@@ -3641,7 +3641,7 @@ return {
         common = 15010002,
         group = 7,
         id = 102,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300006,
         items = {
             [1] = 750002,
@@ -3658,7 +3658,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "所有角色每1秒减少2点能量",
+        stringId = "190200118",
         affixId = 11223,
         position = 2,
         limitTargetType = {
@@ -3677,7 +3677,7 @@ return {
         common = 15010183,
         group = 7,
         id = 103,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300037,
         items = {
             [1] = 750002,
@@ -3694,7 +3694,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "所有出场能量值归零",
+        stringId = "190200119",
         affixId = 11224,
         position = 7,
         limitTargetType = {
@@ -3713,7 +3713,7 @@ return {
         common = 15010004,
         group = 7,
         id = 104,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300034,
         items = {
             [1] = 750002,
@@ -3730,7 +3730,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物受到的雷电伤害-80%",
+        stringId = "190200120",
         affixId = 11217,
         position = 4,
         limitTargetType = {
@@ -3749,7 +3749,7 @@ return {
         common = 15010005,
         group = 7,
         id = 105,
-        dungeonName = "严格",
+        dungeonName = "190200141",
         dungeonLevelId = 2300035,
         items = {
             [1] = 750002,
@@ -3766,7 +3766,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物受到的冰霜伤害-80%",
+        stringId = "190200121",
         affixId = 11214,
         position = 5,
         limitTargetType = {
@@ -3785,7 +3785,7 @@ return {
         common = 15010183,
         group = 8,
         id = 106,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300017,
         items = {
             [1] = 750028,
@@ -3802,7 +3802,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "精灵出场后每秒减少1%的血量",
+        stringId = "190200122",
         affixId = 11226,
         position = 7,
         limitTargetType = {
@@ -3821,7 +3821,7 @@ return {
         common = 15010002,
         group = 8,
         id = 107,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300004,
         items = {
             [1] = 750028,
@@ -3838,7 +3838,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "每次释放技能后，叠加buff，可叠加2层，持续2秒，2层后扣除血量，血量为最大生命30%",
+        stringId = "190200123",
         affixId = 11227,
         position = 2,
         limitTargetType = {
@@ -3857,7 +3857,7 @@ return {
         common = 15010003,
         group = 8,
         id = 108,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300007,
         items = {
             [1] = 750028,
@@ -3874,7 +3874,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物攻击速度+30%，移动速度+20%",
+        stringId = "190200124",
         affixId = 11209,
         position = 3,
         limitTargetType = {
@@ -3893,7 +3893,7 @@ return {
         common = 15010004,
         group = 8,
         id = 109,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300014,
         items = {
             [1] = 750028,
@@ -3910,7 +3910,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "怪物防御力+15%",
+        stringId = "190200125",
         affixId = 11211,
         position = 4,
         limitTargetType = {
@@ -3929,7 +3929,7 @@ return {
         common = 15010006,
         group = 8,
         id = 110,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300016,
         items = {
             [1] = 750028,
@@ -3946,7 +3946,7 @@ return {
             [12] = 750039,
             [13] = 750040,
         },
-        stringId = "角色受到伤害后若生命值低于70%时，自身攻击力-80%持续6秒",
+        stringId = "190200126",
         affixId = 11205,
         position = 6,
         limitTargetType = {
@@ -3965,7 +3965,7 @@ return {
         common = 15010183,
         group = 8,
         id = 111,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300027,
         items = {
             [1] = 750015,
@@ -3982,7 +3982,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "精灵出场后每秒减少1%的血量",
+        stringId = "190200127",
         affixId = 11226,
         position = 7,
         limitTargetType = {
@@ -4001,7 +4001,7 @@ return {
         common = 15010002,
         group = 8,
         id = 112,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300005,
         items = {
             [1] = 750015,
@@ -4018,7 +4018,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "每次释放技能后，叠加buff，可叠加2层，持续2秒，2层后扣除血量，血量为最大生命30%",
+        stringId = "190200128",
         affixId = 11227,
         position = 2,
         limitTargetType = {
@@ -4037,7 +4037,7 @@ return {
         common = 15010003,
         group = 8,
         id = 113,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300008,
         items = {
             [1] = 750015,
@@ -4054,7 +4054,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物攻击速度+30%，移动速度+20%",
+        stringId = "190200129",
         affixId = 11209,
         position = 3,
         limitTargetType = {
@@ -4073,7 +4073,7 @@ return {
         common = 15010004,
         group = 8,
         id = 114,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300024,
         items = {
             [1] = 750015,
@@ -4090,7 +4090,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "怪物防御力+15%",
+        stringId = "190200130",
         affixId = 11211,
         position = 4,
         limitTargetType = {
@@ -4109,7 +4109,7 @@ return {
         common = 15010006,
         group = 8,
         id = 115,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300026,
         items = {
             [1] = 750015,
@@ -4126,7 +4126,7 @@ return {
             [12] = 750026,
             [13] = 750027,
         },
-        stringId = "角色受到伤害后若生命值低于70%时，自身攻击力-80%持续6秒",
+        stringId = "190200131",
         affixId = 11205,
         position = 6,
         limitTargetType = {
@@ -4145,7 +4145,7 @@ return {
         common = 15010183,
         group = 8,
         id = 116,
-        dungeonName = "胜利",
+        dungeonName = "190200137",
         dungeonLevelId = 2300037,
         items = {
             [1] = 750002,
@@ -4162,7 +4162,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "精灵出场后每秒减少1%的血量",
+        stringId = "190200132",
         affixId = 11226,
         position = 7,
         limitTargetType = {
@@ -4181,7 +4181,7 @@ return {
         common = 15010002,
         group = 8,
         id = 117,
-        dungeonName = "智慧",
+        dungeonName = "190200138",
         dungeonLevelId = 2300006,
         items = {
             [1] = 750002,
@@ -4198,7 +4198,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "每次释放技能后，叠加buff，可叠加2层，持续2秒，2层后扣除血量，血量为最大生命30%",
+        stringId = "190200133",
         affixId = 11227,
         position = 2,
         limitTargetType = {
@@ -4217,7 +4217,7 @@ return {
         common = 15010003,
         group = 8,
         id = 118,
-        dungeonName = "理解",
+        dungeonName = "190200139",
         dungeonLevelId = 2300009,
         items = {
             [1] = 750002,
@@ -4234,7 +4234,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物攻击速度+30%，移动速度+20%",
+        stringId = "190200134",
         affixId = 11209,
         position = 3,
         limitTargetType = {
@@ -4253,7 +4253,7 @@ return {
         common = 15010004,
         group = 8,
         id = 119,
-        dungeonName = "仁爱",
+        dungeonName = "190200140",
         dungeonLevelId = 2300034,
         items = {
             [1] = 750002,
@@ -4270,7 +4270,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "怪物防御力+15%",
+        stringId = "190200135",
         affixId = 11211,
         position = 4,
         limitTargetType = {
@@ -4289,7 +4289,7 @@ return {
         common = 15010006,
         group = 8,
         id = 120,
-        dungeonName = "美丽",
+        dungeonName = "190200143",
         dungeonLevelId = 2300036,
         items = {
             [1] = 750002,
@@ -4306,7 +4306,7 @@ return {
             [12] = 750013,
             [13] = 750014,
         },
-        stringId = "角色受到伤害后若生命值低于70%时，自身攻击力-80%持续6秒",
+        stringId = "190200136",
         affixId = 11205,
         position = 6,
         limitTargetType = {

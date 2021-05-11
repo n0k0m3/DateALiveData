@@ -192,10 +192,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 447,
-										PositionY = 255,
+										PositionX = 418,
+										PositionY = 248,
 									},
-									width = "135",
+									width = "136",
 									ZOrder = "1",
 								},
 								{
@@ -242,7 +242,7 @@ local t =
 										PositionY = 26,
 									},
 									visible = "False",
-									width = "1267",
+									width = "1149",
 									ZOrder = "1",
 								},
 								{
@@ -289,7 +289,7 @@ local t =
 										PositionY = -228,
 									},
 									visible = "False",
-									width = "838",
+									width = "888",
 									ZOrder = "1",
 								},
 								{
@@ -332,10 +332,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 241,
-										PositionY = -208,
+										PositionX = -214,
+										PositionY = -210,
 									},
-									width = "87",
+									width = "89",
 									ZOrder = "1",
 								},
 								{
@@ -396,7 +396,7 @@ local t =
 								StrokeColor = "#FF4A43AC",
 								StrokeSize = 2,
 							},
-							height = "36",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_addRechargeActivityView_1",
 							nTextAlign = "1",
@@ -413,7 +413,7 @@ local t =
 								PositionX = -398,
 								PositionY = -218,
 							},
-							width = "168",
+							width = "170",
 							ZOrder = "1",
 						},
 					},
@@ -604,7 +604,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "113",
+											width = "122",
 											ZOrder = "1",
 										},
 									},
@@ -749,7 +749,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "122",
+											width = "136",
 											ZOrder = "1",
 										},
 									},
@@ -861,7 +861,7 @@ local t =
 											{
 												PositionY = 10,
 											},
-											width = "55",
+											width = "56",
 											ZOrder = "1",
 										},
 									},
@@ -968,7 +968,7 @@ local t =
 												PositionX = -1,
 												PositionY = 48,
 											},
-											width = "122",
+											width = "117",
 											ZOrder = "1",
 										},
 										{
@@ -990,18 +990,20 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFD159A9",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_geted",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1013,7 +1015,7 @@ local t =
 											{
 												PositionY = 9,
 											},
-											width = "94",
+											width = "91",
 											ZOrder = "1",
 										},
 									},
@@ -1083,7 +1085,6 @@ local t =
 											{
 												PositionY = 39,
 											},
-											visible = "False",
 											ZOrder = "1",
 										},
 										{
@@ -1115,7 +1116,7 @@ local t =
 												PositionY = 49,
 											},
 											UItype = "Button",
-											width = "122",
+											width = "117",
 											ZOrder = "1",
 										},
 										{
@@ -1137,18 +1138,20 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFD159A9",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_get",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1226,7 +1229,7 @@ local t =
 											{
 												PositionY = 47,
 											},
-											width = "122",
+											width = "117",
 											ZOrder = "1",
 										},
 										{
@@ -1248,18 +1251,20 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFD159A9",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_money",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1271,7 +1276,7 @@ local t =
 											{
 												PositionY = 10,
 											},
-											width = "54",
+											width = "50",
 											ZOrder = "1",
 										},
 									},

@@ -90,14 +90,14 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "535",
+							height = "545",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/activity/activity_bg/jumpbg5.png",
+							texturePath = "ui/activity/activity_bg/002.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
@@ -105,7 +105,7 @@ local t =
 								TopPosition = 236,
 								relativeToName = "Panel",
 							},
-							width = "925",
+							width = "926",
 							ZOrder = "1",
 						},
 						{
@@ -167,10 +167,10 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "107",
+							height = "87",
 							ignoreSize = "True",
 							name = "Button_jump",
-							normal = "ui/activity/activity_bg/jumpbutton5.png",
+							normal = "ui/activity/activity_bg/jumpbutton6.png",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -178,10 +178,11 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionY = -224,
+								PositionX = 304,
+								PositionY = -204,
 							},
 							UItype = "Button",
-							width = "212",
+							width = "207",
 							ZOrder = "1",
 							components = 
 							{
@@ -195,7 +196,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FF9B5328",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -205,14 +206,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "42",
+									fontSize = "30",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "52",
+									height = "34",
 									ignoreSize = "True",
 									name = "label_jump",
 									nTextAlign = "1",
@@ -227,9 +228,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -3,
-										PositionY = -3,
+										PositionY = 2,
 									},
-									width = "84",
+									width = "106",
 									ZOrder = "1",
 								},
 							},
@@ -292,12 +293,12 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "20",
 									fontStroke = 
 									{
-										IsStroke = false,
-										StrokeColor = "#FFE6E6E6",
-										StrokeSize = 1,
+										IsStroke = true,
+										StrokeColor = "#FF1A5292",
+										StrokeSize = 2,
 									},
 									height = "120",
 									ignoreSize = "False",
@@ -313,7 +314,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 14,
+										PositionX = 24,
 										PositionY = -11,
 									},
 									width = "166",
@@ -334,8 +335,8 @@ local t =
 	{
 		textures = 
 		{
-			"ui/activity/activity_bg/jumpbg5.png",
-			"ui/activity/activity_bg/jumpbutton5.png",
+			"ui/activity/activity_bg/002.png",
+			"ui/activity/activity_bg/jumpbutton6.png",
 		},
 		armatures = 
 		{

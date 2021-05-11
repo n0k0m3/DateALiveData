@@ -192,10 +192,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 447,
+										PositionX = 424,
 										PositionY = 255,
 									},
-									width = "135",
+									width = "136",
 									ZOrder = "1",
 								},
 								{
@@ -289,7 +289,7 @@ local t =
 										PositionY = -228,
 									},
 									visible = "False",
-									width = "479",
+									width = "480",
 									ZOrder = "1",
 								},
 								{
@@ -332,8 +332,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 241,
-										PositionY = -208,
+										PositionX = -218,
+										PositionY = -214,
 									},
 									width = "98",
 									ZOrder = "1",
@@ -396,7 +396,7 @@ local t =
 								StrokeColor = "#FF4A43AC",
 								StrokeSize = 2,
 							},
-							height = "36",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_addRechargeActivityView_1",
 							nTextAlign = "1",
@@ -413,7 +413,7 @@ local t =
 								PositionX = -398,
 								PositionY = -218,
 							},
-							width = "168",
+							width = "170",
 							ZOrder = "1",
 						},
 					},
@@ -547,8 +547,8 @@ local t =
 											height = "400",
 											ignoreSize = "True",
 											name = "Image_geted",
-											scaleX = "0.2",
-											scaleY = "0.2",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -692,8 +692,8 @@ local t =
 											name = "Button_get",
 											normal = "ui/task/box_2.png",
 											opacity = "76",
-											scaleX = "0.2",
-											scaleY = "0.2",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -804,8 +804,8 @@ local t =
 											height = "400",
 											ignoreSize = "True",
 											name = "Image_notGet",
-											scaleX = "0.2",
-											scaleY = "0.2",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -968,7 +968,7 @@ local t =
 												PositionX = -1,
 												PositionY = 48,
 											},
-											width = "122",
+											width = "117",
 											ZOrder = "1",
 										},
 										{
@@ -1083,7 +1083,6 @@ local t =
 											{
 												PositionY = 39,
 											},
-											visible = "False",
 											ZOrder = "1",
 										},
 										{
@@ -1115,7 +1114,7 @@ local t =
 												PositionY = 49,
 											},
 											UItype = "Button",
-											width = "122",
+											width = "117",
 											ZOrder = "1",
 										},
 										{
@@ -1226,7 +1225,7 @@ local t =
 											{
 												PositionY = 47,
 											},
-											width = "122",
+											width = "117",
 											ZOrder = "1",
 										},
 										{

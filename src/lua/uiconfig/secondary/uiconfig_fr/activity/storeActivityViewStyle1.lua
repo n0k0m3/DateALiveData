@@ -885,7 +885,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/activity/activityStyle/giftActivity/style2/bg1.png",
+									texturePath = "ui/activity/activityStyle/giftActivity/style2/bg1_global.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
@@ -902,11 +902,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "2",
-											ignoreSize = "True",
+											height = "44",
+											ignoreSize = "False",
 											name = "Image_Limit",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -919,7 +919,7 @@ local t =
 												PositionX = 1,
 												PositionY = -212,
 											},
-											width = "2",
+											width = "156",
 											ZOrder = "1",
 											components = 
 											{
@@ -1014,7 +1014,7 @@ local t =
 											{
 												PositionY = 210,
 											},
-											width = "250",
+											width = "223",
 											ZOrder = "1",
 										},
 										{
@@ -1955,7 +1955,7 @@ local t =
 			"ui/activity/activityStyle/giftActivity/style2/timing_bg.png",
 			"ui/activity/activityStyle/giftActivity/style2/res_title.png",
 			"icon/system/004.png",
-			"ui/activity/activityStyle/giftActivity/style2/bg1.png",
+			"ui/activity/activityStyle/giftActivity/style2/bg1_global.png",
 			"ui/activity/activityStyle/giftActivity/style2/tip_bg.png",
 			"ui/activity/activityStyle/giftActivity/style2/res_bg.png",
 			"icon/system/002.png",

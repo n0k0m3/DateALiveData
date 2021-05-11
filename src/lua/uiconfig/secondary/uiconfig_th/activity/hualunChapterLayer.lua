@@ -230,7 +230,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_tip",
 									nTextAlign = "1",
@@ -239,7 +239,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "挑战剑姬",
+									text = "Sword Challenge",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -247,7 +247,7 @@ local t =
 										PositionX = -182,
 										PositionY = -1,
 									},
-									width = "91",
+									width = "195",
 									ZOrder = "1",
 								},
 								{
@@ -276,7 +276,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_diff",
 									nTextAlign = "1",
@@ -293,7 +293,7 @@ local t =
 										PositionX = 136,
 										PositionY = -2,
 									},
-									width = "26",
+									width = "18",
 									ZOrder = "1",
 								},
 								{
@@ -319,7 +319,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -62,
+										PositionX = 41,
 									},
 									UItype = "Button",
 									width = "32",
@@ -419,7 +419,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_tip",
 									nTextAlign = "1",
@@ -428,14 +428,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "BOSS剑姬的特性",
+									text = "Sword Princess Traits",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = -185,
 									},
-									width = "191",
+									width = "251",
 									ZOrder = "1",
 								},
 								{
@@ -457,7 +457,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -539,7 +539,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_tip",
 									nTextAlign = "1",
@@ -548,7 +548,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "通关描述",
+									text = "Stage Clear Info",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -556,7 +556,7 @@ local t =
 										PositionX = -185,
 										PositionY = -3,
 									},
-									width = "91",
+									width = "186",
 									ZOrder = "1",
 								},
 								{
@@ -578,7 +578,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -660,7 +660,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_tip",
 									nTextAlign = "1",
@@ -669,7 +669,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "通关奖励",
+									text = "Stage Reward",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -677,7 +677,7 @@ local t =
 										PositionX = -185,
 										PositionY = -3,
 									},
-									width = "91",
+									width = "160",
 									ZOrder = "1",
 								},
 								{
@@ -741,7 +741,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -62,
+										PositionX = 9,
 									},
 									UItype = "Button",
 									width = "32",
@@ -800,15 +800,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_ready",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -816,14 +816,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "进入准备",
+									text = "Ready to Enter",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -1,
 									},
-									width = "107",
+									width = "120",
 									ZOrder = "1",
 								},
 							},
@@ -899,7 +899,7 @@ local t =
 										PositionX = -30,
 										PositionY = -2,
 									},
-									width = "32",
+									width = "30",
 									ZOrder = "1",
 								},
 								{
@@ -937,7 +937,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "消耗",
+									text = "Cost",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -945,7 +945,7 @@ local t =
 										PositionX = 20,
 										PositionY = -12,
 									},
-									width = "43",
+									width = "39",
 									ZOrder = "1",
 								},
 								{
@@ -1032,7 +1032,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_value",
 									nTextAlign = "1",
@@ -1049,7 +1049,7 @@ local t =
 										PositionX = -29,
 										PositionY = -3,
 									},
-									width = "51",
+									width = "39",
 									ZOrder = "1",
 								},
 								{

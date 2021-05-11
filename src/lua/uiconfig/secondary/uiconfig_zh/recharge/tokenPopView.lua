@@ -201,7 +201,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_tokenPopView_1",
 									nTextAlign = "1",
@@ -218,7 +218,7 @@ local t =
 										PositionX = -318,
 										PositionY = 180,
 									},
-									width = "105",
+									width = "106",
 									ZOrder = "1",
 								},
 								{
@@ -264,7 +264,7 @@ local t =
 										PositionX = -197,
 										PositionY = 179,
 									},
-									width = "107",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -487,7 +487,7 @@ local t =
 										PositionX = 254,
 										PositionY = 149,
 									},
-									width = "327",
+									width = "309",
 									ZOrder = "1",
 									components = 
 									{
@@ -928,7 +928,6 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "23",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1063,7 +1062,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "GiftPreview",
 											nTextAlign = "1",
@@ -1079,7 +1078,7 @@ local t =
 											{
 												PositionY = 126,
 											},
-											width = "99",
+											width = "98",
 											ZOrder = "1",
 										},
 									},
@@ -1543,7 +1542,7 @@ local t =
 												PositionX = -40,
 											},
 											visible = "False",
-											width = "10",
+											width = "13",
 											ZOrder = "1",
 										},
 									},
@@ -1643,7 +1642,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 									},
@@ -1743,7 +1742,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 										{
@@ -1800,7 +1799,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "discountScale",
 													nTextAlign = "1",
@@ -1816,7 +1815,7 @@ local t =
 													{
 														PositionY = 13,
 													},
-													width = "40",
+													width = "34",
 													ZOrder = "1",
 												},
 											},
@@ -1916,7 +1915,7 @@ local t =
 													{
 														PositionX = -14,
 													},
-													width = "58",
+													width = "61",
 													ZOrder = "1",
 												},
 												{

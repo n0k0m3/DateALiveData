@@ -264,11 +264,11 @@ function BFEffect:updatePauseState(isPause)
 end
 
 function BFEffect:resetSysTime()
-    self.sysStartTime = BattleUtils.gettime()
-    self.sysStopTime = 0
-    if not battleController.isTiming() then
-        self.sysStopTime = self.sysStartTime
-    end
+    -- self.sysStartTime = BattleUtils.gettime()
+    -- self.sysStopTime = 0
+    -- if not battleController.isTiming() then
+    --     self.sysStopTime = self.sysStartTime
+    -- end
 end
 
 --效果ID 叠加的依据
@@ -948,12 +948,13 @@ function BFEffect:handlDuration(dt)
     end
     if self.nDuration > 0 then
         -- _print("handlDuration "..self.data.id.." ,"..self.nDuration )
+        self.nDuration = self.nDuration - dt
         if self:isTwinkleTime() then -- 小于3秒闪提示icon闪所
             self:twinkleIcon(true)
         else
             self:twinkleIcon(false)
         end
-        if self:getSuplusTime() <= 0 then
+        if self.nDuration <= 0 then
             self:normalDestory()
         end
     end
@@ -961,11 +962,12 @@ end
 
 function BFEffect:getSuplusTime()
     if self.nDuration > 0 then
-        local time = 0
-        if self.sysStopTime > 9999 then
-            time = BattleUtils.gettime() - self.sysStopTime
-        end
-        return math.max(self.nDuration - (BattleUtils.gettime() - self.sysStartTime - time),0)
+        return self.nDuration
+        -- local time = 0
+        -- if self.sysStopTime > 9999 then
+        --     time = BattleUtils.gettime() - self.sysStopTime
+        -- end
+        -- return math.max(self.nDuration - (BattleUtils.gettime() - self.sysStartTime - time),0)
     end
     return 0
 end
@@ -1212,7 +1214,7 @@ function BFEffect:createRenderNode()
                 for i, resId in ipairs(self.data.effectList) do
                     local data = TabDataMgr:getData("BufferEffectList",resId)
                     if data.heroFormId == formId then
-                        local renderNode = ResLoader.createEffect(data.resource,scale)
+                        local renderNode = ResLoader.createEffect(data.resource,scale,true)
                         renderNode.mount = data.mount
                         renderNode.effectsDir = data.effectsDir
                         local scaleX = math.abs(renderNode:getScaleX())
@@ -1239,7 +1241,7 @@ function BFEffect:createRenderNode()
             local zorder   = self.data["zorder"..index]
 
             if ResLoader.isValid(resource) then
-                local renderNode = ResLoader.createEffect(resource,scale)
+                local renderNode = ResLoader.createEffect(resource,scale,true)
                 renderNode.mount = mount
                 renderNode.effectsDir = 0 --默认跟随角色方向
                 renderNode:setCameraMask(cameraMask)
@@ -1257,6 +1259,9 @@ end
 function BFEffect:releaseRenderNode()
     if self.skeletonNodes then 
         for i, skeletonNode in ipairs(self.skeletonNodes) do
+            if skeletonNode.resPath then
+                ResLoader.addCacheSpine(skeletonNode,skeletonNode.resPath)
+            end
             skeletonNode:removeFromParent()
         end
         self.skeletonNodes = nil
@@ -1548,7 +1553,7 @@ function BFEffect:twinkleIcon(flag)
 end
 --是否到了闪烁倒计时时间段
 function BFEffect:isTwinkleTime()
-    return self:getSuplusTime() <= 3000 and self.nDuration ~= -1
+    return self.nDuration <= 3000 and self.nDuration ~= -1
 end
 
 --获取buffer 效果类型

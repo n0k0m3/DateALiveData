@@ -52,6 +52,7 @@ function WelfareSignView:initUI(ui)
 	self.Label_time_begin:setSkewX(10)
 	self.Label_time_end:setSkewX(10)
 	self.Label_time_tip:setSkewX(10)
+	self.Label_time_tip:setTextById(1710002)
 
 
 	--屏蔽春节登陆活动字体颜色

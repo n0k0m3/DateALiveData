@@ -192,10 +192,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 447,
-										PositionY = 255,
+										PositionX = 401,
+										PositionY = 251,
 									},
-									width = "135",
+									width = "136",
 									ZOrder = "1",
 								},
 								{
@@ -332,10 +332,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 241,
-										PositionY = -208,
+										PositionX = -208,
+										PositionY = -211,
 									},
-									width = "86",
+									width = "89",
 									ZOrder = "1",
 								},
 								{
@@ -396,7 +396,7 @@ local t =
 								StrokeColor = "#FF4A43AC",
 								StrokeSize = 2,
 							},
-							height = "36",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_addRechargeActivityView_1",
 							nTextAlign = "1",
@@ -413,7 +413,7 @@ local t =
 								PositionX = -398,
 								PositionY = -218,
 							},
-							width = "168",
+							width = "170",
 							ZOrder = "1",
 						},
 					},
@@ -968,7 +968,7 @@ local t =
 												PositionX = -1,
 												PositionY = 48,
 											},
-											width = "122",
+											width = "117",
 											ZOrder = "1",
 										},
 										{
@@ -1083,7 +1083,6 @@ local t =
 											{
 												PositionY = 39,
 											},
-											visible = "False",
 											ZOrder = "1",
 										},
 										{
@@ -1115,7 +1114,7 @@ local t =
 												PositionY = 49,
 											},
 											UItype = "Button",
-											width = "122",
+											width = "117",
 											ZOrder = "1",
 										},
 										{
@@ -1226,7 +1225,7 @@ local t =
 											{
 												PositionY = 47,
 											},
-											width = "122",
+											width = "117",
 											ZOrder = "1",
 										},
 										{

@@ -56,7 +56,7 @@ function Buffer:update(dt)
     end
 end
 function Buffer:clear()
-    self:removeFromMgr()
+
 end
 
 --添加到管理器
@@ -293,11 +293,9 @@ function Buffer:onEventTrigger(source,event,target,param)
         printError("onEventTrigger event is nil")
         Box("onEventTrigger event is nil")
     end
-    if self.data.id == 6044414 then
-    -- print("onEventTrigger11",
-    -- self.data.id,
-    -- self.data.eventId , event)
-    end
+
+    if self.data.eventId ~= event then return end
+    
     if self:isVaildTrigger(source,eBFTriggerType.TT_EVENT) then
         -- print(string.format("onEventTrigger(%s,%s)",self.data.stateId , state))
         if self.data.eventId == event then

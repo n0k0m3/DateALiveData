@@ -204,7 +204,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "742",
 									ZOrder = "1",
 									components = 
@@ -258,14 +257,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "28",
+													fontSize = "25",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "32",
+													height = "29",
 													ignoreSize = "True",
 													name = "Label_title",
 													nTextAlign = "1",
@@ -282,7 +281,7 @@ local t =
 														PositionX = -355,
 														PositionY = 182,
 													},
-													width = "114",
+													width = "102",
 													ZOrder = "1",
 													components = 
 													{
@@ -312,7 +311,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 118,
+																PositionX = 105,
 																IsPercent = true,
 																PercentX = 102.61,
 															},
@@ -321,6 +320,7 @@ local t =
 																Layout="Absolute",
 																nType = "0"
 															},
+															visible = "False",
 															width = "0",
 															ZOrder = "1",
 															components = 
@@ -624,7 +624,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "消耗",
+															text = "Gasta",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -632,7 +632,7 @@ local t =
 																PositionX = 90,
 																PositionY = 25,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -643,7 +643,7 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEButton",
 													ClickHighLightEnabled = "True",
 													dstBlendFunc = "771",
@@ -654,7 +654,7 @@ local t =
 													{
 														nHitType = 3,
 													},
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Button_auto_match",
 													normal = "ui/common/pop_ui/pop_btn_01.png",
 													sizepercentx = "0",
@@ -664,11 +664,11 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = 298,
+														PositionX = 283,
 														PositionY = -175,
 													},
 													UItype = "Button",
-													width = "124",
+													width = "152",
 													ZOrder = "1",
 													components = 
 													{
@@ -692,15 +692,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "24",
+															fontSize = "22",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_title",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -715,7 +715,7 @@ local t =
 															{
 																
 															},
-															width = "99",
+															width = "146",
 															ZOrder = "1",
 														},
 													},
@@ -775,14 +775,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "24",
+															fontSize = "22",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
+															height = "25",
 															ignoreSize = "True",
 															name = "Label_title",
 															nTextAlign = "1",
@@ -798,7 +798,7 @@ local t =
 															{
 																
 															},
-															width = "98",
+															width = "90",
 															ZOrder = "1",
 														},
 													},
@@ -865,7 +865,7 @@ local t =
 															controlID = "Label_title_Image_level_desc_Image_pad_Panel_common_Panel_level_preview_Panel_root_Panel-teamLevelPreview_Layer1_teamFight_Game",
 															UUID = "511a9dcc_034e_47d0_97a7_865cf1bdc09a",
 															anchorPoint = "False",
-															anchorPointX = "0.5",
+															anchorPointX = "0",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -880,14 +880,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "16",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_title",
 															nTextAlign = "1",
@@ -901,9 +901,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -195,
+																PositionX = -244,
+																PositionY = -2,
 															},
-															width = "83",
+															width = "67",
 															ZOrder = "1",
 														},
 													},
@@ -949,7 +950,7 @@ local t =
 														PositionY = 116,
 													},
 													vAlignment = "0",
-													width = "460",
+													width = "430",
 													ZOrder = "1",
 												},
 												{
@@ -984,7 +985,7 @@ local t =
 															controlID = "Label_title_Image_level_goal_Image_pad_Panel_common_Panel_level_preview_Panel_root_Panel-teamLevelPreview_Layer1_teamFight_Game",
 															UUID = "cbb9edb6_72e1_47d3_b51b_d152430f2e24",
 															anchorPoint = "False",
-															anchorPointX = "0.5",
+															anchorPointX = "0",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -999,14 +1000,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "16",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_title",
 															nTextAlign = "1",
@@ -1020,9 +1021,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -195,
+																PositionX = -244,
+																PositionY = -2,
 															},
-															width = "83",
+															width = "67",
 															ZOrder = "1",
 														},
 													},
@@ -1068,7 +1070,7 @@ local t =
 														PositionY = -71,
 													},
 													vAlignment = "0",
-													width = "460",
+													width = "430",
 													ZOrder = "1",
 												},
 												{
@@ -1204,6 +1206,7 @@ local t =
 														PositionX = 124,
 														PositionY = -125,
 													},
+													visible = "False",
 													width = "2",
 													ZOrder = "1",
 												},
@@ -1211,7 +1214,7 @@ local t =
 													controlID = "Label_residue_Image_pad_Panel_common_Panel_level_preview_Panel_root_Panel-teamLevelPreview_Layer1_teamFight_Game",
 													UUID = "ccc0c32c_e2f4_4803_baba_f06ac45ebf08",
 													anchorPoint = "False",
-													anchorPointX = "0",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -1237,7 +1240,7 @@ local t =
 													ignoreSize = "True",
 													name = "Label_residue",
 													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextHAlign = "0",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -1247,7 +1250,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 127,
+														PositionX = 283,
 														PositionY = -125,
 													},
 													width = "147",
@@ -1370,6 +1373,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "840",
 									ZOrder = "1",
 									components = 

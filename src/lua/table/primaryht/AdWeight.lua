@@ -7099,6 +7099,6 @@ return {
         showType = 42,
         res = "ui/update/s62.png",
         id = 551,
-        probability = 0,
+        probability = 1,
     },
 }

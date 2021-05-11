@@ -131,7 +131,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "28",
+							fontSize = "22",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -142,12 +142,12 @@ local t =
 							ignoreSize = "False",
 							name = "Label_des",
 							nTextAlign = "0",
-							nTextHAlign = "0",
+							nTextHAlign = "1",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "活动相关加成",
+							text = "Event Bonus",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -155,7 +155,7 @@ local t =
 								PositionX = 568,
 								PositionY = 522,
 							},
-							width = "0",
+							width = "449",
 							ZOrder = "1",
 						},
 						{
@@ -350,15 +350,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_title",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -366,7 +366,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "所有战斗关卡",
+											text = "All Battle Stages",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -374,7 +374,7 @@ local t =
 												PositionX = 3,
 												PositionY = -16,
 											},
-											width = "134",
+											width = "200",
 											ZOrder = "1",
 										},
 										{
@@ -396,7 +396,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -412,7 +412,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "所有战斗关卡",
+											text = "All Battle Stages",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 

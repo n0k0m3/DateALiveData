@@ -182,7 +182,7 @@ function NewRoleShowView:initMid()
     self.Label_role_name = TFDirector:getChildByPath(self.Panel_mid, "Label_role_name")
     self.Label_enName = TFDirector:getChildByPath(self.Panel_mid, "Label_enName")
     self.Label_enName2 = TFDirector:getChildByPath(self.Panel_mid, "Label_enName2")
-    self.NpcEffectPanel = TFDirector:getChildByPath(self.Panel_mid, "NpcEffectPanel")
+    self.NpcEffectPanel = TFDirector:getChildByPath(self.Panel_newRole, "NpcEffectPanel")
 
     self:initFavorAndMood()
 end
@@ -795,7 +795,7 @@ function NewRoleShowView:initUnInfoItem(item,idx)
         end,item.desTime + 1.5)
         if self.model then
             --兼容双人看板，只能点击好感等级低的
-            local realFavorLv = RoleDataMgr:getRoleFavorLv(self.curId)
+            local realFavorLv = RoleDataMgr:getRoleFavorLv(self.curId , self.dressId_[self.selectDIdx]) --英文版增加dressid参数 fix玩家装备双人看板情况下查看其它担任看板返回好感度错误bug
             if data.favor > realFavorLv then
                 Utils:showTips(13400301)
                 return

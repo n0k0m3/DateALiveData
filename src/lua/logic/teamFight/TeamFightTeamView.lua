@@ -764,10 +764,13 @@ function TeamFightTeamView:stopMatchingAction()
         self.waitingLayer = nil
     end
 end
+
 local SELECT_POS = {me.p(-22,0),me.p(22,0)}
 local langCode = TFLanguageMgr:getUsingLanguage()
-if (langCode == cc.SPANISH) then
-    SELECT_POS = {me.p(-32,0),me.p(32,0)}
+if (langCode == cc.FRENCH) then
+    SELECT_POS = {me.p(-39,0),me.p(39,0)}
+elseif (langCode == cc.SPANISH) then
+    SELECT_POS = {me.p(-37,0),me.p(37,0)}
 end
 
 function TeamFightTeamView:initCommonPart()

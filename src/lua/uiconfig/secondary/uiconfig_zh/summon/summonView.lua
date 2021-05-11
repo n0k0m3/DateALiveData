@@ -1404,6 +1404,7 @@ local t =
 									name = "Label_noob_cnt",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									rotation = "16",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1413,8 +1414,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 91,
-										PositionY = 144,
+										PositionX = -23,
+										PositionY = 239,
 									},
 									width = "55",
 									ZOrder = "1",

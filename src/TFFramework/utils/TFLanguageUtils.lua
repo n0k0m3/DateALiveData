@@ -133,15 +133,15 @@ end
 
 function TFLanguageMgr:getWindowsTestTextByLanguage( language )
 	local languageText = {}
-	languageText[cc.ENGLISH] = "当前语言:英语"
-	languageText[cc.FRENCH] = "当前语言:法语"
-	languageText[cc.GERMAN] = "当前语言:德语"
-	languageText[cc.SPANISH] = "当前语言:西班牙语"
-	languageText[cc.THAI] = "当前语言:泰语"
-	languageText[cc.INDONESIAN] = "当前语言:印尼语"
-	languageText[cc.KOREAN] = "当前语言:韩语"
-	languageText[cc.TRADITIONAL_CHINESE] = "当前语言:繁体中文"
-	languageText[cc.SIMPLIFIED_CHINESE] = "当前语言:简体中文"
+	languageText[cc.ENGLISH] = "英语"
+	languageText[cc.FRENCH] = "法语"
+	languageText[cc.GERMAN] = "德语"
+	languageText[cc.SPANISH] = "西班牙语"
+	languageText[cc.THAI] = "泰语"
+	languageText[cc.INDONESIAN] = "印尼语"
+	languageText[cc.KOREAN] = "韩语"
+	languageText[cc.TRADITIONAL_CHINESE] = "繁体中文"
+	languageText[cc.SIMPLIFIED_CHINESE] = "简体中文"
 	return languageText[language] or ""
 end
 

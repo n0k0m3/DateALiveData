@@ -204,7 +204,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "742",
 									ZOrder = "1",
 									components = 
@@ -348,6 +347,7 @@ local t =
 																	{
 																		
 																	},
+																	visible = "False",
 																	width = "2",
 																	ZOrder = "1",
 																},
@@ -374,6 +374,7 @@ local t =
 																		PositionX = 82,
 																		PositionY = -7,
 																	},
+																	visible = "False",
 																	width = "14",
 																	ZOrder = "1",
 																},
@@ -419,6 +420,7 @@ local t =
 																	{
 																		PositionY = -7,
 																	},
+																	visible = "False",
 																	width = "109",
 																	ZOrder = "1",
 																},
@@ -624,7 +626,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "消耗",
+															text = "Kosten",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -643,7 +645,7 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEButton",
 													ClickHighLightEnabled = "True",
 													dstBlendFunc = "771",
@@ -654,7 +656,7 @@ local t =
 													{
 														nHitType = 3,
 													},
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Button_auto_match",
 													normal = "ui/common/pop_ui/pop_btn_01.png",
 													sizepercentx = "0",
@@ -664,11 +666,11 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = 298,
+														PositionX = 282,
 														PositionY = -175,
 													},
 													UItype = "Button",
-													width = "124",
+													width = "147",
 													ZOrder = "1",
 													components = 
 													{
@@ -726,7 +728,7 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEButton",
 													ClickHighLightEnabled = "True",
 													dstBlendFunc = "771",
@@ -737,7 +739,7 @@ local t =
 													{
 														nHitType = 3,
 													},
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Button_open_house",
 													normal = "ui/common/pop_ui/pop_btn_01.png",
 													sizepercentx = "0",
@@ -747,11 +749,11 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = 139,
+														PositionX = 135,
 														PositionY = -175,
 													},
 													UItype = "Button",
-													width = "124",
+													width = "135",
 													ZOrder = "1",
 													components = 
 													{
@@ -865,7 +867,7 @@ local t =
 															controlID = "Label_title_Image_level_desc_Image_pad_Panel_common_Panel_level_preview_Panel_root_Panel-teamLevelPreview_Layer1_teamFight_Game",
 															UUID = "511a9dcc_034e_47d0_97a7_865cf1bdc09a",
 															anchorPoint = "False",
-															anchorPointX = "0.5",
+															anchorPointX = "0",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -901,7 +903,8 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -195,
+																PositionX = -238,
+																PositionY = 2,
 															},
 															width = "83",
 															ZOrder = "1",
@@ -933,7 +936,7 @@ local t =
 														StrokeSize = 1,
 													},
 													hAlignment = "0",
-													height = "120",
+													height = "0",
 													ignoreSize = "False",
 													name = "TextArea_level_desc",
 													sizepercentx = "0",
@@ -949,7 +952,7 @@ local t =
 														PositionY = 116,
 													},
 													vAlignment = "0",
-													width = "460",
+													width = "435",
 													ZOrder = "1",
 												},
 												{
@@ -984,7 +987,7 @@ local t =
 															controlID = "Label_title_Image_level_goal_Image_pad_Panel_common_Panel_level_preview_Panel_root_Panel-teamLevelPreview_Layer1_teamFight_Game",
 															UUID = "cbb9edb6_72e1_47d3_b51b_d152430f2e24",
 															anchorPoint = "False",
-															anchorPointX = "0.5",
+															anchorPointX = "0",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -1020,7 +1023,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -195,
+																PositionX = -240,
 															},
 															width = "83",
 															ZOrder = "1",
@@ -1052,7 +1055,7 @@ local t =
 														StrokeSize = 1,
 													},
 													hAlignment = "0",
-													height = "60",
+													height = "0",
 													ignoreSize = "False",
 													name = "TextArea_level_goal",
 													sizepercentx = "0",
@@ -1068,7 +1071,7 @@ local t =
 														PositionY = -71,
 													},
 													vAlignment = "0",
-													width = "460",
+													width = "436",
 													ZOrder = "1",
 												},
 												{
@@ -1370,6 +1373,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "840",
 									ZOrder = "1",
 									components = 

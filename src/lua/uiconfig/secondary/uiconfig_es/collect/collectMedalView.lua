@@ -524,7 +524,7 @@ local t =
 									UUID = "5ff7a297_fb30_46a1_9d7b_c5f58eee5bee",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
-									anchorPointY = "0.5",
+									anchorPointY = "0",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
@@ -548,10 +548,8 @@ local t =
 									height = "0",
 									ignoreSize = "False",
 									name = "Label_medal_name",
-									nTextAlign = "1",
+									nTextAlign = "2",
 									nTextHAlign = "1",
-									scaleX = "0.8",
-									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -561,10 +559,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -93,
+										PositionY = -113,
 									},
-									width = "190",
-									ZOrder = "1",
+									width = "154",
+									ZOrder = "10",
 								},
 								{
 									controlID = "Image_medal_Panel_medal_model_Panel_root_Panel-collectMedalView_Layer1_collect_Game",
@@ -618,7 +616,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -70,
+										PositionY = 94,
 									},
 									uipanelviewmodel = 
 									{
@@ -888,7 +886,7 @@ local t =
 									{
 										PositionY = -49,
 									},
-									width = "247",
+									width = "233",
 									ZOrder = "1",
 								},
 								{

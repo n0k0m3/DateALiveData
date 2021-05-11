@@ -33,8 +33,10 @@ function LoginScene:onEnter(re)
 end
 
 function LoginScene:showVideoView(re)
-	if TFGlobalUtils:isConnectEnServer() or TFGlobalUtils:isConnectKoreaTwServer() then
+	if TFGlobalUtils:isConnectEnServer() then
 		self:showVideoViewEngServer(re)
+	elseif TFGlobalUtils:isConnectKoreaTwServer() then
+		self:showVideoViewKoreaTwServer()
 	else
 		self:showVideoViewMiniServer(re)
 	end
@@ -152,6 +154,61 @@ function LoginScene:showVideoViewEngServer( re )
 	else
 		videoPth1 = "video/loginPart1.mp4"
 		videoPth2 = "video/loginPart2.mp4"
+	end
+	
+
+	if self.videoView or re then
+		
+		if self.videoView then
+			self.videoView:removeFromParent();
+		end
+
+		local currentScene = Public:currentScene()
+	    local videoView = requireNew("lua.logic.common.VideoView"):new(videoPth2)
+	    videoView:setAnchorPoint(ccp(0.5, 0.5))
+	    videoView:setPosition(ccp((GameConfig.WS.width - videoView:getSize().width)/2 + videoView:getSize().width / 2, (GameConfig.WS.height - videoView:getSize().height)/2 + videoView:getSize().height / 2))
+	    currentScene:addChild(videoView)
+	    videoView:setEndLoop(true)
+	    videoView:setIshowSkip(false)
+	    USE_NATIVE_VLC = OldValue
+
+		local layer = require("lua.logic.login.LoginLayer"):new(self.data)
+		videoView:addTopLayer(layer)
+		layer:setPosition(ccp(-GameConfig.WS.width / 2,-GameConfig.WS.height / 2))
+	    self.videoView = videoView;
+	    self.layer = layer
+	else
+		local currentScene = Public:currentScene()
+	    local videoView = requireNew("lua.logic.common.VideoView"):new(videoPth1,videoPth2)
+	    videoView:setAnchorPoint(ccp(0.5, 0.5))
+	    videoView:setPosition(ccp((GameConfig.WS.width - videoView:getSize().width)/2 + videoView:getSize().width / 2, (GameConfig.WS.height - videoView:getSize().height)/2 + videoView:getSize().height / 2))
+	    currentScene:addChild(videoView)
+	    videoView:setSkipComplete(true)
+	    videoView:setEndLoop(true)
+	    videoView:setIshowSkip(true)
+	    videoView:bindSpecicalCompleteCallBack(function()
+	    	self:loginVideoOver()
+	    end)
+	    USE_NATIVE_VLC = OldValue
+	    TFAudio.resumeMusic()
+
+	    self.videoView = videoView
+	end
+end
+
+function LoginScene:showVideoViewKoreaTwServer( re )
+	local OldValue = USE_NATIVE_VLC
+    if me.platform == 'android' then
+        USE_NATIVE_VLC = true
+	end
+	
+	local videoPth1, videoPth2
+	if FunctionDataMgr:isMoJingLoginUI() then
+		videoPth1 = "video/loginPart6.mp4"
+		videoPth2 = "video/loginPart7.mp4"
+	else
+		videoPth1 = "video/loginPart1_1.mp4"
+		videoPth2 = "video/loginPart2_1.mp4"
 	end
 	
 

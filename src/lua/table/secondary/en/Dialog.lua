@@ -70285,7 +70285,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "怪不得你和刚刚那个女孩子长得一样，原来是双胞胎啊！真是厉害！",
+                text = "No wonder you look like that other girl! Amazing!",
             },
         },
         actionL = {
@@ -70294,7 +70294,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "13001_weixiao",
         conditions = {
@@ -70319,7 +70319,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "地震了吗？怎么晃动得这么厉害？",
+                text = "Is that an earthquake? Why is everything shaking so much?",
             },
         },
         actionL = {
@@ -70328,7 +70328,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "10101_e2",
         conditions = {
@@ -70353,7 +70353,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "我也不知道……",
+                text = "I don't know...",
             },
         },
         actionL = {
@@ -70421,7 +70421,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "抱歉……艾克。那个家伙实力很强，让她逃走了。",
+                text = "Sorry...Ike. That girl was too strong, and she got away.",
             },
         },
         actionL = {
@@ -70430,7 +70430,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "10901_a1",
         conditions = {
@@ -70455,7 +70455,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "有意思，不如让她成为我们的助力吧。或许会对“圭德诺之篮计划”有帮助。",
+                text = "Interesting. Judging from her actions, she doesn't look like any Spirit we are familiar with. Why not make her our helper, perhaps it will be of benefit to the Project Basket of Gwyddno.",
             },
         },
         actionL = {
@@ -70464,7 +70464,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "韦斯科特",
+        name = "Westcott",
         cameraAction = 0,
         headL = "10901_a2",
         conditions = {
@@ -70489,7 +70489,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这里到处都是DEM的人活动的踪迹！",
+                text = "Why are those guys here?!",
             },
         },
         actionL = {
@@ -70498,7 +70498,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_a1",
         conditions = {
@@ -70591,7 +70591,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "发现了DEM的帮凶！汝等必须接受风之子的制裁！",
+                text = "DEM accomplice discovered! Prepare to accept the punishment of the wind!",
             },
         },
         actionL = {
@@ -70600,7 +70600,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "10701_d1",
         conditions = {
@@ -70659,7 +70659,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "为了他，请好好考虑一下吧。",
+                text = "For this, we need to defeat all these Spirits...",
             },
         },
         actionL = {
@@ -70668,7 +70668,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13001_youyu",
         conditions = {
@@ -70693,7 +70693,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "全员一级战斗准备！",
+                text = "All units, red alert! Prepare for battle!",
             },
         },
         actionL = {
@@ -70702,7 +70702,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_b1",
         conditions = {
@@ -70761,7 +70761,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "库卡卡卡！只要没有海水的话，装置就没办法散热对吧？是时候展现飓风之子的力量了！",
+                text = "Kukaka! The device couldn't keep cool without the sea water, right? It's time for the Hurricane Children to show their strength!",
             },
         },
         actionL = {
@@ -70770,7 +70770,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "10505_e1",
         conditions = {
@@ -70897,7 +70897,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "风之精灵和风之剑姬的命运交汇了！启动吧，真正的飓风之力！",
+                text = "The fates of the Hurricane Children and the Sword Maiden of Wind have intertwined! True Hurricane Force, activate!",
             },
         },
         actionL = {
@@ -70906,7 +70906,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "13101_zhanyi",
         conditions = {
@@ -70931,7 +70931,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "收到！已瞄准，攻击！",
+                text = "Copy! Energy charged and target acquired! Attack!",
             },
         },
         actionL = {
@@ -70940,7 +70940,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "神无月恭平",
+        name = "Kannazuki",
         cameraAction = 0,
         headL = "10505_b2",
         conditions = {
@@ -83304,7 +83304,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "发现目标！全员准备作战！",
+                text = "Target confirmed! All units, prepare for battle!",
             },
         },
         actionL = {
@@ -83313,7 +83313,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "AST队员",
+        name = "AST Agent",
         cameraAction = 0,
         headL = "20101_a2",
         conditions = {
@@ -83338,7 +83338,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "请不要放松警惕啊，现在最重要的是到达安全的地方躲起来。请跟我来吧。",
+                text = "Don't let your guard down. The priority is to find a safe place to hide, please come with me.",
             },
         },
         actionL = {
@@ -83411,7 +83411,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "鸢一折纸……你快让开！",
+                text = "Origami Tobiichi... get out of the way!",
             },
         },
         actionL = {
@@ -83420,7 +83420,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "日下部燎子",
+        name = "Ryouko Kusakabe",
         cameraAction = 0,
         headL = "30201_b2",
         conditions = {
@@ -83445,7 +83445,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "敌人又来了吗？",
+                text = "Are the enemies back?",
             },
         },
         actionL = {
@@ -83454,7 +83454,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "10101_e2",
         conditions = {
@@ -83479,7 +83479,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "可恶的恶之军团啊！吾是不会屈服于邪恶势力的！放马过来吧！",
+                text = "Vile Legion of Evil! I will never kneel before the powers of evil! Bring it on!",
             },
         },
         actionL = {
@@ -83488,7 +83488,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "",
         conditions = {
@@ -83547,7 +83547,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "追踪下去，她的力量是我们从未见过的。或许是不错的实验品。",
+                text = "Ahhh, I saw that! It's in my expectation. Also she mentioned she had the blood of spirits, interesting. Keep tracking her.",
             },
         },
         actionL = {
@@ -83556,7 +83556,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "韦斯科特",
+        name = "Westcott",
         cameraAction = 0,
         headL = "10901_a1",
         conditions = {
@@ -83615,7 +83615,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "难道……他们又在打什么主意？",
+                text = "Are they... up to something again?",
             },
         },
         actionL = {
@@ -83624,7 +83624,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "四糸乃",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "11303_a1",
         conditions = {
@@ -83683,7 +83683,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "再不走就来不及了！放心吧，我有办法逃走的。",
+                text = "Go now before it's too late! Don't worry, I will become smaller and then get away!",
             },
         },
         actionL = {
@@ -83692,7 +83692,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_b1",
         conditions = {
@@ -83717,7 +83717,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "提议。一起将敌人撕碎在飓风中吧。",
+                text = "Suggestion. Let us tear the enemy to shreds together in a hurricane.",
             },
         },
         actionL = {
@@ -83726,7 +83726,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10701_d1",
         conditions = {
@@ -83751,7 +83751,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "赫斯缇雅……你没有被她们囚禁吗？",
+                text = "Hestia... aren't you held hostage by them?",
             },
         },
         actionL = {
@@ -83760,7 +83760,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13001_haoqi",
         conditions = {
@@ -83858,7 +83858,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "呼……变成小石子才躲过追击，真是不容易啊……",
+                text = "Whew...I had to transform into a pebble to dodge the pursuit. This was tough.",
             },
         },
         actionL = {
@@ -83867,7 +83867,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_e1",
         conditions = {
@@ -83892,7 +83892,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "明白。将海水完全吸走的方法，只要耶俱矢和夕弦办得到。",
+                text = "Understood. Only Kaguya and Yuzuru can completely draw the sea water away.",
             },
         },
         actionL = {
@@ -83901,7 +83901,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -83960,7 +83960,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "得救了！多亏了美九小姐。",
+                text = "We're saved! It's all thanks to Miku.",
             },
         },
         actionL = {
@@ -83969,7 +83969,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "四糸乃",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "11001_a2",
         conditions = {
@@ -83994,7 +83994,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "可是显现装置还在运作，怎么办？",
+                text = "But the vortex is still there,  meaning the device is still operating...",
             },
         },
         actionL = {
@@ -91290,7 +91290,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "什么？！追杀神明的人类真的存在啊！……贝尔……你在哪里？！",
+                text = "What?! These humans do have the audacity to kill gods!... Bell... Where are you?!",
             },
         },
         actionL = {
@@ -91299,7 +91299,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "20101_a2",
         conditions = {
@@ -91324,7 +91324,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "不要再反抗了，“精灵”！",
+                text = "Do not resist, Spirit!",
             },
         },
         actionL = {
@@ -91333,7 +91333,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "日下部燎子",
+        name = "Ryouko Kusakabe",
         cameraAction = 0,
         headL = "30201_a1",
         conditions = {
@@ -91358,7 +91358,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "谢谢你，耶俱矢。",
+                text = "Thank you, Kaguya.",
             },
         },
         actionL = {
@@ -91392,7 +91392,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "抱歉，想要伤害%s，请从我的身上踏过去。",
+                text = "Sorry, but if you want to hurt %s, you'll have to go through me first.",
             },
         },
         actionL = {
@@ -91401,7 +91401,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "30201_b2",
         conditions = {
@@ -91426,7 +91426,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "可恶……这次是DEM的人！",
+                text = "Oh no... this time it's DEM!",
             },
         },
         actionL = {
@@ -91435,7 +91435,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "10101_b1",
         conditions = {
@@ -91460,7 +91460,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "支援。注意阵型！",
+                text = "Support. I'm here to help Kaguya.",
             },
         },
         actionL = {
@@ -91469,7 +91469,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -91494,7 +91494,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "我也觉得显现装置的力量有些异常，比平时更为强大，难以掌控。好在DEM暂时撤退了。",
+                text = "I am affected by some unusual power as well. It's strange.",
             },
         },
         actionL = {
@@ -91503,7 +91503,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10201_a1",
         conditions = {
@@ -91528,7 +91528,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "是。",
+                text = "Yeah.",
             },
         },
         actionL = {
@@ -91537,7 +91537,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "10901_a1",
         conditions = {
@@ -91562,7 +91562,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "当然了！美九告诉我的一定没错！",
+                text = "Of course! Miku wouldn't lie to me!",
             },
         },
         actionL = {
@@ -91571,7 +91571,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "10301_a1",
         conditions = {
@@ -91596,7 +91596,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "感觉有不可告人的阴谋！",
+                text = "It must be a sinister scheme!",
             },
         },
         actionL = {
@@ -91605,7 +91605,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Yoshinon",
         cameraAction = 0,
         headL = "11303_a1",
         conditions = {
@@ -91630,7 +91630,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "我也不知道……但是……听起来好可怕，要快点告诉%s才行。",
+                text = "I don't know... but... we should tell %s right away.",
             },
         },
         actionL = {
@@ -91639,7 +91639,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "四糸乃",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "11303_a2",
         conditions = {
@@ -91664,7 +91664,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "好吧……你一定要小心啊……",
+                text = "OK... but you have to be careful...",
             },
         },
         actionL = {
@@ -91673,7 +91673,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "四糸乃",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "11303_b1",
         conditions = {
@@ -91698,7 +91698,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "操控风的精灵？……来吧。",
+                text = "Spirit who controls wind?... Bring it on.",
             },
         },
         actionL = {
@@ -91707,7 +91707,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_zhanyi",
         conditions = {
@@ -91732,7 +91732,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "囚禁？完全没有啊。你被DEM的人欺骗吗？精灵她们不是坏人啊！",
+                text = "Hostage? Not at all. They are not bad people. Did DEM trick you?",
             },
         },
         actionL = {
@@ -91741,7 +91741,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "13001_haoqi",
         conditions = {
@@ -91766,7 +91766,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "做好觉悟吧！",
+                text = "Be prepared for your death!",
             },
         },
         actionL = {
@@ -91775,7 +91775,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10201_b2",
         conditions = {
@@ -91800,7 +91800,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你们的阴谋我们已经悉数知晓了，不要妄想了！",
+                text = "Don't you learn from your previous failures? Are you up to another scheme? Ellen!",
             },
         },
         actionL = {
@@ -91809,7 +91809,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_b2",
         conditions = {
@@ -91834,7 +91834,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "咿？这是什么地方？",
+                text = "Huh? What is this place?",
             },
         },
         actionL = {
@@ -91843,7 +91843,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_a1",
         conditions = {
@@ -91868,7 +91868,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你们等等……！不要轻举妄动啊！",
+                text = "Wait...! Let's plan this first!",
             },
         },
         actionL = {
@@ -91902,7 +91902,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "必须破坏风力发电机，否则大家的灵力都会被削弱的！",
+                text = "We must destroy the wind turbines, otherwise our Spirit Power will all be weakened!",
             },
         },
         actionL = {
@@ -91911,7 +91911,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "10101_e2",
         conditions = {
@@ -91936,7 +91936,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你们去破坏风力发电机就好，这里交给我吧！",
+                text = "Go and destroy the wind turbines, I'll take care of the situation here!",
             },
         },
         actionL = {
@@ -91945,7 +91945,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "诱宵美九",
+        name = "Miku",
         cameraAction = 0,
         headL = "11001_c2",
         conditions = {
@@ -91970,7 +91970,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "尝试破坏它的散热装置吧，现在只有这个办法了。",
+                text = "Try to break the cooling device, it's the only way left.",
             },
         },
         actionL = {
@@ -91979,7 +91979,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_e1",
         conditions = {
@@ -92004,7 +92004,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "那么，拜托了——微型劲风！",
+                text = "Please, lend me your aid—— Lil Rafaga!",
             },
         },
         actionL = {
@@ -92013,7 +92013,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_zhanyi",
         conditions = {
@@ -92038,7 +92038,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "海水已经汇合在一起了，可以说没有造成其他任何影响。",
+                text = "The waters have converged, smooth as a mirror as before.",
             },
         },
         actionL = {
@@ -92047,7 +92047,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -97991,7 +97991,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "唔姆！上神大人请让我来保护你吧！",
+                text = "Umu! Goddess, we will protect you!",
             },
         },
         actionL = {
@@ -98000,7 +98000,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "10101_b2",
         conditions = {
@@ -98025,7 +98025,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "精灵？你在跟我说话吗？我不是精灵，我是“上神”赫斯缇雅！",
+                text = "Spirit? Are you talking to me? I'm not a Spirit, I'm a Goddess! A Goddess, understand?!",
             },
         },
         actionL = {
@@ -98034,7 +98034,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "30201_a1",
         conditions = {
@@ -98059,7 +98059,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "观察。赫斯缇雅小姐似乎没有任何战斗力。",
+                text = "Observation. Hestia seems to have next to zero BP.",
             },
         },
         actionL = {
@@ -98068,7 +98068,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -98161,7 +98161,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "夕弦你来啦！",
+                text = "It's all done! But still... thank you.",
             },
         },
         actionL = {
@@ -98170,7 +98170,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -98195,7 +98195,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这里是……异世界？爱神的诅咒应验了吗？",
+                text = "Is this...an isekai? Has the curse of the Love Goddess come true?",
             },
         },
         actionL = {
@@ -98204,7 +98204,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_jingya",
         conditions = {
@@ -98229,7 +98229,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "呵呵呵呵……你真的很有意思呢……你身上的力量很美味的样子呢。",
+                text = "Kihihi...You really are interesting... the power inside of you looks delicious.",
             },
         },
         actionL = {
@@ -98238,7 +98238,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -98263,7 +98263,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "幸好遇到了美九小姐啊……不然我们都找不到%s在哪里呢。",
+                text = "Thankfully I ran into Miss Miku...otherwise we wouldn't be able to find %s.",
             },
         },
         actionL = {
@@ -98272,7 +98272,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "七罪",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "10301_a1",
         conditions = {
@@ -98297,7 +98297,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "在风力发电机全部维修好之前，就麻烦你来操纵风了。",
+                text = "I'll leave here to you until the wind turbine is fully repaired. Don't let any targets go!",
             },
         },
         actionL = {
@@ -98306,7 +98306,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -98331,7 +98331,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "嗯，那个拿着剑的家伙好像很厉害，我们还是先撤退吧……",
+                text = "Yeah, that one with the slim sword looked pretty strong. Anyway, let's take a detour and get out of here...",
             },
         },
         actionL = {
@@ -98340,7 +98340,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_a1",
         conditions = {
@@ -98365,7 +98365,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你就是赫斯缇雅的朋友吧？请冷静一下！",
+                text = "You must be Hestia's friend? Please calm down!",
             },
         },
         actionL = {
@@ -98374,7 +98374,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "10101_a2",
         conditions = {
@@ -98399,7 +98399,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "她们好像比想象中还要弱……",
+                text = "They're weaker than I expected...",
             },
         },
         actionL = {
@@ -98408,7 +98408,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_jingya",
         conditions = {
@@ -98433,7 +98433,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "她们在撒谎，精灵现世会引起空间震，给人类造成巨大的危害。",
+                text = "They're lying. The Spirits cause a Spacequake when they enter this world, they are a huge threat to the safety of humans.",
             },
         },
         actionL = {
@@ -98442,7 +98442,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13001_haoqi",
         conditions = {
@@ -98467,7 +98467,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "虽然不知道你们用了什么办法削弱灵力，并增强显现装置的力量。",
+                text = "While I don't know what you did to weaken Spirit Power and enhance the Realizer...",
             },
         },
         actionL = {
@@ -98476,7 +98476,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10201_a1",
         conditions = {
@@ -98501,7 +98501,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这就是庇护精灵的组织ratatoskr吗？",
+                text = "This Ratatoskr, is the organization that protects Spirits?",
             },
         },
         actionL = {
@@ -98510,7 +98510,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_jingya",
         conditions = {
@@ -98535,7 +98535,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "戒备森严，这里一定有问题。先告诉琴里再说。",
+                text = "It's tightly guarded, there's something fishy going on. I should tell Kotori.",
             },
         },
         actionL = {
@@ -98544,7 +98544,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_a1",
         conditions = {
@@ -98569,7 +98569,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "觉醒吧！起舞吧！撕裂吧！——龙卷风！",
+                text = "Awaken! Dance! Rip!—— Water Tornado!",
             },
         },
         actionL = {
@@ -98578,7 +98578,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -98603,7 +98603,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "可恶……我的力量已经……",
+                text = "No... my power is already...",
             },
         },
         actionL = {
@@ -98612,7 +98612,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "10101_b1",
         conditions = {
@@ -98637,7 +98637,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "嘎嘎~我们这边都已经完成了，四糸乃真是厉害啊。",
+                text = "Ghaha, our work here is finished. Yoshino is amazing!",
             },
         },
         actionL = {
@@ -98646,7 +98646,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "四糸奈",
+        name = "Yoshinon",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -98671,7 +98671,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这个任务请交给我吧。",
+                text = "Leave this to me.",
             },
         },
         actionL = {
@@ -98680,7 +98680,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "10505_e1",
         conditions = {
@@ -98705,7 +98705,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "前所未有的合作！完美的胜利哈哈哈。",
+                text = "An unprecedented cooperation! Flawless victory! Hahaha.",
             },
         },
         actionL = {
@@ -98714,7 +98714,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "10701_x",
         conditions = {
@@ -98739,7 +98739,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你居然投靠了ratatoskr……",
+                text = "I can't believe you joined Ratatoskr...",
             },
         },
         actionL = {
@@ -98748,7 +98748,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -109007,7 +109007,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "“上神”？这是你的识别名吗？",
+                text = "Goddess? Is that your codename?",
             },
         },
         actionL = {
@@ -109016,7 +109016,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "日下部燎子",
+        name = "Ryouko Kusakabe",
         cameraAction = 0,
         headL = "30201_a2",
         conditions = {
@@ -109041,7 +109041,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "是啊，绝对不能让AST的人伤害到她。",
+                text = "Yeah, we can't let AST hurt her.",
             },
         },
         actionL = {
@@ -109143,7 +109143,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "撤退。琴里希望我们尽快回到安全地带。",
+                text = "Withdraw. Let's head back to the safe area as soon as possible.",
             },
         },
         actionL = {
@@ -109152,7 +109152,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -109177,7 +109177,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "引发空间震的人就是你吗？精灵。",
+                text = "You're the one who caused the Spacequake? Spirit!",
             },
         },
         actionL = {
@@ -109186,7 +109186,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "13101_jingya",
         conditions = {
@@ -109211,7 +109211,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你是谁？",
+                text = "Who are you?",
             },
         },
         actionL = {
@@ -109220,7 +109220,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -109245,7 +109245,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "嘿嘿，%s看到四糸乃和七罪，一定会感到惊喜吧？",
+                text = "Haha, do you think %s will be surprised to see Yoshino and Natsumi?",
             },
         },
         actionL = {
@@ -109254,7 +109254,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "四糸奈",
+        name = "Yoshinon",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -109279,7 +109279,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "了解，为了捕捉精灵，我会尽力的。",
+                text = "Understood. To catch the Spirits, I will try my best.",
             },
         },
         actionL = {
@@ -109288,7 +109288,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -109313,7 +109313,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "哇啊……被拦截了……你到底是谁？为什么帮DEM做事？",
+                text = "Wahh...we're caught up...who are you? Why are you helping DEM?",
             },
         },
         actionL = {
@@ -109322,7 +109322,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_e1",
         conditions = {
@@ -109449,7 +109449,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "不过你们似乎忘记了，我也是会使用显现装置战斗的人。",
+                text = "But you seem to have forgotten, I can utilize Realizer as well.",
             },
         },
         actionL = {
@@ -109458,7 +109458,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10201_a1",
         conditions = {
@@ -109483,7 +109483,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "是的。他们真的有努力帮助我，所以……相信我的判断吧！",
+                text = "Yes. They really are trying to help me. So... please trust my judgment... come, have a listen to what they say?",
             },
         },
         actionL = {
@@ -109492,7 +109492,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "13101_jingya",
         conditions = {
@@ -109517,7 +109517,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "琴里，漩涡正中心下面就是装置的散热口！",
+                text = "Kotori, that vortex should be the thermal vent of Basket of Gwyddno!",
             },
         },
         actionL = {
@@ -109551,7 +109551,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "坚定。夕弦和耶俱矢联手一定能将这片海域的海水全部吸走。",
+                text = "Resolute. Together, Yuzuru and Kaguya can draw away all of the water here.",
             },
         },
         actionL = {
@@ -109560,7 +109560,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -109619,7 +109619,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "那个……海面上……那边……是不是还有一座啊？",
+                text = "Uhh... on the water... over there... is that another one?",
             },
         },
         actionL = {
@@ -109628,7 +109628,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -109687,7 +109687,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "提醒。耶俱矢不太得意忘形了，注意维持风的力量，剩下的就交给fraxinus吧。",
+                text = "Reminder. Don't get too carried away, Kaguya. Focus on maintaining the wind power. Leave the rest to Fraxinus.",
             },
         },
         actionL = {
@@ -109696,7 +109696,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10701_x",
         conditions = {
@@ -113087,7 +113087,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "真是遗憾……没有灵力作为燃料，你是回不去的。就算是ratatoskr也没有办法。",
+                text = "Too bad... without Spirit Power as fuel, you'll never make it back. Not even Ratatoskr can help you.",
             },
         },
         actionL = {
@@ -113096,7 +113096,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "10901_a2",
         conditions = {
@@ -113155,7 +113155,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "我已经知道了有关“精灵”的真相，你们无法再迷惑我了。",
+                text = "I already know the truth about Spirits. You can't fool me anymore.",
             },
         },
         actionL = {
@@ -113164,7 +113164,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -113189,7 +113189,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "成功了！",
+                text = "We did it!",
             },
         },
         actionL = {
@@ -113257,7 +113257,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "明白！神无月恭平，瞄准目标设备，准备发射！",
+                text = "Understood! Kannazuki, lock onto the target device and prepare to fire!",
             },
         },
         actionL = {
@@ -113266,7 +113266,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_b2",
         conditions = {
@@ -113291,7 +113291,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "只能维持很短的时间，请务必抓紧时间。",
+                text = "We can only maintain it for a short duration, please hurry.",
             },
         },
         actionL = {
@@ -113300,7 +113300,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "10701_x",
         conditions = {
@@ -113495,7 +113495,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "小心。需要控制风的力量，集中在一处，才能劈开海面。",
+                text = "Careful. We must control the wind power and focus it in one place to part the waters.",
             },
         },
         actionL = {
@@ -113504,7 +113504,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "13101_zhanyi",
         conditions = {
@@ -113529,7 +113529,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "飓风之子，请帮助我吧！",
+                text = "Hurricane Children, please help me!",
             },
         },
         actionL = {
@@ -113538,7 +113538,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_zhanyi",
         conditions = {
@@ -113699,7 +113699,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "有时候只需要微小的力量就能解决问题。",
+                text = "Yes... seeing how you battle, I'm convinced that you are not a calamity that will destroy the world.",
             },
         },
         actionL = {
@@ -113708,7 +113708,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "10505_i",
         conditions = {
@@ -113733,7 +113733,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你有把握吗？",
+                text = "You are willing to help us?",
             },
         },
         actionL = {
@@ -113742,7 +113742,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_i",
         conditions = {
@@ -113767,7 +113767,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "任务完成！",
+                text = "Mission accomplished!",
             },
         },
         actionL = {
@@ -113776,7 +113776,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_e1",
         conditions = {
@@ -113869,7 +113869,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "啊啦，还真是大意啊。",
+                text = "Ara, good day everyone!",
             },
         },
         actionL = {
@@ -113878,7 +113878,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -114005,7 +114005,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "破军歌姬！",
+                text = "Army Breaker!",
             },
         },
         actionL = {
@@ -114014,7 +114014,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "诱宵美九",
+        name = "Miku",
         cameraAction = 0,
         headL = "11001_a2",
         conditions = {
@@ -114141,7 +114141,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "请不要误会，我可不是帮你，只是为了证明——%s只需要依靠我就行了。",
+                text = "Don't get the wrong idea, I'm not helping you. I'm just proving——that %s doesn't need anyone else but me.",
             },
         },
         actionL = {
@@ -114150,7 +114150,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10101_b1",
         conditions = {
@@ -114175,7 +114175,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "没用的，你不需要逞强了。这边交给我吧。",
+                text = "It's no use, no need to act tough. Leave this to me.",
             },
         },
         actionL = {
@@ -114184,7 +114184,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10101_b1",
         conditions = {
@@ -114243,7 +114243,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "大家立刻分头行动，先破坏或美岛上的发电机！",
+                text = "Everyone split up and destroy all of the wind turbines on Arubi Island!",
             },
         },
         actionL = {
@@ -114252,7 +114252,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -114277,7 +114277,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "可恶啊，这样大风反而助长了风力发电机的运作……加速为限制精灵力量的显现装置供能。",
+                text = "Crap, it's meaningless without separating the inner bay and the outer area. The wind is only helping their turbines spin... and generating more power for Basket of Gwyddno!",
             },
         },
         actionL = {
@@ -114286,7 +114286,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -114345,7 +114345,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "呀！风之力量在疯狂觉醒中，好像风力控制不住了！",
+                text = "Woah! The Power of Wind is awakening, I'm losing control of the wind!",
             },
         },
         actionL = {
@@ -114354,7 +114354,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -114549,7 +114549,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "七罪已经回来了？",
+                text = "Natsumi is back already?",
             },
         },
         actionL = {
@@ -114583,7 +114583,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "我知道，七罪已经告诉我了。",
+                text = "I know, Natsumi already told me.",
             },
         },
         actionL = {
@@ -114592,7 +114592,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_e1",
         conditions = {
@@ -114617,7 +114617,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "或美岛……从什么时候开始布置的这一切的呢？",
+                text = "Arubi Island... when did you start planning all of this?",
             },
         },
         actionL = {
@@ -114626,7 +114626,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -114855,7 +114855,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "居然将fraxinus开过来了！？",
+                text = "Fraxinus?!",
             },
         },
         actionL = {
@@ -114864,7 +114864,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "10505_b1",
         conditions = {
@@ -114889,7 +114889,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "司令！前方探测到DEM舰队！",
+                text = "Commander! DEM Fleet detected ahead of us!",
             },
         },
         actionL = {
@@ -114898,7 +114898,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "神无月恭平",
+        name = "Kannazuki",
         cameraAction = 0,
         headL = "30501_d1",
         conditions = {
@@ -115093,7 +115093,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "不管你们在打什么主意，我是不会让%s受伤的。",
+                text = "...No way.",
             },
         },
         actionL = {
@@ -115102,7 +115102,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10201_a1",
         conditions = {
@@ -115127,7 +115127,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "被欺骗的是你才对。就算你不想回去，你的眷族还需要金苹果疗伤……",
+                text = "Of course! Even if for Bell, you shouldn't use the golden apple here. Come to me and let's go back to our world through DEM's device...",
             },
         },
         actionL = {
@@ -115136,7 +115136,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13001_youyu",
         conditions = {
@@ -115161,7 +115161,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "灵力……%s身上的能量，也是灵力……难道金苹果真的是靠灵力……",
+                text = "Spirit Power... the energy in %s is Spirit Power... do you mean that we can return without the golden apple...?",
             },
         },
         actionL = {
@@ -115170,7 +115170,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "13001_youyu",
         conditions = {
@@ -115433,7 +115433,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "但是……她们一直在帮助我！只要好好研究金苹果，我们一定可以找到回去欧拉丽的办法。",
+                text = "About this... I heard from Ratatoskr who saved me! But, the occurrence of Spacequakes is not related to their will. They are not evil. As long as we let Ratatoskr study the golden apple, we can find a way back to Orario.",
             },
         },
         actionL = {
@@ -115442,7 +115442,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "13001_haoqi",
         conditions = {
@@ -115467,7 +115467,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "别再打了，都冷静一下！",
+                text = "Stop fighting, everyone calms down!",
             },
         },
         actionL = {
@@ -115476,7 +115476,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "13001_haoqi",
         conditions = {
@@ -115535,7 +115535,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "明白。",
+                text = "Understood.",
             },
         },
         actionL = {
@@ -115544,7 +115544,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -115705,7 +115705,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "呵呵，那当然。风力发电机已经全部维修完毕，圭德诺之篮的动能问题已经解决了。",
+                text = "Heh. Of course. The wind turbine repairs are complete. Basket of Gwyddno can be run as planned now.",
             },
         },
         actionL = {
@@ -115714,7 +115714,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "13101_jingya",
         conditions = {
@@ -115807,7 +115807,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "还在打欧拉丽的主意吗？不可原谅。",
+                text = "Scheming to take Orario? Unforgivable.",
             },
         },
         actionL = {
@@ -115816,7 +115816,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "10101_e2",
         conditions = {
@@ -115841,7 +115841,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "没错，ratatoskr正在研究金苹果的秘密，一定有办法重新连接你们的世界的！",
+                text = "Yes. She's with us. Ratatoskr is studying the secrets of the golden apple, there must be a way to reconnect with your world!",
             },
         },
         actionL = {
@@ -115850,7 +115850,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "10101_e2",
         conditions = {
@@ -115943,7 +115943,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "赫斯缇雅？她在精灵手中吗？",
+                text = "Goddess Hestia? The Spirits have her?",
             },
         },
         actionL = {
@@ -115952,7 +115952,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "10101_a2",
         conditions = {
@@ -115977,7 +115977,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "可是……我不能丢下你一个……",
+                text = "But... I can't leave you all alone...",
             },
         },
         actionL = {
@@ -115986,7 +115986,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "四糸乃",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "11303_b1",
         conditions = {
@@ -116113,7 +116113,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "圭德诺之篮是什么？为什么那个金发的女人说要把我们都当成“燃料”？",
+                text = "Phew...phew... we finally get out! What's Project Basket of Gwyddno? Why did that blonde woman say she wanted to turn us into fuel? What the heck! So scary!! It's like a B-level terror movie!",
             },
         },
         actionL = {
@@ -116122,7 +116122,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_a2",
         conditions = {
@@ -116249,7 +116249,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "四糸乃，小心！",
+                text = "Yoshino, careful!",
             },
         },
         actionL = {
@@ -116258,7 +116258,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "10301_i1",
         conditions = {
@@ -116317,7 +116317,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "谁在那里？",
+                text = "Who is there?",
             },
         },
         actionL = {
@@ -116326,7 +116326,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -116487,7 +116487,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "DEM的人……怎么会在这里……？",
+                text = "What's DEM... doing here...?",
             },
         },
         actionL = {
@@ -116496,7 +116496,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "四糸乃",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "10301_a1",
         conditions = {
@@ -116589,7 +116589,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "从这里过去的话，就能找到%s住的地方了吧？",
+                text = "If we walk through here, we can find where %s is staying?",
             },
         },
         actionL = {
@@ -116598,7 +116598,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "四糸乃",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "10301_a1",
         conditions = {
@@ -116657,7 +116657,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "初次见面就提出这个要求有些过分，不过啊……请让我……“饱餐”一顿吧！",
+                text = "It's a bit abrupt to make such a request on our first meeting, but... please allow me to...feast on you!",
             },
         },
         actionL = {
@@ -116666,7 +116666,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -116793,7 +116793,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "艾克对你很感兴趣，和我回基地吧！",
+                text = "As a price, we want to invite you to Ike's lab!",
             },
         },
         actionL = {
@@ -116802,7 +116802,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -116827,7 +116827,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你弄坏了我们的风力发电机，本来应该铲除你，不过……",
+                text = "Thanks to you, the wind turbines DEM installed here are broken.",
             },
         },
         actionL = {
@@ -116836,7 +116836,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -116895,7 +116895,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "赞美。不愧是折纸大师。",
+                text = "Admiration. I expect no less from Master Origami.",
             },
         },
         actionL = {
@@ -116904,7 +116904,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10701_d1",
         conditions = {
@@ -116963,7 +116963,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "姑且承认你的力量也很不错吧，不过难以与强大的风力匹敌就是了哈哈哈。",
+                text = "I will admit you are powerful, but you're still no match for the power of the wind! Hahaha.",
             },
         },
         actionL = {
@@ -116972,7 +116972,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "10701_d1",
         conditions = {
@@ -117201,7 +117201,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "精灵们的灵压数据突然异常！发生什么了？",
+                text = "There's a sudden decrease in the Spiritual Pressure data! What happened?",
             },
         },
         actionL = {
@@ -117210,7 +117210,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_b1",
         conditions = {
@@ -117235,7 +117235,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "只是有点头晕……",
+                text = "It's okay, just a little dizzy…",
             },
         },
         actionL = {
@@ -117244,7 +117244,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "10101_a1",
         conditions = {
@@ -117337,7 +117337,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "感觉好困……怎么回事？",
+                text = "I feel sleepy... what's going on?",
             },
         },
         actionL = {
@@ -117346,7 +117346,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "10101_a1",
         conditions = {
@@ -117405,7 +117405,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这个世界的危险程度不亚于地下城啊……",
+                text = "This world is no less dangerous than Orario, or even the Dungeon...",
             },
         },
         actionL = {
@@ -117414,7 +117414,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "10101_b1",
         conditions = {
@@ -117541,7 +117541,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "啊，游客众多的地方，就算是AST也不能擅自行动吧。",
+                text = "Ah, with all of the tourists here even AST won't do anything rash like what they would do in Tengu City.",
             },
         },
         actionL = {
@@ -117643,7 +117643,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "他们暂时不会追上来了。",
+                text = "They can't catch up for the time being.",
             },
         },
         actionL = {
@@ -117652,7 +117652,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10201_a1",
         conditions = {
@@ -117711,7 +117711,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你也是冒险者吗？",
+                text = "Err? You... didn't you stay there to cover! ",
             },
         },
         actionL = {
@@ -117720,7 +117720,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "13001_haoqi",
         conditions = {
@@ -117779,7 +117779,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "邪恶之眼终于睁开，露出恶魔的獠牙了吗？吾是不会退缩的！汝等快速撤离吧！",
+                text = "Heh, are you going to repeat your cheat skill with reinforcements? However this kind of trick is meaningless in front of me.  Everyone get away from here, now! I will stay here to cover you!",
             },
         },
         actionL = {
@@ -117788,7 +117788,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "10701_d1",
         conditions = {
@@ -117949,7 +117949,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "可恶……增员部队怎么还没到？",
+                text = "No... where are the reinforcements?",
             },
         },
         actionL = {
@@ -117958,7 +117958,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "日下部燎子",
+        name = "Ryouko Kusakabe",
         cameraAction = 0,
         headL = "13001_weixiao",
         conditions = {
@@ -118017,7 +118017,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "拜托你了，耶俱矢。",
+                text = "Though what you just said sounds like what a devil would say... anyway... I'm counting on you, Kaguya.",
             },
         },
         actionL = {
@@ -118051,7 +118051,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "库咔咔咔——受%s召唤的英雄已经随风而来，颤抖吧！",
+                text = "Wakaka - the hero summoned by %s has arrived with the wind, now tremble in fear!",
             },
         },
         actionL = {
@@ -118060,7 +118060,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "30201_a2",
         conditions = {
@@ -118119,7 +118119,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "很好听的名字啊！",
+                text = "What a lovely name!",
             },
         },
         actionL = {
@@ -118128,7 +118128,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "13001_weixiao",
         conditions = {
@@ -118255,7 +118255,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "不是料理……就是……算了，或许这个世界不存在冒险者吧。可以告诉我你的名字吗？",
+                text = "You don't know what an Adventurer is? Looks like this is somewhere far away from Orario. By the way, I don't know your name yet. I am Goddess Hestia. And you?",
             },
         },
         actionL = {
@@ -118264,7 +118264,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "13001_weixiao",
         conditions = {
@@ -118289,7 +118289,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "冒险者？那是什么？料理等级吗？",
+                text = "Adventurer? What's that?",
             },
         },
         actionL = {
@@ -118298,7 +118298,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "13001_haoqi",
         conditions = {
@@ -118323,7 +118323,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你的战力很强，是Level几的冒险者？",
+                text = "You're strong, what is your adventurer level?",
             },
         },
         actionL = {
@@ -118332,7 +118332,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "13001_haoqi",
         conditions = {
@@ -126583,7 +126583,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "理解。所以夕弦也来援助了。",
+                text = "Understood. Yuzuru has come to help.",
             },
         },
         actionL = {
@@ -126592,7 +126592,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -126617,7 +126617,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "这个世界……比地下城还可怕啊……",
+                text = "I always have a feeling that this world... is even more terrifying than the Dungeon.",
             },
         },
         actionL = {
@@ -126626,7 +126626,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "10201_a1",
         conditions = {
@@ -126651,7 +126651,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "十香你还好吧？",
+                text = "Are you OK, Tohka?",
             },
         },
         actionL = {
@@ -126685,7 +126685,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "在我的轰炸范围内，绝对不允许你们前进一步！",
+                text = "I won't let you take a single step further in my attack range!",
             },
         },
         actionL = {
@@ -126694,7 +126694,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10201_b2",
         conditions = {
@@ -126719,7 +126719,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "精灵？确实我体内拥有仙精之血，不过似乎你说的不是这个？",
+                text = "Spirit? I do have the blood of spirits in me... but how do you...?",
             },
         },
         actionL = {
@@ -126728,7 +126728,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -126753,7 +126753,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "啊啊，抱歉，忘记自我介绍了，我是时崎狂三。",
+                text = "Ah, forgive me. I forgot to introduce myself. My name is Kurumi Tokisaki.",
             },
         },
         actionL = {
@@ -126762,7 +126762,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -126787,7 +126787,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "呀！……那边……那边……有奇怪的人。",
+                text = "Ah!...over there... over there... there's a strange person.",
             },
         },
         actionL = {
@@ -126796,7 +126796,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -126821,7 +126821,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "只要“圭德诺之篮”能够顺利完成，整个或美岛上的精灵都成为你回家的“燃料”。",
+                text = "If the Project Basket of Gwyddno works, all of the Spirits on Arubi Island will become the fuel of your trip home.",
             },
         },
         actionL = {
@@ -126830,7 +126830,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -126855,7 +126855,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "你们也是精灵么？果然很强。",
+                text = "Are you Spirits too? Powerful indeed.",
             },
         },
         actionL = {
@@ -126864,7 +126864,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "11303_e1",
         conditions = {
@@ -126928,7 +126928,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "原来已经启动了啊。",
+                text = "So I'm closer to Orario as well.",
             },
         },
         actionL = {
@@ -126937,7 +126937,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -126962,7 +126962,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "回到欧拉丽的方法就是将精灵的灵力作为动力，突破世界之间的屏障。",
+                text = "I've found the way back to Orario. That is to use the Spirit's power to activate DEM's device and recreate the energy field when we came here.",
             },
         },
         actionL = {
@@ -126971,7 +126971,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13001_haoqi",
         conditions = {
@@ -126996,7 +126996,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "仅凭你是没办法坚持下去的，放弃吧。",
+                text = "You can't keep this up all by yourself. Give up.",
             },
         },
         actionL = {
@@ -127005,7 +127005,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "10201_a1",
         conditions = {
@@ -127030,7 +127030,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "……仅此一次，我会亲自证明被欺骗的是你。",
+                text = "...I will demonstrate that you are the one who was tricked, not me.",
             },
         },
         actionL = {
@@ -127039,7 +127039,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -127098,7 +127098,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "失败。龙卷风的力量并没能将海水吹走。",
+                text = "Failure. The tornado wasn't strong enough to blow the water away.",
             },
         },
         actionL = {
@@ -127107,7 +127107,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -127166,7 +127166,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "糟糕，或许是漏掉了。得马上告诉琴里才行。",
+                text = "Oh no, maybe we missed it. We have to tell Kotori right away.",
             },
         },
         actionL = {
@@ -127175,7 +127175,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "诱宵美九",
+        name = "Miku",
         cameraAction = 0,
         headL = "11001_a1",
         conditions = {
@@ -127234,7 +127234,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "太厉害了！海面……真的被劈开了。",
+                text = "Incredible! The waters of the ocean... really splinted apart.",
             },
         },
         actionL = {
@@ -144199,7 +144199,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "喂喂……你没事吧？",
+                text = "Hey... are you alright?",
             },
         },
         actionL = {
@@ -144267,7 +144267,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "恶之军团动用了邪恶的法术，吾之神力收到了限制，汝一定要当心啊！",
+                text = "The Legion of Evil has used evil magic to restrict our powers. You must be careful!",
             },
         },
         actionL = {
@@ -144276,7 +144276,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = true,
-        name = "耶俱矢",
+        name = "Kaguya",
         cameraAction = 0,
         headL = "10201_b2",
         conditions = {
@@ -144437,7 +144437,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "七罪小姐请小心！",
+                text = "Miss Natsumi, look out!",
             },
         },
         actionL = {
@@ -144446,7 +144446,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "四糸乃",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "10301_i1",
         conditions = {
@@ -144505,7 +144505,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "接下来的精灵也拜托你来处理一下了。",
+                text = "Yes! I'll leave the rest to you.",
             },
         },
         actionL = {
@@ -144514,7 +144514,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -144573,7 +144573,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "休想。",
+                text = "This is not up to you...",
             },
         },
         actionL = {
@@ -144582,7 +144582,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10201_a1",
         conditions = {
@@ -144607,7 +144607,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "啊啦啊啦……被我发现了呢~你们的秘密……",
+                text = "Ara, ara... I discovered... your secret...",
             },
         },
         actionL = {
@@ -144616,7 +144616,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {
@@ -144709,7 +144709,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "这种事情，交给我就好了！",
+                text = "Just leave this to me! Into candy canes!",
             },
         },
         actionL = {
@@ -144718,7 +144718,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_b1",
         conditions = {
@@ -144777,7 +144777,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "吸走海水需要的风力太大了。但是，将海水劈开应该可以……我愿意一试。",
+                text = "It would take too much wind energy to pull the sea water away, but parting the water should be possible... I'm willing to give it a shot.",
             },
         },
         actionL = {
@@ -144786,7 +144786,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -144845,7 +144845,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "我相信我的判断。",
+                text = "I trust my judgment.",
             },
         },
         actionL = {
@@ -144854,7 +144854,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾丝·华伦斯坦",
+        name = "Ais Wallenstein",
         cameraAction = 0,
         headL = "10901_a2",
         conditions = {
@@ -161526,7 +161526,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "十香！夜刀神十香。这是%s为我取的名字哦。",
+                text = "Tohka! Tohka Yatogami. That's the name %s gave me.",
             },
         },
         actionL = {
@@ -161535,7 +161535,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = true,
-        name = "夜刀神十香",
+        name = "Tohka Yatogami",
         cameraAction = 0,
         headL = "13001_weixiao",
         conditions = {
@@ -161560,7 +161560,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "好厉害，和华伦某某一样是风系的冒险者吗？",
+                text = "Incredible, are you a wind adventurer like WallenWhatsIt?",
             },
         },
         actionL = {
@@ -161569,7 +161569,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "赫斯缇雅",
+        name = "Hestia",
         cameraAction = 0,
         headL = "13001_weixiao",
         conditions = {
@@ -161594,7 +161594,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "否认。夕弦是操纵风的双子精灵之一。",
+                text = "Negative. Yuzuru and Kaguya are twin Spirits who control the wind.",
             },
         },
         actionL = {
@@ -161603,7 +161603,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = true,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "13001_haoqi",
         conditions = {
@@ -161628,7 +161628,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "她好像体力透支了。",
+                text = "She must be completely exhausted.",
             },
         },
         actionL = {
@@ -161637,7 +161637,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10201_a1",
         conditions = {
@@ -161696,7 +161696,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "一切交给我吧，显现装置已经准备好了。",
+                text = "Leave this all to me. I'm not just a Spirit, I can also fight as a Wizard.",
             },
         },
         actionL = {
@@ -161705,7 +161705,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "鸢一折纸",
+        name = "Origami Tobiichi",
         cameraAction = 0,
         headL = "10201_a1",
         conditions = {
@@ -161764,7 +161764,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "竟然轻易地消灭了梦魇的分身吗……",
+                text = "She defeated Nightmare's clone so easily...",
             },
         },
         actionL = {
@@ -161773,7 +161773,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "Ellen",
         cameraAction = 0,
         headL = "10901_a2",
         conditions = {
@@ -161798,7 +161798,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "人好多……让我来把他们都变成棉花糖好了！",
+                text = "There's a lot of them... I'll turn them all into cotton candy!",
             },
         },
         actionL = {
@@ -161807,7 +161807,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = true,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "10301_a1",
         conditions = {
@@ -161832,7 +161832,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "被……被发现了……！",
+                text = "They... they found us...!",
             },
         },
         actionL = {
@@ -161841,7 +161841,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "四糸乃",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "10301_i1",
         conditions = {
@@ -161866,7 +161866,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "四糸乃，你快点去通知琴里和%s！",
+                text = "Yoshino, leave it to me. You go tell Kotori and %s!",
             },
         },
         actionL = {
@@ -161875,7 +161875,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "七罪",
+        name = "Natsumi",
         cameraAction = 0,
         headL = "11303_b1",
         conditions = {
@@ -161900,7 +161900,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "啊……美丽的少女好像误会我们了呢！危险危险……不过她拔剑的样子超帅气呀！",
+                text = "Ah... the beautiful lady misunderstood us! Danger danger... but she did look cool drawing her sword!",
             },
         },
         actionL = {
@@ -161909,7 +161909,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "诱宵美九",
+        name = "Miku Izayoi",
         cameraAction = 0,
         headL = "11001_c1",
         conditions = {
@@ -162036,7 +162036,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "维持这么大的动能散热还真是不容易呢~",
+                text = "That's it. This huge vortex is a byproduct of the device's heat dissipation?",
             },
         },
         actionL = {
@@ -162045,7 +162045,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -162070,7 +162070,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "是的，按照我的指示，已经回到fraxinus等待全面检查了。",
+                text = "Yes, she has returned to Fraxinus on my orders and is awaiting a comprehensive inspection.",
             },
         },
         actionL = {
@@ -162079,7 +162079,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "五河琴里",
+        name = "Kotori Itsuka",
         cameraAction = 0,
         headL = "10505_e1",
         conditions = {
@@ -162104,7 +162104,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "糟糕。感觉灵力正在迅速流失。",
+                text = "Bad. I feel my Spirit Power is drained away at rapid space.",
             },
         },
         actionL = {
@@ -162113,7 +162113,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "夕弦",
+        name = "Yuzuru",
         cameraAction = 0,
         headL = "10801_a1",
         conditions = {
@@ -162138,7 +162138,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "好像灵力变弱了……",
+                text = "My Spirit Power has become weakener...",
             },
         },
         actionL = {
@@ -162147,7 +162147,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = true,
-        name = "四糸乃",
+        name = "Yoshino",
         cameraAction = 0,
         headL = "11303_b1",
         conditions = {
@@ -162172,7 +162172,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 10,
-                text = "你们这些漏网之鱼，就乖乖沉入海底吧！",
+                text = "The little fishy that got away... Sink to the ocean depths!",
             },
         },
         actionL = {
@@ -162181,7 +162181,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "时崎狂三",
+        name = "Kurumi Tokisaki",
         cameraAction = 0,
         headL = "10401L_c2",
         conditions = {

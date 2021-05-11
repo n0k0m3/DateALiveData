@@ -859,11 +859,11 @@ function RoleDataMgr:checkRoleHaveByDressId(dressId)
 end
 
 --获取看板角色好感度等级(兼容多人看板，多人看板取最小的的等级)
-function RoleDataMgr:getRoleFavorLv(roleId)
+function RoleDataMgr:getRoleFavorLv(roleId , dressId)  --英文版增加dressid参数 fix玩家装备双人看板情况下查看其它担任看板返回好感度错误bug
     local roleInfo = self:getRoleInfo(roleId)
     if not roleInfo then return 0 end
     local realFavorLv = roleInfo.favorLevel
-    local curDressId = roleInfo.dressId
+    local curDressId = dressId or roleInfo.dressId
     local relatedDress = TabDataMgr:getData("Dress", curDressId).relatedDress
 
     for k, v in ipairs(relatedDress or {}) do

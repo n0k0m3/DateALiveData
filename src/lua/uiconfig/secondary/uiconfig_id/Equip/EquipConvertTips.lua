@@ -253,7 +253,7 @@ local t =
 								PositionX = 246,
 								PositionY = 541,
 							},
-							width = "148",
+							width = "164",
 							ZOrder = "1",
 						},
 						{
@@ -353,7 +353,7 @@ local t =
 								PositionY = 534,
 							},
 							visible = "False",
-							width = "115",
+							width = "113",
 							ZOrder = "1",
 						},
 						{
@@ -431,7 +431,7 @@ local t =
 									{
 										
 									},
-									width = "43",
+									width = "46",
 									ZOrder = "1",
 								},
 							},
@@ -511,7 +511,7 @@ local t =
 									{
 										
 									},
-									width = "56",
+									width = "55",
 									ZOrder = "1",
 								},
 							},
@@ -573,8 +573,8 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "21",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "Label_change",
 							nTextAlign = "1",
 							nTextHAlign = "1",
@@ -590,7 +590,7 @@ local t =
 								PositionX = 571,
 								PositionY = 189,
 							},
-							width = "490",
+							width = "646",
 							ZOrder = "1",
 						},
 						{
@@ -636,7 +636,7 @@ local t =
 								PositionX = 628,
 								PositionY = 474,
 							},
-							width = "142",
+							width = "136",
 							ZOrder = "1",
 						},
 						{
@@ -682,7 +682,7 @@ local t =
 								PositionX = 341,
 								PositionY = 474,
 							},
-							width = "156",
+							width = "149",
 							ZOrder = "1",
 						},
 						{
@@ -726,7 +726,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "42",
+							height = "50",
 							ignoreSize = "False",
 							name = "Panel_att_item",
 							sizepercentx = "0",
@@ -770,7 +770,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 46,
-										PositionY = 20,
+										PositionY = 25,
 									},
 									width = "21",
 									ZOrder = "1",
@@ -801,11 +801,11 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_att_desc",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -816,9 +816,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 65,
-										PositionY = 20,
+										PositionY = 25,
 									},
-									width = "70",
+									width = "165",
 									ZOrder = "1",
 								},
 							},
@@ -1030,7 +1030,7 @@ local t =
 								PositionX = 823,
 								PositionY = 498,
 							},
-							width = "181",
+							width = "177",
 							ZOrder = "1",
 						},
 						{

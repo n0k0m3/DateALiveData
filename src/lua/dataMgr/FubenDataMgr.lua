@@ -2653,6 +2653,7 @@ function FubenDataMgr:onRecvFightStart(event)
             or levelCfg.dungeonType == EC_FBLevelType.DICUO_HUALUN
             or levelCfg.dungeonType == EC_FBLevelType.DICUO_JIBAN 
             or levelCfg.dungeonType == EC_FBLevelType.SNOW_FESTIVAL then
+                battleController.enterBattle(data, EC_BattleType.COMMON)
     elseif levelCfg.dungeonType == EC_FBLevelType.ENDLESS_PLUSS then
         battleController.enterBattle(data, EC_BattleType.COMMON)
     end

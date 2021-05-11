@@ -310,6 +310,86 @@ local t =
 							},
 							width = "400",
 							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "NpcEffectPanel_Panel_newRole_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
+									UUID = "f18dcc50_6d19_44c8_a95a_9478eb9bb3ba",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "400",
+									ignoreSize = "False",
+									name = "NpcEffectPanel",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 568,
+										PositionY = 319,
+										relativeToName = "Panel",
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "400",
+									ZOrder = "20",
+									components = 
+									{
+										
+										{
+											controlID = "NpcEffect_NpcEffectPanel_Panel_newRole_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
+											UUID = "45885254_77e2_4cc4_a7f9_9fbe88b71566",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "False",
+											classname = "MEPanel",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											DesignHeight = "640",
+											DesignType = "0",
+											DesignWidth = "960",
+											dstBlendFunc = "771",
+											height = "400",
+											ignoreSize = "False",
+											name = "NpcEffect",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											width = "400",
+											ZOrder = "1",
+										},
+									},
+								},
+							},
 						},
 						{
 							controlID = "Panel_left_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
@@ -2188,14 +2268,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "升级永久",
+													text = "Buy Now",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "83",
+													width = "79",
 													ZOrder = "1",
 												},
 											},
@@ -3604,82 +3684,6 @@ local t =
 									},
 									visible = "False",
 									ZOrder = "2",
-								},
-								{
-									controlID = "NpcEffectPanel_Panel_mid_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
-									UUID = "f18dcc50_6d19_44c8_a95a_9478eb9bb3ba",
-									anchorPoint = "False",
-									anchorPointX = "0",
-									anchorPointY = "0",
-									backGroundScale9Enable = "False",
-									bgColorOpacity = "50",
-									bIsOpenClipping = "False",
-									classname = "MEPanel",
-									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
-									DesignHeight = "640",
-									DesignType = "0",
-									DesignWidth = "960",
-									dstBlendFunc = "771",
-									height = "400",
-									ignoreSize = "False",
-									name = "NpcEffectPanel",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "1",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = 568,
-										PositionY = 320,
-										relativeToName = "Panel",
-									},
-									uipanelviewmodel = 
-									{
-										Layout="Absolute",
-										nType = "0"
-									},
-									width = "400",
-									ZOrder = "20",
-									components = 
-									{
-										
-										{
-											controlID = "NpcEffect_NpcEffectPanel_Panel_mid_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
-											UUID = "45885254_77e2_4cc4_a7f9_9fbe88b71566",
-											anchorPoint = "False",
-											anchorPointX = "0",
-											anchorPointY = "0",
-											backGroundScale9Enable = "False",
-											bgColorOpacity = "50",
-											bIsOpenClipping = "False",
-											classname = "MEPanel",
-											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
-											DesignHeight = "640",
-											DesignType = "0",
-											DesignWidth = "960",
-											dstBlendFunc = "771",
-											height = "400",
-											ignoreSize = "False",
-											name = "NpcEffect",
-											sizepercentx = "0",
-											sizepercenty = "0",
-											sizeType = "0",
-											srcBlendFunc = "1",
-											touchAble = "False",
-											UILayoutViewModel = 
-											{
-												
-											},
-											uipanelviewmodel = 
-											{
-												Layout="Absolute",
-												nType = "0"
-											},
-											width = "400",
-											ZOrder = "1",
-										},
-									},
 								},
 							},
 						},

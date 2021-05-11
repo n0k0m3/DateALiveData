@@ -468,6 +468,9 @@ function KeyBoard:onVKStateChange(skill,flag)
                 end
             end
 
+            if skill:getUselessUI() == 1 then
+                keyNode.image_silence:hide()
+            end
 
         else
             -- local percent = 100 - skill:getCDPercent()
@@ -528,10 +531,48 @@ function KeyBoard:onVKStateChange(skill,flag)
                     keyNode.image_silence:hide()
                 end
             end
+            
+            if skill:getUselessUI() == 1 then
+                keyNode.image_silence:hide()
+            end
 
         end
+        
+        self:updateLimitBar(keyNode,skill)
     end
 end
+
+function KeyBoard:updateLimitBar(keyNode, skill )
+    local percent = skill:getLimitPercent()
+    if keyNode.LoadingBar_limit then
+        keyNode.LoadingBar_limit:setPercent(percent) 
+    end
+
+    if keyNode.percent == percent then return end
+    keyNode.percent = keyNode.percent or 0 
+    if keyNode.ctrlLimit_Effect then
+
+        keyNode.ctrlLimit_Effect:addMEListener(TFARMATURE_COMPLETE,function ( ... )
+            -- body
+            keyNode.ctrlLimit_Effect:removeMEListener(TFARMATURE_COMPLETE)
+            keyNode.LoadingBar_limit:setVisible(percent > 0)
+            keyNode.ctrlLimit_Effect:hide()
+        end)
+        if percent > 0  and percent > keyNode.percent then
+            keyNode.skillId = skill.skillCfg.id
+            keyNode.LoadingBar_limit:hide()
+            keyNode.ctrlLimit_Effect:show()
+            keyNode.ctrlLimit_Effect:play("kaishi",false)
+        elseif  percent <= 0 and skill:getLimitTime() then
+            keyNode.ctrlLimit_Effect:show()
+            keyNode.ctrlLimit_Effect:play("jieshu",false)
+        end
+    end
+    if skill.skillCfg.id == keyNode.skillId then
+        keyNode.percent = percent
+    end
+end
+
 function KeyBoard:onCaptainChange()
     local hero = battleController.getCaptain()
     if hero then
@@ -629,6 +670,8 @@ function KeyBoard:onCaptainChange()
                         keyNode.cdTime:hide()
                     end
                 end
+
+                self:updateLimitBar(keyNode, skill)
 
                 local cacheTimes = skill:getCacheTimes()
                 local maxTimes   = skill:getMaxCacheTimes()
@@ -913,6 +956,18 @@ function KeyBoard:registerEvents()
                 end
                 vKeyNode.consume:setActive(true,0)
             end
+
+            vKeyNode.LoadingBar_limit = vKeyNode:getChildByName("LoadingBar_limit") --限时进度条
+            vKeyNode.ctrlLimit_Effect = vKeyNode:getChildByName("ctrlLimit_Effect") --限时进度条
+
+            if vKeyNode.LoadingBar_limit then
+                vKeyNode.LoadingBar_limit:hide()
+            end
+
+            if vKeyNode.ctrlLimit_Effect then
+                vKeyNode.ctrlLimit_Effect:hide()
+            end
+
             bindFunc(vKeyNode)
             vKeyNode:setTouchEnabled(false)
             -- vKeyNode:setGrayEnabled(false)

@@ -1,0 +1,88 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"bust_10104.moc",
+	"textures":[
+		"bust_10104.2048/texture_00.png",
+		"bust_10104.2048/texture_01.png"
+	],
+"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.FACE"},
+		{"name":"body", "id":"D_REF.BODY"},
+                 {"name":"fubu", "id":"D_REF.FUBU"},
+		{"name":"tui", "id":"D_REF.TUI"},
+		{"name":"hand_r", "id":"D_REF.HAND_R"},
+                {"name":"hand_l", "id":"D_REF.HAND_L"}
+	],	"motions":{
+		"id_2_surprise":[
+			{"file":"motions/id_2_surprise.mtn","fade_in":400,"fade_out":200}
+		],
+		"id_1":[
+			{"file":"motions/id_1.mtn","fade_in":300}
+		],
+		"invite_heart":[
+			{"file":"motions/invite_heart.mtn","fade_in":500,"fade_out":500}
+		],
+		"id1_3_gas":[
+			{"file":"motions/id1_3_gas.mtn","fade_in":400}
+		],
+		"id1_3":[
+			{"file":"motions/id1_3.mtn","fade_in":400}
+		],
+		"id1_2_angry":[
+			{"file":"motions/id1_2_angry.mtn","fade_in":400}
+		],
+		"beg_sweat":[
+			{"file":"motions/beg_sweat.mtn","fade_in":200,"fade_out":500}
+		],
+		"invite_accept_heart":[
+			{"file":"motions/invite_accept_heart.mtn"}
+		],
+		"id1_2":[
+			{"file":"motions/id1_2.mtn","fade_in":400}
+		],
+		"id1_1":[
+			{"file":"motions/id1_1.mtn","fade_in":400}
+		],
+		"id1":[
+			{"file":"motions/id1.mtn"}
+		],
+		"ignore":[
+			{"file":"motions/ignore.mtn","fade_in":200,"fade_out":500}
+		],
+		"id1_1_surprise":[
+			{"file":"motions/id1_1_surprise.mtn","fade_in":400}
+		],
+		"beg":[
+			{"file":"motions/beg.mtn","fade_in":200,"fade_out":500}
+		],
+		"id_2":[
+			{"file":"motions/id_2.mtn","fade_in":400,"fade_out":200}
+		],
+		"invite_loop":[
+			{"file":"motions/invite_loop.mtn"}
+		],
+		"id_1_angry":[
+			{"file":"motions/id_1_angry.mtn","fade_in":300}
+		],
+		"ignore_gas":[
+			{"file":"motions/ignore_gas.mtn","fade_in":200,"fade_out":500}
+		],
+		"invite_loop_heart":[
+			{"file":"motions/invite_loop_heart.mtn"}
+		],
+		"invite":[
+			{"file":"motions/invite.mtn","fade_in":500,"fade_out":500}
+		],
+		"invite_accept":[
+			{"file":"motions/invite_accept.mtn"}
+		],
+		"idle":[
+			{"file":"motions/idle.mtn"}
+		]
+	},
+	"physics":"physics.json",
+	"pose":"pose.json",
+	"project_settings":"bust_10104.settings.json",
+	"name":"bust_10104"
+}

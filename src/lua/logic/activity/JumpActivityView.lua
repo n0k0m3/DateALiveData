@@ -41,9 +41,10 @@ function JumpActivityView:initUI( ui )
 
     if self.activityInfo.extendData.dateRstring then
     	local dateStyle = self.activityInfo.extendData.dateStyle
-    	local startDateStr = Utils:getDateString(self.activityInfo.startTime, dateStyle)
-    	local endDateStr = Utils:getDateString(self.activityInfo.endTime, dateStyle)
-    	self.label_date:setTextById(self.activityInfo.extendData.dateRstring, startDateStr, endDateStr)
+    	local startDateStr = Utils:getUTCDateString(self.activityInfo.startTime, dateStyle)
+    	local endDateStr = Utils:getUTCDateString(self.activityInfo.endTime, dateStyle)
+    	self.label_date:setText(TextDataMgr:getText(self.activityInfo.extendData.dateRstring, startDateStr, endDateStr)..GV_UTC_TIME_STRING)
+    	self.label_date:setFontSize(19)
 	else
 		self.label_date:setText(Utils:getActivityDateString(self.activityInfo.startTime, self.activityInfo.endTime, self.activityInfo.extendData.dateStyle))
 	end

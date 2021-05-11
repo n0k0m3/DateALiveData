@@ -239,7 +239,6 @@ function TheaterDatingResultView:createHeroModel()
     yingzi:setFlipY(true)
     yingzi:setScale(self.modelEndSize * 1.05)
     model1:removeFromParent()
-    self.Image_battleResult_role_mirror.model = nil
     self.Image_battleResult_role_mirror:addChild(yingzi)
 end
 

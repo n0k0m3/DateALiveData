@@ -84,6 +84,8 @@ function BrushMonster:init()
     self.checkTiming = 0
     self.preBrushData = {}  --缓存抢波次刷怪的配置指令
     self.checkCount = {}
+    self.waitFlag = false
+    self.brushWave = 0
 end
 --刷怪是否开启
 function BrushMonster:isEnabled()
@@ -92,6 +94,10 @@ end
 --设置是否开启刷怪
 function BrushMonster:setEnabled(enable)
     self.enabled = enable
+end
+
+function BrushMonster:getCurBrushWave()
+    return self.brushWave
 end
 function BrushMonster:initPracticeSite()
     if not self.practiceSite_ then
@@ -138,6 +144,7 @@ function BrushMonster:doSlain(hero)
             waveMonsterId[brushId] = nil
             if not next(waveMonsterId) then
                 battleController.nextWave()
+                self.brushWave = self.brushWave + 1
             end
         end
     end
@@ -147,6 +154,13 @@ function BrushMonster:update(delta)
     if not self:isEnabled() then 
         return 
     end
+
+    -- if self.waitFlag then
+    --     if self.levelCfg_.delayCreateTime and self.levelCfg_.delayCreateTime > 100 and battleController.getControlPassTime() < self.levelCfg_.delayCreateTime then
+    --         return
+    --     end
+    -- end
+    
     for i = #self.timeNode_, 1, -1 do
         local node = self.timeNode_[i]
         if node:update(delta) then
@@ -174,57 +188,43 @@ function BrushMonster:update(delta)
 end
 
 function BrushMonster:checkNextWaveData(delta)
-    self.checkTiming = self.checkTiming + delta
-    if self.checkTiming > 1000 then
-        self.checkTiming = 0
-        local wave = battleController.getWave()
-        for k,v in pairs(self.preBrushData) do
-            if v.cfg.Count == wave then
-                self:onBurshEvent(v.cfg, v.param, v.call)
-                self.preBrushData[k] = nil
-                break
-            end
-        end
+    local waveMonsterId = self.waveMonsterId_[math.max(self.brushWave,1)]
+    if waveMonsterId and next(waveMonsterId) then
+        return
     end
-end
-
-function BrushMonster:checkEnableNextWave(delta)
-    self.checkTiming = self.checkTiming + delta
-    if self.checkTiming > 2000 then
-        self.checkTiming = 0
-        local wave = battleController.getWave()
-        local waveMonster = self.waveMonsterId_[wave] or {}
-        if next(waveMonster) then
-            local enemys = battleController.getEnemyMember()
-            if #enemys < 1 then
-                local count = self.checkCount[wave] or 0
-                count = count + 1
-                if count >= 5 then
-                    self.checkCount[wave] = 0
-                    waveMonster = {}
-                    battleController.nextWave()
-                else
-                    self.checkCount[wave] = count
-                end
-            end
+    for i=1,20 do
+        local data = self.preBrushData[i]
+        if data then
+            self.preBrushData[i] = nil
+            self:onBurshEvent(data.cfg, data.param)
+            break
         end
     end
 end
 
 -- 关卡编辑器触发刷怪
-function BrushMonster:onBurshEvent(brushCfg, params, callback)
+function BrushMonster:onBurshEvent(brushCfg, params, triggerFlag)
     if not self:isEnabled() then 
         return 
     end
-
-    local newDunStepType = TabDataMgr:getData("DiscreteData",61007).data.newDunStepType or {}
-    if table.indexOf(newDunStepType,self.levelCfg_.dungeonType) ~= -1 then
-        local wave = battleController.getWave()
-        if brushCfg.Count > wave then
-            self.preBrushData[brushCfg.Count] = {cfg = brushCfg,param = params,call = callback}
+    if triggerFlag then
+        if self.preBrushData[brushCfg.Count]  then
+            return
+        end
+        
+        if brushCfg.Count > math.max(self.brushWave + 1,1) then
+            self.preBrushData[brushCfg.Count] = {cfg = brushCfg,param = params}
             return
         end
     end
+    -- local newDunStepType = TabDataMgr:getData("DiscreteData",61007).data.newDunStepType or {}
+    -- if table.indexOf(newDunStepType,self.levelCfg_.dungeonType) ~= -1 then
+    --     local wave = battleController.getWave()
+    --     if brushCfg.Count > wave then
+    --         self.preBrushData[brushCfg.Count] = {cfg = brushCfg,param = params,call = callback}
+    --         return
+    --     end
+    -- end
 
     -- dump(brushCfg)
     -- dump(params)
@@ -318,7 +318,11 @@ function BrushMonster:onBurshEvent(brushCfg, params, callback)
             battleController.activateAssit()
         end
     end
-
+    if #monster > 1 then
+        self.waitFlag = true
+    else
+        self.waitFlag = false
+    end
     -- warining
     if monsterSectionCfg.warning then
         battleController.showWarning(bootstrap)

@@ -1027,7 +1027,6 @@ function BattleResultView:createHeroPanel()
     yingzi:setFlipY(true)
     yingzi:setScale(self.modelEndSize * 1.05)
     model1:removeFromParent()
-    self.Image_battleResult_role_mirror.model = nil
     self.Image_battleResult_role_mirror:addChild(yingzi)
 end
 
@@ -1308,13 +1307,20 @@ function BattleResultView:updateAddtionPanel()
     local ScrollView_addtions = TFDirector:getChildByPath(self.Panel_addtion, "ScrollView_addtions")
     self.list_addtions = UIListView:create(ScrollView_addtions)
     self.list_addtions:setItemsMargin(3)
+
+    local Label_addtion_hero_title = TFDirector:getChildByPath(self.Panel_addtion , "Label_addtion_hero_title")
+    Label_addtion_hero_title:setTextById(190000855)
+
+     local Label_addtion_reward_title = TFDirector:getChildByPath(self.Panel_addtion , "Label_addtion_reward_title")
+    Label_addtion_reward_title:setTextById(190000855)
+
     local Label_addtion_title = TFDirector:getChildByPath(self.Panel_addtion, "Label_addtion_title")
     if self.levelCfg_.dungeonType == EC_FBLevelType.DICUO_JIBAN then
-        Label_addtion_title:setText("羁绊印章")
+        Label_addtion_title:setTextById(16000442)
     elseif self.levelCfg_.dungeonType == EC_FBLevelType.DICUO_HUALUN then
-        Label_addtion_title:setText("冒险者印章")
+        Label_addtion_title:setTextById(16000440)
     else
-        Label_addtion_title:setText("伟业")
+        Label_addtion_title:setTextById(190000854)
     end
     local addtion_item = TFDirector:getChildByPath(self.Panel_prefab, "Panel_addtion_item")
     local totalNum = 0
@@ -1340,7 +1346,7 @@ function BattleResultView:updateAddtionPanel()
         
         if num > 0 then
             local item = addtion_item:clone()
-            TFDirector:getChildByPath(item, "Label_addtion_name"):setText("通关基础奖励")
+            TFDirector:getChildByPath(item, "Label_addtion_name"):setTextById(16000521)
             TFDirector:getChildByPath(item, "Label_addtion_num"):setText("+"..num)
             self.list_addtions:pushBackCustomItem(item)
         end
@@ -1348,7 +1354,7 @@ function BattleResultView:updateAddtionPanel()
 
     if not self.resultData_.orgData.additionAward then
         local item = addtion_item:clone()
-        TFDirector:getChildByPath(item, "Label_addtion_name"):setText("通关基础奖励")
+        TFDirector:getChildByPath(item, "Label_addtion_name"):setTextById(16000521)
         TFDirector:getChildByPath(item, "Label_addtion_num"):setText("+"..totalNum)
         self.list_addtions:pushBackCustomItem(item)
     end

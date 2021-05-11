@@ -891,19 +891,6 @@ function Utils:createHeroModel(heroId, heroImg, scale,_skinId,notShowParticle)
         local offsetPosition = me.pAdd(modelInfo.paintPosition, scaleOffsetPosition)
         model:setPosition(offsetPosition)
     end
-
-    if heroImg then
-        heroImg:addMEListener(TFWIDGET_CLEANUP, function (...)
-            --print("name " ..heroImg:getName())
-            if heroImg.model then
-                heroImg.model:removeFromParent()
-            end      
-            heroImg.model = nil    
-        end)
-    end
-
-    me.TextureCache:removeUnusedTextures()
-    SpineCache:getInstance():clearUnused()
     return model
 end
 
@@ -1741,7 +1728,7 @@ function Utils:sendHttpLog(flagStr, isClick)
                 url = "http://sdk-daac-en.datealive.com:9998/data?type=event_client_click_log"
             end
         end
-    else
+    elseif TFGlobalUtils:isConnectMiniServer() then
         if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
             url = "https://sdk-daac-ml.datealive.com:9999/data?type=event_client_event_log"
             if isClick then
@@ -1751,6 +1738,18 @@ function Utils:sendHttpLog(flagStr, isClick)
             url = "http://sdk-daac-ml.datealive.com:9998/data?type=event_client_event_log"
             if isClick then
                 url = "http://sdk-daac-ml.datealive.com:9998/data?type=event_client_click_log"
+            end
+        end
+    else
+        if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
+            url = "https://sdk-daac-kt.datealive.com:9999/data?type=event_client_event_log"
+            if isClick then
+                url = "https://sdk-daac-kt.datealive.com:9999/data?type=event_client_click_log"
+            end
+        else
+            url = "http://sdk-daac-kt.datealive.com:9998/data?type=event_client_event_log"
+            if isClick then
+                url = "http://sdk-daac-kt.datealive.com:9998/data?type=event_client_click_log"
             end
         end
     end
@@ -1945,6 +1944,16 @@ end
 
 function Utils:getDateString(time, stringType)
     local date = Utils:getLocalDate(time)
+    local dateStr = date:fmt("%Y.%m.%d")
+    if stringType == 1 then
+        dateStr = date:fmt("%m.%d")
+    end
+
+    return dateStr
+end
+
+function Utils:getUTCDateString(time, stringType )
+    local date = Utils:getUTCDate(time , GV_UTC_TIME_ZONE)
     local dateStr = date:fmt("%Y.%m.%d")
     if stringType == 1 then
         dateStr = date:fmt("%m.%d")

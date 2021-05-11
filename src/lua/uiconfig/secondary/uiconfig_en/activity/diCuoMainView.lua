@@ -229,7 +229,7 @@ local t =
 										StrokeColor = "#FF1E5A9C",
 										StrokeSize = 2,
 									},
-									height = "34",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_jiacheng",
 									nTextAlign = "1",
@@ -238,14 +238,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "加成",
+									text = "Bonus",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -37,
 									},
-									width = "53",
+									width = "84",
 									ZOrder = "1",
 								},
 							},
@@ -308,7 +308,7 @@ local t =
 										StrokeColor = "#FF1E5A9C",
 										StrokeSize = 2,
 									},
-									height = "34",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_shop",
 									nTextAlign = "1",
@@ -317,14 +317,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "商店",
+									text = "Store",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -44,
 									},
-									width = "52",
+									width = "71",
 									ZOrder = "1",
 								},
 							},
@@ -376,15 +376,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_time",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -392,15 +392,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "时间",
+									text = "Time",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = 2,
-										PositionY = 12,
+										PositionY = -22,
 									},
-									width = "42",
+									width = "190",
 									ZOrder = "1",
 								},
 								{
@@ -422,15 +422,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_stage",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -438,15 +438,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "下一阶段",
+									text = "Next Phase",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = -4,
-										PositionY = -19,
+										PositionY = 10,
 									},
-									width = "83",
+									width = "190",
 									ZOrder = "1",
 								},
 							},
@@ -623,7 +623,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_name",
 													nTextAlign = "1",
@@ -639,7 +639,7 @@ local t =
 													{
 														
 													},
-													width = "14",
+													width = "13",
 													ZOrder = "1",
 												},
 											},
@@ -815,7 +815,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_name",
 													nTextAlign = "1",
@@ -831,7 +831,7 @@ local t =
 													{
 														
 													},
-													width = "14",
+													width = "13",
 													ZOrder = "1",
 												},
 											},
@@ -1007,7 +1007,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_name",
 													nTextAlign = "1",
@@ -1023,7 +1023,7 @@ local t =
 													{
 														
 													},
-													width = "14",
+													width = "13",
 													ZOrder = "1",
 												},
 											},
@@ -1198,7 +1198,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_name",
 													nTextAlign = "1",
@@ -1214,7 +1214,7 @@ local t =
 													{
 														
 													},
-													width = "14",
+													width = "13",
 													ZOrder = "1",
 												},
 											},
@@ -1441,8 +1441,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "31",
-											ignoreSize = "True",
+											height = "54",
+											ignoreSize = "False",
 											name = "Image_name_di",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -1452,9 +1452,9 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -66,
+												PositionY = -75,
 											},
-											width = "105",
+											width = "120",
 											ZOrder = "1",
 											components = 
 											{
@@ -1478,15 +1478,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = true,
 														StrokeColor = "#FF6C6762",
 														StrokeSize = 1,
 													},
-													height = "29",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_name",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1494,14 +1494,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "剑姬",
+													text = "Sword Princess",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = -2,
+														
 													},
-													width = "48",
+													width = "120",
 													ZOrder = "1",
 												},
 											},
@@ -2218,8 +2218,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "31",
-											ignoreSize = "True",
+											height = "54",
+											ignoreSize = "False",
 											name = "Image_name_di",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -2229,9 +2229,9 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -66,
+												PositionY = -75,
 											},
-											width = "105",
+											width = "120",
 											ZOrder = "1",
 											components = 
 											{
@@ -2255,15 +2255,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = true,
 														StrokeColor = "#FF6C6762",
 														StrokeSize = 1,
 													},
-													height = "29",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_name",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -2271,14 +2271,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "name",
+													text = "Name",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = -2,
+														
 													},
-													width = "79",
+													width = "120",
 													ZOrder = "1",
 												},
 											},
@@ -2993,8 +2993,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "31",
-											ignoreSize = "True",
+											height = "54",
+											ignoreSize = "False",
 											name = "Image_name_di",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -3004,9 +3004,9 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -66,
+												PositionY = -75,
 											},
-											width = "105",
+											width = "120",
 											ZOrder = "1",
 											components = 
 											{
@@ -3030,15 +3030,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = true,
 														StrokeColor = "#FF6C6762",
 														StrokeSize = 1,
 													},
-													height = "29",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_name",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -3046,14 +3046,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "name",
+													text = "Name",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = -2,
+														
 													},
-													width = "79",
+													width = "120",
 													ZOrder = "1",
 												},
 											},

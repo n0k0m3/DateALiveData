@@ -1536,6 +1536,7 @@ enum.eEvent = {
     EVENT_STATUS_BOSS              = "event_status_boss" ,--boss血量刷新
     EVENT_SKILL_OVER              = "event_skill_over" ,--技能释放完成
     EVENT_WORLDROOM_LEAVE                    = "EV_LEAVE",    -- 离开
+    EVENT_AIR_POINT_CHANGE        = "EVENT_AIR_POINT_CHANGE", --空气墙变更
     EVENT_QUIT_BATTLE = "event_quit_battle"   --英文版适应修改战斗结算后需要添加事件触发试炼结算
 }
 

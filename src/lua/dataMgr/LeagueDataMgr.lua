@@ -56,7 +56,9 @@ function LeagueDataMgr:init()
     TFDirector:addProto(s2c.JU_NAI_INVASION_RESP_GET_UNION_PLAYER_ATTR, self, self.onRecvPlayerAttackInfo)
     TFDirector:addProto(s2c.JU_NAI_INVASION_RESP_GET_UNION_PLAYER_RANK, self, self.onRecvPlayerAttackRank)
     TFDirector:addProto(s2c.JU_NAI_INVASION_RESP_GET_UNION_RANK, self, self.onRecvLeagueAttackRank)
-    
+
+    --新增社团升级卡返回 新韩台独有
+    TFDirector:addProto(s2c.ITEM_RESP_USE_ITEM_MOVE_UNION_EXP, self, self.onRecvLeagueUseUpgradeCard)
 
     self.clubBaesMap_ = TabDataMgr:getData("ClubBaes")
     self.clubCountry_ = TabDataMgr:getData("ClubCountry")
@@ -316,6 +318,11 @@ end
 --定时获取我的积分
 function LeagueDataMgr:sendReqTickGetUnionScore()
    TFDirector:send(c2s.UNION_REQ_TICK_GET_UNION_SCORE, {}) 
+end
+
+--新韩台新增使用社团经验卡
+function LeagueDataMgr:sendUseLeagueExpCard(itemId , num)
+    TFDirector:send(c2s.ITEM_REQ_USE_ITEM_MOVE_UNION_EXP, {itemId , num}) 
 end
 
 --我的社团数据返回
@@ -2342,6 +2349,11 @@ function LeagueDataMgr:onRecvLeagueAttackRank(event)
     EventMgr:dispatchEvent(EV_LEAGUE_WORLDBOSS_LEAGUERANK_UPDATE, data)
 end
 
+--新增新韩台社团卡升级返回
+function LeagueDataMgr:onRecvLeagueUseUpgradeCard(event)
+    EventMgr:dispatchEvent(EV_ITEM_RESP_USE_ITEM_MOVE_UNION_EXP)
+end
+
 function LeagueDataMgr:setLeagueMoreale(num)
     self.worldBossInfo.morale = num
 end
@@ -2698,6 +2710,29 @@ function LeagueDataMgr:isWorldBossOpen()
     local openTime = Utils:getKVP(51101,"timeOpen")
     local serverTime = ServerDataMgr:getServerTime() * 1000
     return serverTime > openTime
+end
+
+function LeagueDataMgr:calcLevelUp(exp)
+    local curexp = self:getUnionExp()
+    local totalExp = curexp + exp;
+    local level = self:getUnionLevel()
+    while(1)do
+
+        if level >= self:getUnionMaxLevel() then
+            level = self:getUnionMaxLevel()
+            break
+        end
+
+        local needexp = TabDataMgr:getData("ClubBaes",level).updateExp;
+        if needexp <= totalExp then
+            totalExp = totalExp - needexp;
+            level = level + 1;
+        else
+            break;
+        end
+    end
+
+    return level;
 end
 
 return LeagueDataMgr:new()

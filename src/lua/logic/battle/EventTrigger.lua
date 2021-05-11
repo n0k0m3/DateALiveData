@@ -628,6 +628,19 @@ function EventTrigger:makeAliveTrigger(cfg)
 
 		end
 		if isMatch == true then
+			if BattleDataMgr:needCheckBrushWava() then
+				local brushWave = self.controller.getCurBrushWave()
+				for k,v in ipairs(tmTrigger.cfg.Events) do
+					if string.match(v.Class,"Summon") then
+						if v.Count and v.Count ~= 1 and v.Count > (brushWave + 1) then
+							tmTrigger.cfg.Active = true
+							return
+						end
+					end
+				end
+			end
+
+			
 			if tmTrigger.eventFunc and tmTrigger.timer == nil then
 				if tmTrigger.cfg.Duration and tmTrigger.cfg.Duration > 0 then
 					tmTrigger.timer = BattleTimerManager:addTimer(tmTrigger.cfg.Duration,1,function()
@@ -864,10 +877,6 @@ end
 
 --怪物刷新(普通刷新/补充刷怪)--刷可破坏障碍物NPC
 function EventTrigger:refreshMonster(event, refreshCfg, trigger)
-	-- if trigger and refreshCfg.Count and refreshCfg.Count > self.controller.getWave() then
-	-- 	trigger.cfg.Active = true
-	-- 	return
-	-- end
 	local params = {}
 	if refreshCfg.SummonType ~= "RandomPos" then
 		local pointsIDs = self.groupList[refreshCfg.TargetID or refreshCfg.GroupID]
@@ -882,7 +891,14 @@ function EventTrigger:refreshMonster(event, refreshCfg, trigger)
 	if event == "TriggerEventDestroiableSummon" then
 		self.controller.onCreateObstacle(refreshCfg,params)
 	else
-		EventMgr:dispatchEvent(EV_BATTLE_BRUSH_MONSTER, refreshCfg, params)
+		local triggerFlag = false
+		if BattleDataMgr:needCheckBrushWava() then
+			local brushWave = self.controller.getCurBrushWave()
+			if trigger and trigger.cfg.type == "AliveCounterTrigger" and refreshCfg.Count then
+				triggerFlag = true
+			end
+		end
+		EventMgr:dispatchEvent(EV_BATTLE_BRUSH_MONSTER, refreshCfg, params, triggerFlag)
 	end
     
 end
@@ -985,19 +1001,20 @@ function EventTrigger:onPlayScriptAnim(cfg)
 	self.controller.setTiming(false)
 	self.ScriptAnimRunning = true
 
-	local danmuId = Utils:getDanmuId(EC_DanmuType.SCRIPT,cfg.ScriptAnimID)
-	if danmuId then
-		local param = {
-	        id = danmuId,
-	        offset = 60,
-	        danmuHeight = 580,
-	        autoRun = true,
-	        rowNum = 8
-	    }
-	    self.danmuMark = Utils:createDanmuMark(param)
-	    self.danmuMark:setZOrder(9000)
-	    Public:currentScene():addChild(self.danmuMark)
-	end
+	--TODO CLOSE
+	-- local danmuId = Utils:getDanmuId(EC_DanmuType.SCRIPT,cfg.ScriptAnimID)
+	-- if danmuId then
+	-- 	local param = {
+	--         id = danmuId,
+	--         offset = 60,
+	--         danmuHeight = 580,
+	--         autoRun = true,
+	--         rowNum = 8
+	--     }
+	--     self.danmuMark = Utils:createDanmuMark(param)
+	--     self.danmuMark:setZOrder(9000)
+	--     Public:currentScene():addChild(self.danmuMark)
+	-- end
 	StoryScriptParse:parse({scriptName = cfg.ScriptAnimID,triggerId = cfg.ActivateID,callback = handler(self.onScriptAnimComplete,self),battleCtrl = self.controller})
 end
 
@@ -1015,11 +1032,12 @@ function EventTrigger:onScriptAnimComplete(params)
 		end
 	end
 	
-	if self.danmuMark then
-		self.danmuMark:removeEvents()
-		self.danmuMark:removeFromParent()
-		self.danmuMark = nil
-	end
+	--TODO CLOSE
+	-- if self.danmuMark then
+	-- 	self.danmuMark:removeEvents()
+	-- 	self.danmuMark:removeFromParent()
+	-- 	self.danmuMark = nil
+	-- end
 end
 
 function EventTrigger:onStageDot(cfg)

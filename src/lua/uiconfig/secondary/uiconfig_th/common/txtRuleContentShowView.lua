@@ -174,7 +174,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "规则预览",
+									text = "Event Intro",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -182,7 +182,7 @@ local t =
 										PositionX = -342,
 										PositionY = 176,
 									},
-									width = "121",
+									width = "180",
 									ZOrder = "1",
 								},
 								{
@@ -256,7 +256,7 @@ local t =
 										PositionY = 172,
 									},
 									visible = "False",
-									width = "75",
+									width = "73",
 									ZOrder = "1",
 								},
 								{

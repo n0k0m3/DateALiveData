@@ -1556,7 +1556,7 @@ function FunctionDataMgr:jSpecialFuben(activityType)
 
     if servertime < activityKsanInfo.startTime then
         local startDate = Utils:getLocalDate(activityKsanInfo.startTime)
-        local startDateStr = startDate:fmt("%m月%d日 %H时%M分")
+        local startDateStr = startDate:fmt(TextDataMgr:getText(190000844) .." " ..TextDataMgr:getText(190000845))
         local tipStr = startDateStr .. TextDataMgr:getText(2107019)
         Utils:showTips(tipStr)
         return

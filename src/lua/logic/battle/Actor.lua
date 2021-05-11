@@ -1085,6 +1085,13 @@ function Actor:playStand()
     end
 end
 
+--静止
+function Actor:stopAni()
+    self.animation = nil
+    self.skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+    self.skeletonNode:stop()
+end
+
 --倒地
 function Actor:playFloor(callFunc,delayTime)
     delayTime = delayTime or 0.5
@@ -1233,8 +1240,13 @@ function Actor:playEffect(effectName,effectScale,actionName,callFunc)
     else
         skeletonNode:playByIndex(0, 0)
     end
+    self.childSkeletionNode = self.childSkeletionNode or {}
     skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(_skeletonNode)
         _skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+        if _skeletonNode.resPath then
+            ResLoader.addCacheSpine(_skeletonNode,_skeletonNode.resPath)
+        end
+        table.removeItem(self.childSkeletionNode,_skeletonNode)
         _skeletonNode:removeFromParent()
         if callFunc then
             callFunc(_skeletonNode)
@@ -1294,6 +1306,13 @@ end
 
 function Actor:removeFromParent_(cleanUp)
     self:clearActionParticle()
+    if self.childSkeletionNode and #self.childSkeletionNode > 0 then
+        for k,v in ipairs(self.childSkeletionNode) do
+            if v.resPath then
+                ResLoader.addCacheSpine(v,v.resPath)
+            end
+        end
+    end
     self:removeFromParent()
     if cleanUp then
         if self.groundNode then
@@ -1442,6 +1461,9 @@ end
 function Actor:onSkeletonNodeComplete(skeletonNode)
     if self.bufferEffects then 
         table.removeItem(self.bufferEffects,skeletonNode)
+    end
+    if skeletonNode.resPath then
+        ResLoader.addCacheSpine(skeletonNode,skeletonNode.resPath)
     end
     skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
     skeletonNode:removeFromParent()

@@ -7558,13 +7558,13 @@ local t =
 													controlID = "Image_settingsView_1_Panel_mainPage_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
 													UUID = "74444a8d_57de_4955_b586_bf242ee04840",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEImage",
 													dstBlendFunc = "771",
 													height = "32",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Image_settingsView_1",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -7574,10 +7574,10 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -93,
+														PositionX = -183,
 														PositionY = -426,
 													},
-													width = "157",
+													width = "280",
 													ZOrder = "1",
 													components = 
 													{
@@ -7622,8 +7622,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -64,
-																PositionY = -3,
+																PositionX = 7,
 															},
 															width = "64",
 															ZOrder = "1",
@@ -7651,7 +7650,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 242,
+														PositionX = 353,
 														PositionY = -424,
 													},
 													width = "806",
@@ -7685,11 +7684,11 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_text",
-															nTextAlign = "1",
-															nTextHAlign = "1",
+															nTextAlign = "0",
+															nTextHAlign = "0",
 															scaleX = "1.5",
 															sizepercentx = "0",
 															sizepercenty = "0",
@@ -7703,7 +7702,7 @@ local t =
 																PositionX = -383,
 																PositionY = -3,
 															},
-															width = "143",
+															width = "411",
 															ZOrder = "1",
 														},
 													},
@@ -7733,8 +7732,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -415,
-														PositionY = -1042,
+														PositionX = -413,
+														PositionY = -1040,
 													},
 													uipanelviewmodel = 
 													{
@@ -7865,7 +7864,7 @@ local t =
 																					sizepercenty = "109",
 																					sizeType = "1",
 																					srcBlendFunc = "1",
-																					texturePath = "ui/setting/new/a.png",
+																					texturePath = "ui/setting/new/a_big.png",
 																					touchAble = "False",
 																					UILayoutViewModel = 
 																					{
@@ -8098,7 +8097,7 @@ local t =
 																					sizepercenty = "109",
 																					sizeType = "1",
 																					srcBlendFunc = "1",
-																					texturePath = "ui/setting/new/a.png",
+																					texturePath = "ui/setting/new/a_big.png",
 																					touchAble = "False",
 																					UILayoutViewModel = 
 																					{
@@ -10882,7 +10881,7 @@ local t =
 			"ui/setting/new/a4.png",
 			"ui/setting/new/a5.png",
 			"ui/setting/new/bg1.png",
-			"ui/setting/new/a.png",
+			"ui/setting/new/a_big.png",
 			"ui/setting/new/lock.png",
 			"ui/setting/new/lock2.png",
 			"ui/setting/new/b.png",

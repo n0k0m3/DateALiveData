@@ -929,10 +929,12 @@ c2s.HERO_REQ_ANGEL_WAKE = 1032
 c2s.ACTIVITY_REQ_KURUMI_CITY_RESOURCE = 5165
 
 --[[
-	[1] = {--ReqEndlessRankList
+	[1] = {--ReqUseItemMoveUnionExp
+		[1] = 'int32':itemId
+		[2] = 'int32':num
 	}
 --]]
-c2s.ENDLESS_CLOISTER_REQ_ENDLESS_RANK_LIST = 5380
+c2s.ITEM_REQ_USE_ITEM_MOVE_UNION_EXP = 2157
 
 --[[
 	[1] = {--ReqVoteActivityInfo
@@ -2285,6 +2287,13 @@ c2s.ACTIVITY_REQ_KURUMI_HISTORY_INFO = 5163
 c2s.ZILLIONAIRE_REQ_REFRESH_TASK = 5223
 
 --[[
+	[1] = {--ReqThrowDice
+		[1] = 'int32':specifyDiceNum	[装备指定点数道具时,上传指定点数]
+	}
+--]]
+c2s.ZILLIONAIRE_REQ_THROW_DICE = 5320
+
+--[[
 	[1] = {--UseItem
 		[1] = {--repeated ItemInfo
 			[1] = 'string':itemId
@@ -2311,17 +2320,16 @@ c2s.ODEUM_REQ_RANK = 6503
 c2s.DUNGEON_REQ_CANCEL_CHALLENGE = 1819
 
 --[[
-	[1] = {--ReqThrowDice
-		[1] = 'int32':specifyDiceNum	[装备指定点数道具时,上传指定点数]
-	}
---]]
-c2s.ZILLIONAIRE_REQ_THROW_DICE = 5320
-
---[[
 	[1] = {--ReqYouciMsg
 	}
 --]]
 c2s.YOUCI_REQ_YOUCI = 9351
+
+--[[
+	[1] = {--ReqManRefreshYouci
+	}
+--]]
+c2s.YOUCI_REQ_MAN_REFRESH_YOUCI = 9353
 
 --[[
 	[1] = {--ExploreTaskDeal
@@ -2352,16 +2360,16 @@ c2s.ACTIVITY_REQ_FRIEND_HELP_ACTIVITY_PRE = 5300
 c2s.NEW_BUILDING_REQ_GET_FOOD_BASE_AWARD = 2069
 
 --[[
-	[1] = {--ReqManRefreshYouci
-	}
---]]
-c2s.YOUCI_REQ_MAN_REFRESH_YOUCI = 9353
-
---[[
 	[1] = {--ReqYouciRank
 	}
 --]]
 c2s.YOUCI_REQ_YOUCI_RANK = 9354
+
+--[[
+	[1] = {--ReqYearLottoReward
+	}
+--]]
+c2s.YEAR_LOTTO_REQ_YEAR_LOTTO_REWARD = 8704
 
 --[[
 	[1] = {--ReqGetUnionRank
@@ -2395,10 +2403,11 @@ c2s.QLIPHOTH_WORLD_MOVE = 6205
 c2s.DETECTIVE_REQ_DETECTIVE_ENTER = 8906
 
 --[[
-	[1] = {--ReqYearLottoReward
+	[1] = {--ReqYearLottoAddress
+		[1] = 'string':address
 	}
 --]]
-c2s.YEAR_LOTTO_REQ_YEAR_LOTTO_REWARD = 8704
+c2s.YEAR_LOTTO_REQ_YEAR_LOTTO_ADDRESS = 8705
 
 --[[
 	[1] = {--GroupMultipleRewardMsg
@@ -2433,20 +2442,21 @@ c2s.EXTRA_DATING_REQ_START_ENTRANCE_EVENT = 5634
 c2s.PLAYER_REQ_BUY_RESOURCES_LOG = 276
 
 --[[
-	[1] = {--ReqYearLottoAddress
-		[1] = 'string':address
+	[1] = {--LockMsg
+		[1] = 'string':equipmentId	[灵装id]
 	}
 --]]
-c2s.YEAR_LOTTO_REQ_YEAR_LOTTO_ADDRESS = 8705
+c2s.EQUIPMENT_LOCK = 2823
 
 --[[
-	[1] = {--ReqFeedMaid
-		[1] = 'int32':maidId	[喂食的女仆唯一id]
-		[2] = 'int32':itemId	[道具id]
-		[3] = 'int32':num	[道具数量]
+	[1] = {--Req2020FestivalGameFinish
+		[1] = 'int32':city	[城市]
+		[2] = 'int32':area	[点位]
+		[3] = 'int32':group	[组合id]
+		[4] = 'repeated int32':param	[游戏选项]
 	}
 --]]
-c2s.MAID_ACTIVITY_REQ_FEED_MAID = 9152
+c2s.SPRING_FESTIVAL_REQ2020_FESTIVAL_GAME_FINISH = 6714
 
 --[[
 	[1] = {--ReqUseFireworks
@@ -2456,12 +2466,10 @@ c2s.MAID_ACTIVITY_REQ_FEED_MAID = 9152
 c2s.SPRING_FESTIVAL_REQ_USE_FIREWORKS = 6705
 
 --[[
-	[1] = {--ReqRefreshSpringFestivalTask
-		[1] = 'int32':mode	[ 1 普通刷新 2 钻石刷新]
-		[2] = 'int32':roleId	[ 刷新哪个看板娘的]
+	[1] = {--ReqJoinYearLotto
 	}
 --]]
-c2s.SPRING_FESTIVAL_REQ_REFRESH_SPRING_FESTIVAL_TASK = 6707
+c2s.YEAR_LOTTO_REQ_JOIN_YEAR_LOTTO = 8703
 
 --[[
 	[1] = {--ReqAllActivityItem
@@ -2469,12 +2477,6 @@ c2s.SPRING_FESTIVAL_REQ_REFRESH_SPRING_FESTIVAL_TASK = 6707
 	}
 --]]
 c2s.ACTIVITY_REQ_ALL_ACTIVITY_ITEM = 5156
-
---[[
-	[1] = {--ReqJoinYearLotto
-	}
---]]
-c2s.YEAR_LOTTO_REQ_JOIN_YEAR_LOTTO = 8703
 
 --[[
 	[1] = {--ReqTakeReward
@@ -2492,11 +2494,11 @@ c2s.WORLD_HELP_REQ_TAKE_REWARD = 8801
 c2s.WORLD_HELP_REQ_RANK_INFO = 8802
 
 --[[
-	[1] = {--ReqSetRotationList
-		[1] = 'repeated int32':rotationList	[轮换列表]
+	[1] = {--SwitchRole
+		[1] = 'string':roleId	[ 精灵id]
 	}
 --]]
-c2s.ROLE_REQ_SET_ROTATION_LIST = 1290
+c2s.ROLE_SWITCH_ROLE = 1285
 
 --[[
 	[1] = {--ValentinePresentMsg
@@ -2530,6 +2532,12 @@ c2s.UNION_LEVEL_UP = 6657
 	}
 --]]
 c2s.UNION_CREATE_UNION = 6650
+
+--[[
+	[1] = {--ReqGetUnionReCallRank
+	}
+--]]
+c2s.UNION_REQ_GET_UNION_RE_CALL_RANK = 6675
 
 --[[
 	[1] = {--UnionDonate
@@ -2584,18 +2592,20 @@ c2s.ACTIVITY2_REQ_REPAIR_SUBMIT = 9404
 c2s.ODEUM_REQ_FINISH_PROCESS = 6514
 
 --[[
-	[1] = {--ReqGetUnionReCallRank
-	}
---]]
-c2s.UNION_REQ_GET_UNION_RE_CALL_RANK = 6675
-
---[[
 	[1] = {--OperUnionMember
 		[1] = 'int32':operType	[ 1申请加入 2退出 3同意申请 4拒绝申请 5团长踢人 6转让团长 7快速加入 8弹劾团长]
 		[2] = 'repeated int32':targets
 	}
 --]]
 c2s.UNION_OPER_UNION_MEMBER = 6652
+
+--[[
+	[1] = {--UpdateUnionInfo
+		[1] = 'int32':type	[ 1修改社团徽记 2修改社团公告 3变更是否开启社团申请 4变更是否开启自动加入 15改名  28国家ID 29是否显示国家]
+		[2] = 'string':param
+	}
+--]]
+c2s.UNION_UPDATE_UNION_INFO = 6654
 
 --[[
 	[1] = {--ReqNeptune2ndHalfBuyCount
@@ -2614,12 +2624,12 @@ c2s.NEPTUNE2ND_HALF_REQ_NEPTUNE2ND_HALF_BUY_COUNT = 7706
 c2s.OFFICE_EXPLORE_OFFICE_TRANSFORM = 7211
 
 --[[
-	[1] = {--UpdateUnionInfo
-		[1] = 'int32':type	[ 1修改社团徽记 2修改社团公告 3变更是否开启社团申请 4变更是否开启自动加入 15改名  28国家ID 29是否显示国家]
-		[2] = 'string':param
+	[1] = {--ExploreEquipPutDown
+		[1] = 'int32':cabinId	[舱室id]
+		[2] = 'int32':index
 	}
 --]]
-c2s.UNION_UPDATE_UNION_INFO = 6654
+c2s.EXPLORE_EXPLORE_EQUIP_PUT_DOWN = 7809
 
 --[[
 	[1] = {--ReqCatUpLevel
@@ -2633,12 +2643,12 @@ c2s.UNION_UPDATE_UNION_INFO = 6654
 c2s.ACTIVITY_REQ_CAT_UP_LEVEL = 5216
 
 --[[
-	[1] = {--ExploreEquipPutDown
-		[1] = 'int32':cabinId	[舱室id]
-		[2] = 'int32':index
+	[1] = {--UpdateDegree
+		[1] = 'int32':degree
+		[2] = 'int32':target
 	}
 --]]
-c2s.EXPLORE_EXPLORE_EQUIP_PUT_DOWN = 7809
+c2s.UNION_UPDATE_DEGREE = 6653
 
 --[[
 	[1] = {--Req2020FestivalGameInit
@@ -2649,12 +2659,10 @@ c2s.EXPLORE_EXPLORE_EQUIP_PUT_DOWN = 7809
 c2s.SPRING_FESTIVAL_REQ2020_FESTIVAL_GAME_INIT = 6713
 
 --[[
-	[1] = {--UpdateDegree
-		[1] = 'int32':degree
-		[2] = 'int32':target
+	[1] = {--ReqSupplyRecord
 	}
 --]]
-c2s.UNION_UPDATE_DEGREE = 6653
+c2s.UNION_REQ_SUPPLY_RECORD = 6663
 
 --[[
 	[1] = {--ReqTakeOffLadderEquipMsg
@@ -2673,10 +2681,12 @@ c2s.LADDER_REQ_TAKE_OFF_LADDER_EQUIP = 8306
 c2s.SUMMER_COURAGE_REQ_DISCHARGE = 6906
 
 --[[
-	[1] = {--ReqSupplyRecord
+	[1] = {--SearchUnion
+		[1] = 'int32':id	[ 社团id]
+		[2] = 'string':name	[ 社团名]
 	}
 --]]
-c2s.UNION_REQ_SUPPLY_RECORD = 6663
+c2s.UNION_SEARCH_UNION = 6664
 
 --[[
 	[1] = {--ReqRefreshAnnivDress
@@ -2705,14 +2715,6 @@ c2s.SUMMON_REQ_FREE_SUMMON = 3353
 c2s.ANNIVERSARY2ND_REQ_ANNIV_FLOP = 9201
 
 --[[
-	[1] = {--SearchUnion
-		[1] = 'int32':id	[ 社团id]
-		[2] = 'string':name	[ 社团名]
-	}
---]]
-c2s.UNION_SEARCH_UNION = 6664
-
---[[
 	[1] = {--ReqTrainMaxtriInfo
 	}
 --]]
@@ -2733,12 +2735,6 @@ c2s.UNION_RECEIVE_SUPPLY = 6658
 c2s.UNION_REQ_SELF_TRAIN_MAXTRI_PRIZE = 6673
 
 --[[
-	[1] = {--ReqFavorDatingRoleStatue
-	}
---]]
-c2s.EXTRA_DATING_REQ_FAVOR_DATING_ROLE_STATUE = 5653
-
---[[
 	[1] = {--ReqNotify
 		[1] = 'int64':version	[ 动态版本号]
 	}
@@ -2746,10 +2742,22 @@ c2s.EXTRA_DATING_REQ_FAVOR_DATING_ROLE_STATUE = 5653
 c2s.UNION_REQ_NOTIFY = 6668
 
 --[[
+	[1] = {--ReqFavorDatingRoleStatue
+	}
+--]]
+c2s.EXTRA_DATING_REQ_FAVOR_DATING_ROLE_STATUE = 5653
+
+--[[
 	[1] = {--ReqUnion
 	}
 --]]
 c2s.UNION_REQ_UNION = 6662
+
+--[[
+	[1] = {--ReqImpeachList
+	}
+--]]
+c2s.UNION_REQ_IMPEACH_LIST = 6671
 
 --[[
 	[1] = {--ReqDealEventMsg
@@ -2762,10 +2770,10 @@ c2s.UNION_REQ_UNION = 6662
 c2s.HANGUP_ACT_REQ_DEAL_EVENT = 9004
 
 --[[
-	[1] = {--ReqImpeachList
+	[1] = {--ReqWeekUpdate
 	}
 --]]
-c2s.UNION_REQ_IMPEACH_LIST = 6671
+c2s.UNION_REQ_WEEK_UPDATE = 6670
 
 --[[
 	[1] = {--ReqChangeElementType
@@ -2778,10 +2786,16 @@ c2s.UNION_REQ_IMPEACH_LIST = 6671
 c2s.ELEMENT_COLLECT_REQ_CHANGE_ELEMENT_TYPE = 4870
 
 --[[
-	[1] = {--ReqWeekUpdate
+	[1] = {--ReqSelectBalloonId
+		[1] = 'int32':friendId	[好友id]
+		[2] = {--repeated Pair
+			[1] = 'int32':key
+			[2] = 'int32':value
+		},
+		[3] = 'bool':confirm	[锁定状态 true已锁定 false 未锁定]
 	}
 --]]
-c2s.UNION_REQ_WEEK_UPDATE = 6670
+c2s.ACTIVITY_REQ_SELECT_BALLOON_ID = 5197
 
 --[[
 	[1] = {--ReqUploadQteIntegral
@@ -2799,11 +2813,10 @@ c2s.NEW_BUILDING_REQ_UPLOAD_QTE_INTEGRAL = 2068
 c2s.PLAYER_REQ_CHEAT = 286
 
 --[[
-	[1] = {--ReqAnnivPassReward
-		[1] = 'int32':id	[选择的配置表id]
+	[1] = {--AreaOutlineMsg
 	}
 --]]
-c2s.ANNIVERSARY2ND_REQ_ANNIV_PASS_REWARD = 9204
+c2s.OFFICE_EXPLORE_AREA_OUTLINE = 7102
 
 --[[
 	[1] = {--ReqUseBuff
@@ -2813,20 +2826,10 @@ c2s.ANNIVERSARY2ND_REQ_ANNIV_PASS_REWARD = 9204
 c2s.CHASM_REQ_USE_BUFF = 6153
 
 --[[
-	[1] = {--ReqEndFight
-		[1] = 'int32':randomSeed	[ 最终随机种子]
-		[2] = 'bool':isWin	[ 是否胜利]
-		[3] = {--repeated MemberData
-			[1] = 'int32':pid	[ 玩家ID]
-			[2] = 'int32':hurt	[ 累计伤害]
-		},
-		[4] = 'int32':fightTime	[ 战斗时间]
-		[5] = 'int32':maxCombo	[ 战斗连击数]
-		[6] = 'int32':killMonsterNum	[ 击杀怪物数]
-		[7] = 'int32':killBossNum	[ 击杀boss数]
+	[1] = {--ReqTickGetUnionScore
 	}
 --]]
-c2s.FIGHT_REQ_END_FIGHT = 25605
+c2s.UNION_REQ_TICK_GET_UNION_SCORE = 6677
 
 --[[
 	[1] = {--ReqDetectiveGameFinish
@@ -2858,12 +2861,6 @@ c2s.CHRISTMAS_REQ_CHRISTMAS_DUNGEONS = 6608
 c2s.ACTIVITY2_REQ_RIDDLE_DATA = 9407
 
 --[[
-	[1] = {--ReqTickGetUnionScore
-	}
---]]
-c2s.UNION_REQ_TICK_GET_UNION_SCORE = 6677
-
---[[
 	[1] = {--ReqAppreciate
 		[1] = 'int32':targetPid	[ 请求给谁点赞]
 		[2] = 'int32':dungeonId	[ 副本id]
@@ -2880,6 +2877,18 @@ c2s.TEAM_REQ_APPRECIATE = 5899
 c2s.TEAM_REQ_TREAT_MEMBER = 5891
 
 --[[
+	[1] = {--ReqChasmReport
+		[1] = 'int32':targetPid	[ 举报谁]
+		[2] = 'int32':dungeonId	[ 关卡id]
+		[3] = 'int32':hurt
+		[4] = 'int32':hurted
+		[5] = 'int32':fightTime	[ 战斗时间]
+		[6] = 'int32':type	[举报类型 600041 广告 600042 作弊  600043 骚扰]
+	}
+--]]
+c2s.TEAM_REQ_CHASM_REPORT = 5900
+
+--[[
 	[1] = {--ReqRefreshStronghold
 	}
 --]]
@@ -2894,23 +2903,19 @@ c2s.HANGUP_ACT_REQ_REFRESH_STRONGHOLD = 9012
 c2s.LIMITLESS_SUMMON_REQ_LIMITLESS_SUMMON = 3502
 
 --[[
-	[1] = {--ReqChasmReport
-		[1] = 'int32':targetPid	[ 举报谁]
-		[2] = 'int32':dungeonId	[ 关卡id]
-		[3] = 'int32':hurt
-		[4] = 'int32':hurted
-		[5] = 'int32':fightTime	[ 战斗时间]
-		[6] = 'int32':type	[举报类型 600041 广告 600042 作弊  600043 骚扰]
-	}
---]]
-c2s.TEAM_REQ_CHASM_REPORT = 5900
-
---[[
 	[1] = {--ReqSetTeamShowType
 		[1] = 'int32':showType	[0,显示所有;1,显示给好友;2,不显示]
 	}
 --]]
 c2s.TEAM_REQ_SET_TEAM_SHOW_TYPE = 5902
+
+--[[
+	[1] = {--ReqChangeHero
+		[1] = 'int32':heroCid
+		[2] = 'int32':limitedHero	[ 限定配置英雄,英雄数据优先级高于heroCid]
+	}
+--]]
+c2s.TEAM_REQ_CHANGE_HERO = 5896
 
 --[[
 	[1] = {--ReqLadderRankList
@@ -2950,12 +2955,12 @@ c2s.JU_NAI_INVASION_REQ_GET_UNION_PLAYER_RANK = 9106
 c2s.EQUIPMENT_REQ_RECOMPOSE_GEM = 2839
 
 --[[
-	[1] = {--ReqChangeHero
-		[1] = 'int32':heroCid
-		[2] = 'int32':limitedHero	[ 限定配置英雄,英雄数据优先级高于heroCid]
+	[1] = {--ReqAllTeamInfo
+		[1] = 'int32':teamType	[ 类型]
+		[2] = 'int32':index
 	}
 --]]
-c2s.TEAM_REQ_CHANGE_HERO = 5896
+c2s.TEAM_REQ_ALL_TEAM_INFO = 5901
 
 --[[
 	[1] = {--ReqPassStageEndless
@@ -2973,14 +2978,6 @@ c2s.TEAM_REQ_CHANGE_HERO = 5896
 c2s.ENDLESS_CLOISTER_REQ_PASS_STAGE_ENDLESS = 5379
 
 --[[
-	[1] = {--ReqAllTeamInfo
-		[1] = 'int32':teamType	[ 类型]
-		[2] = 'int32':index
-	}
---]]
-c2s.TEAM_REQ_ALL_TEAM_INFO = 5901
-
---[[
 	[1] = {--ReqMatchTeam
 		[1] = {--TeamFeature
 			[1] = 'int32':teamType	[ 队伍类型]
@@ -2991,17 +2988,17 @@ c2s.TEAM_REQ_ALL_TEAM_INFO = 5901
 c2s.TEAM_REQ_MATCH_TEAM = 5892
 
 --[[
-	[1] = {--ReqInitChatInfo
-	}
---]]
-c2s.CHAT_REQ_INIT_CHAT_INFO = 2311
-
---[[
 	[1] = {--ReqChangeMemberStatus
 		[1] = 'int32':status	[ 1:空闲 2:准备中]
 	}
 --]]
 c2s.TEAM_REQ_CHANGE_MEMBER_STATUS = 5897
+
+--[[
+	[1] = {--ReqInitChatInfo
+	}
+--]]
+c2s.CHAT_REQ_INIT_CHAT_INFO = 2311
 
 --[[
 	[1] = {--ReqChangeTeamStatus
@@ -3019,6 +3016,14 @@ c2s.TEAM_REQ_CHANGE_TEAM_STATUS = 5890
 c2s.TEAM_REQ_MATCH_RANK = 5903
 
 --[[
+	[1] = {--ReqJoinTeam
+		[1] = 'string':teamId	[ 队伍ID]
+		[2] = 'int32':join_from	[ 加入来源 0,非好友,1,好友,2,社团]
+	}
+--]]
+c2s.TEAM_REQ_JOIN_TEAM = 5894
+
+--[[
 	[1] = {--ReqGetGashaponInfo
 	}
 --]]
@@ -3032,12 +3037,10 @@ c2s.NEW_BUILDING_REQ_GET_GASHAPON_INFO = 2062
 c2s.CHRISTMAS_REQ2019_CHRISTMAS_TALENT = 6615
 
 --[[
-	[1] = {--ReqJoinTeam
-		[1] = 'string':teamId	[ 队伍ID]
-		[2] = 'int32':join_from	[ 加入来源 0,非好友,1,好友,2,社团]
+	[1] = {--ReqBackHomePage
 	}
 --]]
-c2s.TEAM_REQ_JOIN_TEAM = 5894
+c2s.TEAM_REQ_BACK_HOME_PAGE = 5904
 
 --[[
 	[1] = {--ReqResetSkill
@@ -3056,12 +3059,6 @@ c2s.HERO_REQ_RESET_SKILL = 1044
 	}
 --]]
 c2s.ACTIVITY_REQ_CHANGE_SWITCH = 5201
-
---[[
-	[1] = {--ReqBackHomePage
-	}
---]]
-c2s.TEAM_REQ_BACK_HOME_PAGE = 5904
 
 --[[
 	[1] = {--ReqTouchTask
@@ -3084,17 +3081,17 @@ c2s.TASK_REQ_TASKS = 4097
 c2s.TASK_SUBMIT_TASK_LIST = 4096
 
 --[[
-	[1] = {--ReqAnnivStart
-	}
---]]
-c2s.ANNIVERSARY2ND_REQ_ANNIV_START = 9205
-
---[[
 	[1] = {--SubmitTask
 		[1] = 'int32':taskCid
 	}
 --]]
 c2s.TASK_SUBMIT_TASK = 4098
+
+--[[
+	[1] = {--ReqAnnivStart
+	}
+--]]
+c2s.ANNIVERSARY2ND_REQ_ANNIV_START = 9205
 
 --[[
 	[1] = {--ReqGetSystemTitleInfo
@@ -3124,19 +3121,16 @@ c2s.SUMMON_REQ_VALUE_AWARD = 3337
 c2s.SUMMON_REQ_SUMMON_COMPOSE_SPEED = 3345
 
 --[[
-	[1] = {--SetPlayerInfo
-		[1] = 'string':playerName	[ 玩家名字]
-		[2] = 'string':remark	[ 玩家宣言]
+	[1] = {--ReqAnnivMoveNext
 	}
 --]]
-c2s.PLAYER_SET_PLAYER_INFO = 260
+c2s.ANNIVERSARY2ND_REQ_ANNIV_MOVE_NEXT = 9203
 
 --[[
-	[1] = {--TestMsg
-		[1] = 'string':content
+	[1] = {--GetMainLineProgress
 	}
 --]]
-c2s.PLAYER_TEST = 266
+c2s.DUNGEON_GET_MAIN_LINE_PROGRESS = 1798
 
 --[[
 	[1] = {--ReqSimulateSummonReplace
@@ -3147,13 +3141,6 @@ c2s.PLAYER_TEST = 266
 c2s.SUMMON_REQ_SIMULATE_SUMMON_REPLACE = 3351
 
 --[[
-	[1] = {--ChangeHelpFightHero
-		[1] = 'string':heroId
-	}
---]]
-c2s.PLAYER_CHANGE_HELP_FIGHT_HERO = 269
-
---[[
 	[1] = {--ReqActivityExchange
 		[1] = 'repeated string':choiceId	[ 选择的物品ID]
 		[2] = 'int32':targetModelId	[ 要兑换的物品ModelId]
@@ -3162,13 +3149,19 @@ c2s.PLAYER_CHANGE_HELP_FIGHT_HERO = 269
 c2s.SUMMON_REQ_ACTIVITY_EXCHANGE = 3355
 
 --[[
-	[1] = {--ReqEvtFinish
-		[1] = 'int32':chapterId	[周目id]
-		[2] = 'int32':areaId	[区域i]
-		[3] = 'int32':evtId	[事件id]
+	[1] = {--ChangeHelpFightHero
+		[1] = 'string':heroId
 	}
 --]]
-c2s.SUMMER_COURAGE_REQ_EVT_FINISH = 6902
+c2s.PLAYER_CHANGE_HELP_FIGHT_HERO = 269
+
+--[[
+	[1] = {--ReqSummerCourageExplore
+		[1] = 'int32':chapterId	[周目id]
+		[2] = 'int32':areaId	[区域id]
+	}
+--]]
+c2s.SUMMER_COURAGE_REQ_SUMMER_COURAGE_EXPLORE = 6901
 
 --[[
 	[1] = {--ReqNoobAward
@@ -3184,17 +3177,16 @@ c2s.SUMMON_REQ_NOOB_AWARD = 3340
 c2s.SUMMON_REQ_NWSUMMON_REWARD = 3342
 
 --[[
-	[1] = {--ReqReceiveLevelAward
-		[1] = 'int32':id	[ 成长基金id]
+	[1] = {--GetMonthCardInfo
 	}
 --]]
-c2s.RECHARGE_REQ_RECEIVE_LEVEL_AWARD = 4371
+c2s.RECHARGE_GET_MONTH_CARD_INFO = 4356
 
 --[[
-	[1] = {--GetFormations
+	[1] = {--ReqGetReward
 	}
 --]]
-c2s.PLAYER_GET_FORMATIONS = 265
+c2s.SPRING_WISH_REQ_GET_REWARD = 7505
 
 --[[
 	[1] = {--ReqFetchGift
@@ -3217,6 +3209,15 @@ c2s.SUMMON_REQ_HOT_SUMMON_INFO = 3343
 	}
 --]]
 c2s.SUMMER_COURAGE_REQ_CHOOSE_AREA = 6903
+
+--[[
+	[1] = {--ReqEvtFinish
+		[1] = 'int32':chapterId	[周目id]
+		[2] = 'int32':areaId	[区域i]
+		[3] = 'int32':evtId	[事件id]
+	}
+--]]
+c2s.SUMMER_COURAGE_REQ_EVT_FINISH = 6902
 
 --[[
 	[1] = {--ReqSimulateSummonExchange
@@ -3242,12 +3243,12 @@ c2s.EXPLORE_EXPLORE_TECH_UPGRADE = 7816
 c2s.HERO_CHALLENGE_CHALLENGE_INFO = 6301
 
 --[[
-	[1] = {--ReqSummerCourageExplore
-		[1] = 'int32':chapterId	[周目id]
-		[2] = 'int32':areaId	[区域id]
+	[1] = {--ReqGameFinish
+		[1] = 'int32':type	[游戏类型]
+		[2] = 'repeated int32':order	[玩家的顺序]
 	}
 --]]
-c2s.SUMMER_COURAGE_REQ_SUMMER_COURAGE_EXPLORE = 6901
+c2s.SUMMER_COURAGE_REQ_GAME_FINISH = 6908
 
 --[[
 	[1] = {--ReqChangeAppearance
@@ -3257,14 +3258,6 @@ c2s.SUMMER_COURAGE_REQ_SUMMER_COURAGE_EXPLORE = 6901
 	}
 --]]
 c2s.NEW_WORLD_REQ_CHANGE_APPEARANCE = 6803
-
---[[
-	[1] = {--ReqGameFinish
-		[1] = 'int32':type	[游戏类型]
-		[2] = 'repeated int32':order	[玩家的顺序]
-	}
---]]
-c2s.SUMMER_COURAGE_REQ_GAME_FINISH = 6908
 
 --[[
 	[1] = {--ReqEquip
@@ -3288,14 +3281,6 @@ c2s.SUMMER_COURAGE_REQ_CHAPTER_MAP = 6904
 c2s.SUMMER_COURAGE_REQ_RECORD_NEWBIE_STEP = 6913
 
 --[[
-	[1] = {--ReqQuickActiveCrystal
-		[1] = 'string':heroId
-		[2] = 'bool':isReplace
-	}
---]]
-c2s.HERO_REQ_QUICK_ACTIVE_CRYSTAL = 1050
-
---[[
 	[1] = {--BuyGoods
 		[1] = 'int32':cid	[ 商品ID]
 		[2] = 'int32':num	[ 购买数量]
@@ -3304,10 +3289,17 @@ c2s.HERO_REQ_QUICK_ACTIVE_CRYSTAL = 1050
 c2s.STORE_BUY_GOODS = 2562
 
 --[[
-	[1] = {--GetMonthCardWelfareInfo
+	[1] = {--ReqDiceContract
+		[1] = 'int32':activityId	[活动id]
 	}
 --]]
-c2s.RECHARGE_GET_MONTH_CARD_WELFARE_INFO = 4365
+c2s.ACTIVITY_REQ_DICE_CONTRACT = 5185
+
+--[[
+	[1] = {--ReqReceiveSysFunInfo
+	}
+--]]
+c2s.RECHARGE_REQ_RECEIVE_SYS_FUN_INFO = 4374
 
 --[[
 	[1] = {--ReqChangeTrialHeroSkin
@@ -3316,6 +3308,16 @@ c2s.RECHARGE_GET_MONTH_CARD_WELFARE_INFO = 4365
 	}
 --]]
 c2s.HERO_REQ_CHANGE_TRIAL_HERO_SKIN = 1045
+
+--[[
+	[1] = {--SellGoodsPreview
+		[1] = {--repeated SellGoods
+			[1] = 'string':id	[ 物品id]
+			[2] = 'int32':num	[出售数量]
+		},
+	}
+--]]
+c2s.STORE_SELL_GOODS_PREVIEW = 2567
 
 --[[
 	[1] = {--ReqDetectiveEvtFinish
@@ -3327,14 +3329,10 @@ c2s.HERO_REQ_CHANGE_TRIAL_HERO_SKIN = 1045
 c2s.DETECTIVE_REQ_DETECTIVE_EVT_FINISH = 8902
 
 --[[
-	[1] = {--SellGoodsPreview
-		[1] = {--repeated SellGoods
-			[1] = 'string':id	[ 物品id]
-			[2] = 'int32':num	[出售数量]
-		},
+	[1] = {--ReqReadAllSpringWish
 	}
 --]]
-c2s.STORE_SELL_GOODS_PREVIEW = 2567
+c2s.SPRING_WISH_REQ_READ_ALL_SPRING_WISH = 7503
 
 --[[
 	[1] = {--ReqCrossRankActivity
@@ -3351,10 +3349,11 @@ c2s.ACTIVITY_REQ_CROSS_RANK_ACTIVITY = 5153
 c2s.FRIEND_REQ_REWARD_INVITE = 3080
 
 --[[
-	[1] = {--ReqReadAllSpringWish
+	[1] = {--ReqCabinInfo
+		[1] = 'int32':id	[舱室类型]
 	}
 --]]
-c2s.SPRING_WISH_REQ_READ_ALL_SPRING_WISH = 7503
+c2s.EXPLORE_REQ_CABIN_INFO = 7802
 
 --[[
 	[1] = {--ReqSummonPreview
@@ -3370,16 +3369,18 @@ c2s.SUMMON_REQ_SUMMON_PREVIEW = 3344
 c2s.PORTRAIT_REQ_CANCEL_MARK = 7003
 
 --[[
-	[1] = {--ReqGetReward
-	}
---]]
-c2s.SPRING_WISH_REQ_GET_REWARD = 7505
-
---[[
 	[1] = {--ExploreTaskRefresh
 	}
 --]]
 c2s.EXPLORE_EXPLORE_TASK_REFRESH = 7814
+
+--[[
+	[1] = {--ReqRefreshSpringFestivalTask
+		[1] = 'int32':mode	[ 1 普通刷新 2 钻石刷新]
+		[2] = 'int32':roleId	[ 刷新哪个看板娘的]
+	}
+--]]
+c2s.SPRING_FESTIVAL_REQ_REFRESH_SPRING_FESTIVAL_TASK = 6707
 
 --[[
 	[1] = {--ReqYearLottoList
@@ -3388,14 +3389,13 @@ c2s.EXPLORE_EXPLORE_TASK_REFRESH = 7814
 c2s.YEAR_LOTTO_REQ_YEAR_LOTTO_LIST = 8702
 
 --[[
-	[1] = {--Req2020FestivalGameFinish
-		[1] = 'int32':city	[城市]
-		[2] = 'int32':area	[点位]
-		[3] = 'int32':group	[组合id]
-		[4] = 'repeated int32':param	[游戏选项]
+	[1] = {--Req2020FestivalResource
+		[1] = 'int32':dungeon	[需要领取的关卡]
+		[2] = 'int32':count	[领取次数]
+		[3] = 'int32':multiple	[领取倍数,暂时只有2倍]
 	}
 --]]
-c2s.SPRING_FESTIVAL_REQ2020_FESTIVAL_GAME_FINISH = 6714
+c2s.SPRING_FESTIVAL_REQ2020_FESTIVAL_RESOURCE = 6711
 
 --[[
 	[1] = {--ReqGetUnionPlayerAttr
@@ -3434,15 +3434,6 @@ c2s.RED_ENVELOPE_REQ_FIGHT_SPRING_ENVELOPE = 7307
 c2s.QLIPHOTH_SUBMIT_GAME = 6229
 
 --[[
-	[1] = {--Req2020FestivalResource
-		[1] = 'int32':dungeon	[需要领取的关卡]
-		[2] = 'int32':count	[领取次数]
-		[3] = 'int32':multiple	[领取倍数,暂时只有2倍]
-	}
---]]
-c2s.SPRING_FESTIVAL_REQ2020_FESTIVAL_RESOURCE = 6711
-
---[[
 	[1] = {--ReqUseFirecracker
 	}
 --]]
@@ -3456,10 +3447,18 @@ c2s.SPRING_FESTIVAL_REQ_USE_FIRECRACKER = 6702
 c2s.SNOW_FESTIVAL_REQ_ENTER_MEMORY = 9307
 
 --[[
-	[1] = {--ReqGetWeekAward
+	[1] = {--ReqReceiveLevelAward
+		[1] = 'int32':id	[ 成长基金id]
 	}
 --]]
-c2s.RECHARGE_REQ_GET_WEEK_AWARD = 4388
+c2s.RECHARGE_REQ_RECEIVE_LEVEL_AWARD = 4371
+
+--[[
+	[1] = {--SupplySign
+		[1] = 'int32':id	[ 活动ID]
+	}
+--]]
+c2s.SIGN_SUPPLY_SIGN = 5123
 
 --[[
 	[1] = {--ReqBlackWhiteRank
@@ -3495,18 +3494,17 @@ c2s.DUNGEON_REQ_TIME_LINKAGE_CG = 1816
 c2s.DUNGEON_REQ_SET_CHALLENGE_HERO = 1821
 
 --[[
-	[1] = {--SupplySign
-		[1] = 'int32':id	[ 活动ID]
-	}
---]]
-c2s.SIGN_SUPPLY_SIGN = 5123
-
---[[
 	[1] = {--SubmitSign
 		[1] = 'int32':id	[ 活动ID]
 	}
 --]]
 c2s.SIGN_SUBMIT_SIGN = 5122
+
+--[[
+	[1] = {--ReqSignInfos
+	}
+--]]
+c2s.SIGN_REQ_SIGN_INFOS = 5121
 
 --[[
 	[1] = {--ChallengeAwardMsg
@@ -3535,10 +3533,12 @@ c2s.HERO_REQ_EQUIP_PASSIVE_SKILL = 1041
 c2s.ACTIVITY_REQ_FORMULA_UP_LEVEL = 5217
 
 --[[
-	[1] = {--ReqSignInfos
+	[1] = {--ReqReconnect
+		[1] = 'string':token	[ 信息]
+		[2] = 'int32':anti	[ 防沉迷状态: 1-认证已成年 2-认证未成年 3-未认证    // 防沉迷状态: 1-认证已成年 2-认证未成年 3-未认证]
 	}
 --]]
-c2s.SIGN_REQ_SIGN_INFOS = 5121
+c2s.LOGIN_REQ_RECONNECT = 261
 
 --[[
 	[1] = {--ReqEquipMedal
@@ -3548,18 +3548,18 @@ c2s.SIGN_REQ_SIGN_INFOS = 5121
 c2s.MEDAL_REQ_EQUIP_MEDAL = 3002
 
 --[[
-	[1] = {--ReqSetMaidNessId
-		[1] = 'int32':maidId	[女仆id]
-	}
---]]
-c2s.ACTIVITY_REQ_SET_MAID_NESS_ID = 5219
-
---[[
 	[1] = {--ReqIntoPanel
 		[1] = 'int32':id	[ ID]
 	}
 --]]
 c2s.SHARE_REQ_INTO_PANEL = 6104
+
+--[[
+	[1] = {--ReqResetQuit
+		[1] = 'int32':chapterId
+	}
+--]]
+c2s.DETECTIVE_REQ_RESET_QUIT = 8915
 
 --[[
 	[1] = {--ReqKurumiCamp
@@ -3569,24 +3569,17 @@ c2s.SHARE_REQ_INTO_PANEL = 6104
 c2s.ACTIVITY_REQ_KURUMI_CAMP = 5166
 
 --[[
-	[1] = {--ReqBulletInfo
-		[1] = 'int32':barrageId
-	}
---]]
-c2s.CHAT_REQ_BULLET_INFO = 2317
-
---[[
 	[1] = {--ReqSpringSacrifice
 	}
 --]]
 c2s.SACRIFICE_REQ_SPRING_SACRIFICE = 8000
 
 --[[
-	[1] = {--ReqDiceContract
-		[1] = 'int32':activityId	[活动id]
+	[1] = {--ReqLadderHeroList
+		[1] = 'repeated int32':heroes	[精灵id]
 	}
 --]]
-c2s.ACTIVITY_REQ_DICE_CONTRACT = 5185
+c2s.LADDER_REQ_LADDER_HERO_LIST = 8304
 
 --[[
 	[1] = {--ReqDressGroup
@@ -3609,6 +3602,15 @@ c2s.ROLE_REQ_SET_DRESS_GROUP = 1293
 c2s.ROLE_UNLOCK_ROOM = 1289
 
 --[[
+	[1] = {--Donate
+		[1] = 'string':roleId	[ 精灵ID]
+		[2] = 'int32':itemCid	[ 赠送道具ID]
+		[3] = 'int32':num	[ 赠送数量]
+	}
+--]]
+c2s.ROLE_DONATE = 1282
+
+--[[
 	[1] = {--TakeOffEquipmentMsg
 		[1] = 'string':heroId	[英雄id]
 		[2] = 'string':equipmentId	[灵装id]
@@ -3618,13 +3620,10 @@ c2s.ROLE_UNLOCK_ROOM = 1289
 c2s.EQUIPMENT_TAKE_OFF_EQUIPMENT = 2818
 
 --[[
-	[1] = {--Donate
-		[1] = 'string':roleId	[ 精灵ID]
-		[2] = 'int32':itemCid	[ 赠送道具ID]
-		[3] = 'int32':num	[ 赠送数量]
+	[1] = {--GetRole
 	}
 --]]
-c2s.ROLE_DONATE = 1282
+c2s.ROLE_GET_ROLE = 1281
 
 --[[
 	[1] = {--FightOverMsg
@@ -3650,10 +3649,11 @@ c2s.ROLE_DONATE = 1282
 c2s.DUNGEON_FIGHT_OVER = 1794
 
 --[[
-	[1] = {--GetRole
+	[1] = {--ReqSetRotationOpen
+		[1] = 'bool':rotationState	[轮换是否开启]
 	}
 --]]
-c2s.ROLE_GET_ROLE = 1281
+c2s.ROLE_REQ_SET_ROTATION_OPEN = 1291
 
 --[[
 	[1] = {--ReqMyGroupTeam
@@ -3662,11 +3662,11 @@ c2s.ROLE_GET_ROLE = 1281
 c2s.RECHARGE_REQ_MY_GROUP_TEAM = 4383
 
 --[[
-	[1] = {--ReqSetRotationOpen
-		[1] = 'bool':rotationState	[轮换是否开启]
+	[1] = {--ReqSetRotationList
+		[1] = 'repeated int32':rotationList	[轮换列表]
 	}
 --]]
-c2s.ROLE_REQ_SET_ROTATION_OPEN = 1291
+c2s.ROLE_REQ_SET_ROTATION_LIST = 1290
 
 --[[
 	[1] = {--ReqRewardRecord
@@ -3681,13 +3681,6 @@ c2s.WORLD_HELP_REQ_REWARD_RECORD = 8803
 	}
 --]]
 c2s.ACTIVITY_NEW_REQ_YEAR_ACTIVITY_MONTH_PROGRESS = 5144
-
---[[
-	[1] = {--SwitchRole
-		[1] = 'string':roleId	[ 精灵id]
-	}
---]]
-c2s.ROLE_SWITCH_ROLE = 1285
 
 --[[
 	[1] = {--ReqOpenEnvelope
@@ -3708,10 +3701,17 @@ c2s.RED_ENVELOPE_REQ_OPEN_ENVELOPE = 7304
 c2s.RECHARGE_REQ_CHARGE_EXCHANGE = 4368
 
 --[[
-	[1] = {--ReqElementRank
+	[1] = {--ReqConfirmTrade
+		[1] = 'int32':friendId	[好友id]
 	}
 --]]
-c2s.ELEMENT_COLLECT_REQ_ELEMENT_RANK = 4868
+c2s.ACTIVITY_REQ_CONFIRM_TRADE = 5199
+
+--[[
+	[1] = {--GetRechargeCfg
+	}
+--]]
+c2s.RECHARGE_GET_RECHARGE_CFG = 4360
 
 --[[
 	[1] = {--ReqSendBulletScreen
@@ -3723,10 +3723,10 @@ c2s.ELEMENT_COLLECT_REQ_ELEMENT_RANK = 4868
 c2s.CHAT_REQ_SEND_BULLET_SCREEN = 2315
 
 --[[
-	[1] = {--GetRechargeCfg
+	[1] = {--ReqGrowthFundsInfo
 	}
 --]]
-c2s.RECHARGE_GET_RECHARGE_CFG = 4360
+c2s.RECHARGE_REQ_GROWTH_FUNDS_INFO = 4370
 
 --[[
 	[1] = {--ReqResetSpiritPoints
@@ -3736,22 +3736,16 @@ c2s.RECHARGE_GET_RECHARGE_CFG = 4360
 c2s.HERO_SPIRIT_REQ_RESET_SPIRIT_POINTS = 8402
 
 --[[
-	[1] = {--ReqGrowthFundsInfo
+	[1] = {--GainMonthCardItem
 	}
 --]]
-c2s.RECHARGE_REQ_GROWTH_FUNDS_INFO = 4370
+c2s.RECHARGE_GAIN_MONTH_CARD_ITEM = 4354
 
 --[[
 	[1] = {--ReqChasmExitFight
 	}
 --]]
 c2s.CHASM_REQ_CHASM_EXIT_FIGHT = 6147
-
---[[
-	[1] = {--GainMonthCardItem
-	}
---]]
-c2s.RECHARGE_GAIN_MONTH_CARD_ITEM = 4354
 
 --[[
 	[1] = {--ReqGetFunAward
@@ -3761,12 +3755,17 @@ c2s.RECHARGE_GAIN_MONTH_CARD_ITEM = 4354
 c2s.RECHARGE_REQ_GET_FUN_AWARD = 4375
 
 --[[
-	[1] = {--ReqFormationBackupDesc
-		[1] = 'int32':id
-		[2] = 'string':desc	[名称描述]
+	[1] = {--GetBillboardNotice
 	}
 --]]
-c2s.PLAYER_REQ_FORMATION_BACKUP_DESC = 299
+c2s.NOTICE_GET_BILLBOARD_NOTICE = 3585
+
+--[[
+	[1] = {--ReqMonthCardStore
+		[1] = 'int32':id	[礼包id]
+	}
+--]]
+c2s.RECHARGE_REQ_MONTH_CARD_STORE = 4367
 
 --[[
 	[1] = {--ReqSupportAddress
@@ -3787,13 +3786,6 @@ c2s.EXTRA_DATING_REQ_FRESH_ROLE_NOTICE = 5661
 	}
 --]]
 c2s.ACTIVITY_REQ_UPDATE_SUPPORT_ADDRESS = 5154
-
---[[
-	[1] = {--ReqMonthCardStore
-		[1] = 'int32':id	[礼包id]
-	}
---]]
-c2s.RECHARGE_REQ_MONTH_CARD_STORE = 4367
 
 --[[
 	[1] = {--ReqExitGroupTeam
@@ -3817,6 +3809,12 @@ c2s.RECHARGE_REQ_GROUP_GIFT_INFO = 4384
 c2s.RECHARGE_REQ_CREATE_GROUP_TEAM = 4376
 
 --[[
+	[1] = {--ReqWeekCardInfo
+	}
+--]]
+c2s.RECHARGE_REQ_WEEK_CARD_INFO = 4387
+
+--[[
 	[1] = {--OfficePerformEventMsg
 		[1] = 'int32':x	[ x位置]
 		[2] = 'int32':y	[ y位置]
@@ -3826,10 +3824,10 @@ c2s.RECHARGE_REQ_CREATE_GROUP_TEAM = 4376
 c2s.OFFICE_EXPLORE_OFFICE_PERFORM_EVENT = 7220
 
 --[[
-	[1] = {--ReqWeekCardInfo
+	[1] = {--GetMonthCardWelfareInfo
 	}
 --]]
-c2s.RECHARGE_REQ_WEEK_CARD_INFO = 4387
+c2s.RECHARGE_GET_MONTH_CARD_WELFARE_INFO = 4365
 
 --[[
 	[1] = {--SellInfo
@@ -3849,10 +3847,10 @@ c2s.STORE_SELL_INFO = 2565
 c2s.APPRENTICE_REQ_TASK_REWARD = 7908
 
 --[[
-	[1] = {--ReqReceiveSysFunInfo
+	[1] = {--ReqGetWeekAward
 	}
 --]]
-c2s.RECHARGE_REQ_RECEIVE_SYS_FUN_INFO = 4374
+c2s.RECHARGE_REQ_GET_WEEK_AWARD = 4388
 
 --[[
 	[1] = {--ReqFinishGame
@@ -3869,23 +3867,12 @@ c2s.SNOW_FESTIVAL_REQ_FINISH_GAME = 9306
 c2s.SUMMON_COMPOSE_SUMMON = 3330
 
 --[[
-	[1] = {--GetMonthCardInfo
+	[1] = {--ReqCrazyDiamondDraw
+		[1] = 'int32':activityId	[ 活动ID]
+		[2] = 'bool':isDraw	[ true: 表示为抽奖,false:表示为获取活动信息]
 	}
 --]]
-c2s.RECHARGE_GET_MONTH_CARD_INFO = 4356
-
---[[
-	[1] = {--ReqRiddleOnce
-		[1] = 'int32':answer	[玩家答案]
-	}
---]]
-c2s.ACTIVITY2_REQ_RIDDLE_ONCE = 9408
-
---[[
-	[1] = {--QliphothTimeMsg
-	}
---]]
-c2s.QLIPHOTH_QLIPHOTH_TIME = 6222
+c2s.ACTIVITY_REQ_CRAZY_DIAMOND_DRAW = 5303
 
 --[[
 	[1] = {--GetOrderNo
@@ -3896,6 +3883,19 @@ c2s.QLIPHOTH_QLIPHOTH_TIME = 6222
 c2s.RECHARGE_GET_ORDER_NO = 4353
 
 --[[
+	[1] = {--QliphothTimeMsg
+	}
+--]]
+c2s.QLIPHOTH_QLIPHOTH_TIME = 6222
+
+--[[
+	[1] = {--ReqRewardTotalPay
+		[1] = 'int32':id	[奖励id]
+	}
+--]]
+c2s.RECHARGE_REQ_REWARD_TOTAL_PAY = 4363
+
+--[[
 	[1] = {--ReqRefreshEntrustActivityTask
 		[1] = 'int32':activityId	[ 活动ID]
 		[2] = 'int32':type	[ 1-普通刷新 2-钻石刷新    // 1-普通刷新 2-钻石刷新]
@@ -3904,11 +3904,11 @@ c2s.RECHARGE_GET_ORDER_NO = 4353
 c2s.ACTIVITY_REQ_REFRESH_ENTRUST_ACTIVITY_TASK = 5133
 
 --[[
-	[1] = {--ReqRewardTotalPay
-		[1] = 'int32':id	[奖励id]
+	[1] = {--ExploreActivityInfo
+		[1] = 'int32':activityId
 	}
 --]]
-c2s.RECHARGE_REQ_REWARD_TOTAL_PAY = 4363
+c2s.EXPLORE_EXPLORE_ACTIVITY_INFO = 7823
 
 --[[
 	[1] = {--ReqCancelBalloonTrade
@@ -3931,17 +3931,11 @@ c2s.PLAYER_REQ_FORMATION_BACKUP_USE = 298
 c2s.ACTIVITY_REQ_RECOVER_TIME = 5140
 
 --[[
-	[1] = {--ExploreActivityInfo
-		[1] = 'int32':activityId
+	[1] = {--ReqSendSpringWithTree
+		[1] = 'string':context	[文本]
 	}
 --]]
-c2s.EXPLORE_EXPLORE_ACTIVITY_INFO = 7823
-
---[[
-	[1] = {--ReqAnnivMoveNext
-	}
---]]
-c2s.ANNIVERSARY2ND_REQ_ANNIV_MOVE_NEXT = 9203
+c2s.ACTIVITY2_REQ_SEND_SPRING_WITH_TREE = 9412
 
 --[[
 	[1] = {--ParticleWorldInfoMsg
@@ -3949,6 +3943,14 @@ c2s.ANNIVERSARY2ND_REQ_ANNIV_MOVE_NEXT = 9203
 	}
 --]]
 c2s.QLIPHOTH_PARTICLE_WORLD_INFO = 6202
+
+--[[
+	[1] = {--PanelStayTime
+		[1] = 'int32':id	[面板功能id]
+		[2] = 'int32':time	[面板停留时长]
+	}
+--]]
+c2s.PLAYER_PANEL_STAY_TIME = 292
 
 --[[
 	[1] = {--ReqEquipRecycle
@@ -4009,11 +4011,10 @@ c2s.QLIPHOTH_SHOP_PURCHASE = 6212
 c2s.DATING_GET_SCRIPT = 1537
 
 --[[
-	[1] = {--ReqSendSpringWithTree
-		[1] = 'string':context	[文本]
+	[1] = {--ReqActivatePortraits
 	}
 --]]
-c2s.ACTIVITY2_REQ_SEND_SPRING_WITH_TREE = 9412
+c2s.PORTRAIT_REQ_ACTIVATE_PORTRAITS = 7001
 
 --[[
 	[1] = {--GetAllElement
@@ -4046,10 +4047,12 @@ c2s.MAID_ACTIVITY_REQ_REFRESH_RECRUIT = 9154
 c2s.EQUIPMENT_REQ_SAVE_EQUIP_BACKUP_POS = 2842
 
 --[[
-	[1] = {--ReqActivatePortraits
+	[1] = {--ReqFormationBackupDesc
+		[1] = 'int32':id
+		[2] = 'string':desc	[名称描述]
 	}
 --]]
-c2s.PORTRAIT_REQ_ACTIVATE_PORTRAITS = 7001
+c2s.PLAYER_REQ_FORMATION_BACKUP_DESC = 299
 
 --[[
 	[1] = {--ReqJoinGroupTeam
@@ -4059,19 +4062,19 @@ c2s.PORTRAIT_REQ_ACTIVATE_PORTRAITS = 7001
 c2s.RECHARGE_REQ_JOIN_GROUP_TEAM = 4377
 
 --[[
-	[1] = {--ReqCrazyDiamondDraw
-		[1] = 'int32':activityId	[ 活动ID]
-		[2] = 'bool':isDraw	[ true: 表示为抽奖,false:表示为获取活动信息]
-	}
---]]
-c2s.ACTIVITY_REQ_CRAZY_DIAMOND_DRAW = 5303
-
---[[
 	[1] = {--GetElementReward
 		[1] = 'int32':cgid
 	}
 --]]
 c2s.ELEMENT_COLLECT_GET_ELEMENT_REWARD = 4867
+
+--[[
+	[1] = {--SetPlayerInfo
+		[1] = 'string':playerName	[ 玩家名字]
+		[2] = 'string':remark	[ 玩家宣言]
+	}
+--]]
+c2s.PLAYER_SET_PLAYER_INFO = 260
 
 --[[
 	[1] = {--ReqModifyStrategyName
@@ -4097,12 +4100,10 @@ c2s.QLIPHOTH_WORLD_TRANSFORM = 6211
 c2s.DATING_REQ_GET_RELIEVE_HEART_STATE = 1558
 
 --[[
-	[1] = {--PanelStayTime
-		[1] = 'int32':id	[面板功能id]
-		[2] = 'int32':time	[面板停留时长]
+	[1] = {--ReqPhantomInfo
 	}
 --]]
-c2s.PLAYER_PANEL_STAY_TIME = 292
+c2s.PLAYER_REQ_PHANTOM_INFO = 301
 
 --[[
 	[1] = {--ReqPartTimeJobAward
@@ -4113,17 +4114,17 @@ c2s.PLAYER_PANEL_STAY_TIME = 292
 c2s.NEW_BUILDING_REQ_PART_TIME_JOB_AWARD = 2078
 
 --[[
-	[1] = {--ReqPhantomInfo
+	[1] = {--ReqElementRank
 	}
 --]]
-c2s.PLAYER_REQ_PHANTOM_INFO = 301
+c2s.ELEMENT_COLLECT_REQ_ELEMENT_RANK = 4868
 
 --[[
-	[1] = {--ReqConfirmTrade
-		[1] = 'int32':friendId	[好友id]
+	[1] = {--TestMsg
+		[1] = 'string':content
 	}
 --]]
-c2s.ACTIVITY_REQ_CONFIRM_TRADE = 5199
+c2s.PLAYER_TEST = 266
 
 --[[
 	[1] = {--ReqEffectBuff
@@ -4140,10 +4141,13 @@ c2s.HANGUP_ACT_REQ_EFFECT_BUFF = 9010
 c2s.SUMMON_REQ_SIMULATE_SUMMON = 3350
 
 --[[
-	[1] = {--GetMainLineProgress
+	[1] = {--OperateFormation
+		[1] = 'int32':formationType
+		[2] = 'string':sourceHeroId
+		[3] = 'string':targetHeroId
 	}
 --]]
-c2s.DUNGEON_GET_MAIN_LINE_PROGRESS = 1798
+c2s.PLAYER_OPERATE_FORMATION = 264
 
 --[[
 	[1] = {--ReqSetLinkAgeHero
@@ -4154,39 +4158,19 @@ c2s.DUNGEON_GET_MAIN_LINE_PROGRESS = 1798
 c2s.DUNGEON_REQ_SET_LINK_AGE_HERO = 1826
 
 --[[
-	[1] = {--OperateFormation
-		[1] = 'int32':formationType
-		[2] = 'string':sourceHeroId
-		[3] = 'string':targetHeroId
-	}
---]]
-c2s.PLAYER_OPERATE_FORMATION = 264
-
---[[
 	[1] = {--GetPlayerInfo
 	}
 --]]
 c2s.PLAYER_GET_PLAYER_INFO = 267
 
 --[[
-	[1] = {--Req2019ChristmasFactory
+	[1] = {--ReqFeedMaid
+		[1] = 'int32':maidId	[喂食的女仆唯一id]
+		[2] = 'int32':itemId	[道具id]
+		[3] = 'int32':num	[道具数量]
 	}
 --]]
-c2s.CHRISTMAS_REQ2019_CHRISTMAS_FACTORY = 6614
-
---[[
-	[1] = {--ReqDeleteSpringWish
-		[1] = 'string':id	[寄语id]
-	}
---]]
-c2s.SPRING_WISH_REQ_DELETE_SPRING_WISH = 7504
-
---[[
-	[1] = {--ReqCabinInfo
-		[1] = 'int32':id	[舱室类型]
-	}
---]]
-c2s.EXPLORE_REQ_CABIN_INFO = 7802
+c2s.MAID_ACTIVITY_REQ_FEED_MAID = 9152
 
 --[[
 	[1] = {--ReqUWarOrderLevel
@@ -4196,11 +4180,11 @@ c2s.EXPLORE_REQ_CABIN_INFO = 7802
 c2s.ACTIVITY_REQ_UWAR_ORDER_LEVEL = 5148
 
 --[[
-	[1] = {--ReqSetSupportRoleMsg
-		[1] = 'repeated int32':roleId
+	[1] = {--ReqDeleteSpringWish
+		[1] = 'string':id	[寄语id]
 	}
 --]]
-c2s.HANGUP_ACT_REQ_SET_SUPPORT_ROLE = 9006
+c2s.SPRING_WISH_REQ_DELETE_SPRING_WISH = 7504
 
 --[[
 	[1] = {--ReqReportAD
@@ -4209,6 +4193,28 @@ c2s.HANGUP_ACT_REQ_SET_SUPPORT_ROLE = 9006
 	}
 --]]
 c2s.PLAYER_REQ_REPORT_AD = 285
+
+--[[
+	[1] = {--ExploreEquipPutOn
+		[1] = 'string':id	[装备id]
+		[2] = 'int32':cabinId	[舱室id]
+		[3] = 'int32':index
+	}
+--]]
+c2s.EXPLORE_EXPLORE_EQUIP_PUT_ON = 7808
+
+--[[
+	[1] = {--ReqSetSupportRoleMsg
+		[1] = 'repeated int32':roleId
+	}
+--]]
+c2s.HANGUP_ACT_REQ_SET_SUPPORT_ROLE = 9006
+
+--[[
+	[1] = {--ReqAITriggerType
+	}
+--]]
+c2s.DATING_REQ_AITRIGGER_TYPE = 1559
 
 --[[
 	[1] = {--ReqLadderLastData
@@ -4229,17 +4235,17 @@ c2s.LADDER_REQ_LADDER_LAST_DATA = 8303
 c2s.EXTRA_DATING_REQ_CHOOSE_ENTRANCE_EVENT = 5635
 
 --[[
-	[1] = {--ReqAITriggerType
-	}
---]]
-c2s.DATING_REQ_AITRIGGER_TYPE = 1559
-
---[[
 	[1] = {--ReqFavorDatingPanel
 		[1] = 'int32':roleId	[精灵ID]
 	}
 --]]
 c2s.EXTRA_DATING_REQ_FAVOR_DATING_PANEL = 5650
+
+--[[
+	[1] = {--GetFormations
+	}
+--]]
+c2s.PLAYER_GET_FORMATIONS = 265
 
 --[[
 	[1] = {--ReqLookTriggerMessage
@@ -4253,16 +4259,6 @@ c2s.DATING_REQ_LOOK_TRIGGER_MESSAGE = 1561
 	}
 --]]
 c2s.ACTIVITY_REQ_CROSS_SUPPORT_INFO = 5205
-
---[[
-	[1] = {--ReqLadderNewEquip
-		[1] = 'int32':type	[1装备 2卸下]
-		[2] = 'string':heroId	[英雄id]
-		[3] = 'string':newEquipId	[新装备id]
-		[4] = 'int32':index	[位置]
-	}
---]]
-c2s.LADDER_REQ_LADDER_NEW_EQUIP = 8307
 
 --[[
 	[1] = {--ReqResetSpeedLink
@@ -4287,6 +4283,22 @@ c2s.COMMENT_REQ_COMMENT = 4001
 c2s.PLAYER_REQ_RED_POINT = 300
 
 --[[
+	[1] = {--ReqEndFight
+		[1] = 'int32':randomSeed	[ 最终随机种子]
+		[2] = 'bool':isWin	[ 是否胜利]
+		[3] = {--repeated MemberData
+			[1] = 'int32':pid	[ 玩家ID]
+			[2] = 'int32':hurt	[ 累计伤害]
+		},
+		[4] = 'int32':fightTime	[ 战斗时间]
+		[5] = 'int32':maxCombo	[ 战斗连击数]
+		[6] = 'int32':killMonsterNum	[ 击杀怪物数]
+		[7] = 'int32':killBossNum	[ 击杀boss数]
+	}
+--]]
+c2s.FIGHT_REQ_END_FIGHT = 25605
+
+--[[
 	[1] = {--ReqWirteUnionReCall
 		[1] = 'int32':unionId	[社团id]
 	}
@@ -4301,10 +4313,10 @@ c2s.UNION_REQ_WIRTE_UNION_RE_CALL = 6674
 c2s.CHRISTMAS_GET_COMPOSE_PRIZE = 6603
 
 --[[
-	[1] = {--AreaOutlineMsg
+	[1] = {--ReqHeroDispatchInfo
 	}
 --]]
-c2s.OFFICE_EXPLORE_AREA_OUTLINE = 7102
+c2s.HERO_DISPATCH_REQ_HERO_DISPATCH_INFO = 8601
 
 --[[
 	[1] = {--ReqClueVote
@@ -4344,10 +4356,10 @@ c2s.ACTIVITY_REQ_ASSISTANCE_FLOP = 5212
 c2s.ACTIVITY_REQ_GET_WAR_ORDER_AWARD = 5146
 
 --[[
-	[1] = {--ReqHeroDispatchInfo
+	[1] = {--OfficeTaskDiscoverMsg
 	}
 --]]
-c2s.HERO_DISPATCH_REQ_HERO_DISPATCH_INFO = 8601
+c2s.OFFICE_EXPLORE_OFFICE_TASK_DISCOVER = 7224
 
 --[[
 	[1] = {--CabinRemoveHero
@@ -4364,12 +4376,6 @@ c2s.EXPLORE_CABIN_REMOVE_HERO = 7805
 c2s.HERO_SPIRIT_REQ_NEW_SPIRIT_INFO = 8407
 
 --[[
-	[1] = {--OfficeTaskDiscoverMsg
-	}
---]]
-c2s.OFFICE_EXPLORE_OFFICE_TASK_DISCOVER = 7224
-
---[[
 	[1] = {--OfficeShopPurchaseMsg
 		[1] = 'int32':listId	[ 商品id]
 		[2] = 'int32':num	[ 商品数量]
@@ -4384,12 +4390,19 @@ c2s.OFFICE_EXPLORE_OFFICE_SHOP_PURCHASE = 7212
 c2s.OFFICE_EXPLORE_OFFICE_SHOP_INFO = 7213
 
 --[[
-	[1] = {--ReqWorldOperate
-		[1] = 'int32':operateType
-		[2] = 'string':ext	[操作信息]
+	[1] = {--ReqChangeNewWorldRoom
+		[1] = 'int32':roomId
+		[2] = 'int32':roomType	[更换房间的类型]
 	}
 --]]
-c2s.NEW_WORLD_REQ_WORLD_OPERATE = 6820
+c2s.NEW_WORLD_REQ_CHANGE_NEW_WORLD_ROOM = 6806
+
+--[[
+	[1] = {--ReqAreaShowData
+		[1] = 'int32':roomType	[房间类型]
+	}
+--]]
+c2s.NEW_WORLD_REQ_AREA_SHOW_DATA = 6826
 
 --[[
 	[1] = {--OfficeExploreTimeMsg
@@ -4406,10 +4419,12 @@ c2s.OFFICE_EXPLORE_OFFICE_EXPLORE_TIME = 7101
 c2s.ACTIVITY_REQ_EXCHANGE_APPLY = 5193
 
 --[[
-	[1] = {--ReqEnterRewardMission
+	[1] = {--OfficeWorldMoveMsg
+		[1] = 'int32':x	[ x位置]
+		[2] = 'int32':y	[ y位置]
 	}
 --]]
-c2s.NEW_WORLD_REQ_ENTER_REWARD_MISSION = 6815
+c2s.OFFICE_EXPLORE_OFFICE_WORLD_MOVE = 7205
 
 --[[
 	[1] = {--ReqVerifyHurt
@@ -4438,12 +4453,11 @@ c2s.DUNGEON_REQ_VERIFY_HURT = 1813
 c2s.DATING_REQ_RECEIVE_NEW_FAVOR_AWARD = 1580
 
 --[[
-	[1] = {--OfficeWorldMoveMsg
-		[1] = 'int32':x	[ x位置]
-		[2] = 'int32':y	[ y位置]
+	[1] = {--ReqReviveFight
+		[1] = 'bool':isReviveFight	[ 解码器必须要有内容,所以加上这个bool]
 	}
 --]]
-c2s.OFFICE_EXPLORE_OFFICE_WORLD_MOVE = 7205
+c2s.FIGHT_REQ_REVIVE_FIGHT = 25607
 
 --[[
 	[1] = {--ReqExplore
@@ -4453,19 +4467,18 @@ c2s.OFFICE_EXPLORE_OFFICE_WORLD_MOVE = 7205
 c2s.BIRTH_DAY_REQ_EXPLORE = 8102
 
 --[[
-	[1] = {--ReqReviveFight
-		[1] = 'bool':isReviveFight	[ 解码器必须要有内容,所以加上这个bool]
+	[1] = {--ReqNewWorldMissionInfo
 	}
 --]]
-c2s.FIGHT_REQ_REVIVE_FIGHT = 25607
+c2s.NEW_WORLD_REQ_NEW_WORLD_MISSION_INFO = 6811
 
 --[[
-	[1] = {--ReqActivityPrayTask
-		[1] = 'int32':activityId	[活动id]
-		[2] = 'int32':taskItemId	[条目id]
+	[1] = {--ReqGiveUpJob
+		[1] = 'int32':buildingId	[建筑ID]
+		[2] = 'int32':jobId	[兼职id]
 	}
 --]]
-c2s.ACTIVITY_REQ_ACTIVITY_PRAY_TASK = 5180
+c2s.NEW_BUILDING_REQ_GIVE_UP_JOB = 2079
 
 --[[
 	[1] = {--NewReqYearActivityMonthItems
@@ -4476,10 +4489,11 @@ c2s.ACTIVITY_REQ_ACTIVITY_PRAY_TASK = 5180
 c2s.ACTIVITY_NEW_REQ_YEAR_ACTIVITY_MONTH_ITEMS = 5143
 
 --[[
-	[1] = {--ReqPartTimeJobList
+	[1] = {--ReqRankActivity
+		[1] = 'int32':activityId	[ 活动ID]
 	}
 --]]
-c2s.NEW_BUILDING_REQ_PART_TIME_JOB_LIST = 2076
+c2s.ACTIVITY_REQ_RANK_ACTIVITY = 5132
 
 --[[
 	[1] = {--ReqSummon
@@ -4518,11 +4532,12 @@ c2s.ACTIVITY_NEW_SUBMIT_ACTIVITY = 5125
 c2s.ACTIVITY_REQ_DONATE_ACTIVITY = 5304
 
 --[[
-	[1] = {--ReqRankActivity
-		[1] = 'int32':activityId	[ 活动ID]
+	[1] = {--ReqGetHangUpSEventAward
+		[1] = 'int32':activityId	[活动id]
+		[2] = 'int32':id	[特殊事件id]
 	}
 --]]
-c2s.ACTIVITY_REQ_RANK_ACTIVITY = 5132
+c2s.ACTIVITY_REQ_GET_HANG_UP_SEVENT_AWARD = 5171
 
 --[[
 	[1] = {--BuyLevelCountMsg
@@ -4532,12 +4547,11 @@ c2s.ACTIVITY_REQ_RANK_ACTIVITY = 5132
 c2s.DUNGEON_BUY_LEVEL_COUNT = 1811
 
 --[[
-	[1] = {--ReqGetHangUpSEventAward
-		[1] = 'int32':activityId	[活动id]
-		[2] = 'int32':id	[特殊事件id]
+	[1] = {--ReqRiddleOnce
+		[1] = 'int32':answer	[玩家答案]
 	}
 --]]
-c2s.ACTIVITY_REQ_GET_HANG_UP_SEVENT_AWARD = 5171
+c2s.ACTIVITY2_REQ_RIDDLE_ONCE = 9408
 
 --[[
 	[1] = {--ReqMonthCardSign
@@ -4585,11 +4599,12 @@ c2s.JU_NAI_INVASION_REQ_GET_UNION_MORALE = 9104
 c2s.HANGUP_ACT_REQ_HERO_EXPLORE = 9002
 
 --[[
-	[1] = {--ReqLadderHeroList
-		[1] = 'repeated int32':heroes	[精灵id]
+	[1] = {--ReqRemouldGem
+		[1] = 'string':gemId	[ 宝石id]
+		[2] = 'int32':specialAttr	[ 特殊属性]
 	}
 --]]
-c2s.LADDER_REQ_LADDER_HERO_LIST = 8304
+c2s.EQUIPMENT_REQ_REMOULD_GEM = 2836
 
 --[[
 	[1] = {--ReqSubmitUnionProps
@@ -4602,12 +4617,12 @@ c2s.LADDER_REQ_LADDER_HERO_LIST = 8304
 c2s.ANNIVERSARY2ND_REQ_SUBMIT_UNION_PROPS = 9232
 
 --[[
-	[1] = {--ReqRemouldGem
-		[1] = 'string':gemId	[ 宝石id]
-		[2] = 'int32':specialAttr	[ 特殊属性]
+	[1] = {--ReqActivityPrayTask
+		[1] = 'int32':activityId	[活动id]
+		[2] = 'int32':taskItemId	[条目id]
 	}
 --]]
-c2s.EQUIPMENT_REQ_REMOULD_GEM = 2836
+c2s.ACTIVITY_REQ_ACTIVITY_PRAY_TASK = 5180
 
 --[[
 	[1] = {--ReqTestMsg
@@ -4617,18 +4632,19 @@ c2s.EQUIPMENT_REQ_REMOULD_GEM = 2836
 c2s.LOGIN_REQ_TEST = 274
 
 --[[
-	[1] = {--GetBillboardNotice
-	}
---]]
-c2s.NOTICE_GET_BILLBOARD_NOTICE = 3585
-
---[[
 	[1] = {--ReqUpHangUpRoleLevel
 		[1] = 'int32':activityId	[活动id]
 		[2] = 'int32':roleId	[挂机精灵id]
 	}
 --]]
 c2s.ACTIVITY_REQ_UP_HANG_UP_ROLE_LEVEL = 5169
+
+--[[
+	[1] = {--ReqStartExploreMsg
+		[1] = 'int32':id
+	}
+--]]
+c2s.HANGUP_ACT_REQ_START_EXPLORE = 9003
 
 --[[
 	[1] = {--ReqMakeFormula
@@ -4641,11 +4657,10 @@ c2s.ACTIVITY_REQ_UP_HANG_UP_ROLE_LEVEL = 5169
 c2s.ACTIVITY_REQ_MAKE_FORMULA = 5227
 
 --[[
-	[1] = {--ReqStartExploreMsg
-		[1] = 'int32':id
+	[1] = {--Req2019ChristmasFactory
 	}
 --]]
-c2s.HANGUP_ACT_REQ_START_EXPLORE = 9003
+c2s.CHRISTMAS_REQ2019_CHRISTMAS_FACTORY = 6614
 
 --[[
 	[1] = {--ReqHelpFightPlayers
@@ -4664,19 +4679,12 @@ c2s.PLAYER_REQ_HELP_FIGHT_PLAYERS = 273
 c2s.NEW_WORLD_REQ_POSITION_CHANGE = 6809
 
 --[[
-	[1] = {--LockMsg
-		[1] = 'string':equipmentId	[灵装id]
+	[1] = {--ReqWorldOperate
+		[1] = 'int32':operateType
+		[2] = 'string':ext	[操作信息]
 	}
 --]]
-c2s.EQUIPMENT_LOCK = 2823
-
---[[
-	[1] = {--ReqChangeNewWorldRoom
-		[1] = 'int32':roomId
-		[2] = 'int32':roomType	[更换房间的类型]
-	}
---]]
-c2s.NEW_WORLD_REQ_CHANGE_NEW_WORLD_ROOM = 6806
+c2s.NEW_WORLD_REQ_WORLD_OPERATE = 6820
 
 --[[
 	[1] = {--ReqRewardMissionRecord
@@ -4685,16 +4693,31 @@ c2s.NEW_WORLD_REQ_CHANGE_NEW_WORLD_ROOM = 6806
 c2s.NEW_WORLD_REQ_REWARD_MISSION_RECORD = 6814
 
 --[[
-	[1] = {--ReqNewWorldMissionInfo
+	[1] = {--GiftCode
+		[1] = 'string':giftCode
 	}
 --]]
-c2s.NEW_WORLD_REQ_NEW_WORLD_MISSION_INFO = 6811
+c2s.LOGIN_GIFT_CODE = 270
+
+--[[
+	[1] = {--ReqQuickActiveCrystal
+		[1] = 'string':heroId
+		[2] = 'bool':isReplace
+	}
+--]]
+c2s.HERO_REQ_QUICK_ACTIVE_CRYSTAL = 1050
 
 --[[
 	[1] = {--ReqActInfoMsg
 	}
 --]]
 c2s.HANGUP_ACT_REQ_ACT_INFO = 9001
+
+--[[
+	[1] = {--ReqEnterRewardMission
+	}
+--]]
+c2s.NEW_WORLD_REQ_ENTER_REWARD_MISSION = 6815
 
 --[[
 	[1] = {--ReqClickAdActivity
@@ -4704,13 +4727,6 @@ c2s.HANGUP_ACT_REQ_ACT_INFO = 9001
 	}
 --]]
 c2s.ACTIVITY_REQ_CLICK_AD_ACTIVITY = 5187
-
---[[
-	[1] = {--ReqAreaShowData
-		[1] = 'int32':roomType	[房间类型]
-	}
---]]
-c2s.NEW_WORLD_REQ_AREA_SHOW_DATA = 6826
 
 --[[
 	[1] = {--ReqRemindSuccess
@@ -4776,16 +4792,12 @@ c2s.STORE_GET_COMMODITY_BUY_LOG = 2564
 c2s.SUMMON_REQ_EXCHANGE = 3338
 
 --[[
-	[1] = {--ReqSelectBalloonId
-		[1] = 'int32':friendId	[好友id]
-		[2] = {--repeated Pair
-			[1] = 'int32':key
-			[2] = 'int32':value
-		},
-		[3] = 'bool':confirm	[锁定状态 true已锁定 false 未锁定]
+	[1] = {--UpgradeMsg
+		[1] = 'string':equipmentId	[升级灵装id]
+		[2] = 'repeated string':costEquipmentId	[消耗灵装id列表]
 	}
 --]]
-c2s.ACTIVITY_REQ_SELECT_BALLOON_ID = 5197
+c2s.EQUIPMENT_UPGRADE = 2820
 
 --[[
 	[1] = {--ReqUnionWeekActivePrize
@@ -4799,6 +4811,20 @@ c2s.UNION_REQ_UNION_WEEK_ACTIVE_PRIZE = 6655
 	}
 --]]
 c2s.NEW_BUILDING_REQ_GET_ALL_BUILDING_INFO = 2071
+
+--[[
+	[1] = {--ReqAnnivPassReward
+		[1] = 'int32':id	[选择的配置表id]
+	}
+--]]
+c2s.ANNIVERSARY2ND_REQ_ANNIV_PASS_REWARD = 9204
+
+--[[
+	[1] = {--ReqAssistanceFlopRank
+		[1] = 'int32':activityId	[活动id]
+	}
+--]]
+c2s.ACTIVITY_REQ_ASSISTANCE_FLOP_RANK = 5213
 
 --[[
 	[1] = {--FightStartMsg
@@ -4816,20 +4842,6 @@ c2s.NEW_BUILDING_REQ_GET_ALL_BUILDING_INFO = 2071
 c2s.DUNGEON_FIGHT_START = 1793
 
 --[[
-	[1] = {--ReqAssistanceFlopRank
-		[1] = 'int32':activityId	[活动id]
-	}
---]]
-c2s.ACTIVITY_REQ_ASSISTANCE_FLOP_RANK = 5213
-
---[[
-	[1] = {--ReqGetExploreAward
-		[1] = 'int32':cityId	[城市id]
-	}
---]]
-c2s.BIRTH_DAY_REQ_GET_EXPLORE_AWARD = 8103
-
---[[
 	[1] = {--ReqExploreTaskPlan
 	}
 --]]
@@ -4843,20 +4855,19 @@ c2s.EXPLORE_REQ_EXPLORE_TASK_PLAN = 7843
 c2s.ACTIVITY_REQ_TIME_CONTRACT = 5184
 
 --[[
+	[1] = {--ReqGetExploreAward
+		[1] = 'int32':cityId	[城市id]
+	}
+--]]
+c2s.BIRTH_DAY_REQ_GET_EXPLORE_AWARD = 8103
+
+--[[
 	[1] = {--ContinueDating
 		[1] = 'int32':datingType	[约会类型]
 		[2] = 'int32':datingRuleCid	[ 约会id]
 	}
 --]]
 c2s.DATING_CONTINUE_DATING = 1552
-
---[[
-	[1] = {--ReqGiveUpJob
-		[1] = 'int32':buildingId	[建筑ID]
-		[2] = 'int32':jobId	[兼职id]
-	}
---]]
-c2s.NEW_BUILDING_REQ_GIVE_UP_JOB = 2079
 
 --[[
 	[1] = {--ReqUpdateFinishProcess
@@ -4867,12 +4878,10 @@ c2s.NEW_BUILDING_REQ_GIVE_UP_JOB = 2079
 c2s.ODEUM_REQ_UPDATE_FINISH_PROCESS = 6513
 
 --[[
-	[1] = {--UpgradeMsg
-		[1] = 'string':equipmentId	[升级灵装id]
-		[2] = 'repeated string':costEquipmentId	[消耗灵装id列表]
+	[1] = {--ReqPartTimeJobList
 	}
 --]]
-c2s.EQUIPMENT_UPGRADE = 2820
+c2s.NEW_BUILDING_REQ_PART_TIME_JOB_LIST = 2076
 
 --[[
 	[1] = {--ReqRank
@@ -4973,11 +4982,11 @@ c2s.MAID_ACTIVITY_REQ_CHANGE_ROLE_ID = 9157
 c2s.YEAR_LOTTO_REQ_YEAR_LOTTO_INFO = 8701
 
 --[[
-	[1] = {--GiftCode
-		[1] = 'string':giftCode
+	[1] = {--ReqSetMaidNessId
+		[1] = 'int32':maidId	[女仆id]
 	}
 --]]
-c2s.LOGIN_GIFT_CODE = 270
+c2s.ACTIVITY_REQ_SET_MAID_NESS_ID = 5219
 
 --[[
 	[1] = {--ReqEquipRemouldInfo
@@ -5005,12 +5014,10 @@ c2s.ACTIVITY_REQ_UNION_LABOUR_RANK = 5182
 c2s.NEW_BUILDING_REQ_REFRESH_GASHAPON_POOL = 2065
 
 --[[
-	[1] = {--ReqReconnect
-		[1] = 'string':token	[ 信息]
-		[2] = 'int32':anti	[ 防沉迷状态: 1-认证已成年 2-认证未成年 3-未认证    // 防沉迷状态: 1-认证已成年 2-认证未成年 3-未认证]
+	[1] = {--ReqWishTreeInfo
 	}
 --]]
-c2s.LOGIN_REQ_RECONNECT = 261
+c2s.ANNIVERSARY2ND_REQ_WISH_TREE_INFO = 9230
 
 --[[
 	[1] = {--ReqLuckyWheel
@@ -5020,10 +5027,10 @@ c2s.LOGIN_REQ_RECONNECT = 261
 c2s.SACRIFICE_REQ_LUCKY_WHEEL = 8002
 
 --[[
-	[1] = {--ReqWishTreeInfo
+	[1] = {--ReqQuickReceiveFriendHelpTask
 	}
 --]]
-c2s.ANNIVERSARY2ND_REQ_WISH_TREE_INFO = 9230
+c2s.FRIEND_REQ_QUICK_RECEIVE_FRIEND_HELP_TASK = 3092
 
 --[[
 	[1] = {--ReqOpenWelfareInfo
@@ -5039,10 +5046,14 @@ c2s.PLAYER_REQ_OPEN_WELFARE_INFO = 289
 c2s.DUNGEON_MATCHING_TEAM_FRIEND = 1805
 
 --[[
-	[1] = {--ReqQuickReceiveFriendHelpTask
+	[1] = {--ReqLadderNewEquip
+		[1] = 'int32':type	[1装备 2卸下]
+		[2] = 'string':heroId	[英雄id]
+		[3] = 'string':newEquipId	[新装备id]
+		[4] = 'int32':index	[位置]
 	}
 --]]
-c2s.FRIEND_REQ_QUICK_RECEIVE_FRIEND_HELP_TASK = 3092
+c2s.LADDER_REQ_LADDER_NEW_EQUIP = 8307
 
 --[[
 	[1] = {--ReqGetParadiseMsg
@@ -5056,15 +5067,6 @@ c2s.ACTIVITY_REQ_GET_PARADISE = 5135
 	}
 --]]
 c2s.PLAYER_SETTINGS = 281
-
---[[
-	[1] = {--ExploreEquipPutOn
-		[1] = 'string':id	[装备id]
-		[2] = 'int32':cabinId	[舱室id]
-		[3] = 'int32':index
-	}
---]]
-c2s.EXPLORE_EXPLORE_EQUIP_PUT_ON = 7808
 
 --[[
 	[1] = {--ReqChangeLinkAgeDesire
@@ -5089,18 +5091,10 @@ c2s.DATING_REQ_AITRIGGER = 1560
 c2s.ACTIVITY2_REQ_TAKE_REPAIR_OUTPUT = 9405
 
 --[[
-	[1] = {--ReqResetQuit
-		[1] = 'int32':chapterId
+	[1] = {--ReqEndlessRankList
 	}
 --]]
-c2s.DETECTIVE_REQ_RESET_QUIT = 8915
-
---[[
-	[1] = {--SubmitShare
-		[1] = 'int32':id	[ ID]
-	}
---]]
-c2s.SHARE_SUBMIT_SHARE = 6102
+c2s.ENDLESS_CLOISTER_REQ_ENDLESS_RANK_LIST = 5380
 
 --[[
 	[1] = {--CabinAddHero
@@ -5110,6 +5104,20 @@ c2s.SHARE_SUBMIT_SHARE = 6102
 	}
 --]]
 c2s.EXPLORE_CABIN_ADD_HERO = 7804
+
+--[[
+	[1] = {--SubmitShare
+		[1] = 'int32':id	[ ID]
+	}
+--]]
+c2s.SHARE_SUBMIT_SHARE = 6102
+
+--[[
+	[1] = {--ReqBulletInfo
+		[1] = 'int32':barrageId
+	}
+--]]
+c2s.CHAT_REQ_BULLET_INFO = 2317
 
 --[[
 	[1] = {--ExploreTaskInfos

@@ -312,7 +312,7 @@ local t =
 											{
 												
 											},
-											width = "194",
+											width = "186",
 											ZOrder = "1",
 										},
 									},
@@ -374,8 +374,8 @@ local t =
 							height = "60",
 							ignoreSize = "False",
 							name = "Button_serverListItem",
-							normal = "ui/login/7.png",
-							pressed = "ui/login/7.png",
+							normal = "ui/login/new1/b7.png",
+							pressed = "ui/login/new1/b7.png",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -418,7 +418,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -434,7 +434,7 @@ local t =
 									{
 										IsPercent = true,
 									},
-									width = "133",
+									width = "103",
 									ZOrder = "1",
 								},
 							},
@@ -454,6 +454,7 @@ local t =
 		{
 			"ui/login/88.png",
 			"ui/login/7.png",
+			"ui/login/new1/b7.png",
 		},
 		armatures = 
 		{

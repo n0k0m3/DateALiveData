@@ -1,0 +1,32 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"bust_eff.moc",
+	"textures":[
+		"bust_eff.512/texture_00.png"
+	],
+	"motions":{
+		"id_heart":[
+			{"file":"motions/id_heart.mtn","fade_in":0,"fade_out":0}
+		],
+		"id_idea":[
+			{"file":"motions/id_idea.mtn","fade_in":0,"fade_out":0}
+		],
+		"id_sun":[
+			{"file":"motions/id_sun.mtn","fade_in":0,"fade_out":0}
+		],
+		"id_angry":[
+			{"file":"motions/id_angry.mtn","fade_in":0,"fade_out":0}
+		],
+		"id_gas":[
+			{"file":"motions/id_gas.mtn","fade_in":0,"fade_out":0}
+		],
+		"id_surprise":[
+			{"file":"motions/id_surprise.mtn","fade_in":0,"fade_out":0}
+		],
+		"id_sweat":[
+			{"file":"motions/id_sweat.mtn","fade_in":0,"fade_out":0}
+		]
+	},
+	"project_settings":"bust_eff.settings.json",
+	"name":"bust_eff"
+}

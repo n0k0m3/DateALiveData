@@ -80,13 +80,13 @@ function FubenMonsterTrialDetailView:initLeftPanel()
 	self.Label_time_title:setTextById(2106004)
 
 	local weekDay = {
-		"一",
-		"二",
-		"三",
-		"四",
-		"五",
-		"六",
-		"日"
+		TextDataMgr:getText(190000846),
+		TextDataMgr:getText(190000847),
+		TextDataMgr:getText(190000848),
+		TextDataMgr:getText(190000849),
+		TextDataMgr:getText(190000850),
+		TextDataMgr:getText(190000851),
+		TextDataMgr:getText(190000852)
 	}
 	local closeday = TabDataMgr:getData("DiscreteData", 90021).data.settlement
 	local start = closeday + 1
@@ -120,7 +120,7 @@ function FubenMonsterTrialDetailView:initRightPanel()
 
 	local suffixCfg = TabDataMgr:getData("HighBoss", self.highBossId)	
 
-	self.Panel_level_suffix.label:setText(suffixCfg.stringId)
+	self.Panel_level_suffix.label:setTextById(suffixCfg.stringId)
 	local BuffIcon = TFDirector:getChildByPath(self.Panel_level_suffix, "BuffIcon")
 	BuffIcon:setTexture(suffixCfg.icon)
 

@@ -1165,7 +1165,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "17",
+													height = "18",
 													ignoreSize = "True",
 													name = "Label_on",
 													nTextAlign = "1",
@@ -1181,7 +1181,7 @@ local t =
 													{
 														PositionX = -80,
 													},
-													width = "46",
+													width = "49",
 													ZOrder = "1",
 												},
 												{
@@ -1322,7 +1322,7 @@ local t =
 									controlID = "Label_join_tip_Panel_limit_level_Panel_root_Panel-teamRoomSettingView_Layer1_teamFight_Game",
 									UUID = "bf9c6596_0617_4e7d_8953_8f9b03c84525",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -1358,7 +1358,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -137,
+										PositionX = -83,
 									},
 									width = "115",
 									ZOrder = "1",

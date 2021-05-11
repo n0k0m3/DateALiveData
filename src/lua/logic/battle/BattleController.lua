@@ -87,6 +87,8 @@ function battleController.registerEvents()
     EventMgr:addEventListener(this, eEvent.EVENT_TRIGGER_JUMP, this.onTriggerJump) --组队副本跳转
     EventMgr:addEventListener(this, EV_RECONECT_EVENT, handler(this.onReconnect))
     -- EventMgr:addEventListener(this, eEvent.EVENT_CHANGE_GUNGEON, this.onChangeDungeon) --组队副本跳转
+    EventMgr:addEventListener(this, eEvent.EVENT_AIR_POINT_CHANGE, handler(this.onAirPointChange))
+    
 
 
 end
@@ -479,31 +481,31 @@ function battleController.setTiming(bTime)
     if EventTrigger:isRunning() then
         return
     end
-    if bTime then
-        this.adjustSysStartTime()
-    else
-        if this.sysStartTime > this.sysTimeLimit then
-            this.sysStopTime = BattleUtils.gettime()
-        end
-    end
     this.bTiming = bTime
-    BattleMgr.updatePauseState(not bTime)
+    -- if bTime then
+    --     this.adjustSysStartTime()
+    -- else
+    --     if this.sysStartTime > this.sysTimeLimit then
+    --         this.sysStopTime = BattleUtils.gettime()
+    --     end
+    -- end
+    -- BattleMgr.updatePauseState(not bTime)
 end
 
 function battleController.pauseOrResume(isPause)
-    if isPause then
-        if this.sysStopTime > this.sysTimeLimit then
-            return
-        end
-        if this.sysStartTime > this.sysTimeLimit then
-            this.sysStopTime = BattleUtils.gettime()
-        end
-    else
-        if this.isTiming() then
-            this.adjustSysStartTime()
-        end
-    end
-    BattleMgr.updatePauseState(isPause)
+    -- if isPause then
+    --     if this.sysStopTime > this.sysTimeLimit then
+    --         return
+    --     end
+    --     if this.sysStartTime > this.sysTimeLimit then
+    --         this.sysStopTime = BattleUtils.gettime()
+    --     end
+    -- else
+    --     if this.isTiming() then
+    --         this.adjustSysStartTime()
+    --     end
+    -- end
+    -- BattleMgr.updatePauseState(isPause)
 end
 
 function battleController.adjustSysStartTime()
@@ -537,8 +539,9 @@ end
 
 function battleController.fixTime(time)
     if time > statistics.time then
-        this.sysStartTime = BattleUtils.gettime() - time
-        victoryDecide.fixRemainime()
+        statistics.time = time
+        --this.sysStartTime = BattleUtils.gettime() - time
+        victoryDecide.fixRemainime(time)
     end
 end
 
@@ -679,6 +682,19 @@ function battleController.getFocusNode()
     if hero then
         return hero.actor
     end
+end
+
+function battleController.checkCondSuccess( cond , params )
+    -- body
+    local result = true
+    for k,v in pairs(cond) do
+        if k == "event" and params.event then
+            if v ~= params.event then
+                result = false
+            end
+        end
+    end
+    return result
 end
 
 function battleController.setFocusNode(focusNode)
@@ -1683,6 +1699,7 @@ function battleController.update(delta)
     if not this.bStartTime  then
         return
     end
+    this.hitMusicNum = {}
     -- this.handlCombo(delta)
     this.team:update(delta)
     levelParse:update(delta)
@@ -1705,7 +1722,7 @@ function battleController.update(delta)
     -- 刷怪
     brushMonster:update(delta)
     if BattleGuide:isGuideStart() then
-        BattleGuide:update(dt)
+        BattleGuide:update(delta)
     end
 end
 function battleController.handlStopFrame(delta)
@@ -1745,6 +1762,10 @@ end
 
 function battleController.getWave()
     return victoryDecide.getWave()
+end
+
+function battleController:getCurBrushWave()
+    return brushMonster:getCurBrushWave()
 end
 
 function battleController.eventCheck(hero)
@@ -1834,11 +1855,11 @@ function battleController.exitBattle()
     this.endFight()
     this.clear()
     AwakeMgr.clean()
-    ResLoader.clean()
     musicMgr.clean()
     -- BattleMgr:removeScheduleAndActionMgr( )
     if not this.isChangeDungeon then 
         LockStep.clean()
+        ResLoader.clean()
     end
 
     EventTrigger:clearTriggers()
@@ -2539,6 +2560,26 @@ end
 
 function battleController.clearDamageData()
     this.damageData = {}
+end
+
+function battleController.onAirPointChange()
+    if this.isRun() then
+        local heroList = this.getTeam():getMenbers(eCampType.Call)
+        for i, hero in ipairs(heroList) do
+            local host = hero:getHost()
+            if host then
+                if host.data and host.data.follow and host:isAlive() then
+                    local curPos = hero:getPosition()
+                    if not this.canMove(curPos.x,curPos.y) then
+                        local hostPos = host:getPosition()
+                        if hostPos and hostPos.x then
+                            hero:moveToPosAction(hostPos)
+                        end
+                    end
+                end
+            end
+        end
+    end
 end
 
 --应用切换到后台时间派发

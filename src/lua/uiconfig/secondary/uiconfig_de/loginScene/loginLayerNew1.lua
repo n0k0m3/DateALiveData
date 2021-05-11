@@ -112,10 +112,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 568,
+								PositionX = 569,
 								PositionY = 320,
 								IsPercent = true,
-								PercentX = 50,
+								PercentX = 50.11,
 								PercentY = 50,
 							},
 							uipanelviewmodel = 
@@ -135,7 +135,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "51",
+							height = "47",
 							ignoreSize = "True",
 							name = "Image_loginLayerNew1_1",
 							sizepercentx = "0",
@@ -150,7 +150,7 @@ local t =
 								PositionY = 24,
 							},
 							visible = "False",
-							width = "1386",
+							width = "1277",
 							ZOrder = "1",
 						},
 						{
@@ -162,14 +162,14 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "30",
+							height = "47",
 							ignoreSize = "True",
 							name = "logo",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/login/new1/b6.png",
+							texturePath = "ui/login/new1/b8.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
@@ -179,7 +179,7 @@ local t =
 								PercentX = 50.23,
 								PercentY = 4.23,
 							},
-							width = "270",
+							width = "1277",
 							ZOrder = "1",
 							components = 
 							{
@@ -220,7 +220,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFE9C690",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -265,7 +265,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFE9C690",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -1586,8 +1586,8 @@ local t =
 							height = "70",
 							ignoreSize = "True",
 							name = "Button_pv",
-							normal = "ui/login/005.png",
-							pressed = "ui/login/005.png",
+							normal = "ui/login/new1/b1.png",
+							pressed = "ui/login/new1/b1.png",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -2155,7 +2155,6 @@ local t =
 		textures = 
 		{
 			"ui/login/new1/b8.png",
-			"ui/login/new1/b6.png",
 			"ui/login/new1/a7.png",
 			"ui/login/1.png",
 			"ui/common/pop_ui/pop_ui_01.png",
@@ -2168,7 +2167,7 @@ local t =
 			"ui/login/new1/b7.png",
 			"ui/login/m4.png",
 			"ui/login/new1/b5.png",
-			"ui/login/005.png",
+			"ui/login/new1/b1.png",
 			"ui/login/004.png",
 			"ui/login/003.png",
 			"ui/login/002.png",

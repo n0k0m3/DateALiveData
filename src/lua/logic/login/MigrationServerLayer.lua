@@ -19,6 +19,8 @@ function MigrationServerLayer:initUI(ui)
 
     self.titleLabel = TFDirector:getChildByPath(self.rootPanel,"label_title")
     self.titleLabel:setTextById(190000816)
+
+    TFDirector:getChildByPath(self.rootPanel,"label_tip"):setTextById(190000853)
 end
 
 function MigrationServerLayer:removeUI()
@@ -53,24 +55,46 @@ function MigrationServerLayer:setMigrationServerId( migrationServerId )
 end
 
 function MigrationServerLayer:updatePullDown( migrationServerId )
-    self.pulldown_winCell:stopAllActions()
-    
-    self.curwindownsize = me.size(self.defaultPulldownCellSize.width,self.defaultPulldownCellSize.height*10)
     self.btn_pulldown.title = TFGlobalUtils:getMigrationServerTextById(migrationServerId)
     self.btn_pulldown:getChildByName("label_title"):setTextById(self.btn_pulldown.title)
-    self.pulldown_btnlist:removeAllItems()
-    self.pulldown_window:setContentSize(self.curwindownsize)
-    self.pulldown_btnlist:setContentSize(self.curwindownsize)
-    self.pulldown_winCell:setPosition(me.p(0,0))
+    self.pulldown_winCell:setPosition(me.p(0,GameConfig.WS.height))
+    self.UIListViewBar:setVisible(false)
+    self.btn_pulldown:onClick(function()
+        if self.btn_pulldown.stat == false then
+            self.btn_pulldown.stat = true
+            self.pulldown_winCell:setPosition(0,0)
+        else
+            self.btn_pulldown.stat = false
+            self.pulldown_winCell:setPosition(0,GameConfig.WS.height)
+        end
+        self.btn_pulldown:getChildByName("img_arrow"):setFlipY(not self.btn_pulldown:getChildByName("img_arrow"):isFlipY())
+
+        self.UIListViewBar:setVisible(self.btn_pulldown.stat)
+    end)
+end
+
+function MigrationServerLayer:initPullDown()
+    self.btn_pulldown = self.rootPanel:getChildByName("btn_pulldown")
+    self.pulldown_window = self.rootPanel:getChildByName("panel_window")
+    self.pulldown_winCell = self.pulldown_window:getChildByName("panel_pullwin")
+    local scroll_menu = self.pulldown_window:getChildByName("scrollView_menu")
+    local pulldown_cell = scroll_menu:getChildByName("panel_cell")
+    self.defaultPulldownCellSize = self.pulldown_winCell:getContentSize()
+    self.btn_pulldown.stat = false
+    self.btn_pulldown.unclick = false
+    self.pulldown_btnlist = UIListView:create(scroll_menu)
+    self.pulldown_btnlist:setItemModel(pulldown_cell)
+    self.UIListViewBar = UIScrollBar:create(self._ui.Image_scrollBarModel, self._ui.Image_scrollBarInner)
+    self.pulldown_btnlist:setScrollBar(self.UIListViewBar)
 
     local list = {}
     for _,_migrationServerId in pairs(MIGRATION_SERVER_LIST) do
-    	if _migrationServerId > MIGRATION_SERVER_LIST.UNKNOW then
-    		table.insert(list, _migrationServerId)
-    	end
+        if _migrationServerId > MIGRATION_SERVER_LIST.UNKNOW then
+            table.insert(list, _migrationServerId)
+        end
     end
     table.sort(list, function( a, b )
-    	return a > b
+        return a > b
     end)
 
     for _idx,_migrationServerId in ipairs(list) do
@@ -87,57 +111,13 @@ function MigrationServerLayer:updatePullDown( migrationServerId )
         tmitem:getChildByName("label_title"):setTextById(tmitem.title)
         tmitem:setTouchEnabled(true)
         tmitem:onClick(function()
-            if self.btn_pulldown.unclick == true then
-                return
+            self.btn_pulldown.stat = false
+            if self.btn_pulldown.title ~= tmitem.title then
+                self.btn_pulldown.title = tmitem.title   
+                self:setMigrationServerId(_migrationServerId)
             end
-            self.btn_pulldown.unclick = true
-            local actionarr = {MoveTo:create(0.1,me.p(0,0)),CallFunc:create(function()
-                self.btn_pulldown.unclick = false
-                self.btn_pulldown.stat = false
-                if self.btn_pulldown.title ~= tmitem.title then
-                    self.btn_pulldown.title = tmitem.title   
-                    self:setMigrationServerId(_migrationServerId)
-                end
-            end)}
-            self.pulldown_winCell:runAction(Sequence:create(actionarr))
-            self.btn_pulldown:getChildByName("img_arrow"):setFlipY(not self.btn_pulldown:getChildByName("img_arrow"):isFlipY())
         end)
     end
-
-    self.btn_pulldown:onClick(function()
-        if self.btn_pulldown.unclick == true then
-            return
-        end
-        self.btn_pulldown.unclick = true
-        if self.btn_pulldown.stat == false then
-            local actionarr = {MoveTo:create(0.1,me.p(0,-self.curwindownsize.height)),CallFunc:create(function()
-                self.btn_pulldown.unclick = false
-                self.btn_pulldown.stat = true
-            end)}
-            self.pulldown_winCell:runAction(Sequence:create(actionarr))
-        else
-            local actionarr = {MoveTo:create(0.1,me.p(0,0)),CallFunc:create(function()
-                self.btn_pulldown.unclick = false
-                self.btn_pulldown.stat = false
-            end)}
-            self.pulldown_winCell:runAction(Sequence:create(actionarr))
-        end
-        self.btn_pulldown:getChildByName("img_arrow"):setFlipY(not self.btn_pulldown:getChildByName("img_arrow"):isFlipY())
-    end)
 end
 
-function MigrationServerLayer:initPullDown()
-    self.btn_pulldown = self.rootPanel:getChildByName("btn_pulldown")
-    self.pulldown_window = self.rootPanel:getChildByName("panel_window")
-    self.pulldown_winCell = self.pulldown_window:getChildByName("panel_pullwin")
-    local scroll_menu = self.pulldown_window:getChildByName("scrollView_menu")
-    local pulldown_cell = scroll_menu:getChildByName("panel_cell")
-    self.defaultPulldownCellSize = pulldown_cell:getContentSize()
-    self.btn_pulldown.stat = false
-    self.btn_pulldown.unclick = false
-    self.pulldown_btnlist = UIListView:create(scroll_menu)
-    self.pulldown_btnlist:setItemModel(pulldown_cell)
-    pulldown_cell:setVisible(false)
-end
-
-return MigrationServerLayer;
+return MigrationServerLayer

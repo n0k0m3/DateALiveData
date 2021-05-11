@@ -300,14 +300,6 @@ function MaokaMainLayer:_onExit( ... )
     WorldRoomDataMgr:exitRoom()
     self:removeAllChildren()
     ResLoader.clean()
-    if ResLoader.cacheSpine then
-        for k,v in pairs(ResLoader.cacheSpine) do
-            for _k,_v in ipairs(v) do
-                _v:release()
-            end
-        end
-        ResLoader.cacheSpine = {}
-    end
     me.TextureCache:removeUnusedTextures()
     TFDirector:clearMovieClipCache()
     me.FrameCache:removeUnusedSpriteFrames()

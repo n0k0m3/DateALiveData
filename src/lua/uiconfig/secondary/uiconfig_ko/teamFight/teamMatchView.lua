@@ -5142,15 +5142,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "24",
+															fontSize = "20",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_speak",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -5166,7 +5166,7 @@ local t =
 																PositionX = 180,
 																PositionY = 32,
 															},
-															width = "251",
+															width = "335",
 															ZOrder = "1",
 														},
 													},
@@ -5314,7 +5314,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 164,
+												PositionX = 252,
 												PositionY = 21,
 												IsPercent = true,
 												PercentX = 50,
@@ -5343,7 +5343,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 328,
+												PositionX = 503,
 												PositionY = 21,
 												IsPercent = true,
 												PercentX = 100,

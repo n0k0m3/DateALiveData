@@ -1094,6 +1094,10 @@ end
 
 --音效播放
 function BattleUtils.playEffect(res,bLoop,gain)
+    
+    battleController.hitMusicNum = battleController.hitMusicNum or {}
+    if battleController.hitMusicNum[res] then return end
+    battleController.hitMusicNum[res] = true
     if bLoop == nil then
         bLoop = false
     end

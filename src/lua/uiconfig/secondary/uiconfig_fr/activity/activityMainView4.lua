@@ -248,7 +248,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "75",
+							height = "98",
 							ignoreSize = "False",
 							name = "Panel_activityItem",
 							sizepercentx = "0",
@@ -280,7 +280,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "119",
+									height = "98",
 									ignoreSize = "True",
 									name = "ImageNormal",
 									sizepercentx = "0",
@@ -292,10 +292,10 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 99,
-										PositionY = 35,
+										PositionY = 46,
 									},
 									visible = "False",
-									width = "126",
+									width = "195",
 									ZOrder = "1",
 									components = 
 									{
@@ -365,7 +365,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 96,
+												PositionX = 89,
 												PositionY = -33,
 											},
 											width = "130",
@@ -408,7 +408,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "119",
+									height = "98",
 									ignoreSize = "True",
 									name = "ImageSelect",
 									sizepercentx = "0",
@@ -420,9 +420,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 99,
-										PositionY = 35,
+										PositionY = 46,
 									},
-									width = "126",
+									width = "205",
 									ZOrder = "1",
 									components = 
 									{
@@ -492,7 +492,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 96,
+												PositionX = 85,
 												PositionY = -33,
 											},
 											width = "130",

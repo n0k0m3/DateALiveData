@@ -13175,6 +13175,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -13724,20 +13725,18 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "21",
+													height = "25",
 													ignoreSize = "True",
 													name = "Label_title",
 													nTextAlign = "1",
 													nTextHAlign = "1",
-													scaleX = "0.8",
-													scaleY = "0.8",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -13747,9 +13746,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -225,
+														PositionX = -213,
 													},
-													width = "130",
+													width = "161",
 													ZOrder = "1",
 												},
 												{
@@ -13972,11 +13971,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "44",
-											ignoreSize = "False",
+											ignoreSize = "True",
 											name = "Image_assistboss",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -13986,10 +13985,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 124,
+												PositionX = 78,
 												PositionY = 84,
 											},
-											width = "310",
+											width = "206",
 											ZOrder = "1",
 											components = 
 											{
@@ -14034,7 +14033,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -108,
+														PositionX = -56,
 														PositionY = -2,
 													},
 													width = "244",
@@ -16179,7 +16178,7 @@ local t =
 									{
 										
 									},
-									width = "83",
+									width = "97",
 									ZOrder = "1",
 								},
 							},
@@ -16729,14 +16728,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "18",
 									ignoreSize = "True",
 									name = "lab_tip",
 									nTextAlign = "1",
@@ -16745,15 +16744,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "剑姬出战可多获得5%冒险者印章",
+									text = "Deploy Ais to get 5% extra Adventurer Blazon",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -525,
+										PositionX = -538,
 										PositionY = -285,
 									},
-									width = "289",
+									width = "295",
 									ZOrder = "1",
 								},
 							},
@@ -16846,14 +16845,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "18",
 									ignoreSize = "True",
 									name = "lab_tip",
 									nTextAlign = "1",
@@ -16862,7 +16861,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "剑姬出战可获得额外5%羁绊值",
+									text = "Deploy Ais to get 5% extra Bonds Blazon",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -16871,7 +16870,7 @@ local t =
 										PositionY = -285,
 									},
 									visible = "False",
-									width = "269",
+									width = "262",
 									ZOrder = "1",
 								},
 								{
@@ -16919,14 +16918,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "21",
 									ignoreSize = "True",
 									name = "lab_tip1",
 									nTextAlign = "1",
@@ -16935,7 +16934,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "剑姬助战可获得额外1%羁绊印章",
+									text = "Request Ais to get 1% extra Bonds Blazon ",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -16943,7 +16942,7 @@ local t =
 										PositionX = 188,
 										PositionY = 217,
 									},
-									width = "285",
+									width = "302",
 									ZOrder = "1",
 								},
 							},
@@ -17074,7 +17073,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_desc_title",
 											nTextAlign = "1",
@@ -17231,7 +17230,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_reward_title",
 											nTextAlign = "1",
@@ -17248,7 +17247,7 @@ local t =
 												PositionX = 48,
 												PositionY = 161,
 											},
-											width = "101",
+											width = "98",
 											ZOrder = "1",
 										},
 										{

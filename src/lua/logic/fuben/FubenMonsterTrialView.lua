@@ -209,7 +209,7 @@ function FubenMonsterTrialView:refreshLevelInfo()
 		lvlIcon.finishTag:setVisible(finish)
 		lvlIcon.up:setVisible(lvlData[i].up)
 		lvlIcon.unStartMask:Hide()
-		lvlIcon.levelname:setText(lvlData[i].configHighBoss.dungeonName)
+		lvlIcon.levelname:setTextById(lvlData[i].configHighBoss.dungeonName)
 	
 		if finish then
 			--是否完美
@@ -299,7 +299,7 @@ end
 function FubenMonsterTrialView:initCell(cell, cellData)
 	local buffer = TabDataMgr:getData("Buffer", cellData.buffId)	
 	cell:getChildByName("head"):setTexture(HeroDataMgr:getIconPathById(cellData.heroId))
-	cell:getChildByName("label_buff"):setText(buffer.des)
+	cell:getChildByName("label_buff"):setTextById(buffer.desEn)
 	cell:getChildByName("buff_name"):setText(HeroDataMgr:getName(cellData.heroId))	
 end
 

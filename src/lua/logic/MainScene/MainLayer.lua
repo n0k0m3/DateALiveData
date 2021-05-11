@@ -458,6 +458,12 @@ function MainLayer:initUI(ui)
     self.ui:runAnimation("Action4",1)
 
     self.button_Caociyuan = TFDirector:getChildByPath(ui,"button_Caociyuan")
+
+    if TFGlobalUtils:isConnectEnServer( ) then
+        self.button_Caociyuan:setTextureNormal("ui/mainLayer3/c12.png")  --英文版设置活动按钮ui路径统一为地错
+        self.button_Caociyuan:setTexturePressed("ui/mainLayer3/c12.png")  --英文版设置活动按钮ui路径统一为地错
+    end
+    
     self.Image_CaociyuanClip = TFDirector:getChildByPath(ui,"Image_CaociyuanClip")
     self.button_OneYear   = TFDirector:getChildByPath(ui,"button_OneYear")
 
@@ -761,8 +767,9 @@ function MainLayer:updateLeftButtons()
 			end
 		end
 		
-		local tmAllBtns3 = {self.Button_update, self.Button_backPlayer, self.Button_wj,self.Button_preview,self.Button_OneYearShare,self.btn_zhuifan,self.btn_phone_small}
-		local tmAllBtnspos3 = {ccp(52,104),ccp(165,104),ccp(265,104),ccp(52,43),ccp(165,43),ccp(265,43),ccp(355,104)}
+		--local tmAllBtns3 = {self.Button_update, self.Button_backPlayer, self.Button_wj,self.Button_preview,self.Button_OneYearShare,self.btn_zhuifan,self.btn_phone_small}  --英文版修改
+        local tmAllBtns3 = {self.Button_kefu, self.Button_fb,self.Button_twitter,self.Button_dis,self.Button_backPlayer }
+		local tmAllBtnspos3 = {ccp(52,43),ccp(52,104),ccp(165,104),ccp(265,104),ccp(165,43),ccp(265,43),ccp(355,104)}
 		local idx = 1
         local isShowSpineBtn = false
 		for k,v in ipairs(tmAllBtns3) do
@@ -824,11 +831,11 @@ function MainLayer:showLeftBtnAnim()
         if self.button_OneYear:isVisible() then
             table.insert(threeActivity , self.button_OneYear)
         end
-        if self.Button_Activity7:isVisible() then
-            table.insert(threeActivity , self.Button_Activity7)
+        if self.Button_Activity6:isVisible() then
+            table.insert(threeActivity , self.Button_Activity6)
         end
-        if self.Button_Activity1001:isVisible() then
-            table.insert(threeActivity , self.Button_Activity1001)
+        if self.button_Caociyuan:isVisible() then
+            table.insert(threeActivity , self.button_Caociyuan)
         end
      else
         if self.button_OneYear:isVisible() then
@@ -883,17 +890,6 @@ function MainLayer:showLeftBtnAnim()
         self.Button_Activity7:runAction(Spawn:create({FadeIn:create(0.3),MoveTo:create(0.3,orgPos),ScaleTo:create(0.3,1)}))
     end
 
-
-    local threeActivity = {}
-    if self.button_OneYear:isVisible() then
-        table.insert(threeActivity , self.button_OneYear)
-    end
-    if self.Button_Activity7:isVisible() then
-        table.insert(threeActivity , self.Button_Activity7)
-    end
-    if self.Button_Activity91:isVisible() then
-        table.insert(threeActivity , self.Button_Activity91)
-    end
 
     --多个活动同时存在新增特殊处理 
     if #threeActivity == 2 then
@@ -3462,11 +3458,11 @@ function MainLayer:updateOneYearBtns()
             if self.button_OneYear:isVisible() then
                 table.insert(threeActivity , self.button_OneYear)
             end
-            if self.Button_Activity7:isVisible() then
-                table.insert(threeActivity , self.Button_Activity7)
+            if self.Button_Activity6:isVisible() then
+                table.insert(threeActivity , self.Button_Activity6)
             end
-            if self.Button_Activity1001:isVisible() then
-                table.insert(threeActivity , self.Button_Activity1001)
+            if self.button_Caociyuan:isVisible() then
+                table.insert(threeActivity , self.button_Caociyuan)
             end
          else
             if self.button_OneYear:isVisible() then
@@ -4397,6 +4393,8 @@ function MainLayer:onUpdateActivitysState()
     
     if self.button_Caociyuan then
         local activityInfos = ActivityDataMgr2:getActivityInfo(nil,4)
+        print("activityInfos")
+        dump(activityInfos)
         self.button_Caociyuan:setVisible(#activityInfos > 0)
     end
 

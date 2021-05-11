@@ -36,19 +36,20 @@ function CgView:initUI(ui)
 
     self:initSkipBtn()
 
-    local danmuId = Utils:getDanmuId(EC_DanmuType.CG,self.id)
-    if danmuId then
-        local param = {
-            id = danmuId,
-            offset = 60,
-            danmuHeight = 580,
-            autoRun = true,
-            rowNum = 8
-        }
-        self.danmuMark = Utils:createDanmuMark(param)
-        self.danmuMark:setZOrder(2)
-        self:addChild(self.danmuMark)
-    end
+    --TODO CLOSE
+    -- local danmuId = Utils:getDanmuId(EC_DanmuType.CG,self.id)
+    -- if danmuId then
+    --     local param = {
+    --         id = danmuId,
+    --         offset = 60,
+    --         danmuHeight = 580,
+    --         autoRun = true,
+    --         rowNum = 8
+    --     }
+    --     self.danmuMark = Utils:createDanmuMark(param)
+    --     self.danmuMark:setZOrder(2)
+    --     self:addChild(self.danmuMark)
+    -- end
 end
 
 function CgView:initSkipBtn()
@@ -112,9 +113,10 @@ function CgView:_onExit()
         self.closeListener()
     end
 
-    if self.danmuMark then
-        self.danmuMark:removeEvents()
-    end
+    --TODO CLOSE
+    -- if self.danmuMark then
+    --     self.danmuMark:removeEvents()
+    -- end
 
     me.TextureCache:removeUnusedTextures()
     SpineCache:getInstance():clearUnused()

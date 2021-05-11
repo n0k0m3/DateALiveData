@@ -611,14 +611,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "30",
+											fontSize = "25",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "34",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_level_name",
 											nTextAlign = "1",
@@ -635,7 +635,7 @@ local t =
 												PositionX = -26,
 												PositionY = 430,
 											},
-											width = "401",
+											width = "335",
 											ZOrder = "1",
 										},
 										{

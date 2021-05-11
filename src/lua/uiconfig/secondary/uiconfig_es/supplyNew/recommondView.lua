@@ -299,7 +299,7 @@ local t =
 											UUID = "9ac6ce50_0a95_4197_b476_2368a8ae6cd8",
 											anchorPoint = "False",
 											anchorPointX = "0",
-											anchorPointY = "0.5",
+											anchorPointY = "1",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -335,7 +335,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -89,
-												PositionY = 140,
+												PositionY = 159,
 											},
 											width = "158",
 											ZOrder = "1",
@@ -361,7 +361,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -26,
-												PositionY = 114,
+												PositionY = 93,
 											},
 											width = "138",
 											ZOrder = "1",
@@ -410,7 +410,7 @@ local t =
 													{
 														PositionX = -48,
 													},
-													width = "143",
+													width = "141",
 													ZOrder = "1",
 													components = 
 													{
@@ -487,7 +487,7 @@ local t =
 												PositionX = -3,
 												PositionY = -77,
 											},
-											width = "102",
+											width = "101",
 											ZOrder = "1",
 										},
 										{
@@ -562,7 +562,7 @@ local t =
 														PositionX = -19,
 														PositionY = 7,
 													},
-													width = "152",
+													width = "162",
 													ZOrder = "1",
 												},
 												{
@@ -609,7 +609,7 @@ local t =
 														PositionY = 1,
 													},
 													visible = "False",
-													width = "382",
+													width = "409",
 													ZOrder = "1",
 												},
 											},
@@ -692,7 +692,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -716,7 +716,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -57,
-														PositionY = 10,
+														PositionY = 8,
 													},
 													width = "151",
 													ZOrder = "1",
@@ -762,9 +762,9 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -62,
-														PositionY = -15,
+														PositionY = -18,
 													},
-													width = "23",
+													width = "27",
 													ZOrder = "1",
 												},
 												{
@@ -884,7 +884,7 @@ local t =
 														PositionX = 57,
 														PositionY = -15,
 													},
-													width = "33",
+													width = "27",
 													ZOrder = "1",
 													components = 
 													{
@@ -931,7 +931,7 @@ local t =
 															{
 																PositionX = -1,
 															},
-															width = "18",
+															width = "22",
 															ZOrder = "1",
 														},
 													},
@@ -1039,7 +1039,7 @@ local t =
 													{
 														PositionY = -2,
 													},
-													width = "88",
+													width = "83",
 													ZOrder = "1",
 												},
 											},

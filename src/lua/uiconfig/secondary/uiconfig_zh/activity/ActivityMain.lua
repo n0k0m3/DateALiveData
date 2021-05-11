@@ -2543,14 +2543,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "7.0",
+											text = "7",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "45",
+											width = "19",
 											ZOrder = "1",
 										},
 										{

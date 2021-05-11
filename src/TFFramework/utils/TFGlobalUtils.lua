@@ -29,16 +29,22 @@ if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) then
 	table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE)
 	table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_KOREA_TW)
 elseif (CC_TARGET_PLATFORM == CC_PLATFORM_IOS) then
-	table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_ENGLISH)
-	table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE)
 	if NEW_APP_VERSION then
-		table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_KOREA_TW)
+		table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_ENGLISH)
+		--table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE)
+		--table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_KOREA_TW)
+	else
+		table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_ENGLISH)
+		table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE)
 	end
 else
-	table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_ENGLISH)
-	table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE)
 	if NEW_APP_VERSION then
-		table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_KOREA_TW)
+		table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_ENGLISH)
+		--table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE)
+		--table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_KOREA_TW)
+	else
+		table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_ENGLISH)
+		table.insert(OPEN_SERVER_LIST,GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE)
 	end
 end
 
@@ -233,7 +239,7 @@ function TFGlobalUtils:getPlayerServerIdx( )
 	end
 
 	--2.转号选择的服务器
-	if NEW_APP_VERSION then
+	if NEW_APP_VERSION and (not self:InVarificationStatus()) then
 		local _,sdkServerId = TFGlobalUtils:getMigrationServerToGameServer(false)
 		if self:isGameServerOpen(sdkServerId) then 
 	    	return sdkServerId
@@ -279,6 +285,7 @@ function TFGlobalUtils:setMigrationServerId( value )
 	-- body
 	if value then
         CCUserDefault:sharedUserDefault():setIntegerForKey(KEY_CACHE_MIGRATION_SERVER_KEY, value)
+        CCUserDefault:sharedUserDefault():flush()
     end
 end
 
@@ -333,6 +340,10 @@ function TFGlobalUtils:canMigrationServerEnterGameServer( )
 		return true
 	end
 	return false
+end
+
+function TFGlobalUtils:InVarificationStatus( )
+    return (#OPEN_SERVER_LIST == 1)
 end
 
 return TFGlobalUtils

@@ -59,7 +59,7 @@ function FubenMonsterReward:initRewardList()
 	
 	local AllTask = TabDataMgr:getData("Task")
 	for k, v in pairs(AllTask) do		
-		if v.ext.type == 1 then
+		if (v.ext.type == 1) and (v.open) then
 			func(v.id, self.data[ListType.Achive])
 		end
 	end

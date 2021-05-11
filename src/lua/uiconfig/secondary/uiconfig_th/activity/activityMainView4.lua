@@ -248,7 +248,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "75",
+							height = "98",
 							ignoreSize = "False",
 							name = "Panel_activityItem",
 							sizepercentx = "0",
@@ -280,7 +280,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "119",
+									height = "98",
 									ignoreSize = "True",
 									name = "ImageNormal",
 									sizepercentx = "0",
@@ -292,10 +292,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 99,
-										PositionY = 35,
+										PositionY = 46,
 									},
-									visible = "False",
-									width = "126",
+									width = "195",
 									ZOrder = "1",
 									components = 
 									{
@@ -351,11 +350,11 @@ local t =
 												StrokeColor = "#FF3C5AC7",
 												StrokeSize = 2,
 											},
-											height = "29",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
-											nTextAlign = "0",
-											nTextHAlign = "0",
+											nTextAlign = "1",
+											nTextHAlign = "2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -365,10 +364,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 92,
+												PositionX = 87,
 												PositionY = -31,
 											},
-											width = "92",
+											width = "175",
 											ZOrder = "1",
 										},
 										{
@@ -408,7 +407,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "119",
+									height = "98",
 									ignoreSize = "True",
 									name = "ImageSelect",
 									sizepercentx = "0",
@@ -420,9 +419,10 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 99,
-										PositionY = 35,
+										PositionY = 46,
 									},
-									width = "126",
+									visible = "False",
+									width = "205",
 									ZOrder = "1",
 									components = 
 									{
@@ -478,11 +478,11 @@ local t =
 												StrokeColor = "#FF4C8FF8",
 												StrokeSize = 2,
 											},
-											height = "29",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
-											nTextAlign = "0",
-											nTextHAlign = "0",
+											nTextAlign = "1",
+											nTextHAlign = "2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -492,10 +492,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 92,
+												PositionX = 88,
 												PositionY = -31,
 											},
-											width = "92",
+											width = "175",
 											ZOrder = "1",
 										},
 										{

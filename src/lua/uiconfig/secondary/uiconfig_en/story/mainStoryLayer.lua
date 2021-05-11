@@ -500,7 +500,7 @@ local t =
 												StrokeSize = 1,
 											},
 											hAlignment = "0",
-											height = "100",
+											height = "130",
 											ignoreSize = "False",
 											name = "TextArea_talk",
 											sizepercentx = "0",
@@ -513,7 +513,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -191,
-												PositionY = -65,
+												PositionY = -73,
 											},
 											vAlignment = "1",
 											width = "450",
@@ -573,7 +573,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "19",
+													height = "18",
 													ignoreSize = "True",
 													name = "Label_role_name",
 													nTextAlign = "1",
@@ -590,7 +590,7 @@ local t =
 													{
 														
 													},
-													width = "171",
+													width = "169",
 													ZOrder = "1",
 												},
 											},
@@ -788,7 +788,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "19",
+													height = "18",
 													ignoreSize = "True",
 													name = "Label_role_name",
 													nTextAlign = "1",
@@ -805,7 +805,7 @@ local t =
 													{
 														
 													},
-													width = "83",
+													width = "84",
 													ZOrder = "1",
 												},
 											},
@@ -939,7 +939,7 @@ local t =
 												StrokeColor = "#FFF588A7",
 												StrokeSize = 2,
 											},
-											height = "30",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -955,7 +955,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "53",
+											width = "55",
 											ZOrder = "1",
 										},
 									},

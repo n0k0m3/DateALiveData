@@ -182,6 +182,34 @@ function LeagueHallView:initUI(ui)
     self:selectTabBtn(self.defaultIdx or 1)
 
 
+    if TFGlobalUtils:isConnectKoreaTwServer( ) then
+
+        local need = {562061 , 562062 , 562063 , 562064 ,562065}   --社团经验卡id配置写死  策划要求
+        self.items = {}
+        self.isShowUpgradeButton = false
+        for k,v in pairs(need) do
+            if GoodsDataMgr:getItemCount(v) > 0 then
+                self.isShowUpgradeButton = true
+                break
+            end
+        end
+        if self.isShowUpgradeButton then
+            self.Button_upgrade = TFButton:create("ui/common/button_middle_n.png")
+            self.Button_upgrade:setPosition(260 , 53)
+            self.Button_upgrade:setName("Button_upgrade")
+            self.Panel_left:addChild(self.Button_upgrade)
+            local label_custom = TFLabel:create()
+            label_custom:setFontName("font/fangzheng_zhunyuan.ttf")
+            label_custom:setFontSize(20)
+            label_custom:setAnchorPoint(ccp(0.5 , 0.5))
+            label_custom:setPosition(0 , 0)
+            label_custom:setTextAreaSize(CCSize(120 , 0))
+            label_custom:setName("label_custom")
+            label_custom:setTextById(111000117)
+            self.Button_upgrade:addChild(label_custom)
+        end
+    end
+
 end
 
 --初始化列表
@@ -597,6 +625,21 @@ end
 function LeagueHallView:onShow()
     self.super.onShow(self)
     self:updateRedPoints()
+     if TFGlobalUtils:isConnectKoreaTwServer( ) then
+
+        local need = {562061 , 562062 , 562063 , 562064 ,562065}   --社团经验卡id配置写死  策划要求
+        self.items = {}
+        local isShowButton = false
+        for k,v in pairs(need) do
+            if GoodsDataMgr:getItemCount(v) > 0 then
+                isShowButton = true
+                break
+            end
+        end
+        if isShowButton == false and self.Button_upgrade then
+            self.Button_upgrade:hide()
+        end
+     end
 end
 
 function LeagueHallView:initLeft()
@@ -1268,6 +1311,13 @@ function LeagueHallView:registerEvents()
     self.Panel_touch:addMEListener(TFWIDGET_TOUCHBEGAN, onTouchBegan)
     self.Panel_touch:addMEListener(TFWIDGET_TOUCHMOVED, onTouchMove)
     self.Panel_touch:addMEListener(TFWIDGET_TOUCHENDED, onTouchUp)
+
+    if TFGlobalUtils:isConnectKoreaTwServer( ) and self.isShowUpgradeButton then
+        self.Button_upgrade:onClick(function( ... )
+            Utils:openView("league.LeagueLevelUp")
+        end)
+    end
+    
 end
 
 function LeagueHallView:modifyNameHandle(sender)

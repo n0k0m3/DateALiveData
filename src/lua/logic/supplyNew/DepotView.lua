@@ -298,6 +298,7 @@ function DepotView:updateItem(item, _data)
     local Label_sale = TFDirector:getChildByPath(Image_sale, "Label_sale")
     local Label_count = TFDirector:getChildByPath(item, "Label_count"):hide()
 
+    if not commodityCfg then return end --容错处理
     local goods = commodityCfg.goodInfo[1]
     local goodsId, goodsCount = goods.id, goods.num
     local goodsCfg = GoodsDataMgr:getItemCfg(goodsId)

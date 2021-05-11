@@ -20,13 +20,12 @@ function BattleScene:addView()
     else
         battleView = require("lua.logic.battle.BattleView"):new()
     end
-    self.battleView = battleView
     self:addLayer(battleView)
 end
 
 function BattleScene:onEnter()
     self.super.onEnter(self)
-    CommonManager.checkTipEvent()
+    CommonManager:checkTipEvent()
 end
 
 function BattleScene:onExit()

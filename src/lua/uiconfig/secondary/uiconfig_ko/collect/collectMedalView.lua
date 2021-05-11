@@ -524,7 +524,7 @@ local t =
 									UUID = "5ff7a297_fb30_46a1_9d7b_c5f58eee5bee",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
-									anchorPointY = "0.5",
+									anchorPointY = "0",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
@@ -545,10 +545,10 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_medal_name",
-									nTextAlign = "1",
+									nTextAlign = "2",
 									nTextHAlign = "1",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -559,9 +559,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -100,
+										PositionY = -112,
 									},
-									width = "85",
+									width = "152",
 									ZOrder = "1",
 								},
 								{
@@ -616,7 +616,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -70,
+										PositionY = 95,
 									},
 									uipanelviewmodel = 
 									{

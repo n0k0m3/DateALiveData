@@ -325,24 +325,29 @@ function DatingScriptView:initUI(ui)
 end
 
 function DatingScriptView:initDanMuView()
-    dump(self.curScript.datingRuleCid)
-    local barrageCfg = TabDataMgr:getData("Barrage")[self.curScript.datingRuleCid]
-     if barrageCfg and barrageCfg.barrageType == EC_DanmuType.Dating then
-         self:setDanMuPannelVisible(true)
-         self.Panel_danMuOption:setVisible(true)
-         self.isDatingDanMu = true
-         TFDirector:send(c2s.CHAT_REQ_BULLET_INFO,{self.curScript.datingRuleCid})
-         if not self.danmuView then
-             self.danmuView = requireNew("lua.logic.dating.DatingDanMuViewNew"):new(self.curScript.datingRuleCid)
-             self:addLayerToNode(self.danmuView, self.Panel_danmuView)
-         else
-             self.danmuView:resetData(self.curScript.datingRuleCid)
-         end
-     else
-         self:setDanMuPannelVisible(false)
-         self.isDatingDanMu = false
-         self.Panel_danMuOption:setVisible(false)
-     end
+    --TODO CLOSE
+    -- dump(self.curScript.datingRuleCid)
+    -- local barrageCfg = TabDataMgr:getData("Barrage")[self.curScript.datingRuleCid]
+    --  if barrageCfg and barrageCfg.barrageType == EC_DanmuType.Dating then
+    --      self:setDanMuPannelVisible(true)
+    --      self.Panel_danMuOption:setVisible(true)
+    --      self.isDatingDanMu = true
+    --      TFDirector:send(c2s.CHAT_REQ_BULLET_INFO,{self.curScript.datingRuleCid})
+    --      if not self.danmuView then
+    --          self.danmuView = requireNew("lua.logic.dating.DatingDanMuViewNew"):new(self.curScript.datingRuleCid)
+    --          self:addLayerToNode(self.danmuView, self.Panel_danmuView)
+    --      else
+    --          self.danmuView:resetData(self.curScript.datingRuleCid)
+    --      end
+    --  else
+    --      self:setDanMuPannelVisible(false)
+    --      self.isDatingDanMu = false
+    --      self.Panel_danMuOption:setVisible(false)
+    --  end
+
+    self:setDanMuPannelVisible(false)
+    self.isDatingDanMu = false
+    self.Panel_danMuOption:setVisible(false)
 end
 
 function DatingScriptView:insertPageDanMuData()
@@ -2516,6 +2521,7 @@ function DatingScriptView:playVoice(time)
             self.isAuttoJump = false
             self.isTouchJump = false
             TFAudio.setFinishCallback(self.voiceHandle,function()
+                if tolua.isnull(self ) then return end
                 self.isTouchJump = true
                 if self.isAuttoJump then
                     if self.skipFun then

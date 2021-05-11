@@ -701,6 +701,7 @@ function LevelParse:onAirPointChange()
 	self.moveRect.size.height = math.ceil(self.moveRect.size.height/ self:getBlockSize())*self:getBlockSize() + self:getBlockSize()
 	-- dump(self.moveRect)
 	-- Box("AAA")
+	EventMgr:dispatchEvent(eEvent.EVENT_AIR_POINT_CHANGE)
 end
 
 function LevelParse:moveObject(cfg)

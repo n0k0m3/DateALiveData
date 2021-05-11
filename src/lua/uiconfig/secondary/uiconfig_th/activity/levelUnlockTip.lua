@@ -130,14 +130,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "28",
+							fontSize = "24",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -146,7 +146,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "解锁条件",
+							text = "Unlock Requirement",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -154,7 +154,7 @@ local t =
 								PositionX = 568,
 								PositionY = 544,
 							},
-							width = "114",
+							width = "263",
 							ZOrder = "1",
 						},
 						{
@@ -352,18 +352,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -376,7 +376,7 @@ local t =
 										PositionX = -162,
 										PositionY = 23,
 									},
-									width = "144",
+									width = "313",
 									ZOrder = "1",
 								},
 								{
@@ -398,7 +398,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,

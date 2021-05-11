@@ -310,6 +310,86 @@ local t =
 							},
 							width = "400",
 							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "NpcEffectPanel_Panel_newRole_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
+									UUID = "f18dcc50_6d19_44c8_a95a_9478eb9bb3ba",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "400",
+									ignoreSize = "False",
+									name = "NpcEffectPanel",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 568,
+										PositionY = 319,
+										relativeToName = "Panel",
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "400",
+									ZOrder = "20",
+									components = 
+									{
+										
+										{
+											controlID = "NpcEffect_NpcEffectPanel_Panel_newRole_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
+											UUID = "45885254_77e2_4cc4_a7f9_9fbe88b71566",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "False",
+											classname = "MEPanel",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											DesignHeight = "640",
+											DesignType = "0",
+											DesignWidth = "960",
+											dstBlendFunc = "771",
+											height = "400",
+											ignoreSize = "False",
+											name = "NpcEffect",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											width = "400",
+											ZOrder = "1",
+										},
+									},
+								},
+							},
 						},
 						{
 							controlID = "Panel_left_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
@@ -588,7 +668,7 @@ local t =
 																		IsPercent = true,
 																		PercentX = 31.13,
 																	},
-																	width = "37",
+																	width = "41",
 																	ZOrder = "1",
 																},
 															},
@@ -637,7 +717,7 @@ local t =
 																IsPercent = true,
 																PercentX = 50,
 															},
-															width = "132",
+															width = "136",
 															ZOrder = "1",
 														},
 													},
@@ -792,7 +872,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -947,7 +1027,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -1102,7 +1182,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -1257,7 +1337,7 @@ local t =
 																IsPercent = true,
 																PercentX = 48.58,
 															},
-															width = "43",
+															width = "47",
 															ZOrder = "1",
 														},
 													},
@@ -1415,7 +1495,7 @@ local t =
 																		PercentX = 231.13,
 																		PercentY = -33.33,
 																	},
-																	width = "107",
+																	width = "101",
 																	ZOrder = "1",
 																},
 															},
@@ -1842,7 +1922,7 @@ local t =
 													{
 														
 													},
-													width = "108",
+													width = "109",
 													ZOrder = "1",
 												},
 												{
@@ -2658,7 +2738,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_t",
 											nTextAlign = "1",
@@ -2674,7 +2754,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "52",
+											width = "50",
 											ZOrder = "1",
 										},
 										{
@@ -2730,7 +2810,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "30",
+													height = "28",
 													ignoreSize = "True",
 													name = "Label_t",
 													nTextAlign = "1",
@@ -2746,7 +2826,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "52",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -2811,7 +2891,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_t",
 											nTextAlign = "1",
@@ -2827,7 +2907,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "51",
+											width = "50",
 											ZOrder = "1",
 										},
 										{
@@ -2883,7 +2963,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "30",
+													height = "28",
 													ignoreSize = "True",
 													name = "Label_t",
 													nTextAlign = "1",
@@ -2899,7 +2979,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -2964,7 +3044,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_t",
 											nTextAlign = "1",
@@ -2980,7 +3060,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "52",
+											width = "50",
 											ZOrder = "1",
 										},
 										{
@@ -3036,7 +3116,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "30",
+													height = "28",
 													ignoreSize = "True",
 													name = "Label_t",
 													nTextAlign = "1",
@@ -3052,7 +3132,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "52",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -3118,7 +3198,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_t",
 											nTextAlign = "1",
@@ -3134,7 +3214,7 @@ local t =
 											{
 												IsPercent = true,
 											},
-											width = "100",
+											width = "98",
 											ZOrder = "1",
 										},
 										{
@@ -3190,7 +3270,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "30",
+													height = "28",
 													ignoreSize = "True",
 													name = "Label_t",
 													nTextAlign = "1",
@@ -3206,7 +3286,7 @@ local t =
 													{
 														IsPercent = true,
 													},
-													width = "100",
+													width = "98",
 													ZOrder = "1",
 												},
 											},
@@ -3349,7 +3429,7 @@ local t =
 													{
 														PositionX = 30,
 													},
-													width = "26",
+													width = "31",
 													ZOrder = "1",
 												},
 											},
@@ -3423,7 +3503,7 @@ local t =
 													{
 														PositionX = 30,
 													},
-													width = "25",
+													width = "24",
 													ZOrder = "1",
 												},
 											},
@@ -3456,7 +3536,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "42",
+									height = "39",
 									ignoreSize = "True",
 									name = "Label_role_name",
 									nTextAlign = "0",
@@ -3473,7 +3553,7 @@ local t =
 										PositionX = 111,
 										PositionY = 557,
 									},
-									width = "173",
+									width = "172",
 									ZOrder = "1",
 								},
 								{
@@ -3519,7 +3599,7 @@ local t =
 										PositionX = 113,
 										PositionY = 503,
 									},
-									width = "57",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -3565,7 +3645,7 @@ local t =
 										PositionX = 113,
 										PositionY = 483,
 									},
-									width = "57",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -3602,82 +3682,6 @@ local t =
 									},
 									visible = "False",
 									ZOrder = "2",
-								},
-								{
-									controlID = "NpcEffectPanel_Panel_mid_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
-									UUID = "f18dcc50_6d19_44c8_a95a_9478eb9bb3ba",
-									anchorPoint = "False",
-									anchorPointX = "0",
-									anchorPointY = "0",
-									backGroundScale9Enable = "False",
-									bgColorOpacity = "50",
-									bIsOpenClipping = "False",
-									classname = "MEPanel",
-									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
-									DesignHeight = "640",
-									DesignType = "0",
-									DesignWidth = "960",
-									dstBlendFunc = "771",
-									height = "400",
-									ignoreSize = "False",
-									name = "NpcEffectPanel",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "1",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = 568,
-										PositionY = 320,
-										relativeToName = "Panel",
-									},
-									uipanelviewmodel = 
-									{
-										Layout="Absolute",
-										nType = "0"
-									},
-									width = "400",
-									ZOrder = "20",
-									components = 
-									{
-										
-										{
-											controlID = "NpcEffect_NpcEffectPanel_Panel_mid_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
-											UUID = "45885254_77e2_4cc4_a7f9_9fbe88b71566",
-											anchorPoint = "False",
-											anchorPointX = "0",
-											anchorPointY = "0",
-											backGroundScale9Enable = "False",
-											bgColorOpacity = "50",
-											bIsOpenClipping = "False",
-											classname = "MEPanel",
-											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
-											DesignHeight = "640",
-											DesignType = "0",
-											DesignWidth = "960",
-											dstBlendFunc = "771",
-											height = "400",
-											ignoreSize = "False",
-											name = "NpcEffect",
-											sizepercentx = "0",
-											sizepercenty = "0",
-											sizeType = "0",
-											srcBlendFunc = "1",
-											touchAble = "False",
-											UILayoutViewModel = 
-											{
-												
-											},
-											uipanelviewmodel = 
-											{
-												Layout="Absolute",
-												nType = "0"
-											},
-											width = "400",
-											ZOrder = "1",
-										},
-									},
 								},
 							},
 						},
@@ -4544,7 +4548,7 @@ local t =
 														StrokeColor = "#FF4E5CB1",
 														StrokeSize = 1,
 													},
-													height = "29",
+													height = "27",
 													ignoreSize = "True",
 													name = "Label_use",
 													nTextAlign = "1",
@@ -4560,7 +4564,7 @@ local t =
 													{
 														
 													},
-													width = "69",
+													width = "70",
 													ZOrder = "1",
 												},
 											},

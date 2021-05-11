@@ -12,15 +12,6 @@ local BattleMap = class("BattleMap", function(...)
     return CCNode:create()
 end)
 
-function BattleMap:clean( )
-    -- body
-    for k,_gameObject in pairs(self.sortChilds) do
-        if _gameObject.standEffect then
-            _gameObject.standEffect:removeFromParent(true)
-        end
-    end
-end
-
 function BattleMap:ctor(controller)
     self.controller = controller
     self.zeye = me.Director:getZEye()

@@ -1982,7 +1982,7 @@ local t =
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
 													FontColor = "#FFFFFFFF",
-													fontName = "phanta.ttf",
+													fontName = "font/fangzheng_zhunyuan.ttf",
 													fontShadow = 
 													{
 														IsShadow = false,
@@ -1991,14 +1991,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_dispatchHeroLayer_1",
 													nTextAlign = "1",
@@ -2007,14 +2007,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Raise BP",
+													text = "Increase BP",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "88",
+													width = "94",
 													ZOrder = "1",
 												},
 											},

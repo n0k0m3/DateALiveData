@@ -7,15 +7,18 @@ function LoginLayer:ctor(data)
     self.super.ctor(self,data)
     self.isShowLoingBoard = data;
     self.isEnter = false;
+    self.migrationServerLayerDisplay = false
     EventMgr:addEventListener(self, EV_LOGIN_UPDATESERVERNAME, handler(self.updateServerName, self))
 
 	if FunctionDataMgr:isMoJingLoginUI() then
 		self:init("lua.uiconfig.loginScene.oneYearloginLayer")
 	else
-		if (TFGlobalUtils:isConnectEnServer() or TFGlobalUtils:isConnectKoreaTwServer()) then
+		if TFGlobalUtils:isConnectEnServer() then
 			self:init("lua.uiconfig.loginScene.loginLayerNew1")
+		elseif TFGlobalUtils:isConnectKoreaTwServer() then
+			self:init("lua.uiconfig.loginScene.loginLayerGlobal_1")
 		else
-			self:init("lua.uiconfig.loginScene.loginLayer")
+			self:init("lua.uiconfig.loginScene.loginLayerNew1")
 		end
 	end
 end
@@ -225,7 +228,7 @@ function LoginLayer:initUI(ui)
 	 	end, true)
 	end));
 	self.Button_migrationServer:setPosition(self.Button_Conceal_proto:getPosition())
-	self.Button_migrationServer:setVisible(NEW_APP_VERSION)
+	    self.Button_migrationServer:setVisible(NEW_APP_VERSION and (not TFGlobalUtils:InVarificationStatus()))
 	TFDirector:getChildByPath(self.Button_migrationServer,"Label_migrationServer"):setTextById(190000816)
 	
     self.Panel_serverList = TFDirector:getChildByPath(ui, "Panel_serverList")
@@ -270,7 +273,7 @@ end
 function LoginLayer:showMigrationServerView( callBack, force )
 	-- body
 	local isExitCache, _ = TFGlobalUtils:getMigrationServerId(true)
-	if ((not isExitCache) and NEW_APP_VERSION) or force then
+	if (not TFGlobalUtils:InVarificationStatus()) and (((not isExitCache) and NEW_APP_VERSION) or force) then
 		local fullModuleName = string.format("lua.logic.%s", "login.MigrationServerLayer")
 	    local view = requireNew(fullModuleName):new(callBack)
 	    self:addLayer(view,998)
@@ -608,67 +611,86 @@ function LoginLayer:loginGameServerSuccess(event)
 end
 
 function LoginLayer.enterNextPage(sender)
-	if not TFGlobalUtils:canMigrationServerEnterGameServer() then
-		Utils:showError(TextDataMgr:getText(190000830))
-		return 
-	end
-
 	local self = sender.logic
-	if CC_TARGET_PLATFORM ~= CC_PLATFORM_WIN32 and HeitaoSdk then
-		if not HeitaoSdk.isLogined() then
-			HeitaoSdk.login();
+	if self.migrationServerLayerDisplay then return end
+	local connectToGameServer = function(sender)
+		-- body
+		local self = sender.logic
+		if CC_TARGET_PLATFORM ~= CC_PLATFORM_WIN32 and HeitaoSdk then
+			if not HeitaoSdk.isLogined() then
+				HeitaoSdk.login();
+				return;
+			end
+
+			if not self.isShowWeb then
+				self:showWebView();
+				return;
+			end
+
+			if not LogonHelper:isVerification() then
+				LogonHelper:loginVerification();
+				return;
+			end
+
+			--TODO CLOSE
+			-- if not LogonHelper:isAgreedProto() then
+			-- 	local filePath = "src/lua/uiconfig/loginScene/concealProto.lua"
+			-- 	if me.FileUtils:isFileExist( filePath ) then
+			-- 		Utils:openView("login.ConcealProto")
+			-- 		return
+			-- 	end
+			-- end
+			
+			HeitaoSdk.doAntiAddicationQuery();	
+
 			return;
 		end
 
-		if not self.isShowWeb then
-			self:showWebView();
+		--AlertManager:changeScene(SceneType.MainScene)
+		if not SaveManager:getIsActivat() or not LogonHelper:getIsLogin() then
+			self:showLoingBoard();
+			return
+		end
+
+		if self.loginBoard:isVisible() then
+			self:hideLoginBoard();
 			return;
 		end
 
-		if not LogonHelper:isVerification() then
-			LogonHelper:loginVerification();
-			return;
+		do  --账户登录成功 登录游戏服
+
+			print("--账户登录成功 登录游戏服")
+
+			self:hideLoginBoard();
+			--模拟实名认证
+			if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+				doAntiAddicationQuery();
+			else
+				CommonManager:loginServer();
+			end
+			
+		    return;
 		end
-
-		--TODO CLOSE
-		-- if not LogonHelper:isAgreedProto() then
-		-- 	local filePath = "src/lua/uiconfig/loginScene/concealProto.lua"
-		-- 	if me.FileUtils:isFileExist( filePath ) then
-		-- 		Utils:openView("login.ConcealProto")
-		-- 		return
-		-- 	end
-		-- end
-		
-		HeitaoSdk.doAntiAddicationQuery();	
-
-		return;
 	end
 
-	--AlertManager:changeScene(SceneType.MainScene)
-	if not SaveManager:getIsActivat() or not LogonHelper:getIsLogin() then
-		self:showLoingBoard();
-		return
-	end
-
-	if self.loginBoard:isVisible() then
-		self:hideLoginBoard();
-		return;
-	end
-
-	do  --账户登录成功 登录游戏服
-
-		print("--账户登录成功 登录游戏服")
-
-		self:hideLoginBoard();
-		--模拟实名认证
-		if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
-			doAntiAddicationQuery();
-		else
-			CommonManager:loginServer();
+	if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) or (HeitaoSdk and HeitaoSdk.isLogined()) then
+		if not TFGlobalUtils:canMigrationServerEnterGameServer() then
+			Utils:showError(TextDataMgr:getText(190000830))
+			local self = sender.logic
+			self.migrationServerLayerDisplay = true
+			self.Button_migrationServer:setTouchEnabled(false)
+			TimeOut(function()
+				local self = sender.logic
+				self.Button_migrationServer:setTouchEnabled(true)
+				self.migrationServerLayerDisplay = false
+		        self:showMigrationServerView(function(isUpdate)
+					self.enterNextPage(sender)
+				end, true)
+		    end, 1.5)
+			return 
 		end
-		
-	    return;
 	end
+	connectToGameServer(sender)
 end
 
 
@@ -706,10 +728,15 @@ function LoginLayer:showWebView()
 		--屏蔽弹出公告上报
 		--Utils:sendHttpLog("informed_page_L")
 		self.isShowWeb = true;
-		if RELEASE_TEST then
-			
-		elseif me.platform == "android" then
-	        HeitaoSdk.isFunctionSupported("showAnnouncement");
+		if me.platform == "android" then
+			if HeitaoSdk then
+				-- TODO CLOSE 使用最新公告
+            	self:openNewNoticeLayer()
+				--HeitaoSdk.isFunctionSupported("showAnnouncement");
+			else
+				-- TODO CLOSE 使用最新公告
+            	self:openNewNoticeLayer()
+			end
 	    else
 	    	dump("show2")
 	        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 3.10 then

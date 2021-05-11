@@ -146,7 +146,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "34",
 									ignoreSize = "True",
 									name = "lab_TopTxt",
 									nTextAlign = "1",
@@ -155,7 +155,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "应援排行",
+									text = "Support Event Ranking",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -163,7 +163,7 @@ local t =
 										PositionX = -493,
 										PositionY = 223,
 									},
-									width = "124",
+									width = "366",
 									ZOrder = "1",
 								},
 								{
@@ -209,7 +209,8 @@ local t =
 										PositionX = -358,
 										PositionY = 218,
 									},
-									width = "56",
+									visible = "False",
+									width = "55",
 									ZOrder = "1",
 								},
 								{
@@ -235,6 +236,7 @@ local t =
 										PositionX = -363,
 										PositionY = 225,
 									},
+									visible = "False",
 									width = "3",
 									ZOrder = "1",
 								},
@@ -346,7 +348,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "名次",
+									text = "Ranking",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -354,7 +356,7 @@ local t =
 										PositionX = 71,
 										PositionY = 15,
 									},
-									width = "39",
+									width = "63",
 									ZOrder = "1",
 								},
 								{
@@ -418,7 +420,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "玩家名",
+									text = "Player Name",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -426,7 +428,7 @@ local t =
 										PositionX = 249,
 										PositionY = 15,
 									},
-									width = "57",
+									width = "97",
 									ZOrder = "1",
 								},
 								{
@@ -490,7 +492,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "社团名",
+									text = "Club Name",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -498,7 +500,7 @@ local t =
 										PositionX = 469,
 										PositionY = 15,
 									},
-									width = "57",
+									width = "86",
 									ZOrder = "1",
 								},
 								{
@@ -562,7 +564,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "渠道",
+									text = "Channel",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -570,7 +572,7 @@ local t =
 										PositionX = 636,
 										PositionY = 16,
 									},
-									width = "39",
+									width = "63",
 									ZOrder = "1",
 								},
 								{
@@ -634,7 +636,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "层数 已翻个数",
+									text = "Floor Unfold",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -642,7 +644,7 @@ local t =
 										PositionX = 845,
 										PositionY = 15,
 									},
-									width = "116",
+									width = "97",
 									ZOrder = "1",
 								},
 							},
@@ -794,15 +796,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "txt",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -810,14 +812,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "奖励预览",
+									text = "Rewards Preview",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "99",
+									width = "120",
 									ZOrder = "1",
 								},
 							},
@@ -857,7 +859,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "暂无排名",
+							text = "Not Listed",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -866,7 +868,7 @@ local t =
 								PositionY = 330,
 							},
 							visible = "False",
-							width = "161",
+							width = "170",
 							ZOrder = "1",
 						},
 						{
@@ -947,10 +949,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 89,
+										PositionX = 157,
 										PositionY = 58,
 									},
-									width = "25",
+									width = "21",
 									ZOrder = "1",
 									components = 
 									{
@@ -990,14 +992,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "名次：",
+											text = "Your Ranking:",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -36,
+												PositionX = -74,
 											},
-											width = "55",
+											width = "127",
 											ZOrder = "1",
 										},
 									},
@@ -1037,15 +1039,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "12 14",
+									text = "13 14",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 217,
-										PositionY = 24,
+										PositionX = 312,
+										PositionY = 25,
 									},
-									width = "49",
+									width = "56",
 									ZOrder = "1",
 									components = 
 									{
@@ -1085,15 +1087,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "当前层数 已翻个数：",
+											text = "Current Floor  Unfold",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -193,
+												PositionX = -290,
 												PositionY = 2,
 											},
-											width = "193",
+											width = "199",
 											ZOrder = "1",
 										},
 									},
@@ -1133,7 +1135,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "排行榜统计已截止",
+									text = "Leaderboard  have ended",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1142,7 +1144,7 @@ local t =
 										PositionY = 24,
 									},
 									visible = "False",
-									width = "179",
+									width = "219",
 									ZOrder = "1",
 								},
 							},
@@ -1308,7 +1310,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "lab_rankTxt",
 											nTextAlign = "1",
@@ -1363,7 +1365,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "收到货三",
+											text = "Obtained",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1371,7 +1373,7 @@ local t =
 												PositionX = 237,
 												PositionY = 31,
 											},
-											width = "83",
+											width = "75",
 											ZOrder = "1",
 										},
 										{
@@ -1400,8 +1402,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "lab_legaueName",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1409,7 +1411,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "九个字九个字九个字",
+											text = "Nine characters nine characters nine characters",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1417,7 +1419,7 @@ local t =
 												PositionX = 462,
 												PositionY = 31,
 											},
-											width = "183",
+											width = "200",
 											ZOrder = "1",
 										},
 										{
@@ -1455,15 +1457,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "官网",
+											text = "Official Website",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 628,
+												PositionX = 649,
 												PositionY = 31,
 											},
-											width = "42",
+											width = "128",
 											ZOrder = "1",
 										},
 										{
@@ -1509,7 +1511,7 @@ local t =
 												PositionX = 837,
 												PositionY = 31,
 											},
-											width = "39",
+											width = "47",
 											ZOrder = "1",
 										},
 									},

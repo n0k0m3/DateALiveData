@@ -299,7 +299,7 @@ local t =
 											UUID = "9ac6ce50_0a95_4197_b476_2368a8ae6cd8",
 											anchorPoint = "False",
 											anchorPointX = "0",
-											anchorPointY = "0.5",
+											anchorPointY = "1",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -313,7 +313,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -325,6 +325,8 @@ local t =
 											name = "Label_num",
 											nTextAlign = "1",
 											nTextHAlign = "0",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -335,9 +337,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -89,
-												PositionY = 140,
+												PositionY = 158,
 											},
-											width = "158",
+											width = "186",
 											ZOrder = "1",
 										},
 										{
@@ -361,7 +363,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -23,
-												PositionY = 111,
+												PositionY = 95,
 											},
 											width = "138",
 											ZOrder = "1",
@@ -608,7 +610,7 @@ local t =
 														PositionY = 1,
 													},
 													visible = "False",
-													width = "203",
+													width = "214",
 													ZOrder = "1",
 												},
 											},
@@ -715,7 +717,7 @@ local t =
 														PositionX = -57,
 														PositionY = 7,
 													},
-													width = "75",
+													width = "82",
 													ZOrder = "1",
 												},
 												{
@@ -761,7 +763,7 @@ local t =
 														PositionX = -62,
 														PositionY = -13,
 													},
-													width = "23",
+													width = "27",
 													ZOrder = "1",
 												},
 												{
@@ -807,7 +809,7 @@ local t =
 														PositionX = 54,
 														PositionY = 9,
 													},
-													width = "66",
+													width = "69",
 													ZOrder = "1",
 													components = 
 													{
@@ -881,7 +883,7 @@ local t =
 														PositionX = 57,
 														PositionY = -15,
 													},
-													width = "33",
+													width = "27",
 													ZOrder = "1",
 													components = 
 													{
@@ -928,7 +930,7 @@ local t =
 															{
 																PositionX = -1,
 															},
-															width = "18",
+															width = "22",
 															ZOrder = "1",
 														},
 													},
@@ -1036,7 +1038,7 @@ local t =
 													{
 														PositionY = -2,
 													},
-													width = "54",
+													width = "55",
 													ZOrder = "1",
 												},
 											},

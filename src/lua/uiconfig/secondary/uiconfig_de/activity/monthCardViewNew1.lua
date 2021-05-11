@@ -2994,12 +2994,12 @@ local t =
 											bIsOpenClipping = "True",
 											bounceEnable = "True",
 											classname = "MEScrollView",
-											colorType = "0;SingleColor:#FFFFA500;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											colorType = "1;SingleColor:#FFFFA500;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 											direction = "1",
 											dstBlendFunc = "771",
-											height = "286",
+											height = "260",
 											ignoreSize = "False",
-											innerHeight = "286",
+											innerHeight = "260",
 											innerWidth = "416",
 											name = "ScrollView_welfare",
 											showScrollbar = "False",
@@ -3011,7 +3011,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 1,
-												PositionY = 61,
+												PositionY = 71,
 											},
 											uipanelviewmodel = 
 											{
@@ -3783,7 +3783,7 @@ local t =
 											bIsOpenClipping = "True",
 											bounceEnable = "False",
 											classname = "MEScrollView",
-											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											colorType = "1;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 											direction = "2",
 											dstBlendFunc = "771",
 											height = "75",
@@ -3816,11 +3816,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "52",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_extraTipsBg",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -3830,10 +3830,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -131,
-												PositionY = 53,
+												PositionX = -130,
+												PositionY = 73,
 											},
-											width = "132",
+											width = "130",
 											ZOrder = "1",
 											components = 
 											{
@@ -3842,7 +3842,7 @@ local t =
 													controlID = "Label_extraTips_Image_extraTipsBg_Panel_extraReward_Panel_sign_Panel_root_Panel-monthCardViewNew1_Layer1_activity_Game",
 													UUID = "15591a81_631c_4e28_aed7_281438bdf156",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -3878,7 +3878,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 38,
+														PositionX = 28,
+														PositionY = -22,
 													},
 													width = "22",
 													ZOrder = "1",
@@ -3902,14 +3903,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "13",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "15",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_monthCardViewNew1_1",
 													nTextAlign = "1",
@@ -3923,16 +3924,17 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -15,
+														PositionX = -3,
+														PositionY = 1,
 													},
-													width = "90",
+													width = "127",
 													ZOrder = "1",
 												},
 												{
 													controlID = "Label_monthCardViewNew1_1-Copy1_Image_extraTipsBg_Panel_extraReward_Panel_sign_Panel_root_Panel-monthCardViewNew1_Layer1_activity_Game",
 													UUID = "22551455_097f_42c2_8b78_cd8a8472fbbb",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -3969,6 +3971,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 57,
+														PositionY = -22,
 													},
 													width = "25",
 													ZOrder = "1",
@@ -3995,8 +3998,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -197,
-												PositionY = 54,
+												PositionX = -68,
+												PositionY = 51,
 											},
 											width = "2",
 											ZOrder = "1",
@@ -4064,6 +4067,7 @@ local t =
 												PositionX = -3,
 												PositionY = 5,
 											},
+											visible = "False",
 											width = "408",
 											ZOrder = "1",
 										},

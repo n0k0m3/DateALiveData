@@ -1,0 +1,15 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"bust_10604.moc",
+	"textures":[
+		"bust_10604.1024/texture_00.png",
+		"bust_10604.1024/texture_01.png"
+	],
+	"motions":{
+		"idle":[
+			{"file":"motions/idle.mtn"}
+		]
+	},
+	"project_settings":"bust_10604.settings.json",
+	"name":"bust_10604"
+}

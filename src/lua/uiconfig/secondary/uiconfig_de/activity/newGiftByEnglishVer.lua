@@ -1126,7 +1126,7 @@ local t =
 											flipX = "False",
 											flipY = "False",
 											height = "69",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_buy",
 											normal = "ui/activity/newGiftByEnglishVer/07.png",
 											pressed = "ui/activity/newGiftByEnglishVer/07.png",
@@ -1137,11 +1137,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 290,
+												PositionX = 272,
 												PositionY = -3,
 											},
 											UItype = "Button",
-											width = "215",
+											width = "256",
 											ZOrder = "1",
 											components = 
 											{
@@ -1172,8 +1172,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "66",
-													ignoreSize = "False",
+													height = "29",
+													ignoreSize = "True",
 													name = "Label_price",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1186,9 +1186,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 63,
+														PositionX = 44,
+														PositionY = 12,
 													},
-													width = "76",
+													width = "161",
 													ZOrder = "1",
 												},
 												{
@@ -1210,7 +1211,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -55,
+														PositionX = -76,
 													},
 													width = "64",
 													ZOrder = "1",
@@ -1255,7 +1256,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -17,
+														PositionX = -40,
 														PositionY = -15,
 													},
 													width = "37",
@@ -1301,7 +1302,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 23,
+														PositionX = 36,
 													},
 													width = "125",
 													ZOrder = "1",
@@ -2420,7 +2421,7 @@ local t =
 											flipX = "False",
 											flipY = "False",
 											height = "69",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_buy",
 											normal = "ui/activity/newGiftByEnglishVer/07.png",
 											pressed = "ui/activity/newGiftByEnglishVer/07.png",
@@ -2431,11 +2432,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 290,
+												PositionX = 266,
 												PositionY = -3,
 											},
 											UItype = "Button",
-											width = "215",
+											width = "261",
 											ZOrder = "1",
 											components = 
 											{
@@ -2466,8 +2467,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "66",
-													ignoreSize = "False",
+													height = "29",
+													ignoreSize = "True",
 													name = "Label_price",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -2480,9 +2481,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 62,
+														PositionX = 39,
+														PositionY = 11,
 													},
-													width = "76",
+													width = "161",
 													ZOrder = "1",
 												},
 												{
@@ -2504,7 +2506,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -55,
+														PositionX = -74,
 													},
 													width = "64",
 													ZOrder = "1",
@@ -2549,7 +2551,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -17,
+														PositionX = -36,
 														PositionY = -15,
 													},
 													width = "37",
@@ -4551,7 +4553,7 @@ local t =
 											flipX = "False",
 											flipY = "False",
 											height = "69",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_buy",
 											normal = "ui/activity/newGiftByEnglishVer/07.png",
 											pressed = "ui/activity/newGiftByEnglishVer/07.png",
@@ -4562,11 +4564,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 290,
+												PositionX = 265,
 												PositionY = -3,
 											},
 											UItype = "Button",
-											width = "215",
+											width = "263",
 											ZOrder = "1",
 											components = 
 											{
@@ -4597,8 +4599,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "66",
-													ignoreSize = "False",
+													height = "29",
+													ignoreSize = "True",
 													name = "Label_price",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -4611,9 +4613,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 63,
+														PositionX = 37,
+														PositionY = 1,
 													},
-													width = "76",
+													width = "161",
 													ZOrder = "1",
 												},
 												{
@@ -4635,7 +4638,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -55,
+														PositionX = -75,
 													},
 													width = "64",
 													ZOrder = "1",
@@ -4680,7 +4683,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -17,
+														PositionX = -39,
 														PositionY = -15,
 													},
 													width = "37",
@@ -5668,7 +5671,7 @@ local t =
 											flipX = "False",
 											flipY = "False",
 											height = "69",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_buy",
 											normal = "ui/activity/newGiftByEnglishVer/07.png",
 											pressed = "ui/activity/newGiftByEnglishVer/07.png",
@@ -5679,11 +5682,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 290,
+												PositionX = 271,
 												PositionY = -3,
 											},
 											UItype = "Button",
-											width = "215",
+											width = "252",
 											ZOrder = "1",
 											components = 
 											{
@@ -5714,8 +5717,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "66",
-													ignoreSize = "False",
+													height = "29",
+													ignoreSize = "True",
 													name = "Label_price",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -5728,9 +5731,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 63,
+														PositionX = 41,
+														PositionY = 6,
 													},
-													width = "76",
+													width = "161",
 													ZOrder = "1",
 												},
 												{
@@ -5752,7 +5756,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -55,
+														PositionX = -77,
 													},
 													width = "64",
 													ZOrder = "1",
@@ -5797,7 +5801,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -17,
+														PositionX = -38,
 														PositionY = -15,
 													},
 													width = "37",
@@ -5829,8 +5833,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "66",
-													ignoreSize = "False",
+													height = "29",
+													ignoreSize = "True",
 													name = "Label_get",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -5843,9 +5847,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 9,
+														PositionX = 28,
 													},
-													width = "185",
+													width = "145",
 													ZOrder = "1",
 												},
 											},

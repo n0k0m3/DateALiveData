@@ -150,36 +150,6 @@ local t =
 							ZOrder = "1",
 						},
 						{
-							controlID = "Image_teamMatchView_1_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
-							UUID = "ae7a6b69_c0cc_4310_a761_781c6e847cf7",
-							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
-							classname = "MEImage",
-							dstBlendFunc = "771",
-							height = "640",
-							ignoreSize = "True",
-							name = "Image_teamMatchView_1",
-							sizepercentx = "0",
-							sizepercenty = "0",
-							sizeType = "0",
-							srcBlendFunc = "770",
-							texturePath = "ui/activity/newyear_2021/nianshou/年兽玩法联机房间.png",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								PositionX = 568,
-								PositionY = 320,
-								IsPercent = true,
-								PercentX = 50,
-								PercentY = 50,
-							},
-							visible = "False",
-							width = "1386",
-							ZOrder = "1",
-						},
-						{
 							controlID = "Button_help_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
 							UUID = "90668ff9_d0f3_49b2_a8a1_cfff3245c76d",
 							anchorPoint = "False",
@@ -497,14 +467,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "队长",
+													text = "Capitán",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 39,
+														PositionX = 49,
 													},
-													width = "43",
+													width = "64",
 													ZOrder = "1",
 												},
 											},
@@ -515,11 +485,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "88",
-											ignoreSize = "True",
+											height = "107",
+											ignoreSize = "False",
 											name = "Image_warning",
 											scaleX = "0.64",
 											scaleY = "0.64",
@@ -565,8 +535,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_error_tip",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -574,14 +544,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "精灵重复，请更换",
+													text = "Espíritu duplicado, edita tu alineación",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "195",
+													width = "266",
 													ZOrder = "1",
 												},
 											},
@@ -757,7 +727,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "天山童姥天山童姥",
+											text = "Abuela joven",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -765,7 +735,7 @@ local t =
 												PositionX = -86,
 												PositionY = 396,
 											},
-											width = "172",
+											width = "110",
 											ZOrder = "1",
 										},
 										{
@@ -860,14 +830,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Lv20",
+													text = "TextLable",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "44",
+													width = "80",
 													ZOrder = "1",
 												},
 											},
@@ -1332,14 +1302,14 @@ local t =
 																			sizepercenty = "0",
 																			sizeType = "0",
 																			srcBlendFunc = "770",
-																			text = "查看信息",
+																			text = "Ver información",
 																			touchAble = "False",
 																			touchScaleEnable = "False",
 																			UILayoutViewModel = 
 																			{
 																				PositionY = -45,
 																			},
-																			width = "75",
+																			width = "122",
 																			ZOrder = "1",
 																		},
 																	},
@@ -1437,14 +1407,14 @@ local t =
 																			sizepercenty = "0",
 																			sizeType = "0",
 																			srcBlendFunc = "770",
-																			text = "转移队长",
+																			text = "Transferir",
 																			touchAble = "False",
 																			touchScaleEnable = "False",
 																			UILayoutViewModel = 
 																			{
 																				PositionY = -45,
 																			},
-																			width = "75",
+																			width = "76",
 																			ZOrder = "1",
 																		},
 																	},
@@ -1542,14 +1512,14 @@ local t =
 																			sizepercenty = "0",
 																			sizeType = "0",
 																			srcBlendFunc = "770",
-																			text = "踢出队伍",
+																			text = "Echar",
 																			touchAble = "False",
 																			touchScaleEnable = "False",
 																			UILayoutViewModel = 
 																			{
 																				PositionY = -45,
 																			},
-																			width = "75",
+																			width = "44",
 																			ZOrder = "1",
 																		},
 																	},
@@ -1622,7 +1592,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "一个字，就是“干”",
+													text = "Solo hazlo",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1888,14 +1858,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "队长",
+													text = "Capitán",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = 39,
 													},
-													width = "43",
+													width = "64",
 													ZOrder = "1",
 												},
 											},
@@ -1906,11 +1876,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "88",
-											ignoreSize = "True",
+											height = "107",
+											ignoreSize = "False",
 											name = "Image_warning",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -1953,8 +1923,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_error_tip",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1962,14 +1932,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "精灵重复，请更换",
+													text = "Espíritu duplicado, edita tu alineación",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "195",
+													width = "266",
 													ZOrder = "1",
 												},
 											},
@@ -2113,7 +2083,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "天山童姥天山童姥",
+											text = "Abuela joven",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2121,7 +2091,7 @@ local t =
 												PositionX = -135,
 												PositionY = 396,
 											},
-											width = "180",
+											width = "115",
 											ZOrder = "1",
 										},
 										{
@@ -2216,14 +2186,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Lv20",
+													text = "TextLable",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "44",
+													width = "80",
 													ZOrder = "1",
 												},
 											},
@@ -2543,14 +2513,14 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "查看信息",
+																	text = "Ver información",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
 																		PositionY = -45,
 																	},
-																	width = "75",
+																	width = "122",
 																	ZOrder = "1",
 																},
 															},
@@ -2647,14 +2617,14 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "转移队长",
+																	text = "Transferir",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
 																		PositionY = -45,
 																	},
-																	width = "75",
+																	width = "76",
 																	ZOrder = "1",
 																},
 															},
@@ -2751,14 +2721,14 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "踢出队伍",
+																	text = "Echar",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
 																		PositionY = -45,
 																	},
-																	width = "75",
+																	width = "44",
 																	ZOrder = "1",
 																},
 															},
@@ -2828,7 +2798,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "一个字，就是“干”",
+													text = "Solo hazlo",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2908,15 +2878,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "关卡名字名字",
+									text = "Nombre de etapa Nombre",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -141,
+										PositionX = -123,
 										PositionY = -6,
 									},
-									width = "135",
+									width = "232",
 									ZOrder = "1",
 								},
 								{
@@ -2954,7 +2924,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Act",
+									text = "Actuar",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -2962,7 +2932,7 @@ local t =
 										PositionX = -174,
 										PositionY = -4,
 									},
-									width = "48",
+									width = "92",
 									ZOrder = "1",
 								},
 								{
@@ -3188,14 +3158,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "开",
+											text = "Encendido",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = -22,
 											},
-											width = "21",
+											width = "78",
 											ZOrder = "1",
 										},
 										{
@@ -3233,14 +3203,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "关",
+											text = "Apagado",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 22,
 											},
-											width = "21",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -3280,7 +3250,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "自动匹配",
+									text = "Emparejamiento automático",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -3291,7 +3261,7 @@ local t =
 										PercentX = 50,
 										PercentY = 141.67,
 									},
-									width = "75",
+									width = "205",
 									ZOrder = "1",
 								},
 							},
@@ -3311,7 +3281,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "47",
+							height = "75",
 							ignoreSize = "False",
 							name = "Panel_room_hadle",
 							sizepercentx = "0",
@@ -3321,7 +3291,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 970,
+								PositionX = 878,
 								PositionY = 535,
 							},
 							uipanelviewmodel = 
@@ -3329,7 +3299,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "404",
+							width = "508",
 							ZOrder = "1",
 							components = 
 							{
@@ -3340,11 +3310,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "47",
-									ignoreSize = "True",
+									height = "64",
+									ignoreSize = "False",
 									name = "Image_handle_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -3356,14 +3326,14 @@ local t =
 									{
 										
 									},
-									width = "404",
+									width = "503",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_join_level_title_Panel_room_hadle_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
 									UUID = "ddf00416_79e2_475a_998d_b76e1ab9faf7",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -3378,31 +3348,31 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_join_level_title",
-									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextAlign = "0",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "可加入等级：",
+									text = "Nivel Limite de Entrar：",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -146,
-										PositionY = -12,
+										PositionX = -247,
+										PositionY = -15,
 									},
-									width = "99",
+									width = "117",
 									ZOrder = "1",
 								},
 								{
@@ -3445,7 +3415,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -93,
+										PositionX = -117,
 										PositionY = -12,
 									},
 									width = "22",
@@ -3470,14 +3440,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_handle_title",
 									nTextAlign = "1",
@@ -3486,15 +3456,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "权限：",
+									text = "Autoridad：",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -172,
-										PositionY = 10,
+										PositionX = -204,
+										PositionY = 17,
 									},
-									width = "45",
+									width = "89",
 									ZOrder = "1",
 									components = 
 									{
@@ -3521,7 +3491,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 37,
+												PositionX = 60,
 											},
 											width = "44",
 											ZOrder = "1",
@@ -3586,7 +3556,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 49,
+												PositionX = 80,
 											},
 											width = "12",
 											ZOrder = "1",
@@ -3597,7 +3567,7 @@ local t =
 													controlID = "Label_effect_state_Image_effect_bg_Image_effect_state_Panel_room_hadle_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
 													UUID = "85439513_968e_4e55_973e_d0de74451e8e",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -3612,14 +3582,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "21",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_effect_state",
 													nTextAlign = "1",
@@ -3628,14 +3598,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "开",
+													text = "Encendido",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 20,
+														PositionX = 9,
 													},
-													width = "21",
+													width = "85",
 													ZOrder = "1",
 												},
 												{
@@ -3669,7 +3639,7 @@ local t =
 											controlID = "Label_title_Image_effect_state_Panel_room_hadle_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
 											UUID = "166f9eb4_d4f1_40c7_a09c_6f435d7ecf11",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -3684,14 +3654,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -3700,14 +3670,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "队友特效：",
+											text = "Teammate Effects：",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = -77,
+												PositionY = 2,
 											},
-											width = "81",
+											width = "147",
 											ZOrder = "1",
 										},
 									},
@@ -3781,7 +3752,7 @@ local t =
 													controlID = "Label_match_state_Image_match_bg_Image_match_state_Panel_room_hadle_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
 													UUID = "5624eee3_92e2_46f1_8653_ceaeb6e9c5cd",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -3796,14 +3767,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "21",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_match_state",
 													nTextAlign = "1",
@@ -3812,14 +3783,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "开",
+													text = "Encendido",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 20,
+														PositionX = 8,
 													},
-													width = "21",
+													width = "85",
 													ZOrder = "1",
 												},
 												{
@@ -3853,7 +3824,7 @@ local t =
 											controlID = "Label_title_Image_match_state_Panel_room_hadle_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
 											UUID = "49689f5e_dbbc_44e8_86af_e860f2ea286e",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -3868,14 +3839,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -3884,14 +3855,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "自动匹配：",
+											text = "Auto Match：",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = -76,
+												PositionY = 2,
 											},
-											width = "81",
+											width = "103",
 											ZOrder = "1",
 										},
 									},
@@ -3919,7 +3891,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 130,
+										PositionX = 202,
 									},
 									UItype = "Button",
 									width = "43",
@@ -4057,14 +4029,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "开",
+											text = "Encendido",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = -22,
 											},
-											width = "21",
+											width = "78",
 											ZOrder = "1",
 										},
 										{
@@ -4102,14 +4074,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "关",
+											text = "Apagado",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 22,
 											},
-											width = "21",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -4149,7 +4121,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "显示房间",
+									text = "Mostrar sala",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -4160,7 +4132,7 @@ local t =
 										PercentX = 50,
 										PercentY = 141.67,
 									},
-									width = "74",
+									width = "93",
 									ZOrder = "1",
 								},
 								{
@@ -4324,14 +4296,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "开",
+											text = "Encendido",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = -22,
 											},
-											width = "21",
+											width = "78",
 											ZOrder = "1",
 										},
 										{
@@ -4369,14 +4341,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "关",
+											text = "Apagado",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 22,
 											},
-											width = "21",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -4416,7 +4388,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "队友特效",
+									text = "Efectos de compañero",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -4427,7 +4399,7 @@ local t =
 										PercentX = 50,
 										PercentY = 141.67,
 									},
-									width = "75",
+									width = "160",
 									ZOrder = "1",
 								},
 								{
@@ -4483,7 +4455,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 312,
+								PositionX = 335,
 								PositionY = 523,
 							},
 							uipanelviewmodel = 
@@ -4502,11 +4474,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "36",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_auto_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -4516,10 +4488,10 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 145,
+										PositionX = 171,
 										PositionY = 18,
 									},
-									width = "96",
+									width = "162",
 									ZOrder = "1",
 									components = 
 									{
@@ -4530,11 +4502,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "34",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_on",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -4544,9 +4516,9 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -22,
+												PositionX = -37,
 											},
-											width = "50",
+											width = "82",
 											ZOrder = "1",
 										},
 										{
@@ -4568,14 +4540,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_on",
 											nTextAlign = "1",
@@ -4584,14 +4556,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "开",
+											text = "Encendido",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -22,
+												PositionX = -42,
 											},
-											width = "21",
+											width = "70",
 											ZOrder = "1",
 										},
 										{
@@ -4613,14 +4585,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_off",
 											nTextAlign = "1",
@@ -4629,14 +4601,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "关",
+											text = "Apagado",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 22,
+												PositionX = 36,
 											},
-											width = "21",
+											width = "58",
 											ZOrder = "1",
 										},
 									},
@@ -4660,15 +4632,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_title",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -4676,7 +4648,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "队友特效",
+									text = "Efectos de compañero",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -4684,7 +4656,7 @@ local t =
 										PositionX = 50,
 										PositionY = 18,
 									},
-									width = "75",
+									width = "86",
 									ZOrder = "1",
 								},
 								{
@@ -4707,7 +4679,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 202,
+										PositionX = 251,
 										PositionY = 18,
 									},
 									width = "2",
@@ -4778,7 +4750,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "最少上场人数",
+									text = "Min de miembros",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -4786,7 +4758,7 @@ local t =
 										PositionX = -118,
 										PositionY = -15,
 									},
-									width = "123",
+									width = "142",
 									ZOrder = "1",
 								},
 								{
@@ -4888,15 +4860,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_title",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -4904,14 +4876,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "开始战斗",
+									text = "Iniciar",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "107",
+									width = "120",
 									ZOrder = "1",
 								},
 								{
@@ -5172,15 +5144,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "24",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_speak",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -5188,7 +5160,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "准备开始我们的战斗吧！",
+															text = "¡Que comience nuestra batalla!",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -5196,7 +5168,7 @@ local t =
 																PositionX = 180,
 																PositionY = 32,
 															},
-															width = "251",
+															width = "335",
 															ZOrder = "1",
 														},
 													},
@@ -5257,7 +5229,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 668,
+								PositionX = 608,
 								PositionY = 542,
 							},
 							width = "42",
@@ -5323,15 +5295,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_show_effect_tip",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -5339,7 +5311,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "手机内存过低建议关闭队友特效",
+											text = "Debido a la baja memoria en tu dispositivo, te sugerimos cerrar los efectos especiales de compañero",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -5350,7 +5322,7 @@ local t =
 												PercentX = 50,
 												PercentY = 50,
 											},
-											width = "283",
+											width = "322",
 											ZOrder = "1",
 										},
 										{
@@ -5522,6 +5494,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
+									text = "0.0",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -6178,7 +6151,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "限制效果",
+									text = "Efecto Limitado",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -6186,7 +6159,7 @@ local t =
 										PositionX = 46,
 										PositionY = 395,
 									},
-									width = "98",
+									width = "202",
 									ZOrder = "1",
 								},
 								{
@@ -8095,6 +8068,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
+													text = "0.0",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -8215,7 +8189,6 @@ local t =
 		textures = 
 		{
 			"ui/onlineteam/BG.png",
-			"ui/activity/newyear_2021/nianshou/年兽玩法联机房间.png",
 			"ui/teampve/help/d014.png",
 			"ui/onlineteam/member_bg.png",
 			"icon/hero/backdrop/10101.png",

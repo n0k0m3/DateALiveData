@@ -233,7 +233,8 @@ function Statistics.update(dt)
         end
     end
     this.testTime = this.testTime + dt
-    this.time = this.controller.getControlPassTime()
+    this.time = this.time + dt
+    --this.controller.getControlPassTime()
     this.handlCombo(dt)--连击计时
     this.percent20Tip(EC_FBStarRule.TIME)
     this.percent20Tip(EC_FBStarRule.MORE_REMAINING_TIME)
@@ -254,6 +255,9 @@ end
 function Statistics.addMonsterInfo(hero)
     local data = hero:getData()
     local monster = {data.id , data.level,1}
+    if not data.level or data.level < 1 then
+        data.level = 1
+    end
     -- table.insert(this.monsterInfos,monster)
     this.monsterInfos[data.id] = this.monsterInfos[data.id] or {}
     if this.monsterInfos[data.id][data.level] then
