@@ -98,8 +98,8 @@ function NewRoleShowView:initUI(ui)
     self.Image_notplay = TFDirector:getChildByPath(self.Button_switch, "Image_notplay")
     self.Image_circle = TFDirector:getChildByPath(self.Button_switch, "Image_circle")
 	self.NpcEffect = TFDirector:getChildByPath(self.ui, "NpcEffect")
-
 	self.Panel_newRole = TFDirector:getChildByPath(self.ui, "Panel_newRole")
+	self.NpcEffectPanel = TFDirector:getChildByPath(self.Panel_newRole, "NpcEffectPanel")
 
 	self.TrialDressTimeBg = TFDirector:getChildByPath(self.ui, "TrialDressTimeBg"):hide()
 	self.TrialDressTime = TFDirector:getChildByPath(self.TrialDressTimeBg, "TrialDressTime")
@@ -119,8 +119,6 @@ function NewRoleShowView:initUI(ui)
     self:initRight()
     self:initMid()
     --self:enterAction()
-
-    self:initTopLayer()
 
     self:showRoleList()
 
@@ -146,43 +144,11 @@ function NewRoleShowView:selectDefaultDress(dontNeedResetScroll)
 	self:selectOne(self.selectIdx, self.btnType_.dressType, dontNeedResetScroll)
 end
 
---[[
-    fix 超框问题
-    单独更新topLayer
-]]
-function NewRoleShowView:initTopLayer()
-    local langCode = TFLanguageMgr:getUsingLanguage()
-    if (langCode == cc.GERMAN) then
-        local topLayer = self.topLayer
-        if(topLayer) then
-            local title1 = TFDirector:getChildByPath(topLayer, "TextArea_title")
-            local title2 = TFDirector:getChildByPath(topLayer, "TextArea_title_1")
-            
-            if (title1) then
-                local pos = title1:getPosition()
-                title1:setPosition(ccp(pos.x + 100, pos.y))
-            end
-
-            if (title2) then
-                local pos = title2:getPosition()
-                title2:setPosition(ccp(pos.x + 100, pos.y))
-            end
-        end
-    end
-end
-
-function NewRoleShowView:selectDefaultDress(dontNeedResetScroll)
-	ViewAnimationHelper.doMoveFadeInAction(self.Panel_mid, {direction = 1, distance = 30, ease = 1})
-	ViewAnimationHelper.doMoveFadeInAction(self.Panel_right, {direction = 2, distance = 30, ease = 1})
-	self:selectOne(self.selectIdx, self.btnType_.dressType, dontNeedResetScroll)
-end
-
 function NewRoleShowView:initMid()
     self.Panel_mid = TFDirector:getChildByPath(self.ui, "Panel_mid"):hide()
     self.Label_role_name = TFDirector:getChildByPath(self.Panel_mid, "Label_role_name")
     self.Label_enName = TFDirector:getChildByPath(self.Panel_mid, "Label_enName")
     self.Label_enName2 = TFDirector:getChildByPath(self.Panel_mid, "Label_enName2")
-    self.NpcEffectPanel = TFDirector:getChildByPath(self.Panel_newRole, "NpcEffectPanel")
 
     self:initFavorAndMood()
 end
@@ -882,9 +848,6 @@ end
 
 function NewRoleShowView:showDressScroll()
     self.TurnView_dressList:removeAllItems()
-    me.TextureCache:removeUnusedTextures()
-    SpineCache:getInstance():clearUnused()
-    
     --self.selectDIdx = self:findDressIdx()
     self.dressItemsList = {}
     for i, v in ipairs(self.dressId_) do
@@ -1050,7 +1013,6 @@ end
 
 function NewRoleShowView:useDress()
     local selectId = self.dressId_[self.selectDIdx]
-	print("使用时装",selectId)
     if selectId and self.curRoleInfo.sid then
         if GoodsDataMgr:getDress(selectId) == nil then
             local str = TextDataMgr:getText(304001)
@@ -1184,16 +1146,13 @@ function NewRoleShowView:updateRoleModel(modelId)
     self.effectSK = self.effectSK or {}
     for k,v in pairs(self.effectSK) do
         v:removeFromParent()
-        self.effectSK[k] = nil      
+        self.effectSK[k] = nil
     end
     self.effectSKB = self.effectSKB or {}
     for k,v in pairs(self.effectSKB) do
         v:removeFromParent()
         self.effectSKB[k] = nil
     end
-
-    me.TextureCache:removeUnusedTextures()
-    SpineCache:getInstance():clearUnused()
 
     local offPos = data and data.offSet or {}
     if offPos and offPos.x and offPos.y then
@@ -1235,7 +1194,7 @@ function NewRoleShowView:updateRoleModel(modelId)
         local fitScale = (curWidth - 1386) / 1386 * 1.0
         if fitScale > 0 then
             self.Image_bg2:setScale(1.0 + fitScale)
-			self.NpcEffectPanel:setScale(1.0 + fitScale)
+			--self.NpcEffectPanel:setScale(1.0 + fitScale)
 			self.Panel_newRole:setScale(1.0 + fitScale)
 			local offX = 1386 * fitScale / 2 * 0.8
 			local offY = 640 * fitScale / 2 * 0.8
@@ -1276,8 +1235,6 @@ function NewRoleShowView:refreshEffect(effectIds,isBgEffect)
         v:removeFromParent()
         mgrTab[k] = nil
     end
-    me.TextureCache:removeUnusedTextures()
-    SpineCache:getInstance():clearUnused()
 
     if type(effectIds) ~= "table" then
         local effectId = effectIds
@@ -1333,7 +1290,6 @@ end
 function NewRoleShowView:selCallback(cell,cellIdx)
     self.selectIdx = cellIdx
 	self.selectLeftListIdx = cellIdx
-
 	self.selectDIdx = 1
 
     cell:runAction(CCMoveBy:create(0.2, ccp(15, 0)))
@@ -1422,7 +1378,6 @@ function NewRoleShowView:onSwitchRole()
     for i, v in ipairs(self.dressId_) do
         self:updateDressItem(i)
     end
-
     self:resetBtn()
 end
 
@@ -1433,8 +1388,6 @@ end
 function NewRoleShowView:onChangeDressOk()
 --	self:refreshData()
 	self:selectOne(self.selectLeftListIdx, self.btnType_.dressType)	
-
-    self:onSwitchRole()
 
     self:onSwitchRole()
 
@@ -1459,6 +1412,7 @@ function NewRoleShowView:onChangeDressOk()
     self:playBgm()
 
 	local LastType = self.selectType
+
 	if RoleSwitchDataMgr:getSwitchState() then
 		self:changeBtnState(self.btnType_.dressType)
 		self:showDressSettingBtn(data)
@@ -1473,7 +1427,6 @@ function NewRoleShowView:onChangeDressOk()
 end
 
 function NewRoleShowView:onShow()
-    self.super.onShow(self)
     self.list_ = RoleDataMgr:getTriggerDatingList(self.curId) or {}
 
     local isShowHuigu = self:findDressDatingTrigger()

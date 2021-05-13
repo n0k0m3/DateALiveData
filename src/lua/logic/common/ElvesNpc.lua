@@ -346,7 +346,6 @@ function TTFLive2D:getRandomAction(part)
 	return partsInfo
 end
 
-
 function TTFLive2D:kanbanTouchEvent(live2dParts, part)
 	self.curTouchPart = nil
 	if self.lastTouchPartsName == nil then
@@ -381,7 +380,7 @@ function TTFLive2D:kanbanTouchEvent(live2dParts, part)
 			local action1 = nil
 			local voice1 = nil
 			local actIdx = nil
-
+			
 			local partsCfg = clone(live2dParts)
 			
 			if self.isMainLayer then
@@ -437,8 +436,6 @@ function TTFLive2D:kanbanTouchEvent(live2dParts, part)
 				self.curTouchPart = partsCfg
 			end
 		end
-		
-		self.curTouchPart = live2dParts
 
 		if self.isSendTouch and isPlayOk and isPlayOk ~= -1 then
 			if RoleDataMgr:isFavorReachCriticality(RoleDataMgr:getUseId()) then
@@ -1054,10 +1051,32 @@ function ElvesNpc:createLive2dNpc(roleInfo,expressionInfo)
 end
 
 function ElvesNpc:createLive2dNpcID(modelId,isTouch,isSendTouch,defaultAcName,isShowText, isMainLayer)
-	local modelData = self:getModelInfo(modelId)
-	if not modelData then
-		return
+	if not modelId then
+		modelId = 0
 	end
+	local modelData = self:getModelInfo(modelId)
+	if not modelData or not modelData.id then
+		Box("can not find roleModel config id = "..modelId)
+		Bugly:ReportLuaException("can not find roleModel config id: ========================= " .. modelId)
+		if isShowText then
+			modelId = 210101
+		else
+			modelId = 410104
+		end
+		modelData = self:getModelInfo(modelId)
+	end
+	local filePath = "res/basic/"..modelData.rolePath.."/"..modelData.roleName
+	if not TFFileUtil:existFile(filePath) then
+		Box("can not find model file = "..filePath)
+		Bugly:ReportLuaException("can not find model file: ========================= " .. filePath)
+		if isShowText then
+			modelId = 210101
+		else
+			modelId = 410104
+		end
+		modelData = self:getModelInfo(modelId)
+	end
+
 	local isUseLive3 = false
 	if modelData.type == 1 then
 		isUseLive3 = true
@@ -1080,12 +1099,6 @@ function ElvesNpc:createLive2dNpcID(modelId,isTouch,isSendTouch,defaultAcName,is
 	print("ElvesNpc:createLive2dNpcID roleInfo: ",roleInfo)
 
 	_ElvesNpc.live2d = TTFLive2D:createWithRole(roleInfo, isMainLayer)
-
-	if not TFFileUtil:existFile(roleInfo.rolePath  .."/" ..roleInfo.roleName) then
-		local errMsg = string.format("ElvesNpc:createLive2dNpcID modelId = %s roleInfo.rolePath  =%s roleInfo.roleName=%s  not exit resource!",tostring(modelId),tostring(roleInfo.rolePath),tostring(roleInfo.roleName))
-		Bugly:ReportLuaException(errMsg)
-		return
-	end
 
 	local node = CCNode:create():Size(CCSizeMake(2000,2000))
 	node:OnBegan(function(sender, pos)

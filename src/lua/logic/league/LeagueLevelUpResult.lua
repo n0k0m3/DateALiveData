@@ -19,16 +19,18 @@ function LeagueLevelUpResult:initUI(ui)
 	old_lv:setText(self.data.old_lv);
 	cur_lv:setText(self.data.cur_lv);
 	
-
-	-- self.buttonOk = TFDirector:getChildByPath(ui,"Button_ok");
-	-- self.buttonOk:onClick(function()
- --    		AlertManager:close();
- --    	end)
+	self.Spine_fairyLevelUp = TFDirector:getChildByPath(ui , "Spine_fairyLevelUp")
 	
 	self.ui:setTouchEnabled(true);
 	self.ui:onClick(function()
 			AlertManager:closeLayer(self)
 		end)
+
+	self.Spine_fairyLevelUp:addMEListener(TFARMATURE_COMPLETE,function(spine,animationName)
+    	self.Spine_fairyLevelUp:removeMEListener(TFARMATURE_COMPLETE)
+		self.Spine_fairyLevelUp:play("xunhuan" , true)
+		
+     end)
 end
 
 function LeagueLevelUpResult:onHide()
@@ -42,15 +44,7 @@ end
 function LeagueLevelUpResult:onShow()
 	self.super.onShow(self)
 	
-	-- self.ui:runAnimation("Action0",1);
-
-	-- local delay = CCDelayTime:create(0.3);
-	-- local callfunc = CCCallFunc:create(function()
-	-- 		self.ui:runAnimation("Action1",-1);
-	-- 	end
-	-- 	)
 	
-	-- self:runAction(CCSequence:create({delay,callfunc}));
 end
 
 

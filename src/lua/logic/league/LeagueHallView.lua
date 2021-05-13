@@ -188,12 +188,12 @@ function LeagueHallView:initUI(ui)
         self.items = {}
         self.isShowUpgradeButton = false
         for k,v in pairs(need) do
-            if GoodsDataMgr:getItemCount(v) > 0 then
+            if GoodsDataMgr:getItemCount(v) > 0 and LeagueDataMgr:getUnionLevel() < LeagueDataMgr:getUnionMaxLevel()then
                 self.isShowUpgradeButton = true
                 break
             end
         end
-        if self.isShowUpgradeButton then
+        if self.isShowUpgradeButton  then
             self.Button_upgrade = TFButton:create("ui/common/button_middle_n.png")
             self.Button_upgrade:setPosition(260 , 53)
             self.Button_upgrade:setName("Button_upgrade")
@@ -636,7 +636,7 @@ function LeagueHallView:onShow()
                 break
             end
         end
-        if isShowButton == false and self.Button_upgrade then
+        if isShowButton == false and self.Button_upgrade  and LeagueDataMgr:getUnionLevel() < LeagueDataMgr:getUnionMaxLevel() then
             self.Button_upgrade:hide()
         end
      end
