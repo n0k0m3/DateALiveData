@@ -311,7 +311,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 118,
+																PositionX = 117,
 																IsPercent = true,
 																PercentX = 102.61,
 															},
@@ -320,6 +320,7 @@ local t =
 																Layout="Absolute",
 																nType = "0"
 															},
+															visible = "False",
 															width = "0",
 															ZOrder = "1",
 															components = 

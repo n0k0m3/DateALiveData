@@ -4016,12 +4016,12 @@ local t =
 											bgColorOpacity = "50",
 											bIsOpenClipping = "False",
 											classname = "MEPanel",
-											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											colorType = "0;SingleColor:#FFFF0000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 											DesignHeight = "640",
 											DesignType = "0",
 											DesignWidth = "960",
 											dstBlendFunc = "771",
-											height = "120",
+											height = "198",
 											ignoreSize = "False",
 											name = "Panel_teshu_title",
 											sizepercentx = "0",
@@ -4067,8 +4067,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 132,
-														PositionY = 108,
+														PositionX = 139,
+														PositionY = 177,
 													},
 													width = "278",
 													ZOrder = "1",
@@ -4113,8 +4113,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 4,
-														PositionY = 104,
+														PositionX = 11,
+														PositionY = 173,
 													},
 													width = "120",
 													ZOrder = "1",
@@ -4160,8 +4160,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 122,
-														PositionY = 104,
+														PositionX = 129,
+														PositionY = 173,
 													},
 													visible = "False",
 													width = "45",
@@ -4186,7 +4186,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "15",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -4207,10 +4207,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 31,
-														PositionY = 84,
+														PositionX = 39,
+														PositionY = 154,
 													},
-													width = "290",
+													width = "253",
 													ZOrder = "1",
 												},
 											},

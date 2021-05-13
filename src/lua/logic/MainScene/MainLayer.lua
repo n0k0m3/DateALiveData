@@ -459,7 +459,7 @@ function MainLayer:initUI(ui)
 
     self.button_Caociyuan = TFDirector:getChildByPath(ui,"button_Caociyuan")
 
-    if TFGlobalUtils:isConnectEnServer( ) then
+    if TFGlobalUtils:isConnectEnServer() or TFGlobalUtils:isConnectMiniServer()  then
         self.button_Caociyuan:setTextureNormal("ui/mainLayer3/c12.png")  --英文版设置活动按钮ui路径统一为地错
         self.button_Caociyuan:setTexturePressed("ui/mainLayer3/c12.png")  --英文版设置活动按钮ui路径统一为地错
     end
@@ -3217,6 +3217,10 @@ function MainLayer:onShow()
     self:onRedPointUpdateDispatch()
     --self.Image_noticeTip:setVisible(TaskDataMgr:getTempValue())
     --self.Image_noticeTip:setVisible(NoticeDataMgr:getNoticeCount() > 0)
+
+    --检查过期折扣券英文版专属
+    self:checkOverdueCoupon()
+
     self.Image_noticeTip:setVisible(false)
     self.Image_wjTip:setVisible(not MainPlayer:getIsTouchWJ());
     self.fairyTips:setVisible(HeroDataMgr:checkRedPoint());
@@ -4742,7 +4746,25 @@ function MainLayer:checkfestivalInfoUIShow()
     end
 end
 
-
+--检查过期折扣券
+function MainLayer:checkOverdueCoupon()
+    if GuideDataMgr:isInNewGuide() then
+        return
+    end
+    if Utils:getIsDayChangeBySaveData("IsJumpOverdueCoupon") then
+        local time_1 = self.overdueTime.thirdNotification.leftTime[1]
+        local time_2 = self.overdueTime.secondNotification.leftTime[1]
+        local goodsData = {}
+        local originItem , convertItem = GoodsDataMgr:getOverdueCouponData(self.overdueTime.itemType ,time_1 * 60 , time_2 * 60)
+        goodsData.originItem = originItem
+        goodsData.convertItem = convertItem
+        if #goodsData.originItem >0 or #goodsData.convertItem >0 then
+            Utils:openView("bag.OverduePromptView", goodsData)
+        else
+            Utils:clearDayChageSaveData( "IsJumpOverdueCoupon" )
+        end
+    end
+end
 
 return MainLayer;
 

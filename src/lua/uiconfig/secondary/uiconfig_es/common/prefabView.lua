@@ -1888,11 +1888,11 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -13,
+								PositionX = -3,
 								PositionY = 35,
 							},
 							visible = "False",
-							width = "84",
+							width = "102",
 							ZOrder = "1",
 							components = 
 							{

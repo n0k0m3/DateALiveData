@@ -5724,7 +5724,7 @@ local t =
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "200",
+																	height = "0",
 																	ignoreSize = "False",
 																	name = "Label_suitDesc",
 																	nTextAlign = "1",

@@ -502,7 +502,14 @@ function CityJobView:onJobAccelerateClick()
     else
         local ownNum = GoodsDataMgr:getItemCount(self.costId)
         if ownNum >= self.accelerateCost then
-            CityJobDataMgr:sendWorkAccelerate()
+            local callBack = function()
+                CityJobDataMgr:sendWorkAccelerate()
+            end
+
+            local rstr = TextDataMgr:getTextAttr(190000856)
+            local content = string.format(rstr.text, self.accelerateCost, TabDataMgr:getData("Item", self.costId).icon)
+            Utils:openView("common.ReConfirmTipsView", {tittle = 14210305, content = content, reType = false, confirmCall = callBack})
+            
         else
             Utils:showTips(204002)
         end

@@ -4009,7 +4009,7 @@ local t =
 											DesignType = "0",
 											DesignWidth = "960",
 											dstBlendFunc = "771",
-											height = "120",
+											height = "211",
 											ignoreSize = "False",
 											name = "Panel_teshu_title",
 											sizepercentx = "0",
@@ -4055,8 +4055,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 132,
-														PositionY = 117,
+														PositionX = 137,
+														PositionY = 190,
 													},
 													width = "278",
 													ZOrder = "1",
@@ -4101,8 +4101,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 6,
-														PositionY = 120,
+														PositionX = 11,
+														PositionY = 193,
 													},
 													width = "182",
 													ZOrder = "1",
@@ -4148,8 +4148,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 98,
-														PositionY = 113,
+														PositionX = 103,
+														PositionY = 186,
 													},
 													visible = "False",
 													width = "49",
@@ -4174,7 +4174,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -4195,10 +4195,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 31,
-														PositionY = 97,
+														PositionX = 37,
+														PositionY = 171,
 													},
-													width = "300",
+													width = "258",
 													ZOrder = "1",
 												},
 											},
@@ -4987,7 +4987,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -5096,7 +5096,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -5182,7 +5182,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -5268,7 +5268,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -7304,7 +7304,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_button_name",
 									nTextAlign = "1",
@@ -7320,7 +7320,7 @@ local t =
 									{
 										PositionX = 5,
 									},
-									width = "107",
+									width = "141",
 									ZOrder = "1",
 								},
 							},

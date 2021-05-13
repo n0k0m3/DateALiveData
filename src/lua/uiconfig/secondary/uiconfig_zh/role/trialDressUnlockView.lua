@@ -70,8 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 510,
-						PositionY = 354,
+						PositionX = 480,
+						PositionY = 320,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -300,7 +300,7 @@ local t =
 								},
 								{
 									controlID = "Spine_trialDressUnlockView_1_background_Panel_root_Panel-trialDressUnlockView_Layer1_role_Game",
-									UUID = "a549d37e_f6e8_4c38_b0a9_d632cbf6c109",
+									UUID = "69cedb77_30eb_4ec1_945c_4fbe07cd740c",
 									classname = "MESpine",
 									dstBlendFunc = "771",
 									name = "Spine_trialDressUnlockView_1",
@@ -310,21 +310,21 @@ local t =
 									spineModel = 
 									{
 										SpinePath = "effect/effects_shiyongshizhuang/effects_shiyongshizhuang",
-										animationName = "xunhuan",
+										animationName = "ALL_zn",
 										IsLoop = true,
 										IsPlay = true,
 										IsUseQueue = true,
 										AnimationQueue = 
 										{
-											[1] = "ALL",
-											[2] = "xunhuan",
+											[1] = "ALL_zn",
+											[2] = "xunhuan_zn",
 										},
 									},
 									srcBlendFunc = "1",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 145,
+										PositionY = 135,
 									},
 									ZOrder = "1",
 								},

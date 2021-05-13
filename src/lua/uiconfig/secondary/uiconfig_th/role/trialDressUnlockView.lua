@@ -300,7 +300,7 @@ local t =
 								},
 								{
 									controlID = "Spine_trialDressUnlockView_1_background_Panel_root_Panel-trialDressUnlockView_Layer1_role_Game",
-									UUID = "a549d37e_f6e8_4c38_b0a9_d632cbf6c109",
+									UUID = "0df2c6df_6d5b_4550_b0df_ce430a09bf76",
 									classname = "MESpine",
 									dstBlendFunc = "771",
 									name = "Spine_trialDressUnlockView_1",
@@ -310,21 +310,23 @@ local t =
 									spineModel = 
 									{
 										SpinePath = "effect/effects_shiyongshizhuang/effects_shiyongshizhuang",
-										animationName = "xunhuan",
+										animationName = "ALL_en",
 										IsLoop = true,
 										IsPlay = true,
 										IsUseQueue = true,
 										AnimationQueue = 
 										{
-											[1] = "ALL",
-											[2] = "xunhuan",
+											[1] = "ALL_en",
+											[2] = "xunhuan_en",
 										},
 									},
 									srcBlendFunc = "1",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 145,
+										PositionX = 10,
+										PositionY = 133,
+										relativeToName = "Panel",
 									},
 									ZOrder = "1",
 								},

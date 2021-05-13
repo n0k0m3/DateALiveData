@@ -238,14 +238,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "加成",
+									text = "Bonus",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -37,
 									},
-									width = "52",
+									width = "84",
 									ZOrder = "1",
 								},
 							},
@@ -317,7 +317,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "商店",
+									text = "Store",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 

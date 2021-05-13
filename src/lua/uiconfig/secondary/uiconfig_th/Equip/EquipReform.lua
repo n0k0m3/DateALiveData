@@ -584,7 +584,7 @@ local t =
 												TopPosition = 556,
 												relativeToName = "Panel_equip",
 											},
-											width = "24",
+											width = "23",
 											ZOrder = "1",
 										},
 										{
@@ -1853,7 +1853,7 @@ local t =
 												PositionX = 51,
 												PositionY = 15,
 											},
-											width = "16",
+											width = "15",
 											ZOrder = "1",
 										},
 										{
@@ -1976,7 +1976,7 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
@@ -1987,7 +1987,7 @@ local t =
 									{
 										nHitType = 3,
 									},
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Button_reform",
 									normal = "ui/fairy/new_ui/new_12.png",
 									pressed = "ui/fairy/new_ui/new_12.png",
@@ -1998,11 +1998,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 424,
+										PositionX = 417,
 										PositionY = 34,
 									},
 									UItype = "Button",
-									width = "134",
+									width = "152",
 									ZOrder = "1",
 									components = 
 									{
@@ -2072,7 +2072,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -39,
+												PositionX = -55,
 											},
 											width = "38",
 											ZOrder = "1",
@@ -3014,7 +3014,7 @@ local t =
 												PositionX = -38,
 												PositionY = -3,
 											},
-											width = "17",
+											width = "19",
 											ZOrder = "1",
 											components = 
 											{
@@ -3059,7 +3059,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 18,
+														PositionX = 20,
 														PositionY = 3,
 														IsPercent = true,
 														PercentX = 105,
@@ -3115,7 +3115,7 @@ local t =
 										PositionX = 48,
 										PositionY = 37,
 									},
-									width = "27",
+									width = "26",
 									ZOrder = "1",
 								},
 								{

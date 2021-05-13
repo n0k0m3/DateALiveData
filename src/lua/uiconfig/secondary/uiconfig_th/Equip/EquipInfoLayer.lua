@@ -3578,7 +3578,7 @@ local t =
 														PositionX = 10,
 														PositionY = 112,
 													},
-													width = "130",
+													width = "135",
 													ZOrder = "1",
 												},
 												{
@@ -3770,7 +3770,7 @@ local t =
 														PositionX = 95,
 														PositionY = 51,
 													},
-													width = "36",
+													width = "41",
 													ZOrder = "1",
 												},
 												{
@@ -3816,7 +3816,7 @@ local t =
 														PositionX = 96,
 														PositionY = 23,
 													},
-													width = "34",
+													width = "39",
 													ZOrder = "1",
 												},
 												{
@@ -3862,7 +3862,7 @@ local t =
 														PositionX = 95,
 														PositionY = 78,
 													},
-													width = "27",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -4009,7 +4009,7 @@ local t =
 											DesignType = "0",
 											DesignWidth = "960",
 											dstBlendFunc = "771",
-											height = "85",
+											height = "200",
 											ignoreSize = "False",
 											name = "Panel_teshu_title",
 											sizepercentx = "0",
@@ -4055,8 +4055,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 132,
-														PositionY = 75,
+														PositionX = 140,
+														PositionY = 171,
 													},
 													width = "278",
 													ZOrder = "1",
@@ -4101,10 +4101,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 4,
-														PositionY = 71,
+														PositionX = 12,
+														PositionY = 175,
 													},
-													width = "159",
+													width = "164",
 													ZOrder = "1",
 												},
 												{
@@ -4148,8 +4148,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 98,
-														PositionY = 71,
+														PositionX = 106,
+														PositionY = 167,
 													},
 													visible = "False",
 													width = "28",
@@ -4160,7 +4160,7 @@ local t =
 													UUID = "dae1615c_e5cc_4a42_aee6_2ef6cde20047",
 													anchorPoint = "False",
 													anchorPointX = "0",
-													anchorPointY = "0",
+													anchorPointY = "1",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
@@ -4181,7 +4181,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "80",
+													height = "0",
 													ignoreSize = "False",
 													name = "Label_guyou",
 													nTextAlign = "0",
@@ -4195,10 +4195,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 31,
-														PositionY = -29,
+														PositionX = 39,
+														PositionY = 146,
 													},
-													width = "275",
+													width = "254",
 													ZOrder = "1",
 												},
 											},
@@ -4313,7 +4313,7 @@ local t =
 														PositionX = 16,
 														PositionY = 17,
 													},
-													width = "156",
+													width = "161",
 													ZOrder = "1",
 												},
 												{
@@ -4498,7 +4498,7 @@ local t =
 												TopPosition = 556,
 												relativeToName = "Panel_equip",
 											},
-											width = "24",
+											width = "23",
 											ZOrder = "1",
 										},
 										{
@@ -4745,7 +4745,7 @@ local t =
 												PositionX = 249,
 												PositionY = 45,
 											},
-											width = "38",
+											width = "44",
 											ZOrder = "1",
 										},
 										{
@@ -6320,6 +6320,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "499",
 							ZOrder = "1",
 							components = 
@@ -6438,7 +6439,7 @@ local t =
 												PositionX = -10,
 												PositionY = 13,
 											},
-											width = "80",
+											width = "85",
 											ZOrder = "1",
 										},
 										{
@@ -6572,7 +6573,7 @@ local t =
 												PositionX = -10,
 												PositionY = 13,
 											},
-											width = "151",
+											width = "156",
 											ZOrder = "1",
 										},
 										{
@@ -8357,7 +8358,7 @@ local t =
 												PositionX = -38,
 												PositionY = -3,
 											},
-											width = "17",
+											width = "19",
 											ZOrder = "1",
 											components = 
 											{
@@ -8402,7 +8403,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 18,
+														PositionX = 20,
 														PositionY = 2,
 														IsPercent = true,
 														PercentX = 103,

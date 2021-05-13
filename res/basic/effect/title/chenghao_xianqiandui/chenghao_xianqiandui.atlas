@@ -4,16 +4,30 @@ size: 256,256
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/xianqiandui_000
+images/en/zi_000
   rotate: false
-  xy: 2, 125
+  xy: 2, 171
+  size: 164, 63
+  orig: 178, 93
+  offset: 14, 11
+  index: -1
+images/en/ziglow_000
+  rotate: true
+  xy: 102, 60
+  size: 109, 57
+  orig: 178, 93
+  offset: 38, 8
+  index: -1
+images/xianqiandui_000
+  rotate: true
+  xy: 2, 2
   size: 167, 44
   orig: 178, 93
   offset: 11, 28
   index: -1
 images/xianqianduiglow_000
-  rotate: false
-  xy: 2, 71
+  rotate: true
+  xy: 48, 24
   size: 145, 52
   orig: 178, 93
   offset: 19, 24

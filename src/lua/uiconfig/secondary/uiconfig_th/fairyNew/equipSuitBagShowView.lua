@@ -616,6 +616,7 @@ local t =
 														PositionX = -4,
 														PositionY = -18,
 													},
+													visible = "False",
 													width = "25",
 													ZOrder = "1",
 												},
@@ -625,7 +626,7 @@ local t =
 											controlID = "Label_collect_Panel_equip_Panel_left_Panel_base_Panel-equipSuitBagShowView_Layer1_fairyNew_Game",
 											UUID = "0dec4970_c79e_414b_b1ea_d2e31db388f8",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -661,7 +662,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 372,
+												PositionX = 400,
 												PositionY = 539,
 											},
 											width = "133",
@@ -710,7 +711,7 @@ local t =
 												PositionX = 468,
 												PositionY = 539,
 											},
-											width = "61",
+											width = "60",
 											ZOrder = "1",
 										},
 										{
@@ -971,7 +972,7 @@ local t =
 											controlID = "Label_collect_suit_Panel_suit_Panel_left_Panel_base_Panel-equipSuitBagShowView_Layer1_fairyNew_Game",
 											UUID = "7e462dfc_2c64_49bd_9d73_f7e15f48d99e",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -1007,7 +1008,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 372,
+												PositionX = 400,
 												PositionY = 539,
 											},
 											width = "133",
@@ -1056,7 +1057,7 @@ local t =
 												PositionX = 468,
 												PositionY = 539,
 											},
-											width = "61",
+											width = "60",
 											ZOrder = "1",
 										},
 										{
@@ -1584,7 +1585,7 @@ local t =
 														PositionX = -38,
 														PositionY = -3,
 													},
-													width = "17",
+													width = "19",
 													ZOrder = "1",
 													components = 
 													{
@@ -1629,7 +1630,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 18,
+																PositionX = 20,
 																PositionY = 3,
 																IsPercent = true,
 																PercentX = 105,
@@ -2151,7 +2152,7 @@ local t =
 														PositionX = 63,
 														PositionY = 15,
 													},
-													width = "27",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -2197,7 +2198,7 @@ local t =
 														PositionX = 240,
 														PositionY = 15,
 													},
-													width = "31",
+													width = "34",
 													ZOrder = "1",
 												},
 											},
@@ -2355,7 +2356,7 @@ local t =
 														PositionX = 240,
 														PositionY = 15,
 													},
-													width = "30",
+													width = "33",
 													ZOrder = "1",
 												},
 											},
@@ -2467,7 +2468,7 @@ local t =
 														PositionX = 63,
 														PositionY = 14,
 													},
-													width = "33",
+													width = "39",
 													ZOrder = "1",
 												},
 												{
@@ -2513,7 +2514,7 @@ local t =
 														PositionX = 240,
 														PositionY = 14,
 													},
-													width = "42",
+													width = "45",
 													ZOrder = "1",
 												},
 											},
@@ -2632,7 +2633,7 @@ local t =
 												PositionX = 548,
 												PositionY = 410,
 											},
-											width = "23",
+											width = "27",
 											ZOrder = "1",
 										},
 									},
@@ -2958,7 +2959,7 @@ local t =
 														PositionX = -38,
 														PositionY = -3,
 													},
-													width = "17",
+													width = "19",
 													ZOrder = "1",
 													components = 
 													{
@@ -3003,7 +3004,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 18,
+																PositionX = 20,
 																PositionY = 3,
 																IsPercent = true,
 																PercentX = 105,
@@ -3246,7 +3247,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "126",
+							height = "150",
 							ignoreSize = "False",
 							name = "Panel_suit_item",
 							sizepercentx = "0",
@@ -3272,13 +3273,13 @@ local t =
 									controlID = "Image_bg_Panel_suit_item_Panel_base_Panel-equipSuitBagShowView_Layer1_fairyNew_Game",
 									UUID = "84fd8de7_c940_4288_9861_6615b95a1ce6",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "126",
-									ignoreSize = "True",
+									height = "150",
+									ignoreSize = "False",
 									name = "Image_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -3288,8 +3289,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 235,
-										PositionY = 63,
+										
 									},
 									width = "470",
 									ZOrder = "1",
@@ -3313,14 +3313,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -3335,9 +3335,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 5,
-										PositionY = 108,
+										PositionY = 131,
 									},
-									width = "129",
+									width = "109",
 									ZOrder = "1",
 								},
 								{
@@ -3359,31 +3359,31 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "2",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "ชุดนี้มี 2 ชิ้น",
+									text = "ชุดนี้มี 2 ชิ้นชุดนี้มี 2 ชิ้นชุดนี้มี 2 ชิ้นชุดนี้มี 2 ชิ้นชุดนี้มี 2 ชิ้นชุดนี้มี 2 ชิ้น",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = 461,
-										PositionY = 106,
+										PositionY = 126,
 									},
-									width = "86",
+									width = "278",
 									ZOrder = "1",
 								},
 								{
@@ -3408,8 +3408,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 54,
-										PositionY = 56,
+										PositionX = 53,
+										PositionY = 61,
 									},
 									width = "86",
 									ZOrder = "1",
@@ -3454,10 +3454,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 54,
-										PositionY = 17,
+										PositionX = 53,
+										PositionY = 22,
 									},
-									width = "33",
+									width = "32",
 									ZOrder = "1",
 								},
 								{
@@ -3485,8 +3485,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 107,
-										PositionY = 2,
+										PositionX = 106,
+										PositionY = 7,
 									},
 									uipanelviewmodel = 
 									{

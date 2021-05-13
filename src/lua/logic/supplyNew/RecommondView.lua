@@ -78,6 +78,8 @@ function RecommondView:updateContentView()
     self.gridView:initParams()
     self.gridView:doLayout()
 
+    if self.data == nil then return end
+
     local giftData = RechargeDataMgr:getGiftListByType(tonumber(self.data.interface))
     if self.data.id == 5 then -- 战令商店
         local itemInfo
@@ -434,9 +436,10 @@ function RecommondView:removeCountDownTimer()
 end
 
 function RecommondView:refreshView()
-    self._ui.Image_show:setVisible(nil ~= self.data.bannerimg)
+    --if self.data == nil then return end
+    self._ui.Image_show:setVisible( self.data and (nil ~= self.data.bannerimg))
     self.gridView:setVisible(self._ui.Image_show:isVisible())
-    if self.data.bannerimg then
+    if self.data and self.data.bannerimg then
         local img = "ui/supplyNew/recommond/"..self.data.bannerimg..".png"
         self._ui.Image_show:setTexture(img)
     end

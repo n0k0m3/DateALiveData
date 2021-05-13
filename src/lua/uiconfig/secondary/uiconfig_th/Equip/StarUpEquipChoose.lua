@@ -477,16 +477,16 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
-									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextAlign = "0",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "เทพเจ้า",
+									text = "เทพเจ้าเทพเจ้าเทพเจ้าเทพเจ้าเทพเจ้าเทพเจ้า",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -494,7 +494,7 @@ local t =
 										PositionX = 123,
 										PositionY = 107,
 									},
-									width = "64",
+									width = "214",
 									ZOrder = "1",
 								},
 								{
@@ -584,7 +584,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 123,
-										PositionY = 80,
+										PositionY = 65,
 									},
 									width = "107",
 									ZOrder = "1",
@@ -1345,7 +1345,7 @@ local t =
 												PositionX = -38,
 												PositionY = -3,
 											},
-											width = "17",
+											width = "19",
 											ZOrder = "1",
 											components = 
 											{
@@ -1390,7 +1390,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 18,
+														PositionX = 20,
 														PositionY = 2,
 														IsPercent = true,
 														PercentX = 103,
@@ -1446,7 +1446,7 @@ local t =
 										PositionX = 8,
 										PositionY = 68,
 									},
-									width = "25",
+									width = "26",
 									ZOrder = "1",
 								},
 								{

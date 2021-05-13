@@ -553,7 +553,7 @@ local t =
 														PositionX = -6,
 														PositionY = 8,
 													},
-													width = "157",
+													width = "170",
 													ZOrder = "1",
 												},
 											},
@@ -778,14 +778,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "27",
+											fontSize = "25",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "31",
+											height = "29",
 											ignoreSize = "True",
 											name = "label_recast",
 											nTextAlign = "1",
@@ -802,7 +802,7 @@ local t =
 												PositionX = -1,
 												PositionY = -3,
 											},
-											width = "85",
+											width = "80",
 											ZOrder = "1",
 										},
 									},
@@ -858,14 +858,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "27",
+											fontSize = "25",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "31",
+											height = "29",
 											ignoreSize = "True",
 											name = "label_sure",
 											nTextAlign = "1",
@@ -882,7 +882,7 @@ local t =
 												PositionX = -1,
 												PositionY = -3,
 											},
-											width = "45",
+											width = "42",
 											ZOrder = "1",
 										},
 									},
@@ -938,14 +938,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "27",
+											fontSize = "25",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "31",
+											height = "29",
 											ignoreSize = "True",
 											name = "label_cancel",
 											nTextAlign = "1",
@@ -962,7 +962,7 @@ local t =
 												PositionX = -1,
 												PositionY = -3,
 											},
-											width = "50",
+											width = "46",
 											ZOrder = "1",
 										},
 									},
@@ -1103,7 +1103,7 @@ local t =
 												PositionX = 59,
 												PositionY = 17,
 											},
-											width = "33",
+											width = "32",
 											ZOrder = "1",
 										},
 									},
@@ -1523,7 +1523,7 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = 215,
+														PositionX = 225,
 														PositionY = 75,
 													},
 													UItype = "Button",
@@ -1573,7 +1573,7 @@ local t =
 														PositionX = 442,
 														PositionY = 43,
 													},
-													width = "55",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -1881,7 +1881,7 @@ local t =
 														PositionX = 441,
 														PositionY = 43,
 													},
-													width = "55",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -2335,7 +2335,7 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = 215,
+														PositionX = 225,
 														PositionY = 75,
 													},
 													UItype = "Button",
@@ -2385,7 +2385,7 @@ local t =
 														PositionX = 442,
 														PositionY = 43,
 													},
-													width = "55",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -2693,7 +2693,7 @@ local t =
 														PositionX = 441,
 														PositionY = 43,
 													},
-													width = "55",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -3147,7 +3147,7 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = 215,
+														PositionX = 225,
 														PositionY = 75,
 													},
 													UItype = "Button",
@@ -3197,7 +3197,7 @@ local t =
 														PositionX = 442,
 														PositionY = 43,
 													},
-													width = "55",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -3505,7 +3505,7 @@ local t =
 														PositionX = 441,
 														PositionY = 43,
 													},
-													width = "55",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -4055,7 +4055,7 @@ local t =
 												PositionX = 442,
 												PositionY = 43,
 											},
-											width = "55",
+											width = "58",
 											ZOrder = "1",
 										},
 										{
@@ -4363,7 +4363,7 @@ local t =
 												PositionX = 441,
 												PositionY = 43,
 											},
-											width = "55",
+											width = "58",
 											ZOrder = "1",
 										},
 										{

@@ -492,14 +492,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "60",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_tips",
 									nTextAlign = "1",
@@ -514,7 +514,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 203,
-										PositionY = 88,
+										PositionY = 83,
 									},
 									width = "250",
 									ZOrder = "1",
@@ -1116,7 +1116,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_price",
 											nTextAlign = "1",
@@ -1133,7 +1133,7 @@ local t =
 												PositionX = 16,
 												PositionY = -1,
 											},
-											width = "21",
+											width = "15",
 											ZOrder = "1",
 										},
 										{

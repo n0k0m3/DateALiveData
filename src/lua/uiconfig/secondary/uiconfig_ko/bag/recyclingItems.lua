@@ -70,7 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = -88,
+						PositionX = -58,
+						PositionY = 35,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -537,7 +538,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "返还获得物品",
+							text = "반환 후 물품 획득",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -545,7 +546,7 @@ local t =
 								PositionX = 569,
 								PositionY = 296,
 							},
-							width = "146",
+							width = "167",
 							ZOrder = "1",
 						},
 						{
@@ -655,7 +656,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 125,
-						PositionY = -225,
+						PositionY = -155,
 						LeftPositon = 125,
 						TopPosition = 755,
 						relativeToName = "Panel",
@@ -696,7 +697,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 191,
-						PositionY = -173,
+						PositionY = -103,
 						LeftPositon = 136,
 						TopPosition = 758,
 						relativeToName = "Panel",
@@ -968,7 +969,7 @@ local t =
 								PositionX = 48,
 								PositionY = 37,
 							},
-							width = "27",
+							width = "26",
 							ZOrder = "1",
 						},
 					},

@@ -741,7 +741,9 @@ end
 function BagView:updateCapacity()
     local maxNum = 999
     if TFGlobalUtils:isConnectKoreaTwServer() then
-        maxNum = 9999
+        if self.curCategory and self.curCategory == EC_BagCategory.EQUIPMENT then
+            maxNum = 9999
+        end
     end
     local capacity = self:getCurCapacity(self.selectIndex_)
     self.Label_capacity:setTextById(800005, capacity, maxNum)

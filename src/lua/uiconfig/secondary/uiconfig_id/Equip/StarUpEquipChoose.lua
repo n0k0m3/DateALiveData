@@ -224,6 +224,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
+										PositionX = 25,
 										PositionY = 95,
 									},
 									width = "2",
@@ -299,7 +300,7 @@ local t =
 								PositionX = 217,
 								PositionY = 509,
 							},
-							width = "203",
+							width = "232",
 							ZOrder = "1",
 						},
 						{
@@ -377,7 +378,7 @@ local t =
 									{
 										
 									},
-									width = "33",
+									width = "38",
 									ZOrder = "1",
 								},
 							},
@@ -477,16 +478,16 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
-									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextAlign = "0",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Tenjin",
+									text = "TenjinTenjinTenjinTenjinTenjinTenjin",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -494,7 +495,7 @@ local t =
 										PositionX = 123,
 										PositionY = 107,
 									},
-									width = "61",
+									width = "239",
 									ZOrder = "1",
 								},
 								{
@@ -584,9 +585,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 123,
-										PositionY = 80,
+										PositionY = 64,
 									},
-									width = "53",
+									width = "57",
 									ZOrder = "1",
 								},
 								{
@@ -838,7 +839,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 578,
+								PositionX = 597,
 								PositionY = 351,
 							},
 							uipanelviewmodel = 
@@ -930,7 +931,7 @@ local t =
 										PositionX = 30,
 										PositionY = 15,
 									},
-									width = "87",
+									width = "82",
 									ZOrder = "1",
 								},
 								{
@@ -1345,7 +1346,7 @@ local t =
 												PositionX = -38,
 												PositionY = -3,
 											},
-											width = "17",
+											width = "19",
 											ZOrder = "1",
 											components = 
 											{
@@ -1390,7 +1391,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 18,
+														PositionX = 20,
 														PositionY = 2,
 														IsPercent = true,
 														PercentX = 103,
@@ -1446,7 +1447,7 @@ local t =
 										PositionX = 8,
 										PositionY = 68,
 									},
-									width = "25",
+									width = "26",
 									ZOrder = "1",
 								},
 								{

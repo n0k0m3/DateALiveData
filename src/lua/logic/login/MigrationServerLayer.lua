@@ -21,6 +21,10 @@ function MigrationServerLayer:initUI(ui)
     self.titleLabel:setTextById(190000816)
 
     TFDirector:getChildByPath(self.rootPanel,"label_tip"):setTextById(190000853)
+
+    self.loadingPanel = TFDirector:getChildByPath(self.rootPanel,"panel_loading"):hide()
+    self.loadingPanel:setSize(CCSize(GameConfig.WS.width,GameConfig.WS.height))
+    TFDirector:getChildByPath(self.rootPanel,"spine_loading"):playByIndex(0,-1,-1,1)
 end
 
 function MigrationServerLayer:removeUI()
@@ -31,13 +35,16 @@ function MigrationServerLayer:registerEvents()
 	self.super.registerEvents(self)
 
 	self.okBtn:onClick(function()
+        self.loadingPanel:show()
         local _exitCacheValue, migrationServerId = TFGlobalUtils:getMigrationServerId(true)
         local isUpdate = (migrationServerId ~= self.migrationServerId)
 		TFGlobalUtils:setMigrationServerId(self.migrationServerId)
         if self.callback then
             self.callback(isUpdate)
         end
-        self:getParent():removeLayer(self,true)
+        self:timeOut(function()
+            self:getParent():removeLayer(self,true)
+        end, 1.5)  
     end)
 
     self.backBtn:onClick(function()

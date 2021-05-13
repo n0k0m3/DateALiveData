@@ -4009,7 +4009,7 @@ local t =
 											DesignType = "0",
 											DesignWidth = "960",
 											dstBlendFunc = "771",
-											height = "120",
+											height = "200",
 											ignoreSize = "False",
 											name = "Panel_teshu_title",
 											sizepercentx = "0",
@@ -4055,8 +4055,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 132,
-														PositionY = 115,
+														PositionX = 138,
+														PositionY = 183,
 													},
 													width = "278",
 													ZOrder = "1",
@@ -4101,8 +4101,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 4,
-														PositionY = 111,
+														PositionX = 10,
+														PositionY = 179,
 													},
 													width = "236",
 													ZOrder = "1",
@@ -4148,8 +4148,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 98,
-														PositionY = 111,
+														PositionX = 104,
+														PositionY = 179,
 													},
 													visible = "False",
 													width = "59",
@@ -4195,10 +4195,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 31,
-														PositionY = 91,
+														PositionX = 38,
+														PositionY = 160,
 													},
-													width = "300",
+													width = "258",
 													ZOrder = "1",
 												},
 											},

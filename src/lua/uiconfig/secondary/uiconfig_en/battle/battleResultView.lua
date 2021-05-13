@@ -1770,6 +1770,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "558",
 							ZOrder = "1",
 							components = 
@@ -7536,7 +7537,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 222,
+										PositionX = 204,
 										PositionY = 20,
 									},
 									width = "90",
@@ -7577,7 +7578,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "+100",
+									text = "+1000",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -7585,7 +7586,7 @@ local t =
 										PositionX = 268,
 										PositionY = 20,
 									},
-									width = "50",
+									width = "62",
 									ZOrder = "1",
 								},
 							},

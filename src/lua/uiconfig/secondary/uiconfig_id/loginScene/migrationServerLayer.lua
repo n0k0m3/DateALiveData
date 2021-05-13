@@ -828,6 +828,75 @@ local t =
 							width = "120",
 							ZOrder = "1",
 						},
+						{
+							controlID = "panel_loading_panel_root_Panel-migrationServerLayer_Layer1_loginScene_Game",
+							UUID = "3c1ef7a6_52af_4727_8d0b_788824910c4f",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "178",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "1;SingleColor:#FF000000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "640",
+							ignoreSize = "False",
+							name = "panel_loading",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "1136",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "spine_loading_panel_loading_panel_root_Panel-migrationServerLayer_Layer1_loginScene_Game",
+									UUID = "17b0447b_eee1_4a29_8b9a_17d620cebff6",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "spine_loading",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/newLoading/effects_loading2",
+										animationName = "animation",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 568,
+										PositionY = 320,
+									},
+									ZOrder = "1",
+								},
+							},
+						},
 					},
 				},
 			},

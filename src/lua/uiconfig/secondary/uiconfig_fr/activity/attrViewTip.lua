@@ -92,11 +92,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "494",
-							ignoreSize = "True",
+							height = "474",
+							ignoreSize = "False",
 							name = "Image_1",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -109,7 +109,7 @@ local t =
 								PositionX = 568,
 								PositionY = 329,
 							},
-							width = "374",
+							width = "497",
 							ZOrder = "1",
 						},
 						{
@@ -152,8 +152,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 568,
-								PositionY = 544,
+								PositionX = 440,
+								PositionY = 539,
 							},
 							width = "223",
 							ZOrder = "1",
@@ -175,7 +175,7 @@ local t =
 							height = "279",
 							ignoreSize = "False",
 							innerHeight = "279",
-							innerWidth = "349",
+							innerWidth = "415",
 							name = "ScrollView_attr",
 							showScrollbar = "False",
 							sizepercentx = "0",
@@ -185,15 +185,15 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 392,
-								PositionY = 155,
+								PositionX = 369,
+								PositionY = 160,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "349",
+							width = "415",
 							ZOrder = "1",
 						},
 						{
@@ -220,7 +220,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 568,
-								PositionY = 119,
+								PositionY = 130,
 							},
 							UItype = "Button",
 							width = "116",
@@ -298,8 +298,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 725,
-								PositionY = 546,
+								PositionX = 784,
+								PositionY = 537,
 							},
 							UItype = "Button",
 							width = "46",
@@ -724,8 +724,10 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionY = -640,
-						BottomPosition = -640,
+						PositionX = -4,
+						PositionY = -563,
+						LeftPositon = -4,
+						BottomPosition = -563,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 4,
@@ -774,7 +776,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "349",
+							width = "405",
 							ZOrder = "1",
 							components = 
 							{
@@ -799,8 +801,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -98,
-										PositionY = 8,
+										PositionX = -120,
+										PositionY = 4,
 									},
 									width = "34",
 									ZOrder = "1",
@@ -830,7 +832,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 9,
+										PositionX = -22,
+										PositionY = 6,
 									},
 									uipanelviewmodel = 
 									{
@@ -1154,7 +1157,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 9,
+										PositionX = -22,
+										PositionY = 6,
 									},
 									uipanelviewmodel = 
 									{
@@ -1201,7 +1205,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "TextLable",
+											text = "Velocidad de movimiento",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1209,7 +1213,7 @@ local t =
 												PositionX = -83,
 												PositionY = -1,
 											},
-											width = "80",
+											width = "200",
 											ZOrder = "1",
 										},
 										{
@@ -1247,12 +1251,12 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "TextLable",
+											text = "+14",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 89,
+												PositionX = 170,
 												PositionY = -1,
 											},
 											width = "0",
@@ -1278,7 +1282,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 146,
+												PositionX = 198,
 												PositionY = -1,
 											},
 											width = "24",
