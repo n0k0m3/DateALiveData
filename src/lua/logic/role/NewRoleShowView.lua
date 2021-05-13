@@ -1597,7 +1597,7 @@ function NewRoleShowView:onBtnChange()
     if MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_SwitchKanBanState) then
         callback()
     else
-        local content = "更换看板会关闭轮播模式"
+        local content = TextDataMgr:getText(111000107)  --英文版改为读取id文本
         Utils:openView("common.ReConfirmTipsView", {tittle = 310019, content = content, reType =EC_OneLoginStatusType.ReConfirm_SwitchKanBanState, confirmCall = callback})
     end
 

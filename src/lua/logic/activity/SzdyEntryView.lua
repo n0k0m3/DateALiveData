@@ -121,12 +121,13 @@ function SzdyEntryView:refreshView()
 	self.costNum = temp.num
 	self.costId = temp.id
 
-	local year, month, day = Utils:getDate(self.activityInfo.showStartTime or 0)
+	--local year, month, day = Utils:getDate(self.activityInfo.showStartTime or 0)
+	local year, month, day = Utils:getUTCDateYMD(self.activityInfo.showStartTime or 0 , true , GV_UTC_TIME_ZONE)
 	local format = TextDataMgr:getText(1410001)
 	self.act_timeStart:setTextById(1410001,year, month, day)
 
-	year, month, day = Utils:getDate(self.activityInfo.showEndTime or 0)
-	self.act_timeEnd:setTextById(1410001,year, month, day)
+	year, month, day = Utils:getUTCDateYMD(self.activityInfo.showEndTime or 0 , true , GV_UTC_TIME_ZONE)
+	self.act_timeEnd:setText(TextDataMgr:getText(1410001,year, month, day)..GV_UTC_TIME_STRING)
 
 	self.Label_Item_Count:setTextById(15010037, GoodsDataMgr:getItemCount(tonumber(self.costId)))
 

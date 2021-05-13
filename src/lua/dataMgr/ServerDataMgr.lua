@@ -140,9 +140,9 @@ function ServerDataMgr:init()
             {   
                 -- 新韩台正式服
                 id = 200005,
-                group_id = 32,
+                group_id = 40,
                 groupName = "Server III",
-                serverGroup = "xyz_server",
+                serverGroup = "ht_server",
                 groupType = GLOBAL_SERVER_LIST.SERVER_KOREA_TW
             }
         }

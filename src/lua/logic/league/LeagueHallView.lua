@@ -1152,6 +1152,8 @@ function LeagueHallView:registerEvents()
     EventMgr:addEventListener(self, EV_LEAGUE_BACK_ALL_INFO, handler(self.updateBackInfo, self))
     EventMgr:addEventListener(self, EV_LEAGUE_BACK_SCORE_UPDATE, handler(self.updateMyScore, self))
 	EventMgr:addEventListener(self, EV_UNION_CHANGE_COUNTRY, handler(self.onChangeCountry, self))
+
+    EventMgr:addEventListener(self, EV_UNION_EXP_LEVEL_CHANGE, handler(self.onInfoChangeRefresh, self))  --新韩台新增使用社团经验卡相关逻辑
     
     
     self.Slider_level:addMEListener(

@@ -329,5 +329,15 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="leagueLevelUpResult",
+			ui ="leagueLevelUpResult.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="league",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

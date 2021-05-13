@@ -81,7 +81,7 @@ function LeagueLevelUp:updateUI(num)
 	self.Label_exp:setString(exp);
 	local curLv = LeagueDataMgr:getUnionLevel()
 	self.Label_lv_old:setString("Lv"..curLv);
-
+	self.curLv = curLv
 	self.nextLv = LeagueDataMgr:calcLevelUp(exp);
 	self.Label_lv_cur:setString("Lv"..self.nextLv);
 
@@ -204,6 +204,9 @@ function LeagueLevelUp:onRecvUseUpgradeCard()
 	        end
 	        if isShowButton == false then
 	           
+	        end
+	        if self.curLv <self.nextLv then
+	        	Utils:openView("league.LeagueLevelUpResult" , {old_lv = self.curLv , cur_lv = self.nextLv})
 	        end
 	        AlertManager:closeLayer(self)
 end

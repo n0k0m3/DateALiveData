@@ -327,7 +327,7 @@ local t =
 														PositionX = 22,
 														PositionY = -10,
 													},
-													width = "21",
+													width = "25",
 													ZOrder = "1",
 												},
 											},
@@ -610,7 +610,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "教官称号：",
+													text = "교관 칭호：",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -621,7 +621,7 @@ local t =
 														PercentX = 7.98,
 														PercentY = 56.57,
 													},
-													width = "99",
+													width = "95",
 													ZOrder = "1",
 												},
 												{
@@ -965,7 +965,7 @@ local t =
 														PercentX = 8,
 														PercentY = 50,
 													},
-													width = "21",
+													width = "25",
 													ZOrder = "1",
 												},
 												{
@@ -1015,7 +1015,7 @@ local t =
 														PercentX = 110.32,
 														PercentY = 50,
 													},
-													width = "128",
+													width = "127",
 													ZOrder = "1",
 												},
 												{
@@ -1240,7 +1240,7 @@ local t =
 														PositionX = 35,
 														PositionY = 20,
 													},
-													width = "85",
+													width = "89",
 													ZOrder = "1",
 												},
 												{
@@ -1497,7 +1497,7 @@ local t =
 														PositionX = 524,
 														PositionY = 27,
 													},
-													width = "86",
+													width = "85",
 													ZOrder = "1",
 												},
 												{
@@ -2139,7 +2139,7 @@ local t =
 												PositionX = 6,
 												PositionY = -84,
 											},
-											width = "28",
+											width = "27",
 											ZOrder = "1",
 										},
 										{
@@ -3187,7 +3187,7 @@ local t =
 										PositionX = -353,
 										PositionY = 181,
 									},
-									width = "225",
+									width = "226",
 									ZOrder = "1",
 								},
 								{
@@ -3233,7 +3233,7 @@ local t =
 										PositionX = -126,
 										PositionY = 168,
 									},
-									width = "115",
+									width = "113",
 									ZOrder = "1",
 								},
 								{

@@ -49,8 +49,8 @@ local t =
 					controlID = "panel_root_Panel-migrationServerLayer_Layer1_loginScene_Game",
 					UUID = "a0252bdf_351f_4403_8afb_cfb4aa37c05b",
 					anchorPoint = "False",
-					anchorPointX = "0",
-					anchorPointY = "0",
+					anchorPointX = "0.5",
+					anchorPointY = "0.5",
 					backGroundScale9Enable = "False",
 					bgColorOpacity = "50",
 					bIsOpenClipping = "False",
@@ -70,9 +70,11 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
+						PositionX = 510,
+						PositionY = 333,
 						relativeToName = "Panel",
 						nType = 3,
-						nGravity = 6,
+						nGravity = 5,
 						nAlign = 5
 					},
 					uipanelviewmodel = 
@@ -110,8 +112,6 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 568,
-								PositionY = 320,
 								TopPosition = 240,
 								relativeToName = "Panel",
 							},
@@ -143,11 +143,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 568,
-								PositionY = 320,
 								IsPercent = true,
-								PercentX = 50,
-								PercentY = 50,
 							},
 							width = "1386",
 							ZOrder = "1",
@@ -172,8 +168,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 246,
-								PositionY = 530,
+								PositionX = -322,
+								PositionY = 210,
 								relativeToName = "Panel",
 							},
 							width = "6",
@@ -199,8 +195,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 588,
-								PositionY = 214,
+								PositionX = 20,
+								PositionY = -106,
 								relativeToName = "Panel",
 							},
 							width = "841",
@@ -246,8 +242,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 263,
-								PositionY = 538,
+								PositionX = -305,
+								PositionY = 218,
 							},
 							width = "114",
 							ZOrder = "1",
@@ -292,8 +288,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 262,
-								PositionY = 506,
+								PositionX = -306,
+								PositionY = 186,
 							},
 							width = "700",
 							ZOrder = "1",
@@ -322,8 +318,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 589,
-								PositionY = 145,
+								PositionX = 21,
+								PositionY = -175,
 							},
 							UItype = "Button",
 							width = "385",
@@ -402,8 +398,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 588,
-								PositionY = 439,
+								PositionX = 20,
+								PositionY = 119,
 							},
 							UItype = "Button",
 							width = "615",
@@ -510,8 +506,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 281,
-								PositionY = 408,
+								PositionX = -287,
+								PositionY = 88,
 							},
 							uipanelviewmodel = 
 							{
@@ -760,8 +756,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 945,
-								PositionY = 267,
+								PositionX = 377,
+								PositionY = -53,
 							},
 							width = "18",
 							ZOrder = "1",
@@ -821,8 +817,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 57,
-								PositionY = 578,
+								PositionX = -511,
+								PositionY = 258,
 							},
 							UItype = "Button",
 							width = "120",
@@ -832,8 +828,8 @@ local t =
 							controlID = "panel_loading_panel_root_Panel-migrationServerLayer_Layer1_loginScene_Game",
 							UUID = "3c1ef7a6_52af_4727_8d0b_788824910c4f",
 							anchorPoint = "False",
-							anchorPointX = "0",
-							anchorPointY = "0",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
 							backGroundScale9Enable = "False",
 							bgColorOpacity = "178",
 							bIsOpenClipping = "False",
@@ -890,8 +886,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 568,
-										PositionY = 320,
+										
 									},
 									ZOrder = "1",
 								},
