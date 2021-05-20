@@ -75,7 +75,7 @@ function LeagueLevelUp:updateUI(num)
 
 	self.Label_num:setString(self.selectNum);
 
-	local exp = TabDataMgr:getData("Item",self.items[self.curidx].itemId).useProfit.val
+	local exp = TabDataMgr:getData("Item",self.items[self.curidx].itemId).useProfit.exp
 	exp = exp * self.selectNum;
 
 	self.Label_exp:setString(exp);
