@@ -145,7 +145,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -154,7 +154,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "成员伤害 l",
+									text = "구성원 피해 l",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -162,7 +162,7 @@ local t =
 										PositionX = -292,
 										PositionY = 186,
 									},
-									width = "113",
+									width = "135",
 									ZOrder = "1",
 								},
 								{
@@ -205,10 +205,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -231,
+										PositionX = -224,
 										PositionY = 183,
 									},
-									width = "87",
+									width = "84",
 									ZOrder = "1",
 								},
 								{
@@ -372,7 +372,7 @@ local t =
 												PositionX = 464,
 												PositionY = 23,
 											},
-											width = "75",
+											width = "71",
 											ZOrder = "1",
 										},
 										{
@@ -410,7 +410,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "贡献伤害",
+											text = "공헌 피해",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -418,7 +418,7 @@ local t =
 												PositionX = 602,
 												PositionY = 24,
 											},
-											width = "76",
+											width = "71",
 											ZOrder = "1",
 										},
 										{
@@ -510,14 +510,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "暂无数据",
+									text = "아직 데이터 없음",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = -10,
 									},
-									width = "107",
+									width = "177",
 									ZOrder = "1",
 								},
 								{
@@ -697,7 +697,7 @@ local t =
 										PositionX = -194,
 										PositionY = -191,
 									},
-									width = "57",
+									width = "56",
 									ZOrder = "1",
 									components = 
 									{
@@ -737,7 +737,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "参与挑战人数：",
+											text = "도전 참여 인원수",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -745,7 +745,7 @@ local t =
 												PositionX = -78,
 												PositionY = 1,
 											},
-											width = "143",
+											width = "148",
 											ZOrder = "1",
 										},
 									},
@@ -793,7 +793,7 @@ local t =
 										PositionX = 177,
 										PositionY = -192,
 									},
-									width = "122",
+									width = "117",
 									ZOrder = "1",
 									components = 
 									{
@@ -833,15 +833,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "所有成员总伤害：",
+											text = "모든 구성원의 총 피해량",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -86,
+												PositionX = -119,
 												PositionY = 2,
 											},
-											width = "165",
+											width = "213",
 											ZOrder = "1",
 										},
 									},
@@ -981,7 +981,7 @@ local t =
 										StrokeColor = "#FF000000",
 										StrokeSize = 1,
 									},
-									height = "29",
+									height = "27",
 									ignoreSize = "True",
 									name = "lab_rankNum",
 									nTextAlign = "1",
@@ -999,7 +999,7 @@ local t =
 										PositionX = 13,
 										PositionY = 34,
 									},
-									width = "33",
+									width = "28",
 									ZOrder = "1",
 								},
 								{
@@ -1028,7 +1028,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "lab_leagueHurtNum",
 									nTextAlign = "1",
@@ -1045,7 +1045,7 @@ local t =
 										PositionX = 590,
 										PositionY = 36,
 									},
-									width = "55",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
@@ -1147,7 +1147,7 @@ local t =
 										PositionX = 153,
 										PositionY = 57,
 									},
-									width = "163",
+									width = "201",
 									ZOrder = "1",
 								},
 								{
@@ -1193,7 +1193,7 @@ local t =
 										PositionX = 362,
 										PositionY = 56,
 									},
-									width = "39",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
@@ -1231,7 +1231,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "1天前",
+									text = "1일 전",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1239,7 +1239,7 @@ local t =
 										PositionX = 363,
 										PositionY = 21,
 									},
-									width = "45",
+									width = "49",
 									ZOrder = "1",
 								},
 								{
@@ -1333,7 +1333,7 @@ local t =
 												PositionX = -37,
 												PositionY = 1,
 											},
-											width = "63",
+											width = "50",
 											ZOrder = "1",
 										},
 									},
@@ -1381,7 +1381,7 @@ local t =
 										PositionX = 461,
 										PositionY = 35,
 									},
-									width = "28",
+									width = "31",
 									ZOrder = "1",
 								},
 							},

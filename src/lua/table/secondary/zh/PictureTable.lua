@@ -5714,4 +5714,9 @@ return {
         res = "ui/fuli/seven_sign/002.png",
         res_en = "ui/fuli/seven_sign/002_zh.png",
     },
+    [1147] = {
+        id = 1147,
+        res = "ui/onlineteam/role_change.png",
+        res_en = "ui/onlineteam/role_change_zh.png",
+    },
 }

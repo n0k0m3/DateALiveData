@@ -317,7 +317,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Time",
+											text = "TIME",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -325,7 +325,7 @@ local t =
 												PositionX = 55,
 												PositionY = 61,
 											},
-											width = "70",
+											width = "84",
 											ZOrder = "1",
 										},
 										{
@@ -371,7 +371,7 @@ local t =
 												PositionX = 103,
 												PositionY = 61,
 											},
-											width = "243",
+											width = "237",
 											ZOrder = "1",
 										},
 									},
@@ -382,10 +382,10 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "38",
+									height = "52",
 									ignoreSize = "False",
 									name = "Image_worldBossView_1",
 									sizepercentx = "0",
@@ -396,10 +396,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 657,
+										PositionX = 678,
 										PositionY = 541,
 									},
-									width = "168",
+									width = "125",
 									ZOrder = "1",
 									components = 
 									{
@@ -430,8 +430,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_worldBossView_1",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -446,7 +446,7 @@ local t =
 											{
 												
 											},
-											width = "156",
+											width = "122",
 											ZOrder = "1",
 										},
 									},
@@ -551,7 +551,7 @@ local t =
 												PositionX = 5,
 												PositionY = -6,
 											},
-											width = "19",
+											width = "18",
 											ZOrder = "1",
 										},
 									},
@@ -575,14 +575,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "34",
+									fontSize = "24",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "182",
+									height = "0",
 									ignoreSize = "False",
 									name = "lab_bossName",
 									nTextAlign = "1",
@@ -591,7 +591,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "或守鞠奈",
+									text = "아루스 마리나",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -639,7 +639,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "LV",
+											text = "Lv",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -647,7 +647,7 @@ local t =
 												PositionX = 12,
 												PositionY = -106,
 											},
-											width = "36",
+											width = "37",
 											ZOrder = "1",
 										},
 									},
@@ -787,7 +787,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "剩余0天20小时25分结束",
+											text = "0일 20시간 25분 후 종료",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -795,7 +795,7 @@ local t =
 												PositionX = -58,
 												PositionY = 1,
 											},
-											width = "218",
+											width = "203",
 											ZOrder = "1",
 										},
 									},
@@ -910,14 +910,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "个人伤害奖励",
+													text = "개인 피해 보상",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -2,
 													},
-													width = "146",
+													width = "140",
 													ZOrder = "1",
 												},
 												{
@@ -1019,14 +1019,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "社团伤害奖励",
+													text = "동아리 피해 보상",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -2,
 													},
-													width = "146",
+													width = "161",
 													ZOrder = "1",
 												},
 											},
@@ -1102,14 +1102,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "社团伤害排名",
+													text = "동아리 피해 순위",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -2,
 													},
-													width = "146",
+													width = "161",
 													ZOrder = "1",
 												},
 											},
@@ -1139,10 +1139,10 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 739,
+										PositionX = 805,
 										PositionY = 37,
 										IsPercent = true,
-										PercentX = 123.16,
+										PercentX = 134.16,
 										PercentY = 6.68,
 									},
 									UItype = "Button",
@@ -1737,9 +1737,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 130,
+												PositionX = 148,
 											},
-											width = "166",
+											width = "175",
 											ZOrder = "1",
 										},
 										{
@@ -1782,9 +1782,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 237,
+												PositionX = 229,
 											},
-											width = "14",
+											width = "13",
 											ZOrder = "1",
 										},
 									},
@@ -1847,7 +1847,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 229,
+										PositionX = 288,
 										PositionY = 38,
 									},
 									width = "108",
@@ -1959,14 +1959,14 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+									backGroundScale9Enable = "False",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
 									height = "58",
-									ignoreSize = "False",
+									ignoreSize = "True",
 									name = "btn_goFight",
 									normal = "ui/common/button_big_n.png",
 									sizepercentx = "0",
@@ -1976,14 +1976,14 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 394,
+										PositionX = 423,
 										PositionY = 38,
 										IsPercent = true,
-										PercentX = 79.03,
+										PercentX = 85.03,
 										PercentY = 6.93,
 									},
 									UItype = "Button",
-									width = "183",
+									width = "134",
 									ZOrder = "1",
 									components = 
 									{
@@ -2014,8 +2014,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "txt",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -2030,7 +2030,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "170",
+											width = "127",
 											ZOrder = "1",
 										},
 										{
@@ -2053,8 +2053,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 80,
-												PositionY = 18,
+												PositionX = 53,
+												PositionY = -17,
 											},
 											width = "30",
 											ZOrder = "1",

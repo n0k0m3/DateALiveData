@@ -44,7 +44,7 @@
 				{
 					"id":"PARAM_HAIR_SIDE",
 					"ptype":"angle",
-					"scale":0.02,
+					"scale":0.025,
 					"weight":1
 				},
 				{

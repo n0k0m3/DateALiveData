@@ -229,7 +229,7 @@ function PlayerInfoView:refreshMasterName()
     if _lv == 0 then
         lab_name:setTextById(1340073)
     else
-        lab_name:setText(FriendDataMgr:getInstructorLevelCfg()[_lv].des)
+        lab_name:setTextById(FriendDataMgr:getInstructorLevelCfg()[_lv].des)
     end
 end
 

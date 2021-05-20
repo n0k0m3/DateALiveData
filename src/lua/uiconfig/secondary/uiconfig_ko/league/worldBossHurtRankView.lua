@@ -154,7 +154,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "伤害排名 l",
+									text = "피해 순위 l",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -162,7 +162,7 @@ local t =
 										PositionX = -298,
 										PositionY = 192,
 									},
-									width = "112",
+									width = "113",
 									ZOrder = "1",
 								},
 								{
@@ -208,7 +208,7 @@ local t =
 										PositionX = -237,
 										PositionY = 189,
 									},
-									width = "80",
+									width = "75",
 									ZOrder = "1",
 								},
 								{
@@ -410,7 +410,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "社团名",
+											text = "동아리 이름",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -418,7 +418,7 @@ local t =
 												PositionX = 322,
 												PositionY = 26,
 											},
-											width = "57",
+											width = "87",
 											ZOrder = "1",
 										},
 										{
@@ -456,7 +456,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "累计伤害",
+											text = "누적 피해",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -464,7 +464,7 @@ local t =
 												PositionX = 607,
 												PositionY = 26,
 											},
-											width = "76",
+											width = "71",
 											ZOrder = "1",
 										},
 										{
@@ -556,7 +556,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "暂无数据",
+									text = "아직 데이터 없음",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -564,7 +564,7 @@ local t =
 										PositionX = -4,
 										PositionY = 34,
 									},
-									width = "107",
+									width = "177",
 									ZOrder = "1",
 								},
 								{
@@ -908,7 +908,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "社团社团",
+											text = "동아리 동아리",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -916,7 +916,7 @@ local t =
 												PositionX = 323,
 												PositionY = 30,
 											},
-											width = "98",
+											width = "134",
 											ZOrder = "1",
 										},
 										{
@@ -1002,7 +1002,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "我贡献的伤害：",
+									text = "나의 공헌 피해량",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1010,7 +1010,7 @@ local t =
 										PositionX = -281,
 										PositionY = -193,
 									},
-									width = "143",
+									width = "149",
 									ZOrder = "1",
 								},
 								{
@@ -1053,10 +1053,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -205,
+										PositionX = -195,
 										PositionY = -194,
 									},
-									width = "40",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
@@ -1126,14 +1126,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "排名奖励",
+											text = "순위 보상",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "98",
+											width = "92",
 											ZOrder = "1",
 										},
 									},
@@ -1316,7 +1316,7 @@ local t =
 										PositionX = 69,
 										PositionY = 25,
 									},
-									width = "16",
+									width = "15",
 									ZOrder = "1",
 								},
 								{
@@ -1354,7 +1354,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "社团名字社团名字",
+									text = "피해피해피해피해피해피해피해피해",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1362,7 +1362,7 @@ local t =
 										PositionX = 321,
 										PositionY = 27,
 									},
-									width = "195",
+									width = "338",
 									ZOrder = "1",
 								},
 								{
@@ -1408,7 +1408,7 @@ local t =
 										PositionX = 597,
 										PositionY = 28,
 									},
-									width = "128",
+									width = "131",
 									ZOrder = "1",
 								},
 							},

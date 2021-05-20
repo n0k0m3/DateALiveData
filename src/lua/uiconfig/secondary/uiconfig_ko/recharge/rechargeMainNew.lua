@@ -1372,7 +1372,7 @@ local t =
 										PositionX = 117,
 										PositionY = 400,
 									},
-									width = "92",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -2503,7 +2503,7 @@ local t =
 								TopPosition = 397,
 								relativeToName = "panel_totalCell",
 							},
-							width = "43",
+							width = "45",
 							ZOrder = "1",
 						},
 						{
@@ -2730,7 +2730,7 @@ local t =
 								TopPosition = 397,
 								relativeToName = "panel_totalCell",
 							},
-							width = "43",
+							width = "45",
 							ZOrder = "1",
 						},
 					},
@@ -2975,7 +2975,7 @@ local t =
 														PositionX = -10,
 														PositionY = 9,
 													},
-													width = "11",
+													width = "12",
 													ZOrder = "1",
 												},
 												{
@@ -3353,7 +3353,7 @@ local t =
 											{
 												PositionY = -179,
 											},
-											width = "206",
+											width = "210",
 											ZOrder = "1",
 										},
 										{
@@ -3806,7 +3806,7 @@ local t =
 																PositionX = -33,
 																PositionY = -4,
 															},
-															width = "11",
+															width = "12",
 															ZOrder = "1",
 														},
 													},
@@ -3994,7 +3994,7 @@ local t =
 											{
 												PositionY = -179,
 											},
-											width = "206",
+											width = "210",
 											ZOrder = "1",
 										},
 										{
@@ -4456,7 +4456,7 @@ local t =
 											{
 												PositionY = -55,
 											},
-											width = "168",
+											width = "169",
 											ZOrder = "1",
 										},
 										{
@@ -4501,7 +4501,7 @@ local t =
 											{
 												PositionY = -85,
 											},
-											width = "89",
+											width = "92",
 											ZOrder = "1",
 										},
 										{
@@ -4592,7 +4592,7 @@ local t =
 												PositionX = 10,
 												PositionY = -179,
 											},
-											width = "9",
+											width = "11",
 											ZOrder = "1",
 										},
 										{
@@ -4817,7 +4817,7 @@ local t =
 													{
 														PositionY = -2,
 													},
-													width = "54",
+													width = "57",
 													ZOrder = "1",
 												},
 												{
@@ -4940,7 +4940,7 @@ local t =
 											controlID = "label_totalDiamond_cell_total_img_di_panel_cell_Panel-rechargeMainNew_Layer1_recharge_Game",
 											UUID = "c3401001_f3a8_4e49_8ec1_78c8f7d7cd4c",
 											anchorPoint = "False",
-											anchorPointX = "1",
+											anchorPointX = "0.5",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -4971,18 +4971,18 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "688",
+											text = "2189.99",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -19,
-												PositionY = 145,
+												PositionX = -26,
+												PositionY = 144,
 												LeftPositon = 130,
 												TopPosition = 61,
 												relativeToName = "panel_totalCell",
 											},
-											width = "41",
+											width = "85",
 											ZOrder = "1",
 										},
 										{
@@ -5020,18 +5020,18 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "$ 시 획득",
+											text = "$              시 획득",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -12,
-												PositionY = 144,
+												PositionX = -82,
+												PositionY = 143,
 												LeftPositon = 169,
 												TopPosition = 65,
 												relativeToName = "panel_totalCell",
 											},
-											width = "89",
+											width = "167",
 											ZOrder = "1",
 										},
 										{

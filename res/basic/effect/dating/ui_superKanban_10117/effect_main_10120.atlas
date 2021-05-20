@@ -5,106 +5,232 @@ format: RGBA8888
 filter: Linear,Linear
 repeat: none
 dengguang1
-  rotate: false
-  xy: 1390, 1478
+  rotate: true
+  xy: 1567, 382
   size: 233, 220
   orig: 233, 220
   offset: 0, 0
   index: -1
 dengguang2
-  rotate: false
-  xy: 1390, 1700
+  rotate: true
+  xy: 1567, 617
   size: 275, 210
   orig: 275, 210
   offset: 0, 0
   index: -1
 dengguang3
   rotate: false
-  xy: 1625, 1659
+  xy: 1901, 1496
   size: 28, 39
   orig: 28, 39
   offset: 0, 0
   index: -1
 hudie/lizi
   rotate: false
-  xy: 686, 333
+  xy: 195, 2
   size: 12, 12
   orig: 12, 12
   offset: 0, 0
   index: -1
-hudie/xingxing1
-  rotate: false
-  xy: 342, 245
-  size: 30, 30
-  orig: 30, 30
-  offset: 0, 0
-  index: -1
-hudie/xingxing2
-  rotate: false
-  xy: 1390, 1420
-  size: 56, 56
-  orig: 56, 56
-  offset: 0, 0
-  index: -1
 jianzhu
   rotate: false
-  xy: 2, 1391
+  xy: 2, 1406
   size: 1386, 640
   orig: 1386, 640
   offset: 0, 0
   index: -1
+qian_yan/qian_yan_00000
+  rotate: false
+  xy: 1390, 1956
+  size: 509, 90
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00001
+  rotate: false
+  xy: 2, 270
+  size: 509, 90
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00002
+  rotate: false
+  xy: 1390, 1864
+  size: 509, 90
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00003
+  rotate: true
+  xy: 1390, 894
+  size: 509, 87
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00004
+  rotate: true
+  xy: 1390, 383
+  size: 509, 87
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00005
+  rotate: true
+  xy: 1479, 385
+  size: 509, 86
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00006
+  rotate: true
+  xy: 1662, 894
+  size: 509, 84
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00007
+  rotate: true
+  xy: 1901, 1537
+  size: 509, 89
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00008
+  rotate: false
+  xy: 1390, 1405
+  size: 508, 89
+  orig: 509, 90
+  offset: 1, 0
+  index: -1
+qian_yan/qian_yan_00009
+  rotate: true
+  xy: 1479, 896
+  size: 507, 89
+  orig: 509, 90
+  offset: 2, 0
+  index: -1
+qian_yan/qian_yan_00010
+  rotate: true
+  xy: 1570, 897
+  size: 506, 90
+  orig: 509, 90
+  offset: 3, 0
+  index: -1
+qian_yan/qian_yan_00011
+  rotate: false
+  xy: 2, 178
+  size: 509, 90
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00012
+  rotate: false
+  xy: 513, 270
+  size: 509, 90
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00013
+  rotate: false
+  xy: 1390, 1772
+  size: 509, 90
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00014
+  rotate: false
+  xy: 2, 86
+  size: 509, 90
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00015
+  rotate: false
+  xy: 513, 178
+  size: 509, 90
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00016
+  rotate: false
+  xy: 1390, 1680
+  size: 509, 90
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00017
+  rotate: false
+  xy: 513, 86
+  size: 509, 90
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00018
+  rotate: false
+  xy: 1390, 1588
+  size: 509, 90
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
+qian_yan/qian_yan_00019
+  rotate: false
+  xy: 1390, 1496
+  size: 509, 90
+  orig: 509, 90
+  offset: 0, 0
+  index: -1
 tiankong
   rotate: false
-  xy: 2, 347
+  xy: 2, 362
   size: 1386, 400
   orig: 1386, 400
   offset: 0, 0
   index: -1
 yueliang
   rotate: false
-  xy: 1667, 1787
+  xy: 1024, 17
   size: 134, 123
   orig: 134, 123
   offset: 0, 0
   index: -1
 yun1
-  rotate: false
-  xy: 1390, 1912
+  rotate: true
+  xy: 1748, 991
   size: 412, 119
   orig: 412, 119
   offset: 0, 0
   index: -1
 yun2
   rotate: false
-  xy: 2, 111
+  xy: 2, 2
   size: 191, 82
   orig: 191, 82
   offset: 0, 0
   index: -1
 yun3
   rotate: false
-  xy: 342, 277
+  xy: 195, 16
   size: 342, 68
   orig: 342, 68
   offset: 0, 0
   index: -1
 yun4
   rotate: false
-  xy: 2, 195
+  xy: 1024, 210
   size: 338, 150
   orig: 338, 150
   offset: 0, 0
   index: -1
 yun5
   rotate: false
-  xy: 1804, 1965
+  xy: 1024, 142
   size: 227, 66
   orig: 227, 66
   offset: 0, 0
   index: -1
 zong
   rotate: false
-  xy: 2, 749
+  xy: 2, 764
   size: 1386, 640
   orig: 1386, 640
   offset: 0, 0

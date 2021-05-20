@@ -70,7 +70,7 @@ function MasterPrivilegeView:refreshItemData()
         local item = self.items[self.turnView:getItem(idx)]
         item.lab_lv:setText(cfg.instructorlevel)
         item.lab_exp:setText(self.exprienceItemNum.."/"..cfg.updateExp)
-        item.lab_name:setText(cfg.des)
+        item.lab_name:setTextById(cfg.des)
         local perCent = self.exprienceItemNum / cfg.updateExp
         perCent = perCent > 1 and 1 or perCent
         item.progressBar:setPercent(perCent*100)

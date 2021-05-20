@@ -50811,7 +50811,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 39,
+            [2] = 19,
         },
         colour2 = {
         },
@@ -51212,7 +51212,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 39,
+            [2] = 19,
         },
         colour2 = {
         },
@@ -51577,7 +51577,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 39,
+            [2] = 19,
         },
         colour2 = {
         },
@@ -51979,7 +51979,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 39,
+            [2] = 19,
         },
         colour2 = {
         },
@@ -52359,7 +52359,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 39,
+            [2] = 19,
         },
         colour2 = {
         },
@@ -53132,7 +53132,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 39,
+            [2] = 19,
         },
         colour2 = {
         },
@@ -53524,7 +53524,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 39,
+            [2] = 19,
         },
         colour2 = {
         },
@@ -53896,7 +53896,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 39,
+            [2] = 19,
         },
         colour2 = {
         },
@@ -55070,7 +55070,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 39,
+            [2] = 19,
         },
         colour2 = {
         },
@@ -55455,7 +55455,7 @@ return {
         completeResult = 2,
         playerLevel = {
             [1] = 1,
-            [2] = 39,
+            [2] = 19,
         },
         colour2 = {
         },
@@ -59202,7 +59202,7 @@ return {
         icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 40,
+            [1] = 20,
             [2] = 99,
         },
         colour2 = {
@@ -59598,7 +59598,7 @@ return {
         icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 40,
+            [1] = 20,
             [2] = 99,
         },
         colour2 = {
@@ -60382,7 +60382,7 @@ return {
         icon = "ui/task/icon_7.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 40,
+            [1] = 20,
             [2] = 99,
         },
         colour2 = {
@@ -60760,7 +60760,7 @@ return {
         icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 40,
+            [1] = 20,
             [2] = 99,
         },
         colour2 = {
@@ -61147,7 +61147,7 @@ return {
         icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 40,
+            [1] = 20,
             [2] = 99,
         },
         colour2 = {
@@ -61515,7 +61515,7 @@ return {
         icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 40,
+            [1] = 20,
             [2] = 99,
         },
         colour2 = {
@@ -61902,7 +61902,7 @@ return {
         icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 40,
+            [1] = 20,
             [2] = 99,
         },
         colour2 = {
@@ -62296,7 +62296,7 @@ return {
         icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 40,
+            [1] = 20,
             [2] = 99,
         },
         colour2 = {
@@ -62683,7 +62683,7 @@ return {
         icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 40,
+            [1] = 20,
             [2] = 99,
         },
         colour2 = {
@@ -63046,7 +63046,7 @@ return {
         icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 40,
+            [1] = 20,
             [2] = 99,
         },
         colour2 = {
@@ -63440,7 +63440,7 @@ return {
         icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 40,
+            [1] = 20,
             [2] = 99,
         },
         colour2 = {
@@ -90086,7 +90086,7 @@ return {
         icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 40,
+            [1] = 20,
             [2] = 99,
         },
         colour2 = {

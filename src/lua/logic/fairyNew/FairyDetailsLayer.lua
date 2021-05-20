@@ -3,6 +3,7 @@ local FairyDetailsLayer = class("FairyDetailsLayer", BaseLayer)
 
 function FairyDetailsLayer:ctor(data)
     self.super.ctor(self,data)
+    self.fristUpdateLeftBar = true
     self.selectCell = nil
     self.paramData_ = data
 
@@ -61,6 +62,8 @@ function FairyDetailsLayer:ctor(data)
 	self.skyladder = data.skyladder
 
     self:init("lua.uiconfig.fairyNew.fairyDetails")
+	
+
 end
 
 function FairyDetailsLayer:getClosingStateParams()
@@ -392,6 +395,7 @@ function FairyDetailsLayer:initUI(ui)
     self.Button_suit:setVisible(not self.isfriend)
 
 
+	
 	self:updateHeroBaseInfo()
 	self:updateEquipLayer()
 
@@ -428,12 +432,16 @@ end
 
 function FairyDetailsLayer:updateLeftBar()
 
+	if self.fristUpdateLeftBar then return end   --增加首次打开优化
+
+
 	if self.isfriend then
 		return
 	end
 
 	for k,v in ipairs(self.tabButtons) do
 		local Image_redTip = TFDirector:getChildByPath(v.btn, "Image_redTip")
+
 		if v.uiType == EC_FairyDetailUIType.Attr then
 			local showRedTip = HeroDataMgr:heroCouldUpLevel(self.showHeroId)
 			Image_redTip:setVisible(showRedTip)
@@ -1002,8 +1010,6 @@ function FairyDetailsLayer:onSelectItems(target, selectIndex)
 end
 
 function FairyDetailsLayer:updateHeroBaseInfo()
-
-
 	local skinId =  HeroDataMgr:getCurSkin(self.showHeroId)
 	local skinInfo = TabDataMgr:getData("HeroSkin", skinId)
 	local modelInfo = TabDataMgr:getData("HeroModle",skinInfo.paint)
@@ -1079,6 +1085,7 @@ function FairyDetailsLayer:updateHeroBaseInfo()
 	self.Label_hero_power:setString(HeroDataMgr:getHeroPower(self.showHeroId))
 
 	-- self:updateCompose()
+
 
 	self:updateHeroAttsInfo()
 	self:updateLeftBar()
@@ -1360,6 +1367,7 @@ local lightLinkTexture = {
 }
 
 function FairyDetailsLayer:updateEquipLayer()
+	if self.fristUpdateLeftBar then return end   --增加首次打开优化
 	--TODO CLOSE
 	--self.Button_use_suit:setVisible(not self.isfriend)
 	--self.Button_save_suit:setVisible(not self.isfriend)
@@ -1739,6 +1747,8 @@ function FairyDetailsLayer:getAngleSkillItemBySkillType(skillType)
 end
 
 function FairyDetailsLayer:updateAngelLayer()
+	if self.fristUpdateLeftBar then return end   --增加首次打开优化
+
     local skillTypes = {EC_SKILL_TYPE.NORMAL, EC_SKILL_TYPE.SKILL_1, EC_SKILL_TYPE.SKILL_2, 
         EC_SKILL_TYPE.BISHA, EC_SKILL_TYPE.SHANBI, EC_SKILL_TYPE.JUEXING, EC_SKILL_TYPE.QIEHUAN}
 
@@ -1950,6 +1960,7 @@ end
 
 --宝石页面
 function FairyDetailsLayer:updateBaoshiLayer()
+	if self.fristUpdateLeftBar then return end   --增加首次打开优化
     local angelLv = HeroDataMgr:getAngelLevel(self.showHeroId);
     for i=1,5 do
     	local star = TFDirector:getChildByPath(self.Panel_baoshi,"Image_star"..i);
@@ -2579,6 +2590,8 @@ end
 
 function FairyDetailsLayer:onShow()
 	self.super.onShow(self)
+
+	self.fristUpdateLeftBar = false
 	
 	self:updateAngelLayer()
 	self:updateLeftBar()
@@ -2602,6 +2615,9 @@ function FairyDetailsLayer:onShow()
        		self.Panel_tabs:runAction(CCFadeIn:create(0.2))
 		end
     end,0.1)
+
+	
+
 end
 
 

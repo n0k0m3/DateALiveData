@@ -16361,7 +16361,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "或守鞠奈",
+											text = "아루스 마리나",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -16369,7 +16369,7 @@ local t =
 												PositionX = -80,
 												PositionY = -2,
 											},
-											width = "106",
+											width = "154",
 											ZOrder = "1",
 										},
 										{
@@ -16412,7 +16412,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 40,
+												PositionX = 82,
 												PositionY = -2,
 											},
 											width = "54",
@@ -16534,10 +16534,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -407,
+										PositionX = -380,
 										PositionY = -284,
 									},
-									width = "258",
+									width = "307",
 									ZOrder = "1",
 								},
 								{
@@ -16580,7 +16580,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -315,
+										PositionX = -267,
 										PositionY = -285,
 									},
 									width = "24",
@@ -16623,15 +16623,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "士气提供的攻击力加成：",
+											text = "사기가 제공하는 공격력 보너스：",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -212,
+												PositionX = -265,
 												PositionY = 1,
 											},
-											width = "210",
+											width = "259",
 											ZOrder = "1",
 										},
 									},
@@ -18896,12 +18896,12 @@ local t =
 							bgColorOpacity = "50",
 							bIsOpenClipping = "False",
 							classname = "MEPanel",
-							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							colorType = "1;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 							DesignHeight = "640",
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "84",
+							height = "105",
 							ignoreSize = "False",
 							name = "Prefab_monster_world",
 							sizepercentx = "0",
@@ -18928,13 +18928,13 @@ local t =
 									controlID = "bg_Prefab_monster_world_Panel_prefab_Panel-fubenSquadView_Layer1_fuben_Game",
 									UUID = "9301f128_d450_4ddf_a3f4_0861497f384a",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
+									anchorPointX = "0",
+									anchorPointY = "0",
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "84",
-									ignoreSize = "True",
+									height = "105",
+									ignoreSize = "False",
 									name = "bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -18944,8 +18944,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 199,
-										PositionY = 42,
+										
 									},
 									width = "396",
 									ZOrder = "1",
@@ -18971,7 +18970,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 1,
-										PositionY = 5,
+										PositionY = 14,
 									},
 									width = "82",
 									ZOrder = "1",
@@ -18997,7 +18996,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 42,
-										PositionY = 42,
+										PositionY = 49,
 									},
 									width = "52",
 									ZOrder = "1",
@@ -19028,7 +19027,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "52",
+									height = "0",
 									ignoreSize = "False",
 									name = "label_buff",
 									nTextAlign = "1",
@@ -19043,7 +19042,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 244,
-										PositionY = 28,
+										PositionY = 35,
 									},
 									width = "296",
 									ZOrder = "1",
@@ -19089,7 +19088,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 392,
-										PositionY = 69,
+										PositionY = 86,
 									},
 									width = "72",
 									ZOrder = "1",

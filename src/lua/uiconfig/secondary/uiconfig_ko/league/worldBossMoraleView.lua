@@ -70,7 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = -88,
+						PositionX = -210,
+						PositionY = 13,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -145,7 +146,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -154,15 +155,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "社团士气 l",
+									text = "동아리 사기 l",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -295,
-										PositionY = 169,
+										PositionX = -285,
+										PositionY = 168,
 									},
-									width = "111",
+									width = "135",
 									ZOrder = "1",
 								},
 								{
@@ -205,10 +206,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -234,
+										PositionX = -217,
 										PositionY = 165,
 									},
-									width = "47",
+									width = "45",
 									ZOrder = "1",
 								},
 								{
@@ -372,7 +373,7 @@ local t =
 												PositionX = 489,
 												PositionY = 28,
 											},
-											width = "75",
+											width = "71",
 											ZOrder = "1",
 										},
 										{
@@ -410,7 +411,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "挑战结果",
+											text = "도전 결과",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -418,7 +419,7 @@ local t =
 												PositionX = 618,
 												PositionY = 28,
 											},
-											width = "75",
+											width = "71",
 											ZOrder = "1",
 										},
 										{
@@ -473,7 +474,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "lab_bossName",
 											nTextAlign = "1",
@@ -482,7 +483,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "或守鞠奈LV    :",
+											text = "아루스 마리나 LV  :",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -490,7 +491,7 @@ local t =
 												PositionX = 9,
 												PositionY = 25,
 											},
-											width = "141",
+											width = "170",
 											ZOrder = "1",
 										},
 										{
@@ -519,7 +520,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "lab_bossLv",
 											nTextAlign = "1",
@@ -533,10 +534,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 132,
+												PositionX = 161,
 												PositionY = 25,
 											},
-											width = "18",
+											width = "13",
 											ZOrder = "1",
 										},
 										{
@@ -767,10 +768,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -202,
+										PositionX = -187,
 										PositionY = -170,
 									},
-									width = "57",
+									width = "56",
 									ZOrder = "1",
 									components = 
 									{
@@ -810,15 +811,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "挑战成功人数：",
+											text = "도전 성공 인원수",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -72,
+												PositionX = -80,
 												PositionY = 2,
 											},
-											width = "143",
+											width = "148",
 											ZOrder = "1",
 										},
 									},
@@ -863,10 +864,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 94,
+										PositionX = 80,
 										PositionY = -168,
 									},
-									width = "27",
+									width = "26",
 									ZOrder = "1",
 									components = 
 									{
@@ -906,14 +907,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "累计士气：",
+											text = "누적 사기",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -53,
+												PositionX = -51,
 											},
-											width = "99",
+											width = "84",
 											ZOrder = "1",
 										},
 									},
@@ -961,7 +962,7 @@ local t =
 										PositionX = 300,
 										PositionY = -170,
 									},
-									width = "43",
+									width = "41",
 									ZOrder = "1",
 									components = 
 									{
@@ -1001,15 +1002,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "累计攻击力加成：",
+											text = "누적 공격력 보너스",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -84,
+												PositionX = -92,
 												PositionY = 1,
 											},
-											width = "165",
+											width = "169",
 											ZOrder = "1",
 										},
 									},
@@ -1044,7 +1045,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 3,
-						PositionY = -692,
+						PositionY = -665,
 						LeftPositon = 3,
 						TopPosition = 692,
 						relativeToName = "Panel",
@@ -1149,7 +1150,7 @@ local t =
 										StrokeColor = "#FF000000",
 										StrokeSize = 1,
 									},
-									height = "29",
+									height = "27",
 									ignoreSize = "True",
 									name = "lab_rankNum",
 									nTextAlign = "1",
@@ -1167,7 +1168,7 @@ local t =
 										PositionX = 13,
 										PositionY = 34,
 									},
-									width = "33",
+									width = "28",
 									ZOrder = "1",
 								},
 								{
@@ -1269,7 +1270,7 @@ local t =
 										PositionX = 148,
 										PositionY = 57,
 									},
-									width = "163",
+									width = "201",
 									ZOrder = "1",
 								},
 								{
@@ -1315,7 +1316,7 @@ local t =
 										PositionX = 388,
 										PositionY = 56,
 									},
-									width = "39",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
@@ -1353,7 +1354,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "1天前",
+									text = "1일 전",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1361,7 +1362,7 @@ local t =
 										PositionX = 388,
 										PositionY = 21,
 									},
-									width = "45",
+									width = "49",
 									ZOrder = "1",
 								},
 								{
@@ -1455,7 +1456,7 @@ local t =
 												PositionX = -37,
 												PositionY = 1,
 											},
-											width = "63",
+											width = "50",
 											ZOrder = "1",
 										},
 									},
@@ -1503,7 +1504,7 @@ local t =
 										PositionX = 491,
 										PositionY = 35,
 									},
-									width = "28",
+									width = "31",
 									ZOrder = "1",
 								},
 								{
@@ -1541,7 +1542,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "成功",
+									text = "성공",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1549,7 +1550,7 @@ local t =
 										PositionX = 621,
 										PositionY = 37,
 									},
-									width = "50",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -1587,7 +1588,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "未成功",
+									text = "미 성공",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1595,7 +1596,7 @@ local t =
 										PositionX = 621,
 										PositionY = 37,
 									},
-									width = "74",
+									width = "71",
 									ZOrder = "1",
 								},
 							},
@@ -1623,8 +1624,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 510,
-						PositionY = 354,
+						PositionX = 480,
+						PositionY = 320,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,

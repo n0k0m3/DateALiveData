@@ -162,7 +162,7 @@ local t =
 										PositionX = -297,
 										PositionY = 178,
 									},
-									width = "111",
+									width = "113",
 									ZOrder = "1",
 								},
 								{
@@ -208,7 +208,7 @@ local t =
 										PositionX = -238,
 										PositionY = 175,
 									},
-									width = "58",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
@@ -694,7 +694,7 @@ local t =
 												PositionX = 131,
 												PositionY = -220,
 											},
-											width = "40",
+											width = "43",
 											ZOrder = "1",
 											components = 
 											{
@@ -739,10 +739,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -181,
+														PositionX = -188,
 														PositionY = 3,
 													},
-													width = "163",
+													width = "167",
 													ZOrder = "1",
 												},
 												{
@@ -780,7 +780,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "LV4",
+													text = "lv4",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -788,7 +788,7 @@ local t =
 														PositionX = -205,
 														PositionY = 3,
 													},
-													width = "36",
+													width = "30",
 													ZOrder = "1",
 												},
 											},
@@ -869,7 +869,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "奖励结算时间：",
+											text = "보상 결산 시간",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -877,14 +877,14 @@ local t =
 												PositionX = -97,
 												PositionY = -64,
 											},
-											width = "143",
+											width = "130",
 											ZOrder = "1",
 										},
 										{
 											controlID = "Label_worldBossRankAwardView_1_Panel_2_Image_bg_Panel_root_Panel-worldBossRankAwardView_Layer1_league_Game",
 											UUID = "59ba8b49_cd54_4776_b67a_d3ab2d6e53dc",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -915,22 +915,22 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "周日24:00",
+											text = "일요일 24:00",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 95,
+												PositionX = 52,
 												PositionY = -64,
 											},
-											width = "92",
+											width = "109",
 											ZOrder = "1",
 										},
 										{
 											controlID = "Label_worldBossLeagueAwardView_1-Copy1_Panel_2_Image_bg_Panel_root_Panel-worldBossRankAwardView_Layer1_league_Game",
 											UUID = "2c5c7b87_81b6_40bf_921f_bf96da513719",
 											anchorPoint = "False",
-											anchorPointX = "0",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -961,15 +961,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "奖励通过邮件发送",
+											text = "보상은 우편을 통해 발송됩니다",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 432,
+												PositionX = 610,
 												PositionY = -64,
 											},
-											width = "179",
+											width = "270",
 											ZOrder = "1",
 										},
 										{
@@ -1702,7 +1702,7 @@ local t =
 										PositionX = -263,
 										PositionY = -4,
 									},
-									width = "14",
+									width = "15",
 									ZOrder = "1",
 								},
 								{

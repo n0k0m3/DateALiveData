@@ -17,6 +17,7 @@ function EquipmentDataMgr:ctor()
 	self.StoneComposeCfgMap = TabDataMgr:getData("StoneCompose")
 	self.EquipmentStar = TabDataMgr:getData("EquipmentStar")
 	self.newEquips = {}
+	self.useNewEquipList = {}
 	self.gemsData = {}  --宝石数据
 	self.chooseConditionData = {selectState = {},cids = {},isSingle = true}
 	self.equipBackUpInfos = {}
@@ -111,6 +112,7 @@ function EquipmentDataMgr:reset()
 	self.NewEquipSkill = TabDataMgr:getData("NewEquipSkill")
     self.NewEquipBreak = TabDataMgr:getData("NewEquipBreak")
 	self.newEquips = {}
+	self.useNewEquipList = {}
 	self.gemsData = {}
 	self:initEquipAdvancedCfg()
 end
@@ -133,11 +135,22 @@ end
 function EquipmentDataMgr:syncServerNewEquip(equip)
 	if equip.ct == EC_SChangeType.ADD or equip.ct == EC_SChangeType.DEFAULT then
         self.newEquips[equip.id] = equip
+        if tonumber(equip.heroId) > 0 then
+        	self.useNewEquipList[equip.cid] = true
+        else
+        	self.useNewEquipList[equip.cid] = false
+        end
     elseif equip.ct == EC_SChangeType.UPDATE then
     	self.newEquips[equip.id] = self.newEquips[equip.id] or {}
         table.merge(self.newEquips[equip.id],equip)
+        if tonumber(equip.heroId) > 0 then
+        	self.useNewEquipList[equip.cid] = true
+        else
+        	self.useNewEquipList[equip.cid] = false
+        end
     elseif equip.ct == EC_SChangeType.DELETE then
         self.newEquips[equip.id] = nil;
+        self.useNewEquipList[equip.cid] = false
     end
 end
 
@@ -1326,6 +1339,11 @@ function EquipmentDataMgr:updateNewEquipMentEquipState(data)
 			if self.newEquips[newEquipmentInfo.id] then
 				table.merge(self.newEquips[newEquipmentInfo.id], newEquipmentInfo)
 			end
+			if tonumber(newEquipmentInfo.heroId) > 0 then
+				self.useNewEquipList[newEquipmentInfo.cid] = true
+			else
+				self.useNewEquipList[newEquipmentInfo.cid] = false
+			end
 		end
 		for k,v in pairs(self.newEquips) do
 			if tonumber(v.heroId) == tonumber(heroId) then
@@ -1339,6 +1357,7 @@ function EquipmentDataMgr:updateNewEquipMentEquipState(data)
 				if flag then
 					v.heroId = "0"
 					v.position = "0"
+					self.useNewEquipList[v.cid] = false
 				end
 			end
 		end
@@ -1347,6 +1366,7 @@ function EquipmentDataMgr:updateNewEquipMentEquipState(data)
 			if tonumber(v.heroId) == tonumber(heroId) then
 				v.heroId = "0"
 				v.position = "0"
+				self.useNewEquipList[v.cid] = false
 			end
 		end
 	end
@@ -1873,12 +1893,17 @@ function EquipmentDataMgr:getNewEquipInfoByCid(cid)
 end
 
 function EquipmentDataMgr:checkNewEquipInUse(cid)
-	for k, v in pairs(self.newEquips) do
-		if v.cid == cid and tonumber(v.heroId) > 0 then
-			return true
-		end
+	if self.useNewEquipList[cid] then
+		return true
+	else
+		return false
 	end
-	return false
+	-- for k, v in pairs(self.newEquips) do
+	-- 	if v.cid == cid and tonumber(v.heroId) > 0 then
+	-- 		return true
+	-- 	end
+	-- end
+	-- return false
 end
 
 function EquipmentDataMgr:checkNewEquipSuitEnableEffect(heroId, suitId)

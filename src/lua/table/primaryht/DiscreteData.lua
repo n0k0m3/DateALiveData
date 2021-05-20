@@ -937,6 +937,20 @@ return {
                         [2] = 6,
                     },
                 },
+                [40] = {
+                    [1] = {
+                        [1] = 100000,
+                        [2] = 4,
+                    },
+                    [2] = {
+                        [1] = 200000,
+                        [2] = 5,
+                    },
+                    [3] = {
+                        [1] = 300000,
+                        [2] = 6,
+                    },
+                },
                 [20] = {
                     [1] = {
                         [1] = 100000,
@@ -1455,6 +1469,7 @@ return {
             lowActive = 30,
             redPacketItemId = 500035,
             impeachPeriodTime = 10080,
+            maxUnionLevel = 10,
             dayLimitExp = 30000,
             dayLimitKick = 5,
             impeachLimitNewbee = 14400,
@@ -5535,6 +5550,7 @@ return {
                 [7] = 101000,
                 [8] = 101002,
                 [9] = 101001,
+                [10] = 200037,
             },
         },
     },
@@ -5787,13 +5803,13 @@ return {
         id = 61004,
         data = {
             seasonduration = {
-                balancetime = "2021-06-06 22:30:00",
-                endtime = "2021-06-06 23:00:00",
-                opentime = "2021-04-07 05:00:00",
+                balancetime = "2021-07-22 22:30:00",
+                endtime = "2021-07-22 23:00:00",
+                opentime = "2021-05-21 05:00:00",
             },
             season = {
-                numberServer = 2,
-                numberClient = 2,
+                numberServer = 1,
+                numberClient = 1,
             },
             weekduration = {
                 [1] = {
@@ -6023,7 +6039,7 @@ return {
         id = 3002,
         data = {
             [1] = 0,
-            [2] = 999,
+            [2] = 9999,
             [3] = 999,
             [4] = 0,
             [5] = 0,

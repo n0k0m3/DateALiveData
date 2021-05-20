@@ -188,7 +188,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "500",
+									width = "665",
 									ZOrder = "1",
 									components = 
 									{
@@ -437,7 +437,7 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											width = "400",
+											width = "432",
 											ZOrder = "1",
 											components = 
 											{
@@ -515,7 +515,7 @@ local t =
 															{
 																PositionY = -33,
 															},
-															width = "81",
+															width = "76",
 															ZOrder = "1",
 														},
 													},
@@ -593,7 +593,7 @@ local t =
 															{
 																PositionY = -33,
 															},
-															width = "115",
+															width = "111",
 															ZOrder = "1",
 														},
 														{
@@ -801,7 +801,7 @@ local t =
 															{
 																PositionY = -33,
 															},
-															width = "69",
+															width = "61",
 															ZOrder = "1",
 														},
 													},
@@ -828,11 +828,11 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 295,
+												PositionX = 369,
 												PositionY = 48,
 											},
 											visible = "False",
-											width = "350",
+											width = "494",
 											ZOrder = "1",
 											components = 
 											{
@@ -879,7 +879,7 @@ local t =
 													{
 														
 													},
-													width = "81",
+													width = "82",
 													ZOrder = "1",
 												},
 											},

@@ -1,24 +1,24 @@
 {
 	"inspector_window": {
-		"x": 585,
-		"y": 9,
+		"width": 439,
 		"height": 911,
-		"width": 439
+		"y": 9,
+		"x": 585
 	},
 	"canvas_window": {
-		"x": 1062,
+		"displayState": "normal",
 		"bgColorB": 1,
 		"height": 881,
-		"bottom": -1.1182076471802187,
-		"bgColorA": 0,
+		"x": 1062,
 		"right": 1.114425973411911,
 		"transparent": false,
-		"scaleY": 1.1,
+		"top": 1.0817923528197815,
 		"y": 56,
 		"left": -1.085574026588089,
-		"top": 1.0817923528197815,
-		"displayState": "normal",
 		"scaleX": 1.1,
+		"scaleY": 1.1,
+		"bgColorA": 0,
+		"bottom": -1.1182076471802187,
 		"bgColorR": 1,
 		"bgColorG": 1,
 		"width": 783
