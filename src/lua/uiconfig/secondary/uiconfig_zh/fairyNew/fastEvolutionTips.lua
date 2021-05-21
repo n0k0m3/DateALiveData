@@ -167,7 +167,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -184,7 +184,7 @@ local t =
 										PositionX = -280,
 										PositionY = 142,
 									},
-									width = "122",
+									width = "123",
 									ZOrder = "1",
 								},
 								{
@@ -414,7 +414,6 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "23",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 

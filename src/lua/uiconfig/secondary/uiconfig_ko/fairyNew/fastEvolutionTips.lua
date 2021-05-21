@@ -405,7 +405,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "0",
 									ignoreSize = "True",
 									name = "Label_content_1",
 									nTextAlign = "1",
@@ -414,14 +414,13 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "0",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -41,
 									},
-									width = "17",
+									width = "0",
 									ZOrder = "1",
 								},
 								{

@@ -34,7 +34,7 @@ function FubenMonsterTrialBuffDetail:initUI(ui)
 	self.Label_desc = TFDirector:getChildByPath(self.Panel_root, "Label_desc")
 	if not self.descId then
 		local ext = TabDataMgr:getData("String", 15010031)
-		self.Label_desc:setText(self.config.stringId ..", ".. ext.text)
+		self.Label_desc:setText(TextDataMgr:getText(self.config.stringId)..", ".. ext.text)
 	else
 		self.Label_desc:setTextById(self.descId)
 	end

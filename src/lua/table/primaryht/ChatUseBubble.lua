@@ -20,12 +20,33 @@ return {
         icon = "icon/chatBubble/chatUseRes/003.png",
         portraitid = 20002,
     },
-    [51] = {
+    [6] = {
         overturnType = 1,
         othericon = "",
-        id = 51,
-        icon = "icon/chatBubble/chatUseRes/082.png",
-        portraitid = 60018,
+        id = 6,
+        icon = "icon/chatBubble/chatUseRes/006.png",
+        portraitid = 20005,
+    },
+    [7] = {
+        overturnType = 0,
+        othericon = "icon/chatBubble/chatUseRes/004.png",
+        id = 7,
+        icon = "icon/chatBubble/chatUseRes/001.png",
+        portraitid = 20006,
+    },
+    [8] = {
+        overturnType = 1,
+        othericon = "",
+        id = 8,
+        icon = "icon/chatBubble/chatUseRes/002.png",
+        portraitid = 20007,
+    },
+    [9] = {
+        overturnType = 1,
+        othericon = "",
+        id = 9,
+        icon = "icon/chatBubble/chatUseRes/014.png",
+        portraitid = 20008,
     },
     [10] = {
         overturnType = 1,
@@ -34,6 +55,27 @@ return {
         icon = "icon/chatBubble/chatUseRes/015.png",
         portraitid = 20009,
     },
+    [11] = {
+        overturnType = 1,
+        othericon = "",
+        id = 11,
+        icon = "icon/chatBubble/chatUseRes/101.png",
+        portraitid = 20010,
+    },
+    [12] = {
+        overturnType = 1,
+        othericon = "",
+        id = 12,
+        icon = "icon/chatBubble/chatUseRes/018.png",
+        portraitid = 20011,
+    },
+    [13] = {
+        overturnType = 1,
+        othericon = "",
+        id = 13,
+        icon = "icon/chatBubble/chatUseRes/018.png",
+        portraitid = 20012,
+    },
     [50] = {
         overturnType = 0,
         othericon = "icon/chatBubble/chatUseRes/081.png",
@@ -41,11 +83,11 @@ return {
         icon = "icon/chatBubble/chatUseRes/080.png",
         portraitid = 60015,
     },
-    [9] = {
+    [51] = {
         overturnType = 1,
         othericon = "",
-        id = 9,
-        icon = "icon/chatBubble/chatUseRes/014.png",
-        portraitid = 20008,
+        id = 51,
+        icon = "icon/chatBubble/chatUseRes/082.png",
+        portraitid = 60018,
     },
 }

@@ -424,7 +424,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "关卡特性",
+													text = "스테이지 특성",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -432,7 +432,7 @@ local t =
 														PositionX = 13,
 														PositionY = 29,
 													},
-													width = "98",
+													width = "141",
 													ZOrder = "1",
 												},
 												{
@@ -504,7 +504,7 @@ local t =
 														PositionX = 65,
 														PositionY = 10,
 													},
-													width = "104",
+													width = "97",
 													ZOrder = "1",
 												},
 												{
@@ -1126,7 +1126,7 @@ local t =
 														PositionX = 13,
 														PositionY = 13,
 													},
-													width = "97",
+													width = "103",
 													ZOrder = "1",
 												},
 												{
@@ -1399,7 +1399,7 @@ local t =
 										PositionX = -205,
 										PositionY = -5,
 									},
-									width = "70",
+									width = "73",
 									ZOrder = "1",
 								},
 								{

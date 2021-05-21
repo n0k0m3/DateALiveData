@@ -136,21 +136,21 @@ function EquipmentDataMgr:syncServerNewEquip(equip)
 	if equip.ct == EC_SChangeType.ADD or equip.ct == EC_SChangeType.DEFAULT then
         self.newEquips[equip.id] = equip
         if tonumber(equip.heroId) > 0 then
-        	self.useNewEquipList[equip.cid] = true
+        	self.useNewEquipList[equip.id] = true
         else
-        	self.useNewEquipList[equip.cid] = false
+        	self.useNewEquipList[equip.id] = false
         end
     elseif equip.ct == EC_SChangeType.UPDATE then
     	self.newEquips[equip.id] = self.newEquips[equip.id] or {}
         table.merge(self.newEquips[equip.id],equip)
         if tonumber(equip.heroId) > 0 then
-        	self.useNewEquipList[equip.cid] = true
+        	self.useNewEquipList[equip.id] = true
         else
-        	self.useNewEquipList[equip.cid] = false
+        	self.useNewEquipList[equip.id] = false
         end
     elseif equip.ct == EC_SChangeType.DELETE then
         self.newEquips[equip.id] = nil;
-        self.useNewEquipList[equip.cid] = false
+        self.useNewEquipList[equip.id] = false
     end
 end
 
@@ -1340,9 +1340,9 @@ function EquipmentDataMgr:updateNewEquipMentEquipState(data)
 				table.merge(self.newEquips[newEquipmentInfo.id], newEquipmentInfo)
 			end
 			if tonumber(newEquipmentInfo.heroId) > 0 then
-				self.useNewEquipList[newEquipmentInfo.cid] = true
+				self.useNewEquipList[newEquipmentInfo.id] = true
 			else
-				self.useNewEquipList[newEquipmentInfo.cid] = false
+				self.useNewEquipList[newEquipmentInfo.id] = false
 			end
 		end
 		for k,v in pairs(self.newEquips) do
@@ -1357,7 +1357,7 @@ function EquipmentDataMgr:updateNewEquipMentEquipState(data)
 				if flag then
 					v.heroId = "0"
 					v.position = "0"
-					self.useNewEquipList[v.cid] = false
+					self.useNewEquipList[v.id] = false
 				end
 			end
 		end
@@ -1366,7 +1366,7 @@ function EquipmentDataMgr:updateNewEquipMentEquipState(data)
 			if tonumber(v.heroId) == tonumber(heroId) then
 				v.heroId = "0"
 				v.position = "0"
-				self.useNewEquipList[v.cid] = false
+				self.useNewEquipList[v.id] = false
 			end
 		end
 	end
@@ -1892,8 +1892,12 @@ function EquipmentDataMgr:getNewEquipInfoByCid(cid)
 	end
 end
 
-function EquipmentDataMgr:checkNewEquipInUse(cid)
-	if self.useNewEquipList[cid] then
+function EquipmentDataMgr:getNewEquipInfoById(id)
+	return self.newEquips[id]
+end
+
+function EquipmentDataMgr:checkNewEquipInUse(id)
+	if self.useNewEquipList[id] then
 		return true
 	else
 		return false
@@ -2019,9 +2023,25 @@ function EquipmentDataMgr:getNewEquipsBySortType(heroId, sType, isSkyLadder)
 			end
 		end
 	end
+
 	table.sort(equips, sortfunc)
 
-	return equips
+	--未穿戴的信物如有和已穿戴同cid的不展示
+    local dressEquip = {}
+    for _,_equip in pairs(self.newEquips) do            
+	    if self.useNewEquipList[_equip.id] and tonumber(_equip.heroId) == tonumber(heroId)  then
+            dressEquip[_equip.cid] = _equip.cid    
+        end
+    end
+    local filterT = {}
+    for _,_equip in pairs(equips) do
+        if dressEquip[_equip.cid] == nil then
+            table.insert(filterT, _equip)
+        end
+    end
+	table.sort(filterT, sortfunc)
+
+	return filterT
 end
 
 function EquipmentDataMgr:getNewEquipsCfgDataArray()

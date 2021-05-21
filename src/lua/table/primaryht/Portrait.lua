@@ -448,7 +448,7 @@ return {
         group = 1,
         condition = {
             [1] = {
-                hasItem = 554015,
+                hasDress = 410220,
             },
         },
         accessdes = 265127,
@@ -464,7 +464,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 554015,
+            [1] = 410220,
         },
         classifyOrder = 22,
         fontcolor = "",
@@ -590,7 +590,7 @@ return {
         group = 1,
         condition = {
             [1] = {
-                hasItem = 554023,
+                hasDress = 411105,
             },
         },
         accessdes = 265139,
@@ -606,7 +606,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 554023,
+            [1] = 411105,
         },
         classifyOrder = 80,
         fontcolor = "",
@@ -699,7 +699,7 @@ return {
         group = 1,
         condition = {
             [1] = {
-                hasItem = 554028,
+                hasDress = 412902,
             },
         },
         accessdes = 265149,
@@ -715,7 +715,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 554028,
+            [1] = 412902,
         },
         classifyOrder = 81,
         fontcolor = "",
@@ -1189,7 +1189,7 @@ return {
         group = 1,
         condition = {
             [1] = {
-                hasItem = 554021,
+                hasDress = 410417,
             },
         },
         accessdes = 266606,
@@ -1205,7 +1205,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 554021,
+            [1] = 410417,
         },
         classifyOrder = 32,
         fontcolor = "",
@@ -1976,7 +1976,7 @@ return {
         group = 2,
         condition = {
             [1] = {
-                hasItem = 570267,
+                hasDress = 412903,
             },
         },
         accessdes = 266638,
@@ -1992,7 +1992,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 570267,
+            [1] = 412903,
         },
         classifyOrder = 59,
         fontcolor = "",
@@ -3113,7 +3113,7 @@ return {
         group = 1,
         condition = {
             [1] = {
-                hasItem = 554035,
+                hasDress = 411011,
             },
         },
         accessdes = 265163,
@@ -3129,7 +3129,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 554035,
+            [1] = 411011,
         },
         classifyOrder = 54,
         fontcolor = "",
@@ -3519,7 +3519,7 @@ return {
         group = 1,
         condition = {
             [1] = {
-                hasItem = 554019,
+                hasDress = 410312,
             },
         },
         accessdes = 266588,
@@ -3535,7 +3535,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 554019,
+            [1] = 410312,
         },
         classifyOrder = 61,
         fontcolor = "",
@@ -3742,7 +3742,7 @@ return {
         group = 2,
         condition = {
             [1] = {
-                hasItem = 570272,
+                hasDress = 410607,
             },
         },
         accessdes = 266652,
@@ -3758,7 +3758,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 570272,
+            [1] = 410607,
         },
         classifyOrder = 64,
         fontcolor = "",
@@ -3823,7 +3823,7 @@ return {
         group = 1,
         condition = {
             [1] = {
-                hasItem = 554009,
+                hasDress = 410114,
             },
         },
         accessdes = 265606,
@@ -3839,7 +3839,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 554009,
+            [1] = 410114,
         },
         classifyOrder = 8,
         fontcolor = "",
@@ -4098,7 +4098,7 @@ return {
         group = 2,
         condition = {
             [1] = {
-                hasItem = 570258,
+                hasDress = 411106,
             },
         },
         accessdes = 266618,
@@ -4114,7 +4114,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 570258,
+            [1] = 411106,
         },
         classifyOrder = 52,
         fontcolor = "",
@@ -4233,7 +4233,7 @@ return {
         group = 2,
         condition = {
             [1] = {
-                hasItem = 570253,
+                hasDress = 410415,
             },
         },
         accessdes = 266604,
@@ -4249,7 +4249,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 570253,
+            [1] = 410415,
         },
         classifyOrder = 46,
         fontcolor = "",
@@ -4423,7 +4423,7 @@ return {
         group = 2,
         condition = {
             [1] = {
-                hasItem = 570229,
+                hasDress = 410113,
             },
         },
         accessdes = 266734,
@@ -4439,7 +4439,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 570229,
+            [1] = 410113,
         },
         classifyOrder = 24,
         fontcolor = "",
@@ -4450,7 +4450,7 @@ return {
         group = 2,
         condition = {
             [1] = {
-                hasItem = 570248,
+                hasDress = 410311,
             },
         },
         accessdes = 266588,
@@ -4466,7 +4466,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 570248,
+            [1] = 410311,
         },
         classifyOrder = 41,
         fontcolor = "",
@@ -4477,7 +4477,7 @@ return {
         group = 1,
         condition = {
             [1] = {
-                hasItem = 554030,
+                hasDress = 410606,
             },
         },
         accessdes = 265153,
@@ -4493,7 +4493,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 554030,
+            [1] = 410606,
         },
         classifyOrder = 42,
         fontcolor = "",
@@ -4803,7 +4803,7 @@ return {
         group = 2,
         condition = {
             [1] = {
-                hasItem = 570239,
+                hasDress = 410219,
             },
         },
         accessdes = 266745,
@@ -4819,7 +4819,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 570239,
+            [1] = 410219,
         },
         classifyOrder = 32,
         fontcolor = "",
@@ -5263,7 +5263,7 @@ return {
         group = 1,
         condition = {
             [1] = {
-                hasItem = 554032,
+                hasDress = 411213,
             },
         },
         accessdes = 265158,
@@ -5279,7 +5279,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 554032,
+            [1] = 411213,
         },
         classifyOrder = 66,
         fontcolor = "",
@@ -5588,7 +5588,7 @@ return {
         group = 2,
         condition = {
             [1] = {
-                hasItem = 570278,
+                hasDress = 411214,
             },
         },
         accessdes = 266668,
@@ -5604,7 +5604,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 570278,
+            [1] = 411214,
         },
         classifyOrder = 70,
         fontcolor = "",
@@ -5696,7 +5696,7 @@ return {
         group = 2,
         condition = {
             [1] = {
-                hasItem = 570286,
+                hasDress = 411010,
             },
         },
         accessdes = 266684,
@@ -5712,7 +5712,7 @@ return {
         toggle = {
         },
         itemTemplateId = {
-            [1] = 570286,
+            [1] = 411010,
         },
         classifyOrder = 78,
         fontcolor = "",

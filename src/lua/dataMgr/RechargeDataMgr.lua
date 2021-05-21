@@ -48,8 +48,6 @@ function RechargeDataMgr:init()
 	TFDirector:addProto(s2c.RECHARGE_RESP_WEEK_CARD_INFO, self, self.onRecvWeekCardInfo)
 	TFDirector:addProto(s2c.RECHARGE_RESP_GET_WEEK_AWARD, self, self.onRecvWeekSignAward)
 
-	TFDirector:addProto(s2c.RECHARGE_PUSH_CHANGE_RECHARGE_CFG, self, self.recvGoodsList)
-
 	TFDirector:addProto(s2c.RECHARGE_RESP_WEEK_CARD_INFO, self, self.onRecvWeekCardInfo)
 	TFDirector:addProto(s2c.RECHARGE_RESP_GET_WEEK_AWARD, self, self.onRecvWeekSignAward)
 

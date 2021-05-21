@@ -867,7 +867,7 @@ function BagView:updateGoodsItem(item, data)
         local isCarry = EquipmentDataMgr:isUesing(data.id)
         foo.Image_carry:setVisible(isCarry)
     elseif itemCfg.superType == EC_ResourceType.FETTERS then
-        local isCarry = EquipmentDataMgr:checkNewEquipInUse(itemCfg.id)
+        local isCarry = EquipmentDataMgr:checkNewEquipInUse(data.id)
         foo.Image_carry:setVisible(isCarry)
     elseif itemCfg.superType == EC_ResourceType.BAOSHI then
         local isCarry = EquipmentDataMgr:checkGemInUse(data.id)
@@ -1498,8 +1498,8 @@ function BagView:goodsDataSort(index)
          table.sort(data, function(a, b)
                        local cfgA = GoodsDataMgr:getItemCfg(a.cid)
                        local cfgB = GoodsDataMgr:getItemCfg(b.cid)
-                       local ause = (EquipmentDataMgr:checkNewEquipInUse(cfgA.id) == true and 1 or 0)
-                       local buse = (EquipmentDataMgr:checkNewEquipInUse(cfgB.id) == true and 1 or 0)
+                       local ause = (EquipmentDataMgr:checkNewEquipInUse(a.id) == true and 1 or 0)
+                       local buse = (EquipmentDataMgr:checkNewEquipInUse(b.id) == true and 1 or 0)
                        if a.hid ~= 0 and b.hid == 0 then
                             return true
                        elseif b.hid ~= 0 and a.hid == 0 then

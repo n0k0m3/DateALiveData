@@ -5969,4 +5969,9 @@ return {
         res = "ui/onlineteam/role_change.png",
         res_en = "ui/onlineteam/role_change_ko.png",
     },
+    [1216] = {
+        id = 1216,
+        res = "ui/fuben/huoshoujuchang/huoshouTabText.png",
+        res_en = "ui/fuben/huoshoujuchang/huoshouTabText_ko.png",
+    },
 }

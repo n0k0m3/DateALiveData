@@ -102,10 +102,10 @@ function EventConfirm:updateLogic()
        self:updateShowItem()
     end
 
-    self:updateConditionState(eventCfg.eventType,eventCfg.condition,eventCfg.conditionDes)
+    self:updateConditionState(eventCfg.eventType,eventCfg.condition,eventCfg.conditionDesEn)
 end
 
-function EventConfirm:updateConditionState(eventType,condition,conditionDes)
+function EventConfirm:updateConditionState(eventType,condition,conditionDesEn)
 
     local canGetEventAward = false
     local eventInfo = ExploreDataMgr:getFoundEventData(self.eventCid)
@@ -119,14 +119,14 @@ function EventConfirm:updateConditionState(eventType,condition,conditionDes)
 
     local typeStr = TextDataMgr:getText(13322015)
     if eventType ~= EC_eventType.mulTrigger then
-        self.Label_condition:setText(typeStr..conditionDes)
+        self.Label_condition:setText(typeStr..TextDataMgr:getText(conditionDesEn))
     else
         local progress = eventInfo and eventInfo.progress or 0
-        local str = string.format(conditionDes,progress,condition.times)
+        local str = string.format(TextDataMgr:getText(conditionDesEn),progress,condition.times)
         self.Label_condition:setText(typeStr..str)
     end
 
-    self.Image_title2:setVisible(conditionDes ~= "")
+    self.Image_title2:setVisible(conditionDesEn ~= "")
 
     local color = canGetEventAward and me.WHITE or me.RED
     self.Label_condition:setColor(color)

@@ -1209,7 +1209,7 @@ function FubenSquadView:updateMonBuffList()
 
         local buffer = TabDataMgr:getData("Buffer", monTrialData.heroBuff[i].buffId)
 
-        label_buff:setText(buffer.des)
+        label_buff:setTextById(buffer.desEn)
 
         local heroName = HeroDataMgr:getName(monTrialData.heroBuff[i].heroId)
         sprite_name:setText(heroName)

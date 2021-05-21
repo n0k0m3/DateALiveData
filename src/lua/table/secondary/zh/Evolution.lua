@@ -41,6 +41,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -68,6 +71,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -95,6 +100,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -123,6 +130,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/508.png",
         bg = "",
@@ -150,6 +160,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -177,6 +189,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -204,6 +219,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -231,6 +248,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -259,6 +278,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -286,6 +308,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -313,6 +337,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -340,6 +366,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/504.png",
         bg = "",
@@ -1661,6 +1689,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -1688,6 +1719,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -1715,6 +1748,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -1743,6 +1778,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/509.png",
         bg = "",
@@ -1770,6 +1808,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -1797,6 +1837,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -1824,6 +1867,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -1851,6 +1896,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -1879,6 +1926,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -1906,6 +1956,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -1933,6 +1985,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -1960,6 +2014,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -3281,6 +3337,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -3308,6 +3367,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -3335,6 +3396,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -3363,6 +3426,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/11.png",
         bg = "",
@@ -3390,6 +3456,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -3417,6 +3486,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -3444,6 +3515,9 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 7,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -3471,6 +3545,9 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 8,
+            [2] = 10,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -3498,6 +3575,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/6.png",
         bg = "",
@@ -3525,6 +3604,9 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 10,
+            [3] = 12,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -3582,6 +3664,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/11.png",
         bg = "",
@@ -4915,6 +4999,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "ui/tu01.png",
@@ -4941,6 +5027,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -4968,6 +5056,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -4996,6 +5086,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/506.png",
         bg = "",
@@ -5023,6 +5115,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -5050,6 +5144,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -5077,6 +5174,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -5104,6 +5203,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -5132,6 +5233,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -5159,6 +5262,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -5186,6 +5291,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -5244,6 +5351,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -5271,6 +5380,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -6592,6 +6703,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -6619,6 +6733,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/503.png",
         bg = "",
@@ -6646,6 +6762,9 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
+            [3] = 5,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -6673,6 +6792,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -6700,6 +6821,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -6727,6 +6851,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -6754,6 +6880,9 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 7,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -6781,6 +6910,9 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -6808,6 +6940,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -6835,6 +6969,9 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 10,
+            [3] = 12,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -6892,6 +7029,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/503.png",
         bg = "",
@@ -6919,6 +7058,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -8201,6 +8342,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "ui/tu01.png",
@@ -8227,6 +8370,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -8254,6 +8399,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -8282,6 +8429,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -8309,6 +8458,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -8336,6 +8487,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -8363,6 +8517,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -8390,6 +8546,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -8418,6 +8576,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -8445,6 +8605,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -8472,6 +8634,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -8530,6 +8694,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -8557,6 +8723,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -9878,6 +10046,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -9905,6 +10076,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -9932,6 +10105,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -9960,6 +10135,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/6.png",
         bg = "",
@@ -9987,6 +10165,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -10014,6 +10195,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -10041,6 +10224,9 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 7,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -10068,6 +10254,9 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 8,
+            [2] = 10,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -10095,6 +10284,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -10122,6 +10313,9 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 10,
+            [3] = 12,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -10179,6 +10373,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/509.png",
         bg = "",
@@ -11538,6 +11734,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -11565,6 +11764,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/11.png",
         bg = "",
@@ -11592,6 +11793,9 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
+            [3] = 5,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -11619,6 +11823,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -11646,6 +11852,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -11673,6 +11882,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -11700,6 +11911,9 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 7,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -11727,6 +11941,9 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -11754,6 +11971,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/509.png",
         bg = "",
@@ -11781,6 +12000,9 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 10,
+            [3] = 12,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -11838,6 +12060,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/11.png",
         bg = "",
@@ -11865,6 +12089,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -13174,6 +13400,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -13201,6 +13430,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -13228,6 +13459,9 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
+            [3] = 5,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -13255,6 +13489,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -13282,6 +13518,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -13309,6 +13548,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -13336,6 +13577,9 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 7,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -13363,6 +13607,9 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -13390,6 +13637,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/505.png",
         bg = "",
@@ -13417,6 +13666,9 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 10,
+            [3] = 12,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -13474,6 +13726,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/11.png",
         bg = "",
@@ -13501,6 +13755,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -14810,6 +15066,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -14837,6 +15096,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -14864,6 +15125,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -14892,6 +15155,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/501.png",
         bg = "",
@@ -14919,6 +15185,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -14946,6 +15215,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -14973,6 +15244,9 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 7,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -15000,6 +15274,9 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 8,
+            [2] = 10,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -15027,6 +15304,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -15054,6 +15333,9 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 10,
+            [3] = 12,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -15111,6 +15393,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/501.png",
         bg = "",
@@ -16443,6 +16727,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "ui/tu01.png",
@@ -16469,6 +16755,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -16496,6 +16784,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -16524,6 +16814,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/510.png",
         bg = "",
@@ -16551,6 +16843,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -16578,6 +16872,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -16605,6 +16902,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -16632,6 +16931,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -16660,6 +16961,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -16687,6 +16990,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -16714,6 +17019,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -16772,6 +17079,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -16799,6 +17108,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -18120,6 +18431,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -18147,6 +18461,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -18174,6 +18490,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -18202,6 +18520,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/508.png",
         bg = "",
@@ -18229,6 +18550,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -18256,6 +18579,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -18283,6 +18609,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -18310,6 +18638,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -18338,6 +18668,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/502.png",
         bg = "",
@@ -18365,6 +18698,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -18392,6 +18727,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -18419,6 +18756,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/508.png",
         bg = "",
@@ -19740,6 +20079,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -19767,6 +20109,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -19794,6 +20138,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -19822,6 +20168,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/505.png",
         bg = "",
@@ -19849,6 +20198,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -19876,6 +20227,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -19903,6 +20257,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -19930,6 +20286,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -19958,6 +20316,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/6.png",
         bg = "",
@@ -19985,6 +20346,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -20012,6 +20375,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -20039,6 +20404,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -21333,6 +21700,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -21359,6 +21728,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -21386,6 +21757,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -21414,6 +21787,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/506.png",
         bg = "",
@@ -21441,6 +21816,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -21468,6 +21845,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -21495,6 +21875,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -21522,6 +21904,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -21550,6 +21934,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -21577,6 +21963,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -21604,6 +21992,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -21662,6 +22052,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -21689,6 +22081,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -23010,6 +23404,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -23037,6 +23434,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -23064,6 +23463,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -23092,6 +23493,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/6.png",
         bg = "",
@@ -23119,6 +23523,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -23146,6 +23553,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -23173,6 +23582,9 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 7,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -23200,6 +23612,9 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 8,
+            [2] = 10,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -23227,6 +23642,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -23254,6 +23671,9 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 10,
+            [3] = 12,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -23311,6 +23731,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -23433,7 +23855,7 @@ return {
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
-        cellIcon = true,
+        cellIcon = false,
         model = "",
         heroId = 111301,
         partition = 3,
@@ -23859,7 +24281,7 @@ return {
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
-        cellIcon = true,
+        cellIcon = false,
         model = "",
         heroId = 111301,
         partition = 5,
@@ -24286,7 +24708,7 @@ return {
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
-        cellIcon = true,
+        cellIcon = false,
         model = "",
         heroId = 111301,
         partition = 6,
@@ -24533,7 +24955,7 @@ return {
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
-        cellIcon = true,
+        cellIcon = false,
         model = "",
         heroId = 111301,
         partition = 7,
@@ -24671,6 +25093,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -24698,6 +25123,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -24725,6 +25152,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -24753,6 +25182,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -24780,6 +25212,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -24807,6 +25241,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -24834,6 +25271,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -24861,6 +25300,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -24889,6 +25330,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -24916,6 +25360,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -24943,6 +25389,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -24970,6 +25418,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/505.png",
         bg = "",
@@ -26291,6 +26741,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -26318,6 +26771,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -26345,6 +26800,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -26373,6 +26830,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/502.png",
         bg = "",
@@ -26400,6 +26860,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -26427,6 +26890,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -26454,6 +26919,9 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 7,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -26481,6 +26949,9 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 8,
+            [2] = 10,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -26508,6 +26979,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/11.png",
         bg = "",
@@ -26535,6 +27008,9 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 10,
+            [3] = 12,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -26592,6 +27068,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/502.png",
         bg = "",
@@ -27925,6 +28403,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "ui/tu01.png",
@@ -27951,6 +28431,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -27978,6 +28460,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -28006,6 +28490,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -28033,6 +28519,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -28060,6 +28548,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -28087,6 +28578,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -28114,6 +28607,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -28142,6 +28637,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -28169,6 +28666,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -28196,6 +28695,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -28254,6 +28755,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -28281,6 +28784,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -29602,6 +30107,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -29629,6 +30137,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -29656,6 +30166,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -29684,6 +30196,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/503.png",
         bg = "",
@@ -29711,6 +30226,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -29738,6 +30255,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -29765,6 +30285,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -29792,6 +30314,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -29820,6 +30344,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/522.png",
         bg = "",
@@ -29847,6 +30374,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -29874,6 +30403,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -29901,6 +30432,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/503.png",
         bg = "",
@@ -31222,6 +31755,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -31249,6 +31785,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -31276,6 +31814,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -31304,6 +31844,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/503.png",
         bg = "",
@@ -31331,6 +31874,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -31358,6 +31903,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -31385,6 +31933,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -31412,6 +31962,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -31440,6 +31992,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/522.png",
         bg = "",
@@ -31467,6 +32022,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -31494,6 +32051,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -31521,6 +32080,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/503.png",
         bg = "",
@@ -32842,6 +33403,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -32869,6 +33433,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -32896,6 +33462,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -32924,6 +33492,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/501.png",
         bg = "",
@@ -32951,6 +33522,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -32978,6 +33552,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -33005,6 +33581,9 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 7,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -33032,6 +33611,9 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 8,
+            [2] = 10,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -33059,6 +33641,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/508.png",
         bg = "",
@@ -33086,6 +33670,9 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 10,
+            [3] = 12,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -33143,6 +33730,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/508.png",
         bg = "",
@@ -33265,7 +33854,7 @@ return {
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
-        cellIcon = true,
+        cellIcon = false,
         model = "",
         heroId = 111401,
         partition = 3,
@@ -33691,7 +34280,7 @@ return {
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
-        cellIcon = true,
+        cellIcon = false,
         model = "",
         heroId = 111401,
         partition = 5,
@@ -34118,7 +34707,7 @@ return {
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
-        cellIcon = true,
+        cellIcon = false,
         model = "",
         heroId = 111401,
         partition = 6,
@@ -34365,7 +34954,7 @@ return {
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
-        cellIcon = true,
+        cellIcon = false,
         model = "",
         heroId = 111401,
         partition = 7,
@@ -34476,6 +35065,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "ui/tu01.png",
@@ -34502,6 +35093,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -34529,6 +35122,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -34557,6 +35152,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/509.png",
         bg = "",
@@ -34584,6 +35181,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -34611,6 +35210,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -34638,6 +35240,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -34665,6 +35269,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -34693,6 +35299,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -34720,6 +35328,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -34747,6 +35357,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -34805,6 +35417,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -34832,6 +35446,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -36153,6 +36769,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -36180,6 +36799,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -36207,6 +36828,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -36235,6 +36858,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/501.png",
         bg = "",
@@ -36262,6 +36888,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -36289,6 +36918,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -36316,6 +36947,9 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 7,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -36343,6 +36977,9 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 8,
+            [2] = 10,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -36370,6 +37007,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/508.png",
         bg = "",
@@ -36397,6 +37036,9 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 10,
+            [3] = 12,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -36454,6 +37096,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/508.png",
         bg = "",
@@ -36576,7 +37220,7 @@ return {
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
-        cellIcon = true,
+        cellIcon = false,
         model = "",
         heroId = 111411,
         partition = 3,
@@ -37002,7 +37646,7 @@ return {
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
-        cellIcon = true,
+        cellIcon = false,
         model = "",
         heroId = 111411,
         partition = 5,
@@ -37429,7 +38073,7 @@ return {
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
-        cellIcon = true,
+        cellIcon = false,
         model = "",
         heroId = 111411,
         partition = 6,
@@ -37676,7 +38320,7 @@ return {
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
-        cellIcon = true,
+        cellIcon = false,
         model = "",
         heroId = 111411,
         partition = 7,
@@ -37787,6 +38431,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "ui/tu01.png",
@@ -37813,6 +38459,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -37840,6 +38488,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -37868,6 +38518,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/509.png",
         bg = "",
@@ -37895,6 +38547,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -37922,6 +38576,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -37949,6 +38606,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -37976,6 +38635,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -38004,6 +38665,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -38031,6 +38694,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -38058,6 +38723,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -38116,6 +38783,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -38143,6 +38812,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -39464,6 +40135,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -39491,6 +40165,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -39518,6 +40194,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -39546,6 +40224,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/509.png",
         bg = "",
@@ -39573,6 +40254,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -39600,6 +40283,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -39627,6 +40313,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -39654,6 +40342,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -39682,6 +40372,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -39709,6 +40402,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -39736,6 +40431,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -39763,6 +40460,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -41084,6 +41783,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -41111,6 +41813,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -41138,6 +41842,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -41166,6 +41872,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/503.png",
         bg = "",
@@ -41193,6 +41902,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -41220,6 +41931,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -41247,6 +41961,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -41274,6 +41990,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -41302,6 +42020,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -41329,6 +42050,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -41356,6 +42079,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -41383,6 +42108,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -42704,6 +43431,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -42731,6 +43461,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -42758,6 +43490,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -42786,6 +43520,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/503.png",
         bg = "",
@@ -42813,6 +43550,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -42840,6 +43579,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -42867,6 +43609,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -42894,6 +43638,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -42922,6 +43668,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -42949,6 +43698,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -42976,6 +43727,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -43003,6 +43756,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/501.png",
         bg = "",
@@ -44297,6 +45052,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "ui/tu01.png",
@@ -44323,6 +45080,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -44350,6 +45109,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -44378,6 +45139,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/11.png",
         bg = "",
@@ -44405,6 +45168,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -44432,6 +45197,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu02.png",
@@ -44459,6 +45227,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -44486,6 +45256,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/503.png",
         bg = "",
@@ -44514,6 +45286,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -44541,6 +45315,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -44568,6 +45344,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -44626,6 +45404,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -44653,6 +45433,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -45974,6 +46756,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -46001,6 +46786,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -46028,6 +46815,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -46056,6 +46845,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/503.png",
         bg = "",
@@ -46083,6 +46875,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -46110,6 +46904,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -46137,6 +46934,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -46164,6 +46963,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -46192,6 +46993,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -46219,6 +47023,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -46246,6 +47052,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -46273,6 +47081,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/501.png",
         bg = "",
@@ -47567,6 +48377,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -47593,6 +48405,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -47620,6 +48434,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -47648,6 +48464,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/506.png",
         bg = "",
@@ -47675,6 +48493,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -47702,6 +48522,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -47729,6 +48552,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -47756,6 +48581,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -47784,6 +48611,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -47811,6 +48640,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -47838,6 +48669,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -47896,6 +48729,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -47923,6 +48758,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -49217,6 +50054,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu01.png",
@@ -49243,6 +50082,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -49270,6 +50111,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -49298,6 +50141,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -49325,6 +50170,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/508.png",
         bg = "",
@@ -49352,6 +50199,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -49379,6 +50229,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -49406,6 +50258,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -49434,6 +50288,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -49461,6 +50317,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/6.png",
         bg = "",
@@ -49488,6 +50346,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -49546,6 +50406,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -49573,6 +50435,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -50867,6 +51731,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu01.png",
@@ -50893,6 +51759,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -50920,6 +51788,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -50948,6 +51818,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -50975,6 +51847,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/505.png",
         bg = "",
@@ -51002,6 +51876,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -51029,6 +51906,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -51056,6 +51935,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -51084,6 +51965,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -51111,6 +51994,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/503.png",
         bg = "",
@@ -51138,6 +52023,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -51196,6 +52083,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -51223,6 +52112,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -52517,6 +53408,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu01.png",
@@ -52543,6 +53436,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -52570,6 +53465,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -52598,6 +53495,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -52625,6 +53524,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/508.png",
         bg = "",
@@ -52652,6 +53553,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -52679,6 +53583,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -52706,6 +53612,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -52734,6 +53642,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -52761,6 +53671,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/6.png",
         bg = "",
@@ -52788,6 +53700,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -52846,6 +53760,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -52873,6 +53789,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -54167,6 +55085,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "ui/tu01.png",
@@ -54193,6 +55113,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -54220,6 +55142,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -54248,6 +55172,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -54275,6 +55201,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/505.png",
         bg = "",
@@ -54302,6 +55230,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -54329,6 +55260,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -54356,6 +55289,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -54384,6 +55319,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -54411,6 +55348,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/503.png",
         bg = "",
@@ -54438,6 +55377,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -54496,6 +55437,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -54523,6 +55466,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -55844,6 +56789,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -55871,6 +56819,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -55898,6 +56848,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -55926,6 +56878,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/509.png",
         bg = "",
@@ -55953,6 +56908,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -55980,6 +56937,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -56007,6 +56967,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -56034,6 +56996,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -56062,6 +57026,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/522.png",
         bg = "",
@@ -56089,6 +57056,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -56116,6 +57085,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -56143,6 +57114,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/11.png",
         bg = "",
@@ -57464,6 +58437,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -57491,6 +58467,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -57518,6 +58496,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -57546,6 +58526,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/509.png",
         bg = "",
@@ -57573,6 +58556,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -57600,6 +58585,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -57627,6 +58615,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -57654,6 +58644,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -57682,6 +58674,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/522.png",
         bg = "",
@@ -57709,6 +58704,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -57736,6 +58733,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -57763,6 +58762,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/505.png",
         bg = "",
@@ -59084,6 +60085,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -59111,6 +60115,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -59138,6 +60144,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -59166,6 +60174,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -59193,6 +60204,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -59220,6 +60233,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -59247,6 +60263,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -59274,6 +60292,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -59302,6 +60322,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/509.png",
         bg = "",
@@ -59329,6 +60352,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -59356,6 +60381,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -59383,6 +60410,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/522.png",
         bg = "",
@@ -60677,6 +61706,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -60703,6 +61734,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -60730,6 +61763,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -60758,6 +61793,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -60785,6 +61822,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/11.png",
         bg = "",
@@ -60812,6 +61851,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -60839,6 +61881,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -60866,6 +61910,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -60894,6 +61940,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -60921,6 +61969,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/6.png",
         bg = "",
@@ -60948,6 +61998,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -61006,6 +62058,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/501.png",
         bg = "",
@@ -61033,6 +62087,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -62327,6 +63383,8 @@ return {
         cell = 1,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -62353,6 +63411,8 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -62380,6 +63440,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 4,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -62408,6 +63470,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 3,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -62435,6 +63499,8 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 4,
+            [2] = 6,
         },
         icon = "icon/attribute/70x70/6.png",
         bg = "",
@@ -62462,6 +63528,9 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 8,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -62489,6 +63558,8 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -62516,6 +63587,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -62544,6 +63617,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 8,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -62571,6 +63646,8 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 9,
+            [2] = 11,
         },
         icon = "icon/attribute/70x70/501.png",
         bg = "",
@@ -62598,6 +63675,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -62656,6 +63735,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 15,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -62683,6 +63764,8 @@ return {
         cell = 14,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 16,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -64004,6 +65087,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -64031,6 +65117,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -64058,6 +65146,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -64086,6 +65176,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/507.png",
         bg = "",
@@ -64113,6 +65206,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "ui/tu02.png",
@@ -64140,6 +65235,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -64167,6 +65265,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -64194,6 +65294,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -64222,6 +65324,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/509.png",
         bg = "",
@@ -64249,6 +65354,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -64276,6 +65383,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -64303,6 +65412,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/522.png",
         bg = "",
@@ -65624,6 +66735,9 @@ return {
         cell = 2,
         combatPower = 4,
         neighborId = {
+            [1] = 1,
+            [2] = 3,
+            [3] = 4,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -65651,6 +66765,8 @@ return {
         cell = 3,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -65678,6 +66794,8 @@ return {
         cell = 4,
         combatPower = 4,
         neighborId = {
+            [1] = 2,
+            [2] = 5,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -65706,6 +66824,9 @@ return {
         cell = 5,
         combatPower = 4,
         neighborId = {
+            [1] = 3,
+            [2] = 4,
+            [3] = 6,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -65733,6 +66854,8 @@ return {
         cell = 6,
         combatPower = 5,
         neighborId = {
+            [1] = 5,
+            [2] = 7,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -65760,6 +66883,9 @@ return {
         cell = 7,
         combatPower = 5,
         neighborId = {
+            [1] = 6,
+            [2] = 8,
+            [3] = 9,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -65787,6 +66913,8 @@ return {
         cell = 8,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/2.png",
         bg = "",
@@ -65814,6 +66942,8 @@ return {
         cell = 9,
         combatPower = 5,
         neighborId = {
+            [1] = 7,
+            [2] = 10,
         },
         icon = "icon/attribute/70x70/3.png",
         bg = "",
@@ -65842,6 +66972,9 @@ return {
         cell = 10,
         combatPower = 6,
         neighborId = {
+            [1] = 8,
+            [2] = 9,
+            [3] = 11,
         },
         icon = "icon/attribute/70x70/501.png",
         bg = "",
@@ -65869,6 +67002,8 @@ return {
         cell = 11,
         combatPower = 6,
         neighborId = {
+            [1] = 10,
+            [2] = 12,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -65896,6 +67031,8 @@ return {
         cell = 12,
         combatPower = 6,
         neighborId = {
+            [1] = 11,
+            [2] = 13,
         },
         icon = "icon/attribute/70x70/1.png",
         bg = "",
@@ -65923,6 +67060,8 @@ return {
         cell = 13,
         combatPower = 6,
         neighborId = {
+            [1] = 12,
+            [2] = 14,
         },
         icon = "icon/attribute/70x70/502.png",
         bg = "",

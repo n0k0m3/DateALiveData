@@ -2,6 +2,7 @@ return {
     [1003002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1003002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -27,6 +28,7 @@ return {
     [1010015] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1010015,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -50,6 +52,7 @@ return {
     [1003003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1003003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -72,6 +75,7 @@ return {
     [3007001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200248",
         id = 3007001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -94,6 +98,7 @@ return {
     [3007003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3007003,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -120,6 +125,7 @@ return {
     [3007005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3007005,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -142,6 +148,7 @@ return {
     [3007013] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3007013,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -168,6 +175,7 @@ return {
     [2006001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200226",
         id = 2006001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -190,6 +198,7 @@ return {
     [2006002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200227",
         id = 2006002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -212,6 +221,7 @@ return {
     [1009002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200215",
         id = 1009002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -236,6 +246,7 @@ return {
     [2006004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2006004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -258,6 +269,7 @@ return {
     [1009003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1009003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -280,6 +292,7 @@ return {
     [3006005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3006005,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -302,6 +315,7 @@ return {
     [1009004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200216",
         id = 1009004,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -324,6 +338,7 @@ return {
     [1010025] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1010025,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -347,6 +362,7 @@ return {
     [1009006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1009006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -369,6 +385,7 @@ return {
     [2006013] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2006013,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -395,6 +412,7 @@ return {
     [102] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 102,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -418,6 +436,7 @@ return {
     [3005003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3005003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -440,6 +459,7 @@ return {
     [2005001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200224",
         id = 2005001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -465,6 +485,7 @@ return {
     [2005002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200225",
         id = 2005002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -489,6 +510,7 @@ return {
     [2005003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2005003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -511,6 +533,7 @@ return {
     [2005004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2005004,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -533,6 +556,7 @@ return {
     [3004003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3004003,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -556,6 +580,7 @@ return {
     [1002001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200203",
         id = 1002001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -581,6 +606,7 @@ return {
     [1002002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1002002,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -603,6 +629,7 @@ return {
     [1009015] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1009015,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -629,6 +656,7 @@ return {
     [3004013] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3004013,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -652,6 +680,7 @@ return {
     [3003001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200241",
         id = 3003001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -677,6 +706,7 @@ return {
     [3003003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3003003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -699,6 +729,7 @@ return {
     [2004001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200222",
         id = 2004001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -721,6 +752,7 @@ return {
     [2004002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2004002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -746,6 +778,7 @@ return {
     [2004003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200223",
         id = 2004003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -770,6 +803,7 @@ return {
     [2004004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2004004,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -792,6 +826,7 @@ return {
     [1008003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1008003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -817,6 +852,7 @@ return {
     [1008004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1008004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -839,6 +875,7 @@ return {
     [1009025] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1009025,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -865,6 +902,7 @@ return {
     [10101] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10101,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -888,6 +926,7 @@ return {
     [10103] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10103,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -911,6 +950,7 @@ return {
     [10105] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10105,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -934,6 +974,7 @@ return {
     [10107] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10107,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -957,6 +998,7 @@ return {
     [10109] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10109,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -980,6 +1022,7 @@ return {
     [2003001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200221",
         id = 2003001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1007,6 +1050,7 @@ return {
     [2003002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2003002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1029,6 +1073,7 @@ return {
     [2003003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2003003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1051,6 +1096,7 @@ return {
     [1001001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200202",
         id = 1001001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1073,6 +1119,7 @@ return {
     [1001002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1001002,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1095,6 +1142,7 @@ return {
     [103] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "190200200",
         id = 103,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -1118,6 +1166,7 @@ return {
     [1007001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200210",
         id = 1007001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -1140,6 +1189,7 @@ return {
     [2002002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2002002,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1163,6 +1213,7 @@ return {
     [1007002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1007002,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1189,6 +1240,7 @@ return {
     [1007003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200212",
         id = 1007003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1213,6 +1265,7 @@ return {
     [1007004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1007004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1235,6 +1288,7 @@ return {
     [1007005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1007005,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1257,6 +1311,7 @@ return {
     [2002012] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2002012,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1280,6 +1335,7 @@ return {
     [3010004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3010004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1305,6 +1361,7 @@ return {
     [3010006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3010006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1327,6 +1384,7 @@ return {
     [2001001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200219",
         id = 2001001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1351,6 +1409,7 @@ return {
     [2001002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2001002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1373,6 +1432,7 @@ return {
     [1007012] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1007012,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1399,6 +1459,7 @@ return {
     [3009006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3009006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1421,6 +1482,7 @@ return {
     [3008002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200251",
         id = 3008002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1445,6 +1507,7 @@ return {
     [3008004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200253",
         id = 3008004,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1467,6 +1530,7 @@ return {
     [3008006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3008006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1489,6 +1553,7 @@ return {
     [1006001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200208",
         id = 1006001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -1511,6 +1576,7 @@ return {
     [3007002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200249",
         id = 3007002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1535,6 +1601,7 @@ return {
     [1006002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200209",
         id = 1006002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1559,6 +1626,7 @@ return {
     [1006003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1006003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1584,6 +1652,7 @@ return {
     [1006004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1006004,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1606,6 +1675,7 @@ return {
     [3006002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200246",
         id = 3006002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1630,6 +1700,7 @@ return {
     [3006004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3006004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1655,6 +1726,7 @@ return {
     [104] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "190200201",
         id = 104,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1680,6 +1752,7 @@ return {
     [3005004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3005004,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1702,6 +1775,7 @@ return {
     [3004002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3004002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1724,6 +1798,7 @@ return {
     [3004004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3004004,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1746,6 +1821,7 @@ return {
     [3010005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3010005,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1768,6 +1844,7 @@ return {
     [3010003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200258",
         id = 3010003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1792,6 +1869,7 @@ return {
     [3010002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200257",
         id = 3010002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1816,6 +1894,7 @@ return {
     [1005001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200206",
         id = 1005001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -1838,6 +1917,7 @@ return {
     [3003002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3003002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1860,6 +1940,7 @@ return {
     [1005002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200207",
         id = 1005002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1887,6 +1968,7 @@ return {
     [3010001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200256",
         id = 3010001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -1909,6 +1991,7 @@ return {
     [1005003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1005003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1931,6 +2014,7 @@ return {
     [3009025] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3009025,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1957,6 +2041,7 @@ return {
     [1005004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1005004,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1979,6 +2064,7 @@ return {
     [3009015] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3009015,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2005,6 +2091,7 @@ return {
     [1009005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1009005,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2031,6 +2118,7 @@ return {
     [3009004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200255",
         id = 3009004,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2053,6 +2141,7 @@ return {
     [1009001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1009001,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2075,6 +2164,7 @@ return {
     [3002002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3002002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2100,6 +2190,7 @@ return {
     [3009002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200254",
         id = 3009002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2127,6 +2218,7 @@ return {
     [3009001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3009001,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2149,6 +2241,7 @@ return {
     [3008005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3008005,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2171,6 +2264,7 @@ return {
     [2010001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200236",
         id = 2010001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2193,6 +2287,7 @@ return {
     [2010002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200237",
         id = 2010002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2220,6 +2315,7 @@ return {
     [2010003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200238",
         id = 2010003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2244,6 +2340,7 @@ return {
     [2010004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2010004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2266,6 +2363,7 @@ return {
     [10104] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10104,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2289,6 +2387,7 @@ return {
     [10106] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10106,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2312,6 +2411,7 @@ return {
     [10108] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10108,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2335,6 +2435,7 @@ return {
     [10110] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10110,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2358,6 +2459,7 @@ return {
     [3008003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200252",
         id = 3008003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2382,6 +2484,7 @@ return {
     [3008001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200250",
         id = 3008001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2407,6 +2510,7 @@ return {
     [3007004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3007004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2429,6 +2533,7 @@ return {
     [3001012] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3001012,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2452,6 +2557,7 @@ return {
     [3007023] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3007023,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2478,6 +2584,7 @@ return {
     [3006003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200247",
         id = 3006003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2502,6 +2609,7 @@ return {
     [2010015] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2010015,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2528,6 +2636,7 @@ return {
     [3006001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200245",
         id = 3006001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2550,6 +2659,7 @@ return {
     [3001003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3001003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -2572,6 +2682,7 @@ return {
     [2001003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2001003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -2594,6 +2705,7 @@ return {
     [2009005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2009005,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2616,6 +2728,7 @@ return {
     [2009006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2009006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -2638,6 +2751,7 @@ return {
     [2009001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2009001,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2660,6 +2774,7 @@ return {
     [2009002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200234",
         id = 2009002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2687,6 +2802,7 @@ return {
     [2009003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2009003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2712,6 +2828,7 @@ return {
     [2009004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200235",
         id = 2009004,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2734,6 +2851,7 @@ return {
     [2010025] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2010025,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2760,6 +2878,7 @@ return {
     [1004001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200205",
         id = 1004001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2785,6 +2904,7 @@ return {
     [3005001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200243",
         id = 3005001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2807,6 +2927,7 @@ return {
     [1004002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1004002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2829,6 +2950,7 @@ return {
     [10102] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10102,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2852,6 +2974,7 @@ return {
     [101] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "190200199",
         id = 101,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2876,6 +2999,7 @@ return {
     [1010001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200217",
         id = 1010001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2901,6 +3025,7 @@ return {
     [1004003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1004003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -2923,6 +3048,7 @@ return {
     [2006003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2006003,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2949,6 +3075,7 @@ return {
     [3005002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200244",
         id = 3005002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2974,6 +3101,7 @@ return {
     [3004001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200242",
         id = 3004001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2999,6 +3127,7 @@ return {
     [2010005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2010005,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3025,6 +3154,7 @@ return {
     [2010006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2010006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3047,6 +3177,7 @@ return {
     [3002003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3002003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3069,6 +3200,7 @@ return {
     [1008001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200213",
         id = 1008001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -3091,6 +3223,7 @@ return {
     [1008002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200214",
         id = 1008002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3115,6 +3248,7 @@ return {
     [2008001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200231",
         id = 2008001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -3137,6 +3271,7 @@ return {
     [2008002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200232",
         id = 2008002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3161,6 +3296,7 @@ return {
     [1010002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200218",
         id = 1010002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3188,6 +3324,7 @@ return {
     [2008004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2008004,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3211,6 +3348,7 @@ return {
     [1010003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1010003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -3233,6 +3371,7 @@ return {
     [2008006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2008006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3255,6 +3394,7 @@ return {
     [1010004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1010004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -3277,6 +3417,7 @@ return {
     [2007004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2007004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -3299,6 +3440,7 @@ return {
     [1010005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1010005,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3322,6 +3464,7 @@ return {
     [1008005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1008005,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3344,6 +3487,7 @@ return {
     [1010006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1010006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3366,6 +3510,7 @@ return {
     [2008005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2008005,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -3391,6 +3536,7 @@ return {
     [3001001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200239",
         id = 3001001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3415,6 +3561,7 @@ return {
     [2008014] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2008014,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3438,6 +3585,7 @@ return {
     [3009003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3009003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -3460,6 +3608,7 @@ return {
     [3009005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3009005,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3486,6 +3635,7 @@ return {
     [3002001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200240",
         id = 3002001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3510,6 +3660,7 @@ return {
     [3001002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3001002,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3533,6 +3684,7 @@ return {
     [2008003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200233",
         id = 2008003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3557,6 +3709,7 @@ return {
     [2006005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2006005,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3579,6 +3732,7 @@ return {
     [2007001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200228",
         id = 2007001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -3601,6 +3755,7 @@ return {
     [2007002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200229",
         id = 2007002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3626,6 +3781,7 @@ return {
     [2007003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200230",
         id = 2007003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3650,6 +3806,7 @@ return {
     [2008024] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2008024,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3673,6 +3830,7 @@ return {
     [2007005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2007005,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3695,6 +3853,7 @@ return {
     [1003001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200204",
         id = 1003001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3719,6 +3878,7 @@ return {
     [2002003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2002003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3741,6 +3901,7 @@ return {
     [2002001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200220",
         id = 2002001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {

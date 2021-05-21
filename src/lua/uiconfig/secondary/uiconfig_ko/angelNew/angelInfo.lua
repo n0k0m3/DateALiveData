@@ -856,7 +856,7 @@ local t =
 												PositionX = 29,
 												PositionY = 110,
 											},
-											width = "248",
+											width = "246",
 											ZOrder = "1",
 										},
 										{
@@ -1020,7 +1020,7 @@ local t =
 														PositionX = -1,
 														PositionY = 4,
 													},
-													width = "31",
+													width = "28",
 													ZOrder = "1",
 												},
 											},
@@ -1144,7 +1144,7 @@ local t =
 												PositionX = 334,
 												PositionY = 405,
 											},
-											width = "33",
+											width = "41",
 											ZOrder = "1",
 										},
 										{
@@ -1190,7 +1190,7 @@ local t =
 												PositionX = 347,
 												PositionY = 387,
 											},
-											width = "76",
+											width = "81",
 											ZOrder = "1",
 										},
 										{
@@ -1385,7 +1385,7 @@ local t =
 														PositionX = -2,
 														PositionY = 93,
 													},
-													width = "15",
+													width = "14",
 													ZOrder = "1",
 												},
 												{
@@ -1629,7 +1629,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "TextLable",
+											text = "패시브 스킬 슬롯 미개방, 패시브 스킬 장착 불가",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1638,7 +1638,7 @@ local t =
 												PositionY = 117,
 											},
 											visible = "False",
-											width = "80",
+											width = "383",
 											ZOrder = "1",
 										},
 										{
@@ -1685,7 +1685,7 @@ local t =
 												PositionY = 117,
 											},
 											visible = "False",
-											width = "14",
+											width = "13",
 											ZOrder = "1",
 										},
 										{
@@ -2002,7 +2002,7 @@ local t =
 												PositionY = 425,
 											},
 											visible = "False",
-											width = "70",
+											width = "74",
 											ZOrder = "1",
 										},
 										{
@@ -2344,7 +2344,7 @@ local t =
 														PositionX = -57,
 														PositionY = -329,
 													},
-													width = "166",
+													width = "165",
 													ZOrder = "1",
 												},
 												{
@@ -2390,7 +2390,7 @@ local t =
 														PositionX = 65,
 														PositionY = -329,
 													},
-													width = "13",
+													width = "12",
 													ZOrder = "1",
 												},
 												{
@@ -2808,7 +2808,7 @@ local t =
 												PositionX = 20,
 												PositionY = -1,
 											},
-											width = "75",
+											width = "74",
 											ZOrder = "3",
 										},
 										{

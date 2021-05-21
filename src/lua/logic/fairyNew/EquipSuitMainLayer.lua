@@ -188,7 +188,7 @@ function EquipSuitMainLayer:refreshLeft()
                     end
                 end
             end
-            local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(euipMent.cid)
+            local equipInfo = EquipmentDataMgr:getNewEquipInfoById(euipMent.id)
             local equipCfg = EquipmentDataMgr:getNewEquipCfg(euipMent.cid)
             if not equipInfo then
                 equipInfo = {}
@@ -389,7 +389,7 @@ function EquipSuitMainLayer:updatePanelInfo()
     self.Image_suit_effect:setVisible(false)
     self.Image_title_effect:setVisible(false)
     local euipMent = HeroDataMgr:getNewEquipInfoByPos(self.heroId, self.selectIdx)
-    local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(euipMent.cid)
+    local equipInfo = EquipmentDataMgr:getNewEquipInfoById(euipMent.id)
     local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.cid)
     local equipCfg = EquipmentDataMgr:getNewEquipCfg(euipMent.cid)
 
@@ -591,7 +591,7 @@ function EquipSuitMainLayer:updateEquipItem(item, data)
     local Label_level = TFDirector:getChildByPath(item,"Label_level")
     local Image_use = TFDirector:getChildByPath(item,"Image_use")
     Label_level_title:setString("Lv.")
-    local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(data.cid)
+    local equipInfo = EquipmentDataMgr:getNewEquipInfoById(data.id)
     local equipCfg = EquipmentDataMgr:getNewEquipCfg(data.cid)
     local maxStar = equipCfg.endStar
 
@@ -698,7 +698,7 @@ function EquipSuitMainLayer:registerEvents()
 
     self.Button_qianghua:onClick(function()
         local euipMent = HeroDataMgr:getNewEquipInfoByPos(self.heroId, self.selectIdx)
-        local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(euipMent.cid)
+        local equipInfo = EquipmentDataMgr:getNewEquipInfoById(euipMent.id)
         local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.cid)
         local equipCfg = EquipmentDataMgr:getNewEquipCfg(euipMent.cid)
         if EquipmentDataMgr:checkNewEquipReachMaxLv(euipMent.cid) then
@@ -754,7 +754,7 @@ function EquipSuitMainLayer:registerEvents()
 
     self.Button_drop:onClick(function()
         local euipMent = HeroDataMgr:getNewEquipInfoByPos(self.heroId, self.selectIdx)
-        local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(euipMent.cid)
+        local equipInfo = EquipmentDataMgr:getNewEquipInfoById(euipMent.id)
         if not self.isSkyladder then
             EquipmentDataMgr:sendReqEquipDressOrDrop(2, self.heroId, equipInfo.id, self.selectIdx - 1)
         else

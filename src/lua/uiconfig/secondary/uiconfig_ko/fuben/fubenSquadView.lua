@@ -14291,7 +14291,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "强化角色",
+											text = "강화 캐릭터",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -14299,7 +14299,7 @@ local t =
 												PositionX = 13,
 												PositionY = 33,
 											},
-											width = "82",
+											width = "98",
 											ZOrder = "1",
 										},
 										{
