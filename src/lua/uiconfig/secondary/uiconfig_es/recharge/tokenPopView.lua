@@ -525,7 +525,7 @@ local t =
 									},
 								},
 								{
-									controlID = "pannelChooseBtns_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+									controlID = "pannelChooseBtns2_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
 									UUID = "9666aebe_1cb7_4feb_8605_b54613393e20",
 									anchorPoint = "False",
 									anchorPointX = "0",
@@ -541,7 +541,7 @@ local t =
 									dstBlendFunc = "771",
 									height = "287",
 									ignoreSize = "False",
-									name = "pannelChooseBtns",
+									name = "pannelChooseBtns2",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -549,21 +549,22 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -26,
-										PositionY = -3,
+										PositionX = -24,
+										PositionY = -5,
 									},
 									uipanelviewmodel = 
 									{
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "51",
 									ZOrder = "1",
 									components = 
 									{
 										
 										{
-											controlID = "btn1_pannelChooseBtns_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+											controlID = "btn1_pannelChooseBtns2_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
 											UUID = "91c6d33f_23f1_47ec_9662_fa050d1d9f55",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -595,7 +596,7 @@ local t =
 											{
 												
 												{
-													controlID = "imgSelect_btn1_pannelChooseBtns_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+													controlID = "imgSelect_btn1_pannelChooseBtns2_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
 													UUID = "cae990bd_c9a8_47ef_968f_6efd1ec6a691",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
@@ -620,7 +621,7 @@ local t =
 													ZOrder = "1",
 												},
 												{
-													controlID = "Label_tokenPopView_1_btn1_pannelChooseBtns_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+													controlID = "Label_tokenPopView_1_btn1_pannelChooseBtns2_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
 													UUID = "f2e2ab75_a936_4d0c_a30c_23275b61571b",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
@@ -668,7 +669,7 @@ local t =
 											},
 										},
 										{
-											controlID = "btn2_pannelChooseBtns_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+											controlID = "btn2_pannelChooseBtns2_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
 											UUID = "d88c196a_5ed1_422a_9c87_99e4d5d32de3",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -700,7 +701,7 @@ local t =
 											{
 												
 												{
-													controlID = "imgSelect_btn2_pannelChooseBtns_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+													controlID = "imgSelect_btn2_pannelChooseBtns2_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
 													UUID = "105da7d9_f446_4215_bd6a_6fab4681e1e7",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
@@ -725,7 +726,7 @@ local t =
 													ZOrder = "1",
 												},
 												{
-													controlID = "Label_tokenPopView_1_btn2_pannelChooseBtns_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+													controlID = "Label_tokenPopView_1_btn2_pannelChooseBtns2_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
 													UUID = "cbef887a_99be_4a1d_addd_523fb0c4a720",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
@@ -768,6 +769,358 @@ local t =
 														
 													},
 													width = "84",
+													ZOrder = "1",
+												},
+											},
+										},
+									},
+								},
+								{
+									controlID = "pannelChooseBtns3_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+									UUID = "9cfdd2cc_9b63_4d68_90df_9ba83b6de8fb",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "287",
+									ignoreSize = "False",
+									name = "pannelChooseBtns3",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -25,
+										PositionY = -5,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "51",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "btn1_pannelChooseBtns3_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+											UUID = "263f00b2_eda5_4ef0_b105_42d7b26f348c",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEButton",
+											ClickHighLightEnabled = "True",
+											dstBlendFunc = "771",
+											flipX = "False",
+											flipY = "False",
+											height = "100",
+											ignoreSize = "False",
+											name = "btn1",
+											normal = "ui/recharge/tokenPopView/1.png",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionX = 23,
+												PositionY = 252,
+											},
+											UItype = "Button",
+											width = "60",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "imgSelect_btn1_pannelChooseBtns3_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+													UUID = "5dd95182_fb00_420c_b852_c3ddcd43fb01",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "100",
+													ignoreSize = "False",
+													name = "imgSelect",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "ui/recharge/tokenPopView/2.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "60",
+													ZOrder = "1",
+												},
+												{
+													controlID = "Label_tokenPopView_1_btn1_pannelChooseBtns3_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+													UUID = "9f1c2511_32dd_4f83_a25c_82b212e7c6b9",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FFFFFFFF",
+													fontName = "font/MFLiHei_Noncommercial.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "20",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "100",
+													ignoreSize = "False",
+													name = "Label_tokenPopView_1",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "指定",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "40",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "btn2_pannelChooseBtns3_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+											UUID = "679c1e3a_d095_4529_9537_868d3c1309b3",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEButton",
+											ClickHighLightEnabled = "True",
+											dstBlendFunc = "771",
+											flipX = "False",
+											flipY = "False",
+											height = "100",
+											ignoreSize = "False",
+											name = "btn2",
+											normal = "ui/recharge/tokenPopView/1.png",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionX = 23,
+												PositionY = 148,
+											},
+											UItype = "Button",
+											width = "60",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "imgSelect_btn2_pannelChooseBtns3_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+													UUID = "842776a6_aa9b_4487_8b37_1ac9b445adb4",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "100",
+													ignoreSize = "False",
+													name = "imgSelect",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "ui/recharge/tokenPopView/2.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "60",
+													ZOrder = "1",
+												},
+												{
+													controlID = "Label_tokenPopView_1_btn2_pannelChooseBtns3_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+													UUID = "2578e56d_f004_42ec_973f_f5ab61b41b46",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FFFFFFFF",
+													fontName = "font/MFLiHei_Noncommercial.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "20",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "100",
+													ignoreSize = "False",
+													name = "Label_tokenPopView_1",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "日常",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "40",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "btn3_pannelChooseBtns3_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+											UUID = "e4d63e1a_653b_4345_b20c_52707d182b60",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEButton",
+											ClickHighLightEnabled = "True",
+											dstBlendFunc = "771",
+											flipX = "False",
+											flipY = "False",
+											height = "100",
+											ignoreSize = "False",
+											name = "btn3",
+											normal = "ui/recharge/tokenPopView/1.png",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionX = 23,
+												PositionY = 44,
+											},
+											UItype = "Button",
+											width = "60",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "imgSelect_btn3_pannelChooseBtns3_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+													UUID = "1adb3507_dba5_4110_b40e_3058b1afd6c1",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "100",
+													ignoreSize = "False",
+													name = "imgSelect",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "ui/recharge/tokenPopView/2.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "60",
+													ZOrder = "1",
+												},
+												{
+													controlID = "Label_tokenPopView_1_btn3_pannelChooseBtns3_pannelLeft_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
+													UUID = "120052fd_422e_49bb_abd8_4f95b4994027",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													classname = "MELabel",
+													compPath = "luacomponents.common.MEIconLabel",
+													dstBlendFunc = "771",
+													FontColor = "#FFFFFFFF",
+													fontName = "font/MFLiHei_Noncommercial.ttf",
+													fontShadow = 
+													{
+														IsShadow = false,
+														ShadowColor = "#FFFFFFFF",
+														ShadowAlpha = 255,
+														OffsetX = 0,
+														OffsetY = 0,
+													},
+													fontSize = "20",
+													fontStroke = 
+													{
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
+													},
+													height = "100",
+													ignoreSize = "False",
+													name = "Label_tokenPopView_1",
+													nTextAlign = "1",
+													nTextHAlign = "1",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "770",
+													text = "通用",
+													touchAble = "False",
+													touchScaleEnable = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "40",
 													ZOrder = "1",
 												},
 											},

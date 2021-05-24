@@ -2,6 +2,7 @@ return {
     [1003002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1003002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -27,6 +28,7 @@ return {
     [1010015] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1010015,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -38,7 +40,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314002,
         city = 100110,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314020,
         award = {
             [1601528] = 30,
@@ -50,6 +52,7 @@ return {
     [1003003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1003003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -72,6 +75,7 @@ return {
     [3007001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200248",
         id = 3007001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -82,7 +86,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313311,
         city = 100307,
-        conditionDes = "Display Treasure [Power of Poseidon]",
+        conditionDes = "展示宝物[波塞冬之力]",
         describe = 13313481,
         award = {
             [1601536] = 10,
@@ -94,6 +98,7 @@ return {
     [3007003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3007003,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -105,7 +110,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314014,
         city = 100307,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314032,
         award = {
             [560003] = 6770,
@@ -120,6 +125,7 @@ return {
     [3007005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3007005,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -142,6 +148,7 @@ return {
     [3007013] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3007013,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -153,7 +160,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314014,
         city = 100307,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314032,
         award = {
             [560003] = 6770,
@@ -168,6 +175,7 @@ return {
     [2006001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200226",
         id = 2006001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -178,7 +186,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313283,
         city = 100206,
-        conditionDes = "Display Treasure [Golden Fish Jerky]",
+        conditionDes = "展示宝物[黄金鱼干]",
         describe = 13313453,
         award = {
             [561001] = 1180,
@@ -190,6 +198,7 @@ return {
     [2006002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200227",
         id = 2006002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -200,7 +209,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314013,
         city = 100206,
-        conditionDes = "Own 6 Spirits",
+        conditionDes = "拥有6名精灵",
         describe = 13314031,
         award = {
             [560002] = 6290,
@@ -212,6 +221,7 @@ return {
     [1009002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200215",
         id = 1009002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -224,7 +234,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314010,
         city = 100109,
-        conditionDes = "Rank up Spirit [Kurumi Tokisaki] to [SS] rank",
+        conditionDes = "精灵[时崎狂三]进阶至[SS]品阶",
         describe = 13314028,
         award = {
             [1601526] = 20,
@@ -236,6 +246,7 @@ return {
     [2006004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2006004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -258,6 +269,7 @@ return {
     [1009003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1009003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -280,6 +292,7 @@ return {
     [3006005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3006005,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -302,6 +315,7 @@ return {
     [1009004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200216",
         id = 1009004,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -312,7 +326,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314013,
         city = 100109,
-        conditionDes = "Own 4 Spirits",
+        conditionDes = "拥有4名精灵",
         describe = 13314031,
         award = {
             [1601527] = 10,
@@ -324,6 +338,7 @@ return {
     [1010025] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1010025,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -335,7 +350,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314002,
         city = 100110,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314020,
         award = {
             [1601528] = 30,
@@ -347,6 +362,7 @@ return {
     [1009006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1009006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -369,6 +385,7 @@ return {
     [2006013] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2006013,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -380,7 +397,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314011,
         city = 100206,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314029,
         award = {
             [1601531] = 10,
@@ -395,6 +412,7 @@ return {
     [102] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 102,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -418,6 +436,7 @@ return {
     [3005003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3005003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -440,6 +459,7 @@ return {
     [2005001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200224",
         id = 2005001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -450,7 +470,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313282,
         city = 100205,
-        conditionDes = "Display Treasure [Divine Recipe]",
+        conditionDes = "展示宝物[天神食谱]",
         describe = 13313452,
         award = {
             [1601530] = 10,
@@ -465,6 +485,7 @@ return {
     [2005002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200225",
         id = 2005002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -477,7 +498,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314003,
         city = 100205,
-        conditionDes = "Rank up Spirit [Yuzuru Yamai] to [S] rank",
+        conditionDes = "精灵[八舞夕弦]进阶至[S]品阶",
         describe = 13314021,
         award = {
             [560002] = 6290,
@@ -489,6 +510,7 @@ return {
     [2005003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2005003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -511,6 +533,7 @@ return {
     [2005004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2005004,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -533,6 +556,7 @@ return {
     [3004003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3004003,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -544,7 +568,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314002,
         city = 100304,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314020,
         award = {
             [1601536] = 10,
@@ -556,6 +580,7 @@ return {
     [1002001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200203",
         id = 1002001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -566,7 +591,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314005,
         city = 100102,
-        conditionDes = "Own Spirit [Yoshino]",
+        conditionDes = "拥有精灵[四糸乃]",
         describe = 13314023,
         award = {
             [1601523] = 10,
@@ -581,6 +606,7 @@ return {
     [1002002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1002002,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -603,6 +629,7 @@ return {
     [1009015] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1009015,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -614,7 +641,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314007,
         city = 100109,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314025,
         award = {
             [1601524] = 10,
@@ -629,6 +656,7 @@ return {
     [3004013] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3004013,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -640,7 +668,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314002,
         city = 100304,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314020,
         award = {
             [1601536] = 10,
@@ -652,6 +680,7 @@ return {
     [3003001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200241",
         id = 3003001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -662,7 +691,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314005,
         city = 100303,
-        conditionDes = "Own Spirit [DEM Origami]",
+        conditionDes = "拥有精灵[DEM折纸]",
         describe = 13314023,
         award = {
             [560003] = 6770,
@@ -677,6 +706,7 @@ return {
     [3003003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3003003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -699,6 +729,7 @@ return {
     [2004001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200222",
         id = 2004001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -709,7 +740,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313281,
         city = 100204,
-        conditionDes = "Display Treasure [Ice Mask]",
+        conditionDes = "展示宝物[寒冰巫面]",
         describe = 13313451,
         award = {
             [560002] = 6290,
@@ -721,6 +752,7 @@ return {
     [2004002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2004002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -746,6 +778,7 @@ return {
     [2004003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200223",
         id = 2004003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -758,7 +791,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314012,
         city = 100204,
-        conditionDes = "Own 4 Spirits of [S] rank or higher",
+        conditionDes = "拥有4名[S]品阶以上精灵",
         describe = 13314030,
         award = {
             [561021] = 1180,
@@ -770,6 +803,7 @@ return {
     [2004004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2004004,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -792,6 +826,7 @@ return {
     [1008003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1008003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -817,6 +852,7 @@ return {
     [1008004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1008004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -839,6 +875,7 @@ return {
     [1009025] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1009025,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -850,7 +887,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314007,
         city = 100109,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314025,
         award = {
             [1601524] = 10,
@@ -865,6 +902,7 @@ return {
     [10101] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10101,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -888,6 +926,7 @@ return {
     [10103] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10103,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -911,6 +950,7 @@ return {
     [10105] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10105,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -934,6 +974,7 @@ return {
     [10107] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10107,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -957,6 +998,7 @@ return {
     [10109] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10109,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -980,6 +1022,7 @@ return {
     [2003001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200221",
         id = 2003001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -992,7 +1035,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314015,
         city = 100203,
-        conditionDes = "Spirit [Ellen] reaches [3000] BP",
+        conditionDes = "精灵[艾伦]战力达成[3000]",
         describe = 13314033,
         award = {
             [1601531] = 10,
@@ -1007,6 +1050,7 @@ return {
     [2003002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2003002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1029,6 +1073,7 @@ return {
     [2003003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2003003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1051,6 +1096,7 @@ return {
     [1001001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200202",
         id = 1001001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1061,7 +1107,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314004,
         city = 100101,
-        conditionDes = "Own 1 Spirit",
+        conditionDes = "拥有1名精灵",
         describe = 13314022,
         award = {
             [1601522] = 10,
@@ -1073,6 +1119,7 @@ return {
     [1001002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1001002,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1095,6 +1142,7 @@ return {
     [103] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "190200200",
         id = 103,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -1105,7 +1153,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 12050029,
         city = 0,
-        conditionDes = "Display Treasure [Gold x1]",
+        conditionDes = "展示宝物[金币x1]",
         describe = 12050030,
         award = {
             [500001] = 100,
@@ -1118,6 +1166,7 @@ return {
     [1007001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200210",
         id = 1007001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -1128,7 +1177,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313257,
         city = 100107,
-        conditionDes = "Display Treasure [Eternal Monument]",
+        conditionDes = "展示宝物[永恒丰碑]",
         describe = 13313427,
         award = {
             [561015] = 390,
@@ -1140,6 +1189,7 @@ return {
     [2002002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2002002,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1151,7 +1201,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314014,
         city = 100202,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314032,
         award = {
             [1601530] = 10,
@@ -1163,6 +1213,7 @@ return {
     [1007002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1007002,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1174,7 +1225,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314018,
         city = 100107,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314036,
         award = {
             [1601522] = 10,
@@ -1189,6 +1240,7 @@ return {
     [1007003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200212",
         id = 1007003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1201,7 +1253,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314003,
         city = 100107,
-        conditionDes = "Spirit [Miku Izayoi] reaches [3500] BP",
+        conditionDes = "精灵[诱宵美九]战力达成[3500]",
         describe = 13314021,
         award = {
             [560001] = 1450,
@@ -1213,6 +1265,7 @@ return {
     [1007004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1007004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1235,6 +1288,7 @@ return {
     [1007005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1007005,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1257,6 +1311,7 @@ return {
     [2002012] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2002012,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1268,7 +1323,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314014,
         city = 100202,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314032,
         award = {
             [1601530] = 10,
@@ -1280,6 +1335,7 @@ return {
     [3010004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3010004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1305,6 +1361,7 @@ return {
     [3010006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3010006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1327,6 +1384,7 @@ return {
     [2001001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200219",
         id = 2001001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1339,7 +1397,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314016,
         city = 100201,
-        conditionDes = "Own 1 [Frost DMG] Spirit",
+        conditionDes = "拥有1名[冰霜伤害属性]精灵",
         describe = 13314034,
         award = {
             [560002] = 6290,
@@ -1351,6 +1409,7 @@ return {
     [2001002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2001002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1373,6 +1432,7 @@ return {
     [1007012] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1007012,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1384,7 +1444,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314018,
         city = 100107,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314036,
         award = {
             [1601522] = 10,
@@ -1399,6 +1459,7 @@ return {
     [3009006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3009006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1421,6 +1482,7 @@ return {
     [3008002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200251",
         id = 3008002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1433,7 +1495,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314009,
         city = 100308,
-        conditionDes = "Own [SS] rank Spirit [Ellen]",
+        conditionDes = "拥有[SS]品阶精灵[艾伦]",
         describe = 13314027,
         award = {
             [560003] = 6770,
@@ -1445,6 +1507,7 @@ return {
     [3008004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200253",
         id = 3008004,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1455,7 +1518,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314013,
         city = 100308,
-        conditionDes = "Own Spirit [Spirit Origami]",
+        conditionDes = "拥有精灵[精灵折纸]",
         describe = 13314031,
         award = {
             [561021] = 1780,
@@ -1467,6 +1530,7 @@ return {
     [3008006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3008006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1489,6 +1553,7 @@ return {
     [1006001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200208",
         id = 1006001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -1499,7 +1564,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313256,
         city = 100106,
-        conditionDes = "Display Treasure [Eye of Ruling]",
+        conditionDes = "展示宝物[统治之眼]",
         describe = 13313426,
         award = {
             [560001] = 1450,
@@ -1511,6 +1576,7 @@ return {
     [3007002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200249",
         id = 3007002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1523,7 +1589,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314003,
         city = 100307,
-        conditionDes = "Rank up Spirit [Shekinah Tohka] to [SS] rank",
+        conditionDes = "精灵[灭杀皇·十香]进阶至[SS]品阶",
         describe = 13314021,
         award = {
             [1601539] = 10,
@@ -1535,6 +1601,7 @@ return {
     [1006002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200209",
         id = 1006002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1547,7 +1614,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314009,
         city = 100106,
-        conditionDes = "Own 2 Spirits of [S] rank or higher",
+        conditionDes = "拥有2名[S]品阶以上精灵",
         describe = 13314027,
         award = {
             [1601524] = 10,
@@ -1559,6 +1626,7 @@ return {
     [1006003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1006003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1584,6 +1652,7 @@ return {
     [1006004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1006004,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1606,6 +1675,7 @@ return {
     [3006002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200246",
         id = 3006002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1618,7 +1688,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314008,
         city = 100306,
-        conditionDes = "Own 2 [Hurricane DMG] Spirits",
+        conditionDes = "拥有2名[飓风伤害属性]精灵",
         describe = 13314026,
         award = {
             [560003] = 6770,
@@ -1630,6 +1700,7 @@ return {
     [3006004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3006004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1655,6 +1726,7 @@ return {
     [104] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "190200201",
         id = 104,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1667,7 +1739,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 12050029,
         city = 0,
-        conditionDes = "Own EX Tohka",
+        conditionDes = "拥有ex品阶十香",
         describe = 12050030,
         award = {
             [500001] = 100,
@@ -1680,6 +1752,7 @@ return {
     [3005004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3005004,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1702,6 +1775,7 @@ return {
     [3004002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3004002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1724,6 +1798,7 @@ return {
     [3004004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3004004,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1746,6 +1821,7 @@ return {
     [3010005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3010005,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1768,6 +1844,7 @@ return {
     [3010003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200258",
         id = 3010003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1780,7 +1857,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314004,
         city = 100310,
-        conditionDes = "Spirit [Natsumi] reaches [4500] BP",
+        conditionDes = "精灵[七罪]战力达成[4500]",
         describe = 13314022,
         award = {
             [561001] = 1780,
@@ -1792,6 +1869,7 @@ return {
     [3010002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200257",
         id = 3010002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1804,7 +1882,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314010,
         city = 100310,
-        conditionDes = "Own 1 Spirit of [EX] rank",
+        conditionDes = "拥有1名[EX]品阶精灵",
         describe = 13314028,
         award = {
             [1601540] = 10,
@@ -1816,6 +1894,7 @@ return {
     [1005001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200206",
         id = 1005001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -1826,7 +1905,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313255,
         city = 100105,
-        conditionDes = "Display Treasure [Great Bone]",
+        conditionDes = "展示宝物[大棒骨]",
         describe = 13313425,
         award = {
             [561015] = 390,
@@ -1838,6 +1917,7 @@ return {
     [3003002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3003002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1860,6 +1940,7 @@ return {
     [1005002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200207",
         id = 1005002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -1872,7 +1953,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314001,
         city = 100105,
-        conditionDes = "Own 1 [Flame DMG] Spirit",
+        conditionDes = "拥有1名[火焰伤害属性]精灵",
         describe = 13314019,
         award = {
             [560001] = 1450,
@@ -1887,6 +1968,7 @@ return {
     [3010001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200256",
         id = 3010001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -1897,7 +1979,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313314,
         city = 100310,
-        conditionDes = "Display Treasure [Conch of Rising Tides]",
+        conditionDes = "展示宝物[唤潮的螺号]",
         describe = 13313484,
         award = {
             [1601536] = 10,
@@ -1909,6 +1991,7 @@ return {
     [1005003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1005003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -1931,6 +2014,7 @@ return {
     [3009025] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3009025,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1942,7 +2026,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314011,
         city = 100309,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314029,
         award = {
             [1601540] = 20,
@@ -1957,6 +2041,7 @@ return {
     [1005004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1005004,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -1979,6 +2064,7 @@ return {
     [3009015] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3009015,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -1990,7 +2076,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314011,
         city = 100309,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314029,
         award = {
             [1601540] = 20,
@@ -2005,6 +2091,7 @@ return {
     [1009005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1009005,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2016,7 +2103,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314007,
         city = 100109,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314025,
         award = {
             [1601524] = 10,
@@ -2031,6 +2118,7 @@ return {
     [3009004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200255",
         id = 3009004,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2041,7 +2129,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314001,
         city = 100309,
-        conditionDes = "Own 12 Spirits",
+        conditionDes = "拥有12名精灵",
         describe = 13314019,
         award = {
             [561009] = 1780,
@@ -2053,6 +2141,7 @@ return {
     [1009001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1009001,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2075,6 +2164,7 @@ return {
     [3002002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3002002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2100,6 +2190,7 @@ return {
     [3009002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200254",
         id = 3009002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2112,7 +2203,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314016,
         city = 100309,
-        conditionDes = "Own 3 [Lightning DMG] Spirits",
+        conditionDes = "拥有3名[雷电伤害属性]精灵",
         describe = 13314034,
         award = {
             [1601538] = 10,
@@ -2127,6 +2218,7 @@ return {
     [3009001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3009001,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2149,6 +2241,7 @@ return {
     [3008005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3008005,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2171,6 +2264,7 @@ return {
     [2010001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200236",
         id = 2010001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2181,7 +2275,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313287,
         city = 100210,
-        conditionDes = "Display Treasure [Iron Donut]",
+        conditionDes = "展示宝物[钢铁甜甜圈]",
         describe = 13313457,
         award = {
             [1601533] = 10,
@@ -2193,6 +2287,7 @@ return {
     [2010002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200237",
         id = 2010002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2205,7 +2300,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314005,
         city = 100210,
-        conditionDes = "Own 2 Spirits of [SSS] rank or higher",
+        conditionDes = "拥有2名[SSS]品阶以上精灵",
         describe = 13314023,
         award = {
             [560002] = 6290,
@@ -2220,6 +2315,7 @@ return {
     [2010003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200238",
         id = 2010003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2232,7 +2328,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314010,
         city = 100210,
-        conditionDes = "Own 2 [Dark DMG] Spirits",
+        conditionDes = "拥有2名[黑暗伤害属性]精灵",
         describe = 13314028,
         award = {
             [1601529] = 10,
@@ -2244,6 +2340,7 @@ return {
     [2010004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2010004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2266,6 +2363,7 @@ return {
     [10104] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10104,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2289,6 +2387,7 @@ return {
     [10106] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10106,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2312,6 +2411,7 @@ return {
     [10108] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10108,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2335,6 +2435,7 @@ return {
     [10110] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10110,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2358,6 +2459,7 @@ return {
     [3008003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200252",
         id = 3008003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2370,7 +2472,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314017,
         city = 100308,
-        conditionDes = "Own 4 Spirits of [SS] rank or higher",
+        conditionDes = "拥有4名[SS]品阶以上精灵",
         describe = 13314035,
         award = {
             [1601539] = 20,
@@ -2382,6 +2484,7 @@ return {
     [3008001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200250",
         id = 3008001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2392,7 +2495,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313312,
         city = 100308,
-        conditionDes = "Display Treasure [Sun's Glory]",
+        conditionDes = "展示宝物[太阳之辉]",
         describe = 13313482,
         award = {
             [1601540] = 10,
@@ -2407,6 +2510,7 @@ return {
     [3007004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3007004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2429,6 +2533,7 @@ return {
     [3001012] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3001012,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2440,7 +2545,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314018,
         city = 100301,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314036,
         award = {
             [1601536] = 10,
@@ -2452,6 +2557,7 @@ return {
     [3007023] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3007023,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2463,7 +2569,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314014,
         city = 100307,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314032,
         award = {
             [560003] = 6770,
@@ -2478,6 +2584,7 @@ return {
     [3006003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200247",
         id = 3006003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2490,7 +2597,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314016,
         city = 100306,
-        conditionDes = "Spirit [Miku Izayoi] reaches [4000] BP",
+        conditionDes = "精灵[诱宵美九]战力达成[4000]",
         describe = 13314034,
         award = {
             [1601538] = 10,
@@ -2502,6 +2609,7 @@ return {
     [2010015] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2010015,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2513,7 +2621,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314007,
         city = 100210,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314025,
         award = {
             [1601535] = 30,
@@ -2528,6 +2636,7 @@ return {
     [3006001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200245",
         id = 3006001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2538,7 +2647,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313310,
         city = 100306,
-        conditionDes = "Display Treasure [Tuaoi Stone]",
+        conditionDes = "展示宝物[磁欧石]",
         describe = 13313480,
         award = {
             [561001] = 1780,
@@ -2550,6 +2659,7 @@ return {
     [3001003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3001003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -2572,6 +2682,7 @@ return {
     [2001003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2001003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -2594,6 +2705,7 @@ return {
     [2009005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2009005,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2616,6 +2728,7 @@ return {
     [2009006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2009006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -2638,6 +2751,7 @@ return {
     [2009001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2009001,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2660,6 +2774,7 @@ return {
     [2009002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200234",
         id = 2009002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2672,7 +2787,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314008,
         city = 100209,
-        conditionDes = "Spirit [Ice Princess] reaches [4000] BP",
+        conditionDes = "精灵[冰雪公主]战力达成[4000]",
         describe = 13314026,
         award = {
             [1601531] = 10,
@@ -2687,6 +2802,7 @@ return {
     [2009003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2009003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2712,6 +2828,7 @@ return {
     [2009004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200235",
         id = 2009004,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2722,7 +2839,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314004,
         city = 100209,
-        conditionDes = "Own 8 Spirits",
+        conditionDes = "拥有8名精灵",
         describe = 13314022,
         award = {
             [1601532] = 10,
@@ -2734,6 +2851,7 @@ return {
     [2010025] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2010025,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2745,7 +2863,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314007,
         city = 100210,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314025,
         award = {
             [1601535] = 30,
@@ -2760,6 +2878,7 @@ return {
     [1004001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200205",
         id = 1004001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2770,7 +2889,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313254,
         city = 100104,
-        conditionDes = "Display Treasure [Divine Canine Fang]",
+        conditionDes = "展示宝物[犬神之牙]",
         describe = 13313424,
         award = {
             [1601522] = 10,
@@ -2785,6 +2904,7 @@ return {
     [3005001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200243",
         id = 3005001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2795,7 +2915,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313309,
         city = 100305,
-        conditionDes = "Display Treasure [Sun Mask]",
+        conditionDes = "展示宝物[太阳巫面]",
         describe = 13313479,
         award = {
             [560003] = 6770,
@@ -2807,6 +2927,7 @@ return {
     [1004002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1004002,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -2829,6 +2950,7 @@ return {
     [10102] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "",
         id = 10102,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2852,6 +2974,7 @@ return {
     [101] = {
         icon3 = "",
         banner = "icon/explore/event/pop/1.png",
+        conditionDesEn = "190200199",
         id = 101,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2863,7 +2986,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 12050029,
         city = 0,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度：%s/%s",
         describe = 12050030,
         award = {
             [500001] = 100,
@@ -2876,6 +2999,7 @@ return {
     [1010001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200217",
         id = 1010001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2886,7 +3010,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313260,
         city = 100110,
-        conditionDes = "Display Treasure [Spoon of Civilization]",
+        conditionDes = "展示宝物[文明之匙]",
         describe = 13313430,
         award = {
             [1601525] = 10,
@@ -2901,6 +3025,7 @@ return {
     [1004003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1004003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -2923,6 +3048,7 @@ return {
     [2006003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2006003,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -2934,7 +3060,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314011,
         city = 100206,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314029,
         award = {
             [1601531] = 10,
@@ -2949,6 +3075,7 @@ return {
     [3005002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200244",
         id = 3005002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -2959,7 +3086,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314006,
         city = 100305,
-        conditionDes = "Own 10 Spirits",
+        conditionDes = "拥有10名精灵",
         describe = 13314024,
         award = {
             [561015] = 1780,
@@ -2974,6 +3101,7 @@ return {
     [3004001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200242",
         id = 3004001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -2984,7 +3112,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313308,
         city = 100304,
-        conditionDes = "Display Treasure [Ocean Microcosm]",
+        conditionDes = "展示宝物[海洋缩影]",
         describe = 13313478,
         award = {
             [561021] = 1780,
@@ -2999,6 +3127,7 @@ return {
     [2010005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2010005,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3010,7 +3139,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314007,
         city = 100210,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314025,
         award = {
             [1601535] = 30,
@@ -3025,6 +3154,7 @@ return {
     [2010006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2010006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3047,6 +3177,7 @@ return {
     [3002003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3002003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3069,6 +3200,7 @@ return {
     [1008001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200213",
         id = 1008001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -3079,7 +3211,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313258,
         city = 100108,
-        conditionDes = "Display Treasure [Cursed Bone Necklace]",
+        conditionDes = "展示宝物[咒文骨链]",
         describe = 13313428,
         award = {
             [560001] = 1450,
@@ -3091,6 +3223,7 @@ return {
     [1008002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200214",
         id = 1008002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3103,7 +3236,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314008,
         city = 100108,
-        conditionDes = "Own 2 [Lightning DMG] Spirits",
+        conditionDes = "拥有2名[雷电伤害属性]精灵",
         describe = 13314026,
         award = {
             [561021] = 390,
@@ -3115,6 +3248,7 @@ return {
     [2008001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200231",
         id = 2008001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -3125,7 +3259,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313285,
         city = 100208,
-        conditionDes = "Display Treasure [Feline Foresight]",
+        conditionDes = "展示宝物[猫的预见]",
         describe = 13313455,
         award = {
             [561021] = 1180,
@@ -3137,6 +3271,7 @@ return {
     [2008002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200232",
         id = 2008002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3149,7 +3284,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314009,
         city = 100208,
-        conditionDes = "Spirit [Mana Vanargandr] reaches [3500] BP",
+        conditionDes = "精灵[真那·芬里尔]战力达成[3500]",
         describe = 13314027,
         award = {
             [1601533] = 10,
@@ -3161,6 +3296,7 @@ return {
     [1010002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200218",
         id = 1010002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3173,7 +3309,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314006,
         city = 100110,
-        conditionDes = "Own 1 Spirit of [SSS] rank or higher",
+        conditionDes = "拥有1名[SSS]品阶以上精灵",
         describe = 13314024,
         award = {
             [560001] = 1450,
@@ -3188,6 +3324,7 @@ return {
     [2008004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2008004,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3199,7 +3336,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314018,
         city = 100208,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314036,
         award = {
             [1601532] = 20,
@@ -3211,6 +3348,7 @@ return {
     [1010003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1010003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -3233,6 +3371,7 @@ return {
     [2008006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2008006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3255,6 +3394,7 @@ return {
     [1010004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1010004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -3277,6 +3417,7 @@ return {
     [2007004] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2007004,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -3299,6 +3440,7 @@ return {
     [1010005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200211",
         id = 1010005,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3310,7 +3452,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314002,
         city = 100110,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314020,
         award = {
             [1601528] = 30,
@@ -3322,6 +3464,7 @@ return {
     [1008005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1008005,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3344,6 +3487,7 @@ return {
     [1010006] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "",
         id = 1010006,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3366,6 +3510,7 @@ return {
     [2008005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2008005,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -3391,6 +3536,7 @@ return {
     [3001001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200239",
         id = 3001001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3403,7 +3549,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314015,
         city = 100301,
-        conditionDes = "Own 6 Spirits of [AA] rank or higher",
+        conditionDes = "拥有6名[AA]品阶以上精灵",
         describe = 13314033,
         award = {
             [560003] = 6770,
@@ -3415,6 +3561,7 @@ return {
     [2008014] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2008014,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3426,7 +3573,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314018,
         city = 100208,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314036,
         award = {
             [1601532] = 20,
@@ -3438,6 +3585,7 @@ return {
     [3009003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "",
         id = 3009003,
         icon2 = "icon/explore/event/ui/3.png",
         condition = {
@@ -3460,6 +3608,7 @@ return {
     [3009005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3009005,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3471,7 +3620,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314011,
         city = 100309,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314029,
         award = {
             [1601540] = 20,
@@ -3486,6 +3635,7 @@ return {
     [3002001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200240",
         id = 3002001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3498,7 +3648,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314012,
         city = 100302,
-        conditionDes = "Spirit [Tohka] reaches [4000] BP",
+        conditionDes = "精灵[十香]战力达成[4000]",
         describe = 13314030,
         award = {
             [1601537] = 10,
@@ -3510,6 +3660,7 @@ return {
     [3001002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/yatelandisi.png",
+        conditionDesEn = "190200211",
         id = 3001002,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3521,7 +3672,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314018,
         city = 100301,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314036,
         award = {
             [1601536] = 10,
@@ -3533,6 +3684,7 @@ return {
     [2008003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200233",
         id = 2008003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3545,7 +3697,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314015,
         city = 100208,
-        conditionDes = "Rank up Spirit [Kotori Itsuka] to [SS] rank",
+        conditionDes = "精灵[五河琴里]进阶至[SS]品阶",
         describe = 13314033,
         award = {
             [560002] = 6290,
@@ -3557,6 +3709,7 @@ return {
     [2006005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2006005,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3579,6 +3732,7 @@ return {
     [2007001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200228",
         id = 2007001,
         icon2 = "icon/explore/event/ui/5.png",
         condition = {
@@ -3589,7 +3743,7 @@ return {
         icon = "icon/explore/event/map/5.png",
         name = 13313284,
         city = 100207,
-        conditionDes = "Display Treasure [Cats Eye]",
+        conditionDes = "展示宝物[璀璨猫眼]",
         describe = 13313454,
         award = {
             [1601529] = 10,
@@ -3601,6 +3755,7 @@ return {
     [2007002] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200229",
         id = 2007002,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3611,7 +3766,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314001,
         city = 100207,
-        conditionDes = "Own Spirit [Natsumi]",
+        conditionDes = "拥有精灵[七罪]",
         describe = 13314019,
         award = {
             [560002] = 6290,
@@ -3626,6 +3781,7 @@ return {
     [2007003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200230",
         id = 2007003,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3638,7 +3794,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314006,
         city = 100207,
-        conditionDes = "Own 1 [Holy DMG] Spirit",
+        conditionDes = "拥有1名[神圣伤害属性]精灵",
         describe = 13314024,
         award = {
             [561015] = 1180,
@@ -3650,6 +3806,7 @@ return {
     [2008024] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200211",
         id = 2008024,
         icon2 = "icon/explore/event/ui/4.png",
         condition = {
@@ -3661,7 +3818,7 @@ return {
         icon = "icon/explore/event/map/4.png",
         name = 13314018,
         city = 100208,
-        conditionDes = "Trigger Progress: %s/%s",
+        conditionDes = "触发进度 %s/%s",
         describe = 13314036,
         award = {
             [1601532] = 20,
@@ -3673,6 +3830,7 @@ return {
     [2007005] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2007005,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3695,6 +3853,7 @@ return {
     [1003001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/gendaya.png",
+        conditionDesEn = "190200204",
         id = 1003001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3707,7 +3866,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314012,
         city = 100103,
-        conditionDes = "Rank up Spirit [Tohka Yatogami] to [AA] rank",
+        conditionDes = "精灵[夜刀神十香]进阶至[AA]品阶",
         describe = 13314030,
         award = {
             [560001] = 1450,
@@ -3719,6 +3878,7 @@ return {
     [2002003] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "",
         id = 2002003,
         icon2 = "icon/explore/event/ui/1.png",
         condition = {
@@ -3741,6 +3901,7 @@ return {
     [2002001] = {
         icon3 = "icon/explore/event/monster/FS_Vidofnir.png",
         banner = "icon/explore/event/pop/misuobudaya.png",
+        conditionDesEn = "190200220",
         id = 2002001,
         icon2 = "icon/explore/event/ui/2.png",
         condition = {
@@ -3751,7 +3912,7 @@ return {
         icon = "icon/explore/event/map/2.png",
         name = 13314017,
         city = 100202,
-        conditionDes = "Own Spirit [Kaguya Yamai]",
+        conditionDes = "拥有精灵[八舞耶俱矢]",
         describe = 13314035,
         award = {
             [560002] = 6290,

@@ -110135,6 +110135,3372 @@ return {
         textBg = 11,
         bgName = "",
     },
+    [3461] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Reine1",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9509,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3461,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "琴里……我發現有些令人在意的地方。這是最近大家的靈波數值圖，你看這裡。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "村雨令音",
+        cameraAction = 0,
+        headL = "40212_c",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3462] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Kotori1",
+        isSpeakingL = false,
+        headR = "10505_b1",
+        scriptId = 9509,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3462,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "怎麼回事？最近這幾天大家的精神狀態應該都很穩定啊？這一條極度上升的線代表誰？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "40212_c",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3463] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Kotori2",
+        isSpeakingL = false,
+        headR = "10505_b1",
+        scriptId = 9509,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3463,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "難道是鳶一折紙？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "40212_c",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3464] = {
+        order = 4,
+        voice = "sound/battleDialogVoice/DP_12_Reine2",
+        isSpeakingL = true,
+        headR = "10505_b1",
+        scriptId = 9509,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3464,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "村雨令音",
+        cameraAction = 0,
+        headL = "40212_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3465] = {
+        order = 5,
+        voice = "sound/battleDialogVoice/DP_12_Kotori3",
+        isSpeakingL = false,
+        headR = "10505_i",
+        scriptId = 9509,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3465,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "那是誰啊，十香？還是四糸乃？……你該不會想說是我吧？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "40212_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3466] = {
+        order = 6,
+        voice = "sound/battleDialogVoice/DP_12_Reine3",
+        isSpeakingL = true,
+        headR = "10505_i",
+        scriptId = 9509,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3466,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不，不是，這是……。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "村雨令音",
+        cameraAction = 0,
+        headL = "40212_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3467] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Westacott1",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9510,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3467,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "真沒想到，Devil竟然會落入Ratatoskr的手裡。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "威斯考特",
+        cameraAction = 0,
+        headL = "31301_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3468] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Ellen1",
+        isSpeakingL = false,
+        headR = "10901_e1",
+        scriptId = 9510,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3468,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "非常抱歉。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾蓮·梅瑟斯",
+        cameraAction = 0,
+        headL = "31301_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3469] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Westacott2",
+        isSpeakingL = true,
+        headR = "10901_e1",
+        scriptId = 9510,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3469,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不必道歉，Devil一事我也沒能預料到……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "威斯考特",
+        cameraAction = 0,
+        headL = "31301_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3470] = {
+        order = 4,
+        voice = "sound/battleDialogVoice/DP_12_Westacott3",
+        isSpeakingL = true,
+        headR = "10901_e1",
+        scriptId = 9510,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3470,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "對了，艾倫。之前尼利路島上發來了聯絡……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "威斯考特",
+        cameraAction = 0,
+        headL = "31301_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3471] = {
+        order = 5,
+        voice = "sound/battleDialogVoice/DP_12_Westacott4",
+        isSpeakingL = true,
+        headR = "10901_e1",
+        scriptId = 9510,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3471,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "看樣子素材A的處理已經完成了，Princess的反轉體給我們帶來了巨大的進展。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "威斯考特",
+        cameraAction = 0,
+        headL = "31301_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3472] = {
+        order = 6,
+        voice = "sound/battleDialogVoice/DP_12_Ellen2",
+        isSpeakingL = false,
+        headR = "10901_e1",
+        scriptId = 9510,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3472,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "那麼……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾蓮·梅瑟斯",
+        cameraAction = 0,
+        headL = "31301_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3473] = {
+        order = 7,
+        voice = "sound/battleDialogVoice/DP_12_Westacott5",
+        isSpeakingL = true,
+        headR = "10901_e1",
+        scriptId = 9510,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3473,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "沒錯。時機已經成熟，我們也來製造一個完美的反轉體吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "威斯考特",
+        cameraAction = 0,
+        headL = "31301_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3474] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Kotori8",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9511,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3474,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "大家都找位置坐吧，我們先說明一下他的狀態。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3475] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Reine4",
+        isSpeakingL = false,
+        headR = "40212_a1",
+        scriptId = 9511,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3475,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "%s雖然擁有封印精靈靈力的力量，但是也並非是從精靈體內完全奪走靈力並進行隔離。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "村雨令音",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3476] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Reine5",
+        isSpeakingL = false,
+        headR = "40212_c",
+        scriptId = 9511,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3476,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "而是在自己和精靈之間通過不可視的通路進行連接，在自己體內保留有絕大部分的靈力，然後讓少部分靈力處於迴圈狀態中。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "村雨令音",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3477] = {
+        order = 4,
+        voice = "sound/battleDialogVoice/DP_12_Reine6",
+        isSpeakingL = false,
+        headR = "40212_a2",
+        scriptId = 9511,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3477,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "根據分析的結果發現，他與連接精靈的通路突然間變窄，靈力的迴圈受到了阻礙。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "村雨令音",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3478] = {
+        order = 5,
+        voice = "sound/battleDialogVoice/DP_12_Yoshino1",
+        isSpeakingL = true,
+        headR = "40212_a2",
+        scriptId = 9511,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3478,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "最後會變成怎麼樣呢？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3479] = {
+        order = 6,
+        voice = "sound/battleDialogVoice/DP_12_Reine7",
+        isSpeakingL = false,
+        headR = "40212_a2",
+        scriptId = 9511,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3479,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "原本處於迴圈狀態的靈力全部貯存在他體內——從而引起了類似於過熱超載的現象。這也是他呈現症狀的原因。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "村雨令音",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3480] = {
+        order = 7,
+        voice = "sound/battleDialogVoice/DP_12_Tohka20",
+        isSpeakingL = true,
+        headR = "40212_a2",
+        scriptId = 9511,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3480,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "怎麼會……這不是很危險嗎！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3481] = {
+        order = 8,
+        voice = "sound/battleDialogVoice/DP_12_Reine8",
+        isSpeakingL = false,
+        headR = "40212_b1",
+        scriptId = 9511,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3481,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "確實是不容樂觀的狀況呢。這個狀態要是一直持續下去的話，儲存在他體內的靈力甚至有可能發生暴走現象。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "村雨令音",
+        cameraAction = 0,
+        headL = "10101_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3482] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Tohka21",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9512,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3482,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "有沒有什麼能夠拯救%s的方法！？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3483] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Kotori9",
+        isSpeakingL = false,
+        headR = "10505_e1",
+        scriptId = 9512,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3483,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "當然有，所以才把你們叫到這裡來啊。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10101_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3484] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Kotori10",
+        isSpeakingL = false,
+        headR = "10505_e1",
+        scriptId = 9512,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3484,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我們要做的事情，總而言之就是拓寬通路，讓%s與我們之間的通路恢復原狀。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10101_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3485] = {
+        order = 4,
+        voice = "sound/battleDialogVoice/DP_12_Miku1",
+        isSpeakingL = true,
+        headR = "10505_e1",
+        scriptId = 9512,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3485,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "但是所謂的拓寬通路，究竟要怎麼做呢？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "誘宵美九",
+        cameraAction = 0,
+        headL = "11001_h1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3486] = {
+        order = 5,
+        voice = "sound/battleDialogVoice/DP_12_Kotori11",
+        isSpeakingL = false,
+        headR = "10505_i",
+        scriptId = 9512,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3486,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "是……接吻啦。為了把變窄的通路再次拓寬，就需要我們所有人和哥哥再親吻一次。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "11001_h1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3487] = {
+        order = 6,
+        voice = "sound/battleDialogVoice/DP_12_Tohka22",
+        isSpeakingL = true,
+        headR = "10505_i",
+        scriptId = 9512,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3487,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "原來如此……好……我要去做！這次輪到我來拯救他了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3488] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Kurumi1",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9513,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3488,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "嘻嘻嘻……終於找到了呢，第二精靈小姐。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "時崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3489] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Artemisia1",
+        isSpeakingL = false,
+        headR = "ArtemisiaR_1",
+        scriptId = 9513,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3489,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Aroundight！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "阿爾緹米希亞·貝爾",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3490] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Kurumi2",
+        isSpeakingL = true,
+        headR = "ArtemisiaR_1",
+        scriptId = 9513,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3490,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊啦，看來出來了個麻煩的對手呢……不過你以為只是這種程度的困難我就會放棄麼？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "時崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3491] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Kurumi3",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9514,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3491,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "哎呀……我真是失策……了呢……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "時崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3492] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Kurumi4",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9514,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3492,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "但……事情可並沒有……就此結束哦？第二精靈小姐……就由“我們”帶走……呢……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "時崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3493] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9515,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3493,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "市內檢測到一股奇妙的靈波。最開始還以為是新的精靈，但是情況有些不太對勁。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "威斯考特",
+        cameraAction = 0,
+        headL = "31301_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3494] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9515,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3494,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "它就像是眾多的靈波被強行壓縮成一股一樣……於是希望你能去調查一下。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "威斯考特",
+        cameraAction = 0,
+        headL = "31301_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3495] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Ellen11",
+        isSpeakingL = false,
+        headR = "10901_e2",
+        scriptId = 9515,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3495,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "瞭解……請交給我吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾蓮·梅瑟斯",
+        cameraAction = 0,
+        headL = "31301_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3496] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Kotori27",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9516,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3496,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "令音？！這到底是怎麼回事？！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3497] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Reine10",
+        isSpeakingL = false,
+        headR = "40212_b1",
+        scriptId = 9516,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3497,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "緊急情況。你們所在的設施上空有眾多Bandersnatch的反應。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "村雨令音",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3498] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Reine11",
+        isSpeakingL = false,
+        headR = "40212_a2",
+        scriptId = 9516,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3498,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "而且稍遠一點的地方——還有疑似艾倫?馬瑟斯的反應。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "村雨令音",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3499] = {
+        order = 4,
+        voice = "sound/battleDialogVoice/DP_12_Kotori28",
+        isSpeakingL = true,
+        headR = "40212_a2",
+        scriptId = 9516,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3499,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "被DEM察覺到了嗎？！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3500] = {
+        order = 5,
+        voice = "sound/battleDialogVoice/DP_12_Reine12",
+        isSpeakingL = false,
+        headR = "40212_a2",
+        scriptId = 9516,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3500,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "沒有時間了。琴里你們繼續攻略計畫。艾倫?馬瑟斯我們這邊會想辦法應對。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "村雨令音",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3501] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Kotori29",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9517,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3501,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "%s，你來幹什麼啊？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3502] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9517,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3502,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "呵呵，先動手的可是你們哦……奧義！瞬閃轟爆破——！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3503] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Kotori30",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9517,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3503,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不會吧！！？？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3504] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Patton1",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9518,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3504,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "這是靈波反應！難道Nightmare追過來了嗎？！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "巴頓",
+        cameraAction = 0,
+        headL = "12badun_1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3505] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Knox1",
+        isSpeakingL = false,
+        headR = "12chuanyuan_1",
+        scriptId = 9518,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3505,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不……剛才的振動，並不是機外來的衝擊，而是從機內產生的。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "諾克斯",
+        cameraAction = 0,
+        headL = "12badun_1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3506] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Patton2",
+        isSpeakingL = true,
+        headR = "12chuanyuan_1",
+        scriptId = 9518,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3506,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "難道說？！不、不可能吧？！素材A應該正在休眠才對！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "巴頓",
+        cameraAction = 0,
+        headL = "12badun_1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3507] = {
+        order = 4,
+        voice = "sound/battleDialogVoice/DP_12_Knox2",
+        isSpeakingL = false,
+        headR = "12chuanyuan_1",
+        scriptId = 9518,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3507,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "應該是。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "諾克斯",
+        cameraAction = 0,
+        headL = "12badun_1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3508] = {
+        order = 5,
+        voice = "sound/battleDialogVoice/DP_12_Knox3",
+        isSpeakingL = false,
+        headR = "12chuanyuan_1",
+        scriptId = 9518,
+        headMirrorL = true,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3508,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可，這是……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "諾克斯",
+        cameraAction = 0,
+        headL = "12badun_1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3509] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_mana1",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9519,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3509,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "……什麼！？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "崇宮真那",
+        cameraAction = 0,
+        headL = "10602_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3510] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Ellen12",
+        isSpeakingL = false,
+        headR = "10901_c2",
+        scriptId = 9519,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3510,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "全是破綻呢……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾蓮·梅瑟斯",
+        cameraAction = 0,
+        headL = "10602_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3511] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_mana2",
+        isSpeakingL = true,
+        headR = "10901_c2",
+        scriptId = 9519,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3511,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "嗚，還真下狠手啊。……話說回來，剛才的是……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "崇宮真那",
+        cameraAction = 0,
+        headL = "10602_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3512] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_mana3",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9520,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3512,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "哥哥？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "崇宮真那",
+        cameraAction = 0,
+        headL = "10602_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3513] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9520,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3513,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你被DEM社的人給帶走後……我一直……很擔心你呢。但是，太好了。真的……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10602_a1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3514] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_mana4",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9520,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3514,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "……被帶走了？兄長大人你在說什麼啊？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "崇宮真那",
+        cameraAction = 0,
+        headL = "10602_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3515] = {
+        order = 4,
+        voice = "sound/battleDialogVoice/",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9520,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3515,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "澪……在哪里？不是她把你救出來的嗎？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10602_a2",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3516] = {
+        order = 5,
+        voice = "sound/battleDialogVoice/DP_12_mana5",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9520,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3516,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我不知道你在說什麼啊.",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "崇宮真那",
+        cameraAction = 0,
+        headL = "10602_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3517] = {
+        order = 6,
+        voice = "sound/battleDialogVoice/DP_12_Ellen13",
+        isSpeakingL = false,
+        headR = "10901_h2",
+        scriptId = 9520,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3517,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "居然在我面前考慮其他事情，真是被瞧不起了呢……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾蓮·梅瑟斯",
+        cameraAction = 0,
+        headL = "10602_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3518] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Kotori67",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9521,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3518,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "……對不起，哥哥……請原諒我只能用這種方式來結束一切。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3519] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Origami30",
+        isSpeakingL = false,
+        headR = "10203_b1",
+        scriptId = 9521,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3519,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "那只手裡拿的到底是什麼。琴里，你……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "鳶一折紙",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3520] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Kotori68",
+        isSpeakingL = true,
+        headR = "10203_b1",
+        scriptId = 9521,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3520,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "現在哥哥的狀態就好像是個定時炸彈，我必須要殺了他。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3521] = {
+        order = 4,
+        voice = "sound/battleDialogVoice/DP_12_Kotori69",
+        isSpeakingL = true,
+        headR = "10203_b1",
+        scriptId = 9521,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3521,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "靈力不斷地膨脹下去會引起比當年大空災更大規模的爆炸。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3522] = {
+        order = 5,
+        voice = "sound/battleDialogVoice/DP_12_Kotori70",
+        isSpeakingL = true,
+        headR = "10203_b1",
+        scriptId = 9521,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3522,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "只要按下這個按鈕，就會從位於衛星軌道上的Dáinsleif發射魔力炮。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3523] = {
+        order = 6,
+        voice = "sound/battleDialogVoice/DP_12_Origami31",
+        isSpeakingL = false,
+        headR = "10203_b1",
+        scriptId = 9521,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3523,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "開什麼玩笑。這就是Ratatoskr的做法嗎？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "鳶一折紙",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3524] = {
+        order = 7,
+        voice = "sound/battleDialogVoice/DP_12_Kotori71",
+        isSpeakingL = true,
+        headR = "10203_b1",
+        scriptId = 9521,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3524,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不是的！我當然也不想這麼做……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3525] = {
+        order = 8,
+        voice = "sound/battleDialogVoice/DP_12_Kotori72",
+        isSpeakingL = true,
+        headR = "10203_b1",
+        scriptId = 9521,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3525,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可是，已經沒有其他辦法----",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3526] = {
+        order = 9,
+        voice = "sound/battleDialogVoice/DP_12_Tohka41",
+        isSpeakingL = false,
+        headR = "10101_e2",
+        scriptId = 9521,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3526,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "別放棄！一切都還沒有結束！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3527] = {
+        order = 10,
+        voice = "sound/battleDialogVoice/DP_12_Yoshino16",
+        isSpeakingL = false,
+        headR = "10301_d1",
+        scriptId = 9521,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3527,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "沒錯……我們一起去幫助%s吧……！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3528] = {
+        order = 11,
+        voice = "sound/battleDialogVoice/DP_12_Kotori73",
+        isSpeakingL = true,
+        headR = "10301_d1",
+        scriptId = 9521,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3528,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "……！　大家……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3529] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Phantom1",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9522,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3529,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "哎呀哎呀，真是危險啊。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "幻影",
+        cameraAction = 0,
+        headL = "40211_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3530] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Kotori74",
+        isSpeakingL = false,
+        headR = "10505_i",
+        scriptId = 9522,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3530,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Phantom？救了哥哥的人……是你？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "40211_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3531] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Phantom2",
+        isSpeakingL = true,
+        headR = "10505_i",
+        scriptId = 9522,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3531,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "他現在確實處於危險的狀態之中，但是，如果他不能繼續活下去的話我會很困擾的……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "幻影",
+        cameraAction = 0,
+        headL = "40211_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3532] = {
+        order = 4,
+        voice = "sound/battleDialogVoice/DP_12_Phantom3",
+        isSpeakingL = true,
+        headR = "10505_i",
+        scriptId = 9522,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3532,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "那麼……接下來就看你們的了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "幻影",
+        cameraAction = 0,
+        headL = "40211_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3533] = {
+        order = 5,
+        voice = "sound/battleDialogVoice/DP_12_Phantom4",
+        isSpeakingL = true,
+        headR = "10505_i",
+        scriptId = 9522,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3533,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "祝你們旗開得勝！再見了，我可愛的孩子們……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "幻影",
+        cameraAction = 0,
+        headL = "40211_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3534] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Kotori75",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9523,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3534,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "雖然不知道Phantom是怎麼做到的，但是包圍著哥哥的靈力確實已經被打開了缺口。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3535] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Kotori76",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9523,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3535,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "這樣的話，說不定我們還來得及救他！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3536] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Tohka42",
+        isSpeakingL = false,
+        headR = "10101_e2",
+        scriptId = 9523,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3536,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "真的嗎，琴里！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10505_e2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3537] = {
+        order = 4,
+        voice = "sound/battleDialogVoice/DP_12_Kotori77",
+        isSpeakingL = true,
+        headR = "10101_e2",
+        scriptId = 9523,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3537,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "是的。但是我們必須得穿過那份靈力和哥哥親吻才行。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3538] = {
+        order = 5,
+        voice = "sound/battleDialogVoice/DP_12_Kaguya31",
+        isSpeakingL = false,
+        headR = "10701_c2",
+        scriptId = 9523,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3538,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "什麼啊，只要這樣啊。那不是很簡單嗎？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3539] = {
+        order = 6,
+        voice = "sound/battleDialogVoice/DP_12_Yuzuru26",
+        isSpeakingL = true,
+        headR = "10701_c2",
+        scriptId = 9523,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3539,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "同意。那麼，就沒有任何問題了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3540] = {
+        order = 7,
+        voice = "sound/battleDialogVoice/DP_12_Tohka43",
+        isSpeakingL = false,
+        headR = "10101_e1",
+        scriptId = 9523,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3540,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "嗯，大家一起出發吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10801_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3541] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Kaguya32",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9524,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3541,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "要上了！夕弦！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10701_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3542] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Kaguya33",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9524,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3542,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "雖然能動手的間隙很短，但對於速度最快的八舞而言已經足夠了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3543] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Yuzuru27",
+        isSpeakingL = false,
+        headR = "10801_b1",
+        scriptId = 9524,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3543,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "答復。贊成耶俱矢的意見。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3544] = {
+        order = 4,
+        voice = "sound/battleDialogVoice/DP_12_Kaguya34",
+        isSpeakingL = true,
+        headR = "10801_b1",
+        scriptId = 9524,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3544,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "颶風騎士——穿刺者！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10701_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3545] = {
+        order = 5,
+        voice = "sound/battleDialogVoice/DP_12_Yuzuru28",
+        isSpeakingL = false,
+        headR = "10801_b1",
+        scriptId = 9524,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3545,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "呼應。颶風騎士——束縛者！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10701_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3546] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Tohka44",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9525,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3546,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "%s，最後由我來當你的對手！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3547] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Tohka45",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9525,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3547,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我來拯救你了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3548] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Kotori80",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9526,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3548,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "十香！你還好吧？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3549] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Tohka46",
+        isSpeakingL = false,
+        headR = "10101_b1",
+        scriptId = 9526,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3549,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "等一下！你們不要動手！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10505_e2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3550] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_Tohka47",
+        isSpeakingL = false,
+        headR = "10101_a1",
+        scriptId = 9526,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3550,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "這件事情，必須我親自來做。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10505_e2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3551] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Ellen14",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9527,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3551,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "現在就這點戰鬥力？就憑這種攻擊也想殺了我嗎？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾蓮·梅瑟斯",
+        cameraAction = 0,
+        headL = "10901_h2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3552] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_mana6",
+        isSpeakingL = false,
+        headR = "10602_c1",
+        scriptId = 9527,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3552,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你雖然魔力是最強的但是腦袋不怎麼好使嘛，只知道一種勝利方法？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "崇宮真那",
+        cameraAction = 0,
+        headL = "10901_h2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3553] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_mana7",
+        isSpeakingL = false,
+        headR = "10602_a2",
+        scriptId = 9527,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3553,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "自從進了DEM開始，我就覺得你哪里缺根筋呢。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "崇宮真那",
+        cameraAction = 0,
+        headL = "10901_h2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3554] = {
+        order = 4,
+        voice = "sound/battleDialogVoice/DP_12_Ellen15",
+        isSpeakingL = true,
+        headR = "10602_a2",
+        scriptId = 9527,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3554,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "開什麼玩笑。我怎麼會存在不完美的地方！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾蓮·梅瑟斯",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3555] = {
+        order = 5,
+        voice = "sound/battleDialogVoice/DP_12_mana8",
+        isSpeakingL = false,
+        headR = "10602_c1",
+        scriptId = 9527,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3555,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "第二執行部的魔術師都不叫你執行部長而是叫你豆芽菜部長呢。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "崇宮真那",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3556] = {
+        order = 6,
+        voice = "sound/battleDialogVoice/DP_12_Ellen16",
+        isSpeakingL = true,
+        headR = "10602_c1",
+        scriptId = 9527,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3556,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你給我閉嘴！是什麼啊?這令人不快的綽號！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾蓮·梅瑟斯",
+        cameraAction = 0,
+        headL = "10901_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3557] = {
+        order = 1,
+        voice = "sound/battleDialogVoice/DP_12_Ellen17",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9528,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3557,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "什麼！……素材A被奪走了？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾蓮·梅瑟斯",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3558] = {
+        order = 2,
+        voice = "sound/battleDialogVoice/DP_12_Ellen18",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9528,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3558,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你真是個好運的傢伙，不過不可能再有下一次了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾蓮·梅瑟斯",
+        cameraAction = 0,
+        headL = "10901_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3559] = {
+        order = 3,
+        voice = "sound/battleDialogVoice/DP_12_mana9",
+        isSpeakingL = false,
+        headR = "10602_a2",
+        scriptId = 9528,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3559,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "一如既往是個嘴硬的人啊。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "崇宮真那",
+        cameraAction = 0,
+        headL = "10901_e2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
     [10014905] = {
         order = 5,
         voice = "",

@@ -96,7 +96,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "576",
+							height = "561",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "0",
@@ -109,7 +109,7 @@ local t =
 							{
 								
 							},
-							width = "1021",
+							width = "1061",
 							ZOrder = "1",
 							components = 
 							{
@@ -329,7 +329,7 @@ local t =
 												PositionX = -225,
 												PositionY = 161,
 											},
-											width = "63",
+											width = "29",
 											ZOrder = "1",
 											components = 
 											{
@@ -537,7 +537,7 @@ local t =
 												PositionX = -225,
 												PositionY = -16,
 											},
-											width = "45",
+											width = "87",
 											ZOrder = "1",
 											components = 
 											{
@@ -698,7 +698,7 @@ local t =
 												PositionX = -225,
 												PositionY = -59,
 											},
-											width = "81",
+											width = "71",
 											ZOrder = "1",
 											components = 
 											{
@@ -904,7 +904,7 @@ local t =
 												PositionX = -225,
 												PositionY = -102,
 											},
-											width = "33",
+											width = "30",
 											ZOrder = "1",
 											components = 
 											{
@@ -1065,7 +1065,7 @@ local t =
 												PositionX = -325,
 												PositionY = -143,
 											},
-											width = "513",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -1111,7 +1111,7 @@ local t =
 												PositionX = -225,
 												PositionY = 71,
 											},
-											width = "81",
+											width = "30",
 											ZOrder = "1",
 											components = 
 											{
@@ -1319,7 +1319,7 @@ local t =
 												PositionX = -225,
 												PositionY = 116,
 											},
-											width = "63",
+											width = "48",
 											ZOrder = "1",
 											components = 
 											{
@@ -1432,7 +1432,7 @@ local t =
 															{
 																PositionY = -1,
 															},
-															width = "93",
+															width = "115",
 															ZOrder = "1",
 														},
 														{
@@ -1653,7 +1653,7 @@ local t =
 															{
 																PositionY = -1,
 															},
-															width = "93",
+															width = "98",
 															ZOrder = "1",
 														},
 														{
@@ -1874,7 +1874,7 @@ local t =
 															{
 																PositionY = -1,
 															},
-															width = "93",
+															width = "118",
 															ZOrder = "1",
 														},
 														{
@@ -2072,7 +2072,7 @@ local t =
 														StrokeColor = "#FFC73C39",
 														StrokeSize = 1,
 													},
-													height = "34",
+													height = "32",
 													ignoreSize = "True",
 													name = "Label_submit",
 													nTextAlign = "1",
@@ -2088,7 +2088,7 @@ local t =
 													{
 														
 													},
-													width = "56",
+													width = "30",
 													ZOrder = "1",
 												},
 											},
@@ -2121,7 +2121,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -2138,7 +2138,7 @@ local t =
 										PositionX = -229,
 										PositionY = 212,
 									},
-									width = "123",
+									width = "221",
 									ZOrder = "1",
 								},
 							},
@@ -2242,7 +2242,7 @@ local t =
 									{
 										PositionX = -65,
 									},
-									width = "73",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -2391,7 +2391,7 @@ local t =
 									{
 										PositionX = -100,
 									},
-									width = "73",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -2495,7 +2495,7 @@ local t =
 									{
 										PositionX = -78,
 									},
-									width = "73",
+									width = "82",
 									ZOrder = "1",
 								},
 							},

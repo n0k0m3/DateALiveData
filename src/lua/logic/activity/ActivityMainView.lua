@@ -91,7 +91,12 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.FLOWER_SEND] = requireNew("lua.logic.activity.2021_spring.ValentinesDay"),
             -- [EC_ActivityType2.FIREWORKS_PRODUCT] = requireNew("lua.logic.activity.2021_spring.FireFactoryView"),
             [EC_ActivityType2.SPRITE_FOR_GIFT] = requireNew("lua.logic.activity.SpriteForGift"),
-            [EC_ActivityType2.SPRING_GIFT] = requireNew("lua.logic.activity.SpringGiftView")
+            [EC_ActivityType2.SPRING_GIFT] = requireNew("lua.logic.activity.SpringGiftView"),
+            [EC_ActivityType2.PIC_TASK_ACTIVITY] = requireNew("lua.logic.activity.PicWallTaskView"),
+            [EC_ActivityType2.BINGKAI_BLESS] = requireNew("lua.logic.activity.bingKai.BingKaiBlessView"),
+            [EC_ActivityType2.BINGKAI_STORE] = requireNew("lua.logic.activity.bingKai.BingKaiStoreView"),
+            [EC_ActivityType2.BINGKAI_TASK] = requireNew("lua.logic.activity.bingKai.BingKaiTaskView"),
+            [EC_ActivityType2.RETURN_GIFT] = requireNew("lua.logic.activity.ReturnGiftView"),
         },
         [2] = {
             [EC_ActivityType2.CGCOLLECTED] = requireNew("lua.logic.activity.JumpActivityView"),

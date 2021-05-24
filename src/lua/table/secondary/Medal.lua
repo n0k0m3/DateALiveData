@@ -17,12 +17,13 @@ return {
         name = "2460033",
         accessway = {
         },
-        desTextId = 2460034,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460034,
+        showicon = "icon/item/goods/1200022.png",
+        MedalType = 2,
     },
     [1200024] = {
         superType = 12,
@@ -42,12 +43,13 @@ return {
         name = "2460036",
         accessway = {
         },
-        desTextId = 2460037,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460037,
+        showicon = "icon/item/goods/1200024.png",
+        MedalType = 2,
     },
     [1200025] = {
         superType = 12,
@@ -67,12 +69,13 @@ return {
         name = "2460038",
         accessway = {
         },
-        desTextId = 2460039,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460039,
+        showicon = "icon/item/goods/1200025.png",
+        MedalType = 2,
     },
     [1200026] = {
         superType = 12,
@@ -92,12 +95,13 @@ return {
         name = "2460041",
         accessway = {
         },
-        desTextId = 2460042,
-        MedalType = 1,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460042,
+        showicon = "icon/item/goods/1200026.png",
+        MedalType = 1,
     },
     [1200027] = {
         superType = 12,
@@ -117,12 +121,13 @@ return {
         name = "2460094",
         accessway = {
         },
-        desTextId = 2460095,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460095,
+        showicon = "icon/item/goods/1200027.png",
+        MedalType = 2,
     },
     [1200001] = {
         superType = 12,
@@ -142,12 +147,13 @@ return {
         name = "2450000",
         accessway = {
         },
-        desTextId = 2460000,
-        MedalType = 3,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460000,
+        showicon = "icon/item/goods/1200001.png",
+        MedalType = 3,
     },
     [1200034] = {
         superType = 12,
@@ -167,12 +173,13 @@ return {
         name = "2460146",
         accessway = {
         },
-        desTextId = 2460147,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460147,
+        showicon = "icon/item/goods/1200034.png",
+        MedalType = 2,
     },
     [1200036] = {
         superType = 12,
@@ -192,12 +199,13 @@ return {
         name = "2460152",
         accessway = {
         },
-        desTextId = 2460153,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460153,
+        showicon = "icon/item/goods/1200036.png",
+        MedalType = 2,
     },
     [1200038] = {
         superType = 12,
@@ -217,12 +225,13 @@ return {
         name = "2460158",
         accessway = {
         },
-        desTextId = 2460159,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460159,
+        showicon = "icon/item/goods/1200038.png",
+        MedalType = 2,
     },
     [1200008] = {
         superType = 12,
@@ -242,12 +251,13 @@ return {
         name = "2450007",
         accessway = {
         },
-        desTextId = 2460007,
-        MedalType = 1,
         size = {
             [1] = 50,
             [2] = 60,
         },
+        desTextId = 2460007,
+        showicon = "icon/item/goods/1200008.png",
+        MedalType = 1,
     },
     [1200012] = {
         superType = 12,
@@ -267,12 +277,13 @@ return {
         name = "2450011",
         accessway = {
         },
-        desTextId = 2460011,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460011,
+        showicon = "icon/item/goods/1200012.png",
+        MedalType = 2,
     },
     [1200013] = {
         superType = 12,
@@ -292,12 +303,13 @@ return {
         name = "2450012",
         accessway = {
         },
-        desTextId = 2460012,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460012,
+        showicon = "icon/item/goods/1200013.png",
+        MedalType = 2,
     },
     [1200014] = {
         superType = 12,
@@ -317,12 +329,13 @@ return {
         name = "2450013",
         accessway = {
         },
-        desTextId = 2460013,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460013,
+        showicon = "icon/item/goods/1200014.png",
+        MedalType = 2,
     },
     [1200016] = {
         superType = 12,
@@ -342,12 +355,13 @@ return {
         name = "2460015",
         accessway = {
         },
-        desTextId = 2460016,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460016,
+        showicon = "icon/item/goods/1200016.png",
+        MedalType = 2,
     },
     [1200018] = {
         superType = 12,
@@ -367,12 +381,13 @@ return {
         name = "2460024",
         accessway = {
         },
-        desTextId = 2460025,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460025,
+        showicon = "icon/item/goods/1200018.png",
+        MedalType = 2,
     },
     [1210000] = {
         superType = 12,
@@ -392,12 +407,13 @@ return {
         name = "190000154",
         accessway = {
         },
-        desTextId = 190000155,
-        MedalType = 3,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 190000155,
+        showicon = "icon/item/goods/1210000.png",
+        MedalType = 3,
     },
     [1200032] = {
         superType = 12,
@@ -417,11 +433,12 @@ return {
         name = "2460140",
         accessway = {
         },
-        desTextId = 2460141,
-        MedalType = 2,
         size = {
             [1] = 55,
             [2] = 60,
         },
+        desTextId = 2460141,
+        showicon = "icon/item/goods/1200032.png",
+        MedalType = 2,
     },
 }

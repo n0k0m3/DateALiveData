@@ -119,4 +119,27 @@ return {
         icon = "ui/setting/new/bg1.png",
         des = "14310001",
     },
+    [100008] = {
+        preBeginTime = "",
+        bgm = "sound/bgm/main_001.mp3",
+        id = 100008,
+        popupLocation = {
+            y = 1,
+            x = 60,
+        },
+        condition = {
+            ownItems = {
+                [575015] = 1,
+            },
+        },
+        unlockType = 2,
+        titleType = 1,
+        uiConfig  = "lua.uiconfig.MainScene.ShixiangMainLaye",
+        name = "14320008",
+        preEndTime = "",
+        endTime = "",
+        beginTime = "",
+        icon = "ui/setting/new/bg8.png",
+        des = "14310009",
+    },
 }

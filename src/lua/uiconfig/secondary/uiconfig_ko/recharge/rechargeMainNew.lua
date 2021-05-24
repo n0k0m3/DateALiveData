@@ -5026,7 +5026,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -82,
-												PositionY = 143,
+												PositionY = 144,
 												LeftPositon = 169,
 												TopPosition = 65,
 												relativeToName = "panel_totalCell",

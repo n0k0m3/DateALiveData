@@ -7,6 +7,7 @@ local GiftPos = {
     {{90,183},{190,183},{90,91},{190,91}}
 }
 local SuperType = {
+    assign = 75,     -- 指定优惠卷
 	daily = 64,
 	common = 65
 }
@@ -17,14 +18,47 @@ function TokenPopView:initDta(data, defaultPrice)
 	self.defaultPrice = defaultPrice
     self.goodsData = RechargeDataMgr:getOneRechargeCfg(self.goodsId);
     self.price = self.defaultPrice or self.goodsData.exchangeCost[1].num;
+    self.extendData = json.decode(self.goodsData.extendData)
     self.exchangeId = self.goodsData.exchangeCost[1].id;
+    self.keepSuperType = {}
 
-    self.couponData = {[SuperType.common] = {},  [SuperType.daily] = {}};
+    self.couponData = {[SuperType.assign] = {}, [SuperType.common] = {},  [SuperType.daily] = {}};
+    local assignExsit = false
+	for __,_type in pairs(self.goodsData.packType or {}) do
+		if _type == SuperType.assign then
+			assignExsit = true
+			break;
+		end
+    end
+    
     for __,_type in pairs(SuperType) do
 		self.couponData[_type] = {}
         local couponData = GoodsDataMgr:getItemsBySuperTyper(_type);
+
+        local function isTheAssignCid(_data)
+            local _bool = false
+            for i = #_data, 1, -1 do
+                local cfg = _data[i]
+                if cfg.cid == self.extendData.packId then
+                    _bool = true
+                else
+                    table.remove(_data, i)
+                end
+            end
+            return _bool
+        end
+
+        -- 指定优惠卷没有不做显示
+        if _type == SuperType.assign and (table.count(couponData) == 0 or not assignExsit or not isTheAssignCid(couponData)) then
+            self.couponData[_type] = nil
+        else
+            table.insert(self.keepSuperType, _type)
+        end
+
         for k,v in pairs(couponData) do
-            table.insert(self.couponData[_type],v);
+            if self.couponData[_type] then
+                table.insert(self.couponData[_type],v);
+            end
         end
     end
 
@@ -51,6 +85,8 @@ function TokenPopView:initDta(data, defaultPrice)
 
     self.listViewItems = {}
     self.awardViewItems = {}
+
+    self.curChooseType = nil
 end
 
 function TokenPopView:ctor(...)
@@ -72,12 +108,24 @@ function TokenPopView:initUI(ui)
 
     self.listView = UIListView:create(self._ui.listview)
     self.listView:setItemsMargin(3)
-    self:updateLeftView()
+    
+    self.pannelChooseBtns = self._ui.pannelChooseBtns2
+    local sumCount = table.count(SuperType)
+    for i = 2, sumCount do
+        local panelBtns = self._ui["pannelChooseBtns"..i]
+        panelBtns:setVisible(i == table.count(self.keepSuperType))
+        if panelBtns:isVisible() then
+            self.pannelChooseBtns = panelBtns
+        end
+    end 
 
-	self.btn1Image = self._ui.btn1:getChildByName("imgSelect")
-	self.btn1Image:setVisible(true)
-	self.btn2Image = self._ui.btn2:getChildByName("imgSelect")
-	self.btn2Image:setVisible(false)
+    self:leftBtnClickFunc(1)
+    -- self:updateLeftView()
+
+	-- self.btn1Image = TFDirector:getChildByPath(self.pannelChooseBtns, "btn1.") self.pannelChooseBtns:getChildByName("btn1")
+	-- self.btn1Image:setVisible(true)
+	-- self.btn2Image = self.pannelChooseBtns:getChildByName("imgSelect")
+	-- self.btn2Image:setVisible(false)
 
     self.awardView = UIListView:create(self._ui.awardView)
     self.awardView:setItemsMargin(5)
@@ -93,7 +141,7 @@ function TokenPopView:initUI(ui)
 	self._ui.originPriceIcon:setTexture(exchangeCfg.icon);
     self._ui.originPriceIcon:setSize(CCSizeMake(45,45));
 
-    self:refreshBottomPannel();
+    -- self:refreshBottomPannel();
 	self:addCountDownTimer()
 	self:setBuyLimitTips()
 end
@@ -108,25 +156,27 @@ function TokenPopView:setBuyLimitTips()
 	end
 	if exsit then
 		self._ui.useLimitTip:setVisible(true)
-		self._ui.useLimitTip:setTextById(14220110)
+		self._ui.useLimitTip:setTextById(14220116)
 	else
 		self._ui.useLimitTip:setVisible(false)
 	end
 end
 
 function TokenPopView:updateCountDown()
-	for k,v in pairs(self.listViewItems) do
-		local remainTime = math.max(0, v.Coupon.outTime - ServerDataMgr:getServerTime())
-		if remainTime == 0 then
---		    self:removeCountDownTimer()
-		    v.time:setTextById(301010)			
-		else
-			
-		    local day, hour, min = Utils:getTimeDHMZ(remainTime)
-		    v.time:setTextById(800044, day,hour, min)
-			v.time:setVisible(true)
-		end
-		v.remainTime = remainTime
+    for k,v in pairs(self.listViewItems) do
+        if v.Coupon.outTime then
+            local remainTime = math.max(0, v.Coupon.outTime - ServerDataMgr:getServerTime())
+            if remainTime == 0 then
+    --		    self:removeCountDownTimer()
+                v.time:setTextById(301010)			
+            else
+                
+                local day, hour, min = Utils:getTimeDHMZ(remainTime)
+                v.time:setTextById(800044, day,hour, min)
+                v.time:setVisible(true)
+            end
+            v.remainTime = remainTime
+        end
 	end
 end
 
@@ -152,18 +202,9 @@ function TokenPopView:registerEvents()
         AlertManager:closeLayer(self)
     end)
 
-    for i, btn in ipairs(self._ui.pannelChooseBtns:getChildren()) do
+    for i, btn in ipairs(self.pannelChooseBtns:getChildren()) do
         btn:onClick(function()
-            if i ~= self.curChooseType then
-                self.curChooseType = i
-				if SuperType.daily == self.curTab then
-					self.curTab = SuperType.common
-				else
-					self.curTab = SuperType.daily
-				end
-                self:updateLeftView()
-				self:refreshBottomPannel()
-            end
+            self:leftBtnClickFunc(i)
         end)
     end
 
@@ -228,6 +269,17 @@ function TokenPopView:registerEvents()
         end
         AlertManager:closeLayer(self)
     end)
+end
+
+function TokenPopView:leftBtnClickFunc(i)
+    if i ~= self.curChooseType then
+        self.curChooseType = i
+        if self.keepSuperType[i] then
+            self.curTab = self.keepSuperType[i]
+        end
+        self:updateLeftView()
+        self:refreshBottomPannel()
+    end
 end
 
 function TokenPopView:checkTokenMoney()
@@ -330,7 +382,7 @@ function TokenPopView:addItem(idx)
 end
 
 function TokenPopView:updateLeftView()
-     for i, btn in ipairs(self._ui.pannelChooseBtns:getChildren()) do
+     for i, btn in ipairs(self.pannelChooseBtns:getChildren()) do
          local imgSelect = btn:getChildByName("imgSelect")
          imgSelect:setVisible(self.curChooseType == i)
      end

@@ -38,7 +38,7 @@ function MedalInfoView:initInfoPanel()
     local Label_medal_get_des = TFDirector:getChildByPath(self.Panel_medalInfo, "Label_medal_get_des")
     local Panel_star = TFDirector:getChildByPath(self.Panel_medalInfo, "Panel_star")
 
-    Image_medal_icon:setTexture(self.medalCfg_.icon)
+    Image_medal_icon:setTexture(self.medalCfg_.showicon)
     local scaleRate = self.medalCfg_.size[2] or 100
     Image_medal_icon:setScale(scaleRate / 100)
     Label_medal_name:setTextById(self.medalCfg_.name)

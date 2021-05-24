@@ -86,6 +86,8 @@ function FunctionDataMgr:initFuncList()
         [155] = self.jFlyShip,          --探索
         [156] = self.jCollectCGView,    -- 跳转CG图鉴
         [199] = self.jAssistanceCode,
+        [162] = self.jRoleShow,        -- 看板界面
+		[156] = self.jCollectCGView,    -- 跳转CG图鉴
         [200] = self.jHeroMain,         -- 跳转精灵主界面
         [999] = self.jSpecialFuben,    --特殊活动副本
         [300] = self.jWorldRoom,    -- 进入大世界
@@ -1540,6 +1542,10 @@ function FunctionDataMgr:jFlyShip()
     Utils:openView("explore.ExploreMainView")
 end
 
+function FunctionDataMgr:jRoleShow(roleId, dressId)
+    if not self:checkFuncOpen() then return end
+    Utils:openView("role.NewRoleShowView", roleId, dressId)
+end
 
 --跳转特殊活动副本
 function FunctionDataMgr:jSpecialFuben(activityType)

@@ -219,7 +219,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -251,7 +251,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -269,
-								PositionY = -163,
+								PositionY = -178,
 							},
 							width = "420",
 							ZOrder = "1",
@@ -589,7 +589,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -623,7 +623,6 @@ local t =
 								PositionX = -269,
 								PositionY = -214,
 							},
-							visible = "False",
 							width = "316",
 							ZOrder = "1",
 						},
@@ -636,7 +635,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -670,7 +669,6 @@ local t =
 								PositionX = -101,
 								PositionY = -214,
 							},
-							visible = "False",
 							width = "316",
 							ZOrder = "1",
 						},
@@ -839,7 +837,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF997913",
+									FontColor = "#FF694912",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -949,7 +947,6 @@ local t =
 									{
 										PositionY = -145,
 									},
-									visible = "False",
 									width = "116",
 									ZOrder = "1",
 									components = 
@@ -974,20 +971,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "19",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "22",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label",
 											nTextAlign = "1",
 											nTextHAlign = "1",
-											scaleX = "0.7",
-											scaleY = "0.7",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -999,7 +994,7 @@ local t =
 											{
 												
 											},
-											width = "161",
+											width = "187",
 											ZOrder = "1",
 										},
 									},
@@ -1026,7 +1021,6 @@ local t =
 									{
 										
 									},
-									visible = "False",
 									width = "138",
 									ZOrder = "1",
 									components = 
@@ -1076,20 +1070,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_geted",
 											nTextAlign = "1",
 											nTextHAlign = "2",
-											scaleX = "0.8",
-											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1101,7 +1093,7 @@ local t =
 											{
 												PositionY = -146,
 											},
-											width = "138",
+											width = "170",
 											ZOrder = "1",
 										},
 									},
@@ -1128,6 +1120,7 @@ local t =
 									{
 										
 									},
+									visible = "False",
 									width = "150",
 									ZOrder = "1",
 									components = 
@@ -1183,14 +1176,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "26",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "30",
 													ignoreSize = "True",
 													name = "Label_buy",
 													nTextAlign = "1",
@@ -1206,7 +1199,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "73",
+													width = "85",
 													ZOrder = "1",
 												},
 											},

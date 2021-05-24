@@ -165,7 +165,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "35",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -174,7 +174,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Pop up kecil",
+									text = "弹窗小型",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -182,7 +182,7 @@ local t =
 										PositionX = -253,
 										PositionY = 128,
 									},
-									width = "165",
+									width = "114",
 									ZOrder = "1",
 								},
 								{
@@ -208,7 +208,6 @@ local t =
 										PositionX = -134,
 										PositionY = 130,
 									},
-									visible = "False",
 									width = "2",
 									ZOrder = "1",
 								},
@@ -255,7 +254,6 @@ local t =
 										PositionX = -73,
 										PositionY = 123,
 									},
-									visible = "False",
 									width = "115",
 									ZOrder = "1",
 								},
@@ -278,7 +276,7 @@ local t =
 									innerHeight = "250",
 									innerWidth = "515",
 									name = "ScrollView_content",
-									showScrollbar = "False",
+									showScrollbar = "True",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -286,6 +284,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
+										PositionX = -3,
 										PositionY = -21,
 									},
 									uipanelviewmodel = 
@@ -295,6 +294,61 @@ local t =
 									},
 									width = "515",
 									ZOrder = "1",
+								},
+								{
+									controlID = "Image_honorBar_Image_content_Panel_root_Panel-fubenSelectCountView_Layer1_fuben_Game",
+									UUID = "94b7a5dd_0832_4132_8043_7b6fb9e6f136",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "245",
+									ignoreSize = "False",
+									name = "Image_honorBar",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/common/scroll_bar_01.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 257,
+										PositionY = -19,
+									},
+									width = "6",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Image_honorScrollBar_Image_honorBar_Image_content_Panel_root_Panel-fubenSelectCountView_Layer1_fuben_Game",
+											UUID = "12d7326b_de6c_4dc8_bd29_f354633d0f09",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "245",
+											ignoreSize = "False",
+											name = "Image_honorScrollBar",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/common/scroll_bar_02.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												
+											},
+											width = "6",
+											ZOrder = "1",
+										},
+									},
 								},
 								{
 									controlID = "Button_close_Image_content_Panel_root_Panel-fubenSelectCountView_Layer1_fuben_Game",
@@ -524,7 +578,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Biaya-30",
+									text = "消耗-30",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -532,7 +586,7 @@ local t =
 										PositionX = -171,
 										PositionY = 20,
 									},
-									width = "83",
+									width = "77",
 									ZOrder = "1",
 								},
 								{
@@ -654,7 +708,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Buka",
+									text = "解锁",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -662,7 +716,7 @@ local t =
 										PositionX = -124,
 										PositionY = -18,
 									},
-									width = "44",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
@@ -700,7 +754,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Jumlah Challenge -1",
+									text = "挑战次数-1",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -708,7 +762,7 @@ local t =
 										PositionX = -21,
 										PositionY = 15,
 									},
-									width = "176",
+									width = "101",
 									ZOrder = "1",
 								},
 								{
@@ -746,7 +800,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Sekaligus dapat hadiah 5x battle",
+									text = "1次获得5次战斗的奖励",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -754,7 +808,7 @@ local t =
 										PositionX = -21,
 										PositionY = -14,
 									},
-									width = "276",
+									width = "201",
 									ZOrder = "1",
 								},
 							},
@@ -775,6 +829,8 @@ local t =
 			"ui/common/mini_pop/9.png",
 			"ui/common/mini_pop/7.png",
 			"ui/common/pop_ui/pop_ui_02.png",
+			"ui/common/scroll_bar_01.png",
+			"ui/common/scroll_bar_02.png",
 			"ui/common/pop_ui/pop_btn_02.png",
 			"ui/common/mini_pop/022.png",
 			"ui/common/mini_pop/023.png",

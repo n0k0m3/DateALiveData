@@ -190,6 +190,16 @@ local t = {
 			logic="",
 		},
 		{
+			name="summonPieceUpgrade",
+			ui ="summonPieceUpgrade.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="summon",
+			canLoad=true,
+			logic="",
+		},
+		{
 			name="SimulationSummonView",
 			ui ="SimulationSummonView.lua",
 			x=0,

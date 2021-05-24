@@ -314,13 +314,13 @@ return {
     [27] = {
         show = 1,
         heroSkinId = 1131011,
-        sort = 8,
+        sort = 4,
         id = 27,
         heroId = 113101,
         scale  = 0.35,
         paintPosition = {
-            y = 220,
-            x = 1000,
+            y = 250,
+            x = 970,
         },
     },
     [28] = {

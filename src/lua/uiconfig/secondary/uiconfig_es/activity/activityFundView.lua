@@ -219,7 +219,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -250,7 +250,7 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -270,
+								PositionX = -269,
 								PositionY = -178,
 							},
 							width = "420",
@@ -589,7 +589,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -621,9 +621,8 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -269,
-								PositionY = -215,
+								PositionY = -214,
 							},
-							visible = "False",
 							width = "345",
 							ZOrder = "1",
 						},
@@ -636,7 +635,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -670,7 +669,6 @@ local t =
 								PositionX = -101,
 								PositionY = -214,
 							},
-							visible = "False",
 							width = "345",
 							ZOrder = "1",
 						},
@@ -839,7 +837,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF997913",
+									FontColor = "#FF694912",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -949,7 +947,6 @@ local t =
 									{
 										PositionY = -145,
 									},
-									visible = "False",
 									width = "116",
 									ZOrder = "1",
 									components = 
@@ -974,14 +971,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label",
 											nTextAlign = "1",
@@ -997,7 +994,7 @@ local t =
 											{
 												
 											},
-											width = "114",
+											width = "141",
 											ZOrder = "1",
 										},
 									},
@@ -1022,7 +1019,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -1,
+										
 									},
 									width = "138",
 									ZOrder = "1",
@@ -1073,14 +1070,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_geted",
 											nTextAlign = "1",
@@ -1096,7 +1093,7 @@ local t =
 											{
 												PositionY = -146,
 											},
-											width = "106",
+											width = "131",
 											ZOrder = "1",
 										},
 									},
@@ -1179,14 +1176,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "26",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "30",
 													ignoreSize = "True",
 													name = "Label_buy",
 													nTextAlign = "1",
@@ -1202,7 +1199,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "114",
+													width = "134",
 													ZOrder = "1",
 												},
 											},

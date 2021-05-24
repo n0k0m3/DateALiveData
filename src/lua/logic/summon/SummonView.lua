@@ -1,6 +1,8 @@
 
 local SummonView = class("SummonView", BaseLayer)
-
+local summonToStore = {    -- 谷峰强制要求配置放到代码里面
+    [8] = 16,
+}
 function SummonView:initData(paramIdx, selectRightIndex)
     self.summon_ = SummonDataMgr:getSummon()
     dump(self.summon_)
@@ -182,6 +184,7 @@ function SummonView:initUI(ui)
         self.Image_cloth_show_arr[i] = TFDirector:getChildByPath(self.panel_cloth_show , "Image_cloth_"..i)
     end
 
+    self.Button_store = TFDirector:getChildByPath(self.Panel_root, "Button_store")
     self:refreshView()
     self:updateNoobReward()
     SummonDataMgr:resetAlreadyHaveHero()
@@ -705,7 +708,10 @@ function SummonView:selectSummon(index, force)
     for i, foo in pairs(self.summonItems_) do
         foo.Image_select:setVisible(i == index)
     end
-
+    local storeId = StoreDataMgr:getStore(summonToStore[summonCfg.summonType])[1]
+    self.Button_store:setVisible(storeId)
+    self.Button_store.storeId = storeId
+    self.Button_store:hide()
     self.currentSummon_ = summon
 
     if summonCfg.summonType == EC_SummonType.HOT_ROLE or
@@ -996,6 +1002,10 @@ function SummonView:registerEvents()
             end
     end)
 
+    self.Button_store:onClick(function ( ... )
+        -- body
+        Utils:openView("summon.SummonPieceUpgradeView",self.Button_store.storeId)
+    end)
 end
 
 function SummonView:selectHotTab(index)

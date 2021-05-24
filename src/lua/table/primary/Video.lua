@@ -602,6 +602,15 @@ return {
             [2] = 640,
         },
     },
+    [249] = {
+        path  = "video/dab_pk.mp4",
+        isFullScreen = true,
+        id = 249,
+        size = {
+            [1] = 1386,
+            [2] = 640,
+        },
+    },
     [1004] = {
         path  = "video/summon_ASTzhezhi1.mp4",
         isFullScreen = false,

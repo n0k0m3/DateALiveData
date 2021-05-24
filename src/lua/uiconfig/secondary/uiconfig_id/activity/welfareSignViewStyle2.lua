@@ -90,7 +90,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "538",
+							height = "548",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "0",
@@ -103,7 +103,7 @@ local t =
 							{
 								
 							},
-							width = "924",
+							width = "890",
 							ZOrder = "1",
 							components = 
 							{
@@ -187,6 +187,32 @@ local t =
 									},
 									visible = "False",
 									width = "140",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Image_welfareSignViewStyle2_1_Image_bg_Panel_root_Panel-welfareSignViewStyle2_activityStyleModel_activity_Game",
+									UUID = "caeb1635_a6c1_4602_b179_36b0f3e587b1",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "111",
+									ignoreSize = "True",
+									name = "Image_welfareSignViewStyle2_1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/activityStyle/wefareSignActivity/bg/001.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -336,
+										PositionY = 216,
+									},
+									width = "223",
 									ZOrder = "1",
 								},
 								{
@@ -275,8 +301,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -130,
-												PositionY = -190,
+												PositionX = -131,
+												PositionY = -209,
 											},
 											width = "64",
 											ZOrder = "1",
@@ -300,8 +326,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -1,
-												PositionY = -190,
+												PositionX = -2,
+												PositionY = -208,
 											},
 											width = "64",
 											ZOrder = "1",
@@ -325,8 +351,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 258,
-												PositionY = -192,
+												PositionX = 241,
+												PositionY = -208,
 											},
 											width = "64",
 											ZOrder = "1",
@@ -350,8 +376,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 388,
-												PositionY = -190,
+												PositionX = 361,
+												PositionY = -209,
 											},
 											width = "64",
 											ZOrder = "1",
@@ -375,8 +401,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 128,
-												PositionY = -190,
+												PositionX = 119,
+												PositionY = -208,
 											},
 											width = "64",
 											ZOrder = "1",
@@ -400,8 +426,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -388,
-												PositionY = -190,
+												PositionX = -373,
+												PositionY = -208,
 												LeftPositon = -399,
 												TopPosition = 651,
 												relativeToName = "Panel",
@@ -428,8 +454,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -260,
-												PositionY = -190,
+												PositionX = -255,
+												PositionY = -208,
 											},
 											width = "64",
 											ZOrder = "1",
@@ -523,8 +549,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 221,
-										PositionY = -267,
+										PositionX = 493,
+										PositionY = -252,
 									},
 									uipanelviewmodel = 
 									{
@@ -622,8 +648,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -422,
-										PositionY = 243,
+										PositionX = -405,
+										PositionY = 247,
 									},
 									width = "76",
 									ZOrder = "1",
@@ -669,8 +695,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -460,
-										PositionY = 181,
+										PositionX = -435,
+										PositionY = 192,
 									},
 									width = "76",
 									ZOrder = "1",
@@ -716,8 +742,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -440,
-										PositionY = 212,
+										PositionX = -422,
+										PositionY = 220,
 									},
 									width = "76",
 									ZOrder = "1",
@@ -1040,7 +1066,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FF7DA7ED",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1180,8 +1206,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 183,
-								PositionY = 3,
+								PositionX = 222,
+								PositionY = -19,
 							},
 							uipanelviewmodel = 
 							{
@@ -1218,6 +1244,105 @@ local t =
 									visible = "False",
 									width = "110",
 									ZOrder = "1",
+								},
+								{
+									controlID = "image_icon_Panel_sevenItem1_Panel_prefab_Panel-welfareSignViewStyle2_activityStyleModel_activity_Game",
+									UUID = "696d6fab_8fc5_4f4d_ad07_373434ea23c2",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "100",
+									ignoreSize = "True",
+									name = "image_icon",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "icon/item/goods/500055.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -1,
+										PositionY = -4,
+										LeftPositon = 34,
+										TopPosition = 34,
+										relativeToName = "Panel_reward",
+									},
+									width = "100",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Panel_reward_Panel_sevenItem1_Panel_prefab_Panel-welfareSignViewStyle2_activityStyleModel_activity_Game",
+									UUID = "7c53846e_a2e2_4d9d_9a94_fed67c539244",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "121",
+									ignoreSize = "False",
+									name = "Panel_reward",
+									sizepercentx = "100",
+									sizepercenty = "89",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -4,
+										PositionY = -4,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "136",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Spine_welfareSignView_1_Panel_reward_Panel_sevenItem1_Panel_prefab_Panel-welfareSignViewStyle2_activityStyleModel_activity_Game",
+											UUID = "d54a4c29_37b3_4a02_8296_b7a7dbadb3ba",
+											classname = "MESpine",
+											dstBlendFunc = "771",
+											name = "Spine_welfareSignView_1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											spineModel = 
+											{
+												SpinePath = "ui/activity/activityStyle/wefareSignActivity/style2/dengluqiandao/skeleton",
+												animationName = "01",
+												IsLoop = true,
+												IsPlay = true,
+												IsUseQueue = false,
+												AnimationQueue = 
+												{
+													
+												},
+											},
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -2,
+												PositionY = 1,
+											},
+											ZOrder = "1",
+										},
+									},
 								},
 								{
 									controlID = "label_num_Panel_sevenItem1_Panel_prefab_Panel-welfareSignViewStyle2_activityStyleModel_activity_Game",
@@ -1260,110 +1385,13 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 47,
-										PositionY = 24,
+										PositionY = 31,
 										LeftPositon = 78,
 										TopPosition = 8,
 										relativeToName = "Panel_reward",
 									},
 									width = "34",
-									ZOrder = "5",
-								},
-								{
-									controlID = "image_icon_Panel_sevenItem1_Panel_prefab_Panel-welfareSignViewStyle2_activityStyleModel_activity_Game",
-									UUID = "696d6fab_8fc5_4f4d_ad07_373434ea23c2",
-									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
-									classname = "MEImage",
-									dstBlendFunc = "771",
-									height = "100",
-									ignoreSize = "True",
-									name = "image_icon",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "1",
-									texturePath = "icon/item/goods/500055.png",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionY = -11,
-										LeftPositon = 34,
-										TopPosition = 34,
-										relativeToName = "Panel_reward",
-									},
-									width = "100",
 									ZOrder = "1",
-								},
-								{
-									controlID = "Panel_reward_Panel_sevenItem1_Panel_prefab_Panel-welfareSignViewStyle2_activityStyleModel_activity_Game",
-									UUID = "7c53846e_a2e2_4d9d_9a94_fed67c539244",
-									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
-									bgColorOpacity = "50",
-									bIsOpenClipping = "False",
-									classname = "MEPanel",
-									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
-									DesignHeight = "640",
-									DesignType = "0",
-									DesignWidth = "960",
-									dstBlendFunc = "771",
-									height = "121",
-									ignoreSize = "False",
-									name = "Panel_reward",
-									sizepercentx = "100",
-									sizepercenty = "89",
-									sizeType = "0",
-									srcBlendFunc = "1",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = -5,
-										PositionY = -11,
-									},
-									uipanelviewmodel = 
-									{
-										Layout="Absolute",
-										nType = "0"
-									},
-									width = "136",
-									ZOrder = "1",
-									components = 
-									{
-										
-										{
-											controlID = "Spine_welfareSignView_1_Panel_reward_Panel_sevenItem1_Panel_prefab_Panel-welfareSignViewStyle2_activityStyleModel_activity_Game",
-											UUID = "d54a4c29_37b3_4a02_8296_b7a7dbadb3ba",
-											classname = "MESpine",
-											dstBlendFunc = "771",
-											name = "Spine_welfareSignView_1",
-											sizepercentx = "0",
-											sizepercenty = "0",
-											sizeType = "0",
-											spineModel = 
-											{
-												SpinePath = "ui/activity/activityStyle/wefareSignActivity/style2/dengluqiandao/skeleton",
-												animationName = "01",
-												IsLoop = true,
-												IsPlay = true,
-												IsUseQueue = false,
-												AnimationQueue = 
-												{
-													
-												},
-											},
-											srcBlendFunc = "1",
-											touchAble = "False",
-											UILayoutViewModel = 
-											{
-												PositionY = 1,
-											},
-											ZOrder = "1",
-										},
-									},
 								},
 								{
 									controlID = "Label_day_Panel_sevenItem1_Panel_prefab_Panel-welfareSignViewStyle2_activityStyleModel_activity_Game",
@@ -1374,7 +1402,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF1048A7",
+									FontColor = "#FF7DA7ED",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -1405,7 +1433,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 59,
+										PositionY = 81,
 									},
 									width = "69",
 									ZOrder = "1",
@@ -1454,7 +1482,6 @@ local t =
 										TopPosition = 133,
 										relativeToName = "Panel",
 									},
-									visible = "False",
 									width = "0",
 									ZOrder = "1",
 								},
@@ -1467,21 +1494,21 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "54",
-									ignoreSize = "True",
+									height = "128",
+									ignoreSize = "False",
 									name = "Image_getted",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/common/selected.png",
+									texturePath = "ui/activity/activityStyle/wefareSignActivity/bg/002.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 31,
-										PositionY = -43,
+										PositionX = 1,
+										PositionY = -1,
 									},
-									width = "54",
+									width = "142",
 									ZOrder = "1",
 								},
 							},
@@ -1503,13 +1530,14 @@ local t =
 			"ui/activity/fashionStore/1/007.png",
 			"ui/activity/fashionStore/1/008.png",
 			"ui/activity/fashionStore/1/004.png",
+			"ui/activity/activityStyle/wefareSignActivity/bg/001.png",
 			"ui/activity/activityStyle/wefareSignActivity/style2/002.png",
 			"ui/activity/activityStyle/wefareSignActivity/style2/left.png",
 			"ui/activity/activityStyle/wefareSignActivity/style2/004_n.png",
 			"icon/item/goods/500055.png",
 			"ui/activity/activityStyle/wefareSignActivity/style2/002_n.png",
 			"ui/common/frame_normal.png",
-			"ui/common/selected.png",
+			"ui/activity/activityStyle/wefareSignActivity/bg/002.png",
 		},
 		armatures = 
 		{

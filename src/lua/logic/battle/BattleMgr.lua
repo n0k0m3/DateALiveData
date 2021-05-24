@@ -53,6 +53,7 @@ function component:clear()
 end
 
 function component:pause()
+
     self.bPause = true
     for i = #self.list , 1 , -1 do
         if self.list[i] then

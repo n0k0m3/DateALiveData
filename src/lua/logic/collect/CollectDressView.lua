@@ -90,6 +90,8 @@ function CollectDressView:updateInfoPage(filtInfo)
 			local dressCfg = CollectDataMgr:getDressCfg(dressInfo.id)
 			itemCard:getChildByName("Image_dress"):setTexture(dressCfg.dressImg)
 			itemCard:getChildByName("Image_front"):getChildByName("Label_dress"):setTextById(dressCfg.nameTextId)
+
+			CollectDataMgr:addItemTrophy(itemCard, dressInfo.id)
 			itemCard:onClick(function()
 				if CollectDataMgr:getItemClickEnable() == false then
 					return

@@ -213,6 +213,9 @@ end
 function TaskActivityView:updateTaskItem(item,itemId)
     local activityInfo = self.activityInfo_
     local itemInfo = ActivityDataMgr2:getItemInfo(activityInfo.activityType, itemId)
+    if not itemInfo then
+        return
+    end
     local progress = ActivityDataMgr2:getProgress(activityInfo.activityType, itemId)
     local progressInfo = ActivityDataMgr2:getProgressInfo(activityInfo.activityType, itemId)
 

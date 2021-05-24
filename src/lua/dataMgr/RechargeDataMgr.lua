@@ -644,7 +644,7 @@ function RechargeDataMgr:isGrowFundViewShowRed()
 		end
 	end
 	-- 未购买 (一天只提醒一次)
-	if (not self.fundDataDic or #self.fundDataDic == 0) and not RechargeDataMgr:getDayHadInFundView() then
+	if (not self.fundDataDic or table.count(self.fundDataDic) == 0) and not UserDefalt:getBoolForKey("GrowFundNewFlag"..MainPlayer:getPlayerId()) then
 		_bool = true
 	end
 

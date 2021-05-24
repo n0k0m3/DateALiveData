@@ -1,0 +1,202 @@
+
+shixiangjiemian.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bjg
+  rotate: false
+  xy: 2, 702
+  size: 693, 320
+  orig: 693, 320
+  offset: 0, 0
+  index: -1
+images/fk1
+  rotate: false
+  xy: 697, 927
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+images/fk2
+  rotate: false
+  xy: 794, 933
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+images/hw
+  rotate: false
+  xy: 2, 60
+  size: 205, 640
+  orig: 205, 640
+  offset: 0, 0
+  index: -1
+images/xian/xian_00000
+  rotate: false
+  xy: 846, 994
+  size: 15, 28
+  orig: 27, 160
+  offset: 1, 132
+  index: -1
+images/xian/xian_00001
+  rotate: false
+  xy: 723, 832
+  size: 23, 37
+  orig: 27, 160
+  offset: 1, 123
+  index: -1
+images/xian/xian_00002
+  rotate: false
+  xy: 261, 659
+  size: 24, 41
+  orig: 27, 160
+  offset: 1, 112
+  index: -1
+images/xian/xian_00003
+  rotate: false
+  xy: 235, 596
+  size: 23, 44
+  orig: 27, 160
+  offset: 2, 102
+  index: -1
+images/xian/xian_00004
+  rotate: false
+  xy: 209, 520
+  size: 24, 47
+  orig: 27, 160
+  offset: 1, 92
+  index: -1
+images/xian/xian_00005
+  rotate: true
+  xy: 67, 9
+  size: 23, 49
+  orig: 27, 160
+  offset: 1, 83
+  index: -1
+images/xian/xian_00006
+  rotate: false
+  xy: 820, 970
+  size: 24, 52
+  orig: 27, 160
+  offset: 1, 73
+  index: -1
+images/xian/xian_00007
+  rotate: false
+  xy: 723, 871
+  size: 24, 54
+  orig: 27, 160
+  offset: 1, 63
+  index: -1
+images/xian/xian_00008
+  rotate: false
+  xy: 235, 642
+  size: 24, 58
+  orig: 27, 160
+  offset: 1, 53
+  index: -1
+images/xian/xian_00009
+  rotate: false
+  xy: 209, 569
+  size: 24, 61
+  orig: 27, 160
+  offset: 1, 43
+  index: -1
+images/xian/xian_00010
+  rotate: true
+  xy: 2, 8
+  size: 24, 63
+  orig: 27, 160
+  offset: 1, 33
+  index: -1
+images/xian/xian_00011
+  rotate: false
+  xy: 794, 955
+  size: 24, 67
+  orig: 27, 160
+  offset: 1, 23
+  index: -1
+images/xian/xian_00012
+  rotate: false
+  xy: 209, 632
+  size: 24, 68
+  orig: 27, 160
+  offset: 1, 14
+  index: -1
+images/xian/xian_00013
+  rotate: true
+  xy: 2, 34
+  size: 24, 72
+  orig: 27, 160
+  offset: 1, 3
+  index: -1
+images/xian/xian_00014
+  rotate: false
+  xy: 697, 857
+  size: 24, 68
+  orig: 27, 160
+  offset: 1, 0
+  index: -1
+images/xian/xian_00015
+  rotate: true
+  xy: 76, 34
+  size: 24, 62
+  orig: 27, 160
+  offset: 1, 0
+  index: -1
+images/xian/xian_00016
+  rotate: false
+  xy: 697, 800
+  size: 24, 55
+  orig: 27, 160
+  offset: 1, 0
+  index: -1
+images/xian/xian_00017
+  rotate: true
+  xy: 140, 34
+  size: 24, 48
+  orig: 27, 160
+  offset: 1, 0
+  index: -1
+images/xian/xian_00018
+  rotate: false
+  xy: 697, 758
+  size: 24, 40
+  orig: 27, 160
+  offset: 1, 0
+  index: -1
+images/xian/xian_00019
+  rotate: false
+  xy: 749, 891
+  size: 21, 34
+  orig: 27, 160
+  offset: 1, 0
+  index: -1
+images/xian/xian_00020
+  rotate: true
+  xy: 118, 17
+  size: 15, 27
+  orig: 27, 160
+  offset: 1, 0
+  index: -1
+images/xian/xian_00021
+  rotate: false
+  xy: 190, 38
+  size: 15, 20
+  orig: 27, 160
+  offset: 1, 0
+  index: -1
+images/xian/xian_00022
+  rotate: false
+  xy: 118, 2
+  size: 14, 13
+  orig: 27, 160
+  offset: 2, 0
+  index: -1
+images/xian/xian_00023
+  rotate: false
+  xy: 820, 962
+  size: 7, 6
+  orig: 27, 160
+  offset: 9, 0
+  index: -1

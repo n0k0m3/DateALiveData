@@ -289,7 +289,7 @@ local t =
 							height = "70",
 							ignoreSize = "False",
 							innerHeight = "70",
-							innerWidth = "430",
+							innerWidth = "600",
 							name = "scroll_cost",
 							showScrollbar = "False",
 							sizepercentx = "0",
@@ -299,7 +299,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -335,
+								PositionX = -424,
 								PositionY = -265,
 							},
 							uipanelviewmodel = 
@@ -307,7 +307,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "430",
+							width = "600",
 							ZOrder = "2",
 						},
 						{
@@ -577,8 +577,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -74,
-										PositionY = 67,
+										PositionX = -73,
+										PositionY = 69,
 									},
 									width = "150",
 									ZOrder = "4",

@@ -1,0 +1,1141 @@
+
+fight_10313_skillD_show.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B_Bfa2
+  rotate: false
+  xy: 692, 9
+  size: 571, 542
+  orig: 573, 544
+  offset: 1, 1
+  index: -1
+B_Rjiao3
+  rotate: true
+  xy: 1886, 24
+  size: 103, 158
+  orig: 105, 160
+  offset: 1, 1
+  index: -1
+B_toukui1
+  rotate: false
+  xy: 2, 8
+  size: 688, 543
+  orig: 690, 545
+  offset: 1, 1
+  index: -1
+F_Ljian2
+  rotate: false
+  xy: 1792, 1759
+  size: 253, 286
+  orig: 255, 288
+  offset: 1, 1
+  index: -1
+F_fa4
+  rotate: false
+  xy: 1792, 955
+  size: 248, 453
+  orig: 250, 455
+  offset: 1, 1
+  index: -1
+F_zui1
+  rotate: false
+  xy: 1886, 10
+  size: 51, 12
+  orig: 53, 14
+  offset: 1, 1
+  index: -1
+S_Bfa1
+  rotate: false
+  xy: 2, 553
+  size: 908, 1492
+  orig: 910, 1494
+  offset: 1, 1
+  index: -1
+S_Lzhua4
+  rotate: false
+  xy: 1792, 571
+  size: 232, 382
+  orig: 234, 384
+  offset: 1, 1
+  index: -1
+S_toukui3
+  rotate: false
+  xy: 1792, 1410
+  size: 250, 347
+  orig: 252, 349
+  offset: 1, 1
+  index: -1
+S_xiongjia2
+  rotate: true
+  xy: 1582, 4
+  size: 123, 302
+  orig: 125, 304
+  offset: 1, 1
+  index: -1
+Z_Ltoukui
+  rotate: false
+  xy: 1986, 292
+  size: 51, 277
+  orig: 53, 279
+  offset: 1, 1
+  index: -1
+Z_yan1
+  rotate: false
+  xy: 1265, 4
+  size: 315, 123
+  orig: 317, 125
+  offset: 1, 1
+  index: -1
+eye_4
+  rotate: false
+  xy: 912, 556
+  size: 80, 13
+  orig: 84, 17
+  offset: 2, 2
+  index: -1
+g_10
+  rotate: true
+  xy: 1265, 129
+  size: 440, 719
+  orig: 444, 723
+  offset: 2, 2
+  index: -1
+g_17
+  rotate: false
+  xy: 912, 571
+  size: 878, 1474
+  orig: 882, 1478
+  offset: 2, 2
+  index: -1
+zui_2
+  rotate: true
+  xy: 1986, 223
+  size: 67, 39
+  orig: 67, 39
+  offset: 0, 0
+  index: -1
+
+fight_10313_skillD_show2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B_Bfa1
+  rotate: false
+  xy: 809, 589
+  size: 876, 1457
+  orig: 878, 1459
+  offset: 1, 1
+  index: -1
+B_Ljiao3
+  rotate: false
+  xy: 1577, 2
+  size: 102, 154
+  orig: 104, 156
+  offset: 1, 1
+  index: -1
+B_Rxiaotui
+  rotate: false
+  xy: 183, 11
+  size: 169, 574
+  orig: 171, 576
+  offset: 1, 1
+  index: -1
+F_Bfa1
+  rotate: false
+  xy: 2, 587
+  size: 805, 1459
+  orig: 807, 1461
+  offset: 1, 1
+  index: -1
+F_Ldabi
+  rotate: false
+  xy: 1360, 2
+  size: 215, 273
+  orig: 217, 275
+  offset: 1, 1
+  index: -1
+F_Rjian2
+  rotate: true
+  xy: 1687, 1577
+  size: 469, 359
+  orig: 471, 361
+  offset: 1, 1
+  index: -1
+F_Rxiaotui
+  rotate: false
+  xy: 795, 16
+  size: 171, 569
+  orig: 173, 571
+  offset: 1, 1
+  index: -1
+F_Rzhua1
+  rotate: true
+  xy: 1360, 277
+  size: 310, 324
+  orig: 312, 326
+  offset: 1, 1
+  index: -1
+F_Rzhua2
+  rotate: false
+  xy: 1687, 640
+  size: 354, 503
+  orig: 356, 505
+  offset: 1, 1
+  index: -1
+S_Rxiaotui
+  rotate: false
+  xy: 2, 11
+  size: 179, 574
+  orig: 181, 576
+  offset: 1, 1
+  index: -1
+S_Rzhua1
+  rotate: false
+  xy: 1687, 1145
+  size: 355, 430
+  orig: 357, 432
+  offset: 1, 1
+  index: -1
+S_yan
+  rotate: false
+  xy: 1577, 158
+  size: 108, 117
+  orig: 110, 119
+  offset: 1, 1
+  index: -1
+Z_toukui1
+  rotate: true
+  xy: 1687, 2
+  size: 636, 339
+  orig: 638, 341
+  offset: 1, 1
+  index: -1
+Z_toukui2
+  rotate: true
+  xy: 968, 3
+  size: 584, 390
+  orig: 586, 392
+  offset: 1, 1
+  index: -1
+g_11
+  rotate: false
+  xy: 562, 16
+  size: 231, 569
+  orig: 235, 573
+  offset: 2, 2
+  index: -1
+g_8
+  rotate: false
+  xy: 354, 14
+  size: 206, 571
+  orig: 210, 575
+  offset: 2, 2
+  index: -1
+
+fight_10313_skillD_show3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B_Rjiao1
+  rotate: false
+  xy: 1996, 1507
+  size: 48, 176
+  orig: 50, 178
+  offset: 1, 1
+  index: -1
+B_qun2
+  rotate: false
+  xy: 2, 1358
+  size: 1080, 688
+  orig: 1082, 696
+  offset: 1, 1
+  index: -1
+F_Lxigai
+  rotate: true
+  xy: 1684, 935
+  size: 192, 292
+  orig: 194, 294
+  offset: 1, 1
+  index: -1
+F_Lzhua6
+  rotate: true
+  xy: 189, 7
+  size: 251, 242
+  orig: 253, 244
+  offset: 1, 1
+  index: -1
+F_Rdatui
+  rotate: false
+  xy: 2, 270
+  size: 196, 448
+  orig: 198, 450
+  offset: 1, 1
+  index: -1
+F_Rjiao1
+  rotate: false
+  xy: 1560, 934
+  size: 122, 193
+  orig: 124, 195
+  offset: 1, 1
+  index: -1
+F_Rmei
+  rotate: true
+  xy: 1996, 1206
+  size: 299, 47
+  orig: 301, 49
+  offset: 1, 1
+  index: -1
+F_Rshou1
+  rotate: true
+  xy: 1889, 102
+  size: 166, 157
+  orig: 168, 159
+  offset: 1, 1
+  index: -1
+F_fa3
+  rotate: true
+  xy: 1084, 1407
+  size: 276, 910
+  orig: 278, 912
+  offset: 1, 1
+  index: -1
+F_qun3
+  rotate: false
+  xy: 1056, 270
+  size: 972, 655
+  orig: 974, 657
+  offset: 1, 1
+  index: -1
+F_toukui3
+  rotate: true
+  xy: 1210, 932
+  size: 195, 348
+  orig: 197, 350
+  offset: 1, 1
+  index: -1
+S_Ljian1
+  rotate: true
+  xy: 1889, 25
+  size: 75, 154
+  orig: 77, 156
+  offset: 1, 1
+  index: -1
+S_Lshou2
+  rotate: false
+  xy: 1056, 931
+  size: 152, 196
+  orig: 154, 198
+  offset: 1, 1
+  index: -1
+S_Lzhua5
+  rotate: false
+  xy: 1575, 3
+  size: 312, 265
+  orig: 314, 267
+  offset: 1, 1
+  index: -1
+S_mei
+  rotate: true
+  xy: 2016, 1934
+  size: 112, 26
+  orig: 114, 28
+  offset: 1, 1
+  index: -1
+S_qun1
+  rotate: false
+  xy: 200, 260
+  size: 854, 458
+  orig: 856, 460
+  offset: 1, 1
+  index: -1
+S_qun2
+  rotate: false
+  xy: 2, 720
+  size: 1052, 636
+  orig: 1054, 638
+  offset: 1, 1
+  index: -1
+Z_Rer
+  rotate: true
+  xy: 1056, 3
+  size: 265, 517
+  orig: 267, 519
+  offset: 1, 1
+  index: -1
+Z_Rtoukui
+  rotate: false
+  xy: 1996, 927
+  size: 46, 277
+  orig: 48, 279
+  offset: 1, 1
+  index: -1
+Z_fa2
+  rotate: true
+  xy: 1084, 1129
+  size: 276, 910
+  orig: 278, 912
+  offset: 1, 1
+  index: -1
+g_13
+  rotate: false
+  xy: 2, 2
+  size: 185, 266
+  orig: 189, 270
+  offset: 2, 2
+  index: -1
+g_2
+  rotate: true
+  xy: 1084, 1685
+  size: 361, 930
+  orig: 365, 934
+  offset: 2, 2
+  index: -1
+g_7
+  rotate: true
+  xy: 433, 11
+  size: 247, 619
+  orig: 251, 623
+  offset: 2, 2
+  index: -1
+
+fight_10313_skillD_show4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B_Ljiao1
+  rotate: true
+  xy: 334, 6
+  size: 62, 171
+  orig: 64, 173
+  offset: 1, 1
+  index: -1
+B_Ljiao2
+  rotate: true
+  xy: 1909, 1177
+  size: 241, 137
+  orig: 243, 139
+  offset: 1, 1
+  index: -1
+B_Lxigai2
+  rotate: true
+  xy: 1040, 514
+  size: 190, 169
+  orig: 192, 171
+  offset: 1, 1
+  index: -1
+B_Rjiao2
+  rotate: true
+  xy: 1700, 4
+  size: 212, 140
+  orig: 214, 142
+  offset: 1, 1
+  index: -1
+B_Rxigai2
+  rotate: true
+  xy: 334, 251
+  size: 186, 183
+  orig: 188, 185
+  offset: 1, 1
+  index: -1
+B_jian1
+  rotate: false
+  xy: 1027, 706
+  size: 677, 365
+  orig: 679, 367
+  offset: 1, 1
+  index: -1
+B_jian2
+  rotate: false
+  xy: 1050, 1237
+  size: 857, 307
+  orig: 859, 309
+  offset: 1, 1
+  index: -1
+F_Ljian2_1
+  rotate: false
+  xy: 353, 876
+  size: 163, 81
+  orig: 165, 83
+  offset: 1, 1
+  index: -1
+F_Ljiao1
+  rotate: true
+  xy: 1520, 572
+  size: 132, 180
+  orig: 134, 182
+  offset: 1, 1
+  index: -1
+F_Ljiao2
+  rotate: false
+  xy: 1520, 4
+  size: 178, 212
+  orig: 180, 214
+  offset: 1, 1
+  index: -1
+F_Lshou1
+  rotate: false
+  xy: 353, 707
+  size: 158, 167
+  orig: 160, 169
+  offset: 1, 1
+  index: -1
+F_Lzhua2
+  rotate: false
+  xy: 520, 4
+  size: 374, 489
+  orig: 376, 491
+  offset: 1, 1
+  index: -1
+F_Rjian1
+  rotate: false
+  xy: 2, 706
+  size: 349, 334
+  orig: 351, 336
+  offset: 1, 1
+  index: -1
+F_Rjian2_1
+  rotate: false
+  xy: 353, 959
+  size: 164, 81
+  orig: 166, 83
+  offset: 1, 1
+  index: -1
+F_Rjiao2
+  rotate: false
+  xy: 520, 495
+  size: 243, 211
+  orig: 245, 213
+  offset: 1, 1
+  index: -1
+F_Rshou2
+  rotate: true
+  xy: 1842, 5
+  size: 211, 172
+  orig: 213, 174
+  offset: 1, 1
+  index: -1
+F_fa5
+  rotate: true
+  xy: 1520, 477
+  size: 93, 171
+  orig: 95, 173
+  offset: 1, 1
+  index: -1
+F_fa7
+  rotate: false
+  xy: 2, 4
+  size: 330, 430
+  orig: 332, 432
+  offset: 1, 1
+  index: -1
+F_qun1
+  rotate: false
+  xy: 1050, 1546
+  size: 872, 500
+  orig: 874, 502
+  offset: 1, 1
+  index: -1
+F_qun2
+  rotate: false
+  xy: 2, 1493
+  size: 1046, 553
+  orig: 1048, 555
+  offset: 1, 1
+  index: -1
+F_toukui2
+  rotate: false
+  xy: 896, 9
+  size: 622, 484
+  orig: 624, 486
+  offset: 1, 1
+  index: -1
+F_yan1
+  rotate: false
+  xy: 1211, 562
+  size: 288, 142
+  orig: 290, 144
+  offset: 1, 1
+  index: -1
+S_Ljian2
+  rotate: false
+  xy: 1924, 1420
+  size: 116, 251
+  orig: 118, 253
+  offset: 1, 1
+  index: -1
+S_Ljiao1
+  rotate: false
+  xy: 1924, 1866
+  size: 120, 180
+  orig: 122, 182
+  offset: 1, 1
+  index: -1
+S_Rjian1
+  rotate: false
+  xy: 1706, 436
+  size: 336, 323
+  orig: 338, 325
+  offset: 1, 1
+  index: -1
+S_Rjian1_1
+  rotate: false
+  xy: 1854, 1011
+  size: 191, 164
+  orig: 193, 166
+  offset: 1, 1
+  index: -1
+S_Rjiao1
+  rotate: false
+  xy: 1924, 1673
+  size: 118, 191
+  orig: 120, 193
+  offset: 1, 1
+  index: -1
+S_Rshou2
+  rotate: true
+  xy: 334, 70
+  size: 179, 183
+  orig: 181, 185
+  offset: 1, 1
+  index: -1
+S_Rzhua3
+  rotate: true
+  xy: 1520, 218
+  size: 216, 525
+  orig: 218, 527
+  offset: 1, 1
+  index: -1
+S_Rzhua4
+  rotate: true
+  xy: 520, 893
+  size: 147, 505
+  orig: 149, 507
+  offset: 1, 1
+  index: -1
+S_qun3
+  rotate: false
+  xy: 2, 1042
+  size: 1023, 449
+  orig: 1025, 451
+  offset: 1, 1
+  index: -1
+S_xiongjia1
+  rotate: true
+  xy: 765, 495
+  size: 190, 273
+  orig: 192, 275
+  offset: 1, 1
+  index: -1
+Z_Ler
+  rotate: true
+  xy: 2, 439
+  size: 265, 516
+  orig: 267, 518
+  offset: 1, 1
+  index: -1
+Z_fa1
+  rotate: true
+  xy: 1027, 1073
+  size: 162, 825
+  orig: 164, 827
+  offset: 1, 1
+  index: -1
+g_16
+  rotate: false
+  xy: 518, 708
+  size: 250, 183
+  orig: 254, 187
+  offset: 2, 2
+  index: -1
+g_4
+  rotate: true
+  xy: 1706, 761
+  size: 248, 339
+  orig: 252, 343
+  offset: 2, 2
+  index: -1
+g_6
+  rotate: false
+  xy: 770, 687
+  size: 251, 204
+  orig: 255, 208
+  offset: 2, 2
+  index: -1
+
+fight_10313_skillD_show5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B_Ler
+  rotate: false
+  xy: 622, 1606
+  size: 613, 440
+  orig: 615, 442
+  offset: 1, 1
+  index: -1
+B_Lxiaotui
+  rotate: false
+  xy: 1661, 555
+  size: 169, 563
+  orig: 171, 565
+  offset: 1, 1
+  index: -1
+B_Lxigai1
+  rotate: true
+  xy: 1331, 23
+  size: 85, 227
+  orig: 87, 229
+  offset: 1, 1
+  index: -1
+B_Rer
+  rotate: true
+  xy: 791, 249
+  size: 271, 561
+  orig: 273, 563
+  offset: 1, 1
+  index: -1
+B_Rxigai1
+  rotate: true
+  xy: 1805, 1649
+  size: 85, 233
+  orig: 87, 235
+  offset: 1, 1
+  index: -1
+B_shangshen
+  rotate: true
+  xy: 2, 11
+  size: 332, 531
+  orig: 334, 533
+  offset: 1, 1
+  index: -1
+B_tou
+  rotate: false
+  xy: 791, 522
+  size: 481, 540
+  orig: 483, 542
+  offset: 1, 1
+  index: -1
+B_toukui2
+  rotate: true
+  xy: 2, 345
+  size: 597, 415
+  orig: 599, 417
+  offset: 1, 1
+  index: -1
+F_Bfa2
+  rotate: true
+  xy: 772, 70
+  size: 177, 557
+  orig: 179, 559
+  offset: 1, 1
+  index: -1
+F_Btoukui
+  rotate: false
+  xy: 535, 50
+  size: 235, 322
+  orig: 237, 324
+  offset: 1, 1
+  index: -1
+F_Lzhua3
+  rotate: false
+  xy: 1659, 57
+  size: 310, 496
+  orig: 312, 498
+  offset: 1, 1
+  index: -1
+F_Lzhua4
+  rotate: false
+  xy: 1274, 569
+  size: 385, 549
+  orig: 387, 551
+  offset: 1, 1
+  index: -1
+F_Rer
+  rotate: true
+  xy: 2, 944
+  size: 630, 456
+  orig: 632, 458
+  offset: 1, 1
+  index: -1
+F_tou
+  rotate: false
+  xy: 744, 1064
+  size: 482, 540
+  orig: 484, 542
+  offset: 1, 1
+  index: -1
+F_toukui1
+  rotate: true
+  xy: 419, 374
+  size: 563, 370
+  orig: 565, 372
+  offset: 1, 1
+  index: -1
+S_Rzhua2
+  rotate: false
+  xy: 1770, 1123
+  size: 257, 479
+  orig: 259, 481
+  offset: 1, 1
+  index: -1
+S_shangshen
+  rotate: false
+  xy: 460, 939
+  size: 282, 635
+  orig: 284, 637
+  offset: 1, 1
+  index: -1
+S_toukui2
+  rotate: false
+  xy: 2, 1576
+  size: 618, 470
+  orig: 620, 472
+  offset: 1, 1
+  index: -1
+Z_liuhai
+  rotate: true
+  xy: 1354, 110
+  size: 457, 303
+  orig: 459, 305
+  offset: 1, 1
+  index: -1
+Z_meimao
+  rotate: true
+  xy: 1971, 193
+  size: 371, 39
+  orig: 373, 41
+  offset: 1, 1
+  index: -1
+Z_toukui3
+  rotate: false
+  xy: 1237, 1604
+  size: 566, 442
+  orig: 568, 444
+  offset: 1, 1
+  index: -1
+g_12
+  rotate: false
+  xy: 1832, 566
+  size: 177, 555
+  orig: 181, 559
+  offset: 2, 2
+  index: -1
+g_14
+  rotate: false
+  xy: 1805, 1736
+  size: 241, 310
+  orig: 245, 314
+  offset: 2, 2
+  index: -1
+g_3
+  rotate: true
+  xy: 1228, 1120
+  size: 482, 540
+  orig: 486, 544
+  offset: 2, 2
+  index: -1
+
+fight_10313_skillD_show6.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+F_Ldatui
+  rotate: true
+  xy: 1380, 1144
+  size: 186, 402
+  orig: 188, 404
+  offset: 1, 1
+  index: -1
+F_Ler
+  rotate: false
+  xy: 2, 1459
+  size: 277, 586
+  orig: 279, 588
+  offset: 1, 1
+  index: -1
+F_Ljian1
+  rotate: false
+  xy: 1754, 536
+  size: 272, 313
+  orig: 274, 315
+  offset: 1, 1
+  index: -1
+F_Lshou2
+  rotate: false
+  xy: 725, 912
+  size: 223, 159
+  orig: 225, 161
+  offset: 1, 1
+  index: -1
+F_Lxiaobi
+  rotate: false
+  xy: 1744, 4
+  size: 238, 257
+  orig: 240, 259
+  offset: 1, 1
+  index: -1
+F_Lxiaotui
+  rotate: false
+  xy: 2, 894
+  size: 158, 563
+  orig: 160, 565
+  offset: 1, 1
+  index: -1
+F_Lzhua1
+  rotate: true
+  xy: 1436, 228
+  size: 298, 306
+  orig: 300, 308
+  offset: 1, 1
+  index: -1
+F_Lzhua5
+  rotate: false
+  xy: 1380, 794
+  size: 372, 348
+  orig: 374, 350
+  offset: 1, 1
+  index: -1
+F_Rdabi
+  rotate: true
+  xy: 1098, 1387
+  size: 215, 286
+  orig: 217, 288
+  offset: 1, 1
+  index: -1
+F_Rxiaobi
+  rotate: true
+  xy: 1436, 3
+  size: 223, 271
+  orig: 225, 273
+  offset: 1, 1
+  index: -1
+F_Rxigai
+  rotate: false
+  xy: 1813, 1484
+  size: 227, 281
+  orig: 229, 283
+  offset: 1, 1
+  index: -1
+F_Rzhua3
+  rotate: false
+  xy: 2, 332
+  size: 369, 560
+  orig: 371, 562
+  offset: 1, 1
+  index: -1
+F_Rzhua4
+  rotate: false
+  xy: 162, 910
+  size: 386, 547
+  orig: 388, 549
+  offset: 1, 1
+  index: -1
+F_Rzhua5
+  rotate: false
+  xy: 1031, 371
+  size: 351, 365
+  orig: 353, 367
+  offset: 1, 1
+  index: -1
+F_fa1
+  rotate: true
+  xy: 268, 10
+  size: 320, 459
+  orig: 322, 461
+  offset: 1, 1
+  index: -1
+F_fa2
+  rotate: true
+  xy: 1390, 1643
+  size: 402, 421
+  orig: 404, 423
+  offset: 1, 1
+  index: -1
+F_fa6
+  rotate: false
+  xy: 647, 1552
+  size: 156, 493
+  orig: 158, 495
+  offset: 1, 1
+  index: -1
+F_shanshen1
+  rotate: false
+  xy: 546, 364
+  size: 332, 544
+  orig: 334, 546
+  offset: 1, 1
+  index: -1
+F_xiongjia1
+  rotate: false
+  xy: 1436, 528
+  size: 308, 264
+  orig: 310, 266
+  offset: 1, 1
+  index: -1
+F_xiongjia2
+  rotate: true
+  xy: 1746, 263
+  size: 271, 299
+  orig: 273, 301
+  offset: 1, 1
+  index: -1
+S_Ljiao2
+  rotate: false
+  xy: 1784, 1027
+  size: 261, 175
+  orig: 263, 177
+  offset: 1, 1
+  index: -1
+S_Lxiaotui
+  rotate: false
+  xy: 373, 362
+  size: 171, 546
+  orig: 173, 548
+  offset: 1, 1
+  index: -1
+S_Lzhua1
+  rotate: true
+  xy: 1031, 738
+  size: 333, 346
+  orig: 335, 348
+  offset: 1, 1
+  index: -1
+S_Lzhua2
+  rotate: false
+  xy: 880, 473
+  size: 149, 437
+  orig: 151, 439
+  offset: 1, 1
+  index: -1
+S_Lzhua3
+  rotate: false
+  xy: 805, 1601
+  size: 210, 444
+  orig: 212, 446
+  offset: 1, 1
+  index: -1
+S_Rjiao2
+  rotate: false
+  xy: 1754, 851
+  size: 273, 174
+  orig: 275, 176
+  offset: 1, 1
+  index: -1
+S_Rxigai
+  rotate: false
+  xy: 1813, 1767
+  size: 230, 278
+  orig: 232, 280
+  offset: 1, 1
+  index: -1
+S_fa2
+  rotate: true
+  xy: 1390, 1332
+  size: 309, 406
+  orig: 311, 408
+  offset: 1, 1
+  index: -1
+S_tou
+  rotate: false
+  xy: 1017, 1604
+  size: 371, 441
+  orig: 373, 443
+  offset: 1, 1
+  index: -1
+S_toukui1
+  rotate: true
+  xy: 725, 1073
+  size: 477, 371
+  orig: 479, 373
+  offset: 1, 1
+  index: -1
+S_xiongjia1_1
+  rotate: true
+  xy: 880, 368
+  size: 103, 138
+  orig: 105, 140
+  offset: 1, 1
+  index: -1
+Z_shangshen1
+  rotate: false
+  xy: 281, 1510
+  size: 364, 535
+  orig: 366, 537
+  offset: 1, 1
+  index: -1
+Z_tou
+  rotate: true
+  xy: 729, 10
+  size: 352, 404
+  orig: 354, 406
+  offset: 1, 1
+  index: -1
+Z_xiongjia2
+  rotate: false
+  xy: 2, 2
+  size: 264, 328
+  orig: 266, 330
+  offset: 1, 1
+  index: -1
+g_1
+  rotate: false
+  xy: 550, 1000
+  size: 173, 508
+  orig: 177, 512
+  offset: 2, 2
+  index: -1
+g_15
+  rotate: false
+  xy: 1098, 1094
+  size: 280, 291
+  orig: 284, 295
+  offset: 2, 2
+  index: -1
+g_5
+  rotate: false
+  xy: 1135, 17
+  size: 299, 352
+  orig: 303, 356
+  offset: 2, 2
+  index: -1
+g_9
+  rotate: false
+  xy: 1798, 1204
+  size: 239, 278
+  orig: 243, 282
+  offset: 2, 2
+  index: -1
+
+fight_10313_skillD_show7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+S_Lxigai
+  rotate: false
+  xy: 350, 304
+  size: 219, 265
+  orig: 221, 267
+  offset: 1, 1
+  index: -1
+S_Rzhua5
+  rotate: false
+  xy: 2, 9
+  size: 294, 263
+  orig: 296, 265
+  offset: 1, 1
+  index: -1
+Z_xiongjia1
+  rotate: false
+  xy: 2, 274
+  size: 346, 295
+  orig: 348, 297
+  offset: 1, 1
+  index: -1

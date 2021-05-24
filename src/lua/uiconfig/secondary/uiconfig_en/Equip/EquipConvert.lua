@@ -6320,7 +6320,7 @@ local t =
 							spineModel = 
 							{
 								SpinePath = "effect/effect_heroGrow_ui16/effect_heroGrow_ui16",
-								animationName = "ALL",
+								animationName = "ALL_de",
 								IsLoop = false,
 								IsPlay = false,
 								IsUseQueue = false,

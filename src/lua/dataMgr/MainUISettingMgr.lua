@@ -61,9 +61,9 @@ function MainUISettingMgr:onRecvChangeInfo(data)
 	local isAdd = false
 	for k, v in pairs(data.data.uiChange) do
 		self.uiChange[v.cid] = v
-		if 1 == v.ct then
-			isAdd = true
-		end
+		-- if 1 == v.ct then
+		-- 	isAdd = true
+		-- end
 		
 	end
 	if isAdd then

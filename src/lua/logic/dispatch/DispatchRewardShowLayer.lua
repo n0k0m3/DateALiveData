@@ -47,8 +47,9 @@ end
 
 function DispatchRewardShowLayer:refreshView()
     self.ScrollView_items:removeAllItems()
-    for k, info in pairs(self.rewards_) do
-        local reward_item = self.Panel_reward_item:clone()
+    self.ScrollView_items:AsyncUpdateItem(self.rewards_,function ( )
+        return self.Panel_reward_item:clone()
+    end,function (reward_item,info)
         local Image_icon = TFDirector:getChildByPath(reward_item, "Image_icon")
         local Label_name = TFDirector:getChildByPath(reward_item, "Label_name")
         local Label_buff_title = TFDirector:getChildByPath(reward_item, "Label_buff_title")
@@ -59,8 +60,9 @@ function DispatchRewardShowLayer:refreshView()
         Label_buff_value:setText(tostring(buff).."%")
         Image_icon:setTexture(self.typeInfo[info.type].showIcon)
         Label_name:setText(self.typeInfo[info.type].name)
-        for j,v in ipairs(info.rewards) do
-            local item = self.Panel_item:clone()
+        ScrollView_reward:AsyncUpdateItem(info.rewards,function (...)
+            return self.Panel_item:clone()
+        end,function (item,v)
             local Label_count = TFDirector:getChildByPath(item, "Label_count")
             Label_count:setText(tostring(v.num))
             local Panel_goods = TFDirector:getChildByPath(item, "Panel_goods")
@@ -68,10 +70,8 @@ function DispatchRewardShowLayer:refreshView()
             PrefabDataMgr:setInfo(Panel_goodsItem, v.id, -1)
             Panel_goodsItem:setScale(0.7)
             Panel_goodsItem:Pos(0, 0):AddTo(Panel_goods)
-            ScrollView_reward:pushBackCustomItem(item)
-        end
-        self.ScrollView_items:pushBackCustomItem(reward_item)
-    end
+        end)
+    end)
 end
 
 function DispatchRewardShowLayer:registerEvents()

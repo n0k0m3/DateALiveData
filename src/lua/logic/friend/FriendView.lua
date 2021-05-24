@@ -480,17 +480,17 @@ function FriendView:updateFriendBtnState()
         self.Button_delet_sure:setVisible(false)
         self.Image_givingCount:setVisible(true)
         self.Label_friendView_delet_tips:setVisible(false)
-        if #self.friend_ > 0 then
-            self.Button_delet_all:setTouchEnabled(true)
-            self.Button_delet_all:setGrayEnabled(false)
-        else
-            self.Button_delet_all:setTouchEnabled(false)
-            self.Button_delet_all:setGrayEnabled(true)
-        end
     end
     self.deletPlayerCids = {}
     self:showFriend()
     self:updateItemSelectState()
+    if #self.friend_ > 0 then
+        self.Button_delet_all:setTouchEnabled(true)
+        self.Button_delet_all:setGrayEnabled(false)
+    else
+        self.Button_delet_all:setTouchEnabled(false)
+        self.Button_delet_all:setGrayEnabled(true)
+    end
 end
 
 function FriendView:showApply()
@@ -585,6 +585,7 @@ function FriendView:addFriendItem(itemCell)
 end
 
 function FriendView:updateFriendListByType(type_)
+    self.curType = type_
     local listView, data
     if type_ == EC_Friend.FRIEND then
         listView = self.ListView_friend
@@ -655,11 +656,15 @@ function FriendView:updateFriendListByType(type_)
             self.label_empyTetx_shielding:show()
         end
     end
+    local newdata = {}
     listView:AsyncUpdateItem(data,function()
         local Panel_friendItem = self:addFriendItem()
         return Panel_friendItem
     end,
     function (v,info)
+        if self.curType ~= type_ then
+            return
+        end
         local friendInfo
         if type_ == EC_Friend.ADD then
             friendInfo = info
@@ -726,6 +731,9 @@ function FriendView:updateFriendListByIndex(index)
 end
 
 function FriendView:setFriendInfo(item, friendInfo)
+    if not friendInfo then
+        return
+    end
     local portraitCid = friendInfo.portraitCid
     if friendInfo.leaderCid then
         local heroCfg = TabDataMgr:getData("Hero", friendInfo.leaderCid)

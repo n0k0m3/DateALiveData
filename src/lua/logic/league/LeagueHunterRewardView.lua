@@ -258,7 +258,7 @@ function LeagueHunterRewardView:updateRewardItem( item ,data, chooseIndex )
 		value = string.format('%.2f%%',value)
 		item.Label_level_name:setText("≥"..value)
 	end
-	dump(data)
+	--dump(data)
 	local tb = {}
 	if chooseIndex == 1 then
 		tb = bossCfg.firstDropShow
@@ -270,19 +270,24 @@ function LeagueHunterRewardView:updateRewardItem( item ,data, chooseIndex )
 		tb = data.award
 		item.Label_pass:setTextById(3300053)
 	end
-
-	for i, v in pairs(tb) do
+	
+	local realData = {}
+	if chooseIndex == 3 then
+		realData = tb
+	else
+		for k,v in pairs(tb) do
+			table.insert(realData,{id = k,num = v})
+		end
+	end
+	item.uiList_scrollView:AsyncUpdateItem(realData,function (...)
+        return PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
+    end,function (Panel_dropGoodsItem,v)
         local flag = 0
         local arg = {}
-        local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
     	Panel_dropGoodsItem:Scale(0.65)
-    	if chooseIndex == 3 then
-    		PrefabDataMgr:setInfo(Panel_dropGoodsItem, {v.id,v.num}, flag, arg)
-    	else
-    		PrefabDataMgr:setInfo(Panel_dropGoodsItem, {i,v}, flag, arg)
-    	end
-        item.uiList_scrollView:pushBackCustomItem(Panel_dropGoodsItem)
-    end
+    	PrefabDataMgr:setInfo(Panel_dropGoodsItem, {v.id,v.num}, flag, arg)
+    end)
+
 -- ,1 未满足条件,2 可领取,3 已领取
     if data.status == 2 then
     	item.Button_get:show()

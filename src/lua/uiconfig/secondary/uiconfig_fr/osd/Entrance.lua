@@ -323,7 +323,7 @@ local t =
 									controlID = "label_time_button_challenge_panel_base_Panel-Entrance_entrance_osd_Game",
 									UUID = "18ee8563_520b_42ae_896e_2020990cd6e3",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -359,6 +359,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
+										PositionX = 72,
 										PositionY = -49,
 									},
 									width = "83",

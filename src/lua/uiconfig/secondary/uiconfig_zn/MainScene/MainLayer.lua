@@ -7246,7 +7246,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "50",
+											height = "60",
 											ignoreSize = "True",
 											name = "Button_preview",
 											normal = "ui/preview/main_btn.png",
@@ -7264,7 +7264,7 @@ local t =
 												relativeToName = "Panel",
 											},
 											UItype = "Button",
-											width = "50",
+											width = "60",
 											ZOrder = "1",
 											components = 
 											{

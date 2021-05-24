@@ -165,7 +165,6 @@ function BrushMonster:update(delta)
         local node = self.timeNode_[i]
         if node:update(delta) then
             local monster, isEmpty = node:trigger()
-
             self.count_ = self.count_ + 1
             -- 词缀怪
             local index = table.indexOf(self.affixIndex_, self.count_)
@@ -313,7 +312,6 @@ function BrushMonster:onBurshEvent(brushCfg, params, triggerFlag)
     local function bootstrap()
         local node = TimingNode:create(duration, monster, callback)
         table.insert(self.timeNode_, node)
-
         if monsterSectionCfg.helpPerson then
             battleController.activateAssit()
         end

@@ -502,6 +502,66 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "ctrlLimit_Effect_Button_ctrlA_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "7b62db9c_46eb_498b_ba53_656b7a89094c",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									scaleX = "1.3",
+									scaleY = "1.3",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									ZOrder = "1",
+								},
+								{
+									controlID = "LoadingBar_limit_Button_ctrlA_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "a9ac7647_4156_47e3_af6a_b67693a0040c",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MELoadingBar",
+									direction = "4",
+									dstBlendFunc = "771",
+									height = "107",
+									ignoreSize = "True",
+									name = "LoadingBar_limit",
+									percent = "100",
+									scaleX = "1.3",
+									scaleY = "1.3",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texture = "ui/battle/097.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "107",
+									ZOrder = "1",
+								},
+								{
 									controlID = "Image_silence_Button_ctrlA_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
 									UUID = "91e39da5_1d35_4bd2_9dd8_9d031a551baf",
 									anchorPoint = "False",
@@ -816,6 +876,69 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "ctrlLimit_Effect_Button_ctrlB_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "9d92844d_0a2e_493e_ab5f_1c9c6d8760b7",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									scaleX = "0.88",
+									scaleY = "0.88",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									ZOrder = "1",
+								},
+								{
+									controlID = "LoadingBar_limit_Button_ctrlB_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "9c895c38_75bf_42c3_b63e_739b5a612b66",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MELoadingBar",
+									direction = "4",
+									dstBlendFunc = "771",
+									height = "107",
+									ignoreSize = "True",
+									name = "LoadingBar_limit",
+									percent = "100",
+									scaleX = "0.88",
+									scaleY = "0.88",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texture = "ui/battle/097.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -1,
+										LeftPositon = 1027,
+										TopPosition = 432,
+										relativeToName = "Panel",
+									},
+									width = "107",
+									ZOrder = "1",
+								},
+								{
 									controlID = "Image_silence_Button_ctrlB_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
 									UUID = "16b2f891_5bf0_4a48_ac0e_dbadae7a99b1",
 									anchorPoint = "False",
@@ -1094,6 +1217,62 @@ local t =
 										PositionY = -36,
 									},
 									width = "25",
+									ZOrder = "1",
+								},
+								{
+									controlID = "ctrlLimit_Effect_Button_ctrlF_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "e8a04ee3_f055_4cb7_b4dc_69afbd826c4c",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									ZOrder = "1",
+								},
+								{
+									controlID = "LoadingBar_limit_Button_ctrlF_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "63280c17_3cf2_4559_b8a4_cd802adf066a",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MELoadingBar",
+									direction = "4",
+									dstBlendFunc = "771",
+									height = "107",
+									ignoreSize = "True",
+									name = "LoadingBar_limit",
+									percent = "100",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texture = "ui/battle/097.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "107",
 									ZOrder = "1",
 								},
 								{
@@ -1409,6 +1588,62 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "ctrlLimit_Effect_Button_ctrlC_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "0b863eec_354c_4721_ab05_ecda24055ab5",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									ZOrder = "1",
+								},
+								{
+									controlID = "LoadingBar_limit_Button_ctrlC_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "6d056702_e73f_4df6_aef2_97d8dc638192",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MELoadingBar",
+									direction = "4",
+									dstBlendFunc = "771",
+									height = "107",
+									ignoreSize = "True",
+									name = "LoadingBar_limit",
+									percent = "100",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texture = "ui/battle/097.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "107",
+									ZOrder = "1",
+								},
+								{
 									controlID = "Image_silence_Button_ctrlC_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
 									UUID = "cca0ff2a_749b_4059_ace8_cb1fca77c85c",
 									anchorPoint = "False",
@@ -1718,6 +1953,62 @@ local t =
 										PositionY = -36,
 									},
 									width = "25",
+									ZOrder = "1",
+								},
+								{
+									controlID = "ctrlLimit_Effect_Button_ctrlD_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "c9031e01_e376_407a_bc55_bb69c77d1836",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									ZOrder = "1",
+								},
+								{
+									controlID = "LoadingBar_limit_Button_ctrlD_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "ee575796_1e3a_4b9a_a165_fe81adc6423a",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MELoadingBar",
+									direction = "4",
+									dstBlendFunc = "771",
+									height = "107",
+									ignoreSize = "True",
+									name = "LoadingBar_limit",
+									percent = "100",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texture = "ui/battle/097.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "107",
 									ZOrder = "1",
 								},
 								{
@@ -2033,6 +2324,62 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "ctrlLimit_Effect_Button_ctrlE_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "a074336e_a919_42e5_8a96_472718a28279",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									ZOrder = "1",
+								},
+								{
+									controlID = "LoadingBar_limit_Button_ctrlE_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "96b97ff4_2984_46b0_afa1_bfced9b9bf89",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MELoadingBar",
+									direction = "4",
+									dstBlendFunc = "771",
+									height = "107",
+									ignoreSize = "True",
+									name = "LoadingBar_limit",
+									percent = "100",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texture = "ui/battle/097.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "107",
+									ZOrder = "1",
+								},
+								{
 									controlID = "Image_silence_Button_ctrlE_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
 									UUID = "79a24047_7dc1_4e99_ae62_745c0d9ef15f",
 									anchorPoint = "False",
@@ -2345,6 +2692,63 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "ctrlLimit_Effect_Button_ctrlG_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "9ba1967a_1bbd_4f6f_80ff_e6e1cb5446db",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									ZOrder = "1",
+								},
+								{
+									controlID = "LoadingBar_limit_Button_ctrlG_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "35bebf56_d489_4d5a_b42e_b1311db0551d",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MELoadingBar",
+									direction = "4",
+									dstBlendFunc = "771",
+									height = "107",
+									ignoreSize = "True",
+									name = "LoadingBar_limit",
+									percent = "100",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texture = "ui/battle/097.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -4,
+										PositionY = 1,
+									},
+									width = "107",
+									ZOrder = "1",
+								},
+								{
 									controlID = "Image_silence_Button_ctrlG_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
 									UUID = "3d1da414_e8cf_4f2f_bb1a_7c1a7f04d5f8",
 									anchorPoint = "False",
@@ -2364,7 +2768,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = -3,
+										PositionY = 1,
 									},
 									width = "100",
 									ZOrder = "1",
@@ -2989,6 +3394,62 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "ctrlLimit_Effect_Button_ctrlH_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "d9c88904_078d_4cc9_8007_f0823e4a9e41",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									ZOrder = "1",
+								},
+								{
+									controlID = "LoadingBar_limit_Button_ctrlH_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "463bc4d9_34d9_4926_81ee_fc51adcfd893",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MELoadingBar",
+									direction = "4",
+									dstBlendFunc = "771",
+									height = "107",
+									ignoreSize = "True",
+									name = "LoadingBar_limit",
+									percent = "100",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texture = "ui/battle/097.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "107",
+									ZOrder = "1",
+								},
+								{
 									controlID = "Image_silence_Button_ctrlH_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
 									UUID = "ab6d81b7_51fb_4e3f_b49a_e89a2353a708",
 									anchorPoint = "False",
@@ -3209,6 +3670,33 @@ local t =
 										
 									},
 									width = "36",
+									ZOrder = "1",
+								},
+								{
+									controlID = "LoadingBar_limit_Button_ctrlI_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "c545fa83_792d_44af_a011_17f9384a86e6",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MELoadingBar",
+									direction = "4",
+									dstBlendFunc = "771",
+									height = "107",
+									ignoreSize = "True",
+									name = "LoadingBar_limit",
+									percent = "100",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texture = "ui/battle/097.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "107",
 									ZOrder = "1",
 								},
 								{
@@ -5392,6 +5880,7 @@ local t =
 			"ui/battle/042.png",
 			"icon/skill/10101_skillG.png",
 			"ui/battle/076.png",
+			"ui/battle/097.png",
 			"ui/battle/Disable_2_bg.png",
 			"ui/battle/Disable_2_cover2.png",
 			"ui/battle/043.png",

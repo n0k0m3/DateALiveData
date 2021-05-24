@@ -1826,7 +1826,7 @@ local t =
 													controlID = "Label_title_Image_leader_logo_Panel_member_model_big_Panel_team_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
 													UUID = "d8e5c52e_7501_4e5c_8c5d_9e1d3adbd5da",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -1862,7 +1862,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 39,
+														PositionX = 23,
 													},
 													width = "64",
 													ZOrder = "1",
@@ -4455,7 +4455,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 312,
+								PositionX = 440,
 								PositionY = 523,
 							},
 							uipanelviewmodel = 
@@ -5367,8 +5367,8 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "88",
-							ignoreSize = "True",
+							height = "103",
+							ignoreSize = "False",
 							name = "Image_affix_item",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -5454,7 +5454,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 204,
-										PositionY = 26,
+										PositionY = 31,
 									},
 									width = "115",
 									ZOrder = "1",
@@ -5478,30 +5478,33 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "44",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "0",
 									nTextHAlign = "0",
+									scaleX = "0.7",
+									scaleY = "0.7",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
+									text = "desc",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = -116,
-										PositionY = 6,
+										PositionY = 11,
 									},
-									width = "320",
+									width = "466",
 									ZOrder = "1",
 								},
 							},

@@ -271,8 +271,6 @@ function FubenDataMgr:init()
     --检查是否需要检测所关卡全部完成
     self.isNeedCheckAllPassWin = false
     self.isEntry = false
-    self.limitReqData = {}
-    self.limitRespData = {}
 end
 
 function FubenDataMgr:reset()
@@ -309,8 +307,6 @@ function FubenDataMgr:reset()
     self.levelFormation_ = {}
     self.isEntry = false
     self.entryFirstLevelTimes = 0
-    self.limitReqData = {}
-    self.limitRespData = {}
 
     ---阵容排序默认排序ID
     self.formationSortRuleId = 5
@@ -849,6 +845,7 @@ function FubenDataMgr:checkPlotLevelEnabled(levelId)
     local enabled = false
     local levelIsOpen = false
     local preIsOpen = false
+    local isTimeOpen = true
     if self:isPassPlotLevel(levelId) then
         enabled = true
         levelIsOpen = true
@@ -870,7 +867,7 @@ function FubenDataMgr:checkPlotLevelEnabled(levelId)
             for k,v in pairs(otherPreCond) do
                 if k == "time" then
                     if curTime < v[1] or curTime > v[2] then
-                        preIsOpen = false
+                        isTimeOpen = false
                         break
                     end
                 end
@@ -878,9 +875,9 @@ function FubenDataMgr:checkPlotLevelEnabled(levelId)
         end
         
         levelIsOpen = MainPlayer:getPlayerLv() >= levelCfg.playerLv
-        enabled = preIsOpen and levelIsOpen
+        enabled = preIsOpen and levelIsOpen and isTimeOpen
     end
-    return enabled, preIsOpen, levelIsOpen
+    return enabled, preIsOpen, levelIsOpen, isTimeOpen
 end
 
 function FubenDataMgr:checkPreFramePlotLevelEnabled(levelId)
@@ -1711,7 +1708,6 @@ function FubenDataMgr:enterFirstPlotLevel()
             battleController.requestFightStart(firstLevelCid, 0, 0, heros, 0, false)
         else
             TFDirector:send(c2s.DUNGEON_LIMIT_HERO_DUNGEON, {firstLevelCid})
-            self.limitReqData[firstLevelCid] = true
         end
         return true
     end
@@ -2479,7 +2475,6 @@ end
 function FubenDataMgr:send_DUNGEON_LIMIT_HERO_DUNGEON(levelCid)
     dump({"請求限定",levelCid})
     TFDirector:send(c2s.DUNGEON_LIMIT_HERO_DUNGEON, {levelCid})
-    self.limitReqData[levelCid] = true
 end
 
 function FubenDataMgr:send_DUNGEON_BUY_LEVEL_COUNT(levelCid)
@@ -2870,7 +2865,6 @@ function FubenDataMgr:onRecvLimitHeros(event)
         changesid(hero)
         self.limitHeros_[v.limitId] = hero
     end
-    self.limitRespData[data.leveId] = true
     self.levelFormation_[data.leveId] = clone(data.limitFormation)
     self.originLevelFormation_[data.leveId] = data.limitFormation
     EventMgr:dispatchEvent(EV_FUBEN_UPDATE_LIMITHERO)

@@ -140,6 +140,9 @@ end
 
 function ActivityDataMgr:getActOneEntry(actIdx,idx)
 	local act = self.actList[actIdx]
+	if not act then
+		return 0,{}
+	end
 	local status = act.awardType[1] or 0
 	local rewards = {}
 	if act.id == EC_ActivityType.SIGN then
@@ -601,12 +604,12 @@ function ActivityDataMgr:isActivateNewPlayerBook()
 			break
 		end
 	end
-	return isActivate
+	return false --isActivate
 end
 
 -- 是否完成萌新手册
 function ActivityDataMgr:isCompleteAllNewPlayerBook()
-	local cfg = TabDataMgr:getData("NoviceTask")
+	local cfg = TabDataMgr:getData("NoviceTask") 
 	local isCompleteAll = true
 	for i, v in pairs(cfg) do
 		local statusInfo = TaskDataMgr:getTaskInfo(v.id)

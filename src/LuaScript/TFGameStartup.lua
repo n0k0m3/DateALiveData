@@ -37,7 +37,7 @@ if VERSION_DEBUG == true then
     CCLog_setDebugFileEnabled(1) --开启调试模式
 end
 
-if EXPERIENCE or GM_MODE then
+if GM_MODE then
      HeitaoSdk = nil
 end
 
@@ -50,6 +50,7 @@ if DEBUG_LOG == false then
 end
 
 CDN_INDEX    = 0;
+
 local __addMEListener = CCNode.addMEListener
 local function addMEListener(sender, nType, handle, clickEffectType)
     local self = sender

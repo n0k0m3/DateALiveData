@@ -33,6 +33,11 @@ function FubenSelectCountView:initUI(ui)
     self.ListView_content = UIListView:create(ScrollView_content)
     self.Button_close = TFDirector:getChildByPath(Image_content, "Button_close")
 
+    local Image_honorBar = TFDirector:getChildByPath(Image_content, "Image_honorBar")
+    local Image_honorScrollBar = TFDirector:getChildByPath(Image_honorBar, "Image_honorScrollBar")
+    local scrollBar = UIScrollBar:create(Image_honorBar, Image_honorScrollBar)
+    self.ListView_content:setScrollBar(scrollBar)
+
     self:refreshView()
 end
 

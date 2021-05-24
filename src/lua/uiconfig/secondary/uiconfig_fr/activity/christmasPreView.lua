@@ -93,7 +93,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "547",
+							height = "546",
 							ignoreSize = "True",
 							name = "bg",
 							sizepercentx = "0",
@@ -106,7 +106,7 @@ local t =
 							{
 								PositionX = -2,
 							},
-							width = "891",
+							width = "890",
 							ZOrder = "1",
 							components = 
 							{
@@ -120,7 +120,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "142",
+									height = "244",
 									ignoreSize = "True",
 									name = "Image_title",
 									sizepercentx = "0",
@@ -131,10 +131,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 294,
-										PositionY = 70,
+										PositionX = 259,
+										PositionY = 147,
 									},
-									width = "298",
+									width = "420",
 									ZOrder = "1",
 								},
 							},
@@ -148,7 +148,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FFA82826",
+							FontColor = "#FF737594",
 							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
@@ -532,6 +532,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
+										PositionX = -33,
 										PositionY = 1,
 									},
 									width = "100",
@@ -1097,7 +1098,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FFB958A6",
+							FontColor = "#FF6A86DD",
 							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
@@ -1157,8 +1158,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 400,
-								PositionY = -156,
+								PositionX = 401,
+								PositionY = 245,
 							},
 							UItype = "Button",
 							width = "53",

@@ -222,7 +222,7 @@ local t =
 								PositionX = 212,
 								PositionY = 502,
 							},
-							width = "127",
+							width = "141",
 							ZOrder = "1",
 						},
 						{
@@ -296,14 +296,14 @@ local t =
 								PositionY = 496,
 							},
 							visible = "False",
-							width = "134",
+							width = "133",
 							ZOrder = "1",
 						},
 						{
 							controlID = "Label_num_Panel_base_Panel-taskTrainingBuyLevelView_Layer1_task_Game",
 							UUID = "caedafe5_7031_4712_b5da_fb72378083f2",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
+							anchorPointX = "1",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -325,8 +325,8 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "Label_num",
 							nTextAlign = "1",
 							nTextHAlign = "1",
@@ -339,10 +339,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 274,
+								PositionX = 350,
 								PositionY = 149,
 							},
-							width = "164",
+							width = "138",
 							ZOrder = "1",
 						},
 						{
@@ -368,7 +368,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 361,
+								PositionX = 375,
 								PositionY = 150,
 							},
 							UItype = "Button",
@@ -398,7 +398,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 623,
+								PositionX = 637,
 								PositionY = 150,
 							},
 							UItype = "Button",
@@ -429,7 +429,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 492,
+								PositionX = 498,
 								PositionY = 150,
 							},
 							width = "190",
@@ -539,7 +539,7 @@ local t =
 									{
 										PositionY = -1,
 									},
-									width = "86",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -671,7 +671,7 @@ local t =
 								PositionX = 568,
 								PositionY = 460,
 							},
-							width = "643",
+							width = "614",
 							ZOrder = "1",
 						},
 						{
@@ -694,7 +694,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 725,
+								PositionX = 733,
 								PositionY = 150,
 							},
 							width = "130",
@@ -773,7 +773,7 @@ local t =
 										PositionX = 20,
 										PositionY = -3,
 									},
-									width = "63",
+									width = "62",
 									ZOrder = "1",
 								},
 							},
@@ -916,7 +916,7 @@ local t =
 								PositionX = 41,
 								PositionY = 29,
 							},
-							width = "44",
+							width = "46",
 							ZOrder = "1",
 						},
 					},

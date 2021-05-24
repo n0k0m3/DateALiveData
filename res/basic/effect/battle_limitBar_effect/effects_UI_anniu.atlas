@@ -1,0 +1,160 @@
+
+effects_UI_anniu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baodian_000
+  rotate: false
+  xy: 689, 353
+  size: 201, 195
+  orig: 300, 300
+  offset: 50, 52
+  index: -1
+images/baodian_001
+  rotate: false
+  xy: 2, 755
+  size: 248, 255
+  orig: 300, 300
+  offset: 31, 21
+  index: -1
+images/baodian_002
+  rotate: false
+  xy: 2, 507
+  size: 233, 246
+  orig: 300, 300
+  offset: 37, 27
+  index: -1
+images/baodian_003
+  rotate: false
+  xy: 252, 781
+  size: 231, 229
+  orig: 300, 300
+  offset: 39, 33
+  index: -1
+images/baodian_004
+  rotate: false
+  xy: 2, 276
+  size: 231, 229
+  orig: 300, 300
+  offset: 39, 33
+  index: -1
+images/baodian_005
+  rotate: false
+  xy: 485, 781
+  size: 231, 229
+  orig: 300, 300
+  offset: 39, 33
+  index: -1
+images/baodian_006
+  rotate: false
+  xy: 2, 45
+  size: 231, 229
+  orig: 300, 300
+  offset: 39, 33
+  index: -1
+images/baodian_007
+  rotate: false
+  xy: 718, 781
+  size: 231, 229
+  orig: 300, 300
+  offset: 39, 33
+  index: -1
+images/baodian_008
+  rotate: false
+  xy: 252, 550
+  size: 231, 229
+  orig: 300, 300
+  offset: 39, 33
+  index: -1
+images/baodian_009
+  rotate: false
+  xy: 485, 550
+  size: 231, 229
+  orig: 300, 300
+  offset: 39, 33
+  index: -1
+images/baodian_010
+  rotate: false
+  xy: 718, 550
+  size: 231, 229
+  orig: 300, 300
+  offset: 39, 33
+  index: -1
+images/baodian_011
+  rotate: false
+  xy: 237, 323
+  size: 227, 225
+  orig: 300, 300
+  offset: 41, 36
+  index: -1
+images/baodian_012
+  rotate: false
+  xy: 466, 327
+  size: 221, 221
+  orig: 300, 300
+  offset: 44, 37
+  index: -1
+images/baodian_013
+  rotate: false
+  xy: 235, 177
+  size: 198, 144
+  orig: 300, 300
+  offset: 57, 78
+  index: -1
+images/baodian_014
+  rotate: true
+  xy: 892, 412
+  size: 136, 118
+  orig: 300, 300
+  offset: 83, 92
+  index: -1
+images/baodian_015
+  rotate: false
+  xy: 373, 43
+  size: 134, 132
+  orig: 300, 300
+  offset: 84, 86
+  index: -1
+images/baodian_016
+  rotate: true
+  xy: 235, 43
+  size: 132, 136
+  orig: 300, 300
+  offset: 85, 83
+  index: -1
+images/baodian_017
+  rotate: false
+  xy: 892, 274
+  size: 118, 136
+  orig: 300, 300
+  offset: 92, 83
+  index: -1
+images/baodian_018
+  rotate: false
+  xy: 435, 187
+  size: 110, 134
+  orig: 300, 300
+  offset: 94, 84
+  index: -1
+images/baodian_019
+  rotate: false
+  xy: 547, 194
+  size: 108, 131
+  orig: 300, 300
+  offset: 95, 86
+  index: -1
+images/yuan1_000
+  rotate: false
+  xy: 657, 218
+  size: 107, 107
+  orig: 200, 200
+  offset: 47, 46
+  index: -1
+images/yuan_000
+  rotate: false
+  xy: 766, 249
+  size: 101, 102
+  orig: 200, 200
+  offset: 51, 48
+  index: -1

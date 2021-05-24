@@ -2590,6 +2590,27 @@ return {
         icon = "",
         des = "441185",
     },
+    [10206] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 10206,
+        buffs = {
+            [0] = {
+                [1] = 1342,
+            },
+            [110313] = {
+                [1] = 1342,
+                [2] = 1343,
+            },
+        },
+        icon = "",
+        des = "441193",
+    },
     [95011] = {
         attributeExtra = {
         },
@@ -3120,22 +3141,23 @@ return {
         id = 113301,
         buffs = {
             [0] = {
-                [1] = 6396,
-                [2] = 6397,
-                [3] = 6407,
-                [4] = 6408,
-                [5] = 6409,
-                [6] = 6410,
-                [7] = 6421,
-                [8] = 6422,
-                [9] = 6423,
-                [10] = 6424,
-                [11] = 6425,
-                [12] = 6426,
-                [13] = 6430,
-                [14] = 6444,
-                [15] = 6450,
-                [16] = 6133,
+                [1] = 6021,
+                [2] = 6396,
+                [3] = 6397,
+                [4] = 6407,
+                [5] = 6408,
+                [6] = 6409,
+                [7] = 6410,
+                [8] = 6421,
+                [9] = 6422,
+                [10] = 6423,
+                [11] = 6424,
+                [12] = 6425,
+                [13] = 6426,
+                [14] = 6430,
+                [15] = 6444,
+                [16] = 6450,
+                [17] = 6133,
             },
         },
         icon = "icon/skill/10101_skillE.png",
@@ -4183,6 +4205,28 @@ return {
         icon = "",
         des = "441186",
     },
+    [10207] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 10207,
+        buffs = {
+            [0] = {
+                [1] = 1344,
+            },
+            [110313] = {
+                [1] = 1344,
+                [2] = 1346,
+                [3] = 1345,
+            },
+        },
+        icon = "",
+        des = "441194",
+    },
     [49012] = {
         attributeExtra = {
         },
@@ -5069,30 +5113,22 @@ return {
         icon = "",
         des = "441008",
     },
-    [20016] = {
+    [41023] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "430016",
+        name = "470039",
         angelSkillFunctions = {
-        },
-        id = 20016,
-        buffs = {
             [0] = {
-                [1] = 1095,
-            },
-            [111301] = {
-                [1] = 3043,
-                [2] = 3044,
-                [3] = 3045,
-                [4] = 3046,
-                [5] = 3047,
-                [6] = 3048,
+                [1] = 10123,
             },
         },
-        icon = "",
-        des = "431016",
+        id = 41023,
+        buffs = {
+        },
+        icon = "icon/stone/skill/10.png",
+        des = "471039",
     },
     [9001] = {
         attributeExtra = {
@@ -5434,22 +5470,33 @@ return {
         icon = "",
         des = "441152",
     },
-    [60013] = {
+    [10160] = {
         attributeExtra = {
         },
         attribute = {
+            [608] = 1000,
         },
         name = "",
         angelSkillFunctions = {
+            [0] = {
+                [1] = 20000,
+            },
+            [112501] = {
+                [1] = 3006011,
+            },
         },
-        id = 60013,
+        id = 10160,
         buffs = {
             [0] = {
-                [1] = 60012,
+                [1] = 1235,
+            },
+            [112501] = {
+                [1] = 1235,
+                [2] = 1236,
             },
         },
         icon = "",
-        des = "",
+        des = "441160",
     },
     [310030] = {
         attributeExtra = {
@@ -5955,6 +6002,26 @@ return {
         icon = "",
         des = "231033",
     },
+    [310044] = {
+        attributeExtra = {
+        },
+        attribute = {
+            [602] = 800,
+            [507] = 400,
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 310044,
+        buffs = {
+            [0] = {
+                [1] = 1548,
+                [2] = 1549,
+            },
+        },
+        icon = "",
+        des = "231034",
+    },
     [46013] = {
         attributeExtra = {
         },
@@ -6090,6 +6157,49 @@ return {
         },
         icon = "icon/stone/skill/7.png",
         des = "471023",
+    },
+    [110313] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 110313,
+        buffs = {
+            [0] = {
+                [1] = 6021,
+                [2] = 6134,
+                [3] = 6460,
+                [4] = 6461,
+                [5] = 6462,
+                [6] = 6463,
+                [7] = 6465,
+                [8] = 6466,
+                [9] = 6467,
+                [10] = 6468,
+                [11] = 6469,
+                [12] = 6470,
+                [13] = 6471,
+                [14] = 6472,
+                [15] = 6473,
+                [16] = 6474,
+                [17] = 6475,
+                [18] = 6476,
+                [19] = 6477,
+                [20] = 6478,
+                [21] = 6479,
+                [22] = 6480,
+                [23] = 6482,
+                [24] = 6483,
+                [25] = 6493,
+                [26] = 6494,
+                [27] = 6495,
+            },
+        },
+        icon = "icon/skill/10101_skillE.png",
+        des = "411110",
     },
     [95032] = {
         attributeExtra = {
@@ -8033,11 +8143,12 @@ return {
         id = 113201,
         buffs = {
             [0] = {
-                [1] = 6378,
-                [2] = 6379,
-                [3] = 6383,
-                [4] = 6381,
-                [5] = 6132,
+                [1] = 6021,
+                [2] = 6378,
+                [3] = 6379,
+                [4] = 6383,
+                [5] = 6381,
+                [6] = 6132,
             },
         },
         icon = "icon/skill/10101_skillE.png",
@@ -8285,6 +8396,23 @@ return {
         icon = "",
         des = "",
     },
+    [29999] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "190000321",
+        angelSkillFunctions = {
+        },
+        id = 29999,
+        buffs = {
+            [0] = {
+                [1] = 30076,
+            },
+        },
+        icon = "",
+        des = "190000322",
+    },
     [20005] = {
         attributeExtra = {
         },
@@ -8362,23 +8490,6 @@ return {
         icon = "icon/stone/skill/6.png",
         des = "471018",
     },
-    [29999] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "190000321",
-        angelSkillFunctions = {
-        },
-        id = 29999,
-        buffs = {
-            [0] = {
-                [1] = 30076,
-            },
-        },
-        icon = "",
-        des = "190000322",
-    },
     [10998] = {
         attributeExtra = {
         },
@@ -8396,22 +8507,22 @@ return {
         icon = "",
         des = "190000324",
     },
-    [39064] = {
+    [39054] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470025",
+        name = "470021",
         angelSkillFunctions = {
             [0] = {
-                [1] = 10064,
+                [1] = 10054,
             },
         },
-        id = 39064,
+        id = 39054,
         buffs = {
         },
-        icon = "icon/stone/skill/7.png",
-        des = "471025",
+        icon = "icon/stone/skill/6.png",
+        des = "471021",
     },
     [310042] = {
         attributeExtra = {
@@ -8506,57 +8617,6 @@ return {
         icon = "",
         des = "231023",
     },
-    [95046] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 95046,
-        buffs = {
-            [0] = {
-                [1] = 9921,
-                [2] = 9922,
-                [3] = 9923,
-                [4] = 9924,
-                [5] = 9925,
-                [6] = 9933,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [112501] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "410022",
-        angelSkillFunctions = {
-        },
-        id = 112501,
-        buffs = {
-            [0] = {
-                [1] = 6258,
-                [2] = 6310,
-                [3] = 6311,
-                [4] = 6313,
-                [5] = 6315,
-                [6] = 6314,
-                [7] = 12791611,
-                [8] = 12790111,
-                [9] = 12790211,
-                [10] = 12720311,
-                [11] = 12720312,
-                [12] = 12720313,
-                [13] = 12791511,
-            },
-        },
-        icon = "icon/skill/10101_skillE.png",
-        des = "411110",
-    },
     [310032] = {
         attributeExtra = {
         },
@@ -8596,6 +8656,58 @@ return {
         icon = "",
         des = "231019",
     },
+    [95046] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 95046,
+        buffs = {
+            [0] = {
+                [1] = 9921,
+                [2] = 9922,
+                [3] = 9923,
+                [4] = 9924,
+                [5] = 9925,
+                [6] = 9933,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [112501] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "410022",
+        angelSkillFunctions = {
+        },
+        id = 112501,
+        buffs = {
+            [0] = {
+                [1] = 6021,
+                [2] = 6258,
+                [3] = 6310,
+                [4] = 6311,
+                [5] = 6313,
+                [6] = 6315,
+                [7] = 6314,
+                [8] = 12791611,
+                [9] = 12790111,
+                [10] = 12790211,
+                [11] = 12720311,
+                [12] = 12720312,
+                [13] = 12720313,
+                [14] = 12791511,
+            },
+        },
+        icon = "icon/skill/10101_skillE.png",
+        des = "411110",
+    },
     [310028] = {
         attributeExtra = {
         },
@@ -8614,40 +8726,6 @@ return {
         },
         icon = "",
         des = "231018",
-    },
-    [61014] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 61014,
-        buffs = {
-            [0] = {
-                [1] = 61014,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [60023] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 60023,
-        buffs = {
-            [0] = {
-                [1] = 60023,
-            },
-        },
-        icon = "",
-        des = "",
     },
     [310027] = {
         attributeExtra = {
@@ -8685,6 +8763,40 @@ return {
         },
         icon = "",
         des = "231016",
+    },
+    [61014] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 61014,
+        buffs = {
+            [0] = {
+                [1] = 61014,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [60023] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 60023,
+        buffs = {
+            [0] = {
+                [1] = 60023,
+            },
+        },
+        icon = "",
+        des = "",
     },
     [310025] = {
         attributeExtra = {
@@ -8797,40 +8909,6 @@ return {
         icon = "",
         des = "231002",
     },
-    [47012] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470098",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10372,
-            },
-        },
-        id = 47012,
-        buffs = {
-        },
-        icon = "icon/stone/skill/15.png",
-        des = "471098",
-    },
-    [46021] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470091",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10351,
-            },
-        },
-        id = 46021,
-        buffs = {
-        },
-        icon = "icon/stone/skill/15.png",
-        des = "471091",
-    },
     [210128] = {
         attributeExtra = {
         },
@@ -8871,6 +8949,40 @@ return {
         icon = "",
         des = "",
     },
+    [47012] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "470098",
+        angelSkillFunctions = {
+            [0] = {
+                [1] = 10372,
+            },
+        },
+        id = 47012,
+        buffs = {
+        },
+        icon = "icon/stone/skill/15.png",
+        des = "471098",
+    },
+    [46021] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "470091",
+        angelSkillFunctions = {
+            [0] = {
+                [1] = 10351,
+            },
+        },
+        id = 46021,
+        buffs = {
+        },
+        icon = "icon/stone/skill/15.png",
+        des = "471091",
+    },
     [210125] = {
         attributeExtra = {
         },
@@ -8883,6 +8995,40 @@ return {
         buffs = {
             [0] = {
                 [1] = 9546,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [210123] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 210123,
+        buffs = {
+            [0] = {
+                [1] = 9414,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [210121] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 210121,
+        buffs = {
+            [0] = {
+                [1] = 9711,
             },
         },
         icon = "",
@@ -8956,7 +9102,7 @@ return {
         icon = "icon/stone/skill/7.png",
         des = "471022",
     },
-    [210123] = {
+    [210119] = {
         attributeExtra = {
         },
         attribute = {
@@ -8964,10 +9110,10 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 210123,
+        id = 210119,
         buffs = {
             [0] = {
-                [1] = 9414,
+                [1] = 9543,
             },
         },
         icon = "",
@@ -8990,40 +9136,6 @@ return {
         icon = "icon/stone/skill/15.png",
         des = "1150401",
     },
-    [210121] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 210121,
-        buffs = {
-            [0] = {
-                [1] = 9711,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [210119] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 210119,
-        buffs = {
-            [0] = {
-                [1] = 9543,
-            },
-        },
-        icon = "",
-        des = "",
-    },
     [210118] = {
         attributeExtra = {
         },
@@ -9040,26 +9152,6 @@ return {
         },
         icon = "",
         des = "",
-    },
-    [110201] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "2210030",
-        angelSkillFunctions = {
-        },
-        id = 110201,
-        buffs = {
-            [0] = {
-                [1] = 6102,
-                [2] = 6021,
-                [3] = 6048,
-                [4] = 6086,
-            },
-        },
-        icon = "icon/skill/10201_skillE.png",
-        des = "2210040",
     },
     [210117] = {
         attributeExtra = {
@@ -9095,34 +9187,25 @@ return {
         icon = "",
         des = "",
     },
-    [95048] = {
+    [110201] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "",
+        name = "2210030",
         angelSkillFunctions = {
         },
-        id = 95048,
+        id = 110201,
         buffs = {
             [0] = {
-                [1] = 9502,
-                [2] = 9503,
-                [3] = 9513,
-                [4] = 9891,
-                [5] = 9892,
-                [6] = 9893,
-                [7] = 9894,
-                [8] = 9895,
-                [9] = 9896,
-                [10] = 9958,
-                [11] = 9959,
-                [12] = 9960,
-                [13] = 9961,
+                [1] = 6102,
+                [2] = 6021,
+                [3] = 6048,
+                [4] = 6086,
             },
         },
-        icon = "",
-        des = "",
+        icon = "icon/skill/10201_skillE.png",
+        des = "2210040",
     },
     [210114] = {
         attributeExtra = {
@@ -9154,6 +9237,35 @@ return {
         buffs = {
             [0] = {
                 [1] = 9537,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [95048] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 95048,
+        buffs = {
+            [0] = {
+                [1] = 9502,
+                [2] = 9503,
+                [3] = 9513,
+                [4] = 9891,
+                [5] = 9892,
+                [6] = 9893,
+                [7] = 9894,
+                [8] = 9895,
+                [9] = 9896,
+                [10] = 9958,
+                [11] = 9959,
+                [12] = 9960,
+                [13] = 9961,
             },
         },
         icon = "",
@@ -9193,6 +9305,42 @@ return {
         icon = "",
         des = "",
     },
+    [210110] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 210110,
+        buffs = {
+            [0] = {
+                [1] = 9534,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [210109] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 210109,
+        buffs = {
+            [0] = {
+                [1] = 9531,
+                [2] = 9532,
+                [3] = 9533,
+            },
+        },
+        icon = "",
+        des = "",
+    },
     [30012] = {
         attributeExtra = {
         },
@@ -9210,7 +9358,7 @@ return {
         icon = "",
         des = "461002",
     },
-    [210110] = {
+    [210108] = {
         attributeExtra = {
         },
         attribute = {
@@ -9218,10 +9366,10 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 210110,
+        id = 210108,
         buffs = {
             [0] = {
-                [1] = 9534,
+                [1] = 918,
             },
         },
         icon = "",
@@ -9243,42 +9391,6 @@ return {
         },
         icon = "",
         des = "461025",
-    },
-    [210109] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 210109,
-        buffs = {
-            [0] = {
-                [1] = 9531,
-                [2] = 9532,
-                [3] = 9533,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [210108] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 210108,
-        buffs = {
-            [0] = {
-                [1] = 918,
-            },
-        },
-        icon = "",
-        des = "",
     },
     [210107] = {
         attributeExtra = {
@@ -9364,6 +9476,52 @@ return {
         },
         icon = "",
         des = "",
+    },
+    [10026] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 10026,
+        buffs = {
+            [0] = {
+                [1] = 1026,
+            },
+        },
+        icon = "",
+        des = "441026",
+    },
+    [112801] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 112801,
+        buffs = {
+            [0] = {
+                [1] = 6021,
+                [2] = 6259,
+                [3] = 6317,
+                [4] = 6318,
+                [5] = 6319,
+                [6] = 6320,
+                [7] = 6321,
+                [8] = 6322,
+                [9] = 6323,
+                [10] = 6324,
+                [11] = 6325,
+                [12] = 6326,
+                [13] = 6329,
+            },
+        },
+        icon = "icon/skill/10101_skillE.png",
+        des = "411110",
     },
     [47013] = {
         attributeExtra = {
@@ -9845,7 +10003,7 @@ return {
         icon = "",
         des = "441164",
     },
-    [10038] = {
+    [95026] = {
         attributeExtra = {
         },
         attribute = {
@@ -9853,14 +10011,14 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 10038,
+        id = 95026,
         buffs = {
             [0] = {
-                [1] = 1038,
+                [1] = 10036,
             },
         },
         icon = "",
-        des = "441038",
+        des = "",
     },
     [10187] = {
         attributeExtra = {
@@ -9929,52 +10087,6 @@ return {
         icon = "",
         des = "441190",
     },
-    [112801] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 112801,
-        buffs = {
-            [0] = {
-                [1] = 6021,
-                [2] = 6259,
-                [3] = 6317,
-                [4] = 6318,
-                [5] = 6319,
-                [6] = 6320,
-                [7] = 6321,
-                [8] = 6322,
-                [9] = 6323,
-                [10] = 6324,
-                [11] = 6325,
-                [12] = 6326,
-                [13] = 6329,
-            },
-        },
-        icon = "icon/skill/10101_skillE.png",
-        des = "411110",
-    },
-    [95029] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 95029,
-        buffs = {
-            [0] = {
-                [1] = 6267,
-            },
-        },
-        icon = "",
-        des = "",
-    },
     [112401] = {
         attributeExtra = {
         },
@@ -10039,56 +10151,24 @@ return {
         icon = "icon/skill/10101_skillE.png",
         des = "411110",
     },
-    [46023] = {
+    [10014] = {
         attributeExtra = {
         },
         attribute = {
-        },
-        name = "470093",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10353,
-            },
-        },
-        id = 46023,
-        buffs = {
-        },
-        icon = "icon/stone/skill/15.png",
-        des = "471093",
-    },
-    [45032] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470083",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10322,
-            },
-        },
-        id = 45032,
-        buffs = {
-        },
-        icon = "icon/stone/skill/14.png",
-        des = "471083",
-    },
-    [10026] = {
-        attributeExtra = {
-        },
-        attribute = {
+            [505] = -500,
+            [506] = 1000,
         },
         name = "",
         angelSkillFunctions = {
         },
-        id = 10026,
+        id = 10014,
         buffs = {
             [0] = {
-                [1] = 1026,
+                [1] = 1014,
             },
         },
         icon = "",
-        des = "441026",
+        des = "441014",
     },
     [116001] = {
         attributeExtra = {
@@ -10125,6 +10205,81 @@ return {
         icon = "icon/skill/10101_skillE.png",
         des = "411110",
     },
+    [46023] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "470093",
+        angelSkillFunctions = {
+            [0] = {
+                [1] = 10353,
+            },
+        },
+        id = 46023,
+        buffs = {
+        },
+        icon = "icon/stone/skill/15.png",
+        des = "471093",
+    },
+    [45032] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "470083",
+        angelSkillFunctions = {
+            [0] = {
+                [1] = 10322,
+            },
+        },
+        id = 45032,
+        buffs = {
+        },
+        icon = "icon/stone/skill/14.png",
+        des = "471083",
+    },
+    [50301] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "1150003",
+        angelSkillFunctions = {
+        },
+        id = 50301,
+        buffs = {
+            [0] = {
+                [1] = 50301,
+            },
+        },
+        icon = "icon/stone/skill/15.png",
+        des = "1150301",
+    },
+    [113001] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "410022",
+        angelSkillFunctions = {
+        },
+        id = 113001,
+        buffs = {
+            [0] = {
+                [1] = 6021,
+                [2] = 6115,
+                [3] = 6079,
+                [4] = 6080,
+                [5] = 6081,
+                [6] = 6082,
+                [7] = 6083,
+                [8] = 6084,
+            },
+        },
+        icon = "icon/skill/10101_skillE.png",
+        des = "411110",
+    },
     [40013] = {
         attributeExtra = {
         },
@@ -10142,7 +10297,7 @@ return {
         icon = "icon/stone/skill/2.png",
         des = "471004",
     },
-    [95017] = {
+    [112002] = {
         attributeExtra = {
         },
         attribute = {
@@ -10150,18 +10305,10 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 95017,
+        id = 112002,
         buffs = {
             [0] = {
-                [1] = 9501,
-                [2] = 9502,
-                [3] = 9503,
-                [4] = 9504,
-                [5] = 9513,
-                [6] = 9514,
-                [7] = 10023,
-                [8] = 10024,
-                [9] = 10015,
+                [1] = 6074,
             },
         },
         icon = "",
@@ -10200,47 +10347,6 @@ return {
         },
         icon = "icon/stone/skill/7.png",
         des = "471024",
-    },
-    [113001] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "410022",
-        angelSkillFunctions = {
-        },
-        id = 113001,
-        buffs = {
-            [0] = {
-                [1] = 6021,
-                [2] = 6115,
-                [3] = 6079,
-                [4] = 6080,
-                [5] = 6081,
-                [6] = 6082,
-                [7] = 6083,
-                [8] = 6084,
-            },
-        },
-        icon = "icon/skill/10101_skillE.png",
-        des = "411110",
-    },
-    [112002] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 112002,
-        buffs = {
-            [0] = {
-                [1] = 6074,
-            },
-        },
-        icon = "",
-        des = "",
     },
     [112001] = {
         attributeExtra = {
@@ -10355,65 +10461,22 @@ return {
         icon = "icon/skill/10601_skillE.png",
         des = "2210120",
     },
-    [20014] = {
+    [51101] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "430014",
+        name = "1150011",
         angelSkillFunctions = {
         },
-        id = 20014,
+        id = 51101,
         buffs = {
             [0] = {
-                [1] = 1095,
-            },
-            [110901] = {
-                [1] = 3032,
-                [2] = 3033,
+                [1] = 51101,
             },
         },
-        icon = "",
-        des = "431014",
-    },
-    [95052] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 95052,
-        buffs = {
-            [0] = {
-                [1] = 902,
-                [2] = 9502,
-                [3] = 9503,
-                [4] = 9513,
-                [5] = 9514,
-                [6] = 10040,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [90001] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 90001,
-        buffs = {
-            [0] = {
-                [1] = 4002,
-            },
-        },
-        icon = "",
-        des = "",
+        icon = "icon/stone/skill/15.png",
+        des = "1151101",
     },
     [110403] = {
         attributeExtra = {
@@ -10471,7 +10534,7 @@ return {
         icon = "icon/skill/10401_skillE.png",
         des = "2210080",
     },
-    [90007] = {
+    [95052] = {
         attributeExtra = {
         },
         attribute = {
@@ -10479,10 +10542,86 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 90007,
+        id = 95052,
         buffs = {
             [0] = {
-                [1] = 908,
+                [1] = 902,
+                [2] = 9502,
+                [3] = 9503,
+                [4] = 9513,
+                [5] = 9514,
+                [6] = 10040,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [90001] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 90001,
+        buffs = {
+            [0] = {
+                [1] = 4002,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [90004] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 90004,
+        buffs = {
+            [0] = {
+                [1] = 905,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [1133] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 1133,
+        buffs = {
+            [0] = {
+                [1] = 11033,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [95010] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 95010,
+        buffs = {
+            [0] = {
+                [1] = 6267,
+                [2] = 6270,
+                [3] = 6272,
+                [4] = 6271,
             },
         },
         icon = "",
@@ -10505,22 +10644,31 @@ return {
         icon = "",
         des = "461003",
     },
-    [90018] = {
+    [110302] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "",
+        name = "2210050",
         angelSkillFunctions = {
         },
-        id = 90018,
+        id = 110302,
         buffs = {
             [0] = {
-                [1] = 9705,
+                [1] = 6116,
+                [2] = 6021,
+                [3] = 6088,
+                [4] = 6089,
+                [5] = 6090,
+                [6] = 6091,
+                [7] = 6092,
+                [8] = 6093,
+                [9] = 6127,
+                [10] = 6130,
             },
         },
-        icon = "",
-        des = "",
+        icon = "icon/skill/10301_skillE.png",
+        des = "2210060",
     },
     [30045] = {
         attributeExtra = {
@@ -10565,84 +10713,28 @@ return {
         icon = "icon/skill/10101_skillE.png",
         des = "411110",
     },
-    [110302] = {
+    [20014] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "2210050",
+        name = "430014",
         angelSkillFunctions = {
         },
-        id = 110302,
+        id = 20014,
         buffs = {
             [0] = {
-                [1] = 6116,
-                [2] = 6021,
-                [3] = 6088,
-                [4] = 6089,
-                [5] = 6090,
-                [6] = 6091,
-                [7] = 6092,
-                [8] = 6093,
-                [9] = 6127,
-                [10] = 6130,
+                [1] = 1095,
             },
-        },
-        icon = "icon/skill/10301_skillE.png",
-        des = "2210060",
-    },
-    [37063] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470024",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10663,
-            },
-        },
-        id = 37063,
-        buffs = {
-        },
-        icon = "icon/stone/skill/7.png",
-        des = "471024",
-    },
-    [51801] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "1150018",
-        angelSkillFunctions = {
-        },
-        id = 51801,
-        buffs = {
-            [0] = {
-                [1] = 51801,
-            },
-        },
-        icon = "icon/stone/skill/15.png",
-        des = "1151801",
-    },
-    [10016] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 10016,
-        buffs = {
-            [0] = {
-                [1] = 1016,
+            [110901] = {
+                [1] = 3032,
+                [2] = 3033,
             },
         },
         icon = "",
-        des = "441016",
+        des = "431014",
     },
-    [61013] = {
+    [10012] = {
         attributeExtra = {
         },
         attribute = {
@@ -10650,16 +10742,33 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 61013,
+        id = 10012,
         buffs = {
             [0] = {
-                [1] = 61013,
+                [1] = 1012,
+            },
+        },
+        icon = "",
+        des = "441012",
+    },
+    [60093] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 60093,
+        buffs = {
+            [0] = {
+                [1] = 60093,
             },
         },
         icon = "",
         des = "",
     },
-    [61044] = {
+    [61041] = {
         attributeExtra = {
         },
         attribute = {
@@ -10667,32 +10776,79 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 61044,
+        id = 61041,
         buffs = {
             [0] = {
-                [1] = 61044,
-                [2] = 61048,
+                [1] = 61041,
+                [2] = 61045,
             },
         },
         icon = "",
         des = "",
     },
-    [51301] = {
+    [61064] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "1150013",
+        name = "",
         angelSkillFunctions = {
         },
-        id = 51301,
+        id = 61064,
         buffs = {
             [0] = {
-                [1] = 51301,
+                [1] = 61064,
             },
         },
-        icon = "icon/stone/skill/15.png",
-        des = "1151301",
+        icon = "",
+        des = "",
+    },
+    [62044] = {
+        attributeExtra = {
+        },
+        attribute = {
+            [507] = 800,
+            [503] = 800,
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 62044,
+        buffs = {
+            [0] = {
+                [1] = 62044,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [95058] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 95058,
+        buffs = {
+            [0] = {
+                [1] = 9501,
+                [2] = 9502,
+                [3] = 9503,
+                [4] = 9504,
+                [5] = 9513,
+                [6] = 10049,
+                [7] = 10050,
+                [8] = 10054,
+                [9] = 10053,
+                [10] = 10055,
+                [11] = 10056,
+                [12] = 10057,
+            },
+        },
+        icon = "",
+        des = "",
     },
     [95053] = {
         attributeExtra = {
@@ -10735,52 +10891,41 @@ return {
         icon = "icon/stone/skill/14.png",
         des = "471084",
     },
-    [62051] = {
+    [62055] = {
         attributeExtra = {
         },
         attribute = {
-            [509] = 400,
-            [522] = 400,
+            [509] = 2000,
+            [522] = 2000,
         },
         name = "",
         angelSkillFunctions = {
         },
-        id = 62051,
+        id = 62055,
         buffs = {
             [0] = {
-                [1] = 62051,
+                [1] = 62055,
             },
         },
         icon = "",
         des = "",
     },
-    [95058] = {
+    [51301] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "",
+        name = "1150013",
         angelSkillFunctions = {
         },
-        id = 95058,
+        id = 51301,
         buffs = {
             [0] = {
-                [1] = 9501,
-                [2] = 9502,
-                [3] = 9503,
-                [4] = 9504,
-                [5] = 9513,
-                [6] = 10049,
-                [7] = 10050,
-                [8] = 10054,
-                [9] = 10053,
-                [10] = 10055,
-                [11] = 10056,
-                [12] = 10057,
+                [1] = 51301,
             },
         },
-        icon = "",
-        des = "",
+        icon = "icon/stone/skill/15.png",
+        des = "1151301",
     },
     [20023] = {
         attributeExtra = {
@@ -10858,24 +11003,26 @@ return {
         icon = "icon/stone/skill/7.png",
         des = "471025",
     },
-    [90004] = {
+    [10011] = {
         attributeExtra = {
         },
         attribute = {
+            [2] = 1000,
+            [3] = 1000,
         },
         name = "",
         angelSkillFunctions = {
         },
-        id = 90004,
+        id = 10011,
         buffs = {
             [0] = {
-                [1] = 905,
+                [1] = 1011,
             },
         },
         icon = "",
-        des = "",
+        des = "441011",
     },
-    [90015] = {
+    [95031] = {
         attributeExtra = {
         },
         attribute = {
@@ -10883,53 +11030,15 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 90015,
+        id = 95031,
         buffs = {
             [0] = {
-                [1] = 9509,
-                [2] = 9511,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [37041] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470014",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10641,
-            },
-        },
-        id = 37041,
-        buffs = {
-        },
-        icon = "icon/stone/skill/5.png",
-        des = "471014",
-    },
-    [95042] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 95042,
-        buffs = {
-            [0] = {
-                [1] = 9502,
-                [2] = 9503,
-                [3] = 9513,
-                [4] = 9891,
-                [5] = 9892,
-                [6] = 9893,
-                [7] = 9894,
-                [8] = 9895,
-                [9] = 9896,
+                [1] = 9880,
+                [2] = 9881,
+                [3] = 9882,
+                [4] = 9883,
+                [5] = 9884,
+                [6] = 9885,
             },
         },
         icon = "",
@@ -11020,6 +11129,54 @@ return {
         icon = "",
         des = "",
     },
+    [95042] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 95042,
+        buffs = {
+            [0] = {
+                [1] = 9502,
+                [2] = 9503,
+                [3] = 9513,
+                [4] = 9891,
+                [5] = 9892,
+                [6] = 9893,
+                [7] = 9894,
+                [8] = 9895,
+                [9] = 9896,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [95034] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 95034,
+        buffs = {
+            [0] = {
+                [1] = 9921,
+                [2] = 9922,
+                [3] = 9923,
+                [4] = 9924,
+                [5] = 9925,
+                [6] = 9933,
+                [7] = 9902,
+            },
+        },
+        icon = "",
+        des = "",
+    },
     [95054] = {
         attributeExtra = {
         },
@@ -11055,7 +11212,7 @@ return {
         icon = "",
         des = "",
     },
-    [95034] = {
+    [95029] = {
         attributeExtra = {
         },
         attribute = {
@@ -11063,22 +11220,16 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 95034,
+        id = 95029,
         buffs = {
             [0] = {
-                [1] = 9921,
-                [2] = 9922,
-                [3] = 9923,
-                [4] = 9924,
-                [5] = 9925,
-                [6] = 9933,
-                [7] = 9902,
+                [1] = 6267,
             },
         },
         icon = "",
         des = "",
     },
-    [95031] = {
+    [95027] = {
         attributeExtra = {
         },
         attribute = {
@@ -11086,15 +11237,10 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 95031,
+        id = 95027,
         buffs = {
             [0] = {
-                [1] = 9880,
-                [2] = 9881,
-                [3] = 9882,
-                [4] = 9883,
-                [5] = 9884,
-                [6] = 9885,
+                [1] = 10037,
             },
         },
         icon = "",
@@ -11139,57 +11285,6 @@ return {
         icon = "",
         des = "",
     },
-    [95027] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 95027,
-        buffs = {
-            [0] = {
-                [1] = 10037,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [95026] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 95026,
-        buffs = {
-            [0] = {
-                [1] = 10036,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [60091] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 60091,
-        buffs = {
-            [0] = {
-                [1] = 60091,
-            },
-        },
-        icon = "",
-        des = "",
-    },
     [95025] = {
         attributeExtra = {
         },
@@ -11222,6 +11317,23 @@ return {
                 [2] = 920,
                 [3] = 921,
                 [4] = 924,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [60091] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 60091,
+        buffs = {
+            [0] = {
+                [1] = 60091,
             },
         },
         icon = "",
@@ -11280,6 +11392,48 @@ return {
         icon = "",
         des = "",
     },
+    [95017] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 95017,
+        buffs = {
+            [0] = {
+                [1] = 9501,
+                [2] = 9502,
+                [3] = 9503,
+                [4] = 9504,
+                [5] = 9513,
+                [6] = 9514,
+                [7] = 10023,
+                [8] = 10024,
+                [9] = 10015,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [95016] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 95016,
+        buffs = {
+            [0] = {
+                [1] = 11013,
+            },
+        },
+        icon = "",
+        des = "",
+    },
     [110208] = {
         attributeExtra = {
         },
@@ -11304,42 +11458,39 @@ return {
         icon = "icon/skill/10201_skillE.png",
         des = "2210040",
     },
-    [95016] = {
+    [37041] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "",
+        name = "470014",
         angelSkillFunctions = {
-        },
-        id = 95016,
-        buffs = {
             [0] = {
-                [1] = 11013,
+                [1] = 10641,
             },
         },
-        icon = "",
-        des = "",
+        id = 37041,
+        buffs = {
+        },
+        icon = "icon/stone/skill/5.png",
+        des = "471014",
     },
-    [95010] = {
+    [41011] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "",
+        name = "470034",
         angelSkillFunctions = {
-        },
-        id = 95010,
-        buffs = {
             [0] = {
-                [1] = 6267,
-                [2] = 6270,
-                [3] = 6272,
-                [4] = 6271,
+                [1] = 10111,
             },
         },
-        icon = "",
-        des = "",
+        id = 41011,
+        buffs = {
+        },
+        icon = "icon/stone/skill/10.png",
+        des = "471034",
     },
     [95055] = {
         attributeExtra = {
@@ -11378,58 +11529,22 @@ return {
         icon = "icon/stone/skill/13.png",
         des = "471067",
     },
-    [40081] = {
+    [1126] = {
         attributeExtra = {
         },
         attribute = {
-        },
-        name = "470030",
-        angelSkillFunctions = {
-        },
-        id = 40081,
-        buffs = {
-            [0] = {
-                [1] = 21071,
-            },
-        },
-        icon = "icon/stone/skill/9.png",
-        des = "471030",
-    },
-    [10031] = {
-        attributeExtra = {
-        },
-        attribute = {
-            [507] = 750,
-            [509] = 1500,
         },
         name = "",
         angelSkillFunctions = {
         },
-        id = 10031,
+        id = 1126,
         buffs = {
             [0] = {
-                [1] = 1031,
+                [1] = 11026,
             },
         },
         icon = "",
-        des = "441031",
-    },
-    [51601] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "1150016",
-        angelSkillFunctions = {
-        },
-        id = 51601,
-        buffs = {
-            [0] = {
-                [1] = 51601,
-            },
-        },
-        icon = "icon/stone/skill/15.png",
-        des = "1151601",
+        des = "",
     },
     [95005] = {
         attributeExtra = {
@@ -11443,6 +11558,43 @@ return {
         buffs = {
             [0] = {
                 [1] = 9503,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [20011] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "430011",
+        angelSkillFunctions = {
+        },
+        id = 20011,
+        buffs = {
+            [0] = {
+                [1] = 1095,
+            },
+            [110501] = {
+                [1] = 3027,
+            },
+        },
+        icon = "",
+        des = "431011",
+    },
+    [95003] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 95003,
+        buffs = {
+            [0] = {
+                [1] = 9504,
             },
         },
         icon = "",
@@ -11482,51 +11634,6 @@ return {
         icon = "icon/stone/skill/5.png",
         des = "471015",
     },
-    [20027] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "430027",
-        angelSkillFunctions = {
-        },
-        id = 20027,
-        buffs = {
-            [111411] = {
-                [1] = 1189,
-                [2] = 1190,
-            },
-            [111511] = {
-                [1] = 1189,
-            },
-            [111401] = {
-                [1] = 1189,
-                [2] = 1190,
-            },
-            [111501] = {
-                [1] = 1189,
-            },
-        },
-        icon = "",
-        des = "431027",
-    },
-    [95003] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 95003,
-        buffs = {
-            [0] = {
-                [1] = 9504,
-            },
-        },
-        icon = "",
-        des = "",
-    },
     [95002] = {
         attributeExtra = {
         },
@@ -11561,6 +11668,42 @@ return {
         },
         icon = "",
         des = "",
+    },
+    [90018] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 90018,
+        buffs = {
+            [0] = {
+                [1] = 9705,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [10001] = {
+        attributeExtra = {
+        },
+        attribute = {
+            [2] = 500,
+            [3] = 500,
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 10001,
+        buffs = {
+            [0] = {
+                [1] = 1001,
+            },
+        },
+        icon = "",
+        des = "441001",
     },
     [50501] = {
         attributeExtra = {
@@ -11609,7 +11752,7 @@ return {
         icon = "icon/skill/10201_skillE.png",
         des = "2210040",
     },
-    [10009] = {
+    [90015] = {
         attributeExtra = {
         },
         attribute = {
@@ -11617,31 +11760,32 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 10009,
+        id = 90015,
         buffs = {
             [0] = {
-                [1] = 1009,
+                [1] = 9509,
+                [2] = 9511,
             },
         },
         icon = "",
-        des = "441009",
+        des = "",
     },
-    [43021] = {
+    [50101] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470061",
+        name = "1150001",
         angelSkillFunctions = {
+        },
+        id = 50101,
+        buffs = {
             [0] = {
-                [1] = 10251,
+                [1] = 50101,
             },
         },
-        id = 43021,
-        buffs = {
-        },
-        icon = "icon/stone/skill/12.png",
-        des = "471061",
+        icon = "icon/stone/skill/15.png",
+        des = "1150101",
     },
     [95056] = {
         attributeExtra = {
@@ -11686,41 +11830,7 @@ return {
         icon = "",
         des = "",
     },
-    [41023] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470039",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10123,
-            },
-        },
-        id = 41023,
-        buffs = {
-        },
-        icon = "icon/stone/skill/10.png",
-        des = "471039",
-    },
-    [37051] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470018",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10651,
-            },
-        },
-        id = 37051,
-        buffs = {
-        },
-        icon = "icon/stone/skill/6.png",
-        des = "471018",
-    },
-    [10020] = {
+    [10016] = {
         attributeExtra = {
         },
         attribute = {
@@ -11728,14 +11838,48 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 10020,
+        id = 10016,
         buffs = {
             [0] = {
-                [1] = 1020,
+                [1] = 1016,
             },
         },
         icon = "",
-        des = "441020",
+        des = "441016",
+    },
+    [60072] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 60072,
+        buffs = {
+            [0] = {
+                [1] = 60072,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [61034] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 61034,
+        buffs = {
+            [0] = {
+                [1] = 61034,
+            },
+        },
+        icon = "",
+        des = "",
     },
     [30014] = {
         attributeExtra = {
@@ -11805,7 +11949,7 @@ return {
         icon = "",
         des = "",
     },
-    [61012] = {
+    [62011] = {
         attributeExtra = {
         },
         attribute = {
@@ -11813,46 +11957,10 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 61012,
+        id = 62011,
         buffs = {
             [0] = {
-                [1] = 61012,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [61043] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 61043,
-        buffs = {
-            [0] = {
-                [1] = 61043,
-                [2] = 61047,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [60061] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 60061,
-        buffs = {
-            [0] = {
-                [1] = 60061,
-                [2] = 60062,
+                [1] = 62011,
             },
         },
         icon = "",
@@ -11870,6 +11978,40 @@ return {
         buffs = {
             [0] = {
                 [1] = 911,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [90007] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 90007,
+        buffs = {
+            [0] = {
+                [1] = 908,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [90006] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 90006,
+        buffs = {
+            [0] = {
+                [1] = 907,
             },
         },
         icon = "",
@@ -11916,7 +12058,7 @@ return {
         icon = "icon/stone/skill/15.png",
         des = "471121",
     },
-    [90006] = {
+    [90002] = {
         attributeExtra = {
         },
         attribute = {
@@ -11924,10 +12066,10 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 90006,
+        id = 90002,
         buffs = {
             [0] = {
-                [1] = 907,
+                [1] = 902,
             },
         },
         icon = "",
@@ -12499,37 +12641,39 @@ return {
         icon = "",
         des = "441191",
     },
-    [90002] = {
+    [62054] = {
         attributeExtra = {
         },
         attribute = {
+            [509] = 1600,
+            [522] = 1600,
         },
         name = "",
         angelSkillFunctions = {
         },
-        id = 90002,
+        id = 62054,
         buffs = {
             [0] = {
-                [1] = 902,
+                [1] = 62054,
             },
         },
         icon = "",
         des = "",
     },
-    [62055] = {
+    [62051] = {
         attributeExtra = {
         },
         attribute = {
-            [509] = 2000,
-            [522] = 2000,
+            [509] = 400,
+            [522] = 400,
         },
         name = "",
         angelSkillFunctions = {
         },
-        id = 62055,
+        id = 62051,
         buffs = {
             [0] = {
-                [1] = 62055,
+                [1] = 62051,
             },
         },
         icon = "",
@@ -12552,20 +12696,20 @@ return {
         icon = "icon/stone/skill/15.png",
         des = "471122",
     },
-    [62054] = {
+    [62045] = {
         attributeExtra = {
         },
         attribute = {
-            [509] = 1600,
-            [522] = 1600,
+            [507] = 1000,
+            [503] = 1000,
         },
         name = "",
         angelSkillFunctions = {
         },
-        id = 62054,
+        id = 62045,
         buffs = {
             [0] = {
-                [1] = 62054,
+                [1] = 62045,
             },
         },
         icon = "",
@@ -12645,39 +12789,39 @@ return {
         icon = "icon/stone/skill/11.png",
         des = "471055",
     },
-    [62045] = {
+    [62043] = {
         attributeExtra = {
         },
         attribute = {
-            [507] = 1000,
-            [503] = 1000,
+            [507] = 600,
+            [503] = 600,
         },
         name = "",
         angelSkillFunctions = {
         },
-        id = 62045,
+        id = 62043,
         buffs = {
             [0] = {
-                [1] = 62045,
+                [1] = 62043,
             },
         },
         icon = "",
         des = "",
     },
-    [62044] = {
+    [62042] = {
         attributeExtra = {
         },
         attribute = {
-            [507] = 800,
-            [503] = 800,
+            [507] = 400,
+            [503] = 400,
         },
         name = "",
         angelSkillFunctions = {
         },
-        id = 62044,
+        id = 62042,
         buffs = {
             [0] = {
-                [1] = 62044,
+                [1] = 62042,
             },
         },
         icon = "",
@@ -12716,44 +12860,6 @@ return {
         },
         icon = "icon/stone/skill/5.png",
         des = "471017",
-    },
-    [62043] = {
-        attributeExtra = {
-        },
-        attribute = {
-            [507] = 600,
-            [503] = 600,
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 62043,
-        buffs = {
-            [0] = {
-                [1] = 62043,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [62042] = {
-        attributeExtra = {
-        },
-        attribute = {
-            [507] = 400,
-            [503] = 400,
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 62042,
-        buffs = {
-            [0] = {
-                [1] = 62042,
-            },
-        },
-        icon = "",
-        des = "",
     },
     [62035] = {
         attributeExtra = {
@@ -12857,6 +12963,41 @@ return {
         icon = "",
         des = "",
     },
+    [40054] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "470021",
+        angelSkillFunctions = {
+        },
+        id = 40054,
+        buffs = {
+            [0] = {
+                [1] = 21054,
+            },
+        },
+        icon = "icon/stone/skill/6.png",
+        des = "471021",
+    },
+    [60061] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 60061,
+        buffs = {
+            [0] = {
+                [1] = 60061,
+                [2] = 60062,
+            },
+        },
+        icon = "",
+        des = "",
+    },
     [95060] = {
         attributeExtra = {
         },
@@ -12909,7 +13050,7 @@ return {
         icon = "",
         des = "",
     },
-    [62011] = {
+    [61073] = {
         attributeExtra = {
         },
         attribute = {
@@ -12917,10 +13058,10 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 62011,
+        id = 61073,
         buffs = {
             [0] = {
-                [1] = 62011,
+                [1] = 61073,
             },
         },
         icon = "",
@@ -12994,40 +13135,6 @@ return {
         icon = "",
         des = "461028",
     },
-    [61073] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 61073,
-        buffs = {
-            [0] = {
-                [1] = 61073,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [61064] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 61064,
-        buffs = {
-            [0] = {
-                [1] = 61064,
-            },
-        },
-        icon = "",
-        des = "",
-    },
     [61063] = {
         attributeExtra = {
         },
@@ -13096,6 +13203,41 @@ return {
         icon = "",
         des = "",
     },
+    [61052] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 61052,
+        buffs = {
+            [0] = {
+                [1] = 61052,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [61044] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 61044,
+        buffs = {
+            [0] = {
+                [1] = 61044,
+                [2] = 61048,
+            },
+        },
+        icon = "",
+        des = "",
+    },
     [49033] = {
         attributeExtra = {
         },
@@ -13113,7 +13255,7 @@ return {
         icon = "icon/stone/skill/15.png",
         des = "471123",
     },
-    [61052] = {
+    [61043] = {
         attributeExtra = {
         },
         attribute = {
@@ -13121,10 +13263,11 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 61052,
+        id = 61043,
         buffs = {
             [0] = {
-                [1] = 61052,
+                [1] = 61043,
+                [2] = 61047,
             },
         },
         icon = "",
@@ -13254,41 +13397,6 @@ return {
         icon = "icon/stone/skill/2.png",
         des = "471004",
     },
-    [61041] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 61041,
-        buffs = {
-            [0] = {
-                [1] = 61041,
-                [2] = 61045,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [61034] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 61034,
-        buffs = {
-            [0] = {
-                [1] = 61034,
-            },
-        },
-        icon = "",
-        des = "",
-    },
     [61033] = {
         attributeExtra = {
         },
@@ -13374,7 +13482,7 @@ return {
         icon = "",
         des = "",
     },
-    [60062] = {
+    [60053] = {
         attributeExtra = {
         },
         attribute = {
@@ -13382,11 +13490,10 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 60062,
+        id = 60053,
         buffs = {
             [0] = {
-                [1] = 60063,
-                [2] = 60064,
+                [1] = 60053,
             },
         },
         icon = "",
@@ -13404,6 +13511,40 @@ return {
         buffs = {
             [0] = {
                 [1] = 61021,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [61013] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 61013,
+        buffs = {
+            [0] = {
+                [1] = 61013,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [61012] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 61012,
+        buffs = {
+            [0] = {
+                [1] = 61012,
             },
         },
         icon = "",
@@ -13460,7 +13601,7 @@ return {
         icon = "",
         des = "",
     },
-    [60093] = {
+    [60052] = {
         attributeExtra = {
         },
         attribute = {
@@ -13468,16 +13609,16 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 60093,
+        id = 60052,
         buffs = {
             [0] = {
-                [1] = 60093,
+                [1] = 60052,
             },
         },
         icon = "",
         des = "",
     },
-    [60072] = {
+    [60062] = {
         attributeExtra = {
         },
         attribute = {
@@ -13485,10 +13626,11 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 60072,
+        id = 60062,
         buffs = {
             [0] = {
-                [1] = 60072,
+                [1] = 60063,
+                [2] = 60064,
             },
         },
         icon = "",
@@ -13563,40 +13705,6 @@ return {
         icon = "",
         des = "",
     },
-    [60053] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 60053,
-        buffs = {
-            [0] = {
-                [1] = 60053,
-            },
-        },
-        icon = "",
-        des = "",
-    },
-    [60052] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 60052,
-        buffs = {
-            [0] = {
-                [1] = 60052,
-            },
-        },
-        icon = "",
-        des = "",
-    },
     [60042] = {
         attributeExtra = {
         },
@@ -13665,6 +13773,40 @@ return {
         icon = "",
         des = "",
     },
+    [60021] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 60021,
+        buffs = {
+            [0] = {
+                [1] = 60021,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [60013] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 60013,
+        buffs = {
+            [0] = {
+                [1] = 60012,
+            },
+        },
+        icon = "",
+        des = "",
+    },
     [48011] = {
         attributeExtra = {
         },
@@ -13682,7 +13824,7 @@ return {
         icon = "icon/stone/skill/15.png",
         des = "471106",
     },
-    [10012] = {
+    [60012] = {
         attributeExtra = {
         },
         attribute = {
@@ -13690,14 +13832,14 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 10012,
+        id = 60012,
         buffs = {
             [0] = {
-                [1] = 1012,
+                [1] = 60012,
             },
         },
         icon = "",
-        des = "441012",
+        des = "",
     },
     [95063] = {
         attributeExtra = {
@@ -13753,7 +13895,7 @@ return {
         icon = "",
         des = "",
     },
-    [9002] = {
+    [10020] = {
         attributeExtra = {
         },
         attribute = {
@@ -13761,11 +13903,14 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 9002,
+        id = 10020,
         buffs = {
+            [0] = {
+                [1] = 1020,
+            },
         },
         icon = "",
-        des = "449002",
+        des = "441020",
     },
     [42033] = {
         attributeExtra = {
@@ -13834,6 +13979,20 @@ return {
         },
         icon = "icon/stone/skill/2.png",
         des = "471005",
+    },
+    [9002] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 9002,
+        buffs = {
+        },
+        icon = "",
+        des = "449002",
     },
     [10028] = {
         attributeExtra = {
@@ -13924,67 +14083,39 @@ return {
         icon = "",
         des = "441128",
     },
-    [10160] = {
+    [51801] = {
         attributeExtra = {
         },
         attribute = {
-            [608] = 1000,
         },
-        name = "",
+        name = "1150018",
         angelSkillFunctions = {
-            [0] = {
-                [1] = 20000,
-            },
-            [112501] = {
-                [1] = 3006011,
-            },
         },
-        id = 10160,
+        id = 51801,
         buffs = {
             [0] = {
-                [1] = 1235,
-            },
-            [112501] = {
-                [1] = 1235,
-                [2] = 1236,
+                [1] = 51801,
             },
         },
-        icon = "",
-        des = "441160",
+        icon = "icon/stone/skill/15.png",
+        des = "1151801",
     },
-    [60021] = {
+    [40022] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "",
+        name = "470007",
         angelSkillFunctions = {
         },
-        id = 60021,
+        id = 40022,
         buffs = {
             [0] = {
-                [1] = 60021,
+                [1] = 21022,
             },
         },
-        icon = "",
-        des = "",
-    },
-    [60012] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 60012,
-        buffs = {
-            [0] = {
-                [1] = 60012,
-            },
-        },
-        icon = "",
-        des = "",
+        icon = "icon/stone/skill/3.png",
+        des = "471007",
     },
     [50601] = {
         attributeExtra = {
@@ -14054,33 +14185,22 @@ return {
         icon = "",
         des = "",
     },
-    [20043] = {
+    [51201] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "431043",
+        name = "1150012",
         angelSkillFunctions = {
-            [0] = {
-                [1] = 20000,
-            },
-            [113301] = {
-                [1] = 3505016,
-                [2] = 3505022,
-                [3] = 3505023,
-            },
         },
-        id = 20043,
+        id = 51201,
         buffs = {
-            [113301] = {
-                [1] = 13511311,
-                [2] = 13511312,
-                [3] = 6427,
-                [4] = 6428,
+            [0] = {
+                [1] = 51201,
             },
         },
-        icon = "",
-        des = "431043",
+        icon = "icon/stone/skill/15.png",
+        des = "1151201",
     },
     [110601] = {
         attributeExtra = {
@@ -14156,39 +14276,39 @@ return {
         icon = "",
         des = "461016",
     },
-    [51201] = {
+    [40074] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "1150012",
+        name = "470029",
         angelSkillFunctions = {
         },
-        id = 51201,
+        id = 40074,
         buffs = {
             [0] = {
-                [1] = 51201,
+                [1] = 21064,
             },
         },
-        icon = "icon/stone/skill/15.png",
-        des = "1151201",
+        icon = "icon/stone/skill/8.png",
+        des = "471029",
     },
-    [51101] = {
+    [37063] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "1150011",
+        name = "470024",
         angelSkillFunctions = {
-        },
-        id = 51101,
-        buffs = {
             [0] = {
-                [1] = 51101,
+                [1] = 10663,
             },
         },
-        icon = "icon/stone/skill/15.png",
-        des = "1151101",
+        id = 37063,
+        buffs = {
+        },
+        icon = "icon/stone/skill/7.png",
+        des = "471024",
     },
     [20009] = {
         attributeExtra = {
@@ -14254,6 +14374,35 @@ return {
         icon = "",
         des = "431033",
     },
+    [20032] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "430032",
+        angelSkillFunctions = {
+        },
+        id = 20032,
+        buffs = {
+            [0] = {
+                [1] = 4004,
+            },
+            [110101] = {
+                [1] = 4004,
+                [2] = 4005,
+            },
+            [110102] = {
+                [1] = 4004,
+                [2] = 4005,
+            },
+            [110103] = {
+                [1] = 4004,
+                [2] = 4005,
+            },
+        },
+        icon = "",
+        des = "431032",
+    },
     [40082] = {
         attributeExtra = {
         },
@@ -14270,23 +14419,6 @@ return {
         },
         icon = "icon/stone/skill/9.png",
         des = "471031",
-    },
-    [38014] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470005",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10514,
-            },
-        },
-        id = 38014,
-        buffs = {
-        },
-        icon = "icon/stone/skill/2.png",
-        des = "471005",
     },
     [48012] = {
         attributeExtra = {
@@ -14373,41 +14505,42 @@ return {
         icon = "",
         des = "441005",
     },
-    [41011] = {
+    [20010] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470034",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10111,
-            },
-        },
-        id = 41011,
-        buffs = {
-        },
-        icon = "icon/stone/skill/10.png",
-        des = "471034",
-    },
-    [10021] = {
-        attributeExtra = {
-        },
-        attribute = {
-            [507] = 500,
-            [509] = 1000,
-        },
-        name = "",
+        name = "430010",
         angelSkillFunctions = {
         },
-        id = 10021,
+        id = 20010,
         buffs = {
             [0] = {
-                [1] = 1021,
+                [1] = 3026,
             },
         },
         icon = "",
-        des = "441021",
+        des = "431010",
+    },
+    [20026] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "430026",
+        angelSkillFunctions = {
+        },
+        id = 20026,
+        buffs = {
+            [0] = {
+                [1] = 1179,
+            },
+            [111001] = {
+                [1] = 1180,
+            },
+        },
+        icon = "",
+        des = "431026",
     },
     [20042] = {
         attributeExtra = {
@@ -14436,22 +14569,22 @@ return {
         icon = "",
         des = "431042",
     },
-    [40084] = {
+    [10037] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470033",
+        name = "",
         angelSkillFunctions = {
         },
-        id = 40084,
+        id = 10037,
         buffs = {
             [0] = {
-                [1] = 21074,
+                [1] = 1037,
             },
         },
-        icon = "icon/stone/skill/9.png",
-        des = "471033",
+        icon = "",
+        des = "441037",
     },
     [10045] = {
         attributeExtra = {
@@ -14778,22 +14911,22 @@ return {
         icon = "",
         des = "441168",
     },
-    [49011] = {
+    [1131] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470115",
+        name = "",
         angelSkillFunctions = {
+        },
+        id = 1131,
+        buffs = {
             [0] = {
-                [1] = 10271,
+                [1] = 11031,
             },
         },
-        id = 49011,
-        buffs = {
-        },
-        icon = "icon/stone/skill/15.png",
-        des = "471115",
+        icon = "",
+        des = "",
     },
     [10181] = {
         attributeExtra = {
@@ -14865,41 +14998,51 @@ return {
         icon = "",
         des = "441184",
     },
-    [50301] = {
+    [10205] = {
+        attributeExtra = {
+            [110313] = {
+                [509] = 2000,
+                [522] = 2000,
+            },
+        },
+        attribute = {
+            [604] = 1500,
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 10205,
+        buffs = {
+            [0] = {
+                [1] = 1339,
+            },
+            [110313] = {
+                [1] = 1339,
+                [2] = 1340,
+                [3] = 1341,
+            },
+        },
+        icon = "",
+        des = "441192",
+    },
+    [40084] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "1150003",
+        name = "470033",
         angelSkillFunctions = {
         },
-        id = 50301,
+        id = 40084,
         buffs = {
             [0] = {
-                [1] = 50301,
+                [1] = 21074,
             },
         },
-        icon = "icon/stone/skill/15.png",
-        des = "1150301",
+        icon = "icon/stone/skill/9.png",
+        des = "471033",
     },
-    [50101] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "1150001",
-        angelSkillFunctions = {
-        },
-        id = 50101,
-        buffs = {
-            [0] = {
-                [1] = 50101,
-            },
-        },
-        icon = "icon/stone/skill/15.png",
-        des = "1150101",
-    },
-    [1131] = {
+    [9004] = {
         attributeExtra = {
         },
         attribute = {
@@ -14907,14 +15050,11 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 1131,
+        id = 9004,
         buffs = {
-            [0] = {
-                [1] = 11031,
-            },
         },
         icon = "",
-        des = "",
+        des = "449004",
     },
     [48013] = {
         attributeExtra = {
@@ -14985,19 +15125,22 @@ return {
         icon = "",
         des = "",
     },
-    [9004] = {
+    [49011] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "",
+        name = "470115",
         angelSkillFunctions = {
+            [0] = {
+                [1] = 10271,
+            },
         },
-        id = 9004,
+        id = 49011,
         buffs = {
         },
-        icon = "",
-        des = "449004",
+        icon = "icon/stone/skill/15.png",
+        des = "471115",
     },
     [41012] = {
         attributeExtra = {
@@ -15067,6 +15210,65 @@ return {
         icon = "icon/stone/skill/7.png",
         des = "471023",
     },
+    [43021] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "470061",
+        angelSkillFunctions = {
+            [0] = {
+                [1] = 10251,
+            },
+        },
+        id = 43021,
+        buffs = {
+        },
+        icon = "icon/stone/skill/12.png",
+        des = "471061",
+    },
+    [10025] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 10025,
+        buffs = {
+            [0] = {
+                [1] = 1025,
+            },
+        },
+        icon = "",
+        des = "441025",
+    },
+    [20016] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "430016",
+        angelSkillFunctions = {
+        },
+        id = 20016,
+        buffs = {
+            [0] = {
+                [1] = 1095,
+            },
+            [111301] = {
+                [1] = 3043,
+                [2] = 3044,
+                [3] = 3045,
+                [4] = 3046,
+                [5] = 3047,
+                [6] = 3048,
+            },
+        },
+        icon = "",
+        des = "431016",
+    },
     [39061] = {
         attributeExtra = {
         },
@@ -15084,56 +15286,50 @@ return {
         icon = "icon/stone/skill/7.png",
         des = "471022",
     },
-    [1133] = {
+    [40024] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "",
+        name = "470009",
         angelSkillFunctions = {
         },
-        id = 1133,
+        id = 40024,
         buffs = {
             [0] = {
-                [1] = 11033,
+                [1] = 21024,
+            },
+        },
+        icon = "icon/stone/skill/3.png",
+        des = "471009",
+    },
+    [20040] = {
+        attributeExtra = {
+            [113101] = {
+                [509] = 1000,
+                [501] = 2000,
+                [522] = 1000,
+            },
+        },
+        attribute = {
+        },
+        name = "431040",
+        angelSkillFunctions = {
+            [0] = {
+                [1] = 20000,
+            },
+            [113101] = {
+                [1] = 3305307,
+            },
+        },
+        id = 20040,
+        buffs = {
+            [113101] = {
+                [1] = 1295,
             },
         },
         icon = "",
-        des = "",
-    },
-    [10029] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 10029,
-        buffs = {
-            [0] = {
-                [1] = 1029,
-            },
-        },
-        icon = "",
-        des = "441029",
-    },
-    [38054] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470021",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10554,
-            },
-        },
-        id = 38054,
-        buffs = {
-        },
-        icon = "icon/stone/skill/6.png",
-        des = "471021",
+        des = "431040",
     },
     [51501] = {
         attributeExtra = {
@@ -15152,44 +15348,7 @@ return {
         icon = "icon/stone/skill/15.png",
         des = "1151501",
     },
-    [20011] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "430011",
-        angelSkillFunctions = {
-        },
-        id = 20011,
-        buffs = {
-            [0] = {
-                [1] = 1095,
-            },
-            [110501] = {
-                [1] = 3027,
-            },
-        },
-        icon = "",
-        des = "431011",
-    },
-    [20022] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "430022",
-        angelSkillFunctions = {
-        },
-        id = 20022,
-        buffs = {
-            [0] = {
-                [1] = 3071,
-            },
-        },
-        icon = "",
-        des = "431022",
-    },
-    [10039] = {
+    [10023] = {
         attributeExtra = {
         },
         attribute = {
@@ -15197,14 +15356,14 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 10039,
+        id = 10023,
         buffs = {
             [0] = {
-                [1] = 1039,
+                [1] = 1023,
             },
         },
         icon = "",
-        des = "441039",
+        des = "441023",
     },
     [95004] = {
         attributeExtra = {
@@ -15223,24 +15382,22 @@ return {
         icon = "",
         des = "",
     },
-    [10001] = {
+    [40014] = {
         attributeExtra = {
         },
         attribute = {
-            [2] = 500,
-            [3] = 500,
         },
-        name = "",
+        name = "470005",
         angelSkillFunctions = {
         },
-        id = 10001,
+        id = 40014,
         buffs = {
             [0] = {
-                [1] = 1001,
+                [1] = 21014,
             },
         },
-        icon = "",
-        des = "441001",
+        icon = "icon/stone/skill/2.png",
+        des = "471005",
     },
     [90017] = {
         attributeExtra = {
@@ -15259,6 +15416,23 @@ return {
         icon = "",
         des = "",
     },
+    [10009] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 10009,
+        buffs = {
+            [0] = {
+                [1] = 1009,
+            },
+        },
+        icon = "",
+        des = "441009",
+    },
     [10013] = {
         attributeExtra = {
         },
@@ -15276,39 +15450,24 @@ return {
         icon = "",
         des = "441013",
     },
-    [20010] = {
+    [10021] = {
         attributeExtra = {
         },
         attribute = {
-        },
-        name = "430010",
-        angelSkillFunctions = {
-        },
-        id = 20010,
-        buffs = {
-            [0] = {
-                [1] = 3026,
-            },
-        },
-        icon = "",
-        des = "431010",
-    },
-    [10025] = {
-        attributeExtra = {
-        },
-        attribute = {
+            [507] = 500,
+            [509] = 1000,
         },
         name = "",
         angelSkillFunctions = {
         },
-        id = 10025,
+        id = 10021,
         buffs = {
             [0] = {
-                [1] = 1025,
+                [1] = 1021,
             },
         },
         icon = "",
-        des = "441025",
+        des = "441021",
     },
     [30017] = {
         attributeExtra = {
@@ -15344,7 +15503,7 @@ return {
         icon = "",
         des = "461017",
     },
-    [10037] = {
+    [10029] = {
         attributeExtra = {
         },
         attribute = {
@@ -15352,14 +15511,14 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 10037,
+        id = 10029,
         buffs = {
             [0] = {
-                [1] = 1037,
+                [1] = 1029,
             },
         },
         icon = "",
-        des = "441037",
+        des = "441029",
     },
     [10041] = {
         attributeExtra = {
@@ -15399,24 +15558,24 @@ return {
         icon = "",
         des = "441053",
     },
-    [39034] = {
+    [39033] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470013",
+        name = "470012",
         angelSkillFunctions = {
             [0] = {
-                [1] = 10034,
+                [1] = 10033,
             },
         },
-        id = 39034,
+        id = 39033,
         buffs = {
         },
         icon = "icon/stone/skill/4.png",
-        des = "471013",
+        des = "471012",
     },
-    [10055] = {
+    [10027] = {
         attributeExtra = {
         },
         attribute = {
@@ -15424,14 +15583,14 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 10055,
+        id = 10027,
         buffs = {
             [0] = {
-                [1] = 1057,
+                [1] = 1027,
             },
         },
         icon = "",
-        des = "441055",
+        des = "441027",
     },
     [40012] = {
         attributeExtra = {
@@ -15450,50 +15609,50 @@ return {
         icon = "icon/stone/skill/2.png",
         des = "471003",
     },
-    [20018] = {
+    [20043] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "430018",
+        name = "431043",
         angelSkillFunctions = {
-        },
-        id = 20018,
-        buffs = {
             [0] = {
-                [1] = 1095,
+                [1] = 20000,
             },
-            [110501] = {
-                [1] = 3049,
-                [2] = 3050,
-                [3] = 3051,
-                [4] = 3052,
-                [5] = 3053,
-                [6] = 3054,
-                [7] = 3055,
-                [8] = 3056,
-                [9] = 3057,
+            [113301] = {
+                [1] = 3505016,
+                [2] = 3505022,
+                [3] = 3505023,
+            },
+        },
+        id = 20043,
+        buffs = {
+            [113301] = {
+                [1] = 13511311,
+                [2] = 13511312,
+                [3] = 6427,
+                [4] = 6428,
             },
         },
         icon = "",
-        des = "431018",
+        des = "431043",
     },
-    [39053] = {
+    [39034] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470020",
+        name = "470013",
         angelSkillFunctions = {
             [0] = {
-                [1] = 10053,
+                [1] = 10034,
             },
         },
-        id = 39053,
+        id = 39034,
         buffs = {
         },
-        icon = "icon/stone/skill/6.png",
-        des = "471020",
+        icon = "icon/stone/skill/4.png",
+        des = "471013",
     },
     [47023] = {
         attributeExtra = {
@@ -15580,22 +15739,33 @@ return {
         icon = "icon/stone/skill/10.png",
         des = "471036",
     },
-    [40022] = {
+    [20027] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470007",
+        name = "430027",
         angelSkillFunctions = {
         },
-        id = 40022,
+        id = 20027,
         buffs = {
-            [0] = {
-                [1] = 21022,
+            [111411] = {
+                [1] = 1189,
+                [2] = 1190,
+            },
+            [111511] = {
+                [1] = 1189,
+            },
+            [111401] = {
+                [1] = 1189,
+                [2] = 1190,
+            },
+            [111501] = {
+                [1] = 1189,
             },
         },
-        icon = "icon/stone/skill/3.png",
-        des = "471007",
+        icon = "",
+        des = "431027",
     },
     [39031] = {
         attributeExtra = {
@@ -15631,34 +15801,6 @@ return {
         icon = "icon/stone/skill/7.png",
         des = "471024",
     },
-    [20040] = {
-        attributeExtra = {
-            [113101] = {
-                [509] = 1000,
-                [501] = 2000,
-                [522] = 1000,
-            },
-        },
-        attribute = {
-        },
-        name = "431040",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 20000,
-            },
-            [113101] = {
-                [1] = 3305307,
-            },
-        },
-        id = 20040,
-        buffs = {
-            [113101] = {
-                [1] = 1295,
-            },
-        },
-        icon = "",
-        des = "431040",
-    },
     [43033] = {
         attributeExtra = {
         },
@@ -15692,6 +15834,23 @@ return {
         },
         icon = "",
         des = "",
+    },
+    [39064] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "470025",
+        angelSkillFunctions = {
+            [0] = {
+                [1] = 10064,
+            },
+        },
+        id = 39064,
+        buffs = {
+        },
+        icon = "icon/stone/skill/7.png",
+        des = "471025",
     },
     [42022] = {
         attributeExtra = {
@@ -15737,23 +15896,6 @@ return {
         icon = "",
         des = "431036",
     },
-    [1126] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 1126,
-        buffs = {
-            [0] = {
-                [1] = 11026,
-            },
-        },
-        icon = "",
-        des = "",
-    },
     [41053] = {
         attributeExtra = {
         },
@@ -15770,6 +15912,74 @@ return {
         },
         icon = "icon/stone/skill/10.png",
         des = "471048",
+    },
+    [37051] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "470018",
+        angelSkillFunctions = {
+            [0] = {
+                [1] = 10651,
+            },
+        },
+        id = 37051,
+        buffs = {
+        },
+        icon = "icon/stone/skill/6.png",
+        des = "471018",
+    },
+    [41051] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "470046",
+        angelSkillFunctions = {
+            [0] = {
+                [1] = 10151,
+            },
+        },
+        id = 41051,
+        buffs = {
+        },
+        icon = "icon/stone/skill/10.png",
+        des = "471046",
+    },
+    [95006] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 95006,
+        buffs = {
+            [0] = {
+                [1] = 9513,
+            },
+        },
+        icon = "",
+        des = "",
+    },
+    [41043] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "470045",
+        angelSkillFunctions = {
+            [0] = {
+                [1] = 10143,
+            },
+        },
+        id = 41043,
+        buffs = {
+        },
+        icon = "icon/stone/skill/10.png",
+        des = "471045",
     },
     [1127] = {
         attributeExtra = {
@@ -15788,22 +15998,22 @@ return {
         icon = "",
         des = "",
     },
-    [95006] = {
+    [51601] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "",
+        name = "1150016",
         angelSkillFunctions = {
         },
-        id = 95006,
+        id = 51601,
         buffs = {
             [0] = {
-                [1] = 9513,
+                [1] = 51601,
             },
         },
-        icon = "",
-        des = "",
+        icon = "icon/stone/skill/15.png",
+        des = "1151601",
     },
     [1128] = {
         attributeExtra = {
@@ -15839,22 +16049,22 @@ return {
         icon = "",
         des = "441002",
     },
-    [39033] = {
+    [39013] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470012",
+        name = "470004",
         angelSkillFunctions = {
             [0] = {
-                [1] = 10033,
+                [1] = 10013,
             },
         },
-        id = 39033,
+        id = 39013,
         buffs = {
         },
-        icon = "icon/stone/skill/4.png",
-        des = "471012",
+        icon = "icon/stone/skill/2.png",
+        des = "471004",
     },
     [10010] = {
         attributeExtra = {
@@ -15873,24 +16083,31 @@ return {
         icon = "",
         des = "441010",
     },
-    [10014] = {
+    [117001] = {
         attributeExtra = {
         },
         attribute = {
-            [505] = -500,
-            [506] = 1000,
         },
-        name = "",
+        name = "410022",
         angelSkillFunctions = {
         },
-        id = 10014,
+        id = 117001,
         buffs = {
             [0] = {
-                [1] = 1014,
+                [1] = 8803,
+                [2] = 6123,
+                [3] = 6021,
+                [4] = 6260,
+                [5] = 6261,
+                [6] = 6262,
+                [7] = 6263,
+                [8] = 6264,
+                [9] = 6265,
+                [10] = 6266,
             },
         },
-        icon = "",
-        des = "441014",
+        icon = "icon/skill/10101_skillE.png",
+        des = "411110",
     },
     [10018] = {
         attributeExtra = {
@@ -15926,27 +16143,32 @@ return {
         icon = "",
         des = "441022",
     },
-    [117001] = {
+    [113101] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "410022",
+        name = "",
         angelSkillFunctions = {
         },
-        id = 117001,
+        id = 113101,
         buffs = {
             [0] = {
-                [1] = 8803,
-                [2] = 6123,
-                [3] = 6021,
-                [4] = 6260,
-                [5] = 6261,
-                [6] = 6262,
-                [7] = 6263,
-                [8] = 6264,
-                [9] = 6265,
-                [10] = 6266,
+                [1] = 6021,
+                [2] = 6304,
+                [3] = 6360,
+                [4] = 6361,
+                [5] = 6362,
+                [6] = 6363,
+                [7] = 6365,
+                [8] = 6368,
+                [9] = 6370,
+                [10] = 6372,
+                [11] = 6373,
+                [12] = 6374,
+                [13] = 6375,
+                [14] = 13100811,
+                [15] = 1299,
             },
         },
         icon = "icon/skill/10101_skillE.png",
@@ -15986,7 +16208,7 @@ return {
         icon = "",
         des = "441034",
     },
-    [113101] = {
+    [10038] = {
         attributeExtra = {
         },
         attribute = {
@@ -15994,98 +16216,31 @@ return {
         name = "",
         angelSkillFunctions = {
         },
-        id = 113101,
+        id = 10038,
         buffs = {
             [0] = {
-                [1] = 6021,
-                [2] = 6304,
-                [3] = 6360,
-                [4] = 6361,
-                [5] = 6362,
-                [6] = 6363,
-                [7] = 6365,
-                [8] = 6368,
-                [9] = 6370,
-                [10] = 6372,
-                [11] = 6373,
-                [12] = 6374,
-                [13] = 6375,
-                [14] = 13100811,
-                [15] = 1299,
-            },
-        },
-        icon = "icon/skill/10101_skillE.png",
-        des = "411110",
-    },
-    [39013] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470004",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10013,
-            },
-        },
-        id = 39013,
-        buffs = {
-        },
-        icon = "icon/stone/skill/2.png",
-        des = "471004",
-    },
-    [10011] = {
-        attributeExtra = {
-        },
-        attribute = {
-            [2] = 1000,
-            [3] = 1000,
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 10011,
-        buffs = {
-            [0] = {
-                [1] = 1011,
+                [1] = 1038,
             },
         },
         icon = "",
-        des = "441011",
+        des = "441038",
     },
-    [10023] = {
+    [38054] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "",
+        name = "470021",
         angelSkillFunctions = {
-        },
-        id = 10023,
-        buffs = {
             [0] = {
-                [1] = 1023,
+                [1] = 10554,
             },
         },
-        icon = "",
-        des = "441023",
-    },
-    [10027] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "",
-        angelSkillFunctions = {
-        },
-        id = 10027,
+        id = 38054,
         buffs = {
-            [0] = {
-                [1] = 1027,
-            },
         },
-        icon = "",
-        des = "441027",
+        icon = "icon/stone/skill/6.png",
+        des = "471021",
     },
     [95007] = {
         attributeExtra = {
@@ -16138,41 +16293,41 @@ return {
         icon = "icon/stone/skill/14.png",
         des = "471086",
     },
-    [38034] = {
+    [10031] = {
         attributeExtra = {
         },
         attribute = {
+            [507] = 750,
+            [509] = 1500,
         },
-        name = "470013",
-        angelSkillFunctions = {
-            [0] = {
-                [1] = 10534,
-            },
-        },
-        id = 38034,
-        buffs = {
-        },
-        icon = "icon/stone/skill/4.png",
-        des = "471013",
-    },
-    [20015] = {
-        attributeExtra = {
-        },
-        attribute = {
-            [501] = 1000,
-        },
-        name = "430015",
+        name = "",
         angelSkillFunctions = {
         },
-        id = 20015,
+        id = 10031,
         buffs = {
             [0] = {
-                [1] = 3034,
-                [2] = 3035,
+                [1] = 1031,
             },
         },
         icon = "",
-        des = "431015",
+        des = "441031",
+    },
+    [10039] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 10039,
+        buffs = {
+            [0] = {
+                [1] = 1039,
+            },
+        },
+        icon = "",
+        des = "441039",
     },
     [40023] = {
         attributeExtra = {
@@ -16225,59 +16380,103 @@ return {
         icon = "icon/stone/skill/5.png",
         des = "471014",
     },
-    [20026] = {
+    [10055] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "430026",
+        name = "",
         angelSkillFunctions = {
         },
-        id = 20026,
+        id = 10055,
         buffs = {
             [0] = {
-                [1] = 1179,
-            },
-            [111001] = {
-                [1] = 1180,
+                [1] = 1057,
             },
         },
         icon = "",
-        des = "431026",
+        des = "441055",
     },
-    [41051] = {
+    [38034] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470046",
+        name = "470013",
         angelSkillFunctions = {
             [0] = {
-                [1] = 10151,
+                [1] = 10534,
             },
         },
-        id = 41051,
+        id = 38034,
         buffs = {
         },
-        icon = "icon/stone/skill/10.png",
-        des = "471046",
+        icon = "icon/stone/skill/4.png",
+        des = "471013",
     },
-    [41043] = {
+    [20015] = {
+        attributeExtra = {
+        },
+        attribute = {
+            [501] = 1000,
+        },
+        name = "430015",
+        angelSkillFunctions = {
+        },
+        id = 20015,
+        buffs = {
+            [0] = {
+                [1] = 3034,
+                [2] = 3035,
+            },
+        },
+        icon = "",
+        des = "431015",
+    },
+    [20022] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470045",
+        name = "430022",
         angelSkillFunctions = {
+        },
+        id = 20022,
+        buffs = {
             [0] = {
-                [1] = 10143,
+                [1] = 3071,
             },
         },
-        id = 41043,
-        buffs = {
+        icon = "",
+        des = "431022",
+    },
+    [20018] = {
+        attributeExtra = {
         },
-        icon = "icon/stone/skill/10.png",
-        des = "471045",
+        attribute = {
+        },
+        name = "430018",
+        angelSkillFunctions = {
+        },
+        id = 20018,
+        buffs = {
+            [0] = {
+                [1] = 1095,
+            },
+            [110501] = {
+                [1] = 3049,
+                [2] = 3050,
+                [3] = 3051,
+                [4] = 3052,
+                [5] = 3053,
+                [6] = 3054,
+                [7] = 3055,
+                [8] = 3056,
+                [9] = 3057,
+            },
+        },
+        icon = "",
+        des = "431018",
     },
     [41033] = {
         attributeExtra = {
@@ -16312,52 +16511,6 @@ return {
         },
         icon = "icon/stone/skill/10.png",
         des = "471040",
-    },
-    [20032] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "430032",
-        angelSkillFunctions = {
-        },
-        id = 20032,
-        buffs = {
-            [0] = {
-                [1] = 4004,
-            },
-            [110101] = {
-                [1] = 4004,
-                [2] = 4005,
-            },
-            [110102] = {
-                [1] = 4004,
-                [2] = 4005,
-            },
-            [110103] = {
-                [1] = 4004,
-                [2] = 4005,
-            },
-        },
-        icon = "",
-        des = "431032",
-    },
-    [40083] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470032",
-        angelSkillFunctions = {
-        },
-        id = 40083,
-        buffs = {
-            [0] = {
-                [1] = 21073,
-            },
-        },
-        icon = "icon/stone/skill/9.png",
-        des = "471032",
     },
     [1001] = {
         attributeExtra = {
@@ -16396,22 +16549,56 @@ return {
         icon = "",
         des = "",
     },
-    [40074] = {
+    [40083] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470029",
+        name = "470032",
         angelSkillFunctions = {
         },
-        id = 40074,
+        id = 40083,
         buffs = {
             [0] = {
-                [1] = 21064,
+                [1] = 21073,
             },
         },
-        icon = "icon/stone/skill/8.png",
-        des = "471029",
+        icon = "icon/stone/skill/9.png",
+        des = "471032",
+    },
+    [40081] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "470030",
+        angelSkillFunctions = {
+        },
+        id = 40081,
+        buffs = {
+            [0] = {
+                [1] = 21071,
+            },
+        },
+        icon = "icon/stone/skill/9.png",
+        des = "471030",
+    },
+    [50701] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "1150007",
+        angelSkillFunctions = {
+        },
+        id = 50701,
+        buffs = {
+            [0] = {
+                [1] = 50701,
+            },
+        },
+        icon = "icon/stone/skill/15.png",
+        des = "1150701",
     },
     [20037] = {
         attributeExtra = {
@@ -16438,39 +16625,65 @@ return {
         icon = "",
         des = "431037",
     },
-    [50701] = {
+    [20045] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "1150007",
+        name = "431044",
         angelSkillFunctions = {
-        },
-        id = 50701,
-        buffs = {
             [0] = {
-                [1] = 50701,
+                [1] = 20000,
+            },
+            [110313] = {
+                [1] = 3604901,
             },
         },
-        icon = "icon/stone/skill/15.png",
-        des = "1150701",
+        id = 20045,
+        buffs = {
+            [110313] = {
+                [1] = 1347,
+                [2] = 1348,
+                [3] = 1349,
+                [4] = 1350,
+            },
+        },
+        icon = "",
+        des = "431045",
     },
-    [38062] = {
+    [38014] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470023",
+        name = "470005",
         angelSkillFunctions = {
             [0] = {
-                [1] = 10562,
+                [1] = 10514,
             },
         },
-        id = 38062,
+        id = 38014,
         buffs = {
         },
-        icon = "icon/stone/skill/7.png",
-        des = "471023",
+        icon = "icon/stone/skill/2.png",
+        des = "471005",
+    },
+    [30034] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "460018",
+        angelSkillFunctions = {
+        },
+        id = 30034,
+        buffs = {
+            [0] = {
+                [1] = 20034,
+            },
+        },
+        icon = "",
+        des = "461018",
     },
     [40064] = {
         attributeExtra = {
@@ -16489,39 +16702,22 @@ return {
         icon = "icon/stone/skill/7.png",
         des = "471025",
     },
-    [40054] = {
+    [38062] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470021",
+        name = "470023",
         angelSkillFunctions = {
-        },
-        id = 40054,
-        buffs = {
             [0] = {
-                [1] = 21054,
+                [1] = 10562,
             },
         },
-        icon = "icon/stone/skill/6.png",
-        des = "471021",
-    },
-    [30034] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "460018",
-        angelSkillFunctions = {
-        },
-        id = 30034,
+        id = 38062,
         buffs = {
-            [0] = {
-                [1] = 20034,
-            },
         },
-        icon = "",
-        des = "461018",
+        icon = "icon/stone/skill/7.png",
+        des = "471023",
     },
     [40052] = {
         attributeExtra = {
@@ -16557,22 +16753,22 @@ return {
         icon = "icon/stone/skill/5.png",
         des = "471017",
     },
-    [39054] = {
+    [39053] = {
         attributeExtra = {
         },
         attribute = {
         },
-        name = "470021",
+        name = "470020",
         angelSkillFunctions = {
             [0] = {
-                [1] = 10054,
+                [1] = 10053,
             },
         },
-        id = 39054,
+        id = 39053,
         buffs = {
         },
         icon = "icon/stone/skill/6.png",
-        des = "471021",
+        des = "471020",
     },
     [40034] = {
         attributeExtra = {
@@ -16607,40 +16803,6 @@ return {
         },
         icon = "icon/stone/skill/4.png",
         des = "471011",
-    },
-    [40024] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470009",
-        angelSkillFunctions = {
-        },
-        id = 40024,
-        buffs = {
-            [0] = {
-                [1] = 21024,
-            },
-        },
-        icon = "icon/stone/skill/3.png",
-        des = "471009",
-    },
-    [40014] = {
-        attributeExtra = {
-        },
-        attribute = {
-        },
-        name = "470005",
-        angelSkillFunctions = {
-        },
-        id = 40014,
-        buffs = {
-            [0] = {
-                [1] = 21014,
-            },
-        },
-        icon = "icon/stone/skill/2.png",
-        des = "471005",
     },
     [10997] = {
         attributeExtra = {

@@ -92,6 +92,9 @@ end
 
 function WhiteValentineActivityView:refreshView()
 	local activityInfo = ActivityDataMgr2:getActivityInfo(self.activityId)
+	if not activityInfo then
+		return
+	end
 	if activityInfo.extendData.dressId2 then
 		self.tab_1:show()
 		self.tab_2:show()
@@ -199,19 +202,21 @@ function WhiteValentineActivityView:refreshView()
 	-- if unLock then
 	-- 	canExchange = false
 	-- end
-
+	local count = 0
 	local costItems = {}
-	for k, v in pairs(itemInfo.target) do
-       	local num = GoodsDataMgr:getItemCount(k)
-       	if num < v then
-       		canExchange = false
-       	end
-        table.insert(costItems, {id = k, num = v})
-	end
-	self:updateExchangeList(costItems)
+	if itemInfo then
+		for k, v in pairs(itemInfo.target) do
+	       	local num = GoodsDataMgr:getItemCount(k)
+	       	if num < v then
+	       		canExchange = false
+	       	end
+	        table.insert(costItems, {id = k, num = v})
+		end
 
-  	local progress = progressInfo.progress or 0
-  	local count = itemInfo.extendData.limitVal - progress
+	  	local progress = progressInfo.progress or 0
+	  	count = itemInfo.extendData.limitVal - progress
+	 end
+	 self:updateExchangeList(costItems)
 	self.txt_num:setText(count)
 
 	self.btn_exchange:setTouchEnabled(canExchange and count > 0)

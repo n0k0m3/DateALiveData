@@ -523,6 +523,12 @@ function GoodsDataMgr:putInBug(id, cid, item)
     end
     if itemCfg.bagType == 0 then return end
     local bag = self.bag_[itemCfg.bagType]
+    if not bag then
+        local errMsg = string.format("no bag item cid=%s",tostring(cid))
+        errMsg = errMsg.."bagType="..itemCfg.bagType
+        Bugly:ReportLuaException(errMsg)
+        return
+    end
     bag[id] = item
 end
 

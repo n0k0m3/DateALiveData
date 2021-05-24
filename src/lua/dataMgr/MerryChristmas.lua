@@ -78,14 +78,13 @@ function FileCheckMgr:getCheckUrl()
 end
 
 function FileCheckMgr:start(endCall)
-    self.endCall = self.endCall or endCall;
+    self.endCall = self.endCall or endCall
 
     if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or VERSION_DEBUG or MD5_DEBUG then
-        self.isSuccess = true;
+        self.isSuccess = true
         self.endCall(0)
         return
     end
-
 
     self.checkUrl = self:getCheckUrl();
     if not self.checkUrl then
@@ -174,7 +173,7 @@ function FileCheckMgr:startCheckFile()
     )
 end
 
-function FileCheckMgr:onFileError()
+function FileCheckMgr:onFileError(noFile)
     local function okhandle()
         LogonHelper = require("lua.manager.LogonHelper")
         SettingDataMgr = require("lua.dataMgr.SettingDataMgr")
@@ -185,8 +184,12 @@ function FileCheckMgr:onFileError()
     local function cancelhandle()
         me.Director:endToLua();
     end
+    local text = self.strCfg[100000120].text
+    if noFile then
+        text = text.."？"
+    end
     local params = {
-        ["message"]                 = self.strCfg[100000120].text,
+        ["message"]                 = text,
         ["okhandle"]                = okhandle,
         ["cancelhandle"]            = cancelhandle,
         ["_type"]                   = 2,
@@ -237,7 +240,7 @@ function FileCheckMgr:checkOneFile()
                     if CC_PLATFORM_WIN32 == CC_TARGET_PLATFORM then
                         
                     else
-                        self:onFileError();
+                        self:onFileError(true);
                         TFDirector:removeTimer(self.timer)
                         self.timer = nil
                     end

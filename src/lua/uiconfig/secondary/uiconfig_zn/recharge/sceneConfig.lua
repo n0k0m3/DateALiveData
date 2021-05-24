@@ -219,5 +219,15 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="tokenPopViewNew",
+			ui ="tokenPopViewNew.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="recharge",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

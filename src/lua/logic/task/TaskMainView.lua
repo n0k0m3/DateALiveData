@@ -529,6 +529,9 @@ function TaskMainView:showDailyTask()
         local taskCid = data
         local taskCfg = TaskDataMgr:getTaskCfg(taskCid)
         local taskInfo = TaskDataMgr:getTaskInfo(taskCid)
+        if not taskInfo then
+            return
+        end
         local progress = math.min(taskInfo.progress, taskCfg.progress)
         item.Label_progress:setTextById(800005, progress, taskCfg.progress)
         item.Image_icon:setTexture(taskCfg.icon)

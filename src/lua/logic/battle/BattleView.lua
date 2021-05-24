@@ -429,7 +429,7 @@ function BattleView:initUI(ui)
     self.plyerNode.label_sp:setSkewX(15)
     -- self.plyerNode.image_sp  = image_sp
     self.plyerNode.spNodes = {}
-    for index =1,14 do
+    for index =1,15 do
 
         if index < 7 then
             local node = self.plyerNode:getChildByName("Label_value")

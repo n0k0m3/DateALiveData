@@ -7101,4 +7101,17 @@ return {
         id = 551,
         probability = 1,
     },
+    [552] = {
+        endTime = 3492259199,
+        pseudoRandom = false,
+        beginTime = 1597334400,
+        descID = {
+            [1] = 16000321,
+            [2] = 16000329,
+        },
+        showType = 42,
+        res = "ui/update/s62.png",
+        id = 552,
+        probability = 1,
+    },
 }

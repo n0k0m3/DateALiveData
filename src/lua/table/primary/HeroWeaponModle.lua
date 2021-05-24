@@ -35,17 +35,17 @@ return {
         weaponPaintSize = 0.9,
         weaponPaint = "modle/weapon/angel_1105061/angel_1105061",
     },
-    [1106021] = {
+    [1105013] = {
         weaponPaintPosition = {
-            y = -160,
-            x = 0,
+            y = -30,
+            x = 30,
         },
         particleEffect = {
         },
-        weaponName = "2200017",
-        id = 1106021,
-        weaponPaintSize = 0.9,
-        weaponPaint = "modle/weapon/angel_1106021/ange1_10602",
+        weaponName = "2200015",
+        id = 1105013,
+        weaponPaintSize = 0.5,
+        weaponPaint = "modle/weapon/angel_1105051/angel_1105051",
     },
     [1128011] = {
         weaponPaintPosition = {
@@ -202,6 +202,18 @@ return {
         id = 1104024,
         weaponPaintSize = 0.5,
         weaponPaint = "modle/weapon/angel_1104151/angel_1104151",
+    },
+    [1131011] = {
+        weaponPaintPosition = {
+            y = 10,
+            x = -20,
+        },
+        particleEffect = {
+        },
+        weaponName = "2200038",
+        id = 1131011,
+        weaponPaintSize = 0.5,
+        weaponPaint = "modle/weapon/angel_1131011/angel_1131011",
     },
     [1110011] = {
         weaponPaintPosition = {
@@ -415,17 +427,17 @@ return {
         weaponPaintSize = 1.1,
         weaponPaint = "modle/weapon/angel_1108011/tianshilian2",
     },
-    [1131011] = {
+    [1124011] = {
         weaponPaintPosition = {
-            y = 10,
+            y = 20,
             x = -20,
         },
         particleEffect = {
         },
-        weaponName = "2200038",
-        id = 1131011,
-        weaponPaintSize = 0.5,
-        weaponPaint = "modle/weapon/angel_1131011/angel_1131011",
+        weaponName = "2200036",
+        id = 1124011,
+        weaponPaintSize = 0.7,
+        weaponPaint = "modle/weapon/angel_1124011/angel_1124011",
     },
     [1102091] = {
         weaponPaintPosition = {
@@ -439,29 +451,37 @@ return {
         weaponPaintSize = 0.9,
         weaponPaint = "modle/weapon/angel_1102091/angel_10209",
     },
-    [1124011] = {
+    [1114011] = {
         weaponPaintPosition = {
-            y = 20,
-            x = -20,
+            y = -80,
+            x = 11,
         },
         particleEffect = {
         },
-        weaponName = "2200036",
-        id = 1124011,
-        weaponPaintSize = 0.7,
-        weaponPaint = "modle/weapon/angel_1124011/angel_1124011",
+        weaponName = "2200029",
+        id = 1114011,
+        weaponPaintSize = 0.4,
+        weaponPaint = "modle/weapon/angel_1114011/angel_1114011",
     },
-    [1109011] = {
+    [1108071] = {
         weaponPaintPosition = {
-            y = -200,
-            x = -20,
+            y = -300,
+            x = 20,
         },
         particleEffect = {
+            [1] = {
+                order = 0,
+                offset = {
+                    y = 630,
+                    x = 0,
+                },
+                effect = "particles/angel_1108071/tianshilizi.plist",
+            },
         },
-        weaponName = "2200022",
-        id = 1109011,
-        weaponPaintSize = 0.8,
-        weaponPaint = "modle/weapon/angel_1109011/angel_1109011",
+        weaponName = "2200019",
+        id = 1108071,
+        weaponPaintSize = 1.1,
+        weaponPaint = "modle/weapon/angel_1108071/angel_1108071",
     },
     [1107071] = {
         weaponPaintPosition = {
@@ -511,18 +531,6 @@ return {
         weaponPaintSize = 1,
         weaponPaint = "modle/weapon/angel_1107011/qiang",
     },
-    [1114011] = {
-        weaponPaintPosition = {
-            y = -80,
-            x = 11,
-        },
-        particleEffect = {
-        },
-        weaponName = "2200029",
-        id = 1114011,
-        weaponPaintSize = 0.4,
-        weaponPaint = "modle/weapon/angel_1114011/angel_1114011",
-    },
     [1120013] = {
         weaponPaintPosition = {
             y = -10,
@@ -546,6 +554,18 @@ return {
         id = 1110012,
         weaponPaintSize = 0.8,
         weaponPaint = "modle/weapon/angel_1110011/angel_1110011",
+    },
+    [1109011] = {
+        weaponPaintPosition = {
+            y = -200,
+            x = -20,
+        },
+        particleEffect = {
+        },
+        weaponName = "2200022",
+        id = 1109011,
+        weaponPaintSize = 0.8,
+        weaponPaint = "modle/weapon/angel_1109011/angel_1109011",
     },
     [1102101] = {
         weaponPaintPosition = {
@@ -619,25 +639,29 @@ return {
         weaponPaintSize = 0.9,
         weaponPaint = "modle/weapon/angel_1106011/ange1_10601",
     },
-    [1108071] = {
+    [1106021] = {
         weaponPaintPosition = {
-            y = -300,
-            x = 20,
+            y = -160,
+            x = 0,
         },
         particleEffect = {
-            [1] = {
-                order = 0,
-                offset = {
-                    y = 630,
-                    x = 0,
-                },
-                effect = "particles/angel_1108071/tianshilizi.plist",
-            },
         },
-        weaponName = "2200019",
-        id = 1108071,
-        weaponPaintSize = 1.1,
-        weaponPaint = "modle/weapon/angel_1108071/angel_1108071",
+        weaponName = "2200017",
+        id = 1106021,
+        weaponPaintSize = 0.9,
+        weaponPaint = "modle/weapon/angel_1106021/ange1_10602",
+    },
+    [1102011] = {
+        weaponPaintPosition = {
+            y = -210,
+            x = 0,
+        },
+        particleEffect = {
+        },
+        weaponName = "2200012",
+        id = 1102011,
+        weaponPaintSize = 0.9,
+        weaponPaint = "modle/weapon/angel_1102011/angel_10201",
     },
     [1102102] = {
         weaponPaintPosition = {
@@ -651,18 +675,6 @@ return {
         weaponPaintSize = 0.9,
         weaponPaint = "modle/weapon/angel_1102102/angel_1102102",
     },
-    [1105013] = {
-        weaponPaintPosition = {
-            y = -30,
-            x = 30,
-        },
-        particleEffect = {
-        },
-        weaponName = "2200015",
-        id = 1105013,
-        weaponPaintSize = 0.5,
-        weaponPaint = "modle/weapon/angel_1105051/angel_1105051",
-    },
     [1101039] = {
         weaponPaintPosition = {
             y = -200,
@@ -675,17 +687,17 @@ return {
         weaponPaintSize = 1,
         weaponPaint = "modle/weapon/angel_1101039/angel_1101039",
     },
-    [1102011] = {
+    [1103131] = {
         weaponPaintPosition = {
-            y = -210,
-            x = 0,
+            y = -200,
+            x = -20,
         },
         particleEffect = {
         },
-        weaponName = "2200012",
-        id = 1102011,
-        weaponPaintSize = 0.9,
-        weaponPaint = "modle/weapon/angel_1102011/angel_10201",
+        weaponName = "2200013",
+        id = 1103131,
+        weaponPaintSize = 0.3,
+        weaponPaint = "modle/weapon/angel_1103131/angel_1103131",
     },
     [1104023] = {
         weaponPaintPosition = {

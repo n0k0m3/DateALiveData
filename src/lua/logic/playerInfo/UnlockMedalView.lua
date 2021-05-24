@@ -19,7 +19,7 @@ function UnlockMedalView:initUI(ui)
     local Label_unlock_medal = TFDirector:getChildByPath(Panel_content, "Label_unlock_medal")
     local Label_unlock_medal_name = TFDirector:getChildByPath(Panel_content, "Label_unlock_medal_name")
     local medalCfg = MedalDataMgr:getMedalCfgById(self.medalId)
-    Image_medal_icon:setTexture(medalCfg.icon)
+    Image_medal_icon:setTexture(medalCfg.showicon)
     Label_unlock_medal:setTextById(2480000)
     Label_unlock_medal_name:setTextById(4007010, TextDataMgr:getText(medalCfg.name))
 end

@@ -450,6 +450,9 @@ function StoreDataMgr:__handleStoreInfo(storeData)
     if storeData.store then
         storeData.store.showCurrency = storeData.store.showCurrency or {}
         storeData.store.id = storeCid
+        if storeData.store.storeType == 16 then
+            dump(storeData.store)
+        end
         self.storeMap_[storeCid] = storeData.store
     end
     if storeData.commoditys then
@@ -517,7 +520,6 @@ end
 function StoreDataMgr:onRecvStoreInfo(event)
     local data = event.data
     if not data.stores then return end
-
     self.storeMap_ = {}
     self.commodityMap_ = {}
     self.store_ = {}

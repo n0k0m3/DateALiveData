@@ -1,0 +1,118 @@
+
+effects_10313_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects_H/g1
+  rotate: false
+  xy: 601, 782
+  size: 240, 240
+  orig: 256, 256
+  offset: 8, 8
+  index: -1
+effects_H/skillF/xf_00
+  rotate: true
+  xy: 506, 141
+  size: 150, 134
+  orig: 156, 152
+  offset: 1, 4
+  index: -1
+effects_H/skillF/xf_01
+  rotate: false
+  xy: 769, 293
+  size: 154, 142
+  orig: 156, 152
+  offset: 2, 3
+  index: -1
+effects_H/skillF/xf_02
+  rotate: false
+  xy: 769, 437
+  size: 151, 148
+  orig: 156, 152
+  offset: 5, 4
+  index: -1
+effects_H/skillF/xf_03
+  rotate: false
+  xy: 642, 146
+  size: 150, 145
+  orig: 156, 152
+  offset: 6, 7
+  index: -1
+effects_H/skillF/xf_04
+  rotate: true
+  xy: 794, 143
+  size: 148, 144
+  orig: 156, 152
+  offset: 8, 7
+  index: -1
+effects_H/skillF/xf_05
+  rotate: false
+  xy: 506, 3
+  size: 147, 136
+  orig: 156, 152
+  offset: 9, 14
+  index: -1
+effects_H/skillF/xf_06
+  rotate: false
+  xy: 787, 7
+  size: 144, 134
+  orig: 156, 152
+  offset: 11, 15
+  index: -1
+effects_H/skillF/xf_07
+  rotate: true
+  xy: 655, 2
+  size: 139, 130
+  orig: 156, 152
+  offset: 13, 16
+  index: -1
+effects_H/skillF/z_07
+  rotate: false
+  xy: 2, 840
+  size: 597, 182
+  orig: 597, 184
+  offset: 0, 2
+  index: -1
+effects_H/skillF/z_09
+  rotate: false
+  xy: 2, 656
+  size: 595, 182
+  orig: 597, 184
+  offset: 0, 0
+  index: -1
+effects_H/skillF/z_11
+  rotate: false
+  xy: 2, 472
+  size: 522, 182
+  orig: 597, 184
+  offset: 67, 2
+  index: -1
+effects_H/skillF/z_13
+  rotate: false
+  xy: 2, 293
+  size: 525, 177
+  orig: 597, 184
+  offset: 62, 7
+  index: -1
+effects_H/skillF/z_15
+  rotate: false
+  xy: 2, 118
+  size: 502, 173
+  orig: 597, 184
+  offset: 84, 11
+  index: -1
+effects_H/skillF/z_17
+  rotate: true
+  xy: 843, 587
+  size: 435, 168
+  orig: 597, 184
+  offset: 99, 14
+  index: -1
+effects_H/skillF/z_19
+  rotate: true
+  xy: 599, 344
+  size: 436, 168
+  orig: 597, 184
+  offset: 98, 14
+  index: -1

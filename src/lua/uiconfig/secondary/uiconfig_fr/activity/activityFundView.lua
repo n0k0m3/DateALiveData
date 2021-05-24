@@ -219,7 +219,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -589,7 +589,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -623,7 +623,6 @@ local t =
 								PositionX = -269,
 								PositionY = -214,
 							},
-							visible = "False",
 							width = "392",
 							ZOrder = "1",
 						},
@@ -636,7 +635,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -670,7 +669,6 @@ local t =
 								PositionX = -101,
 								PositionY = -214,
 							},
-							visible = "False",
 							width = "392",
 							ZOrder = "1",
 						},
@@ -839,7 +837,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF997913",
+									FontColor = "#FF694912",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1178,14 +1176,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "21",
+													fontSize = "26",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "24",
+													height = "30",
 													ignoreSize = "True",
 													name = "Label_buy",
 													nTextAlign = "1",
@@ -1201,7 +1199,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "117",
+													width = "146",
 													ZOrder = "1",
 												},
 											},

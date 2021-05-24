@@ -574,7 +574,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "37",
+													height = "34",
 													ignoreSize = "True",
 													name = "Label_role_name",
 													nTextAlign = "1",
@@ -591,7 +591,7 @@ local t =
 													{
 														
 													},
-													width = "194",
+													width = "156",
 													ZOrder = "1",
 												},
 											},
@@ -789,7 +789,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "37",
+													height = "34",
 													ignoreSize = "True",
 													name = "Label_role_name",
 													nTextAlign = "1",
@@ -806,7 +806,7 @@ local t =
 													{
 														
 													},
-													width = "194",
+													width = "156",
 													ZOrder = "1",
 												},
 											},
@@ -940,7 +940,7 @@ local t =
 												StrokeColor = "#FFF588A7",
 												StrokeSize = 2,
 											},
-											height = "31",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",

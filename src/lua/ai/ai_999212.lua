@@ -1,0 +1,201 @@
+return {
+    ["links"] = {
+        ["7355ED3B5DDE475EBCE8B25C87519C47"] = {
+            [1] = "755436FC5DEE40609604FADA65AFE095",
+        },
+        ["023AFC122AE64F2FBD48F4F28ABE501B"] = {
+            [1] = "4A7E2CC12D484E5FB2B8D4A43F0960A8",
+            [2] = "F107CD018F224EBFA728DDD97889C786",
+            [3] = "449F941D0AB24980BE8960ADA610747A",
+            [4] = "E78DDA165AB5495DAB41E26621663855",
+        },
+        ["04F95FDE060243F9A4945BB63CD228FB"] = {
+            [1] = "DD78AF5ACE564F7384569CB169F896B3",
+        },
+        ["0FB4238D51DB4CE199728EDABE196947"] = {
+            [1] = "97EFA41D4B484EF1A54F18F927D3FE93",
+        },
+        ["755436FC5DEE40609604FADA65AFE095"] = {
+            [1] = "04F95FDE060243F9A4945BB63CD228FB",
+        },
+        ["51B39C60ABC1457DA23F5EC1E94F6217"] = {
+            [1] = "0FB4238D51DB4CE199728EDABE196947",
+            [2] = "7355ED3B5DDE475EBCE8B25C87519C47",
+        },
+        ["97EFA41D4B484EF1A54F18F927D3FE93"] = {
+            [1] = "023AFC122AE64F2FBD48F4F28ABE501B",
+        },
+    },
+    ["nodes"] = {
+        ["4A7E2CC12D484E5FB2B8D4A43F0960A8"] = {
+            ["Desc"] = "施放技能",
+            ["Pos"] = {
+                ["y"] = 651,
+                ["x"] = 978,
+            },
+            ["Weight"] = 1,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "4A7E2CC12D484E5FB2B8D4A43F0960A8",
+            ["ID"] = 100520,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["449F941D0AB24980BE8960ADA610747A"] = {
+            ["Desc"] = "施放技能",
+            ["Pos"] = {
+                ["y"] = 493,
+                ["x"] = 972,
+            },
+            ["Weight"] = 1,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "449F941D0AB24980BE8960ADA610747A",
+            ["ID"] = 100521,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["E78DDA165AB5495DAB41E26621663855"] = {
+            ["Desc"] = "施放技能",
+            ["Pos"] = {
+                ["y"] = 382,
+                ["x"] = 974,
+            },
+            ["Weight"] = 1,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "E78DDA165AB5495DAB41E26621663855",
+            ["ID"] = 100510,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["97EFA41D4B484EF1A54F18F927D3FE93"] = {
+            ["Pos"] = {
+                ["y"] = 571,
+                ["x"] = 421,
+            },
+            ["Class"] = "ConditionTargetDistanceNode",
+            ["NodeTag"] = "97EFA41D4B484EF1A54F18F927D3FE93",
+            ["RangeY"] = {
+                [1] = 0,
+                [2] = 50,
+            },
+            ["RangeX"] = {
+                [1] = 0,
+                [2] = 300,
+            },
+            ["Static"] = false,
+        },
+        ["7355ED3B5DDE475EBCE8B25C87519C47"] = {
+            ["Desc"] = "子节点",
+            ["Duration"] = 500,
+            ["NodeTag"] = "7355ED3B5DDE475EBCE8B25C87519C47",
+            ["TriggerType"] = 0,
+            ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 279,
+                ["x"] = 200,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 0,
+            ["Priority"] = 1,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+        },
+        ["DD78AF5ACE564F7384569CB169F896B3"] = {
+            ["Desc"] = "行为",
+            ["Weight"] = 0,
+            ["NodeTag"] = "DD78AF5ACE564F7384569CB169F896B3",
+            ["RunWeight"] = 0,
+            ["WalkDistance"] = 0,
+            ["Pos"] = {
+                ["y"] = 273,
+                ["x"] = 938,
+            },
+            ["Class"] = "PatrolBevNode",
+            ["WalkWeight"] = 0,
+            ["TriggerType"] = 2,
+            ["Static"] = false,
+            ["Type"] = 9,
+        },
+        ["F107CD018F224EBFA728DDD97889C786"] = {
+            ["Desc"] = "施放技能",
+            ["Pos"] = {
+                ["y"] = 573,
+                ["x"] = 972,
+            },
+            ["Weight"] = 1,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "F107CD018F224EBFA728DDD97889C786",
+            ["ID"] = 100522,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["04F95FDE060243F9A4945BB63CD228FB"] = {
+            ["Desc"] = "顺序行为",
+            ["Pos"] = {
+                ["y"] = 275,
+                ["x"] = 741,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "OrderBevNode",
+            ["NodeTag"] = "04F95FDE060243F9A4945BB63CD228FB",
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
+        ["0FB4238D51DB4CE199728EDABE196947"] = {
+            ["Desc"] = "子节点",
+            ["Duration"] = 5000,
+            ["NodeTag"] = "0FB4238D51DB4CE199728EDABE196947",
+            ["TriggerType"] = 0,
+            ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 576,
+                ["x"] = 171,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 0,
+            ["Priority"] = 1,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+        },
+        ["755436FC5DEE40609604FADA65AFE095"] = {
+            ["Pos"] = {
+                ["y"] = 288,
+                ["x"] = 460,
+            },
+            ["Class"] = "ConditionInFightTimeoutNode",
+            ["NodeTag"] = "755436FC5DEE40609604FADA65AFE095",
+            ["Duration"] = 0,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["51B39C60ABC1457DA23F5EC1E94F6217"] = {
+            ["Desc"] = "新的 AI",
+            ["Pos"] = {
+                ["y"] = 694,
+                ["x"] = -202,
+            },
+            ["Category"] = 1,
+            ["Class"] = "RootNode",
+            ["NodeTag"] = "51B39C60ABC1457DA23F5EC1E94F6217",
+            ["ID"] = "999212",
+            ["Name"] = "主线12章地狱琴里斧形态",
+            ["Static"] = true,
+        },
+        ["023AFC122AE64F2FBD48F4F28ABE501B"] = {
+            ["Desc"] = "随机行为",
+            ["Pos"] = {
+                ["y"] = 564,
+                ["x"] = 738,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "RandomBevNode",
+            ["NodeTag"] = "023AFC122AE64F2FBD48F4F28ABE501B",
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
+    },
+    ["root"] = "51B39C60ABC1457DA23F5EC1E94F6217",
+}

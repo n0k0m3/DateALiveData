@@ -118,6 +118,7 @@ function CollectEquipView:updateItemCard(itemCard,equipInfo,isunclock,equipCfg)
 	itemCard:getChildByName("Label_cost"):setText(equipCfg.cost)
 	itemCard:getChildByName("Image_icon"):setTexture(equipCfg.halfPaint)
 	
+	CollectDataMgr:addItemTrophy(itemCard, equipInfo.id)
 	itemCard:onClick(function()
 		if CollectDataMgr:getItemClickEnable() == false then
 			return

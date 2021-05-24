@@ -1042,11 +1042,11 @@ function ExploreMainView:updateAwardBox()
     local award,cnt = ExploreDataMgr:getExploreAward()
     self.Panel_Box:setVisible(next(award) ~= nil and (not self.enterBattle))
     local maxCapacity = ExploreDataMgr:getMaxCapacity()
-    self.Image_full:setVisible(cnt >= maxCapacity)
-    dump({
-        cnt = cnt,
-        maxCapacity = maxCapacity,
-    },"背包容量")
+    if cnt and maxCapacity then
+        self.Image_full:setVisible(cnt >= maxCapacity)
+    else
+        self.Image_full:setVisible(false)
+    end
 end
 
 ---切换战斗状态

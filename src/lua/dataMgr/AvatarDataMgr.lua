@@ -229,33 +229,7 @@ function AvatarDataMgr:getAvatarCfgArrayData(group)
         end
     end
     
-    for k,cfgs in pairs(typeCfgs) do
-        local showCfg
-        if #cfgs > 1 then
-            table.sort(cfgs,function(a, b)
-                return a.classifyOrder < b.classifyOrder
-            end)
-            for i = #cfgs, 1, -1  do
-                local info
-                if cfgs[i].group == 1 then
-                    info = self.avatarData_[cfgs[i].id]
-                elseif  cfgs[i].group == 2 then
-                    info = self.frameData_[cfgs[i].id]
-                else
-                    info = self.chatBubbleData_[cfgs[i].id]
-                end
-                if info then
-                    showCfg = cfgs[i]
-                    break
-                end
-            end
-            if not showCfg then
-                showCfg = cfgs[1]
-            end
-        else
-            showCfg = cfgs[1]
-        end
-
+    function checkCfg(showCfg)
         if showCfg.group == 1 then
             local data = self.avatarData_[showCfg.id]
             if data then
@@ -288,6 +262,40 @@ function AvatarDataMgr:getAvatarCfgArrayData(group)
                 end
             else
                 locks[#locks + 1] = showCfg
+            end
+        end
+    end
+    for k,cfgs in pairs(typeCfgs) do
+        if group == 2 or group == 3 then
+            local showCfg
+            if #cfgs > 1 then
+                table.sort(cfgs,function(a, b)
+                    return a.classifyOrder < b.classifyOrder
+                end)
+                for i = #cfgs, 1, -1  do
+                    local info
+                    if cfgs[i].group == 1 then
+                        info = self.avatarData_[cfgs[i].id]
+                    elseif  cfgs[i].group == 2 then
+                        info = self.frameData_[cfgs[i].id]
+                    else
+                        info = self.chatBubbleData_[cfgs[i].id]
+                    end
+                    if info then
+                        showCfg = cfgs[i]
+                        break
+                    end
+                end
+                if not showCfg then
+                    showCfg = cfgs[1]
+                end
+            else
+                showCfg = cfgs[1]
+            end
+            checkCfg(showCfg)
+        else
+            for i,v in ipairs(cfgs) do
+                checkCfg(v)
             end
         end
     end

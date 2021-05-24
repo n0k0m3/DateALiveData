@@ -436,8 +436,10 @@ function RecommondView:removeCountDownTimer()
 end
 
 function RecommondView:refreshView()
-    --if self.data == nil then return end
-    self._ui.Image_show:setVisible( self.data and (nil ~= self.data.bannerimg))
+    if not self.data then
+        return
+    end
+    self._ui.Image_show:setVisible(nil ~= self.data.bannerimg)
     self.gridView:setVisible(self._ui.Image_show:isVisible())
     if self.data and self.data.bannerimg then
         local img = "ui/supplyNew/recommond/"..self.data.bannerimg..".png"

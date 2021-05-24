@@ -219,7 +219,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFE9C690",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -264,7 +264,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFE9C690",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -1336,7 +1336,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF92D8F4",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -1388,7 +1388,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/login/m4.png",
+											texturePath = "ui/login/global_new1/b5.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
@@ -1476,7 +1476,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFE9C690",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -1593,8 +1593,8 @@ local t =
 							height = "70",
 							ignoreSize = "True",
 							name = "Button_pv",
-							normal = "ui/login/005.png",
-							pressed = "ui/login/005.png",
+							normal = "ui/login/global_new1/b1.png",
+							pressed = "ui/login/global_new1/b1.png",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -1672,7 +1672,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "64",
+							height = "70",
 							ignoreSize = "True",
 							name = "Button_User_proto",
 							normal = "ui/login/004.png",
@@ -1689,7 +1689,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							UItype = "Button",
-							width = "63",
+							width = "70",
 							ZOrder = "1",
 							components = 
 							{
@@ -1753,7 +1753,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "64",
+							height = "70",
 							ignoreSize = "True",
 							name = "Button_Conceal_proto",
 							normal = "ui/login/003.png",
@@ -1770,7 +1770,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							UItype = "Button",
-							width = "63",
+							width = "70",
 							ZOrder = "1",
 							components = 
 							{
@@ -1834,7 +1834,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "64",
+							height = "70",
 							ignoreSize = "True",
 							name = "Button_notice",
 							normal = "ui/login/002.png",
@@ -1851,7 +1851,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							UItype = "Button",
-							width = "63",
+							width = "70",
 							ZOrder = "1",
 							components = 
 							{
@@ -2172,9 +2172,9 @@ local t =
 			"ui/common/pop_ui/pop_btn_02.png",
 			"ui/login/global_new1/b3.png",
 			"ui/login/global_new1/b7.png",
-			"ui/login/m4.png",
+			"ui/login/global_new1/b5.png",
 			"ui/login/new1/b5.png",
-			"ui/login/005.png",
+			"ui/login/global_new1/b1.png",
 			"ui/login/004.png",
 			"ui/login/003.png",
 			"ui/login/002.png",

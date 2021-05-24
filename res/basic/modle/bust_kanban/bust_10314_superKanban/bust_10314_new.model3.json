@@ -1,0 +1,104 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "bust_10314_new.moc3",
+		"Textures": [
+			"bust_10314_new.1024/texture_00.png",
+			"bust_10314_new.1024/texture_01.png",
+			"bust_10314_new.1024/texture_02.png",
+			"bust_10314_new.1024/texture_03.png",
+			"bust_10314_new.1024/texture_04.png",
+			"bust_10314_new.1024/texture_05.png",
+			"bust_10314_new.1024/texture_06.png",
+			"bust_10314_new.1024/texture_07.png",
+			"bust_10314_new.1024/texture_08.png",
+			"bust_10314_new.1024/texture_09.png"
+		],
+		"Physics": "bust_10314_new.physics3.json",
+		"Motions": {
+			"Id_favor1_1": [
+				{
+					"File": "motions/id_favor1_1.motion3.json",
+					"Sound": "modle/bust/sounds/yosino_interPiece_020.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_2": [
+				{
+					"File": "motions/id_favor1_2.motion3.json",
+					"Sound": "modle/bust/sounds/YOSHINO_362.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_3": [
+				{
+					"File": "motions/id_favor1_3.motion3.json",
+					"Sound": "modle/bust/sounds/YOSHINO_360.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor2_1": [
+				{
+					"File": "motions/id_favor2_1.motion3.json",
+					"Sound": "modle/bust/sounds/yosino_interPiece_003.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor3_1": [
+				{
+					"File": "motions/id_favor3_1.motion3.json",
+					"Sound": "modle/bust/sounds/yosino_interPiece_004.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor4_1": [
+				{
+					"File": "motions/id_favor4_1.motion3.json",
+					"Sound": "modle/bust/sounds/YOSHINO_80_1.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Idle": [
+				{
+					"File": "motions/idle.motion3.json",
+					"FadeInTime": 0.1,
+					"FadeOutTime": 0.1
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"PARAM_MOUTH_OPEN_Y"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "head"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "body"
+		},
+		{
+			"Id": "HitArea3",
+			"Name": "tui"
+		}
+	]
+}

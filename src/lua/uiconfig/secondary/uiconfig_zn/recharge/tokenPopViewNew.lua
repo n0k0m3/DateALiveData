@@ -174,7 +174,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_tokenPopView_1",
 									nTextAlign = "1",
@@ -191,7 +191,7 @@ local t =
 										PositionX = -298,
 										PositionY = 180,
 									},
-									width = "105",
+									width = "106",
 									ZOrder = "1",
 								},
 								{
@@ -237,7 +237,7 @@ local t =
 										PositionX = -187,
 										PositionY = 179,
 									},
-									width = "107",
+									width = "100",
 									ZOrder = "1",
 								},
 							},
@@ -592,8 +592,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "labShowTip1",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -607,9 +607,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 217,
-										PositionY = 32,
+										PositionY = 42,
 									},
-									width = "301",
+									width = "350",
 									ZOrder = "1",
 									components = 
 									{
@@ -1261,7 +1261,7 @@ local t =
 												PositionX = -40,
 											},
 											visible = "False",
-											width = "10",
+											width = "13",
 											ZOrder = "1",
 										},
 									},
@@ -1361,7 +1361,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 									},

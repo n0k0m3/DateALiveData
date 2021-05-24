@@ -178,7 +178,7 @@ function FubenMonsterTrialDetailView:initCell(cell, data)
 	local label_buff = TFDirector:getChildByPath(cell, "label_buff")
 
 	buffIcon:setTexture(buffCfg.icon)
-	label_buff:setText(buffCfg.stringId)
+	label_buff:setTextById(buffCfg.stringId)
 end
 
 

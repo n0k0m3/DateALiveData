@@ -64,10 +64,18 @@ function OSDLevelReadyView:refreshView( )
 end
 
 function OSDLevelReadyView:flushLeft( ... )
+	for i=1,4 do
+		local levelItemNode = TFDirector:getChildByPath(self.panel_level,"panel_levelItem"..i)
+		if levelItemNode then
+			levelItemNode:hide()
+		end
+	end
+
 	local preLevelPass = true
 	for i = 1,#self.levelCfg.dungeonID do
 		local levelItemNode = TFDirector:getChildByPath(self.panel_level,"panel_levelItem"..i)
 		if levelItemNode then
+			levelItemNode:show()
 			local _cfg = TabDataMgr:getData("HighTeamDungeon", self.levelCfg.dungeonID[i])
 			local parent = TFDirector:getChildByPath(levelItemNode,"panel_lock"):hide()
 			local parent1 = TFDirector:getChildByPath(levelItemNode,"panel_unlock"):hide()

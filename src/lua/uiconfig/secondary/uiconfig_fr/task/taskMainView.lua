@@ -6101,7 +6101,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "50",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "0",
@@ -6116,7 +6116,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 120,
-										PositionY = 256,
+										PositionY = 268,
 									},
 									width = "220",
 									ZOrder = "1",

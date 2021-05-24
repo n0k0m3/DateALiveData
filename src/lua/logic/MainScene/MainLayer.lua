@@ -1837,6 +1837,7 @@ function MainLayer:registerEvents()
     self.Button_friend:onClick(function()
         Utils:sendHttpLog("firend")
             FunctionDataMgr:jFriend()
+
     end)
 
     self.Button_mail:onClick(function()
@@ -1852,6 +1853,7 @@ function MainLayer:registerEvents()
         Utils:sendHttpLog("Task")
             FunctionDataMgr:jTask()
             GameGuide:checkGuideEnd(self.guideFuncId)
+
     end)
 
     self.Button_explore:onClick(function ( ... )
@@ -2649,7 +2651,7 @@ function MainLayer:updateLive2d()
         modelId = dressData.highRoleModel
     end
 
-    self.modelId = modelId
+    self.modelId = modelId or 210101
 
     local elvesNpcTable = ElvesNpcTable:createLive2dNpcID(modelId,true,true,nil,true,true)
     if not elvesNpcTable then
@@ -2658,7 +2660,7 @@ function MainLayer:updateLive2d()
         self.elvesNpc = elvesNpcTable.live2d
     end
 
-    local offPos = dressData.offSet
+    local offPos = dressData and dressData.offSet
 
     if offPos and offPos.x and offPos.y then
         self.elvesNpc:setPosition(ccp(410,-100) + ccp(offPos.x,offPos.y))

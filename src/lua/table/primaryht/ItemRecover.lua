@@ -2693,7 +2693,7 @@ return {
         privilegePrice = "",
         id = 39,
         cooldown = 0,
-        resetBuyCountTime = 0,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {

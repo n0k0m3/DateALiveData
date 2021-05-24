@@ -373,6 +373,9 @@ function NewDatingDayView:refreshRewardView()
     end
     local buildData = self.buildData_[self.buildSIndex_]
     local data = DatingDataMgr:getBuildDayScripInfo(buildData.buildId)
+    if not data then
+        return
+    end
     local taskId = data.taskId or 10001
     local rewardData = TaskDataMgr:getTaskCfg(taskId)
     local taskInfo = TaskDataMgr:getTaskInfo(taskId)

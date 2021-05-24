@@ -371,7 +371,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -388,7 +388,7 @@ local t =
 												PositionX = -170,
 												PositionY = 207,
 											},
-											width = "191",
+											width = "163",
 											ZOrder = "1",
 										},
 										{
@@ -434,7 +434,7 @@ local t =
 												PositionX = -167,
 												PositionY = 186,
 											},
-											width = "87",
+											width = "70",
 											ZOrder = "1",
 										},
 										{
@@ -491,7 +491,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "30",
+													height = "28",
 													ignoreSize = "True",
 													name = "Label_fight",
 													nTextAlign = "1",
@@ -508,7 +508,7 @@ local t =
 														PositionX = -36,
 														PositionY = -2,
 													},
-													width = "46",
+													width = "38",
 													ZOrder = "1",
 												},
 												{
@@ -562,7 +562,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "26",
+													height = "25",
 													ignoreSize = "True",
 													name = "Label_power",
 													nTextAlign = "1",
@@ -578,7 +578,7 @@ local t =
 													{
 														PositionX = 20,
 													},
-													width = "62",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -947,7 +947,7 @@ local t =
 											{
 												
 											},
-											width = "89",
+											width = "74",
 											ZOrder = "1",
 										},
 									},

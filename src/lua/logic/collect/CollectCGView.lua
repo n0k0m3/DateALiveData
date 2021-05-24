@@ -117,6 +117,8 @@ function CollectCGView:updateCommonCGPage(filtInfo)
 			itemCard.unlock = isunclock
 			local itemCfg = CollectDataMgr:getItemCfg(cgInfo.id)
 			itemCard:getChildByName("Image_cg_icon"):setTexture(itemCfg.icon)
+
+			CollectDataMgr:addItemTrophy(itemCard, cgInfo.id)
 			itemCard:getChildByName("Image_bg"):onClick(function()
 				if CollectDataMgr:getItemClickEnable() == false then
 					return

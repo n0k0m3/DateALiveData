@@ -547,7 +547,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "202",
+							width = "263",
 							ZOrder = "1",
 							components = 
 							{
@@ -556,9 +556,9 @@ local t =
 									controlID = "Image_select_Panel_topItem_Panel_prefab_Panel-supplyMainNewView_Layer1_supplyNew_Game",
 									UUID = "8b027925_aa3a_4e5e_8c7c_0cd1b19dfc38",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "48",
@@ -572,10 +572,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 100,
+										PositionX = -8,
 										PositionY = -11,
 									},
-									width = "216",
+									width = "274",
 									ZOrder = "1",
 								},
 								{
@@ -607,7 +607,7 @@ local t =
 									controlID = "Label_name_Panel_topItem_Panel_prefab_Panel-supplyMainNewView_Layer1_supplyNew_Game",
 									UUID = "9619a18f_2dd0_4d07_953c_d82b173ca412",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "0.5",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -622,7 +622,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -643,9 +643,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 50,
+										PositionX = 148,
 									},
-									width = "140",
+									width = "201",
 									ZOrder = "1",
 								},
 								{
@@ -668,8 +668,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 191,
-										PositionY = 11,
+										PositionX = 259,
+										PositionY = 18,
 									},
 									visible = "False",
 									width = "30",
@@ -695,7 +695,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 201,
+										PositionX = 260,
 										PositionY = -4,
 									},
 									width = "2",

@@ -164,6 +164,8 @@ function CollectDatingView:updateInfoPage(filtInfo)
 		group_bar.parentCell = itemCell
 		group_bar.id = groupInfo.groupCfg.id
 		group_bar.spreadCfg = {[1] = datingCellSize,[2] = me.size(me.size(datingCellSize.width,datingCellSize.height*(endingCount + 1)))}
+
+		CollectDataMgr:addItemTrophy(group_bar, groupInfo.id)
 		group_bar:onClick(function()
 			if group_bar.isSpread == true then
 				group_bar.parentCell:setContentSize(group_bar.spreadCfg[1])

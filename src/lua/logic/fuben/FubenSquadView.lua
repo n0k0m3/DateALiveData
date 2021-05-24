@@ -2057,6 +2057,10 @@ function FubenSquadView:registerEvents()
     end
 
     self.Button_preTeam:onClick(function()
+        if not self.levelCfg_ then
+            AlertManager:close()
+            return
+        end
         local isEndless = (self.fubenType_ == EC_FBType.ACTIVITY and self.chapterCid_ == EC_ActivityFubenType.ENDLESS)
         local isSkyLadder = (self.fubenType_ == EC_FBType.SKYLADDER and self.chapterCid_ == EC_ActivityFubenType.SKYLADDER)
         local isHwx =  self.levelCfg_.dungeonType == EC_FBLevelType.HWX_TOWER

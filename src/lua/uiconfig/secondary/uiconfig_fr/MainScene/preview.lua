@@ -192,7 +192,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "89",
+							height = "136",
 							ignoreSize = "True",
 							name = "Button_preview",
 							normal = "ui/preview/btn.png",
@@ -209,7 +209,7 @@ local t =
 								PositionY = 142,
 							},
 							UItype = "Button",
-							width = "416",
+							width = "282",
 							ZOrder = "2",
 						},
 						{

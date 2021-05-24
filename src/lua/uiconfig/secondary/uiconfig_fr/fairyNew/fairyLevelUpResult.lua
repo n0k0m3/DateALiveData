@@ -1173,7 +1173,7 @@ local t =
 								PercentX = 50,
 								PercentY = 16.72,
 							},
-							width = "216",
+							width = "206",
 							ZOrder = "1",
 						},
 					},

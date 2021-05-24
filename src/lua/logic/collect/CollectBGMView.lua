@@ -106,6 +106,9 @@ function CollectBGMView:updateInfoPage(filtInfo)
 				itemCell:getChildByName("TextArea_desc"):setString("???")
 			end
 		end
+
+		CollectDataMgr:addItemTrophy(itemCell,bgmInfo.id)
+
 		itemCell.isSel = false
 		itemCell:onClick(function()
 			if CollectDataMgr:getItemClickEnable() == false then

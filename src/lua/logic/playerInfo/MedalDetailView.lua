@@ -49,7 +49,7 @@ function MedalDetailView:initLeftPanel()
     local Label_medal_get_des = TFDirector:getChildByPath(self.Panel_left, "Label_medal_get_des")
     local Image_star = TFDirector:getChildByPath(self.Panel_left, "Image_star")
 
-    Image_medal_icon:setTexture(self.medalCfg_.icon)
+    Image_medal_icon:setTexture(self.medalCfg_.showicon)
     Label_medal_name:setTextById(self.medalCfg_.name)
     Label_medal_des:setTextById(self.medalCfg_.desTextId)
     Label_medal_get_des:setTextById(self.medalCfg_.accessdes)

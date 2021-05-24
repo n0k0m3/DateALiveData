@@ -6589,4 +6589,5 @@ function Hero:moveToPosAction(pos)
     __setSkeletonNodeDir(skeletonNode,self:getDir())
 end
 
+
 return Hero

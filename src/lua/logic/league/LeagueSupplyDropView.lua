@@ -91,8 +91,8 @@ function LeagueSupplyDropView:refreshLog(data)
         self.ScrollView_log:removeAllItems()
         return
     end
-    if #data.record > 100 then
-        for i = #data.record, 100,-1 do
+    if #data.record > 40 then
+        for i = #data.record, 40,-1 do
             table.remove(data.record,i)
         end
     end

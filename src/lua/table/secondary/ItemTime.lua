@@ -129,6 +129,11 @@ return {
         limitData = 10080,
         id = 600007,
     },
+    [520264] = {
+        limitType = 2,
+        limitData = 1618588800,
+        id = 520264,
+    },
     [600008] = {
         limitType = 1,
         limitData = 10080,
@@ -209,10 +214,25 @@ return {
         limitData = 10080,
         id = 600018,
     },
+    [600019] = {
+        limitType = 2,
+        limitData = 1618588800,
+        id = 600019,
+    },
     [500125] = {
         limitType = 2,
         limitData = 1598457599,
         id = 500125,
+    },
+    [600020] = {
+        limitType = 2,
+        limitData = 1618588800,
+        id = 600020,
+    },
+    [600021] = {
+        limitType = 2,
+        limitData = 1618588800,
+        id = 600021,
     },
     [699091] = {
         limitType = 1,

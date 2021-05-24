@@ -1922,6 +1922,179 @@ return {
     [113] = {
         id = 113,
         formId = {
+            [1] = 1031301,
+        },
+        eventType = 5,
+        roleId = 110313,
+        resources = {
+            [1] = "sound/10313/yosino_sysPiece_013.mp3",
+            [2] = "sound/10313/yosino_sysPiece_014.mp3",
+        },
+        describe = "战斗胜利",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [114] = {
+        id = 114,
+        formId = {
+            [1] = 1031301,
+        },
+        eventType = 7,
+        roleId = 110313,
+        resources = {
+            [1] = "sound/10313/yosino_sysPiece_006.mp3",
+            [2] = "sound/10313/yosino_sysPiece_007.mp3",
+        },
+        describe = "切换角色(登场)",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [115] = {
+        id = 115,
+        formId = {
+            [1] = 1031301,
+        },
+        eventType = 6,
+        roleId = 110313,
+        resources = {
+            [1] = "sound/10313/yosino_sysPiece_015.mp3",
+            [2] = "sound/10313/yosino_sysPiece_016.mp3",
+        },
+        describe = "战斗失败",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [116] = {
+        id = 116,
+        formId = {
+            [1] = 1031301,
+        },
+        eventType = 1,
+        roleId = 110313,
+        resources = {
+            [1] = "sound/10313/yosino_sysPiece_017.mp3",
+            [2] = "sound/10313/yosino_sysPiece_018.mp3",
+        },
+        describe = "遇到强大敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [117] = {
+        id = 117,
+        formId = {
+            [1] = 1031301,
+        },
+        eventType = 4,
+        roleId = 110313,
+        resources = {
+            [1] = "sound/10313/yosino_sysPiece_019.mp3",
+            [2] = "sound/10313/yosino_sysPiece_020.mp3",
+        },
+        describe = "击杀敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [118] = {
+        id = 118,
+        formId = {
+            [1] = 1031301,
+        },
+        eventType = 2,
+        roleId = 110313,
+        resources = {
+            [1] = "sound/10313/yosino_sysPiece_021.mp3",
+            [2] = "sound/10313/yosino_sysPiece_022.mp3",
+        },
+        describe = "单次受到巨大伤害",
+        cdTime = 5000,
+        probability = 10000,
+        param = 2000,
+    },
+    [119] = {
+        id = 119,
+        formId = {
+            [1] = 1031301,
+        },
+        eventType = 3,
+        roleId = 110313,
+        resources = {
+            [1] = "sound/10313/yosino_sysPiece_010.mp3",
+            [2] = "sound/10313/yosino_sysPiece_011.mp3",
+            [3] = "sound/10313/yosino_sysPiece_012.mp3",
+        },
+        describe = "在战场上待机一段时间",
+        cdTime = 10000,
+        probability = 5000,
+        param = 5000,
+    },
+    [120] = {
+        id = 120,
+        formId = {
+            [1] = 1031301,
+        },
+        eventType = 8,
+        roleId = 110313,
+        resources = {
+            [1] = "sound/10301/YOSHINO_63.mp3",
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 110201,
+    },
+    [121] = {
+        id = 121,
+        formId = {
+            [1] = 1031301,
+        },
+        eventType = 8,
+        roleId = 110313,
+        resources = {
+            [1] = "sound/10301/YOSHINO_64.mp3",
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 111301,
+    },
+    [122] = {
+        id = 122,
+        formId = {
+            [1] = 1031301,
+        },
+        eventType = 8,
+        roleId = 110313,
+        resources = {
+            [1] = "sound/10301/YOSHINO_65.mp3",
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 110101,
+    },
+    [123] = {
+        id = 123,
+        formId = {
+            [1] = 1031301,
+        },
+        eventType = 8,
+        roleId = 110313,
+        resources = {
+            [1] = "sound/10301/YOSHINO_65.mp3",
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 110102,
+    },
+    [124] = {
+        id = 124,
+        formId = {
             [1] = 1040101,
             [2] = 1040301,
             [3] = 1040601,
@@ -1937,8 +2110,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [114] = {
-        id = 114,
+    [125] = {
+        id = 125,
         formId = {
             [1] = 1040101,
             [2] = 1040301,
@@ -1955,8 +2128,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [115] = {
-        id = 115,
+    [126] = {
+        id = 126,
         formId = {
             [1] = 1040101,
             [2] = 1040301,
@@ -1974,8 +2147,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [116] = {
-        id = 116,
+    [127] = {
+        id = 127,
         formId = {
             [1] = 1040101,
             [2] = 1040301,
@@ -1991,8 +2164,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [117] = {
-        id = 117,
+    [128] = {
+        id = 128,
         formId = {
             [1] = 1040101,
             [2] = 1040301,
@@ -2011,8 +2184,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [118] = {
-        id = 118,
+    [129] = {
+        id = 129,
         formId = {
             [1] = 1040101,
             [2] = 1040301,
@@ -2028,8 +2201,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [119] = {
-        id = 119,
+    [130] = {
+        id = 130,
         formId = {
             [1] = 1040101,
             [2] = 1040301,
@@ -2047,8 +2220,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [120] = {
-        id = 120,
+    [131] = {
+        id = 131,
         formId = {
             [1] = 1040101,
             [2] = 1040301,
@@ -2064,8 +2237,8 @@ return {
         probability = 3000,
         param = 110601,
     },
-    [121] = {
-        id = 121,
+    [132] = {
+        id = 132,
         formId = {
             [1] = 1040101,
             [2] = 1040301,
@@ -2081,8 +2254,8 @@ return {
         probability = 3000,
         param = 110602,
     },
-    [122] = {
-        id = 122,
+    [133] = {
+        id = 133,
         formId = {
             [1] = 1040101,
             [2] = 1040301,
@@ -2098,8 +2271,8 @@ return {
         probability = 3000,
         param = 110501,
     },
-    [123] = {
-        id = 123,
+    [134] = {
+        id = 134,
         formId = {
             [1] = 1040101,
             [2] = 1040301,
@@ -2115,8 +2288,8 @@ return {
         probability = 3000,
         param = 110701,
     },
-    [124] = {
-        id = 124,
+    [135] = {
+        id = 135,
         formId = {
             [1] = 1050101,
             [2] = 1050102,
@@ -2136,8 +2309,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [125] = {
-        id = 125,
+    [136] = {
+        id = 136,
         formId = {
             [1] = 1050101,
             [2] = 1050102,
@@ -2158,8 +2331,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [126] = {
-        id = 126,
+    [137] = {
+        id = 137,
         formId = {
             [1] = 1050101,
             [2] = 1050102,
@@ -2180,8 +2353,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [127] = {
-        id = 127,
+    [138] = {
+        id = 138,
         formId = {
             [1] = 1050101,
             [2] = 1050102,
@@ -2201,8 +2374,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [128] = {
-        id = 128,
+    [139] = {
+        id = 139,
         formId = {
             [1] = 1050101,
             [2] = 1050102,
@@ -2224,8 +2397,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [129] = {
-        id = 129,
+    [140] = {
+        id = 140,
         formId = {
             [1] = 1050101,
             [2] = 1050102,
@@ -2244,8 +2417,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [130] = {
-        id = 130,
+    [141] = {
+        id = 141,
         formId = {
             [1] = 1050101,
             [2] = 1050102,
@@ -2267,8 +2440,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [131] = {
-        id = 131,
+    [142] = {
+        id = 142,
         formId = {
             [1] = 1050101,
             [2] = 1050102,
@@ -2287,8 +2460,8 @@ return {
         probability = 3000,
         param = 110601,
     },
-    [132] = {
-        id = 132,
+    [143] = {
+        id = 143,
         formId = {
             [1] = 1050101,
             [2] = 1050102,
@@ -2307,8 +2480,8 @@ return {
         probability = 3000,
         param = 110602,
     },
-    [133] = {
-        id = 133,
+    [144] = {
+        id = 144,
         formId = {
             [1] = 1050101,
             [2] = 1050102,
@@ -2327,8 +2500,8 @@ return {
         probability = 3000,
         param = 110401,
     },
-    [134] = {
-        id = 134,
+    [145] = {
+        id = 145,
         formId = {
             [1] = 1050101,
             [2] = 1050102,
@@ -2347,8 +2520,8 @@ return {
         probability = 3000,
         param = 111001,
     },
-    [135] = {
-        id = 135,
+    [146] = {
+        id = 146,
         formId = {
             [1] = 1060101,
             [2] = 1060301,
@@ -2365,8 +2538,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [136] = {
-        id = 136,
+    [147] = {
+        id = 147,
         formId = {
             [1] = 1060101,
             [2] = 1060301,
@@ -2383,8 +2556,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [137] = {
-        id = 137,
+    [148] = {
+        id = 148,
         formId = {
             [1] = 1060101,
             [2] = 1060301,
@@ -2402,8 +2575,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [138] = {
-        id = 138,
+    [149] = {
+        id = 149,
         formId = {
             [1] = 1060101,
             [2] = 1060301,
@@ -2421,8 +2594,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [139] = {
-        id = 139,
+    [150] = {
+        id = 150,
         formId = {
             [1] = 1060101,
             [2] = 1060301,
@@ -2438,8 +2611,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [140] = {
-        id = 140,
+    [151] = {
+        id = 151,
         formId = {
             [1] = 1060101,
             [2] = 1060301,
@@ -2454,8 +2627,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [141] = {
-        id = 141,
+    [152] = {
+        id = 152,
         formId = {
             [1] = 1060101,
             [2] = 1060301,
@@ -2473,8 +2646,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [142] = {
-        id = 142,
+    [153] = {
+        id = 153,
         formId = {
             [1] = 1060101,
             [2] = 1060301,
@@ -2489,8 +2662,8 @@ return {
         probability = 3000,
         param = 110401,
     },
-    [143] = {
-        id = 143,
+    [154] = {
+        id = 154,
         formId = {
             [1] = 1060101,
             [2] = 1060301,
@@ -2505,8 +2678,8 @@ return {
         probability = 3000,
         param = 110201,
     },
-    [144] = {
-        id = 144,
+    [155] = {
+        id = 155,
         formId = {
             [1] = 1060101,
             [2] = 1060301,
@@ -2521,8 +2694,8 @@ return {
         probability = 3000,
         param = 110501,
     },
-    [145] = {
-        id = 145,
+    [156] = {
+        id = 156,
         formId = {
             [1] = 1060201,
         },
@@ -2538,8 +2711,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [146] = {
-        id = 146,
+    [157] = {
+        id = 157,
         formId = {
             [1] = 1060201,
         },
@@ -2555,8 +2728,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [147] = {
-        id = 147,
+    [158] = {
+        id = 158,
         formId = {
             [1] = 1060201,
         },
@@ -2573,8 +2746,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [148] = {
-        id = 148,
+    [159] = {
+        id = 159,
         formId = {
             [1] = 1060201,
         },
@@ -2591,8 +2764,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [149] = {
-        id = 149,
+    [160] = {
+        id = 160,
         formId = {
             [1] = 1060201,
         },
@@ -2608,8 +2781,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [150] = {
-        id = 150,
+    [161] = {
+        id = 161,
         formId = {
             [1] = 1060201,
         },
@@ -2623,8 +2796,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [151] = {
-        id = 151,
+    [162] = {
+        id = 162,
         formId = {
             [1] = 1060201,
         },
@@ -2643,8 +2816,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [152] = {
-        id = 152,
+    [163] = {
+        id = 163,
         formId = {
             [1] = 1060201,
         },
@@ -2658,8 +2831,8 @@ return {
         probability = 3000,
         param = 110401,
     },
-    [153] = {
-        id = 153,
+    [164] = {
+        id = 164,
         formId = {
             [1] = 1060201,
         },
@@ -2673,8 +2846,8 @@ return {
         probability = 3000,
         param = 110201,
     },
-    [154] = {
-        id = 154,
+    [165] = {
+        id = 165,
         formId = {
             [1] = 1060201,
         },
@@ -2688,8 +2861,8 @@ return {
         probability = 3000,
         param = 110501,
     },
-    [155] = {
-        id = 155,
+    [166] = {
+        id = 166,
         formId = {
             [1] = 1070101,
             [2] = 1070701,
@@ -2705,8 +2878,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [156] = {
-        id = 156,
+    [167] = {
+        id = 167,
         formId = {
             [1] = 1070101,
             [2] = 1070701,
@@ -2724,8 +2897,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [157] = {
-        id = 157,
+    [168] = {
+        id = 168,
         formId = {
             [1] = 1070101,
             [2] = 1070701,
@@ -2742,8 +2915,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [158] = {
-        id = 158,
+    [169] = {
+        id = 169,
         formId = {
             [1] = 1070101,
             [2] = 1070701,
@@ -2758,8 +2931,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [159] = {
-        id = 159,
+    [170] = {
+        id = 170,
         formId = {
             [1] = 1070101,
             [2] = 1070701,
@@ -2777,8 +2950,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [160] = {
-        id = 160,
+    [171] = {
+        id = 171,
         formId = {
             [1] = 1070101,
             [2] = 1070701,
@@ -2793,8 +2966,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [161] = {
-        id = 161,
+    [172] = {
+        id = 172,
         formId = {
             [1] = 1070101,
             [2] = 1070701,
@@ -2810,8 +2983,8 @@ return {
         probability = 10000,
         param = 5000,
     },
-    [162] = {
-        id = 162,
+    [173] = {
+        id = 173,
         formId = {
             [1] = 1070101,
             [2] = 1070701,
@@ -2826,8 +2999,8 @@ return {
         probability = 3000,
         param = 110401,
     },
-    [163] = {
-        id = 163,
+    [174] = {
+        id = 174,
         formId = {
             [1] = 1070101,
             [2] = 1070701,
@@ -2842,8 +3015,8 @@ return {
         probability = 3000,
         param = 110801,
     },
-    [164] = {
-        id = 164,
+    [175] = {
+        id = 175,
         formId = {
             [1] = 1070101,
             [2] = 1070701,
@@ -2858,8 +3031,8 @@ return {
         probability = 3000,
         param = 110801,
     },
-    [165] = {
-        id = 165,
+    [176] = {
+        id = 176,
         formId = {
             [1] = 1070101,
             [2] = 1070701,
@@ -2874,8 +3047,8 @@ return {
         probability = 3000,
         param = 110801,
     },
-    [166] = {
-        id = 166,
+    [177] = {
+        id = 177,
         formId = {
             [1] = 1080101,
             [2] = 1080701,
@@ -2891,8 +3064,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [167] = {
-        id = 167,
+    [178] = {
+        id = 178,
         formId = {
             [1] = 1080101,
             [2] = 1080701,
@@ -2910,8 +3083,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [168] = {
-        id = 168,
+    [179] = {
+        id = 179,
         formId = {
             [1] = 1080101,
             [2] = 1080701,
@@ -2928,8 +3101,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [169] = {
-        id = 169,
+    [180] = {
+        id = 180,
         formId = {
             [1] = 1080101,
             [2] = 1080701,
@@ -2944,8 +3117,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [170] = {
-        id = 170,
+    [181] = {
+        id = 181,
         formId = {
             [1] = 1080101,
             [2] = 1080701,
@@ -2963,8 +3136,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [171] = {
-        id = 171,
+    [182] = {
+        id = 182,
         formId = {
             [1] = 1080101,
             [2] = 1080701,
@@ -2979,8 +3152,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [172] = {
-        id = 172,
+    [183] = {
+        id = 183,
         formId = {
             [1] = 1080101,
             [2] = 1080701,
@@ -2997,8 +3170,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [173] = {
-        id = 173,
+    [184] = {
+        id = 184,
         formId = {
             [1] = 1080101,
             [2] = 1080701,
@@ -3013,8 +3186,8 @@ return {
         probability = 3000,
         param = 110201,
     },
-    [174] = {
-        id = 174,
+    [185] = {
+        id = 185,
         formId = {
             [1] = 1080101,
             [2] = 1080701,
@@ -3029,8 +3202,8 @@ return {
         probability = 3000,
         param = 110701,
     },
-    [175] = {
-        id = 175,
+    [186] = {
+        id = 186,
         formId = {
             [1] = 1080101,
             [2] = 1080701,
@@ -3045,8 +3218,8 @@ return {
         probability = 3000,
         param = 110701,
     },
-    [176] = {
-        id = 176,
+    [187] = {
+        id = 187,
         formId = {
             [1] = 1090101,
         },
@@ -3061,8 +3234,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [177] = {
-        id = 177,
+    [188] = {
+        id = 188,
         formId = {
             [1] = 1090101,
         },
@@ -3079,8 +3252,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [178] = {
-        id = 178,
+    [189] = {
+        id = 189,
         formId = {
             [1] = 1090101,
         },
@@ -3096,8 +3269,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [179] = {
-        id = 179,
+    [190] = {
+        id = 190,
         formId = {
             [1] = 1090101,
         },
@@ -3111,8 +3284,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [180] = {
-        id = 180,
+    [191] = {
+        id = 191,
         formId = {
             [1] = 1090101,
         },
@@ -3128,8 +3301,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [181] = {
-        id = 181,
+    [192] = {
+        id = 192,
         formId = {
             [1] = 1090101,
         },
@@ -3144,8 +3317,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [182] = {
-        id = 182,
+    [193] = {
+        id = 193,
         formId = {
             [1] = 1090101,
         },
@@ -3161,8 +3334,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [183] = {
-        id = 183,
+    [194] = {
+        id = 194,
         formId = {
             [1] = 1090101,
         },
@@ -3176,8 +3349,8 @@ return {
         probability = 3000,
         param = 110201,
     },
-    [184] = {
-        id = 184,
+    [195] = {
+        id = 195,
         formId = {
             [1] = 1090101,
         },
@@ -3191,8 +3364,8 @@ return {
         probability = 3000,
         param = 110501,
     },
-    [185] = {
-        id = 185,
+    [196] = {
+        id = 196,
         formId = {
             [1] = 1090101,
         },
@@ -3206,8 +3379,8 @@ return {
         probability = 3000,
         param = 110103,
     },
-    [186] = {
-        id = 186,
+    [197] = {
+        id = 197,
         formId = {
             [1] = 1100101,
             [2] = 1100102,
@@ -3223,8 +3396,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [187] = {
-        id = 187,
+    [198] = {
+        id = 198,
         formId = {
             [1] = 1100101,
             [2] = 1100102,
@@ -3243,8 +3416,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [188] = {
-        id = 188,
+    [199] = {
+        id = 199,
         formId = {
             [1] = 1100101,
             [2] = 1100102,
@@ -3261,8 +3434,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [189] = {
-        id = 189,
+    [200] = {
+        id = 200,
         formId = {
             [1] = 1100101,
             [2] = 1100102,
@@ -3277,8 +3450,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [190] = {
-        id = 190,
+    [201] = {
+        id = 201,
         formId = {
             [1] = 1100101,
             [2] = 1100102,
@@ -3294,8 +3467,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [191] = {
-        id = 191,
+    [202] = {
+        id = 202,
         formId = {
             [1] = 1100101,
             [2] = 1100102,
@@ -3310,8 +3483,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [192] = {
-        id = 192,
+    [203] = {
+        id = 203,
         formId = {
             [1] = 1100101,
             [2] = 1100102,
@@ -3327,8 +3500,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [193] = {
-        id = 193,
+    [204] = {
+        id = 204,
         formId = {
             [1] = 1100101,
             [2] = 1100102,
@@ -3343,8 +3516,8 @@ return {
         probability = 3000,
         param = 110301,
     },
-    [194] = {
-        id = 194,
+    [205] = {
+        id = 205,
         formId = {
             [1] = 1100101,
             [2] = 1100102,
@@ -3359,8 +3532,8 @@ return {
         probability = 3000,
         param = 110201,
     },
-    [195] = {
-        id = 195,
+    [206] = {
+        id = 206,
         formId = {
             [1] = 1100101,
             [2] = 1100102,
@@ -3375,8 +3548,8 @@ return {
         probability = 3000,
         param = 110101,
     },
-    [196] = {
-        id = 196,
+    [207] = {
+        id = 207,
         formId = {
             [1] = 1100101,
             [2] = 1100102,
@@ -3391,8 +3564,8 @@ return {
         probability = 3000,
         param = 110102,
     },
-    [197] = {
-        id = 197,
+    [208] = {
+        id = 208,
         formId = {
             [1] = 1100101,
             [2] = 1100102,
@@ -3407,8 +3580,8 @@ return {
         probability = 3000,
         param = 110501,
     },
-    [198] = {
-        id = 198,
+    [209] = {
+        id = 209,
         formId = {
             [1] = 1120101,
             [2] = 1120102,
@@ -3427,8 +3600,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [199] = {
-        id = 199,
+    [210] = {
+        id = 210,
         formId = {
             [1] = 1120101,
             [2] = 1120102,
@@ -3448,8 +3621,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [200] = {
-        id = 200,
+    [211] = {
+        id = 211,
         formId = {
             [1] = 1120101,
             [2] = 1120102,
@@ -3468,8 +3641,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [201] = {
-        id = 201,
+    [212] = {
+        id = 212,
         formId = {
             [1] = 1120101,
             [2] = 1120102,
@@ -3488,8 +3661,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [202] = {
-        id = 202,
+    [213] = {
+        id = 213,
         formId = {
             [1] = 1120101,
             [2] = 1120102,
@@ -3508,8 +3681,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [203] = {
-        id = 203,
+    [214] = {
+        id = 214,
         formId = {
             [1] = 1120101,
             [2] = 1120102,
@@ -3526,8 +3699,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [204] = {
-        id = 204,
+    [215] = {
+        id = 215,
         formId = {
             [1] = 1120101,
             [2] = 1120102,
@@ -3545,8 +3718,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [205] = {
-        id = 205,
+    [216] = {
+        id = 216,
         formId = {
             [1] = 1120101,
             [2] = 1120102,
@@ -3563,8 +3736,8 @@ return {
         probability = 3000,
         param = 110401,
     },
-    [206] = {
-        id = 206,
+    [217] = {
+        id = 217,
         formId = {
             [1] = 1120101,
             [2] = 1120102,
@@ -3581,8 +3754,8 @@ return {
         probability = 3000,
         param = 110301,
     },
-    [207] = {
-        id = 207,
+    [218] = {
+        id = 218,
         formId = {
             [1] = 1120101,
             [2] = 1120102,
@@ -3599,8 +3772,8 @@ return {
         probability = 3000,
         param = 110102,
     },
-    [208] = {
-        id = 208,
+    [219] = {
+        id = 219,
         formId = {
             [1] = 1130101,
             [2] = 1130301,
@@ -3616,8 +3789,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [209] = {
-        id = 209,
+    [220] = {
+        id = 220,
         formId = {
             [1] = 1130101,
             [2] = 1130301,
@@ -3636,8 +3809,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [210] = {
-        id = 210,
+    [221] = {
+        id = 221,
         formId = {
             [1] = 1130101,
             [2] = 1130301,
@@ -3654,8 +3827,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [211] = {
-        id = 211,
+    [222] = {
+        id = 222,
         formId = {
             [1] = 1130101,
             [2] = 1130301,
@@ -3670,8 +3843,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [212] = {
-        id = 212,
+    [223] = {
+        id = 223,
         formId = {
             [1] = 1130101,
             [2] = 1130301,
@@ -3687,8 +3860,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [213] = {
-        id = 213,
+    [224] = {
+        id = 224,
         formId = {
             [1] = 1130101,
             [2] = 1130301,
@@ -3703,8 +3876,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [214] = {
-        id = 214,
+    [225] = {
+        id = 225,
         formId = {
             [1] = 1130101,
             [2] = 1130301,
@@ -3720,8 +3893,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [215] = {
-        id = 215,
+    [226] = {
+        id = 226,
         formId = {
             [1] = 1130101,
             [2] = 1130301,
@@ -3735,8 +3908,8 @@ return {
         probability = 3000,
         param = 110401,
     },
-    [216] = {
-        id = 216,
+    [227] = {
+        id = 227,
         formId = {
             [1] = 1130101,
             [2] = 1130301,
@@ -3750,8 +3923,8 @@ return {
         probability = 3000,
         param = 110301,
     },
-    [217] = {
-        id = 217,
+    [228] = {
+        id = 228,
         formId = {
             [1] = 1130101,
             [2] = 1130301,
@@ -3765,8 +3938,8 @@ return {
         probability = 3000,
         param = 110102,
     },
-    [218] = {
-        id = 218,
+    [229] = {
+        id = 229,
         formId = {
             [1] = 1130102,
             [2] = 1130302,
@@ -3782,8 +3955,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [219] = {
-        id = 219,
+    [230] = {
+        id = 230,
         formId = {
             [1] = 1130102,
             [2] = 1130302,
@@ -3803,8 +3976,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [220] = {
-        id = 220,
+    [231] = {
+        id = 231,
         formId = {
             [1] = 1130102,
             [2] = 1130302,
@@ -3821,8 +3994,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [221] = {
-        id = 221,
+    [232] = {
+        id = 232,
         formId = {
             [1] = 1130102,
             [2] = 1130302,
@@ -3837,8 +4010,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [222] = {
-        id = 222,
+    [233] = {
+        id = 233,
         formId = {
             [1] = 1130102,
             [2] = 1130302,
@@ -3854,8 +4027,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [223] = {
-        id = 223,
+    [234] = {
+        id = 234,
         formId = {
             [1] = 1130102,
             [2] = 1130302,
@@ -3870,8 +4043,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [224] = {
-        id = 224,
+    [235] = {
+        id = 235,
         formId = {
             [1] = 1130102,
             [2] = 1130302,
@@ -3887,8 +4060,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [225] = {
-        id = 225,
+    [236] = {
+        id = 236,
         formId = {
             [1] = 1130102,
             [2] = 1130302,
@@ -3902,8 +4075,8 @@ return {
         probability = 3000,
         param = 110401,
     },
-    [226] = {
-        id = 226,
+    [237] = {
+        id = 237,
         formId = {
             [1] = 1130102,
             [2] = 1130302,
@@ -3917,8 +4090,8 @@ return {
         probability = 3000,
         param = 110301,
     },
-    [227] = {
-        id = 227,
+    [238] = {
+        id = 238,
         formId = {
             [1] = 1130102,
             [2] = 1130302,
@@ -3932,186 +4105,18 @@ return {
         probability = 3000,
         param = 110102,
     },
-    [228] = {
-        id = 228,
-        formId = {
-            [1] = 1150101,
-        },
-        eventType = 5,
-        roleId = 111501,
-        resources = {
-            [1] = "sound/11501/0003_221_02.mp3",
-            [2] = "sound/11501/0003_222_02.mp3",
-        },
-        describe = "战斗胜利",
-        cdTime = 0,
-        probability = 10000,
-        param = 0,
-    },
-    [229] = {
-        id = 229,
-        formId = {
-            [1] = 1150101,
-        },
-        eventType = 7,
-        roleId = 111501,
-        resources = {
-            [1] = "sound/11501/0023_203_01.mp3",
-            [2] = "sound/11501/0023_203_02.mp3",
-            [3] = "sound/11501/0023_203_03.mp3",
-        },
-        describe = "切换角色(登场)",
-        cdTime = 0,
-        probability = 10000,
-        param = 0,
-    },
-    [230] = {
-        id = 230,
-        formId = {
-            [1] = 1150101,
-        },
-        eventType = 6,
-        roleId = 111501,
-        resources = {
-            [1] = "sound/11501/0023_212_01.mp3",
-        },
-        describe = "战斗失败",
-        cdTime = 0,
-        probability = 10000,
-        param = 0,
-    },
-    [231] = {
-        id = 231,
-        formId = {
-            [1] = 1150101,
-        },
-        eventType = 1,
-        roleId = 111501,
-        resources = {
-            [1] = "sound/11501/0023_206_01.mp3",
-            [2] = "sound/11501/0023_206_02.mp3",
-        },
-        describe = "遇到强大敌人",
-        cdTime = 5000,
-        probability = 10000,
-        param = 0,
-    },
-    [232] = {
-        id = 232,
-        formId = {
-            [1] = 1150101,
-        },
-        eventType = 4,
-        roleId = 111501,
-        resources = {
-            [1] = "sound/11501/0023_219_01.mp3",
-            [2] = "sound/11501/0023_219_02.mp3",
-        },
-        describe = "击杀敌人",
-        cdTime = 5000,
-        probability = 10000,
-        param = 0,
-    },
-    [233] = {
-        id = 233,
-        formId = {
-            [1] = 1150101,
-        },
-        eventType = 2,
-        roleId = 111501,
-        resources = {
-            [1] = "sound/11501/0023_212_01.mp3",
-        },
-        describe = "单次受到巨大伤害",
-        cdTime = 5000,
-        probability = 10000,
-        param = 2000,
-    },
-    [234] = {
-        id = 234,
-        formId = {
-            [1] = 1150101,
-        },
-        eventType = 3,
-        roleId = 111501,
-        resources = {
-        },
-        describe = "在战场上待机一段时间",
-        cdTime = 10000,
-        probability = 5000,
-        param = 5000,
-    },
-    [235] = {
-        id = 235,
-        formId = {
-            [1] = 1150101,
-        },
-        eventType = 8,
-        roleId = 111501,
-        resources = {
-        },
-        describe = "队友为指定角色时",
-        cdTime = 15000,
-        probability = 3000,
-        param = 110401,
-    },
-    [236] = {
-        id = 236,
-        formId = {
-            [1] = 1150101,
-        },
-        eventType = 8,
-        roleId = 111501,
-        resources = {
-        },
-        describe = "队友为指定角色时",
-        cdTime = 15000,
-        probability = 3000,
-        param = 112001,
-    },
-    [237] = {
-        id = 237,
-        formId = {
-            [1] = 1150101,
-        },
-        eventType = 8,
-        roleId = 111501,
-        resources = {
-        },
-        describe = "队友为指定角色时",
-        cdTime = 15000,
-        probability = 3000,
-        param = 110501,
-    },
-    [238] = {
-        id = 238,
-        formId = {
-            [1] = 1150101,
-        },
-        eventType = 5,
-        roleId = 111511,
-        resources = {
-            [1] = "sound/11501/0003_221_02.mp3",
-            [2] = "sound/11501/0003_222_02.mp3",
-        },
-        describe = "战斗胜利",
-        cdTime = 0,
-        probability = 10000,
-        param = 0,
-    },
     [239] = {
         id = 239,
         formId = {
             [1] = 1150101,
         },
-        eventType = 7,
-        roleId = 111511,
+        eventType = 5,
+        roleId = 111501,
         resources = {
-            [1] = "sound/11501/0023_203_01.mp3",
-            [2] = "sound/11501/0023_203_02.mp3",
-            [3] = "sound/11501/0023_203_03.mp3",
+            [1] = "sound/11501/0003_221_02.mp3",
+            [2] = "sound/11501/0003_222_02.mp3",
         },
-        describe = "切换角色(登场)",
+        describe = "战斗胜利",
         cdTime = 0,
         probability = 10000,
         param = 0,
@@ -4121,6 +4126,174 @@ return {
         formId = {
             [1] = 1150101,
         },
+        eventType = 7,
+        roleId = 111501,
+        resources = {
+            [1] = "sound/11501/0023_203_01.mp3",
+            [2] = "sound/11501/0023_203_02.mp3",
+            [3] = "sound/11501/0023_203_03.mp3",
+        },
+        describe = "切换角色(登场)",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [241] = {
+        id = 241,
+        formId = {
+            [1] = 1150101,
+        },
+        eventType = 6,
+        roleId = 111501,
+        resources = {
+            [1] = "sound/11501/0023_212_01.mp3",
+        },
+        describe = "战斗失败",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [242] = {
+        id = 242,
+        formId = {
+            [1] = 1150101,
+        },
+        eventType = 1,
+        roleId = 111501,
+        resources = {
+            [1] = "sound/11501/0023_206_01.mp3",
+            [2] = "sound/11501/0023_206_02.mp3",
+        },
+        describe = "遇到强大敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [243] = {
+        id = 243,
+        formId = {
+            [1] = 1150101,
+        },
+        eventType = 4,
+        roleId = 111501,
+        resources = {
+            [1] = "sound/11501/0023_219_01.mp3",
+            [2] = "sound/11501/0023_219_02.mp3",
+        },
+        describe = "击杀敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [244] = {
+        id = 244,
+        formId = {
+            [1] = 1150101,
+        },
+        eventType = 2,
+        roleId = 111501,
+        resources = {
+            [1] = "sound/11501/0023_212_01.mp3",
+        },
+        describe = "单次受到巨大伤害",
+        cdTime = 5000,
+        probability = 10000,
+        param = 2000,
+    },
+    [245] = {
+        id = 245,
+        formId = {
+            [1] = 1150101,
+        },
+        eventType = 3,
+        roleId = 111501,
+        resources = {
+        },
+        describe = "在战场上待机一段时间",
+        cdTime = 10000,
+        probability = 5000,
+        param = 5000,
+    },
+    [246] = {
+        id = 246,
+        formId = {
+            [1] = 1150101,
+        },
+        eventType = 8,
+        roleId = 111501,
+        resources = {
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 110401,
+    },
+    [247] = {
+        id = 247,
+        formId = {
+            [1] = 1150101,
+        },
+        eventType = 8,
+        roleId = 111501,
+        resources = {
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 112001,
+    },
+    [248] = {
+        id = 248,
+        formId = {
+            [1] = 1150101,
+        },
+        eventType = 8,
+        roleId = 111501,
+        resources = {
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 110501,
+    },
+    [249] = {
+        id = 249,
+        formId = {
+            [1] = 1150101,
+        },
+        eventType = 5,
+        roleId = 111511,
+        resources = {
+            [1] = "sound/11501/0003_221_02.mp3",
+            [2] = "sound/11501/0003_222_02.mp3",
+        },
+        describe = "战斗胜利",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [250] = {
+        id = 250,
+        formId = {
+            [1] = 1150101,
+        },
+        eventType = 7,
+        roleId = 111511,
+        resources = {
+            [1] = "sound/11501/0023_203_01.mp3",
+            [2] = "sound/11501/0023_203_02.mp3",
+            [3] = "sound/11501/0023_203_03.mp3",
+        },
+        describe = "切换角色(登场)",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [251] = {
+        id = 251,
+        formId = {
+            [1] = 1150101,
+        },
         eventType = 6,
         roleId = 111511,
         resources = {
@@ -4131,8 +4304,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [241] = {
-        id = 241,
+    [252] = {
+        id = 252,
         formId = {
             [1] = 1150101,
         },
@@ -4147,8 +4320,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [242] = {
-        id = 242,
+    [253] = {
+        id = 253,
         formId = {
             [1] = 1150101,
         },
@@ -4163,8 +4336,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [243] = {
-        id = 243,
+    [254] = {
+        id = 254,
         formId = {
             [1] = 1150101,
         },
@@ -4178,8 +4351,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [244] = {
-        id = 244,
+    [255] = {
+        id = 255,
         formId = {
             [1] = 1150101,
         },
@@ -4192,8 +4365,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [245] = {
-        id = 245,
+    [256] = {
+        id = 256,
         formId = {
             [1] = 1150101,
         },
@@ -4206,8 +4379,8 @@ return {
         probability = 3000,
         param = 110401,
     },
-    [246] = {
-        id = 246,
+    [257] = {
+        id = 257,
         formId = {
             [1] = 1150101,
         },
@@ -4220,8 +4393,8 @@ return {
         probability = 3000,
         param = 112001,
     },
-    [247] = {
-        id = 247,
+    [258] = {
+        id = 258,
         formId = {
             [1] = 1150101,
         },
@@ -4234,8 +4407,8 @@ return {
         probability = 3000,
         param = 110501,
     },
-    [248] = {
-        id = 248,
+    [259] = {
+        id = 259,
         formId = {
             [1] = 1140101,
         },
@@ -4250,8 +4423,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [249] = {
-        id = 249,
+    [260] = {
+        id = 260,
         formId = {
             [1] = 1140101,
         },
@@ -4267,8 +4440,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [250] = {
-        id = 250,
+    [261] = {
+        id = 261,
         formId = {
             [1] = 1140101,
         },
@@ -4282,8 +4455,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [251] = {
-        id = 251,
+    [262] = {
+        id = 262,
         formId = {
             [1] = 1140101,
         },
@@ -4298,8 +4471,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [252] = {
-        id = 252,
+    [263] = {
+        id = 263,
         formId = {
             [1] = 1140101,
         },
@@ -4314,8 +4487,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [253] = {
-        id = 253,
+    [264] = {
+        id = 264,
         formId = {
             [1] = 1140101,
         },
@@ -4329,8 +4502,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [254] = {
-        id = 254,
+    [265] = {
+        id = 265,
         formId = {
             [1] = 1140101,
         },
@@ -4343,8 +4516,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [255] = {
-        id = 255,
+    [266] = {
+        id = 266,
         formId = {
             [1] = 1140101,
         },
@@ -4357,8 +4530,8 @@ return {
         probability = 3000,
         param = 110401,
     },
-    [256] = {
-        id = 256,
+    [267] = {
+        id = 267,
         formId = {
             [1] = 1140101,
         },
@@ -4371,8 +4544,8 @@ return {
         probability = 3000,
         param = 112001,
     },
-    [257] = {
-        id = 257,
+    [268] = {
+        id = 268,
         formId = {
             [1] = 1140101,
         },
@@ -4385,8 +4558,8 @@ return {
         probability = 3000,
         param = 110501,
     },
-    [258] = {
-        id = 258,
+    [269] = {
+        id = 269,
         formId = {
             [1] = 1140101,
         },
@@ -4401,8 +4574,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [259] = {
-        id = 259,
+    [270] = {
+        id = 270,
         formId = {
             [1] = 1140101,
         },
@@ -4418,8 +4591,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [260] = {
-        id = 260,
+    [271] = {
+        id = 271,
         formId = {
             [1] = 1140101,
         },
@@ -4433,8 +4606,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [261] = {
-        id = 261,
+    [272] = {
+        id = 272,
         formId = {
             [1] = 1140101,
         },
@@ -4449,8 +4622,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [262] = {
-        id = 262,
+    [273] = {
+        id = 273,
         formId = {
             [1] = 1140101,
         },
@@ -4465,8 +4638,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [263] = {
-        id = 263,
+    [274] = {
+        id = 274,
         formId = {
             [1] = 1140101,
         },
@@ -4480,8 +4653,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [264] = {
-        id = 264,
+    [275] = {
+        id = 275,
         formId = {
             [1] = 1140101,
         },
@@ -4494,8 +4667,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [265] = {
-        id = 265,
+    [276] = {
+        id = 276,
         formId = {
             [1] = 1140101,
         },
@@ -4508,8 +4681,8 @@ return {
         probability = 3000,
         param = 110401,
     },
-    [266] = {
-        id = 266,
+    [277] = {
+        id = 277,
         formId = {
             [1] = 1140101,
         },
@@ -4522,8 +4695,8 @@ return {
         probability = 3000,
         param = 112001,
     },
-    [267] = {
-        id = 267,
+    [278] = {
+        id = 278,
         formId = {
             [1] = 1140101,
         },
@@ -4536,8 +4709,8 @@ return {
         probability = 3000,
         param = 110501,
     },
-    [268] = {
-        id = 268,
+    [279] = {
+        id = 279,
         formId = {
             [1] = 1041301,
             [2] = 1041302,
@@ -4553,8 +4726,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [269] = {
-        id = 269,
+    [280] = {
+        id = 280,
         formId = {
             [1] = 1041301,
             [2] = 1041302,
@@ -4570,8 +4743,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [270] = {
-        id = 270,
+    [281] = {
+        id = 281,
         formId = {
             [1] = 1041301,
             [2] = 1041302,
@@ -4588,8 +4761,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [271] = {
-        id = 271,
+    [282] = {
+        id = 282,
         formId = {
             [1] = 1041301,
             [2] = 1041302,
@@ -4604,8 +4777,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [272] = {
-        id = 272,
+    [283] = {
+        id = 283,
         formId = {
             [1] = 1041301,
             [2] = 1041302,
@@ -4623,8 +4796,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [273] = {
-        id = 273,
+    [284] = {
+        id = 284,
         formId = {
             [1] = 1041301,
             [2] = 1041302,
@@ -4639,8 +4812,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [274] = {
-        id = 274,
+    [285] = {
+        id = 285,
         formId = {
             [1] = 1041301,
             [2] = 1041302,
@@ -4657,8 +4830,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [275] = {
-        id = 275,
+    [286] = {
+        id = 286,
         formId = {
             [1] = 1041301,
             [2] = 1041302,
@@ -4673,8 +4846,8 @@ return {
         probability = 3000,
         param = 110601,
     },
-    [276] = {
-        id = 276,
+    [287] = {
+        id = 287,
         formId = {
             [1] = 1041301,
             [2] = 1041302,
@@ -4689,8 +4862,8 @@ return {
         probability = 3000,
         param = 110602,
     },
-    [277] = {
-        id = 277,
+    [288] = {
+        id = 288,
         formId = {
             [1] = 1041301,
             [2] = 1041302,
@@ -4705,8 +4878,8 @@ return {
         probability = 3000,
         param = 110501,
     },
-    [278] = {
-        id = 278,
+    [289] = {
+        id = 289,
         formId = {
             [1] = 1041301,
             [2] = 1041302,
@@ -4721,8 +4894,8 @@ return {
         probability = 3000,
         param = 110701,
     },
-    [279] = {
-        id = 279,
+    [290] = {
+        id = 290,
         formId = {
             [1] = 1160101,
         },
@@ -4738,8 +4911,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [280] = {
-        id = 280,
+    [291] = {
+        id = 291,
         formId = {
             [1] = 1160101,
         },
@@ -4753,8 +4926,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [281] = {
-        id = 281,
+    [292] = {
+        id = 292,
         formId = {
             [1] = 1160101,
         },
@@ -4768,8 +4941,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [282] = {
-        id = 282,
+    [293] = {
+        id = 293,
         formId = {
             [1] = 1160101,
         },
@@ -4784,8 +4957,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [283] = {
-        id = 283,
+    [294] = {
+        id = 294,
         formId = {
             [1] = 1160101,
         },
@@ -4799,8 +4972,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [284] = {
-        id = 284,
+    [295] = {
+        id = 295,
         formId = {
             [1] = 1160101,
         },
@@ -4814,8 +4987,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [285] = {
-        id = 285,
+    [296] = {
+        id = 296,
         formId = {
             [1] = 1160101,
         },
@@ -4829,8 +5002,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [286] = {
-        id = 286,
+    [297] = {
+        id = 297,
         formId = {
             [1] = 1160101,
         },
@@ -4844,8 +5017,8 @@ return {
         probability = 3000,
         param = 111701,
     },
-    [287] = {
-        id = 287,
+    [298] = {
+        id = 298,
         formId = {
             [1] = 1160101,
         },
@@ -4858,8 +5031,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [288] = {
-        id = 288,
+    [299] = {
+        id = 299,
         formId = {
             [1] = 1160101,
         },
@@ -4872,8 +5045,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [289] = {
-        id = 289,
+    [300] = {
+        id = 300,
         formId = {
             [1] = 1170101,
         },
@@ -4888,8 +5061,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [290] = {
-        id = 290,
+    [301] = {
+        id = 301,
         formId = {
             [1] = 1170101,
         },
@@ -4903,8 +5076,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [291] = {
-        id = 291,
+    [302] = {
+        id = 302,
         formId = {
             [1] = 1170101,
         },
@@ -4918,8 +5091,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [292] = {
-        id = 292,
+    [303] = {
+        id = 303,
         formId = {
             [1] = 1170101,
         },
@@ -4934,8 +5107,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [293] = {
-        id = 293,
+    [304] = {
+        id = 304,
         formId = {
             [1] = 1170101,
         },
@@ -4950,8 +5123,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [294] = {
-        id = 294,
+    [305] = {
+        id = 305,
         formId = {
             [1] = 1170101,
         },
@@ -4965,8 +5138,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [295] = {
-        id = 295,
+    [306] = {
+        id = 306,
         formId = {
             [1] = 1170101,
         },
@@ -4980,8 +5153,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [296] = {
-        id = 296,
+    [307] = {
+        id = 307,
         formId = {
             [1] = 1170101,
         },
@@ -4995,8 +5168,8 @@ return {
         probability = 3000,
         param = 111601,
     },
-    [297] = {
-        id = 297,
+    [308] = {
+        id = 308,
         formId = {
             [1] = 1170101,
         },
@@ -5009,8 +5182,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [298] = {
-        id = 298,
+    [309] = {
+        id = 309,
         formId = {
             [1] = 1170101,
         },
@@ -5023,8 +5196,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [299] = {
-        id = 299,
+    [310] = {
+        id = 310,
         formId = {
             [1] = 1220101,
         },
@@ -5039,8 +5212,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [300] = {
-        id = 300,
+    [311] = {
+        id = 311,
         formId = {
             [1] = 1220101,
         },
@@ -5055,8 +5228,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [301] = {
-        id = 301,
+    [312] = {
+        id = 312,
         formId = {
             [1] = 1220101,
         },
@@ -5070,8 +5243,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [302] = {
-        id = 302,
+    [313] = {
+        id = 313,
         formId = {
             [1] = 1220101,
         },
@@ -5086,8 +5259,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [303] = {
-        id = 303,
+    [314] = {
+        id = 314,
         formId = {
             [1] = 1220101,
         },
@@ -5102,8 +5275,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [304] = {
-        id = 304,
+    [315] = {
+        id = 315,
         formId = {
             [1] = 1220101,
         },
@@ -5117,8 +5290,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [305] = {
-        id = 305,
+    [316] = {
+        id = 316,
         formId = {
             [1] = 1220101,
         },
@@ -5132,8 +5305,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [306] = {
-        id = 306,
+    [317] = {
+        id = 317,
         formId = {
             [1] = 1220101,
         },
@@ -5146,8 +5319,8 @@ return {
         probability = 3000,
         param = 111601,
     },
-    [307] = {
-        id = 307,
+    [318] = {
+        id = 318,
         formId = {
             [1] = 1220101,
         },
@@ -5160,8 +5333,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [308] = {
-        id = 308,
+    [319] = {
+        id = 319,
         formId = {
             [1] = 1220101,
         },
@@ -5174,8 +5347,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [309] = {
-        id = 309,
+    [320] = {
+        id = 320,
         formId = {
             [1] = 1230101,
         },
@@ -5190,8 +5363,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [310] = {
-        id = 310,
+    [321] = {
+        id = 321,
         formId = {
             [1] = 1230101,
         },
@@ -5206,8 +5379,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [311] = {
-        id = 311,
+    [322] = {
+        id = 322,
         formId = {
             [1] = 1230101,
         },
@@ -5221,8 +5394,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [312] = {
-        id = 312,
+    [323] = {
+        id = 323,
         formId = {
             [1] = 1230101,
         },
@@ -5237,8 +5410,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [313] = {
-        id = 313,
+    [324] = {
+        id = 324,
         formId = {
             [1] = 1230101,
         },
@@ -5253,8 +5426,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [314] = {
-        id = 314,
+    [325] = {
+        id = 325,
         formId = {
             [1] = 1230101,
         },
@@ -5268,8 +5441,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [315] = {
-        id = 315,
+    [326] = {
+        id = 326,
         formId = {
             [1] = 1230101,
         },
@@ -5283,8 +5456,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [316] = {
-        id = 316,
+    [327] = {
+        id = 327,
         formId = {
             [1] = 1230101,
         },
@@ -5297,8 +5470,8 @@ return {
         probability = 3000,
         param = 111601,
     },
-    [317] = {
-        id = 317,
+    [328] = {
+        id = 328,
         formId = {
             [1] = 1230101,
         },
@@ -5311,8 +5484,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [318] = {
-        id = 318,
+    [329] = {
+        id = 329,
         formId = {
             [1] = 1230101,
         },
@@ -5325,8 +5498,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [319] = {
-        id = 319,
+    [330] = {
+        id = 330,
         formId = {
             [1] = 1240101,
         },
@@ -5341,8 +5514,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [320] = {
-        id = 320,
+    [331] = {
+        id = 331,
         formId = {
             [1] = 1240101,
         },
@@ -5356,8 +5529,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [321] = {
-        id = 321,
+    [332] = {
+        id = 332,
         formId = {
             [1] = 1240101,
         },
@@ -5372,8 +5545,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [322] = {
-        id = 322,
+    [333] = {
+        id = 333,
         formId = {
             [1] = 1240101,
         },
@@ -5387,8 +5560,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [323] = {
-        id = 323,
+    [334] = {
+        id = 334,
         formId = {
             [1] = 1240101,
         },
@@ -5402,8 +5575,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [324] = {
-        id = 324,
+    [335] = {
+        id = 335,
         formId = {
             [1] = 1240101,
         },
@@ -5417,8 +5590,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [325] = {
-        id = 325,
+    [336] = {
+        id = 336,
         formId = {
             [1] = 1240101,
         },
@@ -5434,8 +5607,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [326] = {
-        id = 326,
+    [337] = {
+        id = 337,
         formId = {
             [1] = 1240101,
         },
@@ -5448,8 +5621,8 @@ return {
         probability = 3000,
         param = 111601,
     },
-    [327] = {
-        id = 327,
+    [338] = {
+        id = 338,
         formId = {
             [1] = 1240101,
         },
@@ -5462,8 +5635,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [328] = {
-        id = 328,
+    [339] = {
+        id = 339,
         formId = {
             [1] = 1240101,
         },
@@ -5476,8 +5649,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [329] = {
-        id = 329,
+    [340] = {
+        id = 340,
         formId = {
             [1] = 1250101,
         },
@@ -5491,8 +5664,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [330] = {
-        id = 330,
+    [341] = {
+        id = 341,
         formId = {
             [1] = 1250101,
         },
@@ -5506,8 +5679,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [331] = {
-        id = 331,
+    [342] = {
+        id = 342,
         formId = {
             [1] = 1250101,
         },
@@ -5521,8 +5694,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [332] = {
-        id = 332,
+    [343] = {
+        id = 343,
         formId = {
             [1] = 1250101,
         },
@@ -5536,8 +5709,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [333] = {
-        id = 333,
+    [344] = {
+        id = 344,
         formId = {
             [1] = 1250101,
         },
@@ -5551,8 +5724,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [334] = {
-        id = 334,
+    [345] = {
+        id = 345,
         formId = {
             [1] = 1250101,
         },
@@ -5566,8 +5739,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [335] = {
-        id = 335,
+    [346] = {
+        id = 346,
         formId = {
             [1] = 1250101,
         },
@@ -5583,8 +5756,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [336] = {
-        id = 336,
+    [347] = {
+        id = 347,
         formId = {
             [1] = 1250101,
         },
@@ -5597,8 +5770,8 @@ return {
         probability = 3000,
         param = 111601,
     },
-    [337] = {
-        id = 337,
+    [348] = {
+        id = 348,
         formId = {
             [1] = 1250101,
         },
@@ -5611,8 +5784,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [338] = {
-        id = 338,
+    [349] = {
+        id = 349,
         formId = {
             [1] = 1250101,
         },
@@ -5625,8 +5798,162 @@ return {
         probability = 3000,
         param = 0,
     },
-    [339] = {
-        id = 339,
+    [350] = {
+        id = 350,
+        formId = {
+            [1] = 1270101,
+        },
+        eventType = 5,
+        roleId = 112701,
+        resources = {
+            [1] = "sound/12701/ShiroQueen_035.mp3",
+            [2] = "sound/12701/ShiroQueen_036.mp3",
+        },
+        describe = "战斗胜利",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [351] = {
+        id = 351,
+        formId = {
+            [1] = 1270101,
+        },
+        eventType = 7,
+        roleId = 112701,
+        resources = {
+            [1] = "sound/12701/ShiroQueen_028.mp3",
+            [2] = "sound/12701/ShiroQueen_029.mp3",
+        },
+        describe = "切换角色(登场)",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [352] = {
+        id = 352,
+        formId = {
+            [1] = 1270101,
+        },
+        eventType = 6,
+        roleId = 112701,
+        resources = {
+            [1] = "sound/12701/ShiroQueen_038.mp3",
+            [2] = "sound/12701/ShiroQueen_037.mp3",
+        },
+        describe = "战斗失败",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [353] = {
+        id = 353,
+        formId = {
+            [1] = 1270101,
+        },
+        eventType = 1,
+        roleId = 112701,
+        resources = {
+            [1] = "sound/12701/ShiroQueen_039.mp3",
+            [2] = "sound/12701/ShiroQueen_038.mp3",
+        },
+        describe = "遇到强大敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [354] = {
+        id = 354,
+        formId = {
+            [1] = 1270101,
+        },
+        eventType = 4,
+        roleId = 112701,
+        resources = {
+            [1] = "sound/12701/ShiroQueen_041.mp3",
+            [2] = "sound/12701/ShiroQueen_042.mp3",
+        },
+        describe = "击杀敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [355] = {
+        id = 355,
+        formId = {
+            [1] = 1270101,
+        },
+        eventType = 2,
+        roleId = 112701,
+        resources = {
+            [1] = "sound/12701/ShiroQueen_043.mp3",
+        },
+        describe = "单次受到巨大伤害",
+        cdTime = 5000,
+        probability = 10000,
+        param = 2000,
+    },
+    [356] = {
+        id = 356,
+        formId = {
+            [1] = 1270101,
+        },
+        eventType = 3,
+        roleId = 112701,
+        resources = {
+            [1] = "sound/12701/ShiroQueen_033.mp3",
+            [2] = "sound/12701/ShiroQueen_032.mp3",
+            [3] = "sound/12701/ShiroQueen_034.mp3",
+        },
+        describe = "在战场上待机一段时间",
+        cdTime = 10000,
+        probability = 5000,
+        param = 5000,
+    },
+    [357] = {
+        id = 357,
+        formId = {
+            [1] = 1270101,
+        },
+        eventType = 8,
+        roleId = 112701,
+        resources = {
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 111601,
+    },
+    [358] = {
+        id = 358,
+        formId = {
+            [1] = 1270101,
+        },
+        eventType = 8,
+        roleId = 112701,
+        resources = {
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 0,
+    },
+    [359] = {
+        id = 359,
+        formId = {
+            [1] = 1270101,
+        },
+        eventType = 8,
+        roleId = 112701,
+        resources = {
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 0,
+    },
+    [360] = {
+        id = 360,
         formId = {
             [1] = 113101,
             [2] = 113102,
@@ -5642,8 +5969,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [340] = {
-        id = 340,
+    [361] = {
+        id = 361,
         formId = {
             [1] = 113101,
             [2] = 113102,
@@ -5659,8 +5986,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [341] = {
-        id = 341,
+    [362] = {
+        id = 362,
         formId = {
             [1] = 113101,
             [2] = 113102,
@@ -5676,8 +6003,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [342] = {
-        id = 342,
+    [363] = {
+        id = 363,
         formId = {
             [1] = 113101,
             [2] = 113102,
@@ -5692,8 +6019,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [343] = {
-        id = 343,
+    [364] = {
+        id = 364,
         formId = {
             [1] = 113101,
             [2] = 113102,
@@ -5708,8 +6035,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [344] = {
-        id = 344,
+    [365] = {
+        id = 365,
         formId = {
             [1] = 113101,
             [2] = 113102,
@@ -5724,8 +6051,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [345] = {
-        id = 345,
+    [366] = {
+        id = 366,
         formId = {
             [1] = 113101,
             [2] = 113102,
@@ -5741,8 +6068,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [346] = {
-        id = 346,
+    [367] = {
+        id = 367,
         formId = {
             [1] = 113101,
             [2] = 113102,
@@ -5756,8 +6083,8 @@ return {
         probability = 3000,
         param = 111601,
     },
-    [347] = {
-        id = 347,
+    [368] = {
+        id = 368,
         formId = {
             [1] = 113101,
             [2] = 113102,
@@ -5771,8 +6098,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [348] = {
-        id = 348,
+    [369] = {
+        id = 369,
         formId = {
             [1] = 113101,
             [2] = 113102,
@@ -5786,8 +6113,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [349] = {
-        id = 349,
+    [370] = {
+        id = 370,
         formId = {
             [1] = 1280101,
         },
@@ -5802,8 +6129,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [350] = {
-        id = 350,
+    [371] = {
+        id = 371,
         formId = {
             [1] = 1280101,
         },
@@ -5818,8 +6145,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [351] = {
-        id = 351,
+    [372] = {
+        id = 372,
         formId = {
             [1] = 1280101,
         },
@@ -5834,8 +6161,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [352] = {
-        id = 352,
+    [373] = {
+        id = 373,
         formId = {
             [1] = 1280101,
         },
@@ -5850,8 +6177,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [353] = {
-        id = 353,
+    [374] = {
+        id = 374,
         formId = {
             [1] = 1280101,
         },
@@ -5866,8 +6193,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [354] = {
-        id = 354,
+    [375] = {
+        id = 375,
         formId = {
             [1] = 1280101,
         },
@@ -5882,8 +6209,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [355] = {
-        id = 355,
+    [376] = {
+        id = 376,
         formId = {
             [1] = 1280101,
         },
@@ -5899,8 +6226,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [356] = {
-        id = 356,
+    [377] = {
+        id = 377,
         formId = {
             [1] = 1280101,
         },
@@ -5914,8 +6241,8 @@ return {
         probability = 3000,
         param = 110401,
     },
-    [357] = {
-        id = 357,
+    [378] = {
+        id = 378,
         formId = {
             [1] = 1280101,
         },
@@ -5929,8 +6256,8 @@ return {
         probability = 3000,
         param = 110413,
     },
-    [358] = {
-        id = 358,
+    [379] = {
+        id = 379,
         formId = {
             [1] = 1280101,
         },
@@ -5943,8 +6270,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [359] = {
-        id = 359,
+    [380] = {
+        id = 380,
         formId = {
             [1] = 1320101,
         },
@@ -5959,8 +6286,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [360] = {
-        id = 360,
+    [381] = {
+        id = 381,
         formId = {
             [1] = 1320101,
         },
@@ -5974,8 +6301,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [361] = {
-        id = 361,
+    [382] = {
+        id = 382,
         formId = {
             [1] = 1320101,
         },
@@ -5990,8 +6317,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [362] = {
-        id = 362,
+    [383] = {
+        id = 383,
         formId = {
             [1] = 1320101,
         },
@@ -6005,8 +6332,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [363] = {
-        id = 363,
+    [384] = {
+        id = 384,
         formId = {
             [1] = 1320101,
         },
@@ -6020,8 +6347,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [364] = {
-        id = 364,
+    [385] = {
+        id = 385,
         formId = {
             [1] = 1320101,
         },
@@ -6035,8 +6362,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [365] = {
-        id = 365,
+    [386] = {
+        id = 386,
         formId = {
             [1] = 1320101,
         },
@@ -6052,8 +6379,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [366] = {
-        id = 366,
+    [387] = {
+        id = 387,
         formId = {
             [1] = 1320101,
         },
@@ -6067,8 +6394,8 @@ return {
         probability = 3000,
         param = 112501,
     },
-    [367] = {
-        id = 367,
+    [388] = {
+        id = 388,
         formId = {
             [1] = 1320101,
         },
@@ -6082,8 +6409,8 @@ return {
         probability = 3000,
         param = 113301,
     },
-    [368] = {
-        id = 368,
+    [389] = {
+        id = 389,
         formId = {
             [1] = 1320101,
         },
@@ -6096,8 +6423,8 @@ return {
         probability = 3000,
         param = 0,
     },
-    [369] = {
-        id = 369,
+    [390] = {
+        id = 390,
         formId = {
             [1] = 1330101,
         },
@@ -6112,8 +6439,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [370] = {
-        id = 370,
+    [391] = {
+        id = 391,
         formId = {
             [1] = 1330101,
         },
@@ -6127,8 +6454,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [371] = {
-        id = 371,
+    [392] = {
+        id = 392,
         formId = {
             [1] = 1330101,
         },
@@ -6143,8 +6470,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [372] = {
-        id = 372,
+    [393] = {
+        id = 393,
         formId = {
             [1] = 1330101,
         },
@@ -6158,8 +6485,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [373] = {
-        id = 373,
+    [394] = {
+        id = 394,
         formId = {
             [1] = 1330101,
         },
@@ -6173,8 +6500,8 @@ return {
         probability = 10000,
         param = 0,
     },
-    [374] = {
-        id = 374,
+    [395] = {
+        id = 395,
         formId = {
             [1] = 1330101,
         },
@@ -6188,8 +6515,8 @@ return {
         probability = 10000,
         param = 2000,
     },
-    [375] = {
-        id = 375,
+    [396] = {
+        id = 396,
         formId = {
             [1] = 1330101,
         },
@@ -6205,8 +6532,8 @@ return {
         probability = 5000,
         param = 5000,
     },
-    [376] = {
-        id = 376,
+    [397] = {
+        id = 397,
         formId = {
             [1] = 1330101,
         },
@@ -6220,8 +6547,8 @@ return {
         probability = 3000,
         param = 112601,
     },
-    [377] = {
-        id = 377,
+    [398] = {
+        id = 398,
         formId = {
             [1] = 1330101,
         },
@@ -6235,8 +6562,8 @@ return {
         probability = 3000,
         param = 113301,
     },
-    [378] = {
-        id = 378,
+    [399] = {
+        id = 399,
         formId = {
             [1] = 1330101,
         },

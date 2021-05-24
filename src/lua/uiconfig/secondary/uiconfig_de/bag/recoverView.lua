@@ -170,7 +170,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -187,7 +187,7 @@ local t =
 										PositionX = -117,
 										PositionY = 220,
 									},
-									width = "116",
+									width = "329",
 									ZOrder = "1",
 								},
 								{
@@ -377,7 +377,7 @@ local t =
 											{
 												PositionX = -1,
 											},
-											width = "57",
+											width = "100",
 											ZOrder = "1",
 										},
 									},

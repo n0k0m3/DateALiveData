@@ -179,6 +179,31 @@ function CollectDataMgr:updateRemoteCollect(collects,isNew)
 	EventMgr:dispatchEvent(EV_COLLECT_UPDATE_INFO)
 end
 
+function CollectDataMgr:addItemTrophy(item, cid)
+    if CC_TARGET_PLATFORM ~= CC_PLATFORM_WIN32 then
+        return
+    end
+
+    local Trophy = item.Trophy
+    local cfg = self.collectCfg[cid]
+    if not cfg then return end
+    if not Trophy then
+        Trophy = TFLabel:create()
+        Trophy:setFontSize(24)
+        local anchor = item:getAnchorPoint()
+        item:setAnchorPoint(ccp(0.5,0.5))
+        Trophy:setPosition(ccp(0, 0))
+        Trophy:setAnchorPoint(ccp(0.5, 0.5))
+        Trophy:setFontColor(ccc3(255, 255, 255))
+        Trophy:enableStroke(ccc3(0, 0, 0), 1)
+        Trophy:setZOrder(999)
+        item:addChild(Trophy)
+        item:setAnchorPoint(anchor)
+        item.Trophy = Trophy
+    end
+    Trophy:setText("cupNum:"..cfg.cup)
+end
+
 function CollectDataMgr:updateOtherPlayerCollect(playerInfo)
 	local collectData = playerInfo.element
 	self.otherCollectData.totalTrophy = collectData.totleTrophy

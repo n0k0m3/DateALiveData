@@ -1,0 +1,125 @@
+
+effects_10313_qiuckmove.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects_H/g1
+  rotate: false
+  xy: 2, 718
+  size: 240, 240
+  orig: 256, 256
+  offset: 8, 8
+  index: -1
+effects_H/guang02
+  rotate: true
+  xy: 148, 470
+  size: 246, 15
+  orig: 256, 128
+  offset: 10, 56
+  index: -1
+effects_H/qiuckmove/di_01
+  rotate: false
+  xy: 681, 1831
+  size: 673, 170
+  orig: 684, 188
+  offset: 2, 10
+  index: -1
+effects_H/qiuckmove/di_02
+  rotate: false
+  xy: 2, 1485
+  size: 670, 170
+  orig: 684, 188
+  offset: 3, 9
+  index: -1
+effects_H/qiuckmove/di_03
+  rotate: false
+  xy: 2, 1310
+  size: 662, 173
+  orig: 684, 188
+  offset: 2, 7
+  index: -1
+effects_H/qiuckmove/di_04
+  rotate: false
+  xy: 2, 1830
+  size: 677, 171
+  orig: 684, 188
+  offset: 3, 7
+  index: -1
+effects_H/qiuckmove/di_06
+  rotate: false
+  xy: 2, 1657
+  size: 674, 171
+  orig: 684, 188
+  offset: 3, 7
+  index: -1
+effects_H/qiuckmove/di_08
+  rotate: false
+  xy: 1356, 1831
+  size: 641, 170
+  orig: 684, 188
+  offset: 3, 8
+  index: -1
+effects_H/qiuckmove/di_10
+  rotate: false
+  xy: 2, 1141
+  size: 596, 167
+  orig: 684, 188
+  offset: 5, 10
+  index: -1
+effects_H/qiuckmove/f_00
+  rotate: true
+  xy: 2, 430
+  size: 286, 144
+  orig: 316, 188
+  offset: 0, 0
+  index: -1
+effects_H/qiuckmove/f_02
+  rotate: false
+  xy: 2, 960
+  size: 316, 179
+  orig: 316, 188
+  offset: 0, 0
+  index: -1
+effects_H/qiuckmove/f_04
+  rotate: false
+  xy: 320, 964
+  size: 269, 175
+  orig: 316, 188
+  offset: 47, 0
+  index: -1
+effects_H/qiuckmove/f_06
+  rotate: false
+  xy: 2, 54
+  size: 168, 146
+  orig: 316, 188
+  offset: 148, 25
+  index: -1
+effects_H/qiuckmove/f_08
+  rotate: true
+  xy: 165, 569
+  size: 147, 100
+  orig: 316, 188
+  offset: 139, 56
+  index: -1
+effects_H/qiuckmove/f_10
+  rotate: false
+  xy: 2, 2
+  size: 145, 50
+  orig: 316, 188
+  offset: 139, 101
+  index: -1
+effects_H/qiuckmove/f_12
+  rotate: true
+  xy: 600, 1164
+  size: 144, 52
+  orig: 316, 188
+  offset: 139, 100
+  index: -1
+effects_H/qiuckmove/ren
+  rotate: false
+  xy: 2, 202
+  size: 198, 226
+  orig: 205, 234
+  offset: 2, 3
+  index: -1

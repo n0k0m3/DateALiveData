@@ -232,23 +232,28 @@ function DepotView:updateGirdView()
     girdView:AsyncUpdateItem(data,function ( item ,_data )
          if _data then
             item:show()
-            self:updateItem(item, _data)
+            self:updateItem(item, _data,id)
         end
     end)
    
 end
 
-function DepotView:updateItem(item, _data)
+function DepotView:updateItem(item, _data,lastId)
     local id = tonumber(self.data.id)
+    if lastId ~= id then 
+        return
+    end
     local commodityCfg
     local Button_buy = TFDirector:getChildByPath(item, "Button_buy")
     local img_limitDi = TFDirector:getChildByPath(item, "img_limitDi")
     local Label_limit = TFDirector:getChildByPath(img_limitDi, "Label_limit")
     local img_di = TFDirector:getChildByPath(item, "img_di")
     local Label_tips = TFDirector:getChildByPath(item, "Label_tips"):hide()
-
     if id == 4 or id == 1 then
         commodityCfg = StoreDataMgr:getCommodityCfg(_data)
+        if not commodityCfg then
+            return
+        end
         local isCanBuy, remainCount = StoreDataMgr:getRemainBuyCount(_data)
         img_limitDi:setVisible(#commodityCfg.sellDescribtion > 0)
         if img_limitDi:isVisible() then

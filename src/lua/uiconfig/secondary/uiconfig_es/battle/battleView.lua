@@ -1336,6 +1336,63 @@ local t =
 											},
 										},
 										{
+											controlID = "Image_type15_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
+											UUID = "b25b18fc_724f_4b2f_9b85_665fe60b0802",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "2",
+											ignoreSize = "True",
+											name = "Image_type15",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/battle/099.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 174,
+												PositionY = -44,
+											},
+											width = "2",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "LoadingBar_Image_type15_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
+													UUID = "bc4a3b46_f64f_452f_9d96_e4fec12903fb",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MELoadingBar",
+													direction = "0",
+													dstBlendFunc = "771",
+													height = "2",
+													ignoreSize = "True",
+													name = "LoadingBar",
+													percent = "100",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texture = "ui/battle/098.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														
+													},
+													width = "2",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
 											controlID = "Panel_buffer_effect_icon_Panel_captain_Panel_top_Panel_ui_Panel-battleView_ui_battle_Game",
 											UUID = "ddbfa586_1a96_4fbc_817b_7dd1f6e126a3",
 											anchorPoint = "False",
@@ -1873,7 +1930,7 @@ local t =
 														StrokeColor = "#FF444444",
 														StrokeSize = 1,
 													},
-													height = "19",
+													height = "18",
 													ignoreSize = "True",
 													name = "Label_super_sp",
 													nTextAlign = "1",
@@ -9426,7 +9483,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 510,
+										PositionX = 568,
 										PositionY = 134,
 										BottomPosition = 129,
 										relativeToName = "Panel_top",
@@ -9652,8 +9709,8 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 430,
-												PositionY = 226,
+												PositionX = 488,
+												PositionY = 213,
 												RightPosition = 45,
 												TopPosition = 78,
 												relativeToName = "Panel_practice",
@@ -9737,8 +9794,8 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 430,
-												PositionY = 156,
+												PositionX = 488,
+												PositionY = 142,
 												RightPosition = 45,
 												TopPosition = 149,
 												relativeToName = "Panel_practice",
@@ -9822,8 +9879,8 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 430,
-												PositionY = 300,
+												PositionX = 488,
+												PositionY = 286,
 												RightPosition = 45,
 												TopPosition = 5,
 												relativeToName = "Panel_practice",
@@ -10792,7 +10849,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -180,
+												PositionY = -167,
 												BottomPosition = 114,
 												relativeToName = "Panel_practice",
 												nType = 3,
@@ -11095,7 +11152,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 402,
+										PositionX = 518,
 										PositionY = 69,
 										RightPosition = 400,
 										BottomPosition = 29,
@@ -14417,7 +14474,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 799,
+								PositionX = 915,
 								PositionY = 327,
 								RightPosition = 160,
 								BottomPosition = 303,
@@ -17985,6 +18042,8 @@ local t =
 			"ui/battle/084.png",
 			"ui/battle/095.png",
 			"ui/battle/096.png",
+			"ui/battle/099.png",
+			"ui/battle/098.png",
 			"ui/battle/056.png",
 			"icon/hero/face/1101011.png",
 			"ui/battle/004.png",

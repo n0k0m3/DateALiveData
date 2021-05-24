@@ -976,7 +976,8 @@ function HeroDataMgr:setHeroAngelInfo(hero)
 	-- if not hero.angeSkillInfos then
 	-- 	hero.angeSkillInfos = hero.skillStrategyInfo[hero.useSkillStrategy].angeSkillInfos)
 	-- end
-	if hero.skillStrategyInfo[hero.useSkillStrategy].angeSkillInfos then
+
+	if hero.skillStrategyInfo and hero.skillStrategyInfo[hero.useSkillStrategy].angeSkillInfos then
 		for k,v in pairs(hero.skillStrategyInfo[hero.useSkillStrategy].angeSkillInfos) do
 			angeSkillInfos[v.type] = angeSkillInfos[v.type] or {}
 			angeSkillInfos[v.type][v.pos] = angeSkillInfos[v.type][v.pos] or {}

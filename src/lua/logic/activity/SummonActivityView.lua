@@ -237,7 +237,12 @@ function SummonActivityView:registerEvents()
                     else
                         local rstr = TextDataMgr:getTextAttr(1200042 + i -1)
                         local formatStr = rstr and rstr.text or ""
-                        local content = string.format(formatStr, cost.num, TabDataMgr:getData("Item", cost.id).icon)
+                        local content = ""
+                        if TFLanguageMgr:getUsingLanguage() == cc.KOREAN then
+                            content = string.format(formatStr,TabDataMgr:getData("Item", cost.id).icon, cost.num)
+                        else
+                            content = string.format(formatStr, cost.num, TabDataMgr:getData("Item", cost.id).icon)
+                        end
                         Utils:openView("common.ReConfirmTipsView", {tittle = 1200041, content = content, reType = EC_OneLoginStatusType.ReConfirm_Summon, confirmCall = reaSummon})
                     end
                 else

@@ -935,7 +935,7 @@ function FubenChapterView:updatePlotChapterItem(index, subIndex)
     local playerLevel = MainPlayer:getPlayerLv()
     local firstLevelCid = FubenDataMgr:getChapterFirstLevel(chapterCid, EC_FBDiff.SIMPLE)
     local firstLevelCfg = FubenDataMgr:getLevelCfg(firstLevelCid)
-    local enabled, preIsOpen, levelIsOpen = FubenDataMgr:checkPlotLevelEnabled(firstLevelCid)
+    local enabled, preIsOpen, levelIsOpen, isTimeOpen = FubenDataMgr:checkPlotLevelEnabled(firstLevelCid)
     foo.Image_state:setVisible(not enabled)
     foo.Panel_stars:setVisible(enabled)
     if enabled then
@@ -948,11 +948,13 @@ function FubenChapterView:updatePlotChapterItem(index, subIndex)
     else
         if not levelIsOpen then
             foo.Label_state:setTextById(800003, firstLevelCfg.playerLv)
-        else
+        elseif not preIsOpen then
             local firstLevelCfg = FubenDataMgr:getLevelCfg(firstLevelCid)
             local count = #firstLevelCfg.preLevelId
             local levelName = FubenDataMgr:getLevelName(firstLevelCfg.preLevelId[1])
             foo.Label_state:setTextById(300963, levelName)
+        elseif not isTimeOpen then
+            foo.Label_state:setTextById(chapterCfg.lockedTip)
         end
     end
 

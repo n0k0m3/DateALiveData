@@ -587,6 +587,9 @@ function ActivityMain:updateOneSignEntry(item,index)
     end
 
     local itemCfg = GoodsDataMgr:getItemCfg(id);
+    if not itemCfg then
+        return
+    end
     item:setTexture(EC_ItemIcon[itemCfg.quality]);
     local Image_icon = TFDirector:getChildByPath(item,"Image_icon");
     Image_icon:setTexture(itemCfg.icon);

@@ -600,7 +600,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "20",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_tips",
 									nTextAlign = "1",
@@ -617,7 +617,7 @@ local t =
 										PositionX = 554,
 										PositionY = -303,
 									},
-									width = "477",
+									width = "445",
 									ZOrder = "1",
 								},
 								{

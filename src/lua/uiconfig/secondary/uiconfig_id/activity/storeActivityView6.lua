@@ -247,6 +247,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
+								PositionX = 10,
 								PositionY = 251,
 							},
 							uipanelviewmodel = 
@@ -377,7 +378,7 @@ local t =
 									ZOrder = "1",
 								},
 								{
-									controlID = "Panel_asset_1_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
+									controlID = "Panel_asset_3_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
 									UUID = "ad320253_42f0_466e_8337_d90bd4444913",
 									anchorPoint = "False",
 									anchorPointX = "0",
@@ -393,7 +394,7 @@ local t =
 									dstBlendFunc = "771",
 									height = "30",
 									ignoreSize = "False",
-									name = "Panel_asset_1",
+									name = "Panel_asset_3",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -414,7 +415,7 @@ local t =
 									{
 										
 										{
-											controlID = "Image_di_Panel_asset_1_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
+											controlID = "Image_di_Panel_asset_3_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
 											UUID = "d45271ee_b2fc_4e79_b10f_0863dcc131d2",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -439,7 +440,7 @@ local t =
 											ZOrder = "1",
 										},
 										{
-											controlID = "Image_icon_Panel_asset_1_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
+											controlID = "Image_icon_Panel_asset_3_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
 											UUID = "d5263e6b_452d_4f5a_9aa9_5d4762e80517",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -466,7 +467,7 @@ local t =
 											ZOrder = "1",
 										},
 										{
-											controlID = "Label_count_Panel_asset_1_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
+											controlID = "Label_count_Panel_asset_3_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
 											UUID = "ad775ae8_f825_4e4b_aed1_60f65c0a28e4",
 											anchorPoint = "False",
 											anchorPointX = "1",
@@ -649,7 +650,7 @@ local t =
 									},
 								},
 								{
-									controlID = "Panel_asset_3_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
+									controlID = "Panel_asset_1_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
 									UUID = "9b1a3c74_ef82_4757_9745_7b8b9442bb95",
 									anchorPoint = "False",
 									anchorPointX = "0",
@@ -665,7 +666,7 @@ local t =
 									dstBlendFunc = "771",
 									height = "30",
 									ignoreSize = "False",
-									name = "Panel_asset_3",
+									name = "Panel_asset_1",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -686,7 +687,7 @@ local t =
 									{
 										
 										{
-											controlID = "Image_di_Panel_asset_3_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
+											controlID = "Image_di_Panel_asset_1_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
 											UUID = "e2ad928f_039d_426a_8b42_528ebfd5e101",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -711,7 +712,7 @@ local t =
 											ZOrder = "1",
 										},
 										{
-											controlID = "Image_icon_Panel_asset_3_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
+											controlID = "Image_icon_Panel_asset_1_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
 											UUID = "bde0eb28_4af1_4dec_83e2_a6c65c12e174",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -738,7 +739,7 @@ local t =
 											ZOrder = "1",
 										},
 										{
-											controlID = "Label_count_Panel_asset_3_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
+											controlID = "Label_count_Panel_asset_1_Panel_resource_Panel_root_Panel-storeActivityView6_kuangsanFuben_activity_Game",
 											UUID = "fdaa0309_1159_4d7d_b3ce_746f199391b1",
 											anchorPoint = "False",
 											anchorPointX = "1",

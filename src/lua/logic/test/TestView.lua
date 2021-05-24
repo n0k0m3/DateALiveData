@@ -1,5 +1,6 @@
 
 local TestView = class("TestView", BaseLayer)
+local ResLoader    = import("lua.logic.battle.ResLoader")
 
 function TestView:ctor(...)
     self.super.ctor(self, ...)
@@ -14,11 +15,17 @@ function TestView:initUI(ui)
     self.Label_textureCache_value = TFDirector:getChildByPath(ui, "Label_textureCache_value")
     self.Label_texture_count_value = TFDirector:getChildByPath(ui, "Label_texture_count_value")
     self.Button_close = TFDirector:getChildByPath(ui, "Button_close")
+    self.Label_custom = TFDirector:getChildByPath(ui, "Label_custom")
     self:refreshView()
 end
 
 function TestView:refreshView()
-    self.Label_sys_name_value:setString(TFDeviceInfo:getSystemVersion() or "win32")
+    local newVersion = false
+    if Texture2D.getBitsPerPixelForFormat then 
+        newVersion = true
+    end
+    self.Label_custom:setText("newVersion:"..tostring(newVersion).."  SKILL:"..tostring(ResLoader.LOAD_SKILLEFFECT).."  BUFF:"..tostring(ResLoader.LOAD_BUFFEFFECT).."  HURT:"..tostring(ResLoader.LOAD_HURTEFFECT))
+    
     local mpfCnt = me.Director:getAnimationInterval()
     local nFPS = 0
     local function updateTexture()
@@ -30,10 +37,6 @@ function TestView:refreshView()
         local nMem = 0
         local nUsedMem = 0
         local nVisitedMem = 0
-        local newVersion = false
-        if Texture2D.getBitsPerPixelForFormat then 
-            newVersion = true
-        end 
         for i = 0, nLen - 1 do 
             local name = keys:at(i)
             local tex = me.TextureCache:textureForKey(name:getCString())
@@ -59,8 +62,10 @@ function TestView:refreshView()
             end
         end
         self.Label_fps_value:setString(string.format('%.1f/%.3f', nFPS, mpfCnt))
-        self.Label_textureCache_value:setString(string.format("%.2fM", nUsedMem/1024))
-        self.Label_texture_count_value:setString(string.format('%d', nUsed))
+        self.Label_textureCache_value:setString(string.format("纹理内存：%.2fM", nUsedMem/1024))
+        self.Label_texture_count_value:setString(string.format('纹理数量：%d', nUsed))
+        self.Label_sys_name_value:setString("剩余内存:"..math.floor(tonumber(substringForMemoryExpression(TFDeviceInfo.getFreeMem())) / 1024))
+        --
     end
 
     local nFrameRate = 0
@@ -73,7 +78,7 @@ function TestView:refreshView()
     self.nDebugFrameTID = TFDirector:addTimer(0, -1, nil, function(dt)
         nFrameRate = nFrameRate + 1
         nFrameDelta = nFrameDelta + dt
-        if nFrameDelta > 0.2 then 
+        if nFrameDelta > 0.1 then 
             nFPS = nFrameRate / nFrameDelta
             nFrameRate = 0
             nFrameDelta = 0

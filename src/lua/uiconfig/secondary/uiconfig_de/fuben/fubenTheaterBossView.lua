@@ -213,7 +213,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "2",
+											height = "40",
 											ignoreSize = "True",
 											name = "Image_fubenEndlessView_1",
 											sizepercentx = "0",
@@ -226,7 +226,7 @@ local t =
 											{
 												PositionX = -76,
 											},
-											width = "2",
+											width = "40",
 											ZOrder = "1",
 										},
 										{
@@ -1353,10 +1353,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 341,
+								PositionX = 321,
 								PositionY = -272,
 							},
-							width = "140",
+							width = "186",
 							ZOrder = "1",
 							components = 
 							{
@@ -1380,7 +1380,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1401,9 +1401,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -59,
+										PositionX = -81,
 									},
-									width = "100",
+									width = "123",
 									ZOrder = "1",
 								},
 								{
@@ -1446,7 +1446,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 46,
+										PositionX = 64,
 									},
 									width = "15",
 									ZOrder = "1",
@@ -2186,7 +2186,7 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 261,
+								PositionX = 150,
 								PositionY = -289,
 							},
 							width = "84",
@@ -3281,7 +3281,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "30",
+							height = "60",
 							ignoreSize = "False",
 							name = "Panel_challengeInfo_item",
 							sizepercentx = "0",
@@ -3355,7 +3355,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_notice",
 									nTextAlign = "1",

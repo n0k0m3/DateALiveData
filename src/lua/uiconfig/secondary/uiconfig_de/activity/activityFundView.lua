@@ -219,7 +219,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -589,7 +589,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -623,7 +623,6 @@ local t =
 								PositionX = -269,
 								PositionY = -214,
 							},
-							visible = "False",
 							width = "260",
 							ZOrder = "1",
 						},
@@ -636,7 +635,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -670,7 +669,6 @@ local t =
 								PositionX = -101,
 								PositionY = -214,
 							},
-							visible = "False",
 							width = "260",
 							ZOrder = "1",
 						},
@@ -839,7 +837,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF997913",
+									FontColor = "#FF694912",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{

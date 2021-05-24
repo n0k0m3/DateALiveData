@@ -518,6 +518,7 @@ local t =
 										PositionX = -91,
 										PositionY = -82,
 									},
+									visible = "False",
 									width = "54",
 									ZOrder = "1",
 								},

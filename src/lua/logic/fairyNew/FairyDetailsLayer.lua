@@ -1311,7 +1311,7 @@ function FairyDetailsLayer:updateSkin(delay)
 	end
 	self:updateSkinBtnState()
 	self.showSkinID = HeroDataMgr:getCurSkin(self.showHeroId)
-	VoiceDataMgr:playVoiceByHeroID("change_hero",self.showHeroId);
+	VoiceDataMgr:playVoiceByHeroID("change_equip",self.showHeroId);
 end
 
 function FairyDetailsLayer:updateSkinByStoreBack( )

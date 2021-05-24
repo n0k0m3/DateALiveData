@@ -1421,6 +1421,20 @@ return {
             [1] = 63031,
         },
     },
+    [4110] = {
+        picPath  = "",
+        type = 0,
+        title = "15011418",
+        pictureParameter = {
+        },
+        id = 4110,
+        desParameter = {
+        },
+        fileName = "Help",
+        desc = {
+            [1] = 15011419,
+        },
+    },
     [1032] = {
         picPath  = "",
         type = 0,
@@ -2391,6 +2405,24 @@ return {
         fileName = "Help",
         desc = {
             [1] = 18000003,
+        },
+    },
+    [4109] = {
+        picPath  = "",
+        type = 0,
+        title = "15011380",
+        pictureParameter = {
+        },
+        id = 4109,
+        desParameter = {
+        },
+        fileName = "Help",
+        desc = {
+            [1] = 15011381,
+            [2] = 15011382,
+            [3] = 15011383,
+            [4] = 15011384,
+            [5] = 15011385,
         },
     },
     [9002] = {

@@ -219,7 +219,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -589,7 +589,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -623,7 +623,6 @@ local t =
 								PositionX = -269,
 								PositionY = -214,
 							},
-							visible = "False",
 							width = "139",
 							ZOrder = "1",
 						},
@@ -636,7 +635,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF997913",
+							FontColor = "#FF453505",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -670,7 +669,6 @@ local t =
 								PositionX = -101,
 								PositionY = -214,
 							},
-							visible = "False",
 							width = "139",
 							ZOrder = "1",
 						},
@@ -839,7 +837,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF997913",
+									FontColor = "#FF694912",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -949,7 +947,6 @@ local t =
 									{
 										PositionY = -145,
 									},
-									visible = "False",
 									width = "116",
 									ZOrder = "1",
 									components = 
@@ -974,20 +971,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label",
 											nTextAlign = "1",
 											nTextHAlign = "1",
-											scaleX = "0.8",
-											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -999,7 +994,7 @@ local t =
 											{
 												
 											},
-											width = "122",
+											width = "133",
 											ZOrder = "1",
 										},
 									},

@@ -38,6 +38,9 @@ function JumpActivityView:initUI( ui )
 	self.label_date = TFDirector:getChildByPath(ui, "label_date")
 	self.Button_jump = TFDirector:getChildByPath(ui, "Button_jump")
 	self.Button_jump:setScaleX(1)
+	local act_time = TFDirector:getChildByPath(ui, "act_time")
+	local act_timeStart = TFDirector:getChildByPath(ui, "act_timeStart")
+	local act_timeEnd = TFDirector:getChildByPath(ui, "act_timeEnd")
 
     if self.activityInfo.extendData.dateRstring then
     	local dateStyle = self.activityInfo.extendData.dateStyle
@@ -47,6 +50,13 @@ function JumpActivityView:initUI( ui )
     	self.label_date:setFontSize(19)
 	else
 		self.label_date:setText(Utils:getActivityDateString(self.activityInfo.startTime, self.activityInfo.endTime, self.activityInfo.extendData.dateStyle))
+	end
+
+	if act_time then
+		local year, month, day = Utils:getDate(self.activityInfo.showStartTime or 0)
+		act_timeStart:setTextById(1410001,year, month, day)
+		year, month, day = Utils:getDate(self.activityInfo.endTime or 0)
+		act_timeEnd:setTextById(1410001,year, month, day)
 	end
 
 	if self.activityInfo.extendData.skewX then

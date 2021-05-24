@@ -120,8 +120,8 @@ function CollectTokenView:updateItemCard(itemCard,tokenInfo,isunclock,tokenCfg)
 	TFDirector:getChildByPath(itemCard,"Label_level_title"):setTextById(800006, "")
 	TFDirector:getChildByPath(itemCard,"Label_level"):setText(tokenCfg.level)
 
-
 	itemCard:getChildByName("Image_icon"):setTexture(tokenCfg.icon)
+    CollectDataMgr:addItemTrophy(itemCard, tokenInfo.id)
 	itemCard:onClick(function()
 		if CollectDataMgr:getItemClickEnable() == false then
 			return

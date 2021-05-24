@@ -222,7 +222,7 @@ local t =
 												PositionX = -28,
 												PositionY = -4,
 											},
-											width = "119",
+											width = "122",
 											ZOrder = "1",
 										},
 										{
@@ -268,7 +268,7 @@ local t =
 												PositionX = 123,
 												PositionY = -5,
 											},
-											width = "224",
+											width = "221",
 											ZOrder = "1",
 										},
 									},
@@ -734,7 +734,7 @@ local t =
 													{
 														PositionX = -4,
 													},
-													width = "26",
+													width = "25",
 													ZOrder = "1",
 												},
 											},
@@ -968,7 +968,7 @@ local t =
 														PositionX = 2,
 														PositionY = 34,
 													},
-													width = "59",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -1162,7 +1162,7 @@ local t =
 														PositionX = -25,
 														PositionY = -2,
 													},
-													width = "38",
+													width = "37",
 													ZOrder = "1",
 												},
 												{

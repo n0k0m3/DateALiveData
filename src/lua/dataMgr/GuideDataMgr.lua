@@ -237,23 +237,21 @@ function GuideDataMgr:findCurTriggerGuideGroup(ui)
 	local commonGroupIds = self:getServerGroupIds()
 	table.insertTo(serverGroupIds,commonGroupIds)
     for i,v in ipairs(self.triggerGuideGroupIds) do
-		if v.filename == ui.__cname then
-			local index = table.indexOf(serverGroupIds,v.group)
-			if index == -1 then
-				local guideState = true
-				if v.funcType == EC_GuideFuncType.Courage then
-					guideState = CourageDataMgr:getGuideState()
-				end
+		local index = table.indexOf(serverGroupIds,v.group)
+		if index == -1 then
+			local guideState = true
+			if v.funcType == EC_GuideFuncType.Courage then
+				guideState = CourageDataMgr:getGuideState()
+			end
 
-				if guideState then
-					local isFit = self:checkCondition(v.level,v.triggerCdt, ui)
-					if isFit then
-						self.__groupId = v.group
-						if v.funcType == EC_GuideFuncType.Courage then
-							CourageDataMgr:addTriggerGuideGroupId(self.__groupId)
-						end
-						return true
+			if guideState then
+				local isFit = self:checkCondition(v.level,v.triggerCdt, ui, v.filename)
+				if isFit then
+					self.__groupId = v.group
+					if v.funcType == EC_GuideFuncType.Courage then
+						CourageDataMgr:addTriggerGuideGroupId(self.__groupId)
 					end
+					return true
 				end
 			end
 		end
@@ -261,7 +259,7 @@ function GuideDataMgr:findCurTriggerGuideGroup(ui)
     return false
 end
 
-function GuideDataMgr:checkCondition(level,triggerCdt, ui)
+function GuideDataMgr:checkCondition(level,triggerCdt, ui,filename)
 
 	local fitCondition = true
 	if next(triggerCdt) then
@@ -270,6 +268,9 @@ function GuideDataMgr:checkCondition(level,triggerCdt, ui)
 			if triggerCdt.fromView == ui.fromView and MainPlayer:getPlayerLv() >= triggerCdt.limitLv then
 				fitCondition = true	
 			else
+				fitCondition = false
+			end
+			if filename and filename ~= ui.__cname then
 				fitCondition = false
 			end
 			return fitCondition

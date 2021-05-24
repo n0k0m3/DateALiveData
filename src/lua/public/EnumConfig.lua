@@ -576,6 +576,7 @@ EC_Bag = {
     MATERIAL_OTHER = 21,    --结晶碎片图纸之外其他材料
     EXPLORE_TREASURE = 22,   --探索背包
     EXPLORE_MATERIAL = 23,   --探索背包
+    KABALA = 31,            --卡巴拉背包
     TRAILCARD = 32,          --试用卡
     SKYLADDER_CARD = 40,   -- 天梯卡牌
     TRAILBAG = 50,   --试用道具背包
@@ -1790,7 +1791,12 @@ EC_ActivityType2 = {
     SPRING_GIFT = 86,            -- 春分赠礼
     LEAGUE_SCORE_ASSIT = 87 , --- 社团助力积分活动
     LEAGUE_SCORE_RANK = 88,  -- 社团助理排行榜活动
+    PIC_TASK_ACTIVITY = 87,      -- 照片墙活动 
     ACCESS_TYPE = 89,            -- 跳转路径拓展
+    BINGKAI_BLESS = 88,          -- 冰铠祝福
+    BINGKAI_STORE = 90,          -- 冰铠商店
+    BINGKAI_TASK = 91,          -- 冰铠任务
+    RETURN_GIFT = 100,           -- 赠送返利活动
 }
 
 EC_Activity_CHRISTMAS_Subtype = {
@@ -2490,4 +2496,13 @@ EC_ItemBuffTargetType = {
     ALL_MONSTER = 3,            -- 对所有怪物
     ALL_SPIRIT = 4,             -- 对全场所有存在
     ALL_ELITE_MONSTER = 5,      -- 对所有精英怪
+}
+
+-- 特殊任务状态
+EC_TASK_STATUS = {
+    Lock = 1,      -- 未解锁
+    UnAccept = 2,  -- 未接受
+    Ing = 3,       -- 进行中
+    NotReceve = 4, -- 未领取
+    Complete = 5   -- 已完成 
 }

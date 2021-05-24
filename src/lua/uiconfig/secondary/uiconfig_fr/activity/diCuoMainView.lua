@@ -324,7 +324,7 @@ local t =
 									{
 										PositionY = -44,
 									},
-									width = "52",
+									width = "71",
 									ZOrder = "1",
 								},
 							},

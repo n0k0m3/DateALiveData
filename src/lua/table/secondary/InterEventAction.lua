@@ -83,37 +83,6 @@ return {
         },
         playAnime = "",
     },
-    [1240402] = {
-        voiceFade = {
-            [1] = 10,
-            [2] = 6.3,
-            [3] = 100,
-            [4] = 3,
-        },
-        playAnimeObject = "",
-        playL2DParam = "",
-        playL2DAction = "",
-        id = 1240402,
-        playEffect = {
-        },
-        playAudio = {
-        },
-        playAnime = "",
-    },
-    [1051401] = {
-        voiceFade = {
-        },
-        playAnimeObject = "",
-        playL2DParam = "",
-        playL2DAction = "",
-        id = 1051401,
-        playEffect = {
-        },
-        playAudio = {
-            [1] = 1051401,
-        },
-        playAnime = "",
-    },
     [1051402] = {
         voiceFade = {
         },
@@ -142,6 +111,37 @@ return {
         playEffect = {
         },
         playAudio = {
+        },
+        playAnime = "",
+    },
+    [1240402] = {
+        voiceFade = {
+            [1] = 10,
+            [2] = 6.3,
+            [3] = 100,
+            [4] = 3,
+        },
+        playAnimeObject = "",
+        playL2DParam = "",
+        playL2DAction = "",
+        id = 1240402,
+        playEffect = {
+        },
+        playAudio = {
+        },
+        playAnime = "",
+    },
+    [1051401] = {
+        voiceFade = {
+        },
+        playAnimeObject = "",
+        playL2DParam = "",
+        playL2DAction = "",
+        id = 1051401,
+        playEffect = {
+        },
+        playAudio = {
+            [1] = 1051401,
         },
         playAnime = "",
     },

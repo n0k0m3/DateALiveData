@@ -213,7 +213,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "2",
+											height = "40",
 											ignoreSize = "True",
 											name = "Image_fubenEndlessView_1",
 											sizepercentx = "0",
@@ -226,7 +226,7 @@ local t =
 											{
 												PositionX = -76,
 											},
-											width = "2",
+											width = "40",
 											ZOrder = "1",
 										},
 										{

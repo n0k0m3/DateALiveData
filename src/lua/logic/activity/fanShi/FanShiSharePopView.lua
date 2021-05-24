@@ -5,8 +5,9 @@
 
 local FanShiSharePopView = class("FanShiSharePopView",BaseLayer)
 
-function FanShiSharePopView:initData(activityId)
+function FanShiSharePopView:initData(activityId, imgSrc)
     self.activityId = activityId
+    self.imgSrc = imgSrc
 end
 
 function FanShiSharePopView:ctor(...)
@@ -18,6 +19,9 @@ end
 
 function FanShiSharePopView:initUI(ui)
     self.super.initUI(self,ui)
+    if self.imgSrc then
+        self._ui.Image_bg:setTexture(self.imgSrc)
+    end
 
     self:timeOut(function()
         local ret = self:shareResult()

@@ -187,7 +187,7 @@ function ChristmasPreView:updateSellInfo()
         end
 
         local x = self.Label_price:getPositionX() - self.Label_price:getContentSize().width/2
-        self.sellImage_icon:setPositionX(x)
+        -- self.sellImage_icon:setPositionX(x)
 
         local isBuyGift = false
         if discountData.buyCount ~= 0 and discountData.buyCount - RechargeDataMgr:getBuyCount(discountData.rechargeCfg.id) <= 0 then

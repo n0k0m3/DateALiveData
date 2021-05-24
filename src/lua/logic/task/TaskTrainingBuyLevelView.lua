@@ -74,25 +74,14 @@ end
 
 function TaskTrainingBuyLevelView:updateRewards()
     local rewards = TaskDataMgr:getLevelRangeRewards(self.curLevel + 1, self.curLevel + self.selectNum)
-    local items = self.ListView_items:getItems()
-    local gap = #rewards - #items
-    if gap > 0 then
-        for i = 1, math.abs(gap) do
-            local item = self.ListView_items:pushBackDefaultItem()
-        end
-    else
-        for i = 1, math.abs(gap) do
-            self.ListView_items:removeItem(1)
-        end
-    end
-
-    local items = self.ListView_items:getItems()
-    for i, item in ipairs(items) do
-        local data = rewards[i]
+    self.ListView_items:AsyncUpdateItem(rewards,function (item,data)
         if data then
             PrefabDataMgr:setInfo(item, data[1], data[2])
         end
-    end
+    end,function ()
+        local item = self.ListView_items:pushBackDefaultItem()
+        return item
+    end)
 end
 
 function TaskTrainingBuyLevelView:stopTimer()

@@ -117,7 +117,7 @@ local t =
 								PositionX = -128,
 								PositionY = 195,
 							},
-							width = "619",
+							width = "595",
 							ZOrder = "1",
 						},
 						{
@@ -163,7 +163,7 @@ local t =
 								PositionX = -137,
 								PositionY = 215,
 							},
-							width = "619",
+							width = "595",
 							ZOrder = "1",
 						},
 						{
@@ -308,7 +308,7 @@ local t =
 										PositionY = -33,
 									},
 									visible = "False",
-									width = "33",
+									width = "36",
 									ZOrder = "1",
 								},
 							},
@@ -430,7 +430,7 @@ local t =
 										PercentX = 8,
 										PercentY = 50,
 									},
-									width = "78",
+									width = "76",
 									ZOrder = "1",
 								},
 								{
@@ -480,7 +480,7 @@ local t =
 										PercentX = 40,
 										PercentY = 50,
 									},
-									width = "283",
+									width = "277",
 									ZOrder = "1",
 								},
 								{
@@ -692,7 +692,7 @@ local t =
 										PercentX = 8,
 										PercentY = 50,
 									},
-									width = "21",
+									width = "25",
 									ZOrder = "1",
 								},
 								{
@@ -742,7 +742,7 @@ local t =
 										PercentX = 40,
 										PercentY = 50,
 									},
-									width = "45",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
@@ -972,7 +972,7 @@ local t =
 										PercentX = 8,
 										PercentY = 50,
 									},
-									width = "46",
+									width = "51",
 									ZOrder = "1",
 								},
 								{
@@ -1099,7 +1099,7 @@ local t =
 										PositionX = 383,
 										PositionY = 36,
 									},
-									width = "64",
+									width = "67",
 									ZOrder = "1",
 								},
 								{
@@ -1145,7 +1145,7 @@ local t =
 										PositionX = 200,
 										PositionY = 23,
 									},
-									width = "113",
+									width = "112",
 									ZOrder = "1",
 								},
 								{
@@ -1191,7 +1191,7 @@ local t =
 										PositionX = 200,
 										PositionY = 23,
 									},
-									width = "25",
+									width = "24",
 									ZOrder = "1",
 								},
 							},
@@ -1363,7 +1363,7 @@ local t =
 										PercentX = 50,
 										PercentY = 50,
 									},
-									width = "90",
+									width = "87",
 									ZOrder = "1",
 								},
 								{
@@ -1551,7 +1551,7 @@ local t =
 										PercentX = 8,
 										PercentY = 50,
 									},
-									width = "166",
+									width = "164",
 									ZOrder = "1",
 								},
 								{

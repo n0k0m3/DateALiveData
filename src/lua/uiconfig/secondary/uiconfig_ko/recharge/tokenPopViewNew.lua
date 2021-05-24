@@ -237,7 +237,7 @@ local t =
 										PositionX = -171,
 										PositionY = 179,
 									},
-									width = "107",
+									width = "100",
 									ZOrder = "1",
 								},
 							},
@@ -714,7 +714,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
+									height = "0",
 									ignoreSize = "True",
 									name = "labShowTip2",
 									nTextAlign = "1",
@@ -723,7 +723,6 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "0",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -731,7 +730,7 @@ local t =
 										PositionX = 217,
 										PositionY = 8,
 									},
-									width = "13",
+									width = "0",
 									ZOrder = "1",
 									components = 
 									{
@@ -1262,7 +1261,7 @@ local t =
 												PositionX = -40,
 											},
 											visible = "False",
-											width = "10",
+											width = "13",
 											ZOrder = "1",
 										},
 									},
@@ -1362,7 +1361,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 									},

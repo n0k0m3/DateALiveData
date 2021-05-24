@@ -107,6 +107,8 @@ function CollectSpriteView:updateInfoPage(filtInfo,filtKey)
 			local skinCfg = CollectDataMgr:getSkinCfg(skinInfo.id)
 			itemCard:getChildByName("Image_skin"):setTexture(skinCfg.skinImg)
 			itemCard:getChildByName("Image_front"):getChildByName("Label_skin"):setTextById(skinCfg.nameTextId)
+
+            CollectDataMgr:addItemTrophy(itemCard, skinInfo.id)
 			itemCard:onClick(function()
 				if CollectDataMgr:getItemClickEnable() == false then
 					return

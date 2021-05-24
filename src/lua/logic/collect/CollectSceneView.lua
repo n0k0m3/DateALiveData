@@ -103,6 +103,7 @@ function CollectSceneView:updateCommonCGPage(filtInfo)
                 Utils:showTips(sceneCfg.unlockHint)
             end)
 
+            CollectDataMgr:addItemTrophy(itemCard, sceneInfo.id)
             itemCard:onClick(function()
                 if not isunclock then
                     return

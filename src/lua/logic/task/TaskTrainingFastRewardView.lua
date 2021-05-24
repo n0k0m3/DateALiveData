@@ -34,26 +34,27 @@ function TaskTrainingFastRewardView:initUI(ui)
     self.ListView_free:setItemsMargin(10)
     self.ListView_charge:setItemsMargin(10)
 
-    self.Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-
     self:refreshUI()
 end
 
 function TaskTrainingFastRewardView:refreshUI()
     local freeRewards = TaskDataMgr:getTrainingCanGetRewards(1)
-    for i, v in ipairs(freeRewards) do
-        local item = self.Panel_goodsItem:clone()
-        PrefabDataMgr:setInfo(item, v[1], v[2])
+    self.ListView_free:AsyncUpdateItem(freeRewards,function ()
+        local item = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
         item:setScale(0.8)
-        self.ListView_free:pushBackCustomItem(item)
-    end
+        return item
+    end,function (item,data)
+        PrefabDataMgr:setInfo(item, data[1], data[2])
+    end)
+
     local chargeRewards = TaskDataMgr:getTrainingCanGetRewards(2)
-    for i, v in ipairs(chargeRewards) do
-        local item = self.Panel_goodsItem:clone()
-        PrefabDataMgr:setInfo(item, v[1], v[2])
+    self.ListView_charge:AsyncUpdateItem(chargeRewards,function ()
+        local item = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
         item:setScale(0.8)
-        self.ListView_charge:pushBackCustomItem(item)
-    end
+        return item
+    end,function (item,data)
+        PrefabDataMgr:setInfo(item, data[1], data[2])
+    end)
 end
 
 function TaskTrainingFastRewardView:registerEvents()

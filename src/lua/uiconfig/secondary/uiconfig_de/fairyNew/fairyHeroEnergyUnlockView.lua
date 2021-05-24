@@ -228,7 +228,7 @@ local t =
 								PercentX = 50,
 								PercentY = 16.72,
 							},
-							width = "123",
+							width = "211",
 							ZOrder = "1",
 						},
 						{
@@ -338,7 +338,7 @@ local t =
 								PositionX = 583,
 								PositionY = 435,
 							},
-							width = "245",
+							width = "486",
 							ZOrder = "1",
 						},
 					},

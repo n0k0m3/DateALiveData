@@ -35,8 +35,10 @@ function StoreActivityView:initUI(ui)
     self.Panel_asset = {}
     for i = 1, 6 do
         local foo = {}
-        if TFDirector:getChildByPath(Panel_resource, "Panel_asset_" .. i) then
-            foo.root = TFDirector:getChildByPath(Panel_resource, "Panel_asset_" .. i):hide()
+        local item = TFDirector:getChildByPath(Panel_resource, "Panel_asset_" .. i)
+        if item then
+            item:hide()
+            foo.root = item
             foo.Image_icon = TFDirector:getChildByPath(foo.root, "Image_icon")
             foo.Image_icon:setSwallowTouch(false)
             foo.Label_count = TFDirector:getChildByPath(foo.root, "Label_count")

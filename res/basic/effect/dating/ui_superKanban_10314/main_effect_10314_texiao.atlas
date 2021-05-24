@@ -1,0 +1,20 @@
+
+main_effect_10314_texiao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/pao1
+  rotate: false
+  xy: 2, 2
+  size: 86, 85
+  orig: 86, 85
+  offset: 0, 0
+  index: -1
+images/pao2
+  rotate: false
+  xy: 2, 89
+  size: 128, 129
+  orig: 128, 129
+  offset: 0, 0
+  index: -1

@@ -487,6 +487,14 @@ return {
         icon = "icon/equipment/suit/icon48.png",
         suitNewPokedex = 1705211,
     },
+    [63] = {
+        combatPower = 120,
+        nameIcon = "icon/equipment/suit/shuangxin.png",
+        id = 63,
+        suitSkill = 20045,
+        icon = "icon/equipment/suit/icon49.png",
+        suitNewPokedex = 1705212,
+    },
     [405] = {
         combatPower = 80,
         nameIcon = "icon/equipment/suit/hanfuchunjie.png",

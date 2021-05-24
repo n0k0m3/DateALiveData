@@ -434,6 +434,20 @@ return {
         coincidenceTime = 10,
         quantityRecovery = 1,
     },
+    [110313] = {
+        restorationCap = 50,
+        fetterList = {
+        },
+        name = 32305,
+        excursion = {
+            [1] = -30,
+            [2] = 0,
+        },
+        describe = 213241,
+        id = 110313,
+        coincidenceTime = 10,
+        quantityRecovery = 1,
+    },
     [113101] = {
         restorationCap = 50,
         fetterList = {

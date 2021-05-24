@@ -70,7 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = -88,
+						PositionX = -58,
+						PositionY = 35,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -188,10 +189,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -298,
-										PositionY = 180,
+										PositionX = -239,
+										PositionY = 183,
 									},
-									width = "217",
+									width = "241",
 									ZOrder = "1",
 								},
 								{
@@ -237,7 +238,8 @@ local t =
 										PositionX = -187,
 										PositionY = 179,
 									},
-									width = "155",
+									visible = "False",
+									width = "140",
 									ZOrder = "1",
 								},
 							},
@@ -592,8 +594,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "labShowTip1",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -607,9 +609,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 217,
-										PositionY = 32,
+										PositionY = 47,
 									},
-									width = "646",
+									width = "400",
 									ZOrder = "1",
 									components = 
 									{
@@ -685,7 +687,7 @@ local t =
 										PositionX = 213,
 										PositionY = 152,
 									},
-									width = "220",
+									width = "203",
 									ZOrder = "1",
 								},
 								{
@@ -980,7 +982,7 @@ local t =
 											{
 												
 											},
-											width = "90",
+											width = "87",
 											ZOrder = "1",
 										},
 									},
@@ -1059,7 +1061,7 @@ local t =
 											{
 												
 											},
-											width = "111",
+											width = "113",
 											ZOrder = "1",
 										},
 									},
@@ -1261,7 +1263,7 @@ local t =
 												PositionX = -40,
 											},
 											visible = "False",
-											width = "10",
+											width = "13",
 											ZOrder = "1",
 										},
 									},
@@ -1361,7 +1363,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 									},
@@ -1396,7 +1398,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 186,
-						PositionY = -487,
+						PositionY = -417,
 						LeftPositon = 186,
 						TopPosition = 727,
 						relativeToName = "Panel",
