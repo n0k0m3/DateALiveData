@@ -2256,7 +2256,7 @@ return {
     },
     [2102022] = {
         sortForMainBgm = 0,
-        soundName = 1702733,
+        soundName = 1701383,
         bgm = "sound/role/zhezhi/ORIGAMI_AST_01.mp3",
         id = 2102022,
         unlockDescribe1 = 1701698,

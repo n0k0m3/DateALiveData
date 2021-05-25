@@ -325,7 +325,7 @@ local t =
 												PositionX = 55,
 												PositionY = 61,
 											},
-											width = "70",
+											width = "73",
 											ZOrder = "1",
 										},
 										{
@@ -363,7 +363,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "每周一、三、五、七开放",
+											text = "每週一、三、五、七開放",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -439,7 +439,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "每周一重置",
+											text = "每週一重置",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -534,7 +534,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "37",
+											height = "34",
 											ignoreSize = "True",
 											name = "lab_bossLv",
 											nTextAlign = "1",
@@ -551,7 +551,7 @@ local t =
 												PositionX = 5,
 												PositionY = -6,
 											},
-											width = "26",
+											width = "18",
 											ZOrder = "1",
 										},
 									},
@@ -630,7 +630,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_worldBossView_1",
 											nTextAlign = "1",
@@ -787,7 +787,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "剩余0天20小时25分结束",
+											text = "剩餘0天20小時25分結束",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -910,7 +910,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "个人伤害奖励",
+													text = "個人傷害獎勵",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1019,7 +1019,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "社团伤害奖励",
+													text = "社團傷害獎勵",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1102,7 +1102,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "社团伤害排名",
+													text = "社團傷害排名",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1177,7 +1177,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "lab_moraleNum",
 											nTextAlign = "1",
@@ -1193,7 +1193,7 @@ local t =
 											{
 												PositionY = -14,
 											},
-											width = "24",
+											width = "16",
 											ZOrder = "1",
 											components = 
 											{
@@ -1233,7 +1233,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "社团士气",
+													text = "社團士氣",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1425,7 +1425,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_worldBossViewArt1",
 											nTextAlign = "1",
@@ -1434,7 +1434,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "挑战说明",
+											text = "挑戰說明",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1610,7 +1610,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "限时10分钟5555555510分钟55",
+											text = "限時10分鐘5555555510分鐘55",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1677,7 +1677,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_worldBossViewArt2",
 											nTextAlign = "1",
@@ -1739,7 +1739,7 @@ local t =
 											{
 												PositionX = 101,
 											},
-											width = "139",
+											width = "148",
 											ZOrder = "1",
 										},
 										{
@@ -1784,7 +1784,7 @@ local t =
 											{
 												PositionX = 156,
 											},
-											width = "14",
+											width = "13",
 											ZOrder = "1",
 										},
 									},
@@ -1881,7 +1881,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "lab_lastChallengeNum",
 											nTextAlign = "1",
@@ -1898,7 +1898,7 @@ local t =
 												PositionX = -1,
 												PositionY = -15,
 											},
-											width = "24",
+											width = "16",
 											ZOrder = "1",
 											components = 
 											{
@@ -2023,7 +2023,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "前往准备",
+											text = "前往準備",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 

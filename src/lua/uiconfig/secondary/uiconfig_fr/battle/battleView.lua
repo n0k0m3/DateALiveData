@@ -7151,11 +7151,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "46",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_endless_victory",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -7169,7 +7169,7 @@ local t =
 												PositionY = 11,
 											},
 											visible = "False",
-											width = "194",
+											width = "260",
 											ZOrder = "1",
 											components = 
 											{
@@ -7193,15 +7193,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "12",
+													fontSize = "13",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "0",
-													ignoreSize = "False",
+													height = "15",
+													ignoreSize = "True",
 													name = "Label_endless_jump",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -7209,15 +7209,15 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Sauter étage",
+													text = "Sauter l'étage",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -40,
+														PositionX = -75,
 														PositionY = 10,
 													},
-													width = "80",
+													width = "112",
 													ZOrder = "1",
 												},
 												{
@@ -7286,7 +7286,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 20,
+														PositionX = -2,
 														PositionY = -10,
 													},
 													width = "146",
@@ -14395,7 +14395,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "获得100%积分",
+													text = "Get 100% points",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -14403,7 +14403,7 @@ local t =
 														PositionX = -57,
 														PositionY = 8,
 													},
-													width = "108",
+													width = "132",
 													ZOrder = "1",
 												},
 											},

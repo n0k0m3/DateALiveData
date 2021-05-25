@@ -53,8 +53,11 @@ function BingKaiBlessView:registerEvents()
             Utils:showTips(63920)
             return  
         end
-        
-        ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityInfo.id, self.itemIds[self.selectIdx], 1)
+        local extendData = {num = 1}
+        local json = require("LuaScript.extends.json")
+        local jsonExtendData = json.encode(extendData)
+        ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityInfo.id, self.itemIds[self.selectIdx], jsonExtendData)
+        --ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityInfo.id, self.itemIds[self.selectIdx], 1)
     end)
 end
 

@@ -1456,7 +1456,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "获得伟业",
+													text = "위업 획득",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1464,7 +1464,7 @@ local t =
 														PositionX = -6,
 														PositionY = 2,
 													},
-													width = "91",
+													width = "85",
 													ZOrder = "1",
 												},
 												{
@@ -1570,7 +1570,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "最终奖励",
+													text = "최종상",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1578,7 +1578,7 @@ local t =
 														PositionX = -6,
 														PositionY = 2,
 													},
-													width = "90",
+													width = "61",
 													ZOrder = "1",
 												},
 												{
@@ -1681,7 +1681,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "最终奖励",
+													text = "최종상",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1689,7 +1689,7 @@ local t =
 														PositionX = -6,
 														PositionY = 2,
 													},
-													width = "90",
+													width = "61",
 													ZOrder = "1",
 												},
 												{
@@ -4395,7 +4395,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "本次得分",
+													text = "이번 득점",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -4403,7 +4403,7 @@ local t =
 														PositionX = 70,
 														PositionY = 3,
 													},
-													width = "99",
+													width = "92",
 													ZOrder = "1",
 												},
 											},
@@ -4471,14 +4471,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "历史最佳",
+													text = "역대 최고",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = 65,
 													},
-													width = "99",
+													width = "92",
 													ZOrder = "1",
 												},
 											},
@@ -4546,14 +4546,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "最高积分",
+													text = "최고 포인트",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = 69,
 													},
-													width = "99",
+													width = "113",
 													ZOrder = "1",
 												},
 											},
@@ -4761,7 +4761,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "造成伤害",
+											text = "입힌 피해",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -4772,7 +4772,7 @@ local t =
 												TopPosition = -22,
 												relativeToName = "Panel",
 											},
-											width = "100",
+											width = "92",
 											ZOrder = "1",
 										},
 										{
@@ -6994,7 +6994,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "通关队伍中包含火焰属性和雷达属性伤害的精灵",
+									text = "클리어 파티 내 화염 및 뇌전 피해 캐릭터 포함",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -7515,7 +7515,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "华伦出战",
+									text = "발렌 출전",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -7523,7 +7523,7 @@ local t =
 										PositionX = 222,
 										PositionY = 20,
 									},
-									width = "90",
+									width = "84",
 									ZOrder = "1",
 								},
 								{

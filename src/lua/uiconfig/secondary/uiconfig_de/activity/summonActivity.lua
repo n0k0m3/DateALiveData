@@ -283,7 +283,7 @@ local t =
 						PositionX = -376,
 						PositionY = -187,
 					},
-					width = "129",
+					width = "145",
 					ZOrder = "10",
 				},
 				{
@@ -329,7 +329,7 @@ local t =
 						PositionX = -434,
 						PositionY = 252,
 					},
-					width = "81",
+					width = "82",
 					ZOrder = "1",
 				},
 				{
@@ -503,8 +503,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 95,
-						PositionY = -229,
+						PositionX = 65,
+						PositionY = -227,
 					},
 					uipanelviewmodel = 
 					{
@@ -522,14 +522,14 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEButton",
 							ClickHighLightEnabled = "True",
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
 							height = "88",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Button_one",
 							normal = "ui/agora/summon/btn_blue.png",
 							scaleX = "0.8",
@@ -544,7 +544,7 @@ local t =
 								PositionY = 11,
 							},
 							UItype = "Button",
-							width = "268",
+							width = "286",
 							ZOrder = "1",
 						},
 						{
@@ -568,7 +568,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -72,
+								PositionX = -81,
 								PositionY = 13,
 							},
 							width = "64",
@@ -614,10 +614,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -49,
+								PositionX = -58,
 								PositionY = 11,
 							},
-							width = "28",
+							width = "27",
 							ZOrder = "1",
 						},
 						{
@@ -663,7 +663,7 @@ local t =
 								PositionX = 44,
 								PositionY = 11,
 							},
-							width = "112",
+							width = "130",
 							ZOrder = "1",
 						},
 					},
@@ -693,7 +693,7 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 324,
+						PositionX = 307,
 						PositionY = -227,
 					},
 					uipanelviewmodel = 
@@ -712,14 +712,14 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEButton",
 							ClickHighLightEnabled = "True",
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
 							height = "88",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Button_ten",
 							normal = "ui/agora/summon/btn_red.png",
 							scaleX = "0.8",
@@ -734,7 +734,7 @@ local t =
 								PositionY = 11,
 							},
 							UItype = "Button",
-							width = "268",
+							width = "302",
 							ZOrder = "1",
 						},
 						{
@@ -759,8 +759,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -73,
-								PositionY = 4,
+								PositionX = -91,
+								PositionY = 6,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -805,10 +805,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -49,
-								PositionY = 6,
+								PositionX = -67,
+								PositionY = 8,
 							},
-							width = "28",
+							width = "27",
 							ZOrder = "1",
 						},
 						{
@@ -854,7 +854,7 @@ local t =
 								PositionX = 42,
 								PositionY = 7,
 							},
-							width = "112",
+							width = "125",
 							ZOrder = "1",
 						},
 					},
@@ -1004,7 +1004,7 @@ local t =
 								PositionX = 37,
 								PositionY = -2,
 							},
-							width = "129",
+							width = "145",
 							ZOrder = "1",
 						},
 					},

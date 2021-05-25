@@ -145,7 +145,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -154,7 +154,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "作战奖励 l",
+									text = "作戰獎勵 |",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -208,7 +208,7 @@ local t =
 										PositionX = -238,
 										PositionY = 175,
 									},
-									width = "58",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
@@ -396,7 +396,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "个人伤害奖励",
+													text = "個人傷害獎勵",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -500,7 +500,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "社团伤害奖励",
+													text = "社團傷害獎勵",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -692,7 +692,7 @@ local t =
 												PositionX = 131,
 												PositionY = -220,
 											},
-											width = "40",
+											width = "43",
 											ZOrder = "1",
 											components = 
 											{
@@ -732,7 +732,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "单次挑战最高伤害：",
+													text = "單次挑戰最高傷害：",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -786,7 +786,7 @@ local t =
 														PositionX = -205,
 														PositionY = 3,
 													},
-													width = "36",
+													width = "40",
 													ZOrder = "1",
 												},
 											},
@@ -921,7 +921,7 @@ local t =
 												PositionX = 95,
 												PositionY = -64,
 											},
-											width = "92",
+											width = "90",
 											ZOrder = "1",
 										},
 										{
@@ -1297,7 +1297,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "个人伤害达到",
+									text = "個人傷害達到",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1334,7 +1334,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "lab_num",
 									nTextAlign = "1",
@@ -1351,7 +1351,7 @@ local t =
 										PositionX = -271,
 										PositionY = -2,
 									},
-									width = "56",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
@@ -1682,7 +1682,7 @@ local t =
 										StrokeColor = "#FF000000",
 										StrokeSize = 1,
 									},
-									height = "29",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_rank",
 									nTextAlign = "1",
@@ -1729,7 +1729,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_worldBossRankAwardView_1",
 									nTextAlign = "1",
@@ -1738,7 +1738,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "名次奖励",
+									text = "名次獎勵",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1746,7 +1746,7 @@ local t =
 										PositionX = -89,
 										PositionY = -17,
 									},
-									width = "83",
+									width = "82",
 									ZOrder = "1",
 								},
 								{

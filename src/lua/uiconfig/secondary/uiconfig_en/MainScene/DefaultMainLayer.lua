@@ -3664,7 +3664,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "112",
+											height = "128",
 											ignoreSize = "True",
 											name = "Button_Activity5",
 											normal = "ui/mainLayer/new_ui/a4.png",
@@ -3682,7 +3682,7 @@ local t =
 												relativeToName = "Panel",
 											},
 											UItype = "Button",
-											width = "196",
+											width = "226",
 											ZOrder = "1",
 											components = 
 											{
@@ -5620,6 +5620,7 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
+											visible = "False",
 											width = "400",
 											ZOrder = "1",
 											components = 
@@ -5645,8 +5646,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 139,
-														PositionY = 159,
+														PositionY = 30,
 													},
 													width = "122",
 													ZOrder = "1",
@@ -5671,8 +5671,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 91,
-														PositionY = -75,
+														
 													},
 													width = "126",
 													ZOrder = "1",

@@ -1506,20 +1506,21 @@ function FairyDetailsLayer:updateEquipSuitLayer()
                 end
             end
 			local equipCfg = EquipmentDataMgr:getNewEquipCfg(euipMent.cid)
-			local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(euipMent.cid)
+			--local equipInfo = EquipmentDataMgr:getNewEquipInfoById(euipMent.cid)
 			local level, stage
 			if self.isFriend then
 				level = euipMent.level
 				stage = euipMent.stage
 			else
-				level = equipInfo and equipInfo.level or 1
-				stage = equipInfo and equipInfo.stage or 1
+				level = euipMent and euipMent.level or 1
+				stage = euipMent and euipMent.stage or 1
 			end
 			foo.Panel_info:setVisible(true)
 			foo.Image_icon:setScale(0.7)
 			foo.Image_icon:setTexture(equipCfg.icon)
 			foo.Image_quality:setTexture(EquipmentDataMgr:getNewEquipQualityIcon(equipCfg.quality))
 			foo.Label_level:setText(tostring(level))
+
 			local maxStar = EquipmentDataMgr:getNewEquipMaxStar(euipMent.cid)
 			local posArrar = EquipmentDataMgr:getNewEquipStarPosArrar(maxStar)
 			for j,v in ipairs(foo.stars) do

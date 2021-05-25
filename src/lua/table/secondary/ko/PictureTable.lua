@@ -6204,4 +6204,14 @@ return {
         res = "ui/setting/new/bg8.png",
         res_en = "ui/setting/new/bg8_ko.png",
     },
+    [1242] = {
+        id = 1242,
+        res = "ui/activity/activity_bg/jumpbg7.png",
+        res_en = "ui/activity/activity_bg/jumpbg7_ko.png",
+    },
+    [1243] = {
+        id = 1243,
+        res = "icon/hero/frame/570293.png",
+        res_en = "icon/hero/frame/570293_ko.png",
+    },
 }

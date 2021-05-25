@@ -1208,7 +1208,7 @@ return {
         type = 0,
     },
     [410401] = {
-        rolePath = "modle/bust/bust_10401_new",
+        rolePath = "modle/bust/bust_10401_new1",
         name = "狂三-灵装（剧情用）",
         id = 410401,
         isCloseTouchFollow = false,

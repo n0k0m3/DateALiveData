@@ -183,7 +183,7 @@ local t =
 											controlID = "Label_title_Image_open_time_Panel_level_sel_Panel_root_Panel-teamLevelSelView_Layer1_teamFight_Game",
 											UUID = "ef1959f8_bc6b_43ad_9683_6bd2de20f86e",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -205,7 +205,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "37",
+											height = "34",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -219,10 +219,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -28,
+												PositionX = -109,
 												PositionY = -4,
 											},
-											width = "148",
+											width = "133",
 											ZOrder = "1",
 										},
 										{
@@ -265,11 +265,11 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 72,
-												PositionY = -5,
+												PositionX = 45,
+												PositionY = -35,
 											},
-											width = "196",
-											ZOrder = "1",
+											width = "193",
+											ZOrder = "100",
 										},
 									},
 								},
@@ -618,7 +618,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "37",
+											height = "34",
 											ignoreSize = "True",
 											name = "Label_level_name",
 											nTextAlign = "1",
@@ -734,7 +734,7 @@ local t =
 													{
 														PositionX = -4,
 													},
-													width = "26",
+													width = "25",
 													ZOrder = "1",
 												},
 											},
@@ -764,7 +764,7 @@ local t =
 												StrokeSize = 1,
 											},
 											hAlignment = "0",
-											height = "130",
+											height = "0",
 											ignoreSize = "False",
 											name = "TextArea_desc",
 											sizepercentx = "0",
@@ -789,14 +789,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
 											height = "58",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_enter",
 											normal = "ui/onlineteam/btn_red.png",
 											sizepercentx = "0",
@@ -806,11 +806,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = -78,
+												PositionX = -119,
 												PositionY = 40,
 											},
 											UItype = "Button",
-											width = "134",
+											width = "196",
 											ZOrder = "1",
 											components = 
 											{
@@ -887,7 +887,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -275,
+												PositionX = -350,
 											},
 											uipanelviewmodel = 
 											{
@@ -968,7 +968,7 @@ local t =
 														PositionX = 2,
 														PositionY = 34,
 													},
-													width = "59",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -1032,7 +1032,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "消耗",
+													text = "Cost",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1040,7 +1040,7 @@ local t =
 														PositionX = 90,
 														PositionY = 25,
 													},
-													width = "43",
+													width = "39",
 													ZOrder = "1",
 												},
 											},
@@ -1162,7 +1162,7 @@ local t =
 														PositionX = -25,
 														PositionY = -2,
 													},
-													width = "38",
+													width = "37",
 													ZOrder = "1",
 												},
 												{
@@ -1388,7 +1388,7 @@ local t =
 														PositionX = 95,
 														PositionY = -45,
 													},
-													width = "117",
+													width = "116",
 													ZOrder = "1",
 												},
 											},

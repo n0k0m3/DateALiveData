@@ -38,6 +38,9 @@ function BingKaiTaskView:initUI(ui)
     end
 
     self:updataListView()
+
+    self._ui.btn_share:hide()
+    self._ui.lab_tip:hide()
 end
 
 function BingKaiTaskView:addTaskItem()
@@ -112,7 +115,7 @@ function BingKaiTaskView:updateItem(item, data)
     item.img_complete:setVisible(progressInfo.status == EC_TaskStatus.GETED)
     item.lab_complets:setVisible(progressInfo.status == EC_TaskStatus.GETED)
     item.Label_progress:setTextById(800005, progressInfo.progress, data.target)
-    item.Label_desc:setText(extCfg.des2)
+    item.Label_desc:setTextById(extCfg.des2, data.target)
     item.Button_goto:setVisible(extCfg.jumpInterface and extCfg.jumpInterface ~= 0 and progressInfo.status == EC_TaskStatus.ING)
     item.Button_receive:setVisible(progressInfo.status == EC_TaskStatus.GET)
 
@@ -153,15 +156,16 @@ function BingKaiTaskView:updateItem(item, data)
 end
 
 function BingKaiTaskView:registerEvents()
-    local shareClick = false
-    self._ui.btn_share:onClick(function()
-        if not shareClick then
-            self:timeOut(function()
-                Utils:openView("activity.fanShi.FanShiSharePopView", self.activityId, "ui/activity/bingKai/share.png")
-                shareClick = false
-            end, 0.2)
-        end
-    end)
+    --TODO CLOSE
+    -- local shareClick = false
+    -- self._ui.btn_share:onClick(function()
+    --     if not shareClick then
+    --         self:timeOut(function()
+    --             Utils:openView("activity.fanShi.FanShiSharePopView", self.activityId, "ui/activity/bingKai/share.png")
+    --             shareClick = false
+    --         end, 0.2)
+    --     end
+    -- end)
     EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(self.onUpdateProgressEvent, self))
 end
 

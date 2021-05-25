@@ -482,6 +482,8 @@ local t =
 									name = "label_1",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -493,7 +495,7 @@ local t =
 									{
 										PositionY = 191,
 									},
-									width = "180",
+									width = "174",
 									ZOrder = "1",
 								},
 								{
@@ -515,18 +517,20 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -538,8 +542,8 @@ local t =
 									{
 										PositionY = 147,
 									},
-									width = "54",
-									ZOrder = "1",
+									width = "318",
+									ZOrder = "100",
 								},
 								{
 									controlID = "label_time_panel_item_panel_prefab_Panel-HuntingInvitationView_entrance_osd_Game",

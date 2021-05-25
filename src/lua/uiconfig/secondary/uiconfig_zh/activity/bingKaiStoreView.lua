@@ -301,7 +301,7 @@ local t =
 													{
 														PositionX = 47,
 													},
-													width = "71",
+													width = "74",
 													ZOrder = "1",
 												},
 											},
@@ -413,7 +413,7 @@ local t =
 													{
 														PositionX = 47,
 													},
-													width = "71",
+													width = "74",
 													ZOrder = "1",
 												},
 												{
@@ -550,7 +550,7 @@ local t =
 													{
 														PositionX = 47,
 													},
-													width = "71",
+													width = "74",
 													ZOrder = "1",
 												},
 												{
@@ -687,7 +687,7 @@ local t =
 													{
 														PositionX = 47,
 													},
-													width = "71",
+													width = "74",
 													ZOrder = "1",
 												},
 												{
@@ -824,7 +824,7 @@ local t =
 													{
 														PositionX = 47,
 													},
-													width = "71",
+													width = "74",
 													ZOrder = "1",
 												},
 												{
@@ -961,7 +961,7 @@ local t =
 													{
 														PositionX = 47,
 													},
-													width = "71",
+													width = "74",
 													ZOrder = "1",
 												},
 												{
@@ -1127,7 +1127,7 @@ local t =
 								StrokeColor = "#FF3370C4",
 								StrokeSize = 2,
 							},
-							height = "31",
+							height = "29",
 							ignoreSize = "True",
 							name = "act_time",
 							nTextAlign = "1",
@@ -1137,7 +1137,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "活动时间",
+							text = "活動時間",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -1203,7 +1203,7 @@ local t =
 										StrokeColor = "#FF3370C4",
 										StrokeSize = 2,
 									},
-									height = "26",
+									height = "25",
 									ignoreSize = "True",
 									name = "act_timeStart",
 									nTextAlign = "1",
@@ -1221,7 +1221,7 @@ local t =
 										PositionX = -66,
 										PositionY = -24,
 									},
-									width = "120",
+									width = "85",
 									ZOrder = "1",
 								},
 								{
@@ -1250,7 +1250,7 @@ local t =
 										StrokeColor = "#FF3370C4",
 										StrokeSize = 2,
 									},
-									height = "26",
+									height = "25",
 									ignoreSize = "True",
 									name = "act_timeEnd",
 									nTextAlign = "1",
@@ -1268,7 +1268,7 @@ local t =
 										PositionX = -85,
 										PositionY = -46,
 									},
-									width = "120",
+									width = "85",
 									ZOrder = "1",
 								},
 							},
@@ -1624,7 +1624,7 @@ local t =
 											{
 												PositionY = -13,
 											},
-											width = "153",
+											width = "157",
 											ZOrder = "1",
 										},
 									},
@@ -1749,7 +1749,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -1766,7 +1766,7 @@ local t =
 												PositionX = 139,
 												PositionY = 53,
 											},
-											width = "172",
+											width = "171",
 											ZOrder = "1",
 										},
 										{
@@ -2076,7 +2076,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "48",
+													width = "47",
 													ZOrder = "1",
 												},
 												{
@@ -2127,7 +2127,7 @@ local t =
 														nAlign = 4
 													},
 													visible = "False",
-													width = "63",
+													width = "62",
 													ZOrder = "1",
 												},
 											},
@@ -2205,7 +2205,7 @@ local t =
 												PositionX = -78,
 												PositionY = -5,
 											},
-											width = "117",
+											width = "121",
 											ZOrder = "1",
 										},
 									},

@@ -1,7 +1,7 @@
 return {
     [504] = {
         qualityIcon = "ui/common/hero/quality_s.png",
-        describe3 = "「額外條件」3名評級SSS以上精靈，包含反轉折紙，總戰力≥180000",
+        describe3 = "「額外條件」3名評級SSS以上精靈，包含萬由里，總戰力≥18000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -13,23 +13,23 @@ return {
         },
         describe2 = "「強制條件」3名評級SS以上精靈，包含萬由里",
         extAwardShow = {
-            [651016] = 1,
+            [651014] = 1,
         },
         icon = "ui/explore/growup/command/task/SS.png",
         quality = 5,
         fastFinishCost = {
             [500002] = 200,
         },
-        extAward = 1108,
+        extAward = 1106,
         id = 504,
         award = 1005,
         extCondition = {
-            totalFightingPower = 180000,
+            totalFightingPower = 18000,
             heroQualityAndCount = {
                 [6] = 3,
             },
             targetQuality = {
-                [110210] = 2,
+                [112001] = 2,
             },
         },
         name = 13313054,
@@ -43,17 +43,17 @@ return {
     },
     [512] = {
         qualityIcon = "ui/common/hero/quality_s.png",
-        describe3 = "「額外條件」3名評級SSS以上精靈，包含萬由里，總戰力≥180000",
+        describe3 = "「額外條件」3名評級SSS以上精靈，包含萬由里，總戰力≥18000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
                 [5] = 3,
             },
             targetQuality = {
-                [110210] = 2,
+                [112001] = 2,
             },
         },
-        describe2 = "「強制條件」3名評級SS以上精靈，包含反轉折紙",
+        describe2 = "「強制條件」3名評級SS以上精靈，包含萬由里",
         extAwardShow = {
             [651015] = 1,
         },
@@ -66,7 +66,7 @@ return {
         id = 512,
         award = 1005,
         extCondition = {
-            totalFightingPower = 180000,
+            totalFightingPower = 18000,
             heroQualityAndCount = {
                 [6] = 3,
             },
@@ -85,7 +85,7 @@ return {
     },
     [401] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含狂三，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含狂三，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -108,7 +108,7 @@ return {
         id = 401,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -127,7 +127,7 @@ return {
     },
     [405] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含DEM折紙，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含DEM折紙，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -150,7 +150,7 @@ return {
         id = 405,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -169,7 +169,7 @@ return {
     },
     [413] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含艾蓮，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含艾倫，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -192,7 +192,7 @@ return {
         id = 413,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -211,7 +211,7 @@ return {
     },
     [417] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含強化十香，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含強化十香，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -234,7 +234,7 @@ return {
         id = 417,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -253,7 +253,7 @@ return {
     },
     [421] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含狂三，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含狂三，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -276,7 +276,7 @@ return {
         id = 421,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -295,7 +295,7 @@ return {
     },
     [425] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含DEM折紙，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含DEM折紙，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -318,7 +318,7 @@ return {
         id = 425,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -337,7 +337,7 @@ return {
     },
     [302] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含琴里，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含琴里，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -360,7 +360,7 @@ return {
         id = 302,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -379,7 +379,7 @@ return {
     },
     [306] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含萬由里，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含萬由里，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -402,7 +402,7 @@ return {
         id = 306,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -421,7 +421,7 @@ return {
     },
     [314] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含七罪，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含七罪，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -444,7 +444,7 @@ return {
         id = 314,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -463,7 +463,7 @@ return {
     },
     [322] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含琴里，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含琴里，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -486,7 +486,7 @@ return {
         id = 322,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -505,7 +505,7 @@ return {
     },
     [326] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含萬由里，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含萬由里，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -528,7 +528,7 @@ return {
         id = 326,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -572,11 +572,11 @@ return {
         awardShow = {
             [1601523] = 10,
         },
-        describe1 = "從敵艦繳獲的寶箱有極為複雜的密碼鎖保護，需要幾名艦員解鎖。",
+        describe1 = "從敵艦繳獲的寶箱有極為複雜的密碼鎖保護，需要幾名艦員解鎖",
     },
     [501] = {
         qualityIcon = "ui/common/hero/quality_s.png",
-        describe3 = "「額外條件」3名評級SSS以上精靈，包含強化十香，總戰力≥180000",
+        describe3 = "「額外條件」3名評級SSS以上精靈，包含強化十香，總戰力≥18000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -599,7 +599,7 @@ return {
         id = 501,
         award = 1005,
         extCondition = {
-            totalFightingPower = 180000,
+            totalFightingPower = 18000,
             heroQualityAndCount = {
                 [6] = 3,
             },
@@ -618,7 +618,49 @@ return {
     },
     [514] = {
         qualityIcon = "ui/common/hero/quality_s.png",
-        describe3 = "「額外條件」3名評級SSS以上精靈，包含反轉折紙，總戰力≥180000",
+        describe3 = "「額外條件」3名評級SSS以上精靈，包含萬由里，總戰力≥18000",
+        bigAwardRate = 3000,
+        condition = {
+            heroQualityAndCount = {
+                [5] = 3,
+            },
+            targetQuality = {
+                [112001] = 2,
+            },
+        },
+        describe2 = "「強制條件」3名評級SS以上精靈，包含萬由里",
+        extAwardShow = {
+            [651015] = 1,
+        },
+        icon = "ui/explore/growup/command/task/SS.png",
+        quality = 5,
+        fastFinishCost = {
+            [500002] = 200,
+        },
+        extAward = 1107,
+        id = 514,
+        award = 1005,
+        extCondition = {
+            totalFightingPower = 18000,
+            heroQualityAndCount = {
+                [6] = 3,
+            },
+            targetQuality = {
+                [112001] = 2,
+            },
+        },
+        name = 13313054,
+        costTime = 18000,
+        awardShow = {
+            [651012] = 1,
+            [651011] = 1,
+            [651010] = 1,
+        },
+        describe1 = "文明內爆發大規模暴動，琴里需要人手協助鎮壓暴動，保護平民。",
+    },
+    [522] = {
+        qualityIcon = "ui/common/hero/quality_s.png",
+        describe3 = "「額外條件」3名評級SSS以上精靈，包含萬由里，總戰力≥18000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -638,52 +680,10 @@ return {
             [500002] = 200,
         },
         extAward = 1108,
-        id = 514,
-        award = 1005,
-        extCondition = {
-            totalFightingPower = 180000,
-            heroQualityAndCount = {
-                [6] = 3,
-            },
-            targetQuality = {
-                [110210] = 2,
-            },
-        },
-        name = 13313054,
-        costTime = 18000,
-        awardShow = {
-            [651012] = 1,
-            [651011] = 1,
-            [651010] = 1,
-        },
-        describe1 = "文明內爆發大規模暴動，琴里需要人手協助鎮壓暴動，保護平民。",
-    },
-    [522] = {
-        qualityIcon = "ui/common/hero/quality_s.png",
-        describe3 = "「額外條件」3名評級SSS以上精靈，包含萬由里，總戰力≥180000",
-        bigAwardRate = 3000,
-        condition = {
-            heroQualityAndCount = {
-                [5] = 3,
-            },
-            targetQuality = {
-                [110210] = 2,
-            },
-        },
-        describe2 = "「強制條件」3名評級SS以上精靈，包含反轉折紙",
-        extAwardShow = {
-            [651015] = 1,
-        },
-        icon = "ui/explore/growup/command/task/SS.png",
-        quality = 5,
-        fastFinishCost = {
-            [500002] = 200,
-        },
-        extAward = 1107,
         id = 522,
         award = 1005,
         extCondition = {
-            totalFightingPower = 180000,
+            totalFightingPower = 18000,
             heroQualityAndCount = {
                 [6] = 3,
             },
@@ -702,7 +702,7 @@ return {
     },
     [402] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含琴里，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含琴里，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -725,7 +725,7 @@ return {
         id = 402,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -806,7 +806,7 @@ return {
     },
     [414] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含七罪，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含七罪，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -829,7 +829,7 @@ return {
         id = 414,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -848,7 +848,7 @@ return {
     },
     [418] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含強化四糸乃，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含強化四糸乃，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -871,7 +871,7 @@ return {
         id = 418,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -890,7 +890,7 @@ return {
     },
     [422] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含琴里，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含琴里，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -913,7 +913,7 @@ return {
         id = 422,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -932,7 +932,7 @@ return {
     },
     [426] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含狂三，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含狂三，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -955,7 +955,7 @@ return {
         id = 426,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -974,7 +974,7 @@ return {
     },
     [303] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含艾蓮，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含艾倫，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -997,7 +997,7 @@ return {
         id = 303,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -1016,7 +1016,7 @@ return {
     },
     [311] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含狂三，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含狂三，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1039,7 +1039,7 @@ return {
         id = 311,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -1058,7 +1058,7 @@ return {
     },
     [315] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含DEM折紙，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含DEM折紙，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1081,7 +1081,7 @@ return {
         id = 315,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -1100,7 +1100,7 @@ return {
     },
     [323] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含艾蓮，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含艾倫，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1123,7 +1123,7 @@ return {
         id = 323,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -1142,7 +1142,7 @@ return {
     },
     [523] = {
         qualityIcon = "ui/common/hero/quality_s.png",
-        describe3 = "「額外條件」3名評級SSS以上精靈，包含反轉十香，總戰力≥180000",
+        describe3 = "「額外條件」3名評級SSS以上精靈，包含反轉十香，總戰力≥18000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1165,7 +1165,7 @@ return {
         id = 523,
         award = 1005,
         extCondition = {
-            totalFightingPower = 180000,
+            totalFightingPower = 18000,
             heroQualityAndCount = {
                 [6] = 3,
             },
@@ -1184,17 +1184,17 @@ return {
     },
     [502] = {
         qualityIcon = "ui/common/hero/quality_s.png",
-        describe3 = "「額外條件」3名評級SSS以上精靈，包含萬由里，總戰力≥180000",
+        describe3 = "「額外條件」3名評級SSS以上精靈，包含萬由里，總戰力≥18000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
                 [5] = 3,
             },
             targetQuality = {
-                [110210] = 2,
+                [112001] = 2,
             },
         },
-        describe2 = "「強制條件」3名評級SS以上精靈，包含反轉折紙",
+        describe2 = "「強制條件」3名評級SS以上精靈，包含萬由里",
         extAwardShow = {
             [651014] = 1,
         },
@@ -1207,7 +1207,7 @@ return {
         id = 502,
         award = 1005,
         extCondition = {
-            totalFightingPower = 180000,
+            totalFightingPower = 18000,
             heroQualityAndCount = {
                 [6] = 3,
             },
@@ -1226,7 +1226,7 @@ return {
     },
     [524] = {
         qualityIcon = "ui/common/hero/quality_s.png",
-        describe3 = "「額外條件」3名評級SSS以上精靈，包含反轉折紙，總戰力≥180000",
+        describe3 = "「額外條件」3名評級SSS以上精靈，包含萬由里，總戰力≥18000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1249,12 +1249,12 @@ return {
         id = 524,
         award = 1005,
         extCondition = {
-            totalFightingPower = 180000,
+            totalFightingPower = 18000,
             heroQualityAndCount = {
                 [6] = 3,
             },
             targetQuality = {
-                [110210] = 2,
+                [112001] = 2,
             },
         },
         name = 13313054,
@@ -1268,7 +1268,7 @@ return {
     },
     [403] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含艾蓮，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含艾倫，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1291,7 +1291,7 @@ return {
         id = 403,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -1310,7 +1310,7 @@ return {
     },
     [407] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含強化十香，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含強化十香，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1333,7 +1333,7 @@ return {
         id = 407,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -1352,7 +1352,7 @@ return {
     },
     [411] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含狂三，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含狂三，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1375,7 +1375,7 @@ return {
         id = 411,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -1394,7 +1394,7 @@ return {
     },
     [415] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含DEM折紙，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含DEM折紙，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1417,7 +1417,7 @@ return {
         id = 415,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -1436,7 +1436,7 @@ return {
     },
     [423] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含艾蓮，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含艾倫，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1459,7 +1459,7 @@ return {
         id = 423,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -1478,7 +1478,7 @@ return {
     },
     [427] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含強化十香，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含強化十香，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1501,7 +1501,7 @@ return {
         id = 427,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -1520,7 +1520,7 @@ return {
     },
     [304] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含七罪，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含七罪，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1543,7 +1543,7 @@ return {
         id = 304,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -1562,7 +1562,7 @@ return {
     },
     [312] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含琴里，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含琴里，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1585,7 +1585,7 @@ return {
         id = 312,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -1604,7 +1604,7 @@ return {
     },
     [316] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含萬由里，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含萬由里，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1627,7 +1627,7 @@ return {
         id = 316,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -1646,7 +1646,7 @@ return {
     },
     [324] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含七罪，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含七罪，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1669,7 +1669,7 @@ return {
         id = 324,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -1688,7 +1688,7 @@ return {
     },
     [503] = {
         qualityIcon = "ui/common/hero/quality_s.png",
-        describe3 = "「額外條件」3名評級SSS以上精靈，包含反轉十香，總戰力≥180000",
+        describe3 = "「額外條件」3名評級SSS以上精靈，包含反轉十香，總戰力≥18000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1700,18 +1700,18 @@ return {
         },
         describe2 = "「強制條件」3名評級SS以上精靈，包含強化狂三",
         extAwardShow = {
-            [651015] = 1,
+            [651014] = 1,
         },
         icon = "ui/explore/growup/command/task/SS.png",
         quality = 5,
         fastFinishCost = {
             [500002] = 200,
         },
-        extAward = 1107,
+        extAward = 1106,
         id = 503,
         award = 1005,
         extCondition = {
-            totalFightingPower = 180000,
+            totalFightingPower = 18000,
             heroQualityAndCount = {
                 [6] = 3,
             },
@@ -1730,7 +1730,7 @@ return {
     },
     [511] = {
         qualityIcon = "ui/common/hero/quality_s.png",
-        describe3 = "「額外條件」3名評級SSS以上精靈，包含強化十香，總戰力≥180000",
+        describe3 = "「額外條件」3名評級SSS以上精靈，包含強化十香，總戰力≥18000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1742,18 +1742,18 @@ return {
         },
         describe2 = "「強制條件」3名評級SS以上精靈，包含反轉十香",
         extAwardShow = {
-            [651014] = 1,
+            [651015] = 1,
         },
         icon = "ui/explore/growup/command/task/SS.png",
         quality = 5,
         fastFinishCost = {
             [500002] = 200,
         },
-        extAward = 1106,
+        extAward = 1107,
         id = 511,
         award = 1005,
         extCondition = {
-            totalFightingPower = 180000,
+            totalFightingPower = 18000,
             heroQualityAndCount = {
                 [6] = 3,
             },
@@ -1772,7 +1772,7 @@ return {
     },
     [408] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含強化四糸乃，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含強化四糸乃，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1795,7 +1795,7 @@ return {
         id = 408,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -1814,7 +1814,7 @@ return {
     },
     [513] = {
         qualityIcon = "ui/common/hero/quality_s.png",
-        describe3 = "「額外條件」3名評級SSS以上精靈，包含反轉十香，總戰力≥180000",
+        describe3 = "「額外條件」3名評級SSS以上精靈，包含反轉十香，總戰力≥18000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1837,7 +1837,7 @@ return {
         id = 513,
         award = 1005,
         extCondition = {
-            totalFightingPower = 180000,
+            totalFightingPower = 18000,
             heroQualityAndCount = {
                 [6] = 3,
             },
@@ -1856,7 +1856,7 @@ return {
     },
     [301] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含狂三，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含狂三，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -1879,7 +1879,7 @@ return {
         id = 301,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -1991,7 +1991,7 @@ return {
     },
     [412] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含琴里，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含琴里，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -2014,7 +2014,7 @@ return {
         id = 412,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -2095,7 +2095,7 @@ return {
     },
     [424] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含七罪，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含七罪，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -2118,7 +2118,7 @@ return {
         id = 424,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -2137,7 +2137,7 @@ return {
     },
     [428] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含強化四糸乃，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含強化四糸乃，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -2160,7 +2160,7 @@ return {
         id = 428,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -2179,7 +2179,7 @@ return {
     },
     [305] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含DEM折紙，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含DEM折紙，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -2202,7 +2202,7 @@ return {
         id = 305,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -2221,7 +2221,7 @@ return {
     },
     [521] = {
         qualityIcon = "ui/common/hero/quality_s.png",
-        describe3 = "「額外條件」3名評級SSS以上精靈，包含強化十香，總戰力≥180000",
+        describe3 = "「額外條件」3名評級SSS以上精靈，包含強化十香，總戰力≥18000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -2233,18 +2233,18 @@ return {
         },
         describe2 = "「強制條件」3名評級SS以上精靈，包含反轉十香",
         extAwardShow = {
-            [651014] = 1,
+            [651016] = 1,
         },
         icon = "ui/explore/growup/command/task/SS.png",
         quality = 5,
         fastFinishCost = {
             [500002] = 200,
         },
-        extAward = 1106,
+        extAward = 1108,
         id = 521,
         award = 1005,
         extCondition = {
-            totalFightingPower = 180000,
+            totalFightingPower = 18000,
             heroQualityAndCount = {
                 [6] = 3,
             },
@@ -2263,7 +2263,7 @@ return {
     },
     [313] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含艾蓮，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含艾倫，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -2286,7 +2286,7 @@ return {
         id = 313,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -2305,7 +2305,7 @@ return {
     },
     [404] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含七罪，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含七罪，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -2328,7 +2328,7 @@ return {
         id = 404,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -2347,7 +2347,7 @@ return {
     },
     [321] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含狂三，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含狂三，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -2370,7 +2370,7 @@ return {
         id = 321,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -2389,7 +2389,7 @@ return {
     },
     [325] = {
         qualityIcon = "ui/common/hero/quality_a.png",
-        describe3 = "「額外條件」3名評級S以上精靈，包含DEM折紙，總戰力≥100000",
+        describe3 = "「額外條件」3名評級S以上精靈，包含DEM折紙，總戰力≥10000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -2412,7 +2412,7 @@ return {
         id = 325,
         award = 1003,
         extCondition = {
-            totalFightingPower = 100000,
+            totalFightingPower = 10000,
             heroQualityAndCount = {
                 [4] = 3,
             },
@@ -2431,7 +2431,7 @@ return {
     },
     [416] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含狂三，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含狂三，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -2454,7 +2454,7 @@ return {
         id = 416,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },
@@ -2473,7 +2473,7 @@ return {
     },
     [406] = {
         qualityIcon = "ui/common/hero/quality_aaa.png",
-        describe3 = "「額外條件」3名評級SS以上精靈，包含狂三，總戰力≥150000",
+        describe3 = "「額外條件」3名評級SS以上精靈，包含狂三，總戰力≥15000",
         bigAwardRate = 3000,
         condition = {
             heroQualityAndCount = {
@@ -2496,7 +2496,7 @@ return {
         id = 406,
         award = 1004,
         extCondition = {
-            totalFightingPower = 150000,
+            totalFightingPower = 15000,
             heroQualityAndCount = {
                 [5] = 3,
             },

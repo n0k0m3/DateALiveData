@@ -3483,10 +3483,9 @@ end
 
 function FubenDataMgr:getMonsterTrialCloseTime()
     local closeday = Utils:getKVP(90021, "settlement")
-    local date = TFDate(ServerDataMgr:getServerTime()):tolocal()
+    local date = Utils:getUTCDate(ServerDataMgr:getServerTime() ,GV_UTC_TIME_ZONE)
     local weekday = date:getweekday()
-    local year, month, day = date:getdate()
-    local baseDate = TFDate(year, month, day)
+    local baseDate = TFDate(date:getyear() , date:getmonth() , date:getday(),- GV_UTC_TIME_ZONE)--TFdate会将UTC-7化得时间再次变为UTC-0时间所以需要补上时区时差
     local endDate
     if weekday ~= closeday then
         local addDays = 1
@@ -3508,17 +3507,16 @@ function FubenDataMgr:getMonsterTrialCloseTime()
     else
         endDate = baseDate:adddays(1)
     end
-    local offsetDate = endDate:toutc() - TFDate.epoch()
+    local offsetDate = endDate - TFDate.epoch()
     local timestamp = offsetDate:spanseconds()
     return timestamp
 end
 
 function FubenDataMgr:getMonsterTrialOpenTime()
     local closeday = Utils:getKVP(90021, "settlement")
-    local date = TFDate(ServerDataMgr:getServerTime()):tolocal()
+    local date = Utils:getUTCDate(ServerDataMgr:getServerTime() ,GV_UTC_TIME_ZONE)
     local weekday = date:getweekday()
-    local year, month, day = date:getdate()
-    local baseDate = TFDate(year, month, day)
+    local baseDate = TFDate(date:getyear() , date:getmonth() , date:getday() , - GV_UTC_TIME_ZONE)  --TFdate会将UTC-7化得时间再次变为UTC-0时间所以需要补上时区时差
     local endDate
     if closeday == weekday then
         local addDays = 1
@@ -3539,7 +3537,7 @@ function FubenDataMgr:getMonsterTrialOpenTime()
     else
         endDate = baseDate:adddays(1)
     end
-    local offsetDate = endDate:toutc() - TFDate.epoch()
+    local offsetDate = endDate - TFDate.epoch()
     local timestamp = offsetDate:spanseconds()
     return timestamp
 end

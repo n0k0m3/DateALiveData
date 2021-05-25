@@ -9131,7 +9131,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 176,
-										PositionY = 562,
+										PositionY = 535,
 										LeftPositon = 66,
 										TopPosition = 105,
 										relativeToName = "Panel_top",
@@ -9154,14 +9154,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
 											height = "38",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_endlessBuff_open",
 											normal = "ui/battle/endless/004.png",
 											sizepercentx = "0",
@@ -9171,11 +9171,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = -34,
+												PositionX = 1,
 												PositionY = -28,
 											},
 											UItype = "Button",
-											width = "156",
+											width = "225",
 											ZOrder = "1",
 											components = 
 											{
@@ -9220,7 +9220,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -20,
+														PositionX = -14,
 													},
 													width = "160",
 													ZOrder = "1",
@@ -9233,14 +9233,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
 											height = "38",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_endlessBuff_close",
 											normal = "ui/battle/endless/005.png",
 											sizepercentx = "0",
@@ -9250,11 +9250,10 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = -34,
 												PositionY = -28,
 											},
 											UItype = "Button",
-											width = "156",
+											width = "217",
 											ZOrder = "1",
 											components = 
 											{
@@ -14396,7 +14395,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "获得100%积分",
+													text = "Get 100% points",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -14404,7 +14403,7 @@ local t =
 														PositionX = -57,
 														PositionY = 8,
 													},
-													width = "108",
+													width = "132",
 													ZOrder = "1",
 												},
 											},

@@ -5844,4 +5844,9 @@ return {
         res = "ui/setting/new/bg8.png",
         res_en = "ui/setting/new/bg8_zh.png",
     },
+    [1170] = {
+        id = 1170,
+        res = "ui/activity/activity_bg/jumpbg7.png",
+        res_en = "ui/activity/activity_bg/jumpbg7_zh.png",
+    },
 }

@@ -234,6 +234,10 @@ function MainLayer:initUI(ui)
     self.Image_newPlayerBookTip = TFDirector:getChildByPath(self.Button_newPlayerBook, "Image_newPlayerTip")
 
     self.Button_Activity5 = TFDirector:getChildByPath(self.ui, "Button_Activity5")
+    --TODO CLOSE
+    self.Button_Activity5:setTextureNormal("ui/activity/bingKai/003.png")
+    self.Button_Activity5:setTexturePressed("ui/activity/bingKai/003.png")
+
     self.Image_activity_red5 = TFDirector:getChildByPath(self.ui, "Image_activity_red5"):hide()
     self.Button_Activity6 = TFDirector:getChildByPath(self.ui, "Button_Activity6")
     self.Image_activity_red6 = TFDirector:getChildByPath(self.ui, "Image_activity_red6"):hide()

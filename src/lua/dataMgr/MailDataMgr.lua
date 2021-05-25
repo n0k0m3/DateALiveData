@@ -44,12 +44,13 @@ end
 
 function MailDataMgr:getMailTyps()
 	-- body
-	-- 屏蔽邮件红包
-	-- TODO CLOSE
-	-- 屏蔽特殊邮件
-	local types = {[MailType.systemMail] = 1} --[[[MailType.redPackMail] = 1]]--, [MailType.specialMail] = 1}
+	--TODO CLOSE
+	--local types = {[MailType.systemMail] = 1, [MailType.redPackMail] = 1, [MailType.specialMail] = 1}
+	local types = {[MailType.systemMail] = 1}
 	for k,v in pairs(self.mails) do
-		types[v.mailType] = 1
+		if not(v.mailType == MailType.redPackMail) then
+			types[v.mailType] = 1
+		end		
 	end
 	return table.keys(types)
 end
@@ -383,21 +384,22 @@ function MailDataMgr:onKeyGet(mailType)
 end
 
 function MailDataMgr:showMailNoticeLayer(mailInfo)
-   	local currentScene = Public:currentScene()
+	--TODO CLOSE
+ --   	local currentScene = Public:currentScene()
 
-   	if currentScene.__cname == "BattleScene" and SettingDataMgr:getBattleRedPack() == 2 then return end
+ --   	if currentScene.__cname == "BattleScene" and SettingDataMgr:getBattleRedPack() == 2 then return end
 
-   	if DatingDataMgr:getIsDating() and SettingDataMgr:getDatingRedPack() == 2 then return end
+ --   	if DatingDataMgr:getIsDating() and SettingDataMgr:getDatingRedPack() == 2 then return end
 
-   	if currentScene.__cname ~= "BattleScene" and not DatingDataMgr:getIsDating() and SettingDataMgr:getMainRedPack() == 2 then return end 
+ --   	if currentScene.__cname ~= "BattleScene" and not DatingDataMgr:getIsDating() and SettingDataMgr:getMainRedPack() == 2 then return end 
 
-   	local layer = require("lua.logic.mail.MailNoticeLayer"):new(mailInfo,function ( ... )
-   		-- body
-   		local layer = currentScene:getChildByName("mailNotice")
-   		layer:removeFromParent()
-   	end)
-   	layer:setName("mailNotice")
-	currentScene:addChild(layer)
+ --   	local layer = require("lua.logic.mail.MailNoticeLayer"):new(mailInfo,function ( ... )
+ --   		-- body
+ --   		local layer = currentScene:getChildByName("mailNotice")
+ --   		layer:removeFromParent()
+ --   	end)
+ --   	layer:setName("mailNotice")
+	-- currentScene:addChild(layer)
 end
 
 function MailDataMgr:fightEnvelope(id)

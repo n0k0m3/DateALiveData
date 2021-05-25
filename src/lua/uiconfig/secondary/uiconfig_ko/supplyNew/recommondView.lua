@@ -346,11 +346,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "24",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "img_countBg",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -360,10 +360,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -26,
+												PositionX = -11,
 												PositionY = 114,
 											},
-											width = "138",
+											width = "166",
 											ZOrder = "1",
 											components = 
 											{
@@ -408,7 +408,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -48,
+														PositionX = -64,
 													},
 													width = "135",
 													ZOrder = "1",

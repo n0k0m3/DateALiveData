@@ -7152,11 +7152,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "46",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_endless_victory",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -7169,7 +7169,8 @@ local t =
 												PositionX = 95,
 												PositionY = 11,
 											},
-											width = "194",
+											visible = "False",
+											width = "257",
 											ZOrder = "1",
 											components = 
 											{
@@ -7214,8 +7215,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -40,
-														PositionY = 10,
+														PositionX = -77,
+														PositionY = 9,
 													},
 													width = "166",
 													ZOrder = "1",
@@ -7260,8 +7261,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 131,
-														PositionY = 11,
+														PositionX = 95,
+														PositionY = 10,
 													},
 													width = "23",
 													ZOrder = "1",
@@ -7286,7 +7287,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 20,
+														PositionX = -7,
 														PositionY = -10,
 													},
 													width = "146",
@@ -14397,7 +14398,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "获得100%积分",
+													text = "Get 100% points",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -14405,7 +14406,7 @@ local t =
 														PositionX = -57,
 														PositionY = 8,
 													},
-													width = "108",
+													width = "132",
 													ZOrder = "1",
 												},
 											},

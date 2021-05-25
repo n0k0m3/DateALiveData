@@ -687,7 +687,7 @@ local t =
 										PositionY = 258,
 										relativeToName = "Panel",
 									},
-									width = "218",
+									width = "246",
 									ZOrder = "1",
 								},
 								{
@@ -952,15 +952,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -973,12 +973,12 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 878,
+										PositionX = 881,
 										PositionY = 258,
 										LeftPositon = 664,
 										TopPosition = 419,
 									},
-									width = "108",
+									width = "147",
 									ZOrder = "1",
 								},
 								{
@@ -2205,7 +2205,7 @@ local t =
 											UUID = "a1e68158_e4c4_4e2f_b894_8ebbd20884b1",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
-											anchorPointY = "0.5",
+											anchorPointY = "0",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -2226,10 +2226,10 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_desc",
-											nTextAlign = "1",
+											nTextAlign = "2",
 											nTextHAlign = "1",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -2240,9 +2240,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -66,
+												PositionY = -82,
 											},
-											width = "182",
+											width = "154",
 											ZOrder = "1",
 										},
 										{

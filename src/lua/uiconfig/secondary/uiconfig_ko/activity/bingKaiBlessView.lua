@@ -171,7 +171,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -104,
-								PositionY = -188,
+								PositionY = -200,
 							},
 							uipanelviewmodel = 
 							{
@@ -297,7 +297,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 330,
-								PositionY = -226,
+								PositionY = -233,
 							},
 							UItype = "Button",
 							width = "236",
@@ -331,7 +331,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "41",
+									height = "38",
 									ignoreSize = "True",
 									name = "Label_bingKaiBlessView_1",
 									nTextAlign = "1",
@@ -340,14 +340,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "领取",
+									text = "수령",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "69",
+									width = "61",
 									ZOrder = "1",
 								},
 							},
@@ -378,7 +378,7 @@ local t =
 								StrokeColor = "#FF3370C4",
 								StrokeSize = 2,
 							},
-							height = "31",
+							height = "29",
 							ignoreSize = "True",
 							name = "act_time",
 							nTextAlign = "1",
@@ -388,7 +388,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "活动时间",
+							text = "이벤트 시간",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -396,7 +396,7 @@ local t =
 								PositionX = -371,
 								PositionY = 245,
 							},
-							width = "92",
+							width = "112",
 							ZOrder = "1",
 							components = 
 							{
@@ -454,7 +454,7 @@ local t =
 										StrokeColor = "#FF3370C4",
 										StrokeSize = 2,
 									},
-									height = "26",
+									height = "25",
 									ignoreSize = "True",
 									name = "act_timeStart",
 									nTextAlign = "1",
@@ -472,7 +472,7 @@ local t =
 										PositionX = -66,
 										PositionY = -24,
 									},
-									width = "120",
+									width = "85",
 									ZOrder = "1",
 								},
 								{
@@ -501,7 +501,7 @@ local t =
 										StrokeColor = "#FF3370C4",
 										StrokeSize = 2,
 									},
-									height = "26",
+									height = "25",
 									ignoreSize = "True",
 									name = "act_timeEnd",
 									nTextAlign = "1",
@@ -519,7 +519,7 @@ local t =
 										PositionX = -85,
 										PositionY = -46,
 									},
-									width = "120",
+									width = "85",
 									ZOrder = "1",
 								},
 							},

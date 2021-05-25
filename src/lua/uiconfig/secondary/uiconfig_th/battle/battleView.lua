@@ -7210,7 +7210,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "กระโดดพื้น",
+													text = "กระโดดชั้น",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -7218,7 +7218,7 @@ local t =
 														PositionX = -40,
 														PositionY = 10,
 													},
-													width = "63",
+													width = "60",
 													ZOrder = "1",
 												},
 												{
@@ -14392,7 +14392,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "获得100%积分",
+													text = "Get 100% points",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -14400,7 +14400,7 @@ local t =
 														PositionX = -57,
 														PositionY = 8,
 													},
-													width = "108",
+													width = "132",
 													ZOrder = "1",
 												},
 											},

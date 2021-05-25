@@ -668,7 +668,7 @@ return {
         isSendRecordMsg = false,
         icon = "ui/store/new_ui/icon16.png",
         openContType = 1,
-        isOpen = true,
+        isOpen = false,
         id = 403000,
         storeLabel = "",
         openContVal = 30,

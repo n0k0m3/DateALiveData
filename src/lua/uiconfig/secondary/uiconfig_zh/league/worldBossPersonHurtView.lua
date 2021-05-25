@@ -145,7 +145,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -154,7 +154,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "成员伤害 l",
+									text = "成員傷害 l",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -162,7 +162,7 @@ local t =
 										PositionX = -292,
 										PositionY = 186,
 									},
-									width = "113",
+									width = "114",
 									ZOrder = "1",
 								},
 								{
@@ -208,7 +208,7 @@ local t =
 										PositionX = -231,
 										PositionY = 183,
 									},
-									width = "87",
+									width = "84",
 									ZOrder = "1",
 								},
 								{
@@ -410,7 +410,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "贡献伤害",
+											text = "貢獻傷害",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -510,14 +510,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "暂无数据",
+									text = "暫無數據",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = -10,
 									},
-									width = "107",
+									width = "106",
 									ZOrder = "1",
 								},
 								{
@@ -697,7 +697,7 @@ local t =
 										PositionX = -194,
 										PositionY = -191,
 									},
-									width = "57",
+									width = "56",
 									ZOrder = "1",
 									components = 
 									{
@@ -737,7 +737,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "参与挑战人数：",
+											text = "參與挑戰人數：",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -793,7 +793,7 @@ local t =
 										PositionX = 177,
 										PositionY = -192,
 									},
-									width = "122",
+									width = "117",
 									ZOrder = "1",
 									components = 
 									{
@@ -833,7 +833,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "所有成员总伤害：",
+											text = "所有成員總傷害：",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -981,7 +981,7 @@ local t =
 										StrokeColor = "#FF000000",
 										StrokeSize = 1,
 									},
-									height = "29",
+									height = "27",
 									ignoreSize = "True",
 									name = "lab_rankNum",
 									nTextAlign = "1",
@@ -999,7 +999,7 @@ local t =
 										PositionX = 13,
 										PositionY = 34,
 									},
-									width = "33",
+									width = "28",
 									ZOrder = "1",
 								},
 								{
@@ -1028,7 +1028,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "lab_leagueHurtNum",
 									nTextAlign = "1",
@@ -1045,7 +1045,7 @@ local t =
 										PositionX = 590,
 										PositionY = 36,
 									},
-									width = "55",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
@@ -1193,7 +1193,7 @@ local t =
 										PositionX = 362,
 										PositionY = 56,
 									},
-									width = "39",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
@@ -1239,7 +1239,7 @@ local t =
 										PositionX = 363,
 										PositionY = 21,
 									},
-									width = "45",
+									width = "49",
 									ZOrder = "1",
 								},
 								{
@@ -1381,7 +1381,7 @@ local t =
 										PositionX = 461,
 										PositionY = 35,
 									},
-									width = "28",
+									width = "31",
 									ZOrder = "1",
 								},
 							},

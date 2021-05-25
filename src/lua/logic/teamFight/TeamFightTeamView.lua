@@ -302,6 +302,19 @@ function TeamFightTeamView:initUI(ui)
         self:initNianshouPanel()
     end
     AlertManager:closeLayerByName("ChatView")
+
+    self.panelTouchFunc = function()
+        if self.isReqCloseLayer == true then
+            return true
+        end
+        local alertparams = clone(EC_GameAlertParams)
+        alertparams.msg = 2100111
+        alertparams.comfirmCallback = function()
+            self.isReqCloseLayer = true
+            TeamFightDataMgr:requestExitTeam()
+        end
+        showGameAlert(alertparams)
+    end
 end
 
 function TeamFightTeamView:initAffixInfo()

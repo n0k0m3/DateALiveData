@@ -153,7 +153,7 @@ local t =
 									controlID = "Label_timing_Image_bg_Panel_root_Panel-addRechargeActivityView6_kuangsanAssist_activity_Game",
 									UUID = "61d998e1_7c76_4289_a7d8_c5a5c58cc53f",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -189,10 +189,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -379,
-										PositionY = 248,
+										PositionX = 438,
+										PositionY = 260,
 									},
-									width = "212",
+									width = "213",
 									ZOrder = "1",
 								},
 								{
@@ -286,7 +286,7 @@ local t =
 										PositionY = -238,
 									},
 									visible = "False",
-									width = "242",
+									width = "243",
 									ZOrder = "1",
 								},
 								{
@@ -298,7 +298,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFCC71",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -311,11 +311,11 @@ local t =
 									fontSize = "30",
 									fontStroke = 
 									{
-										IsStroke = false,
-										StrokeColor = "#FFE6E6E6",
-										StrokeSize = 1,
+										IsStroke = true,
+										StrokeColor = "#FF1856C7",
+										StrokeSize = 2,
 									},
-									height = "37",
+									height = "38",
 									ignoreSize = "True",
 									name = "Label_recharge",
 									nTextAlign = "1",
@@ -332,7 +332,7 @@ local t =
 										PositionX = -238,
 										PositionY = -216,
 									},
-									width = "99",
+									width = "85",
 									ZOrder = "1",
 								},
 								{
@@ -347,10 +347,10 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "78",
+									height = "97",
 									ignoreSize = "True",
 									name = "Button_recharge",
-									normal = "ui/activity/assist/kuangsan/add_recharge_001.png",
+									normal = "ui/activity/add_recharge/003.png",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -362,7 +362,7 @@ local t =
 										PositionY = -221,
 									},
 									UItype = "Button",
-									width = "277",
+									width = "262",
 									ZOrder = "1",
 								},
 								{
@@ -388,6 +388,7 @@ local t =
 										PositionX = -398,
 										PositionY = 244,
 									},
+									visible = "False",
 									width = "39",
 									ZOrder = "1",
 								},
@@ -400,7 +401,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFE1D7C7",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -413,11 +414,11 @@ local t =
 									fontSize = "28",
 									fontStroke = 
 									{
-										IsStroke = false,
-										StrokeColor = "#FFE6E6E6",
-										StrokeSize = 1,
+										IsStroke = true,
+										StrokeColor = "#FF1856C7",
+										StrokeSize = 2,
 									},
-									height = "35",
+									height = "36",
 									ignoreSize = "True",
 									name = "Label_addRecharge_title",
 									nTextAlign = "1",
@@ -431,10 +432,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -424,
-										PositionY = -216,
+										PositionX = -423,
+										PositionY = -217,
 									},
-									width = "178",
+									width = "182",
 									ZOrder = "1",
 								},
 							},
@@ -573,7 +574,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/activity/assist/kuangsan/add_recharge_005.png",
+											texturePath = "ui/activity/add_recharge/005.png",
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
@@ -608,7 +609,7 @@ local t =
 												StrokeColor = "#FF000000",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_geted",
 											nTextAlign = "1",
@@ -624,7 +625,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "59",
+											width = "57",
 											ZOrder = "1",
 										},
 									},
@@ -678,8 +679,8 @@ local t =
 											sizeType = "0",
 											spineModel = 
 											{
-												SpinePath = "effect/ui_fanzhehuodong_gift/ui_fanzhehuodong_gift",
-												animationName = "animation2",
+												SpinePath = "effect/ui_task_gift/ui_task_gift",
+												animationName = "animation",
 												IsLoop = true,
 												IsPlay = true,
 												IsUseQueue = false,
@@ -711,7 +712,7 @@ local t =
 											height = "102",
 											ignoreSize = "True",
 											name = "Button_get",
-											normal = "ui/activity/assist/kuangsan/add_recharge_002.png",
+											normal = "ui/activity/add_recharge/006.png",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -736,7 +737,7 @@ local t =
 											sizeType = "0",
 											spineModel = 
 											{
-												SpinePath = "effect/ui_fanzhehuodong_gift/ui_fanzhehuodong_gift",
+												SpinePath = "effect/ui_task_gift/ui_task_gift",
 												animationName = "animation",
 												IsLoop = true,
 												IsPlay = true,
@@ -781,7 +782,7 @@ local t =
 												StrokeColor = "#FF000000",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_get",
 											nTextAlign = "1",
@@ -797,7 +798,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "41",
+											width = "39",
 											ZOrder = "1",
 										},
 									},
@@ -856,7 +857,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/activity/assist/kuangsan/add_recharge_003.png",
+											texturePath = "ui/activity/add_recharge/007.png",
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
@@ -891,7 +892,7 @@ local t =
 												StrokeColor = "#FF000000",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_money",
 											nTextAlign = "1",
@@ -907,7 +908,7 @@ local t =
 											{
 												PositionY = 10,
 											},
-											width = "44",
+											width = "34",
 											ZOrder = "1",
 										},
 									},
@@ -928,11 +929,11 @@ local t =
 		textures = 
 		{
 			"ui/activity/assist/kuangsan/add_recharge_006.png",
-			"ui/activity/assist/kuangsan/add_recharge_001.png",
+			"ui/activity/add_recharge/003.png",
 			"ui/activity/assist/kuangsan/add_recharge_004.png",
-			"ui/activity/assist/kuangsan/add_recharge_005.png",
-			"ui/activity/assist/kuangsan/add_recharge_002.png",
-			"ui/activity/assist/kuangsan/add_recharge_003.png",
+			"ui/activity/add_recharge/005.png",
+			"ui/activity/add_recharge/006.png",
+			"ui/activity/add_recharge/007.png",
 		},
 		armatures = 
 		{
