@@ -728,13 +728,15 @@ function BattleUtils.calcuHurt(srcHero,tarHero,hurtData,hitedBdboxs)
     end
 
    --自定义伤害
-    if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
-        if srcHero:getRoleType() == 1 or srcHero:getRoleType()  == 4 then
-            --我方伤害
-            hurtValue = hurtValue
-        else
-            --敌方伤害
-            hurtValue = hurtValue
+    if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or DEBUG_PACKAGE then
+        if SettingDataMgr:getTestDamage() > 1 then
+            if srcHero:getRoleType() == 1 or srcHero:getRoleType()  == 4 then
+                --我方伤害
+                hurtValue = hurtValue * 100000
+            else
+                --敌方伤害
+                hurtValue = 1
+            end
         end
     end
 

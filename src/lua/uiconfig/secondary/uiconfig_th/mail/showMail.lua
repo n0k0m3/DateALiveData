@@ -441,7 +441,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "90",
+							height = "92",
 							ignoreSize = "False",
 							name = "Image_item",
 							sizepercentx = "0",
@@ -454,7 +454,7 @@ local t =
 								PositionX = -187,
 								PositionY = 76,
 							},
-							width = "90",
+							width = "92",
 							ZOrder = "1",
 						},
 						{

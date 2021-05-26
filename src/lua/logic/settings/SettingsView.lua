@@ -18,6 +18,7 @@ function SettingsView:initData(roleCid)
     self.tmsettingData.battle.roke =  SettingDataMgr:getBattleRoke()
     self.tmsettingData.battle.numberOfScreens = SettingDataMgr:getNumberOfScreens()
     self.tmsettingData.battle.awake = SettingDataMgr:getAwakeEffect()
+    self.tmsettingData.battle.testDamage = SettingDataMgr:getTestDamage()
 
     self.tmsettingData.other.mainRedPack = SettingDataMgr:getMainRedPack()
     self.tmsettingData.other.battleRedPack =  SettingDataMgr:getBattleRedPack()
@@ -127,6 +128,7 @@ function SettingsView:initPanelbtns()
             SettingDataMgr:setSoundVoice(self.tmsettingData.sound.speak)
             -- SettingDataMgr:setAttactEffect(self.tmsettingData.battle.attack)
             SettingDataMgr:setAwakeEffect(self.tmsettingData.battle.awake)
+            SettingDataMgr:setTestDamage(self.tmsettingData.battle.testDamage)
             SettingDataMgr:setBattleFPS(self.tmsettingData.battle.fps)
             SettingDataMgr:setBattleRoke(self.tmsettingData.battle.roke)
             SettingDataMgr:setDatingRedPack(self.tmsettingData.other.datingRedPack)
@@ -474,6 +476,27 @@ function SettingsView:updateAwakeEffect()
     for i=1,2 do
         local btn = TFDirector:getChildByPath(Panel_awake_effect, "Button_common_"..i)
         local btn_bg = TFDirector:getChildByPath(Panel_awake_effect, "Image_btn_bg_"..i)
+        if attack == i then
+            btn:setTextureNormal("ui/setting/uires/011.png") 
+            btn_bg:setTexture("ui/setting/uires/009.png")
+        else
+            btn:setTextureNormal("")
+            btn_bg:setTexture("ui/setting/uires/010.png")
+        end
+    end
+end
+
+function SettingsView:setTestDamage( value )
+    self.tmsettingData.battle.testDamage = value
+    self:updateTestDamage()
+end
+
+function SettingsView:updateTestDamage()
+    local Panel_damage = TFDirector:getChildByPath(self.Panel_battle, "Panel_damage")
+    local attack = self.tmsettingData.battle.testDamage
+    for i=1,2 do
+        local btn = TFDirector:getChildByPath(Panel_damage, "Button_common_"..i)
+        local btn_bg = TFDirector:getChildByPath(Panel_damage, "Image_btn_bg_"..i)
         if attack == i then
             btn:setTextureNormal("ui/setting/uires/011.png") 
             btn_bg:setTexture("ui/setting/uires/009.png")
@@ -914,6 +937,23 @@ function SettingsView:initPanelBattle()
     end
     self:updateAwakeEffect()
 
+    
+    local Panel_damage = TFDirector:getChildByPath(self.Panel_battle, "Panel_damage")
+    Panel_damage:hide()
+    for i = 1, 2 do 
+        local btn = TFDirector:getChildByPath(Panel_damage, "Button_common_"..i)
+        btn:onClick(function()
+            self:setTestDamage(i)
+        end)
+    end
+    local BattleScrollview = TFDirector:getChildByPath(self.Panel_battle, "scrollview_battle")
+    BattleScrollview:setTouchEnabled(false)
+
+    self:updateTestDamage()
+    if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) or DEBUG_PACKAGE then
+        Panel_damage:show()
+        BattleScrollview:setTouchEnabled(true)
+    end
 end
 
 

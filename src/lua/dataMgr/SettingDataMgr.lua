@@ -353,6 +353,21 @@ function SettingDataMgr:getAwakeEffect()
     end
 end
 
+function SettingDataMgr:setTestDamage(value)
+    local id = MainPlayer:getPlayerId() or ""
+    UserDefalt:setStringForKey("TestDamage"..id, value)
+end
+
+function SettingDataMgr:getTestDamage()
+    local id = MainPlayer:getPlayerId() or ""
+    local value = UserDefalt:getStringForKey("TestDamage"..id)
+    if value == "" then
+        return 1
+    else
+        return tonumber(value)
+    end
+end
+
 function SettingDataMgr:getAttactEffectVal()
     return ATTACK_EFFECT_VAL[self:getAttactEffect()]
 end

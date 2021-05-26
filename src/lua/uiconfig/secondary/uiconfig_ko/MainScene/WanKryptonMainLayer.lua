@@ -620,7 +620,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "社团名称最多八个",
+											text = "동아리이름이름음",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -629,7 +629,7 @@ local t =
 												PositionY = -38,
 											},
 											vAlignment = "0",
-											width = "148",
+											width = "131",
 											ZOrder = "1",
 										},
 										{
@@ -3862,14 +3862,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "联络",
+													text = "연락",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -26,
 													},
-													width = "44",
+													width = "39",
 													ZOrder = "1",
 												},
 											},
@@ -3886,7 +3886,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "112",
+											height = "128",
 											ignoreSize = "True",
 											name = "Button_Activity5",
 											normal = "ui/mainLayer/new_ui/a4.png",
@@ -3904,7 +3904,7 @@ local t =
 												relativeToName = "Panel",
 											},
 											UItype = "Button",
-											width = "196",
+											width = "226",
 											ZOrder = "1",
 											components = 
 											{
@@ -9179,14 +9179,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "新年",
+													text = "새해",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = -37,
 													},
-													width = "44",
+													width = "38",
 													ZOrder = "1",
 												},
 												{
@@ -9287,7 +9287,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "新年",
+													text = "새해",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -9295,7 +9295,7 @@ local t =
 														PositionY = -37,
 													},
 													visible = "False",
-													width = "44",
+													width = "38",
 													ZOrder = "1",
 												},
 												{
@@ -10585,14 +10585,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "履历",
+															text = "이력",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																PositionX = 43,
 															},
-															width = "44",
+															width = "39",
 															ZOrder = "1",
 														},
 													},
@@ -10771,14 +10771,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "通讯",
+															text = "통신",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																PositionX = 43,
 															},
-															width = "44",
+															width = "38",
 															ZOrder = "1",
 														},
 														{

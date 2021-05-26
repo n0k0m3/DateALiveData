@@ -5849,4 +5849,24 @@ return {
         res = "ui/activity/activity_bg/jumpbg7.png",
         res_en = "ui/activity/activity_bg/jumpbg7_zh.png",
     },
+    [1171] = {
+        id = 1171,
+        res = "ui/mainLayer/new_ui_6/btn_battle.png",
+        res_en = "ui/mainLayer/new_ui_6/btn_battle_zh.png",
+    },
+    [1172] = {
+        id = 1172,
+        res = "ui/mainLayer/new_ui_6/btn_dating.png",
+        res_en = "ui/mainLayer/new_ui_6/btn_dating_zh.png",
+    },
+    [1173] = {
+        id = 1173,
+        res = "ui/mainLayer/new_ui_2/c12.png",
+        res_en = "ui/mainLayer/new_ui_2/c12_zh.png",
+    },
+    [1174] = {
+        id = 1174,
+        res = "ui/mainLayer/new_ui_2/c14.png",
+        res_en = "ui/mainLayer/new_ui_2/c14_zh.png",
+    },
 }

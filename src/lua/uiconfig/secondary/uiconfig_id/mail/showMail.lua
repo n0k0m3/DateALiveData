@@ -315,7 +315,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "59",
+											width = "62",
 											ZOrder = "1",
 										},
 									},
@@ -395,7 +395,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "59",
+											width = "51",
 											ZOrder = "1",
 										},
 									},
@@ -441,7 +441,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "82",
+							height = "92",
 							ignoreSize = "False",
 							name = "Image_item",
 							sizepercentx = "0",
@@ -454,7 +454,7 @@ local t =
 								PositionX = -187,
 								PositionY = 76,
 							},
-							width = "82",
+							width = "92",
 							ZOrder = "1",
 						},
 						{
@@ -521,7 +521,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -538,7 +538,7 @@ local t =
 										PositionX = -179,
 										PositionY = 244,
 									},
-									width = "116",
+									width = "175",
 									ZOrder = "1",
 								},
 								{
@@ -584,7 +584,7 @@ local t =
 										PositionX = -164,
 										PositionY = -27,
 									},
-									width = "47",
+									width = "87",
 									ZOrder = "1",
 								},
 								{
@@ -630,7 +630,7 @@ local t =
 										PositionX = -162,
 										PositionY = 204,
 									},
-									width = "47",
+									width = "67",
 									ZOrder = "1",
 								},
 								{
@@ -677,7 +677,7 @@ local t =
 										PositionX = 166,
 										PositionY = 203,
 									},
-									width = "112",
+									width = "163",
 									ZOrder = "1",
 								},
 								{

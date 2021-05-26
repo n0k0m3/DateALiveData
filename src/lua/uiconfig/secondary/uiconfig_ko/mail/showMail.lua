@@ -441,7 +441,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "82",
+							height = "92",
 							ignoreSize = "False",
 							name = "Image_item",
 							sizepercentx = "0",
@@ -452,9 +452,9 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -187,
-								PositionY = 76,
+								PositionY = 75,
 							},
-							width = "82",
+							width = "92",
 							ZOrder = "1",
 						},
 						{

@@ -6214,4 +6214,24 @@ return {
         res = "icon/hero/frame/570293.png",
         res_en = "icon/hero/frame/570293_ko.png",
     },
+    [1244] = {
+        id = 1244,
+        res = "ui/mainLayer/new_ui_6/btn_battle.png",
+        res_en = "ui/mainLayer/new_ui_6/btn_battle_ko.png",
+    },
+    [1245] = {
+        id = 1245,
+        res = "ui/mainLayer/new_ui_6/btn_dating.png",
+        res_en = "ui/mainLayer/new_ui_6/btn_dating_ko.png",
+    },
+    [1246] = {
+        id = 1246,
+        res = "ui/mainLayer/new_ui_2/c12.png",
+        res_en = "ui/mainLayer/new_ui_2/c12_ko.png",
+    },
+    [1247] = {
+        id = 1247,
+        res = "ui/mainLayer/new_ui_2/c14.png",
+        res_en = "ui/mainLayer/new_ui_2/c14_ko.png",
+    },
 }

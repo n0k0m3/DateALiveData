@@ -90,9 +90,11 @@ function ShowMail:updateUI()
 	Label_content:setPosition(ccp(0,inner:getSize().height));
 	self.contentPanel:jumpToTop();
 
-
-	local timeData = Utils:getTimeData( self.mailInfo.createTime )
-	self.Label_time:setTextById(600024,timeData.Month,timeData.Day)
+	--TODO CLOSE
+	--local timeData = Utils:getTimeData( self.mailInfo.createTime )
+	--self.Label_time:setTextById(600024,timeData.Month,timeData.Day)
+	local Year , Month , Day = Utils:getUTCDateYMD(self.mailInfo.createTime , false ,GV_UTC_TIME_ZONE)
+	self.Label_time:setTextById(600024,Month,Day)
 
 	self.Panel_fujian:setVisible(self.mailInfo.rewards and table.count(self.mailInfo.rewards) ~= 0);
 
