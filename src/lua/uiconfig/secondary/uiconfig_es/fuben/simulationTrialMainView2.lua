@@ -408,8 +408,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -530,
-								PositionY = -124,
+								PositionX = -482,
+								PositionY = -125,
 							},
 							UItype = "Button",
 							width = "39",
@@ -468,8 +468,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 487,
-								PositionY = -74,
+								PositionX = 437,
+								PositionY = -72,
 							},
 							UItype = "Button",
 							width = "70",
@@ -567,6 +567,7 @@ local t =
 										PositionX = 19,
 										PositionY = 59,
 									},
+									visible = "False",
 									width = "82",
 									ZOrder = "1",
 								},
@@ -621,8 +622,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 455,
-								PositionY = -211,
+								PositionX = 405,
+								PositionY = -209,
 							},
 							UItype = "Button",
 							width = "70",
@@ -720,6 +721,7 @@ local t =
 										PositionX = 19,
 										PositionY = 57,
 									},
+									visible = "False",
 									width = "58",
 									ZOrder = "1",
 								},
@@ -774,8 +776,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -530,
-								PositionY = -198,
+								PositionX = -482,
+								PositionY = -199,
 							},
 							UItype = "Button",
 							width = "41",

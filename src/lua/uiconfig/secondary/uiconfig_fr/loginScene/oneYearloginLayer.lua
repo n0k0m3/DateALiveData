@@ -164,20 +164,19 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "42",
+									height = "64",
 									ignoreSize = "True",
 									name = "Image_go",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/login/oneYear/7.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "282",
+									width = "64",
 									ZOrder = "1",
 									components = 
 									{
@@ -201,14 +200,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "28",
+											fontSize = "24",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "28",
 											ignoreSize = "True",
 											name = "continue",
 											nTextAlign = "1",
@@ -224,7 +223,7 @@ local t =
 											{
 												
 											},
-											width = "587",
+											width = "506",
 											ZOrder = "1",
 										},
 										{
@@ -236,7 +235,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFFFFFFF",
+											FontColor = "#FFFEC8FD",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -331,6 +330,7 @@ local t =
 										PositionX = -179,
 										PositionY = 139,
 									},
+									visible = "False",
 									width = "14",
 									ZOrder = "1",
 								},
@@ -338,7 +338,7 @@ local t =
 									controlID = "account_loginBoard_Panel_base_Panel-oneYearloginLayer_Layer2_loginScene_Game",
 									UUID = "c9c39856_6096_4cdd_ad15_fc724177d2bc",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -353,14 +353,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "25",
 									ignoreSize = "True",
 									name = "account",
 									nTextAlign = "1",
@@ -374,20 +374,20 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -256,
+										PositionX = -151,
 										PositionY = 92,
 										IsPercent = true,
-										PercentX = -40,
+										PercentX = -23.59,
 										PercentY = 26.63,
 									},
-									width = "197",
+									width = "158",
 									ZOrder = "1",
 								},
 								{
 									controlID = "password_loginBoard_Panel_base_Panel-oneYearloginLayer_Layer2_loginScene_Game",
 									UUID = "5b87bc46_ed7f_47c6_8403_f9e51c7650eb",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -402,14 +402,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "25",
 									ignoreSize = "True",
 									name = "password",
 									nTextAlign = "1",
@@ -423,20 +423,20 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -256,
+										PositionX = -151,
 										PositionY = 28,
 										IsPercent = true,
-										PercentX = -40,
+										PercentX = -23.59,
 										PercentY = 8.13,
 									},
-									width = "147",
+									width = "118",
 									ZOrder = "1",
 								},
 								{
 									controlID = "ActivationCode_loginBoard_Panel_base_Panel-oneYearloginLayer_Layer2_loginScene_Game",
 									UUID = "f476369c_1d39_4da9_9ba9_9edadd0185f0",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -451,14 +451,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "25",
 									ignoreSize = "True",
 									name = "ActivationCode",
 									nTextAlign = "1",
@@ -472,13 +472,13 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -256,
+										PositionX = -151,
 										PositionY = -38,
 										IsPercent = true,
-										PercentX = -40,
+										PercentX = -23.59,
 										PercentY = -10.92,
 									},
-									width = "175",
+									width = "140",
 									ZOrder = "1",
 								},
 								{
@@ -1022,6 +1022,7 @@ local t =
 										PositionX = -190,
 										PositionY = 147,
 									},
+									visible = "False",
 									width = "2",
 									ZOrder = "1",
 								},
@@ -1068,6 +1069,7 @@ local t =
 										PositionX = -188,
 										PositionY = 140,
 									},
+									visible = "False",
 									width = "128",
 									ZOrder = "1",
 								},
@@ -1285,7 +1287,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/login/7.png",
+									texturePath = "ui/login/oneYear/2.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
@@ -1305,7 +1307,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF92D8F4",
+											FontColor = "#FFFEC8FD",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -1357,7 +1359,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/login/m4.png",
+											texturePath = "ui/login/oneYear/2_2.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
@@ -1562,8 +1564,8 @@ local t =
 							height = "70",
 							ignoreSize = "True",
 							name = "Button_pv",
-							normal = "ui/login/005.png",
-							pressed = "ui/login/005.png",
+							normal = "ui/login/oneYear/3.png",
+							pressed = "ui/login/oneYear/3.png",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -1623,6 +1625,7 @@ local t =
 									{
 										PositionY = -38,
 									},
+									visible = "False",
 									width = "31",
 									ZOrder = "1",
 								},
@@ -1704,6 +1707,7 @@ local t =
 									{
 										PositionY = -38,
 									},
+									visible = "False",
 									width = "76",
 									ZOrder = "1",
 								},
@@ -1785,6 +1789,7 @@ local t =
 									{
 										PositionY = -38,
 									},
+									visible = "False",
 									width = "40",
 									ZOrder = "1",
 								},
@@ -1866,6 +1871,7 @@ local t =
 									{
 										PositionY = -38,
 									},
+									visible = "False",
 									width = "40",
 									ZOrder = "1",
 								},
@@ -1886,8 +1892,8 @@ local t =
 							height = "70",
 							ignoreSize = "True",
 							name = "Button_thanks",
-							normal = "ui/login/006.png",
-							pressed = "ui/login/006.png",
+							normal = "ui/login/oneYear/4.png",
+							pressed = "ui/login/oneYear/4.png",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -1947,6 +1953,7 @@ local t =
 									{
 										PositionY = -38,
 									},
+									visible = "False",
 									width = "76",
 									ZOrder = "1",
 								},
@@ -1967,8 +1974,8 @@ local t =
 							height = "70",
 							ignoreSize = "True",
 							name = "Button_cleanup",
-							normal = "ui/login/001.png",
-							pressed = "ui/login/001.png",
+							normal = "ui/login/oneYear/6.png",
+							pressed = "ui/login/oneYear/6.png",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -2028,6 +2035,7 @@ local t =
 									{
 										PositionY = -38,
 									},
+									visible = "False",
 									width = "40",
 									ZOrder = "1",
 								},
@@ -2048,8 +2056,8 @@ local t =
 							height = "70",
 							ignoreSize = "True",
 							name = "Button_migrationServer",
-							normal = "ui/login/005.png",
-							pressed = "ui/login/005.png",
+							normal = "ui/login/oneYear/5.png",
+							pressed = "ui/login/oneYear/5.png",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -2109,6 +2117,7 @@ local t =
 									{
 										PositionY = -38,
 									},
+									visible = "False",
 									width = "40",
 									ZOrder = "1",
 								},
@@ -2128,7 +2137,6 @@ local t =
 		textures = 
 		{
 			"ui/login/oneYear/8.png",
-			"ui/login/oneYear/7.png",
 			"ui/login/1.png",
 			"ui/common/pop_ui/pop_ui_01.png",
 			"ui/login/2.png",
@@ -2137,16 +2145,14 @@ local t =
 			"ui/common/pop_ui/pop_ui_02.png",
 			"ui/common/pop_ui/pop_btn_02.png",
 			"ui/login/oneYear/5.png",
-			"ui/login/7.png",
-			"ui/login/m4.png",
 			"ui/login/oneYear/2.png",
 			"ui/login/oneYear/2_2.png",
-			"ui/login/005.png",
+			"ui/login/oneYear/3.png",
 			"ui/login/004.png",
 			"ui/login/003.png",
 			"ui/login/002.png",
-			"ui/login/006.png",
-			"ui/login/001.png",
+			"ui/login/oneYear/4.png",
+			"ui/login/oneYear/6.png",
 		},
 		armatures = 
 		{

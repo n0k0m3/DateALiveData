@@ -158,6 +158,12 @@ function ActivityMainView:ctor(...)
     if self.activityShowType then
         if self.activityShowType == 90 then  --游乐园入口特殊处理
             uiName = "activityMainView"..7
+        elseif self.activityShowType == 4 then --海王星1期暂时特殊处理
+            if TFGlobalUtils:isConnectKoreaTwServer() then
+                uiName = "activityMainViewGlobal1"
+            else
+                uiName = "activityGloablHwxMainView1"
+            end
         else
             uiName = "activityMainView"..self.activityShowType
         end

@@ -249,6 +249,7 @@ local t =
 									{
 										PositionX = 483,
 									},
+									visible = "False",
 									width = "172",
 									ZOrder = "1",
 								},
@@ -270,14 +271,14 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/activity/activityStyle/giftActivity/styleCur/shadow.png",
+							texturePath = "ui/activity/activityMain3/bg2.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
 								PositionX = 510,
 								PositionY = 39,
 							},
-							width = "142",
+							width = "168",
 							ZOrder = "1",
 						},
 					},
@@ -410,15 +411,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_num",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -433,7 +434,7 @@ local t =
 											{
 												PositionY = 216,
 											},
-											width = "200",
+											width = "240",
 											ZOrder = "1",
 										},
 										{
@@ -476,7 +477,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 180,
+												PositionY = 170,
 											},
 											width = "80",
 											ZOrder = "1",
@@ -561,14 +562,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "   times left",
+											text = "Stock:",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -215,
+												PositionX = -4,
+												PositionY = -213,
 											},
-											width = "85",
+											width = "45",
 											ZOrder = "1",
 											components = 
 											{
@@ -595,6 +597,7 @@ local t =
 													{
 														
 													},
+													visible = "False",
 													width = "156",
 													ZOrder = "-1",
 												},
@@ -640,8 +643,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 10,
-												PositionY = -216,
+												PositionX = 32,
+												PositionY = -214,
 											},
 											width = "11",
 											ZOrder = "1",
@@ -997,7 +1000,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF9B5028",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -1078,7 +1081,7 @@ local t =
 		{
 			"ui/activity/activityStyle/giftActivity/styleCur/timing_bg.png",
 			"ui/activity/activityStyle/giftActivity/styleCur/img_title.png",
-			"ui/activity/activityStyle/giftActivity/styleCur/shadow.png",
+			"ui/activity/activityMain3/bg2.png",
 			"ui/activity/activityStyle/giftActivity/styleCur/bg2.png",
 			"ui/activity/activityStyle/giftActivity/styleCur/tip_bg.png",
 			"ui/recharge/7.png",

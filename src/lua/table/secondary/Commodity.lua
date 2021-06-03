@@ -60470,8 +60470,8 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 7,
-        grid = 7,
+        order = 5,
+        grid = 5,
         priceVal = {
             [1] = 3,
             [2] = 3,
@@ -75239,11 +75239,12 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 4,
-        grid = 4,
+        order = 8,
+        grid = 8,
         priceVal = {
-            [1] = 1,
-            [2] = 1,
+            [1] = 45,
+            [2] = 45,
+            [3] = 45,
         },
         buyBeginTime = {
         },
@@ -75260,11 +75261,12 @@ return {
         id = 305004,
         sellTimeType = 1,
         priceType = {
-            [1] = 580079,
-            [2] = 580080,
+            [1] = 580078,
+            [2] = 580079,
+            [3] = 580080,
         },
         goods = {
-            [599601] = 1,
+            [599607] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -75272,7 +75274,7 @@ return {
         sellDescribtion = "2004",
         showEndTime = "",
         serLimit = 0,
-        limitVal = 3,
+        limitVal = 1,
         des = "",
     },
     [315006] = {
@@ -75393,11 +75395,12 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 5,
-        grid = 5,
+        order = 9,
+        grid = 9,
         priceVal = {
-            [1] = 1,
-            [2] = 1,
+            [1] = 45,
+            [2] = 45,
+            [3] = 45,
         },
         buyBeginTime = {
         },
@@ -75415,13 +75418,14 @@ return {
         sellTimeType = 1,
         priceType = {
             [1] = 580078,
-            [2] = 580080,
+            [2] = 580079,
+            [3] = 580080,
         },
         goods = {
-            [599601] = 1,
+            [599607] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 99,
         title = 0,
         sellDescribtion = "2004",
         showEndTime = "",
@@ -75547,8 +75551,8 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 6,
-        grid = 6,
+        order = 4,
+        grid = 4,
         priceVal = {
             [1] = 1,
             [2] = 1,
@@ -75857,8 +75861,8 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 8,
-        grid = 8,
+        order = 6,
+        grid = 6,
         priceVal = {
             [1] = 10,
             [2] = 10,
@@ -76013,8 +76017,8 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 9,
-        grid = 9,
+        order = 7,
+        grid = 7,
         priceVal = {
             [1] = 30,
             [2] = 30,
@@ -78510,9 +78514,9 @@ return {
         order = 7,
         grid = 7,
         priceVal = {
-            [1] = 2,
-            [2] = 2,
-            [3] = 2,
+            [1] = 4,
+            [2] = 1,
+            [3] = 1,
         },
         buyBeginTime = {
         },
@@ -78529,12 +78533,12 @@ return {
         id = 304001,
         sellTimeType = 1,
         priceType = {
-            [1] = 580306,
-            [2] = 580300,
-            [3] = 580301,
+            [1] = 580081,
+            [2] = 580082,
+            [3] = 580083,
         },
         goods = {
-            [580307] = 1,
+            [580078] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -78675,9 +78679,9 @@ return {
         order = 8,
         grid = 8,
         priceVal = {
-            [1] = 2,
-            [2] = 2,
-            [3] = 2,
+            [1] = 4,
+            [2] = 1,
+            [3] = 1,
         },
         buyBeginTime = {
         },
@@ -78694,12 +78698,12 @@ return {
         id = 304002,
         sellTimeType = 1,
         priceType = {
-            [1] = 580306,
-            [2] = 580302,
-            [3] = 580303,
+            [1] = 580081,
+            [2] = 580084,
+            [3] = 580085,
         },
         goods = {
-            [580308] = 1,
+            [580079] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -78836,9 +78840,9 @@ return {
         order = 9,
         grid = 9,
         priceVal = {
-            [1] = 2,
-            [2] = 2,
-            [3] = 2,
+            [1] = 4,
+            [2] = 1,
+            [3] = 1,
         },
         buyBeginTime = {
         },
@@ -78855,12 +78859,12 @@ return {
         id = 304003,
         sellTimeType = 1,
         priceType = {
-            [1] = 580306,
-            [2] = 580304,
-            [3] = 580305,
+            [1] = 580081,
+            [2] = 580086,
+            [3] = 580087,
         },
         goods = {
-            [580309] = 1,
+            [580080] = 1,
         },
         showBeginTime = "",
         openContVal = 1,

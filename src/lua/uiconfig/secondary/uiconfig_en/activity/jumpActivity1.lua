@@ -127,14 +127,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "23",
+							height = "21",
 							ignoreSize = "True",
 							name = "label_time",
 							nTextAlign = "1",
@@ -152,7 +152,7 @@ local t =
 								PositionY = 241,
 							},
 							visible = "False",
-							width = "80",
+							width = "74",
 							ZOrder = "1",
 						},
 						{
@@ -213,7 +213,7 @@ local t =
 										StrokeColor = "#FF301F64",
 										StrokeSize = 2,
 									},
-									height = "36",
+									height = "34",
 									ignoreSize = "True",
 									name = "label_jump",
 									nTextAlign = "1",
@@ -223,7 +223,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Activate",
+									text = "Enter",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -231,7 +231,7 @@ local t =
 										PositionX = -38,
 										PositionY = -52,
 									},
-									width = "56",
+									width = "81",
 									ZOrder = "1",
 								},
 							},
@@ -245,7 +245,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FFFFFFFF",
+							FontColor = "#FF000000",
 							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
@@ -276,8 +276,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 184,
-								PositionY = 242,
+								PositionX = -457,
+								PositionY = 241,
 							},
 							width = "80",
 							ZOrder = "1",

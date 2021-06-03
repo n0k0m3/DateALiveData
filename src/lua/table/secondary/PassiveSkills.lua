@@ -8822,7 +8822,7 @@ return {
         },
         attribute = {
             [602] = 400,
-            [1001] = 500,
+            [1001] = 700,
         },
         name = "",
         angelSkillFunctions = {

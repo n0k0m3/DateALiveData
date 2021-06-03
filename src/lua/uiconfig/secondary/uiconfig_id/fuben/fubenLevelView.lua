@@ -2239,8 +2239,8 @@ local t =
 												StrokeColor = "#FF303341",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_lock_level",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -2255,7 +2255,7 @@ local t =
 											{
 												
 											},
-											width = "156",
+											width = "105",
 											ZOrder = "1",
 										},
 									},

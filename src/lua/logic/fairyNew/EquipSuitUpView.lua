@@ -262,13 +262,21 @@ function EquipSuitUpView:onStrengthenOver(data)
         end)
 
         TimeOut(function()
-            self.Spine_hp:hide()
-            self.Spine_atk:hide()
-            self.Spine_def:hide()
+            if self.Spine_hp then
+                self.Spine_hp:hide()
+            end
+            if self.Spine_atk then
+                self.Spine_atk:hide()
+            end
+            if self.Spine_def then
+                self.Spine_def:hide()
+            end
         end,2)
 
         TimeOut(function()
-            self.Spine_up_success:hide()
+            if self.Spine_up_success then
+                self.Spine_up_success:hide()
+            end
         end,2)
         self:refreshView()
     end

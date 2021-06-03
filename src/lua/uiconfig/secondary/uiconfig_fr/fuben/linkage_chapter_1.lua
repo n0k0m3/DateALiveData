@@ -3523,8 +3523,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_lock",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -3539,7 +3539,7 @@ local t =
 									{
 										PositionY = -33,
 									},
-									width = "379",
+									width = "253",
 									ZOrder = "1",
 									components = 
 									{
@@ -3564,7 +3564,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -100,
+												PositionX = -142,
 											},
 											width = "50",
 											ZOrder = "1",
@@ -3647,8 +3647,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_lock",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -3663,7 +3663,7 @@ local t =
 									{
 										PositionY = -33,
 									},
-									width = "379",
+									width = "253",
 									ZOrder = "1",
 									components = 
 									{
@@ -3688,7 +3688,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -100,
+												PositionX = -133,
+												PositionY = -3,
 											},
 											width = "50",
 											ZOrder = "1",
@@ -3771,8 +3772,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_lock",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -3787,7 +3788,7 @@ local t =
 									{
 										PositionY = -33,
 									},
-									width = "379",
+									width = "253",
 									ZOrder = "1",
 									components = 
 									{
@@ -3812,7 +3813,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -100,
+												PositionX = -135,
+												PositionY = 6,
 											},
 											width = "50",
 											ZOrder = "1",
@@ -3895,8 +3897,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_lock",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -3911,7 +3913,7 @@ local t =
 									{
 										PositionY = -33,
 									},
-									width = "379",
+									width = "253",
 									ZOrder = "1",
 									components = 
 									{
@@ -3936,7 +3938,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -100,
+												PositionX = -122,
 											},
 											width = "50",
 											ZOrder = "1",

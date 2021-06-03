@@ -593,7 +593,7 @@ return {
     },
     [2015] = {
         type2 = 102015,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -1411,7 +1411,7 @@ return {
     },
     [1020] = {
         type2 = 101020,
-        isOpen = false,
+        isOpen = true,
         type1 = 1,
         type3 = {
             [1] = 201001,
@@ -1427,7 +1427,7 @@ return {
     },
     [1021] = {
         type2 = 101021,
-        isOpen = false,
+        isOpen = true,
         type1 = 1,
         type3 = {
             [1] = 201001,
@@ -1639,7 +1639,7 @@ return {
     },
     [2016] = {
         type2 = 102016,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,

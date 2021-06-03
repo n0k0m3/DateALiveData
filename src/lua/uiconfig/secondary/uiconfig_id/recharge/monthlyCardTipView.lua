@@ -154,10 +154,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -238,
-										PositionY = 95,
+										PositionX = -145,
+										PositionY = 93,
 									},
-									width = "87",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -166,7 +166,7 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
@@ -183,11 +183,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 260,
-										PositionY = -165,
+										PositionX = 240,
+										PositionY = -164,
 									},
 									UItype = "Button",
-									width = "180",
+									width = "210",
 									ZOrder = "1",
 									components = 
 									{
@@ -234,7 +234,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "176",
+											width = "193",
 											ZOrder = "1",
 										},
 									},

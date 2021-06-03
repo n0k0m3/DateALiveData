@@ -18435,7 +18435,7 @@ local t =
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "34",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_pass",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -18445,10 +18445,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 185,
+										PositionX = 154,
 										PositionY = 49,
 									},
-									width = "68",
+									width = "140",
 									ZOrder = "1",
 									components = 
 									{
@@ -18472,15 +18472,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "10",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "21",
+											ignoreSize = "True",
 											name = "Label_pass",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -18495,7 +18495,7 @@ local t =
 											{
 												
 											},
-											width = "65",
+											width = "113",
 											ZOrder = "1",
 										},
 									},
@@ -18527,7 +18527,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -113,
+										PositionX = -52,
 										PositionY = 41,
 									},
 									uipanelviewmodel = 
@@ -18640,7 +18640,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 549,
+								PositionX = 632,
 								PositionY = 575,
 							},
 							uipanelviewmodel = 
@@ -18700,7 +18700,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 1,
+										
 									},
 									width = "50",
 									ZOrder = "1",

@@ -979,7 +979,7 @@ local t =
 								PositionX = 150,
 								PositionY = 475,
 							},
-							width = "127",
+							width = "37",
 							ZOrder = "1",
 							components = 
 							{
@@ -1026,7 +1026,7 @@ local t =
 									{
 										PositionY = -33,
 									},
-									width = "163",
+									width = "202",
 									ZOrder = "1",
 									components = 
 									{
@@ -1051,7 +1051,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -100,
+												PositionX = -119,
 											},
 											width = "50",
 											ZOrder = "1",

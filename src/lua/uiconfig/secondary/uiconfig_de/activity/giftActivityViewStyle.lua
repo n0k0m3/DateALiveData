@@ -224,7 +224,7 @@ local t =
 										PositionX = -372,
 										PositionY = 2,
 									},
-									width = "161",
+									width = "199",
 									ZOrder = "1",
 								},
 								{
@@ -249,6 +249,7 @@ local t =
 									{
 										PositionX = 483,
 									},
+									visible = "False",
 									width = "172",
 									ZOrder = "1",
 								},
@@ -270,14 +271,14 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/activity/activityStyle/giftActivity/styleCur/shadow.png",
+							texturePath = "ui/activity/activityMain3/bg2.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
 								PositionX = 510,
 								PositionY = 39,
 							},
-							width = "142",
+							width = "168",
 							ZOrder = "1",
 						},
 					},
@@ -410,15 +411,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_num",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -433,7 +434,7 @@ local t =
 											{
 												PositionY = 216,
 											},
-											width = "107",
+											width = "240",
 											ZOrder = "1",
 										},
 										{
@@ -476,7 +477,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 180,
+												PositionY = 172,
 											},
 											width = "80",
 											ZOrder = "1",
@@ -523,7 +524,7 @@ local t =
 											{
 												PositionY = -99,
 											},
-											width = "126",
+											width = "199",
 											ZOrder = "1",
 										},
 										{
@@ -568,7 +569,7 @@ local t =
 											{
 												PositionY = -215,
 											},
-											width = "92",
+											width = "145",
 											ZOrder = "1",
 											components = 
 											{
@@ -595,6 +596,7 @@ local t =
 													{
 														
 													},
+													visible = "False",
 													width = "156",
 													ZOrder = "-1",
 												},
@@ -640,10 +642,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 10,
+												PositionX = -70,
 												PositionY = -216,
 											},
-											width = "8",
+											width = "11",
 											ZOrder = "1",
 										},
 										{
@@ -703,7 +705,7 @@ local t =
 														StrokeColor = "#FFCA4465",
 														StrokeSize = 2,
 													},
-													height = "34",
+													height = "32",
 													ignoreSize = "True",
 													name = "Label_title_desc1",
 													nTextAlign = "1",
@@ -720,7 +722,7 @@ local t =
 														PositionX = -47,
 														PositionY = 4,
 													},
-													width = "53",
+													width = "104",
 													ZOrder = "1",
 												},
 												{
@@ -749,7 +751,7 @@ local t =
 														StrokeColor = "#FFD7812B",
 														StrokeSize = 2,
 													},
-													height = "34",
+													height = "32",
 													ignoreSize = "True",
 													name = "Label_title_desc",
 													nTextAlign = "1",
@@ -767,7 +769,7 @@ local t =
 														PositionY = 4,
 													},
 													visible = "False",
-													width = "102",
+													width = "487",
 													ZOrder = "1",
 												},
 											},
@@ -997,7 +999,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF9B5028",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -1014,7 +1016,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_price",
 											nTextAlign = "1",
@@ -1030,7 +1032,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "81",
+											width = "57",
 											ZOrder = "1",
 										},
 										{
@@ -1078,7 +1080,7 @@ local t =
 		{
 			"ui/activity/activityStyle/giftActivity/styleCur/timing_bg.png",
 			"ui/activity/activityStyle/giftActivity/styleCur/img_title.png",
-			"ui/activity/activityStyle/giftActivity/styleCur/shadow.png",
+			"ui/activity/activityMain3/bg2.png",
 			"ui/activity/activityStyle/giftActivity/styleCur/bg2.png",
 			"ui/activity/activityStyle/giftActivity/styleCur/tip_bg.png",
 			"ui/recharge/7.png",

@@ -2842,12 +2842,10 @@ return {
         id = 90040,
         data = {
             [413003] = {
-                [1] = 51150,
-                [2] = 51152,
+                [1] = 51152,
             },
             [413103] = {
-                [1] = 51149,
-                [2] = 51151,
+                [1] = 51151,
             },
         },
     },
@@ -5815,13 +5813,13 @@ return {
         id = 61004,
         data = {
             seasonduration = {
-                balancetime = "2021-06-06 22:30:00",
-                endtime = "2021-06-06 23:00:00",
-                opentime = "2021-04-07 05:00:00",
+                balancetime = "2021-07-22 22:30:00",
+                endtime = "2021-07-22 23:00:00",
+                opentime = "2021-05-21 05:00:00",
             },
             season = {
-                numberServer = 2,
-                numberClient = 2,
+                numberServer = 1,
+                numberClient = 1,
             },
             weekduration = {
                 [1] = {

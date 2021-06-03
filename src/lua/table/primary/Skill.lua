@@ -7028,7 +7028,7 @@ return {
         keyName = "G",
         keyCode = 2048,
         extraFirst = 0,
-        statistics = false,
+        statistics = true,
         uselessUI = 0,
         skillSubclasses = {
         },
@@ -8442,7 +8442,7 @@ return {
         conditionSkill = {
         },
         keyEvent = "down",
-        namecehua = "普攻.",
+        namecehua = "普攻",
         specialEnergy = 0,
         HurtType = "450045",
     },
@@ -12659,7 +12659,7 @@ return {
         keyName = "G",
         keyCode = 2048,
         extraFirst = 0,
-        statistics = false,
+        statistics = true,
         uselessUI = 0,
         skillSubclasses = {
         },
@@ -18767,7 +18767,7 @@ return {
         keyName = "G",
         keyCode = 2048,
         extraFirst = 0,
-        statistics = false,
+        statistics = true,
         uselessUI = 0,
         skillSubclasses = {
         },
@@ -31629,7 +31629,7 @@ return {
         keyName = "G",
         keyCode = 2048,
         extraFirst = 0,
-        statistics = false,
+        statistics = true,
         uselessUI = 0,
         skillSubclasses = {
         },
@@ -32047,7 +32047,7 @@ return {
         keyName = "G",
         keyCode = 2048,
         extraFirst = 0,
-        statistics = false,
+        statistics = true,
         uselessUI = 0,
         skillSubclasses = {
         },
@@ -34620,7 +34620,7 @@ return {
         keyName = "G",
         keyCode = 2048,
         extraFirst = 0,
-        statistics = false,
+        statistics = true,
         uselessUI = 0,
         skillSubclasses = {
         },
@@ -40600,7 +40600,7 @@ return {
         keyName = "G",
         keyCode = 2048,
         extraFirst = 0,
-        statistics = false,
+        statistics = true,
         uselessUI = 0,
         skillSubclasses = {
         },
@@ -56098,7 +56098,7 @@ return {
         keyName = "G",
         keyCode = 2048,
         extraFirst = 0,
-        statistics = false,
+        statistics = true,
         uselessUI = 0,
         skillSubclasses = {
         },
@@ -67338,7 +67338,7 @@ return {
         keyName = "G",
         keyCode = 2048,
         extraFirst = 0,
-        statistics = false,
+        statistics = true,
         uselessUI = 0,
         skillSubclasses = {
         },
@@ -71350,7 +71350,7 @@ return {
         keyName = "G",
         keyCode = 2048,
         extraFirst = 0,
-        statistics = false,
+        statistics = true,
         uselessUI = 0,
         skillSubclasses = {
         },
@@ -73267,7 +73267,7 @@ return {
         keyName = "G",
         keyCode = 2048,
         extraFirst = 0,
-        statistics = false,
+        statistics = true,
         uselessUI = 0,
         skillSubclasses = {
         },

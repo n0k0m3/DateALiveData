@@ -979,7 +979,7 @@ local t =
 								PositionX = 150,
 								PositionY = 475,
 							},
-							width = "127",
+							width = "155",
 							ZOrder = "1",
 							components = 
 							{
@@ -1010,8 +1010,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_lock",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1026,7 +1026,7 @@ local t =
 									{
 										PositionY = -33,
 									},
-									width = "163",
+									width = "253",
 									ZOrder = "1",
 									components = 
 									{
@@ -1051,7 +1051,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -100,
+												PositionX = -131,
+												PositionY = -1,
 											},
 											width = "50",
 											ZOrder = "1",

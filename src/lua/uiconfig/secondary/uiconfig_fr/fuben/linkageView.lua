@@ -371,7 +371,7 @@ local t =
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "44",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_chapterInfo",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -384,7 +384,7 @@ local t =
 								PositionX = -559,
 								PositionY = 221,
 							},
-							width = "304",
+							width = "351",
 							ZOrder = "1",
 							components = 
 							{
@@ -415,7 +415,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_chapterOrder",
 									nTextAlign = "1",
@@ -432,7 +432,7 @@ local t =
 										PositionX = 10,
 										PositionY = -2,
 									},
-									width = "50",
+									width = "125",
 									ZOrder = "1",
 								},
 								{
@@ -475,10 +475,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 77,
+										PositionX = 173,
 										PositionY = -1,
 									},
-									width = "51",
+									width = "64",
 									ZOrder = "1",
 								},
 							},
@@ -558,7 +558,7 @@ local t =
 										PositionX = -2,
 										PositionY = -3,
 									},
-									width = "83",
+									width = "64",
 									ZOrder = "1",
 								},
 							},
@@ -674,7 +674,7 @@ local t =
 											{
 												
 											},
-											width = "82",
+											width = "146",
 											ZOrder = "1",
 										},
 									},
@@ -752,7 +752,7 @@ local t =
 											{
 												
 											},
-											width = "82",
+											width = "146",
 											ZOrder = "1",
 										},
 									},
@@ -830,7 +830,7 @@ local t =
 											{
 												
 											},
-											width = "82",
+											width = "146",
 											ZOrder = "1",
 										},
 									},
@@ -860,8 +860,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -233,
-								PositionY = 220,
+								PositionX = 237,
+								PositionY = 218,
 							},
 							UItype = "Button",
 							width = "152",
@@ -912,7 +912,7 @@ local t =
 										PositionX = 19,
 										PositionY = -1,
 									},
-									width = "91",
+									width = "85",
 									ZOrder = "1",
 								},
 							},
@@ -1025,7 +1025,7 @@ local t =
 												PositionX = 16,
 												PositionY = -5,
 											},
-											width = "74",
+											width = "119",
 											ZOrder = "1",
 										},
 										{
@@ -1071,7 +1071,7 @@ local t =
 												PositionX = 23,
 												PositionY = -15,
 											},
-											width = "32",
+											width = "50",
 											ZOrder = "1",
 										},
 										{
@@ -1117,7 +1117,7 @@ local t =
 												PositionX = 20,
 												PositionY = -15,
 											},
-											width = "7",
+											width = "6",
 											ZOrder = "1",
 										},
 										{
@@ -1996,7 +1996,7 @@ local t =
 												PositionX = -44,
 												PositionY = 73,
 											},
-											width = "85",
+											width = "201",
 											ZOrder = "1",
 										},
 									},
@@ -2397,7 +2397,7 @@ local t =
 												PositionX = -57,
 												PositionY = 97,
 											},
-											width = "85",
+											width = "201",
 											ZOrder = "1",
 										},
 										{
@@ -2665,7 +2665,7 @@ local t =
 												PositionX = -44,
 												PositionY = 41,
 											},
-											width = "85",
+											width = "201",
 											ZOrder = "1",
 										},
 										{

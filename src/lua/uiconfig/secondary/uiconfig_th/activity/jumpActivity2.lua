@@ -152,7 +152,7 @@ local t =
 								PositionY = 242,
 							},
 							visible = "False",
-							width = "80",
+							width = "89",
 							ZOrder = "1",
 						},
 						{
@@ -213,7 +213,7 @@ local t =
 										StrokeColor = "#FF393A78",
 										StrokeSize = 2,
 									},
-									height = "39",
+									height = "36",
 									ignoreSize = "True",
 									name = "label_jump",
 									nTextAlign = "1",
@@ -230,7 +230,7 @@ local t =
 										PositionX = 25,
 										PositionY = -3,
 									},
-									width = "59",
+									width = "54",
 									ZOrder = "1",
 								},
 							},
@@ -244,7 +244,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FFFFFFFF",
+							FontColor = "#FF000000",
 							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
@@ -275,10 +275,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 183,
-								PositionY = 242,
+								PositionX = -456,
+								PositionY = 241,
 							},
-							width = "80",
+							width = "89",
 							ZOrder = "1",
 						},
 					},

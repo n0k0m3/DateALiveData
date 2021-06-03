@@ -103,7 +103,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							texturePath = "ui/activity/activityStyle/mainFrame/style2/bg.png",
+							texturePath = "ui/activity/activityMain3/bg1.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
@@ -281,21 +281,20 @@ local t =
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "98",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "ImageNormal",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
-									srcBlendFunc = "770",
-									texturePath = "ui/activity/activityStyle/mainFrame/style2/003.png",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/activityMain3/bu3.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = 99,
 										PositionY = 46,
 									},
-									visible = "False",
-									width = "195",
+									width = "202",
 									ZOrder = "1",
 									components = 
 									{
@@ -322,6 +321,7 @@ local t =
 											{
 												PositionX = 46,
 											},
+											visible = "False",
 											width = "60",
 											ZOrder = "1",
 										},
@@ -330,7 +330,7 @@ local t =
 											UUID = "cd39e78c_96af_45de_b4b3_2bf9ea7f1d8d",
 											anchorPoint = "False",
 											anchorPointX = "1",
-											anchorPointY = "0",
+											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -365,10 +365,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 95,
-												PositionY = -35,
+												PositionX = 94,
+												PositionY = -20,
 											},
-											width = "130",
+											width = "150",
 											ZOrder = "1",
 										},
 										{
@@ -409,27 +409,27 @@ local t =
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "98",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "ImageSelect",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
-									srcBlendFunc = "770",
-									texturePath = "ui/activity/activityStyle/mainFrame/style2/004.png",
+									srcBlendFunc = "1",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = 99,
 										PositionY = 46,
 									},
-									width = "205",
+									visible = "False",
+									width = "202",
 									ZOrder = "1",
 									components = 
 									{
 										
 										{
 											controlID = "Image_icon_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView4_activityStyleModel_activity_Game",
-											UUID = "c719c36f_badd_4359_8888_2b7b280b2893",
+											UUID = "81e799eb_b9bc_4881_ae78_79a35153cb19",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -449,6 +449,7 @@ local t =
 											{
 												PositionX = 46,
 											},
+											visible = "False",
 											width = "60",
 											ZOrder = "1",
 										},
@@ -457,7 +458,7 @@ local t =
 											UUID = "441dab89_70c1_4e65_9b53_30267950c2b0",
 											anchorPoint = "False",
 											anchorPointX = "1",
-											anchorPointY = "0",
+											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -492,10 +493,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 95,
-												PositionY = -35,
+												PositionX = 97,
+												PositionY = -20,
 											},
-											width = "130",
+											width = "150",
 											ZOrder = "1",
 										},
 										{
@@ -541,11 +542,10 @@ local t =
 	{
 		textures = 
 		{
-			"ui/activity/activityStyle/mainFrame/style2/bg.png",
-			"ui/activity/activityStyle/mainFrame/style2/003.png",
+			"ui/activity/activityMain3/bg1.png",
+			"ui/activity/activityMain3/bu3.png",
 			"ui/activity/anniversary/ui_002.png",
 			"ui/common/news_small.png",
-			"ui/activity/activityStyle/mainFrame/style2/004.png",
 		},
 		armatures = 
 		{

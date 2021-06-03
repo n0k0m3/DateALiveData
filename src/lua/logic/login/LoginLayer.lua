@@ -10,7 +10,7 @@ function LoginLayer:ctor(data)
     self.migrationServerLayerDisplay = false
     EventMgr:addEventListener(self, EV_LOGIN_UPDATESERVERNAME, handler(self.updateServerName, self))
 
-	if FunctionDataMgr:isMoJingLoginUI() then
+	if FunctionDataMgr:isMoJingLoginUI() or FunctionDataMgr:isOneYearLoginUI("loginLayerUI") then
 		self:init("lua.uiconfig.loginScene.oneYearloginLayer")
 	else
 		if TFGlobalUtils:isConnectEnServer() then
@@ -31,7 +31,7 @@ function LoginLayer:initUI(ui)
 
 	self.continue = TFDirector:getChildByPath(ui,"continue");
 	self.continue:setTextById(800086)
-	self.continue:setFontColor(ccc3(255 , 255 , 255))
+	--self.continue:setFontColor(ccc3(255 , 255 , 255))
 	local tween =
 	    {
 	        target = self.continue,
@@ -195,7 +195,8 @@ function LoginLayer:initUI(ui)
 	self.Button_pv:getChildByName("Label_pv"):setSkewX(5)
 	local vedioPath
 	if FunctionDataMgr:isOneYearLoginUI() then
-		vedioPath = "video/haiwangxingopenpv.MP4"
+		--vedioPath = "video/haiwangxingopenpv.MP4"   --英文版暂时改为默认pv
+		vedioPath = "video/openpv.mp4"
 	else
 		vedioPath = "video/openpv.mp4"
 	end

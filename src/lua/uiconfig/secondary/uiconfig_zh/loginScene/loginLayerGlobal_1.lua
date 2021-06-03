@@ -162,14 +162,14 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "30",
+							height = "51",
 							ignoreSize = "True",
 							name = "logo",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/login/global_new1/b6.png",
+							texturePath = "ui/login/global_new1/b8.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
@@ -179,7 +179,7 @@ local t =
 								PercentX = 50.23,
 								PercentY = 4.23,
 							},
-							width = "270",
+							width = "1386",
 							ZOrder = "1",
 							components = 
 							{
@@ -1735,6 +1735,7 @@ local t =
 									{
 										PositionY = -38,
 									},
+									visible = "False",
 									width = "76",
 									ZOrder = "1",
 								},
@@ -1816,6 +1817,7 @@ local t =
 									{
 										PositionY = -38,
 									},
+									visible = "False",
 									width = "40",
 									ZOrder = "1",
 								},
@@ -1897,6 +1899,7 @@ local t =
 									{
 										PositionY = -38,
 									},
+									visible = "False",
 									width = "40",
 									ZOrder = "1",
 								},
@@ -1978,6 +1981,7 @@ local t =
 									{
 										PositionY = -38,
 									},
+									visible = "False",
 									width = "76",
 									ZOrder = "1",
 								},
@@ -2161,7 +2165,6 @@ local t =
 		textures = 
 		{
 			"ui/login/global_new1/b8.png",
-			"ui/login/global_new1/b6.png",
 			"ui/login/1.png",
 			"ui/common/pop_ui/pop_ui_01.png",
 			"ui/login/2.png",

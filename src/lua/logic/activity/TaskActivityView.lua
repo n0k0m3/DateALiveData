@@ -237,7 +237,7 @@ function TaskActivityView:updateTaskItem(item,itemId)
        foo.Label_desc:setTextById(tonumber(itemInfo.extendData.des2) ,tonumber(itemInfo.target) ,itemInfo.extendData.maidList )
    elseif strIndex == 1 then
        foo.Label_desc:setTextById(tonumber(itemInfo.extendData.des2) ,tonumber(itemInfo.target))
-        print(strIndex , itemInfo,itemInfo.target)
+        --print(strIndex , itemInfo,itemInfo.target)
 
    else
         foo.Label_desc:setTextById(tonumber(itemInfo.extendData.des2))

@@ -955,20 +955,21 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "26",
 											ignoreSize = "True",
 											name = "Image_Limit",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityStyle/giftActivity/styleCur/tip_bg.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 1,
 												PositionY = -212,
 											},
-											width = "64",
+											width = "156",
 											ZOrder = "1",
 											components = 
 											{
@@ -1014,7 +1015,6 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -1,
-														PositionY = 4,
 													},
 													width = "158",
 													ZOrder = "1",
@@ -1040,15 +1040,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1061,9 +1061,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 196,
+												PositionY = 216,
 											},
-											width = "189",
+											width = "240",
 											ZOrder = "1",
 										},
 										{
@@ -2090,6 +2090,7 @@ local t =
 			"ui/activity/activityMain3/b2.png",
 			"ui/activity/activityMain3/b3.png",
 			"ui/activity/activityMain3/b1.png",
+			"ui/activity/activityStyle/giftActivity/styleCur/tip_bg.png",
 			"ui/activity/activityMain3/b0_1.png",
 			"ui/activity/activityMain3/b0_2.png",
 			"icon/system/002.png",

@@ -479,7 +479,7 @@ return {
         gameFeedback = {
         },
         optionTitle = "前端和後端主程",
-        optionDesc = "你已經把辦公室裏所有東西都弄亂了！程式是很愛乾淨的你知道嗎！",
+        optionDesc = "你已經把辦公室裡所有東西都弄亂了！程式是很愛乾淨的你知道嗎！",
         gameTypeParam = {
             [1] = {
                 [1] = {
@@ -831,7 +831,7 @@ return {
         gameFeedback = {
         },
         optionTitle = "宣傳活動",
-        optionDesc = "這裏似乎正在舉辦宣傳活動，一個戴墨鏡的人向你迎面走來。",
+        optionDesc = "這裡似乎正在舉辦宣傳活動，一個戴墨鏡的人向你迎面走來。",
         gameTypeParam = {
             [1] = {
                 [1] = {

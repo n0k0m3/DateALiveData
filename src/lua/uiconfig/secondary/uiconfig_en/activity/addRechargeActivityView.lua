@@ -100,14 +100,14 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/activity/picture/ad214.png",
+							texturePath = "ui/activity/picture/ad40.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
 								PositionX = -4,
-								PositionY = -6,
+								PositionY = -7,
 							},
-							width = "886",
+							width = "892",
 							ZOrder = "1",
 							components = 
 							{
@@ -139,8 +139,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 156,
-										PositionY = -60,
+										PositionX = -195,
+										PositionY = -72,
 									},
 									uipanelviewmodel = 
 									{
@@ -299,7 +299,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FFFFEA43",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -312,11 +312,11 @@ local t =
 									fontSize = "38",
 									fontStroke = 
 									{
-										IsStroke = true,
-										StrokeColor = "#FF4A43AC",
-										StrokeSize = 2,
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
 									},
-									height = "48",
+									height = "44",
 									ignoreSize = "True",
 									name = "Label_recharge",
 									nTextAlign = "1",
@@ -330,10 +330,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -203,
-										PositionY = -211,
+										PositionX = -271,
+										PositionY = -182,
 									},
-									width = "90",
+									width = "89",
 									ZOrder = "1",
 								},
 								{
@@ -348,10 +348,10 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "97",
+									height = "131",
 									ignoreSize = "True",
 									name = "Button_recharge",
-									normal = "ui/activity/add_recharge/003.png",
+									normal = "ui/activity/add_recharge/004.png",
 									scaleX = "0.9",
 									scaleY = "0.9",
 									sizepercentx = "0",
@@ -365,7 +365,7 @@ local t =
 										PositionY = -230,
 									},
 									UItype = "Button",
-									width = "262",
+									width = "330",
 									ZOrder = "1",
 								},
 							},
@@ -413,6 +413,7 @@ local t =
 								PositionX = -398,
 								PositionY = -218,
 							},
+							visible = "False",
 							width = "186",
 							ZOrder = "1",
 						},
@@ -544,22 +545,22 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "102",
+											height = "400",
 											ignoreSize = "True",
 											name = "Image_geted",
-											scaleX = "0.8",
-											scaleY = "0.8",
+											scaleX = "0.2",
+											scaleY = "0.2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/activity/add_recharge/005.png",
+											texturePath = "ui/task/box_3.png",
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
 												PositionY = 62,
 											},
-											width = "102",
+											width = "400",
 											ZOrder = "1",
 										},
 										{
@@ -687,13 +688,13 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "102",
+											height = "400",
 											ignoreSize = "True",
 											name = "Button_get",
-											normal = "ui/activity/add_recharge/006.png",
+											normal = "ui/task/box_2.png",
 											opacity = "76",
-											scaleX = "0.8",
-											scaleY = "0.8",
+											scaleX = "0.2",
+											scaleY = "0.2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -704,7 +705,7 @@ local t =
 												PositionY = 49,
 											},
 											UItype = "Button",
-											width = "102",
+											width = "400",
 											ZOrder = "1",
 										},
 										{
@@ -801,22 +802,22 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "102",
+											height = "400",
 											ignoreSize = "True",
 											name = "Image_notGet",
-											scaleX = "0.8",
-											scaleY = "0.8",
+											scaleX = "0.2",
+											scaleY = "0.2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/activity/add_recharge/007.png",
+											texturePath = "ui/task/box_1.png",
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
 												PositionY = 57,
 											},
-											width = "102",
+											width = "400",
 											ZOrder = "1",
 										},
 										{
@@ -881,11 +882,11 @@ local t =
 	{
 		textures = 
 		{
-			"ui/activity/picture/ad214.png",
-			"ui/activity/add_recharge/003.png",
-			"ui/activity/add_recharge/005.png",
-			"ui/activity/add_recharge/006.png",
-			"ui/activity/add_recharge/007.png",
+			"ui/activity/picture/ad40.png",
+			"ui/activity/add_recharge/004.png",
+			"ui/task/box_3.png",
+			"ui/task/box_2.png",
+			"ui/task/box_1.png",
 		},
 		armatures = 
 		{

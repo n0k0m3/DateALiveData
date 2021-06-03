@@ -70,8 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 425,
-						PositionY = 354,
+						PositionX = 568,
+						PositionY = 320,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -170,7 +170,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -187,7 +187,7 @@ local t =
 										PositionX = -484,
 										PositionY = 227,
 									},
-									width = "123",
+									width = "446",
 									ZOrder = "1",
 								},
 								{
@@ -277,8 +277,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "34",
-											ignoreSize = "True",
+											height = "49",
+											ignoreSize = "False",
 											name = "Image_tips",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -314,18 +314,20 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = true,
 														StrokeColor = "#FF3F7162",
 														StrokeSize = 2,
 													},
-													height = "31",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_tips",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													scaleX = "0.8",
+													scaleY = "0.8",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -335,9 +337,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = -3,
+														
 													},
-													width = "180",
+													width = "270",
 													ZOrder = "1",
 												},
 											},
@@ -415,7 +417,7 @@ local t =
 													{
 														
 													},
-													width = "99",
+													width = "42",
 													ZOrder = "1",
 												},
 											},
@@ -514,7 +516,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -530,7 +532,7 @@ local t =
 											{
 												PositionY = 195,
 											},
-											width = "99",
+											width = "233",
 											ZOrder = "1",
 										},
 										{
@@ -648,7 +650,7 @@ local t =
 														StrokeColor = "#FF3F7162",
 														StrokeSize = 2,
 													},
-													height = "31",
+													height = "29",
 													ignoreSize = "True",
 													name = "Label_progress",
 													nTextAlign = "1",
@@ -664,7 +666,7 @@ local t =
 													{
 														PositionY = 22,
 													},
-													width = "86",
+													width = "61",
 													ZOrder = "1",
 												},
 											},
@@ -877,7 +879,7 @@ local t =
 													{
 														
 													},
-													width = "51",
+													width = "65",
 													ZOrder = "1",
 												},
 											},
@@ -994,7 +996,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -1010,7 +1012,7 @@ local t =
 											{
 												PositionY = 195,
 											},
-											width = "99",
+											width = "233",
 											ZOrder = "1",
 										},
 										{
@@ -1128,7 +1130,7 @@ local t =
 														StrokeColor = "#FF3F7162",
 														StrokeSize = 2,
 													},
-													height = "31",
+													height = "29",
 													ignoreSize = "True",
 													name = "Label_progress",
 													nTextAlign = "1",
@@ -1144,7 +1146,7 @@ local t =
 													{
 														PositionY = 22,
 													},
-													width = "86",
+													width = "61",
 													ZOrder = "1",
 												},
 											},
@@ -1357,7 +1359,7 @@ local t =
 													{
 														
 													},
-													width = "51",
+													width = "65",
 													ZOrder = "1",
 												},
 											},
@@ -1474,7 +1476,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -1490,7 +1492,7 @@ local t =
 											{
 												PositionY = 195,
 											},
-											width = "99",
+											width = "233",
 											ZOrder = "1",
 										},
 										{
@@ -1608,7 +1610,7 @@ local t =
 														StrokeColor = "#FF3F7162",
 														StrokeSize = 2,
 													},
-													height = "31",
+													height = "29",
 													ignoreSize = "True",
 													name = "Label_progress",
 													nTextAlign = "1",
@@ -1624,7 +1626,7 @@ local t =
 													{
 														PositionY = 22,
 													},
-													width = "86",
+													width = "61",
 													ZOrder = "1",
 												},
 											},
@@ -1837,7 +1839,7 @@ local t =
 													{
 														
 													},
-													width = "51",
+													width = "65",
 													ZOrder = "1",
 												},
 											},
@@ -1929,8 +1931,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 425,
-						PositionY = -399,
+						PositionX = 568,
+						PositionY = -468,
 						TopPosition = 788,
 						relativeToName = "Panel",
 						nType = 3,

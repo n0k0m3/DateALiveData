@@ -180,7 +180,7 @@ local t =
 										PositionY = -51,
 									},
 									visible = "False",
-									width = "81",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -328,7 +328,7 @@ local t =
 										PositionX = -421,
 									},
 									visible = "False",
-									width = "83",
+									width = "57",
 									ZOrder = "1",
 								},
 								{
@@ -373,7 +373,7 @@ local t =
 									{
 										PositionX = -375,
 									},
-									width = "161",
+									width = "184",
 									ZOrder = "1",
 								},
 								{
@@ -507,7 +507,7 @@ local t =
 											{
 												PositionX = 155,
 											},
-											width = "71",
+											width = "74",
 											ZOrder = "1",
 										},
 									},
@@ -643,7 +643,7 @@ local t =
 											{
 												PositionX = 155,
 											},
-											width = "71",
+											width = "74",
 											ZOrder = "1",
 										},
 									},
@@ -779,7 +779,7 @@ local t =
 											{
 												PositionX = 155,
 											},
-											width = "71",
+											width = "74",
 											ZOrder = "1",
 										},
 									},
@@ -952,23 +952,24 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
-											ignoreSize = "True",
+											height = "26",
+											ignoreSize = "False",
 											name = "Image_Limit",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityStyle/giftActivity/styleCur/tip_bg.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 1,
 												PositionY = -212,
 											},
-											width = "64",
+											width = "230",
 											ZOrder = "1",
 											components = 
 											{
@@ -999,8 +1000,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "34",
-													ignoreSize = "False",
+													height = "21",
+													ignoreSize = "True",
 													name = "Label_countLimit",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -1013,10 +1014,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -1,
-														PositionY = 4,
+														
 													},
-													width = "158",
+													width = "127",
 													ZOrder = "1",
 												},
 											},
@@ -1040,15 +1040,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1061,9 +1061,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 196,
+												PositionX = -1,
+												PositionY = 215,
 											},
-											width = "108",
+											width = "240",
 											ZOrder = "1",
 										},
 										{
@@ -1272,7 +1273,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 												{
@@ -1321,7 +1322,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -1497,7 +1498,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 												{
@@ -1546,7 +1547,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -1722,7 +1723,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 												{
@@ -1771,7 +1772,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -1826,14 +1827,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF8529B1",
 										StrokeSize = 1,
 									},
-									height = "34",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_buy",
 									nTextAlign = "1",
@@ -1849,7 +1850,7 @@ local t =
 									{
 										PositionY = -155,
 									},
-									width = "67",
+									width = "128",
 									ZOrder = "1",
 								},
 								{
@@ -1924,7 +1925,7 @@ local t =
 												PositionX = -4,
 												PositionY = -9,
 											},
-											width = "31",
+											width = "30",
 											ZOrder = "1",
 										},
 										{
@@ -1970,7 +1971,7 @@ local t =
 												PositionX = 22,
 												PositionY = -14,
 											},
-											width = "12",
+											width = "11",
 											ZOrder = "1",
 										},
 										{
@@ -2016,7 +2017,7 @@ local t =
 												PositionX = 3,
 												PositionY = -29,
 											},
-											width = "23",
+											width = "44",
 											ZOrder = "1",
 										},
 									},
@@ -2090,6 +2091,7 @@ local t =
 			"ui/activity/activityMain3/b2.png",
 			"ui/activity/activityMain3/b3.png",
 			"ui/activity/activityMain3/b1.png",
+			"ui/activity/activityStyle/giftActivity/styleCur/tip_bg.png",
 			"ui/activity/activityMain3/b0_1.png",
 			"ui/activity/activityMain3/b0_2.png",
 			"icon/system/002.png",

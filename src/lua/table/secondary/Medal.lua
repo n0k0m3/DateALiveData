@@ -6,7 +6,7 @@ return {
         accessdes = "2460035",
         skilltitle = "",
         effectivetime = -1,
-        star = 5,
+        nameTextId = 2450021,
         icon = "icon/item/goods/1200023.png",
         quality = 1,
         baseAttribute = {
@@ -14,14 +14,15 @@ return {
         id = 1200023,
         baseskill = {
         },
-        name = "2460033",
         accessway = {
         },
+        name = "2460033",
+        star = 5,
+        desTextId = 2460034,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460034,
         showicon = "icon/item/goods/1200022.png",
         MedalType = 2,
     },
@@ -32,7 +33,7 @@ return {
         accessdes = "2470018",
         skilltitle = "",
         effectivetime = -1,
-        star = 5,
+        nameTextId = 2460036,
         icon = "icon/item/goods/1200024.png",
         quality = 1,
         baseAttribute = {
@@ -40,14 +41,15 @@ return {
         id = 1200024,
         baseskill = {
         },
-        name = "2460036",
         accessway = {
         },
+        name = "2460036",
+        star = 5,
+        desTextId = 2460037,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460037,
         showicon = "icon/item/goods/1200024.png",
         MedalType = 2,
     },
@@ -58,7 +60,7 @@ return {
         accessdes = "2460040",
         skilltitle = "",
         effectivetime = -1,
-        star = 5,
+        nameTextId = 2460038,
         icon = "icon/item/goods/1200025.png",
         quality = 1,
         baseAttribute = {
@@ -66,14 +68,15 @@ return {
         id = 1200025,
         baseskill = {
         },
-        name = "2460038",
         accessway = {
         },
+        name = "2460038",
+        star = 5,
+        desTextId = 2460039,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460039,
         showicon = "icon/item/goods/1200025.png",
         MedalType = 2,
     },
@@ -84,7 +87,7 @@ return {
         accessdes = "2460043",
         skilltitle = "",
         effectivetime = -1,
-        star = 4,
+        nameTextId = 2460041,
         icon = "icon/item/goods/1200026.png",
         quality = 1,
         baseAttribute = {
@@ -92,14 +95,15 @@ return {
         id = 1200026,
         baseskill = {
         },
-        name = "2460041",
         accessway = {
         },
+        name = "2460041",
+        star = 4,
+        desTextId = 2460042,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460042,
         showicon = "icon/item/goods/1200026.png",
         MedalType = 1,
     },
@@ -110,7 +114,7 @@ return {
         accessdes = "2460095",
         skilltitle = "",
         effectivetime = -1,
-        star = 4,
+        nameTextId = 2460094,
         icon = "icon/item/goods/1200027.png",
         quality = 1,
         baseAttribute = {
@@ -118,14 +122,15 @@ return {
         id = 1200027,
         baseskill = {
         },
-        name = "2460094",
         accessway = {
         },
+        name = "2460094",
+        star = 4,
+        desTextId = 2460095,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460095,
         showicon = "icon/item/goods/1200027.png",
         MedalType = 2,
     },
@@ -136,7 +141,7 @@ return {
         accessdes = "2470000",
         skilltitle = "",
         effectivetime = -1,
-        star = 3,
+        nameTextId = 2450000,
         icon = "icon/item/goods/1200001.png",
         quality = 1,
         baseAttribute = {
@@ -144,14 +149,15 @@ return {
         id = 1200001,
         baseskill = {
         },
-        name = "2450000",
         accessway = {
         },
+        name = "2450000",
+        star = 3,
+        desTextId = 2460000,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460000,
         showicon = "icon/item/goods/1200001.png",
         MedalType = 3,
     },
@@ -162,7 +168,7 @@ return {
         accessdes = "2460148",
         skilltitle = "",
         effectivetime = -1,
-        star = 3,
+        nameTextId = 2460146,
         icon = "icon/item/goods/1200034.png",
         quality = 1,
         baseAttribute = {
@@ -170,14 +176,15 @@ return {
         id = 1200034,
         baseskill = {
         },
-        name = "2460146",
         accessway = {
         },
+        name = "2460146",
+        star = 3,
+        desTextId = 2460147,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460147,
         showicon = "icon/item/goods/1200034.png",
         MedalType = 2,
     },
@@ -188,7 +195,7 @@ return {
         accessdes = "2460154",
         skilltitle = "",
         effectivetime = -1,
-        star = 3,
+        nameTextId = 2460152,
         icon = "icon/item/goods/1200036.png",
         quality = 1,
         baseAttribute = {
@@ -196,14 +203,15 @@ return {
         id = 1200036,
         baseskill = {
         },
-        name = "2460152",
         accessway = {
         },
+        name = "2460152",
+        star = 3,
+        desTextId = 2460153,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460153,
         showicon = "icon/item/goods/1200036.png",
         MedalType = 2,
     },
@@ -214,7 +222,7 @@ return {
         accessdes = "2460160",
         skilltitle = "",
         effectivetime = -1,
-        star = 3,
+        nameTextId = 2460158,
         icon = "icon/item/goods/1200038.png",
         quality = 1,
         baseAttribute = {
@@ -222,14 +230,15 @@ return {
         id = 1200038,
         baseskill = {
         },
-        name = "2460158",
         accessway = {
         },
+        name = "2460158",
+        star = 3,
+        desTextId = 2460159,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460159,
         showicon = "icon/item/goods/1200038.png",
         MedalType = 2,
     },
@@ -240,7 +249,7 @@ return {
         accessdes = "2470007",
         skilltitle = "",
         effectivetime = -1,
-        star = 4,
+        nameTextId = 2450007,
         icon = "icon/item/goods/1200008.png",
         quality = 1,
         baseAttribute = {
@@ -248,14 +257,15 @@ return {
         id = 1200008,
         baseskill = {
         },
-        name = "2450007",
         accessway = {
         },
+        name = "2450007",
+        star = 4,
+        desTextId = 2460007,
         size = {
             [1] = 50,
             [2] = 60,
         },
-        desTextId = 2460007,
         showicon = "icon/item/goods/1200008.png",
         MedalType = 1,
     },
@@ -266,7 +276,7 @@ return {
         accessdes = "2470011",
         skilltitle = "",
         effectivetime = -1,
-        star = 5,
+        nameTextId = 2450011,
         icon = "icon/item/goods/1200012.png",
         quality = 1,
         baseAttribute = {
@@ -274,14 +284,15 @@ return {
         id = 1200012,
         baseskill = {
         },
-        name = "2450011",
         accessway = {
         },
+        name = "2450011",
+        star = 5,
+        desTextId = 2460011,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460011,
         showicon = "icon/item/goods/1200012.png",
         MedalType = 2,
     },
@@ -292,7 +303,7 @@ return {
         accessdes = "2470012",
         skilltitle = "",
         effectivetime = -1,
-        star = 5,
+        nameTextId = 2450012,
         icon = "icon/item/goods/1200013.png",
         quality = 1,
         baseAttribute = {
@@ -300,14 +311,15 @@ return {
         id = 1200013,
         baseskill = {
         },
-        name = "2450012",
         accessway = {
         },
+        name = "2450012",
+        star = 5,
+        desTextId = 2460012,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460012,
         showicon = "icon/item/goods/1200013.png",
         MedalType = 2,
     },
@@ -318,7 +330,7 @@ return {
         accessdes = "2470013",
         skilltitle = "",
         effectivetime = -1,
-        star = 4,
+        nameTextId = 2450013,
         icon = "icon/item/goods/1200014.png",
         quality = 1,
         baseAttribute = {
@@ -326,15 +338,43 @@ return {
         id = 1200014,
         baseskill = {
         },
-        name = "2450013",
         accessway = {
         },
+        name = "2450013",
+        star = 4,
+        desTextId = 2460013,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460013,
         showicon = "icon/item/goods/1200014.png",
+        MedalType = 2,
+    },
+    [1200015] = {
+        superType = 12,
+        order = 13,
+        exposedview = "icon/item/goods/1200015.png",
+        accessdes = "2470014",
+        skilltitle = "",
+        effectivetime = -1,
+        nameTextId = 2450014,
+        icon = "icon/item/goods/529015.png",
+        quality = 1,
+        baseAttribute = {
+        },
+        id = 1200015,
+        baseskill = {
+        },
+        accessway = {
+        },
+        name = "2450014",
+        star = 4,
+        desTextId = 2460014,
+        size = {
+            [1] = 55,
+            [2] = 60,
+        },
+        showicon = "icon/item/goods/1200015.png",
         MedalType = 2,
     },
     [1200016] = {
@@ -344,7 +384,7 @@ return {
         accessdes = "2460017",
         skilltitle = "",
         effectivetime = -1,
-        star = 5,
+        nameTextId = 2460015,
         icon = "icon/item/goods/1200016.png",
         quality = 1,
         baseAttribute = {
@@ -352,14 +392,15 @@ return {
         id = 1200016,
         baseskill = {
         },
-        name = "2460015",
         accessway = {
         },
+        name = "2460015",
+        star = 5,
+        desTextId = 2460016,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460016,
         showicon = "icon/item/goods/1200016.png",
         MedalType = 2,
     },
@@ -370,7 +411,7 @@ return {
         accessdes = "2460026",
         skilltitle = "",
         effectivetime = -1,
-        star = 5,
+        nameTextId = 2460024,
         icon = "icon/item/goods/1200018.png",
         quality = 1,
         baseAttribute = {
@@ -378,16 +419,44 @@ return {
         id = 1200018,
         baseskill = {
         },
-        name = "2460024",
         accessway = {
         },
+        name = "2460024",
+        star = 5,
+        desTextId = 2460025,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460025,
         showicon = "icon/item/goods/1200018.png",
         MedalType = 2,
+    },
+    [1200020] = {
+        superType = 12,
+        order = 18,
+        exposedview = "icon/item/goods/1200020.png",
+        accessdes = "2470015",
+        skilltitle = "",
+        effectivetime = -1,
+        nameTextId = 2450019,
+        icon = "icon/item/goods/529024.png",
+        quality = 1,
+        baseAttribute = {
+        },
+        id = 1200020,
+        baseskill = {
+        },
+        accessway = {
+        },
+        name = "2450019",
+        star = 5,
+        desTextId = 2460030,
+        size = {
+            [1] = 55,
+            [2] = 60,
+        },
+        showicon = "icon/item/goods/1200020.png",
+        MedalType = 3,
     },
     [1210000] = {
         superType = 12,
@@ -396,7 +465,7 @@ return {
         accessdes = "190000156",
         skilltitle = "",
         effectivetime = -1,
-        star = 3,
+        nameTextId = 190000154,
         icon = "icon/item/goods/1210000.png",
         quality = 1,
         baseAttribute = {
@@ -404,14 +473,15 @@ return {
         id = 1210000,
         baseskill = {
         },
-        name = "190000154",
         accessway = {
         },
+        name = "190000154",
+        star = 3,
+        desTextId = 190000155,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 190000155,
         showicon = "icon/item/goods/1210000.png",
         MedalType = 3,
     },
@@ -422,7 +492,7 @@ return {
         accessdes = "2460142",
         skilltitle = "",
         effectivetime = -1,
-        star = 4,
+        nameTextId = 2460140,
         icon = "icon/item/goods/1200032.png",
         quality = 1,
         baseAttribute = {
@@ -430,14 +500,15 @@ return {
         id = 1200032,
         baseskill = {
         },
-        name = "2460140",
         accessway = {
         },
+        name = "2460140",
+        star = 4,
+        desTextId = 2460141,
         size = {
             [1] = 55,
             [2] = 60,
         },
-        desTextId = 2460141,
         showicon = "icon/item/goods/1200032.png",
         MedalType = 2,
     },

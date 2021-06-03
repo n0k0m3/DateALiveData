@@ -312,7 +312,7 @@ local t =
 											{
 												
 											},
-											width = "191",
+											width = "197",
 											ZOrder = "1",
 										},
 									},
@@ -401,7 +401,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFCF5D8",
+									FontColor = "#FFFEC8FD",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -434,7 +434,7 @@ local t =
 									{
 										IsPercent = true,
 									},
-									width = "93",
+									width = "99",
 									ZOrder = "1",
 								},
 							},

@@ -140,7 +140,7 @@ function FubenChapterView:initData(fubenType, selectChapter, theaterId)
     self.linkageData.beginTime      = linkageChapterInfo.begin
     self.linkageData.endTime        = linkageChapterInfo["end"]
     self.linkageData.chapterCid = 3001
-    local year, month, day = Utils:getDate(self.linkageData.endTime, true)
+    local year, month, day = Utils:getUTCDateYMD(self.linkageData.endTime, true ,GV_UTC_TIME_ZONE)  --海王星时间utc格式化
     self.linkageData.tips  = TextDataMgr:getText(12030003,month,day) 
 
     local serverTime = ServerDataMgr:getServerTime()
@@ -499,7 +499,7 @@ function FubenChapterView:refreshLinkage()
     else
         self.Panel_linkage.Panel_time:setVisible(false) 
     end
-    self.Panel_linkage.Label_time_value:setTextById(self.linkageData.durationText)
+    self.Panel_linkage.Label_time_value:setText(TextDataMgr:getText(self.linkageData.durationText)..GV_UTC_TIME_STRING)
     local visible = eTime > 0 and sTime < 0
 
     self.Panel_linkage.Button_start:setTouchEnabled(visible)
@@ -507,10 +507,10 @@ function FubenChapterView:refreshLinkage()
     --刷新关卡进度
     local totalFightStarNum, totalDatingStarNum = FubenDataMgr:getChapterTotalStarNum(self.linkageData.chapterCid, EC_FBDiff.SIMPLE)
     local fightStarNum, datingStarNum = FubenDataMgr:getChapterStarNum(self.linkageData.chapterCid, EC_FBDiff.SIMPLE) 
-    self.Panel_linkage.Label_progress_1:setText(TextDataMgr:getText(300614)..string.format("%s/%s",fightStarNum,totalFightStarNum))
+    self.Panel_linkage.Label_progress_1:setText(TextDataMgr:getText(300614)..string.format(" %s/%s",fightStarNum,totalFightStarNum))
     totalFightStarNum, totalDatingStarNum = FubenDataMgr:getChapterTotalStarNum(self.linkageData.chapterCid, EC_FBDiff.HARD)
     fightStarNum, datingStarNum = FubenDataMgr:getChapterStarNum(self.linkageData.chapterCid, EC_FBDiff.HARD) 
-    self.Panel_linkage.Label_progress_2:setText(TextDataMgr:getText(300121)..string.format("%s/%s",fightStarNum,totalFightStarNum))
+    self.Panel_linkage.Label_progress_2:setText(TextDataMgr:getText(300121)..string.format(" %s/%s",fightStarNum,totalFightStarNum))
 end
 
 function FubenChapterView:refreshKsanPage()
@@ -819,21 +819,7 @@ function FubenChapterView:updateFubenItem(index)
         end
     elseif fubenData.type_ == EC_FBType.HWX_FUBEN then
         if self.activityHwxFuben then
-            local year, month, day = Utils:getDate(self.activityHwxFuben.showEndTime, true)
-            local timeStr  = TextDataMgr:getText(12030003,month,day)
-            foo.Label_tip:setScale(0.8)
-            foo.Label_tip:setText(timeStr)
-        end
-    elseif fubenData.type_ == EC_FBType.NEWYEAR_FUBEN then
-        if self.activityNewYear then
-            local year, month, day = Utils:getDate(self.activityNewYear.showEndTime, true)
-            local timeStr  = TextDataMgr:getText(12030003,month,day)
-            foo.Label_tip:setScale(0.8)
-            foo.Label_tip:setText(timeStr)
-        end
-    elseif fubenData.type_ == EC_FBType.HWX_FUBEN then
-        if self.activityHwxFuben then
-            local year, month, day = Utils:getDate(self.activityHwxFuben.showEndTime, true)
+            local year, month, day = Utils:getUTCDateYMD(self.activityHwxFuben.showEndTime, GV_UTC_TIME_ZONE)
             local timeStr  = TextDataMgr:getText(12030003,month,day)
             foo.Label_tip:setScale(0.8)
             foo.Label_tip:setText(timeStr)

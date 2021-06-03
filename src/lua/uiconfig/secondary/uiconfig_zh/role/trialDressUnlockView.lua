@@ -316,8 +316,8 @@ local t =
 										IsUseQueue = true,
 										AnimationQueue = 
 										{
-											[1] = "ALL_zn",
-											[2] = "xunhuan_zn",
+											[1] = "ALL_en",
+											[2] = "xunhuan_en",
 										},
 									},
 									srcBlendFunc = "1",

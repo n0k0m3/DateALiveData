@@ -11990,7 +11990,7 @@ return {
         text = {
             [1] = {
                 speed = 60,
-                text = "這裏可不是妳們的地盤，",
+                text = "這裡可不是妳們的地盤，",
                 delay = 2500,
             },
             [2] = {
@@ -12555,7 +12555,7 @@ return {
             },
             [2] = {
                 speed = 60,
-                text = "確認「目標」就在會場裏。",
+                text = "確認「目標」就在會場裡。",
             },
         },
         actionL = {
@@ -13520,7 +13520,7 @@ return {
             },
             [2] = {
                 speed = 60,
-                text = "這裏先交給我。",
+                text = "這裡先交給我。",
             },
         },
         actionL = {
@@ -91597,7 +91597,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾蓮·馬瑟斯",
+        name = "艾蓮·梅瑟斯",
         cameraAction = 0,
         headL = "12401_weixiao",
         conditions = {
@@ -97173,7 +97173,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "13101_jingya",
         conditions = {
@@ -97241,7 +97241,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -97275,7 +97275,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -97309,7 +97309,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "10901_a1",
         conditions = {
@@ -97377,7 +97377,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "10901_a1",
         conditions = {
@@ -97547,7 +97547,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "10901_a2",
         conditions = {
@@ -97955,7 +97955,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -98023,7 +98023,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -98805,7 +98805,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "13101_jingya",
         conditions = {
@@ -98873,7 +98873,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -99519,7 +99519,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "10505_b1",
         conditions = {
@@ -101491,7 +101491,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -101559,7 +101559,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾倫",
+        name = "艾蓮",
         cameraAction = 0,
         headL = "10901_a2",
         conditions = {
@@ -110458,7 +110458,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "對了，艾倫。之前尼利路島上發來了聯絡……",
+                text = "對了，艾蓮。之前尼利路島上發來了聯絡……",
             },
         },
         actionL = {
@@ -111410,7 +111410,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "而且稍遠一點的地方——還有疑似艾倫?馬瑟斯的反應。",
+                text = "而且稍遠一點的地方——還有疑似艾蓮?梅瑟斯的反應。",
             },
         },
         actionL = {
@@ -111478,7 +111478,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "沒有時間了。琴里你們繼續攻略計畫。艾倫?馬瑟斯我們這邊會想辦法應對。",
+                text = "沒有時間了。琴里你們繼續攻略計畫。艾蓮?梅瑟斯我們這邊會想辦法應對。",
             },
         },
         actionL = {

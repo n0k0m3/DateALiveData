@@ -5629,7 +5629,7 @@ return {
                 [2] = 1,
             },
             [2] = {
-                [1] = 500001,
+                [1] = 665101,
                 [2] = 1,
             },
             [3] = {
@@ -5643,12 +5643,13 @@ return {
         fileName = "ActivityMainView4",
         isResource = true,
         helpInterface = {
+            [1] = 1108,
         },
         isHelp = false,
         help = "",
         isMain = true,
         isBack = true,
-        name = "190016186",
+        name = "16000582",
         icon = "icon/system/025.png",
         isDiban = true,
     },

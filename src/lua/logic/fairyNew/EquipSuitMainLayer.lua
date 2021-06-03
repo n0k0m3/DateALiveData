@@ -432,8 +432,13 @@ function EquipSuitMainLayer:updatePanelInfo()
             v:setVisible(false)
         end
     end
-
-    local attrValues = EquipmentDataMgr:getNewEquipCurAttribute(euipMent.cid)
+    local equipmentIdNum = nil
+    if euipMent.id and tonumber(euipMent.id) then
+        equipmentIdNum = euipMent.id
+    else
+        equipmentIdNum = euipMent.cid
+    end
+    local attrValues = EquipmentDataMgr:getNewEquipCurAttribute(equipmentIdNum)
     self.Label_info_atk_value:setText(attrValues[EC_Attr.ATK] or 0)
     self.Label_info_def_value:setText(attrValues[EC_Attr.DEF] or 0)
     self.Label_info_hp_value:setText(attrValues[EC_Attr.HP] or 0)

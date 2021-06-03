@@ -55,11 +55,16 @@ function addActivityItem(self)
 
     Panel_activityItem.setTabBtnIcon = function (self,activity)
         local iconPath = activity.titleIcon or "ui/activity/picture/icon67.png"
+
         if self.ImageSelect.Image_icon then
             self.ImageSelect.Image_icon:setTexture(string.sub(iconPath,0,-5) .. "_1.png")
         else
             self.ImageSelect:setTexture(string.sub(iconPath,0,-5) .. "_1.png")
         end
+        --海王星暂时修改代码
+        self.ImageSelect:setTexture(iconPath)
+
+        
         if self.ImageNormal.Image_icon then
             self.ImageNormal.Image_icon:setTexture(iconPath)
         else

@@ -466,6 +466,9 @@ function MainLayer:initUI(ui)
     if TFGlobalUtils:isConnectEnServer() or TFGlobalUtils:isConnectMiniServer()  then
         self.button_Caociyuan:setTextureNormal("ui/mainLayer3/c12.png")  --英文版设置活动按钮ui路径统一为地错
         self.button_Caociyuan:setTexturePressed("ui/mainLayer3/c12.png")  --英文版设置活动按钮ui路径统一为地错
+    else
+        self.button_Caociyuan:setTextureNormal("ui/mainLayer3/c999.png")
+        self.button_Caociyuan:setTexturePressed("ui/mainLayer3/c999.png")
     end
     
     self.Image_CaociyuanClip = TFDirector:getChildByPath(ui,"Image_CaociyuanClip")
@@ -841,7 +844,17 @@ function MainLayer:showLeftBtnAnim()
         if self.button_Caociyuan:isVisible() then
             table.insert(threeActivity , self.button_Caociyuan)
         end
-     else
+    elseif TFGlobalUtils:isConnectKoreaTwServer() then
+        if self.Button_Activity5:isVisible() then
+            table.insert(threeActivity , self.Button_Activity5)
+        end
+        if self.Button_Activity6:isVisible() then
+            table.insert(threeActivity , self.Button_Activity6)
+        end
+        if self.button_Caociyuan:isVisible() then
+            table.insert(threeActivity , self.button_Caociyuan)
+        end
+    else
         if self.button_OneYear:isVisible() then
             table.insert(threeActivity , self.button_OneYear)
         end
@@ -3111,9 +3124,10 @@ function MainLayer:addTimerUpdate()
 end
 
 function MainLayer:onCountDownPer(dt)
-
-    local  time_s_hour , time_s_min , time_s_sec = ServerDataMgr:customUtcTimeForServer()
-    self.label_serverTime:setString(string.format("%02d:%02d:%02d %s" , time_s_hour , time_s_min , time_s_sec, GV_UTC_TIME_STRING))
+    if self.label_serverTime then
+        local  time_s_hour , time_s_min , time_s_sec = ServerDataMgr:customUtcTimeForServer()
+        self.label_serverTime:setString(string.format("%02d:%02d:%02d %s" , time_s_hour , time_s_min , time_s_sec, GV_UTC_TIME_STRING))
+    end
 
     if not self.feellingInfoShowTime_ then
         return
@@ -3474,7 +3488,17 @@ function MainLayer:updateOneYearBtns()
             if self.button_Caociyuan:isVisible() then
                 table.insert(threeActivity , self.button_Caociyuan)
             end
-         else
+        elseif TFGlobalUtils:isConnectKoreaTwServer() then
+            if self.Button_Activity5:isVisible() then
+                table.insert(threeActivity , self.Button_Activity5)
+            end
+            if self.Button_Activity6:isVisible() then
+                table.insert(threeActivity , self.Button_Activity6)
+            end
+            if self.button_Caociyuan:isVisible() then
+                table.insert(threeActivity , self.button_Caociyuan)
+            end
+        else
             if self.button_OneYear:isVisible() then
                 table.insert(threeActivity , self.button_OneYear)
             end

@@ -268,7 +268,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "740",
 									ZOrder = "1",
 									components = 
@@ -1516,7 +1515,7 @@ local t =
 													controlID = "Label_remainCount_Image_fight_info_Panel_fighting_Image_content_Panel_root_Panel-fubenReadyView_Layer1_fuben_Game",
 													UUID = "8245e4f9_9557_4ac0_a1ba_176b23f805da",
 													anchorPoint = "False",
-													anchorPointX = "0",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -1531,14 +1530,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "15",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "17",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_remainCount",
 													nTextAlign = "1",
@@ -1552,10 +1551,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 153,
+														PositionX = 256,
 														PositionY = -3,
 													},
-													width = "108",
+													width = "129",
 													ZOrder = "1",
 												},
 												{
@@ -1577,14 +1576,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "15",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "17",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_count",
 													nTextAlign = "1",
@@ -1598,10 +1597,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 278,
+														PositionX = 268,
 														PositionY = -4,
 													},
-													width = "40",
+													width = "49",
 													ZOrder = "1",
 												},
 												{
@@ -1627,6 +1626,7 @@ local t =
 														PositionX = 145,
 														PositionY = 2,
 													},
+													visible = "False",
 													width = "2",
 													ZOrder = "1",
 												},
@@ -2442,6 +2442,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "740",
 									ZOrder = "1",
 									components = 

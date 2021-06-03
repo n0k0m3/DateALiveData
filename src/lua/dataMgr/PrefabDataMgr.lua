@@ -166,7 +166,7 @@ function PrefabDataMgr:set_Panel_goodsItem(item, idOrCid, count, level, isNotAcc
     else
         local starNum = itemCfg.star or 0
         if itemCfg.superType == EC_ResourceType.FETTERS then
-            local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(cid)
+            local equipInfo = EquipmentDataMgr:getNewEquipInfoById(id)
             local equipCfg = EquipmentDataMgr:getNewEquipCfg(cid)
             local maxStar = equipCfg.endStar
             if equipInfo then

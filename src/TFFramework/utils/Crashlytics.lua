@@ -139,3 +139,5 @@ function Crashlytics:enableCrashlytics(  )
     if not(tonumber(platformId) >= 3 and tonumber(apkVersion) > 1.16) then return false end
     return true
 end
+
+--加个差异生成

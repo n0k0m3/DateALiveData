@@ -241,7 +241,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "通关条件",
+													text = "通關條件",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -295,7 +295,7 @@ local t =
 														PositionX = -126,
 														PositionY = -9,
 													},
-													width = "130",
+													width = "123",
 													ZOrder = "1",
 												},
 												{
@@ -333,7 +333,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "任务目标",
+													text = "任務目標",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -409,7 +409,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "通关条件",
+													text = "通關條件",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -463,7 +463,7 @@ local t =
 														PositionX = -127,
 														PositionY = -9,
 													},
-													width = "104",
+													width = "98",
 													ZOrder = "1",
 												},
 												{
@@ -595,7 +595,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "任务目标",
+															text = "任務目標",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -666,7 +666,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "任务目标",
+															text = "任務目標",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -740,7 +740,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "初级奖励",
+																	text = "初級獎勵",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
@@ -883,7 +883,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "任务目标",
+															text = "任務目標",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -954,7 +954,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "任务目标",
+															text = "任務目標",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -1028,7 +1028,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "初级奖励",
+																	text = "初級獎勵",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
@@ -1171,7 +1171,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "任务目标",
+															text = "任務目標",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -1242,7 +1242,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "任务目标",
+															text = "任務目標",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -1316,7 +1316,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "初级奖励",
+																	text = "初級獎勵",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
@@ -1424,7 +1424,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "剩余次数 ",
+													text = "剩餘次數 ",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1478,7 +1478,7 @@ local t =
 														PositionX = 248,
 														PositionY = -2,
 													},
-													width = "58",
+													width = "52",
 													ZOrder = "1",
 												},
 												{
@@ -1544,7 +1544,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "关卡奖励",
+											text = "關卡獎勵",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1552,7 +1552,7 @@ local t =
 												PositionX = 254,
 												PositionY = 146,
 											},
-											width = "83",
+											width = "82",
 											ZOrder = "1",
 										},
 										{
@@ -1622,7 +1622,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "作战准备",
+													text = "作戰準備",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2035,7 +2035,7 @@ local t =
 													{
 														
 													},
-													width = "39",
+													width = "38",
 													ZOrder = "1",
 												},
 												{
@@ -2073,7 +2073,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "倍奖励",
+													text = "倍獎勵",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2180,7 +2180,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "剧情描述",
+													text = "劇情描述",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2272,7 +2272,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "剧情描述",
+													text = "劇情描述",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2413,7 +2413,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "通关条件",
+													text = "通關條件",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2467,7 +2467,7 @@ local t =
 														PositionX = -125,
 														PositionY = -9,
 													},
-													width = "62",
+													width = "64",
 													ZOrder = "1",
 												},
 												{
@@ -2505,7 +2505,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "任务描述",
+													text = "任務描述",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2581,7 +2581,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "通关条件",
+													text = "通關條件",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2635,7 +2635,7 @@ local t =
 														PositionX = -125,
 														PositionY = -9,
 													},
-													width = "104",
+													width = "98",
 													ZOrder = "1",
 												},
 												{
@@ -2673,7 +2673,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "任务目标",
+													text = "任務目標",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2771,7 +2771,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "任务目标",
+													text = "任務目標",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2845,7 +2845,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "关卡奖励",
+											text = "關卡獎勵",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2853,7 +2853,7 @@ local t =
 												PositionX = 254,
 												PositionY = 145,
 											},
-											width = "83",
+											width = "82",
 											ZOrder = "1",
 										},
 										{
@@ -2923,7 +2923,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "进入约会",
+													text = "進入約會",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2963,7 +2963,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -2980,7 +2980,7 @@ local t =
 										PositionX = -313,
 										PositionY = 183,
 									},
-									width = "45",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
@@ -3052,7 +3052,7 @@ local t =
 										PositionX = -256,
 										PositionY = 178,
 									},
-									width = "141",
+									width = "134",
 									ZOrder = "1",
 								},
 								{
@@ -3237,7 +3237,7 @@ local t =
 														StrokeColor = "#FFB7982C",
 														StrokeSize = 1,
 													},
-													height = "22",
+													height = "20",
 													ignoreSize = "True",
 													name = "Label_earnings_multiple",
 													nTextAlign = "1",
@@ -3254,7 +3254,7 @@ local t =
 													{
 														
 													},
-													width = "18",
+													width = "13",
 													ZOrder = "1",
 												},
 											},
@@ -3336,7 +3336,7 @@ local t =
 												PositionX = -25,
 												PositionY = -4,
 											},
-											width = "29",
+											width = "27",
 											ZOrder = "1",
 										},
 										{
@@ -3407,7 +3407,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 18,
+												PositionX = 16,
 												PositionY = -13,
 											},
 											width = "43",

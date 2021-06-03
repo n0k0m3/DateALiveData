@@ -1548,6 +1548,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "480",
 									ZOrder = "1",
 									components = 
@@ -6049,8 +6050,8 @@ local t =
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "23",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -6065,7 +6066,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "159",
+																	width = "124",
 																	ZOrder = "1",
 																},
 															},
@@ -6129,8 +6130,8 @@ local t =
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "23",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -6145,7 +6146,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "159",
+																	width = "124",
 																	ZOrder = "1",
 																},
 															},
@@ -6209,8 +6210,8 @@ local t =
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "23",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -6225,7 +6226,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "159",
+																	width = "124",
 																	ZOrder = "1",
 																},
 															},
@@ -7446,6 +7447,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "535",
 									ZOrder = "1",
 									components = 
@@ -7641,6 +7643,7 @@ local t =
 															{
 																PositionX = 34,
 															},
+															visible = "False",
 															width = "47",
 															ZOrder = "1",
 														},
@@ -11713,7 +11716,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "750",
 									ZOrder = "1",
 									components = 
@@ -12955,7 +12957,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 35,
+																PositionX = 44,
 																PositionY = 28,
 															},
 															width = "75",
@@ -13004,6 +13006,7 @@ local t =
 																PositionX = 36,
 																PositionY = 7,
 															},
+															visible = "False",
 															width = "83",
 															ZOrder = "1",
 														},

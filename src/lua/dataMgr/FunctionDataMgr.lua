@@ -670,10 +670,17 @@ function FunctionDataMgr:jActivity3(activitId, activityShowType)
 end
 
 function FunctionDataMgr:jActivity4(activitId, activityShowType)
+    --TODO CLOSE
+    -- if not self:checkFuncOpen(6) then return end
+    -- activityShowType = activityShowType or 4
+    -- self:downloadAssetsBeforeOnEnter(function()
+    --     Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+    -- end)
+
     if not self:checkFuncOpen(6) then return end
-    activityShowType = activityShowType or 4
-    self:downloadAssetsBeforeOnEnter(function()
-        Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+        activityShowType = activityShowType or 4
+        self:downloadAssetsBeforeOnEnter(function()
+        Utils:openView("activity.ActivityGloablHwxMainView1", activitId, activityShowType)
     end)
 end
 

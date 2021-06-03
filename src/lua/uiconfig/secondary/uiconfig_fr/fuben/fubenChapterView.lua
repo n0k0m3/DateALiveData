@@ -2509,7 +2509,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1033",
 							ZOrder = "1",
 							components = 
@@ -2739,10 +2738,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -516,
+										PositionX = -474,
 										PositionY = -280,
 										IsPercent = true,
-										PercentX = -50,
+										PercentX = -45.92,
 										PercentY = -50,
 									},
 									uipanelviewmodel = 
@@ -2891,7 +2890,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 200,
+												PositionX = 207,
 												PositionY = 151,
 											},
 											width = "17",
@@ -2938,8 +2937,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 88,
-												PositionY = 119,
+												PositionX = 75,
+												PositionY = 113,
 											},
 											width = "42",
 											ZOrder = "1",
@@ -2985,7 +2984,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 162,
+												PositionX = 174,
 												PositionY = 140,
 											},
 											width = "42",
@@ -3442,6 +3441,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1033",
 							ZOrder = "1",
 							components = 

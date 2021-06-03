@@ -2264,7 +2264,14 @@ function EquipmentDataMgr:getHeroNewEquipAttribute(heroId)
 end
 
 function EquipmentDataMgr:getNewEquipCurAttribute(equipCid, stage, level)
-	local equipInfo = self:getNewEquipInfoByCid(equipCid)
+	local equipInfo = nil
+	if type(equipCid) == "string" then
+		equipInfo = self:getNewEquipInfoById(equipCid)
+		equipCid = equipInfo.cid
+	else
+		equipInfo = self:getNewEquipInfoByCid(equipCid)
+	end
+	
     local equipCfg = self:getNewEquipCfg(equipCid)
     local advanceCfg = self:getNewEquipAdvanceCfg(equipCid, stage)
 

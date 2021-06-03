@@ -114,7 +114,9 @@ function DuanwuSubmitView:updateSubmitItem(index)
     local isEnabled = count > 0
     foo.Button_submit:setVisible(progressInfo.status ~= EC_TaskStatus.GETED and isEnabled)
     foo.Button_submit:setTouchEnabled(isEnabled)
-    foo.img_resNoEnough:setVisible(not isEnabled and progressInfo.status ~= EC_TaskStatus.GETED)
+    if foo.img_resNoEnough then
+        foo.img_resNoEnough:setVisible(not isEnabled and progressInfo.status ~= EC_TaskStatus.GETED)
+    end
     foo.Button_down:setTouchEnabled(isEnabled)
     foo.Button_down:setGrayEnabled(not isEnabled)
     foo.Button_up:setTouchEnabled(isEnabled)
@@ -243,7 +245,9 @@ function DuanwuSubmitView:updateDating()
 
     self.Button_dating:setTouchEnabled(extendData.state ~= EC_TaskStatus.ING)
     self.Button_dating:setGrayEnabled(extendData.state == EC_TaskStatus.ING)
-    self.img_clickGet:setVisible(extendData.state ~= EC_TaskStatus.ING)
+    if self.img_clickGet then
+        self.img_clickGet:setVisible(extendData.state ~= EC_TaskStatus.ING)
+    end
 end
 
 function DuanwuSubmitView:registerEvents()

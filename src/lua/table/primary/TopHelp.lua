@@ -5629,8 +5629,8 @@ return {
                 [2] = 1,
             },
             [2] = {
-                [1] = 665101,
-                [2] = 1,
+                [1] = 500096,
+                [2] = 0,
             },
             [3] = {
                 [1] = 500002,
@@ -5649,7 +5649,7 @@ return {
         help = "",
         isMain = true,
         isBack = true,
-        name = "16000582",
+        name = "190016187",
         icon = "icon/system/025.png",
         isDiban = true,
     },

@@ -6191,7 +6191,7 @@ local t =
 																	controlID = "Label_able_efeect_Image_title_effect_Image_title_bg_Panel_attr_Panel_bag_Panel_right_Panel_base_Panel-equipSuitMainLayer_Layer1_fairyNew_Game",
 																	UUID = "1aa3df41_800d_44d7_97c0_1997474a6c7f",
 																	anchorPoint = "False",
-																	anchorPointX = "0.5",
+																	anchorPointX = "1",
 																	anchorPointY = "0.5",
 																	classname = "MELabel",
 																	compPath = "luacomponents.common.MEIconLabel",
@@ -6227,7 +6227,7 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = -45,
+																		PositionX = -11,
 																	},
 																	width = "103",
 																	ZOrder = "1",
@@ -6428,7 +6428,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																
+																PositionX = -6,
 															},
 															width = "79",
 															ZOrder = "1",
@@ -6549,6 +6549,7 @@ local t =
 																	touchAble = "True",
 																	UILayoutViewModel = 
 																	{
+																		PositionX = -10,
 																		PositionY = 99,
 																	},
 																	UItype = "Button",
@@ -6630,6 +6631,7 @@ local t =
 																	touchAble = "True",
 																	UILayoutViewModel = 
 																	{
+																		PositionX = -10,
 																		PositionY = 73,
 																	},
 																	UItype = "Button",

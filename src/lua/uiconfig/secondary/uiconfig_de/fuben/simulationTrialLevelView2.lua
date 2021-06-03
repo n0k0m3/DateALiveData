@@ -124,6 +124,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -234,7 +235,7 @@ local t =
 												PositionX = 5,
 												PositionY = 148,
 											},
-											width = "32",
+											width = "35",
 											ZOrder = "1",
 										},
 										{
@@ -400,7 +401,7 @@ local t =
 												PositionX = -108,
 												PositionY = 89,
 											},
-											width = "32",
+											width = "35",
 											ZOrder = "1",
 										},
 										{
@@ -567,7 +568,7 @@ local t =
 												PositionX = -125,
 												PositionY = -88,
 											},
-											width = "32",
+											width = "35",
 											ZOrder = "1",
 										},
 										{
@@ -733,7 +734,7 @@ local t =
 												PositionX = 208,
 												PositionY = -179,
 											},
-											width = "32",
+											width = "35",
 											ZOrder = "1",
 										},
 										{
@@ -899,7 +900,7 @@ local t =
 												PositionX = -69,
 												PositionY = 197,
 											},
-											width = "32",
+											width = "35",
 											ZOrder = "1",
 										},
 										{
@@ -1044,7 +1045,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -1058,10 +1059,11 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -88,
+												PositionX = -67,
+												PositionY = -93,
 											},
-											width = "123",
-											ZOrder = "1",
+											width = "251",
+											ZOrder = "100",
 										},
 										{
 											controlID = "Panel_effect_Button_reward1_Panel_chapter1_Panel_root_Panel-simulationTrialLevelView2_Layer1_fuben_Game",
@@ -1590,7 +1592,7 @@ local t =
 															{
 																PositionY = -19,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -1899,7 +1901,7 @@ local t =
 															{
 																PositionY = -19,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -2208,7 +2210,7 @@ local t =
 															{
 																PositionY = -19,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -2517,7 +2519,7 @@ local t =
 															{
 																PositionY = -19,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -2826,7 +2828,7 @@ local t =
 															{
 																PositionY = -19,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -3135,7 +3137,7 @@ local t =
 															{
 																PositionY = -19,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -3444,7 +3446,7 @@ local t =
 															{
 																PositionY = -19,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -3753,7 +3755,7 @@ local t =
 															{
 																PositionY = -19,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -4062,7 +4064,7 @@ local t =
 															{
 																PositionY = -19,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -4371,7 +4373,7 @@ local t =
 															{
 																PositionY = -19,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -4679,7 +4681,7 @@ local t =
 															{
 																PositionY = -19,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -4988,7 +4990,7 @@ local t =
 															{
 																PositionY = -19,
 															},
-															width = "31",
+															width = "33",
 															ZOrder = "1",
 														},
 													},
@@ -5306,7 +5308,7 @@ local t =
 												PositionX = 32,
 												PositionY = 17,
 											},
-											width = "98",
+											width = "118",
 											ZOrder = "1",
 										},
 										{
@@ -5476,7 +5478,7 @@ local t =
 												PositionX = 32,
 												PositionY = 17,
 											},
-											width = "98",
+											width = "118",
 											ZOrder = "1",
 										},
 										{
@@ -5750,7 +5752,7 @@ local t =
 												PositionX = 12,
 												PositionY = 12,
 											},
-											width = "22",
+											width = "25",
 											ZOrder = "1",
 										},
 									},

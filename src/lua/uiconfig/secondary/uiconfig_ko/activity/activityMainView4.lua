@@ -103,7 +103,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							texturePath = "ui/activity/activityStyle/mainFrame/style2/bg.png",
+							texturePath = "ui/activity/activityMain3/bg1.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
@@ -281,20 +281,20 @@ local t =
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "98",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "ImageNormal",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
-									srcBlendFunc = "770",
-									texturePath = "ui/activity/activityStyle/mainFrame/style2/003.png",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/activityMain3/bu3.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = 99,
 										PositionY = 46,
 									},
-									width = "195",
+									width = "202",
 									ZOrder = "1",
 									components = 
 									{
@@ -321,6 +321,7 @@ local t =
 											{
 												PositionX = 46,
 											},
+											visible = "False",
 											width = "60",
 											ZOrder = "1",
 										},
@@ -353,7 +354,7 @@ local t =
 											height = "0",
 											ignoreSize = "False",
 											name = "activityName",
-											nTextAlign = "1",
+											nTextAlign = "0",
 											nTextHAlign = "2",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -364,10 +365,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 87,
-												PositionY = -18,
+												PositionX = 94,
+												PositionY = -20,
 											},
-											width = "170",
+											width = "150",
 											ZOrder = "1",
 										},
 										{
@@ -408,13 +409,12 @@ local t =
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "98",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "ImageSelect",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
-									srcBlendFunc = "770",
-									texturePath = "ui/activity/activityStyle/mainFrame/style2/004.png",
+									srcBlendFunc = "1",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
@@ -422,14 +422,14 @@ local t =
 										PositionY = 46,
 									},
 									visible = "False",
-									width = "205",
+									width = "202",
 									ZOrder = "1",
 									components = 
 									{
 										
 										{
 											controlID = "Image_icon_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView4_activityStyleModel_activity_Game",
-											UUID = "c719c36f_badd_4359_8888_2b7b280b2893",
+											UUID = "81e799eb_b9bc_4881_ae78_79a35153cb19",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -449,6 +449,7 @@ local t =
 											{
 												PositionX = 46,
 											},
+											visible = "False",
 											width = "60",
 											ZOrder = "1",
 										},
@@ -481,7 +482,7 @@ local t =
 											height = "0",
 											ignoreSize = "False",
 											name = "activityName",
-											nTextAlign = "1",
+											nTextAlign = "0",
 											nTextHAlign = "2",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -492,10 +493,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 82,
-												PositionY = -18,
+												PositionX = 97,
+												PositionY = -20,
 											},
-											width = "176",
+											width = "150",
 											ZOrder = "1",
 										},
 										{
@@ -541,11 +542,10 @@ local t =
 	{
 		textures = 
 		{
-			"ui/activity/activityStyle/mainFrame/style2/bg.png",
-			"ui/activity/activityStyle/mainFrame/style2/003.png",
+			"ui/activity/activityMain3/bg1.png",
+			"ui/activity/activityMain3/bu3.png",
 			"ui/activity/anniversary/ui_002.png",
 			"ui/common/news_small.png",
-			"ui/activity/activityStyle/mainFrame/style2/004.png",
 		},
 		armatures = 
 		{

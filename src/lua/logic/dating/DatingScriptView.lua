@@ -2758,9 +2758,11 @@ function DatingScriptView:stopCg()
         local selectImg = self.skipButton.select
         local visible = selectImg:isVisible()
         if not visible then
-            self:setDanMuPannelVisible(true)
+            --self:setDanMuPannelVisible(true)
+            self:setDanMuPannelVisible(false)
         end
-        self.Panel_danMuOption:setVisible(true)
+        --self.Panel_danMuOption:setVisible(true)
+        self.Panel_danMuOption:setVisible(false)
     end
 
     if self.cgView then

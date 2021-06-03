@@ -30,7 +30,8 @@ end
 function LogoLayer:showLogo()
 	local vedioPath,_bool
 	if FunctionDataMgr:isOneYearLoginUI() then
-		vedioPath = "video/haiwangxingopenpv.MP4"
+		--vedioPath = "video/haiwangxingopenpv.MP4"
+		vedioPath = "video/openpv.mp4"
 		_bool = false
 	else
 		vedioPath = "video/openpv.mp4"

@@ -101,6 +101,8 @@ function LinkageView:initUI(ui)
     local Image_chapterInfo = TFDirector:getChildByPath(self.Panel_root, "Image_chapterInfo")
     self.Label_chapterOrder = TFDirector:getChildByPath(Image_chapterInfo, "Label_chapterOrder")
     self.Label_chapterName = TFDirector:getChildByPath(Image_chapterInfo, "Label_chapterName")
+
+    self.Label_chapterOrder:setTextById(300200 , TextDataMgr:getText(300201))
     --章节名称
     self.Label_chapterName:setTextById(tonumber(self.chapterCfg_.name))
 

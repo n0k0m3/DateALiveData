@@ -154,10 +154,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -238,
-										PositionY = 95,
+										PositionX = -127,
+										PositionY = 94,
 									},
-									width = "98",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -166,14 +166,14 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
 									height = "58",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Button_pay",
 									normal = "ui/common/button_big_blue_n.png",
 									sizepercentx = "0",
@@ -183,11 +183,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 260,
-										PositionY = -165,
+										PositionX = 221,
+										PositionY = -168,
 									},
 									UItype = "Button",
-									width = "134",
+									width = "218",
 									ZOrder = "1",
 									components = 
 									{
@@ -234,7 +234,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "140",
+											width = "155",
 											ZOrder = "1",
 										},
 									},

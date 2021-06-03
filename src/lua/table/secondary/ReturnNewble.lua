@@ -649,7 +649,7 @@ return {
         weight = 8,
         status = 2,
         titleIcon = "ui/activity/picture/icon58.png",
-        details = "{\"beginTime\":\"2021-02-05 00:00:00\",\"endTime\":\"2021-03-13 23:59:59\",\"taskCount\":3,\"taskChance\":{1:\"50:0:1\",2:\"0:0:0\",3:\"0:0:0\",4:\"30:0:1\",5:\"70:0:3\"},\"refresh\":43200,\"cg\":2000018,\"des1\":\"龙舟竞赛\",\"des2\":\"端午佳节\",\"cgName\":\"龙舟滑行\",\"cgAddress\":\"modle/cg/main_cg_role_242.png\",\"itemId\":500063,\"nameIcon\":\"ui/activity/logo/logo58.png\",\"bgIcon\":\"ui/activity/logo/bg58.png\"}",
+        details = "{\"beginTime\":\"2021-06-09 00:00:00\",\"endTime\":\"2021-06-25 23:59:59\",\"taskCount\":3,\"taskChance\":{1:\"50:0:1\",2:\"0:0:0\",3:\"0:0:0\",4:\"30:0:1\",5:\"70:0:3\"},\"refresh\":43200,\"cg\":2000018,\"des1\":\"龙舟竞赛\",\"des2\":\"端午佳节\",\"cgName\":\"龙舟滑行\",\"cgAddress\":\"modle/cg/main_cg_role_242.png\",\"itemId\":500063,\"nameIcon\":\"ui/activity/logo/logo58.png\",\"bgIcon\":\"ui/activity/logo/bg58.png\"}",
         type = 1008,
     },
     [100015] = {
@@ -681,11 +681,11 @@ return {
         mailTitle = 14220075,
         items = "102786,102787,102788,102789,102790,102947",
         showIcon = "",
-        title = "战令第7期",
+        title = "战令第8期",
         weight = 0,
         status = 2,
         titleIcon = "",
-        details = "{\"beginTime\":\"2021-05-26 00:00:01\",\"endTime\":\"2021-06-30 23:59:59\",\"maxLevel\":100,\"rechargeList\":[910001,910002,910003],\"levelCost\":5,\"upMinExp\":10,\"activityShowType\":9999,\"addItems\":\"102947\",\"daytask\":\"102947\"}",
+        details = "{\"beginTime\":\"2021-05-26 00:00:01\",\"endTime\":\"2021-06-29 23:59:59\",\"maxLevel\":100,\"rechargeList\":[910001,910002,910003],\"levelCost\":5,\"upMinExp\":10,\"activityShowType\":9999,\"addItems\":\"102947\",\"daytask\":\"102947\"}",
         type = 1012,
     },
     [130003] = {

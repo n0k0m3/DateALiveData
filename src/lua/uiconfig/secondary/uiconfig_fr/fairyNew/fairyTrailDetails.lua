@@ -5885,7 +5885,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "489",
 									ZOrder = "1",
 									components = 
@@ -6051,8 +6050,8 @@ local t =
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "23",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -6131,8 +6130,8 @@ local t =
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "23",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -6211,8 +6210,8 @@ local t =
 																		StrokeColor = "#FF9D9DC1",
 																		StrokeSize = 1,
 																	},
-																	height = "23",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "label_fanganName",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -11714,6 +11713,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "750",
 									ZOrder = "1",
 									components = 

@@ -3416,7 +3416,7 @@ end
 
 function FubenDataMgr:isMonsterTrialOpen()
 	local open = true
-	local date = TFDate(ServerDataMgr:getServerTime()):tolocal()
+	local date = Utils:getUTCDate(ServerDataMgr:getServerTime() ,GV_UTC_TIME_ZONE)
 	local discreteCfg = TabDataMgr:getData("DiscreteData", 90021)	
 	local today = date:getweekday() - 1
 	if today <= 0 then

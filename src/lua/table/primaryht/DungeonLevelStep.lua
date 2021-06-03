@@ -4828,7 +4828,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "多人组队4-1",
+        dungeonName = "第十一章困难10-2 波次",
         LengthN2 = {
         },
         MonsterT = {
@@ -5211,7 +5211,7 @@ return {
         },
     },
     [112003] = {
-        bornPoint = 3,
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -5239,7 +5239,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "多人组队4-1",
+        dungeonName = "第十一章困难10-3 歼灭",
         LengthN2 = {
         },
         MonsterT = {
@@ -5769,13 +5769,13 @@ return {
         },
     },
     [112004] = {
-        bornPoint = 4,
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 1800,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -5797,7 +5797,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "多人组队4-1",
+        dungeonName = "第十一章困难10-4 波次",
         LengthN2 = {
         },
         MonsterT = {
@@ -5828,11 +5828,6 @@ return {
             },
             [4] = {
                 [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },

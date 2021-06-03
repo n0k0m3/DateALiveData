@@ -1,5 +1,7 @@
 return {
     [313000] = {
+        ext = {
+        },
         buyEndTime = "2021-04-06 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -34,6 +36,8 @@ return {
         rank = 99,
     },
     [311000] = {
+        ext = {
+        },
         buyEndTime = "2019-09-28 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -66,6 +70,8 @@ return {
         rank = 99,
     },
     [309000] = {
+        ext = {
+        },
         buyEndTime = "2019-09-13 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -96,6 +102,8 @@ return {
         rank = 1,
     },
     [120000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -137,6 +145,8 @@ return {
         rank = 4,
     },
     [180000] = {
+        ext = {
+        },
         buyEndTime = "2021-01-10 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -169,6 +179,8 @@ return {
         rank = 1,
     },
     [303000] = {
+        ext = {
+        },
         buyEndTime = "2021-01-29 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -199,6 +211,8 @@ return {
         rank = 1,
     },
     [301000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -229,6 +243,8 @@ return {
         rank = 1,
     },
     [551000] = {
+        ext = {
+        },
         buyEndTime = "2021-03-19 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -259,6 +275,8 @@ return {
         rank = 1,
     },
     [170000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -289,6 +307,8 @@ return {
         rank = 99,
     },
     [600002] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -319,6 +339,8 @@ return {
         rank = 1,
     },
     [401000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -349,6 +371,8 @@ return {
         rank = 8,
     },
     [600001] = {
+        ext = {
+        },
         buyEndTime = "2020-09-18 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -379,6 +403,8 @@ return {
         rank = 1,
     },
     [540000] = {
+        ext = {
+        },
         buyEndTime = "2019-10-20 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -410,6 +436,8 @@ return {
         rank = 5,
     },
     [170001] = {
+        ext = {
+        },
         buyEndTime = "2020-11-12 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -440,6 +468,8 @@ return {
         rank = 1,
     },
     [110000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -480,6 +510,8 @@ return {
         rank = 3,
     },
     [160000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -511,6 +543,8 @@ return {
         rank = 10,
     },
     [326000] = {
+        ext = {
+        },
         buyEndTime = "2020-07-29 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -542,6 +576,8 @@ return {
         rank = 1,
     },
     [324000] = {
+        ext = {
+        },
         buyEndTime = "2021-04-09 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -572,6 +608,8 @@ return {
         rank = 1,
     },
     [322000] = {
+        ext = {
+        },
         buyEndTime = "2021-05-02 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -602,6 +640,8 @@ return {
         rank = 1,
     },
     [530000] = {
+        ext = {
+        },
         buyEndTime = "2019-10-20 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -633,6 +673,8 @@ return {
         rank = 4,
     },
     [330000] = {
+        ext = {
+        },
         buyEndTime = "2020-10-23 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -662,37 +704,45 @@ return {
         buyBeginTime = "2020-09-20 00:00:00",
         rank = 1,
     },
-    [150000] = {
-        buyEndTime = "",
+    [307000] = {
+        ext = {
+        },
+        buyEndTime = "2019-08-09 23:59:59",
         openTimeType = 1,
         showCurrency = {
-            [1] = 500018,
         },
         openTime = {
         },
-        storeType = 1,
+        storeType = 10,
         commoditySupplyType = 2,
         isSendRecordMsg = false,
-        icon = "ui/store/new_ui/icon5.png",
+        icon = "",
         openContType = 1,
         isOpen = true,
-        id = 150000,
+        id = 307000,
         storeLabel = "",
-        openContVal = 7,
+        openContVal = 1,
         refreshCostNum = {
+            [1] = 30,
+            [2] = 50,
+            [3] = 100,
+            [4] = 150,
+            [5] = 200,
         },
-        refreshCostId = 0,
-        manualRefresh = false,
-        showBeginTime = "",
-        autoRefreshCorn = "0 0 0 * * ? ",
-        name = "302006",
+        refreshCostId = 500002,
+        manualRefresh = true,
+        showBeginTime = "2019-07-18 23:59:59",
+        autoRefreshCorn = "0 0 0 * * ?",
+        name = "",
         orderType = 1,
-        showEndTime = "",
+        showEndTime = "2019-08-09 23:59:59",
         roleSet = 22,
-        buyBeginTime = "",
-        rank = 9,
+        buyBeginTime = "2019-07-18 23:59:59",
+        rank = 99,
     },
     [314000] = {
+        ext = {
+        },
         buyEndTime = "2020-03-15 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -723,6 +773,8 @@ return {
         rank = 1,
     },
     [312000] = {
+        ext = {
+        },
         buyEndTime = "2020-11-06 00:00:00",
         openTimeType = 1,
         showCurrency = {
@@ -753,6 +805,8 @@ return {
         rank = 1,
     },
     [310000] = {
+        ext = {
+        },
         buyEndTime = "2021-03-15 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -787,37 +841,41 @@ return {
         buyBeginTime = "2021-02-05 00:00:00",
         rank = 99,
     },
-    [308000] = {
-        buyEndTime = "2019-08-11 23:59:59",
+    [150000] = {
+        ext = {
+        },
+        buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
-            [1] = 500068,
+            [1] = 500018,
         },
         openTime = {
         },
         storeType = 1,
-        commoditySupplyType = 1,
+        commoditySupplyType = 2,
         isSendRecordMsg = false,
-        icon = "ui/store/new_ui/icon25.png",
+        icon = "ui/store/new_ui/icon5.png",
         openContType = 1,
         isOpen = true,
-        id = 308000,
+        id = 150000,
         storeLabel = "",
-        openContVal = 15,
+        openContVal = 7,
         refreshCostNum = {
         },
         refreshCostId = 0,
         manualRefresh = false,
-        showBeginTime = "2019-07-18 23:59:59",
-        autoRefreshCorn = "0 0 0 * * ?",
-        name = "13200193",
+        showBeginTime = "",
+        autoRefreshCorn = "0 0 0 * * ? ",
+        name = "302006",
         orderType = 1,
-        showEndTime = "2019-08-11 23:59:59",
+        showEndTime = "",
         roleSet = 22,
-        buyBeginTime = "2019-07-18 23:59:59",
-        rank = 1,
+        buyBeginTime = "",
+        rank = 9,
     },
     [306000] = {
+        ext = {
+        },
         buyEndTime = "2020-11-05 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -849,7 +907,9 @@ return {
         rank = 1,
     },
     [304000] = {
-        buyEndTime = "2021-03-13 23:59:59",
+        ext = {
+        },
+        buyEndTime = "2021-06-28 23:59:59",
         openTimeType = 1,
         showCurrency = {
             [1] = 580078,
@@ -869,16 +929,18 @@ return {
         },
         refreshCostId = 0,
         manualRefresh = false,
-        showBeginTime = "2021-02-05 00:00:00",
+        showBeginTime = "2021-06-09 00:00:00",
         autoRefreshCorn = "",
         name = "13500020",
         orderType = 1,
-        showEndTime = "2021-03-13 23:59:59",
+        showEndTime = "2021-06-28 23:59:59",
         roleSet = 22,
-        buyBeginTime = "2021-02-05 00:00:00",
+        buyBeginTime = "2021-06-09 00:00:00",
         rank = 1,
     },
     [302000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -909,6 +971,8 @@ return {
         rank = 1,
     },
     [300000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -943,6 +1007,8 @@ return {
         rank = 1,
     },
     [550000] = {
+        ext = {
+        },
         buyEndTime = "2019-10-20 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -973,21 +1039,23 @@ return {
         buyBeginTime = "2019-09-18 23:59:59",
         rank = 1,
     },
-    [201000] = {
+    [191000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
-            [1] = 580039,
+            [1] = 580019,
         },
         openTime = {
         },
         storeType = 1,
         commoditySupplyType = 1,
         isSendRecordMsg = false,
-        icon = "ui/store/new_ui/icon10.png",
+        icon = "ui/store/new_ui/icon34.png",
         openContType = 1,
         isOpen = false,
-        id = 201000,
+        id = 191000,
         storeLabel = "",
         openContVal = 99,
         refreshCostNum = {
@@ -995,15 +1063,17 @@ return {
         refreshCostId = 0,
         manualRefresh = false,
         showBeginTime = "",
-        autoRefreshCorn = "",
-        name = "302010",
+        autoRefreshCorn = "0 0 0 1 * ? ",
+        name = "302210",
         orderType = 1,
         showEndTime = "",
         roleSet = 22,
         buyBeginTime = "",
-        rank = 1,
+        rank = 7,
     },
     [206000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -1033,6 +1103,8 @@ return {
         rank = 1,
     },
     [205000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -1063,6 +1135,8 @@ return {
         rank = 1,
     },
     [100000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -1092,6 +1166,8 @@ return {
         rank = 2,
     },
     [140000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -1122,6 +1198,8 @@ return {
         rank = 6,
     },
     [202000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -1162,6 +1240,8 @@ return {
         rank = 1,
     },
     [130000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -1192,39 +1272,9 @@ return {
         buyBeginTime = "",
         rank = 5,
     },
-    [305000] = {
-        buyEndTime = "2019-06-25 23:59:59",
-        openTimeType = 1,
-        showCurrency = {
-            [1] = 580078,
-            [2] = 580079,
-            [3] = 580080,
-        },
-        openTime = {
-        },
-        storeType = 1,
-        commoditySupplyType = 1,
-        isSendRecordMsg = false,
-        icon = "ui/store/new_ui/icon23.png",
-        openContType = 1,
-        isOpen = true,
-        id = 305000,
-        storeLabel = "",
-        openContVal = 1,
-        refreshCostNum = {
-        },
-        refreshCostId = 0,
-        manualRefresh = false,
-        showBeginTime = "2019-06-07 00:00:00",
-        autoRefreshCorn = "",
-        name = "13500021",
-        orderType = 1,
-        showEndTime = "2019-06-25 23:59:59",
-        roleSet = 22,
-        buyBeginTime = "2019-06-07 00:00:00",
-        rank = 99,
-    },
     [204000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -1285,6 +1335,8 @@ return {
         rank = 2,
     },
     [203000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -1324,7 +1376,41 @@ return {
         buyBeginTime = "",
         rank = 1,
     },
+    [201000] = {
+        ext = {
+        },
+        buyEndTime = "",
+        openTimeType = 1,
+        showCurrency = {
+            [1] = 580039,
+        },
+        openTime = {
+        },
+        storeType = 1,
+        commoditySupplyType = 1,
+        isSendRecordMsg = false,
+        icon = "ui/store/new_ui/icon10.png",
+        openContType = 1,
+        isOpen = false,
+        id = 201000,
+        storeLabel = "",
+        openContVal = 99,
+        refreshCostNum = {
+        },
+        refreshCostId = 0,
+        manualRefresh = false,
+        showBeginTime = "",
+        autoRefreshCorn = "",
+        name = "302010",
+        orderType = 1,
+        showEndTime = "",
+        roleSet = 22,
+        buyBeginTime = "",
+        rank = 1,
+    },
     [402000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -1355,6 +1441,8 @@ return {
         rank = 9,
     },
     [325000] = {
+        ext = {
+        },
         buyEndTime = "2020-07-14 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -1384,37 +1472,43 @@ return {
         buyBeginTime = "2020-07-01 00:00:00",
         rank = 1,
     },
-    [327000] = {
-        buyEndTime = "2020-08-10 23:59:59",
+    [305000] = {
+        ext = {
+        },
+        buyEndTime = "2021-06-28 23:59:59",
         openTimeType = 1,
         showCurrency = {
-            [1] = 501033,
+            [1] = 580078,
+            [2] = 580079,
+            [3] = 580080,
         },
         openTime = {
         },
         storeType = 1,
         commoditySupplyType = 1,
         isSendRecordMsg = false,
-        icon = "ui/store/new_ui/icon33.png",
+        icon = "ui/store/new_ui/icon23.png",
         openContType = 1,
         isOpen = true,
-        id = 327000,
+        id = 305000,
         storeLabel = "",
         openContVal = 1,
         refreshCostNum = {
         },
         refreshCostId = 0,
         manualRefresh = false,
-        showBeginTime = "2020-03-13 00:00:00",
+        showBeginTime = "2021-06-09 00:00:00",
         autoRefreshCorn = "",
-        name = "15010094",
+        name = "13500021",
         orderType = 1,
-        showEndTime = "2020-08-10 23:59:59",
+        showEndTime = "2021-06-28 23:59:59",
         roleSet = 22,
-        buyBeginTime = "2020-03-13 00:00:00",
-        rank = 1,
+        buyBeginTime = "2021-06-09 00:00:00",
+        rank = 99,
     },
     [328000] = {
+        ext = {
+        },
         buyEndTime = "2020-10-23 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -1445,6 +1539,8 @@ return {
         rank = 1,
     },
     [520000] = {
+        ext = {
+        },
         buyEndTime = "2019-10-20 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -1476,6 +1572,8 @@ return {
         rank = 3,
     },
     [329000] = {
+        ext = {
+        },
         buyEndTime = "2020-10-23 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -1505,37 +1603,41 @@ return {
         buyBeginTime = "2020-09-20 00:00:00",
         rank = 1,
     },
-    [191000] = {
-        buyEndTime = "",
+    [327000] = {
+        ext = {
+        },
+        buyEndTime = "2020-08-10 23:59:59",
         openTimeType = 1,
         showCurrency = {
-            [1] = 580019,
+            [1] = 501033,
         },
         openTime = {
         },
         storeType = 1,
         commoditySupplyType = 1,
         isSendRecordMsg = false,
-        icon = "ui/store/new_ui/icon34.png",
+        icon = "ui/store/new_ui/icon33.png",
         openContType = 1,
-        isOpen = false,
-        id = 191000,
+        isOpen = true,
+        id = 327000,
         storeLabel = "",
-        openContVal = 99,
+        openContVal = 1,
         refreshCostNum = {
         },
         refreshCostId = 0,
         manualRefresh = false,
-        showBeginTime = "",
-        autoRefreshCorn = "0 0 0 1 * ? ",
-        name = "302210",
+        showBeginTime = "2020-03-13 00:00:00",
+        autoRefreshCorn = "",
+        name = "15010094",
         orderType = 1,
-        showEndTime = "",
+        showEndTime = "2020-08-10 23:59:59",
         roleSet = 22,
-        buyBeginTime = "",
-        rank = 7,
+        buyBeginTime = "2020-03-13 00:00:00",
+        rank = 1,
     },
     [190000] = {
+        ext = {
+        },
         buyEndTime = "",
         openTimeType = 1,
         showCurrency = {
@@ -1566,6 +1668,8 @@ return {
         rank = 7,
     },
     [323000] = {
+        ext = {
+        },
         buyEndTime = "2019-05-23 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -1596,6 +1700,8 @@ return {
         rank = 1,
     },
     [510000] = {
+        ext = {
+        },
         buyEndTime = "2019-10-20 23:59:59",
         openTimeType = 1,
         showCurrency = {
@@ -1626,38 +1732,36 @@ return {
         buyBeginTime = "2019-09-18 23:59:59",
         rank = 2,
     },
-    [307000] = {
-        buyEndTime = "2019-08-09 23:59:59",
+    [308000] = {
+        ext = {
+        },
+        buyEndTime = "2019-08-11 23:59:59",
         openTimeType = 1,
         showCurrency = {
+            [1] = 500068,
         },
         openTime = {
         },
-        storeType = 10,
-        commoditySupplyType = 2,
+        storeType = 1,
+        commoditySupplyType = 1,
         isSendRecordMsg = false,
-        icon = "",
+        icon = "ui/store/new_ui/icon25.png",
         openContType = 1,
         isOpen = true,
-        id = 307000,
+        id = 308000,
         storeLabel = "",
-        openContVal = 1,
+        openContVal = 15,
         refreshCostNum = {
-            [1] = 30,
-            [2] = 50,
-            [3] = 100,
-            [4] = 150,
-            [5] = 200,
         },
-        refreshCostId = 500002,
-        manualRefresh = true,
+        refreshCostId = 0,
+        manualRefresh = false,
         showBeginTime = "2019-07-18 23:59:59",
         autoRefreshCorn = "0 0 0 * * ?",
-        name = "",
+        name = "13200193",
         orderType = 1,
-        showEndTime = "2019-08-09 23:59:59",
+        showEndTime = "2019-08-11 23:59:59",
         roleSet = 22,
         buyBeginTime = "2019-07-18 23:59:59",
-        rank = 99,
+        rank = 1,
     },
 }

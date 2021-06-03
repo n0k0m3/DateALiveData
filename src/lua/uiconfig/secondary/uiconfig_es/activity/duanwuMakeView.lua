@@ -274,7 +274,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "86",
+											width = "58",
 											ZOrder = "1",
 										},
 									},
@@ -359,7 +359,7 @@ local t =
 											{
 												PositionY = -58,
 											},
-											width = "42",
+											width = "35",
 											ZOrder = "1",
 										},
 										{
@@ -470,7 +470,7 @@ local t =
 											{
 												PositionY = -58,
 											},
-											width = "42",
+											width = "35",
 											ZOrder = "1",
 										},
 										{
@@ -581,7 +581,7 @@ local t =
 											{
 												PositionY = -58,
 											},
-											width = "42",
+											width = "35",
 											ZOrder = "1",
 										},
 									},
@@ -733,8 +733,8 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "114",
-									ignoreSize = "True",
+									height = "130",
+									ignoreSize = "False",
 									name = "Button_make",
 									normal = "ui/activity/duanwu/make/006.png",
 									sizepercentx = "0",
@@ -748,7 +748,7 @@ local t =
 										PositionY = 1,
 									},
 									UItype = "Button",
-									width = "114",
+									width = "130",
 									ZOrder = "1",
 									components = 
 									{
@@ -772,14 +772,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF238AC0",
 												StrokeSize = 2,
 											},
-											height = "36",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_make",
 											nTextAlign = "1",
@@ -795,7 +795,7 @@ local t =
 											{
 												
 											},
-											width = "57",
+											width = "105",
 											ZOrder = "1",
 										},
 									},
@@ -809,8 +809,8 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "114",
-									ignoreSize = "True",
+									height = "130",
+									ignoreSize = "False",
 									name = "Image_not_enough",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -823,7 +823,7 @@ local t =
 										PositionX = 443,
 										PositionY = 1,
 									},
-									width = "114",
+									width = "130",
 									ZOrder = "1",
 									components = 
 									{
@@ -847,18 +847,20 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF68768F",
 												StrokeSize = 2,
 											},
-											height = "80",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_not_enough",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -868,9 +870,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = 1,
 											},
-											width = "72",
+											width = "176",
 											ZOrder = "1",
 										},
 									},
@@ -929,7 +931,7 @@ local t =
 												StrokeColor = "#FFB38B2A",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_name_1",
 											nTextAlign = "1",
@@ -946,7 +948,7 @@ local t =
 												PositionX = -7,
 												PositionY = 18,
 											},
-											width = "26",
+											width = "57",
 											ZOrder = "1",
 										},
 										{
@@ -975,7 +977,7 @@ local t =
 												StrokeColor = "#FFB38B2A",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_name_2",
 											nTextAlign = "1",
@@ -992,7 +994,7 @@ local t =
 												PositionX = 6,
 												PositionY = -21,
 											},
-											width = "26",
+											width = "136",
 											ZOrder = "1",
 										},
 									},
@@ -1132,7 +1134,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "86",
+											width = "58",
 											ZOrder = "1",
 										},
 									},
@@ -1217,7 +1219,7 @@ local t =
 											{
 												PositionY = -58,
 											},
-											width = "42",
+											width = "35",
 											ZOrder = "1",
 										},
 										{
@@ -1328,7 +1330,7 @@ local t =
 											{
 												PositionY = -58,
 											},
-											width = "42",
+											width = "35",
 											ZOrder = "1",
 										},
 										{
@@ -1439,7 +1441,7 @@ local t =
 											{
 												PositionY = -58,
 											},
-											width = "42",
+											width = "35",
 											ZOrder = "1",
 										},
 									},
@@ -1591,8 +1593,8 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "114",
-									ignoreSize = "True",
+									height = "130",
+									ignoreSize = "False",
 									name = "Button_make",
 									normal = "ui/activity/duanwu/make/006.png",
 									sizepercentx = "0",
@@ -1606,7 +1608,7 @@ local t =
 										PositionY = 1,
 									},
 									UItype = "Button",
-									width = "114",
+									width = "130",
 									ZOrder = "1",
 									components = 
 									{
@@ -1630,14 +1632,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF238AC0",
 												StrokeSize = 2,
 											},
-											height = "36",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_make",
 											nTextAlign = "1",
@@ -1653,7 +1655,7 @@ local t =
 											{
 												
 											},
-											width = "57",
+											width = "105",
 											ZOrder = "1",
 										},
 									},
@@ -1667,8 +1669,8 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "114",
-									ignoreSize = "True",
+									height = "130",
+									ignoreSize = "False",
 									name = "Image_not_enough",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1681,7 +1683,7 @@ local t =
 										PositionX = 443,
 										PositionY = 1,
 									},
-									width = "114",
+									width = "130",
 									ZOrder = "1",
 									components = 
 									{
@@ -1705,18 +1707,20 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF68768F",
 												StrokeSize = 2,
 											},
-											height = "80",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_not_enough",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1728,7 +1732,7 @@ local t =
 											{
 												
 											},
-											width = "72",
+											width = "176",
 											ZOrder = "1",
 										},
 									},
@@ -1787,7 +1791,7 @@ local t =
 												StrokeColor = "#FFB38B2A",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_name_1",
 											nTextAlign = "1",
@@ -1804,7 +1808,7 @@ local t =
 												PositionX = -7,
 												PositionY = 18,
 											},
-											width = "26",
+											width = "57",
 											ZOrder = "1",
 										},
 										{
@@ -1833,7 +1837,7 @@ local t =
 												StrokeColor = "#FFB38B2A",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_name_2",
 											nTextAlign = "1",
@@ -1850,7 +1854,7 @@ local t =
 												PositionX = 6,
 												PositionY = -21,
 											},
-											width = "26",
+											width = "136",
 											ZOrder = "1",
 										},
 									},
@@ -1990,7 +1994,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "86",
+											width = "58",
 											ZOrder = "1",
 										},
 									},
@@ -2075,7 +2079,7 @@ local t =
 											{
 												PositionY = -58,
 											},
-											width = "42",
+											width = "35",
 											ZOrder = "1",
 										},
 										{
@@ -2186,7 +2190,7 @@ local t =
 											{
 												PositionY = -58,
 											},
-											width = "42",
+											width = "35",
 											ZOrder = "1",
 										},
 										{
@@ -2297,7 +2301,7 @@ local t =
 											{
 												PositionY = -58,
 											},
-											width = "42",
+											width = "35",
 											ZOrder = "1",
 										},
 									},
@@ -2449,8 +2453,8 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "114",
-									ignoreSize = "True",
+									height = "130",
+									ignoreSize = "False",
 									name = "Button_make",
 									normal = "ui/activity/duanwu/make/006.png",
 									sizepercentx = "0",
@@ -2464,7 +2468,7 @@ local t =
 										PositionY = 1,
 									},
 									UItype = "Button",
-									width = "114",
+									width = "130",
 									ZOrder = "1",
 									components = 
 									{
@@ -2488,14 +2492,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF238AC0",
 												StrokeSize = 2,
 											},
-											height = "36",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_make",
 											nTextAlign = "1",
@@ -2511,7 +2515,7 @@ local t =
 											{
 												
 											},
-											width = "57",
+											width = "105",
 											ZOrder = "1",
 										},
 									},
@@ -2525,8 +2529,8 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "114",
-									ignoreSize = "True",
+									height = "130",
+									ignoreSize = "False",
 									name = "Image_not_enough",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -2539,7 +2543,7 @@ local t =
 										PositionX = 443,
 										PositionY = 1,
 									},
-									width = "114",
+									width = "130",
 									ZOrder = "1",
 									components = 
 									{
@@ -2563,18 +2567,20 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF68768F",
 												StrokeSize = 2,
 											},
-											height = "80",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_not_enough",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -2586,7 +2592,7 @@ local t =
 											{
 												
 											},
-											width = "72",
+											width = "176",
 											ZOrder = "1",
 										},
 									},
@@ -2645,7 +2651,7 @@ local t =
 												StrokeColor = "#FFB38B2A",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_name_1",
 											nTextAlign = "1",
@@ -2662,7 +2668,7 @@ local t =
 												PositionX = -7,
 												PositionY = 18,
 											},
-											width = "26",
+											width = "57",
 											ZOrder = "1",
 										},
 										{
@@ -2691,7 +2697,7 @@ local t =
 												StrokeColor = "#FFB38B2A",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_name_2",
 											nTextAlign = "1",
@@ -2708,7 +2714,7 @@ local t =
 												PositionX = 6,
 												PositionY = -21,
 											},
-											width = "26",
+											width = "136",
 											ZOrder = "1",
 										},
 									},

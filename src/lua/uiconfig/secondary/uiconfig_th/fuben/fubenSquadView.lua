@@ -17367,7 +17367,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = -51,
-						PositionY = -670,
+						PositionY = -739,
 						LeftPositon = -51,
 						TopPosition = 739,
 						relativeToName = "Panel",
@@ -18425,7 +18425,7 @@ local t =
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "34",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_pass",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -18435,10 +18435,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 185,
+										PositionX = 169,
 										PositionY = 49,
 									},
-									width = "68",
+									width = "108",
 									ZOrder = "1",
 									components = 
 									{

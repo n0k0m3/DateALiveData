@@ -5283,15 +5283,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF5D5D5D",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_chapter_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -5307,7 +5307,7 @@ local t =
 												PositionX = 32,
 												PositionY = 17,
 											},
-											width = "137",
+											width = "150",
 											ZOrder = "1",
 										},
 										{
@@ -5331,7 +5331,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 32,
-												PositionY = 54,
+												PositionY = 53,
 												IsPercent = true,
 												PercentX = 50,
 												PercentY = 50,
@@ -5453,15 +5453,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF5D5D5D",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_chapter_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -5477,7 +5477,7 @@ local t =
 												PositionX = 32,
 												PositionY = 17,
 											},
-											width = "137",
+											width = "150",
 											ZOrder = "1",
 										},
 										{
@@ -5501,7 +5501,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 32,
-												PositionY = 54,
+												PositionY = 53,
 												IsPercent = true,
 												PercentX = 50,
 												PercentY = 50,

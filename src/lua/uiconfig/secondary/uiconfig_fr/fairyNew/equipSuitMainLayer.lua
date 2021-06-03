@@ -4540,6 +4540,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "570",
 									ZOrder = "1",
 									components = 
@@ -5857,7 +5858,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "570",
 									ZOrder = "1",
 									components = 
@@ -6431,7 +6431,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																
+																PositionX = -6,
 															},
 															width = "132",
 															ZOrder = "1",
@@ -6552,6 +6552,7 @@ local t =
 																	touchAble = "True",
 																	UILayoutViewModel = 
 																	{
+																		PositionX = -10,
 																		PositionY = 99,
 																	},
 																	UItype = "Button",
@@ -6633,6 +6634,7 @@ local t =
 																	touchAble = "True",
 																	UILayoutViewModel = 
 																	{
+																		PositionX = -10,
 																		PositionY = 73,
 																	},
 																	UItype = "Button",

@@ -5809,4 +5809,9 @@ return {
         res = "ui/activity/picture/icon32.png",
         res_en = "ui/activity/picture/icon32.png",
     },
+    [1163] = {
+        id = 1163,
+        res = "ui/mainLayer3/c999.png",
+        res_en = "ui/mainLayer3/c999.png",
+    },
 }

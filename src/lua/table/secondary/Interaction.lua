@@ -29478,9 +29478,9 @@ return {
         conditionEx = {
         },
         lineStop = {
-            [1] = 3.5,
-            [2] = 6,
-            [3] = 6,
+            [1] = 3,
+            [2] = 2.5,
+            [3] = 3,
         },
         idleTo = "Idle",
         modelId = 511502,

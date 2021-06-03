@@ -946,7 +946,7 @@ local t =
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
 							FontColor = "#FFFFFFFF",
-							fontName = "phanta.ttf",
+							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
 								IsShadow = false,
@@ -955,14 +955,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "24",
+							fontSize = "20",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "27",
+							height = "23",
 							ignoreSize = "True",
 							name = "Label_name_1",
 							nTextAlign = "1",
@@ -979,7 +979,7 @@ local t =
 								PositionX = 150,
 								PositionY = 475,
 							},
-							width = "127",
+							width = "107",
 							ZOrder = "1",
 							components = 
 							{
@@ -1003,15 +1003,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_lock",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1026,7 +1026,7 @@ local t =
 									{
 										PositionY = -33,
 									},
-									width = "163",
+									width = "200",
 									ZOrder = "1",
 									components = 
 									{
