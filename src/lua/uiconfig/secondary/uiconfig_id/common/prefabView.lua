@@ -1649,7 +1649,7 @@ local t =
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "36",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_activity_extra",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -1659,10 +1659,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -25,
+								PositionX = -20,
 								PositionY = 35,
 							},
-							width = "55",
+							width = "69",
 							ZOrder = "1",
 							components = 
 							{

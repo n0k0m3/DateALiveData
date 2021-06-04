@@ -47,8 +47,8 @@ function MedalInfoView:initInfoPanel()
     self.Label_valid_time:setTextById(4007003)
 
     if self.medalInfo_ and self.medalInfo_.createTime and self.medalInfo_.createTime > 0 then
-        local year, month, day = Utils:getDate(self.medalInfo_.createTime, true)
-        self.Label_get_time_value:setText(year.."."..month.."."..day)
+        local year, month, day = Utils:getUTCDateYMD(self.medalInfo_.createTime, true , GV_UTC_TIME_ZONE)
+        self.Label_get_time_value:setText(year.."."..month.."."..day..GV_UTC_TIME_STRING)
     elseif not self.medalInfo then
         self.Label_get_time_value:setTextById(1327104)
     else

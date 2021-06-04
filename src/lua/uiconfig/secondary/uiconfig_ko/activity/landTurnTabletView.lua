@@ -140,14 +140,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "17",
+									height = "21",
 									ignoreSize = "True",
 									name = "lab_des",
 									nTextAlign = "1",
@@ -156,7 +156,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Login daily to get a ",
+									text = "매일 로그인 XX 1개 획득 ",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -164,7 +164,7 @@ local t =
 										PositionX = -14,
 										PositionY = 164,
 									},
-									width = "119",
+									width = "184",
 									ZOrder = "1",
 								},
 								{
@@ -186,14 +186,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "25",
 									ignoreSize = "True",
 									name = "label_timeTxt",
 									nTextAlign = "1",
@@ -203,7 +203,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Event Time",
+									text = "이벤트 시간",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -211,7 +211,7 @@ local t =
 										PositionX = -398,
 										PositionY = 239,
 									},
-									width = "119",
+									width = "110",
 									ZOrder = "1",
 								},
 								{
@@ -233,14 +233,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "18",
+									height = "21",
 									ignoreSize = "True",
 									name = "label_timeBegin",
 									nTextAlign = "1",
@@ -258,7 +258,7 @@ local t =
 										PositionX = -415,
 										PositionY = 214,
 									},
-									width = "93",
+									width = "103",
 									ZOrder = "1",
 								},
 								{
@@ -280,14 +280,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "18",
+									height = "21",
 									ignoreSize = "True",
 									name = "label_timeEnd",
 									nTextAlign = "1",
@@ -305,7 +305,7 @@ local t =
 										PositionX = -430,
 										PositionY = 192,
 									},
-									width = "93",
+									width = "103",
 									ZOrder = "1",
 								},
 							},
@@ -400,15 +400,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "24",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "27",
+									ignoreSize = "True",
 									name = "label",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -416,14 +416,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Unfold Once",
+									text = "1회",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "120",
+									width = "36",
 									ZOrder = "1",
 								},
 							},
@@ -479,15 +479,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "24",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "27",
+									ignoreSize = "True",
 									name = "label",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -495,14 +495,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Unfold 5 Times",
+									text = "5회",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "120",
+									width = "36",
 									ZOrder = "1",
 								},
 							},
@@ -555,15 +555,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "24",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "28",
+									ignoreSize = "True",
 									name = "Label_landTurnTabletView_1",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -571,14 +571,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "No more rounds",
+									text = "라운드 없음",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "270",
+									width = "120",
 									ZOrder = "1",
 								},
 							},
@@ -634,14 +634,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "26",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "18",
+									height = "30",
 									ignoreSize = "True",
 									name = "label",
 									nTextAlign = "1",
@@ -650,15 +650,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Support Event Ranking",
+									text = "응원 랭킹",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 33,
-										PositionY = -47,
+										PositionY = -51,
 									},
-									width = "196",
+									width = "104",
 									ZOrder = "1",
 								},
 								{
@@ -750,11 +749,11 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 178,
+								PositionX = 212,
 								PositionY = 43,
 							},
 							UItype = "Button",
-							width = "96",
+							width = "128",
 							ZOrder = "1",
 							components = 
 							{
@@ -794,14 +793,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Claim",
+									text = "수령",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "60",
+									width = "44",
 									ZOrder = "1",
 								},
 							},
@@ -846,7 +845,7 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 152,
+								PositionX = 130,
 								PositionY = 371,
 							},
 							width = "48",
@@ -889,14 +888,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Current Floor",
+									text = "해당 회차",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -67,
+										PositionX = -41,
 									},
-									width = "130",
+									width = "73",
 									ZOrder = "1",
 								},
 							},
@@ -924,7 +923,7 @@ local t =
 								PositionX = 21,
 								PositionY = 45,
 							},
-							width = "103",
+							width = "122",
 							ZOrder = "1",
 							components = 
 							{
@@ -1111,7 +1110,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Owned",
+									text = "현재 보유",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1259,10 +1258,10 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 91,
-						PositionY = -627,
-						LeftPositon = 3,
-						TopPosition = 627,
+						PositionX = 138,
+						PositionY = -613,
+						LeftPositon = 2,
+						TopPosition = 626,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 2,
@@ -1485,14 +1484,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "24",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "27",
 											ignoreSize = "True",
 											name = "lab_txtNormal",
 											nTextAlign = "1",
@@ -1501,7 +1500,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Round 1",
+											text = "라운드 1",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1509,7 +1508,7 @@ local t =
 												PositionX = 108,
 												PositionY = 29,
 											},
-											width = "68",
+											width = "82",
 											ZOrder = "1",
 										},
 										{
@@ -1649,7 +1648,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Round 1",
+											text = "라운드 1",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 

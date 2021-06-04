@@ -102,7 +102,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "260",
+							height = "368",
 							ignoreSize = "False",
 							name = "Panel_backgrund",
 							sizepercentx = "0",
@@ -120,7 +120,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "500",
+							width = "549",
 							ZOrder = "1",
 							components = 
 							{
@@ -134,7 +134,7 @@ local t =
 									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "275",
+									height = "384",
 									ignoreSize = "False",
 									name = "Image_evaluationViewEx_1",
 									sizepercentx = "0",
@@ -159,7 +159,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "221",
+									height = "323",
 									ignoreSize = "False",
 									name = "Image_evaluationViewEx_2",
 									sizepercentx = "0",
@@ -170,7 +170,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -14,
+										PositionY = -17,
 									},
 									width = "514",
 									ZOrder = "1",
@@ -217,8 +217,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 312,
-								PositionY = 414,
+								PositionX = 309,
+								PositionY = 465,
 							},
 							width = "232",
 							ZOrder = "1",
@@ -321,8 +321,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 808,
-								PositionY = 416,
+								PositionX = 806,
+								PositionY = 465,
 							},
 							UItype = "Button",
 							width = "60",
@@ -368,8 +368,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 330,
-								PositionY = 385,
+								PositionX = 329,
+								PositionY = 436,
 							},
 							width = "69",
 							ZOrder = "1",
@@ -430,8 +430,8 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "25",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "Label_percent",
 							nTextAlign = "0",
 							nTextHAlign = "0",
@@ -444,10 +444,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 440,
-								PositionY = 385,
+								PositionX = 523,
+								PositionY = 436,
 							},
-							width = "69",
+							width = "294",
 							ZOrder = "1",
 						},
 						{
@@ -490,8 +490,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 330,
-								PositionY = 340,
+								PositionX = 329,
+								PositionY = 391,
 							},
 							width = "98",
 							ZOrder = "1",
@@ -566,8 +566,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 440,
-								PositionY = 340,
+								PositionX = 439,
+								PositionY = 391,
 							},
 							width = "343",
 							ZOrder = "1",
@@ -612,8 +612,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 330,
-								PositionY = 250,
+								PositionX = 329,
+								PositionY = 301,
 							},
 							width = "348",
 							ZOrder = "1",

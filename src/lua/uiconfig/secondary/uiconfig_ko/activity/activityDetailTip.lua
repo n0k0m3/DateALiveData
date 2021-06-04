@@ -131,7 +131,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "28",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -142,12 +142,12 @@ local t =
 							ignoreSize = "False",
 							name = "Label_des",
 							nTextAlign = "0",
-							nTextHAlign = "1",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "Event Bonus",
+							text = "이벤트 관련 보너스",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -155,7 +155,7 @@ local t =
 								PositionX = 568,
 								PositionY = 522,
 							},
-							width = "449",
+							width = "0",
 							ZOrder = "1",
 						},
 						{
@@ -350,15 +350,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "25",
+											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -366,7 +366,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "All Battle Stages",
+											text = "모든 전투 스테이지",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -374,7 +374,7 @@ local t =
 												PositionX = 3,
 												PositionY = -16,
 											},
-											width = "200",
+											width = "167",
 											ZOrder = "1",
 										},
 										{
@@ -396,7 +396,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -412,7 +412,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "All Battle Stages",
+											text = "모든 전투 스테이지",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 

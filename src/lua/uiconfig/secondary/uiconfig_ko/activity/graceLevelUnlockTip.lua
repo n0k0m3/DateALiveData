@@ -131,15 +131,15 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "28",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "0",
-							ignoreSize = "False",
+							height = "32",
+							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
 							nTextHAlign = "1",
@@ -147,7 +147,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "How to Unlock Grace Level",
+							text = "은혜 레벨 개방 조건",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -155,7 +155,7 @@ local t =
 								PositionX = 568,
 								PositionY = 544,
 							},
-							width = "287",
+							width = "226",
 							ZOrder = "1",
 						},
 						{
@@ -353,18 +353,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "25",
+									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
-									nTextHAlign = "0",
+									nTextHAlign = "1",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -377,7 +377,7 @@ local t =
 										PositionX = -162,
 										PositionY = 21,
 									},
-									width = "300",
+									width = "115",
 									ZOrder = "1",
 								},
 								{
@@ -399,7 +399,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,

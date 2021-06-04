@@ -165,7 +165,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "34",
 									ignoreSize = "True",
 									name = "lab_title",
 									nTextAlign = "1",
@@ -174,7 +174,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "规则预览",
+									text = "規則預覽",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -182,7 +182,7 @@ local t =
 										PositionX = -342,
 										PositionY = 176,
 									},
-									width = "123",
+									width = "122",
 									ZOrder = "1",
 								},
 								{
@@ -254,7 +254,7 @@ local t =
 										PositionX = -211,
 										PositionY = 172,
 									},
-									width = "75",
+									width = "73",
 									ZOrder = "1",
 								},
 								{
@@ -292,7 +292,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "的广泛法拉盛法拉盛安沙的盛法拉盛安沙的广泛法拉盛",
+									text = "的廣泛法拉盛法拉盛安沙的盛法拉盛安沙的廣泛法拉盛",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 

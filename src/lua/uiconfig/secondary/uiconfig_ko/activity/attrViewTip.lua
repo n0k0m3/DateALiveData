@@ -92,11 +92,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "474",
-							ignoreSize = "False",
+							height = "494",
+							ignoreSize = "True",
 							name = "Image_1",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -109,7 +109,7 @@ local t =
 								PositionX = 568,
 								PositionY = 329,
 							},
-							width = "497",
+							width = "374",
 							ZOrder = "1",
 						},
 						{
@@ -147,15 +147,15 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "Grace Level Up",
+							text = "은혜 레벨 증가",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 440,
-								PositionY = 539,
+								PositionX = 568,
+								PositionY = 544,
 							},
-							width = "223",
+							width = "170",
 							ZOrder = "1",
 						},
 						{
@@ -175,7 +175,7 @@ local t =
 							height = "279",
 							ignoreSize = "False",
 							innerHeight = "279",
-							innerWidth = "415",
+							innerWidth = "349",
 							name = "ScrollView_attr",
 							showScrollbar = "False",
 							sizepercentx = "0",
@@ -185,15 +185,15 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 369,
-								PositionY = 160,
+								PositionX = 392,
+								PositionY = 155,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "415",
+							width = "349",
 							ZOrder = "1",
 						},
 						{
@@ -220,7 +220,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 568,
-								PositionY = 130,
+								PositionY = 119,
 							},
 							UItype = "Button",
 							width = "116",
@@ -254,8 +254,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "23",
+									ignoreSize = "True",
 									name = "Label_sure",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -263,14 +263,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Confirm",
+									text = "확인",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "120",
+									width = "38",
 									ZOrder = "1",
 								},
 							},
@@ -298,8 +298,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 784,
-								PositionY = 537,
+								PositionX = 725,
+								PositionY = 546,
 							},
 							UItype = "Button",
 							width = "46",
@@ -609,7 +609,7 @@ local t =
 							controlID = "Label_tip1_Panel_base_Panel-attrViewTip_activity_dicuo_activity_Game",
 							UUID = "ab608d5d_06b4_4996_a3c8_ea822ffdb8e3",
 							anchorPoint = "False",
-							anchorPointX = "1",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -640,15 +640,15 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "Exploit",
+							text = "위업：",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 678,
+								PositionX = 632,
 								PositionY = 486,
 							},
-							width = "55",
+							width = "41",
 							ZOrder = "1",
 						},
 						{
@@ -724,10 +724,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = -4,
-						PositionY = -563,
-						LeftPositon = -4,
-						BottomPosition = -563,
+						PositionY = -640,
+						BottomPosition = -640,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 4,
@@ -776,7 +774,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "405",
+							width = "349",
 							ZOrder = "1",
 							components = 
 							{
@@ -801,8 +799,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -120,
-										PositionY = 4,
+										PositionX = -98,
+										PositionY = 8,
 									},
 									width = "34",
 									ZOrder = "1",
@@ -832,8 +830,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -22,
-										PositionY = 6,
+										PositionY = 9,
 									},
 									uipanelviewmodel = 
 									{
@@ -1047,7 +1044,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Wish Bonus",
+											text = "소원 보너스",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1157,8 +1154,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -22,
-										PositionY = 6,
+										PositionY = 9,
 									},
 									uipanelviewmodel = 
 									{
@@ -1205,7 +1201,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Velocidad de movimiento",
+											text = "TextLable",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1213,7 +1209,7 @@ local t =
 												PositionX = -83,
 												PositionY = -1,
 											},
-											width = "200",
+											width = "80",
 											ZOrder = "1",
 										},
 										{
@@ -1251,12 +1247,12 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "+14",
+											text = "TextLable",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 170,
+												PositionX = 89,
 												PositionY = -1,
 											},
 											width = "0",
@@ -1282,7 +1278,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 198,
+												PositionX = 146,
 												PositionY = -1,
 											},
 											width = "24",

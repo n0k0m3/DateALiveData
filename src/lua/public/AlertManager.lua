@@ -514,11 +514,12 @@ function AlertManager:hideInVisibleLayer( )
                         break
                     end
                 end
-                if isInsert then
+                if isInsert and TopDataMgr:isShowTop(tlayer.__cname) then
                     table.insert(hideList, tlayer) 
                 end
             end
         end
+
         --print("=====================================")
         for i,_layer in ipairs(showList) do
             --print(string.format("name %s        istop %s   ", _layer.__cname, tostring(_layer.isTop) ).."    show")

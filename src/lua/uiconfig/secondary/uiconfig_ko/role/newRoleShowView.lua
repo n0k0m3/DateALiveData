@@ -2268,14 +2268,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Buy Now",
+													text = "구매",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														
 													},
-													width = "79",
+													width = "38",
 													ZOrder = "1",
 												},
 											},

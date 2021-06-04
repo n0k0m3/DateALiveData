@@ -238,7 +238,7 @@ local t =
 											{
 												PositionX = -200,
 											},
-											width = "43",
+											width = "65",
 											ZOrder = "1",
 										},
 										{
@@ -283,7 +283,7 @@ local t =
 											{
 												PositionX = 198,
 											},
-											width = "83",
+											width = "115",
 											ZOrder = "1",
 										},
 									},
@@ -354,7 +354,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_top_title",
 									nTextAlign = "1",
@@ -368,10 +368,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 298,
+										PositionX = 345,
 										PositionY = -37,
 									},
-									width = "115",
+									width = "210",
 									ZOrder = "1",
 								},
 								{
@@ -417,7 +417,8 @@ local t =
 										PositionX = 357,
 										PositionY = -42,
 									},
-									width = "122",
+									visible = "False",
+									width = "126",
 									ZOrder = "1",
 								},
 								{
@@ -476,7 +477,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_rankPopView_3",
 									nTextAlign = "1",
@@ -494,7 +495,7 @@ local t =
 										PositionX = 356,
 										PositionY = -39,
 									},
-									width = "11",
+									width = "10",
 									ZOrder = "1",
 								},
 							},
@@ -594,14 +595,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_tips",
 									nTextAlign = "1",
@@ -618,7 +619,7 @@ local t =
 										PositionX = 246,
 										PositionY = 132,
 									},
-									width = "476",
+									width = "572",
 									ZOrder = "1",
 								},
 							},
@@ -990,8 +991,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 675,
-										PositionY = 52,
+										PositionX = 674,
+										PositionY = 51,
 										IsPercent = true,
 										PercentX = 94.66,
 										PercentY = 50.98,

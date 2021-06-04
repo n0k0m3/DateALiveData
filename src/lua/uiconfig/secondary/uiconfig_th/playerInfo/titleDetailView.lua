@@ -102,7 +102,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "260",
+							height = "400",
 							ignoreSize = "False",
 							name = "Panel_backgrund",
 							sizepercentx = "0",
@@ -120,7 +120,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "500",
+							width = "600",
 							ZOrder = "1",
 							components = 
 							{
@@ -134,7 +134,7 @@ local t =
 									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "275",
+									height = "373",
 									ignoreSize = "False",
 									name = "Image_evaluationViewEx_1",
 									sizepercentx = "0",
@@ -159,7 +159,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "221",
+									height = "298",
 									ignoreSize = "False",
 									name = "Image_evaluationViewEx_2",
 									sizepercentx = "0",
@@ -217,8 +217,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 312,
-								PositionY = 415,
+								PositionX = 313,
+								PositionY = 458,
 							},
 							width = "105",
 							ZOrder = "1",
@@ -321,8 +321,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 808,
-								PositionY = 416,
+								PositionX = 809,
+								PositionY = 459,
 							},
 							UItype = "Button",
 							width = "60",
@@ -368,8 +368,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 330,
-								PositionY = 385,
+								PositionX = 329,
+								PositionY = 431,
 							},
 							width = "89",
 							ZOrder = "1",
@@ -444,8 +444,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 440,
-								PositionY = 385,
+								PositionX = 439,
+								PositionY = 431,
 							},
 							width = "89",
 							ZOrder = "1",
@@ -490,8 +490,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 330,
-								PositionY = 340,
+								PositionX = 329,
+								PositionY = 386,
 							},
 							width = "72",
 							ZOrder = "1",
@@ -566,8 +566,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 440,
-								PositionY = 340,
+								PositionX = 439,
+								PositionY = 386,
 							},
 							width = "234",
 							ZOrder = "1",
@@ -612,8 +612,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 330,
-								PositionY = 250,
+								PositionX = 329,
+								PositionY = 296,
 							},
 							width = "308",
 							ZOrder = "1",
