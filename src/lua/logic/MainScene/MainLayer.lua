@@ -4033,6 +4033,7 @@ function MainLayer:initNpc()
                 self.Image_switch_role:stopAllActions()
                 RoleSwitchDataMgr:setFirstFlag(false)
                 RoleSwitchDataMgr:setNextRole()
+                self:updateLive2d()
             else
                 self:updateLive2d()
             end
