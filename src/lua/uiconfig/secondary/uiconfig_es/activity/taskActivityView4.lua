@@ -187,12 +187,12 @@ local t =
 									controlID = "Label_date_Image_ad_Panel_root_Panel-taskActivityView4_hwx_activity_Game",
 									UUID = "a067a865_1544_4699_a1c8_97ba05db5bb7",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FF000000",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -209,8 +209,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "False",
+									height = "23",
+									ignoreSize = "True",
 									name = "Label_date",
 									nTextAlign = "1",
 									nTextHAlign = "0",
@@ -223,11 +223,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -459,
-										PositionY = 78,
+										PositionX = 454,
+										PositionY = 51,
 									},
-									visible = "False",
-									width = "350",
+									width = "166",
 									ZOrder = "1",
 								},
 								{

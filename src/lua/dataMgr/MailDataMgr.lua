@@ -93,7 +93,9 @@ end
 function MailDataMgr:checkRedPoint()
 	local ret = false;
 	for k,v in pairs(self.mails) do
-		if v.status == 0 or v.mailType == MailType.redPackMail then
+		--TODO CLOSE
+		--if v.status == 0 or v.mailType == MailType.redPackMail then
+		if v.status == 0 then
 			ret = true;
 			break
 		end

@@ -118,20 +118,20 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "536",
+							height = "131",
 							ignoreSize = "True",
 							name = "Image_ad",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/activity/picture/ad100.png",
+							texturePath = "ui/activity/picture/ad104.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
 								PositionY = 205,
 							},
-							width = "926",
+							width = "923",
 							ZOrder = "1",
 							components = 
 							{
@@ -187,12 +187,12 @@ local t =
 									controlID = "Label_date_Image_ad_Panel_root_Panel-taskActivityView4_hwx_activity_Game",
 									UUID = "1477d034_a667_422e_8f9c_7bf11f9249dd",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FF000000",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -209,11 +209,11 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "False",
+									height = "23",
+									ignoreSize = "True",
 									name = "Label_date",
 									nTextAlign = "1",
-									nTextHAlign = "0",
+									nTextHAlign = "2",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -223,11 +223,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -459,
-										PositionY = 78,
+										PositionX = 454,
+										PositionY = 51,
 									},
-									visible = "False",
-									width = "350",
+									width = "200",
 									ZOrder = "1",
 								},
 								{
@@ -1320,7 +1319,7 @@ local t =
 		textures = 
 		{
 			"ui/activity/001.png",
-			"ui/activity/picture/ad100.png",
+			"ui/activity/picture/ad104.png",
 			"ui/activity/fashionStore/1/004.png",
 			"ui/activity/activityMain3/d2.png",
 			"ui/activity/activityMain3/d1.png",

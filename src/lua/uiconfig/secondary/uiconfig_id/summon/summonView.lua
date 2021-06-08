@@ -582,8 +582,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "23",
+											ignoreSize = "True",
 											name = "Label_have",
 											nTextAlign = "1",
 											nTextHAlign = "0",
@@ -598,7 +598,7 @@ local t =
 											{
 												PositionY = 21,
 											},
-											width = "210",
+											width = "202",
 											ZOrder = "1",
 										},
 										{
@@ -675,8 +675,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 197,
-								PositionY = -244,
+								PositionX = 180,
+								PositionY = -242,
 								LeftPositon = 275,
 								TopPosition = 544,
 								relativeToName = "Panel_root",
@@ -933,8 +933,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 414,
-								PositionY = -243,
+								PositionX = 397,
+								PositionY = -241,
 								LeftPositon = 275,
 								TopPosition = 544,
 								relativeToName = "Panel_root",
