@@ -3148,14 +3148,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_tips",
 											nTextAlign = "1",
@@ -3172,7 +3172,7 @@ local t =
 												PositionX = 252,
 												PositionY = 24,
 											},
-											width = "74",
+											width = "80",
 											ZOrder = "1",
 										},
 										{
@@ -3306,7 +3306,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "1",
-																	texturePath = "ui/league/ui_28.png",
+																	texturePath = "ui/league/ui_28_global.png",
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
@@ -3335,15 +3335,15 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "16",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "18",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "Label_open_apply",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -3359,7 +3359,7 @@ local t =
 																		PositionX = 109,
 																		PositionY = 31,
 																	},
-																	width = "158",
+																	width = "185",
 																	ZOrder = "1",
 																},
 																{
@@ -3381,14 +3381,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "21",
+																	height = "25",
 																	ignoreSize = "True",
 																	name = "Label_leagueHallView_1",
 																	nTextAlign = "1",
@@ -3402,10 +3402,10 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 250,
+																		PositionX = 288,
 																		PositionY = 31,
 																	},
-																	width = "46",
+																	width = "54",
 																	ZOrder = "1",
 																},
 																{
@@ -3427,14 +3427,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "21",
+																	height = "25",
 																	ignoreSize = "True",
 																	name = "Label_leagueHallView_1-Copy1",
 																	nTextAlign = "1",
@@ -3448,10 +3448,10 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 387,
+																		PositionX = 459,
 																		PositionY = 31,
 																	},
-																	width = "21",
+																	width = "25",
 																	ZOrder = "1",
 																},
 																{
@@ -3476,7 +3476,7 @@ local t =
 																	touchAble = "True",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 322,
+																		PositionX = 381,
 																		PositionY = 31,
 																	},
 																	UItype = "Button",
@@ -3568,7 +3568,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "1",
-																	texturePath = "ui/league/ui_28.png",
+																	texturePath = "ui/league/ui_28_global.png",
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
@@ -3597,15 +3597,15 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "16",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "18",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "Label_open_limit",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -3621,7 +3621,7 @@ local t =
 																		PositionX = 109,
 																		PositionY = 31,
 																	},
-																	width = "142",
+																	width = "185",
 																	ZOrder = "1",
 																},
 																{
@@ -3643,14 +3643,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "21",
+																	height = "25",
 																	ignoreSize = "True",
 																	name = "Label_leagueHallView_1",
 																	nTextAlign = "1",
@@ -3664,10 +3664,10 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 250,
+																		PositionX = 288,
 																		PositionY = 31,
 																	},
-																	width = "46",
+																	width = "54",
 																	ZOrder = "1",
 																},
 																{
@@ -3689,14 +3689,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "21",
+																	height = "25",
 																	ignoreSize = "True",
 																	name = "Label_leagueHallView_1-Copy1",
 																	nTextAlign = "1",
@@ -3710,10 +3710,10 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 387,
+																		PositionX = 459,
 																		PositionY = 31,
 																	},
-																	width = "21",
+																	width = "25",
 																	ZOrder = "1",
 																},
 																{
@@ -3738,7 +3738,7 @@ local t =
 																	touchAble = "True",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 322,
+																		PositionX = 381,
 																		PositionY = 31,
 																	},
 																	UItype = "Button",
@@ -3830,7 +3830,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "1",
-																	texturePath = "ui/league/ui_28.png",
+																	texturePath = "ui/league/ui_28_global.png",
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
@@ -3859,15 +3859,15 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "16",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "18",
-																	ignoreSize = "True",
+																	height = "0",
+																	ignoreSize = "False",
 																	name = "Label_open_apply",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -3883,7 +3883,7 @@ local t =
 																		PositionX = 109,
 																		PositionY = 31,
 																	},
-																	width = "171",
+																	width = "185",
 																	ZOrder = "1",
 																},
 																{
@@ -3905,14 +3905,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "21",
+																	height = "25",
 																	ignoreSize = "True",
 																	name = "Label_leagueHallView_1",
 																	nTextAlign = "1",
@@ -3926,10 +3926,10 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 256,
+																		PositionX = 288,
 																		PositionY = 31,
 																	},
-																	width = "46",
+																	width = "54",
 																	ZOrder = "1",
 																},
 																{
@@ -3951,14 +3951,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "21",
+																	height = "25",
 																	ignoreSize = "True",
 																	name = "Label_leagueHallView_1-Copy1",
 																	nTextAlign = "1",
@@ -3972,10 +3972,10 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 387,
+																		PositionX = 459,
 																		PositionY = 31,
 																	},
-																	width = "21",
+																	width = "25",
 																	ZOrder = "1",
 																},
 																{
@@ -4000,7 +4000,7 @@ local t =
 																	touchAble = "True",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 322,
+																		PositionX = 381,
 																		PositionY = 31,
 																	},
 																	UItype = "Button",
@@ -4092,7 +4092,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "1",
-																	texturePath = "ui/league/ui_28.png",
+																	texturePath = "ui/league/ui_28_global.png",
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
@@ -4167,14 +4167,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "21",
+																	height = "25",
 																	ignoreSize = "True",
 																	name = "Label_leagueHallView_1",
 																	nTextAlign = "1",
@@ -4188,17 +4188,17 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 250,
+																		PositionX = 288,
 																		PositionY = 31,
 																	},
-																	width = "46",
+																	width = "54",
 																	ZOrder = "1",
 																},
 																{
 																	controlID = "Label_leagueHallView_1-Copy1_Panel_country_panel_scroll_ScrollView_leagueHallView_1_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
 																	UUID = "062d0a93_9138_40b6_a994_c4bb152f993d",
 																	anchorPoint = "False",
-																	anchorPointX = "0",
+																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
 																	classname = "MELabel",
 																	compPath = "luacomponents.common.MEIconLabel",
@@ -4213,14 +4213,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "22",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "21",
+																	height = "25",
 																	ignoreSize = "True",
 																	name = "Label_leagueHallView_1-Copy1",
 																	nTextAlign = "1",
@@ -4234,10 +4234,10 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 381,
+																		PositionX = 459,
 																		PositionY = 31,
 																	},
-																	width = "21",
+																	width = "25",
 																	ZOrder = "1",
 																},
 																{
@@ -4262,7 +4262,7 @@ local t =
 																	touchAble = "True",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 322,
+																		PositionX = 381,
 																		PositionY = 31,
 																	},
 																	UItype = "Button",
@@ -7593,7 +7593,7 @@ local t =
 			"ui/league/ui_bg2.png",
 			"ui/league/ui_03.png",
 			"ui/league/ui_20.png",
-			"ui/league/ui_28.png",
+			"ui/league/ui_28_global.png",
 			"ui/league/ui_27.png",
 			"ui/battle/practice/new_007.png",
 			"ui/league/ui_66.png",

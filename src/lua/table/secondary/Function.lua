@@ -1809,7 +1809,7 @@ return {
         serverId = 2,
         showIcon = false,
         stingerDating = "",
-        name = "",
+        name = "270476",
         unlockExplain = {
             [1] = 2,
             [2] = 270420,

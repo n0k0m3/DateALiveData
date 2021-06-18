@@ -545,9 +545,17 @@ function LeagueHunterMainView:updateTimeFunc()
     local day, hour, min, sec = Utils:getTimeDHMZ(remainTime, true)
 	if stepInfo.step == EC_HunterStep.READY_OPEN 
 	or stepInfo.step == EC_HunterStep.FORMAL_OPEN then
-	  self.stageTimeLabel:setTextById("r304001", day, hour)
+	  if tonumber(day) > 0 then 
+          self.stageTimeLabel:setTextById("r304001", day, hour) 
+      else
+          self.stageTimeLabel:setTextById("r99990005", hour, min) 
+      end 
 	else
-	  self.stageTimeLabel:setTextById("r304002", day, hour)
+	  if tonumber(day) > 0 then 
+          self.stageTimeLabel:setTextById("r304002", day, hour) 
+      else
+          self.stageTimeLabel:setTextById("r99990006", hour, min) 
+      end 
 	end  
 end
 

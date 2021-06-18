@@ -1025,6 +1025,20 @@ end
 
 --重管理器移除
 function Effect:remove(clean)
+    if self.removeFlag then
+        if clean then
+            if self.bindParentNode then
+                self.bindParentNode:removeFromParent()
+            else
+                self.skeletonNode:removeFromParent(true)
+                if self.skeletonNode.resPath then
+                    ResLoader.addCacheSpine(self.skeletonNode,self.skeletonNode.resPath)
+                end
+                self:removeFromParent()
+            end
+        end
+        return
+    end
     self:playConnectEffect()
     self:checkNotHitEvent(true)
     --移除监听
@@ -1040,17 +1054,7 @@ function Effect:remove(clean)
            self.srcHero:removeEffect(self) 
         end
     end
-    if clean then
-        if self.bindParentNode then
-            self.bindParentNode:removeFromParent()
-        else
-            self.skeletonNode:removeFromParent(true)
-            if self.skeletonNode.resPath then
-                ResLoader.addCacheSpine(self.skeletonNode,self.skeletonNode.resPath)
-            end
-            self:removeFromParent()
-        end
-    end
+    self.removeFlag = true
 end
 
 function Effect:setBindParent(node)
@@ -2514,6 +2518,10 @@ function NormalEffect:active(srcHero,hostType,effect,mainTarget)
 end
 
 function NormalEffect:update(dt)
+    if self.removeFlag then
+        self:checkRemove()
+        return
+    end
     dt = dt* self.srcHero:getTimeScale()
     self.nTime = self.nTime + dt
     self:updateDir()
@@ -3172,6 +3180,10 @@ function EmitEffect:_onExit()
 end
 
 function EmitEffect:update(time)
+    if self.removeFlag then
+        self:checkRemove()
+        return
+    end
     time = time* self.srcHero:getTimeScale()
     self.nTime = self.nTime + time
     self:skeletonNodeUpdata(time)

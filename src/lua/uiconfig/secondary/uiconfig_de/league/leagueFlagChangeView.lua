@@ -212,7 +212,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -231,7 +231,7 @@ local t =
 										LeftPositon = 15,
 										TopPosition = 224,
 									},
-									width = "115",
+									width = "253",
 									ZOrder = "1",
 									components = 
 									{
@@ -279,7 +279,8 @@ local t =
 												PositionX = 118,
 												PositionY = -4,
 											},
-											width = "113",
+											visible = "False",
+											width = "108",
 											ZOrder = "1",
 										},
 									},
@@ -391,7 +392,7 @@ local t =
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "34",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_name_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -406,7 +407,7 @@ local t =
 										LeftPositon = 623,
 										TopPosition = 266,
 									},
-									width = "150",
+									width = "242",
 									ZOrder = "1",
 								},
 								{
@@ -491,7 +492,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -510,7 +511,7 @@ local t =
 										LeftPositon = 664,
 										TopPosition = 419,
 									},
-									width = "91",
+									width = "173",
 									ZOrder = "1",
 								},
 								{
@@ -638,7 +639,7 @@ local t =
 											{
 												
 											},
-											width = "99",
+											width = "94",
 											ZOrder = "1",
 										},
 									},

@@ -17,8 +17,8 @@ function DfwSummerMainView:initData()
         Box("夏日祭活动未开启")
     end
 
-    self.maxGridNum_ = 30
-    self.previewGridNum_ = 20
+    self.maxGridNum_ = Utils:getKVP(46012,"lenth")
+    self.previewGridNum_ = Utils:getKVP(46012,"initLenth")
     self.diceData_ = DfwDataMgr:getChessesDice()
     self.gridItems_ = {}
     self.diceItems_ = {}
@@ -94,6 +94,7 @@ function DfwSummerMainView:initUI(ui)
     self.ListView_buff = UIListView:create(ScrollView_buff)
     self.Image_buffDesc = TFDirector:getChildByPath(self.Panel_root, "Image_buffDesc"):hide()
     self.Label_buffDesc = TFDirector:getChildByPath(self.Image_buffDesc, "Label_buffDesc")
+    self.Image_buffDesc:setTexture("ui/dfwautumn/main/DFW_main_bg5.png")  --回滚夏日祭修改
     local Panel_dice = TFDirector:getChildByPath(self.Panel_root, "Panel_dice")
     local ScrollView_dice = TFDirector:getChildByPath(Panel_dice, "Panel_mask.ScrollView_dice")
     self.PageView_dice = UIPageView:create(ScrollView_dice)
@@ -108,7 +109,9 @@ function DfwSummerMainView:initUI(ui)
     self.Label_dice_name = TFDirector:getChildByPath(self.Image_other_dice, "Label_dice_name")
     self.Button_dice_point = {}
     for i = 1, 6 do
-        self.Button_dice_point[i] = TFDirector:getChildByPath(self.Image_control_dice, "Button_dice_point_" .. i)
+        self.Button_dice_point[i] = TFDirector:getChildByPath(self.Image_control_dice, "Button_dice_point_" .. i)   
+        self.Button_dice_point[i]:setTextureNormal("ui/dfwautumn/main/DFW_main_icon_"..(i+7)..".png")  --回滚夏日祭修改
+        
     end
     self.Panel_touch = TFDirector:getChildByPath(self.Panel_root, "Panel_touch")
 
@@ -223,10 +226,9 @@ function DfwSummerMainView:updateMap()
     self.cellInfo_ = DfwDataMgr:getCellInfo()
     self.totalStep_ = self.cellInfo_.totleStep
     self.gridData_ = self.cellInfo_.cellIds
-
     local x = 0
     local width = 0
-
+    dump(self.gridData_)
     for i, v in ipairs(self.gridData_) do
         local chessesCfg = DfwDataMgr:getChessesCfg(v)
         local Image_gridItem = self.gridItems_[i]:show()

@@ -866,10 +866,22 @@ function TeamFightTeamView:initCommonPart()
     self.commonWidget["leader"]["leader_root"]:setVisible(false)
     btn_bg:onClick(function()
         if TeamFightDataMgr:isAutoMatching() == true then
-            self.commonWidget["leader"]["img_on"]:setPosition(me.p(22,0))
+            if TFLanguageMgr:getUsingLanguage() == cc.FRENCH then
+                self.commonWidget["leader"]["img_on"]:setPosition(me.p(40,0))
+            elseif TFLanguageMgr:getUsingLanguage() == cc.SPANISH then
+                self.commonWidget["leader"]["img_on"]:setPosition(me.p(44,0))
+            else
+                self.commonWidget["leader"]["img_on"]:setPosition(me.p(22,0))
+            end
             TeamFightDataMgr:requestChangeTeamStatus(1)
         else
-            self.commonWidget["leader"]["img_on"]:setPosition(me.p(-22,0))
+            if TFLanguageMgr:getUsingLanguage() == cc.FRENCH then
+                self.commonWidget["leader"]["img_on"]:setPosition(me.p(-40,0))
+            elseif TFLanguageMgr:getUsingLanguage() == cc.SPANISH then
+                self.commonWidget["leader"]["img_on"]:setPosition(me.p(-44,0))
+            else
+                self.commonWidget["leader"]["img_on"]:setPosition(me.p(-22,0))
+            end
             TeamFightDataMgr:requestChangeTeamStatus(2)
         end
     end)
@@ -1225,9 +1237,21 @@ function TeamFightTeamView:updateCommonPart()
 
         local isAutoMatch = TeamFightDataMgr:isAutoMatching()
         if isAutoMatch == true then
-            self.commonWidget["leader"]["img_on"]:setPosition(me.p(-22,0))
+            if TFLanguageMgr:getUsingLanguage() == cc.FRENCH then
+                self.commonWidget["leader"]["img_on"]:setPosition(me.p(-40,0))
+            elseif TFLanguageMgr:getUsingLanguage() == cc.SPANISH then
+                self.commonWidget["leader"]["img_on"]:setPosition(me.p(-44,0))
+            else
+                self.commonWidget["leader"]["img_on"]:setPosition(me.p(-22,0))
+            end
         else
-            self.commonWidget["leader"]["img_on"]:setPosition(me.p(22,0))
+            if TFLanguageMgr:getUsingLanguage() == cc.FRENCH then
+                self.commonWidget["leader"]["img_on"]:setPosition(me.p(40,0))
+            elseif TFLanguageMgr:getUsingLanguage() == cc.SPANISH then
+                self.commonWidget["leader"]["img_on"]:setPosition(me.p(44,0))
+            else
+                self.commonWidget["leader"]["img_on"]:setPosition(me.p(22,0))
+            end
         end
     else
         self.commonWidget["leader"]["leader_root"]:setVisible(false)

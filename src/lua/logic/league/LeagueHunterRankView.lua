@@ -315,7 +315,7 @@ end
 
 function LeagueHunterRankingView:setSelect(index,force)
 
-    local posX = index == 1 and 512 or 540
+    local posX = index == 1 and 512 or 565
     self.image_line3:setPositionX(posX)
 
     if self.chooseIndex ~= index  or force then

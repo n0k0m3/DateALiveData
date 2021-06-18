@@ -164,7 +164,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = true,
@@ -179,16 +179,16 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Nom UI",
+									text = "UI-Name",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 260,
-										PositionY = -34,
+										PositionX = 280,
+										PositionY = -33,
 									},
 									vAlignment = "1",
-									width = "200",
+									width = "225",
 									ZOrder = "1",
 								},
 								{
@@ -223,7 +223,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "FONCTIONNNEL",
+									text = "FUNCTIONAL",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -233,7 +233,7 @@ local t =
 									},
 									vAlignment = "0",
 									visible = "False",
-									width = "148",
+									width = "142",
 									ZOrder = "1",
 								},
 							},
@@ -337,7 +337,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "99999999.0",
+									text = "99999999",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -345,7 +345,7 @@ local t =
 										PositionX = 572,
 										PositionY = -33,
 									},
-									width = "117",
+									width = "98",
 									ZOrder = "1",
 								},
 								{
@@ -364,7 +364,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									text = "LabelBMFont",
+									text = "9999999",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
@@ -372,7 +372,7 @@ local t =
 										PositionY = -44,
 									},
 									visible = "False",
-									width = "100",
+									width = "98",
 									ZOrder = "1",
 								},
 								{
@@ -464,7 +464,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "99999999.0",
+									text = "99999999",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -472,7 +472,7 @@ local t =
 										PositionX = 793,
 										PositionY = -33,
 									},
-									width = "117",
+									width = "98",
 									ZOrder = "1",
 								},
 								{
@@ -491,7 +491,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									text = "LabelBMFont",
+									text = "9999999",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
@@ -499,7 +499,7 @@ local t =
 										PositionY = -44,
 									},
 									visible = "False",
-									width = "100",
+									width = "98",
 									ZOrder = "1",
 								},
 								{
@@ -591,7 +591,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "99999999.0",
+									text = "99999999",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -599,7 +599,7 @@ local t =
 										PositionX = 1006,
 										PositionY = -35,
 									},
-									width = "117",
+									width = "98",
 									ZOrder = "1",
 								},
 								{

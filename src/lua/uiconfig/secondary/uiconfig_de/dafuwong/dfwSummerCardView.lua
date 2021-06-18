@@ -55,7 +55,7 @@ local t =
 					bgColorOpacity = "50",
 					bIsOpenClipping = "False",
 					classname = "MEPanel",
-					colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+					colorType = "1;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 					DesignHeight = "640",
 					DesignType = "0",
 					DesignWidth = "960",
@@ -70,8 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 480,
-						PositionY = 320,
+						PositionX = 510,
+						PositionY = 333,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -112,8 +112,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -360,
-								PositionY = 18,
+								PositionX = -356,
+								PositionY = 74,
 							},
 							uipanelviewmodel = 
 							{
@@ -191,7 +191,7 @@ local t =
 											controlID = "Label_title_Button_card_Panel_card_1_Panel_root_Panel-dfwSummerCardView_Layer2_dafuwong_Game",
 											UUID = "2c3c3abe_5238_4ec9_8cfd_12dd07cdf608",
 											anchorPoint = "False",
-											anchorPointX = "0",
+											anchorPointX = "0.5",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -206,32 +206,32 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "140",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_title",
 											nTextAlign = "1",
 											nTextHAlign = "1",
-											rotation = "-9",
+											rotation = "81",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Titel Titel",
+											text = "Title Title",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 91,
+												PositionX = 105,
 												PositionY = 86,
 											},
-											width = "32",
+											width = "146",
 											ZOrder = "1",
 										},
 									},
@@ -285,14 +285,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "19",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "50",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "0",
@@ -301,13 +301,13 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Nächster Würfelwurf +3",
+									text = "Next Dice Roll +3",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -9,
-										PositionY = -102,
+										PositionX = -10,
+										PositionY = -125,
 									},
 									width = "234",
 									ZOrder = "1",
@@ -335,8 +335,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -19,
-										PositionY = -230,
+										PositionX = -22,
+										PositionY = -298,
 									},
 									UItype = "Button",
 									width = "124",
@@ -379,14 +379,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Benutzen",
+											text = "Use",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -3,
 											},
-											width = "53",
+											width = "40",
 											ZOrder = "1",
 										},
 									},
@@ -411,8 +411,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -19,
-										PositionY = -291,
+										PositionX = -22,
+										PositionY = -359,
 									},
 									width = "278",
 									ZOrder = "1",
@@ -438,15 +438,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "19",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF345EAF",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_effect",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -454,14 +454,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Du genießt diesen Buff",
+											text = "You are enjoying this buff",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "203",
+											width = "196",
 											ZOrder = "1",
 										},
 									},
@@ -486,8 +486,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -15,
-										PositionY = -144,
+										PositionX = -18,
+										PositionY = -212,
 									},
 									width = "198",
 									ZOrder = "1",
@@ -520,7 +520,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -536,7 +536,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "49",
+											width = "35",
 											ZOrder = "1",
 										},
 									},
@@ -568,8 +568,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -26,
-								PositionY = 18,
+								PositionX = -22,
+								PositionY = 74,
 							},
 							uipanelviewmodel = 
 							{
@@ -647,7 +647,7 @@ local t =
 											controlID = "Label_title_Button_card_Panel_card_2_Panel_root_Panel-dfwSummerCardView_Layer2_dafuwong_Game",
 											UUID = "fbeeed9c_d87c_4fcb_b85c_5efffc652c0c",
 											anchorPoint = "False",
-											anchorPointX = "0",
+											anchorPointX = "0.5",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -662,32 +662,32 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "140",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_title",
 											nTextAlign = "1",
 											nTextHAlign = "1",
-											rotation = "-9",
+											rotation = "81",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Titel Titel",
+											text = "Title Title",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 91,
+												PositionX = 105,
 												PositionY = 86,
 											},
-											width = "32",
+											width = "146",
 											ZOrder = "1",
 										},
 									},
@@ -741,14 +741,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "19",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "50",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "0",
@@ -757,13 +757,13 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Nächster Würfelwurf +3",
+									text = "Next Dice Roll +3",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -9,
-										PositionY = -102,
+										PositionX = -10,
+										PositionY = -125,
 									},
 									width = "234",
 									ZOrder = "1",
@@ -791,8 +791,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -19,
-										PositionY = -230,
+										PositionX = -22,
+										PositionY = -298,
 									},
 									UItype = "Button",
 									width = "124",
@@ -835,14 +835,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Benutzen",
+											text = "Use",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -3,
 											},
-											width = "53",
+											width = "40",
 											ZOrder = "1",
 										},
 									},
@@ -867,8 +867,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -19,
-										PositionY = -291,
+										PositionX = -22,
+										PositionY = -359,
 									},
 									width = "278",
 									ZOrder = "1",
@@ -894,15 +894,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "19",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF345EAF",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_effect",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -910,14 +910,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Du genießt diesen Buff",
+											text = "You are enjoying this buff",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "203",
+											width = "196",
 											ZOrder = "1",
 										},
 									},
@@ -942,8 +942,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -16,
-										PositionY = -145,
+										PositionX = -19,
+										PositionY = -213,
 									},
 									width = "198",
 									ZOrder = "1",
@@ -976,7 +976,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -992,7 +992,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "49",
+											width = "35",
 											ZOrder = "1",
 										},
 									},
@@ -1024,8 +1024,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 308,
-								PositionY = 18,
+								PositionX = 311,
+								PositionY = 74,
 							},
 							uipanelviewmodel = 
 							{
@@ -1103,7 +1103,7 @@ local t =
 											controlID = "Label_title_Button_card_Panel_card_3_Panel_root_Panel-dfwSummerCardView_Layer2_dafuwong_Game",
 											UUID = "e178b078_62d1_489d_ac17_ffd07a527ed6",
 											anchorPoint = "False",
-											anchorPointX = "0",
+											anchorPointX = "0.5",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -1118,32 +1118,32 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "140",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_title",
 											nTextAlign = "1",
 											nTextHAlign = "1",
-											rotation = "-9",
+											rotation = "81",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Titel Titel",
+											text = "Title Title",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 91,
+												PositionX = 105,
 												PositionY = 86,
 											},
-											width = "32",
+											width = "146",
 											ZOrder = "1",
 										},
 									},
@@ -1197,14 +1197,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "19",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "50",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "0",
@@ -1213,13 +1213,13 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Nächster Würfelwurf +3",
+									text = "Next Dice Roll +3",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -9,
-										PositionY = -102,
+										PositionX = -10,
+										PositionY = -125,
 									},
 									width = "234",
 									ZOrder = "1",
@@ -1247,8 +1247,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -19,
-										PositionY = -230,
+										PositionX = -22,
+										PositionY = -298,
 									},
 									UItype = "Button",
 									width = "124",
@@ -1291,14 +1291,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Benutzen",
+											text = "Use",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -3,
 											},
-											width = "53",
+											width = "40",
 											ZOrder = "1",
 										},
 									},
@@ -1323,8 +1323,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -19,
-										PositionY = -291,
+										PositionX = -22,
+										PositionY = -359,
 									},
 									width = "278",
 									ZOrder = "1",
@@ -1350,15 +1350,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "19",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF345EAF",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_effect",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1366,14 +1366,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Du genießt diesen Buff",
+											text = "You are enjoying this buff",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "203",
+											width = "196",
 											ZOrder = "1",
 										},
 									},
@@ -1398,8 +1398,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -16,
-										PositionY = -145,
+										PositionX = -19,
+										PositionY = -213,
 									},
 									width = "198",
 									ZOrder = "1",
@@ -1432,7 +1432,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -1448,7 +1448,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "49",
+											width = "35",
 											ZOrder = "1",
 										},
 									},
@@ -1483,7 +1483,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 692,
-						PositionY = -585,
+						PositionY = -558,
 						LeftPositon = 124,
 						TopPosition = 905,
 						relativeToName = "Panel",

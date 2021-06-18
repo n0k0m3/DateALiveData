@@ -117,8 +117,6 @@ function Actor:ctor(hero)
     self.loadBar.loadbarHP = self.loadBar.nodeSP:getChildByName("LoadingBar_hp")
     self.loadBar.loadbarSP = self.loadBar.nodeSP:getChildByName("LoadingBar_sp")
     self.loadBar.loadbarBT = self.loadBar.nodeBT:getChildByName("LoadingBar_bt")
-
-
     -- self.loadBar.loadbarGT = self.loadBar.nodeGT:getChildByName("LoadingBar_gt")
     self.loadBar.imageGuard = self.loadBar:getChildByName("Image_guard") --精英标识
     self.loadBar.imageGuard:hide()
@@ -292,9 +290,6 @@ function Actor:ctor(hero)
             end
         end
     end
-
-    self.elementCfg = TabDataMgr:getData("Restrain")
-
 
 end
 
@@ -544,7 +539,6 @@ end
 
 --影子处理
 function Actor:update(dt)
-    --self:updateActorElement() --TODO CLOSE 屏蔽克制
     -- self.skeletonNode:update(dt*0.001)
     self:updateSkeletonNode(dt*0.001)
    
@@ -600,6 +594,13 @@ function Actor:update(dt)
         local text =""
         for i,v in ipairs(debug_attrs) do
             text= text..string.format("[%s:%s]",v,math.floor(srcProperty:getValue(v)))
+        end
+        local states = self.hero.stateMgr.stateSign
+        text = text.."\nstate"
+        for k,v in pairs(states) do
+            if table.count(v) > 0 then
+                text = text.."-"..k
+            end
         end
         if self.textAttrs then
             self.textAttrs:setText(text)
@@ -679,7 +680,6 @@ function Actor:refresh()
                 self.infoNode:setBTPercent(BattleUtils.fixPercent(self.hero:getResistPercent()*0.01))
             end
         end
-        
     end
 end
 
@@ -1469,32 +1469,6 @@ function Actor:onSkeletonNodeComplete(skeletonNode)
     skeletonNode:removeFromParent()
 end
 
---更新克制icon 
-function Actor:updateActorElement()
-    local roleType = self.hero:getRoleType()
-    if roleType == eRoleType.Monster and battleController:getCaptain() ~= self.lastCaptain then
-        local heroDat = self.hero:getData()
-        local playerHeroData = battleController:getCaptain():getData()
-        local pElementCfg = self.elementCfg[playerHeroData.magicAttribute]
-        local isRefrain = nil   --是否克制
-        for k ,v in pairs(pElementCfg.Refrain) do
-            if v == heroDat.magicAttribute then
-                isRefrain = true
-                break
-            end
-        end
-        if not isRefrain then
-            for k ,v in pairs(pElementCfg.underrestraint) do
-                if v == heroDat.magicAttribute then
-                    isRefrain = false
-                    break
-                end
-            end
-        end
-        PrefabDataMgr:setInfo(self.loadBar.panel_element , heroDat.magicAttribute , isRefrain , false)
-        self.lastCaptain = battleController:getCaptain()
-    end
-end
 
 
 return Actor

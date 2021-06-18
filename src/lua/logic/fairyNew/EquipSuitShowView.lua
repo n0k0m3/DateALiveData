@@ -239,7 +239,12 @@ function EquipSuitShowView:updatePosState()
         self.Image_flag:setVisible(false)
         self.Label_skill_desc:setString("")
     end
-    local values = EquipmentDataMgr:getNewEquipCurAttribute(cid)
+    local equipInfo = EquipmentDataMgr:getMaxStarEquipByCid(cid)
+    local equipId = nil
+    if equipInfo then
+        equipId = equipInfo.id
+    end
+    local values = EquipmentDataMgr:getNewEquipCurAttribute(equipId, cid)
     local position = {ccp(17, 37), ccp(243, 37), ccp(17,6)}
     local hpValue = values[EC_Attr.HP] or 0 
     local atkValue = values[EC_Attr.ATK] or 0

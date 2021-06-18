@@ -67,6 +67,7 @@ end
 function StateMgr:clearState(state)
     if self.stateSign[state] then
         local keys = table.keys(self.stateSign[state])
+        if #keys == 0 then return end
         self.stateSign[state] = {}
         for i, objectId in ipairs(keys) do
             self.host:onAStateDel(state,objectId)

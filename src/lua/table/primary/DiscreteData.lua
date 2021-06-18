@@ -3383,11 +3383,11 @@ return {
             },
             turnEventTotal = 2,
             lenth = 40,
-            turnUse = 580230,
+            turnUse = 500069,
             turnChange = {
                 [1] = 2,
             },
-            roleControl = "modle/citymodle/city_11009/city_11009",
+            roleControl = "modle/citymodle/city_11006/city_11006",
             turnEventTimes = 20,
             initLenth = 31,
             loop = {

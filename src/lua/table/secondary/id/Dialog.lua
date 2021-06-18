@@ -53463,15 +53463,21 @@ return {
         scriptId = 9154,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1642,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Sial ! Tak bisa dimaafkan! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,

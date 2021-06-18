@@ -366,7 +366,7 @@ local t =
 									height = "480",
 									ignoreSize = "False",
 									innerHeight = "480",
-									innerWidth = "1010",
+									innerWidth = "930",
 									name = "ScrollView_goodsModel",
 									showScrollbar = "False",
 									sizepercentx = "36",
@@ -376,7 +376,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 61,
+										PositionX = 90,
 										PositionY = -50,
 									},
 									uipanelviewmodel = 
@@ -384,7 +384,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "1010",
+									width = "930",
 									ZOrder = "1",
 								},
 								{
@@ -610,7 +610,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -435,
+										PositionX = -374,
 										PositionY = 225,
 									},
 									uipanelviewmodel = 
@@ -904,7 +904,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "116",
+							width = "175",
 							ZOrder = "1",
 							components = 
 							{
@@ -915,11 +915,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "0",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "570",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_tab_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -929,10 +929,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -15,
+										PositionX = -2,
 										PositionY = 2,
 									},
-									width = "114",
+									width = "153",
 									ZOrder = "1",
 								},
 								{
@@ -952,7 +952,7 @@ local t =
 									height = "570",
 									ignoreSize = "False",
 									innerHeight = "570",
-									innerWidth = "116",
+									innerWidth = "175",
 									name = "ScrollView_store",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -962,7 +962,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 57,
+										PositionX = 82,
 										PositionY = 573,
 									},
 									uipanelviewmodel = 
@@ -970,7 +970,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "116",
+									width = "175",
 									ZOrder = "1",
 								},
 							},
@@ -1183,7 +1183,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 370,
+								PositionX = 424,
 								PositionY = 247,
 							},
 							uipanelviewmodel = 
@@ -1191,7 +1191,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "116",
+							width = "175",
 							ZOrder = "1",
 							components = 
 							{
@@ -1226,11 +1226,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "96",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_select",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1242,7 +1242,7 @@ local t =
 									{
 										
 									},
-									width = "116",
+									width = "175",
 									ZOrder = "1",
 								},
 								{
@@ -1340,7 +1340,7 @@ local t =
 									{
 										
 									},
-									width = "116",
+									width = "175",
 									ZOrder = "1",
 								},
 							},

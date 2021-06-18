@@ -91,7 +91,6 @@ function BattleView:initData()
         self.statistics_.practiceTimePause = true
         AIAgent:setEnabled(self.practice_atk_toggle)
     end
-    self.elementCfg = TabDataMgr:getData("Restrain")
 
     if BattleConfig.DAMAGE_TEST then
         self.damage_test_toggle = false
@@ -125,8 +124,6 @@ function BattleView:ctor(...)
     self.levelType_ = self.levelCfg_.dungeonType
     self.isCountdwon_ = (self.levelCfg_.time > 0)
     self.passLevelCond_ = self.victoryDecide_.nViewType
-
-    
 
     self:initData()
 
@@ -413,8 +410,6 @@ function BattleView:initUI(ui)
     self.plyerNode.panel_role  = self.plyerNode:getChildByName("Panel_role")
     self.plyerNode.ClippingNode_head =TFDirector:getChildByPath(self.plyerNode ,"ClippingNode_head")
     self.plyerNode.imageHead   = TFDirector:getChildByPath(self.plyerNode,"Image_head")
-
-    local startPos = self.plyerNode.imageHead:getPosition() + ccp(5 , 15)
     -- self.plyerNode.imageHead:hide()
 
     -- self.plyerNode.panel_heads = self.plyerNode:getChildByName("Panel_heads"):hide()
@@ -522,8 +517,6 @@ function BattleView:initUI(ui)
     self.bossNode.imageHead      = TFDirector:getChildByPath(self.bossNode,"Image_boss_head") --名字
     self.bossNode.image_bg1      = TFDirector:getChildByPath(self.bossNode,"Image_affix_bg1") --
     self.bossNode.image_bg2      = TFDirector:getChildByPath(self.bossNode,"Image_affix_bg2") --
-
-    local startPos = self.bossNode.imageHead:getPosition() + ccp(5 , 15)
 
 
     -- 守护
@@ -826,6 +819,7 @@ function BattleView:initUI(ui)
     if battleController.isBossChallenge() then
         self:initChallengeFlags()
     end
+
 end
 
 function BattleView:initChallengeFlags()
@@ -906,7 +900,7 @@ end
 
 --怪物突破防御
 function BattleView:showKeyList(actionData)
-    if actionData.keyShow and actionData.keyShow ~= "" then  
+    if actionData.keyShow and #actionData.keyShow > 0 then  
         self.image_keylist:stopAllActions()
         self.image_keylist:show()
         self.image_keylist:setOpacity(255) 
@@ -2120,12 +2114,10 @@ function BattleView:showPause()
     if self.battleType_ == EC_BattleType.TEAM_FIGHT then
         --组队模式不需要处理
     elseif self.battleType_ == EC_BattleType.COMMON then
-        if self.levelType_ ~= EC_FBLevelType.PRACTICE then
-            if not AlertManager:isLayerInQueue("PauseView") then  --避免重复弹窗
-                BattleUtils:openView("battle.BattlePauseView")
-            end
-            self:onPause()
+        if not AlertManager:isLayerInQueue("PauseView") then  --避免重复弹窗
+            BattleUtils:openView("battle.BattlePauseView")
         end
+        self:onPause()
     elseif self.battleType_ == EC_BattleType.ENDLESS then
         if not AlertManager:isLayerInQueue("EndlessPauseView") then
             Utils:openView("battle.EndlessPauseView")
@@ -2411,24 +2403,29 @@ function BattleView:onShowCountDown(callFunc)
 end
 --boss 预警动画
 function BattleView:onBossWarning(callFunc)
-    local size = self.Panel_ui_effect_top:getSize()
-    local skeletonNode = ResLoader.createEffect("battle_enemy",1)
-    -- skeletonNode:playByIndex(0,0)
-    local size =  me.EGLView:getDesignResolutionSize()
-    if size.width > 1136 then
-        skeletonNode:play("1386",0)
-    else
-        skeletonNode:play("1136",0)
-    end
-    skeletonNode:setPosition(me.p(size.width/2,size.height/2))
-    skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(_skeletonNode)
-        _skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
-        _skeletonNode:removeFromParent()
-        if callFunc then
-            callFunc()
+    --TODO CLOSE 海外逻辑
+    TimeOut(function()
+        local size = self.Panel_ui_effect_top:getSize()
+
+        local skeletonNode = ResLoader.createEffect("battle_enemy",1)
+        -- skeletonNode:playByIndex(0,0)
+        local size =  me.EGLView:getDesignResolutionSize()
+        if size.width > 1136 then
+            skeletonNode:play("1386",0)
+        else
+            skeletonNode:play("1136",0)
         end
-    end)
-    self.Panel_ui_effect_top:addChild(skeletonNode)
+        skeletonNode:setPosition(me.p(size.width/2,size.height/2))
+        skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(_skeletonNode)
+            _skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+            _skeletonNode:removeFromParent()
+
+            if callFunc then
+                callFunc()
+            end
+        end)
+        self.Panel_ui_effect_top:addChild(skeletonNode)
+    end,1)
 end
 
 
@@ -2438,7 +2435,6 @@ function BattleView:onHeroAttrChange(hero)
         return 
     end
     self:heroDeadAlertCheck(hero)
-
     local property = hero.property
     local captain = battleController.getCaptain()
     if hero == captain then
@@ -2451,17 +2447,7 @@ function BattleView:onHeroAttrChange(hero)
         if self.plyerNode.imageHead._resPath ~= resPath then
             self.plyerNode.imageHead:setTexture(resPath) --TODO 这不科学
             self.plyerNode.imageHead._resPath = resPath
-
-
-
-           --检查boss克制属性
-            if self.bossNode:isVisible() then
-                if self.bossNode.bossData then
-                    self:onBossChange(self.bossNode.bossData)
-                end
-            end
         end
-
 
         local powerData = hero:getEnergyData()
         if powerData then
@@ -2675,7 +2661,6 @@ function BattleView:onBossChange(hero)
             self.bossIconListView.objectId = hero:getObjectID()
             self.bossIconListView:reload(hero,false,self.prefab_buff_icon) --重先载入buffer图标
             self.bossNode.objectId = hero:getObjectID()
-            self.bossNode.bossData = hero
         end
         self.bossNode:show()
         self.bossNode:stopAllActions()

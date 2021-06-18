@@ -923,6 +923,20 @@ return {
                         [2] = 6,
                     },
                 },
+                [86] = {
+                    [1] = {
+                        [1] = 100000,
+                        [2] = 4,
+                    },
+                    [2] = {
+                        [1] = 200000,
+                        [2] = 5,
+                    },
+                    [3] = {
+                        [1] = 300000,
+                        [2] = 6,
+                    },
+                },
                 [9] = {
                     [1] = {
                         [1] = 100000,
@@ -3361,11 +3375,11 @@ return {
             },
             turnEventTotal = 2,
             lenth = 40,
-            turnUse = 580230,
+            turnUse = 500069,
             turnChange = {
                 [1] = 2,
             },
-            roleControl = "modle/citymodle/city_11009/city_11009",
+            roleControl = "modle/citymodle/city_11006/city_11006",
             turnEventTimes = 20,
             initLenth = 31,
             loop = {

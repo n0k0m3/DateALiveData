@@ -1798,8 +1798,8 @@ return {
         levelType = 2,
     },
     [98] = {
-        isOpen = false,
-        openLevel = 99,
+        isOpen = true,
+        openLevel = 4,
         isStinger = false,
         id = 98,
         openDun = 0,
@@ -1809,10 +1809,10 @@ return {
         serverId = 2,
         showIcon = false,
         stingerDating = "",
-        name = "",
+        name = "270476",
         unlockExplain = {
             [1] = 2,
-            [2] = 270420,
+            [2] = 270422,
         },
         icon = "",
         levelType = 2,

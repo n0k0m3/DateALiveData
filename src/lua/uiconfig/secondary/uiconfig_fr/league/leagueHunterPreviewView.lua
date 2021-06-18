@@ -252,7 +252,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "35",
+											height = "32",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -269,7 +269,7 @@ local t =
 												PositionX = -355,
 												PositionY = 182,
 											},
-											width = "115",
+											width = "105",
 											ZOrder = "1",
 											components = 
 											{
@@ -299,7 +299,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 118,
+														PositionX = 108,
 														IsPercent = true,
 														PercentX = 102.61,
 													},
@@ -308,6 +308,7 @@ local t =
 														Layout="Absolute",
 														nType = "0"
 													},
+													visible = "False",
 													width = "0",
 													ZOrder = "1",
 													components = 
@@ -406,7 +407,7 @@ local t =
 															{
 																PositionY = -7,
 															},
-															width = "115",
+															width = "109",
 															ZOrder = "1",
 														},
 													},
@@ -483,7 +484,7 @@ local t =
 													{
 														PositionX = -185,
 													},
-													width = "83",
+													width = "110",
 													ZOrder = "1",
 												},
 											},
@@ -596,7 +597,7 @@ local t =
 													{
 														PositionX = -180,
 													},
-													width = "83",
+													width = "93",
 													ZOrder = "1",
 												},
 											},
@@ -656,7 +657,7 @@ local t =
 											{
 												nHitType = 3,
 											},
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_auto_match",
 											normal = "ui/common/pop_ui/pop_btn_01.png",
 											sizepercentx = "0",
@@ -666,11 +667,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 298,
+												PositionX = 245,
 												PositionY = -175,
 											},
 											UItype = "Button",
-											width = "124",
+											width = "221",
 											ZOrder = "1",
 											components = 
 											{
@@ -717,7 +718,7 @@ local t =
 													{
 														
 													},
-													width = "99",
+													width = "107",
 													ZOrder = "1",
 												},
 											},
@@ -728,7 +729,7 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
@@ -739,7 +740,7 @@ local t =
 											{
 												nHitType = 3,
 											},
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_open_house",
 											normal = "ui/common/pop_ui/pop_btn_01.png",
 											sizepercentx = "0",
@@ -749,11 +750,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 169,
+												PositionX = 51,
 												PositionY = -175,
 											},
 											UItype = "Button",
-											width = "124",
+											width = "148",
 											ZOrder = "1",
 											components = 
 											{
@@ -800,7 +801,7 @@ local t =
 													{
 														
 													},
-													width = "98",
+													width = "135",
 													ZOrder = "1",
 												},
 											},
@@ -880,14 +881,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "21",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "24",
 											ignoreSize = "True",
 											name = "label_tip1",
 											nTextAlign = "1",
@@ -904,7 +905,7 @@ local t =
 												PositionX = -150,
 												PositionY = 144,
 											},
-											width = "203",
+											width = "213",
 											ZOrder = "1",
 										},
 										{
@@ -950,7 +951,7 @@ local t =
 												PositionX = -308,
 												PositionY = -97,
 											},
-											width = "91",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -1053,7 +1054,7 @@ local t =
 												PositionX = -117,
 												PositionY = -99,
 											},
-											width = "43",
+											width = "41",
 											ZOrder = "1",
 										},
 										{
@@ -1099,7 +1100,7 @@ local t =
 												PositionX = -144,
 												PositionY = 144,
 											},
-											width = "15",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -1240,7 +1241,7 @@ local t =
 												PositionY = -47,
 												relativeToName = "Panel_level_preview",
 											},
-											width = "54",
+											width = "62",
 											ZOrder = "1",
 										},
 									},

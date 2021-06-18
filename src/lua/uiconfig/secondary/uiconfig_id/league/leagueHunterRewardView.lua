@@ -182,7 +182,7 @@ local t =
 										PositionX = -353,
 										PositionY = 182,
 									},
-									width = "191",
+									width = "214",
 									ZOrder = "1",
 								},
 								{
@@ -336,11 +336,12 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "120",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_first",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											rotation = "90",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -352,7 +353,7 @@ local t =
 											{
 												PositionY = -5,
 											},
-											width = "30",
+											width = "125",
 											ZOrder = "1",
 										},
 									},
@@ -442,11 +443,12 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "120",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_kill",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											rotation = "90",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -458,7 +460,7 @@ local t =
 											{
 												
 											},
-											width = "30",
+											width = "125",
 											ZOrder = "1",
 										},
 									},
@@ -594,23 +596,24 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "120",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_kill",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											rotation = "90",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "伤害奖励",
+											text = "Damage reward",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "30",
+											width = "120",
 											ZOrder = "1",
 										},
 									},
@@ -799,7 +802,7 @@ local t =
 													{
 														
 													},
-													width = "54",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -846,7 +849,7 @@ local t =
 											{
 												PositionX = 258,
 											},
-											width = "132",
+											width = "128",
 											ZOrder = "1",
 										},
 										{
@@ -891,7 +894,7 @@ local t =
 											{
 												PositionX = 258,
 											},
-											width = "140",
+											width = "133",
 											ZOrder = "1",
 										},
 										{
@@ -975,7 +978,7 @@ local t =
 												PositionX = -308,
 												PositionY = 37,
 											},
-											width = "107",
+											width = "98",
 											ZOrder = "1",
 										},
 										{
@@ -1021,7 +1024,7 @@ local t =
 												PositionX = -308,
 												PositionY = -18,
 											},
-											width = "108",
+											width = "120",
 											ZOrder = "1",
 										},
 										{

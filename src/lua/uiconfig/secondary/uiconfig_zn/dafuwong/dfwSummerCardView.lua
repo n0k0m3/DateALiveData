@@ -70,8 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 480,
-						PositionY = 320,
+						PositionX = 510,
+						PositionY = 355,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -461,7 +461,7 @@ local t =
 											{
 												
 											},
-											width = "203",
+											width = "210",
 											ZOrder = "1",
 										},
 									},
@@ -520,7 +520,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -536,7 +536,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "49",
+											width = "35",
 											ZOrder = "1",
 										},
 									},
@@ -917,7 +917,7 @@ local t =
 											{
 												
 											},
-											width = "203",
+											width = "210",
 											ZOrder = "1",
 										},
 									},
@@ -976,7 +976,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -992,7 +992,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "49",
+											width = "35",
 											ZOrder = "1",
 										},
 									},
@@ -1373,7 +1373,7 @@ local t =
 											{
 												
 											},
-											width = "203",
+											width = "210",
 											ZOrder = "1",
 										},
 									},
@@ -1432,7 +1432,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -1448,7 +1448,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "49",
+											width = "35",
 											ZOrder = "1",
 										},
 									},
@@ -1483,7 +1483,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 692,
-						PositionY = -585,
+						PositionY = -515,
 						LeftPositon = 124,
 						TopPosition = 905,
 						relativeToName = "Panel",

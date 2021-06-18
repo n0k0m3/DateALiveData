@@ -980,6 +980,16 @@ local t = {
 			logic="",
 		},
 		{
+			name="summerActivityView",
+			ui ="summerActivityView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="activity",
+			canLoad=true,
+			logic="",
+		},
+		{
 			name="duanwuMainView",
 			ui ="duanwuMainView.lua",
 			x=0,

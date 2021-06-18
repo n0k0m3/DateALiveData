@@ -69,8 +69,8 @@ end
 
 function EquipSuitUpView:refreshView()
     local euipMent = HeroDataMgr:getNewEquipInfoByPos(self.heroId, self.pos)
-    local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(euipMent.cid)
-    local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.cid)
+    local equipInfo = EquipmentDataMgr:getNewEquipInfoById(euipMent.id)
+    local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.id, euipMent.cid)
     local equipCfg = EquipmentDataMgr:getNewEquipCfg(euipMent.cid)
     local maxLevel = EquipmentDataMgr:getNewEquipMaxLevel(euipMent.cid)
     local maxStar = equipCfg.endStar
@@ -143,12 +143,14 @@ function EquipSuitUpView:refreshView()
         end
     ]]
 
-    local attrValues1 = EquipmentDataMgr:getNewEquipCurAttribute(euipMent.cid, equipInfo.stage, equipInfo.level)
+    
+
+    local attrValues1 = EquipmentDataMgr:getNewEquipCurAttribute(euipMent.id, euipMent.cid, nil, equipInfo.level)
     local attrValues2
     if self.isStarUp then
-        attrValues2 = EquipmentDataMgr:getNewEquipCurAttribute(euipMent.cid, math.min((equipInfo.stage + 1), maxStar), equipInfo.level)
+        attrValues2 = EquipmentDataMgr:getNewEquipCurAttribute(euipMent.id, euipMent.cid, math.min((equipInfo.stage + 1), maxStar), equipInfo.level)
     else
-        attrValues2 = EquipmentDataMgr:getNewEquipCurAttribute(euipMent.cid, equipInfo.stage, math.min(maxLevel,equipInfo.level + 1))
+        attrValues2 = EquipmentDataMgr:getNewEquipCurAttribute(euipMent.id, euipMent.cid, equipInfo.stage, math.min(maxLevel,equipInfo.level + 1))
     end
     self.old_atk:setText(tostring(attrValues1[EC_Attr.ATK] or 0))
     self.old_def:setText(tostring(attrValues1[EC_Attr.DEF] or 0))
@@ -190,7 +192,7 @@ function EquipSuitUpView:refreshView()
     else
         local consume
         if self.isStarUp then
-            consume = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.cid, math.min(equipInfo.stage, maxStar)).consume
+            consume = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.id, euipMent.cid, math.min(equipInfo.stage, maxStar)).consume
         else
             consume = EquipmentDataMgr:getNewEquipStrengthenCfg(equipInfo.level).consume
         end
@@ -246,7 +248,7 @@ function EquipSuitUpView:onStrengthenOver(data)
     if data.isSuccess then
         local euipMent = HeroDataMgr:getNewEquipInfoByPos(self.heroId, self.pos)
         local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(euipMent.cid)
-        local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.cid)
+        local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.id, euipMent.cid)
         self.Spine_up_success:show()
         self.Spine_hp:show()
         self.Spine_atk:show()
@@ -285,7 +287,7 @@ end
 function EquipSuitUpView:onAdvanceOver(data)
     if data.isSuccess then
         local euipMent = HeroDataMgr:getNewEquipInfoByPos(self.heroId, self.pos)
-        Utils:openView("fairyNew.EquipSuitStarUpSuccess", euipMent.cid)
+        Utils:openView("fairyNew.EquipSuitStarUpSuccess", euipMent)
         self:refreshView()
     end
 end
@@ -295,10 +297,10 @@ function EquipSuitUpView:registerEvents()
     EventMgr:addEventListener(self,EQUIPMENT_ADVANCE_NEW_EQUIP,handler(self.onAdvanceOver, self))
     self.Button_UP:onClick(function()
         local euipMent = HeroDataMgr:getNewEquipInfoByPos(self.heroId, self.pos)
-        local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(euipMent.cid)
+        local equipInfo = EquipmentDataMgr:getNewEquipInfoById(euipMent.id)
         local equipCfg = EquipmentDataMgr:getNewEquipCfg(euipMent.cid)
-        local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.cid)
-        local maxLevel = EquipmentDataMgr:getNewEquipMaxLevel(euipMent.cid)
+        local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.id, euipMent.cid)
+        local maxLevel = EquipmentDataMgr:getNewEquipMaxLevel(equipInfo.cid)
         if not self.isStarUp and equipInfo.level >= maxLevel then
             Utils:showTips(100000045)
             return

@@ -160,7 +160,7 @@ local t =
 										nHitWidth = 84,
 										nHitHeight = 105
 									},
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Button_refresh",
 									normal = "ui/dfwsummer/task/002.png",
 									sizepercentx = "0",
@@ -174,7 +174,7 @@ local t =
 										PositionY = 33,
 									},
 									UItype = "Button",
-									width = "84",
+									width = "98",
 									ZOrder = "1",
 									components = 
 									{
@@ -321,7 +321,7 @@ local t =
 													{
 														PositionX = -4,
 													},
-													width = "32",
+													width = "35",
 													ZOrder = "1",
 												},
 											},
@@ -368,7 +368,7 @@ local t =
 											{
 												PositionY = 60,
 											},
-											width = "45",
+											width = "46",
 											ZOrder = "1",
 										},
 										{
@@ -390,14 +390,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFE0B250",
 												StrokeSize = 2,
 											},
-											height = "27",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_tip_time",
 											nTextAlign = "1",
@@ -413,7 +413,7 @@ local t =
 											{
 												PositionY = 33,
 											},
-											width = "127",
+											width = "98",
 											ZOrder = "1",
 										},
 									},
@@ -960,7 +960,7 @@ local t =
 												StrokeColor = "#FFBA8254",
 												StrokeSize = 2,
 											},
-											height = "36",
+											height = "34",
 											ignoreSize = "True",
 											name = "Label_receive",
 											nTextAlign = "1",

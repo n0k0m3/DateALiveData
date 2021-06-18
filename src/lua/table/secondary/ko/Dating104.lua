@@ -18922,7 +18922,7 @@ return {
         bgScale = 1,
     },
     [28705210] = {
-        action2 = "id_pose_6",
+        action2 = "id_normal_8",
         roleLocation1 = 4,
         datingType = 2,
         displayScore = 1,
@@ -18932,7 +18932,7 @@ return {
         scriptId = 2104001,
         roleScale2 = 1.2,
         roleShowType1 = 3,
-        action1 = "id_normal_5_meihuo",
+        action1 = "id_normal_6",
         roleScale3 = 1.2,
         id = 28705210,
         text = "사실, 저희는 데이트 중이었답니다.",

@@ -386,6 +386,18 @@ function Buffer:trigger()
     for k, effectId in ipairs(self.data.effects) do
         local takeObjs = self:getTakeTarget(effectId)
         local data   = TabDataMgr:getData("BufferEffect",effectId)
+        if data.untargetID and #data.untargetID > 0 then
+            for i=#takeObjs, 1,-1 do
+                local hero = takeObjs[i]
+                for j,ID in ipairs(data.untargetID) do
+                    if ID == hero:getData().id then
+                        table.remove(takeObjs,i)
+                        break
+                    end
+                end
+            end
+        end
+        
         for k, takeObj in ipairs(takeObjs) do
             self:triggerOnce(takeObj,data)
         end
@@ -398,6 +410,17 @@ function Buffer:trigger()
             for k, effectId in ipairs(effects) do 
                 local takeObjs = self:getTakeTarget(effectId)
                 local data   = TabDataMgr:getData("BufferEffect",effectId)
+                if data.untargetID and #data.untargetID > 0 then
+                    for i=#takeObjs, 1,-1 do
+                        local hero = takeObjs[i]
+                        for j,ID in ipairs(data.untargetID) do
+                            if ID == hero:getData().id then
+                                table.remove(takeObjs,i)
+                                break
+                            end
+                        end
+                    end
+                end
                 for k, takeObj in ipairs(takeObjs) do
                     self:triggerOnce(takeObj,data)
                 end

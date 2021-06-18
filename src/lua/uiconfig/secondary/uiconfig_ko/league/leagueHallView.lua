@@ -3306,7 +3306,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "1",
-																	texturePath = "ui/league/ui_28.png",
+																	texturePath = "ui/league/ui_28_global.png",
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
@@ -3393,8 +3393,6 @@ local t =
 																	name = "Label_leagueHallView_1",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
-																	scaleX = "0.7",
-																	scaleY = "0.7",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
 																	sizeType = "0",
@@ -3404,7 +3402,7 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 252,
+																		PositionX = 285,
 																		PositionY = 31,
 																	},
 																	width = "60",
@@ -3441,8 +3439,6 @@ local t =
 																	name = "Label_leagueHallView_1-Copy1",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
-																	scaleX = "0.7",
-																	scaleY = "0.7",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
 																	sizeType = "0",
@@ -3452,7 +3448,7 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 387,
+																		PositionX = 450,
 																		PositionY = 31,
 																	},
 																	width = "21",
@@ -3480,7 +3476,7 @@ local t =
 																	touchAble = "True",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 322,
+																		PositionX = 380,
 																		PositionY = 31,
 																	},
 																	UItype = "Button",
@@ -3572,7 +3568,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "1",
-																	texturePath = "ui/league/ui_28.png",
+																	texturePath = "ui/league/ui_28_global.png",
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
@@ -3659,8 +3655,6 @@ local t =
 																	name = "Label_leagueHallView_1",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
-																	scaleX = "0.7",
-																	scaleY = "0.7",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
 																	sizeType = "0",
@@ -3670,7 +3664,7 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 252,
+																		PositionX = 285,
 																		PositionY = 31,
 																	},
 																	width = "60",
@@ -3707,8 +3701,6 @@ local t =
 																	name = "Label_leagueHallView_1-Copy1",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
-																	scaleX = "0.7",
-																	scaleY = "0.7",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
 																	sizeType = "0",
@@ -3718,7 +3710,7 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 387,
+																		PositionX = 450,
 																		PositionY = 31,
 																	},
 																	width = "21",
@@ -3746,7 +3738,7 @@ local t =
 																	touchAble = "True",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 322,
+																		PositionX = 380,
 																		PositionY = 31,
 																	},
 																	UItype = "Button",
@@ -3838,7 +3830,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "1",
-																	texturePath = "ui/league/ui_28.png",
+																	texturePath = "ui/league/ui_28_global.png",
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
@@ -3925,8 +3917,6 @@ local t =
 																	name = "Label_leagueHallView_1",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
-																	scaleX = "0.7",
-																	scaleY = "0.7",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
 																	sizeType = "0",
@@ -3936,7 +3926,7 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 252,
+																		PositionX = 282,
 																		PositionY = 31,
 																	},
 																	width = "60",
@@ -3973,8 +3963,6 @@ local t =
 																	name = "Label_leagueHallView_1-Copy1",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
-																	scaleX = "0.7",
-																	scaleY = "0.7",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
 																	sizeType = "0",
@@ -3984,7 +3972,7 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 387,
+																		PositionX = 450,
 																		PositionY = 31,
 																	},
 																	width = "21",
@@ -4012,7 +4000,7 @@ local t =
 																	touchAble = "True",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 322,
+																		PositionX = 380,
 																		PositionY = 31,
 																	},
 																	UItype = "Button",
@@ -4104,7 +4092,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "1",
-																	texturePath = "ui/league/ui_28.png",
+																	texturePath = "ui/league/ui_28_global.png",
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
@@ -4164,7 +4152,7 @@ local t =
 																	controlID = "Label_leagueHallView_1_Panel_country_panel_scroll_ScrollView_leagueHallView_1_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
 																	UUID = "db145c8e_56fc_4dd3_8206_2c7b86f32e18",
 																	anchorPoint = "False",
-																	anchorPointX = "1",
+																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
 																	classname = "MELabel",
 																	compPath = "luacomponents.common.MEIconLabel",
@@ -4191,8 +4179,6 @@ local t =
 																	name = "Label_leagueHallView_1",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
-																	scaleX = "0.7",
-																	scaleY = "0.7",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
 																	sizeType = "0",
@@ -4202,7 +4188,7 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 275,
+																		PositionX = 282,
 																		PositionY = 31,
 																	},
 																	width = "60",
@@ -4212,7 +4198,7 @@ local t =
 																	controlID = "Label_leagueHallView_1-Copy1_Panel_country_panel_scroll_ScrollView_leagueHallView_1_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
 																	UUID = "062d0a93_9138_40b6_a994_c4bb152f993d",
 																	anchorPoint = "False",
-																	anchorPointX = "0",
+																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
 																	classname = "MELabel",
 																	compPath = "luacomponents.common.MEIconLabel",
@@ -4239,8 +4225,6 @@ local t =
 																	name = "Label_leagueHallView_1-Copy1",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
-																	scaleX = "0.7",
-																	scaleY = "0.7",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
 																	sizeType = "0",
@@ -4250,7 +4234,7 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 387,
+																		PositionX = 450,
 																		PositionY = 31,
 																	},
 																	width = "21",
@@ -4278,7 +4262,7 @@ local t =
 																	touchAble = "True",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 322,
+																		PositionX = 380,
 																		PositionY = 31,
 																	},
 																	UItype = "Button",
@@ -7608,7 +7592,7 @@ local t =
 			"ui/league/ui_bg2.png",
 			"ui/league/ui_03.png",
 			"ui/league/ui_20.png",
-			"ui/league/ui_28.png",
+			"ui/league/ui_28_global.png",
 			"ui/league/ui_27.png",
 			"ui/battle/practice/new_007.png",
 			"ui/league/ui_66.png",

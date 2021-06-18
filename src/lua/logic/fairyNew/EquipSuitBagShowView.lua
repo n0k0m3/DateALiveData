@@ -172,6 +172,10 @@ function EquipSuitBagShowView:updateEquipItem(item, cfg)
     Image_icon:setTexture(cfg.icon)
 
     local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(cfg.id)
+    if TFGlobalUtils:isConnectKoreaTwServer() then
+        equipInfo = EquipmentDataMgr:getMaxLevelStarNewEquipInfoByCid(cfg.id)
+    end
+
     local maxStar = cfg.endStar
     for i = 1, 5 do
         local Image_star = TFDirector:getChildByPath(item,"Image_star"..i)
@@ -390,7 +394,9 @@ function EquipSuitBagShowView:updatePanelInfo(cfg)
         end
     end
 
-    local attrValues = EquipmentDataMgr:getNewEquipCurAttribute(cfg.id)
+    local equipId = nil
+    if equipInfo then equipId = equipInfo.id end
+    local attrValues = EquipmentDataMgr:getNewEquipCurAttribute(equipId, cfg.id)
     self.Label_info_atk_value:setText(attrValues[EC_Attr.ATK] or 0)
     self.Label_info_def_value:setText(attrValues[EC_Attr.DEF] or 0)
     self.Label_info_hp_value:setText(attrValues[EC_Attr.HP] or 0)

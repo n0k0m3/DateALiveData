@@ -54,7 +54,7 @@ local t =
 					backGroundScale9Enable = "False",
 					classname = "MEImage",
 					dstBlendFunc = "771",
-					height = "64",
+					height = "2",
 					ignoreSize = "True",
 					name = "Image_dfwEventView_1",
 					sizepercentx = "0",
@@ -65,15 +65,15 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 480,
-						PositionY = 320,
+						PositionX = 510,
+						PositionY = 355,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
 						nAlign = 5
 					},
 					visible = "False",
-					width = "64",
+					width = "2",
 					ZOrder = "1",
 				},
 				{
@@ -226,7 +226,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -243,7 +243,7 @@ local t =
 										PositionX = -174,
 										PositionY = 218,
 									},
-									width = "169",
+									width = "170",
 									ZOrder = "1",
 								},
 								{

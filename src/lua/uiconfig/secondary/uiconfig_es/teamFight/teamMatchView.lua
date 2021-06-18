@@ -3053,8 +3053,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1017,
-								PositionY = 506,
+								PositionX = 852,
+								PositionY = 512,
 							},
 							uipanelviewmodel = 
 							{
@@ -3062,7 +3062,7 @@ local t =
 								nType = "0"
 							},
 							visible = "False",
-							width = "100",
+							width = "203",
 							ZOrder = "1",
 							components = 
 							{
@@ -3073,11 +3073,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "36",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_auto_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -3093,7 +3093,7 @@ local t =
 										PercentX = 50,
 										PercentY = 50,
 									},
-									width = "96",
+									width = "180",
 									ZOrder = "1",
 									components = 
 									{
@@ -3104,11 +3104,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "34",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_on",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -3118,9 +3118,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -22,
+												PositionX = -44,
+												PositionY = 2,
 											},
-											width = "50",
+											width = "90",
 											ZOrder = "1",
 										},
 										{
@@ -3163,7 +3164,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -22,
+												PositionX = -47,
+												PositionY = 1,
 											},
 											width = "78",
 											ZOrder = "1",
@@ -3208,7 +3210,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 22,
+												PositionX = 50,
+												PositionY = 2,
 											},
 											width = "65",
 											ZOrder = "1",

@@ -154,7 +154,7 @@ local t =
 							{
 								PositionY = -9,
 							},
-							width = "12",
+							width = "13",
 							ZOrder = "1",
 						},
 						{
@@ -200,7 +200,7 @@ local t =
 								PositionX = -349,
 								PositionY = 35,
 							},
-							width = "166",
+							width = "158",
 							ZOrder = "1",
 						},
 						{
@@ -246,7 +246,7 @@ local t =
 								PositionX = 229,
 								PositionY = -1,
 							},
-							width = "51",
+							width = "53",
 							ZOrder = "1",
 						},
 						{
@@ -413,7 +413,7 @@ local t =
 										PositionX = -356,
 										PositionY = 182,
 									},
-									width = "154",
+									width = "177",
 									ZOrder = "1",
 								},
 								{
@@ -488,7 +488,7 @@ local t =
 												PositionX = 4,
 												PositionY = -15,
 											},
-											width = "53",
+											width = "52",
 											ZOrder = "1",
 										},
 									},
@@ -629,7 +629,7 @@ local t =
 												PercentX = 14.36,
 												PercentY = 50,
 											},
-											width = "114",
+											width = "109",
 											ZOrder = "1",
 										},
 										{
@@ -678,7 +678,7 @@ local t =
 												PercentX = 50,
 												PercentY = 50,
 											},
-											width = "227",
+											width = "223",
 											ZOrder = "1",
 										},
 										{
@@ -721,13 +721,13 @@ local t =
 											touchScaleEnable = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 614,
+												PositionX = 615,
 												PositionY = 18,
 												IsPercent = true,
 												PercentX = 85.05,
 												PercentY = 50,
 											},
-											width = "214",
+											width = "213",
 											ZOrder = "1",
 										},
 									},
@@ -826,8 +826,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_tips",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -842,7 +842,7 @@ local t =
 									{
 										PositionY = -184,
 									},
-									width = "114",
+									width = "650",
 									ZOrder = "1",
 								},
 							},

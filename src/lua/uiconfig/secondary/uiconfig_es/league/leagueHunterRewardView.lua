@@ -182,7 +182,7 @@ local t =
 										PositionX = -353,
 										PositionY = 182,
 									},
-									width = "314",
+									width = "337",
 									ZOrder = "1",
 								},
 								{
@@ -596,23 +596,24 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "120",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_kill",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											rotation = "90",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "伤害奖励",
+											text = "Damage reward",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "30",
+											width = "120",
 											ZOrder = "1",
 										},
 									},
@@ -801,7 +802,7 @@ local t =
 													{
 														
 													},
-													width = "88",
+													width = "83",
 													ZOrder = "1",
 												},
 											},
@@ -848,7 +849,7 @@ local t =
 											{
 												PositionX = 258,
 											},
-											width = "105",
+											width = "97",
 											ZOrder = "1",
 										},
 										{
@@ -893,7 +894,7 @@ local t =
 											{
 												PositionX = 258,
 											},
-											width = "107",
+											width = "103",
 											ZOrder = "1",
 										},
 										{
@@ -977,7 +978,7 @@ local t =
 												PositionX = -308,
 												PositionY = 37,
 											},
-											width = "142",
+											width = "126",
 											ZOrder = "1",
 										},
 										{
@@ -1023,7 +1024,7 @@ local t =
 												PositionX = -308,
 												PositionY = -18,
 											},
-											width = "101",
+											width = "102",
 											ZOrder = "1",
 										},
 										{

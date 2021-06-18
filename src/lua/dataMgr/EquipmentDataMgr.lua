@@ -247,7 +247,6 @@ function EquipmentDataMgr:chageDataToSkyLadder()
 			end
 		end
 	end
-
 end
 
 function EquipmentDataMgr:getEquipByRealId(id)
@@ -608,7 +607,6 @@ function EquipmentDataMgr:getStarUpEquipsByCidAndStar(cid, subType, star)
 		local pCid = cid or v.cid
 		local pType = subType > 0 and subType or cfg.subType
 		local pStar = star or cfg.star
-		--print("888888888888888888888",subType, v.subType, cfg.star)
 		if (v.star < 1 and v.stage < 1 and pCid == v.cid and pType == cfg.subType and pStar == cfg.star) or (cfg.subType == 101) then
 			table.insert(equips, v)
 		end
@@ -1333,6 +1331,7 @@ end
 function EquipmentDataMgr:updateNewEquipMentEquipState(data)
 	local heroId = data.heroId
 	local euqipFetterInfo = data.euqipFetterInfo or {}
+	print(euqipFetterInfo)
 	if euqipFetterInfo then
 		for k, v in pairs(euqipFetterInfo) do
 			local newEquipmentInfo = v.newEquipmentInfo
@@ -1344,6 +1343,7 @@ function EquipmentDataMgr:updateNewEquipMentEquipState(data)
 			else
 				self.useNewEquipList[newEquipmentInfo.id] = false
 			end
+			GoodsDataMgr:__newEquipmentHandle(newEquipmentInfo)  --同步信物数据
 		end
 		for k,v in pairs(self.newEquips) do
 			if tonumber(v.heroId) == tonumber(heroId) then
@@ -1358,6 +1358,7 @@ function EquipmentDataMgr:updateNewEquipMentEquipState(data)
 					v.heroId = "0"
 					v.position = "0"
 					self.useNewEquipList[v.id] = false
+					GoodsDataMgr:__newEquipmentHandle(v)  --同步信物数据
 				end
 			end
 		end
@@ -1367,6 +1368,7 @@ function EquipmentDataMgr:updateNewEquipMentEquipState(data)
 				v.heroId = "0"
 				v.position = "0"
 				self.useNewEquipList[v.id] = false
+				GoodsDataMgr:__newEquipmentHandle(v)  --同步信物数据
 			end
 		end
 	end
@@ -1874,13 +1876,13 @@ end
 
 function EquipmentDataMgr:sendReqEquipStrengthen(heroId, pos)
 	local euipMent = HeroDataMgr:getNewEquipInfoByPos(heroId, pos)
-	local equipInfo = self:getNewEquipInfoByCid(euipMent.cid)
+	local equipInfo = self:getNewEquipInfoById(euipMent.id)
 	TFDirector:send(c2s.EQUIPMENT_REQ_STRENGTHEN_NEW_EQUIP, {equipInfo.id})
 end
 
 function EquipmentDataMgr:sendReqEquipAdvance(heroId, pos)
 	local euipMent = HeroDataMgr:getNewEquipInfoByPos(heroId, pos)
-	local equipInfo = self:getNewEquipInfoByCid(euipMent.cid)
+	local equipInfo = self:getNewEquipInfoById(euipMent.id)
 	TFDirector:send(c2s.EQUIPMENT_REQ_ADVANCE_NEW_EQUIP, {equipInfo.id})
 end
 
@@ -2212,9 +2214,9 @@ function EquipmentDataMgr:checkHeroIdInSuit(exclusive, heroId)
 	return false
 end
 
-function EquipmentDataMgr:getNewEquipAdvanceCfg(equipCid, stage)
+function EquipmentDataMgr:getNewEquipAdvanceCfg(equipId, equipCid, stage)
 	local equipCfg = self:getNewEquipCfg(equipCid)
-	local equipInfo = self:getNewEquipInfoByCid(equipCid)
+	local equipInfo = self:getNewEquipInfoById(equipId)
 	local realStage = stage or (equipInfo and equipInfo.stage or equipCfg.star)
     local advanceId = equipCfg.attribute * 100 + realStage
 	for k,v in pairs(self.NewEquipAdvance) do
@@ -2241,10 +2243,15 @@ function EquipmentDataMgr:getNewEquipMaxStar(equipCid)
 end
 
 function EquipmentDataMgr:checkNewEquipReachMaxLv(equipCid)
-	if self:getNewEquipInfoByCid(equipCid).level >= self:getNewEquipMaxLevel(equipCid) then
-		return true
+	if self:isCid(equipCid) then
+		if self:getNewEquipInfoByCid(equipCid).level >= self:getNewEquipMaxLevel(equipCid) then
+			return true
+		end
+		return false
 	end
-	return false
+
+	local equipInfo = self:getNewEquipInfoById(equipCid)
+	return equipInfo.level >= self:getNewEquipMaxLevel(equipInfo.cid)
 end
 
 function EquipmentDataMgr:getHeroNewEquipAttribute(heroId)
@@ -2253,7 +2260,7 @@ function EquipmentDataMgr:getHeroNewEquipAttribute(heroId)
 	if equipFetterInfo then
 		for k,v in pairs(equipFetterInfo) do
 			if v.newEquipmentInfo then
-				local attrValues = self:getNewEquipCurAttribute(v.newEquipmentInfo.cid)
+				local attrValues = self:getNewEquipCurAttribute(v.newEquipmentInfo.id, v.newEquipmentInfo.cid)
 				for k,v in pairs(attrValues) do
 					allValus[k] = (allValus[k] or 0) + v
 				end
@@ -2263,18 +2270,10 @@ function EquipmentDataMgr:getHeroNewEquipAttribute(heroId)
 	return allValus
 end
 
-function EquipmentDataMgr:getNewEquipCurAttribute(equipCid, stage, level)
-	local equipInfo = nil
-	if type(equipCid) == "string" then
-		equipInfo = self:getNewEquipInfoById(equipCid)
-		equipCid = equipInfo.cid
-	else
-		equipInfo = self:getNewEquipInfoByCid(equipCid)
-	end
-	
+function EquipmentDataMgr:getNewEquipCurAttribute(equipId, equipCid, stage, level)
+	local equipInfo = self:getNewEquipInfoById(equipId)
     local equipCfg = self:getNewEquipCfg(equipCid)
-    local advanceCfg = self:getNewEquipAdvanceCfg(equipCid, stage)
-
+    local advanceCfg = self:getNewEquipAdvanceCfg(equipId, equipCid, stage)
     local attrValues = {}
     for k, baseValue in pairs(advanceCfg.Attr) do
     	local realLevel = level or (equipInfo and equipInfo.level or equipCfg.level)
@@ -2883,7 +2882,7 @@ function EquipmentDataMgr:newEquipCouldStrengthen(neweEquipCid)
 		return false
 	end
 
-	local acvanceCfg = self:getNewEquipAdvanceCfg(neweEquipCid)
+	local acvanceCfg = self:getNewEquipAdvanceCfg(equipInfo.id, equipInfo.cid)
 	if self:checkNewEquipReachMaxLv(neweEquipCid) then
 		return false
 	end
@@ -2921,7 +2920,7 @@ function EquipmentDataMgr:newEquipCouldUpStage(neweEquipCid)
 		return false
 	end
 
-	local acvanceCfg = self:getNewEquipAdvanceCfg(neweEquipCid)
+	local acvanceCfg = self:getNewEquipAdvanceCfg(equipInfo.id, equipInfo.cid)
 	local equipCfg = self:getNewEquipCfg(neweEquipCid)
 	if equipInfo.stage >= equipCfg.endStar then
 		return false
@@ -2935,7 +2934,7 @@ function EquipmentDataMgr:newEquipCouldUpStage(neweEquipCid)
 		return false
 	end
 
-	local consume = self:getNewEquipAdvanceCfg(neweEquipCid, equipInfo.stage).consume
+	local consume = self:getNewEquipAdvanceCfg(equipInfo.id, equipInfo.cid, equipInfo.stage).consume
 	consume = consume or {}
 	for k, v in pairs(consume) do
 		local haveNum,needNum = GoodsDataMgr:getItemCount(v[1]),v[2]
@@ -3314,6 +3313,33 @@ end
 
 function EquipmentDataMgr:getTokenBackUpInfo()
 	return self.tokenBackUpInfos
+end
+
+function EquipmentDataMgr:getMaxLevelStarNewEquipInfoByCid(cid)
+	local newEquips = {}
+	for k, v in pairs(self.newEquips) do
+		if v.cid == cid then
+			table.insert(newEquips,v)
+		end
+	end
+
+	table.sort(newEquips, function( a, b )
+		if a.stage > b.stage then
+			return true
+		elseif a.stage < b.stage then
+			return false
+		else
+			if a.level > b.level then
+				return true
+			elseif a.level < b.level then
+				return false
+			else
+				return tonumber(a.id) > tonumber(b.id)
+			end
+		end
+	end)
+
+	return newEquips[1]
 end
 
 return EquipmentDataMgr:new();

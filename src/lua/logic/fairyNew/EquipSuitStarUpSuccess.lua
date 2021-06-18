@@ -1,14 +1,17 @@
 
 local EquipSuitStarUpSuccess = class("EquipSuitStarUpSuccess", BaseLayer)
 
-function EquipSuitStarUpSuccess:initData(cid)
-    self.equipCid = cid
+function EquipSuitStarUpSuccess:initData(newEquipMent)
+    self.equipAttrArray = TFArray:create()
+    self.newEquipMent = newEquipMent
+    --self.equipCid = cid
 end
 
 function EquipSuitStarUpSuccess:ctor(...)
     self.super.ctor(self)
     self:initData(...)
     self:init("lua.uiconfig.fairyNew.equipSuitStarUpSuccess")
+    Utils:playSound(4002, false)
 end
 
 function EquipSuitStarUpSuccess:initUI(ui)
@@ -54,9 +57,9 @@ function EquipSuitStarUpSuccess:initUI(ui)
 end
 
 function EquipSuitStarUpSuccess:refreshView()
-    local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(self.equipCid)
-    local equipCfg = EquipmentDataMgr:getNewEquipCfg(self.equipCid)
-    local maxLevel = EquipmentDataMgr:getNewEquipMaxLevel(self.equipCid)
+    local equipInfo = EquipmentDataMgr:getNewEquipInfoById(self.newEquipMent.id)
+    local equipCfg = EquipmentDataMgr:getNewEquipCfg(self.newEquipMent.cid)
+    local maxLevel = EquipmentDataMgr:getNewEquipMaxLevel(self.newEquipMent.cid)
     self.Label_name:setTextById(equipCfg.nameTextId)
     self.Image_icon1:setTexture(equipCfg.icon)
     self.Image_icon2:setTexture(equipCfg.icon)
@@ -92,8 +95,8 @@ function EquipSuitStarUpSuccess:refreshView()
         end
     end
 
-    local attrValues1 = EquipmentDataMgr:getNewEquipCurAttribute(self.equipCid, equipInfo.stage - 1)
-    local attrValues2 = EquipmentDataMgr:getNewEquipCurAttribute(self.equipCid, equipInfo.stage)
+    local attrValues1 = EquipmentDataMgr:getNewEquipCurAttribute(self.newEquipMent.id, self.newEquipMent.cid, equipInfo.stage - 1)
+    local attrValues2 = EquipmentDataMgr:getNewEquipCurAttribute(self.newEquipMent.id, self.newEquipMent.cid, equipInfo.stage)
 
     self.old_atk:setText(tostring(attrValues1[EC_Attr.ATK] or 0))
     self.old_def:setText(tostring(attrValues1[EC_Attr.DEF] or 0))

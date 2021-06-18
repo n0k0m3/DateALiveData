@@ -195,7 +195,7 @@ local t =
 								relativeToName = "Panel_root",
 							},
 							UItype = "Button",
-							width = "120",
+							width = "142",
 							ZOrder = "1",
 							components = 
 							{
@@ -242,7 +242,7 @@ local t =
 									{
 										
 									},
-									width = "98",
+									width = "135",
 									ZOrder = "1",
 								},
 							},
@@ -364,7 +364,7 @@ local t =
 									{
 										
 									},
-									width = "147",
+									width = "201",
 									ZOrder = "1",
 								},
 							},
@@ -467,7 +467,7 @@ local t =
 									{
 										
 									},
-									width = "47",
+									width = "50",
 									ZOrder = "1",
 								},
 							},

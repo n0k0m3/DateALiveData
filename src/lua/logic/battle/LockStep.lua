@@ -221,19 +221,21 @@ function LockStep.synchronBossState(markID)
             local enemys = battleController.getEnemyMember()
             for i, enemy in ipairs(enemys) do
                 if enemy and markID == enemy:getData().markID then
-                    local pos3D = enemy:getPosition3D()
-                    local dir   = enemy:getDir()
-                    local hp    = enemy:getHp()
-                    local sp    = enemy:getResist()
-                    local data = {}
-                    data[1] = enemy:getData().markID
-                    data[2] = math.floor(pos3D.x)
-                    data[3] = math.floor(pos3D.y)
-                    data[4] = dir
-                    data[5] = hp
-                    data[6] = pid
-                    data[7] = sp
-                    this.sendBossState(data)
+                    if enemy:isFlag(1) then
+                        local pos3D = enemy:getPosition3D()
+                        local dir   = enemy:getDir()
+                        local hp    = enemy:getHp()
+                        local sp    = enemy:getResist()
+                        local data = {}
+                        data[1] = enemy:getData().markID
+                        data[2] = math.floor(pos3D.x)
+                        data[3] = math.floor(pos3D.y)
+                        data[4] = dir
+                        data[5] = hp
+                        data[6] = pid
+                        data[7] = sp
+                        this.sendBossState(data)
+                    end
                     break
                 end 
             end
@@ -248,7 +250,7 @@ function LockStep.synchronBossState(markID)
             this.synchronBossStateTime =  time
             local enemys = battleController.getEnemyMember()
             for i, enemy in ipairs(enemys) do
-                if enemy then
+                if enemy and enemy:isFlag(1) then
                     local hp    = enemy:getHp()
                     local data = {}
                     data[1] = enemy:getData().markID
@@ -292,16 +294,18 @@ function LockStep.synchronHp(hero)
         end        
     elseif roleType == eRoleType.Monster then
         -- --只同步怪血量    
-        local hp    = hero:getHp()
-        local data = {}
-        data[1] = hero:getData().markID
-        data[2] = 0
-        data[3] = 0
-        data[4] = 0
-        data[5] = hp
-        data[6] = MainPlayer:getPlayerId()
-        data[7] = hero:getResist()
-        this.sendBossState(data)
+        if hero:isFlag(1) then
+            local hp    = hero:getHp()
+            local data = {}
+            data[1] = hero:getData().markID
+            data[2] = 0
+            data[3] = 0
+            data[4] = 0
+            data[5] = hp
+            data[6] = MainPlayer:getPlayerId()
+            data[7] = hero:getResist()
+            this.sendBossState(data)
+        end
     end
 end
 

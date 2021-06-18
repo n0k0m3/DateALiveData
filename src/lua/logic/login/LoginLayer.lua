@@ -223,7 +223,7 @@ function LoginLayer:initUI(ui)
 	self.Button_migrationServer:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
 	 	self:showMigrationServerView(function(isUpdate)
 	 		-- body
-	 		if isUpdate and HeitaoSdk and HeitaoSdk.isLogined then
+	 		if isUpdate and HeitaoSdk then
 	 			HeitaoSdk.loginOut()
 	 		end
 	 	end, true)

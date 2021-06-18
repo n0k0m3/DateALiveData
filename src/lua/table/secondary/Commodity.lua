@@ -64116,7 +64116,7 @@ return {
             [411208] = 1,
         },
         showBeginTime = "",
-        openContVal = 99,
+        openContVal = 1,
         title = 0,
         sellDescribtion = "2004",
         showEndTime = "",
@@ -65173,10 +65173,10 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 11,
-        grid = 11,
+        order = 16,
+        grid = 16,
         priceVal = {
-            [1] = 5,
+            [1] = 450,
         },
         buyBeginTime = {
         },
@@ -65196,7 +65196,7 @@ return {
             [1] = 500068,
         },
         goods = {
-            [599601] = 1,
+            [599607] = 1,
         },
         showBeginTime = "",
         openContVal = 1,
@@ -65943,8 +65943,8 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 16,
-        grid = 16,
+        order = 17,
+        grid = 17,
         priceVal = {
             [1] = 8,
         },
@@ -66095,8 +66095,8 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 17,
-        grid = 17,
+        order = 18,
+        grid = 18,
         priceVal = {
             [1] = 6,
         },
@@ -66249,8 +66249,8 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 18,
-        grid = 18,
+        order = 19,
+        grid = 19,
         priceVal = {
             [1] = 3,
         },

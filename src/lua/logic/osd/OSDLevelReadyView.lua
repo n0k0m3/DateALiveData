@@ -71,6 +71,13 @@ function OSDLevelReadyView:flushLeft( ... )
 		end
 	end
 
+	for i=1,3 do
+		local lineNode = TFDirector:getChildByPath(self.panel_level,"panel_lineItem"..i)
+		if lineNode then
+			lineNode:hide()
+		end
+	end
+
 	local preLevelPass = true
 	for i = 1,#self.levelCfg.dungeonID do
 		local levelItemNode = TFDirector:getChildByPath(self.panel_level,"panel_levelItem"..i)
@@ -100,6 +107,7 @@ function OSDLevelReadyView:flushLeft( ... )
 				local line_darke = TFDirector:getChildByPath(lineNode,"line_darke")
 				line_light:setVisible(preLevelPass)
 				line_darke:setVisible(not preLevelPass)
+				lineNode:show()
 			end
 		end
 

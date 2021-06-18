@@ -207,7 +207,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -224,7 +224,7 @@ local t =
 										PositionX = -254,
 										PositionY = 130,
 									},
-									width = "147",
+									width = "287",
 									ZOrder = "1",
 								},
 								{
@@ -253,7 +253,7 @@ local t =
 										PositionY = -118,
 									},
 									UItype = "Button",
-									width = "120",
+									width = "214",
 									ZOrder = "1",
 									components = 
 									{
@@ -300,7 +300,7 @@ local t =
 											{
 												
 											},
-											width = "91",
+											width = "198",
 											ZOrder = "1",
 										},
 									},
@@ -422,7 +422,7 @@ local t =
 													{
 														PositionX = -18,
 													},
-													width = "83",
+													width = "115",
 													ZOrder = "1",
 												},
 												{
@@ -600,7 +600,7 @@ local t =
 													{
 														PositionX = -18,
 													},
-													width = "38",
+													width = "39",
 													ZOrder = "1",
 												},
 												{
@@ -734,7 +734,7 @@ local t =
 											{
 												
 											},
-											width = "83",
+											width = "147",
 											ZOrder = "1",
 										},
 									},

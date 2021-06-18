@@ -1506,14 +1506,14 @@ function FairyDetailsLayer:updateEquipSuitLayer()
                 end
             end
 			local equipCfg = EquipmentDataMgr:getNewEquipCfg(euipMent.cid)
-			--local equipInfo = EquipmentDataMgr:getNewEquipInfoById(euipMent.cid)
+			local equipInfo = EquipmentDataMgr:getNewEquipInfoById(euipMent.id)
 			local level, stage
 			if self.isFriend then
 				level = euipMent.level
 				stage = euipMent.stage
 			else
-				level = euipMent and euipMent.level or 1
-				stage = euipMent and euipMent.stage or 1
+				level = equipInfo and equipInfo.level or 1
+				stage = equipInfo and equipInfo.stage or 1
 			end
 			foo.Panel_info:setVisible(true)
 			foo.Image_icon:setScale(0.7)

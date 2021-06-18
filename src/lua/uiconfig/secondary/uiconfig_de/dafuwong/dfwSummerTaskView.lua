@@ -160,7 +160,7 @@ local t =
 										nHitWidth = 84,
 										nHitHeight = 105
 									},
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Button_refresh",
 									normal = "ui/dfwsummer/task/002.png",
 									sizepercentx = "0",
@@ -174,7 +174,7 @@ local t =
 										PositionY = 33,
 									},
 									UItype = "Button",
-									width = "84",
+									width = "96",
 									ZOrder = "1",
 									components = 
 									{
@@ -205,23 +205,25 @@ local t =
 												StrokeColor = "#FFE0B250",
 												StrokeSize = 2,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_refresh",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Aktualisieren",
+											text = "Refresh",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -3,
 											},
-											width = "41",
+											width = "110",
 											ZOrder = "1",
 										},
 										{
@@ -321,7 +323,7 @@ local t =
 													{
 														PositionX = -4,
 													},
-													width = "32",
+													width = "35",
 													ZOrder = "1",
 												},
 											},
@@ -361,14 +363,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Aktualisieren",
+											text = "Refresh",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = 60,
 											},
-											width = "45",
+											width = "65",
 											ZOrder = "1",
 										},
 										{
@@ -390,14 +392,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFE0B250",
 												StrokeSize = 2,
 											},
-											height = "27",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_tip_time",
 											nTextAlign = "1",
@@ -406,14 +408,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "20 T. 10 Std. 06 Min.",
+											text = "20d 10h 06m",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = 33,
 											},
-											width = "127",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -786,15 +788,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF345EAF",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -802,14 +804,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Questname",
+									text = "Quest Name",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = 193,
 									},
-									width = "92",
+									width = "170",
 									ZOrder = "1",
 								},
 								{
@@ -847,14 +849,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Du erhältst",
+									text = "You'll get",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = 150,
 									},
-									width = "90",
+									width = "109",
 									ZOrder = "1",
 								},
 								{
@@ -876,7 +878,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -892,7 +894,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Questbeschreibung",
+									text = "Quest Description",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -953,14 +955,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFBA8254",
 												StrokeSize = 2,
 											},
-											height = "36",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_receive",
 											nTextAlign = "1",
@@ -969,14 +971,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Kaufen",
+											text = "Buy",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -1,
 											},
-											width = "56",
+											width = "46",
 											ZOrder = "1",
 										},
 									},
@@ -1016,7 +1018,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Gekauft",
+									text = "Purchased",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1024,7 +1026,7 @@ local t =
 										PositionY = -183,
 									},
 									visible = "False",
-									width = "75",
+									width = "100",
 									ZOrder = "1",
 								},
 								{

@@ -1797,6 +1797,7 @@ EC_ActivityType2 = {
     BINGKAI_STORE = 90,          -- 冰铠商店
     BINGKAI_TASK = 91,          -- 冰铠任务
     RETURN_GIFT = 100,           -- 赠送返利活动
+    DFW_SUMMER = 20,     -- 大富翁夏日祭
 }
 
 EC_Activity_CHRISTMAS_Subtype = {

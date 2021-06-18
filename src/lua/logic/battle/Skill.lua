@@ -246,6 +246,11 @@ function Skill:isManual(flag)
 end
 function Skill:handlLimitTime( time )
     -- body
+    local skill  = self.hero:getSkillByCid(self.skillCfg.callbackSkill)
+    if not skill then
+        return
+    end
+    
     if not self.nLimitTime then return end
     if self.nLimitTime > 0 then
         self.nLimitTime = self.nLimitTime - time
@@ -261,7 +266,6 @@ function Skill:handlLimitTime( time )
         self.nLimitTime = nil
         self.nLimitPercent = nil
         if self.skillCfg.callbackSkill and self.skillCfg.callbackSkill > 0 then
-            local skill  = self.hero:getSkillByCid(self.skillCfg.callbackSkill)
             self:setVisiable(false)
             skill:setVisiable(true)
             if self:isManual(true) then

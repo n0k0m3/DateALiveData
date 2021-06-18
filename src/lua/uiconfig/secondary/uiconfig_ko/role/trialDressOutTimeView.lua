@@ -640,14 +640,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "36",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#BFCF2C4E",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "43",
 									ignoreSize = "True",
 									name = "title",
 									nTextAlign = "1",
@@ -657,15 +657,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Buy                    Now ",
+									text = "정식 구매",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -163,
+										PositionX = -203,
 										PositionY = 119,
 									},
-									width = "247",
+									width = "145",
 									ZOrder = "1",
 									components = 
 									{
@@ -689,14 +689,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "34",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#C018B2E9",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "41",
 											ignoreSize = "True",
 											name = "Label_trialDressOutTimeView_1",
 											nTextAlign = "1",
@@ -705,15 +705,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Costume",
+											text = "코스튬",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -2,
-												PositionY = -1,
+												PositionX = 128,
 											},
-											width = "111",
+											width = "97",
 											ZOrder = "1",
 										},
 									},

@@ -1249,6 +1249,58 @@ function battleController.herosEnter()
 
 end
 
+function battleController.checkLimitHeroAttrExchange()
+    local heros = this.team:getMenbers_(1,1,false)
+    for i,hero in ipairs(heros) do
+        if not hero:isFlag(1) then
+            return
+        end
+    end
+    local function exchangeAttr( heroId, attrs)
+        local srcHero = nil
+        for i,v in ipairs(heros) do
+            if v:getData().id == heroId then
+                srcHero = v
+            end
+        end
+
+        if srcHero then
+            for i,v in ipairs(heros) do
+                if v:getData().id ~= srcHero:getData().id then
+                    v:recvExchangeAttr(srcHero,attrs)
+                end
+            end
+        end
+    end
+    local limitCfgs = TabDataMgr:getData("LimitHeroAttribute")
+    local serverTime = ServerDataMgr:getServerTime()
+    local changeHeroId = 0
+    local changeAttre = {}
+    local levelCfg_ = BattleDataMgr:getLevelCfg()
+    for k,cfg in pairs(limitCfgs) do
+        local openTime = Utils:getTimeByDate(cfg.stime)
+        local endTime = Utils:getTimeByDate(cfg.etime)
+        if serverTime > openTime and serverTime < endTime then
+            local flag = false
+            for i,dungeonId in ipairs(cfg.dungeonId) do
+                if levelCfg_ and levelCfg_.id == dungeonId then
+                    exchangeAttr(cfg.heroId, cfg.activation)
+                    flag = true
+                    break
+                end
+            end
+            if not flag then
+                for i,dungeonType in ipairs(cfg.dungeonType) do
+                    if levelCfg_ and levelCfg_.dungeonType == dungeonType then
+                        exchangeAttr(cfg.heroId, cfg.activation)
+                        break
+                    end
+                end
+            end
+        end
+    end
+end
+
 function battleController.endFight()
     this.setTimeScale(1.0)
     if this.team then
@@ -1370,10 +1422,10 @@ function battleController.requestFightingOver()
                 levelCfg.dungeonType == EC_FBLevelType.MUSIC_GAME then
                     EventMgr:dispatchEvent(eEvent.EVENT_QUIT_BATTLE)  --英文版新增战斗结束
         elseif levelCfg.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
-            battleController.sendVerifyFightResult(isWin)
-            local costTime = math.floor(this.getTime())
-    
-            local total = FubenDataMgr:caculationMonsterScore(this.levelCfg_.id, costTime)          
+			battleController.sendVerifyFightResult(isWin)
+			local costTime = math.floor(this.getTime())
+	
+			local total = FubenDataMgr:caculationMonsterScore(this.levelCfg_.id, costTime)			
             FubenDataMgr:send_DUNGEON_FIGHT_OVER(levelId, isWin, {total},
                                                  maxComboNum, pickUpTypeCount,
                                                  pickUpCount, killTargets, costTime, hitValue,rating,skillEnemy)
@@ -1898,7 +1950,7 @@ function battleController.getExtBuffList(hero)
     local bufferIds = {}
     local data = BattleDataMgr:getLevelCfg()
 
-    --魔王试炼额外英雄buff
+	--魔王试炼额外英雄buff
      if data.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
 		local buff = FubenDataMgr:getMonsterBuffByHeroId(hero.data.id)
 		table.insert(bufferIds, buff)
@@ -1908,6 +1960,21 @@ function battleController.getExtBuffList(hero)
     local actBuff = BattleDataMgr:getServerData().actBuffId or {}
     for i,v in ipairs(actBuff) do
         table.insert(bufferIds, v)  
+    end
+
+    --无尽plus
+    if data.dungeonType == EC_FBLevelType.ENDLESS_PLUSS then
+        local buffCidTab = FubenEndlessPlusDataMgr:getSelectBuffCids()
+        for k,buffCid in ipairs(buffCidTab) do
+            local buffCfg = TabDataMgr:getData("FloorBuff", buffCid)
+            if buffCfg and buffCfg.limitTargetId then
+                for i,v in ipairs(buffCfg.limitTargetId) do
+                    if v == hero.data.id then
+                        table.insertTo(bufferIds, buffCfg.buffId)
+                    end
+                end          
+            end
+        end
     end
 
     
@@ -2104,15 +2171,15 @@ function battleController.getPointBuffer(targetType)
             end
         end
     end
-    --魔王试炼
-    if data.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
-        local buffCfgList = FubenDataMgr:getMonsterTrialBuffListByLvId(data.id)
+	--魔王试炼
+	if data.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
+		local buffCfgList = FubenDataMgr:getMonsterTrialBuffListByLvId(data.id)
         for k, v in ipairs(buffCfgList) do
             if v.limitTargetType and v.limitTargetType[1] == targetType then
                 table.insert(bufferIds, v.affixId)
             end
         end
-    end
+	end
 
     --天梯
     if data.dungeonType == EC_FBLevelType.SKYLADDER then
@@ -2135,13 +2202,14 @@ function battleController.getPointBuffer(targetType)
         --    end
         --end
 
-        local buffCid = FubenEndlessPlusDataMgr:getSelectBuffCid()        
-        if buffCid then
+        local buffCidTab = FubenEndlessPlusDataMgr:getSelectBuffCids()
+        for k,buffCid in ipairs(buffCidTab) do
             local buffCfg = TabDataMgr:getData("FloorBuff", buffCid)
             if buffCfg.limitTargetType == targetType then                
                table.insertTo(bufferIds, buffCfg.buffId)
             end
-        end
+        end     
+
 
     end
 

@@ -92,8 +92,8 @@ function EquipSuitLevelUpSuccess:refreshView()
         end
     end
 
-    local attrValues1 = EquipmentDataMgr:getNewEquipCurAttribute(self.equipCid, nil, equipInfo.level - 1)
-    local attrValues2 = EquipmentDataMgr:getNewEquipCurAttribute(self.equipCid, nil, equipInfo.level)
+    local attrValues1 = EquipmentDataMgr:getNewEquipCurAttribute(self.equipMent.id, self.equipCid, nil, equipInfo.level - 1)
+    local attrValues2 = EquipmentDataMgr:getNewEquipCurAttribute(self.equipMent.id, self.equipCid, nil, equipInfo.level)
 
     self.old_atk:setText(tostring(attrValues1[EC_Attr.ATK] or 0))
     self.old_def:setText(tostring(attrValues1[EC_Attr.DEF] or 0))

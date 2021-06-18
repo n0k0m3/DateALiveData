@@ -796,20 +796,20 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "55",
-									ignoreSize = "False",
+									height = "31",
+									ignoreSize = "True",
 									name = "Image_name_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/league/ui_37.png",
+									texturePath = "ui/league/ui_37_big.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "104",
+									width = "291",
 									ZOrder = "2",
 									components = 
 									{
@@ -833,15 +833,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "14",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "21",
+											ignoreSize = "True",
 											name = "Label_build_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -854,9 +854,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 1,
+												
 											},
-											width = "86",
+											width = "132",
 											ZOrder = "1",
 										},
 										{
@@ -879,8 +879,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 45,
-												PositionY = 10,
+												PositionX = 101,
+												PositionY = 12,
 											},
 											visible = "False",
 											width = "30",
@@ -931,8 +931,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 48,
-												PositionY = 10,
+												PositionX = 107,
+												PositionY = 12,
 											},
 											visible = "False",
 											width = "30",
@@ -1034,7 +1034,7 @@ local t =
 			"ui/Equipment/new_ui/new_38.png",
 			"ui/common/news_big.png",
 			"ui/common/cool_down_tips_bg.png",
-			"ui/league/ui_37.png",
+			"ui/league/ui_37_big.png",
 			"ui/common/news_small.png",
 			"ui/league/ui_44.png",
 			"ui/league/ui_61.png",

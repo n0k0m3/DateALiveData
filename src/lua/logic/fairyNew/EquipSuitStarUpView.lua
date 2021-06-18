@@ -64,7 +64,7 @@ end
 function EquipSuitStarUpView:refreshView()
     local euipMent = HeroDataMgr:getNewEquipInfoByPos(self.heroId, self.pos)
     local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(euipMent.cid)
-    local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.cid)
+    local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.id, euipMent.cid)
     local equipCfg = EquipmentDataMgr:getNewEquipCfg(euipMent.cid)
     local maxLevel = EquipmentDataMgr:getNewEquipMaxLevel(euipMent.cid)
     self.Button_UP:setGrayEnabled(false)
@@ -120,8 +120,8 @@ function EquipSuitStarUpView:refreshView()
         end
     ]]
 
-    local attrValues1 = EquipmentDataMgr:getNewEquipCurAttribute(euipMent.cid, equipInfo.stage)
-    local attrValues2 = EquipmentDataMgr:getNewEquipCurAttribute(euipMent.cid, math.min((equipInfo.stage + 1), maxStar))
+    local attrValues1 = EquipmentDataMgr:getNewEquipCurAttribute(euipMent.id, euipMent.cid, equipInfo.stage)
+    local attrValues2 = EquipmentDataMgr:getNewEquipCurAttribute(euipMent.id, euipMent.cid, math.min((equipInfo.stage + 1), maxStar))
 
     self.old_atk:setText(tostring(attrValues1[EC_Attr.ATK] or 0))
     self.old_def:setText(tostring(attrValues1[EC_Attr.DEF] or 0))
@@ -158,7 +158,7 @@ function EquipSuitStarUpView:refreshView()
         self.ScrollView_items:removeAllItems()
         self.gold_cost = 0
     else
-        local consume = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.cid, math.min(equipInfo.stage, maxStar)).consume
+        local consume = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.id, euipMent.cid, math.min(equipInfo.stage, maxStar)).consume
         self:refreshCostItems(consume)
     end
     self.Label_gold:setString(self.gold_cost)
@@ -211,7 +211,7 @@ end
 function EquipSuitStarUpView:onAdvanceOver(data)
     if data.isSuccess then
         local euipMent = HeroDataMgr:getNewEquipInfoByPos(self.heroId, self.pos)
-        Utils:openView("fairyNew.EquipSuitStarUpSuccess", euipMent.cid)
+        Utils:openView("fairyNew.EquipSuitStarUpSuccess", euipMent)
         self:refreshView()
     end
 end
@@ -222,7 +222,7 @@ function EquipSuitStarUpView:registerEvents()
     self.Button_UP:onClick(function()
         local euipMent = HeroDataMgr:getNewEquipInfoByPos(self.heroId, self.pos)
         local equipInfo = EquipmentDataMgr:getNewEquipInfoByCid(euipMent.cid)
-        local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.cid)
+        local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.id, euipMent.cid)
         local equipCfg = EquipmentDataMgr:getNewEquipCfg(euipMent.cid)
         if equipInfo.stage >= equipCfg.endStar then
             Utils:showTips(100000047)

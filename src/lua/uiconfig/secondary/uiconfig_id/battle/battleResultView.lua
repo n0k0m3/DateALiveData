@@ -4918,6 +4918,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -5719,7 +5720,7 @@ local t =
 																	controlID = "Label_title_Button_inform_Panel_ctrl_Panel_item_Panel_item_1_Panel_team_Attack_Panel_root_Panel-battleResultView_ui_battle_Game",
 																	UUID = "56e0fd8a_d1d1_4ee9_80a7_5e51a6f84063",
 																	anchorPoint = "False",
-																	anchorPointX = "0.5",
+																	anchorPointX = "1",
 																	anchorPointY = "0.5",
 																	classname = "MELabel",
 																	compPath = "luacomponents.common.MEIconLabel",
@@ -5755,6 +5756,7 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
+																		PositionX = 26,
 																		PositionY = -30,
 																	},
 																	width = "47",

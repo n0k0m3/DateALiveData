@@ -164,7 +164,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = true,
@@ -179,16 +179,16 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Nombre de interfaz",
+									text = "UI-Name",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 285,
-										PositionY = -31,
+										PositionX = 280,
+										PositionY = -33,
 									},
 									vAlignment = "1",
-									width = "238",
+									width = "225",
 									ZOrder = "1",
 								},
 								{
@@ -223,7 +223,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "FUNCIONAL",
+									text = "FUNCTIONAL",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -233,7 +233,7 @@ local t =
 									},
 									vAlignment = "0",
 									visible = "False",
-									width = "111",
+									width = "142",
 									ZOrder = "1",
 								},
 							},

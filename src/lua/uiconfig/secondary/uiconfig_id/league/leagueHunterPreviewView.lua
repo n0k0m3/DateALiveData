@@ -269,7 +269,7 @@ local t =
 												PositionX = -355,
 												PositionY = 182,
 											},
-											width = "224",
+											width = "236",
 											ZOrder = "1",
 											components = 
 											{
@@ -407,7 +407,7 @@ local t =
 															{
 																PositionY = -7,
 															},
-															width = "115",
+															width = "109",
 															ZOrder = "1",
 														},
 													},
@@ -597,7 +597,7 @@ local t =
 													{
 														PositionX = -180,
 													},
-													width = "69",
+													width = "75",
 													ZOrder = "1",
 												},
 											},
@@ -646,7 +646,7 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
@@ -657,7 +657,7 @@ local t =
 											{
 												nHitType = 3,
 											},
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_auto_match",
 											normal = "ui/common/pop_ui/pop_btn_01.png",
 											sizepercentx = "0",
@@ -667,11 +667,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 298,
+												PositionX = 257,
 												PositionY = -175,
 											},
 											UItype = "Button",
-											width = "124",
+											width = "194",
 											ZOrder = "1",
 											components = 
 											{
@@ -718,7 +718,7 @@ local t =
 													{
 														
 													},
-													width = "115",
+													width = "110",
 													ZOrder = "1",
 												},
 											},
@@ -750,7 +750,7 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 169,
+												PositionX = 89,
 												PositionY = -175,
 											},
 											UItype = "Button",
@@ -905,7 +905,7 @@ local t =
 												PositionX = -150,
 												PositionY = 144,
 											},
-											width = "180",
+											width = "169",
 											ZOrder = "1",
 										},
 										{
@@ -951,7 +951,7 @@ local t =
 												PositionX = -308,
 												PositionY = -97,
 											},
-											width = "73",
+											width = "71",
 											ZOrder = "1",
 										},
 										{
@@ -1054,7 +1054,7 @@ local t =
 												PositionX = -117,
 												PositionY = -99,
 											},
-											width = "43",
+											width = "41",
 											ZOrder = "1",
 										},
 										{
@@ -1100,7 +1100,7 @@ local t =
 												PositionX = -144,
 												PositionY = 144,
 											},
-											width = "15",
+											width = "14",
 											ZOrder = "1",
 										},
 										{
@@ -1241,7 +1241,7 @@ local t =
 												PositionY = -47,
 												relativeToName = "Panel_level_preview",
 											},
-											width = "54",
+											width = "58",
 											ZOrder = "1",
 										},
 									},

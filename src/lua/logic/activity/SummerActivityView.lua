@@ -61,11 +61,11 @@ end
 function SummerActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
 
-    local startDate = Utils:getLocalDate(self.activityInfo_.startTime)
-    local startDateStr = startDate:fmt("%Y.%m.%d")
-    local endDate = Utils:getLocalDate(self.activityInfo_.endTime)
-    local endDateStr = endDate:fmt("%Y.%m.%d")
-    self.Label_time:setTextById(800041, startDateStr, endDateStr)
+    -- local startDate = Utils:getLocalDate(self.activityInfo_.startTime)
+    -- local startDateStr = startDate:fmt("%Y.%m.%d")
+    -- local endDate = Utils:getLocalDate(self.activityInfo_.endTime)
+    -- local endDateStr = endDate:fmt("%Y.%m.%d")
+    self.Label_time:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle))
     self.Label_tip:setText(self.activityInfo_.extendData.dec)
 
     local extendData = self.activityInfo_.extendData or {}
@@ -83,14 +83,6 @@ end
 
 function SummerActivityView:onEnterDfwEvent()
     Utils:openView("dfwSummer.DfwSummerMainView")
-    if self.activityInfo_.extendData.interDating then
-        local key = "playDating"..self.activityInfo_.id.."player"..MainPlayer:getPlayerId()
-        local string = CCUserDefault:sharedUserDefault():getStringForKey(key)
-        if string ~= "false" then
-            CCUserDefault:sharedUserDefault():setStringForKey(key,"true")
-            FunctionDataMgr:jStartDating(self.activityInfo_.extendData.interDating)
-        end
-    end
 end
 
 return SummerActivityView

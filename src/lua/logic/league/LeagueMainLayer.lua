@@ -122,6 +122,9 @@ function LeagueMainLayer:updateBuildingNameItem(nameItem, cfg)
     Image_lock:setVisible(not open)
     local buildPos = cfg.location
     local namePos = cfg.excursion
+
+    
+
     nameItem:setPosition(ccp(buildPos[1] + namePos[1],buildPos[2] + namePos[2]))
     -------------
     if cfg.id == 5 and TFLanguageMgr:getUsingLanguage() == cc.SPANISH then
@@ -133,7 +136,31 @@ function LeagueMainLayer:updateBuildingNameItem(nameItem, cfg)
     if cfg.id == 8 and TFLanguageMgr:getUsingLanguage() == cc.SPANISH then
         nameItem:setPosition(ccp(buildPos[1] + namePos[1] + 100,buildPos[2] + namePos[2] + 50))
     end
+
+    if (cfg.id == 3) and TFLanguageMgr:getUsingLanguage() == cc.FRENCH then
+        Image_name_bg:setTexture("ui/league/ui_37.png")
+    end
+    if cfg.id == 8 and TFLanguageMgr:getUsingLanguage() == cc.FRENCH then
+        nameItem:setPosition(ccp(buildPos[1] + namePos[1] + 100,buildPos[2] + namePos[2] + 50))
+    end
+    if cfg.id == 5 and TFLanguageMgr:getUsingLanguage() == cc.FRENCH then
+        nameItem:setPosition(ccp(buildPos[1] + namePos[1] - 80,buildPos[2] + namePos[2]))
+    end
     
+    if cfg.id == 8 and TFLanguageMgr:getUsingLanguage() == cc.GERMAN then
+        nameItem:setPosition(ccp(buildPos[1] + namePos[1] + 80,buildPos[2] + namePos[2]))
+    end
+    if cfg.id == 5 and TFLanguageMgr:getUsingLanguage() == cc.GERMAN then
+        nameItem:setPosition(ccp(buildPos[1] + namePos[1] - 80,buildPos[2] + namePos[2]))
+    end
+
+    if cfg.id == 8 and TFLanguageMgr:getUsingLanguage() == cc.INDONESIAN then
+        nameItem:setPosition(ccp(buildPos[1] + namePos[1] + 100,buildPos[2] + namePos[2]))
+    end
+    if cfg.id == 5 and TFLanguageMgr:getUsingLanguage() == cc.INDONESIAN then
+        nameItem:setPosition(ccp(buildPos[1] + namePos[1] - 80,buildPos[2] + namePos[2]))
+    end
+
     local Image_time = TFDirector:getChildByPath(nameItem, "Image_time")
 
     if cfg.id  == 7 then --追猎计划特殊处理
@@ -153,7 +180,12 @@ function LeagueMainLayer:updateBuildingNameItem(nameItem, cfg)
                         Label_time:setTextById("r304005", hour, min)  --开启倒计时
                     end 
                 else
-                    Label_time:setTextById("r304003", day, hour) --关闭倒计时
+                    
+                    if tonumber(day) > 0 then 
+                        Label_time:setTextById("r304003", day, hour) --关闭倒计时
+                    else
+                        Label_time:setTextById("r80001", hour, min) --关闭倒计时
+                    end 
                 end
             else
                 Image_time:hide()

@@ -160,7 +160,7 @@ local t =
 										nHitWidth = 84,
 										nHitHeight = 105
 									},
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Button_refresh",
 									normal = "ui/dfwsummer/task/002.png",
 									sizepercentx = "0",
@@ -174,7 +174,7 @@ local t =
 										PositionY = 33,
 									},
 									UItype = "Button",
-									width = "84",
+									width = "96",
 									ZOrder = "1",
 									components = 
 									{
@@ -198,15 +198,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFE0B250",
 												StrokeSize = 2,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_refresh",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -221,7 +221,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "41",
+											width = "90",
 											ZOrder = "1",
 										},
 										{
@@ -321,7 +321,7 @@ local t =
 													{
 														PositionX = -4,
 													},
-													width = "32",
+													width = "35",
 													ZOrder = "1",
 												},
 											},
@@ -368,7 +368,7 @@ local t =
 											{
 												PositionY = 60,
 											},
-											width = "45",
+											width = "65",
 											ZOrder = "1",
 										},
 										{
@@ -390,14 +390,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFE0B250",
 												StrokeSize = 2,
 											},
-											height = "27",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_tip_time",
 											nTextAlign = "1",
@@ -413,7 +413,7 @@ local t =
 											{
 												PositionY = 33,
 											},
-											width = "127",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -786,15 +786,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF345EAF",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -809,7 +809,7 @@ local t =
 									{
 										PositionY = 193,
 									},
-									width = "92",
+									width = "170",
 									ZOrder = "1",
 								},
 								{
@@ -854,7 +854,7 @@ local t =
 									{
 										PositionY = 150,
 									},
-									width = "90",
+									width = "109",
 									ZOrder = "1",
 								},
 								{
@@ -876,7 +876,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -953,14 +953,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFBA8254",
 												StrokeSize = 2,
 											},
-											height = "36",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_receive",
 											nTextAlign = "1",
@@ -976,7 +976,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "56",
+											width = "46",
 											ZOrder = "1",
 										},
 									},
@@ -1024,7 +1024,7 @@ local t =
 										PositionY = -183,
 									},
 									visible = "False",
-									width = "75",
+									width = "100",
 									ZOrder = "1",
 								},
 								{

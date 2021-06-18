@@ -97,6 +97,7 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.BINGKAI_STORE] = requireNew("lua.logic.activity.bingKai.BingKaiStoreView"),
             [EC_ActivityType2.BINGKAI_TASK] = requireNew("lua.logic.activity.bingKai.BingKaiTaskView"),
             [EC_ActivityType2.RETURN_GIFT] = requireNew("lua.logic.activity.ReturnGiftView"),
+            [EC_ActivityType2.DFW_SUMMER] = requireNew("lua.logic.activity.SummerActivityView"),
         },
         [2] = {
             [EC_ActivityType2.CGCOLLECTED] = requireNew("lua.logic.activity.JumpActivityView"),

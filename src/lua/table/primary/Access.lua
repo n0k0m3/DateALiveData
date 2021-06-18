@@ -1382,6 +1382,7 @@ return {
         name2 = "1420051",
         id = 109,
         parameter = {
+            [1] = 60,
         },
         name = "1400012",
         endTime = "",

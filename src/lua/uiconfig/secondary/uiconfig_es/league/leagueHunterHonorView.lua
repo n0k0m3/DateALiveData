@@ -154,7 +154,7 @@ local t =
 							{
 								PositionY = -9,
 							},
-							width = "12",
+							width = "13",
 							ZOrder = "1",
 						},
 						{
@@ -200,7 +200,7 @@ local t =
 								PositionX = -349,
 								PositionY = 35,
 							},
-							width = "221",
+							width = "207",
 							ZOrder = "1",
 						},
 						{
@@ -246,7 +246,7 @@ local t =
 								PositionX = 229,
 								PositionY = -1,
 							},
-							width = "57",
+							width = "59",
 							ZOrder = "1",
 						},
 						{
@@ -413,7 +413,7 @@ local t =
 										PositionX = -356,
 										PositionY = 182,
 									},
-									width = "197",
+									width = "221",
 									ZOrder = "1",
 								},
 								{
@@ -439,6 +439,7 @@ local t =
 										PositionX = -236,
 										PositionY = 184,
 									},
+									visible = "False",
 									width = "2",
 									ZOrder = "1",
 									components = 
@@ -487,7 +488,7 @@ local t =
 												PositionX = 4,
 												PositionY = -15,
 											},
-											width = "59",
+											width = "55",
 											ZOrder = "1",
 										},
 									},
@@ -628,7 +629,7 @@ local t =
 												PercentX = 14.36,
 												PercentY = 50,
 											},
-											width = "130",
+											width = "121",
 											ZOrder = "1",
 										},
 										{
@@ -677,7 +678,7 @@ local t =
 												PercentX = 50,
 												PercentY = 50,
 											},
-											width = "211",
+											width = "202",
 											ZOrder = "1",
 										},
 										{
@@ -726,7 +727,7 @@ local t =
 												PercentX = 85.64,
 												PercentY = 50,
 											},
-											width = "198",
+											width = "188",
 											ZOrder = "1",
 										},
 									},
@@ -825,8 +826,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_tips",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -841,7 +842,7 @@ local t =
 									{
 										PositionY = -184,
 									},
-									width = "183",
+									width = "693",
 									ZOrder = "1",
 								},
 							},

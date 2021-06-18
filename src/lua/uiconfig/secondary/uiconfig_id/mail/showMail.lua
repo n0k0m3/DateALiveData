@@ -264,11 +264,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 112,
+										PositionX = 90,
 										PositionY = -236,
 									},
 									UItype = "Button",
-									width = "120",
+									width = "163",
 									ZOrder = "1",
 									components = 
 									{
@@ -308,14 +308,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Klaim",
+											text = "Sudah Diklaim",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -1,
 											},
-											width = "62",
+											width = "150",
 											ZOrder = "1",
 										},
 									},

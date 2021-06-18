@@ -17,7 +17,7 @@ function DfwSummerStepRewardView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
     self:showPopAnim(true)
-    self:init("lua.uiconfig.dafuwong.dfwStepRewardView")
+    self:init("lua.uiconfig.dafuwong.dfwSummerStepRewardView")
 end
 
 function DfwSummerStepRewardView:initUI(ui)
@@ -94,8 +94,8 @@ function DfwSummerStepRewardView:updateAllTaskItem()
         local foo = self.taskItems_[v]
         local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo_.activityType, taskData[i])
         local itemInfo = ActivityDataMgr2:getItemInfo(self.activityInfo_.activityType, taskData[i])
-        foo.Label_desc:setText(itemInfo.extendData.des2)
-        foo.Label_desc_complete:setText(itemInfo.extendData.des2)
+        foo.Label_desc:setText(Utils:MultiLanguageStringDeal(itemInfo.extendData.des2..","..itemInfo.target))
+        foo.Label_desc_complete:setText(Utils:MultiLanguageStringDeal(itemInfo.extendData.des2..","..itemInfo.target))
         foo.Label_step:setText(itemInfo.target)
         foo.Label_step_complete:setText(itemInfo.target)
         local isReceive = progressInfo.status == EC_TaskStatus.GET

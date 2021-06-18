@@ -482,7 +482,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_cdTime",
 									nTextAlign = "1",
@@ -498,7 +498,7 @@ local t =
 									{
 										
 									},
-									width = "36",
+									width = "26",
 									ZOrder = "1",
 								},
 								{
@@ -542,7 +542,7 @@ local t =
 									classname = "MELoadingBar",
 									direction = "4",
 									dstBlendFunc = "771",
-									height = "107",
+									height = "2",
 									ignoreSize = "True",
 									name = "LoadingBar_limit",
 									percent = "100",
@@ -558,7 +558,7 @@ local t =
 									{
 										
 									},
-									width = "107",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -738,7 +738,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_cdTime",
 									nTextAlign = "1",
@@ -754,7 +754,7 @@ local t =
 									{
 										
 									},
-									width = "36",
+									width = "26",
 									ZOrder = "1",
 								},
 								{
@@ -783,7 +783,7 @@ local t =
 										StrokeColor = "#FF808080",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_sp",
 									nTextAlign = "1",
@@ -800,7 +800,7 @@ local t =
 										PositionX = -21,
 										PositionY = -36,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -855,7 +855,7 @@ local t =
 										StrokeColor = "#FFFD3870",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_cacheTimes",
 									nTextAlign = "1",
@@ -872,7 +872,7 @@ local t =
 										PositionX = 26,
 										PositionY = -36,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -916,7 +916,7 @@ local t =
 									classname = "MELoadingBar",
 									direction = "4",
 									dstBlendFunc = "771",
-									height = "107",
+									height = "2",
 									ignoreSize = "True",
 									name = "LoadingBar_limit",
 									percent = "100",
@@ -935,7 +935,7 @@ local t =
 										TopPosition = 432,
 										relativeToName = "Panel",
 									},
-									width = "107",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -1126,7 +1126,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "64",
+									height = "2",
 									ignoreSize = "True",
 									name = "Image_exchange",
 									sizepercentx = "0",
@@ -1140,7 +1140,7 @@ local t =
 										PositionX = 26,
 										PositionY = 22,
 									},
-									width = "64",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -1199,7 +1199,7 @@ local t =
 										StrokeColor = "#FFFD3870",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_cacheTimes",
 									nTextAlign = "1",
@@ -1216,7 +1216,7 @@ local t =
 										PositionX = 26,
 										PositionY = -36,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -1258,7 +1258,7 @@ local t =
 									classname = "MELoadingBar",
 									direction = "4",
 									dstBlendFunc = "771",
-									height = "107",
+									height = "2",
 									ignoreSize = "True",
 									name = "LoadingBar_limit",
 									percent = "100",
@@ -1272,7 +1272,7 @@ local t =
 									{
 										
 									},
-									width = "107",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -1450,7 +1450,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_cdTime",
 									nTextAlign = "1",
@@ -1466,7 +1466,7 @@ local t =
 									{
 										
 									},
-									width = "36",
+									width = "26",
 									ZOrder = "1",
 								},
 								{
@@ -1495,7 +1495,7 @@ local t =
 										StrokeColor = "#FF34373E",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_sp",
 									nTextAlign = "1",
@@ -1512,7 +1512,7 @@ local t =
 										PositionX = -33,
 										PositionY = -37,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -1567,7 +1567,7 @@ local t =
 										StrokeColor = "#FFFD3870",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_cacheTimes",
 									nTextAlign = "1",
@@ -1584,7 +1584,7 @@ local t =
 										PositionX = 26,
 										PositionY = -36,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -1626,7 +1626,7 @@ local t =
 									classname = "MELoadingBar",
 									direction = "4",
 									dstBlendFunc = "771",
-									height = "107",
+									height = "2",
 									ignoreSize = "True",
 									name = "LoadingBar_limit",
 									percent = "100",
@@ -1640,7 +1640,7 @@ local t =
 									{
 										
 									},
-									width = "107",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -1818,7 +1818,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_cdTime",
 									nTextAlign = "1",
@@ -1834,7 +1834,7 @@ local t =
 									{
 										
 									},
-									width = "36",
+									width = "26",
 									ZOrder = "1",
 								},
 								{
@@ -1863,7 +1863,7 @@ local t =
 										StrokeColor = "#FF34373E",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_sp",
 									nTextAlign = "1",
@@ -1880,7 +1880,7 @@ local t =
 										PositionX = -33,
 										PositionY = -37,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -1935,7 +1935,7 @@ local t =
 										StrokeColor = "#FFFD3870",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_cacheTimes",
 									nTextAlign = "1",
@@ -1952,7 +1952,7 @@ local t =
 										PositionX = 26,
 										PositionY = -36,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -1994,7 +1994,7 @@ local t =
 									classname = "MELoadingBar",
 									direction = "4",
 									dstBlendFunc = "771",
-									height = "107",
+									height = "2",
 									ignoreSize = "True",
 									name = "LoadingBar_limit",
 									percent = "100",
@@ -2008,7 +2008,7 @@ local t =
 									{
 										
 									},
-									width = "107",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -2186,7 +2186,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_cdTime",
 									nTextAlign = "1",
@@ -2202,7 +2202,7 @@ local t =
 									{
 										
 									},
-									width = "36",
+									width = "26",
 									ZOrder = "1",
 								},
 								{
@@ -2231,7 +2231,7 @@ local t =
 										StrokeColor = "#FF34373E",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_sp",
 									nTextAlign = "1",
@@ -2248,7 +2248,7 @@ local t =
 										PositionX = -33,
 										PositionY = -37,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -2303,7 +2303,7 @@ local t =
 										StrokeColor = "#FFFD3870",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_cacheTimes",
 									nTextAlign = "1",
@@ -2320,7 +2320,7 @@ local t =
 										PositionX = 26,
 										PositionY = -36,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -2362,7 +2362,7 @@ local t =
 									classname = "MELoadingBar",
 									direction = "4",
 									dstBlendFunc = "771",
-									height = "107",
+									height = "2",
 									ignoreSize = "True",
 									name = "LoadingBar_limit",
 									percent = "100",
@@ -2376,7 +2376,7 @@ local t =
 									{
 										
 									},
-									width = "107",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -2554,7 +2554,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_cdTime",
 									nTextAlign = "1",
@@ -2570,7 +2570,7 @@ local t =
 									{
 										
 									},
-									width = "36",
+									width = "26",
 									ZOrder = "1",
 								},
 								{
@@ -2599,7 +2599,7 @@ local t =
 										StrokeColor = "#FF34373E",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_sp",
 									nTextAlign = "1",
@@ -2616,7 +2616,7 @@ local t =
 										PositionX = -33,
 										PositionY = -37,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -2671,7 +2671,7 @@ local t =
 										StrokeColor = "#FFFD3870",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_cacheTimes",
 									nTextAlign = "1",
@@ -2688,7 +2688,7 @@ local t =
 										PositionX = 26,
 										PositionY = -36,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -2730,7 +2730,7 @@ local t =
 									classname = "MELoadingBar",
 									direction = "4",
 									dstBlendFunc = "771",
-									height = "107",
+									height = "2",
 									ignoreSize = "True",
 									name = "LoadingBar_limit",
 									percent = "100",
@@ -2745,7 +2745,7 @@ local t =
 										PositionX = -4,
 										PositionY = 1,
 									},
-									width = "107",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -3256,7 +3256,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_cdTime",
 									nTextAlign = "1",
@@ -3272,7 +3272,7 @@ local t =
 									{
 										
 									},
-									width = "36",
+									width = "26",
 									ZOrder = "1",
 								},
 								{
@@ -3301,7 +3301,7 @@ local t =
 										StrokeColor = "#FF34373E",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_sp",
 									nTextAlign = "1",
@@ -3318,7 +3318,7 @@ local t =
 										PositionX = -33,
 										PositionY = -37,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -3373,7 +3373,7 @@ local t =
 										StrokeColor = "#FFFD3870",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_cacheTimes",
 									nTextAlign = "1",
@@ -3390,7 +3390,7 @@ local t =
 										PositionX = 26,
 										PositionY = -36,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
@@ -3432,7 +3432,7 @@ local t =
 									classname = "MELoadingBar",
 									direction = "4",
 									dstBlendFunc = "771",
-									height = "107",
+									height = "2",
 									ignoreSize = "True",
 									name = "LoadingBar_limit",
 									percent = "100",
@@ -3446,7 +3446,7 @@ local t =
 									{
 										
 									},
-									width = "107",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -3653,7 +3653,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_cdTime",
 									nTextAlign = "1",
@@ -3669,7 +3669,7 @@ local t =
 									{
 										
 									},
-									width = "36",
+									width = "26",
 									ZOrder = "1",
 								},
 								{
@@ -3682,7 +3682,7 @@ local t =
 									classname = "MELoadingBar",
 									direction = "4",
 									dstBlendFunc = "771",
-									height = "107",
+									height = "2",
 									ignoreSize = "True",
 									name = "LoadingBar_limit",
 									percent = "100",
@@ -3696,7 +3696,7 @@ local t =
 									{
 										
 									},
-									width = "107",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -3876,7 +3876,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_cdTime",
 									nTextAlign = "1",
@@ -3892,7 +3892,7 @@ local t =
 									{
 										
 									},
-									width = "36",
+									width = "26",
 									ZOrder = "1",
 								},
 								{
@@ -3921,7 +3921,7 @@ local t =
 										StrokeColor = "#FFFFFFFF",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Label_times",
 									nTextAlign = "1",
@@ -3937,7 +3937,7 @@ local t =
 									{
 										PositionY = -36,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 							},
@@ -4082,7 +4082,7 @@ local t =
 									{
 										PositionX = 60,
 									},
-									width = "158",
+									width = "159",
 									ZOrder = "1",
 								},
 							},
@@ -4246,14 +4246,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "23",
+							height = "21",
 							ignoreSize = "True",
 							name = "Label_revive_times",
 							nTextAlign = "1",
@@ -4262,7 +4262,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "复活次数：",
+							text = "Revival Chances:",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -4270,7 +4270,7 @@ local t =
 								PositionX = -7,
 								PositionY = -268,
 							},
-							width = "90",
+							width = "123",
 							ZOrder = "1",
 						},
 						{
@@ -4316,7 +4316,7 @@ local t =
 								PositionX = 12,
 								PositionY = -268,
 							},
-							width = "43",
+							width = "50",
 							ZOrder = "1",
 						},
 						{
@@ -4370,14 +4370,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -4386,7 +4386,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "立即复活",
+									text = "Revive Now",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -4394,7 +4394,7 @@ local t =
 										PositionX = 43,
 										PositionY = 2,
 									},
-									width = "99",
+									width = "124",
 									ZOrder = "1",
 								},
 								{
@@ -4584,7 +4584,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "免费",
+											text = "Free",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -4592,7 +4592,7 @@ local t =
 												PositionX = 35,
 												PositionY = 22,
 											},
-											width = "52",
+											width = "46",
 											ZOrder = "1",
 										},
 									},
@@ -4838,7 +4838,7 @@ local t =
 										StrokeColor = "#FF000000",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -4854,7 +4854,7 @@ local t =
 									{
 										PositionY = -45,
 									},
-									width = "65",
+									width = "63",
 									ZOrder = "1",
 								},
 							},
@@ -5047,7 +5047,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_font",
 													nTextAlign = "1",
@@ -5063,7 +5063,7 @@ local t =
 													{
 														
 													},
-													width = "44",
+													width = "43",
 													ZOrder = "1",
 												},
 											},
@@ -5154,7 +5154,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_font",
 													nTextAlign = "1",
@@ -5170,7 +5170,7 @@ local t =
 													{
 														
 													},
-													width = "43",
+													width = "42",
 													ZOrder = "1",
 												},
 											},
@@ -5261,7 +5261,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_font",
 													nTextAlign = "1",
@@ -5277,7 +5277,7 @@ local t =
 													{
 														
 													},
-													width = "44",
+													width = "42",
 													ZOrder = "1",
 												},
 											},
@@ -5368,7 +5368,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_font",
 													nTextAlign = "1",
@@ -5384,7 +5384,7 @@ local t =
 													{
 														
 													},
-													width = "44",
+													width = "43",
 													ZOrder = "1",
 												},
 											},
@@ -5473,7 +5473,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_font",
 													nTextAlign = "1",
@@ -5489,7 +5489,7 @@ local t =
 													{
 														
 													},
-													width = "44",
+													width = "43",
 													ZOrder = "1",
 												},
 											},
@@ -5580,7 +5580,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_font",
 													nTextAlign = "1",
@@ -5596,7 +5596,7 @@ local t =
 													{
 														
 													},
-													width = "43",
+													width = "42",
 													ZOrder = "1",
 												},
 											},
@@ -5688,7 +5688,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_font",
 													nTextAlign = "1",
@@ -5704,7 +5704,7 @@ local t =
 													{
 														
 													},
-													width = "44",
+													width = "42",
 													ZOrder = "1",
 												},
 											},
@@ -5795,7 +5795,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_font",
 													nTextAlign = "1",
@@ -5811,7 +5811,7 @@ local t =
 													{
 														
 													},
-													width = "44",
+													width = "43",
 													ZOrder = "1",
 												},
 											},

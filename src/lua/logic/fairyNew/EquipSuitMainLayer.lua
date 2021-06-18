@@ -277,7 +277,7 @@ function EquipSuitMainLayer:updateChangeAttrs()
     else
         local data = self.equipData[self.bagSelectIdx]
         if data then
-            local addValues = EquipmentDataMgr:getNewEquipCurAttribute(data.cid)
+            local addValues = EquipmentDataMgr:getNewEquipCurAttribute(data.id, data.cid)
             local addhp = addValues[EC_Attr.HP] or 0 
             local addatk = addValues[EC_Attr.ATK] or 0
             local adddef = addValues[EC_Attr.DEF] or 0
@@ -390,7 +390,7 @@ function EquipSuitMainLayer:updatePanelInfo()
     self.Image_title_effect:setVisible(false)
     local euipMent = HeroDataMgr:getNewEquipInfoByPos(self.heroId, self.selectIdx)
     local equipInfo = EquipmentDataMgr:getNewEquipInfoById(euipMent.id)
-    local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.cid)
+    local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.id, euipMent.cid)
     local equipCfg = EquipmentDataMgr:getNewEquipCfg(euipMent.cid)
 
     if not equipInfo then
@@ -438,7 +438,7 @@ function EquipSuitMainLayer:updatePanelInfo()
     else
         equipmentIdNum = euipMent.cid
     end
-    local attrValues = EquipmentDataMgr:getNewEquipCurAttribute(equipmentIdNum)
+    local attrValues = EquipmentDataMgr:getNewEquipCurAttribute(euipMent.id, euipMent.cid)
     self.Label_info_atk_value:setText(attrValues[EC_Attr.ATK] or 0)
     self.Label_info_def_value:setText(attrValues[EC_Attr.DEF] or 0)
     self.Label_info_hp_value:setText(attrValues[EC_Attr.HP] or 0)
@@ -509,7 +509,7 @@ function EquipSuitMainLayer:updateBagItemSelect(idx)
         self.Panel_bag_attr:setVisible(true)
         self.Button_wear:setGrayEnabled(false)
         self.Button_wear:setTouchEnabled(true)
-        local attrValues = EquipmentDataMgr:getNewEquipCurAttribute(data.cid)
+        local attrValues = EquipmentDataMgr:getNewEquipCurAttribute(data.id, data.cid)
         for i,v in ipairs(self.panel_bag_attr) do
             local value = attrValues[i] or 0
             v:setString(attrName[i]..tostring(value))
@@ -704,9 +704,9 @@ function EquipSuitMainLayer:registerEvents()
     self.Button_qianghua:onClick(function()
         local euipMent = HeroDataMgr:getNewEquipInfoByPos(self.heroId, self.selectIdx)
         local equipInfo = EquipmentDataMgr:getNewEquipInfoById(euipMent.id)
-        local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.cid)
+        local acvanceCfg = EquipmentDataMgr:getNewEquipAdvanceCfg(euipMent.id, euipMent.cid)
         local equipCfg = EquipmentDataMgr:getNewEquipCfg(euipMent.cid)
-        if EquipmentDataMgr:checkNewEquipReachMaxLv(euipMent.cid) then
+        if EquipmentDataMgr:checkNewEquipReachMaxLv(equipInfo.id) then
             Utils:showTips(100000045)
             return
         end

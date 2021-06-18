@@ -474,7 +474,6 @@ function GoodsDataMgr:__newEquipmentHandle(sItem)
 
     local item = self.originGoods_[sItem.id]
     self:putInBug(sItem.id, sItem.cid, item)
-
     EquipmentDataMgr:syncServerNewEquip(sItem)
     EventMgr:dispatchEvent(EV_BAG_NEW_EQUIPMENT_UPDATE, oldItem, newItem)
 end
@@ -799,19 +798,20 @@ function GoodsDataMgr:syncHeroNewEquip(data)
     if hero then
         hero.euqipFetterInfo = data.euqipFetterInfo
     end
-    if data.euqipFetterInfo then
-        for _,_info in ipairs(data.euqipFetterInfo) do            
-            local newEquipList = self.bag_[EC_Bag.NEWEQUIP]      
-            for _id,newEquipInfo in pairs(newEquipList) do
-                if _id == _info.newEquipmentInfo.id then
-                    newEquipInfo.heroId = _info.newEquipmentInfo.heroId
-                    newEquipInfo.position = _info.newEquipmentInfo.position
-                    newEquipInfo.level = _info.newEquipmentInfo.level
-                    newEquipInfo.stage = _info.newEquipmentInfo.stage
-                end                                 
-            end        
-        end 
-    end  
+    -- if data.euqipFetterInfo then
+    --     for _,_info in ipairs(data.euqipFetterInfo) do            
+    --         -- local newEquipList = self.bag_[EC_Bag.NEWEQUIP]      
+    --         -- for _id,newEquipInfo in pairs(newEquipList) do
+    --         --     if _id == _info.newEquipmentInfo.id then
+    --         --         newEquipInfo.heroId = _info.newEquipmentInfo.heroId
+    --         --         newEquipInfo.position = _info.newEquipmentInfo.position
+    --         --         newEquipInfo.level = _info.newEquipmentInfo.level
+    --         --         newEquipInfo.stage = _info.newEquipmentInfo.stage
+    --         --     end                                 
+    --         -- end      
+    --         self:__newEquipmentHandle(_info.newEquipmentInfo)  
+    --     end 
+    -- end  
 end
 
 function GoodsDataMgr:resetEquip()

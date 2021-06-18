@@ -165,7 +165,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -182,7 +182,7 @@ local t =
 										PositionX = -353,
 										PositionY = 182,
 									},
-									width = "115",
+									width = "343",
 									ZOrder = "1",
 								},
 								{
@@ -200,7 +200,7 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "328",
+									height = "319",
 									ignoreSize = "False",
 									name = "panel_ScrollView",
 									sizepercentx = "0",
@@ -329,18 +329,21 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "24",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "120",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_first",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											rotation = "90",
+											scaleX = "0.9",
+											scaleY = "0.9",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -352,7 +355,7 @@ local t =
 											{
 												PositionY = -5,
 											},
-											width = "30",
+											width = "200",
 											ZOrder = "1",
 										},
 									},
@@ -435,18 +438,21 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "24",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "120",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_kill",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											rotation = "90",
+											scaleX = "0.9",
+											scaleY = "0.9",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -458,7 +464,7 @@ local t =
 											{
 												
 											},
-											width = "30",
+											width = "200",
 											ZOrder = "1",
 										},
 									},
@@ -489,8 +495,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "label_tip",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -504,9 +510,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 22,
-										PositionY = 147,
+										PositionY = 142,
 									},
-									width = "283",
+									width = "664",
 									ZOrder = "1",
 								},
 								{
@@ -594,23 +600,24 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "120",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_kill",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											rotation = "90",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "伤害奖励",
+											text = "Damage reward",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "30",
+											width = "120",
 											ZOrder = "1",
 										},
 									},
@@ -799,7 +806,7 @@ local t =
 													{
 														
 													},
-													width = "47",
+													width = "90",
 													ZOrder = "1",
 												},
 											},
@@ -846,7 +853,7 @@ local t =
 											{
 												PositionX = 258,
 											},
-											width = "69",
+											width = "82",
 											ZOrder = "1",
 										},
 										{
@@ -891,7 +898,7 @@ local t =
 											{
 												PositionX = 258,
 											},
-											width = "69",
+											width = "104",
 											ZOrder = "1",
 										},
 										{
@@ -975,7 +982,7 @@ local t =
 												PositionX = -308,
 												PositionY = 37,
 											},
-											width = "43",
+											width = "119",
 											ZOrder = "1",
 										},
 										{
@@ -1021,7 +1028,7 @@ local t =
 												PositionX = -308,
 												PositionY = -18,
 											},
-											width = "103",
+											width = "112",
 											ZOrder = "1",
 										},
 										{

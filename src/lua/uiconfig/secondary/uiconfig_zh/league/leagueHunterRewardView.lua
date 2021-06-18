@@ -165,7 +165,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -506,7 +506,7 @@ local t =
 										PositionX = 22,
 										PositionY = 147,
 									},
-									width = "283",
+									width = "123",
 									ZOrder = "1",
 								},
 								{
@@ -603,7 +603,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "伤害奖励",
+											text = "傷害獎勵",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -975,7 +975,7 @@ local t =
 												PositionX = -308,
 												PositionY = 37,
 											},
-											width = "43",
+											width = "42",
 											ZOrder = "1",
 										},
 										{
@@ -1021,7 +1021,7 @@ local t =
 												PositionX = -308,
 												PositionY = -18,
 											},
-											width = "103",
+											width = "106",
 											ZOrder = "1",
 										},
 										{

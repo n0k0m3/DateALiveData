@@ -110,8 +110,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionY = 639,
-								relativeToName = "Panel",
+								PositionY = 640,
 							},
 							uipanelviewmodel = 
 							{
@@ -165,7 +164,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = true,
@@ -180,16 +179,16 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Nama Interface",
+									text = "UI-Name",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 284,
-										PositionY = -27,
+										PositionX = 280,
+										PositionY = -33,
 									},
 									vAlignment = "1",
-									width = "240",
+									width = "225",
 									ZOrder = "1",
 								},
 								{

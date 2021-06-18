@@ -3052,7 +3052,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1017,
+								PositionX = 898,
 								PositionY = 506,
 							},
 							uipanelviewmodel = 
@@ -3061,7 +3061,7 @@ local t =
 								nType = "0"
 							},
 							visible = "False",
-							width = "100",
+							width = "199",
 							ZOrder = "1",
 							components = 
 							{
@@ -3072,11 +3072,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "36",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_auto_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -3086,13 +3086,13 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 50,
+										PositionX = 100,
 										PositionY = 18,
 										IsPercent = true,
 										PercentX = 50,
 										PercentY = 50,
 									},
-									width = "96",
+									width = "166",
 									ZOrder = "1",
 									components = 
 									{
@@ -3103,11 +3103,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "34",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_on",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -3117,9 +3117,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -22,
+												PositionX = -40,
+												PositionY = 1,
 											},
-											width = "50",
+											width = "83",
 											ZOrder = "1",
 										},
 										{
@@ -3162,7 +3163,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -22,
+												PositionX = -47,
 											},
 											width = "54",
 											ZOrder = "1",
@@ -3207,7 +3208,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 22,
+												PositionX = 38,
 											},
 											width = "78",
 											ZOrder = "1",
@@ -3254,7 +3255,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 50,
+										PositionX = 100,
 										PositionY = 51,
 										IsPercent = true,
 										PercentX = 50,

@@ -12370,14 +12370,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "125",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_Hunting_desc",
 											nTextAlign = "0",
@@ -12391,7 +12391,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -1,
+												PositionY = -2,
 											},
 											width = "389",
 											ZOrder = "1",
@@ -12693,14 +12693,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "125",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_Hunting_contribute",
 											nTextAlign = "0",

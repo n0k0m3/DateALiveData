@@ -1001,11 +1001,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "38",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_summonPreviewView_1",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1017,7 +1017,7 @@ local t =
 									{
 										
 									},
-									width = "676",
+									width = "731",
 									ZOrder = "1",
 								},
 								{
@@ -1350,7 +1350,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1560,7 +1560,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,

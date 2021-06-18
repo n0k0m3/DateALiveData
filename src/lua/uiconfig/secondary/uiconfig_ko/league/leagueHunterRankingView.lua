@@ -433,7 +433,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "伤害占比",
+													text = "명예 수치",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -441,7 +441,7 @@ local t =
 														PositionX = 462,
 														PositionY = 41,
 													},
-													width = "75",
+													width = "71",
 													ZOrder = "1",
 												},
 												{

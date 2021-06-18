@@ -1336,7 +1336,16 @@ function BFEffect:getTakeTarget(data)
             end
             return {}
         elseif effectTarget == eBFTargetType.TT_ENEMY  then --敌人
-            return self.provideObj:getAreaEnemys(-1)
+            local targerts = self.provideObj:getAreaEnemys(-1)
+            if data.targetID == 0 then
+                return targerts
+            end
+            for i,v in ipairs(targerts) do
+                if v:getData().id == data.targetID then 
+                    return {v}
+                end
+            end
+            return {}
         elseif effectTarget == eBFTargetType.TT_FRIENT_TEAM  then --队友包涵自己
             return self.provideObj:getAreaFrineds(-1,nil,true)
         elseif effectTarget == eBFTargetType.TT_FRIENT_HERO then --友方 角色 
@@ -1367,6 +1376,17 @@ end
 function BFEffect:_triggerNewEffects(effectId)
     local data  = TabDataMgr:getData("BufferEffect",effectId)
     local takeObjs = self:getTakeTarget(data)
+    if data.untargetID and #data.untargetID > 0 then
+        for i=#takeObjs,1,-1  do
+            local hero = takeObjs[i]
+            for j,ID in ipairs(data.untargetID) do
+                if ID == hero:getData().id then
+                    table.remove(takeObjs,i)
+                    break
+                end
+            end
+        end
+    end
     for i, takeObj in ipairs(takeObjs) do
         if not data.effectPosition then  --false 时必须出战才能生效
             if not takeObj:isFight() then
