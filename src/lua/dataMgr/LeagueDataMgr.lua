@@ -723,7 +723,7 @@ function LeagueDataMgr:getNotifyDataBySortDate()
     local monthFlag = -1
     local dayFlag = 1
     for i,v in ipairs(self.notifys_) do
-        local year, month, day = Utils:getDate(math.floor(v.creatTime / 1000), false)
+        local year, month, day = Utils:getUTCDateYMD(math.floor(v.creatTime / 1000), false , GV_UTC_TIME_ZONE)
         if monthFlag == month and dayFlag == day then
             table.insert(sortData, v)
         else

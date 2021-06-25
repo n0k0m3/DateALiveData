@@ -6741,8 +6741,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "28",
-											ignoreSize = "True",
+											height = "40",
+											ignoreSize = "False",
 											name = "Image_common_victory",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -6801,6 +6801,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -80,
+														PositionY = 8,
 														RightPosition = -200,
 														TopPosition = -23,
 														relativeToName = "Panel_victory",
@@ -6850,7 +6851,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 106,
+														PositionX = -75,
+														PositionY = -7,
 														RightPosition = -200,
 														TopPosition = -23,
 														relativeToName = "Panel_victory",
@@ -17775,11 +17777,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "86",
-							ignoreSize = "True",
+							height = "108",
+							ignoreSize = "False",
 							name = "Image_changedungeon",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -17823,8 +17825,8 @@ local t =
 										StrokeColor = "#FF2187E5",
 										StrokeSize = 1,
 									},
-									height = "41",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_fallow",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -17837,9 +17839,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionY = 2,
 									},
-									width = "697",
+									width = "489",
 									ZOrder = "1",
 								},
 							},

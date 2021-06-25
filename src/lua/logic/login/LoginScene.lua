@@ -94,8 +94,8 @@ function LoginScene:showVideoViewMiniServer( re )
 		videoPth2 = "video/loginPart5.mp4"
 	else
 		delayTime = 2
-		videoPth1 = "video/loginPart1.mp4"
-		videoPth2 = "video/loginPart2.mp4"
+		videoPth1 = "video/login_fanzhuanzhezhi.mp4"
+		videoPth2 = "video/login_fanzhuanzhezhi2.mp4"
 	end
 	
 
@@ -216,8 +216,8 @@ function LoginScene:showVideoViewKoreaTwServer( re )
 		videoPth1 = "video/loginPart4.mp4"
 		videoPth2 = "video/loginPart5.mp4"
 	else
-		videoPth1 = "video/loginPart1.mp4"
-		videoPth2 = "video/loginPart2.mp4"
+		videoPth1 = "video/login_fanzhuanzhezhi.mp4"
+		videoPth2 = "video/login_fanzhuanzhezhi2.mp4"
 	end
 	
 

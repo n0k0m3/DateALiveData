@@ -971,14 +971,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label",
 											nTextAlign = "1",
@@ -994,7 +994,7 @@ local t =
 											{
 												
 											},
-											width = "133",
+											width = "108",
 											ZOrder = "1",
 										},
 									},

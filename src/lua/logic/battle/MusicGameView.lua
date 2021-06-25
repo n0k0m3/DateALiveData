@@ -83,7 +83,9 @@ end
 
 function MusicGameView:checkWarning()
     if self.levelCfg_.warningTime then
-        BattleUtils.playEffect(BattleConfig.BOSS_WARNING ,false,1)
+        TimeOut(function()
+            BattleUtils.playEffect(BattleConfig.BOSS_WARNING ,false,1)
+        end,1)
         EventMgr:dispatchEvent(eEvent.EVENT_BOSS_WARNING, function ()
                 self:checkGame()
             end)

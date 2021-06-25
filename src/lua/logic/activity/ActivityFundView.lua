@@ -157,7 +157,8 @@ function ActivityFundView:updateActivity()
     local _endyear, _endmonth, _endday = Utils:getDate(self.activityInfo_.showEndTime, true)
     if self.activityInfo_.extendData.activityShowType and self.activityInfo_.extendData.activityShowType == 6 then
         self.label_time:setSkewX(10)
-        self.label_time:setText(_startmonth .. "." .. _startday .. "             " .. _endmonth .. "." .. _endday)
+        --self.label_time:setText(_startmonth .. "." .. _startday .. "             " .. _endmonth .. "." .. _endday)  --时间改为utc-7
+        self.label_time:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle))
     else
         self.label_time:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle))
     end

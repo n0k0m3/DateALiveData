@@ -43,7 +43,7 @@ local t =
 				
 				{
 					controlID = "Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-					UUID = "c6d6f84e_3185_467c_8fdd_5212416db116",
+					UUID = "25cd91f7_46da_40ed_88a4_cf58fc8c70d9",
 					anchorPoint = "False",
 					anchorPointX = "0.5",
 					anchorPointY = "0.5",
@@ -83,7 +83,7 @@ local t =
 						
 						{
 							controlID = "Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-							UUID = "57337381_f16c_4d55_9b27_97a4029e9ce7",
+							UUID = "f78a4074_6ec3_4c53_87c1_a5b56780b93a",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
@@ -110,7 +110,7 @@ local t =
 								
 								{
 									controlID = "Image_days_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "ba33c4da_8b3b_4d16_8266_23f7e7aa6731",
+									UUID = "a5648ad2_9079_4a43_a971_63f1704acc1a",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -137,7 +137,7 @@ local t =
 								},
 								{
 									controlID = "Button_last_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "ecbf58ab_8cf0_4f92_9727_874ee1e4afb1",
+									UUID = "949bc4ba_a5f3_452c_9930_6ae08ccd11f5",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -171,7 +171,7 @@ local t =
 										
 										{
 											controlID = "Label_welfareSignView_1_Button_last_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-											UUID = "4e7e96a5_fae3_4d9a_94a2_0faaba5657bd",
+											UUID = "d03b5275_9768_49f1_b57e_691d515166b8",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -204,7 +204,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Last 7 Days",
+											text = "上一个7天",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -218,7 +218,7 @@ local t =
 								},
 								{
 									controlID = "Button_next_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "6dca9ae4_39bd_4e0f_890e_abc8c6709cb3",
+									UUID = "f7467d7b_7b8c_41f5_8c39_0e7b5ae10eaf",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -252,7 +252,7 @@ local t =
 										
 										{
 											controlID = "Label_welfareSignView_1_Button_next_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-											UUID = "82eb5116_3399_4ec2_8bdd_c8d7a2de3d46",
+											UUID = "e498a070_7d2d_41ae_921e_442da0234477",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -285,7 +285,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Next 7 Days",
+											text = "下一个7天",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -300,7 +300,7 @@ local t =
 								},
 								{
 									controlID = "Label_desc_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "efa07cb8_0ce5_4438_8326_21d66e9fe451",
+									UUID = "7199711f_dd4f_4e17_a553_b95120ac3185",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -348,7 +348,7 @@ local t =
 								},
 								{
 									controlID = "Panel_page_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "e0718ab6_f921_42f2_8003_89d552fb945c",
+									UUID = "fe4941eb_3a07_453b_b0ae_78174f4af824",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -385,7 +385,7 @@ local t =
 										
 										{
 											controlID = "Image_node3_Panel_page_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-											UUID = "13b747da_eb1c_41db_b88c_7e2eb3b16c07",
+											UUID = "9af75975_7df8_40cd_ae4f_6872c1eccbc4",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -410,7 +410,7 @@ local t =
 										},
 										{
 											controlID = "Image_node4_Panel_page_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-											UUID = "f59dce3c_6565_462a_bb89_2217327f4b06",
+											UUID = "2b8ce372_dc2e_488b_b9f7_e41299d1e3d8",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -435,7 +435,7 @@ local t =
 										},
 										{
 											controlID = "Image_node6_Panel_page_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-											UUID = "a73e8669_774b_4be9_bf5a_354b7df65333",
+											UUID = "6dbe63d1_1e09_42cb_8985_020bbf700a1a",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -460,7 +460,7 @@ local t =
 										},
 										{
 											controlID = "Image_node7_Panel_page_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-											UUID = "f7332c91_f883_4436_a97d_6b0e8583aa29",
+											UUID = "9c27dd12_32cf_4844_8c3b_b7e47bc4098e",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -485,7 +485,7 @@ local t =
 										},
 										{
 											controlID = "Image_node5_Panel_page_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-											UUID = "fdc12036_2698_4334_b327_e73c0c00c41b",
+											UUID = "7ac28db8_8b6b_4e0b_a50f_b537bbed5d5d",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -510,7 +510,7 @@ local t =
 										},
 										{
 											controlID = "Image_node1_Panel_page_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-											UUID = "a8830ecf_8611_4a83_8177_efa73cee9563",
+											UUID = "18daf77c_2b07_40e2_a39c_6a4f48cb7eba",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -538,7 +538,7 @@ local t =
 										},
 										{
 											controlID = "Image_node2_Panel_page_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-											UUID = "93a78697_180a_46e8_ab22_ece7753bba52",
+											UUID = "6a54e63a_7785_41dd_834e_b9b09a971974",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -565,7 +565,7 @@ local t =
 								},
 								{
 									controlID = "Label_time_tip_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "d0582f8d_2e1d_47a0_88bd_e967b0569461",
+									UUID = "c747859b_f060_4a73_92c8_b09d5c872c2e",
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "1",
@@ -612,7 +612,7 @@ local t =
 								},
 								{
 									controlID = "Label_time_end_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "23fe3553_1950_41f3_a2cf_c94369148323",
+									UUID = "0e5cce97_78cb_42fe_8ee8_78363236eb8e",
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "1",
@@ -659,7 +659,7 @@ local t =
 								},
 								{
 									controlID = "Label_time_begin_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "6c8fbb9e_a494_4c7c_bc65_ac681a5752ed",
+									UUID = "7c3fb3c1_0dcd_47e9_89c2_d5d56f01c606",
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "1",
@@ -706,7 +706,7 @@ local t =
 								},
 								{
 									controlID = "ScrollView_item_Image_bg_Panel_root_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "1b87445c_f88f_4c37_9494_a5961e8fc611",
+									UUID = "59d919fe_9d87_4e81_beaf_ba51ca534031",
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "0",
@@ -748,7 +748,7 @@ local t =
 				},
 				{
 					controlID = "Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-					UUID = "52e1ab93_30fe_4356_8149_2619dc242406",
+					UUID = "97ec1eaf_857c_410a_a103_55f2feb94d60",
 					anchorPoint = "False",
 					anchorPointX = "0.5",
 					anchorPointY = "0.5",
@@ -790,7 +790,7 @@ local t =
 						
 						{
 							controlID = "Panel_sevenItem_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-							UUID = "88bb0bd8_779a_41d9_9e9e_40baf7be465e",
+							UUID = "51fdb1f1_5b17_46a1_996b_caf8509269c8",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
@@ -828,7 +828,7 @@ local t =
 								
 								{
 									controlID = "Image_border_Panel_sevenItem_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "0bc52a5e_25a0_4f7a_a0af_736fd3914441",
+									UUID = "dd2dc840_e93e_4e72_9ac7_24f8784ccc20",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -853,7 +853,7 @@ local t =
 								},
 								{
 									controlID = "Image_getted1_Panel_sevenItem_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "3064f8ef_2919_4436_86e5_be39c03ee1cd",
+									UUID = "7d23f1bc_6a32_49c7_9a01_7d0572bf3cb7",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -878,7 +878,7 @@ local t =
 								},
 								{
 									controlID = "Panel_reward_Panel_sevenItem_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "b21a48fb_5e28_4b69_85a1_6c20fedc25bd",
+									UUID = "390620f5_171b_45db_a563_434da016bf17",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -915,7 +915,7 @@ local t =
 										
 										{
 											controlID = "image_icon_Panel_reward_Panel_sevenItem_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-											UUID = "4cbdcacd_8ceb_4adc_bdf0_6a3991fa1dbb",
+											UUID = "226523c0_d6bc_42b4_a86a_ee89b7115879",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -946,7 +946,7 @@ local t =
 												
 												{
 													controlID = "label_num_image_icon_Panel_reward_Panel_sevenItem_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-													UUID = "8c21ecf6_aa4a_42ee_b1cb_4fd513d7aae9",
+													UUID = "d1809049_0e90_4756_8077_62762f121ca3",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -998,7 +998,7 @@ local t =
 								},
 								{
 									controlID = "Label_day_Panel_sevenItem_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "1153ca8d_9cd6_4619_b17d_3933c7721df1",
+									UUID = "71acae5a_02d7_4725_8596_20786bf63c78",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -1046,7 +1046,7 @@ local t =
 								},
 								{
 									controlID = "Image_getted-Copy2_Panel_sevenItem_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "ab2341dd_d2e6_4867_bd1f_ebe2830ab7ea",
+									UUID = "0a626b9a_e4b0_4507_98ef_bb23f77acf5b",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -1073,7 +1073,7 @@ local t =
 										
 										{
 											controlID = "label_getted_Image_getted-Copy2_Panel_sevenItem_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-											UUID = "cd94fc83_f09f_4f33_aa7d_5bd1f0edfacd",
+											UUID = "df971f83_8eed_4c05_a9c0_227bb39e3dc0",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -1106,7 +1106,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "已领取",
+											text = "Claimed",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1115,7 +1115,7 @@ local t =
 												TopPosition = 133,
 												relativeToName = "Panel",
 											},
-											width = "63",
+											width = "67",
 											ZOrder = "1",
 										},
 									},
@@ -1124,7 +1124,7 @@ local t =
 						},
 						{
 							controlID = "Panel_sevenItem1_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-							UUID = "7a01adee_05ca_4dbf_8e1b_b1f36ab2a64f",
+							UUID = "a8649fce_aaa4_4061_a196_af193809d222",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
@@ -1162,7 +1162,7 @@ local t =
 								
 								{
 									controlID = "Image_border_Panel_sevenItem1_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "9a842b9b_121e_4e61_b453_39bcea9e4a58",
+									UUID = "c82f2595_8640_46b1_bc3f_a2138dcee4e3",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -1182,13 +1182,12 @@ local t =
 									{
 										PositionY = -11,
 									},
-									visible = "False",
 									width = "110",
 									ZOrder = "1",
 								},
 								{
 									controlID = "label_num_Panel_sevenItem1_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "bdce0af8_fb28_4096_afa3_969ef7702d54",
+									UUID = "1b9199ba_70cb_42c6_bc24_dcc2715174da",
 									anchorPoint = "False",
 									anchorPointX = "1",
 									anchorPointY = "0.5",
@@ -1237,7 +1236,7 @@ local t =
 								},
 								{
 									controlID = "image_icon_Panel_sevenItem1_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "bb5e0129_e93b_4662_9af9_56ab1eb32d73",
+									UUID = "5b9209e1_160f_456d_9855_1c26682d4af3",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -1267,7 +1266,7 @@ local t =
 								},
 								{
 									controlID = "Panel_reward_Panel_sevenItem1_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "c9c8cc06_0b51_456b_9677_ed1a10310d37",
+									UUID = "0eae7575_4f68_4335_b79f_2c2fd1079848",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -1305,7 +1304,7 @@ local t =
 										
 										{
 											controlID = "Spine_welfareSignView_1_Panel_reward_Panel_sevenItem1_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-											UUID = "4da667ec_d766_4643_a109_23efc57ad712",
+											UUID = "e7610ee0_3012_460f_9ef6_7c1f3dc31d63",
 											classname = "MESpine",
 											dstBlendFunc = "771",
 											name = "Spine_welfareSignView_1",
@@ -1314,8 +1313,8 @@ local t =
 											sizeType = "0",
 											spineModel = 
 											{
-												SpinePath = "ui/activity/activityStyle/wefareSignActivity/style2/dengluqiandao/skeleton",
-												animationName = "01",
+												SpinePath = "effect/effect_denglvlb/effect_denglvlb",
+												animationName = "animation",
 												IsLoop = true,
 												IsPlay = true,
 												IsUseQueue = false,
@@ -1328,7 +1327,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 1,
+												PositionX = 10,
+												PositionY = 8,
 											},
 											ZOrder = "1",
 										},
@@ -1336,7 +1336,7 @@ local t =
 								},
 								{
 									controlID = "Label_day_Panel_sevenItem1_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "e5760cd7_635c_4e0c_8a43_7493fcfdaef0",
+									UUID = "8b92332e_faad_475a_99be_d0a56b6cba43",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -1381,7 +1381,7 @@ local t =
 								},
 								{
 									controlID = "label_getted_Panel_sevenItem1_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "c5c5d5cf_8d09_4bae_bb00_e88e2c9981c6",
+									UUID = "e6c7d80e_afd6_4385_b807_be3b0868fe3a",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -1429,7 +1429,7 @@ local t =
 								},
 								{
 									controlID = "Image_getted_Panel_sevenItem1_Panel_prefab_Panel-welfareSignView_welfareSignView_activity_Game",
-									UUID = "435e5ec4_c35a_479a_9391_253d1a8942f6",
+									UUID = "f89fa4a6_1397_4c99_aee4_a6febe7208c2",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",

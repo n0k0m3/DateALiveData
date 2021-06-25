@@ -30,6 +30,10 @@ function ServerChoose:initUI(ui)
         self.Button_serverListItem:setTextureNormal("ui/login/new1/b7.png")
         self.Button_serverListItem:setTexturePressed("ui/login/new1/b7.png")
     end
+    if TFGlobalUtils:isConnectEnServer() then
+        self.Button_serverListItem:setTextureNormal("ui/login/7.png")
+        self.Button_serverListItem:setTexturePressed("ui/login/7.png")
+    end
 
     self:refreshView()
 end

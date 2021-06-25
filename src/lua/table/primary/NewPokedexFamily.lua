@@ -60,7 +60,7 @@ return {
         },
     },
     [6] = {
-        show = 0,
+        show = 1,
         heroSkinId = 1102091,
         sort = 4,
         id = 6,
@@ -72,7 +72,7 @@ return {
         },
     },
     [7] = {
-        show = 0,
+        show = 1,
         heroSkinId = 1102101,
         sort = 3,
         id = 7,

@@ -1084,7 +1084,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "28",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1100,7 +1100,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "TextLable",
+											text = "Switch",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 

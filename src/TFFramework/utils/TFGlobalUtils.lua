@@ -305,6 +305,23 @@ function TFGlobalUtils:getMigrationServerId( isCache )
 	return false, defaultValue
 end
 
+function TFGlobalUtils:getMigrationServerIdByGameServerId( serverId )
+	-- body
+	if serverId == GLOBAL_SERVER_LIST.SERVER_KOREA_TW then
+		if NEW_APP_VERSION then
+			if TFLanguageMgr:getCurrentLanguage() == cc.KOREAN then
+				return MIGRATION_SERVER_LIST.Korea
+			elseif TFLanguageMgr:getCurrentLanguage() == cc.TRADITIONAL_CHINESE then
+				return MIGRATION_SERVER_LIST.Taiwan
+			end
+		end
+		return MIGRATION_SERVER_LIST.Korea
+	end
+
+	return MIGRATION_SERVER_LIST.Other
+end
+
+
 function TFGlobalUtils:getMigrationServerToGameServer( isCache )
 	local _exitCacheValue, sdkServer = self:getMigrationServerId( isCache )
 	if (sdkServer == MIGRATION_SERVER_LIST.Korea) or (sdkServer == MIGRATION_SERVER_LIST.Taiwan) then

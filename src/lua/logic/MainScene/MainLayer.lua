@@ -3598,8 +3598,12 @@ function MainLayer:updateOneYearBtns()
                     self.button_Caociyuan:setPosition(activityPos_right:getPosition())
                 end
 
+                --TODO CLOSE(反折修改)
+                -- if self.Button_activity2 and #threeActivity <= 1 then
+                --     self.Button_activity2:setPosition(activityPos_right:getPosition())
+                -- end
                 if self.Button_activity2 and #threeActivity <= 1 then
-                    self.Button_activity2:setPosition(activityPos_right:getPosition())
+                    self.Button_activity2:setPosition(self.dateBtn:getPositionX() - 150, self.dateBtn:getPositionY() + 50)
                 end
             else
                 if self.Button_Activity6 and #threeActivity <= 1 then  --TODO close 由多个活动入口控制
@@ -3610,8 +3614,12 @@ function MainLayer:updateOneYearBtns()
                     self.button_Caociyuan:setPosition(activityPos_mid:getPosition())
                 end
 
+                 --TODO CLOSE(反折修改)
+                -- if self.Button_activity2 and #threeActivity <= 1 then
+                --     self.Button_activity2:setPosition(activityPos_right:getPosition())
+                -- end
                 if self.Button_activity2 and #threeActivity <= 1 then
-                    self.Button_activity2:setPosition(activityPos_mid:getPosition())
+                    self.Button_activity2:setPosition(self.dateBtn:getPositionX() - 150, self.dateBtn:getPositionY() + 50)
                 end
             end
         end 

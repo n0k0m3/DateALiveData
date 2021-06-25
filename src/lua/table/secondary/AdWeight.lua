@@ -118,7 +118,7 @@ return {
         showType = 1,
         res = "ui/update/s56.png",
         id = 12,
-        probability = 2000,
+        probability = 0,
     },
     [13] = {
         endTime = 1584547200,
@@ -151,7 +151,7 @@ return {
         showType = 1,
         res = "ui/update/s55.png",
         id = 15,
-        probability = 2000,
+        probability = 0,
     },
     [16] = {
         endTime = 1608101999,
@@ -417,7 +417,7 @@ return {
         showType = 2,
         res = "ui/update/s56.png",
         id = 37,
-        probability = 2000,
+        probability = 0,
     },
     [38] = {
         endTime = 1584547200,
@@ -456,7 +456,7 @@ return {
         showType = 2,
         res = "ui/update/s55.png",
         id = 40,
-        probability = 2000,
+        probability = 0,
     },
     [41] = {
         endTime = 1608101999,
@@ -742,7 +742,7 @@ return {
         showType = 3,
         res = "ui/update/s56.png",
         id = 62,
-        probability = 2000,
+        probability = 0,
     },
     [63] = {
         endTime = 1584547200,
@@ -781,7 +781,7 @@ return {
         showType = 3,
         res = "ui/update/s55.png",
         id = 65,
-        probability = 2000,
+        probability = 0,
     },
     [66] = {
         endTime = 1608101999,
@@ -1067,7 +1067,7 @@ return {
         showType = 31,
         res = "ui/update/s56.png",
         id = 87,
-        probability = 2000,
+        probability = 0,
     },
     [88] = {
         endTime = 1584547200,
@@ -1106,7 +1106,7 @@ return {
         showType = 31,
         res = "ui/update/s55.png",
         id = 90,
-        probability = 2000,
+        probability = 0,
     },
     [91] = {
         endTime = 1608101999,
@@ -1392,7 +1392,7 @@ return {
         showType = 32,
         res = "ui/update/s56.png",
         id = 112,
-        probability = 2000,
+        probability = 0,
     },
     [113] = {
         endTime = 1584547200,
@@ -1431,7 +1431,7 @@ return {
         showType = 32,
         res = "ui/update/s55.png",
         id = 115,
-        probability = 2000,
+        probability = 0,
     },
     [116] = {
         endTime = 1608101999,
@@ -1717,7 +1717,7 @@ return {
         showType = 33,
         res = "ui/update/s56.png",
         id = 137,
-        probability = 2000,
+        probability = 0,
     },
     [138] = {
         endTime = 1584547200,
@@ -1756,7 +1756,7 @@ return {
         showType = 33,
         res = "ui/update/s55.png",
         id = 140,
-        probability = 2000,
+        probability = 0,
     },
     [141] = {
         endTime = 1608101999,
@@ -2042,7 +2042,7 @@ return {
         showType = 34,
         res = "ui/update/s56.png",
         id = 162,
-        probability = 2000,
+        probability = 0,
     },
     [163] = {
         endTime = 1584547200,
@@ -2081,7 +2081,7 @@ return {
         showType = 34,
         res = "ui/update/s55.png",
         id = 165,
-        probability = 2000,
+        probability = 0,
     },
     [166] = {
         endTime = 1608101999,
@@ -2367,7 +2367,7 @@ return {
         showType = 35,
         res = "ui/update/s56.png",
         id = 187,
-        probability = 2000,
+        probability = 0,
     },
     [188] = {
         endTime = 1584547200,
@@ -2406,7 +2406,7 @@ return {
         showType = 35,
         res = "ui/update/s55.png",
         id = 190,
-        probability = 2000,
+        probability = 0,
     },
     [191] = {
         endTime = 1608101999,
@@ -2692,7 +2692,7 @@ return {
         showType = 36,
         res = "ui/update/s56.png",
         id = 212,
-        probability = 2000,
+        probability = 0,
     },
     [213] = {
         endTime = 1584547200,
@@ -2731,7 +2731,7 @@ return {
         showType = 36,
         res = "ui/update/s55.png",
         id = 215,
-        probability = 2000,
+        probability = 0,
     },
     [216] = {
         endTime = 1608101999,
@@ -3017,7 +3017,7 @@ return {
         showType = 37,
         res = "ui/update/s56.png",
         id = 237,
-        probability = 2000,
+        probability = 0,
     },
     [238] = {
         endTime = 1584547200,
@@ -3056,7 +3056,7 @@ return {
         showType = 37,
         res = "ui/update/s55.png",
         id = 240,
-        probability = 2000,
+        probability = 0,
     },
     [241] = {
         endTime = 1608101999,
@@ -3342,7 +3342,7 @@ return {
         showType = 38,
         res = "ui/update/s56.png",
         id = 262,
-        probability = 2000,
+        probability = 0,
     },
     [263] = {
         endTime = 1584547200,
@@ -3381,7 +3381,7 @@ return {
         showType = 38,
         res = "ui/update/s55.png",
         id = 265,
-        probability = 2000,
+        probability = 0,
     },
     [266] = {
         endTime = 1608101999,
@@ -3667,7 +3667,7 @@ return {
         showType = 39,
         res = "ui/update/s56.png",
         id = 287,
-        probability = 2000,
+        probability = 0,
     },
     [288] = {
         endTime = 1584547200,
@@ -3706,7 +3706,7 @@ return {
         showType = 39,
         res = "ui/update/s55.png",
         id = 290,
-        probability = 2000,
+        probability = 0,
     },
     [291] = {
         endTime = 1608101999,
@@ -3992,7 +3992,7 @@ return {
         showType = 40,
         res = "ui/update/s56.png",
         id = 312,
-        probability = 2000,
+        probability = 0,
     },
     [313] = {
         endTime = 1584547200,
@@ -4031,7 +4031,7 @@ return {
         showType = 40,
         res = "ui/update/s55.png",
         id = 315,
-        probability = 2000,
+        probability = 0,
     },
     [316] = {
         endTime = 1608101999,
@@ -4317,7 +4317,7 @@ return {
         showType = 41,
         res = "ui/update/s56.png",
         id = 337,
-        probability = 2000,
+        probability = 0,
     },
     [338] = {
         endTime = 1584547200,
@@ -4356,7 +4356,7 @@ return {
         showType = 41,
         res = "ui/update/s55.png",
         id = 340,
-        probability = 2000,
+        probability = 0,
     },
     [341] = {
         endTime = 1608101999,
@@ -4642,7 +4642,7 @@ return {
         showType = 101,
         res = "ui/update/s56.png",
         id = 362,
-        probability = 2000,
+        probability = 0,
     },
     [363] = {
         endTime = 1584547200,
@@ -4681,7 +4681,7 @@ return {
         showType = 101,
         res = "ui/update/s55.png",
         id = 365,
-        probability = 2000,
+        probability = 0,
     },
     [366] = {
         endTime = 1608101999,
@@ -4967,7 +4967,7 @@ return {
         showType = 102,
         res = "ui/update/s56.png",
         id = 387,
-        probability = 2000,
+        probability = 0,
     },
     [388] = {
         endTime = 1584547200,
@@ -5006,7 +5006,7 @@ return {
         showType = 102,
         res = "ui/update/s55.png",
         id = 390,
-        probability = 2000,
+        probability = 0,
     },
     [391] = {
         endTime = 1608101999,
@@ -5292,7 +5292,7 @@ return {
         showType = 103,
         res = "ui/update/s56.png",
         id = 412,
-        probability = 2000,
+        probability = 0,
     },
     [413] = {
         endTime = 1584547200,
@@ -5331,7 +5331,7 @@ return {
         showType = 103,
         res = "ui/update/s55.png",
         id = 415,
-        probability = 2000,
+        probability = 0,
     },
     [416] = {
         endTime = 1608101999,
@@ -5617,7 +5617,7 @@ return {
         showType = 104,
         res = "ui/update/s56.png",
         id = 437,
-        probability = 2000,
+        probability = 0,
     },
     [438] = {
         endTime = 1584547200,
@@ -5656,7 +5656,7 @@ return {
         showType = 104,
         res = "ui/update/s55.png",
         id = 440,
-        probability = 2000,
+        probability = 0,
     },
     [441] = {
         endTime = 1608101999,
@@ -5942,7 +5942,7 @@ return {
         showType = 105,
         res = "ui/update/s56.png",
         id = 462,
-        probability = 2000,
+        probability = 0,
     },
     [463] = {
         endTime = 1584547200,
@@ -5981,7 +5981,7 @@ return {
         showType = 105,
         res = "ui/update/s55.png",
         id = 465,
-        probability = 2000,
+        probability = 0,
     },
     [466] = {
         endTime = 1608101999,
@@ -6267,7 +6267,7 @@ return {
         showType = 110,
         res = "ui/update/s56.png",
         id = 487,
-        probability = 2000,
+        probability = 0,
     },
     [488] = {
         endTime = 1584547200,
@@ -6306,7 +6306,7 @@ return {
         showType = 110,
         res = "ui/update/s55.png",
         id = 490,
-        probability = 2000,
+        probability = 0,
     },
     [491] = {
         endTime = 1608101999,
@@ -6592,7 +6592,7 @@ return {
         showType = 112,
         res = "ui/update/s56.png",
         id = 512,
-        probability = 2000,
+        probability = 0,
     },
     [513] = {
         endTime = 1584547200,
@@ -6631,7 +6631,7 @@ return {
         showType = 112,
         res = "ui/update/s55.png",
         id = 515,
-        probability = 2000,
+        probability = 0,
     },
     [516] = {
         endTime = 1608101999,
@@ -6917,7 +6917,7 @@ return {
         showType = 113,
         res = "ui/update/s56.png",
         id = 537,
-        probability = 2000,
+        probability = 0,
     },
     [538] = {
         endTime = 1584547200,
@@ -6956,7 +6956,7 @@ return {
         showType = 113,
         res = "ui/update/s55.png",
         id = 540,
-        probability = 2000,
+        probability = 0,
     },
     [541] = {
         endTime = 1608101999,

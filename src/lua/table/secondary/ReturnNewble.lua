@@ -667,7 +667,7 @@ return {
         weight = 3,
         status = 2,
         titleIcon = "ui/activity/picture/btn_9n.png",
-        details = "{\"beginTime\":\"2020-9-23 00:01:00\",\"endTime\":\"2020-10-13 23:59:59\",\"des1\":\"\",\"des2\":\"\",\"cg\":1000,\"name\":\"时间秘宝#####Time Secret\",\"activityShowType\":6,\"cardPool\":1,\"cardNum\":12,\"cost\":{\"id\":500101,\"num\":1},\"taskCount\":3,\"taskChance\":{1:\"50:0:1\",2:\"0:0:0\",3:\"0:0:0\",4:\"30:0:1\",5:\"70:0:3\"},\"refresh\":43200,\"itemId\":500103}",
+        details = "{\"beginTime\":\"2020-9-23 00:01:00\",\"endTime\":\"2020-10-13 23:59:59\",\"des1\":\"\",\"des2\":\"\",\"cg\":1000,\"name\":\"61068\",\"activityShowType\":6,\"cardPool\":1,\"cardNum\":12,\"cost\":{\"id\":500101,\"num\":1},\"taskCount\":3,\"taskChance\":{1:\"50:0:1\",2:\"0:0:0\",3:\"0:0:0\",4:\"30:0:1\",5:\"70:0:3\"},\"refresh\":43200,\"itemId\":500103}",
         type = 1015,
     },
     [200038] = {
@@ -1653,7 +1653,7 @@ return {
         weight = 2,
         status = 2,
         titleIcon = "ui/activity/assist/kuangsan/btn_5n.png",
-        details = "{\"beginTime\":\"2020-11-12 00:00:00\",\"endTime\":\"2020-11-24 23:59:59\",\"activityShowType\":6,\"name\":\"登录有礼#####Login Rewards\",\"bgPath\":\"ui/activity/assist/kuangsan/sign_011.png\",\"dayRstring\":\"r305004\",\"hourRstring\":\"r305005\",\"uiName\":\"kuangsanAssistSignView\"}",
+        details = "{\"beginTime\":\"2021-06-30 00:00:00\",\"endTime\":\"2021-07-13 23:59:59\",\"activityShowType\":6,\"name\":\"190000438\",\"bgPath\":\"ui/activity/assist/kuangsan/sign_011.png\",\"dayRstring\":\"r305004\",\"hourRstring\":\"r305005\",\"uiName\":\"kuangsanAssistSignView\"}",
         type = 1010,
     },
     [120006] = {

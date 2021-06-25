@@ -1651,7 +1651,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1672,8 +1672,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 220,
-												PositionY = 139,
+												PositionX = 243,
+												PositionY = 135,
 											},
 											width = "151",
 											ZOrder = "1",
@@ -3114,9 +3114,9 @@ local t =
 											colorType = "0;SingleColor:#FFFF4500;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 											direction = "1",
 											dstBlendFunc = "771",
-											height = "215",
+											height = "185",
 											ignoreSize = "False",
-											innerHeight = "215",
+											innerHeight = "185",
 											innerWidth = "155",
 											name = "ScrollView_reward",
 											showScrollbar = "False",
@@ -3127,7 +3127,7 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionY = -13,
+												PositionY = -23,
 											},
 											uipanelviewmodel = 
 											{
@@ -3183,7 +3183,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 104,
+												PositionY = 83,
 											},
 											width = "146",
 											ZOrder = "1",

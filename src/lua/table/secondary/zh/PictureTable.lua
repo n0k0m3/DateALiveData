@@ -5879,4 +5879,14 @@ return {
         res = "ui/fuli/seven_sign/002.png",
         res_en = "ui/fuli/seven_sign/002_zh.png",
     },
+    [1179] = {
+        id = 1179,
+        res = "ui/mainLayer/new_ui/ad/emojianglin.png",
+        res_en = "ui/mainLayer/new_ui/ad/emojianglin_zh.png",
+    },
+    [1180] = {
+        id = 1180,
+        res = "ui/activity/picture/ad69.png",
+        res_en = "ui/activity/picture/ad69_zh.png",
+    },
 }

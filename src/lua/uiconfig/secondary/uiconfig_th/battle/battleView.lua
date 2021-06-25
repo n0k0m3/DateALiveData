@@ -17817,8 +17817,8 @@ local t =
 										StrokeColor = "#FF2187E5",
 										StrokeSize = 1,
 									},
-									height = "41",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_fallow",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -17833,7 +17833,7 @@ local t =
 									{
 										
 									},
-									width = "293",
+									width = "464",
 									ZOrder = "1",
 								},
 							},

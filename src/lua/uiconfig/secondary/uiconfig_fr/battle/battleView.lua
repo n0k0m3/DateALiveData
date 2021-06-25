@@ -6740,7 +6740,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "37",
+											height = "43",
 											ignoreSize = "False",
 											name = "Image_common_victory",
 											sizepercentx = "0",
@@ -6800,6 +6800,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -80,
+														PositionY = 8,
 														RightPosition = -200,
 														TopPosition = -23,
 														relativeToName = "Panel_victory",
@@ -6849,7 +6850,8 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 95,
+														PositionX = -75,
+														PositionY = -10,
 														RightPosition = -200,
 														TopPosition = -23,
 														relativeToName = "Panel_victory",
@@ -17786,8 +17788,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 786,
-								PositionY = 118,
+								PositionX = 785,
+								PositionY = 130,
 							},
 							width = "762",
 							ZOrder = "1",
@@ -17813,15 +17815,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "25",
+									fontSize = "23",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF2187E5",
 										StrokeSize = 1,
 									},
-									height = "31",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_fallow",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -17834,9 +17836,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionY = 1,
 									},
-									width = "499",
+									width = "450",
 									ZOrder = "1",
 								},
 							},

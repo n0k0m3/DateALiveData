@@ -3119,9 +3119,9 @@ local t =
 											colorType = "0;SingleColor:#FFFF4500;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 											direction = "1",
 											dstBlendFunc = "771",
-											height = "215",
+											height = "185",
 											ignoreSize = "False",
-											innerHeight = "215",
+											innerHeight = "185",
 											innerWidth = "155",
 											name = "ScrollView_reward",
 											showScrollbar = "False",
@@ -3132,7 +3132,7 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionY = -13,
+												PositionY = -27,
 											},
 											uipanelviewmodel = 
 											{
@@ -3188,7 +3188,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 104,
+												PositionY = 79,
 											},
 											width = "146",
 											ZOrder = "1",

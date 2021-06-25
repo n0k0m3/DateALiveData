@@ -608,8 +608,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 97,
-										PositionY = -1,
+										PositionX = 161,
+										PositionY = 1,
 									},
 									width = "64",
 									ZOrder = "1",
@@ -983,7 +983,7 @@ local t =
 							flipX = "False",
 							flipY = "False",
 							height = "44",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Button_review",
 							normal = "ui/common/button_small_blue_n.png",
 							sizepercentx = "0",
@@ -993,11 +993,11 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -215,
-								PositionY = 220,
+								PositionX = 60,
+								PositionY = 223,
 							},
 							UItype = "Button",
-							width = "108",
+							width = "135",
 							ZOrder = "1",
 							components = 
 							{
@@ -1022,7 +1022,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -32,
+										PositionX = -45,
 									},
 									width = "40",
 									ZOrder = "1",
@@ -1046,14 +1046,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "18",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_review",
 									nTextAlign = "1",
@@ -1070,7 +1070,7 @@ local t =
 										PositionX = 19,
 										PositionY = -1,
 									},
-									width = "68",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -1087,8 +1087,8 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "52",
-							ignoreSize = "True",
+							height = "20",
+							ignoreSize = "False",
 							name = "Button_newPlayer",
 							normal = "ui/activity/newPlayer/newPlayerIcon.png",
 							sizepercentx = "0",
@@ -1099,11 +1099,11 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -105,
-								PositionY = 219,
+								PositionX = 170,
+								PositionY = 222,
 							},
 							UItype = "Button",
-							width = "62",
+							width = "74",
 							ZOrder = "1",
 							components = 
 							{

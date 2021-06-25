@@ -1313,8 +1313,8 @@ local t =
 											sizeType = "0",
 											spineModel = 
 											{
-												SpinePath = "ui/activity/activityStyle/wefareSignActivity/style2/dengluqiandao/skeleton",
-												animationName = "01",
+												SpinePath = "effect/effect_denglvlb/effect_denglvlb",
+												animationName = "animation",
 												IsLoop = true,
 												IsPlay = true,
 												IsUseQueue = false,
@@ -1327,7 +1327,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 1,
+												PositionX = 10,
+												PositionY = 8,
 											},
 											ZOrder = "1",
 										},

@@ -1541,6 +1541,7 @@ return {
         title = 31611,
         optionalSkin = {
             [1] = 1104023,
+            [2] = 1104025,
         },
         attrType = 8,
         floorTime = 0,

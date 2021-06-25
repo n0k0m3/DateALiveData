@@ -17813,8 +17813,8 @@ local t =
 										StrokeColor = "#FF2187E5",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_fallow",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -17827,9 +17827,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionY = 2,
 									},
-									width = "496",
+									width = "525",
 									ZOrder = "1",
 								},
 							},

@@ -10,7 +10,7 @@ return {
             [1] = 2,
             [2] = 0,
         },
-        name = 13200216,
+        name = 13200206,
         showType = 1,
         icon = 580103,
         reward = {
@@ -400,7 +400,7 @@ return {
         id = 10001,
         weight = 1500,
         rewardMax = 12,
-        color = "ui/dawuwong/turntable/DFW_CJ_2.png",
+        color = "ui/dfwautumn/turntable/DFW_CJ_2.png",
         sort = 1,
         bonusType = {
             [1] = 2,

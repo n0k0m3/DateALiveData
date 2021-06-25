@@ -717,7 +717,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "42",
+											height = "39",
 											ignoreSize = "True",
 											name = "Label_start",
 											nTextAlign = "1",
@@ -832,7 +832,7 @@ local t =
 													{
 														PositionX = -28,
 													},
-													width = "47",
+													width = "46",
 													ZOrder = "1",
 												},
 											},
@@ -951,7 +951,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "42",
+											height = "39",
 											ignoreSize = "True",
 											name = "Label_start2",
 											nTextAlign = "1",
@@ -1066,7 +1066,7 @@ local t =
 													{
 														PositionX = -28,
 													},
-													width = "47",
+													width = "46",
 													ZOrder = "1",
 												},
 											},
@@ -1130,7 +1130,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "42",
+											height = "39",
 											ignoreSize = "True",
 											name = "Label_start10",
 											nTextAlign = "1",
@@ -1146,7 +1146,7 @@ local t =
 											{
 												
 											},
-											width = "71",
+											width = "70",
 											ZOrder = "1",
 										},
 										{
@@ -1245,7 +1245,7 @@ local t =
 													{
 														PositionX = -28,
 													},
-													width = "47",
+													width = "46",
 													ZOrder = "1",
 												},
 											},
@@ -1343,7 +1343,7 @@ local t =
 							height = "103",
 							ignoreSize = "True",
 							name = "Button_ing",
-							normal = "ui/dawuwong/turntable/DFW_CJ_1_2.png",
+							normal = "ui/dfwautumn/turntable/DFW_CJ_1_2.png",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -1386,7 +1386,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "42",
+									height = "39",
 									ignoreSize = "True",
 									name = "Label_ing",
 									nTextAlign = "1",
@@ -1402,7 +1402,7 @@ local t =
 									{
 										
 									},
-									width = "103",
+									width = "104",
 									ZOrder = "1",
 								},
 							},
@@ -1936,7 +1936,7 @@ local t =
 									{
 										PositionY = -69,
 									},
-									width = "76",
+									width = "71",
 									ZOrder = "1",
 								},
 								{
@@ -2068,7 +2068,7 @@ local t =
 			"ui/dfwsummer/turntable/015.png",
 			"ui/dfwsummer/turntable/014.png",
 			"ui/dfwsummer/turntable/010.png",
-			"ui/dawuwong/turntable/DFW_CJ_1_2.png",
+			"ui/dfwautumn/turntable/DFW_CJ_1_2.png",
 			"ui/dfwsummer/turntable/006.png",
 			"ui/dfwsummer/turntable/002.png",
 			"ui/dfwsummer/turntable/001.png",

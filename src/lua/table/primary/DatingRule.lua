@@ -1620,7 +1620,7 @@ return {
         endSynopsis = 932023,
         endVoice = "",
         endAction2 = "",
-        datingTypeNew = 201,
+        datingTypeNew = 252,
         enter_condition = {
         },
         backGround = "",
@@ -46134,7 +46134,7 @@ return {
         endSynopsis = 932023,
         endVoice = "",
         endAction2 = "",
-        datingTypeNew = 201,
+        datingTypeNew = 252,
         enter_condition = {
         },
         backGround = "",

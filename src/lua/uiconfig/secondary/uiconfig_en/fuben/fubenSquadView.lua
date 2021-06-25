@@ -2085,15 +2085,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "15",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_coin_buff",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -2106,8 +2106,8 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -41,
-																PositionY = -2,
+																PositionX = -30,
+																PositionY = -1,
 															},
 															width = "116",
 															ZOrder = "1",
@@ -3767,15 +3767,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "15",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_coin_buff",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -3788,8 +3788,8 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -41,
-																PositionY = -2,
+																PositionX = -30,
+																PositionY = -1,
 															},
 															width = "116",
 															ZOrder = "1",
@@ -5450,15 +5450,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "15",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_coin_buff",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -5471,8 +5471,8 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -41,
-																PositionY = -2,
+																PositionX = -30,
+																PositionY = -1,
 															},
 															width = "116",
 															ZOrder = "1",

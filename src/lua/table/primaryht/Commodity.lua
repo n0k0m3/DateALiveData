@@ -25242,12 +25242,6 @@ return {
     [101501] = {
         batchBuy = true,
         buyEndTime = {
-            min = 59,
-            year = 2021,
-            month = 6,
-            sec = 59,
-            hour = 23,
-            day = 29,
         },
         order = 4,
         grid = 15,
@@ -25255,12 +25249,6 @@ return {
             [1] = 180,
         },
         buyBeginTime = {
-            min = 0,
-            year = 2021,
-            month = 4,
-            sec = 0,
-            hour = 0,
-            day = 7,
         },
         storeId = 100000,
         weight = 10000,
@@ -25280,11 +25268,11 @@ return {
         goods = {
             [570035] = 1,
         },
-        showBeginTime = "2021-04-07 00:00:00",
+        showBeginTime = "",
         openContVal = 1,
         title = 0,
         sellDescribtion = "",
-        showEndTime = "2021-06-29 23:59:59",
+        showEndTime = "",
         serLimit = 0,
         limitVal = 0,
         des = "",
@@ -25677,12 +25665,6 @@ return {
     [101502] = {
         batchBuy = true,
         buyEndTime = {
-            min = 59,
-            year = 2021,
-            month = 6,
-            sec = 59,
-            hour = 23,
-            day = 29,
         },
         order = 5,
         grid = 16,
@@ -25690,12 +25672,6 @@ return {
             [1] = 1800,
         },
         buyBeginTime = {
-            min = 0,
-            year = 2021,
-            month = 4,
-            sec = 0,
-            hour = 0,
-            day = 7,
         },
         storeId = 100000,
         weight = 10000,
@@ -25715,11 +25691,11 @@ return {
         goods = {
             [570035] = 10,
         },
-        showBeginTime = "2021-04-07 00:00:00",
+        showBeginTime = "",
         openContVal = 1,
         title = 0,
         sellDescribtion = "",
-        showEndTime = "2021-06-29 23:59:59",
+        showEndTime = "",
         serLimit = 0,
         limitVal = 0,
         des = "",
@@ -64126,6 +64102,11 @@ return {
         limitType = 3,
         openContType = 1,
         ext = {
+            tipType = 2,
+            limitItemId = {
+                [1] = 411208,
+            },
+            tipId = 14300303,
         },
         sellTime = {
         },
@@ -64278,6 +64259,11 @@ return {
         limitType = 3,
         openContType = 1,
         ext = {
+            tipType = 2,
+            limitItemId = {
+                [1] = 411006,
+            },
+            tipId = 14300303,
         },
         sellTime = {
         },
@@ -64586,6 +64572,11 @@ return {
         limitType = 3,
         openContType = 1,
         ext = {
+            tipType = 1,
+            limitItemId = {
+                [1] = 554006,
+            },
+            tipId = 14300302,
         },
         sellTime = {
         },

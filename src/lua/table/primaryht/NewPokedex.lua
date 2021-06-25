@@ -40664,7 +40664,7 @@ return {
         sort = 2206,
         sortr = "2206",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,

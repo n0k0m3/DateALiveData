@@ -759,7 +759,7 @@ function LeagueHallView:refreshPanelInfos()
             if info.notifyType == -1 then
                 local item = self.Panel_date:clone()
                 local Label_date = TFDirector:getChildByPath(item, "Label_date")
-                Label_date:setText(info.prams)
+                Label_date:setText(info.prams..GV_UTC_TIME_STRING)
                 self.ScrollView_changes:pushBackCustomItem(item) 
             else
                 local item = self.Panel_change_items:clone()
@@ -770,7 +770,7 @@ function LeagueHallView:refreshPanelInfos()
                 Label_content:setText(content)
                 local height = Label_content:getContentSize().height + 20
                 item:setContentSize(CCSizeMake(484, height))
-                local hour, min, sec = Utils:getTime(math.floor(info.creatTime / 1000), true)
+                local hour, min, sec = Utils:getUTCDateHMS(math.floor(info.creatTime / 1000), true , GV_UTC_TIME_ZONE)
                 labelTime:setText(hour..":"..min..":"..sec)
                 labelTime:setPositionY(height - 10)
                 Label_content:setPositionY(height - 10)

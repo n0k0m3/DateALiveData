@@ -710,14 +710,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "34",
+											fontSize = "25",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "39",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_start",
 											nTextAlign = "1",
@@ -733,7 +733,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "91",
+											width = "67",
 											ZOrder = "1",
 										},
 										{
@@ -944,14 +944,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "34",
+											fontSize = "25",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "39",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_start2",
 											nTextAlign = "1",
@@ -967,7 +967,7 @@ local t =
 											{
 												
 											},
-											width = "91",
+											width = "67",
 											ZOrder = "1",
 										},
 										{
@@ -1123,14 +1123,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "34",
+											fontSize = "25",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "39",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_start10",
 											nTextAlign = "1",
@@ -1146,7 +1146,7 @@ local t =
 											{
 												
 											},
-											width = "60",
+											width = "45",
 											ZOrder = "1",
 										},
 										{
@@ -1334,16 +1334,16 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEButton",
 							ClickHighLightEnabled = "True",
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
 							height = "103",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Button_ing",
-							normal = "ui/dawuwong/turntable/DFW_CJ_1_2.png",
+							normal = "ui/dfwautumn/turntable/DFW_CJ_1_2.png",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -1355,7 +1355,7 @@ local t =
 							},
 							UItype = "Button",
 							visible = "False",
-							width = "275",
+							width = "367",
 							ZOrder = "1",
 							components = 
 							{
@@ -2068,7 +2068,7 @@ local t =
 			"ui/dfwsummer/turntable/015.png",
 			"ui/dfwsummer/turntable/014.png",
 			"ui/dfwsummer/turntable/010.png",
-			"ui/dawuwong/turntable/DFW_CJ_1_2.png",
+			"ui/dfwautumn/turntable/DFW_CJ_1_2.png",
 			"ui/dfwsummer/turntable/006.png",
 			"ui/dfwsummer/turntable/002.png",
 			"ui/dfwsummer/turntable/001.png",

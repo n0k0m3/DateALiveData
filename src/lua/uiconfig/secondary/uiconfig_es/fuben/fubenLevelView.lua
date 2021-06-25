@@ -608,7 +608,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 143,
+										PositionX = 258,
 										PositionY = -1,
 									},
 									width = "64",
@@ -993,7 +993,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -73,
+								PositionX = 74,
 								PositionY = 224,
 							},
 							UItype = "Button",
@@ -1099,7 +1099,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 36,
+								PositionX = 184,
 								PositionY = 223,
 							},
 							UItype = "Button",

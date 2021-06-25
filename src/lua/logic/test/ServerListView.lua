@@ -32,11 +32,11 @@ function ServerListView:initUI(ui)
         self.Button_serverListItem:setTextureNormal("ui/login/oneYear/2.png")
         self.Button_serverListItem:setTexturePressed("ui/login/oneYear/2.png")
     elseif TFGlobalUtils:isConnectEnServer() then
+        self.Button_serverListItem:setTextureNormal("ui/login/7.png")
+        self.Button_serverListItem:setTexturePressed("ui/login/7.png")
+    elseif TFGlobalUtils:isConnectKoreaTwServer() then
         self.Button_serverListItem:setTextureNormal("ui/login/new1/b7.png")
         self.Button_serverListItem:setTexturePressed("ui/login/new1/b7.png")
-    elseif TFGlobalUtils:isConnectKoreaTwServer() then
-        self.Button_serverListItem:setTextureNormal("ui/login/global_new1/b7.png")
-        self.Button_serverListItem:setTexturePressed("ui/login/global_new1/b7.png")
     else
         self.Button_serverListItem:setTextureNormal("ui/login/new1/b7.png")
         self.Button_serverListItem:setTexturePressed("ui/login/new1/b7.png")
@@ -55,7 +55,11 @@ function ServerListView:showServerGroup()
         self.ListView_groupList:pushBackCustomItem(item)
         local Label_name = TFDirector:getChildByPath(item, "Label_name")
         if TFGlobalUtils:isConnectKoreaTwServer( ) then
-            Label_name:setFontColor(ccc3(255 , 255 , 255))
+            Label_name:setFontColor(ccc3(146 , 216 , 244))
+        elseif TFGlobalUtils:isConnectMiniServer() then
+            Label_name:setFontColor(ccc3(146 , 216 , 244))
+        elseif TFGlobalUtils:isConnectEnServer() then
+            Label_name:setFontColor(ccc3(252 , 245 , 216))
         end
 
         if (_group.groupType == GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE) or (_group.groupType == GLOBAL_SERVER_LIST.SERVER_KOREA_TW) then
@@ -94,6 +98,9 @@ function ServerListView:showServerList( group )
         local item = self.Button_serverListItem:clone()
         self.ListView_serverList:pushBackCustomItem(item)
         local Label_name = TFDirector:getChildByPath(item, "Label_name")
+        if TFGlobalUtils:isConnectEnServer() then
+            Label_name:setFontColor(ccc3(252 , 245 , 216))
+        end
         Label_name:setText(_server.serverName)
 
         item:onClick(function()
@@ -125,6 +132,8 @@ function ServerListView:checkChangeLanaguage( group, serverid, callback )
             LogonHelper:setCacheServerId(serverid)
             LogonHelper:setCacheGroupId(group.group_id)
             TFGlobalUtils:setCacheServer(group.groupType)
+            local migrationServerId = TFGlobalUtils:getMigrationServerIdByGameServerId(group.groupType)
+            TFGlobalUtils:setMigrationServerId(migrationServerId)
             -- 重启客户端
             TFDirector:dispatchGlobalEventWith("Engine_Will_Restart", {})
             restartLuaEngine("")

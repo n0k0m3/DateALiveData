@@ -1159,7 +1159,9 @@ end
 function battleController.showWarning(callFunc)
     if not this.levelCfg_.warningTime then
         this.setTiming(false)
-        BattleUtils.playEffect(BattleConfig.BOSS_WARNING ,false,1)
+        TimeOut(function()
+            BattleUtils.playEffect(BattleConfig.BOSS_WARNING ,false,1)
+        end,1)
         EventMgr:dispatchEvent(eEvent.EVENT_BOSS_WARNING, function ()
                 if callFunc then
                     callFunc()

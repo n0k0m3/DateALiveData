@@ -14,9 +14,9 @@ function LoginLayer:ctor(data)
 		self:init("lua.uiconfig.loginScene.oneYearloginLayer")
 	else
 		if TFGlobalUtils:isConnectEnServer() then
-			self:init("lua.uiconfig.loginScene.loginLayerNew1")
+			self:init("lua.uiconfig.loginScene.loginLayer")
 		elseif TFGlobalUtils:isConnectKoreaTwServer() then
-			self:init("lua.uiconfig.loginScene.loginLayerGlobal_1")
+			self:init("lua.uiconfig.loginScene.loginLayerNew1")
 		else
 			self:init("lua.uiconfig.loginScene.loginLayerNew1")
 		end
@@ -31,6 +31,10 @@ function LoginLayer:initUI(ui)
 
 	self.continue = TFDirector:getChildByPath(ui,"continue");
 	self.continue:setTextById(800086)
+
+	if TFGlobalUtils:isConnectEnServer() then
+    	self.continue:setFontColor(ccc3(252 , 245 , 216))
+    end
 	--self.continue:setFontColor(ccc3(255 , 255 , 255))
 	local tween =
 	    {
@@ -51,8 +55,8 @@ function LoginLayer:initUI(ui)
 	if TFGlobalUtils:isConnectEnServer() then
 		local logonImag = TFImage:create("ui/login/logo.png")
 		TFDirector:getChildByPath(ui , "logo"):addChild(logonImag)
-		logonImag:setPosition(-390 , 120)
-		logonImag:hide()
+		logonImag:setPosition(380 , 120)
+		--logonImag:hide()  英文版打开新增logo
 	end
 
 	self.loginBoard = TFDirector:getChildByPath(ui,"loginBoard");
@@ -65,6 +69,10 @@ function LoginLayer:initUI(ui)
 		local updateZipVersion = TFClientUpdate:getCurVersion()
 		versionTex = "version:" ..apkVersion .."_" ..updateZipVersion
 	end
+
+	if TFGlobalUtils:isConnectEnServer() then
+    	self.versionLabel:setFontColor(ccc3(252 , 245 , 216))
+    end
 	self.versionLabel:setText(versionTex)
 
 	self.apkVersionLabel = TFDirector:getChildByPath(ui,"label_apkVersion"):hide()
@@ -236,6 +244,10 @@ function LoginLayer:initUI(ui)
     -- self.Panel_serverList:setVisible(GameConfig.Debug)
     self.Label_serverName = TFDirector:getChildByPath(self.Panel_serverList, "Label_serverName")
     self.Label_serverName:setTextById(800090)
+
+    if TFGlobalUtils:isConnectEnServer() then
+    	self.Label_serverName:setFontColor(ccc3(252 , 245 , 216))
+    end
 
     self.gameServerList = TFDirector:getChildByPath(ui, "game_serverList")
     self.gameServerList:setVisible(false)
