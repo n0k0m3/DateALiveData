@@ -409,5 +409,15 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="FirstExtAssetsDownLayer",
+			ui ="FirstExtAssetsDownLayer.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="common",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

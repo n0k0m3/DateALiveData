@@ -187,7 +187,7 @@ function TFAssetsManager:checkAssets(checkList,isfirst)
 	
 	for k,v in pairs(checkList) do
 		local localfilepath = string.format("%s%d.awb",self.extAssetsSavePath,tonumber(k))
-		if TFFileUtil:existFile(localfilepath) then
+		if TFFileUtil:existFile(localfilepath) or (self:getLoadedSucAwbFile(tonumber(k)) > 0) then
 			-- local fileins = io.open(localfilepath,"rb")
 			-- local fileContent = fileins:read("*a")
 			-- local hashcode = md5.sumhexa(fileContent)
@@ -833,13 +833,18 @@ function TFAssetsManager:loadAssetFile( id, downLoad )
 	-- 	end
 	-- end
 	-- self:setLoadedSucAwbFile(id, 0)
-	MEAssetsBundle:defaultBundle():load(string.format("%d.awb", id))
-	--self:setLoadedSucAwbFile(id, 1)
+
+	if TFClientAwbBundle then
+	else
+		MEAssetsBundle:defaultBundle():load(string.format("%d.awb", id))
+	end
+
+	self:setLoadedSucAwbFile(id, 1)
 	self.loadedAssetFile[id] = true
 end
 
 function TFAssetsManager:setLoadedSucAwbFile( id, value )
-	local KEY_LOADED_AWB_FILE = "KEY_LOADED_AWB_FILE_"
+	local KEY_LOADED_AWB_FILE = "KEY_LOADED_NEWAWB_FILE_"
 	if id and (id > 0) then
 		KEY_LOADED_AWB_FILE = KEY_LOADED_AWB_FILE ..id
 		CCUserDefault:sharedUserDefault():setIntegerForKey(KEY_LOADED_AWB_FILE, value)
@@ -848,14 +853,14 @@ function TFAssetsManager:setLoadedSucAwbFile( id, value )
 end
 
 function TFAssetsManager:getLoadedSucAwbFile( id )
-	local KEY_LOADED_AWB_FILE = "KEY_LOADED_AWB_FILE_"
+	local KEY_LOADED_AWB_FILE = "KEY_LOADED_NEWAWB_FILE_"
 	if id and (id > 0) then
 		KEY_LOADED_AWB_FILE = KEY_LOADED_AWB_FILE ..id
 		return CCUserDefault:sharedUserDefault():getIntegerForKey(KEY_LOADED_AWB_FILE, 0)
 	end
 end
 
-function TFAssetsManager:checkCdnAndUrlUpdate(url )
+function TFAssetsManager:checkCdnAndUrlUpdate( url )
     -- self.connectedArray:push(url)
     -- local time = 0
     -- for urlValue in self.connectedArray:iterator() do
@@ -871,6 +876,26 @@ function TFAssetsManager:checkCdnAndUrlUpdate(url )
     --     	HeitaoSdk.reportNetworkData(parsed_url.host)
     --     end
     -- end
+end
+
+function TFAssetsManager:getDownLoadedAwbFiles( )
+	if self.extAssetsCfg == nil then return {} end
+	local downLoadedList = {}
+	for _,_cfg in pairs(self.extAssetsCfg) do
+		if _cfg.packID then
+			for _,_awbId in pairs(_cfg.packID) do
+				local localfilepath = string.format("%s%d.awb",self.extAssetsSavePath, _awbId)
+				if TFFileUtil:existFile(localfilepath) then
+					downLoadedList[_awbId] = _awbId
+				end
+			end
+		end
+	end
+	local t = {}
+	for _,_awbId in pairs(downLoadedList) do
+		table.insert(t, _awbId)
+	end
+	return t
 end
 
 return TFAssetsManager

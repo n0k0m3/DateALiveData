@@ -70,6 +70,8 @@ local t =
 					touchAble = "True",
 					UILayoutViewModel = 
 					{
+						PositionX = 568,
+						PositionY = 320,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -101,7 +103,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							texturePath = "ui/update/s1_en.png",
+							texturePath = "ui/update/s1.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
@@ -171,15 +173,68 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "loading",
+							text = "正在检测补充资源",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
 								PositionX = -566,
-								PositionY = -299,
+								PositionY = -295,
 							},
-							width = "60",
+							width = "147",
+							ZOrder = "1",
+						},
+						{
+							controlID = "img_loadingbg_panel_root_Panel-FirstExtAssetsDownLayer_Layer1_common_Game",
+							UUID = "5d4a1923_2510_4096_8b10_e76e4c8747b8",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							height = "12",
+							ignoreSize = "False",
+							name = "img_loadingbg",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							texturePath = "ui/load_bg.png",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionY = -313,
+							},
+							width = "1386",
+							ZOrder = "1",
+						},
+						{
+							controlID = "loadingBar_process_panel_root_Panel-FirstExtAssetsDownLayer_Layer1_common_Game",
+							UUID = "46fbee5d_2ac4_482c_a131_912f1131b7e1",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MELoadingBar",
+							direction = "0",
+							dstBlendFunc = "771",
+							height = "12",
+							ignoreSize = "False",
+							name = "loadingBar_process",
+							percent = "100",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							texture = "ui/load.png",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionY = -313,
+								relativeToName = "Panel",
+							},
+							width = "1136",
 							ZOrder = "1",
 						},
 					},
@@ -195,8 +250,10 @@ local t =
 	{
 		textures = 
 		{
-			"ui/update/s1_en.png",
+			"ui/update/s1.png",
 			"ui/update/1763.png",
+			"ui/load_bg.png",
+			"ui/load.png",
 		},
 		armatures = 
 		{
