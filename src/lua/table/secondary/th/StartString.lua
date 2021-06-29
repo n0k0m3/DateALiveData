@@ -435,13 +435,25 @@ return {
         id = 800122,
         text = "ตัดการเชื่อมต่อจากเซิร์ฟเวอร์",
     },
+    [190000887] = {
+        id = 190000887,
+        text = "Decompressing is finished! ",
+    },
     [800123] = {
         id = 800123,
         text = "เชื่อมต่อใหม่ %d ครั้ง",
     },
+    [190000886] = {
+        id = 190000886,
+        text = "Decompressing failed. Please restart the game. ",
+    },
     [800124] = {
         id = 800124,
         text = "ล็อกอินเซิร์ฟเวอร์เกมล้มเหลว",
+    },
+    [190000885] = {
+        id = 190000885,
+        text = "Decompressing resources. The first decompression takes some time. Please wait a moment and do not quit the game. ",
     },
     [800125] = {
         id = 800125,

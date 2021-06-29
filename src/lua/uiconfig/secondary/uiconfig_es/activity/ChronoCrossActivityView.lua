@@ -422,7 +422,7 @@ local t =
 										StrokeColor = "#FF1D233D",
 										StrokeSize = 1,
 									},
-									height = "24",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_time_title",
 									nTextAlign = "1",
@@ -439,7 +439,7 @@ local t =
 										PositionX = -227,
 										PositionY = -190,
 									},
-									width = "80",
+									width = "172",
 									ZOrder = "1",
 									components = 
 									{
@@ -470,7 +470,7 @@ local t =
 												StrokeColor = "#FF1D233D",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_time",
 											nTextAlign = "1",
@@ -484,10 +484,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 90,
+												PositionX = 103,
 												PositionY = 1,
 											},
-											width = "125",
+											width = "95",
 											ZOrder = "1",
 										},
 									},
@@ -513,7 +513,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -363,
-										PositionY = -186,
+										PositionY = -169,
 									},
 									width = "158",
 									ZOrder = "1",
@@ -635,7 +635,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_tip",
 											nTextAlign = "1",
@@ -649,9 +649,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -40,
+												PositionY = -81,
 											},
-											width = "75",
+											width = "288",
 											ZOrder = "1",
 										},
 										{
@@ -696,7 +696,7 @@ local t =
 											{
 												PositionX = -7,
 											},
-											width = "54",
+											width = "59",
 											ZOrder = "1",
 										},
 										{
@@ -741,7 +741,7 @@ local t =
 											{
 												PositionX = 20,
 											},
-											width = "20",
+											width = "18",
 											ZOrder = "1",
 										},
 									},
@@ -798,7 +798,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_energyState",
 									nTextAlign = "1",
@@ -815,7 +815,7 @@ local t =
 										PositionX = -223,
 										PositionY = -236,
 									},
-									width = "99",
+									width = "232",
 									ZOrder = "1",
 								},
 							},

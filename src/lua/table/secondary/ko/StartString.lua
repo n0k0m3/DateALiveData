@@ -427,13 +427,25 @@ return {
         id = 800120,
         text = "전투 서버에 연결할 수 없습니다.",
     },
+    [190000887] = {
+        id = 190000887,
+        text = "Decompressing is finished! ",
+    },
     [800121] = {
         id = 800121,
         text = "서버 연결 실패",
     },
+    [190000886] = {
+        id = 190000886,
+        text = "Decompressing failed. Please restart the game. ",
+    },
     [800122] = {
         id = 800122,
         text = "서버와 연결이 끊어졌습니다.",
+    },
+    [190000885] = {
+        id = 190000885,
+        text = "Decompressing resources. The first decompression takes some time. Please wait a moment and do not quit the game. ",
     },
     [800123] = {
         id = 800123,

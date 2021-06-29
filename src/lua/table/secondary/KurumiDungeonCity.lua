@@ -298,7 +298,7 @@ return {
             [1] = 1,
         },
         displayDetail = 2,
-        eTime = "2021-07-03 23:59:60",
+        eTime = "2021-07-03 23:59:59",
         dungeon = 279201,
         camp = {
             [1] = 2,
@@ -324,7 +324,7 @@ return {
             [1] = 2,
         },
         displayDetail = 1,
-        eTime = "2021-07-03 23:59:61",
+        eTime = "2021-07-03 23:59:59",
         dungeon = 279105,
         camp = {
             [1] = 2,
@@ -348,7 +348,7 @@ return {
             [1] = 2,
         },
         displayDetail = 2,
-        eTime = "2021-07-03 23:59:62",
+        eTime = "2021-07-03 23:59:59",
         dungeon = 279202,
         camp = {
             [1] = 1,
@@ -374,7 +374,7 @@ return {
             [1] = 3,
         },
         displayDetail = 1,
-        eTime = "2021-07-03 23:59:63",
+        eTime = "2021-07-03 23:59:59",
         dungeon = 279108,
         camp = {
             [1] = 3,
@@ -398,7 +398,7 @@ return {
             [1] = 3,
         },
         displayDetail = 2,
-        eTime = "2021-07-03 23:59:64",
+        eTime = "2021-07-03 23:59:59",
         dungeon = 279203,
         camp = {
             [1] = 1,
@@ -737,7 +737,7 @@ return {
             [3] = 3,
         },
         displayDetail = 3,
-        eTime = "2021-07-10 23:59:59",
+        eTime = "2021-07-13 23:59:59",
         dungeon = 279301,
         camp = {
             [1] = 1,
@@ -765,7 +765,7 @@ return {
             [3] = 3,
         },
         displayDetail = 3,
-        eTime = "2021-07-10 23:59:59",
+        eTime = "2021-07-13 23:59:59",
         dungeon = 279302,
         camp = {
             [1] = 2,
@@ -793,7 +793,7 @@ return {
             [3] = 3,
         },
         displayDetail = 3,
-        eTime = "2021-07-10 23:59:59",
+        eTime = "2021-07-13 23:59:59",
         dungeon = 279303,
         camp = {
             [1] = 3,

@@ -114,6 +114,8 @@ function FunctionDataMgr:initFuncList()
         -- [200] = self.jRechargeArray,
         [800] = self.jNewGuyGiftBag,    --萌新礼包弹窗  --英文版新增
         [801] = self.jHundredLoginView,  ---百日活动礼包  --英文版新增
+        [803] = self.jKsanXinghongMoyu, -- 跳转强三猩红魔域
+
     }
     local tempFunc = {}
     for k, v in pairs(self.funcList_) do
@@ -1539,6 +1541,16 @@ function FunctionDataMgr:jLinkAgeMain()
     end
 end
 
+function FunctionDataMgr:jKsanXinghongMoyu()
+    if not self:checkFuncOpen() then return end
+    local isLayerInQueue,layer = AlertManager:isLayerInQueue("FubenChapterView")
+    if not isLayerInQueue then
+        Utils:openView("fuben.FubenChapterView", EC_FBType.KSAN_FUBEN)
+    else
+        AlertManager:closeAllBeforLayer(layer)
+    end
+end
+
 function FunctionDataMgr:jLinkAge(chapterCid)
     if not self:checkFuncOpen(140) then return end
     Utils:openView("linkage.LinkageView",chapterCid) 
@@ -1594,6 +1606,7 @@ end
 ---狂三副本跳转
 function FunctionDataMgr:jKsanFuben()
     self:jSpecialFuben(EC_ActivityType2.KUANGSAN_FUBEN)
+
 end
 
 ---狂三副本跳转

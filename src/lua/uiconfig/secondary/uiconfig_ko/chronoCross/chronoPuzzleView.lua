@@ -208,7 +208,7 @@ local t =
 									{
 										PositionX = -83,
 									},
-									width = "99",
+									width = "113",
 									ZOrder = "1",
 								},
 								{
@@ -253,7 +253,7 @@ local t =
 									{
 										PositionX = 32,
 									},
-									width = "45",
+									width = "48",
 									ZOrder = "1",
 								},
 							},
@@ -598,11 +598,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "54",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_item_di",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -612,10 +612,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 364,
-								PositionY = -278,
+								PositionX = 298,
+								PositionY = -275,
 							},
-							width = "395",
+							width = "485",
 							ZOrder = "1",
 							components = 
 							{
@@ -643,8 +643,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 132,
-										PositionY = 1,
+										PositionX = 179,
+										PositionY = 3,
 									},
 									UItype = "Button",
 									width = "124",
@@ -694,7 +694,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "44",
 											ZOrder = "1",
 										},
 									},
@@ -719,8 +719,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 133,
-										PositionY = 91,
+										PositionX = 187,
+										PositionY = 93,
 									},
 									width = "101",
 									ZOrder = "1",
@@ -796,9 +796,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -162,
+										PositionX = -212,
+										PositionY = 2,
 									},
-									width = "157",
+									width = "242",
 									ZOrder = "1",
 								},
 							},

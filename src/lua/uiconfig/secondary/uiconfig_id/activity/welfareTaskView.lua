@@ -70,8 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 693,
-						PositionY = 320,
+						PositionX = 485,
+						PositionY = 355,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -643,10 +643,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -377,
+												PositionX = -387,
 												PositionY = 23,
 											},
-											width = "51",
+											width = "66",
 											ZOrder = "1",
 										},
 										{
@@ -675,7 +675,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_activeValue",
 											nTextAlign = "1",
@@ -692,7 +692,7 @@ local t =
 												PositionX = -352,
 												PositionY = 4,
 											},
-											width = "36",
+											width = "25",
 											ZOrder = "1",
 										},
 									},
@@ -832,11 +832,13 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -848,7 +850,7 @@ local t =
 									{
 										PositionY = 181,
 									},
-									width = "184",
+									width = "255",
 									ZOrder = "1",
 								},
 								{
@@ -894,7 +896,7 @@ local t =
 										PositionX = -1,
 										PositionY = -131,
 									},
-									width = "35",
+									width = "39",
 									ZOrder = "1",
 								},
 								{
@@ -1097,7 +1099,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_goto",
 									nTextAlign = "1",
@@ -1113,7 +1115,7 @@ local t =
 									{
 										PositionY = -177,
 									},
-									width = "54",
+									width = "72",
 									ZOrder = "1",
 								},
 								{
@@ -1174,7 +1176,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_receive",
 											nTextAlign = "1",
@@ -1190,7 +1192,7 @@ local t =
 											{
 												
 											},
-											width = "55",
+											width = "85",
 											ZOrder = "1",
 										},
 									},
@@ -1325,7 +1327,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_geted",
 									nTextAlign = "1",
@@ -1342,7 +1344,7 @@ local t =
 										PositionY = -176,
 									},
 									visible = "False",
-									width = "81",
+									width = "199",
 									ZOrder = "1",
 									components = 
 									{
@@ -1511,14 +1513,14 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
 											height = "32",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Button_geted",
 											normal = "ui/activity/welfareActivity/017.png",
 											sizepercentx = "0",
@@ -1532,7 +1534,7 @@ local t =
 												PositionY = 27,
 											},
 											UItype = "Button",
-											width = "94",
+											width = "150",
 											ZOrder = "2",
 											components = 
 											{
@@ -1579,7 +1581,7 @@ local t =
 													{
 														
 													},
-													width = "63",
+													width = "115",
 													ZOrder = "1",
 												},
 											},
@@ -1821,7 +1823,7 @@ local t =
 										PositionX = -1,
 										PositionY = -15,
 									},
-									width = "36",
+									width = "35",
 									ZOrder = "1",
 								},
 							},
@@ -1978,7 +1980,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -1995,7 +1997,7 @@ local t =
 										PositionX = 3,
 										PositionY = -21,
 									},
-									width = "45",
+									width = "59",
 									ZOrder = "1",
 								},
 								{

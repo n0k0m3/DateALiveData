@@ -53,10 +53,11 @@ function JumpActivityView:initUI( ui )
 	end
 
 	if act_time then
-		local year, month, day = Utils:getDate(self.activityInfo.showStartTime or 0)
+		act_time:setTextById(1710002)
+		local year, month, day = Utils:getUTCDateYMD(self.activityInfo.showStartTime or 0 , false , GV_UTC_TIME_ZONE)
 		act_timeStart:setTextById(1410001,year, month, day)
-		year, month, day = Utils:getDate(self.activityInfo.endTime or 0)
-		act_timeEnd:setTextById(1410001,year, month, day)
+		year, month, day = Utils:getUTCDateYMD(self.activityInfo.endTime or 0, false , GV_UTC_TIME_ZONE)
+		act_timeEnd:setText(TextDataMgr:getText(1410001,year, month, day)..GV_UTC_TIME_STRING)
 	end
 
 	if self.activityInfo.extendData.skewX then
@@ -125,7 +126,8 @@ function JumpActivityView:jumpFunc( )
 	elseif activityInfo.activityType == EC_ActivityType2.CGCOLLECTED then
 		Utils:openView("activity.ActivitySpecialCgView",self.activityId)
 	elseif activityInfo.activityType == EC_ActivityType2.KUANGSAN_FUBEN then
-		FunctionDataMgr:jKsanFuben()
+		--FunctionDataMgr:jKsanFuben()  --狂三跳转修改为英文版特殊的
+		FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface, unpack(activityInfo.extendData.jumpParamters or {}))
 	elseif activityInfo.activityType == EC_ActivityType2.NEWYEAR_FUBEN or activityInfo.activityType == EC_ActivityType2.HWX_FUBEN then
 		FunctionDataMgr:jSpecialFuben(activityInfo.activityType)
 	elseif activityInfo.activityType == EC_ActivityType2.WSJ_2020 then

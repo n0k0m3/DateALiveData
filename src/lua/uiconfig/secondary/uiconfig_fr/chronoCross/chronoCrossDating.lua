@@ -2594,7 +2594,7 @@ local t =
 									controlID = "Label_btn_Image_bottom_Panel_root_Panel-chronoCrossDating_Layer1_chronoCross_Game",
 									UUID = "f5809041_96ac_4d5d_98ed_cb6ca2601e9e",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -2630,8 +2630,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -4,
-										PositionY = 5,
+										PositionX = 54,
+										PositionY = 29,
 									},
 									width = "249",
 									ZOrder = "1",
@@ -2911,8 +2911,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_charge",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -2920,14 +2920,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Restaurer l'énergie",
+											text = "Energy Restoration",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 9,
 											},
-											width = "204",
+											width = "109",
 											ZOrder = "1",
 										},
 									},
@@ -3325,7 +3325,7 @@ local t =
 															{
 																PositionY = 63,
 															},
-															width = "200",
+															width = "360",
 															ZOrder = "1",
 														},
 														{
@@ -3368,8 +3368,8 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -82,
-																PositionY = 87,
+																PositionX = -153,
+																PositionY = 85,
 															},
 															width = "187",
 															ZOrder = "1",
@@ -3414,8 +3414,8 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -82,
-																PositionY = 67,
+																PositionX = -153,
+																PositionY = 65,
 															},
 															width = "272",
 															ZOrder = "1",
@@ -3460,8 +3460,8 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -82,
-																PositionY = 47,
+																PositionX = -153,
+																PositionY = 45,
 															},
 															width = "272",
 															ZOrder = "1",

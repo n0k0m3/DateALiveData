@@ -196,7 +196,7 @@ local t =
 									controlID = "label_buyTimes_Image_content_Panel_root_Panel-welfareRechargeView_Layer1_activity_Game",
 									UUID = "2f2a5578_7c85_4c7d_a4ce_1ac958ae067d",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "0.5",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -218,8 +218,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "label_buyTimes",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -232,10 +232,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 254,
-										PositionY = -175,
+										PositionX = 351,
+										PositionY = -174,
 									},
-									width = "144",
+									width = "198",
 									ZOrder = "1",
 								},
 								{
@@ -280,9 +280,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 390,
-										PositionY = 65,
+										PositionY = 68,
 									},
-									width = "53",
+									width = "126",
 									ZOrder = "1",
 								},
 							},
@@ -311,7 +311,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 360,
-								PositionY = -221,
+								PositionY = -228,
 							},
 							UItype = "Button",
 							width = "164",
@@ -345,7 +345,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_signInReceive",
 									nTextAlign = "1",
@@ -361,7 +361,7 @@ local t =
 									{
 										
 									},
-									width = "55",
+									width = "85",
 									ZOrder = "1",
 								},
 							},

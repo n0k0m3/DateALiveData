@@ -307,10 +307,12 @@ function TFAssetsManager:downloadFullAssets(callback)
 	local normalList = self:getAllCfgFileList()
 	local downloadList = self:checkAssets(normalList,isfirst)
 	if self:priorityDownload(downloadList) == false then
-        if self.priorityCallback then
-			self.priorityCallback()
-			self.priorityCallback = nil
-		end
+		self:unZipAwb(function( )
+			if self.priorityCallback then
+				self.priorityCallback()
+				self.priorityCallback = nil
+			end
+		end)
 		return
 	end
 	local network = TFDeviceInfo:getNetWorkType()
@@ -347,9 +349,11 @@ end
 
 function TFAssetsManager:downloadAssetsOfFunc(funcId,callback,isconfirm)
 	if EX_ASSETS_ENABLE ~= true then
-		if callback then
-			callback()
-		end
+		self:unZipAwb(function( )
+			if callback then
+				callback()
+			end
+		end)
 		return
 	end
 
@@ -369,10 +373,12 @@ function TFAssetsManager:downloadAssetsOfFunc(funcId,callback,isconfirm)
 	local funcAssetsList = self.extAssetsCfg[funcId].packID
 	local extHeroCfg = self.extAssetsSeriesCfg[4]
 	if funcAssetsList == nil and extHeroCfg == nil then
-		if self.priorityCallback then
-			self.priorityCallback()
-			self.priorityCallback = nil
-		end
+		self:unZipAwb(function( )
+			if self.priorityCallback then
+				self.priorityCallback()
+				self.priorityCallback = nil
+			end
+		end)
 		return
 	end
 	local checkList = {}
@@ -401,10 +407,12 @@ function TFAssetsManager:downloadAssetsOfFunc(funcId,callback,isconfirm)
 	end
 	local downloadList = self:checkAssets(checkList)
 	if self:priorityDownload(downloadList) == false then
-        if self.priorityCallback then
-			self.priorityCallback()
-			self.priorityCallback = nil
-		end
+		self:unZipAwb(function( )
+			if self.priorityCallback then
+				self.priorityCallback()
+				self.priorityCallback = nil
+			end
+		end)
 		return
 	end
 	--显示插队下载界面
@@ -526,10 +534,12 @@ function TFAssetsManager:downloadHeroAssets(callback,isconfirm)
 	end
 	local downloadList = self:checkAssets(checkList)
 	if self:priorityDownload(downloadList) == false then
-        if self.priorityCallback then
-			self.priorityCallback()
-			self.priorityCallback = nil
-		end
+		self:unZipAwb(function( )
+			if self.priorityCallback then
+				self.priorityCallback()
+				self.priorityCallback = nil
+			end
+		end)
 		return
 	end
 	--显示插队下载界面
@@ -572,11 +582,13 @@ end
 
 function TFAssetsManager:priorityDownload(downloadList)
 	if table.count(downloadList) == 0 then
-		if self.priorityCallback then
-			--Utils:sendHttpLog("9")
-			self.priorityCallback()
-			self.priorityCallback = nil
-		end
+		self:unZipAwb(function( )
+			if self.priorityCallback then
+				--Utils:sendHttpLog("9")
+				self.priorityCallback()
+				self.priorityCallback = nil
+			end
+		end)
 		return false
 	end
 	self.priorityAssets = {}
@@ -584,10 +596,12 @@ function TFAssetsManager:priorityDownload(downloadList)
 		self.priorityAssets[v] = 1
 	end
 	if table.count(downloadList) == 0 then
-		if self.priorityCallback then
-			self.priorityCallback()
-			self.priorityCallback = nil
-		end
+		self:unZipAwb(function( )
+			if self.priorityCallback then
+				self.priorityCallback()
+				self.priorityCallback = nil
+			end
+		end)
 		return false
 	end
 	--插队下载
@@ -756,10 +770,12 @@ function TFAssetsManager:onFileDownloaded(info)
 		end
 		if priorityAllOk == true then
 			EventMgr:dispatchEvent(EV_EXT_ASSET_DOWNLOAD_VIEW_CLOSE)
-			if self.priorityCallback then
-				self.priorityCallback()
-				self.priorityCallback = nil
-			end
+			self:unZipAwb(function( )
+				if self.priorityCallback then
+					self.priorityCallback()
+					self.priorityCallback = nil
+				end
+			end)
 			self.priorityAssets = nil
 			self.allowedPriority = false
 			self:downloadAssetsNormal()
@@ -891,11 +907,32 @@ function TFAssetsManager:getDownLoadedAwbFiles( )
 			end
 		end
 	end
+	local awbList2 = {}
+	awbList2[407] = 407
+	awbList2[703] = 703
+	awbList2[303] = 303
+	awbList2[305] = 305
+	awbList2[999] = 999
+	for _,_awbId in ipairs(awbList2) do
+		local localfilepath = string.format("%s%d.awb",self.extAssetsSavePath, _awbId)
+		if TFFileUtil:existFile(localfilepath) then
+			downLoadedList[_awbId] = _awbId
+		end
+	end
+
 	local t = {}
 	for _,_awbId in pairs(downLoadedList) do
 		table.insert(t, _awbId)
 	end
 	return t
+end
+
+function TFAssetsManager:unZipAwb( callBack )
+	if TFClientAwbBundle == nil then 
+		if callBack then callBack() end
+		return
+	end
+	Utils:openView("common.UnZipFileLayer", callBack)
 end
 
 return TFAssetsManager

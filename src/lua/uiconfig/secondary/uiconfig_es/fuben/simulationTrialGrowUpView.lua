@@ -411,8 +411,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 723,
-										PositionY = 240,
+										PositionX = 670,
+										PositionY = 242,
 									},
 									uipanelviewmodel = 
 									{
@@ -657,8 +657,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 723,
-										PositionY = 149,
+										PositionX = 670,
+										PositionY = 151,
 									},
 									uipanelviewmodel = 
 									{
@@ -739,10 +739,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 256,
+												PositionX = 372,
 												PositionY = 19,
 												IsPercent = true,
-												PercentX = 102.98,
+												PercentX = 149.49,
 												PercentY = 50,
 											},
 											width = "28",
@@ -837,10 +837,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 206,
+												PositionX = 321,
 												PositionY = 19,
 												IsPercent = true,
-												PercentX = 82.62,
+												PercentX = 129.13,
 												PercentY = 50,
 											},
 											width = "28",
@@ -866,10 +866,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 232,
+												PositionX = 348,
 												PositionY = 19,
 												IsPercent = true,
-												PercentX = 93.41,
+												PercentX = 139.92,
 												PercentY = 50,
 											},
 											width = "44",
@@ -1071,11 +1071,11 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 276,
-												PositionY = 19,
+												PositionX = 347,
+												PositionY = 16,
 												IsPercent = true,
-												PercentX = 110.84,
-												PercentY = 50,
+												PercentX = 139.71,
+												PercentY = 42.12,
 											},
 											width = "26",
 											ZOrder = "1",
@@ -1236,11 +1236,11 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 276,
-												PositionY = 19,
+												PositionX = 347,
+												PositionY = 16,
 												IsPercent = true,
-												PercentX = 110.84,
-												PercentY = 50,
+												PercentX = 139.71,
+												PercentY = 42.12,
 											},
 											width = "26",
 											ZOrder = "1",
@@ -1401,11 +1401,11 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 276,
-												PositionY = 19,
+												PositionX = 347,
+												PositionY = 16,
 												IsPercent = true,
-												PercentX = 110.84,
-												PercentY = 50,
+												PercentX = 139.71,
+												PercentY = 42.12,
 											},
 											width = "26",
 											ZOrder = "1",
@@ -3990,11 +3990,11 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -4494,11 +4494,11 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -4998,11 +4998,11 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",

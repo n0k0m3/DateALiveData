@@ -646,7 +646,7 @@ local t =
 												PositionX = -377,
 												PositionY = 23,
 											},
-											width = "50",
+											width = "52",
 											ZOrder = "1",
 										},
 										{
@@ -692,7 +692,7 @@ local t =
 												PositionX = -352,
 												PositionY = 4,
 											},
-											width = "42",
+											width = "43",
 											ZOrder = "1",
 										},
 									},
@@ -832,11 +832,13 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									scaleX = "0.7",
+									scaleY = "0.7",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -846,9 +848,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 181,
+										PositionY = 185,
 									},
-									width = "302",
+									width = "289",
 									ZOrder = "1",
 								},
 								{
@@ -894,7 +896,7 @@ local t =
 										PositionX = -1,
 										PositionY = -131,
 									},
-									width = "35",
+									width = "39",
 									ZOrder = "1",
 								},
 								{
@@ -1113,7 +1115,7 @@ local t =
 									{
 										PositionY = -177,
 									},
-									width = "60",
+									width = "70",
 									ZOrder = "1",
 								},
 								{
@@ -1190,7 +1192,7 @@ local t =
 											{
 												
 											},
-											width = "129",
+											width = "146",
 											ZOrder = "1",
 										},
 									},
@@ -1236,7 +1238,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 1,
-										PositionY = 143,
+										PositionY = 151,
 									},
 									width = "174",
 									ZOrder = "1",
@@ -1342,7 +1344,7 @@ local t =
 										PositionY = -176,
 									},
 									visible = "False",
-									width = "120",
+									width = "132",
 									ZOrder = "1",
 									components = 
 									{
@@ -1579,7 +1581,7 @@ local t =
 													{
 														
 													},
-													width = "83",
+													width = "75",
 													ZOrder = "1",
 												},
 											},
@@ -1821,7 +1823,7 @@ local t =
 										PositionX = -1,
 										PositionY = -15,
 									},
-									width = "52",
+									width = "50",
 									ZOrder = "1",
 								},
 							},
@@ -1995,7 +1997,7 @@ local t =
 										PositionX = 3,
 										PositionY = -21,
 									},
-									width = "78",
+									width = "87",
 									ZOrder = "1",
 								},
 								{

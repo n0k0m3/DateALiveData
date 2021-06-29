@@ -467,7 +467,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "排行",
+											text = "순위",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -475,7 +475,7 @@ local t =
 												PositionX = 49,
 												PositionY = -7,
 											},
-											width = "46",
+											width = "42",
 											ZOrder = "1",
 										},
 										{
@@ -521,7 +521,8 @@ local t =
 												PositionX = 74,
 												PositionY = -9,
 											},
-											width = "69",
+											visible = "False",
+											width = "67",
 											ZOrder = "1",
 										},
 									},
@@ -633,7 +634,7 @@ local t =
 													{
 														
 													},
-													width = "19",
+													width = "21",
 													ZOrder = "1",
 												},
 											},
@@ -898,7 +899,7 @@ local t =
 												PositionX = -44,
 												PositionY = -11,
 											},
-											width = "18",
+											width = "17",
 											ZOrder = "1",
 										},
 										{
@@ -1135,8 +1136,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -15,
-										PositionY = -2,
+										PositionX = 13,
 									},
 									width = "58",
 									ZOrder = "1",
@@ -1745,7 +1745,7 @@ local t =
 									{
 										PositionX = -7,
 									},
-									width = "15",
+									width = "21",
 									ZOrder = "1",
 								},
 								{
@@ -1791,7 +1791,7 @@ local t =
 										PositionX = 32,
 										PositionY = -3,
 									},
-									width = "20",
+									width = "18",
 									ZOrder = "1",
 								},
 							},
@@ -1945,7 +1945,7 @@ local t =
 									{
 										PositionX = -132,
 									},
-									width = "45",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -2312,7 +2312,7 @@ local t =
 									{
 										PositionY = -58,
 									},
-									width = "36",
+									width = "34",
 									ZOrder = "1",
 								},
 								{

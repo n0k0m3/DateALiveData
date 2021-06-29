@@ -192,7 +192,7 @@ local t =
 										PositionX = 390,
 										PositionY = 232,
 									},
-									width = "212",
+									width = "213",
 									ZOrder = "1",
 								},
 								{
@@ -284,7 +284,7 @@ local t =
 										PositionX = 110,
 										PositionY = -238,
 									},
-									width = "469",
+									width = "468",
 									ZOrder = "1",
 								},
 								{
@@ -327,8 +327,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 291,
-										PositionY = -203,
+										PositionX = 310,
+										PositionY = -195,
 									},
 									width = "80",
 									ZOrder = "1",

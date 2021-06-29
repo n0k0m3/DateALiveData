@@ -144,11 +144,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "54",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_collect",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -158,10 +158,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -409,
+								PositionX = -371,
 								PositionY = -278,
 							},
-							width = "282",
+							width = "356",
 							ZOrder = "1",
 							components = 
 							{
@@ -206,9 +206,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -83,
+										PositionX = -152,
 									},
-									width = "99",
+									width = "206",
 									ZOrder = "1",
 								},
 								{
@@ -251,9 +251,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 32,
+										PositionX = 70,
+										PositionY = 2,
 									},
-									width = "45",
+									width = "48",
 									ZOrder = "1",
 								},
 							},
@@ -598,11 +599,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "54",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_item_di",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -612,10 +613,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 364,
+								PositionX = 165,
 								PositionY = -278,
 							},
-							width = "395",
+							width = "644",
 							ZOrder = "1",
 							components = 
 							{
@@ -643,8 +644,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 132,
-										PositionY = 1,
+										PositionX = 257,
+										PositionY = 2,
 									},
 									UItype = "Button",
 									width = "124",
@@ -694,7 +695,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "83",
 											ZOrder = "1",
 										},
 									},
@@ -719,8 +720,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 133,
-										PositionY = 91,
+										PositionX = 258,
+										PositionY = 92,
 									},
 									width = "101",
 									ZOrder = "1",
@@ -796,9 +797,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -162,
+										PositionX = -291,
+										PositionY = -1,
 									},
-									width = "157",
+									width = "358",
 									ZOrder = "1",
 								},
 							},

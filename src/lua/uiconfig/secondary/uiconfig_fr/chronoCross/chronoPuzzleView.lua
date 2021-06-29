@@ -251,7 +251,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 32,
+										PositionX = 151,
+										PositionY = -1,
 									},
 									width = "48",
 									ZOrder = "1",
@@ -602,7 +603,7 @@ local t =
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "54",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_item_di",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -612,10 +613,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 364,
+								PositionX = 168,
 								PositionY = -278,
 							},
-							width = "395",
+							width = "634",
 							ZOrder = "1",
 							components = 
 							{
@@ -643,7 +644,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 132,
+										PositionX = 251,
 										PositionY = 1,
 									},
 									UItype = "Button",
@@ -719,7 +720,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 133,
+										PositionX = 252,
 										PositionY = 91,
 									},
 									width = "101",
@@ -796,7 +797,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -162,
+										PositionX = -280,
 									},
 									width = "249",
 									ZOrder = "1",

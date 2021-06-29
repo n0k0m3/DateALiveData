@@ -458,7 +458,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_rank",
 											nTextAlign = "1",
@@ -472,10 +472,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 49,
-												PositionY = -7,
+												PositionX = 82,
+												PositionY = -3,
 											},
-											width = "47",
+											width = "99",
 											ZOrder = "1",
 										},
 										{
@@ -521,7 +521,8 @@ local t =
 												PositionX = 74,
 												PositionY = -9,
 											},
-											width = "69",
+											visible = "False",
+											width = "67",
 											ZOrder = "1",
 										},
 									},
@@ -617,7 +618,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "47",
+													height = "44",
 													ignoreSize = "True",
 													name = "Label_rank_num",
 													nTextAlign = "1",
@@ -633,7 +634,7 @@ local t =
 													{
 														
 													},
-													width = "22",
+													width = "21",
 													ZOrder = "1",
 												},
 											},
@@ -680,7 +681,7 @@ local t =
 											{
 												PositionX = -84,
 											},
-											width = "195",
+											width = "280",
 											ZOrder = "1",
 										},
 									},
@@ -812,7 +813,7 @@ local t =
 												PositionX = -67,
 												PositionY = 5,
 											},
-											width = "163",
+											width = "233",
 											ZOrder = "1",
 										},
 									},
@@ -898,7 +899,7 @@ local t =
 												PositionX = -44,
 												PositionY = -11,
 											},
-											width = "18",
+											width = "17",
 											ZOrder = "1",
 										},
 										{
@@ -944,7 +945,7 @@ local t =
 												PositionX = -34,
 												PositionY = -13,
 											},
-											width = "163",
+											width = "233",
 											ZOrder = "1",
 										},
 									},
@@ -995,11 +996,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "59",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_single",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -1009,10 +1010,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 376,
+								PositionX = 377,
 								PositionY = -132,
 							},
-							width = "278",
+							width = "350",
 							ZOrder = "1",
 							components = 
 							{
@@ -1033,6 +1034,8 @@ local t =
 									ignoreSize = "True",
 									name = "Button_achieve",
 									normal = "ui/ChronoCros/main/btn.png",
+									scaleX = "1.2",
+									scaleY = "1.2",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1067,18 +1070,20 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_btn",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1090,7 +1095,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "78",
 											ZOrder = "1",
 										},
 									},
@@ -1121,7 +1126,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_achieve",
 									nTextAlign = "1",
@@ -1135,10 +1140,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -15,
-										PositionY = -2,
+										PositionX = -143,
+										PositionY = -10,
 									},
-									width = "91",
+									width = "58",
 									ZOrder = "1",
 								},
 								{
@@ -1167,7 +1172,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_tip",
 									nTextAlign = "1",
@@ -1181,10 +1186,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -120,
-										PositionY = -2,
+										PositionX = -151,
+										PositionY = 11,
 									},
-									width = "99",
+									width = "203",
 									ZOrder = "1",
 								},
 								{
@@ -1698,7 +1703,7 @@ local t =
 											{
 												
 											},
-											width = "90",
+											width = "134",
 											ZOrder = "1",
 										},
 									},
@@ -1745,7 +1750,7 @@ local t =
 									{
 										PositionX = -7,
 									},
-									width = "15",
+									width = "21",
 									ZOrder = "1",
 								},
 								{
@@ -1791,7 +1796,7 @@ local t =
 										PositionX = 32,
 										PositionY = -3,
 									},
-									width = "20",
+									width = "18",
 									ZOrder = "1",
 								},
 							},
@@ -1929,7 +1934,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_rank_num",
 									nTextAlign = "1",
@@ -1945,7 +1950,7 @@ local t =
 									{
 										PositionX = -132,
 									},
-									width = "67",
+									width = "44",
 									ZOrder = "1",
 								},
 								{
@@ -1990,7 +1995,7 @@ local t =
 									{
 										PositionX = -34,
 									},
-									width = "163",
+									width = "233",
 									ZOrder = "1",
 								},
 								{
@@ -2129,7 +2134,7 @@ local t =
 										PositionX = 9,
 										PositionY = -4,
 									},
-									width = "129",
+									width = "200",
 									ZOrder = "1",
 								},
 								{
@@ -2203,7 +2208,7 @@ local t =
 										PositionX = 163,
 										PositionY = -4,
 									},
-									width = "129",
+									width = "200",
 									ZOrder = "1",
 								},
 							},
@@ -2312,7 +2317,7 @@ local t =
 									{
 										PositionY = -58,
 									},
-									width = "36",
+									width = "34",
 									ZOrder = "1",
 								},
 								{

@@ -186,8 +186,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 63,
-										PositionY = 27,
+										PositionX = 9,
+										PositionY = 35,
 									},
 									width = "355",
 									ZOrder = "1",
@@ -196,7 +196,7 @@ local t =
 									controlID = "label_buyTimes_Image_content_Panel_root_Panel-welfareRechargeView_Layer1_activity_Game",
 									UUID = "2f2a5578_7c85_4c7d_a4ce_1ac958ae067d",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "0.5",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -218,8 +218,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "label_buyTimes",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -232,10 +232,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 254,
-										PositionY = -175,
+										PositionX = 349,
+										PositionY = -172,
 									},
-									width = "144",
+									width = "208",
 									ZOrder = "1",
 								},
 								{
@@ -264,8 +264,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "25",
+									ignoreSize = "True",
 									name = "label_hdts",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -279,10 +279,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 390,
-										PositionY = 65,
+										PositionX = 376,
+										PositionY = 69,
 									},
-									width = "53",
+									width = "155",
 									ZOrder = "1",
 								},
 							},
@@ -345,7 +345,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_signInReceive",
 									nTextAlign = "1",
@@ -361,7 +361,7 @@ local t =
 									{
 										
 									},
-									width = "55",
+									width = "134",
 									ZOrder = "1",
 								},
 							},

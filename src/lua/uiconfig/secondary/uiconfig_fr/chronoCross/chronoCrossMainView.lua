@@ -472,10 +472,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 49,
-												PositionY = -7,
+												PositionX = 99,
+												PositionY = -6,
 											},
-											width = "124",
+											width = "134",
 											ZOrder = "1",
 										},
 										{
@@ -521,7 +521,8 @@ local t =
 												PositionX = 74,
 												PositionY = -9,
 											},
-											width = "102",
+											visible = "False",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -633,7 +634,7 @@ local t =
 													{
 														
 													},
-													width = "55",
+													width = "56",
 													ZOrder = "1",
 												},
 											},
@@ -680,7 +681,7 @@ local t =
 											{
 												PositionX = -84,
 											},
-											width = "293",
+											width = "279",
 											ZOrder = "1",
 										},
 									},
@@ -766,7 +767,7 @@ local t =
 												PositionX = -78,
 												PositionY = 7,
 											},
-											width = "43",
+											width = "40",
 											ZOrder = "1",
 										},
 										{
@@ -812,7 +813,7 @@ local t =
 												PositionX = -67,
 												PositionY = 5,
 											},
-											width = "244",
+											width = "233",
 											ZOrder = "1",
 										},
 									},
@@ -898,7 +899,7 @@ local t =
 												PositionX = -44,
 												PositionY = -11,
 											},
-											width = "43",
+											width = "40",
 											ZOrder = "1",
 										},
 										{
@@ -944,7 +945,7 @@ local t =
 												PositionX = -34,
 												PositionY = -13,
 											},
-											width = "244",
+											width = "233",
 											ZOrder = "1",
 										},
 									},
@@ -995,11 +996,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "59",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_single",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -1009,10 +1010,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 376,
-								PositionY = -132,
+								PositionX = 349,
+								PositionY = -148,
 							},
-							width = "278",
+							width = "347",
 							ZOrder = "1",
 							components = 
 							{
@@ -1029,8 +1030,8 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "80",
-									ignoreSize = "True",
+									height = "110",
+									ignoreSize = "False",
 									name = "Button_achieve",
 									normal = "ui/ChronoCros/main/btn.png",
 									sizepercentx = "0",
@@ -1040,10 +1041,10 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 130,
+										PositionX = 169,
 									},
 									UItype = "Button",
-									width = "80",
+									width = "110",
 									ZOrder = "1",
 									components = 
 									{
@@ -1067,14 +1068,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "28",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_btn",
 											nTextAlign = "1",
@@ -1090,7 +1091,7 @@ local t =
 											{
 												
 											},
-											width = "90",
+											width = "80",
 											ZOrder = "1",
 										},
 									},
@@ -1135,10 +1136,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -15,
-										PositionY = -2,
+										PositionX = -153,
+										PositionY = -13,
 									},
-									width = "75",
+									width = "76",
 									ZOrder = "1",
 								},
 								{
@@ -1181,10 +1182,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -120,
-										PositionY = -2,
+										PositionX = -158,
+										PositionY = 13,
 									},
-									width = "210",
+									width = "234",
 									ZOrder = "1",
 								},
 								{
@@ -1698,7 +1699,7 @@ local t =
 											{
 												
 											},
-											width = "159",
+											width = "150",
 											ZOrder = "1",
 										},
 									},
@@ -1745,7 +1746,7 @@ local t =
 									{
 										PositionX = -7,
 									},
-									width = "55",
+									width = "59",
 									ZOrder = "1",
 								},
 								{
@@ -1791,7 +1792,7 @@ local t =
 										PositionX = 32,
 										PositionY = -3,
 									},
-									width = "20",
+									width = "18",
 									ZOrder = "1",
 								},
 							},
@@ -1945,7 +1946,7 @@ local t =
 									{
 										PositionX = -132,
 									},
-									width = "66",
+									width = "68",
 									ZOrder = "1",
 								},
 								{
@@ -1990,7 +1991,7 @@ local t =
 									{
 										PositionX = -34,
 									},
-									width = "244",
+									width = "233",
 									ZOrder = "1",
 								},
 								{
@@ -2129,7 +2130,7 @@ local t =
 										PositionX = 9,
 										PositionY = -4,
 									},
-									width = "146",
+									width = "141",
 									ZOrder = "1",
 								},
 								{
@@ -2203,7 +2204,7 @@ local t =
 										PositionX = 163,
 										PositionY = -4,
 									},
-									width = "146",
+									width = "141",
 									ZOrder = "1",
 								},
 							},
@@ -2312,7 +2313,7 @@ local t =
 									{
 										PositionY = -58,
 									},
-									width = "36",
+									width = "34",
 									ZOrder = "1",
 								},
 								{

@@ -17927,14 +17927,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "18",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_timing",
 											nTextAlign = "1",
@@ -17948,10 +17948,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 24,
-												PositionY = -33,
+												PositionX = -96,
+												PositionY = -30,
 											},
-											width = "64",
+											width = "71",
 											ZOrder = "1",
 										},
 										{
@@ -17973,14 +17973,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "18",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_cding",
 											nTextAlign = "1",
@@ -17994,10 +17994,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -96,
-												PositionY = -32,
+												PositionX = -95,
+												PositionY = -7,
 											},
-											width = "79",
+											width = "88",
 											ZOrder = "1",
 										},
 									},

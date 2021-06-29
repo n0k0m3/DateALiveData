@@ -273,7 +273,7 @@ local t =
 									controlID = "Label_time_Image_font1_Panel_root_Panel-simulationTrialMainView_Layer1_fuben_Game",
 									UUID = "f44e7a80_fcec_4586_92d6_e5ab166a91da",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -309,8 +309,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 13,
-										PositionY = -49,
+										PositionX = 164,
+										PositionY = -46,
 									},
 									width = "196",
 									ZOrder = "1",
@@ -459,8 +459,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -530,
-								PositionY = -124,
+								PositionX = -476,
+								PositionY = -126,
 							},
 							UItype = "Button",
 							width = "39",
@@ -568,8 +568,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 26,
-										PositionY = -41,
+										PositionX = -22,
+										PositionY = -44,
 									},
 									width = "169",
 									ZOrder = "1",
@@ -825,8 +825,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -530,
-								PositionY = -198,
+								PositionX = -476,
+								PositionY = -200,
 							},
 							UItype = "Button",
 							width = "41",

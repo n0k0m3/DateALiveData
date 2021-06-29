@@ -273,7 +273,7 @@ local t =
 									controlID = "Label_time_Image_font1_Panel_root_Panel-simulationTrialMainView_Layer1_fuben_Game",
 									UUID = "f44e7a80_fcec_4586_92d6_e5ab166a91da",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -309,10 +309,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 13,
-										PositionY = -49,
+										PositionX = 161,
+										PositionY = -46,
 									},
-									width = "134",
+									width = "170",
 									ZOrder = "1",
 								},
 							},
@@ -369,7 +369,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "37",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -387,7 +387,7 @@ local t =
 								PositionY = 204,
 							},
 							visible = "False",
-							width = "124",
+							width = "193",
 							ZOrder = "1",
 						},
 						{
@@ -459,8 +459,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -530,
-								PositionY = -124,
+								PositionX = -454,
+								PositionY = -121,
 							},
 							UItype = "Button",
 							width = "39",
@@ -554,7 +554,7 @@ local t =
 										StrokeColor = "#FF40468D",
 										StrokeSize = 1,
 									},
-									height = "34",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -568,10 +568,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 26,
-										PositionY = -41,
+										PositionX = -28,
+										PositionY = -38,
 									},
-									width = "56",
+									width = "149",
 									ZOrder = "1",
 								},
 								{
@@ -618,7 +618,7 @@ local t =
 										PositionX = 26,
 										PositionY = 50,
 									},
-									width = "52",
+									width = "71",
 									ZOrder = "1",
 								},
 								{
@@ -707,7 +707,7 @@ local t =
 										StrokeColor = "#FF40468D",
 										StrokeSize = 1,
 									},
-									height = "34",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -724,7 +724,7 @@ local t =
 										PositionX = 24,
 										PositionY = -49,
 									},
-									width = "56",
+									width = "101",
 									ZOrder = "1",
 								},
 								{
@@ -771,7 +771,7 @@ local t =
 										PositionX = 26,
 										PositionY = 48,
 									},
-									width = "57",
+									width = "55",
 									ZOrder = "1",
 								},
 								{
@@ -825,8 +825,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -530,
-								PositionY = -198,
+								PositionX = -454,
+								PositionY = -195,
 							},
 							UItype = "Button",
 							width = "41",
