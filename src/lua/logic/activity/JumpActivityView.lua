@@ -127,7 +127,7 @@ function JumpActivityView:jumpFunc( )
 		Utils:openView("activity.ActivitySpecialCgView",self.activityId)
 	elseif activityInfo.activityType == EC_ActivityType2.KUANGSAN_FUBEN then
 		--FunctionDataMgr:jKsanFuben()  --狂三跳转修改为英文版特殊的
-		FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface, unpack(activityInfo.extendData.jumpParamters or {}))
+		FunctionDataMgr:jKsanXinghongMoyu()
 	elseif activityInfo.activityType == EC_ActivityType2.NEWYEAR_FUBEN or activityInfo.activityType == EC_ActivityType2.HWX_FUBEN then
 		FunctionDataMgr:jSpecialFuben(activityInfo.activityType)
 	elseif activityInfo.activityType == EC_ActivityType2.WSJ_2020 then

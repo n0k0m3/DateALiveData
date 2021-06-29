@@ -111,6 +111,7 @@ local t =
 								TopPosition = -992,
 								relativeToName = "Panel",
 							},
+							visible = "False",
 							width = "1386",
 							ZOrder = "1",
 						},
@@ -120,16 +121,14 @@ local t =
 							classname = "MESpine",
 							dstBlendFunc = "771",
 							name = "Spine_bg",
-							scaleX = "0.6",
-							scaleY = "0.6",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							spineModel = 
 							{
-								SpinePath = "modle/hero/paintshow_10212/paintshow_10212",
+								SpinePath = "effect/effect_herotest_bg/effect_herotest_bg",
 								animationName = "animation",
-								IsLoop = true,
+								IsLoop = false,
 								IsPlay = true,
 								IsUseQueue = false,
 								AnimationQueue = 
@@ -141,8 +140,6 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -206,
-								PositionY = -403,
 								LeftPositon = 568,
 								TopPosition = 320,
 								relativeToName = "Panel",
@@ -173,6 +170,7 @@ local t =
 								TopPosition = -992,
 								relativeToName = "Panel",
 							},
+							visible = "False",
 							width = "1386",
 							ZOrder = "1",
 						},
@@ -837,7 +835,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 308,
+												PositionX = 309,
 												PositionY = 18,
 												IsPercent = true,
 												PercentX = 123.92,
@@ -1071,8 +1069,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 305,
-												PositionY = 20,
+												PositionX = 306,
+												PositionY = 21,
 												IsPercent = true,
 												PercentX = 122.87,
 												PercentY = 55.26,
@@ -1236,8 +1234,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 305,
-												PositionY = 20,
+												PositionX = 306,
+												PositionY = 21,
 												IsPercent = true,
 												PercentX = 122.87,
 												PercentY = 55.26,
@@ -1401,8 +1399,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 305,
-												PositionY = 20,
+												PositionX = 306,
+												PositionY = 21,
 												IsPercent = true,
 												PercentX = 122.87,
 												PercentY = 55.26,

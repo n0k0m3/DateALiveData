@@ -72615,12 +72615,13 @@ return {
         unlock = {
             endId = {
                 [1] = 563008,
+                [2] = 782008,
             },
         },
         sort = 933,
         sortr = "933",
         name1 = 1705098,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -72683,7 +72684,7 @@ return {
         sort = 934,
         sortr = "934",
         name1 = 1705098,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -72746,7 +72747,7 @@ return {
         sort = 935,
         sortr = "935",
         name1 = 1705098,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,

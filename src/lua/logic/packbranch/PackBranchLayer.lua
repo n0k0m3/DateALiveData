@@ -53,7 +53,7 @@ function PackBranchLayer:onShow()
 
     if EX_ASSETS_ENABLE then return end
     DelayCall(function()
-        restartLuaEngine("checkPackBranchComplte")
+        AlertManager:changeScene(SceneType.LOGO)
     end,1)
 end
 
@@ -98,7 +98,7 @@ function PackBranchLayer:downLoadExtListFileSuc()
         local checkExtId = self:getFuncIDByLangCode(TFLanguageMgr:getUsingLanguage())
         if (checkExtId) then
             TFAssetsManager:downloadAssetsOfFunc(checkExtId, function()
-                restartLuaEngine("checkPackBranchComplte")
+                AlertManager:changeScene(SceneType.LOGO)
             end, false)
         end
         return 

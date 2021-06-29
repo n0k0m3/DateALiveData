@@ -6,13 +6,22 @@ function UnZipFileLayer:ctor( callBack )
     self.strCfg = TFGlobalUtils:requireGlobalFile("lua.table.StartString")
     self:init("lua.uiconfig.common.unZipFileLayer")
     self.callBack = callBack
+    self.status = 0
+    self.downLoadedAwbFiles = {}
+    self.allNeedUnZipNum = 0
 end
 
 function UnZipFileLayer:initUI(ui)
     self.super.initUI(self, ui)
 
     self.label_title = TFDirector:getChildByPath(ui,"label_title")
-    self.label_title:setText("")
+    local text = ""
+    if self.strCfg[190000885] then
+        text = self.strCfg[190000885].text
+    else
+        text = "no string id 190000885 "
+    end
+    self.label_title:setText(text)
 
     local img_bg = TFDirector:getChildByPath(ui,"img_bg")
     local path,desc = Utils:randomAD(3)
@@ -113,22 +122,19 @@ function UnZipFileLayer:startUnCompressAwb( )
         return
     end
 
-    local downLoadedAwbFiles = TFAssetsManager:getDownLoadedAwbFiles()
-    if #downLoadedAwbFiles <= 0 then 
-        if self.callBack then
-            self.callBack() 
-            AlertManager:closeLayer(self)
-        end
-        return
-    end
-    local allNeedUnZipNum = #downLoadedAwbFiles
-    self:unCompressAwbStart(allNeedUnZipNum)
-
-    local status = 0
     local update = function( dt )
-        if status == 0 then --开始解压
-            status = 1
-            local awbId = downLoadedAwbFiles[1]
+        if self.status == 0 then
+            self.downLoadedAwbFiles = TFAssetsManager:getDownLoadedAwbFiles()
+            if #self.downLoadedAwbFiles <= 0 then 
+                self.status = 5
+            else
+                self.allNeedUnZipNum = #self.downLoadedAwbFiles
+                self.status = 1
+            end
+            self:unCompressAwbStart(#self.downLoadedAwbFiles)
+        elseif self.status == 1 then --开始解压
+            self.status = 2
+            local awbId = self.downLoadedAwbFiles[1]
             if TFClientAwbBundle and awbId then
                 TFClientAwbBundle:defaultAwbBundle():setUnzipAwbCompleteHandler(function( filePath )
                     print("TFClientAwbBundle unzipFiles  success!!!! ")
@@ -137,35 +143,38 @@ function UnZipFileLayer:startUnCompressAwb( )
                     if TFFileUtil:existFile(filePath) then
                         os.remove(filePath)
                     end
-                    status = 2
+                    self.status = 3
                 end)
                 TFClientAwbBundle:defaultAwbBundle():setUnZipAwbFailedHandler(function( status )
                     print("TFClientAwbBundle unzipFiles  failed!!!! ")
                     TFClientAwbBundle:defaultAwbBundle():removeUnzipAwbCompleteHandler()
                     TFClientAwbBundle:defaultAwbBundle():removeUnZipAwbFailedHandler()
-                    status = 3
+                    self.status = 4
                 end)
                 TFClientAwbBundle:defaultAwbBundle():unzipFiles(awbId ..".awb")
             end
-        elseif status == 1 then --解压进行中
-        elseif status == 2 then --解压完成
-            self:unCompressAwbing(#downLoadedAwbFiles, allNeedUnZipNum)
-            table.remove(downLoadedAwbFiles, 1)
-            if #downLoadedAwbFiles <= 0 then
-                status = 4 
+        elseif self.status == 2 then --解压进行中
+        elseif self.status == 3 then --解压完成
+            self:unCompressAwbing(#self.downLoadedAwbFiles, self.allNeedUnZipNum)
+            table.remove(self.downLoadedAwbFiles, 1)
+            if #self.downLoadedAwbFiles <= 0 then
+                self.status = 5 
             else
-                status = 0
+                self.status = 1
             end
-        elseif status == 3 then
+        elseif self.status == 4 then
             self:unCompressAwbFailed( )
-            status = 5
-        elseif status == 4 then --解压所有awb完成
+            self.status = 6
+        elseif self.status == 5 then --解压所有awb完成
             self:unCompressAwbComplete()
-            status = 5
-        elseif status == 5 then
+            self.status = 6
+        elseif self.status == 6 then
+            self.status = -100
             self:stopTimer()
             if self.callBack then self.callBack() end
-            AlertManager:closeLayer(self)
+            self:dispose()
+            self:removeFromParent()
+            --AlertManager:closeLayer(self)
         end
     end
     self:stopTimer()

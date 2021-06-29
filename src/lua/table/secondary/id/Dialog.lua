@@ -8346,15 +8346,21 @@ return {
         scriptId = 3012,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 250,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Jadilah bagian diriku! Aku bisa...... Memakanmu dengan lembut。 ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -9224,15 +9230,21 @@ return {
         scriptId = 3019,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 276,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Apa? ! ......! Kita! Cepat! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -45247,15 +45259,21 @@ return {
         scriptId = 9095,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1343,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Sial! Daun Pohon Dunia terbuka! Tinggalkan Origami sekarang! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -45649,15 +45667,21 @@ return {
         scriptId = 9098,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1359,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Kalau kamu bilang cepat lari pada kami, meskipun sayang yang bilang, aku tetap akan marah. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -53463,21 +53487,15 @@ return {
         scriptId = 9154,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = true,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = true,
         effect = "",
         id = 1642,
-        text = {
-            [1] = {
-                speed = 10,
-                text = "Sial ! Tak bisa dimaafkan! ",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -70161,15 +70179,21 @@ return {
         scriptId = 9241,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2207,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Esper? Apa ini tentang kamar tidur yang kalian bicarakan semalam? Aku masih tidak mengerti. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -70937,15 +70961,21 @@ return {
         scriptId = 9247,
         headMirrorL = true,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2236,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Akan lebih sempurna lagi jika batu sandungan yang menghalangi peradaban manusia yang ada di bawah rokmu bisa hilang! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -71271,15 +71301,21 @@ return {
         scriptId = 9250,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2249,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Sepertinya ini bukan Rune Point utama...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -71639,15 +71675,21 @@ return {
         scriptId = 9252,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2262,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Kotori, kami menemukan Crystalloid semi-transparan di Rune Point. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -71735,15 +71777,21 @@ return {
         scriptId = 9253,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2266,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Chinatown dekat sini sedang mempersiapkan Spring Fest, makanya ada banyak event menarik. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -71831,15 +71879,21 @@ return {
         scriptId = 9254,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2270,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Reine telah menganalisis Kristal yang ditemukan di Rune Point dan mendapati bahwa itu adalah duplikat dari Kristal Spirit. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -71893,15 +71947,21 @@ return {
         scriptId = 9254,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2272,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Kesimpulannya, untuk sementara kami menamainya Kristal Tiruan. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -72125,15 +72185,21 @@ return {
         scriptId = 9256,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2281,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Reine menganalisis lebih lanjut struktur dari Kristal Tiruan dan menemukan bahwa ini masih berhubungan dengan Spirit. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -72153,15 +72219,21 @@ return {
         scriptId = 9256,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2282,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Apakah Kristal Tiruan dan Magic Circle juga merupakan alat yang membatasi Spirit Power? ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -72181,15 +72253,21 @@ return {
         scriptId = 9256,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2283,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Bukan. Magic Circle adalah pola yang diperhitungkan dengan tepat untuk memaksimalkan efek Kristal Tiruan. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -72277,15 +72355,21 @@ return {
         scriptId = 9256,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2286,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Dampak terburuknya... dapat menimbulkan fenomena mengerikan seperti Spacequake Eurasia 30 tahun yang lalu. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -72373,15 +72457,21 @@ return {
         scriptId = 9258,
         headMirrorL = true,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2291,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Onee-san, Kuroko telah mengatasi semua halangan, Kristal Tiruan juga telah dihancurkan. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -72537,15 +72627,21 @@ return {
         scriptId = 9259,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2297,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Agar darling bisa menghadiri acara jumpa fans Spring Festival, Spirit Idol Miku akan membersihkan panggungnya sendiri! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -72565,15 +72661,21 @@ return {
         scriptId = 9260,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2299,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Darling~ Kristal Tiruan di panggung Tengu Square sudah diatasi. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -72627,15 +72729,21 @@ return {
         scriptId = 9260,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2301,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Darling, jangan lupa datang ke acara jumpa fans Spring Fest-ku! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -72791,15 +72899,21 @@ return {
         scriptId = 9262,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2308,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Selesai! Makhluk lemah DEM telah diusir, Kristal Tiruan juga telah dihancurkan. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -73023,15 +73137,21 @@ return {
         scriptId = 9263,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2316,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Lanjutkan sesuai rencana kita, sepertinya inilah Rune Point terakhir. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -73147,15 +73267,21 @@ return {
         scriptId = 9264,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2321,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ara ara~ sungguh panggilan yang aneh, aku lebih senang kalau Origami-san memanggilku Kurumi. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -73175,15 +73301,21 @@ return {
         scriptId = 9264,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2322,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Aku selalu mengikuti kalian, menyaksikan kalian menghancurkan semua Kristal Tiruan Kihihi...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -73271,15 +73403,21 @@ return {
         scriptId = 9264,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2325,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Aku telah menghancurkan Kristal Tiruan terakhir, kamu cukup duduk dan menikmati hasilnya. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -73333,15 +73471,21 @@ return {
         scriptId = 9264,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2327,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Kuberikan sedikit petunjuk: menara tinggi yang mengarah ke surga. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -73395,15 +73539,21 @@ return {
         scriptId = 9265,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2330,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Berdasarkan petunjuk Kurumi, kami memastikan bahwa menara tinggi yang mengarah ke surga adalah Menara Tontonan Kembang Api yang masih dalam tahap pembangunan. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -73865,15 +74015,21 @@ return {
         scriptId = 9268,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2347,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Percuma saja berontak, ritual Ike sudah dimulai. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -74029,15 +74185,21 @@ return {
         scriptId = 9269,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2353,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Kuroko, saat mendengar menara tinggi yang mengarah ke surga , aku merasa tidak enak. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -74057,15 +74219,21 @@ return {
         scriptId = 9269,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2354,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Akhirnya aku ingat sekarang. Tahukah kamu akhir dari legenda Menara Babel Babilon? ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -74391,15 +74559,21 @@ return {
         scriptId = 9269,
         headMirrorL = true,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2364,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Sekarang... biarkan aku tunjukkan guntur yang sebenarnya! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -119790,15 +119964,21 @@ return {
         scriptId = 100800,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1000803,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Origami Tobiichi, aku benci kamu. Dulu ataupun sekarang, masih sama. Tapi kebencian yang sekarang dengan kebencian yang dulu mungkin berbeda. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -130358,15 +130538,21 @@ return {
         scriptId = 25051,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2505105,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Untuk diriku satunya, karena kamu begitu bersemangat untuk kembali, aku akan memenuhi keinginanmu, semua emosimu yang tak berguna akan sirna! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -135256,15 +135442,21 @@ return {
         scriptId = 101100,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1001101,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Haa...... Sepertinya aku di masa depan membuatmu tidak bahagia......",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,

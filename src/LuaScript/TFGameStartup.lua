@@ -310,11 +310,11 @@ function TFGameStartup:run(strrest)
             print("*******************************************")
         end)
         return
-    elseif strrest == "checkPackBranchComplte" then
-         self:loadGameInitFile(function ()
-            AlertManager:changeScene(SceneType.LOGO)
-        end)
-        return
+    -- elseif strrest == "checkPackBranchComplte" then
+    --      self:loadGameInitFile(function ()
+    --         AlertManager:changeScene(SceneType.LOGO)
+    --     end)
+    --     return
     elseif strrest == "EnterGame" then
         print("============显示完默认界面马上进入游戏 EnterGame==============")
         self:loadGameInitFile(function ()

@@ -4319,7 +4319,7 @@ return {
         finishParams = "",
         group = 184,
         taskParam = "",
-        reward = "{500002:100}",
+        reward = "{410209:1}",
         des3 = 0,
         inheritType = 1,
         des = "213084",

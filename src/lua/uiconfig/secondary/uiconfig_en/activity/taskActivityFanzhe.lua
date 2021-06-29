@@ -177,10 +177,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 452,
-										PositionY = -48,
+										PositionX = 419,
+										PositionY = -47,
 									},
-									visible = "False",
 									width = "94",
 									ZOrder = "1",
 								},
@@ -594,14 +593,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "22",
 									fontStroke = 
 									{
-										IsStroke = true,
-										StrokeColor = "#FF435FBB",
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "54",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_desc",
 									nTextAlign = "0",
@@ -657,7 +656,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF435FBB",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -667,14 +666,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_progress_title",
 									nTextAlign = "1",
@@ -688,10 +687,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -296,
-										PositionY = -39,
+										PositionX = -295,
+										PositionY = -47,
 									},
-									width = "75",
+									width = "83",
 									ZOrder = "1",
 								},
 								{
@@ -703,7 +702,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF435FBB",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -713,14 +712,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_progress",
 									nTextAlign = "1",
@@ -734,10 +733,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -51,
-										PositionY = -39,
+										PositionX = -50,
+										PositionY = -47,
 									},
-									width = "74",
+									width = "80",
 									ZOrder = "1",
 								},
 								{

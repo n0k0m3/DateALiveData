@@ -406,7 +406,7 @@ function TFAssetsManager:downloadAssetsOfFunc(funcId,callback,isconfirm)
 		end
 	end
 	local downloadList = self:checkAssets(checkList)
-	if self:priorityDownload(downloadList) == false then
+	if self:priorityDownload(downloadList, false) == false then
 		self:unZipAwb(function( )
 			if self.priorityCallback then
 				self.priorityCallback()
@@ -580,15 +580,18 @@ function TFAssetsManager:downloadHeroAssets(callback,isconfirm)
 	end
 end
 
-function TFAssetsManager:priorityDownload(downloadList)
+function TFAssetsManager:priorityDownload(downloadList, priorityCallbackEnable)
+	if priorityCallbackEnable == nil then priorityCallbackEnable = true end
 	if table.count(downloadList) == 0 then
-		self:unZipAwb(function( )
-			if self.priorityCallback then
-				--Utils:sendHttpLog("9")
-				self.priorityCallback()
-				self.priorityCallback = nil
-			end
-		end)
+		if priorityCallbackEnable then
+			self:unZipAwb(function( )
+				if self.priorityCallback then
+					--Utils:sendHttpLog("9")
+					self.priorityCallback()
+					self.priorityCallback = nil
+				end
+			end)
+		end
 		return false
 	end
 	self.priorityAssets = {}
@@ -596,12 +599,14 @@ function TFAssetsManager:priorityDownload(downloadList)
 		self.priorityAssets[v] = 1
 	end
 	if table.count(downloadList) == 0 then
-		self:unZipAwb(function( )
-			if self.priorityCallback then
-				self.priorityCallback()
-				self.priorityCallback = nil
-			end
-		end)
+		if priorityCallbackEnable then
+			self:unZipAwb(function( )
+				if self.priorityCallback then
+					self.priorityCallback()
+					self.priorityCallback = nil
+				end
+			end)
+		end
 		return false
 	end
 	--插队下载
@@ -913,7 +918,7 @@ function TFAssetsManager:getDownLoadedAwbFiles( )
 	awbList2[303] = 303
 	awbList2[305] = 305
 	awbList2[999] = 999
-	for _,_awbId in ipairs(awbList2) do
+	for _,_awbId in pairs(awbList2) do
 		local localfilepath = string.format("%s%d.awb",self.extAssetsSavePath, _awbId)
 		if TFFileUtil:existFile(localfilepath) then
 			downLoadedList[_awbId] = _awbId
@@ -931,6 +936,14 @@ function TFAssetsManager:unZipAwb( callBack )
 	if TFClientAwbBundle == nil then 
 		if callBack then callBack() end
 		return
+	end
+	
+	if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+		local systemVersion = TFDeviceInfo:getSystemVersion() or "1.0.0"
+		if systemVersion < "11" then
+			if callBack then callBack() end
+			return
+		end
 	end
 	Utils:openView("common.UnZipFileLayer", callBack)
 end
