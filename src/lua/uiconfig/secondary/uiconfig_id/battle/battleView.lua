@@ -8999,7 +8999,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "132",
+											height = "145",
 											ignoreSize = "False",
 											name = "Image_propLimitTitle",
 											sizepercentx = "0",
@@ -9041,8 +9041,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_propLimit",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -9050,14 +9050,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "TextLable",
+											text = "Musuh akan melakukan self-destruct dan menghasilkan DMG dalam area tertentu setelah dikalahkan",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -23,
+												PositionY = -14,
 											},
-											width = "136",
+											width = "900",
 											ZOrder = "1",
 										},
 										{
@@ -9100,7 +9100,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 21,
+												PositionY = 39,
 											},
 											width = "207",
 											ZOrder = "1",

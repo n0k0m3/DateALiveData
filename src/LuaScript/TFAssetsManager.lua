@@ -937,6 +937,12 @@ function TFAssetsManager:unZipAwb( callBack )
 		if callBack then callBack() end
 		return
 	end
+
+	local downLoadedAwbList = self:getDownLoadedAwbFiles()
+	if #downLoadedAwbList < 1 then
+		if callBack then callBack() end
+		return
+	end
 	
 	if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
 		local systemVersion = TFDeviceInfo:getSystemVersion() or "1.0.0"

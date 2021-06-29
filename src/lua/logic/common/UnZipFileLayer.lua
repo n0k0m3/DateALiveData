@@ -172,9 +172,9 @@ function UnZipFileLayer:startUnCompressAwb( )
             self.status = -100
             self:stopTimer()
             if self.callBack then self.callBack() end
-            self:dispose()
-            self:removeFromParent()
-            --AlertManager:closeLayer(self)
+            --self:dispose()
+            --self:removeFromParent()
+            AlertManager:closeLayer(self)
         end
     end
     self:stopTimer()

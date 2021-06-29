@@ -3603,7 +3603,7 @@ function MainLayer:updateOneYearBtns()
                 --     self.Button_activity2:setPosition(activityPos_right:getPosition())
                 -- end
                 if self.Button_activity2 and #threeActivity <= 1 then
-                    self.Button_activity2:setPosition(self.dateBtn:getPositionX() - 150, self.dateBtn:getPositionY() + 50)
+                    self.Button_activity2:setPosition(self.dateBtn:getPositionX() - 160, self.dateBtn:getPositionY() + 90)
                 end
             else
                 if self.Button_Activity6 and #threeActivity <= 1 then  --TODO close 由多个活动入口控制
@@ -3619,7 +3619,7 @@ function MainLayer:updateOneYearBtns()
                 --     self.Button_activity2:setPosition(activityPos_right:getPosition())
                 -- end
                 if self.Button_activity2 and #threeActivity <= 1 then
-                    self.Button_activity2:setPosition(self.dateBtn:getPositionX() - 150, self.dateBtn:getPositionY() + 50)
+                    self.Button_activity2:setPosition(self.dateBtn:getPositionX() - 160, self.dateBtn:getPositionY() + 90)
                 end
             end
         end 
