@@ -178,7 +178,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "34",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_rankPopView_1",
 									nTextAlign = "1",
@@ -195,7 +195,7 @@ local t =
 										PositionX = 254,
 										PositionY = -49,
 									},
-									width = "257",
+									width = "260",
 									ZOrder = "1",
 								},
 								{
@@ -242,7 +242,7 @@ local t =
 										PositionY = -56,
 									},
 									visible = "False",
-									width = "147",
+									width = "141",
 									ZOrder = "1",
 								},
 								{
@@ -289,7 +289,7 @@ local t =
 										PositionY = -38,
 									},
 									visible = "False",
-									width = "358",
+									width = "353",
 									ZOrder = "1",
 								},
 								{
@@ -460,7 +460,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "TextLable",
+									text = "You can claim rewards after city is unlocked. Spend AP to claim doubled rewards.",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -1045,7 +1045,7 @@ local t =
 														PositionX = 45,
 														PositionY = 69,
 													},
-													width = "119",
+													width = "121",
 													ZOrder = "1",
 												},
 												{
@@ -1074,7 +1074,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "24",
+													height = "23",
 													ignoreSize = "True",
 													name = "labCollectNum",
 													nTextAlign = "1",
@@ -1091,7 +1091,7 @@ local t =
 														PositionX = 45,
 														PositionY = 46,
 													},
-													width = "65",
+													width = "53",
 													ZOrder = "1",
 												},
 												{
@@ -1164,7 +1164,7 @@ local t =
 															{
 																
 															},
-															width = "87",
+															width = "84",
 															ZOrder = "1",
 														},
 													},
@@ -1268,7 +1268,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "24",
+															height = "23",
 															ignoreSize = "True",
 															name = "Label_ksOutBountResCollectView_1",
 															nTextAlign = "1",
@@ -1284,7 +1284,7 @@ local t =
 															{
 																
 															},
-															width = "60",
+															width = "64",
 															ZOrder = "1",
 														},
 													},
@@ -1546,7 +1546,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_ksOutBountResCollectView_1",
 											nTextAlign = "1",
@@ -1563,7 +1563,7 @@ local t =
 												PositionX = 444,
 												PositionY = 44,
 											},
-											width = "73",
+											width = "78",
 											ZOrder = "1",
 										},
 									},

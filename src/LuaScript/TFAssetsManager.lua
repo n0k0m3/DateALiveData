@@ -846,16 +846,7 @@ function TFAssetsManager:loadAssetFile( id, downLoad )
 	if id == nil then return end
 	self.loadedAssetFile = self.loadedAssetFile or {}
 	if self.loadedAssetFile[id] then return end
-
-	-- if (not downLoad) and self:getLoadedSucAwbFile(id) <= 0 then
-	-- 	local awbpath = string.format("%s%d.awb", self.extAssetsSavePath, id)
-	-- 	if TFFileUtil:existFile(awbpath) then
-	-- 		os.remove(awbpath)
-	-- 	end
-	-- end
-	-- self:setLoadedSucAwbFile(id, 0)
-
-	if TFClientAwbBundle then
+	if self:canUnzipAwb() then
 	else
 		MEAssetsBundle:defaultBundle():load(string.format("%d.awb", id))
 	end
@@ -944,14 +935,26 @@ function TFAssetsManager:unZipAwb( callBack )
 		return
 	end
 	
-	if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
-		local systemVersion = TFDeviceInfo:getSystemVersion() or "1.0.0"
-		if systemVersion < "11" then
-			if callBack then callBack() end
-			return
-		end
+	if not self:canUnzipAwb() then
+		if callBack then callBack() end
+		return
 	end
 	Utils:openView("common.UnZipFileLayer", callBack)
+end
+
+function TFAssetsManager:canUnzipAwb( )
+	if TFClientAwbBundle == nil then 
+		return false
+	end
+
+	if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+		local systemVersionText = TFDeviceInfo:getSystemVersion() or "1.0.0"
+	    local versionSplit = string.split(systemVersionText, ".")
+	    if #versionSplit > 0 and (not(tonumber(versionSplit[1] == nil))) then
+	        return (tonumber(versionSplit[1]) >= 11)
+	    end
+	end
+	return false
 end
 
 return TFAssetsManager

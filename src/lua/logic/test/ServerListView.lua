@@ -128,6 +128,9 @@ function ServerListView:checkChangeLanaguage( group, serverid, callback )
         local alertparams = clone(EC_GameAlertParams)
         alertparams.msg = 190012010
         alertparams.comfirmCallback = function()
+            if HeitaoSdk then
+                HeitaoSdk.loginOut()
+            end
             LogonHelper:setCacheGroupCfgId(group.id)
             LogonHelper:setCacheServerId(serverid)
             LogonHelper:setCacheGroupId(group.group_id)

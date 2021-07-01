@@ -8,7 +8,7 @@ function UnZipFileLayer:ctor( callBack )
     self.callBack = callBack
     self.status = 0
     self.downLoadedAwbFiles = {}
-    self.allNeedUnZipNum = 0
+    self.unZipAwbIdx = 0
 end
 
 function UnZipFileLayer:initUI(ui)
@@ -69,14 +69,14 @@ function UnZipFileLayer:dispose()
     self:stopTimer()
 end
 
-function UnZipFileLayer:unCompressAwbStart( allNum )
+function UnZipFileLayer:unCompressAwbStart( num )
     local text = ""
     if self.strCfg[190000885] then
         text = self.strCfg[190000885].text
     else
         text = "no string id 190000885 "
     end
-    self.label_title:setText(text .." (0/" ..allNum .. ")")
+    self.label_title:setText(text .." (0/" ..num .. ")")
 end
 
 function UnZipFileLayer:unCompressAwbing( curNum, allNum)
@@ -86,11 +86,11 @@ function UnZipFileLayer:unCompressAwbing( curNum, allNum)
     else
         text = "no string id 190000885 "
     end
-    local remaindNum = (allNum - curNum) + 1
-    self.label_title:setText(text .." (" ..remaindNum .."/" ..allNum ..")")
+    
+    self.label_title:setText(text .." (" ..curNum .."/" ..allNum ..")")
     self.loadingBgImg:show()
     self.processLoadingBar:show()
-    self.processLoadingBar:setPercent(remaindNum/allNum*100)
+    self.processLoadingBar:setPercent(curNum/allNum*100)
 end
 
 function UnZipFileLayer:unCompressAwbFailed( )
@@ -124,40 +124,38 @@ function UnZipFileLayer:startUnCompressAwb( )
 
     local update = function( dt )
         if self.status == 0 then
+            self.unZipAwbIdx = 0
             self.downLoadedAwbFiles = TFAssetsManager:getDownLoadedAwbFiles()
             if #self.downLoadedAwbFiles <= 0 then 
                 self.status = 5
             else
-                self.allNeedUnZipNum = #self.downLoadedAwbFiles
                 self.status = 1
             end
             self:unCompressAwbStart(#self.downLoadedAwbFiles)
         elseif self.status == 1 then --开始解压
             self.status = 2
-            local awbId = self.downLoadedAwbFiles[1]
+            self.unZipAwbIdx = self.unZipAwbIdx + 1
+            local awbId = self.downLoadedAwbFiles[self.unZipAwbIdx]
             if TFClientAwbBundle and awbId then
-                TFClientAwbBundle:defaultAwbBundle():setUnzipAwbCompleteHandler(function( filePath )
-                    print("TFClientAwbBundle unzipFiles  success!!!! ")
-                    TFClientAwbBundle:defaultAwbBundle():removeUnzipAwbCompleteHandler()
-                    TFClientAwbBundle:defaultAwbBundle():removeUnZipAwbFailedHandler()
+                local completeCallBack = function( filePath )
+                    print("TFClientAwbBundle unzipFiles  success!!!! filePath: " ..tostring(filePath))
                     if TFFileUtil:existFile(filePath) then
                         os.remove(filePath)
                     end
+                    print("remove awb file success!!!! ")
                     self.status = 3
-                end)
-                TFClientAwbBundle:defaultAwbBundle():setUnZipAwbFailedHandler(function( status )
+                end
+
+                local failedCallBack = function( status )
                     print("TFClientAwbBundle unzipFiles  failed!!!! ")
-                    TFClientAwbBundle:defaultAwbBundle():removeUnzipAwbCompleteHandler()
-                    TFClientAwbBundle:defaultAwbBundle():removeUnZipAwbFailedHandler()
                     self.status = 4
-                end)
-                TFClientAwbBundle:defaultAwbBundle():unzipFiles(awbId ..".awb")
+                end
+                TFClientAwbBundle:defaultAwbBundle():unzipFiles(awbId ..".awb", completeCallBack, failedCallBack)
             end
         elseif self.status == 2 then --解压进行中
         elseif self.status == 3 then --解压完成
-            self:unCompressAwbing(#self.downLoadedAwbFiles, self.allNeedUnZipNum)
-            table.remove(self.downLoadedAwbFiles, 1)
-            if #self.downLoadedAwbFiles <= 0 then
+            self:unCompressAwbing(self.unZipAwbIdx, #self.downLoadedAwbFiles)
+            if self.unZipAwbIdx >= #self.downLoadedAwbFiles then
                 self.status = 5 
             else
                 self.status = 1
@@ -171,10 +169,10 @@ function UnZipFileLayer:startUnCompressAwb( )
         elseif self.status == 6 then
             self.status = -100
             self:stopTimer()
+            print("UnZipFileLayer:startUnCompressAwb  complete " ..tostring(self.callBack))
             if self.callBack then self.callBack() end
-            --self:dispose()
-            --self:removeFromParent()
             AlertManager:closeLayer(self)
+            print("+++++++++++++++++++++++++++++++++++++++++")
         end
     end
     self:stopTimer()
