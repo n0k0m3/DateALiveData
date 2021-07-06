@@ -465,7 +465,7 @@ return {
         finishPicture = "",
         bottomPic = "",
         bottomEffect = "",
-        type = 2005,
+        type = 4,
         endShowHero = 0,
         id = 421,
         isPlayAniSync = false,

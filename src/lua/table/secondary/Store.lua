@@ -1800,10 +1800,10 @@ return {
         isSendRecordMsg = false,
         icon = "ui/fuben/monsterTrial/store.png",
         openContType = 1,
-        isOpen = false,
+        isOpen = true,
         id = 402000,
         storeLabel = "",
-        openContVal = 99,
+        openContVal = 30,
         refreshCostNum = {
         },
         refreshCostId = 0,

@@ -5909,4 +5909,24 @@ return {
         res = "ui/fuli/seven_sign/002.png",
         res_en = "ui/fuli/seven_sign/002_zh.png",
     },
+    [1183] = {
+        id = 1183,
+        res = "ui/task/03/banner.png",
+        res_en = "ui/task/03/banner_zh.png",
+    },
+    [1184] = {
+        id = 1184,
+        res = "ui/task/03/3.png",
+        res_en = "ui/task/03/3_zh.png",
+    },
+    [1185] = {
+        id = 1185,
+        res = "ui/task/03/4.png",
+        res_en = "ui/task/03/4_zh.png",
+    },
+    [1186] = {
+        id = 1186,
+        res = "ui/task/03/bg.png",
+        res_en = "ui/task/03/bg_zh.png",
+    },
 }

@@ -1305,15 +1305,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "25",
+											ignoreSize = "True",
 											name = "Label_training_time",
 											nTextAlign = "1",
 											nTextHAlign = "0",
@@ -1329,7 +1329,7 @@ local t =
 												PositionX = -491,
 												PositionY = -61,
 											},
-											width = "218",
+											width = "159",
 											ZOrder = "1",
 										},
 										{

@@ -74,7 +74,27 @@ function BuyConfirmView:registerEvents()
                 Utils:showTips(302200)
                 return
             end
-            StoreDataMgr:send_STORE_BUY_GOODS(self.commodityId_, self.selectNum)
+            if self.selectNum >=20 then  --新增商品选购超20上限提示
+                local costId = self.commodityCfg_.priceType
+                local costNum = self.commodityCfg_.priceVal
+                local costStr = ""
+                for i = 1, math.min(#costId, #costNum) do
+                    if not GoodsDataMgr:currencyIsEnough(costId[i], costNum[i] * 1) then
+                        Utils:showAccess(costId[i])
+                    end
+                    local cfg = GoodsDataMgr:getItemCfg(costId[i])
+                    costStr = costStr..TextDataMgr:getText(cfg.nameTextId).."x"..(costNum[i]*self.selectNum).. ((i==#costId)and""or",")
+                end
+                
+                local shopStr = ""
+                local shopCfg = GoodsDataMgr:getItemCfg(self.itemId_)
+                shopStr = shopStr..TextDataMgr:getText(shopCfg.nameTextId).."x"..(self.itemCount_*self.selectNum)
+                Utils:openView("common.ReConfirmTipsView", {tittle = 800020, content = TextDataMgr:getText(190000888,costStr ,shopStr), reType = false, confirmCall = function()
+                    StoreDataMgr:send_STORE_BUY_GOODS(self.commodityId_, self.selectNum)
+                end})
+            else
+                StoreDataMgr:send_STORE_BUY_GOODS(self.commodityId_, self.selectNum)
+            end
     end)
 
     self.Button_close:onClick(

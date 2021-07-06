@@ -175,12 +175,12 @@ function TFGlobalUtils:transAniNameByLanguage( spine, name )
 end
 
 -- 战令区分1服和2服
-function TFGlobalUtils:replaceTexturePath(texturePath)
-	-- if(texturePath and texturePath ~= "") then
-	-- 	if TFGlobalUtils:isConnectMiniServer() then
-	-- 		texturePath = string.gsub(texturePath, "ui/task/01/", "ui/task/02/")
-	-- 	end
-	-- end
+function TFGlobalUtils:replaceTexturePath( texturePath )
+	if(texturePath and texturePath ~= "") then
+		if self:isConnectKoreaTwServer() then
+			texturePath = string.gsub(texturePath, "ui/task/01/", "ui/task/03/")
+		end
+	end
 	return texturePath
 end
 

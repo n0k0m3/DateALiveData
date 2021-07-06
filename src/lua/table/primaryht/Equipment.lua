@@ -5128,7 +5128,7 @@ return {
         convertMax = {
             [500001] = 1000,
         },
-        totalMax = 999,
+        totalMax = 999999,
         summonPosition = {
             y = 0,
             x = 0,
@@ -7359,7 +7359,7 @@ return {
         convertMax = {
             [500001] = 500,
         },
-        totalMax = 999,
+        totalMax = 999999,
         summonPosition = {
             y = 0,
             x = 0,
@@ -19212,7 +19212,7 @@ return {
         convertMax = {
             [500001] = 2000,
         },
-        totalMax = 999,
+        totalMax = 999999,
         summonPosition = {
             y = 0,
             x = 0,
@@ -22242,7 +22242,7 @@ return {
         convertMax = {
             [500001] = 300,
         },
-        totalMax = 999,
+        totalMax = 999999,
         summonPosition = {
             y = 0,
             x = 0,
@@ -27552,7 +27552,7 @@ return {
         convertMax = {
             [500001] = 1500,
         },
-        totalMax = 999,
+        totalMax = 999999,
         summonPosition = {
             y = 0,
             x = 0,
