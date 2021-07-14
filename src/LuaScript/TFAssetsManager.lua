@@ -741,21 +741,53 @@ function TFAssetsManager:onFileDownloaded(info)
 	end
 	os.rename(tmppath,savePath)
 	--MEAssetsBundle:defaultBundle():load(string.format("%d.awb",tonumber(fileInfo[1])))
-	self:loadAssetFile(tonumber(fileInfo[1]), true)
+	local ret = self:loadAssetFile(tonumber(fileInfo[1]), true)
+	if ret then
+		if self.priorityAssets then
+			if self.priorityAssets[tonumber(fileInfo[1])] then
+				self.priorityAssets[tonumber(fileInfo[1])] = 0
+			end
+			if table.count(self.priorityQuene) > 0 then
+				for i = table.count(self.priorityQuene),1,-1 do
+					if fileName == self.priorityQuene[i].fileName then
+						table.remove(self.priorityQuene,i)
+					end
+				end
 
-	if self.priorityAssets then
-		if self.priorityAssets[tonumber(fileInfo[1])] then
-			self.priorityAssets[tonumber(fileInfo[1])] = 0
-		end
-		if table.count(self.priorityQuene) > 0 then
-			for i = table.count(self.priorityQuene),1,-1 do
-				if fileName == self.priorityQuene[i].fileName then
-					table.remove(self.priorityQuene,i)
+			end
+			
+			local tmcurSize = 0
+			for k,v in pairs(self.priorityAssets) do
+				if self.priorityAssets[tonumber(k)] == 0 then
+					local tmoksize = tonumber(self.remoteListDict[tostring(k)].size)
+					tmcurSize = tmcurSize + tmoksize
 				end
 			end
-
+			self.priorityTasks_process.cursize = 0
+			self.priorityTasks_process.curtasksize = 0
+			self.priorityTasks_process.completeSize = tmcurSize
+			local priorityAllOk = true
+			for k,v in pairs(self.priorityAssets) do
+				if v == 1 then
+					priorityAllOk = false
+					break
+				end
+			end
+			if priorityAllOk == true then
+				EventMgr:dispatchEvent(EV_EXT_ASSET_DOWNLOAD_VIEW_CLOSE)
+				self:unZipAwb(function( )
+					if self.priorityCallback then
+						self.priorityCallback()
+						self.priorityCallback = nil
+					end
+				end)
+				self.priorityAssets = nil
+				self.allowedPriority = false
+				self:downloadAssetsNormal()
+				return
+			end
 		end
-		
+	else
 		local tmcurSize = 0
 		for k,v in pairs(self.priorityAssets) do
 			if self.priorityAssets[tonumber(k)] == 0 then
@@ -763,29 +795,9 @@ function TFAssetsManager:onFileDownloaded(info)
 				tmcurSize = tmcurSize + tmoksize
 			end
 		end
+		self.priorityTasks_process.completeSize = math.max(0,self.priorityTasks_process.completeSize - tmcurSize)
 		self.priorityTasks_process.cursize = 0
 		self.priorityTasks_process.curtasksize = 0
-		self.priorityTasks_process.completeSize = tmcurSize
-		local priorityAllOk = true
-		for k,v in pairs(self.priorityAssets) do
-			if v == 1 then
-				priorityAllOk = false
-				break
-			end
-		end
-		if priorityAllOk == true then
-			EventMgr:dispatchEvent(EV_EXT_ASSET_DOWNLOAD_VIEW_CLOSE)
-			self:unZipAwb(function( )
-				if self.priorityCallback then
-					self.priorityCallback()
-					self.priorityCallback = nil
-				end
-			end)
-			self.priorityAssets = nil
-			self.allowedPriority = false
-			self:downloadAssetsNormal()
-			return
-		end
 	end
 	self:runNextDownload()
 end
@@ -843,9 +855,25 @@ function TFAssetsManager:getRemoteListDict( )
 end
 
 function TFAssetsManager:loadAssetFile( id, downLoad )
-	if id == nil then return end
+	if id == nil then return false end
+	--检测awb的md5
+	if downLoad then
+		local localfilepath = string.format("%s%d.awb", self.extAssetsSavePath, id)
+		if TFFileUtil:existFile(localfilepath) then
+			local fileins = io.open(localfilepath,"rb")
+			local fileContent = fileins:read("*a")
+			local hashcode = md5.sumhexa(fileContent)
+			fileins:close()
+			local remotehash = self.remoteListDict[tostring(id)].md5
+			if not(hashcode == remotehash) then
+				os.remove(localfilepath)
+				return false
+			end
+		end
+	end
+
 	self.loadedAssetFile = self.loadedAssetFile or {}
-	if self.loadedAssetFile[id] then return end
+	if self.loadedAssetFile[id] then return true end
 	if self:canUnzipAwb() then
 	else
 		MEAssetsBundle:defaultBundle():load(string.format("%d.awb", id))
@@ -853,6 +881,7 @@ function TFAssetsManager:loadAssetFile( id, downLoad )
 
 	self:setLoadedSucAwbFile(id, 1)
 	self.loadedAssetFile[id] = true
+	return true
 end
 
 function TFAssetsManager:setLoadedSucAwbFile( id, value )
