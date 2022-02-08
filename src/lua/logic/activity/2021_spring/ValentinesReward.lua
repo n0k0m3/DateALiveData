@@ -229,7 +229,7 @@ function ValentinesReward:updateCell(item, taskId)
     print(taskItemInfo, taskProgress,taskProgressInfo)
 
     --item.Image_icon:setTexture(taskItemInfo.extendData.icon)
-    item.Label_desc:setText(taskItemInfo.extendData.des2)
+    item.Label_desc:setTextById(taskItemInfo.extendData.des2)
     local max = taskItemInfo.target
     if taskProgress > max then
         taskProgress = max

@@ -1252,7 +1252,7 @@ return {
         label = 8144,
         id = 8144,
         name1 = "春节大世界-",
-        soundEffect = "sound/world/fireworks_play4.mp3",
+        soundEffect = "sound/world/fireworksznq2.mp3",
         size = 100,
     },
     [801] = {

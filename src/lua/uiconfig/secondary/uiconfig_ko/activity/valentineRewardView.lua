@@ -166,6 +166,7 @@ local t =
 										PositionX = -359,
 										PositionY = 224,
 									},
+									visible = "False",
 									width = "4",
 									ZOrder = "1",
 									components = 
@@ -527,7 +528,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -424,
-										PositionY = -81,
+										PositionY = -96,
 									},
 									width = "68",
 									ZOrder = "1",
@@ -558,8 +559,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "totalProgresstag",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -573,9 +574,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -430,
-										PositionY = -36,
+										PositionY = -44,
 									},
-									width = "192",
+									width = "126",
 									ZOrder = "1",
 								},
 							},
@@ -620,8 +621,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -427,
-								PositionY = 218,
+								PositionX = -405,
+								PositionY = 219,
 							},
 							width = "159",
 							ZOrder = "1",
@@ -1064,8 +1065,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_receive",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1080,7 +1081,7 @@ local t =
 											{
 												
 											},
-											width = "134",
+											width = "79",
 											ZOrder = "1",
 										},
 									},

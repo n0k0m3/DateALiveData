@@ -68,14 +68,14 @@ function ValentinesDay:initUI(ui)
 end
 
 function ValentinesDay:initActTime()
-	local year, month, day = Utils:getDate(self.activityData.showStartTime)
+	local year, month, day = Utils:getUTCDateYMD(self.activityData.showStartTime, false , GV_UTC_TIME_ZONE)
 	local format = TextDataMgr:getText(300324)
 	local text = string.format(format, year).. string.format(format, string.format("%.2d", month)).. string.format("%.2d", day).."-"
 	self.act_timeStart:setText(text)
 
-	year, month, day = Utils:getDate(self.activityData.showEndTime)
+	year, month, day = Utils:getUTCDateYMD(self.activityData.showEndTime, false , GV_UTC_TIME_ZONE)
 	text = string.format(format, year).. string.format(format, string.format("%.2d", month)).. string.format("%.2d", day)
-	self.act_timeEnd:setText(text)
+	self.act_timeEnd:setText(text ..GV_UTC_TIME_STRING)
 end
 
 function ValentinesDay:initRoleList()
@@ -99,7 +99,7 @@ function ValentinesDay:initRoleList()
 				role.Image_bg_unselect = TFDirector:getChildByPath(role,"Image_bg_unselect"):show()
 				role.Image_bg_select = TFDirector:getChildByPath(role,"Image_bg_select"):hide()
 				role.Label_name = TFDirector:getChildByPath(role,"Label_name")
-				role.Label_name:setText(roleCfg.name)
+				role.Label_name:setTextById(roleCfg.name)
 				role.selectEffect = TFDirector:getChildByPath(role,"selectEffect"):hide()
 
 				local touch = TFDirector:getChildByPath(role,"touch"):show()
