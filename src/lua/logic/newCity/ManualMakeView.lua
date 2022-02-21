@@ -1177,7 +1177,9 @@ end
 function ManualMakeView:onRecvGetManualInfo(data)
 	self.manualMakingInfo = ManualMakeDataMgr:getManualMakingInfo()
 	if self.manualMakingInfo then
-		self.endTime = self.manualMakingInfo.endTime
+		--self.endTime = self.manualMakingInfo.endTime
+		local manualCfg = ManualMakeDataMgr:getManualInfoById(self.manualMakingInfo.manualId)
+		self.endTime = ServerDataMgr:getServerTime() + manualCfg.worktime
 		self.score = self.manualMakingInfo.integral
 		self.leftTime = self.endTime - ServerDataMgr:getServerTime()
 		self.making = self.leftTime > 0 

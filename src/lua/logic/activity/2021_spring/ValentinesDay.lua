@@ -211,7 +211,7 @@ function ValentinesDay:updateCell(item, data, idx)
 	item.Label_votes_count:setTextById(15010051, data.count)
 
 	local cfg = TabDataMgr:getData("ValentinePortrait",tonumber(data.optionId))
-	item.Label_name:setText(cfg.name)
+	item.Label_name:setTextById(cfg.name)
 	item.head:setTexture(cfg.icon)
 end
 

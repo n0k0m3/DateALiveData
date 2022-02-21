@@ -40,14 +40,14 @@ function LoginScene:showVideoView(re)
 	
 	local videoPth1, videoPth2
 	if FunctionDataMgr:isMoJingLoginUI() then
-		videoPth1 = "video/loginPart10.mp4"
-		videoPth2 = "video/loginPart11.mp4"
+		videoPth1 = "video/login_fanzhuanzhezhi.mp4"
+		videoPth2 = "video/login_fanzhuanzhezhi2.mp4"
 	elseif FunctionDataMgr:isOneYearLoginUI("loginLayerUI") then
-		videoPth1 = "video/loginPart4.mp4"
-		videoPth2 = "video/loginPart5.mp4"
+		videoPth1 = "video/login_fanzhuanzhezhi.mp4"
+		videoPth2 = "video/login_fanzhuanzhezhi2.mp4"
 	else
-		videoPth1 = "video/loginPart1_1.mp4"
-		videoPth2 = "video/loginPart2_1.mp4"
+		videoPth1 = "video/login_fanzhuanzhezhi.mp4"
+		videoPth2 = "video/login_fanzhuanzhezhi2.mp4"
 	end
 	
 

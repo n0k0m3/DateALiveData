@@ -141,7 +141,6 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 127,
-										PositionY = -35,
 									},
 									uipanelviewmodel = 
 									{
@@ -330,8 +329,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -207,
-										PositionY = -207,
+										PositionX = -275,
+										PositionY = -250,
 									},
 									width = "72",
 									ZOrder = "1",
@@ -348,10 +347,10 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "99",
+									height = "131",
 									ignoreSize = "True",
 									name = "Button_recharge",
-									normal = "ui/activity/add_recharge/008.png",
+									normal = "ui/activity/add_recharge/004.png",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -360,10 +359,10 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 281,
-										PositionY = -218,
+										PositionY = -183,
 									},
 									UItype = "Button",
-									width = "262",
+									width = "330",
 									ZOrder = "1",
 								},
 							},
@@ -411,6 +410,7 @@ local t =
 								PositionX = -398,
 								PositionY = -207,
 							},
+							visible = "False",
 							width = "188",
 							ZOrder = "1",
 						},
@@ -882,7 +882,7 @@ local t =
 		textures = 
 		{
 			"ui/activity/picture/ad196.png",
-			"ui/activity/add_recharge/008.png",
+			"ui/activity/add_recharge/004.png",
 			"ui/activity/add_recharge/005.png",
 			"ui/activity/add_recharge/006.png",
 			"ui/activity/add_recharge/007.png",

@@ -22601,7 +22601,7 @@ return {
     },
     [190001309] = {
         id = 190001309,
-        text = "Send Roses to Spirits for 2 days",
+        text = "Send Roses to Spirits for 3 days",
         minipack = 0,
     },
     [1011821] = {
@@ -120481,7 +120481,7 @@ return {
     },
     [63951] = {
         id = 63951,
-        text = "Light of hope is condensed on the feather. Get from the 2021 Crossing Timelines event. Can be exchanged for supplies in the Crisis Supplies Store.",
+        text = "Light of hope is condensed on the feather. Get from the 2022 Crossing Timelines event. Can be exchanged for supplies in the Crisis Supplies Store.",
         minipack = 0,
     },
     [224008] = {
@@ -120491,7 +120491,7 @@ return {
     },
     [63950] = {
         id = 63950,
-        text = "Feather of Light 2021",
+        text = "Feather of Light 2022",
         minipack = 0,
     },
     [15025] = {
@@ -120501,7 +120501,7 @@ return {
     },
     [63949] = {
         id = 63949,
-        text = "The crystal containing highly-compressed info left in the memory of Origami. It is the key to awake Inverse Origami. Get from the 2021 Crossing Timelines event.",
+        text = "The crystal containing highly-compressed info left in the memory of Origami. It is the key to awake Inverse Origami. Get from the 2022 Crossing Timelines event.",
         minipack = 0,
     },
     [16049] = {
@@ -120511,7 +120511,7 @@ return {
     },
     [63948] = {
         id = 63948,
-        text = "Feather of Despair 2021",
+        text = "Feather of Despair 2022",
         minipack = 0,
     },
     [63947] = {

@@ -1835,7 +1835,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:5,510152:1}",
+        reward = "{500070:1,500147:5,510152:1}",
         id = 135101,
         progress = 1,
         open = 1,
@@ -1955,7 +1955,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:5,510102:1}",
+        reward = "{500070:1,500147:5,510102:1}",
         id = 135102,
         progress = 1,
         open = 1,
@@ -2031,7 +2031,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:5,510152:1}",
+        reward = "{500070:1,500147:5,510152:1}",
         id = 135103,
         progress = 1,
         open = 1,
@@ -2107,7 +2107,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:5,510102:1}",
+        reward = "{500070:1,500147:5,510102:1}",
         id = 135104,
         progress = 1,
         open = 1,
@@ -2267,7 +2267,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:5,510152:1}",
+        reward = "{500070:1,500147:5,510152:1}",
         id = 135105,
         progress = 1,
         open = 1,
@@ -2423,7 +2423,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:5,510102:1}",
+        reward = "{500070:1,500147:5,510102:1}",
         id = 135106,
         progress = 1,
         open = 1,
@@ -2578,7 +2578,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:5,510152:1}",
+        reward = "{500070:1,500147:5,510152:1}",
         id = 135107,
         progress = 1,
         open = 1,
@@ -2733,7 +2733,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:5,510102:1}",
+        reward = "{500070:1,500147:5,510102:1}",
         id = 135108,
         progress = 1,
         open = 1,
@@ -2743,7 +2743,7 @@ return {
         },
         iconShow = "icon/equipment/icon/106_106/icon1_meili_18.png",
         times = true,
-        finishParams = "{\"datingTypeList\":[2,3,30]}",
+        finishParams = "{\"datingTypeList\":[2,3,6]}",
         datingScriptId = 0,
         taskParam = "",
         rank = 8,
@@ -2888,7 +2888,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:5,570029:1}",
+        reward = "{500070:1,500147:5,570029:1}",
         id = 135109,
         progress = 1,
         open = 1,
@@ -2898,7 +2898,7 @@ return {
         },
         iconShow = "icon/equipment/icon/106_106/icon1_wangguan_11.png",
         times = true,
-        finishParams = "{\"dunTypeList\":[9,17,22,23]}",
+        finishParams = "{\"dunTypeList\":[9,17,22,23,24]}",
         datingScriptId = 0,
         taskParam = "",
         rank = 9,
@@ -3044,7 +3044,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:5,599501:5}",
+        reward = "{500070:1,500147:5,599501:5}",
         id = 135110,
         progress = 1,
         open = 1,
@@ -3199,7 +3199,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:5,599501:5}",
+        reward = "{500070:1,500147:5,599501:5}",
         id = 135111,
         progress = 1,
         open = 1,
@@ -3321,7 +3321,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:6,510152:1}",
+        reward = "{500070:1,500147:6,510152:1}",
         id = 135112,
         progress = 1,
         open = 1,
@@ -3479,7 +3479,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:6,510102:1}",
+        reward = "{500070:1,500147:6,510102:1}",
         id = 135113,
         progress = 1,
         open = 1,
@@ -3594,7 +3594,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:6,510152:1}",
+        reward = "{500070:1,500147:6,510152:1}",
         id = 135114,
         progress = 1,
         open = 1,
@@ -3708,7 +3708,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:6,510102:1}",
+        reward = "{500070:1,500147:6,510102:1}",
         id = 135115,
         progress = 1,
         open = 1,
@@ -3863,7 +3863,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:6,510152:1}",
+        reward = "{500070:1,500147:6,510152:1}",
         id = 135116,
         progress = 1,
         open = 1,
@@ -3979,7 +3979,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:6,510102:1}",
+        reward = "{500070:1,500147:6,510102:1}",
         id = 135117,
         progress = 1,
         open = 1,
@@ -4134,7 +4134,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:6,510152:1}",
+        reward = "{500070:1,500147:6,510152:1}",
         id = 135118,
         progress = 1,
         open = 1,
@@ -4210,7 +4210,7 @@ return {
         speedAdd = {
         },
         typeDes = "",
-        reward = "{500072:25}",
+        reward = "{500147:25}",
         id = 135502,
         progress = 15,
         open = 1,
@@ -4288,7 +4288,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:6,510102:1}",
+        reward = "{500070:1,500147:6,510102:1}",
         id = 135119,
         progress = 1,
         open = 1,
@@ -4298,7 +4298,7 @@ return {
         },
         iconShow = "icon/equipment/icon/106_106/icon1_lijie_14.png",
         times = true,
-        finishParams = "{\"datingTypeList\":[2,3,30]}",
+        finishParams = "{\"datingTypeList\":[2,3,6]}",
         datingScriptId = 0,
         taskParam = "",
         rank = 8,
@@ -4443,7 +4443,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:6,570029:1}",
+        reward = "{500070:1,500147:6,570029:1}",
         id = 135120,
         progress = 1,
         open = 1,
@@ -4453,7 +4453,7 @@ return {
         },
         iconShow = "icon/equipment/icon/106_106/icon1_meili_18.png",
         times = true,
-        finishParams = "{\"dunTypeList\":[9,17,22,23]}",
+        finishParams = "{\"dunTypeList\":[9,17,22,23,24]}",
         datingScriptId = 0,
         taskParam = "",
         rank = 9,
@@ -4557,7 +4557,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:6,599501:8}",
+        reward = "{500070:1,500147:6,599501:8}",
         id = 135121,
         progress = 1,
         open = 1,
@@ -4754,7 +4754,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:6,599501:8}",
+        reward = "{500070:1,500147:6,599501:8}",
         id = 135122,
         progress = 1,
         open = 1,
@@ -4871,7 +4871,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:7,510152:1}",
+        reward = "{500070:1,500147:7,510152:1}",
         id = 135123,
         progress = 1,
         open = 1,
@@ -5071,7 +5071,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:7,510102:1}",
+        reward = "{500070:1,500147:7,510102:1}",
         id = 135124,
         progress = 1,
         open = 1,
@@ -5227,7 +5227,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:7,510152:1}",
+        reward = "{500070:1,500147:7,510152:1}",
         id = 135125,
         progress = 1,
         open = 1,
@@ -5388,7 +5388,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:7,510102:1}",
+        reward = "{500070:1,500147:7,510102:1}",
         id = 135126,
         progress = 1,
         open = 1,
@@ -5543,7 +5543,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:7,510152:1}",
+        reward = "{500070:1,500147:7,510152:1}",
         id = 135127,
         progress = 1,
         open = 1,
@@ -5698,7 +5698,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:7,510102:1}",
+        reward = "{500070:1,500147:7,510102:1}",
         id = 135128,
         progress = 1,
         open = 1,
@@ -5853,7 +5853,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:7,510152:1}",
+        reward = "{500070:1,500147:7,510152:1}",
         id = 135129,
         progress = 1,
         open = 1,
@@ -6046,7 +6046,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:7,510102:1}",
+        reward = "{500070:1,500147:7,510102:1}",
         id = 135130,
         progress = 1,
         open = 1,
@@ -6056,7 +6056,7 @@ return {
         },
         iconShow = "icon/equipment/icon/106_106/icon1_wangguan_11.png",
         times = true,
-        finishParams = "{\"datingTypeList\":[2,3,30]}",
+        finishParams = "{\"datingTypeList\":[2,3,6]}",
         datingScriptId = 0,
         taskParam = "",
         rank = 8,
@@ -6321,7 +6321,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:7,570029:1}",
+        reward = "{500070:1,500147:7,570029:1}",
         id = 135131,
         progress = 1,
         open = 1,
@@ -6331,7 +6331,7 @@ return {
         },
         iconShow = "icon/equipment/icon/106_106/icon1_lijie_14.png",
         times = true,
-        finishParams = "{\"dunTypeList\":[9,17,22,23]}",
+        finishParams = "{\"dunTypeList\":[9,17,22,23,24]}",
         datingScriptId = 0,
         taskParam = "",
         rank = 9,
@@ -6637,7 +6637,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:7,599501:8}",
+        reward = "{500070:1,500147:7,599501:8}",
         id = 135132,
         progress = 1,
         open = 1,
@@ -6962,7 +6962,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:7,599501:8}",
+        reward = "{500070:1,500147:7,599501:8}",
         id = 135133,
         progress = 1,
         open = 1,
@@ -7282,7 +7282,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:8,510152:1}",
+        reward = "{500070:1,500147:8,510152:1}",
         id = 135134,
         progress = 1,
         open = 1,
@@ -7610,7 +7610,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:8,510102:1}",
+        reward = "{500070:1,500147:8,510102:1}",
         id = 135135,
         progress = 1,
         open = 1,
@@ -7774,7 +7774,7 @@ return {
         speedAdd = {
         },
         typeDes = "",
-        reward = "{500072:50}",
+        reward = "{500147:50}",
         id = 135506,
         progress = 80,
         open = 1,
@@ -7929,7 +7929,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:8,510152:1}",
+        reward = "{500070:1,500147:8,510152:1}",
         id = 135136,
         progress = 1,
         open = 1,
@@ -8210,7 +8210,7 @@ return {
         speedAdd = {
         },
         typeDes = "",
-        reward = "{500072:15}",
+        reward = "{500147:15}",
         id = 135501,
         progress = 5,
         open = 1,
@@ -8248,7 +8248,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:8,510102:1}",
+        reward = "{500070:1,500147:8,510102:1}",
         id = 135137,
         progress = 1,
         open = 1,
@@ -8570,7 +8570,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:8,510152:1}",
+        reward = "{500070:1,500147:8,510152:1}",
         id = 135138,
         progress = 1,
         open = 1,
@@ -8894,7 +8894,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:8,510102:1}",
+        reward = "{500070:1,500147:8,510102:1}",
         id = 135139,
         progress = 1,
         open = 1,
@@ -9220,7 +9220,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:8,510152:1}",
+        reward = "{500070:1,500147:8,510152:1}",
         id = 135140,
         progress = 1,
         open = 1,
@@ -9546,7 +9546,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:8,510102:1}",
+        reward = "{500070:1,500147:8,510102:1}",
         id = 135141,
         progress = 1,
         open = 1,
@@ -9556,7 +9556,7 @@ return {
         },
         iconShow = "icon/equipment/icon/106_106/icon1_meili_18.png",
         times = true,
-        finishParams = "{\"datingTypeList\":[2,3,30]}",
+        finishParams = "{\"datingTypeList\":[2,3,6]}",
         datingScriptId = 0,
         taskParam = "",
         rank = 8,
@@ -9865,7 +9865,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:8,570029:1}",
+        reward = "{500070:1,500147:8,570029:1}",
         id = 135142,
         progress = 1,
         open = 1,
@@ -9875,7 +9875,7 @@ return {
         },
         iconShow = "icon/equipment/icon/106_106/icon1_wangguan_11.png",
         times = true,
-        finishParams = "{\"dunTypeList\":[9,17,22,23]}",
+        finishParams = "{\"dunTypeList\":[9,17,22,23,24]}",
         datingScriptId = 0,
         taskParam = "",
         rank = 9,
@@ -10187,7 +10187,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:8,599501:8}",
+        reward = "{500070:1,500147:8,599501:8}",
         id = 135143,
         progress = 1,
         open = 1,
@@ -10505,7 +10505,7 @@ return {
         speedAdd = {
         },
         typeDes = "190000740",
-        reward = "{500070:1,500072:8,599501:8}",
+        reward = "{500070:1,500147:8,599501:8}",
         id = 135144,
         progress = 1,
         open = 1,
@@ -11475,7 +11475,7 @@ return {
         speedAdd = {
         },
         typeDes = "",
-        reward = "{500072:40}",
+        reward = "{500147:40}",
         id = 135504,
         progress = 40,
         open = 1,
