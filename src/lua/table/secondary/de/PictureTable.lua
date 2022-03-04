@@ -8329,4 +8329,74 @@ return {
         res = "ui/activity/newyear_2021/nianshou/012.png",
         res_en = "ui/activity/newyear_2021/nianshou/012_en.png",
     },
+    [1667] = {
+        id = 1667,
+        res = "ui/activity/picture/ad301.png",
+        res_en = "ui/activity/picture/ad301_en.png",
+    },
+    [1668] = {
+        id = 1668,
+        res = "ui/activity/picture/ad302.png",
+        res_en = "ui/activity/picture/ad302_en.png",
+    },
+    [1669] = {
+        id = 1669,
+        res = "ui/activity/picture/ad234.png",
+        res_en = "ui/activity/picture/ad234_en.png",
+    },
+    [1670] = {
+        id = 1670,
+        res = "ui/activity/picture/ad240.png",
+        res_en = "ui/activity/picture/ad240_en.png",
+    },
+    [1671] = {
+        id = 1671,
+        res = "ui/activity/picture/icon234.png",
+        res_en = "ui/activity/picture/icon234_en.png",
+    },
+    [1672] = {
+        id = 1672,
+        res = "ui/activity/picture/icon240.png",
+        res_en = "ui/activity/picture/icon240_en.png",
+    },
+    [1673] = {
+        id = 1673,
+        res = "ui/activity/picture/ad301.png",
+        res_en = "ui/activity/picture/ad301_en.png",
+    },
+    [1674] = {
+        id = 1674,
+        res = "ui/activity/picture/ad302.png",
+        res_en = "ui/activity/picture/ad302_en.png",
+    },
+    [1675] = {
+        id = 1675,
+        res = "ui/activity/picture/ad234.png",
+        res_en = "ui/activity/picture/ad234_en.png",
+    },
+    [1676] = {
+        id = 1676,
+        res = "ui/activity/picture/ad240.png",
+        res_en = "ui/activity/picture/ad240_en.png",
+    },
+    [1677] = {
+        id = 1677,
+        res = "ui/activity/picture/icon234.png",
+        res_en = "ui/activity/picture/icon234_en.png",
+    },
+    [1678] = {
+        id = 1678,
+        res = "ui/activity/picture/icon240.png",
+        res_en = "ui/activity/picture/icon240_en.png",
+    },
+    [1679] = {
+        id = 1679,
+        res = "ui/activity/picture/icon455.png",
+        res_en = "ui/activity/picture/icon455_en.png",
+    },
+    [1680] = {
+        id = 1680,
+        res = "ui/activity/activityStyle/wefareSignActivity/bg/002.png",
+        res_en = "ui/activity/activityStyle/wefareSignActivity/bg/002_en.png",
+    },
 }

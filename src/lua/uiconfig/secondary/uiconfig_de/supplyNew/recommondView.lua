@@ -403,14 +403,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Endet in 07 Std. 45 Min.",
+													text = "TextLable",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionX = -48,
 													},
-													width = "161",
+													width = "67",
 													ZOrder = "1",
 													components = 
 													{
@@ -502,6 +502,7 @@ local t =
 											height = "78",
 											ignoreSize = "True",
 											name = "Image_title_di",
+											rotation = "-50",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -510,8 +511,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 96,
-												PositionY = 122,
+												PositionX = 78,
+												PositionY = 147,
 											},
 											width = "37",
 											ZOrder = "2",
@@ -544,11 +545,12 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "51",
-													ignoreSize = "False",
+													height = "24",
+													ignoreSize = "True",
 													name = "Label_title_desc",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													rotation = "90",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -561,7 +563,7 @@ local t =
 														PositionX = -19,
 														PositionY = 7,
 													},
-													width = "28",
+													width = "44",
 													ZOrder = "1",
 												},
 												{

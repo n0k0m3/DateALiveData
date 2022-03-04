@@ -8079,4 +8079,44 @@ return {
         res = "ui/activity/newyear_2021/nianshou/012.png",
         res_en = "ui/activity/newyear_2021/nianshou/012_en.png",
     },
+    [1621] = {
+        id = 1621,
+        res = "ui/activity/picture/ad301.png",
+        res_en = "ui/activity/picture/ad301_en.png",
+    },
+    [1622] = {
+        id = 1622,
+        res = "ui/activity/picture/ad302.png",
+        res_en = "ui/activity/picture/ad302_en.png",
+    },
+    [1623] = {
+        id = 1623,
+        res = "ui/activity/picture/ad234.png",
+        res_en = "ui/activity/picture/ad234_en.png",
+    },
+    [1624] = {
+        id = 1624,
+        res = "ui/activity/picture/ad240.png",
+        res_en = "ui/activity/picture/ad240_en.png",
+    },
+    [1625] = {
+        id = 1625,
+        res = "ui/activity/picture/icon234.png",
+        res_en = "ui/activity/picture/icon234_en.png",
+    },
+    [1626] = {
+        id = 1626,
+        res = "ui/activity/picture/icon240.png",
+        res_en = "ui/activity/picture/icon240_en.png",
+    },
+    [1627] = {
+        id = 1627,
+        res = "ui/activity/picture/icon455.png",
+        res_en = "ui/activity/picture/icon455_en.png",
+    },
+    [1628] = {
+        id = 1628,
+        res = "ui/activity/activityStyle/wefareSignActivity/bg/002.png",
+        res_en = "ui/activity/activityStyle/wefareSignActivity/bg/002_en.png",
+    },
 }

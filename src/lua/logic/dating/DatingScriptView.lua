@@ -18,9 +18,9 @@ local CTL_ZOrder = {
     sceneEffectZOrder_belong2 = 7,
     insertPicZOrder = 8,
     specialModelBottomZOrder = 9,
-    otherZOrder = 10,
-    imageTextBgZOrder = 11,
-    specialModelZOrder = 12,
+    specialModelZOrder = 10,
+    otherZOrder = 11,
+    imageTextBgZOrder = 12,
     optionZOrder = 13,
     phoneSpineZOrder = 14,
     topLayerZOrder = 15,
@@ -422,7 +422,7 @@ function DatingScriptView:initOptionView()
                 self.currentNodeId = id
             end)
     self.optionView:setZOrder(10)
-    self:addLayerToNode(self.optionView, self.Panel_optionView , 1)
+    self:addLayerToNode(self.optionView, self.Panel_optionView)
 
     --local ws = GameConfig.WS
     --if ws.width >= 1386 then

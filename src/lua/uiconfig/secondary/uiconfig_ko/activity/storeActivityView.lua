@@ -177,7 +177,7 @@ local t =
 										PositionX = 413,
 										PositionY = -51,
 									},
-									width = "70",
+									width = "69",
 									ZOrder = "1",
 								},
 								{
@@ -478,7 +478,7 @@ local t =
 											{
 												PositionX = 47,
 											},
-											width = "71",
+											width = "74",
 											ZOrder = "1",
 										},
 									},
@@ -589,7 +589,7 @@ local t =
 											{
 												PositionX = 47,
 											},
-											width = "71",
+											width = "74",
 											ZOrder = "1",
 										},
 										{
@@ -725,7 +725,7 @@ local t =
 											{
 												PositionX = 47,
 											},
-											width = "71",
+											width = "74",
 											ZOrder = "1",
 										},
 										{
@@ -861,7 +861,7 @@ local t =
 											{
 												PositionX = 47,
 											},
-											width = "71",
+											width = "74",
 											ZOrder = "1",
 										},
 										{
@@ -997,7 +997,7 @@ local t =
 											{
 												PositionX = 47,
 											},
-											width = "71",
+											width = "74",
 											ZOrder = "1",
 										},
 										{
@@ -1133,7 +1133,7 @@ local t =
 											{
 												PositionX = 47,
 											},
-											width = "71",
+											width = "74",
 											ZOrder = "1",
 										},
 										{
@@ -1315,7 +1315,7 @@ local t =
 													UUID = "3b742a3c_26fa_466d_a8d4_647050495b87",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
-													anchorPointY = "0.5",
+													anchorPointY = "0",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
@@ -1339,7 +1339,7 @@ local t =
 													height = "34",
 													ignoreSize = "False",
 													name = "Label_countLimit",
-													nTextAlign = "1",
+													nTextAlign = "2",
 													nTextHAlign = "1",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -1350,9 +1350,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = 20,
+														PositionY = 7,
 													},
-													width = "158",
+													width = "163",
 													ZOrder = "1",
 												},
 											},
@@ -1376,18 +1376,20 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											scaleX = "0.8",
+											scaleY = "0.8",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1397,9 +1399,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 153,
+												PositionY = 155,
 											},
-											width = "98",
+											width = "206",
 											ZOrder = "1",
 										},
 										{
@@ -1553,7 +1555,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 												{
@@ -1603,7 +1605,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -1724,7 +1726,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 												{
@@ -1774,7 +1776,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -1895,7 +1897,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 												{
@@ -1945,7 +1947,7 @@ local t =
 														nGravity = 5,
 														nAlign = 4
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 											},
@@ -2100,7 +2102,7 @@ local t =
 														PositionX = -4,
 														PositionY = -9,
 													},
-													width = "31",
+													width = "30",
 													ZOrder = "1",
 												},
 												{
@@ -2146,7 +2148,7 @@ local t =
 														PositionX = 22,
 														PositionY = -14,
 													},
-													width = "12",
+													width = "11",
 													ZOrder = "1",
 												},
 												{
@@ -2218,7 +2220,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -2230,6 +2232,8 @@ local t =
 									name = "Label_buy_tip",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -2239,10 +2243,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 19,
+										PositionY = 27,
 									},
 									visible = "False",
-									width = "140",
+									width = "198",
 									ZOrder = "1",
 								},
 							},

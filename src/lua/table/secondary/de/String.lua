@@ -32024,6 +32024,11 @@ return {
         text = "Achievement Quest 14: Clear [Team-up - Special] with Slow-mo, Pressure and Toy Weapon",
         minipack = 0,
     },
+    [190001316] = {
+        id = 190001316,
+        text = "Neko Badge 1",
+        minipack = 0,
+    },
     [1013613] = {
         id = 1013613,
         text = "Let's go fishing this weekend.",
@@ -107644,11 +107649,6 @@ return {
         text = "Verstärken",
         minipack = 0,
     },
-    [12957] = {
-        id = 12957,
-        text = "Crit Rate -10%, Dodge -10%, restores 1 Awakening every 2s",
-        minipack = 0,
-    },
     [190011141] = {
         id = 190011141,
         text = "ATK +20%",
@@ -107659,9 +107659,24 @@ return {
         text = "Unsere Geschäftsergebnisse sind alle dank deiner harten Arbeit.",
         minipack = 0,
     },
+    [12957] = {
+        id = 12957,
+        text = "Crit Rate -10%, Dodge -10%, restores 1 Awakening every 2s",
+        minipack = 0,
+    },
     [190011139] = {
         id = 190011139,
         text = "Dodge Rate +10%",
+        minipack = 0,
+    },
+    [190011138] = {
+        id = 190011138,
+        text = "Pierce Rate +10%",
+        minipack = 0,
+    },
+    [190011137] = {
+        id = 190011137,
+        text = "Crit Rate +10%",
         minipack = 0,
     },
     [15005] = {
@@ -107677,16 +107692,6 @@ return {
     [16029] = {
         id = 16029,
         text = "Miku Izayoi Fragment",
-        minipack = 0,
-    },
-    [190011138] = {
-        id = 190011138,
-        text = "Pierce Rate +10%",
-        minipack = 0,
-    },
-    [190011137] = {
-        id = 190011137,
-        text = "Crit Rate +10%",
         minipack = 0,
     },
     [213505] = {
@@ -107794,6 +107799,16 @@ return {
         text = "DMG Mit -15% for 10s",
         minipack = 0,
     },
+    [190011115] = {
+        id = 190011115,
+        text = "Darkness DMG Mit -20% for 10s",
+        minipack = 0,
+    },
+    [190011114] = {
+        id = 190011114,
+        text = "Slow down by 30% for 0.5s",
+        minipack = 0,
+    },
     [2202701] = {
         id = 2202701,
         text = "Attack Protocol",
@@ -107814,14 +107829,14 @@ return {
         text = "Perfect Dodge",
         minipack = 0,
     },
-    [190011115] = {
-        id = 190011115,
-        text = "Darkness DMG Mit -20% for 10s",
+    [190011113] = {
+        id = 190011113,
+        text = "Dodge Rate +10%",
         minipack = 0,
     },
-    [190011114] = {
-        id = 190011114,
-        text = "Slow down by 30% for 0.5s",
+    [190011112] = {
+        id = 190011112,
+        text = "Slow down by 80% for 3s",
         minipack = 0,
     },
     [60020] = {
@@ -107832,16 +107847,6 @@ return {
     [62068] = {
         id = 62068,
         text = "Das Gefäß zur Verifizierung - Mayuri tauchte plötzlich in Tengu-Stadt auf. Die versiegelte Geisterkraft der Geister wird instabil. Die umherfliegende Geisterwelle verunreinigte Gegenstände in der Nähe mit schwacher Geisterkraft. \n\nDie Wächter von Tengu-Stadt müssen Dinge sammeln, die während des Dates durch Geisterkraft verunreinigt wurden, seien es Essen, Geschenke oder andere. Einige Spezial-Gegenstände, wie Souvenir für Dates mit Geistern, können gesammelt und als \"Souvenirs\" aufbewahrt werden. \n\n\"Souvenirs\" können bei Menschen oder Geistern ausgerüstet werden, um zusätzliche Kraft zu gewähren. Wenn verknüpfte \"Souvenirs\" zusammengefügt werden, werden erstaunliche Bonds-Effekte aktiviert. Einige \"Souvenirs\" bevorzugen bestimmte Personen oder Geister und gewähren Spezialeffekte, wenn sie von ihnen ausgerüstet werden. \n\n\"Souvenir\"-Levelverstärkung: Geisterwellen-Polymere und andere Materialien mit spezieller Energie können das \"Souvenir\"-Level erhöhen und ihre Attribute steigern. \n\n\"Souvenir\"-Rangaufstieg: Der Rang der Souvenirs kann erhöht werden, wenn spezielle Materialien verwendet werden, um das Levellimit und die Attribute zu erhöhen. Rangaufstieg ist nicht verfügbar, wenn das Ranglimit erreicht ist.",
-        minipack = 0,
-    },
-    [190011113] = {
-        id = 190011113,
-        text = "Dodge Rate +10%",
-        minipack = 0,
-    },
-    [190011112] = {
-        id = 190011112,
-        text = "Slow down by 80% for 3s",
         minipack = 0,
     },
     [213189] = {
@@ -107867,6 +107872,16 @@ return {
     [3210147] = {
         id = 3210147,
         text = "Energiegewinn +20% für Geister im Kampf",
+        minipack = 0,
+    },
+    [190000011] = {
+        id = 190000011,
+        text = "1 Zug",
+        minipack = 0,
+    },
+    [190011105] = {
+        id = 190011105,
+        text = "Movement Speed +6% for 8s",
         minipack = 0,
     },
     [11301006] = {
@@ -107944,9 +107959,9 @@ return {
         text = "Heiliger Schutz",
         minipack = 0,
     },
-    [190000011] = {
-        id = 190000011,
-        text = "1 Zug",
+    [190000678] = {
+        id = 190000678,
+        text = "Make %s Peanut Tangyuan",
         minipack = 0,
     },
     [431003] = {
@@ -107954,24 +107969,9 @@ return {
         text = "HP-Regeneration +50%. Stellt jede 2 Sek. 1% HP wieder her",
         minipack = 0,
     },
-    [190011105] = {
-        id = 190011105,
-        text = "Movement Speed +6% for 8s",
-        minipack = 0,
-    },
-    [190000678] = {
-        id = 190000678,
-        text = "Make %s Peanut Tangyuan",
-        minipack = 0,
-    },
     [190011103] = {
         id = 190011103,
         text = "DMG +6% for 3s",
-        minipack = 0,
-    },
-    [431004] = {
-        id = 431004,
-        text = "Wird immun gegen Steifheit und erhält für 3 Sek. SCH-RED +30%, wenn Basisangriffe das Ziel treffen.",
         minipack = 0,
     },
     [190001080] = {
@@ -107984,14 +107984,9 @@ return {
         text = "Crit DMG +8%",
         minipack = 0,
     },
-    [60021] = {
-        id = 60021,
-        text = "Beschwörungsvorschau",
-        minipack = 0,
-    },
-    [431005] = {
-        id = 431005,
-        text = "Erwachen-SCH +50%. SCH anderer Fähigkeiten +20% (Basisangriffe ausgeschlossen)",
+    [431004] = {
+        id = 431004,
+        text = "Wird immun gegen Steifheit und erhält für 3 Sek. SCH-RED +30%, wenn Basisangriffe das Ziel treffen.",
         minipack = 0,
     },
     [15011417] = {
@@ -108004,14 +107999,19 @@ return {
         text = "Kampf - Vorbereitung",
         minipack = 0,
     },
+    [60021] = {
+        id = 60021,
+        text = "Beschwörungsvorschau",
+        minipack = 0,
+    },
+    [431005] = {
+        id = 431005,
+        text = "Erwachen-SCH +50%. SCH anderer Fähigkeiten +20% (Basisangriffe ausgeschlossen)",
+        minipack = 0,
+    },
     [190011098] = {
         id = 190011098,
         text = "Crit Rate +10%",
-        minipack = 0,
-    },
-    [431006] = {
-        id = 431006,
-        text = "Verdoppelt die von Dämonenkönig Sephira verursachten Debuffs. Verursacht 20% mehr SCH an Feinden, die von Debuffs betroffen sind.",
         minipack = 0,
     },
     [950107] = {
@@ -108019,29 +108019,44 @@ return {
         text = "Versuch, den Frieden zu fördern",
         minipack = 0,
     },
-    [1130971] = {
-        id = 1130971,
-        text = "Maple exclusive. Can be inserted into a Skill 2 gem slot. Can activate 1 extra angel skill",
+    [1130969] = {
+        id = 1130969,
+        text = "Maple exclusive. Can be inserted into a Base ATK gem slot. Can activate 1 extra angel skill",
         minipack = 0,
     },
-    [11261230] = {
-        id = 11261230,
-        text = "Gain 3% DEF Bonus for 10s each time after being attacked or parrying an attack. Stacks up to 5 times and has a 1s CD.",
+    [431006] = {
+        id = 431006,
+        text = "Verdoppelt die von Dämonenkönig Sephira verursachten Debuffs. Verursacht 20% mehr SCH an Feinden, die von Debuffs betroffen sind.",
         minipack = 0,
     },
-    [15011433] = {
-        id = 15011433,
-        text = "Ais Wallenstein reaches Lv.80",
+    [11261228] = {
+        id = 11261228,
+        text = "ATK Bonus -75%, DEF +150%. Each point of DEF provides 0.01% Crit DMG and 0.01% Pierce DMG.",
         minipack = 0,
     },
-    [266227] = {
-        id = 266227,
-        text = "Sende 1 Mal Geschenk an Yoshino",
+    [15011431] = {
+        id = 15011431,
+        text = "Ais Wallenstein reaches Lv.50",
         minipack = 0,
     },
-    [14300030] = {
-        id = 14300030,
-        text = "Ein Sephira-Set, das sich mehr auf Speedrun konzentriert. Du kannst ROPHOCALE durch Kokonbrecher ersetzen, um Mayuris Fähigkeit-DPS-Schaden stark zu erhöhen.",
+    [1013621] = {
+        id = 1013621,
+        text = "In NewWorld Online, you can eat cake without gaining weight.",
+        minipack = 0,
+    },
+    [11271238] = {
+        id = 11271238,
+        text = "Sally transforms into flame, hitting the entire screen with 6 waves of fire attacks. Each hit deals Magic DMG equal to 300% of ATK. Finally, she summons a fireball in her hands and throws it into the ground, inflicting Magic DMG equal to 400% of ATK on al",
+        minipack = 0,
+    },
+    [190011091] = {
+        id = 190011091,
+        text = "Extra Skill DMG +20%",
+        minipack = 0,
+    },
+    [190011089] = {
+        id = 190011089,
+        text = "Crit Rate +10%",
         minipack = 0,
     },
     [2202801] = {
@@ -108074,24 +108089,9 @@ return {
         text = "Fügt Halloween-Spezialfeinden 30% SCH-Bonus zu. Wenn es von Yoshino ausgerüstet wird, erhöht sich ANG zusätzlich um 10%",
         minipack = 0,
     },
-    [190011091] = {
-        id = 190011091,
-        text = "Extra Skill DMG +20%",
-        minipack = 0,
-    },
-    [190011089] = {
-        id = 190011089,
-        text = "Crit Rate +10%",
-        minipack = 0,
-    },
     [190011088] = {
         id = 190011088,
         text = "Magic DMG +20%",
-        minipack = 0,
-    },
-    [431010] = {
-        id = 431010,
-        text = "Nach dem Angriff auf Feinde, die von Status-Effekten betroffen sind, Krit. Rate +15%, Krit.-SCH +50%",
         minipack = 0,
     },
     [190011087] = {
@@ -108104,14 +108104,14 @@ return {
         text = "Back Hit DMG +40% for 5s",
         minipack = 0,
     },
+    [431010] = {
+        id = 431010,
+        text = "Nach dem Angriff auf Feinde, die von Status-Effekten betroffen sind, Krit. Rate +15%, Krit.-SCH +50%",
+        minipack = 0,
+    },
     [190011084] = {
         id = 190011084,
         text = "Hit Rate +10% for 10s",
-        minipack = 0,
-    },
-    [431011] = {
-        id = 431011,
-        text = "Wenn es von Kotori ausgerüstet wird, wird in der Kanonen-Form nicht automatisch Wut verbraucht. (die Verwendung von Fähigkeiten kostet immer noch Wut). Erhöht in diesem Zeitraum den SCH um 20%",
         minipack = 0,
     },
     [190011082] = {
@@ -108124,14 +108124,14 @@ return {
         text = "Crit Rate +5%, Crit DMG +10% for 8s.",
         minipack = 0,
     },
+    [431011] = {
+        id = 431011,
+        text = "Wenn es von Kotori ausgerüstet wird, wird in der Kanonen-Form nicht automatisch Wut verbraucht. (die Verwendung von Fähigkeiten kostet immer noch Wut). Erhöht in diesem Zeitraum den SCH um 20%",
+        minipack = 0,
+    },
     [190011078] = {
         id = 190011078,
         text = "ATK Speed +10%",
-        minipack = 0,
-    },
-    [431012] = {
-        id = 431012,
-        text = "Erweitert die Fähigkeitseffekte von Weihnachts-Sephira auf alle Teamkollegen (Wirkt auch, wenn sie nicht eingesetzt werden. Betrifft nur 1 Teamkollegen in der Team-Instanz)",
         minipack = 0,
     },
     [190011076] = {
@@ -108144,6 +108144,21 @@ return {
         text = "绚烂歼鬼",
         minipack = 0,
     },
+    [431012] = {
+        id = 431012,
+        text = "Erweitert die Fähigkeitseffekte von Weihnachts-Sephira auf alle Teamkollegen (Wirkt auch, wenn sie nicht eingesetzt werden. Betrifft nur 1 Teamkollegen in der Team-Instanz)",
+        minipack = 0,
+    },
+    [15010306] = {
+        id = 15010306,
+        text = "Your \"Time Magic\" has become the light that illuminate the night, congrats to [樱小路狂三] for reaching No.24 on Support Ranking of Date A Bullet: Nightmare or Queen",
+        minipack = 0,
+    },
+    [11271087] = {
+        id = 11271087,
+        text = "Enrage",
+        minipack = 0,
+    },
     [60022] = {
         id = 60022,
         text = "Beten-Leitfaden",
@@ -108154,19 +108169,19 @@ return {
         text = "Während des Events erhöht das Verschenken von Schokolade an die Geister die Beziehung zu ihnen. \n\nBeziehung erhöhen gewährt Belohnungen und schaltet Dates mit Geistern am Valentinstag frei.\n\nGeister-Beziehung (des Servers) wird auf der Rangliste angezeigt\n\n\\Wenn der Event endet, wird die Beziehung der Spieler zu jedem Geist addiert. Der beliebteste Geist wird ein brandneues, modernes Kostüm haben, das am Weißen Valentinstag herausgebracht wird (14.3)",
         minipack = 0,
     },
-    [15010306] = {
-        id = 15010306,
-        text = "Your \"Time Magic\" has become the light that illuminate the night, congrats to [樱小路狂三] for reaching No.24 on Support Ranking of Date A Bullet: Nightmare or Queen",
-        minipack = 0,
-    },
-    [213005] = {
-        id = 213005,
-        text = "Bei diesem Unterstützungsversammlung-Event hast du Rang Nr.%d erreicht. Glückwunsch zum Gewinn dieser Belohnungen",
-        minipack = 0,
-    },
     [13205567] = {
         id = 13205567,
         text = "Sally Skill Intro - Difficulty 4",
+        minipack = 0,
+    },
+    [13205566] = {
+        id = 13205566,
+        text = "Sally Skill Intro - Difficulty 3",
+        minipack = 0,
+    },
+    [13205564] = {
+        id = 13205564,
+        text = "Sally Skill Intro - Difficulty 1",
         minipack = 0,
     },
     [431014] = {
@@ -108224,9 +108239,9 @@ return {
         text = "      <img src='fightmap/anniversary_3/hudong/chazhuang.png' size='38x95'></img>",
         minipack = 0,
     },
-    [13205566] = {
-        id = 13205566,
-        text = "Sally Skill Intro - Difficulty 3",
+    [16011187] = {
+        id = 16011187,
+        text = "Sally's Angel reaches 5-star",
         minipack = 0,
     },
     [431017] = {
@@ -108234,9 +108249,9 @@ return {
         text = "Krit. löst in der Nähe des Ziels nach dem Zufallsprinzip 1-3 Feuerwerkskörper aus, die Flammenschaden in Höhe von 25% ANG deiner Gruppe verursachen. Auslöseintervall: 1 Sek.",
         minipack = 0,
     },
-    [13205564] = {
-        id = 13205564,
-        text = "Sally Skill Intro - Difficulty 1",
+    [493009] = {
+        id = 493009,
+        text = "Schon auf max. Level",
         minipack = 0,
     },
     [13202105] = {
@@ -108254,19 +108269,19 @@ return {
         text = "Wenn Kotori eingesetzt wird, wird jede 5 Sek. (bis zu 5) 1 Feuerwesen gewährt (jedes gewährt 5% ANG-Bonus). Blockiert 30% SCH auf Kosten von 1 Feuerwesen, wenn beschädigt",
         minipack = 0,
     },
-    [16011187] = {
-        id = 16011187,
-        text = "Sally's Angel reaches 5-star",
-        minipack = 0,
-    },
-    [493009] = {
-        id = 493009,
-        text = "Schon auf max. Level",
-        minipack = 0,
-    },
     [13316017] = {
         id = 13316017,
         text = "Clear the story of the day for the first time to unlock.",
+        minipack = 0,
+    },
+    [1020932] = {
+        id = 1020932,
+        text = "Alles ist bereit.",
+        minipack = 0,
+    },
+    [411091] = {
+        id = 411091,
+        text = "Reduziert die Debuff-Dauer um 5%",
         minipack = 0,
     },
     [431019] = {
@@ -108279,9 +108294,9 @@ return {
         text = "Snow Store: Lv.1<img src='ui/activity/2020SnowDay/book/008.png'></img> Lv.2",
         minipack = 0,
     },
-    [1020932] = {
-        id = 1020932,
-        text = "Alles ist bereit.",
+    [16011176] = {
+        id = 16011176,
+        text = "Upgrade any [Sea] Set Sephira to Lv.50",
         minipack = 0,
     },
     [13202177] = {
@@ -108319,21 +108334,6 @@ return {
         text = "Miku Izayoi Fragment, wird verwendet, um Miku Izayoi zu aktivieren oder ihre Fähigkeit zu erhöhen.",
         minipack = 0,
     },
-    [411091] = {
-        id = 411091,
-        text = "Reduziert die Debuff-Dauer um 5%",
-        minipack = 0,
-    },
-    [16011176] = {
-        id = 16011176,
-        text = "Upgrade any [Sea] Set Sephira to Lv.50",
-        minipack = 0,
-    },
-    [431022] = {
-        id = 431022,
-        text = "Fähigkeiten auslösen wird ein Feen-Totem beschwören, das Teamkollegen einen HP-Regenerationseffekt gewährt, der jede 1 Sek. 1% HP wiederherstellt. Totem hält 10 Sek. Auslöseintervall: 15 Sek.",
-        minipack = 0,
-    },
     [16011175] = {
         id = 16011175,
         text = "Gather all the Sephira of any [Sea] Set",
@@ -108344,14 +108344,14 @@ return {
         text = "Use to get Proof of Oath*10.",
         minipack = 0,
     },
+    [431022] = {
+        id = 431022,
+        text = "Fähigkeiten auslösen wird ein Feen-Totem beschwören, das Teamkollegen einen HP-Regenerationseffekt gewährt, der jede 1 Sek. 1% HP wiederherstellt. Totem hält 10 Sek. Auslöseintervall: 15 Sek.",
+        minipack = 0,
+    },
     [1705444] = {
         id = 1705444,
         text = "Versteckte Linien",
-        minipack = 0,
-    },
-    [431023] = {
-        id = 431023,
-        text = "Wenn es von Shekhinah Tohka ausgerüstet wird, Geisterkraft-Explosion Basiseffekte +50%, Dauer +100%.",
         minipack = 0,
     },
     [14210019] = {
@@ -108362,6 +108362,21 @@ return {
     [190010295] = {
         id = 190010295,
         text = "ANG-Geschwindigkeit +20% für 5 Sek.",
+        minipack = 0,
+    },
+    [431023] = {
+        id = 431023,
+        text = "Wenn es von Shekhinah Tohka ausgerüstet wird, Geisterkraft-Explosion Basiseffekte +50%, Dauer +100%.",
+        minipack = 0,
+    },
+    [15011605] = {
+        id = 15011605,
+        text = "Use to get Proof of Oath*5, Fate Badge*5, Diamond*188 and Essence Choice Giftbox*5.",
+        minipack = 0,
+    },
+    [15011603] = {
+        id = 15011603,
+        text = "Use to get Proof of Oath*3, Lv.5 Gold Card*50 and Super EXP Chip*25.",
         minipack = 0,
     },
     [13202305] = {
@@ -108379,21 +108394,6 @@ return {
         text = "Defeat Ice Princess within 300s",
         minipack = 0,
     },
-    [15011605] = {
-        id = 15011605,
-        text = "Use to get Proof of Oath*5, Fate Badge*5, Diamond*188 and Essence Choice Giftbox*5.",
-        minipack = 0,
-    },
-    [15011603] = {
-        id = 15011603,
-        text = "Use to get Proof of Oath*3, Lv.5 Gold Card*50 and Super EXP Chip*25.",
-        minipack = 0,
-    },
-    [431025] = {
-        id = 431025,
-        text = "Wenn es von Invertierte Origami ausgerüstet wird, werden durch die Verwendung von Feder der Verzweiflung 100 Verzweiflungspunkte wiederhergestellt und die Krit. Rate und Durchbohren-Rate für 8 Sek. um 20% erhöht.",
-        minipack = 0,
-    },
     [15011601] = {
         id = 15011601,
         text = "Use to get Fate Badge*1, Diamond*60 and Duel Card*1.",
@@ -108404,14 +108404,14 @@ return {
         text = "Versteckte Linien",
         minipack = 0,
     },
+    [431025] = {
+        id = 431025,
+        text = "Wenn es von Invertierte Origami ausgerüstet wird, werden durch die Verwendung von Feder der Verzweiflung 100 Verzweiflungspunkte wiederhergestellt und die Krit. Rate und Durchbohren-Rate für 8 Sek. um 20% erhöht.",
+        minipack = 0,
+    },
     [14210023] = {
         id = 14210023,
         text = "Wiederholungsgegenstände sind jetzt verfügbar! Komm und schau es dir an!",
-        minipack = 0,
-    },
-    [431026] = {
-        id = 431026,
-        text = "Erhöht Basis-ANG um +15%, bis zu 300. Wenn es von Miku ausgerüstet wird, stellt es dem gesamten Team auch 10% ihres ANG zur Verfügung, bis zu 200.",
         minipack = 0,
     },
     [190010303] = {
@@ -108422,6 +108422,21 @@ return {
     [15010155] = {
         id = 15010155,
         text = "Cannot add more Club EXP today, only individual rewards will be given. Put in the item anyway?",
+        minipack = 0,
+    },
+    [431026] = {
+        id = 431026,
+        text = "Erhöht Basis-ANG um +15%, bis zu 300. Wenn es von Miku ausgerüstet wird, stellt es dem gesamten Team auch 10% ihres ANG zur Verfügung, bis zu 200.",
+        minipack = 0,
+    },
+    [295004] = {
+        id = 295004,
+        text = "Open to select 1 of the following costumes: Ruler, Crimson Rose, Radiant Dawn, Christmas Gift, Treat? Trick!, Gothic Lolita, Exclusive Maid, Divine Raiment.",
+        minipack = 0,
+    },
+    [14400453] = {
+        id = 14400453,
+        text = "A kiss like adults... Isn't it a little...too early for that?",
         minipack = 0,
     },
     [13202401] = {
@@ -108439,21 +108454,6 @@ return {
         text = "\n\"Winter Memories\" tells interesting stories about people at the Snow Mountain Hotel---\n\nBefore reading the story in the Memory Crystal, you need to complete a mini decryption game: Piece together the snowflake fragments.\n\nDrag the fragments on the right into the empty slots of the disk on the left.",
         minipack = 0,
     },
-    [295006] = {
-        id = 295006,
-        text = "Open to select 1 of the following costumes: All the Best, White Sparrow, Wondrous Dream, Transform Magic, First Snow, White Bunny, Star of the Party, Party Invitation.",
-        minipack = 0,
-    },
-    [14400453] = {
-        id = 14400453,
-        text = "A kiss like adults... Isn't it a little...too early for that?",
-        minipack = 0,
-    },
-    [431028] = {
-        id = 431028,
-        text = "Wenn es von Neptunia-Göttin ausgerüstet wird, erhöht sich Fähigkeit-SCH um 25%; Wenn es von Blanc ausgerüstet wird, erhöht sich Glauben-Regeneration von [Eisgeschoss] um 130%",
-        minipack = 0,
-    },
     [14400452] = {
         id = 14400452,
         text = "Am I growing?",
@@ -108464,14 +108464,9 @@ return {
         text = "Besiege alle gegnerischen Schneemänner mit Schneeball",
         minipack = 0,
     },
-    [60024] = {
-        id = 60024,
-        text = "Geschenk-Tipps",
-        minipack = 0,
-    },
-    [431029] = {
-        id = 431029,
-        text = "When equipped by Neptunia Goddess, increases skill DMG by 25%; when equipped by Noire, increases Faith Regen from 3 (normal) to 6 points per second.",
+    [431028] = {
+        id = 431028,
+        text = "Wenn es von Neptunia-Göttin ausgerüstet wird, erhöht sich Fähigkeit-SCH um 25%; Wenn es von Blanc ausgerüstet wird, erhöht sich Glauben-Regeneration von [Eisgeschoss] um 130%",
         minipack = 0,
     },
     [12010001] = {
@@ -108484,14 +108479,19 @@ return {
         text = "I mean...it's good to tone it down once in a while, right? Otherwise you'll be in trouble.",
         minipack = 0,
     },
-    [295007] = {
-        id = 295007,
-        text = "3rd Anniversary Sephira Choice Chest",
+    [60024] = {
+        id = 60024,
+        text = "Geschenk-Tipps",
         minipack = 0,
     },
-    [431030] = {
-        id = 431030,
-        text = "When equipped by Neptunia Goddess, increases skill DMG by 25%; when equipped by Vert, increases Faith Regen by 1 point, increases initial Faith by 100 points, increases extra skill duration by 3 seconds.",
+    [431029] = {
+        id = 431029,
+        text = "When equipped by Neptunia Goddess, increases skill DMG by 25%; when equipped by Noire, increases Faith Regen from 3 (normal) to 6 points per second.",
+        minipack = 0,
+    },
+    [295005] = {
+        id = 295005,
+        text = "Common Costume Choice Chest B",
         minipack = 0,
     },
     [14400445] = {
@@ -108504,14 +108504,14 @@ return {
         text = "Maple may be pretty impressive in-game,",
         minipack = 0,
     },
+    [431030] = {
+        id = 431030,
+        text = "When equipped by Neptunia Goddess, increases skill DMG by 25%; when equipped by Vert, increases Faith Regen by 1 point, increases initial Faith by 100 points, increases extra skill duration by 3 seconds.",
+        minipack = 0,
+    },
     [12921] = {
         id = 12921,
         text = "ANG-Geschwindigkeit -10%, Bewegungsgeschwindigkeit -10%, stellt jede 2 Sek. 1 Erwachen wieder her",
-        minipack = 0,
-    },
-    [431031] = {
-        id = 431031,
-        text = "Kurumi [Endgültiges Urteil], erhöht ANG für Purpurroter Alptraum Kurumi für 10 Sek. um 30%. Stellt jede Sekunde 5% HP wieder her und erhöht sofort die Zeit um 30.",
         minipack = 0,
     },
     [12010006] = {
@@ -108524,14 +108524,14 @@ return {
         text = "Keepsake Store",
         minipack = 0,
     },
-    [295008] = {
-        id = 295008,
-        text = "Open to select 1 of the following: Moon Festival - Bamboo, Moon Festival - Bunny Love, Moon Festival - Autumn Flower, Moon Festival - Painted Plums, Moon Festival - Cool Dew, Moon Festival - Ink Stone, Moon Festival - Caged Star, Moon Festival - Energy Flow, Moon Festival - Lucid Dream, Moon Festival - Gather Ink.",
+    [431031] = {
+        id = 431031,
+        text = "Kurumi [Endgültiges Urteil], erhöht ANG für Purpurroter Alptraum Kurumi für 10 Sek. um 30%. Stellt jede Sekunde 5% HP wieder her und erhöht sofort die Zeit um 30.",
         minipack = 0,
     },
-    [431032] = {
-        id = 431032,
-        text = "Erhöht ANG aller verbündeten Einheiten um 10%, bis zu 200 Punkte. Wirkt auch dann, wenn der Ausrüster nicht eingesetzt wird. Wenn es von Tohka ausgerüstet wird, erhöht sich ihre VER um 10%. [Hinweis: Effekte mehrerer Sephiroth können sich nicht stapeln]",
+    [295006] = {
+        id = 295006,
+        text = "Open to select 1 of the following costumes: All the Best, White Sparrow, Wondrous Dream, Transform Magic, First Snow, White Bunny, Star of the Party, Party Invitation.",
         minipack = 0,
     },
     [14400437] = {
@@ -108542,6 +108542,21 @@ return {
     [14400436] = {
         id = 14400436,
         text = "This is my youth, I have to live it to the fullest.",
+        minipack = 0,
+    },
+    [431032] = {
+        id = 431032,
+        text = "Erhöht ANG aller verbündeten Einheiten um 10%, bis zu 200 Punkte. Wirkt auch dann, wenn der Ausrüster nicht eingesetzt wird. Wenn es von Tohka ausgerüstet wird, erhöht sich ihre VER um 10%. [Hinweis: Effekte mehrerer Sephiroth können sich nicht stapeln]",
+        minipack = 0,
+    },
+    [3001004] = {
+        id = 3001004,
+        text = "Netzach",
+        minipack = 0,
+    },
+    [12010008] = {
+        id = 12010008,
+        text = "Das Mädchen, das ich traf, war Kaguya, die zum ersten Mal alleine war.",
         minipack = 0,
     },
     [2203001] = {
@@ -108599,39 +108614,19 @@ return {
         text = "Unfold cards in the Divination Hut 40 times (Unlock at Lv.8 Park Pass)",
         minipack = 0,
     },
-    [3001004] = {
-        id = 3001004,
-        text = "Netzach",
-        minipack = 0,
-    },
-    [12010008] = {
-        id = 12010008,
-        text = "Das Mädchen, das ich traf, war Kaguya, die zum ersten Mal alleine war.",
-        minipack = 0,
-    },
-    [431036] = {
-        id = 431036,
-        text = "Wenn Marina Arusu es trägt, wird 2 zusätzliche Energie pro Sekunde wiederhergestellt und die Abklingzeit von zusätzlichen Fähigkeiten um 2 Sek. reduziert. Marina erhält SCH +20%.",
-        minipack = 0,
-    },
     [14400432] = {
         id = 14400432,
         text = "Maple may be pretty impressive in-game, but in reality she's a natural airhead. I won't forgive you if you pick on her~",
         minipack = 0,
     },
-    [295009] = {
-        id = 295009,
-        text = "3rd Anniversary Essence Choice Chest",
+    [295007] = {
+        id = 295007,
+        text = "3rd Anniversary Sephira Choice Chest",
         minipack = 0,
     },
-    [60025] = {
-        id = 60025,
-        text = "Umkleideraum",
-        minipack = 0,
-    },
-    [431037] = {
-        id = 431037,
-        text = "Alle Elementwiderstände +20%, ANG +15%. Wenn es von Maria ausgerüstet wird, wird er die Basis-Energie-Regeneration auf 11 erhöht, Durchbohren-SCH und Krit.-SCH gegen Elite und Boss um 20% erhöht.",
+    [431036] = {
+        id = 431036,
+        text = "Wenn Marina Arusu es trägt, wird 2 zusätzliche Energie pro Sekunde wiederhergestellt und die Abklingzeit von zusätzlichen Fähigkeiten um 2 Sek. reduziert. Marina erhält SCH +20%.",
         minipack = 0,
     },
     [14400429] = {
@@ -108644,14 +108639,19 @@ return {
         text = "In the real world or the game world, in studies or playing, never lose to anyone! This is my youth, I have to live it to the fullest.",
         minipack = 0,
     },
+    [60025] = {
+        id = 60025,
+        text = "Umkleideraum",
+        minipack = 0,
+    },
+    [431037] = {
+        id = 431037,
+        text = "Alle Elementwiderstände +20%, ANG +15%. Wenn es von Maria ausgerüstet wird, wird er die Basis-Energie-Regeneration auf 11 erhöht, Durchbohren-SCH und Krit.-SCH gegen Elite und Boss um 20% erhöht.",
+        minipack = 0,
+    },
     [14300420] = {
         id = 14300420,
         text = "Proof of Arbiter",
-        minipack = 0,
-    },
-    [431038] = {
-        id = 431038,
-        text = "Wenn es von der Königin ausgerüstet wird, erhöht jedes ausgelöste Ultimativ den ANG für 7 Sek. um 10%. Stapelt bis zu 5 Mal. Nach der Verwendung von [Moznaim] erhält die Königin für 5 Sek. Superpanzerung.",
         minipack = 0,
     },
     [10981023] = {
@@ -108664,9 +108664,24 @@ return {
         text = "Leopard",
         minipack = 0,
     },
+    [431038] = {
+        id = 431038,
+        text = "Wenn es von der Königin ausgerüstet wird, erhöht jedes ausgelöste Ultimativ den ANG für 7 Sek. um 10%. Stapelt bis zu 5 Mal. Nach der Verwendung von [Moznaim] erhält die Königin für 5 Sek. Superpanzerung.",
+        minipack = 0,
+    },
     [13310604] = {
         id = 13310604,
         text = "Erdnuss [Event]",
+        minipack = 0,
+    },
+    [190000919] = {
+        id = 190000919,
+        text = "Sure enough, long hair is cuter.",
+        minipack = 0,
+    },
+    [13311839] = {
+        id = 13311839,
+        text = "Open to select one Particle Chest from: [Mischief Set]*1, [Christmas Set]*1, [Spring Fest Set]*1, [Maid Set]*1, [Winter Gift Set]*1, [Prosperous Year Set]*1, [Fate Badge]*1.",
         minipack = 0,
     },
     [431039] = {
@@ -108674,9 +108689,9 @@ return {
         text = "Wenn es von Yoshino ausgerüstet wird, ANG/VER/HP +20%, gewährt Verbündeten Frost/Blitz/Dunkel-SCH +10%.",
         minipack = 0,
     },
-    [190000919] = {
-        id = 190000919,
-        text = "Sure enough, long hair is cuter.",
+    [13311836] = {
+        id = 13311836,
+        text = "Open to select one Sephira from: [Winter Gift: Warm Snow]*1, [Winter Gift: Sweet Snow]*1, [Winter Gift: Dancing Snow]*1.",
         minipack = 0,
     },
     [190200017] = {
@@ -108694,24 +108709,9 @@ return {
         text = "In [Attack Mode], when you cast [Lil Rafaga], you will gain 15 Wind Energy and increase Sword Princess’s pierce and crit damage by 15% and pierce and crit rate by 10% for 15 seconds. (Note: The Wind Energy obtained is not affected by the energy recovery efficiency)",
         minipack = 0,
     },
-    [13311839] = {
-        id = 13311839,
-        text = "Open to select one Particle Chest from: [Mischief Set]*1, [Christmas Set]*1, [Spring Fest Set]*1, [Maid Set]*1, [Winter Gift Set]*1, [Prosperous Year Set]*1, [Fate Badge]*1.",
-        minipack = 0,
-    },
-    [13311836] = {
-        id = 13311836,
-        text = "Open to select one Sephira from: [Winter Gift: Warm Snow]*1, [Winter Gift: Sweet Snow]*1, [Winter Gift: Dancing Snow]*1.",
-        minipack = 0,
-    },
     [13311834] = {
         id = 13311834,
         text = "Open to select one Sephira from: [Auspicious: Kotori Itsuka]*1, [Auspicious: Miku Izayoi]*1, [Auspicious: Tohka Yatogami]*1.",
-        minipack = 0,
-    },
-    [431041] = {
-        id = 431041,
-        text = "Increase all [Vitality] level effects. Lv1: Increase all DMG to 30%. Lv.2: Increase all DMG to 50%. Lv.3: Increase all DMG to 80%. Crit DMG +50%. Crit DMG buff lasts for 5s. CD: 10s.",
         minipack = 0,
     },
     [13311833] = {
@@ -108724,14 +108724,14 @@ return {
         text = "I'm more used to short hair.",
         minipack = 0,
     },
+    [431041] = {
+        id = 431041,
+        text = "Increase all [Vitality] level effects. Lv1: Increase all DMG to 30%. Lv.2: Increase all DMG to 50%. Lv.3: Increase all DMG to 80%. Crit DMG +50%. Crit DMG buff lasts for 5s. CD: 10s.",
+        minipack = 0,
+    },
     [13311827] = {
         id = 13311827,
         text = "Open to select one Keepsake from: [Folding Fan]*1, [Maple Pendant]*1 and [Scarf]*1. \nTip: Duplicate Keepsakes will be converted into 1 gold, please choose carefully",
-        minipack = 0,
-    },
-    [431042] = {
-        id = 431042,
-        text = "Regen +10%, ATK +10%, HP +10%. When equipped by Rio, increases [Starlit] Barrier Crit DMG and Pierce DMG by 15%.",
         minipack = 0,
     },
     [13311826] = {
@@ -108744,14 +108744,14 @@ return {
         text = "Ausdauerkosten der Dienstmädchen -50%, Kochkünste +50%.",
         minipack = 0,
     },
+    [431042] = {
+        id = 431042,
+        text = "Regen +10%, ATK +10%, HP +10%. When equipped by Rio, increases [Starlit] Barrier Crit DMG and Pierce DMG by 15%.",
+        minipack = 0,
+    },
     [190000922] = {
         id = 190000922,
         text = "Inverse Tohka is more powerful.",
-        minipack = 0,
-    },
-    [431043] = {
-        id = 431043,
-        text = "Rinne Sonogami's exclusive Sephira. Increases the Dream Depth cost/regen of [Fruit of Truth] and [Death Illusion] by 30; Reduces the CD of [Intertwine] by 5s; Increases the Crit Rate and Pierce Rate of [Broken Dream] and [Broken Reality] by 20%.",
         minipack = 0,
     },
     [13311820] = {
@@ -108764,14 +108764,14 @@ return {
         text = "Collect Spirits with high quality to unlock covenant level cap. Each B-Class Spirit increases the cap by 20. Each class afterwards further increase the cap by 2.        ",
         minipack = 0,
     },
+    [431043] = {
+        id = 431043,
+        text = "Rinne Sonogami's exclusive Sephira. Increases the Dream Depth cost/regen of [Fruit of Truth] and [Death Illusion] by 30; Reduces the CD of [Intertwine] by 5s; Increases the Crit Rate and Pierce Rate of [Broken Dream] and [Broken Reality] by 20%.",
+        minipack = 0,
+    },
     [13400238] = {
         id = 13400238,
         text = "Kochkünste der Dienstmädchen +30%, Kundenattraktion +30%.",
-        minipack = 0,
-    },
-    [431044] = {
-        id = 431044,
-        text = "After dealing damage 5 times, the next damage is guaranteed to crit and pierce. CD: 8s.",
         minipack = 0,
     },
     [190000924] = {
@@ -108782,6 +108782,21 @@ return {
     [13311814] = {
         id = 13311814,
         text = "Spring Fest Set",
+        minipack = 0,
+    },
+    [431044] = {
+        id = 431044,
+        text = "After dealing damage 5 times, the next damage is guaranteed to crit and pierce. CD: 8s.",
+        minipack = 0,
+    },
+    [13311813] = {
+        id = 13311813,
+        text = "Christmas Set",
+        minipack = 0,
+    },
+    [13311812] = {
+        id = 13311812,
+        text = "Mischief Set",
         minipack = 0,
     },
     [60026] = {
@@ -108834,24 +108849,9 @@ return {
         text = "When equipped by Yoshino, ally attacks have a 5% chance to freeze the enemy for 3s. Effective even if Yoshino is not in battle.",
         minipack = 0,
     },
-    [13311813] = {
-        id = 13311813,
-        text = "Christmas Set",
-        minipack = 0,
-    },
-    [13311812] = {
-        id = 13311812,
-        text = "Mischief Set",
-        minipack = 0,
-    },
     [13311810] = {
         id = 13311810,
         text = "Chocolate Clash",
-        minipack = 0,
-    },
-    [431048] = {
-        id = 431048,
-        text = "When equipped by Origami Tobiichi, after dealing damage 40 times, restores 5 Endurance (Damage interval cannot exceed 3s) and grants +5% Pierce Rate, +10% Pierce DMG and 3% Flame DMG for 8s. Stacks up to 3 times.",
         minipack = 0,
     },
     [13310329] = {
@@ -108864,9 +108864,24 @@ return {
         text = "Memory Recall has not started yet",
         minipack = 0,
     },
+    [431048] = {
+        id = 431048,
+        text = "When equipped by Origami Tobiichi, after dealing damage 40 times, restores 5 Endurance (Damage interval cannot exceed 3s) and grants +5% Pierce Rate, +10% Pierce DMG and 3% Flame DMG for 8s. Stacks up to 3 times.",
+        minipack = 0,
+    },
     [13311807] = {
         id = 13311807,
         text = "Autumn Days",
+        minipack = 0,
+    },
+    [13311804] = {
+        id = 13311804,
+        text = "Detective Time",
+        minipack = 0,
+    },
+    [13311803] = {
+        id = 13311803,
+        text = "Happy Birthday",
         minipack = 0,
     },
     [2203131] = {
@@ -108899,29 +108914,9 @@ return {
         text = "Grr... Take the bait.",
         minipack = 0,
     },
-    [13311804] = {
-        id = 13311804,
-        text = "Detective Time",
-        minipack = 0,
-    },
-    [13311803] = {
-        id = 13311803,
-        text = "Happy Birthday",
-        minipack = 0,
-    },
-    [431051] = {
-        id = 431051,
-        text = "Overall DMG +10%, and gains an additional DMG Bonus equal to 20% of all current DMG Bonus effects.",
-        minipack = 0,
-    },
     [13311802] = {
         id = 13311802,
         text = "Warm Spring",
-        minipack = 0,
-    },
-    [2203151] = {
-        id = 2203151,
-        text = "Haste 2",
         minipack = 0,
     },
     [13311801] = {
@@ -108929,14 +108924,34 @@ return {
         text = "Spring Blessing",
         minipack = 0,
     },
-    [431052] = {
-        id = 431052,
-        text = "DMG +10%, and gains an additional DMG Bonus equal to 20% of all current DMG Bonus effects.",
+    [431051] = {
+        id = 431051,
+        text = "Overall DMG +10%, and gains an additional DMG Bonus equal to 20% of all current DMG Bonus effects.",
         minipack = 0,
     },
     [13300314] = {
         id = 13300314,
         text = "Mall Discount",
+        minipack = 0,
+    },
+    [2203151] = {
+        id = 2203151,
+        text = "Haste 2",
+        minipack = 0,
+    },
+    [14300030] = {
+        id = 14300030,
+        text = "Ein Sephira-Set, das sich mehr auf Speedrun konzentriert. Du kannst ROPHOCALE durch Kokonbrecher ersetzen, um Mayuris Fähigkeit-DPS-Schaden stark zu erhöhen.",
+        minipack = 0,
+    },
+    [431052] = {
+        id = 431052,
+        text = "DMG +10%, and gains an additional DMG Bonus equal to 20% of all current DMG Bonus effects.",
+        minipack = 0,
+    },
+    [190010782] = {
+        id = 190010782,
+        text = "Pierce Rate +3%",
         minipack = 0,
     },
     [190010068] = {
@@ -108984,16 +108999,6 @@ return {
         text = "Damage +20%",
         minipack = 0,
     },
-    [190010782] = {
-        id = 190010782,
-        text = "Pierce Rate +3%",
-        minipack = 0,
-    },
-    [11271238] = {
-        id = 11271238,
-        text = "Sally transforms into flame, hitting the entire screen with 6 waves of fire attacks. Each hit deals Magic DMG equal to 300% of ATK. Finally, she summons a fireball in her hands and throws it into the ground, inflicting Magic DMG equal to 400% of ATK on al",
-        minipack = 0,
-    },
     [11271236] = {
         id = 11271236,
         text = "When Maple is not on the team, gain +20% ATK and +20% Crit Rate.",
@@ -109019,11 +109024,6 @@ return {
         text = "Deals +30% Magic DMG to enemies with under 40% HP, and gains +15% Crit Rate and Pierce Rate when attacking enemies with over 60% HP.",
         minipack = 0,
     },
-    [2203191] = {
-        id = 2203191,
-        text = "[Haste Mode Skill] Remove all On-site Hurricanes, then summon 2 new Hurricanes and restore 30 Wind Energy. \nAll On-site Hurricanes inherit 50% of character current ATK Stats, each summoning method can summon up to 2 hurricanes, up to 3 hurricanes can exist at a time.",
-        minipack = 0,
-    },
     [11271228] = {
         id = 11271228,
         text = "When only 1 enemy on the battlefield has [Oboro] mark, Sally's Magic DMG is increased by 20% and she deals +15% DMG to bosses.",
@@ -109034,6 +109034,11 @@ return {
         text = "Each time Sally dodges an attack, she gains +5% ATK (up to a max of +35%). This effect resets whenever she takes damage.",
         minipack = 0,
     },
+    [2203191] = {
+        id = 2203191,
+        text = "[Haste Mode Skill] Remove all On-site Hurricanes, then summon 2 new Hurricanes and restore 30 Wind Energy. \nAll On-site Hurricanes inherit 50% of character current ATK Stats, each summoning method can summon up to 2 hurricanes, up to 3 hurricanes can exist at a time.",
+        minipack = 0,
+    },
     [213014] = {
         id = 213014,
         text = "Schokoladenschlacht-Belohnung",
@@ -109042,6 +109047,16 @@ return {
     [14300031] = {
         id = 14300031,
         text = "Insgesamt gesehen, das beste Sephira-Set für Natsumi, aber es erfordert ein gewisses Level an Krit.-Bonus.",
+        minipack = 0,
+    },
+    [190010789] = {
+        id = 190010789,
+        text = "ATK +3% for 5s",
+        minipack = 0,
+    },
+    [11271222] = {
+        id = 11271222,
+        text = "After using [Water Magic], gain +30% Crit DMG and +30% Pierce DMG for 5s.",
         minipack = 0,
     },
     [2203201] = {
@@ -109064,9 +109079,9 @@ return {
         text = "Perfect Dodge",
         minipack = 0,
     },
-    [190010789] = {
-        id = 190010789,
-        text = "ATK +3% for 5s",
+    [11271116] = {
+        id = 11271116,
+        text = "Solo Operation",
         minipack = 0,
     },
     [13400046] = {
@@ -109084,19 +109099,19 @@ return {
         text = "Weiße Feder",
         minipack = 0,
     },
-    [11271222] = {
-        id = 11271222,
-        text = "After using [Water Magic], gain +30% Crit DMG and +30% Pierce DMG for 5s.",
-        minipack = 0,
-    },
-    [11271116] = {
-        id = 11271116,
-        text = "Solo Operation",
-        minipack = 0,
-    },
     [901144] = {
         id = 901144,
         text = "Lv.4 Live2d freischalten",
+        minipack = 0,
+    },
+    [14300038] = {
+        id = 14300038,
+        text = "70% Rabatt auf Täglicher Gutschein",
+        minipack = 0,
+    },
+    [190010809] = {
+        id = 190010809,
+        text = "Enters Invincibility for 1s",
         minipack = 0,
     },
     [13400094] = {
@@ -109114,9 +109129,9 @@ return {
         text = "Beherrschung aller Gerichte",
         minipack = 0,
     },
-    [14300038] = {
-        id = 14300038,
-        text = "70% Rabatt auf Täglicher Gutschein",
+    [11271110] = {
+        id = 11271110,
+        text = "Adaptation",
         minipack = 0,
     },
     [11303006] = {
@@ -109214,16 +109229,6 @@ return {
         text = "Completed all quested",
         minipack = 0,
     },
-    [190010809] = {
-        id = 190010809,
-        text = "Enters Invincibility for 1s",
-        minipack = 0,
-    },
-    [11271110] = {
-        id = 11271110,
-        text = "Adaptation",
-        minipack = 0,
-    },
     [11271108] = {
         id = 11271108,
         text = "Water Magic Mastery",
@@ -109249,6 +109254,16 @@ return {
         text = "Surging Potential",
         minipack = 0,
     },
+    [11271220] = {
+        id = 11271220,
+        text = "[Super Speed] DMG +20%.",
+        minipack = 0,
+    },
+    [901173] = {
+        id = 901173,
+        text = "Kotori - Nickerchen des Kommandanten",
+        minipack = 0,
+    },
     [190018004] = {
         id = 190018004,
         text = "HP-Regeneration",
@@ -109259,24 +109274,14 @@ return {
         text = "Movement Speed +20% for 3s",
         minipack = 0,
     },
-    [11271220] = {
-        id = 11271220,
-        text = "[Super Speed] DMG +20%.",
+    [11271216] = {
+        id = 11271216,
+        text = "[Super Speed] Inflicts extra Pure DMG equal to 30% of DMG dealt.",
         minipack = 0,
     },
     [60029] = {
         id = 60029,
         text = "Sephiroth-Galerie",
-        minipack = 0,
-    },
-    [901173] = {
-        id = 901173,
-        text = "Kotori - Nickerchen des Kommandanten",
-        minipack = 0,
-    },
-    [11271216] = {
-        id = 11271216,
-        text = "[Super Speed] Inflicts extra Pure DMG equal to 30% of DMG dealt.",
         minipack = 0,
     },
     [190010790] = {
@@ -109292,6 +109297,16 @@ return {
     [11271212] = {
         id = 11271212,
         text = "[Super Speed] Inflicts 8 phantom attacks on locked enemy units. Deals total Magic DMG equal to 3,750% of ATK. Casting this skill puts all enemies on the screen in Stasis for 1.5s.",
+        minipack = 0,
+    },
+    [32260] = {
+        id = 32260,
+        text = "",
+        minipack = 0,
+    },
+    [14300032] = {
+        id = 14300032,
+        text = "Bisher die beste Wahl der Sephira in Bezug auf Schadensverursachen für vollständig hochgestufte Neptune.",
         minipack = 0,
     },
     [2203301] = {
@@ -109314,24 +109329,9 @@ return {
         text = "Schließe das vorherige Kapitel zum Freischalten ab",
         minipack = 0,
     },
-    [32260] = {
-        id = 32260,
-        text = "",
-        minipack = 0,
-    },
-    [14300032] = {
-        id = 14300032,
-        text = "Bisher die beste Wahl der Sephira in Bezug auf Schadensverursachen für vollständig hochgestufte Neptune.",
-        minipack = 0,
-    },
     [190010791] = {
         id = 190010791,
         text = "ATK +8% for 5s",
-        minipack = 0,
-    },
-    [300002] = {
-        id = 300002,
-        text = "Schließe zum Freischalten die vorherige Stufe ab",
         minipack = 0,
     },
     [11271206] = {
@@ -109344,14 +109344,14 @@ return {
         text = "[Super Speed] Inflicts +15% DMG to Bosses",
         minipack = 0,
     },
+    [300002] = {
+        id = 300002,
+        text = "Schließe zum Freischalten die vorherige Stufe ab",
+        minipack = 0,
+    },
     [213013] = {
         id = 213013,
         text = "Deine nicht abgeholte Rückkehrer-Leitfaden Belohnung ist unten angehängt.",
-        minipack = 0,
-    },
-    [300003] = {
-        id = 300003,
-        text = "Schließe %s ab zum Freischalten",
         minipack = 0,
     },
     [11271200] = {
@@ -109364,14 +109364,14 @@ return {
         text = "ATK +10% for 5s",
         minipack = 0,
     },
+    [300003] = {
+        id = 300003,
+        text = "Schließe %s ab zum Freischalten",
+        minipack = 0,
+    },
     [11271198] = {
         id = 11271198,
         text = "[Super Speed] Crit Rate +6%.",
-        minipack = 0,
-    },
-    [300004] = {
-        id = 300004,
-        text = "Schließe Stufe [%s] ab zum Freischalten",
         minipack = 0,
     },
     [11271196] = {
@@ -109379,19 +109379,14 @@ return {
         text = "[Double Slash] DMG +20%",
         minipack = 0,
     },
-    [600001] = {
-        id = 600001,
-        text = "Privater Chat",
-        minipack = 0,
-    },
     [11271194] = {
         id = 11271194,
         text = "[Double Slash] DMG +10%",
         minipack = 0,
     },
-    [600002] = {
-        id = 600002,
-        text = "Club",
+    [300004] = {
+        id = 300004,
+        text = "Schließe Stufe [%s] ab zum Freischalten",
         minipack = 0,
     },
     [213012] = {
@@ -109399,9 +109394,9 @@ return {
         text = "Rückkehrer-Leitfaden Belohnung",
         minipack = 0,
     },
-    [600003] = {
-        id = 600003,
-        text = "System",
+    [600001] = {
+        id = 600001,
+        text = "Privater Chat",
         minipack = 0,
     },
     [14300033] = {
@@ -109409,14 +109404,34 @@ return {
         text = "Eine Sephira aus Instanzen mit hoher VER. Kombiniere Nonstop-Fähigkeitsauslösen, hohen ANG und Fegefeuer, um hohen echten Schaden zu verursachen. Erste Wahl für Verfolgung des Jägers Herausforderungen hohen Levels.",
         minipack = 0,
     },
-    [600004] = {
-        id = 600004,
-        text = "Die Welt",
+    [600002] = {
+        id = 600002,
+        text = "Club",
         minipack = 0,
     },
     [190010793] = {
         id = 190010793,
         text = "Pierce Rate +3% for 7s",
+        minipack = 0,
+    },
+    [600003] = {
+        id = 600003,
+        text = "System",
+        minipack = 0,
+    },
+    [11271190] = {
+        id = 11271190,
+        text = "[Double Slash] Inflicts extra Pure DMG equal to 15% of DMG dealt.",
+        minipack = 0,
+    },
+    [600004] = {
+        id = 600004,
+        text = "Die Welt",
+        minipack = 0,
+    },
+    [11271188] = {
+        id = 11271188,
+        text = "[Double Slash] Summons a phantom clone to attack multiple times. Deals total Magic DMG equal to 3,400% of ATK. Reduces enemy Movement Speed by 80% for 3s. Tap the skill button again to return to the clone's location.",
         minipack = 0,
     },
     [600005] = {
@@ -109434,9 +109449,9 @@ return {
         text = "vor %d Min.",
         minipack = 0,
     },
-    [11271190] = {
-        id = 11271190,
-        text = "[Double Slash] Inflicts extra Pure DMG equal to 15% of DMG dealt.",
+    [213011] = {
+        id = 213011,
+        text = "Deine nicht abgeholte Rückkehrer-Nachschubbelohnung ist unten angehängt.",
         minipack = 0,
     },
     [600007] = {
@@ -109444,9 +109459,9 @@ return {
         text = "vor %d Std.",
         minipack = 0,
     },
-    [11271188] = {
-        id = 11271188,
-        text = "[Double Slash] Summons a phantom clone to attack multiple times. Deals total Magic DMG equal to 3,400% of ATK. Reduces enemy Movement Speed by 80% for 3s. Tap the skill button again to return to the clone's location.",
+    [11271184] = {
+        id = 11271184,
+        text = "[Double Slash] Performs 3 Double Slashes. Deals total Magic DMG equal to 2,700% of ATK. Reduces enemy Movement Speed by 80% for 3s.",
         minipack = 0,
     },
     [600008] = {
@@ -109874,9 +109889,9 @@ return {
         text = "Confirm to spend %d<img src='%s'></img> to summon 100 times.",
         minipack = 0,
     },
-    [213011] = {
-        id = 213011,
-        text = "Deine nicht abgeholte Rückkehrer-Nachschubbelohnung ist unten angehängt.",
+    [190010794] = {
+        id = 190010794,
+        text = "Pierce Rate +4% for 7s",
         minipack = 0,
     },
     [10911004] = {
@@ -110029,19 +110044,19 @@ return {
         text = "Während der zusätzlichen Fähigkeit besteht eine 30% Chance, Extra-SCH in Höhe von 150% ANG zu verursachen. Auslöseintervall: 0.7 Sek.",
         minipack = 0,
     },
-    [11271184] = {
-        id = 11271184,
-        text = "[Double Slash] Performs 3 Double Slashes. Deals total Magic DMG equal to 2,700% of ATK. Reduces enemy Movement Speed by 80% for 3s.",
-        minipack = 0,
-    },
-    [190010794] = {
-        id = 190010794,
-        text = "Pierce Rate +4% for 7s",
-        minipack = 0,
-    },
     [11271182] = {
         id = 11271182,
         text = "[Double Slash] Reduces the targets' DMG Mit by 15% on hit.",
+        minipack = 0,
+    },
+    [11271180] = {
+        id = 11271180,
+        text = "[Double Slash] Inflicts 15% more damage to common enemies.",
+        minipack = 0,
+    },
+    [43015] = {
+        id = 43015,
+        text = "S-Klasse Energie-Edelstein, erster 100%-Abschluss einer Instanz gewährt einen S-Klasse Edelstein für eine zufällige Fähigkeit des Charakters der Instanz.",
         minipack = 0,
     },
     [2203601] = {
@@ -110067,16 +110082,6 @@ return {
     [60034] = {
         id = 60034,
         text = "Date-Leitfaden",
-        minipack = 0,
-    },
-    [11271180] = {
-        id = 11271180,
-        text = "[Double Slash] Inflicts 15% more damage to common enemies.",
-        minipack = 0,
-    },
-    [43015] = {
-        id = 43015,
-        text = "S-Klasse Energie-Edelstein, erster 100%-Abschluss einer Instanz gewährt einen S-Klasse Edelstein für eine zufällige Fähigkeit des Charakters der Instanz.",
         minipack = 0,
     },
     [14300034] = {
@@ -110114,6 +110119,16 @@ return {
         text = "Pierce DMG +4% for 7s",
         minipack = 0,
     },
+    [11271166] = {
+        id = 11271166,
+        text = "[Leap Attack] Increases Movement Speed by 9% for 8s.",
+        minipack = 0,
+    },
+    [11271164] = {
+        id = 11271164,
+        text = "[Leap Attack] Creates 3 Instant Trigger Wave Marks upon landing. Deals total Magic DMG equal to 3,600% of ATK.",
+        minipack = 0,
+    },
     [13205105] = {
         id = 13205105,
         text = "The Mirror Clash event has ended. Results from incomplete Spirit Stages have been calculated. As you did not make any challenges, you did not receive any rewards.",
@@ -110132,16 +110147,6 @@ return {
     [13205129] = {
         id = 13205129,
         text = "An Unexpected Encounter",
-        minipack = 0,
-    },
-    [11271166] = {
-        id = 11271166,
-        text = "[Leap Attack] Increases Movement Speed by 9% for 8s.",
-        minipack = 0,
-    },
-    [11271164] = {
-        id = 11271164,
-        text = "[Leap Attack] Creates 3 Instant Trigger Wave Marks upon landing. Deals total Magic DMG equal to 3,600% of ATK.",
         minipack = 0,
     },
     [11271162] = {
@@ -110174,16 +110179,6 @@ return {
         text = "[Leap Attack] Increases DMG by 3% for 3s on hit.",
         minipack = 0,
     },
-    [13205201] = {
-        id = 13205201,
-        text = "Gold Medal（Part I）",
-        minipack = 0,
-    },
-    [13205209] = {
-        id = 13205209,
-        text = "Stamina Potion",
-        minipack = 0,
-    },
     [11271156] = {
         id = 11271156,
         text = "[Leap Attack] Reduces targets' DEF by 15% for 1s on hit.",
@@ -110192,6 +110187,16 @@ return {
     [213009] = {
         id = 213009,
         text = "Deine nicht abgeholte Kumpel-Einladungsbelohnung ist unten angehängt.",
+        minipack = 0,
+    },
+    [13205201] = {
+        id = 13205201,
+        text = "Gold Medal（Part I）",
+        minipack = 0,
+    },
+    [13205209] = {
+        id = 13205209,
+        text = "Stamina Potion",
         minipack = 0,
     },
     [11271152] = {
@@ -110224,14 +110229,24 @@ return {
         text = "90% Rabatt auf Universal-Gutschein",
         minipack = 0,
     },
+    [190010800] = {
+        id = 190010800,
+        text = "Pierce DMG +15% for 7s",
+        minipack = 0,
+    },
+    [11271142] = {
+        id = 11271142,
+        text = "[Slash] Crit Rate +4%.",
+        minipack = 0,
+    },
     [60035] = {
         id = 60035,
         text = "Tägliches Date",
         minipack = 0,
     },
-    [190010800] = {
-        id = 190010800,
-        text = "Pierce DMG +15% for 7s",
+    [11271140] = {
+        id = 11271140,
+        text = "[Slash] Unlocks Focus effect during the blade vortex. Deals total Magic DMG equal to 820% of ATK.",
         minipack = 0,
     },
     [16033] = {
@@ -110269,16 +110284,6 @@ return {
         text = "Hidden Supply Spot",
         minipack = 0,
     },
-    [11271142] = {
-        id = 11271142,
-        text = "[Slash] Crit Rate +4%.",
-        minipack = 0,
-    },
-    [11271140] = {
-        id = 11271140,
-        text = "[Slash] Unlocks Focus effect during the blade vortex. Deals total Magic DMG equal to 820% of ATK.",
-        minipack = 0,
-    },
     [213007] = {
         id = 213007,
         text = "Bei diesem Unterstützungsversammlung-Event hast du Rang Nr.%d erreicht. Dein Verifizierungscode lautet %s\nDu hast die folgende Belohnung gewonnen (Bitte behandle den Code vertraulich. Um die Belohnung abzuholen, gib die erforderlichen Informationen über \"Unterstützungsversammlung\" - \"Jetzt abholen\" ein)",
@@ -110309,11 +110314,6 @@ return {
         text = "[Slash] Inflicts +9% DMG to Bosses",
         minipack = 0,
     },
-    [300051] = {
-        id = 300051,
-        text = "Stufe abschließen",
-        minipack = 0,
-    },
     [901146] = {
         id = 901146,
         text = "Lv.1 Stimme freischalten",
@@ -110324,14 +110324,14 @@ return {
         text = "80% Rabatt auf Täglicher Gutschein",
         minipack = 0,
     },
+    [300051] = {
+        id = 300051,
+        text = "Stufe abschließen",
+        minipack = 0,
+    },
     [190010807] = {
         id = 190010807,
         text = "DMG +20%, for 10s",
-        minipack = 0,
-    },
-    [300052] = {
-        id = 300052,
-        text = "Führe eine %s-Treffer Kombo aus",
         minipack = 0,
     },
     [11271126] = {
@@ -110344,14 +110344,14 @@ return {
         text = "Fire Ball",
         minipack = 0,
     },
+    [300052] = {
+        id = 300052,
+        text = "Führe eine %s-Treffer Kombo aus",
+        minipack = 0,
+    },
     [11271098] = {
         id = 11271098,
         text = "Fire Ball",
-        minipack = 0,
-    },
-    [300053] = {
-        id = 300053,
-        text = "Schließe die Stufe in unter %s Sekunden ab",
         minipack = 0,
     },
     [901141] = {
@@ -110364,14 +110364,14 @@ return {
         text = "60% Rabatt auf Täglicher Gutschein",
         minipack = 0,
     },
+    [300053] = {
+        id = 300053,
+        text = "Schließe die Stufe in unter %s Sekunden ab",
+        minipack = 0,
+    },
     [11271095] = {
         id = 11271095,
         text = "Ultra Enhance",
-        minipack = 0,
-    },
-    [300054] = {
-        id = 300054,
-        text = "Verliere weniger als %s%% der gesamten Gesundheit",
         minipack = 0,
     },
     [11271094] = {
@@ -110382,6 +110382,21 @@ return {
     [11271092] = {
         id = 11271092,
         text = "Pure Strike",
+        minipack = 0,
+    },
+    [300054] = {
+        id = 300054,
+        text = "Verliere weniger als %s%% der gesamten Gesundheit",
+        minipack = 0,
+    },
+    [213005] = {
+        id = 213005,
+        text = "Bei diesem Unterstützungsversammlung-Event hast du Rang Nr.%d erreicht. Glückwunsch zum Gewinn dieser Belohnungen",
+        minipack = 0,
+    },
+    [11271088] = {
+        id = 11271088,
+        text = "Super Speed: Ultimate",
         minipack = 0,
     },
     [60036] = {
@@ -110414,24 +110429,9 @@ return {
         text = "Werde weniger als %s Mal getroffen",
         minipack = 0,
     },
-    [11271088] = {
-        id = 11271088,
-        text = "Super Speed: Ultimate",
-        minipack = 0,
-    },
-    [11271087] = {
-        id = 11271087,
-        text = "Enrage",
-        minipack = 0,
-    },
     [11271086] = {
         id = 11271086,
         text = "Enrage",
-        minipack = 0,
-    },
-    [300057] = {
-        id = 300057,
-        text = "Werde weniger als %s Mal niedergeschlagen",
         minipack = 0,
     },
     [11271084] = {
@@ -110444,14 +110444,14 @@ return {
         text = "Unterstützungsversammlung",
         minipack = 0,
     },
+    [300057] = {
+        id = 300057,
+        text = "Werde weniger als %s Mal niedergeschlagen",
+        minipack = 0,
+    },
     [11271080] = {
         id = 11271080,
         text = "Precision Strike",
-        minipack = 0,
-    },
-    [300058] = {
-        id = 300058,
-        text = "Verwende %s Mal Erwachen-Fähigkeit",
         minipack = 0,
     },
     [190010816] = {
@@ -110464,14 +110464,14 @@ return {
         text = "Precision Strike",
         minipack = 0,
     },
+    [300058] = {
+        id = 300058,
+        text = "Verwende %s Mal Erwachen-Fähigkeit",
+        minipack = 0,
+    },
     [11271076] = {
         id = 11271076,
         text = "Super Speed: Perish",
-        minipack = 0,
-    },
-    [300059] = {
-        id = 300059,
-        text = "Besiege %s Feinde mit Eingangs-Fähigkeit",
         minipack = 0,
     },
     [213003] = {
@@ -110484,14 +110484,14 @@ return {
         text = "Ultra Enhance",
         minipack = 0,
     },
+    [300059] = {
+        id = 300059,
+        text = "Besiege %s Feinde mit Eingangs-Fähigkeit",
+        minipack = 0,
+    },
     [190010817] = {
         id = 190010817,
         text = "ATK +3% for 5s",
-        minipack = 0,
-    },
-    [300060] = {
-        id = 300060,
-        text = "Bringe einen Verbündeten zu deiner Unterstützung mit",
         minipack = 0,
     },
     [11271070] = {
@@ -110504,14 +110504,14 @@ return {
         text = "Phantom Charge",
         minipack = 0,
     },
+    [300060] = {
+        id = 300060,
+        text = "Bringe einen Verbündeten zu deiner Unterstützung mit",
+        minipack = 0,
+    },
     [11271066] = {
         id = 11271066,
         text = "Phantom Charge",
-        minipack = 0,
-    },
-    [300061] = {
-        id = 300061,
-        text = "Habe %s in der Aufstellung",
         minipack = 0,
     },
     [43013] = {
@@ -110524,9 +110524,24 @@ return {
         text = "Double Slash: Final",
         minipack = 0,
     },
+    [300061] = {
+        id = 300061,
+        text = "Habe %s in der Aufstellung",
+        minipack = 0,
+    },
     [190010826] = {
         id = 190010826,
         text = "Damage Immunity 20%",
+        minipack = 0,
+    },
+    [11271062] = {
+        id = 11271062,
+        text = "Enrage",
+        minipack = 0,
+    },
+    [11271060] = {
+        id = 11271060,
+        text = "Double Slash: Extreme",
         minipack = 0,
     },
     [300062] = {
@@ -110534,9 +110549,9 @@ return {
         text = "Besiege alle %s Sekunden 1 Feind",
         minipack = 0,
     },
-    [11271062] = {
-        id = 11271062,
-        text = "Enrage",
+    [213002] = {
+        id = 213002,
+        text = "Erfordert mehr Ressourcen zum Beten",
         minipack = 0,
     },
     [112000103] = {
@@ -110554,24 +110569,9 @@ return {
         text = "Verwende weniger als %s Fähigkeiten",
         minipack = 0,
     },
-    [11271060] = {
-        id = 11271060,
-        text = "Double Slash: Extreme",
-        minipack = 0,
-    },
-    [213002] = {
-        id = 213002,
-        text = "Erfordert mehr Ressourcen zum Beten",
-        minipack = 0,
-    },
     [11271056] = {
         id = 11271056,
         text = "Enhance",
-        minipack = 0,
-    },
-    [300064] = {
-        id = 300064,
-        text = "Lass niemanden in der Aufstellung sterben",
         minipack = 0,
     },
     [11271055] = {
@@ -110584,14 +110584,14 @@ return {
         text = "Enhance",
         minipack = 0,
     },
+    [300064] = {
+        id = 300064,
+        text = "Lass niemanden in der Aufstellung sterben",
+        minipack = 0,
+    },
     [11271052] = {
         id = 11271052,
         text = "Double Slash: Perish",
-        minipack = 0,
-    },
-    [300065] = {
-        id = 300065,
-        text = "Besiege %s Feinde",
         minipack = 0,
     },
     [213001] = {
@@ -110604,8 +110604,23 @@ return {
         text = "Ultra Enhance",
         minipack = 0,
     },
+    [300065] = {
+        id = 300065,
+        text = "Besiege %s Feinde",
+        minipack = 0,
+    },
     [11271047] = {
         id = 11271047,
+        text = "Ultra Enhance",
+        minipack = 0,
+    },
+    [11271046] = {
+        id = 11271046,
+        text = "Ultra Enhance",
+        minipack = 0,
+    },
+    [11271045] = {
+        id = 11271045,
         text = "Ultra Enhance",
         minipack = 0,
     },
@@ -110614,9 +110629,9 @@ return {
         text = "Kampfpunkte erreichen %s",
         minipack = 0,
     },
-    [11271046] = {
-        id = 11271046,
-        text = "Ultra Enhance",
+    [11271044] = {
+        id = 11271044,
+        text = "Quick Movement",
         minipack = 0,
     },
     [14320008] = {
@@ -110624,9 +110639,9 @@ return {
         text = "Princess's Gift",
         minipack = 0,
     },
-    [11271045] = {
-        id = 11271045,
-        text = "Ultra Enhance",
+    [11271042] = {
+        id = 11271042,
+        text = "Quick Movement",
         minipack = 0,
     },
     [300067] = {
@@ -110634,24 +110649,9 @@ return {
         text = "Verwende Ausweichen weniger als %s Mal",
         minipack = 0,
     },
-    [11271044] = {
-        id = 11271044,
-        text = "Quick Movement",
-        minipack = 0,
-    },
-    [11271042] = {
-        id = 11271042,
-        text = "Quick Movement",
-        minipack = 0,
-    },
     [11271041] = {
         id = 11271041,
         text = "Quick Movement",
-        minipack = 0,
-    },
-    [300068] = {
-        id = 300068,
-        text = "Verwende nicht Ausweichen, um die Stufe abzuschließen",
         minipack = 0,
     },
     [11271040] = {
@@ -110664,14 +110664,14 @@ return {
         text = "Pierce",
         minipack = 0,
     },
+    [300068] = {
+        id = 300068,
+        text = "Verwende nicht Ausweichen, um die Stufe abzuschließen",
+        minipack = 0,
+    },
     [11271038] = {
         id = 11271038,
         text = "Pierce",
-        minipack = 0,
-    },
-    [300069] = {
-        id = 300069,
-        text = "Verdiene %s Punkte durch das Zerstören von Truhen",
         minipack = 0,
     },
     [11271037] = {
@@ -110684,8 +110684,23 @@ return {
         text = "Leap Attack: Extreme",
         minipack = 0,
     },
+    [300069] = {
+        id = 300069,
+        text = "Verdiene %s Punkte durch das Zerstören von Truhen",
+        minipack = 0,
+    },
     [11271035] = {
         id = 11271035,
+        text = "Enhance",
+        minipack = 0,
+    },
+    [11271034] = {
+        id = 11271034,
+        text = "Enhance",
+        minipack = 0,
+    },
+    [11271033] = {
+        id = 11271033,
         text = "Enhance",
         minipack = 0,
     },
@@ -110694,9 +110709,9 @@ return {
         text = "Schließe die Stufe mit mehr als %ss verbleibend ab",
         minipack = 0,
     },
-    [11271034] = {
-        id = 11271034,
-        text = "Enhance",
+    [11271032] = {
+        id = 11271032,
+        text = "Sunder Armor",
         minipack = 0,
     },
     [13206041] = {
@@ -110734,24 +110749,9 @@ return {
         text = "Get %s items in a row",
         minipack = 0,
     },
-    [11271033] = {
-        id = 11271033,
-        text = "Enhance",
-        minipack = 0,
-    },
-    [11271032] = {
-        id = 11271032,
-        text = "Sunder Armor",
-        minipack = 0,
-    },
     [190010829] = {
         id = 190010829,
         text = "ATK +20% for 5s",
-        minipack = 0,
-    },
-    [300073] = {
-        id = 300073,
-        text = "Win without getting any items",
         minipack = 0,
     },
     [11271030] = {
@@ -110764,14 +110764,14 @@ return {
         text = "Sunder Armor",
         minipack = 0,
     },
+    [300073] = {
+        id = 300073,
+        text = "Win without getting any items",
+        minipack = 0,
+    },
     [11271028] = {
         id = 11271028,
         text = "Leap Attack: Perish",
-        minipack = 0,
-    },
-    [300074] = {
-        id = 300074,
-        text = "Clear stage without using Assist",
         minipack = 0,
     },
     [11271027] = {
@@ -110782,6 +110782,11 @@ return {
     [11271026] = {
         id = 11271026,
         text = "ATK Speed",
+        minipack = 0,
+    },
+    [300074] = {
+        id = 300074,
+        text = "Clear stage without using Assist",
         minipack = 0,
     },
     [11271025] = {
@@ -110864,19 +110869,9 @@ return {
         text = "Slash: Perish",
         minipack = 0,
     },
-    [15010] = {
-        id = 15010,
-        text = "Neue Generation des von Ratatoskr entwickelten Energiesystems. Wird verwendet, um Geister zu transzendieren.",
-        minipack = 0,
-    },
     [11271002] = {
         id = 11271002,
         text = "ATK Speed",
-        minipack = 0,
-    },
-    [16034] = {
-        id = 16034,
-        text = "Mayuri Fragment, wird verwendet, um Mayuri zu aktivieren oder ihre Fähigkeit zu erhöhen.",
         minipack = 0,
     },
     [11271001] = {
@@ -110884,9 +110879,19 @@ return {
         text = "ATK Speed",
         minipack = 0,
     },
+    [15010] = {
+        id = 15010,
+        text = "Neue Generation des von Ratatoskr entwickelten Energiesystems. Wird verwendet, um Geister zu transzendieren.",
+        minipack = 0,
+    },
     [3210651] = {
         id = 3210651,
         text = "When Rio Sonogami is on the team, allies gain +20% ATK, +20% DEF and +20% HP.",
+        minipack = 0,
+    },
+    [16034] = {
+        id = 16034,
+        text = "Mayuri Fragment, wird verwendet, um Mayuri zu aktivieren oder ihre Fähigkeit zu erhöhen.",
         minipack = 0,
     },
     [3210650] = {
@@ -110989,11 +110994,6 @@ return {
         text = "Random Sally A Class Gem",
         minipack = 0,
     },
-    [13206505] = {
-        id = 13206505,
-        text = "",
-        minipack = 0,
-    },
     [1224075] = {
         id = 1224075,
         text = "A piece of [Ocean] Sephira set",
@@ -111002,6 +111002,11 @@ return {
     [1140432] = {
         id = 1140432,
         text = "A material required to craft Sally SSS Class Ultimate Gem",
+        minipack = 0,
+    },
+    [13206505] = {
+        id = 13206505,
+        text = "",
         minipack = 0,
     },
     [1140431] = {
@@ -111024,11 +111029,6 @@ return {
         text = "A material required to craft Sally SS Class Ultimate Gem",
         minipack = 0,
     },
-    [60040] = {
-        id = 60040,
-        text = "Teambildungsregeln",
-        minipack = 0,
-    },
     [1140427] = {
         id = 1140427,
         text = "A material required to craft Sally SS Class Skill 2 Gem",
@@ -111037,6 +111037,11 @@ return {
     [1140426] = {
         id = 1140426,
         text = "A material required to craft Sally SS Class Skill 1 Gem",
+        minipack = 0,
+    },
+    [60040] = {
+        id = 60040,
+        text = "Teambildungsregeln",
         minipack = 0,
     },
     [1140425] = {
@@ -111109,6 +111114,16 @@ return {
         text = "Sally exclusive. Can be inserted into an Ultimate gem slot. Can activate 1 extra angel skill",
         minipack = 0,
     },
+    [1130999] = {
+        id = 1130999,
+        text = "Sally exclusive. Can be inserted into a Skill 2 gem slot. Can activate 1 extra angel skill",
+        minipack = 0,
+    },
+    [1130998] = {
+        id = 1130998,
+        text = "Sally exclusive. Can be inserted into a Skill 1 gem slot. Can activate 1 extra angel skill",
+        minipack = 0,
+    },
     [190000085] = {
         id = 190000085,
         text = "80% Rabattgutschein",
@@ -111159,16 +111174,6 @@ return {
         text = "Pick up giftbox 20 times (Unlock at Lv.11 Park Pass)",
         minipack = 0,
     },
-    [1130999] = {
-        id = 1130999,
-        text = "Sally exclusive. Can be inserted into a Skill 2 gem slot. Can activate 1 extra angel skill",
-        minipack = 0,
-    },
-    [1130998] = {
-        id = 1130998,
-        text = "Sally exclusive. Can be inserted into a Skill 1 gem slot. Can activate 1 extra angel skill",
-        minipack = 0,
-    },
     [1130997] = {
         id = 1130997,
         text = "Sally exclusive. Can be inserted into a Base ATK gem slot. Can activate 1 extra angel skill",
@@ -111184,11 +111189,6 @@ return {
         text = "Sally exclusive. Can be inserted into a Skill 2 gem slot.",
         minipack = 0,
     },
-    [60041] = {
-        id = 60041,
-        text = "Teamregeln",
-        minipack = 0,
-    },
     [1130994] = {
         id = 1130994,
         text = "Sally exclusive. Can be inserted into a Skill 1 gem slot.",
@@ -111197,6 +111197,11 @@ return {
     [1130993] = {
         id = 1130993,
         text = "Sally exclusive. Can be inserted into a Base ATK gem slot.",
+        minipack = 0,
+    },
+    [60041] = {
+        id = 60041,
+        text = "Teamregeln",
         minipack = 0,
     },
     [1130992] = {
@@ -111239,16 +111244,6 @@ return {
         text = "Sally SSS Class Gem",
         minipack = 0,
     },
-    [190200018] = {
-        id = 190200018,
-        text = "Dark DMG taken by enemies -80%",
-        minipack = 0,
-    },
-    [190200146] = {
-        id = 190200146,
-        text = "When the Queen is deployed, team members' HP +20%, DEF +20%, ATK +15%",
-        minipack = 0,
-    },
     [1111034] = {
         id = 1111034,
         text = "Sally SSS Class Gem",
@@ -111257,6 +111252,16 @@ return {
     [1111033] = {
         id = 1111033,
         text = "Sally SSS Class Gem",
+        minipack = 0,
+    },
+    [190200018] = {
+        id = 190200018,
+        text = "Dark DMG taken by enemies -80%",
+        minipack = 0,
+    },
+    [190200146] = {
+        id = 190200146,
+        text = "When the Queen is deployed, team members' HP +20%, DEF +20%, ATK +15%",
         minipack = 0,
     },
     [1111032] = {
@@ -111326,6 +111331,16 @@ return {
     },
     [1111011] = {
         id = 1111011,
+        text = "Sally D Class Gem",
+        minipack = 0,
+    },
+    [1111010] = {
+        id = 1111010,
+        text = "Sally D Class Gem",
+        minipack = 0,
+    },
+    [1111009] = {
+        id = 1111009,
         text = "Sally D Class Gem",
         minipack = 0,
     },
@@ -111474,19 +111489,19 @@ return {
         text = "Kampf-Zentrum",
         minipack = 0,
     },
-    [1111010] = {
-        id = 1111010,
-        text = "Sally D Class Gem",
-        minipack = 0,
-    },
-    [1111009] = {
-        id = 1111009,
-        text = "Sally D Class Gem",
-        minipack = 0,
-    },
     [10401005] = {
         id = 10401005,
         text = "Schwäche erkennen: Energie-Mob",
+        minipack = 0,
+    },
+    [266227] = {
+        id = 266227,
+        text = "Sende 1 Mal Geschenk an Yoshino",
+        minipack = 0,
+    },
+    [1093501] = {
+        id = 1093501,
+        text = "Coo coo...I need to grab something to eat.",
         minipack = 0,
     },
     [300110] = {
@@ -111544,9 +111559,9 @@ return {
         text = "Hit Rate +10%",
         minipack = 0,
     },
-    [1093501] = {
-        id = 1093501,
-        text = "Coo coo...I need to grab something to eat.",
+    [1013612] = {
+        id = 1013612,
+        text = "Tohka and Maple are two people I just can't understand.",
         minipack = 0,
     },
     [300113] = {
@@ -111562,16 +111577,6 @@ return {
     [13207417] = {
         id = 13207417,
         text = "Ambush",
-        minipack = 0,
-    },
-    [1013621] = {
-        id = 1013621,
-        text = "In NewWorld Online, you can eat cake without gaining weight.",
-        minipack = 0,
-    },
-    [1013612] = {
-        id = 1013612,
-        text = "Tohka and Maple are two people I just can't understand.",
         minipack = 0,
     },
     [1013611] = {
@@ -111614,16 +111619,6 @@ return {
         text = "ATK Speed +15%, Movement Speed +10%. When equipped by Sally, gain Dodge Rate +10%, Hit Rate +10% and Magic DMG +20%.",
         minipack = 0,
     },
-    [190013013] = {
-        id = 190013013,
-        text = "49",
-        minipack = 0,
-    },
-    [13207513] = {
-        id = 13207513,
-        text = "[Enemy Boss]: Launches a bombardment every few seconds, dealing damage to all targets within the AoE.",
-        minipack = 0,
-    },
     [431053] = {
         id = 431053,
         text = "Reduces Sally's Water Magic skill CD by 2s; Resumes 50% of consumed Energy after returning to the Clone; Deals +20% DMG.",
@@ -111632,6 +111627,16 @@ return {
     [290000063] = {
         id = 290000063,
         text = "Unterwürfiges Dienstmädchen",
+        minipack = 0,
+    },
+    [190013013] = {
+        id = 190013013,
+        text = "49",
+        minipack = 0,
+    },
+    [13207513] = {
+        id = 13207513,
+        text = "[Enemy Boss]: Launches a bombardment every few seconds, dealing damage to all targets within the AoE.",
         minipack = 0,
     },
     [290000068] = {
@@ -111689,16 +111694,6 @@ return {
         text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Sally]. (Auto used once obtained)",
         minipack = 0,
     },
-    [300120] = {
-        id = 300120,
-        text = "Story",
-        minipack = 0,
-    },
-    [190015061] = {
-        id = 190015061,
-        text = "Eisstich",
-        minipack = 0,
-    },
     [920170] = {
         id = 920170,
         text = "Show-Sponsor II",
@@ -111709,9 +111704,14 @@ return {
         text = "S Class Energy Gem, obtain it to get a S Class Gem for a random skill of [Sally]. (Auto used once obtained)",
         minipack = 0,
     },
-    [300121] = {
-        id = 300121,
-        text = "Hart",
+    [300120] = {
+        id = 300120,
+        text = "Story",
+        minipack = 0,
+    },
+    [190015061] = {
+        id = 190015061,
+        text = "Eisstich",
         minipack = 0,
     },
     [3210469] = {
@@ -111724,9 +111724,24 @@ return {
         text = "B Class Energy Gem, obtain it to get a B Class Gem for a random skill of [Sally]. (Auto used once obtained)",
         minipack = 0,
     },
+    [300121] = {
+        id = 300121,
+        text = "Hart",
+        minipack = 0,
+    },
     [230008] = {
         id = 230008,
         text = "Club - Verfolgung des Jägers: Bedingungen zum Freischalten des Bosses nicht erfüllt",
+        minipack = 0,
+    },
+    [10951054] = {
+        id = 10951054,
+        text = "Pfeil-Explosion: Finale",
+        minipack = 0,
+    },
+    [41241] = {
+        id = 41241,
+        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Sally]. (Auto used once obtained)",
         minipack = 0,
     },
     [300122] = {
@@ -111744,24 +111759,14 @@ return {
         text = "Purpurrotes Reich",
         minipack = 0,
     },
-    [10951054] = {
-        id = 10951054,
-        text = "Pfeil-Explosion: Finale",
+    [10503115] = {
+        id = 10503115,
+        text = "Kotori erhält +20% Max. HP und +20% HP-Regeneration.",
         minipack = 0,
     },
     [300123] = {
         id = 300123,
         text = "%s Modus",
-        minipack = 0,
-    },
-    [41241] = {
-        id = 41241,
-        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Sally]. (Auto used once obtained)",
-        minipack = 0,
-    },
-    [10503115] = {
-        id = 10503115,
-        text = "Kotori erhält +20% Max. HP und +20% HP-Regeneration.",
         minipack = 0,
     },
     [13300017] = {
@@ -111809,16 +111814,6 @@ return {
         text = "Oboro",
         minipack = 0,
     },
-    [190018005] = {
-        id = 190018005,
-        text = "Energie-Regeneration",
-        minipack = 0,
-    },
-    [190018133] = {
-        id = 190018133,
-        text = "Movement Speed +30% for 3s",
-        minipack = 0,
-    },
     [1020762] = {
         id = 1020762,
         text = "Dieses nagende Gefühl~",
@@ -111829,9 +111824,14 @@ return {
         text = "Sonogami Keepsake Choice Chest (Common)",
         minipack = 0,
     },
-    [300127] = {
-        id = 300127,
-        text = "1. Abschluss-Drops",
+    [190018005] = {
+        id = 190018005,
+        text = "Energie-Regeneration",
+        minipack = 0,
+    },
+    [190018133] = {
+        id = 190018133,
+        text = "Movement Speed +30% for 3s",
         minipack = 0,
     },
     [22209] = {
@@ -111844,14 +111844,14 @@ return {
         text = "[Eisschuss] Fügt Energie-Feinden +12% mehr SCH zu.",
         minipack = 0,
     },
+    [300127] = {
+        id = 300127,
+        text = "1. Abschluss-Drops",
+        minipack = 0,
+    },
     [1020401] = {
         id = 1020401,
         text = "Oooh~ einsame Nacht~",
-        minipack = 0,
-    },
-    [300128] = {
-        id = 300128,
-        text = "Event hat noch nicht begonnen",
         minipack = 0,
     },
     [10403077] = {
@@ -111864,14 +111864,14 @@ return {
         text = "Berserker",
         minipack = 0,
     },
+    [300128] = {
+        id = 300128,
+        text = "Event hat noch nicht begonnen",
+        minipack = 0,
+    },
     [266347] = {
         id = 266347,
         text = "Schließe 6 Mal Arbeit ab",
-        minipack = 0,
-    },
-    [300129] = {
-        id = 300129,
-        text = "Mögliche Drops",
         minipack = 0,
     },
     [10603038] = {
@@ -111884,14 +111884,14 @@ return {
         text = "Commander's Treasure",
         minipack = 0,
     },
+    [300129] = {
+        id = 300129,
+        text = "Mögliche Drops",
+        minipack = 0,
+    },
     [22201] = {
         id = 22201,
         text = "Singles Day Mystery Lucky Bag, open to get a huge surprise!",
-        minipack = 0,
-    },
-    [300130] = {
-        id = 300130,
-        text = "Event-Intro",
         minipack = 0,
     },
     [22200] = {
@@ -111904,14 +111904,14 @@ return {
         text = "Singles Day Surprise Lucky Bag, open to get a huge surprise!",
         minipack = 0,
     },
+    [300130] = {
+        id = 300130,
+        text = "Event-Intro",
+        minipack = 0,
+    },
     [22198] = {
         id = 22198,
         text = "Surprise Bag",
-        minipack = 0,
-    },
-    [300131] = {
-        id = 300131,
-        text = "Lässt EP-Karten fallen\nÖffnet Mo, Do und So",
         minipack = 0,
     },
     [10901042] = {
@@ -111924,14 +111924,14 @@ return {
         text = "Popularity Bag",
         minipack = 0,
     },
+    [300131] = {
+        id = 300131,
+        text = "Lässt EP-Karten fallen\nÖffnet Mo, Do und So",
+        minipack = 0,
+    },
     [10911047] = {
         id = 10911047,
         text = "Berserker",
-        minipack = 0,
-    },
-    [300132] = {
-        id = 300132,
-        text = "Lässt Gold fallen\nÖffnet Di und Fr",
         minipack = 0,
     },
     [22194] = {
@@ -111944,14 +111944,14 @@ return {
         text = "Open to select one of the following: Keepsake [Earring]*1 or Diamond*500. \nTip: Duplicate Keepsakes will be converted into 1 gold, please choose carefully",
         minipack = 0,
     },
+    [300132] = {
+        id = 300132,
+        text = "Lässt Gold fallen\nÖffnet Di und Fr",
+        minipack = 0,
+    },
     [10921161] = {
         id = 10921161,
         text = "Verwendung von [Sturm] erhöht für 5 Sek. den ANG um 3%. Kann nicht gestapelt werden.",
-        minipack = 0,
-    },
-    [300133] = {
-        id = 300133,
-        text = "Lässt Gebetsmaterial fallen\nÖffnet Mi und Sa",
         minipack = 0,
     },
     [1024201] = {
@@ -111964,14 +111964,14 @@ return {
         text = "Bofuri Keepsake Choice Chest",
         minipack = 0,
     },
+    [300133] = {
+        id = 300133,
+        text = "Lässt Gebetsmaterial fallen\nÖffnet Mi und Sa",
+        minipack = 0,
+    },
     [22187] = {
         id = 22187,
         text = "Grants \"Sally\". Each duplicate of the character will be turned into 60 character fragments.",
-        minipack = 0,
-    },
-    [300134] = {
-        id = 300134,
-        text = "Lässt Kether und Chokhmah Sephiroth fallen\nÖffnet Mo",
         minipack = 0,
     },
     [493002] = {
@@ -111984,14 +111984,14 @@ return {
         text = "[Interception] Holy DMG +6% for 5s after using it.",
         minipack = 0,
     },
+    [300134] = {
+        id = 300134,
+        text = "Lässt Kether und Chokhmah Sephiroth fallen\nÖffnet Mo",
+        minipack = 0,
+    },
     [10961087] = {
         id = 10961087,
         text = "Spot the Weakness",
-        minipack = 0,
-    },
-    [300135] = {
-        id = 300135,
-        text = "Lässt Binah und Chesed Sephiroth fallen\nÖffnet Di",
         minipack = 0,
     },
     [10971120] = {
@@ -112004,14 +112004,14 @@ return {
         text = "Orbital Bombing: Final",
         minipack = 0,
     },
+    [300135] = {
+        id = 300135,
+        text = "Lässt Binah und Chesed Sephiroth fallen\nÖffnet Di",
+        minipack = 0,
+    },
     [20320] = {
         id = 20320,
         text = "Type: Costume\nOwner: Kotori Itsuka\nA red outfit like a flame that only grows stronger in the roaring wind, bringing you the burning sensation of love.",
-        minipack = 0,
-    },
-    [300136] = {
-        id = 300136,
-        text = "Lässt Geburah und Tiphareth Sephiroth fallen\nÖffnet Mi",
         minipack = 0,
     },
     [16080] = {
@@ -112024,14 +112024,14 @@ return {
         text = "Sally Fragment",
         minipack = 0,
     },
+    [300136] = {
+        id = 300136,
+        text = "Lässt Geburah und Tiphareth Sephiroth fallen\nÖffnet Mi",
+        minipack = 0,
+    },
     [12956] = {
         id = 12956,
         text = "Crit Rate -5%, Dodge -5%",
-        minipack = 0,
-    },
-    [300137] = {
-        id = 300137,
-        text = "Lässt Netzach und Hod Sephiroth fallen\nÖffnet Do",
         minipack = 0,
     },
     [13300316] = {
@@ -112044,14 +112044,14 @@ return {
         text = "灿烂歼鬼",
         minipack = 0,
     },
+    [300137] = {
+        id = 300137,
+        text = "Lässt Netzach und Hod Sephiroth fallen\nÖffnet Do",
+        minipack = 0,
+    },
     [13205559] = {
         id = 13205559,
         text = "Shield Defense - Holds a large shield to defend and block all frontal attacks. \nAkujiki - Inflicts high damage to enemies in a small area ahead. \nVenom Mist - Casts poisonous mist around itself, causing continuous damage to enemies within, and has a chance to paralyze enemies. \nVenom Dragon - Releases Venom Dragon 3 times to track enemies, deal damage after falling, and produce a pool of poisoned water. Deals damage over time to enemies within the range, and inflicts a poisoning effect. Poisoned water exists forever. \nAura of Mercy - Expands the aura to increase DEF, ATK, ATK Speed, and Movement Speed of the surrounding allies. \nSummon Predators - Summon 2 predators to assist yourself. The damage taken by the predator when stunned and frozen is increased by 200%, and the damage taken by the awakening skill is increased by 200%. \nVenom Injection - The predator will be strengthened after a certain period of time. When attacking, it will leave a pool of poisoned water, which will exist forever. \nMecha God-Left Hand - Uses the power of the Mecha God to turn the equipment into an EMP cannon, attacking in a straight line in front, and igniting the ground. \n Tyranny - Liberates the power to transform into tyranny, dealing devastating blows to all enemies on the map. \n\nPoisoning - Deals a certain amount of damage every second, and reduces the amount of healing received and damage caused. This effect can be stacked and lasts forever. \nAntidote - At the beginning of the game, 3 antidotes will appear on the field. Pick them up to remove all poisoning effects.",
-        minipack = 0,
-    },
-    [300138] = {
-        id = 300138,
-        text = "Lässt Yesod und Malkuth Sephiroth fallen\nÖffnet Fri",
         minipack = 0,
     },
     [13205558] = {
@@ -112064,14 +112064,14 @@ return {
         text = "Schwarzwälder Kirschtorte~",
         minipack = 0,
     },
+    [300138] = {
+        id = 300138,
+        text = "Lässt Yesod und Malkuth Sephiroth fallen\nÖffnet Fri",
+        minipack = 0,
+    },
     [13300317] = {
         id = 13300317,
         text = "Kotori's Plan",
-        minipack = 0,
-    },
-    [300139] = {
-        id = 300139,
-        text = "Lässt alle Sephiroth fallen\nÖffnet Sa und So",
         minipack = 0,
     },
     [12010333] = {
@@ -112082,6 +112082,11 @@ return {
     [13205552] = {
         id = 13205552,
         text = "High flexibility, with multiple displacement and clone summoning magic attacks.",
+        minipack = 0,
+    },
+    [300139] = {
+        id = 300139,
+        text = "Lässt alle Sephiroth fallen\nÖffnet Sa und So",
         minipack = 0,
     },
     [13205502] = {
@@ -112144,19 +112149,9 @@ return {
         text = "Grand Ceremony",
         minipack = 0,
     },
-    [15012] = {
-        id = 15012,
-        text = "Das Geisterkraft-Speichergerät wurde auf der Grundlage von GK-Überrest konzipiert. Wird verwendet, um Geister zu transzendieren.",
-        minipack = 0,
-    },
     [17000348] = {
         id = 17000348,
         text = "吃粽子",
-        minipack = 0,
-    },
-    [16036] = {
-        id = 16036,
-        text = "Natsumi Fragment, wird verwendet, um Natsumi zu aktivieren oder ihre Fähigkeit zu erhöhen.",
         minipack = 0,
     },
     [13205102] = {
@@ -112164,9 +112159,19 @@ return {
         text = "%s supported you;",
         minipack = 0,
     },
+    [15012] = {
+        id = 15012,
+        text = "Das Geisterkraft-Speichergerät wurde auf der Grundlage von GK-Überrest konzipiert. Wird verwendet, um Geister zu transzendieren.",
+        minipack = 0,
+    },
     [10303089] = {
         id = 10303089,
         text = "[Eissturm] Fähigkeit-SCH +9%.",
+        minipack = 0,
+    },
+    [16036] = {
+        id = 16036,
+        text = "Natsumi Fragment, wird verwendet, um Natsumi zu aktivieren oder ihre Fähigkeit zu erhöhen.",
         minipack = 0,
     },
     [18000133] = {
@@ -112489,11 +112494,6 @@ return {
         text = "Eat this special Moon Dango I made myself.",
         minipack = 0,
     },
-    [300160] = {
-        id = 300160,
-        text = "Du musst zuerst die Superpanzerung und den Schild deiner Feinde zerstören, um sie mit deinem Angriff zu betäuben",
-        minipack = 0,
-    },
     [18000067] = {
         id = 18000067,
         text = "It's dark out, please close your eyes.",
@@ -112504,14 +112504,14 @@ return {
         text = "You are the moon in my life.",
         minipack = 0,
     },
+    [300160] = {
+        id = 300160,
+        text = "Du musst zuerst die Superpanzerung und den Schild deiner Feinde zerstören, um sie mit deinem Angriff zu betäuben",
+        minipack = 0,
+    },
     [18000063] = {
         id = 18000063,
         text = "Mmm, looking at the moon is making me hungry.",
-        minipack = 0,
-    },
-    [300161] = {
-        id = 300161,
-        text = "Du musst zuerst die Superpanzerung und den Schild deiner Feinde zerstören, um sie mit deinem Angriff zu betäuben",
         minipack = 0,
     },
     [18000061] = {
@@ -112524,14 +112524,14 @@ return {
         text = "I hear Moon Dango are delicious...",
         minipack = 0,
     },
+    [300161] = {
+        id = 300161,
+        text = "Du musst zuerst die Superpanzerung und den Schild deiner Feinde zerstören, um sie mit deinem Angriff zu betäuben",
+        minipack = 0,
+    },
     [18000057] = {
         id = 18000057,
         text = "Action game? The higher the difficulty, the better the challenge!",
-        minipack = 0,
-    },
-    [300162] = {
-        id = 300162,
-        text = "Danach wird die Suchrakete dir folgen und eine Weile erkunden. Halt dich davon fern",
         minipack = 0,
     },
     [10931177] = {
@@ -112544,14 +112544,14 @@ return {
         text = "It's just a movie, why is she crying?",
         minipack = 0,
     },
+    [300162] = {
+        id = 300162,
+        text = "Danach wird die Suchrakete dir folgen und eine Weile erkunden. Halt dich davon fern",
+        minipack = 0,
+    },
     [13313579] = {
         id = 13313579,
         text = "The airship's external suspended artillery system, capable of firing additional laser attacks at enemies from multiple angles.",
-        minipack = 0,
-    },
-    [300163] = {
-        id = 300163,
-        text = "Zerbreche die Hindernisse, um alle möglichen Nachschübe zu erhalten",
         minipack = 0,
     },
     [18000053] = {
@@ -112564,14 +112564,14 @@ return {
         text = "Yoshino? Maid Café? Magic? Knowledge of strange things increased.",
         minipack = 0,
     },
+    [300163] = {
+        id = 300163,
+        text = "Zerbreche die Hindernisse, um alle möglichen Nachschübe zu erhalten",
+        minipack = 0,
+    },
     [18000051] = {
         id = 18000051,
         text = "I'm scared of the haunted house, will you protect me?",
-        minipack = 0,
-    },
-    [300164] = {
-        id = 300164,
-        text = "Stufe %s",
         minipack = 0,
     },
     [18000049] = {
@@ -112582,6 +112582,11 @@ return {
     [17100101] = {
         id = 17100101,
         text = "You can now attract customers in China Town",
+        minipack = 0,
+    },
+    [300164] = {
+        id = 300164,
+        text = "Stufe %s",
         minipack = 0,
     },
     [17100100] = {
@@ -112667,6 +112672,16 @@ return {
     [17100064] = {
         id = 17100064,
         text = "An unexpected trick!",
+        minipack = 0,
+    },
+    [17100063] = {
+        id = 17100063,
+        text = "The mayor has gone offline, start collecting Dango!",
+        minipack = 0,
+    },
+    [17100062] = {
+        id = 17100062,
+        text = "A resident has gone offline, the remaining residents take her Dango.",
         minipack = 0,
     },
     [10981003] = {
@@ -112814,16 +112829,6 @@ return {
         text = "Each time attack deals damage, has a 30% chance to get a layer of \"Implant Troy\". After stacking up to 5 layers, Marina gains Crit DMG+30% and Pierce DMG +30% for 5s.",
         minipack = 0,
     },
-    [17100063] = {
-        id = 17100063,
-        text = "The mayor has gone offline, start collecting Dango!",
-        minipack = 0,
-    },
-    [17100062] = {
-        id = 17100062,
-        text = "A resident has gone offline, the remaining residents take her Dango.",
-        minipack = 0,
-    },
     [17100059] = {
         id = 17100059,
         text = "Faster",
@@ -112944,16 +112949,6 @@ return {
         text = "Purpurroter Tanz",
         minipack = 0,
     },
-    [12030003] = {
-        id = 12030003,
-        text = "Ende um %s.%s",
-        minipack = 0,
-    },
-    [12030011] = {
-        id = 12030011,
-        text = "1. [Hyperdimensionaler Kampf] hat 2 Teile und dieses Mal ist Teil 1 verfügbar.",
-        minipack = 0,
-    },
     [13317030] = {
         id = 13317030,
         text = "Both players must have the same number of balloons in order to trade!",
@@ -112962,6 +112957,16 @@ return {
     [17100015] = {
         id = 17100015,
         text = "[I'm A Sneak Master!]",
+        minipack = 0,
+    },
+    [12030003] = {
+        id = 12030003,
+        text = "Ende um %s.%s",
+        minipack = 0,
+    },
+    [12030011] = {
+        id = 12030011,
+        text = "1. [Hyperdimensionaler Kampf] hat 2 Teile und dieses Mal ist Teil 1 verfügbar.",
         minipack = 0,
     },
     [17100011] = {
@@ -113029,11 +113034,6 @@ return {
         text = "Collect the correct lanterns in each game to get points and complete quests for great rewards. Let's play!",
         minipack = 0,
     },
-    [110000390] = {
-        id = 110000390,
-        text = "$?:",
-        minipack = 0,
-    },
     [17000733] = {
         id = 17000733,
         text = "Chances Left",
@@ -113042,6 +113042,11 @@ return {
     [17000732] = {
         id = 17000732,
         text = "Lantern Points",
+        minipack = 0,
+    },
+    [110000390] = {
+        id = 110000390,
+        text = "$?:",
         minipack = 0,
     },
     [17000731] = {
@@ -113089,9 +113094,9 @@ return {
         text = "Hall of Herbs",
         minipack = 0,
     },
-    [1224065] = {
-        id = 1224065,
-        text = "A piece of [Fortress] Sephira set",
+    [1224063] = {
+        id = 1224063,
+        text = "Gold Medal*60",
         minipack = 0,
     },
     [17000641] = {
@@ -113174,6 +113179,16 @@ return {
         text = "Draw from Character Special Card Pools 40 times",
         minipack = 0,
     },
+    [16011155] = {
+        id = 16011155,
+        text = "Draw from Character Special Card Pools 50 times",
+        minipack = 0,
+    },
+    [16011154] = {
+        id = 16011154,
+        text = "Draw from Character Special Card Pools 40 times",
+        minipack = 0,
+    },
     [13210001] = {
         id = 13210001,
         text = "Shop",
@@ -113187,16 +113202,6 @@ return {
     [13210017] = {
         id = 13210017,
         text = "Du genießt den [Sommerferien]-Buff",
-        minipack = 0,
-    },
-    [16011155] = {
-        id = 16011155,
-        text = "Draw from Character Special Card Pools 50 times",
-        minipack = 0,
-    },
-    [16011154] = {
-        id = 16011154,
-        text = "Draw from Character Special Card Pools 40 times",
         minipack = 0,
     },
     [493007] = {
@@ -113289,11 +113294,6 @@ return {
         text = "A famous puppeteer and amateur detective who was drawn to the villa after hearing about the incredible case once happened here.",
         minipack = 0,
     },
-    [300200] = {
-        id = 300200,
-        text = "Band %s",
-        minipack = 0,
-    },
     [3201013] = {
         id = 3201013,
         text = "Diamant I",
@@ -113304,14 +113304,14 @@ return {
         text = "Maple's Angel reaches 4-star",
         minipack = 0,
     },
+    [300200] = {
+        id = 300200,
+        text = "Band %s",
+        minipack = 0,
+    },
     [493005] = {
         id = 493005,
         text = "Unbekannte Attribute",
-        minipack = 0,
-    },
-    [300201] = {
-        id = 300201,
-        text = "1",
         minipack = 0,
     },
     [13316030] = {
@@ -113324,14 +113324,14 @@ return {
         text = "Maple reaches Lv.80",
         minipack = 0,
     },
+    [300201] = {
+        id = 300201,
+        text = "1",
+        minipack = 0,
+    },
     [16011107] = {
         id = 16011107,
         text = "[Fortress] Set Sephira reaches 6-star",
-        minipack = 0,
-    },
-    [300202] = {
-        id = 300202,
-        text = "2",
         minipack = 0,
     },
     [411087] = {
@@ -113344,14 +113344,14 @@ return {
         text = "Upgrade any [Fortress] Set Sephira to Lv.50",
         minipack = 0,
     },
+    [300202] = {
+        id = 300202,
+        text = "2",
+        minipack = 0,
+    },
     [16011103] = {
         id = 16011103,
         text = "Gather all the Sephira of any [Fortress] Set",
-        minipack = 0,
-    },
-    [300203] = {
-        id = 300203,
-        text = "III",
         minipack = 0,
     },
     [15011569] = {
@@ -113364,14 +113364,14 @@ return {
         text = "Besitze 1 fortgeschrittenes Kostüm von Marina",
         minipack = 0,
     },
+    [300203] = {
+        id = 300203,
+        text = "III",
+        minipack = 0,
+    },
     [15011567] = {
         id = 15011567,
         text = "1. Moon Tower Event Intro: \n\n1. Lantern Splendor: Sign in during the Anniversary Celebration to claim tons of gifts!\n\n2. Moonfire Shadow: Complete Anniversary Quests to get Mooncakes and Chinese Coins. \n\n3. Moonlit Shop: Exchange Mooncakes here to get exclusive Anniversary Celebration Sephira and Fav Girls. Covenanters can also check out the other available items!\n\n4. Chinese Coin Kiosk: Exchange China Town - Chinese Coins here to get exclusive Anniversary Celebration Sephira!",
-        minipack = 0,
-    },
-    [300204] = {
-        id = 300204,
-        text = "4",
         minipack = 0,
     },
     [190010304] = {
@@ -113384,14 +113384,14 @@ return {
         text = "Moon God Temple",
         minipack = 0,
     },
+    [300204] = {
+        id = 300204,
+        text = "4",
+        minipack = 0,
+    },
     [15011562] = {
         id = 15011562,
         text = "Light the Flower Lantern to unlock",
-        minipack = 0,
-    },
-    [300205] = {
-        id = 300205,
-        text = "5",
         minipack = 0,
     },
     [15011561] = {
@@ -113404,14 +113404,14 @@ return {
         text = "Unclaimed Flower Lantern Rewards",
         minipack = 0,
     },
+    [300205] = {
+        id = 300205,
+        text = "5",
+        minipack = 0,
+    },
     [15011559] = {
         id = 15011559,
         text = "Available after claiming all Flower Lantern Rewards.",
-        minipack = 0,
-    },
-    [300206] = {
-        id = 300206,
-        text = "6",
         minipack = 0,
     },
     [190010305] = {
@@ -113422,6 +113422,21 @@ return {
     [15011557] = {
         id = 15011557,
         text = "Lighting Flower Lanterns",
+        minipack = 0,
+    },
+    [300206] = {
+        id = 300206,
+        text = "6",
+        minipack = 0,
+    },
+    [15011553] = {
+        id = 15011553,
+        text = "The bright moon, Osmanthus flowers and good wine are the perfect Mid-Autumn combo. Especially the wine, which can make people more sentimental. But Yoshino isn't old enough to drink. Then we'll have to use some juice instead. Cuteness will be our weapon. Yoshino, attack!",
+        minipack = 0,
+    },
+    [409991] = {
+        id = 409991,
+        text = "Rinne Sonogami in this Sephira form has strength way beyond other Sephiroth. Sephira is Binah. Contains 4 random stats",
         minipack = 0,
     },
     [15014] = {
@@ -113439,21 +113454,6 @@ return {
         text = "Eisprinzessin-Yoshino Fragment, wird verwendet, um Eisprinzessin zu aktivieren oder ihre Fähigkeit zu erhöhen.",
         minipack = 0,
     },
-    [15011553] = {
-        id = 15011553,
-        text = "The bright moon, Osmanthus flowers and good wine are the perfect Mid-Autumn combo. Especially the wine, which can make people more sentimental. But Yoshino isn't old enough to drink. Then we'll have to use some juice instead. Cuteness will be our weapon. Yoshino, attack!",
-        minipack = 0,
-    },
-    [409991] = {
-        id = 409991,
-        text = "Rinne Sonogami in this Sephira form has strength way beyond other Sephiroth. Sephira is Binah. Contains 4 random stats",
-        minipack = 0,
-    },
-    [300208] = {
-        id = 300208,
-        text = "8",
-        minipack = 0,
-    },
     [15011551] = {
         id = 15011551,
         text = "Kurumi stirred the sugar into the butter, and suddenly realized a problem. How sweet should she make it? It was almost impossible to find references to the ancient recipes for mooncake filling. After thinking for a moment, Kurumi dipped her finger into the filling and tasted it. --Ooh, just the perfect amount of sweetness.",
@@ -113464,14 +113464,14 @@ return {
         text = "Schadensimmunität +20% für 5 Sek.",
         minipack = 0,
     },
+    [300208] = {
+        id = 300208,
+        text = "8",
+        minipack = 0,
+    },
     [15011545] = {
         id = 15011545,
         text = "A rare night of clear moonlight",
-        minipack = 0,
-    },
-    [300209] = {
-        id = 300209,
-        text = "9",
         minipack = 0,
     },
     [15011544] = {
@@ -113484,14 +113484,14 @@ return {
         text = "Zum Shop",
         minipack = 0,
     },
+    [300209] = {
+        id = 300209,
+        text = "9",
+        minipack = 0,
+    },
     [190010316] = {
         id = 190010316,
         text = "VER -15% für 6 Sek.",
-        minipack = 0,
-    },
-    [300210] = {
-        id = 300210,
-        text = "10",
         minipack = 0,
     },
     [15011537] = {
@@ -113504,14 +113504,14 @@ return {
         text = "Niemand wird mich jemals auf dieser Welt besiegen!",
         minipack = 0,
     },
+    [300210] = {
+        id = 300210,
+        text = "10",
+        minipack = 0,
+    },
     [14210028] = {
         id = 14210028,
         text = "Zur Beschwörung",
-        minipack = 0,
-    },
-    [300211] = {
-        id = 300211,
-        text = "0",
         minipack = 0,
     },
     [190010317] = {
@@ -113524,14 +113524,14 @@ return {
         text = "Full Moon Insignia",
         minipack = 0,
     },
+    [300211] = {
+        id = 300211,
+        text = "0",
+        minipack = 0,
+    },
     [409990] = {
         id = 409990,
         text = "Rinne Sonogami in this Sephira form has strength way beyond other Sephiroth. Sephira is Geburah. Contains 4 random stats",
-        minipack = 0,
-    },
-    [300212] = {
-        id = 300212,
-        text = "100",
         minipack = 0,
     },
     [15011527] = {
@@ -113544,14 +113544,14 @@ return {
         text = "Betäuben für 0,5 Sek.",
         minipack = 0,
     },
+    [300212] = {
+        id = 300212,
+        text = "100",
+        minipack = 0,
+    },
     [15011521] = {
         id = 15011521,
         text = "\"Heitao Game Registered User Privacy Policy\" is a general privacy policy that is applied uniformly. Its contents include but are not limited to user rights and data security measures that are applicable to users of Heitao games. This policy specifies rule\"Heitao Game Registered User Privacy Policy\" is a general privacy policy that is applied uniformly. Its contents include but are not limited to user rights and data security measures that are applicable to users of Heitao games. This policy specifies rules for the protection of children's privacy, including special protections for children's personal information. If there is any inconsistency or conflict with this policy, this policy shall prevail.\n",
-        minipack = 0,
-    },
-    [300213] = {
-        id = 300213,
-        text = "1000",
         minipack = 0,
     },
     [15011520] = {
@@ -113564,9 +113564,24 @@ return {
         text = "Fliegt mit extremer Geschwindigkeit und fügt Gegnern in Reichweite Durchdringen-Schaden zu. \nVerursacht über 8 Schläge Sturm-SCH in Höhe von 800% ANG.",
         minipack = 0,
     },
+    [300213] = {
+        id = 300213,
+        text = "1000",
+        minipack = 0,
+    },
     [190010321] = {
         id = 190010321,
         text = "Betäuben für 1,5 Sek.",
+        minipack = 0,
+    },
+    [15011516] = {
+        id = 15011516,
+        text = "If you and your child discover an error in your child's personal information, you may contact us as described in section 11 of this policy.\n",
+        minipack = 0,
+    },
+    [15011513] = {
+        id = 15011513,
+        text = "2.1 In strict accordance with the provisions of laws and regulations and our agreement with users, we will collect and use information as outlined in this policy, \"Heitao Game License and Service Agreement,\" and \"Heitao Game Registered User Privacy Policy,\" to provide you and your child with high-quality service. \n2.2. For details regarding our use of children's personal information, please see \"Heitao Game Registered User Privacy Policy.\" If our usage of your child's personal information exceeds the objectives declared at the time of collection and falls within the scope of direct or reasonable relevance, we will notify you and obtain your consent before using your child's personal information.\n",
         minipack = 0,
     },
     [12031003] = {
@@ -113604,16 +113619,6 @@ return {
         text = "",
         minipack = 0,
     },
-    [15011516] = {
-        id = 15011516,
-        text = "If you and your child discover an error in your child's personal information, you may contact us as described in section 11 of this policy.\n",
-        minipack = 0,
-    },
-    [15011513] = {
-        id = 15011513,
-        text = "2.1 In strict accordance with the provisions of laws and regulations and our agreement with users, we will collect and use information as outlined in this policy, \"Heitao Game License and Service Agreement,\" and \"Heitao Game Registered User Privacy Policy,\" to provide you and your child with high-quality service. \n2.2. For details regarding our use of children's personal information, please see \"Heitao Game Registered User Privacy Policy.\" If our usage of your child's personal information exceeds the objectives declared at the time of collection and falls within the scope of direct or reasonable relevance, we will notify you and obtain your consent before using your child's personal information.\n",
-        minipack = 0,
-    },
     [42036] = {
         id = 42036,
         text = "SS-Klasse Energie-Edelstein, erhalte es, um einen SS-Klasse Edelstein für eine zufällige Fähigkeit von [Yoshino] zu erhalten. (Wird nach Erhalt automatisch verwendet)",
@@ -113632,6 +113637,16 @@ return {
     [1705428] = {
         id = 1705428,
         text = "Versteckter Wert? Das kann ich dir natürlich nicht zeigen.",
+        minipack = 0,
+    },
+    [14210035] = {
+        id = 14210035,
+        text = "Sim-Beschwörung Kartenpool ist jetzt verfügbar! Komm, schau es dir an!",
+        minipack = 0,
+    },
+    [190010329] = {
+        id = 190010329,
+        text = "Bewegungsgeschwindigkeit +10% für 6 Sek.",
         minipack = 0,
     },
     [12031107] = {
@@ -113724,9 +113739,9 @@ return {
         text = "",
         minipack = 0,
     },
-    [14210035] = {
-        id = 14210035,
-        text = "Sim-Beschwörung Kartenpool ist jetzt verfügbar! Komm, schau es dir an!",
+    [15011499] = {
+        id = 15011499,
+        text = "Today's chances left: %s",
         minipack = 0,
     },
     [300222] = {
@@ -113734,24 +113749,9 @@ return {
         text = "Yoshino",
         minipack = 0,
     },
-    [190010329] = {
-        id = 190010329,
-        text = "Bewegungsgeschwindigkeit +10% für 6 Sek.",
-        minipack = 0,
-    },
-    [15011499] = {
-        id = 15011499,
-        text = "Today's chances left: %s",
-        minipack = 0,
-    },
     [15011498] = {
         id = 15011498,
         text = "1. Players can use Energy Point items to increase the Energy Points in Skill Book.\n\n2. After upgrading the Energy Points, Spirit stats in Bofuri collabo event will be increased correspondingly, and passive skills will be activated after Energy Points reach 25, 50, 100, and will take effect in Bofuri collabo stages after being equipped.\n\n3. Energy Points can be reset and activated skills will be ineffective. \n\n4. Energy Points has a upper limit which will change as time goes.\n Day 1 of the event: 15 Points\n Day 2 of the event: 30 Points\n Day 3 of the event: 45 Points\n Day 4 of the event: 60 Points\n Day 5 of the event: 75 Points\n Day 6 of the event: 90 Points\n Day 7 of the event: 105 Points\n Day 8 of the event: 120 Points\n Day 9 of the event: 135 Points\n Day 10 of the event: 150 Points\n\nEnergy Point Detailed Info: \nSTR: Gets +3 ATK each point.\nVIT: Gets +3 DEF and +0.4% DMG MIT each point.\nAGI: Gets +0.3% ATK Speed each point.\nDEX: Gets +0.3% Hit Rate each point.\nINT: Gets +0.3% Damage each point.",
-        minipack = 0,
-    },
-    [300223] = {
-        id = 300223,
-        text = "Kurumi",
         minipack = 0,
     },
     [15011497] = {
@@ -113764,14 +113764,14 @@ return {
         text = "Hehe, du willst mich so sehr sehen?",
         minipack = 0,
     },
+    [300223] = {
+        id = 300223,
+        text = "Kurumi",
+        minipack = 0,
+    },
     [15011495] = {
         id = 15011495,
         text = "This potion resets all Energy Points in the Bofuri event.",
-        minipack = 0,
-    },
-    [300224] = {
-        id = 300224,
-        text = "Itsuka",
         minipack = 0,
     },
     [190010330] = {
@@ -113784,9 +113784,24 @@ return {
         text = "Complete the event quest \"Support companions 3 times\" to unlock",
         minipack = 0,
     },
+    [300224] = {
+        id = 300224,
+        text = "Itsuka",
+        minipack = 0,
+    },
     [409989] = {
         id = 409989,
         text = "Tsang in this Sephira form has strength way beyond other Sephiroth. Sephira is Hod. Contains 4 random stats",
+        minipack = 0,
+    },
+    [11000964] = {
+        id = 11000964,
+        text = "...That tickles... but I don't mind it...",
+        minipack = 0,
+    },
+    [190010331] = {
+        id = 190010331,
+        text = "Bewegungsgeschwindigkeit +20% für 6 Sek.",
         minipack = 0,
     },
     [300225] = {
@@ -113794,9 +113809,9 @@ return {
         text = "Yamai",
         minipack = 0,
     },
-    [11000964] = {
-        id = 11000964,
-        text = "...That tickles... but I don't mind it...",
+    [15011481] = {
+        id = 15011481,
+        text = "Skill Expired",
         minipack = 0,
     },
     [190200019] = {
@@ -113814,24 +113829,9 @@ return {
         text = "Miku",
         minipack = 0,
     },
-    [190010331] = {
-        id = 190010331,
-        text = "Bewegungsgeschwindigkeit +20% für 6 Sek.",
-        minipack = 0,
-    },
-    [15011481] = {
-        id = 15011481,
-        text = "Skill Expired",
-        minipack = 0,
-    },
     [270729] = {
         id = 270729,
         text = "Das F&E-Zentrum ist der Ort, an dem du das Level des Clubs erhöhst. Arbeite mit anderen zusammen, um hier veröffentlichte Quests abzuschließen und das Level des Clubs zu erhöhen!",
-        minipack = 0,
-    },
-    [300227] = {
-        id = 300227,
-        text = "Miku",
         minipack = 0,
     },
     [244056] = {
@@ -113844,9 +113844,24 @@ return {
         text = "Jede 2 ANG-Geschwindigkeit erhöht Bewegungsgeschwindigkeit um 1",
         minipack = 0,
     },
+    [300227] = {
+        id = 300227,
+        text = "Miku",
+        minipack = 0,
+    },
     [15011473] = {
         id = 15011473,
         text = "Sephira Roulette",
+        minipack = 0,
+    },
+    [213190] = {
+        id = 213190,
+        text = "Abbrechen",
+        minipack = 0,
+    },
+    [14210039] = {
+        id = 14210039,
+        text = "Sim-Beschwörung Kartenpool ist jetzt verfügbar! Komm, schau es dir an!",
         minipack = 0,
     },
     [300228] = {
@@ -113864,9 +113879,9 @@ return {
         text = "Melde dich für 5 Tage an",
         minipack = 0,
     },
-    [213190] = {
-        id = 213190,
-        text = "Abbrechen",
+    [190010333] = {
+        id = 190010333,
+        text = "Gewährt +1,5% ANG bei Treffer, dauert 5 Sek.",
         minipack = 0,
     },
     [300229] = {
@@ -113874,19 +113889,19 @@ return {
         text = "Natsumi",
         minipack = 0,
     },
-    [14210039] = {
-        id = 14210039,
-        text = "Sim-Beschwörung Kartenpool ist jetzt verfügbar! Komm, schau es dir an!",
-        minipack = 0,
-    },
-    [190010333] = {
-        id = 190010333,
-        text = "Gewährt +1,5% ANG bei Treffer, dauert 5 Sek.",
-        minipack = 0,
-    },
     [15011465] = {
         id = 15011465,
         text = "Reach 50 VIT to unlock",
+        minipack = 0,
+    },
+    [1705423] = {
+        id = 1705423,
+        text = "Durchschnittlich. Nichts, was lobenswert wäre.",
+        minipack = 0,
+    },
+    [15011463] = {
+        id = 15011463,
+        text = "Reach 100 AGI to unlock",
         minipack = 0,
     },
     [300230] = {
@@ -113962,16 +113977,6 @@ return {
     [10131112] = {
         id = 10131112,
         text = "Verbesserter Schwertkampf",
-        minipack = 0,
-    },
-    [1705423] = {
-        id = 1705423,
-        text = "Durchschnittlich. Nichts, was lobenswert wäre.",
-        minipack = 0,
-    },
-    [15011463] = {
-        id = 15011463,
-        text = "Reach 100 AGI to unlock",
         minipack = 0,
     },
     [190001095] = {
@@ -114059,6 +114064,16 @@ return {
         text = "Ais Wallenstein's Angel reaches 2-star",
         minipack = 0,
     },
+    [15011433] = {
+        id = 15011433,
+        text = "Ais Wallenstein reaches Lv.80",
+        minipack = 0,
+    },
+    [409987] = {
+        id = 409987,
+        text = "Tsang in this Sephira form has strength way beyond other Sephiroth. Sephira is Geburah. Contains 4 random stats",
+        minipack = 0,
+    },
     [190010070] = {
         id = 190010070,
         text = "ANG +30% für 10 Sek.",
@@ -114104,9 +114119,9 @@ return {
         text = "Skill DMG +5%",
         minipack = 0,
     },
-    [409987] = {
-        id = 409987,
-        text = "Tsang in this Sephira form has strength way beyond other Sephiroth. Sephira is Geburah. Contains 4 random stats",
+    [190010338] = {
+        id = 190010338,
+        text = "VER -12% für 4 Sek.",
         minipack = 0,
     },
     [300241] = {
@@ -114114,9 +114129,9 @@ return {
         text = "SACKGASSE",
         minipack = 0,
     },
-    [15011431] = {
-        id = 15011431,
-        text = "Ais Wallenstein reaches Lv.50",
+    [15011429] = {
+        id = 15011429,
+        text = "[Unbreakable Blade] Set Sephira reaches 6-star",
         minipack = 0,
     },
     [11311006] = {
@@ -114234,29 +114249,9 @@ return {
         text = "WAHRHEIT",
         minipack = 0,
     },
-    [190010338] = {
-        id = 190010338,
-        text = "VER -12% für 4 Sek.",
-        minipack = 0,
-    },
-    [15011429] = {
-        id = 15011429,
-        text = "[Unbreakable Blade] Set Sephira reaches 6-star",
-        minipack = 0,
-    },
     [15011425] = {
         id = 15011425,
         text = "Gather all the Sephira of any [Unbreakable Blade] Set",
-        minipack = 0,
-    },
-    [300248] = {
-        id = 300248,
-        text = "SUCHEN",
-        minipack = 0,
-    },
-    [190015062] = {
-        id = 190015062,
-        text = "Eisschuss",
         minipack = 0,
     },
     [270727] = {
@@ -114269,9 +114264,14 @@ return {
         text = "43831",
         minipack = 0,
     },
-    [300249] = {
-        id = 300249,
-        text = "ÄNDERN",
+    [300248] = {
+        id = 300248,
+        text = "SUCHEN",
+        minipack = 0,
+    },
+    [190015062] = {
+        id = 190015062,
+        text = "Eisschuss",
         minipack = 0,
     },
     [190010339] = {
@@ -114284,9 +114284,24 @@ return {
         text = "Update Date: 8/26/2021\nTakes Effect: 8/26/2021\n\nAbout Us\nCompany Name: Shanghai Heitao Interactive Network Technology Co. Ltd.\nRegistered Address: 5358 Huyi Road Floor 3 Room J589, Jiading District, Shanghai\n",
         minipack = 0,
     },
+    [300249] = {
+        id = 300249,
+        text = "ÄNDERN",
+        minipack = 0,
+    },
     [15010547] = {
         id = 15010547,
         text = "3) This game employs a User Real name Verification System. Users verified as minors will receive the following limitations: \nSome in-game modes and items require payments. Users under 8 years of age cannot make payments. Users between 8 and 16 years of age cannot make single transactions exceeding 50 RMB or spend over 200 RMB total in a single month. Minors who are over 16 years of age cannot make single transactions exceeding 100 RMG or spend over 400 RMB total in a single month. \nMinors can only play for 1 hour a day between the times of 20:00-21:00 on Fridays, Saturdays, Sundays and official holidays.",
+        minipack = 0,
+    },
+    [15010545] = {
+        id = 15010545,
+        text = "1) This is a 2D side scroller action adventure game suitable for users ages 16 and over. It is recommended that minors play under parental supervision.",
+        minipack = 0,
+    },
+    [15010544] = {
+        id = 15010544,
+        text = "Age Appropriate Reminder",
         minipack = 0,
     },
     [300250] = {
@@ -114304,34 +114319,14 @@ return {
         text = "Purpurrotes Reich",
         minipack = 0,
     },
-    [15010545] = {
-        id = 15010545,
-        text = "1) This is a 2D side scroller action adventure game suitable for users ages 16 and over. It is recommended that minors play under parental supervision.",
-        minipack = 0,
-    },
-    [300251] = {
-        id = 300251,
-        text = "TEUFEL",
-        minipack = 0,
-    },
-    [15010544] = {
-        id = 15010544,
-        text = "Age Appropriate Reminder",
-        minipack = 0,
-    },
     [15010543] = {
         id = 15010543,
         text = "11. Contact Us",
         minipack = 0,
     },
-    [111000055] = {
-        id = 111000055,
-        text = "AA? ?? ?? ????",
-        minipack = 0,
-    },
-    [300252] = {
-        id = 300252,
-        text = "DISASTER",
+    [300251] = {
+        id = 300251,
+        text = "TEUFEL",
         minipack = 0,
     },
     [190010369] = {
@@ -114342,6 +114337,16 @@ return {
     [15010541] = {
         id = 15010541,
         text = "9. Changes to Privacy Policy",
+        minipack = 0,
+    },
+    [111000055] = {
+        id = 111000055,
+        text = "AA? ?? ?? ????",
+        minipack = 0,
+    },
+    [300252] = {
+        id = 300252,
+        text = "DISASTER",
         minipack = 0,
     },
     [15010539] = {
@@ -114369,16 +114374,6 @@ return {
         text = "3. Storage of children's personal information",
         minipack = 0,
     },
-    [190018006] = {
-        id = 190018006,
-        text = "HP-Regeneration",
-        minipack = 0,
-    },
-    [190018134] = {
-        id = 190018134,
-        text = "ATK +30% for 10s",
-        minipack = 0,
-    },
     [190010370] = {
         id = 190010370,
         text = "VER +30% für 5 Sek.",
@@ -114387,6 +114382,16 @@ return {
     [15010533] = {
         id = 15010533,
         text = "1. The personal information of children that we collect",
+        minipack = 0,
+    },
+    [190018006] = {
+        id = 190018006,
+        text = "HP-Regeneration",
+        minipack = 0,
+    },
+    [190018134] = {
+        id = 190018134,
+        text = "ATK +30% for 10s",
         minipack = 0,
     },
     [1900003] = {
@@ -114404,9 +114409,9 @@ return {
         text = "Sandalphon und Shekhinah werden automatisch in die Hände von Tohka zurückkehren und angrenzende Feinde angreifen. Die Fähigkeit verursacht Heilig-SCH in Höhe von 140% ANG.",
         minipack = 0,
     },
-    [295010] = {
-        id = 295010,
-        text = "Open to select 1 of the following: Inv.Malkuth Essence*10, Inv.Kether Essence*10, Inv.Binah Essence*10, Nightmare Essence*10, Kabbalah Essence*10.",
+    [295008] = {
+        id = 295008,
+        text = "Open to select 1 of the following: Moon Festival - Bamboo, Moon Festival - Bunny Love, Moon Festival - Autumn Flower, Moon Festival - Painted Plums, Moon Festival - Cool Dew, Moon Festival - Ink Stone, Moon Festival - Caged Star, Moon Festival - Energy Flow, Moon Festival - Lucid Dream, Moon Festival - Gather Ink.",
         minipack = 0,
     },
     [14400325] = {
@@ -114452,6 +114457,16 @@ return {
     [1240024] = {
         id = 1240024,
         text = "Geburah Gebetsbuch",
+        minipack = 0,
+    },
+    [14400313] = {
+        id = 14400313,
+        text = "...Ha! Am I dreaming?!",
+        minipack = 0,
+    },
+    [409953] = {
+        id = 409953,
+        text = "Kaguya Yamai in dieser Sephira-Form hat eine Stärke, die weit über die anderer Sephiroths hinausgeht. Sephira ist Tiphareth. Enthält 4 zufällige Attribute",
         minipack = 0,
     },
     [1201001] = {
@@ -114539,24 +114554,9 @@ return {
         text = "Teufel",
         minipack = 0,
     },
-    [14400313] = {
-        id = 14400313,
-        text = "...Ha! Am I dreaming?!",
-        minipack = 0,
-    },
-    [409953] = {
-        id = 409953,
-        text = "Kaguya Yamai in dieser Sephira-Form hat eine Stärke, die weit über die anderer Sephiroths hinausgeht. Sephira ist Tiphareth. Enthält 4 zufällige Attribute",
-        minipack = 0,
-    },
-    [300263] = {
-        id = 300263,
-        text = "Qliphoth-Baum",
-        minipack = 0,
-    },
-    [295011] = {
-        id = 295011,
-        text = "Gold Lucky Bag",
+    [295009] = {
+        id = 295009,
+        text = "3rd Anniversary Essence Choice Chest",
         minipack = 0,
     },
     [14400309] = {
@@ -114564,14 +114564,14 @@ return {
         text = "Just kidding~",
         minipack = 0,
     },
+    [300263] = {
+        id = 300263,
+        text = "Qliphoth-Baum",
+        minipack = 0,
+    },
     [14400308] = {
         id = 14400308,
         text = "With all this treasure, just call me Queen Maple.",
-        minipack = 0,
-    },
-    [300264] = {
-        id = 300264,
-        text = "Geister-Prüfungen",
         minipack = 0,
     },
     [14400306] = {
@@ -114584,14 +114584,14 @@ return {
         text = "Oh! Is this the legendary Reward Zone?",
         minipack = 0,
     },
+    [300264] = {
+        id = 300264,
+        text = "Geister-Prüfungen",
+        minipack = 0,
+    },
     [14400293] = {
         id = 14400293,
         text = "What could weird material like this be used for? Let's head back and ask everyone.",
-        minipack = 0,
-    },
-    [300265] = {
-        id = 300265,
-        text = "Sim-Prüfung",
         minipack = 0,
     },
     [14400292] = {
@@ -114604,14 +114604,14 @@ return {
         text = "",
         minipack = 0,
     },
+    [300265] = {
+        id = 300265,
+        text = "Sim-Prüfung",
+        minipack = 0,
+    },
     [10941195] = {
         id = 10941195,
         text = "[Eisensand-Schwert] SCH +20%",
-        minipack = 0,
-    },
-    [300266] = {
-        id = 300266,
-        text = "Burgerkundung",
         minipack = 0,
     },
     [14400288] = {
@@ -114624,14 +114624,14 @@ return {
         text = "There are lots of dependable companions in the Maple Tree Guild. You want to join us? Alright!",
         minipack = 0,
     },
+    [300266] = {
+        id = 300266,
+        text = "Burgerkundung",
+        minipack = 0,
+    },
     [14400285] = {
         id = 14400285,
         text = "I met a bunch of nice people in NewWorld Online and made a lot of friends. It's great, hehe.",
-        minipack = 0,
-    },
-    [300267] = {
-        id = 300267,
-        text = "<Yoshino geht allein in den Nebelwald. Was für eine Geschichte wartet auf sie?>",
         minipack = 0,
     },
     [14400284] = {
@@ -114644,14 +114644,14 @@ return {
         text = "",
         minipack = 0,
     },
+    [300267] = {
+        id = 300267,
+        text = "<Yoshino geht allein in den Nebelwald. Was für eine Geschichte wartet auf sie?>",
+        minipack = 0,
+    },
     [14310010] = {
         id = 14310010,
         text = "Unlocked during the 3rd Anniversary event",
-        minipack = 0,
-    },
-    [300268] = {
-        id = 300268,
-        text = "Winterschlacht",
         minipack = 0,
     },
     [12010335] = {
@@ -114664,14 +114664,14 @@ return {
         text = "Commemorative Souvenir",
         minipack = 0,
     },
+    [300268] = {
+        id = 300268,
+        text = "Winterschlacht",
+        minipack = 0,
+    },
     [14300414] = {
         id = 14300414,
         text = "Use to draw items from the \"Maple Special Card Pool\". Obtained from event or Hot Event Packs.",
-        minipack = 0,
-    },
-    [300269] = {
-        id = 300269,
-        text = "<An alle, die Operation beginnt! Für die Weißen Weihnachten!>",
         minipack = 0,
     },
     [1120200] = {
@@ -114684,14 +114684,14 @@ return {
         text = "A special gift box, you can see the glitter of Gems shining through. \nUse it to select a random class-SSS gem skill scroll for any character (including Bofuri characters).",
         minipack = 0,
     },
+    [300269] = {
+        id = 300269,
+        text = "<An alle, die Operation beginnt! Für die Weißen Weihnachten!>",
+        minipack = 0,
+    },
     [14111436] = {
         id = 14111436,
         text = "A special gift box, you can see the glitter of Gems shining through. \nUse it to select a random class-SS gem skill scroll for any character (including Bofuri characters).",
-        minipack = 0,
-    },
-    [300270] = {
-        id = 300270,
-        text = "Besuche Hot Games",
         minipack = 0,
     },
     [13311630] = {
@@ -114702,6 +114702,21 @@ return {
     [13311628] = {
         id = 13311628,
         text = "Prepare for winter together",
+        minipack = 0,
+    },
+    [300270] = {
+        id = 300270,
+        text = "Besuche Hot Games",
+        minipack = 0,
+    },
+    [1706178] = {
+        id = 1706178,
+        text = "Nicht schlecht. Ich habe selten die Gelegenheit, solche Kleidung zu tragen",
+        minipack = 0,
+    },
+    [13410030] = {
+        id = 13410030,
+        text = "Keine Bonds",
         minipack = 0,
     },
     [15016] = {
@@ -114719,21 +114734,6 @@ return {
         text = "DEM-Origami Fragment, wird verwendet, um DEM-Origami zu aktivieren oder ihre Fähigkeit zu erhöhen.",
         minipack = 0,
     },
-    [1706178] = {
-        id = 1706178,
-        text = "Nicht schlecht. Ich habe selten die Gelegenheit, solche Kleidung zu tragen",
-        minipack = 0,
-    },
-    [13410030] = {
-        id = 13410030,
-        text = "Keine Bonds",
-        minipack = 0,
-    },
-    [300272] = {
-        id = 300272,
-        text = "Frühlingstraining",
-        minipack = 0,
-    },
     [190000960] = {
         id = 190000960,
         text = "Halloween Horror",
@@ -114742,6 +114742,21 @@ return {
     [13311622] = {
         id = 13311622,
         text = "Harvest together",
+        minipack = 0,
+    },
+    [300272] = {
+        id = 300272,
+        text = "Frühlingstraining",
+        minipack = 0,
+    },
+    [13311621] = {
+        id = 13311621,
+        text = "Bake ginkgo together",
+        minipack = 0,
+    },
+    [13311620] = {
+        id = 13311620,
+        text = "Bake ginkgo together",
         minipack = 0,
     },
     [11312006] = {
@@ -114814,9 +114829,9 @@ return {
         text = "Magischer Palast",
         minipack = 0,
     },
-    [13311621] = {
-        id = 13311621,
-        text = "Bake ginkgo together",
+    [27174] = {
+        id = 27174,
+        text = "Souvenir für das Weihnachtsfest. Bereite deinen Lieblings-Weihnachtsstrumpf vor! Um Mitternacht wird eine geheimnisvolle Gestalt heimlich Geschenke hineinstopfen.",
         minipack = 0,
     },
     [12033003] = {
@@ -114854,14 +114869,14 @@ return {
         text = "HERAUSFORDERUNG",
         minipack = 0,
     },
-    [13311620] = {
-        id = 13311620,
-        text = "Bake ginkgo together",
+    [13410032] = {
+        id = 13410032,
+        text = "Rekrutiert",
         minipack = 0,
     },
-    [27174] = {
-        id = 27174,
-        text = "Souvenir für das Weihnachtsfest. Bereite deinen Lieblings-Weihnachtsstrumpf vor! Um Mitternacht wird eine geheimnisvolle Gestalt heimlich Geschenke hineinstopfen.",
+    [13311616] = {
+        id = 13311616,
+        text = "Bake ginkgo together",
         minipack = 0,
     },
     [60064] = {
@@ -114874,24 +114889,9 @@ return {
         text = "Sharam-Tor",
         minipack = 0,
     },
-    [13410032] = {
-        id = 13410032,
-        text = "Rekrutiert",
-        minipack = 0,
-    },
-    [13311616] = {
-        id = 13311616,
-        text = "Bake ginkgo together",
-        minipack = 0,
-    },
     [13311615] = {
         id = 13311615,
         text = "Bake ginkgo together",
-        minipack = 0,
-    },
-    [300280] = {
-        id = 300280,
-        text = "Die Grenze der [Realität] ist verschwommen. Der Eingang zur [Benachbarten Welt] ist geöffnet -",
         minipack = 0,
     },
     [13311614] = {
@@ -114902,6 +114902,11 @@ return {
     [13311612] = {
         id = 13311612,
         text = "Bake ginkgo together",
+        minipack = 0,
+    },
+    [300280] = {
+        id = 300280,
+        text = "Die Grenze der [Realität] ist verschwommen. Der Eingang zur [Benachbarten Welt] ist geöffnet -",
         minipack = 0,
     },
     [1706176] = {
@@ -114929,11 +114934,6 @@ return {
         text = "Hestia Gunst Lv.2",
         minipack = 0,
     },
-    [300282] = {
-        id = 300282,
-        text = "Devil Invasion",
-        minipack = 0,
-    },
     [1706140] = {
         id = 1706140,
         text = "Königin Gunst Lv.3",
@@ -114944,14 +114944,14 @@ return {
         text = "Please add New Moon Coins",
         minipack = 0,
     },
+    [300282] = {
+        id = 300282,
+        text = "Devil Invasion",
+        minipack = 0,
+    },
     [13300462] = {
         id = 13300462,
         text = "A handmade flower lantern has profound meaning.",
-        minipack = 0,
-    },
-    [300283] = {
-        id = 300283,
-        text = "Neues Semester Training",
         minipack = 0,
     },
     [13300461] = {
@@ -114964,14 +114964,14 @@ return {
         text = "What's most important on a date is staying happy.",
         minipack = 0,
     },
+    [300283] = {
+        id = 300283,
+        text = "Neues Semester Training",
+        minipack = 0,
+    },
     [13300459] = {
         id = 13300459,
         text = "Did you say games? Suddenly I feel wide awake!",
-        minipack = 0,
-    },
-    [300284] = {
-        id = 300284,
-        text = "<Neues Semester beginnt mit neuer Herausforderung, lasst uns ein Spezialtraining starten, um wieder in Stimmung zu kommen!>",
         minipack = 0,
     },
     [13300458] = {
@@ -114984,14 +114984,14 @@ return {
         text = "If the three of us fell into the water, I would push you and Yuzuru onto the wood board.",
         minipack = 0,
     },
+    [300284] = {
+        id = 300284,
+        text = "<Neues Semester beginnt mit neuer Herausforderung, lasst uns ein Spezialtraining starten, um wieder in Stimmung zu kommen!>",
+        minipack = 0,
+    },
     [13300456] = {
         id = 13300456,
         text = "Kotori will get all the exclusive lollipops she wants!",
-        minipack = 0,
-    },
-    [300285] = {
-        id = 300285,
-        text = "Göttinnen-Ankunft - Lila Herz",
         minipack = 0,
     },
     [13300455] = {
@@ -115004,14 +115004,14 @@ return {
         text = "Spells will surely work in the Maid Café.",
         minipack = 0,
     },
+    [300285] = {
+        id = 300285,
+        text = "Göttinnen-Ankunft - Lila Herz",
+        minipack = 0,
+    },
     [13300453] = {
         id = 13300453,
         text = "For me, a haunted house has more than just frights.",
-        minipack = 0,
-    },
-    [300286] = {
-        id = 300286,
-        text = "Göttinnen-Ankunft - Weißes Herz",
         minipack = 0,
     },
     [13300452] = {
@@ -115024,14 +115024,9 @@ return {
         text = "You protect me, and I also want to do all that I can protect you!",
         minipack = 0,
     },
-    [60065] = {
-        id = 60065,
-        text = "Fortschrittsbelohnung",
-        minipack = 0,
-    },
-    [300287] = {
-        id = 300287,
-        text = "Triumph des Bösen",
+    [300286] = {
+        id = 300286,
+        text = "Göttinnen-Ankunft - Weißes Herz",
         minipack = 0,
     },
     [13300450] = {
@@ -115044,14 +115039,19 @@ return {
         text = "[Your Team]: Inflicted with Frailty for a short period after using Dodge (increases damage taken).",
         minipack = 0,
     },
+    [60065] = {
+        id = 60065,
+        text = "Fortschrittsbelohnung",
+        minipack = 0,
+    },
+    [300287] = {
+        id = 300287,
+        text = "Triumph des Bösen",
+        minipack = 0,
+    },
     [13207515] = {
         id = 13207515,
         text = "[Your Team]: Max HP reduced by 70%. Gain a shield equal to 1.5x of original max HP.",
-        minipack = 0,
-    },
-    [300288] = {
-        id = 300288,
-        text = "Burgerkundung",
         minipack = 0,
     },
     [17000065] = {
@@ -115064,14 +115064,14 @@ return {
         text = "[Enemy Boss]: Deals more damage as HP decreases, up to +100% DMG.",
         minipack = 0,
     },
+    [300288] = {
+        id = 300288,
+        text = "Burgerkundung",
+        minipack = 0,
+    },
     [10231146] = {
         id = 10231146,
         text = "Auslösegeschwindigkeit von [Untergang] um 12% erhöht.",
-        minipack = 0,
-    },
-    [300289] = {
-        id = 300289,
-        text = "<In dem gruseligen Schloss unter dem purpurroten Mond wartet Tohka, von einer geheimnisvollen Kraft gefangen genommen, darauf, gerettet zu werden!>",
         minipack = 0,
     },
     [13300127] = {
@@ -115084,9 +115084,24 @@ return {
         text = "五河琴里",
         minipack = 0,
     },
+    [300289] = {
+        id = 300289,
+        text = "<In dem gruseligen Schloss unter dem purpurroten Mond wartet Tohka, von einer geheimnisvollen Kraft gefangen genommen, darauf, gerettet zu werden!>",
+        minipack = 0,
+    },
     [13207505] = {
         id = 13207505,
         text = "[Your Team]: Takes 1 stack of Frost every 3s. After reaching 4 stacks, Freeze for a short period. Running will remove Frost effects.",
+        minipack = 0,
+    },
+    [13207502] = {
+        id = 13207502,
+        text = "[Enemy Boss]: Gains a 5s DMG MIT effect at fixed intervals.",
+        minipack = 0,
+    },
+    [13207414] = {
+        id = 13207414,
+        text = "Shock Orb",
         minipack = 0,
     },
     [300290] = {
@@ -115094,9 +115109,9 @@ return {
         text = "Purpurrotes Reich",
         minipack = 0,
     },
-    [13207502] = {
-        id = 13207502,
-        text = "[Enemy Boss]: Gains a 5s DMG MIT effect at fixed intervals.",
+    [10231168] = {
+        id = 10231168,
+        text = "[Untergang] SCH +20%.",
         minipack = 0,
     },
     [100000031] = {
@@ -115134,14 +115149,14 @@ return {
         text = "Plume of Judgment",
         minipack = 0,
     },
-    [13207414] = {
-        id = 13207414,
-        text = "Shock Orb",
+    [13300136] = {
+        id = 13300136,
+        text = "Wo ist Origami? Wir müssen sie wiederfinden, bevor wir den Kuchen genießen können.",
         minipack = 0,
     },
-    [10231168] = {
-        id = 10231168,
-        text = "[Untergang] SCH +20%.",
+    [13207410] = {
+        id = 13207410,
+        text = "Molten Core",
         minipack = 0,
     },
     [10133008] = {
@@ -115214,16 +115229,6 @@ return {
         text = "Wenn Invertierte Tohka ihre Form ändert, reduziert sich die Abklingzeit ihrer anderen Fähigkeiten um -3 Sek. (Die Formveränderungsfähigkeit selbst ausgeschlossen).",
         minipack = 0,
     },
-    [13300136] = {
-        id = 13300136,
-        text = "Wo ist Origami? Wir müssen sie wiederfinden, bevor wir den Kuchen genießen können.",
-        minipack = 0,
-    },
-    [13207410] = {
-        id = 13207410,
-        text = "Molten Core",
-        minipack = 0,
-    },
     [13207406] = {
         id = 13207406,
         text = "Slow Field",
@@ -115294,6 +115299,16 @@ return {
         text = "积少成多",
         minipack = 0,
     },
+    [13207305] = {
+        id = 13207305,
+        text = "Discuss a Strategy with Kotori",
+        minipack = 0,
+    },
+    [13207302] = {
+        id = 13207302,
+        text = "Complete Tutorial Quests",
+        minipack = 0,
+    },
     [13410006] = {
         id = 13410006,
         text = "Kunde",
@@ -115334,14 +115349,14 @@ return {
         text = "KAP.2",
         minipack = 0,
     },
-    [13207305] = {
-        id = 13207305,
-        text = "Discuss a Strategy with Kotori",
+    [13207301] = {
+        id = 13207301,
+        text = "Retry",
         minipack = 0,
     },
-    [13207302] = {
-        id = 13207302,
-        text = "Complete Tutorial Quests",
+    [13207119] = {
+        id = 13207119,
+        text = "Defeat All Enemies",
         minipack = 0,
     },
     [60067] = {
@@ -115359,21 +115374,6 @@ return {
         text = "Geist-Origami Fragment",
         minipack = 0,
     },
-    [13207301] = {
-        id = 13207301,
-        text = "Retry",
-        minipack = 0,
-    },
-    [13207119] = {
-        id = 13207119,
-        text = "Defeat All Enemies",
-        minipack = 0,
-    },
-    [300304] = {
-        id = 300304,
-        text = "ELITE.1",
-        minipack = 0,
-    },
     [13207118] = {
         id = 13207118,
         text = "Defeat All Enemies",
@@ -115384,14 +115384,14 @@ return {
         text = "Bid Maple and Sally Farewell",
         minipack = 0,
     },
+    [300304] = {
+        id = 300304,
+        text = "ELITE.1",
+        minipack = 0,
+    },
     [13207116] = {
         id = 13207116,
         text = "Join the Real Offline Event",
-        minipack = 0,
-    },
-    [300305] = {
-        id = 300305,
-        text = "ELITE.2",
         minipack = 0,
     },
     [13207115] = {
@@ -115404,14 +115404,14 @@ return {
         text = "Defeat [Reflection]",
         minipack = 0,
     },
+    [300305] = {
+        id = 300305,
+        text = "ELITE.2",
+        minipack = 0,
+    },
     [13207113] = {
         id = 13207113,
         text = "Stay Alive",
-        minipack = 0,
-    },
-    [300306] = {
-        id = 300306,
-        text = "%s-%s",
         minipack = 0,
     },
     [13207112] = {
@@ -115424,14 +115424,14 @@ return {
         text = "Defeat the Mirror Maze Monster",
         minipack = 0,
     },
+    [300306] = {
+        id = 300306,
+        text = "%s-%s",
+        minipack = 0,
+    },
     [13207110] = {
         id = 13207110,
         text = "Convince Maple and Sally to Help Again",
-        minipack = 0,
-    },
-    [300307] = {
-        id = 300307,
-        text = "f%s-%s",
         minipack = 0,
     },
     [13207109] = {
@@ -115442,6 +115442,21 @@ return {
     [13207108] = {
         id = 13207108,
         text = "Defeat [Ellen Hamster]",
+        minipack = 0,
+    },
+    [300307] = {
+        id = 300307,
+        text = "f%s-%s",
+        minipack = 0,
+    },
+    [13207107] = {
+        id = 13207107,
+        text = "Assist Commander Natsumi",
+        minipack = 0,
+    },
+    [13207106] = {
+        id = 13207106,
+        text = "Lead Everyone to Complete Tutorial Quests",
         minipack = 0,
     },
     [12034003] = {
@@ -115457,16 +115472,6 @@ return {
     [12034019] = {
         id = 12034019,
         text = "",
-        minipack = 0,
-    },
-    [13207107] = {
-        id = 13207107,
-        text = "Assist Commander Natsumi",
-        minipack = 0,
-    },
-    [13207106] = {
-        id = 13207106,
-        text = "Lead Everyone to Complete Tutorial Quests",
         minipack = 0,
     },
     [13207105] = {
@@ -115504,16 +115509,6 @@ return {
         text = "Stage Clear Conditions",
         minipack = 0,
     },
-    [60068] = {
-        id = 60068,
-        text = "Souvenir-Bonds",
-        minipack = 0,
-    },
-    [300311] = {
-        id = 300311,
-        text = "Lv.1",
-        minipack = 0,
-    },
     [13206917] = {
         id = 13206917,
         text = "Bid Maple and Sally Farewell",
@@ -115524,14 +115519,19 @@ return {
         text = "Join the Real Offline Event",
         minipack = 0,
     },
+    [60068] = {
+        id = 60068,
+        text = "Souvenir-Bonds",
+        minipack = 0,
+    },
+    [300311] = {
+        id = 300311,
+        text = "Lv.1",
+        minipack = 0,
+    },
     [13300158] = {
         id = 13300158,
         text = "Ich habe gerade an einem Quiz-Event teilgenommen und den Preis gewonnen. Es gehört jetzt dir!",
-        minipack = 0,
-    },
-    [300312] = {
-        id = 300312,
-        text = "Lv.2",
         minipack = 0,
     },
     [17000105] = {
@@ -115544,14 +115544,14 @@ return {
         text = "Stay Alive",
         minipack = 0,
     },
+    [300312] = {
+        id = 300312,
+        text = "Lv.2",
+        minipack = 0,
+    },
     [13206912] = {
         id = 13206912,
         text = "Defeat the Mirror Maze Boss",
-        minipack = 0,
-    },
-    [300313] = {
-        id = 300313,
-        text = "Lv.3",
         minipack = 0,
     },
     [13206910] = {
@@ -115564,14 +115564,14 @@ return {
         text = "Join the Offline Event",
         minipack = 0,
     },
+    [300313] = {
+        id = 300313,
+        text = "Lv.3",
+        minipack = 0,
+    },
     [13206908] = {
         id = 13206908,
         text = "Defeat [Ellen Hamster]",
-        minipack = 0,
-    },
-    [300314] = {
-        id = 300314,
-        text = "Lv.4",
         minipack = 0,
     },
     [13206907] = {
@@ -115584,14 +115584,14 @@ return {
         text = "Lead Everyone to Complete Tutorial Quests",
         minipack = 0,
     },
+    [300314] = {
+        id = 300314,
+        text = "Lv.4",
+        minipack = 0,
+    },
     [13206905] = {
         id = 13206905,
         text = "Discuss a Strategy with Kotori",
-        minipack = 0,
-    },
-    [300315] = {
-        id = 300315,
-        text = "Lv.5",
         minipack = 0,
     },
     [13206904] = {
@@ -115604,14 +115604,14 @@ return {
         text = "Complete Tutorial Quests",
         minipack = 0,
     },
+    [300315] = {
+        id = 300315,
+        text = "Lv.5",
+        minipack = 0,
+    },
     [13206719] = {
         id = 13206719,
         text = "Story Summary",
-        minipack = 0,
-    },
-    [300316] = {
-        id = 300316,
-        text = "Lv.6",
         minipack = 0,
     },
     [13206718] = {
@@ -115622,6 +115622,11 @@ return {
     [13206717] = {
         id = 13206717,
         text = "The offline event comes to a successful conclusion!",
+        minipack = 0,
+    },
+    [300316] = {
+        id = 300316,
+        text = "Lv.6",
         minipack = 0,
     },
     [13206716] = {
@@ -115659,16 +115664,6 @@ return {
         text = "So that's the kind of character you are!",
         minipack = 0,
     },
-    [112000104] = {
-        id = 112000104,
-        text = "Lv.50",
-        minipack = 0,
-    },
-    [60069] = {
-        id = 60069,
-        text = "Club-Einführung",
-        minipack = 0,
-    },
     [13206709] = {
         id = 13206709,
         text = "It's almost time for the offline event, I need to get ready.",
@@ -115677,6 +115672,16 @@ return {
     [13206708] = {
         id = 13206708,
         text = "I don't need help against the [Old Acquaintance] this time.",
+        minipack = 0,
+    },
+    [112000104] = {
+        id = 112000104,
+        text = "Lv.50",
+        minipack = 0,
+    },
+    [60069] = {
+        id = 60069,
+        text = "Club-Einführung",
         minipack = 0,
     },
     [13206707] = {
@@ -115689,11 +115694,6 @@ return {
         text = "To discover the truth and thwart a conspiracy, begin your training!",
         minipack = 0,
     },
-    [300320] = {
-        id = 300320,
-        text = "Einfach",
-        minipack = 0,
-    },
     [13206704] = {
         id = 13206704,
         text = "That was a fun encounter, let's be friends!",
@@ -115704,14 +115704,14 @@ return {
         text = "With the help of two friendly players, we defeated the [Old Acquaintance].",
         minipack = 0,
     },
+    [300320] = {
+        id = 300320,
+        text = "Einfach",
+        minipack = 0,
+    },
     [13206702] = {
         id = 13206702,
         text = "My first time in NewWorld Online, and I ran into——",
-        minipack = 0,
-    },
-    [300321] = {
-        id = 300321,
-        text = "Mittel",
         minipack = 0,
     },
     [13206701] = {
@@ -115724,9 +115724,24 @@ return {
         text = "Escaped",
         minipack = 0,
     },
+    [300321] = {
+        id = 300321,
+        text = "Mittel",
+        minipack = 0,
+    },
     [13206501] = {
         id = 13206501,
         text = "Reduce HP to %s",
+        minipack = 0,
+    },
+    [17000221] = {
+        id = 17000221,
+        text = "青蛙",
+        minipack = 0,
+    },
+    [13206078] = {
+        id = 13206078,
+        text = "%sh %sm %ss",
         minipack = 0,
     },
     [1660001] = {
@@ -115794,9 +115809,9 @@ return {
         text = "Hölle",
         minipack = 0,
     },
-    [17000221] = {
-        id = 17000221,
-        text = "青蛙",
+    [13206076] = {
+        id = 13206076,
+        text = "Confirm to reset?",
         minipack = 0,
     },
     [12100106] = {
@@ -116009,16 +116024,6 @@ return {
         text = "a new date ending of Kaguya",
         minipack = 0,
     },
-    [13206078] = {
-        id = 13206078,
-        text = "%sh %sm %ss",
-        minipack = 0,
-    },
-    [13206076] = {
-        id = 13206076,
-        text = "Confirm to reset?",
-        minipack = 0,
-    },
     [13300257] = {
         id = 13300257,
         text = "Diese Kleidung ist ein bisschen zu freizügig. Ist Tohka damit wirklich einverstanden?",
@@ -116069,6 +116074,16 @@ return {
         text = "Ahaha~ Es gibt kein Entkommen.",
         minipack = 0,
     },
+    [13206059] = {
+        id = 13206059,
+        text = "In Battle",
+        minipack = 0,
+    },
+    [17000225] = {
+        id = 17000225,
+        text = "花生",
+        minipack = 0,
+    },
     [12035003] = {
         id = 12035003,
         text = "Boss: Demon King·Satan",
@@ -116087,16 +116102,6 @@ return {
     [12035027] = {
         id = 12035027,
         text = "",
-        minipack = 0,
-    },
-    [13206059] = {
-        id = 13206059,
-        text = "In Battle",
-        minipack = 0,
-    },
-    [17000225] = {
-        id = 17000225,
-        text = "花生",
         minipack = 0,
     },
     [13206057] = {
@@ -116127,6 +116132,16 @@ return {
     [17000227] = {
         id = 17000227,
         text = "烟花",
+        minipack = 0,
+    },
+    [13206049] = {
+        id = 13206049,
+        text = "Threat Level: %s",
+        minipack = 0,
+    },
+    [13206046] = {
+        id = 13206046,
+        text = "Hit %s for %s DMG and knocked back",
         minipack = 0,
     },
     [10921004] = {
@@ -116279,16 +116294,6 @@ return {
         text = "Pick up giftbox 40 times (Unlock at Lv.21 Park Pass)",
         minipack = 0,
     },
-    [13206049] = {
-        id = 13206049,
-        text = "Threat Level: %s",
-        minipack = 0,
-    },
-    [13206046] = {
-        id = 13206046,
-        text = "Hit %s for %s DMG and knocked back",
-        minipack = 0,
-    },
     [13206044] = {
         id = 13206044,
         text = "Start Date",
@@ -116304,11 +116309,6 @@ return {
         text = "Your \"Time Magic\" has become the light that illuminate the night, congrats to [苍穹的神罚] for reaching No.29 on Support Ranking of Date A Bullet: Nightmare or Queen",
         minipack = 0,
     },
-    [60073] = {
-        id = 60073,
-        text = "Schokoladenschlacht",
-        minipack = 0,
-    },
     [13206038] = {
         id = 13206038,
         text = "% Unlocked",
@@ -116317,6 +116317,11 @@ return {
     [1020803] = {
         id = 1020803,
         text = "Geheime Quest läuft~",
+        minipack = 0,
+    },
+    [60073] = {
+        id = 60073,
+        text = "Schokoladenschlacht",
         minipack = 0,
     },
     [13300263] = {
@@ -116359,6 +116364,16 @@ return {
         text = "Hidden Supply Spot",
         minipack = 0,
     },
+    [13321049] = {
+        id = 13321049,
+        text = "Blast Cone",
+        minipack = 0,
+    },
+    [13205342] = {
+        id = 13205342,
+        text = "Supply Spot",
+        minipack = 0,
+    },
     [12101002] = {
         id = 12101002,
         text = "Der bei der Burgerkundung im Halloween-Event verwendete Gegenstand (wird alle 5 Minuten um 1 aufgefüllt).",
@@ -116399,16 +116414,6 @@ return {
         text = "6. Halloween-Minispiel - Kartenabgleich: Gewinne das Spiel, indem du zwei der gleichen Karten erhältst. Gewinne oft genug, um zusätzliche Belohnungen zu erhalten.",
         minipack = 0,
     },
-    [13321049] = {
-        id = 13321049,
-        text = "Blast Cone",
-        minipack = 0,
-    },
-    [13205342] = {
-        id = 13205342,
-        text = "Supply Spot",
-        minipack = 0,
-    },
     [13205340] = {
         id = 13205340,
         text = "Supply Spot",
@@ -116424,16 +116429,6 @@ return {
         text = "Ayame",
         minipack = 0,
     },
-    [12101106] = {
-        id = 12101106,
-        text = "◆ Greatly increases characters' battle skill CD",
-        minipack = 0,
-    },
-    [12101114] = {
-        id = 12101114,
-        text = "",
-        minipack = 0,
-    },
     [13205334] = {
         id = 13205334,
         text = "ep.14",
@@ -116442,6 +116437,16 @@ return {
     [13205333] = {
         id = 13205333,
         text = "ep.13",
+        minipack = 0,
+    },
+    [12101106] = {
+        id = 12101106,
+        text = "◆ Greatly increases characters' battle skill CD",
+        minipack = 0,
+    },
+    [12101114] = {
+        id = 12101114,
+        text = "",
         minipack = 0,
     },
     [13205332] = {
@@ -116464,11 +116469,6 @@ return {
         text = "ep.7",
         minipack = 0,
     },
-    [60074] = {
-        id = 60074,
-        text = "Spezialtraining-Regeln",
-        minipack = 0,
-    },
     [13205326] = {
         id = 13205326,
         text = "ep.6",
@@ -116477,6 +116477,11 @@ return {
     [206025] = {
         id = 206025,
         text = "Arbeit nicht beendet",
+        minipack = 0,
+    },
+    [60074] = {
+        id = 60074,
+        text = "Spezialtraining-Regeln",
         minipack = 0,
     },
     [13205323] = {
@@ -116619,6 +116624,16 @@ return {
         text = "When HP drops below 10% or after taking deadly damage, become invincible for 5s. This effect can only trigger once every 60s.",
         minipack = 0,
     },
+    [11261230] = {
+        id = 11261230,
+        text = "Gain 3% DEF Bonus for 10s each time after being attacked or parrying an attack. Stacks up to 5 times and has a 1s CD.",
+        minipack = 0,
+    },
+    [11261229] = {
+        id = 11261229,
+        text = "Recover 2 <Morale> per second while in battle. This effect doubles when under 50% HP.",
+        minipack = 0,
+    },
     [190010071] = {
         id = 190010071,
         text = "Nach Formwechsel, ANG +2% für 20 Sek.",
@@ -116664,19 +116679,19 @@ return {
         text = "Pierce DMG +30%",
         minipack = 0,
     },
-    [11261229] = {
-        id = 11261229,
-        text = "Recover 2 <Morale> per second while in battle. This effect doubles when under 50% HP.",
-        minipack = 0,
-    },
-    [11261228] = {
-        id = 11261228,
-        text = "ATK Bonus -75%, DEF +150%. Each point of DEF provides 0.01% Crit DMG and 0.01% Pierce DMG.",
-        minipack = 0,
-    },
     [11261227] = {
         id = 11261227,
         text = "[Deus Ex Machina - Cannon Shot] DMG +20%. While casting, DMG increases by 10% per second up to +30%. When casting ends, this DMG bonus is lost.",
+        minipack = 0,
+    },
+    [11261226] = {
+        id = 11261226,
+        text = "[Loving Sacrifice] reduces DMG dealt by 10% and increases both DEF and Damage Immunity by 10% for 8s.",
+        minipack = 0,
+    },
+    [11261225] = {
+        id = 11261225,
+        text = "[Deus Ex Machina - Cannon Shot] reduces Maple's Damage Immunity by 15% while the skill is casting, but increases DEF by 10% when casting completes. This effect stacks up to 3 times and lasts until the end of battle.",
         minipack = 0,
     },
     [10201007] = {
@@ -116749,16 +116764,6 @@ return {
         text = "Kampf-Entzug",
         minipack = 0,
     },
-    [11261226] = {
-        id = 11261226,
-        text = "[Loving Sacrifice] reduces DMG dealt by 10% and increases both DEF and Damage Immunity by 10% for 8s.",
-        minipack = 0,
-    },
-    [11261225] = {
-        id = 11261225,
-        text = "[Deus Ex Machina - Cannon Shot] reduces Maple's Damage Immunity by 15% while the skill is casting, but increases DEF by 10% when casting completes. This effect stacks up to 3 times and lasts until the end of battle.",
-        minipack = 0,
-    },
     [11261224] = {
         id = 11261224,
         text = "When [Deus Ex Machina - Cannon Shot] deals 3 consecutive blows to the target, it deals extra Pure DMG equal to 100% of DMG dealt on the 3rd hit.",
@@ -116784,11 +116789,6 @@ return {
         text = "[Deus Ex Machina - Cannon Shot] DMG +20%.",
         minipack = 0,
     },
-    [60076] = {
-        id = 60076,
-        text = "Wiedersehen über Zeit und Raum",
-        minipack = 0,
-    },
     [11261219] = {
         id = 11261219,
         text = "[Deus Ex Machina - Cannon Shot] DMG +15%.",
@@ -116797,6 +116797,11 @@ return {
     [11261218] = {
         id = 11261218,
         text = "[Deus Ex Machina - Cannon Shot] DMG +10%.",
+        minipack = 0,
+    },
+    [60076] = {
+        id = 60076,
+        text = "Wiedersehen über Zeit und Raum",
         minipack = 0,
     },
     [11261217] = {
@@ -116814,11 +116819,6 @@ return {
         text = "[Deus Ex Machina - Cannon Shot] Crit DMG +20%.",
         minipack = 0,
     },
-    [190015063] = {
-        id = 190015063,
-        text = "Gletscher-Explosion",
-        minipack = 0,
-    },
     [11261214] = {
         id = 11261214,
         text = "[Deus Ex Machina - Cannon Shot] Crit DMG +15%.",
@@ -116827,6 +116827,11 @@ return {
     [11261213] = {
         id = 11261213,
         text = "[Deus Ex Machina - Cannon Shot] Crit DMG +10%.",
+        minipack = 0,
+    },
+    [190015063] = {
+        id = 190015063,
+        text = "Gletscher-Explosion",
         minipack = 0,
     },
     [11261212] = {
@@ -116854,16 +116859,6 @@ return {
         text = "[Deus Ex Machina - Cannon Shot] attacks create a Scorch Zone that lasts for 2s and inflicts Dark DMG equal to 200% of character ATK per hit.",
         minipack = 0,
     },
-    [190016087] = {
-        id = 190016087,
-        text = "Kampf - Nachschub",
-        minipack = 0,
-    },
-    [190016215] = {
-        id = 190016215,
-        text = "Triumph des Bösen",
-        minipack = 0,
-    },
     [11261207] = {
         id = 11261207,
         text = "[Deus Ex Machina - Cannon Shot] deals +20% DMG to slowed targets.",
@@ -116872,6 +116867,16 @@ return {
     [11261206] = {
         id = 11261206,
         text = "[Deus Ex Machina - Cannon Shot] deals +15% DMG to slowed targets.",
+        minipack = 0,
+    },
+    [190016087] = {
+        id = 190016087,
+        text = "Kampf - Nachschub",
+        minipack = 0,
+    },
+    [190016215] = {
+        id = 190016215,
+        text = "Triumph des Bösen",
         minipack = 0,
     },
     [11261205] = {
@@ -116929,6 +116934,16 @@ return {
         text = "[Loving Sacrifice] Predator DMG +20%.",
         minipack = 0,
     },
+    [11261194] = {
+        id = 11261194,
+        text = "[Loving Sacrifice] Predator DMG +15%.",
+        minipack = 0,
+    },
+    [11261193] = {
+        id = 11261193,
+        text = "[Loving Sacrifice] Predator DMG +10%.",
+        minipack = 0,
+    },
     [190018007] = {
         id = 190018007,
         text = "Energie-Regeneration",
@@ -116939,24 +116954,14 @@ return {
         text = "Crit DMG +5% for 5s, stacking up to 3 times",
         minipack = 0,
     },
-    [11261194] = {
-        id = 11261194,
-        text = "[Loving Sacrifice] Predator DMG +15%.",
+    [11261192] = {
+        id = 11261192,
+        text = "[Loving Sacrifice] skill enhancement. AoE +10%.",
         minipack = 0,
     },
     [60077] = {
         id = 60077,
         text = "Erinnerungsfragment",
-        minipack = 0,
-    },
-    [11261193] = {
-        id = 11261193,
-        text = "[Loving Sacrifice] Predator DMG +10%.",
-        minipack = 0,
-    },
-    [11261192] = {
-        id = 11261192,
-        text = "[Loving Sacrifice] skill enhancement. AoE +10%.",
         minipack = 0,
     },
     [11261191] = {
@@ -117264,19 +117269,9 @@ return {
         text = "[Aegis Strike] Inflicts +12% DMG to bosses.",
         minipack = 0,
     },
-    [15020] = {
-        id = 15020,
-        text = "Die Substanz, die beim Raumbeben erzeugt wurde, besitzt hohe Geisterkraft. Wird verwendet, um Geister zu transzendieren.",
-        minipack = 0,
-    },
     [11261130] = {
         id = 11261130,
         text = "[Aegis Strike] Inflicts +9% DMG to bosses.",
-        minipack = 0,
-    },
-    [16044] = {
-        id = 16044,
-        text = "Invertierte Origami Fragment, wird verwendet, um Invertierte Origami zu aktivieren oder ihre Fähigkeit zu erhöhen.",
         minipack = 0,
     },
     [11261129] = {
@@ -117284,9 +117279,19 @@ return {
         text = "[Aegis Strike] Inflicts +6% DMG to bosses.",
         minipack = 0,
     },
+    [15020] = {
+        id = 15020,
+        text = "Die Substanz, die beim Raumbeben erzeugt wurde, besitzt hohe Geisterkraft. Wird verwendet, um Geister zu transzendieren.",
+        minipack = 0,
+    },
     [11261128] = {
         id = 11261128,
         text = "[Aegis Strike] Unlocks the 4th attack: casts Paralyzing Shout and Deadly Breath. Deals total Dark DMG equal to 1,380% of character ATK.",
+        minipack = 0,
+    },
+    [16044] = {
+        id = 16044,
+        text = "Invertierte Origami Fragment, wird verwendet, um Invertierte Origami zu aktivieren oder ihre Fähigkeit zu erhöhen.",
         minipack = 0,
     },
     [11261127] = {
@@ -117309,11 +117314,6 @@ return {
         text = "Lucky Rabbit's Foot",
         minipack = 0,
     },
-    [300401] = {
-        id = 300401,
-        text = "<Am ersten Tag nach den Frühlingsferien zerstörte ein Mädchen namens \"Geist\" das normale Leben. >",
-        minipack = 0,
-    },
     [11261119] = {
         id = 11261119,
         text = "Beast Fury",
@@ -117324,14 +117324,14 @@ return {
         text = "Concentration",
         minipack = 0,
     },
+    [300401] = {
+        id = 300401,
+        text = "<Am ersten Tag nach den Frühlingsferien zerstörte ein Mädchen namens \"Geist\" das normale Leben. >",
+        minipack = 0,
+    },
     [11261117] = {
         id = 11261117,
         text = "Gift of Darkness",
-        minipack = 0,
-    },
-    [300402] = {
-        id = 300402,
-        text = "Der 10. April sollte ein gewöhnlicher Tag sein. Das Äußere des Mädchens macht es zu etwas Besonderem... (abgebrochener Text)",
         minipack = 0,
     },
     [11261116] = {
@@ -117344,14 +117344,14 @@ return {
         text = "Stout Guardian",
         minipack = 0,
     },
+    [300402] = {
+        id = 300402,
+        text = "Der 10. April sollte ein gewöhnlicher Tag sein. Das Äußere des Mädchens macht es zu etwas Besonderem... (abgebrochener Text)",
+        minipack = 0,
+    },
     [11261114] = {
         id = 11261114,
         text = "Strong Will",
-        minipack = 0,
-    },
-    [300403] = {
-        id = 300403,
-        text = "<Inmitten des Regengusses, auf dem Weg zum Schrein, steht ein puppenhaftes, zartes Mädchen mit einer Hasenpuppe in der Hand. >",
         minipack = 0,
     },
     [11261113] = {
@@ -117364,14 +117364,14 @@ return {
         text = "Absolute Defense",
         minipack = 0,
     },
+    [300403] = {
+        id = 300403,
+        text = "<Inmitten des Regengusses, auf dem Weg zum Schrein, steht ein puppenhaftes, zartes Mädchen mit einer Hasenpuppe in der Hand. >",
+        minipack = 0,
+    },
     [11261111] = {
         id = 11261111,
         text = "Energy Cannon",
-        minipack = 0,
-    },
-    [300404] = {
-        id = 300404,
-        text = "Von der Welt verleugnet, abgelehnt und geschädigt, war sie dennoch nicht bereit, andere zu verletzen. Du musst dieses zarte Mädchen retten!",
         minipack = 0,
     },
     [11261110] = {
@@ -117384,14 +117384,14 @@ return {
         text = "Destruction Growth",
         minipack = 0,
     },
+    [300404] = {
+        id = 300404,
+        text = "Von der Welt verleugnet, abgelehnt und geschädigt, war sie dennoch nicht bereit, andere zu verletzen. Du musst dieses zarte Mädchen retten!",
+        minipack = 0,
+    },
     [11261108] = {
         id = 11261108,
         text = "Meltdown",
-        minipack = 0,
-    },
-    [300405] = {
-        id = 300405,
-        text = "<\"Ich bin ein Geist.\" Kurumi, die neue Transfer-Schülerin, stellte sich mutig vor. >",
         minipack = 0,
     },
     [11261107] = {
@@ -117404,14 +117404,14 @@ return {
         text = "Deadly Poison",
         minipack = 0,
     },
+    [300405] = {
+        id = 300405,
+        text = "<\"Ich bin ein Geist.\" Kurumi, die neue Transfer-Schülerin, stellte sich mutig vor. >",
+        minipack = 0,
+    },
     [11261105] = {
         id = 11261105,
         text = "Volatile Poison",
-        minipack = 0,
-    },
-    [300406] = {
-        id = 300406,
-        text = "Das Mädchen, das Menschen tötet, und das Mädchen, das Geister tötet. Wie kann dieser Alptraum beendet werden?",
         minipack = 0,
     },
     [11261104] = {
@@ -117424,14 +117424,14 @@ return {
         text = "Enhance",
         minipack = 0,
     },
+    [300406] = {
+        id = 300406,
+        text = "Das Mädchen, das Menschen tötet, und das Mädchen, das Geister tötet. Wie kann dieser Alptraum beendet werden?",
+        minipack = 0,
+    },
     [11261102] = {
         id = 11261102,
         text = "Enhance",
-        minipack = 0,
-    },
-    [300407] = {
-        id = 300407,
-        text = "<Efreet kam im Moment der Krise zu Hilfe. Welche Erinnerung verbarg sich hinter der Flamme, die durch die Zeit brannte?>",
         minipack = 0,
     },
     [11261101] = {
@@ -117444,14 +117444,14 @@ return {
         text = "Deus Ex Machina - Cannon Shot - Final",
         minipack = 0,
     },
+    [300407] = {
+        id = 300407,
+        text = "<Efreet kam im Moment der Krise zu Hilfe. Welche Erinnerung verbarg sich hinter der Flamme, die durch die Zeit brannte?>",
+        minipack = 0,
+    },
     [11261099] = {
         id = 11261099,
         text = "Crit DMG",
-        minipack = 0,
-    },
-    [300408] = {
-        id = 300408,
-        text = "Ich habe nur 1 Tag, um meine geliebte Schwester zu retten, die auch der herrschsüchtige Kommandant ist,",
         minipack = 0,
     },
     [11261098] = {
@@ -117464,14 +117464,14 @@ return {
         text = "Crit DMG",
         minipack = 0,
     },
+    [300408] = {
+        id = 300408,
+        text = "Ich habe nur 1 Tag, um meine geliebte Schwester zu retten, die auch der herrschsüchtige Kommandant ist,",
+        minipack = 0,
+    },
     [11261096] = {
         id = 11261096,
         text = "Crit DMG",
-        minipack = 0,
-    },
-    [300409] = {
-        id = 300409,
-        text = "<Während der Abschlussreise traf ich die Geister-Zwillinge, die sich um den Namen \"Yamai\" stritten. >",
         minipack = 0,
     },
     [11261095] = {
@@ -117484,14 +117484,14 @@ return {
         text = "Morale Conversion",
         minipack = 0,
     },
+    [300409] = {
+        id = 300409,
+        text = "<Während der Abschlussreise traf ich die Geister-Zwillinge, die sich um den Namen \"Yamai\" stritten. >",
+        minipack = 0,
+    },
     [11261093] = {
         id = 11261093,
         text = "Morale Conversion",
-        minipack = 0,
-    },
-    [300410] = {
-        id = 300410,
-        text = "Wie kann man da das grausame Schicksal ändern, das den Zwillingsgeistern auferlegt wurde? Muss einer von ihnen eliminiert werden?",
         minipack = 0,
     },
     [11261092] = {
@@ -117504,14 +117504,14 @@ return {
         text = "Anti",
         minipack = 0,
     },
+    [300410] = {
+        id = 300410,
+        text = "Wie kann man da das grausame Schicksal ändern, das den Zwillingsgeistern auferlegt wurde? Muss einer von ihnen eliminiert werden?",
+        minipack = 0,
+    },
     [11261090] = {
         id = 11261090,
         text = "Anti",
-        minipack = 0,
-    },
-    [300411] = {
-        id = 300411,
-        text = "<Warum hasst der schöne Geist, der auf der leeren Bühne sang, die Menschen so sehr?>",
         minipack = 0,
     },
     [11261089] = {
@@ -117524,14 +117524,14 @@ return {
         text = "Spot Weakness: Boss",
         minipack = 0,
     },
+    [300411] = {
+        id = 300411,
+        text = "<Warum hasst der schöne Geist, der auf der leeren Bühne sang, die Menschen so sehr?>",
+        minipack = 0,
+    },
     [11261087] = {
         id = 11261087,
         text = "Spot Weakness: Boss",
-        minipack = 0,
-    },
-    [300412] = {
-        id = 300412,
-        text = "<Ich werde Tohka um jeden Preis vor DEM retten! Als ich nicht mehr weiter wusste, tauchte \"Sie\" auf?>",
         minipack = 0,
     },
     [11261086] = {
@@ -117544,14 +117544,14 @@ return {
         text = "Spot Weakness: Boss",
         minipack = 0,
     },
+    [300412] = {
+        id = 300412,
+        text = "<Ich werde Tohka um jeden Preis vor DEM retten! Als ich nicht mehr weiter wusste, tauchte \"Sie\" auf?>",
+        minipack = 0,
+    },
     [11261084] = {
         id = 11261084,
         text = "Deus Ex Machina - Cannon Shot - Perish",
-        minipack = 0,
-    },
-    [300413] = {
-        id = 300413,
-        text = "<Um die wahre Identität des 7. Geistes - Natsumi zu finden, begann ich mit den auf Dates zugehen!>",
         minipack = 0,
     },
     [11261083] = {
@@ -117564,9 +117564,24 @@ return {
         text = "Crit",
         minipack = 0,
     },
+    [300413] = {
+        id = 300413,
+        text = "<Um die wahre Identität des 7. Geistes - Natsumi zu finden, begann ich mit den auf Dates zugehen!>",
+        minipack = 0,
+    },
     [11261081] = {
         id = 11261081,
         text = "Crit",
+        minipack = 0,
+    },
+    [11261080] = {
+        id = 11261080,
+        text = "Enhance",
+        minipack = 0,
+    },
+    [11261079] = {
+        id = 11261079,
+        text = "Enhance",
         minipack = 0,
     },
     [300414] = {
@@ -117574,8 +117589,8 @@ return {
         text = "<\"Verwandeln\" auch ohne Engel? Um Natsumi zu helfen, wieder Selbstvertrauen zu gewinnen, ist der Modifizierungsplan in Kraft!>",
         minipack = 0,
     },
-    [11261080] = {
-        id = 11261080,
+    [11261078] = {
+        id = 11261078,
         text = "Enhance",
         minipack = 0,
     },
@@ -117724,8 +117739,8 @@ return {
         text = "Frost DMG +35%.",
         minipack = 0,
     },
-    [11261079] = {
-        id = 11261079,
+    [11261077] = {
+        id = 11261077,
         text = "Enhance",
         minipack = 0,
     },
@@ -117734,24 +117749,9 @@ return {
         text = "<Besiege Elite-Feinde, um Nachschub zu erhalten. Feinde lassen Gold fallen. >",
         minipack = 0,
     },
-    [11261078] = {
-        id = 11261078,
-        text = "Enhance",
-        minipack = 0,
-    },
-    [11261077] = {
-        id = 11261077,
-        text = "Enhance",
-        minipack = 0,
-    },
     [11261076] = {
         id = 11261076,
         text = "Loving Sacrifice - Final",
-        minipack = 0,
-    },
-    [300423] = {
-        id = 300423,
-        text = "<Besiege Elite-Feinde, um Nachschub zu erhalten. Feinde lassen Gebetsbuch fallen (wird zum Beten für Sephiroth verwendet). >",
         minipack = 0,
     },
     [11261075] = {
@@ -117764,14 +117764,14 @@ return {
         text = "Predator - HP",
         minipack = 0,
     },
+    [300423] = {
+        id = 300423,
+        text = "<Besiege Elite-Feinde, um Nachschub zu erhalten. Feinde lassen Gebetsbuch fallen (wird zum Beten für Sephiroth verwendet). >",
+        minipack = 0,
+    },
     [11261073] = {
         id = 11261073,
         text = "Predator - HP",
-        minipack = 0,
-    },
-    [300424] = {
-        id = 300424,
-        text = "<Besiege Elite-Feinde, um Nachschub zu erhalten. Feinde lassen Sephiroth fallen. >",
         minipack = 0,
     },
     [11261072] = {
@@ -117784,14 +117784,14 @@ return {
         text = "Predator - Devour",
         minipack = 0,
     },
+    [300424] = {
+        id = 300424,
+        text = "<Besiege Elite-Feinde, um Nachschub zu erhalten. Feinde lassen Sephiroth fallen. >",
+        minipack = 0,
+    },
     [11261070] = {
         id = 11261070,
         text = "Predator - Devour",
-        minipack = 0,
-    },
-    [300425] = {
-        id = 300425,
-        text = "<Besiege Elite-Feinde, um Materialien zum Verstärken von Souvenirs zu erhalten. >",
         minipack = 0,
     },
     [11261069] = {
@@ -117804,14 +117804,14 @@ return {
         text = "Loving Sacrifice - Extreme",
         minipack = 0,
     },
+    [300425] = {
+        id = 300425,
+        text = "<Besiege Elite-Feinde, um Materialien zum Verstärken von Souvenirs zu erhalten. >",
+        minipack = 0,
+    },
     [11261067] = {
         id = 11261067,
         text = "Protection",
-        minipack = 0,
-    },
-    [300426] = {
-        id = 300426,
-        text = "",
         minipack = 0,
     },
     [11261066] = {
@@ -117824,14 +117824,14 @@ return {
         text = "Protection",
         minipack = 0,
     },
+    [300426] = {
+        id = 300426,
+        text = "",
+        minipack = 0,
+    },
     [11261064] = {
         id = 11261064,
         text = "Spot Weakness: Boss",
-        minipack = 0,
-    },
-    [300427] = {
-        id = 300427,
-        text = "",
         minipack = 0,
     },
     [11261063] = {
@@ -117844,14 +117844,14 @@ return {
         text = "Spot Weakness: Boss",
         minipack = 0,
     },
+    [300427] = {
+        id = 300427,
+        text = "",
+        minipack = 0,
+    },
     [11261061] = {
         id = 11261061,
         text = "Spot Weakness: Boss",
-        minipack = 0,
-    },
-    [300428] = {
-        id = 300428,
-        text = "",
         minipack = 0,
     },
     [11261060] = {
@@ -117864,14 +117864,14 @@ return {
         text = "Resolve",
         minipack = 0,
     },
+    [300428] = {
+        id = 300428,
+        text = "",
+        minipack = 0,
+    },
     [11261058] = {
         id = 11261058,
         text = "Resolve",
-        minipack = 0,
-    },
-    [300429] = {
-        id = 300429,
-        text = "",
         minipack = 0,
     },
     [11261057] = {
@@ -117882,6 +117882,11 @@ return {
     [11261056] = {
         id = 11261056,
         text = "Enhance",
+        minipack = 0,
+    },
+    [300429] = {
+        id = 300429,
+        text = "",
         minipack = 0,
     },
     [11261055] = {
@@ -117904,6 +117909,16 @@ return {
         text = "Hydra - Final",
         minipack = 0,
     },
+    [11261051] = {
+        id = 11261051,
+        text = "Pierce DMG",
+        minipack = 0,
+    },
+    [11261050] = {
+        id = 11261050,
+        text = "Pierce DMG",
+        minipack = 0,
+    },
     [15021] = {
         id = 15021,
         text = "Antike Komponente",
@@ -117919,13 +117934,13 @@ return {
         text = "Neptune Fragment",
         minipack = 0,
     },
-    [11261051] = {
-        id = 11261051,
+    [11261049] = {
+        id = 11261049,
         text = "Pierce DMG",
         minipack = 0,
     },
-    [11261050] = {
-        id = 11261050,
+    [11261048] = {
+        id = 11261048,
         text = "Pierce DMG",
         minipack = 0,
     },
@@ -117999,21 +118014,6 @@ return {
         text = "Origami stellt 20% Haltbarkeit wieder her, nachdem sie einen Feind getötet hat.",
         minipack = 0,
     },
-    [11261049] = {
-        id = 11261049,
-        text = "Pierce DMG",
-        minipack = 0,
-    },
-    [11261048] = {
-        id = 11261048,
-        text = "Pierce DMG",
-        minipack = 0,
-    },
-    [300436] = {
-        id = 300436,
-        text = "<Erwacht, aber kein [Raumbeben] ausgelöst. Die Mutation der [Benachbarten Welt] verursachte einen Zusammenstoß. Der Thron von [Malkuth] war bedroht. >",
-        minipack = 0,
-    },
     [11261047] = {
         id = 11261047,
         text = "Poison",
@@ -118024,14 +118024,14 @@ return {
         text = "Poison",
         minipack = 0,
     },
+    [300436] = {
+        id = 300436,
+        text = "<Erwacht, aber kein [Raumbeben] ausgelöst. Die Mutation der [Benachbarten Welt] verursachte einen Zusammenstoß. Der Thron von [Malkuth] war bedroht. >",
+        minipack = 0,
+    },
     [11261045] = {
         id = 11261045,
         text = "Poison",
-        minipack = 0,
-    },
-    [300437] = {
-        id = 300437,
-        text = "<Um das Limit zu überschreiten, musst du dich immer wieder selbst herausfordern. Stell dich dem Zorn der Geister!>",
         minipack = 0,
     },
     [11261044] = {
@@ -118044,14 +118044,14 @@ return {
         text = "Enervate",
         minipack = 0,
     },
+    [300437] = {
+        id = 300437,
+        text = "<Um das Limit zu überschreiten, musst du dich immer wieder selbst herausfordern. Stell dich dem Zorn der Geister!>",
+        minipack = 0,
+    },
     [11261042] = {
         id = 11261042,
         text = "Enervate",
-        minipack = 0,
-    },
-    [300438] = {
-        id = 300438,
-        text = "<Im Kampfsimulationsraum von Ratatoskr kannst du eine realistische Kampfsimulation durchführen. >",
         minipack = 0,
     },
     [11261041] = {
@@ -118064,14 +118064,14 @@ return {
         text = "Spot Weakness: Boss",
         minipack = 0,
     },
+    [300438] = {
+        id = 300438,
+        text = "<Im Kampfsimulationsraum von Ratatoskr kannst du eine realistische Kampfsimulation durchführen. >",
+        minipack = 0,
+    },
     [11261039] = {
         id = 11261039,
         text = "Spot Weakness: Boss",
-        minipack = 0,
-    },
-    [300439] = {
-        id = 300439,
-        text = "<Wenn du in der [Benachbarten Welt] erkundest, wirst du manchmal wunderbare Dinge finden. Dieses Mal ist derjenige, der sich darauf eingelassen hat- >",
         minipack = 0,
     },
     [11261038] = {
@@ -118084,14 +118084,14 @@ return {
         text = "Spot Weakness: Boss",
         minipack = 0,
     },
+    [300439] = {
+        id = 300439,
+        text = "<Wenn du in der [Benachbarten Welt] erkundest, wirst du manchmal wunderbare Dinge finden. Dieses Mal ist derjenige, der sich darauf eingelassen hat- >",
+        minipack = 0,
+    },
     [11261036] = {
         id = 11261036,
         text = "Hydra - Perish",
-        minipack = 0,
-    },
-    [300440] = {
-        id = 300440,
-        text = "<Die Operation zur Auslöschung der Geister begann erneut, und Mayuri war gezwungen, einen harten Kampf zu führen...>",
         minipack = 0,
     },
     [11261035] = {
@@ -118104,14 +118104,14 @@ return {
         text = "Pierce",
         minipack = 0,
     },
+    [300440] = {
+        id = 300440,
+        text = "<Die Operation zur Auslöschung der Geister begann erneut, und Mayuri war gezwungen, einen harten Kampf zu führen...>",
+        minipack = 0,
+    },
     [11261033] = {
         id = 11261033,
         text = "Pierce",
-        minipack = 0,
-    },
-    [300441] = {
-        id = 300441,
-        text = "<Der Neugierige und derjenige, der [Gefühle für] [sie] hat, was würde passieren...>",
         minipack = 0,
     },
     [11261032] = {
@@ -118124,14 +118124,14 @@ return {
         text = "Enhance",
         minipack = 0,
     },
+    [300441] = {
+        id = 300441,
+        text = "<Der Neugierige und derjenige, der [Gefühle für] [sie] hat, was würde passieren...>",
+        minipack = 0,
+    },
     [11261030] = {
         id = 11261030,
         text = "Enhance",
-        minipack = 0,
-    },
-    [300442] = {
-        id = 300442,
-        text = "<Trainer [Yoshinon], meldet sich zum Dienst!>",
         minipack = 0,
     },
     [11261029] = {
@@ -118144,14 +118144,14 @@ return {
         text = "Aegis Strike - Final",
         minipack = 0,
     },
+    [300442] = {
+        id = 300442,
+        text = "<Trainer [Yoshinon], meldet sich zum Dienst!>",
+        minipack = 0,
+    },
     [11261027] = {
         id = 11261027,
         text = "Crit",
-        minipack = 0,
-    },
-    [300443] = {
-        id = 300443,
-        text = "<Der Kampf um das [Sharam-Tor]!>",
         minipack = 0,
     },
     [11261026] = {
@@ -118164,14 +118164,14 @@ return {
         text = "Crit",
         minipack = 0,
     },
+    [300443] = {
+        id = 300443,
+        text = "<Der Kampf um das [Sharam-Tor]!>",
+        minipack = 0,
+    },
     [11261024] = {
         id = 11261024,
         text = "Crit",
-        minipack = 0,
-    },
-    [300444] = {
-        id = 300444,
-        text = "<Test-Rekord: Daten des Tests wurden gelöscht. >",
         minipack = 0,
     },
     [11261023] = {
@@ -118184,14 +118184,14 @@ return {
         text = "Shield Attack",
         minipack = 0,
     },
+    [300444] = {
+        id = 300444,
+        text = "<Test-Rekord: Daten des Tests wurden gelöscht. >",
+        minipack = 0,
+    },
     [11261021] = {
         id = 11261021,
         text = "Shield Attack",
-        minipack = 0,
-    },
-    [300445] = {
-        id = 300445,
-        text = "<Sie gewann neue Macht, um sich an den Geistern zu rächen. Doch wie kann man, besessen von der Vergangenheit, der Zukunft ins Auge sehen?>",
         minipack = 0,
     },
     [11261020] = {
@@ -118202,6 +118202,11 @@ return {
     [11261019] = {
         id = 11261019,
         text = "Morale",
+        minipack = 0,
+    },
+    [300445] = {
+        id = 300445,
+        text = "<Sie gewann neue Macht, um sich an den Geistern zu rächen. Doch wie kann man, besessen von der Vergangenheit, der Zukunft ins Auge sehen?>",
         minipack = 0,
     },
     [11261018] = {
@@ -118229,11 +118234,6 @@ return {
         text = "Spot Weakness: Boss",
         minipack = 0,
     },
-    [300447] = {
-        id = 300447,
-        text = "<Du musst sie aufwecken, denn sie hat sich dem Weg des Teufels zugewandt!>",
-        minipack = 0,
-    },
     [11261013] = {
         id = 11261013,
         text = "Spot Weakness: Boss",
@@ -118244,14 +118244,14 @@ return {
         text = "Aegis Strike - Perish",
         minipack = 0,
     },
+    [300447] = {
+        id = 300447,
+        text = "<Du musst sie aufwecken, denn sie hat sich dem Weg des Teufels zugewandt!>",
+        minipack = 0,
+    },
     [11261011] = {
         id = 11261011,
         text = "ATK Speed",
-        minipack = 0,
-    },
-    [300448] = {
-        id = 300448,
-        text = "<Nun, das ist die Macht der Göttin des Lila Herzens! >",
         minipack = 0,
     },
     [11261010] = {
@@ -118264,14 +118264,14 @@ return {
         text = "ATK Speed",
         minipack = 0,
     },
+    [300448] = {
+        id = 300448,
+        text = "<Nun, das ist die Macht der Göttin des Lila Herzens! >",
+        minipack = 0,
+    },
     [11261008] = {
         id = 11261008,
         text = "Maple transforms into [Savage] Form, recovers 100% of HP and Energy, and attacks all enemies in a large area in front of her for Dark DMG equal to 5,900% of ATK. She also gains +15% DMG Bonus, Dark DMG and Damage Immunity until the battle ends. This skill can only be used once per battle. ",
-        minipack = 0,
-    },
-    [300449] = {
-        id = 300449,
-        text = "<Die Macht der Göttin des Weißen Herzens, hast du genug erfahren!? >",
         minipack = 0,
     },
     [11261007] = {
@@ -118284,14 +118284,14 @@ return {
         text = "Maple transforms into [Savage] Form, recovers 100% of HP and Energy, and attacks all enemies in a large area in front of her for Dark DMG equal to 4,700% of ATK. She also gains +15% DMG Bonus, Dark DMG and Damage Immunity until the battle ends. This skill can only be used once per battle. ",
         minipack = 0,
     },
+    [300449] = {
+        id = 300449,
+        text = "<Die Macht der Göttin des Weißen Herzens, hast du genug erfahren!? >",
+        minipack = 0,
+    },
     [11261005] = {
         id = 11261005,
         text = "Maple transforms into [Savage] Form, recovers 100% of HP and Energy, and attacks all enemies in a large area in front for Dark DMG equal to 4,100% of ATK. She also gains +15% DMG Bonus, Dark DMG and Damage Immunity until the battle ends. This skill can only be used once per battle. ",
-        minipack = 0,
-    },
-    [300450] = {
-        id = 300450,
-        text = "<Eine Prinzessin, die auf die Rettung wartet, oder ein Dämonenkönig, der unter dem purpurroten Mond zurückkehrt?>",
         minipack = 0,
     },
     [11261004] = {
@@ -118304,14 +118304,14 @@ return {
         text = "Tyrannical",
         minipack = 0,
     },
+    [300450] = {
+        id = 300450,
+        text = "<Eine Prinzessin, die auf die Rettung wartet, oder ein Dämonenkönig, der unter dem purpurroten Mond zurückkehrt?>",
+        minipack = 0,
+    },
     [11261002] = {
         id = 11261002,
         text = "Tyrannical",
-        minipack = 0,
-    },
-    [300451] = {
-        id = 300451,
-        text = "<Befreie dich von dem Alptraum und nimm die Herausforderungen einer anderen Welt an!>",
         minipack = 0,
     },
     [11261001] = {
@@ -118324,14 +118324,14 @@ return {
         text = "Join in the [3 Year Anniversary] event to obtain this badge.",
         minipack = 0,
     },
+    [300451] = {
+        id = 300451,
+        text = "<Befreie dich von dem Alptraum und nimm die Herausforderungen einer anderen Welt an!>",
+        minipack = 0,
+    },
     [2460180] = {
         id = 2460180,
         text = "Koi fish splash in the pond under the moonlight. 3rd Anniversary Exclusive Souvenir Badge.",
-        minipack = 0,
-    },
-    [300452] = {
-        id = 300452,
-        text = "<Ass von Tokiwadai! Die Prüfung der stärksten unbesiegbaren Elektro-Prinzessin!>",
         minipack = 0,
     },
     [2460179] = {
@@ -118344,14 +118344,14 @@ return {
         text = "Join in the [Date A Live x Bofuri] event to obtain this badge.",
         minipack = 0,
     },
+    [300452] = {
+        id = 300452,
+        text = "<Ass von Tokiwadai! Die Prüfung der stärksten unbesiegbaren Elektro-Prinzessin!>",
+        minipack = 0,
+    },
     [2460177] = {
         id = 2460177,
         text = "Don't want to get hurt? Max out your defense! Bofuri Collabo Souvenir Badge.",
-        minipack = 0,
-    },
-    [300453] = {
-        id = 300453,
-        text = "<Arbiter of Spirit Power Container, arrives with thunder! Savior of the Spirits, time to face your judgment!>",
         minipack = 0,
     },
     [2460176] = {
@@ -118364,14 +118364,14 @@ return {
         text = "[Cambrian Mountains]",
         minipack = 0,
     },
+    [300453] = {
+        id = 300453,
+        text = "<Arbiter of Spirit Power Container, arrives with thunder! Savior of the Spirits, time to face your judgment!>",
+        minipack = 0,
+    },
     [2203580] = {
         id = 2203580,
         text = "Maple uses Syrup's [Mother Nature] skill, dealing Dark DMG equal to 800% of the character's ATK. [Mother Nature] lasts for 8s, during which it blocks flying items and boosts the DEF of allies within range by 30% of Maple's DEF.",
-        minipack = 0,
-    },
-    [300454] = {
-        id = 300454,
-        text = "<Challenge \"Competitive\" Goddess for the glory of Lastation! \"Black Heart,\" strike first!>",
         minipack = 0,
     },
     [2203570] = {
@@ -118384,14 +118384,14 @@ return {
         text = "Maple wraps herself in poison and charges into the battlefield, dealing Dark DMG equal to 500% of ATK.",
         minipack = 0,
     },
+    [300454] = {
+        id = 300454,
+        text = "<Challenge \"Competitive\" Goddess for the glory of Lastation! \"Black Heart,\" strike first!>",
+        minipack = 0,
+    },
     [2203550] = {
         id = 2203550,
         text = "Maple transforms into Savage Form, recovers 100% of HP and Energy, and attacks all enemies in a large area in front of her for Dark DMG equal to 3,500% of ATK. She also gains +15% DMG Bonus, Dark DMG and Damage Immunity until the battle ends. This skill can only be used once per battle.",
-        minipack = 0,
-    },
-    [300455] = {
-        id = 300455,
-        text = "<A geek and a Goddess, \"Super Gamer\" reporting for duty. For Leanbox, defeat is not an option!>",
         minipack = 0,
     },
     [2203540] = {
@@ -118402,6 +118402,11 @@ return {
     [2203530] = {
         id = 2203530,
         text = "Maple consumes 10% of HP to activate [Loving Sacrifice]. Ally units within the skill's AoE gain Superarmor and a DEF bonus equal to 20% of Maple's DEF for 12s. Generates 25 <Morale>.",
+        minipack = 0,
+    },
+    [300455] = {
+        id = 300455,
+        text = "<A geek and a Goddess, \"Super Gamer\" reporting for duty. For Leanbox, defeat is not an option!>",
         minipack = 0,
     },
     [2203507] = {
@@ -118544,19 +118549,9 @@ return {
         text = "Silver Medal*400",
         minipack = 0,
     },
-    [15022] = {
-        id = 15022,
-        text = "Der mysteriöse Gegenstand wurde in der Pyramide von Khufu gefunden. Seine enorme Energie kann Geister transzendieren.",
-        minipack = 0,
-    },
     [10941013] = {
         id = 10941013,
         text = "Einblick",
-        minipack = 0,
-    },
-    [16046] = {
-        id = 16046,
-        text = "Neptune Fragment, wird verwendet, um Neptune zu aktivieren oder ihre Fähigkeit zu erhöhen.",
         minipack = 0,
     },
     [10941005] = {
@@ -118564,9 +118559,19 @@ return {
         text = "Mikoto Misaka wirft eine Münze, dann sammelt sie Elektrizitätsladungen an ihrer Daumenspitze. Wenn die Münze durch das Magnetfeld fällt, wird ein starker Impuls erzeugt, der die Münze wie eine Granate abschießt. Die Fähigkeit verursacht SCH in Höhe von insgesamt 2400% ANG.",
         minipack = 0,
     },
+    [15022] = {
+        id = 15022,
+        text = "Der mysteriöse Gegenstand wurde in der Pyramide von Khufu gefunden. Seine enorme Energie kann Geister transzendieren.",
+        minipack = 0,
+    },
     [1224068] = {
         id = 1224068,
         text = "Random Maple SS Class Blueprint",
+        minipack = 0,
+    },
+    [16046] = {
+        id = 16046,
+        text = "Neptune Fragment, wird verwendet, um Neptune zu aktivieren oder ihre Fähigkeit zu erhöhen.",
         minipack = 0,
     },
     [10941003] = {
@@ -118577,6 +118582,16 @@ return {
     [61024] = {
         id = 61024,
         text = "Date-Leitfaden",
+        minipack = 0,
+    },
+    [1224065] = {
+        id = 1224065,
+        text = "A piece of [Fortress] Sephira set",
+        minipack = 0,
+    },
+    [1224064] = {
+        id = 1224064,
+        text = "Gold Medal*90",
         minipack = 0,
     },
     [17000002] = {
@@ -118784,9 +118799,9 @@ return {
         text = "Chinese Restaurant",
         minipack = 0,
     },
-    [1224064] = {
-        id = 1224064,
-        text = "Gold Medal*90",
+    [1224062] = {
+        id = 1224062,
+        text = "Gold Medal*30",
         minipack = 0,
     },
     [190000088] = {
@@ -118794,9 +118809,9 @@ return {
         text = "50% Rabattgutschein",
         minipack = 0,
     },
-    [1224063] = {
-        id = 1224063,
-        text = "Gold Medal*60",
+    [1224061] = {
+        id = 1224061,
+        text = "Silver Medal*400",
         minipack = 0,
     },
     [190000344] = {
@@ -118879,16 +118894,6 @@ return {
         text = "Einblick in die Zeit",
         minipack = 0,
     },
-    [1224062] = {
-        id = 1224062,
-        text = "Gold Medal*30",
-        minipack = 0,
-    },
-    [1224061] = {
-        id = 1224061,
-        text = "Silver Medal*400",
-        minipack = 0,
-    },
     [1224060] = {
         id = 1224060,
         text = "Silver Medal*200",
@@ -118917,6 +118922,16 @@ return {
     [1224055] = {
         id = 1224055,
         text = "Maple Fragment*2",
+        minipack = 0,
+    },
+    [1224054] = {
+        id = 1224054,
+        text = "Dimension Essence*10",
+        minipack = 0,
+    },
+    [1224053] = {
+        id = 1224053,
+        text = "Natsumi - Rainbow Land",
         minipack = 0,
     },
     [10991003] = {
@@ -119064,16 +119079,6 @@ return {
         text = "HP -30%, ATK +40%.",
         minipack = 0,
     },
-    [1224054] = {
-        id = 1224054,
-        text = "Dimension Essence*10",
-        minipack = 0,
-    },
-    [1224053] = {
-        id = 1224053,
-        text = "Natsumi - Rainbow Land",
-        minipack = 0,
-    },
     [1140420] = {
         id = 1140420,
         text = "A material required to craft Maple SSS Class Ultimate Gem",
@@ -119179,6 +119184,16 @@ return {
         text = "Maple exclusive. Can be inserted into an Ultimate gem slot. Can activate 1 extra angel skill",
         minipack = 0,
     },
+    [1130971] = {
+        id = 1130971,
+        text = "Maple exclusive. Can be inserted into a Skill 2 gem slot. Can activate 1 extra angel skill",
+        minipack = 0,
+    },
+    [1130970] = {
+        id = 1130970,
+        text = "Maple exclusive. Can be inserted into a Skill 1 gem slot. Can activate 1 extra angel skill",
+        minipack = 0,
+    },
     [190010072] = {
         id = 190010072,
         text = "VER +2% für 20 Sek.",
@@ -119222,16 +119237,6 @@ return {
     [190011096] = {
         id = 190011096,
         text = "DMG +50% for 10s",
-        minipack = 0,
-    },
-    [1130970] = {
-        id = 1130970,
-        text = "Maple exclusive. Can be inserted into a Skill 1 gem slot. Can activate 1 extra angel skill",
-        minipack = 0,
-    },
-    [1130969] = {
-        id = 1130969,
-        text = "Maple exclusive. Can be inserted into a Base ATK gem slot. Can activate 1 extra angel skill",
         minipack = 0,
     },
     [1130968] = {
@@ -119294,11 +119299,6 @@ return {
         text = "Maple SSS Class Gem",
         minipack = 0,
     },
-    [190013016] = {
-        id = 190013016,
-        text = "48",
-        minipack = 0,
-    },
     [1111007] = {
         id = 1111007,
         text = "Maple SSS Class Gem",
@@ -119309,9 +119309,9 @@ return {
         text = "Maple SSS Class Gem",
         minipack = 0,
     },
-    [300501] = {
-        id = 300501,
-        text = "Namenloses Mädchen",
+    [190013016] = {
+        id = 190013016,
+        text = "48",
         minipack = 0,
     },
     [1111005] = {
@@ -119324,14 +119324,14 @@ return {
         text = "Maple SS Class Gem",
         minipack = 0,
     },
+    [300501] = {
+        id = 300501,
+        text = "Namenloses Mädchen",
+        minipack = 0,
+    },
     [10403089] = {
         id = 10403089,
         text = "[Schießstand] Durchbohren-Rate +7%.",
-        minipack = 0,
-    },
-    [300502] = {
-        id = 300502,
-        text = "Dein Name ist",
         minipack = 0,
     },
     [10403090] = {
@@ -119344,14 +119344,14 @@ return {
         text = "Hehe... I'm hungry.",
         minipack = 0,
     },
+    [300502] = {
+        id = 300502,
+        text = "Dein Name ist",
+        minipack = 0,
+    },
     [1013716] = {
         id = 1013716,
         text = "Sally is my good friend, she also goes by Risa.",
-        minipack = 0,
-    },
-    [300503] = {
-        id = 300503,
-        text = "Mädchen im Regen",
         minipack = 0,
     },
     [1013715] = {
@@ -119364,19 +119364,14 @@ return {
         text = "Huh? It should be fine to eat.",
         minipack = 0,
     },
+    [300503] = {
+        id = 300503,
+        text = "Mädchen im Regen",
+        minipack = 0,
+    },
     [1013713] = {
         id = 1013713,
         text = "Sorry.",
-        minipack = 0,
-    },
-    [300504] = {
-        id = 300504,
-        text = "Gefrorenes Land",
-        minipack = 0,
-    },
-    [190015064] = {
-        id = 190015064,
-        text = "Tapfere Attacke",
         minipack = 0,
     },
     [1013712] = {
@@ -119389,9 +119384,14 @@ return {
         text = "I can't say no to shiny things.",
         minipack = 0,
     },
-    [300505] = {
-        id = 300505,
-        text = "Transfer-Schülerin",
+    [300504] = {
+        id = 300504,
+        text = "Gefrorenes Land",
+        minipack = 0,
+    },
+    [190015064] = {
+        id = 190015064,
+        text = "Tapfere Attacke",
         minipack = 0,
     },
     [1013710] = {
@@ -119404,9 +119404,24 @@ return {
         text = "You're quite interesting.",
         minipack = 0,
     },
+    [300505] = {
+        id = 300505,
+        text = "Transfer-Schülerin",
+        minipack = 0,
+    },
     [1013708] = {
         id = 1013708,
         text = "Let's hang out for the weekend",
+        minipack = 0,
+    },
+    [1013707] = {
+        id = 1013707,
+        text = "Haunted house? I'm not scared, but I know someone who is, hehe.",
+        minipack = 0,
+    },
+    [14220034] = {
+        id = 14220034,
+        text = "Bislang haben %s und ich in %s Kämpfen gekämpft. Ich bin mehr als ein Kommandant, der sich an einem sicheren Ort versteckt. Du weißt, dass du dich auf mich verlassen kannst!",
         minipack = 0,
     },
     [300506] = {
@@ -119424,34 +119439,14 @@ return {
         text = "Triumph des Bösen",
         minipack = 0,
     },
-    [1013707] = {
-        id = 1013707,
-        text = "Haunted house? I'm not scared, but I know someone who is, hehe.",
-        minipack = 0,
-    },
-    [300507] = {
-        id = 300507,
-        text = "Flammen, die durch die Zeit brennen",
-        minipack = 0,
-    },
-    [14220034] = {
-        id = 14220034,
-        text = "Bislang haben %s und ich in %s Kämpfen gekämpft. Ich bin mehr als ein Kommandant, der sich an einem sicheren Ort versteckt. Du weißt, dass du dich auf mich verlassen kannst!",
-        minipack = 0,
-    },
     [471134] = {
         id = 471134,
         text = "#[Predator] inflicts extra Pure DMG equal to 6% DMG dealt",
         minipack = 0,
     },
-    [111000056] = {
-        id = 111000056,
-        text = "?? ? AA? ? AA? ??? ?? ?? ? 1?? ??? ? ??.",
-        minipack = 0,
-    },
-    [300508] = {
-        id = 300508,
-        text = "Rächer 5 Jahre später",
+    [300507] = {
+        id = 300507,
+        text = "Flammen, die durch die Zeit brennen",
         minipack = 0,
     },
     [471133] = {
@@ -119464,14 +119459,19 @@ return {
         text = "#[Predator] ignores 25% DEF",
         minipack = 0,
     },
+    [111000056] = {
+        id = 111000056,
+        text = "?? ? AA? ? AA? ??? ?? ?? ? 1?? ??? ? ??.",
+        minipack = 0,
+    },
+    [300508] = {
+        id = 300508,
+        text = "Rächer 5 Jahre später",
+        minipack = 0,
+    },
     [471131] = {
         id = 471131,
         text = "#[Predator] Pierce DMG +30%",
-        minipack = 0,
-    },
-    [300509] = {
-        id = 300509,
-        text = "Sturm-Mädchen",
         minipack = 0,
     },
     [471130] = {
@@ -119482,6 +119482,21 @@ return {
     [471129] = {
         id = 471129,
         text = "#[Predator] Crit DMG +30%",
+        minipack = 0,
+    },
+    [300509] = {
+        id = 300509,
+        text = "Sturm-Mädchen",
+        minipack = 0,
+    },
+    [471128] = {
+        id = 471128,
+        text = "#[Predator] Crit Rate +15%",
+        minipack = 0,
+    },
+    [471127] = {
+        id = 471127,
+        text = "#[Predator] Hit Rate +10%",
         minipack = 0,
     },
     [12106002] = {
@@ -119499,21 +119514,6 @@ return {
         text = "Pierce Rate and Pierce DMG +15%",
         minipack = 0,
     },
-    [471128] = {
-        id = 471128,
-        text = "#[Predator] Crit Rate +15%",
-        minipack = 0,
-    },
-    [471127] = {
-        id = 471127,
-        text = "#[Predator] Hit Rate +10%",
-        minipack = 0,
-    },
-    [300511] = {
-        id = 300511,
-        text = "Welle1",
-        minipack = 0,
-    },
     [461035] = {
         id = 461035,
         text = "#[Predator] Base DMG +30%",
@@ -119524,14 +119524,14 @@ return {
         text = "#[Predator] Base DMG +7%",
         minipack = 0,
     },
+    [300511] = {
+        id = 300511,
+        text = "Welle1",
+        minipack = 0,
+    },
     [461031] = {
         id = 461031,
         text = "#[Predator] Base DMG +4%",
-        minipack = 0,
-    },
-    [300512] = {
-        id = 300512,
-        text = "Welle2",
         minipack = 0,
     },
     [461030] = {
@@ -119544,14 +119544,14 @@ return {
         text = "#[Predator] Base DMG +1%",
         minipack = 0,
     },
+    [300512] = {
+        id = 300512,
+        text = "Welle2",
+        minipack = 0,
+    },
     [441207] = {
         id = 441207,
         text = "Dark DMG +25%. When equipped by Maple, gains 100 Starting Morale and increases [Deus Ex Machina] DMG by 100% when used at max Morale.",
-        minipack = 0,
-    },
-    [300513] = {
-        id = 300513,
-        text = "Welle3",
         minipack = 0,
     },
     [409806] = {
@@ -119564,14 +119564,14 @@ return {
         text = "Maple in this Sephira form has strength way beyond other Sephiroth. Sephira is Chesed. Contains 4 random stats",
         minipack = 0,
     },
+    [300513] = {
+        id = 300513,
+        text = "Welle3",
+        minipack = 0,
+    },
     [400244] = {
         id = 400244,
         text = "Fortress - Art of Defense ",
-        minipack = 0,
-    },
-    [300514] = {
-        id = 300514,
-        text = "Welle4",
         minipack = 0,
     },
     [111000052] = {
@@ -119584,14 +119584,14 @@ return {
         text = "Fortress - Stalwart Armor ",
         minipack = 0,
     },
+    [300514] = {
+        id = 300514,
+        text = "Welle4",
+        minipack = 0,
+    },
     [331055] = {
         id = 331055,
         text = "My Companion",
-        minipack = 0,
-    },
-    [300515] = {
-        id = 300515,
-        text = "Welle5",
         minipack = 0,
     },
     [13316822] = {
@@ -119604,14 +119604,14 @@ return {
         text = "Loves nothing more than causing some trouble. \nPersonality: [Family Cat], [Cautious]",
         minipack = 0,
     },
+    [300515] = {
+        id = 300515,
+        text = "Welle5",
+        minipack = 0,
+    },
     [320005] = {
         id = 320005,
         text = "Points Rules: \nGain normal points for hitting orange, purple and green lanterns, and extra points for hitting blue lanterns.\nLose points for hitting red lanterns.",
-        minipack = 0,
-    },
-    [300516] = {
-        id = 300516,
-        text = "Welle6",
         minipack = 0,
     },
     [320004] = {
@@ -119622,6 +119622,11 @@ return {
     [320003] = {
         id = 320003,
         text = "Points Rules: \nGain normal points for hitting red, blue and green lanterns, and extra points for hitting purple lanterns.\nLose points for hitting orange lanterns.",
+        minipack = 0,
+    },
+    [300516] = {
+        id = 300516,
+        text = "Welle6",
         minipack = 0,
     },
     [320002] = {
@@ -119652,6 +119657,16 @@ return {
     [295012] = {
         id = 295012,
         text = "Use to get random Gold Card*1.",
+        minipack = 0,
+    },
+    [295011] = {
+        id = 295011,
+        text = "Gold Lucky Bag",
+        minipack = 0,
+    },
+    [295010] = {
+        id = 295010,
+        text = "Open to select 1 of the following: Inv.Malkuth Essence*10, Inv.Kether Essence*10, Inv.Binah Essence*10, Nightmare Essence*10, Kabbalah Essence*10.",
         minipack = 0,
     },
     [14400007] = {
@@ -119939,16 +119954,6 @@ return {
         text = "Right... not my leg!",
         minipack = 0,
     },
-    [295005] = {
-        id = 295005,
-        text = "Common Costume Choice Chest B",
-        minipack = 0,
-    },
-    [295004] = {
-        id = 295004,
-        text = "Open to select 1 of the following costumes: Ruler, Crimson Rose, Radiant Dawn, Christmas Gift, Treat? Trick!, Gothic Lolita, Exclusive Maid, Divine Raiment.",
-        minipack = 0,
-    },
     [295003] = {
         id = 295003,
         text = "Common Costume Choice Chest A",
@@ -120054,6 +120059,16 @@ return {
         text = "Reach 420 Returner Activity Points",
         minipack = 0,
     },
+    [290006] = {
+        id = 290006,
+        text = "Reach 360 Returner Activity Points",
+        minipack = 0,
+    },
+    [290005] = {
+        id = 290005,
+        text = "Reach 300 Returner Activity Points",
+        minipack = 0,
+    },
     [10403004] = {
         id = 10403004,
         text = "Aktiviert Zafkiel, um alle Feinde anzugreifen. \nVerursacht 9 Mal Dunkel-SCH in Höhe von 122% ANG",
@@ -120129,16 +120144,6 @@ return {
         text = "In Kämpfen ist Kurumis Zeitlimit +50 und es wird jede Sekunde 2 zusätzliche Zeit wiederhergestellt",
         minipack = 0,
     },
-    [290006] = {
-        id = 290006,
-        text = "Reach 360 Returner Activity Points",
-        minipack = 0,
-    },
-    [290005] = {
-        id = 290005,
-        text = "Reach 300 Returner Activity Points",
-        minipack = 0,
-    },
     [290004] = {
         id = 290004,
         text = "Reach 240 Returner Activity Points",
@@ -120174,11 +120179,6 @@ return {
         text = "Get the costume - \"Gift from Heaven\" to activate this avatar frame",
         minipack = 0,
     },
-    [224001] = {
-        id = 224001,
-        text = "Sim-Prüfung",
-        minipack = 0,
-    },
     [266781] = {
         id = 266781,
         text = "Lucky Treasure",
@@ -120187,6 +120187,11 @@ return {
     [266780] = {
         id = 266780,
         text = "Join in the [Date A Live x Bofuri] event to obtain this avatar frame.",
+        minipack = 0,
+    },
+    [224001] = {
+        id = 224001,
+        text = "Sim-Prüfung",
         minipack = 0,
     },
     [266779] = {
@@ -120212,6 +120217,16 @@ return {
     [265179] = {
         id = 265179,
         text = "Defense Specialization",
+        minipack = 0,
+    },
+    [265178] = {
+        id = 265178,
+        text = "Join in the [Quartz Prophecy] or [Pull of Destiny] events to obtain this avatar.",
+        minipack = 0,
+    },
+    [265177] = {
+        id = 265177,
+        text = "Quartz Meditation",
         minipack = 0,
     },
     [224002] = {
@@ -120249,29 +120264,14 @@ return {
         text = "Schließe Story-Instanz Band 1 ab",
         minipack = 0,
     },
-    [265178] = {
-        id = 265178,
-        text = "Join in the [Quartz Prophecy] or [Pull of Destiny] events to obtain this avatar.",
-        minipack = 0,
-    },
-    [224003] = {
-        id = 224003,
-        text = "In dem dunklen fremden Raum erwachte das Mädchen mit den dunkelvioletten Augen langsam und wanderte auf der Suche nach dem Ausgang aus der Traumlandschaft umher.",
-        minipack = 0,
-    },
-    [265177] = {
-        id = 265177,
-        text = "Quartz Meditation",
-        minipack = 0,
-    },
     [265048] = {
         id = 265048,
         text = "Maple",
         minipack = 0,
     },
-    [300549] = {
-        id = 300549,
-        text = "Mo, Do, So",
+    [224003] = {
+        id = 224003,
+        text = "In dem dunklen fremden Raum erwachte das Mädchen mit den dunkelvioletten Augen langsam und wanderte auf der Suche nach dem Ausgang aus der Traumlandschaft umher.",
         minipack = 0,
     },
     [246169] = {
@@ -120284,19 +120284,14 @@ return {
         text = "Elite Invasion has finished, unable to support.",
         minipack = 0,
     },
+    [300549] = {
+        id = 300549,
+        text = "Mo, Do, So",
+        minipack = 0,
+    },
     [246164] = {
         id = 246164,
         text = "No more stat points",
-        minipack = 0,
-    },
-    [300550] = {
-        id = 300550,
-        text = "Di, Fr",
-        minipack = 0,
-    },
-    [224004] = {
-        id = 224004,
-        text = "Schlafende Traumlandschaft",
         minipack = 0,
     },
     [246163] = {
@@ -120309,9 +120304,14 @@ return {
         text = "Threat Factors cannot be changed after the battle has started",
         minipack = 0,
     },
-    [300551] = {
-        id = 300551,
-        text = "Mi, Sa",
+    [300550] = {
+        id = 300550,
+        text = "Di, Fr",
+        minipack = 0,
+    },
+    [224004] = {
+        id = 224004,
+        text = "Schlafende Traumlandschaft",
         minipack = 0,
     },
     [246157] = {
@@ -120324,19 +120324,14 @@ return {
         text = "No support chances left today",
         minipack = 0,
     },
+    [300551] = {
+        id = 300551,
+        text = "Mi, Sa",
+        minipack = 0,
+    },
     [246153] = {
         id = 246153,
         text = "No friends or club friends",
-        minipack = 0,
-    },
-    [300552] = {
-        id = 300552,
-        text = "Mo",
-        minipack = 0,
-    },
-    [224005] = {
-        id = 224005,
-        text = "Doppel-Spalter",
         minipack = 0,
     },
     [246152] = {
@@ -120349,9 +120344,14 @@ return {
         text = "Exclusive Bonds Keepsake for Maple. Dark DMG +7%, Crit Rate +5%",
         minipack = 0,
     },
-    [300553] = {
-        id = 300553,
-        text = "Di",
+    [300552] = {
+        id = 300552,
+        text = "Mo",
+        minipack = 0,
+    },
+    [224005] = {
+        id = 224005,
+        text = "Doppel-Spalter",
         minipack = 0,
     },
     [100052] = {
@@ -120364,19 +120364,14 @@ return {
         text = "Alle Fähigkeiten-AZ -15%",
         minipack = 0,
     },
+    [300553] = {
+        id = 300553,
+        text = "Di",
+        minipack = 0,
+    },
     [216019] = {
         id = 216019,
         text = "This item is not available to minors.",
-        minipack = 0,
-    },
-    [300554] = {
-        id = 300554,
-        text = "Mi",
-        minipack = 0,
-    },
-    [224006] = {
-        id = 224006,
-        text = "Himmelsspaltung",
         minipack = 0,
     },
     [213802] = {
@@ -120389,9 +120384,14 @@ return {
         text = "Due to a lack of common gaming knowledge and the fear for pain, she maxed out her Defense and chose an unpopular shield character.",
         minipack = 0,
     },
-    [300555] = {
-        id = 300555,
-        text = "Do",
+    [300554] = {
+        id = 300554,
+        text = "Mi",
+        minipack = 0,
+    },
+    [224006] = {
+        id = 224006,
+        text = "Himmelsspaltung",
         minipack = 0,
     },
     [63987] = {
@@ -120404,19 +120404,14 @@ return {
         text = "Marina Arusu",
         minipack = 0,
     },
+    [300555] = {
+        id = 300555,
+        text = "Do",
+        minipack = 0,
+    },
     [63982] = {
         id = 63982,
         text = "Crimson Nightmare",
-        minipack = 0,
-    },
-    [300556] = {
-        id = 300556,
-        text = "Fr",
-        minipack = 0,
-    },
-    [224007] = {
-        id = 224007,
-        text = "Spalttanz",
         minipack = 0,
     },
     [63981] = {
@@ -120429,9 +120424,14 @@ return {
         text = "Rinne Sonogami",
         minipack = 0,
     },
-    [300557] = {
-        id = 300557,
-        text = "Sa, So",
+    [300556] = {
+        id = 300556,
+        text = "Fr",
+        minipack = 0,
+    },
+    [224007] = {
+        id = 224007,
+        text = "Spalttanz",
         minipack = 0,
     },
     [63979] = {
@@ -120444,6 +120444,11 @@ return {
         text = "Limited Spirit Choice Chest - Timed",
         minipack = 0,
     },
+    [300557] = {
+        id = 300557,
+        text = "Sa, So",
+        minipack = 0,
+    },
     [63968] = {
         id = 63968,
         text = "Resets daily at 00:00",
@@ -120454,19 +120459,9 @@ return {
         text = "Giving a gift costs Silvergrass*5 and Lunar Spring*5.",
         minipack = 0,
     },
-    [224008] = {
-        id = 224008,
-        text = "Leuchtende Klinge",
-        minipack = 0,
-    },
     [63966] = {
         id = 63966,
         text = "Get a Moon God Gratitude Gift for each gift you give!",
-        minipack = 0,
-    },
-    [15025] = {
-        id = 15025,
-        text = "Turbolader",
         minipack = 0,
     },
     [63965] = {
@@ -120474,9 +120469,9 @@ return {
         text = "Exchanging has ended",
         minipack = 0,
     },
-    [16049] = {
-        id = 16049,
-        text = "Purpurroter Alptraum Fragment",
+    [224008] = {
+        id = 224008,
+        text = "Leuchtende Klinge",
         minipack = 0,
     },
     [63963] = {
@@ -120484,19 +120479,24 @@ return {
         text = "9.28: Exchange begins",
         minipack = 0,
     },
+    [15025] = {
+        id = 15025,
+        text = "Turbolader",
+        minipack = 0,
+    },
     [63960] = {
         id = 63960,
         text = "Recall Points",
         minipack = 0,
     },
+    [16049] = {
+        id = 16049,
+        text = "Purpurroter Alptraum Fragment",
+        minipack = 0,
+    },
     [63954] = {
         id = 63954,
         text = "Sharing is temporarily unavailable. Please check back for future announcements.",
-        minipack = 0,
-    },
-    [224009] = {
-        id = 224009,
-        text = "Schwerttanz",
         minipack = 0,
     },
     [63951] = {
@@ -120507,6 +120507,11 @@ return {
     [63950] = {
         id = 63950,
         text = "Feather of Light 2022",
+        minipack = 0,
+    },
+    [224009] = {
+        id = 224009,
+        text = "Schwerttanz",
         minipack = 0,
     },
     [63949] = {
@@ -120534,11 +120539,6 @@ return {
         text = "Weekly Quest Cap",
         minipack = 0,
     },
-    [28002] = {
-        id = 28002,
-        text = "Die Abspielgeschwindigkeit des Textes im Date kann unter Einstellungen angepasst werden.",
-        minipack = 0,
-    },
     [10951127] = {
         id = 10951127,
         text = "[Sprung-Hinterhalt] ANG-Geschwindigkeit +10%",
@@ -120547,6 +120547,11 @@ return {
     [10401099] = {
         id = 10401099,
         text = "Schwäche erkennen: Boss",
+        minipack = 0,
+    },
+    [28002] = {
+        id = 28002,
+        text = "Die Abspielgeschwindigkeit des Textes im Date kann unter Einstellungen angepasst werden.",
         minipack = 0,
     },
     [1013306] = {
@@ -120574,11 +120579,6 @@ return {
         text = "[Pulse Blade] Pierce DMG +10%.",
         minipack = 0,
     },
-    [224011] = {
-        id = 224011,
-        text = "Schwert-Meteor",
-        minipack = 0,
-    },
     [41237] = {
         id = 41237,
         text = "SS Class Gem Scroll, obtain it to get SS Class Gem Scroll for a random skill of [Maple] (Auto used once obtained)",
@@ -120587,6 +120587,11 @@ return {
     [32321] = {
         id = 32321,
         text = "Sally",
+        minipack = 0,
+    },
+    [224011] = {
+        id = 224011,
+        text = "Schwert-Meteor",
         minipack = 0,
     },
     [13300414] = {
@@ -120614,11 +120619,6 @@ return {
         text = "Lv.10 Insignien",
         minipack = 0,
     },
-    [224012] = {
-        id = 224012,
-        text = "Phantom-Schwertstoß",
-        minipack = 0,
-    },
     [13311171] = {
         id = 13311171,
         text = "Zu Beginn des 4. Durchspielens freigeschaltet.",
@@ -120627,6 +120627,11 @@ return {
     [13311213] = {
         id = 13311213,
         text = "Ein mit einem Edelstein eingelegter Schlüssel.",
+        minipack = 0,
+    },
+    [224012] = {
+        id = 224012,
+        text = "Phantom-Schwertstoß",
         minipack = 0,
     },
     [32313] = {
@@ -120654,11 +120659,6 @@ return {
         text = "Past Phase Review Pass EXP Compensation",
         minipack = 0,
     },
-    [224013] = {
-        id = 224013,
-        text = "Liste verschieben",
-        minipack = 0,
-    },
     [22183] = {
         id = 22183,
         text = "Dear Covenanter, please accept this compensation for quest rewards from the [Heat Soundwave] you purchased before 9/1 that you were unable to complete due to the anti-addiction login restrictions for minors. See the announcement for more details.",
@@ -120667,6 +120667,11 @@ return {
     [22182] = {
         id = 22182,
         text = "[Heat Soundwave] Pass EXP Compensation",
+        minipack = 0,
+    },
+    [224013] = {
+        id = 224013,
+        text = "Liste verschieben",
         minipack = 0,
     },
     [920221] = {
@@ -120692,6 +120697,16 @@ return {
     [22175] = {
         id = 22175,
         text = "Maple",
+        minipack = 0,
+    },
+    [213506] = {
+        id = 213506,
+        text = "",
+        minipack = 0,
+    },
+    [22173] = {
+        id = 22173,
+        text = "Ais Keepsake Choice Chest",
         minipack = 0,
     },
     [2470001] = {
@@ -120739,16 +120754,6 @@ return {
         text = "Kauf eine beliebige Trainingskarte, um es zu erhalten",
         minipack = 0,
     },
-    [213506] = {
-        id = 213506,
-        text = "",
-        minipack = 0,
-    },
-    [22173] = {
-        id = 22173,
-        text = "Ais Keepsake Choice Chest",
-        minipack = 0,
-    },
     [20289] = {
         id = 20289,
         text = "Kaede Honjo",
@@ -120779,16 +120784,6 @@ return {
         text = "Found in China Town stores and used to level up stores in China Town. Can also be exchanged for exclusive anniversary items in Moon Tower - Chinese Coin Store.",
         minipack = 0,
     },
-    [112000105] = {
-        id = 112000105,
-        text = "Lv.60",
-        minipack = 0,
-    },
-    [112000169] = {
-        id = 112000169,
-        text = "179000$",
-        minipack = 0,
-    },
     [14078] = {
         id = 14078,
         text = "Chinese Coin",
@@ -120797,6 +120792,16 @@ return {
     [14077] = {
         id = 14077,
         text = "China Town Fame Pts are used to increase China Town Fame.",
+        minipack = 0,
+    },
+    [112000105] = {
+        id = 112000105,
+        text = "Lv.60",
+        minipack = 0,
+    },
+    [112000169] = {
+        id = 112000169,
+        text = "179000$",
         minipack = 0,
     },
     [14076] = {
@@ -120854,11 +120859,6 @@ return {
         text = "Movement Speed -15%",
         minipack = 0,
     },
-    [28003] = {
-        id = 28003,
-        text = "Wenn die Geister unglücklich sind, wird ihre Leistung in den Kämpfen leiden.",
-        minipack = 0,
-    },
     [190011057] = {
         id = 190011057,
         text = "ATK +100% of VIT",
@@ -120867,6 +120867,11 @@ return {
     [190011053] = {
         id = 190011053,
         text = "HP recovery efficiency -7%",
+        minipack = 0,
+    },
+    [28003] = {
+        id = 28003,
+        text = "Wenn die Geister unglücklich sind, wird ihre Leistung in den Kämpfen leiden.",
         minipack = 0,
     },
     [190011052] = {
@@ -120912,6 +120917,16 @@ return {
     [190011034] = {
         id = 190011034,
         text = "Tempest DMG +10%",
+        minipack = 0,
+    },
+    [190001318] = {
+        id = 190001318,
+        text = "Neko Badge 3",
+        minipack = 0,
+    },
+    [190001317] = {
+        id = 190001317,
+        text = "Neko Badge 2",
         minipack = 0,
     },
     [190001312] = {
@@ -216091,7 +216106,7 @@ return {
     },
     [190000766] = {
         id = 190000766,
-        text = "Top up diamonds or tokens for a total of 5 days to receive extra rewards",
+        text = "Top up diamonds or tokens of any amounts for a total of 5 days to receive extra rewards.",
         minipack = 0,
     },
     [190000894] = {

@@ -1,6 +1,6 @@
 local t = 
 {
-	version = 2,
+	version = 1,
 	components = 
 	{
 		
@@ -263,7 +263,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Heure de l'événement",
+									text = "Heure de l$@événement",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -338,7 +338,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Heure de l'événement",
+									text = "Heure de l$@événement",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -386,7 +386,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Heure de l'événement",
+									text = "Heure de l$@événement",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -613,7 +613,7 @@ local t =
 										PositionX = -168,
 										PositionY = 9,
 									},
-									width = "258",
+									width = "276",
 									ZOrder = "1",
 								},
 								{

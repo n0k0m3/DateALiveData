@@ -1,6 +1,6 @@
 local t = 
 {
-	version = 2,
+	version = 1,
 	components = 
 	{
 		
@@ -209,9 +209,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -377,
-										PositionY = 243,
+										PositionX = -378,
+										PositionY = 242,
 									},
+									visible = "False",
 									width = "131",
 									ZOrder = "1",
 								},
@@ -291,20 +292,21 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "102",
 											ignoreSize = "True",
 											name = "Image_node3",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityStyle/wefareSignActivity/bg/003.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = -131,
 												PositionY = -209,
 											},
-											width = "64",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -316,20 +318,21 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "102",
 											ignoreSize = "True",
 											name = "Image_node4",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityStyle/wefareSignActivity/bg/003.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = -2,
 												PositionY = -208,
 											},
-											width = "64",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -341,20 +344,21 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "102",
 											ignoreSize = "True",
 											name = "Image_node6",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityStyle/wefareSignActivity/bg/003.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 241,
 												PositionY = -208,
 											},
-											width = "64",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -366,20 +370,21 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "102",
 											ignoreSize = "True",
 											name = "Image_node7",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityStyle/wefareSignActivity/bg/003.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 361,
 												PositionY = -209,
 											},
-											width = "64",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -391,20 +396,21 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "102",
 											ignoreSize = "True",
 											name = "Image_node5",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityStyle/wefareSignActivity/bg/003.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 119,
 												PositionY = -208,
 											},
-											width = "64",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -416,13 +422,14 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "102",
 											ignoreSize = "True",
 											name = "Image_node1",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityStyle/wefareSignActivity/bg/003.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
@@ -432,7 +439,7 @@ local t =
 												TopPosition = 651,
 												relativeToName = "Panel",
 											},
-											width = "64",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -444,20 +451,21 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "102",
 											ignoreSize = "True",
 											name = "Image_node2",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityStyle/wefareSignActivity/bg/003.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = -255,
 												PositionY = -208,
 											},
-											width = "64",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -648,9 +656,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -405,
-										PositionY = 247,
+										PositionX = -395,
+										PositionY = 243,
 									},
+									visible = "False",
 									width = "77",
 									ZOrder = "1",
 								},
@@ -663,7 +672,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FF881899",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -677,7 +686,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FFB9364C",
+										StrokeColor = "#FFFFFFFF",
 										StrokeSize = 2,
 									},
 									height = "25",
@@ -695,8 +704,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -435,
-										PositionY = 192,
+										PositionX = -425,
+										PositionY = 188,
 									},
 									width = "77",
 									ZOrder = "1",
@@ -710,7 +719,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FF881899",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -724,7 +733,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FFB9364C",
+										StrokeColor = "#FFFFFFFF",
 										StrokeSize = 2,
 									},
 									height = "25",
@@ -742,8 +751,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -422,
-										PositionY = 220,
+										PositionX = -412,
+										PositionY = 216,
 									},
 									width = "77",
 									ZOrder = "1",
@@ -1402,7 +1411,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FF881899",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -1415,11 +1424,11 @@ local t =
 									fontSize = "22",
 									fontStroke = 
 									{
-										IsStroke = false,
-										StrokeColor = "#FFE6E6E6",
+										IsStroke = true,
+										StrokeColor = "#FFFFFFFF",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_day",
 									nTextAlign = "1",
@@ -1435,7 +1444,7 @@ local t =
 									{
 										PositionY = 102,
 									},
-									width = "69",
+									width = "70",
 									ZOrder = "1",
 								},
 								{
@@ -1532,6 +1541,7 @@ local t =
 			"ui/activity/fashionStore/1/004.png",
 			"ui/activity/activityStyle/wefareSignActivity/bg/001.png",
 			"ui/activity/activityStyle/wefareSignActivity/style2/002.png",
+			"ui/activity/activityStyle/wefareSignActivity/bg/003.png",
 			"ui/activity/activityStyle/wefareSignActivity/style2/left.png",
 			"ui/activity/activityStyle/wefareSignActivity/style2/004_n.png",
 			"icon/item/goods/500055.png",

@@ -502,6 +502,7 @@ local t =
 											height = "78",
 											ignoreSize = "True",
 											name = "Image_title_di",
+											rotation = "-50",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -510,8 +511,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 96,
-												PositionY = 122,
+												PositionX = 78,
+												PositionY = 147,
 											},
 											width = "37",
 											ZOrder = "2",
@@ -560,7 +561,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -19,
-														PositionY = 7,
+														PositionY = 6,
 													},
 													width = "44",
 													ZOrder = "1",

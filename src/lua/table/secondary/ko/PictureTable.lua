@@ -6632,7 +6632,7 @@ return {
     [1327] = {
         id = 1327,
         res = "ui/activity/picture/icon301.png",
-        res_en = "ui/activity/picture/icon301_ko.png",
+        res_en = "ui/activity/picture/icon301_en.png",
     },
     [1328] = {
         id = 1328,
@@ -7277,7 +7277,7 @@ return {
     [1456] = {
         id = 1456,
         res = "ui/activity/picture/icon302.png",
-        res_en = "ui/activity/picture/icon302_ko.png",
+        res_en = "ui/activity/picture/icon302_en.png",
     },
     [1457] = {
         id = 1457,
@@ -7362,7 +7362,7 @@ return {
     [1473] = {
         id = 1473,
         res = "ui/activity/picture/icon303.png",
-        res_en = "ui/activity/picture/icon303_ko.png",
+        res_en = "ui/activity/picture/icon303_en.png",
     },
     [1474] = {
         id = 1474,
@@ -7407,7 +7407,7 @@ return {
     [1482] = {
         id = 1482,
         res = "ui/activity/picture/icon304.png",
-        res_en = "ui/activity/picture/icon304_ko.png",
+        res_en = "ui/activity/picture/icon304_en.png",
     },
     [1483] = {
         id = 1483,
@@ -7482,7 +7482,7 @@ return {
     [1497] = {
         id = 1497,
         res = "ui/activity/picture/ad304.png",
-        res_en = "ui/activity/picture/ad304_ko.png",
+        res_en = "ui/activity/picture/ad304_en.png",
     },
     [1498] = {
         id = 1498,
@@ -8303,5 +8303,45 @@ return {
         id = 1661,
         res = "ui/activity/newyear_2021/nianshou/012.png",
         res_en = "ui/activity/newyear_2021/nianshou/012_en.png",
+    },
+    [1662] = {
+        id = 1662,
+        res = "ui/activity/picture/ad301.png",
+        res_en = "ui/activity/picture/ad301_en.png",
+    },
+    [1663] = {
+        id = 1663,
+        res = "ui/activity/picture/ad302.png",
+        res_en = "ui/activity/picture/ad302_en.png",
+    },
+    [1664] = {
+        id = 1664,
+        res = "ui/activity/picture/ad234.png",
+        res_en = "ui/activity/picture/ad234_en.png",
+    },
+    [1665] = {
+        id = 1665,
+        res = "ui/activity/picture/ad240.png",
+        res_en = "ui/activity/picture/ad240_en.png",
+    },
+    [1666] = {
+        id = 1666,
+        res = "ui/activity/picture/icon234.png",
+        res_en = "ui/activity/picture/icon234_en.png",
+    },
+    [1667] = {
+        id = 1667,
+        res = "ui/activity/picture/icon240.png",
+        res_en = "ui/activity/picture/icon240_en.png",
+    },
+    [1668] = {
+        id = 1668,
+        res = "ui/activity/picture/icon455.png",
+        res_en = "ui/activity/picture/icon455_en.png",
+    },
+    [1669] = {
+        id = 1669,
+        res = "ui/activity/activityStyle/wefareSignActivity/bg/002.png",
+        res_en = "ui/activity/activityStyle/wefareSignActivity/bg/002_en.png",
     },
 }
