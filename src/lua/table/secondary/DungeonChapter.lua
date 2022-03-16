@@ -717,7 +717,7 @@ return {
     [431] = {
         chapterDescribe = 15010268,
         nameEn = "",
-        unlockLevel = 30,
+        unlockLevel = 55,
         order = 1,
         openTime = 0,
         openTime2 = 0,
@@ -725,7 +725,7 @@ return {
         finishPicture = "",
         bottomPic = "",
         bottomEffect = "",
-        type = 2005,
+        type = 4,
         endShowHero = 0,
         id = 431,
         isPlayAniSync = false,

@@ -254,8 +254,6 @@ function FubenEndlessPlusDataMgr:onRecvAllInfo(event)
         self.curFloorCid = math.max(self.curFloorCid,v.floorId)
     end
 
-    dump(data)
-
     EventMgr:dispatchEvent(EV_UPDATE_ENDLESSPLUS_ALLINFO)
 end
 
@@ -308,11 +306,12 @@ function FubenEndlessPlusDataMgr:getBuff(levelCid)
     return floorCfg.buffId or {}
 end
 
-function FubenEndlessPlusDataMgr:getSelectBuffCid()
-    return self.selectBuffCid
+function FubenEndlessPlusDataMgr:getSelectBuffCids()
+    dump(self.selectBuffCid,"self.selectBuffCid")
+    return self.selectBuffCid or {}
 end
 
-function FubenEndlessPlusDataMgr:setSelectBuffCid(selectBuffCid)
+function FubenEndlessPlusDataMgr:setSelectBuffCids(selectBuffCid)
     self.selectBuffCid = selectBuffCid
 end
 

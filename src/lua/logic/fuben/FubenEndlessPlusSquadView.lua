@@ -110,19 +110,24 @@ function FubenEndlessPlusSquadView:updateBuffList()
     for k,v in ipairs(self.buffIds) do
 
         local buffCfg = self.floorBuffCfg[v]
-        if buffCfg then
+        if buffCfg and buffCfg.buffDescribe ~= 0 then
             local item = self.Panel_buff:clone()
             self.UIListView_buff:pushBackCustomItem(item)
             local Label_desc = TFDirector:getChildByPath(item, "Label_desc")
+            local Image_select = TFDirector:getChildByPath(item, "Image_select")
+            Image_select:show()
             Label_desc:setTextById(buffCfg.buffDescribe)
 
             item:onClick(function()
 
-                self:selectBuff(k)
+                --self:selectBuff(k)
             end)
         end
     end
-    self:selectBuff(1)
+    --self:selectBuff(1)
+
+    FubenEndlessPlusDataMgr:setSelectBuffCids(self.buffIds)
+
 end
 
 function FubenEndlessPlusSquadView:selectBuff(index)
@@ -135,7 +140,7 @@ function FubenEndlessPlusSquadView:selectBuff(index)
         Image_buff:setVisible(k ~= index)
     end
  
-    FubenEndlessPlusDataMgr:setSelectBuffCid(self.buffIds[index])
+    ---FubenEndlessPlusDataMgr:setSelectBuffCid(self.buffIds[index])
 
     --local config = {}
     --config.icon = buffCfg.buffIcon
@@ -400,10 +405,10 @@ function FubenEndlessPlusSquadView:registerEvents()
     self.Button_fight:onClick(function()
 
         local passTime = FubenEndlessPlusDataMgr:getPassRecordByFloor(self.selectFloorCid)
-        if passTime then
-            Utils:showTips(15011148)
-            return
-        end
+        -- if passTime then
+        --     Utils:showTips(15011148)
+        --     return
+        -- end
 
         local haveEmptyFormation = false
         for k,v in ipairs(self.dungeonIds) do

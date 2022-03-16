@@ -289,6 +289,11 @@ return {
         text = "유형: 코스튬 색상 조합 방안\n캐릭터: 토키사키 쿠루미·「평생의 수호」\n촛불과 함께 춤을 추며, 우리의 손가락을 서로 교차하고, 나의 사랑, 당신은 영원히 저의 것이랍니다",
         minipack = 0,
     },
+    [190011148] = {
+        id = 190011148,
+        text = "Holy DMG Bonus +15% for 60s",
+        minipack = 0,
+    },
     [190016012] = {
         id = 190016012,
         text = "데이트·정보",
@@ -4079,6 +4084,11 @@ return {
         text = "유형: 코스튬\n캐릭터: 창\n찜통아 찜통아, 알려줘, 누가 내 진정한 사랑이니? 나타나세요, 나의 전용 식객님!",
         minipack = 0,
     },
+    [190011150] = {
+        id = 190011150,
+        text = "Holy DMG Bonus +15% for 60s",
+        minipack = 0,
+    },
     [252009] = {
         id = 252009,
         text = "%s 제작 중",
@@ -4126,7 +4136,7 @@ return {
     },
     [190016270] = {
         id = 190016270,
-        text = "비프로스트",
+        text = "Kotori's Special Training",
         minipack = 0,
     },
     [252014] = {
@@ -5587,6 +5597,11 @@ return {
     [20246] = {
         id = 20246,
         text = "유형: 코스튬\n캐릭터: 아이즈·발렌슈타인\n미지의 세계에서 깨어난 뒤의 망설임을 떨쳐내고, 모험가로서 바라봐야 하는 목표는 파도와 같은 용기",
+        minipack = 0,
+    },
+    [190011151] = {
+        id = 190011151,
+        text = "Dark DMG Bonus +30% for 60s",
         minipack = 0,
     },
     [2460202] = {
@@ -7462,6 +7477,11 @@ return {
     [20254] = {
         id = 20254,
         text = "Type: Costume\nOwner: Tohka Yatogami\nSanta Claus is very busy this year, so I was sent to give you the Christmas surprise~",
+        minipack = 0,
+    },
+    [190011152] = {
+        id = 190011152,
+        text = "Holy DMG Bonus +30% for 60s",
         minipack = 0,
     },
     [910229] = {
@@ -10827,6 +10847,11 @@ return {
     [20270] = {
         id = 20270,
         text = "유형: 코스튬\n캐릭터: 토비이치 오리가미\n얽히고 얽힌 정은, 인연을 떠날 수 없어. 정든 붓꽃과 함께 백발이 되는 그날까지~",
+        minipack = 0,
+    },
+    [190011154] = {
+        id = 190011154,
+        text = "M. RES -40%",
         minipack = 0,
     },
     [2201130] = {
@@ -18589,6 +18614,16 @@ return {
         text = "Put your right arm around my waist, right...Not my leg! Watch your hands!",
         minipack = 0,
     },
+    [14400459] = {
+        id = 14400459,
+        text = "Ah~ I am so happy~... Ahem, even the wind seems to be dancing!",
+        minipack = 0,
+    },
+    [14400467] = {
+        id = 14400467,
+        text = "Request. Can you do that again?",
+        minipack = 0,
+    },
     [10403008] = {
         id = 10403008,
         text = "[자프키엘 시계바늘] 에너지 타입의 몬스터에게 입히는 피해 +8%",
@@ -18659,6 +18694,11 @@ return {
         text = "[시간을 먹는 성] 시전 후 성 내의 적을 5초 동안 정지시킨다.",
         minipack = 0,
     },
+    [20321] = {
+        id = 20321,
+        text = "Perfect Staff",
+        minipack = 0,
+    },
     [100000000] = {
         id = 100000000,
         text = "해외 버전 예비 텍스트",
@@ -18712,6 +18752,11 @@ return {
     [1010703] = {
         id = 1010703,
         text = "아이스크림콘 하나 먹었으면 좋겠구나......",
+        minipack = 0,
+    },
+    [20322] = {
+        id = 20322,
+        text = "Type: Costume\nOwner: Kaguya Yamai\nManner, perfect! Expression, perfect! Outfit, perfect! The best staff admitted by my kinsman!",
         minipack = 0,
     },
     [1010711] = {
@@ -18837,6 +18882,11 @@ return {
     [112000393] = {
         id = 112000393,
         text = "이벤트 자원 선택상자",
+        minipack = 0,
+    },
+    [20323] = {
+        id = 20323,
+        text = "Perfect Manager",
         minipack = 0,
     },
     [276001] = {
@@ -18997,6 +19047,11 @@ return {
     [276016] = {
         id = 276016,
         text = "축하합니다. 동아리 구성원 %s님이 %s 칭호를 획득했습니다.",
+        minipack = 0,
+    },
+    [20324] = {
+        id = 20324,
+        text = "Type: Costume\nOwner: Yuzuru Yamai\nSmile. What do you need of me, my lord?",
         minipack = 0,
     },
     [276017] = {
@@ -90664,6 +90719,11 @@ return {
         text = "Put your right arm around my waist.",
         minipack = 0,
     },
+    [14400462] = {
+        id = 14400462,
+        text = "Look, if you can't see through the surface, then don't make such a rash move.",
+        minipack = 0,
+    },
     [282101] = {
         id = 282101,
         text = "임시 서약 남은 시간: %.2d일 %.2d시간 %.2d분",
@@ -107069,9 +107129,39 @@ return {
         text = "룬 도전 기능 매칭 실패",
         minipack = 0,
     },
+    [190011153] = {
+        id = 190011153,
+        text = "Get +5% Magic DMG per second",
+        minipack = 0,
+    },
+    [190011149] = {
+        id = 190011149,
+        text = "Dark DMG Bonus +15% for 60s",
+        minipack = 0,
+    },
+    [400044] = {
+        id = 400044,
+        text = "라나티스",
+        minipack = 0,
+    },
     [12954] = {
         id = 12954,
         text = "Crit Rate -10%, DEF -10%, restores 1 Awakening every 2s",
+        minipack = 0,
+    },
+    [190011146] = {
+        id = 190011146,
+        text = "Frost DMG Bonus +60%",
+        minipack = 0,
+    },
+    [190011145] = {
+        id = 190011145,
+        text = "DMG Bonus +30% for 3s",
+        minipack = 0,
+    },
+    [63053] = {
+        id = 63053,
+        text = "주간 순위: 매주 토카 AI 훈련에 통과한 횟수를 기록하며, 매주 일요일 24:00에 초기화됩니다. \n월간 순위: 매월 토카 AI 훈련에 통과한 횟수를 기록하며, 매월 마지막 날 24:00에 초기화됩니다.",
         minipack = 0,
     },
     [240024] = {
@@ -107159,9 +107249,79 @@ return {
         text = "방의 인원수가 이미 최대입니다. 다시 시도하세요.",
         minipack = 0,
     },
+    [3210027] = {
+        id = 3210027,
+        text = "폭풍 피해 12% 증가",
+        minipack = 0,
+    },
+    [15010163] = {
+        id = 15010163,
+        text = "1. 주년 복장 상점에서 서약자들은 쿠루미 웨딩 코스튬 및 복각한 코스튬과 영장을 구매할 수 있습니다. \n2. 코스튬 하우스에서 \"낙원 코인\", \"알록달록한 수정\", \"고급 코스튬 파편\" 3가지 화폐를 소모하여 각각 다른 코스튬과 영장을 구매할 수 있습니다. \n3. 코스튬 하우스는 매일 4개의 코스튬 또는 영장이 새로 고침되고, 서약자들은 매일 1회 무료 새로 고침 횟수가 주어집니다. 코스튬 하우스의 새로 고침 횟수는 동아리 소원의 성 레벨에 따라 늘어납니다\n4. 서약자들이 코스튬 하우스에서 다이아로 새로 고침 할 수 있습니다\n5. 코스튬 하우스에서 매일 유료 새로 고침은 최대 10회까지 할 수 있으며, 새로 고침 비용은 당일 새로 고침하는 횟수에 따라 증가합니다. \n6. 서약자가 이미 보유한 아이템은 코스튬 하우스에서 나타나지 않습니다. \n7. 이번 복각 코스튬, 영장 범위: \n[귀여운 메이드] 판매가: 낙원 코인*2000\n[파티 주인공] 판매가: 낙원 코인*2000\n[지배자] 판매가: 낙원 코인*2000\n[백작] 판매가: 낙원 코인*2000\n[비단부채] 판매가: 낙원 코인*2000\n[견습 메이드] 판매가: 낙원 코인*2000\n[고딕 소녀] 판매가: 낙원 코인*2000\n[기몽] 판매가: 낙원 코인*2000\n[중학생 정장] 판매가: 낙원 코인*2000\n[진홍의 정령] 판매가: 낙원 코인*2000\n[전속 메이드] 판매가: 낙원 코인*2000\n[흰토끼] 판매가: 낙원 코인*2000\n[노란색 첫눈] 판매가: 낙원 코인*2000\n[봄날의 노래] 판매가: 낙원 코인*2000\n[햇살의 모자] 판매가: 낙원 코인*2000\n[순백] 판매가: 낙원 코인*2000\n[무녀의 흰옷] 판매가: 낙원 코인*2000\n[별의 꿈 추종자] 판매가: 낙원 코인*2000\n[바니걸] 판매가: 낙원 코인*2000\n[밤의 별빛] 판매가: 낙원 코인*2000\n[남산타워 데이트] 판매가: 낙원 코인*2000\n[아침의 햇살] 판매가: 낙원 코인*2000\n[심연 응시] 판매가: 알록달록한 수정*128\n[세계의 끝] 판매가: 알록달록한 수정*128\n[사탕의 여왕] 판매가: 알록달록한 수정*128\n[진홍의 각성] 판매가: 알록달록한 수정*128\n[메이드 사령관] 판매가: 알록달록한 수정*128\n[화조월석] 판매가: 알록달록한 수정*128\n[여명의 별] 판매가: 알록달록한 수정*128\n[봄의 은총] 판매가: 알록달록한 수정*128\n[Dive into Reality] 판매가: 알록달록한 수정*128\n[어사만복] 판매가: 알록달록한 수정*128\n[소나무와 달] 판매가: 고급 코스튬 파편*50\n[흐리멍텅 요리사] 판매가: 고급 코스튬 파편*50\n[단풍색 기원] 판매가: 고급 코스튬 파편*50\n[심해의 디바] 판매가: 고급 코스튬 파편*50\n[벚꽃 러브송] 판매가: 고급 코스튬 파편*50\n[Lucky Queen] 판매가: 고급 코스튬 파편*50\n[영장-흐리멍텅 요리사] 판매가: 알록달록한 수정*168\n[영장-심연의 지배자] 판매가: 알록달록한 수정*168\n[영장-검은 깃털의 까마귀] 판매가: 알록달록한 수정*128\n[영장-꿈속에 넋을 잃은 나비] 판매가: 알록달록한 수정*168\n[영장-동풍의 구속] 판매가: 알록달록한 수정*128\n[영장-사탕의 여왕] 판매가: 알록달록한 수정*168\n[영장-시간의 마술사] 판매가: 알록달록한 수정*128\n[영장-지휘관] 판매가: 알록달록한 수정*168\n[영장-여명의 별] 판매가: 알록달록한 수정*168\n[영장-이나리 무녀] 판매가: 알록달록한 수정*168\n[영장-진홍의 정령] 판매가: 알록달록한 수정*68",
+        minipack = 0,
+    },
+    [295002] = {
+        id = 295002,
+        text = "Dear Covenanters, it's been %s days since you last logged in. Perhaps the fatigue of life has kept you away from Tengu City, but whenever you return, the spirits will always be here, waiting by your side. Come on.. let's start our date! DAL: Dating Never Stops!",
+        minipack = 0,
+    },
+    [14400470] = {
+        id = 14400470,
+        text = "Thank you. You saved Yuzuru and Kaguya. Please allow Yuzuru to serve you.",
+        minipack = 0,
+    },
+    [14400469] = {
+        id = 14400469,
+        text = "Pleasant. Never thought it would be so interesting.",
+        minipack = 0,
+    },
+    [14400468] = {
+        id = 14400468,
+        text = "Frank. Chatting with you has a distinctive flavor. I can stay a little longer.",
+        minipack = 0,
+    },
+    [3001009] = {
+        id = 3001009,
+        text = "지혜",
+        minipack = 0,
+    },
     [240027] = {
         id = 240027,
         text = "이미 해당 맵에 있습니다.",
+        minipack = 0,
+    },
+    [12010006] = {
+        id = 12010006,
+        text = "또 그 신경 쓰이는 여자아이와 마주쳤다. 그녀는 도대체 누구일까?",
+        minipack = 0,
+    },
+    [14400464] = {
+        id = 14400464,
+        text = "Then don't make such a rash move",
+        minipack = 0,
+    },
+    [295003] = {
+        id = 295003,
+        text = "Common Costume Choice Chest A",
+        minipack = 0,
+    },
+    [14400461] = {
+        id = 14400461,
+        text = "That's more likely, just look forward to it!",
+        minipack = 0,
+    },
+    [14400460] = {
+        id = 14400460,
+        text = "My kinsman, come to have a great time with me.",
+        minipack = 0,
+    },
+    [1013316] = {
+        id = 1013316,
+        text = "밥을 먹고 공원에서 산책할래?",
+        minipack = 0,
+    },
+    [14400457] = {
+        id = 14400457,
+        text = "Did something happen?",
         minipack = 0,
     },
     [240028] = {
@@ -121199,14 +121359,14 @@ return {
         text = "Right... not my leg!",
         minipack = 0,
     },
-    [295003] = {
-        id = 295003,
-        text = "Common Costume Choice Chest A",
+    [14400463] = {
+        id = 14400463,
+        text = "Look, if you can't see through the surface",
         minipack = 0,
     },
-    [295002] = {
-        id = 295002,
-        text = "Dear Covenanters, it's been %s days since you last logged in. Perhaps the fatigue of life has kept you away from Tengu City, but whenever you return, the spirits will always be here, waiting by your side. Come on.. let's start our date! DAL: Dating Never Stops!",
+    [14400471] = {
+        id = 14400471,
+        text = "Frank. Chatting with you has a distinctive flavor.",
         minipack = 0,
     },
     [295001] = {
@@ -133696,7 +133856,7 @@ return {
     },
     [15010270] = {
         id = 15010270,
-        text = "1.비프로스트의 탑에서 서약자님께서 보유하고 계신 캐릭터로 던전에 도전하실 수 있습니다. \n2. 계층을 돌파할 때마다 첫 클리어 보상을 획득할 수 있으며, 해당 보상은 초기화되지 않습니다. \n3. 서약자가 지난 계층의 모든 스테이지를 클리어해야 다음 계층에 진입할 수 있습니다. \n4. 서약자가 각 계층에 존재하는 모든 방을 클리어해야 전투에서 승리하실 수 있습니다. \n5. 클리어 시간은 기록되며, 서약자님께서는 반복 도전을 통해 클리어 타임을 갱신할 수 있지만 보상은 획득하지 못합니다.",
+        text = "1. In Kotori's Special Training, Covenanters can have their characters challenge instances.\n2. Each level gives a 1st win rewards, and the 1st win rewards will be reset each phase.\n3. All stages of the current level must be cleared before the next level can be unlocked.\n4. To complete a level, Covenanters must clear all cubicles.\n5. The Training Store is available with the opening of the training and closes as the training ends, however valuable items such as Astral Dresses and costumes in the store won't be replaced or reset, meanwhile, the purchase chances of other items will be reset.",
         minipack = 0,
     },
     [15010278] = {
@@ -162169,9 +162329,9 @@ return {
         text = "쿠루미 메인 CG1",
         minipack = 0,
     },
-    [15010163] = {
-        id = 15010163,
-        text = "1. 주년 복장 상점에서 서약자들은 쿠루미 웨딩 코스튬 및 복각한 코스튬과 영장을 구매할 수 있습니다. \n2. 코스튬 하우스에서 \"낙원 코인\", \"알록달록한 수정\", \"고급 코스튬 파편\" 3가지 화폐를 소모하여 각각 다른 코스튬과 영장을 구매할 수 있습니다. \n3. 코스튬 하우스는 매일 4개의 코스튬 또는 영장이 새로 고침되고, 서약자들은 매일 1회 무료 새로 고침 횟수가 주어집니다. 코스튬 하우스의 새로 고침 횟수는 동아리 소원의 성 레벨에 따라 늘어납니다\n4. 서약자들이 코스튬 하우스에서 다이아로 새로 고침 할 수 있습니다\n5. 코스튬 하우스에서 매일 유료 새로 고침은 최대 10회까지 할 수 있으며, 새로 고침 비용은 당일 새로 고침하는 횟수에 따라 증가합니다. \n6. 서약자가 이미 보유한 아이템은 코스튬 하우스에서 나타나지 않습니다. \n7. 이번 복각 코스튬, 영장 범위: \n[귀여운 메이드] 판매가: 낙원 코인*2000\n[파티 주인공] 판매가: 낙원 코인*2000\n[지배자] 판매가: 낙원 코인*2000\n[백작] 판매가: 낙원 코인*2000\n[비단부채] 판매가: 낙원 코인*2000\n[견습 메이드] 판매가: 낙원 코인*2000\n[고딕 소녀] 판매가: 낙원 코인*2000\n[기몽] 판매가: 낙원 코인*2000\n[중학생 정장] 판매가: 낙원 코인*2000\n[진홍의 정령] 판매가: 낙원 코인*2000\n[전속 메이드] 판매가: 낙원 코인*2000\n[흰토끼] 판매가: 낙원 코인*2000\n[노란색 첫눈] 판매가: 낙원 코인*2000\n[봄날의 노래] 판매가: 낙원 코인*2000\n[햇살의 모자] 판매가: 낙원 코인*2000\n[순백] 판매가: 낙원 코인*2000\n[무녀의 흰옷] 판매가: 낙원 코인*2000\n[별의 꿈 추종자] 판매가: 낙원 코인*2000\n[바니걸] 판매가: 낙원 코인*2000\n[밤의 별빛] 판매가: 낙원 코인*2000\n[남산타워 데이트] 판매가: 낙원 코인*2000\n[아침의 햇살] 판매가: 낙원 코인*2000\n[심연 응시] 판매가: 알록달록한 수정*128\n[세계의 끝] 판매가: 알록달록한 수정*128\n[사탕의 여왕] 판매가: 알록달록한 수정*128\n[진홍의 각성] 판매가: 알록달록한 수정*128\n[메이드 사령관] 판매가: 알록달록한 수정*128\n[화조월석] 판매가: 알록달록한 수정*128\n[여명의 별] 판매가: 알록달록한 수정*128\n[봄의 은총] 판매가: 알록달록한 수정*128\n[Dive into Reality] 판매가: 알록달록한 수정*128\n[어사만복] 판매가: 알록달록한 수정*128\n[소나무와 달] 판매가: 고급 코스튬 파편*50\n[흐리멍텅 요리사] 판매가: 고급 코스튬 파편*50\n[단풍색 기원] 판매가: 고급 코스튬 파편*50\n[심해의 디바] 판매가: 고급 코스튬 파편*50\n[벚꽃 러브송] 판매가: 고급 코스튬 파편*50\n[Lucky Queen] 판매가: 고급 코스튬 파편*50\n[영장-흐리멍텅 요리사] 판매가: 알록달록한 수정*168\n[영장-심연의 지배자] 판매가: 알록달록한 수정*168\n[영장-검은 깃털의 까마귀] 판매가: 알록달록한 수정*128\n[영장-꿈속에 넋을 잃은 나비] 판매가: 알록달록한 수정*168\n[영장-동풍의 구속] 판매가: 알록달록한 수정*128\n[영장-사탕의 여왕] 판매가: 알록달록한 수정*168\n[영장-시간의 마술사] 판매가: 알록달록한 수정*128\n[영장-지휘관] 판매가: 알록달록한 수정*168\n[영장-여명의 별] 판매가: 알록달록한 수정*168\n[영장-이나리 무녀] 판매가: 알록달록한 수정*168\n[영장-진홍의 정령] 판매가: 알록달록한 수정*68",
+    [14400472] = {
+        id = 14400472,
+        text = "I can stay with you a little longer",
         minipack = 0,
     },
     [900062] = {
@@ -203124,9 +203284,9 @@ return {
         text = "SS급 에너지 보석, 랜덤으로 [모드레드·오리가미]의 임의 스킬 SS급 보석 획득.（획득 후 자동 사용）",
         minipack = 0,
     },
-    [12010006] = {
-        id = 12010006,
-        text = "또 그 신경 쓰이는 여자아이와 마주쳤다. 그녀는 도대체 누구일까?",
+    [14400465] = {
+        id = 14400465,
+        text = "Joyful. Are you really going on a date with me?",
         minipack = 0,
     },
     [12010001] = {
@@ -215621,7 +215781,7 @@ return {
     },
     [15010272] = {
         id = 15010272,
-        text = "1. 비프로스트의 탑에서 각 방마다 다른 정령을 사용해야 하며, 방마다 최소 1명의 정령으로 전투를 시작해야 합니다. \n2. 서약자가 전투 시작 후 해당 계층의 모든 스테이지를 클리어해야 승리합니다. \n3. 서약자가 전투에서 퇴출할 경우 현재 계층의 첫 번째 방에서 다시 시작해야 하며 전투 기록은 저장되지 않습니다. \n4. 서약자가 전적에 만족하지 않으실 경우 일시정지 버튼을 통해 해당 스테이지에서 다시 시작하실 수 있습니다.",
+        text = "1. In Kotori's Special Training, each cubicle requires different Spirits, at least 1.\n2. After the battle starts, Covenanters need to clear all stages of the current level to win.\n3. After leaving in the middle of a battle, Covenanters will need to start from the first cubicle next time, and their battle data will not be recorded.\n4. If unsatisfied with the result of a stage, Covenanters can rechallenge it in the Pause UI.\n5. Different buffs will be provided each phase and the buffs will take effect in battles.",
         minipack = 0,
     },
     [15010280] = {
@@ -240799,9 +240959,9 @@ return {
         text = "유형: 코스튬\n캐릭터: 이자요이 미쿠\n하늘에 있는 바람에 몸을 맡긴 연, 화려한 변신을 마친 아이돌 미쿠를 따라, 떨어지는 꽃잎에 귀를 기울이며 벚꽃 러브송를 써보아요!",
         minipack = 0,
     },
-    [3210027] = {
-        id = 3210027,
-        text = "폭풍 피해 12% 증가",
+    [190011143] = {
+        id = 190011143,
+        text = "Space DMG +60%",
         minipack = 0,
     },
     [1130516] = {
@@ -243359,9 +243519,9 @@ return {
         text = "유형: 코스튬\n캐릭터: 나츠미\n딸기같이 달콤한 수영복, 눈부신 햇살이 치맛자락에 쏟아지고 있어 더운 여름도 새콤달콤해지네~",
         minipack = 0,
     },
-    [63053] = {
-        id = 63053,
-        text = "주간 순위: 매주 토카 AI 훈련에 통과한 횟수를 기록하며, 매주 일요일 24:00에 초기화됩니다. \n월간 순위: 매월 토카 AI 훈련에 통과한 횟수를 기록하며, 매월 마지막 날 24:00에 초기화됩니다.",
+    [190011144] = {
+        id = 190011144,
+        text = "Physical DMG +60%",
         minipack = 0,
     },
     [1023253] = {
@@ -244079,14 +244239,14 @@ return {
         text = "Dresses are the special weapons of elegant ladies.",
         minipack = 0,
     },
-    [1013316] = {
-        id = 1013316,
-        text = "밥을 먹고 공원에서 산책할래?",
+    [14400458] = {
+        id = 14400458,
+        text = "Let's have a perfect date!",
         minipack = 0,
     },
-    [3001009] = {
-        id = 3001009,
-        text = "지혜",
+    [14400466] = {
+        id = 14400466,
+        text = "Admire. Such a luxury for Yuzuru to enjoy you alone.",
         minipack = 0,
     },
     [3001008] = {
@@ -251039,9 +251199,9 @@ return {
         text = "유형: 코스튬\n캐릭터: 아루스 마리아\n가슴이 [따듯]해지는 느낌, [데이터]가 혼란스러워요. 이런 [일탈 프로그램]이 저에게 만족감을 심어주는데, 이것이 사랑일까요?",
         minipack = 0,
     },
-    [400044] = {
-        id = 400044,
-        text = "라나티스",
+    [190011147] = {
+        id = 190011147,
+        text = "Dark DMG Bonus +15% for 60s",
         minipack = 0,
     },
     [400040] = {

@@ -8654,7 +8654,7 @@ return {
         isDiban = true,
     },
     [504] = {
-        helpDes = 0,
+        helpDes = 15010272,
         resource = {
             [1] = {
                 [1] = 500001,
@@ -8671,10 +8671,11 @@ return {
         },
         dynamic = false,
         id = 504,
-        helpTitle = 0,
+        helpTitle = 15010271,
         fileName = "FubenEndlessPlusSquadView",
         isResource = true,
         helpInterface = {
+            [1] = 4104,
         },
         isHelp = true,
         help = "",
@@ -9130,7 +9131,7 @@ return {
         isDiban = true,
     },
     [514] = {
-        helpDes = 0,
+        helpDes = 15010274,
         resource = {
             [1] = {
                 [1] = 500001,
@@ -9147,10 +9148,11 @@ return {
         },
         dynamic = false,
         id = 514,
-        helpTitle = 0,
+        helpTitle = 15010273,
         fileName = "FubenEndlessPlusView",
         isResource = true,
         helpInterface = {
+            [1] = 4103,
         },
         isHelp = true,
         help = "",

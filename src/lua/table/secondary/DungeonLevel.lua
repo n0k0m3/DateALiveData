@@ -91249,7 +91249,7 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 112004,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
         dungeonName = "多队伍爬塔2层-2",
@@ -91391,7 +91391,7 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 112003,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
         dungeonName = "多队伍爬塔3层-2",
@@ -91533,7 +91533,7 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 112004,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
         dungeonName = "多队伍爬塔4层-2",
@@ -91675,7 +91675,7 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 112004,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
         dungeonName = "多队伍爬塔5层-2",
@@ -91817,7 +91817,7 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 112003,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
         dungeonName = "多队伍爬塔6层-2",
@@ -92409,7 +92409,7 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 112004,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
         dungeonName = "多队伍爬塔9层-3",
@@ -96507,6 +96507,277 @@ return {
         },
         levelGroupId = 8305,
     },
+    [2310074] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "四期多队伍爬塔3层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201007,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011250,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310074,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310076] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_104.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "四期多队伍爬塔4层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201014,
+            [2] = 201015,
+            [3] = 201016,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011252,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310076,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_4_2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [304308] = {
         rewardMultiple = 60830408,
         limitAttributesDescribe = "300902",
@@ -96851,6 +97122,141 @@ return {
         datingID = {
         },
         levelGroupId = 8305,
+    },
+    [2310082] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "四期多队伍爬塔7层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201002,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011258,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100002,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310082,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [109637] = {
         rewardMultiple = 60810937,
@@ -97537,32 +97943,33 @@ return {
         },
         levelGroupId = 400001,
     },
-    [291001] = {
+    [2310092] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 0,
+        victoryTypeDescribeForOpening = 300816,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "",
-        fightingMode = 0,
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 48,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 1,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
@@ -97571,7 +97978,7 @@ return {
         levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-约会1",
+        dungeonName = "四期伍爬塔10层-3",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -97580,6 +97987,7 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
+            [1] = 300801,
         },
         cost = {
         },
@@ -97588,30 +97996,32 @@ return {
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
+            [1] = 201032,
+            [2] = 201033,
+            [3] = 201034,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-12 00:00:01",
         },
-        name = 16000587,
+        name = 15011268,
         limitDungeon = 0,
         buyCost = {
         },
@@ -97622,20 +98032,16 @@ return {
         unlockBrief = 0,
         otherPreCond = {
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510152,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 16000571,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790104,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -97643,31 +98049,35 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 1,
+        num = 0,
         victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000560,
+        plotBrief = 0,
         victoryType = {
+            [1] = 1,
         },
-        id = 291001,
+        id = 2310092,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 0,
+        cameraAmend = 150,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "",
+        levelScript = "6_11boss2",
         datingID = {
-            [1] = 749040,
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [600302] = {
         rewardMultiple = 60700101,
@@ -98176,140 +98586,125 @@ return {
         },
         levelGroupId = 110004,
     },
-    [291002] = {
+    [2310100] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8701,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗2",
+        dungeonName = "五期多队伍爬塔4层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94013,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62801,
+            [1] = 201046,
+            [2] = 201046,
+            [3] = 201047,
+            [4] = 201048,
+            [5] = 201049,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291001,
         },
         picture = "",
-        isPlayBornAction = false,
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-12 00:00:01",
         },
-        name = 16000588,
-        limitDungeon = 1,
+        name = 15011253,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790140,
-        unlockBrief = 16000526,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620802800,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790105,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 2,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -98317,22 +98712,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291002,
+        id = 2310100,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "70_9_001",
+        levelScript = "2_tiantai",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [600304] = {
         rewardMultiple = 60700101,
@@ -98795,137 +99189,116 @@ return {
         },
         levelGroupId = 400001,
     },
-    [291003] = {
+    [2310108] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_104.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8702,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗3",
+        dungeonName = "五期伍爬塔8层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
             [1] = 300801,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94014,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62802,
+            [1] = 201017,
+            [2] = 201018,
+            [3] = 201019,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291002,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-12 00:00:01",
         },
-        name = 16000589,
-        limitDungeon = 1,
+        name = 15011261,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790141,
-        unlockBrief = 16000527,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620802800,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790106,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 3,
+        num = 0,
         victoryParam = {
             [1] = {
                 [1] = 1,
@@ -98938,20 +99311,19 @@ return {
         victoryType = {
             [1] = 1,
         },
-        id = 291003,
+        id = 2310108,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_001",
+        levelScript = "21_kabala_4_2",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [600306] = {
         rewardMultiple = 60700101,
@@ -99962,6 +100334,142 @@ return {
         },
         levelGroupId = 8305,
     },
+    [2310122] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_104.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔4层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201014,
+            [2] = 201015,
+            [3] = 201016,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011252,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310122,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_4_2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [7060103] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -100098,6 +100606,142 @@ return {
         datingID = {
         },
         levelGroupId = 300002,
+    },
+    [2310126] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔6层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201029,
+            [2] = 201030,
+            [3] = 201031,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011256,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310126,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "6_11boss2",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [440473] = {
         rewardMultiple = 0,
@@ -100266,32 +100910,33 @@ return {
         },
         levelGroupId = 8305,
     },
-    [291006] = {
+    [2310130] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 0,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "",
-        fightingMode = 0,
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 48,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 1,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
@@ -100300,7 +100945,7 @@ return {
         levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-约会6",
+        dungeonName = "六期多队伍爬塔8层-1",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -100309,6 +100954,7 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
+            [1] = 300804,
         },
         cost = {
         },
@@ -100317,31 +100963,30 @@ return {
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
+            [1] = 201008,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291005,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-12 00:00:01",
         },
-        name = 16000592,
+        name = 15011260,
         limitDungeon = 0,
         buyCost = {
         },
@@ -100349,27 +100994,19 @@ return {
         },
         gateEffect = "",
         reward = 0,
-        unlockBrief = 16000530,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620802800,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 16000572,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790109,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -100377,31 +101014,313 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 6,
+        num = 0,
         victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000561,
+        plotBrief = 0,
         victoryType = {
+            [1] = 3,
         },
-        id = 291006,
+        id = 2310130,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310132] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期伍爬塔8层-3",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201062,
+            [2] = 201062,
+            [3] = 201063,
+            [4] = 201064,
+            [5] = 201065,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011262,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310132,
         previewVideo = 0,
         debutDistance = 0,
         cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "",
+        levelScript = "2_DEM002",
         datingID = {
-            [1] = 749041,
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
+    },
+    [2310134] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_102.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期伍爬塔9层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201025,
+            [2] = 201026,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011264,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310134,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala5_1",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [440474] = {
         rewardMultiple = 0,
@@ -100571,11 +101490,12 @@ return {
         },
         levelGroupId = 8305,
     },
-    [291007] = {
+    [2310138] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
         victoryTypeDescribeForOpening = 300816,
@@ -100584,136 +101504,102 @@ return {
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_103.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8705,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗7",
+        dungeonName = "六期伍爬塔10层-3",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
             [1] = 300801,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94013,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62805,
+            [1] = 201032,
+            [2] = 201033,
+            [3] = 201034,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291006,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-12 00:00:01",
         },
-        name = 16000593,
-        limitDungeon = 1,
+        name = 15011268,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790145,
-        unlockBrief = 16000531,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620802800,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
-            camp = {
-                [1] = 1,
-            },
-            isShow = 1,
-            topDes = 16000461,
-            affixList = {
-                [1] = 635,
-                [2] = 636,
-                [3] = 637,
-                [4] = 638,
-            },
-            isShowOnHero = 0,
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790110,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
             [1] = {
                 [1] = 1,
@@ -100726,20 +101612,161 @@ return {
         victoryType = {
             [1] = 1,
         },
-        id = 291007,
+        id = 2310138,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_002",
+        levelScript = "6_11boss2",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
+    },
+    [2310140] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔1层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201010,
+            [2] = 201010,
+            [3] = 201011,
+            [4] = 201012,
+            [5] = 201013,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011247,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310140,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_DEM002",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [480401] = {
         rewardMultiple = 0,
@@ -101069,6 +102096,148 @@ return {
         datingID = {
         },
         levelGroupId = 8305,
+    },
+    [2310146] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔4层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201046,
+            [2] = 201046,
+            [3] = 201047,
+            [4] = 201048,
+            [5] = 201049,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011253,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310146,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [109639] = {
         rewardMultiple = 0,
@@ -101539,137 +102708,116 @@ return {
         },
         levelGroupId = 8305,
     },
-    [291009] = {
+    [2310154] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_104.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8707,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗9-解锁恩惠试炼1",
+        dungeonName = "六期伍爬塔8层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
             [1] = 300801,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94016,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62807,
+            [1] = 201017,
+            [2] = 201018,
+            [3] = 201019,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291008,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-12 00:00:01",
         },
-        name = 16000595,
-        limitDungeon = 1,
+        name = 15011261,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790147,
-        unlockBrief = 16000533,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620802800,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790112,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 9,
+        num = 0,
         victoryParam = {
             [1] = {
                 [1] = 1,
@@ -101682,20 +102830,154 @@ return {
         victoryType = {
             [1] = 1,
         },
-        id = 291009,
+        id = 2310154,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_003",
+        levelScript = "21_kabala_4_2",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
+    },
+    [2310156] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期伍爬塔9层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201005,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011263,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100003,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310156,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [480403] = {
         rewardMultiple = 0,
@@ -102024,6 +103306,141 @@ return {
         datingID = {
         },
         levelGroupId = 8305,
+    },
+    [2310162] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔1层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201001,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011246,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100002,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310162,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [6061003] = {
         rewardMultiple = 0,
@@ -103689,142 +105106,125 @@ return {
         },
         levelGroupId = 8306,
     },
-    [291013] = {
+    [2310186] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 4,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8710,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗13",
+        dungeonName = "九期多队伍爬塔1层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94018,
-            [2] = 94019,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62812,
-            [2] = 62813,
+            [1] = 201010,
+            [2] = 201010,
+            [3] = 201011,
+            [4] = 201012,
+            [5] = 201013,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291012,
         },
         picture = "",
-        isPlayBornAction = false,
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-13 00:00:01",
         },
-        name = 16000599,
-        limitDungeon = 1,
+        name = 15011247,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790151,
-        unlockBrief = 16000537,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620889200,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790116,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 13,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -103832,22 +105232,163 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291013,
+        id = 2310186,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "70_9_002",
+        levelScript = "2_DEM002",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
+    },
+    [2310188] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔2层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201038,
+            [2] = 201038,
+            [3] = 201039,
+            [4] = 201040,
+            [5] = 201041,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011249,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310188,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [480407] = {
         rewardMultiple = 0,
@@ -104327,142 +105868,125 @@ return {
         },
         levelGroupId = 300002,
     },
-    [291014] = {
+    [2310196] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 4,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8711,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗14",
+        dungeonName = "九期多队伍爬塔6层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510152,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94018,
-            [2] = 94019,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62814,
-            [2] = 62815,
+            [1] = 201054,
+            [2] = 201054,
+            [3] = 201055,
+            [4] = 201056,
+            [5] = 201057,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291013,
         },
         picture = "",
-        isPlayBornAction = false,
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-13 00:00:01",
         },
-        name = 16000600,
-        limitDungeon = 1,
+        name = 15011257,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790152,
-        unlockBrief = 16000538,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620889200,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790117,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 14,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -104470,22 +105994,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291014,
+        id = 2310196,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "70_9_002",
+        levelScript = "2_DEM002",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [480408] = {
         rewardMultiple = 0,
@@ -104963,141 +106486,125 @@ return {
         },
         levelGroupId = 8316,
     },
-    [291015] = {
+    [2310204] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 4,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8712,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗15-解锁挑战华伦1",
+        dungeonName = "九期伍爬塔9层-3",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94018,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62816,
-            [2] = 62817,
+            [1] = 201066,
+            [2] = 201066,
+            [3] = 201067,
+            [4] = 201068,
+            [5] = 201069,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291014,
         },
         picture = "",
-        isPlayBornAction = false,
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-13 00:00:01",
         },
-        name = 16000601,
-        limitDungeon = 1,
+        name = 15011265,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790153,
-        unlockBrief = 16000539,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620889200,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790118,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 15,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -105105,22 +106612,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291015,
+        id = 2310204,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "70_9_003",
+        levelScript = "2_tiantai",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [480409] = {
         rewardMultiple = 0,
@@ -114564,6 +116070,148 @@ return {
         },
         levelGroupId = 0,
     },
+    [2310075] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "四期多队伍爬塔3层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201042,
+            [2] = 201042,
+            [3] = 201043,
+            [4] = 201044,
+            [5] = 201045,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011251,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310075,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_DEM002",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [307411] = {
         rewardMultiple = 60830711,
         limitAttributesDescribe = "",
@@ -115065,6 +116713,148 @@ return {
         },
         levelGroupId = 0,
     },
+    [2310083] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "四期多队伍爬塔7层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201058,
+            [2] = 201058,
+            [3] = 201059,
+            [4] = 201060,
+            [5] = 201061,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011259,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310083,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [307412] = {
         rewardMultiple = 60830712,
         limitAttributesDescribe = "300904",
@@ -115244,6 +117034,141 @@ return {
         datingID = {
         },
         levelGroupId = 7004,
+    },
+    [2310087] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "四期伍爬塔9层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201005,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011263,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100003,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310087,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [440500] = {
         rewardMultiple = 0,
@@ -116301,6 +118226,142 @@ return {
         },
         levelGroupId = 400001,
     },
+    [2310103] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "五期多队伍爬塔6层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201029,
+            [2] = 201030,
+            [3] = 201031,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011256,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310103,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "6_11boss2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [440502] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -116431,6 +118492,141 @@ return {
             [1] = 976,
         },
         levelGroupId = 8306,
+    },
+    [2310107] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "五期多队伍爬塔8层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201008,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011260,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310107,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [6061403] = {
         rewardMultiple = 0,
@@ -118106,6 +120302,277 @@ return {
         datingID = {
         },
         levelGroupId = 8307,
+    },
+    [2310131] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_104.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期伍爬塔8层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201017,
+            [2] = 201018,
+            [3] = 201019,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011261,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310131,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_4_2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310133] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期伍爬塔9层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201005,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011263,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100003,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310133,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [505002] = {
         rewardMultiple = 0,
@@ -119848,6 +122315,141 @@ return {
         },
         levelGroupId = 6003,
     },
+    [2310157] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_102.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期伍爬塔9层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201025,
+            [2] = 201026,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011264,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310157,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala5_1",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [505005] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -121387,6 +123989,419 @@ return {
         },
         levelGroupId = 8307,
     },
+    [2310179] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期伍爬塔9层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201005,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011263,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100003,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310179,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310181] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期伍爬塔9层-3",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201066,
+            [2] = 201066,
+            [3] = 201067,
+            [4] = 201068,
+            [5] = 201069,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011265,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310181,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310183] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_104.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期伍爬塔10层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201020,
+            [2] = 201021,
+            [3] = 201022,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011267,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310183,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_4_2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [440512] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -122305,6 +125320,141 @@ return {
         },
         levelGroupId = 2003,
     },
+    [2310197] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔7层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201002,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011258,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100002,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310197,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [7060504] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -122441,6 +125591,148 @@ return {
         datingID = {
         },
         levelGroupId = 300002,
+    },
+    [2310201] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期伍爬塔8层-3",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201062,
+            [2] = 201062,
+            [3] = 201063,
+            [4] = 201064,
+            [5] = 201065,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011262,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310201,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_DEM002",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [302308] = {
         rewardMultiple = 60830208,
@@ -122620,6 +125912,277 @@ return {
         datingID = {
         },
         levelGroupId = 2003,
+    },
+    [2310205] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期伍爬塔10层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201009,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011266,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310205,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310207] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期伍爬塔10层-3",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201032,
+            [2] = 201033,
+            [3] = 201034,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011268,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310207,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "6_11boss2",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [420040] = {
         rewardMultiple = 60500001,
@@ -142201,6 +145764,507 @@ return {
         },
         levelGroupId = 7001,
     },
+    [291184] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 1,
+            [2] = 60,
+            [3] = 6,
+        },
+        bgm = "sound/battle_004.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8310,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8789,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-困难10-dem大楼内",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510153,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 12,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = true,
+        fightCount = 3,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63099,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291183,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = true,
+        starType = {
+            [1] = 24,
+            [2] = 2,
+            [3] = 33,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790651,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510103,
+            [4] = 510153,
+            [5] = 220009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790602,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291184,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_009",
+        datingID = {
+        },
+        levelGroupId = 8310,
+    },
+    [291183] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 6,
+            [2] = 10,
+            [3] = 1,
+        },
+        bgm = "sound/battle_004.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8310,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8788,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-困难9-dem大楼外",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510153,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 12,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = true,
+        fightCount = 3,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63098,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291182,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = true,
+        starType = {
+            [1] = 33,
+            [2] = 6,
+            [3] = 24,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790650,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510103,
+            [4] = 510153,
+            [5] = 220009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790601,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291183,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_007",
+        datingID = {
+        },
+        levelGroupId = 8310,
+    },
+    [291182] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 10,
+            [2] = 15,
+            [3] = 60,
+        },
+        bgm = "sound/battle_004.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8310,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8787,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-困难8-世界核心",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510153,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 12,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = true,
+        fightCount = 3,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63097,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291181,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = true,
+        starType = {
+            [1] = 6,
+            [2] = 13,
+            [3] = 2,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790649,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510103,
+            [4] = 510153,
+            [5] = 220009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790600,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291182,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_010",
+        datingID = {
+        },
+        levelGroupId = 8310,
+    },
     [250002] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "300927",
@@ -142373,6 +146437,682 @@ return {
         },
         levelGroupId = 8006,
     },
+    [291181] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 50,
+            [2] = 10,
+            [3] = 7,
+        },
+        bgm = "sound/battle_004.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8310,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8786,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-困难7-天宫塔",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510153,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 12,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = true,
+        fightCount = 3,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63094,
+            [2] = 63095,
+            [3] = 63096,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291180,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = true,
+        starType = {
+            [1] = 4,
+            [2] = 6,
+            [3] = 7,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790648,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510103,
+            [4] = 510153,
+            [5] = 220009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790599,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291181,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_008",
+        datingID = {
+        },
+        levelGroupId = 8310,
+    },
+    [291180] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 1,
+            [2] = 6,
+            [3] = 120,
+        },
+        bgm = "sound/battle_004.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8310,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8785,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-困难6-天宫塔",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510153,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 12,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = true,
+        fightCount = 3,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63091,
+            [2] = 63092,
+            [3] = 63093,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291179,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = true,
+        starType = {
+            [1] = 5,
+            [2] = 33,
+            [3] = 3,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790647,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510103,
+            [4] = 510153,
+            [5] = 220009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790598,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291180,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_008",
+        datingID = {
+        },
+        levelGroupId = 8310,
+    },
+    [291179] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 7,
+            [2] = 10,
+            [3] = 50,
+        },
+        bgm = "sound/battle_004.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8310,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8784,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-困难5-神社",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510153,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 12,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = true,
+        fightCount = 3,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63088,
+            [2] = 63089,
+            [3] = 63090,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291178,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = true,
+        starType = {
+            [1] = 7,
+            [2] = 6,
+            [3] = 4,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790646,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510103,
+            [4] = 510153,
+            [5] = 220009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790597,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291179,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_011",
+        datingID = {
+        },
+        levelGroupId = 8310,
+    },
+    [291178] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 15,
+            [2] = 1,
+            [3] = 60,
+        },
+        bgm = "sound/battle_004.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8310,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8783,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-困难4-剧院街道",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510153,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 12,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = true,
+        fightCount = 3,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63085,
+            [2] = 63086,
+            [3] = 63087,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291177,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = true,
+        starType = {
+            [1] = 13,
+            [2] = 24,
+            [3] = 2,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790645,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510103,
+            [4] = 510153,
+            [5] = 220009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790596,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291178,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_005",
+        datingID = {
+        },
+        levelGroupId = 8310,
+    },
     [7061304] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -142509,6 +147249,175 @@ return {
         datingID = {
         },
         levelGroupId = 300002,
+    },
+    [291177] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 120,
+            [2] = 7,
+            [3] = 10,
+        },
+        bgm = "sound/battle_004.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8310,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8782,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-困难3-学校外街道",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510153,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 12,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = true,
+        fightCount = 3,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63082,
+            [2] = 63083,
+            [3] = 63084,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291176,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = true,
+        starType = {
+            [1] = 3,
+            [2] = 7,
+            [3] = 6,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790644,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510103,
+            [4] = 510153,
+            [5] = 220009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790595,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291177,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_006",
+        datingID = {
+        },
+        levelGroupId = 8310,
     },
     [110429] = {
         rewardMultiple = 60811029,
@@ -142859,6 +147768,175 @@ return {
         },
         levelGroupId = 8006,
     },
+    [291176] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 1,
+            [2] = 7,
+            [3] = 120,
+        },
+        bgm = "sound/battle_004.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8310,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8781,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-困难2-河边街道",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510153,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 12,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = true,
+        fightCount = 3,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63079,
+            [2] = 63080,
+            [3] = 63081,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291175,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = true,
+        starType = {
+            [1] = 5,
+            [2] = 7,
+            [3] = 3,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790643,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510103,
+            [4] = 510153,
+            [5] = 220009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790594,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291176,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_004",
+        datingID = {
+        },
+        levelGroupId = 8310,
+    },
     [107102] = {
         rewardMultiple = 60810702,
         limitAttributesDescribe = "",
@@ -143034,6 +148112,175 @@ return {
             [1] = 2002,
         },
         levelGroupId = 7001,
+    },
+    [291175] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 15,
+            [2] = 6,
+            [3] = 50,
+        },
+        bgm = "sound/battle_004.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8310,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8780,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-困难1-市中心街道",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510153,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 12,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = true,
+        fightCount = 3,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63076,
+            [2] = 63077,
+            [3] = 63078,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291174,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = true,
+        starType = {
+            [1] = 13,
+            [2] = 33,
+            [3] = 4,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790642,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555014,
+            [3] = 510103,
+            [4] = 510153,
+            [5] = 220009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790593,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291175,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_001",
+        datingID = {
+        },
+        levelGroupId = 8310,
     },
     [211101] = {
         rewardMultiple = 60821101,
@@ -143215,6 +148462,268 @@ return {
         datingID = {
         },
         levelGroupId = 110001,
+    },
+    [291174] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 0,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_011.mp3",
+        fightingMode = 0,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 9,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8309,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "园神剧场-编号39-章节2-关卡18-真实的幸福-约会",
+        difficulty = 0,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0,
+        victoryTypeDescribe = {
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 0,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291172,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 220009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 0,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000760,
+        victoryType = {
+        },
+        id = 291174,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "",
+        datingID = {
+            [1] = 10024,
+        },
+        levelGroupId = 8309,
+    },
+    [291173] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 0,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_011.mp3",
+        fightingMode = 0,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 9,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8309,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "园神剧场-编号38-章节2-关卡17-又见面了呢-约会",
+        difficulty = 0,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0,
+        victoryTypeDescribe = {
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 0,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291172,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 0,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000759,
+        victoryType = {
+        },
+        id = 291173,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "",
+        datingID = {
+            [1] = 10023,
+        },
+        levelGroupId = 8309,
     },
     [7012204] = {
         rewardMultiple = 0,
@@ -143528,6 +149037,137 @@ return {
         },
         levelGroupId = 8006,
     },
+    [291172] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 0,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_011.mp3",
+        fightingMode = 0,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 9,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8309,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "园神剧场-编号37-章节2-关卡16-凛祢的心愿-约会",
+        difficulty = 0,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0,
+        victoryTypeDescribe = {
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 0,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291171,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510152,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 0,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000758,
+        victoryType = {
+        },
+        id = 291172,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "",
+        datingID = {
+            [1] = 10022,
+        },
+        levelGroupId = 8309,
+    },
     [7061101] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -143664,6 +149304,171 @@ return {
         datingID = {
         },
         levelGroupId = 300002,
+    },
+    [291171] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 1,
+            [2] = 11,
+            [3] = 120,
+        },
+        bgm = "sound/battle_014.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8309,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8779,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-编号36-章节2-关卡15-心事-Dem大楼外",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 220009,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = true,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63073,
+            [2] = 63074,
+            [3] = 63075,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291170,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = false,
+        starType = {
+            [1] = 5,
+            [2] = 6,
+            [3] = 3,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790638,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790589,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291171,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_007",
+        datingID = {
+        },
+        levelGroupId = 8309,
     },
     [211102] = {
         rewardMultiple = 60821102,
@@ -143845,6 +149650,276 @@ return {
         datingID = {
         },
         levelGroupId = 110001,
+    },
+    [2310143] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔3层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201007,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011250,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310143,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310147] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_102.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔5层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201023,
+            [2] = 201024,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011254,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310147,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala5_1",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [110430] = {
         rewardMultiple = 0,
@@ -145311,6 +151386,142 @@ return {
         },
         levelGroupId = 400001,
     },
+    [2310149] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔6层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201029,
+            [2] = 201030,
+            [3] = 201031,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011256,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310149,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "6_11boss2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [600506] = {
         rewardMultiple = 60700101,
         limitAttributesDescribe = "",
@@ -145475,6 +151686,148 @@ return {
         datingID = {
         },
         levelGroupId = 400001,
+    },
+    [2310152] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔7层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201058,
+            [2] = 201058,
+            [3] = 201059,
+            [4] = 201060,
+            [5] = 201061,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011259,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310152,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [600507] = {
         rewardMultiple = 60700101,
@@ -145999,6 +152352,314 @@ return {
         },
         levelGroupId = 7005,
     },
+    [2310155] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期伍爬塔8层-3",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201062,
+            [2] = 201062,
+            [3] = 201063,
+            [4] = 201064,
+            [5] = 201065,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011262,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310155,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_DEM002",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [291165] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 1,
+            [2] = 11,
+            [3] = 1,
+        },
+        bgm = "sound/battle_014.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8309,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8773,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-编号30-章节2-关卡9-地陷-游乐园",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 220009,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94038,
+        },
+        isQuickBattle = true,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63055,
+            [2] = 63056,
+            [3] = 63057,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291161,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = false,
+        starType = {
+            [1] = 5,
+            [2] = 6,
+            [3] = 24,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790632,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790583,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291165,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_003",
+        datingID = {
+        },
+        levelGroupId = 8309,
+    },
     [7012304] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -146135,6 +152796,141 @@ return {
         datingID = {
         },
         levelGroupId = 300002,
+    },
+    [2310159] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期伍爬塔10层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201009,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011266,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310159,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [107104] = {
         rewardMultiple = 60810704,
@@ -146809,6 +153605,309 @@ return {
         },
         levelGroupId = 7005,
     },
+    [2310161] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期伍爬塔10层-3",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201032,
+            [2] = 201033,
+            [3] = 201034,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011268,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310161,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "6_11boss2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [291162] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 40,
+            [2] = 7,
+            [3] = 6,
+        },
+        bgm = "sound/battle_014.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8309,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8771,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-编号27-章节2-关卡6-ruler-世界核心",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 220009,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94042,
+            [2] = 94043,
+        },
+        isQuickBattle = true,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63049,
+            [2] = 63050,
+            [3] = 63051,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291161,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = false,
+        starType = {
+            [1] = 4,
+            [2] = 33,
+            [3] = 7,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790629,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790580,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291162,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_010",
+        datingID = {
+        },
+        levelGroupId = 8309,
+    },
     [108640] = {
         rewardMultiple = 60810840,
         limitAttributesDescribe = "",
@@ -147148,6 +154247,420 @@ return {
         datingID = {
         },
         levelGroupId = 500012,
+    },
+    [2310168] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_104.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔4层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201014,
+            [2] = 201015,
+            [3] = 201016,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011252,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310168,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_4_2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310172] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔6层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201029,
+            [2] = 201030,
+            [3] = 201031,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011256,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310172,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "6_11boss2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310175] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔7层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201058,
+            [2] = 201058,
+            [3] = 201059,
+            [4] = 201060,
+            [5] = 201061,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011259,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310175,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [207523] = {
         rewardMultiple = 60820723,
@@ -147622,6 +155135,148 @@ return {
         },
         levelGroupId = 300002,
     },
+    [2310178] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期伍爬塔8层-3",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201062,
+            [2] = 201062,
+            [3] = 201063,
+            [4] = 201064,
+            [5] = 201065,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011262,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310178,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_DEM002",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [480503] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -147961,6 +155616,284 @@ return {
         },
         levelGroupId = 7001,
     },
+    [2310184] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期伍爬塔10层-3",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201032,
+            [2] = 201033,
+            [3] = 201034,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011268,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310184,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "6_11boss2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310190] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔3层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201042,
+            [2] = 201042,
+            [3] = 201043,
+            [4] = 201044,
+            [5] = 201045,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011251,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310190,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_DEM002",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [207524] = {
         rewardMultiple = 60820724,
         limitAttributesDescribe = "",
@@ -148296,6 +156229,171 @@ return {
         datingID = {
         },
         levelGroupId = 200002,
+    },
+    [291155] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+            [1] = 7,
+            [2] = 150,
+            [3] = 13,
+        },
+        bgm = "sound/battle_014.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 1,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8308,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8768,
+        quickBattleParameter = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 3,
+            },
+        },
+        dungeonName = "园神剧场-编号20-章节1-关卡20-逃离-世界核心",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = true,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 63040,
+            [2] = 63041,
+            [3] = 63042,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+            [1] = 291154,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 50,
+        isBuy = false,
+        starType = {
+            [1] = 7,
+            [2] = 3,
+            [3] = 6,
+        },
+        enterConditon = {
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790622,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 63790573,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291155,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "juchang_yuanshen_010",
+        datingID = {
+        },
+        levelGroupId = 8308,
     },
     [108641] = {
         rewardMultiple = 60810841,
@@ -148795,6 +156893,142 @@ return {
         },
         levelGroupId = 200002,
     },
+    [2310195] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔6层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201029,
+            [2] = 201030,
+            [3] = 201031,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011256,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310195,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "6_11boss2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [7061301] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -149267,6 +157501,148 @@ return {
         datingID = {
         },
         levelGroupId = 200002,
+    },
+    [2310198] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔7层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201058,
+            [2] = 201058,
+            [3] = 201059,
+            [4] = 201060,
+            [5] = 201061,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011259,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310198,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [291113] = {
         rewardMultiple = 0,
@@ -151153,6 +159529,141 @@ return {
         },
         levelGroupId = 8316,
     },
+    [2310199] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔8层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201008,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011260,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310199,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [480510] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "300903",
@@ -151326,6 +159837,142 @@ return {
         },
         levelGroupId = 500013,
     },
+    [2310200] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_104.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期伍爬塔8层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201017,
+            [2] = 201018,
+            [3] = 201019,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011261,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310200,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_4_2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [281903] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -151474,6 +160121,142 @@ return {
         datingID = {
         },
         levelGroupId = 8316,
+    },
+    [2310206] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_104.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期伍爬塔10层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201020,
+            [2] = 201021,
+            [3] = 201022,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011267,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310206,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_4_2",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [480511] = {
         rewardMultiple = 0,
@@ -151966,6 +160749,164 @@ return {
         datingID = {
         },
         levelGroupId = 8316,
+    },
+    [291002] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8701,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗2",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94013,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62801,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291001,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-12 00:00:01",
+        },
+        name = 16000588,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790140,
+        unlockBrief = 16000526,
+        otherPreCond = {
+            time = {
+                [1] = 1620802800,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790105,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 2,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291002,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_001",
+        datingID = {
+        },
+        levelGroupId = 8311,
     },
     [480512] = {
         rewardMultiple = 0,
@@ -153076,6 +162017,164 @@ return {
         datingID = {
         },
         levelGroupId = 8316,
+    },
+    [291004] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8703,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗4",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94015,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62803,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291003,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-12 00:00:01",
+        },
+        name = 16000590,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790142,
+        unlockBrief = 16000528,
+        otherPreCond = {
+            time = {
+                [1] = 1620802800,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790107,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 4,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291004,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_002",
+        datingID = {
+        },
+        levelGroupId = 8311,
     },
     [480514] = {
         rewardMultiple = 0,
@@ -154629,6 +163728,164 @@ return {
         },
         levelGroupId = 0,
     },
+    [291005] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8704,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗5",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510152,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94016,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62804,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291004,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-12 00:00:01",
+        },
+        name = 16000591,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790143,
+        unlockBrief = 16000529,
+        otherPreCond = {
+            time = {
+                [1] = 1620802800,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790108,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 5,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291005,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_002",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
     [108644] = {
         rewardMultiple = 60810844,
         limitAttributesDescribe = "",
@@ -155924,6 +165181,334 @@ return {
         },
         levelGroupId = 300002,
     },
+    [291007] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8705,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗7",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94013,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62805,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291006,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-12 00:00:01",
+        },
+        name = 16000593,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790145,
+        unlockBrief = 16000531,
+        otherPreCond = {
+            time = {
+                [1] = 1620802800,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+            camp = {
+                [1] = 1,
+            },
+            isShow = 1,
+            topDes = 16000461,
+            affixList = {
+                [1] = 635,
+                [2] = 636,
+                [3] = 637,
+                [4] = 638,
+            },
+            isShowOnHero = 0,
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790110,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 7,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291007,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_002",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
+    [291009] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8707,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗9-解锁恩惠试炼1",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94016,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62807,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291008,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-12 00:00:01",
+        },
+        name = 16000595,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790147,
+        unlockBrief = 16000533,
+        otherPreCond = {
+            time = {
+                [1] = 1620802800,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790112,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 9,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291009,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_003",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
     [510208] = {
         rewardMultiple = 60500003,
         limitAttributesDescribe = "",
@@ -156075,6 +165660,339 @@ return {
         datingID = {
         },
         levelGroupId = 0,
+    },
+    [291013] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 4,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8710,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗13",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94018,
+            [2] = 94019,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62812,
+            [2] = 62813,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291012,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-13 00:00:01",
+        },
+        name = 16000599,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790151,
+        unlockBrief = 16000537,
+        otherPreCond = {
+            time = {
+                [1] = 1620889200,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790116,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 13,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291013,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_002",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
+    [291017] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8713,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗17",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94013,
+            [2] = 94020,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62818,
+            [2] = 62819,
+            [3] = 62820,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291016,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-14 00:00:01",
+        },
+        name = 16000603,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790155,
+        unlockBrief = 16000541,
+        otherPreCond = {
+            time = {
+                [1] = 1620975600,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+            camp = {
+                [1] = 1,
+            },
+            isShow = 1,
+            topDes = 16000461,
+            affixList = {
+                [1] = 635,
+                [2] = 636,
+                [3] = 637,
+                [4] = 638,
+            },
+            isShowOnHero = 0,
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790120,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 17,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291017,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_003",
+        datingID = {
+        },
+        levelGroupId = 8311,
     },
     [211627] = {
         rewardMultiple = 60821127,
@@ -156404,6 +166322,178 @@ return {
         },
         levelGroupId = 0,
     },
+    [291023] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8717,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗23",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94022,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62830,
+            [2] = 62831,
+            [3] = 62832,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291022,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-14 00:00:01",
+        },
+        name = 16000609,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790161,
+        unlockBrief = 16000547,
+        otherPreCond = {
+            time = {
+                [1] = 1620975600,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+            camp = {
+                [1] = 1,
+            },
+            isShow = 1,
+            topDes = 16000461,
+            affixList = {
+                [1] = 635,
+                [2] = 636,
+                [3] = 637,
+                [4] = 638,
+            },
+            isShowOnHero = 0,
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790126,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 23,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291023,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_004",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
     [108645] = {
         rewardMultiple = 60810845,
         limitAttributesDescribe = "",
@@ -156582,6 +166672,167 @@ return {
         datingID = {
         },
         levelGroupId = 80006,
+    },
+    [291026] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8719,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗26",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94014,
+            [2] = 94015,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62836,
+            [2] = 62837,
+            [3] = 62838,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291131,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-15 00:00:01",
+        },
+        name = 16000612,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790164,
+        unlockBrief = 16000550,
+        otherPreCond = {
+            time = {
+                [1] = 1621062000,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790129,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 26,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291026,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_003",
+        datingID = {
+        },
+        levelGroupId = 8311,
     },
     [510210] = {
         rewardMultiple = 60500003,
@@ -157378,6 +167629,473 @@ return {
         },
         levelGroupId = 0,
     },
+    [291028] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8721,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗28",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94020,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62842,
+            [2] = 62843,
+            [3] = 62844,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291027,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-15 00:00:01",
+        },
+        name = 16000614,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790166,
+        unlockBrief = 16000552,
+        otherPreCond = {
+            time = {
+                [1] = 1621062000,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+            camp = {
+                [1] = 1,
+            },
+            isShow = 1,
+            topDes = 16000461,
+            affixList = {
+                [1] = 635,
+                [2] = 636,
+            },
+            isShowOnHero = 0,
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790131,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 28,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291028,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_002",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
+    [291031] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8724,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗31",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94017,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62851,
+            [2] = 62852,
+            [3] = 62853,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291030,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-15 00:00:01",
+        },
+        name = 16000617,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790169,
+        unlockBrief = 16000555,
+        otherPreCond = {
+            time = {
+                [1] = 1621062000,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790134,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 31,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291031,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_003",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
+    [291035] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 0,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "",
+        fightingMode = 0,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 48,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 1,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-约会35-解锁3种挑战2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291034,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-15 00:00:01",
+        },
+        name = 16000621,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 16000559,
+        otherPreCond = {
+            time = {
+                [1] = 1621062000,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510152,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 16000581,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790138,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 35,
+        victoryParam = {
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000570,
+        victoryType = {
+        },
+        id = 291035,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "",
+        datingID = {
+            [1] = 749050,
+        },
+        levelGroupId = 8311,
+    },
     [510212] = {
         rewardMultiple = 60500003,
         limitAttributesDescribe = "",
@@ -157529,6 +168247,149 @@ return {
         datingID = {
         },
         levelGroupId = 0,
+    },
+    [291121] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = true,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 16000634,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 50,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8313,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8729,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动挑战-挑战华伦1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 16000480,
+        },
+        cost = {
+            [1] = {
+                [1] = 665101,
+                [2] = 1,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 0,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62866,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291015,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-13 00:00:01",
+        },
+        name = 16000626,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790178,
+        unlockBrief = 16000468,
+        otherPreCond = {
+            time = {
+                [1] = 1620889200,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790178,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+            [665102] = 100,
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 1,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000476,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291121,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 50,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_003",
+        datingID = {
+        },
+        levelGroupId = 8313,
     },
     [7062103] = {
         rewardMultiple = 0,
@@ -157983,6 +168844,149 @@ return {
         },
         levelGroupId = 300002,
     },
+    [291131] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = true,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 16000635,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 51,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8314,
+        bossType = 0,
+        showStyle = 3,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8733,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动挑战-异界羁绊1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 16000491,
+        },
+        cost = {
+            [1] = {
+                [1] = 665101,
+                [2] = 1,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 0,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62870,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291025,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-14 00:00:01",
+        },
+        name = 16000630,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790182,
+        unlockBrief = 16000472,
+        otherPreCond = {
+            time = {
+                [1] = 1620975600,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790182,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+            [665103] = 100,
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 1,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000487,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291131,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 50,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_004",
+        datingID = {
+        },
+        levelGroupId = 8314,
+    },
     [108646] = {
         rewardMultiple = 60810846,
         limitAttributesDescribe = "",
@@ -158121,6 +169125,149 @@ return {
             [1] = 8015,
         },
         levelGroupId = 80006,
+    },
+    [291135] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 16000654,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/bgm/dafuweng_main.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 53,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8315,
+        bossType = 999,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 11,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8737,
+        quickBattleParameter = {
+        },
+        dungeonName = "2021年兽玩法(至少击杀一个就胜利)",
+        difficulty = 0,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 16000654,
+        },
+        cost = {
+            [1] = {
+                [1] = 665105,
+                [2] = 1,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 0,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62907,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2022-01-26 00:00:00",
+        },
+        name = 0,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790553,
+        unlockBrief = 0,
+        otherPreCond = {
+            time = {
+                [1] = 1643180400,
+                [2] = 1645858800,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 16000654,
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 3,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 20,
+        },
+        id = 291135,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_10_001",
+        datingID = {
+        },
+        levelGroupId = 8315,
     },
     [510214] = {
         rewardMultiple = 60500003,
@@ -158933,6 +170080,149 @@ return {
         },
         levelGroupId = 400001,
     },
+    [291134] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = true,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 16000635,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 51,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8314,
+        bossType = 0,
+        showStyle = 3,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8736,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动挑战-异界羁绊4",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 16000494,
+        },
+        cost = {
+            [1] = {
+                [1] = 665101,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 0,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62873,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291133,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-23 00:00:01",
+        },
+        name = 16000633,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790185,
+        unlockBrief = 16000475,
+        otherPreCond = {
+            time = {
+                [1] = 1621753200,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790185,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+            [665103] = 1000,
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 4,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000490,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291134,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 50,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_004",
+        datingID = {
+        },
+        levelGroupId = 8314,
+    },
     [307513] = {
         rewardMultiple = 60830713,
         limitAttributesDescribe = "",
@@ -159434,6 +170724,149 @@ return {
         },
         levelGroupId = 400001,
     },
+    [291133] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = true,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 16000635,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 51,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8314,
+        bossType = 0,
+        showStyle = 3,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8735,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动挑战-异界羁绊3",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 16000493,
+        },
+        cost = {
+            [1] = {
+                [1] = 665101,
+                [2] = 4,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 0,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62872,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291132,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-19 00:00:01",
+        },
+        name = 16000632,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790184,
+        unlockBrief = 16000474,
+        otherPreCond = {
+            time = {
+                [1] = 1621407600,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790184,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+            [665103] = 600,
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 3,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000489,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291133,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 50,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_004",
+        datingID = {
+        },
+        levelGroupId = 8314,
+    },
     [307514] = {
         rewardMultiple = 60830714,
         limitAttributesDescribe = "300906",
@@ -159889,6 +171322,149 @@ return {
         datingID = {
         },
         levelGroupId = 300002,
+    },
+    [291132] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = true,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 16000635,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 51,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8314,
+        bossType = 0,
+        showStyle = 3,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8734,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动挑战-异界羁绊2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 16000492,
+        },
+        cost = {
+            [1] = {
+                [1] = 665101,
+                [2] = 2,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 0,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62871,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291035,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-15 00:00:01",
+        },
+        name = 16000631,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790183,
+        unlockBrief = 16000473,
+        otherPreCond = {
+            time = {
+                [1] = 1621062000,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790183,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+            [665103] = 200,
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 2,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000488,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291132,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 50,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_004",
+        datingID = {
+        },
+        levelGroupId = 8314,
     },
     [307515] = {
         rewardMultiple = 60830715,
@@ -160859,6 +172435,150 @@ return {
         },
         levelGroupId = 200001,
     },
+    [291123] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = true,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 16000634,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 50,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8313,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8731,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动挑战-挑战华伦3",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 16000482,
+        },
+        cost = {
+            [1] = {
+                [1] = 665101,
+                [2] = 4,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 0,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62868,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291122,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-19 00:00:01",
+        },
+        name = 16000628,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790180,
+        unlockBrief = 16000470,
+        otherPreCond = {
+            time = {
+                [1] = 1621407600,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790180,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+            [665102] = 600,
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 3,
+        victoryParam = {
+            [1] = {
+                [1] = 100198,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000478,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 291123,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 50,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_003",
+        datingID = {
+        },
+        levelGroupId = 8313,
+    },
     [7012302] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -161318,6 +173038,302 @@ return {
         },
         levelGroupId = 200001,
     },
+    [291112] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = true,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 49,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8312,
+        bossType = 0,
+        showStyle = 1,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8726,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动挑战-恩惠试炼2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 665104,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300816,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 0,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62857,
+            [2] = 62858,
+            [3] = 62859,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291035,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-15 00:00:01",
+        },
+        name = 16000623,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790175,
+        unlockBrief = 16000465,
+        otherPreCond = {
+            time = {
+                [1] = 1621062000,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 665104,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790175,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 2,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291112,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 50,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_002",
+        datingID = {
+        },
+        levelGroupId = 8312,
+    },
+    [291111] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = true,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 49,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8312,
+        bossType = 0,
+        showStyle = 1,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8725,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动挑战-恩惠试炼1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 665104,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300816,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 0,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62854,
+            [2] = 62855,
+            [3] = 62856,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291009,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-12 00:00:01",
+        },
+        name = 16000622,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790174,
+        unlockBrief = 16000464,
+        otherPreCond = {
+            time = {
+                [1] = 1620802800,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 665104,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790174,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 1,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291111,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 50,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_002",
+        datingID = {
+        },
+        levelGroupId = 8312,
+    },
     [291138] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -161482,6 +173498,417 @@ return {
         },
         levelGroupId = 8308,
     },
+    [291034] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 0,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "",
+        fightingMode = 0,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 48,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 1,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-约会34",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291033,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-15 00:00:01",
+        },
+        name = 16000620,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 16000558,
+        otherPreCond = {
+            time = {
+                [1] = 1621062000,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510152,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 16000580,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790137,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 34,
+        victoryParam = {
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000569,
+        victoryType = {
+        },
+        id = 291034,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "",
+        datingID = {
+            [1] = 749049,
+        },
+        levelGroupId = 8311,
+    },
+    [291033] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 0,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "",
+        fightingMode = 0,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 48,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 1,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-约会33",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291032,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-15 00:00:01",
+        },
+        name = 16000619,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 16000557,
+        otherPreCond = {
+            time = {
+                [1] = 1621062000,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510152,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 16000579,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790136,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 33,
+        victoryParam = {
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000568,
+        victoryType = {
+        },
+        id = 291033,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "",
+        datingID = {
+            [1] = 749048,
+        },
+        levelGroupId = 8311,
+    },
+    [291032] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 0,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "",
+        fightingMode = 0,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 48,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 1,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-约会32",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291031,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-15 00:00:01",
+        },
+        name = 16000618,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 16000556,
+        otherPreCond = {
+            time = {
+                [1] = 1621062000,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510152,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 16000578,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790135,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 32,
+        victoryParam = {
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000567,
+        victoryType = {
+        },
+        id = 291032,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "",
+        datingID = {
+            [1] = 749047,
+        },
+        levelGroupId = 8311,
+    },
     [291139] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -161645,6 +174072,335 @@ return {
         datingID = {
         },
         levelGroupId = 8308,
+    },
+    [291030] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8723,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗30",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94017,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62848,
+            [2] = 62849,
+            [3] = 62850,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291029,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-15 00:00:01",
+        },
+        name = 16000616,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790168,
+        unlockBrief = 16000554,
+        otherPreCond = {
+            time = {
+                [1] = 1621062000,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790133,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 30,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291030,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_004",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
+    [291029] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8722,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗29",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94022,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62845,
+            [2] = 62846,
+            [3] = 62847,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291028,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-15 00:00:01",
+        },
+        name = 16000615,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790167,
+        unlockBrief = 16000553,
+        otherPreCond = {
+            time = {
+                [1] = 1621062000,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+            camp = {
+                [1] = 1,
+            },
+            isShow = 1,
+            topDes = 16000461,
+            affixList = {
+                [1] = 635,
+            },
+            isShowOnHero = 0,
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790132,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 29,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291029,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_004",
+        datingID = {
+        },
+        levelGroupId = 8311,
     },
     [105321] = {
         rewardMultiple = 60810521,
@@ -161989,6 +174745,178 @@ return {
         datingID = {
         },
         levelGroupId = 8308,
+    },
+    [291027] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8720,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗27",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94013,
+            [2] = 94016,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62839,
+            [2] = 62840,
+            [3] = 62841,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291026,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-15 00:00:01",
+        },
+        name = 16000613,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790165,
+        unlockBrief = 16000551,
+        otherPreCond = {
+            time = {
+                [1] = 1621062000,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+            camp = {
+                [1] = 1,
+            },
+            isShow = 1,
+            topDes = 16000461,
+            affixList = {
+                [1] = 635,
+                [2] = 636,
+                [3] = 637,
+            },
+            isShowOnHero = 0,
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790130,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 27,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291027,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_002",
+        datingID = {
+        },
+        levelGroupId = 8311,
     },
     [7061502] = {
         rewardMultiple = 0,
@@ -162429,6 +175357,143 @@ return {
         },
         levelGroupId = 8308,
     },
+    [291025] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 0,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "",
+        fightingMode = 0,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 48,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 1,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-约会25-解锁异界羁绊1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291024,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-14 00:00:01",
+        },
+        name = 16000611,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 16000549,
+        otherPreCond = {
+            time = {
+                [1] = 1620975600,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510152,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 16000577,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790128,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 25,
+        victoryParam = {
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000566,
+        victoryType = {
+        },
+        id = 291025,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "",
+        datingID = {
+            [1] = 749046,
+        },
+        levelGroupId = 8311,
+    },
     [111208] = {
         rewardMultiple = 60811108,
         limitAttributesDescribe = "",
@@ -162609,6 +175674,178 @@ return {
         },
         levelGroupId = 110002,
     },
+    [291024] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8718,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗24",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94018,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62833,
+            [2] = 62834,
+            [3] = 62835,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291023,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-14 00:00:01",
+        },
+        name = 16000610,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790162,
+        unlockBrief = 16000548,
+        otherPreCond = {
+            time = {
+                [1] = 1620975600,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+            camp = {
+                [1] = 1,
+            },
+            isShow = 1,
+            topDes = 16000461,
+            affixList = {
+                [1] = 635,
+                [2] = 636,
+                [3] = 637,
+                [4] = 638,
+            },
+            isShowOnHero = 0,
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790127,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 24,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291024,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_004",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
     [291142] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -162774,6 +176011,143 @@ return {
         },
         levelGroupId = 8308,
     },
+    [291022] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 0,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "",
+        fightingMode = 0,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 48,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 1,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-约会22",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291021,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-14 00:00:01",
+        },
+        name = 16000608,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 16000546,
+        otherPreCond = {
+            time = {
+                [1] = 1620975600,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 16000576,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790125,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 22,
+        victoryParam = {
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000565,
+        victoryType = {
+        },
+        id = 291022,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "",
+        datingID = {
+            [1] = 749045,
+        },
+        levelGroupId = 8311,
+    },
     [7062303] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -162910,6 +176284,166 @@ return {
         datingID = {
         },
         levelGroupId = 300002,
+    },
+    [291020] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8716,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗20",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510152,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94021,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62827,
+            [2] = 62828,
+            [3] = 62829,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291019,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-14 00:00:01",
+        },
+        name = 16000606,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790158,
+        unlockBrief = 16000544,
+        otherPreCond = {
+            time = {
+                [1] = 1620975600,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555013,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790123,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 20,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291020,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_002",
+        datingID = {
+        },
+        levelGroupId = 8311,
     },
     [291143] = {
         rewardMultiple = 0,
@@ -163076,6 +176610,325 @@ return {
         datingID = {
         },
         levelGroupId = 8308,
+    },
+    [291015] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 4,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8712,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗15-解锁挑战华伦1",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94018,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62816,
+            [2] = 62817,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291014,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-13 00:00:01",
+        },
+        name = 16000601,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790153,
+        unlockBrief = 16000539,
+        otherPreCond = {
+            time = {
+                [1] = 1620889200,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790118,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 15,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291015,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_003",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
+    [291014] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 4,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8711,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗14",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510152,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94018,
+            [2] = 94019,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62814,
+            [2] = 62815,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291013,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-13 00:00:01",
+        },
+        name = 16000600,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790152,
+        unlockBrief = 16000538,
+        otherPreCond = {
+            time = {
+                [1] = 1620889200,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790117,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 14,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291014,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_002",
+        datingID = {
+        },
+        levelGroupId = 8311,
     },
     [105322] = {
         rewardMultiple = 60810522,
@@ -163384,6 +177237,461 @@ return {
         },
         levelGroupId = 8308,
     },
+    [291012] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 0,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "",
+        fightingMode = 0,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 48,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 3,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-约会12",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291011,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-13 00:00:01",
+        },
+        name = 16000598,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 16000536,
+        otherPreCond = {
+            time = {
+                [1] = 1620889200,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510102,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 16000573,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790115,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 12,
+        victoryParam = {
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000562,
+        victoryType = {
+        },
+        id = 291012,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "",
+        datingID = {
+            [1] = 749042,
+        },
+        levelGroupId = 8311,
+    },
+    [291011] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 4,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8709,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗11",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94017,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62810,
+            [2] = 62811,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291010,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-13 00:00:01",
+        },
+        name = 16000597,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790149,
+        unlockBrief = 16000535,
+        otherPreCond = {
+            time = {
+                [1] = 1620889200,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790114,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 11,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291011,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_003",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
+    [291010] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 4,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8708,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗10",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510152,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94017,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62808,
+            [2] = 62809,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291111,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-13 00:00:01",
+        },
+        name = 16000596,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790148,
+        unlockBrief = 16000534,
+        otherPreCond = {
+            time = {
+                [1] = 1620889200,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555012,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790113,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 10,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291010,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_003",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
     [291145] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -163552,6 +177860,177 @@ return {
         datingID = {
         },
         levelGroupId = 8308,
+    },
+    [291008] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8706,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗8",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94014,
+            [2] = 94015,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62806,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291007,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-12 00:00:01",
+        },
+        name = 16000594,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790146,
+        unlockBrief = 16000532,
+        otherPreCond = {
+            time = {
+                [1] = 1620802800,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+            camp = {
+                [1] = 1,
+            },
+            isShow = 1,
+            topDes = 16000461,
+            affixList = {
+                [1] = 635,
+                [2] = 636,
+                [3] = 637,
+                [4] = 638,
+            },
+            isShowOnHero = 0,
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790111,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 8,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291008,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_003",
+        datingID = {
+        },
+        levelGroupId = 8311,
     },
     [111209] = {
         rewardMultiple = 60811109,
@@ -164139,6 +178618,143 @@ return {
         datingID = {
         },
         levelGroupId = 300002,
+    },
+    [291006] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 0,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "",
+        fightingMode = 0,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 48,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 1,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-约会6",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291005,
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-12 00:00:01",
+        },
+        name = 16000592,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 16000530,
+        otherPreCond = {
+            time = {
+                [1] = 1620802800,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 16000572,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790109,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 6,
+        victoryParam = {
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000561,
+        victoryType = {
+        },
+        id = 291006,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "",
+        datingID = {
+            [1] = 749041,
+        },
+        levelGroupId = 8311,
     },
     [920003] = {
         rewardMultiple = 0,
@@ -165235,6 +179851,164 @@ return {
         },
         levelGroupId = 9201,
     },
+    [291003] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_002.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 47,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 2,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 8702,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-战斗3",
+        difficulty = 1,
+        heroLimitType = 2,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+            [1] = {
+                [1] = 500004,
+                [2] = 6,
+            },
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+            [1] = 94014,
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 62802,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+            [1] = 291002,
+        },
+        picture = "",
+        isPlayBornAction = false,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-12 00:00:01",
+        },
+        name = 16000589,
+        limitDungeon = 1,
+        buyCost = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 63790141,
+        unlockBrief = 16000527,
+        otherPreCond = {
+            time = {
+                [1] = 1620802800,
+                [2] = 1622617199,
+            },
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510102,
+            [4] = 510152,
+            [5] = 210009,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 300816,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790106,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 3,
+        leaveDir = 0,
+        isPlayVictorAction = false,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 3,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 291003,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 100,
+        monsterAttr = {
+            offsetLevel = 0,
+            levelType = 1,
+        },
+        limitTargetType = {
+        },
+        levelScript = "70_9_001",
+        datingID = {
+        },
+        levelGroupId = 8311,
+    },
     [7062403] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -165870,6 +180644,138 @@ return {
         },
         levelGroupId = 110002,
     },
+    [291001] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 0,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "",
+        fightingMode = 0,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 48,
+        rewardIcon = 0,
+        levelName = "",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8311,
+        bossType = 0,
+        showStyle = 1,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "地错联动主线剧情-约会1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 99,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = true,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 2,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+            [1] = "2021-05-12 00:00:01",
+        },
+        name = 16000587,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+            [1] = 555010,
+            [2] = 555011,
+            [3] = 510152,
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+            [1] = 16000571,
+        },
+        useLinkAgeAttr = true,
+        firstReward = 63790104,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "",
+        victoryParam2 = {
+        },
+        num = 1,
+        victoryParam = {
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 16000560,
+        victoryType = {
+        },
+        id = 291001,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+        },
+        levelScript = "",
+        datingID = {
+            [1] = 749040,
+        },
+        levelGroupId = 8311,
+    },
     [291150] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -166035,6 +180941,276 @@ return {
         datingID = {
         },
         levelGroupId = 8308,
+    },
+    [2310203] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_102.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期伍爬塔9层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201025,
+            [2] = 201026,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011264,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310203,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala5_1",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310202] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期伍爬塔9层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201005,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011263,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100003,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310202,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [600601] = {
         rewardMultiple = 60700101,
@@ -168474,6 +183650,283 @@ return {
         },
         levelGroupId = 400001,
     },
+    [2310194] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔5层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201050,
+            [2] = 201050,
+            [3] = 201051,
+            [4] = 201052,
+            [5] = 201053,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011255,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310194,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310193] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_102.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔5层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201023,
+            [2] = 201024,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011254,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310193,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala5_1",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [7062503] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -168749,6 +184202,284 @@ return {
         },
         levelGroupId = 300002,
     },
+    [2310192] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔4层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201046,
+            [2] = 201046,
+            [3] = 201047,
+            [4] = 201048,
+            [5] = 201049,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011253,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310192,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310191] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_104.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔4层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201014,
+            [2] = 201015,
+            [3] = 201016,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011252,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310191,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_4_2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [291156] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -168879,6 +184610,411 @@ return {
             [1] = 10017,
         },
         levelGroupId = 8309,
+    },
+    [2310189] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔3层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201007,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011250,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310189,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310187] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔2层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201004,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011248,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100003,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310187,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310185] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "九期多队伍爬塔1层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201001,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011246,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100002,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310185,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [291157] = {
         rewardMultiple = 0,
@@ -169045,6 +185181,141 @@ return {
         datingID = {
         },
         levelGroupId = 8309,
+    },
+    [2310182] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期伍爬塔10层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201009,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011266,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310182,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [111212] = {
         rewardMultiple = 60811112,
@@ -169222,6 +185493,141 @@ return {
         },
         levelGroupId = 110002,
     },
+    [2310180] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_102.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期伍爬塔9层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201025,
+            [2] = 201026,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011264,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310180,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala5_1",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [291158] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -169352,6 +185758,277 @@ return {
             [1] = 10018,
         },
         levelGroupId = 8309,
+    },
+    [2310177] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_104.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期伍爬塔8层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201017,
+            [2] = 201018,
+            [3] = 201019,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011261,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310177,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_4_2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310176] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔8层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201008,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011260,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310176,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [7062304] = {
         rewardMultiple = 0,
@@ -169620,6 +186297,283 @@ return {
             [1] = 10019,
         },
         levelGroupId = 8309,
+    },
+    [2310174] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔7层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201002,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011258,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100002,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310174,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310173] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔6层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201054,
+            [2] = 201054,
+            [3] = 201055,
+            [4] = 201056,
+            [5] = 201057,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011257,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310173,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_DEM002",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [109421] = {
         rewardMultiple = 0,
@@ -169926,6 +186880,425 @@ return {
         },
         levelGroupId = 8309,
     },
+    [2310171] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔5层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201050,
+            [2] = 201050,
+            [3] = 201051,
+            [4] = 201052,
+            [5] = 201053,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011255,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310171,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310170] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_102.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔5层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201023,
+            [2] = 201024,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011254,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310170,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala5_1",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310169] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔4层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201046,
+            [2] = 201046,
+            [3] = 201047,
+            [4] = 201048,
+            [5] = 201049,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011253,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310169,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [291161] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -170056,6 +187429,148 @@ return {
             [1] = 10020,
         },
         levelGroupId = 8309,
+    },
+    [2310167] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔3层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201042,
+            [2] = 201042,
+            [3] = 201043,
+            [4] = 201044,
+            [5] = 201045,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011251,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310167,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_DEM002",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [111213] = {
         rewardMultiple = 60811113,
@@ -170233,6 +187748,141 @@ return {
         },
         levelGroupId = 110002,
     },
+    [2310166] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔3层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201007,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011250,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310166,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [7062101] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -170369,6 +188019,425 @@ return {
         datingID = {
         },
         levelGroupId = 300002,
+    },
+    [2310165] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔2层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201038,
+            [2] = 201038,
+            [3] = 201039,
+            [4] = 201040,
+            [5] = 201041,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011249,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310165,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310164] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔2层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201004,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011248,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100003,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310164,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310163] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "八期多队伍爬塔1层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201010,
+            [2] = 201010,
+            [3] = 201011,
+            [4] = 201012,
+            [5] = 201013,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011247,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310163,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_DEM002",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [291163] = {
         rewardMultiple = 0,
@@ -170701,6 +188770,142 @@ return {
         datingID = {
         },
         levelGroupId = 400001,
+    },
+    [2310160] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_104.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期伍爬塔10层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201020,
+            [2] = 201021,
+            [3] = 201022,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011267,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310160,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_4_2",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [109422] = {
         rewardMultiple = 60810922,
@@ -171175,6 +189380,148 @@ return {
         datingID = {
         },
         levelGroupId = 400001,
+    },
+    [2310158] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期伍爬塔9层-3",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201066,
+            [2] = 201066,
+            [3] = 201067,
+            [4] = 201068,
+            [5] = 201069,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011265,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310158,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [621104] = {
         rewardMultiple = 60700101,
@@ -172318,6 +190665,141 @@ return {
         },
         levelGroupId = 400001,
     },
+    [2310153] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔8层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201008,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011260,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310153,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [621108] = {
         rewardMultiple = 60700101,
         limitAttributesDescribe = "",
@@ -172648,6 +191130,283 @@ return {
         datingID = {
         },
         levelGroupId = 8309,
+    },
+    [2310151] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔7层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201002,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011258,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100002,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310151,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310150] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔6层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201054,
+            [2] = 201054,
+            [3] = 201055,
+            [4] = 201056,
+            [5] = 201057,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011257,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310150,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_DEM002",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [109423] = {
         rewardMultiple = 60810923,
@@ -173268,6 +192027,148 @@ return {
         },
         levelGroupId = 300002,
     },
+    [2310148] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔5层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201050,
+            [2] = 201050,
+            [3] = 201051,
+            [4] = 201052,
+            [5] = 201053,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011255,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310148,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [291169] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -173613,6 +192514,284 @@ return {
         },
         levelGroupId = 90006,
     },
+    [2310145] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_104.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔4层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201014,
+            [2] = 201015,
+            [3] = 201016,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011252,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310145,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_4_2",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310144] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔3层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201042,
+            [2] = 201042,
+            [3] = 201043,
+            [4] = 201044,
+            [5] = 201045,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011251,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310144,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_DEM002",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
     [291170] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
@@ -173779,6 +192958,418 @@ return {
         datingID = {
         },
         levelGroupId = 8309,
+    },
+    [2310142] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔2层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201038,
+            [2] = 201038,
+            [3] = 201039,
+            [4] = 201040,
+            [5] = 201041,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011249,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310142,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310141] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔2层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201004,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011248,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100003,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310141,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310139] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔1层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201001,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011246,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100002,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310139,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [430401] = {
         rewardMultiple = 60500003,
@@ -174067,6 +193658,142 @@ return {
         datingID = {
         },
         levelGroupId = 300002,
+    },
+    [2310137] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_104.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期伍爬塔10层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201020,
+            [2] = 201021,
+            [3] = 201022,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011267,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310137,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_4_2",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [109424] = {
         rewardMultiple = 60810924,
@@ -174397,33 +194124,31 @@ return {
         },
         levelGroupId = 0,
     },
-    [291184] = {
+    [2310136] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
-            [1] = 1,
-            [2] = 60,
-            [3] = 6,
         },
-        bgm = "sound/battle_004.mp3",
+        bgm = "sound/battle_105.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 1,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8310,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -174431,51 +194156,32 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8789,
+        levelStepID = 0,
         quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
         },
-        dungeonName = "园神剧场-困难10-dem大楼内",
+        dungeonName = "六期伍爬塔10层-1",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510153,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300804,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 12,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
-        isQuickBattle = true,
-        fightCount = 3,
+        isQuickBattle = false,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 63099,
+            [1] = 201009,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -174484,42 +194190,29 @@ return {
         },
         isHideTarget  = false,
         preLevelId = {
-            [1] = 291183,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 50,
-        isBuy = true,
+        playerLv = 20,
+        isBuy = false,
         starType = {
-            [1] = 24,
-            [2] = 2,
-            [3] = 33,
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011266,
         limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790651,
+        reward = 0,
         unlockBrief = 0,
         otherPreCond = {
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510103,
-            [4] = 510153,
-            [5] = 220009,
         },
         levelAffix = {
         },
@@ -174527,21 +194220,22 @@ return {
         starDescribe = {
         },
         useLinkAgeAttr = false,
-        firstReward = 63790602,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 100004,
+                [2] = 1,
             },
         },
         damageMonsterType = {
@@ -174549,48 +194243,47 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 3,
         },
-        id = 291184,
+        id = 2310136,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "juchang_yuanshen_009",
+        levelScript = "21_kabala_7",
         datingID = {
         },
-        levelGroupId = 8310,
+        levelGroupId = 8203,
     },
-    [291183] = {
+    [2310135] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
-            [1] = 6,
-            [2] = 10,
-            [3] = 1,
         },
-        bgm = "sound/battle_004.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 1,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8310,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -174598,51 +194291,36 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8788,
+        levelStepID = 112104,
         quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
         },
-        dungeonName = "园神剧场-困难9-dem大楼外",
+        dungeonName = "六期伍爬塔9层-3",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510153,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 12,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
-        isQuickBattle = true,
-        fightCount = 3,
+        isQuickBattle = false,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 63098,
+            [1] = 201066,
+            [2] = 201066,
+            [3] = 201067,
+            [4] = 201068,
+            [5] = 201069,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -174651,42 +194329,33 @@ return {
         },
         isHideTarget  = false,
         preLevelId = {
-            [1] = 291182,
         },
         picture = "",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 50,
-        isBuy = true,
+        playerLv = 20,
+        isBuy = false,
         starType = {
-            [1] = 33,
-            [2] = 6,
-            [3] = 24,
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011265,
         limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790650,
+        reward = 0,
         unlockBrief = 0,
         otherPreCond = {
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510103,
-            [4] = 510153,
-            [5] = 220009,
         },
         levelAffix = {
         },
@@ -174694,21 +194363,21 @@ return {
         starDescribe = {
         },
         useLinkAgeAttr = false,
-        firstReward = 63790601,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -174716,20 +194385,163 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291183,
+        id = 2310135,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "juchang_yuanshen_007",
+        levelScript = "2_tiantai",
         datingID = {
         },
-        levelGroupId = 8310,
+        levelGroupId = 8203,
+    },
+    [2310129] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔7层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201058,
+            [2] = 201058,
+            [3] = 201059,
+            [4] = 201060,
+            [5] = 201061,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011259,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310129,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [430403] = {
         rewardMultiple = 60500003,
@@ -175060,33 +194872,31 @@ return {
         },
         levelGroupId = 90006,
     },
-    [291182] = {
+    [2310128] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
-            [1] = 10,
-            [2] = 15,
-            [3] = 60,
         },
-        bgm = "sound/battle_004.mp3",
+        bgm = "sound/battle_105.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 1,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8310,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -175094,51 +194904,32 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8787,
+        levelStepID = 0,
         quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
         },
-        dungeonName = "园神剧场-困难8-世界核心",
+        dungeonName = "六期多队伍爬塔7层-1",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510153,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300804,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 12,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
-        isQuickBattle = true,
-        fightCount = 3,
+        isQuickBattle = false,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 63097,
+            [1] = 201002,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -175147,42 +194938,29 @@ return {
         },
         isHideTarget  = false,
         preLevelId = {
-            [1] = 291181,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 50,
-        isBuy = true,
+        playerLv = 20,
+        isBuy = false,
         starType = {
-            [1] = 6,
-            [2] = 13,
-            [3] = 2,
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011258,
         limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790649,
+        reward = 0,
         unlockBrief = 0,
         otherPreCond = {
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510103,
-            [4] = 510153,
-            [5] = 220009,
         },
         levelAffix = {
         },
@@ -175190,21 +194968,22 @@ return {
         starDescribe = {
         },
         useLinkAgeAttr = false,
-        firstReward = 63790600,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 100002,
+                [2] = 1,
             },
         },
         damageMonsterType = {
@@ -175212,20 +194991,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 3,
         },
-        id = 291182,
+        id = 2310128,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "juchang_yuanshen_010",
+        levelScript = "21_kabala_7",
         datingID = {
         },
-        levelGroupId = 8310,
+        levelGroupId = 8203,
     },
     [210627] = {
         rewardMultiple = 60821027,
@@ -175556,33 +195336,31 @@ return {
         },
         levelGroupId = 0,
     },
-    [291181] = {
+    [2310127] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
-            [1] = 50,
-            [2] = 10,
-            [3] = 7,
         },
-        bgm = "sound/battle_004.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 1,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8310,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -175590,53 +195368,36 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8786,
+        levelStepID = 112103,
         quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
         },
-        dungeonName = "园神剧场-困难7-天宫塔",
+        dungeonName = "六期多队伍爬塔6层-2",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510153,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 12,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
-        isQuickBattle = true,
-        fightCount = 3,
+        isQuickBattle = false,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 63094,
-            [2] = 63095,
-            [3] = 63096,
+            [1] = 201054,
+            [2] = 201054,
+            [3] = 201055,
+            [4] = 201056,
+            [5] = 201057,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -175645,42 +195406,33 @@ return {
         },
         isHideTarget  = false,
         preLevelId = {
-            [1] = 291180,
         },
         picture = "",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 50,
-        isBuy = true,
+        playerLv = 20,
+        isBuy = false,
         starType = {
-            [1] = 4,
-            [2] = 6,
-            [3] = 7,
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011257,
         limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790648,
+        reward = 0,
         unlockBrief = 0,
         otherPreCond = {
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510103,
-            [4] = 510153,
-            [5] = 220009,
         },
         levelAffix = {
         },
@@ -175688,21 +195440,21 @@ return {
         starDescribe = {
         },
         useLinkAgeAttr = false,
-        firstReward = 63790599,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -175710,20 +195462,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291181,
+        id = 2310127,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "juchang_yuanshen_008",
+        levelScript = "2_DEM002",
         datingID = {
         },
-        levelGroupId = 8310,
+        levelGroupId = 8203,
     },
     [7062301] = {
         rewardMultiple = 0,
@@ -176331,33 +196084,31 @@ return {
         },
         levelGroupId = 90006,
     },
-    [291180] = {
+    [2310125] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
-            [1] = 1,
-            [2] = 6,
-            [3] = 120,
         },
-        bgm = "sound/battle_004.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 1,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8310,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -176365,53 +196116,36 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8785,
+        levelStepID = 112104,
         quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
         },
-        dungeonName = "园神剧场-困难6-天宫塔",
+        dungeonName = "六期多队伍爬塔5层-2",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510153,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 12,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
-        isQuickBattle = true,
-        fightCount = 3,
+        isQuickBattle = false,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 63091,
-            [2] = 63092,
-            [3] = 63093,
+            [1] = 201050,
+            [2] = 201050,
+            [3] = 201051,
+            [4] = 201052,
+            [5] = 201053,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -176420,42 +196154,33 @@ return {
         },
         isHideTarget  = false,
         preLevelId = {
-            [1] = 291179,
         },
         picture = "",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 50,
-        isBuy = true,
+        playerLv = 20,
+        isBuy = false,
         starType = {
-            [1] = 5,
-            [2] = 33,
-            [3] = 3,
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011255,
         limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790647,
+        reward = 0,
         unlockBrief = 0,
         otherPreCond = {
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510103,
-            [4] = 510153,
-            [5] = 220009,
         },
         levelAffix = {
         },
@@ -176463,21 +196188,21 @@ return {
         starDescribe = {
         },
         useLinkAgeAttr = false,
-        firstReward = 63790598,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -176485,20 +196210,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291180,
+        id = 2310125,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "juchang_yuanshen_008",
+        levelScript = "2_tiantai",
         datingID = {
         },
-        levelGroupId = 8310,
+        levelGroupId = 8203,
     },
     [109425] = {
         rewardMultiple = 60810925,
@@ -176829,11 +196555,12 @@ return {
         },
         levelGroupId = 0,
     },
-    [291179] = {
+    [2310124] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
         victoryTypeDescribeForOpening = 300816,
@@ -176841,21 +196568,18 @@ return {
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
-            [1] = 7,
-            [2] = 10,
-            [3] = 50,
         },
-        bgm = "sound/battle_004.mp3",
+        bgm = "sound/battle_102.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 1,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8310,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -176863,53 +196587,33 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8784,
+        levelStepID = 0,
         quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
         },
-        dungeonName = "园神剧场-困难5-神社",
+        dungeonName = "六期多队伍爬塔5层-1",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510153,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
             [1] = 300801,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 12,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
-        isQuickBattle = true,
-        fightCount = 3,
+        isQuickBattle = false,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 63088,
-            [2] = 63089,
-            [3] = 63090,
+            [1] = 201023,
+            [2] = 201024,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -176918,42 +196622,29 @@ return {
         },
         isHideTarget  = false,
         preLevelId = {
-            [1] = 291178,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 50,
-        isBuy = true,
+        playerLv = 20,
+        isBuy = false,
         starType = {
-            [1] = 7,
-            [2] = 6,
-            [3] = 4,
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011254,
         limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790646,
+        reward = 0,
         unlockBrief = 0,
         otherPreCond = {
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510103,
-            [4] = 510153,
-            [5] = 220009,
         },
         levelAffix = {
         },
@@ -176961,18 +196652,18 @@ return {
         starDescribe = {
         },
         useLinkAgeAttr = false,
-        firstReward = 63790597,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
             [1] = {
                 [1] = 1,
@@ -176985,46 +196676,45 @@ return {
         victoryType = {
             [1] = 1,
         },
-        id = 291179,
+        id = 2310124,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "juchang_yuanshen_011",
+        levelScript = "21_kabala5_1",
         datingID = {
         },
-        levelGroupId = 8310,
+        levelGroupId = 8203,
     },
-    [291178] = {
+    [2310123] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
-            [1] = 15,
-            [2] = 1,
-            [3] = 60,
         },
-        bgm = "sound/battle_004.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 1,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8310,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -177032,53 +196722,36 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8783,
+        levelStepID = 112104,
         quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
         },
-        dungeonName = "园神剧场-困难4-剧院街道",
+        dungeonName = "六期多队伍爬塔4层-2",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510153,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 12,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
-        isQuickBattle = true,
-        fightCount = 3,
+        isQuickBattle = false,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 63085,
-            [2] = 63086,
-            [3] = 63087,
+            [1] = 201046,
+            [2] = 201046,
+            [3] = 201047,
+            [4] = 201048,
+            [5] = 201049,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -177087,42 +196760,33 @@ return {
         },
         isHideTarget  = false,
         preLevelId = {
-            [1] = 291177,
         },
         picture = "",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 50,
-        isBuy = true,
+        playerLv = 20,
+        isBuy = false,
         starType = {
-            [1] = 13,
-            [2] = 24,
-            [3] = 2,
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011253,
         limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790645,
+        reward = 0,
         unlockBrief = 0,
         otherPreCond = {
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510103,
-            [4] = 510153,
-            [5] = 220009,
         },
         levelAffix = {
         },
@@ -177130,21 +196794,21 @@ return {
         starDescribe = {
         },
         useLinkAgeAttr = false,
-        firstReward = 63790596,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -177152,146 +196816,119 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291178,
+        id = 2310123,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
-        },
-        levelScript = "juchang_yuanshen_005",
-        datingID = {
-        },
-        levelGroupId = 8310,
-    },
-    [291177] = {
-        rewardMultiple = 0,
-        limitAttributesDescribe = "",
-        isPlayOncePlot  = false,
-        limitAttributes = {
-        },
-        minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
-        isDuelMod = false,
-        weaknessLevelDescribe = 0,
-        isbirthType = 0,
-        starParam = {
-            [1] = 120,
-            [2] = 7,
-            [3] = 10,
-        },
-        bgm = "sound/battle_004.mp3",
-        fightingMode = 1,
-        duelModSkills = 0,
-        duelModCost = {
-        },
-        dungeonType = 1,
-        rewardIcon = 0,
-        levelName = "",
-        lastOne = false,
-        countOpen = false,
-        levelGroupServerID = 8310,
-        bossType = 0,
-        showStyle = 0,
-        previewPicture = "",
-        teamType = 0,
-        warningTime = false,
-        affixSection = {
-        },
-        levelStepID = 8782,
-        quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
-        },
-        dungeonName = "园神剧场-困难3-学校外街道",
-        difficulty = 1,
-        heroLimitType = 0,
-        heroForbiddenID = {
-        },
-        firstDropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510153,
-        },
-        roleSize = 0.6,
-        victoryTypeDescribe = {
-            [1] = 300801,
-        },
-        cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 12,
-            },
-        },
-        cameraAmendX = {
-        },
-        heroLimitID = {
-        },
-        isQuickBattle = true,
-        fightCount = 3,
-        debutDir = 0,
-        simpleName = "",
-        monsterGroupId = {
-            [1] = 63082,
-            [2] = 63083,
-            [3] = 63084,
-        },
-        delayCreateTime = 0,
-        dailyLevelReward = {
-        },
-        rythem = {
-        },
-        isHideTarget  = false,
-        preLevelId = {
-            [1] = 291176,
-        },
-        picture = "",
-        isPlayBornAction = true,
-        ifReturn = false,
-        playerLv = 50,
-        isBuy = true,
-        starType = {
             [1] = 3,
-            [2] = 7,
-            [3] = 6,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310121] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112103,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔3层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201042,
+            [2] = 201042,
+            [3] = 201043,
+            [4] = 201044,
+            [5] = 201045,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011251,
         limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790644,
+        reward = 0,
         unlockBrief = 0,
         otherPreCond = {
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510103,
-            [4] = 510153,
-            [5] = 220009,
         },
         levelAffix = {
         },
@@ -177299,21 +196936,21 @@ return {
         starDescribe = {
         },
         useLinkAgeAttr = false,
-        firstReward = 63790595,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -177321,20 +196958,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291177,
+        id = 2310121,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "juchang_yuanshen_006",
+        levelScript = "2_DEM002",
         datingID = {
         },
-        levelGroupId = 8310,
+        levelGroupId = 8203,
     },
     [430407] = {
         rewardMultiple = 60500003,
@@ -178118,368 +197756,31 @@ return {
         },
         levelGroupId = 300002,
     },
-    [291176] = {
+    [2310120] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
-            [1] = 1,
-            [2] = 7,
-            [3] = 120,
         },
-        bgm = "sound/battle_004.mp3",
+        bgm = "sound/battle_105.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 1,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8310,
-        bossType = 0,
-        showStyle = 0,
-        previewPicture = "",
-        teamType = 0,
-        warningTime = false,
-        affixSection = {
-        },
-        levelStepID = 8781,
-        quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
-        },
-        dungeonName = "园神剧场-困难2-河边街道",
-        difficulty = 1,
-        heroLimitType = 0,
-        heroForbiddenID = {
-        },
-        firstDropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510153,
-        },
-        roleSize = 0.6,
-        victoryTypeDescribe = {
-            [1] = 300801,
-        },
-        cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 12,
-            },
-        },
-        cameraAmendX = {
-        },
-        heroLimitID = {
-        },
-        isQuickBattle = true,
-        fightCount = 3,
-        debutDir = 0,
-        simpleName = "",
-        monsterGroupId = {
-            [1] = 63079,
-            [2] = 63080,
-            [3] = 63081,
-        },
-        delayCreateTime = 0,
-        dailyLevelReward = {
-        },
-        rythem = {
-        },
-        isHideTarget  = false,
-        preLevelId = {
-            [1] = 291175,
-        },
-        picture = "",
-        isPlayBornAction = true,
-        ifReturn = false,
-        playerLv = 50,
-        isBuy = true,
-        starType = {
-            [1] = 5,
-            [2] = 7,
-            [3] = 3,
-        },
-        enterConditon = {
-        },
-        name = 0,
-        limitDungeon = 0,
-        buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
-        },
-        positionOrder = {
-        },
-        gateEffect = "",
-        reward = 63790643,
-        unlockBrief = 0,
-        otherPreCond = {
-        },
-        intendPicture = "",
-        dropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510103,
-            [4] = 510153,
-            [5] = 220009,
-        },
-        levelAffix = {
-        },
-        isFree = false,
-        starDescribe = {
-        },
-        useLinkAgeAttr = false,
-        firstReward = 63790594,
-        affixNumber = 0,
-        time = 300,
-        rewardShow = {
-        },
-        buyLimit = 3,
-        leaveDir = 0,
-        isPlayVictorAction = true,
-        icon = "",
-        victoryParam2 = {
-        },
-        num = 7,
-        victoryParam = {
-            [1] = {
-                [1] = 1,
-            },
-        },
-        damageMonsterType = {
-        },
-        preDialog = 0,
-        plotBrief = 0,
-        victoryType = {
-            [1] = 1,
-        },
-        id = 291176,
-        previewVideo = 0,
-        debutDistance = 0,
-        cameraAmend = 100,
-        monsterAttr = {
-        },
-        limitTargetType = {
-        },
-        levelScript = "juchang_yuanshen_004",
-        datingID = {
-        },
-        levelGroupId = 8310,
-    },
-    [291175] = {
-        rewardMultiple = 0,
-        limitAttributesDescribe = "",
-        isPlayOncePlot  = false,
-        limitAttributes = {
-        },
-        minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
-        isDuelMod = false,
-        weaknessLevelDescribe = 0,
-        isbirthType = 0,
-        starParam = {
-            [1] = 15,
-            [2] = 6,
-            [3] = 50,
-        },
-        bgm = "sound/battle_004.mp3",
-        fightingMode = 1,
-        duelModSkills = 0,
-        duelModCost = {
-        },
-        dungeonType = 1,
-        rewardIcon = 0,
-        levelName = "",
-        lastOne = false,
-        countOpen = false,
-        levelGroupServerID = 8310,
-        bossType = 0,
-        showStyle = 0,
-        previewPicture = "",
-        teamType = 0,
-        warningTime = false,
-        affixSection = {
-        },
-        levelStepID = 8780,
-        quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
-        },
-        dungeonName = "园神剧场-困难1-市中心街道",
-        difficulty = 1,
-        heroLimitType = 0,
-        heroForbiddenID = {
-        },
-        firstDropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510153,
-        },
-        roleSize = 0.6,
-        victoryTypeDescribe = {
-            [1] = 300801,
-        },
-        cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 12,
-            },
-        },
-        cameraAmendX = {
-        },
-        heroLimitID = {
-        },
-        isQuickBattle = true,
-        fightCount = 3,
-        debutDir = 0,
-        simpleName = "",
-        monsterGroupId = {
-            [1] = 63076,
-            [2] = 63077,
-            [3] = 63078,
-        },
-        delayCreateTime = 0,
-        dailyLevelReward = {
-        },
-        rythem = {
-        },
-        isHideTarget  = false,
-        preLevelId = {
-            [1] = 291174,
-        },
-        picture = "",
-        isPlayBornAction = true,
-        ifReturn = false,
-        playerLv = 50,
-        isBuy = true,
-        starType = {
-            [1] = 13,
-            [2] = 33,
-            [3] = 4,
-        },
-        enterConditon = {
-        },
-        name = 0,
-        limitDungeon = 0,
-        buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
-        },
-        positionOrder = {
-        },
-        gateEffect = "",
-        reward = 63790642,
-        unlockBrief = 0,
-        otherPreCond = {
-        },
-        intendPicture = "",
-        dropShow = {
-            [1] = 555010,
-            [2] = 555014,
-            [3] = 510103,
-            [4] = 510153,
-            [5] = 220009,
-        },
-        levelAffix = {
-        },
-        isFree = false,
-        starDescribe = {
-        },
-        useLinkAgeAttr = false,
-        firstReward = 63790593,
-        affixNumber = 0,
-        time = 300,
-        rewardShow = {
-        },
-        buyLimit = 3,
-        leaveDir = 0,
-        isPlayVictorAction = true,
-        icon = "",
-        victoryParam2 = {
-        },
-        num = 7,
-        victoryParam = {
-            [1] = {
-                [1] = 1,
-            },
-        },
-        damageMonsterType = {
-        },
-        preDialog = 0,
-        plotBrief = 0,
-        victoryType = {
-            [1] = 1,
-        },
-        id = 291175,
-        previewVideo = 0,
-        debutDistance = 0,
-        cameraAmend = 100,
-        monsterAttr = {
-        },
-        limitTargetType = {
-        },
-        levelScript = "juchang_yuanshen_001",
-        datingID = {
-        },
-        levelGroupId = 8310,
-    },
-    [291174] = {
-        rewardMultiple = 0,
-        limitAttributesDescribe = "",
-        isPlayOncePlot  = false,
-        limitAttributes = {
-        },
-        minipack = 0,
-        victoryTypeDescribeForOpening = 0,
-        isDuelMod = false,
-        weaknessLevelDescribe = 0,
-        isbirthType = 0,
-        starParam = {
-        },
-        bgm = "sound/battle_011.mp3",
-        fightingMode = 0,
-        duelModSkills = 0,
-        duelModCost = {
-        },
-        dungeonType = 9,
-        rewardIcon = 0,
-        levelName = "",
-        lastOne = false,
-        countOpen = false,
-        levelGroupServerID = 8309,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -178490,15 +197791,16 @@ return {
         levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "园神剧场-编号39-章节2-关卡18-真实的幸福-约会",
-        difficulty = 0,
+        dungeonName = "六期多队伍爬塔3层-1",
+        difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
         },
-        roleSize = 0,
+        roleSize = 0.6,
         victoryTypeDescribe = {
+            [1] = 300804,
         },
         cost = {
         },
@@ -178507,10 +197809,11 @@ return {
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 0,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
+            [1] = 201007,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -178519,18 +197822,17 @@ return {
         },
         isHideTarget  = false,
         preLevelId = {
-            [1] = 291172,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 50,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011250,
         limitDungeon = 0,
         buyCost = {
         },
@@ -178541,11 +197843,8 @@ return {
         unlockBrief = 0,
         otherPreCond = {
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 220009,
         },
         levelAffix = {
         },
@@ -178555,37 +197854,319 @@ return {
         useLinkAgeAttr = false,
         firstReward = 0,
         affixNumber = 0,
-        time = 0,
+        time = 300,
         rewardShow = {
         },
         buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000760,
+        plotBrief = 0,
         victoryType = {
+            [1] = 3,
         },
-        id = 291174,
+        id = 2310120,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310119] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔2层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201038,
+            [2] = 201038,
+            [3] = 201039,
+            [4] = 201040,
+            [5] = 201041,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011249,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310119,
         previewVideo = 0,
         debutDistance = 0,
         cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "",
+        levelScript = "2_tiantai",
         datingID = {
-            [1] = 10024,
         },
-        levelGroupId = 8309,
+        levelGroupId = 8203,
+    },
+    [2310118] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300819,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "六期多队伍爬塔2层-1",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300804,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201004,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011248,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 100003,
+                [2] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 3,
+        },
+        id = 2310118,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala_7",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [430409] = {
         rewardMultiple = 60500003,
@@ -178738,30 +198319,31 @@ return {
         },
         levelGroupId = 0,
     },
-    [291173] = {
+    [2310117] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 0,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_011.mp3",
-        fightingMode = 0,
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 9,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8309,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -178769,18 +198351,19 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 0,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
-        dungeonName = "园神剧场-编号38-章节2-关卡17-又见面了呢-约会",
-        difficulty = 0,
+        dungeonName = "六期多队伍爬塔1层-2",
+        difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
         },
-        roleSize = 0,
+        roleSize = 0.6,
         victoryTypeDescribe = {
+            [1] = 300809,
         },
         cost = {
         },
@@ -178789,10 +198372,15 @@ return {
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 0,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
+            [1] = 201010,
+            [2] = 201010,
+            [3] = 201011,
+            [4] = 201012,
+            [5] = 201013,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -178801,22 +198389,25 @@ return {
         },
         isHideTarget  = false,
         preLevelId = {
-            [1] = 291172,
         },
         picture = "",
-        isPlayBornAction = false,
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 50,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011247,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
         reward = 0,
@@ -178825,9 +198416,6 @@ return {
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
         },
         levelAffix = {
         },
@@ -178837,62 +198425,67 @@ return {
         useLinkAgeAttr = false,
         firstReward = 0,
         affixNumber = 0,
-        time = 0,
+        time = 300,
         rewardShow = {
         },
         buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000759,
+        plotBrief = 0,
         victoryType = {
+            [1] = 7,
         },
-        id = 291173,
+        id = 2310117,
         previewVideo = 0,
         debutDistance = 0,
         cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "",
+        levelScript = "2_DEM002",
         datingID = {
-            [1] = 10023,
         },
-        levelGroupId = 8309,
+        levelGroupId = 8203,
     },
-    [291172] = {
+    [2310116] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 0,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_011.mp3",
-        fightingMode = 0,
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 9,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8309,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -178903,15 +198496,16 @@ return {
         levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "园神剧场-编号37-章节2-关卡16-凛祢的心愿-约会",
-        difficulty = 0,
+        dungeonName = "六期多队伍爬塔1层-1",
+        difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
         },
-        roleSize = 0,
+        roleSize = 0.6,
         victoryTypeDescribe = {
+            [1] = 300804,
         },
         cost = {
         },
@@ -178920,10 +198514,11 @@ return {
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 0,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
+            [1] = 201001,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -178932,18 +198527,17 @@ return {
         },
         isHideTarget  = false,
         preLevelId = {
-            [1] = 291171,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 50,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011246,
         limitDungeon = 0,
         buyCost = {
         },
@@ -178954,11 +198548,8 @@ return {
         unlockBrief = 0,
         otherPreCond = {
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510152,
         },
         levelAffix = {
         },
@@ -178968,37 +198559,42 @@ return {
         useLinkAgeAttr = false,
         firstReward = 0,
         affixNumber = 0,
-        time = 0,
+        time = 300,
         rewardShow = {
         },
         buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
+            [1] = {
+                [1] = 100002,
+                [2] = 1,
+            },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000758,
+        plotBrief = 0,
         victoryType = {
+            [1] = 3,
         },
-        id = 291172,
+        id = 2310116,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 0,
+        cameraAmend = 150,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "",
+        levelScript = "21_kabala_7",
         datingID = {
-            [1] = 10022,
         },
-        levelGroupId = 8309,
+        levelGroupId = 8203,
     },
     [109426] = {
         rewardMultiple = 60810926,
@@ -179330,11 +198926,12 @@ return {
         },
         levelGroupId = 0,
     },
-    [291171] = {
+    [2310115] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
         victoryTypeDescribeForOpening = 300816,
@@ -179342,21 +198939,18 @@ return {
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
-            [1] = 1,
-            [2] = 11,
-            [3] = 120,
         },
-        bgm = "sound/battle_014.mp3",
+        bgm = "sound/battle_103.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 1,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8309,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -179364,53 +198958,34 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8779,
+        levelStepID = 0,
         quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
         },
-        dungeonName = "园神剧场-编号36-章节2-关卡15-心事-Dem大楼外",
+        dungeonName = "五期伍爬塔10层-3",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 220009,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
             [1] = 300801,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
-        isQuickBattle = true,
-        fightCount = 99,
+        isQuickBattle = false,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 63073,
-            [2] = 63074,
-            [3] = 63075,
+            [1] = 201032,
+            [2] = 201033,
+            [3] = 201034,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -179419,38 +198994,29 @@ return {
         },
         isHideTarget  = false,
         preLevelId = {
-            [1] = 291170,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 50,
+        playerLv = 20,
         isBuy = false,
         starType = {
-            [1] = 5,
-            [2] = 6,
-            [3] = 3,
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011268,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790638,
+        reward = 0,
         unlockBrief = 0,
         otherPreCond = {
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
@@ -179458,7 +199024,7 @@ return {
         starDescribe = {
         },
         useLinkAgeAttr = false,
-        firstReward = 63790589,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -179466,10 +199032,10 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
             [1] = {
                 [1] = 1,
@@ -179482,46 +199048,45 @@ return {
         victoryType = {
             [1] = 1,
         },
-        id = 291171,
+        id = 2310115,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "juchang_yuanshen_007",
+        levelScript = "6_11boss2",
         datingID = {
         },
-        levelGroupId = 8309,
+        levelGroupId = 8203,
     },
-    [291165] = {
+    [2310114] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
-            [1] = 1,
-            [2] = 11,
-            [3] = 1,
         },
-        bgm = "sound/battle_014.mp3",
+        bgm = "sound/battle_104.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 1,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8309,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -179529,54 +199094,34 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8773,
+        levelStepID = 0,
         quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
         },
-        dungeonName = "园神剧场-编号30-章节2-关卡9-地陷-游乐园",
+        dungeonName = "五期伍爬塔10层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 220009,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
             [1] = 300801,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94038,
         },
-        isQuickBattle = true,
-        fightCount = 99,
+        isQuickBattle = false,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 63055,
-            [2] = 63056,
-            [3] = 63057,
+            [1] = 201020,
+            [2] = 201021,
+            [3] = 201022,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -179585,38 +199130,29 @@ return {
         },
         isHideTarget  = false,
         preLevelId = {
-            [1] = 291161,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 50,
+        playerLv = 20,
         isBuy = false,
         starType = {
-            [1] = 5,
-            [2] = 6,
-            [3] = 24,
         },
         enterConditon = {
         },
-        name = 0,
+        name = 15011267,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790632,
+        reward = 0,
         unlockBrief = 0,
         otherPreCond = {
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
@@ -179624,7 +199160,7 @@ return {
         starDescribe = {
         },
         useLinkAgeAttr = false,
-        firstReward = 63790583,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -179632,10 +199168,10 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 7,
+        num = 0,
         victoryParam = {
             [1] = {
                 [1] = 1,
@@ -179648,18 +199184,19 @@ return {
         victoryType = {
             [1] = 1,
         },
-        id = 291165,
+        id = 2310114,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "juchang_yuanshen_003",
+        levelScript = "21_kabala_4_2",
         datingID = {
         },
-        levelGroupId = 8309,
+        levelGroupId = 8203,
     },
     [7062401] = {
         rewardMultiple = 0,
@@ -179935,33 +199472,31 @@ return {
         },
         levelGroupId = 300002,
     },
-    [291162] = {
+    [2310113] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
-            [1] = 40,
-            [2] = 7,
-            [3] = 6,
         },
-        bgm = "sound/battle_014.mp3",
+        bgm = "sound/battle_105.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 1,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8309,
+        levelGroupServerID = 8204,
         bossType = 0,
         showStyle = 0,
         previewPicture = "",
@@ -179969,365 +199504,32 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8771,
+        levelStepID = 0,
         quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
         },
-        dungeonName = "园神剧场-编号27-章节2-关卡6-ruler-世界核心",
-        difficulty = 1,
-        heroLimitType = 2,
-        heroForbiddenID = {
-        },
-        firstDropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 220009,
-        },
-        roleSize = 0.6,
-        victoryTypeDescribe = {
-            [1] = 300801,
-        },
-        cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
-        },
-        cameraAmendX = {
-        },
-        heroLimitID = {
-            [1] = 94042,
-            [2] = 94043,
-        },
-        isQuickBattle = true,
-        fightCount = 99,
-        debutDir = 0,
-        simpleName = "",
-        monsterGroupId = {
-            [1] = 63049,
-            [2] = 63050,
-            [3] = 63051,
-        },
-        delayCreateTime = 0,
-        dailyLevelReward = {
-        },
-        rythem = {
-        },
-        isHideTarget  = false,
-        preLevelId = {
-            [1] = 291161,
-        },
-        picture = "",
-        isPlayBornAction = true,
-        ifReturn = false,
-        playerLv = 50,
-        isBuy = false,
-        starType = {
-            [1] = 4,
-            [2] = 33,
-            [3] = 7,
-        },
-        enterConditon = {
-        },
-        name = 0,
-        limitDungeon = 0,
-        buyCost = {
-        },
-        positionOrder = {
-        },
-        gateEffect = "",
-        reward = 63790629,
-        unlockBrief = 0,
-        otherPreCond = {
-        },
-        intendPicture = "",
-        dropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
-        },
-        levelAffix = {
-        },
-        isFree = false,
-        starDescribe = {
-        },
-        useLinkAgeAttr = false,
-        firstReward = 63790580,
-        affixNumber = 0,
-        time = 300,
-        rewardShow = {
-        },
-        buyLimit = 0,
-        leaveDir = 0,
-        isPlayVictorAction = true,
-        icon = "",
-        victoryParam2 = {
-        },
-        num = 7,
-        victoryParam = {
-            [1] = {
-                [1] = 1,
-            },
-        },
-        damageMonsterType = {
-        },
-        preDialog = 0,
-        plotBrief = 0,
-        victoryType = {
-            [1] = 1,
-        },
-        id = 291162,
-        previewVideo = 0,
-        debutDistance = 0,
-        cameraAmend = 100,
-        monsterAttr = {
-        },
-        limitTargetType = {
-        },
-        levelScript = "juchang_yuanshen_010",
-        datingID = {
-        },
-        levelGroupId = 8309,
-    },
-    [291155] = {
-        rewardMultiple = 0,
-        limitAttributesDescribe = "",
-        isPlayOncePlot  = false,
-        limitAttributes = {
-        },
-        minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
-        isDuelMod = false,
-        weaknessLevelDescribe = 0,
-        isbirthType = 0,
-        starParam = {
-            [1] = 7,
-            [2] = 150,
-            [3] = 13,
-        },
-        bgm = "sound/battle_014.mp3",
-        fightingMode = 1,
-        duelModSkills = 0,
-        duelModCost = {
-        },
-        dungeonType = 1,
-        rewardIcon = 0,
-        levelName = "",
-        lastOne = false,
-        countOpen = false,
-        levelGroupServerID = 8308,
-        bossType = 0,
-        showStyle = 0,
-        previewPicture = "",
-        teamType = 0,
-        warningTime = false,
-        affixSection = {
-        },
-        levelStepID = 8768,
-        quickBattleParameter = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 3,
-            },
-        },
-        dungeonName = "园神剧场-编号20-章节1-关卡20-逃离-世界核心",
+        dungeonName = "五期伍爬塔10层-1",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300804,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
-        },
-        cameraAmendX = {
-        },
-        heroLimitID = {
-        },
-        isQuickBattle = true,
-        fightCount = 99,
-        debutDir = 0,
-        simpleName = "",
-        monsterGroupId = {
-            [1] = 63040,
-            [2] = 63041,
-            [3] = 63042,
-        },
-        delayCreateTime = 0,
-        dailyLevelReward = {
-        },
-        rythem = {
-        },
-        isHideTarget  = false,
-        preLevelId = {
-            [1] = 291154,
-        },
-        picture = "",
-        isPlayBornAction = true,
-        ifReturn = false,
-        playerLv = 50,
-        isBuy = false,
-        starType = {
-            [1] = 7,
-            [2] = 3,
-            [3] = 6,
-        },
-        enterConditon = {
-        },
-        name = 0,
-        limitDungeon = 0,
-        buyCost = {
-        },
-        positionOrder = {
-        },
-        gateEffect = "",
-        reward = 63790622,
-        unlockBrief = 0,
-        otherPreCond = {
-        },
-        intendPicture = "",
-        dropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
-        },
-        levelAffix = {
-        },
-        isFree = false,
-        starDescribe = {
-        },
-        useLinkAgeAttr = false,
-        firstReward = 63790573,
-        affixNumber = 0,
-        time = 300,
-        rewardShow = {
-        },
-        buyLimit = 0,
-        leaveDir = 0,
-        isPlayVictorAction = true,
-        icon = "",
-        victoryParam2 = {
-        },
-        num = 7,
-        victoryParam = {
-            [1] = {
-                [1] = 1,
-            },
-        },
-        damageMonsterType = {
-        },
-        preDialog = 0,
-        plotBrief = 0,
-        victoryType = {
-            [1] = 1,
-        },
-        id = 291155,
-        previewVideo = 0,
-        debutDistance = 0,
-        cameraAmend = 100,
-        monsterAttr = {
-        },
-        limitTargetType = {
-        },
-        levelScript = "juchang_yuanshen_010",
-        datingID = {
-        },
-        levelGroupId = 8308,
-    },
-    [291135] = {
-        rewardMultiple = 0,
-        limitAttributesDescribe = "",
-        isPlayOncePlot  = false,
-        limitAttributes = {
-        },
-        minipack = 0,
-        victoryTypeDescribeForOpening = 16000654,
-        isDuelMod = false,
-        weaknessLevelDescribe = 0,
-        isbirthType = 0,
-        starParam = {
-        },
-        bgm = "sound/bgm/dafuweng_main.mp3",
-        fightingMode = 1,
-        duelModSkills = 0,
-        duelModCost = {
-        },
-        dungeonType = 53,
-        rewardIcon = 0,
-        levelName = "",
-        lastOne = false,
-        countOpen = false,
-        levelGroupServerID = 8315,
-        bossType = 999,
-        showStyle = 0,
-        previewPicture = "",
-        teamType = 11,
-        warningTime = false,
-        affixSection = {
-        },
-        levelStepID = 8737,
-        quickBattleParameter = {
-        },
-        dungeonName = "2021年兽玩法(至少击杀一个就胜利)",
-        difficulty = 0,
-        heroLimitType = 0,
-        heroForbiddenID = {
-        },
-        firstDropShow = {
-        },
-        roleSize = 0.6,
-        victoryTypeDescribe = {
-            [1] = 16000654,
-        },
-        cost = {
-            [1] = {
-                [1] = 665105,
-                [2] = 1,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 0,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62907,
+            [1] = 201009,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
@@ -180337,39 +199539,33 @@ return {
         isHideTarget  = false,
         preLevelId = {
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2022-01-26 00:00:00",
         },
-        name = 0,
+        name = 15011266,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790553,
+        reward = 0,
         unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1643180400,
-                [2] = 1645858800,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 16000654,
         },
         useLinkAgeAttr = false,
         firstReward = 0,
@@ -180380,13 +199576,13 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
         num = 0,
         victoryParam = {
             [1] = {
-                [1] = 3,
+                [1] = 100004,
                 [2] = 1,
             },
         },
@@ -180395,20 +199591,298 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 20,
+            [1] = 3,
         },
-        id = 291135,
+        id = 2310113,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_10_001",
+        levelScript = "21_kabala_7",
         datingID = {
         },
-        levelGroupId = 8315,
+        levelGroupId = 8203,
+    },
+    [2310112] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "五期伍爬塔9层-3",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201066,
+            [2] = 201066,
+            [3] = 201067,
+            [4] = 201068,
+            [5] = 201069,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011265,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310112,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 3,
+        },
+        levelScript = "2_tiantai",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310111] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 9529,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300816,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_102.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 0,
+        quickBattleParameter = {
+        },
+        dungeonName = "五期伍爬塔9层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300801,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201025,
+            [2] = 201026,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011264,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 1,
+        },
+        id = 2310111,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala5_1",
+        datingID = {
+        },
+        levelGroupId = 8203,
     },
     [610901] = {
         rewardMultiple = 60700101,
@@ -180881,41 +200355,42 @@ return {
         },
         levelGroupId = 400001,
     },
-    [291134] = {
+    [2310110] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
-        isPlayOncePlot  = true,
+        isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 16000635,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        bgm = "sound/battle_103.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 51,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8314,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 3,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8736,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动挑战-异界羁绊4",
+        dungeonName = "五期伍爬塔9层-1",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -180924,60 +200399,50 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 16000494,
+            [1] = 300804,
         },
         cost = {
-            [1] = {
-                [1] = 665101,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 0,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62873,
+            [1] = 201005,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291133,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-23 00:00:01",
         },
-        name = 16000633,
+        name = 15011263,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790185,
-        unlockBrief = 16000475,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621753200,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
         },
         levelAffix = {
@@ -180985,44 +200450,45 @@ return {
         isFree = false,
         starDescribe = {
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790185,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
-            [665103] = 1000,
         },
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 4,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 100003,
+                [2] = 1,
             },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000490,
+        plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 3,
         },
-        id = 291134,
+        id = 2310110,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 50,
+        cameraAmend = 150,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_004",
+        levelScript = "21_kabala_7",
         datingID = {
         },
-        levelGroupId = 8314,
+        levelGroupId = 8203,
     },
     [610903] = {
         rewardMultiple = 60700101,
@@ -182140,41 +201606,42 @@ return {
         },
         levelGroupId = 400001,
     },
-    [291133] = {
+    [2310109] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
-        isPlayOncePlot  = true,
+        isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 16000635,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 51,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8314,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 3,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8735,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动挑战-异界羁绊3",
+        dungeonName = "五期伍爬塔8层-3",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -182183,58 +201650,56 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 16000493,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 665101,
-                [2] = 4,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 0,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62872,
+            [1] = 201062,
+            [2] = 201062,
+            [3] = 201063,
+            [4] = 201064,
+            [5] = 201065,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291132,
         },
         picture = "",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-19 00:00:01",
         },
-        name = 16000632,
+        name = 15011262,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790184,
-        unlockBrief = 16000474,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621407600,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
@@ -182244,44 +201709,44 @@ return {
         isFree = false,
         starDescribe = {
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790184,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
-            [665103] = 600,
         },
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 3,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000489,
+        plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291133,
+        id = 2310109,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 50,
+        cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "70_9_004",
+        levelScript = "2_DEM002",
         datingID = {
         },
-        levelGroupId = 8314,
+        levelGroupId = 8203,
     },
     [610907] = {
         rewardMultiple = 60700101,
@@ -182448,41 +201913,42 @@ return {
         },
         levelGroupId = 400001,
     },
-    [291132] = {
+    [2310106] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
-        isPlayOncePlot  = true,
+        isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 16000635,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 51,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8314,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 3,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8734,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动挑战-异界羁绊2",
+        dungeonName = "五期多队伍爬塔7层-2",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -182491,58 +201957,56 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 16000492,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 665101,
-                [2] = 2,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 0,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62871,
+            [1] = 201058,
+            [2] = 201058,
+            [3] = 201059,
+            [4] = 201060,
+            [5] = 201061,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291035,
         },
         picture = "",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-15 00:00:01",
         },
-        name = 16000631,
+        name = 15011259,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790183,
-        unlockBrief = 16000473,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621062000,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
@@ -182552,44 +202016,44 @@ return {
         isFree = false,
         starDescribe = {
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790183,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
-            [665103] = 200,
         },
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 2,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000488,
+        plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291132,
+        id = 2310106,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 50,
+        cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "70_9_004",
+        levelScript = "2_tiantai",
         datingID = {
         },
-        levelGroupId = 8314,
+        levelGroupId = 8203,
     },
     [610908] = {
         rewardMultiple = 60700101,
@@ -182756,41 +202220,42 @@ return {
         },
         levelGroupId = 400001,
     },
-    [291131] = {
+    [2310105] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
-        isPlayOncePlot  = true,
+        isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 16000635,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        bgm = "sound/battle_105.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 51,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8314,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 3,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8733,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动挑战-异界羁绊1",
+        dungeonName = "五期多队伍爬塔7层-1",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -182799,60 +202264,50 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 16000491,
+            [1] = 300804,
         },
         cost = {
-            [1] = {
-                [1] = 665101,
-                [2] = 1,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 0,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62870,
+            [1] = 201002,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291025,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-14 00:00:01",
         },
-        name = 16000630,
+        name = 15011258,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790182,
-        unlockBrief = 16000472,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620975600,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
         },
         levelAffix = {
@@ -182860,44 +202315,45 @@ return {
         isFree = false,
         starDescribe = {
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790182,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
-            [665103] = 100,
         },
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 1,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 100002,
+                [2] = 1,
             },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000487,
+        plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 3,
         },
-        id = 291131,
+        id = 2310105,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 50,
+        cameraAmend = 150,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_004",
+        levelScript = "21_kabala_7",
         datingID = {
         },
-        levelGroupId = 8314,
+        levelGroupId = 8203,
     },
     [430416] = {
         rewardMultiple = 60500003,
@@ -183050,41 +202506,42 @@ return {
         },
         levelGroupId = 0,
     },
-    [291123] = {
+    [2310104] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
-        isPlayOncePlot  = true,
+        isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 16000634,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 50,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8313,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8731,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动挑战-挑战华伦3",
+        dungeonName = "五期多队伍爬塔6层-2",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -183093,58 +202550,56 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 16000482,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 665101,
-                [2] = 4,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 0,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62868,
+            [1] = 201054,
+            [2] = 201054,
+            [3] = 201055,
+            [4] = 201056,
+            [5] = 201057,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291122,
         },
         picture = "",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-19 00:00:01",
         },
-        name = 16000628,
+        name = 15011257,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790180,
-        unlockBrief = 16000470,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621407600,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
@@ -183154,81 +202609,81 @@ return {
         isFree = false,
         starDescribe = {
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790180,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
-            [665102] = 600,
         },
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 3,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 100198,
-                [2] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000478,
+        plotBrief = 0,
         victoryType = {
+            [1] = 7,
+        },
+        id = 2310104,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 0,
+        monsterAttr = {
+        },
+        limitTargetType = {
             [1] = 3,
         },
-        id = 291123,
-        previewVideo = 0,
-        debutDistance = 0,
-        cameraAmend = 50,
-        monsterAttr = {
-        },
-        limitTargetType = {
-        },
-        levelScript = "70_9_003",
+        levelScript = "2_DEM002",
         datingID = {
         },
-        levelGroupId = 8313,
+        levelGroupId = 8203,
     },
-    [291121] = {
+    [2310102] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
-        isPlayOncePlot  = true,
+        isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 16000634,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 50,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8313,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8729,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动挑战-挑战华伦1",
+        dungeonName = "五期多队伍爬塔5层-2",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -183237,58 +202692,56 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 16000480,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 665101,
-                [2] = 1,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 0,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62866,
+            [1] = 201050,
+            [2] = 201050,
+            [3] = 201051,
+            [4] = 201052,
+            [5] = 201053,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291015,
         },
         picture = "",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-13 00:00:01",
         },
-        name = 16000626,
+        name = 15011255,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790178,
-        unlockBrief = 16000468,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620889200,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
@@ -183298,50 +202751,51 @@ return {
         isFree = false,
         starDescribe = {
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790178,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
-            [665102] = 100,
         },
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 1,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000476,
+        plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291121,
+        id = 2310102,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 50,
+        cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "70_9_003",
+        levelScript = "2_tiantai",
         datingID = {
         },
-        levelGroupId = 8313,
+        levelGroupId = 8203,
     },
-    [291112] = {
+    [2310101] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
-        isPlayOncePlot  = true,
+        isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
         victoryTypeDescribeForOpening = 300816,
@@ -183350,103 +202804,90 @@ return {
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        bgm = "sound/battle_102.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 49,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8312,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 1,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8726,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动挑战-恩惠试炼2",
+        dungeonName = "五期多队伍爬塔5层-1",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 665104,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300816,
+            [1] = 300801,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 0,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62857,
-            [2] = 62858,
-            [3] = 62859,
+            [1] = 201023,
+            [2] = 201024,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291035,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-15 00:00:01",
         },
-        name = 16000623,
+        name = 15011254,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790175,
-        unlockBrief = 16000465,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621062000,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 665104,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790175,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -183454,10 +202895,10 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 2,
+        num = 0,
         victoryParam = {
             [1] = {
                 [1] = 1,
@@ -183470,20 +202911,19 @@ return {
         victoryType = {
             [1] = 1,
         },
-        id = 291112,
+        id = 2310101,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 50,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_002",
+        levelScript = "21_kabala5_1",
         datingID = {
         },
-        levelGroupId = 8312,
+        levelGroupId = 8203,
     },
     [7062501] = {
         rewardMultiple = 0,
@@ -184223,116 +203663,105 @@ return {
         },
         levelGroupId = 9201,
     },
-    [291111] = {
+    [2310099] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
-        isPlayOncePlot  = true,
+        isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/JuNaiRuQin_BGM.mp3",
+        bgm = "sound/battle_104.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 49,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8312,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 1,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8725,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动挑战-恩惠试炼1",
+        dungeonName = "五期多队伍爬塔4层-1",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 665104,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300816,
+            [1] = 300801,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 0,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62854,
-            [2] = 62855,
-            [3] = 62856,
+            [1] = 201014,
+            [2] = 201015,
+            [3] = 201016,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291009,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-12 00:00:01",
         },
-        name = 16000622,
+        name = 15011252,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790174,
-        unlockBrief = 16000464,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620802800,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 665104,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790174,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -184340,10 +203769,10 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 1,
+        num = 0,
         victoryParam = {
             [1] = {
                 [1] = 1,
@@ -184356,20 +203785,19 @@ return {
         victoryType = {
             [1] = 1,
         },
-        id = 291111,
+        id = 2310099,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 50,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_002",
+        levelScript = "21_kabala_4_2",
         datingID = {
         },
-        levelGroupId = 8312,
+        levelGroupId = 8203,
     },
     [106101] = {
         rewardMultiple = 60810601,
@@ -184551,41 +203979,42 @@ return {
         },
         levelGroupId = 6001,
     },
-    [291035] = {
+    [2310098] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 0,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "",
-        fightingMode = 0,
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 48,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 1,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 0,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-约会35-解锁3种挑战2",
+        dungeonName = "五期多队伍爬塔3层-2",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -184594,6 +204023,7 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
+            [1] = 300809,
         },
         cost = {
         },
@@ -184602,59 +204032,58 @@ return {
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
+            [1] = 201042,
+            [2] = 201042,
+            [3] = 201043,
+            [4] = 201044,
+            [5] = 201045,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291034,
         },
         picture = "",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-15 00:00:01",
         },
-        name = 16000621,
+        name = 15011251,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
         reward = 0,
-        unlockBrief = 16000559,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621062000,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510152,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 16000581,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790138,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -184662,31 +204091,35 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 35,
+        num = 0,
         victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000570,
+        plotBrief = 0,
         victoryType = {
+            [1] = 7,
         },
-        id = 291035,
+        id = 2310098,
         previewVideo = 0,
         debutDistance = 0,
         cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "",
+        levelScript = "2_DEM002",
         datingID = {
-            [1] = 749050,
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [430419] = {
         rewardMultiple = 60500003,
@@ -184839,32 +204272,33 @@ return {
         },
         levelGroupId = 0,
     },
-    [291034] = {
+    [2310097] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 0,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "",
-        fightingMode = 0,
+        bgm = "sound/battle_105.mp3",
+        fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 48,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 1,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
@@ -184873,7 +204307,7 @@ return {
         levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-约会34",
+        dungeonName = "五期多队伍爬塔3层-1",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -184882,6 +204316,7 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
+            [1] = 300804,
         },
         cost = {
         },
@@ -184890,31 +204325,30 @@ return {
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
+            [1] = 201007,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291033,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-15 00:00:01",
         },
-        name = 16000620,
+        name = 15011250,
         limitDungeon = 0,
         buyCost = {
         },
@@ -184922,27 +204356,19 @@ return {
         },
         gateEffect = "",
         reward = 0,
-        unlockBrief = 16000558,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621062000,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510152,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 16000580,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790137,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -184950,67 +204376,73 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 34,
+        num = 0,
         victoryParam = {
+            [1] = {
+                [1] = 100004,
+                [2] = 1,
+            },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000569,
+        plotBrief = 0,
         victoryType = {
+            [1] = 3,
         },
-        id = 291034,
+        id = 2310097,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 0,
+        cameraAmend = 150,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "",
+        levelScript = "21_kabala_7",
         datingID = {
-            [1] = 749049,
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
-    [291033] = {
+    [2310096] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 0,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "",
-        fightingMode = 0,
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 48,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 1,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 0,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-约会33",
+        dungeonName = "五期多队伍爬塔2层-2",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -185019,6 +204451,7 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
+            [1] = 300809,
         },
         cost = {
         },
@@ -185027,59 +204460,58 @@ return {
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
+            [1] = 201038,
+            [2] = 201038,
+            [3] = 201039,
+            [4] = 201040,
+            [5] = 201041,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291032,
         },
         picture = "",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-15 00:00:01",
         },
-        name = 16000619,
+        name = 15011249,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
         reward = 0,
-        unlockBrief = 16000557,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621062000,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510152,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 16000579,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790136,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -185087,58 +204519,63 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 33,
+        num = 0,
         victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000568,
+        plotBrief = 0,
         victoryType = {
+            [1] = 7,
         },
-        id = 291033,
+        id = 2310096,
         previewVideo = 0,
         debutDistance = 0,
         cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "",
+        levelScript = "2_tiantai",
         datingID = {
-            [1] = 749048,
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
-    [291032] = {
+    [2310095] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 0,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "",
-        fightingMode = 0,
+        bgm = "sound/battle_103.mp3",
+        fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 48,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 1,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
@@ -185147,7 +204584,7 @@ return {
         levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-约会32",
+        dungeonName = "五期多队伍爬塔2层-1",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -185156,6 +204593,7 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
+            [1] = 300804,
         },
         cost = {
         },
@@ -185164,31 +204602,30 @@ return {
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
+            [1] = 201004,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291031,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-15 00:00:01",
         },
-        name = 16000618,
+        name = 15011248,
         limitDungeon = 0,
         buyCost = {
         },
@@ -185196,27 +204633,19 @@ return {
         },
         gateEffect = "",
         reward = 0,
-        unlockBrief = 16000556,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621062000,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510152,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 16000578,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790135,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -185224,31 +204653,36 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 32,
+        num = 0,
         victoryParam = {
+            [1] = {
+                [1] = 100003,
+                [2] = 1,
+            },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000567,
+        plotBrief = 0,
         victoryType = {
+            [1] = 3,
         },
-        id = 291032,
+        id = 2310095,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 0,
+        cameraAmend = 150,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "",
+        levelScript = "21_kabala_7",
         datingID = {
-            [1] = 749047,
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [7030303] = {
         rewardMultiple = 0,
@@ -185387,142 +204821,125 @@ return {
         },
         levelGroupId = 300002,
     },
-    [291031] = {
+    [2310094] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8724,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗31",
+        dungeonName = "五期多队伍爬塔1层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94017,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62851,
-            [2] = 62852,
-            [3] = 62853,
+            [1] = 201010,
+            [2] = 201010,
+            [3] = 201011,
+            [4] = 201012,
+            [5] = 201013,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291030,
         },
         picture = "",
-        isPlayBornAction = false,
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-15 00:00:01",
         },
-        name = 16000617,
-        limitDungeon = 1,
+        name = 15011247,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790169,
-        unlockBrief = 16000555,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621062000,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790134,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 31,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -185530,22 +204947,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291031,
+        id = 2310094,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "70_9_003",
+        levelScript = "2_DEM002",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [7062302] = {
         rewardMultiple = 0,
@@ -185684,142 +205100,118 @@ return {
         },
         levelGroupId = 300002,
     },
-    [291030] = {
+    [2310093] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_105.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8723,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗30",
+        dungeonName = "五期多队伍爬塔1层-1",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300804,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94017,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62848,
-            [2] = 62849,
-            [3] = 62850,
+            [1] = 201001,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291029,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-15 00:00:01",
         },
-        name = 16000616,
-        limitDungeon = 1,
+        name = 15011246,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790168,
-        unlockBrief = 16000554,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621062000,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790133,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 30,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 100002,
+                [2] = 1,
             },
         },
         damageMonsterType = {
@@ -185827,22 +205219,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 3,
         },
-        id = 291030,
+        id = 2310093,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_004",
+        levelScript = "21_kabala_7",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [430421] = {
         rewardMultiple = 60500003,
@@ -185995,148 +205386,116 @@ return {
         },
         levelGroupId = 0,
     },
-    [291029] = {
+    [2310091] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_104.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8722,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗29",
+        dungeonName = "四期伍爬塔10层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
             [1] = 300801,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94022,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62845,
-            [2] = 62846,
-            [3] = 62847,
+            [1] = 201020,
+            [2] = 201021,
+            [3] = 201022,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291028,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-15 00:00:01",
         },
-        name = 16000615,
-        limitDungeon = 1,
+        name = 15011267,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790167,
-        unlockBrief = 16000553,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621062000,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
-            camp = {
-                [1] = 1,
-            },
-            isShow = 1,
-            topDes = 16000461,
-            affixList = {
-                [1] = 635,
-            },
-            isShowOnHero = 0,
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790132,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 29,
+        num = 0,
         victoryParam = {
             [1] = {
                 [1] = 1,
@@ -186149,167 +205508,132 @@ return {
         victoryType = {
             [1] = 1,
         },
-        id = 291029,
+        id = 2310091,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_004",
+        levelScript = "21_kabala_4_2",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
-    [291028] = {
+    [2310090] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_105.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8721,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗28",
+        dungeonName = "四期伍爬塔10层-1",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300804,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94020,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62842,
-            [2] = 62843,
-            [3] = 62844,
+            [1] = 201009,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291027,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-15 00:00:01",
         },
-        name = 16000614,
-        limitDungeon = 1,
+        name = 15011266,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790166,
-        unlockBrief = 16000552,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621062000,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
-            camp = {
-                [1] = 1,
-            },
-            isShow = 1,
-            topDes = 16000461,
-            affixList = {
-                [1] = 635,
-                [2] = 636,
-            },
-            isShowOnHero = 0,
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790131,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 28,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 100004,
+                [2] = 1,
             },
         },
         damageMonsterType = {
@@ -186317,171 +205641,141 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 3,
         },
-        id = 291028,
+        id = 2310090,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_002",
+        levelScript = "21_kabala_7",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
-    [291027] = {
+    [2310089] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8720,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗27",
+        dungeonName = "四期伍爬塔9层-3",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94013,
-            [2] = 94016,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62839,
-            [2] = 62840,
-            [3] = 62841,
+            [1] = 201066,
+            [2] = 201066,
+            [3] = 201067,
+            [4] = 201068,
+            [5] = 201069,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291026,
         },
         picture = "",
-        isPlayBornAction = false,
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-15 00:00:01",
         },
-        name = 16000613,
-        limitDungeon = 1,
+        name = 15011265,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790165,
-        unlockBrief = 16000551,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621062000,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
-            camp = {
-                [1] = 1,
-            },
-            isShow = 1,
-            topDes = 16000461,
-            affixList = {
-                [1] = 635,
-                [2] = 636,
-                [3] = 637,
-            },
-            isShowOnHero = 0,
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790130,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 27,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -186489,22 +205783,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291027,
+        id = 2310089,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "70_9_002",
+        levelScript = "2_tiantai",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [430422] = {
         rewardMultiple = 60500003,
@@ -186657,11 +205950,12 @@ return {
         },
         levelGroupId = 0,
     },
-    [291026] = {
+    [2310088] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
         victoryTypeDescribeForOpening = 300816,
@@ -186670,127 +205964,101 @@ return {
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_102.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8719,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗26",
+        dungeonName = "四期伍爬塔9层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
             [1] = 300801,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94014,
-            [2] = 94015,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62836,
-            [2] = 62837,
-            [3] = 62838,
+            [1] = 201025,
+            [2] = 201026,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291131,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-15 00:00:01",
         },
-        name = 16000612,
-        limitDungeon = 1,
+        name = 15011264,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790164,
-        unlockBrief = 16000550,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1621062000,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790129,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 26,
+        num = 0,
         victoryParam = {
             [1] = {
                 [1] = 1,
@@ -186803,20 +206071,19 @@ return {
         victoryType = {
             [1] = 1,
         },
-        id = 291026,
+        id = 2310088,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_003",
+        levelScript = "21_kabala5_1",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [106102] = {
         rewardMultiple = 60810602,
@@ -186996,41 +206263,42 @@ return {
         },
         levelGroupId = 6001,
     },
-    [291025] = {
+    [2310086] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 0,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "",
-        fightingMode = 0,
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 48,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 1,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 0,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-约会25-解锁异界羁绊1",
+        dungeonName = "四期伍爬塔8层-3",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -187039,6 +206307,7 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
+            [1] = 300809,
         },
         cost = {
         },
@@ -187047,59 +206316,58 @@ return {
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
+            [1] = 201062,
+            [2] = 201062,
+            [3] = 201063,
+            [4] = 201064,
+            [5] = 201065,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291024,
         },
         picture = "",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-14 00:00:01",
         },
-        name = 16000611,
+        name = 15011262,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
         reward = 0,
-        unlockBrief = 16000549,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620975600,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510152,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 16000577,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790128,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -187107,31 +206375,35 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 25,
+        num = 0,
         victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000566,
+        plotBrief = 0,
         victoryType = {
+            [1] = 7,
         },
-        id = 291025,
+        id = 2310086,
         previewVideo = 0,
         debutDistance = 0,
         cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "",
+        levelScript = "2_DEM002",
         datingID = {
-            [1] = 749046,
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [209101] = {
         rewardMultiple = 60820901,
@@ -187313,151 +206585,116 @@ return {
         },
         levelGroupId = 90001,
     },
-    [291024] = {
+    [2310085] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_104.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8718,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗24",
+        dungeonName = "四期伍爬塔8层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
             [1] = 300801,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94018,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62833,
-            [2] = 62834,
-            [3] = 62835,
+            [1] = 201017,
+            [2] = 201018,
+            [3] = 201019,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291023,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-14 00:00:01",
         },
-        name = 16000610,
-        limitDungeon = 1,
+        name = 15011261,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790162,
-        unlockBrief = 16000548,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620975600,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
-            camp = {
-                [1] = 1,
-            },
-            isShow = 1,
-            topDes = 16000461,
-            affixList = {
-                [1] = 635,
-                [2] = 636,
-                [3] = 637,
-                [4] = 638,
-            },
-            isShowOnHero = 0,
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790127,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 24,
+        num = 0,
         victoryParam = {
             [1] = {
                 [1] = 1,
@@ -187470,169 +206707,132 @@ return {
         victoryType = {
             [1] = 1,
         },
-        id = 291024,
+        id = 2310085,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_004",
+        levelScript = "21_kabala_4_2",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
-    [291023] = {
+    [2310084] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_105.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8717,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗23",
+        dungeonName = "四期多队伍爬塔8层-1",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300804,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94022,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62830,
-            [2] = 62831,
-            [3] = 62832,
+            [1] = 201008,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291022,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-14 00:00:01",
         },
-        name = 16000609,
-        limitDungeon = 1,
+        name = 15011260,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790161,
-        unlockBrief = 16000547,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620975600,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
-            camp = {
-                [1] = 1,
-            },
-            isShow = 1,
-            topDes = 16000461,
-            affixList = {
-                [1] = 635,
-                [2] = 636,
-                [3] = 637,
-                [4] = 638,
-            },
-            isShowOnHero = 0,
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790126,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 23,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 100004,
+                [2] = 1,
             },
         },
         damageMonsterType = {
@@ -187640,22 +206840,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 3,
         },
-        id = 291023,
+        id = 2310084,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_004",
+        levelScript = "21_kabala_7",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [7030104] = {
         rewardMultiple = 0,
@@ -187946,41 +207145,42 @@ return {
         },
         levelGroupId = 0,
     },
-    [291022] = {
+    [2310081] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 0,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "",
-        fightingMode = 0,
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 48,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 1,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 0,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-约会22",
+        dungeonName = "四期多队伍爬塔6层-2",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -187989,6 +207189,7 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
+            [1] = 300809,
         },
         cost = {
         },
@@ -187997,59 +207198,58 @@ return {
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
+            [1] = 201054,
+            [2] = 201054,
+            [3] = 201055,
+            [4] = 201056,
+            [5] = 201057,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291021,
         },
         picture = "",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-14 00:00:01",
         },
-        name = 16000608,
+        name = 15011257,
         limitDungeon = 0,
         buyCost = {
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
         reward = 0,
-        unlockBrief = 16000546,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620975600,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 16000576,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790125,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -188057,37 +207257,42 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 22,
+        num = 0,
         victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000565,
+        plotBrief = 0,
         victoryType = {
+            [1] = 7,
         },
-        id = 291022,
+        id = 2310081,
         previewVideo = 0,
         debutDistance = 0,
         cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "",
+        levelScript = "2_DEM002",
         datingID = {
-            [1] = 749045,
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
-    [291020] = {
+    [2310080] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
         victoryTypeDescribeForOpening = 300816,
@@ -188096,126 +207301,102 @@ return {
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_103.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8716,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗20",
+        dungeonName = "四期多队伍爬塔6层-1",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510152,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
             [1] = 300801,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94021,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62827,
-            [2] = 62828,
-            [3] = 62829,
+            [1] = 201029,
+            [2] = 201030,
+            [3] = 201031,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291019,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-14 00:00:01",
         },
-        name = 16000606,
-        limitDungeon = 1,
+        name = 15011256,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790158,
-        unlockBrief = 16000544,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620975600,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790123,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 20,
+        num = 0,
         victoryParam = {
             [1] = {
                 [1] = 1,
@@ -188228,170 +207409,139 @@ return {
         victoryType = {
             [1] = 1,
         },
-        id = 291020,
+        id = 2310080,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_002",
+        levelScript = "6_11boss2",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
-    [291017] = {
+    [2310079] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8713,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗17",
+        dungeonName = "四期多队伍爬塔5层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94013,
-            [2] = 94020,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62818,
-            [2] = 62819,
-            [3] = 62820,
+            [1] = 201050,
+            [2] = 201050,
+            [3] = 201051,
+            [4] = 201052,
+            [5] = 201053,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291016,
         },
         picture = "",
-        isPlayBornAction = false,
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-14 00:00:01",
         },
-        name = 16000603,
-        limitDungeon = 1,
+        name = 15011255,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790155,
-        unlockBrief = 16000541,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620975600,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555013,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
-            camp = {
-                [1] = 1,
-            },
-            isShow = 1,
-            topDes = 16000461,
-            affixList = {
-                [1] = 635,
-                [2] = 636,
-                [3] = 637,
-                [4] = 638,
-            },
-            isShowOnHero = 0,
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790120,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 17,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -188399,22 +207549,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291017,
+        id = 2310079,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "70_9_003",
+        levelScript = "2_tiantai",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [209102] = {
         rewardMultiple = 60820902,
@@ -188596,32 +207745,33 @@ return {
         },
         levelGroupId = 90001,
     },
-    [291012] = {
+    [2310078] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 0,
+        victoryTypeDescribeForOpening = 300816,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "",
-        fightingMode = 0,
+        bgm = "sound/battle_102.mp3",
+        fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 48,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 3,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
@@ -188630,7 +207780,7 @@ return {
         levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-约会12",
+        dungeonName = "四期多队伍爬塔5层-1",
         difficulty = 1,
         heroLimitType = 0,
         heroForbiddenID = {
@@ -188639,6 +207789,7 @@ return {
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
+            [1] = 300801,
         },
         cost = {
         },
@@ -188647,31 +207798,31 @@ return {
         heroLimitID = {
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
+            [1] = 201023,
+            [2] = 201024,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291011,
         },
-        picture = "",
+        picture = "scene/bg/bg_fuben_caochang.png",
         isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-13 00:00:01",
         },
-        name = 16000598,
+        name = 15011254,
         limitDungeon = 0,
         buyCost = {
         },
@@ -188679,27 +207830,19 @@ return {
         },
         gateEffect = "",
         reward = 0,
-        unlockBrief = 16000536,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620889200,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510102,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 16000573,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790115,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
@@ -188707,167 +207850,297 @@ return {
         buyLimit = 0,
         leaveDir = 0,
         isPlayVictorAction = true,
-        icon = "",
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 12,
+        num = 0,
         victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
         },
         damageMonsterType = {
         },
         preDialog = 0,
-        plotBrief = 16000562,
+        plotBrief = 0,
         victoryType = {
+            [1] = 1,
         },
-        id = 291012,
+        id = 2310078,
+        previewVideo = 0,
+        debutDistance = 0,
+        cameraAmend = 150,
+        monsterAttr = {
+        },
+        limitTargetType = {
+            [1] = 4,
+        },
+        levelScript = "21_kabala5_1",
+        datingID = {
+        },
+        levelGroupId = 8203,
+    },
+    [2310077] = {
+        rewardMultiple = 0,
+        limitAttributesDescribe = "",
+        isPlayOncePlot  = false,
+        limitAttributes = {
+            [1] = 8003,
+        },
+        minipack = 0,
+        victoryTypeDescribeForOpening = 300876,
+        isDuelMod = false,
+        weaknessLevelDescribe = 0,
+        isbirthType = 0,
+        starParam = {
+        },
+        bgm = "sound/battle_008.mp3",
+        fightingMode = 1,
+        duelModSkills = 0,
+        duelModCost = {
+        },
+        dungeonType = 107,
+        rewardIcon = 0,
+        levelName = "14110289",
+        lastOne = false,
+        countOpen = false,
+        levelGroupServerID = 8204,
+        bossType = 0,
+        showStyle = 0,
+        previewPicture = "",
+        teamType = 0,
+        warningTime = false,
+        affixSection = {
+        },
+        levelStepID = 112104,
+        quickBattleParameter = {
+        },
+        dungeonName = "四期多队伍爬塔4层-2",
+        difficulty = 1,
+        heroLimitType = 0,
+        heroForbiddenID = {
+        },
+        firstDropShow = {
+        },
+        roleSize = 0.6,
+        victoryTypeDescribe = {
+            [1] = 300809,
+        },
+        cost = {
+        },
+        cameraAmendX = {
+        },
+        heroLimitID = {
+        },
+        isQuickBattle = false,
+        fightCount = 999,
+        debutDir = 0,
+        simpleName = "",
+        monsterGroupId = {
+            [1] = 201046,
+            [2] = 201046,
+            [3] = 201047,
+            [4] = 201048,
+            [5] = 201049,
+        },
+        delayCreateTime = 0,
+        dailyLevelReward = {
+        },
+        rythem = {
+        },
+        isHideTarget  = false,
+        preLevelId = {
+        },
+        picture = "",
+        isPlayBornAction = true,
+        ifReturn = false,
+        playerLv = 20,
+        isBuy = false,
+        starType = {
+        },
+        enterConditon = {
+        },
+        name = 15011253,
+        limitDungeon = 0,
+        buyCost = {
+        },
+        positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
+        },
+        gateEffect = "",
+        reward = 0,
+        unlockBrief = 0,
+        otherPreCond = {
+        },
+        intendPicture = "",
+        dropShow = {
+        },
+        levelAffix = {
+        },
+        isFree = false,
+        starDescribe = {
+        },
+        useLinkAgeAttr = false,
+        firstReward = 0,
+        affixNumber = 0,
+        time = 300,
+        rewardShow = {
+        },
+        buyLimit = 0,
+        leaveDir = 0,
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
+        victoryParam2 = {
+        },
+        num = 0,
+        victoryParam = {
+            [1] = {
+                [1] = 5,
+            },
+        },
+        damageMonsterType = {
+        },
+        preDialog = 0,
+        plotBrief = 0,
+        victoryType = {
+            [1] = 7,
+        },
+        id = 2310077,
         previewVideo = 0,
         debutDistance = 0,
         cameraAmend = 0,
         monsterAttr = {
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "",
+        levelScript = "2_tiantai",
         datingID = {
-            [1] = 749042,
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
-    [291011] = {
+    [2310073] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 4,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8709,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗11",
+        dungeonName = "四期多队伍爬塔2层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94017,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62810,
-            [2] = 62811,
+            [1] = 201038,
+            [2] = 201038,
+            [3] = 201039,
+            [4] = 201040,
+            [5] = 201041,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291010,
         },
         picture = "",
-        isPlayBornAction = false,
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-13 00:00:01",
         },
-        name = 16000597,
-        limitDungeon = 1,
+        name = 15011249,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790149,
-        unlockBrief = 16000535,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620889200,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790114,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 11,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -188875,158 +208148,134 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291011,
+        id = 2310073,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "70_9_003",
+        levelScript = "2_tiantai",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
-    [291010] = {
+    [2310072] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_103.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 4,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8708,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗10",
+        dungeonName = "四期多队伍爬塔2层-1",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510152,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300804,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94017,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62808,
-            [2] = 62809,
+            [1] = 201004,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291111,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-13 00:00:01",
         },
-        name = 16000596,
-        limitDungeon = 1,
+        name = 15011248,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790148,
-        unlockBrief = 16000534,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620889200,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555012,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790113,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 10,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 100003,
+                [2] = 1,
             },
         },
         damageMonsterType = {
@@ -189034,193 +208283,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 3,
         },
-        id = 291010,
+        id = 2310072,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_003",
+        levelScript = "21_kabala_7",
         datingID = {
         },
-        levelGroupId = 8311,
-    },
-    [291008] = {
-        rewardMultiple = 0,
-        limitAttributesDescribe = "",
-        isPlayOncePlot  = false,
-        limitAttributes = {
-        },
-        minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
-        isDuelMod = false,
-        weaknessLevelDescribe = 0,
-        isbirthType = 0,
-        starParam = {
-        },
-        bgm = "sound/battle_002.mp3",
-        fightingMode = 1,
-        duelModSkills = 0,
-        duelModCost = {
-        },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
-        lastOne = false,
-        countOpen = false,
-        levelGroupServerID = 8311,
-        bossType = 0,
-        showStyle = 2,
-        previewPicture = "",
-        teamType = 0,
-        warningTime = false,
-        affixSection = {
-        },
-        levelStepID = 8706,
-        quickBattleParameter = {
-        },
-        dungeonName = "地错联动主线剧情-战斗8",
-        difficulty = 1,
-        heroLimitType = 2,
-        heroForbiddenID = {
-        },
-        firstDropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
-        },
-        roleSize = 0.6,
-        victoryTypeDescribe = {
-            [1] = 300801,
-        },
-        cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
-        },
-        cameraAmendX = {
-        },
-        heroLimitID = {
-            [1] = 94014,
-            [2] = 94015,
-        },
-        isQuickBattle = false,
-        fightCount = 99,
-        debutDir = 0,
-        simpleName = "",
-        monsterGroupId = {
-            [1] = 62806,
-        },
-        delayCreateTime = 0,
-        dailyLevelReward = {
-        },
-        rythem = {
-        },
-        isHideTarget  = true,
-        preLevelId = {
-            [1] = 291007,
-        },
-        picture = "",
-        isPlayBornAction = false,
-        ifReturn = false,
-        playerLv = 2,
-        isBuy = false,
-        starType = {
-        },
-        enterConditon = {
-            [1] = "2021-05-12 00:00:01",
-        },
-        name = 16000594,
-        limitDungeon = 1,
-        buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
-        },
-        positionOrder = {
-        },
-        gateEffect = "",
-        reward = 63790146,
-        unlockBrief = 16000532,
-        otherPreCond = {
-            time = {
-                [1] = 1620802800,
-                [2] = 1622617199,
-            },
-        },
-        intendPicture = "",
-        dropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
-        },
-        levelAffix = {
-            camp = {
-                [1] = 1,
-            },
-            isShow = 1,
-            topDes = 16000461,
-            affixList = {
-                [1] = 635,
-                [2] = 636,
-                [3] = 637,
-                [4] = 638,
-            },
-            isShowOnHero = 0,
-        },
-        isFree = false,
-        starDescribe = {
-            [1] = 300816,
-        },
-        useLinkAgeAttr = true,
-        firstReward = 63790111,
-        affixNumber = 0,
-        time = 300,
-        rewardShow = {
-        },
-        buyLimit = 3,
-        leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
-        victoryParam2 = {
-        },
-        num = 8,
-        victoryParam = {
-            [1] = {
-                [1] = 1,
-            },
-        },
-        damageMonsterType = {
-        },
-        preDialog = 0,
-        plotBrief = 0,
-        victoryType = {
-            [1] = 1,
-        },
-        id = 291008,
-        previewVideo = 0,
-        debutDistance = 0,
-        cameraAmend = 100,
-        monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
-        },
-        limitTargetType = {
-        },
-        levelScript = "70_9_003",
-        datingID = {
-        },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [7030403] = {
         rewardMultiple = 0,
@@ -189851,140 +208928,125 @@ return {
         },
         levelGroupId = 90001,
     },
-    [291005] = {
+    [2310071] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 8003,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300876,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_008.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
+        dungeonType = 107,
         rewardIcon = 0,
-        levelName = "",
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8704,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗5",
+        dungeonName = "四期多队伍爬塔1层-2",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510152,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300809,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94016,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62804,
+            [1] = 201010,
+            [2] = 201010,
+            [3] = 201011,
+            [4] = 201012,
+            [5] = 201013,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291004,
         },
         picture = "",
-        isPlayBornAction = false,
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-12 00:00:01",
         },
-        name = 16000591,
-        limitDungeon = 1,
+        name = 15011247,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
+            [1] = 44,
+            [2] = {
+                [1] = 4,
+            },
         },
         gateEffect = "",
-        reward = 63790143,
-        unlockBrief = 16000529,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620802800,
-                [2] = 1622617199,
-            },
         },
         intendPicture = "",
         dropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790108,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/fuben/levelIcon/Dungeon/hebianjiedao_3.png",
         victoryParam2 = {
         },
-        num = 5,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 5,
             },
         },
         damageMonsterType = {
@@ -189992,157 +209054,134 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 7,
         },
-        id = 291005,
+        id = 2310071,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 0,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 3,
         },
-        levelScript = "70_9_002",
+        levelScript = "2_DEM002",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
-    [291004] = {
+    [2310070] = {
         rewardMultiple = 0,
         limitAttributesDescribe = "",
         isPlayOncePlot  = false,
         limitAttributes = {
+            [1] = 9529,
         },
         minipack = 0,
-        victoryTypeDescribeForOpening = 300816,
+        victoryTypeDescribeForOpening = 300819,
         isDuelMod = false,
         weaknessLevelDescribe = 0,
         isbirthType = 0,
         starParam = {
         },
-        bgm = "sound/battle_002.mp3",
+        bgm = "sound/battle_105.mp3",
         fightingMode = 1,
         duelModSkills = 0,
         duelModCost = {
         },
-        dungeonType = 47,
-        rewardIcon = 0,
-        levelName = "",
+        dungeonType = 107,
+        rewardIcon = 561303,
+        levelName = "14110289",
         lastOne = false,
         countOpen = false,
-        levelGroupServerID = 8311,
+        levelGroupServerID = 8204,
         bossType = 0,
-        showStyle = 2,
+        showStyle = 0,
         previewPicture = "",
         teamType = 0,
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 8703,
+        levelStepID = 0,
         quickBattleParameter = {
         },
-        dungeonName = "地错联动主线剧情-战斗4",
+        dungeonName = "四期多队伍爬塔1层-1",
         difficulty = 1,
-        heroLimitType = 2,
+        heroLimitType = 0,
         heroForbiddenID = {
         },
         firstDropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
         },
         roleSize = 0.6,
         victoryTypeDescribe = {
-            [1] = 300801,
+            [1] = 300804,
         },
         cost = {
-            [1] = {
-                [1] = 500004,
-                [2] = 6,
-            },
         },
         cameraAmendX = {
         },
         heroLimitID = {
-            [1] = 94015,
         },
         isQuickBattle = false,
-        fightCount = 99,
+        fightCount = 999,
         debutDir = 0,
         simpleName = "",
         monsterGroupId = {
-            [1] = 62803,
+            [1] = 201001,
         },
         delayCreateTime = 0,
         dailyLevelReward = {
         },
         rythem = {
         },
-        isHideTarget  = true,
+        isHideTarget  = false,
         preLevelId = {
-            [1] = 291003,
         },
-        picture = "",
-        isPlayBornAction = false,
+        picture = "scene/bg/bg_fuben_caochang.png",
+        isPlayBornAction = true,
         ifReturn = false,
-        playerLv = 2,
+        playerLv = 20,
         isBuy = false,
         starType = {
         },
         enterConditon = {
-            [1] = "2021-05-12 00:00:01",
         },
-        name = 16000590,
-        limitDungeon = 1,
+        name = 15011246,
+        limitDungeon = 0,
         buyCost = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
         },
         positionOrder = {
         },
         gateEffect = "",
-        reward = 63790142,
-        unlockBrief = 16000528,
+        reward = 0,
+        unlockBrief = 0,
         otherPreCond = {
-            time = {
-                [1] = 1620802800,
-                [2] = 1622617199,
-            },
         },
-        intendPicture = "",
+        intendPicture = "scene/bg/bg_zhunbei_caochang.png",
         dropShow = {
-            [1] = 555010,
-            [2] = 555011,
-            [3] = 510102,
-            [4] = 510152,
-            [5] = 210009,
         },
         levelAffix = {
         },
         isFree = false,
         starDescribe = {
-            [1] = 300816,
         },
-        useLinkAgeAttr = true,
-        firstReward = 63790107,
+        useLinkAgeAttr = false,
+        firstReward = 0,
         affixNumber = 0,
         time = 300,
         rewardShow = {
         },
-        buyLimit = 3,
+        buyLimit = 0,
         leaveDir = 0,
-        isPlayVictorAction = false,
-        icon = "",
+        isPlayVictorAction = true,
+        icon = "icon/dungeon/active/698.png",
         victoryParam2 = {
         },
-        num = 4,
+        num = 0,
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 100002,
+                [2] = 1,
             },
         },
         damageMonsterType = {
@@ -190150,22 +209189,21 @@ return {
         preDialog = 0,
         plotBrief = 0,
         victoryType = {
-            [1] = 1,
+            [1] = 3,
         },
-        id = 291004,
+        id = 2310070,
         previewVideo = 0,
         debutDistance = 0,
-        cameraAmend = 100,
+        cameraAmend = 150,
         monsterAttr = {
-            offsetLevel = 0,
-            levelType = 1,
         },
         limitTargetType = {
+            [1] = 4,
         },
-        levelScript = "70_9_002",
+        levelScript = "21_kabala_7",
         datingID = {
         },
-        levelGroupId = 8311,
+        levelGroupId = 8203,
     },
     [2310069] = {
         rewardMultiple = 0,
@@ -198385,7 +217423,7 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 112003,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
         dungeonName = "多队伍爬塔8层-3",
@@ -199011,7 +218049,7 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 112004,
+        levelStepID = 112104,
         quickBattleParameter = {
         },
         dungeonName = "多队伍爬塔7层-2",
@@ -200964,7 +220002,7 @@ return {
         warningTime = false,
         affixSection = {
         },
-        levelStepID = 112003,
+        levelStepID = 112103,
         quickBattleParameter = {
         },
         dungeonName = "多队伍爬塔1层-2",

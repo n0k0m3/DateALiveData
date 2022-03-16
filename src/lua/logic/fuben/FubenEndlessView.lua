@@ -33,7 +33,7 @@ function FubenEndlessView:initData(chapterCid)
             function()
                 if endlessInfo.nonStopStage ~= 0 then
                     Utils:openView("fuben.FubenEndlessJumpView")
-                else 
+                else
                     local levelCid = FubenDataMgr:getCurLevelCid()
                     if levelCid then
                         local levelCfg = FubenDataMgr:getEndlessCloisterLevelCfg(levelCid)
@@ -156,11 +156,9 @@ function FubenEndlessView:initUI(ui)
         local Label_total_name = TFDirector:getChildByPath(bg, "Label_total_name")
         Label_total_name:setSkewX(15)
         self.totalRankBtn[i] = TFDirector:getChildByPath(bg, "Button_total_rank")
-        
     end
 
     self:refreshView()
-
 end
 
 function FubenEndlessView:refreshView()

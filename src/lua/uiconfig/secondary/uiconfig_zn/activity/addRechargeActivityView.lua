@@ -141,7 +141,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 162,
-										PositionY = -10,
+										PositionY = -54,
 									},
 									uipanelviewmodel = 
 									{
@@ -330,8 +330,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -275,
-										PositionY = -250,
+										PositionX = -267,
+										PositionY = -207,
 									},
 									width = "72",
 									ZOrder = "1",
@@ -348,10 +348,10 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "131",
+									height = "63",
 									ignoreSize = "True",
 									name = "Button_recharge",
-									normal = "ui/activity/add_recharge/004.png",
+									normal = "ui/activity/add_recharge/002.png",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -360,10 +360,10 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 281,
-										PositionY = -183,
+										PositionY = -236,
 									},
 									UItype = "Button",
-									width = "330",
+									width = "180",
 									ZOrder = "1",
 								},
 							},
@@ -408,10 +408,9 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -325,
+								PositionX = -402,
 								PositionY = -207,
 							},
-							visible = "False",
 							width = "118",
 							ZOrder = "1",
 						},
@@ -542,11 +541,11 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "122",
+											height = "400",
 											ignoreSize = "True",
 											name = "Image_geted",
-											scaleX = "0.8",
-											scaleY = "0.8",
+											scaleX = "0.25",
+											scaleY = "0.25",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -558,7 +557,7 @@ local t =
 												PositionX = -1,
 												PositionY = 50,
 											},
-											width = "117",
+											width = "400",
 											ZOrder = "1",
 										},
 										{
@@ -687,13 +686,13 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "122",
+											height = "400",
 											ignoreSize = "True",
 											name = "Button_get",
 											normal = "ui/activity/add_recharge/006.png",
 											opacity = "76",
-											scaleX = "0.8",
-											scaleY = "0.8",
+											scaleX = "0.25",
+											scaleY = "0.25",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -704,7 +703,7 @@ local t =
 												PositionY = 49,
 											},
 											UItype = "Button",
-											width = "117",
+											width = "400",
 											ZOrder = "1",
 										},
 										{
@@ -802,11 +801,11 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "122",
+											height = "400",
 											ignoreSize = "True",
 											name = "Image_notGet",
-											scaleX = "0.8",
-											scaleY = "0.8",
+											scaleX = "0.29",
+											scaleY = "0.29",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -817,7 +816,7 @@ local t =
 											{
 												PositionY = 52,
 											},
-											width = "117",
+											width = "400",
 											ZOrder = "1",
 										},
 										{
@@ -883,7 +882,7 @@ local t =
 		textures = 
 		{
 			"ui/activity/picture/ad196.png",
-			"ui/activity/add_recharge/004.png",
+			"ui/activity/add_recharge/002.png",
 			"ui/activity/add_recharge/005.png",
 			"ui/activity/add_recharge/006.png",
 			"ui/activity/add_recharge/007.png",

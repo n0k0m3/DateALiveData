@@ -2085,6 +2085,57 @@ return {
             [1] = 108103,
         },
     },
+    [205023] = {
+        buffDescribe = 3210653,
+        buffIcon = "",
+        limitTargetType = 0,
+        limitTargetId = {
+            [1] = 110101,
+            [2] = 110103,
+            [3] = 110201,
+            [4] = 110208,
+            [5] = 110209,
+            [6] = 110210,
+            [7] = 110301,
+            [8] = 110302,
+            [9] = 110313,
+            [10] = 110401,
+            [11] = 110413,
+            [12] = 110501,
+            [13] = 110601,
+            [14] = 110602,
+            [15] = 110701,
+            [16] = 110801,
+            [17] = 110901,
+            [18] = 111001,
+            [19] = 112001,
+            [20] = 111301,
+            [21] = 111401,
+            [22] = 111501,
+            [23] = 111601,
+            [24] = 111701,
+            [25] = 112201,
+            [26] = 112301,
+            [27] = 112401,
+            [28] = 112501,
+            [29] = 113201,
+            [30] = 113301,
+            [31] = 113601,
+            [32] = 1137011,
+        },
+        id = 205023,
+        buffId = {
+            [1] = 70015,
+            [2] = 70016,
+            [3] = 70017,
+            [4] = 70018,
+            [5] = 70019,
+            [6] = 70020,
+            [7] = 70021,
+            [8] = 70022,
+            [9] = 70023,
+        },
+    },
     [101105] = {
         buffDescribe = 3208011,
         buffIcon = "icon/hero/affix/affix_1_jiansu.png",
@@ -4711,6 +4762,17 @@ return {
             [1] = 135106,
         },
     },
+    [300018] = {
+        buffDescribe = 0,
+        buffIcon = "",
+        limitTargetType = 1,
+        limitTargetId = {
+        },
+        id = 300018,
+        buffId = {
+            [1] = 40018,
+        },
+    },
     [200605] = {
         buffDescribe = 3210555,
         buffIcon = "",
@@ -4742,6 +4804,50 @@ return {
         id = 202907,
         buffId = {
             [1] = 135107,
+        },
+    },
+    [300016] = {
+        buffDescribe = 0,
+        buffIcon = "",
+        limitTargetType = 1,
+        limitTargetId = {
+        },
+        id = 300016,
+        buffId = {
+            [1] = 40016,
+        },
+    },
+    [300014] = {
+        buffDescribe = 0,
+        buffIcon = "",
+        limitTargetType = 1,
+        limitTargetId = {
+        },
+        id = 300014,
+        buffId = {
+            [1] = 40014,
+        },
+    },
+    [300012] = {
+        buffDescribe = 0,
+        buffIcon = "",
+        limitTargetType = 1,
+        limitTargetId = {
+        },
+        id = 300012,
+        buffId = {
+            [1] = 40012,
+        },
+    },
+    [300010] = {
+        buffDescribe = 0,
+        buffIcon = "",
+        limitTargetType = 1,
+        limitTargetId = {
+        },
+        id = 300010,
+        buffId = {
+            [1] = 40010,
         },
     },
     [201501] = {
@@ -4788,6 +4894,50 @@ return {
             [1] = 135108,
         },
     },
+    [300008] = {
+        buffDescribe = 0,
+        buffIcon = "",
+        limitTargetType = 1,
+        limitTargetId = {
+        },
+        id = 300008,
+        buffId = {
+            [1] = 40008,
+        },
+    },
+    [300006] = {
+        buffDescribe = 0,
+        buffIcon = "",
+        limitTargetType = 1,
+        limitTargetId = {
+        },
+        id = 300006,
+        buffId = {
+            [1] = 40006,
+        },
+    },
+    [300004] = {
+        buffDescribe = 0,
+        buffIcon = "",
+        limitTargetType = 1,
+        limitTargetId = {
+        },
+        id = 300004,
+        buffId = {
+            [1] = 40004,
+        },
+    },
+    [300002] = {
+        buffDescribe = 0,
+        buffIcon = "",
+        limitTargetType = 1,
+        limitTargetId = {
+        },
+        id = 300002,
+        buffId = {
+            [1] = 40002,
+        },
+    },
     [201502] = {
         buffDescribe = 3210142,
         buffIcon = "",
@@ -4832,26 +4982,48 @@ return {
             [1] = 135109,
         },
     },
-    [300018] = {
-        buffDescribe = 0,
+    [205034] = {
+        buffDescribe = 3210664,
         buffIcon = "",
-        limitTargetType = 1,
+        limitTargetType = 0,
         limitTargetId = {
         },
-        id = 300018,
+        id = 205034,
         buffId = {
-            [1] = 40018,
         },
     },
-    [300016] = {
-        buffDescribe = 0,
+    [205033] = {
+        buffDescribe = 3210663,
         buffIcon = "",
         limitTargetType = 1,
         limitTargetId = {
         },
-        id = 300016,
+        id = 205033,
         buffId = {
-            [1] = 40016,
+            [1] = 70032,
+        },
+    },
+    [205032] = {
+        buffDescribe = 3210662,
+        buffIcon = "",
+        limitTargetType = 1,
+        limitTargetId = {
+        },
+        id = 205032,
+        buffId = {
+            [1] = 70029,
+            [2] = 70030,
+            [3] = 70031,
+        },
+    },
+    [205031] = {
+        buffDescribe = 3210661,
+        buffIcon = "",
+        limitTargetType = 0,
+        limitTargetId = {
+        },
+        id = 205031,
+        buffId = {
         },
     },
     [201503] = {
@@ -4898,48 +5070,56 @@ return {
             [1] = 135110,
         },
     },
-    [300014] = {
-        buffDescribe = 0,
+    [205030] = {
+        buffDescribe = 3210660,
         buffIcon = "",
         limitTargetType = 1,
         limitTargetId = {
         },
-        id = 300014,
+        id = 205030,
         buffId = {
-            [1] = 40014,
+            [1] = 70028,
         },
     },
-    [300012] = {
-        buffDescribe = 0,
+    [205029] = {
+        buffDescribe = 3210659,
         buffIcon = "",
         limitTargetType = 1,
         limitTargetId = {
+            [1] = 112701,
+            [2] = 110101,
+            [3] = 110501,
+            [4] = 110701,
+            [5] = 110801,
+            [6] = 110901,
+            [7] = 111401,
+            [8] = 111701,
+            [9] = 112801,
         },
-        id = 300012,
+        id = 205029,
         buffId = {
-            [1] = 40012,
+            [1] = 70027,
         },
     },
-    [300010] = {
-        buffDescribe = 0,
+    [205028] = {
+        buffDescribe = 3210658,
         buffIcon = "",
-        limitTargetType = 1,
+        limitTargetType = 0,
         limitTargetId = {
         },
-        id = 300010,
+        id = 205028,
         buffId = {
-            [1] = 40010,
         },
     },
-    [300008] = {
-        buffDescribe = 0,
+    [205027] = {
+        buffDescribe = 3210657,
         buffIcon = "",
         limitTargetType = 1,
         limitTargetId = {
         },
-        id = 300008,
+        id = 205027,
         buffId = {
-            [1] = 40008,
+            [1] = 70026,
         },
     },
     [201504] = {
@@ -4975,37 +5155,36 @@ return {
             [1] = 123106,
         },
     },
-    [300006] = {
-        buffDescribe = 0,
+    [205026] = {
+        buffDescribe = 3210656,
         buffIcon = "",
         limitTargetType = 1,
         limitTargetId = {
         },
-        id = 300006,
+        id = 205026,
         buffId = {
-            [1] = 40006,
+            [1] = 70025,
         },
     },
-    [300004] = {
-        buffDescribe = 0,
+    [205025] = {
+        buffDescribe = 3210655,
         buffIcon = "",
-        limitTargetType = 1,
+        limitTargetType = 0,
         limitTargetId = {
         },
-        id = 300004,
+        id = 205025,
         buffId = {
-            [1] = 40004,
         },
     },
-    [300002] = {
-        buffDescribe = 0,
+    [205024] = {
+        buffDescribe = 3210654,
         buffIcon = "",
         limitTargetType = 1,
         limitTargetId = {
         },
-        id = 300002,
+        id = 205024,
         buffId = {
-            [1] = 40002,
+            [1] = 70024,
         },
     },
     [205002] = {

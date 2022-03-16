@@ -2458,8 +2458,8 @@ return {
         levelType = 1,
     },
     [157] = {
-        isOpen = false,
-        openLevel = 99,
+        isOpen = true,
+        openLevel = 55,
         isStinger = false,
         id = 157,
         openDun = 0,
@@ -2469,7 +2469,7 @@ return {
         serverId = 3,
         showIcon = false,
         stingerDating = "",
-        name = "",
+        name = "15010267",
         unlockExplain = {
             [1] = 1,
             [2] = 3203019,

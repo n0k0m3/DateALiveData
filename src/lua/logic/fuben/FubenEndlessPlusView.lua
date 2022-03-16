@@ -9,6 +9,8 @@ function FubenEndlessPlusView:initData()
     self.floorItem_ = {}
 
     self.FloorDungeonLevelCfg = TabDataMgr:getData("FloorDungeonLevel")
+
+    self.selectFloorCid = 1
 end
 
 function FubenEndlessPlusView:ctor(...)
@@ -33,6 +35,7 @@ function FubenEndlessPlusView:initUI(ui)
     local ScrollView_reward = TFDirector:getChildByPath(ui, "ScrollView_reward")
     self.UIListView_reward = UIListView:create(ScrollView_reward)
     self.Label_floor_desc = TFDirector:getChildByPath(ui, "Label_floor_desc")
+    self.Label_fubenPassTime = TFDirector:getChildByPath(ui, "Label_fubenPassTime")
 
     self.Panel_floor_item = TFDirector:getChildByPath(ui, "Panel_floor_item")
     self.Panel_level_item = TFDirector:getChildByPath(ui, "Panel_level_item")
@@ -42,8 +45,10 @@ function FubenEndlessPlusView:initUI(ui)
     self.Button_store = TFDirector:getChildByPath(ui, "Button_store")
     self.Button_fight = TFDirector:getChildByPath(ui, "Button_fight")
     self.Button_task = TFDirector:getChildByPath(ui, "Button_task")
-
+    self.Image_redTips = TFDirector:getChildByPath(ui, "Image_redtip")
     self.Label_end_time = TFDirector:getChildByPath(ui, "Label_end_time")
+
+    self:updateTaskTip()
 end
 
 function FubenEndlessPlusView:updateFloorInfo()
@@ -59,7 +64,8 @@ function FubenEndlessPlusView:updateFloorInfo()
     if serverTime > kvpCfg.etime then
         self.Label_end_time:setTextById(1710021)
     else
-        self.Label_end_time:setTextById(1410001, Utils:getDate(kvpCfg.etime))
+        local text = TextDataMgr:getText(1410001, Utils:getUTCDateYMD(kvpCfg.etime, false , GV_UTC_TIME_ZONE))
+        self.Label_end_time:setText(text ..GV_UTC_TIME_STRING)
     end
 
 
@@ -180,7 +186,7 @@ function FubenEndlessPlusView:updateFloorItem(cell,index)
     end
 
     cell.item:onClick(function()
-        --self:selectFloor(floorId)
+        self:selectFloor(floorId)
     end)
 end
 
@@ -192,9 +198,27 @@ function FubenEndlessPlusView:selectFloor(selectFloorCid)
         return
     end
 
+    self.selectFloorCid = selectFloorCid
     for k,v in ipairs(self.floorItem_) do
         local Image_select = TFDirector:getChildByPath(v, "Image_select")
         Image_select:setVisible(v.idx == selectFloorCid)
+        local Image_finish = TFDirector:getChildByPath(v, "Image_finish")
+        Image_finish:setVisible(v.idx ~= selectFloorCid and v.idx < curFloorId+1)
+        local Image_fighting = TFDirector:getChildByPath(v, "Image_fighting")
+        Image_fighting:setVisible(curFloorId + 1 ~= selectFloorCid and v.idx == curFloorId+1)
+
+        -- print(k .. ":vid=" .. v.idx.."   selectFloorCid:".. selectFloorCid .. "    curFloorId:" ..curFloorId)
+
+        local Label_state_tip = TFDirector:getChildByPath(v, "Label_state_tip")
+        if Image_select:isVisible() then
+            Label_state_tip:setTextById(15011151)
+        end
+        if Image_finish:isVisible() then
+            Label_state_tip:setTextById(303039)
+        end
+        if Image_fighting:isVisible() then
+            Label_state_tip:setTextById(15011149)
+        end
     end
 
     local data = self.floorTab[selectFloorCid] or {}
@@ -203,10 +227,16 @@ function FubenEndlessPlusView:selectFloor(selectFloorCid)
     self.Label_floor_desc:setTextById(data.describe)
 
     local isPass = false
-    local passTime = FubenEndlessPlusDataMgr:getPassRecordByFloor(data.id)
+    local passTime = FubenEndlessPlusDataMgr:getPassRecordByFloor(data.floor)
+        -- dump(data,"==================34625346ytasdgsgadgasddddddddddddddddddd=====",10)
     if passTime then
+        local sec = math.floor(passTime/1000)
+        local min = math.floor(sec/60)
+        sec = sec%60
+        self.Label_fubenPassTime:setText(TextDataMgr:getText(300618) .."：".. TextDataMgr:getText(14300301, min, sec))
         isPass = true
     end
+    self.Label_fubenPassTime:setVisible(isPass)
 
     self.UIListView_reward:removeAllItems()
     local reward = data.reward or {}
@@ -216,6 +246,7 @@ function FubenEndlessPlusView:selectFloor(selectFloorCid)
 
         local Image_item = TFDirector:getChildByPath(item, "Image_item")
         local Image_geted = TFDirector:getChildByPath(item, "Image_geted"):hide()
+        local Panel_mask = TFDirector:getChildByPath(item, "Panel_mask"):hide()
         local Panel_goodsItem = Image_item:getChildByName("Panel_goodsItem")
         if not Panel_goodsItem then
             Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
@@ -226,6 +257,7 @@ function FubenEndlessPlusView:selectFloor(selectFloorCid)
         end
         PrefabDataMgr:setInfo(Panel_goodsItem, k, v)
         Image_geted:setVisible(isPass)
+        Panel_mask:setVisible(isPass)
     end
 
 end
@@ -262,14 +294,14 @@ end
 
 function FubenEndlessPlusView:jumpToPlusSquadView()
 
-    local curFloorId = FubenEndlessPlusDataMgr:getCurFloorCid()
-    local nextFloorId = curFloorId + 1
+    -- local curFloorId = FubenEndlessPlusDataMgr:getCurFloorCid()
+    local nextFloorId = self.selectFloorCid
     nextFloorId = nextFloorId > #self.floorTab and #self.floorTab or nextFloorId
-    local passTime = FubenEndlessPlusDataMgr:getPassRecordByFloor(nextFloorId)
-    if passTime then
-        Utils:showTips(15011148)
-        return
-    end
+    -- local passTime = FubenEndlessPlusDataMgr:getPassRecordByFloor(nextFloorId)
+    -- if passTime then
+    --     Utils:showTips(15011148)
+    --     return
+    -- end
 
 
     Utils:openView("fuben.FubenEndlessPlusSquadView",nextFloorId)
@@ -283,11 +315,17 @@ function FubenEndlessPlusView:onQueryInfoEvent(playerInfo)
     end
 end
 
+function FubenEndlessPlusView:updateTaskTip()
+    local isCanReceive = TaskDataMgr:isCanReceiveTask(EC_TaskType.ENDLESS_PLUSS)
+    self.Image_redTips:setVisible(isCanReceive)
+end
+
 function FubenEndlessPlusView:registerEvents()
 
     -------全局事件-----
     EventMgr:addEventListener(self, EV_UPDATE_ENDLESSPLUS_ALLINFO, handler(self.updateFloorInfo, self))
     EventMgr:addEventListener(self, EV_RECV_PLAYERINFO, handler(self.onQueryInfoEvent, self))
+    EventMgr:addEventListener(self, EV_TASK_UPDATE, handler(self.updateTaskTip, self))
 
     self.Button_store:onClick(function()
         FunctionDataMgr:jStore(403000)

@@ -289,6 +289,11 @@ return {
         text = "Typ: Kostüm-Farbschema\nCharakter: Kurumi Tokisaki - [Lebenslanger Wächter]\nIm Kerzenlicht tanzend, unsere Finger ineinander verschlungen. Du wirst immer mir gehören, mein Geliebter.",
         minipack = 0,
     },
+    [190011148] = {
+        id = 190011148,
+        text = "Holy DMG Bonus +15% for 60s",
+        minipack = 0,
+    },
     [190016012] = {
         id = 190016012,
         text = "Date - Info",
@@ -4074,6 +4079,11 @@ return {
         text = "Typ: Kostüm\nBesitzer: Tsuan\ntemp temp temp",
         minipack = 0,
     },
+    [190011150] = {
+        id = 190011150,
+        text = "Holy DMG Bonus +15% for 60s",
+        minipack = 0,
+    },
     [252009] = {
         id = 252009,
         text = "%s wird hergestellt",
@@ -4121,7 +4131,7 @@ return {
     },
     [190016270] = {
         id = 190016270,
-        text = "Bifrost",
+        text = "Kotori's Special Training",
         minipack = 0,
     },
     [252014] = {
@@ -5582,6 +5592,11 @@ return {
     [20246] = {
         id = 20246,
         text = "Typ: Kostüm\nBesitzer: Ais Wallenstein\ntemp temp temp",
+        minipack = 0,
+    },
+    [190011151] = {
+        id = 190011151,
+        text = "Dark DMG Bonus +30% for 60s",
         minipack = 0,
     },
     [2460202] = {
@@ -7457,6 +7472,11 @@ return {
     [20254] = {
         id = 20254,
         text = "Typ: Kostüm\nBesitzer: Tohka Yatogami\nDer Weihnachtsmann ist dieses Jahr sehr beschäftigt, also wurde ich geschickt, um dir die Weihnachtsüberraschung zu geben~",
+        minipack = 0,
+    },
+    [190011152] = {
+        id = 190011152,
+        text = "Holy DMG Bonus +30% for 60s",
         minipack = 0,
     },
     [910229] = {
@@ -10812,6 +10832,11 @@ return {
     [20270] = {
         id = 20270,
         text = "Type: Costume\nOwner: Origami Tobiichi\nSincere heart, unbreakable bond. From now, to eternity~",
+        minipack = 0,
+    },
+    [190011154] = {
+        id = 190011154,
+        text = "M. RES -40%",
         minipack = 0,
     },
     [2201130] = {
@@ -18524,6 +18549,16 @@ return {
         text = "Put your right arm around my waist, right...Not my leg! Watch your hands!",
         minipack = 0,
     },
+    [14400459] = {
+        id = 14400459,
+        text = "Ah~ I am so happy~... Ahem, even the wind seems to be dancing!",
+        minipack = 0,
+    },
+    [14400467] = {
+        id = 14400467,
+        text = "Request. Can you do that again?",
+        minipack = 0,
+    },
     [10403008] = {
         id = 10403008,
         text = "[Zafkiels Griffe] Fügt Energie-Feinden +8% SCH zu.",
@@ -18594,6 +18629,11 @@ return {
         text = "Wenn [Zeitfressende Burg] aktiviert ist, können sich die Feinde darin 5 Sek. lang nicht bewegen.",
         minipack = 0,
     },
+    [20321] = {
+        id = 20321,
+        text = "Perfect Staff",
+        minipack = 0,
+    },
     [100000000] = {
         id = 100000000,
         text = "Reserviert für ausländische Builds",
@@ -18647,6 +18687,11 @@ return {
     [1010703] = {
         id = 1010703,
         text = "Ein Kegel würde schon reichen...",
+        minipack = 0,
+    },
+    [20322] = {
+        id = 20322,
+        text = "Type: Costume\nOwner: Kaguya Yamai\nManner, perfect! Expression, perfect! Outfit, perfect! The best staff admitted by my kinsman!",
         minipack = 0,
     },
     [1010711] = {
@@ -18752,6 +18797,11 @@ return {
     [112000137] = {
         id = 112000137,
         text = "Lv.35",
+        minipack = 0,
+    },
+    [20323] = {
+        id = 20323,
+        text = "Perfect Manager",
         minipack = 0,
     },
     [276001] = {
@@ -18912,6 +18962,11 @@ return {
     [276016] = {
         id = 276016,
         text = "Glückwunsch an das Clubmitglied %s, das so viel ausgegeben hat, um seine Waifus glücklich zu machen und den Titel - %s zu erhalten.",
+        minipack = 0,
+    },
+    [20324] = {
+        id = 20324,
+        text = "Type: Costume\nOwner: Yuzuru Yamai\nSmile. What do you need of me, my lord?",
         minipack = 0,
     },
     [276017] = {
@@ -90284,6 +90339,11 @@ return {
         text = "Put your right arm around my waist.",
         minipack = 0,
     },
+    [14400462] = {
+        id = 14400462,
+        text = "Look, if you can't see through the surface, then don't make such a rash move.",
+        minipack = 0,
+    },
     [282101] = {
         id = 282101,
         text = "Temporärer Eid endet in: %.2d Tag %.2d:%.2d:00",
@@ -107579,9 +107639,39 @@ return {
         text = "The exploration team has strayed into a special area and is waiting for support.",
         minipack = 0,
     },
+    [190011153] = {
+        id = 190011153,
+        text = "Get +5% Magic DMG per second",
+        minipack = 0,
+    },
+    [190011149] = {
+        id = 190011149,
+        text = "Dark DMG Bonus +15% for 60s",
+        minipack = 0,
+    },
+    [244208] = {
+        id = 244208,
+        text = "[Blue Robin] signed autographs for her fans and received their praise.",
+        minipack = 0,
+    },
+    [190011146] = {
+        id = 190011146,
+        text = "Frost DMG Bonus +60%",
+        minipack = 0,
+    },
+    [190011145] = {
+        id = 190011145,
+        text = "DMG Bonus +30% for 3s",
+        minipack = 0,
+    },
     [13200905] = {
         id = 13200905,
         text = "※Exploration event ignored",
+        minipack = 0,
+    },
+    [266758] = {
+        id = 266758,
+        text = "Obtained by activating month card in July",
         minipack = 0,
     },
     [13200921] = {
@@ -107592,6 +107682,41 @@ return {
     [60018] = {
         id = 60018,
         text = "Mail-Tipps",
+        minipack = 0,
+    },
+    [3210016] = {
+        id = 3210016,
+        text = "Dunkel-SCH +11%",
+        minipack = 0,
+    },
+    [15010154] = {
+        id = 15010154,
+        text = "Times",
+        minipack = 0,
+    },
+    [295002] = {
+        id = 295002,
+        text = "Dear Covenanters, it's been %s days since you last logged in. Perhaps the fatigue of life has kept you away from Tengu City, but whenever you return, the spirits will always be here, waiting by your side. Come on.. let's start our date! DAL: Dating Never Stops!",
+        minipack = 0,
+    },
+    [14400470] = {
+        id = 14400470,
+        text = "Thank you. You saved Yuzuru and Kaguya. Please allow Yuzuru to serve you.",
+        minipack = 0,
+    },
+    [14400469] = {
+        id = 14400469,
+        text = "Pleasant. Never thought it would be so interesting.",
+        minipack = 0,
+    },
+    [14400468] = {
+        id = 14400468,
+        text = "Frank. Chatting with you has a distinctive flavor. I can stay a little longer.",
+        minipack = 0,
+    },
+    [3001001] = {
+        id = 3001001,
+        text = "Malkuth",
         minipack = 0,
     },
     [2202601] = {
@@ -107612,6 +107737,41 @@ return {
     [2202607] = {
         id = 2202607,
         text = "Perfect Dodge",
+        minipack = 0,
+    },
+    [1706072] = {
+        id = 1706072,
+        text = "[Theater: Arusu] Fated Reunion",
+        minipack = 0,
+    },
+    [14400464] = {
+        id = 14400464,
+        text = "Then don't make such a rash move",
+        minipack = 0,
+    },
+    [295003] = {
+        id = 295003,
+        text = "Common Costume Choice Chest A",
+        minipack = 0,
+    },
+    [14400461] = {
+        id = 14400461,
+        text = "That's more likely, just look forward to it!",
+        minipack = 0,
+    },
+    [14400460] = {
+        id = 14400460,
+        text = "My kinsman, come to have a great time with me.",
+        minipack = 0,
+    },
+    [3001003] = {
+        id = 3001003,
+        text = "Hod",
+        minipack = 0,
+    },
+    [14400457] = {
+        id = 14400457,
+        text = "Did something happen?",
         minipack = 0,
     },
     [2460184] = {
@@ -119954,14 +120114,14 @@ return {
         text = "Right... not my leg!",
         minipack = 0,
     },
-    [295003] = {
-        id = 295003,
-        text = "Common Costume Choice Chest A",
+    [14400463] = {
+        id = 14400463,
+        text = "Look, if you can't see through the surface",
         minipack = 0,
     },
-    [295002] = {
-        id = 295002,
-        text = "Dear Covenanters, it's been %s days since you last logged in. Perhaps the fatigue of life has kept you away from Tengu City, but whenever you return, the spirits will always be here, waiting by your side. Come on.. let's start our date! DAL: Dating Never Stops!",
+    [14400471] = {
+        id = 14400471,
+        text = "Frank. Chatting with you has a distinctive flavor.",
         minipack = 0,
     },
     [295001] = {
@@ -132451,7 +132611,7 @@ return {
     },
     [15010270] = {
         id = 15010270,
-        text = "1. In the Bifrost Tower, Covenanters can have their characters challenge instances.\n2. Each level gives a 1st win reward.\n3. All stages of the current level must be cleared before the next level can be unlocked.\n4. To complete a level, Covenanters must clear all cubicles.\n5. The time used for clearing each stage will be recorded, you can challenge again to set new record. However, repeated challenges do not give rewards.",
+        text = "1. In Kotori's Special Training, Covenanters can have their characters challenge instances.\n2. Each level gives a 1st win rewards, and the 1st win rewards will be reset each phase.\n3. All stages of the current level must be cleared before the next level can be unlocked.\n4. To complete a level, Covenanters must clear all cubicles.\n5. The Training Store is available with the opening of the training and closes as the training ends, however valuable items such as Astral Dresses and costumes in the store won't be replaced or reset, meanwhile, the purchase chances of other items will be reset.",
         minipack = 0,
     },
     [15010278] = {
@@ -160924,9 +161084,9 @@ return {
         text = "Kurumi Haupt-CG1",
         minipack = 0,
     },
-    [15010154] = {
-        id = 15010154,
-        text = "Times",
+    [14400472] = {
+        id = 14400472,
+        text = "I can stay with you a little longer",
         minipack = 0,
     },
     [450035] = {
@@ -201879,9 +202039,9 @@ return {
         text = "SS-Klasse Energie-Edelstein, erhalte es, um einen SS-Klasse Edelstein für eine zufällige Fähigkeit von [Mordred Origami] zu erhalten. (Wird nach Erhalt automatisch verwendet)",
         minipack = 0,
     },
-    [1706072] = {
-        id = 1706072,
-        text = "[Theater: Arusu] Fated Reunion",
+    [14400465] = {
+        id = 14400465,
+        text = "Joyful. Are you really going on a date with me?",
         minipack = 0,
     },
     [12000096] = {
@@ -214376,7 +214536,7 @@ return {
     },
     [15010272] = {
         id = 15010272,
-        text = "1. In the Bifrost Tower, each cubicle requires different Spirits, at least 1\n2. After the battle starts, Covenanters need to clear all stages of the current level to win.\n3. After leaving in the middle of a battle, Covenanters will need to start from the first cubicle next time, and their battle data will not be recorded.\n4. If unsatisfied with the result of a stage, Covenanters can rechallenge it in the Pause UI.",
+        text = "1. In Kotori's Special Training, each cubicle requires different Spirits, at least 1.\n2. After the battle starts, Covenanters need to clear all stages of the current level to win.\n3. After leaving in the middle of a battle, Covenanters will need to start from the first cubicle next time, and their battle data will not be recorded.\n4. If unsatisfied with the result of a stage, Covenanters can rechallenge it in the Pause UI.\n5. Different buffs will be provided each phase and the buffs will take effect in battles.",
         minipack = 0,
     },
     [15010280] = {
@@ -239554,9 +239714,9 @@ return {
         text = "Typ: Kostüm\nBesitzer: Miku Izayoi\nHoch am Himmel weht ein Drachen im Wind. Höre dir zusammen mit Idol Miku die Kirschen-Ballade an, die von den fallenden Sakurablüten geschrieben wurde.",
         minipack = 0,
     },
-    [3210016] = {
-        id = 3210016,
-        text = "Dunkel-SCH +11%",
+    [190011143] = {
+        id = 190011143,
+        text = "Space DMG +60%",
         minipack = 0,
     },
     [3202016] = {
@@ -242114,9 +242274,9 @@ return {
         text = "Typ: Kostüm\nBesitzer: Natsumi\nEine heiße Sonne, die nicht einmal ein Erdbeer-süßer Badeanzug und ein Faltenrock aufhalten können. Sogar ihr Haar will diesen heißen Sommer süß und sauer machen.",
         minipack = 0,
     },
-    [266758] = {
-        id = 266758,
-        text = "Obtained by activating month card in July",
+    [190011144] = {
+        id = 190011144,
+        text = "Physical DMG +60%",
         minipack = 0,
     },
     [1025012] = {
@@ -242834,14 +242994,14 @@ return {
         text = "Dresses are the special weapons of elegant ladies.",
         minipack = 0,
     },
-    [3001003] = {
-        id = 3001003,
-        text = "Hod",
+    [14400458] = {
+        id = 14400458,
+        text = "Let's have a perfect date!",
         minipack = 0,
     },
-    [3001001] = {
-        id = 3001001,
-        text = "Malkuth",
+    [14400466] = {
+        id = 14400466,
+        text = "Admire. Such a luxury for Yuzuru to enjoy you alone.",
         minipack = 0,
     },
     [25090] = {
@@ -249794,9 +249954,9 @@ return {
         text = "Typ: Kostüm\nBesitzer: Maria Arusu\nIch glaube, meine Brust [erwärmt sich] und die [Daten] werden chaotisch. Diese [Programmfehler] fühlt sich irgendwie befriedigend an, ist es Liebe?",
         minipack = 0,
     },
-    [244208] = {
-        id = 244208,
-        text = "[Blue Robin] signed autographs for her fans and received their praise.",
+    [190011147] = {
+        id = 190011147,
+        text = "Dark DMG Bonus +15% for 60s",
         minipack = 0,
     },
     [244200] = {

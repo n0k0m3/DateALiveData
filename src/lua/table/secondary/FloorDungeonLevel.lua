@@ -1,6 +1,150 @@
 return {
-    [2310002] = {
-        nextDungeon = 2310001,
+    [2310074] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310075,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310074,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010233,
+        floorId = 3,
+    },
+    [2310076] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310077,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310076,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 4,
+    },
+    [2310078] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310079,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310078,
+        icon = {
+            [1] = "icon/hero/battle/boss_no10.png",
+        },
+        dungeonName = 15010233,
+        floorId = 5,
+    },
+    [2310080] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310081,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310080,
+        icon = {
+            [1] = "icon/hero/battle/boss_no11.png",
+        },
+        dungeonName = 15010233,
+        floorId = 6,
+    },
+    [2310082] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310083,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310082,
+        icon = {
+            [1] = "icon/hero/battle/boss_no6.png",
+        },
+        dungeonName = 15010233,
+        floorId = 7,
+    },
+    [2310084] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310085,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310084,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010234,
+        floorId = 8,
+    },
+    [2310086] = {
+        nextDungeon = 2310085,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310086,
+        icon = {
+            [1] = "icon/hero/battle/DEM_01.png",
+            [2] = "icon/hero/battle/DEM_02.png",
+            [3] = "icon/hero/battle/DEM_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 8,
+    },
+    [2310088] = {
+        nextDungeon = 2310087,
+        lastDungeon = 0,
+        preLevelId = 2310089,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310088,
+        icon = {
+            [1] = "icon/hero/battle/boss_no10.png",
+        },
+        dungeonName = 15010233,
+        floorId = 9,
+    },
+    [2310090] = {
+        nextDungeon = 2310091,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310090,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010232,
+        floorId = 10,
+    },
+    [2310092] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310091,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310092,
+        icon = {
+            [1] = "icon/hero/battle/boss_no11.png",
+        },
+        dungeonName = 15010234,
+        floorId = 10,
+    },
+    [2310094] = {
+        nextDungeon = 2310093,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
@@ -8,7 +152,7 @@ return {
             [2] = 80,
             [3] = 80,
         },
-        id = 2310002,
+        id = 2310094,
         icon = {
             [1] = "icon/hero/battle/robot_01.png",
             [2] = "icon/hero/battle/robot_02.png",
@@ -17,8 +161,8 @@ return {
         dungeonName = 15010232,
         floorId = 1,
     },
-    [2310004] = {
-        nextDungeon = 2310003,
+    [2310096] = {
+        nextDungeon = 2310095,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
@@ -26,7 +170,7 @@ return {
             [2] = 80,
             [3] = 80,
         },
-        id = 2310004,
+        id = 2310096,
         icon = {
             [1] = "icon/hero/battle/AST_01.png",
             [2] = "icon/hero/battle/AST_02.png",
@@ -35,8 +179,8 @@ return {
         dungeonName = 15010232,
         floorId = 2,
     },
-    [2310006] = {
-        nextDungeon = 2310005,
+    [2310098] = {
+        nextDungeon = 2310097,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
@@ -44,7 +188,7 @@ return {
             [2] = 80,
             [3] = 80,
         },
-        id = 2310006,
+        id = 2310098,
         icon = {
             [1] = "icon/hero/battle/robot_03.png",
             [2] = "icon/hero/battle/robot_05.png",
@@ -53,8 +197,8 @@ return {
         dungeonName = 15010232,
         floorId = 3,
     },
-    [2310008] = {
-        nextDungeon = 2310007,
+    [2310100] = {
+        nextDungeon = 2310099,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
@@ -62,7 +206,7 @@ return {
             [2] = 85,
             [3] = 85,
         },
-        id = 2310008,
+        id = 2310100,
         icon = {
             [1] = "icon/hero/battle/DEM_01.png",
             [2] = "icon/hero/battle/DEM_02.png",
@@ -71,8 +215,8 @@ return {
         dungeonName = 15010232,
         floorId = 4,
     },
-    [2310010] = {
-        nextDungeon = 2310009,
+    [2310102] = {
+        nextDungeon = 2310101,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
@@ -80,7 +224,7 @@ return {
             [2] = 85,
             [3] = 85,
         },
-        id = 2310010,
+        id = 2310102,
         icon = {
             [1] = "icon/hero/battle/energy_02.png",
             [2] = "icon/hero/battle/energy_03.png",
@@ -89,8 +233,8 @@ return {
         dungeonName = 15010232,
         floorId = 5,
     },
-    [2310012] = {
-        nextDungeon = 2310011,
+    [2310104] = {
+        nextDungeon = 2310103,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
@@ -98,7 +242,7 @@ return {
             [2] = 85,
             [3] = 85,
         },
-        id = 2310012,
+        id = 2310104,
         icon = {
             [1] = "icon/hero/battle/AST_01.png",
             [2] = "icon/hero/battle/AST_02.png",
@@ -107,8 +251,8 @@ return {
         dungeonName = 15010232,
         floorId = 6,
     },
-    [2310014] = {
-        nextDungeon = 2310013,
+    [2310106] = {
+        nextDungeon = 2310105,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
@@ -116,7 +260,7 @@ return {
             [2] = 90,
             [3] = 90,
         },
-        id = 2310014,
+        id = 2310106,
         icon = {
             [1] = "icon/hero/battle/robot_01.png",
             [2] = "icon/hero/battle/robot_02.png",
@@ -125,36 +269,36 @@ return {
         dungeonName = 15010232,
         floorId = 7,
     },
-    [2310016] = {
-        nextDungeon = 2310015,
+    [2310108] = {
+        nextDungeon = 2310107,
         lastDungeon = 0,
-        preLevelId = 2310017,
+        preLevelId = 2310109,
         monsterLevel = {
             [1] = 90,
         },
-        id = 2310016,
+        id = 2310108,
         icon = {
             [1] = "icon/hero/battle/boss_no9.png",
         },
         dungeonName = 15010233,
         floorId = 8,
     },
-    [2310018] = {
+    [2310110] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310019,
+        preLevelId = 2310111,
         monsterLevel = {
             [1] = 90,
         },
-        id = 2310018,
+        id = 2310110,
         icon = {
             [1] = "icon/hero/battle/boss_no7.png",
         },
         dungeonName = 15010234,
         floorId = 9,
     },
-    [2310020] = {
-        nextDungeon = 2310019,
+    [2310112] = {
+        nextDungeon = 2310111,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
@@ -162,7 +306,7 @@ return {
             [2] = 90,
             [3] = 90,
         },
-        id = 2310020,
+        id = 2310112,
         icon = {
             [1] = "icon/hero/battle/energy_02.png",
             [2] = "icon/hero/battle/energy_03.png",
@@ -171,75 +315,847 @@ return {
         dungeonName = 15010232,
         floorId = 9,
     },
-    [2310022] = {
-        nextDungeon = 2310023,
+    [2310114] = {
+        nextDungeon = 2310115,
         lastDungeon = 0,
-        preLevelId = 2310021,
+        preLevelId = 2310113,
         monsterLevel = {
             [1] = 100,
         },
-        id = 2310022,
+        id = 2310114,
         icon = {
             [1] = "icon/hero/battle/boss_no9.png",
         },
         dungeonName = 15010233,
         floorId = 10,
     },
-    [2310024] = {
+    [2310116] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310025,
+        preLevelId = 2310117,
         monsterLevel = {
             [1] = 80,
         },
-        id = 2310024,
+        id = 2310116,
         icon = {
             [1] = "icon/hero/battle/boss_no6.png",
         },
         dungeonName = 15010233,
         floorId = 1,
     },
-    [2310026] = {
+    [2310118] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310027,
+        preLevelId = 2310119,
         monsterLevel = {
             [1] = 80,
         },
-        id = 2310026,
+        id = 2310118,
         icon = {
             [1] = "icon/hero/battle/boss_no7.png",
         },
         dungeonName = 15010233,
         floorId = 2,
     },
-    [2310028] = {
+    [2310120] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310029,
+        preLevelId = 2310121,
         monsterLevel = {
             [1] = 80,
         },
-        id = 2310028,
+        id = 2310120,
         icon = {
             [1] = "icon/hero/battle/boss_no8.png",
         },
         dungeonName = 15010233,
         floorId = 3,
     },
-    [2310030] = {
+    [2310122] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310031,
+        preLevelId = 2310123,
         monsterLevel = {
             [1] = 85,
         },
-        id = 2310030,
+        id = 2310122,
         icon = {
             [1] = "icon/hero/battle/boss_no9.png",
         },
         dungeonName = 15010233,
         floorId = 4,
+    },
+    [2310124] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310125,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310124,
+        icon = {
+            [1] = "icon/hero/battle/boss_no10.png",
+        },
+        dungeonName = 15010233,
+        floorId = 5,
+    },
+    [2310126] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310127,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310126,
+        icon = {
+            [1] = "icon/hero/battle/boss_no11.png",
+        },
+        dungeonName = 15010233,
+        floorId = 6,
+    },
+    [2310128] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310129,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310128,
+        icon = {
+            [1] = "icon/hero/battle/boss_no6.png",
+        },
+        dungeonName = 15010233,
+        floorId = 7,
+    },
+    [2310130] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310131,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310130,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010234,
+        floorId = 8,
+    },
+    [2310132] = {
+        nextDungeon = 2310131,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310132,
+        icon = {
+            [1] = "icon/hero/battle/DEM_01.png",
+            [2] = "icon/hero/battle/DEM_02.png",
+            [3] = "icon/hero/battle/DEM_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 8,
+    },
+    [2310134] = {
+        nextDungeon = 2310133,
+        lastDungeon = 0,
+        preLevelId = 2310135,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310134,
+        icon = {
+            [1] = "icon/hero/battle/boss_no10.png",
+        },
+        dungeonName = 15010233,
+        floorId = 9,
+    },
+    [2310136] = {
+        nextDungeon = 2310137,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310136,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010232,
+        floorId = 10,
+    },
+    [2310138] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310137,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310138,
+        icon = {
+            [1] = "icon/hero/battle/boss_no11.png",
+        },
+        dungeonName = 15010234,
+        floorId = 10,
+    },
+    [2310140] = {
+        nextDungeon = 2310139,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310140,
+        icon = {
+            [1] = "icon/hero/battle/robot_01.png",
+            [2] = "icon/hero/battle/robot_02.png",
+            [3] = "icon/hero/battle/robot_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 1,
+    },
+    [2310142] = {
+        nextDungeon = 2310141,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310142,
+        icon = {
+            [1] = "icon/hero/battle/AST_01.png",
+            [2] = "icon/hero/battle/AST_02.png",
+            [3] = "icon/hero/battle/AST_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 2,
+    },
+    [2310144] = {
+        nextDungeon = 2310143,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310144,
+        icon = {
+            [1] = "icon/hero/battle/robot_03.png",
+            [2] = "icon/hero/battle/robot_05.png",
+            [3] = "icon/hero/battle/robot_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 3,
+    },
+    [2310146] = {
+        nextDungeon = 2310145,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310146,
+        icon = {
+            [1] = "icon/hero/battle/DEM_01.png",
+            [2] = "icon/hero/battle/DEM_02.png",
+            [3] = "icon/hero/battle/DEM_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 4,
+    },
+    [2310148] = {
+        nextDungeon = 2310147,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310148,
+        icon = {
+            [1] = "icon/hero/battle/energy_02.png",
+            [2] = "icon/hero/battle/energy_03.png",
+            [3] = "icon/hero/battle/energy_04.png",
+        },
+        dungeonName = 15010232,
+        floorId = 5,
+    },
+    [2310150] = {
+        nextDungeon = 2310149,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310150,
+        icon = {
+            [1] = "icon/hero/battle/AST_01.png",
+            [2] = "icon/hero/battle/AST_02.png",
+            [3] = "icon/hero/battle/AST_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 6,
+    },
+    [2310152] = {
+        nextDungeon = 2310151,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310152,
+        icon = {
+            [1] = "icon/hero/battle/robot_01.png",
+            [2] = "icon/hero/battle/robot_02.png",
+            [3] = "icon/hero/battle/robot_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 7,
+    },
+    [2310154] = {
+        nextDungeon = 2310153,
+        lastDungeon = 0,
+        preLevelId = 2310155,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310154,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 8,
+    },
+    [2310156] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310157,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310156,
+        icon = {
+            [1] = "icon/hero/battle/boss_no7.png",
+        },
+        dungeonName = 15010234,
+        floorId = 9,
+    },
+    [2310158] = {
+        nextDungeon = 2310157,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310158,
+        icon = {
+            [1] = "icon/hero/battle/energy_02.png",
+            [2] = "icon/hero/battle/energy_03.png",
+            [3] = "icon/hero/battle/energy_04.png",
+        },
+        dungeonName = 15010232,
+        floorId = 9,
+    },
+    [2310160] = {
+        nextDungeon = 2310161,
+        lastDungeon = 0,
+        preLevelId = 2310159,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310160,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 10,
+    },
+    [2310162] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310163,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310162,
+        icon = {
+            [1] = "icon/hero/battle/boss_no6.png",
+        },
+        dungeonName = 15010233,
+        floorId = 1,
+    },
+    [2310164] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310165,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310164,
+        icon = {
+            [1] = "icon/hero/battle/boss_no7.png",
+        },
+        dungeonName = 15010233,
+        floorId = 2,
+    },
+    [2310166] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310167,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310166,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010233,
+        floorId = 3,
+    },
+    [2310168] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310169,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310168,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 4,
+    },
+    [2310170] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310171,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310170,
+        icon = {
+            [1] = "icon/hero/battle/boss_no10.png",
+        },
+        dungeonName = 15010233,
+        floorId = 5,
+    },
+    [2310172] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310173,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310172,
+        icon = {
+            [1] = "icon/hero/battle/boss_no11.png",
+        },
+        dungeonName = 15010233,
+        floorId = 6,
+    },
+    [2310174] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310175,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310174,
+        icon = {
+            [1] = "icon/hero/battle/boss_no6.png",
+        },
+        dungeonName = 15010233,
+        floorId = 7,
+    },
+    [2310176] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310177,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310176,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010234,
+        floorId = 8,
+    },
+    [2310178] = {
+        nextDungeon = 2310177,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310178,
+        icon = {
+            [1] = "icon/hero/battle/DEM_01.png",
+            [2] = "icon/hero/battle/DEM_02.png",
+            [3] = "icon/hero/battle/DEM_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 8,
+    },
+    [2310180] = {
+        nextDungeon = 2310179,
+        lastDungeon = 0,
+        preLevelId = 2310181,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310180,
+        icon = {
+            [1] = "icon/hero/battle/boss_no10.png",
+        },
+        dungeonName = 15010233,
+        floorId = 9,
+    },
+    [2310182] = {
+        nextDungeon = 2310183,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310182,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010232,
+        floorId = 10,
+    },
+    [2310184] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310183,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310184,
+        icon = {
+            [1] = "icon/hero/battle/boss_no11.png",
+        },
+        dungeonName = 15010234,
+        floorId = 10,
+    },
+    [2310186] = {
+        nextDungeon = 2310185,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310186,
+        icon = {
+            [1] = "icon/hero/battle/robot_01.png",
+            [2] = "icon/hero/battle/robot_02.png",
+            [3] = "icon/hero/battle/robot_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 1,
+    },
+    [2310188] = {
+        nextDungeon = 2310187,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310188,
+        icon = {
+            [1] = "icon/hero/battle/AST_01.png",
+            [2] = "icon/hero/battle/AST_02.png",
+            [3] = "icon/hero/battle/AST_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 2,
+    },
+    [2310190] = {
+        nextDungeon = 2310189,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310190,
+        icon = {
+            [1] = "icon/hero/battle/robot_03.png",
+            [2] = "icon/hero/battle/robot_05.png",
+            [3] = "icon/hero/battle/robot_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 3,
+    },
+    [2310192] = {
+        nextDungeon = 2310191,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310192,
+        icon = {
+            [1] = "icon/hero/battle/DEM_01.png",
+            [2] = "icon/hero/battle/DEM_02.png",
+            [3] = "icon/hero/battle/DEM_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 4,
+    },
+    [2310194] = {
+        nextDungeon = 2310193,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310194,
+        icon = {
+            [1] = "icon/hero/battle/energy_02.png",
+            [2] = "icon/hero/battle/energy_03.png",
+            [3] = "icon/hero/battle/energy_04.png",
+        },
+        dungeonName = 15010232,
+        floorId = 5,
+    },
+    [2310196] = {
+        nextDungeon = 2310195,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310196,
+        icon = {
+            [1] = "icon/hero/battle/AST_01.png",
+            [2] = "icon/hero/battle/AST_02.png",
+            [3] = "icon/hero/battle/AST_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 6,
+    },
+    [2310198] = {
+        nextDungeon = 2310197,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310198,
+        icon = {
+            [1] = "icon/hero/battle/robot_01.png",
+            [2] = "icon/hero/battle/robot_02.png",
+            [3] = "icon/hero/battle/robot_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 7,
+    },
+    [2310200] = {
+        nextDungeon = 2310199,
+        lastDungeon = 0,
+        preLevelId = 2310201,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310200,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 8,
+    },
+    [2310202] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310203,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310202,
+        icon = {
+            [1] = "icon/hero/battle/boss_no7.png",
+        },
+        dungeonName = 15010234,
+        floorId = 9,
+    },
+    [2310204] = {
+        nextDungeon = 2310203,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310204,
+        icon = {
+            [1] = "icon/hero/battle/energy_02.png",
+            [2] = "icon/hero/battle/energy_03.png",
+            [3] = "icon/hero/battle/energy_04.png",
+        },
+        dungeonName = 15010232,
+        floorId = 9,
+    },
+    [2310206] = {
+        nextDungeon = 2310207,
+        lastDungeon = 0,
+        preLevelId = 2310205,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310206,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 10,
+    },
+    [2310001] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310002,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310001,
+        icon = {
+            [1] = "icon/hero/battle/boss_no6.png",
+        },
+        dungeonName = 15010233,
+        floorId = 1,
+    },
+    [2310003] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310004,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310003,
+        icon = {
+            [1] = "icon/hero/battle/boss_no7.png",
+        },
+        dungeonName = 15010233,
+        floorId = 2,
+    },
+    [2310005] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310006,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310005,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010233,
+        floorId = 3,
+    },
+    [2310007] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310008,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310007,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 4,
+    },
+    [2310009] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310010,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310009,
+        icon = {
+            [1] = "icon/hero/battle/boss_no10.png",
+        },
+        dungeonName = 15010233,
+        floorId = 5,
+    },
+    [2310011] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310012,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310011,
+        icon = {
+            [1] = "icon/hero/battle/boss_no11.png",
+        },
+        dungeonName = 15010233,
+        floorId = 6,
+    },
+    [2310013] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310014,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310013,
+        icon = {
+            [1] = "icon/hero/battle/boss_no6.png",
+        },
+        dungeonName = 15010233,
+        floorId = 7,
+    },
+    [2310015] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310016,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310015,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010234,
+        floorId = 8,
     },
     [2310017] = {
         nextDungeon = 2310016,
@@ -1017,140 +1933,8 @@ return {
         dungeonName = 15010234,
         floorId = 10,
     },
-    [2310114] = {
-        nextDungeon = 2310115,
-        lastDungeon = 0,
-        preLevelId = 2310113,
-        monsterLevel = {
-            [1] = 100,
-        },
-        id = 2310114,
-        icon = {
-            [1] = "icon/hero/battle/boss_no9.png",
-        },
-        dungeonName = 15010233,
-        floorId = 10,
-    },
-    [2310110] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310111,
-        monsterLevel = {
-            [1] = 90,
-        },
-        id = 2310110,
-        icon = {
-            [1] = "icon/hero/battle/boss_no7.png",
-        },
-        dungeonName = 15010234,
-        floorId = 9,
-    },
-    [2310112] = {
-        nextDungeon = 2310111,
-        lastDungeon = 0,
-        preLevelId = 0,
-        monsterLevel = {
-            [1] = 90,
-            [2] = 90,
-            [3] = 90,
-        },
-        id = 2310112,
-        icon = {
-            [1] = "icon/hero/battle/energy_02.png",
-            [2] = "icon/hero/battle/energy_03.png",
-            [3] = "icon/hero/battle/energy_04.png",
-        },
-        dungeonName = 15010232,
-        floorId = 9,
-    },
-    [2310108] = {
-        nextDungeon = 2310107,
-        lastDungeon = 0,
-        preLevelId = 2310109,
-        monsterLevel = {
-            [1] = 90,
-        },
-        id = 2310108,
-        icon = {
-            [1] = "icon/hero/battle/boss_no9.png",
-        },
-        dungeonName = 15010233,
-        floorId = 8,
-    },
-    [2310106] = {
-        nextDungeon = 2310105,
-        lastDungeon = 0,
-        preLevelId = 0,
-        monsterLevel = {
-            [1] = 90,
-            [2] = 90,
-            [3] = 90,
-        },
-        id = 2310106,
-        icon = {
-            [1] = "icon/hero/battle/robot_01.png",
-            [2] = "icon/hero/battle/robot_02.png",
-            [3] = "icon/hero/battle/robot_03.png",
-        },
-        dungeonName = 15010232,
-        floorId = 7,
-    },
-    [2310104] = {
-        nextDungeon = 2310103,
-        lastDungeon = 0,
-        preLevelId = 0,
-        monsterLevel = {
-            [1] = 85,
-            [2] = 85,
-            [3] = 85,
-        },
-        id = 2310104,
-        icon = {
-            [1] = "icon/hero/battle/AST_01.png",
-            [2] = "icon/hero/battle/AST_02.png",
-            [3] = "icon/hero/battle/AST_03.png",
-        },
-        dungeonName = 15010232,
-        floorId = 6,
-    },
-    [2310102] = {
-        nextDungeon = 2310101,
-        lastDungeon = 0,
-        preLevelId = 0,
-        monsterLevel = {
-            [1] = 85,
-            [2] = 85,
-            [3] = 85,
-        },
-        id = 2310102,
-        icon = {
-            [1] = "icon/hero/battle/energy_02.png",
-            [2] = "icon/hero/battle/energy_03.png",
-            [3] = "icon/hero/battle/energy_04.png",
-        },
-        dungeonName = 15010232,
-        floorId = 5,
-    },
-    [2310100] = {
-        nextDungeon = 2310099,
-        lastDungeon = 0,
-        preLevelId = 0,
-        monsterLevel = {
-            [1] = 85,
-            [2] = 85,
-            [3] = 85,
-        },
-        id = 2310100,
-        icon = {
-            [1] = "icon/hero/battle/DEM_01.png",
-            [2] = "icon/hero/battle/DEM_02.png",
-            [3] = "icon/hero/battle/DEM_06.png",
-        },
-        dungeonName = 15010232,
-        floorId = 4,
-    },
-    [2310098] = {
-        nextDungeon = 2310097,
+    [2310117] = {
+        nextDungeon = 2310116,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
@@ -1158,7 +1942,43 @@ return {
             [2] = 80,
             [3] = 80,
         },
-        id = 2310098,
+        id = 2310117,
+        icon = {
+            [1] = "icon/hero/battle/robot_01.png",
+            [2] = "icon/hero/battle/robot_02.png",
+            [3] = "icon/hero/battle/robot_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 1,
+    },
+    [2310119] = {
+        nextDungeon = 2310118,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310119,
+        icon = {
+            [1] = "icon/hero/battle/AST_01.png",
+            [2] = "icon/hero/battle/AST_02.png",
+            [3] = "icon/hero/battle/AST_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 2,
+    },
+    [2310121] = {
+        nextDungeon = 2310120,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310121,
         icon = {
             [1] = "icon/hero/battle/robot_03.png",
             [2] = "icon/hero/battle/robot_05.png",
@@ -1167,100 +1987,62 @@ return {
         dungeonName = 15010232,
         floorId = 3,
     },
-    [2310096] = {
-        nextDungeon = 2310095,
+    [2310123] = {
+        nextDungeon = 2310122,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
-            [1] = 80,
-            [2] = 80,
-            [3] = 80,
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
         },
-        id = 2310096,
+        id = 2310123,
+        icon = {
+            [1] = "icon/hero/battle/DEM_01.png",
+            [2] = "icon/hero/battle/DEM_02.png",
+            [3] = "icon/hero/battle/DEM_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 4,
+    },
+    [2310125] = {
+        nextDungeon = 2310124,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310125,
+        icon = {
+            [1] = "icon/hero/battle/energy_02.png",
+            [2] = "icon/hero/battle/energy_03.png",
+            [3] = "icon/hero/battle/energy_04.png",
+        },
+        dungeonName = 15010232,
+        floorId = 5,
+    },
+    [2310127] = {
+        nextDungeon = 2310126,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310127,
         icon = {
             [1] = "icon/hero/battle/AST_01.png",
             [2] = "icon/hero/battle/AST_02.png",
             [3] = "icon/hero/battle/AST_03.png",
         },
         dungeonName = 15010232,
-        floorId = 2,
+        floorId = 6,
     },
-    [2310094] = {
-        nextDungeon = 2310093,
-        lastDungeon = 0,
-        preLevelId = 0,
-        monsterLevel = {
-            [1] = 80,
-            [2] = 80,
-            [3] = 80,
-        },
-        id = 2310094,
-        icon = {
-            [1] = "icon/hero/battle/robot_01.png",
-            [2] = "icon/hero/battle/robot_02.png",
-            [3] = "icon/hero/battle/robot_03.png",
-        },
-        dungeonName = 15010232,
-        floorId = 1,
-    },
-    [2310092] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310091,
-        monsterLevel = {
-            [1] = 100,
-        },
-        id = 2310092,
-        icon = {
-            [1] = "icon/hero/battle/boss_no11.png",
-        },
-        dungeonName = 15010234,
-        floorId = 10,
-    },
-    [2310090] = {
-        nextDungeon = 2310091,
-        lastDungeon = 0,
-        preLevelId = 0,
-        monsterLevel = {
-            [1] = 100,
-        },
-        id = 2310090,
-        icon = {
-            [1] = "icon/hero/battle/boss_no8.png",
-        },
-        dungeonName = 15010232,
-        floorId = 10,
-    },
-    [2310088] = {
-        nextDungeon = 2310087,
-        lastDungeon = 0,
-        preLevelId = 2310089,
-        monsterLevel = {
-            [1] = 90,
-        },
-        id = 2310088,
-        icon = {
-            [1] = "icon/hero/battle/boss_no10.png",
-        },
-        dungeonName = 15010233,
-        floorId = 9,
-    },
-    [2310084] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310085,
-        monsterLevel = {
-            [1] = 90,
-        },
-        id = 2310084,
-        icon = {
-            [1] = "icon/hero/battle/boss_no8.png",
-        },
-        dungeonName = 15010234,
-        floorId = 8,
-    },
-    [2310086] = {
-        nextDungeon = 2310085,
+    [2310129] = {
+        nextDungeon = 2310128,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
@@ -1268,261 +2050,249 @@ return {
             [2] = 90,
             [3] = 90,
         },
-        id = 2310086,
+        id = 2310129,
         icon = {
-            [1] = "icon/hero/battle/DEM_01.png",
-            [2] = "icon/hero/battle/DEM_02.png",
-            [3] = "icon/hero/battle/DEM_06.png",
+            [1] = "icon/hero/battle/robot_01.png",
+            [2] = "icon/hero/battle/robot_02.png",
+            [3] = "icon/hero/battle/robot_03.png",
         },
         dungeonName = 15010232,
-        floorId = 8,
+        floorId = 7,
     },
-    [2310082] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310083,
+    [2310131] = {
+        nextDungeon = 2310130,
+        lastDungeon = 0,
+        preLevelId = 2310132,
         monsterLevel = {
             [1] = 90,
         },
-        id = 2310082,
-        icon = {
-            [1] = "icon/hero/battle/boss_no6.png",
-        },
-        dungeonName = 15010233,
-        floorId = 7,
-    },
-    [2310080] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310081,
-        monsterLevel = {
-            [1] = 85,
-        },
-        id = 2310080,
-        icon = {
-            [1] = "icon/hero/battle/boss_no11.png",
-        },
-        dungeonName = 15010233,
-        floorId = 6,
-    },
-    [2310078] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310079,
-        monsterLevel = {
-            [1] = 85,
-        },
-        id = 2310078,
-        icon = {
-            [1] = "icon/hero/battle/boss_no10.png",
-        },
-        dungeonName = 15010233,
-        floorId = 5,
-    },
-    [2310076] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310077,
-        monsterLevel = {
-            [1] = 85,
-        },
-        id = 2310076,
+        id = 2310131,
         icon = {
             [1] = "icon/hero/battle/boss_no9.png",
         },
         dungeonName = 15010233,
-        floorId = 4,
+        floorId = 8,
     },
-    [2310074] = {
+    [2310133] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310075,
+        preLevelId = 2310134,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310133,
+        icon = {
+            [1] = "icon/hero/battle/boss_no7.png",
+        },
+        dungeonName = 15010234,
+        floorId = 9,
+    },
+    [2310135] = {
+        nextDungeon = 2310134,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310135,
+        icon = {
+            [1] = "icon/hero/battle/energy_02.png",
+            [2] = "icon/hero/battle/energy_03.png",
+            [3] = "icon/hero/battle/energy_04.png",
+        },
+        dungeonName = 15010232,
+        floorId = 9,
+    },
+    [2310137] = {
+        nextDungeon = 2310138,
+        lastDungeon = 0,
+        preLevelId = 2310136,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310137,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 10,
+    },
+    [2310139] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310140,
         monsterLevel = {
             [1] = 80,
         },
-        id = 2310074,
+        id = 2310139,
+        icon = {
+            [1] = "icon/hero/battle/boss_no6.png",
+        },
+        dungeonName = 15010233,
+        floorId = 1,
+    },
+    [2310141] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310142,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310141,
+        icon = {
+            [1] = "icon/hero/battle/boss_no7.png",
+        },
+        dungeonName = 15010233,
+        floorId = 2,
+    },
+    [2310143] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310144,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310143,
         icon = {
             [1] = "icon/hero/battle/boss_no8.png",
         },
         dungeonName = 15010233,
         floorId = 3,
     },
-    [2310072] = {
+    [2310145] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310073,
+        preLevelId = 2310146,
         monsterLevel = {
-            [1] = 80,
+            [1] = 85,
         },
-        id = 2310072,
-        icon = {
-            [1] = "icon/hero/battle/boss_no7.png",
-        },
-        dungeonName = 15010233,
-        floorId = 2,
-    },
-    [2310070] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310071,
-        monsterLevel = {
-            [1] = 80,
-        },
-        id = 2310070,
-        icon = {
-            [1] = "icon/hero/battle/boss_no6.png",
-        },
-        dungeonName = 15010233,
-        floorId = 1,
-    },
-    [2310068] = {
-        nextDungeon = 2310069,
-        lastDungeon = 0,
-        preLevelId = 2310067,
-        monsterLevel = {
-            [1] = 100,
-        },
-        id = 2310068,
+        id = 2310145,
         icon = {
             [1] = "icon/hero/battle/boss_no9.png",
         },
         dungeonName = 15010233,
-        floorId = 10,
-    },
-    [2310064] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310065,
-        monsterLevel = {
-            [1] = 90,
-        },
-        id = 2310064,
-        icon = {
-            [1] = "icon/hero/battle/boss_no7.png",
-        },
-        dungeonName = 15010234,
-        floorId = 9,
-    },
-    [2310066] = {
-        nextDungeon = 2310065,
-        lastDungeon = 0,
-        preLevelId = 0,
-        monsterLevel = {
-            [1] = 90,
-            [2] = 90,
-            [3] = 90,
-        },
-        id = 2310066,
-        icon = {
-            [1] = "icon/hero/battle/energy_02.png",
-            [2] = "icon/hero/battle/energy_03.png",
-            [3] = "icon/hero/battle/energy_04.png",
-        },
-        dungeonName = 15010232,
-        floorId = 9,
-    },
-    [2310062] = {
-        nextDungeon = 2310061,
-        lastDungeon = 0,
-        preLevelId = 2310063,
-        monsterLevel = {
-            [1] = 90,
-        },
-        id = 2310062,
-        icon = {
-            [1] = "icon/hero/battle/boss_no9.png",
-        },
-        dungeonName = 15010233,
-        floorId = 8,
-    },
-    [2310060] = {
-        nextDungeon = 2310059,
-        lastDungeon = 0,
-        preLevelId = 0,
-        monsterLevel = {
-            [1] = 90,
-            [2] = 90,
-            [3] = 90,
-        },
-        id = 2310060,
-        icon = {
-            [1] = "icon/hero/battle/robot_01.png",
-            [2] = "icon/hero/battle/robot_02.png",
-            [3] = "icon/hero/battle/robot_03.png",
-        },
-        dungeonName = 15010232,
-        floorId = 7,
-    },
-    [2310058] = {
-        nextDungeon = 2310057,
-        lastDungeon = 0,
-        preLevelId = 0,
-        monsterLevel = {
-            [1] = 85,
-            [2] = 85,
-            [3] = 85,
-        },
-        id = 2310058,
-        icon = {
-            [1] = "icon/hero/battle/AST_01.png",
-            [2] = "icon/hero/battle/AST_02.png",
-            [3] = "icon/hero/battle/AST_03.png",
-        },
-        dungeonName = 15010232,
-        floorId = 6,
-    },
-    [2310056] = {
-        nextDungeon = 2310055,
-        lastDungeon = 0,
-        preLevelId = 0,
-        monsterLevel = {
-            [1] = 85,
-            [2] = 85,
-            [3] = 85,
-        },
-        id = 2310056,
-        icon = {
-            [1] = "icon/hero/battle/energy_02.png",
-            [2] = "icon/hero/battle/energy_03.png",
-            [3] = "icon/hero/battle/energy_04.png",
-        },
-        dungeonName = 15010232,
-        floorId = 5,
-    },
-    [2310054] = {
-        nextDungeon = 2310053,
-        lastDungeon = 0,
-        preLevelId = 0,
-        monsterLevel = {
-            [1] = 85,
-            [2] = 85,
-            [3] = 85,
-        },
-        id = 2310054,
-        icon = {
-            [1] = "icon/hero/battle/DEM_01.png",
-            [2] = "icon/hero/battle/DEM_02.png",
-            [3] = "icon/hero/battle/DEM_06.png",
-        },
-        dungeonName = 15010232,
         floorId = 4,
     },
-    [2310009] = {
+    [2310147] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310010,
+        preLevelId = 2310148,
         monsterLevel = {
             [1] = 85,
         },
-        id = 2310009,
+        id = 2310147,
         icon = {
             [1] = "icon/hero/battle/boss_no10.png",
         },
         dungeonName = 15010233,
         floorId = 5,
     },
-    [2310052] = {
-        nextDungeon = 2310051,
+    [2310149] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310150,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310149,
+        icon = {
+            [1] = "icon/hero/battle/boss_no11.png",
+        },
+        dungeonName = 15010233,
+        floorId = 6,
+    },
+    [2310151] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310152,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310151,
+        icon = {
+            [1] = "icon/hero/battle/boss_no6.png",
+        },
+        dungeonName = 15010233,
+        floorId = 7,
+    },
+    [2310153] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310154,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310153,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010234,
+        floorId = 8,
+    },
+    [2310155] = {
+        nextDungeon = 2310154,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310155,
+        icon = {
+            [1] = "icon/hero/battle/DEM_01.png",
+            [2] = "icon/hero/battle/DEM_02.png",
+            [3] = "icon/hero/battle/DEM_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 8,
+    },
+    [2310157] = {
+        nextDungeon = 2310156,
+        lastDungeon = 0,
+        preLevelId = 2310158,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310157,
+        icon = {
+            [1] = "icon/hero/battle/boss_no10.png",
+        },
+        dungeonName = 15010233,
+        floorId = 9,
+    },
+    [2310159] = {
+        nextDungeon = 2310160,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310159,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010232,
+        floorId = 10,
+    },
+    [2310161] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310160,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310161,
+        icon = {
+            [1] = "icon/hero/battle/boss_no11.png",
+        },
+        dungeonName = 15010234,
+        floorId = 10,
+    },
+    [2310163] = {
+        nextDungeon = 2310162,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
@@ -1530,7 +2300,43 @@ return {
             [2] = 80,
             [3] = 80,
         },
-        id = 2310052,
+        id = 2310163,
+        icon = {
+            [1] = "icon/hero/battle/robot_01.png",
+            [2] = "icon/hero/battle/robot_02.png",
+            [3] = "icon/hero/battle/robot_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 1,
+    },
+    [2310165] = {
+        nextDungeon = 2310164,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310165,
+        icon = {
+            [1] = "icon/hero/battle/AST_01.png",
+            [2] = "icon/hero/battle/AST_02.png",
+            [3] = "icon/hero/battle/AST_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 2,
+    },
+    [2310167] = {
+        nextDungeon = 2310166,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310167,
         icon = {
             [1] = "icon/hero/battle/robot_03.png",
             [2] = "icon/hero/battle/robot_05.png",
@@ -1539,54 +2345,312 @@ return {
         dungeonName = 15010232,
         floorId = 3,
     },
-    [2310007] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310008,
-        monsterLevel = {
-            [1] = 85,
-        },
-        id = 2310007,
-        icon = {
-            [1] = "icon/hero/battle/boss_no9.png",
-        },
-        dungeonName = 15010233,
-        floorId = 4,
-    },
-    [2310050] = {
-        nextDungeon = 2310049,
+    [2310169] = {
+        nextDungeon = 2310168,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
-            [1] = 80,
-            [2] = 80,
-            [3] = 80,
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
         },
-        id = 2310050,
+        id = 2310169,
+        icon = {
+            [1] = "icon/hero/battle/DEM_01.png",
+            [2] = "icon/hero/battle/DEM_02.png",
+            [3] = "icon/hero/battle/DEM_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 4,
+    },
+    [2310171] = {
+        nextDungeon = 2310170,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310171,
+        icon = {
+            [1] = "icon/hero/battle/energy_02.png",
+            [2] = "icon/hero/battle/energy_03.png",
+            [3] = "icon/hero/battle/energy_04.png",
+        },
+        dungeonName = 15010232,
+        floorId = 5,
+    },
+    [2310173] = {
+        nextDungeon = 2310172,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310173,
         icon = {
             [1] = "icon/hero/battle/AST_01.png",
             [2] = "icon/hero/battle/AST_02.png",
             [3] = "icon/hero/battle/AST_03.png",
         },
         dungeonName = 15010232,
-        floorId = 2,
+        floorId = 6,
     },
-    [2310005] = {
+    [2310175] = {
+        nextDungeon = 2310174,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310175,
+        icon = {
+            [1] = "icon/hero/battle/robot_01.png",
+            [2] = "icon/hero/battle/robot_02.png",
+            [3] = "icon/hero/battle/robot_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 7,
+    },
+    [2310177] = {
+        nextDungeon = 2310176,
+        lastDungeon = 0,
+        preLevelId = 2310178,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310177,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 8,
+    },
+    [2310179] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310006,
+        preLevelId = 2310180,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310179,
+        icon = {
+            [1] = "icon/hero/battle/boss_no7.png",
+        },
+        dungeonName = 15010234,
+        floorId = 9,
+    },
+    [2310181] = {
+        nextDungeon = 2310180,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310181,
+        icon = {
+            [1] = "icon/hero/battle/energy_02.png",
+            [2] = "icon/hero/battle/energy_03.png",
+            [3] = "icon/hero/battle/energy_04.png",
+        },
+        dungeonName = 15010232,
+        floorId = 9,
+    },
+    [2310183] = {
+        nextDungeon = 2310184,
+        lastDungeon = 0,
+        preLevelId = 2310182,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310183,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 10,
+    },
+    [2310185] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310186,
         monsterLevel = {
             [1] = 80,
         },
-        id = 2310005,
+        id = 2310185,
+        icon = {
+            [1] = "icon/hero/battle/boss_no6.png",
+        },
+        dungeonName = 15010233,
+        floorId = 1,
+    },
+    [2310187] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310188,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310187,
+        icon = {
+            [1] = "icon/hero/battle/boss_no7.png",
+        },
+        dungeonName = 15010233,
+        floorId = 2,
+    },
+    [2310189] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310190,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310189,
         icon = {
             [1] = "icon/hero/battle/boss_no8.png",
         },
         dungeonName = 15010233,
         floorId = 3,
     },
-    [2310048] = {
-        nextDungeon = 2310047,
+    [2310191] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310192,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310191,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 4,
+    },
+    [2310193] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310194,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310193,
+        icon = {
+            [1] = "icon/hero/battle/boss_no10.png",
+        },
+        dungeonName = 15010233,
+        floorId = 5,
+    },
+    [2310195] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310196,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310195,
+        icon = {
+            [1] = "icon/hero/battle/boss_no11.png",
+        },
+        dungeonName = 15010233,
+        floorId = 6,
+    },
+    [2310197] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310198,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310197,
+        icon = {
+            [1] = "icon/hero/battle/boss_no6.png",
+        },
+        dungeonName = 15010233,
+        floorId = 7,
+    },
+    [2310199] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310200,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310199,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010234,
+        floorId = 8,
+    },
+    [2310201] = {
+        nextDungeon = 2310200,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310201,
+        icon = {
+            [1] = "icon/hero/battle/DEM_01.png",
+            [2] = "icon/hero/battle/DEM_02.png",
+            [3] = "icon/hero/battle/DEM_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 8,
+    },
+    [2310203] = {
+        nextDungeon = 2310202,
+        lastDungeon = 0,
+        preLevelId = 2310204,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310203,
+        icon = {
+            [1] = "icon/hero/battle/boss_no10.png",
+        },
+        dungeonName = 15010233,
+        floorId = 9,
+    },
+    [2310205] = {
+        nextDungeon = 2310206,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310205,
+        icon = {
+            [1] = "icon/hero/battle/boss_no8.png",
+        },
+        dungeonName = 15010232,
+        floorId = 10,
+    },
+    [2310207] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310206,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310207,
+        icon = {
+            [1] = "icon/hero/battle/boss_no11.png",
+        },
+        dungeonName = 15010234,
+        floorId = 10,
+    },
+    [2310002] = {
+        nextDungeon = 2310001,
         lastDungeon = 0,
         preLevelId = 0,
         monsterLevel = {
@@ -1594,7 +2658,7 @@ return {
             [2] = 80,
             [3] = 80,
         },
-        id = 2310048,
+        id = 2310002,
         icon = {
             [1] = "icon/hero/battle/robot_01.png",
             [2] = "icon/hero/battle/robot_02.png",
@@ -1603,75 +2667,271 @@ return {
         dungeonName = 15010232,
         floorId = 1,
     },
-    [2310046] = {
+    [2310004] = {
+        nextDungeon = 2310003,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310004,
+        icon = {
+            [1] = "icon/hero/battle/AST_01.png",
+            [2] = "icon/hero/battle/AST_02.png",
+            [3] = "icon/hero/battle/AST_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 2,
+    },
+    [2310006] = {
+        nextDungeon = 2310005,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310006,
+        icon = {
+            [1] = "icon/hero/battle/robot_03.png",
+            [2] = "icon/hero/battle/robot_05.png",
+            [3] = "icon/hero/battle/robot_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 3,
+    },
+    [2310008] = {
+        nextDungeon = 2310007,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310008,
+        icon = {
+            [1] = "icon/hero/battle/DEM_01.png",
+            [2] = "icon/hero/battle/DEM_02.png",
+            [3] = "icon/hero/battle/DEM_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 4,
+    },
+    [2310010] = {
+        nextDungeon = 2310009,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310010,
+        icon = {
+            [1] = "icon/hero/battle/energy_02.png",
+            [2] = "icon/hero/battle/energy_03.png",
+            [3] = "icon/hero/battle/energy_04.png",
+        },
+        dungeonName = 15010232,
+        floorId = 5,
+    },
+    [2310012] = {
+        nextDungeon = 2310011,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310012,
+        icon = {
+            [1] = "icon/hero/battle/AST_01.png",
+            [2] = "icon/hero/battle/AST_02.png",
+            [3] = "icon/hero/battle/AST_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 6,
+    },
+    [2310014] = {
+        nextDungeon = 2310013,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310014,
+        icon = {
+            [1] = "icon/hero/battle/robot_01.png",
+            [2] = "icon/hero/battle/robot_02.png",
+            [3] = "icon/hero/battle/robot_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 7,
+    },
+    [2310016] = {
+        nextDungeon = 2310015,
+        lastDungeon = 0,
+        preLevelId = 2310017,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310016,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 8,
+    },
+    [2310018] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310045,
+        preLevelId = 2310019,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310018,
+        icon = {
+            [1] = "icon/hero/battle/boss_no7.png",
+        },
+        dungeonName = 15010234,
+        floorId = 9,
+    },
+    [2310020] = {
+        nextDungeon = 2310019,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310020,
+        icon = {
+            [1] = "icon/hero/battle/energy_02.png",
+            [2] = "icon/hero/battle/energy_03.png",
+            [3] = "icon/hero/battle/energy_04.png",
+        },
+        dungeonName = 15010232,
+        floorId = 9,
+    },
+    [2310022] = {
+        nextDungeon = 2310023,
+        lastDungeon = 0,
+        preLevelId = 2310021,
         monsterLevel = {
             [1] = 100,
         },
-        id = 2310046,
+        id = 2310022,
         icon = {
-            [1] = "icon/hero/battle/boss_no11.png",
+            [1] = "icon/hero/battle/boss_no9.png",
         },
-        dungeonName = 15010234,
+        dungeonName = 15010233,
         floorId = 10,
     },
-    [2310003] = {
+    [2310024] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310004,
+        preLevelId = 2310025,
         monsterLevel = {
             [1] = 80,
         },
-        id = 2310003,
+        id = 2310024,
+        icon = {
+            [1] = "icon/hero/battle/boss_no6.png",
+        },
+        dungeonName = 15010233,
+        floorId = 1,
+    },
+    [2310026] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310027,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310026,
         icon = {
             [1] = "icon/hero/battle/boss_no7.png",
         },
         dungeonName = 15010233,
         floorId = 2,
     },
-    [2310044] = {
-        nextDungeon = 2310045,
-        lastDungeon = 0,
-        preLevelId = 0,
+    [2310028] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310029,
         monsterLevel = {
-            [1] = 100,
+            [1] = 80,
         },
-        id = 2310044,
+        id = 2310028,
         icon = {
             [1] = "icon/hero/battle/boss_no8.png",
         },
-        dungeonName = 15010232,
-        floorId = 10,
+        dungeonName = 15010233,
+        floorId = 3,
     },
-    [2310042] = {
-        nextDungeon = 2310041,
-        lastDungeon = 0,
-        preLevelId = 2310043,
+    [2310030] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310031,
         monsterLevel = {
-            [1] = 90,
+            [1] = 85,
         },
-        id = 2310042,
+        id = 2310030,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 4,
+    },
+    [2310032] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310033,
+        monsterLevel = {
+            [1] = 85,
+        },
+        id = 2310032,
         icon = {
             [1] = "icon/hero/battle/boss_no10.png",
         },
         dungeonName = 15010233,
-        floorId = 9,
+        floorId = 5,
     },
-    [2310001] = {
+    [2310034] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310002,
+        preLevelId = 2310035,
         monsterLevel = {
-            [1] = 80,
+            [1] = 85,
         },
-        id = 2310001,
+        id = 2310034,
+        icon = {
+            [1] = "icon/hero/battle/boss_no11.png",
+        },
+        dungeonName = 15010233,
+        floorId = 6,
+    },
+    [2310036] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310037,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310036,
         icon = {
             [1] = "icon/hero/battle/boss_no6.png",
         },
         dungeonName = 15010233,
-        floorId = 1,
+        floorId = 7,
     },
     [2310038] = {
         nextDungeon = 0,
@@ -1705,88 +2965,260 @@ return {
         dungeonName = 15010232,
         floorId = 8,
     },
-    [2310036] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310037,
+    [2310042] = {
+        nextDungeon = 2310041,
+        lastDungeon = 0,
+        preLevelId = 2310043,
         monsterLevel = {
             [1] = 90,
         },
-        id = 2310036,
-        icon = {
-            [1] = "icon/hero/battle/boss_no6.png",
-        },
-        dungeonName = 15010233,
-        floorId = 7,
-    },
-    [2310034] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310035,
-        monsterLevel = {
-            [1] = 85,
-        },
-        id = 2310034,
-        icon = {
-            [1] = "icon/hero/battle/boss_no11.png",
-        },
-        dungeonName = 15010233,
-        floorId = 6,
-    },
-    [2310032] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310033,
-        monsterLevel = {
-            [1] = 85,
-        },
-        id = 2310032,
+        id = 2310042,
         icon = {
             [1] = "icon/hero/battle/boss_no10.png",
         },
         dungeonName = 15010233,
-        floorId = 5,
+        floorId = 9,
     },
-    [2310015] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310016,
+    [2310044] = {
+        nextDungeon = 2310045,
+        lastDungeon = 0,
+        preLevelId = 0,
         monsterLevel = {
-            [1] = 90,
+            [1] = 100,
         },
-        id = 2310015,
+        id = 2310044,
         icon = {
             [1] = "icon/hero/battle/boss_no8.png",
         },
-        dungeonName = 15010234,
-        floorId = 8,
+        dungeonName = 15010232,
+        floorId = 10,
     },
-    [2310011] = {
+    [2310046] = {
         nextDungeon = 0,
         lastDungeon = 1,
-        preLevelId = 2310012,
+        preLevelId = 2310045,
         monsterLevel = {
-            [1] = 85,
+            [1] = 100,
         },
-        id = 2310011,
+        id = 2310046,
         icon = {
             [1] = "icon/hero/battle/boss_no11.png",
         },
-        dungeonName = 15010233,
+        dungeonName = 15010234,
+        floorId = 10,
+    },
+    [2310048] = {
+        nextDungeon = 2310047,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310048,
+        icon = {
+            [1] = "icon/hero/battle/robot_01.png",
+            [2] = "icon/hero/battle/robot_02.png",
+            [3] = "icon/hero/battle/robot_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 1,
+    },
+    [2310050] = {
+        nextDungeon = 2310049,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310050,
+        icon = {
+            [1] = "icon/hero/battle/AST_01.png",
+            [2] = "icon/hero/battle/AST_02.png",
+            [3] = "icon/hero/battle/AST_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 2,
+    },
+    [2310052] = {
+        nextDungeon = 2310051,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 80,
+            [2] = 80,
+            [3] = 80,
+        },
+        id = 2310052,
+        icon = {
+            [1] = "icon/hero/battle/robot_03.png",
+            [2] = "icon/hero/battle/robot_05.png",
+            [3] = "icon/hero/battle/robot_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 3,
+    },
+    [2310054] = {
+        nextDungeon = 2310053,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310054,
+        icon = {
+            [1] = "icon/hero/battle/DEM_01.png",
+            [2] = "icon/hero/battle/DEM_02.png",
+            [3] = "icon/hero/battle/DEM_06.png",
+        },
+        dungeonName = 15010232,
+        floorId = 4,
+    },
+    [2310056] = {
+        nextDungeon = 2310055,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310056,
+        icon = {
+            [1] = "icon/hero/battle/energy_02.png",
+            [2] = "icon/hero/battle/energy_03.png",
+            [3] = "icon/hero/battle/energy_04.png",
+        },
+        dungeonName = 15010232,
+        floorId = 5,
+    },
+    [2310058] = {
+        nextDungeon = 2310057,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 85,
+            [2] = 85,
+            [3] = 85,
+        },
+        id = 2310058,
+        icon = {
+            [1] = "icon/hero/battle/AST_01.png",
+            [2] = "icon/hero/battle/AST_02.png",
+            [3] = "icon/hero/battle/AST_03.png",
+        },
+        dungeonName = 15010232,
         floorId = 6,
     },
-    [2310013] = {
-        nextDungeon = 0,
-        lastDungeon = 1,
-        preLevelId = 2310014,
+    [2310060] = {
+        nextDungeon = 2310059,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310060,
+        icon = {
+            [1] = "icon/hero/battle/robot_01.png",
+            [2] = "icon/hero/battle/robot_02.png",
+            [3] = "icon/hero/battle/robot_03.png",
+        },
+        dungeonName = 15010232,
+        floorId = 7,
+    },
+    [2310062] = {
+        nextDungeon = 2310061,
+        lastDungeon = 0,
+        preLevelId = 2310063,
         monsterLevel = {
             [1] = 90,
         },
-        id = 2310013,
+        id = 2310062,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 8,
+    },
+    [2310064] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310065,
+        monsterLevel = {
+            [1] = 90,
+        },
+        id = 2310064,
+        icon = {
+            [1] = "icon/hero/battle/boss_no7.png",
+        },
+        dungeonName = 15010234,
+        floorId = 9,
+    },
+    [2310066] = {
+        nextDungeon = 2310065,
+        lastDungeon = 0,
+        preLevelId = 0,
+        monsterLevel = {
+            [1] = 90,
+            [2] = 90,
+            [3] = 90,
+        },
+        id = 2310066,
+        icon = {
+            [1] = "icon/hero/battle/energy_02.png",
+            [2] = "icon/hero/battle/energy_03.png",
+            [3] = "icon/hero/battle/energy_04.png",
+        },
+        dungeonName = 15010232,
+        floorId = 9,
+    },
+    [2310068] = {
+        nextDungeon = 2310069,
+        lastDungeon = 0,
+        preLevelId = 2310067,
+        monsterLevel = {
+            [1] = 100,
+        },
+        id = 2310068,
+        icon = {
+            [1] = "icon/hero/battle/boss_no9.png",
+        },
+        dungeonName = 15010233,
+        floorId = 10,
+    },
+    [2310070] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310071,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310070,
         icon = {
             [1] = "icon/hero/battle/boss_no6.png",
         },
         dungeonName = 15010233,
-        floorId = 7,
+        floorId = 1,
+    },
+    [2310072] = {
+        nextDungeon = 0,
+        lastDungeon = 1,
+        preLevelId = 2310073,
+        monsterLevel = {
+            [1] = 80,
+        },
+        id = 2310072,
+        icon = {
+            [1] = "icon/hero/battle/boss_no7.png",
+        },
+        dungeonName = 15010233,
+        floorId = 2,
     },
 }

@@ -289,6 +289,11 @@ return {
         text = "Tipo: Esquema de color de disfraz\nPersonaje: Kurumi Tokisaki - [Guardián de por vida]\nDanzando a la luz de las velas, nuestros dedos se enlazaron. Siempre serás mío, mi amor.",
         minipack = 0,
     },
+    [190011148] = {
+        id = 190011148,
+        text = "Holy DMG Bonus +15% for 60s",
+        minipack = 0,
+    },
     [190016012] = {
         id = 190016012,
         text = "Cita - Información",
@@ -4074,6 +4079,11 @@ return {
         text = "Tipo: Disfraz\nPropietario: Tsuan\ntemporal temporal temporal",
         minipack = 0,
     },
+    [190011150] = {
+        id = 190011150,
+        text = "Holy DMG Bonus +15% for 60s",
+        minipack = 0,
+    },
     [252009] = {
         id = 252009,
         text = "Hacer %s",
@@ -4121,7 +4131,7 @@ return {
     },
     [190016270] = {
         id = 190016270,
-        text = "Bifrost",
+        text = "Kotori's Special Training",
         minipack = 0,
     },
     [252014] = {
@@ -5582,6 +5592,11 @@ return {
     [20246] = {
         id = 20246,
         text = "Tipo: Disfraz\nPropietario: Ais Wallenstein\ntemporal temporal temporal",
+        minipack = 0,
+    },
+    [190011151] = {
+        id = 190011151,
+        text = "Dark DMG Bonus +30% for 60s",
         minipack = 0,
     },
     [2460202] = {
@@ -7457,6 +7472,11 @@ return {
     [20254] = {
         id = 20254,
         text = "Tipo: Disfraz\nPropietario: Tohka Yatogami\nPapá noel está muy ocupada este año, así que me enviaron para darte la sorpresa de Navidad.",
+        minipack = 0,
+    },
+    [190011152] = {
+        id = 190011152,
+        text = "Holy DMG Bonus +30% for 60s",
         minipack = 0,
     },
     [910229] = {
@@ -10812,6 +10832,11 @@ return {
     [20270] = {
         id = 20270,
         text = "Type: Costume\nOwner: Origami Tobiichi\nSincere heart, unbreakable bond. From now, to eternity~",
+        minipack = 0,
+    },
+    [190011154] = {
+        id = 190011154,
+        text = "M. RES -40%",
         minipack = 0,
     },
     [2201130] = {
@@ -18524,6 +18549,16 @@ return {
         text = "Put your right arm around my waist, right...Not my leg! Watch your hands!",
         minipack = 0,
     },
+    [14400459] = {
+        id = 14400459,
+        text = "Ah~ I am so happy~... Ahem, even the wind seems to be dancing!",
+        minipack = 0,
+    },
+    [14400467] = {
+        id = 14400467,
+        text = "Request. Can you do that again?",
+        minipack = 0,
+    },
     [10403008] = {
         id = 10403008,
         text = "[Mangos de Zafkiel] Inflige +8% de DAÑO a enemigos de energía.",
@@ -18594,6 +18629,11 @@ return {
         text = "Cuando el [Castillo devorador de tiempo] esté encendido, los enemigos en él no podrán moverse por 5s.",
         minipack = 0,
     },
+    [20321] = {
+        id = 20321,
+        text = "Perfect Staff",
+        minipack = 0,
+    },
     [100000000] = {
         id = 100000000,
         text = "Reservado para edificios extranjeros",
@@ -18647,6 +18687,11 @@ return {
     [1010703] = {
         id = 1010703,
         text = "Un cono debe ser suficiente…",
+        minipack = 0,
+    },
+    [20322] = {
+        id = 20322,
+        text = "Type: Costume\nOwner: Kaguya Yamai\nManner, perfect! Expression, perfect! Outfit, perfect! The best staff admitted by my kinsman!",
         minipack = 0,
     },
     [1010711] = {
@@ -18752,6 +18797,11 @@ return {
     [112000137] = {
         id = 112000137,
         text = "Nv.35",
+        minipack = 0,
+    },
+    [20323] = {
+        id = 20323,
+        text = "Perfect Manager",
         minipack = 0,
     },
     [276001] = {
@@ -18912,6 +18962,11 @@ return {
     [276016] = {
         id = 276016,
         text = "Felicitaciones al miembro del club %s, quien gastó tanto en hacer feliz a sus waifus y obtuvo el título - %s.",
+        minipack = 0,
+    },
+    [20324] = {
+        id = 20324,
+        text = "Type: Costume\nOwner: Yuzuru Yamai\nSmile. What do you need of me, my lord?",
         minipack = 0,
     },
     [276017] = {
@@ -90284,6 +90339,11 @@ return {
         text = "Put your right arm around my waist.",
         minipack = 0,
     },
+    [14400462] = {
+        id = 14400462,
+        text = "Look, if you can't see through the surface, then don't make such a rash move.",
+        minipack = 0,
+    },
     [282101] = {
         id = 282101,
         text = "El juramento temporal terminará en: %.2d día %.2d:%.2d:00",
@@ -107559,6 +107619,16 @@ return {
         text = "So embarrassing!",
         minipack = 0,
     },
+    [190011153] = {
+        id = 190011153,
+        text = "Get +5% Magic DMG per second",
+        minipack = 0,
+    },
+    [190011149] = {
+        id = 190011149,
+        text = "Dark DMG Bonus +15% for 60s",
+        minipack = 0,
+    },
     [13200801] = {
         id = 13200801,
         text = "North Bridge",
@@ -107579,9 +107649,59 @@ return {
         text = "The exploration team has strayed into a special area and is waiting for support.",
         minipack = 0,
     },
+    [400044] = {
+        id = 400044,
+        text = "Lalatis",
+        minipack = 0,
+    },
+    [190011146] = {
+        id = 190011146,
+        text = "Frost DMG Bonus +60%",
+        minipack = 0,
+    },
+    [190011145] = {
+        id = 190011145,
+        text = "DMG Bonus +30% for 3s",
+        minipack = 0,
+    },
+    [63053] = {
+        id = 63053,
+        text = "Clasificación semanal: se determina por el número de entrenamientos aprobados. Se reinicia cada domingo a las 24:00. \nClasificación mensual: se determina por el número de entrenamientos aprobados. Se reinicia cada último día del mes a las 24:00.",
+        minipack = 0,
+    },
+    [3210027] = {
+        id = 3210027,
+        text = "DAÑO de tempestad +12%",
+        minipack = 0,
+    },
+    [15010163] = {
+        id = 15010163,
+        text = "1. Los Covenanters pueden comprar el disfraz Novia Floral de Kurumi y los disfraces y vestidos astrales reproducidos en la Tienda de Disfraz del aniversario. \n2. La Tienda de Disfraz usa 3 tipos de moneda: Insignia de Parque, Cuarzo Arco Iris y Fragmento de Disfraz Avanzado. Cada uno se utiliza para comprar diferentes disfraces y vestidos astrales. \n3. Cada día la Tienda de Disfraces tendrá un total de 4 disfraces o vestidos astrales disponibles para su compra. También puedes obtener una actualización gratis por día, que aumenta junto con el nivel del Castillo de Deseo. Puede usar Diamantes para renovar lo que está disponible en la Tienda de Disfraz. Se permiten hasta 10 actualizaciones pagadas por día. El costo aumenta con cada actualización. \n6. Los artículos que los Covenanters ya obtiene no aparecerán en la Tienda de Disfraz. \n7. Los disfraces y vestidos astrales reproduciados: \n[Linda Criada] Precio: Insignia de Parque*2000 \n[Estrella de la fiesta] Precio: Insignia de Parque*2000\n[Dominadora]Precio: Insignia de Parque*2000\n[Invitación a la fiesta] Precio:Insignia de Parque*2000\n[Gorrión Blanco]: Insignia de Parque*2000\n [Fan de Robin] Precio: Insignia de Parque*2000\n[Regalo de Navidad]: Insignia de Parque*2000\n[¿Truco? ¡Travesura!] Insignia de Parque*2000\n[Criada formada]: Precio: Insignia de Parque*2000\n[Lolita Gótica]: Precio: Insignia de Parque*2000\n[Sueño Maravilloso]: Insignia de Parque*2000\n[Ropa formal de secundaria] Precio: Insignia de Parque*2000\n[Reina de los Dulces] Precio: Insignia de Parque*2000\n[Criada Exclusiva]: Precio: Insignia de Parque*2000\n[Conejo Blanco] Precio: Insignia de Parque*2000\n [Primera Nevada]: Precio: Insignia de Parque*2000\n[Canción de Primavera]: Precio: Insignia de Parque*2000\n[Amanecer Radiante]: Precio: Insignia de Parque*2000\n[Blanco Puro]: Precio: Insignia de Parque*2000\n[Disfraz de Okami]: Precio: Insignia de Parque*2000\n[Perseguidora del estrellato]: Precio: Insignia de Parque*2000\n[Conejita]: Precio: Insignia de Parque*2000\n[Noche estrellada]: Precio: Insignia de Parque*2000\n[Mirada abisal] Precio: Cuarzo Arco Iris*128\n[Cariña de fiesta] Precio: Cuarzo Arco Iris*128\n[Fin del Mundo] Precio: Cuarzo Arco Iris*128\n[Elfo de Invierno] Precio: Cuarzo Arco Iris*128\n[Despertar rojo verdadero]: Precio: Cuarzo Arco Iris*128\n[Comandante criada] Precio: Cuarzo Arco Iris*128\n[Luna y Flor] Precio: Cuarzo Arco Iris*128\n[Estrella del amanecer] Precio: Cuarzo Arco Iris*128\n[Vísperas de Navidad a la luz de las velas] Precio: Cuarzo Arco Iris*128\n[Inari Okami] Precio: Cuarzo Arco Iris*128\n[Sumérgete en la realidad] Precio: Cuarzo Arco Iris*128\n[León Auspicioso] Precio: Cuarzo Arco Iris*128\n[Pino y Luna] Precio: Fragmento de Disfraz Avanzado*50\n[Cocinera Torpe] Precio: Fragmento de Disfraz Avanzado*50\n[Oración del Arce] Precio: Fragmento de Disfraz Avanzado*50\n[Diva del Abismo]Precio: Fragmento de Disfraz Avanzado*50\n[Balada de Cereza] Precio: Fragmento de Disfraz Avanzado*50\n[Reina de la Suerte] Precio: Fragmento de Disfraz Avanzado*50\n[Vestido astral - Cocinero torpe] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Dominadora del Abismo] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Cuervo Negro] Precio: Cuarzo Arco Iris*128\n[Vestido Astral - Sueños de Mariposa]: Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Bruja de Halloween] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Viento Oriental] Precio: Cuarzo Arco Iris*128\n[Vestido Astral - Elfo de Invierno] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Maga del Tiempo] Precio: Cuarzo Arco Iris*128\n[Vestido Astral - Comandante] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Estrella del Amanecer] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Bruja del Loto] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Bruja de Nochebuena] Precio: Cuarzo Arco Iris*128\n[Vestido Astral - Reina de los Dulces] Precio: Cuarzo Arco Iris*68",
+        minipack = 0,
+    },
+    [295002] = {
+        id = 295002,
+        text = "Dear Covenanters, it's been %s days since you last logged in. Perhaps the fatigue of life has kept you away from Tengu City, but whenever you return, the spirits will always be here, waiting by your side. Come on.. let's start our date! DAL: Dating Never Stops!",
+        minipack = 0,
+    },
+    [14400470] = {
+        id = 14400470,
+        text = "Thank you. You saved Yuzuru and Kaguya. Please allow Yuzuru to serve you.",
+        minipack = 0,
+    },
+    [14400469] = {
+        id = 14400469,
+        text = "Pleasant. Never thought it would be so interesting.",
+        minipack = 0,
+    },
     [13200905] = {
         id = 13200905,
         text = "※Exploration event ignored",
+        minipack = 0,
+    },
+    [14400468] = {
+        id = 14400468,
+        text = "Frank. Chatting with you has a distinctive flavor. I can stay a little longer.",
         minipack = 0,
     },
     [13200921] = {
@@ -107592,6 +107712,41 @@ return {
     [60018] = {
         id = 60018,
         text = "Consejos de correo",
+        minipack = 0,
+    },
+    [3001009] = {
+        id = 3001009,
+        text = "Chokhmah",
+        minipack = 0,
+    },
+    [12010006] = {
+        id = 12010006,
+        text = "Una vez más, conocí a una chica que llamó mi atención. ¿Quién es ella?",
+        minipack = 0,
+    },
+    [14400464] = {
+        id = 14400464,
+        text = "Then don't make such a rash move",
+        minipack = 0,
+    },
+    [295003] = {
+        id = 295003,
+        text = "Common Costume Choice Chest A",
+        minipack = 0,
+    },
+    [14400461] = {
+        id = 14400461,
+        text = "That's more likely, just look forward to it!",
+        minipack = 0,
+    },
+    [14400460] = {
+        id = 14400460,
+        text = "My kinsman, come to have a great time with me.",
+        minipack = 0,
+    },
+    [1013316] = {
+        id = 1013316,
+        text = "Let's go to the park for a walk after we eat",
         minipack = 0,
     },
     [2202601] = {
@@ -107612,6 +107767,11 @@ return {
     [2202607] = {
         id = 2202607,
         text = "Perfect Dodge",
+        minipack = 0,
+    },
+    [14400457] = {
+        id = 14400457,
+        text = "Did something happen?",
         minipack = 0,
     },
     [2460184] = {
@@ -119984,14 +120144,14 @@ return {
         text = "Right... not my leg!",
         minipack = 0,
     },
-    [295003] = {
-        id = 295003,
-        text = "Common Costume Choice Chest A",
+    [14400463] = {
+        id = 14400463,
+        text = "Look, if you can't see through the surface",
         minipack = 0,
     },
-    [295002] = {
-        id = 295002,
-        text = "Dear Covenanters, it's been %s days since you last logged in. Perhaps the fatigue of life has kept you away from Tengu City, but whenever you return, the spirits will always be here, waiting by your side. Come on.. let's start our date! DAL: Dating Never Stops!",
+    [14400471] = {
+        id = 14400471,
+        text = "Frank. Chatting with you has a distinctive flavor.",
         minipack = 0,
     },
     [295001] = {
@@ -132481,7 +132641,7 @@ return {
     },
     [15010270] = {
         id = 15010270,
-        text = "1. In the Bifrost Tower, Covenanters can have their characters challenge instances.\n2. Each level gives a 1st win reward.\n3. All stages of the current level must be cleared before the next level can be unlocked.\n4. To complete a level, Covenanters must clear all cubicles.\n5. The time used for clearing each stage will be recorded, you can challenge again to set new record. However, repeated challenges do not give rewards.",
+        text = "1. In Kotori's Special Training, Covenanters can have their characters challenge instances.\n2. Each level gives a 1st win rewards, and the 1st win rewards will be reset each phase.\n3. All stages of the current level must be cleared before the next level can be unlocked.\n4. To complete a level, Covenanters must clear all cubicles.\n5. The Training Store is available with the opening of the training and closes as the training ends, however valuable items such as Astral Dresses and costumes in the store won't be replaced or reset, meanwhile, the purchase chances of other items will be reset.",
         minipack = 0,
     },
     [15010278] = {
@@ -160954,9 +161114,9 @@ return {
         text = "Kurumi principal CG1",
         minipack = 0,
     },
-    [15010163] = {
-        id = 15010163,
-        text = "1. Los Covenanters pueden comprar el disfraz Novia Floral de Kurumi y los disfraces y vestidos astrales reproducidos en la Tienda de Disfraz del aniversario. \n2. La Tienda de Disfraz usa 3 tipos de moneda: Insignia de Parque, Cuarzo Arco Iris y Fragmento de Disfraz Avanzado. Cada uno se utiliza para comprar diferentes disfraces y vestidos astrales. \n3. Cada día la Tienda de Disfraces tendrá un total de 4 disfraces o vestidos astrales disponibles para su compra. También puedes obtener una actualización gratis por día, que aumenta junto con el nivel del Castillo de Deseo. Puede usar Diamantes para renovar lo que está disponible en la Tienda de Disfraz. Se permiten hasta 10 actualizaciones pagadas por día. El costo aumenta con cada actualización. \n6. Los artículos que los Covenanters ya obtiene no aparecerán en la Tienda de Disfraz. \n7. Los disfraces y vestidos astrales reproduciados: \n[Linda Criada] Precio: Insignia de Parque*2000 \n[Estrella de la fiesta] Precio: Insignia de Parque*2000\n[Dominadora]Precio: Insignia de Parque*2000\n[Invitación a la fiesta] Precio:Insignia de Parque*2000\n[Gorrión Blanco]: Insignia de Parque*2000\n [Fan de Robin] Precio: Insignia de Parque*2000\n[Regalo de Navidad]: Insignia de Parque*2000\n[¿Truco? ¡Travesura!] Insignia de Parque*2000\n[Criada formada]: Precio: Insignia de Parque*2000\n[Lolita Gótica]: Precio: Insignia de Parque*2000\n[Sueño Maravilloso]: Insignia de Parque*2000\n[Ropa formal de secundaria] Precio: Insignia de Parque*2000\n[Reina de los Dulces] Precio: Insignia de Parque*2000\n[Criada Exclusiva]: Precio: Insignia de Parque*2000\n[Conejo Blanco] Precio: Insignia de Parque*2000\n [Primera Nevada]: Precio: Insignia de Parque*2000\n[Canción de Primavera]: Precio: Insignia de Parque*2000\n[Amanecer Radiante]: Precio: Insignia de Parque*2000\n[Blanco Puro]: Precio: Insignia de Parque*2000\n[Disfraz de Okami]: Precio: Insignia de Parque*2000\n[Perseguidora del estrellato]: Precio: Insignia de Parque*2000\n[Conejita]: Precio: Insignia de Parque*2000\n[Noche estrellada]: Precio: Insignia de Parque*2000\n[Mirada abisal] Precio: Cuarzo Arco Iris*128\n[Cariña de fiesta] Precio: Cuarzo Arco Iris*128\n[Fin del Mundo] Precio: Cuarzo Arco Iris*128\n[Elfo de Invierno] Precio: Cuarzo Arco Iris*128\n[Despertar rojo verdadero]: Precio: Cuarzo Arco Iris*128\n[Comandante criada] Precio: Cuarzo Arco Iris*128\n[Luna y Flor] Precio: Cuarzo Arco Iris*128\n[Estrella del amanecer] Precio: Cuarzo Arco Iris*128\n[Vísperas de Navidad a la luz de las velas] Precio: Cuarzo Arco Iris*128\n[Inari Okami] Precio: Cuarzo Arco Iris*128\n[Sumérgete en la realidad] Precio: Cuarzo Arco Iris*128\n[León Auspicioso] Precio: Cuarzo Arco Iris*128\n[Pino y Luna] Precio: Fragmento de Disfraz Avanzado*50\n[Cocinera Torpe] Precio: Fragmento de Disfraz Avanzado*50\n[Oración del Arce] Precio: Fragmento de Disfraz Avanzado*50\n[Diva del Abismo]Precio: Fragmento de Disfraz Avanzado*50\n[Balada de Cereza] Precio: Fragmento de Disfraz Avanzado*50\n[Reina de la Suerte] Precio: Fragmento de Disfraz Avanzado*50\n[Vestido astral - Cocinero torpe] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Dominadora del Abismo] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Cuervo Negro] Precio: Cuarzo Arco Iris*128\n[Vestido Astral - Sueños de Mariposa]: Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Bruja de Halloween] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Viento Oriental] Precio: Cuarzo Arco Iris*128\n[Vestido Astral - Elfo de Invierno] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Maga del Tiempo] Precio: Cuarzo Arco Iris*128\n[Vestido Astral - Comandante] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Estrella del Amanecer] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Bruja del Loto] Precio: Cuarzo Arco Iris*168\n[Vestido Astral - Bruja de Nochebuena] Precio: Cuarzo Arco Iris*128\n[Vestido Astral - Reina de los Dulces] Precio: Cuarzo Arco Iris*68",
+    [14400472] = {
+        id = 14400472,
+        text = "I can stay with you a little longer",
         minipack = 0,
     },
     [900062] = {
@@ -201909,9 +202069,9 @@ return {
         text = "Gema de energía clase SS, obtenla para conseguir una gema clase SS para una habilidad al azar de [Mordred Origami]. (Se usa automáticamente al obtener)",
         minipack = 0,
     },
-    [12010006] = {
-        id = 12010006,
-        text = "Una vez más, conocí a una chica que llamó mi atención. ¿Quién es ella?",
+    [14400465] = {
+        id = 14400465,
+        text = "Joyful. Are you really going on a date with me?",
         minipack = 0,
     },
     [12010001] = {
@@ -214406,7 +214566,7 @@ return {
     },
     [15010272] = {
         id = 15010272,
-        text = "1. In the Bifrost Tower, each cubicle requires different Spirits, at least 1\n2. After the battle starts, Covenanters need to clear all stages of the current level to win.\n3. After leaving in the middle of a battle, Covenanters will need to start from the first cubicle next time, and their battle data will not be recorded.\n4. If unsatisfied with the result of a stage, Covenanters can rechallenge it in the Pause UI.",
+        text = "1. In Kotori's Special Training, each cubicle requires different Spirits, at least 1.\n2. After the battle starts, Covenanters need to clear all stages of the current level to win.\n3. After leaving in the middle of a battle, Covenanters will need to start from the first cubicle next time, and their battle data will not be recorded.\n4. If unsatisfied with the result of a stage, Covenanters can rechallenge it in the Pause UI.\n5. Different buffs will be provided each phase and the buffs will take effect in battles.",
         minipack = 0,
     },
     [15010280] = {
@@ -239584,9 +239744,9 @@ return {
         text = "Tipo: Disfraz\nPropietario: Miku Izayoi\nEn lo alto del cielo, vuela una cometa en el viento. Junto a la ídolo Miku, escucha la balada de cerezas escrita por los pétalos de sakura que caen.",
         minipack = 0,
     },
-    [3210027] = {
-        id = 3210027,
-        text = "DAÑO de tempestad +12%",
+    [190011143] = {
+        id = 190011143,
+        text = "Space DMG +60%",
         minipack = 0,
     },
     [1130516] = {
@@ -242144,9 +242304,9 @@ return {
         text = "Tipo: Disfraz\nPropietario: Natsumi\nUn sol ardiente que, ni siquiera un traje de baño dulce como una fresa y una falda plisada, pueden detener. Hasta su cabello quiere que este verano sea agridulce.",
         minipack = 0,
     },
-    [63053] = {
-        id = 63053,
-        text = "Clasificación semanal: se determina por el número de entrenamientos aprobados. Se reinicia cada domingo a las 24:00. \nClasificación mensual: se determina por el número de entrenamientos aprobados. Se reinicia cada último día del mes a las 24:00.",
+    [190011144] = {
+        id = 190011144,
+        text = "Physical DMG +60%",
         minipack = 0,
     },
     [1023253] = {
@@ -242864,14 +243024,14 @@ return {
         text = "Dresses are the special weapons of elegant ladies.",
         minipack = 0,
     },
-    [1013316] = {
-        id = 1013316,
-        text = "Let's go to the park for a walk after we eat",
+    [14400458] = {
+        id = 14400458,
+        text = "Let's have a perfect date!",
         minipack = 0,
     },
-    [3001009] = {
-        id = 3001009,
-        text = "Chokhmah",
+    [14400466] = {
+        id = 14400466,
+        text = "Admire. Such a luxury for Yuzuru to enjoy you alone.",
         minipack = 0,
     },
     [3001008] = {
@@ -249824,9 +249984,9 @@ return {
         text = "Tipo: Disfraz\nPropietario: Maria Arusu\nCreo que mi pecho se está [calentando] y los [datos] se están volviendo caóticos. Esta [excepción del programa] de alguna manera se siente satisfactoria, ¿es amor?",
         minipack = 0,
     },
-    [400044] = {
-        id = 400044,
-        text = "Lalatis",
+    [190011147] = {
+        id = 190011147,
+        text = "Dark DMG Bonus +15% for 60s",
         minipack = 0,
     },
     [400040] = {

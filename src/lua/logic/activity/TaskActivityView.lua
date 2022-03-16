@@ -13,6 +13,7 @@ function TaskActivityView:ctor(...)
     self:initData(...)
     local uiName = self.activityInfo_.extendData.uiName or "taskActivityView"
     self:init("lua.uiconfig.activity."..uiName)
+    print("======================================= " ..uiName)
 end
 
 function TaskActivityView:initUI(ui)

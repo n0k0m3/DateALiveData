@@ -33,7 +33,7 @@ function FubenEndlessTotalRank:initUI(ui)
     self.Button_close = TFDirector:getChildByPath(self.Panel_root, "Button_close")
 
     self.Label_name3 = TFDirector:getChildByPath(self.Panel_root, "Label_name3")
-    self.Label_name3:setTextById(100000150)
+    self.Label_name3:setText("通关层数/通关时间")
     self.Panel_rank = TFDirector:getChildByPath(self.Panel_root, "Panel_rank")
 
     self.Label_tiptx = TFDirector:getChildByPath(self.Panel_root, "Label_tiptx")
@@ -135,7 +135,7 @@ function FubenEndlessTotalRank:updateRankItem(rankItem,rankData)
     rankName:setText(rankData.pName)
     rankLv:setText("Lv."..rankData.level)
 
-    Label_pass_floor:setTextById(2100016 ,rankData.stage)
+    Label_pass_floor:setText(rankData.stage.."层")
 
     local timestamp = math.floor(rankData.costTime / 1000)
     local _, hour, min, sec = Utils:getDHMS(timestamp, true)
