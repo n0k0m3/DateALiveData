@@ -109,6 +109,13 @@ yanjing2
   orig: 80, 50
   offset: 0, 0
   index: -1
+zhanwei
+  rotate: false
+  xy: 2, 8
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
 zui
   rotate: false
   xy: 492, 124
@@ -118,216 +125,216 @@ zui
   index: -1
 
 fight_311012.png
-size: 1024,1024
+size: 890,890
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 body
-  rotate: false
-  xy: 2, 442
+  rotate: true
+  xy: 354, 729
   size: 159, 301
   orig: 159, 301
   offset: 0, 0
   index: -1
 datu2
-  rotate: true
-  xy: 242, 889
+  rotate: false
+  xy: 2, 562
   size: 133, 326
   orig: 133, 326
   offset: 0, 0
   index: -1
 jiao1
   rotate: false
-  xy: 116, 120
+  xy: 274, 91
   size: 113, 133
   orig: 113, 133
   offset: 0, 0
   index: -1
 jiao2
   rotate: true
-  xy: 569, 441
+  xy: 527, 78
   size: 106, 145
   orig: 106, 145
   offset: 0, 0
   index: -1
 qunjia1
-  rotate: true
-  xy: 571, 549
+  rotate: false
+  xy: 139, 5
   size: 84, 140
   orig: 84, 140
   offset: 0, 0
   index: -1
 shou1
   rotate: false
-  xy: 434, 442
+  xy: 2, 12
   size: 133, 107
   orig: 133, 107
   offset: 0, 0
   index: -1
 shou2
-  rotate: false
-  xy: 550, 359
+  rotate: true
+  xy: 700, 386
   size: 78, 80
   orig: 78, 80
   offset: 0, 0
   index: -1
 shou3
-  rotate: false
-  xy: 630, 371
+  rotate: true
+  xy: 769, 514
   size: 67, 68
   orig: 67, 68
   offset: 0, 0
   index: -1
 shoubi1
   rotate: false
-  xy: 717, 627
+  xy: 538, 186
   size: 108, 193
   orig: 108, 193
   offset: 0, 0
   index: -1
 shoubi2
-  rotate: true
-  xy: 827, 595
+  rotate: false
+  xy: 422, 110
   size: 103, 166
   orig: 103, 166
   offset: 0, 0
   index: -1
 shoubi3
-  rotate: false
-  xy: 116, 255
+  rotate: true
+  xy: 648, 291
   size: 88, 185
   orig: 88, 185
   offset: 0, 0
   index: -1
 shoubi4
   rotate: false
-  xy: 231, 101
+  xy: 139, 147
   size: 133, 173
   orig: 133, 173
   offset: 0, 0
   index: -1
 tou
-  rotate: false
-  xy: 2, 745
+  rotate: true
+  xy: 2, 322
   size: 238, 277
   orig: 238, 277
   offset: 0, 0
   index: -1
 toufa1
-  rotate: false
-  xy: 827, 700
+  rotate: true
+  xy: 459, 580
   size: 147, 181
   orig: 147, 181
   offset: 0, 0
   index: -1
 toufa10
-  rotate: false
-  xy: 206, 276
+  rotate: true
+  xy: 648, 189
   size: 100, 175
   orig: 100, 175
   offset: 0, 0
   index: -1
 toufa11
-  rotate: true
-  xy: 787, 883
+  rotate: false
+  xy: 281, 226
   size: 139, 209
   orig: 139, 209
   offset: 0, 0
   index: -1
 toufa12
-  rotate: false
-  xy: 308, 288
+  rotate: true
+  xy: 674, 101
   size: 86, 179
   orig: 86, 179
   offset: 0, 0
   index: -1
 toufa13
-  rotate: false
-  xy: 163, 525
+  rotate: true
+  xy: 657, 767
   size: 121, 218
   orig: 121, 218
   offset: 0, 0
   index: -1
 toufa14
   rotate: false
-  xy: 242, 752
+  xy: 281, 437
   size: 269, 135
   orig: 269, 135
   offset: 0, 0
   index: -1
 toufa15
-  rotate: true
-  xy: 2, 4
+  rotate: false
+  xy: 422, 278
   size: 114, 157
   orig: 114, 157
   offset: 0, 0
   index: -1
 toufa16
-  rotate: false
-  xy: 396, 307
+  rotate: true
+  xy: 389, 25
   size: 83, 133
   orig: 83, 133
   offset: 0, 0
   index: -1
 toufa17
   rotate: true
-  xy: 163, 453
+  xy: 524, 6
   size: 70, 138
   orig: 70, 138
   offset: 0, 0
   index: -1
 toufa3
   rotate: true
-  xy: 161, 2
+  xy: 674, 2
   size: 97, 159
   orig: 97, 159
   offset: 0, 0
   index: -1
 toufa4
   rotate: false
-  xy: 286, 553
+  xy: 552, 381
   size: 146, 197
   orig: 146, 197
   offset: 0, 0
   index: -1
 toufa5
-  rotate: false
-  xy: 571, 635
+  rotate: true
+  xy: 642, 583
   size: 144, 185
   orig: 144, 185
   offset: 0, 0
   index: -1
 toufa6
   rotate: false
-  xy: 434, 551
+  xy: 2, 121
   size: 135, 199
   orig: 135, 199
   offset: 0, 0
   index: -1
 toufa7
   rotate: true
-  xy: 570, 822
+  xy: 137, 688
   size: 200, 215
   orig: 200, 215
   offset: 0, 0
   index: -1
 toufa8
   rotate: false
-  xy: 481, 325
+  xy: 700, 466
   size: 67, 115
   orig: 67, 115
   offset: 0, 0
   index: -1
 toufa9
   rotate: true
-  xy: 303, 469
+  xy: 225, 7
   size: 82, 129
   orig: 82, 129
   offset: 0, 0
   index: -1
 xiaotui1
-  rotate: false
-  xy: 2, 120
+  rotate: true
+  xy: 137, 574
   size: 112, 320
   orig: 112, 320
   offset: 0, 0

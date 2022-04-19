@@ -70,8 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 374,
-						PositionY = 354,
+						PositionX = 457,
+						PositionY = 360,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -102,8 +102,8 @@ local t =
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
-							srcBlendFunc = "770",
-							texturePath = "ui/activity/activityMain3/bg1.png",
+							srcBlendFunc = "1",
+							texturePath = "ui/activity/activityStyle/mainFrame/style2/bg.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
@@ -141,7 +141,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -570,
+								PositionX = -564,
 								PositionY = -35,
 							},
 							uipanelviewmodel = 
@@ -215,10 +215,10 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 561,
-						PositionY = -286,
-						LeftPositon = -7,
-						TopPosition = 675,
+						PositionX = 517,
+						PositionY = -474,
+						LeftPositon = -50,
+						TopPosition = 874,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 2,
@@ -237,8 +237,8 @@ local t =
 							controlID = "Panel_activityItem_Panel_prefab_Panel-activityMainView4_activityStyleModel_activity_Game",
 							UUID = "45adc907_cfa8_42cd_b398_7e84cdda715d",
 							anchorPoint = "False",
-							anchorPointX = "0",
-							anchorPointY = "0",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
 							backGroundScale9Enable = "False",
 							bgColorOpacity = "50",
 							bIsOpenClipping = "False",
@@ -248,7 +248,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "98",
+							height = "76",
 							ignoreSize = "False",
 							name = "Panel_activityItem",
 							sizepercentx = "0",
@@ -258,15 +258,15 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -556,
-								PositionY = 812,
+								PositionX = -392,
+								PositionY = 159,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "198",
+							width = "233",
 							ZOrder = "1",
 							components = 
 							{
@@ -283,18 +283,17 @@ local t =
 									height = "98",
 									ignoreSize = "False",
 									name = "ImageNormal",
-									sizepercentx = "0",
-									sizepercenty = "0",
+									sizepercentx = "86",
+									sizepercenty = "128",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/activity/activityMain3/bu3.png",
+									texturePath = "ui/activity/activityStyle/mainFrame/style2/003.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 99,
-										PositionY = 46,
+										
 									},
-									width = "202",
+									width = "195",
 									ZOrder = "1",
 									components = 
 									{
@@ -334,7 +333,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFBAE3FB",
+											FontColor = "#FFAFDFFE",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -344,11 +343,11 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF3C5AC7",
+												StrokeColor = "#FF2E3256",
 												StrokeSize = 2,
 											},
 											height = "0",
@@ -415,14 +414,13 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
+									texturePath = "ui/activity/activityStyle/mainFrame/style2/004.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 99,
-										PositionY = 46,
+										PositionX = -1,
 									},
-									visible = "False",
-									width = "202",
+									width = "205",
 									ZOrder = "1",
 									components = 
 									{
@@ -472,18 +470,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "24",
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF4C8FF8",
+												StrokeColor = "#FFB2823D",
 												StrokeSize = 2,
 											},
 											height = "0",
 											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
-											nTextHAlign = "2",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -493,10 +491,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 97,
+												PositionX = 85,
 												PositionY = -20,
 											},
-											width = "150",
+											width = "180",
 											ZOrder = "1",
 										},
 										{
@@ -542,10 +540,11 @@ local t =
 	{
 		textures = 
 		{
-			"ui/activity/activityMain3/bg1.png",
-			"ui/activity/activityMain3/bu3.png",
+			"ui/activity/activityStyle/mainFrame/style2/bg.png",
+			"ui/activity/activityStyle/mainFrame/style2/003.png",
 			"ui/activity/anniversary/ui_002.png",
 			"ui/common/news_small.png",
+			"ui/activity/activityStyle/mainFrame/style2/004.png",
 		},
 		armatures = 
 		{

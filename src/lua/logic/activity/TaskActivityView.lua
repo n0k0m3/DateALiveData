@@ -150,8 +150,7 @@ function TaskActivityView:updateActivity()
 
     -- @desc:谷丰让改的
     self.Label_date:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle, true))
-    self.Label_date:show()
-    
+
     self.Image_ad:setTexture(self.activityInfo_.showIcon)
 
     if self.Panel_refresh then
@@ -183,6 +182,7 @@ function TaskActivityView:addTaskItem()
     local foo = {}
     foo.root = Panel_taskItem
     foo.Image_icon = TFDirector:getChildByPath(foo.root, "Image_icon")
+    foo.Label_title = TFDirector:getChildByPath(foo.root, "Label_title")
     foo.Image_diban = TFDirector:getChildByPath(foo.root, "Image_diban")
     foo.Label_desc = TFDirector:getChildByPath(foo.root, "Label_desc")
     foo.Label_progress_title = TFDirector:getChildByPath(foo.root, "Label_progress_title")
@@ -206,6 +206,7 @@ function TaskActivityView:addTaskItem()
     foo.Label_goto = TFDirector:getChildByPath(foo.Button_goto, "Label_goto")
     foo.Label_goto:setTextById(1300009)
     foo.Label_geted_bg = TFDirector:getChildByPath(foo.root, "Label_geted_bg")
+    foo.Button_geted = TFDirector:getChildByPath(foo.root, "Button_geted")
     foo.Label_geted = TFDirector:getChildByPath(foo.root, "Label_geted")
     foo.Label_geted:setTextById(1300015)
     foo.Label_reward = TFDirector:getChildByPath(foo.root, "Label_reward")
@@ -250,6 +251,10 @@ function TaskActivityView:updateTaskItem(item,itemId)
         foo.Label_progress:setTextById(800005, itemInfo.target, itemInfo.target)
     end
 
+    if foo.Label_title then
+        foo.Label_title:setTextById(1890006,itemInfo.target)
+    end
+
     local goodsId, goodsNum
     for i, v in ipairs(foo.Image_reward) do
         local id, num = next(itemInfo.reward, goodsId)
@@ -265,6 +270,9 @@ function TaskActivityView:updateTaskItem(item,itemId)
 
     foo.Button_receive:setVisible(progressInfo.status == EC_TaskStatus.GET)
     foo.Label_geted:setVisible(progressInfo.status == EC_TaskStatus.GETED)
+    if foo.Button_geted then
+        foo.Button_geted:setVisible(progressInfo.status == EC_TaskStatus.GETED)
+    end
     if foo.Label_geted_bg then 
         foo.Label_geted_bg:setVisible(progressInfo.status == EC_TaskStatus.GETED)
     end
@@ -534,7 +542,6 @@ function TaskActivityView:initFullSerModel()
 
     EventMgr:addEventListener(self,EV_UPDATE_FULLSERVER_PROGRESS,handler(self.EV_UPDATE_FULLSERVER_PROGRESS, self))
 
-
     -- ActivityDataMgr2:resFullServerTaskData(self.fullSerActivityId)
 
     self:runAction(RepeatForever:create(CCSequence:create({CallFunc:create(function() ActivityDataMgr2:resFullServerTaskData(self.fullSerActivityId) end), DelayTime:create(15)})))
@@ -554,11 +561,13 @@ function TaskActivityView:updateProgressItem(item,status)
     TFDirector:getChildByPath(item, "Panel_notGet"):setVisible(status == EC_TaskStatus.ING)
     TFDirector:getChildByPath(item, "Label_unselect_name"):setVisible(status == EC_TaskStatus.GETED)
 end
+
 function TaskActivityView:updatePercentItem(progress)
     for k,item in pairs(self.allPersentItem) do
         TFDirector:getChildByPath(item, "Button_getFullSerReward"):setVisible(progress >= tonumber(k))
     end
 end
+
 function TaskActivityView:initFullServerProgressUI(progress,takeList)
 
     progress = progress or 0
@@ -577,15 +586,33 @@ function TaskActivityView:initFullServerProgressUI(progress,takeList)
     else
         print("没找到要展示的全服活动物品ID")
     end
-    
+
     local Image_taskPercent = TFDirector:getChildByPath(self.Image_active_progress, "Image_taskPercent"):hide()
     local w = self.Image_active_progress:getContentSize().width
 
-
+    local serverRewardList = {}
     for k,v in pairs(self.fullSerActivityInfo_.extendData.serverReward) do
+        table.insert(serverRewardList, {score = k, reward = v })
+    end
+    table.sort(serverRewardList, function( a,b )
+        return a.score < b.score
+    end)
+
+
+    for i,_data in ipairs(serverRewardList) do
+        local k = _data.score
+        local v = _data.reward
 
         local item = self.allPersentItem[k] or (self.Panel_fullServerRewardItem:clone():AddTo(self.Image_active_progress,2):show())
         -- self.Image_active_progress:addChild(item:show())
+
+        local Label_geted_num = TFDirector:getChildByPath(item, "Label_geted_num")
+        local Label_canget_num = TFDirector:getChildByPath(item, "Label_canget_num")
+        local Label_notget_num = TFDirector:getChildByPath(item, "Label_notget_num")
+
+        Label_geted_num:setText(k)
+        Label_canget_num:setText(k)
+        Label_notget_num:setText(k)
 
         item:setScale(0.9)
 
@@ -633,6 +660,7 @@ function TaskActivityView:initFullServerProgressUI(progress,takeList)
         end
     end
 end
+
 -- 全服活动模块↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑by：czy 2021.10.19↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
 return TaskActivityView

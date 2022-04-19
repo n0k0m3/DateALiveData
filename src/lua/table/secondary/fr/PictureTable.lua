@@ -8404,4 +8404,34 @@ return {
         res = "ui/activity/activityStyle/wefareSignActivity/bg/002.png",
         res_en = "ui/activity/activityStyle/wefareSignActivity/bg/002_en.png",
     },
+    [1682] = {
+        id = 1682,
+        res = "icon/hero/frame/665612.png",
+        res_en = "icon/hero/frame/665612_en.png",
+    },
+    [1683] = {
+        id = 1683,
+        res = "ui/activity/fanShi/08.png",
+        res_en = "ui/activity/fanShi/08_en.png",
+    },
+    [1684] = {
+        id = 1684,
+        res = "ui/activity/newAssistance/newAssistance8.png",
+        res_en = "ui/activity/newAssistance/newAssistance8_en.png",
+    },
+    [1685] = {
+        id = 1685,
+        res = "ui/activity/picture/ad365.png",
+        res_en = "ui/activity/picture/ad365_en.png",
+    },
+    [1686] = {
+        id = 1686,
+        res = "ui/activity/picture/ad366.png",
+        res_en = "ui/activity/picture/ad366_en.png",
+    },
+    [1687] = {
+        id = 1687,
+        res = "icon/item/goods/665612.png",
+        res_en = "icon/item/goods/665612_en.png",
+    },
 }

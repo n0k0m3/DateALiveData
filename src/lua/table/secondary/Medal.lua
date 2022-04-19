@@ -674,6 +674,33 @@ return {
         showicon = "icon/item/goods/1210000.png",
         MedalType = 3,
     },
+    [1200047] = {
+        superType = 12,
+        order = 44,
+        exposedview = "icon/item/goods/1200047.png",
+        accessdes = "2460187",
+        skilltitle = "",
+        effectivetime = -1,
+        nameTextId = 2460185,
+        icon = "icon/item/goods/529051.png",
+        quality = 1,
+        baseAttribute = {
+        },
+        id = 1200047,
+        baseskill = {
+        },
+        accessway = {
+        },
+        name = "2460185",
+        star = 3,
+        desTextId = 2460186,
+        size = {
+            [1] = 55,
+            [2] = 60,
+        },
+        showicon = "icon/item/goods/1200047.png",
+        MedalType = 2,
+    },
     [1200001] = {
         superType = 12,
         order = 1,

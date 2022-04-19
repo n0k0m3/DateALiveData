@@ -99,6 +99,7 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.RETURN_GIFT] = requireNew("lua.logic.activity.ReturnGiftView"),
             [EC_ActivityType2.DFW_SUMMER] = requireNew("lua.logic.activity.SummerActivityView"),
             [EC_ActivityType2.QL_BIRTHDAY] = requireNew("lua.logic.activity.QLBirthdayView"),  --琴里生日
+            [EC_ActivityType2.FULL_SERVER_TASK_ACTIVITY] = requireNew("lua.logic.activity.TaskActivityView"),
         },
         [2] = {
             [EC_ActivityType2.CGCOLLECTED] = requireNew("lua.logic.activity.JumpActivityView"),
@@ -160,8 +161,6 @@ function ActivityMainView:ctor(...)
     if self.activityShowType then
         if self.activityShowType == 90 then  --游乐园入口特殊处理
             uiName = "activityMainView"..7
-        elseif self.activityShowType == 4 then --海王星1期暂时特殊处理
-            uiName = "activityGloablHwxMainView1"
         else
             uiName = "activityMainView"..self.activityShowType
         end

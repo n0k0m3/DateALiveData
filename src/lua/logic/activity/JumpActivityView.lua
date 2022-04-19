@@ -69,7 +69,7 @@ function JumpActivityView:initUI( ui )
 	end
 	if self.activityInfo.extendData.buttonPath then	
 		self.Button_jump:setTextureNormal(self.activityInfo.extendData.buttonPath)
-		self.Button_jump:setPosition(300 , -90)
+		self.Button_jump:setPosition(326 , -214)
 		if self.activityInfo.id == 58 then
 			self.label_date:setPosition(-400 , 240)
 		elseif self.activityInfo.id == 110 then
@@ -90,7 +90,7 @@ function JumpActivityView:initUI( ui )
 			self.Button_jump:setPosition(290 , -210)
 		else
 			if self.activityInfo.extendData.uiName ~= "jumpActivityView3" then
-				self.label_date:setPosition(400 , 250)
+				--self.label_date:setPosition(4 , 1)
 			end
 		end
 		if self.Button_jump:getChildByName("label_jump") then

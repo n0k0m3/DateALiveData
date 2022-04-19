@@ -1684,6 +1684,7 @@ EC_ActivityStoreType = {
     TOTAL = 2,    -- 总量限购
     WHOLESERVER_DAY = 3,    -- 全服每天限购
     WHOLESERVER_TOTAL = 4,    -- 全服总量限购
+    WEEK = 5,    -- 本周限购
 }
 
 -- 活动类型
@@ -1829,6 +1830,8 @@ EC_ActivityType2 = {
     CHINESE_STREET_2021 = 104,            --周年庆祭中华街活动
     INFO_COLLECT = 105,            --信息收集活动
     ZNQ_2021_MOON_CON = 106,            --周年庆祭月全服贡献活动
+
+    FULL_SERVER_TASK_ACTIVITY = 111,-- 任务带全服的任务
 
     --2021战令
     WAR_ORDER_2021 = 107,            --战令活动

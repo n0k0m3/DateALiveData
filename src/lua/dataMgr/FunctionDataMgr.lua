@@ -679,17 +679,17 @@ end
 
 function FunctionDataMgr:jActivity4(activitId, activityShowType)
     --还原使用国服原有活动界面访问
-    -- if not self:checkFuncOpen(6) then return end
-    -- activityShowType = activityShowType or 4
-    -- self:downloadAssetsBeforeOnEnter(function()
-    --     Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
-    -- end)
+     if not self:checkFuncOpen(6) then return end
+     activityShowType = activityShowType or 4
+     self:downloadAssetsBeforeOnEnter(function()
+         Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+     end)
 
-    if not self:checkFuncOpen(6) then return end  --针对海王星ui调整
-        activityShowType = activityShowType or 4
-        self:downloadAssetsBeforeOnEnter(function()
-        Utils:openView("activity.ActivityGloablHwxMainView1", activitId, activityShowType)
-    end)
+    --if not self:checkFuncOpen(6) then return end  --针对海王星ui调整
+    --    activityShowType = activityShowType or 4
+    --    self:downloadAssetsBeforeOnEnter(function()
+    --    Utils:openView("activity.ActivityGloablHwxMainView1", activitId, activityShowType)
+    --end)
 end
 
 function FunctionDataMgr:jActivity5(activitId, activityShowType)

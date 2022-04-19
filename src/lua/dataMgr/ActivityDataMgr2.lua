@@ -190,7 +190,10 @@ function ActivityDataMgr:init()
 
     --琴里生日
     TFDirector:addProto(s2c.ACTIVITY2_RESP_EXCHANGE_TASK, self, self.onRecvQLGiveReward)
-    
+
+    TFDirector:addProto(s2c.ACTIVITY2_RES_SUPPORT_ACTIVITY_DATA, self, self.onRecvFullSeverTask)
+    TFDirector:addProto(s2c.ACTIVITY2_RES_TAKE_SERVER_PROGRESS_REWARD, self, self.onRecvGetOutput)
+
     self.activityInfo_ = {}
     self.activityInfoMap_ = {}
     self.itemInfoMap_ = {}
@@ -627,6 +630,11 @@ function ActivityDataMgr:getRemainBuyCount(type_, id)
         local remainCount = math.max(0, limitVal - nowBuyCount)
         local isCanBuy = remainCount > 0 and wholeServerRemainCount > 0
         return isCanBuy, wholeServerRemainCount
+    elseif limitType == EC_ActivityStoreType.WEEK then
+        local nowBuyCount = self:getProgress(type_, id)
+        local remainCount = math.max(0, limitVal - nowBuyCount)
+        local isCanBuy = remainCount > 0
+        return isCanBuy, remainCount
     else
         return true
     end
@@ -3825,5 +3833,44 @@ function ActivityDataMgr:onRecvQLGiveReward(event)
         Utils:showReward(data.rewards)
     end
 end
+
+--全服活动模块消息↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+function ActivityDataMgr:onRecvFullSeverTask(event)
+    local data = event.data
+    if not data then return end
+
+    -- if data.rewardsMsg then
+    --     Utils:showReward(data.rewardsMsg)
+    -- end
+    -- self:resChineseStreetInfo()
+
+    dump(data,"请求全服相关消息的返回信息",10)
+    EventMgr:dispatchEvent(EV_UPDATE_FULLSERVER_PROGRESS,data)
+
+end
+
+function ActivityDataMgr:onRecvGetOutput(event)
+    local data = event.data
+    if not data then return end
+
+    if data.rewardsMsg then
+        Utils:showReward(data.rewardsMsg)
+    end
+    -- self:resChineseStreetInfo()
+
+    -- dump(data,"请求中华街领取的返回信息",10)
+end
+
+-- 领取全服类任务的奖励
+function ActivityDataMgr:resFullServerTaskReward(activityId, progress)
+    TFDirector:send(c2s.ACTIVITY2_REQ_TAKE_SERVER_PROGRESS_REWARD, {activityId, progress})
+end
+-- 请求全服类任务的最新数据
+function ActivityDataMgr:resFullServerTaskData(activityId)
+    TFDirector:send(c2s.ACTIVITY2_REQ_SUPPORT_ACTIVITY_DATA, {activityId})
+end
+
+
+--全服活动模块消息↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
 return ActivityDataMgr:new()

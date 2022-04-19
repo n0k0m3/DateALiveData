@@ -23601,7 +23601,7 @@ return {
     },
     [15011354] = {
         id = 15011354,
-        text = "Clear floor 20 of Kotori's Special Training",
+        text = "Clear floor 3 of Kotori's Special Training",
         minipack = 0,
     },
     [15011362] = {
@@ -47864,6 +47864,11 @@ return {
         text = "Solo - Easy",
         minipack = 0,
     },
+    [190001323] = {
+        id = 190001323,
+        text = "Complete Pray %s times",
+        minipack = 0,
+    },
     [190200104] = {
         id = 190200104,
         text = "캐릭터 HP 70% 이하 시 자신의 곡격력-80%, 6초간 지속.",
@@ -54046,7 +54051,7 @@ return {
     },
     [15011355] = {
         id = 15011355,
-        text = "Clear floor 40 of Kotori's Special Training",
+        text = "Clear floor 7 of Kotori's Special Training",
         minipack = 0,
     },
     [15011363] = {
@@ -54487,6 +54492,11 @@ return {
     [190001198] = {
         id = 190001198,
         text = "Team-up - Special",
+        minipack = 0,
+    },
+    [190001326] = {
+        id = 190001326,
+        text = "Individual support points reach %s",
         minipack = 0,
     },
     [213088] = {
@@ -62239,6 +62249,11 @@ return {
         text = "Deal at least 400,000 damage to Boss",
         minipack = 0,
     },
+    [190001330] = {
+        id = 190001330,
+        text = "Joint Effort",
+        minipack = 0,
+    },
     [10311003] = {
         id = 10311003,
         text = "각성·3레벨",
@@ -63197,6 +63212,11 @@ return {
     [190001203] = {
         id = 190001203,
         text = "Clear the stage without revived characters",
+        minipack = 0,
+    },
+    [190001331] = {
+        id = 190001331,
+        text = "Supply Store",
         minipack = 0,
     },
     [63593] = {
@@ -74306,7 +74326,7 @@ return {
     },
     [190016187] = {
         id = 190016187,
-        text = "초차원 작전",
+        text = "DAL IV Support",
         minipack = 0,
     },
     [41197] = {
@@ -76191,7 +76211,7 @@ return {
     },
     [15011356] = {
         id = 15011356,
-        text = "Clear floor 60 of Kotori's Special Training",
+        text = "Clear floor 10 of Kotori's Special Training",
         minipack = 0,
     },
     [1020161] = {
@@ -107114,19 +107134,54 @@ return {
         text = "모두 안녕하세요!",
         minipack = 0,
     },
+    [2460187] = {
+        id = 2460187,
+        text = "Participate in DAL IV support event to get this badge",
+        minipack = 0,
+    },
+    [2460186] = {
+        id = 2460186,
+        text = "DAL IV Hype!",
+        minipack = 0,
+    },
+    [2460185] = {
+        id = 2460185,
+        text = "DAL IV Support",
+        minipack = 0,
+    },
+    [266401] = {
+        id = 266401,
+        text = "Participate in DAL IV support event to earn points, and when serverwide support points reach the designated amount, you can get this item.",
+        minipack = 0,
+    },
     [240021] = {
         id = 240021,
         text = "내 힘을 보여주지!",
         minipack = 0,
     },
-    [240022] = {
-        id = 240022,
-        text = "잠깐만 기다려!",
+    [266400] = {
+        id = 266400,
+        text = "DAL IV Support",
         minipack = 0,
     },
-    [240023] = {
-        id = 240023,
-        text = "룬 도전 기능 매칭 실패",
+    [3207041] = {
+        id = 3207041,
+        text = "자세 변경 IV",
+        minipack = 0,
+    },
+    [25302] = {
+        id = 25302,
+        text = "Support Coin",
+        minipack = 0,
+    },
+    [25301] = {
+        id = 25301,
+        text = "Complete quests to obtain points and accumulate points to claim the corresponding rewards",
+        minipack = 0,
+    },
+    [3210253] = {
+        id = 3210253,
+        text = "현재 출전 정령 사용 시 6초 동안 HP가 50%로 감소되며 동시에 공격력이 27% 증가한다",
         minipack = 0,
     },
     [190011153] = {
@@ -107139,14 +107194,14 @@ return {
         text = "Dark DMG Bonus +15% for 60s",
         minipack = 0,
     },
+    [240022] = {
+        id = 240022,
+        text = "잠깐만 기다려!",
+        minipack = 0,
+    },
     [400044] = {
         id = 400044,
         text = "라나티스",
-        minipack = 0,
-    },
-    [12954] = {
-        id = 12954,
-        text = "Crit Rate -10%, DEF -10%, restores 1 Awakening every 2s",
         minipack = 0,
     },
     [190011146] = {
@@ -107162,6 +107217,61 @@ return {
     [63053] = {
         id = 63053,
         text = "주간 순위: 매주 토카 AI 훈련에 통과한 횟수를 기록하며, 매주 일요일 24:00에 초기화됩니다. \n월간 순위: 매월 토카 AI 훈련에 통과한 횟수를 기록하며, 매월 마지막 날 24:00에 초기화됩니다.",
+        minipack = 0,
+    },
+    [3210027] = {
+        id = 3210027,
+        text = "폭풍 피해 12% 증가",
+        minipack = 0,
+    },
+    [15010163] = {
+        id = 15010163,
+        text = "1. 주년 복장 상점에서 서약자들은 쿠루미 웨딩 코스튬 및 복각한 코스튬과 영장을 구매할 수 있습니다. \n2. 코스튬 하우스에서 \"낙원 코인\", \"알록달록한 수정\", \"고급 코스튬 파편\" 3가지 화폐를 소모하여 각각 다른 코스튬과 영장을 구매할 수 있습니다. \n3. 코스튬 하우스는 매일 4개의 코스튬 또는 영장이 새로 고침되고, 서약자들은 매일 1회 무료 새로 고침 횟수가 주어집니다. 코스튬 하우스의 새로 고침 횟수는 동아리 소원의 성 레벨에 따라 늘어납니다\n4. 서약자들이 코스튬 하우스에서 다이아로 새로 고침 할 수 있습니다\n5. 코스튬 하우스에서 매일 유료 새로 고침은 최대 10회까지 할 수 있으며, 새로 고침 비용은 당일 새로 고침하는 횟수에 따라 증가합니다. \n6. 서약자가 이미 보유한 아이템은 코스튬 하우스에서 나타나지 않습니다. \n7. 이번 복각 코스튬, 영장 범위: \n[귀여운 메이드] 판매가: 낙원 코인*2000\n[파티 주인공] 판매가: 낙원 코인*2000\n[지배자] 판매가: 낙원 코인*2000\n[백작] 판매가: 낙원 코인*2000\n[비단부채] 판매가: 낙원 코인*2000\n[견습 메이드] 판매가: 낙원 코인*2000\n[고딕 소녀] 판매가: 낙원 코인*2000\n[기몽] 판매가: 낙원 코인*2000\n[중학생 정장] 판매가: 낙원 코인*2000\n[진홍의 정령] 판매가: 낙원 코인*2000\n[전속 메이드] 판매가: 낙원 코인*2000\n[흰토끼] 판매가: 낙원 코인*2000\n[노란색 첫눈] 판매가: 낙원 코인*2000\n[봄날의 노래] 판매가: 낙원 코인*2000\n[햇살의 모자] 판매가: 낙원 코인*2000\n[순백] 판매가: 낙원 코인*2000\n[무녀의 흰옷] 판매가: 낙원 코인*2000\n[별의 꿈 추종자] 판매가: 낙원 코인*2000\n[바니걸] 판매가: 낙원 코인*2000\n[밤의 별빛] 판매가: 낙원 코인*2000\n[남산타워 데이트] 판매가: 낙원 코인*2000\n[아침의 햇살] 판매가: 낙원 코인*2000\n[심연 응시] 판매가: 알록달록한 수정*128\n[세계의 끝] 판매가: 알록달록한 수정*128\n[사탕의 여왕] 판매가: 알록달록한 수정*128\n[진홍의 각성] 판매가: 알록달록한 수정*128\n[메이드 사령관] 판매가: 알록달록한 수정*128\n[화조월석] 판매가: 알록달록한 수정*128\n[여명의 별] 판매가: 알록달록한 수정*128\n[봄의 은총] 판매가: 알록달록한 수정*128\n[Dive into Reality] 판매가: 알록달록한 수정*128\n[어사만복] 판매가: 알록달록한 수정*128\n[소나무와 달] 판매가: 고급 코스튬 파편*50\n[흐리멍텅 요리사] 판매가: 고급 코스튬 파편*50\n[단풍색 기원] 판매가: 고급 코스튬 파편*50\n[심해의 디바] 판매가: 고급 코스튬 파편*50\n[벚꽃 러브송] 판매가: 고급 코스튬 파편*50\n[Lucky Queen] 판매가: 고급 코스튬 파편*50\n[영장-흐리멍텅 요리사] 판매가: 알록달록한 수정*168\n[영장-심연의 지배자] 판매가: 알록달록한 수정*168\n[영장-검은 깃털의 까마귀] 판매가: 알록달록한 수정*128\n[영장-꿈속에 넋을 잃은 나비] 판매가: 알록달록한 수정*168\n[영장-동풍의 구속] 판매가: 알록달록한 수정*128\n[영장-사탕의 여왕] 판매가: 알록달록한 수정*168\n[영장-시간의 마술사] 판매가: 알록달록한 수정*128\n[영장-지휘관] 판매가: 알록달록한 수정*168\n[영장-여명의 별] 판매가: 알록달록한 수정*168\n[영장-이나리 무녀] 판매가: 알록달록한 수정*168\n[영장-진홍의 정령] 판매가: 알록달록한 수정*68",
+        minipack = 0,
+    },
+    [10101014] = {
+        id = 10101014,
+        text = "견고한 의지",
+        minipack = 0,
+    },
+    [240023] = {
+        id = 240023,
+        text = "룬 도전 기능 매칭 실패",
+        minipack = 0,
+    },
+    [14400470] = {
+        id = 14400470,
+        text = "Thank you. You saved Yuzuru and Kaguya. Please allow Yuzuru to serve you.",
+        minipack = 0,
+    },
+    [14400469] = {
+        id = 14400469,
+        text = "Pleasant. Never thought it would be so interesting.",
+        minipack = 0,
+    },
+    [14400468] = {
+        id = 14400468,
+        text = "Frank. Chatting with you has a distinctive flavor. I can stay a little longer.",
+        minipack = 0,
+    },
+    [12954] = {
+        id = 12954,
+        text = "Crit Rate -10%, DEF -10%, restores 1 Awakening every 2s",
+        minipack = 0,
+    },
+    [3001009] = {
+        id = 3001009,
+        text = "지혜",
+        minipack = 0,
+    },
+    [12010006] = {
+        id = 12010006,
+        text = "또 그 신경 쓰이는 여자아이와 마주쳤다. 그녀는 도대체 누구일까?",
+        minipack = 0,
+    },
+    [14400464] = {
+        id = 14400464,
+        text = "Then don't make such a rash move",
         minipack = 0,
     },
     [240024] = {
@@ -107249,59 +107359,9 @@ return {
         text = "방의 인원수가 이미 최대입니다. 다시 시도하세요.",
         minipack = 0,
     },
-    [3210027] = {
-        id = 3210027,
-        text = "폭풍 피해 12% 증가",
-        minipack = 0,
-    },
-    [15010163] = {
-        id = 15010163,
-        text = "1. 주년 복장 상점에서 서약자들은 쿠루미 웨딩 코스튬 및 복각한 코스튬과 영장을 구매할 수 있습니다. \n2. 코스튬 하우스에서 \"낙원 코인\", \"알록달록한 수정\", \"고급 코스튬 파편\" 3가지 화폐를 소모하여 각각 다른 코스튬과 영장을 구매할 수 있습니다. \n3. 코스튬 하우스는 매일 4개의 코스튬 또는 영장이 새로 고침되고, 서약자들은 매일 1회 무료 새로 고침 횟수가 주어집니다. 코스튬 하우스의 새로 고침 횟수는 동아리 소원의 성 레벨에 따라 늘어납니다\n4. 서약자들이 코스튬 하우스에서 다이아로 새로 고침 할 수 있습니다\n5. 코스튬 하우스에서 매일 유료 새로 고침은 최대 10회까지 할 수 있으며, 새로 고침 비용은 당일 새로 고침하는 횟수에 따라 증가합니다. \n6. 서약자가 이미 보유한 아이템은 코스튬 하우스에서 나타나지 않습니다. \n7. 이번 복각 코스튬, 영장 범위: \n[귀여운 메이드] 판매가: 낙원 코인*2000\n[파티 주인공] 판매가: 낙원 코인*2000\n[지배자] 판매가: 낙원 코인*2000\n[백작] 판매가: 낙원 코인*2000\n[비단부채] 판매가: 낙원 코인*2000\n[견습 메이드] 판매가: 낙원 코인*2000\n[고딕 소녀] 판매가: 낙원 코인*2000\n[기몽] 판매가: 낙원 코인*2000\n[중학생 정장] 판매가: 낙원 코인*2000\n[진홍의 정령] 판매가: 낙원 코인*2000\n[전속 메이드] 판매가: 낙원 코인*2000\n[흰토끼] 판매가: 낙원 코인*2000\n[노란색 첫눈] 판매가: 낙원 코인*2000\n[봄날의 노래] 판매가: 낙원 코인*2000\n[햇살의 모자] 판매가: 낙원 코인*2000\n[순백] 판매가: 낙원 코인*2000\n[무녀의 흰옷] 판매가: 낙원 코인*2000\n[별의 꿈 추종자] 판매가: 낙원 코인*2000\n[바니걸] 판매가: 낙원 코인*2000\n[밤의 별빛] 판매가: 낙원 코인*2000\n[남산타워 데이트] 판매가: 낙원 코인*2000\n[아침의 햇살] 판매가: 낙원 코인*2000\n[심연 응시] 판매가: 알록달록한 수정*128\n[세계의 끝] 판매가: 알록달록한 수정*128\n[사탕의 여왕] 판매가: 알록달록한 수정*128\n[진홍의 각성] 판매가: 알록달록한 수정*128\n[메이드 사령관] 판매가: 알록달록한 수정*128\n[화조월석] 판매가: 알록달록한 수정*128\n[여명의 별] 판매가: 알록달록한 수정*128\n[봄의 은총] 판매가: 알록달록한 수정*128\n[Dive into Reality] 판매가: 알록달록한 수정*128\n[어사만복] 판매가: 알록달록한 수정*128\n[소나무와 달] 판매가: 고급 코스튬 파편*50\n[흐리멍텅 요리사] 판매가: 고급 코스튬 파편*50\n[단풍색 기원] 판매가: 고급 코스튬 파편*50\n[심해의 디바] 판매가: 고급 코스튬 파편*50\n[벚꽃 러브송] 판매가: 고급 코스튬 파편*50\n[Lucky Queen] 판매가: 고급 코스튬 파편*50\n[영장-흐리멍텅 요리사] 판매가: 알록달록한 수정*168\n[영장-심연의 지배자] 판매가: 알록달록한 수정*168\n[영장-검은 깃털의 까마귀] 판매가: 알록달록한 수정*128\n[영장-꿈속에 넋을 잃은 나비] 판매가: 알록달록한 수정*168\n[영장-동풍의 구속] 판매가: 알록달록한 수정*128\n[영장-사탕의 여왕] 판매가: 알록달록한 수정*168\n[영장-시간의 마술사] 판매가: 알록달록한 수정*128\n[영장-지휘관] 판매가: 알록달록한 수정*168\n[영장-여명의 별] 판매가: 알록달록한 수정*168\n[영장-이나리 무녀] 판매가: 알록달록한 수정*168\n[영장-진홍의 정령] 판매가: 알록달록한 수정*68",
-        minipack = 0,
-    },
-    [295002] = {
-        id = 295002,
-        text = "Dear Covenanters, it's been %s days since you last logged in. Perhaps the fatigue of life has kept you away from Tengu City, but whenever you return, the spirits will always be here, waiting by your side. Come on.. let's start our date! DAL: Dating Never Stops!",
-        minipack = 0,
-    },
-    [14400470] = {
-        id = 14400470,
-        text = "Thank you. You saved Yuzuru and Kaguya. Please allow Yuzuru to serve you.",
-        minipack = 0,
-    },
-    [14400469] = {
-        id = 14400469,
-        text = "Pleasant. Never thought it would be so interesting.",
-        minipack = 0,
-    },
-    [14400468] = {
-        id = 14400468,
-        text = "Frank. Chatting with you has a distinctive flavor. I can stay a little longer.",
-        minipack = 0,
-    },
-    [3001009] = {
-        id = 3001009,
-        text = "지혜",
-        minipack = 0,
-    },
-    [240027] = {
-        id = 240027,
-        text = "이미 해당 맵에 있습니다.",
-        minipack = 0,
-    },
-    [12010006] = {
-        id = 12010006,
-        text = "또 그 신경 쓰이는 여자아이와 마주쳤다. 그녀는 도대체 누구일까?",
-        minipack = 0,
-    },
-    [14400464] = {
-        id = 14400464,
-        text = "Then don't make such a rash move",
-        minipack = 0,
-    },
-    [295003] = {
-        id = 295003,
-        text = "Common Costume Choice Chest A",
+    [800017] = {
+        id = 800017,
+        text = "%s%%",
         minipack = 0,
     },
     [14400461] = {
@@ -107324,11 +107384,6 @@ return {
         text = "Did something happen?",
         minipack = 0,
     },
-    [240028] = {
-        id = 240028,
-        text = "연결 오류 발생. 잠시 후 다시 시도하세요.",
-        minipack = 0,
-    },
     [2460184] = {
         id = 2460184,
         text = "A little tiger comes to you. Owww... owww, may you have a happy new year. 2022 Spring Festival exclusive Badge. ",
@@ -107337,6 +107392,11 @@ return {
     [2460183] = {
         id = 2460183,
         text = "Join the [Spring Garden Party] event to challenge the Nian Beast, and complete quests to get this Badge. ",
+        minipack = 0,
+    },
+    [240027] = {
+        id = 240027,
+        text = "이미 해당 맵에 있습니다.",
         minipack = 0,
     },
     [2460182] = {
@@ -107364,11 +107424,6 @@ return {
         text = "참공·종",
         minipack = 0,
     },
-    [240029] = {
-        id = 240029,
-        text = "유저 수가 많은 지역에 있습니다. 잠시 후 다시 시도하세요.",
-        minipack = 0,
-    },
     [190011141] = {
         id = 190011141,
         text = "ATK +20%",
@@ -107377,6 +107432,11 @@ return {
     [10403082] = {
         id = 10403082,
         text = "[경성 탄막] 스킬 크리티컬 확률 +6%.",
+        minipack = 0,
+    },
+    [240028] = {
+        id = 240028,
+        text = "연결 오류 발생. 잠시 후 다시 시도하세요.",
         minipack = 0,
     },
     [190011139] = {
@@ -107402,6 +107462,56 @@ return {
     [190011135] = {
         id = 190011135,
         text = "+0.3% ATK for every 1% of Dodge Rate",
+        minipack = 0,
+    },
+    [190011134] = {
+        id = 190011134,
+        text = "ATK +5%, stacks up to 7 times. This effect ends after taking damage.",
+        minipack = 0,
+    },
+    [190011133] = {
+        id = 190011133,
+        text = "Pierce DMG +10%",
+        minipack = 0,
+    },
+    [240029] = {
+        id = 240029,
+        text = "유저 수가 많은 지역에 있습니다. 잠시 후 다시 시도하세요.",
+        minipack = 0,
+    },
+    [190011132] = {
+        id = 190011132,
+        text = "Pierce DMG +10%",
+        minipack = 0,
+    },
+    [190011131] = {
+        id = 190011131,
+        text = "Crit DMG +10%",
+        minipack = 0,
+    },
+    [190011130] = {
+        id = 190011130,
+        text = "Dodge Rate +10%",
+        minipack = 0,
+    },
+    [190011129] = {
+        id = 190011129,
+        text = "Crit Rate +10%",
+        minipack = 0,
+    },
+    [190011128] = {
+        id = 190011128,
+        text = "Crit DMG +50% for the next 3 attacks",
+        minipack = 0,
+    },
+    [190011127] = {
+        id = 190011127,
+        text = "Pierce DMG +30% for 5s",
+        minipack = 0,
+    },
+    [190011126] = {
+        id = 190011126,
+        text = "Crit DMG +30% for 5s",
         minipack = 0,
     },
     [240030] = {
@@ -107459,9 +107569,9 @@ return {
         text = "Release balloons 10 times (Unlock at Lv.5 Park Pass)",
         minipack = 0,
     },
-    [190011134] = {
-        id = 190011134,
-        text = "ATK +5%, stacks up to 7 times. This effect ends after taking damage.",
+    [190011125] = {
+        id = 190011125,
+        text = "Movement Speed +3%, stacks up to 5 times.",
         minipack = 0,
     },
     [2202001] = {
@@ -107489,66 +107599,6 @@ return {
         text = "파티가 아직 전투 중입니다. 잠시 후 다시 시도하세요.",
         minipack = 0,
     },
-    [190011133] = {
-        id = 190011133,
-        text = "Pierce DMG +10%",
-        minipack = 0,
-    },
-    [190011132] = {
-        id = 190011132,
-        text = "Pierce DMG +10%",
-        minipack = 0,
-    },
-    [190011131] = {
-        id = 190011131,
-        text = "Crit DMG +10%",
-        minipack = 0,
-    },
-    [190011130] = {
-        id = 190011130,
-        text = "Dodge Rate +10%",
-        minipack = 0,
-    },
-    [190011129] = {
-        id = 190011129,
-        text = "Crit Rate +10%",
-        minipack = 0,
-    },
-    [190011128] = {
-        id = 190011128,
-        text = "Crit DMG +50% for the next 3 attacks",
-        minipack = 0,
-    },
-    [190011127] = {
-        id = 190011127,
-        text = "Pierce DMG +30% for 5s",
-        minipack = 0,
-    },
-    [240033] = {
-        id = 240033,
-        text = "파티가 전투 중 패배했습니다.",
-        minipack = 0,
-    },
-    [190011126] = {
-        id = 190011126,
-        text = "Crit DMG +30% for 5s",
-        minipack = 0,
-    },
-    [190011125] = {
-        id = 190011125,
-        text = "Movement Speed +3%, stacks up to 5 times.",
-        minipack = 0,
-    },
-    [190200016] = {
-        id = 190200016,
-        text = "Below No.100",
-        minipack = 0,
-    },
-    [190200144] = {
-        id = 190200144,
-        text = "하얀 여왕 출전, 파티원 HP+10%, 방어+10%, 공격+5%",
-        minipack = 0,
-    },
     [190011124] = {
         id = 190011124,
         text = "ATK Speed +3%, stacks up to 5 times.",
@@ -107562,11 +107612,6 @@ return {
     [190011122] = {
         id = 190011122,
         text = "Superarmor",
-        minipack = 0,
-    },
-    [240034] = {
-        id = 240034,
-        text = "파티가 이번 전투에서 승리했습니다.",
         minipack = 0,
     },
     [190011121] = {
@@ -107589,6 +107634,11 @@ return {
         text = "",
         minipack = 0,
     },
+    [240033] = {
+        id = 240033,
+        text = "파티가 전투 중 패배했습니다.",
+        minipack = 0,
+    },
     [14220024] = {
         id = 14220024,
         text = "달링과 지금까지 %s번의 작전을 나갔어요. 새로운 한 해도 제가 계속 달링을 지켜드리껬어요!",
@@ -107599,14 +107649,19 @@ return {
         text = "DMG Mit -15% for 10s",
         minipack = 0,
     },
+    [190200016] = {
+        id = 190200016,
+        text = "Below No.100",
+        minipack = 0,
+    },
+    [190200144] = {
+        id = 190200144,
+        text = "하얀 여왕 출전, 파티원 HP+10%, 방어+10%, 공격+5%",
+        minipack = 0,
+    },
     [190011115] = {
         id = 190011115,
         text = "Darkness DMG Mit -20% for 10s",
-        minipack = 0,
-    },
-    [240035] = {
-        id = 240035,
-        text = "파티가 이번 룬 도전에서 승리했습니다.",
         minipack = 0,
     },
     [190011114] = {
@@ -107617,6 +107672,11 @@ return {
     [190011113] = {
         id = 190011113,
         text = "Dodge Rate +10%",
+        minipack = 0,
+    },
+    [240034] = {
+        id = 240034,
+        text = "파티가 이번 전투에서 승리했습니다.",
         minipack = 0,
     },
     [190011112] = {
@@ -107644,11 +107704,6 @@ return {
         text = "《好日子》",
         minipack = 0,
     },
-    [60010] = {
-        id = 60010,
-        text = "구역 설명",
-        minipack = 0,
-    },
     [112000076] = {
         id = 112000076,
         text = "[호감]쿠루미_챕터3",
@@ -107657,6 +107712,11 @@ return {
     [190000019] = {
         id = 190000019,
         text = "한정 퀘스트 등을 통해 주사위를 획득할 수 있고, 주사위를 사용해 칸을 이동하여 누적된 걸음 수에 따라 보상을 획득합니다.\n 지도 칸의 방탕마블 금화를 획득하면 방탕마블 금화를 방탕마블 상점에서 보상으로 교환할 수 있습니다. \n 물음표 칸은 사건을 발동할 수 있고며, 엄청난 보상을 획득할 수도 있습니다. \n 아이템 카드 칸에 아이템 카드를 뽑을 수 있습니다. 아이템 카드를 잘 사용하면 더 쉽게 대량의 보상을 획득할 수 있습니다. \n 보물 상자에서 대량의 방탄마블 금화를 나오는 확률이 있습니다.",
+        minipack = 0,
+    },
+    [240035] = {
+        id = 240035,
+        text = "파티가 이번 룬 도전에서 승리했습니다.",
         minipack = 0,
     },
     [190011105] = {
@@ -107684,11 +107744,6 @@ return {
         text = "Crit DMG +8%",
         minipack = 0,
     },
-    [240037] = {
-        id = 240037,
-        text = "네트워크 유동량이 많습니다. 잠시 후 다시 시도하세요.",
-        minipack = 0,
-    },
     [14220025] = {
         id = 14220025,
         text = "역시 달링이 가장 좋아하는 건 저였군요! 그럼 저도 제가 가장 좋아하는 달링을 위해 노래를 불러 드릴게요. 우리 둘만의 노래를요~",
@@ -107697,6 +107752,11 @@ return {
     [2100098] = {
         id = 2100098,
         text = "해당 이벤트가 아직 개방되지 않았습니다.",
+        minipack = 0,
+    },
+    [60010] = {
+        id = 60010,
+        text = "구역 설명",
         minipack = 0,
     },
     [190011098] = {
@@ -107709,9 +107769,59 @@ return {
         text = "[붕괴의 조류] 피해 15% 증가.",
         minipack = 0,
     },
-    [1130969] = {
-        id = 1130969,
-        text = "Maple exclusive. Can be inserted into a Base ATK gem slot. Can activate 1 extra angel skill",
+    [1130956] = {
+        id = 1130956,
+        text = "Maple exclusive. Can be inserted into an Ultimate gem slot.",
+        minipack = 0,
+    },
+    [11261219] = {
+        id = 11261219,
+        text = "[Deus Ex Machina - Cannon Shot] DMG +15%.",
+        minipack = 0,
+    },
+    [15010545] = {
+        id = 15010545,
+        text = "1) This is a 2D side scroller action adventure game suitable for users ages 16 and over. It is recommended that minors play under parental supervision.",
+        minipack = 0,
+    },
+    [11303114] = {
+        id = 11303114,
+        text = "[성당 사자]의 공격력 증가, 매 탄환의 피해 50% 증가.",
+        minipack = 0,
+    },
+    [1706389] = {
+        id = 1706389,
+        text = "Sally of the Maple Tree Guild. This is getting exciting.",
+        minipack = 0,
+    },
+    [240037] = {
+        id = 240037,
+        text = "네트워크 유동량이 많습니다. 잠시 후 다시 시도하세요.",
+        minipack = 0,
+    },
+    [190011091] = {
+        id = 190011091,
+        text = "Extra Skill DMG +20%",
+        minipack = 0,
+    },
+    [190011089] = {
+        id = 190011089,
+        text = "Crit Rate +10%",
+        minipack = 0,
+    },
+    [190011088] = {
+        id = 190011088,
+        text = "Magic DMG +20%",
+        minipack = 0,
+    },
+    [190011087] = {
+        id = 190011087,
+        text = "Dodge Rate +10%",
+        minipack = 0,
+    },
+    [190011085] = {
+        id = 190011085,
+        text = "Back Hit DMG +40% for 5s",
         minipack = 0,
     },
     [2202101] = {
@@ -107734,61 +107844,6 @@ return {
         text = "일섬",
         minipack = 0,
     },
-    [11261228] = {
-        id = 11261228,
-        text = "ATK Bonus -75%, DEF +150%. Each point of DEF provides 0.01% Crit DMG and 0.01% Pierce DMG.",
-        minipack = 0,
-    },
-    [15011431] = {
-        id = 15011431,
-        text = "Ais Wallenstein reaches Lv.50",
-        minipack = 0,
-    },
-    [112000277] = {
-        id = 112000277,
-        text = "바구니에 감춰진 맛있는 음식이 가장 기대되는 것은 그것이 열리는 순간입니다!",
-        minipack = 0,
-    },
-    [2203630] = {
-        id = 2203630,
-        text = "Sally charges forward and slashes with both daggers. Has a 10% chance to inflict [Oboro] on enemies. After 5 hits, she gains the [Addition Blade] effect. This skill inflicts Magic DMG equal to 1,500% of character ATK.",
-        minipack = 0,
-    },
-    [190011091] = {
-        id = 190011091,
-        text = "Extra Skill DMG +20%",
-        minipack = 0,
-    },
-    [190011089] = {
-        id = 190011089,
-        text = "Crit Rate +10%",
-        minipack = 0,
-    },
-    [240039] = {
-        id = 240039,
-        text = "파티가 아직 전투 중입니다. 잠시 후 다시 시도하세요.",
-        minipack = 0,
-    },
-    [190011088] = {
-        id = 190011088,
-        text = "Magic DMG +20%",
-        minipack = 0,
-    },
-    [190011087] = {
-        id = 190011087,
-        text = "Dodge Rate +10%",
-        minipack = 0,
-    },
-    [190011085] = {
-        id = 190011085,
-        text = "Back Hit DMG +40% for 5s",
-        minipack = 0,
-    },
-    [12955] = {
-        id = 12955,
-        text = "Crit Rate +10%, Dodge +10%",
-        minipack = 0,
-    },
     [190011084] = {
         id = 190011084,
         text = "Hit Rate +10% for 10s",
@@ -107797,6 +107852,61 @@ return {
     [190011082] = {
         id = 190011082,
         text = "Crit Rate +10%",
+        minipack = 0,
+    },
+    [190011079] = {
+        id = 190011079,
+        text = "Crit Rate +5%, Crit DMG +10% for 8s.",
+        minipack = 0,
+    },
+    [190011078] = {
+        id = 190011078,
+        text = "ATK Speed +10%",
+        minipack = 0,
+    },
+    [190011076] = {
+        id = 190011076,
+        text = "Damage +10%",
+        minipack = 0,
+    },
+    [17000281] = {
+        id = 17000281,
+        text = "冰冻木偶",
+        minipack = 0,
+    },
+    [240039] = {
+        id = 240039,
+        text = "파티가 아직 전투 중입니다. 잠시 후 다시 시도하세요.",
+        minipack = 0,
+    },
+    [17000284] = {
+        id = 17000284,
+        text = "狂狂帝",
+        minipack = 0,
+    },
+    [12931] = {
+        id = 12931,
+        text = "피해 보너스 +10%, 공격속도 +10%",
+        minipack = 0,
+    },
+    [13205567] = {
+        id = 13205567,
+        text = "Sally Skill Intro - Difficulty 4",
+        minipack = 0,
+    },
+    [12955] = {
+        id = 12955,
+        text = "Crit Rate +10%, Dodge +10%",
+        minipack = 0,
+    },
+    [13205566] = {
+        id = 13205566,
+        text = "Sally Skill Intro - Difficulty 3",
+        minipack = 0,
+    },
+    [13205564] = {
+        id = 13205564,
+        text = "Sally Skill Intro - Difficulty 1",
         minipack = 0,
     },
     [190010067] = {
@@ -107984,76 +108094,6 @@ return {
         text = "일섬",
         minipack = 0,
     },
-    [190011079] = {
-        id = 190011079,
-        text = "Crit Rate +5%, Crit DMG +10% for 8s.",
-        minipack = 0,
-    },
-    [190011078] = {
-        id = 190011078,
-        text = "ATK Speed +10%",
-        minipack = 0,
-    },
-    [190015059] = {
-        id = 190015059,
-        text = "Celestial Prison/Star Realm Wanderer",
-        minipack = 0,
-    },
-    [190011076] = {
-        id = 190011076,
-        text = "Damage +10%",
-        minipack = 0,
-    },
-    [240045] = {
-        id = 240045,
-        text = "네트워크가 불안정합니다. 잠시 후 다시 시도하세요.",
-        minipack = 0,
-    },
-    [17000281] = {
-        id = 17000281,
-        text = "冰冻木偶",
-        minipack = 0,
-    },
-    [17000284] = {
-        id = 17000284,
-        text = "狂狂帝",
-        minipack = 0,
-    },
-    [42313] = {
-        id = 42313,
-        text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Sally]. (Auto used once obtained)",
-        minipack = 0,
-    },
-    [13205567] = {
-        id = 13205567,
-        text = "Sally Skill Intro - Difficulty 4",
-        minipack = 0,
-    },
-    [13205566] = {
-        id = 13205566,
-        text = "Sally Skill Intro - Difficulty 3",
-        minipack = 0,
-    },
-    [190016083] = {
-        id = 190016083,
-        text = "작전·홀",
-        minipack = 0,
-    },
-    [190016211] = {
-        id = 190016211,
-        text = "세피라·분류",
-        minipack = 0,
-    },
-    [240046] = {
-        id = 240046,
-        text = "방이 존재하지 않습니다",
-        minipack = 0,
-    },
-    [13205564] = {
-        id = 13205564,
-        text = "Sally Skill Intro - Difficulty 1",
-        minipack = 0,
-    },
     [16011187] = {
         id = 16011187,
         text = "Sally's Angel reaches 5-star",
@@ -108064,9 +108104,19 @@ return {
         text = "해당 영장은 세련할 수 없습니다.",
         minipack = 0,
     },
+    [190015059] = {
+        id = 190015059,
+        text = "Celestial Prison/Star Realm Wanderer",
+        minipack = 0,
+    },
     [13316019] = {
         id = 13316019,
         text = "진행도: %s",
+        minipack = 0,
+    },
+    [240045] = {
+        id = 240045,
+        text = "네트워크가 불안정합니다. 잠시 후 다시 시도하세요.",
         minipack = 0,
     },
     [190000139] = {
@@ -108084,11 +108134,6 @@ return {
         text = "Upgrade any [Sea] Set Sephira to Lv.50",
         minipack = 0,
     },
-    [240047] = {
-        id = 240047,
-        text = "하루 선물상자 수령 상한에 달했습니다",
-        minipack = 0,
-    },
     [16011175] = {
         id = 16011175,
         text = "Gather all the Sephira of any [Sea] Set",
@@ -108099,6 +108144,21 @@ return {
         text = "Use to get Proof of Oath*10.",
         minipack = 0,
     },
+    [190016083] = {
+        id = 190016083,
+        text = "작전·홀",
+        minipack = 0,
+    },
+    [190016211] = {
+        id = 190016211,
+        text = "세피라·분류",
+        minipack = 0,
+    },
+    [240046] = {
+        id = 240046,
+        text = "방이 존재하지 않습니다",
+        minipack = 0,
+    },
     [1705439] = {
         id = 1705439,
         text = "간판녀 마리나 보유",
@@ -108107,31 +108167,6 @@ return {
     [61012] = {
         id = 61012,
         text = "신비상점",
-        minipack = 0,
-    },
-    [190018003] = {
-        id = 190018003,
-        text = "공격속도 +20%",
-        minipack = 0,
-    },
-    [12020003] = {
-        id = 12020003,
-        text = "도전1-3",
-        minipack = 0,
-    },
-    [12020011] = {
-        id = 12020011,
-        text = "도전2-4",
-        minipack = 0,
-    },
-    [240048] = {
-        id = 240048,
-        text = "아직 개방 시간이 아닙니다",
-        minipack = 0,
-    },
-    [12020027] = {
-        id = 12020027,
-        text = "도전4-6",
         minipack = 0,
     },
     [190010314] = {
@@ -108159,14 +108194,14 @@ return {
         text = "세피라 상태의 소노가미 린네, 다른 세피라와 비교할 수 없는 힘을 지니고 있다. 세피라는 아름다움이며, 4개의 랜덤 속성을 지니고 있다",
         minipack = 0,
     },
+    [240047] = {
+        id = 240047,
+        text = "하루 선물상자 수령 상한에 달했습니다",
+        minipack = 0,
+    },
     [1900007] = {
         id = 1900007,
         text = "텐구 시에서 일상적으로 쓰이는 교환 화폐~",
-        minipack = 0,
-    },
-    [240049] = {
-        id = 240049,
-        text = "레벨 부족",
         minipack = 0,
     },
     [190010319] = {
@@ -108179,9 +108214,34 @@ return {
         text = "1. 주년 상점은 일반 상점, 세피라 상점 및 신물 상점 3가지로 나뉩니다. \n2. 신물 상점에서 판매하는 신물은 모두 개방 조건이 있으며, 낙원 카드를 레벨업해야 개방할 수 있습니다.",
         minipack = 0,
     },
-    [295004] = {
-        id = 295004,
-        text = "Open to select 1 of the following costumes: Ruler, Crimson Rose, Radiant Dawn, Christmas Gift, Treat? Trick!, Gothic Lolita, Exclusive Maid, Divine Raiment.",
+    [290019] = {
+        id = 290019,
+        text = "Craft Gems 1 time",
+        minipack = 0,
+    },
+    [190018003] = {
+        id = 190018003,
+        text = "공격속도 +20%",
+        minipack = 0,
+    },
+    [12020003] = {
+        id = 12020003,
+        text = "도전1-3",
+        minipack = 0,
+    },
+    [12020011] = {
+        id = 12020011,
+        text = "도전2-4",
+        minipack = 0,
+    },
+    [240048] = {
+        id = 240048,
+        text = "아직 개방 시간이 아닙니다",
+        minipack = 0,
+    },
+    [12020027] = {
+        id = 12020027,
+        text = "도전4-6",
         minipack = 0,
     },
     [14400453] = {
@@ -108204,49 +108264,24 @@ return {
         text = "만나기로 한 건 처음으로 혼자 외출한 카구야였다.",
         minipack = 0,
     },
-    [240050] = {
-        id = 240050,
-        text = "아직 동아리에 가입하지 않았습니다",
-        minipack = 0,
-    },
     [14400448] = {
         id = 14400448,
         text = "I mean...it's good to tone it down once in a while, right? Otherwise you'll be in trouble.",
         minipack = 0,
     },
-    [2202301] = {
-        id = 2202301,
-        text = "전광석화",
+    [200015] = {
+        id = 200015,
+        text = "구매 횟수 부족",
         minipack = 0,
     },
-    [2202303] = {
-        id = 2202303,
-        text = "사철의 검",
-        minipack = 0,
-    },
-    [2202305] = {
-        id = 2202305,
-        text = "초전자포",
-        minipack = 0,
-    },
-    [2202307] = {
-        id = 2202307,
-        text = "일섬",
-        minipack = 0,
-    },
-    [295005] = {
-        id = 295005,
-        text = "Common Costume Choice Chest B",
+    [240049] = {
+        id = 240049,
+        text = "레벨 부족",
         minipack = 0,
     },
     [14400445] = {
         id = 14400445,
         text = ", but in reality she's a natural airhead.",
-        minipack = 0,
-    },
-    [240051] = {
-        id = 240051,
-        text = "동아리 레벨이 부족합니다",
         minipack = 0,
     },
     [14400444] = {
@@ -108269,9 +108304,9 @@ return {
         text = "해당 아이템은 쿠루미 \"평생의 수호\" 코스튬을 보유해야 효과가 발동됩니다. 구매하시겠습니까",
         minipack = 0,
     },
-    [295006] = {
-        id = 295006,
-        text = "Open to select 1 of the following costumes: All the Best, White Sparrow, Wondrous Dream, Transform Magic, First Snow, White Bunny, Star of the Party, Party Invitation.",
+    [3310015] = {
+        id = 3310015,
+        text = "",
         minipack = 0,
     },
     [14400437] = {
@@ -108279,14 +108314,34 @@ return {
         text = "Maple met a bunch of friends in NewWorld Online.",
         minipack = 0,
     },
+    [240050] = {
+        id = 240050,
+        text = "아직 동아리에 가입하지 않았습니다",
+        minipack = 0,
+    },
     [14400436] = {
         id = 14400436,
         text = "This is my youth, I have to live it to the fullest.",
         minipack = 0,
     },
-    [60014] = {
-        id = 60014,
-        text = "카발라",
+    [2202301] = {
+        id = 2202301,
+        text = "전광석화",
+        minipack = 0,
+    },
+    [2202303] = {
+        id = 2202303,
+        text = "사철의 검",
+        minipack = 0,
+    },
+    [2202305] = {
+        id = 2202305,
+        text = "초전자포",
+        minipack = 0,
+    },
+    [2202307] = {
+        id = 2202307,
+        text = "일섬",
         minipack = 0,
     },
     [1013312] = {
@@ -108299,14 +108354,19 @@ return {
         text = "미쿠가 만나자고 한 데이트 장소의 호화로움은 상상을 초월했다.",
         minipack = 0,
     },
+    [240051] = {
+        id = 240051,
+        text = "동아리 레벨이 부족합니다",
+        minipack = 0,
+    },
     [14400432] = {
         id = 14400432,
         text = "Maple may be pretty impressive in-game, but in reality she's a natural airhead. I won't forgive you if you pick on her~",
         minipack = 0,
     },
-    [295007] = {
-        id = 295007,
-        text = "3rd Anniversary Sephira Choice Chest",
+    [3310008] = {
+        id = 3310008,
+        text = "8. 파티 인원수는 1~5명으로, 보스의 레벨에 따라 파티 인원수 조건이 달라지며, 인원수에 따라 파티 버프를 획득합니다.",
         minipack = 0,
     },
     [14400429] = {
@@ -108324,11 +108384,6 @@ return {
         text = "Proof of Arbiter",
         minipack = 0,
     },
-    [240053] = {
-        id = 240053,
-        text = "해당 선물상자를 찾을 수 없습니다",
-        minipack = 0,
-    },
     [10981039] = {
         id = 10981039,
         text = "광폭",
@@ -108339,9 +108394,64 @@ return {
         text = "사악한 눈",
         minipack = 0,
     },
+    [60014] = {
+        id = 60014,
+        text = "카발라",
+        minipack = 0,
+    },
     [190000762] = {
         id = 190000762,
         text = "Spring Pack (1)",
+        minipack = 0,
+    },
+    [190000933] = {
+        id = 190000933,
+        text = "Used to mock summon from Crimson Nightmare card pool",
+        minipack = 0,
+    },
+    [13311839] = {
+        id = 13311839,
+        text = "Open to select one Particle Chest from: [Mischief Set]*1, [Christmas Set]*1, [Spring Fest Set]*1, [Maid Set]*1, [Winter Gift Set]*1, [Prosperous Year Set]*1, [Fate Badge]*1.",
+        minipack = 0,
+    },
+    [13311836] = {
+        id = 13311836,
+        text = "Open to select one Sephira from: [Winter Gift: Warm Snow]*1, [Winter Gift: Sweet Snow]*1, [Winter Gift: Dancing Snow]*1.",
+        minipack = 0,
+    },
+    [13311834] = {
+        id = 13311834,
+        text = "Open to select one Sephira from: [Auspicious: Kotori Itsuka]*1, [Auspicious: Miku Izayoi]*1, [Auspicious: Tohka Yatogami]*1.",
+        minipack = 0,
+    },
+    [13311833] = {
+        id = 13311833,
+        text = "Open to select one Sephira from: [Christmas: Origami Tobiichi]*1, [Christmas: Mayuri]*1, [Christmas: Kurumi Tokisaki]*1, [Christmas: Yoshino]*1, [Christmas: Kotori Itsuka]*1, [Christmas: Shiori Itsuka]*1, [Christmas: Kaguya Yamai]*1, [Christmas: Yuzuru Ya",
+        minipack = 0,
+    },
+    [190000934] = {
+        id = 190000934,
+        text = "Used to mock summon from White Queen card pool",
+        minipack = 0,
+    },
+    [240053] = {
+        id = 240053,
+        text = "해당 선물상자를 찾을 수 없습니다",
+        minipack = 0,
+    },
+    [13311827] = {
+        id = 13311827,
+        text = "Open to select one Keepsake from: [Folding Fan]*1, [Maple Pendant]*1 and [Scarf]*1. \nTip: Duplicate Keepsakes will be converted into 1 gold, please choose carefully",
+        minipack = 0,
+    },
+    [13311826] = {
+        id = 13311826,
+        text = "Open to select one Keepsake from: [Commander Badge]*1 and [Comm Headphones]*1. \nTip: Duplicate Keepsakes will be converted into 1 gold, please choose carefully",
+        minipack = 0,
+    },
+    [13310329] = {
+        id = 13310329,
+        text = "변동률 0.987106",
         minipack = 0,
     },
     [13200001] = {
@@ -108559,9 +108669,9 @@ return {
         text = "하얀 여왕, 쿠루미",
         minipack = 0,
     },
-    [190000933] = {
-        id = 190000933,
-        text = "Used to mock summon from Crimson Nightmare card pool",
+    [190000935] = {
+        id = 190000935,
+        text = "Used to mock summon from Tsang card pool",
         minipack = 0,
     },
     [240059] = {
@@ -108569,29 +108679,29 @@ return {
         text = "부품 무효",
         minipack = 0,
     },
-    [13311839] = {
-        id = 13311839,
-        text = "Open to select one Particle Chest from: [Mischief Set]*1, [Christmas Set]*1, [Spring Fest Set]*1, [Maid Set]*1, [Winter Gift Set]*1, [Prosperous Year Set]*1, [Fate Badge]*1.",
+    [13311820] = {
+        id = 13311820,
+        text = "Previous Sephira Keepsake Choice Chest",
         minipack = 0,
     },
-    [13311836] = {
-        id = 13311836,
-        text = "Open to select one Sephira from: [Winter Gift: Warm Snow]*1, [Winter Gift: Sweet Snow]*1, [Winter Gift: Dancing Snow]*1.",
+    [402004] = {
+        id = 402004,
+        text = "자비",
         minipack = 0,
     },
-    [13311834] = {
-        id = 13311834,
-        text = "Open to select one Sephira from: [Auspicious: Kotori Itsuka]*1, [Auspicious: Miku Izayoi]*1, [Auspicious: Tohka Yatogami]*1.",
+    [10951227] = {
+        id = 10951227,
+        text = "정신력 최대치 50 증가. 정신력 회복 속도가 초당 5포인트까지 증가한다.",
         minipack = 0,
     },
-    [13311833] = {
-        id = 13311833,
-        text = "Open to select one Sephira from: [Christmas: Origami Tobiichi]*1, [Christmas: Mayuri]*1, [Christmas: Kurumi Tokisaki]*1, [Christmas: Yoshino]*1, [Christmas: Kotori Itsuka]*1, [Christmas: Shiori Itsuka]*1, [Christmas: Kaguya Yamai]*1, [Christmas: Yuzuru Ya",
+    [190000936] = {
+        id = 190000936,
+        text = "Autumn Fest",
         minipack = 0,
     },
-    [190000934] = {
-        id = 190000934,
-        text = "Used to mock summon from White Queen card pool",
+    [13311814] = {
+        id = 13311814,
+        text = "Spring Fest Set",
         minipack = 0,
     },
     [13200401] = {
@@ -108669,49 +108779,49 @@ return {
         text = "아이템 카드지갑",
         minipack = 0,
     },
-    [13311827] = {
-        id = 13311827,
-        text = "Open to select one Keepsake from: [Folding Fan]*1, [Maple Pendant]*1 and [Scarf]*1. \nTip: Duplicate Keepsakes will be converted into 1 gold, please choose carefully",
+    [13311813] = {
+        id = 13311813,
+        text = "Christmas Set",
         minipack = 0,
     },
-    [13311826] = {
-        id = 13311826,
-        text = "Open to select one Keepsake from: [Commander Badge]*1 and [Comm Headphones]*1. \nTip: Duplicate Keepsakes will be converted into 1 gold, please choose carefully",
+    [13311812] = {
+        id = 13311812,
+        text = "Mischief Set",
         minipack = 0,
     },
-    [13310329] = {
-        id = 13310329,
-        text = "변동률 0.987106",
+    [13311810] = {
+        id = 13311810,
+        text = "Chocolate Clash",
         minipack = 0,
     },
-    [190000935] = {
-        id = 190000935,
-        text = "Used to mock summon from Tsang card pool",
+    [3210436] = {
+        id = 3210436,
+        text = "뇌전 피해 20% 증가",
         minipack = 0,
     },
-    [13311820] = {
-        id = 13311820,
-        text = "Previous Sephira Keepsake Choice Chest",
+    [190000937] = {
+        id = 190000937,
+        text = "Abyssal Stare",
         minipack = 0,
     },
-    [402004] = {
-        id = 402004,
-        text = "자비",
+    [13311807] = {
+        id = 13311807,
+        text = "Autumn Days",
         minipack = 0,
     },
-    [10951227] = {
-        id = 10951227,
-        text = "정신력 최대치 50 증가. 정신력 회복 속도가 초당 5포인트까지 증가한다.",
+    [13311804] = {
+        id = 13311804,
+        text = "Detective Time",
         minipack = 0,
     },
-    [190000936] = {
-        id = 190000936,
-        text = "Autumn Fest",
+    [13311803] = {
+        id = 13311803,
+        text = "Happy Birthday",
         minipack = 0,
     },
-    [13311814] = {
-        id = 13311814,
-        text = "Spring Fest Set",
+    [13311802] = {
+        id = 13311802,
+        text = "Warm Spring",
         minipack = 0,
     },
     [2202501] = {
@@ -108734,24 +108844,24 @@ return {
         text = "일섬",
         minipack = 0,
     },
-    [13311813] = {
-        id = 13311813,
-        text = "Christmas Set",
+    [13311801] = {
+        id = 13311801,
+        text = "Spring Blessing",
         minipack = 0,
     },
-    [13311812] = {
-        id = 13311812,
-        text = "Mischief Set",
+    [13300316] = {
+        id = 13300316,
+        text = "자금난",
         minipack = 0,
     },
-    [13311810] = {
-        id = 13311810,
-        text = "Chocolate Clash",
+    [14300036] = {
+        id = 14300036,
+        text = "90% 통용 할인권",
         minipack = 0,
     },
-    [3210436] = {
-        id = 3210436,
-        text = "뇌전 피해 20% 증가",
+    [190010793] = {
+        id = 190010793,
+        text = "Pierce Rate +3% for 7s",
         minipack = 0,
     },
     [13200657] = {
@@ -108774,14 +108884,14 @@ return {
         text = "정령 정밀소환 이벤트 개방 시 해당 정밀소환을 진행할 때마다 점수가 누적되며, 일정 수치 누적 시 해당하는 보상으로 교환할 수 있습니다. 누적 점수는 한도가 없으며, 1회차 보상을 모두 수령하면 보상이 자동으로 초기화되므로, 점수가 충분할 경우 반복해서 보상을 수령할 수 있습니다. \n\n화면 우측 하단에는 소환 총점수가 표시되며, 현재 남은 점수와 보상 수령 회차가 표시됩니다.",
         minipack = 0,
     },
-    [190000937] = {
-        id = 190000937,
-        text = "Abyssal Stare",
+    [11271238] = {
+        id = 11271238,
+        text = "Sally transforms into flame, hitting the entire screen with 6 waves of fire attacks. Each hit deals Magic DMG equal to 300% of ATK. Finally, she summons a fireball in her hands and throws it into the ground, inflicting Magic DMG equal to 400% of ATK on al",
         minipack = 0,
     },
-    [13311807] = {
-        id = 13311807,
-        text = "Autumn Days",
+    [11271236] = {
+        id = 11271236,
+        text = "When Maple is not on the team, gain +20% ATK and +20% Crit Rate.",
         minipack = 0,
     },
     [13200705] = {
@@ -108819,71 +108929,6 @@ return {
         text = "수치스러워!",
         minipack = 0,
     },
-    [13311804] = {
-        id = 13311804,
-        text = "Detective Time",
-        minipack = 0,
-    },
-    [13311803] = {
-        id = 13311803,
-        text = "Happy Birthday",
-        minipack = 0,
-    },
-    [13311802] = {
-        id = 13311802,
-        text = "Warm Spring",
-        minipack = 0,
-    },
-    [13311801] = {
-        id = 13311801,
-        text = "Spring Blessing",
-        minipack = 0,
-    },
-    [13300316] = {
-        id = 13300316,
-        text = "자금난",
-        minipack = 0,
-    },
-    [13200801] = {
-        id = 13200801,
-        text = "북쪽 다리",
-        minipack = 0,
-    },
-    [13200809] = {
-        id = 13200809,
-        text = "서쪽 성문",
-        minipack = 0,
-    },
-    [13200817] = {
-        id = 13200817,
-        text = "탐색 소대가 특수 구역에 잘못 진입한 것 같습니다. 지원을 기다리고 있습니다.",
-        minipack = 0,
-    },
-    [13200825] = {
-        id = 13200825,
-        text = "탐색 소대가 특수 구역에 잘못 진입한 것 같습니다. 지원을 기다리고 있습니다.",
-        minipack = 0,
-    },
-    [14300036] = {
-        id = 14300036,
-        text = "90% 통용 할인권",
-        minipack = 0,
-    },
-    [190010793] = {
-        id = 190010793,
-        text = "Pierce Rate +3% for 7s",
-        minipack = 0,
-    },
-    [11271238] = {
-        id = 11271238,
-        text = "Sally transforms into flame, hitting the entire screen with 6 waves of fire attacks. Each hit deals Magic DMG equal to 300% of ATK. Finally, she summons a fireball in her hands and throws it into the ground, inflicting Magic DMG equal to 400% of ATK on al",
-        minipack = 0,
-    },
-    [11271236] = {
-        id = 11271236,
-        text = "When Maple is not on the team, gain +20% ATK and +20% Crit Rate.",
-        minipack = 0,
-    },
     [901176] = {
         id = 901176,
         text = "사슴뿔? 뭐라고? 영장의 뿔이 더 액세서리 같다고? 뭐라는 거야, 절대 만지지 못하게 할 거야!",
@@ -108909,24 +108954,29 @@ return {
         text = "When only 1 enemy on the battlefield has [Oboro] mark, Sally's Magic DMG is increased by 20% and she deals +15% DMG to bosses.",
         minipack = 0,
     },
-    [13200905] = {
-        id = 13200905,
-        text = "※스킵한 탐색사건 입니다",
+    [13200801] = {
+        id = 13200801,
+        text = "북쪽 다리",
+        minipack = 0,
+    },
+    [13200809] = {
+        id = 13200809,
+        text = "서쪽 성문",
+        minipack = 0,
+    },
+    [13200817] = {
+        id = 13200817,
+        text = "탐색 소대가 특수 구역에 잘못 진입한 것 같습니다. 지원을 기다리고 있습니다.",
+        minipack = 0,
+    },
+    [13200825] = {
+        id = 13200825,
+        text = "탐색 소대가 특수 구역에 잘못 진입한 것 같습니다. 지원을 기다리고 있습니다.",
         minipack = 0,
     },
     [11271226] = {
         id = 11271226,
         text = "Each time Sally dodges an attack, she gains +5% ATK (up to a max of +35%). This effect resets whenever she takes damage.",
-        minipack = 0,
-    },
-    [13200921] = {
-        id = 13200921,
-        text = "동아리에 가입해야 지원을 사용할 수 있습니다",
-        minipack = 0,
-    },
-    [60018] = {
-        id = 60018,
-        text = "우편 Tips",
         minipack = 0,
     },
     [213014] = {
@@ -108964,34 +109014,29 @@ return {
         text = "10% 일상 할인권",
         minipack = 0,
     },
-    [2202601] = {
-        id = 2202601,
-        text = "분노의 윈드스피어",
-        minipack = 0,
-    },
-    [2202603] = {
-        id = 2202603,
-        text = "모래바람 회오리",
-        minipack = 0,
-    },
-    [2202605] = {
-        id = 2202605,
-        text = "풍격진",
-        minipack = 0,
-    },
-    [2202607] = {
-        id = 2202607,
-        text = "일섬",
-        minipack = 0,
-    },
     [190010829] = {
         id = 190010829,
         text = "ATK +20% for 5s",
         minipack = 0,
     },
+    [13200905] = {
+        id = 13200905,
+        text = "※스킵한 탐색사건 입니다",
+        minipack = 0,
+    },
     [11271110] = {
         id = 11271110,
         text = "Adaptation",
+        minipack = 0,
+    },
+    [13200921] = {
+        id = 13200921,
+        text = "동아리에 가입해야 지원을 사용할 수 있습니다",
+        minipack = 0,
+    },
+    [60018] = {
+        id = 60018,
+        text = "우편 Tips",
         minipack = 0,
     },
     [11271108] = {
@@ -109029,6 +109074,26 @@ return {
         text = "코토리-지휘관의 휴식",
         minipack = 0,
     },
+    [2202601] = {
+        id = 2202601,
+        text = "분노의 윈드스피어",
+        minipack = 0,
+    },
+    [2202603] = {
+        id = 2202603,
+        text = "모래바람 회오리",
+        minipack = 0,
+    },
+    [2202605] = {
+        id = 2202605,
+        text = "풍격진",
+        minipack = 0,
+    },
+    [2202607] = {
+        id = 2202607,
+        text = "일섬",
+        minipack = 0,
+    },
     [11271216] = {
         id = 11271216,
         text = "[Super Speed] Inflicts extra Pure DMG equal to 30% of DMG dealt.",
@@ -109064,11 +109129,6 @@ return {
         text = "Pierce DMG +8% for 7s",
         minipack = 0,
     },
-    [12957] = {
-        id = 12957,
-        text = "Crit Rate -10%, Dodge -10%, restores 1 Awakening every 2s",
-        minipack = 0,
-    },
     [11271206] = {
         id = 11271206,
         text = "[Super Speed] Pierce Rate +6%.",
@@ -109082,21 +109142,6 @@ return {
     [213013] = {
         id = 213013,
         text = "수령하지 않은 회귀 가이드 수첩 보상을 우편으로 보내 드립니다.",
-        minipack = 0,
-    },
-    [15005] = {
-        id = 15005,
-        text = "고대 파편",
-        minipack = 0,
-    },
-    [62067] = {
-        id = 62067,
-        text = "일부 랜덤 아이템의 획득 확률은 다음과 같습니다.\n\n정수 선물상자\n아이템 / 수량 / 확률\n이해의 정수 / 5~8 / 13.5%\n자비의 정수 / 5~8 / 13.5%\n힘의 정수 / 5~8 / 13.5%\n영광의 정수 / 5~8 / 13.5%\n기초의 정수 / 5~8 / 13.5%\n왕국의 정수 / 5~8 / 13.5%\n마술사의 정수 / 6~10 / 19%",
-        minipack = 0,
-    },
-    [16029] = {
-        id = 16029,
-        text = "이자요이 미쿠 파편",
         minipack = 0,
     },
     [11271200] = {
@@ -109129,6 +109174,11 @@ return {
         text = "회귀 가이드 수첩 보상",
         minipack = 0,
     },
+    [12957] = {
+        id = 12957,
+        text = "Crit Rate -10%, Dodge -10%, restores 1 Awakening every 2s",
+        minipack = 0,
+    },
     [14300039] = {
         id = 14300039,
         text = "60% 일상 할인권",
@@ -109142,6 +109192,21 @@ return {
     [11271190] = {
         id = 11271190,
         text = "[Double Slash] Inflicts extra Pure DMG equal to 15% of DMG dealt.",
+        minipack = 0,
+    },
+    [15005] = {
+        id = 15005,
+        text = "고대 파편",
+        minipack = 0,
+    },
+    [62067] = {
+        id = 62067,
+        text = "일부 랜덤 아이템의 획득 확률은 다음과 같습니다.\n\n정수 선물상자\n아이템 / 수량 / 확률\n이해의 정수 / 5~8 / 13.5%\n자비의 정수 / 5~8 / 13.5%\n힘의 정수 / 5~8 / 13.5%\n영광의 정수 / 5~8 / 13.5%\n기초의 정수 / 5~8 / 13.5%\n왕국의 정수 / 5~8 / 13.5%\n마술사의 정수 / 6~10 / 19%",
+        minipack = 0,
+    },
+    [16029] = {
+        id = 16029,
+        text = "이자요이 미쿠 파편",
         minipack = 0,
     },
     [11271188] = {
@@ -109214,26 +109279,6 @@ return {
         text = "DMG +20%, for 10s",
         minipack = 0,
     },
-    [2202701] = {
-        id = 2202701,
-        text = "진격 프로토콜",
-        minipack = 0,
-    },
-    [2202703] = {
-        id = 2202703,
-        text = "안전 속의 위험",
-        minipack = 0,
-    },
-    [2202705] = {
-        id = 2202705,
-        text = "전부 삭제",
-        minipack = 0,
-    },
-    [2202707] = {
-        id = 2202707,
-        text = "일섬",
-        minipack = 0,
-    },
     [11271166] = {
         id = 11271166,
         text = "[Leap Attack] Increases Movement Speed by 9% for 8s.",
@@ -109242,16 +109287,6 @@ return {
     [11271164] = {
         id = 11271164,
         text = "[Leap Attack] Creates 3 Instant Trigger Wave Marks upon landing. Deals total Magic DMG equal to 3,600% of ATK.",
-        minipack = 0,
-    },
-    [60020] = {
-        id = 60020,
-        text = "소환 공략",
-        minipack = 0,
-    },
-    [62068] = {
-        id = 62068,
-        text = "영력의 그릇을 판결하는 자 마유리, 그녀가 갑자기 텐구 시에 강림하자, 정령들의 봉인된 영력이 불안정해지기 시작했고, 흘러나온 영파는 주변의 물건에 미약한 영력을 부여했습니다.\n\n텐구 시의 수호자는 정령 데이트를 통해 영력이 깃든 '물건'을 수집해야 합니다. 이는 음식이나 선물일 수도 있습니다. 일부 특수한 물건은 정령 데이트의 증거가 되어 정령을 수호하는 '신물'이 됩니다.\n\n'신물'을 휴대하면 더욱 강한 힘을 얻을 수 있고, 일부 특수한 '신물' 간에는 서로 영향을 주어 신비한 효과를 일으킬 수도 있습니다. 특정 '신물'은 특정 사람이나 정령에게 더욱 적합한 영력을 지니고 있어, 장착 시 특정한 효과가 발생할 수 있습니다.\n\n'신물' 레벨 강화: 영파 중합체 및 기타 특수한 에너지를 지닌 강화 재료를 수집해 '신물'의 레벨을 높이면 신물의 속성이 증가합니다.\n\n'신물' 등급 향상: 특정한 승급 재료를 사용하면 최고레벨 신물의 등급을 높일 수 있고, 신물의 레벨 한도 및 속성이 증가합니다. 등급 한도에 도달할 경우 더는 성장시킬 수 없습니다.",
         minipack = 0,
     },
     [11271162] = {
@@ -109287,6 +109322,81 @@ return {
     [11271156] = {
         id = 11271156,
         text = "[Leap Attack] Reduces targets' DEF by 15% for 1s on hit.",
+        minipack = 0,
+    },
+    [2202701] = {
+        id = 2202701,
+        text = "진격 프로토콜",
+        minipack = 0,
+    },
+    [2202703] = {
+        id = 2202703,
+        text = "안전 속의 위험",
+        minipack = 0,
+    },
+    [2202705] = {
+        id = 2202705,
+        text = "전부 삭제",
+        minipack = 0,
+    },
+    [2202707] = {
+        id = 2202707,
+        text = "일섬",
+        minipack = 0,
+    },
+    [213009] = {
+        id = 213009,
+        text = "수령하지 않은 맹우 요청 보상을 우편으로 보내 드립니다.",
+        minipack = 0,
+    },
+    [11271152] = {
+        id = 11271152,
+        text = "[Leap Attack] Creates 2 Delayed Trigger Wave Marks in its path. Deals total Magic DMG equal to 2,300% of ATK.",
+        minipack = 0,
+    },
+    [60020] = {
+        id = 60020,
+        text = "소환 공략",
+        minipack = 0,
+    },
+    [62068] = {
+        id = 62068,
+        text = "영력의 그릇을 판결하는 자 마유리, 그녀가 갑자기 텐구 시에 강림하자, 정령들의 봉인된 영력이 불안정해지기 시작했고, 흘러나온 영파는 주변의 물건에 미약한 영력을 부여했습니다.\n\n텐구 시의 수호자는 정령 데이트를 통해 영력이 깃든 '물건'을 수집해야 합니다. 이는 음식이나 선물일 수도 있습니다. 일부 특수한 물건은 정령 데이트의 증거가 되어 정령을 수호하는 '신물'이 됩니다.\n\n'신물'을 휴대하면 더욱 강한 힘을 얻을 수 있고, 일부 특수한 '신물' 간에는 서로 영향을 주어 신비한 효과를 일으킬 수도 있습니다. 특정 '신물'은 특정 사람이나 정령에게 더욱 적합한 영력을 지니고 있어, 장착 시 특정한 효과가 발생할 수 있습니다.\n\n'신물' 레벨 강화: 영파 중합체 및 기타 특수한 에너지를 지닌 강화 재료를 수집해 '신물'의 레벨을 높이면 신물의 속성이 증가합니다.\n\n'신물' 등급 향상: 특정한 승급 재료를 사용하면 최고레벨 신물의 등급을 높일 수 있고, 신물의 레벨 한도 및 속성이 증가합니다. 등급 한도에 도달할 경우 더는 성장시킬 수 없습니다.",
+        minipack = 0,
+    },
+    [190010810] = {
+        id = 190010810,
+        text = "Crit DMG +5% for 5s",
+        minipack = 0,
+    },
+    [11271150] = {
+        id = 11271150,
+        text = "[Leap Attack] ATK Speed +6%.",
+        minipack = 0,
+    },
+    [11271148] = {
+        id = 11271148,
+        text = "[Slash] DMG +20%",
+        minipack = 0,
+    },
+    [213008] = {
+        id = 213008,
+        text = "맹우 요청 보상",
+        minipack = 0,
+    },
+    [14300042] = {
+        id = 14300042,
+        text = "30% 일상 할인권",
+        minipack = 0,
+    },
+    [190010816] = {
+        id = 190010816,
+        text = "Takes 40% less damage for 5s",
+        minipack = 0,
+    },
+    [11271142] = {
+        id = 11271142,
+        text = "[Slash] Crit Rate +4%.",
         minipack = 0,
     },
     [11301006] = {
@@ -109364,79 +109474,14 @@ return {
         text = "신성 보우",
         minipack = 0,
     },
-    [213009] = {
-        id = 213009,
-        text = "수령하지 않은 맹우 요청 보상을 우편으로 보내 드립니다.",
+    [11271140] = {
+        id = 11271140,
+        text = "[Slash] Unlocks Focus effect during the blade vortex. Deals total Magic DMG equal to 820% of ATK.",
         minipack = 0,
     },
     [431003] = {
         id = 431003,
         text = "HP 회복 효과 +50%, 2초마다 HP 1% 회복",
-        minipack = 0,
-    },
-    [11271152] = {
-        id = 11271152,
-        text = "[Leap Attack] Creates 2 Delayed Trigger Wave Marks in its path. Deals total Magic DMG equal to 2,300% of ATK.",
-        minipack = 0,
-    },
-    [190010810] = {
-        id = 190010810,
-        text = "Crit DMG +5% for 5s",
-        minipack = 0,
-    },
-    [11271150] = {
-        id = 11271150,
-        text = "[Leap Attack] ATK Speed +6%.",
-        minipack = 0,
-    },
-    [431004] = {
-        id = 431004,
-        text = "기본 공격 명중 시 경직 면역 효과 획득, 3초간 지속, 해당 시간 동안 자신의 피해 감소 +30%",
-        minipack = 0,
-    },
-    [11271148] = {
-        id = 11271148,
-        text = "[Slash] DMG +20%",
-        minipack = 0,
-    },
-    [213008] = {
-        id = 213008,
-        text = "맹우 요청 보상",
-        minipack = 0,
-    },
-    [60021] = {
-        id = 60021,
-        text = "소환 미리보기",
-        minipack = 0,
-    },
-    [431005] = {
-        id = 431005,
-        text = "각성 피해 +50%, 기타 스킬 피해 +20%(기본 공격 제외)",
-        minipack = 0,
-    },
-    [14300042] = {
-        id = 14300042,
-        text = "30% 일상 할인권",
-        minipack = 0,
-    },
-    [190010816] = {
-        id = 190010816,
-        text = "Takes 40% less damage for 5s",
-        minipack = 0,
-    },
-    [11271142] = {
-        id = 11271142,
-        text = "[Slash] Crit Rate +4%.",
-        minipack = 0,
-    },
-    [431006] = {
-        id = 431006,
-        text = "마왕 세피라로 인한 이상 효과 배가되고 , 상태 이상의 적 공격 시 피해 20% 증가",
-        minipack = 0,
-    },
-    [11271140] = {
-        id = 11271140,
-        text = "[Slash] Unlocks Focus effect during the blade vortex. Deals total Magic DMG equal to 820% of ATK.",
         minipack = 0,
     },
     [213007] = {
@@ -109454,6 +109499,11 @@ return {
         text = "ATK +3% for 5s",
         minipack = 0,
     },
+    [431004] = {
+        id = 431004,
+        text = "기본 공격 명중 시 경직 면역 효과 획득, 3초간 지속, 해당 시간 동안 자신의 피해 감소 +30%",
+        minipack = 0,
+    },
     [11271134] = {
         id = 11271134,
         text = "[Slash] grants +10% ATK for 12s when Addition Blade is also active.",
@@ -109462,6 +109512,66 @@ return {
     [11271132] = {
         id = 11271132,
         text = "[Slash] Inflicts +15% DMG to Bosses",
+        minipack = 0,
+    },
+    [60021] = {
+        id = 60021,
+        text = "소환 미리보기",
+        minipack = 0,
+    },
+    [431005] = {
+        id = 431005,
+        text = "각성 피해 +50%, 기타 스킬 피해 +20%(기본 공격 제외)",
+        minipack = 0,
+    },
+    [11271130] = {
+        id = 11271130,
+        text = "[Slash] Inflicts +9% DMG to Bosses",
+        minipack = 0,
+    },
+    [901146] = {
+        id = 901146,
+        text = "LV1-음성 개방",
+        minipack = 0,
+    },
+    [14300043] = {
+        id = 14300043,
+        text = "20% 일상 할인권",
+        minipack = 0,
+    },
+    [431006] = {
+        id = 431006,
+        text = "마왕 세피라로 인한 이상 효과 배가되고 , 상태 이상의 적 공격 시 피해 20% 증가",
+        minipack = 0,
+    },
+    [190010826] = {
+        id = 190010826,
+        text = "Damage Immunity 20%",
+        minipack = 0,
+    },
+    [11271126] = {
+        id = 11271126,
+        text = "[Slash] ATK Speed +6%.",
+        minipack = 0,
+    },
+    [11271100] = {
+        id = 11271100,
+        text = "Fire Ball",
+        minipack = 0,
+    },
+    [11271098] = {
+        id = 11271098,
+        text = "Fire Ball",
+        minipack = 0,
+    },
+    [901141] = {
+        id = 901141,
+        text = "LV3-Live2D 개방",
+        minipack = 0,
+    },
+    [14300045] = {
+        id = 14300045,
+        text = "80% 통용 할인권",
         minipack = 0,
     },
     [2202801] = {
@@ -109494,66 +109604,6 @@ return {
         text = "할로윈 특수 몬스터에게 피해 보너스 30% 증가, 요시노 장착 시 추가로 공격력 10% 증가",
         minipack = 0,
     },
-    [11271130] = {
-        id = 11271130,
-        text = "[Slash] Inflicts +9% DMG to Bosses",
-        minipack = 0,
-    },
-    [901146] = {
-        id = 901146,
-        text = "LV1-음성 개방",
-        minipack = 0,
-    },
-    [14300043] = {
-        id = 14300043,
-        text = "20% 일상 할인권",
-        minipack = 0,
-    },
-    [431010] = {
-        id = 431010,
-        text = "상태 이상의 적 공격 시 크리티컬 확률 +15%, 크리티컬 피해 +50%",
-        minipack = 0,
-    },
-    [190010826] = {
-        id = 190010826,
-        text = "Damage Immunity 20%",
-        minipack = 0,
-    },
-    [11271126] = {
-        id = 11271126,
-        text = "[Slash] ATK Speed +6%.",
-        minipack = 0,
-    },
-    [11271100] = {
-        id = 11271100,
-        text = "Fire Ball",
-        minipack = 0,
-    },
-    [431011] = {
-        id = 431011,
-        text = "코토리 장착 시 대포 형태로 변신한 후 더는 분노를 소모하지 않으며(스킬은 여전히 분노 소모), 해당 시간 동안 피해 20% 증가",
-        minipack = 0,
-    },
-    [11271098] = {
-        id = 11271098,
-        text = "Fire Ball",
-        minipack = 0,
-    },
-    [901141] = {
-        id = 901141,
-        text = "LV3-Live2D 개방",
-        minipack = 0,
-    },
-    [14300045] = {
-        id = 14300045,
-        text = "80% 통용 할인권",
-        minipack = 0,
-    },
-    [431012] = {
-        id = 431012,
-        text = "크리스마스 세피라의 스킬 효과가 전체 파티원으로 확대(미등장 시에도 유효, 파티 던전에서는 1개 파티원의 보너스 효과만 받을 수 있음)",
-        minipack = 0,
-    },
     [11271095] = {
         id = 11271095,
         text = "Ultra Enhance",
@@ -109562,6 +109612,66 @@ return {
     [11271094] = {
         id = 11271094,
         text = "Ultra Enhance",
+        minipack = 0,
+    },
+    [11271092] = {
+        id = 11271092,
+        text = "Pure Strike",
+        minipack = 0,
+    },
+    [431010] = {
+        id = 431010,
+        text = "상태 이상의 적 공격 시 크리티컬 확률 +15%, 크리티컬 피해 +50%",
+        minipack = 0,
+    },
+    [213005] = {
+        id = 213005,
+        text = "축하합니다. 이번 응원 집결 이벤트에서 %d위를 달성해 다음 보상을 획득했습니다.",
+        minipack = 0,
+    },
+    [11271088] = {
+        id = 11271088,
+        text = "Super Speed: Ultimate",
+        minipack = 0,
+    },
+    [11271087] = {
+        id = 11271087,
+        text = "Enrage",
+        minipack = 0,
+    },
+    [431011] = {
+        id = 431011,
+        text = "코토리 장착 시 대포 형태로 변신한 후 더는 분노를 소모하지 않으며(스킬은 여전히 분노 소모), 해당 시간 동안 피해 20% 증가",
+        minipack = 0,
+    },
+    [11271086] = {
+        id = 11271086,
+        text = "Enrage",
+        minipack = 0,
+    },
+    [11271084] = {
+        id = 11271084,
+        text = "Super Speed: Extreme",
+        minipack = 0,
+    },
+    [213004] = {
+        id = 213004,
+        text = "응원 집결",
+        minipack = 0,
+    },
+    [431012] = {
+        id = 431012,
+        text = "크리스마스 세피라의 스킬 효과가 전체 파티원으로 확대(미등장 시에도 유효, 파티 던전에서는 1개 파티원의 보너스 효과만 받을 수 있음)",
+        minipack = 0,
+    },
+    [11271080] = {
+        id = 11271080,
+        text = "Precision Strike",
+        minipack = 0,
+    },
+    [190010837] = {
+        id = 190010837,
+        text = "Pierce Rate +10% for 3s",
         minipack = 0,
     },
     [60022] = {
@@ -109574,19 +109684,19 @@ return {
         text = "이벤트 기간 동안 정령에게 초콜릿을 선물하면 정령과의 케미가 증가합니다. \n\n케미를 높이면 보상을 획득할 수 있고, 정령과의 연인의 날 데이트 시나리오가 개방됩니다.\n\n순위표에는 정령 케미 순위만 표시됩니다. (현재 서버)",
         minipack = 0,
     },
-    [11271092] = {
-        id = 11271092,
-        text = "Pure Strike",
+    [11271078] = {
+        id = 11271078,
+        text = "Precision Strike",
         minipack = 0,
     },
-    [213005] = {
-        id = 213005,
-        text = "축하합니다. 이번 응원 집결 이벤트에서 %d위를 달성해 다음 보상을 획득했습니다.",
+    [11271076] = {
+        id = 11271076,
+        text = "Super Speed: Perish",
         minipack = 0,
     },
-    [11271088] = {
-        id = 11271088,
-        text = "Super Speed: Ultimate",
+    [213003] = {
+        id = 213003,
+        text = "기원 미완료",
         minipack = 0,
     },
     [431014] = {
@@ -109644,9 +109754,9 @@ return {
         text = "      <img src='fightmap/anniversary_3/hudong/chazhuang.png' size='38x95'></img>",
         minipack = 0,
     },
-    [11271087] = {
-        id = 11271087,
-        text = "Enrage",
+    [11271072] = {
+        id = 11271072,
+        text = "Ultra Enhance",
         minipack = 0,
     },
     [431017] = {
@@ -109654,9 +109764,9 @@ return {
         text = "공격 중 크리티컬 발생 시 크리티컬 대상의 주변에 랜덤으로 1~3개의 폭죽을 생성, 아군 공격력의 25%에 해당하는 화속성 피해를 입힘, 발동 간격 1초",
         minipack = 0,
     },
-    [11271086] = {
-        id = 11271086,
-        text = "Enrage",
+    [190010841] = {
+        id = 190010841,
+        text = "Movement Speed +5% for 5s. Stacks up to 3 times",
         minipack = 0,
     },
     [13202105] = {
@@ -109674,19 +109784,19 @@ return {
         text = "코토리 출전 시 5초마다 화령 1개 획득(최대 5개), 각 화령은 5%의 공격력 보너스 제공 부상을 입을 시 화령 1개를 소모해 30%의 피해를 막음",
         minipack = 0,
     },
-    [11271084] = {
-        id = 11271084,
-        text = "Super Speed: Extreme",
+    [11271070] = {
+        id = 11271070,
+        text = "Ultra Enhance",
         minipack = 0,
     },
-    [213004] = {
-        id = 213004,
-        text = "응원 집결",
+    [11271068] = {
+        id = 11271068,
+        text = "Phantom Charge",
         minipack = 0,
     },
-    [11271080] = {
-        id = 11271080,
-        text = "Precision Strike",
+    [11271066] = {
+        id = 11271066,
+        text = "Phantom Charge",
         minipack = 0,
     },
     [431019] = {
@@ -109699,9 +109809,9 @@ return {
         text = "Snow Store: Lv.1<img src='ui/activity/2020SnowDay/book/008.png'></img> Lv.2",
         minipack = 0,
     },
-    [190010837] = {
-        id = 190010837,
-        text = "Pierce Rate +10% for 3s",
+    [43013] = {
+        id = 43013,
+        text = "B급 에너지 보석, 던전 첫 클리어 시 랜덤으로 던전에 해당하는 캐릭터의 임의 스킬 B급 보석 획득.",
         minipack = 0,
     },
     [13202177] = {
@@ -109739,14 +109849,14 @@ return {
         text = "이자요이 미쿠 파편, 정령 활성화 또는 정령 능력 강화에 사용한다.",
         minipack = 0,
     },
-    [11271078] = {
-        id = 11271078,
-        text = "Precision Strike",
+    [11271064] = {
+        id = 11271064,
+        text = "Double Slash: Final",
         minipack = 0,
     },
-    [11271076] = {
-        id = 11271076,
-        text = "Super Speed: Perish",
+    [190010842] = {
+        id = 190010842,
+        text = "Movement Speed +5% for 5s. Stacks up to 4 times",
         minipack = 0,
     },
     [431022] = {
@@ -109754,19 +109864,19 @@ return {
         text = "스킬 시전 시 요정 토템을 소환해 아군에게 지속 회복 효과를 부여, 1초마다 HP를 1% 회복시킴, 토템은 10초간 지속, 발동 간격 15초.",
         minipack = 0,
     },
-    [213003] = {
-        id = 213003,
-        text = "기원 미완료",
+    [11271062] = {
+        id = 11271062,
+        text = "Enrage",
         minipack = 0,
     },
-    [11271072] = {
-        id = 11271072,
-        text = "Ultra Enhance",
+    [11271060] = {
+        id = 11271060,
+        text = "Double Slash: Extreme",
         minipack = 0,
     },
-    [190010841] = {
-        id = 190010841,
-        text = "Movement Speed +5% for 5s. Stacks up to 3 times",
+    [213002] = {
+        id = 213002,
+        text = "기원 소비 자원이 부족합니다.",
         minipack = 0,
     },
     [431023] = {
@@ -109774,14 +109884,14 @@ return {
         text = "셰키나·토카 장착 시 영력 폭발의 기초 효과 +50%, 지속 시간 +100%",
         minipack = 0,
     },
-    [11271070] = {
-        id = 11271070,
-        text = "Ultra Enhance",
+    [11271056] = {
+        id = 11271056,
+        text = "Enhance",
         minipack = 0,
     },
-    [11271068] = {
-        id = 11271068,
-        text = "Phantom Charge",
+    [11271055] = {
+        id = 11271055,
+        text = "Enhance",
         minipack = 0,
     },
     [13202305] = {
@@ -109799,81 +109909,6 @@ return {
         text = "Defeat Ice Princess within 300s",
         minipack = 0,
     },
-    [11271066] = {
-        id = 11271066,
-        text = "Phantom Charge",
-        minipack = 0,
-    },
-    [43013] = {
-        id = 43013,
-        text = "B급 에너지 보석, 던전 첫 클리어 시 랜덤으로 던전에 해당하는 캐릭터의 임의 스킬 B급 보석 획득.",
-        minipack = 0,
-    },
-    [431025] = {
-        id = 431025,
-        text = "반전 오리가미 장착 시 절망의 깃털 사용 즉시 절망 수치를 100포인트 회복하며, 8초간 크리티컬 확률과 관통률이 20% 증가한다.",
-        minipack = 0,
-    },
-    [11271064] = {
-        id = 11271064,
-        text = "Double Slash: Final",
-        minipack = 0,
-    },
-    [190010842] = {
-        id = 190010842,
-        text = "Movement Speed +5% for 5s. Stacks up to 4 times",
-        minipack = 0,
-    },
-    [11271062] = {
-        id = 11271062,
-        text = "Enrage",
-        minipack = 0,
-    },
-    [431026] = {
-        id = 431026,
-        text = "휴대자의 기초공격력 +15% 증가, 한도 300, 미쿠 착용 시 추가로 전원에게 자신의 공격력의 10% 제공, 한도 200.",
-        minipack = 0,
-    },
-    [11271060] = {
-        id = 11271060,
-        text = "Double Slash: Extreme",
-        minipack = 0,
-    },
-    [213002] = {
-        id = 213002,
-        text = "기원 소비 자원이 부족합니다.",
-        minipack = 0,
-    },
-    [13202401] = {
-        id = 13202401,
-        text = "Snow Clash",
-        minipack = 0,
-    },
-    [431027] = {
-        id = 431027,
-        text = "초차원 여신 휴대 시 스킬 피해 25% 증가, 넵튠 휴대 시 출혈 피해 100% 증가",
-        minipack = 0,
-    },
-    [13202417] = {
-        id = 13202417,
-        text = "\n\"Winter Memories\" tells interesting stories about people at the Snow Mountain Hotel---\n\nBefore reading the story in the Memory Crystal, you need to complete a mini decryption game: Piece together the snowflake fragments.\n\nDrag the fragments on the right into the empty slots of the disk on the left.",
-        minipack = 0,
-    },
-    [11271056] = {
-        id = 11271056,
-        text = "Enhance",
-        minipack = 0,
-    },
-    [11271055] = {
-        id = 11271055,
-        text = "Enhance",
-        minipack = 0,
-    },
-    [431028] = {
-        id = 431028,
-        text = "초차원 여신 휴대 시 스킬 피해 25% 증가, 블랑 휴대 시 [프리징 샷] 사용으로 회복되는 쉐어 수치 130% 증가",
-        minipack = 0,
-    },
     [11271054] = {
         id = 11271054,
         text = "Enhance",
@@ -109884,14 +109919,9 @@ return {
         text = "Double Slash: Perish",
         minipack = 0,
     },
-    [60024] = {
-        id = 60024,
-        text = "선물 Tips",
-        minipack = 0,
-    },
-    [431029] = {
-        id = 431029,
-        text = "초차원 여신 휴대 시 스킬 피해 25% 증가, 느와르 휴대 시 신앙의 힘을 회복 수치 매초 3포인트에서 6포인트로 증가",
+    [431025] = {
+        id = 431025,
+        text = "반전 오리가미 장착 시 절망의 깃털 사용 즉시 절망 수치를 100포인트 회복하며, 8초간 크리티컬 확률과 관통률이 20% 증가한다.",
         minipack = 0,
     },
     [213001] = {
@@ -109909,9 +109939,9 @@ return {
         text = "Ultra Enhance",
         minipack = 0,
     },
-    [431030] = {
-        id = 431030,
-        text = "초차원 여신 휴대 시 스킬 피해 25% 증가, 벨 휴대 시 신앙의 힘을 회복 효율 +1포인트, 초기 신앙의 힘 +100포인트, 추가 스킬 지속 시간 +3초",
+    [431026] = {
+        id = 431026,
+        text = "휴대자의 기초공격력 +15% 증가, 한도 300, 미쿠 착용 시 추가로 전원에게 자신의 공격력의 10% 제공, 한도 200.",
         minipack = 0,
     },
     [11271046] = {
@@ -109924,19 +109954,34 @@ return {
         text = "Ultra Enhance",
         minipack = 0,
     },
+    [13202401] = {
+        id = 13202401,
+        text = "Snow Clash",
+        minipack = 0,
+    },
+    [431027] = {
+        id = 431027,
+        text = "초차원 여신 휴대 시 스킬 피해 25% 증가, 넵튠 휴대 시 출혈 피해 100% 증가",
+        minipack = 0,
+    },
+    [13202417] = {
+        id = 13202417,
+        text = "\n\"Winter Memories\" tells interesting stories about people at the Snow Mountain Hotel---\n\nBefore reading the story in the Memory Crystal, you need to complete a mini decryption game: Piece together the snowflake fragments.\n\nDrag the fragments on the right into the empty slots of the disk on the left.",
+        minipack = 0,
+    },
     [11271044] = {
         id = 11271044,
         text = "Quick Movement",
         minipack = 0,
     },
-    [431031] = {
-        id = 431031,
-        text = "[은밀한 결말] 사용 시 크림슨 나이트메어 쿠루미의 공격력 30% 증가, 10초간 지속, 초당 HP 5% 회복, 시간치 30 즉시 회복.",
-        minipack = 0,
-    },
     [11271042] = {
         id = 11271042,
         text = "Quick Movement",
+        minipack = 0,
+    },
+    [431028] = {
+        id = 431028,
+        text = "초차원 여신 휴대 시 스킬 피해 25% 증가, 블랑 휴대 시 [프리징 샷] 사용으로 회복되는 쉐어 수치 130% 증가",
         minipack = 0,
     },
     [11271041] = {
@@ -109949,9 +109994,14 @@ return {
         text = "Leap Attack: Final",
         minipack = 0,
     },
-    [431032] = {
-        id = 431032,
-        text = "아군의 공격력 10% 증가, 최대 200, 등장 여부에 관계 없이 유효. 토카 휴대 시 토카의 방어력 10% 증가. [설명: 여러 세피라의 효과는 중첩될 수 없음]",
+    [60024] = {
+        id = 60024,
+        text = "선물 Tips",
+        minipack = 0,
+    },
+    [431029] = {
+        id = 431029,
+        text = "초차원 여신 휴대 시 스킬 피해 25% 증가, 느와르 휴대 시 신앙의 힘을 회복 수치 매초 3포인트에서 6포인트로 증가",
         minipack = 0,
     },
     [11271039] = {
@@ -109962,6 +110012,66 @@ return {
     [11271038] = {
         id = 11271038,
         text = "Pierce",
+        minipack = 0,
+    },
+    [11271037] = {
+        id = 11271037,
+        text = "Pierce",
+        minipack = 0,
+    },
+    [431030] = {
+        id = 431030,
+        text = "초차원 여신 휴대 시 스킬 피해 25% 증가, 벨 휴대 시 신앙의 힘을 회복 효율 +1포인트, 초기 신앙의 힘 +100포인트, 추가 스킬 지속 시간 +3초",
+        minipack = 0,
+    },
+    [11271036] = {
+        id = 11271036,
+        text = "Leap Attack: Extreme",
+        minipack = 0,
+    },
+    [11271035] = {
+        id = 11271035,
+        text = "Enhance",
+        minipack = 0,
+    },
+    [11271034] = {
+        id = 11271034,
+        text = "Enhance",
+        minipack = 0,
+    },
+    [431031] = {
+        id = 431031,
+        text = "[은밀한 결말] 사용 시 크림슨 나이트메어 쿠루미의 공격력 30% 증가, 10초간 지속, 초당 HP 5% 회복, 시간치 30 즉시 회복.",
+        minipack = 0,
+    },
+    [11271033] = {
+        id = 11271033,
+        text = "Enhance",
+        minipack = 0,
+    },
+    [11271032] = {
+        id = 11271032,
+        text = "Sunder Armor",
+        minipack = 0,
+    },
+    [190010845] = {
+        id = 190010845,
+        text = "Skill DMG+10% for 3s",
+        minipack = 0,
+    },
+    [431032] = {
+        id = 431032,
+        text = "아군의 공격력 10% 증가, 최대 200, 등장 여부에 관계 없이 유효. 토카 휴대 시 토카의 방어력 10% 증가. [설명: 여러 세피라의 효과는 중첩될 수 없음]",
+        minipack = 0,
+    },
+    [11271030] = {
+        id = 11271030,
+        text = "Sunder Armor",
+        minipack = 0,
+    },
+    [11271029] = {
+        id = 11271029,
+        text = "Sunder Armor",
         minipack = 0,
     },
     [2203001] = {
@@ -110019,14 +110129,14 @@ return {
         text = "Unfold cards in the Divination Hut 40 times (Unlock at Lv.8 Park Pass)",
         minipack = 0,
     },
-    [11271037] = {
-        id = 11271037,
-        text = "Pierce",
+    [11271028] = {
+        id = 11271028,
+        text = "Leap Attack: Perish",
         minipack = 0,
     },
-    [11271036] = {
-        id = 11271036,
-        text = "Leap Attack: Extreme",
+    [11271027] = {
+        id = 11271027,
+        text = "ATK Speed",
         minipack = 0,
     },
     [431036] = {
@@ -110034,14 +110144,14 @@ return {
         text = "아루스 마리나가 휴대 시, 에너지를 초당 2포인트 회복하며, 추가로 스킬 쿨타임 시간이 2초 감소한다. 또한 마리나가 입히는 피해가 20% 증가한다.",
         minipack = 0,
     },
-    [11271035] = {
-        id = 11271035,
-        text = "Enhance",
+    [11271026] = {
+        id = 11271026,
+        text = "ATK Speed",
         minipack = 0,
     },
-    [11271034] = {
-        id = 11271034,
-        text = "Enhance",
+    [11271025] = {
+        id = 11271025,
+        text = "ATK Speed",
         minipack = 0,
     },
     [60025] = {
@@ -110054,19 +110164,19 @@ return {
         text = "모든 속성 저항력 20% 증가, 공격력 15% 증가. 마리아가 장착 시 기초 에너지 회복이 11포인트 증가하며, 정예 몬스터 및 보스 몬스터에게 입히는 관통 피해 및 크리티컬 피해가 20% 증가",
         minipack = 0,
     },
-    [11271033] = {
-        id = 11271033,
+    [11271024] = {
+        id = 11271024,
         text = "Enhance",
         minipack = 0,
     },
-    [11271032] = {
-        id = 11271032,
-        text = "Sunder Armor",
+    [190001100] = {
+        id = 190001100,
+        text = "Round Fan",
         minipack = 0,
     },
-    [190010845] = {
-        id = 190010845,
-        text = "Skill DMG+10% for 3s",
+    [11271022] = {
+        id = 11271022,
+        text = "Enhance",
         minipack = 0,
     },
     [431038] = {
@@ -110074,19 +110184,19 @@ return {
         text = "하얀 여왕이 장착 시, 궁극기를 발동할 때마다, 자신의 공격력이 10% 증가하며, 최대 5단계까지 중첩할 수 있다. 7초 동안 지속. [천칭의 탄환] 사용 후, 하얀 여왕은 5초 동안 슈퍼아머를 얻는다",
         minipack = 0,
     },
-    [11271030] = {
-        id = 11271030,
-        text = "Sunder Armor",
+    [11271020] = {
+        id = 11271020,
+        text = "Berserk",
         minipack = 0,
     },
-    [11271029] = {
-        id = 11271029,
-        text = "Sunder Armor",
+    [11271019] = {
+        id = 11271019,
+        text = "Berserk",
         minipack = 0,
     },
-    [11271028] = {
-        id = 11271028,
-        text = "Leap Attack: Perish",
+    [43012] = {
+        id = 43012,
+        text = "C급 에너지 보석, 던전 첫 클리어 시 랜덤으로 던전에 해당하는 캐릭터의 임의 스킬 D급 보석 획득.",
         minipack = 0,
     },
     [431039] = {
@@ -110094,9 +110204,9 @@ return {
         text = "요시노 장착 시, 공격/방어/HP가 20% 증가하며 아군의 서리, 뇌전, 암흑 피해 10% 증가",
         minipack = 0,
     },
-    [11271027] = {
-        id = 11271027,
-        text = "ATK Speed",
+    [14300046] = {
+        id = 14300046,
+        text = "70% 통용 할인권",
         minipack = 0,
     },
     [190200017] = {
@@ -110114,66 +110224,6 @@ return {
         text = "[진격모드]에서 [소형 강풍] 시전 시 풍령 15포인트, 풍령검희의 관통, 크리티컬 피해 15% 및 관통, 크리티컬 확률 10% 획득. 15초 동안 지속. (설명: 획득되는 풍령은 에너지 회복 효율의 영향을 받지 않는다.)",
         minipack = 0,
     },
-    [11271026] = {
-        id = 11271026,
-        text = "ATK Speed",
-        minipack = 0,
-    },
-    [11271025] = {
-        id = 11271025,
-        text = "ATK Speed",
-        minipack = 0,
-    },
-    [11271024] = {
-        id = 11271024,
-        text = "Enhance",
-        minipack = 0,
-    },
-    [431041] = {
-        id = 431041,
-        text = "모든 [위치 에너지] 레벨 상승 효과. 1레벨: 모든 피해가 30%까지 증가. 2레벨: 모든 피해가 50%까지 증가. 3레벨: 모든 피해가 80%까지 증가. 크리티컬 피해 50% 증가, 크리티컬 피해 증가 효과는 5초간 지속하며, 10초의 쿨타임이 적용된다",
-        minipack = 0,
-    },
-    [190001100] = {
-        id = 190001100,
-        text = "Round Fan",
-        minipack = 0,
-    },
-    [11271022] = {
-        id = 11271022,
-        text = "Enhance",
-        minipack = 0,
-    },
-    [11271020] = {
-        id = 11271020,
-        text = "Berserk",
-        minipack = 0,
-    },
-    [431042] = {
-        id = 431042,
-        text = "회복 효과 10% 증가, 공격력 10% 증가, HP 10% 증가. 리오 휴대 시 [성광의 빛] 결계가 입히는 크리티컬 피해 및 관통 피해 15% 증가",
-        minipack = 0,
-    },
-    [11271019] = {
-        id = 11271019,
-        text = "Berserk",
-        minipack = 0,
-    },
-    [43012] = {
-        id = 43012,
-        text = "C급 에너지 보석, 던전 첫 클리어 시 랜덤으로 던전에 해당하는 캐릭터의 임의 스킬 D급 보석 획득.",
-        minipack = 0,
-    },
-    [14300046] = {
-        id = 14300046,
-        text = "70% 통용 할인권",
-        minipack = 0,
-    },
-    [431043] = {
-        id = 431043,
-        text = "소노가미 린네 전용 세피라, [진리의 실체] 및 [인멸의 환상]의 소모/획득하는 꿈 게이지 30포인트 증가하고, [허실교차]의 쿨타임 5초 감소, [몽경 파괴] 및 [현실 파괴]로 크리티컬 확률 및 관통률 20% 증가한다.",
-        minipack = 0,
-    },
     [190010847] = {
         id = 190010847,
         text = "Skill DMG+20% for 3s",
@@ -110189,9 +110239,9 @@ return {
         text = "Slash: Extreme",
         minipack = 0,
     },
-    [431044] = {
-        id = 431044,
-        text = "5회 피해를 입힐 때마다 다음 피해는 반드시 크리티컬 및 관통이 발동한다. 쿨타임: 8초",
+    [431041] = {
+        id = 431041,
+        text = "모든 [위치 에너지] 레벨 상승 효과. 1레벨: 모든 피해가 30%까지 증가. 2레벨: 모든 피해가 50%까지 증가. 3레벨: 모든 피해가 80%까지 증가. 크리티컬 피해 50% 증가, 크리티컬 피해 증가 효과는 5초간 지속하며, 10초의 쿨타임이 적용된다",
         minipack = 0,
     },
     [11271009] = {
@@ -110202,6 +110252,66 @@ return {
     [11271008] = {
         id = 11271008,
         text = "Spot Weakness",
+        minipack = 0,
+    },
+    [11271007] = {
+        id = 11271007,
+        text = "Spot Weakness",
+        minipack = 0,
+    },
+    [431042] = {
+        id = 431042,
+        text = "회복 효과 10% 증가, 공격력 10% 증가, HP 10% 증가. 리오 휴대 시 [성광의 빛] 결계가 입히는 크리티컬 피해 및 관통 피해 15% 증가",
+        minipack = 0,
+    },
+    [11271006] = {
+        id = 11271006,
+        text = "Spot Weakness",
+        minipack = 0,
+    },
+    [11271004] = {
+        id = 11271004,
+        text = "Slash: Perish",
+        minipack = 0,
+    },
+    [11271002] = {
+        id = 11271002,
+        text = "ATK Speed",
+        minipack = 0,
+    },
+    [431043] = {
+        id = 431043,
+        text = "소노가미 린네 전용 세피라, [진리의 실체] 및 [인멸의 환상]의 소모/획득하는 꿈 게이지 30포인트 증가하고, [허실교차]의 쿨타임 5초 감소, [몽경 파괴] 및 [현실 파괴]로 크리티컬 확률 및 관통률 20% 증가한다.",
+        minipack = 0,
+    },
+    [11271001] = {
+        id = 11271001,
+        text = "ATK Speed",
+        minipack = 0,
+    },
+    [3210651] = {
+        id = 3210651,
+        text = "When Rio Sonogami is on the team, allies gain +20% ATK, +20% DEF and +20% HP.",
+        minipack = 0,
+    },
+    [3210650] = {
+        id = 3210650,
+        text = "Reduces the Magic Res and Movement Speed of enemies within 500 yards of summoned creatures by 20%.",
+        minipack = 0,
+    },
+    [431044] = {
+        id = 431044,
+        text = "5회 피해를 입힐 때마다 다음 피해는 반드시 크리티컬 및 관통이 발동한다. 쿨타임: 8초",
+        minipack = 0,
+    },
+    [3210649] = {
+        id = 3210649,
+        text = "Deal +15% Overall DMG for every summoned creature on the battlefield. Buff ends when summoned creatures disappear.",
+        minipack = 0,
+    },
+    [14300090] = {
+        id = 14300090,
+        text = "멀티 작전",
         minipack = 0,
     },
     [60026] = {
@@ -110254,19 +110364,19 @@ return {
         text = "When equipped by Yoshino, ally attacks have a 5% chance to freeze the enemy for 3s. Effective even if Yoshino is not in battle.",
         minipack = 0,
     },
-    [11271007] = {
-        id = 11271007,
-        text = "Spot Weakness",
+    [3210647] = {
+        id = 3210647,
+        text = "Spirit deals +5% Magic DMG every second. This effect is reset after taking damage.",
         minipack = 0,
     },
-    [11271006] = {
-        id = 11271006,
-        text = "Spot Weakness",
+    [2203680] = {
+        id = 2203680,
+        text = "Sally casts water magic, summoning multiple waves that will explode one after another. Increases Dodge Rate by 100% for 3s and has a 10% chance to inflict [Oboro] on enemies. After 5 hits, she gains the [Addition Blade] effect. This skill inflicts Magic D",
         minipack = 0,
     },
-    [11271004] = {
-        id = 11271004,
-        text = "Slash: Perish",
+    [2203630] = {
+        id = 2203630,
+        text = "Sally charges forward and slashes with both daggers. Has a 10% chance to inflict [Oboro] on enemies. After 5 hits, she gains the [Addition Blade] effect. This skill inflicts Magic DMG equal to 1,500% of character ATK.",
         minipack = 0,
     },
     [431048] = {
@@ -110274,19 +110384,19 @@ return {
         text = "When equipped by Origami Tobiichi, after dealing damage 40 times, restores 5 Endurance (Damage interval cannot exceed 3s) and grants +5% Pierce Rate, +10% Pierce DMG and 3% Flame DMG for 8s. Stacks up to 3 times.",
         minipack = 0,
     },
-    [11271002] = {
-        id = 11271002,
-        text = "ATK Speed",
+    [2203610] = {
+        id = 2203610,
+        text = "Sally attacks with dual daggers. Each hit has a 10% chance to cause [Oboro]. After 5 hits, she gains the [Addition Blade] effect. Inflicts Magic DMG equal to 390% of character ATK. \n[Addition Blade]: Crit Rate +10%, Dodge Rate +10%, Hit Rate +10% for 12s",
         minipack = 0,
     },
-    [11271001] = {
-        id = 11271001,
-        text = "ATK Speed",
+    [1111028] = {
+        id = 1111028,
+        text = "Sally S Class Gem",
         minipack = 0,
     },
-    [3210651] = {
-        id = 3210651,
-        text = "When Rio Sonogami is on the team, allies gain +20% ATK, +20% DEF and +20% HP.",
+    [1111029] = {
+        id = 1111029,
+        text = "Sally SS Class Gem",
         minipack = 0,
     },
     [2203131] = {
@@ -110319,14 +110429,14 @@ return {
         text = "Grr... Take the bait.",
         minipack = 0,
     },
-    [3210650] = {
-        id = 3210650,
-        text = "Reduces the Magic Res and Movement Speed of enemies within 500 yards of summoned creatures by 20%.",
+    [2203604] = {
+        id = 2203604,
+        text = "Super Speed",
         minipack = 0,
     },
-    [3210649] = {
-        id = 3210649,
-        text = "Deal +15% Overall DMG for every summoned creature on the battlefield. Buff ends when summoned creatures disappear.",
+    [2203603] = {
+        id = 2203603,
+        text = "Double Slash",
         minipack = 0,
     },
     [431051] = {
@@ -110334,9 +110444,9 @@ return {
         text = "Overall DMG +10%, and gains an additional DMG Bonus equal to 20% of all current DMG Bonus effects.",
         minipack = 0,
     },
-    [14300090] = {
-        id = 14300090,
-        text = "멀티 작전",
+    [1111030] = {
+        id = 1111030,
+        text = "Sally SS Class Gem",
         minipack = 0,
     },
     [2203151] = {
@@ -110344,9 +110454,9 @@ return {
         text = "질주2",
         minipack = 0,
     },
-    [3210647] = {
-        id = 3210647,
-        text = "Spirit deals +5% Magic DMG every second. This effect is reset after taking damage.",
+    [2200042] = {
+        id = 2200042,
+        text = "Abyss Dagger & Underwater Dagger",
         minipack = 0,
     },
     [431052] = {
@@ -110354,9 +110464,9 @@ return {
         text = "DMG +10%, and gains an additional DMG Bonus equal to 20% of all current DMG Bonus effects.",
         minipack = 0,
     },
-    [2203680] = {
-        id = 2203680,
-        text = "Sally casts water magic, summoning multiple waves that will explode one after another. Increases Dodge Rate by 100% for 3s and has a 10% chance to inflict [Oboro] on enemies. After 5 hits, she gains the [Addition Blade] effect. This skill inflicts Magic D",
+    [12010226] = {
+        id = 12010226,
+        text = "코토리",
         minipack = 0,
     },
     [190010068] = {
@@ -110404,56 +110514,6 @@ return {
         text = "Damage +20%",
         minipack = 0,
     },
-    [2203610] = {
-        id = 2203610,
-        text = "Sally attacks with dual daggers. Each hit has a 10% chance to cause [Oboro]. After 5 hits, she gains the [Addition Blade] effect. Inflicts Magic DMG equal to 390% of character ATK. \n[Addition Blade]: Crit Rate +10%, Dodge Rate +10%, Hit Rate +10% for 12s",
-        minipack = 0,
-    },
-    [1130981] = {
-        id = 1130981,
-        text = "Sally exclusive. Can be inserted into a Base ATK gem slot.",
-        minipack = 0,
-    },
-    [1130988] = {
-        id = 1130988,
-        text = "Sally exclusive. Can be inserted into an Ultimate gem slot.",
-        minipack = 0,
-    },
-    [2203604] = {
-        id = 2203604,
-        text = "Super Speed",
-        minipack = 0,
-    },
-    [2203603] = {
-        id = 2203603,
-        text = "Double Slash",
-        minipack = 0,
-    },
-    [1130989] = {
-        id = 1130989,
-        text = "Sally exclusive. Can be inserted into a Base ATK gem slot.",
-        minipack = 0,
-    },
-    [2200042] = {
-        id = 2200042,
-        text = "Abyss Dagger & Underwater Dagger",
-        minipack = 0,
-    },
-    [2203191] = {
-        id = 2203191,
-        text = "[질주모드 스킬]전장에 존재하는 모든 머무르는 구풍을 멈추고 새로운 2개의 머무르는 구풍을 소환하는 동시에, 풍령을 30 회복한다. \n모든 머무르는 구풍이 캐릭터의 현재 공격 속성의 50% 만큼 계승한다. 각 소환 방식으로 최대 2개까지 소환 가능하며, 최대 3개까지 존재할 수 있다.",
-        minipack = 0,
-    },
-    [12010226] = {
-        id = 12010226,
-        text = "코토리",
-        minipack = 0,
-    },
-    [1706389] = {
-        id = 1706389,
-        text = "Sally of the Maple Tree Guild. This is getting exciting.",
-        minipack = 0,
-    },
     [1705215] = {
         id = 1705215,
         text = "Sea",
@@ -110462,6 +110522,56 @@ return {
     [1224082] = {
         id = 1224082,
         text = "Sally",
+        minipack = 0,
+    },
+    [1224081] = {
+        id = 1224081,
+        text = "Sally Fragment*5",
+        minipack = 0,
+    },
+    [1224080] = {
+        id = 1224080,
+        text = "Sally Fragment*3",
+        minipack = 0,
+    },
+    [1224079] = {
+        id = 1224079,
+        text = "Sally Fragment*2",
+        minipack = 0,
+    },
+    [1224078] = {
+        id = 1224078,
+        text = "Random Sally SS Class Blueprint",
+        minipack = 0,
+    },
+    [1224077] = {
+        id = 1224077,
+        text = "Random Sally S Class Blueprint",
+        minipack = 0,
+    },
+    [2203191] = {
+        id = 2203191,
+        text = "[질주모드 스킬]전장에 존재하는 모든 머무르는 구풍을 멈추고 새로운 2개의 머무르는 구풍을 소환하는 동시에, 풍령을 30 회복한다. \n모든 머무르는 구풍이 캐릭터의 현재 공격 속성의 50% 만큼 계승한다. 각 소환 방식으로 최대 2개까지 소환 가능하며, 최대 3개까지 존재할 수 있다.",
+        minipack = 0,
+    },
+    [1224076] = {
+        id = 1224076,
+        text = "Random Sally A Class Gem",
+        minipack = 0,
+    },
+    [1224075] = {
+        id = 1224075,
+        text = "A piece of [Ocean] Sephira set",
+        minipack = 0,
+    },
+    [1140432] = {
+        id = 1140432,
+        text = "A material required to craft Sally SSS Class Ultimate Gem",
+        minipack = 0,
+    },
+    [1140431] = {
+        id = 1140431,
+        text = "A material required to craft Sally SSS Class Skill 2 Gem",
         minipack = 0,
     },
     [2203201] = {
@@ -110484,9 +110594,9 @@ return {
         text = "일섬",
         minipack = 0,
     },
-    [1224081] = {
-        id = 1224081,
-        text = "Sally Fragment*5",
+    [1140430] = {
+        id = 1140430,
+        text = "A material required to craft Sally SSS Class Skill 1 Gem",
         minipack = 0,
     },
     [13400046] = {
@@ -110504,19 +110614,19 @@ return {
         text = "하늘의 하얀 깃털",
         minipack = 0,
     },
-    [1224080] = {
-        id = 1224080,
-        text = "Sally Fragment*3",
+    [1140429] = {
+        id = 1140429,
+        text = "A material required to craft Sally SSS Class Base ATK Gem",
         minipack = 0,
     },
-    [1224079] = {
-        id = 1224079,
-        text = "Sally Fragment*2",
+    [1140428] = {
+        id = 1140428,
+        text = "A material required to craft Sally SS Class Ultimate Gem",
         minipack = 0,
     },
-    [1224078] = {
-        id = 1224078,
-        text = "Random Sally SS Class Blueprint",
+    [1140427] = {
+        id = 1140427,
+        text = "A material required to craft Sally SS Class Skill 2 Gem",
         minipack = 0,
     },
     [13400094] = {
@@ -110534,9 +110644,9 @@ return {
         text = "모든 요리 마스터리",
         minipack = 0,
     },
-    [1224077] = {
-        id = 1224077,
-        text = "Random Sally S Class Blueprint",
+    [1140426] = {
+        id = 1140426,
+        text = "A material required to craft Sally SS Class Skill 1 Gem",
         minipack = 0,
     },
     [11303006] = {
@@ -110634,66 +110744,6 @@ return {
         text = "현재 퀘스트 완료",
         minipack = 0,
     },
-    [1224076] = {
-        id = 1224076,
-        text = "Random Sally A Class Gem",
-        minipack = 0,
-    },
-    [1224075] = {
-        id = 1224075,
-        text = "A piece of [Ocean] Sephira set",
-        minipack = 0,
-    },
-    [1140432] = {
-        id = 1140432,
-        text = "A material required to craft Sally SSS Class Ultimate Gem",
-        minipack = 0,
-    },
-    [1140431] = {
-        id = 1140431,
-        text = "A material required to craft Sally SSS Class Skill 2 Gem",
-        minipack = 0,
-    },
-    [1140430] = {
-        id = 1140430,
-        text = "A material required to craft Sally SSS Class Skill 1 Gem",
-        minipack = 0,
-    },
-    [1140429] = {
-        id = 1140429,
-        text = "A material required to craft Sally SSS Class Base ATK Gem",
-        minipack = 0,
-    },
-    [1140428] = {
-        id = 1140428,
-        text = "A material required to craft Sally SS Class Ultimate Gem",
-        minipack = 0,
-    },
-    [190018004] = {
-        id = 190018004,
-        text = "HP 회복",
-        minipack = 0,
-    },
-    [190018132] = {
-        id = 190018132,
-        text = "이동속도 +20%，3초간 지속",
-        minipack = 0,
-    },
-    [1140427] = {
-        id = 1140427,
-        text = "A material required to craft Sally SS Class Skill 2 Gem",
-        minipack = 0,
-    },
-    [60029] = {
-        id = 60029,
-        text = "세피라 도감",
-        minipack = 0,
-    },
-    [1140426] = {
-        id = 1140426,
-        text = "A material required to craft Sally SS Class Skill 1 Gem",
-        minipack = 0,
-    },
     [1140425] = {
         id = 1140425,
         text = "A material required to craft Sally SS Class Base ATK Gem",
@@ -110712,6 +110762,66 @@ return {
     [1140422] = {
         id = 1140422,
         text = "A material required to craft Sally S Class Skill 1 Gem",
+        minipack = 0,
+    },
+    [1140421] = {
+        id = 1140421,
+        text = "A material required to craft Sally S Class Base ATK Gem",
+        minipack = 0,
+    },
+    [1131008] = {
+        id = 1131008,
+        text = "Sally exclusive. Can be inserted into an Ultimate gem slot. Can activate 3 extra angel skills",
+        minipack = 0,
+    },
+    [1131007] = {
+        id = 1131007,
+        text = "Sally exclusive. Can be inserted into a Skill 2 gem slot. Can activate 3 extra angel skills",
+        minipack = 0,
+    },
+    [190018004] = {
+        id = 190018004,
+        text = "HP 회복",
+        minipack = 0,
+    },
+    [190018132] = {
+        id = 190018132,
+        text = "이동속도 +20%，3초간 지속",
+        minipack = 0,
+    },
+    [1131006] = {
+        id = 1131006,
+        text = "Sally exclusive. Can be inserted into a Skill 1 gem slot. Can activate 3 extra angel skills",
+        minipack = 0,
+    },
+    [60029] = {
+        id = 60029,
+        text = "세피라 도감",
+        minipack = 0,
+    },
+    [1131005] = {
+        id = 1131005,
+        text = "Sally exclusive. Can be inserted into a Base ATK gem slot. Can activate 3 extra angel skills",
+        minipack = 0,
+    },
+    [1131004] = {
+        id = 1131004,
+        text = "Sally exclusive. Can be inserted into an Ultimate gem slot. Can activate 2 extra angel skills",
+        minipack = 0,
+    },
+    [1131003] = {
+        id = 1131003,
+        text = "Sally exclusive. Can be inserted into a Skill 2 gem slot. Can activate 2 extra angel skills",
+        minipack = 0,
+    },
+    [1131002] = {
+        id = 1131002,
+        text = "Sally exclusive. Can be inserted into a Skill 1 gem slot. Can activate 2 extra angel skills",
+        minipack = 0,
+    },
+    [1131001] = {
+        id = 1131001,
+        text = "Sally exclusive. Can be inserted into a Base ATK gem slot. Can activate 2 extra angel skills",
         minipack = 0,
     },
     [2203301] = {
@@ -110734,74 +110844,9 @@ return {
         text = "이전 챕터 클리어 시 개방",
         minipack = 0,
     },
-    [1140421] = {
-        id = 1140421,
-        text = "A material required to craft Sally S Class Base ATK Gem",
-        minipack = 0,
-    },
-    [1131008] = {
-        id = 1131008,
-        text = "Sally exclusive. Can be inserted into an Ultimate gem slot. Can activate 3 extra angel skills",
-        minipack = 0,
-    },
-    [1131007] = {
-        id = 1131007,
-        text = "Sally exclusive. Can be inserted into a Skill 2 gem slot. Can activate 3 extra angel skills",
-        minipack = 0,
-    },
-    [300002] = {
-        id = 300002,
-        text = "이전 스테이지 클리어 시 개방",
-        minipack = 0,
-    },
-    [1131006] = {
-        id = 1131006,
-        text = "Sally exclusive. Can be inserted into a Skill 1 gem slot. Can activate 3 extra angel skills",
-        minipack = 0,
-    },
-    [1131005] = {
-        id = 1131005,
-        text = "Sally exclusive. Can be inserted into a Base ATK gem slot. Can activate 3 extra angel skills",
-        minipack = 0,
-    },
-    [1131004] = {
-        id = 1131004,
-        text = "Sally exclusive. Can be inserted into an Ultimate gem slot. Can activate 2 extra angel skills",
-        minipack = 0,
-    },
-    [300003] = {
-        id = 300003,
-        text = "%s 클리어 시 개방",
-        minipack = 0,
-    },
-    [1131003] = {
-        id = 1131003,
-        text = "Sally exclusive. Can be inserted into a Skill 2 gem slot. Can activate 2 extra angel skills",
-        minipack = 0,
-    },
-    [1131002] = {
-        id = 1131002,
-        text = "Sally exclusive. Can be inserted into a Skill 1 gem slot. Can activate 2 extra angel skills",
-        minipack = 0,
-    },
-    [1131001] = {
-        id = 1131001,
-        text = "Sally exclusive. Can be inserted into a Base ATK gem slot. Can activate 2 extra angel skills",
-        minipack = 0,
-    },
-    [300004] = {
-        id = 300004,
-        text = "스테이지 %s 클리어 시 개방",
-        minipack = 0,
-    },
     [1131000] = {
         id = 1131000,
         text = "Sally exclusive. Can be inserted into an Ultimate gem slot. Can activate 1 extra angel skill",
-        minipack = 0,
-    },
-    [600001] = {
-        id = 600001,
-        text = "귓속말",
         minipack = 0,
     },
     [1130999] = {
@@ -110809,19 +110854,14 @@ return {
         text = "Sally exclusive. Can be inserted into a Skill 2 gem slot. Can activate 1 extra angel skill",
         minipack = 0,
     },
-    [600002] = {
-        id = 600002,
-        text = "동아리",
-        minipack = 0,
-    },
     [1130998] = {
         id = 1130998,
         text = "Sally exclusive. Can be inserted into a Skill 1 gem slot. Can activate 1 extra angel skill",
         minipack = 0,
     },
-    [600003] = {
-        id = 600003,
-        text = "시스템",
+    [300002] = {
+        id = 300002,
+        text = "이전 스테이지 클리어 시 개방",
         minipack = 0,
     },
     [1130997] = {
@@ -110829,14 +110869,84 @@ return {
         text = "Sally exclusive. Can be inserted into a Base ATK gem slot. Can activate 1 extra angel skill",
         minipack = 0,
     },
+    [1130996] = {
+        id = 1130996,
+        text = "Sally exclusive. Can be inserted into an Ultimate gem slot.",
+        minipack = 0,
+    },
+    [1130995] = {
+        id = 1130995,
+        text = "Sally exclusive. Can be inserted into a Skill 2 gem slot.",
+        minipack = 0,
+    },
+    [300003] = {
+        id = 300003,
+        text = "%s 클리어 시 개방",
+        minipack = 0,
+    },
+    [1130994] = {
+        id = 1130994,
+        text = "Sally exclusive. Can be inserted into a Skill 1 gem slot.",
+        minipack = 0,
+    },
+    [1130993] = {
+        id = 1130993,
+        text = "Sally exclusive. Can be inserted into a Base ATK gem slot.",
+        minipack = 0,
+    },
+    [1130992] = {
+        id = 1130992,
+        text = "Sally exclusive. Can be inserted into an Ultimate gem slot.",
+        minipack = 0,
+    },
+    [300004] = {
+        id = 300004,
+        text = "스테이지 %s 클리어 시 개방",
+        minipack = 0,
+    },
+    [1130991] = {
+        id = 1130991,
+        text = "Sally exclusive. Can be inserted into a Skill 2 gem slot.",
+        minipack = 0,
+    },
+    [600001] = {
+        id = 600001,
+        text = "귓속말",
+        minipack = 0,
+    },
+    [1130990] = {
+        id = 1130990,
+        text = "Sally exclusive. Can be inserted into a Skill 1 gem slot.",
+        minipack = 0,
+    },
+    [600002] = {
+        id = 600002,
+        text = "동아리",
+        minipack = 0,
+    },
+    [1130989] = {
+        id = 1130989,
+        text = "Sally exclusive. Can be inserted into a Base ATK gem slot.",
+        minipack = 0,
+    },
+    [600003] = {
+        id = 600003,
+        text = "시스템",
+        minipack = 0,
+    },
+    [1130988] = {
+        id = 1130988,
+        text = "Sally exclusive. Can be inserted into an Ultimate gem slot.",
+        minipack = 0,
+    },
     [600004] = {
         id = 600004,
         text = "세계",
         minipack = 0,
     },
-    [1130996] = {
-        id = 1130996,
-        text = "Sally exclusive. Can be inserted into an Ultimate gem slot.",
+    [1130981] = {
+        id = 1130981,
+        text = "Sally exclusive. Can be inserted into a Base ATK gem slot.",
         minipack = 0,
     },
     [600005] = {
@@ -110854,9 +110964,9 @@ return {
         text = "%d분 전",
         minipack = 0,
     },
-    [1130995] = {
-        id = 1130995,
-        text = "Sally exclusive. Can be inserted into a Skill 2 gem slot.",
+    [1111036] = {
+        id = 1111036,
+        text = "Sally SSS Class Gem",
         minipack = 0,
     },
     [600007] = {
@@ -110864,9 +110974,9 @@ return {
         text = "%d시간 전",
         minipack = 0,
     },
-    [1130994] = {
-        id = 1130994,
-        text = "Sally exclusive. Can be inserted into a Skill 1 gem slot.",
+    [1111035] = {
+        id = 1111035,
+        text = "Sally SSS Class Gem",
         minipack = 0,
     },
     [600008] = {
@@ -111294,9 +111404,9 @@ return {
         text = "Confirm to spend %d<img src='%s'></img> to summon 100 times.",
         minipack = 0,
     },
-    [1130993] = {
-        id = 1130993,
-        text = "Sally exclusive. Can be inserted into a Base ATK gem slot.",
+    [1111034] = {
+        id = 1111034,
+        text = "Sally SSS Class Gem",
         minipack = 0,
     },
     [10911004] = {
@@ -111449,19 +111559,19 @@ return {
         text = "추가 스킬 시간 동안 30%의 확률로 공격력의 150%만큼 추가 피해를 입힘, 발동 간격 0.7초.",
         minipack = 0,
     },
-    [1130992] = {
-        id = 1130992,
-        text = "Sally exclusive. Can be inserted into an Ultimate gem slot.",
+    [1111033] = {
+        id = 1111033,
+        text = "Sally SSS Class Gem",
         minipack = 0,
     },
-    [1130991] = {
-        id = 1130991,
-        text = "Sally exclusive. Can be inserted into a Skill 2 gem slot.",
+    [1111032] = {
+        id = 1111032,
+        text = "Sally SS Class Gem",
         minipack = 0,
     },
-    [1130990] = {
-        id = 1130990,
-        text = "Sally exclusive. Can be inserted into a Skill 1 gem slot.",
+    [1111031] = {
+        id = 1111031,
+        text = "Sally SS Class Gem",
         minipack = 0,
     },
     [2203601] = {
@@ -111487,71 +111597,6 @@ return {
     [60034] = {
         id = 60034,
         text = "데이트 공략",
-        minipack = 0,
-    },
-    [1111036] = {
-        id = 1111036,
-        text = "Sally SSS Class Gem",
-        minipack = 0,
-    },
-    [1111035] = {
-        id = 1111035,
-        text = "Sally SSS Class Gem",
-        minipack = 0,
-    },
-    [1111034] = {
-        id = 1111034,
-        text = "Sally SSS Class Gem",
-        minipack = 0,
-    },
-    [1111033] = {
-        id = 1111033,
-        text = "Sally SSS Class Gem",
-        minipack = 0,
-    },
-    [1111032] = {
-        id = 1111032,
-        text = "Sally SS Class Gem",
-        minipack = 0,
-    },
-    [1111031] = {
-        id = 1111031,
-        text = "Sally SS Class Gem",
-        minipack = 0,
-    },
-    [1111030] = {
-        id = 1111030,
-        text = "Sally SS Class Gem",
-        minipack = 0,
-    },
-    [1111029] = {
-        id = 1111029,
-        text = "Sally SS Class Gem",
-        minipack = 0,
-    },
-    [1111028] = {
-        id = 1111028,
-        text = "Sally S Class Gem",
-        minipack = 0,
-    },
-    [13205105] = {
-        id = 13205105,
-        text = "The Mirror Clash event has ended. Results from incomplete Spirit Stages have been calculated. As you did not make any challenges, you did not receive any rewards.",
-        minipack = 0,
-    },
-    [13205113] = {
-        id = 13205113,
-        text = "The event has finished, returning to the event main UI.",
-        minipack = 0,
-    },
-    [13205121] = {
-        id = 13205121,
-        text = "Maze Core Info: Publicly Available Intel\n\nAttack Elite Invaders to deal damage to the Maze Core. \n\nAfter dealing enough damage to the Maze Core, Elite Monsters in the area will become stronger. \n\nRegards. \n\n——To avoid unpredictable situations, only interact with the Maze Core in a team. ",
-        minipack = 0,
-    },
-    [13205129] = {
-        id = 13205129,
-        text = "An Unexpected Encounter",
         minipack = 0,
     },
     [1111024] = {
@@ -111594,19 +111639,29 @@ return {
         text = "Sally D Class Gem",
         minipack = 0,
     },
-    [13205201] = {
-        id = 13205201,
-        text = "Gold Medal（Part I）",
-        minipack = 0,
-    },
-    [13205209] = {
-        id = 13205209,
-        text = "Stamina Potion",
-        minipack = 0,
-    },
     [1111011] = {
         id = 1111011,
         text = "Sally D Class Gem",
+        minipack = 0,
+    },
+    [13205105] = {
+        id = 13205105,
+        text = "The Mirror Clash event has ended. Results from incomplete Spirit Stages have been calculated. As you did not make any challenges, you did not receive any rewards.",
+        minipack = 0,
+    },
+    [13205113] = {
+        id = 13205113,
+        text = "The event has finished, returning to the event main UI.",
+        minipack = 0,
+    },
+    [13205121] = {
+        id = 13205121,
+        text = "Maze Core Info: Publicly Available Intel\n\nAttack Elite Invaders to deal damage to the Maze Core. \n\nAfter dealing enough damage to the Maze Core, Elite Monsters in the area will become stronger. \n\nRegards. \n\n——To avoid unpredictable situations, only interact with the Maze Core in a team. ",
+        minipack = 0,
+    },
+    [13205129] = {
+        id = 13205129,
+        text = "An Unexpected Encounter",
         minipack = 0,
     },
     [1111010] = {
@@ -111644,49 +111699,19 @@ return {
         text = "Tohka and Maple are two people I just can't understand.",
         minipack = 0,
     },
-    [60035] = {
-        id = 60035,
-        text = "일상 데이트",
-        minipack = 0,
-    },
     [1013611] = {
         id = 1013611,
         text = "Miku has made some coffee, how considerate!",
         minipack = 0,
     },
-    [16033] = {
-        id = 16033,
-        text = "마유리 파편",
+    [13205201] = {
+        id = 13205201,
+        text = "Gold Medal（Part I）",
         minipack = 0,
     },
-    [13205305] = {
-        id = 13205305,
-        text = "Story.5",
-        minipack = 0,
-    },
-    [13205313] = {
-        id = 13205313,
-        text = "Story.13",
-        minipack = 0,
-    },
-    [13205321] = {
-        id = 13205321,
-        text = "ep.1",
-        minipack = 0,
-    },
-    [13205329] = {
-        id = 13205329,
-        text = "ep.9",
-        minipack = 0,
-    },
-    [13205337] = {
-        id = 13205337,
-        text = "ep.17",
-        minipack = 0,
-    },
-    [13205345] = {
-        id = 13205345,
-        text = "Hidden Supply Spot",
+    [13205209] = {
+        id = 13205209,
+        text = "Stamina Potion",
         minipack = 0,
     },
     [1013610] = {
@@ -111729,14 +111754,49 @@ return {
         text = "Reduces Sally's Water Magic skill CD by 2s; Resumes 50% of consumed Energy after returning to the Clone; Deals +20% DMG.",
         minipack = 0,
     },
-    [300051] = {
-        id = 300051,
-        text = "스테이지 클리어",
+    [60035] = {
+        id = 60035,
+        text = "일상 데이트",
         minipack = 0,
     },
     [290000082] = {
         id = 290000082,
         text = "제2장",
+        minipack = 0,
+    },
+    [16033] = {
+        id = 16033,
+        text = "마유리 파편",
+        minipack = 0,
+    },
+    [13205305] = {
+        id = 13205305,
+        text = "Story.5",
+        minipack = 0,
+    },
+    [13205313] = {
+        id = 13205313,
+        text = "Story.13",
+        minipack = 0,
+    },
+    [13205321] = {
+        id = 13205321,
+        text = "ep.1",
+        minipack = 0,
+    },
+    [13205329] = {
+        id = 13205329,
+        text = "ep.9",
+        minipack = 0,
+    },
+    [13205337] = {
+        id = 13205337,
+        text = "ep.17",
+        minipack = 0,
+    },
+    [13205345] = {
+        id = 13205345,
+        text = "Hidden Supply Spot",
         minipack = 0,
     },
     [290000085] = {
@@ -111747,11 +111807,6 @@ return {
     [400256] = {
         id = 400256,
         text = "Sea - Current",
-        minipack = 0,
-    },
-    [300052] = {
-        id = 300052,
-        text = "콤보 수 %s회 달성",
         minipack = 0,
     },
     [331056] = {
@@ -111769,11 +111824,6 @@ return {
         text = "Participate in the [Airship Gratitude] event to obtain this avatar frame.",
         minipack = 0,
     },
-    [300053] = {
-        id = 300053,
-        text = "클리어 시간 %s초 미만",
-        minipack = 0,
-    },
     [266792] = {
         id = 266792,
         text = "Sea of Heart",
@@ -111789,9 +111839,9 @@ return {
         text = "The %s that you purchased has been delivered, you can find it in your Bag!",
         minipack = 0,
     },
-    [300054] = {
-        id = 300054,
-        text = "파티 총 HP 손실 %s%% 미만",
+    [300051] = {
+        id = 300051,
+        text = "스테이지 클리어",
         minipack = 0,
     },
     [63989] = {
@@ -111802,6 +111852,66 @@ return {
     [63988] = {
         id = 63988,
         text = "Top Up Item Delivered",
+        minipack = 0,
+    },
+    [42313] = {
+        id = 42313,
+        text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Sally]. (Auto used once obtained)",
+        minipack = 0,
+    },
+    [300052] = {
+        id = 300052,
+        text = "콤보 수 %s회 달성",
+        minipack = 0,
+    },
+    [920166] = {
+        id = 920166,
+        text = "아름다운 재봉사Ⅱ",
+        minipack = 0,
+    },
+    [42311] = {
+        id = 42311,
+        text = "S Class Energy Gem, obtain it to get a S Class Gem for a random skill of [Sally]. (Auto used once obtained)",
+        minipack = 0,
+    },
+    [10941215] = {
+        id = 10941215,
+        text = "[진정한 낙뢰] 전자장 상태의 적에게 입히는 피해 20% 증가",
+        minipack = 0,
+    },
+    [300053] = {
+        id = 300053,
+        text = "클리어 시간 %s초 미만",
+        minipack = 0,
+    },
+    [42309] = {
+        id = 42309,
+        text = "B Class Energy Gem, obtain it to get a B Class Gem for a random skill of [Sally]. (Auto used once obtained)",
+        minipack = 0,
+    },
+    [1310422] = {
+        id = 1310422,
+        text = "백합 미쿠-서°6",
+        minipack = 0,
+    },
+    [10403005] = {
+        id = 10403005,
+        text = "[자프키엘 시계바늘] 에너지 타입의 몬스터에게 입히는 피해 +2%",
+        minipack = 0,
+    },
+    [300054] = {
+        id = 300054,
+        text = "파티 총 HP 손실 %s%% 미만",
+        minipack = 0,
+    },
+    [41241] = {
+        id = 41241,
+        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Sally]. (Auto used once obtained)",
+        minipack = 0,
+    },
+    [13202313] = {
+        id = 13202313,
+        text = "Snow Fest Store Lv.%s",
         minipack = 0,
     },
     [60036] = {
@@ -111834,66 +111944,6 @@ return {
         text = "피격 횟수 %s 미만",
         minipack = 0,
     },
-    [920166] = {
-        id = 920166,
-        text = "아름다운 재봉사Ⅱ",
-        minipack = 0,
-    },
-    [42311] = {
-        id = 42311,
-        text = "S Class Energy Gem, obtain it to get a S Class Gem for a random skill of [Sally]. (Auto used once obtained)",
-        minipack = 0,
-    },
-    [10941215] = {
-        id = 10941215,
-        text = "[진정한 낙뢰] 전자장 상태의 적에게 입히는 피해 20% 증가",
-        minipack = 0,
-    },
-    [300057] = {
-        id = 300057,
-        text = "다운 횟수 %s 미만",
-        minipack = 0,
-    },
-    [42309] = {
-        id = 42309,
-        text = "B Class Energy Gem, obtain it to get a B Class Gem for a random skill of [Sally]. (Auto used once obtained)",
-        minipack = 0,
-    },
-    [1310422] = {
-        id = 1310422,
-        text = "백합 미쿠-서°6",
-        minipack = 0,
-    },
-    [10403005] = {
-        id = 10403005,
-        text = "[자프키엘 시계바늘] 에너지 타입의 몬스터에게 입히는 피해 +2%",
-        minipack = 0,
-    },
-    [300058] = {
-        id = 300058,
-        text = "각성 스킬 %s회 사용",
-        minipack = 0,
-    },
-    [41241] = {
-        id = 41241,
-        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Sally]. (Auto used once obtained)",
-        minipack = 0,
-    },
-    [13202313] = {
-        id = 13202313,
-        text = "Snow Fest Store Lv.%s",
-        minipack = 0,
-    },
-    [12931] = {
-        id = 12931,
-        text = "피해 보너스 +10%, 공격속도 +10%",
-        minipack = 0,
-    },
-    [300059] = {
-        id = 300059,
-        text = "캐릭터 등장 스킬로 적 %s명 처치",
-        minipack = 0,
-    },
     [32327] = {
         id = 32327,
         text = "",
@@ -111909,9 +111959,9 @@ return {
         text = "자. 바닷가에서 사용하는 물건들의 사용법을 알아봐야 해.",
         minipack = 0,
     },
-    [300060] = {
-        id = 300060,
-        text = "전투 지원 캐릭터 1명 선택",
+    [300057] = {
+        id = 300057,
+        text = "다운 횟수 %s 미만",
         minipack = 0,
     },
     [13300212] = {
@@ -111929,9 +111979,9 @@ return {
         text = "상대는 미쿠",
         minipack = 0,
     },
-    [300061] = {
-        id = 300061,
-        text = "파티 내 %s 포함",
+    [300058] = {
+        id = 300058,
+        text = "각성 스킬 %s회 사용",
         minipack = 0,
     },
     [12000021] = {
@@ -111949,14 +111999,74 @@ return {
         text = "분해할 재료를 선택하세요",
         minipack = 0,
     },
-    [300062] = {
-        id = 300062,
-        text = "%s초마다 최소 1명의 적 처치",
+    [300059] = {
+        id = 300059,
+        text = "캐릭터 등장 스킬로 적 %s명 처치",
         minipack = 0,
     },
     [22210] = {
         id = 22210,
         text = "Sonogami Keepsake Choice Chest (Common)",
+        minipack = 0,
+    },
+    [22209] = {
+        id = 22209,
+        text = "Open to select one of the following: Keepsake [Rinne: Bento], [Rio: Cone], or Diamonds*500. Tip: Duplicate Keepsake will be converted into 1 gold, please choose carefully",
+        minipack = 0,
+    },
+    [430022] = {
+        id = 430022,
+        text = "마도의 공명",
+        minipack = 0,
+    },
+    [300060] = {
+        id = 300060,
+        text = "전투 지원 캐릭터 1명 선택",
+        minipack = 0,
+    },
+    [1702073] = {
+        id = 1702073,
+        text = "[이벤트]초콜릿 대작전",
+        minipack = 0,
+    },
+    [10403081] = {
+        id = 10403081,
+        text = "[경성 탄막] 스킬 크리티컬 확률 +4%.",
+        minipack = 0,
+    },
+    [10501097] = {
+        id = 10501097,
+        text = "파갑",
+        minipack = 0,
+    },
+    [300061] = {
+        id = 300061,
+        text = "파티 내 %s 포함",
+        minipack = 0,
+    },
+    [1023712] = {
+        id = 1023712,
+        text = "경치가 정말 좋네.",
+        minipack = 0,
+    },
+    [10603050] = {
+        id = 10603050,
+        text = "[뇌전광인] 스킬 명중률 +10%, 크리티컬 확률 +3%.",
+        minipack = 0,
+    },
+    [22202] = {
+        id = 22202,
+        text = "Commander's Treasure",
+        minipack = 0,
+    },
+    [300062] = {
+        id = 300062,
+        text = "%s초마다 최소 1명의 적 처치",
+        minipack = 0,
+    },
+    [22201] = {
+        id = 22201,
+        text = "Singles Day Mystery Lucky Bag, open to get a huge surprise!",
         minipack = 0,
     },
     [112000103] = {
@@ -111984,79 +112094,14 @@ return {
         text = "신년 지식 카드를 배워 잠금 해제하다.",
         minipack = 0,
     },
-    [22209] = {
-        id = 22209,
-        text = "Open to select one of the following: Keepsake [Rinne: Bento], [Rio: Cone], or Diamonds*500. Tip: Duplicate Keepsake will be converted into 1 gold, please choose carefully",
+    [22200] = {
+        id = 22200,
+        text = "Mystery Bag",
         minipack = 0,
     },
     [300064] = {
         id = 300064,
         text = "파티 내 정령이 사망하지 않을 것",
-        minipack = 0,
-    },
-    [430022] = {
-        id = 430022,
-        text = "마도의 공명",
-        minipack = 0,
-    },
-    [1702073] = {
-        id = 1702073,
-        text = "[이벤트]초콜릿 대작전",
-        minipack = 0,
-    },
-    [10403081] = {
-        id = 10403081,
-        text = "[경성 탄막] 스킬 크리티컬 확률 +4%.",
-        minipack = 0,
-    },
-    [300065] = {
-        id = 300065,
-        text = "몬스터 처치 수 %s마리 달성",
-        minipack = 0,
-    },
-    [10501097] = {
-        id = 10501097,
-        text = "파갑",
-        minipack = 0,
-    },
-    [1023712] = {
-        id = 1023712,
-        text = "경치가 정말 좋네.",
-        minipack = 0,
-    },
-    [10603050] = {
-        id = 10603050,
-        text = "[뇌전광인] 스킬 명중률 +10%, 크리티컬 확률 +3%.",
-        minipack = 0,
-    },
-    [300066] = {
-        id = 300066,
-        text = "작전 포인트 %s 달성",
-        minipack = 0,
-    },
-    [22202] = {
-        id = 22202,
-        text = "Commander's Treasure",
-        minipack = 0,
-    },
-    [14320008] = {
-        id = 14320008,
-        text = "공주님의 선물",
-        minipack = 0,
-    },
-    [22201] = {
-        id = 22201,
-        text = "Singles Day Mystery Lucky Bag, open to get a huge surprise!",
-        minipack = 0,
-    },
-    [300067] = {
-        id = 300067,
-        text = "회피 스킬 사용 횟수 %s회 이하",
-        minipack = 0,
-    },
-    [22200] = {
-        id = 22200,
-        text = "Mystery Bag",
         minipack = 0,
     },
     [22199] = {
@@ -112069,14 +112114,14 @@ return {
         text = "Surprise Bag",
         minipack = 0,
     },
-    [300068] = {
-        id = 300068,
-        text = "회피 스킬을 사용하지 않고 클리어",
-        minipack = 0,
-    },
     [10901059] = {
         id = 10901059,
         text = "쿨타임 감소",
+        minipack = 0,
+    },
+    [300065] = {
+        id = 300065,
+        text = "몬스터 처치 수 %s마리 달성",
         minipack = 0,
     },
     [22196] = {
@@ -112089,14 +112134,14 @@ return {
         text = "통찰",
         minipack = 0,
     },
-    [300069] = {
-        id = 300069,
-        text = "보물상자 파괴 점수 %s에 도달",
-        minipack = 0,
-    },
     [22194] = {
         id = 22194,
         text = "Fortune Bag",
+        minipack = 0,
+    },
+    [300066] = {
+        id = 300066,
+        text = "작전 포인트 %s 달성",
         minipack = 0,
     },
     [22193] = {
@@ -112104,9 +112149,74 @@ return {
         text = "Open to select one of the following: Keepsake [Earring]*1 or Diamond*500. \nTip: Duplicate Keepsakes will be converted into 1 gold, please choose carefully",
         minipack = 0,
     },
+    [14320008] = {
+        id = 14320008,
+        text = "공주님의 선물",
+        minipack = 0,
+    },
     [3210183] = {
         id = 3210183,
         text = "관통 피해 13% 증가",
+        minipack = 0,
+    },
+    [300067] = {
+        id = 300067,
+        text = "회피 스킬 사용 횟수 %s회 이하",
+        minipack = 0,
+    },
+    [10931047] = {
+        id = 10931047,
+        text = "격당",
+        minipack = 0,
+    },
+    [22190] = {
+        id = 22190,
+        text = "Bofuri Keepsake Choice Chest",
+        minipack = 0,
+    },
+    [22187] = {
+        id = 22187,
+        text = "Grants \"Sally\". Each duplicate of the character will be turned into 60 character fragments.",
+        minipack = 0,
+    },
+    [300068] = {
+        id = 300068,
+        text = "회피 스킬을 사용하지 않고 클리어",
+        minipack = 0,
+    },
+    [493001] = {
+        id = 493001,
+        text = "재료를 선택하세요.",
+        minipack = 0,
+    },
+    [10991208] = {
+        id = 10991208,
+        text = "[화력 스틸] 크리티컬 피해가 3%, 관통 피해가 3% 증가한다",
+        minipack = 0,
+    },
+    [10501058] = {
+        id = 10501058,
+        text = "에너지 컨트롤",
+        minipack = 0,
+    },
+    [300069] = {
+        id = 300069,
+        text = "보물상자 파괴 점수 %s에 도달",
+        minipack = 0,
+    },
+    [11221022] = {
+        id = 11221022,
+        text = "크리티컬 피해",
+        minipack = 0,
+    },
+    [10971103] = {
+        id = 10971103,
+        text = "고군분투",
+        minipack = 0,
+    },
+    [20320] = {
+        id = 20320,
+        text = "Type: Costume\nOwner: Kotori Itsuka\nA red outfit like a flame that only grows stronger in the roaring wind, bringing you the burning sensation of love.",
         minipack = 0,
     },
     [300070] = {
@@ -112114,9 +112224,9 @@ return {
         text = "남은 시간이 %s초 이상",
         minipack = 0,
     },
-    [10931047] = {
-        id = 10931047,
-        text = "격당",
+    [16080] = {
+        id = 16080,
+        text = "Sally Fragment, used to activate Sally or increase her capability.",
         minipack = 0,
     },
     [13206041] = {
@@ -112154,61 +112264,6 @@ return {
         text = "아이템 %s개 연속 획득",
         minipack = 0,
     },
-    [22190] = {
-        id = 22190,
-        text = "Bofuri Keepsake Choice Chest",
-        minipack = 0,
-    },
-    [22187] = {
-        id = 22187,
-        text = "Grants \"Sally\". Each duplicate of the character will be turned into 60 character fragments.",
-        minipack = 0,
-    },
-    [493001] = {
-        id = 493001,
-        text = "재료를 선택하세요.",
-        minipack = 0,
-    },
-    [300073] = {
-        id = 300073,
-        text = "아이템을 획득하지 않은 상태에서 승리",
-        minipack = 0,
-    },
-    [10991208] = {
-        id = 10991208,
-        text = "[화력 스틸] 크리티컬 피해가 3%, 관통 피해가 3% 증가한다",
-        minipack = 0,
-    },
-    [10501058] = {
-        id = 10501058,
-        text = "에너지 컨트롤",
-        minipack = 0,
-    },
-    [11221022] = {
-        id = 11221022,
-        text = "크리티컬 피해",
-        minipack = 0,
-    },
-    [300074] = {
-        id = 300074,
-        text = "조력 캐릭터를 사용하지 않고 클리어하기",
-        minipack = 0,
-    },
-    [10971103] = {
-        id = 10971103,
-        text = "고군분투",
-        minipack = 0,
-    },
-    [20320] = {
-        id = 20320,
-        text = "Type: Costume\nOwner: Kotori Itsuka\nA red outfit like a flame that only grows stronger in the roaring wind, bringing you the burning sensation of love.",
-        minipack = 0,
-    },
-    [16080] = {
-        id = 16080,
-        text = "Sally Fragment, used to activate Sally or increase her capability.",
-        minipack = 0,
-    },
     [16079] = {
         id = 16079,
         text = "Sally Fragment",
@@ -112224,6 +112279,11 @@ return {
         text = "보충 리소스 검사 중입니다.",
         minipack = 0,
     },
+    [300073] = {
+        id = 300073,
+        text = "아이템을 획득하지 않은 상태에서 승리",
+        minipack = 0,
+    },
     [112000402] = {
         id = 112000402,
         text = "미명중",
@@ -112237,6 +112297,11 @@ return {
     [112000399] = {
         id = 112000399,
         text = "오늘 남은 카드매치 횟수 %s/%s, %s",
+        minipack = 0,
+    },
+    [300074] = {
+        id = 300074,
+        text = "조력 캐릭터를 사용하지 않고 클리어하기",
         minipack = 0,
     },
     [112000396] = {
@@ -112284,19 +112349,9 @@ return {
         text = "3",
         minipack = 0,
     },
-    [15010] = {
-        id = 15010,
-        text = "라타토스크가 연구를 통해 제작한 차세대 동력 시스템, 정령 돌파에 사용한다.",
-        minipack = 0,
-    },
     [920061] = {
         id = 920061,
         text = "우유 가져와",
-        minipack = 0,
-    },
-    [16034] = {
-        id = 16034,
-        text = "마유리 파편, 정령 활성화 또는 정령 능력 강화에 사용한다.",
         minipack = 0,
     },
     [112000380] = {
@@ -112339,9 +112394,19 @@ return {
         text = "코토리 호감도 데이트 제5장 완료",
         minipack = 0,
     },
+    [15010] = {
+        id = 15010,
+        text = "라타토스크가 연구를 통해 제작한 차세대 동력 시스템, 정령 돌파에 사용한다.",
+        minipack = 0,
+    },
     [112000372] = {
         id = 112000372,
         text = "오리가미 호감도 데이트 제5장 완료",
+        minipack = 0,
+    },
+    [16034] = {
+        id = 16034,
+        text = "마유리 파편, 정령 활성화 또는 정령 능력 강화에 사용한다.",
         minipack = 0,
     },
     [112000371] = {
@@ -112394,24 +112459,19 @@ return {
         text = "3성 돌파 재료상자",
         minipack = 0,
     },
-    [14076] = {
-        id = 14076,
-        text = "China Town Fame Pts",
+    [190011063] = {
+        id = 190011063,
+        text = "ATK Speed +10%",
         minipack = 0,
     },
-    [13206704] = {
-        id = 13206704,
-        text = "That was a fun encounter, let's be friends!",
+    [13300259] = {
+        id = 13300259,
+        text = "정령들이 나눠 먹기에 케이크 하나로는 부족해…",
         minipack = 0,
     },
     [112000357] = {
         id = 112000357,
         text = "3등급 품질 보상 확률+200",
-        minipack = 0,
-    },
-    [13206505] = {
-        id = 13206505,
-        text = "",
         minipack = 0,
     },
     [112000356] = {
@@ -112444,11 +112504,6 @@ return {
         text = "이상하게 느껴지지만...",
         minipack = 0,
     },
-    [60040] = {
-        id = 60040,
-        text = "파티 숙지사항",
-        minipack = 0,
-    },
     [112000344] = {
         id = 112000344,
         text = "단오절 축제 기념 사진~",
@@ -112462,6 +112517,11 @@ return {
     [112000341] = {
         id = 112000341,
         text = "단오절 이벤트 소환로 사용할 수 있는 아이템",
+        minipack = 0,
+    },
+    [13206505] = {
+        id = 13206505,
+        text = "",
         minipack = 0,
     },
     [112000340] = {
@@ -112492,6 +112552,11 @@ return {
     [112000324] = {
         id = 112000324,
         text = "클라이언트 버전 매칭할 수 없습니다.",
+        minipack = 0,
+    },
+    [60040] = {
+        id = 60040,
+        text = "파티 숙지사항",
         minipack = 0,
     },
     [300980] = {
@@ -112527,6 +112592,51 @@ return {
     [112000316] = {
         id = 112000316,
         text = "추가 스킬4",
+        minipack = 0,
+    },
+    [11241212] = {
+        id = 11241212,
+        text = "[암야 성전] 피해가 15% 증가한다",
+        minipack = 0,
+    },
+    [11000264] = {
+        id = 11000264,
+        text = "어제는 잘 잤나요?",
+        minipack = 0,
+    },
+    [10133006] = {
+        id = 10133006,
+        text = "[나헤마] 적에게 입히는 피해 +9%.",
+        minipack = 0,
+    },
+    [12103028] = {
+        id = 12103028,
+        text = "축하 메시지를 다시 입력하세요.",
+        minipack = 0,
+    },
+    [13300289] = {
+        id = 13300289,
+        text = "놀이공원 사격 게임에서 보상을 좀 받았는데, 나보다는 너가 더 필요해 할 것 같아서.",
+        minipack = 0,
+    },
+    [10971068] = {
+        id = 10971068,
+        text = "통찰",
+        minipack = 0,
+    },
+    [112000309] = {
+        id = 112000309,
+        text = "불중",
+        minipack = 0,
+    },
+    [112000308] = {
+        id = 112000308,
+        text = "기본 피해",
+        minipack = 0,
+    },
+    [14231109] = {
+        id = 14231109,
+        text = "정령이 “새해 실전 교육”에서 획득하는 보상, 상점에서 아이템 교환 가능",
         minipack = 0,
     },
     [190000085] = {
@@ -112579,56 +112689,6 @@ return {
         text = "Pick up giftbox 20 times (Unlock at Lv.11 Park Pass)",
         minipack = 0,
     },
-    [11241212] = {
-        id = 11241212,
-        text = "[암야 성전] 피해가 15% 증가한다",
-        minipack = 0,
-    },
-    [11000264] = {
-        id = 11000264,
-        text = "어제는 잘 잤나요?",
-        minipack = 0,
-    },
-    [10133006] = {
-        id = 10133006,
-        text = "[나헤마] 적에게 입히는 피해 +9%.",
-        minipack = 0,
-    },
-    [12103028] = {
-        id = 12103028,
-        text = "축하 메시지를 다시 입력하세요.",
-        minipack = 0,
-    },
-    [13300289] = {
-        id = 13300289,
-        text = "놀이공원 사격 게임에서 보상을 좀 받았는데, 나보다는 너가 더 필요해 할 것 같아서.",
-        minipack = 0,
-    },
-    [60041] = {
-        id = 60041,
-        text = "파티 규정",
-        minipack = 0,
-    },
-    [10971068] = {
-        id = 10971068,
-        text = "통찰",
-        minipack = 0,
-    },
-    [112000309] = {
-        id = 112000309,
-        text = "불중",
-        minipack = 0,
-    },
-    [112000308] = {
-        id = 112000308,
-        text = "기본 피해",
-        minipack = 0,
-    },
-    [14231109] = {
-        id = 14231109,
-        text = "정령이 “새해 실전 교육”에서 획득하는 보상, 상점에서 아이템 교환 가능",
-        minipack = 0,
-    },
     [1024652] = {
         id = 1024652,
         text = "조금 더 놀자!",
@@ -112654,19 +112714,14 @@ return {
         text = "금화 소모 %s",
         minipack = 0,
     },
+    [60041] = {
+        id = 60041,
+        text = "파티 규정",
+        minipack = 0,
+    },
     [15010003] = {
         id = 15010003,
         text = "마왕·루키프구스가 있는 장소, 루키프구스에게 입히는 모든 물리 피해가 감소한다.",
-        minipack = 0,
-    },
-    [190200018] = {
-        id = 190200018,
-        text = "괴물 입힌 암흑 피해-80%",
-        minipack = 0,
-    },
-    [190200146] = {
-        id = 190200146,
-        text = "하얀 여왕 출전, 파티원 HP+20%，방어+20%，공격+15%",
         minipack = 0,
     },
     [112000300] = {
@@ -112684,14 +112739,14 @@ return {
         text = "위협",
         minipack = 0,
     },
-    [14077] = {
-        id = 14077,
-        text = "China Town Fame Pts are used to increase China Town Fame.",
+    [190011064] = {
+        id = 190011064,
+        text = "Damage Immunity -15%",
         minipack = 0,
     },
-    [13206706] = {
-        id = 13206706,
-        text = "To discover the truth and thwart a conspiracy, begin your training!",
+    [13206076] = {
+        id = 13206076,
+        text = "Confirm to reset?",
         minipack = 0,
     },
     [112000294] = {
@@ -112712,6 +112767,16 @@ return {
     [112000290] = {
         id = 112000290,
         text = "여행·아이템 5",
+        minipack = 0,
+    },
+    [190200018] = {
+        id = 190200018,
+        text = "괴물 입힌 암흑 피해-80%",
+        minipack = 0,
+    },
+    [190200146] = {
+        id = 190200146,
+        text = "하얀 여왕 출전, 파티원 HP+20%，방어+20%，공격+15%",
         minipack = 0,
     },
     [112000289] = {
@@ -112747,6 +112812,51 @@ return {
     [112000281] = {
         id = 112000281,
         text = "여행·벚꽃 전병2",
+        minipack = 0,
+    },
+    [112000280] = {
+        id = 112000280,
+        text = "여행·벚꽃 전병1",
+        minipack = 0,
+    },
+    [112000279] = {
+        id = 112000279,
+        text = "랜덤 룬 선물상자",
+        minipack = 0,
+    },
+    [112000278] = {
+        id = 112000278,
+        text = "준비 완료, 출발하자~",
+        minipack = 0,
+    },
+    [112000277] = {
+        id = 112000277,
+        text = "바구니에 감춰진 맛있는 음식이 가장 기대되는 것은 그것이 열리는 순간입니다!",
+        minipack = 0,
+    },
+    [112000276] = {
+        id = 112000276,
+        text = "이 집밖에 없는데 맛 좀 보지 않을래?",
+        minipack = 0,
+    },
+    [112000275] = {
+        id = 112000275,
+        text = "여행·아이템",
+        minipack = 0,
+    },
+    [112000273] = {
+        id = 112000273,
+        text = "여행·벚꽃 전병",
+        minipack = 0,
+    },
+    [112000271] = {
+        id = 112000271,
+        text = "현재 지도 포인트:",
+        minipack = 0,
+    },
+    [112000270] = {
+        id = 112000270,
+        text = "토카 생일 이벤트 없습니다.",
         minipack = 0,
     },
     [11241007] = {
@@ -112894,19 +113004,19 @@ return {
         text = "작전 센터",
         minipack = 0,
     },
-    [112000280] = {
-        id = 112000280,
-        text = "여행·벚꽃 전병1",
+    [112000268] = {
+        id = 112000268,
+        text = "3월 누적 충전 35000원 달성시 취득",
         minipack = 0,
     },
-    [112000279] = {
-        id = 112000279,
-        text = "랜덤 룬 선물상자",
+    [112000261] = {
+        id = 112000261,
+        text = "보조",
         minipack = 0,
     },
-    [112000278] = {
-        id = 112000278,
-        text = "준비 완료, 출발하자~",
+    [11000267] = {
+        id = 11000267,
+        text = "앗! 달링도 참",
         minipack = 0,
     },
     [300110] = {
@@ -112964,9 +113074,9 @@ return {
         text = "Hit Rate +10%",
         minipack = 0,
     },
-    [112000276] = {
-        id = 112000276,
-        text = "이 집밖에 없는데 맛 좀 보지 않을래?",
+    [12103029] = {
+        id = 12103029,
+        text = "지금은 읽을 수 있는 축하 메시지가 없습니다. 먼저 친구에게 축하 메시지를 보내 보세요~",
         minipack = 0,
     },
     [300113] = {
@@ -112984,64 +113094,9 @@ return {
         text = "Ambush",
         minipack = 0,
     },
-    [112000275] = {
-        id = 112000275,
-        text = "여행·아이템",
-        minipack = 0,
-    },
-    [112000273] = {
-        id = 112000273,
-        text = "여행·벚꽃 전병",
-        minipack = 0,
-    },
-    [112000271] = {
-        id = 112000271,
-        text = "현재 지도 포인트:",
-        minipack = 0,
-    },
-    [112000270] = {
-        id = 112000270,
-        text = "토카 생일 이벤트 없습니다.",
-        minipack = 0,
-    },
-    [112000268] = {
-        id = 112000268,
-        text = "3월 누적 충전 35000원 달성시 취득",
-        minipack = 0,
-    },
-    [112000261] = {
-        id = 112000261,
-        text = "보조",
-        minipack = 0,
-    },
-    [11000267] = {
-        id = 11000267,
-        text = "앗! 달링도 참",
-        minipack = 0,
-    },
-    [11303114] = {
-        id = 11303114,
-        text = "[성당 사자]의 공격력 증가, 매 탄환의 피해 50% 증가.",
-        minipack = 0,
-    },
-    [12103029] = {
-        id = 12103029,
-        text = "지금은 읽을 수 있는 축하 메시지가 없습니다. 먼저 친구에게 축하 메시지를 보내 보세요~",
-        minipack = 0,
-    },
     [13300290] = {
         id = 13300290,
         text = "토카에게 줄 게 없어요. 아까 카페에서 서빙하고 있었어요.....",
-        minipack = 0,
-    },
-    [190013013] = {
-        id = 190013013,
-        text = "49",
-        minipack = 0,
-    },
-    [13207513] = {
-        id = 13207513,
-        text = "[Enemy Boss]: Launches a bombardment every few seconds, dealing damage to all targets within the AoE.",
         minipack = 0,
     },
     [13313195] = {
@@ -113089,6 +113144,16 @@ return {
         text = "체력 소모 %s",
         minipack = 0,
     },
+    [190013013] = {
+        id = 190013013,
+        text = "49",
+        minipack = 0,
+    },
+    [13207513] = {
+        id = 13207513,
+        text = "[Enemy Boss]: Launches a bombardment every few seconds, dealing damage to all targets within the AoE.",
+        minipack = 0,
+    },
     [112000237] = {
         id = 112000237,
         text = "에,",
@@ -113109,29 +113174,14 @@ return {
         text = "어머，",
         minipack = 0,
     },
-    [300120] = {
-        id = 300120,
-        text = "스토리",
+    [190011066] = {
+        id = 190011066,
+        text = "DMG dealt -10% for 8s",
         minipack = 0,
     },
-    [190015061] = {
-        id = 190015061,
-        text = "아이스 스팅",
-        minipack = 0,
-    },
-    [14078] = {
-        id = 14078,
-        text = "Chinese Coin",
-        minipack = 0,
-    },
-    [13206707] = {
-        id = 13206707,
-        text = "Team Commander Natsumi, reporting in!",
-        minipack = 0,
-    },
-    [300121] = {
-        id = 300121,
-        text = "하드",
+    [13206078] = {
+        id = 13206078,
+        text = "%sh %sm %ss",
         minipack = 0,
     },
     [112000231] = {
@@ -113149,29 +113199,9 @@ return {
         text = "당신과 함께 있으면",
         minipack = 0,
     },
-    [300122] = {
-        id = 300122,
-        text = "헬",
-        minipack = 0,
-    },
-    [190016085] = {
-        id = 190016085,
-        text = "작전·정보실",
-        minipack = 0,
-    },
-    [190016213] = {
-        id = 190016213,
-        text = "선홍의 마역",
-        minipack = 0,
-    },
     [112000227] = {
         id = 112000227,
         text = "오늘은 정말 기뻐요.",
-        minipack = 0,
-    },
-    [300123] = {
-        id = 300123,
-        text = "%s 모드",
         minipack = 0,
     },
     [112000225] = {
@@ -113189,6 +113219,16 @@ return {
         text = "에, 저와 함께 지낼 건가요? 정말 변함없이 상냥하네요.",
         minipack = 0,
     },
+    [300120] = {
+        id = 300120,
+        text = "스토리",
+        minipack = 0,
+    },
+    [190015061] = {
+        id = 190015061,
+        text = "아이스 스팅",
+        minipack = 0,
+    },
     [112000217] = {
         id = 112000217,
         text = "어머, 당신의 눈빛에서 알 수 있어요. 이 옷이 저한테 잘 어울린다는 걸요.",
@@ -113197,6 +113237,11 @@ return {
     [112000216] = {
         id = 112000216,
         text = "기대한 마음은 이해되겠지만, 계속 이쪽을 쳐다보지 마세요~",
+        minipack = 0,
+    },
+    [300121] = {
+        id = 300121,
+        text = "하드",
         minipack = 0,
     },
     [112000214] = {
@@ -113214,9 +113259,29 @@ return {
         text = "정령 상태:",
         minipack = 0,
     },
+    [300122] = {
+        id = 300122,
+        text = "헬",
+        minipack = 0,
+    },
+    [190016085] = {
+        id = 190016085,
+        text = "작전·정보실",
+        minipack = 0,
+    },
+    [190016213] = {
+        id = 190016213,
+        text = "선홍의 마역",
+        minipack = 0,
+    },
     [112000211] = {
         id = 112000211,
         text = "진급",
+        minipack = 0,
+    },
+    [300123] = {
+        id = 300123,
+        text = "%s 모드",
         minipack = 0,
     },
     [112000209] = {
@@ -113229,16 +113294,6 @@ return {
         text = "희망의 빛",
         minipack = 0,
     },
-    [190018005] = {
-        id = 190018005,
-        text = "에너지 회복",
-        minipack = 0,
-    },
-    [190018133] = {
-        id = 190018133,
-        text = "이동속도 +30%，3초간 지속",
-        minipack = 0,
-    },
     [112000205] = {
         id = 112000205,
         text = "아름다움을 상징하는 불꽃, 사용 시 일정 확률로 다이아*888개를 획득할 수 있다.",
@@ -113247,11 +113302,6 @@ return {
     [112000204] = {
         id = 112000204,
         text = "행운을 상징하는 불꽃, 사용 시 일정 확률로 설날 복주머니*88개를 획득할 수 있다.",
-        minipack = 0,
-    },
-    [300127] = {
-        id = 300127,
-        text = "첫 클리어 드랍",
         minipack = 0,
     },
     [112000199] = {
@@ -113269,11 +113319,6 @@ return {
         text = "키 진급",
         minipack = 0,
     },
-    [300128] = {
-        id = 300128,
-        text = "이벤트 미개방",
-        minipack = 0,
-    },
     [111000108] = {
         id = 111000108,
         text = " d '",
@@ -113289,14 +113334,19 @@ return {
         text = "크리스마스 남산타워",
         minipack = 0,
     },
-    [300129] = {
-        id = 300129,
-        text = "드랍 가능",
-        minipack = 0,
-    },
     [1709997] = {
         id = 1709997,
         text = "새해 아침",
+        minipack = 0,
+    },
+    [190018005] = {
+        id = 190018005,
+        text = "에너지 회복",
+        minipack = 0,
+    },
+    [190018133] = {
+        id = 190018133,
+        text = "이동속도 +30%，3초간 지속",
         minipack = 0,
     },
     [1709996] = {
@@ -113309,9 +113359,9 @@ return {
         text = "크리스마스 원소를 지니고 있는 오리가미, 세피라는 영광이며, 4개의 랜덤 속성을 지니고 있다.",
         minipack = 0,
     },
-    [300130] = {
-        id = 300130,
-        text = "이벤트 소개",
+    [300127] = {
+        id = 300127,
+        text = "첫 클리어 드랍",
         minipack = 0,
     },
     [401998] = {
@@ -113329,9 +113379,9 @@ return {
         text = "Those ghosts could never go ashore. But why?",
         minipack = 0,
     },
-    [300131] = {
-        id = 300131,
-        text = "경험치 카드 아이템 드랍\n매주 월, 목, 일요일 개방",
+    [300128] = {
+        id = 300128,
+        text = "이벤트 미개방",
         minipack = 0,
     },
     [13316502] = {
@@ -113349,9 +113399,9 @@ return {
         text = "Strawberry",
         minipack = 0,
     },
-    [300132] = {
-        id = 300132,
-        text = "금화 재료 드랍\n매주 화, 금요일 개방",
+    [300129] = {
+        id = 300129,
+        text = "드랍 가능",
         minipack = 0,
     },
     [13316613] = {
@@ -113369,9 +113419,9 @@ return {
         text = "Freshly ground coffee beans emit a mellow aroma that reinvigorates the mind.",
         minipack = 0,
     },
-    [300133] = {
-        id = 300133,
-        text = "기원 재료 드랍\n매주 수, 토요일 개방",
+    [300130] = {
+        id = 300130,
+        text = "이벤트 소개",
         minipack = 0,
     },
     [13316638] = {
@@ -113389,9 +113439,9 @@ return {
         text = "초콜릿 선물",
         minipack = 0,
     },
-    [300134] = {
-        id = 300134,
-        text = "왕관, 지혜 세피라 드랍\n매주 월요일 개방",
+    [300131] = {
+        id = 300131,
+        text = "경험치 카드 아이템 드랍\n매주 월, 목, 일요일 개방",
         minipack = 0,
     },
     [20999] = {
@@ -113409,9 +113459,9 @@ return {
         text = "캐릭터: 토키사키 쿠루미\n\n새해 복 많이 받으세요~",
         minipack = 0,
     },
-    [300135] = {
-        id = 300135,
-        text = "이해, 자비 세피라 드랍\n매주 화요일 개방",
+    [300132] = {
+        id = 300132,
+        text = "금화 재료 드랍\n매주 화, 금요일 개방",
         minipack = 0,
     },
     [14221125] = {
@@ -113429,9 +113479,9 @@ return {
         text = "딸기 맛과 수박 맛 중에 뭘 고를까...... 나는 선택 장애라구.",
         minipack = 0,
     },
-    [300136] = {
-        id = 300136,
-        text = "힘, 아름다움 세피라 드랍\n매주 수요일 개방",
+    [300133] = {
+        id = 300133,
+        text = "기원 재료 드랍\n매주 수, 토요일 개방",
         minipack = 0,
     },
     [1012254] = {
@@ -113449,9 +113499,9 @@ return {
         text = "天使鸢一的天使叫什么名字？",
         minipack = 0,
     },
-    [300137] = {
-        id = 300137,
-        text = "승리, 영광 세피라 드랍\n매주 목요일 개방",
+    [300134] = {
+        id = 300134,
+        text = "왕관, 지혜 세피라 드랍\n매주 월요일 개방",
         minipack = 0,
     },
     [13205559] = {
@@ -113469,9 +113519,9 @@ return {
         text = "조삼모사 같은 녀석!",
         minipack = 0,
     },
-    [300138] = {
-        id = 300138,
-        text = "기초, 왕국 세피라 드랍\n매주 금요일 개방",
+    [300135] = {
+        id = 300135,
+        text = "이해, 자비 세피라 드랍\n매주 화요일 개방",
         minipack = 0,
     },
     [13300319] = {
@@ -113489,9 +113539,9 @@ return {
         text = "High flexibility, with multiple displacement and clone summoning magic attacks.",
         minipack = 0,
     },
-    [300139] = {
-        id = 300139,
-        text = "모든 세피라 드랍\n매주 토, 일요일 개방",
+    [300136] = {
+        id = 300136,
+        text = "힘, 아름다움 세피라 드랍\n매주 수요일 개방",
         minipack = 0,
     },
     [13205502] = {
@@ -113509,6 +113559,11 @@ return {
         text = "[극한 영역] 기계 타입 몬스터에게 입히는 피해 +2%.",
         minipack = 0,
     },
+    [300137] = {
+        id = 300137,
+        text = "승리, 영광 세피라 드랍\n매주 목요일 개방",
+        minipack = 0,
+    },
     [13300361] = {
         id = 13300361,
         text = "가장 성대한 의식",
@@ -113524,6 +113579,11 @@ return {
         text = "Brief Walkthrough",
         minipack = 0,
     },
+    [300138] = {
+        id = 300138,
+        text = "기초, 왕국 세피라 드랍\n매주 금요일 개방",
+        minipack = 0,
+    },
     [13205116] = {
         id = 13205116,
         text = "Leaderboard",
@@ -113537,6 +113597,11 @@ return {
     [13205114] = {
         id = 13205114,
         text = "Guild Hall",
+        minipack = 0,
+    },
+    [300139] = {
+        id = 300139,
+        text = "모든 세피라 드랍\n매주 토, 일요일 개방",
         minipack = 0,
     },
     [13205110] = {
@@ -113564,19 +113629,9 @@ return {
         text = "%s supported you;",
         minipack = 0,
     },
-    [15012] = {
-        id = 15012,
-        text = "영력 파편을 바탕으로 구상해 만든 영력 저장 장치, 정령 돌파에 사용한다.",
-        minipack = 0,
-    },
     [10303082] = {
         id = 10303082,
         text = "[극한 폭풍] 스킬 쿨타임 -1.5초.",
-        minipack = 0,
-    },
-    [16036] = {
-        id = 16036,
-        text = "나츠미 파편, 정령 활성화 또는 정령 능력 강화에 사용한다.",
         minipack = 0,
     },
     [18000133] = {
@@ -113619,9 +113674,19 @@ return {
         text = "Dough wrapped around nut filling, then baked in the oven~Ding~",
         minipack = 0,
     },
+    [15012] = {
+        id = 15012,
+        text = "영력 파편을 바탕으로 구상해 만든 영력 저장 장치, 정령 돌파에 사용한다.",
+        minipack = 0,
+    },
     [18000125] = {
         id = 18000125,
         text = "I promised to watch the moon and eat mooncakes at the Lunar Observatory with Tohka tonight.",
+        minipack = 0,
+    },
+    [16036] = {
+        id = 16036,
+        text = "나츠미 파편, 정령 활성화 또는 정령 능력 강화에 사용한다.",
         minipack = 0,
     },
     [18000124] = {
@@ -113909,11 +113974,6 @@ return {
         text = "You are the moon in my life.",
         minipack = 0,
     },
-    [300160] = {
-        id = 300160,
-        text = "적의 슈퍼아머 게이지 및 보호막을 파괴한 후 공격해야만 대상 피격 시 경직이 발생합니다.",
-        minipack = 0,
-    },
     [18000063] = {
         id = 18000063,
         text = "Mmm, looking at the moon is making me hungry.",
@@ -113927,11 +113987,6 @@ return {
     [18000059] = {
         id = 18000059,
         text = "I hear Moon Dango are delicious...",
-        minipack = 0,
-    },
-    [300161] = {
-        id = 300161,
-        text = "적의 슈퍼아머 게이지 및 보호막을 파괴한 후 공격해야만 대상 피격 시 경직이 발생합니다.",
         minipack = 0,
     },
     [18000057] = {
@@ -113949,11 +114004,6 @@ return {
         text = "It's just a movie, why is she crying?",
         minipack = 0,
     },
-    [300162] = {
-        id = 300162,
-        text = "미사일은 일정 시간 추격 후 자동으로 폭발하므로, 멀리 떨어지세요.",
-        minipack = 0,
-    },
     [13313583] = {
         id = 13313583,
         text = "장애물 제거",
@@ -113969,9 +114019,9 @@ return {
         text = "Yoshino? Maid Café? Magic? Knowledge of strange things increased.",
         minipack = 0,
     },
-    [300163] = {
-        id = 300163,
-        text = "장애물을 파괴하면 각종 보급을 드랍합니다.",
+    [300160] = {
+        id = 300160,
+        text = "적의 슈퍼아머 게이지 및 보호막을 파괴한 후 공격해야만 대상 피격 시 경직이 발생합니다.",
         minipack = 0,
     },
     [18000051] = {
@@ -113989,9 +114039,9 @@ return {
         text = "You can now attract customers in China Town",
         minipack = 0,
     },
-    [300164] = {
-        id = 300164,
-        text = "스테이지 %s",
+    [300161] = {
+        id = 300161,
+        text = "적의 슈퍼아머 게이지 및 보호막을 파괴한 후 공격해야만 대상 피격 시 경직이 발생합니다.",
         minipack = 0,
     },
     [17100100] = {
@@ -114009,6 +114059,11 @@ return {
         text = "CD: %ss",
         minipack = 0,
     },
+    [300162] = {
+        id = 300162,
+        text = "미사일은 일정 시간 추격 후 자동으로 폭발하므로, 멀리 떨어지세요.",
+        minipack = 0,
+    },
     [17100084] = {
         id = 17100084,
         text = "Nothing here...",
@@ -114024,6 +114079,11 @@ return {
         text = "拖鞋",
         minipack = 0,
     },
+    [300163] = {
+        id = 300163,
+        text = "장애물을 파괴하면 각종 보급을 드랍합니다.",
+        minipack = 0,
+    },
     [13311424] = {
         id = 13311424,
         text = "[보물 파편]\n불완전한 태양 여신의 반지, 민심으로 신앙을 채워야 한다. \n(전투 중, 정령이 등장하고 일정 시간 안에, 모든 피해가 증가한다)",
@@ -114037,6 +114097,11 @@ return {
     [17100075] = {
         id = 17100075,
         text = "Kihihi, where are you running off to?",
+        minipack = 0,
+    },
+    [300164] = {
+        id = 300164,
+        text = "스테이지 %s",
         minipack = 0,
     },
     [17100072] = {
@@ -114087,6 +114152,51 @@ return {
     [17100062] = {
         id = 17100062,
         text = "A resident has gone offline, the remaining residents take her Dango.",
+        minipack = 0,
+    },
+    [17100059] = {
+        id = 17100059,
+        text = "Faster",
+        minipack = 0,
+    },
+    [300978] = {
+        id = 300978,
+        text = "전투 시작",
+        minipack = 0,
+    },
+    [950119] = {
+        id = 950119,
+        text = "",
+        minipack = 0,
+    },
+    [13310458] = {
+        id = 13310458,
+        text = "방금 구매한 신선한 과일, 직접 먹거나 과일잼을 만들 수 있다.",
+        minipack = 0,
+    },
+    [17100051] = {
+        id = 17100051,
+        text = "Movement Speed +40% for 5s.",
+        minipack = 0,
+    },
+    [17000541] = {
+        id = 17000541,
+        text = "旦",
+        minipack = 0,
+    },
+    [13310403] = {
+        id = 13310403,
+        text = "수정을 저장하지 않고 로그아웃하시겠습니까?",
+        minipack = 0,
+    },
+    [17100047] = {
+        id = 17100047,
+        text = "Become invisible for 5s. Attacking will ends this effect.",
+        minipack = 0,
+    },
+    [17100046] = {
+        id = 17100046,
+        text = "Use this skill next to a collection point to modify it, causing it to spawn 1 extra Bell Chest. Effect lasts until the end of the game and can only be used once per game.",
         minipack = 0,
     },
     [10981003] = {
@@ -114234,51 +114344,6 @@ return {
         text = "공격으로 피해를 입힐 때마다, 30%의 확률로 [트로이 침투] 1스택을 얻는다. 5스택이 쌓이면, 5초간 마리나의 크리티컬 피해가 30% 증가하고, 관통 피해가 30% 증가한다.",
         minipack = 0,
     },
-    [17100059] = {
-        id = 17100059,
-        text = "Faster",
-        minipack = 0,
-    },
-    [300978] = {
-        id = 300978,
-        text = "전투 시작",
-        minipack = 0,
-    },
-    [950119] = {
-        id = 950119,
-        text = "",
-        minipack = 0,
-    },
-    [13310458] = {
-        id = 13310458,
-        text = "방금 구매한 신선한 과일, 직접 먹거나 과일잼을 만들 수 있다.",
-        minipack = 0,
-    },
-    [17100051] = {
-        id = 17100051,
-        text = "Movement Speed +40% for 5s.",
-        minipack = 0,
-    },
-    [17000541] = {
-        id = 17000541,
-        text = "旦",
-        minipack = 0,
-    },
-    [13310403] = {
-        id = 13310403,
-        text = "수정을 저장하지 않고 로그아웃하시겠습니까?",
-        minipack = 0,
-    },
-    [17100047] = {
-        id = 17100047,
-        text = "Become invisible for 5s. Attacking will ends this effect.",
-        minipack = 0,
-    },
-    [17100046] = {
-        id = 17100046,
-        text = "Use this skill next to a collection point to modify it, causing it to spawn 1 extra Bell Chest. Effect lasts until the end of the game and can only be used once per game.",
-        minipack = 0,
-    },
     [17100043] = {
         id = 17100043,
         text = "Causes all targets within a range of 500 to drop 1 Dango. Has 5 Energy. Each attack consumes 1 Energy, and recovers 1 Energy every 2s.",
@@ -114364,16 +114429,6 @@ return {
         text = "[I'm A Sneak Master!]",
         minipack = 0,
     },
-    [12030003] = {
-        id = 12030003,
-        text = "%s.%s 종료",
-        minipack = 0,
-    },
-    [12030011] = {
-        id = 12030011,
-        text = "1. 「초차원 작전」은 전편과 후편으로 나뉩니다. 각 편은 서로 다른 시간대에 개방되며, 이번에는 전편이 개방됩니다.",
-        minipack = 0,
-    },
     [17100011] = {
         id = 17100011,
         text = "[Everyone Run!]",
@@ -114419,6 +114474,16 @@ return {
         text = "3. In each round, there are up to 100 lanterns of different colors for a total of 400+ points. Players will earn 2 points for each lantern of the correct color, and 20 points for each special lantern. 10 points will be deducted for catching lanterns of the wrong color. The number of correct lanterns per round is greater than the incorrect ones.",
         minipack = 0,
     },
+    [12030003] = {
+        id = 12030003,
+        text = "%s.%s 종료",
+        minipack = 0,
+    },
+    [12030011] = {
+        id = 12030011,
+        text = "1. 「초차원 작전」은 전편과 후편으로 나뉩니다. 각 편은 서로 다른 시간대에 개방되며, 이번에는 전편이 개방됩니다.",
+        minipack = 0,
+    },
     [17000737] = {
         id = 17000737,
         text = "2. In each round, 1 random quest will be generated. Catch the color lanterns and special lanterns specified in the quest to gain points. Players will lose points for catching lanterns of the wrong color.",
@@ -114447,11 +114512,6 @@ return {
     [17000732] = {
         id = 17000732,
         text = "Lantern Points",
-        minipack = 0,
-    },
-    [110000390] = {
-        id = 110000390,
-        text = "원가:",
         minipack = 0,
     },
     [17000731] = {
@@ -114499,9 +114559,14 @@ return {
         text = "Hall of Herbs",
         minipack = 0,
     },
-    [1224063] = {
-        id = 1224063,
-        text = "Gold Medal*60",
+    [110000390] = {
+        id = 110000390,
+        text = "원가:",
+        minipack = 0,
+    },
+    [1224054] = {
+        id = 1224054,
+        text = "Dimension Essence*10",
         minipack = 0,
     },
     [17000641] = {
@@ -114594,21 +114659,6 @@ return {
         text = "Draw from Character Special Card Pools 40 times",
         minipack = 0,
     },
-    [13210001] = {
-        id = 13210001,
-        text = "상점",
-        minipack = 0,
-    },
-    [13210009] = {
-        id = 13210009,
-        text = "실행",
-        minipack = 0,
-    },
-    [13210017] = {
-        id = 13210017,
-        text = "현재 운수대통 버프 상태입니다",
-        minipack = 0,
-    },
     [411089] = {
         id = 411089,
         text = "받는 제어 효과의 시간 20% 감소",
@@ -114652,6 +114702,21 @@ return {
     [16011137] = {
         id = 16011137,
         text = "Draw from Character Special Card Pools 30 times",
+        minipack = 0,
+    },
+    [13210001] = {
+        id = 13210001,
+        text = "상점",
+        minipack = 0,
+    },
+    [13210009] = {
+        id = 13210009,
+        text = "실행",
+        minipack = 0,
+    },
+    [13210017] = {
+        id = 13210017,
+        text = "현재 운수대통 버프 상태입니다",
         minipack = 0,
     },
     [13316029] = {
@@ -114709,11 +114774,6 @@ return {
         text = "Maple's Angel reaches 4-star",
         minipack = 0,
     },
-    [300200] = {
-        id = 300200,
-        text = "%s권",
-        minipack = 0,
-    },
     [411087] = {
         id = 411087,
         text = "받는 제어 효과의 시간 10% 감소",
@@ -114727,11 +114787,6 @@ return {
     [16011111] = {
         id = 16011111,
         text = "Maple reaches Lv.80",
-        minipack = 0,
-    },
-    [300201] = {
-        id = 300201,
-        text = "1",
         minipack = 0,
     },
     [16011107] = {
@@ -114749,11 +114804,6 @@ return {
         text = "Upgrade any [Fortress] Set Sephira to Lv.50",
         minipack = 0,
     },
-    [300202] = {
-        id = 300202,
-        text = "2",
-        minipack = 0,
-    },
     [16011103] = {
         id = 16011103,
         text = "Gather all the Sephira of any [Fortress] Set",
@@ -114769,9 +114819,9 @@ return {
         text = "이 세계에 있다면, 나를 이길 자는 없어!",
         minipack = 0,
     },
-    [300203] = {
-        id = 300203,
-        text = "3",
+    [300200] = {
+        id = 300200,
+        text = "%s권",
         minipack = 0,
     },
     [15011567] = {
@@ -114789,9 +114839,9 @@ return {
         text = "Moon God Temple",
         minipack = 0,
     },
-    [300204] = {
-        id = 300204,
-        text = "4",
+    [300201] = {
+        id = 300201,
+        text = "1",
         minipack = 0,
     },
     [15011562] = {
@@ -114809,9 +114859,9 @@ return {
         text = "Unclaimed Flower Lantern Rewards",
         minipack = 0,
     },
-    [300205] = {
-        id = 300205,
-        text = "5",
+    [300202] = {
+        id = 300202,
+        text = "2",
         minipack = 0,
     },
     [15011559] = {
@@ -114829,9 +114879,9 @@ return {
         text = "Lighting Flower Lanterns",
         minipack = 0,
     },
-    [300206] = {
-        id = 300206,
-        text = "6",
+    [300203] = {
+        id = 300203,
+        text = "3",
         minipack = 0,
     },
     [15011553] = {
@@ -114842,6 +114892,66 @@ return {
     [409990] = {
         id = 409990,
         text = "세피라 상태의 소노가미 린네, 다른 세피라와 비교할 수 없는 힘을 지니고 있다. 세피라는 힘이며, 4개의 랜덤 속성을 지니고 있다",
+        minipack = 0,
+    },
+    [15011551] = {
+        id = 15011551,
+        text = "Kurumi stirred the sugar into the butter, and suddenly realized a problem. How sweet should she make it? It was almost impossible to find references to the ancient recipes for mooncake filling. After thinking for a moment, Kurumi dipped her finger into the filling and tasted it. --Ooh, just the perfect amount of sweetness.",
+        minipack = 0,
+    },
+    [300204] = {
+        id = 300204,
+        text = "4",
+        minipack = 0,
+    },
+    [190010329] = {
+        id = 190010329,
+        text = "이동속도+10%，6초간 지속",
+        minipack = 0,
+    },
+    [15011545] = {
+        id = 15011545,
+        text = "A rare night of clear moonlight",
+        minipack = 0,
+    },
+    [15011544] = {
+        id = 15011544,
+        text = "With my shadow there are three of us",
+        minipack = 0,
+    },
+    [300205] = {
+        id = 300205,
+        text = "5",
+        minipack = 0,
+    },
+    [244043] = {
+        id = 244043,
+        text = "「지적인 여자아이」가 달콤한 노래 '겨울에는 솔로 탈출해야지'를 불렀습니다. 매출+2000",
+        minipack = 0,
+    },
+    [190010330] = {
+        id = 190010330,
+        text = "이동속도+15%，6초간 지속",
+        minipack = 0,
+    },
+    [15011537] = {
+        id = 15011537,
+        text = "The full moon fills sky and mirror",
+        minipack = 0,
+    },
+    [300206] = {
+        id = 300206,
+        text = "6",
+        minipack = 0,
+    },
+    [270730] = {
+        id = 270730,
+        text = "동아리에서는 매일 합계 5명의 구성원을 강퇴할 수 있습니다. 결정하기 전에 신중하게 고려하세요",
+        minipack = 0,
+    },
+    [14210039] = {
+        id = 14210039,
+        text = "모의 소환 카드풀이 개방되었습니다!",
         minipack = 0,
     },
     [15014] = {
@@ -114859,66 +114969,6 @@ return {
         text = "얼음 공주 요시노 파편, 정령 활성화 또는 정령 능력 강화에 사용한다.",
         minipack = 0,
     },
-    [15011551] = {
-        id = 15011551,
-        text = "Kurumi stirred the sugar into the butter, and suddenly realized a problem. How sweet should she make it? It was almost impossible to find references to the ancient recipes for mooncake filling. After thinking for a moment, Kurumi dipped her finger into the filling and tasted it. --Ooh, just the perfect amount of sweetness.",
-        minipack = 0,
-    },
-    [190010329] = {
-        id = 190010329,
-        text = "이동속도+10%，6초간 지속",
-        minipack = 0,
-    },
-    [300208] = {
-        id = 300208,
-        text = "8",
-        minipack = 0,
-    },
-    [15011545] = {
-        id = 15011545,
-        text = "A rare night of clear moonlight",
-        minipack = 0,
-    },
-    [15011544] = {
-        id = 15011544,
-        text = "With my shadow there are three of us",
-        minipack = 0,
-    },
-    [244043] = {
-        id = 244043,
-        text = "「지적인 여자아이」가 달콤한 노래 '겨울에는 솔로 탈출해야지'를 불렀습니다. 매출+2000",
-        minipack = 0,
-    },
-    [300209] = {
-        id = 300209,
-        text = "9",
-        minipack = 0,
-    },
-    [190010330] = {
-        id = 190010330,
-        text = "이동속도+15%，6초간 지속",
-        minipack = 0,
-    },
-    [15011537] = {
-        id = 15011537,
-        text = "The full moon fills sky and mirror",
-        minipack = 0,
-    },
-    [270730] = {
-        id = 270730,
-        text = "동아리에서는 매일 합계 5명의 구성원을 강퇴할 수 있습니다. 결정하기 전에 신중하게 고려하세요",
-        minipack = 0,
-    },
-    [300210] = {
-        id = 300210,
-        text = "10",
-        minipack = 0,
-    },
-    [14210039] = {
-        id = 14210039,
-        text = "모의 소환 카드풀이 개방되었습니다!",
-        minipack = 0,
-    },
     [190010331] = {
         id = 190010331,
         text = "이동속도+20%，6초간 지속",
@@ -114929,9 +114979,9 @@ return {
         text = "Full Moon Insignia",
         minipack = 0,
     },
-    [300211] = {
-        id = 300211,
-        text = "0",
+    [300208] = {
+        id = 300208,
+        text = "8",
         minipack = 0,
     },
     [1705428] = {
@@ -114949,9 +114999,9 @@ return {
         text = "공격속도 2포인트마다 이동속도 +1",
         minipack = 0,
     },
-    [300212] = {
-        id = 300212,
-        text = "백",
+    [300209] = {
+        id = 300209,
+        text = "9",
         minipack = 0,
     },
     [15011521] = {
@@ -114969,9 +115019,9 @@ return {
         text = "",
         minipack = 0,
     },
-    [300213] = {
-        id = 300213,
-        text = "천",
+    [300210] = {
+        id = 300210,
+        text = "10",
         minipack = 0,
     },
     [190010333] = {
@@ -114987,6 +115037,66 @@ return {
     [15011513] = {
         id = 15011513,
         text = "2.1 In strict accordance with the provisions of laws and regulations and our agreement with users, we will collect and use information as outlined in this policy, \"Heitao Game License and Service Agreement,\" and \"Heitao Game Registered User Privacy Policy,\" to provide you and your child with high-quality service. \n2.2. For details regarding our use of children's personal information, please see \"Heitao Game Registered User Privacy Policy.\" If our usage of your child's personal information exceeds the objectives declared at the time of collection and falls within the scope of direct or reasonable relevance, we will notify you and obtain your consent before using your child's personal information.\n",
+        minipack = 0,
+    },
+    [300211] = {
+        id = 300211,
+        text = "0",
+        minipack = 0,
+    },
+    [1705427] = {
+        id = 1705427,
+        text = "허허, 그렇게 내가 보고 싶었어?",
+        minipack = 0,
+    },
+    [61013] = {
+        id = 61013,
+        text = "인벤토리 설명",
+        minipack = 0,
+    },
+    [190001104] = {
+        id = 190001104,
+        text = "Blessing Amulet *3",
+        minipack = 0,
+    },
+    [300212] = {
+        id = 300212,
+        text = "백",
+        minipack = 0,
+    },
+    [409989] = {
+        id = 409989,
+        text = "세피라 상태의 창, 다른 세피라와 비교할 수 없는 힘을 지니고 있다. 세피라는 영광이며, 4개의 랜덤 속성을 지니고 있다.",
+        minipack = 0,
+    },
+    [14210047] = {
+        id = 14210047,
+        text = "12월 1일",
+        minipack = 0,
+    },
+    [190010335] = {
+        id = 190010335,
+        text = "HP 2%손실마다 피해+1%",
+        minipack = 0,
+    },
+    [300213] = {
+        id = 300213,
+        text = "천",
+        minipack = 0,
+    },
+    [15011499] = {
+        id = 15011499,
+        text = "Today's chances left: %s",
+        minipack = 0,
+    },
+    [15011498] = {
+        id = 15011498,
+        text = "1. Players can use Energy Point items to increase the Energy Points in Skill Book.\n\n2. After upgrading the Energy Points, Spirit stats in Bofuri collabo event will be increased correspondingly, and passive skills will be activated after Energy Points reach 25, 50, 100, and will take effect in Bofuri collabo stages after being equipped.\n\n3. Energy Points can be reset and activated skills will be ineffective. \n\n4. Energy Points has a upper limit which will change as time goes.\n Day 1 of the event: 15 Points\n Day 2 of the event: 30 Points\n Day 3 of the event: 45 Points\n Day 4 of the event: 60 Points\n Day 5 of the event: 75 Points\n Day 6 of the event: 90 Points\n Day 7 of the event: 105 Points\n Day 8 of the event: 120 Points\n Day 9 of the event: 135 Points\n Day 10 of the event: 150 Points\n\nEnergy Point Detailed Info: \nSTR: Gets +3 ATK each point.\nVIT: Gets +3 DEF and +0.4% DMG MIT each point.\nAGI: Gets +0.3% ATK Speed each point.\nDEX: Gets +0.3% Hit Rate each point.\nINT: Gets +0.3% Damage each point.",
+        minipack = 0,
+    },
+    [15011497] = {
+        id = 15011497,
+        text = "Skill Book",
         minipack = 0,
     },
     [12031003] = {
@@ -115024,34 +115134,34 @@ return {
         text = "",
         minipack = 0,
     },
-    [1705427] = {
-        id = 1705427,
-        text = "허허, 그렇게 내가 보고 싶었어?",
+    [270729] = {
+        id = 270729,
+        text = "연구 개발 센터는 동아리 레벨을 올리는 장소이고 매일 일정의 퀘스트를 제공합니다. 모두 함께 열심히 퀘스트를 완료하고 동아리 레벨을 올리세요",
         minipack = 0,
     },
-    [61013] = {
-        id = 61013,
-        text = "인벤토리 설명",
+    [15011495] = {
+        id = 15011495,
+        text = "This potion resets all Energy Points in the Bofuri event.",
         minipack = 0,
     },
-    [190001104] = {
-        id = 190001104,
-        text = "Blessing Amulet *3",
+    [190010336] = {
+        id = 190010336,
+        text = "이동속도+15%，5초간 지속",
         minipack = 0,
     },
-    [409989] = {
-        id = 409989,
-        text = "세피라 상태의 창, 다른 세피라와 비교할 수 없는 힘을 지니고 있다. 세피라는 영광이며, 4개의 랜덤 속성을 지니고 있다.",
+    [15011489] = {
+        id = 15011489,
+        text = "Complete the event quest \"Support companions 3 times\" to unlock",
         minipack = 0,
     },
-    [14210047] = {
-        id = 14210047,
-        text = "12월 1일",
+    [213190] = {
+        id = 213190,
+        text = "취소",
         minipack = 0,
     },
-    [190010335] = {
-        id = 190010335,
-        text = "HP 2%손실마다 피해+1%",
+    [14210051] = {
+        id = 14210051,
+        text = "2월 1일",
         minipack = 0,
     },
     [12031107] = {
@@ -115144,9 +115254,9 @@ return {
         text = "",
         minipack = 0,
     },
-    [15011499] = {
-        id = 15011499,
-        text = "Today's chances left: %s",
+    [190010337] = {
+        id = 190010337,
+        text = "DEF-6% for 3s",
         minipack = 0,
     },
     [300222] = {
@@ -115154,19 +115264,19 @@ return {
         text = "요시노",
         minipack = 0,
     },
-    [15011498] = {
-        id = 15011498,
-        text = "1. Players can use Energy Point items to increase the Energy Points in Skill Book.\n\n2. After upgrading the Energy Points, Spirit stats in Bofuri collabo event will be increased correspondingly, and passive skills will be activated after Energy Points reach 25, 50, 100, and will take effect in Bofuri collabo stages after being equipped.\n\n3. Energy Points can be reset and activated skills will be ineffective. \n\n4. Energy Points has a upper limit which will change as time goes.\n Day 1 of the event: 15 Points\n Day 2 of the event: 30 Points\n Day 3 of the event: 45 Points\n Day 4 of the event: 60 Points\n Day 5 of the event: 75 Points\n Day 6 of the event: 90 Points\n Day 7 of the event: 105 Points\n Day 8 of the event: 120 Points\n Day 9 of the event: 135 Points\n Day 10 of the event: 150 Points\n\nEnergy Point Detailed Info: \nSTR: Gets +3 ATK each point.\nVIT: Gets +3 DEF and +0.4% DMG MIT each point.\nAGI: Gets +0.3% ATK Speed each point.\nDEX: Gets +0.3% Hit Rate each point.\nINT: Gets +0.3% Damage each point.",
+    [15011481] = {
+        id = 15011481,
+        text = "Skill Expired",
         minipack = 0,
     },
-    [15011497] = {
-        id = 15011497,
-        text = "Skill Book",
+    [1705423] = {
+        id = 1705423,
+        text = "맛은 그냥 그러네. 특별히 칭찬해줄 만한 것도 없는걸",
         minipack = 0,
     },
-    [270729] = {
-        id = 270729,
-        text = "연구 개발 센터는 동아리 레벨을 올리는 장소이고 매일 일정의 퀘스트를 제공합니다. 모두 함께 열심히 퀘스트를 완료하고 동아리 레벨을 올리세요",
+    [11000964] = {
+        id = 11000964,
+        text = "간지러워...싫어하는건 아니지만",
         minipack = 0,
     },
     [300223] = {
@@ -115174,19 +115284,19 @@ return {
         text = "쿠루미",
         minipack = 0,
     },
-    [15011495] = {
-        id = 15011495,
-        text = "This potion resets all Energy Points in the Bofuri event.",
+    [190010338] = {
+        id = 190010338,
+        text = "DEF-12% for 4s",
         minipack = 0,
     },
-    [190010336] = {
-        id = 190010336,
-        text = "이동속도+15%，5초간 지속",
+    [15011473] = {
+        id = 15011473,
+        text = "Sephira Roulette",
         minipack = 0,
     },
-    [15011489] = {
-        id = 15011489,
-        text = "Complete the event quest \"Support companions 3 times\" to unlock",
+    [409988] = {
+        id = 409988,
+        text = "세피라 상태의 창, 다른 세피라와 비교할 수 없는 힘을 지니고 있다. 세피라는 아름다움이며, 4개의 랜덤 속성을 지니고 있다",
         minipack = 0,
     },
     [300224] = {
@@ -115194,19 +115304,19 @@ return {
         text = "이츠카",
         minipack = 0,
     },
-    [213190] = {
-        id = 213190,
-        text = "취소",
+    [2200602] = {
+        id = 2200602,
+        text = "뇌전광인",
         minipack = 0,
     },
-    [14210051] = {
-        id = 14210051,
-        text = "2월 1일",
+    [190010339] = {
+        id = 190010339,
+        text = "DEF-18% for 5s",
         minipack = 0,
     },
-    [190010337] = {
-        id = 190010337,
-        text = "DEF-6% for 3s",
+    [15011465] = {
+        id = 15011465,
+        text = "Reach 50 VIT to unlock",
         minipack = 0,
     },
     [300225] = {
@@ -115214,9 +115324,9 @@ return {
         text = "야마이",
         minipack = 0,
     },
-    [15011481] = {
-        id = 15011481,
-        text = "Skill Expired",
+    [270728] = {
+        id = 270728,
+        text = "매일 까먹지 말고 공중 투하 보급에서 보급 신청을 하세요. 예상치 못한 서프라이즈가 기다리고 있을지 몰라요",
         minipack = 0,
     },
     [190200019] = {
@@ -115234,19 +115344,19 @@ return {
         text = "미쿠",
         minipack = 0,
     },
-    [1705423] = {
-        id = 1705423,
-        text = "맛은 그냥 그러네. 특별히 칭찬해줄 만한 것도 없는걸",
+    [15011463] = {
+        id = 15011463,
+        text = "Reach 100 AGI to unlock",
         minipack = 0,
     },
-    [11000964] = {
-        id = 11000964,
-        text = "간지러워...싫어하는건 아니지만",
+    [190010340] = {
+        id = 190010340,
+        text = "DEF-24% for 6s",
         minipack = 0,
     },
-    [190010338] = {
-        id = 190010338,
-        text = "DEF-12% for 4s",
+    [15011461] = {
+        id = 15011461,
+        text = "Reach 25 AGI to unlock",
         minipack = 0,
     },
     [300227] = {
@@ -115254,19 +115364,19 @@ return {
         text = "미쿠",
         minipack = 0,
     },
-    [15011473] = {
-        id = 15011473,
-        text = "Sephira Roulette",
+    [15011457] = {
+        id = 15011457,
+        text = "Each point of INT increases Pierce DMG by 0.5%",
         minipack = 0,
     },
-    [409988] = {
-        id = 409988,
-        text = "세피라 상태의 창, 다른 세피라와 비교할 수 없는 힘을 지니고 있다. 세피라는 아름다움이며, 4개의 랜덤 속성을 지니고 있다",
+    [1705420] = {
+        id = 1705420,
+        text = "내가 그렇게 쉽게 넘어갈 줄 알아?",
         minipack = 0,
     },
-    [2200602] = {
-        id = 2200602,
-        text = "뇌전광인",
+    [14210055] = {
+        id = 14210055,
+        text = "4월 1일",
         minipack = 0,
     },
     [300228] = {
@@ -115284,9 +115394,9 @@ return {
         text = "누적 5일 로그인",
         minipack = 0,
     },
-    [190010339] = {
-        id = 190010339,
-        text = "DEF-18% for 5s",
+    [190010341] = {
+        id = 190010341,
+        text = "Stun for 1s",
         minipack = 0,
     },
     [300229] = {
@@ -115294,19 +115404,19 @@ return {
         text = "나츠미",
         minipack = 0,
     },
-    [15011465] = {
-        id = 15011465,
-        text = "Reach 50 VIT to unlock",
+    [15011449] = {
+        id = 15011449,
+        text = "Each point of STR increases Crit DMG by 0.5%",
         minipack = 0,
     },
-    [270728] = {
-        id = 270728,
-        text = "매일 까먹지 말고 공중 투하 보급에서 보급 신청을 하세요. 예상치 못한 서프라이즈가 기다리고 있을지 몰라요",
+    [409987] = {
+        id = 409987,
+        text = "세피라 상태의 창, 다른 세피라와 비교할 수 없는 힘을 지니고 있다. 세피라는 힘이며, 4개의 랜덤 속성을 지니고 있다",
         minipack = 0,
     },
-    [15011463] = {
-        id = 15011463,
-        text = "Reach 100 AGI to unlock",
+    [14210059] = {
+        id = 14210059,
+        text = "6월 1일",
         minipack = 0,
     },
     [300230] = {
@@ -115384,51 +115494,6 @@ return {
         text = "검기 증강",
         minipack = 0,
     },
-    [190010340] = {
-        id = 190010340,
-        text = "DEF-24% for 6s",
-        minipack = 0,
-    },
-    [15011461] = {
-        id = 15011461,
-        text = "Reach 25 AGI to unlock",
-        minipack = 0,
-    },
-    [15011457] = {
-        id = 15011457,
-        text = "Each point of INT increases Pierce DMG by 0.5%",
-        minipack = 0,
-    },
-    [1705420] = {
-        id = 1705420,
-        text = "내가 그렇게 쉽게 넘어갈 줄 알아?",
-        minipack = 0,
-    },
-    [14210055] = {
-        id = 14210055,
-        text = "4월 1일",
-        minipack = 0,
-    },
-    [190010341] = {
-        id = 190010341,
-        text = "Stun for 1s",
-        minipack = 0,
-    },
-    [15011449] = {
-        id = 15011449,
-        text = "Each point of STR increases Crit DMG by 0.5%",
-        minipack = 0,
-    },
-    [409987] = {
-        id = 409987,
-        text = "세피라 상태의 창, 다른 세피라와 비교할 수 없는 힘을 지니고 있다. 세피라는 힘이며, 4개의 랜덤 속성을 지니고 있다",
-        minipack = 0,
-    },
-    [14210059] = {
-        id = 14210059,
-        text = "6월 1일",
-        minipack = 0,
-    },
     [190010342] = {
         id = 190010342,
         text = "치명의 소용돌이 석방한 후 공격력+5%，6초간 지속",
@@ -115479,6 +115544,51 @@ return {
         text = "완료",
         minipack = 0,
     },
+    [15011431] = {
+        id = 15011431,
+        text = "Ais Wallenstein reaches Lv.50",
+        minipack = 0,
+    },
+    [15010245] = {
+        id = 15010245,
+        text = "5층",
+        minipack = 0,
+    },
+    [15011429] = {
+        id = 15011429,
+        text = "[Unbreakable Blade] Set Sephira reaches 6-star",
+        minipack = 0,
+    },
+    [15011425] = {
+        id = 15011425,
+        text = "Gather all the Sephira of any [Unbreakable Blade] Set",
+        minipack = 0,
+    },
+    [409986] = {
+        id = 409986,
+        text = "세피라 상태의 로리 여신, 세피라는 아름다움이며, 4개의 랜덤 속성을 지니고 있다.",
+        minipack = 0,
+    },
+    [266908] = {
+        id = 266908,
+        text = "버블-집사 아이템 획득 시 활성화 가능",
+        minipack = 0,
+    },
+    [190010345] = {
+        id = 190010345,
+        text = "피해 감소 +10%，5초간 지속",
+        minipack = 0,
+    },
+    [15010550] = {
+        id = 15010550,
+        text = "Update Date: 8/26/2021\nTakes Effect: 8/26/2021\n\nAbout Us\nCompany Name: Shanghai Heitao Interactive Network Technology Co. Ltd.\nRegistered Address: 5358 Huyi Road Floor 3 Room J589, Jiading District, Shanghai\n",
+        minipack = 0,
+    },
+    [15010547] = {
+        id = 15010547,
+        text = "3) This game employs a User Real name Verification System. Users verified as minors will receive the following limitations: \nSome in-game modes and items require payments. Users under 8 years of age cannot make payments. Users between 8 and 16 years of age cannot make single transactions exceeding 50 RMB or spend over 200 RMB total in a single month. Minors who are over 16 years of age cannot make single transactions exceeding 100 RMG or spend over 400 RMB total in a single month. \nMinors can only play for 1 hour a day between the times of 20:00-21:00 on Fridays, Saturdays, Sundays and official holidays.",
+        minipack = 0,
+    },
     [190010070] = {
         id = 190010070,
         text = "공격력+30%，10초간 지속",
@@ -115524,9 +115634,9 @@ return {
         text = "Skill DMG +5%",
         minipack = 0,
     },
-    [15010245] = {
-        id = 15010245,
-        text = "5층",
+    [15010544] = {
+        id = 15010544,
+        text = "Age Appropriate Reminder",
         minipack = 0,
     },
     [300241] = {
@@ -115534,9 +115644,9 @@ return {
         text = "DEAD END",
         minipack = 0,
     },
-    [15011429] = {
-        id = 15011429,
-        text = "[Unbreakable Blade] Set Sephira reaches 6-star",
+    [15010543] = {
+        id = 15010543,
+        text = "11. Contact Us",
         minipack = 0,
     },
     [11311006] = {
@@ -115654,19 +115764,19 @@ return {
         text = "TRUTH",
         minipack = 0,
     },
-    [15011425] = {
-        id = 15011425,
-        text = "Gather all the Sephira of any [Unbreakable Blade] Set",
+    [1130495] = {
+        id = 1130495,
+        text = "정령 오리가미 전용, 스킬2 보석 소켓에 장착 가능. 천사 스킬 1개 추가 활성화 가능",
         minipack = 0,
     },
-    [409986] = {
-        id = 409986,
-        text = "세피라 상태의 로리 여신, 세피라는 아름다움이며, 4개의 랜덤 속성을 지니고 있다.",
+    [15010541] = {
+        id = 15010541,
+        text = "9. Changes to Privacy Policy",
         minipack = 0,
     },
-    [266908] = {
-        id = 266908,
-        text = "버블-집사 아이템 획득 시 활성화 가능",
+    [15010539] = {
+        id = 15010539,
+        text = "7. Transfer and managing of children's personal information",
         minipack = 0,
     },
     [300248] = {
@@ -115679,86 +115789,6 @@ return {
         text = "아이스 숏",
         minipack = 0,
     },
-    [190010345] = {
-        id = 190010345,
-        text = "피해 감소 +10%，5초간 지속",
-        minipack = 0,
-    },
-    [15010550] = {
-        id = 15010550,
-        text = "Update Date: 8/26/2021\nTakes Effect: 8/26/2021\n\nAbout Us\nCompany Name: Shanghai Heitao Interactive Network Technology Co. Ltd.\nRegistered Address: 5358 Huyi Road Floor 3 Room J589, Jiading District, Shanghai\n",
-        minipack = 0,
-    },
-    [300249] = {
-        id = 300249,
-        text = "CHANGE",
-        minipack = 0,
-    },
-    [15010547] = {
-        id = 15010547,
-        text = "3) This game employs a User Real name Verification System. Users verified as minors will receive the following limitations: \nSome in-game modes and items require payments. Users under 8 years of age cannot make payments. Users between 8 and 16 years of age cannot make single transactions exceeding 50 RMB or spend over 200 RMB total in a single month. Minors who are over 16 years of age cannot make single transactions exceeding 100 RMG or spend over 400 RMB total in a single month. \nMinors can only play for 1 hour a day between the times of 20:00-21:00 on Fridays, Saturdays, Sundays and official holidays.",
-        minipack = 0,
-    },
-    [15010545] = {
-        id = 15010545,
-        text = "1) This is a 2D side scroller action adventure game suitable for users ages 16 and over. It is recommended that minors play under parental supervision.",
-        minipack = 0,
-    },
-    [15010544] = {
-        id = 15010544,
-        text = "Age Appropriate Reminder",
-        minipack = 0,
-    },
-    [300250] = {
-        id = 300250,
-        text = "ANGEL",
-        minipack = 0,
-    },
-    [190016086] = {
-        id = 190016086,
-        text = "작전·합성",
-        minipack = 0,
-    },
-    [190016214] = {
-        id = 190016214,
-        text = "선홍의 마역",
-        minipack = 0,
-    },
-    [15010543] = {
-        id = 15010543,
-        text = "11. Contact Us",
-        minipack = 0,
-    },
-    [300251] = {
-        id = 300251,
-        text = "데빌",
-        minipack = 0,
-    },
-    [1130495] = {
-        id = 1130495,
-        text = "정령 오리가미 전용, 스킬2 보석 소켓에 장착 가능. 천사 스킬 1개 추가 활성화 가능",
-        minipack = 0,
-    },
-    [15010541] = {
-        id = 15010541,
-        text = "9. Changes to Privacy Policy",
-        minipack = 0,
-    },
-    [111000055] = {
-        id = 111000055,
-        text = "AA급 정령 파편 선택상자",
-        minipack = 0,
-    },
-    [300252] = {
-        id = 300252,
-        text = "DISASTER",
-        minipack = 0,
-    },
-    [15010539] = {
-        id = 15010539,
-        text = "7. Transfer and managing of children's personal information",
-        minipack = 0,
-    },
     [15010538] = {
         id = 15010538,
         text = "6. Deleting children's personal information",
@@ -115767,6 +115797,11 @@ return {
     [15010537] = {
         id = 15010537,
         text = "5. Correction of children's personal information",
+        minipack = 0,
+    },
+    [300249] = {
+        id = 300249,
+        text = "CHANGE",
         minipack = 0,
     },
     [15010536] = {
@@ -115784,19 +115819,29 @@ return {
         text = "나츠미의 연기 스타일 훈련",
         minipack = 0,
     },
+    [300250] = {
+        id = 300250,
+        text = "ANGEL",
+        minipack = 0,
+    },
+    [190016086] = {
+        id = 190016086,
+        text = "작전·합성",
+        minipack = 0,
+    },
+    [190016214] = {
+        id = 190016214,
+        text = "선홍의 마역",
+        minipack = 0,
+    },
     [15010533] = {
         id = 15010533,
         text = "1. The personal information of children that we collect",
         minipack = 0,
     },
-    [190018006] = {
-        id = 190018006,
-        text = "HP 회복",
-        minipack = 0,
-    },
-    [190018134] = {
-        id = 190018134,
-        text = "공격력 +30%，10초간 지속",
+    [300251] = {
+        id = 300251,
+        text = "데빌",
         minipack = 0,
     },
     [1702749] = {
@@ -115809,14 +115854,24 @@ return {
         text = "There are lots of dependable companions in the Maple Tree Guild.",
         minipack = 0,
     },
+    [111000055] = {
+        id = 111000055,
+        text = "AA급 정령 파편 선택상자",
+        minipack = 0,
+    },
+    [300252] = {
+        id = 300252,
+        text = "DISASTER",
+        minipack = 0,
+    },
     [15010167] = {
         id = 15010167,
         text = "남은 다이아 새로 고침 횟수:",
         minipack = 0,
     },
-    [295008] = {
-        id = 295008,
-        text = "Open to select 1 of the following: Moon Festival - Bamboo, Moon Festival - Bunny Love, Moon Festival - Autumn Flower, Moon Festival - Painted Plums, Moon Festival - Cool Dew, Moon Festival - Ink Stone, Moon Festival - Caged Star, Moon Festival - Energy Flow, Moon Festival - Lucid Dream, Moon Festival - Gather Ink.",
+    [3310002] = {
+        id = 3310002,
+        text = "2. 사냥몰이 계획의 한 주기는 월~금요일의 전투 준비 단계, 토~일요일의 정식 도전 단계로 구성됩니다.",
         minipack = 0,
     },
     [14400325] = {
@@ -115842,6 +115897,16 @@ return {
     [14400320] = {
         id = 14400320,
         text = "Now I'm so glad that I decided to give it a try.",
+        minipack = 0,
+    },
+    [190018006] = {
+        id = 190018006,
+        text = "HP 회복",
+        minipack = 0,
+    },
+    [190018134] = {
+        id = 190018134,
+        text = "공격력 +30%，10초간 지속",
         minipack = 0,
     },
     [14400319] = {
@@ -115872,6 +115937,51 @@ return {
     [1000108] = {
         id = 1000108,
         text = "요시노는 이번엔... 이미 다 컸어요. 더 강해졌다구요.",
+        minipack = 0,
+    },
+    [295000] = {
+        id = 295000,
+        text = "Returner Costume Choice Chest",
+        minipack = 0,
+    },
+    [14400309] = {
+        id = 14400309,
+        text = "Just kidding~",
+        minipack = 0,
+    },
+    [14400308] = {
+        id = 14400308,
+        text = "With all this treasure, just call me Queen Maple.",
+        minipack = 0,
+    },
+    [14400306] = {
+        id = 14400306,
+        text = "I'm so lucky today.",
+        minipack = 0,
+    },
+    [14400305] = {
+        id = 14400305,
+        text = "Oh! Is this the legendary Reward Zone?",
+        minipack = 0,
+    },
+    [14400293] = {
+        id = 14400293,
+        text = "What could weird material like this be used for? Let's head back and ask everyone.",
+        minipack = 0,
+    },
+    [14400292] = {
+        id = 14400292,
+        text = "1 Gold...2...3...huh? A debuff? [Curse of the Dead Man's Treasure]?? Ahh?",
+        minipack = 0,
+    },
+    [600031] = {
+        id = 600031,
+        text = "실명 인증 완료",
+        minipack = 0,
+    },
+    [12010041] = {
+        id = 12010041,
+        text = "토카의 음식에 대한 열정은 항상 나를 배부르게 만든다.",
         minipack = 0,
     },
     [1201001] = {
@@ -115959,66 +116069,6 @@ return {
         text = "데빌",
         minipack = 0,
     },
-    [295009] = {
-        id = 295009,
-        text = "3rd Anniversary Essence Choice Chest",
-        minipack = 0,
-    },
-    [14400309] = {
-        id = 14400309,
-        text = "Just kidding~",
-        minipack = 0,
-    },
-    [300263] = {
-        id = 300263,
-        text = "클리포트의 나무",
-        minipack = 0,
-    },
-    [14400308] = {
-        id = 14400308,
-        text = "With all this treasure, just call me Queen Maple.",
-        minipack = 0,
-    },
-    [14400306] = {
-        id = 14400306,
-        text = "I'm so lucky today.",
-        minipack = 0,
-    },
-    [14400305] = {
-        id = 14400305,
-        text = "Oh! Is this the legendary Reward Zone?",
-        minipack = 0,
-    },
-    [300264] = {
-        id = 300264,
-        text = "정령시련",
-        minipack = 0,
-    },
-    [14400293] = {
-        id = 14400293,
-        text = "What could weird material like this be used for? Let's head back and ask everyone.",
-        minipack = 0,
-    },
-    [14400292] = {
-        id = 14400292,
-        text = "1 Gold...2...3...huh? A debuff? [Curse of the Dead Man's Treasure]?? Ahh?",
-        minipack = 0,
-    },
-    [600031] = {
-        id = 600031,
-        text = "실명 인증 완료",
-        minipack = 0,
-    },
-    [300265] = {
-        id = 300265,
-        text = "모의 시련",
-        minipack = 0,
-    },
-    [12010041] = {
-        id = 12010041,
-        text = "토카의 음식에 대한 열정은 항상 나를 배부르게 만든다.",
-        minipack = 0,
-    },
     [14400288] = {
         id = 14400288,
         text = "Oh! Is this the legendary Reward Zone? I'm so lucky today.",
@@ -116029,9 +116079,9 @@ return {
         text = "There are lots of dependable companions in the Maple Tree Guild. You want to join us? Alright!",
         minipack = 0,
     },
-    [300266] = {
-        id = 300266,
-        text = "할로윈 고성 탐험",
+    [300263] = {
+        id = 300263,
+        text = "클리포트의 나무",
         minipack = 0,
     },
     [14400285] = {
@@ -116049,9 +116099,9 @@ return {
         text = "텐구 시",
         minipack = 0,
     },
-    [300267] = {
-        id = 300267,
-        text = "<요시노는 홀로 안개의 숲으로 들어갔습니다. 과연 어떤 이야기가 그녀를 기다리고 있을까요?>",
+    [300264] = {
+        id = 300264,
+        text = "정령시련",
         minipack = 0,
     },
     [14310010] = {
@@ -116069,9 +116119,9 @@ return {
         text = "Commemorative Souvenir",
         minipack = 0,
     },
-    [300268] = {
-        id = 300268,
-        text = "겨울 대작전",
+    [300265] = {
+        id = 300265,
+        text = "모의 시련",
         minipack = 0,
     },
     [14300414] = {
@@ -116089,9 +116139,9 @@ return {
         text = "A special gift box, you can see the glitter of Gems shining through. \nUse it to select a random class-SSS gem skill scroll for any character (including Bofuri characters).",
         minipack = 0,
     },
-    [300269] = {
-        id = 300269,
-        text = "<여러분, 작전을 개시하죠! 화이트 크리스마스를 위해!>",
+    [300266] = {
+        id = 300266,
+        text = "할로윈 고성 탐험",
         minipack = 0,
     },
     [14111436] = {
@@ -116109,9 +116159,9 @@ return {
         text = "Prepare for winter together",
         minipack = 0,
     },
-    [300270] = {
-        id = 300270,
-        text = "핫게임의 비밀",
+    [300267] = {
+        id = 300267,
+        text = "<요시노는 홀로 안개의 숲으로 들어갔습니다. 과연 어떤 이야기가 그녀를 기다리고 있을까요?>",
         minipack = 0,
     },
     [27174] = {
@@ -116122,6 +116172,66 @@ return {
     [13410039] = {
         id = 13410039,
         text = "미획득",
+        minipack = 0,
+    },
+    [190000972] = {
+        id = 190000972,
+        text = "Natsumi CHANGE",
+        minipack = 0,
+    },
+    [300268] = {
+        id = 300268,
+        text = "겨울 대작전",
+        minipack = 0,
+    },
+    [13311622] = {
+        id = 13311622,
+        text = "Harvest together",
+        minipack = 0,
+    },
+    [13311621] = {
+        id = 13311621,
+        text = "Bake ginkgo together",
+        minipack = 0,
+    },
+    [13311620] = {
+        id = 13311620,
+        text = "Bake ginkgo together",
+        minipack = 0,
+    },
+    [300269] = {
+        id = 300269,
+        text = "<여러분, 작전을 개시하죠! 화이트 크리스마스를 위해!>",
+        minipack = 0,
+    },
+    [1706176] = {
+        id = 1706176,
+        text = "데이트? \"전투\"도 아닌 \"데이트\"라고?",
+        minipack = 0,
+    },
+    [800048] = {
+        id = 800048,
+        text = "다이아 부족",
+        minipack = 0,
+    },
+    [13311616] = {
+        id = 13311616,
+        text = "Bake ginkgo together",
+        minipack = 0,
+    },
+    [300270] = {
+        id = 300270,
+        text = "핫게임의 비밀",
+        minipack = 0,
+    },
+    [13311615] = {
+        id = 13311615,
+        text = "Bake ginkgo together",
+        minipack = 0,
+    },
+    [13311614] = {
+        id = 13311614,
+        text = "Bake ginkgo together",
         minipack = 0,
     },
     [15016] = {
@@ -116139,14 +116249,14 @@ return {
         text = "DEM 오리가미 파편, 정령 활성화 또는 정령 능력 강화에 사용한다.",
         minipack = 0,
     },
-    [190000972] = {
-        id = 190000972,
-        text = "Natsumi CHANGE",
+    [13311612] = {
+        id = 13311612,
+        text = "Bake ginkgo together",
         minipack = 0,
     },
-    [13311622] = {
-        id = 13311622,
-        text = "Harvest together",
+    [1706175] = {
+        id = 1706175,
+        text = "헤스티아 호감도 LV2",
         minipack = 0,
     },
     [300272] = {
@@ -116154,14 +116264,14 @@ return {
         text = "사령관의 특훈",
         minipack = 0,
     },
-    [13311621] = {
-        id = 13311621,
-        text = "Bake ginkgo together",
+    [13311609] = {
+        id = 13311609,
+        text = "Bake sweet potatoes together",
         minipack = 0,
     },
-    [13311620] = {
-        id = 13311620,
-        text = "Bake ginkgo together",
+    [190000973] = {
+        id = 190000973,
+        text = "Sharam Gate",
         minipack = 0,
     },
     [11312006] = {
@@ -116234,9 +116344,9 @@ return {
         text = "마궁",
         minipack = 0,
     },
-    [1706176] = {
-        id = 1706176,
-        text = "데이트? \"전투\"도 아닌 \"데이트\"라고?",
+    [13311606] = {
+        id = 13311606,
+        text = "Bake sweet potatoes together",
         minipack = 0,
     },
     [12033003] = {
@@ -116274,14 +116384,14 @@ return {
         text = "CHALLENGE",
         minipack = 0,
     },
-    [800048] = {
-        id = 800048,
-        text = "다이아 부족",
+    [1706174] = {
+        id = 1706174,
+        text = "헤스티아 호감도 LV4",
         minipack = 0,
     },
-    [13311616] = {
-        id = 13311616,
-        text = "Bake ginkgo together",
+    [1706138] = {
+        id = 1706138,
+        text = "히비키 호감도 LV2",
         minipack = 0,
     },
     [60064] = {
@@ -116294,64 +116404,9 @@ return {
         text = "샤람의 문",
         minipack = 0,
     },
-    [13311615] = {
-        id = 13311615,
-        text = "Bake ginkgo together",
-        minipack = 0,
-    },
-    [13311614] = {
-        id = 13311614,
-        text = "Bake ginkgo together",
-        minipack = 0,
-    },
-    [13311612] = {
-        id = 13311612,
-        text = "Bake ginkgo together",
-        minipack = 0,
-    },
-    [300280] = {
-        id = 300280,
-        text = "「현실」의 경계는 어느새 희미해지기 시작했고, 「인계」의 문은 이미 고요하게 열린 후였다...",
-        minipack = 0,
-    },
-    [1706175] = {
-        id = 1706175,
-        text = "헤스티아 호감도 LV2",
-        minipack = 0,
-    },
-    [13311609] = {
-        id = 13311609,
-        text = "Bake sweet potatoes together",
-        minipack = 0,
-    },
-    [190000973] = {
-        id = 190000973,
-        text = "Sharam Gate",
-        minipack = 0,
-    },
-    [13311606] = {
-        id = 13311606,
-        text = "Bake sweet potatoes together",
-        minipack = 0,
-    },
-    [1706174] = {
-        id = 1706174,
-        text = "헤스티아 호감도 LV4",
-        minipack = 0,
-    },
-    [1706138] = {
-        id = 1706138,
-        text = "히비키 호감도 LV2",
-        minipack = 0,
-    },
     [13310236] = {
         id = 13310236,
         text = "Please add New Moon Coins",
-        minipack = 0,
-    },
-    [300282] = {
-        id = 300282,
-        text = "데빌강림",
         minipack = 0,
     },
     [13300462] = {
@@ -116364,14 +116419,14 @@ return {
         text = "Let's dress up and celebrate Mid-Autumn Festival together.",
         minipack = 0,
     },
+    [300280] = {
+        id = 300280,
+        text = "「현실」의 경계는 어느새 희미해지기 시작했고, 「인계」의 문은 이미 고요하게 열린 후였다...",
+        minipack = 0,
+    },
     [13300460] = {
         id = 13300460,
         text = "What's most important on a date is staying happy.",
-        minipack = 0,
-    },
-    [300283] = {
-        id = 300283,
-        text = "개학 특훈",
         minipack = 0,
     },
     [13300459] = {
@@ -116389,11 +116444,6 @@ return {
         text = "If the three of us fell into the water, I would push you and Yuzuru onto the wood board.",
         minipack = 0,
     },
-    [300284] = {
-        id = 300284,
-        text = "<개학과 함께 시작되는 도전, 특훈과 함께 에너지를 되찾으세요!>",
-        minipack = 0,
-    },
     [13300456] = {
         id = 13300456,
         text = "Kotori will get all the exclusive lollipops she wants!",
@@ -116409,9 +116459,9 @@ return {
         text = "Spells will surely work in the Maid Café.",
         minipack = 0,
     },
-    [300285] = {
-        id = 300285,
-        text = "여신강림-퍼플 하트",
+    [300282] = {
+        id = 300282,
+        text = "데빌강림",
         minipack = 0,
     },
     [13300453] = {
@@ -116429,9 +116479,9 @@ return {
         text = "You protect me, and I also want to do all that I can protect you!",
         minipack = 0,
     },
-    [300286] = {
-        id = 300286,
-        text = "여신강림-화이트 하트",
+    [300283] = {
+        id = 300283,
+        text = "개학 특훈",
         minipack = 0,
     },
     [13300450] = {
@@ -116444,19 +116494,14 @@ return {
         text = "[Your Team]: Inflicted with Frailty for a short period after using Dodge (increases damage taken).",
         minipack = 0,
     },
-    [60065] = {
-        id = 60065,
-        text = "진행도 보상",
-        minipack = 0,
-    },
-    [300287] = {
-        id = 300287,
-        text = "마왕의 개선",
-        minipack = 0,
-    },
     [13207515] = {
         id = 13207515,
         text = "[Your Team]: Max HP reduced by 70%. Gain a shield equal to 1.5x of original max HP.",
+        minipack = 0,
+    },
+    [300284] = {
+        id = 300284,
+        text = "<개학과 함께 시작되는 도전, 특훈과 함께 에너지를 되찾으세요!>",
         minipack = 0,
     },
     [1130799] = {
@@ -116469,14 +116514,14 @@ return {
         text = "[Enemy Boss]: Deals more damage as HP decreases, up to +100% DMG.",
         minipack = 0,
     },
-    [300288] = {
-        id = 300288,
-        text = "고성 탐험",
-        minipack = 0,
-    },
     [17066] = {
         id = 17066,
         text = "[최상의 특미] 다양한 녹색 야채를 섞어 만든 음료, 비타민이 가득 들어 있어 건강에 아주 좋다.",
+        minipack = 0,
+    },
+    [300285] = {
+        id = 300285,
+        text = "여신강림-퍼플 하트",
         minipack = 0,
     },
     [13300129] = {
@@ -116489,14 +116534,14 @@ return {
         text = "像熊比熊小，像猫比猫大，竹笋是食粮，密林中安家。(打一动物) ",
         minipack = 0,
     },
-    [300289] = {
-        id = 300289,
-        text = "<핏빛 달 아래 어두운 숲에 자리 잡은 기괴한 고성, 신비한 힘에 끌려간 토카를 구출하라!>",
-        minipack = 0,
-    },
     [13207505] = {
         id = 13207505,
         text = "[Your Team]: Takes 1 stack of Frost every 3s. After reaching 4 stacks, Freeze for a short period. Running will remove Frost effects.",
+        minipack = 0,
+    },
+    [300286] = {
+        id = 300286,
+        text = "여신강림-화이트 하트",
         minipack = 0,
     },
     [13207502] = {
@@ -116509,14 +116554,79 @@ return {
         text = "Shock Orb",
         minipack = 0,
     },
-    [300290] = {
-        id = 300290,
-        text = "선홍의 마역",
+    [60065] = {
+        id = 60065,
+        text = "진행도 보상",
+        minipack = 0,
+    },
+    [300287] = {
+        id = 300287,
+        text = "마왕의 개선",
         minipack = 0,
     },
     [10231163] = {
         id = 10231163,
         text = "[파멸] 크리티컬 피해 10%, 관통 피해 10% 증가.",
+        minipack = 0,
+    },
+    [13300138] = {
+        id = 13300138,
+        text = "요, 요시노의 마음을… 받아주세요… 토카 언니를 위해 준비한 선물이 남아서…",
+        minipack = 0,
+    },
+    [13207410] = {
+        id = 13207410,
+        text = "Molten Core",
+        minipack = 0,
+    },
+    [300288] = {
+        id = 300288,
+        text = "고성 탐험",
+        minipack = 0,
+    },
+    [13207406] = {
+        id = 13207406,
+        text = "Slow Field",
+        minipack = 0,
+    },
+    [10231168] = {
+        id = 10231168,
+        text = "[파멸] 피해 20% 증가.",
+        minipack = 0,
+    },
+    [13300139] = {
+        id = 13300139,
+        text = "하하 이것저것 얻은 게 있는데 너한테 필요할 것 같아서 가져왔어.~",
+        minipack = 0,
+    },
+    [300289] = {
+        id = 300289,
+        text = "<핏빛 달 아래 어두운 숲에 자리 잡은 기괴한 고성, 신비한 힘에 끌려간 토카를 구출하라!>",
+        minipack = 0,
+    },
+    [12010346] = {
+        id = 12010346,
+        text = "책임",
+        minipack = 0,
+    },
+    [13207401] = {
+        id = 13207401,
+        text = "Environment Adaptation",
+        minipack = 0,
+    },
+    [13207318] = {
+        id = 13207318,
+        text = "Defeat All Enemies",
+        minipack = 0,
+    },
+    [300290] = {
+        id = 300290,
+        text = "선홍의 마역",
+        minipack = 0,
+    },
+    [13207317] = {
+        id = 13207317,
+        text = "Bid Maple and Sally Farewell",
         minipack = 0,
     },
     [100000031] = {
@@ -116554,14 +116664,14 @@ return {
         text = "심판의 날개",
         minipack = 0,
     },
-    [13300138] = {
-        id = 13300138,
-        text = "요, 요시노의 마음을… 받아주세요… 토카 언니를 위해 준비한 선물이 남아서…",
+    [2202010] = {
+        id = 2202010,
+        text = "넵튠이 장검을 휘둘러 전방의 적을 공격하고, 총 3회의 참격을 가한다. 스킬이 캐릭터의 공격력의 330%에 해당하는 물리 피해를 입힌다.",
         minipack = 0,
     },
-    [13207410] = {
-        id = 13207410,
-        text = "Molten Core",
+    [13207315] = {
+        id = 13207315,
+        text = "Understand the Outcome",
         minipack = 0,
     },
     [10133008] = {
@@ -116634,51 +116744,6 @@ return {
         text = "반전 토카가 형태 변경 시 현재 형태의 스킬 쿨타임을 3초 감소시킨다. (변경 스킬 자체는 제외).",
         minipack = 0,
     },
-    [13207406] = {
-        id = 13207406,
-        text = "Slow Field",
-        minipack = 0,
-    },
-    [10231168] = {
-        id = 10231168,
-        text = "[파멸] 피해 20% 증가.",
-        minipack = 0,
-    },
-    [13300139] = {
-        id = 13300139,
-        text = "하하 이것저것 얻은 게 있는데 너한테 필요할 것 같아서 가져왔어.~",
-        minipack = 0,
-    },
-    [12010346] = {
-        id = 12010346,
-        text = "책임",
-        minipack = 0,
-    },
-    [13207401] = {
-        id = 13207401,
-        text = "Environment Adaptation",
-        minipack = 0,
-    },
-    [13207318] = {
-        id = 13207318,
-        text = "Defeat All Enemies",
-        minipack = 0,
-    },
-    [13207317] = {
-        id = 13207317,
-        text = "Bid Maple and Sally Farewell",
-        minipack = 0,
-    },
-    [2202010] = {
-        id = 2202010,
-        text = "넵튠이 장검을 휘둘러 전방의 적을 공격하고, 총 3회의 참격을 가한다. 스킬이 캐릭터의 공격력의 330%에 해당하는 물리 피해를 입힌다.",
-        minipack = 0,
-    },
-    [13207315] = {
-        id = 13207315,
-        text = "Understand the Outcome",
-        minipack = 0,
-    },
     [13207314] = {
         id = 13207314,
         text = "Defeat [Reflection]",
@@ -116712,6 +116777,51 @@ return {
     [13207302] = {
         id = 13207302,
         text = "Complete Tutorial Quests",
+        minipack = 0,
+    },
+    [13207301] = {
+        id = 13207301,
+        text = "Retry",
+        minipack = 0,
+    },
+    [13207119] = {
+        id = 13207119,
+        text = "Defeat All Enemies",
+        minipack = 0,
+    },
+    [13207118] = {
+        id = 13207118,
+        text = "Defeat All Enemies",
+        minipack = 0,
+    },
+    [13207117] = {
+        id = 13207117,
+        text = "Bid Maple and Sally Farewell",
+        minipack = 0,
+    },
+    [13207116] = {
+        id = 13207116,
+        text = "Join the Real Offline Event",
+        minipack = 0,
+    },
+    [13207115] = {
+        id = 13207115,
+        text = "Understand the Outcome",
+        minipack = 0,
+    },
+    [13207114] = {
+        id = 13207114,
+        text = "Defeat [Reflection]",
+        minipack = 0,
+    },
+    [13207113] = {
+        id = 13207113,
+        text = "Stay Alive",
+        minipack = 0,
+    },
+    [13207112] = {
+        id = 13207112,
+        text = "Defeat the Mirror Maze Boss",
         minipack = 0,
     },
     [13410006] = {
@@ -116754,14 +116864,14 @@ return {
         text = "CHAP.2",
         minipack = 0,
     },
-    [13207301] = {
-        id = 13207301,
-        text = "Retry",
+    [13207111] = {
+        id = 13207111,
+        text = "Defeat the Mirror Maze Monster",
         minipack = 0,
     },
-    [13207119] = {
-        id = 13207119,
-        text = "Defeat All Enemies",
+    [13207110] = {
+        id = 13207110,
+        text = "Convince Maple and Sally to Help Again",
         minipack = 0,
     },
     [60067] = {
@@ -116779,66 +116889,6 @@ return {
         text = "정령 오리가미 파편",
         minipack = 0,
     },
-    [13207118] = {
-        id = 13207118,
-        text = "Defeat All Enemies",
-        minipack = 0,
-    },
-    [13207117] = {
-        id = 13207117,
-        text = "Bid Maple and Sally Farewell",
-        minipack = 0,
-    },
-    [300304] = {
-        id = 300304,
-        text = "ELITE.1",
-        minipack = 0,
-    },
-    [13207116] = {
-        id = 13207116,
-        text = "Join the Real Offline Event",
-        minipack = 0,
-    },
-    [13207115] = {
-        id = 13207115,
-        text = "Understand the Outcome",
-        minipack = 0,
-    },
-    [13207114] = {
-        id = 13207114,
-        text = "Defeat [Reflection]",
-        minipack = 0,
-    },
-    [300305] = {
-        id = 300305,
-        text = "ELITE.2",
-        minipack = 0,
-    },
-    [13207113] = {
-        id = 13207113,
-        text = "Stay Alive",
-        minipack = 0,
-    },
-    [13207112] = {
-        id = 13207112,
-        text = "Defeat the Mirror Maze Boss",
-        minipack = 0,
-    },
-    [13207111] = {
-        id = 13207111,
-        text = "Defeat the Mirror Maze Monster",
-        minipack = 0,
-    },
-    [300306] = {
-        id = 300306,
-        text = "%s-%s",
-        minipack = 0,
-    },
-    [13207110] = {
-        id = 13207110,
-        text = "Convince Maple and Sally to Help Again",
-        minipack = 0,
-    },
     [13207109] = {
         id = 13207109,
         text = "Join the Offline Event",
@@ -116849,9 +116899,9 @@ return {
         text = "Defeat [Ellen Hamster]",
         minipack = 0,
     },
-    [300307] = {
-        id = 300307,
-        text = "f%s-%s",
+    [300304] = {
+        id = 300304,
+        text = "ELITE.1",
         minipack = 0,
     },
     [13207107] = {
@@ -116864,24 +116914,14 @@ return {
         text = "Lead Everyone to Complete Tutorial Quests",
         minipack = 0,
     },
-    [12034003] = {
-        id = 12034003,
-        text = "3. 카드풀마다 클리어 보상을 설정 한 후 뒤집을 수 있습니다",
-        minipack = 0,
-    },
-    [12034011] = {
-        id = 12034011,
-        text = "수정 열쇠",
-        minipack = 0,
-    },
-    [12034019] = {
-        id = 12034019,
-        text = "",
-        minipack = 0,
-    },
     [13207105] = {
         id = 13207105,
         text = "Discuss a Strategy with Kotori",
+        minipack = 0,
+    },
+    [300305] = {
+        id = 300305,
+        text = "ELITE.2",
         minipack = 0,
     },
     [13207104] = {
@@ -116899,6 +116939,11 @@ return {
         text = "Complete Tutorial Quests",
         minipack = 0,
     },
+    [300306] = {
+        id = 300306,
+        text = "%s-%s",
+        minipack = 0,
+    },
     [13207101] = {
         id = 13207101,
         text = "Retry",
@@ -116914,6 +116959,11 @@ return {
         text = "Stage Clear Conditions",
         minipack = 0,
     },
+    [300307] = {
+        id = 300307,
+        text = "f%s-%s",
+        minipack = 0,
+    },
     [13206917] = {
         id = 13206917,
         text = "Bid Maple and Sally Farewell",
@@ -116924,14 +116974,19 @@ return {
         text = "Join the Real Offline Event",
         minipack = 0,
     },
-    [60068] = {
-        id = 60068,
-        text = "신물 유대",
+    [12034003] = {
+        id = 12034003,
+        text = "3. 카드풀마다 클리어 보상을 설정 한 후 뒤집을 수 있습니다",
         minipack = 0,
     },
-    [300311] = {
-        id = 300311,
-        text = "LV.1",
+    [12034011] = {
+        id = 12034011,
+        text = "수정 열쇠",
+        minipack = 0,
+    },
+    [12034019] = {
+        id = 12034019,
+        text = "",
         minipack = 0,
     },
     [13300160] = {
@@ -116949,11 +117004,6 @@ return {
         text = "Stay Alive",
         minipack = 0,
     },
-    [300312] = {
-        id = 300312,
-        text = "LV.2",
-        minipack = 0,
-    },
     [13206912] = {
         id = 13206912,
         text = "Defeat the Mirror Maze Boss",
@@ -116967,11 +117017,6 @@ return {
     [13206909] = {
         id = 13206909,
         text = "Join the Offline Event",
-        minipack = 0,
-    },
-    [300313] = {
-        id = 300313,
-        text = "LV.3",
         minipack = 0,
     },
     [13206908] = {
@@ -116989,9 +117034,14 @@ return {
         text = "Lead Everyone to Complete Tutorial Quests",
         minipack = 0,
     },
-    [300314] = {
-        id = 300314,
-        text = "LV.4",
+    [60068] = {
+        id = 60068,
+        text = "신물 유대",
+        minipack = 0,
+    },
+    [300311] = {
+        id = 300311,
+        text = "LV.1",
         minipack = 0,
     },
     [13206905] = {
@@ -117009,9 +117059,9 @@ return {
         text = "Complete Tutorial Quests",
         minipack = 0,
     },
-    [300315] = {
-        id = 300315,
-        text = "LV.5",
+    [300312] = {
+        id = 300312,
+        text = "LV.2",
         minipack = 0,
     },
     [13206719] = {
@@ -117029,9 +117079,9 @@ return {
         text = "The offline event comes to a successful conclusion!",
         minipack = 0,
     },
-    [300316] = {
-        id = 300316,
-        text = "LV.6",
+    [300313] = {
+        id = 300313,
+        text = "LV.3",
         minipack = 0,
     },
     [13206716] = {
@@ -117049,6 +117099,11 @@ return {
         text = "Final Blow!",
         minipack = 0,
     },
+    [300314] = {
+        id = 300314,
+        text = "LV.4",
+        minipack = 0,
+    },
     [13206713] = {
         id = 13206713,
         text = "A new and powerful enemy has appeared, it's...?!",
@@ -117064,6 +117119,11 @@ return {
         text = "Offline instance challenge, begin!",
         minipack = 0,
     },
+    [300315] = {
+        id = 300315,
+        text = "LV.5",
+        minipack = 0,
+    },
     [13206710] = {
         id = 13206710,
         text = "So that's the kind of character you are!",
@@ -117077,6 +117137,56 @@ return {
     [13206708] = {
         id = 13206708,
         text = "I don't need help against the [Old Acquaintance] this time.",
+        minipack = 0,
+    },
+    [300316] = {
+        id = 300316,
+        text = "LV.6",
+        minipack = 0,
+    },
+    [13206707] = {
+        id = 13206707,
+        text = "Team Commander Natsumi, reporting in!",
+        minipack = 0,
+    },
+    [13206706] = {
+        id = 13206706,
+        text = "To discover the truth and thwart a conspiracy, begin your training!",
+        minipack = 0,
+    },
+    [13206704] = {
+        id = 13206704,
+        text = "That was a fun encounter, let's be friends!",
+        minipack = 0,
+    },
+    [13206703] = {
+        id = 13206703,
+        text = "With the help of two friendly players, we defeated the [Old Acquaintance].",
+        minipack = 0,
+    },
+    [13206702] = {
+        id = 13206702,
+        text = "My first time in NewWorld Online, and I ran into——",
+        minipack = 0,
+    },
+    [13206701] = {
+        id = 13206701,
+        text = "All of the Spirits have been playing this game lately, want to try it?",
+        minipack = 0,
+    },
+    [13206502] = {
+        id = 13206502,
+        text = "Escaped",
+        minipack = 0,
+    },
+    [13206501] = {
+        id = 13206501,
+        text = "Reduce HP to %s",
+        minipack = 0,
+    },
+    [17000229] = {
+        id = 17000229,
+        text = "二踢脚",
         minipack = 0,
     },
     [112000104] = {
@@ -117104,9 +117214,9 @@ return {
         text = "학습학습",
         minipack = 0,
     },
-    [13206703] = {
-        id = 13206703,
-        text = "With the help of two friendly players, we defeated the [Old Acquaintance].",
+    [12010338] = {
+        id = 12010338,
+        text = "외침",
         minipack = 0,
     },
     [300320] = {
@@ -117114,19 +117224,19 @@ return {
         text = "초급",
         minipack = 0,
     },
-    [13206702] = {
-        id = 13206702,
-        text = "My first time in NewWorld Online, and I ran into——",
+    [13206071] = {
+        id = 13206071,
+        text = "DMG Boards Overall",
         minipack = 0,
     },
-    [13206701] = {
-        id = 13206701,
-        text = "All of the Spirits have been playing this game lately, want to try it?",
+    [13206070] = {
+        id = 13206070,
+        text = "Updates every 5m",
         minipack = 0,
     },
-    [13206502] = {
-        id = 13206502,
-        text = "Escaped",
+    [1020822] = {
+        id = 1020822,
+        text = "피부가 늘어진 것 같아~",
         minipack = 0,
     },
     [300321] = {
@@ -117134,19 +117244,19 @@ return {
         text = "중급",
         minipack = 0,
     },
-    [13206501] = {
-        id = 13206501,
-        text = "Reduce HP to %s",
+    [13300261] = {
+        id = 13300261,
+        text = "행동력",
         minipack = 0,
     },
-    [17000229] = {
-        id = 17000229,
-        text = "二踢脚",
+    [17000231] = {
+        id = 17000231,
+        text = "汤圆",
         minipack = 0,
     },
-    [13206078] = {
-        id = 13206078,
-        text = "%sh %sm %ss",
+    [13206064] = {
+        id = 13206064,
+        text = "Challenge Chances: %s",
         minipack = 0,
     },
     [1660001] = {
@@ -117214,9 +117324,9 @@ return {
         text = "헬",
         minipack = 0,
     },
-    [13206076] = {
-        id = 13206076,
-        text = "Confirm to reset?",
+    [13206062] = {
+        id = 13206062,
+        text = "Current Reward",
         minipack = 0,
     },
     [12100106] = {
@@ -117429,51 +117539,6 @@ return {
         text = "a new date ending of Kaguya",
         minipack = 0,
     },
-    [13300259] = {
-        id = 13300259,
-        text = "정령들이 나눠 먹기에 케이크 하나로는 부족해…",
-        minipack = 0,
-    },
-    [12010338] = {
-        id = 12010338,
-        text = "외침",
-        minipack = 0,
-    },
-    [13206071] = {
-        id = 13206071,
-        text = "DMG Boards Overall",
-        minipack = 0,
-    },
-    [13206070] = {
-        id = 13206070,
-        text = "Updates every 5m",
-        minipack = 0,
-    },
-    [1020822] = {
-        id = 1020822,
-        text = "피부가 늘어진 것 같아~",
-        minipack = 0,
-    },
-    [13300261] = {
-        id = 13300261,
-        text = "행동력",
-        minipack = 0,
-    },
-    [17000231] = {
-        id = 17000231,
-        text = "汤圆",
-        minipack = 0,
-    },
-    [13206064] = {
-        id = 13206064,
-        text = "Challenge Chances: %s",
-        minipack = 0,
-    },
-    [13206062] = {
-        id = 13206062,
-        text = "Current Reward",
-        minipack = 0,
-    },
     [1020821] = {
         id = 1020821,
         text = "어이~ 나도 연애하고 싶단 말이야.",
@@ -117487,26 +117552,6 @@ return {
     [16004] = {
         id = 16004,
         text = "셰키나·토카 파편, 정령 활성화 또는 정령 능력 강화에 사용한다.",
-        minipack = 0,
-    },
-    [12035003] = {
-        id = 12035003,
-        text = "강적: 마왕 사탄",
-        minipack = 0,
-    },
-    [12035011] = {
-        id = 12035011,
-        text = "1. [태양의 시련] 이벤트에서는 새로운 도전 모드가 오픈됩니다. 멀티 플레이 작전을 통해 시련 목표를 달성하세요",
-        minipack = 0,
-    },
-    [12035019] = {
-        id = 12035019,
-        text = "중급 태양의 훈장",
-        minipack = 0,
-    },
-    [12035027] = {
-        id = 12035027,
-        text = "",
         minipack = 0,
     },
     [13206057] = {
@@ -117547,6 +117592,71 @@ return {
     [13206046] = {
         id = 13206046,
         text = "Hit %s for %s DMG and knocked back",
+        minipack = 0,
+    },
+    [13206044] = {
+        id = 13206044,
+        text = "Start Date",
+        minipack = 0,
+    },
+    [12035003] = {
+        id = 12035003,
+        text = "강적: 마왕 사탄",
+        minipack = 0,
+    },
+    [12035011] = {
+        id = 12035011,
+        text = "1. [태양의 시련] 이벤트에서는 새로운 도전 모드가 오픈됩니다. 멀티 플레이 작전을 통해 시련 목표를 달성하세요",
+        minipack = 0,
+    },
+    [12035019] = {
+        id = 12035019,
+        text = "중급 태양의 훈장",
+        minipack = 0,
+    },
+    [12035027] = {
+        id = 12035027,
+        text = "",
+        minipack = 0,
+    },
+    [13300264] = {
+        id = 13300264,
+        text = "생일 대작전 이벤트에서 생일 상점의 상품을 교환할 때 사용됨",
+        minipack = 0,
+    },
+    [17000234] = {
+        id = 17000234,
+        text = "圆圆的脸蛋，红红的身体，天气再冷，也只穿一层冰衣（打一食物）",
+        minipack = 0,
+    },
+    [13206038] = {
+        id = 13206038,
+        text = "% Unlocked",
+        minipack = 0,
+    },
+    [63805] = {
+        id = 63805,
+        text = "전편",
+        minipack = 0,
+    },
+    [13300265] = {
+        id = 13300265,
+        text = "공주 휘장",
+        minipack = 0,
+    },
+    [13205577] = {
+        id = 13205577,
+        text = "DMG and HP +6%",
+        minipack = 0,
+    },
+    [13205574] = {
+        id = 13205574,
+        text = "Sally Skill Intro - Difficulty 11",
+        minipack = 0,
+    },
+    [1020723] = {
+        id = 1020723,
+        text = "정말 가까이하고 싶지 않아!",
         minipack = 0,
     },
     [10921004] = {
@@ -117699,56 +117809,6 @@ return {
         text = "Pick up giftbox 40 times (Unlock at Lv.21 Park Pass)",
         minipack = 0,
     },
-    [13206044] = {
-        id = 13206044,
-        text = "Start Date",
-        minipack = 0,
-    },
-    [13300264] = {
-        id = 13300264,
-        text = "생일 대작전 이벤트에서 생일 상점의 상품을 교환할 때 사용됨",
-        minipack = 0,
-    },
-    [17000234] = {
-        id = 17000234,
-        text = "圆圆的脸蛋，红红的身体，天气再冷，也只穿一层冰衣（打一食物）",
-        minipack = 0,
-    },
-    [13206038] = {
-        id = 13206038,
-        text = "% Unlocked",
-        minipack = 0,
-    },
-    [63805] = {
-        id = 63805,
-        text = "전편",
-        minipack = 0,
-    },
-    [60073] = {
-        id = 60073,
-        text = "초콜릿 대작전",
-        minipack = 0,
-    },
-    [13300265] = {
-        id = 13300265,
-        text = "공주 휘장",
-        minipack = 0,
-    },
-    [13205577] = {
-        id = 13205577,
-        text = "DMG and HP +6%",
-        minipack = 0,
-    },
-    [13205574] = {
-        id = 13205574,
-        text = "Sally Skill Intro - Difficulty 11",
-        minipack = 0,
-    },
-    [1020723] = {
-        id = 1020723,
-        text = "정말 가까이하고 싶지 않아!",
-        minipack = 0,
-    },
     [13300317] = {
         id = 13300317,
         text = "코토리의 계획",
@@ -117774,9 +117834,59 @@ return {
         text = "零花钱",
         minipack = 0,
     },
+    [60073] = {
+        id = 60073,
+        text = "초콜릿 대작전",
+        minipack = 0,
+    },
     [13205342] = {
         id = 13205342,
         text = "Supply Spot",
+        minipack = 0,
+    },
+    [13205340] = {
+        id = 13205340,
+        text = "Supply Spot",
+        minipack = 0,
+    },
+    [13205339] = {
+        id = 13205339,
+        text = "Supply Spot",
+        minipack = 0,
+    },
+    [17000321] = {
+        id = 17000321,
+        text = "压岁钱",
+        minipack = 0,
+    },
+    [13205334] = {
+        id = 13205334,
+        text = "ep.14",
+        minipack = 0,
+    },
+    [13205333] = {
+        id = 13205333,
+        text = "ep.13",
+        minipack = 0,
+    },
+    [13205332] = {
+        id = 13205332,
+        text = "ep.12",
+        minipack = 0,
+    },
+    [13205331] = {
+        id = 13205331,
+        text = "ep.11",
+        minipack = 0,
+    },
+    [17000323] = {
+        id = 17000323,
+        text = "蛇",
+        minipack = 0,
+    },
+    [13205327] = {
+        id = 13205327,
+        text = "ep.7",
         minipack = 0,
     },
     [12101002] = {
@@ -117819,61 +117929,6 @@ return {
         text = "6. 할로윈 미니게임인 카드매치는 두 장의 같은 카드를 뒤집어야 성공으로 간주하며, 성공 횟수를 누적하면 해당하는 보상을 수령할 수 있습니다.",
         minipack = 0,
     },
-    [13205340] = {
-        id = 13205340,
-        text = "Supply Spot",
-        minipack = 0,
-    },
-    [13205339] = {
-        id = 13205339,
-        text = "Supply Spot",
-        minipack = 0,
-    },
-    [17000321] = {
-        id = 17000321,
-        text = "压岁钱",
-        minipack = 0,
-    },
-    [13205334] = {
-        id = 13205334,
-        text = "ep.14",
-        minipack = 0,
-    },
-    [13205333] = {
-        id = 13205333,
-        text = "ep.13",
-        minipack = 0,
-    },
-    [12101106] = {
-        id = 12101106,
-        text = "◆ Greatly increases characters' battle skill CD",
-        minipack = 0,
-    },
-    [12101114] = {
-        id = 12101114,
-        text = "",
-        minipack = 0,
-    },
-    [13205332] = {
-        id = 13205332,
-        text = "ep.12",
-        minipack = 0,
-    },
-    [13205331] = {
-        id = 13205331,
-        text = "ep.11",
-        minipack = 0,
-    },
-    [17000323] = {
-        id = 17000323,
-        text = "蛇",
-        minipack = 0,
-    },
-    [13205327] = {
-        id = 13205327,
-        text = "ep.7",
-        minipack = 0,
-    },
     [13205326] = {
         id = 13205326,
         text = "ep.6",
@@ -117882,11 +117937,6 @@ return {
     [10303044] = {
         id = 10303044,
         text = "[극한 송곳] 스킬 관통률 +5%.",
-        minipack = 0,
-    },
-    [60074] = {
-        id = 60074,
-        text = "특훈 규정",
         minipack = 0,
     },
     [13205323] = {
@@ -117902,6 +117952,16 @@ return {
     [13205318] = {
         id = 13205318,
         text = "Story.18",
+        minipack = 0,
+    },
+    [12101106] = {
+        id = 12101106,
+        text = "◆ Greatly increases characters' battle skill CD",
+        minipack = 0,
+    },
+    [12101114] = {
+        id = 12101114,
+        text = "",
         minipack = 0,
     },
     [13205316] = {
@@ -117932,6 +117992,11 @@ return {
     [13300343] = {
         id = 13300343,
         text = "사격 시합",
+        minipack = 0,
+    },
+    [60074] = {
+        id = 60074,
+        text = "특훈 규정",
         minipack = 0,
     },
     [12010332] = {
@@ -118039,6 +118104,51 @@ return {
         text = "Recover 2 <Morale> per second while in battle. This effect doubles when under 50% HP.",
         minipack = 0,
     },
+    [11261228] = {
+        id = 11261228,
+        text = "ATK Bonus -75%, DEF +150%. Each point of DEF provides 0.01% Crit DMG and 0.01% Pierce DMG.",
+        minipack = 0,
+    },
+    [11261227] = {
+        id = 11261227,
+        text = "[Deus Ex Machina - Cannon Shot] DMG +20%. While casting, DMG increases by 10% per second up to +30%. When casting ends, this DMG bonus is lost.",
+        minipack = 0,
+    },
+    [11261226] = {
+        id = 11261226,
+        text = "[Loving Sacrifice] reduces DMG dealt by 10% and increases both DEF and Damage Immunity by 10% for 8s.",
+        minipack = 0,
+    },
+    [11261225] = {
+        id = 11261225,
+        text = "[Deus Ex Machina - Cannon Shot] reduces Maple's Damage Immunity by 15% while the skill is casting, but increases DEF by 10% when casting completes. This effect stacks up to 3 times and lasts until the end of battle.",
+        minipack = 0,
+    },
+    [11261224] = {
+        id = 11261224,
+        text = "When [Deus Ex Machina - Cannon Shot] deals 3 consecutive blows to the target, it deals extra Pure DMG equal to 100% of DMG dealt on the 3rd hit.",
+        minipack = 0,
+    },
+    [190200005] = {
+        id = 190200005,
+        text = "Unlock the 4th jigsaw piece",
+        minipack = 0,
+    },
+    [11261222] = {
+        id = 11261222,
+        text = "When [Hydra] damages a target, it deals +5% DMG the next time it deals damage. This effect lasts for 2s and can stack up to 4 times.",
+        minipack = 0,
+    },
+    [11261221] = {
+        id = 11261221,
+        text = "[Hydra] venom pools reduce the [Hydra] skill CD by 0.5s every time they damage a target.",
+        minipack = 0,
+    },
+    [11261220] = {
+        id = 11261220,
+        text = "[Deus Ex Machina - Cannon Shot] DMG +20%.",
+        minipack = 0,
+    },
     [190010071] = {
         id = 190010071,
         text = "형태 전환 후，공격력+4%，10초간 지속",
@@ -118084,19 +118194,19 @@ return {
         text = "Pierce DMG +30%",
         minipack = 0,
     },
-    [11261227] = {
-        id = 11261227,
-        text = "[Deus Ex Machina - Cannon Shot] DMG +20%. While casting, DMG increases by 10% per second up to +30%. When casting ends, this DMG bonus is lost.",
+    [11261218] = {
+        id = 11261218,
+        text = "[Deus Ex Machina - Cannon Shot] DMG +10%.",
         minipack = 0,
     },
-    [11261226] = {
-        id = 11261226,
-        text = "[Loving Sacrifice] reduces DMG dealt by 10% and increases both DEF and Damage Immunity by 10% for 8s.",
+    [11261217] = {
+        id = 11261217,
+        text = "[Deus Ex Machina - Cannon Shot] DMG +5%.",
         minipack = 0,
     },
-    [11261225] = {
-        id = 11261225,
-        text = "[Deus Ex Machina - Cannon Shot] reduces Maple's Damage Immunity by 15% while the skill is casting, but increases DEF by 10% when casting completes. This effect stacks up to 3 times and lasts until the end of battle.",
+    [11261216] = {
+        id = 11261216,
+        text = "[Deus Ex Machina - Cannon Shot] consumes +30 <Morale> per second but deals +100% DMG.",
         minipack = 0,
     },
     [10201007] = {
@@ -118169,56 +118279,6 @@ return {
         text = "전투 흡수",
         minipack = 0,
     },
-    [11261224] = {
-        id = 11261224,
-        text = "When [Deus Ex Machina - Cannon Shot] deals 3 consecutive blows to the target, it deals extra Pure DMG equal to 100% of DMG dealt on the 3rd hit.",
-        minipack = 0,
-    },
-    [190200005] = {
-        id = 190200005,
-        text = "Unlock the 4th jigsaw piece",
-        minipack = 0,
-    },
-    [11261222] = {
-        id = 11261222,
-        text = "When [Hydra] damages a target, it deals +5% DMG the next time it deals damage. This effect lasts for 2s and can stack up to 4 times.",
-        minipack = 0,
-    },
-    [11261221] = {
-        id = 11261221,
-        text = "[Hydra] venom pools reduce the [Hydra] skill CD by 0.5s every time they damage a target.",
-        minipack = 0,
-    },
-    [11261220] = {
-        id = 11261220,
-        text = "[Deus Ex Machina - Cannon Shot] DMG +20%.",
-        minipack = 0,
-    },
-    [11261219] = {
-        id = 11261219,
-        text = "[Deus Ex Machina - Cannon Shot] DMG +15%.",
-        minipack = 0,
-    },
-    [11261218] = {
-        id = 11261218,
-        text = "[Deus Ex Machina - Cannon Shot] DMG +10%.",
-        minipack = 0,
-    },
-    [60076] = {
-        id = 60076,
-        text = "시공을 초월한 다시 만남",
-        minipack = 0,
-    },
-    [11261217] = {
-        id = 11261217,
-        text = "[Deus Ex Machina - Cannon Shot] DMG +5%.",
-        minipack = 0,
-    },
-    [11261216] = {
-        id = 11261216,
-        text = "[Deus Ex Machina - Cannon Shot] consumes +30 <Morale> per second but deals +100% DMG.",
-        minipack = 0,
-    },
     [11261215] = {
         id = 11261215,
         text = "[Deus Ex Machina - Cannon Shot] Crit DMG +20%.",
@@ -118232,11 +118292,6 @@ return {
     [11261213] = {
         id = 11261213,
         text = "[Deus Ex Machina - Cannon Shot] Crit DMG +10%.",
-        minipack = 0,
-    },
-    [190015063] = {
-        id = 190015063,
-        text = "빙하 폭발",
         minipack = 0,
     },
     [11261212] = {
@@ -118259,6 +118314,11 @@ return {
         text = "[Deus Ex Machina - Cannon Shot] deals +0.1% DMG for every point of <Morale> Maple has when the skill is cast.",
         minipack = 0,
     },
+    [60076] = {
+        id = 60076,
+        text = "시공을 초월한 다시 만남",
+        minipack = 0,
+    },
     [11261208] = {
         id = 11261208,
         text = "[Deus Ex Machina - Cannon Shot] attacks create a Scorch Zone that lasts for 2s and inflicts Dark DMG equal to 200% of character ATK per hit.",
@@ -118274,16 +118334,6 @@ return {
         text = "[Deus Ex Machina - Cannon Shot] deals +15% DMG to slowed targets.",
         minipack = 0,
     },
-    [190016087] = {
-        id = 190016087,
-        text = "작전·보급",
-        minipack = 0,
-    },
-    [190016215] = {
-        id = 190016215,
-        text = "마왕의 개선",
-        minipack = 0,
-    },
     [11261205] = {
         id = 11261205,
         text = "[Deus Ex Machina - Cannon Shot] deals +10% DMG to slowed targets.",
@@ -118292,6 +118342,11 @@ return {
     [11261204] = {
         id = 11261204,
         text = "[Deus Ex Machina - Cannon Shot] Inflicts +15% DMG to bosses.",
+        minipack = 0,
+    },
+    [190015063] = {
+        id = 190015063,
+        text = "빙하 폭발",
         minipack = 0,
     },
     [11261203] = {
@@ -118329,6 +118384,16 @@ return {
         text = "[Deus Ex Machina - Cannon Shot] Crit Rate +2%.",
         minipack = 0,
     },
+    [190016087] = {
+        id = 190016087,
+        text = "작전·보급",
+        minipack = 0,
+    },
+    [190016215] = {
+        id = 190016215,
+        text = "마왕의 개선",
+        minipack = 0,
+    },
     [11261196] = {
         id = 11261196,
         text = "[Loving Sacrifice] Predator DMG +25%.",
@@ -118349,24 +118414,9 @@ return {
         text = "[Loving Sacrifice] Predator DMG +10%.",
         minipack = 0,
     },
-    [190018007] = {
-        id = 190018007,
-        text = "에너지 회복",
-        minipack = 0,
-    },
-    [190018135] = {
-        id = 190018135,
-        text = "크리티컬 피해 +5%，5초간 지속，최대 3단계 중첩 가능",
-        minipack = 0,
-    },
     [11261192] = {
         id = 11261192,
         text = "[Loving Sacrifice] skill enhancement. AoE +10%.",
-        minipack = 0,
-    },
-    [60077] = {
-        id = 60077,
-        text = "기억 파편",
         minipack = 0,
     },
     [11261191] = {
@@ -118409,9 +118459,24 @@ return {
         text = "[Loving Sacrifice] skill enhancement. Predators affected by this skill gain +20% ATK Speed and deal +75% DMG.",
         minipack = 0,
     },
+    [190018007] = {
+        id = 190018007,
+        text = "에너지 회복",
+        minipack = 0,
+    },
+    [190018135] = {
+        id = 190018135,
+        text = "크리티컬 피해 +5%，5초간 지속，최대 3단계 중첩 가능",
+        minipack = 0,
+    },
     [11261183] = {
         id = 11261183,
         text = "[Loving Sacrifice] increases the amount of <Morale> Maple recovers when hit by an attack by 3.",
+        minipack = 0,
+    },
+    [60077] = {
+        id = 60077,
+        text = "기억 파편",
         minipack = 0,
     },
     [11261182] = {
@@ -118684,19 +118749,9 @@ return {
         text = "[Aegis Strike] Inflicts +6% DMG to bosses.",
         minipack = 0,
     },
-    [15020] = {
-        id = 15020,
-        text = "공간진에 의해 발생한 물질, 비교적 강한 영력을 지니고 있으며, 정령 돌파에 사용한다.",
-        minipack = 0,
-    },
     [11261128] = {
         id = 11261128,
         text = "[Aegis Strike] Unlocks the 4th attack: casts Paralyzing Shout and Deadly Breath. Deals total Dark DMG equal to 1,380% of character ATK.",
-        minipack = 0,
-    },
-    [16044] = {
-        id = 16044,
-        text = "반전 오리가미 파편, 정령 활성화 또는 정령 능력 강화에 사용한다.",
         minipack = 0,
     },
     [11261127] = {
@@ -118729,11 +118784,6 @@ return {
         text = "Concentration",
         minipack = 0,
     },
-    [300401] = {
-        id = 300401,
-        text = "< 봄 방학이 끝나고 학교로 돌아가는 날, 평범했던 하루는 '정령'이라 불리는 소녀로 인해 산산이 파편나고 말았다. >",
-        minipack = 0,
-    },
     [11261117] = {
         id = 11261117,
         text = "Gift of Darkness",
@@ -118744,14 +118794,19 @@ return {
         text = "Meditation",
         minipack = 0,
     },
+    [15020] = {
+        id = 15020,
+        text = "공간진에 의해 발생한 물질, 비교적 강한 영력을 지니고 있으며, 정령 돌파에 사용한다.",
+        minipack = 0,
+    },
     [11261115] = {
         id = 11261115,
         text = "Stout Guardian",
         minipack = 0,
     },
-    [300402] = {
-        id = 300402,
-        text = "4월 10일, 원래라면 아무런 색채도 띠지 않았을 평범한 하루. 소녀의 등장은 이날에 특별한 의미를 부여했다... (본 텍스트 미사용)",
+    [16044] = {
+        id = 16044,
+        text = "반전 오리가미 파편, 정령 활성화 또는 정령 능력 강화에 사용한다.",
         minipack = 0,
     },
     [11261114] = {
@@ -118769,11 +118824,6 @@ return {
         text = "Absolute Defense",
         minipack = 0,
     },
-    [300403] = {
-        id = 300403,
-        text = "< 비가 쏟아지는 신사의 참배길, 도자기 인형처럼 아름다운 소녀는 기괴한 토끼 인형을 들고 있었다. >",
-        minipack = 0,
-    },
     [11261111] = {
         id = 11261111,
         text = "Energy Cannon",
@@ -118789,9 +118839,9 @@ return {
         text = "Destruction Growth",
         minipack = 0,
     },
-    [300404] = {
-        id = 300404,
-        text = "비록 이 세계에계 부정당하고, 거절당하고, 살의의 표적이 되더라도, 남을 상처입히길 원치 않는 상냥한 소녀, 반드시 저 아이를 구하고 싶어!",
+    [300401] = {
+        id = 300401,
+        text = "< 봄 방학이 끝나고 학교로 돌아가는 날, 평범했던 하루는 '정령'이라 불리는 소녀로 인해 산산이 파편나고 말았다. >",
         minipack = 0,
     },
     [11261108] = {
@@ -118809,9 +118859,9 @@ return {
         text = "Deadly Poison",
         minipack = 0,
     },
-    [300405] = {
-        id = 300405,
-        text = "< '저는 정령이에요' 전학생 쿠루미는 갑작스럽게 충격적인 자기소개의 말을 꺼냈다. >",
+    [300402] = {
+        id = 300402,
+        text = "4월 10일, 원래라면 아무런 색채도 띠지 않았을 평범한 하루. 소녀의 등장은 이날에 특별한 의미를 부여했다... (본 텍스트 미사용)",
         minipack = 0,
     },
     [11261105] = {
@@ -118829,9 +118879,9 @@ return {
         text = "Enhance",
         minipack = 0,
     },
-    [300406] = {
-        id = 300406,
-        text = "인류를 죽이는 소녀, 그리고 정령을 죽이는 소녀, 이 악몽을 어떻게 하면 끊을 수 있을까?",
+    [300403] = {
+        id = 300403,
+        text = "< 비가 쏟아지는 신사의 참배길, 도자기 인형처럼 아름다운 소녀는 기괴한 토끼 인형을 들고 있었다. >",
         minipack = 0,
     },
     [11261102] = {
@@ -118849,9 +118899,9 @@ return {
         text = "Deus Ex Machina - Cannon Shot - Final",
         minipack = 0,
     },
-    [300407] = {
-        id = 300407,
-        text = "< 위급한 순간 하늘에서 떨어진 불의 정령, 시간을 관통하는 화염의 배후에는 어떤 잊혀진 기억이 있을까?>",
+    [300404] = {
+        id = 300404,
+        text = "비록 이 세계에계 부정당하고, 거절당하고, 살의의 표적이 되더라도, 남을 상처입히길 원치 않는 상냥한 소녀, 반드시 저 아이를 구하고 싶어!",
         minipack = 0,
     },
     [11261099] = {
@@ -118869,9 +118919,9 @@ return {
         text = "Crit DMG",
         minipack = 0,
     },
-    [300408] = {
-        id = 300408,
-        text = "타임 리미트는 단 하루! 사랑하는 여동생이자, 강인한 사령관을 구해야만 해.",
+    [300405] = {
+        id = 300405,
+        text = "< '저는 정령이에요' 전학생 쿠루미는 갑작스럽게 충격적인 자기소개의 말을 꺼냈다. >",
         minipack = 0,
     },
     [11261096] = {
@@ -118889,9 +118939,9 @@ return {
         text = "Morale Conversion",
         minipack = 0,
     },
-    [300409] = {
-        id = 300409,
-        text = "< 수학여행 중 마주친, '야마이'의 이름을 두고 싸우는 자매 정령. >",
+    [300406] = {
+        id = 300406,
+        text = "인류를 죽이는 소녀, 그리고 정령을 죽이는 소녀, 이 악몽을 어떻게 하면 끊을 수 있을까?",
         minipack = 0,
     },
     [11261093] = {
@@ -118909,9 +118959,9 @@ return {
         text = "Anti",
         minipack = 0,
     },
-    [300410] = {
-        id = 300410,
-        text = "대립하는 두 정령이 짊어진 가혹한 운명을 어떻게 바꿀 수 있을까. 설마 반드시 한 사람이 사라져야만 하는 걸까.",
+    [300407] = {
+        id = 300407,
+        text = "< 위급한 순간 하늘에서 떨어진 불의 정령, 시간을 관통하는 화염의 배후에는 어떤 잊혀진 기억이 있을까?>",
         minipack = 0,
     },
     [11261090] = {
@@ -118929,9 +118979,9 @@ return {
         text = "Spot Weakness: Boss",
         minipack = 0,
     },
-    [300411] = {
-        id = 300411,
-        text = "< 아무도 없는 무대 위에서 홀로 노래 부르는 정령, 극심한 남성 혐오증이라니?!>",
+    [300408] = {
+        id = 300408,
+        text = "타임 리미트는 단 하루! 사랑하는 여동생이자, 강인한 사령관을 구해야만 해.",
         minipack = 0,
     },
     [11261087] = {
@@ -118949,9 +118999,9 @@ return {
         text = "Spot Weakness: Boss",
         minipack = 0,
     },
-    [300412] = {
-        id = 300412,
-        text = "< DEM에 납치당한 토카를 구해야 해! 절체절명의 상황에서 '그녀'가 등장?!>",
+    [300409] = {
+        id = 300409,
+        text = "< 수학여행 중 마주친, '야마이'의 이름을 두고 싸우는 자매 정령. >",
         minipack = 0,
     },
     [11261084] = {
@@ -118969,9 +119019,9 @@ return {
         text = "Crit",
         minipack = 0,
     },
-    [300413] = {
-        id = 300413,
-        text = "<진짜 모습을 숨긴 제7의 정령 나츠미를 찾아내기 위해, 모든 용의자들과 데이트를 시작해라!>",
+    [300410] = {
+        id = 300410,
+        text = "대립하는 두 정령이 짊어진 가혹한 운명을 어떻게 바꿀 수 있을까. 설마 반드시 한 사람이 사라져야만 하는 걸까.",
         minipack = 0,
     },
     [11261081] = {
@@ -118989,14 +119039,74 @@ return {
         text = "Enhance",
         minipack = 0,
     },
-    [300414] = {
-        id = 300414,
-        text = "<천사의 힘을 사용하지 않고도 '변신'할 수 있다면... 나츠미의 자신감을 되찾아주기 위한 정령 개조 계획, 개시!>",
+    [300411] = {
+        id = 300411,
+        text = "< 아무도 없는 무대 위에서 홀로 노래 부르는 정령, 극심한 남성 혐오증이라니?!>",
         minipack = 0,
     },
     [11261078] = {
         id = 11261078,
         text = "Enhance",
+        minipack = 0,
+    },
+    [11261077] = {
+        id = 11261077,
+        text = "Enhance",
+        minipack = 0,
+    },
+    [11261076] = {
+        id = 11261076,
+        text = "Loving Sacrifice - Final",
+        minipack = 0,
+    },
+    [300412] = {
+        id = 300412,
+        text = "< DEM에 납치당한 토카를 구해야 해! 절체절명의 상황에서 '그녀'가 등장?!>",
+        minipack = 0,
+    },
+    [11261075] = {
+        id = 11261075,
+        text = "Predator - HP",
+        minipack = 0,
+    },
+    [11261074] = {
+        id = 11261074,
+        text = "Predator - HP",
+        minipack = 0,
+    },
+    [11261073] = {
+        id = 11261073,
+        text = "Predator - HP",
+        minipack = 0,
+    },
+    [300413] = {
+        id = 300413,
+        text = "<진짜 모습을 숨긴 제7의 정령 나츠미를 찾아내기 위해, 모든 용의자들과 데이트를 시작해라!>",
+        minipack = 0,
+    },
+    [11261072] = {
+        id = 11261072,
+        text = "Predator - HP",
+        minipack = 0,
+    },
+    [11261071] = {
+        id = 11261071,
+        text = "Predator - Devour",
+        minipack = 0,
+    },
+    [11261070] = {
+        id = 11261070,
+        text = "Predator - Devour",
+        minipack = 0,
+    },
+    [300414] = {
+        id = 300414,
+        text = "<천사의 힘을 사용하지 않고도 '변신'할 수 있다면... 나츠미의 자신감을 되찾아주기 위한 정령 개조 계획, 개시!>",
+        minipack = 0,
+    },
+    [11261069] = {
+        id = 11261069,
+        text = "Predator - Devour",
         minipack = 0,
     },
     [11251007] = {
@@ -119144,74 +119254,14 @@ return {
         text = "서리 피해가 35% 증가한다",
         minipack = 0,
     },
-    [11261077] = {
-        id = 11261077,
-        text = "Enhance",
-        minipack = 0,
-    },
-    [300422] = {
-        id = 300422,
-        text = "< 정예 몬스터에게 승리하면 물자 보급을 획득하며, 금화 카드를 드랍합니다. >",
-        minipack = 0,
-    },
-    [11261076] = {
-        id = 11261076,
-        text = "Loving Sacrifice - Final",
-        minipack = 0,
-    },
-    [11261075] = {
-        id = 11261075,
-        text = "Predator - HP",
-        minipack = 0,
-    },
-    [11261074] = {
-        id = 11261074,
-        text = "Predator - HP",
-        minipack = 0,
-    },
-    [300423] = {
-        id = 300423,
-        text = "< 정예 몬스터에게 승리하면 물자 보급을 획득하며, 기원서를 드랍합니다(기원서는 세피라로 교환 가능). >",
-        minipack = 0,
-    },
-    [11261073] = {
-        id = 11261073,
-        text = "Predator - HP",
-        minipack = 0,
-    },
-    [11261072] = {
-        id = 11261072,
-        text = "Predator - HP",
-        minipack = 0,
-    },
-    [11261071] = {
-        id = 11261071,
-        text = "Predator - Devour",
-        minipack = 0,
-    },
-    [300424] = {
-        id = 300424,
-        text = "< 정예 몬스터에게 승리하면 물자 보급을 획득하며, 세피라를 드랍합니다. >",
-        minipack = 0,
-    },
-    [11261070] = {
-        id = 11261070,
-        text = "Predator - Devour",
-        minipack = 0,
-    },
-    [11261069] = {
-        id = 11261069,
-        text = "Predator - Devour",
-        minipack = 0,
-    },
     [11261068] = {
         id = 11261068,
         text = "Loving Sacrifice - Extreme",
         minipack = 0,
     },
-    [300425] = {
-        id = 300425,
-        text = "<정예 몬스터에게 승리하면 신물 강화 재료를 획득합니다.>",
+    [300422] = {
+        id = 300422,
+        text = "< 정예 몬스터에게 승리하면 물자 보급을 획득하며, 금화 카드를 드랍합니다. >",
         minipack = 0,
     },
     [11261067] = {
@@ -119229,9 +119279,9 @@ return {
         text = "Protection",
         minipack = 0,
     },
-    [300426] = {
-        id = 300426,
-        text = "",
+    [300423] = {
+        id = 300423,
+        text = "< 정예 몬스터에게 승리하면 물자 보급을 획득하며, 기원서를 드랍합니다(기원서는 세피라로 교환 가능). >",
         minipack = 0,
     },
     [11261064] = {
@@ -119249,9 +119299,9 @@ return {
         text = "Spot Weakness: Boss",
         minipack = 0,
     },
-    [300427] = {
-        id = 300427,
-        text = "",
+    [300424] = {
+        id = 300424,
+        text = "< 정예 몬스터에게 승리하면 물자 보급을 획득하며, 세피라를 드랍합니다. >",
         minipack = 0,
     },
     [11261061] = {
@@ -119269,9 +119319,9 @@ return {
         text = "Resolve",
         minipack = 0,
     },
-    [300428] = {
-        id = 300428,
-        text = "",
+    [300425] = {
+        id = 300425,
+        text = "<정예 몬스터에게 승리하면 신물 강화 재료를 획득합니다.>",
         minipack = 0,
     },
     [11261058] = {
@@ -119289,8 +119339,8 @@ return {
         text = "Enhance",
         minipack = 0,
     },
-    [300429] = {
-        id = 300429,
+    [300426] = {
+        id = 300426,
         text = "",
         minipack = 0,
     },
@@ -119309,6 +119359,11 @@ return {
         text = "Enhance",
         minipack = 0,
     },
+    [300427] = {
+        id = 300427,
+        text = "",
+        minipack = 0,
+    },
     [11261052] = {
         id = 11261052,
         text = "Hydra - Final",
@@ -119322,6 +119377,61 @@ return {
     [11261050] = {
         id = 11261050,
         text = "Pierce DMG",
+        minipack = 0,
+    },
+    [300428] = {
+        id = 300428,
+        text = "",
+        minipack = 0,
+    },
+    [11261049] = {
+        id = 11261049,
+        text = "Pierce DMG",
+        minipack = 0,
+    },
+    [11261048] = {
+        id = 11261048,
+        text = "Pierce DMG",
+        minipack = 0,
+    },
+    [11261047] = {
+        id = 11261047,
+        text = "Poison",
+        minipack = 0,
+    },
+    [300429] = {
+        id = 300429,
+        text = "",
+        minipack = 0,
+    },
+    [11261046] = {
+        id = 11261046,
+        text = "Poison",
+        minipack = 0,
+    },
+    [11261045] = {
+        id = 11261045,
+        text = "Poison",
+        minipack = 0,
+    },
+    [11261044] = {
+        id = 11261044,
+        text = "Hydra - Extreme",
+        minipack = 0,
+    },
+    [11261043] = {
+        id = 11261043,
+        text = "Enervate",
+        minipack = 0,
+    },
+    [11261042] = {
+        id = 11261042,
+        text = "Enervate",
+        minipack = 0,
+    },
+    [11261041] = {
+        id = 11261041,
+        text = "Enervate",
         minipack = 0,
     },
     [15021] = {
@@ -119339,14 +119449,14 @@ return {
         text = "넵튠 파편",
         minipack = 0,
     },
-    [11261049] = {
-        id = 11261049,
-        text = "Pierce DMG",
+    [11261040] = {
+        id = 11261040,
+        text = "Spot Weakness: Boss",
         minipack = 0,
     },
-    [11261048] = {
-        id = 11261048,
-        text = "Pierce DMG",
+    [11261039] = {
+        id = 11261039,
+        text = "Spot Weakness: Boss",
         minipack = 0,
     },
     [300432] = {
@@ -119419,66 +119529,6 @@ return {
         text = "오리가미가 매번 적 처치 시 20%의 내성을 회복한다.",
         minipack = 0,
     },
-    [11261047] = {
-        id = 11261047,
-        text = "Poison",
-        minipack = 0,
-    },
-    [11261046] = {
-        id = 11261046,
-        text = "Poison",
-        minipack = 0,
-    },
-    [300436] = {
-        id = 300436,
-        text = "< 부활, 하지만 「현계」 현상은 발생하지 않았다. 「인계」의 변이가 붕괴를 유발하고 있고, 「왕국」의 왕좌가 지금 도전을 받고 있다. >",
-        minipack = 0,
-    },
-    [11261045] = {
-        id = 11261045,
-        text = "Poison",
-        minipack = 0,
-    },
-    [11261044] = {
-        id = 11261044,
-        text = "Hydra - Extreme",
-        minipack = 0,
-    },
-    [11261043] = {
-        id = 11261043,
-        text = "Enervate",
-        minipack = 0,
-    },
-    [300437] = {
-        id = 300437,
-        text = "< 끊임없이 자신에게 도전해야만 한계를 돌파할 수 있습니다. 정령의 분노에 맞서 싸우세요! >",
-        minipack = 0,
-    },
-    [11261042] = {
-        id = 11261042,
-        text = "Enervate",
-        minipack = 0,
-    },
-    [11261041] = {
-        id = 11261041,
-        text = "Enervate",
-        minipack = 0,
-    },
-    [11261040] = {
-        id = 11261040,
-        text = "Spot Weakness: Boss",
-        minipack = 0,
-    },
-    [300438] = {
-        id = 300438,
-        text = "< 라타토스크의 모의 전투 훈련실, 초고화질의 모의 투영을 이용해 완전히 현실적인 전장 환경을 모방할 수 있다. >",
-        minipack = 0,
-    },
-    [11261039] = {
-        id = 11261039,
-        text = "Spot Weakness: Boss",
-        minipack = 0,
-    },
     [11261038] = {
         id = 11261038,
         text = "Spot Weakness: Boss",
@@ -119489,9 +119539,9 @@ return {
         text = "Spot Weakness: Boss",
         minipack = 0,
     },
-    [300439] = {
-        id = 300439,
-        text = "< 「인계」에서 탐색을 진행할 때에는 간혹 기묘한 현상을 관측할 수 있다. 그리고 이번에 휘말리게 된 사람은 바로... >",
+    [300436] = {
+        id = 300436,
+        text = "< 부활, 하지만 「현계」 현상은 발생하지 않았다. 「인계」의 변이가 붕괴를 유발하고 있고, 「왕국」의 왕좌가 지금 도전을 받고 있다. >",
         minipack = 0,
     },
     [11261036] = {
@@ -119509,9 +119559,9 @@ return {
         text = "Pierce",
         minipack = 0,
     },
-    [300440] = {
-        id = 300440,
-        text = "< 정령 섬멸 작전이 다시 시작되자, 마유리는 어쩔 수 없는 고전에 빠지게 되는데... >",
+    [300437] = {
+        id = 300437,
+        text = "< 끊임없이 자신에게 도전해야만 한계를 돌파할 수 있습니다. 정령의 분노에 맞서 싸우세요! >",
         minipack = 0,
     },
     [11261033] = {
@@ -119529,9 +119579,9 @@ return {
         text = "Enhance",
         minipack = 0,
     },
-    [300441] = {
-        id = 300441,
-        text = "< 세계에 흥미가 가득한 자, 「그녀」에게 「마음」을 품고 있는 자 사이에서, 그 결말은... >",
+    [300438] = {
+        id = 300438,
+        text = "< 라타토스크의 모의 전투 훈련실, 초고화질의 모의 투영을 이용해 완전히 현실적인 전장 환경을 모방할 수 있다. >",
         minipack = 0,
     },
     [11261030] = {
@@ -119549,9 +119599,9 @@ return {
         text = "Aegis Strike - Final",
         minipack = 0,
     },
-    [300442] = {
-        id = 300442,
-        text = "< 교관 「요시농」, 간다! >",
+    [300439] = {
+        id = 300439,
+        text = "< 「인계」에서 탐색을 진행할 때에는 간혹 기묘한 현상을 관측할 수 있다. 그리고 이번에 휘말리게 된 사람은 바로... >",
         minipack = 0,
     },
     [11261027] = {
@@ -119569,9 +119619,9 @@ return {
         text = "Crit",
         minipack = 0,
     },
-    [300443] = {
-        id = 300443,
-        text = "< 「샤람의 문」을 놓고 전개되는 쟁탈전! >",
+    [300440] = {
+        id = 300440,
+        text = "< 정령 섬멸 작전이 다시 시작되자, 마유리는 어쩔 수 없는 고전에 빠지게 되는데... >",
         minipack = 0,
     },
     [11261024] = {
@@ -119589,9 +119639,9 @@ return {
         text = "Shield Attack",
         minipack = 0,
     },
-    [300444] = {
-        id = 300444,
-        text = "< 테스트 기록: 이번 테스트의 데이터는 이미 삭제되었습니다. >",
+    [300441] = {
+        id = 300441,
+        text = "< 세계에 흥미가 가득한 자, 「그녀」에게 「마음」을 품고 있는 자 사이에서, 그 결말은... >",
         minipack = 0,
     },
     [11261021] = {
@@ -119609,9 +119659,9 @@ return {
         text = "Morale",
         minipack = 0,
     },
-    [300445] = {
-        id = 300445,
-        text = "<정령에게 복수하기 위해 얻은 새로운 힘, 과거를 향한 집착에 얽매인 채 미래를 어떻게 대할 것인가.>",
+    [300442] = {
+        id = 300442,
+        text = "< 교관 「요시농」, 간다! >",
         minipack = 0,
     },
     [11261018] = {
@@ -119629,6 +119679,11 @@ return {
         text = "Spot Weakness: Boss",
         minipack = 0,
     },
+    [300443] = {
+        id = 300443,
+        text = "< 「샤람의 문」을 놓고 전개되는 쟁탈전! >",
+        minipack = 0,
+    },
     [11261015] = {
         id = 11261015,
         text = "Spot Weakness: Boss",
@@ -119644,14 +119699,14 @@ return {
         text = "Spot Weakness: Boss",
         minipack = 0,
     },
+    [300444] = {
+        id = 300444,
+        text = "< 테스트 기록: 이번 테스트의 데이터는 이미 삭제되었습니다. >",
+        minipack = 0,
+    },
     [11261012] = {
         id = 11261012,
         text = "Aegis Strike - Perish",
-        minipack = 0,
-    },
-    [300447] = {
-        id = 300447,
-        text = "<모두 없애버리겠어... 모든 정령과 이 고통스러운 세계... 그리고 나 자신까지...>",
         minipack = 0,
     },
     [11261011] = {
@@ -119664,14 +119719,14 @@ return {
         text = "ATK Speed",
         minipack = 0,
     },
+    [300445] = {
+        id = 300445,
+        text = "<정령에게 복수하기 위해 얻은 새로운 힘, 과거를 향한 집착에 얽매인 채 미래를 어떻게 대할 것인가.>",
+        minipack = 0,
+    },
     [11261009] = {
         id = 11261009,
         text = "ATK Speed",
-        minipack = 0,
-    },
-    [300448] = {
-        id = 300448,
-        text = "<이게 바로 여신 퍼플 하트의 힘이라구!>",
         minipack = 0,
     },
     [11261008] = {
@@ -119689,11 +119744,6 @@ return {
         text = "Maple transforms into [Savage] Form, recovers 100% of HP and Energy, and attacks all enemies in a large area in front of her for Dark DMG equal to 4,700% of ATK. She also gains +15% DMG Bonus, Dark DMG and Damage Immunity until the battle ends. This skill can only be used once per battle. ",
         minipack = 0,
     },
-    [300449] = {
-        id = 300449,
-        text = "<여신 화이트 하트의 힘을 똑똑히 느꼈겠지?>",
-        minipack = 0,
-    },
     [11261005] = {
         id = 11261005,
         text = "Maple transforms into [Savage] Form, recovers 100% of HP and Energy, and attacks all enemies in a large area in front for Dark DMG equal to 4,100% of ATK. She also gains +15% DMG Bonus, Dark DMG and Damage Immunity until the battle ends. This skill can only be used once per battle. ",
@@ -119709,9 +119759,9 @@ return {
         text = "Tyrannical",
         minipack = 0,
     },
-    [300450] = {
-        id = 300450,
-        text = "<구원을 기다리는 공주인가, 피의 개선을 행하는 마왕인가>",
+    [300447] = {
+        id = 300447,
+        text = "<모두 없애버리겠어... 모든 정령과 이 고통스러운 세계... 그리고 나 자신까지...>",
         minipack = 0,
     },
     [11261002] = {
@@ -119729,9 +119779,9 @@ return {
         text = "Join in the [3 Year Anniversary] event to obtain this badge.",
         minipack = 0,
     },
-    [300451] = {
-        id = 300451,
-        text = "<악몽을 넘어서 이세계의 도전에 맞서라!>",
+    [300448] = {
+        id = 300448,
+        text = "<이게 바로 여신 퍼플 하트의 힘이라구!>",
         minipack = 0,
     },
     [2460180] = {
@@ -119749,9 +119799,9 @@ return {
         text = "Join in the [Date A Live x Bofuri] event to obtain this badge.",
         minipack = 0,
     },
-    [300452] = {
-        id = 300452,
-        text = "<토키와다이의 에이스! 최강의 무적 전격 공주님의 초능력 시련!>",
+    [300449] = {
+        id = 300449,
+        text = "<여신 화이트 하트의 힘을 똑똑히 느꼈겠지?>",
         minipack = 0,
     },
     [2460177] = {
@@ -119769,9 +119819,9 @@ return {
         text = "「대식의 평원」",
         minipack = 0,
     },
-    [300453] = {
-        id = 300453,
-        text = "<영력 그릇의 판결자, 뇌정의 강림! 정령을 구하는 영웅이여, 심판을 받아라!>",
+    [300450] = {
+        id = 300450,
+        text = "<구원을 기다리는 공주인가, 피의 개선을 행하는 마왕인가>",
         minipack = 0,
     },
     [2203580] = {
@@ -119789,9 +119839,9 @@ return {
         text = "Maple wraps herself in poison and charges into the battlefield, dealing Dark DMG equal to 500% of ATK.",
         minipack = 0,
     },
-    [300454] = {
-        id = 300454,
-        text = "<'궁극의 승부욕'에 도전하는 여신, 라스테이션 대륙의 영광을 수호하기 위해, '블랙 하트' 선제 공격!>",
+    [300451] = {
+        id = 300451,
+        text = "<악몽을 넘어서 이세계의 도전에 맞서라!>",
         minipack = 0,
     },
     [2203550] = {
@@ -119809,9 +119859,9 @@ return {
         text = "Maple consumes 10% of HP to activate [Loving Sacrifice]. Ally units within the skill's AoE gain Superarmor and a DEF bonus equal to 20% of Maple's DEF for 12s. Generates 25 <Morale>.",
         minipack = 0,
     },
-    [300455] = {
-        id = 300455,
-        text = "<게임 세계를 지배하는 여신, '수퍼 게이머' 참전, 린박스 대륙을 위해, 전례없는 승부욕의 각성!>",
+    [300452] = {
+        id = 300452,
+        text = "<토키와다이의 에이스! 최강의 무적 전격 공주님의 초능력 시련!>",
         minipack = 0,
     },
     [2203507] = {
@@ -119829,6 +119879,11 @@ return {
         text = "Loving Sacrifice",
         minipack = 0,
     },
+    [300453] = {
+        id = 300453,
+        text = "<영력 그릇의 판결자, 뇌정의 강림! 정령을 구하는 영웅이여, 심판을 받아라!>",
+        minipack = 0,
+    },
     [2203501] = {
         id = 2203501,
         text = "Aegis Strike",
@@ -119844,6 +119899,11 @@ return {
         text = "Daydream Coin",
         minipack = 0,
     },
+    [300454] = {
+        id = 300454,
+        text = "<'궁극의 승부욕'에 도전하는 여신, 라스테이션 대륙의 영광을 수호하기 위해, '블랙 하트' 선제 공격!>",
+        minipack = 0,
+    },
     [2081549] = {
         id = 2081549,
         text = "Moon God Temple: \n\nMoon God Tribute\nDonate Silvergrass and Lunar Spring every day to get Moon God Giftboxes. Each giftbox automatically converts into Moon Dango*15 and Mooncake*2. \n\nSilvergrass Respawn Rules: \n8 pieces of Silvergrass will respawn every half hour. Players can gather 10 pieces per day. When gathering, there is a small chance to get 1 random special effect. \n\nServer Worship\nFor every 5 Moon Dango offered here, receive a Gratitude Gift that contains: Dough*1. Players and the whole server can earn tons of gifts after reaching enough offerings!\nThe number of Dango required for each of the three phase gifts are: 800,000/1,600,000/2,400,000\nYou can do it, Covenanter!",
@@ -119857,6 +119917,11 @@ return {
     [2081544] = {
         id = 2081544,
         text = "Such a fragrant aroma, what could it be? Get from Moon Tower - Moonfire Shadow and use in Moon God Temple - Moon God Tribute. When the event ends, unused items will automatically expire.",
+        minipack = 0,
+    },
+    [300455] = {
+        id = 300455,
+        text = "<게임 세계를 지배하는 여신, '수퍼 게이머' 참전, 린박스 대륙을 위해, 전례없는 승부욕의 각성!>",
         minipack = 0,
     },
     [2081543] = {
@@ -119964,19 +120029,9 @@ return {
         text = "[엘·나하쉬] 일반 몬스터에게 입히는 피해 +8%.",
         minipack = 0,
     },
-    [15022] = {
-        id = 15022,
-        text = "쿠푸왕의 피라미드에서 발견된 신비한 물질, 평범하지 않은 에너지를 지니고 있으며, 정령 돌파에 사용한다.",
-        minipack = 0,
-    },
     [1224068] = {
         id = 1224068,
         text = "Random Maple SS Class Blueprint",
-        minipack = 0,
-    },
-    [16046] = {
-        id = 16046,
-        text = "넵튠 파편, 여신 활성화 또는 여신 능력 강화에 사용한다.",
         minipack = 0,
     },
     [42234] = {
@@ -119997,6 +120052,61 @@ return {
     [1224064] = {
         id = 1224064,
         text = "Gold Medal*90",
+        minipack = 0,
+    },
+    [1224063] = {
+        id = 1224063,
+        text = "Gold Medal*60",
+        minipack = 0,
+    },
+    [1224062] = {
+        id = 1224062,
+        text = "Gold Medal*30",
+        minipack = 0,
+    },
+    [1224061] = {
+        id = 1224061,
+        text = "Silver Medal*400",
+        minipack = 0,
+    },
+    [1224060] = {
+        id = 1224060,
+        text = "Silver Medal*200",
+        minipack = 0,
+    },
+    [15022] = {
+        id = 15022,
+        text = "쿠푸왕의 피라미드에서 발견된 신비한 물질, 평범하지 않은 에너지를 지니고 있으며, 정령 돌파에 사용한다.",
+        minipack = 0,
+    },
+    [1224059] = {
+        id = 1224059,
+        text = "Silver Medal*100",
+        minipack = 0,
+    },
+    [16046] = {
+        id = 16046,
+        text = "넵튠 파편, 여신 활성화 또는 여신 능력 강화에 사용한다.",
+        minipack = 0,
+    },
+    [1224058] = {
+        id = 1224058,
+        text = "Maple",
+        minipack = 0,
+    },
+    [1224057] = {
+        id = 1224057,
+        text = "Maple Fragment*5",
+        minipack = 0,
+    },
+    [1224056] = {
+        id = 1224056,
+        text = "Maple Fragment*3",
+        minipack = 0,
+    },
+    [1224055] = {
+        id = 1224055,
+        text = "Maple Fragment*2",
         minipack = 0,
     },
     [17000002] = {
@@ -120204,9 +120314,9 @@ return {
         text = "Chinese Restaurant",
         minipack = 0,
     },
-    [1224062] = {
-        id = 1224062,
-        text = "Gold Medal*30",
+    [1224053] = {
+        id = 1224053,
+        text = "Natsumi - Rainbow Land",
         minipack = 0,
     },
     [190000088] = {
@@ -120214,9 +120324,9 @@ return {
         text = "50% 할인권",
         minipack = 0,
     },
-    [1224061] = {
-        id = 1224061,
-        text = "Silver Medal*400",
+    [1140420] = {
+        id = 1140420,
+        text = "A material required to craft Maple SSS Class Ultimate Gem",
         minipack = 0,
     },
     [190000344] = {
@@ -120299,44 +120409,44 @@ return {
         text = "시공의 깨달음",
         minipack = 0,
     },
-    [1224060] = {
-        id = 1224060,
-        text = "Silver Medal*200",
+    [1140419] = {
+        id = 1140419,
+        text = "A material required to craft Maple SSS Class Skill 2 Gem",
         minipack = 0,
     },
-    [1224059] = {
-        id = 1224059,
-        text = "Silver Medal*100",
+    [1140418] = {
+        id = 1140418,
+        text = "A material required to craft Maple SSS Class Skill 1 Gem",
         minipack = 0,
     },
-    [1224058] = {
-        id = 1224058,
-        text = "Maple",
+    [1140417] = {
+        id = 1140417,
+        text = "A material required to craft Maple SSS Class Base ATK Gem",
         minipack = 0,
     },
-    [1224057] = {
-        id = 1224057,
-        text = "Maple Fragment*5",
+    [1140416] = {
+        id = 1140416,
+        text = "A material required to craft Maple SS Class Ultimate Gem",
         minipack = 0,
     },
-    [1224056] = {
-        id = 1224056,
-        text = "Maple Fragment*3",
+    [1140415] = {
+        id = 1140415,
+        text = "A material required to craft Maple SS Class Skill 2 Gem",
         minipack = 0,
     },
-    [1224055] = {
-        id = 1224055,
-        text = "Maple Fragment*2",
+    [1140414] = {
+        id = 1140414,
+        text = "A material required to craft Maple SS Class Skill 1 Gem",
         minipack = 0,
     },
-    [1224054] = {
-        id = 1224054,
-        text = "Dimension Essence*10",
+    [1140413] = {
+        id = 1140413,
+        text = "A material required to craft Maple SS Class Base ATK Gem",
         minipack = 0,
     },
-    [1224053] = {
-        id = 1224053,
-        text = "Natsumi - Rainbow Land",
+    [1140412] = {
+        id = 1140412,
+        text = "A material required to craft Maple S Class Ultimate Gem",
         minipack = 0,
     },
     [10991003] = {
@@ -120484,51 +120594,6 @@ return {
         text = "HP가 30% 감소하며, 공격력이 40% 증가한다.",
         minipack = 0,
     },
-    [1140420] = {
-        id = 1140420,
-        text = "A material required to craft Maple SSS Class Ultimate Gem",
-        minipack = 0,
-    },
-    [1140419] = {
-        id = 1140419,
-        text = "A material required to craft Maple SSS Class Skill 2 Gem",
-        minipack = 0,
-    },
-    [1140418] = {
-        id = 1140418,
-        text = "A material required to craft Maple SSS Class Skill 1 Gem",
-        minipack = 0,
-    },
-    [1140417] = {
-        id = 1140417,
-        text = "A material required to craft Maple SSS Class Base ATK Gem",
-        minipack = 0,
-    },
-    [1140416] = {
-        id = 1140416,
-        text = "A material required to craft Maple SS Class Ultimate Gem",
-        minipack = 0,
-    },
-    [1140415] = {
-        id = 1140415,
-        text = "A material required to craft Maple SS Class Skill 2 Gem",
-        minipack = 0,
-    },
-    [1140414] = {
-        id = 1140414,
-        text = "A material required to craft Maple SS Class Skill 1 Gem",
-        minipack = 0,
-    },
-    [1140413] = {
-        id = 1140413,
-        text = "A material required to craft Maple SS Class Base ATK Gem",
-        minipack = 0,
-    },
-    [1140412] = {
-        id = 1140412,
-        text = "A material required to craft Maple S Class Ultimate Gem",
-        minipack = 0,
-    },
     [1140411] = {
         id = 1140411,
         text = "A material required to craft Maple S Class Skill 2 Gem",
@@ -120599,6 +120664,51 @@ return {
         text = "Maple exclusive. Can be inserted into a Skill 1 gem slot. Can activate 1 extra angel skill",
         minipack = 0,
     },
+    [1130969] = {
+        id = 1130969,
+        text = "Maple exclusive. Can be inserted into a Base ATK gem slot. Can activate 1 extra angel skill",
+        minipack = 0,
+    },
+    [1130968] = {
+        id = 1130968,
+        text = "Maple exclusive. Can be inserted into an Ultimate gem slot.",
+        minipack = 0,
+    },
+    [1130967] = {
+        id = 1130967,
+        text = "Maple exclusive. Can be inserted into a Skill 2 gem slot.",
+        minipack = 0,
+    },
+    [1130966] = {
+        id = 1130966,
+        text = "Maple exclusive. Can be inserted into a Skill 1 gem slot.",
+        minipack = 0,
+    },
+    [1130965] = {
+        id = 1130965,
+        text = "Maple exclusive. Can be inserted into a Base ATK gem slot.",
+        minipack = 0,
+    },
+    [1130964] = {
+        id = 1130964,
+        text = "Maple exclusive. Can be inserted into an Ultimate gem slot.",
+        minipack = 0,
+    },
+    [1130963] = {
+        id = 1130963,
+        text = "Maple exclusive. Can be inserted into a Skill 2 gem slot.",
+        minipack = 0,
+    },
+    [1130960] = {
+        id = 1130960,
+        text = "Maple exclusive. Can be inserted into an Ultimate gem slot.",
+        minipack = 0,
+    },
+    [1130958] = {
+        id = 1130958,
+        text = "Maple exclusive. Can be inserted into a Skill 1 gem slot.",
+        minipack = 0,
+    },
     [190010072] = {
         id = 190010072,
         text = "방어력+2%，20초간 지속",
@@ -120644,51 +120754,6 @@ return {
         text = "DMG +50% for 10s",
         minipack = 0,
     },
-    [1130968] = {
-        id = 1130968,
-        text = "Maple exclusive. Can be inserted into an Ultimate gem slot.",
-        minipack = 0,
-    },
-    [1130967] = {
-        id = 1130967,
-        text = "Maple exclusive. Can be inserted into a Skill 2 gem slot.",
-        minipack = 0,
-    },
-    [1130966] = {
-        id = 1130966,
-        text = "Maple exclusive. Can be inserted into a Skill 1 gem slot.",
-        minipack = 0,
-    },
-    [1130965] = {
-        id = 1130965,
-        text = "Maple exclusive. Can be inserted into a Base ATK gem slot.",
-        minipack = 0,
-    },
-    [1130964] = {
-        id = 1130964,
-        text = "Maple exclusive. Can be inserted into an Ultimate gem slot.",
-        minipack = 0,
-    },
-    [1130963] = {
-        id = 1130963,
-        text = "Maple exclusive. Can be inserted into a Skill 2 gem slot.",
-        minipack = 0,
-    },
-    [1130960] = {
-        id = 1130960,
-        text = "Maple exclusive. Can be inserted into an Ultimate gem slot.",
-        minipack = 0,
-    },
-    [1130958] = {
-        id = 1130958,
-        text = "Maple exclusive. Can be inserted into a Skill 1 gem slot.",
-        minipack = 0,
-    },
-    [1130956] = {
-        id = 1130956,
-        text = "Maple exclusive. Can be inserted into an Ultimate gem slot.",
-        minipack = 0,
-    },
     [1120414] = {
         id = 1120414,
         text = "Maple SS Class Blueprint",
@@ -120714,11 +120779,6 @@ return {
         text = "Maple SSS Class Gem",
         minipack = 0,
     },
-    [190013016] = {
-        id = 190013016,
-        text = "48",
-        minipack = 0,
-    },
     [1111005] = {
         id = 1111005,
         text = "Maple SSS Class Gem",
@@ -120727,11 +120787,6 @@ return {
     [1111004] = {
         id = 1111004,
         text = "Maple SS Class Gem",
-        minipack = 0,
-    },
-    [300501] = {
-        id = 300501,
-        text = "이름 없는 소녀",
         minipack = 0,
     },
     [800134] = {
@@ -120749,11 +120804,6 @@ return {
         text = "Hehe... I'm hungry.",
         minipack = 0,
     },
-    [300502] = {
-        id = 300502,
-        text = "너의 이름은",
-        minipack = 0,
-    },
     [1013716] = {
         id = 1013716,
         text = "Sally is my good friend, she also goes by Risa.",
@@ -120769,14 +120819,14 @@ return {
         text = "Huh? It should be fine to eat.",
         minipack = 0,
     },
-    [300503] = {
-        id = 300503,
-        text = "Rainy Girl",
-        minipack = 0,
-    },
     [1013713] = {
         id = 1013713,
         text = "Sorry.",
+        minipack = 0,
+    },
+    [190013016] = {
+        id = 190013016,
+        text = "48",
         minipack = 0,
     },
     [1013712] = {
@@ -120789,14 +120839,9 @@ return {
         text = "I can't say no to shiny things.",
         minipack = 0,
     },
-    [300504] = {
-        id = 300504,
-        text = "얼어붙은 대지",
-        minipack = 0,
-    },
-    [190015064] = {
-        id = 190015064,
-        text = "용맹 진격",
+    [300501] = {
+        id = 300501,
+        text = "이름 없는 소녀",
         minipack = 0,
     },
     [1013710] = {
@@ -120809,14 +120854,14 @@ return {
         text = "You're quite interesting.",
         minipack = 0,
     },
-    [300505] = {
-        id = 300505,
-        text = "전학생",
-        minipack = 0,
-    },
     [1013708] = {
         id = 1013708,
         text = "Let's hang out for the weekend",
+        minipack = 0,
+    },
+    [300502] = {
+        id = 300502,
+        text = "너의 이름은",
         minipack = 0,
     },
     [1013707] = {
@@ -120827,6 +120872,71 @@ return {
     [14220045] = {
         id = 14220045,
         text = "절 그렇게나 좋아해 주신다니, 그럼 절 구할 수 있는 기회를 드려보는 것도 좋겠네요. 함께 시간을 보낼 수 있길 바랄게요.",
+        minipack = 0,
+    },
+    [471134] = {
+        id = 471134,
+        text = "#[Predator] inflicts extra Pure DMG equal to 6% DMG dealt",
+        minipack = 0,
+    },
+    [300503] = {
+        id = 300503,
+        text = "Rainy Girl",
+        minipack = 0,
+    },
+    [471133] = {
+        id = 471133,
+        text = "#[Predator] Maple heals for 3% of DMG dealt",
+        minipack = 0,
+    },
+    [471132] = {
+        id = 471132,
+        text = "#[Predator] ignores 25% DEF",
+        minipack = 0,
+    },
+    [471131] = {
+        id = 471131,
+        text = "#[Predator] Pierce DMG +30%",
+        minipack = 0,
+    },
+    [300504] = {
+        id = 300504,
+        text = "얼어붙은 대지",
+        minipack = 0,
+    },
+    [190015064] = {
+        id = 190015064,
+        text = "용맹 진격",
+        minipack = 0,
+    },
+    [471130] = {
+        id = 471130,
+        text = "#[Predator] Pierce Rate +15%",
+        minipack = 0,
+    },
+    [471129] = {
+        id = 471129,
+        text = "#[Predator] Crit DMG +30%",
+        minipack = 0,
+    },
+    [300505] = {
+        id = 300505,
+        text = "전학생",
+        minipack = 0,
+    },
+    [471128] = {
+        id = 471128,
+        text = "#[Predator] Crit Rate +15%",
+        minipack = 0,
+    },
+    [471127] = {
+        id = 471127,
+        text = "#[Predator] Hit Rate +10%",
+        minipack = 0,
+    },
+    [461035] = {
+        id = 461035,
+        text = "#[Predator] Base DMG +30%",
         minipack = 0,
     },
     [300506] = {
@@ -120844,9 +120954,9 @@ return {
         text = "마왕의 개선",
         minipack = 0,
     },
-    [471134] = {
-        id = 471134,
-        text = "#[Predator] inflicts extra Pure DMG equal to 6% DMG dealt",
+    [461032] = {
+        id = 461032,
+        text = "#[Predator] Base DMG +7%",
         minipack = 0,
     },
     [300507] = {
@@ -120854,14 +120964,14 @@ return {
         text = "시간을 꿰뚫는 불꽃",
         minipack = 0,
     },
-    [471133] = {
-        id = 471133,
-        text = "#[Predator] Maple heals for 3% of DMG dealt",
+    [461031] = {
+        id = 461031,
+        text = "#[Predator] Base DMG +4%",
         minipack = 0,
     },
-    [471132] = {
-        id = 471132,
-        text = "#[Predator] ignores 25% DEF",
+    [461030] = {
+        id = 461030,
+        text = "#[Predator] Base DMG +2%",
         minipack = 0,
     },
     [111000056] = {
@@ -120874,19 +120984,19 @@ return {
         text = "5년 후의 복수자",
         minipack = 0,
     },
-    [471131] = {
-        id = 471131,
-        text = "#[Predator] Pierce DMG +30%",
+    [461029] = {
+        id = 461029,
+        text = "#[Predator] Base DMG +1%",
         minipack = 0,
     },
-    [471130] = {
-        id = 471130,
-        text = "#[Predator] Pierce Rate +15%",
+    [441207] = {
+        id = 441207,
+        text = "Dark DMG +25%. When equipped by Maple, gains 100 Starting Morale and increases [Deus Ex Machina] DMG by 100% when used at max Morale.",
         minipack = 0,
     },
-    [471129] = {
-        id = 471129,
-        text = "#[Predator] Crit DMG +30%",
+    [409806] = {
+        id = 409806,
+        text = "Maple in this Sephira form has strength way beyond other Sephiroth. Sephira is Chokhmah. Contains 4 random stats",
         minipack = 0,
     },
     [300509] = {
@@ -120894,14 +121004,14 @@ return {
         text = "폭풍소녀",
         minipack = 0,
     },
-    [471128] = {
-        id = 471128,
-        text = "#[Predator] Crit Rate +15%",
+    [409805] = {
+        id = 409805,
+        text = "Maple in this Sephira form has strength way beyond other Sephiroth. Sephira is Chesed. Contains 4 random stats",
         minipack = 0,
     },
-    [471127] = {
-        id = 471127,
-        text = "#[Predator] Hit Rate +10%",
+    [400244] = {
+        id = 400244,
+        text = "Fortress - Art of Defense ",
         minipack = 0,
     },
     [12106002] = {
@@ -120919,66 +121029,6 @@ return {
         text = "피해 관통과 관통률 +15%",
         minipack = 0,
     },
-    [461035] = {
-        id = 461035,
-        text = "#[Predator] Base DMG +30%",
-        minipack = 0,
-    },
-    [461032] = {
-        id = 461032,
-        text = "#[Predator] Base DMG +7%",
-        minipack = 0,
-    },
-    [300511] = {
-        id = 300511,
-        text = "Wave1",
-        minipack = 0,
-    },
-    [461031] = {
-        id = 461031,
-        text = "#[Predator] Base DMG +4%",
-        minipack = 0,
-    },
-    [461030] = {
-        id = 461030,
-        text = "#[Predator] Base DMG +2%",
-        minipack = 0,
-    },
-    [461029] = {
-        id = 461029,
-        text = "#[Predator] Base DMG +1%",
-        minipack = 0,
-    },
-    [300512] = {
-        id = 300512,
-        text = "Wave2",
-        minipack = 0,
-    },
-    [441207] = {
-        id = 441207,
-        text = "Dark DMG +25%. When equipped by Maple, gains 100 Starting Morale and increases [Deus Ex Machina] DMG by 100% when used at max Morale.",
-        minipack = 0,
-    },
-    [409806] = {
-        id = 409806,
-        text = "Maple in this Sephira form has strength way beyond other Sephiroth. Sephira is Chokhmah. Contains 4 random stats",
-        minipack = 0,
-    },
-    [409805] = {
-        id = 409805,
-        text = "Maple in this Sephira form has strength way beyond other Sephiroth. Sephira is Chesed. Contains 4 random stats",
-        minipack = 0,
-    },
-    [300513] = {
-        id = 300513,
-        text = "Wave3",
-        minipack = 0,
-    },
-    [400244] = {
-        id = 400244,
-        text = "Fortress - Art of Defense ",
-        minipack = 0,
-    },
     [16000488] = {
         id = 16000488,
         text = "엘렌이 공격을 받을 때 일정 확률로 HP를 회복합니다",
@@ -120989,9 +121039,9 @@ return {
         text = "Fortress - Stalwart Armor ",
         minipack = 0,
     },
-    [300514] = {
-        id = 300514,
-        text = "Wave4",
+    [300511] = {
+        id = 300511,
+        text = "Wave1",
         minipack = 0,
     },
     [331055] = {
@@ -121009,9 +121059,9 @@ return {
         text = "2. [Adventure]\nCats can be dispatched to complete Exploration Quests for Recipe Materials.\nStory Quests are the main way to get Maids, and some of them require cats with a \"specified personality\".\nOnce dispatched, the cats will no longer \"Keep Shop\" or gain EXP bonus from toys. The cats cannot go back to the shop until quest rewards are claimed.",
         minipack = 0,
     },
-    [300515] = {
-        id = 300515,
-        text = "Wave5",
+    [300512] = {
+        id = 300512,
+        text = "Wave2",
         minipack = 0,
     },
     [320005] = {
@@ -121029,9 +121079,9 @@ return {
         text = "Points Rules: \nGain normal points for hitting red, blue and green lanterns, and extra points for hitting purple lanterns.\nLose points for hitting orange lanterns.",
         minipack = 0,
     },
-    [300516] = {
-        id = 300516,
-        text = "Wave6",
+    [300513] = {
+        id = 300513,
+        text = "Wave3",
         minipack = 0,
     },
     [320002] = {
@@ -121049,6 +121099,11 @@ return {
         text = "Points Rules: \nGain normal points for hitting orange, purple and red lanterns, and extra points for hitting green lanterns.\nLose points for hitting blue lanterns.",
         minipack = 0,
     },
+    [300514] = {
+        id = 300514,
+        text = "Wave4",
+        minipack = 0,
+    },
     [295014] = {
         id = 295014,
         text = "Open to select 1 of the following: Shimmering Starlight, Full of Love, Flower Smile, Moonlight Breeze, Fleeting Time, Festival Companion, Lantern Home.",
@@ -121064,6 +121119,11 @@ return {
         text = "Use to get random Gold Card*1.",
         minipack = 0,
     },
+    [300515] = {
+        id = 300515,
+        text = "Wave5",
+        minipack = 0,
+    },
     [295011] = {
         id = 295011,
         text = "Gold Lucky Bag",
@@ -121072,6 +121132,56 @@ return {
     [295010] = {
         id = 295010,
         text = "Open to select 1 of the following: Inv.Malkuth Essence*10, Inv.Kether Essence*10, Inv.Binah Essence*10, Nightmare Essence*10, Kabbalah Essence*10.",
+        minipack = 0,
+    },
+    [295009] = {
+        id = 295009,
+        text = "3rd Anniversary Essence Choice Chest",
+        minipack = 0,
+    },
+    [300516] = {
+        id = 300516,
+        text = "Wave6",
+        minipack = 0,
+    },
+    [295008] = {
+        id = 295008,
+        text = "Open to select 1 of the following: Moon Festival - Bamboo, Moon Festival - Bunny Love, Moon Festival - Autumn Flower, Moon Festival - Painted Plums, Moon Festival - Cool Dew, Moon Festival - Ink Stone, Moon Festival - Caged Star, Moon Festival - Energy Flow, Moon Festival - Lucid Dream, Moon Festival - Gather Ink.",
+        minipack = 0,
+    },
+    [295007] = {
+        id = 295007,
+        text = "3rd Anniversary Sephira Choice Chest",
+        minipack = 0,
+    },
+    [295006] = {
+        id = 295006,
+        text = "Open to select 1 of the following costumes: All the Best, White Sparrow, Wondrous Dream, Transform Magic, First Snow, White Bunny, Star of the Party, Party Invitation.",
+        minipack = 0,
+    },
+    [295005] = {
+        id = 295005,
+        text = "Common Costume Choice Chest B",
+        minipack = 0,
+    },
+    [295004] = {
+        id = 295004,
+        text = "Open to select 1 of the following costumes: Ruler, Crimson Rose, Radiant Dawn, Christmas Gift, Treat? Trick!, Gothic Lolita, Exclusive Maid, Divine Raiment.",
+        minipack = 0,
+    },
+    [295003] = {
+        id = 295003,
+        text = "Common Costume Choice Chest A",
+        minipack = 0,
+    },
+    [295002] = {
+        id = 295002,
+        text = "Dear Covenanters, it's been %s days since you last logged in. Perhaps the fatigue of life has kept you away from Tengu City, but whenever you return, the spirits will always be here, waiting by your side. Come on.. let's start our date! DAL: Dating Never Stops!",
+        minipack = 0,
+    },
+    [295001] = {
+        id = 295001,
+        text = "Open to choose 1 of the following costumes: Lady's Holiday, Bleaching Air, Brilliant Sun.",
         minipack = 0,
     },
     [14400007] = {
@@ -121369,51 +121479,6 @@ return {
         text = "Frank. Chatting with you has a distinctive flavor.",
         minipack = 0,
     },
-    [295001] = {
-        id = 295001,
-        text = "Open to choose 1 of the following costumes: Lady's Holiday, Bleaching Air, Brilliant Sun.",
-        minipack = 0,
-    },
-    [295000] = {
-        id = 295000,
-        text = "Returner Costume Choice Chest",
-        minipack = 0,
-    },
-    [3310002] = {
-        id = 3310002,
-        text = "2. 사냥몰이 계획의 한 주기는 월~금요일의 전투 준비 단계, 토~일요일의 정식 도전 단계로 구성됩니다.",
-        minipack = 0,
-    },
-    [3310008] = {
-        id = 3310008,
-        text = "8. 파티 인원수는 1~5명으로, 보스의 레벨에 따라 파티 인원수 조건이 달라지며, 인원수에 따라 파티 버프를 획득합니다.",
-        minipack = 0,
-    },
-    [3310015] = {
-        id = 3310015,
-        text = "",
-        minipack = 0,
-    },
-    [200015] = {
-        id = 200015,
-        text = "구매 횟수 부족",
-        minipack = 0,
-    },
-    [290019] = {
-        id = 290019,
-        text = "Craft Gems 1 time",
-        minipack = 0,
-    },
-    [800017] = {
-        id = 800017,
-        text = "%s%%",
-        minipack = 0,
-    },
-    [10101014] = {
-        id = 10101014,
-        text = "견고한 의지",
-        minipack = 0,
-    },
     [290016] = {
         id = 290016,
         text = "Complete Airship Rapid Exploration 1 time",
@@ -121472,6 +121537,51 @@ return {
     [290005] = {
         id = 290005,
         text = "Reach 300 Returner Activity Points",
+        minipack = 0,
+    },
+    [290004] = {
+        id = 290004,
+        text = "Reach 240 Returner Activity Points",
+        minipack = 0,
+    },
+    [290003] = {
+        id = 290003,
+        text = "Reach 180 Returner Activity Points",
+        minipack = 0,
+    },
+    [290002] = {
+        id = 290002,
+        text = "Reach 120 Returner Activity Points",
+        minipack = 0,
+    },
+    [470061] = {
+        id = 470061,
+        text = "시간",
+        minipack = 0,
+    },
+    [13317030] = {
+        id = 13317030,
+        text = "양측의 풍선 수가 같아야만 거래할 수 있습니다!",
+        minipack = 0,
+    },
+    [270802] = {
+        id = 270802,
+        text = "Deleting your game account can only be done when your current character is offline. Tap confirm to logout and continue to remove your account.",
+        minipack = 0,
+    },
+    [266782] = {
+        id = 266782,
+        text = "Get the costume - \"Gift from Heaven\" to activate this avatar frame",
+        minipack = 0,
+    },
+    [266781] = {
+        id = 266781,
+        text = "Lucky Treasure",
+        minipack = 0,
+    },
+    [266780] = {
+        id = 266780,
+        text = "Join in the [Date A Live x Bofuri] event to obtain this avatar frame.",
         minipack = 0,
     },
     [10403004] = {
@@ -121549,56 +121659,6 @@ return {
         text = "전투 중 쿠루미의 최대 시간치 +50, 추가로 초당 2포인트의 시간치를 획득한다.",
         minipack = 0,
     },
-    [290004] = {
-        id = 290004,
-        text = "Reach 240 Returner Activity Points",
-        minipack = 0,
-    },
-    [290003] = {
-        id = 290003,
-        text = "Reach 180 Returner Activity Points",
-        minipack = 0,
-    },
-    [290002] = {
-        id = 290002,
-        text = "Reach 120 Returner Activity Points",
-        minipack = 0,
-    },
-    [470061] = {
-        id = 470061,
-        text = "시간",
-        minipack = 0,
-    },
-    [13317030] = {
-        id = 13317030,
-        text = "양측의 풍선 수가 같아야만 거래할 수 있습니다!",
-        minipack = 0,
-    },
-    [270802] = {
-        id = 270802,
-        text = "Deleting your game account can only be done when your current character is offline. Tap confirm to logout and continue to remove your account.",
-        minipack = 0,
-    },
-    [266782] = {
-        id = 266782,
-        text = "Get the costume - \"Gift from Heaven\" to activate this avatar frame",
-        minipack = 0,
-    },
-    [266781] = {
-        id = 266781,
-        text = "Lucky Treasure",
-        minipack = 0,
-    },
-    [266780] = {
-        id = 266780,
-        text = "Join in the [Date A Live x Bofuri] event to obtain this avatar frame.",
-        minipack = 0,
-    },
-    [224001] = {
-        id = 224001,
-        text = "모의 시련",
-        minipack = 0,
-    },
     [266779] = {
         id = 266779,
         text = "With Max defense, this doesn't hurt a bit! Bofuri Collabo Souvenir Avatar Frame.",
@@ -121632,6 +121692,56 @@ return {
     [265177] = {
         id = 265177,
         text = "Quartz Meditation",
+        minipack = 0,
+    },
+    [265048] = {
+        id = 265048,
+        text = "Maple",
+        minipack = 0,
+    },
+    [246169] = {
+        id = 246169,
+        text = "Fearless Mode is not available on this difficulty",
+        minipack = 0,
+    },
+    [224001] = {
+        id = 224001,
+        text = "모의 시련",
+        minipack = 0,
+    },
+    [246168] = {
+        id = 246168,
+        text = "Elite Invasion has finished, unable to support.",
+        minipack = 0,
+    },
+    [246164] = {
+        id = 246164,
+        text = "No more stat points",
+        minipack = 0,
+    },
+    [246163] = {
+        id = 246163,
+        text = "Reward has been claimed",
+        minipack = 0,
+    },
+    [246158] = {
+        id = 246158,
+        text = "Threat Factors cannot be changed after the battle has started",
+        minipack = 0,
+    },
+    [246157] = {
+        id = 246157,
+        text = "Fearless Mode is still locked",
+        minipack = 0,
+    },
+    [246154] = {
+        id = 246154,
+        text = "No support chances left today",
+        minipack = 0,
+    },
+    [246153] = {
+        id = 246153,
+        text = "No friends or club friends",
         minipack = 0,
     },
     [224002] = {
@@ -121669,9 +121779,9 @@ return {
         text = "스토리 던전 제1장 클리어",
         minipack = 0,
     },
-    [265048] = {
-        id = 265048,
-        text = "Maple",
+    [246152] = {
+        id = 246152,
+        text = "Already requested support",
         minipack = 0,
     },
     [224003] = {
@@ -121679,84 +121789,9 @@ return {
         text = "어둠 속의 이공간, 검은 눈동자의 소녀가 서서히 깨어나고, 배회하며 꿈의 환상의 출구를 찾는다.",
         minipack = 0,
     },
-    [246169] = {
-        id = 246169,
-        text = "Fearless Mode is not available on this difficulty",
-        minipack = 0,
-    },
-    [246168] = {
-        id = 246168,
-        text = "Elite Invasion has finished, unable to support.",
-        minipack = 0,
-    },
-    [300549] = {
-        id = 300549,
-        text = "월, 목, 일요일",
-        minipack = 0,
-    },
-    [246164] = {
-        id = 246164,
-        text = "No more stat points",
-        minipack = 0,
-    },
-    [246163] = {
-        id = 246163,
-        text = "Reward has been claimed",
-        minipack = 0,
-    },
-    [246158] = {
-        id = 246158,
-        text = "Threat Factors cannot be changed after the battle has started",
-        minipack = 0,
-    },
-    [300550] = {
-        id = 300550,
-        text = "화, 금요일",
-        minipack = 0,
-    },
-    [224004] = {
-        id = 224004,
-        text = "깊은 잠의 환상",
-        minipack = 0,
-    },
-    [246157] = {
-        id = 246157,
-        text = "Fearless Mode is still locked",
-        minipack = 0,
-    },
-    [246154] = {
-        id = 246154,
-        text = "No support chances left today",
-        minipack = 0,
-    },
-    [300551] = {
-        id = 300551,
-        text = "수, 토요일",
-        minipack = 0,
-    },
-    [246153] = {
-        id = 246153,
-        text = "No friends or club friends",
-        minipack = 0,
-    },
-    [246152] = {
-        id = 246152,
-        text = "Already requested support",
-        minipack = 0,
-    },
     [231035] = {
         id = 231035,
         text = "Exclusive Bonds Keepsake for Maple. Dark DMG +7%, Crit Rate +5%",
-        minipack = 0,
-    },
-    [300552] = {
-        id = 300552,
-        text = "월요일",
-        minipack = 0,
-    },
-    [224005] = {
-        id = 224005,
-        text = "쌍인참",
         minipack = 0,
     },
     [400144] = {
@@ -121764,14 +121799,14 @@ return {
         text = "체험-블랙 하트",
         minipack = 0,
     },
+    [300549] = {
+        id = 300549,
+        text = "월, 목, 일요일",
+        minipack = 0,
+    },
     [100036] = {
         id = 100036,
         text = "서버 점검 중",
-        minipack = 0,
-    },
-    [300553] = {
-        id = 300553,
-        text = "화요일",
         minipack = 0,
     },
     [216019] = {
@@ -121784,19 +121819,19 @@ return {
         text = "You can only unlock once! Unlock this Choice Cardpool? Once confirmed, this action cannot be undone.",
         minipack = 0,
     },
+    [300550] = {
+        id = 300550,
+        text = "화, 금요일",
+        minipack = 0,
+    },
+    [224004] = {
+        id = 224004,
+        text = "깊은 잠의 환상",
+        minipack = 0,
+    },
     [213242] = {
         id = 213242,
         text = "Due to a lack of common gaming knowledge and the fear for pain, she maxed out her Defense and chose an unpopular shield character.",
-        minipack = 0,
-    },
-    [300554] = {
-        id = 300554,
-        text = "수요일",
-        minipack = 0,
-    },
-    [224006] = {
-        id = 224006,
-        text = "천행참",
         minipack = 0,
     },
     [63987] = {
@@ -121804,14 +121839,14 @@ return {
         text = "Open to select one of the following Keepsakes: [Time Envoy]*1, [Queen]*1, [Earring]*1, [Helmet]*1, [Bento]*1, [Cone]*1, or Diamonds*500. \nTip: Duplicate Keepsakes will be converted into 1 gold, please choose carefully",
         minipack = 0,
     },
+    [300551] = {
+        id = 300551,
+        text = "수, 토요일",
+        minipack = 0,
+    },
     [63984] = {
         id = 63984,
         text = "Marina Arusu",
-        minipack = 0,
-    },
-    [300555] = {
-        id = 300555,
-        text = "목요일",
         minipack = 0,
     },
     [63982] = {
@@ -121824,19 +121859,19 @@ return {
         text = "Inverse Tohka",
         minipack = 0,
     },
+    [300552] = {
+        id = 300552,
+        text = "월요일",
+        minipack = 0,
+    },
+    [224005] = {
+        id = 224005,
+        text = "쌍인참",
+        minipack = 0,
+    },
     [63980] = {
         id = 63980,
         text = "Rinne Sonogami",
-        minipack = 0,
-    },
-    [300556] = {
-        id = 300556,
-        text = "금요일",
-        minipack = 0,
-    },
-    [224007] = {
-        id = 224007,
-        text = "원무검참",
         minipack = 0,
     },
     [63979] = {
@@ -121844,14 +121879,14 @@ return {
         text = "Queen",
         minipack = 0,
     },
+    [300553] = {
+        id = 300553,
+        text = "화요일",
+        minipack = 0,
+    },
     [63974] = {
         id = 63974,
         text = "Limited Spirit Choice Chest - Timed",
-        minipack = 0,
-    },
-    [300557] = {
-        id = 300557,
-        text = "토, 일요일",
         minipack = 0,
     },
     [63968] = {
@@ -121864,6 +121899,16 @@ return {
         text = "Giving a gift costs Silvergrass*5 and Lunar Spring*5.",
         minipack = 0,
     },
+    [300554] = {
+        id = 300554,
+        text = "수요일",
+        minipack = 0,
+    },
+    [224006] = {
+        id = 224006,
+        text = "천행참",
+        minipack = 0,
+    },
     [63966] = {
         id = 63966,
         text = "Get a Moon God Gratitude Gift for each gift you give!",
@@ -121874,9 +121919,9 @@ return {
         text = "Exchanging has ended",
         minipack = 0,
     },
-    [224008] = {
-        id = 224008,
-        text = "빛나는 칼날",
+    [300555] = {
+        id = 300555,
+        text = "목요일",
         minipack = 0,
     },
     [63963] = {
@@ -121884,24 +121929,24 @@ return {
         text = "9.28: Exchange begins",
         minipack = 0,
     },
-    [15025] = {
-        id = 15025,
-        text = "터버 차져",
-        minipack = 0,
-    },
     [63960] = {
         id = 63960,
         text = "Recall Points",
         minipack = 0,
     },
-    [16049] = {
-        id = 16049,
-        text = "크림슨 나이트메어 파편",
-        minipack = 0,
-    },
     [63954] = {
         id = 63954,
         text = "Sharing is temporarily unavailable. Please check back for future announcements.",
+        minipack = 0,
+    },
+    [300556] = {
+        id = 300556,
+        text = "금요일",
+        minipack = 0,
+    },
+    [224007] = {
+        id = 224007,
+        text = "원무검참",
         minipack = 0,
     },
     [63951] = {
@@ -121914,9 +121959,9 @@ return {
         text = "Feather of Light 2022",
         minipack = 0,
     },
-    [224009] = {
-        id = 224009,
-        text = "검윤무",
+    [300557] = {
+        id = 300557,
+        text = "토, 일요일",
         minipack = 0,
     },
     [63949] = {
@@ -121939,9 +121984,19 @@ return {
         text = "Get from activity chests in the Bonds of Love event. Submit to participate in the physical reward prize draw. Can only be submitted once during the event. Sell in Bag for 1,000 Gold.",
         minipack = 0,
     },
+    [224008] = {
+        id = 224008,
+        text = "빛나는 칼날",
+        minipack = 0,
+    },
     [63942] = {
         id = 63942,
         text = "Weekly Quest Cap",
+        minipack = 0,
+    },
+    [15025] = {
+        id = 15025,
+        text = "터버 차져",
         minipack = 0,
     },
     [10401114] = {
@@ -121949,14 +122004,14 @@ return {
         text = "영역 제어",
         minipack = 0,
     },
+    [16049] = {
+        id = 16049,
+        text = "크림슨 나이트메어 파편",
+        minipack = 0,
+    },
     [10961011] = {
         id = 10961011,
         text = "공격속도",
-        minipack = 0,
-    },
-    [28002] = {
-        id = 28002,
-        text = "설정에서 데이트 텍스트의 표시 속도를 조정할 수 있어요.",
         minipack = 0,
     },
     [12069] = {
@@ -121967,6 +122022,11 @@ return {
     [27208] = {
         id = 27208,
         text = "고기 만두",
+        minipack = 0,
+    },
+    [224009] = {
+        id = 224009,
+        text = "검윤무",
         minipack = 0,
     },
     [10961221] = {
@@ -121994,11 +122054,6 @@ return {
         text = "Sally",
         minipack = 0,
     },
-    [224011] = {
-        id = 224011,
-        text = "낙성검",
-        minipack = 0,
-    },
     [13300416] = {
         id = 13300416,
         text = "바닷가에 도착한 시간이 너무 늦어서, 최고의 타이밍을 놓친 것 같다.",
@@ -122007,6 +122062,11 @@ return {
     [13310305] = {
         id = 13310305,
         text = "경고",
+        minipack = 0,
+    },
+    [28002] = {
+        id = 28002,
+        text = "설정에서 데이트 텍스트의 표시 속도를 조정할 수 있어요.",
         minipack = 0,
     },
     [13310349] = {
@@ -122034,11 +122094,6 @@ return {
         text = "얇은 심지는 위태롭게 흔들리고 있지만, 이상하게도 불씨는 꺼지지 않는다.",
         minipack = 0,
     },
-    [224012] = {
-        id = 224012,
-        text = "환검 격당",
-        minipack = 0,
-    },
     [32313] = {
         id = 32313,
         text = "Maple",
@@ -122047,6 +122102,11 @@ return {
     [12010147] = {
         id = 12010147,
         text = "1. 매주 월요일 10:00~일요일 22:00에 전체 서버에서 케루비엘 도전이 개방됩니다.\n2. 유저가 케루비엘을 공격할 때마다 일정량의 공헌도가 발생하며, 전체 서버의 총 공헌도에 합산됩니다. 전체 서버의 총 공헌도가 일정 조건에 도달하면 케루비엘의 난이도가 증가합니다.\n3. 도전 기회는 8시간마다 1회 획득할 수 있고, 도전 성과에 따라 개인 피해 보상, 개인 공헌도 보상, 전체 서버 공헌도 보상 등을 획득할 수 있습니다.\n4. 개인 피해 보상",
+        minipack = 0,
+    },
+    [224011] = {
+        id = 224011,
+        text = "낙성검",
         minipack = 0,
     },
     [27230] = {
@@ -122074,11 +122134,6 @@ return {
         text = "[Heat Soundwave] Pass EXP Compensation",
         minipack = 0,
     },
-    [224013] = {
-        id = 224013,
-        text = "스킬표",
-        minipack = 0,
-    },
     [12076] = {
         id = 12076,
         text = "회사원-여1",
@@ -122087,6 +122142,11 @@ return {
     [22180] = {
         id = 22180,
         text = "Month Card Reward Compensation",
+        minipack = 0,
+    },
+    [224012] = {
+        id = 224012,
+        text = "환검 격당",
         minipack = 0,
     },
     [250503] = {
@@ -122112,6 +122172,56 @@ return {
     [22173] = {
         id = 22173,
         text = "Ais Keepsake Choice Chest",
+        minipack = 0,
+    },
+    [20294] = {
+        id = 20294,
+        text = "Type: Costume\nOwner: Kurumi Tokisaki\nDon't do anything dangerous, or I'll have to take you into custody.",
+        minipack = 0,
+    },
+    [20289] = {
+        id = 20289,
+        text = "Kaede Honjo",
+        minipack = 0,
+    },
+    [224013] = {
+        id = 224013,
+        text = "스킬표",
+        minipack = 0,
+    },
+    [20288] = {
+        id = 20288,
+        text = "Type: Costume\nOwner: Yuzuru Yamai\nProphecy. I see your fate in the crystal ball. It tells me that your future is full of love.",
+        minipack = 0,
+    },
+    [20287] = {
+        id = 20287,
+        text = "Diviner's Prophecy",
+        minipack = 0,
+    },
+    [20286] = {
+        id = 20286,
+        text = "Type: Costume\nOwner: Yuzuru Yamai\nQuestion. Does it look strange on me?",
+        minipack = 0,
+    },
+    [16078] = {
+        id = 16078,
+        text = "Maple Fragment, used to activate Maple or increase her capability.",
+        minipack = 0,
+    },
+    [16077] = {
+        id = 16077,
+        text = "Maple Fragment",
+        minipack = 0,
+    },
+    [14079] = {
+        id = 14079,
+        text = "Found in China Town stores and used to level up stores in China Town. Can also be exchanged for exclusive anniversary items in Moon Tower - Chinese Coin Store.",
+        minipack = 0,
+    },
+    [14078] = {
+        id = 14078,
+        text = "Chinese Coin",
         minipack = 0,
     },
     [2470001] = {
@@ -122159,69 +122269,14 @@ return {
         text = "임의의 훈련카드 구매 시 획득",
         minipack = 0,
     },
-    [20294] = {
-        id = 20294,
-        text = "Type: Costume\nOwner: Kurumi Tokisaki\nDon't do anything dangerous, or I'll have to take you into custody.",
+    [14077] = {
+        id = 14077,
+        text = "China Town Fame Pts are used to increase China Town Fame.",
         minipack = 0,
     },
-    [20289] = {
-        id = 20289,
-        text = "Kaede Honjo",
-        minipack = 0,
-    },
-    [20288] = {
-        id = 20288,
-        text = "Type: Costume\nOwner: Yuzuru Yamai\nProphecy. I see your fate in the crystal ball. It tells me that your future is full of love.",
-        minipack = 0,
-    },
-    [20287] = {
-        id = 20287,
-        text = "Diviner's Prophecy",
-        minipack = 0,
-    },
-    [20286] = {
-        id = 20286,
-        text = "Type: Costume\nOwner: Yuzuru Yamai\nQuestion. Does it look strange on me?",
-        minipack = 0,
-    },
-    [16078] = {
-        id = 16078,
-        text = "Maple Fragment, used to activate Maple or increase her capability.",
-        minipack = 0,
-    },
-    [16077] = {
-        id = 16077,
-        text = "Maple Fragment",
-        minipack = 0,
-    },
-    [14079] = {
-        id = 14079,
-        text = "Found in China Town stores and used to level up stores in China Town. Can also be exchanged for exclusive anniversary items in Moon Tower - Chinese Coin Store.",
-        minipack = 0,
-    },
-    [112000105] = {
-        id = 112000105,
-        text = "Lv.60",
-        minipack = 0,
-    },
-    [112000169] = {
-        id = 112000169,
-        text = "179000$",
-        minipack = 0,
-    },
-    [112000233] = {
-        id = 112000233,
-        text = "이 옷이 저한테 잘 어울린다는 걸요.",
-        minipack = 0,
-    },
-    [112000297] = {
-        id = 112000297,
-        text = "여행·아이템 12",
-        minipack = 0,
-    },
-    [112000361] = {
-        id = 112000361,
-        text = "복장 선택상자",
+    [14076] = {
+        id = 14076,
+        text = "China Town Fame Pts",
         minipack = 0,
     },
     [12953] = {
@@ -122254,29 +122309,34 @@ return {
         text = "DEF +10% for 8s",
         minipack = 0,
     },
-    [190011066] = {
-        id = 190011066,
-        text = "DMG dealt -10% for 8s",
+    [112000105] = {
+        id = 112000105,
+        text = "Lv.60",
         minipack = 0,
     },
-    [190011064] = {
-        id = 190011064,
-        text = "Damage Immunity -15%",
+    [112000169] = {
+        id = 112000169,
+        text = "179000$",
         minipack = 0,
     },
-    [190011063] = {
-        id = 190011063,
-        text = "ATK Speed +10%",
+    [112000233] = {
+        id = 112000233,
+        text = "이 옷이 저한테 잘 어울린다는 걸요.",
+        minipack = 0,
+    },
+    [112000297] = {
+        id = 112000297,
+        text = "여행·아이템 12",
+        minipack = 0,
+    },
+    [112000361] = {
+        id = 112000361,
+        text = "복장 선택상자",
         minipack = 0,
     },
     [190011059] = {
         id = 190011059,
         text = "Movement Speed -15%",
-        minipack = 0,
-    },
-    [28003] = {
-        id = 28003,
-        text = "정령이 기쁘지 않을 때는 전투 시 능력에도 영향을 끼친답니다.",
         minipack = 0,
     },
     [190011057] = {
@@ -122324,6 +122384,11 @@ return {
         text = "Gets extra 20% damage based on the current overall damage bonus",
         minipack = 0,
     },
+    [28003] = {
+        id = 28003,
+        text = "정령이 기쁘지 않을 때는 전투 시 능력에도 영향을 끼친답니다.",
+        minipack = 0,
+    },
     [190011041] = {
         id = 190011041,
         text = "DMG Immunity +5%s for 5s. Stacks up to 2 times.",
@@ -122342,6 +122407,51 @@ return {
     [190011031] = {
         id = 190011031,
         text = "Frost DMG +10%",
+        minipack = 0,
+    },
+    [190011030] = {
+        id = 190011030,
+        text = "ATK +2% for 5s. Stacks up to 5 times.",
+        minipack = 0,
+    },
+    [190011027] = {
+        id = 190011027,
+        text = "Dark DMG +20%",
+        minipack = 0,
+    },
+    [190001329] = {
+        id = 190001329,
+        text = "Timed Quest",
+        minipack = 0,
+    },
+    [190001328] = {
+        id = 190001328,
+        text = "Login Gift",
+        minipack = 0,
+    },
+    [190001327] = {
+        id = 190001327,
+        text = "Weekly Chances %s",
+        minipack = 0,
+    },
+    [190001325] = {
+        id = 190001325,
+        text = "Win in Story Instance (Hard) %s times",
+        minipack = 0,
+    },
+    [190001324] = {
+        id = 190001324,
+        text = "Summon in Sharam - Keystone Exchange %s times",
+        minipack = 0,
+    },
+    [190001322] = {
+        id = 190001322,
+        text = "Request Airdrop supply %s times",
+        minipack = 0,
+    },
+    [190001321] = {
+        id = 190001321,
+        text = "Join Demon King Trials %s times",
         minipack = 0,
     },
     [10601001] = {
@@ -122419,14 +122529,14 @@ return {
         text = "뇌전 확충",
         minipack = 0,
     },
-    [190011030] = {
-        id = 190011030,
-        text = "ATK +2% for 5s. Stacks up to 5 times.",
+    [190001320] = {
+        id = 190001320,
+        text = "Complete Handcraft or Cooking %s times",
         minipack = 0,
     },
-    [190011027] = {
-        id = 190011027,
-        text = "Dark DMG +20%",
+    [190001319] = {
+        id = 190001319,
+        text = "Game patch has been removed from stores/website on 00:00, April 8, 2022 (UTC -7), and new user registration is not available. Please be aware of this. ",
         minipack = 0,
     },
     [190001318] = {
@@ -123346,12 +123456,12 @@ return {
     },
     [190001131] = {
         id = 190001131,
-        text = "Summon in Rinne Sonogami's character pool %s times ",
+        text = "Summon in Rinne's character pool %s times ",
         minipack = 0,
     },
     [190001130] = {
         id = 190001130,
-        text = "Summon in Rio Sonogami's character pool %s times ",
+        text = "Summon in Rio's character pool %s times ",
         minipack = 0,
     },
     [190015065] = {
@@ -130286,7 +130396,7 @@ return {
     },
     [1705403] = {
         id = 1705403,
-        text = "WeChat 공식계정 이벤트·공주의 회상 참가 시 해당 CG 수령 가능.",
+        text = "Join Tohka's birthday login event to claim this CG ",
         minipack = 0,
     },
     [300979] = {
@@ -240339,9 +240449,9 @@ return {
         text = "현재 출전 정령 사용 시 7초 동안 HP가 50%로 감소되며 동시에 공격력이 33% 증가한다",
         minipack = 0,
     },
-    [3210253] = {
-        id = 3210253,
-        text = "현재 출전 정령 사용 시 6초 동안 HP가 50%로 감소되며 동시에 공격력이 27% 증가한다",
+    [25300] = {
+        id = 25300,
+        text = "Support Points",
         minipack = 0,
     },
     [3210251] = {
@@ -241299,9 +241409,9 @@ return {
         text = "히든 카드 IV",
         minipack = 0,
     },
-    [3207041] = {
-        id = 3207041,
-        text = "자세 변경 IV",
+    [25303] = {
+        id = 25303,
+        text = "Can be used to buy items in the event store",
         minipack = 0,
     },
     [3207039] = {
